@@ -1,0 +1,30 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Sectietabbladen op persoon
+  href: screen/toc.yml
+  topicHref: screen/index.md
+- name: Werken met persoon
+  topicHref: create.md
+  items:
+  - name: Nieuwe persoon maken
+    href: create.md
+  - name: Persoon bewerken
+    href: edit.md
+  - name: Een persoon verplaatsen
+    href: move.md
+  - name: Personen samenvoegen
+    href: merge-contacts.md
+  - name: Een persoon verwijderen
+    href: delete.md
+  - name: E-mail verzenden naar een contactpersoon
+    href: send-email.md
+  - name: Relatie toevoegen
+    href: add-relation.md
+  - name: Relatie verwijderen
+    href: delete-relation.md
+  - name: Afdrukken
+    href: print.md
+- name: Privacy-instellingen en AVG
+  href: ../../security/privacy/learn/toc.yml
+  topicHref: ../../security/privacy/learn/index.md

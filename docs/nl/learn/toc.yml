@@ -1,0 +1,247 @@
+items:
+  - name: Welkom
+    href: index.md
+  - name: Aan de slag
+    href: getting-started/toc.yml
+    topicHref: getting-started/index.md
+  - name: De basis leren
+    href: basics/toc.yml
+    topicHref: basics/index.md
+  - name: Zoekopties
+    href: ../search-options/learn/toc.yml
+    topicHref: ../search-options/learn/index.md
+  - name: Dashboard
+    href: ../dashboard/learn/toc.yml
+    topicHref: ../dashboard/learn/index.md
+  - name: Bedrijf
+    href: ../company/learn/toc.yml
+    topicHref: ../company/learn/index.md
+  - name: Persoon
+    href: ../contact/learn/toc.yml
+    topicHref: ../contact/learn/index.md
+  - name: Agenda
+    href: ../diary/learn/toc.yml
+    topicHref: ../diary/learn/index.md
+  - name: Document
+    href: ../document/learn/toc.yml
+    topicHref: ../document/learn/index.md
+  - name: E-mail
+    href: ../email/learn/toc.yml
+    topicHref: ../email/learn/index.md
+  - name: Verkoop
+    href: ../sale/learn/toc.yml
+    topicHref: ../sale/learn/index.md
+  - name: Project
+    href: ../project/learn/toc.yml
+    topicHref: ../project/learn/index.md
+  - name: Verzoeken
+    href: ../request/learn/toc.yml
+    topicHref: ../request/learn/index.md
+  - name: Selectie
+    href: ../search-options/selection/learn/toc.yml
+    topicHref: ../search-options/selection/learn/index.md
+  - name: Chatten
+    href: ../chat/learn/toc.yml
+    topicHref: ../chat/learn/index.md
+  - name: Rapporten
+    href: ../reports/learn/toc.yml
+    topicHref: ../reports/learn/index.md
+  - name: Marketing
+    href: ../marketing/learn/toc.yml
+    topicHref: ../marketing/learn/index.md
+  - name: Formulieren
+    href: ../marketing/forms/learn/toc.yml
+    topicHref: ../marketing/forms/learn/index.md
+
+  - name: Kennisdatabase
+    topicHref: ../request/learn/screen/knowledge-base.md
+    items:
+    - name: Overzicht
+      href: ../request/learn/screen/knowledge-base.md
+    - name: Antwoordsjablonen
+      href: ../request/reply-templates/learn/toc.yml
+      topicHref: ../request/reply-templates/learn/index.md
+    - name: Veelgestelde vragen
+      href: ../faq/learn/toc.yml
+      topicHref: ../faq/learn/index.md
+    - name: E-mailadressen
+      href: ../email/service/learn/kb-aliases/toc.yml
+      topicHref: ../email/service/learn/kb-aliases/index.md
+    - name: Externe documenten
+      href: ../request/learn/external-document.md
+
+  - name: SAINT (Sales Intelligence)
+    href: ../sale/saint/learn/toc.yml
+    topicHref: ../sale/saint/learn/index.md
+
+  - name: Mobile CRM
+    href: ../mobile/superoffice-mobile/learn/toc.yml
+    topicHref: ../mobile/superoffice-mobile/learn/index.md
+
+  - name: Aanpassing
+    href: customization.yml
+    items:
+    - name: Overzicht
+      href: customization.yml
+    - name: Lijsten
+      href: ../admin/lists/learn/toc.yml
+      topicHref: ../admin/lists/learn/index.md
+    - name: Voorkeuren
+      href: ../admin/preferences/learn/toc.yml
+      topicHref: ../admin/preferences/learn/index.md
+    - name: Privacy
+      href: ../security/privacy/learn/admin/toc.yml
+      topicHref: ../security/privacy/learn/implementation-guide.md
+    - name: Offerte/Synchroniseren
+      href: ../quote/learn/admin/toc.yml
+      topicHref: ../quote/learn/admin/index.md
+
+    - name: Workflow
+      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      items:
+      - name: Verkoopgids
+        href: ../sale/learn/screen/sales-guide-admin.md
+        items:
+        - name: Overzicht
+          href: ../sale/learn/screen/sales-guide-admin.md
+        - name: Nieuwe verkoopgids maken
+          href: ../sale/learn/sales-guide/create.md
+        - name: Verkoopgids bewerken
+          href: ../sale/learn/sales-guide/edit.md
+        - name: Een verkoopgids deactiveren
+          href: ../sale/learn/sales-guide/deactivate.md
+      - name: Projectgids
+        href: ../project/learn/screen/project-guide-admin.md
+        items:
+        - name: Overzicht
+          href: ../project/learn/screen/project-guide-admin.md
+        - name: Een nieuwe projectgids maken
+          href: ../project/learn/project-guide/create.md
+        - name: Projectgids bewerken
+          href: ../project/learn/project-guide/edit.md
+        - name: Projectgids deactiveren
+          href: ../project/learn/project-guide/deactivate.md
+
+    - name: Aangepaste objecten
+      href: ../custom-objects/learn/toc.yml
+      topicHref: ../custom-objects/learn/index.md
+
+    - name: Gebruikersinterface
+      topicHref: ../ui/screen-designer/learn/index.md
+      items:
+      - name: Schermontwerper
+        href: ../ui/screen-designer/learn/toc.yml
+
+    - name: Opties
+      href: ../admin/options/learn/toc.yml
+      topicHref: ../admin/options/learn/index.md
+
+    - name: Chatten
+      href: ../chat/learn/admin/index.md
+      items:
+      - name: Overzicht
+        href: ../chat/learn/admin/index.md
+      - name: Een chatkanaal maken
+        href: ../chat/learn/admin/channel-create.md
+      - name: JavaScript voor uw website toevoegen
+        href: ../chat/learn/admin/add-javascript.md
+
+    - name: CRMScript
+      href: ../automation/crmscript/learn/toc.yml
+      topicHref: ../automation/crmscript/learn/index.md
+
+    - name: Verzoeken
+      topicHref: ../request/learn/admin/index.md
+      items:
+      - name: Overzicht
+        href: ../request/learn/admin/index.md
+      - name: Categorieën
+        href: ../request/learn/category/index.md
+        items:
+        - name: Overzicht
+          href: ../request/learn/category/index.md
+        - name: Verzoekcategorie aanmaken
+          href: ../request/learn/category/create.md
+        - name: Verzoekcategorie verwijderen
+          href: ../request/learn/category/delete.md
+      - name: Prioriteiten
+        href: ../request/learn/priority/index.md
+        items:
+        - name: Overzicht
+          href: ../request/learn/priority/index.md
+        - name: Prioriteit maken
+          href: ../request/learn/priority/create.md
+        - name: Prioriteit verwijderen
+          href: ../request/learn/priority/delete.md
+        - name: Escalatieniveaus maken
+          href: ../request/learn/priority/escalation-levels.md
+      - name: Verzoekstatus
+        href: ../request/learn/status/index.md
+        items:
+        - name: Overzicht
+          href: ../request/learn/status/index.md
+        - name: Verzoekstatus maken
+          href: ../request/learn/status/create.md
+        - name: Verzoekstatus verwijderen
+          href: ../request/learn/status/delete.md
+        - name: Volgend verzoek in wachtrij ophalen
+          href: ../request/learn/next-in-queue.md
+      - name: E-mail
+        href: ../email/service/learn/toc.yml
+        topicHref: ../email/service/learn/index.md
+      - name: Systeemsjablonen
+        href: ../request/learn/screen/system-templates.md
+
+    - name: Klantportaal
+      href: ../customer-center/learn/toc.yml
+      topicHref: ../customer-center/learn/index.md
+
+    - name: Systeemontwerp
+      href: ../ui/blogic/learn/toc.yml
+      topicHref: ../ui/blogic/learn/index.md
+
+    - name: SAINT (Sales Intelligence)
+      href: ../sale/saint/learn/admin/toc.yml
+      topicHref: ../sale/saint/learn/admin/index.md
+
+    - name: Lokaal
+      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
+      items:
+      - name: Gegevensuitwisseling
+        href: ../automation/crmscript/learn/screen/data-exchange.md
+      - name: SOAP overzicht
+        href: ../admin/learn/screen/soap-config.md
+      - name: SOAP-interface configureren
+        href: ../admin/learn/configure-soap.md
+
+  - name: Beheer en systeeminstellingen
+    href: administration.yml
+    items:
+    - name: Overzicht
+      href: administration.yml
+    - name: Weergaven in Instellingen en onderhoud aanpassen
+      href: ../admin/learn/adjusting-views.md
+    - name: Gebruikersbeheer
+      href: ../admin/user-management/learn/toc.yml
+      topicHref: ../admin/user-management/learn/index.md
+    - name: Licenties
+      href: ../admin/license/learn/toc.yml
+      topicHref: ../admin/license/learn/index.md
+    - name: Import
+      href: ../admin/import/learn/toc.yml
+      topicHref: ../admin/import/learn/index.md
+    - name: Systeemgebeurtenissen
+      topicHref: ../admin/learn/system-events.md
+      items:
+      - name: Overzicht
+        href: ../admin/learn/system-events.md
+      - name: Systeemgebeurtenis toevoegen
+        href: ../admin/learn/add-system-event.md
+
+    - name: AI-diensten
+      href: ../ai/learn/toc.yml
+      topicHref: ../ai/learn/index.md
+
+  - name: Windows Client-instellingen
+    href: ../onsite/win-client/learn/toc.yml
+    topicHref: ../onsite/win-client/learn/index.md

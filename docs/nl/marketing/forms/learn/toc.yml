@@ -1,0 +1,26 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Formulieren weergeven
+  href: view.md
+- name: Werken met formulieren
+  topicHref: form-templates.md
+  items:
+  - name: Nieuw formulier maken
+    href: create.md
+  - name: Veldopties
+    href: field-options.md
+  - name: Formulieren publiceren
+    href: publish.md
+  - name: Vooraf ingevulde velden gebruiken
+    href: form-prefilled.md
+  - name: Voorbeelden
+    href: examples.md
+- name: Formulierverzendingen
+  topicHref: submissions/index.md
+  items:
+  - name: Formulierverzendingen traceren en statistieken weergeven
+    href: submissions/track.md
+  - name: Formulierverzendingen verwerken
+    href: submissions/process.md
+  
