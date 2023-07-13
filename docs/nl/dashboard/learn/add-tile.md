@@ -80,7 +80,7 @@ Kies het gewenste grafiektype en de benodigde instellingen. De uitvoer van de te
 [1]: edit-tile.md
 [2]: ../../search-options/selection/learn/howto/display-as-charts.md
 [3]: remove-tile.md
-[4]: ../../search-options/learn/using-search-criteria.md
+[4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->

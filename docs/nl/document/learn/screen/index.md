@@ -28,7 +28,7 @@ Het hoofdonderdeel bevat de volgende essentiële informatie over het document:
 
 ### Documentsjabloon
 
-Klik op de pijl ![pictogram][img1] naast het typeveld boven in het dialoogvenster, zodat een lijst met documentsjablonen wordt weergegeven waaruit u een keuze kunt maken. [!include[SM](../../../learn/includes/are-defined-sm.md)] U kunt hier ook gebruiken maken van [Snel zoeken][6].
+Klik op de pijl ![pictogram][img1] naast het typeveld boven in het dialoogvenster, zodat een lijst met documentsjablonen wordt weergegeven waaruit u een keuze kunt maken. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 > [!NOTE]
 > Wanneer u [een document maakt][5], wordt de sjabloon geopend in het programma waarin de sjabloon is gemaakt. DOCX-bestanden worden bijvoorbeeld geopend in Word.
@@ -145,7 +145,6 @@ Dit tabblad bevat alle velden die in Instellingen en onderhoud zijn [gedefinieer
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../learn/activity/linking-documents-to-follow-ups.md

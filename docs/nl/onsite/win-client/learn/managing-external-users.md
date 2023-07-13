@@ -21,10 +21,10 @@ Als in Instellingen en onderhoud het recht **Beheren van externe gebruikers toes
     U kunt op diverse manieren het scherm Bedrijf openen:
 
     * Klik op de knop **Bedrijf** in de navigator.
-    * Door de [historielijst][1] of [Snel zoeken][2] te gebruiken.
+    * Door de [historielijst][1] of navigator zoeken te gebruiken.
     * Dubbelklik op een bedrijf in een zoekresultaat of in een selectie.
 
-2. Klik op ![pictogram][img1] **Taak** &gt; **Externe gebruikers**. Het dialoogvenster **Externe gebruikers** wordt weergegeven.
+2. Klik op ![pictogram][img1] **Taak** > **Externe gebruikers**. Het dialoogvenster **Externe gebruikers** wordt weergegeven.
 
 3. Volg een van de onderstaande procedures.
 
@@ -49,8 +49,7 @@ Selecteer de contactpersoon waarvoor u de aanmelding wilt verwijderen en klik op
 Door middel van de keuzelijst **Weergeven** rechtsonder in het dialoogvenster kunt u de lijst contactpersonen filteren op gebruikerstatus.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
-[2]: ../../../search-options/learn/using-fastsearcher.md
+[1]: ../../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

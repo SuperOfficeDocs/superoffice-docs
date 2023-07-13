@@ -38,7 +38,7 @@ Gebruik deze optie om de geselecteerde records toe te voegen aan een bestaande s
 
 2. Selecteer een of meer records in de lijst.
 
-    Om meerdere records toe te voegen, gebruikt u **Shift** of **Ctrl** \+ klikken.
+    Om meerdere records toe te voegen, gebruikt u **Shift** of **Ctrl** + klikken.
 
 3. Klik met de rechtermuisknop op de records en selecteer **Toevoegen aan selectie** in het menu dat verschijnt.
 
@@ -47,9 +47,9 @@ Gebruik deze optie om de geselecteerde records toe te voegen aan een bestaande s
     > [!NOTE]
     > De lijst met selecties is beperkt tot:
     >
-    > \* Bestaande *statische* selecties (geen dynamische selecties of gecombineerde selecties)
+    > * Bestaande *statische* selecties (geen dynamische selecties of gecombineerde selecties)
     >
-    > \* Selecties die overeenkomen met de records die u toevoegt (als u verkopen selecteert, worden alleen selecties van verkopen getoond)
+    > * Selecties die overeenkomen met de records die u toevoegt (als u verkopen selecteert, worden alleen selecties van verkopen getoond)
     >
     > Als de lijst leeg is, zijn er geen bestaande selecties van dit type.
 
@@ -62,7 +62,7 @@ Gebruik deze optie om de geselecteerde records toe te voegen aan een bestaande s
 2. Selecteer een of meer records in de lijst.
 
     > [!NOTE]
-    > Om meerdere records toe te voegen, gebruikt u **Shift** of **Ctrl** \+ klikken.
+    > Om meerdere records toe te voegen, gebruikt u **Shift** of **Ctrl** + klikken.
 
 3. Klik met de rechtermuisknop op de records en selecteer **Toevoegen aan selectie** in het menu dat verschijnt.
 
@@ -107,7 +107,7 @@ Gebruik deze optie om de geselecteerde records toe te voegen aan een bestaande s
 
 <!-- Referenced links -->
 [2]: ../../../learn/find-screen.md
-[5]: ../../../learn/using-search-criteria.md
+[5]: ../../../learn/search-criteria.md
 [3]: copy-members-to.md
 [4]: ../../../../learn/getting-started/index.md
 

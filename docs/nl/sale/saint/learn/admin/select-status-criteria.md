@@ -43,7 +43,7 @@ Besteed wat tijd aan het instellen van de juiste statuscriteria, omdat u ervoor 
 * [Statuscontroles beheren][2]
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

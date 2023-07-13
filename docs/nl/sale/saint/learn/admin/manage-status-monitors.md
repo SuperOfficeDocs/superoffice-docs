@@ -47,7 +47,7 @@ U moet deze statussen dan opnieuw genereren door te klikken op een van deze knop
 | ![pictogram][img2] | Alle tellers regenereren | Selecteer om alle tellers te regenereren |
 
 <!-- Referenced links -->
-[1]: ../../../../search-options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/search-criteria.md
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->

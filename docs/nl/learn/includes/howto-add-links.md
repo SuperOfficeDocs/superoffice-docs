@@ -18,4 +18,4 @@
 Een stip op de koptekst van het tabblad **Link** geeft aan de verkoop een koppeling heeft.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
+[1]: ../basics/history.md

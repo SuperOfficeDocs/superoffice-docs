@@ -16,7 +16,7 @@ Op het tabblad **Afbeelding** kunt u een afbeelding voor het project toevoegen. 
 1. Open het scherm Project. Voer een van de volgende handelingen uit:
 
     * Klik op de knop **Project**in de Navigator.
-    * Gebruik de [historielijst][1] of [Snel zoeken][2].
+    * Gebruik de [historielijst][1] of navigator zoeken.
     * Dubbelklik op een project in een zoekresultaat of op het sectietabblad **Project** in het scherm Bedrijf.
 
 2. Selecteer het tabblad **Afbeelding**.
@@ -38,5 +38,4 @@ Op het tabblad **Afbeelding** kunt u een afbeelding voor het project toevoegen. 
     > klik op **Verwijderen** links van de beschrijving om een actieve projectafbeelding te verwijderen.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
-[2]: ../../search-options/learn/using-fastsearcher.md
+[1]: ../../learn/basics/history.md

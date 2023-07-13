@@ -18,12 +18,12 @@ Met Bulkgewijs bijwerken kunt u in meerdere records tegelijk waarden wijzigen va
 2. Selecties: Klik op de knop **Taak** en selecteer **Bulkgewijs bijwerken**.
     of
     Selecteer de records die u wilt bijwerken, klik er met de rechtermuisknop op en selecteer **Bulkgewijs bijwerken...**.
-    Het dialoogvenster **Bulkgewijs bijwerken** wordt geopend. Onder aan dit dialoogvenster kunt u het type record zien en hoeveel records er moeten worden bijgewerkt. Bijvoorbeeld: Aantal personen in wachtrij voor bulkgewijs bijwerken: 7\.
+    Het dialoogvenster **Bulkgewijs bijwerken** wordt geopend. Onder aan dit dialoogvenster kunt u het type record zien en hoeveel records er moeten worden bijgewerkt. Bijvoorbeeld: Aantal personen in wachtrij voor bulkgewijs bijwerken: 7.
 
     > [!NOTE]
     > Als de selectie zowel bedrijven als personen bevat, zijn er twee tabbladen: **Bedrijf** en **Persoon**.
 
-3. Selecteer een veld dat u wilt bijwerken in de kolom **Veld**. U kunt [de naam ook in het veld typen][1]. Terwijl u elke letter typt, worden in de onderstaande lijst alle overeenkomsten weergegeven die relevant zijn voor de geselecteerde records.
+3. Selecteer een veld dat u wilt bijwerken in de kolom **Veld**. U kunt de naam ook in het veld typen. Terwijl u elke letter typt, worden in de onderstaande lijst alle overeenkomsten weergegeven die relevant zijn voor de geselecteerde records.
 
 4. Selecteer een actie in de kolom **Actie**. De beschikbare acties zijn afhankelijk van het type veld dat u in de vorige stap hebt geselecteerd. Voorbeelden:
 
@@ -91,7 +91,6 @@ U ontdekt dat het contactveld **Positie** zelden wordt gebruikt. Omdat u in elk 
 U wilt alle “oude” projecten opschonen die niet zijn ingesteld als voltooid. Maak een selectie van al uw oude projecten, bijvoorbeeld van alle projecten die meer dan 2 jaar geleden zijn gemaakt en die de laatste jaren niet zijn bijgewerkt. Gebruik **Bulkgewijs bijwerken** om de status **Voltooid** voor deze projecten in stellen als **Ja**.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-selected.png

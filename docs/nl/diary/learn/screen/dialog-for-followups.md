@@ -27,7 +27,7 @@ Het hoofdonderdeel bevat de volgende essentiële informatie over de vervolgactiv
 
 ### Type
 
-Als u klikt op de pijl naast dit veld (![pictogram][img2]), wordt een vooraf gedefinieerde lijst weergegeven waarin u een type vervolgactiviteit kunt kiezen, zoals Vergadering of Uitgaand gesprek. U kunt ook zoeken naar typen door in dit veld te typen. U kunt hier ook gebruiken maken van [Snel zoeken][12].
+Als u klikt op de pijl naast dit veld (![pictogram][img2]), wordt een vooraf gedefinieerde lijst weergegeven waarin u een type vervolgactiviteit kunt kiezen, zoals Vergadering of Uitgaand gesprek. U kunt ook zoeken naar typen door in dit veld te typen.
 
 > [!NOTE]
 > De inhoud van het veld **Type** bepaalt om wat voor type vervolgactiviteit het gaat: een afspraak, een taak of een gesprek.
@@ -169,7 +169,6 @@ Op dit tabblad worden alle [aangepaste velden][14] weergegeven die zijn geconfig
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md
-[12]: ../../../search-options/learn/using-fastsearcher.md
 [13]: ../../../learn/getting-started/preferences.md
 [14]: ../../../custom-objects/learn/index.md
 

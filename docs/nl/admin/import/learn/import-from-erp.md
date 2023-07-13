@@ -55,7 +55,7 @@ Boven elke lijst wordt een koppeling weergegeven naar de selectie met de nieuwe/
 > Als u geïmporteerde actors uit SuperOffice wilt verwijderen, gebruikt u de selectie.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->

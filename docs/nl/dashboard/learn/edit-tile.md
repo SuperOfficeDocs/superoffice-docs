@@ -26,7 +26,7 @@ language: nl
 7. Klik op **Opslaan**.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-search-criteria.md
+[1]: ../../search-options/learn/search-criteria.md
 [2]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->

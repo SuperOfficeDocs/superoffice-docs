@@ -2,8 +2,8 @@
 uid: help-nl-time-zones
 title: Tijdzones
 description: Tijdzones
-author: SuperOffice RnD
-so.date: 07.04.2022
+author: Bergfrid Dias
+so.date: 05.25.2023
 keywords: CRM
 so.topic: concept
 language: nl
@@ -14,7 +14,7 @@ language: nl
 SuperOffice CRM ondersteunt vervolgactiviteiten in verschillende tijdzones. Tijdzones worden ingeschakeld als er een keuzelijst is voor het selecteren van een tijdzone linksonder in de agenda (vlag en land).
 
 > [!NOTE]
-> Het gebruik van tijdzones moet per land zijn ingeschakeld in Instellingen en onderhoud (onder **Opties** &gt; **Tijdzones**). Daarnaast kunt u naar **Voorkeuren** gaan om de tijdzonekiezer weer te geven en de standaardtijdzone in te stellen. Meer hulp bij het instellen van tijdzones is daar ook te vinden.
+> Het gebruik van tijdzones moet per land zijn ingeschakeld in Instellingen en onderhoud (onder **Opties** > **Tijdzones**). Daarnaast kunt u naar **Voorkeuren** gaan om de tijdzonekiezer weer te geven en de standaardtijdzone in te stellen. Meer hulp bij het instellen van tijdzones is daar ook te vinden.
 
 ## Hoe werken tijdzones in SuperOffice CRM?
 
@@ -31,9 +31,17 @@ Deze functie ondersteunt zomertijd.
 
 Tijdzones worden weergegeven in een keuzelijst in [Agenda][1] en in het [dialoogvenster voor vervolgactiviteiten][3]. De standaard tijdzone voor uw SuperOffice-database wordt bovenaan weergegeven met behulp van dit pictogram: ![pictogram][img1].
 
-De tijdzonelijst wordt gesorteerd op land. Boven aan de lijst bevindt zich de naam en de vlag van het geselecteerde land. U kunt op verschillende manieren naar de tijdzonelijst gaan:
+De tijdzonelijst wordt gesorteerd op land. Boven aan de lijst bevindt zich de naam en de vlag van het geselecteerde land.
 
-* Gebruik het veld bovenaan met het geselecteerde land en de vlag als zoekveld. U kunt op dezelfde manier in het veld met tijdzones zoeken als in de velden [Snel zoeken][2] en u kunt zowel op landen als op steden zoeken, mits de stad in de tijdzonegegevens is opgenomen. Als u bijvoorbeeld de tijdzone voor Canberra niet weet, kunt u zoeken naar Canberra en de bijbehorende Australische tijdzone in de lijst vinden.
+## Op landen en op steden zoeken
+
+Gebruik het veld bovenaan met het geselecteerde land en de vlag als zoekveld. U kunt zowel op landen als op steden zoeken, mits de stad in de tijdzonegegevens is opgenomen. Als u bijvoorbeeld de tijdzone voor Canberra niet weet, kunt u zoeken naar Canberra en de bijbehorende Australische tijdzone in de lijst vinden.
+
+1. Plaats de muisaanwijzer in het landveld.
+2. Voer de naam van de stad of het land in waarvoor u de tijdzone wilt zoeken.
+3. Nadat u de gewenste stad of het land hebt gevonden, klikt u op het item om de gewenste tijdzone in te schakelen.
+
+## Naar een aantal uren te zoeken
 
 * Door naar een aantal uren te zoeken om de juiste tijdzone te vinden. Als u bijvoorbeeld +3 invoert, worden alle tijdzones drie uur na de tijdzone die is opgegeven in SuperOffice CRM weergegeven.
 
@@ -48,7 +56,6 @@ De tijdzonelijst wordt gesorteerd op land. Boven aan de lijst bevindt zich de na
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
-[2]: ../../search-options/learn/using-fastsearcher.md
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->

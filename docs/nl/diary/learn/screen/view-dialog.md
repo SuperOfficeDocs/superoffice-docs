@@ -35,7 +35,7 @@ Wanneer u een optie selecteert uit **Selecteer uit**, wordt eronder een keuzelij
 
 * Als u **Medewerkers** hebt geselecteerd, wordt er een lijst met gebruikersgroepen in uw organisatie weergegeven. U kunt ook **Alle** selecteren om u alle gebruikers in uw organisatie te zien.
 
-* Als u **Project** hebt geselecteerd, wordt de historielijst met projecten weergegeven. Hier kunt u tevens [Snel zoeken][6] of de [historielijst][5] gebruiken.
+* Als u **Project** hebt geselecteerd, wordt de historielijst met projecten weergegeven.
 
 * Als u **Bron** hebt geselecteerd, wordt er een lijst met bronnen in uw organisatie weergegeven. De lijst wordt gedefinieerd in Instellingen en onderhoud. Selecteer **Alle** om alle bronnen in uw organisatie te zien.
 
@@ -70,8 +70,6 @@ Sluit het dialoogvenster zonder wijzigingen op te slaan.
 [1]: ../create-view.md
 [2]: ../open.md
 [4]: ../create-follow-up.md
-[5]: ../../../search-options/learn/using-history-list.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/arrow-right.png

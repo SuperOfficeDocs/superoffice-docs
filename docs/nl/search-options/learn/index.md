@@ -3,7 +3,7 @@ uid: help-nl-search-intro
 title: Zoekopties in CRM
 description: Leer hoe u met slechts een paar klikken gegevens kunt zoeken en vinden in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 12.14.2022
+so.date: 05.25.2023
 keywords: zoeken, zoeken
 so.topic: concept
 language: nl
@@ -13,19 +13,7 @@ language: nl
 
 Zoeken naar informatie in uw CRM-database is iets wat u elke dag doet. Of u nu op zoek bent naar een telefoonnummer of een lijst met al uw openstaande verkopen, de zoekfunctie helpt u de informatie sneller te vinden.
 
-De volgende handleidingen zullen:
-
-* De verschillende manieren tonen waarop u informatie kunt vinden in de SuperOffice CRM-database.
-* Uitleggen hoe u uw zoekopdrachten als selectie kunt opslaan.
-* Laten zien welke taken u kunt uitvoeren met uw zoekopdrachten of selecties.
-
-Met SuperOffice Find kunt u zoeken naar een enkel gegevensdetail, zoals een telefoonnummer, of een lijst met gegevens, zoals een lijst met ontvangers van mailing.
-
-SuperOffice CRM bevat verschillende zoekfuncties:
-
-* [Snel zoeken][3]
-* [De knop Zoeken][1]
-* [Veld voor Vrije-tekst zoekbewerking][2]
+De volgende handleidingen zullen: De verschillende manieren tonen waarop u informatie kunt vinden in de SuperOffice CRM-database; Uitleggen hoe u uw zoekopdrachten als selectie kunt opslaan; Laten zien welke taken u kunt uitvoeren met uw zoekopdrachten of selecties.
 
 ## Waar kunt u op zoeken?
 
@@ -42,33 +30,38 @@ SuperOffice CRM bevat verschillende zoekfuncties:
 * Formulierverzendingen
 * Mailings
 
-## De functie Snel zoeken gebruiken
+## Zoekfuncties
 
-U kunt de optie [Snel zoeken][3] of de [Historielijst][5] gebruiken om te zoeken naar bedrijven, verkopen, projecten en selecties.
+SuperOffice CRM bevat verschillende zoekfuncties:
 
-**Snel zoeken** kan worden gevonden in het **Navigator-menu** door op het bedrijf, contact, verkoop, project of selectie te drukken en zo een zoekveld te openen, of in pop-upvensters om te zoeken naar bedrijven, contacten, verkoop, projecten en selecties.
+* [Snel zoeken][3]
+* [De knop Zoeken][1]
+* [Veld voor Vrije-tekst zoekbewerking][2]
 
-Het zal snel een lijst maken die overeenkomt met uw zoekwoorden. Gebruik het om uw database te controleren op mogelijke duplicaten voordat u een nieuw bedrijf of persoon toevoegt.
+Kies het juiste gereedschap voor je taak:
+
+| Taak | Functie |
+|---|---|
+| Navigeer snel en eenvoudig. | Snel zoeken in navigator of de historielijst. |
+| Controleren op mogelijke duplicaten voordat u een nieuw bedrijf of persoon toevoegt. | Snel zoeken in navigator |
+| Hitta poster baserat på eventuella kriterier | De knop Zoeken |
+| Een zoekopdracht opslaan als een selectie | De knop Zoeken |
+| Gebruik frequente zoekacties | De knop Zoeken |
+| Mm te zoeken naar tekst die gebruikers hebben ingevoerd in SuperOffice CRM. | Vrije-tekst zoekbewerking |
+
+Het grootste verschil tussen deze gereedschappen is of je sleutelwoorden of voorwaarden opgeeft.
+
+## <a id="fastsearcher" />De functie Snel zoeken gebruiken
+
+**Snel zoeken** kan worden gevonden in het **Navigator-menu** of in pop-upvensters. Het zal snel een lijst maken die overeenkomt met uw zoekwoorden.
 
 ![Gebruik Snel zoeken om snel en eenvoudig te navigeren in de Navigator -screenshot][img1]
 
-### Tips Snel zoeken
+U kunt de functie Snel zoeken op verschillende manieren gebruiken:
 
-U kunt %% gebruiken om alle records van een bepaald type te bekijken, zoals alle bedrijven, alle selecties, alle projecten.
-
-Als u bijvoorbeeld alle documentsjablonen wilt zien die beschikbaar zijn in SuperOffice CRM, gaat u naar het menu **+Nieuw** en klikt u op **Document**. Schrijf %% in het bovenste veld in het documentscherm waar typen documentsjablonen staan. U krijgt dan een vervolgkeuzelijst met de volledige lijst met beschikbare documentsjablonen.
-
-![Typ twee percentagetekens in de Snel zoeken om alle records te bekijken -screenshot][img4]
-
-## Zoeken met de knop Zoek
-
-Als u op de knop **Zoeken** klikt in de bovenste balk, opent u het [Zoekscherm][1], waar u naar gegevens kunt zoeken in SuperOffice.
-
-Met de knop Zoeken kunt u records vinden op basis van elk criterium van bedrijven, personen, projecten, selecties, verkopen, producten, vervolgactiviteiten, documenten en verzoeken.
-
-![Klik op de knop Zoeken in de bovenste balk om naar het scherm Zoeken te gaan -screenshot][img2]
-
-Wanneer u de functie Zoeken gebruikt, kunt u elke zoekopdracht die u uitvoert, opslaan als een selectie.
+* U kunt [rechtstreeks zoeken vanuit de navigator][3] om een bedrijf, persoon, verkoop, project of selectie weer te geven.
+* U kunt zoeken naar bedrijven, personen, projecten en selecties [vanuit dialoogvensters][8] met relevante velden, bijvoorbeeld de dialoogvensters **Afspraak** en **Document**, om ze te koppelen aan de afspraak of het document.
+* U kunt [rechtstreeks zoeken in de tijdzoneselectie][2] om de tijdzone voor de gewenste stad of het gewenste land te vinden.
 
 ## Vrije-tekst zoekbewerking gebruiken
 
@@ -83,13 +76,19 @@ Gebruik het zoekveld [voor vrije tekst zoeken][2] in de rechterbovenhoek om te z
 
 Gebruik **%** als een jokerteken om te zoeken. Het percentageteken (%) komt overeen met elke tekenreeks van 0 of meer tekens. Bijvoorbeeld: J%son komt overeen met Jackson, Johnson, Jason, and Json.
 
-[!include[Use wildcard in search](includes/tip-search-wildcard.md)]
+## Zoeken met de knop Zoek
+
+Als u op de knop **Zoeken** klikt in de bovenste balk, opent u het [Zoekscherm][1], waar u naar gegevens kunt zoeken in SuperOffice. Met de knop Zoeken kunt u records vinden [op basis van elk criterium][6] van bedrijven, personen, projecten, selecties, verkopen, producten, vervolgactiviteiten, documenten en verzoeken.
+
+![Klik op de knop Zoeken in de bovenste balk om naar het scherm Zoeken te gaan -screenshot][img2]
+
+Wanneer u de functie Zoeken gebruikt, kunt u elke zoekopdracht die u uitvoert, opslaan als een selectie.
 
 ## <a id="typical" />Gebruik frequente zoekacties als uitgangspunt
 
 Een frequente zoekactie is een vooraf gedefinieerde zoekopdracht die we voor u hebben ingesteld, zodat u kunt zien waar andere gebruikers vaak naar zoeken. Elke gegevensset in het scherm Zoeken bevat een lijst met frequente zoekacties die klaar zijn voor gebruik.
 
-Een frequente zoekactie is een geweldige manier om te beginnen met het zoeken naar gegevens in SuperOffice CRM. U kunt frequente zoekacties vinden door onder de groep gegevens te klikken waarin u bent geïnteresseerd. Met vooraf ingestelde zoekcriteria kunnen frequente zoekacties worden gebruikt zoals ze zijn, gewijzigd of uitgebreid.
+U kunt frequente zoekacties vinden door onder de groep gegevens te klikken waarin u bent geïnteresseerd. Met vooraf ingestelde zoekcriteria kunnen frequente zoekacties worden gebruikt zoals ze zijn, gewijzigd of uitgebreid.
 
 ### Bijvoorbeeld: Mijn verlopen vervolgactiviteiten
 
@@ -103,8 +102,6 @@ Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wij
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
-
-[Lees meer][6]
 
 ## <a id="search-to-selection" />Een zoekopdracht maken en opslaan als een selectie
 
@@ -132,21 +129,22 @@ Bekijk deze video of volg de onderstaande stappen om te zien hoe u een zoekopdra
 ## Gerelateerde inhoud
 
 * [Favorieten][4]
+* [De historielijst][5]
 * [Een zoekopdracht maken en opslaan als een selectie][7]
-* Verbreed uw zoekopdracht met behulp van de OR-functie
+* [Verbreed uw zoekopdracht met behulp van de OR-functie][1]
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: using-fastsearcher.md
+[3]: in-navigator.md
 [4]: ../../learn/basics/fav.md
-[5]: using-history-list.md
-[6]: using-search-criteria.md
+[5]: ../../learn/basics/history.md
+[6]: search-criteria.md
 [7]: ../selection/learn/create/index.md
+[8]: in-dialogs.md
 
 <!-- Referenced images -->
-[img1]: media/search-find-fastsearcher.png
-[img2]: media/getstarted-search-find-findscreen.png
-[img3]: media/freetext-search-find.png
-[img4]: media/getstarted-document-fastsearcher.png
-[img5]: media/typical-search.png
+[img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
+[img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
+[img3]: ../../../media/loc/en/search-options/freetext-search-find.png
+[img5]: ../../../media/loc/en/search-options/typical-search.png

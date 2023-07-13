@@ -132,7 +132,7 @@ Hiermee wordt een lijst met leden van de huidige selectie in het scherm Selectie
 In Instellingen en onderhoud kunt u ook uw eigen weergaven voor het zijpaneel definiëren.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
+[1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
 [3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md

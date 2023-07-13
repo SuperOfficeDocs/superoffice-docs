@@ -23,7 +23,7 @@ U kunt een persoon - inclusief diens activiteiten en lidmaatschappen - van het e
     * In het scherm Persoon: Ga naar de gewenste persoon, klik op de knop **Taak** ![pictogram][img2] op het visitekaartje en selecteer **Personen beheren** en **Persoon verplaatsen**.
 
 1. Selecteer in het dialoogvenster **Persoon verplaatsen** onder **Actie op persoon**, een van de volgende opties:
-    * Selecteer **Verplaatsen naar** en kies het bedrijf waarnaar de persoon moet worden verplaatst. Gebruik [Snelzoeken][1], [De Historielijst][2] of [Zoeken][3] ![pictogram][img3].
+    * Selecteer **Verplaatsen naar** en kies het bedrijf waarnaar de persoon moet worden verplaatst.
     * Selecteer **Verbinding met &lt;company&gt; verbreken**.
 
 1. Selecteer een van de volgende opties bij **Actie op alle bestaande activiteiten en verkopen**:
@@ -39,10 +39,6 @@ U kunt een persoon - inclusief diens activiteiten en lidmaatschappen - van het e
 > U kunt geen personen (SuperOffice-gebruikers) in uw eigen bedrijf verplaatsen.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
-[3]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png
-[img3]: ../../../../common/icons/search-icon-black.png

@@ -28,7 +28,7 @@ U kunt een vervolgactiviteit maken die bijvoorbeeld in de activiteitenlijst van 
 7. Kies in het veld **Project** het project waaraan de vervolgactiviteit moet worden gekoppeld. Voer een van de volgende handelingen uit:
 
     * Klik op de pijl en selecteer een naam in de lijst.
-    * Typ het geheel of het begin van de projectnaam (zie [De Historielijst][2] en [Snel zoeken][3]).
+    * Typ het geheel of het begin van de projectnaam.
 
 8. Geef in het veld **Prioriteit** de prioriteit van de vervolgactiviteit op. Klik op de pijl om een lijst weer te geven met de standaardopties Hoog, Normaal en Laag.
 
@@ -54,7 +54,5 @@ U kunt een vervolgactiviteit maken die bijvoorbeeld in de activiteitenlijst van 
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../../learn/using-history-list.md
-[3]: ../../../learn/using-fastsearcher.md
 
 <!-- Referenced images -->

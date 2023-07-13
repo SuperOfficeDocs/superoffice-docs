@@ -109,6 +109,6 @@ De Prullenbak bevindt zich in uw menu Persoonlijke voorkeuren. U kunt alle perso
 [5]: bulk-update.md
 
 <!-- Referenced images -->
-[img1]: media/company-selection-task-delete.png
-[img2]: media/company-selection-task-delete.png
-[img3]: media/recycle-bin-personal-settings.png
+[img1]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
+[img2]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
+[img3]: ../../../../../media/loc/en/search-options/recycle-bin-personal-settings.png

@@ -100,7 +100,7 @@ Als het voorbeeldgedeelte niet zichtbaar is, klikt u op **Voorbeeld weergeven** 
 <!-- Referenced links -->
 [1]: tags.md
 [3]: ../../search-options/learn/freetext-search.md
-[4]: ../../search-options/learn/using-search-criteria.md
+[4]: ../../search-options/learn/search-criteria.md
 [5]: next-in-queue.md
 [6]: howto/accept.md
 [7]: howto/forward.md

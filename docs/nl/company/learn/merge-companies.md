@@ -24,7 +24,7 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
 1. Selecteer **Bedrijven beheren** in het menu ![pictogram][img3] **Taak** en klik vervolgens op **Bedrijven samenvoegen**.
     Het dialoogvenster **Bedrijven samenvoegen** wordt geopend. Het bronbedrijf staat bij **Van**.
 
-1. Selecteer bij **Aan bedrijf** het bedrijf dat u wilt bijwerken met gegevens van het bronbedrijf. Begin in het veld te typen om [naar een bedrijf te zoeken][1].
+1. Selecteer bij **Aan bedrijf** het bedrijf dat u wilt bijwerken met gegevens van het bronbedrijf. Begin in het veld te typen om naar een bedrijf te zoeken.
 
     > [!TIP]
     > Als u de bedrijven bij **Van** en bij **Naar** wilt omkeren, klikt u op de ![pictogram][img1] knop.
@@ -63,7 +63,6 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
 * [Contactpersonen samenvoegen][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->

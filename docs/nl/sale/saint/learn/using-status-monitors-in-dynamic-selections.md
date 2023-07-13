@@ -16,6 +16,6 @@ Als u een licentie voor SAINT hebt aangeschaft, kunt u statussen die in Instelli
 [!include[Requirement](includes/req-saint.md)]
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

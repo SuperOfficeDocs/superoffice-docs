@@ -1,9 +1,9 @@
 ---
-uid: help-nl-using-history-list
+uid: help-nl-history-list
 title: De historielijst gebruiken
 description: De historielijst gebruiken
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 08.05.2023
 keywords: zoeken, historie
 so.topic: howto
 language: nl
@@ -33,10 +33,10 @@ U kunt de historielijst op diverse manieren gebruiken:
 3. Klik op het gewenste bedrijf, de persoon, de verkoop, het project of de selectie om aan de record te koppelen.
 
 > [!NOTE]
-> U kunt het aantal regels in de historielijst verhogen of beperken door naar ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Visuele effecten** &gt; **Omvang historielijst** te gaan en het gewenste aantal in te voeren.
+> U kunt het aantal regels in de historielijst verhogen of beperken door naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Visuele effecten** > **Omvang historielijst** te gaan en het gewenste aantal in te voeren.
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+[1]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

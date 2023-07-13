@@ -20,7 +20,7 @@ language: nl
 
 1. Klik op de knop **Toevoegen** onder het sectietabblad.
 
-1. Selecteer in het dialoogvenster **Relatie** de gewenste bedrijven en personen onder **Actief deel** en **Passief deel**. U geeft ze op door te klikken op de pijl en het gewenste bedrijf of personen te selecteren in de keuzelijst die wordt weergegeven, door de naam geheel of het begin ervan in te voeren. (Zie [Snel zoeken][1] en [De historielijst][2]).
+1. Selecteer in het dialoogvenster **Relatie** de gewenste bedrijven en personen onder **Actief deel** en **Passief deel**. U geeft ze op door te klikken op de pijl en het gewenste bedrijf of personen te selecteren in de keuzelijst die wordt weergegeven, door de naam geheel of het begin ervan in te voeren.
 
 1. In de keuzelijst **Relatie** kunt u de relatie selecteren die bestaat tussen de actieve partij en de passieve partij, bijvoorbeeld "is eigenaar van". [!include[SM](../../learn/includes/are-defined-sm.md)]
 
@@ -38,8 +38,6 @@ language: nl
 * [Relatie verwijderen][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 [3]: delete-relation.md
 
 <!-- Referenced images -->

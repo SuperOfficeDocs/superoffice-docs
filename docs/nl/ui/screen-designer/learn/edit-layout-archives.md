@@ -121,7 +121,7 @@ Als u moet herstellen naar een eerdere versie van het scherm, kunt u de volgende
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
-[2]: ../../../search-options/learn/using-search-criteria.md
+[2]: ../../../search-options/learn/search-criteria.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-reorganize-the-fields-in-the-more-tab-in-company-and-contact-screenscards-after-the-upgrade-to-superoffice-version-10/
 [4]: add-new-layout.md
 

@@ -29,7 +29,7 @@ language: nl
 
     Als het dialoogvenster **E-mailadres selecteren** wordt weergegeven:
 
-    1. Kies in het veld Bedrijf het bedrijf waarnaar u het document wilt verzenden. Standaard wordt het bedrijf weergegeven dat actief is in het scherm Bedrijf. Hier kunt u tevens [Snel zoeken][1] of de [historielijst][2] gebruiken. Nadat u een bedrijf hebt gekozen, wordt het bijbehorende e-mailadres bij het veld Bedrijf weergegeven.
+    1. Kies in het veld Bedrijf het bedrijf waarnaar u het document wilt verzenden. Standaard wordt het bedrijf weergegeven dat actief is in het scherm Bedrijf. Nadat u een bedrijf hebt gekozen, wordt het bijbehorende e-mailadres bij het veld Bedrijf weergegeven.
 
     2. Als u het document naar een bepaalde persoon binnen het bedrijf wilt sturen, kiest u een naam uit de beschikbare mogelijkheden in de keuzelijst voor contactpersonen. Nadat u een contactpersoon hebt gekozen, wordt het bijbehorende e-mailadres bij de keuzelijst voor contactpersonen weergegeven.
 
@@ -50,8 +50,6 @@ language: nl
 3. Klik op **Verzenden** om het bericht te verzenden.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/document/email-document-send-as-email.png
