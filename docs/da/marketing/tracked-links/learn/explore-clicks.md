@@ -18,12 +18,12 @@ Du kan indsætte links (URL'er) i en mailudsendelse eller et standardsvar og spo
 * Hvis du vil se links for en enkelt mailudsendelse, skal du åbne den relevante udsendelse, klikke på fanen **Sporede links** og klik på det link, du vil arbejde med.
 
     > [!NOTE]
-    Fanebladet > Sporede links</smtx-blockquote/> er ikke tilgængeligt for dokument-udsendelser.
+    Fanebladet **Sporede links** er ikke tilgængeligt for dokument-udsendelser.
 
 * For at se links til alle mailudsendelser skal du klikke på fanebladet **Sporede links** på hovedskærmbilledet i SuperOffice Marketing. Hvis du ikke kan finde det link, du ønsker at arbejde med, skal du klikke på **Alle links**. Klik på det link, du ønsker at indsætte.
 
     > [!NOTE]
-    > Kun [registrerede links vises her. Hvis du indsætter "almindelige" links i mailudsendelsen, skal du vælge indstillingen **Spor alle links** under Trin 1: Opsætning
+    > Kun registrerede links vises her. Hvis du indsætter "almindelige" links i mailudsendelsen, skal du vælge indstillingen **Spor alle links** under Trin 1: Opsætning
 
 ## Undersøg antal klik
 
