@@ -14,7 +14,7 @@ language: no
 
 # Legge til forekomster på listen GUI - Webpanel
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]v
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 ## Slik fyller du ut felt når forekomstene er URL-adresser
 

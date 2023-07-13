@@ -51,7 +51,7 @@ Wenn zwei Firmen in Ihrer Kundendatenbank fusioniert wurden oder eine Firma von 
 
 ![Dialogfeld Firmen zusammenführen -screenshot][img4]
 
-[Stellen Sie sicher, dass im Dialogfeld Firmen zusammenführen die richtige Firma im Feld Von UND im Feld An ausgewählt wurde - Screenshot][img5]
+[Stellen Sie sicher, dass im Dialogfeld Firmen zusammenführen die richtige Firma im Feld Von UND im Feld An ausgewählt wurde -screenshot][img5]
 
 ![Für Zusatzinformationen vor der Zusammenführung der beiden Firmen müssen Sie auf die Schaltfläche Info in Ergebnis anzeigen klicken -screenshot][img6]
 

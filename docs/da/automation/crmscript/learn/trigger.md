@@ -43,7 +43,7 @@ Vi vil nu oprette en række handlinger baseret på det ovenstående eksempel.
 1. Klik på **Anvend**.
 1. Klik på **Ny handling**, og vælg **Send en e-mail eller SMS**. Nu vil vi tilpasse den e-mail, som skal sendes til kunden.
 1. Marker **Emnelinje**.
-1. Klik på ![ikonet][img1]parameterikonet til højre, og klik derefter på feltet **Vælg parameter**.
+1. Klik på ![ikonet][img1] parameterikonet til højre, og klik derefter på feltet **Vælg parameter**.
 1. Vælg **Ændre en sag** > **Titel**. Det anbringer sagstitlen i e-mailens emne.
 1. Marker **Fra**, og vælg **Ændre en sag** > **Ejer**.
 1. Marker **Til**, og vælg **Ændr en sag** > **Person: E-mailadresse**.

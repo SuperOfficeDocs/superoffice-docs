@@ -13,7 +13,7 @@ language: sv
 
 # Lägga till poster i listan GUI – Webbpanel
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]v
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 ## Så fyller du i fält när posterna är webbadresser
 

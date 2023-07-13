@@ -64,7 +64,7 @@ Få mere at vide om, hvordan du tilpasser visninger ved at konfigurere kolonner 
 7. Klik på **OK**. Fanerne viser alle aktiviteter eller salg, der matcher de kriterier, du har angivet.
 
 > [!TIP]
-> Hold musemarkøren over ![ikon][img2]Filter for at vise de aktive filterindstillinger.
+> Hold musemarkøren over ![ikon][img2] Filter for at vise de aktive filterindstillinger.
 >
 > Klik på **Vis antal** nederst til højre i detaljekortet for at se, hvor mange poster der vises. Antallet ændres afhængigt af de aktive filtre.
 

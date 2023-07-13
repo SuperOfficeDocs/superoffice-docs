@@ -48,7 +48,7 @@ You can select which columns are displayed in the lists, as well as their order.
 
     * Add columns: In the **Available columns** pane, select the columns you want to add and click the ![icon][img1] right arrow to move them to the **Columns selected** pane.
 
-    * Remove columns: In the **Columns selected** pane, select the columns you want to remove and click the ![icon][img2]left arrow to move them to the **Available columns** pane.
+    * Remove columns: In the **Columns selected** pane, select the columns you want to remove and click the ![icon][img2] left arrow to move them to the **Available columns** pane.
 
     * Change the order of the columns: In the **Columns selected** pane, select the column that you want to move left or right in the view and click either the ![icon][img4] up arrow or the ![icon][img5] down arrow.
 

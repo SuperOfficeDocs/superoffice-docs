@@ -20,7 +20,7 @@ Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu behalten, ist ein
 
 Um genaue Prognosen zu erstellen, müssen Firmen ihre tatsächlichen Verkäufe mit ihren Verkaufszielen vergleichen. Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Jährliche Vertriebsziele können mit monatlichen oder vierteljährlichen Unterteilungen für Ihre Organisation, Gruppen/Teams und Benutzer festgelegt werden. Im Dashboard können Sie benutzerdefinierte Kacheln hinzufügen, um Budgets und tatsächliche Verkäufe im selben Diagramm anzuzeigen.
 
-Alle Benutzer, die ihre Verkaufsleistung messen lassen, können auf den Status und Fortschritt ihres Verkaufsziels zugreifen, indem sie entsprechende [Kacheln im Dashboard][4]einrichten. Auf diese Weise erhalten sie einen sofortigen Live-Überblick über ihre Verkaufsleistung im Vergleich zu den festgelegten Verkaufszielen und können sich auf individuelle und gemeinsame Ziele konzentrieren.
+Alle Benutzer, die ihre Verkaufsleistung messen lassen, können auf den Status und Fortschritt ihres Verkaufsziels zugreifen, indem sie entsprechende [Kacheln im Dashboard][4] einrichten. Auf diese Weise erhalten sie einen sofortigen Live-Überblick über ihre Verkaufsleistung im Vergleich zu den festgelegten Verkaufszielen und können sich auf individuelle und gemeinsame Ziele konzentrieren.
 
 ![Der Zieldialog gibt Ihnen einen Überblick über die Verkaufsziele -screenshot][img6]
 

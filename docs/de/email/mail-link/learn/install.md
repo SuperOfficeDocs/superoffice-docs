@@ -13,7 +13,7 @@ language: de
 
 # Mail Link oder WebTools installieren
 
-Mit den WebTools [installieren][4]Sie:
+Mit den WebTools [installieren][4] Sie:
 
 * **Mail Link**: Verbindet Ihr Outlook mit SuperOffice CRM.
 * **Web Extensions**: Verbindet Ihre Windows-Dokumente mit SuperOffice CRM.

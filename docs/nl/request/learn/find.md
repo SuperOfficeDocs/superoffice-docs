@@ -39,7 +39,7 @@ De eenvoudigste manier om naar verzoeken te zoeken, is door het zoekveld te gebr
 
 * **Mijn favorieten**: Toont de verzoeken die u als favorieten hebt opgeslagen.
 
-* **Volgende in wachtrij ophalen**: als er een[wachtrijsysteem][5]voor uw bedrijf ingesteld is, kunt u op deze optie klikken om het volgende niet-toegewezen verzoek op te halen uit de wachtrij voor de categorie waartoe u behoort.
+* **Volgende in wachtrij ophalen**: als er een[wachtrijsysteem][5] voor uw bedrijf ingesteld is, kunt u op deze optie klikken om het volgende niet-toegewezen verzoek op te halen uit de wachtrij voor de categorie waartoe u behoort.
 
 * **Verzoekselecties**: Uw eigen verzoekselectie wordt weergegeven in het menu.
 
@@ -55,7 +55,7 @@ De eenvoudigste manier om naar verzoeken te zoeken, is door het zoekveld te gebr
 In de praktijk zijn al deze lijsten vooraf gedefinieerde zoekopdrachten. U kunt de zoekcriteria als volgt aanpassen:
 
 1. Klik op het tabblad **Verzoek zoeken** in de koptekst van het scherm Verzoeken.
-1. [Pas de criteria][4]aan.
+1. [Pas de criteria][4] aan.
 1. Klik op **Zoeken** in de rechterbenedenhoek om de zoekopdracht te starten met behulp van de nieuwe zoekcriteria. Wanneer u een van de verzoeken in de lijst selecteert, wordt de inhoud ervan weergegeven in het Afdrukvoorbeeld aan de rechterkant. Wanneer u een van de verzoeken in de lijst selecteert, wordt de inhoud ervan weergegeven in het gedeelte [voorbeeldweergave](#preview).
 1. Als u deze zoekopdracht wilt behouden, kunt u dit zoekresultaat opslaan als een [selectie][13] en teruggaan naar de lijst wanneer u maar wilt.
 

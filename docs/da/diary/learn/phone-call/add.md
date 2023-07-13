@@ -16,7 +16,7 @@ language: da
     * Vælg **Ny** > **Samtale** på [toplinjen][2].
     * Klik på ![ikon][img1] **Opgave** > **Opret samtale** i et personkort.
 
-1. **I dialogboksen Telefonopkald** skal [du angive oplysningerne om][1]telefonopkaldet.
+1. **I dialogboksen Telefonopkald** skal [du angive oplysningerne om][1] telefonopkaldet.
 
 <!-- Referenced links -->
 [1]: ../screen/dialog-for-followups.md

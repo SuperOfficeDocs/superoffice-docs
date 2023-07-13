@@ -27,7 +27,7 @@ Se denne videoen for å finne ut hvordan du kan opprette dine egne ekstra felt i
 
 1. Skriv inn ønsket navn i **Navn**-feltet.
 
-1. I listeboksen **Type** velger du [hvilken type felt ][6]du vil legge til (for eksempel nummer, tekst eller dato).
+1. I listeboksen **Type** velger du [hvilken type felt][6] du vil legge til (for eksempel nummer, tekst eller dato).
 
 1. I feltet **Standardverdi** skriver du inn verdien som settes inn som standard i dette feltet.
 

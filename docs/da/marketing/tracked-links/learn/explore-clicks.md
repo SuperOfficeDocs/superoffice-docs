@@ -31,7 +31,7 @@ Du kan indsætte links (URL'er) i en mailudsendelse eller et standardsvar og spo
 
 2. Klik på det relevante link på listen med links. Nu vises skærmbilledet **Vis link** .
 
-    Her kan du se antallet af klik på linket og eventuelle [handlinger, der er angivet for linket][4]. [][4]På listen **Klikkere** kan du se, hvem der har klikket på linket, og i hvilken mailudsendelse de har klikket på linket.
+    Her kan du se antallet af klik på linket og eventuelle [handlinger, der er angivet for linket][4]. På listen **Klikkere** kan du se, hvem der har klikket på linket, og i hvilken mailudsendelse de har klikket på linket.
 
 3. Klik på **OK** for at lukke skærmbilledet **Vis udsendelse**.
 

@@ -42,7 +42,7 @@ Als u het project wilt koppelen aan een bedrijf, moet u ten minste Ã©Ã©n pro
 9. In het grote tekstvak onder **Commentaar** kunt u een meer gedetailleerde beschrijving van de functie van het projectlid invoeren.
 
     > [!NOTE]
-    > Als u tekst in dit vak typt, wordt een ![paperclippictogram ][img1] weergegeven in de kolom **Projectlidgegevens** op het sectietabblad **Projectleden**. Als u de muisaanwijzer op de paperclip plaatst, wordt het geregistreerde commentaar weergegeven in de knopinfo.
+    > Als u tekst in dit vak typt, wordt een ![paperclippictogram][img1] weergegeven in de kolom **Projectlidgegevens** op het sectietabblad **Projectleden**. Als u de muisaanwijzer op de paperclip plaatst, wordt het geregistreerde commentaar weergegeven in de knopinfo.
 
 10. Klik op **OK** nadat u alle benodigde gegevens zijn ingevoerd.
 

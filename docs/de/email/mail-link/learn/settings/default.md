@@ -11,7 +11,7 @@ language: de
 
 # Archivoptionen
 
-Optionen im Bereich **Archivoptionen** des Dialogfeldes **SuperOffice CRM-Optionen** festgelegt. Sie können die Standardoptionen überschreiben, indem Sie die [Schaltflächen in Ihrem E-Mail-Client][2]verwenden.
+Optionen im Bereich **Archivoptionen** des Dialogfeldes **SuperOffice CRM-Optionen** festgelegt. Sie können die Standardoptionen überschreiben, indem Sie die [Schaltflächen in Ihrem E-Mail-Client][2] verwenden.
 
 | Option | Beschreibung |
 |---|---|

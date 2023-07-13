@@ -24,7 +24,7 @@ Wenn Daten zwischen SuperOffice und ERP-Systemen synchronisiert werden, müssen 
 
 1. Wählen Sie die Registerkarte des Aktors, für den Sie Zuweisungen konfigurieren möchten.
 
-1. Aktivieren Sie **ERP \[actor\]mit SuperOffice synchronisieren\[entity\]**.
+1. Aktivieren Sie **ERP \[actor\] mit SuperOffice synchronisieren\[entity\]**.
 
 1. Wählen Sie in der Liste unten die Synchronisationsrichtung aus und geben Sie an, welchem SuperOffice-Feld jedes einzelne ERP-Feld zugewiesen werden soll (synchronisiert mit). Sie können auch auswählen, ob die Felder in der Registerkarte **ERP** angezeigt und gesucht werden sollen.
     Die Liste besteht aus den folgenden Spalten:

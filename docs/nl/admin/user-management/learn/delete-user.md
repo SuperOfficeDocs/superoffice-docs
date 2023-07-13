@@ -26,7 +26,7 @@ language: nl
     * Gebruikerslicenties verwijderen
     * Markeer medewerker als voormalige werknemer
     * Medewerker verwijderen \[login ID\]
-    * Medewerker \[login ID\]en contactpersoon verwijderen\[full name\]
+    * Medewerker \[login ID\] en contactpersoon verwijderen\[full name\]
 
     > [!NOTE]
     > deze opties worden weergegeven in volgorde van belangrijkheid.

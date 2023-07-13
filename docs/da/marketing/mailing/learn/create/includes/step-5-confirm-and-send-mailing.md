@@ -23,7 +23,7 @@ For ikke at overbelaste serverne i arbejdstiden kan det være en god idé at væ
 
 1. Klik på **Tidsplan**.
 2. Under **Tidsplan**, vælg en af de følgende valgmuligheder:
-    * Klik på ![ikonet ][img3]**Vælg dato** og vælg dato og klokkeslæt for afsendelsen.
+    * Klik på ![ikonet][img3] **Vælg dato** og vælg dato og klokkeslæt for afsendelsen.
     * Klik på ![ikonet][img2] **Sæt til nu** for at indsætte dags-dato og klokkeslæt.
 3. Klik på **OK**. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 

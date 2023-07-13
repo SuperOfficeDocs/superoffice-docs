@@ -11,7 +11,7 @@ language: nl
 
 # Het sectietabblad Verkoop
 
-![ Het sectietabblad Verkoop (Agenda) -screenshot][img4]
+![Het sectietabblad Verkoop (Agenda) -screenshot][img4]
 
 Naast het [sectietabblad Activiteiten][1], bevat de agenda ook het sectietabblad **Verkoop**, dat essentiële informatie over verkopen weergeeft.
 

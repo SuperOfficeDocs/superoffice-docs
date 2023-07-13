@@ -20,7 +20,7 @@ I SuperOffice CRM er der mange, der opretter, redigerer og læser dokumenter på
 
 I dialogboksen **Dokument** har et udtjekket dokument et af følgende ikoner:
 
-![ikon][img3]Dokumentet er i øjeblikket tjekket ud til redigering af dig.
+![ikon][img3] Dokumentet er i øjeblikket tjekket ud til redigering af dig.
 
 ![ikon][img4] Dokumentet er i øjeblikket tjekket ud til redigering af en anden bruger.
 

@@ -39,7 +39,7 @@ Denne seksjonen inneholder lagrede innholdsblokker, som topptekster og bunntekst
 
 Hvis du vil lagre en innholdsblokk, klikker du på en rad og velger **Lagre blokk** (![icon][img13]).
 
-## Redigere globalt utseende][img14]icon![
+## Redigere globalt utseende[!icon][img14]
 
 I denne delen kan du redigere de globale egenskapene og oppsettet for meldingen.
 

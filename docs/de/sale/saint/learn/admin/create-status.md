@@ -31,7 +31,7 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
     * **Name**: Geben Sie einen beschreibenden Namen für den hinzuzufügenden Status ein.
 
-        Optional: Klicken Sie auf ![Symbol][img2], damit Sie für den Statusnamen [Übersetzungen hinzufügen][8]können.
+        Optional: Klicken Sie auf ![Symbol][img2], damit Sie für den Statusnamen [Übersetzungen hinzufügen][8] können.
 
     * **Beschreibung**: Geben Sie eine erklärende Beschreibung des Status und die erforderlichen oder empfohlenen Maßnahmen ein. In diesem Feld können Sie den Text mit [Vorlagenvariablen][9] auch auf die entsprechende Firma, Person oder das entsprechende Projekt zuschneiden.
 

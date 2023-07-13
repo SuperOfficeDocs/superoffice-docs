@@ -100,7 +100,7 @@ Nu har alla kolumner i ditt arkiv en trattikon bakom sig.
 
 1. Upprepa föregående steg för att filtrera efter ytterligare en kolumn.
 
-    ![Se arkivet med färre entiteter.-skärmdump][img14]
+    ![Se arkivet med färre entiteter -screenshot][img14]
 
 ## Ta bort filter
 

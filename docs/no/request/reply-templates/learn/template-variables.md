@@ -15,7 +15,7 @@ I e-postmeldingen kan du bruke malvariabler til å sette inn informasjon som er 
 
 I tabellene nedenfor finner du alle malvariablene for SuperOffice Service og SuperOffice Markedsføring.
 
-Når du redigerer svarmaler og utsendelser, kan du sette inn malvariabler ved å skrive inn variabelen mellom to hakeparenteser ([[ ]] ). Eksempel: **[[customer.name]]**. I HTML-redigeringsprogrammet kan du også velge de mest vanlige variablene fra menyen **Malvariabel**.
+Når du redigerer svarmaler og utsendelser, kan du sette inn malvariabler ved å skrive inn variabelen mellom to hakeparenteser (\[\[ \]\] ). Eksempel: **\[\[customer.name\]\]**. I HTML-redigeringsprogrammet kan du også velge de mest vanlige variablene fra menyen **Malvariabel**.
 
 ## Vedlegg (bare SuperOffice Markedsføring)
 

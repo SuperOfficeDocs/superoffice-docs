@@ -31,7 +31,7 @@ De olika figurerna **Stora siffror** ger dig en översikt över din pipeline med
 
 Figuren **Största kommande försäljning** låter dig se alla dina försäljningar ordnade efter deras värde, vilket hjälper dig att prioritera och planera din tid.
 
-![Exempel på figur Största kommande försäljning -skärmdump ][img3]
+![Exempel på figur Största kommande försäljning -screenshot][img3]
 
 Med figuren **Mitt aktivitetstempo** kan du se dina aktiviteter ordnade efter typ. Uppgifterna hjälper dig att identifiera om du lägger för mycket eller för lite tid på vissa aktiviteter.
 

@@ -51,7 +51,7 @@ Hvis to firmaer i kundedatabasen beslutter at fusionere, eller et af firmaerne h
 
 ![Slå firmaer sammen -screenshot][img4]
 
-[I dialogboksen Flet virksomheder skal du sørge for at vælge det korrekte firma i Fra-felt OG i Til-felt-skærmbillede][img5]
+[I dialogboksen Flet virksomheder, vælge det korrekte firma i Fra-felt OG i Til-felt -screenshot][img5]
 
 ![Hvis du vil have ekstra oplysninger, før du fusionerer de to virksomheder, skal du klikke på knappen Info på Vis resultat -screenshot][img6]
 

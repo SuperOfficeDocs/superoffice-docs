@@ -21,7 +21,7 @@ Het scherm **Rapporten** is een rapportgenerator die wordt geleverd met een aant
 Open het scherm **Rapporten** door te klikken op de ![pictogram][img7] knop **Rapporten** in de Navigator.
 
 > [!TIP]
-> als u direct naar een bepaald tabblad in het scherm **Rapporten** wilt gaan, klikt u in de navigator op het woord **Rapporten** ![pictogram][img8]naast de knop **Rapporten** en dan in de lijst te selecteren.
+> als u direct naar een bepaald tabblad in het scherm **Rapporten** wilt gaan, klikt u in de navigator op het woord **Rapporten** ![pictogram][img8] naast de knop **Rapporten** en dan in de lijst te selecteren.
 
 ## <a id="types" />Rapporttypen
 

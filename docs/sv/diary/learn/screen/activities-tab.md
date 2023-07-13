@@ -11,7 +11,7 @@ language: sv
 
 # Detaljkortet Aktiviteter
 
-![ Detaljkortet Aktiviteter (Kalendern) -screenshot][img4]
+!Detaljkortet Aktiviteter (Kalendern) -screenshot][img4]
 
 Detaljkortet **Aktiviteter** visar en översikt över aktiviteter och fungerar som en att göra-lista eller uppgiftslista. Det innehåller bland annat bokningar och uppgifter som du ännu inte har slutfört och du kan använda det för att tillfälligt spara händelser som du ännu inte har placerat på en viss tid eller ett visst datum.
 

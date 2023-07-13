@@ -31,7 +31,7 @@ The different **Big number** tiles will give you an overview of your pipeline wi
 
 The **Largest upcoming sales** tile will let you see all your sales in order of their value, helping you to prioritize your time accordingly.
 
-![Example of My largest upcoming sales tile -screenshot ][img3]
+![Example of My largest upcoming sales tile -screenshot][img3]
 
 The **My activity pace** tile will let you see your activities sorted by type. The data will help you identify if you are spending too much or too little time on certain activities.
 

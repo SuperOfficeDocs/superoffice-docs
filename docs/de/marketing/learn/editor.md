@@ -21,7 +21,7 @@ In der Registerkarte **Inhalt** können Sie das Erscheinungsbild und den Inhalt 
 
 * Sie können Inhalte einfach aus der Seitenleiste ziehen und ablegen (Menüs, Schaltflächen, SoMe-Links, HTML-Inhalte sowie Kopf- und Fußzeilenblöcke).
 
-SuperOffice Marketing stellt Ihnen viele [vorbereitete Mitteilungsvorlagen][9]zur Verfügung. Außerdem können Sie Inhalte einfach verschieben, um das gewünschte Erscheinungsbild zu erstellen. Speichern Sie häufig verwendete Inhalte als Blöcke, um Zeit zu sparen.
+SuperOffice Marketing stellt Ihnen viele [vorbereitete Mitteilungsvorlagen][9] zur Verfügung. Außerdem können Sie Inhalte einfach verschieben, um das gewünschte Erscheinungsbild zu erstellen. Speichern Sie häufig verwendete Inhalte als Blöcke, um Zeit zu sparen.
 
 > [!TIP]
 > Es wird empfohlen, für Kampagnen eine maximale Breite von 600 Pixeln zu verwenden. Sie können auch prüfen, wie die Kampagne beispielsweise auf einem Smartphone aussieht indem Sie im Menü unten links auf **Mobil** (![Symbol][img4]) klicken. Siehe auch die [Mitteilung für die Anzeige auf mobilen Geräten anpassen][3].

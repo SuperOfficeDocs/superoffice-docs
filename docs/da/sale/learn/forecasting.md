@@ -31,7 +31,7 @@ De forskellige ruder med **Stort nummer** vil give dig et overblik over din pipe
 
 Ruden **Største kommende salg** gør det muligt for dig at se alle dine salg i rækkefølge efter deres værdi, hvilket hjælper dig med at prioritere din tid tilsvarende.
 
-![Eksempel på ruden Mit største kommende salg – skærmbillede ][img3]
+![Eksempel på ruden Mit største kommende salg -screenshot][img3]
 
 Ruden **Mit aktivitetstempo** gør det muligt for dig at se dine aktiviteter sorteret efter type. Dataene hjælper dig med at identificere, om du bruger for meget eller for lidt tid på bestemte aktiviteter.
 

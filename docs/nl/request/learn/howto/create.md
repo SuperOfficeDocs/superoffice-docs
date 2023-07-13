@@ -84,7 +84,7 @@ Onderin staan de volgende opties:
 * **Gebruikte tijd**: hier kunt u de hoeveelheid tijd invoeren die is besteed aan het bericht. De klok wordt automatisch gestart wanneer u het verzoek maakt. U kunt de klok stoppen door te klikken op de stop knop ![pictogram][img4] en de klok opnieuw opstarten door te klikken op de startknop ![pictogram][img5]. Klik op de ![pictogram][img6] (**Tijdsperiode selecteren**) knop om de bestede tijd te registreren.
 
 > [!NOTE]
-> De standaardhandtekening van het verzoek wordt aan het bericht toegevoegd. U kunt de handtekening rechtstreeks in het bericht bewerken of uw standaard [e-mailhandtekening][1]bewerken.
+> De standaardhandtekening van het verzoek wordt aan het bericht toegevoegd. U kunt de handtekening rechtstreeks in het bericht bewerken of uw standaard [e-mailhandtekening][1] bewerken.
 
 ## <a id="details" />Details
 

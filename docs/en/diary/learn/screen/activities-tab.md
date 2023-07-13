@@ -11,7 +11,7 @@ language: en
 
 # The Activities section tab
 
-![ Activities section tab (Diary) -screenshot][img4]
+![Activities section tab (Diary) -screenshot][img4]
 
 The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list. It contains, among other things, appointments and tasks that you have not yet completed and you can use it to temporarily store follow-ups that you have not yet allocated to a particular time or date.
 
@@ -73,7 +73,7 @@ After an activity is completed, it is removed from the activities list by the ne
 
 If an activity is highlighted in red type, this means that its provisional date was passed. To change this setting:
 
-1. Go to ![icon][img1] **Personal settings > Preferences**.
+1. Go to ![icon][img1] **Personal settings** > **Preferences**.
 2. Select **Functions**, and edit the **Mark overdue activities** option.
 
 ## What would you like to do now?

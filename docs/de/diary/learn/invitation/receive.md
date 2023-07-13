@@ -15,7 +15,7 @@ language: de
 
 Teilnehmer, die zu einer Folgeaufgabe eingeladen sind, werden eine Benachrichtigung in der oberen Leiste erhalten. Klicken Sie auf das Symbol **Benachrichtigungen**, um die Einladung(en) zu sehen.
 
-![ Einladungen empfangen -screenshot][img2]
+![Einladungen empfangen -screenshot][img2]
 
 Die Option [Dialogfeld 'Folgeaufgabe'][1] ist zweigeteilt:
 

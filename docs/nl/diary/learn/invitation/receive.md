@@ -15,7 +15,7 @@ language: nl
 
 Deelnemers die worden uitgenodigd voor een vervolgactiviteit ontvangen een melding op de bovenste balk. Klik op het pictogram **Meldingen** om de uitnodiging(en) te zien.
 
-![ Uitnodigingen ontvangen -screenshot][img2]
+![Uitnodigingen ontvangen -screenshot][img2]
 
 Het [Dialoogvenster Activiteiten][1] is verdeeld in twee:
 

@@ -29,7 +29,7 @@ Standaard wordt in het zijpaneel een voorbeeld van de geselecteerde record weerg
 Hiermee wordt een overzicht van de informatie over het huidige bedrijf in het scherm Bedrijf weergegeven.
 
 > [!TIP]
-> Als u andere bedrijven wilt weergeven zonder dat u in het scherm Bedrijf van bedrijf hoeft te wisselen, klikt u op de pijl naast de bedrijfsnaam om de [historielijst][1]te openen
+> Als u andere bedrijven wilt weergeven zonder dat u in het scherm Bedrijf van bedrijf hoeft te wisselen, klikt u op de pijl naast de bedrijfsnaam om de [historielijst][1] te openen
 
 ## Persoon
 
@@ -95,7 +95,7 @@ Er wordt een afdrukvoorbeeld van de geselecteerde activiteit, het geselecteerde 
 Hiermee wordt een overzicht van de informatie over het huidige project in het scherm Project weergegeven.
 
 > [!TIP]
-> Als u andere projecten wilt bekijken zonder dat u van project hoeft te wisselen in het projectscherm, klikt u op de pijl (![pictogram][img3] naast de productnaam om de [historielijst][1]te openen.
+> Als u andere projecten wilt bekijken zonder dat u van project hoeft te wisselen in het projectscherm, klikt u op de pijl (![pictogram][img3] naast de productnaam om de [historielijst][1] te openen.
 
 ## Projectleden
 

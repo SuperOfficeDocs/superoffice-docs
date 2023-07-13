@@ -13,7 +13,7 @@ language: nl
 
 Op het tabblad **SuperOffice-producten** op het scherm Offerte/Synchroniseren kunt u zowel prijslijsten als producten toevoegen. Deze zijn opgeslagen in de SuperOffice-database, NIET in een ERP-systeem dat is verbonden met SuperOffice.
 
-In de lijst **Prijslijst** selecteert u de vereiste prijslijst. De producten in de prijslijst worden onder aan de weergave weergegeven. U kunt [deze weergave][6]aanpassen.
+In de lijst **Prijslijst** selecteert u de vereiste prijslijst. De producten in de prijslijst worden onder aan de weergave weergegeven. U kunt [deze weergave][6] aanpassen.
 
 ## Opties
 

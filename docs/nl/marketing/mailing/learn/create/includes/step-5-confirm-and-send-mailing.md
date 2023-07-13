@@ -7,7 +7,7 @@ U kunt kiezen of u uw mailing direct wilt versturen of dat u de mailing wilt inp
 
 Het scherm Bevestigen geeft u een overzicht van de vorige stappen die u hebt gezet en laat u uw mailing verzenden of plannen:
 
-![ Het scherm Bevestigen geeft u een overzicht van de vorige stappen die u hebt gezet en laat u uw mailing verzenden of plannen -screenshot][img4]
+![Het scherm Bevestigen geeft u een overzicht van de vorige stappen die u hebt gezet en laat u uw mailing verzenden of plannen -screenshot][img4]
 
 ## De mailing nu verzenden
 

@@ -23,7 +23,7 @@ Når du klikker på knappen **Arkiver e-mail** på e-mailklientens værktøjslin
 * [Sådan arkiveres vedhæftede filer][3]
 * [Sådan arkiveres e-mails som sager][4]
 
-Ved alle de forskellige arkiveringsindstillinger kan du klikke på valgmuligheden **Advar mig når en e-mail er større end (i KB)** i ruden [**Generelle indstillinger**][5]i dialogboksen **SuperOffice CRM indstillinger**. Når du så prøver at arkivere en e-mail, der indeholder en vedhæftet fil, som er større end den angivne grænse, oplyser en dialogboks dig om dette og spørger dig, om du ønsker at arkivere den alligevel.
+Ved alle de forskellige arkiveringsindstillinger kan du klikke på valgmuligheden **Advar mig når en e-mail er større end (i KB)** i ruden [**Generelle indstillinger**][5] i dialogboksen **SuperOffice CRM indstillinger**. Når du så prøver at arkivere en e-mail, der indeholder en vedhæftet fil, som er større end den angivne grænse, oplyser en dialogboks dig om dette og spørger dig, om du ønsker at arkivere den alligevel.
 
 ## Forskelle mellem i Outlook, Notes og SuperOffice CRM
 

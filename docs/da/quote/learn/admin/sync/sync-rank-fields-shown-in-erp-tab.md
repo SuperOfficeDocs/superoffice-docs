@@ -21,7 +21,7 @@ Du kan angive rækkefølgen på de ERP-felter, der vises på fanen ERP i SuperOf
 
 1. Vælg fanen for den aktør, du vil konfigurere standardværdier for. Denne fane viser alle tilgængelige felter for aktøren (herunder både felter, der vises under fanen **ERP** i SuperOffice CRM, og dem, der ikke er).
 
-1. Vælg et felt på listen, og brug pilene![ikon][img1] ![ikon][img2]til at angive felternes rækkefølge.
+1. Vælg et felt på listen, og brug pilene![ikon][img1] ![ikon][img2] til at angive felternes rækkefølge.
 
 1. Gentag trin 4 og 5 for at ændre feltrangeringen for andre aktører.
 

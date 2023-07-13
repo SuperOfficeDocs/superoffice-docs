@@ -27,7 +27,7 @@ När du anser att en aktivitet är avslutad kan du markera den som slutförd.
 
 1. Högerklicka på aktiviteten och välj **Slutförd**.
 
-    ![ Ändra Slutförd-status för en aktivitet -screenshot][img4]
+    ![Ändra Slutförd-status för en aktivitet -screenshot][img4]
 
 > [!NOTE]
 > Om du vill redigera en slutförd aktivitet måste du först avmarkera statusen **Slutförd**.

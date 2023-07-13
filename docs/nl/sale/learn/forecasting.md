@@ -31,7 +31,7 @@ De verschillende tegels voor **Groot weergegeven getal** geven u een overzicht v
 
 Met de tegel **Grootste verwachte verkopen** kunt u al uw verkopen zien, gesorteerd op hun waarde, zodat u uw tijd dienovereenkomstig kunt prioriteren.
 
-![Voorbeeld van een tegel Mijn grootste verwachte verkopen -screenshot ][img3]
+![Voorbeeld van een tegel Mijn grootste verwachte verkopen -screenshot][img3]
 
 Met de tegel **Mijn activiteitentempo** kunt u uw activiteiten gesorteerd op type bekijken. De gegevens helpen u te identificeren of u te veel of te weinig tijd besteedt aan bepaalde activiteiten.
 

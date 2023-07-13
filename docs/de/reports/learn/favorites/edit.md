@@ -12,7 +12,7 @@ language: de
 # Favoriten bearbeiten
 
 > [!NOTE]
-> Dies setzt voraus, dass Sie mindestens einen [Favoritenbericht][1]haben.
+> Dies setzt voraus, dass Sie mindestens einen [Favoritenbericht][1] haben.
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 2. Wählen Sie die Registerkarte **Favorit** aus. Ihre eigenen Berichte (Favoriten) werden in der Berichtsliste angezeigt.

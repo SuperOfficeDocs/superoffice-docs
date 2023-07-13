@@ -23,7 +23,7 @@ Wanneer u op de knop **E-mail archiveren** op de werkbalk van de e-mailclient kl
 * [Bijlagen archiveren][3]
 * [E-mails archiveren als verzoeken][4]
 
-Voor alle verschillende archiveeropties kunt u de optie **Waarschuw mij wanneer een e-mail groter is dan (in kB)** selecteren in [het deelvenster **Algemene instellingen**][5]van het dialoogvenster **SuperOffice CRM-opties**. Wanneer u dus een e-mail probeert te archiveren met een bijlage die de opgegeven limiet overschrijdt, zal een dialoogvenster u hierover informeren en u vragen of u deze toch wilt archiveren.
+Voor alle verschillende archiveeropties kunt u de optie **Waarschuw mij wanneer een e-mail groter is dan (in kB)** selecteren in [het deelvenster **Algemene instellingen**][5] van het dialoogvenster **SuperOffice CRM-opties**. Wanneer u dus een e-mail probeert te archiveren met een bijlage die de opgegeven limiet overschrijdt, zal een dialoogvenster u hierover informeren en u vragen of u deze toch wilt archiveren.
 
 ## Verschillen tussen Outlook, Notes en SuperOffice CRM
 

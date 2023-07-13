@@ -39,7 +39,7 @@ Du kan også **tilføje særlige links** til din mailudsendelse. For at gøre de
 
 ## Tips
 
-Du kan også tilføje almindelige (ikke-sporede) links. Hvis du vil indsætte tekstlinks, skal du klikke på ![ikonet][img1]for linkknappen på værktøjslinjen. For billedlinks skal du bruge **feltet Billed-URL** i sidepanelet. Hvis du senere beslutter, at du vil spore disse links, kan du vælge **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links vil imidlertid kun blive sporet for den aktuelle udsendelse og vil ikke blive anvendt på andre udsendelser.
+Du kan også tilføje almindelige (ikke-sporede) links. Hvis du vil indsætte tekstlinks, skal du klikke på ![ikonet][img1] for linkknappen på værktøjslinjen. For billedlinks skal du bruge **feltet Billed-URL** i sidepanelet. Hvis du senere beslutter, at du vil spore disse links, kan du vælge **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links vil imidlertid kun blive sporet for den aktuelle udsendelse og vil ikke blive anvendt på andre udsendelser.
 
 Du kan også tilføje almindelige (ikke-sporede) links ved at klikke på linkknappen på værktøjslinjen. Hvis du senere beslutter, at du vil spore disse links, kan du vælge **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links vil imidlertid kun blive sporet for den aktuelle udsendelse og vil ikke blive anvendt på andre udsendelser.
 

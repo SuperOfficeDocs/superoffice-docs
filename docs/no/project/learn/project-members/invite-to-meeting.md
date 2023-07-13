@@ -15,7 +15,7 @@ language: no
 2. Velg prosjektdeltakerne du vil invitere.
 3. Høyreklikk og velg **Be om møte**.
 
-    Dialogboksen [ **Avtale** ][1] vises.
+    Dialogboksen [**Avtale**][1] vises.
 
 <!-- Referenced links -->
 [1]: ../../../diary/learn/screen/dialog-for-followups.md

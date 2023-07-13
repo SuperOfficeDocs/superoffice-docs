@@ -81,7 +81,7 @@ SuperOffice CRM er kompatibel med alle de nyeste operativsystemer og browsere. D
 
 * At sende e-mail forudsætter et e-mailsystem, der er godkendt af SuperOffice.
 
-* [Telefonopkald direkte fra SuperOffice CRM][16]kræver, at systemet er konfigureret korrekt.
+* [Telefonopkald direkte fra SuperOffice CRM][16] kræver, at systemet er konfigureret korrekt.
 
 ## Relaterede emner
 

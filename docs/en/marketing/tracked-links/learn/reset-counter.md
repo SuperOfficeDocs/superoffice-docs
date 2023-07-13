@@ -17,7 +17,7 @@ Sometimes, you need to reset the number of clicks back to zero. This would be th
 
 2. Click **All links** if your link is not displayed in the list. If you use folders for links, first go to the folder the link is in.
 
-3. Click the ![icon][img1]menu button next to the link and select **Reset**. The counter in the **Clicks** column changes to 0. Data about which customers have clicked the link are also removed.
+3. Click the ![icon][img1] menu button next to the link and select **Reset**. The counter in the **Clicks** column changes to 0. Data about which customers have clicked the link are also removed.
 
 <!-- Referenced links -->
 [6]: ../../mailing/learn/create/send-test-email.md

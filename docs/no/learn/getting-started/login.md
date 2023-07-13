@@ -131,7 +131,7 @@ Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggi
 4. Klikk på **OK**.
 
 > [!NOTE]
-> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her. Sjekk ut vår FAQ hvis du har [glemt passordet][5]ditt.
+> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her. Sjekk ut vår FAQ hvis du har [glemt passordet][5] ditt.
 
 ## Aktuelt innhold
 
