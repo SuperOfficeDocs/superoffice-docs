@@ -113,9 +113,9 @@ Klik op **Bevestigen** wanneer u klaar bent.
 
 ## Verwante onderwerpen
 
-* [SharePoint-documenten][1] \- technisch overzicht
+* [SharePoint-documenten][1] - technisch overzicht
 
 <!-- Referenced links -->
-[1]: ../../../../document/cloud/sharepoint-documents/index.md
+[1]: ../../../../../en/document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->

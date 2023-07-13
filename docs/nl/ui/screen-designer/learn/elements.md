@@ -71,7 +71,7 @@ Knoppen werken op dezelfde manier als koppelingen. U kunt koppelingen toevoegen 
 
 4. Vervang in de secties **Instellingen**, de tekst **Knop** door de naam van de nieuwe knop.
 
-5. U kunt ook [add the button name in other languages[2] door op ![pictogram][img1] te klikken .
+5. U kunt ook [add the button name in other languages][2] door op ![pictogram][img1] te klikken.
 
 6. Selecteer in de lijst **Acties** de actie die u wilt uitvoeren wanneer u op de knop klikt:
 
@@ -84,7 +84,7 @@ Knoppen werken op dezelfde manier als koppelingen. U kunt koppelingen toevoegen 
 8. Selecteer in de lijst **Stijl** de stijl van de knop. De voorbeeldweergave aan de rechterkant wordt bijgewerkt met de geselecteerde knopstijl.
 
 <!-- Referenced links -->
-[1]: ../../soprotocol/index.md
+[1]: ../../../../en/ui/soprotocol/index.md
 [2]: ../../../globalization-and-localization/learn/translate-fields.md
 [3]: ../../../document/learn/template-variables.md
 [6]: ../../../automation/crmscript/learn/index.md

@@ -25,7 +25,7 @@ Met dubbele opt-in moeten de klanten hun e-mailadres verifiëren door op de link
 Deze optie voegt een extra beveiligingslaag toe aan het formulier. Als u deze optie activeert, moet de persoon die het formulier verzendt, ook zijn/haar e-mailadres bevestigen. Dit gebeurt door een e-mail te verzenden naar de persoon wanneer het formulier wordt verzonden. De e-mail bevat een koppeling waarop moet worden geklikt om te bevestigen dat het e-mailadres correct is.
 de koppeling is standaard 30 minuten geldig.
 
-## Aanmelden nieuwsbrief
+## <a id="newsletter-sign-up" />Aanmelden nieuwsbrief
 
 Via dit formulier kunnen uw klanten zich aanmelden voor een of meer nieuwsbrieven. Het aanmeldingsproces omvat ook dubbele opt-in om foutieve of nepabonnementen te elimineren.
 
@@ -128,7 +128,7 @@ Via dit formulier kunnen uw klanten zich aanmelden voor een of meer nieuwsbrieve
 
 1. Open de koppeling naar het formulier, vul het formulier in en controleer of alles werkt zoals verwacht.
 
-## Neem contact met mij op
+## <a id="contact-me" />Neem contact met mij op
 
 Zet een "neem contact met mij op"-formulier op de webpagina's van uw bedrijf om een gemakkelijk communicatiekanaal te bieden voor bestaande of potentiële klanten.
 

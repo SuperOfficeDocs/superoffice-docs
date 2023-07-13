@@ -93,7 +93,7 @@ U kunt de voorbeeldweergave openen door deze te selecteren in het vervolgkeuzeme
 Om deel te nemen aan de videovergadering via het voorbeeldscherm, klikt u gewoon op de knop Deelnemen aan vergadering onder aan het zijpaneel. Nadat u erop hebt geklikt, wordt uw videovergadering automatisch gestart.
 
 <!-- Referenced links -->
-[1]: ../../video-meeting/howto/connect-provider.md
+[1]: ../../../en/video-meeting/howto/connect-provider.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/videocall-off.png

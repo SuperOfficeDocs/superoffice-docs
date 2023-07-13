@@ -54,7 +54,7 @@ Met Bulkgewijs bijwerken kunt u in meerdere records tegelijk waarden wijzigen va
 
 10. Klik op **Sluiten**.
 
-## Zoeken en vervangen
+## <a id="search-and-replace" />Zoeken en vervangen
 
 Met het actietype **Zoeken en vervangen** kunt een specifieke tekst in een veld zoeken en deze vervangen.
 

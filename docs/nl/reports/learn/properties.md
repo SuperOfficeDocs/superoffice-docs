@@ -31,7 +31,7 @@ language: nl
 [1]: standard-reports.md#type
 [2]: search-criteria/index.md
 [3]: screen/index.md#criteria
-[4]: index.md#report-types
+[4]: index.md#types
 [5]: favorites/index.md
 
 <!-- Referenced images -->

@@ -121,7 +121,7 @@ Als u een aantal getallen hebt toegevoegd die niet correct zijn, of als een gebr
 
 Klik op de knop **Taak** om het verkooptarget voor het geselecteerde jaar te exporteren naar Excel of PDF.
 
-## Import
+## <a id="import" />Import
 
 U kunt targetgegevens uit Excel kopiëren en de gegevens in de tabel in SuperOffice plakken.
 

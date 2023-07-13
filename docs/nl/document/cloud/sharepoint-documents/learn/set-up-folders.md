@@ -37,7 +37,7 @@ Documenten in de bibliotheek nemen de machtiging over van de bibliotheek zelf.
 <!-- Referenced links -->
 [1]: index.md
 [2]: ../../../../admin/lists/learn/add-template.md
-[3]: ../set-up.md
+[3]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
 
 <!-- Referenced images -->
 [img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png

@@ -163,6 +163,7 @@ De importbron kan bijvoorbeeld telefoonnummers, koppelingen en e-mailadressen be
     Bijvoorbeeld: Dit kan relevant zijn als u weet dat de import de juiste e-mailadressen voor uw personen bevat. Wanneer de e-mailadressen die in SuperOffice zijn geregistreerd, verouder zijn, kunt u ze overschrijven om het systeem op te schonen.
 * **Negeren, bestaand item behouden**: Er worden geen nieuwe waarden geïmporteerd in SuperOffice.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Beheer van productcategorieën, productfamilies en producttypes die niet aanwezig zijn in SuperOffice
 
 De importbron kan bijvoorbeeld productcategorieën bevatten die niet bestaan in SuperOffice. Nu moet u kiezen hoe nieuwe productcategorieën, productfamilies en producttypes beheerd worden. In de keuzelijsten **Nieuwe waarden voor...** heeft u de volgende opties:

@@ -84,7 +84,7 @@ Vakjes met gestreepte lijnen in de opmaak geven aan waar u een veld kunt plaatse
 
 Hieronder vindt u meer gedetailleerde beschrijvingen van de verschillende secties en functies.
 
-## Velden
+## <a id="fields" />Velden
 
 In de sectie **Velden** vindt u alle beschikbare gegevensvelden voor de geselecteerde schermopmaak. Gebruik de filterfunctie om specifieke velden te vinden.
 
@@ -103,13 +103,13 @@ In de sectie **Velden** vindt u alle beschikbare gegevensvelden voor de geselect
 
 In de sectie **Elementen** kunt u verschillende niet-gegevenselementen toevoegen, zoals labels, scheidingslijnen, koppelingen en knoppen.
 
-## Instellingen
+## <a id="settings"/>Instellingen
 
 Maak velden beter zichtbaar door het lettertype te veranderen in vet gedrukte en grote tekst. Maak ruimte voor meer velden door een kleiner lettertype te gebruiken. Bespaar schermruimte door labels te verbergen.
 
 Klik op een veld of element in de opmaak om de instellingen ervan te bewerken. De beschikbare instelling is afhankelijk van het type veld of element.
 
-## Kolommen
+## <a id="columns"/>Kolommen
 
 Standaard heeft een tabblad 2 kolommen, maar u kunt 1-4 kolommen gebruiken, afhankelijk van wat u nodig hebt. Gebruikers met breedbeeldschermen geven misschien de voorkeur aan meer kolommen om meer gegevens te kunnen bekijken en sorteren.
 
@@ -120,7 +120,7 @@ Standaard heeft een tabblad 2 kolommen, maar u kunt 1-4 kolommen gebruiken, afha
 * Sommige tabbladen, zoals **ERP** en **Opmerking**, hebben geen kolominstelling, omdat ze specifieke functies hebben.
 * Als een gebruiker niet beschikt over de schermgrootte die nodig is om alle kolommen te laten passen, zijn deze op elkaar gestapeld.
 
-## Tabbladen
+## <a id="tabs" />Tabbladen
 
 Voeg meer tabbladen toe voor extra velden of verwijder irrelevante tabbladen.
 
@@ -145,7 +145,7 @@ Voeg meer tabbladen toe voor extra velden of verwijder irrelevante tabbladen.
 * U kunt een tabblad met verplichte velden niet verwijderen. Verplichte velden moeten eerst naar een ander tabblad worden verplaatst.
 * Als er nog maar één tabblad resteert, kunt u dit niet verwijderen.
 
-## Wijzigingen ongedaan maken
+## <a id="undo-changes" />Wijzigingen ongedaan maken
 
 Als u moet herstellen naar een eerdere versie van het scherm, kunt u de volgende opties openen via de knop **Taak**:
 

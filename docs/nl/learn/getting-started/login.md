@@ -149,7 +149,7 @@ Problemen met aanmelden? [Bekijk onze veelgestelde vragen][1] voor verschillende
 [4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
 [5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
-[7]: ../../identity-management/single-sign-on/index.md
+[7]: ../../../en/identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

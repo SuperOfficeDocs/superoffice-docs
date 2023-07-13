@@ -31,14 +31,14 @@ Om de integratie te gebruiken, moet u 2 installatiestappen uitvoeren:
 ## Aanverwant
 
 * [Gmail Link installeren][1]
-* [Google Workspace-integratie][2] \- App Store
+* [Google Workspace-integratie][2] - App Store
 * [Google Workspace-integratie-app][3]
-* [Google Workspace-documentintegratie][4] \- technisch overzicht
+* [Google Workspace-documentintegratie][4] - technisch overzicht
 
 <!-- Referenced links -->
 [1]: ../../../../email/gmail-link/learn/install.md
 [2]: https://online.superoffice.com/appstore/superoffice-as/g-suite-integration
-[3]: ../set-up.md
-[4]: ../index.md
+[3]: ../../../../../en/document/cloud/g-suite/set-up.md
+[4]: ../../../../../en/document/cloud/g-suite/index.md
 
 <!-- Referenced images -->

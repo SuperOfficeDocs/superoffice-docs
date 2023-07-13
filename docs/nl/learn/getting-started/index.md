@@ -117,7 +117,7 @@ SuperOffice CRM is compatibel met de nieuwste besturingssystemen en browsers. U 
 [15]: ../../globalization-and-localization/learn/change-language.md
 [16]: ../../diary/learn/phone-call/preferences.md
 [20]: ../../onsite/win-client/learn/index.md
-[21]: ../../onsite/requirements/index.md
+[21]: ../../../en/onsite/requirements/index.md
 
 <!-- Referenced images -->
 [img1]: media/getstarted-personalsettings.png

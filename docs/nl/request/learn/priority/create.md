@@ -58,7 +58,7 @@ De standaardprioriteiten in het systeem zijn **Hoog**, **Gemiddeld** en **Laag**
 
 1. Klik op **Opslaan**. De prioriteit wordt gemaakt. U kunt nu bijvoorbeeld [escalatieniveaus aan deze prioriteit koppelen][1].
 
-## Prioriteitsinstellingen
+## <a id="priority-settings"/>Prioriteitsinstellingen
 
 | Instelling | Beschrijving |
 |---|---|
@@ -72,7 +72,7 @@ De standaardprioriteiten in het systeem zijn **Hoog**, **Gemiddeld** en **Laag**
 | Jaar toevoegen | als u dit activeert, wordt het jaartal toegevoegd aan de vakantiedatums. |
 | Verzoeken escaleren volgens tijdsperiode | Als deze optie is ingeschakeld, worden aanvragen met deze prioriteit alleen geëscaleerd gedurende het gedefinieerde tijdsperiode van de prioriteit. Escalatie is niet mogelijk buiten de perioden die zijn opgegeven op het tabblad **Tijdsperiode**. |
 
-## Escalatie-opties
+## <a id="escalation-options"/>Escalatie-opties
 
 | Optie | Beschrijving |
 |---|---|

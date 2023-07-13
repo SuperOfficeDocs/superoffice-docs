@@ -44,6 +44,6 @@ U kunt de volgende typen gebeurtenissen starten vanaf het licentiescherm in het 
 
 <!-- Referenced links -->
 [1]: add-system-event.md
-[2]: ../license/index.md
+[2]: ../../../en/admin/license/index.md
 
 <!-- Referenced images -->

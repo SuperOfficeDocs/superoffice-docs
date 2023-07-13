@@ -55,11 +55,11 @@ Nadat u fasen hebt gemaakt en een verkooptype voor de verkoopgids hebt opgegeven
 
 4. Selecteer de gewenste fase in de lijst. De gegevens van de fase worden onder aan het scherm weergegeven.
 
-5. [Voeg een of meer vervolgactiviteiten](#add-a-follow-up-for-a-stage) toe voor de geselecteerde fase.
+5. [Voeg een of meer vervolgactiviteiten](#add-fo-stage) toe voor de geselecteerde fase.
 
     u hoeft niet voor elke fase een document toe te voegen, maar u moet ten minste één vervolgactiviteit toevoegen voor elke fase.
 
-6. [Voeg een of meer documenten](#add-a-document-for-a-stage) toe voor de geselecteerde fase.
+6. [Voeg een of meer documenten](#add-doc-stage) toe voor de geselecteerde fase.
 
 7. Herhaal stap 4-6 voor elke fase waarvoor u vervolgactiviteiten en documenten wilt toevoegen.
 
@@ -142,7 +142,7 @@ Agenda voor eerste gesprek:
 **Standaardonderwerp**: Bevestiging van vergadering (eerste gesprek)
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/for-sales.md
+[1]: ../../../../en/document/templates/variables/for-sales.md
 [2]: ../../../admin/lists/learn/sale-stage.md
 [3]: ../../../admin/lists/learn/sale-type.md
 [4]: ../../../admin/lists/learn/document-template.md
