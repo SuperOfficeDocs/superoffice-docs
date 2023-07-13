@@ -7,7 +7,7 @@ so.date: 03.14.2023
 keywords: mobiel, pocket, visitekaartje
 so.topic: howto
 so.version: 10
-so.lang: en
+language: nl
 so.client: mobile
 ---
 

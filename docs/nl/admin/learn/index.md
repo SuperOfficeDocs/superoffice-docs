@@ -6,7 +6,8 @@ author: Bergfrid Dias
 so.date: 02.21.2023
 keywords: beheerder, Instellingen en onderhoud
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 # Overzicht

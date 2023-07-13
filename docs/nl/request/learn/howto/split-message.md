@@ -6,8 +6,8 @@ author: Hanne Gunnarsson
 so.date: 03.16.2023
 keywords: verzoek, toevoegen
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: nl
 ---
 

@@ -7,7 +7,7 @@ so.date: 12.14.2022
 keywords: verkoop, zijpaneel, selectie
 so.topic: howto
 so.version: 10
-so.lang: en
+language: nl
 ---
 
 # Efficiënt gebruik van het zijpaneel efficiënt voor verkopen

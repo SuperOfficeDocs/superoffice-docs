@@ -7,8 +7,8 @@ so.date: 02.23.2023
 keywords: aangepast object
 so.topic: concept
 language: nl
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Aangepaste objecten

@@ -5,8 +5,8 @@ description: Berichten bijhouden
 author: Hanne Gunnarsson
 keywords: verzoek, toevoegen, vlag
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: nl
 ---
 

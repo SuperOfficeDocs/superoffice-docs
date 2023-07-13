@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 03.27.2023
 keywords: voorkeuren, instellingen, algemeen
 so.topic: help
-so.user: admin
-so.user.tooltip: Settings and maintenance
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 

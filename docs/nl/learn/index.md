@@ -7,7 +7,7 @@ so.date: 03.02.2023
 keywords: gebruikershandleiding, help
 so.topic: concept
 so.version: 10
-so.lang: en
+language: nl
 so.envir:
 so.client:
 ---

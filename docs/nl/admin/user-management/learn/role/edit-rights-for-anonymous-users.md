@@ -8,7 +8,8 @@ keywords: gebruikersbeheer, rol, anoniem
 so.topic: howto
 language: nl
 so.envir: onsite
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 ---
 
 # Rechten voor anonieme gebruikers bewerken (lokaal)

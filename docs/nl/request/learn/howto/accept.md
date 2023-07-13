@@ -6,8 +6,8 @@ author: SuperOffice RnD
 so.date: 02.13.2023
 keywords: verzoek
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: nl
 ---
 

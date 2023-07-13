@@ -5,8 +5,8 @@ description: Verzoeken samenvoegen
 author: Hanne Gunnarsson
 keywords: verzoek
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: nl
 ---
 

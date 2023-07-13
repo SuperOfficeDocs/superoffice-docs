@@ -6,7 +6,8 @@ author: Bergfrid
 so.date: 03.15.2023
 keywords: gebruiker, anoniem, systeemgebruiker
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: nl
 so.envir: onsite
 ---

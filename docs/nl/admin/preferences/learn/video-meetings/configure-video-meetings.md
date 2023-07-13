@@ -6,7 +6,8 @@ author: SuperOffice RnD
 so.date: 03.20.2023
 keywords: Videovergadering, uitnodiging
 so.topic: howto
-so.user: admin
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 

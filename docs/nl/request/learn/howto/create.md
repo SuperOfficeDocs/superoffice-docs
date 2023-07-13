@@ -6,8 +6,8 @@ description: Een verzoek maken
 so.date: 02.20.2023
 keywords: verzoek
 so.topic: howto
-so.user: user
-so.user.tooltip: SuperOffice Service
+so.audience: person
+so.audience.tooltip: SuperOffice Service
 language: nl
 ---
 

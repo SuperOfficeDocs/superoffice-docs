@@ -7,7 +7,7 @@ so.date: 03.06.2023
 keywords: e-mail, document
 so.topic: howto
 so.version: 10
-so.lang: en
+language: nl
 ---
 
 # E-mail, documenten en agenda verbinden
