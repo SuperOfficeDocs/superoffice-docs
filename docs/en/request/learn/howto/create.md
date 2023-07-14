@@ -4,7 +4,7 @@ author: Hanne Gunnarsson
 title: Create a request
 description: Create a request
 so.date: 07.05.2023
-keywords: request, create, add comment, reply
+keywords: request, create, comment, reply, new
 so.topic: howto
 so.audience: person
 so.audience.tooltip: SuperOffice Service
@@ -32,14 +32,13 @@ A request can arrive in the system via an email from the customer, or you can re
     In the **Contact** (Search for contact) field, start typing the name (or phone number) of the contact. In the list of search results, use the up/down arrow keys on your keyboard to select a contact and press **ENTER**. Or use your mouse cursor to select the contact.
 
     Optionally, enter an email address to add a recipient without registering them in the system. In this case, they will not be added as contacts for the request.
-    </details>
 
     > [!NOTE]
     > You can leave this field empty if you do not want to send the message to anyone.
 
 1. Optional: Click the **Cc/Bcc** button on the far right to add contacts as copy or blind copy.
 
-1. Go to the **Properties panel** on the right-hand side of the screen and enter information to correctly assign and prioritise the request.
+1. Go to the **Properties panel** (on the right side of the screen) and enter information to correctly assign and prioritise the request.
 
    * In the **Status** list box, choose one of the following:
      * **Open**: Select this option if the request is in progress.
@@ -94,8 +93,7 @@ The **Details** tab contains further details on the request. Here you will find 
 * **Access level**: This is another way to set the access level for the request. This can also be done on the **Properties panel**. If you change the access level here, it will change automatically on the **Properties panel** as well.
 * **Sale**: Here you can link the request to an existing sale by searching for the sale you want or selecting it from the list.
 * **Project**: Here you can link the request to an existing project by searching for the project you want or selecting it from the list.
-
-This tab can also contains extra fields defined for requests. These will vary for each company depending on the customisation of [extra tables and fields][6] and the [screen designer][10].
+* **Extra fields**: What is available depends on added [extra tables and fields][6] and customizations in the [screen designer][10].
 
 ## Autosave
 

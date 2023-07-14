@@ -4,7 +4,7 @@ title: Reply to contact
 description: In this guide you will learn how to reply to all incoming requests in SuperOffice.
 author: Kirsti Aakerholt
 so.date: 07.05.2023
-keywords: request, reply template, forward, add comment, internal, external
+keywords: request, reply template, forward, comment, internal, external
 so.topic: howto
 so.audience: person
 so.audience.tooltip: SuperOffice Service
@@ -19,7 +19,7 @@ When you open a request and select **Reply**, the [email signature][7] you have 
 
 ![Replying to a request -screenshot][img4]
 
-## Reply
+## Reply (add message)
 
 1. [Open the request][1].
 
@@ -52,14 +52,18 @@ When you respond to an contact enquiry, you can save time by using a [reply temp
 
 ## Add comment
 
-When you transfer a request to another colleague you might want to add a comment to the request about the findings you had or why you are transferring the request.
-
-You can still set the comment to External, so that the linked contact can see it on the request shown in the Customer Centre (if your company is set up to use the [Customer Centre][9]). You can also keep it as an internal comment, so it's only visible for your colleagues.
+When [transferring a request to a colleague][10], you can add a comment. For example, to explain why you pass it on or to include what you have done or discovered so far.
 
 1. Click the ![icon][img7] **Add comment** button.
+
 1. Add your comment.
-1. Set the comment to Internal or External in the footer depending of your comment.
-1. Click **Save** to save your comment and changes.
+
+1. At the bottom of the tab, select **Internal** or **External**.
+
+    * To keep it visible only for your colleagues, choose **Internal**.
+    * To make the comment available for the contact via SuperOffice Customer Centre, choose **External**.
+
+1. Click **Save**.
 
 ## Add a message to multiple requests
 

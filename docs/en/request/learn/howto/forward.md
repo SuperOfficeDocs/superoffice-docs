@@ -37,17 +37,15 @@ You can forward a complex or problematic request to an external contact in an em
 
 ## Forward multiple requests
 
-In a request list, you can forward multiple requests at a time.
+1. From a list or selection of requests, select the requests you want to forward.
 
-1. Select the requests you want to forward in the **request list/selection**.
-
-1. Click the ![icon][img1] **Task** button in the lower left corner of the request list.
+1. Click the ![icon][img1] **Task** button in the lower left corner.
 
 1. Select **Manage** and **Forward requests**.
 
-1. Under **Add recipient(s)**, add a recipient in the **To** field. Click the **Cc/Bcc** button (on the right-hand side of the message) to add recipients on copy or blind copy.
+1. Under **Add recipient(s)**, add a recipient in the **To** field. Click the **Cc/Bcc** button (on the right side of the message) to add recipients on copy or blind copy.
 
-1. If you check **Close request after forwarding**, the requests are closed once they are forwarded.
+1. Optionally, check **Close request after forwarding**.
 
 1. Under **Comment**, you can enter a comment, which will then be added both to the email message and to the request as an internal message.
 
