@@ -35,13 +35,13 @@ Open the **Reports** screen by clicking the ![icon][img7] **Reports** button in 
 | ![icon][img6] | Text export | For exporting to text files. |
 
 > [!TIP]
-> To see what a finished report will look like, follow the procedure under [View reports][4].
+> To see what a finished report will look like, follow the procedure under [Preview reports][4].
 
 ## What would you like to do now?
 
 * [Show report properties][2]
 * [Create reports][3]
-* [View reports][4]
+* [Preview reports][4]
 * [Print reports][5]
 * [Save reports as files][9]
 * [Open reports in the report archive (the Documents section tab)][6]
@@ -52,7 +52,7 @@ Open the **Reports** screen by clicking the ![icon][img7] **Reports** button in 
 [1]: ../../dashboard/learn/index.md
 [2]: properties.md
 [3]: create.md
-[4]: view.md
+[4]: preview.md
 [5]: print.md
 [9]: save.md
 [6]: open-from-archive.md

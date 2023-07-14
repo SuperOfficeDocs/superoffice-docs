@@ -28,7 +28,7 @@ Du kan føje flere søgekriterier til en rapport. Hvis du føjer kriterier til e
 1. Klik på **OK** nederst i dialogboksen **Tilføj/rediger søgekriterier**, når du er færdig.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

@@ -72,3 +72,14 @@ If the submitter is not found in SuperOffice, you can create a new contact and c
 1. Click **Create new company and contact**. Some fields are populated with information the customer provided in the form.
 2. Fill in the relevant fields.
 3. Click **Add**. The new contact and company is added to SuperOffice.
+
+## <a id="filter" />Filter the form submissions overview
+
+To work more efficient, you can filter the records to show one or more form statuses or Mine/Primary groups. You find the **Filter** button in the lower-right corner.
+
+![Different filter options on form submissions -screenshot][img1]
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../../media/loc/en/marketing/form-submissions-filter.png

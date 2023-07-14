@@ -63,7 +63,7 @@ Nu gaan we de criteria voor dit standaardrapport enigszins wijzigen, zodat u kun
 1. Klik op **OK**.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

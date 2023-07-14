@@ -3,7 +3,7 @@ uid: help-sv-appointment-create
 title: Skapa bokning
 description: Den här guiden hjälper dig att skapa bokningar och se de olika typerna av aktivitetsalternativ.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 07.14.2023
 keywords: kalender, händelse
 so.topic: howto
 language: sv
@@ -34,8 +34,6 @@ Gör något av följande:
 * Dubbelklicka på ett klockslag i kalendern. Dialogrutan för händelser visas med en standardlängd för händelsen.
 
 * Högerklicka på ett klockslag i kalendern och välj **Nytt**. Dialogrutan för händelser visas med en standardlängd för händelsen.
-
-* Dubbelklicka på en tom rad på detaljkortet **Aktiviteter** längst ned i fönstret Kalender.
 
 * Klicka på **Nytt** i det övre fältet och välj **Bokning**, **Samtal** eller **Uppgift**.
 

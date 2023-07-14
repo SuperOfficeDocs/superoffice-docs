@@ -10,16 +10,14 @@ items:
   items:
   - name: Översikt
     href: working-with-reports.md
-  - name: Granska rapport
-    href: view.md
+  - name: Förhandsgranska rapport
+    href: preview.md
   - name: Visa rapportegenskaper
     href: properties.md
   - name: Skapa rapport
     href: create.md
   - name: Köra rapport
     href: run.md
-  - name: Förhandsgranska rapport
-    href: preview.md
   - name: Skriva ut rapport
     href: print.md
   - name: Spara rapport som fil
@@ -33,18 +31,7 @@ items:
   - name: Korstabeller
     href: cross-tables.md
 - name: Arbeta med ledtexter
-  topicHref: labels/index.md
-  items:
-  - name: Granska ledtexter
-    href: labels/index.md
-  - name: Lägga till ledtextformat
-    href: labels/add-format.md
-  - name: Redigera ledtextformat
-    href: labels/edit-format.md
-  - name: Ta bort ledtextformat
-    href: labels/remove-format.md
-  - name: Skriva ut ledtexter
-    href: labels/print-labels.md
+  href: labels/index.md
 - name: Sökkriterier
   topicHref: search-criteria/index.md
   items:

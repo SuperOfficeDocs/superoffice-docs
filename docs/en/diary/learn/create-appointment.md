@@ -2,8 +2,8 @@
 uid: help-en-appointment-create
 title: Create appointment
 description: This how-to guide will help you create appointments and see the different types of activity options available.
-author: SuperOffice RnD
-so.date: 02.10.2023
+author: Kirsti Aakerholt
+so.date: 06.29.2023
 keywords: diary, follow-up
 so.topic: howto
 language: en
@@ -34,8 +34,6 @@ Do one of the following:
 * Double-click a time in the Diary. The follow-ups dialog is displayed with a default duration for the follow-up.
 
 * Right-click a time in the Diary and select **New**. The follow-ups dialog is displayed with a default duration for the follow-up.
-
-* Double-click an empty line in the **Activities** section tab at the bottom of the Diary screen.
 
 * Click **New** in the top bar and select **Appointment**, **Phone Call** or **Task**.
 

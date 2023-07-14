@@ -3,7 +3,7 @@ uid: help-da-appointment-create
 title: Opret aftale
 description: "Denne vejledning hjælper dig med at oprette aftaler og se de forskellige typer aktivitetsmuligheder, der er tilgængelige."
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 07.14.2023
 keywords: dagbog, opfølgning
 so.topic: howto
 language: da
@@ -34,8 +34,6 @@ Gør ét af følgende:
 * Dobbeltklik på et klokkeslæt i dagbogen. Dialogboksen for opfølgninger vises med standardvarigheden for opfølgningen.
 
 * Højreklik på et klokkeslæt i dagbogen, og vælg **Ny**. Dialogboksen for opfølgninger vises med standardvarigheden for opfølgningen.
-
-* Dobbeltklik på en tom linje på detaljekortet **Aktiviteter** nederst i skærmbilledet Dagbog.
 
 * Klik på **Ny** i toplinjen, og vælg **Aftale**, **Telefonopkald** eller **Opgave**.
 

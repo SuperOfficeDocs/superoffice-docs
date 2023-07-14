@@ -10,16 +10,14 @@ items:
   items:
   - name: Oversigt
     href: working-with-reports.md
-  - name: Vis rapport
-    href: view.md
+  - name: Se forhåndsvisning af rapport
+    href: preview.md
   - name: Vis egenskaber for rapport
     href: properties.md
   - name: Opret rapport
     href: create.md
   - name: Kør rapport
     href: run.md
-  - name: Se forhåndsvisning af rapport
-    href: preview.md
   - name: Udskriv rapport
     href: print.md
   - name: Gem rapport som fil
@@ -33,18 +31,7 @@ items:
   - name: Krydstabeller
     href: cross-tables.md
 - name: Arbejd med etiketter
-  topicHref: labels/index.md
-  items:
-  - name: Vis etiketter
-    href: labels/index.md
-  - name: Tilføj etiketformater
-    href: labels/add-format.md
-  - name: Rediger etiketformater
-    href: labels/edit-format.md
-  - name: Fjern etiketformater
-    href: labels/remove-format.md
-  - name: Udskriv etiketter
-    href: labels/print-labels.md
+  href: labels/index.md
 - name: Søgekriterier
   topicHref: search-criteria/index.md
   items:

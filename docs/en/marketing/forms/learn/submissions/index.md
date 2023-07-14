@@ -24,9 +24,18 @@ In the **Form submissions** tab you can view all submitted forms. Use the filter
 * **Submitted**: The form was submitted, but not processed yet. [How to process form submissions][2]
 * **Awaiting confirmation**: The form was submitted, but the sender must confirm their email address (double-opt in).
 
+## Related topics
+
+* [Track form submissions][1]
+* [Process form submissions][2]
+* [Filter on form submissions][3]
+* [Analyze your mailing results][4]
+
 <!-- Referenced links -->
 [1]: track.md
 [2]: process.md
+[3]: process.md#filter
+[4]: ../../../mailing/learn/follow-up/view-statistics.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/marketing-and-forms/form-notification.png

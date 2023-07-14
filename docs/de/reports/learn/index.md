@@ -35,13 +35,13 @@ Die Ansicht **Berichte** ist ein Berichtgenerator mit einer Reihe von Standardbe
 | ![Symbol][img6] | Textdateiexport | Zum Exportieren in Textdateien. |
 
 > [!TIP]
-> Informationen dazu, wie Sie eine Vorschau des fertigen Berichts anzeigen, finden Sie unter [Berichte anzeigen][4].
+> Informationen dazu, wie Sie eine Vorschau des fertigen Berichts anzeigen, finden Sie unter [Vorschau des Berichts][4].
 
 ## Was möchten Sie jetzt tun?
 
 * [Berichtseigenschaften anzeigen][2]
 * [Berichte erstellen][3]
-* [Berichte anzeigen][4]
+* [Vorschau des Berichts][4]
 * [Berichte drucken][5]
 * [Berichte als Dateien speichern][9]
 * [Berichte aus dem Berichtsarchiv (die Bereichsregisterkarte Dokumente) öffnen][6]
@@ -52,7 +52,7 @@ Die Ansicht **Berichte** ist ein Berichtgenerator mit einer Reihe von Standardbe
 [1]: ../../dashboard/learn/index.md
 [2]: properties.md
 [3]: create.md
-[4]: view.md
+[4]: preview.md
 [5]: print.md
 [9]: save.md
 [6]: open-from-archive.md

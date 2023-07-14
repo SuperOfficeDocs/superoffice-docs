@@ -10,16 +10,14 @@ items:
   items:
   - name: Overview
     href: working-with-reports.md
-  - name: View report
-    href: view.md
+  - name: Preview report
+    href: preview.md
   - name: Show report properties
     href: properties.md
   - name: Create report
     href: create.md
   - name: Run report
     href: run.md
-  - name: Preview report
-    href: preview.md
   - name: Print report
     href: print.md
   - name: Save report as file
@@ -33,18 +31,7 @@ items:
   - name: Cross tables
     href: cross-tables.md
 - name: Work with labels
-  topicHref: labels/index.md
-  items:
-  - name: Display labels
-    href: labels/index.md
-  - name: Add label formats
-    href: labels/add-format.md
-  - name: Edit label formats
-    href: labels/edit-format.md
-  - name: Remove label formats
-    href: labels/remove-format.md
-  - name: Print labels
-    href: labels/print-labels.md
+  href: labels/index.md
 - name: Search criteria
   topicHref: search-criteria/index.md
   items:

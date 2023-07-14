@@ -10,16 +10,14 @@ items:
   items:
   - name: Overzicht
     href: working-with-reports.md
-  - name: Rapport bekijken
-    href: view.md
+  - name: Voorbeeldweergave rapport
+  - name: preview.md
   - name: Rapporteigenschappen weergeven
     href: properties.md
   - name: Rapporten maken
     href: create.md
   - name: Rapport uitvoeren
     href: run.md
-  - name: Voorbeeldweergave rapport
-    href: preview.md
   - name: Rapport afdrukken
     href: print.md
   - name: Rapport opslaan als bestand
@@ -33,18 +31,7 @@ items:
   - name: Kruistabellen
     href: cross-tables.md
 - name: Werken met labels
-  topicHref: labels/index.md
-  items:
-  - name: Etiketten weergeven
-    href: labels/index.md
-  - name: Etiketopmaken toevoegen
-    href: labels/add-format.md
-  - name: Etiketopmaken bewerken
-    href: labels/edit-format.md
-  - name: Etiketopmaken verwijderen
-    href: labels/remove-format.md
-  - name: Etiketten afdrukken
-    href: labels/print-labels.md
+  href: labels/index.md
 - name: Zoekcriteria
   topicHref: search-criteria/index.md
   items:

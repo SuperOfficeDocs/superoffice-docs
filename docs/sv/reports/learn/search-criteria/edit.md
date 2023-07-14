@@ -63,7 +63,7 @@ Nu ska vi ändra standardrapportkriterierna något, så att du kan se hur du än
 1. Klicka på **OK**.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

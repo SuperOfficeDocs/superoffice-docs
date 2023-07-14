@@ -22,13 +22,11 @@ Label printing will come in handy, for example, when you have to send out letter
 4. In the **Choose label** dialog, select the label format you require and click **OK**.
 
     > [!NOTE]
-    > In this dialog you can also [add new label formats][2] as well as [edit][3] and [delete][4] existing ones.
+    > In this dialog you can also [add new label formats][2] as well as edit and delete existing ones.
 
 5. Open the generated PDF and print it.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/learn/labels/add-format.md
-[3]: ../../../../reports/learn/labels/edit-format.md
-[4]: ../../../../reports/learn/labels/remove-format.md
+[2]: ../../../../reports/learn/labels/index.md
 
 <!-- Referenced images -->

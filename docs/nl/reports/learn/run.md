@@ -22,7 +22,7 @@ Als u een [rapport als document wilt opslaan][1] (type = Report) in SuperOffice 
 
 ## Wat wilt u nu doen?
 
-* [Rapporten bekijken][2]
+* [Voorbeeldweergave rapport][2]
 * [Rapporten afdrukken][3]
 * [Rapporten opslaan als bestand][4]
 * [Open rapporten in het rapportarchief (het sectietabblad Documenten )][6]
@@ -31,7 +31,7 @@ Als u een [rapport als document wilt opslaan][1] (type = Report) in SuperOffice 
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
-[2]: view.md
+[2]: preview.md
 [3]: print.md
 [4]: save.md
 [6]: open-from-archive.md

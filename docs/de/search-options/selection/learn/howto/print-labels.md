@@ -22,13 +22,11 @@ Das Drucken von Etiketten kann beispielsweise dann nützlich sein, wenn Sie mehr
 4. Wählen Sie das gewünschte Etikettenformat im Dialogfeld **Etikett wählen** aus und klicken Sie auf **OK**.
 
     > [!NOTE]
-    > In diesem Dialogfeld können Sie sowohl [neue Etikettenlayouts erstellen][2] als auch vorhandene Layouts [bearbeiten][3] und [löschen][4].
+    > In diesem Dialogfeld können Sie sowohl [neue Etikettenlayouts erstellen][2] als auch vorhandene Layouts bearbeiten und löschen.
 
 5. Öffnen Sie die erstelle PDF-Datei und drucken Sie sie aus.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/learn/labels/add-format.md
-[3]: ../../../../reports/learn/labels/edit-format.md
-[4]: ../../../../reports/learn/labels/remove-format.md
+[2]: ../../../../reports/learn/labels/index.md
 
 <!-- Referenced images -->

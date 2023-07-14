@@ -3,7 +3,7 @@ uid: help-nl-appointment-create
 title: Afspraak maken
 description: Deze handleiding helpt u bij het maken van afspraken en het bekijken van de verschillende soorten beschikbare activiteitenopties.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 07.14.2023
 keywords: agenda, vervolgactiviteit
 so.topic: howto
 language: nl
@@ -34,8 +34,6 @@ Voer een van de volgende handelingen uit:
 * Dubbelklik op een tijdsinterval in de agenda. Het dialoogvenster voor vervolgactiviteiten wordt weergegeven met een standaardduur voor de vervolgactiviteit.
 
 * Klik met de rechtermuisknop op een tijd in de agenda en selecteer **Nieuw**. Het dialoogvenster voor vervolgactiviteiten wordt weergegeven met een standaardduur voor de vervolgactiviteit.
-
-* Dubbelklik op een lege regel in het sectietabblad **Activiteiten** onderin het scherm Agenda.
 
 * Klik op **Nieuw** in de bovenste balk en selecteer **Afspraak**, **Telefoongesprek** of **Taak**.
 

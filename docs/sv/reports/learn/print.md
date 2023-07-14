@@ -30,7 +30,7 @@ language: sv
 
 <!-- Referenced links -->
 [1]: cross-tables.md#print
-[2]: labels/print-labels.md
+[2]: labels/index.md
 [3]: properties.md
 
 <!-- Referenced images -->

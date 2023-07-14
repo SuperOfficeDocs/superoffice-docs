@@ -1,25 +1,27 @@
 ---
 uid: help-sv-report-preview
-title: Funktioner i förhandsgranskningsfönstret
-description: Funktioner i förhandsgranskningsfönstret
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: Förhandsgranska rapporter
+description: Hur förhandsgranska rapporter
+author: Bergfrid Dias
+so.date: 07.14.2023
 keywords: rapport
-so.topic: concept
+so.topic: howto
 language: sv
 ---
 
 # Förhandsgranska rapporter
 
-I förhandsgranskningsfönstret ser du hur en utskrift blir innan du gör en utskrift på skrivaren. Fönstret visas när du klickar på knappen **Förhandsgranska** under kriterielistan på skärmen **Rapporter**. I förhandsgranskningsfönstret finns det funktioner för visning, navigering, utskrift och sparande.
+I förhandsgranskningsfönstret ser du hur en utskrift blir innan du gör en utskrift på skrivaren. Fönstret visas när du klickar på knappen **Förhandsgranska** under kriterielistan på skärmen **Rapporter**. I förhandsgranskningsfönstret finns det funktioner för visning, navigering, utskrift, och sparande.
 
-Detta fungerar lite olika för de olika rapporttyperna. För att granska rapporttyperna korstabell eller etikett kan du gå vidare till något av avsnitten nedan:
+Detta fungerar lite olika för de olika rapporttyperna.Om du är osäker på vilken rapporttyp du har kan du titta på [miniatyrbilden][3] uppe till höger i fönstret **Rapporter**.
 
-* [Visa korstabeller][1]
-* [Granska etiketter][2]
+| Rapporttyp | Steg |
+|---|---|
+| Text, lista, grupplista, kalender | Klicka **Förhandsgranska**. Se beskrivning lenger ned.|
+| Etiket | Klicka **Förhandsgranska** och [marker önskat etikettformat][2]. |
+| Korstabell | [Hur visa korstabeller][1] |
 
-> [!TIP]
-> Om du är osäker på vilken rapporttyp du har kan du titta på miniatyrbilden uppe till höger i fönstret **Rapporter**. [Hur][3]?
+## Steg
 
 1. Välj önskad rapport.
 
@@ -31,18 +33,12 @@ Du kan spara PDF-filen inifrån visningsprogrammet för PDF-filer, så att du ka
 
 ## Vad vill du göra nu?
 
-* [Visa korstabeller][1]
-* [Granska etiketter][2]
-* [Lägga till ledtextformat][4]
-* [Redigera etikettformat][5]
-* [Ta bort etikettformat][6]
+* [Leglägga till, redigera, och ta bort etikettformat][2]
+* [Visa rapportegenskaper][3]
 
 <!-- Referenced links -->
 [1]: index.md
 [2]: labels/index.md
 [3]: properties.md
-[4]: labels/add-format.md
-[5]: labels/edit-format.md
-[6]: labels/remove-format.md
 
 <!-- Referenced images -->

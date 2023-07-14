@@ -29,7 +29,7 @@ Om du ändrar sökkriterierna i en standardrapport är ändringarna bara tillfä
 
 <!-- Referenced links -->
 [1]: edit.md
-[3]: ../labels/add-format.md
+[3]: ../favorites/add.md
 [4]: add.md
 [5]: ../../../search-options/learn/search-criteria.md
 
