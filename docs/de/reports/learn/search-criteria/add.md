@@ -28,7 +28,7 @@ Sie können weitere Suchkriterien zu einem Bericht hinzufügen. Wenn Sie Kriteri
 1. Wenn Sie Auswahl ausgeführt haben, klicken Sie unten im Dialogfeld **Suchkriterien hinzufügen/ändern** auf **OK**.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

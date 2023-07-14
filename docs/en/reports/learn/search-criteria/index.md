@@ -23,13 +23,12 @@ If you change the search criteria in a standard report, your changes are only te
 ## What would you like to do now?
 
 * [Add criteria to reports][4]
-* [Edit search criteria in reports][1]
+* [Edit or delete search criteria in reports][1]
 * [Learn how to use search criteria][5]
-* [See an example of how to edit and delete search criteria in a report][1]
 
 <!-- Referenced links -->
 [1]: edit.md
-[3]: ../labels/add-format.md
+[3]: ../favorites/add.md
 [4]: add.md
 [5]: ../../../search-options/learn/search-criteria.md
 

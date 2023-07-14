@@ -28,7 +28,7 @@ U kunt meer zoekcriteria aan een rapport toevoegen. Als u criteria aan een stand
 1. Klik op **OK** onder in het dialoogvenster **Zoekcriteria toevoegen/bewerken** wanneer u klaar bent.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

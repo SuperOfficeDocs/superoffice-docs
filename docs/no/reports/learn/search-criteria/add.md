@@ -28,7 +28,7 @@ Du kan legge til flere søkekriterier i en rapport. Hvis du legger til kriterier
 1. Klikk på **OK** nederst i dialogboksen **Legg til/rediger kriterier** når du er ferdig.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

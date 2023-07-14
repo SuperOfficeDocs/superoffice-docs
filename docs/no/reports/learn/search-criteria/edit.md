@@ -63,7 +63,7 @@ Vi skal nå endre litt på kriteriene i standardrapporten, slik at du ser hvorda
 1. Klikk på **OK**.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->

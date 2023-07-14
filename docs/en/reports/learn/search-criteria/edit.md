@@ -11,7 +11,7 @@ language: en
 
 # Edit search criteria in reports
 
-You can edit search criteria in favorite reports. Standard reports cannot actually be edited, but you can customize the search criteria in them and save them as your own [favorite reports][1]).
+You can edit search criteria in favorite reports. Standard reports cannot actually be edited, but you can customize the search criteria in them and save them as your own [favorite reports][1].
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
@@ -63,7 +63,7 @@ Now we are going to amend slightly the standard report criteria, so that you can
 1. Click **OK**.
 
 <!-- Referenced links -->
-[1]: ../labels/add-format.md
+[1]: ../favorites/add.md
 [2]: ../../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
