@@ -4,18 +4,18 @@ title: Work with external documents
 description: Work with external documents and files
 author: Kirsti Aakerholt
 so.date: 07.05.2023
-keywords: request, document, external, file
+keywords: request, document, external, file, knowledge base
 so.topic: howto
 so.audience: person
 so.audience.tooltip: SuperOffice Service
 language: en
 ---
 
-# Work with external documents/files (knowledge base)
+# Work with external documents (knowledge base)
 
-You can add files to make them available to anyone using SuperOffice CRM, including unregistered customers. Files you upload to the knowledge base are available when you write the content of messages and mailings to send to a customer.
+You can add files to make them available to anyone using SuperOffice CRM, including unregistered customers. Files you upload to the knowledge base are available when you answer customer requests and create mailings.
 
-This applies, for example, when you use the **Message** tab when [answering requests][1]. Here you can enter text in the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
+For example, when [answering requests][1], you can enter text in the **Message** tab the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
 
 ## View file
 
@@ -24,33 +24,33 @@ This applies, for example, when you use the **Message** tab when [answering requ
 1. Go to the required folder.
 
 1. Do one of the following:
-    * Click the file name to go to the **Document properties** screen. Here you can also view and edit the contents of certain file types, such as html, txt and the native ejr format.
-    * Click ![icon][img1] **Download** to download files that cannot be viewed in the browser, such as images, PDF and Microsoft Office files. An icon in the file list indicates the file type.
+    * Click the file name to go to the **Document properties** screen (view and edit contents).
+    * Click ![icon][img1] **Download** to download files that cannot be viewed in the browser, such as images, PDFs, and Microsoft Office files. An icon in the file list indicates the file type.
 
 ## Add file
 
 > [!NOTE]
-> You must create the physical file itself before you can add it to SuperOffice. For example, to create a price list, you could use Microsoft Word or Excel to write the contents.
+> You must create the physical file before you can add it to SuperOffice. For example, to create a price list, you could use Microsoft Word or Excel to write the contents.
 
 1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
 
 1. Go to the folder you want to put the file in. If it does not yet exist, you can create a new folder as described below.
 
-1. Click the **New document** button. This takes you to the **Document properties** screen.
+1. Click **New document**.
 
-1. Enter a descriptive name for the file in the **Name** field.
+1. In the **Document properties** screen, enter a descriptive **Name** for the file.
 
 1. The **In folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the ![icon][img2] list button and select a different folder in the list that appears.
 
 1. In the **Access** field, select who is to have access to read and edit the file.
 
-1. To use the file in a web-based customer centre, you can add a unique ID string in the **ID string** field.
+1. Optionally, add a unique **ID string** to use the file in a web-based customer centre.
 
 1. In the **Description** field, enter a brief description of what the file contains.
 
 1. Click the **Choose file** button next to **File**, and select the new file in the dialog that appears.
 
-1. Click **Save**. If the file type can be edited in the browser, the **Contents** field is populated with the file contents.
+1. Click **Save**. If the file type can be edited in the browser, the **Contents** field is populated.
 
 1. Click **OK**. The file is added to the specified folder.
 
@@ -60,7 +60,7 @@ Certain file types, such as html, txt and the native ejr format, can be edited d
 
 1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
 1. Go to the folder where the file is located.
-1. Click ![icon][img1] **Download** to download a file.
+1. Click ![icon][img1] **Download**.
 1. Edit and save the file using the application the file was originally created in.
 1. Click the file name to go to the **Document properties** screen.
 1. Click the **Choose file** button next to **File**, and in the dialog that appears select the file you edited.
@@ -68,7 +68,7 @@ Certain file types, such as html, txt and the native ejr format, can be edited d
 
 ## Edit file properties
 
-By editing the file's properties, you can, for example, change who is to have access to the file.
+By editing the file's properties, you can, for example, change who is to have access to it.
 
 1. Go to ![icon][img3] **Main menu** in the top bar and select **Knowledge base** > **External documents**.
 1. Go to the folder where the file is located.
@@ -85,7 +85,7 @@ By editing the file's properties, you can, for example, change who is to have ac
 1. Go to the folder where the file is located.
 1. Click the file name to go to the **Document properties** screen.
 1. Click the **Delete** button at the bottom of the screen.
-1. Click **OK** to confirm. The file is removed from SuperOffice Service.
+1. Click **OK** to confirm. The file is removed from SuperOffice.
 
 ## Create folders
 
