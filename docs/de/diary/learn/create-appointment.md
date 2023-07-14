@@ -3,7 +3,7 @@ uid: help-de-appointment-create
 title: Termin erstellen
 description: "Diese Anleitung hilft Ihnen, Termine zu erstellen und die verschiedenen Arten von verfügbaren Aktivitätsoptionen zu sehen."
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 07.14.2023
 keywords: Kalender, Folgeaufgabe
 so.topic: howto
 language: de
@@ -34,8 +34,6 @@ Führen Sie einen der folgenden Schritte aus:
 * Doppelklicken Sie auf einen Zeitraum im Kalender. Das Dialogfeld Folgeaufgaben wird mit einer Standarddauer für die Folgeaufgabe angezeigt.
 
 * Klicken Sie mit der rechten Maustaste auf eine Uhrzeit im Kalender und wählen Sie **Neu**. Das Dialogfeld Folgeaufgaben wird mit einer Standarddauer für die Folgeaufgabe angezeigt.
-
-* Doppelklicken Sie auf eine leere Zeile in der Bereichsregisterkarte **Aktivitäten** unten in der Ansicht Kalender.
 
 * Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Termin**, **Anruf** oder **Aufgabe** aus.
 
