@@ -137,9 +137,9 @@ Sie müssen die Rolle *Benutzerebene 0* oder eine andere Rolle haben, die Ihnen 
 
 Haben Sie Probleme bei der Anmeldung? Sie können [unsere FAQs durchsuchen][1], um Informationen zu verschiedenen Problemen bei der Anmeldung zu finden.
 
-* [Was kann man tun, wenn man sich nicht bei SuperOffice CRM Online anmelden kann?][3] \- FAQ
-* [Was kann man tun, wenn sich ein neu erstellter Benutzer nicht bei SuperOffice CRM anmelden kann?][4] \- FAQ
-* [Wie kann man tun, um das vergessene Passwort für SuperOffice CRM Online zu ändern?][5] \- FAQ
+* [Was kann man tun, wenn man sich nicht bei SuperOffice CRM Online anmelden kann?][3] - FAQ
+* [Was kann man tun, wenn sich ein neu erstellter Benutzer nicht bei SuperOffice CRM anmelden kann?][4] - FAQ
+* [Wie kann man tun, um das vergessene Passwort für SuperOffice CRM Online zu ändern?][5] - FAQ
 * [Optionen im Menü Persönliche Einstellungen][6]
 
 <!-- Referenced links -->

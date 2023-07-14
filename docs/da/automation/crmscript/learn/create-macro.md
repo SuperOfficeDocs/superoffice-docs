@@ -32,7 +32,7 @@ Vi vil nu oprette en makro baseret på det ovenstående eksempel.
 
 1. Vælg **Ny menu** for at gøre makroen tilgængelig fra knappen **Handling** på skærmen Firma, Kontaktskærmen eller Sagsskærmen eller fanen **Meddelelse**.
 
-1. Gå til fanen **Handlinger**, og vælg **Vælg handlingstype** &gt; **Skift en anmodning**.
+1. Gå til fanen **Handlinger**, og vælg **Vælg handlingstype** > **Skift en anmodning**.
 
 1. Marker **Kategori**, og vælg en kategori på listen (for eksempel *Regnskab*).
 

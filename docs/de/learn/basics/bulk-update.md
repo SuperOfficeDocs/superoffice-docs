@@ -76,7 +76,7 @@ Mit dem Aktionstyp **Regex** können Sie ein Feld anhand von regulären Ausdrüc
 
 ## Firmenkategorien abgleichen
 
-Sie möchten Ihre Kunden nach Verkaufsumsätzen kategorisieren. Erstellen Sie in SuperOffice CRM Firmenkategorien mit den Namen „Kunde A“, „Kunde B“ und „Kunde C“. Für „Kunde A“ können Sie eine Selektion mit Firmen erstellen, mit denen im letzten Jahr Verkaufsumsätze von über EUR 50.000 erzielt wurden. Ordnen Sie mit **Massenabgleich** diese Kunden in die Kategorie „Kunde A“ ein. Wiederholen Sie diesen Vorgang bei den anderen Firmen.
+Sie möchten Ihre Kunden nach Verkaufsumsätzen kategorisieren. Erstellen Sie in SuperOffice CRM Firmenkategorien mit den Namen "Kunde A", "Kunde B" und "Kunde C". Für "Kunde A" können Sie eine Selektion mit Firmen erstellen, mit denen im letzten Jahr Verkaufsumsätze von über EUR 50.000 erzielt wurden. Ordnen Sie mit **Massenabgleich** diese Kunden in die Kategorie "Kunde A" ein. Wiederholen Sie diesen Vorgang bei den anderen Firmen.
 
 ## Postleitzahl und Ort von Firmen abgleichen
 
@@ -84,11 +84,11 @@ Postleitzahlen und Postorte in Norwegen haben sich geändert. Gleichen Sie mit *
 
 ## Person aktualisieren
 
-Sie haben festgestellt, dass das Feld **Position** für Personen selten verwendet wird. Um zumindest damit anzufangen, dieses Feld bei allen Personen auszufüllen, suchen Sie alle Personen mit dem Titel „Direktor“. Erstellen Sie eine Selektion mit allen Personen, bei denen das Feld **Titel** das Wort „Direktor“ enthält. Fügen Sie mit **Massenabgleich** den Begriff **Management** in das Feld **Position** ein.
+Sie haben festgestellt, dass das Feld **Position** für Personen selten verwendet wird. Um zumindest damit anzufangen, dieses Feld bei allen Personen auszufüllen, suchen Sie alle Personen mit dem Titel "Direktor". Erstellen Sie eine Selektion mit allen Personen, bei denen das Feld **Titel** das Wort "Direktor" enthält. Fügen Sie mit **Massenabgleich** den Begriff **Management** in das Feld **Position** ein.
 
 ## Projekt abgleichen
 
-Sie möchten alle „alten“ Projekte, die nicht als abgeschlossen gekennzeichnet sind, aufräumen. Erstellen Sie eine Selektion mit allen alten Projekten, beispielsweise allen Projekten, die vor mehr als 2 Jahren erstellt und im letzten Jahr nicht abgeglichen wurden. Stellen Sie mit **Massenabgleich** den Status **Abgeschlossen** bei diesen Projekten auf **Ja** ein.
+Sie möchten alle "alten" Projekte, die nicht als abgeschlossen gekennzeichnet sind, aufräumen. Erstellen Sie eine Selektion mit allen alten Projekten, beispielsweise allen Projekten, die vor mehr als 2 Jahren erstellt und im letzten Jahr nicht abgeglichen wurden. Stellen Sie mit **Massenabgleich** den Status **Abgeschlossen** bei diesen Projekten auf **Ja** ein.
 
 <!-- Referenced links -->
 

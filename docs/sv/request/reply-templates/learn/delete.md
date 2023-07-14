@@ -13,7 +13,7 @@ language: sv
 
 # Ta bort svarsmall
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **Svarsmallar**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
 1. Gå till mappen där svarsmallen ligger.
 1. Klicka på svarsmallen. Du kommer då till skärmen **Visa svarsmallar**.
 1. Klicka på knappen **Redigera svarsmall**. Du kommer då till skärmen **Egenskaper för svarsmall**.

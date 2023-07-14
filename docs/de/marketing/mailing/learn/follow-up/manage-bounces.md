@@ -65,25 +65,25 @@ Um mehrere E-Mail-Adressen zu verarbeiten, haben Sie mit der Schaltfläche **Akt
 ### Exportieren
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie exportieren möchten.
-2. Wählen Sie **Aktionen** &gt; **Exportieren**.
+2. Wählen Sie **Aktionen** > **Exportieren**.
 3. Wählen Sie ein Exportformat aus. Die Exportdatei wird unten im Browser angezeigt. Sie kann auch in Ihrem Download-Ordner gefunden werden.
 
 ### Zu neuer Selektion hinzufügen
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie einer neuen Selektion hinzufügen möchten.
-2. Wählen Sie **Aktionen** &gt; **Zur neuer Selektion** hinzufügen.
+2. Wählen Sie **Aktionen** > **Zur neuer Selektion** hinzufügen.
 3. Geben Sie den Namen der neuen Selektion ein und klicken auf **OK**. Mit den ausgewählten E-Mail-Adressen wird eine neue statische Selektion erstellt.
 
 ### Zu neuem Projekt hinzufügen
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie einem neuen Projekt hinzufügen möchten.
-2. Wählen Sie **Aktionen** &gt; **Zu neuem Projekt hinzufügen** .
+2. Wählen Sie **Aktionen** > **Zu neuem Projekt hinzufügen** .
 3. Geben Sie den Namen des neuen Projektes ein und klicken auf **OK**. Mit den ausgewählten E-Mail-Adressen wird ein neues Projekt erstellt.
 
 ### Zu bestehender Selektion hinzufügen
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie einer bestehenden Selektion hinzufügen möchten.
-2. Wählen Sie **Aktionen** &gt; **Zu bestehender Selektion hinzufügen**.
+2. Wählen Sie **Aktionen** > **Zu bestehender Selektion hinzufügen**.
 3. Beginnen Sie mit der Eingabe in das Suchfeld, um die entsprechende Selektion zu finden.
 4. Klicken Sie in der Ergebnisliste auf die Selektion, die Sie verwenden möchten.
 5. Klicken Sie auf **OK**. Die ausgewählten E-Mail-Adressen werden der Selektion hinzugefügt.
@@ -91,7 +91,7 @@ Um mehrere E-Mail-Adressen zu verarbeiten, haben Sie mit der Schaltfläche **Akt
 ### Zu bestehendem Projekt hinzufügen
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie einem bestehenden Projekt hinzufügen möchten.
-2. Wählen Sie **Aktionen** &gt; **Zu bestehendem Projekt hinzufügen**.
+2. Wählen Sie **Aktionen** > **Zu bestehendem Projekt hinzufügen**.
 3. Beginnen Sie mit der Eingabe in das Suchfeld, um das entsprechende Projekt zu finden.
 4. Klicken Sie in der Ergebnisliste auf das Projekt, das Sie verwenden möchten.
 5. Klicken Sie auf **OK**. Die ausgewählten E-Mail-Adressen werden dem Projekt hinzugefügt
@@ -101,15 +101,15 @@ Um mehrere E-Mail-Adressen zu verarbeiten, haben Sie mit der Schaltfläche **Akt
 Verwenden Sie diese Option, um E-Mail-Adressen dauerhaft aus der Datenbank zu löschen.
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie löschen möchten.
-2. Wählen Sie **Aktionen** &gt; **Ausgewählte E-Mail-Adressen löschen**.
+2. Wählen Sie **Aktionen** > **Ausgewählte E-Mail-Adressen löschen**.
 3. Klicken Sie zur Bestätigung auf **OK**.
 
-### Kennzeichnung “Zustellung nicht möglich” aufheben
+### Kennzeichnung "Zustellung nicht möglich" aufheben
 
 Verwenden Sie diese Option, um E-Mail-Adressen aus der Liste zu entfernen, damit sie in Kampagnen verwendet werden können. Dies kann relevant sein, wenn Unzustellbarkeiten aufgrund einer falschen Konfiguration oder aus temporären technischen Gründen auftreten, oder wenn Sie wissen, dass diese E-Mail-Adressen korrekt sind und einen zweiten Sendeversuch unternehmen möchten.
 
 1. Wählen Sie die E-Mail-Adressen aus, deren Kennzeichnung Zustellung nicht möglich entfernt werden soll.
-2. Wählen Sie **Aktionen** &gt; **Kennzeichnung “Zustellung nicht möglich” aufheben**.
+2. Wählen Sie **Aktionen** > **Kennzeichnung "Zustellung nicht möglich" aufheben**.
 3. Klicken Sie zur Bestätigung auf **OK**.
 
 ### Als ausgeschiedenen Mitarbeiter festlegen
@@ -117,7 +117,7 @@ Verwenden Sie diese Option, um E-Mail-Adressen aus der Liste zu entfernen, damit
 Mit dieser Option können Sie eine Person als ausgeschiedenen Mitarbeiter festlegen.
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie löschen möchten.
-2. Wählen Sie **Aktionen** &gt; **Als ausgeschiedenen Mitarbeiter festlegen**.
+2. Wählen Sie **Aktionen** > **Als ausgeschiedenen Mitarbeiter festlegen**.
 3. Klicken Sie zur Bestätigung auf **OK**.
 
 <!-- Referenced links -->

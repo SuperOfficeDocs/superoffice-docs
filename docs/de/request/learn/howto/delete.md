@@ -23,7 +23,7 @@ Im Allgemeinen empfiehlt es sich, keine Anfrage zu löschen. Vielleicht müssen 
 1. Bestätigen Sie, ob Sie die Anfrage wirklich löschen möchten, indem Sie auf **Ja** oder **Nein** klicken.
 
 > [!NOTE]
-> Die Anfrage wird nicht umgehend aus der Datenbank gelöscht. Der Anfragestatus wird auf Gelöscht gesetzt, sodass die Anfrage weiterhin aufgerufen und bearbeitet werden kann. Die Anfrage wird dann nach 14 Tagen (Systemeinstellung) endgültig aus der Datenbank gelöscht. Sie können auf die gelöschte Anfrage im [Papierkorb][3]zugreifen.
+> Die Anfrage wird nicht umgehend aus der Datenbank gelöscht. Der Anfragestatus wird auf Gelöscht gesetzt, sodass die Anfrage weiterhin aufgerufen und bearbeitet werden kann. Die Anfrage wird dann nach 14 Tagen (Systemeinstellung) endgültig aus der Datenbank gelöscht. Sie können auf die gelöschte Anfrage im [Papierkorb][3] zugreifen.
 
 ## Was möchten Sie jetzt tun?
 

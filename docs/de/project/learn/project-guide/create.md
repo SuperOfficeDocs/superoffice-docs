@@ -45,7 +45,7 @@ Im nächsten Schritt können Sie die Status mit einem Projekttyp verknüpfen.
 
 Der Projektleitfaden muss mit einem Projekttyp verknüpft werden. [Wie man einen Projekttyp erstellt][3].
 
-Mögliche Projekttypen sind z. B.: „Konferenz“, „Kampagne“ und „Intern“.
+Mögliche Projekttypen sind z. B.: "Konferenz", "Kampagne" und "Intern".
 
 1. Aktivieren Sie die Option **Dieser Projekttyp ist mit einem Leitfaden verknüpft**.
 1. Wählen Sie zumindest zwei Status aus.

@@ -1,7 +1,7 @@
 ---
 uid: help-en-request-find
 title: Find a request
-description: In this how-to guide you’ll learn how to find requests in SuperOffice
+description: In this how-to guide you will learn how to find requests in SuperOffice
 author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: request, search, find

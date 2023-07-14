@@ -29,10 +29,10 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
 5. Wählen Sie auf der Registerkarte **Bibliothek** eines der folgenden Diagramme aus:
 
-    * ![Symbol][img2] \- Diagramm mit großen Zahlen
-    * ![Symbol][img3] \- Balkendiagramm
-    * ![Symbol][img4] \- Säulendiagramm
-    * ![Symbol][img5] \- Messdiagramm
+    * ![Symbol][img2] - Diagramm mit großen Zahlen
+    * ![Symbol][img3] - Balkendiagramm
+    * ![Symbol][img4] - Säulendiagramm
+    * ![Symbol][img5] - Messdiagramm
     * Leere Verkaufskachel
 
     > [!TIP]
@@ -70,7 +70,7 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
 13. Klicken Sie auf **Speichern**. Klicken Sie dann auf **Fertig**.
 
-## Warum lässt sich „Mit Ziel vergleichen“ nicht auswählen?
+## Warum lässt sich "Mit Ziel vergleichen" nicht auswählen?
 
 Wenn Sie das Feld Mit Ziel vergleichen zwar sehen, aber deaktiviert ist, können Sie Ihre Maus über das Feld bewegen, um eine QuickInfo anzuzeigen, die erklärt, was Sie ändern müssen, um das Feld zu aktivieren und auszuwählen.
 

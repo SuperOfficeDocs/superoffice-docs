@@ -13,7 +13,7 @@ language: da
 
 Centralt i dokumentfunktionen findes dialogboksen **Dokument**, som du kan åbne på forskellige måder:
 
-* Ved at vælge **Ny** &gt; **Dokument**.
+* Ved at vælge **Ny** > **Dokument**.
 * Ved at åbne et [eksisterende dokument][1].
 
 Dialogboksen består af en hoveddel med generelle oplysninger om dokumentet samt følgende faner med ekstra oplysninger:

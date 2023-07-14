@@ -27,7 +27,7 @@ Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren
 
 1. Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
 
-    ![ Status Abgeschlossen für eine Aktivität ändern -screenshot][img4]
+    ![Status Abgeschlossen für eine Aktivität ändern -screenshot][img4]
 
 > [!NOTE]
 > Um eine abgeschlossene Aktivität zu bearbeiten, müssen Sie zunächst den Status **Abgeschlossen** deaktivieren.

@@ -29,7 +29,7 @@ U kunt alle sectietabbladen met records in SuperOffice CRM exporteren naar een E
 3. Sla de spreadsheet op waar u wilt.
 
 > [!NOTE]
-> Als u weet dat deze functie is ingeschakeld in Instellingen en onderhoud, maar u de ![pictogram][img2] knop **Exporteren** onder aan de sectietabbladen niet ziet, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Functies** &gt; **Knop Exporteren weergeven op de sectietabbladen** en selecteert u **Ja**.
+> Als u weet dat deze functie is ingeschakeld in Instellingen en onderhoud, maar u de ![pictogram][img2] knop **Exporteren** onder aan de sectietabbladen niet ziet, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** > **Knop Exporteren weergeven op de sectietabbladen** en selecteert u **Ja**.
 
 <!-- Referenced links -->
 [1]: configure-columns.md

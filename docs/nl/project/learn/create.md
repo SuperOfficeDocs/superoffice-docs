@@ -38,7 +38,7 @@ Bekijk deze video of volg de onderstaande stappen om te leren hoe u een project 
 * [Projecten verwijderen][9]
 * [Werken met projectgidsen][1]
 * [Activiteiten][3]
-* [Bekijk waar onze klanten in verschillende industrieën Project voor gebruiken][2] \- blog
+* [Bekijk waar onze klanten in verschillende industrieën Project voor gebruiken][2] - blog
 
 <!-- Referenced links -->
 [5]: project-members/add.md

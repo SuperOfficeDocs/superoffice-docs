@@ -15,7 +15,7 @@ På skærmbilledet **Rapporter** kan du kun [køre tidligere definerede rapporte
 
 Hvis du vil [gemme en rapport som et dokument][4] (type = Rapport) i SuperOffice CRM, skal du klikke på knappen **Gem** på skærmbilledet **Rapporter**.
 
-Du kan definere nye rapporter i SuperOffice Reporter Studio og importere dem i Indstillinger og vedligeholdelse (**Indstillinger** &gt; **Rapporter**).
+Du kan definere nye rapporter i SuperOffice Reporter Studio og importere dem i Indstillinger og vedligeholdelse (**Indstillinger** > **Rapporter**).
 
 ## Oprette en separat rapport
 

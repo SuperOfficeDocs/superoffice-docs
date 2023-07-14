@@ -19,7 +19,7 @@ language: sv
 
 1. Välj fliken **Formulärmallar**.
 2. Klicka på **Alla mallar**.
-3. Klicka på ![ikonen][img1]menyknapp bredvid den mall som du vill använda.
+3. Klicka på ![ikonen][img1] menyknapp bredvid den mall som du vill använda.
 4. Välj **Kopiera till nytt formulär**. Mallen öppnas i dialogrutan **Redigera formulär**. Se [Skapa nytt formulär][1].
 
 ## Skapa en helt ny formulärmall

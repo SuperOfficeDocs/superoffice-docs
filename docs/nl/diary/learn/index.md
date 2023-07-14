@@ -11,7 +11,7 @@ language: nl
 
 # Agenda
 
-De agenda in SuperOffice CRM wordt gebruikt als een soort papieren agenda en heeft afzonderlijke pagina’s voor elke dag, week en maand.
+De agenda in SuperOffice CRM wordt gebruikt als een soort papieren agenda en heeft afzonderlijke pagina's voor elke dag, week en maand.
 
 ![Houd al uw afspraken en taken bij door ze in uw agenda te registreren -screenshot][img1]
 

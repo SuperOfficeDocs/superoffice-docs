@@ -32,7 +32,7 @@ Um die Telefonfunktionen in SuperOffice nutzen zu können, müssen Sie unter Ums
 
 ## Voreinstellungen
 
-Wenn ein IP-Telefon, Skype oder FaceTime installiert ist, können Sie aus SuperOffice CRM Anrufe führen. Die Einstellung **Telefon-Link Format** muss richtig eingestellt sein, entweder in **Einstellungen** &gt; **Standardwerte** oder in Einstellungen und Verwaltung. In Einstellungen und Verwaltung können die Telefoneinstellungen für einzelne Benutzer, Benutzergruppen oder global eingestellt werden.
+Wenn ein IP-Telefon, Skype oder FaceTime installiert ist, können Sie aus SuperOffice CRM Anrufe führen. Die Einstellung **Telefon-Link Format** muss richtig eingestellt sein, entweder in **Einstellungen** > **Standardwerte** oder in Einstellungen und Verwaltung. In Einstellungen und Verwaltung können die Telefoneinstellungen für einzelne Benutzer, Benutzergruppen oder global eingestellt werden.
 
 ### Verfügbare Parameter
 

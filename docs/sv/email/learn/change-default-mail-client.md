@@ -12,7 +12,7 @@ so.topic: howto
 # Ändra standardklienten för e-post i SuperOffice
 
 1. Öppna SuperOffice CRM.
-2. Gå till ![ikon][img1] **Personliga inställningar** &gt; **Inställningar**.
+2. Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar**.
 3. Välj **E-post**.
 4. Välj önskad e-postklient i fältet **E-postklient**.
 5. Klicka på **Spara**.

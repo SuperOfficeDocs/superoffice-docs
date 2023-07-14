@@ -19,7 +19,7 @@ Dies ist beispielsweise der Fall, wenn Sie die Registerkarte **Mitteilung** bei 
 
 ## Dokument anzeigen
 
-1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Externe Dokumente** aus.
+1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
 
 1. Wechseln Sie zum gewünschten Ordner.
 
@@ -32,7 +32,7 @@ Dies ist beispielsweise der Fall, wenn Sie die Registerkarte **Mitteilung** bei 
 > [!NOTE]
 > Sie müssen das physische Dokument selbst erstellen, bevor Sie es zu SuperOffice hinzufügen können. Für die Erstellung einer Preisliste können Sie zum Beispiel Microsoft Word oder Excel verwenden, um die Inhalte niederzuschreiben.
 
-1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Externe Dokumente** aus.
+1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
 
 1. Wechseln Sie zu dem Ordner, in den Sie das Dokument stellen möchten. Wenn er noch nicht vorhanden ist, können Sie einen neuen Ordner erstellen, wie folgend beschrieben ist..
 
@@ -58,7 +58,7 @@ Dies ist beispielsweise der Fall, wenn Sie die Registerkarte **Mitteilung** bei 
 
 Bestimmte Dokumenttypen wie html, txt und das native ejr-Format können in der Ansicht **Eigenschaften des Dokuments** direkt bearbeitet werden. Für andere Typen, wie PDF, benötigen Sie die Anwendung, in der das Dokument ursprünglich erstellt wurde.
 
-1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Externe Dokumente** aus.
+1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
 1. Wechseln Sie zu dem Ordner, in dem sich das Dokument befindet.
 1. Klicken Sie auf ![Symbol][img1] **Herunterladen**, um ein Dokument herunterzuladen.
 1. Bearbeiten und speichern Sie das Dokument mit der Anwendung, in der das Dokument ursprünglich erstellt wurde.
@@ -70,7 +70,7 @@ Bestimmte Dokumenttypen wie html, txt und das native ejr-Format können in der A
 
 Durch die Bearbeitung der Eigenschaften des Dokuments können Sie beispielsweise die Zugriffsrechte für das Dokument ändern.
 
-1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Externe Dokumente** aus.
+1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
 1. Wechseln Sie zu dem Ordner, in dem sich das Dokument befindet.
 1. Klicken Sie auf den Dokumentnamen, um zur Ansicht **Eigenschaften des Dokuments** zu gelangen.
 1. Nehmen Sie die erforderlichen Änderungen vor (siehe oben).
@@ -81,7 +81,7 @@ Durch die Bearbeitung der Eigenschaften des Dokuments können Sie beispielsweise
 
 ## Dokument löschen
 
-1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Externe Dokumente** aus.
+1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
 1. Wechseln Sie zu dem Ordner, in dem sich das Dokument befindet.
 1. Klicken Sie auf den Dokumentnamen, um zur Ansicht **Eigenschaften des Dokuments** zu gelangen.
 1. Klicken Sie unten in der Ansicht auf die Schaltfläche **Löschen**.
@@ -91,7 +91,7 @@ Durch die Bearbeitung der Eigenschaften des Dokuments können Sie beispielsweise
 
 Sie können eine Ordnerstruktur für Dokumente erstellen, um diesen dadurch eine logische Struktur zu verleihen und anderen die Suche nach Informationen zu erleichtern. Sie können in allen Ordnern Unterordner erstellen und die Dokumente in jedem dieser Ordner ablegen.
 
-1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Externe Dokumente** aus.
+1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
 
 1. Gehen Sie zu dem Ordner, unter dem Sie einen Unterordner erstellen möchten. Sie können diesen direkt unter dem Ordner **Dokumente** oder unter einem seiner Unterordner erstellen.
 
@@ -109,7 +109,7 @@ Sie können eine Ordnerstruktur für Dokumente erstellen, um diesen dadurch eine
 
 Wenn Sie einen Ordner löschen, werden auch alle darin enthaltenen Dokumente aus SuperOffice entfernt.
 
-1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Externe Dokumente** aus.
+1. Gehen Sie zum ![Symbol][img3] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Externe Dokumente** aus.
 1. Wechseln Sie zum gewünschten Ordner.
 1. Klicken Sie auf **Ordner bearbeiten**. Sie gelangen zur Ansicht **Eigenschaften des Dokumentordners**.
 1. Klicken Sie auf **Löschen**.

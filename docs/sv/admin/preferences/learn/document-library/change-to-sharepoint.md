@@ -66,11 +66,11 @@ Klicka på **Nästa steg** för att fortsätta.
 
 ## Steg 3 - Grupper och åtkomst
 
-I det här steget kan du aktivera gruppåtkomst till SharePoint-dokument baserat på ”Synlig för”-inställningarna i SuperOffice.
+I det här steget kan du aktivera gruppåtkomst till SharePoint-dokument baserat på "Synlig för"-inställningarna i SuperOffice.
 
-Välj inte detta alternativ om du inte har tänkt använda ”Synlig för”.
+Välj inte detta alternativ om du inte har tänkt använda "Synlig för".
 
-1. Välj **Aktivera gruppåtkomst för SharePoint-dokument baserat på ”Synlig för”-inställningarna i SuperOffice**.
+1. Välj **Aktivera gruppåtkomst för SharePoint-dokument baserat på "Synlig för"-inställningarna i SuperOffice**.
 
 2. För att kunna ange behörigheter för dokument i SharePoint måste vi ha läs-/skrivrättighet för den valda webbplatsen. Detta är en engångsauktorisering och omfattar bara den webbplats du har valt för dina SuperOffice-dokument.
 

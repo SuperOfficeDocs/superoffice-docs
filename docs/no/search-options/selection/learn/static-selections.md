@@ -17,7 +17,7 @@ Arbeid med statisk utvalg gir deg muligheten til å legge til og slette medlemme
 
 ## Hva vil du gjøre nå?
 
-* [Opprett et utvalg][2] \- opplæring
+* [Opprett et utvalg][2] - opplæring
 * [Legg til og fjern medlemmer i statiske utvalg][3]
 
 <!-- Referenced links -->

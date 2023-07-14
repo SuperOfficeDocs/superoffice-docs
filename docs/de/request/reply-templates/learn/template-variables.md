@@ -58,7 +58,7 @@ Bei der Bearbeitung von Vorlagen und Kampagnen können Sie Vorlagenvariablen ein
 
 | Variable | Beschreibung|
 |---|---|
-| Link für die Anzeige der Nachricht im Internet | URL, um die E-Mail-Nachricht online in einem Browser anzuzeigen, z. B. „Klicken Sie hier, wenn diese Nachricht verdächtig aussieht.“ |
+| Link für die Anzeige der Nachricht im Internet | URL, um die E-Mail-Nachricht online in einem Browser anzuzeigen, z. B. "Klicken Sie hier, wenn diese Nachricht verdächtig aussieht." |
 | link.subscription | Der Link zum Beenden Ihres Abonnements |
 | link.viewShipmentMessage | Der Link, um die E-Mail-Nachricht online zu sehen |
 
@@ -74,11 +74,11 @@ Bei der Bearbeitung von Vorlagen und Kampagnen können Sie Vorlagenvariablen ein
 | config.companyName | Der Name der eigenen Firma. |
 | config.defaultMail | Die Standard-E-Mail-von-Adresse für diese Installation |
 | config.gfxUrl | Das URL-Suffix für die GFX-Dateien |
-| config.mailTag | Der Satz „Bitte Ticket-ID einbeziehen...“, der als erste Zeile in ausgehenden E-Mails verwendet wird |
+| config.mailTag | Der Satz "Bitte Ticket-ID einbeziehen...", der als erste Zeile in ausgehenden E-Mails verwendet wird |
 | config.panicMail | Die E-Mail-Adresse, an die Fehlermeldungen gesendet werden sollen |
 | config.smtpHost | Der Hostname für das abgehende SMTP |
 | config.smtpPort | Der Port für das abgehende SMTP |
-| config.tag | Das Präfix vor der Anfragenummer in der Betreffzeile für E-Mails. Zum Beispiel, "ejTag:“ |
+| config.tag | Das Präfix vor der Anfragenummer in der Betreffzeile für E-Mails. Zum Beispiel, "ejTag:" |
 | config.uniqueId | Die eindeutige ID für diese Installation |
 | config.warning | Der Pfad für die Warnungs-Logdateien |
 | config.wwwPath | Der Systempfad für WWW-Dateien |
@@ -231,11 +231,11 @@ Variable erniedrigen:
 
 Datum formatieren:
 
-\[\[FORMAT\-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
+\[\[FORMAT-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
 
 Uhrzeit formatieren:
 
-\[\[SEC\-TO\-TIME:"seconds","h:m:s"\]\]
+\[\[SEC-TO-TIME:"seconds","h:m:s"\]\]
 
 <!-- Referenced links -->
 

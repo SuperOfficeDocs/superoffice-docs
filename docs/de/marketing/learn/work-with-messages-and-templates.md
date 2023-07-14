@@ -31,7 +31,7 @@ Die Mitteilungsvorlage ist jetzt in Ihrem Nachrichtenvorlagenarchiv verfügbar. 
 
 ![Die Onlinevorlagenbibliothek enthält Nachrichtenvorlagen, die Sie für die Verwendung herunterladen können -screenshot][img3]
 
-Weitere Nachrichtenvorlagen finden Sie in der Registerkarte Alle Vorlagen, wenn Sie einen „Retro-Look“ bevorzugen.
+Weitere Nachrichtenvorlagen finden Sie in der Registerkarte Alle Vorlagen, wenn Sie einen "Retro-Look" bevorzugen.
 
 ## Vorlagen von der Online-Vorlagenbibliothek verwenden
 

@@ -25,7 +25,7 @@ Volg de onderstaande instructies, afhankelijk van hoe documenten worden beheerd 
 
 ## Een nieuw document maken met SharePoint-documenten
 
-1. Klik op **Nieuw** &gt; **Document** op de bovenste balk.
+1. Klik op **Nieuw** > **Document** op de bovenste balk.
 
 2. [Typ de gewenste informatie in de verschillende velden.][2]
 
@@ -45,7 +45,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 > [!NOTE]
 > In deze procedure wordt beschreven hoe u nieuwe documenten maakt als u een bureaubladtoepassing voor tekstbewerking gebruikt. Het werkelijke proces kan enigszins anders zijn als u een online tekstbewerkingsprogramma (zoals Microsoft Office Online) en een documentbibliotheek (zoals SharePoint) gebruikt.
 
-1. Klik op **Nieuw** &gt; **Document** op de bovenste balk.
+1. Klik op **Nieuw** > **Document** op de bovenste balk.
 
 2. [Typ de gewenste informatie in de verschillende velden.][2]
 
@@ -55,7 +55,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 5. Selecteer in het dialoogvenster **Bestand downloaden** een van de volgende knoppen:
 
-    * **Openen**: wanneer u op **Openen** klikt, wordt het document geopend in de tekstbewerkingstoepassing. Typ de inhoud van het document en selecteer **Bestand** &gt; **Opslaan als** om het op te slaan op de gewenste locatie op uw computer.
+    * **Openen**: wanneer u op **Openen** klikt, wordt het document geopend in de tekstbewerkingstoepassing. Typ de inhoud van het document en selecteer **Bestand** > **Opslaan als** om het op te slaan op de gewenste locatie op uw computer.
 
     * **Opslaan**: wanneer u op **Opslaan** klikt, wordt het dialoogvenster **Opslaan als** weergegeven. Geef op waar op de computer u het bestand wilt opslaan. Vervolgens klikt u op **Opslaan** om het downloaden te starten. Klik op **Sluiten** wanneer het downloaden is voltooid. Open Windows Verkenner en blader naar het document dat u zojuist hebt opgeslagen. Open het document, voer de gewenste tekst in en sla het document op.
 
@@ -76,7 +76,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 Met SuperOffice CRMkunt u inloggen vanaf elke computer met een browser, maar uw documenten worden vervolgens opgeslagen op de centrale server. Downloaden en uploaden van documenten wordt automatisch afgehandeld door SuperOffice Web Tools.
 
-1. Klik op **Nieuw** &gt; **Document** op de bovenste balk.
+1. Klik op **Nieuw** > **Document** op de bovenste balk.
 
 2. [Typ de gewenste informatie in de verschillende velden.][2]
 

@@ -23,7 +23,7 @@ Regelmæssig brug af dagbogen hjælper dig med automatisk at forbinde og dele af
 
 ## Arbejde med opfølgninger
 
-Opfølgning er en samlet betegnelse for aftale-[,][1] [opgave][2]\- og [telefonopkaldsaktiviteterne][3] Disse fungerer alle på stort set samme måde.
+Opfølgning er en samlet betegnelse for aftale-[,][1] [opgave][2] - og [telefonopkaldsaktiviteterne][3] Disse fungerer alle på stort set samme måde.
 
 > [!NOTE]
 > Det er vigtigt at forstå sondringen mellem aktiviteter og opfølgninger (aftaler, opgaver og telefonopkald).

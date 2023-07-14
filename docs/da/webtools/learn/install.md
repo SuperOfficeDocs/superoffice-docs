@@ -32,8 +32,8 @@ Se denne video, eller følg vejledningen nedenunder for at lære, hvordan du ins
 ### Trin
 
 1. Gå til ![ikonet][img1] Hovedmenu på toplinjen.
-2. Vælg **Download** &gt; **SuperOffice WebTools**. Vejviseren for SuperOffice WebTools vises.
-3. Vælg **Personal computer** &gt; **SuperOffice** i guiden, og klik på **Download** for at downloade installationsfilen
+2. Vælg **Download** > **SuperOffice WebTools**. Vejviseren for SuperOffice WebTools vises.
+3. Vælg **Personal computer** > **SuperOffice** i guiden, og klik på **Download** for at downloade installationsfilen
 4. Klik på **Næste** og **Luk** for at lukke vejviseren WebTools.
 5. Klik på den downloadede **SuperOffice.Web.Tools.exe-fil** i downloadsektionen i din browser.
 6. Dobbeltklik på filen **SuperOffice WebTools Installer.pkg** for at starte installationen.

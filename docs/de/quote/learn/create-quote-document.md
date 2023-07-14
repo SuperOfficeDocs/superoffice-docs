@@ -11,7 +11,7 @@ language: de
 
 # Angebotsdokument erstellen
 
-Nachdem Sie das Angebot erstellt und die gewünschten Produkte hinzugefügt haben, können Sie das Angebotsdokument erstellen, um es dem Kunden zu senden. Es handelt sich dabei um dem „Brief“, der dem Kunden gesendet wird. Die Liste der angebotenen Produkte wird hinzugefügt, wenn das Angebot dem Kunden gesendet wird.
+Nachdem Sie das Angebot erstellt und die gewünschten Produkte hinzugefügt haben, können Sie das Angebotsdokument erstellen, um es dem Kunden zu senden. Es handelt sich dabei um dem "Brief", der dem Kunden gesendet wird. Die Liste der angebotenen Produkte wird hinzugefügt, wenn das Angebot dem Kunden gesendet wird.
 
 1. Sie müssen ein vorhandenes Angebot öffnen oder ein [neues Angebot erstellen][1].
 

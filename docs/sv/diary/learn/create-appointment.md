@@ -19,7 +19,7 @@ Det finns många olika sätt att skapa bokningar. Oavsett vilken metod du använ
 
 Gör något av följande:
 
-* Välj **Nytt** &gt; **Bokning** på [toppraden][3].
+* Välj **Nytt** > **Bokning** på [toppraden][3].
 * Klicka på ![ikon][img1] knappen **Uppgift** på kontaktkortet och välj **Förfrågan om möte**.
 * Klicka på knappen **Lägg till** detaljkortet **Aktiviteter**.
 
@@ -40,7 +40,7 @@ Gör något av följande:
 * Klicka på **Nytt** i det övre fältet och välj **Bokning**, **Samtal** eller **Uppgift**.
 
 > [!NOTE]
-> Om du skapar bokningen på [fliken **Översikt**][1] kan du välja att dialogrutan **Deltagare** ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img2] **Personliga inställningar** &gt; **Inställningar** &gt; **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
+> Om du skapar bokningen på [fliken **Översikt**][1] kan du välja att dialogrutan **Deltagare** ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img2] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
 
 ## Relaterat innehåll
 

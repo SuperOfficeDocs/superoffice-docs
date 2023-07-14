@@ -15,7 +15,7 @@ language: nl
 
 Als een map veel antwoordsjablonen bevat, kan het lastig zijn de sjabloon te vinden dat u zoekt. In dat geval is het raadzaam een zoekopdracht op te geven.
 
-1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Antwoordsjablonen**.
+1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
 1. Klik op de knop **Zoeken**. Het scherm **Criteria** wordt geopend.
 1. Zoekcriteria Voer de tekst in waarnaar u wilt zoeken en optionele andere criteria.
 1. Klik op **Zoek**.

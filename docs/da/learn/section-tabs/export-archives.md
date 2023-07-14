@@ -29,7 +29,7 @@ Du kan eksportere alle detaljekort med poster i SuperOffice CRM til en Excel-fil
 3. Gem regnearket på den ønskede placering.
 
 > [!NOTE]
-> Hvis du ved, at denne funktion er aktiveret i SuperOffice Indstillinger og vedligeholdelse, men du ikke kan se knappen ![ikon][img2] **Eksporter** nederst på detaljekortene, skal du gå til ![ikon][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Funktioner** &gt; **Vis knappen Eksport på detaljekortene** og vælge **Ja**.
+> Hvis du ved, at denne funktion er aktiveret i SuperOffice Indstillinger og vedligeholdelse, men du ikke kan se knappen ![ikon][img2] **Eksporter** nederst på detaljekortene, skal du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** > **Vis knappen Eksport på detaljekortene** og vælge **Ja**.
 
 <!-- Referenced links -->
 [1]: configure-columns.md

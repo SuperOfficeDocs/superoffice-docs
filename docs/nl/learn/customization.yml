@@ -51,7 +51,7 @@ landingContent:
         links:
         - text: Schermontwerper
           url: ../ui/screen-designer/learn/index.md
-        - text: Extra menu’s
+        - text: Extra menu's
           url: ../ui/blogic/learn/extra-menus/index.md
         - text: Webpanelen
           url: ../ui/web-panels/learn/index.md

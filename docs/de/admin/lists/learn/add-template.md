@@ -95,7 +95,7 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 
 ## Verwandt
 
-* [Wie lade ich Dokumentvorlagen hoch und verwende sie?][3] \- FAQ
+* [Wie lade ich Dokumentvorlagen hoch und verwende sie?][3] - FAQ
 * [Vorhandene Vorlage ersetzen][1]
 
 <!-- Referenced links -->

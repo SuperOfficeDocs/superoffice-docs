@@ -53,7 +53,7 @@ U verplaatst zich tussen de hoofdsecties van SuperOffice met behulp van de navig
 | ![pictogram][img53] | **Opties**: hiermee opent u het scherm Opties waar u systeembrede instellingen kunt definiëren. Bijvoorbeeld instellingen voor zoeken in vrije tekst, tijdzones, nummertoewijzing, labels en rapporten. | [Opties][26] |
 | ![pictogram][img54] | **Import**: hiermee opent u het scherm Import, waarin u gegevens kunt importeren in de SuperOffice-database. | [Import][27] |
 | ![pictogram][img55] | **Velden**: hiermee opent u het scherm Velden, waarin u zelf velden kunt definiëren voor SuperOffice CRM. | [Velden][28] |
-| ![pictogram][img56] | **CRMScript**: hiermee opent u een scherm met verschillende functies voor scriptverwerking en automatisering, zoals macro’s, gebeurtenisregistraties en geplande taken. | [CRMScript][41] |
+| ![pictogram][img56] | **CRMScript**: hiermee opent u een scherm met verschillende functies voor scriptverwerking en automatisering, zoals macro's, gebeurtenisregistraties en geplande taken. | [CRMScript][41] |
 | ![pictogram][img57] | **Verzoeken**: hier vindt u verschillende instellingen voor verzoeken in SuperOffice Service. | [Verzoeken][34]
 | ![pictogram][img58] | **Customer Centre**: hier kunt u het Customer Centre configureren. U kunt de inhoud en opmaak van het Customer Centre bewerken en de standaardinhoud bewerken. | |
 | ![pictogram][img59] | **Systeemontwerp**: hier vindt u verschillende geavanceerde instellingen voor SuperOffice Service. | |

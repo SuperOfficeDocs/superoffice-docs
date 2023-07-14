@@ -11,7 +11,7 @@ language: de
 
 # SuperOffice Marketing
 
-SuperOffice Marketing ist für die Abwicklung der Kommunikation nach außen und mithilfe von Formularen zuständig. Verwenden Sie Kampagnen, um Kunden z. B. über Upgrades oder Neuigkeiten zu Produkten zu informieren. Verwenden Sie Formulare für die Registrierung für Produkte/Newsletter, die Einwilligungsverwaltung, die Aktualisierung von Daten und einfache „Kontaktieren“-Formulare.
+SuperOffice Marketing ist für die Abwicklung der Kommunikation nach außen und mithilfe von Formularen zuständig. Verwenden Sie Kampagnen, um Kunden z. B. über Upgrades oder Neuigkeiten zu Produkten zu informieren. Verwenden Sie Formulare für die Registrierung für Produkte/Newsletter, die Einwilligungsverwaltung, die Aktualisierung von Daten und einfache "Kontaktieren"-Formulare.
 
 Um SuperOffice Marketing zu öffnen, müssen Sie auf **Marketing** ![Symbol][img2] im Navigator klicken.
 

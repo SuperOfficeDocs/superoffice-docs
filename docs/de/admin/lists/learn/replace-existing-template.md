@@ -12,7 +12,7 @@ language: de
 # Vorhandene Vorlage ersetzen
 
 1. Laden Sie die Dokumentvorlage herunter, bearbeiten Sie sie und speichern Sie sie auf Ihrer Festplatte.
-2. Benennen Sie die „alte“ Dokumentvorlage um oder löschen Sie sie aus SuperOffice.
+2. Benennen Sie die "alte" Dokumentvorlage um oder löschen Sie sie aus SuperOffice.
 3. Laden Sie die überarbeitete Dokumentvorlage zu SuperOffice hoch.
 
 > [!NOTE]

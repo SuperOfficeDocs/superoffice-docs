@@ -22,7 +22,7 @@ Hvis du har to prosjekter som er nesten like, er det nå mulig å slå sammen di
     ![Dialogboksen Slå sammen prosjekter -screenshot][img2]
 
     > [!TIP]
-    > Hvis du vil bytte **Fra**\- og **Til**-prosjektet, klikker du på ![ikon][img3].
+    > Hvis du vil bytte **Fra**- og **Til**-prosjektet, klikker du på ![ikon][img3].
 
 4. Velg **Erstatt tomme felt i [target project] med data fra [source project]** hvis du vil oppdatere tomme felt i målprosjektet med  detaljer fra kildeprosjektet.
 

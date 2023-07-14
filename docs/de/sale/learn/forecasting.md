@@ -31,7 +31,7 @@ Die verschiedenen **Diagramm mit großen Zahlen** geben Ihnen einen Überblick �
 
 Mit der Kachel **Größte anstehende Verkäufe** können Sie alle Ihre Verkäufe in der Reihenfolge ihres Wertes anzeigen, damit Sie Ihre Zeit entsprechend priorisieren können.
 
-![Beispiel für die Kachel Größte anstehende Verkäufe - Screenshot ][img3]
+![Beispiel für die Kachel Größte anstehende Verkäufe -screenshot][img3]
 
 Auf der Kachel **Mein Aktivitätstempo** können Sie Ihre Aktivitäten sortiert nach Typ anzeigen. Anhand der Daten können Sie feststellen, ob Sie zu viel oder zu wenig Zeit für bestimmte Aktivitäten aufwenden.
 

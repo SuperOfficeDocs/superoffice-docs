@@ -13,9 +13,9 @@ language: de
 
 # E-Mail-Adresse erstellen
 
-Wenn Sie E-Mail-Adressen unter **Wissensdatenbank** &gt; **E-Mail-Adressen** registrieren, stehen Ihnen diese in den meisten Situationen zur Verfügung, in denen Sie eine E-Mail senden müssen, zum Beispiel in den Ansichten **Neue Anfrage** und **Mitteilung hinzufügen**. Dadurch wird die Verarbeitung von Anfragen beschleunigt.
+Wenn Sie E-Mail-Adressen unter **Wissensdatenbank** > **E-Mail-Adressen** registrieren, stehen Ihnen diese in den meisten Situationen zur Verfügung, in denen Sie eine E-Mail senden müssen, zum Beispiel in den Ansichten **Neue Anfrage** und **Mitteilung hinzufügen**. Dadurch wird die Verarbeitung von Anfragen beschleunigt.
 
-1. Gehen Sie zum ![Symbol][img2] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **E-Mail-Adressen** aus.
+1. Gehen Sie zum ![Symbol][img2] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **E-Mail-Adressen** aus.
 
 1. Wechseln Sie zu dem Ordner, in den Sie die E-Mail-Adresse stellen möchten. Wenn er noch nicht vorhanden ist, können Sie einen [neuen Ordner erstellen][1].
 

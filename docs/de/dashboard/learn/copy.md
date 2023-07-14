@@ -21,7 +21,7 @@ Sie können eine Kopie eines vorhandenen Dashboards erstellen. Dies kann hilfrei
 
 3. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Dashboard duplizieren** aus.
 
-    Das Duplikat öffnet sich, wobei eine „2“ an den Namen angefügt wird.
+    Das Duplikat öffnet sich, wobei eine "2" an den Namen angefügt wird.
 
 4. Um den Namen des Dashboards zu ändern und andere Einstellungen vorzunehmen, klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Dashboard bearbeiten** aus.
 

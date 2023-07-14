@@ -23,11 +23,11 @@ Die Tatsache, dass Ihre Kunden ihre Abonnements selbst verwalten können, wirkt 
 
 ## Ihre Zielliste
 
-Wenn Sie Ihre [Zielliste für Ihre nächste Kampagne][1] erstellen, können Sie anhand des Abonnementtyps eine Selektion durchführen, die Sie verwenden möchten. Auf diese Weise fügt SuperOffice CRM nur Personen hinzu, die „Ja“ zu diesem Abonnementtyp gesagt haben.
+Wenn Sie Ihre [Zielliste für Ihre nächste Kampagne][1] erstellen, können Sie anhand des Abonnementtyps eine Selektion durchführen, die Sie verwenden möchten. Auf diese Weise fügt SuperOffice CRM nur Personen hinzu, die "Ja" zu diesem Abonnementtyp gesagt haben.
 
 ## Abonnementtyp auswählen
 
-Es gibt mehrere Möglichkeiten, Ihre Zielliste mithilfe einer Selektion zu erstellen. Dies bedeutet, dass Sie möglicherweise nicht immer einen Abonnementtyp als Selektionskriterium verwenden. In diesem Fall können Sie leicht übersehen, dass Personen, die „Nein“ zum Erhalt Ihrer Kampagnen gesagt haben, zu Ihrer Zielliste hinzugefügt werden.
+Es gibt mehrere Möglichkeiten, Ihre Zielliste mithilfe einer Selektion zu erstellen. Dies bedeutet, dass Sie möglicherweise nicht immer einen Abonnementtyp als Selektionskriterium verwenden. In diesem Fall können Sie leicht übersehen, dass Personen, die "Nein" zum Erhalt Ihrer Kampagnen gesagt haben, zu Ihrer Zielliste hinzugefügt werden.
 
 Um zu verhindern, dass unerwünschte Kampagnen an Personen senden, kann SuperOffice CRM die Personen herausfiltert, die Ihnen ihre Zustimmung nicht erteilt haben.
 

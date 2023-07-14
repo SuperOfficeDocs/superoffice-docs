@@ -50,9 +50,9 @@ Es gibt keine Einschränkungen dafür, was Sie in SuperOffice CRM suchen. Am End
 
 ## <a id="or" />Erweitern Sie Ihre Suche mit der ODER-Funktion
 
-Mit der Funktion Suchen können Sie eine Suche durchführen, indem Sie Suchkriterien mit dem Wertoperator „ODER“ zwischen den beiden kombinieren. Auf diese Weise können Sie nach zwei unabhängigen Datensätzen suchen und diese in einer Selektion speichern.
+Mit der Funktion Suchen können Sie eine Suche durchführen, indem Sie Suchkriterien mit dem Wertoperator "ODER" zwischen den beiden kombinieren. Auf diese Weise können Sie nach zwei unabhängigen Datensätzen suchen und diese in einer Selektion speichern.
 
-Schauen wir uns einige praktische Beispiele an, wie Sie die ODER-Funktion verwenden können. Sie können nach allen Kunden suchen, die das „Produkt A“ gekauft haben, und nach Kunden, die „Produkt B“ nicht gekauft haben, um Ihre Querverkäufe zu steigern. Sie können aber auch nach allen Großkunden mit Sitz in Liverpool oder Manchester suchen, damit Sie sie wegen eines bevorstehenden Ereignisses in einer dieser Orte kontaktieren können.
+Schauen wir uns einige praktische Beispiele an, wie Sie die ODER-Funktion verwenden können. Sie können nach allen Kunden suchen, die das "Produkt A" gekauft haben, und nach Kunden, die "Produkt B" nicht gekauft haben, um Ihre Querverkäufe zu steigern. Sie können aber auch nach allen Großkunden mit Sitz in Liverpool oder Manchester suchen, damit Sie sie wegen eines bevorstehenden Ereignisses in einer dieser Orte kontaktieren können.
 
 Sehen Sie sich dieses Video an, um zu lernen, wie Sie eine Suche mit der ODER-Funktion erstellen (Videolänge - 4:08):
 
@@ -98,7 +98,7 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 6. Klicken Sie im Listenfeld rechts neben **Betrag** auf den Pfeil (![Symbol][img1]) und wählen Sie die Option **>** (größer als) aus.
 
-7. Geben Sie im letzten Feld in der Linie den Mindestbetrag ein. Zum Beispiel, „100 000“.
+7. Geben Sie im letzten Feld in der Linie den Mindestbetrag ein. Zum Beispiel, "100 000".
 
 8. Sie haben nun angegeben, dass Sie Firmen mit Verkäufen über dem eingegebenen Betrag suchen möchten. Sie möchten jedoch noch weitere Angaben machen. Als Nächstes geben Sie einen Zeitraum ein.
 
@@ -114,7 +114,7 @@ Als Geschäftsführer der Vertriebsabteilung möchten Sie eine Präsentation fü
 
 14. Klicken Sie auf **Hinzufügen**.
 
-15. Geben Sie in der angezeigten Liste „Status“ ein, um eine Schnellsuche in dem Feld durchzuführen.
+15. Geben Sie in der angezeigten Liste "Status" ein, um eine Schnellsuche in dem Feld durchzuführen.
 
 16. Wählen Sie in der angezeigten Liste **Verkauf** – **Status** (mit dem Verkaufssymbol ![Symbol][img5] davor).
 

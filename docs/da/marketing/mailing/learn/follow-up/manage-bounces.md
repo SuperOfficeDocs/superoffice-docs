@@ -65,25 +65,25 @@ Hvis du vil håndtere flere e-mailadresser, har du muligheder for det ved hjælp
 ### Eksporter
 
 1. Vælg de e-mailadresser, du vil eksportere.
-2. Vælg **Handlinger** &gt; **Eksporter**.
+2. Vælg **Handlinger** > **Eksporter**.
 3. Vælg et eksportformat. Eksportfilen vises nederst i din browser. Den kan også findes i din downloadmappe.
 
 ### Tilføj til nyt udvalg
 
 1. Vælg de e-mailadresser, du vil føje til et nyt udvalg.
-2. Vælg **Handlinger** &gt; **Føj til nyt udvalg**.
+2. Vælg **Handlinger** > **Føj til nyt udvalg**.
 3. Skriv navnet på det nye udvalg, og klik på **OK**. Der oprettes et nyt statisk udvalg med de markerede e-mailadresser.
 
 ### Tilføj til nyt projekt
 
 1. Vælg de e-mailadresser, du vil føje til et nyt projekt.
-2. Vælg **Handlinger** &gt; **Føj til nyt projekt**.
+2. Vælg **Handlinger** > **Føj til nyt projekt**.
 3. Angiv navnet på det nye projekt, og klik på **OK**. Der oprettes et nyt projekt med de valgte mailadresser.
 
 ### Føj til eksisterende udvalg
 
 1. Vælg de e-mailadresser, du vil føje til et eksisterende udvalg.
-2. Vælg **Handlinger** &gt; **Føj til eksisterende udvalg**.
+2. Vælg **Handlinger** > **Føj til eksisterende udvalg**.
 3. Begynd at skrive i søgefeltet for at finde det relevante udvalg.
 4. Klik på det udvalg, du vil bruge, på listen over resultater.
 5. Klik på **OK**. De markerede e-mailadresser føjes til udvalget.
@@ -91,7 +91,7 @@ Hvis du vil håndtere flere e-mailadresser, har du muligheder for det ved hjælp
 ### Føj til eksisterende projekt
 
 1. Vælg de e-mailadresser, du vil føje til et eksisterende projekt.
-2. Vælg **Handlinger** &gt; **Føj til eksisterende projekt**.
+2. Vælg **Handlinger** > **Føj til eksisterende projekt**.
 3. Begynd at skrive i søgefeltet for at finde det relevante projekt.
 4. Klik på det projekt, du vil bruge, på listen over resultater.
 5. Klik på **OK**. De markerede e-mailadresser føjes til projektet
@@ -101,7 +101,7 @@ Hvis du vil håndtere flere e-mailadresser, har du muligheder for det ved hjælp
 Brug denne indstilling til permanent at slette e-mail-adresser fra databasen.
 
 1. Vælg de e-mailadresser, du vil slette.
-2. Vælg **Handlinger** &gt; **Slet valgte e-mail-adresser**.
+2. Vælg **Handlinger** > **Slet valgte e-mail-adresser**.
 3. Klik på **OK** for at bekræfte.
 
 ### Fjern markering af returpost
@@ -109,7 +109,7 @@ Brug denne indstilling til permanent at slette e-mail-adresser fra databasen.
 Brug denne indstilling til at fjerne e-mailadresser fra listen, så de kan bruges til udsendelser. Det kan være relevant, hvis returneringerne skyldes forkert konfigurering eller midlertidige tekniske årsager, eller hvis du ved, at e-mailadresserne er korrekte, og gerne vil prøve at sende en gang til.
 
 1. Vælg de e-mailadresser, hvor du vil fjerne markeringer af returpost.
-2. Vælg **Handlinger** &gt; **Fjern markering af returpost**.
+2. Vælg **Handlinger** > **Fjern markering af returpost**.
 3. Klik på **OK** for at bekræfte.
 
 ### Angiv som tidligere medarbejder
@@ -117,7 +117,7 @@ Brug denne indstilling til at fjerne e-mailadresser fra listen, så de kan bruge
 Brug denne indstilling til at angive en person som tidligere medarbejder.
 
 1. Vælg de e-mailadresser, du vil slette.
-2. Vælg **Handlinger** &gt; **Angiv som tidligere medarbejder**.
+2. Vælg **Handlinger** > **Angiv som tidligere medarbejder**.
 3. Klik på **OK** for at bekræfte.
 
 <!-- Referenced links -->

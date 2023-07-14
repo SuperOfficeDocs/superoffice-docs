@@ -112,7 +112,7 @@ Det här adressformatet används för Storbritannien.
 | Adress 2 | Andra adressraden |
 | Adress 3 | Tredje adressraden |
 | Ort | Postort |
-| County/postnummer | Län (county) och postnummer. Till exempel ”Somerset TA1 2WB” |
+| County/postnummer | Län (county) och postnummer. Till exempel "Somerset TA1 2WB" |
 | Land | Land |
 
 ## Japan

@@ -66,7 +66,7 @@ Door WebTools te installeren, krijgt u uw e-mail en documenten geïntegreerd met
 
 ## Aanverwant
 
-* [Wat is SuperOffice WebTools en wat doet het?][1] \- Veelgestelde vragen
+* [Wat is SuperOffice WebTools en wat doet het?][1] - Veelgestelde vragen
 * [Meer informatie over het installeren van WebTools][2]
 * [Lees meer over e-mail- en documentintegratie][3]
 

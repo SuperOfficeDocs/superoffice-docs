@@ -13,7 +13,7 @@ language: sv
 
 # Så här konfigurerar du Hämta nästa ärende i kön
 
-I SuperOffice tilldelas ärenden normalt till användare enligt en tilldelningsmetod. En annan metod att tilldela ärenden till ärendehandläggare är att placera nya ärenden i **Ärendehantering** &gt; **Otilldelade ärenden**. Då måste ärendehanterarna acceptera ärendena manuellt.
+I SuperOffice tilldelas ärenden normalt till användare enligt en tilldelningsmetod. En annan metod att tilldela ärenden till ärendehandläggare är att placera nya ärenden i **Ärendehantering** > **Otilldelade ärenden**. Då måste ärendehanterarna acceptera ärendena manuellt.
 
 Men det går också att skapa ett intelligent kösystem för hantering av nya ärenden. Ärendehandläggare kan då klicka på **Hämta nästa ärende i kön** under **Ärendehantering** för att acceptera nästa ärende i kön. Ärendena i kön filtreras efter [kategori][2], så att användare endast tilldelas ärenden i de kategorier som de är medlemmar i.
 
@@ -40,7 +40,7 @@ Först skapar vi en ny ärendestatus: **I kö**. Nya ärenden ska tilldelas denn
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Välj **Ärendehantering** &gt; **Ärendestatus**.
+1. Välj **Ärendehantering** > **Ärendestatus**.
 
 1. Klicka på knappen **Lägg till**.
 
@@ -68,13 +68,13 @@ Den nya ärendestatusen visas i listan och en kryssmarkering finns i kolumnerna 
 Du måste nu säkerställa att du är medlem i den kategori eller de kategorier som du ska hantera. Vi måste också specificera att ärenden som tillhör dessa kategorier inte ska tilldelas enligt tilldelningsmetoden.
 
 > [!NOTE]
-> Medlemskap i kategorier kan också definieras på gruppnivå. I Inställningar och underhåll (**Användare** &gt; **Användargrupper**) kan du ange kategorier för de olika användargrupperna.
+> Medlemskap i kategorier kan också definieras på gruppnivå. I Inställningar och underhåll (**Användare** > **Användargrupper**) kan du ange kategorier för de olika användargrupperna.
 
 **Steg:**
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Välj **Ärenden** &gt; **Kategorier**.
+1. Välj **Ärenden** > **Kategorier**.
 
 1. Klicka på önskat kategorinamn. Du kommer då till skärmen **Egenskaper för kategori**.
 
@@ -96,7 +96,7 @@ När du har hämtat ett ärende från kön måste statusen ändras från **I kö
 
 ## Kontrollera att kön fungerar
 
-Skapa ett nytt ärende, sätt **Ägare** på **Otilldelat**, välj den kategori som du är medlem i och sätt **Status** på **I kö**. Testa sedan att klicka på **Ärendehantering** &gt; **Hämta nästa ärende i kön**.
+Skapa ett nytt ärende, sätt **Ägare** på **Otilldelat**, välj den kategori som du är medlem i och sätt **Status** på **I kö**. Testa sedan att klicka på **Ärendehantering** > **Hämta nästa ärende i kön**.
 
 <!-- Referenced links -->
 [2]: category/index.md

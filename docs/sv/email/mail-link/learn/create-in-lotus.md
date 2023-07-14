@@ -13,7 +13,7 @@ language: sv
 
 Så här skapar du ett e-postmeddelande från Lotus Notes:
 
-1. Klicka på **Nytt** &gt; **Meddelande** ovanför meddelandelistan för att öppna formuläret **Nytt meddelande**.
+1. Klicka på **Nytt** > **Meddelande** ovanför meddelandelistan för att öppna formuläret **Nytt meddelande**.
 
 2. Ange mottagarnas e-postadresser i fältet **Till** i e-postfönstret. Du kan också använda dialogrutan **Välj mottagare** se [Välja mottagare][1]).
 

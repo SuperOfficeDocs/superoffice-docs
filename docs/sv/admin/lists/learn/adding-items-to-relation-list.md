@@ -15,12 +15,12 @@ language: sv
 
 [!include[Edit list item](includes/edit-list-item.md)] när posterna är relationer:
 
-1. Skriv in namnet på posten i fältet **Namn**. Det du anger här visas i kolumnen **har relation** på detaljkortet **Relationer** i fönstret Företag. Det ska vara ett verb i *aktiv* form, till exempel *”äger”*.
+1. Skriv in namnet på posten i fältet **Namn**. Det du anger här visas i kolumnen **har relation** på detaljkortet **Relationer** i fönstret Företag. Det ska vara ett verb i *aktiv* form, till exempel *"äger"*.
 
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Ange relationens passiva form i fältet **Passiv form**. Det du anger här visas i kolumnen **har relation** på detaljkortet **Relationer** i fönstret Företag. Det ska vara ett verb i *passiv* form, till exempel *”ägs av”*. Se exempel i slutet av det här avsnittet.
+2. Ange relationens passiva form i fältet **Passiv form**. Det du anger här visas i kolumnen **har relation** på detaljkortet **Relationer** i fönstret Företag. Det ska vara ett verb i *passiv* form, till exempel *"ägs av"*. Se exempel i slutet av det här avsnittet.
 
 3. Under **Detta är en relation mellan** anger du om relationen avser ett företag och/eller en kontakt på den aktiva respektive passiva sidan. Dessa fält motsvarar fälten i dialogrutan **Relation**.
 

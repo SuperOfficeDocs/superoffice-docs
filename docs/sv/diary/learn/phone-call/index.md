@@ -14,11 +14,11 @@ language: sv
 Samtal har som standard en längd på 15 minuter. Som standard anges aktuellt klockslag och dagens datum som starttid. Du kan skapa en samtalshändelse om du till exempel vill registrera ett utgående telefonsamtal.
 
 > [!TIP]
-> Du kan ändra standardlängden till något annat än 15 minuter. Gå till ![ikon][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Standardvärden** &gt; **Längd för nytt samtal** och [ange önskat värde][4].
+> Du kan ändra standardlängden till något annat än 15 minuter. Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Standardvärden** > **Längd för nytt samtal** och [ange önskat värde][4].
 
 ![ikon][img2]
 
-Var du än arbetar i SuperOffice CRM kan du skapa nya samtal genom att välja **Nytt** &gt; **Samtal** i det övre fältet.
+Var du än arbetar i SuperOffice CRM kan du skapa nya samtal genom att välja **Nytt** > **Samtal** i det övre fältet.
 
 Samtal kan visas på följande ställen i SuperOffice CRM:
 

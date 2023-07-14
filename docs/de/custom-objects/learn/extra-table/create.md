@@ -13,7 +13,7 @@ language: de
 
 # Zusatztabellen hinzufügen
 
-Sie können Zusatztabellen in SuperOffice Service erstellen, um unterschiedliche Datentypen zu erfassen. Nachdem Sie die Tabelle und darin [Zusatzfelder erstellt][1] wurden, können Sie die Tabelle öffnen, um ihr Inhalte hinzuzufügen, indem Sie zum **Systemdesign** &gt; **Tabellen** gehen, mit dem Mauszeiger auf die Tabelle zeigen und die Schaltfläche ![Symbol][img1] anklicken.
+Sie können Zusatztabellen in SuperOffice Service erstellen, um unterschiedliche Datentypen zu erfassen. Nachdem Sie die Tabelle und darin [Zusatzfelder erstellt][1] wurden, können Sie die Tabelle öffnen, um ihr Inhalte hinzuzufügen, indem Sie zum **Systemdesign** > **Tabellen** gehen, mit dem Mauszeiger auf die Tabelle zeigen und die Schaltfläche ![Symbol][img1] anklicken.
 
 > [!NOTE]
 > In SuperOffice können Sie Web-Bildschirme erstellen, die Tabelleninformationen enthalten können. Um die entsprechenden Zugriffsrechte festzulegen, muss der Benutzer einer Rolle angehören, die über die Funktionsrechte **Tabellen anzeigen** und **Tabellen bearbeiten**verfügt.
@@ -36,7 +36,7 @@ Sie können Zusatztabellen in SuperOffice Service erstellen, um unterschiedliche
 |---|---|
 | Ordner | Um die Tabelle in einen vorhandenen Ordner zu kopieren, wählen Sie einen Ordner von der Liste aus. |
 | Name | Der Name der Tabelle. |
-| Datenbanktabelle Der Name der Datenbanktabelle. Kann nur bei der Erstellung festgelegt und nicht mehr geändert werden. Der Tabellenname kann Unterstriche, die Buchstaben a-z und Zahlen enthalten, und der Name muss mit „y_“ beginnen. Ein logischer Name ist am besten, weil er es einfacher macht, zu sehen, was die Datenbank enthält. |
+| Datenbanktabelle Der Name der Datenbanktabelle. Kann nur bei der Erstellung festgelegt und nicht mehr geändert werden. Der Tabellenname kann Unterstriche, die Buchstaben a-z und Zahlen enthalten, und der Name muss mit "y_" beginnen. Ein logischer Name ist am besten, weil er es einfacher macht, zu sehen, was die Datenbank enthält. |
 | Kopfzeile für Suche | Die Kopfzeile wird für diese Tabelle in der Ansicht Suchen verwendet. |
 | Kopfzeile für Datenanzeige | Die Kopfzeile wird zur Anzeige eines Eintrags in dieser Tabelle verwendet. |
 | Kopfzeile für neuen Eintrag | Die Kopfzeile wird zum Erstellen eines neuen Eintrags in dieser Tabelle verwendet. |
@@ -46,7 +46,7 @@ Sie können Zusatztabellen in SuperOffice Service erstellen, um unterschiedliche
 | Übergeordnetes Feld | Dieses Feld kommt in Verbindung mit Tabellen mit hierarchischer Struktur zum Einsatz. |
 | Vollständiger Name |  Für hierarchisch strukturierte Tabellen können Sie hier ein Feld angeben, in das automatisch der vollständige Name des Eintrags eingefügt wird. Der Name wird aus dem Namensfeld des Eintrags und aller übergeordneten Einträge abgeleitet. |
 | ID-Feld ausblenden | Wenn diese Option ausgewählt ist, wird das ID-Feld bei der Auflistung von Einträgen in der Tabelle nicht angezeigt. |
-| Tabelle ausblenden | Wenn diese Option aktiviert ist, ist die Tabelle nicht über das ![Symbol][img3] **Systemdesign** &gt; **Tabellen**sichtbar. |
+| Tabelle ausblenden | Wenn diese Option aktiviert ist, ist die Tabelle nicht über das ![Symbol][img3] **Systemdesign** > **Tabellen**sichtbar. |
 
 ## Was möchten Sie jetzt tun?
 

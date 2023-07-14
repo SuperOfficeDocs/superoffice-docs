@@ -21,7 +21,7 @@ Es ist möglich, eine E-Mail (einschließlich aller Anhänge) in Ihrem Mail-Clie
 
 2. Klicken Sie auf die Schaltfläche **E-Mail archivieren** auf der Werkzeugleiste, und wählen Sie **E-Mail archivieren** vom Dropdown-Menü aus. Wenn Sie mehrere E-Mails auswählen, werden die folgenden Schritte für jede E-Mail wiederholt.
 
-3. Wenn der [Absender der E-Mail nicht in SuperOffice CRM][1] aufgelistet ist, wird oben im Dialogfeld zum Archivieren der E-Mail eine Warnung angezeigt: „Die E-Mail-Adresse dieses Absenders wurde nicht erkannt. Klicken Sie hier, um SuperOffice mit dieser E-Mail-Adresse zu aktualisieren.“
+3. Wenn der [Absender der E-Mail nicht in SuperOffice CRM][1] aufgelistet ist, wird oben im Dialogfeld zum Archivieren der E-Mail eine Warnung angezeigt: "Die E-Mail-Adresse dieses Absenders wurde nicht erkannt. Klicken Sie hier, um SuperOffice mit dieser E-Mail-Adresse zu aktualisieren."
 
 4. Im Feld **Betreff** wird der Betreff aus der E-Mail automatisch eingefügt. Sie können jedoch jeden beliebigen Betrefftext eingeben, der auf der Bereichsregisterkarte **Aktivitäten** von SuperOffice CRM angezeigt werden soll.
 

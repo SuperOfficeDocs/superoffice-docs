@@ -24,15 +24,15 @@ Hier werden einige Beispiele angezeigt, wie man Vorlagenvariablen verwendet. Vie
 
 Anstelle des folgenden Textes:
 
-„Sehr geehrte Kundin, sehr geehrter Kunde, möchten Sie gerne mehr darüber erfahren, wie unser Produkt Ihre Firma bei der Gewinnung von Neukunden unterstützen kann? Bitte rufen Sie uns an.“
+"Sehr geehrte Kundin, sehr geehrter Kunde, möchten Sie gerne mehr darüber erfahren, wie unser Produkt Ihre Firma bei der Gewinnung von Neukunden unterstützen kann? Bitte rufen Sie uns an."
 
 können Sie diesen abgeänderten Text senden:
 
-„Hallo Chris, möchten Sie gerne mehr darüber erfahren, wie unser Produkt AutoPflege GmbH bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie Richard Weber bei SuperShop.“
+"Hallo Chris, möchten Sie gerne mehr darüber erfahren, wie unser Produkt AutoPflege GmbH bei der Gewinnung von Neukunden unterstützen kann? Dann kontaktieren Sie Richard Weber bei SuperShop."
 
 Der Text, den Sie eingeben, sieht folgendermaßen aus:
 
-„Hallo **{atfn}**. möchten Sie gerne mehr darüber erfahren, wie unser Produkt **{name}** bei der Gewinnung von Neukunden unterstützen kann? Bitte rufen Sie **{cont}** unter **{onam}** an.“
+"Hallo **{atfn}**. möchten Sie gerne mehr darüber erfahren, wie unser Produkt **{name}** bei der Gewinnung von Neukunden unterstützen kann? Bitte rufen Sie **{cont}** unter **{onam}** an."
 
 ### Signaturen
 
@@ -126,7 +126,7 @@ Wenn Sie {padd0} verwenden, können Sie alle Vorlagenvariablen ohne Leerzeichen 
 ## Variablen auf der Firmenkarte
 
 > [!NOTE]
-> Adressenvariablen auf der Firmenkarte werden als „intelligente“ Vorlagenvariablen bezeichnet. Das heißt, dass das System Adressdaten in einer bestimmten Reihenfolge auswählt. Die **fettgedruckten** Variablen unten (wie **addr** und **city**) sind „intelligente“ Vorlagenvariablen.
+> Adressenvariablen auf der Firmenkarte werden als "intelligente" Vorlagenvariablen bezeichnet. Das heißt, dass das System Adressdaten in einer bestimmten Reihenfolge auswählt. Die **fettgedruckten** Variablen unten (wie **addr** und **city**) sind "intelligente" Vorlagenvariablen.
 
 Wenn Sie Adressvariablen von der Firmenkarte nutzen, wählt das System Adressdaten in folgender Reihenfolge aus:
 
@@ -138,7 +138,7 @@ Wenn Sie Adressvariablen von der Firmenkarte nutzen, wählt das System Adressdat
 
 Wenn Sie Angebote und Produkte in SuperOffice verwenden, müssen Sie Angebotsvorlagen einrichten. Die Variablen befinden sich in einer PDF-Datei, die auch zeigt, wie Sie mit Angebotsvorlagen arbeiten.
 
-Die Vorlagen für Angebotsdokumente, Angebotsdetails und Auftragsbestätigungen unterscheiden sich dadurch von gewöhnlichen Dokumentvorlagen, dass sie zusätzlich zu den Standard-Vorlagenvariablen „Mergefields“ verwenden.
+Die Vorlagen für Angebotsdokumente, Angebotsdetails und Auftragsbestätigungen unterscheiden sich dadurch von gewöhnlichen Dokumentvorlagen, dass sie zusätzlich zu den Standard-Vorlagenvariablen "Mergefields" verwenden.
 
 ## Variablen für Service und Marketingvorlagen
 

@@ -36,7 +36,7 @@ Hvis en modtager bruger Mailgun, vil alle e-mails, der rapporteres som spam, bli
 Du kan eksportere listen til videre behandling.
 
 1. Vælg de e-mailadresser, du vil eksportere.
-2. Vælg **Handlinger** &gt; **Eksporter**.
+2. Vælg **Handlinger** > **Eksporter**.
 3. Vælg et eksportformat. Eksportfilen vises nederst i din browser. Den kan også findes i din downloadmappe.
 
 <!-- Referenced links -->

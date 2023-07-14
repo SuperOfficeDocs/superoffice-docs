@@ -22,7 +22,7 @@ Antwortvorlagen können zudem eine Anlage enthalten, die der Mitteilung hinzugef
 
 ## Schritte
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Antwortvorlagen** aus.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
 
 1. Wechseln Sie zu dem Ordner, in den Sie die Antwortvorlage stellen möchten. Wenn er noch nicht vorhanden ist, können Sie einen [neuen Ordner erstellen][2].
 
@@ -86,18 +86,18 @@ Neben dem Layout/Format der Antwortvorlage muss es die folgenden Vorlagenvariabl
 ```text
 [[IF:message.bodyHtml!=""]]
 [[message.bodyHtml]]
-\[\[ELSE\]\]
+[[ELSE]]
 [[message.body]]
-\[\[ENDIF\]\]
+[[ENDIF]]
 ```
 
 ## <a id="faq" />Automatische FAQ-Antwort
 
-SuperOffice Service stellt eine Reihe Nachrichtenvorlagen bereit. Unter diesen Antwortvorlagen werden Sie „Beispiel einer automatischen FAQ-Antwort“ finden. Diese Antwortvorlage enthält ein Beispiel für eine Automatisierung von Antworten an den Kunden auf der Registerkarte **HTML-Text**.
+SuperOffice Service stellt eine Reihe Nachrichtenvorlagen bereit. Unter diesen Antwortvorlagen werden Sie "Beispiel einer automatischen FAQ-Antwort" finden. Diese Antwortvorlage enthält ein Beispiel für eine Automatisierung von Antworten an den Kunden auf der Registerkarte **HTML-Text**.
 
 Basierend auf der Anfrage des Kunden sucht das System nach den entsprechenden Wörtern (darunter Schlüsselwörter) in FAQ-Einträgen in SuperOffice Service. Basierend auf deren Korrelationsgrad werden FAQs, die dem Kunden hilfreich sein könnten, in der Antwortvorlage, die dem Kunden automatisch zur Bestätigung des Empfangs der Anfrage gesendet wird, einbezogen.
 
-Sie können den Korrelationsgrad zwischen der Anfrage vom Kunden und den FAQ-Einträgen im Feld **Mindestwert für FAQ-Suchergebnisse (in Prozent)** in ![Symbol][img2] **Systemeinstellungen** &gt; **System** &gt; **Einstellungen** auswählen.
+Sie können den Korrelationsgrad zwischen der Anfrage vom Kunden und den FAQ-Einträgen im Feld **Mindestwert für FAQ-Suchergebnisse (in Prozent)** in ![Symbol][img2] **Systemeinstellungen** > **System** > **Einstellungen** auswählen.
 
 ## Was möchten Sie jetzt tun?
 

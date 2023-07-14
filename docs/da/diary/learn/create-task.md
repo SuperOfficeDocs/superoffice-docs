@@ -11,7 +11,7 @@ language: da
 
 # Opret en opgave
 
-1. Vælg **Ny** &gt; **Opgave** på [toplinjen][2].
+1. Vælg **Ny** > **Opgave** på [toplinjen][2].
 
 2. I dialogboksen **Opgave** angiver du [opgavedetaljerne][1].
 

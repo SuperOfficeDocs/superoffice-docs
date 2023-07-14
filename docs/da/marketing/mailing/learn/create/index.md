@@ -63,7 +63,7 @@ Hvis du bruger Google Analytics til at analysere trafik og brugeradfærd på dit
 
 I trin tre kan [du teste din mailudsendelse][10] ved at sende den til dig selv og/eller dine kolleger for at vurdere det indhold, du har tilføjet. På den måde kan du sikre dig, at du er 100 % tilfreds med din mail, inden du afsender den.
 
-I trin fire er du klar til at ][11]tilføje din målliste[ med modtagerne af din udsendelse.
+I trin fire er du klar til at [tilføje din målliste][11] med modtagerne af din udsendelse.
 
 I det femte og sidste trin bekræfter du og afsender eller tidsindstiller din udsendelse. Du kan enten afsende din mail med det samme, eller du kan tidsindstille den.
 

@@ -17,7 +17,7 @@ U kunt een lijst maken met e-mailadressen die u vaak gebruikt, maar die niet in 
 
 ## E-mailadressen weergeven
 
-Als u meer informatie wilt over de geregistreerde e-mailadressen, gaat u naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteert u**Kennisdatabase** &gt; **E-mailadressen**. Dit brengt u naar het scherm **E-mailadressen**. Dit scherm bevat e-mailadressen in een mappenstructuur die u zelf kunt maken.
+Als u meer informatie wilt over de geregistreerde e-mailadressen, gaat u naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteert u**Kennisdatabase** > **E-mailadressen**. Dit brengt u naar het scherm **E-mailadressen**. Dit scherm bevat e-mailadressen in een mappenstructuur die u zelf kunt maken.
 
 * Zie **E-mailadressen maken** om een nieuw e-mailadres te [maken][2].
 * Als u een bestaand e-mailadres wilt **bewerken**, klikt u op de naam in de lijst.

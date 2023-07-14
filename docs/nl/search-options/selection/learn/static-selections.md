@@ -17,7 +17,7 @@ Werken met statische selectie geeft u de mogelijkheid om handmatig selectieleden
 
 ## Wat wilt u nu doen?
 
-* [Selectie maken][2] \- zelfstudie
+* [Selectie maken][2] - zelfstudie
 * [Leden toevoegen en verwijderen in statische selecties][3]
 
 <!-- Referenced links -->

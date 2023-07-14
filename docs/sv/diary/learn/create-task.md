@@ -11,7 +11,7 @@ language: sv
 
 # Skapa en uppgift
 
-1. Välj **Ny** &gt; **Uppgift** i det [övre fältet][2].
+1. Välj **Ny** > **Uppgift** i det [övre fältet][2].
 
 2. [Ange information om uppgiften][1] i dialogrutan **Uppgift**.
 

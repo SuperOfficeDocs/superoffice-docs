@@ -14,11 +14,11 @@ language: da
 Samtaler er opfølgninger med en standardvarighed på 15 minutter. Standardstarttidspunktet er nu, og datoen er den aktuelle dato. Du kan oprette en samtaleopfølgning, hvis du f.eks. vil registrere en udgående telefonsamtale.
 
 > [!TIP]
-> Du kan ændre standardvarigheden til noget andet end 15 minutter. Vælg ![ikon][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Standardværdier** &gt; **Varighed for ny samtale** og [indtast den ønskede værdi][4].
+> Du kan ændre standardvarigheden til noget andet end 15 minutter. Vælg ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Standardværdier** > **Varighed for ny samtale** og [indtast den ønskede værdi][4].
 
 ![ikon][img2]
 
-Uanset hvor du er i SuperOffice CRM, kan du oprette en ny samtale ved at vælge **Ny** &gt; **Samtale** på toplinjen.
+Uanset hvor du er i SuperOffice CRM, kan du oprette en ny samtale ved at vælge **Ny** > **Samtale** på toplinjen.
 
 Samtaler kan vises følgende steder i SuperOffice CRM:
 

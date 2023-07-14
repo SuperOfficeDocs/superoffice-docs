@@ -35,7 +35,7 @@ Se videoen, eller følg trinnene nedenunder for at lære, hvordan du udfører en
 
 ## Relateret info
 
-* [Hvordan udfylder jeg felterne "Retsgrundlag", "Samtykkekilde" og "Formål" til mange personer i SuperOffice CRM på samme tid?][3] \- FAQ
+* [Hvordan udfylder jeg felterne "Retsgrundlag", "Samtykkekilde" og "Formål" til mange personer i SuperOffice CRM på samme tid?][3] - FAQ
 * [Masseslette personer og firmaer fra markeringen][1]
 
 <!-- Referenced links -->

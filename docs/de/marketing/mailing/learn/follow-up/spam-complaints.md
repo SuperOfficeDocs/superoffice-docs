@@ -20,7 +20,7 @@ Auf der Registerkarte **Spam-Beschwerden** werden alle Empfänger angezeigt, die
 
 Menschen klicken aus verschiedenen Gründen auf die Spam- (oder Junk-)Schaltflächen. Sie könnten aus irgendeinem Grund irritiert sein, wer Sie sind oder warum Sie ihnen eine E-Mail schicken. In einigen Fällen melden Personen Spam, weil sie den Abmeldelink nicht finden können.
 
-Wenn ein Empfänger Mailgun verwendet, werden alle als Spam gemeldeten E-Mails zur Liste „Unterdrückt“ hinzugefügt. Das bedeutet, dass unsere Benutzer keine E-Mails mehr an diese Person senden können. Dies bedeutet keine Kampagnen und keine Reaktion auf laufende Anfragen, was zu ernsthaften Problemen führen kann.
+Wenn ein Empfänger Mailgun verwendet, werden alle als Spam gemeldeten E-Mails zur Liste "Unterdrückt" hinzugefügt. Das bedeutet, dass unsere Benutzer keine E-Mails mehr an diese Person senden können. Dies bedeutet keine Kampagnen und keine Reaktion auf laufende Anfragen, was zu ernsthaften Problemen führen kann.
 
 ### Checkliste zur Vermeidung von Spam-Beschwerden
 
@@ -36,7 +36,7 @@ Wenn ein Empfänger Mailgun verwendet, werden alle als Spam gemeldeten E-Mails z
 Sie können die Liste zur weiteren Verarbeitung exportieren.
 
 1. Wählen Sie die E-Mail-Adressen aus, die Sie exportieren möchten.
-2. Wählen Sie **Aktionen** &gt; **Exportieren**.
+2. Wählen Sie **Aktionen** > **Exportieren**.
 3. Wählen Sie ein Exportformat aus. Die Exportdatei wird unten im Browser angezeigt. Sie kann auch in Ihrem Download-Ordner gefunden werden.
 
 <!-- Referenced links -->

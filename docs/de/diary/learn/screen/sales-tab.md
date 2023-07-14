@@ -34,7 +34,7 @@ Darin werden die folgenden Daten angezeigt:
 
 * Das Datum des Verkaufs (voraussichtlich, verkauft oder verloren)
 
-* Ein [Symbol für den Verkaufsstatus][4] zeigt an, ob der Status verkauft ![Symbol][img1], verloren ![Symbol][img2] oder ![aufgeschoben][img3] ist (wenn ein Symbol vorhanden ist, ist der Verkauf „offen“)
+* Ein [Symbol für den Verkaufsstatus][4] zeigt an, ob der Status verkauft ![Symbol][img1], verloren ![Symbol][img2] oder ![aufgeschoben][img3] ist (wenn ein Symbol vorhanden ist, ist der Verkauf "offen")
 
 Verkäufe, die nicht als abgeschlossen gekennzeichnet sind, werden in dieser Liste angezeigt.
 
@@ -47,7 +47,7 @@ Die Bereichsregisterkarte **Verkäufe** im Kalender ist für Sie eine Art "Verka
 * Alle Verkäufe mit geplanten Aktivitäten für eine bestimmte Anzahl an Tagen im Voraus.
 
     > [!NOTE]
-    > Ausgehend vom Datum der nächsten Aktivität ist die Option Anzahl an Tagen im Voraus anzeigen eine Einstellung. Um dies zu ändern, müssen Sie zum ![Symbol][img5] **Persönliche Einstellungen &gt; Einstellungen** gehen und **Funktionen** &gt; **Tage im Voraus anzeigen** auswählen.
+    > Ausgehend vom Datum der nächsten Aktivität ist die Option Anzahl an Tagen im Voraus anzeigen eine Einstellung. Um dies zu ändern, müssen Sie zum ![Symbol][img5] **Persönliche Einstellungen &gt; Einstellungen** gehen und **Funktionen** > **Tage im Voraus anzeigen** auswählen.
 
 * Alle Verkäufe mit überfälligen Aktivitäten (deren Enddatum vor dem heutigen Tag liegt). Diese Verkäufe werden in rot angezeigt.
 

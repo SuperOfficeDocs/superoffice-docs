@@ -46,7 +46,7 @@ Du kan enkelt konfigurere et videomøte når du oppretter en oppfølging. Se den
 
 3. Du kan også konfigurere en alarm for å bli varslet av et popup-vindu før møtet starter.
 
-4. Inviter deltakere: Gå til **Deltakere**-fanen og klikk på **\+ Legg til**-knappen for å invitere andre til dette møtet.
+4. Inviter deltakere: Gå til **Deltakere**-fanen og klikk på **+ Legg til**-knappen for å invitere andre til dette møtet.
 
     Når du har lagt til alle du vil skal delta på møtet, klikker du på **Lagre**.
 

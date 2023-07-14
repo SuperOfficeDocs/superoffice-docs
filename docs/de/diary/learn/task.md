@@ -15,7 +15,7 @@ Aufgaben sind Folgeaufgaben, die normalerweise keine bestimmte Anfangszeit oder 
 
 ![Symbol][img1]
 
-Sie können unabhängig davon, wo Sie sich in SuperOffice CRM befinden, eine neue Aufgabe erstellen, indem Sie auf der oberen Leiste auf **Neu** &gt; **Aufgabe** klicken.
+Sie können unabhängig davon, wo Sie sich in SuperOffice CRM befinden, eine neue Aufgabe erstellen, indem Sie auf der oberen Leiste auf **Neu** > **Aufgabe** klicken.
 
 Aufgaben können an folgenden Stellen in SuperOffice CRM angezeigt werden:
 

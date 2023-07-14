@@ -124,10 +124,10 @@ Endringene lagres automatisk. Prosjektguiden vises nå i SuperOffice CRM, hvis d
 
 Planleggingsmøte:
 
-\- Hva bør konferansen inneholde?
-\- Deltakere?
-\- Foredragsholdere?
-\- Hvor?
+- Hva bør konferansen inneholde?
+- Deltakere?
+- Foredragsholdere?
+- Hvor?
 
 ## <a id="add-doc-status" />Legge til dokument for en status
 

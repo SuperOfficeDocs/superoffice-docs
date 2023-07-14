@@ -65,7 +65,7 @@ Om du håller pekaren över en sådan dag visas en inforuta med en lista över d
 
 | Ikon | Beskrivning |
 |---|---|
-| ![ikon][img7] | ”Raden” nedanför datumet visar aktivitetsnivån den dagen, vilket gör det enklare att planera in möten. |
+| ![ikon][img7] | "Raden" nedanför datumet visar aktivitetsnivån den dagen, vilket gör det enklare att planera in möten. |
 | ![ikon][img8] | I dag. |
 | ![ikon][img9] | Det valda datumet i kalendern. |
 

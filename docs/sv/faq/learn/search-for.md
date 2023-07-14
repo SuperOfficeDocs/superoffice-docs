@@ -15,7 +15,7 @@ language: sv
 
 Om det finns många FAQ-poster i en mapp kan det vara svårt att hitta en viss post. Då kan det vara praktiskt att söka efter den.
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **FAQ**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 2. Klicka på knappen **Sök**. Du kommer då till skärmen **Kriterier**.
 3. Ange texten du vill söka efter och eventuellt andra kriterier.
 4. Klicka på **Sök**.

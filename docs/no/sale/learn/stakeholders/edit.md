@@ -23,12 +23,12 @@ Du kan redigere opplysningene i feltet **Salgsrolle** og **Kommentar** for inter
 
 1. I dialogboksen **Rediger interessenter** velger du interessentene du vil redigere.
 
-1. Gjør de ønskede endringene i **Salgsrolle**\- og **Kommentar**-feltet.
+1. Gjør de ønskede endringene i **Salgsrolle**- og **Kommentar**-feltet.
 
     > [!TIP]
     > Du finner en beskrivelse av de ulike feltene under [Opprette interessenter][2].
     >
-    > Du kan merke flere firmaer/personer ved å holde nede **CTRL**\- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Salgsrolle** og tekstboksen **Kommentar**, vil gjelde for alle de merkede firmaene/personene.
+    > Du kan merke flere firmaer/personer ved å holde nede **CTRL**- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Salgsrolle** og tekstboksen **Kommentar**, vil gjelde for alle de merkede firmaene/personene.
 
 1. Klikk på **OK** for å lukke vinduet og lagre endringene.
 

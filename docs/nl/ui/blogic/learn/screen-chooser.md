@@ -17,4 +17,4 @@ Een schermkiezer is een script waarmee de gebruiker vanuit het standaardscherm k
 
 ## Eigenschappen schermkiezer
 
-Hier kunt u een script toevoegen waardoor de gebruiker via de CRMScript-functie "setVariable("url", myUrl)” wordt omgeleid naar een ander scherm.
+Hier kunt u een script toevoegen waardoor de gebruiker via de CRMScript-functie "setVariable("url", myUrl)" wordt omgeleid naar een ander scherm.

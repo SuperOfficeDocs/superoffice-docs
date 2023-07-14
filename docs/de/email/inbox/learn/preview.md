@@ -24,7 +24,7 @@ Die Registerkarte **Vorschau** enthält folgende Felder:
 | Anhänge | Zeigt alle Anhänge der Nachricht an. |
 
 > [!NOTE]
-> Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** &gt; **E-Mail-Optionen**. Öffnen Sie die Registerkarte **Allgemein**. Wenn Sie die Option **Inline-Bilder anzeigen** aktivieren, werden Inline-Bilder als Vorschau angezeigt.
+> Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **E-Mail-Optionen**. Öffnen Sie die Registerkarte **Allgemein**. Wenn Sie die Option **Inline-Bilder anzeigen** aktivieren, werden Inline-Bilder als Vorschau angezeigt.
 
 ## Verwandte Themen
 

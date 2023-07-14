@@ -24,7 +24,7 @@ Fanen **Forhåndsvisning** indeholder følgende felter:
 | Vedhæftede filer | Her vises eventuelle filer, der er vedhæftet meddelelsen. |
 
 > [!NOTE]
-> Gå til ![ikon][img1] **Personlige indstillinger** &gt; **E-mailindstillinger**. Gå til fanen **Generelt**. Hvis du markerer **Vis inline-billeder**, vises inline-billeder i forhåndsvisningsfeltet.
+> Gå til ![ikon][img1] **Personlige indstillinger** > **E-mailindstillinger**. Gå til fanen **Generelt**. Hvis du markerer **Vis inline-billeder**, vises inline-billeder i forhåndsvisningsfeltet.
 
 ## Relaterede emner
 

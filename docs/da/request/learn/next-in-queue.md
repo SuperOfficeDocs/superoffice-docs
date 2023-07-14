@@ -13,7 +13,7 @@ language: da
 
 # Sådan konfigurerer du Hent næste sag i køen
 
-I SuperOffice tildeles sager normalt til brugere efter en fordelingsmetode. En anden metode til at tildele sager til sagsbehandlere er at placere nye sager i **Sager** &gt; **Ikke fordelte sager**. Sagsbehandlerne skal derefter acceptere sagerne manuelt.
+I SuperOffice tildeles sager normalt til brugere efter en fordelingsmetode. En anden metode til at tildele sager til sagsbehandlere er at placere nye sager i **Sager** > **Ikke fordelte sager**. Sagsbehandlerne skal derefter acceptere sagerne manuelt.
 
 Det er dog også muligt at oprette et intelligent køsystem til håndtering af nye sager. Sagsbehandlere kan derefter klikke på **Hent næste sag i kø** under **Sager** for at acceptere den næste sag i køen. Sager i køen filtreres efter [kategori][2], således at brugere kun tildeles sager, der tilhører kategorier, som de er medlemmer af.
 
@@ -40,7 +40,7 @@ Først opretter vi en ny sagsstatus: **I kø**. Nye sager skal automatisk tildel
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Vælg **Sager** &gt; **Sagsstatus**.
+1. Vælg **Sager** > **Sagsstatus**.
 
 1. Klik på knappen **Tilføj**.
 
@@ -68,13 +68,13 @@ Den nye sagsstatus vises på listen, og dette markeres i kolonnerne **Standard**
 Nu skal du sikre dig, at du er medlem af den eller de kategorier, du skal håndtere. Vi skal også specificere, at sager, der tilhører disse kategorier, ikke bør tildeles efter fordelingsmetoden.
 
 > [!NOTE]
-> Medlemskab af kategorier kan også defineres på gruppeniveau. I Indstillinger og vedligeholdelse (**Brugere** &gt; **Brugergrupper**) kan du angive kategorier for de forskellige brugergrupper.
+> Medlemskab af kategorier kan også defineres på gruppeniveau. I Indstillinger og vedligeholdelse (**Brugere** > **Brugergrupper**) kan du angive kategorier for de forskellige brugergrupper.
 
 **Trin:**
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Vælg **Sager** &gt; **Kategorier**.
+1. Vælg **Sager** > **Kategorier**.
 
 1. Klik på det ønskede kategorinavn. Du kommer til skærmbilledet **Egenskaber for kategori**.
 
@@ -96,7 +96,7 @@ Når du har hentet en sag fra køen, skal status ændres fra **I kø** til **Akt
 
 ## Kontroller, at køen fungerer
 
-Opret en ny sag, indstil **Ejer** til **Ufordelt**, vælg den kategori, du er medlem af, og indstil **Status** til **I kø**. Prøv derefter at klikke på **Sager** &gt; **Hent næste sag i køen**.
+Opret en ny sag, indstil **Ejer** til **Ufordelt**, vælg den kategori, du er medlem af, og indstil **Status** til **I kø**. Prøv derefter at klikke på **Sager** > **Hent næste sag i køen**.
 
 <!-- Referenced links -->
 [2]: category/index.md

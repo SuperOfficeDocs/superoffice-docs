@@ -36,7 +36,7 @@ Titta på den här videon och lär dig hur du lägger till och redigerar syften 
 
     * **Url för externt meddelande om behandling av personuppgifter:** URL:en/länken till webbsidan med meddelande om behandling av personuppgifter.
 
-    * **Godkännandetext**: Ange texten som kunderna måste klicka på för att ge sitt samtycke. Exempel: ”Jag godkänner dessa villkor” eller ”Ja, registrera mig...”.
+    * **Godkännandetext**: Ange texten som kunderna måste klicka på för att ge sitt samtycke. Exempel: "Jag godkänner dessa villkor" eller "Ja, registrera mig...".
 
     * **Extern beskrivning i Customer Centre**: Ange beskrivningstexten för detta syfte som ska visas i Customer Centre. Texten ska innehålla:
 

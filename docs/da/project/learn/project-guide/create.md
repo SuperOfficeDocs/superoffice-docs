@@ -123,10 +123,10 @@ Når du har oprettet statusser og angivet en projekttype for projektguiden, kan 
 
 Planlægningsmøde:
 
-\- Hvad skal konferencen indeholde?
-\- Deltagere?
-\- Foredragsholdere?
-\- Hvor?
+- Hvad skal konferencen indeholde?
+- Deltagere?
+- Foredragsholdere?
+- Hvor?
 
 ## <a id="add-doc-status" />Tilføj et dokument til en status
 

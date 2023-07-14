@@ -13,7 +13,7 @@ language: en
 
 # Add items to the GUI - Web panel list
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]v
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 ## How to fill out fields when the items are URL addresses
 

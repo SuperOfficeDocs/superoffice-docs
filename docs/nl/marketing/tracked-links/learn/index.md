@@ -65,7 +65,7 @@ Wanneer u zonder tag een koppeling naar uw website toevoegt aan uw mailing, kunt
 
 De Google Analytics-functie in SuperOffice Marketing identificeert uw mailings in de rapporten. Door een unieke tag toe te voegen aan alle koppelingen die u in uw mailing gebruikt, herkent Google Analytics uw mailing als de bron waar de websitebezoekers vandaan komen. Google Analytics geeft u ook inzicht in het pad van de bezoekers door uw website.
 
-**Medium**: “E-mail” is het vooraf gedefinieerde medium in geautomatiseerde UTM-tags. Dit betekent dat getraceerde links in mailings die vanuit SuperOffice worden verzonden in Google Channel-rapporten kunnen worden gevonden onder “E-mails” (in tegenstelling tot “andere”).
+**Medium**: "E-mail" is het vooraf gedefinieerde medium in geautomatiseerde UTM-tags. Dit betekent dat getraceerde links in mailings die vanuit SuperOffice worden verzonden in Google Channel-rapporten kunnen worden gevonden onder "E-mails" (in tegenstelling tot "andere").
 
 **Bron** en **Campagne**: Deze velden identificeren deze specifieke mailing als de bron en zorgen voor een nauwkeurigere tracering en rapportage in Google.
 
@@ -73,7 +73,7 @@ De Google Analytics-functie in SuperOffice Marketing identificeert uw mailings i
 
 * [Links opnemen die u wilt traceren][3]
 * [Links voor abonnement toevoegen][4]
-* [Eenvoudige e-mailtracering van Google Analytics][6] \- blog
+* [Eenvoudige e-mailtracering van Google Analytics][6] - blog
 * [Linkacties definiëren][7]
 
 <!-- Referenced links -->

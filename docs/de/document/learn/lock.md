@@ -41,7 +41,7 @@ In den meisten Fällen können Sie in der Anwendung das [Dokument speichern und 
 Standardmäßig werden Dokumente im Bearbeitungsmodus geöffnet.
 
 > [!NOTE]
-> Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu ![Symbol][img2] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
+> Wenn Sie es vorziehen, beim Öffnen eines Dokuments den Lese- oder den Bearbeitungsmodus auszuwählen, müssen Sie zu ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** gehen und **Zum Bearbeiten oder Lesen auffordern** auf **Ja** setzen.
 
 * Bearbeitungsmodus: Das Dokument ist zur Bearbeitung geöffnet. Das Dokument kann von anderen Benutzern erst wieder bearbeitet werden, wenn Sie es speichern und schließen, wodurch es automatisch eingecheckt wird.
 

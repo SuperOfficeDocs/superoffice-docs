@@ -55,7 +55,7 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 1. [Juster feltets placering][3].
 
-1. Klik på **Udgiv**, hvis feltet skal være tilgængeligt for SuperOffice CRM-brugere. Ikonet ![Ikke-publicerede][img1] felter og felter med ikonet ![for ikke-publicerede ændringer ][img2]vises med fed tekst på listen **Felter** .
+1. Klik på **Udgiv**, hvis feltet skal være tilgængeligt for SuperOffice CRM-brugere. Ikonet ![Ikke-publicerede][img1] felter og felter med ikonet ![for ikke-publicerede ændringer][img2] vises med fed tekst på listen **Felter** .
 
 ## Hvorfor er det en god ide at indeksere?
 

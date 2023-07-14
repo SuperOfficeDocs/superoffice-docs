@@ -25,11 +25,11 @@ Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. n�
 
 ## Faner
 
-* [Makroer og script][1] \- Opret makroer og scripts til at automatisere og planlægge opgaver i SuperOffice.
-* [Triggers][2] \- Definer, at en bestemt hændelse i systemet udløser én eller flere foruddefinerede handlinger.
-* [Planlagte opgaver][3] \- Angiv, at et script eller en makro skal udføres på bestemte tidspunkter.
-* [Fejlfindingssessioner][4] \- Find og ret fejl inde i dine scripts og makroer.
-* [Sporing][5] \- Spor alle detaljer i udførelsen af et script eller en makro, og gem i en logfil.
+* [Makroer og script][1] - Opret makroer og scripts til at automatisere og planlægge opgaver i SuperOffice.
+* [Triggers][2] - Definer, at en bestemt hændelse i systemet udløser én eller flere foruddefinerede handlinger.
+* [Planlagte opgaver][3] - Angiv, at et script eller en makro skal udføres på bestemte tidspunkter.
+* [Fejlfindingssessioner][4] - Find og ret fejl inde i dine scripts og makroer.
+* [Sporing][5] - Spor alle detaljer i udførelsen af et script eller en makro, og gem i en logfil.
 
 ## Tilknyttet
 

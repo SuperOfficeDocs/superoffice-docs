@@ -40,7 +40,7 @@ Du kan arkivera ett e-postmeddelande i inkorgen som ett ärende i SuperOffice s�
 ## Lägg till ett meddelande till ett befintligt ärende
 
 1. Markera de e-postmeddelanden du vill arkivera. Om du väljer mer än ett e-postmeddelande upprepas stegen nedan för varje e-postmeddelande.
-2. Välj **Arkivera e-post** &gt; **Skapa ärende** i verktygsfältet.
+2. Välj **Arkivera e-post** > **Skapa ärende** i verktygsfältet.
 3. I dialogrutan **Arkivera som ärende** väljer du **Lägg till meddelande till befintligt ärende**.
 4. I sökfältet skriver du ID:n eller de första bokstäverna i ärendets rubrik.
 5. Tryck på ENTER eller klicka på knappen med förstoringsglaset för att starta sökningen. Ärenden som matchar dina sökvillkor visas i fältet **Välj ärende som detta meddelande ska bifogas**.

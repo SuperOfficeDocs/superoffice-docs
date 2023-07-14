@@ -17,7 +17,7 @@ U kunt instellingen voor verschillende onderdelen van SuperOffice CRM definiëre
 
 ## Stappen
 
-1. Kies ![pictogram][img12] **Persoonlijke instellingen** &gt; **Voorkeuren**.
+1. Kies ![pictogram][img12] **Persoonlijke instellingen** > **Voorkeuren**.
 
 2. Selecteer in het dialoogvenster **Voorkeuren** de gewenste voorkeur in de lijst aan de linkerkant.
 

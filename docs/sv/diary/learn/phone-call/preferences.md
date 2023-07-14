@@ -32,7 +32,7 @@ För att använda telefonfunktionerna i SuperOffice måste du kanske installera 
 
 ## Preferenser
 
-Om IP-telefoni, Skype eller FaceTime är installerat kan du ringa från SuperOffice CRM. **Telefonlänkformatet** måste vara korrekt inställt, antingen under **Inställningar** &gt; **Standardvärden** eller under Inställningar och underhåll. Under Inställningar och underhåll kan telefoninställningar anges för enskilda användare, användargrupper eller hela systemet.
+Om IP-telefoni, Skype eller FaceTime är installerat kan du ringa från SuperOffice CRM. **Telefonlänkformatet** måste vara korrekt inställt, antingen under **Inställningar** > **Standardvärden** eller under Inställningar och underhåll. Under Inställningar och underhåll kan telefoninställningar anges för enskilda användare, användargrupper eller hela systemet.
 
 ### Tillgängliga parametrar
 

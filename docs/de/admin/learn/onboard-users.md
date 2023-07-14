@@ -40,7 +40,7 @@ Stellen Sie sicher, dass Sie diesen Routineleitfaden stets aktualisieren, um Än
 
 ### Mitarbeiter schulen
 
-Legen Sie genügend Zeit für die Schulung Ihrer Mitarbeiter fest. In SuperOffice CRM ist ein kostenloses gamifiziertes eLearning-Tool verfügbar. Gehen Sie einfach zum Hilfe-Menü, klicken Sie auf „Was ist neu“, gehen Sie dann zur zweiten Seite und klicken Sie auf „Jetzt starten“.
+Legen Sie genügend Zeit für die Schulung Ihrer Mitarbeiter fest. In SuperOffice CRM ist ein kostenloses gamifiziertes eLearning-Tool verfügbar. Gehen Sie einfach zum Hilfe-Menü, klicken Sie auf "Was ist neu", gehen Sie dann zur zweiten Seite und klicken Sie auf "Jetzt starten".
 
 Sie können sich auch an unsere erfahrenen Berater wenden, die Sie bei der Schulung Ihrer Benutzer unterstützen. Wenden Sie sich an uns, um mehr zu erfahren.
 
@@ -66,7 +66,7 @@ Durch die Installation von WebTools sind Ihre E-Mails und Dokumente mit SuperOff
 
 ## Verwandt
 
-* [Was ist das SuperOffice WebTools und was macht es?][1] \- FAQ
+* [Was ist das SuperOffice WebTools und was macht es?][1] - FAQ
 * [Wie man WebTools installiert][2]
 * [Mehr über die Integration von E-Mails und Dokumenten lesen][3]
 

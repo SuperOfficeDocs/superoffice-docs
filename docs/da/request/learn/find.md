@@ -45,7 +45,7 @@ Den nemmeste måde at søge efter sager på er at bruge søgefeltet i menuen for
 
 ### Vis kun egne kategorier
 
-1. Vælg ![ikon][img2] **Personlige indstillinger** &gt; **Præferencer**.
+1. Vælg ![ikon][img2] **Personlige indstillinger** > **Præferencer**.
 1. Vælg gruppen **Sag**.
 1. Markér Ja ved **Vis kun egne kategorier**.
 1. Klik på **Gem**.

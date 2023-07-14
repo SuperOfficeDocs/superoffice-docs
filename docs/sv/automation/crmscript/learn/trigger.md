@@ -44,10 +44,10 @@ Vi ska nu skapa en serie åtgärder baserat på exemplet ovan.
 1. Klicka på **Ny åtgärd** och välj **Skicka ett e-postmeddelande eller SMS**. Vi ska nu anpassa det e-postmeddelande som skickas till kunden.
 1. Markera **Ämne**.
 1. Klicka på ![ikon][img1] parameterikonen till höger och sedan på fältet **Välj parameter**.
-1. Välj **Ändra ett ärende** &gt; **Titel**. Ärendets titel hamnar i e-postmeddelandets ämnesrad.
-1. Välj **Från** och välj **Ändra ett ärende** &gt; **Ägare**.
-1. Markera **Till** och välj **Ändra ett ärende** &gt; **Kontakt: E-postadress**.
-1. Markera **HTML-meddelande** och välj **Läs in en svarsmall för koppling** &gt; **HTML-text**.
+1. Välj **Ändra ett ärende** > **Titel**. Ärendets titel hamnar i e-postmeddelandets ämnesrad.
+1. Välj **Från** och välj **Ändra ett ärende** > **Ägare**.
+1. Markera **Till** och välj **Ändra ett ärende** > **Kontakt: E-postadress**.
+1. Markera **HTML-meddelande** och välj **Läs in en svarsmall för koppling** > **HTML-text**.
 1. Klicka på **Verkställ**.
 
 Du har nu skapat ett makro som skickar kunden ett e-postmeddelande med ämnet "Ärende avslutat" när ett ärende avslutas. Den här utlösaren aktiveras omedelbart om du markerar **Aktiverad** högst upp.

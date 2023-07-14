@@ -17,7 +17,7 @@ En sag kan komme ind i systemet via en e-mail-meddelelse fra kunden, eller du ka
 
 ## Workflow
 
-1. Vælg **Ny** &gt; **Sag**.
+1. Vælg **Ny** > **Sag**.
 
 1. I feltet **Titel** skal du angive et beskrivende navn på sagen.
 

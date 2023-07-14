@@ -29,7 +29,7 @@ Standaard wordt in het zijpaneel een voorbeeld van de geselecteerde record weerg
 Hiermee wordt een overzicht van de informatie over het huidige bedrijf in het scherm Bedrijf weergegeven.
 
 > [!TIP]
-> Als u andere bedrijven wilt weergeven zonder dat u in het scherm Bedrijf van bedrijf hoeft te wisselen, klikt u op de pijl naast de bedrijfsnaam om de [historielijst][1]te openen
+> Als u andere bedrijven wilt weergeven zonder dat u in het scherm Bedrijf van bedrijf hoeft te wisselen, klikt u op de pijl naast de bedrijfsnaam om de [historielijst][1] te openen
 
 ## Persoon
 
@@ -88,14 +88,14 @@ Hiermee wordt [Kladblok][9] in het zijpaneel geopend.
 
 Er wordt een afdrukvoorbeeld van de geselecteerde activiteit, het geselecteerde project, de geselecteerde persoon, het geselecteerde projectlid of het geselecteerde selectielid in het zijpaneel weergegeven. Afhankelijk van het geselecteerde item kan het venster koppelingen naar contactpersonen en activiteiten bevatten. Als u op een van deze koppelingen klikt, wordt het [persoonskaart][2], het [dialoogvenster Document][5] of het [Dialoogvenster Vervolgactiviteiten][6] geopend, waar u de persoon of activiteit kunt weergeven en bewerken.
 
-[Wat moet ik doen als ik "Document gesloten" krijg in het zijpaneel van SuperOffice CRM wanneer Document Viewer wordt gebruikt?][11] \- FAQ
+[Wat moet ik doen als ik "Document gesloten" krijg in het zijpaneel van SuperOffice CRM wanneer Document Viewer wordt gebruikt?][11] - FAQ
 
 ## Project
 
 Hiermee wordt een overzicht van de informatie over het huidige project in het scherm Project weergegeven.
 
 > [!TIP]
-> Als u andere projecten wilt bekijken zonder dat u van project hoeft te wisselen in het projectscherm, klikt u op de pijl (![pictogram][img3] naast de productnaam om de [historielijst][1]te openen.
+> Als u andere projecten wilt bekijken zonder dat u van project hoeft te wisselen in het projectscherm, klikt u op de pijl (![pictogram][img3] naast de productnaam om de [historielijst][1] te openen.
 
 ## Projectleden
 

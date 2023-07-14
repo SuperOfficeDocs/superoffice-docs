@@ -1,2 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-I Inställningar och underhåll (**Listor** &gt; **GUI – Webbpanel)** kan du även ange att du vill lägga till fler detaljkort i form av webbadresser som SuperOffice CRM länkar till. Då startas webbadressen när du klickar på motsvarande flik på detaljkortet. Du kan också klicka på **Öppna i eget fönster** om du vill öppna webbplatsen i ett separat fönster i webbläsaren.
+I Inställningar och underhåll (**Listor** > **GUI – Webbpanel)** kan du även ange att du vill lägga till fler detaljkort i form av webbadresser som SuperOffice CRM länkar till. Då startas webbadressen när du klickar på motsvarande flik på detaljkortet. Du kan också klicka på **Öppna i eget fönster** om du vill öppna webbplatsen i ett separat fönster i webbläsaren.

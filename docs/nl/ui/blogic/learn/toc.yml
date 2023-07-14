@@ -10,7 +10,7 @@ items:
     href: screen-definition.md
   - name: Schermeigenschappen
     href: screen-properties.md
-  - name: Extra menu’s
+  - name: Extra menu's
     href: extra-menus/toc.yml
     topicHref: extra-menus/index.md
   - name: Pakketeigenschappen

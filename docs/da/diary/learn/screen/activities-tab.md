@@ -11,7 +11,7 @@ language: da
 
 # Detaljekortet Aktiviteter
 
-![ Detaljekortet Aktiviteter (Dagbog) -screenshot][img4]
+![Detaljekortet Aktiviteter (Dagbog) -screenshot][img4]
 
 Detaljekortet **Aktiviteter** giver dig et overblik over aktiviteter og fungerer som en opgaveliste eller opgaveliste. Det indeholder blandt andet aftaler og opgaver, som du endnu ikke har afsluttet, og du kan bruge den til midlertidigt at gemme opfølgninger, som du endnu ikke har allokeret til et bestemt tidspunkt eller dato.
 

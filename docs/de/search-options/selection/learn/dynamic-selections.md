@@ -17,7 +17,7 @@ Eine dynamische Selektion ist mit einer gespeicherten Suche vergleichbar, die be
 
 ### Firmen
 
-Sie können beispielsweise eine dynamische Selektion mit allen Firmen der Kategorie „Lieferant“ mit Standort in Deutschland erstellen, wenn Sie spätere Aktivitäten in Deutschland planen.
+Sie können beispielsweise eine dynamische Selektion mit allen Firmen der Kategorie "Lieferant" mit Standort in Deutschland erstellen, wenn Sie spätere Aktivitäten in Deutschland planen.
 
 ### Verkauf
 
@@ -25,7 +25,7 @@ Sie können eine Selektion erstellen, die all Ihre Verkäufe im ersten Quartal o
 
 ### Projekte
 
-Sie können beispielsweise eine Selektion mit allen aktuellen Projekten des Typs „Intern“ erstellen. Dadurch können Sie bewerten, welches davon beendet/abgeschlossen werden kann und welches noch weitere Arbeit erfordert.
+Sie können beispielsweise eine Selektion mit allen aktuellen Projekten des Typs "Intern" erstellen. Dadurch können Sie bewerten, welches davon beendet/abgeschlossen werden kann und welches noch weitere Arbeit erfordert.
 
 ### Dokumente
 

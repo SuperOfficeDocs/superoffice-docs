@@ -25,7 +25,7 @@ Den här proceduren visar hur du skapar en säljguide från grunden.
 
 En säljguide måste vara kopplad till en försäljningstyp, som i sin tur består av flera faser. [Så skapar du faser][2].
 
-Till exempel kan en säljguide för försäljning till nya kunder innehålla faserna ”Första mötet”, ”Offert” och ”Kontraktsunderskrift”.
+Till exempel kan en säljguide för försäljning till nya kunder innehålla faserna "Första mötet", "Offert" och "Kontraktsunderskrift".
 
 Gå till nästa procedur för att länka faserna till en försäljningstyp.
 
@@ -33,7 +33,7 @@ Gå till nästa procedur för att länka faserna till en försäljningstyp.
 
 En säljguide måste kopplas till en försäljningstyp. [Så skapar du en försäljningstyp][3].
 
-Exempel på försäljningstyper: ”Försäljning till ny kund”, ”Försäljning till befintlig kund”, ”Korsförsäljning till befintlig kund”.
+Exempel på försäljningstyper: "Försäljning till ny kund", "Försäljning till befintlig kund", "Korsförsäljning till befintlig kund".
 
 1. Markera **Denna försäljningstyp har en anknuten guide**.
 1. Välj minst två faser.

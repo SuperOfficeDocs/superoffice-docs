@@ -20,7 +20,7 @@ Når vi taler om at redigere en svarskabelon, kan det dreje sig om to forskellig
 
 ## Trin
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Svarskabeloner**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
 1. Gå til den mappe, som svarskabelonen ligger i.
 1. Klik på svarskabelonen. Du kommer til skærmbilledet **Vis svarskabeloner**.
 1. Klik på knappen **Rediger svarskabelon**. Du kommer til skærmbilledet **Egenskaber for svarskabelon**.

@@ -29,7 +29,7 @@ Mit Mobile CRM haben Sie Zugriff auf die wichtigsten Funktionen von SuperOffice 
 
 * Mit der Aktionsleiste können Sie dem Kunden antworten, den mit der Anfrage verbundenen Kunden anrufen und Detailinformationen anzeigen, um den Status der Anfrage zu ändern, Tags hinzuzufügen und die Kategorie zu ändern.
 
-* Im Menü „Aufgabe“ können Sie Bilder aufnehmen und als Anhänge zu einer Nachricht hinzufügen, den Anfragestatus ändern, eine Anfrage anderen Benutzern mit „Festgelegtem Eigentümer“ zuweisen und auf eine Anfrage antworten und Kommentare zu einer Anfrage hinzufügen.
+* Im Menü "Aufgabe" können Sie Bilder aufnehmen und als Anhänge zu einer Nachricht hinzufügen, den Anfragestatus ändern, eine Anfrage anderen Benutzern mit "Festgelegtem Eigentümer" zuweisen und auf eine Anfrage antworten und Kommentare zu einer Anfrage hinzufügen.
 
 Sehen Sie sich das Video [Anfrage bearbeiten][1] an, um zu lernen, wie man Kundenserviceanfragen in Mobile CRM bearbeitet (Videolänge – 1:31).
 

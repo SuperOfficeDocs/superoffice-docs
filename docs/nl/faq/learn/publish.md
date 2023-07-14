@@ -16,7 +16,7 @@ language: nl
 Wanneer een verzoekbehandelaar [een suggestie maakt voor een item in veelgestelde vragen][1], wordt deze niet gepubliceerd en niet beschikbaar in het SuperOffice Customer Center. Om het beschikbaar te maken, moet een persoon met beheerrechten voor veelgestelde vragen het publiceren.
 
 1. Wanneer u zich aanmeldt, worden niet-gepubliceerde items in Veelgestelde vragen weergegeven op de tegel **Status** op het dashboard, onder **Niet-gepubliceerde items in Veelgestelde vragen**.
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 1. Klik op het gewenste item.
 1. Klik in het scherm **Item Veelgestelde vragen** op **Item bewerken**.
 1. Selecteer in het scherm **Eigenschappen item in veelgestelde vragen** de tabbladen **Vraag** en **Antwoord** en lees de vraag en het antwoord door.

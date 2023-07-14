@@ -60,7 +60,7 @@ language: nl
            Bijvoorbeeld: wanneer persoon A een weging van 1 heeft, persoon B een weging van 2 en persoon C een weging van 5, krijgt elk van deze personen bij een bereik van 8 verzoeken hetzelfde aantal verzoeken toegewezen als door hun weging wordt aangegeven.
 
         * **Aan gebruiker met minste aantal openstaande verzoeken**: nieuwe verzoeken worden toegewezen aan het lid van de categorie met het minste aantal openstaande verzoeken.
-        * **Niet toewijzen**: de verzoeken worden niet toegewezen aan specifieke gebruikers, maar worden standaard in een wachtrij geplaatst. Onder **Verzoeken** &gt; **Niet-toegewezen verzoeken** (standaard) of in het wachtrijsysteem **Volgend verzoek in wachtrij ophalen** (zie [Hoe 'Volgend verzoek in wachtrij ophalen' instellen][3]).
+        * **Niet toewijzen**: de verzoeken worden niet toegewezen aan specifieke gebruikers, maar worden standaard in een wachtrij geplaatst. Onder **Verzoeken** > **Niet-toegewezen verzoeken** (standaard) of in het wachtrijsysteem **Volgend verzoek in wachtrij ophalen** (zie [Hoe 'Volgend verzoek in wachtrij ophalen' instellen][3]).
 
     * **Alleen toewijzen aan aangemelde gebruikers**: Verzoeken worden alleen toegewezen aan gebruikers die bij SuperOffice Service zijn aangemeld.
 

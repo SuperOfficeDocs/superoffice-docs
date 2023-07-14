@@ -28,7 +28,7 @@ Diese Fragen sind der Ausgangspunkt für die Entscheidung, aktiv zu werden. Durc
 
 ## Status
 
-Wenn Sie eine Lizenz für SAINT („SAles INTelligence“) erworben haben, können Sie in Einstellungen und Verwaltung Kriterien für Statuskontrollen von Firmen, Personen und Projekten festlegen. Von diesen Kriterien generierte Statusangaben können als Bild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Sie können z. B. ein Bild mit einem Warndreieck für einen Kunden anzeigen, mit dem zahlreiche Verkaufsgespräche geführt wurden, der jedoch keine Käufe zugesagt hat, oder ein Spinnennetz für einen Kunden, der seit über drei Monaten nicht kontaktiert wurde. Auf diese Weise sehen Sie sofort den Status, was für Vertriebsmitarbeiter äußerst hilfreich sein kann.
+Wenn Sie eine Lizenz für SAINT ("SAles INTelligence") erworben haben, können Sie in Einstellungen und Verwaltung Kriterien für Statuskontrollen von Firmen, Personen und Projekten festlegen. Von diesen Kriterien generierte Statusangaben können als Bild auf der Firmen-, Personen- oder Projektkarte angezeigt werden. Sie können z. B. ein Bild mit einem Warndreieck für einen Kunden anzeigen, mit dem zahlreiche Verkaufsgespräche geführt wurden, der jedoch keine Käufe zugesagt hat, oder ein Spinnennetz für einen Kunden, der seit über drei Monaten nicht kontaktiert wurde. Auf diese Weise sehen Sie sofort den Status, was für Vertriebsmitarbeiter äußerst hilfreich sein kann.
 
 ## Ein einfaches Beispiel
 
@@ -78,7 +78,7 @@ Aus praktischer Sicht kann SAINT einem Mitarbeiter Aktionen für eine bestimmte 
 
 ![Verwenden Sie einen visuellen Indikator wie ein weinendes Baby, um Sie zu warnen, dass ein Kunde nachverfolgt werden muss -screenshot][img3]
 
-Die SAINT-Kriterien, die durch die von Ihnen verwendeten Analysen erstellt werden, werden automatisch zu suchbaren „Feldern“. Jeder Benutzer kann diese Felder verwenden, um seine benutzerdefinierte Liste von Aktionen oder Suchen in SuperOffice Selektion einzurichten.
+Die SAINT-Kriterien, die durch die von Ihnen verwendeten Analysen erstellt werden, werden automatisch zu suchbaren "Feldern". Jeder Benutzer kann diese Felder verwenden, um seine benutzerdefinierte Liste von Aktionen oder Suchen in SuperOffice Selektion einzurichten.
 
 ## Aktion
 

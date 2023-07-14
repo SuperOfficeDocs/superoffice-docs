@@ -23,7 +23,7 @@ Fanen **Sporing** indeholder en liste over alle sporinger. Klik på en sporing p
 
 ## Start sporinger
 
-* Gå til **CRMScript** &gt; **Fejlfindingssessioner,** og klik på ![ikon][img1] **Start sporingsscripts** for at starte sporing af scripts på listen.
+* Gå til **CRMScript** > **Fejlfindingssessioner,** og klik på ![ikon][img1] **Start sporingsscripts** for at starte sporing af scripts på listen.
 * Åbn et script eller en makro i **Fejlfinding**, og klik på ![ikon][img2] **Spor script**.
 * Åbn et script eller en makro i fanen **Makroer og script**, og klik på ![ikon][img2] **Spor script**.
 

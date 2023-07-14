@@ -60,7 +60,7 @@ In de rechter lijst kunt u productinformatie toevoegen. Deze kan het volgende be
 
 * Lijsten: Hier selecteert u alternatieven uit de lijst, zoals eenheden, producttypen en productgroepen. U kunt meer alternatieven toevoegen aan deze lijsten op het scherm **Lijsten**, zie [Items toevoegen aan een lijst][4].
 
-* Lijsten met ![pictogram][img1] zoekopties : Hier kunt u kiezen uit een lijst van recente records, tekst invoeren om een zoekopdracht te beginnen, of op de zoekknop ![pictogram][img1]klikken om een geavanceerde zoekopdracht te starten.
+* Lijsten met ![pictogram][img1] zoekopties : Hier kunt u kiezen uit een lijst van recente records, tekst invoeren om een zoekopdracht te beginnen, of op de zoekknop ![pictogram][img1] klikken om een geavanceerde zoekopdracht te starten.
 
 ### Naam en volgorde wijzigen en velden bewerkbaar en/of verplicht maken
 

@@ -13,7 +13,7 @@ language: de
 
 # E-Mail zur Datenschutzbestätigung bearbeiten
 
-Gemäß der DSGVO haben Einzelpersonen das „Recht auf Information“. Das bedeutet, dass sie das Recht haben, entweder im Voraus oder innerhalb von 30 Tagen nach der Erhebung ihrer persönlichen Daten benachrichtigt zu werden. Die DSGVO sieht vor, dass Einzelpersonen das Recht haben, darüber informiert zu werden, (a) dass eine Organisation beabsichtigt, ihre personenbezogenen Daten zu speichern, und (b) wofür die Organisation ihre Daten verwenden möchte.
+Gemäß der DSGVO haben Einzelpersonen das "Recht auf Information". Das bedeutet, dass sie das Recht haben, entweder im Voraus oder innerhalb von 30 Tagen nach der Erhebung ihrer persönlichen Daten benachrichtigt zu werden. Die DSGVO sieht vor, dass Einzelpersonen das Recht haben, darüber informiert zu werden, (a) dass eine Organisation beabsichtigt, ihre personenbezogenen Daten zu speichern, und (b) wofür die Organisation ihre Daten verwenden möchte.
 
 Sie können so viele E-Mails für die Datenschutzbestätigung erstellen und hinzufügen, wie Sie benötigen. Sie können ebenso dieselbe E-Mail-Vorlage in so vielen Sprachen hinzufügen, wie Sie benötigen.
 
@@ -23,7 +23,7 @@ Die E-Mail-Vorlage zur Datenschutzbestätigung ist eine **E-Mail-Vorlage**, die 
 
 1. Gehen Sie zu Einstellungen und Verwaltung.
 
-1. Klicken Sie auf **Listen**. Suchen Sie die Liste der **E-Mail-Vorlage** und die Vorlage für die „E-Mail zur Datenschutzbestätigung“.
+1. Klicken Sie auf **Listen**. Suchen Sie die Liste der **E-Mail-Vorlage** und die Vorlage für die "E-Mail zur Datenschutzbestätigung".
 
 1. Doppelklicken Sie, um das Dialogfeld **Listenobjekt bearbeiten** zu öffnen, in dem Sie den Namen, die Beschreibung usw. ändern können.
 

@@ -24,7 +24,7 @@ Prosjekdeltakelse og aktiviteter blir flyttet til målpersonen, og kildepersonen
 2. Hvis du bare valgte én person, velger du en annen person under **Til** (begynn å skrive for å søke etter en person). De to personene du vil slå sammen, vises nå under **Fra** og **Til**.
 
     > [!TIP]
-    > Hvis du vil bytte **Fra**\- og **Til**-personene, klikker du på ![ikon][img2] knappen.
+    > Hvis du vil bytte **Fra**- og **Til**-personene, klikker du på ![ikon][img2] knappen.
 
 3. Velg ett av følgende under **Utfør på [contact/company] etter sammenslåing**:
     * **Slett...**: Hvis du velger dette alternativet, slettes kildepersonen etter sammenslåingen.

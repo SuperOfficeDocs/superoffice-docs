@@ -41,7 +41,7 @@ In de meeste gevallen kunt u [het document opslaan en sluiten][1] binnen de toep
 Een document wordt standaard in de bewerkingsmodus geopend.
 
 > [!NOTE]
-> Als u liever de leesmodus of bewerkingsmodus selecteert wanneer u een document opent, gaat u naar ![pictogram][img2] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Functies** en stelt u **Vragen om te bewerken of te lezen** in op **Ja**.
+> Als u liever de leesmodus of bewerkingsmodus selecteert wanneer u een document opent, gaat u naar ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u **Vragen om te bewerken of te lezen** in op **Ja**.
 
 * Bewerkingsmodus: Het document is geopend voor bewerking. Het document kan niet worden bewerkt door andere gebruikers tot u het document hebt opgeslagen en gesloten, waardoor het document automatisch wordt aangemeld.
 

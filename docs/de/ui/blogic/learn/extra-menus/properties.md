@@ -29,7 +29,7 @@ Hier können Sie die Eigenschaften von Optionen auf Zusatzmenüs und Web-Bildsch
 
 * **Append &lt;usec&gt;**: &lt;usec&gt; ist der Sitzungsschlüssel für die NetServer-Sitzung. Um einen Web-Bildschirm mit NetServer mit Authentifizierung zu betreiben, muss dieser Schlüssel hinzugefügt werden.
 
-* **Ziel**: Ziel für die URL. Sie können wählen, in welchem Fenster sich die URL öffnen wird, indem Sie den Namen der Fensterinstanz in das Feld **Ziel** eingeben. Sie können „_blank“ eingeben, wenn Sie immer ein neues Fenster bzw. eine neue Registerkarte (zum Beispiel „Kunde“) öffnen möchten, um ein separates Fenster für diese Menüoption bzw. eine Gruppe des Menüoptionen zu öffnen.
+* **Ziel**: Ziel für die URL. Sie können wählen, in welchem Fenster sich die URL öffnen wird, indem Sie den Namen der Fensterinstanz in das Feld **Ziel** eingeben. Sie können "_blank" eingeben, wenn Sie immer ein neues Fenster bzw. eine neue Registerkarte (zum Beispiel "Kunde") öffnen möchten, um ein separates Fenster für diese Menüoption bzw. eine Gruppe des Menüoptionen zu öffnen.
 
 * **Symbol-URL**: Wenn Sie das Zusatzmenü mit einem bestimmten Symbol anzeigen möchten, geben Sie hier die URL der Bilddatei ein.
 

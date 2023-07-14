@@ -36,7 +36,7 @@ Alla användare som får sina försäljningsresultat mätta, kan se status och f
 | Användargruppsmål | Mål för användargruppen (detta är inte nödvändigtvis detsamma som summan av alla användare). |
 | Användarmål | Mål för den enskilda användaren. |
 | Summan av alla mål i en användargrupp (kan inte redigeras) | Visar summan för alla användare i en användargrupp. Detta är en riktlinje för att göra det lättare att konfigurera målet för hela användargruppen. |
-| Typ av mål | Dimensioner för att bidra till mer exakt målhantering. **Alla försäljningar - belopp** är den vanligaste måltypen. Använd till exempel ”Försäljningstyp” eller ”Företag – Kategori” som en dimension för mer specifik segmentering och för att nå olika mål. |
+| Typ av mål | Dimensioner för att bidra till mer exakt målhantering. **Alla försäljningar - belopp** är den vanligaste måltypen. Använd till exempel "Försäljningstyp" eller "Företag – Kategori" som en dimension för mer specifik segmentering och för att nå olika mål. |
 | Måttenhet | Det numeriska värdet för att mäta målet, till exempel Belopp, Antal eller Bruttovinst. |
 | Separata mål| Lägg till önskade listelement, vilket beror på listan som valts i måltypen. |
 

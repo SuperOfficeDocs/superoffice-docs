@@ -24,7 +24,7 @@ Projektmedlemskap och aktiviteter flyttas till målpersonen och källpersonen ka
 2. Om du bara har valt en kontakt väljer du ytterligare en kontakt under **Till** (börja skriva för att söka efter kontakten). De två kontakterna du vill slå ihop visas nu under **Från** och **Till**.
 
     > [!TIP]
-    > Om du vill byta plats på **Från**\- och **Till**-kontakter klickar du på ![ikon][img2]-knappen.
+    > Om du vill byta plats på **Från**- och **Till**-kontakter klickar du på ![ikon][img2]-knappen.
 
 3. Välj något av följande under **Utför på \[contact/company\] efter sammanslagning**:
     * **Ta bort...**: Om du väljer det här alternativet tas källkontakten bort efter sammanslagningen.

@@ -16,7 +16,7 @@ language: da
 Under skærmbillederne Salg i SuperOffice CRM angiver du bl.a. salgsbeløb, omkostninger og fortjeneste for salget. Hvilken valuta beløbene vises i, afhænger af, hvad der er angivet i [Præferencer][2], hvor du vælger egen valuta og basisvaluta fra en liste, der er defineret i skærmbilledet Lister.
 
 > [!NOTE]
-> Hvis du vil aktivere brug af valuta, skal du gå til **Præferencer** &gt; **Aktivér brug af valuta**.
+> Hvis du vil aktivere brug af valuta, skal du gå til **Præferencer** > **Aktivér brug af valuta**.
 
 ## Hvad vil du foretage dig nu?
 

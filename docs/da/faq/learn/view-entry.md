@@ -13,7 +13,7 @@ language: da
 
 # Visning af FAQ-poster (i SuperOffice)
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**. Du kommer til skærmbilledet FAQ, som indeholder FAQ-poster i en [mappestruktur][1], som du selv kan oprette og redigere.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**. Du kommer til skærmbilledet FAQ, som indeholder FAQ-poster i en [mappestruktur][1], som du selv kan oprette og redigere.
 
 2. Hvis listen indeholder flere undermapper, skal du gå til den ønskede undermappe.
 

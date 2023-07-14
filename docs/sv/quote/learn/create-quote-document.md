@@ -11,7 +11,7 @@ language: sv
 
 # Skapa offertdokument
 
-När du har skapat offerten och lagt till de produkter du vill ha, kan du skapa offertdokumentet som ska skickas till kunden. Detta är ”brevet” som skickas till kunden. Listan över produkter som erbjuds läggs till när offerten skickas till kunden.
+När du har skapat offerten och lagt till de produkter du vill ha, kan du skapa offertdokumentet som ska skickas till kunden. Detta är "brevet" som skickas till kunden. Listan över produkter som erbjuds läggs till när offerten skickas till kunden.
 
 1. Öppna en befintlig offert eller [skapa en ny offert][1].
 

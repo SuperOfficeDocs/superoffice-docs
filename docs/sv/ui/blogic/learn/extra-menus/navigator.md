@@ -17,7 +17,7 @@ language: sv
 
 Som ett exempel på denna funktionalitet ska vi lägga till en ny navigeringsgrupp i navigatorn till vänster i SuperOffice. Vi ska lägga till en extrameny i den nya navigeringsgruppen. I vårt exempel ska vi lägga till navigeringsgruppen "Webbplatser" med ett par användbara webbplatser i.
 
-1. Välj ![ikon][img2] **Systeminställningar** &gt; **Systemdesign** &gt; **Extramenyer**.
+1. Välj ![ikon][img2] **Systeminställningar** > **Systemdesign** > **Extramenyer**.
 
 2. Håll muspekaren över mappen **Navigator** och klicka på ![ikon][img1].
 
@@ -33,7 +33,7 @@ Som ett exempel på denna funktionalitet ska vi lägga till en ny navigeringsgru
 
 8. Skriv "Google" i fältet **Namn** (max. 20 tecken).
 
-9. Markera **Använd URL** och ange ”<http://www.google.com”> i **URL**-fältet.
+9. Markera **Använd URL** och ange "<http://www.google.com"> i **URL**-fältet.
 
 10. Markera INTE **Lägg till ID** eller **Lägg till &lt;usec&gt;** – om du gör det läggs värden till i slutet av den URL du definierade.
 

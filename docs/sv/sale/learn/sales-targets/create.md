@@ -53,7 +53,7 @@ Endast användare med funktionsbehörigheten **Kan låsa och låsa upp mål** ka
 
 Innan du börjar använda funktionen försäljningsmål måste du ställa in några saker under Inställningar och underhåll:
 
-* Försäljningsmålen är som standard uppdelade i månader, men du kan ändra detta till kvartalsmål. I Inställningar och underhåll går du till **Inställningar** &gt; **Globala systeminställningar** &gt; **Mål** to för att göra eventuella ändringar.
+* Försäljningsmålen är som standard uppdelade i månader, men du kan ändra detta till kvartalsmål. I Inställningar och underhåll går du till **Inställningar** > **Globala systeminställningar** > **Mål** to för att göra eventuella ändringar.
 
 * Att låsa och låsa upp försäljningsmål är endast tillgängligt för användare med funktionsrättigheten som kallas **Får låsa och låsa upp mål**. Detta kan du ändra under **Roller** i Inställningar och underhåll.
 
@@ -104,7 +104,7 @@ Innan du börjar använda funktionen försäljningsmål måste du ställa in nå
 
 ## Funktionen lås/lås upp
 
-Beroende på din användarroll (funktionsrättigheten ”Kan låsa/låsa upp mål”) kan du låsa och låsa upp ett försäljningsmål. När försäljningsmålet har godkänts, kan du välja raden för att låsa den och då inaktiveras raden för redigering. Om försäljningsmålet godkändes och låstes, ska det inte låsas upp om det inte finns särskilda skäl att ändra det.
+Beroende på din användarroll (funktionsrättigheten "Kan låsa/låsa upp mål") kan du låsa och låsa upp ett försäljningsmål. När försäljningsmålet har godkänts, kan du välja raden för att låsa den och då inaktiveras raden för redigering. Om försäljningsmålet godkändes och låstes, ska det inte låsas upp om det inte finns särskilda skäl att ändra det.
 
 ## Kopiera siffror från en annan användares mål
 

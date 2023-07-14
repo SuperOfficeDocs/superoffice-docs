@@ -26,7 +26,7 @@ Wenn Ihr Kundenzentrum mehrsprachig ist, können Sie Optionen (wie Begrüßungst
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Wählen Sie ![Symbol][img1] **Kundenzentrum** &gt; **Konfigurieren** aus. Auf der Ansicht **Kundenzentrum** gibt es 2 Registerkarten: **Design** und **Optionen**. Oben auf dieser Seite finden Sie einen Link zu einer Vorschau der Kundenzentrum-Seite.
+1. Wählen Sie ![Symbol][img1] **Kundenzentrum** > **Konfigurieren** aus. Auf der Ansicht **Kundenzentrum** gibt es 2 Registerkarten: **Design** und **Optionen**. Oben auf dieser Seite finden Sie einen Link zu einer Vorschau der Kundenzentrum-Seite.
 
 1. Auf der Registerkarte **Design** können Sie verschiedene Einstellungen für Erscheinungsbild und Funktionsweise des Kundenzentrums bearbeiten: Logo, bevorzugte Breite, Farben und Schriften. Die Vorschau wird automatisch aktualisiert.
 
@@ -54,7 +54,7 @@ Wenn Ihr Kundenzentrum mehrsprachig ist, können Sie Optionen (wie Begrüßungst
 | Willkommen, Text | Im Kopfzeilenfeld angezeigter Text. |
 | Geschäftszeiten anzeigen | Wählen Sie diese Option aus, um die Öffnungszeiten neben dem Kopfzeilenfeld anzuzeigen. Geben Sie die Geschäftszeiten in das Feld unten ein. |
 | Telefonnummer anzeigen | Wählen Sie diese Option aus, um Ihre Telefonnummer neben dem Kopfzeilenfeld anzuzeigen. Geben Sie die Telefonnummer in das Feld unten ein. |
-| Suche auf Willkommensseite aktivieren | Mit dieser Option lassen Sie das FAQ-Suchfeld im Kopfzeilenfeld anzeigen. Geben Sie Platzhaltertext in das Feld unten ein. Beispiel: „Geben Sie zur FAQ-Suche hier Text ein“. |
+| Suche auf Willkommensseite aktivieren | Mit dieser Option lassen Sie das FAQ-Suchfeld im Kopfzeilenfeld anzeigen. Geben Sie Platzhaltertext in das Feld unten ein. Beispiel: "Geben Sie zur FAQ-Suche hier Text ein". |
 | Informationen auf Willkommensseite aktivieren | Mit dieser Option wird unterhalb des Kopfzeilenfelds ein Textfeld angezeigt. Klicken Sie zum Eingeben von Text auf **Bearbeiten**. |
 | Die häufigsten FAQs auf der Willkommensseite anzeigen | Mit dieser Option werden die häufigsten und neuesten Fragen angezeigt. |
 | Fußzeile aktivieren | Mit dieser Option wird eine Fußzeile unten auf der Seite angezeigt. Klicken Sie zum Eingeben von Text auf **Bearbeiten**. |

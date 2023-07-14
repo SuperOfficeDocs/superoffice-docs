@@ -28,7 +28,7 @@ Du kan redigera informationen i fälten **Säljroll** och **Kommentar** för int
     > [!TIP]
     > En beskrivning av de olika fälten finns under [Skapa intressenter][2].
     >
-    > Du kan markera flera företag/kontakter genom att hålla **CTRL**\- eller **SKIFT**-tangenten nedtryckt medan du markerar dem. Ändringar du sedan gör i fältet **Säljroll** och textrutan **Kommentar** kommer då att gälla för alla de markerade företagen/kontakterna.
+    > Du kan markera flera företag/kontakter genom att hålla **CTRL**- eller **SKIFT**-tangenten nedtryckt medan du markerar dem. Ändringar du sedan gör i fältet **Säljroll** och textrutan **Kommentar** kommer då att gälla för alla de markerade företagen/kontakterna.
 
 1. Klicka på **OK** när du är klar, så stängs fönstret och ändringarna sparas.
 

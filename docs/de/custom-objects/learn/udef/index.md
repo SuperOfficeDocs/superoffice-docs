@@ -18,7 +18,7 @@ Mehrere Bereiche von SuperOffice CRM wie zum Beispiel die Anzeige Firma, enthalt
 Alle Firmen und Organisationen haben ihre eigenen Anforderungen an die Informationen, die sie benötigen, um sich über ihre Kunden, Verkäufe, Projekte, Verträge usw. zu registrieren. In der Ansicht **Felder** können Sie in SuperOffice CRM Ihre eigenen Felder eingeben. Auf diese Weise können Sie den Informationstyp anpassen, die in Bezug auf Firmen, Personen, Projekte, Verkäufe, Dokumente und Folgeaufgaben erfasst werden können.
 
 > [!NOTE]
-> Sie können Seite 3 Felder festlegen, die auf der „ersten Seite“ der entsprechenden Ansichten oder Dialogfelder angezeigt werden. [Wie?][1] Beachten Sie, dass dies möglicherweise nicht anwendbar ist, wenn Sie ein anderes Layout über den [Ansichtsdesigner][8] verwenden.
+> Sie können Seite 3 Felder festlegen, die auf der "ersten Seite" der entsprechenden Ansichten oder Dialogfelder angezeigt werden. [Wie?][1] Beachten Sie, dass dies möglicherweise nicht anwendbar ist, wenn Sie ein anderes Layout über den [Ansichtsdesigner][8] verwenden.
 
 ## <a id="field-types" />Feldtypen
 
@@ -42,7 +42,7 @@ Alle Firmen und Organisationen haben ihre eigenen Anforderungen an die Informati
 * [Registerkarte Mehr (Dokument)][5]
 * Die Registerkarte Details in der Anzeige Verkauf
 
-Sie können *Felder auf Seite 1* (Felder, die auf der „ersten Seite“ der entsprechenden Ansichten oder Dialogfelder angezeigt werden) an folgenden Stellen festlegen:
+Sie können *Felder auf Seite 1* (Felder, die auf der "ersten Seite" der entsprechenden Ansichten oder Dialogfelder angezeigt werden) an folgenden Stellen festlegen:
 
 [!include[List](includes/list-page-1-field-locations.md)]
 

@@ -40,7 +40,7 @@ Du kan arkivere en e-mail i din mailklientindbakke som en anmodning i SuperOffic
 ## Føj en meddelelse til en eksisterende sag
 
 1. Vælg den eller de e-mails, du ønsker at arkivere. Hvis du vælger mere end en e-mail, gentages nedenstående procedure for hver e-mail.
-2. Vælg **Arkiver e-mail** &gt; **Opret anmodning** på værktøjslinjen.
+2. Vælg **Arkiver e-mail** > **Opret anmodning** på værktøjslinjen.
 3. I dialogboksen **Arkiver som sag** vælger du **Tilføj meddelelse til eksisterende sag**.
 4. I søgefeltet indtaster du sagsnummeret eller de første bogstaver i sagens titel.
 5. Tryk på ENTER, eller klik på knappen med forstørrelsesglasset for at starte søgningen. De sager, der matcher dine søgekriterier, vises i feltet **Vælg den sag, du vil tilføje meddelelsen til**.

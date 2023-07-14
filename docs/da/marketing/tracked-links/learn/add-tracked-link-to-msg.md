@@ -32,14 +32,14 @@ Du kan også **tilføje særlige links** til din mailudsendelse. For at gøre de
 
 * Sådan tilføjes et eksisterende sporet link:
 
-  * Tekst: Klik på ![ikonet][img1] i værktøjslinjen, vælg **Særlige links** &gt; **Sporede links** og vælg et link.
-  * Billede: I sidepanelet (under **Handling**) skal du vælge **Særlige link** &gt; **Sporede links** og vælge et link.
+  * Tekst: Klik på ![ikonet][img1] i værktøjslinjen, vælg **Særlige links** > **Sporede links** og vælg et link.
+  * Billede: I sidepanelet (under **Handling**) skal du vælge **Særlige link** > **Sporede links** og vælge et link.
 
 * Hvis du vil [oprette et nyt sporet link][5], skal du klikke på **Opret nyt sporet link** nederst på skærmen. Dialogboksen **Linkegenskaber** åbner.
 
 ## Tips
 
-Du kan også tilføje almindelige (ikke-sporede) links. Hvis du vil indsætte tekstlinks, skal du klikke på ![ikonet][img1]for linkknappen på værktøjslinjen. For billedlinks skal du bruge **feltet Billed-URL** i sidepanelet. Hvis du senere beslutter, at du vil spore disse links, kan du vælge **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links vil imidlertid kun blive sporet for den aktuelle udsendelse og vil ikke blive anvendt på andre udsendelser.
+Du kan også tilføje almindelige (ikke-sporede) links. Hvis du vil indsætte tekstlinks, skal du klikke på ![ikonet][img1] for linkknappen på værktøjslinjen. For billedlinks skal du bruge **feltet Billed-URL** i sidepanelet. Hvis du senere beslutter, at du vil spore disse links, kan du vælge **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links vil imidlertid kun blive sporet for den aktuelle udsendelse og vil ikke blive anvendt på andre udsendelser.
 
 Du kan også tilføje almindelige (ikke-sporede) links ved at klikke på linkknappen på værktøjslinjen. Hvis du senere beslutter, at du vil spore disse links, kan du vælge **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links vil imidlertid kun blive sporet for den aktuelle udsendelse og vil ikke blive anvendt på andre udsendelser.
 

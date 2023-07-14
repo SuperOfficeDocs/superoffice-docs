@@ -14,11 +14,11 @@ language: de
 Anrufe sind Folgeaufgaben mit einer Standarddauer von 15 Minuten. Als Anfangszeit wird standardmäßig die aktuelle Uhrzeit und das aktuelle Datum angezeigt. Sie können eine Anruffolgeaufgabe festlegen, wenn Sie z. B. einen ausgehenden Anruf eingeben wollen.
 
 > [!TIP]
-> Sie können die Standarddauer ändern. Wählen Sie das ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Standardwerte** &gt; **Dauer bei neuem Anruf** und [erforderlichen Wert eingeben][4] aus.
+> Sie können die Standarddauer ändern. Wählen Sie das ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Standardwerte** > **Dauer bei neuem Anruf** und [erforderlichen Wert eingeben][4] aus.
 
 ![Symbol][img2]
 
-Unabhängig davon, wo Sie sich in SuperOffice CRM, befinden, können Sie einen neuen Anruf erstellen, indem Sie auf der oberen Leiste **Neu** &gt; **Anruf** auswählen.
+Unabhängig davon, wo Sie sich in SuperOffice CRM, befinden, können Sie einen neuen Anruf erstellen, indem Sie auf der oberen Leiste **Neu** > **Anruf** auswählen.
 
 Anrufe können an folgenden Stellen in SuperOffice CRM angezeigt werden:
 

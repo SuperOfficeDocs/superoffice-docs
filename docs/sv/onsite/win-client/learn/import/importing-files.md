@@ -16,7 +16,7 @@ so.envir: onsite
 När du har säkerhetskopierat databasfilen, hittat rätt datafil och placerat den i en mapp där du enkelt kan hitta den igen (se [Importrutiner][1]) kan du starta själva importen.
 
 > [!NOTE]
-> Vissa program ”låser” filer de öppnar så att andra program inte kan komma åt dem. Innan du påbörjar importen, kontrollera att varken importbeskrivningsfilen eller datafilen är öppna i något annat program (till exempel Excel).
+> Vissa program "låser" filer de öppnar så att andra program inte kan komma åt dem. Innan du påbörjar importen, kontrollera att varken importbeskrivningsfilen eller datafilen är öppna i något annat program (till exempel Excel).
 
 **Steg:**
 

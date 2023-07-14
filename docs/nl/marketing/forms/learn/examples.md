@@ -145,10 +145,10 @@ In dit voorbeeld laten we zien hoe u een kort formulier kunt maken voor klanten 
 1. Klik in de categorie **Velden** op ![pictogram][img1] en voeg de volgende velden toe:
 
     * Voor- en achternaam. Verwijder het veld **Persoon - naam**.
-    * **Elementen weergeven** &gt; **Tekstblok**: Geef de tekst in vet op in "Hoe kunnen we contact met u opnemen?".
+    * **Elementen weergeven** > **Tekstblok**: Geef de tekst in vet op in "Hoe kunnen we contact met u opnemen?".
     * **Persoon - mobiel**: Voer een voorbeeld in van een correct opgemaakt telefoonnummer voor uw land (inclusief de landcode) in het veld **Tijdelijke aanduiding** (bijvoorbeeld: +47 999 88 777).
     * **Persoon - E-mail**
-    * **Formulierelementen** &gt; **Tekstgebied**: Wijzig de naam van het veld in "Opmerking (optioneel)" en schrijf "Hoe kunnen we u vandaag helpen?" in het veld **Tijdelijke aanduiding**.
+    * **Formulierelementen** > **Tekstgebied**: Wijzig de naam van het veld in "Opmerking (optioneel)" en schrijf "Hoe kunnen we u vandaag helpen?" in het veld **Tijdelijke aanduiding**.
 
 1. Selecteer het veld **OK**, wijzig de naam in "Verzenden" en bewerk lettertype/achtergrondkleur en positie.
 

@@ -13,7 +13,7 @@ language: de
 
 # Standardwerte für Synchronisation konfigurieren
 
-Sie können den Benutzern viel Zeit ersparen, wenn Sie Standardwerte für Felder eingeben, die typischerweise nur einen relevanten Wert haben. Sie ersparen ihnen damit das Aktivieren eines Feldes, das immer aktiviert sein sollte, oder das Eingeben einer Nummer in ein Feld, das immer die Nummer „30“ enthalten sollte. Dies ist besonders nützlich, wenn große Datenmengen eingegeben werden müssen.
+Sie können den Benutzern viel Zeit ersparen, wenn Sie Standardwerte für Felder eingeben, die typischerweise nur einen relevanten Wert haben. Sie ersparen ihnen damit das Aktivieren eines Feldes, das immer aktiviert sein sollte, oder das Eingeben einer Nummer in ein Feld, das immer die Nummer "30" enthalten sollte. Dies ist besonders nützlich, wenn große Datenmengen eingegeben werden müssen.
 
 1. [!include[Go to sync](../includes/goto-sync.md)]
 

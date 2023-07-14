@@ -82,7 +82,7 @@ Om du vill skicka e-post från SuperOffice CRM anger du uppgifter om din SMTP-se
 Vissa e-postleverantörer, till exempel Gmail, blockerar inloggningsförsök från okända appar. Kontrollera din inkorg för att se om din e-postleverantör har skickat information till dig om ett obehörigt inloggningsförsök. Följ anvisningarna i e-postmeddelandet för att ge SuperOffice åtkomst till ditt konto.
 
 > [!TIP]
-> För att komma åt e-postalternativen går du till ![ikon][img1] **Personliga inställningar** &gt; **Alternativ för e-post**.
+> För att komma åt e-postalternativen går du till ![ikon][img1] **Personliga inställningar** > **Alternativ för e-post**.
 
 <!-- Referenced links -->
 

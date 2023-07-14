@@ -53,7 +53,7 @@ Alleen gebruikers met het functionele recht **Kan targets vergrendelen en ontgre
 
 Voordat u de functie Verkooptargets gaat gebruiken, moet u een aantal dingen instellen in Instellingen en onderhoud:
 
-* Standaard zijn de verkooptargets onderverdeeld in maanden, maar u kunt dit wijzigen in kwartaaltargets. Ga in Instellingen en onderhoud naar **Voorkeuren** &gt; **Algemene systeemvoorkeuren** &gt; **Targets** om eventuele wijzigingen aan te brengen.
+* Standaard zijn de verkooptargets onderverdeeld in maanden, maar u kunt dit wijzigen in kwartaaltargets. Ga in Instellingen en onderhoud naar **Voorkeuren** > **Algemene systeemvoorkeuren** > **Targets** om eventuele wijzigingen aan te brengen.
 
 * Het vergrendelen en ontgrendelen van verkooptargets is alleen beschikbaar voor gebruikers met het functionele recht **Kan targets vergrendelen en ontgrendelen**. U kunt dit wijzigen in **Rollen** in Instellingen en onderhoud.
 

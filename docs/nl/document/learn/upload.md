@@ -11,7 +11,7 @@ language: nl
 
 # Documenten uploaden
 
-1. Klik op **Nieuw** &gt; **Document** op de bovenste balk.
+1. Klik op **Nieuw** > **Document** op de bovenste balk.
 
 2. Gebruik slepen en neerzetten om het document te verplaatsen vanuit Windows Explorer naar het dialoogvenster **Document**.
 

@@ -27,7 +27,7 @@ When you consider that an activity is finished, you can mark it as completed.
 
 1. Right-click the activity and choose **Completed**.
 
-    ![ Change Completed status of an activity -screenshot][img4]
+    ![Change Completed status of an activity -screenshot][img4]
 
 > [!NOTE]
 > To edit a completed activity, you must first uncheck the **Completed** status.

@@ -24,7 +24,7 @@ U kunt deze instellingen ook bereiken vanuit het hoofdmenu ![pictogram][img1].
 ## Controle op duplicaten deactiveren
 
 1. Ga naar Instellingen en onderhoud.
-1. Selecteer **Voorkeuren** &gt; **functies**.
+1. Selecteer **Voorkeuren** > **functies**.
 
 <!-- Referenced links -->
 

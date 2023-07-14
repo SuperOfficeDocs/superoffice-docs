@@ -33,7 +33,7 @@ Hvis du har valgt den forkerte person, kan du klikke på **Skift person** neders
 
 ## Opret en ny kontakt og kontaktperson
 
-Hvis kunden ikke findes i SuperOffice CRM-database, kan du [oprette en ny person og et nyt firma][1]i sidepanelet.
+Hvis kunden ikke findes i SuperOffice CRM-database, kan du [oprette en ny person og et nyt firma][1] i sidepanelet.
 
 ## Relaterede emner
 

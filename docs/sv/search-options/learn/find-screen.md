@@ -50,9 +50,9 @@ Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM.
 
 ## <a id="or" />Bredda din sökning med funktionen ELLER
 
-Med sökfunktionen kan du utföra en sökning genom att kombinera sökkriterier med värdeoperatorn ”ELLER” mellan dem. På så sätt kan du söka efter två uppsättningar oberoende data och spara dem i ett urval.
+Med sökfunktionen kan du utföra en sökning genom att kombinera sökkriterier med värdeoperatorn "ELLER" mellan dem. På så sätt kan du söka efter två uppsättningar oberoende data och spara dem i ett urval.
 
-Låt oss ta en titt på några praktiska exempel på hur du kan använda funktionen ELLER. Du kan söka efter alla kunder som köpte ”Produkt A” och kunder som inte köpte ”Produkt B” för att öka din korsförsäljning. Eller så kan du söka efter alla stora kunder med huvudkontor i Liverpool eller Manchester, så att du kan kontakta dem om ett kommande evenemang i en av dessa städer.
+Låt oss ta en titt på några praktiska exempel på hur du kan använda funktionen ELLER. Du kan söka efter alla kunder som köpte "Produkt A" och kunder som inte köpte "Produkt B" för att öka din korsförsäljning. Eller så kan du söka efter alla stora kunder med huvudkontor i Liverpool eller Manchester, så att du kan kontakta dem om ett kommande evenemang i en av dessa städer.
 
 Titta på den här videon om du vill lära dig hur du skapar en sökning med funktionen ELLER (videons längd – 4:08):
 
@@ -98,7 +98,7 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 6. I listrutan till höger om **Belopp** klickar du på pilen ![ikon][img1] och väljer **>** (större än).
 
-7. I det sista fältet på raden skriver du in minimibeloppet. Till exempel ”100 000”.
+7. I det sista fältet på raden skriver du in minimibeloppet. Till exempel "100 000".
 
 8. Du har nu angett att du vill söka efter företag med en försäljning på över 100 000 kr, men vi är inte färdiga. Vi vill också ange period.
 

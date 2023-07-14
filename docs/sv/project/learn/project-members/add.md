@@ -47,7 +47,7 @@ Om du vill att projektet ska kopplas till ett företag måste du registrera mins
 10. Efter att du har registrerat all information som behövs, klickar du på **OK**.
 
 > [!TIP]
-> Du kan markera flera kontakter genom att på höger sida hålla ned **CTRL**\- eller **SKIFT**-tangenten intryckt medan du markerar dem. Det du sedan anger i fältet **Funktion** och textrutan **Kommentar**, kommer då att gälla för alla de markerade kontakterna.
+> Du kan markera flera kontakter genom att på höger sida hålla ned **CTRL**- eller **SKIFT**-tangenten intryckt medan du markerar dem. Det du sedan anger i fältet **Funktion** och textrutan **Kommentar**, kommer då att gälla för alla de markerade kontakterna.
 
 ## <a id="from-section-tab" />Lägga till projektdeltagare och intressenter från detaljkort
 
@@ -60,7 +60,7 @@ Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna 
 2. Välj önskad kontakt från listan.
 
     > [!NOTE]
-    > För att lägga till flera kontakter som intressenter/projektmedlemmar, använder du **Shift** eller **Ctrl** \+ klick.
+    > För att lägga till flera kontakter som intressenter/projektmedlemmar, använder du **Shift** eller **Ctrl** + klick.
 
 3. Högerklicka på kontakter och välj **Lägg till försäljning** eller **Lägg till projekt** i menyn som visas.
 

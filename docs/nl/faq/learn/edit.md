@@ -13,7 +13,7 @@ language: nl
 
 # Items in Veelgestelde vragen bewerken
 
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 1. Ga naar de map waar het item in Veelgestelde vragen zich bevindt.
 1. Klik op het gewenste item in Veelgestelde vragen.
 1. Klik in het scherm **Item Veelgestelde vragen** op **Item bewerken**.

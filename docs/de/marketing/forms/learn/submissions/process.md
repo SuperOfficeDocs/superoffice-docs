@@ -20,7 +20,7 @@ Nachdem Sie Ihr Web-Formular für die automatische Verarbeitung aller eingehende
 
 * Wenn Sie Formularübermittlungen manuell verarbeiten, können Sie Duplikate von Personen verhindern, indem Sie überprüfen, ob eine Person bereits in Ihrer Datenbank erfasst wurde oder nicht.
 
-* Sie können auch die Option „Manuell, wenn der Übermittler unbekannt ist. Automatisch bei bekanntem Übermittler.“ auswählen. Dann haben Sie eine bessere Kontrolle über die Personen, die Ihrer Datenbank durch Formularübermittlungen hinzugefügt wurden.
+* Sie können auch die Option "Manuell, wenn der Übermittler unbekannt ist. Automatisch bei bekanntem Übermittler." auswählen. Dann haben Sie eine bessere Kontrolle über die Personen, die Ihrer Datenbank durch Formularübermittlungen hinzugefügt wurden.
 
 Übermittelte Formulare mit dem Status **Übermittelt** müssen manuell verarbeitet werden. Das bedeutet, dass der Formularinhalt geprüft wird und die übermittelnde Person in SuperOffice mit einer vorhandenen oder neuen Person und/oder Firma verknüpft wird. Verarbeitete Formulare stehen in SuperOffice CRM in den Ansichten Firma und Person auf der Bereichsregisterkarte **Aktivitäten** zur Verfügung. Wenn Sie ausgewählt haben, bei einer neuen Anfrage benachrichtigt zu werden, stehen die verarbeiteten Formulare auf der Registerkarte **Anfrage** zur Verfügung.
 

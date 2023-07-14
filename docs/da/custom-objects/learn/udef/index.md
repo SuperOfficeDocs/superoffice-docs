@@ -57,7 +57,7 @@ Du kan derefter tilføje disse felter til skærmbilledet Virksomhed:
 |---|---|---|
 | Antal PC'er | Antal | Et talfelt, hvor du kan registrere antallet af pc'er. |
 | Medarbejderantal | Antal | Et talfelt, hvor du kan registrere antallet af medarbejdere. |
-| Vedligeholdelsesaftale | Liste | En liste over de forskellige typer vedligeholdelsesaftaler, du tilbyder. Listen skal [oprettes på skærmbilledet][2]Lister. |
+| Vedligeholdelsesaftale | Liste | En liste over de forskellige typer vedligeholdelsesaftaler, du tilbyder. Listen skal [oprettes på skærmbilledet][2] Lister. |
 | Kontrakten udløber | Dato | Et datofelt, hvor du kan registrere kontraktens udløbsdato. |
 | Ansøgning A; Ansøgning B; Ansøgning C | Afkrydsningsfelt | Tre afkrydsningsfelter, hvor du kan markere de applikationer, som kunden har købt. |
 

@@ -13,8 +13,8 @@ language: de
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-    * Wählen Sie auf der [oberen Leiste][2] die Befehlsfolge **Neu** &gt; **Anruf**.
-    * Klicken Sie auf ![Symbol][img1] **Aufgabe** &gt; **Anrufen** in einer Personenkarte.
+    * Wählen Sie auf der [oberen Leiste][2] die Befehlsfolge **Neu** > **Anruf**.
+    * Klicken Sie auf ![Symbol][img1] **Aufgabe** > **Anrufen** in einer Personenkarte.
 
 1. Im Dialogfeld **Anruf** müssen Sie die [Details des Anrufs angeben][1].
 

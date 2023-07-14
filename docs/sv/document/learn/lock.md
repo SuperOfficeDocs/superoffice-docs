@@ -41,7 +41,7 @@ I de flesta fall kan du [spara och stänga dokumentet][1] i applikationen så ch
 Som standard öppnas ett dokument i redigeringsläge.
 
 > [!NOTE]
-> Om du föredrar att välja läsläge eller redigeringsläge när du öppnar ett dokument går du till ![ikon][img2] **Personliga inställningar** &gt; **Inställningar** &gt; **Funktioner** och sätter **Fråga om redigering eller läsning** till **Ja**.
+> Om du föredrar att välja läsläge eller redigeringsläge när du öppnar ett dokument går du till ![ikon][img2] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter **Fråga om redigering eller läsning** till **Ja**.
 
 * Redigeringsläge: Dokumentet öppnas för redigering. Dokumentet kan inte redigeras av andra användare förrän du sparar och stänger det, vilket gör att dokumentet automatiskt checkas in.
 

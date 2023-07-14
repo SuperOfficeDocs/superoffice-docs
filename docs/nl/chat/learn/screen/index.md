@@ -26,7 +26,7 @@ In het tabblad **Dashboard** kunt chatstatistieken weergeven, binnenkomende chat
 
 Gebruik het tabblad **Chats** om te antwoorden op binnenkomende chats van klanten.
 
-![ Het tabblad Chats -screenshot][img5] Het getal in het tabblad **Chats** geeft het aantal chats aan die u momenteel verwerkt.
+![Het tabblad Chats -screenshot][img5] Het getal in het tabblad **Chats** geeft het aantal chats aan die u momenteel verwerkt.
 
 Het tabblad **Chats** heeft drie hoofd-area's:
 

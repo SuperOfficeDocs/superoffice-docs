@@ -12,7 +12,7 @@ language: sv
 # Skriva ett e-postmeddelande
 
 > [!TIP]
-> Nedan beskrivs hur du skriver ett e-postmeddelande från inkorgen. Du kan också skriva ett e-postmeddelande genom att klicka på **Nytt** &gt; **E-postmeddelande** i det övre fältet.
+> Nedan beskrivs hur du skriver ett e-postmeddelande från inkorgen. Du kan också skriva ett e-postmeddelande genom att klicka på **Nytt** > **E-postmeddelande** i det övre fältet.
 
 ## Skapa e-postmeddelande från inkorgen i SuperOffice
 
@@ -44,7 +44,7 @@ När du är klar med meddelandet och vill skicka det har du följande alternativ
 > [!TIP]
 > Om du inte arkiverar meddelandet när du skickar det kan du fortfarande [gå till mappen Skickat och arkivera meddelandet][2].
 >
-> Du kan redigera signaturmallen nederst i meddelandet under ![ikon][img1] **Personliga inställningar** &gt; **Redigera personlig e-postsignatur**.
+> Du kan redigera signaturmallen nederst i meddelandet under ![ikon][img1] **Personliga inställningar** > **Redigera personlig e-postsignatur**.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md

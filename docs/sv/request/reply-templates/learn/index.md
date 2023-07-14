@@ -23,7 +23,7 @@ En svarsmall kan t.ex. vara en specifik layout som ska användas för svar eller
 
 I fönstret Svarsmallar hittar du de svarsmallar som är tillgängliga för dig. Svarsmallarna ligger i en [mappstruktur][10] som du kan skapa själv.
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **Svarsmallar**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
 1. Gå till önskad mapp.
 1. Klicka på önskad svarsmall. Skärmen **Visa svarsmallar** visas med information om åtkomstnivå, språk och ägare. På flikarna nedan kan du se själva svarsmallstexten samt eventuella bilagor.
 

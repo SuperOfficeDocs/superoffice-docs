@@ -24,7 +24,7 @@ Sie können auch über das Hauptmenü ![Symbol][img1] auf diese Einstellungen zu
 ## Duplikatkontrolle deaktivieren
 
 1. Gehen Sie zu Einstellungen und Verwaltung.
-1. Wählen Sie **Einstellungen** &gt; **Funktionen** aus.
+1. Wählen Sie **Einstellungen** > **Funktionen** aus.
 
 <!-- Referenced links -->
 

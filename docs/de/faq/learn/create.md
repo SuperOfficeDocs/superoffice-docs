@@ -16,7 +16,7 @@ language: de
 Durch die Erstellung von FAQ-Einträgen kann Ihre Firma eine umfassende Sammlung von Fragen und Antworten zusammenstellen, in der sowohl Kunden als auch Mitarbeiter nützliche Informationen finden können. Es gibt zwei Möglichkeiten für die Erstellung von FAQ-Einträgen:
 
 * Ein Benutzer kann einen FAQ-Eintrag erstellen, der auf der Kommunikation mit einem Kunden in der Anzeige für die Bearbeitung von Anfragen basiert.
-* Ein Administrator kann einen FAQ-Eintrag direkt in **Wissensdatenbank** &gt; **FAQ** erstellen.
+* Ein Administrator kann einen FAQ-Eintrag direkt in **Wissensdatenbank** > **FAQ** erstellen.
 
 Sehen Sie sich dieses Video an und lernen Sie, wie Sie FAQs im Kundenzentrum erstellen und veröffentlichen können, oder folgen Sie der folgenden Schritt-für-Schritt-Anleitung (Videolänge - 3:01):
 
@@ -94,7 +94,7 @@ Wenn Sie auf eine Anfrage antworten und denken, dass dieselbe Frage erneut geste
 
 ## Neuen FAQ-Eintrag erstellen
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **FAQ** aus.
+1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 
 1. Wechseln Sie zu dem Ordner, in den Sie den FAQ-Eintrag stellen möchten. Wenn er noch nicht vorhanden ist, können Sie einen [neuen Ordner erstellen][2].
 

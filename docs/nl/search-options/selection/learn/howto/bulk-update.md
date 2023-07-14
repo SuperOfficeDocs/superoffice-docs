@@ -35,7 +35,7 @@ Bekijk de video of volg de onderstaande stappen om te zien hoe u Bulksgewijs bij
 
 ## Gerelateerde info
 
-* [Hoe vul ik voor veel personen in één keer de velden "Juridische basis", "Toestemmingsbron" en "Doel" in in SuperOffice CRM?][3] \- FAQ
+* [Hoe vul ik voor veel personen in één keer de velden "Juridische basis", "Toestemmingsbron" en "Doel" in in SuperOffice CRM?][3] - FAQ
 * [Massaal personen en bedrijven uit selectie verwijderen][1]
 
 <!-- Referenced links -->

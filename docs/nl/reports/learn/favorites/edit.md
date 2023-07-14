@@ -12,7 +12,7 @@ language: nl
 # Favoriete rapporten bewerken
 
 > [!NOTE]
-> Hierbij wordt ervan uitgegaan dat u ten minste één [favoriet rapport][1]hebt.
+> Hierbij wordt ervan uitgegaan dat u ten minste één [favoriet rapport][1] hebt.
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 2. Selecteer het tabblad **Favorieten**. De favoriete rapporten worden weergegeven in de rapportenlijst.

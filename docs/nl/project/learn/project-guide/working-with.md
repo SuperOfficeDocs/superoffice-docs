@@ -25,7 +25,7 @@ Wanneer een projectgids is gedefinieerd voor een projecttype dat u voor een proj
 
 1. U maakt de vervolgactiviteit/het document op de gebruikelijke manier in het dialoogvenster dat wordt geopend. Veel van de velden zijn al ingevuld, maar u kunt de informatie wijzigen of informatie toevoegen. Zie [Het dialoogvenster Document][1] of [Het dialoogvenster voor vervolgactiviteiten][2].
 
-    U kunt de vervolgactiviteit naar uw collega’s delegeren door hem/haar tot eigenaar van de vervolgactiviteit te maken. Wanneer dit voor een specifieke vervolgactiviteit gedefinieerd is in Instellingen en onderhoud, wordt het dialoogvenster **Taak toewijzen aan projectlid** weergegeven, waar u een collega als eigenaar van de vervolgactiviteit kunt selecteren.
+    U kunt de vervolgactiviteit naar uw collega's delegeren door hem/haar tot eigenaar van de vervolgactiviteit te maken. Wanneer dit voor een specifieke vervolgactiviteit gedefinieerd is in Instellingen en onderhoud, wordt het dialoogvenster **Taak toewijzen aan projectlid** weergegeven, waar u een collega als eigenaar van de vervolgactiviteit kunt selecteren.
 
 1. Wanneer u de vervolgactiviteit voltooit, schakelt u de optie **Voltooid** in het relevante dialoogvenster in of schakelt u het selectievakje in vóór de naam van de vervolgactiviteit op het sectietabblad **Projectgids**. Documenten worden standaard gemarkeerd als voltooid.
 

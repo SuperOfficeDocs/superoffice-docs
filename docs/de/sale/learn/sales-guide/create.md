@@ -25,7 +25,7 @@ In dieser Vorgehensweise wird beschrieben, wie Sie einen Verkaufsleitfaden kompl
 
 Der Verkaufsleitfaden muss mit einem Verkaufstyp verknüpft werden, der wiederum aus mehreren Stufen besteht. [Wie man eine Stufe erstellt][2].
 
-Ein Verkaufsleitfaden für Verkäufe an neue Kunden kann zum Beispiel die Stufen „Interessephase“, „Angebot“ und „Vertragsunterzeichnung“ enthalten.
+Ein Verkaufsleitfaden für Verkäufe an neue Kunden kann zum Beispiel die Stufen "Interessephase", "Angebot" und "Vertragsunterzeichnung" enthalten.
 
 Im nächsten Schritt können Sie die Stufen mit einem Verkaufstyp verknüpfen.
 
@@ -33,7 +33,7 @@ Im nächsten Schritt können Sie die Stufen mit einem Verkaufstyp verknüpfen.
 
 Der Verkaufsleitfaden muss mit einem Verkaufstyp verknüpft werden. [Wie man einen Verkaufstyp erstellt][3].
 
-Mögliche Verkaufstypen sind z. B.: „Verkauf an neuen Kunden“, „Verkauf an bestehenden Kunden“ und „Cross-Sale-Verkauf an bestehenden Kunden“.
+Mögliche Verkaufstypen sind z. B.: "Verkauf an neuen Kunden", "Verkauf an bestehenden Kunden" und "Cross-Sale-Verkauf an bestehenden Kunden".
 
 1. Aktivieren Sie **Dieser Verkaufstyp ist mit einem Leitfaden verknüpft**.
 1. Wählen Sie zumindest zwei Stufen aus.

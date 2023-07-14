@@ -47,7 +47,7 @@ Fanen **Meddelelser** viser meddelelser vedrørende sagen.
 
 Du kan ændre,hvor mange meddelelser der vises, i ![ikon][img2] **Personlige indstillinger**:
 
-1. Vælg ![ikon][img2] **Personlige indstillinger** &gt; **Præferencer**.
+1. Vælg ![ikon][img2] **Personlige indstillinger** > **Præferencer**.
 1. Vælg gruppen for **Sag**.
 1. Angiv antal meddelelser i feltet **Antal ekspanderede meddelelser**.
 1. Klik på **OK**.

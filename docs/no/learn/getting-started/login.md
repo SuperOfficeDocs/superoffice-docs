@@ -131,15 +131,15 @@ Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggi
 4. Klikk på **OK**.
 
 > [!NOTE]
-> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her. Sjekk ut vår FAQ hvis du har [glemt passordet][5]ditt.
+> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her. Sjekk ut vår FAQ hvis du har [glemt passordet][5] ditt.
 
 ## Aktuelt innhold
 
 Har du problemer med å logge på? [Sjekk FAQ][1] for forskjellige påloggingsproblemer.
 
-* [Hva gjør jeg når jeg ikke kan logge på SuperOffice CRM Online?][3] \- FAQ
-* [Hva gjør jeg når en nyopprettet bruker ikke kan logge på SuperOffice CRM?][4] \- FAQ
-* [Hvordan endrer jeg passordet jeg glemte i SuperOffice CRM Online?][5] \- FAQ
+* [Hva gjør jeg når jeg ikke kan logge på SuperOffice CRM Online?][3] - FAQ
+* [Hva gjør jeg når en nyopprettet bruker ikke kan logge på SuperOffice CRM?][4] - FAQ
+* [Hvordan endrer jeg passordet jeg glemte i SuperOffice CRM Online?][5] - FAQ
 * [Alternativer på menyen Personlige innstillinger][6]
 
 <!-- Referenced links -->

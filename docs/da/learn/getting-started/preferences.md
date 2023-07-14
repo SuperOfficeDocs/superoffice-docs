@@ -17,7 +17,7 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 
 ## Trin
 
-1. Vælg ![ikon][img12] **Personlige indstillinger** &gt; **Præferencer**.
+1. Vælg ![ikon][img12] **Personlige indstillinger** > **Præferencer**.
 
 2. Vælg den ønskede præference fra listen til venstre i dialogboksen **Præferencer** .
 

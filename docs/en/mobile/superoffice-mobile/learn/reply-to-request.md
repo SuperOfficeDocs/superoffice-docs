@@ -1,7 +1,7 @@
 ---
 uid: help-en-request-reply-mobile
 title: Reply to a request on your mobile device
-description: In this how-to guide, you’ll learn how to reply to a request in Mobile CRM.
+description: In this how-to guide, you will learn how to reply to a request in Mobile CRM.
 author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: request, mobile

@@ -15,7 +15,7 @@ language: da
 
 Hvis der er mange FAQ-poster i en mappe, kan det være svært at finde den ønskede post. Det kan være praktisk at søge efter den i disse tilfælde.
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 2. Klik på knappen **Søg**. Du kommer til skærmbilledet **Kriterier**.
 3. Indtast den tekst, du vil søge efter, og eventuelt andre kriterier.
 4. Klik på **Søg**.

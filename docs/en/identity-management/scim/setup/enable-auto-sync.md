@@ -24,7 +24,7 @@ Automatic sync is a powerful tool for when you have set up your mapping.
 
 2. [Create SCIM rules][3] to cover all users you want to appear in SuperOffice.
 
-3. [Preview the result][4] \- either for 1 user or for all users.
+3. [Preview the result][4] - either for 1 user or for all users.
 
 4. [Rearrange or activate/deactivate][5] rules if necessary.
 

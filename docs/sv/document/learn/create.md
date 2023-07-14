@@ -25,7 +25,7 @@ Följ anvisningarna nedan beroende på hur dokument hanteras i din SuperOffice-i
 
 ## Skapa ett nytt dokument med SharePoint-dokument
 
-1. Klicka på **Nytt** &gt; **Dokument** på toppraden.
+1. Klicka på **Nytt** > **Dokument** på toppraden.
 
 2. [Ange den information som behövs i fälten][2].
 
@@ -45,7 +45,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 > [!NOTE]
 > Den här proceduren beskriver hur du skapar dokument om du använder ett desktop-program för textredigering. Den faktiska processen kan skilja sig något om du använder ett online-baserat textredigeringsverktyg (som Microsoft Office Online) och ett dokumentbibliotek (som SharePoint).
 
-1. Klicka på **Nytt** &gt; **Dokument** på toppraden.
+1. Klicka på **Nytt** > **Dokument** på toppraden.
 
 2. [Ange den information som behövs i fälten][2].
 
@@ -55,7 +55,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 5. I dialogrutan **Ladda ner fil** väljer du en av följande knappar:
 
-    * **Aktivt**: När du klickar på **Öppna** öppnas dokumentet i ordbehandlingsprogrammet. Skriv in önskat innehåll i dokumentet och välj **Arkiv** &gt; **Spara som** och bläddra till den mapp där du vill spara det på datorn.
+    * **Aktivt**: När du klickar på **Öppna** öppnas dokumentet i ordbehandlingsprogrammet. Skriv in önskat innehåll i dokumentet och välj **Arkiv** > **Spara som** och bläddra till den mapp där du vill spara det på datorn.
 
     * **Spara**: När du klickar på **Spara** öppnas dialogrutan **Spara som**. Ange var på datorn filen ska sparas och klicka sedan på **Spara** så börjar hämtningen. Klicka på **Stäng** när hämtningen är klar. Öppna Windows Utforskaren och bläddra fram till dokumentet som du sparade. Öppna dokumentet, skriv innehåll och spara dokumentet.
 
@@ -76,7 +76,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 Med SuperOffice CRM kan du logga in från vilken dator som helst via webbläsaren, men då sparas dina dokument på den centrala servern. Nedladdning och uppladdning av dokument hanteras automatiskt av SuperOffice WebTools.
 
-1. Klicka på **Nytt** &gt; **Dokument** på toppraden.
+1. Klicka på **Nytt** > **Dokument** på toppraden.
 
 2. [Ange den information som behövs i fälten][2].
 

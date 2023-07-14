@@ -24,7 +24,7 @@ Eine Person, die Zugriff auf ein Kundenzentrum haben soll, benötigt für die An
 5. Klicken Sie auf **OK**. Die E-Mail wird gesendet.
 
 > [!TIP]
-> Der Inhalt der Nachricht stammt aus einer installierten Systemvorlage. Diese finden Sie unter **Wissensdatenbank** &gt; **Antwortvorlagen**.
+> Der Inhalt der Nachricht stammt aus einer installierten Systemvorlage. Diese finden Sie unter **Wissensdatenbank** > **Antwortvorlagen**.
 
 <!-- Referenced links -->
 

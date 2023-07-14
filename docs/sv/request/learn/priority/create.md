@@ -70,7 +70,7 @@ De standardprioriteter som finns i systemet är **Hög**, **Medel** och **Låg**
 | Tidsram | Tidsintervall för varje veckodag som gäller för behandling av ärenden. |
 | Helgdagar (dag/månad) | Dagar att utesluta från tidsramen. Fridagar ställs in för lediga dagar då man inte vill att ärenden ska kunna eskaleras. Formatet är en kommaseparerad lista med dag/månad. Om du t.ex. vill utesluta 25:e och 26:e december skriver du in följande: 25/12, 26/12. Du kan också lägga till datum med hjälp av datumfältet nedan. |
 | Inkludera år | Markeras detta inkluderas året i semesterdatumen. |
-| Eskalera ärenden inom tidsram | Om det här alternativet är markerat, eskaleras ärenden med den här prioriteten endast under prioritetens definierade tidsram. Eskaleringen ”fryses” utanför de tidsramar som har angetts på fliken **Tidsram**. |
+| Eskalera ärenden inom tidsram | Om det här alternativet är markerat, eskaleras ärenden med den här prioriteten endast under prioritetens definierade tidsram. Eskaleringen "fryses" utanför de tidsramar som har angetts på fliken **Tidsram**. |
 
 ## <a id="escalation-options"/>Eskaleringsalternativ
 

@@ -32,7 +32,7 @@ Vi ska nu skapa ett makro baserat på exemplet ovan.
 
 1. Markera alternativet **Ny meny** för att göra makrot tillgängligt från knappen **Uppgift** i fönstret Företag, Kontakt eller Ärende eller på fliken **Meddelande**.
 
-1. Gå till fliken **Åtgärder** och välj **Välj åtgärdstyp** &gt; **Ändra ett ärende**.
+1. Gå till fliken **Åtgärder** och välj **Välj åtgärdstyp** > **Ändra ett ärende**.
 
 1. Markera **Kategori** och välj en kategori i listan (t.ex. *Redovisning*).
 

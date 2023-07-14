@@ -11,7 +11,7 @@ language: de
 
 # E-Mail zur Datenschutzbestätigung senden
 
-In der neuen DSGVO haben Einzelpersonen das „Recht auf Information“. Das bedeutet, dass sie das Recht haben, entweder im Voraus oder innerhalb von 30 Tagen nach Erhebung ihrer Daten darüber informiert zu werden. Die DSGVO sieht vor, dass Einzelpersonen das Recht haben, darüber informiert zu werden, (a) dass eine Organisation beabsichtigt, ihre personenbezogenen Daten zu speichern, und (b) wofür die Organisation beabsichtigt, ihre Daten zu verwenden.
+In der neuen DSGVO haben Einzelpersonen das "Recht auf Information". Das bedeutet, dass sie das Recht haben, entweder im Voraus oder innerhalb von 30 Tagen nach Erhebung ihrer Daten darüber informiert zu werden. Die DSGVO sieht vor, dass Einzelpersonen das Recht haben, darüber informiert zu werden, (a) dass eine Organisation beabsichtigt, ihre personenbezogenen Daten zu speichern, und (b) wofür die Organisation beabsichtigt, ihre Daten zu verwenden.
 
 ## Zustimmung im Voraus über Formulare einholen
 

@@ -58,7 +58,7 @@ Om du vill ändra dokumentegenskaper, till exempel vilket projekt dokumentet är
 2. Klicka på **Öppna** i dialogrutan **Dokument**.
 3. Om en dialogruta öppnas klickar du på **Redigera**.
 4. I dialogrutan Ladda ner fil väljer du något av följande alternativ:
-    * **Aktivt**: När du väljer alternativet för att öppna öppnas dokumentet i ordbehandlingsprogrammet. Skriv in önskat innehåll i dokumentet och välj **Arkiv** &gt; **Spara som** och bläddra till den mapp där du vill spara det på datorn.
+    * **Aktivt**: När du väljer alternativet för att öppna öppnas dokumentet i ordbehandlingsprogrammet. Skriv in önskat innehåll i dokumentet och välj **Arkiv** > **Spara som** och bläddra till den mapp där du vill spara det på datorn.
     * **Spara**: När du klickar på alternativet för att spara visas dialogrutan **Spara som**. Ange var i datorn du vill spara filen och spara den. Öppna sedan dokumentet, skriv innehåll och spara det.
 5. Stäng ordbehandlingsprogrammet.
 6. Gå till dialogrutan **Dokument**.

@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-1. Wählen Sie **Neu** &gt; **E-Mail** aus.
+1. Wählen Sie **Neu** > **E-Mail** aus.
 
 2. Klicken Sie im Dialogfeld **E-Mail** **An**an und geben Sie die ersten Buchstaben des Namens der Person ein, der Sie die E-Mail senden wollen.
 

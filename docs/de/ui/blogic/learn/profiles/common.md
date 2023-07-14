@@ -18,13 +18,13 @@ Gemeinsame Profile werden mit einer [Rolle][2] verknüpft und gelten für alle B
 ## Profiltypen
 
 * **System**: Diese Profile werden wie im Folgenden erläutert konfiguriert.
-* **Systemansichten**: Mit den [Systemdesignern][1] in SuperOffice Service wird eine List von Ansichten erstellt. Diese Ansichten können Sie ändern, wenn Sie Zugriff auf **Systemdesign** &gt; **Ansichten** haben.
+* **Systemansichten**: Mit den [Systemdesignern][1] in SuperOffice Service wird eine List von Ansichten erstellt. Diese Ansichten können Sie ändern, wenn Sie Zugriff auf **Systemdesign** > **Ansichten** haben.
 
 ## <a id="create" />Gemeinsame Profile erstellen
 
 Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **Anfragen suchen** hinzufügen.
 
-1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** &gt; **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
+1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
 2. Wählen Sie **System**. Daraufhin wird eine hierarchische Liste aller Profile im System angezeigt.
 3. Klicken Sie auf **Suchen**.
 4. Zeigen Sie auf **Anfragen suchen** und klicken Sie auf ![Symbol][img2] (**Neues gemeinsames Profil**) rechts neben dem Namen. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
@@ -38,7 +38,7 @@ Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **An
 
 ## Informationen in einem gemeinsamen Profil bearbeiten
 
-1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** &gt; **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
+1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
 2. Wählen Sie **System**. Daraufhin wird eine hierarchische Liste aller Profile im System angezeigt.
 3. Öffnen Sie die Hierarchieebenen, bis Sie das gewünschte Profil gefunden haben.
 4. Klicken Sie auf den Profilnamen. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
@@ -47,7 +47,7 @@ Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **An
 
 ## Gemeinsames Profil löschen
 
-1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** &gt; **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
+1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
 2. Wählen Sie **System**. Daraufhin wird eine hierarchische Liste aller Profile im System angezeigt.
 3. Öffnen Sie die Hierarchieebenen, bis Sie das gewünschte Profil gefunden haben.
 4. Klicken Sie auf den Profilnamen. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.

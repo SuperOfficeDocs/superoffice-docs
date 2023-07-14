@@ -21,7 +21,7 @@ Zusammenführen-Tags gibt es in vielen Formen: Dies können der Vorname des Kund
 
 1. Wählen Sie einen Text in der Nachricht aus.
 
-2. Geben Sie beispielsweise „Sehr geehrte(r) “ ein.
+2. Geben Sie beispielsweise "Sehr geehrte(r) " ein.
 
 3. Positionieren Sie den Mauszeiger hinter dem Text und klicken Sie auf **Zusammenführungs-Tags** in der Werkzeugleiste.
 

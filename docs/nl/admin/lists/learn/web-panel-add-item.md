@@ -13,7 +13,7 @@ language: nl
 
 # Items toevoegen aan de lijst GUI - Webpaneel
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]v
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 ## Velden invullen wanneer de items URL-adressen zijn
 

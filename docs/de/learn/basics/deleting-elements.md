@@ -11,7 +11,7 @@ language: de
 
 # Objekte löschen und wiederherstellen
 
-Um mit Kunden und Personen effizient arbeiten zu können, ist es wichtig, eine „aufgeräumte“ Umgebung zu haben. Wenn Sie neue Firmen und Personen hinzufügen, müssen Sie überprüfen, dass diese nicht zuvor hinzugefügt wurden. Natürliche müssen sie auch sicherstellen, dass Sie korrekte Informationen zu Firmen und Personen hinzufügen. Löschen Sie also unbenutzte Firmen und Personen und führen Sie doppelte Firmen und Personen zusammenführen.
+Um mit Kunden und Personen effizient arbeiten zu können, ist es wichtig, eine "aufgeräumte" Umgebung zu haben. Wenn Sie neue Firmen und Personen hinzufügen, müssen Sie überprüfen, dass diese nicht zuvor hinzugefügt wurden. Natürliche müssen sie auch sicherstellen, dass Sie korrekte Informationen zu Firmen und Personen hinzufügen. Löschen Sie also unbenutzte Firmen und Personen und führen Sie doppelte Firmen und Personen zusammenführen.
 
 ## Firmen und Personen zusammenführen
 
@@ -57,7 +57,7 @@ Gelöschte Firmen und Personen bleiben standardmäßig 14 Tage lang im Papierkor
 
 Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Benutzer wiederherzustellen. Aktivieren Sie hierzu einfach EIN für die Option Gelöschte Firmen für alle Benutzer anzeigen.
 
-1. Wählen Sie ![Symbol][img1] **Persönliche Einstellungen** &gt; **Papierkorb** aus.
+1. Wählen Sie ![Symbol][img1] **Persönliche Einstellungen** > **Papierkorb** aus.
 
 2. Wählen Sie im Dialogfeld die Registerkarte **Firma** oder **Person** aus. Von Ihnen gelöschte Firmen und Personen werden angezeigt.
 
@@ -81,7 +81,7 @@ Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Ben
 | Abbrechen | Bricht das Löschen aller ausgewählten Elemente ab. Das Dialogfeld wird geschlossen, ohne dass ein Element gelöscht wird. |
 
 * So blenden Sie das Dialogfeld aus: Aktivieren Sie unten im Löschdialogfeld das Kontrollkästchen **Diesen Dialog nicht mehr anzeigen**.
-* So blenden Sie das Dialogfeld ein: Gehen Sie zu ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Funktionen** und stellen Sie die Option **Dialogfeld Bestätigung anzeigen** auf **Nein**.
+* So blenden Sie das Dialogfeld ein: Gehen Sie zu ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Option **Dialogfeld Bestätigung anzeigen** auf **Nein**.
 
 > [!NOTE]
 > Wenn Sie eine Firma, eine Selektion oder ein Projekt löschen, werden Sie immer um Bestätigung gebeten. Daher steht die Option **Diesen Dialog nicht mehr anzeigen** hier nicht zur Verfügung.

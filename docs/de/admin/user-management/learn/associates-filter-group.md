@@ -52,7 +52,7 @@ Sie können die Liste der Benutzer nach Rolle, Benutzerplan, Primärgruppe und �
 2. Klicken Sie mit der rechten Maustaste auf eine Spaltenüberschrift oder klicken Sie auf ![Symbol][img1] in der Ecke oben rechts in der Liste.
 3. Wählen Sie **Gruppierung aktivieren**.
 4. Klicken Sie auf **OK**.
-5. Klicken Sie bei dem Wert, nach dem Sie gruppieren möchten, auf den Spaltenkopf und ziehen Sie ihn in den Bereich über den Spalten („Ziehen Sie einen Spaltenkopf ...“). Die Liste wird nun nach diesem Wert gruppiert.
+5. Klicken Sie bei dem Wert, nach dem Sie gruppieren möchten, auf den Spaltenkopf und ziehen Sie ihn in den Bereich über den Spalten ("Ziehen Sie einen Spaltenkopf ..."). Die Liste wird nun nach diesem Wert gruppiert.
 6. Um nach weiteren Werten zu gruppieren, klicken Sie auf einen anderen Spaltenkopf und ziehen ihn in denselben Bereich.
 7. Klicken Sie auf die Gruppenwerte und ziehen Sie sie, um die Reihenfolge der Gruppierungsebenen zu ändern.
 8. Klicken Sie auf einen Gruppenwert, um die Sortierreihenfolge zu ändern.

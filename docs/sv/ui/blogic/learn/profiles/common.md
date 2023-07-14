@@ -18,13 +18,13 @@ Delade profiler är kopplade till en [roll][2] och gäller för alla användare 
 ## Profiltyper
 
 * **System**: Dessa profiler kan du konfigurera genom att följa proceduren nedan.
-* **System screens**: En översikt över skärmar som har skapats med hjälp av [systemdesignern][1] i SuperOffice Service. Du kan ändra dessa skärmar om du har tillgång till **Systemdesign** &gt; **Skärmbilder**.
+* **System screens**: En översikt över skärmar som har skapats med hjälp av [systemdesignern][1] i SuperOffice Service. Du kan ändra dessa skärmar om du har tillgång till **Systemdesign** > **Skärmbilder**.
 
 ## <a id="create" />Skapa delade profiler
 
 Följande steg visar till exempel hur du lägger till ett fält i fönstret **Söka ärenden**.
 
-1. Välj ![ikon][img1] **Systeminställningar** &gt; **Profil**. Skärmen **Visa profiler** visas.
+1. Välj ![ikon][img1] **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
 2. Välj **System**. En hierarkisk översikt visas över alla profilerna i systemet.
 3. Klicka på **Sök**.
 4. Peka på **Sök ärenden** och klicka på ![ikon][img2] (**Ny delad profil**) till höger om namnet. Skärmen **Redigera objektsprofil** visas.
@@ -38,7 +38,7 @@ Följande steg visar till exempel hur du lägger till ett fält i fönstret **S�
 
 ## Redigera information i en enhetlig profil
 
-1. Välj ![ikon][img1] **Systeminställningar** &gt; **Profil**. Skärmen **Visa profiler** visas.
+1. Välj ![ikon][img1] **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
 2. Välj **System**. En hierarkisk översikt visas över alla profilerna i systemet.
 3. Bläddra nedåt i hierarkin tills du hittar önskad profil.
 4. Klicka på profilnamnet. Skärmen **Redigera objektsprofil** visas.
@@ -47,7 +47,7 @@ Följande steg visar till exempel hur du lägger till ett fält i fönstret **S�
 
 ## Ta bort en enhetlig profil
 
-1. Välj ![ikon][img1] **Systeminställningar** &gt; **Profil**. Skärmen **Visa profiler** visas.
+1. Välj ![ikon][img1] **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
 2. Välj **System**. En hierarkisk översikt visas över alla profilerna i systemet.
 3. Bläddra nedåt i hierarkin tills du hittar önskad profil.
 4. Klicka på profilnamnet. Skärmen **Redigera objektsprofil** visas.

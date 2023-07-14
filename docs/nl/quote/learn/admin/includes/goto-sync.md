@@ -1,2 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-Selecteer **Quote/Sync** &gt; **Sync**. Schakel in de lijst **ERP-verbindingen** het selectievakje **Actief** uit voor de ERP-verbinding die u wilt bewerken.
+Selecteer **Quote/Sync** > **Sync**. Schakel in de lijst **ERP-verbindingen** het selectievakje **Actief** uit voor de ERP-verbinding die u wilt bewerken.

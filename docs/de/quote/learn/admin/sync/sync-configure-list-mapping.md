@@ -29,7 +29,7 @@ Wenn Daten zwischen SuperOffice und ERP-Systemen synchronisiert werden, müssen 
 1. Wählen Sie für jedes ERP-Objekt das entsprechende CRM-Objekt aus.
 
     > [!NOTE]
-    > Die Zuordnung erfolgt „eins-zu-eins“. Sie können dasselbe CRM-Objekt nicht zweimal zuordnen. Doppelt zugeordnete Listenobjekte werden ROT angezeigt. Wenn ein ERP-Listenobjekt ohne Zuordnung bleiben soll, wählen Sie **(Keine Selektion)**.
+    > Die Zuordnung erfolgt "eins-zu-eins". Sie können dasselbe CRM-Objekt nicht zweimal zuordnen. Doppelt zugeordnete Listenobjekte werden ROT angezeigt. Wenn ein ERP-Listenobjekt ohne Zuordnung bleiben soll, wählen Sie **(Keine Selektion)**.
 
 1. Gehen Sie zum Zuordnen von Listenobjekten der nächsten Liste wie in Schritt 4 und 5 erläutert vor.
 

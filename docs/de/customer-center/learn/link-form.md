@@ -33,7 +33,7 @@ Sie müssen ein [Web-Formular erstellen][3], bevor Sie es zu Ihrem Kundenzentrum
 
     ![Gehen Sie in der Seite Kundenzentrum zu Optionen und aktivieren Sie das Feld Benutzerdefiniertes Formular "Kontakt" verwenden -screenshot][img2]
 
-1. Klicken Sie im Dropdown-Menü auf Formular, um das gewünschte Web-Formular auszuwählen. Sie sehen die im Bereich „Formulare“ in Marketing erstellte Ordnerstruktur, die alle Webformulare enthält.
+1. Klicken Sie im Dropdown-Menü auf Formular, um das gewünschte Web-Formular auszuwählen. Sie sehen die im Bereich "Formulare" in Marketing erstellte Ordnerstruktur, die alle Webformulare enthält.
 
     ![Wählen Sie das gewünschte Web-Formular vom Formularordner aus -screenshot][img3]
 

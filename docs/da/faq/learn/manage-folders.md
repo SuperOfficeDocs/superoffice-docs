@@ -17,7 +17,7 @@ Du kan oprette en mappestruktur til FAQs, så du får en logisk struktur, der g�
 
 ## Oprettelse af mapper
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **FAQ**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
 
 1. Klik på knappen **Ny mappe**. Du kommer til skærmbilledet **Egenskaber for FAQ-mappe**.
 

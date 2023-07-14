@@ -22,7 +22,7 @@ Svarsmallar kan även inkludera en bilaga som bifogas till meddelandet. Innan du
 
 ## Steg
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** &gt; **Svarsmallar**.
+1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
 
 1. Gå till mappen som du vill lägga in svarsmallen i. Om den inte finns än kan du [skapa en ny mapp][2].
 
@@ -86,9 +86,9 @@ Förutom sin layout och formatering måste svarsmallen även innehålla följand
 ```text
 [[IF:message.bodyHtml!=""]]
 [[message.bodyHtml]]
-\[\[ELSE\]\]
+[[ELSE]]
 [[message.body]]
-\[\[ENDIF\]\]
+[[ENDIF]]
 ```
 
 ## <a id="faq" />Automatiskt svar på FAQ
@@ -97,7 +97,7 @@ SuperOffice Service levereras med en uppsättning svarsmallar. Bland dessa svars
 
 Baserat på kundens förfrågan söker systemet efter motsvarande ord (inkl. nyckelord) i FAQ-posterna i SuperOffice Service. Baserat på graden av överensstämmelse mellan dessa föreslås FAQ-poster som kan hjälpa kunden och dessa inkluderas i den svarsmall som automatiskt skickas till kunden för att bekräfta att förfrågan har mottagits.
 
-Du kan välja graden av överensstämmelse mellan kundens förfrågan och FAQ-posterna i fältet **Minimivärde för FAQ-sökresultat (i procent)** i ![ikon][img2] **Systeminställningar** &gt; **System** &gt; **Inställningar**.
+Du kan välja graden av överensstämmelse mellan kundens förfrågan och FAQ-posterna i fältet **Minimivärde för FAQ-sökresultat (i procent)** i ![ikon][img2] **Systeminställningar** > **System** > **Inställningar**.
 
 ## Vad vill du göra nu?
 

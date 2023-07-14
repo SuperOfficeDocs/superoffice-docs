@@ -34,7 +34,7 @@ Als u een opmerking wilt verwijderen, verwijdert u simpelweg alle tekst in de op
 
 U kunt het kladblok als volgt weergeven of verbergen:
 
-* Klik op ![pictogram][img1] **Hoofdmenu** &gt; **Kladblok weergeven**. Een vinkje vÃ³Ã³r de menuoptie betekent dat de functie is ingeschakeld.
+* Klik op ![pictogram][img1] **Hoofdmenu** > **Kladblok weergeven**. Een vinkje vÃ³Ã³r de menuoptie betekent dat de functie is ingeschakeld.
 * Als u **Kladblok** op de weergavelijst [zijpaneel][1] selecteert, wordt het kladblok in het zijpaneel weergegeven.
 
 Wanneer u het Kladblok op het scherm weergeeft, kunt u het bovenste gedeelte van het kladblok venster vastpakken en naar elke gewenste plek slepen.

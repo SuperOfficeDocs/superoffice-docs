@@ -27,7 +27,7 @@ Wanneer u klaar bent met het bericht en het wilt verzenden, hebt u de volgende o
 > [!TIP]
 > Als u het bericht niet archiveert wanneer u het verzendt, kunt u altijd nog naar de map Verzonden items gaan en [het bericht archiveren][2].
 >
-> De handtekeningsjabloon aan de onderkant van het bericht kan worden bewerkt in ![pictogram][img1] **Persoonlijke instellingen** &gt; **Persoonlijke e-mailhandtekening bewerken**.
+> De handtekeningsjabloon aan de onderkant van het bericht kan worden bewerkt in ![pictogram][img1] **Persoonlijke instellingen** > **Persoonlijke e-mailhandtekening bewerken**.
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

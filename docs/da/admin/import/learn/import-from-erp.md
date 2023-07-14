@@ -18,7 +18,7 @@ Følg nedenstående trin for at importere aktører (kunder, leverandører og enk
 ## Valg af aktører, der skal importeres fra ERP-systemet
 
 > [!NOTE]
-> Hvis ERP-synkroniseringsikonet ![icon][img1] er inaktivt, skal du deaktivere synkronisering under fanen **Tilbud/Sync** &gt; **Sync**.
+> Hvis ERP-synkroniseringsikonet ![icon][img1] er inaktivt, skal du deaktivere synkronisering under fanen **Tilbud/Sync** > **Sync**.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]

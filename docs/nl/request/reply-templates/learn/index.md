@@ -23,7 +23,7 @@ Een antwoordsjabloon kan bijvoorbeeld een specifieke opmaak zijn die bij het ant
 
 In het scherm Antwoordsjablonen vindt u de antwoordsjablonen die voor u beschikbaar zijn. De antwoordsjablonen staan in een [mapstructuur][10] die u zelf kunt maken.
 
-1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Antwoordsjablonen**.
+1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
 1. Ga naar de gewenste map.
 1. Klik op de gewenste antwoordsjabloon. Het scherm **Antwoordsjablonen weergeven** wordt geopend, met informatie over toegangsniveau, taal en eigenaar. Via de onderstaande tabbladen kunt u onder andere de tekst van de antwoordsjabloon en de bijlagen bekijken.
 

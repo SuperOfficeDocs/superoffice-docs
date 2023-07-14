@@ -34,7 +34,7 @@ Um eine Notiz zu löschen, entfernen Sie einfach den gesamten Text in der Notiz.
 
 Sie können den Notizblock jederzeit ein- oder ausblenden:
 
-* Durch Klicken auf ![Symbol][img1] **Hauptmenü** &gt; **Notizblock anzeigen**. Ein Häkchen vor der Menüoption zeigt an, dass die Funktion aktiviert ist.
+* Durch Klicken auf ![Symbol][img1] **Hauptmenü** > **Notizblock anzeigen**. Ein Häkchen vor der Menüoption zeigt an, dass die Funktion aktiviert ist.
 * Bei Auswahl von **Notizblock** auf der Liste der Anzeigen auf der [Seitenleiste][1] wird der Notizblock auf der Seitenleiste angezeigt.
 
 Wenn Sie den Notizblock auf dem Bildschirm einblenden, können Sie am oberen Rand auf das Notizblockfenster klicken und es an eine beliebige Stelle ziehen.

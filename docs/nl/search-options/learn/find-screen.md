@@ -196,7 +196,7 @@ Stelt u zich voor dat de tijd voor uw betalingsoverzicht nadert en u denkt dat u
 
 2. Klik op **Verkoop zoeken**.
 
-3. [!include[Clear criteria](includes/clear-criteria.md)]gevens te wissen.
+3. [!include[Clear criteria](includes/clear-criteria.md)] gevens te wissen.
 
 4. Klik op **Toev.**
 

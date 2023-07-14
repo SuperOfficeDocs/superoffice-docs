@@ -25,11 +25,11 @@ Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in he
 
 ## Tabbladen
 
-* [Macro’s en scripts][1] \- Maak macro’s en scripts om taken in SuperOffice te automatiseren en te plannen.
-* [Triggers][2] \- Geef aan of een bepaalde gebeurtenis in het systeem één of meer vooraf gedefinieerde acties activeert.
-* [Geplande taken][3] \- Geef aan of een script of macro op bepaalde momenten moet worden uitgevoerd.
-* [Foutopsporingssessies][4] \- Zoek de fouten in uw scripts en macro’s en verhelp deze.
-* [Traceren][5] \- Leg alle details van de uitvoering van een script of macro vast en sla deze op in een logboek.
+* [Macro's en scripts][1] - Maak macro's en scripts om taken in SuperOffice te automatiseren en te plannen.
+* [Triggers][2] - Geef aan of een bepaalde gebeurtenis in het systeem één of meer vooraf gedefinieerde acties activeert.
+* [Geplande taken][3] - Geef aan of een script of macro op bepaalde momenten moet worden uitgevoerd.
+* [Foutopsporingssessies][4] - Zoek de fouten in uw scripts en macro's en verhelp deze.
+* [Traceren][5] - Leg alle details van de uitvoering van een script of macro vast en sla deze op in een logboek.
 
 ## Aanverwant
 

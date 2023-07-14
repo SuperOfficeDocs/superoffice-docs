@@ -12,7 +12,7 @@ so.topic: howto
 # Standard-E-Mail-Client in SuperOffice ändern
 
 1. Öffnen Sie SuperOffice CRM.
-2. Wählen Sie das ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** aus.
+2. Wählen Sie das ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** aus.
 3. Wählen Sie **E-Mail** aus.
 4. Wählen Sie im Feld **E-Mail-Client** den bevorzugten E-Mail-Client aus.
 5. Klicken Sie auf **Speichern**.

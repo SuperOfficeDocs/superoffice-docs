@@ -17,7 +17,7 @@ Bij een nieuwe installatie bevat de workflows twee standaardfasen: **Niet-gepubl
 
 ## Nieuwe fase maken
 
-1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 1. Klik op de knop **Workflow**. Het scherm **Workflow weergeven** wordt geopend.
 1. Klik op de knop **Nieuwe fase**. Het scherm **Nieuwe fase** wordt geopend.
 1. Voer in het veld **Naam** een herkenbare naam in voor de fase.
@@ -36,7 +36,7 @@ Bij een nieuwe installatie bevat de workflows twee standaardfasen: **Niet-gepubl
 
 U kunt zowel de naam van een fase wijzigen als de gebruikers die er toegang toe moeten krijgen.
 
-1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 1. Klik op de knop **Workflow**.
 1. Klik op de naam van de fase. Het scherm **Fase bewerken** wordt geopend.
 1. Bewerk zo nodig de naam.
@@ -47,7 +47,7 @@ U kunt zowel de naam van een fase wijzigen als de gebruikers die er toegang toe 
 
 ## Fase verwijderen
 
-1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 1. Klik op de ![pictogram][img2] knop **Workflow**.
 1. Klik op de naam van de fase. Het scherm **Fase bewerken** wordt geopend.
 1. Klik op **Verwijderen**. Als de fase niet aan een item in Veelgestelde vragen is gekoppeld, wordt deze direct verwijderd.

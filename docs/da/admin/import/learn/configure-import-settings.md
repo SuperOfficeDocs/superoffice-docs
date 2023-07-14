@@ -147,7 +147,7 @@ Når du importerer personer, skal du også angive retsgrundlag og samtykkekilde 
 Importkilden kan for eksempel indeholde brancher, der ikke er registreret i SuperOffice. Så skal du derefter vælge, hvordan nye kategorier, brancher, stillinger, tilpassede listeværdier og interesser skal håndteres. I rullemenuerne under **Lister** har du følgende valgmuligheder:
 
 * **Tilføj nyt element i listen**: Der tilføjes nye værdier i SuperOffice.
-* **Ignorer – brug standardværdi**: Nye værdier importeres ikke, og standardværdien for kategori eller branche anvendes. Du angiver standardværdien under **Præferencer** &gt; **Standardværdier**.
+* **Ignorer – brug standardværdi**: Nye værdier importeres ikke, og standardværdien for kategori eller branche anvendes. Du angiver standardværdien under **Præferencer** > **Standardværdier**.
 
     > [!NOTE]
     > **Position** har ingen standardværdi.
@@ -163,6 +163,7 @@ Importkilden kan for eksempel indeholde telefonnumre, links og e-mailadresser, d
     For eksempel: Dette kan være relevant, hvis du ved, at importen indeholder korrekte e-mailadresser på dine kontaktpersoner. Hvis e-mailadresserne, der er registreret i SuperOffice, er forældede, kan du overskrive dem for at rydde op i systemet.
 * **Ignorer – behold eksisterende**: Der importeres ingen nye værdier til SuperOffice.
 
+<!-- markdownlint-disable-next-line MD013 -->
 ## Håndtering af produktkategorier, produktfamilier og produkttyper, der ikke findes i SuperOffice
 
 Importkilden kan for eksempel indeholde produktkategorier, der ikke er registreret i SuperOffice. Du skal derefter vælge, hvordan nye produktkategorier, produktfamilier og produkttyper skal håndteres. I listerne **Nye værdier for** har du følgende valgmuligheder:

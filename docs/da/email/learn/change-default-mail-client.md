@@ -12,7 +12,7 @@ so.topic: howto
 # Skift standard e-mailklient i SuperOffice
 
 1. Åbn SuperOffice CRM.
-2. Vælg ![ikon][img1] **Personlige indstillinger** &gt; **Præferencer**.
+2. Vælg ![ikon][img1] **Personlige indstillinger** > **Præferencer**.
 3. Vælg **E-mail**.
 4. I feltet **E-mailklient** vælger du den foretrukne e-mailklient.
 5. Klik på **Gem**.

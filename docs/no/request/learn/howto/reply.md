@@ -23,7 +23,7 @@ Når du åpner en sak og velger **Svar**, vises [e-postsignaturen][7] du har kon
 
 1. [Åpne saken][1].
 
-1. Klikk på ![ikon][img5] **Svar**\- eller ![ikon][img6] **Svar til alle**-knappen, eller klikk på ![ikon][img1] **Oppgave**-knappen, og velg **Svar** eller **Svar til alle**. Fanen **Melding** i bildet **Sak** vises. Personen legges automatisk til som en mottaker i feltet **Til**.
+1. Klikk på ![ikon][img5] **Svar**- eller ![ikon][img6] **Svar til alle**-knappen, eller klikk på ![ikon][img1] **Oppgave**-knappen, og velg **Svar** eller **Svar til alle**. Fanen **Melding** i bildet **Sak** vises. Personen legges automatisk til som en mottaker i feltet **Til**.
 
 1. Skriv inn selve [meldingen][2] du vil legge til i saken.
 

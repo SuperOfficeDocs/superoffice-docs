@@ -23,7 +23,7 @@ Fliken **Spårning** innehåller en lista över alla spårningar. Klicka på ett
 
 ## Starta spårningar
 
-* Gå till **CRMScript** &gt; **Felsökningssessioner** och klicka på ![ikon][img1] **Starta spårning av skript** om du vill starta spårningen av skripten i listan.
+* Gå till **CRMScript** > **Felsökningssessioner** och klicka på ![ikon][img1] **Starta spårning av skript** om du vill starta spårningen av skripten i listan.
 * Öppna ett skript eller makro i **Felsökning** och klicka på ![ikon][img2] **Spåra skript**.
 * Öppna ett skript eller makro på fliken **Makron och skript** och klicka på ![ikon][img2] **Spåra skript**.
 

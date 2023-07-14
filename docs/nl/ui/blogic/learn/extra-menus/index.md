@@ -1,17 +1,17 @@
 ---
 uid: help-nl-ui-extra-menu
-title: Extra menu’s
+title: Extra menu's
 description: "Extra menu's in de SuperOffice UI"
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: extra menu’s
+keywords: extra menu's
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 
-# Extra menu’s
+# Extra menu's
 
 [!include[Legacy](../includes/legacy-extra-menus.md)]
 
@@ -35,7 +35,7 @@ In het scherm **Extra menu's** kunt u extra menu's (knoppen, menu's, koppelingen
 
 * URL's: koppelingen naar webpagina's of specifieke records in SuperOffice.
 * Schermen: snelkoppelingen naar specifieke schermen.
-* Scripten/macro’s knoppen of menu-opties die een script of macro activeren.
+* Scripten/macro's knoppen of menu-opties die een script of macro activeren.
 * Selecties: snelkoppeling naar een selectie
 
 Zie ook [Menu-eigenschappen][1].

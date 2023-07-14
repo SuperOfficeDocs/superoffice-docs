@@ -47,7 +47,7 @@ Auf der Registerkarte **Nachrichten** werden die mit der Anfrage verknüpften Na
 
 Sie können die Anzahl der angezeigten Nachrichten in ![Symbol][img2] **Persönliche Einstellungen** ändern:
 
-1. Wählen Sie das ![Symbol][img2] **Persönliche Einstellungen** &gt; **Einstellungen** aus.
+1. Wählen Sie das ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** aus.
 1. Wählen Sie die Gruppe für die **Anfrage**aus.
 1. Legen Sie im Feld **Anzahl der erweiterten Nachrichten** die Anzahl der Nachrichten fest.
 1. Klicken Sie auf **OK**.

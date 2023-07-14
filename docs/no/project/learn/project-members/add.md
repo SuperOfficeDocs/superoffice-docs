@@ -47,7 +47,7 @@ Hvis du vil at prosjektet skal knyttes til et firma, må du angi minst én prosj
 10. Når du har skrevet inn den nødvendige informasjonen, klikker du på **OK**.
 
 > [!TIP]
-> Du kan merke flere kontaktpersoner på høyre side av vinduet ved å holde nede **CTRL**\- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Funksjon** og i tekstboksen **Kommentar**, vil gjelde for alle de merkede personene.
+> Du kan merke flere kontaktpersoner på høyre side av vinduet ved å holde nede **CTRL**- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Funksjon** og i tekstboksen **Kommentar**, vil gjelde for alle de merkede personene.
 
 ## <a id="from-section-tab" />Legg til prosjektdeltakere og interessenter fra detaljkort
 
@@ -60,7 +60,7 @@ Du kan legge til prosjektdeltakere og interessenter fra personoversiktene i ulik
 2. Velg ønsket person fra listen.
 
     > [!NOTE]
-    > Hvis du vil legge til flere personer som interessenter/prosjektdeltakere, bruker du **Skift** eller **Ctrl** \+ klikk.
+    > Hvis du vil legge til flere personer som interessenter/prosjektdeltakere, bruker du **Skift** eller **Ctrl** + klikk.
 
 3. Høyreklikk på personene, og velg **Legg til i salg** eller **Legg til i prosjekt** på menyen som vises.
 

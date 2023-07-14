@@ -29,7 +29,7 @@ Variabalen zijn er in vele vormen: dat kunnen de voornaam van de klant zijn, hun
 
     ![Voeg variabelen toe aan uw bericht -screenshot][img1]
 
-5. Blijf tekst invoeren en de gewenste variabelen invoegen. Zie [de variabeleverwijzing][2]voor een lijst.
+5. Blijf tekst invoeren en de gewenste variabelen invoegen. Zie [de variabeleverwijzing][2] voor een lijst.
 
 > [!TIP]
 > Voordat u een mailing verzendt, moet u [testen of de klantgegevens correct zijn ingevoegd in het bericht][1].

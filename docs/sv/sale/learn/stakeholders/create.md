@@ -54,7 +54,7 @@ language: sv
 11. Efter att du har registrerat all information som behövs, klickar du på **Spara**.
 
     > [!TIP]
-    > Du kan markera flera företag och/eller kontakter på fönstrets högra sida genom att hålla **CTRL**\- eller **SHIFT**-tangenten nedtryckt medan du markerar dem. Det du sedan anger i fältet **Säljroll** och textrutan **Kommentar** kommer då att gälla för alla markerade företag/kontakter.
+    > Du kan markera flera företag och/eller kontakter på fönstrets högra sida genom att hålla **CTRL**- eller **SHIFT**-tangenten nedtryckt medan du markerar dem. Det du sedan anger i fältet **Säljroll** och textrutan **Kommentar** kommer då att gälla för alla markerade företag/kontakter.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

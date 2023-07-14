@@ -15,7 +15,7 @@ Auf der Ansicht **Berichte** können Sie nur [zuvor definierte Berichte ausführ
 
 Damit Sie in SuperOffice CRM einen [Bericht als Dokument speichern][4] (Typ = Bericht) können, müssen Sie auf die Schaltfläche **Speichern** in der Anzeige **Berichte** klicken.
 
-Sie können neue Berichte in SuperOffice Reporter Studio definieren und in Einstellungen und Verwaltung (**Optionen** &gt; **Berichte**) importieren.
+Sie können neue Berichte in SuperOffice Reporter Studio definieren und in Einstellungen und Verwaltung (**Optionen** > **Berichte**) importieren.
 
 ## Separaten Bericht erstellen
 

@@ -27,9 +27,9 @@ Alternativ i fönstret **Arkiveringsalternativ** i dialogrutan **Alternativ för
 
 ## Skicka som e-post
 
-* Du kan skicka en bokning som ett e-postmeddelande genom att klicka på **Uppgift** &gt; **Skicka som e-post** i dialogrutan **Bokning**. Ett nytt e-postfönster med bokningen öppnas i din e-postklient.
+* Du kan skicka en bokning som ett e-postmeddelande genom att klicka på **Uppgift** > **Skicka som e-post** i dialogrutan **Bokning**. Ett nytt e-postfönster med bokningen öppnas i din e-postklient.
 
-* Du kan skicka ett dokument som ett e-postmeddelande genom att högerklicka på det på detaljkortet **Aktiviteter** i SuperOffice CRM och välja **Skicka som e-post** eller genom att klicka på **Uppgift** &gt; **Skicka som e-post** i fönstret Dokument. Ett nytt e-postfönster med dokumentet öppnas i din e-postklient.
+* Du kan skicka ett dokument som ett e-postmeddelande genom att högerklicka på det på detaljkortet **Aktiviteter** i SuperOffice CRM och välja **Skicka som e-post** eller genom att klicka på **Uppgift** > **Skicka som e-post** i fönstret Dokument. Ett nytt e-postfönster med dokumentet öppnas i din e-postklient.
 
 <!-- Referenced links -->
 [2]: ../index.md

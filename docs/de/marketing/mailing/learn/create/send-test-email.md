@@ -28,7 +28,7 @@ Erstellen Sie eine kleine Selektion, die aus Ihnen und einigen Ihrer Kollegen be
 
 Wenn Sie eine Kampagne testen, ist es wichtig, folgende Punkte zu überprüfen:
 
-* Die Vorlagenvariablen werden mit den Kundendaten ersetzt. Sie sehen zum Beispiel „Hallo John“ und nicht „Hallo **\[\[customer.firstname\]\]**“.
+* Die Vorlagenvariablen werden mit den Kundendaten ersetzt. Sie sehen zum Beispiel "Hallo John" und nicht "Hallo **\[\[customer.firstname\]\]**".
 * Links funktionieren und verweisen auf die richtigen Seiten.
 * Klicks auf Links werden in SuperOffice Marketing erfasst.
 * Das Öffnen der Nachrichten wird in SuperOffice Marketing erfasst.

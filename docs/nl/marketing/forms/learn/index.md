@@ -49,10 +49,10 @@ Er zijn verschillende manieren om formulieren te vinden. Ga naar het tabblad For
 Als u een formulier wilt maken, volgt u deze workflow:
 
 1. [Een nieuw formulier maken][2].
-2. [Formulierantwoord - Stap 1: Instellingen][3] \- er kan automatisch een e-mail worden verzonden naar een indiener wanneer zijn/haar formulier is verwerkt.
-3. [Formulieren publiceren][4] \- gebruik een koppeling of JavaScript om het formulier te publiceren in een nieuwsbrief of op een website of Customer Centre.
-4. [Formulierverzendingen traceren en statistieken weergeven][5] \- geef de responsaantallen in real-time weer.
-5. [Formulierverzendingen verwerken][6] \- werk SuperOffice bij met de verzonden gegevens; dit kan handmatig of automatisch. SuperOffice kan bestaande personen herkennen op basis van e-mailadressen of nieuwe personen en bedrijven maken.
+2. [Formulierantwoord - Stap 1: Instellingen][3] - er kan automatisch een e-mail worden verzonden naar een indiener wanneer zijn/haar formulier is verwerkt.
+3. [Formulieren publiceren][4] - gebruik een koppeling of JavaScript om het formulier te publiceren in een nieuwsbrief of op een website of Customer Centre.
+4. [Formulierverzendingen traceren en statistieken weergeven][5] - geef de responsaantallen in real-time weer.
+5. [Formulierverzendingen verwerken][6] - werk SuperOffice bij met de verzonden gegevens; dit kan handmatig of automatisch. SuperOffice kan bestaande personen herkennen op basis van e-mailadressen of nieuwe personen en bedrijven maken.
 
 ## Dashboards gebruiken om een overzicht te krijgen van formulierverzending
 

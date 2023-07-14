@@ -11,7 +11,7 @@ language: de
 
 # Dokumente hochladen
 
-1. Klicken Sie auf der oberen Leiste auf **Neu** &gt; **Dokument**.
+1. Klicken Sie auf der oberen Leiste auf **Neu** > **Dokument**.
 
 2. Ziehen Sie das Dokument aus dem Windows Explorer in das Dialogfeld **Dokument** und legen Sie es dort ab.
 

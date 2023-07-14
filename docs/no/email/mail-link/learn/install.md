@@ -13,7 +13,7 @@ language: no
 
 # Installere Mail Link eller WebTools
 
-Med WebTools [installerer][4]du:
+Med WebTools [installerer][4] du:
 
 * **Mail Link**: Kobler Outlook til SuperOffice CRM.
 * **Nettleserutvidelser**: Kobler Windows-dokumentene dine til SuperOffice CRM.

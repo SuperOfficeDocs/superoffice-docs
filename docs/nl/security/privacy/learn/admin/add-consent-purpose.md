@@ -28,7 +28,7 @@ Bekijk deze video en ontdek hoe u doeleinden voor het verwerken van persoonsgege
 
     * **Beschrijving**: Voer een korte beschrijving en privacyverklaring voor de klanten in waarin wordt uitgelegd waarom u om hun toestemming vraagt en waarvoor de informatie zal worden gebruikt.
 
-    * **Doel-ID**: Er is automatisch een ID gegenereerd van de naam van het doel, maar u kunt de ID later bewerken. Houd er rekening mee dat sommige ID’s zijn gereserveerd.
+    * **Doel-ID**: Er is automatisch een ID gegenereerd van de naam van het doel, maar u kunt de ID later bewerken. Houd er rekening mee dat sommige ID's zijn gereserveerd.
 
     * **Actief**: Wordt gebruikt om dit doel te activeren en zichtbaar te maken voor gebruikers.
 

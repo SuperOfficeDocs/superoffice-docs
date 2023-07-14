@@ -26,7 +26,7 @@ Om kundcentret är flerspråkigt kan du välja alternativ (till exempel välkoms
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Välj ![ikon][img1] **Kundcenter** &gt; **Konfigurera**. Det finns 2 flikar i fönstret **Kundcenter**: **Stilmall** och **Systemval**. Högst upp på den här sidan finns en länk till en förhandsgranskning av Kundcenter-sidan.
+1. Välj ![ikon][img1] **Kundcenter** > **Konfigurera**. Det finns 2 flikar i fönstret **Kundcenter**: **Stilmall** och **Systemval**. Högst upp på den här sidan finns en länk till en förhandsgranskning av Kundcenter-sidan.
 
 1. På fliken **Stilmall** kan du redigera olika inställningar för hur du vill att kundcentret ska se ut och upplevas: Logotyp, önskad bredd, färger och typsnitt. Förhandsgranskningen uppdateras automatiskt.
 
@@ -60,7 +60,7 @@ Om kundcentret är flerspråkigt kan du välja alternativ (till exempel välkoms
 | Aktivera sidfot | Välj det här alternativet om du vill visa en sidfot längst ned på sidan. Klicka på **Redigera** för att skriva text. |
 | Aktivera chatt | Välj det här alternativet om du vill aktivera chattfönstret i det nedre högra hörnet av sidan. Välj **Alltid** om du vill att chattfönstret ska vara tillgängligt för alla som besöker kundcentret. Annars väljer du **Inloggade kunder** för att kräva att användarna loggar in för att komma åt chattfönstret. |
 | Chattkanal | Välj den chattkanal du vill använda. Om ingen chattkanal väljs kommer chattfönstret inte att vara tillgängligt. |
-| Använd det anpassade formuläret ”Kontakta oss” | Välj det här alternativet om du vill använda ett anpassat formulär i stället för standardformuläret. Välj ett formulär i listan.|
+| Använd det anpassade formuläret "Kontakta oss" | Välj det här alternativet om du vill använda ett anpassat formulär i stället för standardformuläret. Välj ett formulär i listan.|
 
 <!-- Referenced links -->
 [1]: edit.md

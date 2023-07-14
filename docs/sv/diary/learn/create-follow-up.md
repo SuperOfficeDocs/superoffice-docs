@@ -14,7 +14,7 @@ language: sv
 Om du vill skapa händelser i SuperOffice CRM klickar du på knappen **Nytt** i det övre fältet.
 
 > [!TIP]
-> Du kan också lägga till händelser genom att dubbelklicka på en tom rad på detaljkortet **Aktiviteter**. Då öppnas som standard dialogrutan **Bokning**. Du kan ange vilken dialogruta som ska öppnas genom att välja ![ikon][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Funktioner** &gt; **Typ från Aktiviteter**.
+> Du kan också lägga till händelser genom att dubbelklicka på en tom rad på detaljkortet **Aktiviteter**. Då öppnas som standard dialogrutan **Bokning**. Du kan ange vilken dialogruta som ska öppnas genom att välja ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** > **Typ från Aktiviteter**.
 
 ## Skapa händelser i aktivitetslistan
 
@@ -42,7 +42,7 @@ När du öppnar en medarbetares kalender kan du skapa bokningar för denna perso
 4. Dialogrutan **Bokning** öppnas. [Välj vilka deltagare som ska inkluderas][5] om de inte inkluderas automatiskt.
 
     > [!NOTE]
-    > Om du markerade **Deltagare från gruppöversikt** under **Inställningar** läggs alla deltagare på översikten automatiskt till som deltagare i bokningen. Om du vill ändra den här inställningen går du till ![ikon][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
+    > Om du markerade **Deltagare från gruppöversikt** under **Inställningar** läggs alla deltagare på översikten automatiskt till som deltagare i bokningen. Om du vill ändra den här inställningen går du till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
 
 5. [Fyll i nödvändiga uppgifter i fälten.][6]
 

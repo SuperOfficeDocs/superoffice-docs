@@ -17,7 +17,7 @@ Manchmal bietet es sich an, eine Antwortvorlage in verschiedenen Sprachen zur Ve
 
 ## Sprachen zur Antwortvorlage hinzufügen
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Antwortvorlagen** aus.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
 
 2. Wechseln Sie zu dem Ordner, in dem die Antwortvorlage gespeichert ist.
 

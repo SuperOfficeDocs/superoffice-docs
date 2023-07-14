@@ -122,7 +122,7 @@ Den text du anger ser ut så här:
 
 Använder du den nya Dra och släpp-redigeraren eller den tidigare versionen av redigeraren?
 
-I början av 2021 lade SuperOffice till en ny meddelanderedigerare (”Dra och släpp-redigeraren”) för att ersätta den gamla (”Redigerare”). Meddelanderedigeraren används när du skapar e-postutskick och formulärsvar. Du kommer fortfarande att kunna använda den gamla meddelanderedigeraren för att redigera meddelanden och mallar som har skapats i den äldre versionen. Alla nya utskick och mallar använder sig av den nya meddelanderedigeraren.
+I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och släpp-redigeraren") för att ersätta den gamla ("Redigerare"). Meddelanderedigeraren används när du skapar e-postutskick och formulärsvar. Du kommer fortfarande att kunna använda den gamla meddelanderedigeraren för att redigera meddelanden och mallar som har skapats i den äldre versionen. Alla nya utskick och mallar använder sig av den nya meddelanderedigeraren.
 
 ### Redigerare (gammal)
 

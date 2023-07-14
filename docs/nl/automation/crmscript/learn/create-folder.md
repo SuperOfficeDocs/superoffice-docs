@@ -13,7 +13,7 @@ language: nl
 
 # Eigenschappen mappen met macro/script
 
-Via dit scherm kunt u eigenschappen van een nieuwe of bestaande map met macro’s/scripts wijzigen. Deze mappen worden gebruikt voor het ordenen van uw aangepaste scripts en macro’s.
+Via dit scherm kunt u eigenschappen van een nieuwe of bestaande map met macro's/scripts wijzigen. Deze mappen worden gebruikt voor het ordenen van uw aangepaste scripts en macro's.
 
 ## Mappen maken
 
@@ -33,7 +33,7 @@ U kunt zowel de naam van een map wijzigen als de gegevens die u bij het maken er
 
 ## Mappen verwijderen
 
-Wanneer u een map verwijdert, wordt ook alle inhoud (zoals selecties, items in Veelgestelde vragen, antwoordsjablonen, tabellen, scripts, macro’s) verwijderd uit SuperOffice.
+Wanneer u een map verwijdert, wordt ook alle inhoud (zoals selecties, items in Veelgestelde vragen, antwoordsjablonen, tabellen, scripts, macro's) verwijderd uit SuperOffice.
 
 1. Ga naar de gewenste map.
 2. Klik op de naam van de map.

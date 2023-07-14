@@ -36,7 +36,7 @@ Sehen Sie sich dieses Video an und lernen Sie, wie Sie Zwecke für die Verarbeit
 
     * **URL der externen Datenschutzerklärung**: Die URL/der Link zur Webseite für die Datenschutzerklärung.
 
-    * **Genehmigungstext**: Geben Sie den Text ein, auf den die Kunden klicken müssen, um ihre Einwilligung zu geben. Beispiele: „Ich akzeptiere diese Bedingungen“ oder „Ja, ich möchte News und Updates erhalten“.
+    * **Genehmigungstext**: Geben Sie den Text ein, auf den die Kunden klicken müssen, um ihre Einwilligung zu geben. Beispiele: "Ich akzeptiere diese Bedingungen" oder "Ja, ich möchte News und Updates erhalten".
 
     * **Externe Beschreibung in Customer Centre**: Geben Sie den Beschreibungstext für diesen Zweck ein, der in Customer Centre angezeigt wird. Der Text sollte folgendes enthalten:
 

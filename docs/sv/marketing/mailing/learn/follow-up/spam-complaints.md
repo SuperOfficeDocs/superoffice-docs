@@ -36,7 +36,7 @@ Om en mottagare använder Mailgun läggs e-postmeddelanden som rapporteras som s
 Du kan exportera listan för vidare bearbetning.
 
 1. Markera de e-postadresser som du vill exportera.
-2. Välj **Åtgärder** &gt; **Exportera**.
+2. Välj **Åtgärder** > **Exportera**.
 3. Välj ett exportformat. Exportfiltret visas längst ner i din webbläsare. Du hittar den även i mappen Hämtningar.
 
 <!-- Referenced links -->

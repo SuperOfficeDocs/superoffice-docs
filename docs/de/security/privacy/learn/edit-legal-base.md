@@ -26,7 +26,7 @@ Jedes Mal, wenn eine Person in Ihrer SuperOffice CRM-Datenbank erfasst wird, wir
 
 * **Einwilligung**: Sie müssen die Genehmigung einer Person zum Speichern und Verarbeiten ihrer personenbezogenen Daten einholen.
 
-* **Zweck**: Der Grund für das Speichern und Verarbeiten der Daten einer Person. Beispiele: **Verkauf und Service** und \***E-Marketing**. Für jeden Zweck müssen Sie Folgendes dokumentieren:
+* **Zweck**: Der Grund für das Speichern und Verarbeiten der Daten einer Person. Beispiele: **Verkauf und Service** und **E-Marketing**. Für jeden Zweck müssen Sie Folgendes dokumentieren:
 
   * **Rechtsgrundlage**: Die Rechtsgrundlage für das Speichern und Verarbeiten der Daten einer Person.
   * **Nachweis**: Informationen, wie und wo Sie die Einwilligung der Person erhalten haben.

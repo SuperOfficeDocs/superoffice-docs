@@ -23,7 +23,7 @@ Die Registerkarte **Ablaufverfolgung** enthält eine Liste aller verfügbaren Ab
 
 ## Ablaufverfolgungen starten
 
-* Wechseln Sie zu **CRMScript** &gt; **Sitzungen debuggen**, und klicken Sie auf das ![Symbol][img1] **Ablaufverfolgungsskripte starten**, um die Ablaufverfolgung der Skripts in der Liste zu starten.
+* Wechseln Sie zu **CRMScript** > **Sitzungen debuggen**, und klicken Sie auf das ![Symbol][img1] **Ablaufverfolgungsskripte starten**, um die Ablaufverfolgung der Skripts in der Liste zu starten.
 * Öffnen Sie ein Skript oder Makro im **Debugger** und klicken Sie auf ![Symbol][img2] **Skript verfolgen**.
 * Öffnen Sie ein Skript oder Makro auf der Registerkarte **Makros und Skripte** und klicken Sie auf ![Symbol][img2] **Skript verfolgen**.
 

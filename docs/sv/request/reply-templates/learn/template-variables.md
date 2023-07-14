@@ -58,7 +58,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 
 | Variabel | Beskrivning|
 |---|---|
-| Länk för att visa meddelande online | URL för att visa utskicksmeddelandet online i en webbläsare, t.ex. ”Klicka här om meddelandet ser konstigt ut” |
+| Länk för att visa meddelande online | URL för att visa utskicksmeddelandet online i en webbläsare, t.ex. "Klicka här om meddelandet ser konstigt ut" |
 | link.subscription | Länk för att avsluta din prenumeration |
 | link.viewShipmentMessage | Länk för att visa utskicksmeddelandet online |
 
@@ -78,7 +78,7 @@ När du redigerar svarsmallar och utskick kan du infoga mallvariabler genom att 
 | config.panicMail | E-postadressen som felmeddelanden ska skickas till |
 | config.smtpHost | Värdnamn för utgående SMTP |
 | config.smtpPort | Port för utgående SMTP |
-| config.tag | Prefix före ärendenumret i ämnesraden för e-post. Till exempel ”ejTag:” |
+| config.tag | Prefix före ärendenumret i ämnesraden för e-post. Till exempel "ejTag:" |
 | config.uniqueId | Unikt ID för denna installation |
 | config.warning | Sökväg för varningsloggfilerna |
 | config.wwwPath | Systemsökväg för WWW-filer |
@@ -231,11 +231,11 @@ Minska variabel:
 
 Formatera datum:
 
-\[\[FORMAT\-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
+\[\[FORMAT-DATE:"date","YY4 MM2 DD2 HH24:MI2:SS2"\]\]
 
 Formatera tid:
 
-\[\[SEC\-TO\-TIME:"seconds","h:m:s"\]\]
+\[\[SEC-TO-TIME:"seconds","h:m:s"\]\]
 
 <!-- Referenced links -->
 

@@ -13,8 +13,8 @@ language: sv
 
 1. Gör något av följande:
 
-    * Välj **Nytt** &gt; **Samtal** på [toppraden][2].
-    * Klicka på ![ikon][img1] **Uppgift** &gt; **Inled samtal** på ett kontaktkort.
+    * Välj **Nytt** > **Samtal** på [toppraden][2].
+    * Klicka på ![ikon][img1] **Uppgift** > **Inled samtal** på ett kontaktkort.
 
 1. I dialogrutan **Samtal** [lägger du in information om samtalet][1].
 

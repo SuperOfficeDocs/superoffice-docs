@@ -25,7 +25,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 1. Geben Sie in das Feld **Adresse** den Namen ohne @domain.xx ein und drücken Sie die **TAB-Taste**, um die CRM Online-Einstellungen zur E-Mail-Adresse hinzuzufügen.
 
     > [!NOTE]
-    > Der Adresse kann eine freundliche E-Mail-Adresse hinzugefügt werden, indem („Anzeigename“) am Ende der E-Mail-Adresse hinzugefügt wird. Zum Beispiel: <info@company.com> (Customer Ltd.).
+    > Der Adresse kann eine freundliche E-Mail-Adresse hinzugefügt werden, indem ("Anzeigename") am Ende der E-Mail-Adresse hinzugefügt wird. Zum Beispiel: <info@company.com> (Customer Ltd.).
 
 1. Wählen Sie Kategorie und Priorität aus:
 

@@ -94,7 +94,7 @@ Låt kunderna registrera sig för ett eller flera av era nyhetsbrev med detta fo
 
 1. Klicka på **Visa/dölj verktygsfält** ![ikon][img3] och sedan på **Lägg in bekräftelselänk** ![ikon][img4]. Bekräftelselänken infogas i brödtexten.
 
-1. Klicka på bekräftelselänken, välj **Redigera länk** ![ikon][img5] och ändra länktexten till ”Klicka här för att bekräfta din e-postadress”. Länken är giltig i 30 minuter som standard.
+1. Klicka på bekräftelselänken, välj **Redigera länk** ![ikon][img5] och ändra länktexten till "Klicka här för att bekräfta din e-postadress". Länken är giltig i 30 minuter som standard.
 
 1. Klicka på **Använd nu** för att spara formuläret och fortsätta redigera.
 
@@ -145,10 +145,10 @@ I det här exemplet visar vi hur du skapar korta formulär för kunder som vill 
 1. I kategorin **Fält** klickar du på ![ikonen][img1] och lägger till följande fält:
 
     * För- och efternamn. Ta bort fältet **Kontaktnamn**.
-    * **Visningselement** &gt; **Textblock**: Skriv texten i "Hur kan vi kontakta dig?" i fetstil.
+    * **Visningselement** > **Textblock**: Skriv texten i "Hur kan vi kontakta dig?" i fetstil.
     * **Kontakt - mobil**: Ge ett exempel på ett korrekt formaterat telefonnummer för ditt land (inkludera landskoden) i **fältet platshållare** (exempel: + 47 999 88 777).
     * **Kontakt – E-post**
-    * **Formulärposter** &gt; **Textområde**: Ändra namnet på fältet till "Kommentar (valfri)" och skriv "Vad kan vi hjälpa dig med?" i fältet **Platshållare**.
+    * **Formulärposter** > **Textområde**: Ändra namnet på fältet till "Kommentar (valfri)" och skriv "Vad kan vi hjälpa dig med?" i fältet **Platshållare**.
 
 1. Välj fältet **OK**, ändra namnet till "Skicka" och redigera typsnitt/bakgrundsfärg och position.
 

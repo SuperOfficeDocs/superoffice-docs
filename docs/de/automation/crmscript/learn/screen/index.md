@@ -37,7 +37,7 @@ Wenn Sie auf der Registerkarte **Makros und Skripts** auf ein Skript oder Makro 
 | Symbol | Option | Beschreibung |
 |---|---|---|
 | ![Symbol][img1] | Makros und Skripts | Wird verwendet, um zur Liste der Skripte und Makros zurückzukehren. |
-| ![Symbol][img3] | Skript bearbeiten | Wird verwendet, um das [Skript oder Makro][1]zu bearbeiten. |
+| ![Symbol][img3] | Skript bearbeiten | Wird verwendet, um das [Skript oder Makro][1] zu bearbeiten. |
 | ![Symbol][img5] | Skript ausführen | Wird verwendet, um das Skript oder Makro im Standardmodus auszuführen. |
 | ![Symbol][img6] | Skript debuggen | Wird verwendet, um die Ansicht **Debugger** zu öffnen und das ausgewählte Skript oder Makro im Debugmodus auszuführen. Das Skript stoppt in der ersten Zeile. Sie können eine [Sitzung debuggen][2] über die Registerkarte **Sitzungen debuggen** öffnen. |
 | ![Symbol][img4] | Skriptablauf verfolgen | Wird verwendet, um mit der [Ablaufverfolgung des Skripts oder Makros][3] zu starten. |

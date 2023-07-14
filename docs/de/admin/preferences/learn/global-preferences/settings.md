@@ -21,7 +21,7 @@ Gehen Sie im Navigator zum ![Symbol][img2] **Einstellungen** und wählen Sie die
 
 * **Standardstärke der Schriftart**: Gewichtung (Stärke) der Standardschrift im Anfrage-Editor.
 
-* **E-Mail-Benachrichtigung für offene Anfragen senden**: Gibt an, ob E-Mails über offene Anfragen an die Benutzer gesendet werden. Wenn Sie **Benutzer kann wählen** auswählen, können die Benutzer die E-Mail-Benachrichtigung von ![Symbol][img1] **Persönliche Einstellungen** &gt; **Einstellungen** &gt; **Benachrichtigung mittels E-Mail und SMS** aktivieren oder deaktivieren.
+* **E-Mail-Benachrichtigung für offene Anfragen senden**: Gibt an, ob E-Mails über offene Anfragen an die Benutzer gesendet werden. Wenn Sie **Benutzer kann wählen** auswählen, können die Benutzer die E-Mail-Benachrichtigung von ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Benachrichtigung mittels E-Mail und SMS** aktivieren oder deaktivieren.
 
 * **Neuer Status bei Akzeptieren einer Anfrage**: Wählen Sie den zu verwendenden Status aus, wenn ein Benutzer eine Anfrage akzeptiert.
 
@@ -45,7 +45,7 @@ Gehen Sie im Navigator zum ![Symbol][img2] **Einstellungen** und wählen Sie die
 
 * **Grenzwert für Benutzerinaktivität (in Stunden)**: Nach der festgelegten Anzahl von Stunden ohne Benutzeraktivität gilt der Benutzer als inaktiv (standardmäßig 2 Stunden). Dies wird beispielsweise bei der Aufteilung von Anfragen genutzt.
 
-* **Zugriffsstufe ’Extern’ ist voreingestellt**: Wenn diese Option aktiviert ist, wird neuen Anfragen und Nachrichten standardmäßig die Zugriffsstufe Extern zugewiesen. Andernfalls wird die Zugriffsstufe Intern als Standard verwendet.
+* **Zugriffsstufe 'Extern' ist voreingestellt**: Wenn diese Option aktiviert ist, wird neuen Anfragen und Nachrichten standardmäßig die Zugriffsstufe Extern zugewiesen. Andernfalls wird die Zugriffsstufe Intern als Standard verwendet.
 
 * **Keine E-Mail an neue Personen senden**: Wenn Sie diese Option aktivieren, werden keine E-Mails an neu erfasste Personen gesendet.
 

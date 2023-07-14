@@ -123,10 +123,10 @@ De wijzigingen worden automatisch opgeslagen. De projectgids wordt nu weergegeve
 
 Planningsvergadering:
 
-\- Waar moet de vergadering over gaan?
-\- Deelnemers?
-\- Sprekers?
-\- Waar?
+- Waar moet de vergadering over gaan?
+- Deelnemers?
+- Sprekers?
+- Waar?
 
 ## <a id="add-doc-status" />Een document toevoegen voor een status
 

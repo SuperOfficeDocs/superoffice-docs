@@ -19,7 +19,7 @@ Die Ansicht **Tabellen** zeigt die im System konfigurierten Tabellen an. Mithilf
 
 ## Anzeige Tabellen
 
-In den **Tabellen** befindet sich eine Liste der Datenbanktabellen in SuperOffice. Die Datenstrukturen wird in ![Symbol][img1] **Systemdesign** &gt; **Tabellen** konfiguriert, wo Sie den Dateninhalt in den [Tabellen][1] anzeigen und bearbeiten können.
+In den **Tabellen** befindet sich eine Liste der Datenbanktabellen in SuperOffice. Die Datenstrukturen wird in ![Symbol][img1] **Systemdesign** > **Tabellen** konfiguriert, wo Sie den Dateninhalt in den [Tabellen][1] anzeigen und bearbeiten können.
 
 Auf diesem Bild werden sowohl Standardtabellen (die im System vordefiniert sind und die Grundlage für verschiedene Ansichten bilden) als auch Zusatztabellen (selbst erstellte Tabellen mit optionalem Inhalt) angezeigt.
 

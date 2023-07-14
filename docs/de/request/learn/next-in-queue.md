@@ -11,9 +11,9 @@ so.audience.tooltip: SuperOffice Service
 language: de
 ---
 
-# So richten Sie „Nächste Anfrage in der Warteschlange anzeigen“ ein
+# So richten Sie "Nächste Anfrage in der Warteschlange anzeigen" ein
 
-In SuperOffice werden Anfragen normalerweise gemäß einer Zuordnungsmethode den Benutzern zugeordnet. Eine weitere Möglichkeit, Anfragen einzelnen Bearbeitern zuzuordnen, besteht darin, neue Anfragen in **Anfragen** &gt; **Nicht zugeordnete Anfragen** zu stellen. Die Bearbeiter müssen die Anfragen dann manuell akzeptieren.
+In SuperOffice werden Anfragen normalerweise gemäß einer Zuordnungsmethode den Benutzern zugeordnet. Eine weitere Möglichkeit, Anfragen einzelnen Bearbeitern zuzuordnen, besteht darin, neue Anfragen in **Anfragen** > **Nicht zugeordnete Anfragen** zu stellen. Die Bearbeiter müssen die Anfragen dann manuell akzeptieren.
 
 Es kann aber auch ein intelligentes Warteschlangensystem für die Verarbeitung neuer Anfragen eingerichtet werden. Bearbeiter können dann unter **Anfragen** auf **Nächste Anfrage in der Warteschlange anzeigen** klicken, um die nächste Anfrage in der Warteschlange zu akzeptieren. Anfragen in der Warteschlange werden je nach [Kategorie][2] gefiltert, damit Benutzern nur Anfragen zugeordnet werden, die Kategorien angehören, bei denen sie Mitglied sind.
 
@@ -34,17 +34,17 @@ Die folgenden Faktoren entscheiden darüber, welche Anfragen ein Bearbeiter aus 
 * Die Anfragen müssen eine Kategorie aufweisen, in der der Bearbeiter Mitglied ist.
 * Der Eigentümer der Anfrage muss **Nicht zugeordnet** sein.
 
-## Neuen Anfragestatus „in Warteschlange“ erstellen
+## Neuen Anfragestatus "in Warteschlange" erstellen
 
 Zuerst werden wir einen neuen Anfragestatus erstellen: **In Warteschlange**. Neuen Anfragen sollte automatisch dieser Anfragestatus zugewiesen werden.
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Wählen Sie **Anfragen** &gt; **Anfragestatus** aus.
+1. Wählen Sie **Anfragen** > **Anfragestatus** aus.
 
 1. Klicken Sie auf die Schaltfläche **Hinzufügen**.
 
-1. Geben Sie in das Feld **Name** einen aussagekräftigen Namen für den Anfragestatus ein. Zum Beispiel „In Warteschlange“.
+1. Geben Sie in das Feld **Name** einen aussagekräftigen Namen für den Anfragestatus ein. Zum Beispiel "In Warteschlange".
 
 1. Wählen Sie im Listenfeld **Interner Status** **Offen**.
 
@@ -68,13 +68,13 @@ Der neue Anfragestatus wird in der Liste angezeigt und die Spalten **Standard** 
 Jetzt müssen Sie sicherstellen, dass Sie ein Mitglied der Kategorie oder Kategorien sind, die Sie verwalten werden. Zudem muss angegeben werden, dass Anfragen, die diesen Kategorien angehören, nicht entsprechend der Zuordnungsmethode zugeordnet werden sollen.
 
 > [!NOTE]
-> Mitgliedschaft in Kategorien kann auch auf Gruppenebene definiert werden. In Einstellungen und Verwaltung (**Benutzer** &gt; **Benutzergruppen**) können Sie Kategorien für die unterschiedlichen Benutzergruppen angeben.
+> Mitgliedschaft in Kategorien kann auch auf Gruppenebene definiert werden. In Einstellungen und Verwaltung (**Benutzer** > **Benutzergruppen**) können Sie Kategorien für die unterschiedlichen Benutzergruppen angeben.
 
 **Schritte:**
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Wählen Sie **Anfragen** &gt; **Kategorien** aus.
+1. Wählen Sie **Anfragen** > **Kategorien** aus.
 
 1. Klicken Sie auf den Namen der gewünschten Kategorie. Sie gelangen zur Ansicht **Eigenschaften der Kategorie**.
 
@@ -97,7 +97,7 @@ Wenn Sie eine Anfrage aus der Warteschlange abgefragt haben, muss der Status von
 
 ## Stellen Sie sicher, dass die Warteschlange funktioniert
 
-Erstellen Sie eine neue Anfrage, stellen Sie **Eigentümer** auf **Nicht zugeordnet**, wählen Sie die Kategorie, bei der Sie Mitglied sind und stellen Sie **Status** auf **In Warteschlange**. Klicken Sie dann versuchsweise auf **Anfragen** &gt; **Nächste Anfrage in der Warteschlange anzeigen**.
+Erstellen Sie eine neue Anfrage, stellen Sie **Eigentümer** auf **Nicht zugeordnet**, wählen Sie die Kategorie, bei der Sie Mitglied sind und stellen Sie **Status** auf **In Warteschlange**. Klicken Sie dann versuchsweise auf **Anfragen** > **Nächste Anfrage in der Warteschlange anzeigen**.
 
 <!-- Referenced links -->
 [2]: category/index.md

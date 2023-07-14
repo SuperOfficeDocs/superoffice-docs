@@ -13,9 +13,9 @@ language: sv
 
 # Skapa e-postadress
 
-När du registrerar e-postadresser under **Kunskapsbas** &gt; **E-postadresser** blir adresserna tillgängliga på de flesta ställen där du skickar e-post, t.ex. i fönstren **Nytt ärende** och **Lägg till meddelande**. Ärendehanteringen blir därigenom snabbare.
+När du registrerar e-postadresser under **Kunskapsbas** > **E-postadresser** blir adresserna tillgängliga på de flesta ställen där du skickar e-post, t.ex. i fönstren **Nytt ärende** och **Lägg till meddelande**. Ärendehanteringen blir därigenom snabbare.
 
-1. Gå till ![ikon][img2] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **E-postadresser**.
+1. Gå till ![ikon][img2] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **E-postadresser**.
 
 1. Gå till mappen som du vill placera e-postadressen i. Om den inte finns än kan du [skapa en ny mapp][1].
 

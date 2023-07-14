@@ -96,7 +96,7 @@ Hvis du vil redigere et eksisterende arkiv, skal du markere det og redigere de t
 
 ## Fjern et arkiv
 
-1. Vælg arkivet (eller en anden sektionsfane), og klik på fanen **Opgave** &gt; **Fjern**.
+1. Vælg arkivet (eller en anden sektionsfane), og klik på fanen **Opgave** > **Fjern**.
 
 1. Klik på **OK** i den dialogboks, der vises. Fanen fjernes (skjult, men ikke slettet).
 

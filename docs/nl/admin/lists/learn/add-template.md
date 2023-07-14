@@ -95,7 +95,7 @@ Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 
 ## Aanverwant
 
-* [Hoe kan ik documentsjablonen uploaden en gebruiken?][3] \- Veelgestelde vragen
+* [Hoe kan ik documentsjablonen uploaden en gebruiken?][3] - Veelgestelde vragen
 * [Bestaande sjabloon vervangen][1]
 
 <!-- Referenced links -->

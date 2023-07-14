@@ -70,7 +70,7 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 
 * **Bewertung**: Ein Feld, in dem Kunden beispielsweise den erhaltenen Service mit verschiedenen Bewertungstypen (Sterne, Würfel, Skala von 1 bis 10 usw.) bewerten können.
 
-* **Google reCAPTCHA**: Die [reCAPTCHA-Funktion][1] (Kontrollkästchen „Ich bin kein Roboter“) ist ein kostenloser Google-Dienst, der sicherstellt, dass nur echte Benutzer Web-Formulare übermitteln können. Dadurch wird verhindert, dass Spam und automatisierte Bots Ihre Datensammlung sabotieren können.
+* **Google reCAPTCHA**: Die [reCAPTCHA-Funktion][1] (Kontrollkästchen "Ich bin kein Roboter") ist ein kostenloser Google-Dienst, der sicherstellt, dass nur echte Benutzer Web-Formulare übermitteln können. Dadurch wird verhindert, dass Spam und automatisierte Bots Ihre Datensammlung sabotieren können.
 
 ## Ansichtselemente
 

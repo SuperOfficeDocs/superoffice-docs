@@ -126,7 +126,7 @@ Lägg till fler flika för ytterligare fält, eller ta bort irrelevanta flikar.
 
 **För att ta bort en flik:**
 
-1. Markera fliken och klicka på **Uppgift** &gt; **Ta bort**.
+1. Markera fliken och klicka på **Uppgift** > **Ta bort**.
 2. Klicka på **OK** i dialogrutan som visas.
 
 **Så här lägger du till en ny flik:**

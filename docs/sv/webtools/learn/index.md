@@ -25,13 +25,13 @@ WebTools består av ett e-postplugin och ett dokumentplugin:
 
 Du kommer automatiskt att bli ombedd att uppgradera eller installera SuperOffice Web Tools när du loggar in på SuperOffice CRM via din webbläsare för första gången på din dator.
 
-Om detta välkomstfönster inte visas, eller om du vill ladda ned det på nytt, kan du starta guiden för nedladdning av SuperOffice Web Tools manuellt ( ![ikon][img1]) **Huvudmeny** &gt; **Hämta** &gt; **SuperOffice WebTools**.
+Om detta välkomstfönster inte visas, eller om du vill ladda ned det på nytt, kan du starta guiden för nedladdning av SuperOffice Web Tools manuellt ( ![ikon][img1]) **Huvudmeny** > **Hämta** > **SuperOffice WebTools**.
 
 **Uppgifter:**
 
 * [Koppla dina Microsoft-dokument till SuperOffice CRM][2]
-* [Ladda ner och installera WebTools][1] \- supportsida
-* [Vad ska jag göra när SuperOffice-arkiveringsknappen har försvunnit från Outlook?][3] \- FAQ
+* [Ladda ner och installera WebTools][1] - supportsida
+* [Vad ska jag göra när SuperOffice-arkiveringsknappen har försvunnit från Outlook?][3] - FAQ
 
 ## Mac OS
 
@@ -43,7 +43,7 @@ Installationen av WebTools för Mac möjliggör en integration mellan Microsoft 
 ## Relaterat innehåll
 
 * [Vad är SuperOffice WebTools och hur fungerar det?][6] – Vanliga frågor
-* [Så här använder du inkorgen i SuperOffice][7] \- FAQ
+* [Så här använder du inkorgen i SuperOffice][7] - FAQ
 * [Koppla e-post, dokument och kalender][8]
 * [Spara ett e-postmeddelande i SuperOffice CRM][4]
 * [Skapa ett dokument i SuperOffice CRM][5]

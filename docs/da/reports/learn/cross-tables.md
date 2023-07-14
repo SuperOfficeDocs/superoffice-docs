@@ -45,8 +45,8 @@ Sådan får du vist en krydstabelrapport (. Dcube-fil), skal du installere **Cro
 
 1. Når du er færdig med at redigere indholdet i krydstabellen, kan du gøre en af følgende:
 
-    * Vælg **Filer** &gt; **Forhåndsvisning** for at forhåndsvise rapporten.
-    * Vælg **Filer** &gt; **Udskrift** for at udskrive rapporten.
+    * Vælg **Filer** > **Forhåndsvisning** for at forhåndsvise rapporten.
+    * Vælg **Filer** > **Udskrift** for at udskrive rapporten.
     * Klik på **Eksporter** for at gemme rapporten i Excel-format.
 
 1. Klik på **OK** for at lukke programmet til visning af krydstabeller.

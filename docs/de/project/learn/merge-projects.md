@@ -24,7 +24,7 @@ Wenn Sie über zwei nahezu identische Projekte verfügen, können Sie diese eins
     > [!TIP]
     > Klicken Sie auf das ![Symbol][img3], um die Projekte **Von** und **Bis** zu tauschen.
 
-4. Wählen Sie die Option **Leere Felder in \[target project\] durch Daten aus \[source project\]ersetzen**, um leere Felder des Zielprojekts mit Daten des Quellprojekts zu aktualisieren.
+4. Wählen Sie die Option **Leere Felder in \[target project\] durch Daten aus \[source project\] ersetzen**, um leere Felder des Zielprojekts mit Daten des Quellprojekts zu aktualisieren.
 
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
 

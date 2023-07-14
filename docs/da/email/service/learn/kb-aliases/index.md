@@ -17,7 +17,7 @@ Du kan oprette en liste over e-mail-adresser, som du ofte har brug for, men som 
 
 ## E-mailadresser
 
-Hvis du vil have oplysninger om de registrerede e-mailadresser, skal du gå til ![ikonet][img1] **Hovedmenu** i øverste bjælke og vælge **Knowledge base** &gt; **E-mail-adresser**. Du kommer til skærmbilledet **E-mailadresser**, som indeholder e-mailadresser i en mappestruktur, som du selv kan oprette.
+Hvis du vil have oplysninger om de registrerede e-mailadresser, skal du gå til ![ikonet][img1] **Hovedmenu** i øverste bjælke og vælge **Knowledge base** > **E-mail-adresser**. Du kommer til skærmbilledet **E-mailadresser**, som indeholder e-mailadresser i en mappestruktur, som du selv kan oprette.
 
 * Hvis du vil **oprette** en ny e-mailadresse, skal du se [Oprettelse af e-mailadresser][2].
 * For at **redigere** en eksisterende e-mailadresse skal du klikke på navnet i listen.

@@ -31,9 +31,9 @@ U kunt ook klikken op ![pictogram][img1] **Traceringsscripts starten** om de[tr
 
 ## Foutopsporing
 
-Met het hulpprogramma voor foutopsporing kunt u gemakkelijk de fouten in uw scripts en macro’s zoeken en deze verhelpen. U kunt de fouten in uw scripts en macro’s opsporen in een productieomgeving, zonder de andere gebruikers van SuperOffice te hinderen. U kunt op deze manier real-time uw scripts en macro’s onderzoeken tijdens de uitvoering ervan. U kunt de uitvoering van uw script doorlopen, gebruikmaken van onderbrekingspunten en de variabele waarden weergeven.
+Met het hulpprogramma voor foutopsporing kunt u gemakkelijk de fouten in uw scripts en macro's zoeken en deze verhelpen. U kunt de fouten in uw scripts en macro's opsporen in een productieomgeving, zonder de andere gebruikers van SuperOffice te hinderen. U kunt op deze manier real-time uw scripts en macro's onderzoeken tijdens de uitvoering ervan. U kunt de uitvoering van uw script doorlopen, gebruikmaken van onderbrekingspunten en de variabele waarden weergeven.
 
-U kunt de fouten in een script of macro opsporen door een script of macro te openen in het tabblad **Macro’s en scripts** en te klikken op ![pictogram][img4] **Fouten opsporen in script**.
+U kunt de fouten in een script of macro opsporen door een script of macro te openen in het tabblad **Macro's en scripts** en te klikken op ![pictogram][img4] **Fouten opsporen in script**.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 

@@ -17,4 +17,4 @@ En skjermvelger er et skript som kan utføre en omdirigering til et annet bilde 
 
 ## Egenskaper for skjermvelger
 
-Her kan du legge til et skript som vil forårsake en omdirigering til et annet bilde ved å kjøre funksjonen CRMScript "setVariable("url", myUrl)”.
+Her kan du legge til et skript som vil forårsake en omdirigering til et annet bilde ved å kjøre funksjonen CRMScript "setVariable("url", myUrl)".

@@ -30,7 +30,7 @@ Att anpassa prislistor hjälper dina säljare att använda rätt prisinformation
     * **Namn på prislista**: Ge prislistan ett beskrivande namn för att lättare kunna skilja den från andra prislistor.
 
     > [!NOTE]
-    > Du kan inte ändra valutan när du har skapat prislistan. Om du vill aktivera valuta, gå till **Inställningar** &gt; **System** &gt; **Aktivera användning av valuta**.
+    > Du kan inte ändra valutan när du har skapat prislistan. Om du vill aktivera valuta, gå till **Inställningar** > **System** > **Aktivera användning av valuta**.
 
     * **Beskrivning**: Skriv in en beskrivning av prislistan.
 

@@ -30,7 +30,7 @@ Het aanpassen van prijslijsten helpt uw verkopers de juiste prijsdetails te gebr
     * **Naam prijslijst**: geef de prijslijst een beschrijvende naam om deze te onderscheiden van andere prijslijsten.
 
     > [!NOTE]
-    > U kunt de valuta niet wijzigen nadat u de prijslijst hebt gemaakt. Om valuta in te schakelen, gaat u naar **Voorkeuren** &gt; **Systeem** &gt; **Gebruik van valuta inschakelen**.
+    > U kunt de valuta niet wijzigen nadat u de prijslijst hebt gemaakt. Om valuta in te schakelen, gaat u naar **Voorkeuren** > **Systeem** > **Gebruik van valuta inschakelen**.
 
     * **Beschrijving**: geef een beschrijving voor de prijslijst.
 

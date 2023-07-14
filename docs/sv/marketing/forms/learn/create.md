@@ -34,7 +34,7 @@ Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa et
 
 1. Välj fliken **Formulärmallar**.
 2. Klicka på **Alla mallar**.
-3. Klicka på ![ikonen][img1]menyknapp bredvid den mall som du vill använda.
+3. Klicka på ![ikonen][img1] menyknapp bredvid den mall som du vill använda.
 4. Välj **Kopiera till nytt formulär**. Mallen öppnas i dialogrutan **Redigera formulär**.
 5. [Aktivera och publicera formuläret][2].
 

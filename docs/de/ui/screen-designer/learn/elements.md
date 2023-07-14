@@ -71,7 +71,7 @@ Schaltflächen funktionieren ähnlich wie Links. Sie können Links zum Nachschla
 
 4. Ersetzen Sie in den Abschnitten **Einstellungen** den Text **Schaltfläche** durch den Namen der neuen Schaltfläche.
 
-5. Sie können hierzu auch [add the button name in other languages[2], indem Sie auf das ![Symbol][img1]klicken.
+5. Sie können hierzu auch [add the button name in other languages][2], indem Sie auf das ![Symbol][img1] klicken.
 
 6. Wählen Sie in der Liste **Aktion** die Aktion aus, die beim Klicken auf die Schaltfläche ausgeführt werden soll:
 

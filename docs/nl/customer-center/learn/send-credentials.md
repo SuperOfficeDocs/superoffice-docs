@@ -24,7 +24,7 @@ Een persoon die toegang moet kunnen hebben tot een klantencentrum heeft een gebr
 5. Klik op **OK**. De e-mail wordt verzonden.
 
 > [!TIP]
-> de inhoud van het bericht wordt opgehaald via een geïnstalleerde systeemsjabloon. Deze staan bij **Kennisdatabase** &gt; **Antwoordsjablonen**.
+> de inhoud van het bericht wordt opgehaald via een geïnstalleerde systeemsjabloon. Deze staan bij **Kennisdatabase** > **Antwoordsjablonen**.
 
 <!-- Referenced links -->
 

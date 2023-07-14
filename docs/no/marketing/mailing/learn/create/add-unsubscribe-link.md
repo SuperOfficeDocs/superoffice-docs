@@ -25,7 +25,7 @@ Du bestemmer hvor denne avmeldingskoblingen vises og ordlyden i den, samt hva so
     eller
     Gå til **Blokker**-delen, og klikk og dra en bunntekst til bunnen av meldingen.
 
-2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel ”Klikk her for å avslutte abonnementet” eller “Klikk her for å administrere abonnementene dine”.
+2. Skriv inn og velg teksten som mottakeren skal klikke på, for eksempel "Klikk her for å avslutte abonnementet" eller "Klikk her for å administrere abonnementene dine".
 
 3. Klikk på knappen **Skriv inn/rediger kobling** (![ikon][img3]) på verktøylinjen.
 

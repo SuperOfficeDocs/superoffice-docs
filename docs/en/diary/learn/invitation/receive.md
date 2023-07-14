@@ -15,7 +15,7 @@ language: en
 
 Participants who are invited to a follow-up will receive a notification on the Top bar. Click the **Notifications** icon to view the invitations(s).
 
-![ Receive invitations -screenshot][img2]
+![Receive invitations -screenshot][img2]
 
 The [The Dialog for follow-ups][1] is divided into two:
 

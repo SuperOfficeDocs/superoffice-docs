@@ -30,7 +30,7 @@ Die Anpassung von Preislisten hilft Ihren Verkaufsmitarbeitern, die richtigen Pr
     * **Name der Preisliste**: Geben Sie der Preisliste einen aussagekräftigen Namen, um die Unterscheidung von anderen Preislisten zu erleichtern.
 
     > [!NOTE]
-    > Sie können die Währung nicht mehr ändern, nachdem Sie die Preisliste erstellt haben. Um die Währung zu aktivieren, müssen Sie zu **Einstellungen** &gt; **System** &gt; **Unterschiedliche Währungen zulassen** gehen.
+    > Sie können die Währung nicht mehr ändern, nachdem Sie die Preisliste erstellt haben. Um die Währung zu aktivieren, müssen Sie zu **Einstellungen** > **System** > **Unterschiedliche Währungen zulassen** gehen.
 
     * **Beschreibung**: Geben Sie eine Beschreibung der Preisliste ein.
 

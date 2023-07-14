@@ -20,7 +20,7 @@ U kunt de historielijst op diverse manieren gebruiken:
 
 ## De historielijst in de navigator gebruiken
 
-1. Klik op het woord **Bedrijf**, **Persoon**, **Verkoop**, **Project** of **Selectie** in de navigator (links in het venster). Boven in het venster wordt een leeg veld weergegeven (dat wordt gebruikt voor Snel zoeken). De historielijst ![pictogram][img2]wordt onder weergegeven.
+1. Klik op het woord **Bedrijf**, **Persoon**, **Verkoop**, **Project** of **Selectie** in de navigator (links in het venster). Boven in het venster wordt een leeg veld weergegeven (dat wordt gebruikt voor Snel zoeken). De historielijst ![pictogram][img2] wordt onder weergegeven.
 2. Klik op het bedrijf, de persoon, de verkoop, het project of de selectie die u wilt weergeven.
 
 > [!TIP]

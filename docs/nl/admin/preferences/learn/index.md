@@ -15,7 +15,7 @@ language: nl
 
 In het scherm Voorkeuren kunt u voorkeuren instellen voor het hele systeem (globaal), één database, één gebruikersgroep of een individuele gebruiker. Voorkeuren die alleen op algemeen (systeem)niveau kunnen worden ingesteld, zijn te vinden in het tabblad **[Algemene voorkeuren][1]**.
 
-Gebruikers kunnen de instellingen van [individuele voorkeuren][4] bewerken om ze voor eigen gebruik aan te passen door naar **Persoonlijke instellingen** &gt; **Voorkeuren** in de bovenste balk te gaan. De voorkeuren die beschikbaar zijn voor de gebruiker, zijn afhankelijk van hetgeen is opgegeven in Instellingen en onderhoud.
+Gebruikers kunnen de instellingen van [individuele voorkeuren][4] bewerken om ze voor eigen gebruik aan te passen door naar **Persoonlijke instellingen** > **Voorkeuren** in de bovenste balk te gaan. De voorkeuren die beschikbaar zijn voor de gebruiker, zijn afhankelijk van hetgeen is opgegeven in Instellingen en onderhoud.
 
 Daarnaast kunt u videovergaderingen configureren op het tabblad [Videovergaderingen][8] en de documentbibliotheek op het tabblad [Documentbibliotheek][9].
 

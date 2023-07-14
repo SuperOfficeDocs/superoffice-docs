@@ -14,7 +14,7 @@ language: de
 Schauen wir uns zwei benutzerdefinierte Formulare an, die für Ihre Firma relevant sein könnten:
 
 * [Anmeldung zum Newsletter](#newsletter-sign-up): Lassen Sie Ihre Kunden sich für einen oder mehrere Ihrer Newsletter anmelden.
-* [Kontaktieren](#contact-me): Mit einem „Kontaktieren“-Formular können Sie einen weiteren Kommunikationskanal für Ihre Kunden oder Interessenten öffnen. Mit diesem Formular können Sie Supportanfragen oder Leads für Ihr Vertriebsteam generieren.
+* [Kontaktieren](#contact-me): Mit einem "Kontaktieren"-Formular können Sie einen weiteren Kommunikationskanal für Ihre Kunden oder Interessenten öffnen. Mit diesem Formular können Sie Supportanfragen oder Leads für Ihr Vertriebsteam generieren.
 
 In diesem Beispiel wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfassende Anweisungen unter [Ein neues Formular erstellen][1].
 
@@ -29,13 +29,13 @@ Der Link ist standardmäßig 30 Minuten lang gültig.
 
 Mit diesem Formular können sich Ihre Kunden für einen oder mehrere Newsletter anmelden. Der Anmeldeprozess umfasst auch doppeltes Opt-In, um fehlerhafte oder gefälschte Abonnements zu eliminieren.
 
-1. Öffnen Sie SuperOffice CRM und erstellen Sie eine statische Selektion von Firmen/Personen mit der Bezeichnung „Newsletter-Abonnenten (Formular)“. Wir verwenden diese Selektion weiter hinten in diesem Leitfaden.
+1. Öffnen Sie SuperOffice CRM und erstellen Sie eine statische Selektion von Firmen/Personen mit der Bezeichnung "Newsletter-Abonnenten (Formular)". Wir verwenden diese Selektion weiter hinten in diesem Leitfaden.
 
 1. Öffnen Sie SuperOffice Marketing und gehen Sie zur Registerkarte **Formulare**.
 
 1. Wählen Sie unter **Neu erstellen** auf der rechten Seite der Ansicht die Option **Formular**. Daraufhin wird die Ansicht **Formular bearbeiten** angezeigt.
 
-1. Geben Sie „Anmeldung zum Newsletter“ in das Feld **Formularname** ein.
+1. Geben Sie "Anmeldung zum Newsletter" in das Feld **Formularname** ein.
 
 1. Füllen Sie die betreffenden Optionen/Felder in der Kategorie **Eigenschaften** aus. Aktivieren Sie KEINE Optionen unter **Formular automatisch deaktivieren**.
 
@@ -48,11 +48,11 @@ Mit diesem Formular können sich Ihre Kunden für einen oder mehrere Newsletter 
     * Person - Abonnement
         * Wählen Sie einen oder mehrere Newsletter aus, die verfügbar sein sollen.
         * Stellen Sie das Feld auf **Obligatorisch** ein.
-        * Ändern Sie den Namen des Feldes in „Abonnements auswählen“.
+        * Ändern Sie den Namen des Feldes in "Abonnements auswählen".
 
-1. Wählen Sie das Feld **OK**, ändern Sie den Namen in „Übermitteln“ und bearbeiten Sie Vorder-/Hintergrundfarbe und Position.
+1. Wählen Sie das Feld **OK**, ändern Sie den Namen in "Übermitteln" und bearbeiten Sie Vorder-/Hintergrundfarbe und Position.
 
-1. Bearbeiten Sie nach Bedarf die Namen der anderen Felder. **Tipp**: Entfernen Sie „Person -“.
+1. Bearbeiten Sie nach Bedarf die Namen der anderen Felder. **Tipp**: Entfernen Sie "Person -".
 
 1. Klicken Sie auf ![Symbol][img2] oben in einem Feld und ziehen Sie es an die gewünschte Position auf dem Formular. Die Felder sollten eine logische Reihenfolge aufweisen.
 
@@ -94,11 +94,11 @@ Mit diesem Formular können sich Ihre Kunden für einen oder mehrere Newsletter 
 
 1. Klicken Sie auf **Symbolleiste ein-/ausblenden** ![Symbol][img3] und dann auf **Bestätigungs-Link einfügen** ![Symbol][img4]. Der Bestätigungs-Link wird in den Text eingefügt.
 
-1. Klicken Sie auf den Bestätigungs-Link, wählen Sie **Link bearbeiten** ![Symbol][img5] und ändern Sie den Link-Text in „Zum Bestätigen der E-Mail-Adresse hier klicken“. Der Link ist standardmäßig 30 Minuten lang gültig.
+1. Klicken Sie auf den Bestätigungs-Link, wählen Sie **Link bearbeiten** ![Symbol][img5] und ändern Sie den Link-Text in "Zum Bestätigen der E-Mail-Adresse hier klicken". Der Link ist standardmäßig 30 Minuten lang gültig.
 
 1. Klicken Sie auf **Aktivieren**, um das Formular zu speichern und die Bearbeitung fortzusetzen.
 
-1. In der Kategorie **Danke-Seite** können Sie den Kunden auf eine Webseite weiterleiten oder eine Nachricht anzeigen (z. B.: „Vielen Dank für das Abonnement“). Diese wird angezeigt, nachdem der Kunde seine E-Mail-Adresse bestätigt hat.
+1. In der Kategorie **Danke-Seite** können Sie den Kunden auf eine Webseite weiterleiten oder eine Nachricht anzeigen (z. B.: "Vielen Dank für das Abonnement"). Diese wird angezeigt, nachdem der Kunde seine E-Mail-Adresse bestätigt hat.
 
 1. Klicken Sie auf **Aktivieren**, um das Formular zu speichern und die Bearbeitung fortzusetzen.
 
@@ -130,7 +130,7 @@ Mit diesem Formular können sich Ihre Kunden für einen oder mehrere Newsletter 
 
 ## <a id="contact-me" />Kontakt
 
-Stellen Sie ein „Kontaktieren“-Formular auf die Webseiten Ihrer Firma, um einen einfachen Kommunikationskanal für bestehende oder potenzielle Kunden bereitzustellen.
+Stellen Sie ein "Kontaktieren"-Formular auf die Webseiten Ihrer Firma, um einen einfachen Kommunikationskanal für bestehende oder potenzielle Kunden bereitzustellen.
 
 In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erstellen können, die sich an einen Supportmitarbeiter wenden wollen. Die Formularübermittlung löst eine neue Anfrage für Ihre Supportabteilung aus.
 
@@ -138,21 +138,21 @@ In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erst
 
 1. Wählen Sie unter **Neu erstellen** auf der rechten Seite der Ansicht die Option **Formular**. Daraufhin wird die Ansicht **Formular bearbeiten** angezeigt.
 
-1. Geben Sie „Kontaktieren (Support)“ in das Feld **Formularname** ein.
+1. Geben Sie "Kontaktieren (Support)" in das Feld **Formularname** ein.
 
 1. Füllen Sie die betreffenden Optionen/Felder in der Kategorie **Eigenschaften** aus. Aktivieren Sie KEINE Optionen unter **Formular automatisch deaktivieren**.
 
 1. Klicken Sie in der Kategorie **Felder** auf ![Symbol][img1] und fügen Sie die folgenden Felder hinzu:
 
     * Vor- und Nachname. Entfernen Sie das Feld **Person - Name**.
-    * **Ansichtselemente** &gt; **Textblock**: Geben Sie „Wie können wir Sie kontaktieren?“ in Fettdruck ein.
+    * **Ansichtselemente** > **Textblock**: Geben Sie "Wie können wir Sie kontaktieren?" in Fettdruck ein.
     * **Person - Mobiltelefon**: Geben Sie in das Feld **Platzhalter** ein Beispiel für eine korrekt formatierte Telefonnummer für Ihr Land (einschließlich Ländervorwahl) ein (Beispiel: +49 999 88 777).
     * **Person - Email**
-    * **Formularelemente** &gt; **Textbereich**: Ändern Sie den Namen des Feldes in „Kommentar (optional)“ und geben Sie „Wie können wir Ihnen weiterhelfen?“ in das Feld **Platzhalter** ein.
+    * **Formularelemente** > **Textbereich**: Ändern Sie den Namen des Feldes in "Kommentar (optional)" und geben Sie "Wie können wir Ihnen weiterhelfen?" in das Feld **Platzhalter** ein.
 
-1. Wählen Sie das Feld **OK**, ändern Sie den Namen in „Übermitteln“ und bearbeiten Sie Vorder-/Hintergrundfarbe und Position.
+1. Wählen Sie das Feld **OK**, ändern Sie den Namen in "Übermitteln" und bearbeiten Sie Vorder-/Hintergrundfarbe und Position.
 
-1. Bearbeiten Sie nach Bedarf die Namen der anderen Felder. **Tipp**: Entfernen Sie „Person -“.
+1. Bearbeiten Sie nach Bedarf die Namen der anderen Felder. **Tipp**: Entfernen Sie "Person -".
 
 1. Klicken Sie auf ![Symbol][img2] oben in einem Feld und ziehen Sie es an die gewünschte Position auf dem Formular. Die Felder sollten eine logische Reihenfolge aufweisen.
 
@@ -164,7 +164,7 @@ In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erst
 
 1. Optional: Um das doppelte Opt-in aktivieren, müssen Sie auch das Feld **E-Mail** auf **Obligatorisch** setzen.
 
-1. In der Kategorie **Danke-Seite** können Sie den Kunden auf eine Webseite weiterleiten oder eine Nachricht anzeigen (z. B.: „Vielen Dank, dass Sie uns kontaktiert haben. Wir melden uns in Kürze bei Ihnen.“). Diese wird angezeigt, nachdem der Kunde das Formular übermittelt hat.
+1. In der Kategorie **Danke-Seite** können Sie den Kunden auf eine Webseite weiterleiten oder eine Nachricht anzeigen (z. B.: "Vielen Dank, dass Sie uns kontaktiert haben. Wir melden uns in Kürze bei Ihnen."). Diese wird angezeigt, nachdem der Kunde das Formular übermittelt hat.
 
 1. Geben Sie in der Kategorie **Seite für inaktives Formular** eine URL oder eine Nachricht ein. Dies ist wichtig, wenn ein Kunde auf das Formular zugreift, nachdem es auf inaktiv markiert wurde.
 
@@ -172,7 +172,7 @@ In diesem Beispiel wird erläutert, wie Sie ein kurzes Formular für Kunden erst
 
     * Wählen Sie **Anfrage erstellen** und gehen Sie folgendermaßen vor:
         1. Geben Sie einen aussagekräftigen Titel für die Anfragen ein, die mit diesem Formular erzeugt werden.
-        2. Wählen Sie die betreffende Anfragekategorie, beispielsweise „Support“ oder eine Unterkategorie namens „Formularübermittlungen“.
+        2. Wählen Sie die betreffende Anfragekategorie, beispielsweise "Support" oder eine Unterkategorie namens "Formularübermittlungen".
         3. Setzen Sie die Anfragepriorität auf **Mittel**.
 
     * Wählen Sie **Manuell bei unbekanntem Übermittler. Automatisch bei bekanntem Übermittler**: Wenn die im Formular übermittelte E-Mail-Adresse mit einer E-Mail-Adresse in SuperOffice übereinstimmt, wird das übermittelte Formular automatisch verarbeitet. Andernfalls muss es manuell verarbeitet werden.

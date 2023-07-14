@@ -78,7 +78,7 @@ Ur praktisk synvinkel kan SAINT ge en anställd förslag på åtgärder för en 
 
 ![Använd en visuell indikator som ett gråtande barn för att varna om att en kund behöver följas upp -screenshot][img3]
 
-De SAINT-kriterier som genererar de analyser du använder blir automatiskt sökbara ”fält”. Alla användare kan använda dessa fält för att skapa en anpassad lista över åtgärder eller sökningar i SuperOffice Selection.
+De SAINT-kriterier som genererar de analyser du använder blir automatiskt sökbara "fält". Alla användare kan använda dessa fält för att skapa en anpassad lista över åtgärder eller sökningar i SuperOffice Selection.
 
 ## Åtgärd
 

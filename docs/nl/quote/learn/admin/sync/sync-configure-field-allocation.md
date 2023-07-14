@@ -24,7 +24,7 @@ Wanneer u gegevens synchroniseert tussen SuperOffice en ERP-systemen, moet u opg
 
 1. Selecteer het tabblad voor de actor waarvoor u toewijzingen wilt configureren.
 
-1. Vink **Sync ERP \[actor\] met SuperOffice\[entity\]aan**.
+1. Vink **Sync ERP \[actor\] met SuperOffice\[entity\] aan**.
 
 1. In de lijst hieronder selecteert u de synchronisatierichting en aan welk SuperOffice-veld elk ERP-veld moet worden toegewezen (moet worden meegesynchroniseerd). U kunt ook kiezen of de velden moeten worden weergegeven en doorzocht op het tabblad **ERP**.
     De lijst bestaat uit de volgende kolommen:

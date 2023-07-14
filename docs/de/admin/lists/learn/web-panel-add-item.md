@@ -13,7 +13,7 @@ language: de
 
 # Objekte zur Liste GUI - Web-Bildschirm hinzufügen
 
-[!include[Note difference](includes/different-edit-list-item-dialog.md)]v
+[!include[Note difference](includes/different-edit-list-item-dialog.md)]
 
 ## Wie man Felder ausfüllt, wenn es sich bei den Objekten um URL-Adressen handelt
 
@@ -87,7 +87,7 @@ language: de
 
 ## Verwandte Themen
 
-* [Menüpunkt „Aufgabe“ hinzufügen][1]
+* [Menüpunkt "Aufgabe" hinzufügen][1]
 * [Übersetzung hinzufügen][3]
 
 <!-- Referenced links -->

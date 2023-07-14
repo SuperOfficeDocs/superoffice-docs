@@ -17,7 +17,7 @@ U kunt een mapstructuur voor veelgestelde vragen maken, zodat deze logisch worde
 
 ## Mappen maken
 
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**.
+1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 
 1. Klik op de knop **Nieuwe map**. Het scherm **Eigenschappen map Veelgestelde vragen** wordt geopend.
 

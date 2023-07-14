@@ -42,15 +42,15 @@ Among others, the `UserPreference` table contains the `prefsection`, `prefkey`, 
 
 The most interesting column is `prefkey`. It can be split up and defined as 4 parts separated by hyphens:
 
-* **Counter\-** XXXXX\-X-XXXXXXX
+* **Counter-**XXXXX-X-XXXXXXX
 
   The first field part is appropriately named, it keeps count.
 
-* Counter-**XXXXX**\-X-XXXXXXX
+* Counter-**XXXXX**-X-XXXXXXX
 
   Defines what table number column the counter is used. For example, the contact number1 or number2 column. Each entity number column has a unique number that correlates to the column field ID. Mathematically, that is: ((table number \* 256) + column index).
 
-* Counter-XXXXX-**X**\-XXXXXXX
+* Counter-XXXXX-**X**-XXXXXXX
 
   Only used for documents, and defines the template ID. Documents can have the same number allocation for all document templates or can have a different number allocation for each document template.
 

@@ -65,7 +65,7 @@ Du kan endre størrelsen på hovedkortet, sidepanelet og detaljkortene. Hvis du 
 **Trinn:**
 
 1. Plasser musepekeren mellom skjermelementene du vil endre størrelse på.
-2. Klikk på ![icon][img11] eller ![icon][img12]og dra til ønsket størrelse.
+2. Klikk på ![icon][img11] eller ![icon][img12] og dra til ønsket størrelse.
 3. Når elementene har den størrelsen du vil, slipper du museknappen.
 
 > [!NOTE]

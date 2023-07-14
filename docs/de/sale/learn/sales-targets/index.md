@@ -20,7 +20,7 @@ Die Möglichkeit, den Überblick über Ihre Verkaufschancen zu behalten, ist ein
 
 Um genaue Prognosen zu erstellen, müssen Firmen ihre tatsächlichen Verkäufe mit ihren Verkaufszielen vergleichen. Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Jährliche Vertriebsziele können mit monatlichen oder vierteljährlichen Unterteilungen für Ihre Organisation, Gruppen/Teams und Benutzer festgelegt werden. Im Dashboard können Sie benutzerdefinierte Kacheln hinzufügen, um Budgets und tatsächliche Verkäufe im selben Diagramm anzuzeigen.
 
-Alle Benutzer, die ihre Verkaufsleistung messen lassen, können auf den Status und Fortschritt ihres Verkaufsziels zugreifen, indem sie entsprechende [Kacheln im Dashboard][4]einrichten. Auf diese Weise erhalten sie einen sofortigen Live-Überblick über ihre Verkaufsleistung im Vergleich zu den festgelegten Verkaufszielen und können sich auf individuelle und gemeinsame Ziele konzentrieren.
+Alle Benutzer, die ihre Verkaufsleistung messen lassen, können auf den Status und Fortschritt ihres Verkaufsziels zugreifen, indem sie entsprechende [Kacheln im Dashboard][4] einrichten. Auf diese Weise erhalten sie einen sofortigen Live-Überblick über ihre Verkaufsleistung im Vergleich zu den festgelegten Verkaufszielen und können sich auf individuelle und gemeinsame Ziele konzentrieren.
 
 ![Der Zieldialog gibt Ihnen einen Überblick über die Verkaufsziele -screenshot][img6]
 
@@ -36,7 +36,7 @@ Der Zugriff auf Ziele wird von Ihrem Administrator unter Einstellungen und Verwa
 | Benutzergruppenziel | Ziel für die Benutzergruppe (kann von der Summe aller Benutzer abweichen). |
 | Benutzerziel | Ziel für den individuellen Benutzer. |
 | Summe aller Ziele für eine Benutzergruppe (nicht bearbeitbar)) | Zeigt die Summe für alle Benutzer in einer Benutzergruppe an. Dies ist eine Richtlinie, um das Einrichten des Ziels für die gesamte Benutzergruppe zu erleichtern. |
-| Zieltyp | Dimensionen, um ein präziseres Zielmanagement zu ermöglichen. **Alle Verkäufe - Betrag** ist der häufigste Zieltyp. Verwenden Sie zum Beispiel „Verkaufstyp“ oder „Unternehmen - Kategorie“ als Dimension für eine spezifischere Art der Segmentierung und der Erreichung verschiedener Ziele. |
+| Zieltyp | Dimensionen, um ein präziseres Zielmanagement zu ermöglichen. **Alle Verkäufe - Betrag** ist der häufigste Zieltyp. Verwenden Sie zum Beispiel "Verkaufstyp" oder "Unternehmen - Kategorie" als Dimension für eine spezifischere Art der Segmentierung und der Erreichung verschiedener Ziele. |
 | Maßeinheit | Numerische Wert, mit dem das Ziel gemessen werden soll, z.B. Betrag, Anzahl oder Gewinn. |
 | Separate Ziele| Fügt gewünschte Listenelemente hinzu, die von der ausgewählten Liste im Zieltyp abhängt. |
 

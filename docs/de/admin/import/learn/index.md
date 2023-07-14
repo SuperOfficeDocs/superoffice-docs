@@ -34,7 +34,7 @@ Die Importfunktion unterstützt das Importieren von Daten aus den folgenden Quel
 * [ERP][4]. Importiert Akteure (Kunden, Lieferanten und Einzelpersonen) aus einem ERP-System.
 
 > [][7]
-> Um andere Daten wie Projekte, Verkäufer, Währungen, Postleitzahlen und gesetzliche Feiertage importieren zu können, müssen Sie die Funktion > Importieren</smtx-blockquote/> in den Einstellungen für den Windows-Client verwenden.
+> Um andere Daten wie Projekte, Verkäufer, Währungen, Postleitzahlen und gesetzliche Feiertage importieren zu können, müssen Sie die Funktion **Importieren** in den Einstellungen für den Windows-Client verwenden.
 
 ## In leere SuperOffice-Datenbank importieren
 

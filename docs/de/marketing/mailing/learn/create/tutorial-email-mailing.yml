@@ -12,7 +12,7 @@ items:
 - title: Einstellungen
   durationInMinutes: 3
   content: |
-    Sie können Ihre neue Kampagne im Bild Marketing in der Registerkarte Kampagnen erstellen. Klicken Sie auf „Kampagne erstellen“ und Sie gelangen zum ersten Schritt, in dem Sie Ihre Kampagne einstellen können.
+    Sie können Ihre neue Kampagne im Bild Marketing in der Registerkarte Kampagnen erstellen. Klicken Sie auf "Kampagne erstellen" und Sie gelangen zum ersten Schritt, in dem Sie Ihre Kampagne einstellen können.
 
     [!include[Schritt 1 E-Mail](includes/step-1-setup-email.md)]
 

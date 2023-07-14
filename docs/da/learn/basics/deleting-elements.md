@@ -57,7 +57,7 @@ Slettede firmaer og personer gemmes som standard i 14 dage. Efter denne periode 
 
 Du har også mulighed for at gendanne andre brugeres slettede firmaer og personer, du skal blot sætte Vis slettede virksomheder for alle brugere TIL.
 
-1. Vælg ![ikon][img1] **Personlige indstillinger** &gt; **Papirkurv**.
+1. Vælg ![ikon][img1] **Personlige indstillinger** > **Papirkurv**.
 
 2. Vælg fanen **Firma** eller **Person** i dialogboksen. Firmaer og personer, som er blevet slettet af dig, bliver vist.
 
@@ -81,7 +81,7 @@ Du har også mulighed for at gendanne andre brugeres slettede firmaer og persone
 | Annuller | Annullerer sletning af alle markerede elementer. Dialogboksen lukkes, uden at noget slettes. |
 
 * Du kan vælge, at denne dialogboks ikke skal vises, på følgende måde: Marker **Vis ikke denne dialogboks igen** nederst i dialogboksen til sletning.
-* Du kan vælge, at denne dialogboks skal vises igen, på følgende måde: Gå til ![ikon][img1] **Personlige indstillinger** &gt; **Præferencer** &gt; **Funktioner**, og sæt indstillingen **Vis dialogboks for bekræftelse** til **Nej**.
+* Du kan vælge, at denne dialogboks skal vises igen, på følgende måde: Gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner**, og sæt indstillingen **Vis dialogboks for bekræftelse** til **Nej**.
 
 > [!NOTE]
 > Når du sletter et firma, et udvalg eller et projekt, bliver du altid spurgt, om du virkelig vil slette dem, og du kan således ikke vælge **Vis ikke denne dialogboks igen**.

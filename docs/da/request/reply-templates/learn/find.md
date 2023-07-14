@@ -15,7 +15,7 @@ language: da
 
 Hvis der er mange svarskabeloner i en mappe, kan det være svært at finde den ønskede svarskabelon. Det kan være praktisk at søge efter den i disse tilfælde.
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Svarskabeloner**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
 1. Klik på knappen **Søg**. Du kommer til skærmbilledet **Kriterier**.
 1. Indtast den tekst, du vil søge efter, og eventuelt andre kriterier.
 1. Klik på **Søg**.

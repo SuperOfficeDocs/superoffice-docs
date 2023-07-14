@@ -13,7 +13,7 @@ language: nl
 
 [!include[Link to quote template docs](includes/learn-quote-templates.md)]
 
-Het is belangrijk voor het profiel van een organisatie dat e-mails een duidelijke en uniforme vormgeving hebben. Dit betekent dat alle uitgaande e-mails dezelfde lettertypen, opmaak, logo’s, enzovoort moeten hebben. Door e-mailsjablonen speciaal voor uw organisatie te maken, zorgt u ervoor dat de contactpersonen van uw organisatie eenvoudig de correspondentie van uw organisatie herkennen. E-mailsjablonen worden ook gebruikt voor het verzenden van offertes, orderbevestigingen en privacybevestigingen.
+Het is belangrijk voor het profiel van een organisatie dat e-mails een duidelijke en uniforme vormgeving hebben. Dit betekent dat alle uitgaande e-mails dezelfde lettertypen, opmaak, logo's, enzovoort moeten hebben. Door e-mailsjablonen speciaal voor uw organisatie te maken, zorgt u ervoor dat de contactpersonen van uw organisatie eenvoudig de correspondentie van uw organisatie herkennen. E-mailsjablonen worden ook gebruikt voor het verzenden van offertes, orderbevestigingen en privacybevestigingen.
 
 SuperOffice CRM wordt geleverd met een aantal standaardsjablonen die u direct kunt gebruiken nadat u het programma hebt geïnstalleerd.
 

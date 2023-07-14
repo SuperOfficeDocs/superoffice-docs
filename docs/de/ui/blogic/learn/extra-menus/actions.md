@@ -15,7 +15,7 @@ language: de
 
 Um ein Makro zur Schaltfläche **Aufgabe** in der Ansicht Firma, Person, Anfrage oder auf der Registerkarte **Mitteilung** hinzufügen:
 
-1. Wählen Sie ![Symbol][img3] **Systemdesign** &gt; **Zusatzmenüs** aus.
+1. Wählen Sie ![Symbol][img3] **Systemdesign** > **Zusatzmenüs** aus.
 2. Klicken Sie auf **Oberes Menü** um die Unterordner anzuzeigen.
 3. Zeigen Sie mit dem Mauszeiger auf einen dieser Ordner: **Anfrage anzeigen**, **Person anzeigen**, **Firma anzeigen** oder **Nachrichtenmenü**. Klicken Sie dann auf ![Symbol][img1]. Die Ansicht **Eigenschaften des Menüs** wird geöffnet.
 4. Geben Sie den Namen der Schaltfläche im Feld **Bezeichnung** ein. Der Name sollte recht kurz sein, damit er auf die Schaltfläche passt.

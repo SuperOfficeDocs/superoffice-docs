@@ -21,7 +21,7 @@ När kunden har accepterat offerten, kan du generera en order som du skickar iv�
 
 1. Öppna en försäljning och [skapa offerten][1].
 2. [Lägg till produkter i offerten][2].
-3. [Skapa offertdokumentet][3]. Detta är ”brevet” som medföljer listan över produkter som erbjuds.
+3. [Skapa offertdokumentet][3]. Detta är "brevet" som medföljer listan över produkter som erbjuds.
 4. [Skicka offerten][4].
 5. När kunden accepterar offerten, kan du [registrera ordern][5].
 

@@ -19,7 +19,7 @@ Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på 
 
 ## Visa dokument
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **Externa dokument**.
+1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 
 1. Gå till önskad mapp.
 
@@ -32,7 +32,7 @@ Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på 
 > [!NOTE]
 > Du måste skapa det faktiska fysiska dokumentet innan du kan lägga till det i SuperOffice. När du till exempel skapar en prislista kan du t.ex. skriva innehållet i Microsoft Word eller Excel.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **Externa dokument**.
+1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 
 1. Gå till mappen som du vill lägga in dokumentet i. Om den inte finns än, kan du skapa en ny mapp enligt beskrivningen nedan.
 
@@ -58,7 +58,7 @@ Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på 
 
 Vissa dokumenttyper, t.ex. html, txt och det interna ejr-formatet, kan redigeras direkt på skärmen **Egenskaper för dokument**. För andra typer, som PDF, behöver du det program som dokumentet ursprungligen skapades i.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **Externa dokument**.
+1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till den mapp som dokumentet ligger i.
 1. Klicka på ![ikon][img1] **Hämta** för att ladda ner ett dokument.
 1. Redigera och spara dokumentet i det program som dokumentet ursprungligen skapades i.
@@ -70,7 +70,7 @@ Vissa dokumenttyper, t.ex. html, txt och det interna ejr-formatet, kan redigeras
 
 Genom att redigera dokumentegenskaperna kan du t.ex. justera vem som ska ha åtkomst till dokumentet.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **Externa dokument**.
+1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till den mapp som dokumentet ligger i.
 1. Klicka på dokumentets namn för att komma till skärmen **Egenskaper för dokument**.
 1. Gör de ändringar som behövs (se ovan).
@@ -81,7 +81,7 @@ Genom att redigera dokumentegenskaperna kan du t.ex. justera vem som ska ha åtk
 
 ## Ta bort dokument
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **Externa dokument**.
+1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till den mapp som dokumentet ligger i.
 1. Klicka på dokumentets namn för att komma till skärmen **Egenskaper för dokument**.
 1. Klicka på knappen **Ta bort** längst ned på skärmen.
@@ -91,7 +91,7 @@ Genom att redigera dokumentegenskaperna kan du t.ex. justera vem som ska ha åtk
 
 Du kan skapa en mappstruktur för dokument så att de får en logisk struktur och det blir enkelt för andra att hitta information. Du kan skapa undermappar i alla mappar och placera dokumenten i dessa.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **Externa dokument**.
+1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 
 1. Gå till den mapp under vilken du vill skapa en undermapp. Du kan skapa undermappen direkt under mappen **Dokument** eller under någon av dess undermappar.
 
@@ -109,7 +109,7 @@ Du kan skapa en mappstruktur för dokument så att de får en logisk struktur oc
 
 När du tar bort en mapp raderas även alla dokument i mappen från SuperOffice.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** &gt; **Externa dokument**.
+1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till önskad mapp.
 1. Klicka på **Redigera mapp**. Du kommer då till skärmen **Egenskaper för dokumentmapp**.
 1. Klicka på **Ta bort**.

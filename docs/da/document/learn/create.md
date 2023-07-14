@@ -25,7 +25,7 @@ Følg instruktionerne nedenfor, afhængigt af hvordan dokumenter administreres i
 
 ## Oprettelse af nyt dokument med SharePoint-dokumenter
 
-1. Klik på **Ny** &gt; **Dokument** på toplinjen.
+1. Klik på **Ny** > **Dokument** på toplinjen.
 
 2. [Indtast de ønskede oplysninger i felterne][2].
 
@@ -45,7 +45,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 > [!NOTE]
 > Denne procedure beskriver, hvordan du opretter nye dokumenter, hvis du bruger et tekstredigeringsprogram på computeren. Den faktiske proces kan være lidt anderledes, hvis du bruger et online tekstredigeringsværktøj (som Microsoft Office Online) og et dokumentbibliotek (som SharePoint).
 
-1. Klik på **Ny** &gt; **Dokument** på toplinjen.
+1. Klik på **Ny** > **Dokument** på toplinjen.
 
 2. [Indtast de ønskede oplysninger i felterne][2].
 
@@ -55,7 +55,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 5. Vælg en af følgende knapper i dialogboksen **Filoverførsel**:
 
-    * **Aktiv**: Når du klikker på **Åbn**, åbnes dokumentet i tekstbehandlingsprogrammet. Skriv det ønskede indhold i dokumentet, og vælg **Filer** &gt; **Gem** som for at gemme det på det ønskede sted på pc'en.
+    * **Aktiv**: Når du klikker på **Åbn**, åbnes dokumentet i tekstbehandlingsprogrammet. Skriv det ønskede indhold i dokumentet, og vælg **Filer** > **Gem** som for at gemme det på det ønskede sted på pc'en.
 
     * **Gem**: Når du klikker på **Gem**, vises dialogboksen **Gem som**. Angiv du, hvor på pc'en du vil gemme filen, og klikker derefter på Gem for at starte overførslen. Klik på **Luk**, når overførslen er færdig. Åbn Windows Stifinder, og find det dokument, du netop har gemt. Åbn dokumentet, skriv det ønskede indhold, og gem dokumentet.
 
@@ -76,7 +76,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 Med SuperOffice CRM kan du logge på fra en hvilken som helst pc via en browser, men dine dokumenter vil da ligge gemt på den centrale server. Download og upload af dokumenter håndteres automatisk af SuperOffice Web Tools.
 
-1. Klik på **Ny** &gt; **Dokument** på toplinjen.
+1. Klik på **Ny** > **Dokument** på toplinjen.
 
 2. [Indtast de ønskede oplysninger i felterne][2].
 

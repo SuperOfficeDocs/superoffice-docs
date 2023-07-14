@@ -21,7 +21,7 @@ Welche [Aktivitäten][1] angezeigt werden, hängt davon ab, welche der nachfolge
 Sie können entweder alle Aktivitäten oder nur eine bestimmte Art von Aktivitäten anzeigen.
 
 > [!TIP]
-> Sie können [Filteraktivitäten][3]auch nach Datum und Benutzer filtern.
+> Sie können [Filteraktivitäten][3] auch nach Datum und Benutzer filtern.
 
 <!-- Referenced links -->
 [1]: index.md

@@ -2,6 +2,6 @@ items:
 - name: Oversikt
   href: index.md
 - name: Lisenser-bilde
-  href: screen\index.md
+  href: screen/index.md
 - name: Aktivere lisens
   href: activate.md

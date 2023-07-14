@@ -32,15 +32,15 @@ Titta på den här videon eller följ guiden nedan för att lära dig hur du ins
 ### Steg
 
 1. Gå till ![ikon][img1] huvudmenyn i det övre fältet.
-2. Välj **Hämta** &gt; **SuperOffice WebTools**. Hjälpen för SuperOffice WebTools wizard visas.
-3. I hjälpen väljer du **Persondator** &gt; **SuperOffice**, och klickar på **Hämta** för att ladda ner installationsfilen
+2. Välj **Hämta** > **SuperOffice WebTools**. Hjälpen för SuperOffice WebTools wizard visas.
+3. I hjälpen väljer du **Persondator** > **SuperOffice**, och klickar på **Hämta** för att ladda ner installationsfilen
 4. Klicka på **Nästa** och **Stäng** för att stänga guiden för WebTools.
 5. Klicka på den hämtade **SuperOffice.Web.Tools.exe**-filen i avsnittet Hämtningar i din webbläsare.
 6. Dubbelklicka på filen **SuperOffice WebTools Installer.pkg** för att starta installationen.
 7. Klicka på **Fortsätt**.
 8. Klicka på **Installera**.
 9. Om du blir ombedd att ange ditt användarnamn och lösenord för att installera, anger du detta och klickar sedan på **Installera programvara**.
-10. När meddelandet ”Installationen lyckades” visas, stäng dialogrutan.
+10. När meddelandet "Installationen lyckades" visas, stäng dialogrutan.
 11. Slutligen loggar du ut från SuperOffice CRM, stänger webbläsarfönstret och öppnar webbläsarfönstret igen för att logga in på nytt.
 
 Med WebTools installerat kan du börja skapa dokument i SuperOffice
@@ -57,7 +57,7 @@ Med WebTools installerat kan du börja skapa dokument i SuperOffice
 
 ## Valfri inställning för standardstart
 
-Lägg till ”SuperOffice WebTools” till din användares "Startobjekt”, så att det startas tillsammans med din Mac.
+Lägg till "SuperOffice WebTools" till din användares "Startobjekt", så att det startas tillsammans med din Mac.
 
 ![Lägg till SuperOffice WebTools i dina startobjekt så att programmet startas automatiskt -screenshot][img3]
 
@@ -80,7 +80,7 @@ Ställ in inställningarna så att de passar dina behov:
 
 ## Relaterat innehåll
 
-* [Hur laddar jag ner och installerar WebTools för SuperOffice?][1] \- FAQ
+* [Hur laddar jag ner och installerar WebTools för SuperOffice?][1] - FAQ
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-download-and-install-web-tools-for-superoffice-crm/

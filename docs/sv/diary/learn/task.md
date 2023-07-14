@@ -15,7 +15,7 @@ Uppgifter är händelser som normalt inte har någon fastställd tid eller varak
 
 ![ikon][img1]
 
-Var du än arbetar i SuperOffice CRM kan du skapa en ny uppgift genom att klicka på **Nytt** &gt; **Uppgift** i det övre fältet.
+Var du än arbetar i SuperOffice CRM kan du skapa en ny uppgift genom att klicka på **Nytt** > **Uppgift** i det övre fältet.
 
 Uppgifter kan visas på följande ställen i SuperOffice CRM:
 

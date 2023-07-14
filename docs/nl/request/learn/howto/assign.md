@@ -31,7 +31,7 @@ Een verzoek is uw verantwoordelijkheid zodra uw naam staat in het veld **Eigenaa
 Een verzoekbehandelaar met rechten voor categoriebeheer kan de toewijzingsmethode voor categorieën opgeven:
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Selecteer **Verzoeken** &gt; **Categorieën**.
+1. Selecteer **Verzoeken** > **Categorieën**.
 1. Selecteer de gewenste categorie.
 1. Selecteer het tabblad **Toewijzingsmethode**.
 1. Selecteer de gewenste opties.

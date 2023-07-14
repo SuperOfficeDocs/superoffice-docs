@@ -13,7 +13,7 @@ language: de
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Wenn eine natürliche Person als zwei verschiedene Kontakte in SuperOffice CRM erfasst wurde, können Sie diese Personen zusammenführen. Wenn die Person zum Beispiel unter zwei verschiedenen Namen bei derselben Firma erfasst war („Jonathan Clark“ und „Jonathon Clarke“) oder wenn die Person sowohl bei ihrem alten als auch bei ihrem neuen Arbeitgeber erfasst war.
+Wenn eine natürliche Person als zwei verschiedene Kontakte in SuperOffice CRM erfasst wurde, können Sie diese Personen zusammenführen. Wenn die Person zum Beispiel unter zwei verschiedenen Namen bei derselben Firma erfasst war ("Jonathan Clark" und "Jonathon Clarke") oder wenn die Person sowohl bei ihrem alten als auch bei ihrem neuen Arbeitgeber erfasst war.
 
 Die Projektzugehörigkeit und die Aktivitäten werden zur neuen Person verschoben; die Quellperson kann entweder gelöscht oder als ausgeschieden gekennzeichnet werden.
 

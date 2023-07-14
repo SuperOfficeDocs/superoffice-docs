@@ -9,7 +9,7 @@ Der erste Schritt beim Erstellen einer E-Mail-Kampagne wird als **Setup** bezeic
 
     [!include[Note](spf-look-up.md)]
 
-1. In der Liste **Antwort an** haben Sie die gleichen Optionen wie oben. Zusätzlich dazu können Sie **„Von“ als Antwortadresse verwenden** auswählen. Sämtliche Antworten werden dann an den Absender gesendet.
+1. In der Liste **Antwort an** haben Sie die gleichen Optionen wie oben. Zusätzlich dazu können Sie **"Von" als Antwortadresse verwenden** auswählen. Sämtliche Antworten werden dann an den Absender gesendet.
 
 1. Wählen Sie einen **Order** aus, in dem Sie die Kampagne platzieren wollen.
 
@@ -43,7 +43,7 @@ Wenn Sie versuchen, von einer Domain zu senden, die keinen gültigen SPF-Eintrag
 
 ## Verwandte Themen
 
-* [Maximieren Sie Ihren E-Mail-Marketing-Erfolg mit diesen Zustellbarkeitstipps][1] \- Blog
+* [Maximieren Sie Ihren E-Mail-Marketing-Erfolg mit diesen Zustellbarkeitstipps][1] - Blog
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/email-deliverability-tips/

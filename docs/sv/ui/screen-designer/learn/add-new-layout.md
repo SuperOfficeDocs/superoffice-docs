@@ -19,7 +19,7 @@ Med anpassade skärmlayouter för vart och ett av dina team blir det enklare än
 
 ## Huvudkortslayout
 
-En anpassad layout för fönstret Kontakt och Företag gör att dina team och din organisation kan arbeta mer effektivt, eftersom det eliminerar det distraherande ”informationsbruset”.
+En anpassad layout för fönstret Kontakt och Företag gör att dina team och din organisation kan arbeta mer effektivt, eftersom det eliminerar det distraherande "informationsbruset".
 
 Om ditt supportteam till exempel sällan använder företagsadressen när de kommunicerar med företag och kontakter, vill du kanske göra plats för andra fält som är viktigare på första sidan (fliken Företag). Flytta den genom att klicka på staplarna till vänster i fältet och dra den över till fliken **Mer**.
 
@@ -81,8 +81,8 @@ Skapa en ny layout för en viss användargrupp genom att konfigurera detaljkort 
 
 ## Relaterat innehåll
 
-* [Hur konfigurerar jag vilken information användarna av vårt företag kan komma åt i SuperOffice CRM?][3] \- FAQ
-* [Hur skapar jag en ny användargrupp i SuperOffice CRM?][4] \- FAQ
+* [Hur konfigurerar jag vilken information användarna av vårt företag kan komma åt i SuperOffice CRM?][3] - FAQ
+* [Hur skapar jag en ny användargrupp i SuperOffice CRM?][4] - FAQ
 * [Användaradministration][5]
 
 <!-- Referenced links -->

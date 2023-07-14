@@ -59,7 +59,7 @@ Die DSGVO ist nicht nur ein Gesetz, sondern auch eine großartige Gelegenheit f�
 
 * Bieten Sie Ihren Personen eine einfache und unkomplizierte Möglichkeit, sich von Ihren E-Mail-Marketingkampagnen abzumelden, indem Sie deutlich sichtbare Abmeldelinks in Ihren Kampagnen einfügen. Eine weitere Möglichkeit, um sicherzustellen, dass Sie nur die Personen kontaktieren, die von Ihnen hören möchten, besteht darin, ein Abonnementverwaltungszentrum einzurichten, in dem betroffene Personen die Inhalte auswählen können, die sie erhalten möchten.
 
-* Holen Sie erneute Berechtigungen von Ihrem vorhandenen Kundenstamm ein. Das heißt, wenn Sie sich nicht sicher sind, ob Sie über die erforderlichen Berechtigungen verfügen oder nicht, und wenn Sie Ihren Personen nicht die Möglichkeit gegeben haben, sich abzumelden, kann es erforderlich sein, erneute Berechtigungen einzuholen. Das Versenden einer „erneuten Berechtigung“ Kampagne ist auch eine gute Möglichkeit, Ihre vorhandenen Datensätze abzugleichen.
+* Holen Sie erneute Berechtigungen von Ihrem vorhandenen Kundenstamm ein. Das heißt, wenn Sie sich nicht sicher sind, ob Sie über die erforderlichen Berechtigungen verfügen oder nicht, und wenn Sie Ihren Personen nicht die Möglichkeit gegeben haben, sich abzumelden, kann es erforderlich sein, erneute Berechtigungen einzuholen. Das Versenden einer "erneuten Berechtigung" Kampagne ist auch eine gute Möglichkeit, Ihre vorhandenen Datensätze abzugleichen.
 
 ## 4 Möglichkeiten, Ihre Ziellisten zu erstellen
 

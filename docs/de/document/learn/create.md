@@ -25,7 +25,7 @@ Befolgen Sie die jeweiligen Anweisungen für die Art und Weise, wie Dokumente in
 
 ## Neues Dokument als SharePoint-Dokument erstellen
 
-1. Klicken Sie auf der oberen Leiste auf **Neu** &gt; **Dokument**.
+1. Klicken Sie auf der oberen Leiste auf **Neu** > **Dokument**.
 
 2. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein][2].
 
@@ -45,7 +45,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 > [!NOTE]
 > In diesem Verfahren wird beschrieben, wie Sie mit einem Desktop-Textbearbeitungsprogramm neue Dokumente erstellen. Die tatsächliche Schritte können mit einem Online-Textbearbeitungstool (wie Microsoft Office Online) und einer Dokumentbibliothek (wie SharePoint) leicht abweichen.
 
-1. Klicken Sie auf der oberen Leiste auf **Neu** &gt; **Dokument**.
+1. Klicken Sie auf der oberen Leiste auf **Neu** > **Dokument**.
 
 2. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein][2].
 
@@ -55,7 +55,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 5. Wählen Sie im Dialogfeld **Datei herunterladen** eine der folgenden Schaltflächen aus:
 
-    * **Öffnen**: Wenn Sie auf **Öffnen** klicken, wird das Dokument im Textbearbeitungsprogramm geöffnet. Geben Sie den Inhalt des Dokuments ein und wählen Sie **Datei** &gt; **Speichern unter**, um die Datei am gewünschten Ort auf Ihrem PC zu speichern.
+    * **Öffnen**: Wenn Sie auf **Öffnen** klicken, wird das Dokument im Textbearbeitungsprogramm geöffnet. Geben Sie den Inhalt des Dokuments ein und wählen Sie **Datei** > **Speichern unter**, um die Datei am gewünschten Ort auf Ihrem PC zu speichern.
 
     * **Speichern**: Wenn Sie auf **Speichern** klicken, wird das Dialogfeld **Speichern unter** angezeigt. Geben Sie an, wo Sie die Datei auf Ihrem PC speichern möchten, und klicken Sie anschließend auf **Speichern**, um das Herunterladen zu starten. Klicken Sie auf **Schließen**, nachdem der Herunterladen-Vorgang fertiggestellt wurde. Öffnen Sie den Windows Explorer und navigieren Sie zum soeben gespeicherten Dokument. Öffnen Sie das Dokument, geben Sie den erforderlichen Text ein und speichern Sie das Dokument.
 
@@ -76,7 +76,7 @@ Wenn Sie SuperOffice WebTools nicht installiert haben, müssen Sie Dokumente zum
 
 Bei SuperOffice CRM können Sie sich über einen Browser von jedem PC aus anmelden, Ihre Dokumente werden in diesem Fall jedoch auf dem zentralen Server gespeichert. Das Herunter- und Hochladen von Dokumenten erledigt SuperOffice WebTools automatisch.
 
-1. Klicken Sie auf der oberen Leiste auf **Neu** &gt; **Dokument**.
+1. Klicken Sie auf der oberen Leiste auf **Neu** > **Dokument**.
 
 2. [Geben Sie die erforderlichen Informationen in die betreffenden Felder ein][2].
 

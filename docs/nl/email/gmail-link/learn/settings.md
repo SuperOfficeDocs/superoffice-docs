@@ -17,7 +17,7 @@ Open het dialoogvenster **SuperOffice Gmail Link - Instellingen** door te klikke
 
 ## Altijd het dialoogvenster voor het archief weergeven
 
-Als deze optie is uitgeschakeld, zal het dialoogvenster **E-mail archiveren in SuperOffice** niet worden weergegeven wanneer u een e-mailbericht archiveert door op de knop **Archiveren** te klikken. Alle standaardwaarden in de instellingen worden gebruikt in deze functie “snel archiveren”, zelfs als het dialoogvenster Archiveren niet wordt weergegeven. Na het archiveren van het e-mailbericht wordt een pop-upbericht weergegeven.
+Als deze optie is uitgeschakeld, zal het dialoogvenster **E-mail archiveren in SuperOffice** niet worden weergegeven wanneer u een e-mailbericht archiveert door op de knop **Archiveren** te klikken. Alle standaardwaarden in de instellingen worden gebruikt in deze functie "snel archiveren", zelfs als het dialoogvenster Archiveren niet wordt weergegeven. Na het archiveren van het e-mailbericht wordt een pop-upbericht weergegeven.
 
 Soms wordt het dialoogvenster **E-mail archiveren in SuperOffice** altijd weergegeven:
 

@@ -19,7 +19,7 @@ Er zijn veel manieren om een afspraak te maken. In alle gevallen geeft u de [Afs
 
 Voer een van de volgende handelingen uit:
 
-* Kies **Nieuw** &gt; **Afspraak** in de [bovenste balk][3].
+* Kies **Nieuw** > **Afspraak** in de [bovenste balk][3].
 * Klik op de![pictogram][img1] knop **Taak** op de persoonskaart en selecteer **Vergadering aanvragen**.
 * Klik op de knop **Toevoegen** op het sectietabblad **Activiteiten**.
 
@@ -40,7 +40,7 @@ Voer een van de volgende handelingen uit:
 * Klik op **Nieuw** in de bovenste balk en selecteer **Afspraak**, **Telefoongesprek** of **Taak**.
 
 > [!NOTE]
-> Als u de afspraak maakt op [het tabblad **Weergave**][1], kunt u ervoor kiezen om het dialoogvenster **Deelnemers automatisch** te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img2] **Persoonlijke instellingen** &gt; **Voorkeuren** &gt; **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
+> Als u de afspraak maakt op [het tabblad **Weergave**][1], kunt u ervoor kiezen om het dialoogvenster **Deelnemers automatisch** te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
 
 ## Gerelateerde inhoud
 

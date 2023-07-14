@@ -13,7 +13,7 @@ language: sv
 
 # Lägg till extratabeller
 
-Du kan skapa extratabeller i SuperOffice för att registrera olika typer av data. När du har skapat tabellen och [skapat extrafält i den][1] kan du öppna tabellen för att lägga till innehåll i den genom att gå till **Systemdesign** &gt; **Tabeller**, peka på tabellen och klicka på knappen ![ikon][img1].
+Du kan skapa extratabeller i SuperOffice för att registrera olika typer av data. När du har skapat tabellen och [skapat extrafält i den][1] kan du öppna tabellen för att lägga till innehåll i den genom att gå till **Systemdesign** > **Tabeller**, peka på tabellen och klicka på knappen ![ikon][img1].
 
 > [!NOTE]
 > I SuperOffice CRM kan du skapa webbpaneler som kan innehålla tabellinformation. Om du vill ange relevanta åtkomstbehörighet,måste användaren tillhöra en roll som har funktionsrättigheterna **Lista tabeller** och **Redigera tabeller**.
@@ -46,7 +46,7 @@ Du kan skapa extratabeller i SuperOffice för att registrera olika typer av data
 | Överordnat fält | Detta fält används i samband med hierarkiskt organiserade tabeller. |
 | Fullständigt namn |  Om detta är en hierarkiskt organiserad tabell kan detta fält ange ett fält som automatiskt uppdateras med postens fullständiga namn baserat på namnfältet för posten och alla överordnade poster. |
 | Dölj ID-fält | Om du markerar detta alternativ visas inte ID-fältet när posterna i tabellen visas. |
-| Dölj tabellen | Om du markerar det här alternativet är tabellen inte synlig från ![ikon][img3] **Systemdesign** &gt; **Tabeller**. |
+| Dölj tabellen | Om du markerar det här alternativet är tabellen inte synlig från ![ikon][img3] **Systemdesign** > **Tabeller**. |
 
 ## Vad vill du göra nu?
 

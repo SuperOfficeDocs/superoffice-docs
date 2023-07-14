@@ -21,7 +21,7 @@ Die Posteingang-Funktion in SuperOffice CRM hängt vom SuperOffice-Client und vo
 
 * [SuperOffice Posteingang][1]
 * [Gmail Link][2] – SuperOffice Gmail Link
-* [SuperOffice Mail Link][6] \- SuperOffice Mail Link (Integration von Outlook und Notes)
+* [SuperOffice Mail Link][6] - SuperOffice Mail Link (Integration von Outlook und Notes)
 
 ## E-Mail senden
 

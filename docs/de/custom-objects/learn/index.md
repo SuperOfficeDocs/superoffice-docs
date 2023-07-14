@@ -19,7 +19,7 @@ Alle Firmen und Organisationen haben für die zu erfassenden Informationen in Be
 
 ## Benutzerdefinierte Felder und Tabellen
 
-Ein gutes Beispiel für ein benutzerdefiniertes Feld, das Sie auf der Karte **Person** verwenden können, ist ein Feld namens „Zufriedener Kunde“, wobei der Wert des Feldes Ja oder Nein ist.
+Ein gutes Beispiel für ein benutzerdefiniertes Feld, das Sie auf der Karte **Person** verwenden können, ist ein Feld namens "Zufriedener Kunde", wobei der Wert des Feldes Ja oder Nein ist.
 
 Sie können zum Beispiel Ihren Personen eine Kampagne (mit Link-Aktionen) senden, in der sie angeben können, ob sie mit Ihren Services zufrieden sind. Dies gibt Ihnen wertvolle Einblicke in die allgemeine Kundenzufriedenheit.
 

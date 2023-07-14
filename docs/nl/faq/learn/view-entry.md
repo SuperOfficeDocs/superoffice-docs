@@ -13,7 +13,7 @@ language: nl
 
 # Items van veelgestelde vragen weergeven (in SuperOffice)
 
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** &gt; **Veelgestelde vragen**. Dit brengt u naar het scherm Veelgestelde vragen. Dit scherm bevat items in Veelgestelde vragen in een [mapstructuur][1] die u zelf kunt maken en bewerken.
+1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**. Dit brengt u naar het scherm Veelgestelde vragen. Dit scherm bevat items in Veelgestelde vragen in een [mapstructuur][1] die u zelf kunt maken en bewerken.
 
 2. Wanneer deze map verschillende submappen bevat, kiest u de gewenste map.
 

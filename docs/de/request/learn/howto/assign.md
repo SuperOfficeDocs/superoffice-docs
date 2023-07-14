@@ -31,7 +31,7 @@ Damit für eine Anfrage zuständig zu sein, muss Ihr Name im Feld **Eigentümer*
 Ein Bearbeiter, der über Rechte für die Verwaltung von Kategorien verfügt, kann die Zuordnungsmethode für die Kategorien festlegen:
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Wählen Sie **Anfragen** &gt; **Kategorien** aus.
+1. Wählen Sie **Anfragen** > **Kategorien** aus.
 1. Wählen Sie die gewünschte Kategorie aus.
 1. Wählen Sie die Registerkarte **Zuordnungsmethode**.
 1. Wählen Sie die entsprechenden Optionen aus.
@@ -39,7 +39,7 @@ Ein Bearbeiter, der über Rechte für die Verwaltung von Kategorien verfügt, ka
 
 ## Beispiel
 
-Angenommen, Ihre Firma hat für jede Abteilung der Firma eine Kategorie erstellt: Benutzersupport, Verkäufe, Buchhaltung usw. Und Sie haben auch festgelegt, dass alle an <support@company.com> gesendeten E-Mails, automatisch der Kategorie „Benutzersupport“ zugeordnet werden sollen. Alle Mitarbeiter der Abteilung Kundensupport sind Mitglieder dieser Kategorie. Für diese Kategorie wurde die Methode **Gleichmäßige Zuordnung** festgelegt. Das bedeutet, dass alle Mitglieder der Kategorie die gleiche Anzahl an Anfragen erhalten und dass jedes Mitglied kontinuierlich neue Anfragen in der Ansicht **Eigene unbearbeitete Anfragen** erhält. Wenn alternativ die Methode **Keine Zuordnung** ausgewählt worden wäre, hätten die Mitglieder eigenständig die Ansicht **Nicht zugeordnete Anfragen** aufrufen müssen, um sie die [Eigentümerschaft der neuen Anfragen übernehmen][4] können.
+Angenommen, Ihre Firma hat für jede Abteilung der Firma eine Kategorie erstellt: Benutzersupport, Verkäufe, Buchhaltung usw. Und Sie haben auch festgelegt, dass alle an <support@company.com> gesendeten E-Mails, automatisch der Kategorie "Benutzersupport" zugeordnet werden sollen. Alle Mitarbeiter der Abteilung Kundensupport sind Mitglieder dieser Kategorie. Für diese Kategorie wurde die Methode **Gleichmäßige Zuordnung** festgelegt. Das bedeutet, dass alle Mitglieder der Kategorie die gleiche Anzahl an Anfragen erhalten und dass jedes Mitglied kontinuierlich neue Anfragen in der Ansicht **Eigene unbearbeitete Anfragen** erhält. Wenn alternativ die Methode **Keine Zuordnung** ausgewählt worden wäre, hätten die Mitglieder eigenständig die Ansicht **Nicht zugeordnete Anfragen** aufrufen müssen, um sie die [Eigentümerschaft der neuen Anfragen übernehmen][4] können.
 
 ## Was möchten Sie jetzt tun?
 

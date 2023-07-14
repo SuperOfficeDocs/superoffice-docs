@@ -13,7 +13,7 @@ language: da
 
 1. Klik på ordet **Firma**, **Person**, **Salg**, **Projekt** eller **Udvalg** i navigatoren til venstre i vinduet. Der vises et tomt felt øverst. nedenunder dette er der en [liste over poster, du tidligere har arbejdet med][1].
 
-    ![Hurtigsøgning – skærmbillede][img1]
+    ![Hurtigsøgning -screenshot][img1]
 
 2. I feltet skal du indtaste navnet på posten, der skal søges efter. Mens du indtaster, viser listen nedenunder alle de poster, der matcher.
 
@@ -31,7 +31,7 @@ The Navigator FastSearcher runs two parallel searches:
 
 * Du kan søge efter et salg ved at indtaste navnet på salget eller navnet på et firma, der er knyttet til salget, i hurtigsøgningsfeltet for **Salg** i navigatoren.
 
-    ![Hurtigsøgning – skærmbillede][img2]
+    ![Hurtigsøgning -screenshot][img2]
 
 * Du kan søge efter en person i hurtigsøgningsfeltet for **Firma** i navigatoren.
 

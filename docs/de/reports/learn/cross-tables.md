@@ -45,8 +45,8 @@ Um einen Kreuztabellen-Bericht (Dcube-Datei) anzuzeigen, müssen Sie den **Cross
 
 1. Nachdem Sie den Inhalt der Kreuztabelle bearbeitet haben, haben Sie eine der folgenden Möglichkeiten:
 
-    * Wählen Sie **Datei** &gt; **Druckvorschau**, um eine Druckvorschau des Berichts anzuzeigen.
-    * Wählen Sie **Datei** &gt; **Druck**, um den Bericht zu drucken.
+    * Wählen Sie **Datei** > **Druckvorschau**, um eine Druckvorschau des Berichts anzuzeigen.
+    * Wählen Sie **Datei** > **Druck**, um den Bericht zu drucken.
     * Klicken Sie auf **Exportieren**, um den Bericht im Excel-Format zu speichern.
 
 1. Klicken Sie auf **OK**, um den CrossTable Viewer zu schließen.

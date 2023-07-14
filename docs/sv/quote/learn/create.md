@@ -32,7 +32,7 @@ Om dialogrutan **Välj ERP-koppling** visas när du ska skapa en offert kan det 
 * Det saknas prislistor för försäljningsvalutan. Du måste välja en annan valuta för försäljningen eller skapa en prislista med önskad valuta i Inställningar och underhåll.
 
     > [!NOTE]
-    > Om listan över valutor inte visas bredvid försäljningsbeloppet kan du behöva aktivera användning av valuta. Gå till **Inställningar** &gt; **Aktivera användning av valuta** i Inställningar och underhåll.
+    > Om listan över valutor inte visas bredvid försäljningsbeloppet kan du behöva aktivera användning av valuta. Gå till **Inställningar** > **Aktivera användning av valuta** i Inställningar och underhåll.
 
 * SuperOffice CRM är kopplat till ett eller flera ERP-system, och det finns flera aktuella ERP-kopplingar att välja mellan. ERP-kopplingen avgör varifrån produktinformation och priser ska hämtas.
 

@@ -13,7 +13,7 @@ language: nl
 
 De centrale voorziening in de documentfunctie is het dialoogvenster **Document**, dat u op verschillende manieren kunt openen:
 
-* Selecteer **Nieuw** &gt; **Document**.
+* Selecteer **Nieuw** > **Document**.
 * Open een [bestaand document][1].
 
 Het dialoogvenster bestaat uit een hoofdonderdeel met algemene informatie over het document, en de volgende tabbladen met aanvullende informatie:

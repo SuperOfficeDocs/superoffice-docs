@@ -45,7 +45,7 @@ Gå till nästa procedur för att länka statusarna till en projekttyp.
 
 En projektguide måste vara länkad till en projekttyp. [Så skapar du en projekttyp][3].
 
-Exempel på projekttyper: ”Konferens”, ”Kampanj”, ”Internt”.
+Exempel på projekttyper: "Konferens", "Kampanj", "Internt".
 
 1. Markera **Denna projekttyp har en anknuten guide**.
 1. Välj minst två statusar.

@@ -15,7 +15,7 @@ På skärmen **Rapporter** kan du bara [köra tidigare definierade rapporter][1]
 
 För att [spara en rapport som ett dokument][4] (typ = Rapport) i SuperOffice CRM, klicka på knappen **Spara** i fönstret **Rapporter**.
 
-Du kan definiera nya rapporter i SuperOffice Reporter Studio och importera dem i Inställningar och underhåll (**Alternativ** &gt; **Rapporter**).
+Du kan definiera nya rapporter i SuperOffice Reporter Studio och importera dem i Inställningar och underhåll (**Alternativ** > **Rapporter**).
 
 ## Skapa en separat rapport
 

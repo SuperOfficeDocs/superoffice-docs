@@ -15,7 +15,7 @@ language: de
 
 Damit Ihren Kunden die Chat-Funktion zur Verfügung steht, müssen Sie ein JavaScript zu den relevanten Seiten auf Ihrer Website hinzufügen. Wenn Sie mehrere Chat-Kanäle eingerichtet haben, verfügt jeder Chat-Kanal über ein spezifisches JavaScript, das der entsprechenden Seite(n) hinzugefügt werden muss.
 
-Nachdem Sie das [Chat-Widget konfiguriert][1]haben zeigt Ihnen dieser Schritt, wie Sie es zu Ihrer Website hinzufügen. Sehen Sie sich dieses Video an, um zu lernen, wie Sie das Chat-Widget zu Ihrer Website hinzufügen (Videolänge - 2:04):
+Nachdem Sie das [Chat-Widget konfiguriert][1] haben zeigt Ihnen dieser Schritt, wie Sie es zu Ihrer Website hinzufügen. Sehen Sie sich dieses Video an, um zu lernen, wie Sie das Chat-Widget zu Ihrer Website hinzufügen (Videolänge - 2:04):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]

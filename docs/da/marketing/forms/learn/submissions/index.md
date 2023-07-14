@@ -16,7 +16,7 @@ Når en formular indsendes fra et kundecenter eller websted, indsamles dataene o
 I fanen **Formularindsendelser** kan du vise alle indsendte formularer. Brug filterindstillingerne nederst på listen for kun at vise indsendelser med bestemte statusser.
 
 > [!NOTE]
-> Du kan også[vise indsendelser for enkelte formularer][1]ved at åbne en formular i fanen **Formularer**.
+> Du kan også[vise indsendelser for enkelte formularer][1] ved at åbne en formular i fanen **Formularer**.
 
 ## Status for formular
 

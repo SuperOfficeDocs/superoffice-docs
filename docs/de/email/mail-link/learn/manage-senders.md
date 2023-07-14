@@ -40,7 +40,7 @@ Wenn der Absender nicht in SuperOffice CRM aufgeführt ist, können Sie seine E-
     * [E-Mail als Aktivität archivieren][2]
     * [Anhänge archivieren][3]
 
-2. Wenn der Absender der E-Mail oder des Anhangs nicht in SuperOffice CRM aufgelistet wird, wird oben im Dialogfeld zum Archivieren der E-Mail eine Warnung angezeigt, wenn Sie zu archivieren versuchen: „Die E-Mail-Adresse dieses Absenders wurde nicht erkannt. Klicken Sie hier, um SuperOffice mit dieser E-Mail-Adresse zu aktualisieren.“ Klicken Sie auf die Warnung.
+2. Wenn der Absender der E-Mail oder des Anhangs nicht in SuperOffice CRM aufgelistet wird, wird oben im Dialogfeld zum Archivieren der E-Mail eine Warnung angezeigt, wenn Sie zu archivieren versuchen: "Die E-Mail-Adresse dieses Absenders wurde nicht erkannt. Klicken Sie hier, um SuperOffice mit dieser E-Mail-Adresse zu aktualisieren." Klicken Sie auf die Warnung.
 
 3. Aktivieren Sie im Dialogfeld **E-Mail-Adresse speichern** eines der folgenden Optionsfelder:
     * **Neue Person erstellen**: Klicken Sie auf diese Option, damit Sie die [E-Mail-Adresse zu einer neuen Person hinzufügen](#new-contact) können.

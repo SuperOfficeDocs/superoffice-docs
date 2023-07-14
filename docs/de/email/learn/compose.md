@@ -27,7 +27,7 @@ Wenn Sie die Mitteilung fertiggestellt haben und abschicken möchten, haben Sie 
 > [!TIP]
 > Wenn Sie die E-Mail nicht beim Senden archivieren, können Sie immer noch die Option [Gehe zum Ordner mit den gesendeten E-Mails und die Mitteilung archivieren][2] ausführen.
 >
-> Die Signaturvorlage unten in der Mitteilung kann unter ![Symbol][img1] **Persönliche Einstellungen** &gt; **Persönliche Signatur bearbeiten** bearbeitet werden.
+> Die Signaturvorlage unten in der Mitteilung kann unter ![Symbol][img1] **Persönliche Einstellungen** > **Persönliche Signatur bearbeiten** bearbeitet werden.
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md

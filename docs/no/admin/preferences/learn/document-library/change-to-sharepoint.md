@@ -66,9 +66,9 @@ Klikk på **Neste trinn** for å fortsette.
 
 ## Trinn 3 - Grupper og tilgang
 
-I dette trinnet kan du aktivere gruppetilgang til SharePoint-dokumenter basert på innstillingen “Synlig for” i SuperOffice.
+I dette trinnet kan du aktivere gruppetilgang til SharePoint-dokumenter basert på innstillingen "Synlig for" i SuperOffice.
 
-Hvis du planlegger ikke å bruke “Synlig for”, velger du ikke dette alternativet.
+Hvis du planlegger ikke å bruke "Synlig for", velger du ikke dette alternativet.
 
 1. Velg **Aktiver gruppetilgang på SharePoint-dokumenter basert på "Synlig for"-innstillinger i SuperOffice**.
 

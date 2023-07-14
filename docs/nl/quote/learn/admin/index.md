@@ -30,7 +30,7 @@ Op het scherm **Offerte/Synchroniseren** kunt u verbindingen en instellingen beh
 
 * [ERP-verbindingen][1] – Hier kunt u Quote Connectors en ERP-verbindingen configureren.
 * [SuperOffice-producten][2] – Hier kunt u werken aan prijslijsten en producten die zijn opgeslagen in SuperOffice.
-* [Instellingen][3] \- Hier kunt u de instellingen voor offerten aanpassen en de velden configureren die voor producten worden weergegeven.
+* [Instellingen][3] - Hier kunt u de instellingen voor offerten aanpassen en de velden configureren die voor producten worden weergegeven.
 * [Sync][4] – Hier kunt u Sync Connectors en bijbehorende ERP-verbindingen configureren en toevoegen.
 
 ## Wat zijn Quote/Sync Connectors en ERP-verbindingen?

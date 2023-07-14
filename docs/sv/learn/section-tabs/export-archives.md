@@ -29,7 +29,7 @@ Du kan exportera alla detaljkort som innehåller poster i SuperOffice CRM till e
 3. Spara kalkylbladet på lämplig plats.
 
 > [!NOTE]
-> Om du vet att denna funktion har aktiverats i Inställningar och underhåll, men ![ikonen][img2] knappen **Exportera** inte visas längst ned på detaljkorten går du till ![ikonen][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Funktioner** &gt; **Visa Export-knapp i detaljkorten** och väljer **Ja**.
+> Om du vet att denna funktion har aktiverats i Inställningar och underhåll, men ![ikonen][img2] knappen **Exportera** inte visas längst ned på detaljkorten går du till ![ikonen][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** > **Visa Export-knapp i detaljkorten** och väljer **Ja**.
 
 <!-- Referenced links -->
 [1]: configure-columns.md

@@ -47,9 +47,9 @@ Verwenden Sie diese Option, um einer vorhandenen statischen Selektion ausgewähl
     > [!NOTE]
     > Die Liste der Selektionen beschränkt sich auf:
     >
-    > \* Vorhandene *statische* Selektionen (keine dynamischen oder kombinierten Selektionen)
+    > * Vorhandene *statische* Selektionen (keine dynamischen oder kombinierten Selektionen)
     >
-    > \* Selektionen, die den hinzuzufügenden Datensätzen entsprechen (wenn Sie Verkäufe auswählen, werden nur Selektionen von Verkäufen angezeigt)
+    > * Selektionen, die den hinzuzufügenden Datensätzen entsprechen (wenn Sie Verkäufe auswählen, werden nur Selektionen von Verkäufen angezeigt)
     >
     > Bei einer leeren Liste gibt es keine Selektionen diesen Typs.
 

@@ -13,7 +13,7 @@ language: da
 
 Følg disse trin for at oprette en e-mail i Lotus Notes:
 
-1. Oven over meddelelseslisten klikker du på **Ny** &gt; **Meddelelse** for at åbne formularen **Ny meddelelse**.
+1. Oven over meddelelseslisten klikker du på **Ny** > **Meddelelse** for at åbne formularen **Ny meddelelse**.
 
 2. I mailvinduet i feltet **Til** skal du angive modtagernes mailtilføjelser. Du kan også anvende dialogboksen **Vælg modtagere** (se [Sådan vælges modtagere][1]).
 

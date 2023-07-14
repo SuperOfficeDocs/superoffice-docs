@@ -54,7 +54,7 @@ language: no
 11. Når du har skrevet inn den nødvendige informasjonen, klikker du på **Lagre**.
 
     > [!TIP]
-    > Du kan merke flere firmaer og/eller personer på høyre side av vinduet ved å holde nede **CTRL**\- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Salgsrolle** og i tekstboksen **Kommentar**, vil gjelde for alle de merkede firmaene/personene.
+    > Du kan merke flere firmaer og/eller personer på høyre side av vinduet ved å holde nede **CTRL**- eller **SKIFT**-tasten mens du merker dem. Endringer du deretter gjør i feltet **Salgsrolle** og i tekstboksen **Kommentar**, vil gjelde for alle de merkede firmaene/personene.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

@@ -23,7 +23,7 @@ En svarskabelon kan for eksempel være et bestemt layout, der skal anvendes på 
 
 I skærmbilledet Svarskabeloner finder du de svarskabeloner, der er tilgængelige for dig. Svarskabelonerne ligger i en [mappestruktur][10], som du selv kan oprette.
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** &gt; **Svarskabeloner**.
+1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
 1. Gå til den ønskede mappe.
 1. Klik på den svarskabelon, du er interesseret i. Skærmbilledet **Visning af svarskabelon** vises med oplysninger om adgangsniveau, sprog og ejer. På fanerne nedenfor kan du se selve svarskabelonteksten og eventuelle vedhæftninger.
 

@@ -15,7 +15,7 @@ language: de
 
 Wenn sich viele Antwortvorlagen in einem Ordner befinden, kann es ggf. schwierig sein, die gewünschte Vorlage zu finden. In diesem Fall kann die Durchführung einer Suche hilfreich sein.
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** &gt; **Antwortvorlagen** aus.
+1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
 1. Klicken Sie auf die Schaltfläche **Suchen**. Sie gelangen zur Ansicht **Kriterien**.
 1. Geben Sie den Text, nach dem Sie suchen möchten, oder optional andere Kriterien ein.
 1. Klicken Sie auf **Suchen**.

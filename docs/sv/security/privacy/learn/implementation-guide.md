@@ -28,7 +28,7 @@ För att göra detta läggare, har SuperOffice CRM en uppsättning integritetsfu
 
 Det finns flera sätt att lagra information om personer och deras personuppgifter i SuperOffice CRM. Det kan komma från manuell registrering, via e-post, via chatt, serviceärenden, webbformulär eller integrationer med andra back-end-system.
 
-Oavsett hur en person ”kommer in i” databasen, erbjuder SuperOffice CRM den dokumentation ett företag behöver för VARFÖR, HUR och NÄR nya personuppgifter kommer in i systemet.
+Oavsett hur en person "kommer in i" databasen, erbjuder SuperOffice CRM den dokumentation ett företag behöver för VARFÖR, HUR och NÄR nya personuppgifter kommer in i systemet.
 
 Det innebär att du är ansvarig för att definiera policyer som är GDPR-kompatibla.
 
@@ -165,7 +165,7 @@ Under denna rensningsprocess, bör du ställa dig själv dessa frågor:
 
 Nu när du vet vilken information du vill behålla och hur du vill uppdatera din befintliga kundinformation, låt oss se hur du kan se till att du uppfyller kraven i GDPR även i framtiden.
 
-För att göra detta, börja med att fråga dig själv detta: ”Hur brukar kontakter ”komma in i” min SuperOffice-databas?”
+För att göra detta, börja med att fråga dig själv detta: "Hur brukar kontakter "komma in i" min SuperOffice-databas?"
 
 Det finns tre sätt att lägga till kontakter i din databas:
 
@@ -266,7 +266,7 @@ Genom att slutföra de tre stegen har du tagit viktiga steg mot GDPR-efterlevnad
 
 ## Relaterat
 
-* [Ladda ner vår mall ”Förbered dig för GDPR”][3]
+* [Ladda ner vår mall "Förbered dig för GDPR"][3]
 * [Du kan läsa mer om hur SuperOffice CRM hjälper dig att respektera alla åtta grundläggande GDPR-rättigheter][5]
 * [Redigera e-postbekräftelsen om personskydd][6]
 

@@ -18,7 +18,7 @@ Führen Sie die nachfolgenden Schritte aus, um Akteure (Kunden, Lieferanten und 
 ## Wählen Sie die Akteure aus, die Sie aus dem ERP-System importieren möchten
 
 > [!NOTE]
-> Wenn das ![Symbol][img1] ERP Sync. inaktiv ist, müssen Sie unter der Registerkarte **Angebot/Sync** &gt; **Sync** die Synchronisierung deaktivieren.
+> Wenn das ![Symbol][img1] ERP Sync. inaktiv ist, müssen Sie unter der Registerkarte **Angebot/Sync** > **Sync** die Synchronisierung deaktivieren.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]

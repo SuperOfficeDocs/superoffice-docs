@@ -23,7 +23,7 @@ Um die Integration zu verwenden, müssen Sie 2 Einrichtungsschritte ausführen:
 
 * Richten Sie Google Workspace für die Integration in SuperOffice CRM Online ein.
 
-* Konfigurieren Sie die Dokumentvorlagen für die Verwendung, wie im Artikel „Konfigurieren – Handhabung von Dokumenten in Cloud Office“ beschrieben ist.
+* Konfigurieren Sie die Dokumentvorlagen für die Verwendung, wie im Artikel "Konfigurieren – Handhabung von Dokumenten in Cloud Office" beschrieben ist.
 
 > [!NOTE]
 > Je nach den Sicherheitseinstellungen Ihrer Organisation könnten Sie Administratorrechte für SuperOffice CRM benötigen, um Systemverbindungen herzustellen.

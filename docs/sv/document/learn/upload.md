@@ -11,7 +11,7 @@ language: sv
 
 # Ladda upp dokument
 
-1. Klicka på **Nytt** &gt; **Dokument** på toppraden.
+1. Klicka på **Nytt** > **Dokument** på toppraden.
 
 2. Dra och släpp dokument från Utforskaren till dialogrutan **Dokument**.
 

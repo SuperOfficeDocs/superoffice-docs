@@ -11,7 +11,7 @@ language: sv
 
 # Ta bort och återställa objekt
 
-För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och ”skräpfri” miljö. När du lägger till nya företag och kontakter ska du dubbelkolla att de inte har lagts till tidigare. Och naturligtvis, se till att du lägger till korrekt information om företag och kontakter. Ta även bort företag och kontakter som inte används och slå ihop dubbletter.
+För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och "skräpfri" miljö. När du lägger till nya företag och kontakter ska du dubbelkolla att de inte har lagts till tidigare. Och naturligtvis, se till att du lägger till korrekt information om företag och kontakter. Ta även bort företag och kontakter som inte används och slå ihop dubbletter.
 
 ## Slå ihop företag och kontakter
 
@@ -57,7 +57,7 @@ Borttagna företag och kontakter behålls som standard i papperskorgen i 14 daga
 
 Du har också möjlighet att återställa andra användares raderade företag och kontakter markera bara Visa borttagna företag för alla användare PÅ.
 
-1. Välj ![ikon][img1] **Personliga inställningar** &gt; **Papperskorg**.
+1. Välj ![ikon][img1] **Personliga inställningar** > **Papperskorg**.
 
 2. I dialogrutan väljer du fliken **Företag** eller **Kontakt**. Företag och kontakter du tagit bort visas.
 
@@ -81,7 +81,7 @@ Du har också möjlighet att återställa andra användares raderade företag oc
 | Avbryt | Avbryter borttagning för alla markerade poster. Dialogrutan stängs utan att någon post tas bort. |
 
 * Du kan välja att inte visa denna dialogruta genom att: Markera **Visa inte den här dialogrutan igen** längst ned i dialogrutan för borttagning.
-* Du kan välja att visa denna dialogruta igen genom att: Gå till ![ikon][img1] **Personliga inställningar** &gt; **Inställningar** &gt; **Funktioner** och sätt alternativet **Visa bekräftelsedialogruta** till **Nej**.
+* Du kan välja att visa denna dialogruta igen genom att: Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätt alternativet **Visa bekräftelsedialogruta** till **Nej**.
 
 > [!NOTE]
 > När du väljer att ta bort ett företag, urval eller projekt måste du alltid bekräfta borttagningen, och alternativet **Visa inte den här dialogrutan igen** är därför inte tillgängligt.

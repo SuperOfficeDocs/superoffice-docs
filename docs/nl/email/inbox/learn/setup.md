@@ -82,7 +82,7 @@ Als u e-mails wilt verzenden vanuit SuperOffice CRM, voert u de gegevens van uw 
 Sommige e-mailproviders, zoals Gmail, zullen pogingen tot aanmelding vanuit onbekende apps blokkeren. Controleer uw Postvak IN om te zien of uw e-mailprovider informatie naar u heeft verzonden over een onbevoegde aanmeldingspoging. Volg de instructies in de e-mail om SuperOffice toegang te geven tot uw account.
 
 > [!TIP]
-> Als u toegang wilt tot de e-mailopties, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** &gt; **E-mailopties**.
+> Als u toegang wilt tot de e-mailopties, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **E-mailopties**.
 
 <!-- Referenced links -->
 
