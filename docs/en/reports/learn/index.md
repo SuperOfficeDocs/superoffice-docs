@@ -35,7 +35,7 @@ Open the **Reports** screen by clicking the ![icon][img7] **Reports** button in 
 | ![icon][img6] | Text export | For exporting to text files. |
 
 > [!TIP]
-> To see what a finished report will look like, follow the procedure under [View reports][4].
+> To see what a finished report will look like, follow the procedure under [Preview reports][4].
 
 ## What would you like to do now?
 

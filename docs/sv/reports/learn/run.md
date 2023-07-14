@@ -22,7 +22,7 @@ För att [spara en rapport som ett dokument][1] (typ = Rapport) i SuperOffice CR
 
 ## Vad vill du göra nu?
 
-* [Granska rapporter][2]
+* [Förhandsgranska rapporter][2]
 * [Skriva ut rapporter][3]
 * [Spara rapporter som filer][4]
 * [Öppna rapporter från rapportarkivet (detaljkortet Dokument)][6]
@@ -31,7 +31,7 @@ För att [spara en rapport som ett dokument][1] (typ = Rapport) i SuperOffice CR
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
-[2]: view.md
+[2]: preview.md
 [3]: print.md
 [4]: save.md
 [6]: open-from-archive.md

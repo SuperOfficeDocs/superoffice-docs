@@ -41,7 +41,7 @@ Open het scherm **Rapporten** door te klikken op de ![pictogram][img7] knop **Ra
 
 * [Rapporteigenschappen weergeven][2]
 * [Rapporten maken][3]
-* [Rapporten bekijken][4]
+* [Voorbeeldweergave rapport][4]
 * [Rapporten afdrukken][5]
 * [Rapporten opslaan als bestand][9]
 * [Open rapporten in het rapportarchief (het sectietabblad Documenten )][6]
@@ -52,7 +52,7 @@ Open het scherm **Rapporten** door te klikken op de ![pictogram][img7] knop **Ra
 [1]: ../../dashboard/learn/index.md
 [2]: properties.md
 [3]: create.md
-[4]: view.md
+[4]: preview.md
 [5]: print.md
 [9]: save.md
 [6]: open-from-archive.md

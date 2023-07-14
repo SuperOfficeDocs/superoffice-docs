@@ -22,13 +22,11 @@ Etikettutskrift er nyttig for eksempel når du skal sende ut brev til mange mott
 4. I dialogboksen **Velg etikett** velger du etikettformatet du trenger og klikker på **OK**.
 
     > [!NOTE]
-    > I denne dialogboksen kan du også [legge til nye etikettformater,][2] samt [redigere][3] og [slette][4] eksisterende.
+    > I denne dialogboksen kan du også [legge til nye etikettformater,][2] samt redigere og slette eksisterende.
 
 5. Åpne den opprettede PDF-filen og skriv den ut.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/learn/labels/add-format.md
-[3]: ../../../../reports/learn/labels/edit-format.md
-[4]: ../../../../reports/learn/labels/remove-format.md
+[2]: ../../../../reports/learn/labels/index.md
 
 <!-- Referenced images -->

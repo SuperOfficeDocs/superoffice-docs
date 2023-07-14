@@ -22,7 +22,7 @@ Damit Sie in SuperOffice CRM einen [Bericht als Dokument speichern][1] können, 
 
 ## Was möchten Sie jetzt tun?
 
-* [Berichte anzeigen][2]
+* [Vorschau des Berichts][2]
 * [Berichte drucken][3]
 * [Berichte als Dateien speichern][4]
 * [Berichte aus dem Berichtsarchiv (die Bereichsregisterkarte Dokumente) öffnen][6]
@@ -31,7 +31,7 @@ Damit Sie in SuperOffice CRM einen [Bericht als Dokument speichern][1] können, 
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
-[2]: view.md
+[2]: preview.md
 [3]: print.md
 [4]: save.md
 [6]: open-from-archive.md

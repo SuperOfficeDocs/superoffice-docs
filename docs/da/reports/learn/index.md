@@ -35,13 +35,13 @@ På skærmbilledet **Rapporter** findes der en rapportgenerator med en række st
 | ![ikon][img6] | Teksteksport | Til eksport til tekstfiler. |
 
 > [!TIP]
-> Hvis du vil se, hvordan en færdig rapport kommer til at se ud, skal du følge proceduren under [Vis rapporter][4].
+> Hvis du vil se, hvordan en færdig rapport kommer til at se ud, skal du følge proceduren under [Forhåndsvis rapporter][4].
 
 ## Hvad vil du foretage dig nu?
 
 * [Visning af rapportegenskaber][2]
 * [Oprettelse af rapporter][3]
-* [Visning af rapporter][4]
+* [Se forhåndsvisning af rapport][4]
 * [Udskrivning af rapporter][5]
 * [Lagring af rapporter som filer][9]
 * [Åbning af rapporter fra rapportarkivet (detaljekortet Dokumenter)][6]
@@ -52,7 +52,7 @@ På skærmbilledet **Rapporter** findes der en rapportgenerator med en række st
 [1]: ../../dashboard/learn/index.md
 [2]: properties.md
 [3]: create.md
-[4]: view.md
+[4]: preview.md
 [5]: print.md
 [9]: save.md
 [6]: open-from-archive.md

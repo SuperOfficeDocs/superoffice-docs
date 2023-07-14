@@ -22,13 +22,11 @@ Het afdrukken van etiketten komt van pas wanneer u bijvoorbeeld brieven moet ver
 4. Selecteer in het dialoogvenster **Label kiezen** de labelopmaak die u nodig hebt klik op **OK**.
 
     > [!NOTE]
-    > In dit dialoogvenster kunt u ook [nieuwe etiketopmaken toevoegen][2] en bestaande etiketopmaken [bewerken][3] en [verwijderen][4].
+    > In dit dialoogvenster kunt u ook [nieuwe etiketopmaken toevoegen][2] en bestaande etiketopmaken bewerken en verwijderen.
 
 5. Open de gegenereerde PDF en druk deze af.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/learn/labels/add-format.md
-[3]: ../../../../reports/learn/labels/edit-format.md
-[4]: ../../../../reports/learn/labels/remove-format.md
+[2]: ../../../../reports/learn/labels/index.md
 
 <!-- Referenced images -->

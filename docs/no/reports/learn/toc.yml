@@ -30,19 +30,8 @@ items:
     href: delete-from-archive.md
   - name: Krysstabeller
     href: cross-tables.md
-- name: Arbeide med ledetekster
-  topicHref: labels/index.md
-  items:
-  - name: Vise etiketter
-    href: labels/index.md
-  - name: Legge til etikettformater
-    href: labels/add-format.md
-  - name: Redigere etikettformater
-    href: labels/edit-format.md
-  - name: Fjerne etikettformater
-    href: labels/remove-format.md
-  - name: Skriv ut etiketter
-    href: labels/print-labels.md
+- name: Arbeide med etiketter
+  href: labels/index.md
 - name: Søkekriterier
   topicHref: search-criteria/index.md
   items:

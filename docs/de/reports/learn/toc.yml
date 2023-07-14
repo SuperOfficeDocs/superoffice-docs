@@ -10,16 +10,14 @@ items:
   items:
   - name: Überblick
     href: working-with-reports.md
-  - name: Bericht anzeigen
-    href: view.md
+  - name: Vorschau des Berichts
+    href: preview.md
   - name: Berichtseigenschaften anzeigen
     href: properties.md
   - name: Bericht erstellen
     href: create.md
   - name: Bericht ausführen
     href: run.md
-  - name: Vorschau des Berichts
-    href: preview.md
   - name: Bericht drucken
     href: print.md
   - name: Bericht als Datei speichern
@@ -33,18 +31,7 @@ items:
   - name: Kreuztabellen
     href: cross-tables.md
 - name: Mit Etiketten arbeiten
-  topicHref: labels/index.md
-  items:
-  - name: Etiketten anzeigen
-    href: labels/index.md
-  - name: Etikettenformate hinzufügen
-    href: labels/add-format.md
-  - name: Etikettenformate bearbeiten
-    href: labels/edit-format.md
-  - name: Etikettenformate entfernen
-    href: labels/remove-format.md
-  - name: Etiketten drucken
-    href: labels/print-labels.md
+  href: labels/index.md
 - name: Suchkriterien
   topicHref: search-criteria/index.md
   items:

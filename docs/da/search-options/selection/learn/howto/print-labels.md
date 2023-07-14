@@ -22,13 +22,11 @@ Udskrivning af etiketter er f.eks. nyttigt, når du skal sende breve ud til mang
 4. I dialogboksen **Vælg etiket** skal du vælge formatet på den ledetekst, du vil bruge, og derefter klikke på **OK**.
 
     > [!NOTE]
-    > I denne dialogboks kan du blandt andet også [tilføje nye ledetekstformater][2] samt [redigere][3] og [slette][4] eksisterende.
+    > I denne dialogboks kan du blandt andet også [tilføje nye ledetekstformater][2] samt redigere og slette eksisterende.
 
 5. Åbn den oprettede PDF, og udskriv den.
 
 <!-- Referenced links -->
-[2]: ../../../../reports/learn/labels/add-format.md
-[3]: ../../../../reports/learn/labels/edit-format.md
-[4]: ../../../../reports/learn/labels/remove-format.md
+[2]: ../../../../reports/learn/labels/index.md
 
 <!-- Referenced images -->

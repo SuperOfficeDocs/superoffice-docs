@@ -45,7 +45,7 @@ Im Berichtsarchiv (der Bereichsregisterkarte **Dokumente**) unten in der Ansicht
 <!-- Referenced links -->
 [2]: cross-tables.md#export
 [3]: properties.md
-[4]: view.md
+[4]: preview.md
 [5]: ../../document/learn/screen/index.md
 [6]: open-from-archive.md
 [7]: filter.md

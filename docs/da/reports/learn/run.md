@@ -22,7 +22,7 @@ Hvis du vil [gemme en rapport som et dokument][1] (type = Rapport) i SuperOffice
 
 ## Hvad vil du foretage dig nu?
 
-* [Visning af rapporter][2]
+* [Se forhåndsvisning af rapport][2]
 * [Udskrivning af rapporter][3]
 * [Lagring af rapporter som filer][4]
 * [Åbning af rapporter fra rapportarkivet (detaljekortet Dokumenter)][6]
@@ -31,7 +31,7 @@ Hvis du vil [gemme en rapport som et dokument][1] (type = Rapport) i SuperOffice
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md
-[2]: view.md
+[2]: preview.md
 [3]: print.md
 [4]: save.md
 [6]: open-from-archive.md

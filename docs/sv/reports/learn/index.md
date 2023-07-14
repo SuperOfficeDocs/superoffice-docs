@@ -41,7 +41,7 @@ Fönstret **Rapporter** är en rapportgenerator med en uppsättning standardrapp
 
 * [Visa rapportegenskaper][2]
 * [Skapa rapporter][3]
-* [Granska rapporter][4]
+* [Förhandsgranska rapporter][4]
 * [Skriva ut rapporter][5]
 * [Spara rapporter som filer][9]
 * [Öppna rapporter från rapportarkivet (detaljkortet Dokument)][6]
@@ -52,7 +52,7 @@ Fönstret **Rapporter** är en rapportgenerator med en uppsättning standardrapp
 [1]: ../../dashboard/learn/index.md
 [2]: properties.md
 [3]: create.md
-[4]: view.md
+[4]: preview.md
 [5]: print.md
 [9]: save.md
 [6]: open-from-archive.md
