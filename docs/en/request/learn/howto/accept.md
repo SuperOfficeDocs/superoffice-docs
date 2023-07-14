@@ -1,9 +1,9 @@
 ---
 uid: help-en-request-accept
-title: Take responsibility for requests
-description: Take responsibility for requests
+title: Accept (take responsibility for) request
+description: How to accept a request to avoid someone else answering the request at the same time.
 author: SuperOffice RnD
-so.date: 02.13.2023
+so.date: 07.14.2023
 keywords: request, accept, responsibility, next in queue
 so.topic: howto
 so.audience: person
@@ -11,21 +11,34 @@ so.audience.tooltip: SuperOffice Service
 language: en
 ---
 
-# Accept or take responsibility for requests
+# Accept (take responsibility for) request
 
-This is particularly relevant for unassigned requests (those without a defined owner). To take over a request, it is important to follow the procedure below to identify that you have taken it over. Otherwise there is a risk of others answering the request at the same time.
+This is particularly relevant for unassigned requests (those without a defined owner). To take over a request, it is important to follow the procedures below to identify that you have claimed it. Otherwise there is a risk of others answering the request at the same time.
+
+| Context | Steps |
+|---|---|
+| You clicked **Get next request in queue** | Accept (the request is already open) |
+| You want more information before accepting | Open and accept |
+| Quickly accept one or more requests from a list | Select **Accept** from the context menu |
+
+## Accept directly from a list of request
+
+When viewing a list of requests:
+
+1. Right-click the request in a list.
+1. Select **Accept** from the pop-up context menu.
+
+    ![Right click on a request and select Accept -screenshot][img2]
+
+## Open and accept one request
+
+If you need more information before accepting, or use [Get next request in queue][6]:
 
 1. [Open the request][1].
 1. Accept:
 
     * Click the ![icon][img1] **Task** button and select **Accept**.
     * Or, in the **Owner** field, select yourself.
-
-[!include[Get next request in queue](includes/howto-get-next-request.md)]
-
-Or you can easily right click on the request in a list (to get the context menu) and select **Accept** in the menu.
-
-![Right click on a request and select Accept -screenshot][img2]
 
 ## Related topics
 
@@ -40,6 +53,7 @@ Or you can easily right click on the request in a list (to get the context menu)
 [3]: transfer.md
 [4]: forward.md
 [5]: close.md
+[6]: ../next-in-queue.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
