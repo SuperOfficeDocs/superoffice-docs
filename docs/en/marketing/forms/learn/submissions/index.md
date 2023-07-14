@@ -34,7 +34,7 @@ In the **Form submissions** tab you can view all submitted forms. Use the filter
 <!-- Referenced links -->
 [1]: track.md
 [2]: process.md
-[3]: process.md#filter-forms
+[3]: process.md#filter
 [4]: ../../../mailing/learn/follow-up/view-statistics.md
 
 <!-- Referenced images -->

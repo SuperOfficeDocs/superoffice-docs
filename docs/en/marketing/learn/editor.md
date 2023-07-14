@@ -128,7 +128,7 @@ In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") 
 
 ![Editor (old) -screenshot][img13]
 
-Go to our [help for SuperOffice version 10.1][2] to get the overview of the old editor.
+The user guide for the old editor is located in the [SuperOffice version 10.1 help][2].
 
 ## What would you like to do now?
 
