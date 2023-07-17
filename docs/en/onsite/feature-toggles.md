@@ -70,7 +70,7 @@ To enable toggled features - you need to add two sections manually in your NetSe
 
 | Feature                 | Toggle name |  Released in version | Available from version |
 |---|---|---|---|
-| New Service (*1)         | NewServiceRequests             |  10.2.5  | 10.2.1  |
+| New Service (*1)         | NewServiceRequest              |  10.2.5  | 10.2.1  |
 | New Notifications        | NewNotifications               |  10.2.5  | 10.2.5  |
 | New TimeZone             | NewTimezoneHandling            |  10.2.5  | 10.2.1  |
 | Configurable Screens Sale (*2)| ConfigurableSale               |  10.2.5  | 10.2.1  |
