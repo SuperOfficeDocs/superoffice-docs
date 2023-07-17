@@ -40,7 +40,7 @@ The Import function supports imports from the following sources:
 
 * Import all company and contact data. Make sure you link all columns in the import to the correct SuperOffice fields and specify the correct [Import settings][6] to include all the necessary data from the import source.
 
-* Import companies only: If you only want to import companies without contacts, go to[Import settings][6] and select the **None - do not import contact** option in the **Duplicate match** list box under **Contact**.
+* Import companies only: If you only want to import companies without contacts, go to [Import settings][6] and select the **None - do not import contact** option in the **Duplicate match** list box under **Contact**.
 
 * Import contacts only: If you only want to import contacts without companies, go to [Import settings][6] and select the **Import contacts without company** option in the **If no company name** list box under **Contact**.
 
@@ -52,6 +52,11 @@ If SuperOffice contains obsolete information and you want to update these fields
 
 If you are missing a lot of information about customers and contacts in SuperOffice, use the **Merge - update empty fields** action when importing companies and contacts. This will update only empty fields without overwriting the existing information.
 
+## Related topics
+
+* [Configure import settings][6]
+* [Create the import file][11]
+
 <!-- Referenced links -->
 [1]: import-from-excel.md
 [2]: import-from-outlook.md
@@ -60,5 +65,6 @@ If you are missing a lot of information about customers and contacts in SuperOff
 [5]: import-products-from-excel.md
 [6]: configure-import-settings.md
 [7]: ../../../onsite/win-client/learn/import/index.md
+[11]: create-import-file.md
 
 <!-- Referenced images -->

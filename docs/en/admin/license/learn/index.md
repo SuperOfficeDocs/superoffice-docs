@@ -1,77 +1,61 @@
 ---
 uid: help-en-licenses
-title: CRM and licenses
-description: CRM and licenses
+title: CRM and licences
+description: CRM and licences
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: license
+so.date: 07.05.2023
+keywords: license, licence, Windows
 so.topic: concept
 language: en
 ---
 
-# SuperOffice and licenses
+# SuperOffice and licences
 
-To log in to SuperOffice CRM from a Web client, you need the following licenses:
+To log in to SuperOffice CRM from a web client, you need login rights to SuperOffice CRM and an Essential or a Premium user plan.
 
-* Login rights to SuperOffice CRM
-* A system license to Standard CRM
-
-## View license information
+## View licence information
 
 1. In Settings and maintenance, go to the Licences screen.
 1. Select the **SuperOffice** tab.
-1. The list shows the licenses you have [purchased and activated][1]. Click a license name to view more information about it.
+1. The list shows the licences you have [purchased and activated][1]. Click a licence name to view more information about it.
 
 [!include[Tip](includes/tip-user-licenses.md)]
 
-## System licenses
+## System licences
 
-| License | Description |
+| Licence | Description |
 |---|---|
 | System | Specifies which systems you have access to. |
 | SuperOffice Server | Required to use SuperOffice CRM. |
 | Online Web Services | Required to access SuperOffice CRM from a web client. |
-| Area Management | Allows the definition of areas in Settings and maintenance. |
 | Sales Intelligence | Allows [SAINT status monitors][2]. |
 | Exchange Synchronizer | Allows use of SuperOffice Synchronizer.
 | SuperOffice Expander Services | Allows functionality for anonymous and external users via SuperOffice Audience or third-party applications, among other things. |
 | Customer Centre | Allows use of the Customer Centre. |
 | Sales Quote Management | Allows use of quotes. |
 
-## Site licenses
+## User licences (plans)
 
-There are also so-called site licenses. A *site* in SuperOffice terms corresponds to a database or a satellite database. A site license specifies the following:
+Finally, there are user licences for SuperOffice CRM, which are purchased for a specific number of users. This applies amongst others to the following products:
 
-| License | Description |
-|---|---|
-| Satellite | The number of satellite databases your organization can define. |
-| Reporter Studio | The maximum number of sites which can use SuperOffice Reporter Studio. |
-| Audience | The maximum number of sites which can use SuperOffice Audience. |
+* Sales-Essentials
+* Sales-Premium
+* Service-Essentials
+* Service-Premium
+* Marketing
 
-## User licenses (Windows - legacy)
+Read more about [SuperOffice user plans and subscriptions][6].
 
-Finally, there are user licenses for SuperOffice CRM for Windows, which are purchased for a specific number of users. This applies amongst others to the following products:
+## Site and User licences (Windows - End of Life)
 
-| License | Description |
-|---|---|
-| Standard CRM User | Access to Standard CRM. |
-| Marketing User | Access to the Marketing module (SuperOffice Marketing), in addition to Standard CRM. |
-| Sales User | Access to the Sale module, in addition to Standard CRM. |
-| Service User | Access to SuperOffice Service, in addition to Standard CRM. |
-| Complete CRM User | Access to Standard CRM, Sale and SuperOffice Service. |
-| Windows App | Access to the Windows client for SuperOffice CRM. |
-| Remote Travel | Access to Remote Travel, which allows synchronization between the local database and the central SuperOffice database when the user is out traveling. |
-| Pocket CRM | Access to the Pocket CRM app for SuperOffice CRM. |
-| Outlook Synchronizer | Access to synchronization with Outlook. |
-| Sale Quote Access | Access to the Quote module, in addition to Standard CRM. |
+Licences for SuperOffice CRM for Windows (last release [SuperOffice G8 8.5 R17][5]) are purchased for a specific number of users.
 
-> [!NOTE]
-> You assign user licenses (CAL / Client Access Licence) to users from the **Associates** tab in the Users screen.
+Read more about licences in [earlier versions of SuperOffice][7].
 
 ## Related topics
 
-* [Buy and activate licenses][1]
-* [About the Licenses screen][4]
+* [Buy and activate licences][1]
+* [About the Licences screen][4]
 * [System events][3]
 
 <!-- Referenced links -->
@@ -79,5 +63,8 @@ Finally, there are user licenses for SuperOffice CRM for Windows, which are purc
 [2]: ../../../sale/saint/learn/index.md
 [3]: ../../learn/system-events.md
 [4]: screen/index.md
+[5]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=SuperOffice_8.5_-_R17
+[6]: ../../../../en/admin/license/user-plans.md
+[7]: https://help.superoffice.com/Documentation/Help/EN/CRM/WebHelpAdmin/index.htm#t=chap03%2FCRM_and_licences.htm
 
 <!-- Referenced images -->

@@ -5,7 +5,9 @@ description: Replace existing template
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: howto
+so.audience: settings
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -17,3 +19,12 @@ language: en
 
 > [!NOTE]
 > If you try to replace the existing document template without changing the name, SuperOffice will rename the updated version of the template.
+
+## Related topics
+
+* [All template variables][1]
+
+<!-- Referenced links -->
+[1]: ../../../../en/document/templates/variables/index.md
+
+<!-- Referenced images -->
