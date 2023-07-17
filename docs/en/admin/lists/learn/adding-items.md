@@ -5,7 +5,7 @@ description: Adding items
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
@@ -23,7 +23,7 @@ language: en
 
 4. In the dialog, enter the required name of the item in the **Name** field.
 
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. Optionally, type in a description of the item in the **Description** field.
 

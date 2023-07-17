@@ -13,14 +13,14 @@ language: en
 
 # Manage user groups
 
-## <a id="create-user-group" />Create user group
+## <a id="create" />Create user group
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Select ![icon][img1] **Lists** in the Navigator.
+1. Select ![icon][img2] **Lists** in the Navigator.
 1. Choose **General - User group** from the list.
 1. Enter information in the dialog and click **OK**.
 
-## <a id="delete-user-group" />Delete user group
+## <a id="delete" />Delete user group
 
 1. Go to the **General - User group** list as described above.
 1. Click the name of the user group in question.
@@ -29,4 +29,4 @@ language: en
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-lists-active.png
+[img2]: ../../../../../common/icons/nav-admin-lists-active.png
