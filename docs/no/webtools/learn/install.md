@@ -1,7 +1,7 @@
 ---
 uid: help-no-webtools-install
 title: Installer WebTools
-description: "Hvis du bruker Windows OS, trenger du WebTools for å integrere Outlook- og Microsoft Office-dokumentprogrammene dine med SuperOffice CRM."
+description: "Hvis du bruker Windows OS, trenger du WebTools for å integrere Outlook- og Microsoft 365-dokumentprogrammene dine med SuperOffice CRM."
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: WebTools
@@ -18,7 +18,7 @@ language: no
 
 * Det kan hende du trenger administrative rettigheter til SuperOffice CRM, avhengig av organisasjonens sikkerhetsinnstillinger, for å opprette systemtilkoblinger.
 
-* For Office 365-tilkoblinger må du også kontrollere rettighetene dine i Office 365-miljøet.
+* For Microsoft 365-tilkoblinger må du også kontrollere rettighetene dine i Microsoft 365-miljøet.
 
 * Hvis du bruker en Citrix-tilkobling, må IT-teamet opprette tilkoblingene for deg.
 
@@ -45,7 +45,7 @@ Se denne videoen eller følg veiledningen nedenfor for å lære hvordan du insta
 
 Med WebTools installert kan du begynne å opprette dokumenter fra SuperOffice
 
-## Installer WebTools for Mac
+## Installer WebTools for macOS
 
 1. Gå til hovedmenyen i SuperOffice og velg **Last ned + SuperOffice WebTools**.
 

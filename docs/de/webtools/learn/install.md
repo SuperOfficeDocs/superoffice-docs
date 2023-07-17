@@ -1,7 +1,7 @@
 ---
 uid: help-de-webtools-install
 title: WebTools installieren
-description: "Wenn Sie das Windows-Betriebssystem verwenden, benötigen Sie WebTools, um Ihre Outlook- und Microsoft Office-Dokumentenanwendungen in SuperOffice CRM zu integrieren."
+description: "Wenn Sie das Windows-Betriebssystem verwenden, benötigen Sie WebTools, um Ihre Outlook- und Microsoft 365-Dokumentenanwendungen in SuperOffice CRM zu integrieren."
 author: SuperOffice RnD
 so.date: 02.10.2023
 keywords: WebTools
@@ -18,7 +18,7 @@ language: de
 
 * Je nach den Sicherheitseinstellungen Ihrer Organisation könnten Sie Administratorrechte für SuperOffice CRM benötigen, um Systemverbindungen herzustellen.
 
-* Bei Office 365-Verbindungen müssen Sie auch Ihre Rechte in der Office 365-Umgebung überprüfen.
+* Bei Microsoft 365-Verbindungen müssen Sie auch Ihre Rechte in der Microsoft 365-Umgebung überprüfen.
 
 * Wenn Sie eine Citrix-Verbindung verwenden, muss Ihr IT-Team die Verbindungen für Sie herstellen.
 

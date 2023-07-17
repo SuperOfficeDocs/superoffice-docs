@@ -15,13 +15,13 @@ WebTools forbinder SuperOffice med dine dokumenter og e-mail.
 
 ## Windows OS
 
-Hvis du bruger Windows OS, skal du bruge WebTools til at integrere dine Outlook- og Microsoft Office-dokumentapplikationer med SuperOffice CRM.
+Hvis du bruger Windows OS, skal du bruge WebTools til at integrere dine Outlook- og Microsoft 365-dokumentapplikationer med SuperOffice CRM.
 
 WebTools består af et e-mailplugin og et dokumentplugin:
 
 * **Mail Link** forbinder dit Outlook med SuperOffice CRM, så du kan vedhæfte dokumenter fra dit CRM-løsning og arkivere kommunikation i din CRM-løsning via SuperOffice CRM-båndet. Du kan også sende mails fra CRM-grænsefladen ved at højreklikke på en person eller klikke på en mailadresse på et personkort/skærmbillede. Dette åbner automatisk en e-mail i Outlook.
 
-* **Webudvidelser** forbinder dit Windows-dokumentstyringssystem med SuperOffice CRM. Du vil kunne åbne og redigere Microsoft Office-dokumenter direkte i SuperOffice.
+* **Webudvidelser** forbinder dit Windows-dokumentstyringssystem med SuperOffice CRM. Du vil kunne åbne og redigere Microsoft 365-dokumenter direkte i SuperOffice.
 
 Du vil automatisk blive bedt om at opgradere eller installere SuperOffice WebTools, når du logger på SuperOffice CRM via browseren for første gang på din PC.
 
@@ -33,12 +33,12 @@ Hvis dette velkomstskærmbillede ikke vises, eller hvis du vil downloade det ige
 * [Download og installer WebTools][1] - supportside
 * [Hvad skal jeg gøre, når SuperOffice-arkiveringsknappen er forsvundet fra Outlook?][3] - FAQ
 
-## Mac OS
+## macOS
 
-Installation af WebTools til Mac muliggør en integration mellem Microsoft Office-dokumenter og SuperOffice CRM (ikke e-mail). Hvis du bruger en Mac og ønsker at integrere din e-mail, skal du konfigurere din SuperOffice-indbakke
+Installation af WebTools til Mac muliggør en integration mellem Microsoft 365-dokumenter og SuperOffice CRM (ikke e-mail). Hvis du bruger en Mac og ønsker at integrere din e-mail, skal du konfigurere din SuperOffice-indbakke
 
 > [!NOTE]
-> SuperOffice giver kun integration til Microsoft Office-dokumentapplikationer og **ikke til Apple-applikationerne** Pages, Numbers og Keynote. Du skal bruge Office-pakken for at have dokumenter integreret.
+> SuperOffice giver kun integration til Microsoft 365-dokumentapplikationer og **ikke til Apple-applikationerne** Pages, Numbers og Keynote. Du skal bruge Office-pakken for at have dokumenter integreret.
 
 ## Relateret indhold
 

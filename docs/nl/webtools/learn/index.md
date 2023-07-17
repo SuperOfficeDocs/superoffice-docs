@@ -15,13 +15,13 @@ WebTools koppelt SuperOffice met uw documenten en e-mail.
 
 ## Windows OS
 
-Als u Windows OS gebruikt, hebt u WebTools nodig om uw Outlook- en Microsoft Office-documenttoepassingen te integreren met SuperOffice CRM.
+Als u Windows OS gebruikt, hebt u WebTools nodig om uw Outlook- en Microsoft 365-documenttoepassingen te integreren met SuperOffice CRM.
 
 WebTools bestaat uit een e-mail plugin en een document plugin:
 
 * **Mail Link** koppelt uw Outlook met SuperOffice CRM, zodat u documenten uit uw CRM kunt bijvoegen en communicatie in uw CRM kunt archiveren via het SuperOffice CRM-lint. U kunt ook e-mails verzenden vanuit de CRM-interface door met de rechtermuisknop op een persoon te klikken of op een e-mailadres op een persoonskaart/scherm te klikken. Dit opent automatisch een e-mail in Outlook.
 
-* **Web Extensions** koppelen uw Windows-documentbeheersysteem met SuperOffice CRM. U kunt Microsoft Office-documenten rechtstreeks in SuperOffice CRM openen en bewerken.
+* **Web Extensions** koppelen uw Windows-documentbeheersysteem met SuperOffice CRM. U kunt Microsoft 365-documenten rechtstreeks in SuperOffice CRM openen en bewerken.
 
 U wordt automatisch gevraagd om SuperOffice Web Tools te upgraden of te installeren wanneer u zich voor de eerste keer op uw pc aanmeldt bij SuperOffice CRM.
 
@@ -33,12 +33,12 @@ Als dit welkomstscherm niet verschijnt of u het opnieuw wilt downloaden, kunt u 
 * [Download en installeer WebTools][1] - ondersteuningspagina
 * [Wat te doen als de SuperOffice-archiveringsknop uit Outlook is verdwenen?][3] - FAQ
 
-## Mac OS
+## macOS
 
-Het installeren van WebTools voor Mac maakt een integratie mogelijk tussen Microsoft Office-documenten en SuperOffice CRM (geen e-mail). Als u een Mac gebruikt en uw e-mail wilt integreren, moet u uw SuperOffice Inbox configureren
+Het installeren van WebTools voor Mac maakt een integratie mogelijk tussen Microsoft 365-documenten en SuperOffice CRM (geen e-mail). Als u een Mac gebruikt en uw e-mail wilt integreren, moet u uw SuperOffice Inbox configureren
 
 > [!NOTE]
-> SuperOffice biedt alleen integratie voor Microsoft Office-documenttoepassingen en **niet voor Apple-toepassingen** Pages, Numbers en Keynote. U hebt het Office-pakket nodig om documenten te integreren.
+> SuperOffice biedt alleen integratie voor Microsoft 365-documenttoepassingen en **niet voor Apple-toepassingen** Pages, Numbers en Keynote. U hebt het Office-pakket nodig om documenten te integreren.
 
 ## Gerelateerde inhoud
 
