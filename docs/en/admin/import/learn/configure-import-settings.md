@@ -56,12 +56,15 @@ This applies to the following, among other things:
 
 **Existing data:**
 
-| **Company** | **Address** | **VAT No.** | **Code** |
+| Company | Address | VAT No. | Code |
+|---|---|---|---|
 | **Import Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
 **Action:**
 
+| Action | Company | Address | VAT No. | Code |
+|---|---|---|---|---|
 | **Merge** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
 | **Replace** | ACME Inc. | Main street 456 | 11223344 | - |
 | **Skip record** | ACME Inc. | Broadway 123 | - | ACME1 |
