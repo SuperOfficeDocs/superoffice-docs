@@ -25,17 +25,17 @@ To add reports as favourites, see [Favourite reports][1].
 
 ## Accessing your favourites
 
-You can access your favourites from the following places in the application:
+From the Navigator:
 
-* Directly from the Navigator:
-    1. Click the word **Company**, **Contact**, **Sale**, **Project**, **Requests**, or **Selection** in the Navigator.
-    1. Click ![icon][img1].
-    1. Select the item you want to view.
+1. Click the word **Company**, **Contact**, **Sale**, **Project**, **Requests**, or **Selection** in Navigator.
+2. Click ![icon][img1].
+3. Select the item you want to view.
 
-* In the [Side panel][4]:
-    1. Click the ![icon][img4] arrow next to the side panels name.
-    1. Select **My favourites**. Depending on the main card you see, you have the list of all your favourites.
-    1. In the footer you can click the check box *On* to show **Xx only** or *Off* to show all of your favourites.
+In the [side panel][4]:
+
+1. Click the ![icon][img4] arrow next to the side panel's name.
+2. Select **My favourites**.
+3. Optionally, click the checkbox at the bottom of the side panel to show only one type of favorites. For example, if the Sale screen is open, click **Sales only** to show only favorite sales.
 
 > [!TIP]
 > If you hold the mouse pointer over a record in the favourites list, a tooltip is displayed containing additional data about the record.

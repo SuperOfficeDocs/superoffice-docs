@@ -9,7 +9,7 @@ so.topic: concept
 language: en
 ---
 
-# The section tabs / archives
+# The section tabs (archives)
 
 The section tabs (also called archives) appear below the main card. These contain, for example, lists of contacts, project members, sales and activities that are linked to the relevant record in the main card.
 
