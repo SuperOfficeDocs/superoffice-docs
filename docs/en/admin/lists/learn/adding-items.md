@@ -4,7 +4,7 @@ title: Adding items
 description: Adding items
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
+keywords: Settings and maintenance, list
 so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance

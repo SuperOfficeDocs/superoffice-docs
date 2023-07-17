@@ -5,7 +5,7 @@ description: Replace existing template
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
@@ -25,6 +25,6 @@ language: en
 * [All template variables][1]
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/index.md
+[1]: ../../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->

@@ -5,7 +5,7 @@ description: Document template
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
@@ -41,6 +41,6 @@ You can also create your own templates in the applications you have chosen to us
 [4]: creating-template-document.md
 [5]: organize/user-group-filtering.md
 [6]: add-template.md
-[7]: ../../../document/templates/variables/index.md
+[7]: ../../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->

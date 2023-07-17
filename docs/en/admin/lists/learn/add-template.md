@@ -97,15 +97,14 @@ Here you can add translated versions of the document template.
 
 * [How do I upload and use document templates?][3] - FAQ
 * [Replace existing template][1]
-* [All template variables][6]
+* [All template variables][2] - Reference
 
 <!-- Referenced links -->
 [1]: replace-existing-template.md
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../../../en/document/templates/variables/index.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-upload-and-use-document-templates-in-superoffice-crm/
 [4]: ../../../sale/saint/learn/index.md
 [5]: ../../../document/learn/index.md
-[6]: ../../../document/templates/variables/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-down.png

@@ -5,7 +5,7 @@ description: Use standard templates
 author: SuperOffice RnD
 so.date: 07.07.2023
 keywords: Settings and maintenance
-so.topic: help
+so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
@@ -41,11 +41,11 @@ You can edit the standard templates supplied with SuperOffice CRM and save them 
 ## Related topics
 
 * [Create a template document][2]
-* [All template variables][3]
+* [All template variables][3] - Reference
 
 <!-- Referenced links -->
 [1]: add-template.md
 [2]: creating-template-document.md
-[3]: ../../../document/templates/variables/index.md
+[3]: ../../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->

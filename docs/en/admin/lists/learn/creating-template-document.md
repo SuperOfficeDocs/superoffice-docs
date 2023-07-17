@@ -5,7 +5,7 @@ description: Creating a template document
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
@@ -17,7 +17,7 @@ You create a template as a document in an application which is linked to SuperOf
 
 You can also create templates in HTML format, and use the SuperOffice HTML editor to edit the template.
 
-**Steps:**
+## Steps
 
 1. Start the required application.
 2. Create a new document.
@@ -28,11 +28,11 @@ After you define a template and save it in the template folder, you must [link t
 
 ## Related topics
 
-* [All template variables][3]
+* [All template variables][3] - Reference
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/template-variables.md
 [2]: add-template.md
-[3]: ../../../document/templates/variables/index.md
+[3]: ../../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->

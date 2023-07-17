@@ -4,7 +4,7 @@ title: Template variables
 description: With template variables you can personalise and automate the input of customer data
 author: SuperOffice RnD
 so.date: 02.23.2023
-keywords: document, template, fariable
+keywords: document, template, variable
 so.topic: concept
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
@@ -150,13 +150,8 @@ When generating email templates for requests and mailings (and message templates
 
 The reference is grouped by area. [Go to reference][1]
 
-## Related topics
-
-* [All template variables][3]
-
 <!-- Referenced links -->
 [1]: ../../../en/document/templates/variables/index.md
 [2]: ../../../en/document/templates/variables/from-company-card.md
-[3]: ../templates/variables/index.md
 
 <!-- Referenced images -->

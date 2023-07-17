@@ -5,7 +5,7 @@ description: using document templates for multiple languages
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Settings and maintenance
-so.topic: help
+so.topic: howto
 so.audience: settings
 so.audience.tooltip: Settings and maintenance
 language: en
@@ -13,7 +13,7 @@ language: en
 
 # Use document templates in multiple languages in the project and sales guides
 
-If your company has divisions in several countries, it may be useful to have the document templates in the project and sales guides available in several languages. Firstly, you must place the document templates for the different languages in the correct folders, and then specify who is to use the different language versions.
+If your company has divisions in several countries, it may be useful to have the document templates in the project and sales guides available in several languages. First, you must place the document templates for the different languages in the correct folders, and then specify who is to use the different language versions.
 
 ## Add document templates for languages
 
@@ -21,7 +21,7 @@ If your company has divisions in several countries, it may be useful to have the
 
 2. Create a folder for each of the languages you want document templates for (see the following table). For example, *\SuperOffice\SO_Arc\Template\GE*.
 
-3. Place document templates for the different languages in the appropriate language folders. Each document template must have exactly the same file name and file type as the main template. The main template is the document template in the main language you use in SuperOffice. You will find it in the **Document template** list in the **Lists** screen (double-click a document template in the list to see the file name/type). See Add items to the Document - Template list
+3. Place document templates for the different languages in the appropriate language folders. Each document template must have exactly the same file name and file type as the main template. The main template is the document template in the main language you use in SuperOffice. You will find it in the **Document template** list in the **Lists** screen (double-click a document template in the list to see the file name/type).
 
 > [!TIP]
 > If the document template for the language in question is NOT in the language folder, the document template in the main language is used.
@@ -29,7 +29,7 @@ If your company has divisions in several countries, it may be useful to have the
 ### Folder names for the different languages
 
 | Folder name | Language |
-|---|---|
+|-|---|
 | NO | Norwegian |
 | SP | Spanish |
 | US | English |
@@ -69,9 +69,9 @@ You now need to select the correct document languages for the users who are goin
 
 ## Related topics
 
-* [All template variables][1]
+* [All template variables][1] - Reference
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/index.md
+[1]: ../../../../en/document/templates/variables/index.md
 
 <!-- Referenced images -->
