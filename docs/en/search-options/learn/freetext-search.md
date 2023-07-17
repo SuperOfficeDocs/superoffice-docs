@@ -9,14 +9,14 @@ so.topic: howto
 language: en
 ---
 
-# Free-text search
+# Freetext search
 
-The text field at the upper right in SuperOffice CRM is used for free-text searches. This lets you search in SuperOffice for any text that users have entered into the database, such as company name, department, information about contacts, and follow-ups.
+The search field at the upper right in SuperOffice CRM is used for freetext searches. This lets you search in SuperOffice for any text that users have entered into the database, such as company name, department, information about contacts, and follow-ups.
 
-![Free-text search -screenshot][img1]
+![Freetext search -screenshot][img1]
 
 > [!NOTE]
-> If the free-text search field is not visible in the upper-right corner, this option has not been activated in Settings and maintenance.
+> If the freetext search field is not visible in the upper-right corner, this option has not been activated in Settings and maintenance.
 
 ## Steps
 
@@ -43,7 +43,7 @@ The text field at the upper right in SuperOffice CRM is used for free-text searc
 
 * You can search for text from the **Document** dialog, but you cannot search the actual contents of documents. A search is always made first on text that is in the **Our Ref** field in the **Document** dialog.
 
-* Certain words are ignored in a free-text search. [!include[SM](../../learn/includes/are-defined-sm.md)]
+* Certain words are ignored in the freetext search. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
 ## Why am I getting no hits for a search word that I know is in the database?
 

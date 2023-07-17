@@ -2,8 +2,8 @@
 uid: help-en-viewing-activities
 title: Viewing activities
 description: Viewing activities
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Kirsti Aakerholt
+so.date: 06.28.2023
 keywords: company
 so.topic: help
 language: en
@@ -16,15 +16,17 @@ The [activities][1] displayed depend on which of the following checkboxes you se
 * Follow-ups
 * Documents
 * Mailings
-* Other (chat records and form submissions)
+* Chat sessions
+* Form submissions
 
-You can show all activities, or just one of the types.
+![Activities section tabs shows filter options of different record types -screenshot][img1]
 
-> [!TIP]
-> You can also [filter activities][3] by date and user.
+You can show all activities, or just one of the types. Click the ![icon][img2] **Filter** button to [filter activities][3] by date and user.
 
 <!-- Referenced links -->
 [1]: index.md
 [3]: ../section-tabs/filter.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/learn/activities-filter.png
+[img2]: ../../../../common/icons/filter-icon.png
