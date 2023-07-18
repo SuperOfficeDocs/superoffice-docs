@@ -39,7 +39,7 @@ This integration allows you to store all documents and emails in SharePoint Onli
 [1]: change-to-sharepoint.md
 [2]: ../../../../../en/document/cloud/overview.md
 
-[5]: ../../../document/cloud/sharepoint-documents/set-up.md
-[6]: ../../../document/cloud/sharepoint-documents/requirements.md
+[5]: ../../../../../en/document/cloud/sharepoint-documents/set-up.md
+[6]: ../../../../../en/document/cloud/sharepoint-documents/requirements.md
 
 <!-- Referenced images -->

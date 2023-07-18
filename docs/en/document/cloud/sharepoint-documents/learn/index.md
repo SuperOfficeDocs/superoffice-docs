@@ -30,7 +30,7 @@ To set up SharePoint as your document library in SuperOffice, you need:
   * Need access to 'Global Admin' rights in Microsoft 365 (to be able to authenticate SuperOffice as a trusted app in your Microsoft 365 solution). Either during setup or send a link to someone who is.
 
 > [!NOTE]
-> If you do not have a Microsoft 365 subscription and are unable to sign up for one, you can use the default SuperOffice document library, and each user have to install WebTools for Windows OS or Mac OS.
+> If you do not have a Microsoft 365 subscription and are unable to sign up for one, you can use the default SuperOffice document library, and each user have to install WebTools for Windows or macOS.
 
 ## Get started
 

@@ -23,9 +23,9 @@ Connecting your emails, documents, and calendar to SuperOffice will help you wor
 
 | | Application | Description | Options |
 |-|---|---|---|
-| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| |
-| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library (default)<br /> [Microsoft 365/Sharepoint][2] <br /> [Google Workspace][3] |
-| ![icon][img6] | **Calendar** | Send and receive invitations. | |
+| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only) <br />[SuperOffice Inbox][6] <br /> [SuperOffice for Outlook][7]|
+| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library (WebTools)<br /> [Microsoft 365/Sharepoint][2] <br /> [Google Workspace][3] |
+| ![icon][img6] | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6] <br/> [Synchronizer for SuperOffice][8] <br /> [WebTools for Mac][5]|
 |
 
 ## What solution does your company use?
@@ -54,9 +54,14 @@ The integrations you need depend on your operating system, your email client, an
 *Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
 
 <!-- Referenced links -->
-[1]: connect-superoffice-integration.md
-[2]: connect-microsoft-365.md
-[3]: connect-google-workspace.md
+[1]: default-win.md
+[2]: microsoft-365.md
+[3]: google-workspace.md
+[4]: ../../../webtools/learn/install.md
+[5]: ../../../webtools/learn/install-mac.md
+[6]: ../../../email/inbox/learn/setup.md
+[7]: ../../../email/superoffice-for-outlook/learn/index.md
+[8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/learn/diary-notification.png

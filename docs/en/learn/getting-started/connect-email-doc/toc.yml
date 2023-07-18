@@ -1,25 +1,14 @@
 items:
 - name: Overview
   href: index.md
-- name: SuperOffice default
-  href: connect-superoffice-integration.md
+- name: SuperOffice default (Windows)
+  href: default-win.md
+- name: SuperOffice default (macOS)
+  href: default-mac.md
 - name: Microsoft 365
-  href: connect-microsoft-365.md
+  href: microsoft-365.md
 - name: Google workspace
-  href: connect-google-workspace.md
-- name: Install integrations
+  href: google-workspace.md
+- name: WebTools
+  href: ../../../webtools/learn/toc.yml
   topicHref: ../../../webtools/learn/index.md
-  items:
-  - name: WebTools
-    href: ../../../webtools/learn/toc.yml
-    topicHref: ../../../webtools/learn/index.md
-  - name: SuperOffice for Outlook
-    topicHref: ../../../email/superoffice-for-outlook/learn/index.md
-  - name: Inbox setup
-    topicHref: ../../../email/inbox/learn/setup.md
-  - name: Gmail Link
-    topicHref: ../../../email/gmail-link/learn/install.md
-  - name: Microsoft 365 site installation
-    topicHref: ../../../admin/preferences/learn/document-library/change-to-sharepoint.md
-  - name: Google workspace site installation
-    href: install-google-workspace.md
