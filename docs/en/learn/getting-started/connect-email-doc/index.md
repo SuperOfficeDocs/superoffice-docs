@@ -1,41 +1,42 @@
 ---
-uid: help-en-connect-email-document-diary
-title: Connect email, document and diary
-description: Connect your emails, documents and diary to SuperOffice CRM.
+uid: help-en-connect-email-doc-cal
+title: Connect email, document, and calendar
+description: Learn which integration options you need based on your operating system, email client, and the document programs you use in this how-to guide.
 author: Kirsti Aakerholt
-so.date: 05.22.2023
+so.date: 07.18.2023
 keywords: email, document, diary, invitation
-so.topic: howto
+so.topic: concept
 so.version: 10
 so.lang: en
 ---
 
-# Connect email, document and diary (invitation)
+# Connect email, document, and calendar
 
-Connecting your emails, your documents and your diary (for invitations) to SuperOffice CRM will help you work more efficiently and make it easier to collaborate with your colleagues.
+Connecting your emails, documents, and calendar to SuperOffice will help you work more efficiently and make it easier to collaborate with your colleagues. It lets you:
+
+* Share all communication you have with your customers and contacts, including emails and files, internally.
+* Have all your appointments in SuperOffice linked to the correct contact.
+* Handle incoming and outgoing invitations.
+* Get your iCal events to show up in your SuperOffice diary.
 
 ## What to connect?
 
-The setup or installation contains of three different parts:
-
-| | Application | Description |
-|---|---|---|
-| ![icon][img4] | **E-mail integration** | Possibility to archive incoming and outgoing emails. Using SuperOffice will help you to share all communication you have with your contacts, that also includes e-mails. And to be able to archive incoming or outgoing emails you need to have some kind of integration between SuperOffice and your email client.|
-| ![icon][img5] | **Document** | Possibility to archive all kinds of files used in your communication with customers and contacts. The standard implementation for SuperOffice is the default SuperOffice document library, but you can also set up to use [Office 365/Sharepoint document library][2] or [Google Workspace library][3]. |
-| ![icon][img6] | **Diary / Invitation** | Possibility to use your diary for incoming and outgoing invitations. When having incoming and outgoing invitations, it's neat to have all your appointments inside SuperOffice linked to the correct contact. To be able to get your iCals to show up in your diary you should do one of the installation/setup for your solution. |
+| | Application | Description | Options |
+|-|---|---|---|
+| ![icon][img4] | **Email** | Archive incoming and outgoing emails.| |
+| ![icon][img5] | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library (default)<br /> [Microsoft 365/Sharepoint][2] <br /> [Google Workspace][3] |
+| ![icon][img6] | **Calendar** | Send and receive invitations. | |
 |
 
-## What solution does your organisation use?
+## What solution does your company use?
 
-Which integration options you need is based on your operating system, email client, and the document programs you use. Which solution do you use to send emails and create/save documents?
+The integrations you need depend on your operating system, your email client, and the document programs you use. Which solution do you use to send emails and create/save documents?
 
-### Choose your solution below
+* [SuperOffice (default)][1]
+* [Microsoft 365 (Outlook and Sharepoint)][2]
+* [Google Workspace (Gmail)][3]
 
-* [SuperOffice default][1]
-* [Microsoft 365 (Sharepoint)][2]
-* [Google Workspace][3]
-
-## Examples after setup
+## Examples
 
 ### Diary with incoming invitations
 
@@ -47,10 +48,10 @@ Which integration options you need is based on your operating system, email clie
 ![SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons -screenshot][img2]
 *SuperOffice Inbox is set up and will get incoming invitations with Accept/Decline buttons*
 
-### Use of SuperOffice for Outlook application
+### SuperOffice for Outlook application
 
-![Use the application **SuperOffice for Outlook** to archive mails to SuperOffice -screenshot][img3]
-*Use the application **SuperOffice for Outlook** to archive mails to SuperOffice*
+![Use the application **SuperOffice for Outlook** to archive emails to SuperOffice -screenshot][img3]
+*Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
 
 <!-- Referenced links -->
 [1]: connect-superoffice-integration.md
@@ -58,9 +59,9 @@ Which integration options you need is based on your operating system, email clie
 [3]: connect-google-workspace.md
 
 <!-- Referenced images -->
-[img1]: ../media/diary-notification.png
-[img2]: ../media/inbox-invitation.png
-[img3]: ../media/outlook-archive-mail-superoffice-for-outlook.png
+[img1]: ../../../../media/loc/en/learn/diary-notification.png
+[img2]: ../../../../media/loc/en/learn/inbox-invitation.png
+[img3]: ../../../../media/loc/en/learn/outlook-archive-mail-superoffice-for-outlook.png
 [img4]: ../../../../../common/icons/email.png
 [img5]: ../../../../../common/icons/document.png
 [img6]: ../../../../../common/icons/nav-diary.png
