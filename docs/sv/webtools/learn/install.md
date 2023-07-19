@@ -16,11 +16,7 @@ language: sv
 
 ## Krav
 
-* Beroende på ditt företags säkerhetsinställningar kan du behöva administratörsbehörighet i SuperOffice CRM för att koppla samman systemen.
-
-* För Microsoft 365-kopplingar måste du också kontrollera dina rättigheter i Microsoft 365-miljön.
-
-* Om du använder en Citrix-anslutning, måste IT-teamet göra kopplingarna åt dig.
+[!include[Requirements](includes/pre-req.md)]
 
 ## Installera WebTools for Windows OS
 
@@ -45,48 +41,12 @@ Titta på den här videon eller följ guiden nedan för att lära dig hur du ins
 
 Med WebTools installerat kan du börja skapa dokument i SuperOffice
 
-## Installera WebTools för macOS
-
-1. Gå till huvudmenyn i SuperOffice och välj **Ladda ner** > **SuperOffice WebTools**.
-
-1. Öppna filen i **DiskImage** och dra och släpp applikationsfilen i mappen *appar* på din Mac
-
-    ![Dra och släpp SuperOffice-ikonen i mappen appar -screenshot][img2]
-
-1. Du är färdig.
-
-## Valfri inställning för standardstart
-
-Lägg till "SuperOffice WebTools" till din användares "Startobjekt", så att det startas tillsammans med din Mac.
-
-![Lägg till SuperOffice WebTools i dina startobjekt så att programmet startas automatiskt -screenshot][img3]
-
-## Preferenser
-
-Ställ in inställningarna så att de passar dina behov:
-
-* Öppna och redigera dokument direkt från SuperOffice
-  * Be att få checka in när redigeringen är klar
-  * Ladda endast upp vid dokumentstängning
-* Visa larm för bokningar i SuperOffice
-* Kopiera aktiviteter till iCal
-  * Kopiera aktiviteter var [x minutes]
-  * Kopiera deltagare till adressbok
-* Kopiera kontakter till adressbok
-  * Kopiera kontakter var [x hours]
-  * Kopiera kontakter från ett specifikt urval i SuperOffice
-
-![Ställ in inställningarna så att de passar dina behov -screenshot][img4]
-
 ## Relaterat innehåll
 
-* [Hur laddar jag ner och installerar WebTools för SuperOffice?][1] - FAQ
+* [Install WebTools for macOS][1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-download-and-install-web-tools-for-superoffice-crm/
+[1]: install-mac.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png
-[img2]: ../../../media/loc/en/webtools/webtools-mac-install.jpg
-[img3]: ../../../media/loc/en/webtools/webtools-mac-login-items.jpg
-[img4]: ../../../media/loc/en/webtools/webtools-mac-preferences.jpg

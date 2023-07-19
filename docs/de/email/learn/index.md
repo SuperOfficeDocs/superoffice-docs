@@ -70,6 +70,6 @@ Wenn Sie einen E-Mail-Anhang, nicht aber die E-Mail in SuperOffice CRM speichern
 [9]: ../mail-link/learn/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
-[13]: ../../learn/getting-started/connect-email-documents-diary.md
+[13]: ../../learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->

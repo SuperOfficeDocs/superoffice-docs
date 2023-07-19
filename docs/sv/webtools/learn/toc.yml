@@ -1,5 +1,7 @@
 items:
 - name: Översikt
   href: index.md
-- name: Installera
+- name: Installera - Windows
   href: install.md
+- name: Installera - macOS
+  href: install-mac.md

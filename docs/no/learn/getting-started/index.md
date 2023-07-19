@@ -107,7 +107,7 @@ SuperOffice CRM er kompatibel med alle de nyeste operativsystemene og nettlesern
 [5]: login.md#forgot-password
 [6]: login.md
 [7]: preferences.md
-[8]: connect-email-documents-diary.md
+[8]: connect-email-doc/index.md
 [9]: ../../mobile/superoffice-mobile/learn/index.md
 
 [11]: ../basics/fav.md

@@ -70,6 +70,6 @@ Hvis du vil lagre et e-postvedlegg, men ikke selve e-posten i SuperOffice CRM, k
 [9]: ../mail-link/learn/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
-[13]: ../../learn/getting-started/connect-email-documents-diary.md
+[13]: ../../learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->

@@ -87,7 +87,7 @@ Om ervoor te zorgen dat u (waar mogelijk) met uw klanten kunt communiceren in hu
 [6]: delete.md
 [7]: lock.md
 [8]: ../../email/mail-link/learn/archive.md
-[9]: ../../learn/getting-started/connect-email-documents-diary.md
+[9]: ../../learn/getting-started/connect-email-doc/index.md
 [10]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
