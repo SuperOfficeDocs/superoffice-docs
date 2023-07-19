@@ -1,5 +1,7 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Installer
+- name: Installer - Windows
   href: install.md
+- name: Installer - macOS
+  href: install-mac.md

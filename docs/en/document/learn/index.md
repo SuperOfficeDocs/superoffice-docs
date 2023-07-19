@@ -87,7 +87,7 @@ To ensure that you can communicate with your clients in their own language (wher
 [6]: delete.md
 [7]: lock.md
 [8]: ../../email/mail-link/learn/archive.md
-[9]: ../../learn/getting-started/connect-email-documents-diary.md
+[9]: ../../learn/getting-started/connect-email-doc/index.md
 [10]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->

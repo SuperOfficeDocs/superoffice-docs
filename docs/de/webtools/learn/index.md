@@ -15,13 +15,13 @@ WebTools verbindet SuperOffice mit Ihren Dokumenten und E-Mails.
 
 ## Windows-Betriebssystem
 
-Wenn Sie das Windows-Betriebssystem verwenden, benötigen Sie WebTools, um Ihre Outlook- und Microsoft Office-Dokumentenanwendungen in SuperOffice CRM zu integrieren.
+Wenn Sie das Windows-Betriebssystem verwenden, benötigen Sie WebTools, um Ihre Outlook- und Microsoft 365-Dokumentenanwendungen in SuperOffice CRM zu integrieren.
 
 WebTools besteht aus einem E-Mail- und einem Dokument-Plugin:
 
 * **Mail Link** verbindet Ihr Outlook mit SuperOffice CRM, damit Sie Dokumente aus Ihrem CRM anhängen und die Kommunikation über die SuperOffice CRM-Multifunktionsleiste in Ihrem CRM archivieren können. Sie können E-Mails auch über die CRM-Schnittstelle senden, indem Sie mit der rechten Maustaste auf eine Person oder eine E-Mail-Adresse auf einer Personenkarte/Ansicht klicken. Dadurch wird automatisch eine E-Mail in Outlook geöffnet.
 
-* **Web Extensions** verbinden Ihr Windows-Dokumentenmanagementsystem mit SuperOffice CRM. Sie können Microsoft Office-Dokumente direkt in SuperOffice CRM öffnen und bearbeiten.
+* **Web Extensions** verbinden Ihr Windows-Dokumentenmanagementsystem mit SuperOffice CRM. Sie können Microsoft 365-Dokumente direkt in SuperOffice CRM öffnen und bearbeiten.
 
 Sie werden automatisch darum gebeten, SuperOffice Web Tools upzugraden oder zu installieren, wenn Sie sich zum ersten Mal auf Ihrem PC bei SuperOffice CRM durch Ihren Browser anmelden.
 
@@ -33,12 +33,12 @@ Wenn dieser Willkommensbildschirm nicht angezeigt wird oder falls Sie die Kompon
 * [WebTools herunterladen und installieren][1] - Support-Seite
 * [Wie man vorgeht, wenn die Schaltfläche SuperOffice-Archivierung aus Outlook verschwunden ist?][3] - FAQ
 
-## Mac-Betriebssystem
+## macOS
 
-Durch die Installation von WebTools für Mac ist eine Integration zwischen Microsoft Office-Dokumenten und SuperOffice CRM möglich (nicht E-Mail). Konfigurieren Sie Ihren SuperOffice Posteingang, wenn Sie einen Mac verwenden und Ihre E-Mail integrieren möchten
+Durch die Installation von WebTools für Mac ist eine Integration zwischen Microsoft 365-Dokumenten und SuperOffice CRM möglich (nicht E-Mail). Konfigurieren Sie Ihren SuperOffice Posteingang, wenn Sie einen Mac verwenden und Ihre E-Mail integrieren möchten
 
 > [!NOTE]
-> SuperOffice bietet nur die Integration für Microsoft Office-Dokumentanwendungen und **nicht für Apple-Anwendungen** Pages, Numbers und Keynote. Sie benötigen das Office-Paket, um Dokumente integrieren zu können.
+> SuperOffice bietet nur die Integration für Microsoft 365-Dokumentanwendungen und **nicht für Apple-Anwendungen** Pages, Numbers und Keynote. Sie benötigen das Office-Paket, um Dokumente integrieren zu können.
 
 ## Zugehörige Inhalte
 
@@ -56,7 +56,7 @@ Durch die Installation von WebTools für Mac ist eine Integration zwischen Micro
 [5]: ../../document/learn/create.md
 [6]: https://community.superoffice.com/no/support-faqs/faq/what-is-superoffice-web-tools-and-what-does-it-do/
 [7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
-[8]: ../../learn/getting-started/connect-email-documents-diary.md
+[8]: ../../learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png

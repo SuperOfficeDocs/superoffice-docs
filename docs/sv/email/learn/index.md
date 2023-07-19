@@ -70,6 +70,6 @@ Om du vill spara en e-postbilaga men inte själva e-postmeddelandet i SuperOffic
 [9]: ../mail-link/learn/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
-[13]: ../../learn/getting-started/connect-email-documents-diary.md
+[13]: ../../learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->

@@ -1,0 +1,51 @@
+### YamlMime:Tutorial
+uid: help-sv-connect-google-workspace
+title: Google Workspace as your solution
+metadata:
+  title:  Tutorial - Google Workspace as your solution
+  description: How to connect your Google Workspace email account, documents, and calendar to SuperOffice.
+  audience: User
+  so.topic: tutorial
+  so.date: 07.18.2023
+  keywords: Google Workspace, email, Gmail, document, diary, invitation
+  level: Beginner
+  language: sv
+items:
+- title: Intro
+  durationInMinutes: 1
+  content: |
+    With Google Workspace as your solution, there are several ways to connect your email account, documents, and calendar to SuperOffice.
+
+- title: Email
+  durationInMinutes: 5
+  content: |
+    Choose one of the following options:
+
+    * [SuperOffice Inbox](../../../email/inbox/learn/setup.md) (default)
+
+        [!include[ALT](includes/set-up-inbox.md)]
+
+    * [Gmail Link integration](../../../email/gmail-link/learn/index.md) - if you already use Gmail and want to access key information and features from SuperOffice directly in your email and archive emails in SuperOffice.
+
+        [!include[ALT](includes/install-gmail-link.md)]
+
+- title: Document
+  durationInMinutes: 3
+  content: |
+    The **Google Workspace document integration** enables you to open, edit, and store documents in Google Workspace directly from SuperOffice CRM.
+
+    Use Google Workspace apps to edit SuperOffice CRM documents from any computer and store documents written via SuperOffice CRM directly and seamlessly in your Google Workspace.
+
+    > [!NOTE]
+    > This option requires an active Google Workspace subscription and is available only if your administrator has [set up the integration](../../../../en/document/cloud/g-suite/index.md). Alternatively, use SuperOffice document library with WebTools (or Microsoft SharePoint).
+
+- title: Calendar
+  durationInMinutes: 3
+  content: |
+    Choose one of the following options:
+
+    * [SuperOffice Inbox](../../../email/inbox/learn/setup.md) (default)
+
+        [!include[Note](includes/note-step-completed.md)]
+
+    * [!include[ALT](includes/why-synchronizer.md)]

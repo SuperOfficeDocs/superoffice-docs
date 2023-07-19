@@ -33,7 +33,7 @@ Weiterlesen, wie man [E-Mails und Dokumente verbinden][5] kann.
 [2]: https://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link
 [3]: ../../../webtools/learn/index.md
 [4]: ../../../webtools/learn/install.md
-[5]: ../../../learn/getting-started/connect-email-documents-diary.md
+[5]: ../../../learn/getting-started/connect-email-doc/index.md
 [6]: ../../inbox/learn/setup.md
 
 <!-- Referenced images -->

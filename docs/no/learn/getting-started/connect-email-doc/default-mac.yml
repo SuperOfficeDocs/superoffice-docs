@@ -1,0 +1,58 @@
+### YamlMime:Tutorial
+uid: help-no-connect-email-doc-cal-default-mac
+title: SuperOffice as your solution (macOS)
+metadata:
+  title:  Tutorial - SuperOffice as your solution (macOS)
+  description: How to connect your email account, documents, and calendar to SuperOffice on macOS.
+  audience: User
+  so.topic: tutorial
+  so.date: 07.18.2023
+  keywords: email, document, diary, invitation, mac
+  level: Beginner
+  language: no
+items:
+- title: Intro
+  durationInMinutes: 1
+  content: |
+    This is the default way to connect your email account, documents, and calendar to SuperOffice on macOS.
+
+    > [!NOTE]
+    > These instructions are for macOS only. Are you using a Windows PC? See the [instructions for Windows](default-win.yml).
+
+- title: Email
+  durationInMinutes: 3
+  content: |
+    [!include[Why](includes/why-connect-email.md)]
+
+    Choose one of the following options:
+
+    * [SuperOffice Inbox](../../../email/inbox/learn/setup.md) (default)
+
+        [!include[ALT](includes/set-up-inbox.md)]
+
+    * [!include[SuperOffice for Outlook](includes/why-superoffice-for-outlook.md)]
+
+        [!include[Go to App Store](../../../email/superoffice-for-outlook/learn/includes/install.md)]
+
+- title: Document
+  durationInMinutes: 3
+  content: |
+
+    The default document integration on macOS is **SuperOffice document library** with [WebTools for Mac](../../../webtools/learn/install-mac.md).
+
+- title: Calendar
+  durationInMinutes: 3
+  content: |
+    Choose one of the following options:
+
+    * [SuperOffice Inbox](../../../email/inbox/learn/setup.md) (default)
+
+        > [!NOTE]
+        > If you chose SuperOffice Inbox in step 1, you are already done.
+
+    * [!include[ALT](includes/why-synchronizer.md)]
+
+    * [WebTools for Mac](../../../webtools/learn/install-mac.md) - to export your SuperOffice diary to your iCalendar and copy your SuperOffice contacts to your Address Book.
+
+        > [!NOTE]
+        > This is **one way only** import, from SuperOffice to your iCalendar, not a synchronization!

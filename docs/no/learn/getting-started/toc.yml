@@ -9,9 +9,7 @@ items:
 - name: Preferanser
   href: preferences.md
 - name: Koble sammen e-post og dokumenter
-  href: connect-email-documents-diary.md
-- name: WebTools
-  href: ../../webtools/learn/toc.yml
-  topicHref: ../../webtools/learn/index.md
+  href: connect-email-doc/toc.yml
+  topicHref: connect-email-doc/index.md
 - name: Redigere e-postsignatur
   href: edit-email-signature.md

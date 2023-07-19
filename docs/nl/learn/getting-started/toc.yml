@@ -9,9 +9,7 @@ items:
 - name: Voorkeuren
   href: preferences.md
 - name: E-mail en documenten verbinden
-  href: connect-email-documents-diary.md
-- name: WebTools
-  href: ../../webtools/learn/toc.yml
-  topicHref: ../../webtools/learn/index.md
+  href: connect-email-doc/toc.yml
+  topicHref: connect-email-doc/index.md
 - name: E-mail-handtekening bewerken
   href: edit-email-signature.md
