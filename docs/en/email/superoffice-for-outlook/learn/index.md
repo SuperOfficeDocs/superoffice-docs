@@ -31,7 +31,7 @@ After connecting SuperOffice for Outlook you can save new contacts, emails, sale
 
 <!-- Referenced links -->
 [2]: ../../../admin/preferences/learn/document-library/index.md
-[3]: ../../../learn/getting-started/connect-email-doc/microsoft-365.md
+[3]: ../../../learn/getting-started/connect-email-doc/microsoft-365.yml
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/user-superoffice-outlook-sidepanel.png

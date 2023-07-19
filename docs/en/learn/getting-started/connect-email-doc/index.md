@@ -54,9 +54,9 @@ The integrations you need depend on your operating system, your email client, an
 *Use the application **SuperOffice for Outlook** to archive emails to SuperOffice*
 
 <!-- Referenced links -->
-[1]: default-win.md
-[2]: microsoft-365.md
-[3]: google-workspace.md
+[1]: default-win.yml
+[2]: microsoft-365.yml
+[3]: google-workspace.yml
 [4]: ../../../webtools/learn/install.md
 [5]: ../../../webtools/learn/install-mac.md
 [6]: ../../../email/inbox/learn/setup.md

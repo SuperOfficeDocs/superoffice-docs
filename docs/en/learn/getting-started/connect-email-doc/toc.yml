@@ -2,13 +2,13 @@ items:
 - name: Overview
   href: index.md
 - name: SuperOffice default (Windows)
-  href: default-win.md
+  href: default-win.yml
 - name: SuperOffice default (macOS)
-  href: default-mac.md
+  href: default-mac.yml
 - name: Microsoft 365
-  href: microsoft-365.md
+  href: microsoft-365.yml
 - name: Google workspace
-  href: google-workspace.md
+  href: google-workspace.yml
 - name: WebTools
   href: ../../../webtools/learn/toc.yml
   topicHref: ../../../webtools/learn/index.md
