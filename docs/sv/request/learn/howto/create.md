@@ -32,7 +32,6 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
     Börja skriva namn (eller telefonnummer) för kontakten i fältet **Kontakt** (sök efter kontakt). I listan med sökresultat användare du upp- och nedpilarna på tangentbordet för att välja en kontakt och trycker sedan på **ENTER**. Eller använd din muspekare för att välja kontakten.
 
     Alternativt kan du ange en e-postadress för att lägga till en mottagare utan att registrera personen i systemet. I så fall läggs personen inte till som kontakt för ärendet.
-    </details>
 
     > [!NOTE]
     > Du kan lämna det här fältet tomt om du inte vill skicka meddelandet till någon.

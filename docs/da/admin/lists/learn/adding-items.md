@@ -21,8 +21,7 @@ language: da
 
 4. Indtast i dialogboksen det ønskede navn for forekomsten i feltet **Navn**.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. Angiv eventuelt en beskrivelse af forekomsten i feltet **Beskrivelse**.
 

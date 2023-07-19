@@ -13,14 +13,14 @@ language: sv
 
 # Hantera användargrupper
 
-## Skapa en användargrupp
+## <a id="create" />Skapa en användargrupp
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 1. Klicka på ![ikon][img2] **Listor** i navigatorn.
 1. Välj **Allmänt – Användargrupp** i listan.
 1. Ange information i dialogrutan och klicka på **OK**.
 
-## Ta bort användargrupp
+## <a id="delete" />Ta bort användargrupp
 
 1. Gå till listan **Allmänt – Användargrupp** enligt beskrivningen ovan.
 1. Klicka på den aktuella användargruppens namn.

@@ -56,12 +56,15 @@ Dette gjelder blant annet følgende:
 
 **Eksisterende data:**
 
-| **Firma** | **Adresse** | **Org.nr.** | **Kode** |
+| | Firma | Adresse | Org.nr. | Kode |
+|---|---|---|---|---|
 | **Importer Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
 **Handling:**
 
+| Handling | Firma | Adresse | Org.nr. | Kode |
+|---|---|---|---|---|
 | **Slå sammen** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
 | **Overskriv** | ACME Inc. | Main street 456 | 11223344 | - |
 | **Hopp over** | ACME Inc. | Broadway 123 | - | ACME1 |
@@ -163,7 +166,7 @@ Importkilden kan for eksempel inneholde telefonnumre, koblinger og e-postadresse
     For eksempel: Dette kan være aktuelt hvis du vet at importen inneholder riktige e-postadresser til personene dine. Hvis e-postadressene som er registrert i SuperOffice, er utdatert, kan du overskrive dem for å rydde opp i systemet.
 * **Ignorer - behold eksisterende**: Ingen nye verdier blir importert til SuperOffice.
 
-## Administrere produktkategorier, produktfamilier og produkttyper som ikke er i SuperOffice
+## Administrere produktkategorier, -familier og -typer som ikke er i SuperOffice
 
 Importkilden kan for eksempel inneholde produktkategorier som ikke er registrert i SuperOffice. Da må du velge hvordan nye produktkategorier, produktfamilier og produkttyper skal håndteres. I listen **Nye verdier for...** har du følgende alternativer:
 

@@ -13,14 +13,14 @@ language: de
 
 # Benutzergruppen verwalten
 
-## Benutzergruppen erstellen
+## <a id="create" />Benutzergruppen erstellen
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 1. Wählen Sie ![Symbol][img2] **Listen** im Navigator aus.
 1. Wählen Sie **Allgemein - Benutzergruppe** von der Liste aus.
 1. Geben Sie Informationen in das Dialogfeld ein und klicken Sie auf **OK**.
 
-## Benutzergruppe löschen
+## <a id="delete" />Benutzergruppe löschen
 
 1. Gehen Sie wie oben beschrieben zur Liste **Allgemein - Benutzergruppe**.
 1. Klicken Sie auf den Namen der betreffenden Benutzergruppe.

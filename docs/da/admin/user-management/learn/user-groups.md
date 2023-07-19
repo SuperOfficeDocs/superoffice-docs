@@ -13,14 +13,14 @@ language: da
 
 # Administrer brugergrupper
 
-## Opret brugergruppe
+## <a id="create" />Opret brugergruppe
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 1. Vælg ![ikonet][img2] **Lister** i navigatoren.
 1. Vælg **Generelt - Brugergruppe** fra listen.
 1. Indtast oplysninger i dialogboksen, og klik på **OK.**
 
-## Sletning af brugergruppe
+## <a id="delete" />Sletning af brugergruppe
 
 1. Gå til listen **Generelt - Brugergruppe** som beskrevet ovenfor.
 1. Klik på navnet på den pågældende brugergruppe.

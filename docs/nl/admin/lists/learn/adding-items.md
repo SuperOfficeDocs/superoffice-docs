@@ -21,8 +21,7 @@ language: nl
 
 4. Voer in het dialoogvenster de vereiste naam van het item in het veld **Naam** in.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. Typ zo nodig een beschrijving voor de koptekst in het veld **Beschrijving**.
 

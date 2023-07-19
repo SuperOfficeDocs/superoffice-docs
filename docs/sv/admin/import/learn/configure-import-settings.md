@@ -56,12 +56,15 @@ Detta gäller bland annat följande:
 
 **Befintliga data:**
 
-| **Företag** | **Adress** | **Momsreg.nr** | **Kod** |
+| | Företag | Adress | Momsreg.nr | Kod |
+|---|---|---|---|---|
 | **Import Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
 **Åtgärd:**
 
+| Åtgärd | Företag | Adress | Momsreg.nr | Kod |
+|---|---|---|---|---|
 | **Slå ihop** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
 | **Ersätt** | ACME Inc. | Main street 456 | 11223344 | - |
 | **Hoppa över** | ACME Inc. | Broadway 123 | - | ACME1 |

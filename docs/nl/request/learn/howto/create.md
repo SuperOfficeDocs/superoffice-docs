@@ -32,7 +32,6 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
     Begin in het veld **Persoon** (Persoon zoeken) met het invoeren van de naam (of het telefoonnummer) van de persoon. Gebruik in de lijst met zoekresultaten de pijl-omhoog en pijl-omlaag op uw toetsenbord om een persoon te selecteren en druk op **ENTER**. Of gebruik uw muiscursor om de persoon te selecteren.
 
     Voer optioneel een e-mailadres in om een ontvanger toe te voegen zonder deze te registreren in het systeem. In dit geval wordt deze persoon niet toegevoegd als contactpersoon voor het verzoek.
-    </details>
 
     > [!NOTE]
     > U kunt dit veld leeg laten als u het bericht naar niemand wilt versturen.

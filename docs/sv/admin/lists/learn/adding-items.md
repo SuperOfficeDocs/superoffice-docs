@@ -21,8 +21,7 @@ language: sv
 
 4. Skriv namnet på posten i fältet **Namn** i dialogrutan.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**.
 

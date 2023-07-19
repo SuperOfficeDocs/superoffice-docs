@@ -21,8 +21,7 @@ language: de
 
 4. Geben Sie im Dialogfeld den gewünschten Namen für das Objekt in das Feld **Name** ein.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. Geben Sie optional in das Feld **Beschreibung** eine Beschreibung für das Objekt ein.
 

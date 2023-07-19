@@ -21,8 +21,7 @@ language: no
 
 4. Skriv inn ønsket navn på elementet i feltet **Navn** i dialogboksen.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. Legg eventuelt inn en beskrivelse av forekomsten i feltet **Beskrivelse**.
 

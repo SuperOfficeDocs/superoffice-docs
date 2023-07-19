@@ -56,12 +56,15 @@ Dette gælder blandt andet følgende:
 
 **Eksisterende data:**
 
-| **Firma** | **Adresse** | **SE-nr.** | **Kode** |
+| | Firma | Adresse | SE-nr. | Kode |
+|---|---|---|---|---|
 | **Importér Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Hovedgade 456 | - | ACME1 |
 
 **Handling:**
 
+| Handling | Firma | Adresse | SE-nr. | Kode |
+|---|---|---|---|---|
 | **Sammenflet** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
 | **Overskriv** | ACME Inc. | Hovedgade 456 | 11223344 | - |
 | **Udelad post** | ACME Inc. | Broadway 123 | - | ACME1 |

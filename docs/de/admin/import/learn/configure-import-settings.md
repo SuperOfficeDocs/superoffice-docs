@@ -56,12 +56,15 @@ Dies gilt unter anderem für die folgenden Einstellungen:
 
 **Vorhandene Daten:**
 
-| **Firma** | **Adresse** | **Ust-IdNr.** | **Code** |
+| | Firma | Adresse | Ust-IdNr. | Code |
+|---|---|---|---|---|
 | **Excel/Outlook/Gmail importieren** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
 **Aktion:**
 
+| Aktion | Firma | Adresse | Ust-IdNr. | Code |
+|---|---|---|---|---|
 | **Zusammenführen** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
 | **Ersetzen** | ACME Inc. | Main street 456 | 11223344 | - |
 | **Datensatz überspringen** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |

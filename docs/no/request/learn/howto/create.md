@@ -32,7 +32,6 @@ En sak kan komme inn i systemet via en e-postmelding fra kunden, eller du kan re
     I feltet **Person** (Søk etter person) begynner du å skrive inn navnet (eller telefonnummeret) til personen. I listen over søkeresultater bruker du pil opp / pil ned på tastaturet til å velge en person, og trykker deretter på **ENTER**. Eller bruk markøren til å velge personen.
 
     Du kan også angi en e-postadresse hvis du vil legge til en mottaker uten å registrere vedkommende i systemet. I så fall legges han/hun ikke til som person for saken.
-    </details>
 
     > [!NOTE]
     > Du kan la dette feltet stå tomt hvis du ikke vil sende meldingen til noen.
