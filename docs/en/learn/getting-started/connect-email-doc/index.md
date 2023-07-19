@@ -7,7 +7,7 @@ so.date: 07.18.2023
 keywords: email, document, diary, invitation
 so.topic: concept
 so.version: 10
-so.lang: en
+language: en
 ---
 
 # Connect email, document, and calendar
