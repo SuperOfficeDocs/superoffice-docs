@@ -12,7 +12,7 @@ metadata:
   language: en
 items:
 - title: Intro
-  durationInMinutes: 3
+  durationInMinutes: 1
   content: |
 
     This is the default way to connect your email account, documents, and calendar to SuperOffice.

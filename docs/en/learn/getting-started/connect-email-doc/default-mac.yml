@@ -12,7 +12,7 @@ metadata:
   language: en
 items:
 - title: Intro
-  durationInMinutes: 3
+  durationInMinutes: 1
   content: |
     This is the default way to connect your email account, documents, and calendar to SuperOffice on macOS.
 
@@ -26,7 +26,7 @@ items:
 
     Choose one of the following options:
 
-    * [SuperOffice Inbox][2] (default)
+    * [SuperOffice Inbox](../../../email/inbox/learn/setup.md) (default)
 
         [!include[ALT](includes/set-up-inbox.md)]
 

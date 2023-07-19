@@ -12,7 +12,7 @@ metadata:
   language: en
 items:
 - title: Intro
-  durationInMinutes: 3
+  durationInMinutes: 1
   content: |
     With Google Workspace as your solution, there are several ways to connect your email account, documents, and calendar to SuperOffice.
 
@@ -44,7 +44,7 @@ items:
   content: |
     Choose one of the following options:
 
-    * [SuperOffice Inbox][1] (default)
+    * [SuperOffice Inbox](../../../email/inbox/learn/setup.md) (default)
 
         [!include[Note](includes/note-step-completed.md)]
 
