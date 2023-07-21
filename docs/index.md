@@ -11,7 +11,7 @@ so.date: 12.19.2022
 ![Placeholder start page -screenshot][img1]
 
 <!-- Referenced links -->
-[1]: en/learn/index.md
+[1]: en/learn/index.yml
 
 <!-- Referenced images -->
 [img1]: media/demo-site.png
