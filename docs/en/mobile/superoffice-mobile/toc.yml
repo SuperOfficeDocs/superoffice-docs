@@ -1,0 +1,17 @@
+items:
+- name: Overview
+  href: index.md
+- name: Client requirements
+  href: client-requirements.md
+- name: Install
+  href: install.md
+- name: Security
+  href: security.md
+- name: Settings
+  href: settings.md
+- name: FAQ
+  href: faq.md
+- name: Reply to request
+  href: reply-to-request.md
+- name: Scan a business card
+  href: scan-business-card.md

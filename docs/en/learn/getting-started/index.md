@@ -108,7 +108,7 @@ SuperOffice CRM is compatible with all the latest operating systems and browsers
 [6]: login.md
 [7]: preferences.md
 [8]: connect-email-doc/index.md
-[9]: ../../mobile/superoffice-mobile/learn/index.md
+[9]: ../../../en/mobile/superoffice-mobile/index.md
 
 [11]: ../basics/fav.md
 [12]: ../section-tabs/index.md

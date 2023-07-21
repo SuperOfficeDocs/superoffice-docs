@@ -6,16 +6,7 @@ items:
   - name: Introduction
     href: overview.md
   - name: Superoffice Mobile
-    expanded: true
-    items:
-    - name: Client requirements
-      href: superoffice-mobile/client-requirements.md
-    - name: Install
-      href: superoffice-mobile/install.md
-    - name: Security
-      href: superoffice-mobile/security.md
-    - name: FAQ
-      href: superoffice-mobile/faq.md
+    href: superoffice-mobile/toc.yml
   - name: Pocket CRM
     expanded: true
     items:

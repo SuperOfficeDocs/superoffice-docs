@@ -1,7 +1,0 @@
-items:
-- name: Oversikt
-  href: index.md
-- name: Svar på sak
-  href: reply-to-request.md
-- name: Skann et visittkort
-  href: scan-business-card.md

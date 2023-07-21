@@ -31,7 +31,7 @@ Mobile CRM giver dig adgang til de vigtigste funktioner i SuperOffice via smartp
 
 * I menuen Opgave kan du tage billeder og tilføje dem som vedhæftede filer til en besked, ændre status på sagen, tildele sagen til andre brugere via Angiv sagsbehandler samt svare på og tilføje kommentarer til en sag.
 
-Se videoen][1] Sagsbehandling [for at få mere at vide om, hvordan du håndterer kundeservicesager i Mobile CRM (videoens længde: 1:31).
+[Se videoen Sagsbehandling][1] for at få mere at vide om, hvordan du håndterer kundeservicesager i Mobile CRM (videoens længde: 1:31).
 
 <!--
 > [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4] -->

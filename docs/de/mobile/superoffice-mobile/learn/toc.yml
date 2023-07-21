@@ -1,7 +1,0 @@
-items:
-- name: Überblick
-  href: index.md
-- name: Anfrage beantworten
-  href: reply-to-request.md
-- name: Visitenkarte einscannen
-  href: scan-business-card.md
