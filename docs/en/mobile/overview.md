@@ -15,6 +15,9 @@ With one of our mobile applications, you can access the SuperOffice database whe
 
 SuperOffice Mobile (for SuperOffice 9 and newer) and Pocket CRM (for SuperOffice 8 and older) are free and included with all SuperOffice CRM Online user plans and SuperOffice Onsite Subscriptions and available to all users of iOS or Android smartphones and tablets. The applications are distributed via the respective operating system's app store channels.
 
+> [!NOTE]
+> When you upgrade from versions 8.5 or lower to version 9, you will be prompted inside Pocket CRM to update the app and switch to Mobile CRM.
+
 ## Key benefits
 
 * Use and update customer data

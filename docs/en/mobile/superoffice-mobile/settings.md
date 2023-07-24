@@ -72,6 +72,10 @@ Used to define appearance of text and images.
 | Setting | Description |
 |---|---|
 | Email client | Which account to use for sending email from Mobile CRM. |
+| Always show external images | Whether to see (and download) images when you open and read an email. |
+| Archive when sending | Check this if you want all emails to be archived automatically. |
+| Archive as | Specifies which document type sent email messages will be archived as in SuperOffice. |
+| Add signature | Check this if you want your signature to be added automatically. |
 
 > [!NOTE]
 > The account must be created in SuperOffice CRM.

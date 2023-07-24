@@ -19,8 +19,8 @@ Version 9.1 or newer
 
 ## Operation system
 
-* iOS: version 12.0 or newer
-* Google Android: version 8.0 or newer
+* iOS: version 13.4 or newer
+* Google Android: version 9.0 or newer
 
 ## Network
 
