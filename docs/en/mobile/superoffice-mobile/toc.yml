@@ -12,6 +12,19 @@ items:
     href: getting-started/set-up-email.md
   - name: Enable caller ID
     href: getting-started/caller-id.md
+- name: Diary
+  topicHref: diary/index.md
+  items:
+  - name: Overview
+    href: diary/index.md
+  - name: Create appointment
+    href: diary/create-appointment.md
+  - name: Update appointment
+    href: diary/update-appointment.md
+  - name: Invitations
+    href: diary/invitations.md
+  - name: Join video meeting
+    href: howto/join-video-meeting.md
 - name: Manage notifications
   href: howto/manage-notifications.md
 - name: Send email or SMS
