@@ -70,12 +70,30 @@ To add your professional signature automatically to SMSes sent from Mobile CRM:
 
 ![Mobile CRM - Add signature to SMS -screenshot][img2]
 
+## No current email account
+
+What to do when you cannot send an email and get a notification "No current e-mail account" on the Mobile CRM app?
+
+![Mobile CRM - No current email account -screenshot][img6]
+
+The message pops up when your email account is not configured in SuperOffice CRM.
+
+1. Tap **OK** on the information message. This opens the settings.
+2. In **Email settings**, select **E-mail client** and choose to use either System default or SuperOffice as your email client.
+3. If you chose *SuperOffice*, [configure your default email client in SuperOffice CRM][2].
+
+    If you chose *System default*, you will get an option to choose the default system email application the next time you send an email.
+
+    ![System default email client -screenshot][img7]
+
 ## Related content
 
-* [Set up your email account][1]
+* [Set up an email account in Mobile CRM][1]
+* [Connect an email client to SuperOffice CRM][2]
 
 <!-- Referenced links -->
 [1]: ../getting-started/set-up-email.md
+[2]: ../../../../en/learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
 [img1]: ../media/send-email-contact.png
@@ -83,3 +101,5 @@ To add your professional signature automatically to SMSes sent from Mobile CRM:
 [img3]: ../media/send-email-search.png
 [img4]: ../media/send-email-appointment.png
 [img5]: ../media/send-email-project.png
+[img6]: ../media/no-email-account.png
+[img7]: ../media/system-email-application.png

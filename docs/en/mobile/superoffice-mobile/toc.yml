@@ -1,6 +1,29 @@
 items:
 - name: Overview
   href: index.md
+- name: Getting started
+  topicHref: getting-started/index.md
+  items:
+  - name: General
+    href: getting-started/index.md
+  - name: First time use / log in
+    href: getting-started/login.md
+  - name: Set up email account
+    href: getting-started/set-up-email.md
+  - name: Enable caller ID
+    href: getting-started/caller-id.md
+- name: Manage notifications
+  href: howto/manage-notifications.md
+- name: Send email or SMS
+  href: howto/send-email-sms.md
+- name: Archive an image
+  href: howto/archive-image.md
+- name: Scan a business card
+  href: scan-business-card.md
+- name: Copy contacts to address book
+  href: howto/copy-contact-to-address-book.md
+- name: Show address in map
+  href: howto/show-address-in-map.md
 - name: Client requirements
   href: client-requirements.md
 - name: Install
@@ -13,5 +36,3 @@ items:
   href: faq.md
 - name: Reply to request
   href: reply-to-request.md
-- name: Scan a business card
-  href: scan-business-card.md
