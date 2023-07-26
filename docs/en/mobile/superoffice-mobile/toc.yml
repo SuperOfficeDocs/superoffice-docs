@@ -25,6 +25,15 @@ items:
     href: diary/invitations.md
   - name: Join video meeting
     href: howto/join-video-meeting.md
+- name: Sale
+  topicHref: sale/index.md
+  items:
+  - name: Overview
+    href: sale/index.md
+  - name: Create sale
+    href: sale/create.md
+  - name: Update sale
+    href: sale/update.md
 - name: Manage notifications
   href: howto/manage-notifications.md
 - name: Send email or SMS

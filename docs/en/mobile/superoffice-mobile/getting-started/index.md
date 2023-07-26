@@ -33,6 +33,9 @@ If the icon for Notifications shows a number in a red circle, it means you have 
 
 The **Task** menu is located at the bottom left on many screens. This menu contains options that are relevant for the current screen. For example, logging in or out, settings, filtering, sending SMS/email, or map display.
 
+> [!NOTE]
+> Filters selected from the **Task** menu remain active until you change them. If you see an empty list or it does not contain what you expect, look for the filter icon on the **Task** button and change or remove the filter.
+
 ### Refresh
 
 When you use the app, the pages you access are stored in the device's cache to make navigation faster. Information is automatically updated when you open the app. To manually refresh data, do one of the following:
@@ -40,14 +43,14 @@ When you use the app, the pages you access are stored in the device's cache to m
 * To update a page, tap the **Task** icon, and select **Refresh**.
 * To clear the cache, tap the **Task** icon, go to **Settings**, and select **Refresh all data**.
 
-## Favorites
-
-The star tab shows your favorite records within the current screen. This way your favorite records are always easy to find.
-
 ## Tabs
 
 The main screens and associated sub-screens consist of tabs. Look for the highlighted icon to
 see which tab is selected.
+
+## Favorites
+
+The star tab shows your favorite records within the current screen. This way your favorite records are always easy to find.
 
 ## Search
 
@@ -65,6 +68,14 @@ Throughout the app, you can swipe for easier and faster navigation. Access the m
 
 The green button allows you to create a new email or call the contact directly.
 
+## Dark mode
+
+If you have set your phone to use Dark Mode, your Mobile CRM app will also use dark mode.
+
+![Mobile CRM Dark mode -mobile-screenshot][img2]
+
+Pretty nice for those who love dark mode.
+
 ## Related content
 
 * [First time use/login][1]
@@ -76,3 +87,4 @@ The green button allows you to create a new email or call the contact directly.
 
 <!-- Referenced images -->
 [img1]: ../media/layout.jpg
+[img2]: ../../../../../release-notes/9.2/mobile/media/img399.jpg
