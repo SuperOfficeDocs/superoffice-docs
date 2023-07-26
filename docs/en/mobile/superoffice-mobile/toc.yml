@@ -34,6 +34,15 @@ items:
     href: sale/create.md
   - name: Update sale
     href: sale/update.md
+- name: Project
+  topicHref: project/index.md
+  items:
+  - name: Overview
+    href: project/index.md
+  - name: Create project
+    href: project/create.md
+  - name: Update project
+    href: project/update.md
 - name: Manage notifications
   href: howto/manage-notifications.md
 - name: Send email or SMS
