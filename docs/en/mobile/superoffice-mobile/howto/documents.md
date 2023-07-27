@@ -20,7 +20,7 @@ You have access to all documents and emails stored in the database from Mobile C
 ## Preview document or email
 
 1. Navigate to a company, contact, sale, project.
-2. Select on the **Document** tab
+2. Select on the **Document** tab (![icon][img12]).
 3. Tap on the document (1) or email (2) you want to see.
 
     ![Mobile CRM Document -mobile-screenshot][img1]
@@ -90,3 +90,4 @@ You can perform some actions on your documents and emails without opening them. 
 [img5]: ../media/task-menu-document.png
 [img6]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-menu.png
 [img7]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-create.png
+[img12]: ../../../../../common/icons/mobile/documents.png

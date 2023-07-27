@@ -21,24 +21,26 @@ From Sales, you can update forecasts for future sales, conclude sales and create
 
 | Icon | Tab | Description |
 |---|---|---|
-| funnel | Upcoming | A list of sales with the date of today or ahead. Select a sale to view details about it. |
-| check | Closed | |
-| clock | Overdue | A sale is overdue if it has a sale date earlier than today, but its status is neither *sold* nor *lost*. |
+| ![icon][img7]funnel | Upcoming | A list of sales with the date of today or ahead. Select a sale to view details about it. |
+| ![icon][img8]check | Closed | |
+| ![icon][img9]clock | Overdue | A sale is overdue if it has a sale date earlier than today, but its status is neither *sold* nor *lost*. |
 
 ## Sales information
 
-* Header: New appointment, call, email, status
-* Details: Description and info. Edit to update info or mark as lost/sold/open/stalled
-* Activities: Appointments, tasks, and phone calls linked to the sale
-* Documents: Documents and emails linked to the sale
-* Requests
-* Stakeholders
+| Icon | Tab | Description |
+|---|---|---|
+| | Header: New appointment, call, email, status |
+| ![icon][img11] | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled |
+| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the sale |
+| ![icon][img12] | Documents | Documents and emails linked to the sale |
+| ![icon][img15] | Requests | |
+| ![icon][img17] | Stakeholders | |
 
 ## Navigate
 
 * Tap a sale to open it.
-* Tap the arrow in the bottom right corner to return to the previous page.
-* Tap Edit to update the item you are viewing.
+* Tap the arrow in the bottom right corner (![icon][img10]) to return to the previous page.
+* Tap **Edit** to update the item you are viewing.
 * Tap the **Task** icon for more options. For example, to filter sales by quarter, month, or week.
 
 ## Sale stages
@@ -54,7 +56,7 @@ The number in the red circle next to the sale icon in the navigator shows how ma
 
 ## View your own sales
 
-1. Go to **Sales**.
+1. Go to **Sales** ![icon][img14].
 2. Check that your name appears at the top.
 
     If another person's name is shown in red, this means that you are looking at another person's sales. Select the person's name and switch to your own pipeline.
@@ -103,3 +105,13 @@ Keeping an eye on the team or internal competition? You can track sales by user 
 [img3]: ../../../../media/icons/sale-postponed.bmp
 [img4]: ../../../../media/icons/sale-sold.bmp
 [img5]: ../../../../../common/icons/nav-sale-h32.png
+[img6]: ../../../../../common/icons/mobile/activities-h32.png
+[img7]: ../../../../../common/icons/mobile/saleslist-pipeline-h32.png
+[img8]: ../../../../../common/icons/mobile/saleslist-closed-h32.png
+[img9]: ../../../../../common/icons/mobile/saleslist-overdue-h32.png
+[img10]: ../../../../../common/icons/mobile/swipe-replay.png
+[img11]: ../../../../../common/icons/mobile/details-h32.png
+[img12]: ../../../../../common/icons/mobile/documents-h32.png
+[img14]: ../../../../../common/icons/mobile/sale.png
+[img15]: ../../../../../common/icons/mobile/ticket-h32.png
+[img17]: ../../../../../common/icons/mobile/associate-h32.png

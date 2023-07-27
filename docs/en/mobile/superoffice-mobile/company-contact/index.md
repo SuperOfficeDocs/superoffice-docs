@@ -22,8 +22,8 @@ From Company/contact, you have access to all companies and personal contacts wit
 
 | Icon | Tab | Description |
 |---|---|---|
-| 2 persons | Group | A list of associates divided into groups, such as marketing and IT. |
-| clipboard | Project | Persons linked as members of a project. |
+| ![icon][img16] | Group | A list of associates divided into groups, such as marketing and IT. |
+| ![icon][img13] | Project | Persons linked as members of a project. |
 | diagram | Selection | Members of different selections (both companies and individual contacts). |
 
 ## Symbols
@@ -38,32 +38,36 @@ From Company/contact, you have access to all companies and personal contacts wit
 
 ## Company information
 
-* Header: image, name, location, category
-* Action buttons: New appointment, call, website, location
-* Details: Basic information about the company, such as name, phone number and email address.
-* Persons: A list of all the contacts linked to the company in question.
-* Activities: Appointments, tasks, and phone calls linked to the company. Tap an activity to examine it.
-* Documents: Documents and emails linked to the company. Tap document to examine it.
-* Projects:
-* Sales: A list of all sales linked to the company. Tap a sale to open it.
+| Icon | Tab | Description |
+|---|---|---|
+| | Header | image, name, location, category |
+| | Action buttons | New appointment, call, website, location |
+| ![icon][img11] | Details | Basic information about the company, such as name, phone number and email address. |
+| ![icon][img16] | Persons|  A list of all the contacts linked to the company in question. |
+| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the company. Tap an activity to examine it. |
+| ![icon][img12] | Documents| Documents and emails linked to the company. Tap document to examine it. |
+| ![icon][img13] | Projects | |
+| ![icon][img14] | Sales | A list of all sales linked to the company. Tap a sale to open it. |
 
 ## Contact information
 
-* Header: image, contact name, company name
-* Action buttons: New appointment, call, SMS, location
-* Details: Basic information about the person, such as name, phone number and email address.
-* Activities: Appointments, tasks, and phone calls linked to the contact. Tap an activity to examine it.
-* Documents: Documents and emails linked to the contact. Tap document to examine it.
-* Projects:
-* Sales: A list of all sales linked to the contact. Tap a sale to open it.
-* Requests:
+| Icon | Tab | Description |
+|---|---|---|
+| | Header | image, contact name, company name |
+| | Action buttons | New appointment, call, SMS, location |
+| ![icon][img11] | Details | Basic information about the person, such as name, phone number and email address. |
+| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the contact. Tap an activity to examine it. |
+| ![icon][img12] | Documents |  Documents and emails linked to the contact. Tap document to examine it. |
+| ![icon][img13] | Projects | |
+| ![icon][img14] | Sales | A list of all sales linked to the contact. Tap a sale to open it. |
+| ![icon][img15] | Requests | |
 
 ## Navigate
 
 * Tap a company or contact to open it.
 * Tap the name of a group, project, or selection at the top to choose the record to show members of.
-* Tap the arrow in the bottom right corner to return to the previous page.
-* Tap Edit to update the item you are viewing.
+* Tap the arrow in the bottom right corner (![icon][img10]) to return to the previous page.
+* Tap **Edit** to update the item you are viewing.
 * Tap the **Task** icon for more options. For example, to filter activities.
 
 ## View
@@ -101,3 +105,11 @@ When viewing a company:
 
 <!-- Referenced images -->
 [img1]: ../media/contact-card.png
+[img6]: ../../../../../common/icons/mobile/activities-h32.png
+[img10]: ../../../../../common/icons/mobile/swipe-replay.png
+[img11]: ../../../../../common/icons/mobile/details-h32.png
+[img12]: ../../../../../common/icons/mobile/documents-h32.png
+[img13]: ../../../../../common/icons/mobile/project-h32.png
+[img14]: ../../../../../common/icons/mobile/sale-h32.png
+[img15]: ../../../../../common/icons/mobile/ticket-h32.png
+[img16]: ../../../../../common/icons/mobile/addressbook-cont-h32.png

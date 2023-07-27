@@ -23,7 +23,7 @@ so.client: mobile
 ## Add project member
 
 1. Go to the project.
-1. Select the **Project members** tab.
+1. Select the **Project members** tab (![icon][img1]).
 1. Tap **Edit project members**.
 1. Find and tap the person.
 1. Tap **Save**.
@@ -47,7 +47,7 @@ On the **Project members** tab, do one of the following:
 1. Open the project.
 2. Tap the status icon below the project header.
 3. Select **Move to next status** or **Move to previous status**.
-4. Go to the **Details** tab, tap **Edit**, and update any other fields with new information.
+4. Go to the **Details** tab (![icon][img2]), tap **Edit**, and update any other fields with new information.
 
 ## Related content
 
@@ -59,3 +59,5 @@ On the **Project members** tab, do one of the following:
 [2]: ../../../../en/project/learn/delete.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/mobile/project-members.png
+[img2]: ../../../../../common/icons/mobile/details.png

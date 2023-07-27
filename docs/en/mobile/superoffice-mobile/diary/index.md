@@ -21,18 +21,18 @@ so.client: mobile
 
 | Icon | Tab | Description |
 |---|---|---|
-| | Upcoming | A list of planned/upcoming appointments. Select an appointment to view details about it. |
-| | Activities | A list of tasks. |
-| | Day | Appointments for the selected day. |
-| | Week | Appointments for a specific week. |
-| | Month | Appointments for an entire month. Select a date to show all appointments on that date. |
+| ![icon][img5] | Upcoming | A list of planned/upcoming appointments. Select an appointment to view details about it. |
+| ![icon][img6] | Activities | A list of tasks. |
+| ![icon][img7] | Day | Appointments for the selected day. |
+| ![icon][img8] | Week | Appointments for a specific week. |
+| ![icon][img9] | Month | Appointments for an entire month. Select a date to show all appointments on that date. |
 
 ## Navigate the Diary
 
 * Tap an appointment or activity to open it.
 * Tap a date to select it.
-* Tap the arrow in the bottom right corner to return to the previous page.
-* Tap Edit to update the item you are viewing.
+* Tap the arrow in the bottom right corner (![icon][img10]) to return to the previous page.
+* Tap **Edit** to update the item you are viewing.
 * Tap the **Task** icon for more options.
 
 In the Day, Week, and Month tabs, use the arrows to go to the previous and next day/week/month. Tap **Go to today** at the bottom of the screen to return to the current day/week/month.
@@ -41,7 +41,8 @@ In the Day, Week, and Month tabs, use the arrows to go to the previous and next 
 
 When you select an appointment, the **Appointment** screen opens and shows details of that appointment.
 
-* Header: The date and time. Action buttons (Call, SMS, Email, Show location)
+* Header: The date and time.
+* Action buttons (Call, SMS, Email, Show location)
 * What: Appointment type and description. Tap to see the full description.
 * With: Organizer and participants (if any).
 * Details: Completed status and any fields you have selected as visible. Tap the arrow to expand/collapse the list.
@@ -119,3 +120,9 @@ It can be useful to check whether the persons you want to invite are free on the
 [img1]: ../media/diary.png
 [img3]: ../media/schedule.png
 [img4]: ../media/appointment-list.png
+[img5]: ../../../../../common/icons/mobile/diary-upcoming-h32.png
+[img6]: ../../../../../common/icons/mobile/activities-h32.png
+[img7]: ../../../../../common/icons/mobile/diary-day-h32.png
+[img8]: ../../../../../common/icons/mobile/diary-week-h32.png
+[img9]: ../../../../../common/icons/mobile/diary-month-h32.png
+[img10]: ../../../../../common/icons/mobile/swipe-replay.png
