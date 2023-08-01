@@ -31,22 +31,20 @@ so.client: mobile
 
 * Tap an appointment or activity to open it.
 * Tap a date to select it.
-* Tap the arrow in the bottom right corner (![icon][img10]) to return to the previous page.
-* Tap **Edit** to update the item you are viewing.
-* Tap the **Task** icon for more options.
 
-In the Day, Week, and Month tabs, use the arrows to go to the previous and next day/week/month. Tap **Go to today** at the bottom of the screen to return to the current day/week/month.
+In the **Day**, **Week**, and **Month** tabs, use the arrows to go to the previous and next day/week/month. Tap **Go to today** at the bottom of the screen to return to the current day/week/month.
 
 ## Appointment screen
 
 When you select an appointment, the **Appointment** screen opens and shows details of that appointment.
 
 * Header: The date and time.
-* Action buttons (Call, SMS, Email, Show location)
 * What: Appointment type and description. Tap to see the full description.
 * With: Organizer and participants (if any).
 * Details: Completed status and any fields you have selected as visible. Tap the arrow to expand/collapse the list.
 * Link: Attached images
+
+Icons in the action bar: Call, SMS, Email, Show location
 
 ## Diary related symbols
 
@@ -125,4 +123,3 @@ It can be useful to check whether the persons you want to invite are free on the
 [img7]: ../../../../../common/icons/mobile/diary-day-h32.png
 [img8]: ../../../../../common/icons/mobile/diary-week-h32.png
 [img9]: ../../../../../common/icons/mobile/diary-month-h32.png
-[img10]: ../../../../../common/icons/mobile/swipe-replay.png

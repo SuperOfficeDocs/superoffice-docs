@@ -22,60 +22,70 @@ From Company/contact, you have access to all companies and personal contacts wit
 
 | Icon | Tab | Description |
 |---|---|---|
+| ![icon][img3] | Search | Search field and history list |
+| ![icon][img2] | Favorites | Contacts marked as a favorite (yellow star) |
 | ![icon][img16] | Group | A list of associates divided into groups, such as marketing and IT. |
 | ![icon][img13] | Project | Persons linked as members of a project. |
-| diagram | Selection | Members of different selections (both companies and individual contacts). |
+| ![icon][img7] | Selection | Members of different selections (both companies and individual contacts). |
 
-## Symbols
+## Company information ![icon][img17]
 
-| Symbol | Description |
-|---|---|
-| Person | |
-| Profile picture | |
-| Initials | |
-| Company logo | |
-| Company icon | |
+**Header:**
 
-## Company information
+* Icon with flag. Usually the company logo or a placeholder.
+* Company name
+* Department (if set; otherwise, city)
+* Category
+
+Icons in the action bar: New appointment, Call, Go to website, Show location (map)
+
+**Tabs:**
 
 | Icon | Tab | Description |
 |---|---|---|
-| | Header | image, name, location, category |
-| | Action buttons | New appointment, call, website, location |
 | ![icon][img11] | Details | Basic information about the company, such as name, phone number and email address. |
-| ![icon][img16] | Persons|  A list of all the contacts linked to the company in question. |
-| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the company. Tap an activity to examine it. |
-| ![icon][img12] | Documents| Documents and emails linked to the company. Tap document to examine it. |
-| ![icon][img13] | Projects | |
-| ![icon][img14] | Sales | A list of all sales linked to the company. Tap a sale to open it. |
+| ![icon][img16] | Persons|  A list of all contacts linked to this company. |
+| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the company. |
+| ![icon][img12] | Documents| Documents and emails linked to the company. |
+| ![icon][img13] | Projects | Projects linked to the company.|
+| ![icon][img14] | Sales | A list of all sales linked to the company. |
 
-## Contact information
+Tap an activity, a document, a project, or a sale to open and examine it.
+
+## Contact information ![icon][img18]
+
+**Header:**
+
+* Icon. A profile picture or a placeholder.
+* Contact name
+* Company name (tap to open)
+* Department (if set; otherwise, city)
+
+Icons in the action bar: New appointment, Call, Send SMS, Show location (map)
+
+**Tabs:**
 
 | Icon | Tab | Description |
 |---|---|---|
-| | Header | image, contact name, company name |
-| | Action buttons | New appointment, call, SMS, location |
-| ![icon][img11] | Details | Basic information about the person, such as name, phone number and email address. |
-| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the contact. Tap an activity to examine it. |
-| ![icon][img12] | Documents |  Documents and emails linked to the contact. Tap document to examine it. |
-| ![icon][img13] | Projects | |
-| ![icon][img14] | Sales | A list of all sales linked to the contact. Tap a sale to open it. |
-| ![icon][img15] | Requests | |
+| ![icon][img11] | Details | Basic information about the person, such as name, phone number, and email address. |
+| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the contact. |
+| ![icon][img12] | Documents |  Documents and emails linked to the contact. |
+| ![icon][img13] | Projects | Projects this person owns or is a member of. |
+| ![icon][img14] | Sales | A list of all sales linked to the contact. |
+| ![icon][img15] | Requests | A list of the person's open requests. |
 
-## Navigate
-
-* Tap a company or contact to open it.
-* Tap the name of a group, project, or selection at the top to choose the record to show members of.
-* Tap the arrow in the bottom right corner (![icon][img10]) to return to the previous page.
-* Tap **Edit** to update the item you are viewing.
-* Tap the **Task** icon for more options. For example, to filter activities.
+Tap an activity, a document, a project, a sale, or a request to open and examine it.
 
 ## View
 
+Tap a company or contact to open it. Tap the name of a group, project, or selection to show a list of its members.
+
 1. Go to **Company/contact**.
-2. Select the **Upcoming**, **Closed**, or **Overdue** tab.
-3. Optionally, adjust the period from the **Task** menu.
-4. Select a x to examine it.
+2. Select a company or person.
+3. Select the **Details** tab.
+4. Scroll down to view the fields and field groups.
+
+[!include[Configure visible fields](../includes/tip-visible-fields.md)]
 
 ## Show former employees
 
@@ -105,11 +115,15 @@ When viewing a company:
 
 <!-- Referenced images -->
 [img1]: ../media/contact-card.png
+[img2]: ../../../../../common/icons/mobile/star-h32.png
+[img3]: ../../../../../common/icons/mobile/search-h32.png
 [img6]: ../../../../../common/icons/mobile/activities-h32.png
-[img10]: ../../../../../common/icons/mobile/swipe-replay.png
+[img7]: ../../../../../common/icons/mobile/addressbook-selection-h32.png
 [img11]: ../../../../../common/icons/mobile/details-h32.png
 [img12]: ../../../../../common/icons/mobile/documents-h32.png
 [img13]: ../../../../../common/icons/mobile/project-h32.png
 [img14]: ../../../../../common/icons/mobile/sale-h32.png
 [img15]: ../../../../../common/icons/mobile/ticket-h32.png
 [img16]: ../../../../../common/icons/mobile/addressbook-cont-h32.png
+[img17]: ../../../../../common/icons/mobile/company.png
+[img18]: ../../../../../common/icons/mobile/contact.png

@@ -19,15 +19,25 @@ so.client: mobile
 
 | Icon | Tab | Description |
 |---|---|---|
-| ![icon][img9] | Favorites | A list of projects you have defined as favorites. Used to access to projects you work with a lot or want to keep track of.|
+| ![icon][img3] | Search | Search field and history list |
+| ![icon][img9] | Favorites | A list of projects you have defined as favorites (yellow star). Used to access to projects you work with a lot or want to keep track of.|
 | ![icon][img8] | My open projects | A list of projects not marked as completed. Select a Project to view details about it. |
 
 ## Project information
 
+**Header:**
+
+* Icon. A project image or placeholder
+* Project name (title)
+* Responsible (owner)
+* Type, status, date
+
+Icons in the action bar: New appointment, Send email, Go to website, Move to next stage
+
+**Tabs:**
+
 | Icon | Tab | Description |
 |---|---|---|
-| | Header | Project name, type, status, and the project manager |
-| | Action buttons | New appointment, call, email, status |
 | ![icon][img11] | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled |
 | ![icon][img7]| Project members | Persons associated with the project. |
 | ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the project. |
@@ -36,13 +46,6 @@ so.client: mobile
 | ![icon][img15] | Requests | Any requests linked to the project. |
 
 The number in the red circle next to the Project icon in the navigator shows how many overdue projects you have. If there is a plus sign (+) in the red circle, this means that you have 10 or more overdue projects.
-
-## Navigate
-
-* Tap a project to open it.
-* Tap the arrow in the bottom right corner (![icon][img10]) to return to the previous page.
-* Tap **Edit** to update the item you are viewing.
-* Tap the **Task** icon for more options.
 
 ## View your own projects
 
@@ -53,6 +56,8 @@ The number in the red circle next to the Project icon in the navigator shows how
 3. Select a project to examine it.
 
 In the Stage field, you will also see how far through the Projects process you are and which stage the Project has reached (for example, first meeting, prospect, quotation).
+
+[!include[Configure visible fields](../includes/tip-visible-fields.md)]
 
 ## View any project (not your own)
 
@@ -82,12 +87,12 @@ In the Stage field, you will also see how far through the Projects process you a
 
 <!-- Referenced images -->
 [img1]: ../media/project.png
+[img3]:../../../../../common/icons/mobile/search-h32.png
 [img5]:  ../../../../../common/icons/mobile/project.png
 [img6]: ../../../../../common/icons/mobile/activities-h32.png
 [img7]:  ../../../../../common/icons/mobile/project-members-h32.png
 [img8]:  ../../../../../common/icons/mobile/project-h32.png
 [img9]:  ../../../../../common/icons/mobile/star-h32.png
-[img10]: ../../../../../common/icons/mobile/swipe-replay.png
 [img11]: ../../../../../common/icons/mobile/details-h32.png
 [img12]: ../../../../../common/icons/mobile/documents-h32.png
 [img14]: ../../../../../common/icons/mobile/sale-h32.png

@@ -21,27 +21,33 @@ From Sales, you can update forecasts for future sales, conclude sales and create
 
 | Icon | Tab | Description |
 |---|---|---|
+| ![icon][img19] | Search | Search field and history list |
+| ![icon][img18] | Favorites | Sales marked as a favorite (yellow star) |
 | ![icon][img7]funnel | Upcoming | A list of sales with the date of today or ahead. Select a sale to view details about it. |
 | ![icon][img8]check | Closed | |
 | ![icon][img9]clock | Overdue | A sale is overdue if it has a sale date earlier than today, but its status is neither *sold* nor *lost*. |
 
 ## Sales information
 
+**Header:**
+
+* 1 of 4 major statuses (open, lost, stalled, sold)
+* Currency amount, sale date
+* Company (if set; otherwise, contact)
+* Sale title
+
+Icons in the action bar: New appointment, Call, Send email, Go to website, Update status (Move to next stage/set as sold/set as lost/ edit sale)
+
+**Tabs:**
+
 | Icon | Tab | Description |
 |---|---|---|
-| | Header: New appointment, call, email, status |
 | ![icon][img11] | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled |
 | ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the sale |
 | ![icon][img12] | Documents | Documents and emails linked to the sale |
 | ![icon][img15] | Requests | |
 | ![icon][img17] | Stakeholders | |
-
-## Navigate
-
-* Tap a sale to open it.
-* Tap the arrow in the bottom right corner (![icon][img10]) to return to the previous page.
-* Tap **Edit** to update the item you are viewing.
-* Tap the **Task** icon for more options. For example, to filter sales by quarter, month, or week.
+| | Quote/products |
 
 ## Sale stages
 
@@ -63,9 +69,11 @@ The number in the red circle next to the sale icon in the navigator shows how ma
 
 3. Select the **Upcoming**, **Closed**, or **Overdue** tab.
 
-4. Optionally, adjust the period from the **Task** menu.
+4. Optionally, filter the time period from the **Task** menu.
 
 5. Select a sale to examine it.
+
+[!include[Configure visible fields](../includes/tip-visible-fields.md)]
 
 ## View sales belonging to a colleague or a user group
 
@@ -109,9 +117,10 @@ Keeping an eye on the team or internal competition? You can track sales by user 
 [img7]: ../../../../../common/icons/mobile/saleslist-pipeline-h32.png
 [img8]: ../../../../../common/icons/mobile/saleslist-closed-h32.png
 [img9]: ../../../../../common/icons/mobile/saleslist-overdue-h32.png
-[img10]: ../../../../../common/icons/mobile/swipe-replay.png
 [img11]: ../../../../../common/icons/mobile/details-h32.png
 [img12]: ../../../../../common/icons/mobile/documents-h32.png
 [img14]: ../../../../../common/icons/mobile/sale.png
 [img15]: ../../../../../common/icons/mobile/ticket-h32.png
 [img17]: ../../../../../common/icons/mobile/associate-h32.png
+[img18]:../../../../../common/icons/mobile/star-h32.png
+[img19]:../../../../../common/icons/mobile/search-h32.png
