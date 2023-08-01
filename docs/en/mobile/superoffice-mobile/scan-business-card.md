@@ -19,7 +19,7 @@ Do you receive many business cards from prospects and customers? The fastest way
 
 1. Go to the **Company/Contact** screen.
 
-1. Tap **New+** (1) and select **Scan business card** (2).
+1. Tap **+** (1) and select **Scan business card** (2).
 
     ![Mobile CRM - scan business card -screenshot][img1]
 

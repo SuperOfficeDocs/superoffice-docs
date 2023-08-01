@@ -18,7 +18,7 @@ When you are out visiting, you can create appointments directly from Mobile CRM.
 ## Steps
 
 1. Go to the Diary.
-2. Tap **+New** and select **New appointment**.
+2. Tap **+** and select **New appointment**.
 3. Tap the header to specify the start and end date and time for the appointment.
 4. Select an appointment type and enter a description.
 5. Tap the **With** section and choose a company or contact that the appointment concerns.
@@ -43,7 +43,7 @@ You can save time by basing a new appointment on an existing one and amend the i
 The person who owns the calendar will be defined as the owner of the appointment. To create an appointment in someone other's calendar, simply switch who's calendar you're viewing.
 
 1. Select their name just below the row of tabs in the Diary screen.
-2. Tap **+New** at the bottom right corner and follow the steps outlined above.
+2. Tap **+** at the bottom right corner and follow the steps outlined above.
 
 ## Add participants and resources
 

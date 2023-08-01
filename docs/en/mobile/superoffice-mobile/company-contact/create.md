@@ -20,7 +20,7 @@ Note: If the company that the contact belongs to has not yet been entered, you n
 ## Steps
 
 1. Go to the main **Company/contact** page.
-2. Tap **+New** and select **New contact**.
+2. Tap **+** and select **New contact**.
 3. Enter first and last.
 4. Select the company they belong to.
 5. Add other details as necessary. For example, phone number and email address.
@@ -29,7 +29,7 @@ Note: If the company that the contact belongs to has not yet been entered, you n
 ## Add on company
 
 1. Locate and open the company.
-2. Tap **+New** and select **Add new contact**.
+2. Tap **+** and select **Add new contact**.
 3. Enter first and last name.
 4. Optionally add other information and save.
 
