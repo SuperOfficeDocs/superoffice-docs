@@ -61,7 +61,7 @@ items:
   fullName: CRMScript.Native.Message.addHeader(String,String)
   type: Method
   summary: "\nAdds a header to the message. The headers will be shown at the view request page, listed at the message.\n"
-  remarks: 
+  remarks: "\nThis method will only add a header if the message has been loaded or saved first. You do not need to call save() after this method.\n"
   syntax: 
     content: Void addHeader(String type, String value)
     parameters:
