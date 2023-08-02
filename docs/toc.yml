@@ -1,6 +1,6 @@
 items:
 - name: User guide
-  topicHref: en/learn/index.md
+  topicHref: en/learn/index.yml
 - name: Company
   topicHref: en/company/index.yml
 - name: Contact

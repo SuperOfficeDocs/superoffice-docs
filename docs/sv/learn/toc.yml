@@ -1,6 +1,8 @@
 items:
-  - name: Välkommen
-    href: index.md
+  - name: Översikt
+    href: index.yml
+  - name: Introduktion
+    href: intro.md
   - name: Komma igång
     href: getting-started/toc.yml
     topicHref: getting-started/index.md

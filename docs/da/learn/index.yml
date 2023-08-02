@@ -1,0 +1,269 @@
+### YamlMime:Category
+
+title: Velkommen
+summary: Er du klar til at opdage SuperOffice CRM's styrke og lære mere? Begynd helt fra starten, og lad os tage dig med på en spændende CRM-rejse med trin-for-trin vejledninger, eller spring direkte til et specifikt emne i menuen.
+brand: devdocs
+
+metadata:
+  title: Velkommen til Learn | SuperOfficeDocs
+  description: "Er du klar til at opdage SuperOffice CRM's styrke og lære mere? Begynd helt fra starten, og lad os tage dig med på en spændende CRM-rejse med trin-for-trin vejledninger, eller spring direkte til et specifikt emne i menuen."
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 07.20.2023
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Dagbog
+      itemType: /media/common/nav-diary-h32.png
+      isImage: "true"
+      url: ../diary/learn/index.md
+    # Card
+    - title: Dashboards
+      itemType: /media/common/nav-dashboard-h32.png
+      isImage: "true"
+      url: ../dashboard/learn/index.md
+    # Card
+    - title: Dokument
+      itemType: /media/common/document-h32.png
+      isImage: "true"
+      url: ../document/learn/index.md
+    # Card
+    - title: Sager
+      itemType: /media/common/nav-cs-h32.png
+      isImage: "true"
+      url: ../request/learn/index.md
+    # Card
+    - title: Projekt
+      itemType: /media/common/nav-project-h32.png
+      isImage: "true"
+      url: ../project/learn/index.md
+    # Card
+    - title: Salg
+      itemType: /media/common/nav-sale-h32.png
+      isImage: "true"
+      url: ../sale/learn/index.md
+    # Card
+    - title: Marketing
+      itemType: /media/common/nav-marketing-h32.png
+      isImage: "true"
+      url: ../marketing/learn/index.md
+    # Card
+    - title: Mobile CRM
+      itemType: /media/common/phone-h32.png
+      isImage: "true"
+      url: ../mobile/superoffice-mobile/learn/index.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+  # Card
+    - title: Kom godt i gang
+      summary: ""
+      links:
+      - text: Introduktion
+        itemType: learn
+        url: getting-started/login.md
+      - text: Lær det grundlæggende
+        itemType: learn
+        url: basics/index.md
+      - text: Demo
+        itemType: video
+        url: https://www.youtube.com/embed/10VQCTgxODc
+      - text: Logon
+        itemType: how-to-guide
+        url: getting-started/login.md
+      - text: Præferencer
+        itemType: how-to-guide
+        url: getting-started/preferences.md
+      - text: Tilknyt e-mail og dokumenter
+        itemType: how-to-guide
+        url: getting-started/connect-email-doc/index.md
+      - text: Rediger e-mailsignatur
+        itemType: how-to-guide
+        url: getting-started/edit-email-signature.md
+      - text: Layoutelementerne
+        itemType: reference
+        url: getting-started/main-screen/index.md
+
+    # Card
+    - title: Seneste opdateringer
+      summary: ""
+      links:
+      - text: Versionsnoter
+        itemType: whats-new
+        url: ../../../release-notes/index.md
+      - text: Ny sagshåndtering
+        itemType: concept
+        url: ../request/learn/index.md
+      - text: Konfigurerbare skærme - arkiver
+        itemType: concept
+        url: ../ui/screen-designer/learn/edit-layout-archives.md
+      - text: Salgsmål
+        itemType: concept
+        url: ../sale/learn/sales-targets/index.md
+      - text: SharePoint-dokumentbibliotek
+        itemType: how-to-guide 
+        url: ../admin/preferences/learn/document-library/change-to-sharepoint.md
+      - text: Marketing-dashboard
+        itemType: how-to-guide
+        url: ../dashboard/learn/show-marketing.md
+
+    # Card
+    - title: Søgemuligheder
+      summary: ""
+      links:
+      - text: Introduktion
+        itemType: learn
+        url: ../search-options/learn/index.md
+      - text: Udvalg
+        itemType: concept
+        url: ../search-options/selection/learn/index.md
+      - text: Fritekstsøgning
+        itemType: how-to-guide
+        url: ../search-options/learn/freetext-search.md
+      - text: Søg fra navigator
+        itemType: how-to-guide
+        url: ../search-options/learn/in-navigator.md
+      - text: Søg i dialogbokse
+        itemType: how-to-guide
+        url: ../search-options/learn/in-dialogs.md
+      - text: Find skærm
+        itemType: how-to-guide
+        url: ../search-options/learn/find-screen.md
+      - text: Søgekriterier
+        itemType: how-to-guide
+        url: ../search-options/learn/search-criteria.md
+      - text: Nytt udvalg
+        itemType: how-to-guide
+        url: ../search-options/selection/learn/create/index.md
+
+    # Card
+    - title: Firma og kontakt
+      summary: ""
+      links:
+      - text: Introduktion
+        itemType: learn
+        url: ../contact/learn/index.md
+      - text: Opret nyt firma
+        itemType: how-to-guide
+        url: ../company/learn/create.md
+      - text: Opret ny kontakt
+        itemType: how-to-guide
+        url: ../contact/learn/create.md
+      - text: Send e-mail til en person
+        itemType: how-to-guide
+        url: ../contact/learn/send-email.md
+      - text: Sektionsfaner på firma
+        itemType: reference
+        url: ../company/learn/index.md
+      - text: Sektionsfaner på person
+        itemType: reference
+        url: ../contact/learn/index.md
+
+    # Card
+    - title: E-mail og dagbog
+      summary: ""
+      links:
+      - text: Introduktion til e-mail
+        itemType: learn
+        url: ../email/learn/index.md
+      - text: Introduktion til dagbog
+        itemType: learn
+        url: ../diary/learn/index.md
+      - text: Skift standardmailklient i SuperOffice
+        itemType: how-to-guide
+        url: ../email/learn/change-default-mail-client.md
+      - text: Skriv e-mail
+        itemType: how-to-guide
+        url: compose.md
+      - text: Opret aftale
+        itemType: how-to-guide
+        url: ../diary/learn/create-appointment.md
+      - text: Videomøder
+        itemType: how-to-guide
+        url: ../diary/learn/video-meetings.md
+      - text: Naviger i skærmbilledet Dagbog
+        itemType: reference
+        url: ../diary/learn/screen/index.md
+
+    # Card
+    - title: Dokument
+      summary: ""
+      links:
+      - text: Introduktion
+        itemType: learn
+        url: ../document/learn/index.md
+      - text: Opret nyt dokument
+        itemType: how-to-guide
+        url: ../document/learn/create.md
+      - text: Skærmbilledet Dokument
+        itemType: reference
+        url: ../document/learn/screen/index.md
+      - text: Skabelonvariabler
+        itemType: reference
+        url: ../../../en/document/templates/variables/index.md
+
+    # Card
+    - title: Sager
+      summary: ""
+      links:
+      - text: Introduktion
+        itemType: learn
+        url: ../request/learn/index.md
+      - text: Opret sag
+        itemType: how-to-guide
+        url: ../request/learn/howto/create.md
+      - text: Tag ansvar for sag
+        itemType: how-to-guide
+        url: ../request/learn/howto/accept.md
+      - text: Svar til kunde
+        itemType: how-to-guide
+        url: ../request/learn/howto/reply.md
+      - text: Arbejd med svarskabeloner
+        itemType: how-to-guide
+        url: ../request/reply-templates/learn/create.md
+      - text: Skærmbilledet Sag
+        itemType: reference
+        url: ../request/learn/screen/index.md
+
+    # Card
+    - title: Salg and dashboards
+      summary: ""
+      links:
+      - text: Introduktion
+        itemType: learn
+        url: ../sale/learn/index.md
+      - text: Prognoser
+        itemType: concept
+        url: ../sale/learn/forecasting.md
+      - text: Salgsmål
+        itemType: concept
+        url: ../sale/learn/sales-targets/index.md
+      - text: Dashboard
+        itemType: concept
+        url: ../dashboard/learn/index.md
+      - text: Opret salg
+        itemType: how-to-guide
+        url: ../sale/learn/create.md
+      - text: Tilføj interessenter
+        itemType: how-to-guide
+        url: ../sale/learn/stakeholders/create.md
+      - text: Arbejd med salgsguide
+        itemType: how-to-guide
+        url: ../sale/learn/sales-guide/working-with-sales-guide.md
+      - text: Opret et nyt dashboard
+        itemType: how-to-guide
+        url: ../dashboard/learn/create.md
+      - text: Arbejd med ruder
+        itemType: how-to-guide
+        url: ../dashboard/learn/working-with-tiles.md

@@ -1,6 +1,8 @@
 items:
-  - name: Welcome
-    href: index.md
+  - name: Overview
+    href: index.yml
+  - name: Introduction
+    href: intro.md
   - name: Get started
     href: getting-started/toc.yml
     topicHref: getting-started/index.md

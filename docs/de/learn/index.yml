@@ -1,0 +1,269 @@
+### YamlMime:Category
+
+title: Willkommen
+summary: Bereit, die Leistungsfähigkeit von SuperOffice CRM zu entdecken und mehr zu lernen? Beginnen Sie von Anfang an und lassen Sie uns Sie auf eine spannende CRM-Reise mit Anleitungen mitnehmen oder springen Sie einfach direkt zu einem bestimmten Thema im Menü.
+brand: devdocs
+
+metadata:
+  title: Willkommen bei Learn | SuperOfficeDocs
+  description: "Bereit, die Leistungsfähigkeit von SuperOffice CRM zu entdecken und mehr zu lernen? Beginnen Sie von Anfang an und lassen Sie uns Sie auf eine spannende CRM-Reise mit Anleitungen mitnehmen oder springen Sie einfach direkt zu einem bestimmten Thema im Menü."
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 07.20.2023
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Kalender
+      itemType: /media/common/nav-diary-h32.png
+      isImage: "true"
+      url: ../diary/learn/index.md
+    # Card
+    - title: Dashboard
+      itemType: /media/common/nav-dashboard-h32.png
+      isImage: "true"
+      url: ../dashboard/learn/index.md
+    # Card
+    - title: Dokument
+      itemType: /media/common/document-h32.png
+      isImage: "true"
+      url: ../document/learn/index.md
+    # Card
+    - title: Anfragen
+      itemType: /media/common/nav-cs-h32.png
+      isImage: "true"
+      url: ../request/learn/index.md
+    # Card
+    - title: Projekt
+      itemType: /media/common/nav-project-h32.png
+      isImage: "true"
+      url: ../project/learn/index.md
+    # Card
+    - title: Verkauf
+      itemType: /media/common/nav-sale-h32.png
+      isImage: "true"
+      url: ../sale/learn/index.md
+    # Card
+    - title: Marketing
+      itemType: /media/common/nav-marketing-h32.png
+      isImage: "true"
+      url: ../marketing/learn/index.md
+    # Card
+    - title: Mobile CRM
+      itemType: /media/common/phone-h32.png
+      isImage: "true"
+      url: ../mobile/superoffice-mobile/learn/index.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+  # Card
+    - title: Erste Schritte
+      summary: ""
+      links:
+      - text: Einführung
+        itemType: learn
+        url: getting-started/login.md
+      - text: Lernen Sie die Grundlagen
+        itemType: learn
+        url: basics/index.md
+      - text: Demo
+        itemType: video
+        url: https://www.youtube.com/embed/10VQCTgxODc
+      - text: Anmeldung
+        itemType: how-to-guide
+        url: getting-started/login.md
+      - text: Einstellungen
+        itemType: how-to-guide
+        url: getting-started/preferences.md
+      - text: E-Mails und Dokumente verbinden
+        itemType: how-to-guide
+        url: getting-started/connect-email-doc/index.md
+      - text: E-Mail-Signatur bearbeiten
+        itemType: how-to-guide
+        url: getting-started/edit-email-signature.md
+      - text: Die Layout-Elemente
+        itemType: reference
+        url: getting-started/main-screen/index.md
+
+    # Card
+    - title: Neueste Updates
+      summary: ""
+      links:
+      - text: Versionshinweise
+        itemType: whats-new
+        url: ../../../release-notes/index.md
+      - text: Neues Anfragen-Management
+        itemType: concept
+        url: ../request/learn/index.md
+      - text: Konfigurierbare Bildschirme - Archive
+        itemType: concept
+        url: ../ui/screen-designer/learn/edit-layout-archives.md
+      - text: Verkaufsziele
+        itemType: concept
+        url: ../sale/learn/sales-targets/index.md
+      - text: SharePoint-Dokumentbibliothek
+        itemType: how-to-guide 
+        url: ../admin/preferences/learn/document-library/change-to-sharepoint.md
+      - text: Marketing-Dashboard
+        itemType: how-to-guide
+        url: ../dashboard/learn/show-marketing.md
+
+    # Card
+    - title: Suchoptionen
+      summary: ""
+      links:
+      - text: Einführung
+        itemType: learn
+        url: ../search-options/learn/index.md
+      - text: Selektion
+        itemType: concept
+        url: ../search-options/selection/learn/index.md
+      - text: Volltextsuche
+        itemType: how-to-guide
+        url: ../search-options/learn/freetext-search.md
+      - text: Suche aus dem Navigator
+        itemType: how-to-guide
+        url: ../search-options/learn/in-navigator.md
+      - text: Suche in Dialogfelder
+        itemType: how-to-guide
+        url: ../search-options/learn/in-dialogs.md
+      - text: Ansicht Suchen
+        itemType: how-to-guide
+        url: ../search-options/learn/find-screen.md
+      - text: Suchkriterien
+        itemType: how-to-guide
+        url: ../search-options/learn/search-criteria.md
+      - text: Selektion erstellen
+        itemType: how-to-guide
+        url: ../search-options/selection/learn/create/index.md
+
+    # Card
+    - title: Firma und Person
+      summary: ""
+      links:
+      - text: Einführung
+        itemType: learn
+        url: ../contact/learn/index.md
+      - text: Neue Firma erstellen
+        itemType: how-to-guide
+        url: ../company/learn/create.md
+      - text: Neue Person erstellen
+        itemType: how-to-guide
+        url: ../contact/learn/create.md
+      - text: E-Mail an eine Person senden
+        itemType: how-to-guide
+        url: ../contact/learn/send-email.md
+      - text: Bereichsregisterkarten auf Firma
+        itemType: reference
+        url: ../company/learn/index.md
+      - text: Bereichsregisterkarten auf Person
+        itemType: reference
+        url: ../contact/learn/index.md
+
+    # Card
+    - title: E-Mail und Kalender
+      summary: ""
+      links:
+      - text: Einführung - E-Mail
+        itemType: learn
+        url: ../email/learn/index.md
+      - text: Einführung - Kalender
+        itemType: learn
+        url: ../diary/learn/index.md
+      - text: Standard-E-Mail-Client in SuperOffice ändern
+        itemType: how-to-guide
+        url: ../email/learn/change-default-mail-client.md
+      - text: E-Mail verfassen
+        itemType: how-to-guide
+        url: compose.md
+      - text: Termin erstellen
+        itemType: how-to-guide
+        url: ../diary/learn/create-appointment.md
+      - text: Videokonferenzen
+        itemType: how-to-guide
+        url: ../diary/learn/video-meetings.md
+      - text: In der Ansicht Kalender navigieren
+        itemType: reference
+        url: ../diary/learn/screen/index.md
+
+    # Card
+    - title: Dokument
+      summary: ""
+      links:
+      - text: Einführung
+        itemType: learn
+        url: ../document/learn/index.md
+      - text: Neues Dokument erstellen
+        itemType: how-to-guide
+        url: ../document/learn/create.md
+      - text: Dokumentenansicht
+        itemType: reference
+        url: ../document/learn/screen/index.md
+      - text: Vorlagenvariablen
+        itemType: reference
+        url: ../../../en/document/templates/variables/index.md
+
+    # Card
+    - title: Anfragen
+      summary: ""
+      links:
+      - text: Einführung
+        itemType: learn
+        url: ../request/learn/index.md
+      - text: Anfrage erstellen
+        itemType: how-to-guide
+        url: ../request/learn/howto/create.md
+      - text: Anfrage übernehmen
+        itemType: how-to-guide
+        url: ../request/learn/howto/accept.md
+      - text: Antwort an Kunde
+        itemType: how-to-guide
+        url: ../request/learn/howto/reply.md
+      - text: Mit Antwortvorlagen arbeiten
+        itemType: how-to-guide
+        url: ../request/reply-templates/learn/create.md
+      - text: Anfrageansicht
+        itemType: reference
+        url: ../request/learn/screen/index.md
+
+    # Card
+    - title: Verkauf und Dashboard
+      summary: ""
+      links:
+      - text: Einführung
+        itemType: learn
+        url: ../sale/learn/index.md
+      - text: Prognose
+        itemType: concept
+        url: ../sale/learn/forecasting.md
+      - text: Vertriebsziele
+        itemType: concept
+        url: ../sale/learn/sales-targets/index.md
+      - text: Dashboard
+        itemType: concept
+        url: ../dashboard/learn/index.md
+      - text: Verkauf erstellen
+        itemType: how-to-guide
+        url: ../sale/learn/create.md
+      - text: Beteiligte hinzufügen
+        itemType: how-to-guide
+        url: ../sale/learn/stakeholders/create.md
+      - text: Verkaufsleitfaden
+        itemType: how-to-guide
+        url: ../sale/learn/sales-guide/working-with-sales-guide.md
+      - text: Neues Dashboard erstellen
+        itemType: how-to-guide
+        url: ../dashboard/learn/create.md
+      - text: Mit Kacheln arbeiten
+        itemType: how-to-guide
+        url: ../dashboard/learn/working-with-tiles.md
