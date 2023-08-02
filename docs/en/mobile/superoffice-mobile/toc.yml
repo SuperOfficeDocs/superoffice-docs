@@ -56,6 +56,13 @@ items:
     href: project/create.md
   - name: Update project
     href: project/update.md
+- name: Dashboard
+  topicHref: dashboard/index.md
+  items:
+  - name: Overview
+    href: dashboard/index.md
+  - name: Drill down
+    href: dashboard/drill-down.md
 - name: Manage notifications
   href: howto/manage-notifications.md
 - name: Send email or SMS
