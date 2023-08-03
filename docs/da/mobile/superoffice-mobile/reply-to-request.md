@@ -33,9 +33,6 @@ Mobile CRM giver dig adgang til de vigtigste funktioner i SuperOffice via smartp
 
 [Se videoen Sagsbehandling][1] for at få mere at vide om, hvordan du håndterer kundeservicesager i Mobile CRM (videoens længde: 1:31).
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4] -->
-
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
 
