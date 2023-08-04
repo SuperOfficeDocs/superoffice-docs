@@ -17,16 +17,19 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: User guide
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: learn/extra-table/index.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -35,10 +38,12 @@ conceptualContent:
       summary: ""
       links:
       - text: How to create a user-defined field
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/udef/add.md
       - text: How to create an extra field
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/extra-field/create.md
 
     # Card
@@ -46,10 +51,12 @@ conceptualContent:
       summary: ""
       links:
       - text: How to add a user-defined field
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
       - text: How to filter information
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=HYYI4ZCl4S4&t=29s
 
     # Card
@@ -57,13 +64,16 @@ conceptualContent:
       summary: ""
       links:
         - text: User preferences
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: ../admin/user-preferences/index.md
         - text: Lists - Project status
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/lists/learn/project-status.md
         - text: Lists - Project type status
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/lists/learn/project-type.md
 
     # Card
@@ -71,13 +81,16 @@ conceptualContent:
       summary: ""
       links:
       - text: Web panels
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../ui/web-panels/index.md
       - text: SoProtocol
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../ui/soprotocol/index.md
       - text: bLogic - select extra field
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../ui/blogic/reference/select-extra-field.md
 
     # Card
@@ -85,7 +98,8 @@ conceptualContent:
       summary: ""
       links:
       - text: Custom fields
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: overview.md
 
     # Card
@@ -93,10 +107,12 @@ conceptualContent:
       summary: ""
       links:
       - text: Overview
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../automation/index.yml
       - text: Triggers
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../automation/trigger/index.md
 
     # Card
@@ -104,16 +120,20 @@ conceptualContent:
       summary: ""
       links:
       - text: CRMScript
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: udef/howto/crmscript/index.md
       - text: Web services
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: udef/howto/services/set-udef-listitem-value.md
       - text: Entities
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: udef/howto/entity/set-udef-listitem-value.md
       - text: Raw SQL
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: udef/howto/sql/set-udef.md
 
     # Card
@@ -121,20 +141,26 @@ conceptualContent:
       summary: ""
       links:
       - text: Udeffield table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udeffield.md
       - text: udpersonsmall table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udpersonsmall.md
       - text: udpersonlarge table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udpersonlarge.md
       - text: udlist table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udlist.md
       - text: extra_tables table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/extra-tables.md
       - text: extra_fields table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/extra-fields.md

@@ -17,40 +17,49 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: "Service set-up guide (onsite)"
-      itemType: how-to-guide
+      itemType: list
+      typeDesc: how-to-guide
       url: install/index.md
     # Card
     - title: "Upgrade (onsite)"
-      itemType: how-to-guide
+      itemType: list
+      typeDesc: how-to-guide
       url: upgrade/index.md
     # Card
     - title: "Migrate"
-      itemType: how-to-guide
+      itemType: list
+      typeDesc: how-to-guide
       url: ../online/migrate/index.md
     # Card
     - title: "Customer center"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../customer-center/index.yml
     # Card
     - title: "CRMScript Overview"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../automation/crmscript/index.yml
     # Card
     - title: "Trigger script reference"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml
     # Card
     - title: "Macros and scripts"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../automation/crmscript/learn/macro-script.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -59,94 +68,120 @@ conceptualContent:
       summary: ""
       links:
       - text: Intro
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../request/reply-templates/index.md
       - text: Standard fields
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../request/reply-templates/learn/template-variables.md
       - text: System templates
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../request/reply-templates/system-templates.md
       - text: Create new template
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/reply-templates/learn/create.md
       - text: Using CRMScript
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/reply-templates/howto/crmscript/index.md
       - text: CRMScript template engine
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../automation/crmscript/parser.md
       - text: Database table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/reply-template.md
     # Card
     - title: Customer center
       summary: ""
       links:
       - text: What is the customer center?
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../customer-center/overview.md
       - text: Config
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../customer-center/config.md
       - text: Templates
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../customer-center/templates.md
     # Card
     - title: Automated tasks
       summary: ""
       links:
       - text: Intro
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: automated-tasks/index.md
       - text: dbi
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: automated-tasks/dbi.md
       - text: ejournalCron
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: automated-tasks/ejournalcron.md
       - text: ejOutbox
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: automated-tasks/ejoutbox.md
       - text: ejSender
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: automated-tasks/ejsender.md
       - text: ejTermSetup
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: automated-tasks/ejtermsetup.md
       - text: importMail
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: automated-tasks/importmail.md
       - text: upgrade
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: automated-tasks/upgrade.md
     # Card
     - title: SMS plugins
       summary: ""
       links:
       - url: sms/index.md
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         text: Intro
       - url: sms/cm.md
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         text: CM
       - url: sms/compaya.md
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         text: Compaya
       - url: sms/intelecom.md
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         text: Intelecom
       - url: sms/linkmobility.md
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         text: Link Mobility
       - url: sms/smsteknik.md
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         text: SMSTeknik
       - url: sms/twilio.md
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         text: Twilio
       - url: sms/txtlocal.md
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         text: TxtLocal
 # Card with summary style
 additionalContent:

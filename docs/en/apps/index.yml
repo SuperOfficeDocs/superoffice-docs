@@ -17,44 +17,54 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: "Requirements"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: requirements/index.md
     # Card
     - title: "Mirroring"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../mirroring/index.yml
     # Card
     - title: "Online tenant status"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: tenant-status/index.md
     # Card
     - title: "What API to use?"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: getting-started/what-api-to-use.md
     # Card
     - title: "Developer Portal"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../developer-portal/index.yml
     # Card
     - title: "Get access to SOD"
-      itemType: how-to-guide
+      itemType: list
+      typeDesc: how-to-guide
       url: getting-started/get-access-to-sod.md
     # Card
     - title: "Getting started"
-      itemType: how-to-guide
+      itemType: list
+      typeDesc: how-to-guide
       url: ../developer-portal/create-app/index.md
     # Card
     - title: "Authentication"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../api/authentication/overview.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -63,138 +73,176 @@ conceptualContent:
         summary: ""
         links:
         - text: What is an application?
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: overview.md
         - text: Terminology
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: terminology.md
         - text: User contexts
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: getting-started/user-contexts.md
         - text: Integration points
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: ../api/overview/index.md
     # Card
       - title: Tenant status
         summary: ""
         links:
         - text: What is tenant status?
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: tenant-status/index.md
         - text: The status page
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: tenant-status/status-page.md
         - text: Check status
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: tenant-status/check-status.md
         - text: Notifications
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: tenant-status/notifications.md
         - text: Get notifications
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: tenant-status/get-notifications.md
         - text: Parse notifications
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: tenant-status/parse-notifications.md
     # Card
       - title: Provisioning
         summary: ""
         links:
         - text: What is provisioning?
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: provisioning/index.md
         - text: What is consent?
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: provisioning/consent.md
         - text: Get consent
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: provisioning/get-consent.md
         - text: Revoke consent
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: provisioning/revoke.md
         - text: Approval sequence
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: provisioning/consent.md
     # Card
       - title: Building applications
         summary: ""
         links:
         - text: Getting started
-          itemType: overview
+          itemType: map
+          typeDesc: overview
           url: getting-started/index.md
         - text: Get access to SOD
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: getting-started/get-access-to-sod.md
         - text: Create App
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../developer-portal/create-app/index.md
         - text: Best practices
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: best-practices.md
         - text: What API to use?
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: getting-started/what-api-to-use.md
         - text: Hosting
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: getting-started/hosting.md
         - text: Run website on IIS localhost
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: getting-started/run-website-on-iis-localhost.md
     # Card
       - title: Standard applications
         summary: ""
         links:
         - text: What is a standard application?
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: standard.md
         - text: The SuperOffice app store
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: app-store.md
         - text: Certification
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: certification/index.md
         - text: Checklist
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: certification/checklist.md
         - text: Certify your app
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: certification/certify-app.md
         - text: Initial Watchcom evaluation
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: certification/initial-watchcom-eval.md
         - text: How to pass the test
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: certification/secure-app.md
         - text: Get listed
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../developer-portal/app-store/index.md
         - text: Publish your standard application
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../developer-portal/howto/request-to-publish.md
         - text: Beta period
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: publish/beta-period.md
     # Card
       - title: Custom applications
         summary: ""
         links:
         - text: What is a custom (private) application?
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: custom.md
         - text: What is validation?
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: activate/index.md
         - text: Checklist
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: activate/checklist.md
         - text: Validate your application
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: activate/validate-app.md
         - text: First-time activation
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: activate/activate-custom-app.md
         - text: Helper for custom applications
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: activate/helper-application.md
 # Card with summary style
 additionalContent:

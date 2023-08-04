@@ -17,44 +17,54 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: "Developer portal"
-      itemType: deploy
+      itemType: cloud_upload
+      typeDesc: deploy
       url: ../developer-portal/index.yml
     # Card
     - title: "Introduction to SuperOffice APIs."
-      itemType: get-started
+      itemType: power_settings_new
+      typeDesc: get-started
       url: overview/index.md
     # Card
     - title: "Authentication overview."
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: authentication/overview.md
     # Card
     - title: "Learn NetServer."
-      itemType: learn
+      itemType: school
+      typeDesc: learn
       url: overview/netserver.md
     # Card
     - title: "Learn web services"
-      itemType: learn
+      itemType: school
+      typeDesc: learn
       url: web-services/index.md
     # Card
     - title: "Learn bulk operations"
-      itemType: learn
+      itemType: school
+      typeDesc: learn
       url: bulk-operations/index.md 
     # Card
     - title: "Learn search APIs"
-      itemType: learn
+      itemType: school
+      typeDesc: learn
       url: search/index.md
     # Card
     - title: "RESTful API reference"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: reference/restful/index.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "NetServer: inside and out." # < 60 chars (optional)
   summary: "A data access layer for building all your SuperOffice integrations and applications: web, mobile, desktop, IoT, and more."
   items:
@@ -63,61 +73,76 @@ conceptualContent:
       summary: Learn the fundamental of NetServer core
       links:
         - url: overview/netserver.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: What is NetServer
         - url: entities/index.md
-          itemType: overview
+          itemType: map
+          typeDesc: overview
           text: NetServer Entities
         - url: rows/index.md
-          itemType: overview
+          itemType: map
+          typeDesc: overview
           text: NetServer Rows
         - url: osql/index.md
-          itemType: overview
+          itemType: map
+          typeDesc: overview
           text: NetServer OSQL
      # Card
     - title: Web service concepts
       summary: Learn the fundamentals of NetServer web services
       links:
         - text: NetServer Services overview
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: web-services/index.md
         - text: Service agents and carriers
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: web-services/index.md
         - text: NetServer endpoints
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: web-services/endpoints/index.md
         - text: NetServer proxies
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: web-services/proxies/index.md
     # Card
     - title: Search options
       summary: Start searching with NetServer
       links:
         - text: Using Find API
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: search/find-selection/index.md
         - text: Using Archive Providers
-          itemType: overview
+          itemType: map
+          typeDesc: overview
           url: search/index.md
     # Card
     - title: API Reference
       summary: Quick access to API reference
       links:
         - text: NetServer core client
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: reference/netserver/core/index.md
         - text: SOAP API
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: reference/soap/index.md
         - text: NetServer SOAP proxy client
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: reference/netserver/services/index.md
         - text: REST API
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: reference/restful/index.md
         - text: NetServer REST proxy client
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: reference/webapi/index.md
 
 # tools section (optional)

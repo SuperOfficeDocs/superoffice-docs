@@ -17,28 +17,34 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: Video meetings
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../video-meeting/index.md
     # Card
     - title: User guide
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: learn/index.md
     # Card
     - title: Template variables
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../document/templates/variables/for-appointments.md
         # Card
     - title: Appointment database table
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../database/tables/appointment.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -47,13 +53,16 @@ conceptualContent:
       summary: ""
       links:
       - text: Types of follow-ups
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: overview.md
       - text: Recurring appointments
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: recurring-appointments.md
       - text: Invitations
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: invitations.md
 
   # Card
@@ -61,10 +70,12 @@ conceptualContent:
       summary: ""
       links:
       - text: Create a follow-up
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/create-follow-up.md
       - text: Invite participants
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/invitation/add-participant.md
 
     # Card
@@ -72,13 +83,16 @@ conceptualContent:
       summary: ""
       links:
       - text: Add appointment to project
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=YQr5B5IU7XY
       - text: Create and join video meeting
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=XDg_k086TRA
       - text: Manage your tasks and optimize your schedule
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=w4ywpuX2SPM
 
     # Card
@@ -86,13 +100,16 @@ conceptualContent:
       summary: ""
       links:
         - text: User preference AppointmentDialog
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: ../admin/user-preferences/reference/appointment-dialog.md
         - text: User preference DiaryView
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: ../admin/user-preferences/reference/diary-view.md
         - text: List Follow-up type
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/lists/learn/adding-items-to-follow-up-type-list.md
 
     # Card
@@ -100,19 +117,24 @@ conceptualContent:
       summary: ""
       links:
       - text: Overview
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../automation/index.yml
       - text: Trigger SalesAfterSaveAppointment
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
       - text: Trigger SalesBeforeSaveAppointment
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointment
       - text: Webhook activity events
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../automation/webhook/reference/activity-events.md
       - text: Zapier
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
@@ -120,25 +142,32 @@ conceptualContent:
       summary: ""
       links:
       - text: CRMScript
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/crmscript/index.md
       - text: Raw SQL
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/sql/index.md
       - text: OSQL
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/osql/create-apt-osql.md
       - text: Row
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/row/create-apt-row.md
       - text: Entity
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/entity/index.md
       - text: Web services
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/services/index.md
       - text: Archive (search)
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/archive/invitation-archive.md
 
     # Card
@@ -146,13 +175,16 @@ conceptualContent:
       summary: ""
       links:
       - text: Custom objects
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../custom-objects/index.yml
       - text: UdappntSmall table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udappntsmall.md
       - text: UdappntLarge table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udappntlarge.md
 
     # Card
@@ -160,34 +192,44 @@ conceptualContent:
       summary: ""
       links:
       - text: Appointment table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/appointment.md
       - text: Invitation table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/invitation.md
       - text: RecurrenceRule table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/recurrencerule.md
       - text: Priority table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/priority.md
       - text: DiaryView table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/diaryview.md
       - text: Task table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/task.md
       - text: Project table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/project.md
       - text: SuggestedAppointment table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/suggestedappointment.md
       - text: Associate table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/associate.md
       - text: UserGroup table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/usergroup.md
 
 # Card with summary style

@@ -17,7 +17,8 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: Diary
@@ -62,7 +63,8 @@ highlightedContent:
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -71,28 +73,36 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduction
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: getting-started/login.md
       - text: Learn the basics
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: basics/index.md
       - text: Product demo
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/embed/10VQCTgxODc
       - text: Log in
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/login.md
       - text: Preferences
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/preferences.md
       - text: Connect email, document, diary
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/connect-email-doc/index.md
       - text: Edit email signature
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/edit-email-signature.md
       - text: The layout elements
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: getting-started/main-screen/index.md
 
     # Card
@@ -100,22 +110,28 @@ conceptualContent:
       summary: ""
       links:
       - text: Release notes
-        itemType: whats-new
+        itemType: new_releases
+        typeDesc: whats-new
         url: ../../../release-notes/index.md
       - text: New request management
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../request/learn/index.md
       - text: Configurable screens - archives
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../ui/screen-designer/learn/edit-layout-archives.md
       - text: Sales targets
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../sale/learn/sales-targets/index.md
       - text: SharePoint document library
-        itemType: how-to-guide 
+        itemType: list
+        typeDesc: how-to-guide 
         url: ../admin/preferences/learn/document-library/change-to-sharepoint.md
       - text: Marketing dashboard
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../dashboard/learn/show-marketing.md
 
     # Card
@@ -123,28 +139,36 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduction
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../search-options/learn/index.md
       - text: Selections
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../search-options/selection/learn/index.md
       - text: Free-text search
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/freetext-search.md
       - text: Search from navigator
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/in-navigator.md
       - text: Search in dialogs
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/in-dialogs.md
       - text: The Find screen
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/find-screen.md
       - text: Search criteria
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/search-criteria.md
       - text: Create selection
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/selection/learn/create/index.md
 
     # Card
@@ -152,22 +176,28 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduction
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../contact/learn/index.md
       - text: New company
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../company/learn/create.md
       - text: New contact
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../contact/learn/create.md
       - text: Send email to a contact
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../contact/learn/send-email.md
       - text: The Company screen
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../company/learn/index.md
       - text: The Contact screen
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../contact/learn/index.md
 
     # Card
@@ -175,25 +205,32 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduction to email
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../email/learn/index.md
       - text: Introduction to diary
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../diary/learn/index.md
       - text: Change default mail client in SuperOffice
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../email/learn/change-default-mail-client.md
       - text: Compose email
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: compose.md
       - text: New appointment
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../diary/learn/create-appointment.md
       - text: Video meetings
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../diary/learn/video-meetings.md
       - text: The Diary screen
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../diary/learn/screen/index.md
 
     # Card
@@ -201,16 +238,20 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduction
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../document/learn/index.md
       - text: New document
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../document/learn/create.md
       - text: The Document screen
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../document/learn/screen/index.md
       - text: Template variables
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../../../en/document/templates/variables/index.md
 
     # Card
@@ -218,22 +259,28 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduction
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../request/learn/index.md
       - text: New request
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/learn/howto/create.md
       - text: Accept request
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/learn/howto/accept.md
       - text: Reply to customer
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/learn/howto/reply.md
       - text: Work with reply templates
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/reply-templates/learn/create.md
       - text: The Request screen
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../request/learn/screen/index.md
 
     # Card
@@ -241,29 +288,38 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduction
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../sale/learn/index.md
       - text: Forecasting
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../sale/learn/forecasting.md
       - text: Sales targets
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../sale/learn/sales-targets/index.md
       - text: Dashboards
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../dashboard/learn/index.md
       - text: New sale
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../sale/learn/create.md
       - text: Add stakeholders
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../sale/learn/stakeholders/create.md
       - text: Working with sales guide
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../sale/learn/sales-guide/working-with-sales-guide.md
       - text: New dashboard
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../dashboard/learn/create.md
       - text: Work with tiles
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../dashboard/learn/working-with-tiles.md
