@@ -19,18 +19,26 @@ To download the Mobile CRM app follow these steps:
 
 1. Access [Apple AppStore][6] or [Google Play][7] depending on your device.
 
+    ![Mobile CRM download -mobile-screenshot][img6]
+
 2. Download and install the **SuperOffice Mobile CRM** app.
 
 3. Start the SuperOffice Mobile CRM app.
 
 4. Choose the connection for your SuperOffice installation.
 
+    ![Mobile CRM - set up -mobile-screenshot][img7]
+
     > [!NOTE]
     > If you choose to connect to a local installation, enter the SuperOffice server URL (connection string) for your company. (Ask your IT-department)
 
 5. Log in using your username and password.
 
-![Mobile CRM - login -screenshot][img4]
+    ![Mobile CRM - log in -mobile-screenshot][img4]
+
+From version 10.2.5 of the mobile CRM app, it is even easier to get started.
+
+![Mobile CRM - login -screenshot][img5]
 
 ## How to find your installation
 
@@ -72,4 +80,7 @@ If you want to connect a different SuperOffice CRM solution to your Mobile CRM a
 [img1]: ../media/log-out.png
 [img2]: ../media/reset-login.png
 [img3]: ../media/select-tenant.png
-[img4]: ../media/login.gif
+[img4]: ../media/login.jpg
+[img5]: ../media/login-new.png
+[img6]: ../media/app-store.jpg
+[img7]: ../media/choose-installation.jpg
