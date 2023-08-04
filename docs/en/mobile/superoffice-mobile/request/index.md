@@ -54,6 +54,8 @@ The Action bar allows you to reply to the customer, call the customer connected 
 | ![icon][img4] | Messages | All messages in request |
 | ![icon][img5] | Details | Information about the request |
 
+The **Task** menu lets you take pictures and add them as attachments to a message, change request status, set the owner, and reply to and add comments to the request.
+
 ## Where can I find requests?
 
 * The main **Requests** screen
@@ -96,9 +98,30 @@ Need to keep an eye on your direct reports or wonder about what your colleagues 
 > [!NOTE]
 > When you open another person's requests, only information that you have the rights to see is shown.
 
-You can get notifications in Mobile CRM for different statuses: New requests, New request message, Request activated, and Request escalation.
+## Notifications
 
-The Task menu lets you take pictures and add them as attachments to a message, change request status, assign request to other users with Set owner, and reply to and add comments to a request.
+You can get notifications on your device for different events:
+
+* New request
+* New request message
+* Request activated
+* Request escalation
+
+### In Notification Centre (iOS) / Notification drawer (Android)
+
+![SuperOffice Mobile CRM request notifications -screenshot][img20]
+
+Click the notification to open the request in Mobile CRM.
+
+> [!TIP]
+> Switch on and off push notifications for specific request events in Mobile CRM > **Settings** > **Notifications**.
+
+### In Mobile CRM Notification screen
+
+1. In the navigator, select **Notifications**.
+2. Select the **Requests** tab.
+3. Open the **Task** menu to filter which types of notifications you see. Unread notifications are bold.
+4. Tap a request to open it.
 
 ## Related content
 
@@ -107,7 +130,7 @@ The Task menu lets you take pictures and add them as attachments to a message, c
 * [Add comment][4]
 * [Reply / reply all][3]
 * [Forward][5]
-* Manage notifications
+* [Manage notifications][6]
 * [About reply templates][11]
 * [Introduction to request management][12]
 
@@ -117,6 +140,7 @@ The Task menu lets you take pictures and add them as attachments to a message, c
 [3]: respond.md#reply
 [4]: respond.md#comment
 [5]: respond.md#forward
+[6]: ../settings.md
 [10]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
 [11]: ../../../request/reply-templates/learn/index.md
 [12]: ../../../request/learn/index.md
@@ -133,5 +157,6 @@ The Task menu lets you take pictures and add them as attachments to a message, c
 [img9]: ../../../../../common/icons/mobile/request-selection-h32.png
 [img10]: ../../../../../common/icons/mobile/request-header.png
 [img11]: ../../../../../common/icons/mobile/ticket.png
-[img18]:../../../../../common/icons/mobile/star-h32.png
-[img19]:../../../../../common/icons/mobile/search-h32.png
+[img18]: ../../../../../common/icons/mobile/star-h32.png
+[img19]: ../../../../../common/icons/mobile/search-h32.png
+[img20]: ../../../../../release-notes/10.1/mobile/media/mobile-request-notifications.png

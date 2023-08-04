@@ -3,7 +3,7 @@ uid: mobile-crm-notifications
 title: Manage notifications
 description: How to manage notifications in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.24.2023
+so.date: 08.04.2023
 keywords: mobile, notification
 so.topic: howto
 so.version: 10
@@ -13,11 +13,14 @@ so.client: mobile
 
 # Manage notifications
 
+> [!NOTE]
+> Notification **settings** affect push notifications on your device. **Filters** selected from the **Task** menu are limited to the app and affect the subset of items you see in a list.
+
 ## Open notification settings
 
 1. Tap on the **Task** icon and select **Settings**.
 2. Select **Notifications**.
-3. In this screen you can configure all app notification setting.
+3. In this screen you can configure all app push notification setting.
 
 ![Mobile CRM - Task menu -screenshot][img1]![Mobile CRM - Notification settings -screenshot][img2]
 
@@ -38,9 +41,11 @@ so.client: mobile
 ## Related content
 
 * [Notification settings][1] - reference
+* [Request notifications][2]
 
 <!-- Referenced links -->
 [1]: ../settings.md#notifications
+[2]: ../request/index.md#notifications
 
 <!-- Referenced images -->
 [img1]: ../media/task-settings.png
