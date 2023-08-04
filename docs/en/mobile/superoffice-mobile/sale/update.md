@@ -40,6 +40,16 @@ so.client: mobile
     * Update the **Reason (lost)** field with the reason why the sale was lost.
     * Update the **Reason (stalled)** field with the reason why the sale was stalled. Also set the **Re-open date**.
 
+## Link to an incoming request
+
+When you are in a sales process, consider linking the sale to relevant incoming requests to have it show up in the **Requests** tab on that sale.
+
+1. Go to the main **Request** page.
+1. Search for the request by name or ID.
+1. Tap **Edit** on the selected request.
+1. Scroll down, then tap **Sale** and select the sale you want to link.
+1. Save. The next time someone views that sale, the item you linked is included on the **Requests** tab.
+
 ## Related content
 
 * [Create sale (in Mobile CRM)][1]

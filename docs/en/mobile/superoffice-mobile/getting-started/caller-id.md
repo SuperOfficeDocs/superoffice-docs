@@ -17,9 +17,15 @@ With the Caller ID function enabled in Mobile CRM you can see the name of the pe
 
 ![Caller ID for Mobile CRM -mobile-screenshot][img1]![Caller ID for Mobile CRM -mobile-screenshot][img2]
 
+## Why enable caller ID
+
+* Know who is calling you​ and answer the call in a personal way
+* Notice missed calls from a registered contact
+* Avoid saving all your contacts in your local address book (GDPR related)​
+
 ## Requirements
 
-* SuperOffice CRM Online
+* SuperOffice CRM Online (included in all user plans)
 * Mobile CRM app: version 10.1.9 or higher
 
 ## Steps

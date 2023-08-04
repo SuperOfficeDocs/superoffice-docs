@@ -28,6 +28,9 @@ so.client: mobile
 1. Find and tap the person.
 1. Tap **Save**.
 
+> [!TIP]
+> You can also look up persons in the **Company/contact** screen and add them directly to your project.
+
 ## Remove project member
 
 On the **Project members** tab, do one of the following:
@@ -49,6 +52,18 @@ On the **Project members** tab, do one of the following:
 3. Select **Move to next status** or **Move to previous status**.
 4. Go to the **Details** tab (![icon][img2]), tap **Edit**, and update any other fields with new information.
 
+## Link to an incoming request
+
+When you are working with a project, consider linking the the project to relevant incoming requests to have it show up in the **Requests** tab on that project.
+
+1. Go to the main **Request** page.
+1. Search for the request by name or ID.
+1. Tap **Edit** on the selected request.
+1. Scroll down, then tap **Project** and select the project you want to link.
+1. Save. The next time someone views that project, the item you linked is included on the **Requests** tab.
+
+![Mobile CRM - link project to request][img3]
+
 ## Related content
 
 * [Create project (in Mobile CRM)][1]
@@ -61,3 +76,4 @@ On the **Project members** tab, do one of the following:
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/mobile/project-members.png
 [img2]: ../../../../../common/icons/mobile/details.png
+[img3]: ../../../../../release-notes/10.2/mobile/media/mobile-crm-sale-request-tab.png

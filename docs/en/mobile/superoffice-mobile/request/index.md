@@ -3,7 +3,7 @@ uid: mobile-crm-request
 title: Request
 description: Learn about working with requests in SuperOffice Mobile CRM.
 author: Bergfrid Dias
-so.date: 07.26.2023
+so.date: 08.03.2023
 keywords: mobile, request, ticket, Service
 so.topic: reference
 so.version: 10
@@ -11,7 +11,7 @@ language: en
 so.client: mobile
 ---
 
-# Request
+# Request ![icon][img11]
 
 Mobile CRM gives you access to the most essential features of SuperOffice on a smartphone and tablet. Handling customer requests in the Mobile CRM app allows you to stay in control of customer service no matter where you are.
 
@@ -20,7 +20,8 @@ Mobile CRM gives you access to the most essential features of SuperOffice on a s
 > [!NOTE]
 > The **Requests** tab is shown only if your company has a Service or complete license.
 > Individual users may view request info without a service user plan if their role and the request's category permits, but then may not reply or perform other actions.
->
+
+Watch the video [request handling][10] to learn how to handle customer service requests in Mobile CRM (video length – 1:31).
 
 ## Tabs in the main Request screen
 
@@ -43,6 +44,8 @@ Mobile CRM gives you access to the most essential features of SuperOffice on a s
 
 **Action bar:**
 
+The Action bar allows you to reply to the customer, call the customer connected to the request, and view details info to change the status on the request, add tags and change category.
+
 | Icon | Action | Description |
 |---|---|---|
 | ![icon][img6] | Reply | Reply to the customer |
@@ -50,6 +53,17 @@ Mobile CRM gives you access to the most essential features of SuperOffice on a s
 | ![icon][img3] | Call | Call the customer connected to the request |
 | ![icon][img4] | Messages | All messages in request |
 | ![icon][img5] | Details | Information about the request |
+
+## Where can I find requests?
+
+* The main **Requests** screen
+* Contact screen (tab)
+* Sale screen (tab)
+* Project screen (tab)
+
+When viewing a contact, sale, or project, the **Requests** tab shows open requests linked to a specific item.
+
+In lists, you will typically see ID, title, created at, status, and category for each request. The sort order is *created at - descending*.
 
 ## View your open requests
 
@@ -84,13 +98,15 @@ Need to keep an eye on your direct reports or wonder about what your colleagues 
 
 You can get notifications in Mobile CRM for different statuses: New requests, New request message, Request activated, and Request escalation.
 
+The Task menu lets you take pictures and add them as attachments to a message, change request status, assign request to other users with Set owner, and reply to and add comments to a request.
+
 ## Related content
 
 * [New request][1]
 * [Update request properties (details)][2]
-* Add comment
-* Reply / reply all
-* Forward
+* [Add comment][4]
+* [Reply / reply all][3]
+* [Forward][5]
 * Manage notifications
 * [About reply templates][11]
 * [Introduction to request management][12]
@@ -98,6 +114,10 @@ You can get notifications in Mobile CRM for different statuses: New requests, Ne
 <!-- Referenced links -->
 [1]: create.md
 [2]: update.md
+[3]: respond.md#reply
+[4]: respond.md#comment
+[5]: respond.md#forward
+[10]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
 [11]: ../../../request/reply-templates/learn/index.md
 [12]: ../../../request/learn/index.md
 
@@ -112,5 +132,6 @@ You can get notifications in Mobile CRM for different statuses: New requests, Ne
 [img8]: ../../../../../common/icons/mobile/request-unassigned-h32.png
 [img9]: ../../../../../common/icons/mobile/request-selection-h32.png
 [img10]: ../../../../../common/icons/mobile/request-header.png
+[img11]: ../../../../../common/icons/mobile/ticket.png
 [img18]:../../../../../common/icons/mobile/star-h32.png
 [img19]:../../../../../common/icons/mobile/search-h32.png
