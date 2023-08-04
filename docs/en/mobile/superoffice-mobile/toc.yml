@@ -90,6 +90,8 @@ items:
   href: howto/show-address-in-map.md
 - name: Settings
   href: settings.md
+- name: Customizing the app
+  href: customization.md
 - name: Client requirements
   href: client-requirements.md
 - name: Security
