@@ -37,6 +37,8 @@ Used to toggle push notifications.
 * Quote approval request
 * Quote approval response
 
+Quote approval flow requires version 10.2.2 or newer of Mobile CRM.
+
 ## System settings
 
 | Setting | Description |

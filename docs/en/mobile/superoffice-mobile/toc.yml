@@ -49,6 +49,8 @@ items:
     href: sale/create.md
   - name: Update sale
     href: sale/update.md
+  - name: Approve quote
+    href: sale/approve-quote.md
 - name: Project
   topicHref: project/index.md
   items:
