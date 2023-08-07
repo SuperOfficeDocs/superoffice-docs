@@ -80,12 +80,19 @@ items:
     href: dashboard/drill-down.md
 - name: Manage notifications
   href: howto/manage-notifications.md
+- name: Documents
+  topicHref: document/index.md
+  items:
+  - name: Overview
+    href: document/index.md
+  - name: Create document
+    href: document/create.md
+  - name: Update document
+    href: document/update.md
 - name: Send email or SMS
   href: howto/send-email-sms.md
 - name: Archive an image
   href: howto/archive-image.md
-- name: Documents and emails
-  href: howto/documents.md
 - name: Show address in map
   href: howto/show-address-in-map.md
 - name: Settings

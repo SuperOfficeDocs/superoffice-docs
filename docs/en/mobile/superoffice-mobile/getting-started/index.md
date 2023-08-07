@@ -56,6 +56,7 @@ The available actions depend on the item you are viewing. Tap an icon to initiat
 | ![icon][img27] | Reply all | |
 | ![icon][img28] | Forward | |
 | ![icon][img29] | Update status | Move to next stage/set as sold/set as lost/ edit sale. |
+| ![icon][img31] | Share | Opens the default share option on device OS. |
 
 ## Footer bar
 
@@ -169,5 +170,6 @@ Edit mode is for adding or updating info. For documents and email, edit applies 
 [img28]: ../../../../../common/icons/mobile/mail-forward.png
 [img29]: ../../../../../common/icons/mobile/setstage.png
 [img30]: ../../../../../common/icons/mobile/addcomment.png
+[img31]: ../../../../../common/icons/mobile/document-share.png
 
 <!-- img 8 and 9 on local phone -->

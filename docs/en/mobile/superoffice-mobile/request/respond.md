@@ -70,7 +70,7 @@ While composing a message, you can add images, insert a request reply template, 
 
 1. Tap the **Task** icon.
 2. Select **Add image**.
-3. Take a photo with the camera or add choose an image from the gallery.
+3. Take a photo with the camera or choose an image from the gallery.
 
     > [!NOTE]
     > You can select multiple images at once. If you do not see a particular image, check the image permissions for SuperOffice on your device.
