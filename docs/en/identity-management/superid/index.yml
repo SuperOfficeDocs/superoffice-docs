@@ -12,14 +12,16 @@ metadata:
   so.author: digitaldiina
   so.date: 02.02.2022
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about SuperID
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: What is SuperID?
           url: overview.md
@@ -31,7 +33,8 @@ landingContent:
   # Card
   - title: Federated sign-in guide
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Overview
           url: howto/federated-sign-in-guide.md
@@ -46,7 +49,8 @@ landingContent:
   # Card
   - title: Identity providers
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Check IDP domain
           url: howto/check-idp-domain.md
@@ -54,27 +58,31 @@ landingContent:
           url: howto/register-idp.md
         - text: Map IDP usernames
           url: howto/map-idp-usernames.md
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: IdP and document handling
           url: idp-and-doc-handling.md
   # Card
   - title: Reference
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Terms and conditions
           url: terms-and-conditions.md
         - text: Known challenges
           url: known-challenges.md
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Primary tenant
           url: primary-tenant.md
   # Card
   - title: Integrations
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: WebTools
           url: superid-webtools-maillink-pocket.md

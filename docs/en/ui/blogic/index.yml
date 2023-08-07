@@ -9,14 +9,16 @@ metadata:
   ms.topic: landing-page
   ms.date: 03.28.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about custom screens
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: What are custom screens?
           url: custom-screens/index.md
@@ -25,7 +27,8 @@ landingContent:
   # Card
   - title: Element walk-through
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Layout elements
           url: custom-screens/layout-elements.md
@@ -38,14 +41,16 @@ landingContent:
   # Card
   - title: Tutorials
     linkLists:
-      - linkListType: tutorial
+      - itemType: dvr
+        typeDesc: tutorial
         links:
         - text: Custom database and UI
           url: tutorials/custom-db-and-ui.md
   # Card
   - title: Reference
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: bLogic screen elements
           url: reference/index.md

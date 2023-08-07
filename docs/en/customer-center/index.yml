@@ -9,18 +9,21 @@ metadata:
   ms.topic: landing-page
   ms.date: 03.27.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about the customer center
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: What is the customer center?
           url: overview.md
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Config
           url: config.md
@@ -29,7 +32,8 @@ landingContent:
   # Card
   - title: Customization
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Inline CRMSCript
           url: inline-crmscript.md
@@ -40,7 +44,8 @@ landingContent:
   # Card
   - title: How to ...
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Update extra table
           url: update-extra-table.md
@@ -51,7 +56,8 @@ landingContent:
   # Card
   - title: Tutorials
     linkLists:
-      - linkListType: tutorial
+      - itemType: dvr
+        typeDesc: tutorial
         links:
           - text: Custom form - book appointment
             url: tutorials/custom-form-book-apt.md

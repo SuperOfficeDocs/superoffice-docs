@@ -12,14 +12,16 @@ metadata:
   so.author: Kirsti A.
   so.date: 11.29.2022
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Licenties
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Licentie-overzicht
           url: ../admin/license/learn/index.md
@@ -31,7 +33,8 @@ landingContent:
   # Card
   - title: Gebruikersbeheer
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Rollen
           url: ../admin/user-management/learn/role/index.md
@@ -51,7 +54,8 @@ landingContent:
   # Card
   - title: Import
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Importinstellingen configureren
           url: ../admin/import/learn/configure-import-settings.md
@@ -69,7 +73,8 @@ landingContent:
   # Card
   - title: AI
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Categorisatie
           url: ../ai/learn/categorization.md
@@ -79,7 +84,8 @@ landingContent:
  # Card
   - title: ERP
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Verbinding maken met ERP
           url: ../admin/erp/learn/erp-connect.md

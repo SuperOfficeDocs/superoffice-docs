@@ -11,7 +11,8 @@ metadata:
   so.author: digitaldiina
   so.date: 05.30.2023
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 # PLEASE PAY ATTENTION TO INDENTATION
 
@@ -19,13 +20,15 @@ landingContent:
   # Card 1
   - title: Introduction
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Introduction to requests
           url: overview.md
         - text: Request status
           url: learn/status/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: How to find a request
           url: learn/find.md
@@ -34,13 +37,15 @@ landingContent:
 
   - title: Request management
     linkLists:
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: How to manage customer requests
           url: https://www.youtube.com/watch?v=2mRyStK5xPs
         - text: How to register request from incoming call
           url: https://www.youtube.com/watch?v=S4kihuWHZGY
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: How to create a request
           url: learn/howto/create.md
@@ -55,24 +60,28 @@ landingContent:
 
   - title: Category, priority, and escalation
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Request categories
           url: learn/category/index.md
         - text: Priority
           url: learn/priority/index.md
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: How to set up categories
           url: https://www.youtube.com/watch?v=BMfdOQhm6mg
 
   - title: Reply templates
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: reply-templates/index.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Default templates
           url: reply-templates/system-templates.md
@@ -81,7 +90,8 @@ landingContent:
 
   - title: UI customization
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Screen Designer
           url: ../ui/screen-designer/learn/index.md
@@ -98,7 +108,8 @@ landingContent:
 
   - title: Automation
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: ../automation/index.yml
@@ -110,7 +121,8 @@ landingContent:
           url: ../automation/event-model/mailbox-after-save.md
         - text: Saving a request event
           url: ../automation/event-model/saving-a-request.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Webhooks - ticket events
           url: ../automation/webhook/reference/ticket-events.md
@@ -119,11 +131,13 @@ landingContent:
 
   - title: CRMScript
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: howto/crmscript/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create ticket
           url: howto/crmscript/create.md
@@ -142,7 +156,8 @@ landingContent:
 
   - title: API
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: REST
           url: ../api/reference/restful/rest/Ticket/index.md
@@ -150,14 +165,16 @@ landingContent:
           url: ../api/reference/soap/Services88/Ticket/index.md
         - text: SOAP (ticket port)
           url: ../service/soap/ports/ticket/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Configure SOAP ports
           url: ../admin/learn/configure-soap.md
 
   - title: Database tables
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Ticket
           url: ../database/tables/ticket.md

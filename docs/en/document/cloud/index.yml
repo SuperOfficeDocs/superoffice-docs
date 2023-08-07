@@ -9,14 +9,16 @@ metadata:
   ms.topic: landing-page
   ms.date: 06.20.2022
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about cloud integrations
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
           - text: Introduction
             url: overview.md
@@ -24,17 +26,20 @@ landingContent:
   # Card
   - title: SharePoint documents
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
           - text: Introduction
             url: sharepoint-documents/index.md
           - text: Permissions
             url: sharepoint-documents/permissions-in-sharepoint.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
           - text: Requirements
             url: sharepoint-documents/requirements.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: Set up SharePoint site and libraries
             url: sharepoint-documents/set-up.md
@@ -52,17 +57,20 @@ landingContent:
   # Card
   - title: Google Workspace document integration
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
           - text: Introduction
             url: g-suite/index.md
           - text: Security
             url: g-suite/security.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
           - text: Requirements
             url: g-suite/requirements.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: Quick start
             url: g-suite/getting-started.md
@@ -74,17 +82,20 @@ landingContent:
 # Card
   - title: Microsoft 365 document integration (legacy)
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
           - text: Introduction
             url: legacy/office-365/index.md
           - text: Security
             url: legacy/office-365/security.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
           - text: Requirements
             url: legacy/office-365/requirements.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: Prepare SharePoint for set-up
             url: legacy/office-365/prepare-sharepoint.md

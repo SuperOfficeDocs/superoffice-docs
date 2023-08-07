@@ -11,7 +11,8 @@ metadata:
   so.author: digitaldiina
   so.date: 05.31.2023
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 # PLEASE PAY ATTENTION TO INDENTATION
 
@@ -19,24 +20,28 @@ landingContent:
   # Card 1
   - title: Introduction
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Introduction to projects
           url: overview.md
         - text: Organize files and activities in projects
           url: learn/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: How to create a project
           url: learn/create.md
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: Guided tour
           url: https://www.youtube.com/embed/zLJwNll223w
 
   - title: Project management
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Update a project
           url: learn/edit.md
@@ -50,20 +55,23 @@ landingContent:
           url: ../admin/lists/learn/project-type.md
         - text: View follow-ups and documents
           url: learn/project-guide/view-followups-and-documents.md
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: How to link document to project
           url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
         - text: How to add appointment to project
           url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Template variables
           url: ../document/templates/variables/from-project-card.md
 
   - title: Project members
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: learn/project-members/index.md
@@ -75,18 +83,21 @@ landingContent:
           url: learn/project-members/invite-to-meeting.md
         - text: Send email to members
           url: learn/project-members/send-email-to.md
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: How to add project member to project
           url: https://www.youtube.com/watch?v=IaCy_2xwG6c
 
   - title: Project guide
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: learn/project-guide/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Work with project guide
           url: learn/project-guide/working-with.md
@@ -99,7 +110,8 @@ landingContent:
 
   - title: UI customization
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Screen Designer
           url: ../ui/screen-designer/learn/index.md
@@ -116,13 +128,15 @@ landingContent:
 
   - title: Automation
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: ../automation/index.yml
         - text: Triggers
           url: ../automation/trigger/index.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Webhooks - project events
           url: ../automation/webhook/reference/project-events.md
@@ -133,11 +147,13 @@ landingContent:
 
   - title: CRMScript
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: howto/crmscript/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create
           url: howto/crmscript/create.md
@@ -152,20 +168,23 @@ landingContent:
 
   - title: API
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: REST
           url: ../api/reference/restful/rest/Project/index.md
         - text: SOAP (services88)
           url: ../api/reference/soap/Services88/Project/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: SQL samples
           url: howto/sql/index.md
 
   - title: Database tables
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Project
           url: ../database/tables/project.md

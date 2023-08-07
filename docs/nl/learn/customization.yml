@@ -12,14 +12,16 @@ metadata:
   so.author: Christine H.
   so.date: 11.11.2022
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: "Lijsten, voorkeuren, opties en instellingen"
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Lijsten
           url: ../admin/lists/learn/index.md
@@ -27,7 +29,8 @@ landingContent:
           url: ../admin/preferences/learn/index.md
         - text: Opties
           url: ../admin/options/learn/index.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Algemene voorkeuren
           url: ../admin/preferences/learn/global-preferences/system.md
@@ -35,7 +38,8 @@ landingContent:
   # Card
   - title: Aangepaste objecten
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Door gebruiker gedefinieerde velden
           url: ../custom-objects/learn/udef/index.md
@@ -47,7 +51,8 @@ landingContent:
   # Card
   - title: Gebruikersinterface
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Schermontwerper
           url: ../ui/screen-designer/learn/index.md
@@ -55,7 +60,8 @@ landingContent:
           url: ../ui/blogic/learn/extra-menus/index.md
         - text: Webpanelen
           url: ../ui/web-panels/learn/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Profiel in bedrijf
           url: ../ui/blogic/learn/profiles/index.md
@@ -63,7 +69,8 @@ landingContent:
   # Card
   - title: "Macro's en CRMScript"
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: "Macro's en scripts"
           url: ../automation/crmscript/learn/macro-script.md
@@ -83,7 +90,8 @@ landingContent:
   # Card
   - title: Klantportaal
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Klantportaal-configuratie
           url: ../customer-center/learn/config.md
