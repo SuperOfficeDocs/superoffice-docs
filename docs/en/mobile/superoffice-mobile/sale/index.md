@@ -15,7 +15,7 @@ so.client: mobile
 
 From Sales, you can update forecasts for future sales, conclude sales and create new ones. Also, track the status of all sales that you and your colleagues are responsible for.
 
-![Mobile CRM - Sale -mobile-screenshot][img1]
+![Mobile CRM: Sale -mobile-screenshot][img1]
 
 ## Tabs in the main Sale screen
 

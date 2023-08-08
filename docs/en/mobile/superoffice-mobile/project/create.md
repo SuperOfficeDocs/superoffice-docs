@@ -17,13 +17,13 @@ When you are out visiting, you can register projects directly from Mobile CRM.
 
 ## Steps
 
-1. Go to the main **Projects** page ![icon][img13].
+1. Go to the main **Project** page (![icon][img13]).
 2. Tap **+**.
-3. Enter a descriptive name for the project and select the project owner.
-4. Select a project type and status.
+3. For **Project name**, enter a descriptive name.
+4. Select responsible (project owner), a project type, and status.
 5. Add other details as necessary.
-6. Add project members.
-7. Save the project. Now you can add appointments and documents.
+6. [Add project members][4].
+7. Tap **Save**. Now you can add appointments and documents.
 
 ## Related content
 
@@ -35,6 +35,7 @@ When you are out visiting, you can register projects directly from Mobile CRM.
 [1]: update.md
 [2]: ../diary/create-appointment.md
 [3]: ../../../project/learn/project-members/index.md
+[4]: update.md#add-project-member
 
 <!-- Referenced images -->
 [img13]: ../../../../../common/icons/mobile/project.png

@@ -27,18 +27,18 @@ To download the Mobile CRM app follow these steps:
 
 4. Choose the connection for your SuperOffice installation.
 
-    ![Mobile CRM - set up -mobile-screenshot][img7]
+    ![Mobile CRM: set up -mobile-screenshot][img7]
 
     > [!NOTE]
     > If you choose to connect to a local installation, enter the SuperOffice server URL (connection string) for your company. (Ask your IT-department)
 
 5. Log in using your username and password.
 
-    ![Mobile CRM - log in -mobile-screenshot][img4]
+    ![Mobile CRM: log in -mobile-screenshot][img4]
 
 From version 10.2.5 of the mobile CRM app, it is even easier to get started.
 
-![Mobile CRM - login -screenshot][img5]
+![Mobile CRM: login -screenshot][img5]
 
 ## How to find your installation
 
@@ -53,19 +53,19 @@ From version 10.2.5 of the mobile CRM app, it is even easier to get started.
 1. Tap the **Task** icon at the bottom left and select **Log out**.
 2. Select **Yes** to confirm.
 
-![Mobile CRM - Log out from Task menu -screenshot][img1]
+![Mobile CRM: Log out from Task menu -screenshot][img1]
 
 ## How to reset a login
 
 If you want to connect a different SuperOffice CRM solution to your Mobile CRM app, you must reset the login before you can choose another tenant.
 
 1. Log out as described above.
-2. Tap on the **Task** icon again and select **Reset login**.
+2. Tap the **Task** icon again and select **Reset login**.
 3. Enter your email address and provide authentication.
 4. Choose one of the SuperOffice tenants associated with that email address. You will be redirected to the Mobile CRM start page.
 
-![Mobile CRM - Reset login from Task menu -screenshot][img2]
-![Mobile CRM - Select tenant -screenshot][img3]
+![Mobile CRM: Reset login from Task menu -screenshot][img2]
+![Mobile CRM: Select tenant -screenshot][img3]
 
 ## Related content
 

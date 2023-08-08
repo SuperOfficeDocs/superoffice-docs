@@ -13,7 +13,7 @@ so.client: mobile
 
 # Getting started
 
-![Mobile CRM - layout -screenshot][img1]
+![Mobile CRM: layout -screenshot][img1]
 
 ## Navigator ![icon][img17]
 
@@ -89,7 +89,7 @@ When you use the app, the pages you access are stored in the device's cache to m
 
 The star tab shows your favorite records within the current screen. This way your favorite records are always easy to find. In lists, favorites have a small star icon.
 
-![Mobile CRM - Favorites tab][img8] ![Mobile CRM - Add favorite][img9]
+![Mobile CRM: Favorites tab][img8] ![Mobile CRM: Add favorite][img9]
 
 * To add a company, person, dashboard, sale, project, or request as a favorite:
 
@@ -102,7 +102,7 @@ The star tab shows your favorite records within the current screen. This way you
 
 To view the diary of other users, tap your name and choose a user from a list. This also apply in the sales section.
 
-In all main pages, you can search for information stored in your SuperOffice. Go to the main page for Contacts, and select the Search tab to search for Companies/Contacts. To search for Projects, go to the main page for Projects and select Search. In appointments and sales; select your name, and then search by name.
+In all main pages, you can search for information stored in your SuperOffice. Go to **Company/Contact**, and select the **Search** tab to search for a company or contact. To search for projects, go to the **Project** main page and select **Search**. In appointments and sales, select your name, and then search by name.
 
 ## Create new (+)
 

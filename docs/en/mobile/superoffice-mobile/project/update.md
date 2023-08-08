@@ -42,13 +42,13 @@ On the **Project members** tab, do one of the following:
 
 On the **Project members** tab, do one of the following:
 
-* Swipe left and tap **Edit**. Then tap and select a function and save.
+* Swipe left on a member and select **Edit**. Then tap and select a function and save.
 * Select **Edit project members**. Then swipe left on the member, tap the **Task** button, and select **Set function**.
 
 ## Change status of a project
 
 1. Open the project.
-2. Tap the status icon below the project header.
+2. Tap the status icon (![icon][img4]) on the action bar.
 3. Select **Move to next status** or **Move to previous status**.
 4. Go to the **Details** tab (![icon][img2]), tap **Edit**, and update any other fields with new information.
 
@@ -56,13 +56,13 @@ On the **Project members** tab, do one of the following:
 
 When you are working with a project, consider linking the the project to relevant incoming requests to have it show up in the **Requests** tab on that project.
 
-1. Go to the main **Request** page.
+1. Go to the main **Requests** page.
 1. Search for the request by name or ID.
 1. Tap **Edit** on the selected request.
 1. Scroll down, then tap **Project** and select the project you want to link.
 1. Save. The next time someone views that project, the item you linked is included on the **Requests** tab.
 
-![Mobile CRM - link project to request][img3]
+![Mobile CRM: link project to request -app-screen][img3]
 
 ## Related content
 
@@ -77,3 +77,4 @@ When you are working with a project, consider linking the the project to relevan
 [img1]: ../../../../../common/icons/mobile/project-members.png
 [img2]: ../../../../../common/icons/mobile/details.png
 [img3]: ../../../../../release-notes/10.2/mobile/media/mobile-crm-sale-request-tab.png
+[img4]: ../../../../../common/icons/mobile/setstage.png

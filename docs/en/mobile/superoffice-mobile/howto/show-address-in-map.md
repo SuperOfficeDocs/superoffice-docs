@@ -16,10 +16,10 @@ so.client: mobile
 
 1. Go to the Company/contact page.
 2. Open a Company or Contact (either in the history list or search for any).
-3. Tap on the **Location** icon in the menu bar, or tap on the field **Street Address**.
+3. Tap the **Location** icon in the menu bar, or tap the field **Street Address**.
 4. If the field contains an address, Mobile CRM will open the default map service on the your device and show the address.
 
-![Mobile CRM - street address -screenshot][img1]![Mobile CRM - map -screenshot][img2]
+![Mobile CRM: street address -screenshot][img1]![Mobile CRM: map -screenshot][img2]
 
 > [!TIP]
 > The **Map URL** can be changed under **System settings** and may vary depending on the device.

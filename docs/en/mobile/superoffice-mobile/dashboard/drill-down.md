@@ -4,7 +4,7 @@ title: Drill down
 description: How to drill down in a dashboard in SuperOffice Mobile CRM.
 author: Bergfrid Dias
 so.date: 08.02.2023
-keywords: mobile, dashboard
+keywords: mobile, dashboard, tile, chart
 so.topic: howto
 language: en
 so.version: 10
@@ -62,4 +62,4 @@ A drill-down screen is a list showing items of one type of entity. Selecting an 
 [1]: ../../../dashboard/learn/index.md#chart-types
 
 <!-- Referenced images -->
-[img1]: ../media/dashboard-drill-down.png
+[img1]: media/dashboard-drill-down.png

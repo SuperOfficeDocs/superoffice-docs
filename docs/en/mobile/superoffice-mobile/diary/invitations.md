@@ -13,7 +13,7 @@ so.client: mobile
 
 # Accept and decline invitations
 
-![Mobile CRM - Invitation -mobile-screenshot][img2]
+![Mobile CRM: Invitation -mobile-screenshot][img2]
 
 New invitations show up in the **Invitations** tab on the **Notifications** screen and the tabs on the **Diary** screen.
 

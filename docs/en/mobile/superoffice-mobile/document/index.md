@@ -70,7 +70,7 @@ Saved emails also appear in the **Documents** tab.
 
 2. Select the **Document** tab.
 
-3. Tap on the document (1) or email (2) you want to view.
+3. Tap to select the document (1) or email (2) you want to view.
 
     ![Mobile CRM Document -mobile-screenshot][img1]
 

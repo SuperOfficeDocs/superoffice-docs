@@ -18,7 +18,7 @@ so.client: mobile
 
 When working with sales and quotes, you sometimes add a higher discount rate that is wanted, and you need someone else to approve the sale. With notifications for quote approval in Mobile CRM, the sale can progress without any friction.
 
-![Mobile CRM - Quote approval flow -screenshot][img1]
+![Mobile CRM: Quote approval flow -screenshot][img1]
 
 ## Sales rep
 
@@ -35,7 +35,7 @@ When someone needs approval for their quote to be sent to customer:
 2. Review the details about the sale.
 3. Select **Approve** or **Deny**.
 
-![Mobile CRM - Quote approval -mobile-screenshot][img2]
+![Mobile CRM: Quote approval -mobile-screenshot][img2]
 
 ## Turn on push notifications for quote approval
 

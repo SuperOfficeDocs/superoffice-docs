@@ -15,7 +15,7 @@ so.client: mobile
 
 Mobile CRM gives you access to the most essential features of SuperOffice on a smartphone and tablet. Handling customer requests in the Mobile CRM app allows you to stay in control of customer service no matter where you are.
 
-![Mobile CRM - Request -mobile-screenshot][img1]
+![Mobile CRM: Request -mobile-screenshot][img1]
 
 > [!NOTE]
 > The **Requests** tab is shown only if your company has a Service or complete license.

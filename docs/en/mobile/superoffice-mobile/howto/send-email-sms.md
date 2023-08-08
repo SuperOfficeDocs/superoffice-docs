@@ -15,7 +15,7 @@ so.client: mobile
 
 You can send an SMS or an email to one or more persons from the following places in Mobile CRM:
 
-* The **Projects** and **Selection** tab on the main Contacts page.
+* The **Project** and **Selection** tab on the main Contacts page.
 * The **Group** tab on the main Contacts page
 * The **Task** menu in the **Details** tab of a person.
 * The **Task** menu in the **Participants** tab of an appointment.
@@ -29,35 +29,35 @@ You can send an SMS or an email to one or more persons from the following places
 
 ### Contact screen
 
-* To send an email, tap on the email address (1) of the contact OR select **Send e-mail** from the Task menu.
-* To send an SMS message, tap on the SMS icon (2) at the top of the contact.
+* To send an email, tap to select the email address (1) of the contact OR select **Send e-mail** from the **Task** menu.
+* To send an SMS message, tap the SMS icon (2) at the top of the contact.
 
-![Mobile CRM - Send email or SMS -screenshot][img1]
+![Mobile CRM: Send email or SMS -screenshot][img1]
 
 > [!NOTE]
 > If the SMS icon is inactive or the Send e-mail option is not visible, it means that the contact does not have a phone number and/or an email stored on their card.
 
 ### Sales, Project, and Selection search screens
 
-1. Tap on the Home icon on the main screen, then on Company/contact.
+1. Tap the Home icon on the main screen, then on Company/contact.
 2. In the search screen, search among all SuperOffice users (1), projects (2), and selections (3) in your Mobile CRM.
 3. At the bottom of the list, you will see two buttons that allow you to send an email (4) or an SMS (5) to all users from the selected group, project members from the selected project, or selection members from the chosen selection.
 
-![Mobile CRM - Send email or SMS -screenshot][img3]
+![Mobile CRM: Send email or SMS -screenshot][img3]
 
 ### Appointment card
 
 1. Go to the Diary screen and select an appointment.
-2. Tap on the **Task** icon (1) to see options to either send an e-mail or an SMS (2) to all participants of this appointment.
+2. Tap the **Task** icon (1) to see options to either send an email or an SMS (2) to all participants of this appointment.
 
-![Mobile CRM - Send email or SMS -screenshot][img4]
+![Mobile CRM: Send email or SMS -screenshot][img4]
 
 ### Project screen
 
 1. Go to the Project screen and select a project.
-2. Tap on the **Task** icon to see options to send an e-mail or an SMS to all members of this project.
+2. Tap the **Task** icon to see options to send an email or an SMS to all members of this project.
 
-![Mobile CRM - Send email or SMS -screenshot][img5]
+![Mobile CRM: Send email or SMS -screenshot][img5]
 
 ## Add signature to SMS
 
@@ -68,13 +68,13 @@ To add your professional signature automatically to SMSes sent from Mobile CRM:
 3. Select the signature line to edit your signature (2).
 4. Save.
 
-![Mobile CRM - Add signature to SMS -screenshot][img2]
+![Mobile CRM: Add signature to SMS -screenshot][img2]
 
 ## No current email account
 
 What to do when you cannot send an email and get a notification "No current e-mail account" on the Mobile CRM app?
 
-![Mobile CRM - No current email account -screenshot][img6]
+![Mobile CRM: No current email account -screenshot][img6]
 
 The message pops up when your email account is not configured in SuperOffice CRM.
 

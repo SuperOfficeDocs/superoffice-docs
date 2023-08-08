@@ -21,7 +21,7 @@ Do you receive many business cards from prospects and customers? The fastest way
 
 1. Tap **+** (1) and select **Scan business card** (2).
 
-    ![Mobile CRM - scan business card -screenshot][img1]
+    ![Mobile CRM: scan business card -screenshot][img1]
 
 1. When the phone's camera opens, take a picture of the business card and tap check √.
 
@@ -30,17 +30,17 @@ Do you receive many business cards from prospects and customers? The fastest way
 
 1. If Mobile CRM recognizes a company name that already exists in SuperOffice CRM, you can choose between these options: **Add contact to company** (1) that exists in the system or **Add  to a different company** (2). Otherwise you will get the option **Add new contact and company**.
 
-    ![Mobile CRM - Add contact to company -screenshot][img2]![Mobile CRM - Add  to a different company -screenshot][img3]
+    ![Mobile CRM: Add contact to company -screenshot][img2]![Mobile CRM: Add  to a different company -screenshot][img3]
 
     If Mobile CRM recognizes the information from a business card as already existing in the system,  you will see the notification message **This contact already exists in SuperOffice CRM**.
 
 1. After you select one of the options option, a new contact screen is automatically populated with data.
 
-    ![Mobile CRM - New contact -screenshot][img4]
+    ![Mobile CRM: New contact -screenshot][img4]
 
 1. Optionally, change the way data was mapped into fields by entering new or rearranging the existing information.
 
-    ![Mobile CRM - Update contact fields -screenshot][img5]
+    ![Mobile CRM: Update contact fields -screenshot][img5]
 
 1. Tap **Save** to store information both in the app and in SuperOffice CRM.
 

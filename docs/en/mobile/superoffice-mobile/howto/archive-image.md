@@ -24,7 +24,7 @@ Pictures are more and more used as documentation. Follow these steps to save ima
 1. Connect the image to the relevant sale and/or project if relevant.
 1. Save. The image will be visible for all user momentarily on the corresponding company, contact, and project card.
 
-![Mobile CRM - archive image -screenshot][img1]
+![Mobile CRM: archive image -screenshot][img1]
 
 ## Related content
 

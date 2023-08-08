@@ -13,9 +13,9 @@ so.client: mobile
 
 # Diary
 
-![Mobile CRM - Diary month tab -mobile-screenshot][img1]
-![Mobile CRM - Add appointment -mobile-screenshot][img4]
-![Mobile CRM - Schedule -mobile-screenshot][img3]
+![Mobile CRM: Diary month tab -mobile-screenshot][img1]
+![Mobile CRM: Add appointment -mobile-screenshot][img4]
+![Mobile CRM: Schedule -mobile-screenshot][img3]
 
 ## Diary screen tabs
 

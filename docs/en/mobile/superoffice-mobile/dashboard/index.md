@@ -15,7 +15,7 @@ so.client: mobile
 
 From the **Dashboard** screen, you have access to the dashboards created in SuperOffice CRM.
 
-![Mobile CRM - Dashboard -mobile-screenshot][img1]
+![Mobile CRM: Dashboard -app-screen][img1]
 
 > [!NOTE]
 > Dashboards are read-only in Mobile CRM. To create, update, or delete a dashboard, go to SuperOffice CRM. There is no action bar in the Dashboard screen.
@@ -23,7 +23,7 @@ From the **Dashboard** screen, you have access to the dashboards created in Supe
 ## Tabs
 
 | Icon | Tab | Description |
-|---|---|---|
+|:-:|---|---|
 | ![icon][img3] | Search | Search field and history list. |
 | ![icon][img2] | Favorites | Dashboards you have marked as a favorite (yellow star). |
 | ![icon][img4] | Pinned | Dashboards pinned for you. |
@@ -34,8 +34,8 @@ From the **Dashboard** screen, you have access to the dashboards created in Supe
 2. Search for a dashboard by name, or select one from the history list, favorites, or pinned dashboards.
 3. Scroll through the tiles.
 
-![Dashboard support in mobile -screenshot][img21]
-![Dashboard support in mobile -screenshot][img22]
+![Mobile CRM: pinned dashboards -app-screen][img21]
+![Mobile CRM: dashboard chart -app-screen][img22]
 
 ## Related content
 
@@ -55,7 +55,7 @@ From the **Dashboard** screen, you have access to the dashboards created in Supe
 [6]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../media/dashboard.png
+[img1]: media/dashboard.png
 [img2]: ../../../../../common/icons/mobile/star-h32.png
 [img3]: ../../../../../common/icons/mobile/search-h32.png
 [img4]: ../../../../../common/icons/mobile/pinned-h32.png
