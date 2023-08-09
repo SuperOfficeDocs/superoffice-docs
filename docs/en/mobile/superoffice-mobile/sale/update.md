@@ -34,6 +34,8 @@ so.client: mobile
     * Set as lost
     * Mark as stalled
 
+    You can also swipe left on the sale in a list, tap the **Task** icon, and select a status.
+
 4. Go to the **Details** tab, tap **Edit**, and update any other fields with new information. For example:
 
     * Update the **Reason (sold)** field with the reason for the sale.
@@ -60,4 +62,5 @@ When you are in a sales process, consider linking the sale to relevant incoming 
 [1]: create.md
 [2]: ../../../../en/sale/learn/delete.md
 [3]: ../../../../en/sale/learn/stages.md
+
 <!-- Referenced images -->

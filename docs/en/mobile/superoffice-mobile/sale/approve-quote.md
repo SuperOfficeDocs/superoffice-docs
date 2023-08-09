@@ -35,14 +35,14 @@ When someone needs approval for their quote to be sent to customer:
 2. Review the details about the sale.
 3. Select **Approve** or **Deny**.
 
-![Mobile CRM: Quote approval -mobile-screenshot][img2]
+![Mobile CRM: Quote approval -app-screen][img2]
 
 ## Turn on push notifications for quote approval
 
 1. Tap the **Task** icon and select **Settings**.
 1. Select **Notifications**.
-1. At the bottom of the list, toggle *Quote approval request*
- and/or *Quote approval response* depending on your responsibilities.
+1. At the bottom of the list, turn on/off *Quote approval request*
+ and *Quote approval response* depending on your responsibilities.
 
 ## Related content
 
@@ -54,5 +54,5 @@ When someone needs approval for their quote to be sent to customer:
 [2]: ../../../quote/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../media/quote-approval.png
+[img1]: media/quote-approval.png
 [img2]: ../../../../../release-notes/10.1/mobile/media/mobile-2-2-quote-approval-2.png

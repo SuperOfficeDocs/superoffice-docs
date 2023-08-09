@@ -17,8 +17,11 @@ When you are out visiting, you can register sales directly from Mobile CRM.
 
 ## Steps
 
-1. Go to the main **Sales** page.
+1. Go to the main **Sale** page.
 2. Tap **+** and select **New sale**.
+
+    You can also do this from the **Sale** tab of a company, contact, or project.
+
 3. Enter a descriptive title for the sale and select the company/contact it pertains to.
 4. Specify a planned sale date and the estimated sale amount.
 5. Select a sale type and stage.
