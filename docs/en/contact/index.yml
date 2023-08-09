@@ -17,28 +17,34 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: User guide
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: learn/index.md
     # Card
     - title: Template variables
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../document/templates/variables/for-selected-contact.md
     # Card
     - title: Address formats
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../company/learn/address-formats.md
     # Card
     - title: Person database table
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../database/tables/person.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -47,10 +53,12 @@ conceptualContent:
       summary: ""
       links:
       - text: How to add a contact
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/create.md
       - text: How to search for contacts
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../search-options/learn/find-screen.md
 
     # Card
@@ -58,16 +66,20 @@ conceptualContent:
       summary: ""
       links:
       - text: How to import customer contacts
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=dVkCfpOkNl8
       - text: How to manage customer information
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=10VQCTgxODc
       - text: How to group information
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=a3AC64pheok
       - text: How to filter information
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=HYYI4ZCl4S4
 
     # Card
@@ -75,13 +87,16 @@ conceptualContent:
       summary: ""
       links:
         - text: User preference - Associates
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: ../admin/user-preferences/reference/associates.md
         - text: User preference - FindContact
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: ../admin/user-preferences/reference/find-contact.md
         - text: Lists - General Country
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/lists/learn/add-items-to-country-list.md
 
     # Card
@@ -89,10 +104,12 @@ conceptualContent:
       summary: ""
       links:
       - text: Web panels
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../ui/web-panels/index.md
       - text: SoProtocol - list of contacts from a company
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../ui/soprotocol/show-persons-for-contact.md
 
     # Card
@@ -100,16 +117,20 @@ conceptualContent:
       summary: ""
       links:
       - text: Custom objects
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../custom-objects/overview.md
       - text: How to add user-defined fields
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
       - text: UdpersonSmall table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udpersonsmall.md
       - text: UdpersonLarge table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udpersonlarge.md
 
     # Card
@@ -117,19 +138,24 @@ conceptualContent:
       summary: ""
       links:
       - text: Overview
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../automation/index.yml
       - text: Triggers
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../automation/trigger/index.md
       - text: Webhooks
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../automation/webhook/reference/contact-events.md
       - text: Zapier
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
       - text: SCIM - sync user
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../identity-management/scim/provisioning/sync-user.md
 
     # Card
@@ -137,22 +163,28 @@ conceptualContent:
       summary: "Examples of how to work with persons, customers, and employees in CRMScript and NetServer."
       links:
       - text: CRMScript
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/crmscript/index.md
       - text: Raw SQL
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/sql/index.md
       - text: OSQL
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/osql/index.md
       - text: Row
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/row/index.md
       - text: Entity
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/entity/index.md
       - text: Web services, REST
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: howto/services/index.md
 
     # Card
@@ -160,26 +192,34 @@ conceptualContent:
       summary: ""
       links:
       - text: Contact table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/contact.md
       - text: Person table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/person.md
       - text: Associate table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/associate.md
       - text: Address table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/address.md
       - text: Country table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/country.md
       - text: Business table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/business.md
       - text: UdpersonSmall table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udpersonsmall.md
       - text: UdpersonLarge table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/udpersonlarge.md

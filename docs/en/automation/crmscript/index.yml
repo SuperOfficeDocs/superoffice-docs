@@ -9,14 +9,16 @@ metadata:
   ms.topic: landing-page
   ms.date: 03.28.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about CRMScript
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: What is CRMSCript?
           url: overview/index.md
@@ -27,7 +29,8 @@ landingContent:
   # Card
   - title: Getting started
     linkLists:
-      - linkListType: get-started
+      - itemType: power_settings_new
+        typeDesc: get-started
         links:
         - text: Getting started
           url: overview/getting-started.md
@@ -36,7 +39,8 @@ landingContent:
   # Card
   - title: Fundamentals 1
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
         - text: Code structure
           url: fundamentals/syntax.md
@@ -59,7 +63,8 @@ landingContent:
   # Card
   - title: Fundamentals 2 - control and loops
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
         - text: Conditions
           url: fundamentals/conditions.md
@@ -76,7 +81,8 @@ landingContent:
   # Card
   - title: Data types
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Bool
           url: datatypes/bool-type.md
@@ -99,7 +105,8 @@ landingContent:
    # Card
   - title: Code quality
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
           - text: Intro
             url: code-quality/index.md
@@ -112,7 +119,8 @@ landingContent:
   # Card
   - title: Debugging
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
             - text: Built in debugger
               url: debugging/built-in-debugger.md
@@ -131,7 +139,8 @@ landingContent:
   # Card
   - title: Tutorials
     linkLists:
-      - linkListType: tutorial
+      - itemType: dvr
+        typeDesc: tutorial
         links:
         - text: Script-based selections
           url: tutorials/script-based-selections.md
@@ -142,7 +151,8 @@ landingContent:
   # Card
   - title: Chatbot
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Intro
           url: ../chatbot/index.md
@@ -157,7 +167,8 @@ landingContent:
   # Card
   - title: API reference
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Classes (native)
           url: reference/CRMScript.Native.yml

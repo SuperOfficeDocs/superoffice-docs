@@ -9,17 +9,20 @@ metadata:
   ms.topic: landing-page
   ms.date: 4.20.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
   # Card
   - title: Online authentication
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
         - text: SuperOffice Online and SuperID
           url: online/index.md
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
           - text: OpenID Connect
             url: online/api.md
@@ -31,18 +34,21 @@ landingContent:
             url: online/sign-in-user/implicit-flow.md
           - text: Native Apps
             url: online/sign-in-user/native-apps.md
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
           - text: System User (Backchannel)
             url: online/auth-application/index.md
   # Card
   - title: Onsite authentication
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
         - text: Overview
           url: overview.md
-      - linkListType: get-started
+      - itemType: power_settings_new
+        typeDesc: get-started
         links:
           - text: NetServer Core
             url: onsite/sosession/index.md

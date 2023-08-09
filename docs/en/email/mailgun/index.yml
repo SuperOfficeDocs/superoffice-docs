@@ -11,14 +11,16 @@ metadata:
   so.author: digitaldiina
   so.date: 02.02.2022
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Mail service alternatives
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Scenarios
           url: overview.md
@@ -27,11 +29,13 @@ landingContent:
   # Card
   - title: DKIM
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: What is the purpose of DKIM record?
           url:  dkim/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Request DKIM key for eu.mailgun.org
           url: dkim/order-key.md
@@ -42,18 +46,21 @@ landingContent:
   # Card
   - title: SPF
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
           - text: What is SPF?
             url: spf/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: How to set up SPF Record
             url: spf/set-up.md
   # Card
   - title: Reference
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Performance
           url: amount-speed.md

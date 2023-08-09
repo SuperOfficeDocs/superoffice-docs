@@ -11,14 +11,16 @@ metadata:
   so.author: digitaldiina
   so.date: 02.02.2022
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about SuperOffice installations
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
           - text: Deployment scenarios
             url: ../security/deployment-scenarios.md
@@ -28,7 +30,8 @@ landingContent:
   # Card
   - title: Start
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: Step-by-step set-up guide
             url: guide.md
@@ -36,7 +39,8 @@ landingContent:
   # Card
   - title: Database
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: database/index.md
@@ -44,7 +48,8 @@ landingContent:
           url: database/dbsetup-exe.md
         - text: Compatibility
           url: ../compatibility/database.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create MS SQL Server database
           url: database/create-ms-sql-server-db.md
@@ -56,7 +61,8 @@ landingContent:
   # Card
   - title: CRM server
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Overview
           url: server/index.md
@@ -68,7 +74,8 @@ landingContent:
   # Card
   - title: Web client
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Install Web client
           url: web-client/index.md
@@ -79,7 +86,8 @@ landingContent:
   # Card
   - title: Service
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Prepare
           url: ../../service/install/prepare.md
@@ -89,11 +97,13 @@ landingContent:
   # Card
   - title: Security
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Introduction
           url: ../security/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Secure deployment guide
           url: ../security/secure-deployment-guide.md
@@ -109,7 +119,8 @@ landingContent:
   # Card
   - title: System requirements
     linkLists:
-    - linkListType: reference
+    - itemType: library_books
+      typeDesc: reference
       links:
       - url: ../requirements/index.md
         text: Overview
@@ -127,7 +138,8 @@ landingContent:
   # Card
   - title: Compatibility
     linkLists:
-    - linkListType: reference
+    - itemType: library_books
+      typeDesc: reference
       links:
       - url: ../compatibility/index.md
         text: Reports
@@ -145,7 +157,8 @@ landingContent:
     # Card
   - title: IIS web server
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - url: iis/index.md
           text: Prepare server
@@ -155,7 +168,8 @@ landingContent:
   # Card
   - title: Config and INI files
     linkLists:
-    - linkListType: reference
+    - itemType: library_books
+      typeDesc: reference
       links:
       - url: ../config/index.md
         text: Overview
@@ -179,7 +193,8 @@ landingContent:
     # Card
   - title: More
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Install WebTools
           url: ../../webtools/install.md
@@ -189,7 +204,8 @@ landingContent:
           url: ../../mobile/pocket-crm/deploy.md
         - text: Set up Active Directory authentication
           url: ../../identity-management/ad/set-up-ad-auth.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Release notes
           url: ../../../../release-notes/index.md

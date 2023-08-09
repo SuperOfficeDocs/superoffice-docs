@@ -9,14 +9,16 @@ metadata:
   ms.topic: landing-page
   ms.date: 03.28.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about Web GUI .Net API
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Intro
           url: overview.md
@@ -33,7 +35,8 @@ landingContent:
   # Card
   - title: PageBuilder
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Intro
           url: pagebuilder/index.md
@@ -54,7 +57,8 @@ landingContent:
   # Card
   - title: PageBuilder config
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Page
           url: pagebuilder/config/page.md
@@ -71,7 +75,8 @@ landingContent:
     # Card
   - title: User controls
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: MDOLists
           url: pagebuilder/usercontrols/mdolists/index.md
@@ -86,7 +91,8 @@ landingContent:
   # Card
   - title: Develop
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Set up custom folder
           url: getting-started/set-up-custom-folder.md
@@ -103,7 +109,8 @@ landingContent:
   # Card
   - title: Tutorials
     linkLists:
-      - linkListType: tutorial
+      - itemType: dvr
+        typeDesc: tutorial
         links:
         - text: Ajax create followup
           url: tutorials/ajax-create-followup/index.md
@@ -124,14 +131,16 @@ landingContent:
   # Card
   - title: Reference
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Web GUI API reference
           url: ../../api/reference/web/index.md
   # Card
   - title: More
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Globalization
           url: globalization.md

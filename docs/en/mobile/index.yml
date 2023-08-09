@@ -9,18 +9,21 @@ metadata:
   ms.topic: landing-page
   ms.date: 04.14.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Getting started
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Introduction
           url: overview.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Install SuperOffice Mobile (v. 9.1 and newer)
           url: superoffice-mobile/install.md
@@ -30,7 +33,8 @@ landingContent:
   # Card
   - title: SuperOffice Mobile
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
         - text: Client requirements
           url: superoffice-mobile/client-requirements.md
@@ -38,20 +42,23 @@ landingContent:
           url: superoffice-mobile/security.md
         - text: FAQ
           url: superoffice-mobile/faq.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Install
           url: superoffice-mobile/install.md
   # Card
   - title: Pocket CRM
     linkLists:
-      - linkListType: learn
+      - itemType: school
+        typeDesc: learn
         links:
         - text: Client requirements
           url: pocket-crm/client-requirements.md
         - text: System requirements
           url: pocket-crm/system-requirements.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Install
           url: pocket-crm/install.md
@@ -67,7 +74,8 @@ landingContent:
   # Card
   - title: Requirements
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: SuperOffice Mobile client
           url: superoffice-mobile/client-requirements.md

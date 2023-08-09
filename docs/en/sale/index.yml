@@ -11,7 +11,8 @@ metadata:
   so.author: digitaldiina
   so.date: 06.09.2023
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 # PLEASE PAY ATTENTION TO INDENTATION
 
@@ -19,7 +20,8 @@ landingContent:
   # Card 1
   - title: Introduction
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Introduction to sales
           url: overview.md
@@ -31,11 +33,13 @@ landingContent:
           url: learn/sales-targets/index.md
         - text: Forecast and selections
           url: learn/forecasting.md
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: Sales guide product demo
           url: https://www.youtube.com/watch?v=rOjUHDgYPGk
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: How to register a lead
           url: learn/create.md
@@ -47,24 +51,28 @@ landingContent:
           url: ../admin/lists/learn/sale-stage.md 
         - text: Add currency (list)
           url: ../admin/lists/learn/adding-items-to-currency-list.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Template variables
           url: ../document/templates/variables/for-sales.md
 
   - title: Sales guide (workflow)
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: The sales guide
           url: learn/sales-guide/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create
           url: learn/sales-guide/create.md
         - text: Work with sales guides
           url: learn/sales-guide/working-with-sales-guide.md
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: Sales guide product demo
           url: https://www.youtube.com/watch?v=rOjUHDgYPGk
@@ -73,11 +81,13 @@ landingContent:
 
   - title: Quote
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: ../quote/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create quotes
           url: ../quote/learn/create.md
@@ -95,20 +105,23 @@ landingContent:
           url: ../quote/learn/admin/product/add-product-to-price-list.md
         - text: Configure products
           url: ../quote/learn/admin/product/configure.md
-      - linkListType: video
+      - itemType: video_library
+        typeDesc: video
         links:
         - text: Track sales quotes
           url: https://www.youtube.com/watch?v=lzJ6AsAhyE4
 
   - title: SAINT
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: What is SAINT and what can it do
           url: saint/learn/index.md
         - text: Counters and values
           url: saint/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Set up SAINT
           url: saint/learn/admin/index.md
@@ -118,14 +131,16 @@ landingContent:
           url: ../admin/lists/learn/sale-amount-class.md
         - text: Use status monitors in a dynamic selection
           url: saint/learn/using-status-monitors-in-dynamic-selections.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: The View statuses dialog
           url: saint/learn/status-dialog.md
 
   - title: UI customization
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Screen Designer
           url: ../ui/screen-designer/learn/index.md
@@ -142,13 +157,15 @@ landingContent:
 
   - title: Automation
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: ../automation/index.yml
         - text: Triggers
           url: ../automation/trigger/index.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Webhooks - sale events
           url: ../automation/webhook/reference/sale-events.md
@@ -161,11 +178,13 @@ landingContent:
 
   - title: CRMScript
     linkLists:
-      - linkListType: concept
+      - itemType: explore
+        typeDesc: concept
         links:
         - text: Overview
           url: howto/crmscript/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create sale
           url: howto/crmscript/create.md
@@ -188,13 +207,15 @@ landingContent:
 
   - title: API
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: REST
           url: ../api/reference/restful/rest/Sale/index.md
         - text: SOAP (services88)
           url: ../api/reference/soap/Services88/Sale/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Link sale to appointment (web services)
           url: howto/services/index.md
@@ -202,7 +223,8 @@ landingContent:
 
   - title: Database tables
     linkLists:
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Sale
           url: ../database/tables/sale.md

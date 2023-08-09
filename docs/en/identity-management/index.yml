@@ -17,28 +17,34 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: "SuperID"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: superid/index.yml
     # Card
     - title: "System for Cross-domain Identity Management (SCIM)"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: scim/index.yml
     # Card
     - title: "Authentication"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../api/authentication/overview.md
     # Card
     - title: "Federated authentication"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: federated-auth.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -47,61 +53,76 @@ conceptualContent:
       summary: ""
       links:
         - url: overview.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: Intro
         - url: federated-id-and-identity-providers.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: Federated ID and identity providers
         - url: multi-factor-authentication.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: Multi-factor authentication
         - url: single-sign-on/index.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: Single sign-on
     # Card
     - title: User admin
       summary: ""
       links:
         - url: user/add-user-in-admin-client.md
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           text: Add user in admin client
         - url: user/enforce-password-policy.md
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           text: Enforce password policy
         - url: user/reset-password.md
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           text: Reset password
         - url: user/send-welcome-emails.md
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           text: Send welcome emails
     # Card
     - title: SuperID
       summary: ""
       links:
         - url: superid/index.yml
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: Intro
         - url: superid/sign-in-services.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: Sign-in services
         - url: superid/howto/federated-sign-in-guide.md
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           text: Federated sign-in guide
     # Card
     - title: SCIM
       summary: "System for Cross-domain Identity Management (SCIM)"
       links: 
         - url: scim/overview.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: What is SCIM?
         - url: scim/user-provisioning.md
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           text: What is user provisioning?
         - url: scim/sign-in-to-scim.md
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           text: How to sign in to SCIM
         - url: scim/setup/setup-guide.md
-          itemType: get-started
+          itemType: power_settings_new
+          typeDesc: get-started
           text: Set-up guide
 # Card with summary style
 additionalContent:

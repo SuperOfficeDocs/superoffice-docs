@@ -19,7 +19,8 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: Kalender
@@ -64,7 +65,8 @@ highlightedContent:
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -73,28 +75,36 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduktion
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: getting-started/login.md
       - text: Lär dig grunderna
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: basics/index.md
       - text: Demo
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/embed/10VQCTgxODc
       - text: Logga in
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/login.md
       - text: Preferenser
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/preferences.md
       - text: Koppla e-post och dokument
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/connect-email-doc/index.md
       - text: Redigera e-postsignatur
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: getting-started/edit-email-signature.md
       - text: Layoutobjekten
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: getting-started/main-screen/index.md
 
     # Card
@@ -102,22 +112,28 @@ conceptualContent:
       summary: ""
       links:
       - text: Versionshistorik
-        itemType: whats-new
+        itemType: new_releases
+        typeDesc: whats-new
         url: ../../../release-notes/index.md
       - text: Ny hanteringen av förfrågningar
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../request/learn/index.md
       - text: Anpassningsbara skärmar - arkiv
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../ui/screen-designer/learn/edit-layout-archives.md
       - text: Säljmål
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../sale/learn/sales-targets/index.md
       - text: SharePoint-dokumentbibliotek
-        itemType: how-to-guide 
+        itemType: list
+        typeDesc: how-to-guide 
         url: ../admin/preferences/learn/document-library/change-to-sharepoint.md
       - text: Marknadsföringsdashboard
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../dashboard/learn/show-marketing.md
 
     # Card
@@ -125,28 +141,36 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduktion
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../search-options/learn/index.md
       - text: Urval
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../search-options/selection/learn/index.md
       - text: Fritextsökning
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/freetext-search.md
       - text: Söka från navigator
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/in-navigator.md
       - text: Söka i dialogrutor
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/in-dialogs.md
       - text: Fönstret Sök
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/find-screen.md
       - text: Sökkriterier
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/learn/search-criteria.md
       - text: Nytt urval
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../search-options/selection/learn/create/index.md
 
     # Card
@@ -154,22 +178,28 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduktion
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../contact/learn/index.md
       - text: Skapa nytt företag
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../company/learn/create.md
       - text: Skapa ny kontakt
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../contact/learn/create.md
       - text: Skicka e-post till en kontakt
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../contact/learn/send-email.md
       - text: Detaljkort för företag
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../company/learn/index.md
       - text: Detaljkort under Kontakt
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../contact/learn/index.md
 
     # Card
@@ -177,25 +207,32 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduktion till e-post
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../email/learn/index.md
       - text: Introduktion till kalender
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../diary/learn/index.md
       - text: Ändra standardklienten för e-post i SuperOffice
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../email/learn/change-default-mail-client.md
       - text: Skriva e-post
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: compose.md
       - text: Skapa bokning
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../diary/learn/create-appointment.md
       - text: Videomöten
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../diary/learn/video-meetings.md
       - text: Navigera i fönstret Kalender
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../diary/learn/screen/index.md
 
     # Card
@@ -203,16 +240,20 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduktion
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../document/learn/index.md
       - text: Skapa ett nytt dokument
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../document/learn/create.md
       - text: Dokumentskärm
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../document/learn/screen/index.md
       - text: Mallvariabler
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../../../en/document/templates/variables/index.md
 
     # Card
@@ -220,22 +261,28 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduktion
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../request/learn/index.md
       - text: Skapa ärende
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/learn/howto/create.md
       - text: Ta över ansvaret för ärende
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/learn/howto/accept.md
       - text: Svara kund
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/learn/howto/reply.md
       - text: Arbeta med svarsmallar
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../request/reply-templates/learn/create.md
       - text: Ärendeskärm
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../request/learn/screen/index.md
 
     # Card
@@ -243,29 +290,38 @@ conceptualContent:
       summary: ""
       links:
       - text: Introduktion
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: ../sale/learn/index.md
       - text: Prognoser
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../sale/learn/forecasting.md
       - text: Försäljningsmål
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../sale/learn/sales-targets/index.md
       - text: Dashboard
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../dashboard/learn/index.md
       - text: Skapa försäljning
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../sale/learn/create.md
       - text: Lägga till intressenter
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../sale/learn/stakeholders/create.md
       - text: Försäljningsguide
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../sale/learn/sales-guide/working-with-sales-guide.md
       - text: Skapa en ny dashboard
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../dashboard/learn/create.md
       - text: Arbeta med figurer
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../dashboard/learn/working-with-tiles.md

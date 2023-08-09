@@ -9,26 +9,31 @@ metadata:
   ms.topic: landing-page
   ms.date: 03.27.2021
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
   # Card
   - title: Learn about SCIM
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: What is SCIM?
           url: overview.md
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Identity Management Gateway
           url: identity-management-gw.md
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: SCIM rules
           url: scim-rules.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Sign in to SCIM
           url: sign-in-to-scim.md
@@ -36,11 +41,13 @@ landingContent:
   # Card
   - title: User provisioning
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
           - text: What is user provisioning?
             url: user-provisioning.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: Add SCIM rule 
             url: provisioning/add-scim-rule.md
@@ -57,11 +64,13 @@ landingContent:
   # Card
   - title: How to set up SCIM
     linkLists:
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: Set-up guide
             url: setup/setup-guide.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
           - text: Create Azure enterprise app
             url: setup/create-azure-enterprise-app.md

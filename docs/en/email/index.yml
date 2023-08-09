@@ -17,31 +17,38 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: "Mailgun"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: mailgun/index.yml
     # Card
     - title: "SuperOffice for Outlook"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: superoffice-for-outlook/index.md
     # Card
     - title: "MailLink"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: mail-link/index.md
     # Card
     - title: "SuperOffice Inbox"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: inbox/index.md
     # Card
     - title: "Email in Service and Marketing"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: service/index.md
     # Card
     - title: "Email table"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../database/tables/email.md
 
 # Card with summary style

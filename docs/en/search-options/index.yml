@@ -17,28 +17,34 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: Search options (in the UI)
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: learn/index.md
     # Card
     - title: User guide for selections
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: selection/learn/index.md
     # Card
     - title: Template variables
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../document/templates/variables/for-selections.md
     # Card
     - title: Selection table
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: ../database/tables/selection.md
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -47,19 +53,24 @@ conceptualContent:
       summary: ""
       links:
       - text: How to search for information
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/index.md
       - text: How to use a typical search
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/index.md#typical
       - text: How to create a search and save it as a selection
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: selection/learn/create/index.md
       - text: How to create a selection
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: selection/learn/create/tutorial.yml
       - text: How to broaden a search using the "OR" function
-        itemType: learn
+        itemType: school
+        typeDesc: learn
         url: learn/find-screen.md#or
 
     # Card
@@ -67,13 +78,16 @@ conceptualContent:
       summary: ""
       links:
       - text: How to find and do a typical search
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=gx-vXm-b_7g&t=4s
       - text: How to broaden a search using or as a search criterion
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=Z-fSLJSdp2k
       - text: How to create a new search and save it as a new selection
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=b1YsCcHwz-o
 
     # Card
@@ -81,19 +95,24 @@ conceptualContent:
       summary: ""
       links:
         - text: User preference for free-text search
-          itemType: reference
+          itemType: library_books
+          typeDesc: reference
           url: ../admin/user-preferences/reference/freetext.md
         - text: Enable free-text search
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/options/learn/freetext-search/enable.md
         - text: Specify search criteria
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/options/learn/freetext-search/configure.md
         - text: Stopwords
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/options/learn/freetext-search/stopwords.md
         - text: Regenerate the free-text index
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../admin/options/learn/freetext-search/regenerate-index.md
 
     # Card
@@ -101,10 +120,12 @@ conceptualContent:
       summary: ""
       links:
       - text: Web panels
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../ui/web-panels/index.md
       - text: SoProtocol
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../ui/soprotocol/index.md
 
     # Card
@@ -112,10 +133,12 @@ conceptualContent:
       summary: ""
       links:
       - text: Custom fields
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../custom-objects/overview.md
       - text: How to add user-defined fields
-        itemType: video
+        itemType: video_library
+        typeDesc: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
 
     # Card
@@ -123,13 +146,16 @@ conceptualContent:
       summary: ""
       links:
       - text: Overview
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../automation/index.yml
       - text: Triggers
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../automation/trigger/index.md
       - text: Zapier
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
@@ -137,34 +163,44 @@ conceptualContent:
       summary: ""
       links:
       - text: CRMScript SearchEngine class
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../automation/crmscript/searchengine/index.md
       - text: Script-based selections
-        itemType: tutorial
+        itemType: dvr
+        typeDesc: tutorial
         url: ../automation/crmscript/tutorials/script-based-selections.md
       - text: NetServer Archive agents
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../api/search/iarchiveagent/index.md
       - text: NetServer IFindAgent
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../api/search/ifindagent/index.md
       - text: REST Web API search
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../api/search/odata/index.md
       - text: NetServer web services
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../api/search/selection/services/add-member-to-static-selection-services.md
       - text: NetServer archive providers
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../api/search/selection/archive/get-selection-members-provider.md
       - text: NetServer entities
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../api/search/selection/entity/add-member-to-static-selection-entities.md
       - text: NetServer OSQL
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../api/search/selection/osql/add-member-to-static-selection-osql.md
       - text: Raw SQL
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../api/search/selection/sql/add-person-to-selection.md
 
     # Card
@@ -172,29 +208,38 @@ conceptualContent:
       summary: ""
       links:
       - text: Selection table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/selection.md
       - text: SelectionMember table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/selectionmember.md
       - text: Associate table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/associate.md
       - text: UserGroup table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/usergroup.md
       - text: VisibleFor table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/visiblefor.md
       - text: SearchCat table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/searchcat.md
       - text: FreetextIndex table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/freetextindex.md
       - text: FreetextWords table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/freetextwords.md
       - text: FreetextStopwords table
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../database/tables/freetextstopwords.md

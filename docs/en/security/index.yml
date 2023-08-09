@@ -17,39 +17,48 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: Reset password
-      itemType: how-to-guide
+      itemType: list
+      typeDesc: how-to-guide
       url: ../identity-management/user/reset-password.md
     # Card
     - title: "Identity management"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../identity-management/index.yml
     # Card
     - title: "SuperID"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../identity-management/superid/index.yml
     # Card
     - title: "System for Cross-domain Identity Management (SCIM)"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../identity-management/scim/index.yml
     # Card
     - title: "Authentication"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../api/authentication/overview.md
     # Card
     - title: OAuth 2.0
-      itemType: concept
+      itemType: explore
+      typeDesc: concept
       url: ../api/authentication/online/index.md
     # Card
     - title: OpenID Connect
-      itemType: concept
+      itemType: explore
+      typeDesc: concept
       url: ../api/authentication/online/index.md
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "" # < 60 chars (optional)
   summary: ""
   items:
@@ -58,107 +67,136 @@ conceptualContent:
       summary: ""
       links:
         - text: Federated ID and identity providers
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: ../identity-management/federated-id-and-identity-providers.md
         - text: Multi-factor authentication
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: ../identity-management/multi-factor-authentication.md
         - text: Single sign-on
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: ../identity-management/single-sign-on/index.md
         - text: User accounts and role-based access control
-          itemType: concept
+          itemType: explore
+          typeDesc: concept
           url: ../identity-management/user/index.md
         - text: Enforce password policy
-          itemType: how-to-guide
+          itemType: list
+          typeDesc: how-to-guide
           url: ../identity-management/user/enforce-password-policy.md
     # Card
     - title: Privacy
       summary: "General Data Protection Regulation (GDPR)"
       links:
       - text: Introduction
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: privacy/index.md
       - text: Consent management
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: privacy/consent-management.md
       - text: E-marketing consent
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: privacy/e-marketing-consent.md
       - text: Soft-delete
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: privacy/soft-delete.md
     # Card
     - title: Online applications
       summary: ""
       links:
       - text: Security requirements
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../apps/requirements/security.md
       - text: Checklist
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../apps/certification/checklist.md
       - text: Certification
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../apps/certification/index.md
       - text: Watchcom evaluation
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../apps/certification/initial-watchcom-eval.md
       - text: Obtain consent to access a customer's tenant
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../apps/provisioning/get-consent.md
       - text: GDPR for app developer
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: privacy/gdpr-for-app-developer.md
     # Card
     - title: Online authentication
       summary: ""
       links:
       - text: SuperOffice Online and SuperID
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../api/authentication/online/index.md
       - text: OpenID Connect
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../api/authentication/online/index.md
       - text: Authorization code flow
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../api/authentication/online/sign-in-user/auth-code-flow.md
       - text: Hybrid Flow
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../api/authentication/online/sign-in-user/hybrid-flow.md
       - text: Implicit Flow
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../api/authentication/online/sign-in-user/implicit-flow.md
       - text: Native Apps
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../api/authentication/online/sign-in-user/native-apps.md
       - text: System User (Back-channel)
-        itemType: concept
+        itemType: explore
+        typeDesc: concept
         url: ../api/authentication/online/auth-application/index.md
     # Card
     - title: Onsite deployment
       summary: Security in onsite SuperOffice installations
       links:
       - text: Intro
-        itemType: overview
+        itemType: map
+        typeDesc: overview
         url: ../onsite/security/index.md
       - text: Secure deployment guide
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../onsite/security/secure-deployment-guide.md
       - text: Deployment scenarios
-        itemType: deploy
+        itemType: cloud_upload
+        typeDesc: deploy
         url: ../onsite/security/deployment-scenarios.md
       - text: Network and firewall config
-        itemType: reference
+        itemType: library_books
+        typeDesc: reference
         url: ../onsite/security/network-firewall-config.md
       - text: Securing HTTPS configuration
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../onsite/security/secure-https.md
       - text: Set up EMET
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../onsite/security/set-up-emet.md
       - text: Set up ModSecurity
-        itemType: how-to-guide
+        itemType: list
+        typeDesc: how-to-guide
         url: ../onsite/security/set-up-modsecurity.md
 # Card with summary style
 additionalContent:

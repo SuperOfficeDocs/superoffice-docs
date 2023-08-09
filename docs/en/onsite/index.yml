@@ -17,44 +17,54 @@ metadata:
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   items:
     # Card
     - title: "System requirements"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: requirements/index.md
     # Card
     - title: "Setup guide"
-      itemType: reference
+      itemType: library_books
+      typeDesc: reference
       url: install/guide.md
     # Card
     - title: "Installation guide (Web)"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: install/index.yml      
     # Card
     - title: "Customer Service"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../service/index.yml
     # Card
     - title: "SuperOffice mobile"
-      itemType: learn
+      itemType: school
+      typeDesc: learn
       url: ../mobile/index.yml
     # Card
     - title: "Release notes"
-      itemType: whats-new
+      itemType: new_releases
+      typeDesc: whats-new
       url: ../../../release-notes/index.md
     # Card
     - title: "Software downloads"
-      itemType: download
+      itemType: file_download
+      typeDesc: download
       url: https://community.superoffice.com/en/product-releases/release-notes/
       # Card
     - title: "Automation"
-      itemType: overview
+      itemType: map
+      typeDesc: overview
       url: ../automation/index.yml
 
 # conceptualContent section (optional)
 conceptualContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
   title: "Get SuperOffice up and running" # < 60 chars (optional)
   summary: "Regardless of whether this is your first installation or an upgrade, security is essential."
   items:
@@ -63,64 +73,80 @@ conceptualContent:
         summary: Security in onsite SuperOffice installations
         links:
           - url: security/index.md
-            itemType: overview
+            itemType: map
+            typeDesc: overview
             text: Intro
           - url: security/secure-deployment-guide.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: Secure deployment guide
           - url: security/deployment-scenarios.md
-            itemType: deploy
+            itemType: cloud_upload
+            typeDesc: deploy
             text: Deployment scenarios
     # Card
       - title: Install
         summary: Install SuperOffice
         links:
           - url: install/guide.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: Setup guide
           - url: install/iis/index.md
-            itemType: get-started
+            itemType: power_settings_new
+            typeDesc: get-started
             text: IIS web server
           - url: install/database/create-ms-sql-server-db.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: Create MS SQL Server database
           - url: install/database/create-oracle-db.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: Create Oracle database
           - url: install/server/silent-serversetup.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: Install SuperOffice server (silent)
           - url: install/web-client/index.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: Web client
           - url: ../service/install/index.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: Service
     # Card
       - title: Upgrade
         summary: Upgrade your onsite SuperOffice installation
         links:
           - url: upgrade/to-9/index.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: To version 9 or 10       
           - url: upgrade/to-81/index.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: To version 8.1 - 8.5
           - url: upgrade/75-to-8/index.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: To version 8.0
       # Card
       - title: Migrate to CRM online
         summary: Take SuperOffice to the cloud
         links:
           - url: ../online/migrate/index.md
-            itemType: how-to-guide
+            itemType: list
+            typeDesc: how-to-guide
             text: "Migration guide"
           - url: ../email/service/migrate.md
-            itemType: concept
+            itemType: explore
+            typeDesc: concept
             text: "Migrating Service mailboxes"
           - url: ../online/system-requirements.md
-            itemType: reference
+            itemType: library_books
+            typeDesc: reference
             text: System requirements for SuperOffice CRM Online
 # Card with summary style
 additionalContent:

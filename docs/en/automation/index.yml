@@ -11,20 +11,23 @@ metadata:
   so.author: digitaldiina
   so.date: 12.01.2022
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
 
 # Card
   - title: CRMScript
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: What is CRMScript
           url: crmscript/overview/index.md
         - text: What can I do with CRMScript?
           url: crmscript/overview/crmscript-usage.md
-      - linkListType: get-started
+      - itemType: power_settings_new
+        typeDesc: get-started
         links:
         - text: How do I create and run CRMScripts?
           url: crmscript/overview/envir-and-tools.md
@@ -32,7 +35,8 @@ landingContent:
           url: crmscript/fundamentals/syntax.md
         - text: Basic data types
           url: crmscript/datatypes/index.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: CRMScript API reference
           url: crmscript/reference/CRMScript.Global.Void.yml
@@ -40,13 +44,15 @@ landingContent:
 # Card
   - title: Webhooks
     linkLists:
-    - linkListType: overview
+    - itemType: map
+      typeDesc: overview
       links:
       - text: Introduction
         url: webhook/index.md
       - text: Event details
         url: webhook/event-details.md
-    - linkListType: how-to-guide
+    - itemType: list
+      typeDesc: how-to-guide
       links:
       - text: Subscribing to a webhook
         url: webhook/subscription.md
@@ -58,7 +64,8 @@ landingContent:
         url: webhook/security.md
       - text: Troubleshooting
         url: webhook/troubleshooting.md
-    - linkListType: reference
+    - itemType: library_books
+      typeDesc: reference
       links:
       - text: Webhook event reference
         url: webhook/reference/index.md
@@ -66,11 +73,13 @@ landingContent:
   # Card
   - title: Chatbot
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Introduction
           url: chatbot/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Registration
           url: chatbot/registration.md
@@ -78,7 +87,8 @@ landingContent:
           url: chatbot/sessions.md
         - text: Messages
           url: chatbot/messages.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Script reference
           url: chatbot/reference.md
@@ -86,11 +96,13 @@ landingContent:
 # Card
   - title: Trigger scripts
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Introduction
           url: trigger/index.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Create trigger script
           url: trigger/create-trigger-script.md
@@ -98,7 +110,8 @@ landingContent:
           url: trigger/create-trigger-macro.md
         - text: Set validation rules
           url: trigger/set-validation-rules.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: "Trigger script reference"
           url: trigger/reference/CRMScript.Event.Trigger.yml
@@ -106,11 +119,13 @@ landingContent:
 # Card
   - title: Event model
     linkLists:
-    - linkListType: overview
+    - itemType: map
+      typeDesc: overview
       links:
       - text: Introduction
         url: event-model/index.md
-    - linkListType: reference
+    - itemType: library_books
+      typeDesc: reference
       links:
       - text: Email filter
         url: event-model/email-filter.md
@@ -124,19 +139,22 @@ landingContent:
 # Card
   - title: NetServer script engine (onsite)
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Introduction
           url: netserver-scripting/index.md
         - text: Configuration
           url: netserver-scripting/configure.md
-      - linkListType: how-to-guide
+      - itemType: list
+        typeDesc: how-to-guide
         links:
         - text: Events
           url: netserver-scripting/basic-scripting.md
         - text: Deployment options
           url: netserver-scripting/run-scripts.md
-      - linkListType: reference
+      - itemType: library_books
+        typeDesc: reference
         links:
         - text: Scripting API reference
           url: netserver-scripting/reference/index.md
@@ -144,7 +162,8 @@ landingContent:
   # Card
   - title: Other automation
     linkLists:
-      - linkListType: overview
+      - itemType: map
+        typeDesc: overview
         links:
         - text: Windows client script event system
           url: windows/win-script-event-system.md
