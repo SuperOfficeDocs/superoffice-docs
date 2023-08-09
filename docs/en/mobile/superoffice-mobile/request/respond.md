@@ -51,9 +51,7 @@ Sometimes, internal comments or reassigning the request is not enough to solve a
 
 [When you forward a request][1], the app combines all external messages on that request plus your own message into a single email.
 
-When viewing the request:
-
-1. Select **Forward** from the **Task** menu.
+1. Select **Forward** from the **Task** menu (when viewing the request).
 1. Add one or more recipients in the **To** field.
 1. Update request properties as needed (owner, status, category).
 1. Compose a message.
@@ -77,7 +75,7 @@ While composing a message, you can add images, insert a request reply template, 
 
 4. Confirm and save your comment. The selected images are added as attachments.
 
-    ![Add multiple images to a request -screenshot][img2]
+    ![Add multiple images to a request -app-screen][img2]
 
 ### Insert reply template
 
@@ -106,8 +104,9 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 
 ## Related content
 
+* [Update request][7]
 * [Create reply template][2] (in SuperOffice CRM)
-* [Create FAQ entries][5] (in SuperOffice CRM)
+* [Create FAQ entry][5] (in SuperOffice CRM)
 
 <!-- Referenced links -->
 [1]: ../../../request/learn/howto/forward.md
@@ -116,6 +115,7 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 [4]: ../../../faq/learn/index.md
 [5]: ../../../faq/learn/create.md
 [6]: ../../../../en/admin/license/user-plans.md
+[7]: update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/mobile/request-reply.png

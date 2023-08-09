@@ -15,8 +15,6 @@ so.client: mobile
 
 Mobile CRM gives you access to the most essential features of SuperOffice on a smartphone and tablet. Handling customer requests in the Mobile CRM app allows you to stay in control of customer service no matter where you are.
 
-![Mobile CRM: Request -mobile-screenshot][img1]
-
 > [!NOTE]
 > The **Requests** tab is shown only if your company has a Service or complete license.
 > Individual users may view request info without a service user plan if their role and the request's category permits, but then may not reply or perform other actions.
@@ -26,10 +24,10 @@ Watch the video [request handling][10] to learn how to handle customer service r
 ## Tabs in the main Request screen
 
 | Icon | Tab | Description |
-|---|---|---|
-| ![icon][img19] | Search | Search field (by ID or title) and history list |
-| ![icon][img18] | Favorites | Requests marked as a favorite (yellow star) |
-| ![icon][img7] | Open requests | Your own or a colleague's |
+|:-:|---|---|
+| ![icon][img19] | Search | Search field (by ID or title) and history list. |
+| ![icon][img18] | Favorites | Requests marked as a favorite (yellow star). |
+| ![icon][img7] | Open requests | Your own or a colleague's. |
 | ![icon][img8] | Unassigned requests | |
 | ![icon][img9] | Selections | A list of selections of type request. |
 
@@ -47,21 +45,21 @@ Watch the video [request handling][10] to learn how to handle customer service r
 The Action bar allows you to reply to the customer, call the customer connected to the request, and view details info to change the status on the request, add tags and change category.
 
 | Icon | Action | Description |
-|---|---|---|
-| ![icon][img6] | Reply | Reply to the customer |
-| ![icon][img2] | Add comment | Add an internal message (opens the Message screen) |
-| ![icon][img3] | Call | Call the customer connected to the request |
-| ![icon][img4] | Messages | All messages in request |
-| ![icon][img5] | Details | Information about the request |
+|:-:|---|---|
+| ![icon][img6] | Reply | Reply to the customer. |
+| ![icon][img2] | Add comment | Add an internal message (opens the Message screen). |
+| ![icon][img3] | Call | Call the customer connected to the request. |
+| ![icon][img4] | Messages | All messages in request. |
+| ![icon][img5] | Details | Information about the request. |
 
 The **Task** menu lets you take pictures and add them as attachments to a message, change request status, set the owner, and reply to and add comments to the request.
 
 ## Where can I find requests?
 
 * The main **Requests** screen
-* Contact screen (tab)
-* Sale screen (tab)
-* Project screen (tab)
+* Tab in Contact screen
+* Tab in Sale screen
+* Tab in Project screen
 
 When viewing a contact, sale, or project, the **Requests** tab shows open requests linked to a specific item.
 
@@ -73,7 +71,7 @@ In lists, you will typically see ID, title, created at, status, and category for
 
 2. Check that your name appears at the top.
 
-    If another person's name is shown in red, this means that you are looking at another person's sales. Select the person's name and switch to your own open requests.
+    If another person's name is shown in red, this means that you are looking at another person's requests. Select the person's name and switch to your own open requests.
 
 3. Select a request from the list.
 
@@ -90,7 +88,7 @@ In lists, you will typically see ID, title, created at, status, and category for
 
 Need to keep an eye on your direct reports or wonder about what your colleagues are up to?
 
-1. In the Request screen, select the **Open requests** tab.
+1. In the **Requests** screen, select the **Open requests** tab.
 1. Select the name just below the row of tabs.
 1. On the **Set owner** page, select a person from the history list or search for an associate. Their name is now shown in red above the list of requests.
 1. Explore their open requests as described above.
@@ -109,7 +107,7 @@ You can get notifications on your device for different events:
 
 ### In Notification Centre (iOS) / Notification drawer (Android)
 
-![SuperOffice Mobile CRM request notifications -screenshot][img20]
+![SuperOffice Mobile CRM request notifications -mobile-screen][img20]
 
 Click the notification to open the request in Mobile CRM.
 
@@ -146,7 +144,6 @@ Click the notification to open the request in Mobile CRM.
 [12]: ../../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../media/
 [img2]: ../../../../../common/icons/mobile/addcomment.png
 [img3]: ../../../../../common/icons/mobile/cellphone-iphone.png
 [img4]: ../../../../../common/icons/mobile/messages.png

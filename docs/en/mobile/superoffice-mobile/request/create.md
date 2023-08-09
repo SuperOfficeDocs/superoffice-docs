@@ -17,18 +17,18 @@ You can register requests directly from Mobile CRM.
 
 ## Steps
 
-1. Go to the main **Request** page.
+1. Go to the main **Requests** page.
 2. Tap **+**.
 3. Enter a descriptive title for the request.
 4. Tap **Add people**, select one or more customers, and tap **OK**.
 5. Choose owner: Unassigned, automatically assigned, or set a specific person.
 6. Select a category and optionally choose tags.
-7. Add other details as necessary. For example, tap and select a sale and/or project to link it to the request.Expand to see more fields.
+7. Add other details as necessary. For example, tap and select a sale and/or project to link it to the request. Expand to see more fields.
 
     [!include[Configure visible fields](../includes/tip-visible-fields.md)]
 
 8. [Add a message][6] (mandatory).
-9. Save the request.
+9. Tap **Save**.
 
 ## Open request on selected contact
 
