@@ -23,3 +23,5 @@ items:
   topicHref: en/onsite/index.yml
 - name: Developer Guide
   topicHref: en/api/overview/index.md
+- name: Zapier
+  topichref: en/automation/zapier/index.md

@@ -115,3 +115,5 @@ items:
       href: netserver-scripting/reference/
   - name: Win script and event system
     href: windows/win-script-event-system.md
+  - name: Zapier
+    href: zapier/toc.yml
