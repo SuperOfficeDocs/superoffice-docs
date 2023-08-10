@@ -1,41 +1,43 @@
 ---
-uid: zapier-crm-account-create
-title: Set up account
-description: How to guide for finding companies
+uid: zapier-set-up
+title: Connect account
+description: How to connect your SuperOffice account with Zapier
 author: Philip Yates
-so.date: 8.9.2023
+so.date: 08.09.2023
 keywords: Zapier
 so.topic: howto
 language: en
 so.client: Zapier
 ---
 
+# Connect your SuperOffice account with Zapier
 
-# Set up your SuperOffice account to work with Zapier
+> [!NOTE]
+> To be able to create Zaps, you must connect a SuperOffice CRM account that has **General Administrator** user rights.
 
-Click on the **Connect an Account** button
+## Steps
 
-![Select SuperOffice CRM Account][img1]
+1. Go to your Zapier dashboard.
 
-Select the correct SuperOffice Online installation you want to connect to.
+1. Click the **Connect an Account** button.
 
-![SuperOffice Zapier Integration][img2]
+    ![Zapier: Select SuperOffice CRM Account -screenshot][img1]
 
-Complete the credentials to connect to your SuperOffice Online Account.
+1. Select the SuperOffice tenant you want to connect to.
 
-![Connect Zapier to SuperOffice][img3]
+1. Sign in to your SuperOffice account.
 
-You will need to approve the Zapier connection at this point. This allows Zapier to access your SuperOffice Online installation. Click on **I approve**.
+    ![SuperOffice Zapier Integration -screenshot][img2]
 
+1. Click **I approve** to allow Zapier to access your SuperOffice Online tenant.
 
-> [!NOTE] 
-> You must use an account in SuperOffice CRM that has the user rights as General Administrator in Settings and maintenance. If you don’t, you will not be able to create Zaps.
+    ![Connect Zapier to SuperOffice -screenshot][img3]
 
-![][img4]
+1. Check that the connection is ok by clicking **Test**.
 
-Check that the connection is ok by clicking **Test**.
+    ![Zapier: verify connection -screenshot][img4]
 
-Click on **Save + Continue** when you are ready to continue.
+1. Click **Save + Continue** when you are ready to continue.
 
 [img1]: media/choose-account.png
 [img2]: media/superoffice-login.png

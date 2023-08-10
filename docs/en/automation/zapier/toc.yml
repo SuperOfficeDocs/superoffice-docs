@@ -2,13 +2,12 @@ items:
 - name: Overview
   href: index.md
 - name: Get started
+  href: get-started/index.md
   items:
-  - name: Index
-    href: get-started/index.md
-  - name: Make a Zap
-    href: get-started/make-a-zap.md
-  - name: Set up account
+  - name: Connect account
     href: get-started/set-up-account.md
+  - name: Make a Zap
+    href: get-started/create-zap.md
 - name: Finding/Updating
   items:
   - name: Index
