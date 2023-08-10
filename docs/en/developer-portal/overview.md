@@ -20,7 +20,7 @@ In the portal, you have the opportunity to:
 * Register and manage your SuperOffice Apps, and the authentication keys and tokens that they use.
 * Manage your endpoint access requirements and integrations integration services endpoints.
 * Learn more about different endpoints and features available.
-* Explore API usage, exceptions, and failed requests for your apps.
+* Explore API metrics, exceptions, and failed requests for your apps.
 * With elevated privileges within your organization, you can manage users and their Developer Portal access.
 
 > [!NOTE]
