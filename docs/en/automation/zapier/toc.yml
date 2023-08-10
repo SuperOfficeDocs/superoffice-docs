@@ -24,11 +24,5 @@ items:
     href: tips/listsource.md
   - name: Formatting date and time
     href: tips/datetime.md
-- name: Common problems
-  items:
-  - name: Index
-    href: problems/index.md
-  - name: Problems when pulling in data samples
-    href: problems/data-samples.md
 - name: Triggers, actions, templates
   href: reference.md

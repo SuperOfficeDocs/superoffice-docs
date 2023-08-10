@@ -10,7 +10,7 @@ language: en
 so.client: Zapier
 ---
 
-# Superoffice tips and tricks
+# SuperOffice tips and tricks
 
 [How to maintain GDPR configuration](gdpr.md)
 

@@ -76,6 +76,18 @@ Choose an **Action** and/or a **Search** step - this means where the updated sal
 
 ![Almost finished here! -screenshot][img7]
 
+## Troubleshooting
+
+### Problems when pulling in data samples
+
+![Issue connecting Zapier to SuperOffice -screenshot][img8]
+
+If you are unable to connect and pull data samples from SuperOffice, the likely reason is that the account you are using do not have the necessary administrator access rights (user rights) to use triggers, actions, and search.
+
+Workaround: Try using a different account with more user rights when you connect to a SuperOffice tenant.
+
+Remember that Zaps can do a lot of "damage" to your SuperOffice tenant, for example by adding a lot of duplicate information, and this is something we aim to prevent from happening.
+
 [img1]: media/select-trigger.png
 [img2]: media/connect-account.png
 [img3]: media/set-up.png
@@ -83,3 +95,4 @@ Choose an **Action** and/or a **Search** step - this means where the updated sal
 [img5]: media/pick-sample.png
 [img6]: media/skip-step.png
 [img7]: media/action-step.png
+[img8]: media/no-connection.png
