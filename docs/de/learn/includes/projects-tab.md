@@ -11,4 +11,4 @@ Die Spalten auf der Bereichsregisterkarte **Projekt** enthalten die folgenden In
 * Benutzer-ID der Person, die das Projekt erstellt hat
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
+[img1]: ../../../media/icons/binders.png

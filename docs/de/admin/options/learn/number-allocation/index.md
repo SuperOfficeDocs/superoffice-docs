@@ -68,4 +68,4 @@ Die nachfolgende Tabelle gibt an, wie sich die verschiedenen Kombinationen der a
 [3]: document-template-defaults.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.bmp
+[img1]: ../../../../../media/icons/admin/contact.png

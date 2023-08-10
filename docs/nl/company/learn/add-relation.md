@@ -46,5 +46,5 @@ language: nl
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
-[img2]: ../../../media/loc/en/company/relation.bmp
+[img1]: ../../../media/icons/binders.png
+[img2]: ../../../media/loc/en/company/relation.png

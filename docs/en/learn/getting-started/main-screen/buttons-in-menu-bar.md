@@ -115,4 +115,4 @@ What's new | Opens the splash screen with the latest details. |
 [img7]: ../../../../../common/icons/search-icon-black.png
 [img3]: ../../../../../common/icons/plus-black.png
 [img8]: ../../../../media/loc/en/learn/find.png
-[img9]: ../../../../media/superoffice-logo.bmp
+[img9]: ../../../../media/superoffice-logo.png

@@ -14,4 +14,4 @@ Rows without icons are not imported. If you see that many contacts are not being
     5. Click **Next**, and check that the [New company icon][img1] icon is displayed next to the contact. The person is registered as a company in SuperOffice CRM with themselves as the only contact.
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/import-preview-icon-company-new.bmp
+[img1]: ../../../../../media/icons/admin/import-preview-icon-company-new.png

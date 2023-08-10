@@ -2,4 +2,4 @@
 Klik på ![icon][img1] ERP Sync-ikonet under **Vælg en importkilde**. Dialogboksen **Vælg ERP-link åbnes.**
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/import-erp-small.bmp
+[img1]: ../../../../../media/icons/admin/import-erp-small.png

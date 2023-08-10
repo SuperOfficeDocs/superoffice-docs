@@ -79,4 +79,4 @@ Als u handmatig een uitnodiging namens iemand wilt accepteren of weigeren, selec
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.bmp
+[img3]: ../../../../media/icons/email-inactive.png

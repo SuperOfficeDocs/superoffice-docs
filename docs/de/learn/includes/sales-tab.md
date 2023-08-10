@@ -14,4 +14,4 @@ In den Spalten auf der Bereichsregisterkarte **Verkäufe** finden Sie die folgen
 * den ERP-Rabatt (wenn SuperOffice mit einem ERP-System verknüpft ist)
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.bmp
+[img1]: ../../../media/icons/check.png

@@ -20,4 +20,4 @@ U kunt dubbelklikken op een verzoek om het in een apart venster te openen. Klik 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/requests-detail.bmp
+[img1]: ../../../../media/loc/en/company/requests-detail.png

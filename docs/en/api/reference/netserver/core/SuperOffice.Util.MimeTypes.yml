@@ -15,7 +15,7 @@ items:
   - SuperOffice.Util.MimeTypes.Avi
   - SuperOffice.Util.MimeTypes.Bcpio
   - SuperOffice.Util.MimeTypes.Bin
-  - SuperOffice.Util.MimeTypes.Bmp
+  - SuperOffice.Util.MimeTypes.png
   - SuperOffice.Util.MimeTypes.Cdf
   - SuperOffice.Util.MimeTypes.Cgm
   - SuperOffice.Util.MimeTypes.Class
@@ -517,16 +517,16 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.Util.MimeTypes.Bmp
-  commentId: F:SuperOffice.Util.MimeTypes.Bmp
+- uid: SuperOffice.Util.MimeTypes.png
+  commentId: F:SuperOffice.Util.MimeTypes.png
   id: Bmp
   parent: SuperOffice.Util.MimeTypes
   langs:
   - csharp
   - vb
   name: Bmp
-  nameWithType: MimeTypes.Bmp
-  fullName: SuperOffice.Util.MimeTypes.Bmp
+  nameWithType: MimeTypes.png
+  fullName: SuperOffice.Util.MimeTypes.png
   type: Field
   source:
     path: SoCore

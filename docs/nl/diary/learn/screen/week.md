@@ -23,4 +23,4 @@ Als u het tabblad **Dag** voor een bepaalde dag wilt openen, klikt u op de kop v
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/diary/week-plan.bmp
+[img2]: ../../../../media/loc/en/diary/week-plan.png

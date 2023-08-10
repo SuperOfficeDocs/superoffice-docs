@@ -34,5 +34,5 @@ Om du till exempel vill se alla dokumentmallar som finns tillgängliga i SuperOf
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img3]: ../../../media/loc/en/search-options/quicksearch-dialog.bmp
+[img3]: ../../../media/loc/en/search-options/quicksearch-dialog.png
 [img4]: ../../../media/loc/en/search-options/getstarted-document-fastsearcher.png

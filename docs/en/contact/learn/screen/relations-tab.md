@@ -26,4 +26,4 @@ Double-click on a relation row to open the **Relation** dialog, showing all the 
 [1]: ../add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png

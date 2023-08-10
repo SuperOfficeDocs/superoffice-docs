@@ -26,4 +26,4 @@ Dubbelklik op een relatierij om het dialoogvenster **Relatie** te openen en alle
 [1]: ../add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png

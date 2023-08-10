@@ -47,4 +47,4 @@ Ikonen visas under Import om användaren har installerat WebTools for Mac och ö
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/admin/import-outlook-small.bmp
+[img2]: ../../../../media/icons/admin/import-outlook-small.png

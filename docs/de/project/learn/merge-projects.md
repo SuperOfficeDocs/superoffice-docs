@@ -51,4 +51,4 @@ Wenn Sie über zwei nahezu identische Projekte verfügen, können Sie diese eins
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../../common/icons/info-ball.png
-[img2]: ../../../media/loc/en/project/merge-project.bmp
+[img2]: ../../../media/loc/en/project/merge-project.png

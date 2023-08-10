@@ -90,6 +90,6 @@ Om en aktivitet skrivs med röd text betyder det att dess preliminära datum har
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../media/icons/check.bmp
-[img3]: ../../../../media/icons/sale-sold-details.bmp
-[img4]: ../../../../media/loc/en/diary/activities-detail.bmp
+[img2]: ../../../../media/icons/check.png
+[img3]: ../../../../media/icons/sale-sold-details.png
+[img4]: ../../../../media/loc/en/diary/activities-detail.png

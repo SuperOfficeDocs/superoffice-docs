@@ -93,9 +93,9 @@ Klicken Sie auf die Schaltfläche **Schließen**, um das Dialogfeld zu schließe
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/notice-new.png
-[img2]: ../../../../media/loc/en/diary/invitation.bmp
+[img2]: ../../../../media/loc/en/diary/invitation.png
 [img3]: ../../../../../common/icons/check-black.png
 [img4]: ../../../../../common/icons/reject-appointment-icon.png
-[img5]: ../../../../media/icons/recurring-booking-assignment.bmp
+[img5]: ../../../../media/icons/recurring-booking-assignment.png
 [img6]: ../../../../../common/icons/warning-red.png
 [img7]: ../../../../../common/icons/assignment-seen.png

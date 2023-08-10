@@ -51,4 +51,4 @@ Om du har två projekt som är nästan identiska är det nu möjligt att slå ih
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../../common/icons/info-ball.png
-[img2]: ../../../media/loc/en/project/merge-project.bmp
+[img2]: ../../../media/loc/en/project/merge-project.png

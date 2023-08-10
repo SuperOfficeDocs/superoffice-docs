@@ -79,4 +79,4 @@ Wenn Sie eine Einladung im Namen einer anderen Person manuell akzeptieren oder a
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.bmp
+[img3]: ../../../../media/icons/email-inactive.png

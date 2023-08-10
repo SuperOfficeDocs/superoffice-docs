@@ -77,8 +77,8 @@ Hvis et firma, en person eller et projekt har flere aktive statusser, vises stat
 
 <!-- Referenced images -->
 [img2]: ../../../../../../common/icons/az.png
-[img3]: ../../../../../media/icons/admin/visualize.bmp
-[img4]: ../../../../../media/icons/admin/red-x.bmp
+[img3]: ../../../../../media/icons/admin/visualize.png
+[img4]: ../../../../../media/icons/admin/red-x.png
 [img5]: ../../../../../media/icons/arrow-up.png
 [img6]: ../../../../../media/icons/arrow-down.png
 [img1]: ../../../../../media/loc/en/sale/admin-saint-company.png

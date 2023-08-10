@@ -34,5 +34,5 @@ Als u bijvoorbeeld alle documentsjablonen wilt zien die beschikbaar zijn in Supe
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img3]: ../../../media/loc/en/search-options/quicksearch-dialog.bmp
+[img3]: ../../../media/loc/en/search-options/quicksearch-dialog.png
 [img4]: ../../../media/loc/en/search-options/getstarted-document-fastsearcher.png

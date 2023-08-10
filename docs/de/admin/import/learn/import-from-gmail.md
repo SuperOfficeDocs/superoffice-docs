@@ -44,4 +44,4 @@ language: de
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/admin/import-gmail-small.bmp
+[img2]: ../../../../media/icons/admin/import-gmail-small.png

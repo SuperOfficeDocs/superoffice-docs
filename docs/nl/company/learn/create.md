@@ -96,5 +96,5 @@ Als u een bedrijf probeert in te voeren dat lijkt op een bedrijf dat al in Super
 [3]: ../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/company/new-company.bmp
-[img2]: ../../../media/loc/en/company/interests.bmp
+[img1]: ../../../media/loc/en/company/new-company.png
+[img2]: ../../../media/loc/en/company/interests.png

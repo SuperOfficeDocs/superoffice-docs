@@ -46,4 +46,4 @@ The icon in Import appears if user have WebTools for Mac installed and opening S
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/admin/import-outlook-small.bmp
+[img2]: ../../../../media/icons/admin/import-outlook-small.png

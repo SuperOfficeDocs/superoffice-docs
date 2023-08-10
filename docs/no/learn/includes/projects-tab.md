@@ -11,4 +11,4 @@ I kolonnene på detaljkortet **Prosjekt** finner du følgende informasjon:
 * Bruker-ID-en til den som opprettet prosjektet.
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
+[img1]: ../../../media/icons/binders.png

@@ -79,4 +79,4 @@ Om du manuellt vill tacka ja eller nej till en förfrågan för någon annans r�
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.bmp
+[img3]: ../../../../media/icons/email-inactive.png

@@ -51,5 +51,5 @@ Auf der Bereichsregisterkarte **Aktivitäten** werden die folgenden Spalten ange
 [6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/check.bmp
-[img2]: ../../../../media/icons/sale-sold-details.bmp
+[img1]: ../../../../media/icons/check.png
+[img2]: ../../../../media/icons/sale-sold-details.png

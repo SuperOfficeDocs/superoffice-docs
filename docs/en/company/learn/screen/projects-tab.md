@@ -33,4 +33,4 @@ Double-click a project in the list to open the Project screen with information a
 [2]: ../../../project/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/projects-detail.bmp
+[img1]: ../../../../media/loc/en/company/projects-detail.png

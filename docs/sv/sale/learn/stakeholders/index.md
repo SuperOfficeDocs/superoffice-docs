@@ -48,4 +48,4 @@ Du måste även ange inställningen **Visa intressenter** för inställningsgrup
 [7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.bmp
+[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.png

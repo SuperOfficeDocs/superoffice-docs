@@ -75,5 +75,5 @@ U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op ver
 [3]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png
 [img2]: ../../../../media/icons/arrow-right.png

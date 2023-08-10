@@ -26,4 +26,4 @@ Hvis du dobbeltklikker på en relasjonsrad, vises dialogboksen **Relasjon** med 
 [1]: ../add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png

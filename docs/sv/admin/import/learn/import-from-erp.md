@@ -59,4 +59,4 @@ Ovanför varje lista finns en länk till urvalet som innehåller de nya/uppdater
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.bmp
+[img1]: ../../../../media/icons/admin/import-erp-small.png

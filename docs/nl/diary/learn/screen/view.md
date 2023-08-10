@@ -44,5 +44,5 @@ Als u het tabblad **Weergave** in het scherm Agenda selecteert, wordt de ![picto
 [5]: ../invitation/add-participant.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/view.bmp
+[img1]: ../../../../media/loc/en/diary/view.png
 [img2]: ../../../../media/icons/btn-menu.png

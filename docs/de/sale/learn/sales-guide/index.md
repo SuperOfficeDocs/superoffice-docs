@@ -49,5 +49,5 @@ Sie können Dokumente und Aktivitäten in der Seitenleiste als **Vorschau** anze
 [4]: deactivate.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/sales-guide-first-meeting.bmp
+[img1]: ../../../../media/loc/en/sale/sales-guide-first-meeting.png
 [img2]: ../../../../media/loc/en/sale/setup-sales-guide.png

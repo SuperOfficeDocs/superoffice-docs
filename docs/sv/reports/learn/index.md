@@ -60,11 +60,11 @@ Fönstret **Rapporter** är en rapportgenerator med en uppsättning standardrapp
 [8]: delete-from-archive.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/reports/label.bmp
-[img2]: ../../../media/icons/reports/list.bmp
-[img3]: ../../../media/icons/reports/group-list.bmp
-[img4]: ../../../media/icons/reports/calendar.bmp
-[img5]: ../../../media/icons/reports/cross-table.bmp
-[img6]: ../../../media/icons/reports/text-export.bmp
+[img1]: ../../../media/icons/reports/label.png
+[img2]: ../../../media/icons/reports/list.png
+[img3]: ../../../media/icons/reports/group-list.png
+[img4]: ../../../media/icons/reports/calendar.png
+[img5]: ../../../media/icons/reports/cross-table.png
+[img6]: ../../../media/icons/reports/text-export.png
 [img7]: ../../../../common/icons/nav-reports.png
 [img8]: ../../../../common/icons/nav-dropdown-report.png

@@ -51,9 +51,9 @@ U moet deze statussen dan opnieuw genereren door te klikken op een van deze knop
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/status-inactive.bmp
+[img1]: ../../../../../media/icons/admin/status-inactive.png
 [img2]: ../../../../../media/icons/arrow-right.png
-[img3]: ../../../../../media/icons/admin/saint-counter-company-dis.bmp
-[img4]: ../../../../../media/icons/admin/saint-counter-project-dis.bmp
-[img5]: ../../../../../media/icons/admin/saint-counter-sale-disabled.bmp
-[img6]: ../../../../../media/icons/admin/red-x.bmp
+[img3]: ../../../../../media/icons/admin/saint-counter-company-dis.png
+[img4]: ../../../../../media/icons/admin/saint-counter-project-dis.png
+[img5]: ../../../../../media/icons/admin/saint-counter-sale-disabled.png
+[img6]: ../../../../../media/icons/admin/red-x.png

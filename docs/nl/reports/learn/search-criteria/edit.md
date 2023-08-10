@@ -69,5 +69,5 @@ Nu gaan we de criteria voor dit standaardrapport enigszins wijzigen, zodat u kun
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/arrow-right.png
 [img2]: ../../../../media/icons/arrow-left.png
-[img3]: ../../../../media/loc/en/reports/edit-criteria.bmp
-[img4]: ../../../../media/loc/en/reports/edit-criteria-2.bmp
+[img3]: ../../../../media/loc/en/reports/edit-criteria.png
+[img4]: ../../../../media/loc/en/reports/edit-criteria-2.png

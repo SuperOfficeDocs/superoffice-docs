@@ -107,4 +107,4 @@ Du måste koppla alla de obligatoriska SuperOffice-fälten till varsin kolumn f�
 [6]: import-from-erp.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-excel-small.bmp
+[img1]: ../../../../media/icons/admin/import-excel-small.png
