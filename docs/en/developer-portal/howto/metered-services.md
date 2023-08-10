@@ -8,7 +8,7 @@ keywords: metered services, API usage
 so.topic: howto
 so.envir: cloud
 so.client: online
-so.dp-version: 1.11
+so.version: 1.11
 ---
 
 # Check application usage (API calls)
@@ -23,11 +23,11 @@ The **app page** shows application usage for one specific application.
 [!include[Go to the app page](../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 
-2. Select **API Usage**.
+2. Select **API metrics**, then select **API Usage** tab.
 
-3. Select a time interval (days, weeks, or months).
+3. Select a time range interval (days, weeks, or months).
 
-4. Click through the environment specific tabs.
+4. Click through the environment specific buttons.
 <!-- markdownlint-restore -->
 
 ![API usage overview in SuperOffice developer portal -screenshot][img1]

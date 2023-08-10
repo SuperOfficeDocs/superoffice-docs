@@ -7,6 +7,8 @@ items:
     href: overview.md
   - name: Versioning
     href: versioning.md
+  - name: Messaging Center
+    href: message-center/index.md
   - name: Create a new app (registration)
     href: create-app/index.md
     items:
