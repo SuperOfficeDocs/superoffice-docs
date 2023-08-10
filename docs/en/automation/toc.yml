@@ -51,6 +51,8 @@ items:
       items:
       - name: Trigger scripts
         href: trigger/reference/CRMScript.Event.Trigger.yml
+  - name: Zapier
+    href: zapier/toc.yml
   - name: Webhook
     href: webhook/index.md
     expanded: true
@@ -115,5 +117,3 @@ items:
       href: netserver-scripting/reference/
   - name: Win script and event system
     href: windows/win-script-event-system.md
-  - name: Zapier
-    href: zapier/toc.yml

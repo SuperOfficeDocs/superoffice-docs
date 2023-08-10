@@ -1,15 +1,7 @@
-- name: Frontpage
+items:
+- name: Overview
   href: index.md
-  homepage: index.md
-- name: Triggers
-  dropdown: true
-  items:
-  - name: Index
-    href: triggers/index.md
-  - name: Supported Triggers
-    href: triggers/supported-triggers.md
 - name: Get started
-  dropdown: true
   items:
   - name: Index
     href: get-started/index.md
@@ -18,14 +10,12 @@
   - name: Set up account
     href: get-started/set-up-account.md
 - name: Finding/Updating
-  dropdown: true
   items:
   - name: Index
     href: finding/index.md
   - name: Find Company
     href: finding/find-company.md
 - name: Tips & Tricks
-  dropdown: true
   items:
   - name: Index
     href: tips/index.md
@@ -35,10 +25,11 @@
     href: tips/listsource.md
   - name: Formatting date and time
     href: tips/datetime.md
-- name: Commom problems
-  dropdown: true
+- name: Common problems
   items:
   - name: Index
     href: problems/index.md
   - name: Problems when pulling in data samples
     href: problems/data-samples.md
+- name: Triggers, actions, templates
+  href: reference.md
