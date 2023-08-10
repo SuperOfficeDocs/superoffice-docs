@@ -47,12 +47,12 @@ As the owner of the appointment, you will be notified if someone declines.
 
 You can confirm canceled recurring meetings quickly by swiping left and tapping the checkmark.
 
-![Mobile CRM cancel recurring meeting -mobile-screenshot][img3]
+![Mobile CRM cancel recurring meeting -app-screen][img3]
 
 ## Related content
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../media/invitation.png
+[img2]: media/invitation.png
 [img3]: ../../../../../release-notes/9.2/mobile/media/img388.jpg
