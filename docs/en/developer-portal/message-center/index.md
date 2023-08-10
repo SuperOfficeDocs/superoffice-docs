@@ -19,10 +19,10 @@ The Messaging Center is a communication channel for developer portal related sup
   * Application configuration.
   * AppStore information.
   * Partner page information.
-* Feedback submitted from the **Report a problem** feature in the AppStore.
+* Feedback submitted from the AppStore **Report a problem** link.
 * Support tickets created from the Failures details page.
 * Your emails sent to [appdev|appstore]@superoffice.com.
-  > [!WARNING]
+  > [!CAUTION]
   > A problem might occur if you use a different email address than the one used to sign in to the Developer Portal, or it is a duplicate in SuperOffice.
 * Notifications about developer portal changes.
 
@@ -45,11 +45,11 @@ The messages are organized into three categories:
 
 ## Using the messaging center
 
-The purpose of the messaging center is only to see and read what issues exist that involve you, as a Developer Portal user or partner, and support tickets related to your applications.
+The purpose of the messaging center is only to see and read existing issues that involve you, and support tickets related to your applications.
 
-When you click a ticket Id, this action opens a new browser tab to the SuperOffice Customer Center with that ticket id.
+When you click a ticket Id, a new browser tab navigates to the SuperOffice Customer Center with that ticket id.
 
-> [!NOTE]
+> [!WARNING]
 > You must be authenticated to immediately see the ticket in the SuperOffice Customer Center site, otherwise you will have to sign-in.
 
 ## Reply to a message
