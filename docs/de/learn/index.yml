@@ -219,7 +219,7 @@ conceptualContent:
       - text: E-Mail verfassen
         itemType: list
         typeDesc: how-to-guide
-        url: compose.md
+        url: ../email/learn/compose.md
       - text: Termin erstellen
         itemType: list
         typeDesc: how-to-guide
@@ -252,7 +252,7 @@ conceptualContent:
       - text: Vorlagenvariablen
         itemType: library_books
         typeDesc: reference
-        url: ../../../en/document/templates/variables/index.md
+        url: ../../en/document/templates/variables/index.md
 
     # Card
     - title: Anfragen

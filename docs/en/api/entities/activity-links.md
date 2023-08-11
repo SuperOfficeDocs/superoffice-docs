@@ -68,7 +68,7 @@ To summarize in diagram form:
 [4]: ../../database/tables/relationtarget.md
 
 <!-- Referenced images -->
-[img1]: ../../sale/saint/entity/media/sale-apt-link.png
+[img1]: ../../sale/howto/entity/media/sale-apt-link.png
 [img2]: media/links-appointment-record.png
 [img3]: media/links-relations.png
 [img4]: media/links-reldeflist.png

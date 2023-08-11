@@ -57,7 +57,7 @@ I fanen **Indstil felt** kan du angive, at der skal tilføjes en værdi til et e
 
 Vælg et felt i rullemenuen **Indstil ekstra felt** og indtast en værdi i feltet **Værdi**.
 
-## <a id="interest" />Interesse
+## <a id="interests" />Interesse
 
 Her kan du angive, at klik på links skal tilføje eller fjerne interesser til eller fra personen. Du kan for eksempel tilføje interessen "Produktnyheder", hvis modtageren klikker på linket "Ja tak! Jeg vil gerne vide mere om nye produkter". Alternativt kan du fjerne interessen "Produktnyheder", hvis brugeren klikker på linket "Afmeld mailingliste" i et nyhedsbrev.
 

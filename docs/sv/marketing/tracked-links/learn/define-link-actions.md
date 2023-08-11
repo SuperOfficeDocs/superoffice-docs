@@ -57,7 +57,7 @@ På fliken **Konfigurera fält** kan du ange att ett värde ska läggas till i e
 
 Välj ett fält i listrutan **Ange extrafält** och ange ett värde i fältet **Värde**.
 
-## <a id="interest" />Intressen
+## <a id="interests" />Intressen
 
 Här kan du ange att ett länkklick ska lägga till eller ta bort intressen för kontakten. Du kan t.ex. lägga till intresset "Produktnyheter" om mottagaren klickar på länken "Ja tack! Jag vill veta mer om nya produkter". Alternativt kan du ta bort intresset "Produktnyheter" om mottagaren klickar på länken "Avregistrera sig" i ett nyhetsbrev.
 

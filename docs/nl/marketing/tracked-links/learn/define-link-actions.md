@@ -57,7 +57,7 @@ Op het tabblad **Veld instellen** kunt u opgeven dat een waarde moet worden toeg
 
 Selecteer een veld in de keuzelijst **Extra veld instellen** en voer in het veld **Waarde** een waarde in.
 
-## <a id="interest" />Interesses
+## <a id="interests" />Interesses
 
 Hier kunt u opgeven dat bij het klikken op een link interesses voor de persoon moeten worden toegevoegd of verwijderd. U kunt bijvoorbeeld de interesse 'Productnieuws' toevoegen wanneer de ontvanger op de link 'Ja, houd me op de hoogte over nieuwe producten' klikt. U kunt er ook voor kiezen de interesse 'Productnieuws' te verwijderen wanneer de gebruiker in een nieuwsbrief op de link 'Uitschrijven' klikt.
 
