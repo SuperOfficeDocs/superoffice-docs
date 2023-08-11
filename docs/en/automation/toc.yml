@@ -32,8 +32,18 @@ items:
       href: event-model/mailbox-before-save.md
     - name: Saving a request
       href: event-model/saving-a-request.md
-  - name: Macro
-    href: macro/index.md
+  - name: NetServer Script Engine
+    href: netserver-scripting/index.md
+    expanded: true
+    items:
+    - name: Configuration
+      href: netserver-scripting/configure.md
+    - name: Basic scripting
+      href: netserver-scripting/basic-scripting.md
+    - name: Running scripts
+      href: netserver-scripting/run-scripts.md
+    - name: Reference
+      href: netserver-scripting/reference/
   - name: Trigger
     href: trigger/index.md
     expanded: true
@@ -51,8 +61,6 @@ items:
       items:
       - name: Trigger scripts
         href: trigger/reference/CRMScript.Event.Trigger.yml
-  - name: Zapier
-    href: zapier/toc.yml
   - name: Webhook
     href: webhook/index.md
     expanded: true
@@ -103,17 +111,7 @@ items:
       items:
       - name: Add msg to ticket with GitHub webhook
         href: webhook/tutorials/add-msg-to-ticket/index.md
-  - name: NetServer Script Engine
-    href: netserver-scripting/index.md
-    expanded: true
-    items:
-    - name: Configuration
-      href: netserver-scripting/configure.md
-    - name: Basic scripting
-      href: netserver-scripting/basic-scripting.md
-    - name: Running scripts
-      href: netserver-scripting/run-scripts.md
-    - name: Reference
-      href: netserver-scripting/reference/
   - name: Win script and event system
     href: windows/win-script-event-system.md
+  - name: Zapier
+    href: zapier/toc.yml

@@ -1,10 +1,10 @@
 ---
-uid: zapier-crm-tips-gdpr
+uid: zapier-gdpr
 title: How to maintain GDPR configuration
-description: Guide to maintaining GDPR configuration
+description: Guide to maintaining GDPR configuration in Zapier.
 author: Philip Yates
-so.date: 8.9.2023
-keywords: Zapier
+so.date: 08.09.2023
+keywords: Zapier, GDPR, consent, e-marketing
 so.topic: howto
 language: en
 so.client: Zapier
@@ -12,18 +12,19 @@ so.client: Zapier
 
 # How to maintain GDPR configuration
 
-![Create new contact information][img1]
+When you create new contacts in SuperOffice CRM, you can choose different options for the following [GDPR consent fields][1]:
 
-When you create new contacts in SuperOffice CRM, you can choose different options for the following GDPR consent fields:
+* Consent purpose name
+* Consent source
+* Consent comment
+* E-Marketing subscription types (with multi select, can add several subscription types)
 
-  * Consent purpose name
+If you do not provide a value for one or more of the consent fields, default values are used when a new contact is created.
 
-  * Consent source
+![Create new contact information -screenshot][img1]
 
-  * Consent comment
+<!-- Referenced links -->
+[1]: ../../../security/privacy/index.md
 
-  * E-Marketing subscription types (with multi select, can add several subscription types)
-
-If you do not add anything in these fields, the default values on **Consent purpose name**, **Consent source** and **Consent comment** (see the help text) will be set automatically when a new contact is created.
-
-[img1]:media/create-contact.png
+<!-- Referenced images -->
+[img1]: media/create-contact.png

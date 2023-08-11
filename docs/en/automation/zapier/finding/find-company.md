@@ -26,22 +26,15 @@ so.client: Zapier
 
     ![Search Criteria][img3]
 
-1. The fields to select from are:
+    The fields to select from are:
 
     * Company id
-
     * Company name
-
     * VAT No
-
     * Number
-
     * Code
-
     * E-mail
-
     * Telephone
-
     * Web site
 
 1. You need to select the most unique field you have in your trigger, and that is not hard, especially when you only can select one criterion, and not several.

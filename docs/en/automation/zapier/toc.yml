@@ -14,7 +14,7 @@ items:
     href: finding/index.md
   - name: Find Company
     href: finding/find-company.md
-- name: Tips & Tricks
+- name: How to...
   items:
   - name: Index
     href: tips/index.md
