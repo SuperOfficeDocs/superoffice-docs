@@ -57,7 +57,7 @@ Auf der Registerkarte **Feld festlegen** können Sie festlegen, dass einem Zusat
 
 Wählen Sie im Listenfeld **Zusatzfeld festlegen** ein Feld aus und geben im Feld **Wert** einen Wert ein.
 
-## <a id="interest" />Interessen
+## <a id="interests" />Interessen
 
 Hier können Sie festlegen, dass beim Klicken auf den Link Interessen für eine Person hinzugefügt oder entfernt werden sollen. Sie könnten beispielsweise das Interesse "Neuigkeiten zu Produkten" hinzufügen, wenn der Empfänger auf den Link "Ja, ich möchte über neue Produkte informiert werden" klickt. Alternativ könnten Sie das Interesse "Neuigkeiten zu Produkten" entfernen, wenn der Benutzer in einem Newsletter auf den Link "Abmelden" klickt.
 

@@ -66,7 +66,7 @@ Dafür erstellen Sie einen [Link, der das betroffene Interesse von den Empfänge
 <!-- Referenced links -->
 [1]: ../../../learn/edit-paragraph.md
 [2]: ../../../tracked-links/learn/examples.md
-[4]: ../../../tracked-links/learn/define-link-actions.md#interest
+[4]: ../../../tracked-links/learn/define-link-actions.md#interests
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/marketing-and-forms/link.png
