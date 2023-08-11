@@ -30,26 +30,25 @@ so.envir: cloud
 
 1. In the Developer Portal, go to your application page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
-3. Click **Add Images**.
-4. Drag and drop a file into the box or click to upload one from your computer.
-5. Enter alt text and select image type **HomePageAppIcon** or **DetailPageAppIcon**.
+3. In the `Home Page Icon` or `Detail Page Icon` circle, drag and drop a file into the circle or click to upload one from your computer.
+4. Enter alt text.
 
     ![Add HomePageAppIcon or DetailPageAppIcon -screenshot][img7]
 
-6. Click **Save Settings**.
+5. Click **Save Settings**.
 
 ## Screenshots
 
 We encourage you to include beautiful and meaningful screenshots from the application interface. They should have descriptive **file names** because they are displayed as captions.
 
 > [!TIP]
-> If you want screenshots shown in a specific order, add numbering to the file names.
+> If you want screenshots shown in a specific order, use the list item handle to reorder as desired.
 
 1. In the Developer Portal, go to your partner page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
 3. Click **Add Images**.
 4. Drag and drop a file into the box or click to upload one from your computer.
-5. Enter alt text and select image type **AppImage**.
+5. Enter alt text.
 
     ![App store information, images -screenshot][img2]
 
@@ -77,7 +76,7 @@ What the final result could be:
 1. In the Developer Portal, go to your application page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
 3. Click the **Add Videos** button.
-4. Enter alt text, and YouTube video ID.
+4. Enter alt text in the Description field, and YouTube video ID.
 5. Repeat steps 3 and 4 to add more videos.
 6. Click **Save Settings**.
 

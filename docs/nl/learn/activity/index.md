@@ -129,7 +129,7 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../diary/learn/phone-call/dial.md
-[12]: ../index.md
+[12]: ../index.yml
 [13]: ../../company/learn/screen/activities-tab.md
 [14]: ../../contact/learn/screen/activities-tab.md
 [15]: ../../project/learn/screen/activities-project.md
