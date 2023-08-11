@@ -49,5 +49,5 @@ The left-side Navigator contains the following buttons:
 [3]: ../../../learn/getting-started/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/status.bmp
+[img1]: ../../../../media/icons/admin/status.png
 [img2]: ../../../../../common/icons/nav-admin-import-active-h32.png

@@ -33,4 +33,4 @@ Dubbelklik op een project in de lijst om het scherm Project te openen met inform
 [2]: ../../../project/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/projects-detail.bmp
+[img1]: ../../../../media/loc/en/company/projects-detail.png

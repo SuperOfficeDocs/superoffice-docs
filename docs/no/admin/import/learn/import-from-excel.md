@@ -107,4 +107,4 @@ Du må koble alle de påkrevde SuperOffice-feltene til hver sin kolonne for å g
 [6]: import-from-erp.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-excel-small.bmp
+[img1]: ../../../../media/icons/admin/import-excel-small.png

@@ -94,7 +94,7 @@ When the import is complete, a list of the imported products are displayed. Abov
 [6]: import-from-erp.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-excel-small.bmp
+[img1]: ../../../../media/icons/admin/import-excel-small.png
 [img2]: ../../../../../common/icons/warning.png
-[img3]: ../../../../media/icons/admin/import-preview-icon-product-new.bmp
-[img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.bmp
+[img3]: ../../../../media/icons/admin/import-preview-icon-product-new.png
+[img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.png

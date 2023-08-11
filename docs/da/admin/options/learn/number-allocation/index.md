@@ -68,4 +68,4 @@ Tabellen nedenfor viser konsekvenserne af forskellige kombinationer af værdiern
 [3]: document-template-defaults.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.bmp
+[img1]: ../../../../../media/icons/admin/contact.png

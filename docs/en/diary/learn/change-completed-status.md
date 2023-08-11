@@ -37,7 +37,7 @@ When you consider that an activity is finished, you can mark it as completed.
 [2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.bmp
-[img2]: ../../../media/icons/sale-sold-details.bmp
-[img3]: ../../../media/loc/en/diary/completed-activity.bmp
-[img4]: ../../../media/loc/en/diary/completed-activity-2.bmp
+[img1]: ../../../media/icons/check.png
+[img2]: ../../../media/icons/sale-sold-details.png
+[img3]: ../../../media/loc/en/diary/completed-activity.png
+[img4]: ../../../media/loc/en/diary/completed-activity-2.png

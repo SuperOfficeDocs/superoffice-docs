@@ -59,4 +59,4 @@ Wenn der Import endet, werden zwei Listen angezeigt:
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.bmp
+[img1]: ../../../../media/icons/admin/import-erp-small.png

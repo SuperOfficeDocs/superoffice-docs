@@ -63,5 +63,5 @@ Markera de fält du vill justera och klicka på vänsterjustering (![ikon][img5]
 [img2]: ../../../../media/icons/arrow-left.png
 [img3]: ../../../../media/icons/arrow-up.png
 [img4]: ../../../../media/icons/arrow-down.png
-[img5]: ../../../../media/icons/admin/align-left.bmp
-[img6]: ../../../../media/icons/admin/align-right.bmp
+[img5]: ../../../../media/icons/admin/align-left.png
+[img6]: ../../../../media/icons/admin/align-right.png

@@ -39,5 +39,5 @@ If, for example, you want to see all the document templates available in SuperOf
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img3]: ../../../media/loc/en/search-options/quicksearch-dialog.bmp
+[img3]: ../../../media/loc/en/search-options/quicksearch-dialog.png
 [img4]: ../../../media/loc/en/search-options/getstarted-document-fastsearcher.png

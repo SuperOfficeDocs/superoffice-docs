@@ -54,5 +54,5 @@ Når du åbner en anden brugers eller ressources dagbog, kan du skifte mellem de
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/menu-arrow.png
-[img2]: ../../../media/icons/diary-owner-person.bmp
-[img3]: ../../../media/icons/diary-owner-resource.bmp
+[img2]: ../../../media/icons/diary-owner-person.png
+[img3]: ../../../media/icons/diary-owner-resource.png

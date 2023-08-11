@@ -16,5 +16,5 @@ I kolonnene på detaljkortet **Aktiviteter** finner du følgende informasjon:
 [1]: ../../diary/learn/change-completed-status.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.bmp
+[img1]: ../../../media/icons/check.png
 [img2]: ../../../../common/icons/phone.png

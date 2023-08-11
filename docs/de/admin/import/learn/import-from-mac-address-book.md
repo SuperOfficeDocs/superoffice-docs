@@ -47,4 +47,4 @@ Das Symbol in Importieren wird angezeigt, wenn der Benutzer WebTools für Mac in
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/admin/import-outlook-small.bmp
+[img2]: ../../../../media/icons/admin/import-outlook-small.png

@@ -59,4 +59,4 @@ Navnene på regioner i tidszonevælgeren vil altid være på engelsk, mens navne
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.bmp
+[img1]: ../../../media/icons/time-zone-local.png

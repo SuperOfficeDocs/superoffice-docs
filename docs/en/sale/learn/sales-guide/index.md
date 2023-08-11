@@ -49,5 +49,5 @@ You can preview documents and activities in the **Preview** view in the side pan
 [4]: deactivate.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/sales-guide-first-meeting.bmp
+[img1]: ../../../../media/loc/en/sale/sales-guide-first-meeting.png
 [img2]: ../../../../media/loc/en/sale/setup-sales-guide.png

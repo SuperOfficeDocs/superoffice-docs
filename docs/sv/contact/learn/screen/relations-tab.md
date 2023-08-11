@@ -26,4 +26,4 @@ Dubbelklicka på en relationsrad för att öppna dialogrutan **Relation**, som i
 [1]: ../add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png

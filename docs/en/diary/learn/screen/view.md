@@ -44,5 +44,5 @@ If you select the **View** tab in the Diary screen, the ![icon][img2] **Task** b
 [5]: ../invitation/add-participant.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/view.bmp
+[img1]: ../../../../media/loc/en/diary/view.png
 [img2]: ../../../../media/icons/btn-menu.png

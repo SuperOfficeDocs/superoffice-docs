@@ -33,5 +33,5 @@ Hvis du merker av for **Ta med interessenter** nederst i detaljkortet, vises ogs
 [4]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/sale-detail.bmp
+[img1]: ../../../../media/loc/en/company/sale-detail.png
 [img2]: ../../../../../common/icons/filter-icon.png

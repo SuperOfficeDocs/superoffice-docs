@@ -59,4 +59,4 @@ Over hver liste er der et link til udvalget, der indeholder de nye/opdaterede ak
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.bmp
+[img1]: ../../../../media/icons/admin/import-erp-small.png

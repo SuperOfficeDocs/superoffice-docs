@@ -44,7 +44,7 @@ Et hurtigsvar er en forhåndsdefinert tekst som du kan bruke i en e-postmelding.
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-history.png
-[img2]: ../../../../media/icons/binders.bmp
+[img2]: ../../../../media/icons/binders.png
 [img3]: ../../../../media/icons/window-close.png
 [img4]: ../../../../../common/icons/copy-paste-icon.png
 [img5]: ../../../../../common/icons/edit-black.png

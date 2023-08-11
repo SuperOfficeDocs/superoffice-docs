@@ -11,4 +11,4 @@ I kolumnerna på detaljkortet **Projekt** finns följande information:
 * Användar-ID för den som har skapat projektet.
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
+[img1]: ../../../media/icons/binders.png

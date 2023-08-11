@@ -75,5 +75,5 @@ Du kan legge til prosjektdeltakere og interessenter fra personoversiktene i ulik
 [3]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png
 [img2]: ../../../../media/icons/arrow-right.png

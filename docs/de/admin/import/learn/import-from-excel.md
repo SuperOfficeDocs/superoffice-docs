@@ -107,4 +107,4 @@ Sie müssen alle erforderlichen SuperOffice-Felder mit ihren jeweiligen Spalten 
 [6]: import-from-erp.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-excel-small.bmp
+[img1]: ../../../../media/icons/admin/import-excel-small.png

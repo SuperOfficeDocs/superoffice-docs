@@ -59,4 +59,4 @@ Durch Suchen nach einer bestimmten Zeitabweichung zur Ermittlung der Zeitzone: W
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.bmp
+[img1]: ../../../media/icons/time-zone-local.png

@@ -75,5 +75,5 @@ You can add project members and stakeholders from the contact lists in different
 [3]: ../../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png
 [img2]: ../../../../media/icons/arrow-right.png

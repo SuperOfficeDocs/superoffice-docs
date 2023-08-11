@@ -41,4 +41,4 @@ language: en
 [3]: delete-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
+[img1]: ../../../media/icons/binders.png

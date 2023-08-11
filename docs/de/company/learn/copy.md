@@ -43,4 +43,4 @@ In bestimmten Situationen ist es hilfreich, die Informationen einer bereits regi
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
-[img3]: ../../../media/loc/en/company/copy-company.bmp
+[img3]: ../../../media/loc/en/company/copy-company.png

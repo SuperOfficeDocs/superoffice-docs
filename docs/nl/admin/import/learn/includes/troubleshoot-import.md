@@ -14,4 +14,4 @@ Rijen zonder pictogrammen worden niet geïmporteerd. Als u constateert dat veel 
     5. Klik op **Volgende** en controleer of het [Pictogram nieuw bedrijf][img1] pictogram wordt weergegeven naast de persoon. De persoon wordt geregistreerd als een bedrijf in SuperOffice CRM met zichzelf als enige persoon.
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/import-preview-icon-company-new.bmp
+[img1]: ../../../../../media/icons/admin/import-preview-icon-company-new.png

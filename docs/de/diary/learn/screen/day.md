@@ -21,4 +21,4 @@ Wenn [Zeitzonen][1] aktiviert sind, können Sie die Zeitzone in der unteren link
 [1]: ../../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/diary/day-plan.bmp
+[img1]: ../../../../media/loc/en/diary/day-plan.png

@@ -45,4 +45,4 @@ Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpass
 [8]: ../../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/project/project-guide-create.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.png

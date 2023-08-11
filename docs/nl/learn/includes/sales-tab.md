@@ -14,4 +14,4 @@ De kolommen op het sectietabblad **Verkoop** bevatten de volgende informatie:
 * ERP-korting (als SuperOffice is gekoppeld met een ERP-systeem)
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.bmp
+[img1]: ../../../media/icons/check.png

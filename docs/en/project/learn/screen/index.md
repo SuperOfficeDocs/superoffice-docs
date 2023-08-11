@@ -45,4 +45,4 @@ Your administrator can [add and customize project guides][3] for you.
 [8]: ../../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/project/project-guide-create.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.png

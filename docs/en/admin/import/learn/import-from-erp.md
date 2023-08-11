@@ -59,4 +59,4 @@ Above each list is a link to the selection containing the new/updated actors.
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.bmp
+[img1]: ../../../../media/icons/admin/import-erp-small.png

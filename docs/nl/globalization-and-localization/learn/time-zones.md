@@ -59,4 +59,4 @@ Gebruik het veld bovenaan met het geselecteerde land en de vlag als zoekveld. U 
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.bmp
+[img1]: ../../../media/icons/time-zone-local.png

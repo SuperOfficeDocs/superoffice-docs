@@ -64,6 +64,6 @@ Die zweite Spalte enthält Symbole, die die Art der Aktivität näher bezeichnen
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/project/project-activities.bmp
-[img2]: ../../../../media/icons/check.bmp
-[img3]: ../../../../media/icons/sale-sold-details.bmp
+[img1]: ../../../../media/loc/en/project/project-activities.png
+[img2]: ../../../../media/icons/check.png
+[img3]: ../../../../media/icons/sale-sold-details.png

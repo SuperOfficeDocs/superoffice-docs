@@ -101,4 +101,4 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 [img7]: ../../../../../common/icons/search-icon-black.png
 [img3]: ../../../../../common/icons/plus-black.png
 [img8]: ../../../../media/loc/en/learn/find.png
-[img9]: ../../../../media/superoffice-logo.bmp
+[img9]: ../../../../media/superoffice-logo.png

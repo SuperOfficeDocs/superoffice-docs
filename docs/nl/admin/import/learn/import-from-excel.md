@@ -107,4 +107,4 @@ U moet alle verplichte SuperOffice-velden aan de bijbehorende kolommen koppelen 
 [6]: import-from-erp.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-excel-small.bmp
+[img1]: ../../../../media/icons/admin/import-excel-small.png
