@@ -28,16 +28,18 @@ This procedure is intended for a live system. If you want to debug mirroring in 
 ## Restart synchronization
 
 1. Using **SQL Server Management Studio**, go to the `<context identifier>_mirroring` database table
-2. For each table that you have identified as having a problem, **set LSN  to `-1`** within the mirroring table. 
-3. Then truncate the data in the table(s) you set LSN to -1 **truncate table <tablename>**
-4. Shortly thereafter, the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will begin to deliver periodic updates to your mirroring service.
+1. For each table that you have identified as having a problem, **set LSN  to `-1`** within the mirroring table.
+<!-- markdownlint-disable-next-line MD033 -->
+1. Then truncate the data in the table(s) you set LSN to -1 **truncate table <tablename>**
+1. Shortly thereafter, the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will begin to deliver periodic updates to your mirroring service.
 
 ## Hard reset the mirror
 
 1. Using **SQL Server Management Studio**, go to the `<context identifier>_mirroring` database table.
-2. For each table you have identified as having problems, let us use contact in this example: **delete from <context_identifier>_mirroring where tablename = 'contact'**
-3. Then **drop table contact**
-4. Shortly thereafter (the next mirroring cycle), the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will recreate the database table(s) and begin to deliver periodic updates to your mirroring service.
+  <!-- markdownlint-disable-next-line MD033 -->
+1. For each table you have identified as having problems, let us use contact in this example: **delete from <context_identifier>_mirroring where tablename = 'contact'**
+1. Then **drop table contact**
+1. Shortly thereafter (the next mirroring cycle), the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will recreate the database table(s) and begin to deliver periodic updates to your mirroring service.
 
 <!-- Referenced links -->
 [1]: getting-started/sync-manually.md

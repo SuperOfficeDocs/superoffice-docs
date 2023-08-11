@@ -9,7 +9,7 @@ so.topic: help
 language: nl
 ---
 
-# Iitems toevoegen in vooraf gedefinieerde en door gebruikers gedefinieerde lijsten
+# Items toevoegen in vooraf gedefinieerde en door gebruikers gedefinieerde lijsten
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
