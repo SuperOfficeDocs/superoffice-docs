@@ -28,8 +28,8 @@ This procedure is intended for a live system. If you want to debug mirroring in 
 ## Restart synchronization
 
 1. Using **SQL Server Management Studio**, go to the `<context identifier>_mirroring` database table
-2. For each table that you have identified as having a problem, **set LSN  to `-1`** within the mirroring table. 
-3. Then truncate the data in the table(s) you set LSN to -1 **truncate table <tablename>**
+2. For each table that you have identified as having a problem, **set LSN  to `-1`** within the mirroring table.
+3. Then truncate the data in the table(s) you set LSN to -1 `truncate table <tablename>`
 4. Shortly thereafter, the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will begin to deliver periodic updates to your mirroring service.
 
 ## Hard reset the mirror
