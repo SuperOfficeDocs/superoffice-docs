@@ -33,4 +33,4 @@ Dobbeltklik på et projekt på listen for at åbne skærmbilledet Projekt med op
 [2]: ../../../project/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/projects-detail.bmp
+[img1]: ../../../../media/loc/en/company/projects-detail.png

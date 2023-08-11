@@ -65,4 +65,4 @@ Het onderste deel van het scherm bestaat uit de volgende [standaardsectietabblad
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/company/company-month-mini.bmp
+[img3]: ../../../media/loc/en/company/company-month-mini.png

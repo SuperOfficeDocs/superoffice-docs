@@ -107,4 +107,4 @@ Du skal knytte alle de påkrævede SuperOffice-felter til hver sin kolonne for a
 [6]: import-from-erp.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-excel-small.bmp
+[img1]: ../../../../media/icons/admin/import-excel-small.png

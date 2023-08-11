@@ -68,4 +68,4 @@ Tabellen nedan visar resultaten av olika kombinationer av värdena **Tilldela** 
 [3]: document-template-defaults.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.bmp
+[img1]: ../../../../../media/icons/admin/contact.png

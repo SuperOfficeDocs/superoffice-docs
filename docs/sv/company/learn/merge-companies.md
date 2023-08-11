@@ -68,6 +68,6 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/info-ball.png
 [img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../media/loc/en/company/merge-companies.bmp
+[img4]: ../../../media/loc/en/company/merge-companies.png
 [img5]: ../../../media/loc/en/company/company-merge.png
 [img6]: ../../../media/loc/en/company/company-merge-info.png

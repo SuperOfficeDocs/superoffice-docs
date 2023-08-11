@@ -137,6 +137,6 @@ You can delete activities from any screen where they are displayed:
 [17]: ../section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.bmp
+[img1]: ../../../media/icons/check.png
 [img2]: ../../../../common/icons/plus-black.png
-[img3]: ../../../media/loc/en/diary/activities-detail.bmp
+[img3]: ../../../media/loc/en/diary/activities-detail.png

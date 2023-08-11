@@ -62,6 +62,6 @@ language: de
 [3]: ../../../contact/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.bmp
+[img3]: ../../../../media/loc/en/sale/chap7-add-stakeholders.png

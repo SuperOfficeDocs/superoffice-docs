@@ -43,4 +43,4 @@ language: nl
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img2]: ../../../../media/icons/admin/import-outlook-small.bmp
+[img2]: ../../../../media/icons/admin/import-outlook-small.png

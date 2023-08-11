@@ -77,12 +77,12 @@ Lagring av rapporter som filer fungerer litt annerledes med rapporttypen kryssta
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu.png
-[img2]: ../../../media/icons/reports/list-box.bmp
-[img3]: ../../../media/icons/reports/black-x-2.bmp
-[img4]: ../../../media/icons/reports/plus.bmp
-[img5]: ../../../media/icons/reports/minus.bmp
-[img6]: ../../../media/icons/reports/asterisk.bmp
-[img7]: ../../../media/icons/reports/check.bmp
-[img8]: ../../../media/icons/reports/black-x.bmp
-[img9]: ../../../media/icons/reports/arrows-plus.bmp
-[img10]: ../../../media/icons/reports/arrows-split-green.bmp
+[img2]: ../../../media/icons/reports/list-box.png
+[img3]: ../../../media/icons/reports/black-x-2.png
+[img4]: ../../../media/icons/reports/plus.png
+[img5]: ../../../media/icons/reports/minus.png
+[img6]: ../../../media/icons/reports/asterisk.png
+[img7]: ../../../media/icons/reports/check.png
+[img8]: ../../../media/icons/reports/black-x.png
+[img9]: ../../../media/icons/reports/arrows-plus.png
+[img10]: ../../../media/icons/reports/arrows-split-green.png

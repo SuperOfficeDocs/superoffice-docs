@@ -36,5 +36,5 @@ Hvis du dobbeltklikker på en relasjonsrad, vises dialogboksen **Relasjon** med 
 [2]: ../delete-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
-[img2]: ../../../../media/loc/en/company/relations-detail.bmp
+[img1]: ../../../../media/icons/binders.png
+[img2]: ../../../../media/loc/en/company/relations-detail.png

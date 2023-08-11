@@ -14,4 +14,4 @@ Følgende oplysninger vises i kolonnerne på detaljekortet **Salg**:
 * ERP-rabat (hvis SuperOffice er knyttet til et ERP-system)
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.bmp
+[img1]: ../../../media/icons/check.png

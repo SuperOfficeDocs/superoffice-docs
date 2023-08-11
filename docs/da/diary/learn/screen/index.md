@@ -72,7 +72,7 @@ Skærmbilledet Dagbog indeholder følgende detaljekort:
 [13]: ../index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/recurring-booking-assignment.bmp
+[img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
 [img4]: ../../../../../common/icons/diary-alarm.png

@@ -59,4 +59,4 @@ Ved å søke på antall timer for å finne riktig tidssone. Hvis du for eksempel
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.bmp
+[img1]: ../../../media/icons/time-zone-local.png

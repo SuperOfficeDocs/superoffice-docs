@@ -42,4 +42,4 @@ Prosjektguiden defineres i Innstillinger og vedlikehold.
 [6]: deactivate.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/project/project-guide-create.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.png

@@ -107,4 +107,4 @@ You must link all the required SuperOffice fields to their respective columns to
 [6]: import-from-erp.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-excel-small.bmp
+[img1]: ../../../../media/icons/admin/import-excel-small.png

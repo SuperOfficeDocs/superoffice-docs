@@ -59,4 +59,4 @@ Over hver liste er det en kobling til utvalget med de nye/endrede aktørene.
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.bmp
+[img1]: ../../../../media/icons/admin/import-erp-small.png

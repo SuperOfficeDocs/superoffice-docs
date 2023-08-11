@@ -26,4 +26,4 @@ Dobbeltklik på en relationsrække for at åbne dialogboksen **Relation**, der v
 [1]: ../add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png

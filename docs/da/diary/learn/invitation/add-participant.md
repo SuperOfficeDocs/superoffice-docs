@@ -79,4 +79,4 @@ Hvis du vil acceptere eller afvise en invitation på vegne af en anden, skal du 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png
 [img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../media/icons/email-inactive.bmp
+[img3]: ../../../../media/icons/email-inactive.png

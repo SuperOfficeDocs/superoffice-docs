@@ -40,5 +40,5 @@ Navigatorens hurtigsøk utfører to parallelle søk.
 [2]: ../../../en/api/osql/soundx.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/search-options/quicksearch-company.bmp
-[img2]: ../../../media/loc/en/search-options/quicksearch-sale.bmp
+[img1]: ../../../media/loc/en/search-options/quicksearch-company.png
+[img2]: ../../../media/loc/en/search-options/quicksearch-sale.png

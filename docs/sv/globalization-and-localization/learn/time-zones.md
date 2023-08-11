@@ -59,4 +59,4 @@ Du kan söka på antal timmar och hitta rätt tidszon. Om du till exempel skrive
 [3]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.bmp
+[img1]: ../../../media/icons/time-zone-local.png

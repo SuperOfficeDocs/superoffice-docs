@@ -14,4 +14,4 @@ Rader uten ikon blir ikke importert. Hvis du ser at mange personer ikke blir imp
     5. Klikk på **Neste**, og kontroller at [Nytt firma-ikonet][img1] vises ved siden av personen. Personen er registrert som et firma i SuperOffice CRM med seg selv som eneste person.
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/import-preview-icon-company-new.bmp
+[img1]: ../../../../../media/icons/admin/import-preview-icon-company-new.png

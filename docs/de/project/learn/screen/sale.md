@@ -41,7 +41,7 @@ Wenn Sie auf einen Verkauf in der Liste doppelklicken, wird der Verkauf geöffne
 [3]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/sale-sold-details.bmp
-[img2]: ../../../../media/icons/check.bmp
-[img3]: ../../../../media/icons/sale-lost-details.bmp
+[img1]: ../../../../media/icons/sale-sold-details.png
+[img2]: ../../../../media/icons/check.png
+[img3]: ../../../../media/icons/sale-lost-details.png
 [img4]: ../../../../../common/icons/salestalled.png

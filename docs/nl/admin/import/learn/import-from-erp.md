@@ -59,4 +59,4 @@ Boven elke lijst wordt een koppeling weergegeven naar de selectie met de nieuwe/
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.bmp
+[img1]: ../../../../media/icons/admin/import-erp-small.png

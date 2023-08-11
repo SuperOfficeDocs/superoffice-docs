@@ -61,11 +61,11 @@ Wenn Sie dem Verkauf den Status **Verkauft** oder **Verloren** zuweisen, können
 [3]: ../../admin/lists/learn/sale-stage.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/icons/sale-sold.bmp
-[img1]: ../../../media/icons/sale-postponed.bmp
-[img2]: ../../../media/icons/sale-lost.bmp
+[img7]: ../../../media/icons/sale-sold.png
+[img1]: ../../../media/icons/sale-postponed.png
+[img2]: ../../../media/icons/sale-lost.png
 [img3]: ../../../../common/icons/nav-sale-h32.png
-[img4]: ../../../media/loc/en/sale/72-chap7-sale-open.bmp
-[img5]: ../../../media/loc/en/sale/73-chap7-sale-stalled.bmp
-[img6]: ../../../media/loc/en/sale/74-chap7-sale-lost.bmp
-[img8]: ../../../media/loc/en/sale/75-chap7-sale-sold.bmp
+[img4]: ../../../media/loc/en/sale/72-chap7-sale-open.png
+[img5]: ../../../media/loc/en/sale/73-chap7-sale-stalled.png
+[img6]: ../../../media/loc/en/sale/74-chap7-sale-lost.png
+[img8]: ../../../media/loc/en/sale/75-chap7-sale-sold.png

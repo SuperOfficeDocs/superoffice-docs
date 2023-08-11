@@ -71,6 +71,6 @@ Deze personen worden dan weergegeven in een andere kleur. Zij worden ook op deze
 [8]: ../../../learn/section-tabs/configure-columns.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/company/contacts-detail.bmp
-[img2]: ../../../../media/icons/pin.bmp
-[img3]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/loc/en/company/contacts-detail.png
+[img2]: ../../../../media/icons/pin.png
+[img3]: ../../../../media/icons/binders.png

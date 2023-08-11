@@ -48,4 +48,4 @@ You must also set the **Enable Stakeholders** preference in the **Sale** prefere
 [7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.bmp
+[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.png

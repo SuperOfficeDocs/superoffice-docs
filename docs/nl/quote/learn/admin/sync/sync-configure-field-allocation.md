@@ -70,8 +70,8 @@ Als u lijsten hebt toegewezen (bijvoorbeeld categorie), moet u ook [de afzonderl
 [1]: sync-configure-list-mapping.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/sync-none.bmp
-[img2]: ../../../../../media/icons/admin/sync-2-way.bmp
-[img3]: ../../../../../media/icons/admin/sync-to-erp.bmp
-[img4]: ../../../../../media/icons/admin/sync-to-so.bmp
-[img5]: ../../../../../media/icons/admin/sync-deactivated.bmp
+[img1]: ../../../../../media/icons/admin/sync-none.png
+[img2]: ../../../../../media/icons/admin/sync-2-way.png
+[img3]: ../../../../../media/icons/admin/sync-to-erp.png
+[img4]: ../../../../../media/icons/admin/sync-to-so.png
+[img5]: ../../../../../media/icons/admin/sync-deactivated.png

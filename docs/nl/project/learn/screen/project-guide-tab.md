@@ -44,9 +44,9 @@ Nadat een vervolgactiviteit of document is gemaakt, kunt u deze/dit verwijderen 
 [1]: ../project-guide/working-with.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/project/guide-completed-status.bmp
-[img2]: ../../../../media/loc/en/project/guide-current-status.bmp
-[img3]: ../../../../media/loc/en/project/guide-future-status.bmp
-[img5]: ../../../../media/loc/en/project/project-guide-create.bmp
-[img6]: ../../../../media/loc/en/project/project-guide-right-click.bmp
-[img7]: ../../../../media/icons/milestone-icon.bmp
+[img1]: ../../../../media/loc/en/project/guide-completed-status.png
+[img2]: ../../../../media/loc/en/project/guide-current-status.png
+[img3]: ../../../../media/loc/en/project/guide-future-status.png
+[img5]: ../../../../media/loc/en/project/project-guide-create.png
+[img6]: ../../../../media/loc/en/project/project-guide-right-click.png
+[img7]: ../../../../media/icons/milestone-icon.png

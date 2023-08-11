@@ -26,4 +26,4 @@ Doppelklicken Sie auf eine Beziehungszeile, um das Dialogfeld **Beziehung** zu Ã
 [1]: ../add-relation.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.bmp
+[img1]: ../../../../media/icons/binders.png

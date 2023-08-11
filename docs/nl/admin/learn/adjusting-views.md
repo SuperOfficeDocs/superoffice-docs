@@ -62,6 +62,6 @@ U kunt selecteren welke kolommen in de lijsten worden weergegeven, en in welke v
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png
 [img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/admin/resize-horizontal.bmp
+[img3]: ../../../media/icons/admin/resize-horizontal.png
 [img4]: ../../../media/icons/arrow-up.png
 [img5]: ../../../media/icons/arrow-down.png

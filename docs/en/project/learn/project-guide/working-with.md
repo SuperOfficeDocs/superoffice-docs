@@ -171,5 +171,5 @@ After all the required follow-ups and documents for the project are completed, y
 [4]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/project/project-guide-create.bmp
-[img2]: ../../../../media/loc/en/project/project-guide-right-click.bmp
+[img1]: ../../../../media/loc/en/project/project-guide-create.png
+[img2]: ../../../../media/loc/en/project/project-guide-right-click.png

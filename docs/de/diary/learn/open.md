@@ -54,5 +54,5 @@ Wenn Sie den Kalender eines anderen Benutzers bzw. einer anderen Ressource öffn
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/menu-arrow.png
-[img2]: ../../../media/icons/diary-owner-person.bmp
-[img3]: ../../../media/icons/diary-owner-resource.bmp
+[img2]: ../../../media/icons/diary-owner-person.png
+[img3]: ../../../media/icons/diary-owner-resource.png

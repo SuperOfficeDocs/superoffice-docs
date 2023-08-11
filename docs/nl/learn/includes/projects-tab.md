@@ -11,4 +11,4 @@ De kolommen op het sectietabblad **Project** bevatten de volgende gegevens:
 * De gebruikers-ID van de persoon die het project heeft gemaakt.
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/binders.bmp
+[img1]: ../../../media/icons/binders.png
