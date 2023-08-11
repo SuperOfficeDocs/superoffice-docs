@@ -143,7 +143,7 @@ landingContent:
         - text: Webhooks - project member events
           url: ../automation/webhook/reference/project-member-events.md
         - text: Zapier
-          url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+          url: ../automation/zapier/index.md
 
   - title: CRMScript
     linkLists:
