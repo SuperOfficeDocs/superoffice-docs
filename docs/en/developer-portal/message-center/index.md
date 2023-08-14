@@ -65,4 +65,4 @@ To reply to a message, you must either:
 <!-- Reference Links -->
 
 [img1]: media/messaging-center-icon.png "Messaging Center"
-[img2]: media/messaging-center-layout.png "Messaging Center screen"
+[img2]: media/messaging-center-layout-user.png "Messaging Center screen"
