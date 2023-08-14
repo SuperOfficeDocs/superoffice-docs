@@ -51,8 +51,6 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-          - text: Sync manually (debug)
-            url: getting-started/sync-manually.md
           - text: Force re-synchronization
             url: force-resync.md
 

@@ -23,8 +23,6 @@ items:
   items:
   - name: Create WFC
     href: getting-started/create-wfc.md
-  - name: Sync manually (debug)
-    href: getting-started/sync-manually.md
   - name: IMirrorClientService interface
     href: getting-started/i-mirror-client-service.md
 - name: How to force resync
