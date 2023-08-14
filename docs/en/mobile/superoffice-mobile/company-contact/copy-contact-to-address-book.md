@@ -18,12 +18,12 @@ so.client: mobile
 3. Make sure the **Details** tab is selected.
 4. Tap the **Task** icon and select **Copy to contact list on your device**.
 
-    ![Mobile CRM: Copy to contact list -screenshot][img1]
+    ![Mobile CRM: Copy to contact list -app-screen][img1]
 
     > [!NOTE]
     > You need to allow the app to access your contacts the first time you do this.
 
-    [Mobile CRM: allow the app to access your contacts -screenshot][img2]
+    ![Mobile CRM: allow the app to access your contacts -app-screen][img2]
 
 5. When the contact is successfully copied to your local address book (in the account specified under Phone contact accounts), you will receive a notification on the screen of your device. Click **OK** to finish.
 
@@ -35,5 +35,5 @@ so.client: mobile
 [1]: ../getting-started/set-up-email.md
 
 <!-- Referenced images -->
-[img1]: ../media/copy-contacts.jpg
-[img2]: ../media/allow-access-to-contacts.png
+[img1]: media/copy-contacts.jpg
+[img2]: media/allow-access-to-contacts.png

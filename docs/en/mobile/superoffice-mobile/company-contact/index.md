@@ -21,7 +21,7 @@ From Company/contact, you have access to all companies and personal contacts wit
 ## Tabs in the main Company/contact screen
 
 | Icon | Tab | Description |
-|---|---|---|
+|:-:|---|---|
 | ![icon][img3] | Search | Search field and history list |
 | ![icon][img2] | Favorites | Contacts marked as a favorite (yellow star) |
 | ![icon][img16] | Group | A list of associates divided into groups, such as marketing and IT. |
@@ -42,7 +42,7 @@ Icons in the action bar: New appointment, Call, Go to website, Show location (ma
 **Tabs:**
 
 | Icon | Tab | Description |
-|---|---|---|
+|:-:|---|---|
 | ![icon][img11] | Details | Basic information about the company, such as name, phone number and email address. |
 | ![icon][img16] | Persons|  A list of all contacts linked to this company. |
 | ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the company. |
@@ -66,7 +66,7 @@ Icons in the action bar: New appointment, Call, Send SMS, Show location (map)
 **Tabs:**
 
 | Icon | Tab | Description |
-|---|---|---|
+|:-:|---|---|
 | ![icon][img11] | Details | Basic information about the person, such as name, phone number, and email address. |
 | ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the contact. |
 | ![icon][img12] | Documents |  Documents and emails linked to the contact. |
@@ -101,20 +101,20 @@ When viewing a company:
 * [Create contact][1]
 * [Update contact][2]
 * [Copy contacts to local address book][3]
-* [Send email or SMS][4]
-* [Show address in map][5]
+* [Send email or SMS][5]
+* [Show address in map][4]
 * [Create appointment][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: update.md
-[3]: ../howto/copy-contact-to-address-book.md
-[4]: ../howto/send-email-sms.md
-[5]: ../howto/show-address-in-map.md
+[3]: copy-contact-to-address-book.md
+[4]: show-address-in-map.md
+[5]: ../send-email-sms.md
 [6]: ../diary/create-appointment.md
 
 <!-- Referenced images -->
-[img1]: ../media/contact-card.png
+[img1]: media/contact-card.png
 [img2]: ../../../../../common/icons/mobile/star-h32.png
 [img3]: ../../../../../common/icons/mobile/search-h32.png
 [img6]: ../../../../../common/icons/mobile/activities-h32.png

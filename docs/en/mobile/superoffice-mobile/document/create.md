@@ -4,7 +4,7 @@ title: Create document
 description: How to create a document in SuperOffice Mobile CRM.
 author: Bergfrid Dias
 so.date: 08.07.2023
-keywords: mobile, document
+keywords: mobile, document, image, SharePoint
 so.topic: howto
 language: en
 so.version: 10
@@ -15,7 +15,7 @@ so.client: mobile
 
 You have limited functionality for creating documents inside the app. SharePoint documents offer the most flexibility.
 
-The steps below assume you are in the **Documents** tab of a company, contact, sale, or project.
+The steps below assume you are in the **Document** tab of a company, contact, sale, or project.
 
 ## Create SharePoint document
 
@@ -55,6 +55,9 @@ The steps below assume you are in the **Documents** tab of a company, contact, s
     > If you do not see a particular image, check the image permissions for SuperOffice on your device.
 
 4. Enter a title. Set other document properties as needed.
+
+    ![Mobile CRM: save image -app-screen][img3]
+
 5. Tap **Create**
 
 ## Related content
@@ -66,8 +69,9 @@ The steps below assume you are in the **Documents** tab of a company, contact, s
 <!-- Referenced links -->
 [1]: update.md
 [2]: ../diary/create-appointment.md
-[3]: ../howto/send-email-sms.md
+[3]: ../send-email-sms.md
 
 <!-- Referenced images -->
+[img3]: save-image.jpg
 [img6]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-menu.png
 [img7]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-create.png

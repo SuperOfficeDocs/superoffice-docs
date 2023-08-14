@@ -44,12 +44,12 @@ so.client: mobile
 * [Request notifications][2]
 
 <!-- Referenced links -->
-[1]: ../settings.md#notifications
-[2]: ../request/index.md#notifications
+[1]: settings.md#notifications
+[2]: request/index.md#notifications
 
 <!-- Referenced images -->
-[img1]: ../media/task-settings.png
-[img2]: ../media/settings-notifications.png
-[img3]: ../media/add-exception.png
-[img4]: ../media/add-exception-private.png
-[img5]: ../media/add-exception-save.png
+[img1]: media/task-settings.png
+[img2]: media/settings-notifications.png
+[img3]: media/add-exception.png
+[img4]: media/add-exception-private.png
+[img5]: media/add-exception-save.png

@@ -112,12 +112,12 @@ Saved emails also appear in the **Documents** tab.
 [1]: create.md
 [2]: update.md
 [3]: ../getting-started/set-up-email.md
-[4]: ../howto/send-email-sms.md
+[4]: ../send-email-sms.md
 
 <!-- Referenced images -->
-[img1]: ../media/document-tab.png
-[img2]: ../media/android-download-document.png
-[img5]: ../media/task-menu-document.png
+[img1]: media/document-tab.png
+[img2]: media/android-download-document.png
+[img5]: media/task-menu-document.png
 [img8]: ../../../../../common/icons/mobile/document-share.png
 [img9]: ../../../../../common/icons/mobile/email-ikon.png
 [img10]: ../../../../../common/icons/mobile/document-preview.png

@@ -92,15 +92,15 @@ The message pops up when your email account is not configured in SuperOffice CRM
 * [Connect an email client to SuperOffice CRM][2]
 
 <!-- Referenced links -->
-[1]: ../getting-started/set-up-email.md
-[2]: ../../../../en/learn/getting-started/connect-email-doc/index.md
+[1]: getting-started/set-up-email.md
+[2]: ../../../en/learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
-[img1]: ../media/send-email-contact.png
-[img2]: ../media/sms-settings.png
-[img3]: ../media/send-email-search.png
-[img4]: ../media/send-email-appointment.png
-[img5]: ../media/send-email-project.png
-[img6]: ../media/no-email-account.png
-[img7]: ../media/system-email-application.png
-[img8]: ../../../../../common/icons/mobile/email-ikon.png
+[img1]: media/send-email-contact.png
+[img2]: media/sms-settings.png
+[img3]: media/send-email-search.png
+[img4]: media/send-email-appointment.png
+[img5]: media/send-email-project.png
+[img6]: media/no-email-account.png
+[img7]: media/system-email-application.png
+[img8]: ../../../../common/icons/mobile/email-ikon.png

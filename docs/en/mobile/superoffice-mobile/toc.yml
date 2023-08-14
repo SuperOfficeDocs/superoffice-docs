@@ -24,9 +24,11 @@ items:
   - name: Update
     href: company-contact/update.md
   - name: Scan a business card
-    href: scan-business-card.md
+    href: company-contact/scan-business-card.md
   - name: Copy contacts to address book
-    href: howto/copy-contact-to-address-book.md
+    href: company-contact/copy-contact-to-address-book.md
+  - name: Show address in map
+    href: company-contact/show-address-in-map.md
 - name: Diary
   topicHref: diary/index.md
   items:
@@ -39,7 +41,7 @@ items:
   - name: Invitations
     href: diary/invitations.md
   - name: Join video meeting
-    href: howto/join-video-meeting.md
+    href: diary/join-video-meeting.md
 - name: Sale
   topicHref: sale/index.md
   items:
@@ -78,8 +80,6 @@ items:
     href: dashboard/index.md
   - name: Drill down
     href: dashboard/drill-down.md
-- name: Manage notifications
-  href: howto/manage-notifications.md
 - name: Documents
   topicHref: document/index.md
   items:
@@ -90,13 +90,11 @@ items:
   - name: Update document
     href: document/update.md
 - name: Send email or SMS
-  href: howto/send-email-sms.md
-- name: Archive an image
-  href: howto/archive-image.md
-- name: Show address in map
-  href: howto/show-address-in-map.md
+  href: send-email-sms.md
 - name: Settings
   href: settings.md
+- name: Manage notifications
+  href: manage-notifications.md
 - name: Customizing the app
   href: customization.md
 - name: Client requirements

@@ -105,7 +105,7 @@ It can be useful to check whether the persons you want to invite are free on the
 [1]: create-appointment.md
 [2]: update-appointment.md
 [3]: invitations.md
-[4]: ../howto/join-video-meeting.md
+[4]: join-video-meeting.md
 
 <!-- Referenced images -->
 [img1]: media/diary.png

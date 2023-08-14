@@ -85,7 +85,7 @@ When viewing other users' projects, only information that you have the rights to
 [3]: ../../../../en/project/learn/project-guide/index.md
 [4]: ../../../../en/project/learn/project-members/create-mailing.md
 [5]: ../../../../en/project/learn/delete.md
-[6]: ../howto/send-email-sms.md#project-screen
+[6]: ../send-email-sms.md#project-screen
 
 <!-- Referenced images -->
 [img1]: media/project.png

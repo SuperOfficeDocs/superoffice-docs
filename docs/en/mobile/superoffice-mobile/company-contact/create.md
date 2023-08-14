@@ -19,11 +19,11 @@ Note: If the company that the contact belongs to has not yet been entered, you n
 
 ## Steps
 
-1. Go to the main **Company/contact** page.
+1. Go to **Company/contact**.
 2. Tap **+** and select **New contact**.
 3. Enter first and last.
 4. Select the company they belong to.
-5. Add other details as necessary. For example, phone number and email address.
+5. Add other details as necessary. For example, phone number, and email address.
 6. Save the contact.
 
 ## Add on company
@@ -38,7 +38,7 @@ Note: If the company that the contact belongs to has not yet been entered, you n
 1. Tap the image in the header.
 1. Select **Add image from camera** or **Add image from gallery**.
 1. Take or choose an image.
-1. Tap and drag to select a region, or select OK to use the entire image.
+1. Tap and drag to select a region, or select **OK** to use the entire image.
 1. Save.
 
 ## Best practices
@@ -48,13 +48,15 @@ Note: If the company that the contact belongs to has not yet been entered, you n
 
 ## Related content
 
-* [Update sale][1]
+* [Update company or contact][1]
 * [Scan a business card][3]
 * [Copy contacts to local address book][2]
+* [Send privacy confirmation email][4]
 
 <!-- Referenced links -->
 [1]: update.md
-[2]: ../howto/copy-contact-to-address-book.md
-[3]: ../scan-business-card.md
+[2]: copy-contact-to-address-book.md
+[3]: scan-business-card.md
+[4]: ../../../security/privacy/learn/send-privacy-confirmation-email.md
 
 <!-- Referenced images -->

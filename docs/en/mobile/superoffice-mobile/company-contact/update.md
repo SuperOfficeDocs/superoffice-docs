@@ -46,8 +46,13 @@ so.client: mobile
 
 * [Create company or contact (in Mobile CRM)][1]
 * [Delete a contact (in SuperOffice CRM)][2]
+* [Move a contact to another company][3]
+* [Merge contacts][4]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../../en/contact/learn/delete.md
+[3]: ../../../../en/contact/learn/move.md
+[4]: ../../../../en/contact/learn/merge-contacts.md
+
 <!-- Referenced images -->
