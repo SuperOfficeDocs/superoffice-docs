@@ -1,0 +1,23 @@
+items:
+- name: Overview
+  href: index.md
+- name: Get started
+  href: get-started/index.md
+  items:
+  - name: Connect account
+    href: get-started/set-up-account.md
+  - name: Make a Zap
+    href: get-started/create-zap.md
+- name: How to...
+  href: howto/index.md
+  items:
+  - name: Set GDPR fields
+    href: howto/gdpr.md
+  - name: Handle SuperOffice list values
+    href: howto/listsource.md
+  - name: Format date and time
+    href: howto/datetime.md
+  - name: Create search action
+    href: howto/find-company.md
+- name: Triggers, actions, templates
+  href: reference.md

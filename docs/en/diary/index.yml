@@ -135,7 +135,7 @@ conceptualContent:
       - text: Zapier
         itemType: library_books
         typeDesc: reference
-        url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+        url: ../automation/zapier/index.md
 
     # Card
     - title: API how-tos
