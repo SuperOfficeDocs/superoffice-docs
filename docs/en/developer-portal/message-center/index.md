@@ -37,8 +37,8 @@ The Messaging Center is located in the upper right-hand corner of the developer 
 
 The messages are organized into three categories:
 
-* **Open** - Messages you have not replied to.
-* **Postponed** - Messages waiting for your response.
+* **Waiting For SuperOffice** - Messages you have sent to SuperOffice.
+* **Open** - Messages waiting for your response.
 * **Closed** - Messages that have been resolved.
 
 ![Messaging Center screen -screenshot][img2]
