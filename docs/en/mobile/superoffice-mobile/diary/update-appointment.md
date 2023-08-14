@@ -44,11 +44,11 @@ An alternative to editing the start and end time of an appointment, you can drag
 
 1. Click on the wanted appointment. It shows the appointment over the whole diary.
 
-    ![Diary with drag-and-drop -screenshot][img1]
+    ![Diary with drag-and-drop -app-screen][img1]
 
 2. Push down and then drag it to the new time you want the appointment.
 
-    ![Diary with drag-and-drop -screenshot][img2]
+    ![Diary with drag-and-drop -app-screen][img2]
 
 3. Release your finger when you are happy and the appointment is moved.
 
@@ -89,5 +89,5 @@ To activate or update an alarm for the appointment:
 [2]: invitations.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../release-notes/10.0//mobile/media/move-appointment-1.png
-[img2]: ../../../../../release-notes/10.0//mobile/media/move-appointment-2.png
+[img1]: ../../../../../release-notes/10.0/mobile/media/move-appointment-1.png
+[img2]: ../../../../../release-notes/10.0/mobile/media/move-appointment-2.png

@@ -62,7 +62,7 @@ Icons in the action bar: Call, SMS, Email, Show location
 | Frame | The selected day in a week |
 | Gray circle | The current date in a month |
 | Red circle | The selected date in a month |
-| @ | Email sent |
+| ![icon][img19] | Email sent |
 
 ### See who has been invited to an appointment
 
@@ -125,3 +125,4 @@ It can be useful to check whether the persons you want to invite are free on the
 [img16]: ../../../../../common/icons/mobile/recurring.png
 [img17]: ../../../../../common/icons/mobile/remove-circle.png
 [img18]: ../../../../../common/icons/mobile/deltager-nei.png
+[img19]: ../../../../../common/icons/mobile/email-ikon.png

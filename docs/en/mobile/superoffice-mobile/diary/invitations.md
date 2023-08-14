@@ -13,7 +13,7 @@ so.client: mobile
 
 # Accept and decline invitations
 
-![Mobile CRM: Invitation -mobile-screenshot][img2]
+![Mobile CRM: Invitation -app-screen][img2]
 
 New invitations show up in the **Invitations** tab on the **Notifications** screen and the tabs on the **Diary** screen.
 
@@ -51,7 +51,10 @@ You can confirm canceled recurring meetings quickly by swiping left and tapping 
 
 ## Related content
 
+* [About invitations][1]
+
 <!-- Referenced links -->
+[1]: ../../../diary/learn/invitation/index.md
 
 <!-- Referenced images -->
 [img2]: media/invitation.png
