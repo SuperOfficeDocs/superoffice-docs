@@ -19,7 +19,7 @@ To download the Mobile CRM app follow these steps:
 
 1. Access [Apple AppStore][6] or [Google Play][7] depending on your device.
 
-    ![Mobile CRM download -mobile-screenshot][img6]
+    ![Mobile CRM download -app-screen][img6]
 
 2. Download and install the **SuperOffice Mobile CRM** app.
 
@@ -27,18 +27,18 @@ To download the Mobile CRM app follow these steps:
 
 4. Choose the connection for your SuperOffice installation.
 
-    ![Mobile CRM: set up -mobile-screenshot][img7]
+    ![Mobile CRM: set up -app-screen][img7]
 
     > [!NOTE]
     > If you choose to connect to a local installation, enter the SuperOffice server URL (connection string) for your company. (Ask your IT-department)
 
 5. Log in using your username and password.
 
-    ![Mobile CRM: log in -mobile-screenshot][img4]
+    ![Mobile CRM: log in -app-screen][img4]
 
 From version 10.2.5 of the mobile CRM app, it is even easier to get started.
 
-![Mobile CRM: login -screenshot][img5]
+![Mobile CRM: login -app-screen][img5]
 
 ## How to find your installation
 
@@ -53,7 +53,7 @@ From version 10.2.5 of the mobile CRM app, it is even easier to get started.
 1. Tap the **Task** icon at the bottom left and select **Log out**.
 2. Select **Yes** to confirm.
 
-![Mobile CRM: Log out from Task menu -screenshot][img1]
+![Mobile CRM: Log out from Task menu -app-screen][img1]
 
 ## How to reset a login
 
@@ -64,8 +64,8 @@ If you want to connect a different SuperOffice CRM solution to your Mobile CRM a
 3. Enter your email address and provide authentication.
 4. Choose one of the SuperOffice tenants associated with that email address. You will be redirected to the Mobile CRM start page.
 
-![Mobile CRM: Reset login from Task menu -screenshot][img2]
-![Mobile CRM: Select tenant -screenshot][img3]
+![Mobile CRM: Reset login from Task menu -app-screen][img2]
+![Mobile CRM: Select tenant -app-screen][img3]
 
 ## Related content
 
@@ -77,10 +77,10 @@ If you want to connect a different SuperOffice CRM solution to your Mobile CRM a
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: ../media/log-out.png
-[img2]: ../media/reset-login.png
-[img3]: ../media/select-tenant.png
-[img4]: ../media/login.jpg
-[img5]: ../media/login-new.png
-[img6]: ../media/app-store.jpg
-[img7]: ../media/choose-installation.jpg
+[img1]: media/log-out.png
+[img2]: media/reset-login.png
+[img3]: media/select-tenant.png
+[img4]: media/login.jpg
+[img5]: media/login-new.png
+[img6]: media/app-store.jpg
+[img7]: media/choose-installation.jpg

@@ -22,7 +22,7 @@ To to send and receive emails within Mobile CRM, you need to configure an email 
 5. Once you are logged into the app again, tap the **Task** icon, go to **Settings**, and then choose **Email settings**.
 6. Adjust the settings and save.
 
-![Mobile CRM: email settings -screenshot][img1]
+![Mobile CRM: email settings -app-screen][img1]
 
 > [!NOTE]
 > SuperOffice will set up the default email client you have chosen in the web version of SuperOffice CRM.
@@ -35,9 +35,11 @@ To to send and receive emails within Mobile CRM, you need to configure an email 
 ## Related content
 
 * [Email settings][1] - reference
+* [Send email or SMS][2]
 
 <!-- Referenced links -->
 [1]: ../settings.md#email-settings
+[2]: ../send-email-sms.md
 
 <!-- Referenced images -->
-[img1]: ../media/email-settings.jpg
+[img1]: media/email-settings.jpg

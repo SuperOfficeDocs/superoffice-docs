@@ -62,7 +62,7 @@ The available actions depend on the item you are viewing. Tap an icon to initiat
 
 The footer bar is located at the bottom of most screen.
 
-![Mobile CRM footer bar][img19]
+![Mobile CRM footer bar -app-screen][img2]
 
 From left to right:
 
@@ -74,7 +74,7 @@ From left to right:
 
 If the icon for Notifications shows a number in a red circle, it means you have pending invitations. You also get notifications about overdue sales.
 
-## Task menu ![icon][img3]
+## Task menu ![icon][img8]
 
 The **Task** menu is located at the bottom left on many screens. This menu contains options that are relevant for the current screen. For example, logging in or out, settings, filtering, sending SMS/email, or map display.
 
@@ -89,7 +89,7 @@ When you use the app, the pages you access are stored in the device's cache to m
 
 The star tab shows your favorite records within the current screen. This way your favorite records are always easy to find. In lists, favorites have a small star icon.
 
-![Mobile CRM: Favorites tab][img8] ![Mobile CRM: Add favorite][img9]
+![Mobile CRM: Favorites tab -app-screen][img3]
 
 * To add a company, person, dashboard, sale, project, or request as a favorite:
 
@@ -108,6 +108,8 @@ In all main pages, you can search for information stored in your SuperOffice. Go
 
 The **+** icon creates a new entry in the database. What type of entry that is created depends on which screen you are in. For example, in the Diary screen, you can create a new appointment. In the Sale screen, a new sale, and so on.
 
+![Mobile CRM New -app-screen][img32]
+
 ## Swipe
 
 Throughout the app, you can swipe for easier and faster navigation. Access the menu to edit contacts, add to favorite, send SMS, or send an email.
@@ -118,9 +120,7 @@ The green button allows you to create a new email or call the contact directly.
 
 If you have set your phone to use Dark Mode, your Mobile CRM app will also use dark mode.
 
-![Mobile CRM Dark mode -mobile-screenshot][img2]
-
-Pretty nice for those who love dark mode.
+![Mobile CRM Dark mode -app-screen][img33]
 
 ## View mode and edit mode
 
@@ -138,16 +138,14 @@ Edit mode is for adding or updating info. For documents and email, edit applies 
 [2]: set-up-email.md
 
 <!-- Referenced images -->
-[img1]: ../media/layout.jpg
-[img19]: ../media/footer.png
-[img2]: ../../../../../release-notes/9.2/mobile/media/img399.jpg
-[img3]: ../../../../../common/icons/mobile/taskmenu.png
+[img1]: media/layout.jpg
+[img2]: media/footer.png
+[img3]: media/fav.png
 [img4]: ../../../../../common/icons/mobile/nav-notifications.png
 [img5]: ../../../../../common/icons/mobile/refresh.png
 [img6]: ../../../../../common/icons/mobile/star.png
 [img7]: ../../../../../common/icons/mobile/search.png
-[img8]: ../media/fav-tab.png
-[img9]: ../media/add-fav.png
+[img8]: ../../../../../common/icons/mobile/taskmenu.png
 
 [img10]: ../../../../../common/icons/mobile/nav-time-h32.png
 [img11]: ../../../../../common/icons/mobile/company-h32.png
@@ -169,7 +167,10 @@ Edit mode is for adding or updating info. For documents and email, edit applies 
 [img27]: ../../../../../common/icons/mobile/reply-all.png
 [img28]: ../../../../../common/icons/mobile/mail-forward.png
 [img29]: ../../../../../common/icons/mobile/setstage.png
-[img30]: ../../../../../common/icons/mobile/addcomment.png
+[img30]: ../../../../../common/icons/addcomment.png
 [img31]: ../../../../../common/icons/mobile/document-share.png
+
+[img32]: ../../../../../release-notes/10.2/mobile/media/mobile-new-floating-button.png
+[img33]: ../../../../../release-notes/9.2/mobile/media/img399.jpg
 
 <!-- img 8 and 9 on local phone -->
