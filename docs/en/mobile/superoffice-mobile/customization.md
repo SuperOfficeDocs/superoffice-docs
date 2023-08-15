@@ -36,7 +36,7 @@ Stakeholders, quotes, relations, selections, and selection members cannot be cre
 
 With CRMScript, you can define dialogs that can be shown in both SuperOffice CRM and Mobile CRM. This means that you can trigger new customized questions or dialogs to the users tailored to the business logic you want to enforce.
 
-![Mobile CRM custom dialog -mobile-screenshot][img1]
+![Mobile CRM custom dialog -app-screen][img1]
 
 [Tutorial - how to use dialogs in triggers][4]
 
@@ -44,8 +44,8 @@ With CRMScript, you can define dialogs that can be shown in both SuperOffice CRM
 
 With CRMScript, you can add items to the **Task** menu to trigger custom tasks.
 
-![Mobile CRM custom task -mobile-screenshot][img2]
-![Run a custom task on Contact to Create appointment -mobile-screenshot][img6]
+![Mobile CRM custom task -app-screen][img2]
+![Run a custom task on Contact to Create appointment -app-screen][img6]
 
 To make a custom task available in the app, check **Shown in Mobile CRM** when defining the task in Settings and Maintenance
 

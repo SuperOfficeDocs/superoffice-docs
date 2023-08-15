@@ -4,22 +4,25 @@ title: First time use/log in
 description: How to download and install SuperOffice Mobile CRM.
 author: Bergfrid Dias
 so.date: 07.24.2023
-keywords: mobile, Apple AppStore, Google Play, download, login, sign in
+keywords: mobile, Apple AppStore, Google Play, download, login, sign in, install
 so.topic: howto
 so.version: 10
 language: en
+so.envir: online
 so.client: mobile
 ---
 
 # First time use/log in
 
-The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher.
+The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher. It is distributed via the respective operating system's app store channels.
 
-To download the Mobile CRM app follow these steps:
+## Download and install the app
 
 1. Access [Apple AppStore][6] or [Google Play][7] depending on your device.
 
     ![Mobile CRM download -app-screen][img6]
+
+    You can also open a web browser on your device, go to[online.SuperOffice.com/mobile][3], and click **install** to choose your device type.
 
 2. Download and install the **SuperOffice Mobile CRM** app.
 
@@ -35,6 +38,8 @@ To download the Mobile CRM app follow these steps:
 5. Log in using your username and password.
 
     ![Mobile CRM: log in -app-screen][img4]
+
+    For SuperOffice Online, the sign-in service determines how you get access to SuperOffice and who manages your credentials.
 
 From version 10.2.5 of the mobile CRM app, it is even easier to get started.
 

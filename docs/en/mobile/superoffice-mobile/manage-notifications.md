@@ -22,21 +22,21 @@ so.client: mobile
 2. Select **Notifications**.
 3. In this screen you can configure all app push notification setting.
 
-![Mobile CRM: Task menu -screenshot][img1]![Mobile CRM: Notification settings -screenshot][img2]
+![Mobile CRM: Task menu -app-screen][img1]![Mobile CRM: Notification settings -app-screen][img2]
 
 ## Don't send notifications for Private and Other type of appointments
 
 1. Under **All appointments**, tap **Add Exception**.
 
-    ![Mobile CRM: Add Exception -screenshot][img3]
+    ![Mobile CRM: Add Exception -app-screen][img3]
 
 1. Choose **Private** and **Other** types.
 
-    ![Mobile CRM: Add Exception -screenshot][img4]
+    ![Mobile CRM: Add Exception -app-screen][img4]
 
 1. Save.
 
-    ![Mobile CRM: Add Exception -screenshot][img5]
+    ![Mobile CRM: Add Exception -app-screen][img5]
 
 ## Related content
 

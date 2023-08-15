@@ -16,7 +16,7 @@ so.client: mobile
 
 From Company/contact, you have access to all companies and personal contacts within companies in the SuperOffice database.
 
-![Mobile CRM: Company/contact -mobile-screenshot][img1]
+![Mobile CRM: Company/contact -app-screen][img1]
 
 ## Tabs in the main Company/contact screen
 

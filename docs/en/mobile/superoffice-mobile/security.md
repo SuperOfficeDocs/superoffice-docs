@@ -1,8 +1,8 @@
 ---
 title: Security
 description: Mobile CRM security in CRM Online
-author: {github-id}
-keywords:
+author: Martin Pavlas
+keywords: mobile, pocket
 so.topic: concept
 so.envir: online
 so.client: mobile
@@ -38,7 +38,7 @@ Mobile CRM communicates to CRM Online over HTTPS/TLS, just as our web client.
 
 It accesses the CRM Online tenants NetServer Web API (endpoint), which is based on REST (architecture) and uses [OAuth][4] for authentication.
 
-![x -screenshot][img1]
+![Mobile CRM: architecture -screenshot][img1]
 
 ### Communication to other services
 
@@ -100,7 +100,7 @@ In SuperOffice Admin - Preferences - Global preferences:
 * **Autologout time:** Time in minutes the application can be kept idle in the background before an automatic logout is performed. Default value = 0, means no timeout.
 * **Diable autologin:** Prevent the Mobile CRM client from logging in automatically on startup. Default = No.
 
-![x -screenshot][img2]
+![Mobile CRM preferences -screenshot][img2]
 
 ## Config
 
@@ -116,7 +116,29 @@ There are 3 initial ways to set Mobile CRM to connect to CRM Online:
 
 This will redirect the user to the CRM Online login page for authentication. The user will here need to authenticate to log in. Log in with the same email address and password you use for the SuperOffice CRM Online and you are ready to use SuperOffice Pocket CRM
 
-![x -screenshot][img3]
+![Mobile CRM: configuration -app-screen][img3]
+
+## FAQ
+
+## Can we set a session timeout and where can it be set?
+
+Yes, set a value in Settings and maintenance preference **autologout time** (minutes).
+
+## Can Mobile CRM be set up to be strictly read-only?
+
+The access rights are set via Roles in Settings and maintenance, and will apply as same as Web client access.
+
+## If the phone is stolen, do they have access to the CRM data?
+
+In Settings and maintenance, the preference **disable autologin** can be set to force users to log in each time.
+
+If not set, they still need to first be able to unlock the phone to start Mobile CRM. The user must change their SuperOffice CRM Online password to ensure to avoid possible data theft.
+
+## Don't allow any software on mobile clients to cache customer data
+
+Q: My Enterprise Security team will not allow any software on mobile clients that can show or cache customer data unless the software **uses Two Factor Authentication (2FA) or access over VPN only**
+
+A: Enable IdP for all users, and enable 2FA for the IdP provider. No option to support VPN to CRM Online.
 
 <!-- Referenced links -->
 [1]:https://www.apple.com/business/docs/iOS_Security_Guide.pdf

@@ -15,6 +15,11 @@ so.client: mobile
 
 ![Mobile CRM: layout -screenshot][img1]
 
+Apps are distributed via the respective operating system's app store channels. [Get started][1].
+
+> [!NOTE]
+> You need SuperOffice version 9.1 or newer to use the SuperOffice Mobile CRM application. For older versions, install [Pocket CRM][3]. Check the [client requirements][4].
+
 ## Navigator ![icon][img17]
 
 Use the Navigator menu to access the main screens in Mobile CRM:
@@ -139,6 +144,8 @@ If you have set your phone to use dark mode, your Mobile CRM app will also use d
 <!-- Referenced links -->
 [1]: login.md
 [2]: set-up-email.md
+[3]: ../../pocket-crm/install.md
+[4]: ../client-requirements.md
 
 <!-- Referenced images -->
 [img1]: media/layout.jpg
