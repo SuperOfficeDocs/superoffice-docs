@@ -15,21 +15,21 @@ so.client: mobile
 
 You have limited functionality for creating documents inside the app. SharePoint documents offer the most flexibility.
 
-The steps below assume you are in the **Document** tab of a company, contact, sale, or project.
+The steps below assume you are in the **Documents** tab of a company, contact, sale, or project.
 
 ## Create SharePoint document
 
 > [!NOTE]
 > Requires SharePoint document library.
 
-1. Tap **+** at the bottom of the Document tab.
+1. Tap **+** at the bottom of the **Documents** tab.
 2. Choose **Create document in SharePoint**.
 
-    ![Add new document menu -screenshot][img6]
+    ![Mobile CRM: Add new document menu -app-screen][img6]
 
 3. Enter a document title.
 
-    ![Create new SharePoint document screen -screenshot][img7]
+    ![Mobile CRM: Create new SharePoint document screen -app-screen][img7]
 
 4. Optionally select a document template.
 5. Set other document properties as needed.
@@ -40,14 +40,14 @@ The steps below assume you are in the **Document** tab of a company, contact, sa
 
 ## Upload file
 
-1. Tap **+** at the bottom of the Document tab.
+1. Tap **+** at the bottom of the **Documents** tab.
 2. Choose **Select a file** and pick what to upload.
 3. Enter a title. Set other document properties as needed.
 4. Tap **Create**.
 
 ## Add image
 
-1. Tap **+** at the bottom of the Document tab.
+1. Tap **+** at the bottom of the **Documents** tab.
 2. Choose **Add image from gallery** or **Add image from camera**.
 3. Take a photo with the camera or choose an image from the gallery.
 
@@ -72,6 +72,6 @@ The steps below assume you are in the **Document** tab of a company, contact, sa
 [3]: ../send-email-sms.md
 
 <!-- Referenced images -->
-[img3]: save-image.jpg
+[img3]: media/save-image.jpg
 [img6]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-menu.png
 [img7]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-create.png

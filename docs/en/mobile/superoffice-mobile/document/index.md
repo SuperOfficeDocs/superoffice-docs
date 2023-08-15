@@ -4,14 +4,14 @@ title: Documents
 description: Learn about working with documents in SuperOffice Mobile CRM.
 author: Bergfrid Dias
 so.date: 08.07.2023
-keywords: mobile, document, email
+keywords: mobile, document, email, activity
 so.topic: reference
 so.version: 10
 language: en
 so.client: mobile
 ---
 
-# Documents
+# Documents ![icon][img12]
 
 You have access to all documents and emails stored in the database from Mobile CRM.
 
@@ -35,16 +35,9 @@ In lists, you will typically see date, type, and title for each document. The so
 * Date
 * Document type
 
-**Action bar:**
+Icons in the action bar: Share, Email, Preview (contents), Details (properties)
 
-| Icon | Action | Description |
-|---|---|---|
-| ![icon][img8] | Share | Opens the default share option on device OS. |
-| ![icon][img9] | Email | Send an email with this document as attachment. |
-| ![icon][img10] | Preview | A preview of the document's contents. |
-| ![icon][img11] | Details | Document properties. |
-
-## Email information ![icon][img9]
+## Email information ![icon][img13]
 
 Saved emails also appear in the **Documents** tab.
 
@@ -54,25 +47,17 @@ Saved emails also appear in the **Documents** tab.
 * Sender (click to navigate)
 * Recipients
 
-**Action bar:**
-
-| Icon | Action | Description |
-|---|---|---|
-| ![icon][img13] | Reply | Reply to the sender. |
-| ![icon][img14] | Reply all | Reply to sender and all recipients. |
-| ![icon][img15] | Forward | Forward to selected recipient. |
-| ![icon][img10] | Preview | Opens a preview of the email's contents. |
-| ![icon][img11] | Details | Show email properties. |
+Icons in the action bar: Reply, Reply all, Forward,  Preview (contents), Details (properties)
 
 ## View document (or email) properties
 
 1. Go to a company, contact, sale, project.
 
-2. Select the **Document** tab.
+2. Select the **Documents** tab.
 
-3. Tap to select the document (1) or email (2) you want to view.
+3. Tap to select the document or email you want to view.
 
-    ![Mobile CRM Document -mobile-screenshot][img1]
+    ![Mobile CRM Document -app-screen][img1]
 
 4. Tap ![icon][img11] to switch to details if the preview opens.
 
@@ -94,12 +79,13 @@ Saved emails also appear in the **Documents** tab.
 
     * On **Android** devices, you will see "Unable to show the content of this document." Click on the download button (1) and select which app (2) on your device to open documents in.
 
-    ![Mobile CRM, view document on Android -mobile-screenshot][img2]
+    ![Mobile CRM, view document on Android -app-screen][img2]
 
-> [!NOTE]
-> If you are looking at a list of documents on Android, you can swipe left and select **Download** to skip opening a preview.
+## Download
 
-![Mobile CRM, Document actions -mobile-screenshot][img5]
+If you are looking at a list of documents, you can swipe left and select **Download** to skip opening a preview on Android.
+
+![Mobile CRM, Document actions -app-screen][img5]
 
 ## Related content
 
@@ -118,11 +104,7 @@ Saved emails also appear in the **Documents** tab.
 [img1]: media/document-tab.png
 [img2]: media/android-download-document.png
 [img5]: media/task-menu-document.png
-[img8]: ../../../../../common/icons/mobile/document-share.png
-[img9]: ../../../../../common/icons/mobile/email-ikon.png
 [img10]: ../../../../../common/icons/mobile/document-preview.png
 [img11]: ../../../../../common/icons/mobile/details.png
 [img12]: ../../../../../common/icons/mobile/documents.png
-[img13]: ../../../../../common/icons/mobile/mail-reply.png
-[img14]: ../../../../../common/icons/mobile/mail-reply-all.png
-[img15]: ../../../../../common/icons/mobile/mail-forward.png
+[img13]: ../../../../../common/icons/mobile/email-ikon.png

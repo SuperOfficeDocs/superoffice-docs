@@ -39,7 +39,7 @@ The main screens and associated sub-screens consist of tabs. Look for the highli
 
 ## Action bar
 
-The action bar is located in the header when viewing a company, person, sale, project, or request.
+The action bar is located in the header when viewing a company, person, sale, project, request, or document.
 
 The available actions depend on the item you are viewing. Tap an icon to initiate the action.
 
@@ -57,6 +57,8 @@ The available actions depend on the item you are viewing. Tap an icon to initiat
 | ![icon][img28] | Forward | |
 | ![icon][img29] | Update status | Move to next stage/set as sold/set as lost/ edit sale. |
 | ![icon][img31] | Share | Opens the default share option on device OS. |
+| ![icon][img9] | Preview | A preview of the contents of a document (or email). |
+| ![icon][img19] | Details | Show document properties. |
 
 ## Footer bar
 
@@ -66,8 +68,8 @@ The footer bar is located at the bottom of most screen.
 
 From left to right:
 
-* Tap the **Task** icon for more options. For example, to refresh data, log out, go to settings, or filter activities.
-* Tap **Edit** to update the item you are viewing. (If you have permission to do so.)
+* Tap the **Task** icon (![icon][img8]) for more options. For example, to refresh data, log out, go to settings, or filter activities.
+* Tap **Edit** (![icon][img32]) to update the item you are viewing. (If you have permission to do so.)
 * Tap the arrow (![icon][img18]) to return to the previous page.
 
 ## Notifications ![icon][img4]
@@ -104,29 +106,29 @@ To view the diary of other users, tap your name and choose a user from a list. T
 
 In all main pages, you can search for information stored in your SuperOffice. Go to **Company/Contact**, and select the **Search** tab to search for a company or contact. To search for projects, go to the **Project** main page and select **Search**. In appointments and sales, select your name, and then search by name.
 
-## Create new (+)
-
-The **+** icon creates a new entry in the database. What type of entry that is created depends on which screen you are in. For example, in the Diary screen, you can create a new appointment. In the Sale screen, a new sale, and so on.
-
-![Mobile CRM New -app-screen][img32]
-
 ## Swipe
 
 Throughout the app, you can swipe for easier and faster navigation. Access the menu to edit contacts, add to favorite, send SMS, or send an email.
 
 The green button allows you to create a new email or call the contact directly.
 
-## Dark mode
+## Create new (+)
 
-If you have set your phone to use Dark Mode, your Mobile CRM app will also use dark mode.
+The **+** icon creates a new entry in the database. What type of entry that is created depends on which screen you are in. For example, in the Diary screen, you can create a new appointment. In the Sale screen, a new sale, and so on.
 
-![Mobile CRM Dark mode -app-screen][img33]
+![Mobile CRM New -app-screen][img42]
 
 ## View mode and edit mode
 
 View mode is for getting info and taking action. For documents and email, switch between previewing content and viewing its properties.
 
 Edit mode is for adding or updating info. For documents and email, edit applies to properties, not content.
+
+## Dark mode
+
+If you have set your phone to use dark mode, your Mobile CRM app will also use dark mode.
+
+![Mobile CRM Dark mode -app-screen][img43]
 
 ## Related content
 
@@ -141,12 +143,13 @@ Edit mode is for adding or updating info. For documents and email, edit applies 
 [img1]: media/layout.jpg
 [img2]: media/footer.png
 [img3]: media/fav.png
+
 [img4]: ../../../../../common/icons/mobile/nav-notifications.png
 [img5]: ../../../../../common/icons/mobile/refresh.png
 [img6]: ../../../../../common/icons/mobile/star.png
 [img7]: ../../../../../common/icons/mobile/search.png
 [img8]: ../../../../../common/icons/mobile/taskmenu.png
-
+[img9]: ../../../../../common/icons/mobile/document-preview.png
 [img10]: ../../../../../common/icons/mobile/nav-time-h32.png
 [img11]: ../../../../../common/icons/mobile/company-h32.png
 [img12]: ../../../../../common/icons/mobile/nav-sale-h32.png
@@ -156,7 +159,7 @@ Edit mode is for adding or updating info. For documents and email, edit applies 
 [img16]: ../../../../../common/icons/mobile/nav-notifications-h32.png
 [img17]: ../../../../../common/icons/mobile/nav-home.png
 [img18]: ../../../../../common/icons/mobile/swipe-replay.png
-
+[img19]: ../../../../../common/icons/mobile/details.png
 [img20]: ../../../../../common/icons/mobile/calendar-plus.png
 [img21]: ../../../../../common/icons/mobile/cellphone-iphone.png
 [img22]: ../../../../../common/icons/mobile/sms-header.png
@@ -164,13 +167,12 @@ Edit mode is for adding or updating info. For documents and email, edit applies 
 [img24]: ../../../../../common/icons/mobile/show-url.png
 [img25]: ../../../../../common/icons/mobile/map-marker.png
 [img26]: ../../../../../common/icons/mobile/request-reply.png
-[img27]: ../../../../../common/icons/mobile/reply-all.png
+[img27]: ../../../../../common/icons/mobile/mail-reply-all.png
 [img28]: ../../../../../common/icons/mobile/mail-forward.png
 [img29]: ../../../../../common/icons/mobile/setstage.png
 [img30]: ../../../../../common/icons/addcomment.png
 [img31]: ../../../../../common/icons/mobile/document-share.png
+[img32]: ../../../../../common/icons/mobile/edit.png
 
-[img32]: ../../../../../release-notes/10.2/mobile/media/mobile-new-floating-button.png
-[img33]: ../../../../../release-notes/9.2/mobile/media/img399.jpg
-
-<!-- img 8 and 9 on local phone -->
+[img42]: ../../../../../release-notes/10.2/mobile/media/mobile-new-floating-button.png
+[img43]: ../../../../../release-notes/9.2/mobile/media/img399.jpg
