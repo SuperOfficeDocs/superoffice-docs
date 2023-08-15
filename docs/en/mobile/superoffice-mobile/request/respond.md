@@ -50,7 +50,7 @@ Comments are used to discuss the request internally before replying to the custo
 
     ![Mobile CRM: Request with internal message -app-screen][img6]
 
-## Forward ![icon][img4]
+## <a id="forward" />Forward ![icon][img4]
 
 Sometimes, internal comments or reassigning the request is not enough to solve a problem, and you need to involve others.
 

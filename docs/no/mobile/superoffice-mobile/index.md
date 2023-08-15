@@ -70,7 +70,7 @@ I vår Mobile CRM-app har du tilgang til alle saker og kan svare på eller tilde
 * [Hvordan begynner jeg å bruke anroper-ID for Mobile CRM][5] – vanlige spørsmål
 
 <!-- Referenced links -->
-[1]: ../../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
+[1]: ../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
 [3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-fingerprint-authentication-to-enter-my-mobile-crm-app/
 [4]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-configure-notifications-on-the-mobile-crm-app/
 [5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-caller-id-for-mobile-crm/
@@ -78,4 +78,4 @@ I vår Mobile CRM-app har du tilgang til alle saker og kan svare på eller tilde
 [7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif
+[img1]: ../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif
