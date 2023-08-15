@@ -40,17 +40,9 @@ Watch the video [request handling][10] to learn how to handle customer service r
 * Request title
 * Customer name - company (click to navigate)
 
-**Action bar:**
+Icons in the action bar: Reply, Add comment, Call (the customer connected to the request), Messages, Details
 
-The Action bar allows you to reply to the customer, call the customer connected to the request, and view details info to change the status on the request, add tags and change category.
-
-| Icon | Action | Description |
-|:-:|---|---|
-| ![icon][img6] | Reply | Reply to the customer. |
-| ![icon][img2] | Add comment | Add an internal message (opens the Message screen). |
-| ![icon][img3] | Call | Call the customer connected to the request. |
-| ![icon][img4] | Messages | All messages in request. |
-| ![icon][img5] | Details | Information about the request. |
+![Mobile CRM: Request -app-screen][img1]
 
 The **Task** menu lets you take pictures and add them as attachments to a message, change request status, set the owner, and reply to and add comments to the request.
 
@@ -82,7 +74,7 @@ In lists, you will typically see ID, title, created at, status, and category for
     * Tap ![icon][img4] to switch to messages.
     * Tap ![icon][img5] to switch to details.
 
-[!include[Configure visible fields](../includes/tip-visible-fields.md)]
+    [!include[Configure visible fields](../includes/tip-visible-fields.md)]
 
 ## View someone else's requests
 
@@ -107,7 +99,7 @@ You can get notifications on your device for different events:
 
 ### In Notification Centre (iOS) / Notification drawer (Android)
 
-![SuperOffice Mobile CRM request notifications -mobile-screen][img20]
+![SuperOffice Mobile CRM request notifications -app-screen][img20]
 
 Click the notification to open the request in Mobile CRM.
 
@@ -125,7 +117,7 @@ Click the notification to open the request in Mobile CRM.
 
 * [New request][1]
 * [Update request properties (details)][2]
-* [Add comment][4]
+* [Add comment (internal message)][4]
 * [Reply / reply all][3]
 * [Forward][5]
 * [Manage notifications][6]
@@ -144,11 +136,9 @@ Click the notification to open the request in Mobile CRM.
 [12]: ../../../request/learn/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/mobile/addcomment.png
-[img3]: ../../../../../common/icons/mobile/cellphone-iphone.png
+[img1]: media/request-header.png
 [img4]: ../../../../../common/icons/mobile/messages.png
 [img5]: ../../../../../common/icons/mobile/details.png
-[img6]: ../../../../../common/icons/mobile/request-reply.png
 [img7]: ../../../../../common/icons/mobile/request-myopen-h32.png
 [img8]: ../../../../../common/icons/mobile/request-unassigned-h32.png
 [img9]: ../../../../../common/icons/mobile/request-selection-h32.png

@@ -4,7 +4,7 @@ title: Create request
 description: How to create (open) requests in SuperOffice Mobile CRM.
 author: Bergfrid Dias
 so.date: 08.03.2023
-keywords: mobile, request, ticket
+keywords: mobile, request, ticket, customer
 so.topic: howto
 language: en
 so.version: 10
@@ -21,7 +21,13 @@ You can register requests directly from Mobile CRM.
 2. Tap **+**.
 3. Enter a descriptive title for the request.
 4. Tap **Add people**, select one or more customers, and tap **OK**.
+
+    ![Mobile CRM: Add people -app-screen][img1]
+
 5. Choose owner: Unassigned, automatically assigned, or set a specific person.
+
+    ![Mobile CRM: Request owner -app-screen][img2]
+
 6. Select a category and optionally choose tags.
 7. Add other details as necessary. For example, tap and select a sale and/or project to link it to the request. Expand to see more fields.
 
@@ -56,3 +62,5 @@ When viewing a contact and you want to open a request related to that specific p
 [6]: respond.md#message
 
 <!-- Referenced images -->
+[img1]: media/add-people.png
+[img2]: media/owner.png

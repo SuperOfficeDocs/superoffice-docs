@@ -4,7 +4,7 @@ title: Respond to requests on your mobile device
 description: In this how-to guide, you will learn how to reply to, forward, and comment on a request in Mobile CRM.
 author: Bergfrid Dias
 so.date: 08.03.2023
-keywords: request, ticket, mobile, reply
+keywords: request, ticket, mobile, reply, message, comment
 so.topic: howto
 so.client: mobile
 language: en
@@ -42,8 +42,13 @@ Comments are used to discuss the request internally before replying to the custo
 
 1. Select **Add comment** from the **Task** menu.
 1. Update request properties as needed (owner, status, category).
+
+    ![Mobile CRM: Add comment -app-screen][img5]
+
 1. Compose a message.
 1. Tap **Send**.
+
+    ![Mobile CRM: Request with internal message -app-screen][img6]
 
 ## Forward ![icon][img4]
 
@@ -122,3 +127,5 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 [img3]: ../../../../../common/icons/mobile/addcomment.png
 [img4]: ../../../../../common/icons/forward-icon.png
 [img2]: ../../../../../release-notes/10.0/mobile/media/save-request.png
+[img5]: media/add-comment.png
+[img6]: media/internal-message.png

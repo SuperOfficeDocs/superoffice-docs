@@ -51,14 +51,15 @@ The available actions depend on the item you are viewing. Tap an icon to initiat
 | ![icon][img23] | Email | Send email. |
 | ![icon][img24] | Website | Go to website (disabled if no URL). |
 | ![icon][img25] | Map location | Shows the visiting address (if set; otherwise, postal address). Tap top open in map. |
-| ![icon][img30] | Add comment | |
-| ![icon][img26] | Reply | |
+| ![icon][img30] | Add comment | Add an internal message to a request (opens the Message screen).|
+| ![icon][img26] | Reply | Reply to the customer/sender. |
 | ![icon][img27] | Reply all | |
 | ![icon][img28] | Forward | |
 | ![icon][img29] | Update status | Move to next stage/set as sold/set as lost/ edit sale. |
 | ![icon][img31] | Share | Opens the default share option on device OS. |
 | ![icon][img9] | Preview | A preview of the contents of a document (or email). |
-| ![icon][img19] | Details | Show document properties. |
+| ![icon][img19] | Details | Show key information. Show document properties. |
+| ![icon][img33] | Messages | All messages in request. |
 
 ## Footer bar
 
@@ -173,6 +174,7 @@ If you have set your phone to use dark mode, your Mobile CRM app will also use d
 [img30]: ../../../../../common/icons/addcomment.png
 [img31]: ../../../../../common/icons/mobile/document-share.png
 [img32]: ../../../../../common/icons/mobile/edit.png
+[img33]: ../../../../../common/icons/mobile/messages.png
 
 [img42]: ../../../../../release-notes/10.2/mobile/media/mobile-new-floating-button.png
 [img43]: ../../../../../release-notes/9.2/mobile/media/img399.jpg

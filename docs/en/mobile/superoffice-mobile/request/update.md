@@ -4,7 +4,7 @@ title: Update request
 description: How to update a request in SuperOffice Mobile CRM.
 author: Bergfrid Dias
 so.date: 08.03.2023
-keywords: request, status
+keywords: mobile, request, status
 so.topic: howto
 language: en
 so.version: 10
@@ -27,9 +27,12 @@ Only the owner may update the fields *Read status* and *Last changed*.
 ## Steps
 
 1. Locate and open the request.
-2. Select **Details** ![icon][img1].
-3. Tap the **Edit** icon in the footer.
+2. Select **Details** (![icon][img1]).
+3. Tap the **Edit** icon (![icon][img2]) in the footer.
 4. Update the information as necessary.
+
+    ![Mobile CRM: Edit request -app-screen][img3]
+
 5. Tap **Save**.
 
 > [!TIP]
@@ -70,3 +73,5 @@ Whether you want to accept an unassigned request, take over for a colleague, or 
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/mobile/details.png
+[img2]: ../../../../../common/icons/mobile/edit.png
+[img3]: media/request-compact-header.png
