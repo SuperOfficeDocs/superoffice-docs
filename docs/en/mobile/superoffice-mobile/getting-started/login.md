@@ -22,7 +22,7 @@ The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher. It
 
     ![Mobile CRM download -app-screen][img6]
 
-    You can also open a web browser on your device, go to[online.SuperOffice.com/mobile][3], and click **install** to choose your device type.
+    You can also open a web browser on your device, go to [online.SuperOffice.com/mobile][3], and click **install** to choose your device type.
 
 2. Download and install the **SuperOffice Mobile CRM** app.
 
