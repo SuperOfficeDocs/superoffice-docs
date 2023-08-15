@@ -16,8 +16,11 @@ so.client: mobile
 ## Steps
 
 1. Locate and open the sale.
-2. Tap the **Edit** icon in the footer.
+2. Tap the **Edit** icon (![icon][img1]) in the footer.
 3. Update the information as necessary.
+
+    ![Mobile CRM: Edit sale -app-screen][img2]
+
 4. Tap **Save**.
 
 > [!NOTE]
@@ -57,10 +60,14 @@ When you are in a sales process, consider linking the sale to relevant incoming 
 * [Create sale (in Mobile CRM)][1]
 * [About stages][3]
 * [Delete a sale (in SuperOffice CRM)][2]
+* [Update request][4]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../../en/sale/learn/delete.md
 [3]: ../../../../en/sale/learn/stages.md
+[4]: ../request/update.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/mobile/edit.png
+[img2]: media/sale-details.png

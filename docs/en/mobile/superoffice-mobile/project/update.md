@@ -4,7 +4,7 @@ title: Update project
 description: How to update a project in SuperOffice Mobile CRM.
 author: Bergfrid Dias
 so.date: 07.26.2023
-keywords: project, mobile
+keywords: project, mobile, member
 so.topic: howto
 language: en
 so.version: 10
@@ -16,7 +16,7 @@ so.client: mobile
 ## Steps
 
 1. Locate and open the project.
-2. Tap the **Edit** icon in the footer.
+2. Tap the **Edit** icon (![icon][img5]) in the footer.
 3. Update the information as necessary.
 4. Tap **Save**.
 
@@ -68,13 +68,16 @@ When you are working with a project, consider linking the the project to relevan
 
 * [Create project (in Mobile CRM)][1]
 * [Delete a project (in SuperOffice CRM)][2]
+* [Update request][3]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../../en/project/learn/delete.md
+[3]: ../request/update.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/mobile/project-members.png
 [img2]: ../../../../../common/icons/mobile/details.png
 [img3]: ../../../../../release-notes/10.2/mobile/media/mobile-crm-sale-request-tab.png
 [img4]: ../../../../../common/icons/mobile/setstage.png
+[img5]: ../../../../../common/icons/mobile/edit.png

@@ -13,7 +13,7 @@ so.client: mobile
 
 # Sale ![icon][img10]
 
-From Sales, you can update forecasts for future sales, conclude sales, and create new ones. Also, track the status of all sales that you and your colleagues are responsible for.
+From Sale, you can update forecasts for future sales, conclude sales, and create new ones. Also, track the status of all sales that you and your colleagues are responsible for.
 
 ![Mobile CRM: Sale -app-screen][img1]
 
@@ -47,7 +47,7 @@ Icons in the action bar: New appointment, Call, Send email, Go to website, Updat
 | ![icon][img12] | Documents | Documents and emails linked to the sale. |
 | ![icon][img15] | Requests | Requests linked to the sale. |
 | ![icon][img17] | Stakeholders | A list of contacts involved in the sale. |
-| | Quote/products | |
+| ![icon][img20] | Quote/products | |
 
 ## Sale stages
 
@@ -101,17 +101,19 @@ Keeping an eye on the team or internal competition? You can track sales by user 
 * [Create sale][1]
 * [Update sale][2]
 * [Quote approval flow][3]
+* [About sales guides][4]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: update.md
 [3]: approve-quote.md
+[4]: ../../../sale/learn/sales-guide/index.md
 
 <!-- Referenced images -->
 [img1]: media/sale.png
-[img2]: ../../../../media/icons/sale-lost.bmp
-[img3]: ../../../../media/icons/sale-postponed.bmp
-[img4]: ../../../../media/icons/sale-sold.bmp
+[img2]: ../../../../media/icons/sale-lost.png
+[img3]: ../../../../media/icons/sale-postponed.png
+[img4]: ../../../../media/icons/sale-sold.png
 [img5]: ../../../../../common/icons/nav-sale-h32.png
 [img6]: ../../../../../common/icons/mobile/activities-h32.png
 [img7]: ../../../../../common/icons/mobile/saleslist-pipeline-h32.png
@@ -124,3 +126,4 @@ Keeping an eye on the team or internal competition? You can track sales by user 
 [img17]: ../../../../../common/icons/mobile/associate-h32.png
 [img18]: ../../../../../common/icons/mobile/star-h32.png
 [img19]: ../../../../../common/icons/mobile/search-h32.png
+[img20]: ../../../../../common/icons/mobile/product-default-h32.png

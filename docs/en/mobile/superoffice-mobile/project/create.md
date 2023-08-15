@@ -29,6 +29,7 @@ When you are out visiting, you can register projects directly from Mobile CRM.
 
 * [Update project][1]
 * [Create appointment][2]
+* [Create document][5]
 * [About project members][3]
 
 <!-- Referenced links -->
@@ -36,6 +37,7 @@ When you are out visiting, you can register projects directly from Mobile CRM.
 [2]: ../diary/create-appointment.md
 [3]: ../../../project/learn/project-members/index.md
 [4]: update.md#add-project-member
+[5]: ../document/create.md
 
 <!-- Referenced images -->
 [img13]: ../../../../../common/icons/mobile/project.png
