@@ -1,7 +1,0 @@
-items:
-- name: Overzicht
-  href: index.md
-- name: Verzoek beantwoorden
-  href: reply-to-request.md
-- name: Een visitekaartje scannen
-  href: scan-business-card.md

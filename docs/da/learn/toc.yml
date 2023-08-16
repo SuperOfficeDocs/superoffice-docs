@@ -76,10 +76,6 @@ items:
     href: ../sale/saint/learn/toc.yml
     topicHref: ../sale/saint/learn/index.md
 
-  - name: Mobile CRM
-    href: ../mobile/superoffice-mobile/learn/toc.yml
-    topicHref: ../mobile/superoffice-mobile/learn/index.md
-
   - name: Tilpasning
     href: customization.yml
     items:

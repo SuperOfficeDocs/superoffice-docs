@@ -1,13 +1,13 @@
 ### YamlMime:SubCategory
 
 title: Mobile
-summary: This area contains relevant links to all things related to SuperOffice Mobile.
+summary: This area contains relevant links to all things related to SuperOffice mobile apps.
 
 metadata:
-  title: Mobile
-  description: Mobile
+  title: SuperOffice CRM Mobile
+  description: Overview of documentation for the SuperOffice Mobile CRM app.
   ms.topic: landing-page
-  ms.date: 04.14.2021
+  ms.date: 08.15.2023
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -25,38 +25,42 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Install SuperOffice Mobile (v. 9.1 and newer)
-          url: superoffice-mobile/install.md
-        - text: Install Pocket CRM (v. 8 and older)
-          url: pocket-crm/install.md
+        - text: Install SuperOffice Mobile CRM
+          url: superoffice-mobile/getting-started/login.md
+        - text: Set up email
+          url: superoffice-mobile/getting-started/set-up-email.md
+        - text: Set up caller ID
+          url: superoffice-mobile/getting-started/caller-id.md
 
   # Card
-  - title: SuperOffice Mobile
+  - title: SuperOffice Mobile (v. 9.1 and newer)
     linkLists:
       - itemType: school
         typeDesc: learn
         links:
-        - text: Client requirements
-          url: superoffice-mobile/client-requirements.md
-        - text: Security
-          url: superoffice-mobile/security.md
-        - text: FAQ
-          url: superoffice-mobile/faq.md
+        - text: Company/contact
+          url: superoffice-mobile/company-contact/index.md
+        - text: Dashboard
+          url: superoffice-mobile/dashboard/index.md
+        - text: Diary
+          url: superoffice-mobile/diary/index.md
+        - text: Project
+          url: superoffice-mobile/project/index.md
+        - text: Requests
+          url: superoffice-mobile/request/index.md
+        - text: Sale
+          url: superoffice-mobile/sale/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Install
-          url: superoffice-mobile/install.md
+        - text: Send email
+          url: superoffice-mobile/send-email-sms.md
+        - text: Working with documents
+          url: superoffice-mobile/document/index.md
+
   # Card
-  - title: Pocket CRM
+  - title: Pocket CRM (v. 8 and older)
     linkLists:
-      - itemType: school
-        typeDesc: learn
-        links:
-        - text: Client requirements
-          url: pocket-crm/client-requirements.md
-        - text: System requirements
-          url: pocket-crm/system-requirements.md
       - itemType: list
         typeDesc: how-to-guide
         links:
@@ -72,14 +76,35 @@ landingContent:
           url: pocket-crm/compression.md
 
   # Card
-  - title: Requirements
+  - title: Configuration
     linkLists:
       - itemType: library_books
         typeDesc: reference
         links:
-        - text: SuperOffice Mobile client
+        - text: Settings
+          url: superoffice-mobile/settings.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Manage notifications
+          url: superoffice-mobile/manage-notifications.md
+      - itemType: school
+        typeDesc: learn
+        links:
+        - text: Customization
+          url: superoffice-mobile/customization.md
+
+  # Card
+  - title: Requirements and security topics
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Security and architecture
+          url: superoffice-mobile/security.md
+        - text: Mobile CRM client requirements
           url: superoffice-mobile/client-requirements.md
-        - text: Pocket CRM client
+        - text: Pocket client requirements
           url: pocket-crm/client-requirements.md
-        - text: Pocket CRM server
+        - text: Pocket system requirements
           url: pocket-crm/system-requirements.md

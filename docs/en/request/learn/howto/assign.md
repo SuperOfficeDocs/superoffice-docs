@@ -13,7 +13,7 @@ language: en
 
 # Automatic assignment methods for requests
 
-For a request to be your responsibility, your name must appear in the request's **Owner** field. This can be set manually, for example when the [request is created][2]. But it may also be the result of automatic assignment of requests. Such assignment depends on the category the request belongs to, and the assignment method specified for this category.
+[!include[Owner](../includes/request-owner.md)] This can be set manually, for example when the [request is created][2]. But it may also be the result of automatic assignment of requests. Such assignment depends on the category the request belongs to, and the assignment method specified for this category.
 
 ## Assignment methods
 

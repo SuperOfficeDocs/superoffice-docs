@@ -1,0 +1,101 @@
+items:
+- name: Overview
+  href: index.md
+- name: Getting started
+  topicHref: getting-started/index.md
+  items:
+  - name: General
+    href: getting-started/index.md
+  - name: First time use / log in
+    href: getting-started/login.md
+  - name: Set up email account
+    href: getting-started/set-up-email.md
+  - name: Enable caller ID
+    href: getting-started/caller-id.md
+- name: Company and contact
+  topicHref: company-contact/index.md
+  items:
+  - name: Overview
+    href: company-contact/index.md
+  - name: Create
+    href: company-contact/create.md
+  - name: Update
+    href: company-contact/update.md
+  - name: Scan a business card
+    href: company-contact/scan-business-card.md
+  - name: Copy contacts to address book
+    href: company-contact/copy-contact-to-address-book.md
+  - name: Show address in map
+    href: company-contact/show-address-in-map.md
+- name: Diary
+  topicHref: diary/index.md
+  items:
+  - name: Overview
+    href: diary/index.md
+  - name: Create appointment
+    href: diary/create-appointment.md
+  - name: Update appointment
+    href: diary/update-appointment.md
+  - name: Invitations
+    href: diary/invitations.md
+  - name: Join video meeting
+    href: diary/join-video-meeting.md
+- name: Sale
+  topicHref: sale/index.md
+  items:
+  - name: Overview
+    href: sale/index.md
+  - name: Create sale
+    href: sale/create.md
+  - name: Update sale
+    href: sale/update.md
+  - name: Approve quote
+    href: sale/approve-quote.md
+- name: Project
+  topicHref: project/index.md
+  items:
+  - name: Overview
+    href: project/index.md
+  - name: Create project
+    href: project/create.md
+  - name: Update project
+    href: project/update.md
+- name: Request
+  topicHref: request/index.md
+  items:
+  - name: Overview
+    href: request/index.md
+  - name: Create request
+    href: request/create.md
+  - name: Update request properties
+    href: request/update.md
+  - name: Respond
+    href: request/respond.md
+- name: Dashboard
+  topicHref: dashboard/index.md
+  items:
+  - name: Overview
+    href: dashboard/index.md
+  - name: Drill down
+    href: dashboard/drill-down.md
+- name: Documents
+  topicHref: document/index.md
+  items:
+  - name: Overview
+    href: document/index.md
+  - name: Create document
+    href: document/create.md
+  - name: Update document
+    href: document/update.md
+- name: Send email or SMS
+  href: send-email-sms.md
+- name: Manage notifications
+  href: manage-notifications.md
+- name: Customizing the app
+  href: customization.md
+- name: Settings
+  href: settings.md
+- name: Security
+  href: security.md
+- name: Client requirements
+  href: client-requirements.md

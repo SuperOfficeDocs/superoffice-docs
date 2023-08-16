@@ -109,7 +109,7 @@ In the **Interests** tab you have the following options:
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
 <!-- Referenced links -->
-[1]: ../../mobile/superoffice-mobile/learn/scan-business-card.md
+[1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
 [2]: ../../admin/import/learn/index.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: add-relation.md
