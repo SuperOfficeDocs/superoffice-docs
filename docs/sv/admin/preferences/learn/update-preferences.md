@@ -47,7 +47,7 @@ language: sv
 > [!NOTE]
 > Parametrar med aktiva individuella inställningar visas i feststil i inställningslistan.
 
-## Redigera inställningar
+## <a id="edit" />Redigera inställningar
 
 1. Gå till den inställning du vill uppdatera.
 

@@ -19,7 +19,7 @@ language: en
 
 1. Click the exported file to open it in Excel.
 
-## Export to file
+## <a id="to-file" />Export to file
 
 Using this task, you can create a text file containing information about the selection members for use outside of SuperOffice CRM. It can be used both for members which are companies (on the **Companies** section tab) and members which are sales, projects, documents or follow-ups. The template you select in the **Use template** field determines what information is included, the order it is displayed in and the separator character to use.
 

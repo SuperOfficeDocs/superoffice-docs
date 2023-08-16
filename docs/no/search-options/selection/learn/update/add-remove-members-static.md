@@ -78,7 +78,7 @@ Bruk dette alternativet til å legge til de valgte postene i et eksisterende sta
 
 9. Klikk på **OK**. Utvalget er oppdatert.
 
-## Fjerne medlemmer ved hjelp av søkekriterier
+## <a id="remove" />Fjerne medlemmer ved hjelp av søkekriterier
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

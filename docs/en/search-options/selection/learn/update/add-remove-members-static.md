@@ -78,7 +78,7 @@ Use this option to add the selected records to an existing static selection.
 
 9. Click **OK**. The selection is updated.
 
-## Remove members using search criteria
+## <a id="remove" />Remove members using search criteria
 
 [!include[Open Selections](../includes/goto-selections.md)]
 

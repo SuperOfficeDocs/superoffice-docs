@@ -25,7 +25,7 @@ Follow the GIF or steps below to see how you create and send a quote:
 
     You can now [add products to the quote][2].
 
-## Is the Select ERP connection dialog displayed?
+## <a id="erp" />Is the Select ERP connection dialog displayed?
 
 If the **Select ERP connection** dialog is displayed when you are creating a quote, this may be due to:
 

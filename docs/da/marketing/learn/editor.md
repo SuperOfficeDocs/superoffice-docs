@@ -124,7 +124,7 @@ Bruger du den nye Træk og slip-editor eller den tidligere version af editoren?
 
 I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og slip-editoren") som erstatning for den gamle ("Editoren"). Meddelelseseditoren bruges, når der oprettes e-mailudsendelser og formularsvar. Den gamle meddelelseseditor vil stadig være tilgængelig til at redigere meddelelser og skabeloner, der er oprettet i den gamle version. Alle nye udsendelser og skabeloner vil bruge den nye meddelelseseditor.
 
-### Editor (gammel)
+### <a id="old" />Editor (gammel)
 
 ![Editor (gammel) -screenshot][img13]
 

@@ -47,7 +47,7 @@ language: de
 > [!NOTE]
 > Einstellungen mit aktiven individuellen Einstelloptionen werden in der Liste mit den Einstellungen in Fettschrift angezeigt.
 
-## Einstellungsoptionen bearbeiten
+## <a id="edit" />Einstellungsoptionen bearbeiten
 
 1. Gehen Sie zur Einstellung, die Sie aktualisieren möchten.
 

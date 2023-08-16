@@ -22,7 +22,7 @@ In der Ansicht Benutzer können Sie verschiedene Benutzertypen hinzufügen und b
 > [!NOTE]
 > Änderungen, die Sie in der Ansicht Benutzer vornehmen, werden erst wirksam, wenn Sie unten in der Ansicht auf **Speichern** klicken und im daraufhin angezeigten Dialogfeld bestätigen, dass Sie die Änderungen speichern möchten. Wenn Sie auf **Abbrechen** klicken, gehen alle in dieser Ansicht vorgenommenen Änderungen seit Ihrer letzten Speicherung verloren.
 
-## Die Mitarbeiterliste
+## <a id="associates" />Die Mitarbeiterliste
 
 Standardmäßig enthält die Liste auf der Registerkarte **Mitarbeiter** die folgenden Spalten:
 
@@ -51,11 +51,11 @@ In der Übersicht Benutzer gibt es verschiedene Registerkarten:
 * **Lizenzen** - Zusatzinformationen zur Lizenz wie **Konfigurierbare Aktivitäten**, die dem Benutzer die Option geben, Termine, Dokumente und Selektionen **sichtbar zu machen**.
 * **Mehr** - Die Registerkarte zeigt an, ob Zusatzfelder für Personen vorhanden sind.
 
-## Andere Benutzer (vor Ort)
+## <a id="other-users" />Andere Benutzer (vor Ort)
 
 Auf der Registerkarte **Andere Benutzer** auf der Ansicht Benutzer können Login-Rechte für anonyme Benutzer und Systembenutzer bearbeiten und hinzufügen.
 
-## Unsere Firmen
+## <a id="our-companies" />Unsere Firmen
 
 Die Firmenliste auf der Registerkarte **Unsere Firma** in der Ansicht Benutzer soll folgendes angeben:
 

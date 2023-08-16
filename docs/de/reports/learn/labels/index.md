@@ -36,7 +36,7 @@ Diese Schritte gelten für alle Anweisungen auf dieser Seite.
 
 1. Klicken Sie im PDF-Viewer auf die Schaltfläche zum Drucken. Sie können die PDF-Datei im PDF-Viewer speichern, sodass Sie sie später öffnen können.
 
-## Etikettenformate hinzufügen
+## <a id="add-format" />Etikettenformate hinzufügen
 
 Wenn Sie zum Drucken von Etiketten ein Format verwenden möchten, das nicht in den Formatvorlagen enthalten ist, können Sie ein eigenes Format definieren.
 

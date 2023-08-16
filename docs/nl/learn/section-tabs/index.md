@@ -18,7 +18,7 @@ De sectietabbladen (ook wel archieven genoemd) verschijnen onder de hoofdkaart. 
 
 U kunt beslissen welke kolommen worden weergegeven, hoe breed ze moeten zijn en hoe ze moeten worden gesorteerd.
 
-## Lijsten sorteren
+## <a id="sort" />Lijsten sorteren
 
 In de sectietabbladen kunt u de lijsten sorteren op de verschillende kolommen in oplopende of aflopende volgorde.
 

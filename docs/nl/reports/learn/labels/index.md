@@ -36,7 +36,7 @@ Deze stappen zijn van toepassing op alle instructies op deze pagina.
 
 1. Klik op de knop Afdrukken in de PDF-viewer. U kunt het PDF-bestand opslaan vanaf de PDF-viewer zodat u het later kunt openen.
 
-## Etiketopmaken toevoegen
+## <a id="add-format" />Etiketopmaken toevoegen
 
 Als u etiketten wilt afdrukken met een andere opmaak dan reeds beschikbaar is, kunt u een eigen nieuwe opmaak definiëren.
 

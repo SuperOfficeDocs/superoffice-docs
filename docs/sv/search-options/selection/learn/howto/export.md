@@ -19,7 +19,7 @@ language: sv
 
 1. Klicka på den exporterade filen för att öppna den i Excel.
 
-## Exportera till fil
+## <a id="to-file" />Exportera till fil
 
 Med den här uppgiften kan du skapa en textfil med information om medlemmarna i urvalet och använda den utanför SuperOffice CRM. Funktionen kan användas både på medlemmar som är företag (på detaljkortet **Företag**) och medlemmar som är försäljningar, projekt, dokument eller händelser. Mallen som du väljer i fältet **Använd mall** avgör vilken information som tas med, vilken ordning den visas i och vilket skiljetecken som används.
 

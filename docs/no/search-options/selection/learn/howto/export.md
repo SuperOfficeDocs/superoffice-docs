@@ -19,7 +19,7 @@ language: no
 
 1. Klikk på den eksporterte filen for å åpne den i Excel.
 
-## Eksporter til fil
+## <a id="to-file" />Eksporter til fil
 
 Ved hjelp av denne oppgaven kan du opprette en tekstfil med informasjon om utvalgsmedlemmene for bruk utenfor SuperOffice CRM. Funksjonen kan brukes både på medlemmer i form av firmaer (på fanen **Firmaer**) og medlemmer i form av salg, prosjekter, dokumenter eller oppfølginger. Malen du velger i feltet **Bruk mal**, bestemmer hvilken informasjon som kommer med, hvilken rekkefølge den vises i, og hvilket skilletegn som brukes.
 
