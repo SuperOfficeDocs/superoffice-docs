@@ -26,7 +26,7 @@ Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I
 
 2. Klik på den posttype, du vil søge efter, eller klik på **Typiske søgninger** for at få vist en liste over foruddefinerede søgninger. Fanen **Kriterier** åbnes.
 
-3. Skærmbilledet **Søg** indeholder foruddefinerede søgekriterier eller de søgekriterier, du brugte sidste gang. Gør ét af følgende:zds
+3. Skærmbilledet **Søg** indeholder foruddefinerede søgekriterier eller de søgekriterier, du brugte sidste gang. Gør ét af følgende:
 
     * Klik på ![ikon][img3] for at fjerne de kriterier, du ikke vil bruge.
     * Klik på knappen **Tilføj** for at tilføje nye søgekriterier. Der tilføjes en ny linje til kriterielisten.
