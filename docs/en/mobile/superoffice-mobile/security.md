@@ -25,7 +25,9 @@ Mobile CRM uses local caching to speed up data access – this data is stored lo
 Mobile CRM saves data that is accessed in a local SQLite database. This is for all data that is shown in the Mobile CRM application, except documents.
 
 Data that the user does not have access to is not saved. The data is initially saved forever but is periodically updated when accessed again.
-All local data is erased if Mobile CRM is removed from the device, reconfigured to a new installation, or if a new user logs in.
+
+All local data is erased if Mobile CRM is removed from the device, connected to another tenant, or if a new user logs in.
+
 Both [iOS][1] and [Android][2] have default support for encrypting all content if a pin code or password is used to lock the device.
 
 Mobile CRM is using the built-in encryption features of the platform it is running on. NetServer authentication data is protected by additional encryption on top of the default OS encryption.
@@ -104,11 +106,11 @@ In SuperOffice Admin - Preferences - Global preferences:
 
 ## Config
 
-As Mobile CRM can be used for both onsite installation and online tenants, the app needs to know which authentication service to use (CRM Online: True/False).
+As Mobile CRM can be used for both onsite installations and online tenants, the app needs to know which authentication service to use (CRM Online: True/False).
 
 There are 3 initial ways to set Mobile CRM to connect to CRM Online:
 
-* User select: User choice in Mobile CRM on the first initial start of the app
+* User select: User choice in Mobile CRM on the first initial start of the app.
 
 * soprotocol: The soprotocol is used to automatically configure Mobile CRM to connect to CRM Online.
 
