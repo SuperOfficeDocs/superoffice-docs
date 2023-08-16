@@ -19,7 +19,7 @@ language: de
 
 1. Klicken Sie auf die exportierte Datei, um sie in Excel zu öffnen.
 
-## Export in Datei
+## <a id="to-file" />Export in Datei
 
 Mit dieser Aufgabe können Sie eine Textdatei mit Informationen über die Selektionsmitglieder für die Verwendung außerhalb von SuperOffice CRM erstellen. Sie kann sowohl für Mitglieder, die aus Firmen bestehen (auf der Bereichsregisterkarte **Firmen**), als auch für Mitglieder, die aus Verkäufen, Projekten, Dokumenten oder Folgeaufgaben bestehen, verwendet werden. Die im Feld **Vorlage** gewählte Vorlage bestimmt, welche Informationen beinhaltet sind, in welcher Reihenfolge sie angezeigt werden und welches Trennzeichen verwendet wird.
 

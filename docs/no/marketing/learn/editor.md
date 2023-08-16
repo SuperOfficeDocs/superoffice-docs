@@ -124,7 +124,7 @@ Bruker du det nye Dra og slipp-redigeringsprogrammet eller den forrige versjonen
 
 Tidlig i 2021 la SuperOffice til et nytt redigeringsprogram for meldinger ("Dra og slipp-redigeringsprogrammet") for å erstatte det gamle ("Redigeringsprogrammet"). Redigeringsprogrammet for meldinger brukes når du oppretter e-postutsendelser og skjemasvar. Det gamle redigeringsprogrammet for meldinger vil fortsatt være tilgjengelig for redigering av meldinger og maler som er opprettet i den gamle versjonen. Alle nye utsendelser og maler bruker det nye meldingsredigeringsprogrammet.
 
-### Redigeringsprogram (gammelt)
+### <a id="old" />Redigeringsprogram (gammelt)
 
 ![Redigeringsprogram (gammelt) -screenshot][img13]
 

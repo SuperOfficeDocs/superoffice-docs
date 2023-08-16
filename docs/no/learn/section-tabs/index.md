@@ -18,7 +18,7 @@ Detaljkortene (også kalt arkiver) vises under hovedkortet. Her finner du lister
 
 Du kan bestemme hvilke kolonner som skal vises, hvor brede de skal være, og hvordan de skal sorteres.
 
-## Sortere lister
+## <a id="sort" />Sortere lister
 
 I detaljkortene kan du sortere listene etter de ulike kolonnene i stigende eller synkende rekkefølge.
 

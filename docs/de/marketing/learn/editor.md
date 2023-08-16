@@ -124,7 +124,7 @@ Verwenden Sie den neuen Drag & Drop Editor oder die vorherige Version des Editor
 
 Anfang 2021 fügte SuperOffice einen neuen Nachrichten-Editor (den "Drag & Drop Editor") hinzu, der den alten (den "Editor") ersetzt. Der Mitteilungs-Editor wird beim Erstellen von E-Mail-Kampagnen und Formularantworten verwendet. Der alte Nachrichten-Editor steht weiterhin zum Bearbeiten von Nachrichten und Vorlagen zur Verfügung, die in der alten Version erstellt wurden. Alle neuen Kampagnen und Vorlagen werden den neuen Mitteilungs-Editor verwenden.
 
-### Editor (alt)
+### <a id="old" />Editor (alt)
 
 ![Editor (alt) -screenshot][img13]
 

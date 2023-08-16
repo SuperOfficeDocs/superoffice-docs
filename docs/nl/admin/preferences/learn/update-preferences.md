@@ -47,7 +47,7 @@ language: nl
 > [!NOTE]
 > Voorkeuren met actieve individuele instellingen worden met vette tekst weergegeven in de lijst met voorkeuren.
 
-## Voorkeursinstelling bewerken
+## <a id="edit" />Voorkeursinstelling bewerken
 
 1. Ga naar de voorkeur die u wilt bijwerken.
 

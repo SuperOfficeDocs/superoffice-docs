@@ -124,7 +124,7 @@ Are you using the new Drag & drop editor or the previous version of the editor?
 
 In early 2021 SuperOffice added a new message editor (the "Drag & drop editor") to replace the old one (the "Editor"). The message editor is used when creating email mailings and form responses. The old message editor will still be available to edit messages and templates created in the old version. All new mailings and templates use the new message editor.
 
-### Editor (old)
+### <a id="old" />Editor (old)
 
 ![Editor (old) -screenshot][img13]
 

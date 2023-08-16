@@ -25,7 +25,7 @@ Befolgen Sie das GIF-Bild oder die folgenden Schritte, um zu sehen, wie Sie ein 
 
     Sie können jetzt [Produkte zum Angebot hinzufügen][2].
 
-## Wird das Dialogfeld ERP-Verbindung auswählen angezeigt?
+## <a id="erp" />Wird das Dialogfeld ERP-Verbindung auswählen angezeigt?
 
 Wenn das Dialogfeld **ERP-Verbindung auswählen** angezeigt wird, wenn Sie ein Angebot erstellen, kann dies folgende Gründe haben:
 

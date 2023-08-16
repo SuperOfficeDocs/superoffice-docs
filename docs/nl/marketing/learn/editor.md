@@ -124,7 +124,7 @@ Gebruikt u de nieuwe Drag &drop-editor of de vorige versie van de editor?
 
 Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") toegevoegd ter vervanging van de oude (de "Editor"). De berichteditor wordt gebruikt bij het maken van e-mail-mailings en formulierantwoorden. De oude berichteditor is nog steeds beschikbaar om berichten en sjablonen die in de oude versie zijn gemaakt, te bewerken. Alle nieuwe mailings en sjablonen maken gebruik van de nieuwe berichteditor.
 
-### Editor (oud)
+### <a id="old" />Editor (oud)
 
 ![Editor (oud) -screenshot][img13]
 

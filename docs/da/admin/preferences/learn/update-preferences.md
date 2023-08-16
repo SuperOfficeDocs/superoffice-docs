@@ -47,7 +47,7 @@ language: da
 > [!NOTE]
 > Præferencer med aktive individuelle indstillinger vises med fed skrift på præferencelisten.
 
-## Redigering af præferenceindstilling
+## <a id="edit" />Redigering af præferenceindstilling
 
 1. Gå til den præference, du vil opdatere.
 

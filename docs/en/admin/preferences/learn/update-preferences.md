@@ -47,7 +47,7 @@ language: en
 > [!NOTE]
 > Preferences with active individual settings are shown in bold text in the preferences list.
 
-## Edit preference setting
+## <a id="edit" />Edit preference setting
 
 1. Go to the preference you want to update.
 

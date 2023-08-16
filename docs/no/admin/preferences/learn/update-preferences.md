@@ -47,7 +47,7 @@ language: no
 > [!NOTE]
 > Preferanser med aktive brukerinnstillinger vises med fet skrift i preferanselisten.
 
-## Redigere preferanseinnstilling
+## <a id="edit" />Redigere preferanseinnstilling
 
 1. Gå til preferansen du vil oppdatere.
 

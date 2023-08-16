@@ -25,7 +25,7 @@ Följ GIF-bilden eller stegen nedan för att se hur du skapar och skickar en off
 
     Du kan nu [lägga till produkter i offerten][2].
 
-## Visas dialogrutan Välj ERP-koppling?
+## <a id="erp" />Visas dialogrutan Välj ERP-koppling?
 
 Om dialogrutan **Välj ERP-koppling** visas när du ska skapa en offert kan det bero på följande:
 
