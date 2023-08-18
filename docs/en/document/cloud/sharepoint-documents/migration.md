@@ -25,26 +25,41 @@ SharePoint provides granular access control, allowing businesses to define permi
 
 ## How it works
 
-During the migration, selected documents and ALL templates will be transferred to SharePoint. This ensures that users have access to their templates in the new document library.
+During the migration, selected documents and ALL templates are transferred to SharePoint. This ensures that users have access to their templates in the new document library.
 
 After migration, you can open and edit your existing SuperOffice documents in Microsoft 365 SharePoint directly from SuperOffice. These documents can also be accessed from SharePoint by everyone in your company, even those who don't use SuperOffice.
 
+> [!NOTE]
+> If your organization has set up and uses "Visible for" in SuperOffice, "Visible for me" and "Visible for group" documents become private in Sharepoint. "Visible for all" documents get default access rights from SharePoint.
+
+If a document is owned by a user who doesn't exist in SharePoint, the SharePoint App is set as its new owner (you can choose to not migrate such documents)​. These documents will also be in the folder *Other* if you have chosen *Folder structure – user group*.
+
 Successfully moved documents will be deleted from the source library​ (ensuring a seamless transition to SharePoint).
 
-If your organization has set up and uses "Visible for" in SuperOffice, "Visible for me" and "Visible for group" documents become private in Sharepoint. "Visible for all" documents get default access rights from SharePoint.
+If a document fails to be migrated, it is left as-is in SuperOffice CRM Online and can be re-migrated later. Documents that can't be moved will be available as before.
 
-If a document is owned by a user who doesn't exist in SharePoint, the SharePoint App is set as its new owner (you can choose to not migrate such documents)​. These documents will also be in the folder *Other* if you have chosen Folder structure – user group.
+### The wizard
 
-If a document fails to be migrated, it is left as-is in SuperOffice CRM Online and can be re-migrated later.
+The migration wizard guides administrators step-by-step to transfer selected documents from CRM Online to SharePoint.
 
-Documents that can't be moved will be available as before​ (from CRM Online storage).
+The migration wizard has 3 steps. Each step must be completed (passed) before you can move to the next step.
+
+1. Select documents. This allows for a more targeted and organized migration process.
+1. Review and test.
+1. Confirm and schedule job. You can now start the job.
+
+![SharePoint document migration wizard -screenshot][img5]
+
+* The **Next step** button is unavailable until you have finished the current step.
+* Click **Previous step** to go back one step.
+* Click **Cancel** to go back to the **Status** page.
 
 ## Requirements
 
 > [!NOTE]
 > SuperOffice SharePoint Documents must be fully configured before you can migrate to SharePoint.
-
-[List of requirements to set up SharePoint Documents][2]
+>
+> [List of requirements to set up SharePoint Documents][2]
 
 All SuperOffice users with a user plan must log in to CRM Online AFTER configuration and BEFORE migration. Otherwise, the migration-tool cannot create documents in SharePoint on behalf of the user.
 
@@ -52,7 +67,7 @@ To move orphaned documents (those without a SharePoint owner), we need a **Globa
 
 ## Limitations
 
-* Maximum 20 000 documents can be migrated in one migration job. You can select how many documents to migrate per job by creating a document selection.
+* Maximum 20 000 documents can be migrated in one migration job. You can select how many documents to migrate per job by creating a document selection. If you plan to migrate more than this limit, divide the documents into multiple migration jobs, each within the limit.
 
 * The process of migrating documents is time-consuming since both the document itself and its metadata needs to be transferred.
 
@@ -95,18 +110,72 @@ Inform your team members about the upcoming migration and provide them with the 
 
 ## Start migration
 
-The migration wizard guides customers through the step-by-step process to transfer the selected documents from CRM Online to SharePoint.
-
 > [!WARNING]
 > The SuperOffice administrator needs to complete the migration wizard before any changes are done to the documents. This is crucial!
 
-**Settings and maintenance** > **Preferences** > **Document library**
+1. Go to **Settings and maintenance** > **Preferences** > **Document library**.
+2. Click **Move documents from a previously used library, or open migration overview**.
 
-### Wizard
+### Step 1 - Select documents
 
-1. Select documents. This allows for a more targeted and organized migration process.
-1. Review and test
-1. Confirm and schedule job
+In the first step of the wizard, you select which documents from your old library you want to migrate.
+
+![SharePoint document migration step 1 -screenshot][img6]
+
+1. Choose one of the following options:
+
+    * All documents
+    * All documents created after
+      * January 1st the previous year by default. Adjust as needed.
+    * All documents in selection
+      * Choose a selection.
+
+    > [!NOTE]
+    > A document selection can be used as the source of which documents to migrate in a specific migration-job. It can also be used to ensure you don't exceed the limitation of 20 000 documents.
+
+2. Optionally, mark the checkbox to skip documents owned by former employees.
+
+3. Click **Next step**.
+
+### Step 2 - review and test
+
+Based on what was selected in step 1, the wizard will run tests to make sure the migration tool will be able to move documents. If one of these tests failed, we will provide you with an [explanation and how to fix it](#troubleshooting).
+
+![SharePoint document migration step 2 -screenshot][img7]
+
+Click **Next step** to proceed. The button does not turn green and clickable until all tests pass.
+
+**Analyzing documents to be moved:**
+
+| Test | Description |
+|---|---|
+| Identifying number of documents | Counts all documents based on step 1. |
+| Identifying number of templates | The first time, all templates are counted. |
+| Access to target document library | Checks if the tool has sufficient rights to move documents to the new library. |
+| Access to target template library | Checks if the tool has sufficient rights to move templates to the new library. |
+| Testing user credentials | Checks if the tool has credentials for all users in the selected documents. |
+| Testing access for users without credentials (app permission) | Checks if the document set includes orphaned documents (not skipping documents owned by former employees). Then checks if the required app is authorized. |
+| Testing access rights for user groups (visible for) | Checks if you have enabled visible for. Then tests if user groups used by the documents being migrated are mapped to SharePoint domain groups |
+| Identifying documents to migrate | Creates the result set after removing documents belonging to users without credential (if that is ticked) and documents belonging to users without credentials and visible for on document is set to "me". |
+
+**Documents to be moved - estimates:**
+
+| Statistic | Description |
+|---|---|
+| Total number of documents | Selected documents (from step 1). |
+| Documents omitted | Documents belonging to users without credentials and visible for on document is set to "me" + documents belonging to users without credential (if that is ticked).
+| Documents already moved | Documents already in your new library. |
+| Documents to be moved | The number of documents that will actually be moved. |
+
+### Step 3 - Confirm and schedule job
+
+![SharePoint document migration step 3 -screenshot][img8]
+
+1. Review the summary of the job.
+2. Read and pay attention to the notes. This is your last warning before documents are changed!
+3. When you are absolutely sure, click **Start job now**.
+
+    The migration job begins. The wizard returns you to the overview page where you can track the progress. You can't start a new migration while the current job runs.
 
 ## Jobs
 
@@ -165,9 +234,22 @@ All users with a user plan and who owns a document that should be migrated:
 
 ### Retired users need access to target library
 
-You need **SuperOffice Documents library app** to migrate documents owned by old or retired users (no user plan).
+You need **SuperOffice Documents library app** to migrate documents owned by old or retired users (no user plan). You can't turn this on the first time you configure SharePoint documents. It must be fully configured first.
 
-To authorize this app you need access to **Global Admin** rights in Microsoft 365.
+To approve the app (system user):
+
+1. Make sure the configuration of SharePoint document library is complete.
+2. Go to **Settings and maintenance** > **Preferences** > **Document library**.
+3. Click **Settings**. This re-starts the configuration wizard.
+4. Go to **Step 3 - Groups and access**.
+
+    ![SharePoint documents migration, authorize app (system user)-screenshot][img9]
+
+5. Click **Enable system user for storing documents in SharePoint**.
+
+    This is a one-time authorization and will include only the site you selected for your SuperOffice documents. If you are a Microsoft 365 Global Administrator, you can authorize now. If not, copy the URL and send it to someone in your organization with that role.​ They must also be in the owner group of the site (to set Read Write permission)​.
+
+6. Complete the wizard and save.
 
 ### Missing files (Error Not found in the document archive)
 
@@ -240,12 +322,22 @@ You must use **Edit Document** > **Open in Desktop App**.
 
 ## Legacy
 
+## Related content
+
+* [Scopes and explanations why our integration need it][3]
+
 <!-- Referenced links -->
 [1]: index.md#benefits
 [2]: requirements.md
+[3]: permissions-app.md
 
 <!-- Referenced images -->
 [img1]: media/migration-completed-with-failures.png
 [img2]: media/migration-started.png
 [img3]: media/migration-job-details.png
 [img4]: media/edit-legacy-document.png
+[img5]: media/sharepoint-wizard.png
+[img6]: media/migrate-step-1.png
+[img7]: media/migrate-step-2.png
+[img8]: media/migrate-step-3.png
+[img9]: media/authorize-app.png

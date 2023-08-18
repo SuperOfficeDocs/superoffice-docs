@@ -27,6 +27,8 @@ items:
         href: cloud/sharepoint-documents/permissions-app.md
       - name: Troubleshooting
         href: cloud/sharepoint-documents/troubleshooting.md
+      - name: Migration
+        href: cloud/sharepoint-documents/migration.md
     - name: Google Workspace document integration
       href: cloud/g-suite/index.md
       items:
