@@ -33,7 +33,7 @@ All users with a user plan and who owns a document that should be migrated:
 
 You need **SuperOffice Documents library app** to migrate documents owned by old or retired users (no user plan). You can't turn this on the first time you configure SharePoint documents. It must be fully configured first.
 
-To approve the app (system user):
+### <a id="approve-app" />To approve the app (system user)
 
 1. Make sure the configuration of SharePoint document library is complete.
 2. Go to **Settings and maintenance** > **Preferences** > **Document library**.

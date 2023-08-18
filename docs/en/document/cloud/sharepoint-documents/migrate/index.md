@@ -81,6 +81,25 @@ To move orphaned documents (those without a SharePoint owner), we need a **Globa
 
     We strongly recommend that you replace your old legacy template with a template based on the current format.
 
+## <a id="legacy" />Migrate from Microsoft 365 Document Integration (legacy)
+
+How do you handle documents that have never been stored in SoArc Online? Perhaps your organization has used Microsoft 365 Document Integration since it started using SuperOffice.
+
+Documents created with our Microsoft 365 Document Integration are already stored in SharePoint (version 1.0). In theory, [configuring SharePoint 2.0][4] and [migrating existing documents to version 2.0][6] are the same whether you use so_arc (online) or SharePoint 1.0 for. Our tests indicate that it works fine.
+
+As long as the pre-requisite is met (IdP authentication), you should be able to configure SharePoint 2.0 from Settings and maintenance.
+
+> [!NOTE]
+> Ask support to **turn off SharePoint 1.0 for customer XXXX**. This will remove/turn off the old legacy login process "SuperOffice Integrator App in Microsoft 365 SharePoint" to normal SuperID login process.
+
+### Hybrid solutions
+
+Sometimes a customer uses Microsoft 365 Document Integration but store signed documents (from DataBridge or other 3.party document integration) in SoArc Online.
+
+The solution is simple: Move everything to SharePoint documents 2.x
+
+If you have a third-party app that creates documents in SuperOffice, you need to [enable the system user for storing documents in SharePoint][7].
+
 ## Related content
 
 * [Step-by-step migration guide][6]
@@ -91,8 +110,10 @@ To move orphaned documents (those without a SharePoint owner), we need a **Globa
 [1]: ../index.md#benefits
 [2]: ../requirements.md
 [3]: ../permissions-app.md
+[4]: ../set-up.md
 [5]: best-practices.md
 [6]: steps.md
+[7]: troubleshooting.md#approve-app
 
 <!-- Referenced images -->
 [img5]: ../media/sharepoint-wizard.png
