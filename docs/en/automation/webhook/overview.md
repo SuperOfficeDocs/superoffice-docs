@@ -36,6 +36,7 @@ A webhook subscription contains the following properties:
 | Type | Name of webhook plugin that handles dispatching this webhook: "webhook", "CRMScript", etc. |
 | Headers | Hook-specific custom headers to be added to the webhook payload. |
 | Properties | Hook-specific data properties to be added to the webhook payload. |
+| ErrorEmail | Email address to send email notification when webhook disabled. |
 
 While a webhook `name` need not be unique, it should be unique enough to distinguish it from others and describe its purpose.
 
@@ -52,6 +53,8 @@ A webhook `Type` must match the plugin responsible for dispatching notifications
 Webhook `Headers` are any additional header values SuperOffice appends to a request sent with each notification. Headers are a simple "string":"string" value.
 
 Webhook `Properties` are any additional values SuperOffice should append to each request sent with each notification. Properties are a "string": {object} value.
+
+Webhook `ErrorEmail` is one email address used to send error notifications to when a webhook fails too many times and the state is set to TooManyErrors due to an unreachable URL or permanent failure.
 
 ## CRMScript hooks
 

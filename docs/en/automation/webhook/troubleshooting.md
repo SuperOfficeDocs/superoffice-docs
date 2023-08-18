@@ -16,6 +16,15 @@ As developers, it's important to ensure the seamless operation of our applicatio
 
 When things go awry, and your application doesn't seem to be receiving webhook notifications, it's time to put your detective hat on. Here's a systematic guide to help you inspect and diagnose the problem.
 
+> [!TIP]
+> There are two solutions for receiving notifications when a webhook state
+> changes or errors occur.
+>
+> * Use the `ErrorsEmail` property to receive an email notification.
+> * Subscribe to the `webhook{webhookId}.errors` event. [See details][1].
+>
+> It is recommended with the latter method that you use the a different webhook URL than your other webhooks.
+
 ## Checking webhook status
 
 First and foremost, check the status of your webhooks. This can be accomplished by calling one of the following APIs:
@@ -66,3 +75,5 @@ This request will return information about the specific webhook, such as the tot
 In some cases, the webhook may be in an Active state, without any errors, yet you suspect it's not delivering notifications as expected. If this happens, please let us know by sending an email to appdev at superoffice dot com. It could indicate a more complex issue requiring further investigation.
 
 To summarize, troubleshooting webhooks requires understanding their current status and digging deeper into the error messages if necessary. Equipped with the right endpoints, you can systematically diagnose and resolve issues, ensuring the smooth operation of your application.
+
+[1]: subscription.md#create-state-change-webhook
