@@ -29,7 +29,7 @@ All users with a user plan and who owns a document that should be migrated:
 
 * Must be an AAD user in SharePoint-target (access right is not sufficient).
 
-## Retired users need access to target library
+## Retired users don't have access to target library
 
 You need **SuperOffice Documents library app** to migrate documents owned by old or retired users (no user plan). You can't turn this on the first time you configure SharePoint documents. It must be fully configured first.
 

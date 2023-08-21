@@ -50,7 +50,7 @@ Based on what was selected in step 1, the wizard will run tests to make sure the
 
 ![SharePoint document migration step 2 -screenshot][img7]
 
-Click **Next step** to proceed. The button does not turn green and clickable until all tests pass.
+Click **Next step** to proceed. The button doesn't turn green and clickable until all tests pass.
 
 * [Explanation of the tests][2]
 * [Error codes and advice on how to fix them][4]
@@ -60,8 +60,8 @@ Click **Next step** to proceed. The button does not turn green and clickable unt
 ![SharePoint document migration step 3 -screenshot][img8]
 
 1. Review the summary of the job.
-2. Read and pay attention to the notes. This is your last warning before documents are changed!
-3. When you are absolutely sure, click **Start job now**.
+2. Read and pay attention to the notes.
+3. When you are sure, click **Start job now**.
 
     The migration job begins. The wizard returns you to the overview page where you can track the progress. You can't start a new migration while the current job runs.
 
