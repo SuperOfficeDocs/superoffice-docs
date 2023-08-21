@@ -27,6 +27,9 @@ items:
         href: cloud/sharepoint-documents/permissions-app.md
       - name: Troubleshooting
         href: cloud/sharepoint-documents/troubleshooting.md
+      - name: Migration
+        href: cloud/sharepoint-documents/migrate/toc.yml
+        topicHref: cloud/sharepoint-documents/migrate/index.md
     - name: Google Workspace document integration
       href: cloud/g-suite/index.md
       items:
@@ -54,7 +57,7 @@ items:
       - name: Troubleshooting
         href: cloud/legacy/office-365/troubleshooting.md
   - name: WebTools
-    href: ../webtools/toc.yml        
+    href: ../webtools/toc.yml
   - name: Ribbons
     href: ribbons/index.md
     items:

@@ -13,6 +13,8 @@ so.client: online
 
 # SharePoint documents
 
+In today's digital age, effective document management is essential for businesses to streamline their operations and enhance collaboration among team members.
+
 ## What is SharePoint documents?
 
 Open, edit, and store documents in Microsoft 365 SharePoint directly from SuperOffice.
@@ -21,7 +23,7 @@ All documents you write or archive from SuperOffice will be stored in your Share
 
 Activating **SharePoint Online Documents** makes SharePoint Online the preferred document repository for all your documents.
 
-A self-service UI to provision and configure SharePoint as SO repository from SuperOffice Settings and Maintenance.
+A self-service UI to provision and configure SharePoint as SO repository from SuperOffice Settings and maintenance.
 
 ## Benefits
 
@@ -46,9 +48,22 @@ A self-service UI to provision and configure SharePoint as SO repository from Su
 
 ## Things to consider
 
-* Backup of documents - this is now no longer managed by SuperOffice - evaluation is required if the current backup schedule of SharePoint fits well.
+### Backup
 
-* Availability of documents - when documents are stored in SuperOffice, they are only available in the front-end client as the SO_ARC folder is unavailable to users. In SharePoint, the document libraries are accessible and therefore this may be considered a disadvantage by some customers.
+> [!NOTE]
+> With SharePoint as your document library, SuperOffice no longer handles backup of documents
+>
+> Microsoft SharePoint Online has a different backup regime than SuperOffice CRM Online have!
+
+As a platform, Microsoft 365 is secure, but your data is not backed up in a way that most organizations require. Typically, there's only a 30-day retention period built into Microsoft 365. Microsoft SharePoint Online is backed up only every 12 hours, with just a 14-day retention period.
+
+> "SharePoint Online retains backups of all content for 14 additional days beyond actual deletion. If content cannot be restored via the Recycle Bin or Files Restore, an administrator can contact Microsoft Support to request a restore any time inside the 14 day window. Microsoft 365 backs up your SharePoint site every 12 hours."
+
+*[Microsoft online documentation (technet.microsoft.com)][20]*
+
+### Availability
+
+When documents are stored in SuperOffice, they are available only in the front-end client as the SO_ARC folder is unavailable to users. In SharePoint, the document libraries are accessible and therefore this may be considered a disadvantage by some customers.
 
   > [!NOTE]
   > You need **Global Admin** rights in Microsoft 365 to be able to authenticate SuperOffice as a trusted app in your Microsoft 365 solution.
@@ -139,5 +154,7 @@ You can also check out our [webinar about the SharePoint integration][1].
 [12]: configure-permissions-templates.md#step-3a
 [13]: configure-permissions-templates.md#step-3b
 [14]: configure-permissions-templates.md#step-4
+
+[20]: https://social.technet.microsoft.com/Forums/en-US/1906d6db-94ea-42dd-9d4d-9c50205bdeac/do-we-have-to-backup-our-sharepoint-online-sites-or-this-is-been-managed-for-us?forum=onlineservicessharepoint
 
 <!-- Referenced images -->
