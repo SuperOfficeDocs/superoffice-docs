@@ -3,9 +3,11 @@ uid: help-nl-preferences-intro
 title: Voorkeuren
 description: Overzicht van persoonlijke instellingen en hoe u deze kunt wijzigen.
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 08.24.2023
 keywords: voorkeur, instelling
 so.topic: howto
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -35,6 +37,7 @@ U kunt instellingen voor verschillende onderdelen van SuperOffice CRM definiëre
 | ![pictogram][img1] | Standaardwaarden | De standaardwaarden in SuperOffice CRM. Bijvoorbeeld de standaardactiviteiten voor nieuwe bedrijven, de standaardduur van vervolgactiviteiten, de standaardsjabloon voor uitgaande documenten. |
 | ![pictogram][img2] | Agenda | De standaardinstellingen in voor de agenda en afspraken, zoals de standaard starttijd van de werkdag en de duur van alarmen. |
 | ![pictogram][img3] | Functies | De algemene instellingen en functies, inclusief of u een tip van de dag wilt weergeven wanneer u SuperOffice start (Tips weergeven bij openen). |
+| ![icon][img14] | In-app communicatie | De instellingen voor communicatie in SuperOffice CRM. |
 | ![pictogram][img4] | E-mail | De instellingen voor e-mail en fax, bijvoorbeeld de e-mailclient die u hebt geïnstalleerd. |
 | ![pictogram][img5] | Meldingen via pop-up; meldingen via e-mail; meldingen via SMS | De instellingen voor verzoekmeldingen. |
 | ![pictogram][img6] | Persoon | De instellingen voor contactpersonen. |
@@ -47,9 +50,11 @@ U kunt instellingen voor verschillende onderdelen van SuperOffice CRM definiëre
 ## Gerelateerde inhoud
 
 * [Sjabloonvariabelen][1]
+* [Algemene voorkeuren][2] - in Instellingen en onderhoud
 
 <!-- Referenced links -->
 [1]: ../../../en/document/templates/variables/index.md
+[2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/pref-defaultvalues-h32.png
@@ -63,5 +68,6 @@ U kunt instellingen voor verschillende onderdelen van SuperOffice CRM definiëre
 [img9]: ../../../../common/icons/pref-sorting-h32.png
 [img10]: ../../../../common/icons/pref-system-h32.png
 [img11]: ../../../../common/icons/pref-visualeffects-h32.png
+[img14]: ../../../../common/icons/pref-learn-active-h32.png
 [img12]: ../../../media/icons/personal-settings-small.png
 [img13]: ../../../media/loc/en/learn/getstarted-personalsettings.png
