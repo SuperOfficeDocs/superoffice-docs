@@ -6,7 +6,8 @@ author: Kirsti Aakerholt
 so.date: 04.19.2023
 keywords: Rolle, Datenobjekt, Benutzerebene
 so.topic: concept
-so.topic: admin
+so.audience: admin
+so.audience.tooltip: Settings and maintenance
 language: de
 ---
 
@@ -53,7 +54,7 @@ Wenn Sie nicht möchten, dass Benutzer Zugriff auf Einstellungen und Verwaltung 
 
 ## Ihre Rollen verwalten
 
-Im Bereich Rollen können Sie den [Zugriffstyp festlegen][6], die Ihre Benutzer auf die verschiedenen Teile von SuperOffice CRM haben. Sie können auch jede Benutzerebene anpassen, indem Sie die Datenrechte und/oder die verschiedenen Funktionsrechte ändern.
+Im Bereich Rollen können Sie den [Zugriffstyp festlegen][3], die Ihre Benutzer auf die verschiedenen Teile von SuperOffice CRM haben. Sie können auch jede Benutzerebene anpassen, indem Sie die Datenrechte und/oder die verschiedenen [Funktionsrechte][6] ändern.
 
 ![Im Abschnitt Rollen können Sie festlegen, welchen Zugriffstyp Ihre Benutzer auf die verschiedenen Teile von SuperOffice CRM haben -screenshot][img1]
 
@@ -74,7 +75,7 @@ Sie können zum Beispiel auf der Registerkarte Datenrechte entscheiden, ob eine 
 * [Datenrechte für eine Rolle festlegen][3]
 * [Rechte für anonyme Benutzer bearbeiten][4]
 * [Rolle löschen][5]
-* [Datenrechte für eine Rolle festlegen - Technische Dokumentation][6]
+* [Funktionsrechte][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
@@ -82,7 +83,7 @@ Sie können zum Beispiel auf der Registerkarte Datenrechte entscheiden, ob eine 
 [3]: set-data-rights-for-role.md
 [4]: edit-rights-for-anonymous-users.md
 [5]: deleting-role.md
-[6]: ../role/set-data-rights-for-role.md
+[6]: functional-rights.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/manage-user-levels.png

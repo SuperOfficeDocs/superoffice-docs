@@ -6,7 +6,8 @@ author: Kirsti Aakerholt
 so.date: 04.19.2023
 keywords: role, data object, user level
 so.topic: concept
-so.topic: admin
+so.audience: admin
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -53,7 +54,7 @@ If you do not want users to have access to Settings and maintenance, assign user
 
 ## Manage your roles
 
-In the Roles section, you can [determine what type of access][6] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the Data rights and/or the different Functional rights.
+In the Roles section, you can [determine what type of access][3] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the Data rights and/or the different [functional rights][6].
 
 ![The Roles section lets you determine what type of access your users have to the different parts of SuperOffice CRM -screenshot][img1]
 
@@ -74,7 +75,7 @@ You can, for example, decide whether a person can delete, update, create, or rea
 * [Set data rights for a role][3]
 * [Edit rights for anonymous users][4]
 * [Delete a role][5]
-* [Set data rights for a role - Technical docs][6]
+* [Functional rights][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
@@ -82,7 +83,7 @@ You can, for example, decide whether a person can delete, update, create, or rea
 [3]: set-data-rights-for-role.md
 [4]: edit-rights-for-anonymous-users.md
 [5]: deleting-role.md
-[6]: ../role/set-data-rights-for-role.md
+[6]: functional-rights.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/manage-user-levels.png

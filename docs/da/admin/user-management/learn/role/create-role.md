@@ -47,9 +47,9 @@ language: da
     Under denne fane kan du bestemme, hvilke funktioner som skal være tilgængelige for rollen, for eksempel brevfletning, udgivelse, eksport af udvalg og administratoradgang i Indstillinger og vedligeholdelse.
 
     > [!TIP]
-    > Hold musemarkøren over en rettighed for at få vist yderligere oplysninger om denne. Læs mere om [Funktionelle rettigheder][6] i vores FAQ.
+    > Hold musemarkøren over en rettighed for at få vist yderligere oplysninger om denne.
 
-11. Angiv rollens funktionelle rettigheder:
+11. Angiv rollens [funktionelle rettigheder][6]:
 
     [!include[How to set functional rights](includes/add-remove-right.md)]
 
@@ -63,7 +63,7 @@ language: da
 <!-- Referenced links -->
 [4]: editing-role.md
 [5]: ../add-associate.md
-[6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[6]: functional-rights.md
 [7]: set-data-rights-for-role.md
 
 <!-- Referenced images -->

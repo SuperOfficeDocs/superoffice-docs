@@ -47,9 +47,9 @@ language: en
     In this tab you can determine which functions will be available for the role, for example, mail merge, publishing, exporting selections and administrator access in Settings and maintenance.
 
     > [!TIP]
-    > Hold the mouse pointer over a right to display more information about it. Read more about [Functional rights][6] in our FAQ.
+    > Hold the mouse pointer over a right to display more information about it.
 
-11. Set the role's functional rights:
+11. Set the role's [functional rights][6]:
 
     [!include[How to set functional rights](includes/add-remove-right.md)]
 
@@ -63,7 +63,7 @@ language: en
 <!-- Referenced links -->
 [4]: editing-role.md
 [5]: ../add-associate.md
-[6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[6]: functional-rights.md
 [7]: set-data-rights-for-role.md
 
 <!-- Referenced images -->

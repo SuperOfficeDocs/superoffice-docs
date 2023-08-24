@@ -66,8 +66,14 @@ Als de gegevensobjecten (bedrijven, projecten, documenten enzovoort) toegankelij
 Alle SuperOffice CRM-gebruikers hebben toegang tot het scherm Rapporten, maar tot welke rapporten u toegang hebt, is afhankelijk van uw rechten (rol) met betrekking tot vervolgactiviteiten, documenten, omzet en activiteitenlijst. In de praktijk houdt dat in dat u geen rapporten en inhoud kunt genereren die u niet mag bekijken.
 
 <!-- Referenced links -->
+## Aanvervandt
+
+* [Gegevensrechten][3]
+
+<!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
+[3]: functional-rights.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/arrow-down.png

@@ -47,9 +47,9 @@ language: sv
     Här kan du bestämma vilka funktioner som ska vara tillgängliga för rollen, till exempel dokumentkoppling, publicering, export av urval och administratörsbehörighet under Inställningar och underhåll.
 
     > [!TIP]
-    > Håll muspekaren över en behörighet om du vill visa mer information om den. Läs mer om [Funktionella behörigheter][6] i vår FAQ.
+    > Håll muspekaren över en behörighet om du vill visa mer information om den.
 
-11. Definiera rollens funktionella behörigheter:
+11. Definiera rollens [funktionella behörigheter][6]:
 
     [!include[How to set functional rights](includes/add-remove-right.md)]
 
@@ -63,7 +63,7 @@ language: sv
 <!-- Referenced links -->
 [4]: editing-role.md
 [5]: ../add-associate.md
-[6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[6]: functional-rights.md
 [7]: set-data-rights-for-role.md
 
 <!-- Referenced images -->

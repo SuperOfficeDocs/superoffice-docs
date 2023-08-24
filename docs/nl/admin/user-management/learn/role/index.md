@@ -6,7 +6,8 @@ author: Kirsti Aakerholt
 so.date: 04.19.2023
 keywords: rol, gegevensobject, gebruikersniveau
 so.topic: concept
-so.topic: admin
+so.audience: admin
+so.audience.tooltip: Settings and maintenance
 language: nl
 ---
 
@@ -53,7 +54,7 @@ Als u niet wilt dat gebruikers toegang hebben tot instellingen en onderhoud, wij
 
 ## Uw rollen beheren
 
-In de sectie Rollen kunt u [bepalen welk type toegang][6] uw gebruikers hebben tot de verschillende onderdelen van SuperOffice CRM. U kunt ook elk gebruikersniveau aanpassen door de gegevensrechten en/of de verschillende functionele rechten te wijzigen.
+In de sectie Rollen kunt u [bepalen welk type toegang][3] uw gebruikers hebben tot de verschillende onderdelen van SuperOffice CRM. U kunt ook elk gebruikersniveau aanpassen door de gegevensrechten en/of de verschillende [functionele rechten][6] te wijzigen.
 
 ![In de sectie Rollen kunt u bepalen welk type toegang uw gebruikers hebben tot de verschillende onderdelen van SuperOffice CRM -screenshot][img1]
 
@@ -74,7 +75,7 @@ U kunt bijvoorbeeld bepalen of een persoon informatie kan verwijderen, bijwerken
 * [Gegevensrechten voor een rol instellen][3]
 * [Rechten voor anonieme gebruikers bewerken][4]
 * [Een rol verwijderen][5]
-* [Gegevensrechten voor een rol instellen - Technische documenten][6]
+* [Functionele rechten][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
@@ -82,7 +83,7 @@ U kunt bijvoorbeeld bepalen of een persoon informatie kan verwijderen, bijwerken
 [3]: set-data-rights-for-role.md
 [4]: edit-rights-for-anonymous-users.md
 [5]: deleting-role.md
-[6]: ../role/set-data-rights-for-role.md
+[6]: functional-rights.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/manage-user-levels.png
