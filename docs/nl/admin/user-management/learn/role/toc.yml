@@ -5,6 +5,8 @@
     href: create-role.md
   - name: Gegevensrechten voor rol instellen
     href: set-data-rights-for-role.md
+  - name: Gegevensrechten
+    href: functional-rights.md
   - name: Rol bewerken
     href: editing-role.md
   - name: Rechten voor anonieme gebruikers bewerken

@@ -47,9 +47,9 @@ language: de
     Auf dieser Registerkarte können Sie festlegen, welche Funktionen für die Rolle verfügbar sind, wie zum Beispiel Serienbrief erstellen, veröffentlichen, Selektionen exportieren und Administratorzugriff in Einstellungen und Verwaltung.
 
     > [!TIP]
-    > Wenn Sie mit dem Mauszeiger auf ein Recht zeigen, werden weitere Informationen darüber angezeigt. Für weitere Infos über [Funktionelle Rechte][6] siehe unsere FAQ.
+    > Wenn Sie mit dem Mauszeiger auf ein Recht zeigen, werden weitere Informationen darüber angezeigt.
 
-11. Legen Sie die funktionellen Rechte der Rolle fest:
+11. Legen Sie [die funktionellen Rechte][6] der Rolle fest:
 
     [!include[How to set functional rights](includes/add-remove-right.md)]
 
@@ -63,7 +63,7 @@ language: de
 <!-- Referenced links -->
 [4]: editing-role.md
 [5]: ../add-associate.md
-[6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[6]: functional-rights.md
 [7]: set-data-rights-for-role.md
 
 <!-- Referenced images -->

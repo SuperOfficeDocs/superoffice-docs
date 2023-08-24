@@ -65,9 +65,14 @@ Om dataobjekten (företag, projekt, dokument etc.) ska vara tillgängliga för e
 
 Alla SuperOffice CRM-användare har åtkomst till fönstret Rapporter, men vilka rapporter du kommer åt beror på vilka behörigheter du har (roll) med avseende på händelser, dokument, försäljning och aktivitetslistan. I praktiken innebär det att du inte kan skapa rapporter för innehåll som du inte har behörighet att se.
 
+## Relaterat
+
+* [Databehörigheter][3]
+
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
+[3]: functional-rights.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/arrow-down.png

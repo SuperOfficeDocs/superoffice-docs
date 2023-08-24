@@ -6,7 +6,8 @@ author: Kirsti Aakerholt
 so.date: 04.19.2023
 keywords: rolle, dataobjekt, brugerniveau 
 so.topic: concept
-so.topic: admin
+so.audience: admin
+so.audience.tooltip: Settings and maintenance
 language: da
 ---
 
@@ -53,7 +54,7 @@ Hvis du ikke ønsker, at brugerne skal have adgang til Indstillinger og vedligeh
 
 ## Administrer dine roller
 
-I afsnittet Roller kan [du bestemme, hvilken type adgang][6] dine brugere har til de forskellige dele af SuperOffice CRM. Du kan også tilpasse hvert brugerniveau ved at ændre datarettighederne og/eller de forskellige funktionelle rettigheder.
+I afsnittet Roller kan [du bestemme, hvilken type adgang][3] dine brugere har til de forskellige dele af SuperOffice CRM. Du kan også tilpasse hvert brugerniveau ved at ændre datarettighederne og/eller de forskellige [funktionelle rettigheder][6].
 
 ![I afsnittet Roller kan du bestemme, hvilken type adgang dine brugere har til de forskellige dele af SuperOffice CRM -screenshot][img1]
 
@@ -74,7 +75,7 @@ Du kan f.eks. bestemme, om en person kan slette, opdatere, oprette eller læse o
 * [Angivelse af datarettigheder for rolle][3]
 * [Redigering af rettigheder for anonyme brugere][4]
 * [Sletning af en rolle][5]
-* [Angivelse af datarettigheder for rolle - tekniske dokumenter][6]
+* [Funktionelle rettigheder][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
@@ -82,7 +83,7 @@ Du kan f.eks. bestemme, om en person kan slette, opdatere, oprette eller læse o
 [3]: set-data-rights-for-role.md
 [4]: edit-rights-for-anonymous-users.md
 [5]: deleting-role.md
-[6]: ../role/set-data-rights-for-role.md
+[6]: functional-rights.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/manage-user-levels.png
