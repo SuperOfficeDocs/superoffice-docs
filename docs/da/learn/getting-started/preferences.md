@@ -3,9 +3,11 @@ uid: help-da-preferences-intro
 title: Præferencer
 description: Oversigt over personlige indstillinger og hvordan du ændrer dem.
 author: Bergfrid Dias
-so.date: 03.06.2023
+so.date: 08.24.2023
 keywords: præference, indstilling
 so.topic: howto
+so.audience: user
+so.audience.tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -35,6 +37,7 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 | ![ikon][img1] | Standardværdier | Standardværdierne i SuperOffice CRM. F.eks. standardbranche for nyt firma, standardvarighed på poster, standardskabelon for udgående dokumenter. |
 | ![ikon][img2] | Dagbog | Standardindstillinger for dagbog og aftaler, f.eks. standardstarttidspunkt for arbejdsdagen og varigheden af alarmer. |
 | ![ikon][img3] | Funktioner | De generelle indstillinger og funktioner, du kan bl.a. vælge, om du vil vise Dagens tip, når du starter SuperOffice (Vis tip ved opstart). |
+| ![ikon][img14] | Kommunikation i appen | Indstillinger for meddelelser i appen.|
 | ![ikon][img4] | E-mail | Indstillingerne for e-mail og fax, f.eks. den e-mail-klient, du har installeret. |
 | ![ikon][img5] | Meddelelser via popup; Meddelelser via e-mail; Meddelelser via SMS | Indstillinger for sagsbeskeder. |
 | ![ikon][img6] | Kontaktperson | Indstillingerne for kontakter. |
@@ -47,9 +50,11 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 ## Relateret indhold
 
 * [Skabelonvariabler][1]
+* [Globale præferencer][2] - i Indstillinger og vedligeholdelse
 
 <!-- Referenced links -->
 [1]: ../../../en/document/templates/variables/index.md
+[2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/pref-defaultvalues-h32.png
@@ -63,5 +68,6 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 [img9]: ../../../../common/icons/pref-sorting-h32.png
 [img10]: ../../../../common/icons/pref-system-h32.png
 [img11]: ../../../../common/icons/pref-visualeffects-h32.png
+[img14]: ../../../../common/icons/pref-learn-active-h32.png
 [img12]: ../../../media/icons/personal-settings-small.png
 [img13]: ../../../media/loc/en/learn/getstarted-personalsettings.png
