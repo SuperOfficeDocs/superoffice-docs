@@ -1,9 +1,9 @@
 ---
 uid: help-en-user-add
 title: Add user
-description: In this how-to guide, you will learn how to add a new user in SuperOffice CRM.
+description: In this how-to guide, you will learn how to add a new user in SuperOffice CRM and what to do if a newly created user cannot log in.
 author: SuperOffice RnD
-so.date: 02.21.2023
+so.date: 08.28.2023
 keywords: user, associate
 so.topic: howto
 so.audience: settings
@@ -35,10 +35,13 @@ Follow the guided steps or watch the video below to see how you can add a new us
 4. Enter the name and email address of the new user in the top-part of the card.
 5. If more than one owner company is available in your SuperOffice installation, you can select this below the **Email** field.
 6. Enter the relevant information in the **Details** and **Licences** tabs.
+
+    ![Create user details -screenshot][img7]
+
 7. Click **Save**. The name of the new user will now be displayed in the list.
 
 > [!TIP]
-> If active users need a different user plan, you can [assign user plans][4] in Settings and maintenance. How to change user plan for active users.
+> If active users need a different user plan, you can [assign user plans][4] in Settings and maintenance.
 
 ## The Details tab
 
@@ -90,6 +93,56 @@ In the lower part of the user card, you can activate or deactivate the login rig
 3. Select the required user in the list of users.
 4. Make your changes and click **Save**.
 
+## Troubleshooting
+
+### A newly created user cannot log in to SuperOffice ONLINE
+
+There are two common situations when a new user cannot log in:
+
+* The username is not an email address or the email address is not valid
+* The new user's account is not activated
+
+1. [!include[Click Users](includes/goto-users.md)]
+
+1. In the list of users, select the user who cannot log in (2).
+
+    ![Select user -screenshot][img1]
+
+1. Make sure that the user has a valid email address filled in because this email address will receive an activation email.
+
+    ![Verify email address of user -screenshot][img2]
+
+1. Make sure that the user has received the activation email, and that the activation link has been pressed within 48 hours.
+
+    ![Activation email -screenshot][img3]
+
+    To resend the welcome email, go to **Settings and maintenance** > **Users**, select your user, click on the **Task** button and choose **Send welcome email**.
+
+1. Make sure that the user has followed the [instructions on how to log in to SuperOffice CRM][7].
+
+## A newly created user cannot log in to SuperOffice ONSITE
+
+Onsite, if a new user cannot log in, the most common cause is that a SuperOffice licence was no properly assigned during the creation process.
+
+### SuperOffice 9
+
+1. Confirm that the user has a licence assigned (1) and **Can log in** is enabled (2).
+
+1. If that looks OK, try to remove the licence, **Save** the user (3). Then re-assign a licence and toggle login again.
+
+![Assign licence to user -screenshot][img4]
+
+### SuperOffice 8
+
+1. Click on the user (1) who cannot log in, deselect **Active user** (2), and click the **Save** button (4). This removes their licence.
+
+1. Then, re-assign the licence: Make sure that the same user is selected (1), then add a tick next to **Active user** (2), select the user license from the right side list (3), and click **Save** (4).
+
+    ![Select active user -screenshot][img6]
+
+> [!NOTE]
+> If a new user still cannot log in, you can try to [update the SuperOffice CRM license][9] (FAQ).
+
 ## Related
 
 * [Add anonymous or system user (onsite)][5]
@@ -100,5 +153,13 @@ In the lower part of the user card, you can activate or deactivate the login rig
 [3]: role/index.md
 [4]: change-user-plan.md
 [5]: other-users.md
+[7]: ../../../learn/getting-started/login.md
+[9]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=113003
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/admin/select-user-login.png
+[img2]: ../../../../media/loc/en/admin/filled-in-email.png
+[img3]: ../../../../media/loc/en/admin/activation-email.png
+[img4]: ../../../../media/loc/en/admin/give-licence-9.png
+[img6]: ../../../../media/loc/en/admin/select-active-user.png
+[img7]: ../../../../media/loc/en/admin/selected-user-plan.png
