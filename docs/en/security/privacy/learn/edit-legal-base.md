@@ -3,8 +3,8 @@ uid: help-en-edit-legal-base
 title: Edit legal base
 description: In this how-to guide, you will learn about the GDPR features in SuperOffice Marketing that help you ensure that your marketing efforts are GDPR-compliant.
 author: SuperOffice RnD
-so.date: 02.21.2023
-keywords: privacy, consent, legal basis
+so.date: 08.28.2023
+keywords: privacy, consent, legal basis, GDPR
 so.topic: howto
 language: en
 ---
@@ -67,14 +67,66 @@ Every time a person is registered in your SuperOffice CRM database, the consent 
 
 9. Click **Close** when you are done.
 
+## <a id="bulk" />How to set privacy settings of many contacts all at once
+
+If you import or store a lot of data in your SuperOffice CRM, you can do a bulk update to help you get this data GDPR-ready.
+
+In the following example, we create a selection of all contacts registered today and then fill the *Purpose* field.
+
+1. Click **Find** (1) and select **Find Contact** (2) to start your search.
+
+    ![Find screen -screenshot][img8]
+
+1. In the **Criteria** tab, choose how to identify the contacts that need to get updated. In our example, select the field **Registered date** (1) and choose **Today** (2).
+
+    ![Find contacts -screenshot][img9]
+
+    When you are happy with your search setup click **Find** (3) to get a list of these contacts.
+
+1. Click **Save as selection** at the bottom of the list (1). Then choose **Dynamic (or Static) selection** (2), and click **Save** (3).
+
+    ![Save as dynamic selection -screenshot][img3]
+
+1. Fill in the name of the selection (1), choose a **Category** from the drop-down list (2), and click **Save** (3).
+
+    ![Choose category for selection -screenshot][img4]
+
+1. Click the **Task** button at the bottom of the screen (1) and choose **Bulk update** (2).
+
+    ![Bulk update option in the Task menu -screenshot][img5]
+
+1. Go to the **Contact** tab (1) to choose fields and values:
+
+    1. Click **+Add** (2) to include a new field.
+    1. Click **Legal Basis** (3) and choose an action **Add/Update** (4).
+    1. Click **Click here to add legal base for purpose** and set up preferred values in the fields (5).
+    1. Click **Update** (6) to initiate the change.
+
+    ![Bulk update add legal base for purpose -screenshot][img6]
+
+1. Click **Yes** to start the update.
+
+    ![Confirm bulk update -screenshot][img7]
+
+> [!NOTE]
+> **Bulk updates cannot be undone.** That is why we recommend [creating a database backup][3] before making any large data updates ONSITE. Backups of SuperOffice CRM ONLINE are created automatically.
+
 ## Related content
 
 * [Learn more about GDPR, privacy and consent management in SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/best-practices-tips/#gdpr
+[1]: ../../../../en/security/privacy/index.md
 [2]: ../../../learn/basics/bulk-update.md
+[3]: https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=111362
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/security/legal-basisi.png
 [img2]: ../../../../media/loc/en/security/legal-bases-registered-consent.png
+[img3]: ../../../../media/loc/en/security/dynamic-selection.png
+[img4]: ../../../../media/loc/en/security/category-save.png
+[img5]: ../../../../media/loc/en/security/bulk-update.png
+[img6]: ../../../../media/loc/en/security/legal-basis.png
+[img7]: ../../../../media/loc/en/security/yes.png
+[img8]: ../../../../media/loc/en/security/find-fields.png
+[img9]: ../../../../media/loc/en/security/find-contact.png

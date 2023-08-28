@@ -59,12 +59,10 @@ Om du *inte* väljer det här alternativet kommer bara personer med **E-marknads
 
 ## Vad vill du göra nu?
 
-* [Läs mer om GDPR och styrningen av integritet och samtycke i SuperOffice][1]
 * [Lägga till poster i listan Integritet – Rättslig grund][3]
 * [Lägga till poster i listan Integritet – Källa][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/
 [2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md

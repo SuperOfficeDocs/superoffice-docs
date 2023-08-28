@@ -59,12 +59,10 @@ Als u deze optie *niet* selecteert, worden alleen personen die **E-marketing** h
 
 ## Wat wilt u nu doen?
 
-* [Kom meer te weten over AVG, privacy en toestemmingsbeheer in SuperOffice][1]
 * [Items toevoegen aan de lijst Privacy - Rechtsgrondslag][3]
 * [Items toevoegen aan de lijst Privacy - Bron][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/
 [2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md

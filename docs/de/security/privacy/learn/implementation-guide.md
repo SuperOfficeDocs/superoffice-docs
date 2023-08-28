@@ -267,7 +267,6 @@ Mit dem Abschluss der drei Schritte haben Sie wichtige Maßnahmen zur Einhaltung
 ## Verwandt
 
 * [Unsere Vorlage "Vorbereitung auf die DSGVO" herunterladen][3]
-* [Vertiefung, wie SuperOffice CRM Ihnen hilft, alle 8 grundlegenden DSGVO-Rechte zu befolgen und einzuhalten][5]
 * [E-Mail zur Datenschutzbestätigung bearbeiten][6]
 
 <!-- Referenced links -->
@@ -275,7 +274,6 @@ Mit dem Abschluss der drei Schritte haben Sie wichtige Maßnahmen zur Einhaltung
 [2]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN
 [3]: ../../../../assets/downloads/prepare-for-the-gdpr-download-template-9.xlsx
 [4]: https://www.superoffice.com/blog/gdpr/
-[5]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/8-privacy-rights/
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->

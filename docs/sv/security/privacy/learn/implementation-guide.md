@@ -267,7 +267,6 @@ Genom att slutföra de tre stegen har du tagit viktiga steg mot GDPR-efterlevnad
 ## Relaterat
 
 * [Ladda ner vår mall "Förbered dig för GDPR"][3]
-* [Du kan läsa mer om hur SuperOffice CRM hjälper dig att respektera alla åtta grundläggande GDPR-rättigheter][5]
 * [Redigera e-postbekräftelsen om personskydd][6]
 
 <!-- Referenced links -->
@@ -275,7 +274,6 @@ Genom att slutföra de tre stegen har du tagit viktiga steg mot GDPR-efterlevnad
 [2]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN
 [3]: ../../../../assets/downloads/prepare-for-the-gdpr-download-template-9.xlsx
 [4]: https://www.superoffice.com/blog/gdpr/
-[5]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/8-privacy-rights/
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->

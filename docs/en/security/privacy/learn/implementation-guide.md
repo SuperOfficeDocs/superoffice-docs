@@ -267,7 +267,6 @@ By completing the three steps, you have taken important steps towards GDPR compl
 ## Related
 
 * [Download our "Prepare for GDPR" template][3]
-* [You can read how SuperOffice CRM helps you honour and respect all 8 basic GDPR rights][5]
 * [Edit the privacy confirmation email][6]
 
 <!-- Referenced links -->
@@ -275,7 +274,6 @@ By completing the three steps, you have taken important steps towards GDPR compl
 [2]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN
 [3]: ../../../../assets/downloads/prepare-for-the-gdpr-download-template-9.xlsx
 [4]: https://www.superoffice.com/blog/gdpr/
-[5]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/8-privacy-rights/
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
