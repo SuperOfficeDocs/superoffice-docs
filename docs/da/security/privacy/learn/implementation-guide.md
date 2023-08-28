@@ -267,7 +267,6 @@ Ved at gennemføre de tre trin har du taget vigtige skridt i retning af overhold
 ## Tilknyttet
 
 * [Download vores skabelon "Forbered dig på GDPR"][3]
-* [Du kan læse, hvordan SuperOffice CRM hjælper dig med at honorere og respektere alle 8 grundlæggende GDPR-rettigheder][5]
 * [Rediger e-mailen med bekræftelse om personbeskyttelse][6]
 
 <!-- Referenced links -->
@@ -275,7 +274,6 @@ Ved at gennemføre de tre trin har du taget vigtige skridt i retning af overhold
 [2]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN
 [3]: ../../../../assets/downloads/prepare-for-the-gdpr-download-template-9.xlsx
 [4]: https://www.superoffice.com/blog/gdpr/
-[5]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/8-privacy-rights/
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->

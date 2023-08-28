@@ -267,7 +267,6 @@ Door de drie stappen te doorlopen, hebt u belangrijke stappen gezet richting AVG
 ## Aanverwant
 
 * [Download onze sjabloon "Voorbereiden op AVG"][3]
-* [U kunt lezen hoe SuperOffice CRM u helpt alle 8 basisrechten van de AVG te adresseren en te respecteren][5]
 * [E-mail met privacybevestiging bewerken][6]
 
 <!-- Referenced links -->
@@ -275,7 +274,6 @@ Door de drie stappen te doorlopen, hebt u belangrijke stappen gezet richting AVG
 [2]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN
 [3]: ../../../../assets/downloads/prepare-for-the-gdpr-download-template-9.xlsx
 [4]: https://www.superoffice.com/blog/gdpr/
-[5]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/8-privacy-rights/
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
