@@ -36,10 +36,13 @@ Følg trinnene eller se videoen nedenfor for å se hvordan du legger til en ny b
 4. Skriv inn navnet og e-postadressen til den nye brukeren øverst på kortet.
 5. Hvis mer enn ett eierfirma er tilgjengelig i SuperOffice-installasjonen, kan du velge dette under feltet **E-post**.
 6. Skriv inn relevant informasjon i fanene **Detaljer** og **Lisenser**.
+
+    ![Create user details -screenshot][img7]
+
 7. Klikk på **Lagre**. Navnet på den nye brukeren vises nå i listen.
 
 > [!TIP]
-> Hvis aktive brukere trenger en annen brukerplan, kan [du tilordne brukerplaner][4] i Innstillinger og vedlikehold. Slik endrer du brukerplan for aktive brukere.
+> Hvis aktive brukere trenger en annen brukerplan, kan du [tilordne brukerplaner][4] i Innstillinger og vedlikehold.
 
 ## Fanen Detaljer
 
@@ -103,3 +106,4 @@ I den nedre delen av brukerkortet kan du aktivere eller deaktivere påloggingsre
 [5]: other-users.md
 
 <!-- Referenced images -->
+[img7]: ../../../../media/loc/en/admin/selected-user-plan.png

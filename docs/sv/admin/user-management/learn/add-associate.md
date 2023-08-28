@@ -35,10 +35,13 @@ Följ steg för steg-anvisningarna eller titta på filmen nedan för att se hur 
 4. Ange namnet och e-postadressen för den nya användaren på kortets övre del.
 5. Om mer än ett ägarföretag är tillgängligt i din SuperOffice-installation kan du välja det under fältet **E-post**.
 6. Ange relevanta uppgifter på flikarna **Detaljer** och **Licenser**.
+
+    ![Create user details -screenshot][img7]
+
 7. Klicka på **Spara**. Namnet på den nya användaren visas nu i listan.
 
 > [!TIP]
-> Om aktiva användare behöver en annan användarplan kan du [tilldela användarplaner][4] under Inställningar och underhåll. Så ändrar du användarplaner för aktiva användare.
+> Om aktiva användare behöver en annan användarplan kan du [tilldela användarplaner][4] under Inställningar och underhåll.
 
 ## Fliken Detaljer
 
@@ -102,3 +105,4 @@ I den nedre delen av användarkortet kan du aktivera eller inaktivera inloggning
 [5]: other-users.md
 
 <!-- Referenced images -->
+[img7]: ../../../../media/loc/en/admin/selected-user-plan.png

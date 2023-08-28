@@ -3,7 +3,7 @@ uid: help-de-sign-in-to-superoffice
 title: Einloggen
 description: "Loggen Sie sich ein, um Ihr SuperOffice CRM-Konto mit einem SuperOffice CRM-Passwort oder einer Anmelde-Option zu aktivieren."
 author: SuperOffice RnD
-so.date: 03.02.2023
+so.date: 08.28.2023
 keywords: CRM, Anmelden, Login, Passwort
 so.topic: howto
 so.audience: person
@@ -44,9 +44,7 @@ Es gibt zwei Möglichkeiten, wie Sie sich einloggen können, um Ihr SuperOffice 
 
 1. Klicken Sie auf den Link **Jetzt aktivieren** in der E-Mail. Geben Sie in der Login-Ansicht von SuperOffice CRM Ihr eigenes Passwort ein.
 
-    ![Passwort eingeben -screenshot][img6]
-
-    ![Passwortstärke -screenshot][img3]
+    ![Passwort eingeben -screenshot][img6] ![Passwortstärke -screenshot][img3]
 
 1. Nachdem Sie Ihr Konto aktiviert haben, gelangen Sie in SuperOffice CRM und können es verwenden.
 
@@ -68,9 +66,7 @@ Es gibt zwei Möglichkeiten, wie Sie sich einloggen können, um Ihr SuperOffice 
 
 1. Klicken Sie in der E-Mail auf den **Link Jetzt aktivieren**, wonach Sie Ihre E-Mail-Adresse eingeben können.
 
-    ![Passwort eingeben -screenshot][img6]
-
-    ![Passwortstärke -screenshot][img3]
+    ![Passwort eingeben -screenshot][img6] ![Passwortstärke -screenshot][img3]
 
     SuperOffice zeigt Ihnen an, ob Sie ein sicheres oder ein schwaches Passwort wählen. Wir empfehlen Ihnen, ein sicheres Passwort zu wählen.
 
@@ -80,34 +76,14 @@ Wenn Sie nicht mehr mit Ihren Microsoft 365- oder Google Workspace-Benutzerdaten
 
 **Microsoft 365:**
 
-![Loggen Sie sich Microsoft ein -screenshot][img4]
-
-![Loggen Sie sich Microsoft ein -screenshot][img9]
+![Loggen Sie sich Microsoft ein -screenshot][img4] ![Loggen Sie sich Microsoft ein -screenshot][img9]
 
 **Google Workspace:**
 
-![Loggen Sie sich bei Google ein -screenshot][img7]
-
-![Loggen Sie sich bei Google ein -screenshot][img8]
+![Loggen Sie sich bei Google ein -screenshot][img7] ![Loggen Sie sich bei Google ein -screenshot][img8]
 
 > [!NOTE]
 > Wenn Sie Probleme beim Zugriff auf SuperOffice CRM über Ihr verwaltetes Einmalanmelde-System haben, müssen Sie sich an den IT-Support Ihrer Firma wenden, um Hilfe zu erhalten.
-
-## <a id="forgot-password" />Passwort vergessen?
-
-Die Benutzer vergessen oft ihre Anmeldedaten, insbesondere ihr Passwort. Daher ist es nützlich, wenn Sie wissen, wie Sie Ihr SuperOffice CRM-Passwort ändern oder zurücksetzen können. Folgen Sie den Anweisungen für Ihre Version von SuperOffice, um Ihr Passwort zu ändern.
-
-### Online
-
-1. Klicken Sie auf den Link **Passwort vergessen?**
-2. Geben Sie Ihre E-Mail-Adresse ein.
-3. Klicken Sie auf **Passwort zurücksetzen**.
-
-Sie erhalten dann eine E-Mail, die es Ihnen ermöglicht, Ihr Passwort zu ändern.
-
-### Vor Ort
-
-Wenden Sie sich an ihren SuperOffice-Administrator, um ein neues Passwort zu erhalten.
 
 ## In Einstellungen und Verwaltungen anmelden
 
@@ -131,23 +107,35 @@ Sie müssen die Rolle *Benutzerebene 0* oder eine andere Rolle haben, die Ihnen 
 4. Klicken Sie auf **OK**.
 
 > [!NOTE]
-> Es stehen mehrere Authentifizierungsmethoden zur Verfügung, daher hängt es davon ab, mit welcher Authentifizierungsmethode Ihr Benutzer eingerichtet wurde und ob Sie das Passwort ändern können. Schauen Sie sich unsere FAQ an, wenn Sie Ihr [Passwort vergessen][5] haben.
+> Es stehen mehrere Authentifizierungsmethoden zur Verfügung, daher hängt es davon ab, mit welcher Authentifizierungsmethode Ihr Benutzer eingerichtet wurde und ob Sie das Passwort ändern können.
+
+## Fehlerbehebung
+
+### <a id="forgot-password" />Passwort vergessen?
+
+Die Benutzer vergessen oft ihre Anmeldedaten, insbesondere ihr Passwort. Daher ist es nützlich, wenn Sie wissen, wie Sie Ihr SuperOffice CRM-Passwort ändern oder zurücksetzen können. Folgen Sie den Anweisungen für Ihre Version von SuperOffice, um Ihr Passwort zu ändern.
+
+#### Online
+
+1. Klicken Sie auf den Link **Passwort vergessen?**
+2. Geben Sie Ihre E-Mail-Adresse ein.
+3. Klicken Sie auf **Passwort zurücksetzen**.
+
+Sie erhalten dann eine E-Mail, die es Ihnen ermöglicht, Ihr Passwort zu ändern.
+
+#### Vor Ort
+
+Wenden Sie sich an ihren SuperOffice-Administrator, um ein neues Passwort zu erhalten.
 
 ## Zugehörige Inhalte
 
-Haben Sie Probleme bei der Anmeldung? Sie können [unsere FAQs durchsuchen][1], um Informationen zu verschiedenen Problemen bei der Anmeldung zu finden.
-
-* [Was kann man tun, wenn man sich nicht bei SuperOffice CRM Online anmelden kann?][3] - FAQ
-* [Was kann man tun, wenn sich ein neu erstellter Benutzer nicht bei SuperOffice CRM anmelden kann?][4] - FAQ
-* [Wie kann man tun, um das vergessene Passwort für SuperOffice CRM Online zu ändern?][5] - FAQ
 * [Optionen im Menü Persönliche Einstellungen][6]
+* [Was kann man tun, wenn sich ein neu erstellter Benutzer nicht bei SuperOffice CRM anmelden kann][3]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/
 [2]: ../../admin/user-management/learn/index.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-cannot-login-to-superoffice-crm-online/
-[4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
-[5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
+[3]: ../../admin/user-management/learn/add-associate.md
 [6]: preferences.md#options
 [7]: ../../../en/identity-management/single-sign-on/index.md
 

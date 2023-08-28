@@ -35,10 +35,13 @@ Befolgen Sie die Schritte mit Leitfaden oder sehen Sie sich das folgende Video a
 4. Geben Sie den Namen und die E-Mail-Adresse des neuen Benutzers im oberen Bereich der Karte ein.
 5. Wenn in Ihrer SuperOffice-Installation mehr als eine Firma des Eigentümers verfügbar ist, können Sie diese unter dem Feld **E-Mail** auswählen.
 6. Geben Sie die relevanten Informationen in den Registerkarten **Details** und **Lizenzen** ein.
+
+    ![Create user details -screenshot][img7]
+
 7. Klicken Sie auf **Speichern**. Der Name des neuen Benutzers wird in der Liste angezeigt.
 
 > [!TIP]
-> Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4]. Wie man einen Benutzerplan für aktive Benutzer ändert.
+> Wenn aktive Benutzer einen anderen Benutzerplan benötigen, können Sie in Einstellungen und Verwaltung [Benutzerpläne zuordnen][4].
 
 ## Registerkarte Details
 
@@ -102,3 +105,4 @@ Im unteren Bereich der Benutzerkarte können Sie die Login-Rechte des ausgewähl
 [5]: other-users.md
 
 <!-- Referenced images -->
+[img7]: ../../../../media/loc/en/admin/selected-user-plan.png
