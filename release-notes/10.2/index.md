@@ -41,6 +41,12 @@ so.version: 10.2
   * [Archive attachment on a message][12] in Service
   * [Search in the Find request tab gives both selections and requests][12] in Service
 
+* 10.2.7 (01.09.2023):
+  * [Open/download attachments in side bar preview][7] in Service
+  * [Update lists clicking the !-icon][7] in Service
+  * [Create system signature for Requests][7] in Service
+  * [Change rank on contacts by drag & drop][7] in Service
+
 ### Mobile CRM
 
 * 10.2.2 (25.08.2022):

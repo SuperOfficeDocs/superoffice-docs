@@ -15,7 +15,12 @@ so.topic: reference
 * [Close all tabs in Requests screen (10.2.6)][6]
 * [Archive attachment on a message (10.2.6)][6]
 * [Search in the Find request tab gives both selections and requests (10.2.6)][6]
+* [Open/download attachments in side bar preview (10.2.7)][7]
+* [Update lists clicking the !-icon (10.2.7)][7]
+* [Create system signature for Requests (10.2.7)][7]
+* [Change rank on contacts by drag & drop (10.2.7)][7]
 
 <!-- Referenced links-->
 [5]: 10.2.5-update.md
 [6]: 10.2.6-update.md
+[7]: 10.2.7-update.md
