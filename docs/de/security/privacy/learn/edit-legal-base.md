@@ -72,7 +72,7 @@ Jedes Mal, wenn eine Person in Ihrer SuperOffice CRM-Datenbank erfasst wird, wir
 * [Weitere Informationen über die DSGVO, Datenschutz und Einwilligungsmanagement in SuperOffice][1]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/best-practices-tips/#gdpr
+[1]: ../../../../en/security/privacy/index.md
 [2]: ../../../learn/basics/bulk-update.md
 
 <!-- Referenced images -->

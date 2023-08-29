@@ -3,7 +3,7 @@ uid: help-no-sign-in-to-superoffice
 title: Pålogging
 description: Logg på for å aktivere SuperOffice CRM-kontoen med et SuperOffice CRM-passord eller et alternativ for enkel pålogging.
 author: SuperOffice RnD
-so.date: 03.02.2023
+so.date: 08.28.2023
 keywords: CRM, logge på, pålogging, passord
 so.topic: howto
 so.user: user
@@ -44,9 +44,7 @@ Du kan logge på for å aktivere SuperOffice CRM-kontoen din for første gang p�
 
 1. Klikk på koblingen **Aktiver nå** i e-postmeldingen. Skriv inn passordet ditt i påloggingsskjermbildet for SuperOffice CRM.
 
-    ![Skriv inn passord -screenshot][img6]
-
-    ![Styrke på passord -screenshot][img3]
+    ![Skriv inn passord -screenshot][img6] ![Styrke på passord -screenshot][img3]
 
 1. Når du har aktivert kontoen din, går du inn i SuperOffice CRM og kan begynne å bruke den.
 
@@ -68,9 +66,7 @@ Du kan logge på for å aktivere SuperOffice CRM-kontoen din for første gang p�
 
 1. Klikk på koblingen **Aktiver nå** i e-posten, så får du muligheten til å skrive inn e-postadressen din.
 
-    ![Skriv inn passord -screenshot][img6]
-
-    ![Styrke på passord -screenshot][img3]
+    ![Skriv inn passord -screenshot][img6] ![Styrke på passord -screenshot][img3]
 
     SuperOffice vil indikere om du velger et sterkt eller svakt passord. Vi anbefaler deg å velge et sterkt passord.
 
@@ -80,34 +76,14 @@ Når du ikke lenger er logget på med brukerlegitimasjonen for Microsoft 365 ell
 
 **Microsoft 365:**
 
-![Pålogging Microsoft -screenshot][img4]
-
-![Pålogging Microsoft -screenshot][img9]
+![Pålogging Microsoft -screenshot][img4] ![Pålogging Microsoft -screenshot][img9]
 
 **Google Workspace:**
 
-![Pålogging Google -screenshot][img7]
-
-![Pålogging Google -screenshot][img8]
+![Pålogging Google -screenshot][img7] ![Pålogging Google -screenshot][img8]
 
 > [!NOTE]
 > Hvis du har problemer med å få tilgang til SuperOffice CRM via det administrerte Enkel pålogging-systemet, må du kontakte bedriftens IT-støtte for å få hjelp.
-
-## <a id="forgot-password" />Har du glemt passordet?
-
-Folk glemmer ofte legitimasjonen sin, spesielt passordet. Derfor kan det være nyttig å vite hvordan du endrer eller tilbakestiller SuperOffice CRM-passordet. Følg instruksjonene for din versjon av SuperOffice for å endre passordet.
-
-### Pålogget
-
-1. Klikk på koblingen **Glemt passordet?**.
-2. Skriv inn e-postadressen din.
-3. Klikk på **Tilbakestill passord**.
-
-Du vil motta en e-post som lar deg endre passordet ditt.
-
-### Lokalt
-
-Kontakt SuperOffice-administratoren for å få et nytt passord.
 
 ## Logge på Innstillinger og vedlikehold
 
@@ -131,23 +107,35 @@ Du må tilhøre rollen *Brukernivå 0* eller en annen rolle som gir deg påloggi
 4. Klikk på **OK**.
 
 > [!NOTE]
-> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her. Sjekk ut vår FAQ hvis du har [glemt passordet][5] ditt.
+> Flere godkjenningsmetoder er tilgjengelige, så det avhenger av hvilken godkjenningsmetode brukeren din er konfigurert med, og om du kan endre passordet her.
+
+## Feilsøking
+
+### <a id="forgot-password" />Har du glemt passordet?
+
+Folk glemmer ofte legitimasjonen sin, spesielt passordet. Derfor kan det være nyttig å vite hvordan du endrer eller tilbakestiller SuperOffice CRM-passordet. Følg instruksjonene for din versjon av SuperOffice for å endre passordet.
+
+#### Pålogget
+
+1. Klikk på koblingen **Glemt passordet?**.
+2. Skriv inn e-postadressen din.
+3. Klikk på **Tilbakestill passord**.
+
+Du vil motta en e-post som lar deg endre passordet ditt.
+
+#### Lokalt
+
+Kontakt SuperOffice-administratoren for å få et nytt passord.
 
 ## Aktuelt innhold
 
-Har du problemer med å logge på? [Sjekk FAQ][1] for forskjellige påloggingsproblemer.
-
-* [Hva gjør jeg når jeg ikke kan logge på SuperOffice CRM Online?][3] - FAQ
-* [Hva gjør jeg når en nyopprettet bruker ikke kan logge på SuperOffice CRM?][4] - FAQ
-* [Hvordan endrer jeg passordet jeg glemte i SuperOffice CRM Online?][5] - FAQ
 * [Alternativer på menyen Personlige innstillinger][6]
+* [Hva gjør jeg når en nyopprettet bruker ikke kan logge på SuperOffice CRM?][3]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/
 [2]: ../../admin/user-management/learn/index.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-cannot-login-to-superoffice-crm-online/
-[4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
-[5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
+[3]: ../../admin/user-management/learn/add-associate.md
 [6]: preferences.md#options
 [7]: ../../../en/identity-management/single-sign-on/index.md
 

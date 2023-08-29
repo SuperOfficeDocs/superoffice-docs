@@ -3,7 +3,7 @@ uid: help-nl-sign-in-to-superoffice
 title: Aanmelden
 description: Meld u aan om uw SuperOffice CRM-account te activeren met een SuperOffice CRM-wachtwoord of een optie voor eenmalige aanmelding.
 author: SuperOffice RnD
-so.date: 03.02.2023
+so.date: 08.28.2023
 keywords: CRM, aanmelden, aanmelden, wachtwoord
 so.topic: howto
 so.audience: person
@@ -44,9 +44,7 @@ Er zijn twee manieren waarop u zich kunt aanmelden om uw SuperOffice CRM-account
 
 1. Klik op de link **Nu activeren** in de e-mail. Voer in het aanmeldingsscherm van SuperOffice CRM uw eigen wachtwoord in.
 
-    ![Wachtwoord invoeren -screenshot][img6]
-
-    ![Wachtwoordsterkte -screenshot][img3]
+    ![Wachtwoord invoeren -screenshot][img6] ![Wachtwoordsterkte -screenshot][img3]
 
 1. Nadat u uw account hebt geactiveerd, komt u in SuperOffice CRM en kunt u het gaan gebruiken.
 
@@ -68,9 +66,7 @@ Er zijn twee manieren waarop u zich kunt aanmelden om uw SuperOffice CRM-account
 
 1. Klik op de koppeling **Nu activeren** in de e-mail en u krijgt de optie om uw e-mailadres in te voeren.
 
-    ![Wachtwoord invoeren -screenshot][img6]
-
-    ![Wachtwoordsterkte -screenshot][img3]
+    ![Wachtwoord invoeren -screenshot][img6] ![Wachtwoordsterkte -screenshot][img3]
 
     SuperOffice geeft aan of u een sterk of een zwak wachtwoord kiest. We raden u aan om een sterk wachtwoord te kiezen.
 
@@ -80,34 +76,14 @@ Wanneer u niet langer bent aangemeld met uw Microsoft 365- of Google Workspace-g
 
 **Microsoft 365:**
 
-![Aanmelden Microsoft -screenshot][img4]
-
-![Aanmelden Microsoft -screenshot][img9]
+![Aanmelden Microsoft -screenshot][img4] ![Aanmelden Microsoft -screenshot][img9]
 
 **Google Workspace:**
 
-![Aanmelden Google -screenshot][img7]
-
-![Aanmelden Google -screenshot][img8]
+![Aanmelden Google -screenshot][img7] ![Aanmelden Google -screenshot][img8]
 
 > [!NOTE]
 > Als u problemen ondervindt bij het openen van SuperOffice CRM via uw beheerde systeem voor eenmalige aanmelding, moet u contact opnemen met de IT-ondersteuning van uw bedrijf voor hulp.
-
-## <a id="forgot-password" />Wachtwoord vergeten?
-
-Mensen vergeten vaak hun aanmeldreferenties, vooral hun wachtwoord. Daarom kan het handig zijn om te weten hoe u uw SuperOffice CRM-wachtwoord kunt wijzigen of opnieuw kunt instellen. Volg de instructies voor uw versie van SuperOffice om uw wachtwoord te wijzigen.
-
-### Online
-
-1. Klik op de koppeling **Wachtwoord vergeten?**
-2. Voer uw e-mailadres in.
-3. Klik op **Reset wachtwoord**.
-
-U ontvangt een e-mail waarmee u uw wachtwoord kunt wijzigen.
-
-### Lokaal
-
-Neem contact op met uw SuperOffice-beheerder om een nieuw wachtwoord te ontvangen.
 
 ## Aanmelden voor Instellingen en onderhoud
 
@@ -131,23 +107,35 @@ Hiervoor dient u een rol op *Gebruikersniveau 0* te hebben, of een andere rol wa
 4. Klik op **OK**.
 
 > [!NOTE]
-> Er zijn meerdere verificatiemethoden beschikbaar, dus het hangt ervan af met welke verificatiemethode uw gebruiker is ingesteld en of u het wachtwoord hier kunt wijzigen. Bekijk onze Veelgestelde vragen als u [uw wachtwoord bent vergeten][5].
+> Er zijn meerdere verificatiemethoden beschikbaar, dus het hangt ervan af met welke verificatiemethode uw gebruiker is ingesteld en of u het wachtwoord hier kunt wijzigen.
+
+## Probleemoplossing
+
+### <a id="forgot-password" />Wachtwoord vergeten?
+
+Mensen vergeten vaak hun aanmeldreferenties, vooral hun wachtwoord. Daarom kan het handig zijn om te weten hoe u uw SuperOffice CRM-wachtwoord kunt wijzigen of opnieuw kunt instellen. Volg de instructies voor uw versie van SuperOffice om uw wachtwoord te wijzigen.
+
+#### Online
+
+1. Klik op de koppeling **Wachtwoord vergeten?**
+2. Voer uw e-mailadres in.
+3. Klik op **Reset wachtwoord**.
+
+U ontvangt een e-mail waarmee u uw wachtwoord kunt wijzigen.
+
+#### Lokaal
+
+Neem contact op met uw SuperOffice-beheerder om een nieuw wachtwoord te ontvangen.
 
 ## Gerelateerde inhoud
 
-Problemen met aanmelden? [Bekijk onze veelgestelde vragen][1] voor verschillende aanmeldproblemen.
-
-* [Wat te doen als ik niet kan aanmelden op SuperOffice CRM Online?][3] - Veelgestelde vragen
-* [Wat te doen als een nieuw aangemaakte gebruiker zich niet kan aanmelden bij SuperOffice CRM?][4] - Veelgestelde vragen
-* [Hoe wijzig ik het wachtwoord dat ik ben vergeten in SuperOffice CRM Online?][5] - Veelgestelde vragen
 * [Opties in het menu Persoonlijke instellingen][6]
+* [Wat te doen als een nieuw aangemaakte gebruiker zich niet kan aanmelden bij SuperOffice CRM][3]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/support-faqs/
 [2]: ../../admin/user-management/learn/index.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-cannot-login-to-superoffice-crm-online/
-[4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
-[5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
+[3]: ../../admin/user-management/learn/add-associate.md
 [6]: preferences.md#options
 [7]: ../../../en/identity-management/single-sign-on/index.md
 

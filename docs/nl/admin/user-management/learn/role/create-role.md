@@ -47,9 +47,9 @@ language: nl
     Via dit tabblad kunt u bepalen welke functies beschikbaar moeten zijn voor de rol, bijvoorbeeld samenvoegbewerkingen, publiceren, selecties exporteren en beheerdersrechten in Instellingen en onderhoud.
 
     > [!TIP]
-    > Plaats de muisaanwijzer op een recht om informatie erover weer te geven. Lees meer over [Functionele rechten][6] in onze Veelgestelde vragen.
+    > Plaats de muisaanwijzer op een recht om informatie erover weer te geven.
 
-11. Stel de functionele rechten van de rol in:
+11. Stel de [functionele rechten][6] van de rol in:
 
     [!include[How to set functional rights](includes/add-remove-right.md)]
 
@@ -63,7 +63,7 @@ language: nl
 <!-- Referenced links -->
 [4]: editing-role.md
 [5]: ../add-associate.md
-[6]: https://community.superoffice.com/en/support-faqs/faq/whichare-all-availablefunctional-rights-in-superoffice-and-what-each-of-them-mean/
+[6]: functional-rights.md
 [7]: set-data-rights-for-role.md
 
 <!-- Referenced images -->

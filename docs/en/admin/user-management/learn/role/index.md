@@ -2,11 +2,12 @@
 uid: help-en-role
 title: Role
 description: Role
-author: Kirsti Aakerholt
-so.date: 04.19.2023
+author: Kirsti Aakerholt, Bergfrid Dias
+so.date: 08.25.2023
 keywords: role, data object, user level
 so.topic: concept
-so.topic: admin
+so.audience: admin
+so.audience.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -20,9 +21,12 @@ A role describes two things:
 
 * Which **data objects** (company, contact, project, project members, selection, sale, stakeholder, follow-up, document, relation, dashboards, and target) to make accessible for the users who have this role.
 
-    Accessibility is specified using rights: none, read, create, update and delete.
+    Accessibility is specified using rights: none, read, create, update, and delete.
 
 * Which **functions** (for example, administrator access in Settings and maintenance, allow bulk update, quote approval, mail merge, exporting selections and publishing) to make accessible to users with this role.
+
+> [!NOTE]
+> All users must have one role and belong to a primary user group. They may also belong to other (secondary) groups.
 
 ## Predefined roles
 
@@ -53,11 +57,11 @@ If you do not want users to have access to Settings and maintenance, assign user
 
 ## Manage your roles
 
-In the Roles section, you can [determine what type of access][6] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the Data rights and/or the different Functional rights.
+In the Roles section, you can [determine what type of access][3] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the data rights and/or the different [functional rights][6].
 
 ![The Roles section lets you determine what type of access your users have to the different parts of SuperOffice CRM -screenshot][img1]
 
-You can, for example, decide whether a person can delete, update, create, or read information on the Data rights tab. On the Functional rights tab you can allow different functional rights on the different roles, like Allow bulk update, or List administrator, by moving them to the right column for "This role can".
+You can decide whether a person can delete, update, create, or read information on the **Data rights** tab.
 
 | Role | Explanation | None | Read | Create | Update | Delete |
 |---|---|:-:|:-:|:-:|:-:|:-:|
@@ -67,6 +71,12 @@ You can, for example, decide whether a person can delete, update, create, or rea
 | Update | Can update |  | X | X | X |  |
 | Delete | Can delete |  | X | X | X | X |
 
+You can set different access rights for each data object. For example, in Settings and maintenance, you selected a role **User level 1** (a) and set **Delete** (b) right to a company data object under the primary group column. This configuration means that any user who has User level 1 role will be able to read, create, update and delete all the companies that belong to other users who are members of his/her primary group.
+
+On the **Functional rights** tab you can allow different functional rights on the different roles, such as *Allow bulk update*, or *List administrator*, by moving them to the right column for "This role can".
+
+![Functional rights -screenshot][img4]
+
 ## What would you like to do now?
 
 * [Create a role][1]
@@ -74,7 +84,6 @@ You can, for example, decide whether a person can delete, update, create, or rea
 * [Set data rights for a role][3]
 * [Edit rights for anonymous users][4]
 * [Delete a role][5]
-* [Set data rights for a role - Technical docs][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
@@ -82,7 +91,8 @@ You can, for example, decide whether a person can delete, update, create, or rea
 [3]: set-data-rights-for-role.md
 [4]: edit-rights-for-anonymous-users.md
 [5]: deleting-role.md
-[6]: ../role/set-data-rights-for-role.md
+[6]: functional-rights.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/admin/manage-user-levels.png
+[img4]: ../../../../../media/loc/en/admin/functional-rights.png

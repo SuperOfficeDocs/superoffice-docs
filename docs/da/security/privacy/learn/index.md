@@ -59,12 +59,10 @@ Hvis du *ikke* vælger denne indstilling, vil kun personer med **E-markedsførin
 
 ## Hvad ønsker du at foretage dig nu?
 
-* [Få mere at vide om GDPR, privacy og samtykkehåndtering i SuperOffice][1]
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Retsgrundlag][3]
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Kilde][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/
 [2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md

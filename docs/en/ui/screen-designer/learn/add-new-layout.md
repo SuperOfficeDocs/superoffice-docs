@@ -81,15 +81,15 @@ Create a new layout for a specific user group by setting up section tabs with co
 
 ## Related content
 
-* [How do I configure what information the users of our company can access in SuperOffice CRM?][3] - FAQ
-* [How do I create a new User Group in SuperOffice CRM?][4] - FAQ
+* [How do I configure what information the users of our company can access in SuperOffice CRM?][3]
+* [How do I create a new User Group in SuperOffice CRM?][4]
 * [User administration][5]
 
 <!-- Referenced links -->
 [1]: edit-layout.md
 [2]: edit-layout-archives.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-configure-what-information-the-users-of-our-company-can-access-in-superoffice-crm/
-[4]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-create-a-new-user-group-in-superoffice-crm/
+[3]: ../../../admin/user-management/learn/role/index.md
+[4]: ../../../admin/user-management/learn/user-groups.md
 [5]: ../../../admin/user-management/learn/index.md
 
 <!-- Referenced images -->

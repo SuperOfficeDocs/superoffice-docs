@@ -65,9 +65,14 @@ Hvis dataobjekterne (firmaer, projekter, dokumenter osv.) skal gøres tilgængel
 
 Alle SuperOffice CRM-brugere har adgang til skærmbilledet Rapporter, men de enkelte rapporter, du kan få adgang til, afhænger af de rettigheder, du har (rolle) i forhold til opfølgninger, dokumenter, salg og aktivitetslisten. I praksis betyder det, at du ikke kan generere rapporter for indhold, du ikke har tilladelse til at se.
 
+## Relateret
+
+* [Datarettigheter][3]
+
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
+[3]: functional-rights.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/arrow-down.png

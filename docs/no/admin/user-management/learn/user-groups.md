@@ -3,7 +3,7 @@ uid: help-no-user-group-manage
 title: Administrere brukergrupper
 description: Slik oppretter og sletter du brukergrupper
 author: Bergfrid Dias
-so.date: 03.15.2023
+so.date: 08.25.2023
 keywords: brukergruppe
 so.topic: howto
 so.audience: settings
@@ -13,12 +13,25 @@ language: no
 
 # Administrere brukergrupper
 
+For å gruppere kolleger sammen og gi dem tilgang til CRM-data basert på denne grupperingen, må du opprette en ny brukergruppe i SuperOffice og deretter tildele denne gruppen til kollegaene dine.
+
 ## <a id="create" />Opprette brukergrupper
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Velg ![ikon][img2] **Lister** i navigatoren.
-1. Velg **Generelt - Brukergruppe** i listen.
-1. Skriv inn informasjon i dialogboksen, og klikk deretter på **OK**.
+
+1. Velg ![ikon][img2] **Lister** i navigatoren (1).
+
+    ![Opprette brukergruppe -screenshot][img3]
+
+1. Velg **Generelt - Brukergruppe** i listen (2) og klikk **+Legg til** (3).
+
+1. Skriv inn informasjon i dialogboksen. Valgfritt, velg en eller flere [sakskategorier][4] for denne gruppen.
+
+    ![Opprette brukergruppe -screenshot][img4]
+
+1. Klikk deretter på **OK**. Nå er den nye brukergruppen tilgjengelig i Bruker-dialogen.
+
+    ![Brukere-bildet -screenshot][img5]
 
 ## <a id="delete" />Slette brukergruppe
 
@@ -26,7 +39,20 @@ language: no
 1. Klikk på navnet på ønsket brukergruppe.
 1. Klikk på **Slett**-knappen nederst i bildet.
 
+## Aktuelt innhold
+
+* [Legge til en ny bruker][1]
+* [Importere brukere][2]
+* [Konfigurere hvilken informasjon brukerne i firmaet ditt kan få tilgang til i SuperOffice CRM.][3]
+
 <!-- Referenced links -->
+[1]: add-associate.md
+[2]: import-users.md
+[3]: role/index.md
+[4]: ../../../request/learn/category/index.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../common/icons/nav-admin-lists-active.png
+[img3]: ../../../../media/loc/en/admin/add-user-group.png
+[img4]: ../../../../media/loc/en/admin/edit-list-item.png
+[img5]: ../../../../media/loc/en/admin/user-dialog.png

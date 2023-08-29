@@ -59,12 +59,10 @@ Hvis du *ikke* velger dette alternativet, vil bare personer med **E-markedsføri
 
 ## Hva vil du gjøre nå?
 
-* [Lær mer om GDPR, personvern- og samtykkehåndtering i SuperOffice][1]
 * [Legg til elementer i listen Personvern - Hjemmel][3]
 * [Legge til elementer i listen Personvern - Kilde][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/
 [2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md

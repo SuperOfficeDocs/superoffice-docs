@@ -65,9 +65,14 @@ If the data objects (companies, projects, documents and so on) to make accessibl
 
 All SuperOffice CRM users have access to the Reports screen, but the individual reports you can access depend on the rights you have (role) in respect of follow-ups, documents, sales and the activities list. In practice, this means that you cannot generate reports for content you do not have permission to view.
 
+## Related
+
+* [Functional rights][3]
+
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
+[3]: functional-rights.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/arrow-down.png

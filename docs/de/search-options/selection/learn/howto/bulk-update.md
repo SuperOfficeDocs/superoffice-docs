@@ -35,12 +35,12 @@ Sehen Sie sich das Video an oder befolgen Sie die folgenden Schritte, um zu lern
 
 ## Verwandter Info
 
-* [Wie fülle ich die Felder "Rechtsgrundlage", "Einwilligungsnachweis" und "Zweck" für viele Personen in SuperOffice CRM gleichzeitig aus?][3] - FAQ
+* [Wie fülle ich die Felder "Rechtsgrundlage", "Einwilligungsnachweis" und "Zweck" für viele Personen in SuperOffice CRM gleichzeitig aus?][3]
 * [Massenlöschung von Personen und Firmen aus der Selektion][1]
 
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
+[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
 
 <!-- Referenced images -->

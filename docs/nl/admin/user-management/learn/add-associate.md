@@ -35,10 +35,13 @@ Volg de begeleide stappen of bekijk de onderstaande video om te zien hoe u een n
 4. Voer de naam en het e-mailadres van de nieuwe gebruiker in het bovenste deel van de kaart in.
 5. Als er meer dan één bedrijf beschikbaar is als eigenaar in uw SuperOffice-installatie, kunt u dit selecteren onder het veld **E-mail**.
 6. Voer de relevante informatie in de tabbladen **Details** en **Licenties** in.
+
+    ![Create user details -screenshot][img7]
+
 7. Klik op **Opslaan**. De naam van de nieuwe gebruiker wordt nu weergegeven in de lijst.
 
 > [!TIP]
-> Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud. Een gebruikersplan voor actieve gebruikers wijzigen.
+> Als actieve gebruikers een ander gebruikersplan nodig hebben, kunt u [gebruikersplannen toewijzen][4] in Instellingen en onderhoud.
 
 ## Het tabblad Details
 
@@ -102,3 +105,4 @@ In het onderste deel van de gebruikerskaart kunt u aanmeldrechten van de geselec
 [5]: other-users.md
 
 <!-- Referenced images -->
+[img7]: ../../../../media/loc/en/admin/selected-user-plan.png

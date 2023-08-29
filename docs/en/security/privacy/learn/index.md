@@ -59,12 +59,10 @@ If you do *not* select this option, only persons with **E-marketing** set to **O
 
 ## What do you want to do now?
 
-* [Learn more about GDPR, privacy and consent management in SuperOffice][1]
 * [Add items to the Privacy - Legal basis list][3]
 * [Add items to the Privacy - Source list][4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/how-to-set-up-privacy-settings-for-gdpr-in-superoffice-crm/
 [2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md

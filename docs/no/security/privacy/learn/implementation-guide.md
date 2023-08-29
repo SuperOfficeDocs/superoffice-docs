@@ -268,7 +268,6 @@ Ved å fullføre de tre trinnene har du tatt viktige skritt mot GDPR-samsvar. Me
 ## Beslektet
 
 * [Last ned malen "Forbered deg på GDPR"][3]
-* [Du kan lese hvordan SuperOffice CRM hjelper deg med å respektere alle de 8 grunnleggende GDPR-rettighetene][5]
 * [Rediger e-postbekreftelsen for personvern][6]
 
 <!-- Referenced links -->
@@ -276,7 +275,6 @@ Ved å fullføre de tre trinnene har du tatt viktige skritt mot GDPR-samsvar. Me
 [2]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504&from=EN
 [3]: ../../../../assets/downloads/prepare-for-the-gdpr-download-template-9.xlsx
 [4]: https://www.superoffice.com/blog/gdpr/
-[5]: https://community.superoffice.com/en/learning/best-practices-tips/gdpr/8-privacy-rights/
 [6]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->

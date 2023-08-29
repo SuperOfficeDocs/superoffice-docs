@@ -65,9 +65,14 @@ Wenn externe Benutzer (Audience-Benutzer) Zugriff auf die Datenobjekte (Firmen, 
 
 Alle SuperOffice CRM-Benutzer haben Zugriff auf die Ansicht Berichte, während die einzelnen Berichte, auf die Sie Zugriff haben, von den Rechten gemäß den Folgeaufgaben, Dokumenten, Verkäufen und Aktivitätslisten haben. In der Praxis bedeutet dies, dass Sie keine Berichte für Inhalte erstellen können, für die Sie keine Berechtigung zum Anzeigen haben.
 
+## Vervandt
+
+* [Datenrechte][3]
+
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
+[3]: functional-rights.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/arrow-down.png

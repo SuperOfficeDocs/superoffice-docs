@@ -65,9 +65,14 @@ Hvis dataobjekter (firmaer, prosjekter, dokumenter og så videre) skal gjøres t
 
 Alle SuperOffice CRM-brukere har tilgang til Rapporter-bildet, men hvilke individuelle rapporter du har tilgang til å lage, avhenger av hvilke rettigheter du har til oppfølginger, dokumenter, salg og sjekkliste. Dette betyr i praksis at du ikke kan generere rapporter med innhold du ikke har tilgang til å se.
 
+## Relatert
+
+* [Datarettigheter][3]
+
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
+[3]: functional-rights.md
 
 <!-- Referenced images -->
 [img3]: ../../../../../media/icons/arrow-down.png

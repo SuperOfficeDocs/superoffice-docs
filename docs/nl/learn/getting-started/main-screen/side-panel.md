@@ -95,7 +95,7 @@ Er wordt een afdrukvoorbeeld van de geselecteerde activiteit, het geselecteerde 
 Hiermee wordt een overzicht van de informatie over het huidige project in het scherm Project weergegeven.
 
 > [!TIP]
-> Als u andere projecten wilt bekijken zonder dat u van project hoeft te wisselen in het projectscherm, klikt u op de pijl (![pictogram][img3] naast de productnaam om de [historielijst][1] te openen.
+> Als u andere projecten wilt bekijken zonder dat u van project hoeft te wisselen in het projectscherm, klikt u op de pijl ![pictogram][img3] naast de productnaam om de [historielijst][1] te openen.
 
 ## Projectleden
 

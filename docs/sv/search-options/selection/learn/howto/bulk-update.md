@@ -35,12 +35,12 @@ Titta på videon eller följ stegen nedan för att lära dig hur du massuppdater
 
 ## Relaterad info
 
-* [Hur fyller jag i fälten "Rättslig grund", "Samtyckeskälla" och "Syfte" för flera kontakter samtidigt i SuperOffice CRM?][3] - FAQ
+* [Hur fyller jag i fälten "Rättslig grund", "Samtyckeskälla" och "Syfte" för flera kontakter samtidigt i SuperOffice CRM?][3]
 * [Ta bort flera kontakter och företag samtidigt från ett urval][1]
 
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
+[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
 
 <!-- Referenced images -->
