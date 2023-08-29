@@ -81,15 +81,15 @@ Opret et nyt layout for en bestemt brugergruppe ved at oprette detaljekort med i
 
 ## Relateret indhold
 
-* [Hvordan konfigurerer jeg, hvilken information brugerne af vores firma kan få adgang til i SuperOffice CRM?][3] - FAQ
-* [Hvordan opretter jeg en ny brugergruppe i SuperOffice CRM?][4] - FAQ
+* [Hvordan konfigurerer jeg, hvilken information brugerne af vores firma kan få adgang til i SuperOffice CRM?][3]
+* [Hvordan opretter jeg en ny brugergruppe i SuperOffice CRM?][4]
 * [Brugeradministration][5]
 
 <!-- Referenced links -->
 [1]: edit-layout.md
 [2]: edit-layout-archives.md
-[3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-configure-what-information-the-users-of-our-company-can-access-in-superoffice-crm/
-[4]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-create-a-new-user-group-in-superoffice-crm/
+[3]: ../../../admin/user-management/learn/role/index.md
+[4]: ../../../admin/user-management/learn/user-groups.md
 [5]: ../../../admin/user-management/learn/index.md
 
 <!-- Referenced images -->

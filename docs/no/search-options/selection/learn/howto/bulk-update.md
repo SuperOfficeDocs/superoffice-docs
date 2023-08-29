@@ -35,12 +35,12 @@ Se videoen, eller følg trinnene nedenfor for å finne ut hvordan du utfører en
 
 ## Relatert informasjon
 
-* [Hvordan fyller jeg ut feltene "Hjemmel", "Samtykkekilde" og "Formål" for mange personer i SuperOffice CRM samtidig?][3] - FAQ
+* [Hvordan fyller jeg ut feltene "Hjemmel", "Samtykkekilde" og "Formål" for mange personer i SuperOffice CRM samtidig?][3]
 * [Massesletting av personer og firmaer fra utvalg][1]
 
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
+[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
 
 <!-- Referenced images -->

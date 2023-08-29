@@ -35,12 +35,12 @@ Bekijk de video of volg de onderstaande stappen om te zien hoe u Bulksgewijs bij
 
 ## Gerelateerde info
 
-* [Hoe vul ik voor veel personen in één keer de velden "Juridische basis", "Toestemmingsbron" en "Doel" in in SuperOffice CRM?][3] - FAQ
+* [Hoe vul ik voor veel personen in één keer de velden "Juridische basis", "Toestemmingsbron" en "Doel" in in SuperOffice CRM?][3]
 * [Massaal personen en bedrijven uit selectie verwijderen][1]
 
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
+[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
 
 <!-- Referenced images -->

@@ -35,12 +35,12 @@ Watch the video or follow the steps below to learn how to bulk update from the C
 
 ## Related info
 
-* [How do I fill in the "Legal base", "Consent source" and "Purpose" fields to many contacts in SuperOffice CRM all at the same time?][3] - FAQ
+* [How do I fill in the "Legal base", "Consent source" and "Purpose" fields to many contacts in SuperOffice CRM all at the same time?][3]
 * [Mass delete contacts and companies from selection][1]
 
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
+[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
 
 <!-- Referenced images -->
