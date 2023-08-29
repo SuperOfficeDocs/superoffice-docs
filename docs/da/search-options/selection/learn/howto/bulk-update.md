@@ -35,12 +35,12 @@ Se videoen, eller følg trinnene nedenunder for at lære, hvordan du udfører en
 
 ## Relateret info
 
-* [Hvordan udfylder jeg felterne "Retsgrundlag", "Samtykkekilde" og "Formål" til mange personer i SuperOffice CRM på samme tid?][3] - FAQ
+* [Hvordan udfylder jeg felterne "Retsgrundlag", "Samtykkekilde" og "Formål" til mange personer i SuperOffice CRM på samme tid?][3]
 * [Masseslette personer og firmaer fra markeringen][1]
 
 <!-- Referenced links -->
 [1]: mass-delete.md
 [2]: ../../../../learn/basics/bulk-update.md
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-fill-in-the-legal-base-consent-source-and-purpose-fields-to-many-contacts-in-superoffice-crm-all-at-once/
+[3]: ../../../../../en/security/privacy/learn/edit-legal-base.md#bulk
 
 <!-- Referenced images -->
