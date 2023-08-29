@@ -43,6 +43,9 @@ so.topic: reference
 
 ## New MDO Providers
 
+* v10.2.7
+  * AppointmentResource
+
 * v10.2.4
   * [EmailFlow][67]
   * [EmailFromType][68]
@@ -68,20 +71,32 @@ so.topic: reference
 | Agent Name       | Method Name                            | Version | REST Agent      | SOAP Agent      |
 |------------------|----------------------------------------|:-------:|-----------------|-----------------|
 |IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode    |10.2.3   | [REST Link][44] | [SOAP Link][45] |
+|IAppointmentAgent | CreateAppointmentEntityFromExisting    |10.2.7   | TDB             | TBD             |
 |IAppointmentAgent | SetSeenMany                            |10.2.2   | [REST Link][60] | [SOAP Link][61] |
 |IArchiveAgent     | GetRelatedData                         |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
 |IArchiveAgent     | GetRelatedData2                        |10.2.1   | [REST Link][9]  | [SOAP Link][27] |
 |IAssociateAgent   | GetEncryptionKey                       |10.2.6   | [REST Link][123]| [SOAP Link][124]|
+|ICRMScriptAgent   | ExecuteScriptByString                  |10.2.7   | TDB             | TBD             |
+|ICRMScriptAgent   | ValidateScriptByString                 |10.2.7   | TDB             | TBD             |
 |IDiagnosticsAgent | GetEntityCountsForCurrentUser          |10.2.4   | [REST Link][76] | [SOAP Link][98] |
+|IDocumentAgent    | CopyDocumentToCsAttachment             |10.2.7   | TDB             | TBD             |
 |IEMailAgent       | HasSPFRecord                           |10.2.1   | [REST Link][10] | [SOAP Link][28] |
 |IEMailAgent       | ResolveEMailRecipients                 |10.2.4   | [REST Link][77] | [SOAP Link][99] |
 |IListAgent        | CreateDefaultTaskMenu                  |10.2.1   | [REST Link][11] | [SOAP Link][29] |
+|IListAgent        | CreateDefaultTicketTypeEntity          |10.2.7   | TDB             | TBD             |
 |IListAgent        | DeleteAppTaskMenus                     |10.2.1   | [REST Link][12] | [SOAP Link][30] |
 |IListAgent        | DeleteTaskMenu                         |10.2.1   | [REST Link][13] | [SOAP Link][31] |
+|IListAgent        | DeleteTicketTypeEntity                 |10.2.7   | TDB             | TBD             |
+|IListAgent        | GetTicketType                          |10.2.7   | TDB             | TBD             |
+|IListAgent        | GetTicketTypeEntity                    |10.2.7   | TDB             | TBD             |
+|IListAgent        | GetTicketTypeList                      |10.2.7   | TDB             | TBD             |
+|IListAgent        | GetTicketTypes                         |10.2.7   | TDB             | TBD             |
 |IListAgent        | GetAppTaskMenus                        |10.2.1   | [REST Link][14] | [SOAP Link][32] |
 |IListAgent        | GetTaskMenu                            |10.2.1   | [REST Link][15] | [SOAP Link][33] |
 |IListAgent        | GetTaskMenuByProgId                    |10.2.1   | [REST Link][16] | [SOAP Link][34] |
+|IListAgent        | DeleteTicketTypeEntity                 |10.2.7   | TDB             | TBD             |
 |IListAgent        | SaveTaskMenu                           |10.2.1   | [REST Link][17] | [SOAP Link][35] |
+|IListAgent        | SaveTicketTypeEntity                   |10.2.7   | TDB             | TBD             |
 |IMarketingAgent   | GetFormSubmissionsCount                |10.2.2   | [REST Link][17] | [SOAP Link][35] |
 |IPersonAgent      | CreateDefaultPersonImage               |10.2.1   | [REST Link][18] | [SOAP Link][36] |
 |IPersonAgent      | CreateOrUpdateUserCandidate            |10.2.4   | [REST Link][78] | [SOAP Link][100]|
@@ -94,6 +109,7 @@ so.topic: reference
 |ITicketAgent      | CopyToTempFile                         |10.2.6   | [REST Link][125] | [SOAP Link][126] |
 |ITicketAgent      | GetNextInQueue                         |10.2.3   | [REST Link][50] | [SOAP Link][51] |
 |ITicketAgent      | GetTicketMessageWithOptions            |10.2.1   | [REST Link][20] | [SOAP Link][38] |
+|ITicketAgent      | SplitTicket                            |10.2.7   | TDB             | TBD             |
 |ITicketAgent      | UndeleteByIds                          |10.2.1   | [REST Link][21] | [SOAP Link][39] |
 |ITicketAgent      | ValidateAttachments                    |10.2.1   | [REST Link][22] | [SOAP Link][40] |
 |IUserAgent        | GetUserPresenceStatus                  |10.2.1   | [REST Link][23] | [SOAP Link][41] |
@@ -102,6 +118,9 @@ so.topic: reference
 |IViewStateAgent   | GetLiveUiConfig                        |10.2.4   | [REST Link][82] | [SOAP Link][104]|
 |IViewStateAgent   | PublishAndRetrieveUiEvents (in 10.2.4) |10.2.6   | [REST Link][83] | [SOAP Link][105]|
 |IWorkflowAgent    | ConnectEmailFlowContent                |10.2.6   | [REST Link][127] | [SOAP Link][128]|
+|IWorkflowAgent    | CopyEmailFlowContent                   |10.2.7   | TDB             | TBD             |
+|IWorkflowAgent    | CreateDefaultWorkflowEvent             |10.2.7   | TDB             | TBD             |
+|IWorkflowAgent    | CreateDefaultWorkflowEventResult       |10.2.7   | TDB             | TBD             |
 |IWorkflowAgent    | CreateDefaultWorkflowFilter            |10.2.4   | [REST Link][84] | [SOAP Link][106]|
 |IWorkflowAgent    | CreateDefaultWorkflowGoal              |10.2.4   | [REST Link][85] | [SOAP Link][107]|
 |IWorkflowAgent    | CreateDefaultWorkflowStepFromType      |10.2.4   | [REST Link][86] | [SOAP Link][108]|
@@ -114,15 +133,20 @@ so.topic: reference
 |IWorkflowAgent    | GetWorkflowGoal                        |10.2.4   | [REST Link][92] | [SOAP Link][114]|
 |IWorkflowAgent    | GetWorkflowStepOption                  |10.2.4   | [REST Link][93] | [SOAP Link][115]|
 |IWorkflowAgent    | GetWorkflowTrigger                     |10.2.4   | [REST Link][94] | [SOAP Link][116]|
+|IWorkflowAgent    | RemoveParticipantsFromEmailFlow        |10.2.7   | TDB             | TBD             |
+|IWorkflowAgent    | Run                                    |10.2.7   | TDB             | TBD             |
 |IWorkflowAgent    | SaveWorkflowGoal                       |10.2.4   | [REST Link][95] | [SOAP Link][117]|
 |IWorkflowAgent    | SaveWorkflowStepOption                 |10.2.4   | [REST Link][96] | [SOAP Link][118]|
 |IWorkflowAgent    | SaveWorkflowTrigger                    |10.2.4   | [REST Link][97] | [SOAP Link][119]|
+|IWorkflowAgent    | SendEvent                              |10.2.7   | TDB             | TBD             |
 
 ## Breaking changes - modified web service methods
 
 | Agent Name       | Method Name                           | Version | REST Agent      | SOAP Agent      |
 |------------------|---------------------------------------|:-------:|-----------------|-----------------|
 |ITicketAgent      | SaveTicketMessageEntityWithOptions    |10.2.4   | TBD             | TBD             |
+|ITicketAgent      | SplitTicket                           |10.2.7   | TBD             | TBD             |
+|IWorkflowAgent    | CreateEmailFlowContent                |10.2.7   | TDB             | TBD             |
 
 ## NetServer Core changes
 
@@ -196,6 +220,13 @@ services.AddLogging(a =>
 ## All API changes
 
 * [Version 10.2.1][1]
+* [Version 10.2.2][131]
+* [Version 10.2.3][132]
+* [Version 10.2.4][133]
+* [Version 10.2.5][134]
+* [Version 10.2.6][135]
+* [Version 10.2.7][136]
+
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
@@ -327,3 +358,9 @@ services.AddLogging(a =>
 [128]: ../../../docs/en/api/reference/soap/Services88/Workflow/ConnectEmailFlowContent.md
 [129]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateEmailFlowContent.md
 [130]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateEmailFlowContent.md
+[131]: 10.2.2-update.md
+[132]: 10.2.3-update.md
+[133]: 10.2.4-update.md
+[134]: 10.2.5-update.md
+[135]: 10.2.6-update.md
+[136]: 10.2.7-update.md
