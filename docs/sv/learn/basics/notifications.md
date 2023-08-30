@@ -2,9 +2,9 @@
 uid: help-sv-notifications
 title: Meddelanden
 description: "Aviseringar om inbjudningar, meddelanden och ärenden"
-author: Hanne Gunnarsson
-so.date: 04.03.2023
-keywords: avisering, Grund, förfrågningar, ärendehantering, meddelanden
+author: Hanne Gunnarsson, Bergfrid Dias
+so.date: 08.30.2023
+keywords: avisering, förfrågning, ärendehantering, meddelande
 so.topic: concept
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
@@ -73,9 +73,34 @@ Det här är aviseringsalternativen:
 * Visa aviseringar för förfrågningar i din favoritlista
 * Visa aviseringar när någon tar över ditt ärende
 * Visa aviseringar för ärenden som har aktiverats
-* Visa ärenden för ärenden som har eskalerats
+* Visa aviseringar för ärenden som har eskalerats
 * Visa aviseringar för nytt meddelande i ärende
 * Visa aviseringar för nya ärenden
+
+### Inställningar för systemmeddelanden
+
+* Systemmeddelanden för händelser
+* Systemmeddelanden för e-post
+* Systemmeddelanden för chatt
+
+## Hvordan endre nettleserinnstillingene for varsler
+
+**Chrome:** Klicka på hänglåssymbolen framför URL:en och aktivera **Aviseringar**-omkopplaren.
+
+![Unblock system notifications in Chrome -screenshot][img11]
+
+**Edge:** Klicka på hänglåssymbolen framför URL:en och välj **Tillåt** från **Aviseringar**-rullgardinsmenyn.
+
+![Unblock system notifications in Edge -screenshot][img12]
+
+**Firefox:** Klicka på hänglåssymbolen framför URL:en och ta bort den blockerade behörigheten.
+
+![Unblock system notifications in Firefox -screenshot][img13]
+
+**Safari:** Öppna **Inställningar**-menyn, gå till fliken **Webbplatser** och justera behörigheterna.
+
+![Unblock system notifications in Safari -screenshot][img14]
+![Unblock system notifications in Safari -screenshot][img15]
 
 <!-- Referenced links -->
 
@@ -85,3 +110,9 @@ Det här är aviseringsalternativen:
 [img3]: ../../../../common/icons/remove-icon.png
 [img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
+
+[img11]: ../../../media/loc/en/learn/system-notification-chrome.png
+[img12]: ../../../media/loc/en/learn/system-notification-edge.png
+[img13]: ../../../media/loc/en/learn/system-notification-firefox.png
+[img14]: ../../../media/loc/en/learn/system-notification-safari.png
+[img15]: ../../../media/loc/en/learn/safari-website-settings.png

@@ -2,9 +2,9 @@
 uid: help-de-notifications
 title: Benachrichtigungen
 description: "Benachrichtigungen über Einladungen, Nachrichten und Anfragen"
-author: Hanne Gunnarsson
-so.date: 04.03.2023
-keywords: Benachrichtigung, Kern, Einladungen, Anfragen, Nachrichten
+author: Hanne Gunnarsson, Bergfrid Dias
+so.date: 08.30.2023
+keywords: Benachrichtigung, Einladung, Anfrage, Nachricht
 so.topic: concept
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
@@ -77,6 +77,31 @@ Dies sind die Benachrichtigungsoptionen:
 * Benachrichtigungen für neue Nachricht in Anfrage anzeigen
 * Benachrichtigungen für neue Anfragen anzeigen
 
+### Einstellungen für Systembenachrichtigungen
+
+* Benachrichtigungen für Folgeaufgaben
+* Benachrichtigungen für Email
+* Benachrichtigungen für Chat
+
+## Die Browsereinstellungen für Benachrichtigungen ändern
+
+**Chrome:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und aktivieren Sie den **Benachrichtigungen**-Schalter.
+
+![Systembenachrichtigungen in Chrome aufheben -screenshot][img11]
+
+**Edge:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und wählen Sie **Erlauben** aus dem **Benachrichtigungen**-Dropdown aus.
+
+![Systembenachrichtigungen in Edge aufheben -screenshot][img12]
+
+**Firefox:** Klicken Sie auf das Vorhängeschlosssymbol vor der URL und entfernen Sie die blockierte Berechtigung.
+
+![Systembenachrichtigungen in Firefox aufheben -screenshot][img13]
+
+**Safari:** Öffnen Sie das **Einstellungen**-Menü, gehen Sie zum Tab **Websites** und passen Sie die Berechtigungen an.
+
+![Systembenachrichtigungen in Safari aufheben -screenshot][img14]
+![Systembenachrichtigungen in Safari aufheben -screenshot][img15]
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->
@@ -85,3 +110,9 @@ Dies sind die Benachrichtigungsoptionen:
 [img3]: ../../../../common/icons/remove-icon.png
 [img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
+
+[img11]: ../../../media/loc/en/learn/system-notification-chrome.png
+[img12]: ../../../media/loc/en/learn/system-notification-edge.png
+[img13]: ../../../media/loc/en/learn/system-notification-firefox.png
+[img14]: ../../../media/loc/en/learn/system-notification-safari.png
+[img15]: ../../../media/loc/en/learn/safari-website-settings.png

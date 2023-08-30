@@ -2,9 +2,9 @@
 uid: help-en-notifications
 title: Notifications
 description: Notifications of invitations, messages, and request
-author: Hanne Gunnarsson
-so.date: 04.03.2023
-keywords: notification, Core, invitations, requests, messages
+author: Hanne Gunnarsson, Bergfrid Dias
+so.date: 08.30.2023
+keywords: notification, invitation, request, message
 so.topic: concept
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
@@ -64,14 +64,14 @@ When you click the ![icon][img2] icon, the notification settings panel appears. 
 
 These are the notification options:
 
-### Appointment notifications preferences
+### Appointment notification preferences
 
 * Show notifications for meeting invitations
 * Show notifications for changed meetings
 * Show notifications for cancelled meetings
 * Show notifications for declined invitations
 
-### Request notifications preferences
+### Request notification preferences
 
 * Show notifications for customer messages
 * Show notifications for requests in your favourite list
@@ -81,6 +81,31 @@ These are the notification options:
 * Show notifications for new message in request
 * Show notifications for new requests
 
+### System notification preferences
+
+* System notifications for follow-ups
+* System notifications for emails
+* System notifications for chats
+
+## How to change browser settings for notifications
+
+**Chrome:** Click the padlock icon in front of the URL and turn on the **Notifications** toggle.
+
+![Unblock system notifications in Chrome -screenshot][img11]
+
+**Edge:** Click the padlock icon in front of the URL, and choose **Allow** from the **Notifications** drop-down.
+
+![Unblock system notifications in Edge -screenshot][img12]
+
+**Firefox:** Click the padlock icon in address bar and remove the blocked permission.
+
+![Unblock system notifications in Firefox -screenshot][img13]
+
+**Safari:** Open the **Settings** menu, go to the **Websites** tab, and adjust the permissions.
+
+![Unblock system notifications in Safari -screenshot][img14]
+![Unblock system notifications in Safari -screenshot][img15]
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->
@@ -89,3 +114,9 @@ These are the notification options:
 [img3]: ../../../../common/icons/remove-icon.png
 [img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
+
+[img11]: ../../../media/loc/en/learn/system-notification-chrome.png
+[img12]: ../../../media/loc/en/learn/system-notification-edge.png
+[img13]: ../../../media/loc/en/learn/system-notification-firefox.png
+[img14]: ../../../media/loc/en/learn/system-notification-safari.png
+[img15]: ../../../media/loc/en/learn/safari-website-settings.png
