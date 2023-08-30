@@ -11,7 +11,7 @@ language: nl
 
 # E-mails maken vanuit SuperOffice CRM
 
-Er zijn twee manieren om een e-mail te maken vanuit SuperOffice CRM. U kunt de werkbalkknop **E-mail** onder aan het SuperOffice CRM-venster gebruiken. Dit werkt min of meer op dezelfde manier als beschreven in [E-mails maken vanuit Microsoft Outlook][1] of [E-mails maken vanuit Lotus Notes][2], behalve dat u vooraf gedefinieerde hoofdtekstsjablonen voor e-mail kunt gebruiken.
+Er zijn twee manieren om een e-mail te maken vanuit SuperOffice CRM. U kunt de werkbalkknop **E-mail** onder aan het SuperOffice CRM-venster gebruiken. Dit werkt min of meer op dezelfde manier als beschreven in [E-mails maken vanuit Microsoft Outlook][1], behalve dat u vooraf gedefinieerde hoofdtekstsjablonen voor e-mail kunt gebruiken.
 
 U kunt echter ook de werkbalkknop **Schrijven** gebruiken.
 
@@ -51,7 +51,6 @@ Bij het maken van een e-mail vanuit SuperOffice CRM is het ook mogelijk om voora
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 [4]: select-recipients.md
 [5]: add-attachment.md
 [6]: ../../../admin/lists/learn/create-email-template.md

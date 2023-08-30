@@ -11,7 +11,7 @@ language: no
 
 # Opprette e-poster fra SuperOffice CRM
 
-Det er to måter å opprette en e-post fra SuperOffice CRM på. Du kan bruke knappen **E-postverktøylinje** nederst i SuperOffice CRM-vinduet. Dette fungerer mer eller mindre på samme måte som beskrevet i [Opprette e-post fra Microsoft Outlook][1] eller [Opprette e-post fra Lotus Notes][2], bortsett fra at du kan bruke forhåndsdefinerte e-posttekstsmaler.
+Det er to måter å opprette en e-post fra SuperOffice CRM på. Du kan bruke knappen **E-postverktøylinje** nederst i SuperOffice CRM-vinduet. Dette fungerer mer eller mindre på samme måte som beskrevet i [Opprette e-post fra Microsoft Outlook][1], bortsett fra at du kan bruke forhåndsdefinerte e-posttekstsmaler.
 
 Du kan imidlertid også bruke knappen **Skrive** på verktøylinjen.
 
@@ -51,7 +51,6 @@ Når du oppretter en e-post fra SuperOffice CRM, er det også mulig å bruke for
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 [4]: select-recipients.md
 [5]: add-attachment.md
 [6]: ../../../admin/lists/learn/create-email-template.md

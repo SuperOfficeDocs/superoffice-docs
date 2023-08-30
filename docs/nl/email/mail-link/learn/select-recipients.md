@@ -11,7 +11,7 @@ language: nl
 
 # Ontvangers selecteren
 
-Wanneer u een e-mail maakt [vanuit Microsoft Outlook][1] of [vanuit Lotus Notes][2], kunt u ontvangers toevoegen via het dialoogvenster **Ontvangers selecteren**.
+Wanneer u een [e-mail maakt vanuit Microsoft Outlook][1], kunt u ontvangers toevoegen via het dialoogvenster **Ontvangers selecteren**.
 
 1. Klik in het nieuwe e-mailvenster op de knop **Ontvanger toevoegen** (![pictogram][img1]).
 
@@ -31,7 +31,6 @@ Wanneer u een e-mail maakt [vanuit Microsoft Outlook][1] of [vanuit Lotus Notes]
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-recipient.png

@@ -11,7 +11,7 @@ language: no
 
 # Legg til SuperOffice-dokument som vedlegg
 
-Når du oppretter en e-post [fra Microsoft Outlook][1] eller [fra Lotus Notes][2], kan du legge til dokumenter fra SuperOffice CRM som vedlegg.
+Når du oppretter en e-post [fra Microsoft Outlook][1], kan du legge til dokumenter fra SuperOffice CRM som vedlegg.
 
 1. I e-postvinduet klikker du på **Legg ved dokument**-knappen (![icon][img1]).
 
@@ -33,7 +33,6 @@ Når du oppretter en e-post [fra Microsoft Outlook][1] eller [fra Lotus Notes][2
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-document.png

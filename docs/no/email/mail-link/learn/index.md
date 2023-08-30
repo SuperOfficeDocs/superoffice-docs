@@ -11,7 +11,7 @@ language: no
 
 # SuperOffice Mail Link
 
-SuperOffice Mail Link er en plug-in som kobler e-postklienten Microsoft Outlook eller Lotus Notes til SuperOffice CRM og/eller SuperOffice Service. Dette betyr blant annet at du kan:
+SuperOffice Mail Link er en plug-in som kobler e-postklienten Microsoft Outlook til SuperOffice CRM og/eller SuperOffice Service. Dette betyr blant annet at du kan:
 
 * Arkiver e-poster og vedlegg til SuperOffice CRM.
 * Arkiver en e-post som et dokument eller en oppgave i SuperOffice CRM.
@@ -23,7 +23,7 @@ SuperOffice Mail Link er en plug-in som kobler e-postklienten Microsoft Outlook 
 
 ## Knapper på verktøylinjen i Mail Link
 
-Disse knappene vises på verktøylinjen i Microsoft Outlook eller Lotus Notes:
+Disse knappene vises på verktøylinjen i Microsoft Outlook:
 
 | Knapp | Funksjon |
 |:-:|---|
@@ -34,13 +34,15 @@ Disse knappene vises på verktøylinjen i Microsoft Outlook eller Lotus Notes:
 ## Hva vil du gjøre nå?
 
 * [Arkivere e-poster til SuperOffice CRM][1]
-* [Opprette e-postmeldinger][2]
+* [Opprett e-post fra SuperOffice CRM][5]
+* [Opprett e-post fra Microsoft Outlook][2]
 * [Søke etter avsenderen av en e-post][3]
 * [Angi alternativer][4]
 
 <!-- Referenced links -->
 [1]: archive.md
-[2]: compose.md
+[5]: create-in-superoffice.md
+[2]: create-in-outlook.md
 [3]: manage-senders.md
 [4]: settings/index.md
 

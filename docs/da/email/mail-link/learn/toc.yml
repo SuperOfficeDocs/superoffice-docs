@@ -8,16 +8,12 @@ items:
 - name: Slå standardarkivering til/fra
   href: settings/archive-by-default.md
 - name: Arbejd med e-mails
-  topicHref: compose.md
+  topicHref: create-in-superoffice.md
   items:
-  - name: Opret e-mails
-    href: compose.md
   - name: Opret e-mail fra SuperOffice CRM
     href: create-in-superoffice.md
   - name: Opret e-mail fra Microsoft Outlook
     href: create-in-outlook.md
-  - name: Opret e-mail fra Lotus Notes
-    href: create-in-lotus.md
   - name: Vælg modtagere
     href: select-recipients.md
   - name: Vedligehold afsendere

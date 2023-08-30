@@ -27,7 +27,7 @@ Für all die verschiedenen Archivierungsoptionen können Sie die Option **Warnen
 
 ## Unterschiede zwischen Outlook, Notes und SuperOffice CRM
 
-Sie können E-Mails auf verschiedene Arten erstellen, d.h. [von Outlook][6], [von Notizen][7] und [von SuperOffice CRM][8]. Wenn das Dialogfeld **Dokument** angezeigt wird, wird die E-Mail als SuperOffice-Dokument behandelt und archiviert. Wenn das Dialogfeld **Dokument** nicht angezeigt wird, wird die E-Mail anhand der Einstellungen im Dialogfeld **SuperOffice CRM-Optionen** archiviert.
+Sie können E-Mails auf verschiedene Arten erstellen, d.h. [von Outlook][6] und [von SuperOffice CRM][8]. Wenn das Dialogfeld **Dokument** angezeigt wird, wird die E-Mail als SuperOffice-Dokument behandelt und archiviert. Wenn das Dialogfeld **Dokument** nicht angezeigt wird, wird die E-Mail anhand der Einstellungen im Dialogfeld **SuperOffice CRM-Optionen** archiviert.
 
 Das Dialogfeld **Dokument** wird automatisch geöffnet, wenn Sie:
 
@@ -65,7 +65,6 @@ Wenn Sie eine bereits archivierte E-Mail öffnen, wird das ![Symbol][img1] der S
 [5]: settings/general.md
 [9]: settings/default.md
 [6]: create-in-outlook.md
-[7]: create-in-lotus.md
 [8]: create-in-superoffice.md
 
 <!-- Referenced images -->

@@ -27,7 +27,7 @@ Ved alle de forskellige arkiveringsindstillinger kan du klikke på valgmulighede
 
 ## Forskelle mellem i Outlook, Notes og SuperOffice CRM
 
-Du kan oprette mails på flere forskellige måder, både [fra Outlook][6], [fra Notes][7], og [fra SuperOffice CRM.][8] Hvis dialogboksen **Dokument** vises, behandles e-mailen som et SuperOffice-dokument og arkiveres. Hvis dialogboksen **Dokument** ikke vises, afhænger arkivering af e-mailen af indstillingerne i dialogboksen **SuperOffice CRM indstillinger**.
+Du kan oprette mails på flere forskellige måder, både [fra Outlook][6] og [fra SuperOffice CRM.][8] Hvis dialogboksen **Dokument** vises, behandles e-mailen som et SuperOffice-dokument og arkiveres. Hvis dialogboksen **Dokument** ikke vises, afhænger arkivering af e-mailen af indstillingerne i dialogboksen **SuperOffice CRM indstillinger**.
 
 Dialogboksen **Dokument** åbnes automatisk, hvis du:
 
@@ -65,7 +65,6 @@ Hvis du åbner en e-mail, som allerede er arkiveret, vises knappen **Arkiver e-m
 [5]: settings/general.md
 [9]: settings/default.md
 [6]: create-in-outlook.md
-[7]: create-in-lotus.md
 [8]: create-in-superoffice.md
 
 <!-- Referenced images -->

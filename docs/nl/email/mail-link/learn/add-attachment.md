@@ -11,7 +11,7 @@ language: nl
 
 # SuperOffice-document toevoegen als bijlage
 
-Wanneer u een e-mail opstelt [vanuit Microsoft Outlook][1] of [vanuit Lotus Notes][2] kunt u documenten uit SuperOffice CRM als bijlagen toevoegen.
+Wanneer u een e-mail opstelt [vanuit Microsoft Outlook][1] kunt u documenten uit SuperOffice CRM als bijlagen toevoegen.
 
 1. Klik in het e-mailvenster op de knop **Document bijvoegen** (![pictogram][img1]).
 
@@ -33,7 +33,6 @@ Wanneer u een e-mail opstelt [vanuit Microsoft Outlook][1] of [vanuit Lotus Note
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-document.png

@@ -11,7 +11,7 @@ language: da
 
 # Tilføj SuperOffice-dokument som vedhæftet fil
 
-Når du opretter en mail [fra Microsoft Outlook][1] eller [Lotus Notes][2] kan du tilføje dokumenter fra SuperOffice CRM som vedhæftede filer.
+Når du [opretter en mail fra Microsoft Outlook][1] kan du tilføje dokumenter fra SuperOffice CRM som vedhæftede filer.
 
 1. I e-mailvinduet klikker du på knappen **Vedhæft dokument** (![ikon][img1]).
 
@@ -33,7 +33,6 @@ Når du opretter en mail [fra Microsoft Outlook][1] eller [Lotus Notes][2] kan d
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-document.png

@@ -11,7 +11,7 @@ language: no
 
 # Velge mottakere
 
-Når du oppretter en e-post [fra Microsoft Outlook][1] eller [fra Lotus Notes][2], kan du legge til mottakere ved hjelp av dialogboksen **Velg mottakere**.
+Når du oppretter en e-post [fra Microsoft Outlook][1], kan du legge til mottakere ved hjelp av dialogboksen **Velg mottakere**.
 
 1. I det nye e-postvinduet klikker du på **Legg til mottaker**-knappen (![icon][img1]).
 
@@ -31,7 +31,6 @@ Når du oppretter en e-post [fra Microsoft Outlook][1] eller [fra Lotus Notes][2
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-recipient.png

@@ -11,7 +11,7 @@ language: sv
 
 # Skapa e-postmeddelanden från SuperOffice CRM
 
-Det finns två sätt att skapa ett e-postmeddelande från SuperOffice CRM. Du kan använda knappen **E-post** i verktygsfältet längst ner i SuperOffice CRM-fönstret. Detta fungerar ungefär på det sätt som beskrivs i [Skapa e-postmeddelanden från Microsoft Outlook][1] eller [Skapa e-postmeddelanden från Lotus Notes][2], förutom att du kan använda fördefinierade e-postmallar.
+Det finns två sätt att skapa ett e-postmeddelande från SuperOffice CRM. Du kan använda knappen **E-post** i verktygsfältet längst ner i SuperOffice CRM-fönstret. Detta fungerar ungefär på det sätt som beskrivs i [Skapa e-postmeddelanden från Microsoft Outlook][1], förutom att du kan använda fördefinierade e-postmallar.
 
 Du kan också använda knappen **Skriv** i verktygsfältet.
 
@@ -20,7 +20,7 @@ Du kan också använda knappen **Skriv** i verktygsfältet.
 3. Fyll i nödvändiga uppgifter i de övriga fälten.
 4. Klicka på knappen **Skapa** för att öppna det nya e-postmeddelandet i den e-postklient du har valt som standard.
 5. Om det finns en e-postadress till företaget/kontakten du valt i dialogrutan **Dokument** i SuperOffice CRM infogas denna adress automatiskt i fältet **Till** i meddelandet.
-    Ange e-postadresserna till eventuella andra mottagare du vill lägga till. Du kan också använda dialogrutan **Välj mottagare** se [Välja mottagare][4]).
+    Ange e-postadresserna till eventuella andra mottagare du vill lägga till. Du kan också använda dialogrutan **Välj mottagare** se [Välja mottagare][4].
 6. Skriv meddelandetexten.
 7. Lägg till eventuella bilagor som du vill inkludera. Du kan också [lägga till dokument från SuperOffice CRM][5].
 8. Klicka på **Skicka** om du vill skicka meddelandet till den eller de angivna mottagarna.
@@ -33,7 +33,7 @@ När du skapar ett e-postmeddelande från SuperOffice CRM kan du också använda
 
 2. Klicka på knappen **E-post** i verktygsfältet längst ner i SuperOffice CRM-fönstret. (Detta gäller också om du klickar på en e-postadress i SuperOffice CRM, skickar ett e-postmeddelande från detaljkortet **Kontakter** eller svarar på/vidarebefordrar ett e-postmeddelande från detaljkortet **Aktiviteter**.)
 
-3. Ange mottagarens/mottagarnas e-postadress(er) i fältet **Till** i e-postfönstret. Du kan också använda dialogrutan **Välj mottagare** se [Välja mottagare][4]).
+3. Ange mottagarens/mottagarnas e-postadress(er) i fältet **Till** i e-postfönstret. Du kan också använda dialogrutan **Välj mottagare** se [Välja mottagare][4].
 
     > [!TIP]
     > Om du markerar flera kontakter i en lista i SuperOffice CRM och sedan högerklickar och väljer **Skicka e-post** läggs alla kontakter till som mottagare av e-postmeddelandet.
@@ -51,7 +51,6 @@ När du skapar ett e-postmeddelande från SuperOffice CRM kan du också använda
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 [4]: select-recipients.md
 [5]: add-attachment.md
 [6]: ../../../admin/lists/learn/create-email-template.md

@@ -11,7 +11,7 @@ language: en
 
 # Creating emails from SuperOffice CRM
 
-There are two ways of creating an email from SuperOffice CRM. You can use the **Email** toolbar button at the bottom of the SuperOffice CRM window. This works more or less the same way as described in [Creating emails from Microsoft Outlook][1] or [Creating emails from Lotus Notes][2], except that you can use predefined email body templates.
+There are two ways of creating an email from SuperOffice CRM. You can use the **Email** toolbar button at the bottom of the SuperOffice CRM window. This works more or less the same way as described in [Creating emails from Microsoft Outlook][1], except that you can use predefined email body templates.
 
 You can, however, also use the **Write** toolbar button.
 
@@ -51,7 +51,6 @@ When creating an email from SuperOffice CRM, it is also possible to use predefin
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 [4]: select-recipients.md
 [5]: add-attachment.md
 [6]: ../../../admin/lists/learn/create-email-template.md

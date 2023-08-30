@@ -11,7 +11,7 @@ language: sv
 
 # Lägg till SuperOffice-dokument som en bilaga
 
-När du skapar ett e-postmeddelande [från Microsoft Outlook][1] eller [Lotus Notes][2] kan du lägga till dokument från SuperOffice CRM som bilagor.
+När du skapar ett e-postmeddelande [från Microsoft Outlook][1] kan du lägga till dokument från SuperOffice CRM som bilagor.
 
 1. I e-postfönstret klickar du på knappen **Bifoga dokument** (![ikon][img1]).
 
@@ -33,7 +33,6 @@ När du skapar ett e-postmeddelande [från Microsoft Outlook][1] eller [Lotus No
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-document.png

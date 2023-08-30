@@ -8,16 +8,12 @@ items:
 - name: Standardarchivierung ein-/ausschalten
   href: settings/archive-by-default.md
 - name: Mit E-Mails arbeiten
-  topicHref: compose.md
+  topicHref: create-in-superoffice.md
   items:
-  - name: E-Mails erstellen
-    href: compose.md
   - name: E-Mail von SuperOffice CRM erstellen
     href: create-in-superoffice.md
   - name: E-Mail von Microsoft Outlook erstellen
     href: create-in-outlook.md
-  - name: E-Mail von Lotus Notes erstellen
-    href: create-in-lotus.md
   - name: Empfänger auswählen
     href: select-recipients.md
   - name: Absender verwalten

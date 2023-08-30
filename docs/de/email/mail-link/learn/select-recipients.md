@@ -11,7 +11,7 @@ language: de
 
 # Empfänger auswählen
 
-Wenn Sie eine E-Mail [von Microsoft Outlook][1] oder [von Lotus Notes][2] erstellen, können Sie Empfänger mit dem Dialogfeld **Empfänger auswählen** hinzufügen.
+Wenn Sie [eine E-Mail von Microsoft Outlook][1] erstellen, können Sie Empfänger mit dem Dialogfeld **Empfänger auswählen** hinzufügen.
 
 1. Klicken Sie im neuen E-Mail-Fenster auf die Schaltfläche **Empfänger anhängen** (![Symbol][img1]).
 
@@ -31,7 +31,6 @@ Wenn Sie eine E-Mail [von Microsoft Outlook][1] oder [von Lotus Notes][2] erstel
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-recipient.png
