@@ -24,6 +24,8 @@ items:
     href: service/10.2.5-update.md
   - name: 10.2.6 update
     href: service/10.2.6-update.md
+  - name: 10.2.7 update
+    href: service/10.2.7-update.md
 - name: Marketing
   href: marketing/index.md
   items:
@@ -48,8 +50,11 @@ items:
     href: mobile/10.2.11-update.md
   - name: 10.2.12 update
     href: mobile/10.2.12-update.md
-#- name: Office integrations
-#  href: office-integrations/index.md
+- name: Office integrations
+  href: office-integrations/index.md
+  items:
+  - name: Sofo 3.1 update
+    href: office-integrations/sofo-3.1-update.md
 - name: API
   href: api/index.md
   items:

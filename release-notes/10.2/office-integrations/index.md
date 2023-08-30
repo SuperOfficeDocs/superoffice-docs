@@ -14,4 +14,4 @@ so.topic: reference
 * [SuperOffice for Outlook - (3.1)][1]
 
 <!-- Referenced links-->
-[1]: 10.2.7-update.md
+[1]: sofo-3.1-update.md
