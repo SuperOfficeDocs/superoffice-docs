@@ -1,6 +1,8 @@
 items:
   - name: Überblick
     href: index.md
+  - name: Benachrichtigungen
+    href: notifications.md
   - name: Favoriten
     href: fav.md
   - name: Verlaufsliste

@@ -2,9 +2,9 @@
 uid: help-no-notifications
 title: Varsler
 description: "Varsler om invitasjoner, meldinger og saker"
-author: Hanne Gunnarsson
-so.date: 04.03.2023
-keywords: varsling, Kjerne, invitasjoner, saker, meldinger
+author: Hanne Gunnarsson, Bergfrid Dias
+so.date: 08.30.2023
+keywords: varsling, invitasjon, sak, melding
 so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice CRM
@@ -77,6 +77,30 @@ Dette er varslingsalternativene:
 * Bli varslet når det kommer en ny melding i en sak
 * Bli varslet om nye saker
 
+### Preferanser for systemvarslinger
+
+* Systemvarslinger for oppfølginger
+* Systemvarslinger for e-post
+* Systemvarslinger for chat
+
+## Hvordan endre nettleserinnstillingene for varsler
+
+**Chrome:** Klikk på hengelåsikonet foran URL-en og slå på **Varsler**-bryteren.
+
+![Fjern blokkerte systemvarsler i  Chrome -screenshot][img11]
+
+**Edge:** Klikk på hengelåsikonet foran URL-en og velg **Tillat** fra **Varsler**-menyen.
+
+![Fjern blokkerte systemvarsler i  Edge -screenshot][img12]
+
+**Firefox:** Klikk på hengelåsikonet foran URL-en og fjern den blokkerte tillatelsen.
+
+![Fjern blokkerte systemvarsler i  Firefox -screenshot][img13]
+
+**Safari:** Åpne **Innstillinger**-menyen, gå til fanen **Nettsteder** og juster tillatelsene.
+
+![Fjern blokkerte systemvarsler i  Safari -screenshot][img14]
+![Fjern blokkerte systemvarsler i  Safari -screenshot][img15]
 <!-- Referenced links -->
 
 <!-- Referenced images -->
@@ -85,3 +109,9 @@ Dette er varslingsalternativene:
 [img3]: ../../../../common/icons/remove-icon.png
 [img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
+
+[img11]: ../../../media/loc/en/learn/system-notification-chrome.png
+[img12]: ../../../media/loc/en/learn/system-notification-edge.png
+[img13]: ../../../media/loc/en/learn/system-notification-firefox.png
+[img14]: ../../../media/loc/en/learn/system-notification-safari.png
+[img15]: ../../../media/loc/en/learn/safari-website-settings.png

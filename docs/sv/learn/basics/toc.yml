@@ -1,6 +1,8 @@
 items:
   - name: Översikt
     href: index.md
+  - name: Meddelanden
+    href: notifications.md
   - name: Favoriter
     href: fav.md
   - name: Historiklistan

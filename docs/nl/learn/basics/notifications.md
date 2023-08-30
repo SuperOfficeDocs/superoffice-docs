@@ -2,9 +2,9 @@
 uid: help-nl-notifications
 title: Meldingen
 description: "Meldingen van uitnodigingen, berichten en verzoeken"
-author: Hanne Gunnarsson
-so.date: 04.03.2023
-keywords: melding, Kern, uitnodigingen, verzoeken, berichten
+author: Hanne Gunnarsson, Bergfrid Dias
+so.date: 08.30.2023
+keywords: melding, uitnodigingen, verzoeken, berichten
 so.topic: concept
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
@@ -77,6 +77,31 @@ Dit zijn de meldingsopties:
 * Meldingen weergeven voor nieuw bericht in verzoek
 * Meldingen weergeven voor nieuwe verzoeken
 
+### Voorkeuren voor systeemmeldingen
+
+* Systeemmeldingen voor vervolgactiviteiten
+* Systeemmeldingen voor email
+* Systeemmeldingen voor chatten
+
+## Hoe de browserinstellingen voor meldingen wijzigen
+
+**Chrome:** Klik op het hangslotsymbool voor de URL en schakel de **Meldingen**-schakelaar in.
+
+![Systeemmeldingen deblokkeren in Chrome -screenshot][img11]
+
+**Edge:** Klik op het hangslotsymbool voor de URL en kies **Toestaan** uit het **Meldingen**-keuzemenu.
+
+![Systeemmeldingen deblokkeren in Edge -screenshot][img12]
+
+**Firefox:** Klik op het hangslotsymbool voor de URL en verwijder de geblokkeerde toestemming.
+
+![Systeemmeldingen deblokkeren in Firefox -screenshot][img13]
+
+**Safari:** Open het **Instellingen**-menu, ga naar het tabblad **Websites** en pas de machtigingen aan.
+
+![Systeemmeldingen deblokkeren in Safari -screenshot][img14]
+![Systeemmeldingen deblokkeren in Safari -screenshot][img15]
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->
@@ -85,3 +110,9 @@ Dit zijn de meldingsopties:
 [img3]: ../../../../common/icons/remove-icon.png
 [img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
+
+[img11]: ../../../media/loc/en/learn/system-notification-chrome.png
+[img12]: ../../../media/loc/en/learn/system-notification-edge.png
+[img13]: ../../../media/loc/en/learn/system-notification-firefox.png
+[img14]: ../../../media/loc/en/learn/system-notification-safari.png
+[img15]: ../../../media/loc/en/learn/safari-website-settings.png

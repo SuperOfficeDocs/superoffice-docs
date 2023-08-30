@@ -2,9 +2,9 @@
 uid: help-da-notifications
 title: Underretninger
 description: "Meddelelser om invitationer, beskeder og sager"
-author: Hanne Gunnarsson
-so.date: 04.03.2023
-keywords: notifikation, Kerne, invitationer, sager, meddelelser
+author: Hanne Gunnarsson, Bergfrid Dias
+so.date: 08.30.2023
+keywords: notifikation, invitation, sag, meddelels
 so.topic: concept
 so.audience: person
 so.audience.tooltip: SuperOffice CRM
@@ -77,6 +77,31 @@ Dette er meddelelsesmulighederne:
 * Vis beskeder for ny besked i sag
 * Vis beskeder for nye sager
 
+### Præferencer systembeskeder
+
+* Systembeskeder for aftaler
+* Systembeskeder for e-mails
+* Systembeskeder for chats
+
+## Ændres browserindstillingerne for notifikationer
+
+**Chrome:** Klik på hængelåsen foran URL'en og aktiver **Notifikationer**-vippen.
+
+![Fjern blokeringen af systemnotifikationer i Chrome -screenshot][img11]
+
+**Edge:** Klik på hængelåsen foran URL'en og vælg **Tillad** fra **Notifikationer**-rullemenuen.
+
+![Fjern blokeringen af systemnotifikationer i Edge -screenshot][img12]
+
+**Firefox:** Klik på hængelåsen foran URL'en og fjern den blokerede tilladelse.
+
+![Fjern blokeringen af systemnotifikationer i Firefox -screenshot][img13]
+
+**Safari:** Åbn **Indstillinger**-menuen, gå til fanen **Websites** og juster tilladelserne.
+
+![Fjern blokeringen af systemnotifikationer i Safari -screenshot][img14]
+![Fjern blokeringen af systemnotifikationer i Safari -screenshot][img15]
+
 <!-- Referenced links -->
 
 <!-- Referenced images -->
@@ -85,3 +110,9 @@ Dette er meddelelsesmulighederne:
 [img3]: ../../../../common/icons/remove-icon.png
 [img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
+
+[img11]: ../../../media/loc/en/learn/system-notification-chrome.png
+[img12]: ../../../media/loc/en/learn/system-notification-edge.png
+[img13]: ../../../media/loc/en/learn/system-notification-firefox.png
+[img14]: ../../../media/loc/en/learn/system-notification-safari.png
+[img15]: ../../../media/loc/en/learn/safari-website-settings.png
