@@ -467,9 +467,6 @@ so.envir: onsite, online
 |449| [ErpConfiguration](erpconfiguration.md) |Global settings for the Erp Integration Server|
 |450| [EjCategoryGroupLink](ejcategorygrouplink.md) |User group link table for EjCategory, for mass handling ej_category members|
 |451| [ticket\_type](ticket-type.md) |Contains ticket types, used to drive processing logic together with ticket relations|
-|452| [ticket\_relation\_type](ticket-relation-type.md) |Contains ticket relation types, used to drive processing logic together with ticket relations|
-|453| [ticket\_relation\_action](ticket-relation-action.md) |Contains ticket relation actions, used to drive processing logic together with ticket relations|
-|454| [ticket\_relation](ticket-relation.md) |Contains ticket relations, used to drive processing logic|
 |455| [Favourite](favourite.md) |Favourite records (star-marking)|
 |456| [DatabaseModel](databasemodel.md) |New DatabaseModel used by Continuous Database|
 |458| [SaintConfiguration](saintconfiguration.md) |Configuration information for the Saint system|

@@ -923,12 +923,6 @@ items:
   href: ticket-log-change.md
 - name: ticket_priority
   href: ticket-priority.md
-- name: ticket_relation
-  href: ticket-relation.md
-- name: ticket_relation_action
-  href: ticket-relation-action.md
-- name: ticket_relation_type
-  href: ticket-relation-type.md
 - name: ticket_status
   href: ticket-status.md
 - name: ticket_status_history

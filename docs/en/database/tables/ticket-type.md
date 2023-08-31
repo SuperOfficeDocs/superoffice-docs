@@ -47,7 +47,6 @@ Contains ticket types, used to drive processing logic together with ticket relat
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
-|[ticket\_relation\_type](ticket-relation-type.md)  |Contains ticket relation types, used to drive processing logic together with ticket relations |
 
 
 ## Replication Flags

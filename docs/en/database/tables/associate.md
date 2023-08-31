@@ -375,9 +375,6 @@ Employees, resources and other users - except for External persons
 |[TaskMenuHeadingLink](taskmenuheadinglink.md)  |Heading link table for TaskMenu, for MDO headers |
 |[TemporaryKey](temporarykey.md)  |Temporary keys for lightweight authentications such as changing ones subscriptions |
 |[text](text.md)  |Long text fields from all over the system |
-|[ticket\_relation](ticket-relation.md)  |Contains ticket relations, used to drive processing logic |
-|[ticket\_relation\_action](ticket-relation-action.md)  |Contains ticket relation actions, used to drive processing logic together with ticket relations |
-|[ticket\_relation\_type](ticket-relation-type.md)  |Contains ticket relation types, used to drive processing logic together with ticket relations |
 |[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
 |[travelcurrent](travelcurrent.md)  |Information about this database and its place in the hierarchy |
 |[travelgenerateddatabase](travelgenerateddatabase.md)  |Information about all databases generated from this database |

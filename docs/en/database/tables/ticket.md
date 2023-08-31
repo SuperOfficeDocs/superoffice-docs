@@ -136,7 +136,6 @@ This table contains the tickets (requests) of the system. Its purpose should be 
 |[ticket\_log\_action](ticket-log-action.md)  |This table contains actions for the tickets. |
 |[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
 |[ticket\_priority](ticket-priority.md)  |This table contains the ticket priorities. |
-|[ticket\_relation](ticket-relation.md)  |Contains ticket relations, used to drive processing logic |
 |[ticket\_status](ticket-status.md)  |This table user defined ticket status values. |
 |[ticket\_status\_history](ticket-status-history.md)  |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved  |
 |[ticket\_type](ticket-type.md)  |Contains ticket types, used to drive processing logic together with ticket relations |
