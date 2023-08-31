@@ -5,7 +5,7 @@ keywords: mdoprovider mdo provider contact_and_person_freetextsearch
 description: Provider for selecting a Contact or a Person
 Does keyword matching and scoring across multiple
 string fields. Checks name, department, soundex fields.
-<para />
+
 Additional:
 <list type="bullet"><item>Name = Person or PersonContact or ContactPerson</item><item>AddContact = true or false - add a contact item for person items</item></list>
 so.generated: true
@@ -17,15 +17,15 @@ so.envir: onsite, online
 Provider for selecting a Contact or a Person
 Does keyword matching and scoring across multiple
 string fields. Checks name, department, soundex fields.
-<para />
+
 Additional:
 <list type="bullet"><item>Name = Person or PersonContact or ContactPerson</item><item>AddContact = true or false - add a contact item for person items</item></list>
 
 User's own contacts, recently added + modified contacts, contacts modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
 Returns contact or person items: Id = contact_id or person_id, ExtraInfo = "contact_id"=contact_id, Type = "Contact" or "Person", StyleHint = "stop"
-<para />
+
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactAndPersonListFreetextSearchProvider">ContactAndPersonListFreetextSearchProvider</see> class.

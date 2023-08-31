@@ -16,7 +16,7 @@ Supports searching across project text fields.
 Respects the Project.SkipCompletedProjects user preference.
 
 Returns project items only: Id = project-id, Name = Project name, Type = "Project", IconHint="deleted_item", ExtraInfo= project-id
-<para />
+
 Completed/Done projects are marked with stylehint = "deleted_item" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectListProvider">ProjectListProvider</see> class.

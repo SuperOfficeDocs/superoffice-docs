@@ -17,15 +17,15 @@ This does the same contact + person search as the base class ("contactWithPerson
 but always returns contact info. So you will still get a result for "John Rowling (Liberty Comm)"
 but the id = contact-id, not John Rowling's person id.
 The type is always "Contact".
-<para />
+
 Returns Contact items:
-<para />
+
 id = contact id,
-<para />
+
 Name = contact.name + department or person first+last name (contact name + department)
-<para />
+
 ExtraInfo = contact_id,
-<para />
+
 Type = "Contact"
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LocateContactProvider">LocateContactProvider</see> class.

@@ -19,9 +19,9 @@ User's own contacts, recently added + modified contacts, contacts modified or cr
 Matches on word boundaries or at start of field are scored extra highly.
 Contacts with lots of activity or lots of recent activity (according to the SAINT counters) are also
 preferred.
-<para />
+
 Returns contact items only: Id = ExtraInfo = contact_id, Type = "Contact", StyleHint = "stop"
-<para />
+
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactPersonListFreetextSearchProvider">ContactPersonListFreetextSearchProvider</see> class.

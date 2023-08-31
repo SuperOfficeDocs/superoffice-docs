@@ -21,9 +21,9 @@ as well as from person "Guttorm" in project "Teacup".
 
 User's own sales, recently added + modified sales, sales modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
 Returns sale items only: Id = sale-id, Name = sale name, Type = "Sale", IconHint="deleted_item", ExtraInfo= sale-id
-<para />
+
 Completed/Done sales are marked with stylehint = "deleted_item" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleListFreetextSearchProvider">SaleListFreetextSearchProvider</see> class.
