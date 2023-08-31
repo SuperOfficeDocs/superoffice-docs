@@ -15,6 +15,8 @@ To gather all important communications for your customers, using the SuperOffice
 
 Just install the app from our [SuperOffice AppStore][1]. and the [Microsoft Store][3]. If you already have the app installed, it's automatically updated for you.
 
+Read more about [how to use][2] SuperOffice for Outlook in our Learn section.
+
 ## Onsite and Cloud installation
 
 In the installation screen you have two options, to connect to a SuperOffice CRM Cloud or an SuperOffice Onsite SuperOffice installation.
@@ -25,6 +27,8 @@ If you have an SuperOffice CRM Cloud installation, you select the **We run Super
 
 ![SuperOffice for Outlook login with server URL -screenshot][img1]
 
+### Onsite login with URL field
+
 All fields are required to have a value:
 
 * **URL**: must contain a valid URL (Onsite only)
@@ -32,8 +36,6 @@ All fields are required to have a value:
 * **Password**: non-empty
 
 ![SuperOffice for Outlook install for Online or Onsite -screenshot][img2]
-
-Read more about [how to use][2] SuperOffice for Outlook in our Learn section.
 
 <!-- Referenced links-->
 [1]: https://appstore.superoffice.com/superoffice-as/superoffice-for-outlook
