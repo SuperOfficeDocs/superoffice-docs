@@ -13,7 +13,7 @@ language: sv
 
 Om du får ett e-postmeddelande där du uppmanas att göra något kan du konvertera e-postmeddelandet till en aktivitet i SuperOffice CRM.
 
-![Använda Mail Link i Outlook för att konvertera ett e-postmeddelande till en aktivitet i SuperOffice CRM -screenshot][img1]
+![Använda Mail Link i Outlook för att konvertera ett e-postmeddelande till en aktivitet i SuperOffice CRM -app-screen][img1]
 
 ## Steg
 
@@ -63,4 +63,5 @@ Om du får ett e-postmeddelande där du uppmanas att göra något kan du konvert
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png
+
+[img1]: ../../../../media/loc/en/email/mail-link-actions.jpg

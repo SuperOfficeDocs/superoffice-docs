@@ -13,7 +13,7 @@ language: no
 
 Hvis du mottar en e-post der du blir bedt om å gjøre noe, kan du konvertere e-posten til en aktivitet i SuperOffice CRM.
 
-![Bruke e-post-koblingen i Outlook til å konvertere en e-post til en aktivitet i SuperOffice CRM -screenshot][img1]
+![Bruke e-post-koblingen i Outlook til å konvertere en e-post til en aktivitet i SuperOffice CRM -app-screen][img1]
 
 ## Trinn
 
@@ -63,4 +63,5 @@ Hvis du mottar en e-post der du blir bedt om å gjøre noe, kan du konvertere e-
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png
+
+[img1]: ../../../../media/loc/en/email/mail-link-actions.jpg
