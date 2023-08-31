@@ -29,7 +29,7 @@ Implementation of the provider for the combined selection
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -737,7 +737,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombined?$select=person/isStakeholder,person/personAssociate/assocTooltip,person/personAssociate/credentialDisplayValue,contact/nameDepartment,extra/x_ticket_project_relation
+GET /api/v1/archive/TicketSelectionCombined?$select=project/registeredDate,project/projectAssociate/ejDisplayName,person/personExtra/x_person_appointment_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 457
+  "UserGroupId": 972
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 365,
-    "ColumnId": 459,
-    "FieldDefault": "fuga",
-    "FieldHeight": 751,
-    "FieldLabel": "ratione",
-    "FieldLeft": 351,
-    "FieldTop": 285,
+    "UDefFieldId": 149,
+    "ColumnId": 979,
+    "FieldDefault": "ullam",
+    "FieldHeight": 851,
+    "FieldLabel": "aut",
+    "FieldLeft": 610,
+    "FieldTop": 745,
     "FieldType": "Checkbox",
-    "FieldWidth": 292,
-    "FormatMask": "facere",
-    "HideLabel": false,
+    "FieldWidth": 330,
+    "FormatMask": "dolor",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 518,
-    "LabelLeft": 822,
-    "LabelTop": 748,
-    "LabelWidth": 298,
-    "LastVersionId": 853,
-    "ListTableId": 542,
-    "IsMandatory": false,
+    "LabelHeight": 888,
+    "LabelLeft": 448,
+    "LabelTop": 449,
+    "LabelWidth": 178,
+    "LastVersionId": 940,
+    "ListTableId": 145,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 131,
-    "ProgId": "consequatur",
-    "IsReadOnly": false,
-    "ShortLabel": "sunt",
-    "TabOrder": 569,
-    "TextLength": 734,
-    "Tooltip": "voluptas",
-    "UdefIdentity": 304,
-    "UDListDefinitionId": 995,
+    "Page1LineNo": 500,
+    "ProgId": "et",
+    "IsReadOnly": true,
+    "ShortLabel": "quia",
+    "TabOrder": 33,
+    "TextLength": 658,
+    "Tooltip": "vel",
+    "UdefIdentity": 574,
+    "UDListDefinitionId": 194,
     "Justification": "Center",
-    "Version": 425,
-    "TemplateVariableName": "Powlowski Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Davis-Schimmel",
+    "Version": 177,
+    "TemplateVariableName": "Balistreri, Luettgen and Wunsch",
+    "HasBeenPublished": false,
+    "MdoListName": "Goyette-Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldLength": 643
       }
     }
   }

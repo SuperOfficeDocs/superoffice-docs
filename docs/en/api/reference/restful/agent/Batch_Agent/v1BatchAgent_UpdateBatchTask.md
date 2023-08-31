@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Considine-Balistreri",
-  "AssociateId": 951,
-  "DetailsTable": 733,
-  "DetailsRecord": 728,
+  "Id": 659,
+  "Name": "Renner-McClure",
+  "AssociateId": 818,
+  "DetailsTable": 313,
+  "DetailsRecord": 841,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "doloribus",
-    "ParameterObject2": "asperiores"
+    "ParameterObject1": "blanditiis",
+    "ParameterObject2": "natus"
   },
-  "LastStarted": "2004-07-05T16:00:40.1019505+02:00",
-  "Created": "2021-07-29T16:00:40.1019505+02:00",
-  "StartCount": 470,
-  "DatabaseSerialNumber": "644078",
-  "Context": "reiciendis",
-  "Result": "culpa",
+  "LastStarted": "2002-03-10T03:31:25.6496314+01:00",
+  "Created": "2014-09-15T03:31:25.6496314+02:00",
+  "StartCount": 81,
+  "DatabaseSerialNumber": "450218",
+  "Context": "dicta",
+  "Result": "voluptas",
   "State": "All",
-  "Description": "Enhanced full-range emulation",
-  "Response": "modi",
-  "Request": "amet",
-  "ProgressDescription": "Cloned dedicated initiative",
-  "ProgressPercent": 685,
-  "FileName": "Schulist-Bartoletti",
+  "Description": "Progressive incremental attitude",
+  "Response": "explicabo",
+  "Request": "voluptatem",
+  "ProgressDescription": "Exclusive multimedia structure",
+  "ProgressPercent": 165,
+  "FileName": "Kessler-Jacobi",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 15
     }
   }
 }

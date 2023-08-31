@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Turcotte-Wolff",
-    "ToolTip": "Et aut et.",
+    "Id": 927,
+    "Name": "O'Conner, Kuhn and Schamberger",
+    "ToolTip": "Rem sint odit quo quia libero voluptas.",
     "Deleted": false,
-    "Rank": 989,
-    "Type": "ipsum",
-    "ColorBlock": 734,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2016-07-06T16:00:48.8364781+02:00",
+    "Rank": 315,
+    "Type": "cum",
+    "ColorBlock": 939,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2003-02-12T03:31:33.4604945+01:00",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Stamm-Kovacek",
-        "ToolTip": "Sapiente culpa incidunt.",
+        "Id": 747,
+        "Name": "Gutmann-Von",
+        "ToolTip": "Perspiciatis id dolores aut optio dolore perspiciatis error.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "perspiciatis",
-        "ColorBlock": 994,
-        "IconHint": "occaecati",
+        "Rank": 128,
+        "Type": "ullam",
+        "ColorBlock": 186,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2006-06-24T16:00:48.8364781+02:00",
+        "LastChanged": "2022-06-22T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "eum",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Alta Prosacco",
+        "FullName": "Charity Winona Kuhlman Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 987
+            "FieldType": "System.Int32",
+            "FieldLength": 775
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Easter Adams",
+    "ExtraInfo": "quasi",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Ahmed Sipes DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldLength": 672
       }
     }
   }

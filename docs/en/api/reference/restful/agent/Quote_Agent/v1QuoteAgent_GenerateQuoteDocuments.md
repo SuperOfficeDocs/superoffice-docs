@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 206,
-  "EmailBodyTemplateId": 788,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 134,
+  "QuoteVersionId": 897,
+  "EmailBodyTemplateId": 270,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 610,
   "IncludeAttachments": false,
-  "RawMailSubject": "minus"
+  "RawMailSubject": "totam"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 229,
-  "QuotedProductsId": 349,
+  "QuoteDocumentId": 471,
+  "QuotedProductsId": 234,
   "QuoteAttachmentIds": [
-    312,
-    281
+    810,
+    978
   ],
-  "MailBody": "est",
-  "MailSubject": "temporibus",
-  "ToEmail": "danielle@west.ca",
-  "ToFullName": "Cory Bogisich",
-  "ErrorMessage": "animi",
+  "MailBody": "ea",
+  "MailSubject": "est",
+  "ToEmail": "anastasia_dickinson@lesch.name",
+  "ToFullName": "Ms. Missouri Hilbert Grimes Jr.",
+  "ErrorMessage": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 117
     }
   }
 }

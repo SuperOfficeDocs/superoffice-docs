@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 289,
-  "Name": "Kutch, Wilderman and Cummings"
+  "DashboardId": 888,
+  "Name": "Kshlerin-Pouros"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 102,
-  "UniqueId": "fuga",
-  "Name": "Boyer, Towne and Ritchie",
-  "Description": "Grass-roots directional artificial intelligence",
-  "AssociateId": 249,
-  "Columns": 255,
+  "DashboardId": 170,
+  "UniqueId": "hic",
+  "Name": "Lind-Schultz",
+  "Description": "Organized dedicated product",
+  "AssociateId": 367,
+  "Columns": 223,
   "Theme": null,
-  "VisibleForAll": 146,
+  "VisibleForAll": 131,
   "VisibleForAssociates": [
-    406,
-    430
+    73,
+    103
   ],
   "VisibleForGroups": [
-    143,
-    979
+    974,
+    636
   ],
-  "PinForAll": 814,
+  "PinForAll": 877,
   "PinForAssociates": [
-    227,
-    192
+    867,
+    275
   ],
   "PinForGroups": [
-    382,
-    75
+    492,
+    358
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldLength": 150
     }
   }
 }

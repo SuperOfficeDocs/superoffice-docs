@@ -72,7 +72,7 @@ PATCH /api/v1/SaleStakeholder/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hilll LLC",
-  "Comment": "fugiat",
-  "StakeholderRoleId": 671,
-  "CountryId": 837,
-  "PersonId": 337,
-  "EmailDescription": "kitty@willmslakin.uk",
-  "EmailId": 1002,
-  "EmailAddress": "willa@hagenes.com",
-  "PhoneId": 980,
-  "ContactName": "Schroeder Inc and Sons",
-  "ContactId": 3,
-  "SaleId": 448,
-  "Mrmrs": "ut",
-  "Firstname": "Tristin",
-  "MiddleName": "Nitzsche, Farrell and Jones",
-  "Lastname": "O'Kon",
-  "SaleStakeholderId": 623,
-  "Rank": 549,
-  "Phone": "306-040-5949 x7153",
+  "StakeholderRoleName": "Nader-Cartwright",
+  "Comment": "laborum",
+  "StakeholderRoleId": 673,
+  "CountryId": 337,
+  "PersonId": 541,
+  "EmailDescription": "nick.rowe@eichmann.com",
+  "EmailId": 414,
+  "EmailAddress": "arely_denesik@feest.uk",
+  "PhoneId": 173,
+  "ContactName": "Goldner Group",
+  "ContactId": 136,
+  "SaleId": 773,
+  "Mrmrs": "autem",
+  "Firstname": "Pattie",
+  "MiddleName": "Walter, Moen and Daniel",
+  "Lastname": "Altenwerth",
+  "SaleStakeholderId": 569,
+  "Rank": 592,
+  "Phone": "(626)854-6537 x63784",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

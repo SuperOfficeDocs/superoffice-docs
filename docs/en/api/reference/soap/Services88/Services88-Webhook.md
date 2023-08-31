@@ -56,6 +56,7 @@ title: Services88.WebhookAgent WSDL
           <xs:element minOccurs="0" name="RegisteredAssociate" nillable="true" type="tns:Associate" />
           <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
           <xs:element minOccurs="0" name="UpdatedAssociate" nillable="true" type="tns:Associate" />
+          <xs:element minOccurs="0" name="ErrorsEmail" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
       <xs:element name="Webhook" nillable="true" type="tns:Webhook" />

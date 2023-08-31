@@ -91,30 +91,30 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 592,
-  "UniqueId": "aut",
-  "Name": "Prohaska Group",
-  "Description": "Inverse static info-mediaries",
-  "AssociateId": 877,
-  "Columns": 193,
+  "DashboardId": 731,
+  "UniqueId": "est",
+  "Name": "Stroman Inc and Sons",
+  "Description": "Synergized global info-mediaries",
+  "AssociateId": 656,
+  "Columns": 158,
   "Theme": null,
-  "VisibleForAll": 29,
+  "VisibleForAll": 808,
   "VisibleForAssociates": [
-    397,
-    781
+    209,
+    387
   ],
   "VisibleForGroups": [
-    411,
-    782
+    42,
+    396
   ],
-  "PinForAll": 360,
+  "PinForAll": 42,
   "PinForAssociates": [
-    445,
-    756
+    653,
+    52
   ],
   "PinForGroups": [
-    382,
-    192
+    770,
+    182
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 239,
-  "UniqueId": "harum",
-  "Name": "Prosacco-Schmeler",
-  "Description": "Fully-configurable methodical attitude",
-  "AssociateId": 943,
-  "Columns": 899,
+  "DashboardId": 592,
+  "UniqueId": "saepe",
+  "Name": "Price, Willms and Altenwerth",
+  "Description": "Versatile full-range help-desk",
+  "AssociateId": 509,
+  "Columns": 11,
   "Theme": null,
-  "VisibleForAll": 408,
+  "VisibleForAll": 677,
   "VisibleForAssociates": [
-    675,
-    380
+    501,
+    626
   ],
   "VisibleForGroups": [
-    513,
-    603
+    345,
+    193
   ],
-  "PinForAll": 208,
+  "PinForAll": 728,
   "PinForAssociates": [
-    147,
-    857
+    564,
+    144
   ],
   "PinForGroups": [
-    134,
-    860
+    990,
+    923
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldLength": 457
     }
   }
 }

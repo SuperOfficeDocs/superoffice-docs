@@ -30,7 +30,7 @@ Ticket provider for Find
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -733,7 +733,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=person/correspondingAssociate/usergroup,person/subscription,contact/contactAssociate/fullName,contact/saintAmountClass,sale/registeredByFullName
+GET /api/v1/archive/FindTicket?$select=person/restrictionAddress/line2,contact/searchPhone/formattedNumber,sale/visibleFor,project/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

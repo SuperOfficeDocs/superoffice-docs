@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=533
+POST /api/v1/Agents/List/GetCountry?countryId=750
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 949,
-  "Name": "Gibson-Wunsch",
-  "CurrencyId": 339,
-  "EnglishName": "Stamm Inc and Sons",
+  "CountryId": 287,
+  "Name": "Krajcik-Prohaska",
+  "CurrencyId": 476,
+  "EnglishName": "Hartmann, Pfeffer and Gorczany",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Virtual empowering emulation",
-  "OrgNrText": "343460",
-  "InterAreaPrefix": "eaque",
-  "DialInPrefix": "voluptatem",
-  "ZipPrefix": "cumque",
-  "DomainName": "Funk, Ziemann and Conn",
-  "AddressLayoutId": 386,
-  "DomesticAddressLayoutId": 315,
-  "ForeignAddressLayoutId": 798,
-  "Rank": 136,
-  "Tooltip": "quisquam",
-  "Deleted": false,
+  "ImageDescription": "Devolved encompassing migration",
+  "OrgNrText": "1878973",
+  "InterAreaPrefix": "quaerat",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "praesentium",
+  "DomainName": "Kreiger, Turner and Effertz",
+  "AddressLayoutId": 70,
+  "DomesticAddressLayoutId": 831,
+  "ForeignAddressLayoutId": 700,
+  "Rank": 715,
+  "Tooltip": "itaque",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldLength": 385
     }
   }
 }

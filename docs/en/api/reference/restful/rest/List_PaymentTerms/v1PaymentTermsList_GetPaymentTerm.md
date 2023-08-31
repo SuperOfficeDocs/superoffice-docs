@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Koelpin, Connelly and Paucek",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "UdListDefinitionId": 733,
-  "Rank": 191,
+  "Id": 317,
+  "Name": "Hirthe, Ruecker and Terry",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 313,
+  "Rank": 173,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldType": "System.Int32",
+      "FieldLength": 568
     }
   }
 }

@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 68,
-  "Name": "Bashirian-Connelly",
-  "Tooltip": "est",
-  "Rank": 282,
-  "Rate": 8681.18,
-  "Units": 13219.212,
-  "Deleted": false
+  "CurrencyId": 765,
+  "Name": "Stark Group",
+  "Tooltip": "quis",
+  "Rank": 949,
+  "Rate": 6443.504,
+  "Units": 4939.184,
+  "Deleted": true
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 377,
-  "Name": "Prohaska-Ward",
-  "Tooltip": "tenetur",
-  "Rank": 21,
-  "Rate": 31089.28,
-  "Units": 7534.1359999999995,
+  "CurrencyId": 136,
+  "Name": "Hoeger Group",
+  "Tooltip": "voluptas",
+  "Rank": 813,
+  "Rate": 2670.168,
+  "Units": 21273.592,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldLength": 438
     }
   }
 }

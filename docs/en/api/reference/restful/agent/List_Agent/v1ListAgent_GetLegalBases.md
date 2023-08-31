@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 755,
-    "Name": "Ritchie, Schaden and Koch",
-    "Tooltip": "non",
-    "Rank": 972,
-    "Key": "tempore",
+    "LegalBaseId": 564,
+    "Name": "Casper Group",
+    "Tooltip": "voluptate",
+    "Rank": 763,
+    "Key": "ut",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldLength": 799
       }
     }
   }

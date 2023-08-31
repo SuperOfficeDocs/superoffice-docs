@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Value": "repudiandae",
-    "Tooltip": "fuga",
+    "Id": 44,
+    "Value": "rerum",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 781
       }
     }
   },
   {
-    "Id": 167,
-    "Value": "repudiandae",
-    "Tooltip": "fuga",
+    "Id": 44,
+    "Value": "rerum",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 781
       }
     }
   }

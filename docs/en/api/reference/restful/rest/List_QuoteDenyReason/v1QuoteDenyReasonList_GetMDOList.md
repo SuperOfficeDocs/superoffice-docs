@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=vel
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Kessler, Hettinger and Ritchie",
-    "ToolTip": "Voluptate amet.",
+    "Id": 528,
+    "Name": "Ernser, Bergnaum and Marquardt",
+    "ToolTip": "Hic aspernatur repellendus voluptates et.",
     "Deleted": false,
-    "Rank": 737,
-    "Type": "exercitationem",
+    "Rank": 803,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 378,
-        "Name": "Goyette, Ledner and Jakubowski",
-        "ToolTip": "Architecto pariatur quas sit explicabo.",
+        "Id": 290,
+        "Name": "O'Keefe LLC",
+        "ToolTip": "Itaque ut et nihil debitis.",
         "Deleted": false,
-        "Rank": 794,
-        "Type": "veniam",
+        "Rank": 587,
+        "Type": "assumenda",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "dolor",
-        "ColorBlock": 196,
-        "ExtraInfo": "id",
-        "StyleHint": "velit",
-        "FullName": "Marisa Sasha Kuphal DDS",
+        "ColorBlock": 545,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "consequatur",
+        "FullName": "Athena Fredrick Torp V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 154
+            "FieldType": "System.String",
+            "FieldLength": 971
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 105,
-    "ExtraInfo": "et",
-    "StyleHint": "laboriosam",
-    "FullName": "Ms. Rosalind Jolie Keebler",
+    "IconHint": "totam",
+    "ColorBlock": 731,
+    "ExtraInfo": "sed",
+    "StyleHint": "quo",
+    "FullName": "Mr. Thad Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 82
       }
     }
   }

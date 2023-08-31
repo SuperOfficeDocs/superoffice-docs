@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 364
+  "ShipmentId": 313
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2012-04-03T16:00:41.2580675+02:00",
+  "StartDate": "2018-07-17T03:31:26.7612835+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 118,
-  "ShipmentDescription": "Implemented discrete pricing structure",
-  "FromAddress": "dolor",
-  "PersonId": 76,
-  "PersonFullName": "Hadley Wuckert",
-  "ShipmentType": "accusamus",
-  "MessageId": 562,
-  "MessageSubject": "sint",
-  "DocumentMessageId": 789,
-  "NumSent": 798,
-  "NumOpened": 178,
-  "NumBounced": 623,
-  "NumClicks": 415,
+  "ShipmentId": 500,
+  "ShipmentDescription": "Integrated context-sensitive emulation",
+  "FromAddress": "et",
+  "PersonId": 829,
+  "PersonFullName": "Annamarie Wiegand",
+  "ShipmentType": "et",
+  "MessageId": 577,
+  "MessageSubject": "maxime",
+  "DocumentMessageId": 958,
+  "NumSent": 213,
+  "NumOpened": 236,
+  "NumBounced": 563,
+  "NumClicks": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 648
     }
   }
 }

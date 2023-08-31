@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 864,
-  "Name": "Boehm LLC",
-  "Tooltip": "illum",
+  "RoleId": 914,
+  "Name": "Rempel Group",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 340,
-  "Rank": 390,
-  "Created": "1996-06-27T16:00:42.2893736+02:00",
-  "UseCategories": 334,
+  "Deleted": 997,
+  "Rank": 237,
+  "Created": "2012-09-06T03:31:27.7322326+02:00",
+  "UseCategories": 483,
   "CreatedBy": null,
-  "Updated": "2004-05-05T16:00:42.2893736+02:00",
+  "Updated": "2012-03-21T03:31:27.7322326+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 507
     }
   }
 }

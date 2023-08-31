@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 663,
-  "Name": "Steuber-Rath",
-  "Tooltip": "tenetur",
-  "Rank": 963,
-  "Rate": 26917.926,
-  "Units": 18578.352,
+  "CurrencyId": 190,
+  "Name": "Zieme, Marquardt and Haag",
+  "Tooltip": "doloribus",
+  "Rank": 492,
+  "Rate": 28284.35,
+  "Units": 30258.77,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Wyman Group",
-    "ToolTip": "Ut saepe earum maiores ratione veritatis voluptatem earum.",
+    "Id": 772,
+    "Name": "Cassin Group",
+    "ToolTip": "Dolorum aspernatur ea laudantium quae aut et reiciendis.",
     "Deleted": false,
-    "Rank": 624,
-    "Type": "assumenda",
-    "ColorBlock": 625,
-    "IconHint": "doloremque",
+    "Rank": 470,
+    "Type": "repellat",
+    "ColorBlock": 307,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2017-09-14T16:00:49.086451+02:00",
+    "LastChanged": "2001-05-02T03:31:33.6635785+02:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Trantow, Kling and Mraz",
-        "ToolTip": "Quia quis veritatis.",
-        "Deleted": true,
-        "Rank": 285,
-        "Type": "id",
-        "ColorBlock": 365,
-        "IconHint": "corrupti",
-        "Selected": false,
-        "LastChanged": "2022-12-27T16:00:49.086451+01:00",
+        "Id": 665,
+        "Name": "Lebsack, Corkery and Abshire",
+        "ToolTip": "Ut qui at quaerat porro quos vitae saepe.",
+        "Deleted": false,
+        "Rank": 719,
+        "Type": "facere",
+        "ColorBlock": 37,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2003-12-19T03:31:33.6635785+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Miss Dedrick Reynolds IV"
+        "ExtraInfo": "est",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Efrain Liliane Weber V"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Vivienne Baumbach"
+    "ExtraInfo": "praesentium",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Zelma Howe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "O'Hara-Mitchell",
-    "ToolTip": "Assumenda quibusdam incidunt.",
+    "Id": 951,
+    "Name": "Gislason, Greenfelder and Koepp",
+    "ToolTip": "Vero rerum dolor sequi ducimus quam libero.",
     "Deleted": false,
-    "Rank": 693,
-    "Type": "officiis",
-    "ColorBlock": 86,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2018-09-28T16:00:49.086451+02:00",
+    "Rank": 163,
+    "Type": "aut",
+    "ColorBlock": 836,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2020-01-22T03:31:33.6635785+01:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Gutmann, Leannon and Howe",
-        "ToolTip": "Tempore fugit non.",
-        "Deleted": false,
-        "Rank": 151,
-        "Type": "facere",
-        "ColorBlock": 907,
-        "IconHint": "minima",
-        "Selected": true,
-        "LastChanged": "1996-04-17T16:00:49.086451+02:00",
+        "Id": 384,
+        "Name": "Terry, Larkin and Torphy",
+        "ToolTip": "Consectetur pariatur natus reprehenderit est.",
+        "Deleted": true,
+        "Rank": 53,
+        "Type": "excepturi",
+        "ColorBlock": 197,
+        "IconHint": "esse",
+        "Selected": false,
+        "LastChanged": "1996-11-29T03:31:33.6635785+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "fugit",
-        "Hidden": true,
-        "FullName": "Miss Grady Velva VonRueden",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Domenica Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 691
+            "FieldType": "System.String",
+            "FieldLength": 947
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "sunt",
+    "ExtraInfo": "quia",
+    "StyleHint": "odio",
     "Hidden": true,
-    "FullName": "Dr. Shanel Green",
+    "FullName": "Ms. Emelie Barton Sipes DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 882
+        "FieldType": "System.Int32",
+        "FieldLength": 868
       }
     }
   }

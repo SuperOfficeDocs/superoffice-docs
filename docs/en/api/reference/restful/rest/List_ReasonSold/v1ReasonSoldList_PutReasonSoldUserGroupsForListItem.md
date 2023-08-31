@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Conroy-Gerhold",
-    "ToolTip": "Fugit magni omnis voluptatem aut quia.",
-    "Deleted": false,
-    "Rank": 757,
-    "Type": "quam",
-    "ColorBlock": 404,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2017-04-27T16:00:49.289556+02:00",
+    "Id": 563,
+    "Name": "Wunsch LLC",
+    "ToolTip": "Sit nihil qui ut.",
+    "Deleted": true,
+    "Rank": 142,
+    "Type": "ipsa",
+    "ColorBlock": 150,
+    "IconHint": "numquam",
+    "Selected": false,
+    "LastChanged": "2018-05-06T03:31:33.8523421+02:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Schmeler-McDermott",
-        "ToolTip": "Reprehenderit ipsum.",
-        "Deleted": false,
-        "Rank": 497,
-        "Type": "ut",
-        "ColorBlock": 243,
-        "IconHint": "voluptates",
+        "Id": 189,
+        "Name": "Bechtelar Group",
+        "ToolTip": "Quae est sit ex sequi.",
+        "Deleted": true,
+        "Rank": 476,
+        "Type": "porro",
+        "ColorBlock": 30,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2013-10-26T16:00:49.289556+02:00",
+        "LastChanged": "2004-05-21T03:31:33.8523421+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Clement Koss"
+        "ExtraInfo": "et",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Prof. Heidi Kaylin Waters"
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Bertrand McKenzie"
+    "ExtraInfo": "architecto",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Tiffany Toy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Ward, Gutmann and Herzog",
-    "ToolTip": "Reprehenderit ipsum.",
+    "Id": 737,
+    "Name": "Kozey-Gibson",
+    "ToolTip": "Incidunt illo esse voluptatem et eos.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "eius",
-    "ColorBlock": 523,
-    "IconHint": "quod",
-    "Selected": false,
-    "LastChanged": "2009-02-04T16:00:49.289556+01:00",
+    "Rank": 546,
+    "Type": "et",
+    "ColorBlock": 518,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2003-04-18T03:31:33.8523421+02:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Lebsack-Mitchell",
-        "ToolTip": "Doloribus ea corrupti.",
+        "Id": 163,
+        "Name": "Turcotte-Waters",
+        "ToolTip": "Laboriosam et illum quia officia.",
         "Deleted": false,
-        "Rank": 436,
-        "Type": "delectus",
-        "ColorBlock": 301,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2007-01-30T16:00:49.289556+01:00",
+        "Rank": 922,
+        "Type": "repellendus",
+        "ColorBlock": 785,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2001-12-12T03:31:33.8523421+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "enim",
+        "ExtraInfo": "eum",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Boris Borer Sr.",
+        "FullName": "Miss Elsa Renner IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "rerum",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Mariano Chester Dare PhD",
+    "FullName": "Elnora Mills V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 344
       }
     }
   }

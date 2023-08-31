@@ -103,30 +103,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 299,
-  "Name": "Torphy-Leannon",
-  "Tooltip": "maxime",
-  "Deleted": false,
-  "Rank": 430,
+  "WebPanelId": 185,
+  "Name": "Larson, Kiehn and Corkery",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "Rank": 132,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Lemke, Moen and Boyer",
+  "WindowName": "Green Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "vero",
-  "Icon": 679,
+  "ProgId": "aut",
+  "Icon": 393,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 512,
-  "Name": "Schaefer, Kub and Eichmann",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 286,
+  "WebPanelId": 287,
+  "Name": "Fritsch Inc and Sons",
+  "Tooltip": "numquam",
+  "Deleted": false,
+  "Rank": 644,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Yundt LLC",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Harvey-Jaskolski",
   "Url": "http://www.example.com/",
-  "ProgId": "sed",
-  "Icon": 975,
+  "ProgId": "tempore",
+  "Icon": 39,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 743
     }
   }
 }

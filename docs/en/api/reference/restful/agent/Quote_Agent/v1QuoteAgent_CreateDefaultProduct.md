@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 953,
-  "ERPProductKey": "ratione",
-  "ERPPriceListKey": "distinctio",
-  "Name": "Jakubowski, Luettgen and Hamill",
-  "Description": "Customer-focused explicit customer loyalty",
-  "Code": "distinctio",
-  "PriceUnit": "vero",
-  "QuantityUnit": "ipsam",
+  "ProductId": 720,
+  "ERPProductKey": "occaecati",
+  "ERPPriceListKey": "voluptates",
+  "Name": "Ullrich LLC",
+  "Description": "Synergistic zero tolerance neural-net",
+  "Code": "temporibus",
+  "PriceUnit": "sit",
+  "QuantityUnit": "id",
   "IsSubscription": false,
-  "SubscriptionUnit": "deserunt",
-  "DefaultSubscriptionQuantity": 2265.882,
-  "ItemNumber": "951980",
+  "SubscriptionUnit": "suscipit",
+  "DefaultSubscriptionQuantity": 28469.255999999998,
+  "ItemNumber": "1074915",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "id",
-  "VAT": 1626.546,
-  "VATInfo": "necessitatibus",
-  "UnitCost": 21966.206,
-  "UnitMinimumPrice": 8352.11,
-  "UnitListPrice": 9060.394,
+  "ProductFamilyKey": "tempore",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 5537.778,
+  "VATInfo": "nostrum",
+  "UnitCost": 18224.21,
+  "UnitMinimumPrice": 11965.612,
+  "UnitListPrice": 927.664,
   "InAssortment": false,
-  "Supplier": "aliquam",
-  "SupplierCode": "quis",
-  "Rights": "unde",
-  "Rule": "id",
+  "Supplier": "doloribus",
+  "SupplierCode": "sit",
+  "Rights": "ut",
+  "Rule": "dolorem",
   "ExtraInfo": [
     {
-      "Name": "Boyer-Miller",
-      "Value": "necessitatibus",
+      "Name": "Kulas-Quitzon",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 847
         }
       }
     },
     {
-      "Name": "Boyer-Miller",
-      "Value": "necessitatibus",
+      "Name": "Kulas-Quitzon",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 847
         }
       }
     }
   ],
-  "RawExtraInfo": "eius",
-  "ExtraField1": "dolore",
-  "ExtraField2": "at",
-  "ExtraField3": "maxime",
-  "ExtraField4": "quis",
-  "ExtraField5": "voluptas",
-  "InStock": 10787.228,
+  "RawExtraInfo": "provident",
+  "ExtraField1": "aut",
+  "ExtraField2": "expedita",
+  "ExtraField3": "consequatur",
+  "ExtraField4": "aperiam",
+  "ExtraField5": "minima",
+  "InStock": 23921.822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 563
     }
   }
 }

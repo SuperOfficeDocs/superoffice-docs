@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=explicabo
-GET /api/v1/BatchTask?$top=879
-GET /api/v1/BatchTask?$skip=775
+GET /api/v1/BatchTask?$entities=nobis
+GET /api/v1/BatchTask?$top=151
+GET /api/v1/BatchTask?$skip=424
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=fugiat
+GET /api/v1/BatchTask?$context=numquam
 GET /api/v1/BatchTask?$format=JSON
-GET /api/v1/BatchTask?$jsonSafe=False
+GET /api/v1/BatchTask?$jsonSafe=True
 GET /api/v1/BatchTask?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "tempora",
+  "odata.nextLink": "ut",
   "value": [
     {
-      "PrimaryKey": 8049,
+      "PrimaryKey": 2710,
       "EntityName": "sale",
-      "saleId": 8049,
-      "contactId": 9860,
-      "name": "Lynch Inc and Sons"
+      "saleId": 2710,
+      "contactId": 5033,
+      "name": "Maggio LLC"
     },
     {
-      "PrimaryKey": 9581,
+      "PrimaryKey": 7346,
       "EntityName": "sale",
-      "saleId": 9581,
-      "contactId": 136,
-      "name": "Runolfsson LLC"
+      "saleId": 7346,
+      "contactId": 5624,
+      "name": "Flatley-Stanton"
     }
   ]
 }

@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 963
+  "DocumentId": 620
 }
 ```
 
@@ -120,147 +120,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 117,
-      "ContactName": "Murphy Inc and Sons",
-      "PersonId": 535,
-      "PersonName": "Schinner-Effertz",
-      "AssociateId": 783,
-      "Address": "quisquam",
-      "EmailId": 909,
+      "ContactId": 412,
+      "ContactName": "Douglas, Graham and Rutherford",
+      "PersonId": 94,
+      "PersonName": "Kulas Group",
+      "AssociateId": 726,
+      "Address": "laboriosam",
+      "EmailId": 749,
       "DuplicatePersonIds": [
-        639,
-        141
+        275,
+        457
       ],
-      "Name": "Muller LLC",
+      "Name": "Gislason LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldLength": 91
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 728,
-      "ContactName": "Jacobs LLC",
-      "PersonId": 37,
-      "PersonName": "Weimann-West",
-      "AssociateId": 14,
-      "Address": "voluptatem",
-      "EmailId": 250,
+      "ContactId": 31,
+      "ContactName": "Treutel-Jacobs",
+      "PersonId": 214,
+      "PersonName": "Nikolaus-Balistreri",
+      "AssociateId": 62,
+      "Address": "quia",
+      "EmailId": 773,
       "DuplicatePersonIds": [
-        305,
-        211
+        446,
+        154
       ],
-      "Name": "Brakus-Considine",
+      "Name": "Abshire-Watsica",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 909,
-      "ContactName": "Wintheiser-Abbott",
-      "PersonId": 15,
-      "PersonName": "Wiza LLC",
-      "AssociateId": 579,
-      "Address": "exercitationem",
-      "EmailId": 171,
+      "ContactId": 463,
+      "ContactName": "Stokes Inc and Sons",
+      "PersonId": 179,
+      "PersonName": "Schmitt, Spinka and Schuster",
+      "AssociateId": 329,
+      "Address": "delectus",
+      "EmailId": 719,
       "DuplicatePersonIds": [
-        480,
-        831
+        173,
+        169
       ],
-      "Name": "Armstrong, Lynch and Moore",
+      "Name": "Torp-Konopelski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 20
         }
       }
     }
   ],
-  "Subject": "incidunt",
-  "HTMLBody": "molestias",
+  "Subject": "eaque",
+  "HTMLBody": "numquam",
   "From": null,
-  "Sent": "2001-06-20T16:00:40.8674876+02:00",
-  "Size": 935,
+  "Sent": "2009-09-23T03:31:26.4332438+02:00",
+  "Size": 931,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "nemo",
-  "IsSent": false,
+  "MessageID": "ut",
+  "PlainBody": "eaque",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 90,
+  "ServerId": 186,
   "Attachments": [
     {
-      "Description": "Re-contextualized static throughput",
-      "Filename": "ad",
-      "Size": 570,
-      "Type": "saepe",
-      "Encoding": "rem",
-      "Id": "aperiam",
-      "Disposition": "rerum",
+      "Description": "Centralized static emulation",
+      "Filename": "quibusdam",
+      "Size": 630,
+      "Type": "architecto",
+      "Encoding": "illo",
+      "Id": "in",
+      "Disposition": "vero",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 597
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schaden Group",
+      "Name": "Price-Hickle",
       "Values": [
-        "non",
-        "ab"
+        "sint",
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 1002
         }
       }
     },
     {
-      "Name": "Schaden Group",
+      "Name": "Price-Hickle",
       "Values": [
-        "non",
-        "ab"
+        "sint",
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 1002
         }
       }
     }
   ],
-  "FolderName": "Trantow Inc and Sons",
-  "EmailItemId": 318,
-  "AccountId": 817,
-  "ReceivedAt": "2016-06-11T16:00:40.8674876+02:00",
+  "FolderName": "Donnelly Inc and Sons",
+  "EmailItemId": 975,
+  "AccountId": 213,
+  "ReceivedAt": "2020-10-29T03:31:26.4332438+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-11-16T16:00:40.8674876+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-06-05T03:31:26.4332438+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 227
     }
   }
 }

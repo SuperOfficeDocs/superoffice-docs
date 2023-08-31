@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hayes, Johnston and Murray",
-  "Comment": "consequatur",
-  "StakeholderRoleId": 500,
-  "CountryId": 572,
-  "PersonId": 529,
-  "EmailDescription": "nettie@nikolausdicki.us",
-  "EmailId": 620,
-  "EmailAddress": "russ@hirthelind.com",
-  "PhoneId": 355,
-  "ContactName": "Vandervort Inc and Sons",
-  "ContactId": 419,
-  "SaleId": 450,
-  "Mrmrs": "mollitia",
-  "Firstname": "Roberta",
-  "MiddleName": "Eichmann Group",
-  "Lastname": "Zulauf",
-  "SaleStakeholderId": 277,
-  "Rank": 118,
-  "Phone": "595-742-8927"
+  "StakeholderRoleName": "Satterfield, Kerluke and Bernhard",
+  "Comment": "quia",
+  "StakeholderRoleId": 731,
+  "CountryId": 839,
+  "PersonId": 757,
+  "EmailDescription": "brook.hickle@bechtelar.info",
+  "EmailId": 596,
+  "EmailAddress": "maximillian.schiller@blocklindgren.us",
+  "PhoneId": 437,
+  "ContactName": "Borer-Marks",
+  "ContactId": 274,
+  "SaleId": 267,
+  "Mrmrs": "autem",
+  "Firstname": "Isobel",
+  "MiddleName": "Gutkowski-Koelpin",
+  "Lastname": "Kris",
+  "SaleStakeholderId": 182,
+  "Rank": 911,
+  "Phone": "218-045-9315 x7205"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dach-Hirthe",
-  "Comment": "amet",
-  "StakeholderRoleId": 996,
-  "CountryId": 73,
-  "PersonId": 689,
-  "EmailDescription": "rebecca.keebler@bogisichjakubowski.biz",
-  "EmailId": 947,
-  "EmailAddress": "madeline.weber@miller.info",
-  "PhoneId": 311,
-  "ContactName": "O'Hara-Predovic",
-  "ContactId": 333,
-  "SaleId": 356,
-  "Mrmrs": "quaerat",
-  "Firstname": "Kory",
-  "MiddleName": "Ward-Pfeffer",
-  "Lastname": "Schowalter",
-  "SaleStakeholderId": 803,
-  "Rank": 201,
-  "Phone": "(483)249-1708",
+  "StakeholderRoleName": "Padberg, Spencer and Barrows",
+  "Comment": "suscipit",
+  "StakeholderRoleId": 908,
+  "CountryId": 539,
+  "PersonId": 918,
+  "EmailDescription": "gabriel@balistreri.us",
+  "EmailId": 374,
+  "EmailAddress": "jerel@hackettcummerata.info",
+  "PhoneId": 268,
+  "ContactName": "Casper Inc and Sons",
+  "ContactId": 987,
+  "SaleId": 797,
+  "Mrmrs": "eaque",
+  "Firstname": "Lexi",
+  "MiddleName": "Bogisich, Ward and Zboncak",
+  "Lastname": "Waters",
+  "SaleStakeholderId": 886,
+  "Rank": 665,
+  "Phone": "255-342-5047 x996",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

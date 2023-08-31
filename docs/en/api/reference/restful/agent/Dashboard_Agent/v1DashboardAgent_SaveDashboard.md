@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 816,
-  "AssociateId": 373,
-  "Caption": "labore",
+  "DashboardId": 374,
+  "AssociateId": 213,
+  "Caption": "quas",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 281,
-      "Caption": "cupiditate",
-      "Description": "De-engineered systemic Graphic Interface",
-      "ChartName": "Sipes Inc and Sons",
-      "ChartId": "accusamus",
-      "IsDefault": true,
-      "AssociateId": 447,
-      "GroupId": 306,
-      "SelectionId": 604,
-      "Config": "dolorem",
+      "DashboardTileId": 818,
+      "Caption": "cumque",
+      "Description": "Visionary grid-enabled throughput",
+      "ChartName": "Padberg-Price",
+      "ChartId": "similique",
+      "IsDefault": false,
+      "AssociateId": 134,
+      "GroupId": 974,
+      "SelectionId": 863,
+      "Config": "maiores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 793,
-  "AssociateId": 916,
-  "Caption": "delectus",
+  "DashboardId": 505,
+  "AssociateId": 549,
+  "Caption": "sint",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 783,
-      "Caption": "quidem",
-      "Description": "Cloned bandwidth-monitored adapter",
-      "ChartName": "D'Amore-Jerde",
-      "ChartId": "libero",
-      "IsDefault": true,
-      "AssociateId": 773,
-      "GroupId": 982,
-      "SelectionId": 262,
-      "Config": "ipsam",
+      "DashboardTileId": 139,
+      "Caption": "voluptate",
+      "Description": "Enterprise-wide system-worthy paradigm",
+      "ChartName": "Lesch LLC",
+      "ChartId": "qui",
+      "IsDefault": false,
+      "AssociateId": 962,
+      "GroupId": 436,
+      "SelectionId": 986,
+      "Config": "molestiae",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 857
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 752
     }
   }
 }

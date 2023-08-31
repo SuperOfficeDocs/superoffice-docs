@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 127,
-  "ERPProductKey": "error",
-  "ERPPriceListKey": "aspernatur",
-  "Name": "Prosacco-Conroy",
-  "Description": "Organic optimizing benchmark",
-  "Code": "quam",
-  "PriceUnit": "et",
-  "QuantityUnit": "quia",
-  "IsSubscription": false,
-  "SubscriptionUnit": "laborum",
-  "DefaultSubscriptionQuantity": 24495.344,
-  "ItemNumber": "1515670",
+  "ProductId": 473,
+  "ERPProductKey": "dolore",
+  "ERPPriceListKey": "sint",
+  "Name": "Wuckert LLC",
+  "Description": "Multi-lateral optimal groupware",
+  "Code": "maxime",
+  "PriceUnit": "ad",
+  "QuantityUnit": "minus",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 15209.302,
+  "ItemNumber": "463337",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fuga",
-  "ProductTypeKey": "esse",
-  "VAT": 4149.416,
-  "VATInfo": "iste",
-  "UnitCost": 27347.284,
-  "UnitMinimumPrice": 17008.218,
-  "UnitListPrice": 25510.76,
+  "ProductFamilyKey": "nemo",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 20505.762,
+  "VATInfo": "aliquid",
+  "UnitCost": 9637.05,
+  "UnitMinimumPrice": 17337.288,
+  "UnitListPrice": 9010.25,
   "InAssortment": false,
-  "Supplier": "illo",
-  "SupplierCode": "eveniet",
-  "Rights": "est",
-  "Rule": "voluptate",
+  "Supplier": "saepe",
+  "SupplierCode": "aliquam",
+  "Rights": "doloremque",
+  "Rule": "perspiciatis",
   "ExtraInfo": [
     {
-      "Name": "Walter-Gusikowski",
-      "Value": "nesciunt",
+      "Name": "Johnston, Considine and Stanton",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 197
+          "FieldLength": 773
         }
       }
     },
     {
-      "Name": "Walter-Gusikowski",
-      "Value": "nesciunt",
+      "Name": "Johnston, Considine and Stanton",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 197
+          "FieldLength": 773
         }
       }
     }
   ],
-  "RawExtraInfo": "exercitationem",
-  "ExtraField1": "sunt",
-  "ExtraField2": "tempora",
-  "ExtraField3": "debitis",
-  "ExtraField4": "quis",
-  "ExtraField5": "vel",
-  "InStock": 72.082,
+  "RawExtraInfo": "tempora",
+  "ExtraField1": "quo",
+  "ExtraField2": "iusto",
+  "ExtraField3": "praesentium",
+  "ExtraField4": "quod",
+  "ExtraField5": "aut",
+  "InStock": 28939.356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 675
     }
   }
 }

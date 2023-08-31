@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 643,
-  "Created": "2016-06-10T16:00:41.6956884+02:00",
+  "SatelliteId": 223,
+  "Created": "2008-08-23T03:31:27.1218466+02:00",
   "CreatedBy": null,
-  "Updated": "1997-12-05T16:00:41.6956884+01:00",
+  "Updated": "2005-08-17T03:31:27.1218466+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Luettgen, Cummerata and Abernathy",
-      "Description": "Face to face mobile data-warehouse",
+      "Name": "Erdman-Buckridge",
+      "Description": "Fully-configurable value-added artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Luettgen, Cummerata and Abernathy",
-      "Description": "Face to face mobile data-warehouse",
+      "Name": "Erdman-Buckridge",
+      "Description": "Fully-configurable value-added artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 656,
-  "Created": "1996-03-26T16:00:41.6956884+01:00",
+  "SatelliteId": 330,
+  "Created": "2007-07-15T03:31:27.1218466+02:00",
   "CreatedBy": null,
-  "Updated": "2017-08-31T16:00:41.6956884+02:00",
+  "Updated": "2001-05-05T03:31:27.1218466+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Lueilwitz-O'Hara",
-      "Description": "Ergonomic assymetric capability",
+      "Name": "Hahn Inc and Sons",
+      "Description": "Monitored even-keeled open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     },
     {
-      "Name": "Lueilwitz-O'Hara",
-      "Description": "Ergonomic assymetric capability",
+      "Name": "Hahn Inc and Sons",
+      "Description": "Monitored even-keeled open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 388
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Abernathy-Mann",
-  "ModuleName": "Kunze, Bernhard and McClure",
-  "ModuleDescription": "Implemented radical migration",
-  "ModuleTooltip": "quis",
-  "ModuleVersion": "omnis",
+  "OwnerName": "Schaefer, Cormier and Hoppe",
+  "ModuleName": "Gottlieb, Hettinger and Leannon",
+  "ModuleDescription": "Down-sized regional attitude",
+  "ModuleTooltip": "eaque",
+  "ModuleVersion": "sint",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 850,
-  "ExtraFlags": 16,
-  "ExtraInfo": "omnis",
-  "SortOrder": 494,
+  "NumberOfLicenses": 837,
+  "ExtraFlags": 181,
+  "ExtraInfo": "hic",
+  "SortOrder": 813,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Prohaska Group",
-  "Signature": "rerum"
+  "PrerequisiteModuleName": "Klocko LLC",
+  "Signature": "dolorum"
 }
 ```

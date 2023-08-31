@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 678,
-    "Name": "Ryan-Bahringer",
-    "Tooltip": "sed",
-    "Deleted": false,
-    "Rank": 204,
-    "UdListDefinitionId": 622,
+    "HeadingId": 516,
+    "Name": "Bode, Jacobi and Heaney",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 833,
+    "UdListDefinitionId": 295,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   }

@@ -14,7 +14,10 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IWorkflowAgent'
 
 * [AddAfterWorkflowStep](addafterworkflowstep.md)
 * [ConnectEmailFlowContent](connectemailflowcontent.md)
+* [CopyEmailFlowContent](copyemailflowcontent.md)
 * [CreateDefaultEmailFlow](createdefaultemailflow.md)
+* [CreateDefaultWorkflowEvent](createdefaultworkflowevent.md)
+* [CreateDefaultWorkflowEventResult](createdefaultworkfloweventresult.md)
 * [CreateDefaultWorkflowFilter](createdefaultworkflowfilter.md)
 * [CreateDefaultWorkflowGoal](createdefaultworkflowgoal.md)
 * [CreateDefaultWorkflowStepFromType](createdefaultworkflowstepfromtype.md)
@@ -30,9 +33,12 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IWorkflowAgent'
 * [GetWorkflowStep](getworkflowstep.md)
 * [GetWorkflowStepOption](getworkflowstepoption.md)
 * [GetWorkflowTrigger](getworkflowtrigger.md)
+* [RemoveParticipantsFromEmailFlow](removeparticipantsfromemailflow.md)
+* [Run](run.md)
 * [SaveEmailFlow](saveemailflow.md)
 * [SaveWorkflowGoal](saveworkflowgoal.md)
 * [SaveWorkflowStepOption](saveworkflowstepoption.md)
 * [SaveWorkflowTrigger](saveworkflowtrigger.md)
+* [SendEvent](sendevent.md)
 * [TryAddPersonsToEmailFlow](tryaddpersonstoemailflow.md)
 

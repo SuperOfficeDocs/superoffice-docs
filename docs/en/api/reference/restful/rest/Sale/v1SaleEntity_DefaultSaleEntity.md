@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Nov 2020 16:00:48 G11T
+Last-Modified: Sat, 07 Dec 2002 03:31:32 G12T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Sat, 28 Nov 2020 16:00:48 G11T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sunt",
+  "SaleText": "magni",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Sat, 28 Nov 2020 16:00:48 G11T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2016-07-29T16:00:48.22717+02:00",
-  "Amount": 15554.042,
-  "SaleId": 287,
-  "Earning": 26375.744,
-  "EarningPercent": 6161.4439999999995,
-  "Heading": "nulla",
-  "Number": "715276",
-  "Probability": 384,
-  "CreatedDate": "2012-09-03T16:00:48.22717+02:00",
-  "UpdatedDate": "2020-11-28T16:00:48.22717+01:00",
+  "Saledate": "2013-09-09T03:31:32.831977+02:00",
+  "Amount": 285.194,
+  "SaleId": 473,
+  "Earning": 21345.674,
+  "EarningPercent": 23683.638,
+  "Heading": "vel",
+  "Number": "1178037",
+  "Probability": 712,
+  "CreatedDate": "2020-09-26T03:31:32.831977+02:00",
+  "UpdatedDate": "2002-12-07T03:31:32.831977+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 593,
+  "ActiveLinks": 25,
   "Links": [
     {
-      "EntityName": "Hermiston-Leffler",
-      "Id": 221,
-      "Description": "Fully-configurable analyzing core",
-      "ExtraInfo": "voluptas",
-      "LinkId": 255,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 617
-        }
-      }
-    }
-  ],
-  "NextDueDate": "1997-04-02T16:00:48.22717+02:00",
-  "Postit": "minima",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2016-04-07T16:00:48.22717+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Cremin Inc and Sons",
-      "Comment": "molestias",
-      "StakeholderRoleId": 306,
-      "CountryId": 631,
-      "PersonId": 15,
-      "EmailDescription": "aubrey.olson@prosaccotowne.us",
-      "EmailId": 326,
-      "EmailAddress": "patsy.johns@lueilwitz.info",
-      "PhoneId": 402,
-      "ContactName": "Jaskolski-Green",
-      "ContactId": 993,
-      "SaleId": 893,
-      "Mrmrs": "modi",
-      "Firstname": "Hortense",
-      "MiddleName": "Reichel-Walter",
-      "Lastname": "Schaden",
-      "SaleStakeholderId": 281,
-      "Rank": 197,
-      "Phone": "(896)218-2979",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 101
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 150,
-  "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "sequi"
-  },
-  "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "voluptatem"
-  },
-  "PublishEventDate": "2016-01-31T16:00:48.22717+01:00",
-  "PublishTo": "2022-03-22T16:00:48.22717+01:00",
-  "PublishFrom": "2021-08-25T16:00:48.22717+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 746,
-      "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "EntityName": "Heathcote, Hermiston and Stamm",
+      "Id": 897,
+      "Description": "Horizontal national solution",
+      "ExtraInfo": "ut",
+      "LinkId": 402,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldLength": 679
+        }
+      }
+    }
+  ],
+  "NextDueDate": "1999-07-01T03:31:32.831977+02:00",
+  "Postit": "et",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2010-12-29T03:31:32.831977+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Zboncak-Littel",
+      "Comment": "maxime",
+      "StakeholderRoleId": 198,
+      "CountryId": 819,
+      "PersonId": 575,
+      "EmailDescription": "jon.koepp@torp.uk",
+      "EmailId": 366,
+      "EmailAddress": "dannie@kuvalisthompson.ca",
+      "PhoneId": 891,
+      "ContactName": "Beier, Lubowitz and Rolfson",
+      "ContactId": 471,
+      "SaleId": 496,
+      "Mrmrs": "ut",
+      "Firstname": "Crystal",
+      "MiddleName": "Leannon-Terry",
+      "Lastname": "Treutel",
+      "SaleStakeholderId": 427,
+      "Rank": 927,
+      "Phone": "(751)041-6994 x8487",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 752
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 674,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Nikki Orn",
+    "SuperOffice:2": "Fern Hermann"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "iusto",
+    "CustomFields2": "eos"
+  },
+  "PublishEventDate": "2000-11-26T03:31:32.8475948+01:00",
+  "PublishTo": "2010-04-07T03:31:32.8475948+02:00",
+  "PublishFrom": "2011-08-31T03:31:32.8475948+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 743,
+      "Visibility": "All",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 655
         }
       }
     },
     {
-      "VisibleId": 746,
+      "VisibleId": 743,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 141
+          "FieldLength": 655
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Sat, 28 Nov 2020 16:00:48 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 424
     }
   }
 }

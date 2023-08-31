@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 551,
-  "Name": "Hahn-Bayer",
-  "Tooltip": "consequatur",
-  "Rank": 278,
-  "Rate": 11379.554,
-  "Units": 30380.996,
+  "CurrencyId": 21,
+  "Name": "Waters-Hayes",
+  "Tooltip": "aut",
+  "Rank": 74,
+  "Rate": 7377.436,
+  "Units": 8935.034,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 369
     }
   }
 }

@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "sint",
-  "MinDate": "2009-05-16T16:00:41.4925904+02:00",
-  "MaxDate": "2003-02-05T16:00:41.4925904+01:00"
+  "LastHash": "officia",
+  "MinDate": "2017-07-12T03:31:26.9487459+02:00",
+  "MaxDate": "2013-09-28T03:31:26.9487459+02:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "neque",
+  "CallerIDHash": "est",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 204,
-      "PersonId": 7,
-      "PersonName": "Halvorson LLC",
-      "Mrmrs": "quasi",
-      "ContactId": 644,
-      "ContactName": "Huel, Zboncak and Botsford"
+      "DialInPrefix": 526,
+      "PersonId": 483,
+      "PersonName": "Hane-Jast",
+      "Mrmrs": "cum",
+      "ContactId": 986,
+      "ContactName": "Maggio-Hettinger"
     }
   ]
 }

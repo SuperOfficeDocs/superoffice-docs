@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 302,
-  "Name": "Ankunding, Crona and Kutch",
-  "Tooltip": "ea",
+  "Id": 110,
+  "Name": "Lueilwitz, Reichert and Cassin",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "UdListDefinitionId": 344,
-  "Rank": 555,
+  "UdListDefinitionId": 563,
+  "Rank": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldType": "System.Int32",
+      "FieldLength": 738
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Homenick, Quigley and Macejkovic",
-    "ToolTip": "Libero expedita fugiat maiores tenetur vitae illum aut.",
+    "Id": 759,
+    "Name": "Rosenbaum Group",
+    "ToolTip": "Rem fuga aperiam.",
     "Deleted": false,
-    "Rank": 540,
-    "Type": "quas",
+    "Rank": 648,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Langosh LLC",
-        "ToolTip": "Doloribus rerum repudiandae voluptas tenetur nam id occaecati.",
+        "Id": 75,
+        "Name": "Osinski Inc and Sons",
+        "ToolTip": "Dolorum illum labore vel praesentium.",
         "Deleted": false,
-        "Rank": 762,
-        "Type": "ratione",
+        "Rank": 445,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 249,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "in",
-        "FullName": "Ms. Merritt Darrick Conn IV",
+        "IconHint": "voluptatem",
+        "ColorBlock": 763,
+        "ExtraInfo": "magni",
+        "StyleHint": "fugit",
+        "FullName": "Werner Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldType": "System.String",
+            "FieldLength": 398
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 816,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "dolorem",
-    "FullName": "Devyn Tremblay V",
+    "IconHint": "ut",
+    "ColorBlock": 929,
+    "ExtraInfo": "ab",
+    "StyleHint": "amet",
+    "FullName": "Mac Bergnaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldLength": 848
       }
     }
   }

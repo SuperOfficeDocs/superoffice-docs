@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 52,
-  "Name": "Quitzon, Stiedemann and Rippin",
-  "Tooltip": "voluptates",
-  "PassiveText": "explicabo",
-  "Deleted": false,
-  "Rank": 207,
+  "ReldefId": 503,
+  "Name": "Cole Inc and Sons",
+  "Tooltip": "doloribus",
+  "PassiveText": "assumenda",
+  "Deleted": true,
+  "Rank": 705,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 379
     }
   }
 }

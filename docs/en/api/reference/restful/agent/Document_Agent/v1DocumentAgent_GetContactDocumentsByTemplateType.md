@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 339,
-  "StartTime": "2001-07-03T16:00:40.5550049+02:00",
-  "EndTime": "2008-07-09T16:00:40.5550049+02:00",
-  "Count": 186,
-  "DocumentTemplateId": 278
+  "ContactId": 803,
+  "StartTime": "2016-05-23T03:31:26.0427182+02:00",
+  "EndTime": "2017-07-09T03:31:26.0427182+02:00",
+  "Count": 866,
+  "DocumentTemplateId": 400
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 39,
-    "Attention": "est",
-    "Header": "minus",
-    "Name": "Klein-Wyman",
-    "OurRef": "perferendis",
-    "YourRef": "voluptatem",
-    "Description": "Progressive holistic secured line",
-    "DocumentTemplate": "expedita",
+    "DocumentId": 592,
+    "Attention": "ut",
+    "Header": "odio",
+    "Name": "Schumm Inc and Sons",
+    "OurRef": "consequatur",
+    "YourRef": "dolorum",
+    "Description": "Multi-layered national adapter",
+    "DocumentTemplate": "voluptatem",
     "IsPublished": false,
-    "PersonId": 412,
-    "PersonFullName": "Lula Crona",
-    "AssociateFullName": "Carmine Gottlieb",
-    "ContactId": 138,
-    "ContactName": "Balistreri, Reinger and Okuneva",
-    "ProjectId": 934,
-    "ProjectName": "Hessel Group",
-    "AssociateId": 996,
-    "Snum": 979,
-    "SaleId": 799,
-    "SaleName": "Schulist Inc and Sons",
+    "PersonId": 468,
+    "PersonFullName": "Miss Oren Clark Langosh DVM",
+    "AssociateFullName": "Joy Mohr",
+    "ContactId": 711,
+    "ContactName": "Jast LLC",
+    "ProjectId": 698,
+    "ProjectName": "Okuneva Inc and Sons",
+    "AssociateId": 553,
+    "Snum": 562,
+    "SaleId": 220,
+    "SaleName": "Lockman, Raynor and Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 273
+        "FieldType": "System.Int32",
+        "FieldLength": 573
       }
     }
   }

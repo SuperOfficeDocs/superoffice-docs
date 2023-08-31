@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 941,
-  "ColumnId": 590,
-  "FieldDefault": "et",
-  "FieldHeight": 420,
-  "FieldLabel": "assumenda",
-  "FieldLeft": 667,
-  "FieldTop": 296,
+  "UDefFieldId": 927,
+  "ColumnId": 599,
+  "FieldDefault": "natus",
+  "FieldHeight": 670,
+  "FieldLabel": "optio",
+  "FieldLeft": 464,
+  "FieldTop": 358,
   "FieldType": "Checkbox",
-  "FieldWidth": 66,
-  "FormatMask": "repellendus",
+  "FieldWidth": 774,
+  "FormatMask": "voluptas",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 115,
-  "LabelLeft": 551,
-  "LabelTop": 877,
-  "LabelWidth": 307,
-  "LastVersionId": 434,
-  "ListTableId": 47,
+  "LabelHeight": 475,
+  "LabelLeft": 38,
+  "LabelTop": 592,
+  "LabelWidth": 492,
+  "LastVersionId": 456,
+  "ListTableId": 660,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 713,
-  "ProgId": "consectetur",
-  "IsReadOnly": false,
-  "ShortLabel": "velit",
-  "TabOrder": 121,
-  "TextLength": 925,
+  "Page1LineNo": 531,
+  "ProgId": "est",
+  "IsReadOnly": true,
+  "ShortLabel": "corrupti",
+  "TabOrder": 998,
+  "TextLength": 164,
   "Tooltip": "exercitationem",
-  "UdefIdentity": 839,
-  "UDListDefinitionId": 755,
+  "UdefIdentity": 293,
+  "UDListDefinitionId": 312,
   "Justification": "Center",
-  "Version": 57,
-  "TemplateVariableName": "Walsh, Wisozk and Bode",
-  "HasBeenPublished": true,
-  "MdoListName": "Smitham Inc and Sons",
+  "Version": 285,
+  "TemplateVariableName": "Maggio Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Stoltenberg Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 944
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

@@ -51,20 +51,20 @@ foreach (var item in listProvider.RootItems) {
 |1000086|Filter Dialog||FilterDialog|
 |1000088|Freetext search||Freetext|
 |1000096|Functions||Functions|
-|1000519|In-app communication||InApp|
-|1000150|E-mail||Mail|
-|1000212|Marketing||Mailing|
-|1000218|Grouped lists||MDOList|
-|1000516|Data mirroring||Mirroring|
-|1000289|Web Services||NetServices|
-|1000308|Notifications via popup||notification|
-|1000316|Notifications via e-mail||notificationEmail|
-|1000324|Notifications via SMS||notificationSms|
-|1000340|Contact||Person|
-|1000359|Mobile CRM||PocketTasks|
-|1000363|Request||request|
-|1000383|Sale||Sale|
-|1000400|SuperOffice Service system settings||serviceSettings|
+|1000525|In-app communication||InApp|
+|1000151|E-mail||Mail|
+|1000213|Marketing||Mailing|
+|1000219|Grouped lists||MDOList|
+|1000522|Data mirroring||Mirroring|
+|1000290|Web Services||NetServices|
+|1000313|Notifications via popup||notification|
+|1000321|Notifications via e-mail||notificationEmail|
+|1000329|Notifications via SMS||notificationSms|
+|1000345|Contact||Person|
+|1000364|Mobile CRM||PocketTasks|
+|1000368|Request||request|
+|1000388|Sale||Sale|
+|1000405|SuperOffice Service system settings||serviceSettings|
 
 
 ## Related MDO Lists

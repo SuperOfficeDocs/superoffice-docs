@@ -72,7 +72,7 @@ PATCH /api/v1/ChatSession/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rem",
+    "path": "placeat",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rem",
+    "path": "placeat",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 742,
-  "TopicId": 614,
+  "ChatSessionId": 385,
+  "TopicId": 53,
   "User": null,
   "Person": null,
-  "CustomerAlias": "explicabo",
-  "CustomerHost": "ut",
-  "CustomerName": "Klein Inc and Sons",
-  "CustomerEmail": "dandre.ullrich@hegmann.com",
-  "CustomerPhone": "1-397-649-2268 x70431",
+  "CustomerAlias": "odit",
+  "CustomerHost": "quae",
+  "CustomerName": "Mertz LLC",
+  "CustomerEmail": "fernando_sporer@terryemard.biz",
+  "CustomerPhone": "673.558.2509 x65202",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Stoltenberg Inc and Sons",
+  "CustomerCompanyName": "Kunze, Fisher and Botsford",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "nesciunt",
-  "WhenRequested": "2012-06-15T16:00:47.570999+02:00",
-  "WhenStarted": "2022-01-27T16:00:47.570999+01:00",
-  "WhenEnded": "2000-01-15T16:00:47.570999+01:00",
-  "WhenIdle": "2018-10-02T16:00:47.570999+02:00",
-  "WhenFetched": "2016-05-06T16:00:47.570999+02:00",
-  "SessionKey": "accusantium",
-  "InitialQueuePos": 66,
-  "AlertLevel": 236,
-  "Rank": 813,
+  "FirstMessage": "hic",
+  "LastMessage": "dolorum",
+  "WhenRequested": "2010-04-04T03:31:32.2852427+02:00",
+  "WhenStarted": "2002-03-30T03:31:32.2852427+01:00",
+  "WhenEnded": "2006-10-05T03:31:32.2852427+02:00",
+  "WhenIdle": "1997-09-05T03:31:32.2852427+02:00",
+  "WhenFetched": "2020-10-03T03:31:32.2852427+02:00",
+  "SessionKey": "consequatur",
+  "InitialQueuePos": 150,
+  "AlertLevel": 234,
+  "Rank": 75,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 967,
+  "ChatbotIsActive": false,
+  "Rating": 308,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldLength": 37
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "veniam",
       "Specification": null,
-      "DisplayValue": "cupiditate",
-      "DisplayTooltip": "error",
+      "DisplayValue": "temporibus",
+      "DisplayTooltip": "voluptatibus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 618,
-      "PrefDescId": 2,
-      "TableName": "Kuhn-Deckow",
-      "UserPreferenceId": 776
+      "TargetId": 202,
+      "PrefDescId": 492,
+      "TableName": "Cruickshank-Stamm",
+      "UserPreferenceId": 339
     }
   ],
   "RemoveLowerLevels": false

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Kovacek-Hand",
-    "ToolTip": "Ut impedit facere.",
+    "Id": 943,
+    "Name": "Mayer Group",
+    "ToolTip": "Officia expedita possimus.",
     "Deleted": false,
-    "Rank": 962,
-    "Type": "corrupti",
-    "ColorBlock": 109,
-    "IconHint": "et",
+    "Rank": 288,
+    "Type": "eos",
+    "ColorBlock": 57,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "1998-12-06T16:00:48.8364781+01:00",
+    "LastChanged": "2006-01-13T03:31:33.4604945+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Wilkinson-Lowe",
-        "ToolTip": "Ut dolor reiciendis explicabo sint cumque.",
+        "Id": 724,
+        "Name": "Ryan Group",
+        "ToolTip": "Odit dolorem.",
         "Deleted": false,
-        "Rank": 809,
-        "Type": "non",
-        "ColorBlock": 461,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2012-07-14T16:00:48.8364781+02:00",
+        "Rank": 320,
+        "Type": "quaerat",
+        "ColorBlock": 102,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "1998-06-11T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Drew Connelly"
+        "ExtraInfo": "minus",
+        "StyleHint": "reiciendis",
+        "Hidden": false,
+        "FullName": "Prof. Sherman Adella Wuckert PhD"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "fugit",
-    "Hidden": true,
-    "FullName": "Jeromy Swaniawski"
+    "ExtraInfo": "sit",
+    "StyleHint": "maiores",
+    "Hidden": false,
+    "FullName": "Naomi Lowe"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Cartwright-Walker",
-    "ToolTip": "Quae voluptatibus ratione incidunt.",
-    "Deleted": false,
-    "Rank": 991,
-    "Type": "nisi",
-    "ColorBlock": 27,
-    "IconHint": "voluptatem",
+    "Id": 430,
+    "Name": "Morissette-Nader",
+    "ToolTip": "Modi blanditiis placeat cumque provident ipsam beatae accusantium.",
+    "Deleted": true,
+    "Rank": 183,
+    "Type": "rerum",
+    "ColorBlock": 484,
+    "IconHint": "porro",
     "Selected": false,
-    "LastChanged": "2017-10-03T16:00:48.8364781+02:00",
+    "LastChanged": "2011-06-07T03:31:33.4604945+02:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Huels Inc and Sons",
-        "ToolTip": "Voluptate similique veniam ut sit rerum totam molestias.",
+        "Id": 504,
+        "Name": "Streich-Kreiger",
+        "ToolTip": "Dolorem totam doloribus quia.",
         "Deleted": false,
-        "Rank": 711,
-        "Type": "saepe",
-        "ColorBlock": 530,
-        "IconHint": "ipsum",
-        "Selected": false,
-        "LastChanged": "2008-08-25T16:00:48.8364781+02:00",
+        "Rank": 465,
+        "Type": "voluptatem",
+        "ColorBlock": 389,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2005-07-16T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Savannah Quigley",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Claudia Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 22
+            "FieldType": "System.Int32",
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "necessitatibus",
-    "Hidden": false,
-    "FullName": "Kailyn Reichel",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Prof. Martine Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 436
       }
     }
   }

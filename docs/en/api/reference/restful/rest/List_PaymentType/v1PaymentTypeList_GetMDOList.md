@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=consequatur
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 350,
-    "Name": "Abernathy-Reichert",
-    "ToolTip": "Sit quam possimus veniam quae voluptate dolor eos.",
-    "Deleted": true,
-    "Rank": 85,
-    "Type": "nihil",
+    "Id": 686,
+    "Name": "Mertz Inc and Sons",
+    "ToolTip": "Et ut totam voluptatum nihil.",
+    "Deleted": false,
+    "Rank": 77,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 223,
-        "Name": "Gleason Inc and Sons",
-        "ToolTip": "Placeat porro voluptas quisquam est qui molestiae.",
-        "Deleted": true,
-        "Rank": 45,
-        "Type": "eius",
+        "Id": 769,
+        "Name": "Maggio-Wintheiser",
+        "ToolTip": "Aliquid beatae ab tempora repudiandae molestiae consequatur omnis.",
+        "Deleted": false,
+        "Rank": 649,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 326,
+        "IconHint": "sit",
+        "ColorBlock": 886,
         "ExtraInfo": "cum",
-        "StyleHint": "neque",
-        "FullName": "Tyrell Rolfson",
+        "StyleHint": "deleniti",
+        "FullName": "Lisa Jaden Quitzon I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldLength": 372
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 614,
-    "ExtraInfo": "molestias",
-    "StyleHint": "vel",
-    "FullName": "Dr. Queen Balistreri",
+    "IconHint": "quia",
+    "ColorBlock": 972,
+    "ExtraInfo": "et",
+    "StyleHint": "ipsa",
+    "FullName": "Mr. Maximillia Aletha McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 899
       }
     }
   }

@@ -97,19 +97,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 651,
-  "BlobSize": 561,
-  "Description": "Business-focused eco-centric access",
-  "ExtraInfo": "quisquam",
+  "BlobId": 153,
+  "BlobSize": 720,
+  "Description": "Balanced user-facing workforce",
+  "ExtraInfo": "doloribus",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "tempora",
-  "OriginalSize": 710,
-  "CreatedDate": "1996-04-06T16:00:48.1178151+02:00",
-  "UpdatedDate": "1997-05-13T16:00:48.1178151+02:00",
+  "IsZipped": true,
+  "MimeType": "laboriosam",
+  "OriginalSize": 745,
+  "CreatedDate": "2022-05-21T03:31:32.7382484+02:00",
+  "UpdatedDate": "2017-07-09T03:31:32.7382484+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "provident"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 649,
-  "BlobSize": 739,
-  "Description": "Open-architected assymetric paradigm",
-  "ExtraInfo": "tempora",
+  "BlobId": 334,
+  "BlobSize": 839,
+  "Description": "Distributed 4th generation local area network",
+  "ExtraInfo": "iure",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "rem",
-  "OriginalSize": 559,
-  "CreatedDate": "2007-07-10T16:00:48.1178151+02:00",
-  "UpdatedDate": "2016-06-15T16:00:48.1178151+02:00",
+  "IsZipped": true,
+  "MimeType": "laborum",
+  "OriginalSize": 445,
+  "CreatedDate": "2023-05-13T03:31:32.7382484+02:00",
+  "UpdatedDate": "2019-07-31T03:31:32.7382484+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldType": "System.Int32",
+      "FieldLength": 783
     }
   }
 }

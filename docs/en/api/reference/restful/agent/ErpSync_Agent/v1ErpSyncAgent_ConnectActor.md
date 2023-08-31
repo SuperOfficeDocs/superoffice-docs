@@ -75,25 +75,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 874,
-  "CrmRecordId": 648,
+  "ErpConnectionId": 437,
+  "CrmRecordId": 391,
   "CrmActorType": "Contact",
-  "ErpKey": "voluptate",
+  "ErpKey": "rerum",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Pouros-Runolfsdottir",
-      "CrmFieldKey": "qui",
-      "Value": "earum",
-      "DisplayValue": "fuga",
+      "DisplayName": "Schmeler-Pollich",
+      "CrmFieldKey": "animi",
+      "Value": "velit",
+      "DisplayValue": "rerum",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Pouros-Runolfsdottir",
-      "CrmFieldKey": "qui",
-      "Value": "earum",
-      "DisplayValue": "fuga",
+      "DisplayName": "Schmeler-Pollich",
+      "CrmFieldKey": "animi",
+      "Value": "velit",
+      "DisplayValue": "rerum",
       "SyncToCrm": false,
       "SyncToErp": false
     }

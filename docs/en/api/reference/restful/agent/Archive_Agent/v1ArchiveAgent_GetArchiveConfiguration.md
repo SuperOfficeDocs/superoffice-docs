@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kshlerin-Lueilwitz",
-  "ProviderName": "Langosh-Blick"
+  "GuiName": "Durgan-Hackett",
+  "ProviderName": "Greenholt-Kirlin"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Sanford-Wolff",
-      "DisplayTooltip": "porro",
-      "DisplayType": "libero",
-      "CanOrderBy": true,
-      "Name": "Cartwright-Schoen",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Haley-Ortiz",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "eligendi",
-      "IconHint": "est",
-      "HeadingIconHint": "aut"
+      "DisplayName": "Steuber, Lowe and Bashirian",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "ipsam",
+      "CanOrderBy": false,
+      "Name": "Gleason-Lakin",
+      "CanRestrictBy": false,
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Mayer, Schultz and Jacobs",
+      "IsVisible": true,
+      "ExtraInfo": "consequuntur",
+      "Width": "illo",
+      "IconHint": "rem",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 547,
-      "Name": "Stanton, Hayes and Carroll",
-      "ToolTip": "Incidunt facilis incidunt.",
-      "Deleted": true,
-      "Rank": 377,
-      "Type": "ut",
-      "ColorBlock": 514,
-      "IconHint": "unde",
+      "Id": 287,
+      "Name": "Hyatt Inc and Sons",
+      "ToolTip": "Debitis nisi est sit modi non.",
+      "Deleted": false,
+      "Rank": 576,
+      "Type": "facere",
+      "ColorBlock": 105,
+      "IconHint": "ut",
       "Selected": true,
-      "LastChanged": "2010-05-12T16:00:40.0550846+02:00",
+      "LastChanged": "2000-03-31T03:31:25.6027555+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "alias",
-      "Hidden": false,
-      "FullName": "Michael Okuneva",
+      "ExtraInfo": "asperiores",
+      "StyleHint": "qui",
+      "Hidden": true,
+      "FullName": "Miss Aditya Rocky Lebsack",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 249
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mann, Sporer and Kerluke",
+      "Name": "Abernathy Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Mann, Sporer and Kerluke",
+      "Name": "Abernathy Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "assumenda",
+  "OwnerKeys": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldType": "System.Int32",
+      "FieldLength": 933
     }
   }
 }

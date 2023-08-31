@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 632,
-  "UniqueIdentifier": "est",
-  "Name": "Sipes-Pagac",
-  "Description": "User-centric high-level encryption",
-  "IncludeId": "minus",
-  "HierarchyId": 807,
-  "Source": "quibusdam",
-  "Registered": "1996-02-20T16:00:47.83659+01:00",
-  "RegisteredAssociateId": 931,
-  "Updated": "2016-08-11T16:00:47.83659+02:00",
-  "UpdatedAssociateId": 297
+  "EjscriptId": 501,
+  "UniqueIdentifier": "corporis",
+  "Name": "Wilkinson Group",
+  "Description": "Sharable logistical benchmark",
+  "IncludeId": "voluptatum",
+  "HierarchyId": 173,
+  "Source": "alias",
+  "Registered": "2008-05-20T03:31:32.5039305+02:00",
+  "RegisteredAssociateId": 381,
+  "Updated": "2012-01-04T03:31:32.5039305+01:00",
+  "UpdatedAssociateId": 743
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 198,
-  "UniqueIdentifier": "rem",
-  "Name": "Mueller Inc and Sons",
-  "Description": "Pre-emptive bi-directional benchmark",
-  "IncludeId": "consequatur",
-  "HierarchyId": 28,
-  "Source": "mollitia",
-  "Registered": "2018-02-06T16:00:47.83659+01:00",
-  "RegisteredAssociateId": 670,
-  "Updated": "2008-09-11T16:00:47.83659+02:00",
-  "UpdatedAssociateId": 891,
+  "EjscriptId": 100,
+  "UniqueIdentifier": "laudantium",
+  "Name": "Cassin Group",
+  "Description": "Persevering static throughput",
+  "IncludeId": "quo",
+  "HierarchyId": 341,
+  "Source": "et",
+  "Registered": "2019-04-19T03:31:32.5039305+02:00",
+  "RegisteredAssociateId": 273,
+  "Updated": "2007-03-22T03:31:32.5039305+01:00",
+  "UpdatedAssociateId": 398,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   },
   "_Links": {

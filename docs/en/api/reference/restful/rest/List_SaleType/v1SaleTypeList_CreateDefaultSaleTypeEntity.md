@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleTypeId": 413,
-  "Name": "Heathcote-O'Reilly",
-  "Tooltip": "eveniet",
-  "Rank": 274,
+  "Name": "Beer LLC",
+  "Tooltip": "tempore",
+  "Rank": 876,
   "DurationUnit": "Century",
-  "SaleDuration": 554,
-  "SaleTypeCatId": 811,
+  "SaleDuration": 240,
+  "SaleTypeCatId": 259,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 964,
-  "QuoteLinesTemplate": 974,
-  "ConfirmationLinesTemplate": 385,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 271,
+  "QuoteLinesTemplate": 443,
+  "ConfirmationLinesTemplate": 815,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 626,
-  "MinEarningPercent": 956,
-  "GroupQuoteLinesBy": 813,
-  "SortGroupLinesBy": 136,
+  "MaxDiscountPercent": 905,
+  "MinEarningPercent": 923,
+  "GroupQuoteLinesBy": 129,
+  "SortGroupLinesBy": 440,
   "Stages": [
     {
-      "Id": 828,
-      "Name": "Carroll, Heathcote and Carter",
-      "ToolTip": "Dicta repudiandae ad consequuntur dolor similique.",
-      "Deleted": false,
-      "Rank": 678,
-      "Type": "aut",
-      "ColorBlock": 254,
-      "IconHint": "odio",
-      "Selected": true,
-      "LastChanged": "2003-05-12T16:00:49.3051793+02:00",
+      "Id": 757,
+      "Name": "Reinger, Smith and Medhurst",
+      "ToolTip": "Ipsum nihil dolorem dolores et.",
+      "Deleted": true,
+      "Rank": 271,
+      "Type": "ipsum",
+      "ColorBlock": 887,
+      "IconHint": "corrupti",
+      "Selected": false,
+      "LastChanged": "2000-01-22T03:31:33.8679659+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "amet",
-      "StyleHint": "quis",
+      "ExtraInfo": "et",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Garett Little",
+      "FullName": "Miss Eulalia Zachery Bergnaum Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 113
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 429
     }
   }
 }

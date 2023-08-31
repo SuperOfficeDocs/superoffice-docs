@@ -45,6 +45,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_CreateAndAccept.md
   - name: CreateAndAcceptWithEmailConfirmation
     href: Appointment_Agent/v1AppointmentAgent_CreateAndAcceptWithEmailConfirmation.md
+  - name: CreateAppointmentEntityFromExisting
+    href: Appointment_Agent/v1AppointmentAgent_CreateAppointmentEntityFromExisting.md
   - name: CreateAppointmentForUID
     href: Appointment_Agent/v1AppointmentAgent_CreateAppointmentForUID.md
   - name: CreateDefaultAppointmentEntity
@@ -747,6 +749,8 @@ items:
     href: CRMScript_Agent/v1CRMScriptAgent_ExecuteScriptAsEventByUniqueId.md
   - name: ExecuteScriptByIncludeId
     href: CRMScript_Agent/v1CRMScriptAgent_ExecuteScriptByIncludeId.md
+  - name: ExecuteScriptByString
+    href: CRMScript_Agent/v1CRMScriptAgent_ExecuteScriptByString.md
   - name: ExecuteScriptByUniqueId
     href: CRMScript_Agent/v1CRMScriptAgent_ExecuteScriptByUniqueId.md
   - name: GetCRMScriptByUniqueIdentifier
@@ -769,6 +773,8 @@ items:
     href: CRMScript_Agent/v1CRMScriptAgent_ValidateScript.md
   - name: ValidateScriptByIncludeId
     href: CRMScript_Agent/v1CRMScriptAgent_ValidateScriptByIncludeId.md
+  - name: ValidateScriptByString
+    href: CRMScript_Agent/v1CRMScriptAgent_ValidateScriptByString.md
   - name: ValidateScriptByUniqueId
     href: CRMScript_Agent/v1CRMScriptAgent_ValidateScriptByUniqueId.md
   - name: ValidateTriggerScript
@@ -1032,6 +1038,8 @@ items:
     href: Document_Agent/v1DocumentAgent_CheckinDocument.md
   - name: CheckoutDocument
     href: Document_Agent/v1DocumentAgent_CheckoutDocument.md
+  - name: CopyDocumentToCsAttachment
+    href: Document_Agent/v1DocumentAgent_CopyDocumentToCsAttachment.md
   - name: CreateDefaultDocumentEntity
     href: Document_Agent/v1DocumentAgent_CreateDefaultDocumentEntity.md
   - name: CreateDefaultDocumentEntityFromSuggestion
@@ -1812,6 +1820,8 @@ items:
     href: List_Agent/v1ListAgent_CreateDefaultTicketPriorityEntity.md
   - name: CreateDefaultTicketStatusEntity
     href: List_Agent/v1ListAgent_CreateDefaultTicketStatusEntity.md
+  - name: CreateDefaultTicketTypeEntity
+    href: List_Agent/v1ListAgent_CreateDefaultTicketTypeEntity.md
   - name: CreateDefaultWebPanelEntity
     href: List_Agent/v1ListAgent_CreateDefaultWebPanelEntity.md
   - name: DeleteAllFromListDefinition
@@ -1852,6 +1862,8 @@ items:
     href: List_Agent/v1ListAgent_DeleteTicketPriorityEntity.md
   - name: DeleteTicketStatusEntity
     href: List_Agent/v1ListAgent_DeleteTicketStatusEntity.md
+  - name: DeleteTicketTypeEntity
+    href: List_Agent/v1ListAgent_DeleteTicketTypeEntity.md
   - name: DeleteWebPanel
     href: List_Agent/v1ListAgent_DeleteWebPanel.md
   - name: GenerateNavigationUrl
@@ -1880,6 +1892,8 @@ items:
     href: List_Agent/v1ListAgent_GetAllTasks.md
   - name: GetAllTicketPriorities
     href: List_Agent/v1ListAgent_GetAllTicketPriorities.md
+  - name: GetAllTicketTypeEntities
+    href: List_Agent/v1ListAgent_GetAllTicketTypeEntities.md
   - name: GetAmountClassEntity
     href: List_Agent/v1ListAgent_GetAmountClassEntity.md
   - name: GetAppTaskMenus
@@ -2200,6 +2214,14 @@ items:
     href: List_Agent/v1ListAgent_GetTicketStatuses.md
   - name: GetTicketStatusList
     href: List_Agent/v1ListAgent_GetTicketStatusList.md
+  - name: GetTicketType
+    href: List_Agent/v1ListAgent_GetTicketType.md
+  - name: GetTicketTypeEntity
+    href: List_Agent/v1ListAgent_GetTicketTypeEntity.md
+  - name: GetTicketTypeList
+    href: List_Agent/v1ListAgent_GetTicketTypeList.md
+  - name: GetTicketTypes
+    href: List_Agent/v1ListAgent_GetTicketTypes.md
   - name: GetVisibleForUserGroups
     href: List_Agent/v1ListAgent_GetVisibleForUserGroups.md
   - name: GetVisibleForUserGroupsFromListName
@@ -2286,6 +2308,8 @@ items:
     href: List_Agent/v1ListAgent_SaveTicketPriorityEntity.md
   - name: SaveTicketStatusEntity
     href: List_Agent/v1ListAgent_SaveTicketStatusEntity.md
+  - name: SaveTicketTypeEntity
+    href: List_Agent/v1ListAgent_SaveTicketTypeEntity.md
   - name: SaveWebPanelEntity
     href: List_Agent/v1ListAgent_SaveWebPanelEntity.md
   - name: SetDocumentPluginForAllDocumentTemplates
@@ -3832,8 +3856,14 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_AddAfterWorkflowStep.md
   - name: ConnectEmailFlowContent
     href: Workflow_Agent/v1WorkflowAgent_ConnectEmailFlowContent.md
+  - name: CopyEmailFlowContent
+    href: Workflow_Agent/v1WorkflowAgent_CopyEmailFlowContent.md
   - name: CreateDefaultEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md
+  - name: CreateDefaultWorkflowEvent
+    href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowEvent.md
+  - name: CreateDefaultWorkflowEventResult
+    href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowEventResult.md
   - name: CreateDefaultWorkflowFilter
     href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowFilter.md
   - name: CreateDefaultWorkflowGoal
@@ -3864,6 +3894,10 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_GetWorkflowStepOption.md
   - name: GetWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_GetWorkflowTrigger.md
+  - name: RemoveParticipantsFromEmailFlow
+    href: Workflow_Agent/v1WorkflowAgent_RemoveParticipantsFromEmailFlow.md
+  - name: Run
+    href: Workflow_Agent/v1WorkflowAgent_Run.md
   - name: SaveEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_SaveEmailFlow.md
   - name: SaveWorkflowGoal
@@ -3872,5 +3906,7 @@ items:
     href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowStepOption.md
   - name: SaveWorkflowTrigger
     href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
+  - name: SendEvent
+    href: Workflow_Agent/v1WorkflowAgent_SendEvent.md
   - name: TryAddPersonsToEmailFlow
     href: Workflow_Agent/v1WorkflowAgent_TryAddPersonsToEmailFlow.md

@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 817,
-  "Name": "Morissette Group",
-  "Tooltip": "ad",
+  "HeadingId": 914,
+  "Name": "Block, Dickinson and Johnston",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 438,
-  "UdListDefinitionId": 318
+  "Rank": 91,
+  "UdListDefinitionId": 51
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 899,
-  "Name": "Labadie Inc and Sons",
-  "Tooltip": "consequatur",
+  "HeadingId": 949,
+  "Name": "Tromp, Rau and Bosco",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 219,
-  "UdListDefinitionId": 920,
+  "Rank": 628,
+  "UdListDefinitionId": 964,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

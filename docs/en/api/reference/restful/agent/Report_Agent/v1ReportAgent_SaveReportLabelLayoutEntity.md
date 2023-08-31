@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 314,
-  "Name": "Kshlerin Inc and Sons",
-  "Description": "Cloned national superstructure",
+  "ReportLabelLayoutId": 254,
+  "Name": "Lebsack, Larkin and Lemke",
+  "Description": "Fully-configurable next generation methodology",
   "Orientation": "Landscape",
-  "PaperWidth": 546,
-  "PaperHeight": 411,
-  "LeftMargin": 164,
-  "RightMargin": 931,
-  "TopMargin": 983,
-  "BottomMargin": 880,
-  "CountColumns": 188,
-  "CountRows": 277
+  "PaperWidth": 588,
+  "PaperHeight": 717,
+  "LeftMargin": 426,
+  "RightMargin": 109,
+  "TopMargin": 140,
+  "BottomMargin": 828,
+  "CountColumns": 183,
+  "CountRows": 872
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 676,
-  "Name": "White LLC",
-  "Description": "Switchable reciprocal algorithm",
+  "ReportLabelLayoutId": 328,
+  "Name": "Abshire-Rolfson",
+  "Description": "Up-sized executive knowledge user",
   "Orientation": "Landscape",
-  "PaperWidth": 779,
-  "PaperHeight": 489,
-  "LeftMargin": 335,
-  "RightMargin": 639,
-  "TopMargin": 235,
-  "BottomMargin": 10,
-  "CountColumns": 216,
-  "CountRows": 51,
+  "PaperWidth": 334,
+  "PaperHeight": 334,
+  "LeftMargin": 465,
+  "RightMargin": 576,
+  "TopMargin": 335,
+  "BottomMargin": 38,
+  "CountColumns": 936,
+  "CountRows": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 441
     }
   }
 }

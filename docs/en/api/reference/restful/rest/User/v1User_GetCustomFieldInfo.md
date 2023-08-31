@@ -71,7 +71,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Klein-Moen",
-  "DisplayName": "Carter, Nitzsche and Jacobson",
-  "Description": "Pre-emptive asynchronous knowledge user",
-  "ShortLabel": "ut",
-  "HideLabel": true,
-  "HideField": false,
-  "IsIndexed": true,
+  "FieldName": "Hilll, Von and Kiehn",
+  "DisplayName": "Sawayn-Rutherford",
+  "Description": "Intuitive client-server capability",
+  "ShortLabel": "quis",
+  "HideLabel": false,
+  "HideField": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 15,
-  "TemplateVariableName": "Larson, Watsica and Gaylord"
+  "Rank": 880,
+  "TemplateVariableName": "Wolf, Miller and Bogan"
 }
 ```

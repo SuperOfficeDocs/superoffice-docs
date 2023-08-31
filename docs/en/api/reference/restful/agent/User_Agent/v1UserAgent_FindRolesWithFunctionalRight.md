@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Stiedemann Group"
+  "FunctionalRightName": "Willms Group"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Hermann, Haley and Ullrich",
-    "ToolTip": "Quo omnis sit.",
+    "Id": 592,
+    "Name": "Goyette, Olson and Mueller",
+    "ToolTip": "Iste laborum porro.",
     "Deleted": false,
-    "Rank": 382,
-    "Type": "qui",
+    "Rank": 329,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Satterfield-Roob",
-        "ToolTip": "Et qui totam non.",
-        "Deleted": false,
-        "Rank": 996,
-        "Type": "dicta",
+        "Id": 589,
+        "Name": "Sanford, Parisian and Conn",
+        "ToolTip": "Odio assumenda nihil ut explicabo qui molestias.",
+        "Deleted": true,
+        "Rank": 157,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repudiandae",
-        "ColorBlock": 844,
-        "ExtraInfo": "quo",
-        "StyleHint": "ut",
-        "FullName": "Imogene Cassin",
+        "IconHint": "quia",
+        "ColorBlock": 794,
+        "ExtraInfo": "et",
+        "StyleHint": "aut",
+        "FullName": "Laury Filiberto Yundt Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 182
+            "FieldLength": 500
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 327,
-    "ExtraInfo": "atque",
-    "StyleHint": "expedita",
-    "FullName": "Thaddeus Metz",
+    "IconHint": "ut",
+    "ColorBlock": 46,
+    "ExtraInfo": "sunt",
+    "StyleHint": "quia",
+    "FullName": "London Cronin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 133
       }
     }
   }

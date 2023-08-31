@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 121,
-  "Name": "Mayer-Jacobson",
+  "TicketPriorityId": 680,
+  "Name": "Stokes, Runolfsdottir and Corwin",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 327,
+  "SortOrder": 347,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 858,
-  "MonStart": "2006-10-16T16:00:41.2268306+02:00",
-  "MonStop": "2004-07-25T16:00:41.2268306+02:00",
-  "TueStart": "1996-02-12T16:00:41.2268306+01:00",
-  "TueStop": "1998-07-12T16:00:41.2268306+02:00",
-  "WedStart": "1999-03-22T16:00:41.2268306+01:00",
-  "WedStop": "2018-10-16T16:00:41.2268306+02:00",
-  "ThuStart": "2021-05-15T16:00:41.2268306+02:00",
-  "ThuStop": "2009-02-14T16:00:41.2268306+01:00",
-  "FriStart": "2001-03-25T16:00:41.2268306+02:00",
-  "FriStop": "2014-09-02T16:00:41.2268306+02:00",
-  "SatStart": "2004-08-12T16:00:41.2268306+02:00",
-  "SatStop": "2015-12-27T16:00:41.2268306+01:00",
-  "SunStart": "2009-03-28T16:00:41.2268306+01:00",
-  "SunStop": "2013-07-19T16:00:41.2268306+02:00",
+  "Deadline": 478,
+  "MonStart": "2003-01-08T03:31:26.7456608+01:00",
+  "MonStop": "2010-07-14T03:31:26.7456608+02:00",
+  "TueStart": "2007-07-11T03:31:26.7456608+02:00",
+  "TueStop": "2021-12-25T03:31:26.7456608+01:00",
+  "WedStart": "2005-04-29T03:31:26.7456608+02:00",
+  "WedStop": "1999-03-12T03:31:26.7456608+01:00",
+  "ThuStart": "2008-02-04T03:31:26.7456608+01:00",
+  "ThuStop": "2002-06-01T03:31:26.7456608+02:00",
+  "FriStart": "2002-12-16T03:31:26.7456608+01:00",
+  "FriStop": "2020-11-28T03:31:26.7456608+01:00",
+  "SatStart": "2021-12-24T03:31:26.7456608+01:00",
+  "SatStop": "2005-04-25T03:31:26.7456608+02:00",
+  "SunStart": "2006-10-12T03:31:26.7456608+02:00",
+  "SunStop": "2014-02-13T03:31:26.7456608+01:00",
   "NonDates": [
-    "earum",
-    "neque"
+    "saepe",
+    "rerum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 795,
-      "AlertLevel": 85,
-      "AlertTimeout": 180,
-      "Action": 371,
-      "DelegateTo": 373,
-      "ScriptId": 591,
-      "EmailTo": "cary.hills@stoltenberg.info",
-      "SmsTo": "est",
-      "ReplyTemplateIdCustomer": 732,
-      "ReplyTemplateIdUser": 885,
-      "ReplyTemplateIdCatmast": 682,
-      "ReplyTemplateIdEmail": 367,
-      "RtiCustomerSms": 32,
-      "ReplyTemplateIdUserSms": 646,
-      "ReplyTemplateIdCatmastSms": 517,
-      "ReplyTemplateIdSms": 942,
+      "TicketAlertId": 537,
+      "AlertLevel": 489,
+      "AlertTimeout": 871,
+      "Action": 686,
+      "DelegateTo": 118,
+      "ScriptId": 493,
+      "EmailTo": "martina@jenkins.info",
+      "SmsTo": "sequi",
+      "ReplyTemplateIdCustomer": 762,
+      "ReplyTemplateIdUser": 557,
+      "ReplyTemplateIdCatmast": 862,
+      "ReplyTemplateIdEmail": 283,
+      "RtiCustomerSms": 818,
+      "ReplyTemplateIdUserSms": 368,
+      "ReplyTemplateIdCatmastSms": 718,
+      "ReplyTemplateIdSms": 954,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 566
+          "FieldType": "System.Int32",
+          "FieldLength": 863
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldType": "System.String",
+      "FieldLength": 556
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 468
+  "TicketMessageEntityId": 535
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 292,
-    "Name": "Heathcote, Bauch and Schroeder",
-    "ContentType": "qui",
-    "AttSize": 11,
+    "AttachmentId": 439,
+    "Name": "Yundt Inc and Sons",
+    "ContentType": "odio",
+    "AttSize": 554,
     "InlineImage": false,
-    "ContentId": "consequuntur",
-    "AuthKey": "maiores",
+    "ContentId": "odit",
+    "AuthKey": "accusantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldLength": 858
       }
     }
   }

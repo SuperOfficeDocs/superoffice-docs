@@ -88,17 +88,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 837,
-  "Name": "Bailey-Breitenberg",
-  "ContentType": "et",
-  "AttSize": 66,
-  "InlineImage": true,
-  "ContentId": "doloremque",
-  "AuthKey": "corrupti"
+  "AttachmentId": 484,
+  "Name": "Corwin-Zieme",
+  "ContentType": "non",
+  "AttSize": 680,
+  "InlineImage": false,
+  "ContentId": "non",
+  "AuthKey": "vel"
 }
 ```
 
@@ -109,19 +109,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 672,
-  "Name": "Wolff-Rohan",
-  "ContentType": "voluptatum",
-  "AttSize": 268,
+  "AttachmentId": 441,
+  "Name": "Wehner-Kulas",
+  "ContentType": "ratione",
+  "AttSize": 900,
   "InlineImage": false,
-  "ContentId": "quia",
-  "AuthKey": "consectetur",
+  "ContentId": "consequatur",
+  "AuthKey": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 423
+      "FieldLength": 241
     }
   },
   "_Links": {

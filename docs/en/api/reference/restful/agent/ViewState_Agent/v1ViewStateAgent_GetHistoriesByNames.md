@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Kuhn-Schamberger",
-    "White-Zboncak"
+    "McDermott LLC",
+    "O'Reilly Group"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 320,
-    "Id": 218,
-    "HistoryName": "Pouros LLC",
-    "HistoryId": 65,
-    "AssociateId": 908,
-    "Name": "Reichert-Shields",
-    "ItemInfo": "vero",
+    "Rank": 856,
+    "Id": 826,
+    "HistoryName": "Dickens Group",
+    "HistoryId": 179,
+    "AssociateId": 52,
+    "Name": "Hagenes-Wyman",
+    "ItemInfo": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldLength": 921
       }
     }
   }

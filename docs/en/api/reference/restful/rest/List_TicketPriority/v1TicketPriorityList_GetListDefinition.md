@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "McLaughlin-Zieme",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "Rank": 107,
-  "IsCustomList": true,
+  "Id": 102,
+  "Name": "Balistreri, Bergnaum and Kertzmann",
+  "Tooltip": "dolore",
+  "Deleted": false,
+  "Rank": 713,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldLength": 85
     }
   },
   "_Links": {

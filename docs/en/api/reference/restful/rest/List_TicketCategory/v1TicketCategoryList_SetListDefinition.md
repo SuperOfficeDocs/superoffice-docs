@@ -88,16 +88,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Cole, Pacocha and Grady",
-  "Tooltip": "sit",
+  "Id": 517,
+  "Name": "Gottlieb-O'Connell",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 760,
+  "Rank": 915,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
-  "InUseByUserDefinedFields": false
+  "ListType": "est",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 642,
-  "Name": "Lynch Inc and Sons",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 495,
+  "Id": 849,
+  "Name": "Jewess Group",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 39,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 318
     }
   }
 }

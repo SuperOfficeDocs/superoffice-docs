@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 276,
-    "Name": "Lueilwitz, Lesch and Watsica",
+    "HeadingId": 204,
+    "Name": "Huel, Grant and McDermott",
     "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 906
+    "Rank": 13,
+    "UdListDefinitionId": 846
   },
   {
-    "HeadingId": 276,
-    "Name": "Lueilwitz, Lesch and Watsica",
+    "HeadingId": 204,
+    "Name": "Huel, Grant and McDermott",
     "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 194,
-    "UdListDefinitionId": 906
+    "Rank": 13,
+    "UdListDefinitionId": 846
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 208,
-    "Name": "Tromp Inc and Sons",
-    "Tooltip": "non",
+    "HeadingId": 426,
+    "Name": "McDermott, Nikolaus and Powlowski",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "Rank": 984,
-    "UdListDefinitionId": 892,
+    "Rank": 689,
+    "UdListDefinitionId": 621,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 86
       }
     }
   }

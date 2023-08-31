@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 186,
-    "Section": "commodi",
-    "Key": "laboriosam",
-    "Name": "Emmerich LLC",
+    "PrefDescId": 584,
+    "Section": "ab",
+    "Key": "ut",
+    "Name": "Grant LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profound zero tolerance adapter",
+    "Description": "Triple-buffered cohesive access",
     "IsBuiltin": false,
-    "TableName": "Smith, Rutherford and Howell",
-    "UserDefinedListId": 86,
-    "Rank": 637,
-    "SubGroup": "ipsum",
-    "MinLevel": 28,
-    "MaxValue": 739,
-    "MinValue": 509,
-    "RequiredLicense": "ipsum",
+    "TableName": "O'Connell Group",
+    "UserDefinedListId": 438,
+    "Rank": 181,
+    "SubGroup": "perspiciatis",
+    "MinLevel": 514,
+    "MaxValue": 898,
+    "MinValue": 507,
+    "RequiredLicense": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 510
       }
     }
   }

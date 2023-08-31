@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 734,
-    "Name": "Watsica-Welch",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 760,
-    "UdListDefinitionId": 954,
+    "HeadingId": 194,
+    "Name": "Reichert-Rowe",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 102,
+    "UdListDefinitionId": 293,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 657
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

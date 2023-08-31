@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "King Inc and Sons",
-  "Tooltip": "consequatur",
+  "Id": 289,
+  "Name": "Crooks-White",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 339,
-  "Rank": 652,
+  "UdListDefinitionId": 648,
+  "Rank": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldLength": 70
     }
   }
 }

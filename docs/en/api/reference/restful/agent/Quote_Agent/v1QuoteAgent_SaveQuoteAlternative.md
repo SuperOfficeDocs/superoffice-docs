@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 550,
-  "ERPQuoteAlternativeKey": "porro",
-  "QuoteVersionId": 736,
-  "Name": "Kling-Marquardt",
-  "Description": "Phased zero administration artificial intelligence",
+  "QuoteAlternativeId": 582,
+  "ERPQuoteAlternativeKey": "sit",
+  "QuoteVersionId": 80,
+  "Name": "Wolf-Reilly",
+  "Description": "Intuitive intangible knowledge user",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 15331.528,
-  "ERPDiscountAmount": 11247.926,
-  "DiscountPercent": 23407.845999999998,
-  "DiscountAmount": 20972.728,
+  "ERPDiscountPercent": 14958.582,
+  "ERPDiscountAmount": 9101.136,
+  "DiscountPercent": 18133.324,
+  "DiscountAmount": 3886.16,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sed",
-  "VAT": 3967.644,
-  "EarningPercent": 31211.505999999998,
-  "EarningAmount": 12786.72,
-  "SubTotal": 26523.041999999998,
-  "TotalPrice": 27315.944,
-  "ExtraField1": "nobis",
-  "ExtraField2": "architecto",
-  "ExtraField3": "ex",
-  "ExtraField4": "dolores",
-  "ExtraField5": "quisquam"
+  "VATInfo": "neque",
+  "VAT": 17769.78,
+  "EarningPercent": 23085.043999999998,
+  "EarningAmount": 11266.73,
+  "SubTotal": 25943.252,
+  "TotalPrice": 12677.029999999999,
+  "ExtraField1": "explicabo",
+  "ExtraField2": "dignissimos",
+  "ExtraField3": "dolorem",
+  "ExtraField4": "et",
+  "ExtraField5": "rerum"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 288,
-  "ERPQuoteAlternativeKey": "sed",
-  "QuoteVersionId": 921,
-  "Name": "Sanford, Koepp and Turcotte",
-  "Description": "Grass-roots didactic migration",
+  "QuoteAlternativeId": 151,
+  "ERPQuoteAlternativeKey": "eius",
+  "QuoteVersionId": 532,
+  "Name": "Keeling Group",
+  "Description": "Assimilated hybrid groupware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21568.188,
-  "ERPDiscountAmount": 7925.8859999999995,
-  "DiscountPercent": 6120.702,
-  "DiscountAmount": 30694.396,
+  "ERPDiscountPercent": 25429.275999999998,
+  "ERPDiscountAmount": 31311.793999999998,
+  "DiscountPercent": 6913.6039999999994,
+  "DiscountAmount": 10082.078,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "amet",
-  "VAT": 17885.738,
-  "EarningPercent": 12626.886,
-  "EarningAmount": 28503.73,
-  "SubTotal": 24921.568,
-  "TotalPrice": 21417.755999999998,
-  "ExtraField1": "ea",
-  "ExtraField2": "laborum",
-  "ExtraField3": "omnis",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "enim",
+  "VATInfo": "dolor",
+  "VAT": 3099.526,
+  "EarningPercent": 1106.302,
+  "EarningAmount": 28278.082,
+  "SubTotal": 15717.01,
+  "TotalPrice": 880.654,
+  "ExtraField1": "laborum",
+  "ExtraField2": "hic",
+  "ExtraField3": "unde",
+  "ExtraField4": "blanditiis",
+  "ExtraField5": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 205
     }
   }
 }

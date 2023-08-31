@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 287,
-    "Tooltip": "quia",
+    "Total": 458,
+    "Tooltip": "et",
     "CanAssign": true,
-    "Free": 107,
-    "InUse": 918,
-    "IsHidden": false,
+    "Free": 418,
+    "InUse": 656,
+    "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 738,
-    "Name": "Rice-Marvin",
-    "Description": "Assimilated 3rd generation emulation",
-    "PrerequisiteModuleName": "Daniel, McGlynn and Streich",
-    "SortOrder": 145,
-    "ExtraFlags": 882,
+    "ModuleLicenseId": 493,
+    "Name": "Von, Ward and Spinka",
+    "Description": "Compatible solution-oriented hub",
+    "PrerequisiteModuleName": "Harber LLC",
+    "SortOrder": 601,
+    "ExtraFlags": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 921
       }
     }
   }

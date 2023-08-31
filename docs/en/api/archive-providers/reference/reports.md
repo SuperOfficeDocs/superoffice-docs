@@ -34,7 +34,7 @@ Archive provider for the list of reports
 ## Sample
 
 ```http!
-GET /api/v1/archive/Reports?$select=reportId,reportLayoutName
+GET /api/v1/archive/Reports?$select=reportOwnerName,reportId,reportLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

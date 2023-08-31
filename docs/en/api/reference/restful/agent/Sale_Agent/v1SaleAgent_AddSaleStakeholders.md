@@ -69,28 +69,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 541,
+  "SaleId": 542,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Murazik Group",
-      "Comment": "rerum",
-      "StakeholderRoleId": 265,
-      "CountryId": 174,
-      "PersonId": 75,
-      "EmailDescription": "arianna@hilll.com",
-      "EmailId": 825,
-      "EmailAddress": "ross.olson@wolffromaguera.us",
-      "PhoneId": 532,
-      "ContactName": "Rice, Tremblay and Sporer",
-      "ContactId": 360,
-      "SaleId": 83,
-      "Mrmrs": "velit",
-      "Firstname": "Davin",
-      "MiddleName": "Fay-Veum",
-      "Lastname": "Hermiston",
-      "SaleStakeholderId": 344,
-      "Rank": 659,
-      "Phone": "1-414-239-7816 x2488"
+      "StakeholderRoleName": "Zieme Group",
+      "Comment": "aut",
+      "StakeholderRoleId": 254,
+      "CountryId": 790,
+      "PersonId": 216,
+      "EmailDescription": "colby@murphypadberg.co.uk",
+      "EmailId": 865,
+      "EmailAddress": "mozelle.considine@jaskolskigibson.info",
+      "PhoneId": 866,
+      "ContactName": "Breitenberg-Kiehn",
+      "ContactId": 363,
+      "SaleId": 168,
+      "Mrmrs": "tenetur",
+      "Firstname": "Adelbert",
+      "MiddleName": "McKenzie-Strosin",
+      "Lastname": "Becker",
+      "SaleStakeholderId": 44,
+      "Rank": 557,
+      "Phone": "846.947.9380 x0021"
     }
   ]
 }

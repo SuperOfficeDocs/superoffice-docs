@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 934,
-  "ColumnId": 214,
-  "FieldDefault": "facilis",
-  "FieldHeight": 36,
-  "FieldLabel": "laboriosam",
-  "FieldLeft": 922,
-  "FieldTop": 71,
+  "UDefFieldId": 803,
+  "ColumnId": 318,
+  "FieldDefault": "rerum",
+  "FieldHeight": 547,
+  "FieldLabel": "repellendus",
+  "FieldLeft": 75,
+  "FieldTop": 704,
   "FieldType": "Checkbox",
-  "FieldWidth": 165,
-  "FormatMask": "omnis",
+  "FieldWidth": 895,
+  "FormatMask": "et",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 919,
-  "LabelLeft": 749,
-  "LabelTop": 157,
-  "LabelWidth": 232,
-  "LastVersionId": 317,
-  "ListTableId": 509,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 688,
+  "LabelLeft": 726,
+  "LabelTop": 154,
+  "LabelWidth": 726,
+  "LastVersionId": 689,
+  "ListTableId": 280,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 173,
-  "ProgId": "magni",
+  "Page1LineNo": 552,
+  "ProgId": "repellendus",
   "IsReadOnly": false,
-  "ShortLabel": "alias",
-  "TabOrder": 63,
-  "TextLength": 2,
-  "Tooltip": "sit",
-  "UdefIdentity": 525,
-  "UDListDefinitionId": 889,
+  "ShortLabel": "fugit",
+  "TabOrder": 411,
+  "TextLength": 930,
+  "Tooltip": "sint",
+  "UdefIdentity": 533,
+  "UDListDefinitionId": 631,
   "Justification": "Center",
-  "Version": 941,
-  "TemplateVariableName": "Thiel LLC",
+  "Version": 755,
+  "TemplateVariableName": "Mayert-Grimes",
   "HasBeenPublished": false,
-  "MdoListName": "Beatty-Lueilwitz",
+  "MdoListName": "Douglas, Feil and Donnelly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 102
+      "FieldLength": 360
     }
   }
 }

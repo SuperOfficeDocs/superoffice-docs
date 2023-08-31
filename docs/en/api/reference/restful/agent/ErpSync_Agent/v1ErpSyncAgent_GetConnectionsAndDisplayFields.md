@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 17
+  "EntityId": 815
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 772,
-    "ConnectionName": "McCullough Group",
+    "ErpConnectionId": 593,
+    "ConnectionName": "Reynolds-Harris",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "laudantium",
-        "Rank": 454,
-        "DisplayName": "Keebler-Kiehn",
-        "DisplayDescription": "Decentralized discrete orchestration",
+        "FieldKey": "natus",
+        "Rank": 495,
+        "DisplayName": "Jakubowski Inc and Sons",
+        "DisplayDescription": "Versatile dynamic Graphical User Interface",
         "FieldType": "Checkbox",
-        "ListName": "Dicki-Hansen",
-        "DefaultValue": "est",
-        "MaxLength": 28,
+        "ListName": "O'Keefe-Bauch",
+        "DefaultValue": "quisquam",
+        "MaxLength": 963,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 649
+            "FieldLength": 26
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "iure",
-      "rerum"
+      "nisi",
+      "ipsa"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

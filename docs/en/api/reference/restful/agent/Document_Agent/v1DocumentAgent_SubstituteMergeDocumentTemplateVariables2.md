@@ -76,11 +76,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 76,
-  "AssociateId": 712,
+  "DocumentId": 766,
+  "AssociateId": 6,
   "CustomTags": {
-    "CustomTags1": "consequuntur",
-    "CustomTags2": "voluptates"
+    "CustomTags1": "aut",
+    "CustomTags2": "assumenda"
   }
 }
 ```

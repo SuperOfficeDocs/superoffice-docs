@@ -75,28 +75,28 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 758,
-  "WorkflowStepId": 447,
-  "WorkflowId": 145,
-  "Key": "et",
-  "Name": "Hudson, Stokes and Funk",
-  "Rank": 958,
+  "WorkflowStepOptionId": 615,
+  "WorkflowStepId": 228,
+  "WorkflowId": 410,
+  "Key": "voluptatem",
+  "Name": "Bartell, Legros and Beier",
+  "Rank": 177,
   "Steps": [
     {
-      "WorkflowStepId": 856,
-      "WorkflowId": 270,
+      "WorkflowStepId": 124,
+      "WorkflowId": 227,
       "StepType": "AddToList",
-      "Rank": 432
+      "Rank": 238
     },
     {
-      "WorkflowStepId": 856,
-      "WorkflowId": 270,
+      "WorkflowStepId": 124,
+      "WorkflowId": 227,
       "StepType": "AddToList",
-      "Rank": 432
+      "Rank": 238
     }
   ]
 }
@@ -109,32 +109,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 327,
-  "WorkflowStepId": 162,
-  "WorkflowId": 787,
-  "Key": "nemo",
-  "Name": "Eichmann-Feest",
-  "Rank": 847,
+  "WorkflowStepOptionId": 360,
+  "WorkflowStepId": 610,
+  "WorkflowId": 400,
+  "Key": "enim",
+  "Name": "Nolan, Wunsch and Langworth",
+  "Rank": 753,
   "Steps": [
     {
-      "WorkflowStepId": 497,
-      "WorkflowId": 909,
+      "WorkflowStepId": 794,
+      "WorkflowId": 188,
       "StepType": "AddToList",
-      "Rank": 389
+      "Rank": 3
     },
     {
-      "WorkflowStepId": 497,
-      "WorkflowId": 909,
+      "WorkflowStepId": 794,
+      "WorkflowId": 188,
       "StepType": "AddToList",
-      "Rank": 389
+      "Rank": 3
     }
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

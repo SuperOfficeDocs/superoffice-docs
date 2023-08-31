@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Dooley, Doyle and Mayer",
-    "AssociateId": 303,
-    "DetailsTable": 679,
-    "DetailsRecord": 477,
+    "Id": 865,
+    "Name": "Yost-Wintheiser",
+    "AssociateId": 587,
+    "DetailsTable": 318,
+    "DetailsRecord": 275,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "molestias",
-      "ParameterObject2": "corporis"
+      "ParameterObject1": "praesentium",
+      "ParameterObject2": "dolore"
     },
-    "LastStarted": "2022-07-14T16:00:48.6333798+02:00",
-    "Created": "2000-10-22T16:00:48.6333798+02:00",
-    "StartCount": 466,
-    "DatabaseSerialNumber": "1667854",
-    "Context": "aliquid",
-    "Result": "molestiae",
+    "LastStarted": "2014-10-11T03:31:33.2718572+02:00",
+    "Created": "2011-07-11T03:31:33.2718572+02:00",
+    "StartCount": 303,
+    "DatabaseSerialNumber": "759198",
+    "Context": "et",
+    "Result": "ab",
     "State": "All",
-    "Description": "Organized high-level infrastructure",
-    "Response": "tenetur",
-    "Request": "consequatur",
-    "ProgressDescription": "Diverse clear-thinking ability",
-    "ProgressPercent": 433,
-    "FileName": "Marks-Stamm",
+    "Description": "Centralized demand-driven artificial intelligence",
+    "Response": "veritatis",
+    "Request": "unde",
+    "ProgressDescription": "Enterprise-wide multimedia structure",
+    "ProgressPercent": 704,
+    "FileName": "Bernhard Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldLength": 102
       }
     }
   }

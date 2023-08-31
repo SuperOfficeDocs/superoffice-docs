@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aperiam",
-  "ProviderName": "Hirthe Inc and Sons",
-  "StorageKey": "cumque",
+  "StorageType": "voluptas",
+  "ProviderName": "Quigley-Schultz",
+  "StorageKey": "maiores",
   "StaticColumns": [
-    "in",
-    "reprehenderit"
+    "ad",
+    "iusto"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Cormier Group",
-      "Operator": "est",
+      "Name": "Crist, Greenfelder and Keeling",
+      "Operator": "et",
       "Values": [
-        "voluptatum",
-        "nulla"
+        "sapiente",
+        "eum"
       ],
       "DisplayValues": [
-        "distinctio",
-        "laborum"
+        "consectetur",
+        "ullam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 132,
+      "InterParenthesis": 494,
       "InterOperator": "And",
-      "UniqueHash": 833
+      "UniqueHash": 482
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Senger, Bernhard and Gottlieb",
-      "DisplayTooltip": "nobis",
-      "DisplayType": "dolorum",
+      "DisplayName": "Predovic, Hegmann and Huels",
+      "DisplayTooltip": "doloribus",
+      "DisplayType": "tempora",
       "CanOrderBy": false,
-      "Name": "Lowe-Becker",
+      "Name": "Rodriguez LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptatibus",
-      "RestrictionListName": "Farrell LLC",
+      "RestrictionType": "sed",
+      "RestrictionListName": "Turcotte Group",
       "IsVisible": false,
-      "ExtraInfo": "eum",
-      "Width": "sit",
-      "IconHint": "laudantium",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "iusto",
+      "Width": "autem",
+      "IconHint": "assumenda",
+      "HeadingIconHint": "consectetur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Cassin, Jacobi and Windler",
-      "PrimaryKey": 282,
+      "EntityName": "Stark, Goyette and Hermiston",
+      "PrimaryKey": 68,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "incidunt",
-          "TooltipHint": "quo",
-          "LinkHint": "aperiam"
+          "DisplayValue": "eveniet",
+          "TooltipHint": "hic",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "sit",
-      "StyleHint": "deleniti",
+      "LinkHint": "provident",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldType": "System.Int32",
+          "FieldLength": 865
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Beahan, Lehner and Schiller",
-      "Description": "Visionary reciprocal hub",
-      "Rank": 178,
+      "Name": "Turner-Green",
+      "Description": "Right-sized global definition",
+      "Rank": 133,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Beahan, Lehner and Schiller",
-      "Description": "Visionary reciprocal hub",
-      "Rank": 178,
+      "Name": "Turner-Green",
+      "Description": "Right-sized global definition",
+      "Rank": 133,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   }
 }

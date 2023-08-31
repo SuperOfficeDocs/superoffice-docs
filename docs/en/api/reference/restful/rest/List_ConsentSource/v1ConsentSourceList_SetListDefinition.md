@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Quigley-Kuphal",
-  "Tooltip": "vero",
+  "Id": 968,
+  "Name": "Hoppe Inc and Sons",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 983,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "blanditiis",
-  "InUseByUserDefinedFields": true
+  "Rank": 3,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 375,
-  "Name": "Carter, Cruickshank and Mante",
-  "Tooltip": "quod",
-  "Deleted": true,
-  "Rank": 912,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 849,
+  "Name": "Koelpin-Larkin",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 995,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "minima",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 562
     }
   }
 }

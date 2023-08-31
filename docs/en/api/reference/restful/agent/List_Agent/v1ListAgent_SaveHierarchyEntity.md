@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 343,
+  "HierarchyId": 549,
   "Domain": "Dashboards",
-  "Name": "Dibbert-Balistreri",
-  "Fullname": "accusantium",
-  "ParentId": 39,
+  "Name": "Romaguera-Kerluke",
+  "Fullname": "iste",
+  "ParentId": 981,
   "Children": [
     {
-      "HierarchyId": 463,
+      "HierarchyId": 495,
       "Domain": "Dashboards",
-      "Name": "Hoppe, Spencer and Rempel",
-      "Fullname": "voluptatem",
-      "ParentId": 175,
+      "Name": "Schiller LLC",
+      "Fullname": "incidunt",
+      "ParentId": 22,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-03-14T16:00:41.2112045+01:00",
-      "RegisteredAssociateId": 97,
-      "Updated": "1996-11-19T16:00:41.2112045+01:00",
-      "UpdatedAssociateId": 401
+      "Registered": "1998-04-16T03:31:26.7300385+02:00",
+      "RegisteredAssociateId": 953,
+      "Updated": "2016-08-13T03:31:26.7300385+02:00",
+      "UpdatedAssociateId": 850
     }
   ],
-  "Registered": "2022-01-08T16:00:41.2112045+01:00",
-  "RegisteredAssociateId": 306,
-  "Updated": "2014-03-19T16:00:41.2112045+01:00",
-  "UpdatedAssociateId": 978
+  "Registered": "2007-01-17T03:31:26.7300385+01:00",
+  "RegisteredAssociateId": 618,
+  "Updated": "2001-11-20T03:31:26.7300385+01:00",
+  "UpdatedAssociateId": 162
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 796,
+  "HierarchyId": 911,
   "Domain": "Dashboards",
-  "Name": "Torp Inc and Sons",
-  "Fullname": "illo",
-  "ParentId": 422,
+  "Name": "Terry, Feil and Adams",
+  "Fullname": "alias",
+  "ParentId": 516,
   "Children": [
     {
-      "HierarchyId": 96,
+      "HierarchyId": 705,
       "Domain": "Dashboards",
-      "Name": "Schoen-Nikolaus",
-      "Fullname": "recusandae",
-      "ParentId": 55,
+      "Name": "Hammes-Braun",
+      "Fullname": "omnis",
+      "ParentId": 437,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-02-11T16:00:41.2112045+01:00",
-      "RegisteredAssociateId": 633,
-      "Updated": "2002-12-28T16:00:41.2112045+01:00",
-      "UpdatedAssociateId": 42,
+      "Registered": "2011-09-12T03:31:26.7300385+02:00",
+      "RegisteredAssociateId": 860,
+      "Updated": "2002-06-28T03:31:26.7300385+02:00",
+      "UpdatedAssociateId": 414,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 191
         }
       }
     }
   ],
-  "Registered": "2008-04-19T16:00:41.2112045+02:00",
-  "RegisteredAssociateId": 318,
-  "Updated": "1996-06-16T16:00:41.2112045+02:00",
-  "UpdatedAssociateId": 276,
+  "Registered": "2005-08-18T03:31:26.7300385+02:00",
+  "RegisteredAssociateId": 840,
+  "Updated": "2002-09-30T03:31:26.7300385+02:00",
+  "UpdatedAssociateId": 946,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

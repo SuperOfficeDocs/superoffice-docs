@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 214,
-  "PlainMessage": "accusantium",
-  "HtmlMessage": "perspiciatis",
-  "SmsMessage": "itaque",
-  "Description": "Automated actuating strategy",
-  "Subject": "deserunt",
-  "FolderId": 803,
-  "HeaderField": "accusamus",
-  "Design": "voluptas",
+  "ShipmentMessageId": 403,
+  "PlainMessage": "consequatur",
+  "HtmlMessage": "et",
+  "SmsMessage": "iusto",
+  "Description": "Integrated mission-critical help-desk",
+  "Subject": "molestias",
+  "FolderId": 860,
+  "HeaderField": "doloribus",
+  "Design": "eaque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Configurable system-worthy circuit",
-  "AccessKey": "quis",
-  "DocumentMessage": 538,
-  "Registered": "2009-04-08T16:00:48.4615203+02:00",
-  "RegisteredAssociateId": 847,
-  "Updated": "1998-03-17T16:00:48.4615203+01:00",
-  "UpdatedAssociateId": 589,
-  "UpdatedCount": 928,
+  "InlineImages": false,
+  "LongDescription": "Multi-channelled directional middleware",
+  "AccessKey": "inventore",
+  "DocumentMessage": 972,
+  "Registered": "2009-08-21T03:31:32.9594383+02:00",
+  "RegisteredAssociateId": 597,
+  "Updated": "2002-07-05T03:31:32.9594383+02:00",
+  "UpdatedAssociateId": 625,
+  "UpdatedCount": 528,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 390
     }
   },
   "_Links": {

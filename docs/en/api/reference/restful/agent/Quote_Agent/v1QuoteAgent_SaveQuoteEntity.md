@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 295,
-  "SaleId": 321,
-  "QuoteConnectionId": 584,
-  "ERPQuoteKey": "dolorum",
-  "ERPOrderKey": "cupiditate",
-  "ActiveQuoteVersionId": 154,
-  "AcceptedQuoteAlternativeId": 405,
-  "UseValuesFromQuote": 172,
-  "DocumentId": 546,
-  "PoNumber": "1297776",
-  "OrderComment": "omnis",
-  "PreferredEmailCulture": "valentin@treutel.biz",
+  "QuoteId": 179,
+  "SaleId": 153,
+  "QuoteConnectionId": 642,
+  "ERPQuoteKey": "aspernatur",
+  "ERPOrderKey": "repellat",
+  "ActiveQuoteVersionId": 299,
+  "AcceptedQuoteAlternativeId": 301,
+  "UseValuesFromQuote": 754,
+  "DocumentId": 875,
+  "PoNumber": "44315",
+  "OrderComment": "deleniti",
+  "PreferredEmailCulture": "gerry_russel@reilly.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 825,
-      "ERPQuoteVersionKey": "laborum",
-      "QuoteId": 327,
-      "Description": "De-engineered incremental product",
-      "Number": "1782762",
+      "QuoteVersionId": 49,
+      "ERPQuoteVersionKey": "eveniet",
+      "QuoteId": 866,
+      "Description": "Programmable motivating initiative",
+      "Number": "1226390",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 426,
-      "SentDate": "2003-06-04T16:00:41.6644415+02:00",
-      "FollowupId": 277,
-      "ExpirationDate": "2015-10-03T16:00:41.6644415+02:00",
-      "DeliveryCountryId": 344,
+      "LikelyQuoteAlternativeId": 293,
+      "SentDate": "2016-09-09T03:31:27.106235+02:00",
+      "FollowupId": 372,
+      "ExpirationDate": "2006-09-14T03:31:27.106235+02:00",
+      "DeliveryCountryId": 470,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 996,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "non",
-      "ERPPaymentTypeKey": "nam",
-      "ERPDeliveryTermsKey": "iure",
-      "ERPDeliveryTypeKey": "in",
-      "Rank": 61,
-      "ApprovedBy": 494,
-      "ApprovedText": "officia",
-      "ApprovedRegisteredBy": 256,
-      "ApprovedRegisteredDate": "2000-01-31T16:00:41.6644415+01:00",
-      "ExtraField1": "porro",
-      "ExtraField2": "vitae",
-      "ExtraField3": "beatae",
-      "ExtraField4": "minus",
-      "ExtraField5": "ut",
-      "LastRecalculated": "1997-05-23T16:00:41.6644415+02:00",
-      "Updated": "2023-03-03T16:00:41.6644415+01:00",
-      "UpdatedAssociateId": 887,
-      "Registered": "2002-05-02T16:00:41.6644415+02:00",
-      "RegisteredAssociateId": 12,
-      "RequestAssociateId": 275,
-      "RequestComment": "sit",
+      "InvoiceCountryId": 898,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "in",
+      "ERPPaymentTypeKey": "voluptas",
+      "ERPDeliveryTermsKey": "inventore",
+      "ERPDeliveryTypeKey": "repellendus",
+      "Rank": 850,
+      "ApprovedBy": 558,
+      "ApprovedText": "et",
+      "ApprovedRegisteredBy": 723,
+      "ApprovedRegisteredDate": "2010-09-21T03:31:27.106235+02:00",
+      "ExtraField1": "nostrum",
+      "ExtraField2": "et",
+      "ExtraField3": "et",
+      "ExtraField4": "dicta",
+      "ExtraField5": "quae",
+      "LastRecalculated": "2001-12-31T03:31:27.106235+01:00",
+      "Updated": "2002-04-27T03:31:27.106235+02:00",
+      "UpdatedAssociateId": 191,
+      "Registered": "2013-10-16T03:31:27.106235+02:00",
+      "RegisteredAssociateId": 988,
+      "RequestAssociateId": 599,
+      "RequestComment": "nobis",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 798
+          "FieldLength": 815
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 61
     }
   }
 }

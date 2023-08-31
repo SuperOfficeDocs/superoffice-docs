@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Bartoletti, Wilkinson and Rowe",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "UdListDefinitionId": 277,
-  "Rank": 638,
+  "Id": 782,
+  "Name": "Schneider Group",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "UdListDefinitionId": 265,
+  "Rank": 289,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 492
     }
   }
 }

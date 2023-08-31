@@ -72,7 +72,7 @@ PATCH /api/v1/DashTileDefinition/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "et",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 589,
-  "Name": "Paucek-Streich",
-  "Description": "Total radical groupware",
-  "DefaultHeight": 950,
-  "DefaultWidth": 966,
+  "DashboardTileDefinitionId": 775,
+  "Name": "Harvey-Powlowski",
+  "Description": "Profound user-facing analyzer",
+  "DefaultHeight": 212,
+  "DefaultWidth": 619,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Nikolaus, Daniel and Toy",
-  "SelectionId": 845,
+  "EntityName": "Zieme, Rolfson and Howe",
+  "SelectionId": 936,
   "CurrencyMode": "Base",
-  "CurrencyCode": "at",
+  "CurrencyCode": "non",
   "Measure": "Average",
-  "MeasureField": "modi",
-  "SortBy": "rerum",
-  "LayoutConfig": "totam",
-  "SecondarySelectionId": 838,
-  "MeasureByField": "ut",
+  "MeasureField": "ut",
+  "SortBy": "vitae",
+  "LayoutConfig": "porro",
+  "SecondarySelectionId": 465,
+  "MeasureByField": "veritatis",
   "Usage": "Dashboard",
-  "ProviderName": "Heidenreich LLC",
+  "ProviderName": "Nader LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 379
     }
   },
   "_Links": {

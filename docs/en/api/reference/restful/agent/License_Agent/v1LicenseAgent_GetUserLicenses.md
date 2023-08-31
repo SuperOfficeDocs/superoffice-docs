@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 464
+  "AssociateId": 294
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Denesik Group",
-    "Description": "Virtual tangible frame",
+    "Name": "Wiegand, Terry and Frami",
+    "Description": "Advanced dedicated installation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 544,
-        "Tooltip": "asperiores",
-        "CanAssign": true,
-        "Free": 744,
-        "InUse": 953,
+        "Total": 582,
+        "Tooltip": "eos",
+        "CanAssign": false,
+        "Free": 267,
+        "InUse": 526,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 781,
-        "Name": "Jast Inc and Sons",
-        "Description": "Multi-lateral zero tolerance approach",
-        "PrerequisiteModuleName": "Douglas Group",
-        "SortOrder": 608,
-        "ExtraFlags": 97,
+        "Assigned": true,
+        "ModuleLicenseId": 501,
+        "Name": "Davis Inc and Sons",
+        "Description": "Open-source coherent implementation",
+        "PrerequisiteModuleName": "Prohaska-Bergstrom",
+        "SortOrder": 947,
+        "ExtraFlags": 959,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldType": "System.String",
+            "FieldLength": 476
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 150,
-        "Tooltip": "eum",
-        "CanAssign": false,
-        "Free": 317,
-        "InUse": 925,
+        "Total": 270,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 207,
+        "InUse": 206,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 368,
-        "Name": "Ratke Group",
-        "Description": "Public-key mission-critical help-desk",
-        "PrerequisiteModuleName": "Denesik Inc and Sons",
-        "SortOrder": 243,
-        "ExtraFlags": 743,
+        "Assigned": true,
+        "ModuleLicenseId": 931,
+        "Name": "Wolff Group",
+        "Description": "Reduced human-resource protocol",
+        "PrerequisiteModuleName": "Orn, Bradtke and Gutkowski",
+        "SortOrder": 67,
+        "ExtraFlags": 632,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 828
       }
     }
   },
   {
-    "Name": "Denesik Group",
-    "Description": "Virtual tangible frame",
+    "Name": "Wiegand, Terry and Frami",
+    "Description": "Advanced dedicated installation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 544,
-        "Tooltip": "asperiores",
-        "CanAssign": true,
-        "Free": 744,
-        "InUse": 953,
+        "Total": 582,
+        "Tooltip": "eos",
+        "CanAssign": false,
+        "Free": 267,
+        "InUse": 526,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 781,
-        "Name": "Jast Inc and Sons",
-        "Description": "Multi-lateral zero tolerance approach",
-        "PrerequisiteModuleName": "Douglas Group",
-        "SortOrder": 608,
-        "ExtraFlags": 97,
+        "Assigned": true,
+        "ModuleLicenseId": 501,
+        "Name": "Davis Inc and Sons",
+        "Description": "Open-source coherent implementation",
+        "PrerequisiteModuleName": "Prohaska-Bergstrom",
+        "SortOrder": 947,
+        "ExtraFlags": 959,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldType": "System.String",
+            "FieldLength": 476
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 150,
-        "Tooltip": "eum",
-        "CanAssign": false,
-        "Free": 317,
-        "InUse": 925,
+        "Total": 270,
+        "Tooltip": "quia",
+        "CanAssign": true,
+        "Free": 207,
+        "InUse": 206,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 368,
-        "Name": "Ratke Group",
-        "Description": "Public-key mission-critical help-desk",
-        "PrerequisiteModuleName": "Denesik Inc and Sons",
-        "SortOrder": 243,
-        "ExtraFlags": 743,
+        "Assigned": true,
+        "ModuleLicenseId": 931,
+        "Name": "Wolff Group",
+        "Description": "Reduced human-resource protocol",
+        "PrerequisiteModuleName": "Orn, Bradtke and Gutkowski",
+        "SortOrder": 67,
+        "ExtraFlags": 632,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 828
       }
     }
   }

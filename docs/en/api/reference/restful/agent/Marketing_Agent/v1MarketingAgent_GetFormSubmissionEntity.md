@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=285
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=147
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 452,
-  "FormId": 775,
-  "WhenSubmitted": "2019-06-27T16:00:41.2580675+02:00",
-  "ContactId": 767,
-  "PersonId": 11,
-  "EmailAddress": "ayana.huels@weissnatabernathy.uk",
-  "ResponseShipmentAddrId": 590,
-  "Response": "dolore",
+  "FormSubmissionId": 272,
+  "FormId": 425,
+  "WhenSubmitted": "2010-02-03T03:31:26.7612835+01:00",
+  "ContactId": 278,
+  "PersonId": 591,
+  "EmailAddress": "viva@oberbrunnerruecker.com",
+  "ResponseShipmentAddrId": 492,
+  "Response": "vel",
   "Status": "EmailVerification",
-  "ProcessingLog": "iste",
+  "ProcessingLog": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

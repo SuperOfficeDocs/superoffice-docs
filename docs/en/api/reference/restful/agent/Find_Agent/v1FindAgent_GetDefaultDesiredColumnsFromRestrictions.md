@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lang-Gusikowski",
+  "ProviderName": "Hartmann-Cartwright",
   "Restrictions": [
     {
-      "Name": "Ullrich, Nolan and Crist",
+      "Name": "Kirlin Inc and Sons",
       "Operator": "ut",
       "Values": [
-        "autem",
-        "omnis"
+        "sed",
+        "consectetur"
       ],
       "DisplayValues": [
-        "fuga",
-        "consequuntur"
+        "magnam",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 684,
+      "InterParenthesis": 241,
       "InterOperator": "And",
-      "UniqueHash": 89
+      "UniqueHash": 902
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Crist, Koss and Murray",
-    "DisplayTooltip": "eos",
-    "DisplayType": "assumenda",
-    "CanOrderBy": false,
-    "Name": "Stroman Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "ea",
-    "RestrictionListName": "Gleichner-Paucek",
-    "IsVisible": false,
-    "ExtraInfo": "dicta",
-    "Width": "quae",
-    "IconHint": "numquam",
-    "HeadingIconHint": "nihil"
+    "DisplayName": "Bergnaum-Morar",
+    "DisplayTooltip": "itaque",
+    "DisplayType": "earum",
+    "CanOrderBy": true,
+    "Name": "Cormier, Schaden and Boyle",
+    "CanRestrictBy": true,
+    "RestrictionType": "doloremque",
+    "RestrictionListName": "Wiegand-Koss",
+    "IsVisible": true,
+    "ExtraInfo": "dolores",
+    "Width": "voluptates",
+    "IconHint": "at",
+    "HeadingIconHint": "ut"
   }
 ]
 ```

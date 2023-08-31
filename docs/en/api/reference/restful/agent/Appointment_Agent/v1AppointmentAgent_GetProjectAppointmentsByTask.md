@@ -130,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 772,
-  "StartTime": "2015-11-08T16:00:39.6019823+01:00",
-  "EndTime": "1999-11-29T16:00:39.6019823+01:00",
-  "Count": 72,
-  "TaskId": 415
+  "ProjectId": 735,
+  "StartTime": "2012-01-22T03:31:25.1001331+01:00",
+  "EndTime": "2015-08-02T03:31:25.1001331+02:00",
+  "Count": 735,
+  "TaskId": 111
 }
 ```
 
@@ -150,64 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 109,
-    "StartDate": "2011-05-14T16:00:39.6019823+02:00",
-    "EndDate": "2003-11-22T16:00:39.6019823+01:00",
+    "AppointmentId": 21,
+    "StartDate": "1997-01-01T03:31:25.1001331+01:00",
+    "EndDate": "2018-02-06T03:31:25.1001331+01:00",
     "Type": "BookingForChecklist",
-    "Task": "illo",
-    "AssociateFullName": "Vernon Lindgren",
-    "ContactName": "Hand, Leffler and Ritchie",
-    "Description": "Inverse assymetric methodology",
-    "PersonFullName": "Annamarie Grimes DDS",
-    "PersonId": 345,
-    "ContactId": 195,
-    "ProjectId": 225,
-    "ProjectName": "Bernier-Bruen",
-    "IsPublished": true,
-    "AssociateId": 147,
-    "ColorIndex": 669,
+    "Task": "praesentium",
+    "AssociateFullName": "Ervin Walker DVM",
+    "ContactName": "Dooley-Gottlieb",
+    "Description": "Multi-layered background secured line",
+    "PersonFullName": "Lew Grimes",
+    "PersonId": 941,
+    "ContactId": 975,
+    "ProjectId": 358,
+    "ProjectName": "Halvorson, O'Keefe and Padberg",
+    "IsPublished": false,
+    "AssociateId": 141,
+    "ColorIndex": 745,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 296,
-    "PriorityName": "Gusikowski-Wyman",
+    "PriorityId": 179,
+    "PriorityName": "Kuhic LLC",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2021-12-20T16:00:39.6019823+01:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2018-06-11T03:31:25.1001331+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-11-19T16:00:39.6019823+01:00",
-    "RecurringEndDate": "2000-10-12T16:00:39.6019823+02:00",
-    "MotherId": 973,
-    "AssignedBy": 110,
-    "AssignedByFullName": "Mrs. Afton Guiseppe Smitham PhD",
+    "RecurringStartDate": "2016-06-06T03:31:25.1001331+02:00",
+    "RecurringEndDate": "2007-04-29T03:31:25.1001331+02:00",
+    "MotherId": 635,
+    "AssignedBy": 646,
+    "AssignedByFullName": "Brooks Schuster IV",
     "RejectReason": "",
-    "Location": "voluptate",
-    "AlarmLeadTime": "quia",
-    "SaleId": 990,
-    "SaleName": "Gusikowski-VonRueden",
-    "AssociateName": "Schultz-Gutkowski",
-    "CreatedDate": "2011-04-26T16:00:39.6019823+02:00",
-    "CreatedBy": "nostrum",
-    "CreatedByFullName": "Nayeli Green",
-    "CreatedByAssociateId": 833,
+    "Location": "amet",
+    "AlarmLeadTime": "qui",
+    "SaleId": 110,
+    "SaleName": "Konopelski, Hauck and Cronin",
+    "AssociateName": "Barton, Spencer and Crist",
+    "CreatedDate": "2013-09-01T03:31:25.1001331+02:00",
+    "CreatedBy": "sunt",
+    "CreatedByFullName": "Marcellus Friesen",
+    "CreatedByAssociateId": 114,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "qui",
-    "Agenda": "libero",
-    "InternalNotes": "delectus",
+    "Title": "non",
+    "Agenda": "et",
+    "InternalNotes": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldType": "System.String",
+        "FieldLength": 223
       }
     }
   }

@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hegmann, Bins and Grant",
-    "Operator": "non",
+    "Name": "Will LLC",
+    "Operator": "enim",
     "Values": [
-      "itaque",
-      "velit"
-    ],
-    "DisplayValues": [
-      "iusto",
+      "ut",
       "ut"
     ],
+    "DisplayValues": [
+      "officia",
+      "vel"
+    ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Hegmann, Schimmel and Harris",
-        "Operator": "impedit",
+        "Name": "Schneider LLC",
+        "Operator": "repudiandae",
         "Values": [
-          "hic",
-          "quas"
+          "et",
+          "ipsa"
         ],
         "DisplayValues": [
-          "et",
-          "sit"
+          "sequi",
+          "necessitatibus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 326,
+        "InterParenthesis": 251,
         "InterOperator": "And",
-        "UniqueHash": 554
+        "UniqueHash": 21
       }
     ],
-    "InterParenthesis": 576,
+    "InterParenthesis": 156,
     "InterOperator": "And",
-    "UniqueHash": 357
+    "UniqueHash": 695
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Botsford Group",
-    "Operator": "est",
+    "Name": "Jast LLC",
+    "Operator": "hic",
     "Values": [
-      "ab",
-      "perferendis"
+      "earum",
+      "magni"
     ],
     "DisplayValues": [
-      "aliquid",
-      "molestiae"
+      "tempore",
+      "laborum"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Greenfelder, Hayes and Kilback",
-        "Operator": "voluptas",
+        "Name": "Sanford, Kihn and Gutmann",
+        "Operator": "qui",
         "Values": [
-          "exercitationem",
-          "illum"
+          "tempora",
+          "molestiae"
         ],
         "DisplayValues": [
-          "vero",
-          "voluptatum"
+          "omnis",
+          "nostrum"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 876,
+        "InterParenthesis": 804,
         "InterOperator": "And",
-        "UniqueHash": 824
+        "UniqueHash": 249
       }
     ],
-    "InterParenthesis": 172,
+    "InterParenthesis": 1002,
     "InterOperator": "And",
-    "UniqueHash": 886
+    "UniqueHash": 966
   }
 ]
 ```

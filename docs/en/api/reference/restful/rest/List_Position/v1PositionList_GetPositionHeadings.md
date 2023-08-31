@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 988,
-    "Name": "Sporer-Walsh",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 478,
+    "HeadingId": 202,
+    "Name": "Spinka, Rodriguez and Blanda",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 202,
+    "UdListDefinitionId": 503,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 390
       }
     }
   }

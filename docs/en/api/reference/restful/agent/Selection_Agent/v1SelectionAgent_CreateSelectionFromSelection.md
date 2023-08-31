@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 836,
-  "Name": "Feeney Inc and Sons",
+  "SelectionId": 414,
+  "Name": "Emmerich-Purdy",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized leading edge open architecture",
-  "Postit": "facilis",
+  "Description": "Advanced local open architecture",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 368,
-  "IncludePerson": 72,
-  "MemberCount": 799,
-  "Name": "Kihn, Douglas and Feil",
-  "PostitTextId": 854,
-  "CreatedDate": "2004-12-05T16:00:41.8675477+01:00",
-  "SelectionId": 288,
-  "SoundEx": "sequi",
-  "Source": 297,
-  "TextId": 387,
-  "UpdatedDate": "2007-01-02T16:00:41.8675477+01:00",
-  "UpdatedCount": 593,
-  "Visibility": 446,
+  "GroupIdx": 992,
+  "IncludePerson": 637,
+  "MemberCount": 325,
+  "Name": "Buckridge, Blanda and Schmeler",
+  "PostitTextId": 763,
+  "CreatedDate": "2016-12-16T03:31:27.278067+01:00",
+  "SelectionId": 830,
+  "SoundEx": "ducimus",
+  "Source": 685,
+  "TextId": 626,
+  "UpdatedDate": "2014-07-04T03:31:27.278067+02:00",
+  "UpdatedCount": 647,
+  "Visibility": 83,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 851,
-  "TargetTableName": "Lesch, Bauch and Parisian",
-  "Completed": true,
-  "LeftSelectionId": 475,
-  "RightSelectionId": 667,
+  "TargetTableNumber": 350,
+  "TargetTableName": "Conn Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 152,
+  "RightSelectionId": 963,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McDermott, Prohaska and Reilly",
-  "ShadowProviderName": "Pollich, Hagenes and Marks",
-  "ChartKey": "reiciendis",
-  "LastLoaded": "2000-01-21T16:00:41.8675477+01:00",
-  "LastLoadedBy": 918,
+  "MainProviderName": "Fritsch, Dickinson and Daniel",
+  "ShadowProviderName": "Champlin, Stracke and Kautzer",
+  "ChartKey": "illo",
+  "LastLoaded": "2008-07-02T03:31:27.278067+02:00",
+  "LastLoadedBy": 117,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-12-21T16:00:41.8675477+01:00",
-  "LastMembershipChangeBy": 316,
+  "LastMembershipChange": "2003-05-31T03:31:27.278067+02:00",
+  "LastMembershipChangeBy": 750,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "occaecati",
-  "MailingsProviderName": "Koch Inc and Sons",
-  "DashboardTileDefinitionId": 969,
+  "MainHeading": "sint",
+  "MemberTabHeading": "illum",
+  "MailingsProviderName": "Nitzsche, Koepp and Legros",
+  "DashboardTileDefinitionId": 853,
   "VisibleFor": [
     {
-      "VisibleId": 893,
+      "VisibleId": 719,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldType": "System.String",
+          "FieldLength": 648
         }
       }
     },
     {
-      "VisibleId": 893,
+      "VisibleId": 719,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldType": "System.String",
+          "FieldLength": 648
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 449
     }
   }
 }

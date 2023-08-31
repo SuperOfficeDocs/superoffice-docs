@@ -95,12 +95,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Toy-Streich",
+  "Name": "Schowalter-Keebler",
   "ForceFlatList": false,
-  "AdditionalInfo": "animi",
+  "AdditionalInfo": "consequatur",
   "HistoryItems": [
-    340,
-    394
+    992,
+    694
   ],
   "OnlyHistory": false
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Ankunding Group",
-    "ToolTip": "Dolor ipsam a voluptas eveniet non a et.",
-    "Deleted": true,
-    "Rank": 834,
-    "Type": "blanditiis",
-    "ColorBlock": 406,
-    "IconHint": "quis",
+    "Id": 3,
+    "Name": "O'Kon-Hartmann",
+    "ToolTip": "Blanditiis ducimus.",
+    "Deleted": false,
+    "Rank": 352,
+    "Type": "deleniti",
+    "ColorBlock": 800,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2015-12-01T16:00:41.2736903+01:00",
+    "LastChanged": "2005-10-20T03:31:26.7769052+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Greenfelder-Lehner",
-        "ToolTip": "Id illum.",
-        "Deleted": false,
-        "Rank": 168,
-        "Type": "praesentium",
-        "ColorBlock": 128,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2017-02-12T16:00:41.2736903+01:00",
+        "Id": 548,
+        "Name": "Crooks Group",
+        "ToolTip": "Repellendus qui quibusdam officiis qui ut harum dolores.",
+        "Deleted": true,
+        "Rank": 119,
+        "Type": "aliquam",
+        "ColorBlock": 414,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2017-09-17T03:31:26.7769052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "dolores",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Julius Eichmann",
+        "FullName": "Filomena Spinka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldLength": 268
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "est",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Dell Skiles",
+    "FullName": "Mr. Phyllis Otto Hansen DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 64
+        "FieldType": "System.Int32",
+        "FieldLength": 399
       }
     }
   }

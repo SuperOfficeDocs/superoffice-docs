@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 1001,
-  "InstanceLayout": "quibusdam",
-  "InstanceName": "Mraz Inc and Sons",
-  "CreatedDate": "2021-01-19T16:00:40.086328+01:00",
-  "UpdatedDate": "2008-01-16T16:00:40.086328+01:00",
+  "AudienceLayoutId": 4,
+  "InstanceLayout": "et",
+  "InstanceName": "Effertz-Okuneva",
+  "CreatedDate": "1997-01-17T03:31:25.6339962+01:00",
+  "UpdatedDate": "2007-10-25T03:31:25.6339962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 759,
-  "InstanceLayout": "quibusdam",
-  "InstanceName": "Stehr, Wolf and Stroman",
-  "CreatedDate": "2009-07-08T16:00:40.086328+02:00",
-  "UpdatedDate": "1999-07-13T16:00:40.086328+02:00",
+  "AudienceLayoutId": 585,
+  "InstanceLayout": "dolorum",
+  "InstanceName": "Wunsch Inc and Sons",
+  "CreatedDate": "2019-10-03T03:31:25.6339962+02:00",
+  "UpdatedDate": "2013-10-08T03:31:25.6339962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 108
     }
   }
 }

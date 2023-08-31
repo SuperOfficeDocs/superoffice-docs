@@ -72,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 555,
-  "Type": "incidunt",
+  "AssociateId": 222,
+  "Type": "cum",
   "Credentials": null
 }
 ```

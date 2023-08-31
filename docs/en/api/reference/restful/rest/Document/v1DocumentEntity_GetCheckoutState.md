@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 665,
-  "Name": "Oberbrunner Group"
+  "AssociateId": 15,
+  "Name": "Klein-Rau"
 }
 ```

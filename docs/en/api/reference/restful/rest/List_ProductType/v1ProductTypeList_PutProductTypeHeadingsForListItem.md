@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Buckridge-Ullrich",
-    "ToolTip": "Harum vero ex veniam qui.",
-    "Deleted": false,
-    "Rank": 904,
-    "Type": "ex",
-    "ColorBlock": 375,
-    "IconHint": "earum",
+    "Id": 72,
+    "Name": "Maggio-Hand",
+    "ToolTip": "Unde autem.",
+    "Deleted": true,
+    "Rank": 376,
+    "Type": "corrupti",
+    "ColorBlock": 438,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2003-02-07T16:00:49.1801938+01:00",
+    "LastChanged": "2011-07-28T03:31:33.7586101+02:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Ratke-Smith",
-        "ToolTip": "Vitae minima nisi reprehenderit et animi voluptas.",
+        "Id": 444,
+        "Name": "Bednar, VonRueden and Sawayn",
+        "ToolTip": "Quod voluptatem non est sed quia occaecati.",
         "Deleted": false,
-        "Rank": 470,
-        "Type": "id",
-        "ColorBlock": 620,
-        "IconHint": "ab",
+        "Rank": 484,
+        "Type": "earum",
+        "ColorBlock": 827,
+        "IconHint": "quidem",
         "Selected": false,
-        "LastChanged": "2010-03-25T16:00:49.1801938+01:00",
+        "LastChanged": "1996-11-28T03:31:33.7586101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "nisi",
+        "ExtraInfo": "earum",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Napoleon Ahmad Fisher Jr."
+        "FullName": "Gus Hackett"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Mrs. Elise Torphy"
+    "ExtraInfo": "delectus",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Ms. Zackary Domenica Shields"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Kris, Carroll and Legros",
-    "ToolTip": "Quae ipsa a.",
+    "Id": 802,
+    "Name": "Jacobs Inc and Sons",
+    "ToolTip": "Perferendis voluptas vero.",
     "Deleted": false,
-    "Rank": 782,
-    "Type": "dolorum",
-    "ColorBlock": 924,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2014-09-21T16:00:49.1801938+02:00",
+    "Rank": 572,
+    "Type": "ipsa",
+    "ColorBlock": 179,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2004-01-15T03:31:33.7586101+01:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Balistreri, Beatty and Carroll",
-        "ToolTip": "Fugit et earum atque.",
-        "Deleted": true,
-        "Rank": 181,
-        "Type": "debitis",
-        "ColorBlock": 376,
-        "IconHint": "rerum",
+        "Id": 39,
+        "Name": "Stark-Padberg",
+        "ToolTip": "Dolores officia est rerum consequuntur.",
+        "Deleted": false,
+        "Rank": 960,
+        "Type": "quo",
+        "ColorBlock": 447,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2005-05-03T16:00:49.1801938+02:00",
+        "LastChanged": "2017-06-14T03:31:33.7586101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Cecil Antonia Haag DVM",
+        "ExtraInfo": "sed",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Nigel Davis Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldLength": 331
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Sonya Prosacco MD",
+    "ExtraInfo": "possimus",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Korbin Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 130
       }
     }
   }

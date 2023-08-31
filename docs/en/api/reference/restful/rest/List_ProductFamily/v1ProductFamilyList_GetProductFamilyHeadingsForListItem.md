@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Shields-Bogisich",
-    "ToolTip": "Mollitia dolorum.",
+    "Id": 167,
+    "Name": "Marvin, Dicki and Altenwerth",
+    "ToolTip": "Non beatae autem commodi maiores qui incidunt.",
     "Deleted": false,
-    "Rank": 81,
-    "Type": "vel",
-    "ColorBlock": 555,
-    "IconHint": "nemo",
+    "Rank": 440,
+    "Type": "voluptate",
+    "ColorBlock": 62,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2023-05-04T16:00:49.1645684+02:00",
+    "LastChanged": "2005-05-15T03:31:33.7429875+02:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Dach Group",
-        "ToolTip": "Quaerat nostrum velit dicta consequatur corporis libero.",
+        "Id": 870,
+        "Name": "Simonis, Hickle and Roberts",
+        "ToolTip": "Quisquam natus vero.",
         "Deleted": true,
-        "Rank": 876,
-        "Type": "nam",
-        "ColorBlock": 754,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2019-05-28T16:00:49.1645684+02:00",
+        "Rank": 392,
+        "Type": "qui",
+        "ColorBlock": 525,
+        "IconHint": "reiciendis",
+        "Selected": false,
+        "LastChanged": "2023-05-17T03:31:33.7429875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "ut",
+        "ExtraInfo": "expedita",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Geovanni Dickens PhD",
+        "FullName": "Ms. Brett Wolff DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 219
+            "FieldType": "System.Int32",
+            "FieldLength": 427
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
+    "ExtraInfo": "sit",
+    "StyleHint": "possimus",
     "Hidden": true,
-    "FullName": "Althea Tromp",
+    "FullName": "Miss Martina Reilly MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldLength": 263
       }
     }
   }

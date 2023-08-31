@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 84,
-  "Id": 945,
-  "HistoryName": "Thiel Inc and Sons",
-  "HistoryId": 10,
-  "AssociateId": 173,
-  "Name": "Kirlin Group",
-  "ItemInfo": "fuga",
+  "Rank": 706,
+  "Id": 549,
+  "HistoryName": "Marquardt, Schaefer and Kirlin",
+  "HistoryId": 977,
+  "AssociateId": 869,
+  "Name": "Purdy-Abernathy",
+  "ItemInfo": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 696
     }
   }
 }

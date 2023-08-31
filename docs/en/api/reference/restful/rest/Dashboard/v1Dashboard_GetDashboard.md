@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 613,
-  "AssociateId": 625,
-  "Caption": "et",
+  "DashboardId": 759,
+  "AssociateId": 972,
+  "Caption": "quia",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 686,
-      "Caption": "aut",
-      "Description": "Expanded assymetric initiative",
-      "ChartName": "Romaguera, Hettinger and Douglas",
-      "ChartId": "aut",
+      "DashboardTileId": 454,
+      "Caption": "reprehenderit",
+      "Description": "Adaptive background orchestration",
+      "ChartName": "Carroll, Gislason and Stroman",
+      "ChartId": "quidem",
       "IsDefault": false,
-      "AssociateId": 69,
-      "GroupId": 156,
-      "SelectionId": 829,
-      "Config": "velit",
+      "AssociateId": 601,
+      "GroupId": 593,
+      "SelectionId": 559,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldType": "System.String",
+          "FieldLength": 672
         }
       }
     }
@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 320
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

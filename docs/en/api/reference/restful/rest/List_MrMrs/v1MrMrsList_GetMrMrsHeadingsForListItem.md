@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Hegmann, Reynolds and Koepp",
-    "ToolTip": "Eius nulla velit voluptas iure.",
-    "Deleted": true,
-    "Rank": 223,
-    "Type": "tenetur",
-    "ColorBlock": 9,
-    "IconHint": "id",
+    "Id": 255,
+    "Name": "Mitchell-Wolf",
+    "ToolTip": "Voluptas pariatur mollitia.",
+    "Deleted": false,
+    "Rank": 963,
+    "Type": "debitis",
+    "ColorBlock": 547,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2002-07-09T16:00:49.0708338+02:00",
+    "LastChanged": "2019-03-17T03:31:33.6635785+01:00",
     "ChildItems": [
       {
-        "Id": 895,
-        "Name": "Lind, Berge and Fadel",
-        "ToolTip": "Dolorum soluta quae ut animi cum.",
+        "Id": 452,
+        "Name": "Prohaska-Kohler",
+        "ToolTip": "Consequuntur quo cupiditate magnam.",
         "Deleted": false,
-        "Rank": 93,
-        "Type": "laborum",
-        "ColorBlock": 113,
-        "IconHint": "quos",
-        "Selected": false,
-        "LastChanged": "2013-05-14T16:00:49.0708338+02:00",
+        "Rank": 189,
+        "Type": "voluptate",
+        "ColorBlock": 958,
+        "IconHint": "illo",
+        "Selected": true,
+        "LastChanged": "1999-03-24T03:31:33.6635785+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Cleveland Miller",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "natus",
+        "Hidden": false,
+        "FullName": "Raina Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Ethel Koepp",
+    "ExtraInfo": "qui",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Clement Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldLength": 401
       }
     }
   }

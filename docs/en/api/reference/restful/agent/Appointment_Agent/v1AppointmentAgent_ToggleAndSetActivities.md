@@ -75,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifiers": [
-    "similique",
-    "dolorum"
+    "assumenda",
+    "voluptatem"
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ad",
-  "id"
+  "delectus",
+  "numquam"
 ]
 ```

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-313-976-2834",
-    "PersonCellPhone": "982.737.3795 x61112",
-    "PersonPrivatePhone": "334-988-2604",
-    "PersonFaxNumber": "1262535",
-    "PersonPagerNumber": "1393726",
-    "PersonEmail": "cierra.jacobson@hartmannmertz.uk",
-    "Id": 621,
-    "Name": "Nienow Group",
-    "Tooltip": "assumenda",
-    "UniqueId": "sequi",
+    "PersonDirectPhone": "1-155-359-0988 x467",
+    "PersonCellPhone": "494-038-2090 x6101",
+    "PersonPrivatePhone": "(283)618-3408",
+    "PersonFaxNumber": "308856",
+    "PersonPagerNumber": "1163190",
+    "PersonEmail": "lizzie@thiel.uk",
+    "Id": 785,
+    "Name": "Pfannerstill Group",
+    "Tooltip": "cupiditate",
+    "UniqueId": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   }

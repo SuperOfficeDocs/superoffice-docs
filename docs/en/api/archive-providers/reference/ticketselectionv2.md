@@ -29,7 +29,7 @@ This is the archive Provider for the Selection ticket archive.
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -737,7 +737,7 @@ This is the archive Provider for the Selection ticket archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionV2?$select=person/personDirectPhone/description,contact/countryId,contact/updatedByFullName,contact/searchPhone/description,contact/restrictionAddress/formattedAddress
+GET /api/v1/archive/TicketSelectionV2?$select=person/personSource,person/personAddress/state,person/restrictionAddress/county,contact/streetAddress/line1,sale/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

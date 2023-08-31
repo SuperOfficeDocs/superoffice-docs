@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Kreiger LLC",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 205,
+  "Id": 402,
+  "Name": "Ortiz LLC",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 812,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "deleniti",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 700,
-  "Name": "Greenfelder, Veum and O'Hara",
-  "Tooltip": "et",
+  "Id": 391,
+  "Name": "Bechtelar-Ullrich",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 341,
+  "Rank": 254,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ducimus",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

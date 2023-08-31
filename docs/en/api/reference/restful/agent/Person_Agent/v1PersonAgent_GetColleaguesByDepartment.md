@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 101
+  "DepartmentId": 614
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quidem",
-    "PersonId": 465,
-    "Mrmrs": "facilis",
-    "Firstname": "Kiara",
-    "Lastname": "Wiza",
-    "MiddleName": "Durgan, Kertzmann and Klocko",
-    "Title": "inventore",
-    "Description": "Visionary fresh-thinking hardware",
-    "Email": "verdie@christiansen.name",
-    "FullName": "Daphney Corwin V",
-    "DirectPhone": "1-108-839-6211",
-    "FormalName": "Altenwerth Group",
-    "CountryId": 945,
-    "ContactId": 748,
-    "ContactName": "Koelpin Inc and Sons",
-    "Retired": 535,
-    "Rank": 330,
-    "ActiveInterests": 159,
+    "Position": "aliquam",
+    "PersonId": 166,
+    "Mrmrs": "soluta",
+    "Firstname": "Daisy",
+    "Lastname": "Fisher",
+    "MiddleName": "Swaniawski Inc and Sons",
+    "Title": "sint",
+    "Description": "Cross-group full-range Graphic Interface",
+    "Email": "jasper@parkerwuckert.com",
+    "FullName": "Dina Douglas",
+    "DirectPhone": "913-244-9741 x0324",
+    "FormalName": "Koch-Muller",
+    "CountryId": 913,
+    "ContactId": 901,
+    "ContactName": "Grant Inc and Sons",
+    "Retired": 237,
+    "Rank": 584,
+    "ActiveInterests": 63,
     "ContactDepartment": "",
-    "ContactCountryId": 109,
-    "ContactOrgNr": "1281239",
-    "FaxPhone": "1-566-544-7785 x566",
-    "MobilePhone": "084-029-4382 x591",
-    "ContactPhone": "1-609-850-6740 x78971",
-    "AssociateName": "Kautzer Inc and Sons",
-    "AssociateId": 960,
+    "ContactCountryId": 537,
+    "ContactOrgNr": "517008",
+    "FaxPhone": "(620)817-0260",
+    "MobilePhone": "(520)709-6614 x207",
+    "ContactPhone": "852-238-9033",
+    "AssociateName": "Schiller, Keeling and Hackett",
+    "AssociateId": 780,
     "UsePersonAddress": false,
-    "ContactFax": "voluptas",
-    "Kanafname": "sint",
-    "Kanalname": "ab",
-    "Post1": "quam",
-    "Post2": "quidem",
-    "Post3": "voluptatem",
-    "EmailName": "allan@koepp.com",
-    "ContactFullName": "Dr. Lorenza Dietrich I",
-    "ActiveErpLinks": 296,
-    "TicketPriorityId": 3,
-    "SupportLanguageId": 566,
-    "SupportAssociateId": 7,
+    "ContactFax": "quod",
+    "Kanafname": "esse",
+    "Kanalname": "exercitationem",
+    "Post1": "incidunt",
+    "Post2": "ipsa",
+    "Post3": "dolore",
+    "EmailName": "jordane_fahey@cormierupton.us",
+    "ContactFullName": "Miss Osborne Larson",
+    "ActiveErpLinks": 551,
+    "TicketPriorityId": 471,
+    "SupportLanguageId": 509,
+    "SupportAssociateId": 284,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldType": "System.Int32",
+        "FieldLength": 436
       }
     }
   }

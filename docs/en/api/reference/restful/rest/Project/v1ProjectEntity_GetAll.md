@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=consequuntur
-GET /api/v1/Project?$top=850
-GET /api/v1/Project?$skip=892
+GET /api/v1/Project?$entities=vitae
+GET /api/v1/Project?$top=973
+GET /api/v1/Project?$skip=336
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=vitae
+GET /api/v1/Project?$context=et
 GET /api/v1/Project?$format=JSON
 GET /api/v1/Project?$jsonSafe=True
 GET /api/v1/Project?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "enim",
   "value": [
     {
-      "PrimaryKey": 9343,
+      "PrimaryKey": 6102,
       "EntityName": "sale",
-      "saleId": 9343,
-      "contactId": 144,
-      "name": "Boehm LLC"
+      "saleId": 6102,
+      "contactId": 1522,
+      "name": "Schinner Group"
     },
     {
-      "PrimaryKey": 7210,
+      "PrimaryKey": 615,
       "EntityName": "sale",
-      "saleId": 7210,
-      "contactId": 2616,
-      "name": "Purdy Inc and Sons"
+      "saleId": 615,
+      "contactId": 3180,
+      "name": "Batz-Wisoky"
     }
   ]
 }

@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Cremin Group",
-    "Tooltip": "minima",
+    "Id": 126,
+    "Name": "Adams-Jacobson",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 924,
-    "IsCustomList": false,
+    "Rank": 310,
+    "IsCustomList": true,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": false,
-    "ListType": "id",
+    "UseGroupsAndHeadings": true,
+    "ListType": "eum",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 665
       }
     }
   }

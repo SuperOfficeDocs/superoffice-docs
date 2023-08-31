@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 751,
-  "Name": "Rutherford LLC",
-  "Description": "Reduced static collaboration",
-  "WelcomeMessage": "fugiat",
+  "ChatTopicId": 28,
+  "Name": "McCullough-Beahan",
+  "Description": "Object-based coherent knowledge user",
+  "WelcomeMessage": "molestiae",
   "Language": null,
-  "LastAccept": "2015-12-20T16:00:47.6647341+01:00",
-  "SecondsPrAccept": 386,
-  "AlertRecipient": "incidunt",
+  "LastAccept": "2007-02-13T03:31:32.3477424+01:00",
+  "SecondsPrAccept": 316,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "cumque",
+  "BadgeHeader": "aut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "rerum",
-  "WarnNewChatMinutes": 174,
-  "WarnManagerNewChatMinutes": 544,
-  "TicketEnabled": true,
+  "CustomQueueText": "consectetur",
+  "WarnNewChatMinutes": 285,
+  "WarnManagerNewChatMinutes": 524,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 221,
-  "WarnManagerChatMessageMinutes": 479,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 64,
-  "OfflineFormQueueLength": 871,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 315,
+  "WarnManagerChatMessageMinutes": 931,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 850,
+  "OfflineFormQueueLength": 441,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nobis"
+  "WidgetRatingText": "odio"
 }
 ```
 
@@ -181,48 +181,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 173,
-  "Name": "Reinger, Herman and Okuneva",
-  "Description": "Managed background artificial intelligence",
-  "WelcomeMessage": "eum",
+  "ChatTopicId": 809,
+  "Name": "Corkery, Schmitt and Heidenreich",
+  "Description": "Decentralized transitional parallelism",
+  "WelcomeMessage": "ducimus",
   "Language": null,
-  "LastAccept": "2003-02-07T16:00:47.6647341+01:00",
-  "SecondsPrAccept": 628,
-  "AlertRecipient": "expedita",
+  "LastAccept": "2018-12-19T03:31:32.3477424+01:00",
+  "SecondsPrAccept": 804,
+  "AlertRecipient": "ratione",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "molestias",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sint",
-  "WarnNewChatMinutes": 766,
-  "WarnManagerNewChatMinutes": 170,
+  "CollectConsent": false,
+  "BadgeHeader": "pariatur",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "nihil",
+  "WarnNewChatMinutes": 777,
+  "WarnManagerNewChatMinutes": 967,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 1001,
-  "WarnManagerChatMessageMinutes": 199,
+  "WarnChatMessageMinutes": 193,
+  "WarnManagerChatMessageMinutes": 464,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 675,
-  "OfflineFormQueueLength": 195,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "dignissimos",
+  "OfflineFormTimeLimit": 79,
+  "OfflineFormQueueLength": 25,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 899
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

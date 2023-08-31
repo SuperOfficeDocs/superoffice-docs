@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 581,
-  "ColumnId": 894,
-  "FieldDefault": "est",
-  "FieldHeight": 477,
-  "FieldLabel": "tempora",
-  "FieldLeft": 249,
-  "FieldTop": 184,
+  "UDefFieldId": 339,
+  "ColumnId": 421,
+  "FieldDefault": "quae",
+  "FieldHeight": 559,
+  "FieldLabel": "optio",
+  "FieldLeft": 55,
+  "FieldTop": 150,
   "FieldType": "Checkbox",
-  "FieldWidth": 506,
-  "FormatMask": "pariatur",
+  "FieldWidth": 90,
+  "FormatMask": "eius",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 520,
-  "LabelLeft": 395,
-  "LabelTop": 550,
-  "LabelWidth": 666,
-  "LastVersionId": 827,
-  "ListTableId": 871,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 411,
+  "LabelLeft": 716,
+  "LabelTop": 137,
+  "LabelWidth": 159,
+  "LastVersionId": 148,
+  "ListTableId": 764,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 33,
-  "ProgId": "molestiae",
+  "Page1LineNo": 360,
+  "ProgId": "similique",
   "IsReadOnly": false,
-  "ShortLabel": "quae",
-  "TabOrder": 338,
-  "TextLength": 801,
-  "Tooltip": "tempora",
-  "UdefIdentity": 567,
-  "UDListDefinitionId": 755,
+  "ShortLabel": "earum",
+  "TabOrder": 306,
+  "TextLength": 545,
+  "Tooltip": "repellat",
+  "UdefIdentity": 227,
+  "UDListDefinitionId": 597,
   "Justification": "Center",
-  "Version": 152,
-  "TemplateVariableName": "Bernhard-Tillman",
-  "HasBeenPublished": true,
-  "MdoListName": "McDermott-Monahan",
+  "Version": 588,
+  "TemplateVariableName": "Howell, Walker and Vandervort",
+  "HasBeenPublished": false,
+  "MdoListName": "Schultz-Von",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 373
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   }
 }

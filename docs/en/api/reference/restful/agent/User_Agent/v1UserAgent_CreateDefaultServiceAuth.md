@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 137,
-  "Server": "iure",
-  "Port": 79,
-  "AuthType": "rerum",
-  "Username": "quia",
-  "Password": "ipsa",
+  "ServiceAuthId": 600,
+  "Server": "quibusdam",
+  "Port": 127,
+  "AuthType": "ipsam",
+  "Username": "voluptas",
+  "Password": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 587
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

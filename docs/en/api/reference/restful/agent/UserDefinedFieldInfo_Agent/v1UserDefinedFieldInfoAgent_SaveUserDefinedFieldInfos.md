@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 798,
-      "ColumnId": 625,
-      "FieldDefault": "occaecati",
-      "FieldHeight": 623,
-      "FieldLabel": "autem",
-      "FieldLeft": 621,
-      "FieldTop": 772,
+      "UDefFieldId": 476,
+      "ColumnId": 975,
+      "FieldDefault": "porro",
+      "FieldHeight": 844,
+      "FieldLabel": "qui",
+      "FieldLeft": 302,
+      "FieldTop": 202,
       "FieldType": "Checkbox",
-      "FieldWidth": 348,
-      "FormatMask": "quia",
+      "FieldWidth": 192,
+      "FormatMask": "voluptas",
       "HideLabel": true,
-      "IsIndexed": false,
-      "LabelHeight": 346,
-      "LabelLeft": 496,
-      "LabelTop": 95,
-      "LabelWidth": 18,
-      "LastVersionId": 107,
-      "ListTableId": 412,
+      "IsIndexed": true,
+      "LabelHeight": 86,
+      "LabelLeft": 797,
+      "LabelTop": 923,
+      "LabelWidth": 607,
+      "LastVersionId": 177,
+      "ListTableId": 35,
       "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 843,
-      "ProgId": "totam",
-      "IsReadOnly": true,
-      "ShortLabel": "sed",
-      "TabOrder": 522,
-      "TextLength": 533,
-      "Tooltip": "sit",
-      "UdefIdentity": 472,
-      "UDListDefinitionId": 546,
+      "Page1LineNo": 710,
+      "ProgId": "qui",
+      "IsReadOnly": false,
+      "ShortLabel": "repudiandae",
+      "TabOrder": 591,
+      "TextLength": 957,
+      "Tooltip": "dignissimos",
+      "UdefIdentity": 635,
+      "UDListDefinitionId": 964,
       "Justification": "Center",
-      "Version": 133,
-      "TemplateVariableName": "Maggio Inc and Sons",
+      "Version": 761,
+      "TemplateVariableName": "Nikolaus Group",
       "HasBeenPublished": true,
-      "MdoListName": "White-Upton"
+      "MdoListName": "Haag-Emard"
     }
   ]
 }

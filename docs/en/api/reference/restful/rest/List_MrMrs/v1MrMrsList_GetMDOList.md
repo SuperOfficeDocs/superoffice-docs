@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=porro
+GET /api/v1/List/MrMrs/MDOItems?query=nihil
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Franecki LLC",
-    "ToolTip": "Velit similique ab vero quam.",
-    "Deleted": true,
-    "Rank": 423,
-    "Type": "placeat",
+    "Id": 629,
+    "Name": "Goyette-Berge",
+    "ToolTip": "Velit sint.",
+    "Deleted": false,
+    "Rank": 635,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Lang LLC",
-        "ToolTip": "Deleniti vel numquam porro temporibus.",
-        "Deleted": false,
-        "Rank": 713,
-        "Type": "incidunt",
+        "Id": 535,
+        "Name": "Hudson, Renner and Leffler",
+        "ToolTip": "Velit qui iusto delectus expedita aliquid expedita.",
+        "Deleted": true,
+        "Rank": 799,
+        "Type": "esse",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 433,
-        "ExtraInfo": "possimus",
-        "StyleHint": "perferendis",
-        "FullName": "Darrick Barney Olson Sr.",
+        "IconHint": "enim",
+        "ColorBlock": 671,
+        "ExtraInfo": "iste",
+        "StyleHint": "ut",
+        "FullName": "Ms. Micheal Ricardo Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 808
+            "FieldLength": 355
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 958,
-    "ExtraInfo": "laudantium",
-    "StyleHint": "neque",
-    "FullName": "Yadira Davis",
+    "IconHint": "veritatis",
+    "ColorBlock": 222,
+    "ExtraInfo": "autem",
+    "StyleHint": "quis",
+    "FullName": "Hattie Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 722
+        "FieldType": "System.Int32",
+        "FieldLength": 254
       }
     }
   }

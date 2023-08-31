@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 818,
-  "Name": "Aufderhar, Ankunding and Collins",
+  "ScreenChooserId": 828,
+  "Name": "Abernathy, Morar and Kunde",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eligendi",
-  "Source": "alias",
-  "Registered": "2011-07-22T16:00:40.4925031+02:00",
-  "RegisteredAssociateId": 993,
-  "Updated": "2008-04-05T16:00:40.4925031+02:00",
-  "UpdatedAssociateId": 98
+  "UniqueIdentifier": "recusandae",
+  "Source": "quisquam",
+  "Registered": "2000-04-07T03:31:25.9634399+02:00",
+  "RegisteredAssociateId": 253,
+  "Updated": "2021-01-06T03:31:25.9634399+01:00",
+  "UpdatedAssociateId": 73
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 955,
-  "Name": "Smith, Kovacek and Ryan",
+  "ScreenChooserId": 510,
+  "Name": "Haag Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "distinctio",
-  "Source": "temporibus",
-  "Registered": "2008-08-11T16:00:40.4925031+02:00",
-  "RegisteredAssociateId": 228,
-  "Updated": "2009-02-04T16:00:40.4925031+01:00",
-  "UpdatedAssociateId": 903,
+  "UniqueIdentifier": "maiores",
+  "Source": "ratione",
+  "Registered": "2000-10-10T03:31:25.9634399+02:00",
+  "RegisteredAssociateId": 211,
+  "Updated": "2004-05-28T03:31:25.9634399+02:00",
+  "UpdatedAssociateId": 951,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 169
     }
   }
 }

@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Waelchi, Kling and Morissette",
-  "Culture": "in",
+  "ResourceName": "Lesch Group",
+  "Culture": "laborum",
   "IsActive": true
 }
 ```

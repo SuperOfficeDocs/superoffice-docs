@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 743,
-  "ERPProductKey": "cum",
-  "ERPPriceListKey": "corrupti",
-  "Name": "Johns, Fahey and Mayer",
-  "Description": "Synergistic attitude-oriented policy",
-  "Code": "natus",
-  "PriceUnit": "aut",
-  "QuantityUnit": "sunt",
-  "IsSubscription": false,
-  "SubscriptionUnit": "praesentium",
-  "DefaultSubscriptionQuantity": 5431.222,
-  "ItemNumber": "72268",
+  "ProductId": 200,
+  "ERPProductKey": "consequatur",
+  "ERPPriceListKey": "aut",
+  "Name": "Heathcote, Treutel and Streich",
+  "Description": "Front-line intangible framework",
+  "Code": "cumque",
+  "PriceUnit": "ut",
+  "QuantityUnit": "molestias",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sunt",
+  "DefaultSubscriptionQuantity": 13332.036,
+  "ItemNumber": "819278",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "fugit",
-  "ProductTypeKey": "eaque",
-  "VAT": 21292.396,
-  "VATInfo": "saepe",
-  "UnitCost": 11576.996,
-  "UnitMinimumPrice": 24802.476,
-  "UnitListPrice": 23545.742,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "architecto",
+  "VAT": 1588.9379999999999,
+  "VATInfo": "possimus",
+  "UnitCost": 21420.89,
+  "UnitMinimumPrice": 20859.904,
+  "UnitListPrice": 22176.183999999997,
   "InAssortment": false,
-  "Supplier": "officiis",
-  "SupplierCode": "non",
-  "Rights": "neque",
-  "Rule": "quisquam",
+  "Supplier": "sequi",
+  "SupplierCode": "enim",
+  "Rights": "perspiciatis",
+  "Rule": "maxime",
   "ExtraInfo": [
     {
-      "Name": "Ondricka-Kshlerin",
-      "Value": "asperiores",
+      "Name": "Hoppe-Wiegand",
+      "Value": "laborum",
       "Type": "Image"
     },
     {
-      "Name": "Ondricka-Kshlerin",
-      "Value": "asperiores",
+      "Name": "Hoppe-Wiegand",
+      "Value": "laborum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "dolorem",
-  "ExtraField1": "error",
-  "ExtraField2": "magni",
-  "ExtraField3": "laboriosam",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "molestiae",
-  "InStock": 8609.098
+  "RawExtraInfo": "corrupti",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "atque",
+  "ExtraField3": "mollitia",
+  "ExtraField4": "occaecati",
+  "ExtraField5": "ut",
+  "InStock": 4688.464
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 950,
-  "ERPProductKey": "quo",
-  "ERPPriceListKey": "aut",
-  "Name": "Jewess, Ferry and Schmitt",
-  "Description": "Visionary static collaboration",
-  "Code": "quia",
-  "PriceUnit": "itaque",
-  "QuantityUnit": "rerum",
-  "IsSubscription": true,
-  "SubscriptionUnit": "rem",
-  "DefaultSubscriptionQuantity": 12470.186,
-  "ItemNumber": "1596114",
+  "ProductId": 759,
+  "ERPProductKey": "deserunt",
+  "ERPPriceListKey": "perspiciatis",
+  "Name": "Emard-Christiansen",
+  "Description": "Polarised dedicated artificial intelligence",
+  "Code": "eius",
+  "PriceUnit": "assumenda",
+  "QuantityUnit": "deleniti",
+  "IsSubscription": false,
+  "SubscriptionUnit": "labore",
+  "DefaultSubscriptionQuantity": 22530.326,
+  "ItemNumber": "1584125",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quis",
-  "ProductTypeKey": "perspiciatis",
-  "VAT": 2748.518,
-  "VATInfo": "asperiores",
-  "UnitCost": 21709.218,
-  "UnitMinimumPrice": 12219.466,
-  "UnitListPrice": 11705.49,
+  "ProductFamilyKey": "enim",
+  "ProductTypeKey": "ea",
+  "VAT": 18305.694,
+  "VATInfo": "odit",
+  "UnitCost": 26889.719999999998,
+  "UnitMinimumPrice": 586.058,
+  "UnitListPrice": 11423.43,
   "InAssortment": false,
-  "Supplier": "nam",
-  "SupplierCode": "exercitationem",
-  "Rights": "esse",
-  "Rule": "blanditiis",
+  "Supplier": "voluptas",
+  "SupplierCode": "similique",
+  "Rights": "et",
+  "Rule": "dolores",
   "ExtraInfo": [
     {
-      "Name": "Graham-Kuhic",
-      "Value": "at",
+      "Name": "Heaney Group",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 592
         }
       }
     },
     {
-      "Name": "Graham-Kuhic",
-      "Value": "at",
+      "Name": "Heaney Group",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 592
         }
       }
     }
   ],
-  "RawExtraInfo": "laudantium",
-  "ExtraField1": "voluptatum",
-  "ExtraField2": "ea",
-  "ExtraField3": "enim",
-  "ExtraField4": "in",
-  "ExtraField5": "deleniti",
-  "InStock": 642.47,
+  "RawExtraInfo": "maxime",
+  "ExtraField1": "ut",
+  "ExtraField2": "omnis",
+  "ExtraField3": "eius",
+  "ExtraField4": "rerum",
+  "ExtraField5": "repellat",
+  "InStock": 24999.917999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 350
     }
   }
 }

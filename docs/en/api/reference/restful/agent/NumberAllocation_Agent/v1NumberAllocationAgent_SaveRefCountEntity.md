@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 667,
-  "Field": "cupiditate",
-  "RecordId": 607,
+  "RefCountsId": 68,
+  "Field": "harum",
+  "RecordId": 394,
   "SuggestedRecords": [
     {
-      "Id": 753,
-      "Name": "O'Reilly, Stehr and Fritsch",
-      "ToolTip": "Dolorum voluptatem.",
+      "Id": 728,
+      "Name": "Goyette, Dach and Feest",
+      "ToolTip": "Aliquam in.",
       "Deleted": false,
-      "Rank": 482,
-      "Type": "quo",
+      "Rank": 244,
+      "Type": "dolores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "recusandae",
-      "ColorBlock": 138,
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "eveniet",
-      "FullName": "Vernon Hane"
+      "IconHint": "minima",
+      "ColorBlock": 977,
+      "ExtraInfo": "sunt",
+      "StyleHint": "nihil",
+      "FullName": "Dr. Blair VonRueden DDS"
     }
   ],
-  "CurrentValue": 243,
-  "TravelPrefix": 396,
-  "SatPrefix": 396,
+  "CurrentValue": 838,
+  "TravelPrefix": 830,
+  "SatPrefix": 866,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true
+  "AllowBlank": false
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 665,
-  "Field": "quos",
-  "RecordId": 388,
+  "RefCountsId": 367,
+  "Field": "voluptas",
+  "RecordId": 836,
   "SuggestedRecords": [
     {
-      "Id": 933,
-      "Name": "McCullough, Altenwerth and Schneider",
-      "ToolTip": "Autem vel perspiciatis maxime earum maiores aliquam qui.",
-      "Deleted": false,
-      "Rank": 419,
-      "Type": "est",
+      "Id": 662,
+      "Name": "Hettinger-O'Conner",
+      "ToolTip": "Molestiae non blanditiis laboriosam.",
+      "Deleted": true,
+      "Rank": 565,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 119,
-      "ExtraInfo": "suscipit",
-      "StyleHint": "animi",
-      "FullName": "Estrella May Sawayn Jr.",
+      "IconHint": "saepe",
+      "ColorBlock": 773,
+      "ExtraInfo": "qui",
+      "StyleHint": "sed",
+      "FullName": "Dayna Jerde I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 249
         }
       }
     }
   ],
-  "CurrentValue": 607,
-  "TravelPrefix": 504,
-  "SatPrefix": 931,
+  "CurrentValue": 730,
+  "TravelPrefix": 68,
+  "SatPrefix": 468,
   "Allocate": true,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 701
     }
   }
 }

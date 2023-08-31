@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 43,
-    "Name": "Dach-Hilpert",
-    "Tooltip": "molestiae",
+    "HeadingId": 905,
+    "Name": "Cummings Group",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 358,
+    "Rank": 228,
+    "UdListDefinitionId": 683,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 675
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

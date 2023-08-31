@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "vel",
+  "FieldLabel": "aut",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 486,
-  "ColumnId": 426,
-  "FieldDefault": "sed",
-  "FieldHeight": 916,
-  "FieldLabel": "et",
-  "FieldLeft": 337,
-  "FieldTop": 824,
+  "UDefFieldId": 446,
+  "ColumnId": 552,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 176,
+  "FieldLabel": "deleniti",
+  "FieldLeft": 275,
+  "FieldTop": 402,
   "FieldType": "Checkbox",
-  "FieldWidth": 572,
-  "FormatMask": "aliquid",
+  "FieldWidth": 563,
+  "FormatMask": "quibusdam",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 997,
-  "LabelLeft": 547,
-  "LabelTop": 810,
-  "LabelWidth": 342,
-  "LastVersionId": 799,
-  "ListTableId": 683,
+  "LabelHeight": 165,
+  "LabelLeft": 331,
+  "LabelTop": 97,
+  "LabelWidth": 795,
+  "LastVersionId": 539,
+  "ListTableId": 381,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 251,
-  "ProgId": "hic",
-  "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 380,
-  "TextLength": 403,
-  "Tooltip": "dolor",
-  "UdefIdentity": 932,
-  "UDListDefinitionId": 699,
+  "Page1LineNo": 955,
+  "ProgId": "exercitationem",
+  "IsReadOnly": true,
+  "ShortLabel": "placeat",
+  "TabOrder": 851,
+  "TextLength": 972,
+  "Tooltip": "voluptatum",
+  "UdefIdentity": 221,
+  "UDListDefinitionId": 51,
   "Justification": "Center",
-  "Version": 573,
-  "TemplateVariableName": "Boehm LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Lueilwitz, Hills and Cronin",
+  "Version": 111,
+  "TemplateVariableName": "Schulist-Ritchie",
+  "HasBeenPublished": false,
+  "MdoListName": "Littel, Cruickshank and Keeling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

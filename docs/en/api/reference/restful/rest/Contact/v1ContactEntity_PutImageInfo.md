@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 97,
-  "BlobSize": 24,
-  "Description": "Seamless zero tolerance algorithm",
-  "ExtraInfo": "quibusdam",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "vel",
-  "OriginalSize": 426,
-  "CreatedDate": "2014-09-01T16:00:47.6959793+02:00",
-  "UpdatedDate": "2013-03-24T16:00:47.6959793+01:00",
+  "BlobId": 454,
+  "BlobSize": 514,
+  "Description": "Reactive homogeneous groupware",
+  "ExtraInfo": "laboriosam",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "sapiente",
+  "OriginalSize": 585,
+  "CreatedDate": "2010-06-17T03:31:32.3789647+02:00",
+  "UpdatedDate": "2017-06-15T03:31:32.3789647+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dignissimos"
+  "ConceptualType": "consequatur"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 916,
-  "BlobSize": 436,
-  "Description": "Centralized foreground productivity",
-  "ExtraInfo": "velit",
+  "BlobId": 148,
+  "BlobSize": 714,
+  "Description": "Team-oriented bandwidth-monitored archive",
+  "ExtraInfo": "totam",
   "IsEncrypted": false,
   "IsZipped": false,
   "MimeType": "qui",
-  "OriginalSize": 371,
-  "CreatedDate": "2010-07-29T16:00:47.6959793+02:00",
-  "UpdatedDate": "2010-11-09T16:00:47.6959793+01:00",
+  "OriginalSize": 20,
+  "CreatedDate": "2015-04-02T03:31:32.3789647+02:00",
+  "UpdatedDate": "2018-05-18T03:31:32.3789647+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

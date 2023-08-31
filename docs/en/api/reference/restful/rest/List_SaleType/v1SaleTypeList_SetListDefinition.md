@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "McCullough LLC",
-  "Tooltip": "exercitationem",
+  "Id": 689,
+  "Name": "Langosh Inc and Sons",
+  "Tooltip": "ad",
   "Deleted": false,
-  "Rank": 269,
+  "Rank": 239,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ullam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 28,
-  "Name": "Wiegand-Parisian",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "Rank": 611,
+  "Id": 827,
+  "Name": "Bayer Inc and Sons",
+  "Tooltip": "laboriosam",
+  "Deleted": false,
+  "Rank": 562,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusamus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 286
     }
   }
 }

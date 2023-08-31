@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Hessel-Torphy",
-    "ToolTip": "Magni sint nobis.",
-    "Deleted": false,
-    "Rank": 777,
-    "Type": "iste",
-    "ColorBlock": 351,
-    "IconHint": "sed",
+    "Id": 199,
+    "Name": "Hermiston, Swaniawski and Will",
+    "ToolTip": "Eum ea perspiciatis consequatur sunt autem et.",
+    "Deleted": true,
+    "Rank": 517,
+    "Type": "sapiente",
+    "ColorBlock": 112,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2010-04-01T16:00:49.289556+02:00",
+    "LastChanged": "2008-02-22T03:31:33.8523421+01:00",
     "ChildItems": [
       {
-        "Id": 765,
-        "Name": "Kiehn, Russel and Okuneva",
-        "ToolTip": "Rerum rem sapiente eius et ex.",
+        "Id": 27,
+        "Name": "Hermann-Prosacco",
+        "ToolTip": "Autem possimus asperiores ipsa voluptatem.",
         "Deleted": true,
-        "Rank": 900,
-        "Type": "totam",
-        "ColorBlock": 306,
-        "IconHint": "quas",
+        "Rank": 720,
+        "Type": "molestias",
+        "ColorBlock": 44,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2001-11-15T16:00:49.289556+01:00",
+        "LastChanged": "2005-01-26T03:31:33.8523421+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "quae",
+        "ExtraInfo": "delectus",
+        "StyleHint": "culpa",
         "Hidden": true,
-        "FullName": "Dr. Krystel Bosco III",
+        "FullName": "Waino Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 179
+            "FieldType": "System.String",
+            "FieldLength": 954
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "maxime",
+    "ExtraInfo": "provident",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Mrs. Frank Hahn Sr.",
+    "FullName": "Oscar Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 800
       }
     }
   }

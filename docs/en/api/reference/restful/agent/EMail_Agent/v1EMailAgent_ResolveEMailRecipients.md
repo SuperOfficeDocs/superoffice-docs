@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "orin@lockmanraynor.us"
+  "EmailAddress": "jarrod@braun.biz"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 33,
-    "ContactName": "Von, Hamill and Ebert",
-    "PersonId": 836,
-    "PersonName": "Homenick, Harber and Shanahan",
-    "AssociateId": 610,
-    "Address": "ut",
-    "EmailId": 923,
+    "ContactId": 676,
+    "ContactName": "Streich-Kohler",
+    "PersonId": 314,
+    "PersonName": "Runte-Wolff",
+    "AssociateId": 184,
+    "Address": "error",
+    "EmailId": 271,
     "DuplicatePersonIds": [
-      875,
-      245
+      472,
+      569
     ],
-    "Name": "Langosh Inc and Sons",
+    "Name": "Ferry LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 401
+        "FieldType": "System.Int32",
+        "FieldLength": 538
       }
     }
   }

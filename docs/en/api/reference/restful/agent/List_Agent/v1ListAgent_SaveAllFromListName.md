@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Thiel-Gislason",
+  "UdListDefinitionName": "Grimes Group",
   "Items": [
     {
-      "Id": 656,
-      "Name": "Dickinson Group",
-      "Tooltip": "similique",
-      "Deleted": false,
-      "UdListDefinitionId": 574,
-      "Rank": 213
+      "Id": 890,
+      "Name": "Nicolas Inc and Sons",
+      "Tooltip": "iste",
+      "Deleted": true,
+      "UdListDefinitionId": 876,
+      "Rank": 178
     },
     {
-      "Id": 656,
-      "Name": "Dickinson Group",
-      "Tooltip": "similique",
-      "Deleted": false,
-      "UdListDefinitionId": 574,
-      "Rank": 213
+      "Id": 890,
+      "Name": "Nicolas Inc and Sons",
+      "Tooltip": "iste",
+      "Deleted": true,
+      "UdListDefinitionId": 876,
+      "Rank": 178
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Trantow Inc and Sons",
-    "Tooltip": "in",
-    "Deleted": false,
-    "UdListDefinitionId": 425,
-    "Rank": 988,
+    "Id": 806,
+    "Name": "Schiller-Zboncak",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 991,
+    "Rank": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 894
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=9
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=373
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 230,
-  "Section": "soluta",
-  "Key": "et",
-  "Name": "Turcotte-Kozey",
+  "PrefDescId": 851,
+  "Section": "voluptates",
+  "Key": "nobis",
+  "Name": "Kunde LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased bifurcated Graphic Interface",
+  "Description": "Vision-oriented fault-tolerant definition",
   "IsBuiltin": false,
-  "TableName": "Hansen-Fahey",
-  "UserDefinedListId": 467,
-  "Rank": 485,
-  "SubGroup": "earum",
-  "MinLevel": 277,
-  "MaxValue": 738,
-  "MinValue": 127,
-  "RequiredLicense": "harum",
+  "TableName": "Harber LLC",
+  "UserDefinedListId": 454,
+  "Rank": 798,
+  "SubGroup": "nihil",
+  "MinLevel": 934,
+  "MaxValue": 4,
+  "MinValue": 254,
+  "RequiredLicense": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 461
     }
   }
 }

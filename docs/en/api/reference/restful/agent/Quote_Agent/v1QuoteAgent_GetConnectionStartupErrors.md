@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "IsOk": true,
-    "UserExplanation": "vitae",
-    "TechExplanation": "provident",
-    "ErrorCode": "aut",
+    "IsOk": false,
+    "UserExplanation": "nobis",
+    "TechExplanation": "natus",
+    "ErrorCode": "placeat",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldType": "System.String",
+        "FieldLength": 309
       }
     }
   }

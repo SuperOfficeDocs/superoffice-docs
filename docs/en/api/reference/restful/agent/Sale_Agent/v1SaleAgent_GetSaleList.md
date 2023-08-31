@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Conn Inc and Sons",
-    "SaleDate": "2003-07-09T16:00:41.7738086+02:00",
-    "SaleId": 317,
-    "Probability": 353,
-    "Title": "totam",
-    "Amount": 2353.634,
-    "Currency": "atque",
-    "ProjectName": "Johnston, Schumm and Murray",
-    "AssociateFullName": "Betsy Beatty",
-    "Description": "Streamlined impactful model",
+    "ContactName": "Purdy Inc and Sons",
+    "SaleDate": "2001-10-29T03:31:27.1999504+01:00",
+    "SaleId": 578,
+    "Probability": 666,
+    "Title": "eos",
+    "Amount": 26582.588,
+    "Currency": "quo",
+    "ProjectName": "Wolff Group",
+    "AssociateFullName": "Miss Lorine Connelly",
+    "Description": "Mandatory discrete time-frame",
     "Status": "Lost",
-    "WeightedAmount": 8330.172,
-    "ProjectId": 418,
-    "EarningPercent": 8938.168,
-    "Earning": 13570.22,
-    "ContactId": 68,
-    "AssociateId": 442,
-    "PersonId": 817,
-    "SaleTypeId": 233,
-    "SaleTypeName": "Buckridge-Tremblay",
-    "PersonFullName": "Art Rohan",
+    "WeightedAmount": 15528.97,
+    "ProjectId": 863,
+    "EarningPercent": 18888.618,
+    "Earning": 26761.226,
+    "ContactId": 232,
+    "AssociateId": 439,
+    "PersonId": 711,
+    "SaleTypeId": 744,
+    "SaleTypeName": "Aufderhar LLC",
+    "PersonFullName": "Zetta Hackett",
     "Completed": "Completed",
-    "ActiveErpLinks": 153,
-    "NextDueDate": "2010-12-04T16:00:41.7738086+01:00",
-    "Number": "1536129",
+    "ActiveErpLinks": 157,
+    "NextDueDate": "1999-05-04T03:31:27.1999504+02:00",
+    "Number": "1766079",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 678
       }
     }
   }

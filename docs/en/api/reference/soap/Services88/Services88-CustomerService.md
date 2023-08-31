@@ -1393,6 +1393,7 @@ title: Services88.CustomerServiceAgent WSDL
               <xs:element minOccurs="0" name="OutputValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="StateValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ParserValues" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

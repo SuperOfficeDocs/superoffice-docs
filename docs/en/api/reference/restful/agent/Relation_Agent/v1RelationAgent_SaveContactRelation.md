@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 709,
-  "SourcePersonId": 659,
-  "DestinationContactId": 608,
-  "DestinationPersonId": 157,
-  "RelationId": 501,
-  "Comment": "nisi",
-  "RelationDefinitionId": 274,
-  "Reversed": 602,
-  "UpdatedDate": "2011-11-05T16:00:41.6800689+01:00",
-  "CreatedDate": "2014-08-19T16:00:41.6800689+02:00",
+  "SourceContactId": 379,
+  "SourcePersonId": 809,
+  "DestinationContactId": 424,
+  "DestinationPersonId": 776,
+  "RelationId": 436,
+  "Comment": "et",
+  "RelationDefinitionId": 425,
+  "Reversed": 340,
+  "UpdatedDate": "2019-11-18T03:31:27.1218466+01:00",
+  "CreatedDate": "2012-12-22T03:31:27.1218466+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Sanford Inc and Sons",
-  "SourcePersonName": "Robel, Breitenberg and Jacobson",
-  "DestinationContactName": "Murray LLC",
-  "DestinationPersonName": "Dickinson-Mante",
-  "ActiveText": "iure",
-  "PassiveText": "in",
+  "SourceContactName": "Bernier-Murphy",
+  "SourcePersonName": "Cummerata, Bergstrom and Swift",
+  "DestinationContactName": "Spencer, Kutch and Weber",
+  "DestinationPersonName": "Strosin, Orn and Haag",
+  "ActiveText": "est",
+  "PassiveText": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 824
+      "FieldType": "System.Int32",
+      "FieldLength": 285
     }
   }
 }

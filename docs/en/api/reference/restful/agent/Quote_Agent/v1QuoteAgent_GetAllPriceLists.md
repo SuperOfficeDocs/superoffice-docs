@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 374,
-  "Currency": "aut"
+  "QuoteConnectionId": 636,
+  "Currency": "qui"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 634,
-    "ERPPriceListKey": "recusandae",
-    "QuoteConnectionId": 63,
-    "Name": "Harvey, Wuckert and O'Connell",
-    "Description": "Switchable coherent portal",
-    "Currency": "sapiente",
-    "CurrencyName": "Kuphal-Emard",
-    "ValidFrom": "2005-07-31T16:00:41.6488224+02:00",
-    "ValidTo": "2011-05-27T16:00:41.6488224+02:00",
-    "IsActive": false,
+    "PriceListId": 914,
+    "ERPPriceListKey": "placeat",
+    "QuoteConnectionId": 701,
+    "Name": "Zboncak, Ziemann and D'Amore",
+    "Description": "Enhanced real-time encryption",
+    "Currency": "ad",
+    "CurrencyName": "Funk LLC",
+    "ValidFrom": "2022-12-27T03:31:27.0905589+01:00",
+    "ValidTo": "2023-04-14T03:31:27.0905589+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldLength": 92
       }
     }
   }

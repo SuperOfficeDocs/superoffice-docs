@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 289,
-  "NewName": "Gerhold, Hintz and Muller",
-  "ValidFrom": "2023-05-05T16:00:41.6331946+02:00",
-  "ValidTo": "1998-10-18T16:00:41.6331946+02:00",
-  "NewCurrencyId": 17,
+  "OriginalPriceListId": 608,
+  "NewName": "Bergstrom LLC",
+  "ValidFrom": "2009-07-23T03:31:27.0737031+02:00",
+  "ValidTo": "2008-07-02T03:31:27.0737031+02:00",
+  "NewCurrencyId": 46,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 14,
-  "ERPPriceListKey": "explicabo",
-  "QuoteConnectionId": 487,
-  "Name": "Buckridge, Mayert and Fritsch",
-  "Description": "Synchronised bifurcated functionalities",
-  "Currency": "qui",
-  "CurrencyName": "Hintz-Funk",
-  "ValidFrom": "2000-09-23T16:00:41.6331946+02:00",
-  "ValidTo": "2017-12-28T16:00:41.6331946+01:00",
+  "PriceListId": 708,
+  "ERPPriceListKey": "quasi",
+  "QuoteConnectionId": 431,
+  "Name": "Mayert-Mitchell",
+  "Description": "Managed value-added conglomeration",
+  "Currency": "totam",
+  "CurrencyName": "Hessel, Lynch and Jast",
+  "ValidFrom": "2004-05-08T03:31:27.0737031+02:00",
+  "ValidTo": "2004-11-11T03:31:27.0737031+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 895
     }
   }
 }

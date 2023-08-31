@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Cassin, O'Connell and Purdy",
-    "ToolTip": "In sed debitis quos et.",
+    "Id": 830,
+    "Name": "Mueller-Cronin",
+    "ToolTip": "Porro sapiente assumenda.",
     "Deleted": false,
-    "Rank": 967,
-    "Type": "rerum",
+    "Rank": 476,
+    "Type": "accusamus",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Stark, Keebler and Schaden",
-        "ToolTip": "Sit dolor est voluptas.",
+        "Id": 623,
+        "Name": "Greenfelder-Wuckert",
+        "ToolTip": "Officia aut ut quibusdam accusamus reprehenderit dolorem.",
         "Deleted": true,
-        "Rank": 150,
-        "Type": "dolor",
+        "Rank": 897,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 41,
-        "ExtraInfo": "totam",
-        "StyleHint": "quaerat",
-        "FullName": "Mr. Jasen Raegan Krajcik IV",
+        "IconHint": "molestiae",
+        "ColorBlock": 24,
+        "ExtraInfo": "nam",
+        "StyleHint": "quia",
+        "FullName": "Miss Burley Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 289
+            "FieldLength": 2
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 114,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "et",
-    "FullName": "Prof. Carolanne Collin Hickle",
+    "IconHint": "quia",
+    "ColorBlock": 100,
+    "ExtraInfo": "unde",
+    "StyleHint": "exercitationem",
+    "FullName": "Gianni Heber Weber Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldType": "System.Int32",
+        "FieldLength": 701
       }
     }
   }

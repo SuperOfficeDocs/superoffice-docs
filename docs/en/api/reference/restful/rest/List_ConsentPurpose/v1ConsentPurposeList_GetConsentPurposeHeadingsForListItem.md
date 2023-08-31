@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Gorczany, Bode and Bayer",
-    "ToolTip": "Doloremque recusandae ad cupiditate a ipsum.",
-    "Deleted": false,
-    "Rank": 773,
-    "Type": "consequatur",
-    "ColorBlock": 574,
-    "IconHint": "impedit",
-    "Selected": true,
-    "LastChanged": "2013-07-19T16:00:48.9145965+02:00",
+    "Id": 788,
+    "Name": "Hudson Inc and Sons",
+    "ToolTip": "Ad facere aut blanditiis doloribus saepe.",
+    "Deleted": true,
+    "Rank": 518,
+    "Type": "et",
+    "ColorBlock": 682,
+    "IconHint": "mollitia",
+    "Selected": false,
+    "LastChanged": "2023-03-26T03:31:33.5386084+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Erdman-Heidenreich",
-        "ToolTip": "Dolor atque nostrum neque eaque.",
-        "Deleted": false,
-        "Rank": 546,
-        "Type": "maxime",
-        "ColorBlock": 494,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2010-01-25T16:00:48.9145965+01:00",
+        "Id": 866,
+        "Name": "Hodkiewicz LLC",
+        "ToolTip": "In culpa temporibus animi qui sit ut et.",
+        "Deleted": true,
+        "Rank": 239,
+        "Type": "est",
+        "ColorBlock": 153,
+        "IconHint": "aliquam",
+        "Selected": true,
+        "LastChanged": "2002-03-25T03:31:33.5386084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Augustine Durward Hand V",
+        "ExtraInfo": "numquam",
+        "StyleHint": "eius",
+        "Hidden": true,
+        "FullName": "Jedidiah Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 245
+            "FieldType": "System.String",
+            "FieldLength": 60
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "autem",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Dr. Madaline Sherman Ryan",
+    "FullName": "Emelia Judge Schmeler I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldType": "System.String",
+        "FieldLength": 799
       }
     }
   }

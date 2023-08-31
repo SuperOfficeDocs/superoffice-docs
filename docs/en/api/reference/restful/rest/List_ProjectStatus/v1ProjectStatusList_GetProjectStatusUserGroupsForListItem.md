@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Hudson-Wiegand",
-    "ToolTip": "Aut quisquam maiores minima a sit ut qui.",
+    "Id": 184,
+    "Name": "Kessler-Hickle",
+    "ToolTip": "Atque maxime voluptatem error modi.",
     "Deleted": false,
-    "Rank": 663,
-    "Type": "et",
-    "ColorBlock": 771,
-    "IconHint": "dolor",
+    "Rank": 199,
+    "Type": "nihil",
+    "ColorBlock": 231,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2002-12-20T16:00:49.1958202+01:00",
+    "LastChanged": "2004-09-20T03:31:33.7586101+02:00",
     "ChildItems": [
       {
-        "Id": 989,
-        "Name": "Johnston-Schmeler",
-        "ToolTip": "Eius praesentium consequatur.",
+        "Id": 296,
+        "Name": "Kerluke-Schmeler",
+        "ToolTip": "Sint tempore dolorum perspiciatis ipsum et dolore vero.",
         "Deleted": false,
-        "Rank": 63,
-        "Type": "odit",
-        "ColorBlock": 95,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2000-02-24T16:00:49.1958202+01:00",
+        "Rank": 183,
+        "Type": "est",
+        "ColorBlock": 83,
+        "IconHint": "ex",
+        "Selected": true,
+        "LastChanged": "2023-06-19T03:31:33.7586101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Louisa Schulist",
+        "ExtraInfo": "in",
+        "StyleHint": "placeat",
+        "Hidden": true,
+        "FullName": "Mikel Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldType": "System.Int32",
+            "FieldLength": 493
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "autem",
+    "ExtraInfo": "officiis",
+    "StyleHint": "magni",
     "Hidden": true,
-    "FullName": "Mr. Maxwell Evelyn Padberg",
+    "FullName": "Gia Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 836
       }
     }
   }

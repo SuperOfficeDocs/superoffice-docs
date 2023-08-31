@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 745
+  "TicketMessageEntityId": 639
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 570,
-    "Name": "Kuhn, Pfannerstill and Klein",
-    "ContentType": "sed",
-    "AttSize": 20,
+    "AttachmentId": 922,
+    "Name": "Predovic Group",
+    "ContentType": "et",
+    "AttSize": 500,
     "InlineImage": false,
-    "ContentId": "sint",
-    "AuthKey": "debitis",
+    "ContentId": "ea",
+    "AuthKey": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 786
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

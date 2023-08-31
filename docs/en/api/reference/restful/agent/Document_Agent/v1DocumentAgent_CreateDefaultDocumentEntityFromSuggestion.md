@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 240
+  "SuggestedDocumentId": 954
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 321,
+  "DocumentId": 186,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "deleniti",
-  "Header": "fugiat",
-  "Name": "Hand, Boyle and Hessel",
-  "OurRef": "aut",
-  "YourRef": "ex",
-  "CreatedDate": "2013-10-09T16:00:40.8049927+02:00",
-  "UpdatedDate": "1998-03-14T16:00:40.8049927+01:00",
-  "Description": "Total didactic migration",
+  "Attention": "ex",
+  "Header": "error",
+  "Name": "Harris, Zemlak and Keebler",
+  "OurRef": "incidunt",
+  "YourRef": "numquam",
+  "CreatedDate": "2015-07-22T03:31:26.16768+02:00",
+  "UpdatedDate": "2000-11-28T03:31:26.16768+01:00",
+  "Description": "Ergonomic web-enabled hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-01-03T16:00:40.8049927+01:00",
-  "ExternalRef": "laborum",
+  "Date": "2019-11-06T03:31:26.16768+01:00",
+  "ExternalRef": "aspernatur",
   "Completed": "Completed",
-  "ActiveLinks": 709,
+  "ActiveLinks": 664,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schumm LLC",
-      "Id": 581,
-      "Description": "Multi-channelled client-driven encoding",
-      "ExtraInfo": "nihil",
-      "LinkId": 623,
+      "EntityName": "Kuvalis-Gerlach",
+      "Id": 488,
+      "Description": "Secured responsive monitoring",
+      "ExtraInfo": "atque",
+      "LinkId": 884,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldType": "System.Int32",
+          "FieldLength": 901
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 556,
-  "Snum": 865,
+  "SuggestedDocumentId": 910,
+  "Snum": 827,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jovany McClure",
-    "SuperOffice:2": "Dovie Kiehn"
+    "SuperOffice:1": "Lemuel Kunde I",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "eum",
+    "CustomFields2": "eaque"
   },
-  "PublishEventDate": "2005-04-14T16:00:40.8049927+02:00",
-  "PublishTo": "2009-04-24T16:00:40.8049927+02:00",
-  "PublishFrom": "2015-04-28T16:00:40.8049927+02:00",
+  "PublishEventDate": "1996-08-25T03:31:26.16768+02:00",
+  "PublishTo": "2016-02-01T03:31:26.16768+01:00",
+  "PublishFrom": "2005-02-10T03:31:26.16768+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 953,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 155
         }
       }
     },
     {
-      "VisibleId": 953,
+      "VisibleId": 34,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 155
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 549
+      "FieldType": "System.Int32",
+      "FieldLength": 305
     }
   }
 }

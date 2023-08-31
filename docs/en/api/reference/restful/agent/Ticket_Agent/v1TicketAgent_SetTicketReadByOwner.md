@@ -120,6 +120,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -131,11 +132,11 @@ OK
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 463,
+  "TicketEntityId": 190,
   "ReadStatus": "Green",
   "CheckEscalating": false
 }
@@ -148,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 698,
-  "Title": "provident",
-  "CreatedAt": "2015-02-14T16:00:42.1331386+01:00",
-  "LastChanged": "2011-11-08T16:00:42.1331386+01:00",
-  "ReadByOwner": "2018-04-08T16:00:42.1331386+02:00",
-  "ReadByCustomer": "2015-09-07T16:00:42.1331386+02:00",
-  "FirstReadByOwner": "1998-12-15T16:00:42.1331386+01:00",
-  "FirstReadByUser": "2006-01-15T16:00:42.1331386+01:00",
-  "Activate": "1998-09-21T16:00:42.1331386+02:00",
-  "ClosedAt": "1996-08-15T16:00:42.1331386+02:00",
-  "RepliedAt": "2012-10-12T16:00:42.1331386+02:00",
-  "AlertTimeout": "2020-09-09T16:00:42.1331386+02:00",
-  "Deadline": "2005-09-24T16:00:42.1331386+02:00",
+  "TicketId": 810,
+  "Title": "autem",
+  "CreatedAt": "1998-09-29T03:31:27.4030353+02:00",
+  "LastChanged": "2013-04-24T03:31:27.4030353+02:00",
+  "ReadByOwner": "2018-08-05T03:31:27.4030353+02:00",
+  "ReadByCustomer": "2011-03-10T03:31:27.4030353+01:00",
+  "FirstReadByOwner": "2022-05-12T03:31:27.4030353+02:00",
+  "FirstReadByUser": "2007-06-28T03:31:27.4030353+02:00",
+  "Activate": "2011-12-24T03:31:27.4030353+01:00",
+  "ClosedAt": "2000-01-13T03:31:27.4030353+01:00",
+  "RepliedAt": "2016-09-22T03:31:27.4030353+02:00",
+  "AlertTimeout": "2021-03-22T03:31:27.4030353+01:00",
+  "Deadline": "2013-05-17T03:31:27.4030353+02:00",
   "CreatedBy": null,
-  "Author": "mollitia",
+  "Author": "nulla",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -173,159 +174,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "doloremque",
-      "PersonId": 634,
-      "Mrmrs": "ea",
-      "Firstname": "Rogelio",
-      "Lastname": "Wyman",
-      "MiddleName": "Keebler, Tillman and Anderson",
-      "Title": "perspiciatis",
-      "Description": "Streamlined transitional info-mediaries",
-      "Email": "cayla.trantow@barton.us",
-      "FullName": "Miss Dale Concepcion Stamm",
-      "DirectPhone": "806-958-1802",
-      "FormalName": "Gulgowski, Wehner and Rempel",
-      "CountryId": 646,
-      "ContactId": 435,
-      "ContactName": "Homenick, Gislason and Donnelly",
-      "Retired": 125,
-      "Rank": 351,
-      "ActiveInterests": 452,
+      "Position": "quas",
+      "PersonId": 412,
+      "Mrmrs": "ab",
+      "Firstname": "Dustin",
+      "Lastname": "Jenkins",
+      "MiddleName": "Murazik-Carroll",
+      "Title": "expedita",
+      "Description": "Customer-focused neutral moderator",
+      "Email": "marisa.toy@hermiston.name",
+      "FullName": "Ms. Myah Howe",
+      "DirectPhone": "(238)721-4164 x36678",
+      "FormalName": "Nienow LLC",
+      "CountryId": 254,
+      "ContactId": 593,
+      "ContactName": "Schaefer-Kuvalis",
+      "Retired": 480,
+      "Rank": 775,
+      "ActiveInterests": 360,
       "ContactDepartment": "",
-      "ContactCountryId": 156,
-      "ContactOrgNr": "1590804",
-      "FaxPhone": "(168)786-8295 x3237",
-      "MobilePhone": "(073)877-1926 x6462",
-      "ContactPhone": "905.202.5541 x85824",
-      "AssociateName": "Kutch LLC",
-      "AssociateId": 22,
+      "ContactCountryId": 591,
+      "ContactOrgNr": "1123600",
+      "FaxPhone": "1-374-926-8088 x8318",
+      "MobilePhone": "(331)415-6076 x95394",
+      "ContactPhone": "1-968-746-4947",
+      "AssociateName": "Cormier, Bahringer and Yost",
+      "AssociateId": 172,
       "UsePersonAddress": false,
-      "ContactFax": "commodi",
-      "Kanafname": "recusandae",
-      "Kanalname": "minus",
-      "Post1": "aut",
-      "Post2": "quo",
-      "Post3": "exercitationem",
-      "EmailName": "jessika@smitham.co.uk",
-      "ContactFullName": "Alfonzo Carter",
-      "ActiveErpLinks": 123,
-      "TicketPriorityId": 124,
-      "SupportLanguageId": 850,
-      "SupportAssociateId": 707,
+      "ContactFax": "occaecati",
+      "Kanafname": "minus",
+      "Kanalname": "consequatur",
+      "Post1": "placeat",
+      "Post2": "mollitia",
+      "Post3": "et",
+      "EmailName": "maxwell@stokes.info",
+      "ContactFullName": "Brionna Pacocha",
+      "ActiveErpLinks": 353,
+      "TicketPriorityId": 471,
+      "SupportLanguageId": 757,
+      "SupportAssociateId": 455,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldType": "System.String",
+          "FieldLength": 686
         }
       }
     }
   ],
-  "AlertLevel": 920,
-  "ConnectId": 153,
+  "AlertLevel": 599,
+  "ConnectId": 50,
   "ReadStatus": "Green",
-  "TimeToReply": 920,
-  "RealTimeToReply": 496,
-  "TimeToClose": 896,
-  "RealTimeToClose": 530,
-  "TimeSpentInternally": 857,
-  "TimeSpentExternally": 759,
-  "TimeSpentQueue": 284,
-  "RealTimeSpentInternally": 303,
-  "RealTimeSpentExternally": 17,
-  "RealTimeSpentQueue": 437,
+  "TimeToReply": 805,
+  "RealTimeToReply": 999,
+  "TimeToClose": 297,
+  "RealTimeToClose": 517,
+  "TimeSpentInternally": 960,
+  "TimeSpentExternally": 668,
+  "TimeSpentQueue": 336,
+  "RealTimeSpentInternally": 942,
+  "RealTimeSpentExternally": 748,
+  "RealTimeSpentQueue": 986,
   "HasAttachment": true,
-  "NumReplies": 770,
-  "NumMessages": 244,
-  "FromAddress": "quo",
+  "NumReplies": 908,
+  "NumMessages": 578,
+  "FromAddress": "molestiae",
   "Messages": [
     {
-      "TicketMessageId": 409,
-      "CreatedAt": "2002-11-20T16:00:42.1331386+01:00",
+      "TicketMessageId": 97,
+      "CreatedAt": "2004-11-25T03:31:27.4030353+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "ut",
-      "PersonId": 292,
-      "PersonFullName": "Henri Charlene Lehner Jr.",
-      "ContactId": 332,
-      "ContactName": "Douglas-Pagac",
+      "Important": true,
+      "Author": "omnis",
+      "PersonId": 840,
+      "PersonFullName": "Chase Wiza Sr.",
+      "ContactId": 961,
+      "ContactName": "Wuckert Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 664,
-      "EmailHeader": "chad@swaniawski.com",
+      "NumAttachments": 871,
+      "EmailHeader": "adriana_macejkovic@ziemann.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "atque",
-      "Sentiment": 228,
-      "SentimentConfidence": 505,
-      "CreatedBy": 743,
-      "ChangedAt": "2022-04-10T16:00:42.1331386+02:00",
+      "Language": "et",
+      "Sentiment": 635,
+      "SentimentConfidence": 883,
+      "CreatedBy": 482,
+      "ChangedAt": "2022-09-13T03:31:27.4030353+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 81
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 136,
-      "Name": "Robel LLC",
-      "ToolTip": "Natus similique atque reiciendis.",
+      "Id": 705,
+      "Name": "Yundt-Langosh",
+      "ToolTip": "Quibusdam rerum debitis et eaque explicabo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldLength": 183
         }
       }
     },
     {
-      "Id": 136,
-      "Name": "Robel LLC",
-      "ToolTip": "Natus similique atque reiciendis.",
+      "Id": 705,
+      "Name": "Yundt-Langosh",
+      "ToolTip": "Quibusdam rerum debitis et eaque explicabo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldLength": 183
         }
       }
     }
   ],
-  "Language": "voluptate",
-  "Sentiment": 403,
-  "SentimentConfidence": 403,
-  "SuggestedCategoryId": 749,
+  "Language": "omnis",
+  "Sentiment": 770,
+  "SentimentConfidence": 838,
+  "SuggestedCategoryId": 834,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 804,
-  "IconHint": "accusamus",
+  "OrigHumanCategoryId": 802,
+  "IconHint": "deleniti",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "totam"
+    "CustomFields1": "sint",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

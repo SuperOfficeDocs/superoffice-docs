@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 829,
+  "Name": "Muller Group",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "UdListDefinitionId": 681,
-  "Rank": 148,
+  "UdListDefinitionId": 585,
+  "Rank": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldLength": 880
     }
   }
 }

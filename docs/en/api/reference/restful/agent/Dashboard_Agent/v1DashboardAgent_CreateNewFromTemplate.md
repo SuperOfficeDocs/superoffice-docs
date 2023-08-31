@@ -94,20 +94,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 40,
-  "Caption": "voluptatem",
-  "Description": "Optional transitional paradigm",
-  "SelectionId": 646,
+  "DashboardTileId": 533,
+  "Caption": "vitae",
+  "Description": "Advanced tertiary neural-net",
+  "SelectionId": 212,
   "VisibleFor": [
     {
-      "VisibleId": 345,
+      "VisibleId": 596,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "incidunt"
     },
     {
-      "VisibleId": 345,
+      "VisibleId": 596,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "incidunt"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 19,
-  "Caption": "eum",
-  "Description": "Business-focused motivating adapter",
-  "ChartName": "Sawayn, Flatley and Gerhold",
-  "ChartId": "omnis",
-  "IsDefault": true,
-  "AssociateId": 254,
-  "GroupId": 196,
-  "SelectionId": 502,
-  "Config": "tenetur",
+  "DashboardTileId": 36,
+  "Caption": "non",
+  "Description": "Quality-focused motivating task-force",
+  "ChartName": "Hirthe Group",
+  "ChartId": "molestiae",
+  "IsDefault": false,
+  "AssociateId": 227,
+  "GroupId": 812,
+  "SelectionId": 177,
+  "Config": "porro",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Muller Group",
-      "Description": "Cross-group user-facing secured line",
+      "Name": "Hills Group",
+      "Description": "Customer-focused dynamic customer loyalty",
       "Type": "Boolean",
-      "ListName": "Zulauf-Boyer",
+      "ListName": "Farrell-Maggio",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
+      "Value": "itaque",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 901
+          "FieldType": "System.Int32",
+          "FieldLength": 182
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 866,
+      "VisibleId": 414,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 505
         }
       }
     },
     {
-      "VisibleId": 866,
+      "VisibleId": 414,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 505
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 159
     }
   }
 }

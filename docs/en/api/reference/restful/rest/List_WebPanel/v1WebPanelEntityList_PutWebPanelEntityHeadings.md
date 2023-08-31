@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 102,
-    "Name": "Corwin, Bruen and Kerluke",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 983,
-    "UdListDefinitionId": 974
+    "HeadingId": 865,
+    "Name": "Veum-Hartmann",
+    "Tooltip": "amet",
+    "Deleted": true,
+    "Rank": 621,
+    "UdListDefinitionId": 549
   },
   {
-    "HeadingId": 102,
-    "Name": "Corwin, Bruen and Kerluke",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 983,
-    "UdListDefinitionId": 974
+    "HeadingId": 865,
+    "Name": "Veum-Hartmann",
+    "Tooltip": "amet",
+    "Deleted": true,
+    "Rank": 621,
+    "UdListDefinitionId": 549
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 689,
-    "Name": "Cormier, Schultz and Shanahan",
-    "Tooltip": "aut",
+    "HeadingId": 65,
+    "Name": "Graham-Grady",
+    "Tooltip": "rerum",
     "Deleted": true,
-    "Rank": 576,
-    "UdListDefinitionId": 394,
+    "Rank": 213,
+    "UdListDefinitionId": 922,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 408
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

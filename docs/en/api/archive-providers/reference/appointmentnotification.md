@@ -42,6 +42,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasConflict| *None* |!!hasConflict|  |
 |recurrencePattern| *None* |!!recurrencePattern| x |
 |rejectReason| *None* |!!rejectReason| x |
+|isAssignment| *None* |!!isAssignment|  |
 
 ## Sample
 

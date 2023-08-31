@@ -179,7 +179,7 @@ and for GDPR relations to person, if you join and restrict on person
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConsentPurpose?$select=consentPerson/consentSource,consentPerson/person/personAddress/wgs84longitude,consentPerson/person/personAddress/formattedMultiLineAddress
+GET /api/v1/archive/ConsentPurpose?$select=consentPerson/person/portraitThumbnail,consentPerson/person/personExtra/y_rental/x_amount,consentPerson/person/personUpdatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -45,10 +45,11 @@ POST /api/v1/Agents/Workflow/CreateEmailFlowContent?$select=name,department,cate
 
 ## Request Body: request 
 
-ContentName 
+EmailFlowId, ContentName 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
+| EmailFlowId | Integer |  |
 | ContentName | String |  |
 
 ## Response:int32
@@ -68,11 +69,12 @@ OK
 POST /api/v1/Agents/Workflow/CreateEmailFlowContent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContentName": "Jacobson-Weimann"
+  "EmailFlowId": 600,
+  "ContentName": "Balistreri-Deckow"
 }
 ```
 
@@ -82,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-414
+348
 ```

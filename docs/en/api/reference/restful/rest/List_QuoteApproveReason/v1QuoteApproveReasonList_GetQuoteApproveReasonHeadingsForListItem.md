@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Collins Group",
-    "ToolTip": "Et modi eos repudiandae suscipit error dolore illo.",
-    "Deleted": true,
-    "Rank": 47,
-    "Type": "ab",
-    "ColorBlock": 952,
-    "IconHint": "aut",
+    "Id": 487,
+    "Name": "Hilll Group",
+    "ToolTip": "Omnis quaerat unde tempore labore placeat quisquam.",
+    "Deleted": false,
+    "Rank": 138,
+    "Type": "asperiores",
+    "ColorBlock": 528,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2000-02-21T16:00:49.2270591+01:00",
+    "LastChanged": "2018-05-02T03:31:33.805477+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Schiller Group",
-        "ToolTip": "Voluptas amet.",
+        "Id": 404,
+        "Name": "Nolan LLC",
+        "ToolTip": "Nisi iste et molestiae doloremque enim.",
         "Deleted": true,
-        "Rank": 552,
-        "Type": "suscipit",
-        "ColorBlock": 643,
-        "IconHint": "voluptatibus",
-        "Selected": false,
-        "LastChanged": "2010-01-01T16:00:49.2270591+01:00",
+        "Rank": 333,
+        "Type": "iste",
+        "ColorBlock": 761,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "1999-02-11T03:31:33.805477+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "placeat",
-        "Hidden": false,
-        "FullName": "Dr. Amie Mara Smith IV",
+        "ExtraInfo": "ea",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Dr. Maritza Ortiz Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 254
+            "FieldType": "System.String",
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Eileen Halvorson",
+    "ExtraInfo": "iste",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Elinor Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

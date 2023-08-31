@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 253,
-  "Name": "Kozey, Turcotte and Koch",
-  "Tooltip": "sint",
+  "HeadingId": 715,
+  "Name": "Batz Group",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 672,
-  "UdListDefinitionId": 932
+  "Rank": 746,
+  "UdListDefinitionId": 748
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 925,
-  "Name": "Collier, Yundt and Bahringer",
-  "Tooltip": "error",
+  "HeadingId": 420,
+  "Name": "McLaughlin-Johns",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 426,
-  "UdListDefinitionId": 15,
+  "Rank": 413,
+  "UdListDefinitionId": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 731
     }
   }
 }

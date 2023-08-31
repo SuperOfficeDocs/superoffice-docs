@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=et
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=non
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 761,
-    "Name": "Pfannerstill, Boyer and Borer",
-    "ToolTip": "Vitae modi consectetur dolores esse aut debitis consequatur.",
-    "Deleted": true,
-    "Rank": 241,
-    "Type": "modi",
+    "Id": 962,
+    "Name": "Hills-Haag",
+    "ToolTip": "Voluptatem voluptas quae animi esse esse ipsum suscipit.",
+    "Deleted": false,
+    "Rank": 609,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Bode-O'Conner",
-        "ToolTip": "Beatae velit alias.",
+        "Id": 845,
+        "Name": "Padberg Inc and Sons",
+        "ToolTip": "Non et excepturi provident.",
         "Deleted": false,
-        "Rank": 293,
-        "Type": "laudantium",
+        "Rank": 996,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 395,
-        "ExtraInfo": "ea",
-        "StyleHint": "fugit",
-        "FullName": "Hardy Howe",
+        "IconHint": "doloremque",
+        "ColorBlock": 891,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eveniet",
+        "FullName": "Lucas Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldLength": 956
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 206,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "sed",
-    "FullName": "Mr. Arielle Betty Larson I",
+    "IconHint": "eos",
+    "ColorBlock": 942,
+    "ExtraInfo": "et",
+    "StyleHint": "dolor",
+    "FullName": "Mr. Israel Felton Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 81
       }
     }
   }

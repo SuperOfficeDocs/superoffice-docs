@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 796,
-    "Name": "Tillman LLC",
-    "TZLocationCode": "quia",
-    "TZLocationCities": "dicta",
-    "IsoNumber": 175,
+    "TZLocationID": 115,
+    "Name": "Greenholt-Schmeler",
+    "TZLocationCode": "omnis",
+    "TZLocationCities": "iure",
+    "IsoNumber": 963,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 194,
-        "StartMonth": 678,
-        "EndDay": 511,
-        "EndMonth": 982,
-        "TZOffset": 609,
-        "StartRulePattern": "ut",
-        "EndRulePattern": "numquam"
+        "StartDay": 475,
+        "StartMonth": 496,
+        "EndDay": 393,
+        "EndMonth": 759,
+        "TZOffset": 228,
+        "StartRulePattern": "officiis",
+        "EndRulePattern": "nemo"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 578,
-        "StartMonth": 972,
-        "EndDay": 326,
-        "EndMonth": 486,
-        "TZOffset": 484,
-        "StartRulePattern": "distinctio",
-        "EndRulePattern": "expedita"
+        "StartDay": 799,
+        "StartMonth": 805,
+        "EndDay": 573,
+        "EndMonth": 738,
+        "TZOffset": 273,
+        "StartRulePattern": "iure",
+        "EndRulePattern": "quis"
       }
     }
   }

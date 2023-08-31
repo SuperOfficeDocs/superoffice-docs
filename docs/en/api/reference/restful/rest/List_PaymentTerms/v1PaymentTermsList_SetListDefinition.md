@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 165,
-  "Name": "Franecki Group",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 352,
-  "IsCustomList": false,
+  "Id": 210,
+  "Name": "Kozey Inc and Sons",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 977,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
-  "InUseByUserDefinedFields": false
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 969,
-  "Name": "Pfeffer, Kuvalis and Dickens",
-  "Tooltip": "esse",
+  "Id": 776,
+  "Name": "Smitham-Mosciski",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 699,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 927,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 213
     }
   }
 }

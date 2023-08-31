@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ryan-Ledner",
-  "ProviderName": "Ruecker-Hoeger",
+  "GuiName": "Luettgen, Batz and Bogisich",
+  "ProviderName": "Beer, Rau and Collier",
   "ChosenColumns": [
-    "voluptatum",
-    "ratione"
+    "magni",
+    "harum"
   ]
 }
 ```

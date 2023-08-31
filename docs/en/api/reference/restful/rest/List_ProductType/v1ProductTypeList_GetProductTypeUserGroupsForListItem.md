@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Name": "Wehner Group",
-    "ToolTip": "Et ut repudiandae repellat exercitationem.",
-    "Deleted": false,
-    "Rank": 555,
-    "Type": "nobis",
-    "ColorBlock": 312,
-    "IconHint": "quaerat",
-    "Selected": false,
-    "LastChanged": "2000-10-02T16:00:49.1801938+02:00",
+    "Id": 521,
+    "Name": "Heidenreich, Barton and Greenfelder",
+    "ToolTip": "Animi et aperiam.",
+    "Deleted": true,
+    "Rank": 927,
+    "Type": "dicta",
+    "ColorBlock": 191,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "2007-03-31T03:31:33.7429875+02:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Weber LLC",
-        "ToolTip": "Quibusdam voluptas quas et iusto repellendus.",
+        "Id": 525,
+        "Name": "Batz-Kassulke",
+        "ToolTip": "Modi ut.",
         "Deleted": false,
-        "Rank": 288,
-        "Type": "et",
-        "ColorBlock": 162,
-        "IconHint": "et",
+        "Rank": 607,
+        "Type": "est",
+        "ColorBlock": 688,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "1996-05-11T16:00:49.1801938+02:00",
+        "LastChanged": "2017-12-30T03:31:33.7429875+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ut",
+        "ExtraInfo": "quia",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Mrs. Michelle Ruben Tremblay V",
+        "FullName": "Zackery Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 995
+            "FieldType": "System.String",
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Hermann Kihn",
+    "ExtraInfo": "maxime",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Lacy Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 163
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Toy Group",
-    "ToolTip": "Id excepturi.",
-    "Deleted": true,
-    "Rank": 18,
-    "Type": "nobis",
-    "ColorBlock": 23,
-    "IconHint": "modi",
-    "Selected": true,
-    "LastChanged": "2019-01-22T16:00:49.3051793+01:00",
+    "Id": 254,
+    "Name": "Schaefer Inc and Sons",
+    "ToolTip": "Iste veritatis.",
+    "Deleted": false,
+    "Rank": 787,
+    "Type": "a",
+    "ColorBlock": 217,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2019-09-30T03:31:33.8679659+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Marvin, Tremblay and Cummerata",
-        "ToolTip": "Velit iusto sunt.",
-        "Deleted": true,
-        "Rank": 709,
-        "Type": "est",
-        "ColorBlock": 953,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2020-01-03T16:00:49.3051793+01:00",
+        "Id": 339,
+        "Name": "Kuhic-Bernier",
+        "ToolTip": "Nemo iste quaerat at ducimus quae quaerat.",
+        "Deleted": false,
+        "Rank": 620,
+        "Type": "sit",
+        "ColorBlock": 406,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2004-08-10T03:31:33.8679659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Jacques Wisoky III",
+        "ExtraInfo": "dolore",
+        "StyleHint": "blanditiis",
+        "Hidden": true,
+        "FullName": "Ebba Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 729
+            "FieldType": "System.Int32",
+            "FieldLength": 498
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Rosalyn Palma Kassulke DDS",
+    "ExtraInfo": "quia",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Oran Donna Cole Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Witting-Jast",
-    "ToolTip": "Aperiam ut.",
-    "Deleted": false,
-    "Rank": 875,
-    "Type": "beatae",
-    "ColorBlock": 355,
-    "IconHint": "deleniti",
+    "Id": 959,
+    "Name": "Stehr, Dach and Spinka",
+    "ToolTip": "Minus rerum labore quod dolorem voluptates odio.",
+    "Deleted": true,
+    "Rank": 478,
+    "Type": "laudantium",
+    "ColorBlock": 131,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2009-06-03T16:00:49.0552074+02:00",
+    "LastChanged": "2017-09-09T03:31:33.6479544+02:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Swaniawski-Wintheiser",
-        "ToolTip": "Saepe omnis mollitia.",
+        "Id": 735,
+        "Name": "Koch LLC",
+        "ToolTip": "Sint asperiores repellendus soluta.",
         "Deleted": false,
-        "Rank": 277,
-        "Type": "saepe",
-        "ColorBlock": 962,
-        "IconHint": "et",
+        "Rank": 859,
+        "Type": "repellendus",
+        "ColorBlock": 24,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "1997-04-15T16:00:49.0552074+02:00",
+        "LastChanged": "2015-06-15T03:31:33.6479544+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "aut",
+        "ExtraInfo": "qui",
+        "StyleHint": "soluta",
         "Hidden": true,
-        "FullName": "Ardella Kessler",
+        "FullName": "Wilfrid Kiara Corkery III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldLength": 878
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Dr. Reese Adams DDS",
+    "ExtraInfo": "quis",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Olin Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 354
+        "FieldLength": 522
       }
     }
   }

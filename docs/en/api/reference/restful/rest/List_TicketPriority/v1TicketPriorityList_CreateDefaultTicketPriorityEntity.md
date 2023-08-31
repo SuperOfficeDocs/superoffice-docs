@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 729,
-  "Name": "Cronin-Streich",
+  "TicketPriorityId": 974,
+  "Name": "Berge-Howe",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 636,
+  "SortOrder": 148,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 946,
-  "MonStart": "2015-12-25T16:00:49.3834069+01:00",
-  "MonStop": "2018-01-06T16:00:49.3834069+01:00",
-  "TueStart": "2007-08-14T16:00:49.3834069+02:00",
-  "TueStop": "2018-03-31T16:00:49.3834069+02:00",
-  "WedStart": "2007-01-12T16:00:49.3834069+01:00",
-  "WedStop": "2001-11-08T16:00:49.3834069+01:00",
-  "ThuStart": "2004-02-12T16:00:49.3834069+01:00",
-  "ThuStop": "2020-10-09T16:00:49.3834069+02:00",
-  "FriStart": "2019-03-24T16:00:49.3834069+01:00",
-  "FriStop": "1996-03-18T16:00:49.3834069+01:00",
-  "SatStart": "2020-02-16T16:00:49.3834069+01:00",
-  "SatStop": "2021-07-03T16:00:49.3834069+02:00",
-  "SunStart": "2018-05-24T16:00:49.3834069+02:00",
-  "SunStop": "2008-12-30T16:00:49.3834069+01:00",
+  "Deadline": 126,
+  "MonStart": "2001-10-10T03:31:33.9316266+02:00",
+  "MonStop": "2000-11-16T03:31:33.9316266+01:00",
+  "TueStart": "2014-01-11T03:31:33.9316266+01:00",
+  "TueStop": "2000-02-17T03:31:33.9316266+01:00",
+  "WedStart": "2019-06-02T03:31:33.9316266+02:00",
+  "WedStop": "1999-05-14T03:31:33.9316266+02:00",
+  "ThuStart": "2004-04-25T03:31:33.9316266+02:00",
+  "ThuStop": "2018-09-14T03:31:33.9316266+02:00",
+  "FriStart": "2004-03-12T03:31:33.9316266+01:00",
+  "FriStop": "2008-12-05T03:31:33.9316266+01:00",
+  "SatStart": "2005-04-24T03:31:33.9316266+02:00",
+  "SatStop": "2022-08-14T03:31:33.9316266+02:00",
+  "SunStart": "2014-12-02T03:31:33.9316266+01:00",
+  "SunStop": "2019-10-15T03:31:33.9316266+02:00",
   "NonDates": [
-    "eveniet",
-    "fuga"
+    "numquam",
+    "quas"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 898,
-      "AlertLevel": 671,
-      "AlertTimeout": 942,
-      "Action": 154,
-      "DelegateTo": 534,
-      "ScriptId": 142,
-      "EmailTo": "wilton@renner.ca",
-      "SmsTo": "non",
-      "ReplyTemplateIdCustomer": 147,
-      "ReplyTemplateIdUser": 39,
-      "ReplyTemplateIdCatmast": 905,
-      "ReplyTemplateIdEmail": 572,
-      "RtiCustomerSms": 886,
-      "ReplyTemplateIdUserSms": 160,
-      "ReplyTemplateIdCatmastSms": 921,
-      "ReplyTemplateIdSms": 848,
+      "TicketAlertId": 372,
+      "AlertLevel": 784,
+      "AlertTimeout": 4,
+      "Action": 356,
+      "DelegateTo": 893,
+      "ScriptId": 557,
+      "EmailTo": "kaela@brown.us",
+      "SmsTo": "quidem",
+      "ReplyTemplateIdCustomer": 504,
+      "ReplyTemplateIdUser": 675,
+      "ReplyTemplateIdCatmast": 312,
+      "ReplyTemplateIdEmail": 119,
+      "RtiCustomerSms": 671,
+      "ReplyTemplateIdUserSms": 414,
+      "ReplyTemplateIdCatmastSms": 965,
+      "ReplyTemplateIdSms": 972,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 178
     }
   }
 }

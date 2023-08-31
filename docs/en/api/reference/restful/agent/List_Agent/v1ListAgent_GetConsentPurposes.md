@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 493,
-    "Name": "Abbott LLC",
-    "ConsentText": "nihil",
-    "FormText": "dolorem",
-    "Key": "consequuntur",
-    "Tooltip": "amet",
-    "Active": 504,
-    "UpdatedDate": "2000-07-08T16:00:41.2580675+02:00",
+    "ConsentPurposeId": 305,
+    "Name": "Mills, White and Ortiz",
+    "ConsentText": "voluptatem",
+    "FormText": "neque",
+    "Key": "nam",
+    "Tooltip": "in",
+    "Active": 276,
+    "UpdatedDate": "2018-05-14T03:31:26.6987983+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 900,
-    "PrivacyStatementDesc": "totam",
+    "Rank": 340,
+    "PrivacyStatementDesc": "dolorum",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 728
       }
     }
   }

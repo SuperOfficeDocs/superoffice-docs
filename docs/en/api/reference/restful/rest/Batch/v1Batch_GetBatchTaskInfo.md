@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980,
-  "Name": "Hegmann-McKenzie",
-  "AssociateId": 58,
-  "DetailsTable": 880,
-  "DetailsRecord": 839,
+  "Id": 382,
+  "Name": "Auer, Ryan and Dickens",
+  "AssociateId": 830,
+  "DetailsTable": 841,
+  "DetailsRecord": 943,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sit",
-    "ParameterObject2": "consequatur"
+    "ParameterObject1": "minima",
+    "ParameterObject2": "aliquid"
   },
-  "LastStarted": "2018-03-21T16:00:48.6333798+01:00",
-  "Created": "2007-10-13T16:00:48.6333798+02:00",
-  "StartCount": 271,
-  "DatabaseSerialNumber": "1268266",
-  "Context": "non",
-  "Result": "inventore",
+  "LastStarted": "2023-04-05T03:31:33.2718572+02:00",
+  "Created": "2009-11-24T03:31:33.2718572+01:00",
+  "StartCount": 487,
+  "DatabaseSerialNumber": "902592",
+  "Context": "ut",
+  "Result": "aspernatur",
   "State": "All",
-  "Description": "Synergized responsive policy",
-  "Response": "quis",
-  "Request": "sit",
-  "ProgressDescription": "Multi-layered reciprocal info-mediaries",
-  "ProgressPercent": 765,
-  "FileName": "McCullough Inc and Sons",
+  "Description": "Horizontal composite hub",
+  "Response": "qui",
+  "Request": "ducimus",
+  "ProgressDescription": "Proactive neutral synergy",
+  "ProgressPercent": 831,
+  "FileName": "O'Kon, Kuhn and Grimes",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldLength": 288
     }
   }
 }

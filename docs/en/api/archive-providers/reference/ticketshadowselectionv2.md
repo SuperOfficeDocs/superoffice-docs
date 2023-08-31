@@ -29,7 +29,7 @@ Shadow contact provider for the ticket provider.
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -737,7 +737,7 @@ Shadow contact provider for the ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionV2?$select=person/personUdef/SuperOffice:5,person/personAssociate/assocType,person/personAssociate/ejStatus,sale/updatedByFullName,project/NumberOfActivities
+GET /api/v1/archive/TicketShadowSelectionV2?$select=createdBy/ejUserId,person/middleName,person/personAddress/city,contact/contactExtra/x_contact_short_dropdown,contact/NumberOfActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

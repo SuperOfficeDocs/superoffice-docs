@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 78,
-  "UniqueId": "atque",
-  "Name": "Bogan-Schimmel",
-  "Description": "Multi-layered encompassing framework",
-  "AssociateId": 170,
-  "Columns": 517,
+  "DashboardId": 515,
+  "UniqueId": "excepturi",
+  "Name": "Schroeder, Moore and Ritchie",
+  "Description": "Pre-emptive bi-directional archive",
+  "AssociateId": 282,
+  "Columns": 175,
   "Theme": null,
-  "VisibleForAll": 857,
+  "VisibleForAll": 778,
   "VisibleForAssociates": [
-    741,
-    487
+    363,
+    143
   ],
   "VisibleForGroups": [
-    588,
-    95
+    774,
+    607
   ],
-  "PinForAll": 738,
+  "PinForAll": 534,
   "PinForAssociates": [
-    969,
-    981
+    239,
+    355
   ],
   "PinForGroups": [
-    821,
-    911
+    725,
+    524
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 117
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

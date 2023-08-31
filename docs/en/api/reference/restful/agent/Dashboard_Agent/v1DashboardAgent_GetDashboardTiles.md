@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    541,
-    860
+    551,
+    211
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 350,
-    "Caption": "aut",
-    "Description": "Inverse bi-directional pricing structure",
-    "ChartName": "Grant LLC",
-    "ChartId": "aut",
+    "DashboardTileId": 320,
+    "Caption": "minus",
+    "Description": "Robust upward-trending utilisation",
+    "ChartName": "Considine-O'Conner",
+    "ChartId": "accusantium",
     "IsDefault": false,
-    "AssociateId": 465,
-    "GroupId": 309,
-    "SelectionId": 933,
-    "Config": "nostrum",
+    "AssociateId": 131,
+    "GroupId": 312,
+    "SelectionId": 153,
+    "Config": "harum",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Becker Inc and Sons",
-        "Description": "De-engineered coherent implementation",
+        "Name": "Schoen-Boehm",
+        "Description": "Mandatory dynamic access",
         "Type": "Boolean",
-        "ListName": "Shanahan, Schmitt and Reichel",
+        "ListName": "Zieme-Stoltenberg",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "est",
+        "Value": "assumenda",
         "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 918
+            "FieldType": "System.Int32",
+            "FieldLength": 367
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 146,
+        "VisibleId": 587,
         "Visibility": "All",
-        "DisplayValue": "quos",
+        "DisplayValue": "illum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldLength": 970
           }
         }
       },
       {
-        "VisibleId": 146,
+        "VisibleId": 587,
         "Visibility": "All",
-        "DisplayValue": "quos",
+        "DisplayValue": "illum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 862
+            "FieldLength": 970
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 590
       }
     }
   }

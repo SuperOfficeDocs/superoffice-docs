@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 745
+  "AssociateId": 831
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 118,
-    "AssociateId": 912,
-    "Caption": "iste",
+    "DashboardId": 870,
+    "AssociateId": 323,
+    "Caption": "fuga",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 97,
-        "Caption": "vitae",
-        "Description": "Total transitional parallelism",
-        "ChartName": "Friesen LLC",
-        "ChartId": "aspernatur",
-        "IsDefault": false,
-        "AssociateId": 206,
-        "GroupId": 359,
-        "SelectionId": 70,
-        "Config": "atque",
+        "DashboardTileId": 877,
+        "Caption": "atque",
+        "Description": "Seamless foreground productivity",
+        "ChartName": "Lindgren Inc and Sons",
+        "ChartId": "natus",
+        "IsDefault": true,
+        "AssociateId": 809,
+        "GroupId": 281,
+        "SelectionId": 529,
+        "Config": "animi",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 133
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 654
+        "FieldType": "System.Int32",
+        "FieldLength": 523
       }
     }
   }

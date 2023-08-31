@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 286,
-  "Name": "Brown Inc and Sons",
-  "ConsentText": "architecto",
-  "FormText": "ratione",
-  "Key": "quo",
-  "Tooltip": "blanditiis",
-  "Active": 279,
-  "UpdatedDate": "2022-10-02T16:00:48.9145965+02:00",
+  "ConsentPurposeId": 441,
+  "Name": "Fisher-Block",
+  "ConsentText": "ut",
+  "FormText": "voluptatem",
+  "Key": "voluptate",
+  "Tooltip": "nulla",
+  "Active": 429,
+  "UpdatedDate": "2018-04-03T03:31:33.5229887+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 857,
-  "PrivacyStatementDesc": "doloribus",
+  "Deleted": false,
+  "Rank": 6,
+  "PrivacyStatementDesc": "maiores",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

@@ -696,7 +696,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionCombined?$select=name,person/personAssociate/credentialDisplayValue,contact/countryId
+GET /api/v1/archive/DocumentSelectionCombined?$select=person/retired,person/email/emailBounceCount,person/restrictionAddress/formattedAddress,contact/postAddress/formattedAddress,contact/contactAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

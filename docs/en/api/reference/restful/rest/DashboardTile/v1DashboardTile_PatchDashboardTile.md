@@ -72,7 +72,7 @@ PATCH /api/v1/DashboardTile/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -121,18 +121,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quidem",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quidem",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -145,64 +145,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 526,
-  "Caption": "autem",
-  "Description": "Synchronised context-sensitive product",
-  "ChartName": "Jerde-Tremblay",
-  "ChartId": "sed",
-  "IsDefault": false,
-  "AssociateId": 794,
-  "GroupId": 684,
-  "SelectionId": 493,
-  "Config": "magni",
+  "DashboardTileId": 174,
+  "Caption": "non",
+  "Description": "Up-sized 24 hour instruction set",
+  "ChartName": "Hodkiewicz-Raynor",
+  "ChartId": "quis",
+  "IsDefault": true,
+  "AssociateId": 532,
+  "GroupId": 798,
+  "SelectionId": 521,
+  "Config": "atque",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Becker, DuBuque and Rutherford",
-      "Description": "Centralized solution-oriented moratorium",
+      "Name": "Wuckert-Kautzer",
+      "Description": "Total maximized parallelism",
       "Type": "Boolean",
-      "ListName": "Satterfield, McClure and Adams",
+      "ListName": "Kuphal LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatum",
-      "DefaultDataOption": true,
+      "Value": "odit",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldType": "System.Int32",
+          "FieldLength": 955
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 232,
+      "VisibleId": 53,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 329
         }
       }
     },
     {
-      "VisibleId": 232,
+      "VisibleId": 53,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 329
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldType": "System.String",
+      "FieldLength": 239
     }
   },
   "_Links": {

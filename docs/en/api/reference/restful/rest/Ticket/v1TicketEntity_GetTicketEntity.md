@@ -117,6 +117,7 @@ TicketEntity found.
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -129,7 +130,7 @@ TicketEntity found.
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -139,21 +140,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 394,
-  "Title": "ullam",
-  "CreatedAt": "2013-09-20T16:00:48.5083897+02:00",
-  "LastChanged": "2018-03-20T16:00:48.5083897+01:00",
-  "ReadByOwner": "2021-12-14T16:00:48.5083897+01:00",
-  "ReadByCustomer": "2018-07-15T16:00:48.5083897+02:00",
-  "FirstReadByOwner": "2015-06-09T16:00:48.5083897+02:00",
-  "FirstReadByUser": "2019-10-06T16:00:48.5083897+02:00",
-  "Activate": "2007-10-22T16:00:48.5083897+02:00",
-  "ClosedAt": "2015-11-12T16:00:48.5083897+01:00",
-  "RepliedAt": "2016-06-05T16:00:48.5083897+02:00",
-  "AlertTimeout": "2002-03-21T16:00:48.5083897+01:00",
-  "Deadline": "2018-08-18T16:00:48.5083897+02:00",
+  "TicketId": 574,
+  "Title": "aut",
+  "CreatedAt": "2010-07-17T03:31:33.1625088+02:00",
+  "LastChanged": "2004-03-06T03:31:33.1625088+01:00",
+  "ReadByOwner": "1999-07-31T03:31:33.1625088+02:00",
+  "ReadByCustomer": "2021-07-15T03:31:33.1625088+02:00",
+  "FirstReadByOwner": "2021-12-04T03:31:33.1625088+01:00",
+  "FirstReadByUser": "2000-09-12T03:31:33.1625088+02:00",
+  "Activate": "2008-10-18T03:31:33.1625088+02:00",
+  "ClosedAt": "2004-02-11T03:31:33.1625088+01:00",
+  "RepliedAt": "2007-02-17T03:31:33.1625088+01:00",
+  "AlertTimeout": "2010-07-24T03:31:33.1625088+02:00",
+  "Deadline": "1997-03-01T03:31:33.1625088+01:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "et",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -164,164 +165,165 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "blanditiis",
-      "PersonId": 514,
-      "Mrmrs": "sit",
-      "Firstname": "Kamille",
-      "Lastname": "Luettgen",
-      "MiddleName": "Haag-Cassin",
-      "Title": "perferendis",
-      "Description": "Reverse-engineered even-keeled functionalities",
-      "Email": "kaitlin@grahamgerlach.biz",
-      "FullName": "Grace Willms",
-      "DirectPhone": "664.215.9277",
-      "FormalName": "Wilkinson LLC",
-      "CountryId": 723,
-      "ContactId": 938,
-      "ContactName": "Swaniawski, Russel and O'Hara",
-      "Retired": 283,
-      "Rank": 647,
-      "ActiveInterests": 489,
+      "Position": "sunt",
+      "PersonId": 562,
+      "Mrmrs": "dicta",
+      "Firstname": "Nella",
+      "Lastname": "Jast",
+      "MiddleName": "Gutmann, Gottlieb and Cruickshank",
+      "Title": "commodi",
+      "Description": "Fully-configurable attitude-oriented orchestration",
+      "Email": "coralie@jenkins.uk",
+      "FullName": "Mrs. Immanuel Wilkinson",
+      "DirectPhone": "974-426-5493 x945",
+      "FormalName": "Huels-Hoeger",
+      "CountryId": 640,
+      "ContactId": 169,
+      "ContactName": "Waelchi-McLaughlin",
+      "Retired": 754,
+      "Rank": 930,
+      "ActiveInterests": 690,
       "ContactDepartment": "",
-      "ContactCountryId": 17,
-      "ContactOrgNr": "1459982",
-      "FaxPhone": "912-545-7605",
-      "MobilePhone": "1-521-570-0114 x0217",
-      "ContactPhone": "(823)046-9941 x94329",
-      "AssociateName": "Murphy-Quitzon",
-      "AssociateId": 325,
-      "UsePersonAddress": false,
-      "ContactFax": "architecto",
-      "Kanafname": "omnis",
-      "Kanalname": "sit",
-      "Post1": "labore",
-      "Post2": "molestias",
-      "Post3": "quod",
-      "EmailName": "kailey.mueller@rosenbaum.ca",
-      "ContactFullName": "Ayana Simonis",
-      "ActiveErpLinks": 955,
-      "TicketPriorityId": 419,
-      "SupportLanguageId": 495,
-      "SupportAssociateId": 570,
+      "ContactCountryId": 787,
+      "ContactOrgNr": "887792",
+      "FaxPhone": "(819)855-6499",
+      "MobilePhone": "046.224.8153",
+      "ContactPhone": "1-649-611-5569 x55345",
+      "AssociateName": "Mills-Parker",
+      "AssociateId": 486,
+      "UsePersonAddress": true,
+      "ContactFax": "incidunt",
+      "Kanafname": "non",
+      "Kanalname": "nihil",
+      "Post1": "temporibus",
+      "Post2": "voluptates",
+      "Post3": "quae",
+      "EmailName": "benedict@schaden.info",
+      "ContactFullName": "Dr. Ruben Johnson",
+      "ActiveErpLinks": 391,
+      "TicketPriorityId": 162,
+      "SupportLanguageId": 104,
+      "SupportAssociateId": 983,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldType": "System.Int32",
+          "FieldLength": 226
         }
       }
     }
   ],
-  "AlertLevel": 91,
-  "ConnectId": 341,
+  "AlertLevel": 935,
+  "ConnectId": 227,
   "ReadStatus": "Green",
-  "TimeToReply": 198,
-  "RealTimeToReply": 431,
-  "TimeToClose": 713,
-  "RealTimeToClose": 507,
-  "TimeSpentInternally": 256,
-  "TimeSpentExternally": 2,
-  "TimeSpentQueue": 196,
-  "RealTimeSpentInternally": 282,
-  "RealTimeSpentExternally": 643,
-  "RealTimeSpentQueue": 753,
+  "TimeToReply": 621,
+  "RealTimeToReply": 298,
+  "TimeToClose": 992,
+  "RealTimeToClose": 870,
+  "TimeSpentInternally": 488,
+  "TimeSpentExternally": 468,
+  "TimeSpentQueue": 347,
+  "RealTimeSpentInternally": 181,
+  "RealTimeSpentExternally": 333,
+  "RealTimeSpentQueue": 945,
   "HasAttachment": false,
-  "NumReplies": 878,
-  "NumMessages": 958,
-  "FromAddress": "excepturi",
+  "NumReplies": 38,
+  "NumMessages": 165,
+  "FromAddress": "quibusdam",
   "Messages": [
     {
-      "TicketMessageId": 717,
-      "CreatedAt": "2013-10-14T16:00:48.5083897+02:00",
+      "TicketMessageId": 382,
+      "CreatedAt": "2020-05-04T03:31:33.1625088+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "libero",
-      "PersonId": 860,
-      "PersonFullName": "Dereck Hudson",
-      "ContactId": 808,
-      "ContactName": "Brekke Inc and Sons",
+      "Important": true,
+      "Author": "ea",
+      "PersonId": 57,
+      "PersonFullName": "Darrell Bode",
+      "ContactId": 538,
+      "ContactName": "Hickle, Roob and Beatty",
       "ContactDepartment": "",
-      "NumAttachments": 822,
-      "EmailHeader": "thurman@dach.us",
+      "NumAttachments": 445,
+      "EmailHeader": "zachery@kunde.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "iusto",
-      "Sentiment": 915,
-      "SentimentConfidence": 720,
-      "CreatedBy": 516,
-      "ChangedAt": "1999-07-09T16:00:48.5083897+02:00",
+      "Language": "qui",
+      "Sentiment": 726,
+      "SentimentConfidence": 314,
+      "CreatedBy": 400,
+      "ChangedAt": "2003-10-21T03:31:33.1781336+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 211
+          "FieldType": "System.Int32",
+          "FieldLength": 926
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 739,
-      "Name": "Raynor-Walker",
-      "ToolTip": "Cum rem eos in debitis sunt quia.",
+      "Id": 600,
+      "Name": "Krajcik, Collier and Lakin",
+      "ToolTip": "Accusantium itaque omnis consequatur quia qui dolore qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldType": "System.String",
+          "FieldLength": 40
         }
       }
     },
     {
-      "Id": 739,
-      "Name": "Raynor-Walker",
-      "ToolTip": "Cum rem eos in debitis sunt quia.",
+      "Id": 600,
+      "Name": "Krajcik, Collier and Lakin",
+      "ToolTip": "Accusantium itaque omnis consequatur quia qui dolore qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldType": "System.String",
+          "FieldLength": 40
         }
       }
     }
   ],
-  "Language": "nesciunt",
-  "Sentiment": 63,
-  "SentimentConfidence": 144,
-  "SuggestedCategoryId": 420,
+  "Language": "eum",
+  "Sentiment": 184,
+  "SentimentConfidence": 761,
+  "SuggestedCategoryId": 833,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 328,
-  "IconHint": "velit",
+  "OrigHumanCategoryId": 158,
+  "IconHint": "omnis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "totam"
+    "CustomFields1": "perferendis",
+    "CustomFields2": "tempore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -71,13 +71,14 @@ Webhook found.
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 | _Links | object |  |
 
 ## Sample request
@@ -86,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,30 +97,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 39,
-  "Name": "Hirthe Inc and Sons",
+  "WebhookId": 419,
+  "Name": "Robel Group",
   "Events": [
-    "quaerat",
-    "molestiae"
+    "nulla",
+    "nobis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "laudantium",
+  "Secret": "accusantium",
   "State": "Active",
-  "Type": "laborum",
+  "Type": "provident",
   "Headers": {
-    "Headers1": "inventore",
-    "Headers2": "velit"
+    "Headers1": "est",
+    "Headers2": "in"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-12-20T16:00:48.8208679+01:00",
+  "Registered": "2022-07-03T03:31:33.4448734+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-12-06T16:00:48.8208679+01:00",
+  "Updated": "2008-03-27T03:31:33.4448734+01:00",
   "UpdatedAssociate": null,
+  "ErrorsEmail": "elyse@funk.ca",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

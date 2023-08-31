@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Stamm LLC",
-    "ToolTip": "Molestiae tempore asperiores natus minus architecto necessitatibus velit.",
+    "Id": 466,
+    "Name": "Daugherty Inc and Sons",
+    "ToolTip": "Facilis eaque recusandae quod repudiandae.",
     "Deleted": false,
-    "Rank": 249,
-    "Type": "saepe",
-    "ColorBlock": 65,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2013-10-12T16:00:49.0395847+02:00",
+    "Rank": 374,
+    "Type": "in",
+    "ColorBlock": 685,
+    "IconHint": "nulla",
+    "Selected": true,
+    "LastChanged": "2022-10-19T03:31:33.6323343+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Nienow LLC",
-        "ToolTip": "Quo et.",
-        "Deleted": false,
-        "Rank": 511,
-        "Type": "ab",
-        "ColorBlock": 656,
-        "IconHint": "nesciunt",
+        "Id": 8,
+        "Name": "Hodkiewicz, Padberg and Schinner",
+        "ToolTip": "Magni consequuntur itaque qui delectus iure architecto in.",
+        "Deleted": true,
+        "Rank": 327,
+        "Type": "eaque",
+        "ColorBlock": 119,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "2022-01-02T16:00:49.0395847+01:00",
+        "LastChanged": "2000-09-14T03:31:33.6323343+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "culpa",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Prof. Nolan Aida Zboncak",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Emie Hayes IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 298
+            "FieldType": "System.Int32",
+            "FieldLength": 346
           }
         }
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Frieda Fahey",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Harmon Braun Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 391
       }
     }
   }

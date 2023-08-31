@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wuckert-Metz",
+  "ProviderName": "Hackett, Kulas and Kuphal",
   "Restrictions": [
     {
-      "Name": "Swift-McLaughlin",
-      "Operator": "nulla",
+      "Name": "Stokes-Nikolaus",
+      "Operator": "cupiditate",
       "Values": [
-        "cumque",
-        "quia"
+        "non",
+        "aperiam"
       ],
       "DisplayValues": [
-        "occaecati",
-        "rerum"
+        "adipisci",
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 428,
+      "InterParenthesis": 760,
       "InterOperator": "And",
-      "UniqueHash": 1001
+      "UniqueHash": 125
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  206,
-  478
+  563,
+  303
 ]
 ```

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Goodwin-Corwin",
-    "ToolTip": "Aspernatur corrupti architecto et voluptates est occaecati ullam.",
+    "Id": 133,
+    "Name": "Robel LLC",
+    "ToolTip": "Praesentium facere eveniet quos unde voluptates.",
     "Deleted": true,
-    "Rank": 739,
-    "Type": "cumque",
-    "ColorBlock": 410,
-    "IconHint": "nesciunt",
-    "Selected": true,
-    "LastChanged": "2013-11-11T16:00:48.9614655+01:00",
+    "Rank": 242,
+    "Type": "et",
+    "ColorBlock": 731,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "1996-05-15T03:31:33.5542321+02:00",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Rau Inc and Sons",
-        "ToolTip": "Sed aut voluptate est fugit aut rerum sit.",
-        "Deleted": true,
-        "Rank": 348,
-        "Type": "in",
-        "ColorBlock": 686,
-        "IconHint": "provident",
+        "Id": 900,
+        "Name": "Spencer-Marks",
+        "ToolTip": "Ut in soluta eos saepe fuga sint.",
+        "Deleted": false,
+        "Rank": 206,
+        "Type": "cumque",
+        "ColorBlock": 902,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2010-05-31T16:00:48.9614655+02:00",
+        "LastChanged": "1998-01-18T03:31:33.5542321+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Rene Schumm I",
+        "ExtraInfo": "alias",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Ulises Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 414
+            "FieldType": "System.Int32",
+            "FieldLength": 175
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "quia",
+    "ExtraInfo": "omnis",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Titus Prosacco",
+    "FullName": "Adolfo Watsica",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldType": "System.Int32",
+        "FieldLength": 198
       }
     }
   }

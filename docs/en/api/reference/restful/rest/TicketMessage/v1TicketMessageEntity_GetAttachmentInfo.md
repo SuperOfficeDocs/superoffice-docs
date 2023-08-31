@@ -65,7 +65,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 427,
-    "Name": "Daugherty-Langosh",
-    "ContentType": "nobis",
-    "AttSize": 280,
+    "AttachmentId": 247,
+    "Name": "Pfannerstill, Denesik and Mitchell",
+    "ContentType": "excepturi",
+    "AttSize": 174,
     "InlineImage": false,
-    "ContentId": "rerum",
-    "AuthKey": "laudantium",
+    "ContentId": "accusantium",
+    "AuthKey": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 185
       }
     }
   }

@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,52 +120,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "autem",
-    "PersonId": 713,
-    "Mrmrs": "aut",
-    "Firstname": "Jody",
-    "Lastname": "Marks",
-    "MiddleName": "Russel, Nitzsche and Ritchie",
-    "Title": "est",
-    "Description": "Innovative heuristic support",
-    "Email": "electa@haneschamberger.info",
-    "FullName": "Juwan Gaylord",
-    "DirectPhone": "1-372-388-8086 x792",
-    "FormalName": "Wolff Group",
-    "CountryId": 363,
-    "ContactId": 679,
-    "ContactName": "Hilpert Inc and Sons",
-    "Retired": 371,
-    "Rank": 537,
-    "ActiveInterests": 723,
+    "Position": "et",
+    "PersonId": 328,
+    "Mrmrs": "sunt",
+    "Firstname": "Pat",
+    "Lastname": "Nienow",
+    "MiddleName": "Kertzmann Inc and Sons",
+    "Title": "et",
+    "Description": "Devolved background orchestration",
+    "Email": "allen@jast.co.uk",
+    "FullName": "Cloyd O'Keefe",
+    "DirectPhone": "(427)519-4879",
+    "FormalName": "Hansen-Johnson",
+    "CountryId": 115,
+    "ContactId": 745,
+    "ContactName": "McKenzie-Marquardt",
+    "Retired": 186,
+    "Rank": 746,
+    "ActiveInterests": 671,
     "ContactDepartment": "",
-    "ContactCountryId": 918,
-    "ContactOrgNr": "546370",
-    "FaxPhone": "004.382.2456",
-    "MobilePhone": "569.775.9652",
-    "ContactPhone": "1-997-678-2824",
-    "AssociateName": "Ankunding-Stark",
-    "AssociateId": 101,
-    "UsePersonAddress": false,
-    "ContactFax": "accusantium",
-    "Kanafname": "quia",
-    "Kanalname": "officia",
-    "Post1": "fugiat",
-    "Post2": "voluptatem",
-    "Post3": "a",
-    "EmailName": "salvatore_hodkiewicz@rosenbaum.co.uk",
-    "ContactFullName": "Delbert Streich",
-    "ActiveErpLinks": 851,
-    "TicketPriorityId": 911,
-    "SupportLanguageId": 80,
-    "SupportAssociateId": 19,
+    "ContactCountryId": 933,
+    "ContactOrgNr": "693400",
+    "FaxPhone": "213.529.4710 x2984",
+    "MobilePhone": "576.477.6447",
+    "ContactPhone": "1-961-250-7963 x742",
+    "AssociateName": "Bahringer, McCullough and Barton",
+    "AssociateId": 98,
+    "UsePersonAddress": true,
+    "ContactFax": "blanditiis",
+    "Kanafname": "distinctio",
+    "Kanalname": "aut",
+    "Post1": "nobis",
+    "Post2": "est",
+    "Post3": "et",
+    "EmailName": "camilla@jacobson.ca",
+    "ContactFullName": "Ryleigh McCullough",
+    "ActiveErpLinks": 186,
+    "TicketPriorityId": 970,
+    "SupportLanguageId": 539,
+    "SupportAssociateId": 315,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 913
       }
     }
   }

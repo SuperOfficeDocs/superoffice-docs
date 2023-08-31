@@ -75,7 +75,7 @@ PATCH /api/v1/Webhook/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -106,13 +106,14 @@ Webhook  updated.
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 | _Links | object |  |
 
 ## Sample request
@@ -121,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -145,30 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 710,
-  "Name": "Kautzer Inc and Sons",
+  "WebhookId": 516,
+  "Name": "Gusikowski Inc and Sons",
   "Events": [
-    "architecto",
-    "et"
+    "maxime",
+    "voluptate"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "illo",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "est",
+  "Type": "dolor",
   "Headers": {
-    "Headers1": "harum",
-    "Headers2": "voluptatem"
+    "Headers1": "eveniet",
+    "Headers2": "molestiae"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-10-03T16:00:48.8208679+02:00",
+  "Registered": "2015-04-22T03:31:33.4448734+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-03-15T16:00:48.8208679+01:00",
+  "Updated": "2011-01-02T03:31:33.4448734+01:00",
   "UpdatedAssociate": null,
+  "ErrorsEmail": "felicita@schambergerward.co.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

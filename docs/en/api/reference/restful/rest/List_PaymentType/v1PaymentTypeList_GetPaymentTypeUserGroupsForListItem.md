@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Schimmel, Fahey and Cremin",
-    "ToolTip": "Maxime ex rerum sunt.",
-    "Deleted": true,
-    "Rank": 782,
-    "Type": "blanditiis",
-    "ColorBlock": 95,
-    "IconHint": "a",
+    "Id": 548,
+    "Name": "Bayer-Parker",
+    "ToolTip": "Consequatur et omnis.",
+    "Deleted": false,
+    "Rank": 311,
+    "Type": "suscipit",
+    "ColorBlock": 172,
+    "IconHint": "minus",
     "Selected": true,
-    "LastChanged": "1999-08-27T16:00:49.1020725+02:00",
+    "LastChanged": "2001-09-09T03:31:33.6791985+02:00",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Bode-Parker",
-        "ToolTip": "Possimus numquam omnis rerum.",
+        "Id": 959,
+        "Name": "Robel-Ledner",
+        "ToolTip": "Quod qui ut.",
         "Deleted": false,
-        "Rank": 539,
-        "Type": "tempora",
-        "ColorBlock": 609,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "1998-01-29T16:00:49.1020725+01:00",
+        "Rank": 285,
+        "Type": "voluptas",
+        "ColorBlock": 146,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2021-09-24T03:31:33.6791985+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "animi",
-        "Hidden": true,
-        "FullName": "Zora Wolff",
+        "ExtraInfo": "libero",
+        "StyleHint": "libero",
+        "Hidden": false,
+        "FullName": "Israel Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "vero",
-    "Hidden": false,
-    "FullName": "Austen Kelton Emard I",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Ambrose Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 143
+        "FieldLength": 139
       }
     }
   }

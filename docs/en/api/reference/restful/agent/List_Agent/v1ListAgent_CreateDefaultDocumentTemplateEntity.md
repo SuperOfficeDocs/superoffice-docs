@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 57,
-  "Name": "Sipes-Renner",
-  "Tooltip": "id",
-  "SaveInDb": 457,
-  "Filename": "veniam",
-  "DefaultOref": "alias",
+  "DocumentTemplateId": 191,
+  "Name": "Grant-Lindgren",
+  "Tooltip": "minima",
+  "SaveInDb": 836,
+  "Filename": "dolores",
+  "DefaultOref": "sunt",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 353,
-  "IntentId": 39,
+  "AutoeventId": 522,
+  "IntentId": 936,
   "IsDefaultPublished": true,
-  "Rank": 718,
-  "LoadTemplateFromPlugin": 584,
-  "MimeType": "consequatur",
+  "Rank": 398,
+  "LoadTemplateFromPlugin": 780,
+  "MimeType": "quisquam",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 990,
+  "DocumentTypeKey": 887,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "janelle_harvey@hilll.name",
-  "IncludeSignature": false,
+  "EmailSubject": "bette@mann.co.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lysanne.hickle@graham.name",
+  "SenderEmailAddress": "emmie@fritsch.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 484
     }
   }
 }

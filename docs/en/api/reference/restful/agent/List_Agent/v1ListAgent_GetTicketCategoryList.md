@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 440,
-    "ParentId": 850,
-    "Name": "Schaefer, Sipes and Quitzon",
-    "Fullname": "voluptatum",
-    "CategoryMaster": 324,
+    "TicketCategoryId": 360,
+    "ParentId": 220,
+    "Name": "Corkery Inc and Sons",
+    "Fullname": "odit",
+    "CategoryMaster": 804,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Koss LLC",
+    "ExternalName": "Stanton LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 795,
-    "ReplyTemplate": 40,
-    "NotificationEmail": "carli@osinski.us",
+    "AssignmentLag": 841,
+    "ReplyTemplate": 59,
+    "NotificationEmail": "avery@breitenbergluettgen.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 680,
+    "EffectiveReplyTemplateId": 813,
     "ExtraFields": {
-      "ExtraFields1": "voluptatem",
-      "ExtraFields2": "dolor"
+      "ExtraFields1": "iste",
+      "ExtraFields2": "est"
     },
     "CustomFields": {
-      "CustomFields1": "aut",
-      "CustomFields2": "aspernatur"
+      "CustomFields1": "rem",
+      "CustomFields2": "et"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 744
       }
     }
   }

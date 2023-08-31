@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Robel Group",
+  "ProviderName": "D'Amore, Spencer and Hackett",
   "Restrictions": [
     {
-      "Name": "Boyer Inc and Sons",
-      "Operator": "quis",
+      "Name": "Botsford-Cartwright",
+      "Operator": "officia",
       "Values": [
-        "incidunt",
-        "sed"
+        "autem",
+        "quibusdam"
       ],
       "DisplayValues": [
-        "saepe",
-        "nam"
+        "labore",
+        "velit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 378,
+      "InterParenthesis": 717,
       "InterOperator": "And",
-      "UniqueHash": 547
+      "UniqueHash": 413
     }
   ],
-  "AssociateId": 752,
-  "ExtraInfo": "qui"
+  "AssociateId": 428,
+  "ExtraInfo": "earum"
 }
 ```
 

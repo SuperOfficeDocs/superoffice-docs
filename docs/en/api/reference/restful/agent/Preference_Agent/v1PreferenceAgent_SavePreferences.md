@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "ipsa",
+      "RawValue": "sit",
       "Specification": null,
-      "DisplayValue": "temporibus",
+      "DisplayValue": "maiores",
       "DisplayTooltip": "perferendis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 405,
-      "PrefDescId": 929,
-      "TableName": "Murphy, Romaguera and Kuhn",
-      "UserPreferenceId": 465
+      "TargetId": 851,
+      "PrefDescId": 320,
+      "TableName": "Watsica-Runolfsdottir",
+      "UserPreferenceId": 517
     }
   ]
 }

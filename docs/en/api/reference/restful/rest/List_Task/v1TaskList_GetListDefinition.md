@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Cole-Wintheiser",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "Rank": 968,
-  "IsCustomList": false,
+  "Id": 442,
+  "Name": "Bruen, Rippin and Frami",
+  "Tooltip": "deleniti",
+  "Deleted": false,
+  "Rank": 527,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "harum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 290
     }
   },
   "_Links": {

@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    721,
-    926
+    69,
+    520
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 715,
-    "Name": "Mills-Pacocha",
-    "TargetTable": "nostrum",
-    "Registered": "2000-05-11T16:00:41.883165+02:00",
-    "ProviderName": "Abshire Inc and Sons"
+    "SelectionId": 528,
+    "Name": "Vandervort, Collier and Rodriguez",
+    "TargetTable": "in",
+    "Registered": "2019-12-07T03:31:27.2936791+01:00",
+    "ProviderName": "Stokes Inc and Sons"
   },
   {
-    "SelectionId": 715,
-    "Name": "Mills-Pacocha",
-    "TargetTable": "nostrum",
-    "Registered": "2000-05-11T16:00:41.883165+02:00",
-    "ProviderName": "Abshire Inc and Sons"
+    "SelectionId": 528,
+    "Name": "Vandervort, Collier and Rodriguez",
+    "TargetTable": "in",
+    "Registered": "2019-12-07T03:31:27.2936791+01:00",
+    "ProviderName": "Stokes Inc and Sons"
   }
 ]
 ```

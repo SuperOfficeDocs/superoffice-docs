@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Becker LLC",
-  "Tooltip": "aut",
+  "Id": 139,
+  "Name": "Ankunding-Harber",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 49,
-  "Rank": 375,
+  "UdListDefinitionId": 39,
+  "Rank": 702,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 678
     }
   }
 }

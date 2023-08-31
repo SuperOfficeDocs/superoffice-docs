@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 537,
-  "CurrentAppointmentId": 984,
+  "SaleId": 499,
+  "CurrentAppointmentId": 629,
   "SkipCompleteCheck": false
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 59,
-  "Deleted": 529,
-  "DaysFuture": 958,
-  "Tooltip": "aspernatur",
-  "Text": "suscipit",
-  "TaskId": 597,
-  "SuggestedAppointmentId": 315,
-  "SaleTypeStageLinkId": 855,
-  "RegisteredAssociateId": 648,
-  "Rank": 670,
-  "ProjectTypeStatusLinkId": 332,
-  "Name": "Marvin LLC",
-  "Duration": 490,
+  "AutoSuggest": 667,
+  "Deleted": 144,
+  "DaysFuture": 565,
+  "Tooltip": "voluptatem",
+  "Text": "laborum",
+  "TaskId": 622,
+  "SuggestedAppointmentId": 209,
+  "SaleTypeStageLinkId": 73,
+  "RegisteredAssociateId": 727,
+  "Rank": 993,
+  "ProjectTypeStatusLinkId": 25,
+  "Name": "Wyman Group",
+  "Duration": 988,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 794
     }
   }
 }

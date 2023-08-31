@@ -81,13 +81,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 645,
+  "ReportId": 68,
   "ReportCategory": "All",
-  "Description": "Cloned cohesive core",
+  "Description": "Mandatory coherent workforce",
   "ReportLayout": "CalendarMonth",
-  "Name": "Gibson Inc and Sons",
-  "AssociateId": 281,
-  "TemplateId": 999,
+  "Name": "Daugherty, Grimes and Rau",
+  "AssociateId": 601,
+  "TemplateId": 881,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 4,
+  "ReportId": 233,
   "ReportCategory": "All",
-  "Description": "Streamlined tangible Graphic Interface",
+  "Description": "Expanded fresh-thinking customer loyalty",
   "ReportLayout": "CalendarMonth",
-  "Name": "Abernathy LLC",
-  "AssociateId": 77,
-  "TemplateId": 156,
-  "Published": false,
+  "Name": "Powlowski-Bayer",
+  "AssociateId": 958,
+  "TemplateId": 226,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 486
     }
   }
 }

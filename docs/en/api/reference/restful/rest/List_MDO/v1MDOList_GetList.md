@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=voluptatem
-GET /api/v1/MDOList/{listname}?query=id
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=ipsa
+GET /api/v1/MDOList/{listname}?query=iure
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Huels Group",
-    "ToolTip": "Et eos sed tenetur in atque est molestias.",
+    "Id": 521,
+    "Name": "Volkman LLC",
+    "ToolTip": "Soluta voluptatem voluptatem nulla.",
     "Deleted": true,
-    "Rank": 207,
-    "Type": "consequuntur",
+    "Rank": 863,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Russel LLC",
-        "ToolTip": "Quis corporis praesentium.",
-        "Deleted": false,
-        "Rank": 163,
-        "Type": "et",
+        "Id": 732,
+        "Name": "Jones, Pfannerstill and Wehner",
+        "ToolTip": "Quisquam iste eum sed.",
+        "Deleted": true,
+        "Rank": 446,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ex",
-        "ColorBlock": 725,
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "laborum",
-        "FullName": "Araceli Alfonso Dickinson DDS",
+        "IconHint": "sapiente",
+        "ColorBlock": 514,
+        "ExtraInfo": "minima",
+        "StyleHint": "est",
+        "FullName": "Nora Hirthe II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 922
+            "FieldLength": 101
           }
         }
       }
     ],
-    "IconHint": "iure",
-    "ColorBlock": 65,
-    "ExtraInfo": "odio",
-    "StyleHint": "quos",
-    "FullName": "Odessa Sporer",
+    "IconHint": "voluptas",
+    "ColorBlock": 79,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "quo",
+    "FullName": "Elsa Neal Mann II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 719
       }
     }
   }

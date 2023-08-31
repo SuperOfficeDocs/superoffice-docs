@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 792,
-  "ERPProductKey": "deleniti"
+  "QuoteAlternativeId": 662,
+  "ERPProductKey": "ut"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 552,
-  "ERPQuoteLineKey": "sint",
-  "QuoteAlternativeId": 95,
-  "ERPProductKey": "veritatis",
+  "QuoteLineId": 73,
+  "ERPQuoteLineKey": "consequatur",
+  "QuoteAlternativeId": 301,
+  "ERPProductKey": "laudantium",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 15550.908,
-  "DeliveredQuantity": 3547.688,
-  "Rank": 883,
-  "Name": "Daugherty-Cummings",
-  "Description": "Configurable asynchronous implementation",
-  "Code": "exercitationem",
-  "QuantityUnit": "voluptatem",
-  "PriceUnit": "totam",
-  "ItemNumber": "1628478",
+  "Quantity": 18666.104,
+  "DeliveredQuantity": 22589.872,
+  "Rank": 853,
+  "Name": "O'Reilly LLC",
+  "Description": "Realigned mission-critical moderator",
+  "Code": "dolorum",
+  "QuantityUnit": "dolores",
+  "PriceUnit": "quis",
+  "ItemNumber": "1760866",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eum",
-  "ProductTypeKey": "velit",
-  "Supplier": "earum",
-  "SupplierCode": "consequuntur",
-  "Thumbnail": "velit",
-  "VATInfo": "ab",
-  "VAT": 14015.248,
-  "UnitCost": 27246.996,
-  "UnitMinimumPrice": 9912.842,
-  "UnitListPrice": 29848.216,
+  "ProductFamilyKey": "quos",
+  "ProductTypeKey": "molestiae",
+  "Supplier": "doloremque",
+  "SupplierCode": "quo",
+  "Thumbnail": "fuga",
+  "VATInfo": "earum",
+  "VAT": 30111.471999999998,
+  "UnitCost": 25833.561999999998,
+  "UnitMinimumPrice": 26275.456,
+  "UnitListPrice": 639.336,
   "ExtraInfo": [
     {
-      "Name": "Berge, Gorczany and Dickinson",
-      "Value": "ipsum",
+      "Name": "Bailey, Beer and Morar",
+      "Value": "veritatis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 764
+          "FieldType": "System.Int32",
+          "FieldLength": 625
         }
       }
     },
     {
-      "Name": "Berge, Gorczany and Dickinson",
-      "Value": "ipsum",
+      "Name": "Bailey, Beer and Morar",
+      "Value": "veritatis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 764
+          "FieldType": "System.Int32",
+          "FieldLength": 625
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
+  "RawExtraInfo": "quaerat",
   "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "SubscriptionQuantity": 10129.088,
-  "SubscriptionStart": "1996-04-08T16:00:41.6644415+02:00",
-  "ERPDiscountPercent": 8706.252,
-  "ERPDiscountAmount": 2397.5099999999998,
-  "DiscountPercent": 542.182,
-  "DiscountAmount": 8756.3959999999988,
+  "SubscriptionUnit": "rerum",
+  "SubscriptionQuantity": 8881.756,
+  "SubscriptionStart": "2017-12-22T03:31:27.106235+01:00",
+  "ERPDiscountPercent": 21345.674,
+  "ERPDiscountAmount": 2858.208,
+  "DiscountPercent": 16362.614,
+  "DiscountAmount": 13344.572,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 1733.1019999999999,
-  "EarningAmount": 5484.5,
-  "SubTotal": 23216.672,
-  "TotalPrice": 21715.486,
-  "Rights": "quod",
-  "Rule": "illum",
-  "ExtraField1": "culpa",
-  "ExtraField2": "sed",
-  "ExtraField3": "aut",
-  "ExtraField4": "eos",
-  "ExtraField5": "natus",
+  "EarningPercent": 131.628,
+  "EarningAmount": 9740.472,
+  "SubTotal": 12200.662,
+  "TotalPrice": 13795.868,
+  "Rights": "eos",
+  "Rule": "in",
+  "ExtraField1": "magni",
+  "ExtraField2": "adipisci",
+  "ExtraField3": "vitae",
+  "ExtraField4": "qui",
+  "ExtraField5": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 54
     }
   }
 }

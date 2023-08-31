@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 24,
-  "CustomerCustomerReplyTemplateId": 880,
-  "CustomerPasswordTemplateId": 52,
-  "CustomerConfirmEmailTemplateId": 52,
-  "CustomerChatLogTemplateId": 38,
-  "NewLinkTemplateId": 934,
-  "HotlistNewMessageTemplateId": 539,
-  "HotlistTicketActivatedTemplateId": 274,
-  "UserTicketAlarmTemplateId": 339,
-  "HotlistTicketTakenOverTemplateId": 430,
-  "UserActiveTicketsTemplateId": 323,
-  "UserNewMessageTemplateId": 747,
-  "UserTicketActivatedTemplateId": 774,
-  "UserNewTicketTemplateId": 869,
-  "PublishKbQuestionTemplateId": 59,
-  "PublishKbAnswerTemplateId": 736,
-  "UserTicketTakenOverTemplateId": 298,
-  "PrintTicketTemplateId": 956,
-  "WeekStatTemplateId": 699,
-  "TicketAlarmHotlistTemplateId": 20,
-  "EmailAddresses": "hilbert_renner@dickens.co.uk",
+  "CustomerNewCustomerTemplateId": 122,
+  "CustomerCustomerReplyTemplateId": 778,
+  "CustomerPasswordTemplateId": 920,
+  "CustomerConfirmEmailTemplateId": 835,
+  "CustomerChatLogTemplateId": 210,
+  "NewLinkTemplateId": 235,
+  "HotlistNewMessageTemplateId": 815,
+  "HotlistTicketActivatedTemplateId": 362,
+  "UserTicketAlarmTemplateId": 625,
+  "HotlistTicketTakenOverTemplateId": 314,
+  "UserActiveTicketsTemplateId": 610,
+  "UserNewMessageTemplateId": 128,
+  "UserTicketActivatedTemplateId": 343,
+  "UserNewTicketTemplateId": 286,
+  "PublishKbQuestionTemplateId": 612,
+  "PublishKbAnswerTemplateId": 504,
+  "UserTicketTakenOverTemplateId": 88,
+  "PrintTicketTemplateId": 10,
+  "WeekStatTemplateId": 128,
+  "TicketAlarmHotlistTemplateId": 624,
+  "EmailAddresses": "darius.steuber@wunsch.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 891
     }
   }
 }

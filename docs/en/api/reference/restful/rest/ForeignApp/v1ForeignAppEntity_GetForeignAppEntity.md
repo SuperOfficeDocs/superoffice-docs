@@ -88,32 +88,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 23 Sep 2020 16:00:47 G9T
+Last-Modified: Wed, 25 May 2005 03:31:32 G5T
 
 {
-  "ForeignAppId": 468,
-  "Name": "Keeling LLC",
-  "CreatedDate": "2010-12-31T16:00:47.9615771+01:00",
-  "UpdatedDate": "2020-09-23T16:00:47.9615771+02:00",
+  "ForeignAppId": 206,
+  "Name": "Lubowitz Group",
+  "CreatedDate": "2010-07-23T03:31:32.6132803+02:00",
+  "UpdatedDate": "2005-05-25T03:31:32.6132803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 939,
-      "Name": "Wuckert LLC",
-      "CreatedDate": "1997-10-06T16:00:47.9615771+02:00",
-      "UpdatedDate": "2007-10-26T16:00:47.9615771+02:00",
-      "AssociateFullName": "Eileen Kemmer",
-      "CreatedBy": "suscipit",
-      "UpdatedBy": "facilis",
-      "DeviceIdentifier": "fugiat",
-      "ForeignAppId": 610,
+      "ForeignDeviceId": 669,
+      "Name": "Rempel LLC",
+      "CreatedDate": "2022-01-08T03:31:32.6132803+01:00",
+      "UpdatedDate": "2012-05-03T03:31:32.6132803+02:00",
+      "AssociateFullName": "Whitney Hertha Stokes I",
+      "CreatedBy": "perspiciatis",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "facilis",
+      "ForeignAppId": 80,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldType": "System.String",
+          "FieldLength": 849
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Wed, 23 Sep 2020 16:00:47 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   },
   "_Links": {

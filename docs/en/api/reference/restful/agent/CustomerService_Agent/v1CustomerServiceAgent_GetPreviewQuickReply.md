@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 134
+  "QuickReplyId": 686
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobi-Farrell",
-  "UpdatedByFullName": "Mr. Blair Hunter Welch",
-  "Updated": "1997-11-13T16:00:40.5081328+01:00",
-  "HtmlBody": "necessitatibus",
+  "Name": "Crist, Abbott and Armstrong",
+  "UpdatedByFullName": "Louisa Russel",
+  "Updated": "1997-08-10T03:31:25.9957958+02:00",
+  "HtmlBody": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 13
     }
   }
 }

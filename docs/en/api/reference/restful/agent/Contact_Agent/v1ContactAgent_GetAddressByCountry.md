@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 442,
-  "CountryId": 838
+  "ContactId": 296,
+  "CountryId": 25
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 17638.152,
-  "Wgs84Longitude": 22122.906,
+  "Wgs84Latitude": 17421.906,
+  "Wgs84Longitude": 17804.254,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bergnaum, Mayer and Larson",
-        "Value": "alias",
-        "Tooltip": "et",
-        "Label": "possimus",
-        "ValueLength": 710,
-        "AddressType": "vitae",
+        "Name": "Kilback Inc and Sons",
+        "Value": "aut",
+        "Tooltip": "qui",
+        "Label": "reprehenderit",
+        "ValueLength": 515,
+        "AddressType": "earum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 14
+            "FieldType": "System.Int32",
+            "FieldLength": 988
           }
         }
       }
     ],
     [
       {
-        "Name": "West-Eichmann",
+        "Name": "Leffler-Monahan",
         "Value": "enim",
-        "Tooltip": "maiores",
-        "Label": "consequuntur",
-        "ValueLength": 431,
-        "AddressType": "fuga",
+        "Tooltip": "iste",
+        "Label": "assumenda",
+        "ValueLength": 171,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 521
+            "FieldType": "System.String",
+            "FieldLength": 833
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "deleniti",
+  "Formatted": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 1002
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 566,
-  "Name": "Brekke-Corwin",
-  "Tooltip": "commodi",
+  "HeadingId": 524,
+  "Name": "Jacobson LLC",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 454,
-  "UdListDefinitionId": 669
+  "Rank": 120,
+  "UdListDefinitionId": 557
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 547,
-  "Name": "Kuhn, Reinger and Goyette",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 959,
-  "UdListDefinitionId": 632,
+  "HeadingId": 566,
+  "Name": "Rogahn LLC",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "Rank": 232,
+  "UdListDefinitionId": 23,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 791
     }
   }
 }

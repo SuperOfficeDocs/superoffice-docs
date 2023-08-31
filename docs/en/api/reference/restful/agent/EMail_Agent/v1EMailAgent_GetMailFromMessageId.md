@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "dolores"
+  "MessageId": "sed"
 }
 ```
 
@@ -117,155 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 663,
-      "ContactName": "Cruickshank-Schumm",
-      "PersonId": 704,
-      "PersonName": "D'Amore, Hilpert and Cormier",
-      "AssociateId": 4,
-      "Address": "sint",
-      "EmailId": 84,
+      "ContactId": 846,
+      "ContactName": "Fay, Larkin and Stokes",
+      "PersonId": 232,
+      "PersonName": "Rice Group",
+      "AssociateId": 937,
+      "Address": "vel",
+      "EmailId": 750,
       "DuplicatePersonIds": [
-        329,
-        530
+        870,
+        956
       ],
-      "Name": "Jacobs-Greenholt",
+      "Name": "Ernser Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldLength": 261
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 935,
-      "ContactName": "Von Inc and Sons",
-      "PersonId": 188,
-      "PersonName": "Erdman, Gaylord and Nienow",
-      "AssociateId": 724,
-      "Address": "est",
-      "EmailId": 562,
+      "ContactId": 441,
+      "ContactName": "Metz-Conn",
+      "PersonId": 851,
+      "PersonName": "Deckow LLC",
+      "AssociateId": 444,
+      "Address": "autem",
+      "EmailId": 339,
       "DuplicatePersonIds": [
-        539,
-        791
+        211,
+        250
       ],
-      "Name": "Wolff-Borer",
+      "Name": "Schaden, Rau and Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldType": "System.String",
+          "FieldLength": 189
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 181,
-      "ContactName": "Weissnat-Lakin",
-      "PersonId": 525,
-      "PersonName": "Glover Inc and Sons",
-      "AssociateId": 224,
-      "Address": "animi",
-      "EmailId": 759,
+      "ContactId": 820,
+      "ContactName": "West-Quitzon",
+      "PersonId": 412,
+      "PersonName": "Jones-Stiedemann",
+      "AssociateId": 263,
+      "Address": "eos",
+      "EmailId": 608,
       "DuplicatePersonIds": [
-        581,
-        894
+        794,
+        654
       ],
-      "Name": "Schamberger-Gerhold",
+      "Name": "Brekke LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldType": "System.String",
+          "FieldLength": 200
         }
       }
     }
   ],
-  "Subject": "ipsa",
-  "HTMLBody": "et",
+  "Subject": "et",
+  "HTMLBody": "praesentium",
   "From": null,
-  "Sent": "2009-04-10T16:00:40.8518697+02:00",
-  "Size": 871,
+  "Sent": "2005-06-04T03:31:26.4176181+02:00",
+  "Size": 934,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "unde",
+  "MessageID": "ipsum",
+  "PlainBody": "enim",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 755,
+  "ServerId": 596,
   "Attachments": [
     {
-      "Description": "Upgradable stable monitoring",
-      "Filename": "optio",
-      "Size": 487,
-      "Type": "sit",
-      "Encoding": "modi",
-      "Id": "perspiciatis",
-      "Disposition": "inventore",
+      "Description": "Distributed exuding matrices",
+      "Filename": "voluptas",
+      "Size": 202,
+      "Type": "est",
+      "Encoding": "dolore",
+      "Id": "rerum",
+      "Disposition": "fugit",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 380
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Metz Inc and Sons",
+      "Name": "Hilpert, Volkman and Kub",
       "Values": [
-        "quia",
-        "iusto"
+        "autem",
+        "consequuntur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 112
         }
       }
     },
     {
-      "Name": "Metz Inc and Sons",
+      "Name": "Hilpert, Volkman and Kub",
       "Values": [
-        "quia",
-        "iusto"
+        "autem",
+        "consequuntur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 112
         }
       }
     }
   ],
-  "FolderName": "Gulgowski-Dare",
-  "EmailItemId": 944,
-  "AccountId": 707,
-  "ReceivedAt": "2012-10-07T16:00:40.8674876+02:00",
+  "FolderName": "Heaney-Hegmann",
+  "EmailItemId": 889,
+  "AccountId": 587,
+  "ReceivedAt": "2005-10-09T03:31:26.4176181+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-10-21T16:00:40.8674876+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2016-07-04T03:31:26.4176181+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldType": "System.Int32",
+      "FieldLength": 257
     }
   }
 }

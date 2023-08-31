@@ -1467,6 +1467,7 @@ blah....
 |hasCompany| *None* |Has company: The contact is associated with a company|  |
 |isProjectMember| *None* |Is project member: This person is a project member|  |
 |isStakeholder| *None* |Is stakeholder: This person is a sale stakeholder|  |
+|favouritePersonAssociateId| *None* |Associate ID: Associate ID|  |
 |personDirectPhone/formattedNumber| *None* |Direct - Phone: Displays phone number|  |
 |personDirectPhone/description| *None* |Direct - Description: Phone number description|  |
 |personMobilePhone/formattedNumber| *None* |Mobile - Phone: Displays phone number|  |
@@ -1488,11 +1489,11 @@ blah....
 |personAddress/county| *None* |Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
 |personAddress/city| *None* |Contact address - City: This criterion corresponds to the City field on the Company card.|  |
 |personAddress/zip| *None* |Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.|  |
-|personAddress/state| *None* |Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAddress/state| *None* |Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.|  |
 |personAddress/wgs84latitude| *None* |Contact address - Latitude: Latitude|  |
 |personAddress/wgs84longitude| *None* |Contact address - Longitude: Longitude|  |
 |personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
@@ -1592,11 +1593,11 @@ blah....
 |personTargetRelation/hasInfoText| *None* |Target - Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |personTargetRelation/hasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personTargetRelation/personHasInterests| *None* |Target - Has interests: Displays an Icon indicating if the contact has active interests|  |
-|personTargetRelation/mrMrs| *None* |Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personTargetRelation/mrMrs| *None* |Target - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |personTargetRelation/position| *None* |Target - Position|  |
 |personTargetRelation/personNumber| *None* |Target - Number: Displays the contact's number|  |
 |personTargetRelation/title| *None* |Target - Title: Displays the contact's job title|  |
@@ -1696,11 +1697,11 @@ blah....
 |correspondingAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |correspondingAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |correspondingAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
-|correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |correspondingAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |correspondingAssociate/userName| *None* |User name: User name|  |
 |correspondingAssociate/personEmail| *None* |E-mail|  |
@@ -1800,11 +1801,11 @@ blah....
 |personContact/contactAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
 |personContact/contactAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
 |personContact/contactAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|personContact/contactAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/contactAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |personContact/contactAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personContact/contactAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |personContact/contactAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -1904,11 +1905,11 @@ blah....
 |personContact/contactSupportPerson/personCategory| *None* |User support contact - Category|  |
 |personContact/contactSupportPerson/personBusiness| *None* |User support contact - Business|  |
 |personContact/contactSupportPerson/personDeletedDate| *None* |User support contact - Deleted date: Deleted date|  |
-|personContact/contactSupportPerson/hasCompany| *None* |User support contact - Has company: The contact is associated with a company|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/contactSupportPerson/hasCompany| *None* |User support contact - Has company: The contact is associated with a company|  |
 |personContact/contactSupportPerson/isProjectMember| *None* |User support contact - Is project member: This person is a project member|  |
 |personContact/contactSupportPerson/isStakeholder| *None* |User support contact - Is stakeholder: This person is a sale stakeholder|  |
 |personContact/contactSupportPerson/who| *None* |User support contact - Full name: Displays the contact's full name.|  |
@@ -2008,11 +2009,11 @@ blah....
 |personContact/NumberOfNotCompletedTicketsInPeriod| *None* |Number of non-completed requests in last 90 days|  |
 |personContact/LastTicket| *None* |Date of last request|  |
 |personContact/LastCompletedTicket| *None* |Date of last completed request|  |
-|personContact/LastDoByTicket| *None* |Date of last non-completed request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/LastDoByTicket| *None* |Date of last non-completed request|  |
 |personContact/SaintStatus1| *None* |Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
 |personContact/SaintStatus2| *None* |C-company: Kundens navn starter med bokstaven C|  |
 |personContact/saintSaleStatus| *None* |With status|  |
@@ -2112,11 +2113,11 @@ blah....
 |request/ownedBy/lastName| *None* |Owner - Last name: Displays the contact's last name|  |
 |request/ownedBy/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
 |request/ownedBy/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
-|request/ownedBy/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
 |request/ownedBy/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
 |request/ownedBy/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |request/ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -2216,11 +2217,11 @@ blah....
 |projectMembers/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
 |projectMembers/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |projectMembers/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
-|projectMembers/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
 |projectMembers/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |projectMembers/projectAssociate/otherGroups| *None* |Other groups: Other groups|  |
 |projectMembers/projectAssociate/userName| *None* |User name: User name|  |
@@ -2320,11 +2321,11 @@ blah....
 |personAppointment/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |personAppointment/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personAppointment/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|personAppointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |personAppointment/associate/associateDbId| *None* |ID|  |
 |personAppointment/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |personAppointment/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
@@ -2424,11 +2425,11 @@ blah....
 |selectionAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
 |selectionAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |selectionAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
-|selectionAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|selectionAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |selectionAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |selectionAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |selectionAssociate/associateDbId| *None* |ID|  |
@@ -2528,11 +2529,11 @@ blah....
 |mailingAddr/contact/postAddress/formattedAddress| *None* |Company - Postal address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/postAddress/formattedMultiLineAddress| *None* |Company - Postal address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/contact/streetAddress/addressId| *None* |Company - Street address - Address ID: Database ID for the address record|  |
-|mailingAddr/contact/streetAddress/line1| *None* |Company - Street address - Address 1: First line of the address|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/streetAddress/line1| *None* |Company - Street address - Address 1: First line of the address|  |
 |mailingAddr/contact/streetAddress/line2| *None* |Company - Street address - Address 2: Second line of the address|  |
 |mailingAddr/contact/streetAddress/line3| *None* |Company - Street address - Address 3: Third line of the address|  |
 |mailingAddr/contact/streetAddress/county| *None* |Company - Street address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
@@ -2632,11 +2633,11 @@ blah....
 |mailingAddr/contact/LastCompletedSale| *None* |Company - Date of last completed sale|  |
 |mailingAddr/contact/LastDoBySale| *None* |Company - Date of last non-completed sale|  |
 |mailingAddr/contact/NumberOfTickets| *None* |Company - Number of requests|  |
-|mailingAddr/contact/NumberOfTicketsInPeriod| *None* |Company - Number of requests in last 90 days|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/contact/NumberOfTicketsInPeriod| *None* |Company - Number of requests in last 90 days|  |
 |mailingAddr/contact/NumberOfNotCompletedTickets| *None* |Company - Number of non-completed requests|  |
 |mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod| *None* |Company - Number of non-completed requests in last 90 days|  |
 |mailingAddr/contact/LastTicket| *None* |Company - Date of last request|  |
@@ -2736,11 +2737,11 @@ blah....
 |mailingAddr/person/personAddress/formattedAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/personAddress/formattedMultiLineAddress| *None* |Contact - Contact address - {formattedAddress}: {formattedAddress}|  |
 |mailingAddr/person/restrictionAddress/addressId| *None* |Contact - Search address - Address ID: Database ID for the address record|  |
-|mailingAddr/person/restrictionAddress/line1| *None* |Contact - Search address - Address 1: First line of the address|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/restrictionAddress/line1| *None* |Contact - Search address - Address 1: First line of the address|  |
 |mailingAddr/person/restrictionAddress/line2| *None* |Contact - Search address - Address 2: Second line of the address|  |
 |mailingAddr/person/restrictionAddress/line3| *None* |Contact - Search address - Address 3: Third line of the address|  |
 |mailingAddr/person/restrictionAddress/county| *None* |Contact - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.|  |
@@ -2840,11 +2841,11 @@ blah....
 |mailingAddr/person/correspondingAssociate/ejStatus| *None* |Contact - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |mailingAddr/person/correspondingAssociate/credentialType| *None* |Contact - Auth. type: What type of credentials to use when this user logs in|  |
 |mailingAddr/person/correspondingAssociate/credentialDisplayValue| *None* |Contact - Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
-|mailingAddr/person/correspondingAssociate/isActive| *None* |Contact - Active: Is this user active, and should be able to log in?|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|mailingAddr/person/correspondingAssociate/isActive| *None* |Contact - Active: Is this user active, and should be able to log in?|  |
 |mailingAddr/person/correspondingAssociate/isActiveText| *None* |Contact - Active status: Is this user active, and should be able to log in?|  |
 |mailingAddr/person/correspondingAssociate/portraitThumbnail| *None* |Contact - Person image: Person image|  |
 |mailingAddr/person/correspondingAssociate/otherGroups| *None* |Contact - Other groups: Other groups|  |
@@ -2944,11 +2945,11 @@ blah....
 |sale/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|sale/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |sale/associate/associateDbId| *None* |ID|  |
 |sale/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |sale/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
@@ -3048,11 +3049,11 @@ blah....
 |has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments|  |
 |tags| *None* |Tags: Tags connected to a request|  |
 |ownedBy| *None* |Owner: The owner of the request|  |
-|content| *None* |Content: Search for content in messages related to requests|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|content| *None* |Content: Search for content in messages related to requests|  |
 |messageLanguage| *None* |Language: Recognized language in messages|  |
 |sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 |suggestedCategory| *None* |Sugg.Cat.: Suggested service category|  |
@@ -3135,7 +3136,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=person/retired,person/personExtra/x_person_timespan,person/correspondingAssociate/mrMrs,contact/contactDeleted,contact/contactFax/description
+GET /api/v1/archive/Favourites?$select=person/birthMonth,person/personUrl/URLDescription,person/personAssociate/contactCategory,person/personAssociate/credentialType,project/LastCompletedActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 390,
-  "PrefDescId": 720,
-  "PrefValue": "mollitia",
-  "PrefShowValue": "ut",
-  "Description": "Assimilated global service-desk",
-  "IsBuiltin": true
+  "PrefDescLineId": 381,
+  "PrefDescId": 485,
+  "PrefValue": "tempora",
+  "PrefShowValue": "id",
+  "Description": "Assimilated empowering workforce",
+  "IsBuiltin": false
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 151,
-  "PrefDescId": 894,
-  "PrefValue": "iure",
-  "PrefShowValue": "eum",
-  "Description": "Cloned multimedia approach",
-  "IsBuiltin": true,
+  "PrefDescLineId": 956,
+  "PrefDescId": 964,
+  "PrefValue": "aut",
+  "PrefShowValue": "dignissimos",
+  "Description": "Focused value-added intranet",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 589
     }
   }
 }

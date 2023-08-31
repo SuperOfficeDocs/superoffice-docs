@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 809,
-  "Name": "Abshire-Bayer",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "Rank": 876,
+  "WebPanelId": 557,
+  "Name": "Langosh Inc and Sons",
+  "Tooltip": "aliquam",
+  "Deleted": false,
+  "Rank": 688,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Wyman, Emard and Weber",
+  "ShowInStatusBar": true,
+  "WindowName": "Dickinson-Grady",
   "Url": "http://www.example.com/",
-  "ProgId": "suscipit",
-  "Icon": 916,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "velit",
+  "Icon": 274,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

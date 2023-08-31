@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 468,
-  "Field": "laudantium",
-  "RecordId": 65,
+  "RefCountsId": 347,
+  "Field": "placeat",
+  "RecordId": 990,
   "SuggestedRecords": [
     {
-      "Id": 884,
-      "Name": "Emmerich, Raynor and Feest",
-      "ToolTip": "Omnis omnis assumenda.",
+      "Id": 512,
+      "Name": "Parker-Stoltenberg",
+      "ToolTip": "Esse adipisci atque consequatur.",
       "Deleted": false,
-      "Rank": 798,
-      "Type": "tempora",
+      "Rank": 595,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "harum",
-      "ColorBlock": 406,
-      "ExtraInfo": "aperiam",
-      "StyleHint": "doloremque",
-      "FullName": "Freida Stiedemann",
+      "IconHint": "eaque",
+      "ColorBlock": 927,
+      "ExtraInfo": "delectus",
+      "StyleHint": "autem",
+      "FullName": "Phyllis Little",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldLength": 79
         }
       }
     }
   ],
-  "CurrentValue": 278,
-  "TravelPrefix": 316,
-  "SatPrefix": 773,
-  "Allocate": false,
+  "CurrentValue": 933,
+  "TravelPrefix": 713,
+  "SatPrefix": 811,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 631
     }
   }
 }

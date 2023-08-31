@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 919
+  "ProductId": 596
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 693,
-  "ERPProductKey": "ullam",
-  "ERPPriceListKey": "repellendus",
-  "Name": "Bahringer LLC",
-  "Description": "Total tangible infrastructure",
-  "Code": "quidem",
-  "PriceUnit": "eos",
-  "QuantityUnit": "ullam",
+  "ProductId": 293,
+  "ERPProductKey": "alias",
+  "ERPPriceListKey": "asperiores",
+  "Name": "Leuschke-Bogisich",
+  "Description": "User-friendly eco-centric throughput",
+  "Code": "molestiae",
+  "PriceUnit": "et",
+  "QuantityUnit": "laborum",
   "IsSubscription": false,
-  "SubscriptionUnit": "labore",
-  "DefaultSubscriptionQuantity": 23135.188,
-  "ItemNumber": "922352",
+  "SubscriptionUnit": "earum",
+  "DefaultSubscriptionQuantity": 13764.528,
+  "ItemNumber": "1196714",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "corrupti",
-  "VAT": 13620.364,
-  "VATInfo": "modi",
-  "UnitCost": 4929.782,
-  "UnitMinimumPrice": 18985.772,
-  "UnitListPrice": 6202.186,
-  "InAssortment": true,
-  "Supplier": "tempore",
-  "SupplierCode": "illum",
-  "Rights": "suscipit",
-  "Rule": "quo",
+  "ProductFamilyKey": "placeat",
+  "ProductTypeKey": "tempore",
+  "VAT": 16102.492,
+  "VATInfo": "ut",
+  "UnitCost": 16002.204,
+  "UnitMinimumPrice": 29017.706,
+  "UnitListPrice": 28212.268,
+  "InAssortment": false,
+  "Supplier": "consequatur",
+  "SupplierCode": "atque",
+  "Rights": "eveniet",
+  "Rule": "sint",
   "ExtraInfo": [
     {
-      "Name": "McLaughlin-Towne",
-      "Value": "dolorum",
+      "Name": "Hodkiewicz-Cronin",
+      "Value": "laborum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 646
         }
       }
     },
     {
-      "Name": "McLaughlin-Towne",
-      "Value": "dolorum",
+      "Name": "Hodkiewicz-Cronin",
+      "Value": "laborum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 646
         }
       }
     }
   ],
-  "RawExtraInfo": "totam",
-  "ExtraField1": "eligendi",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "earum",
-  "ExtraField4": "voluptatibus",
-  "ExtraField5": "est",
-  "InStock": 5236.914,
+  "RawExtraInfo": "nam",
+  "ExtraField1": "accusantium",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "voluptatibus",
+  "ExtraField4": "natus",
+  "ExtraField5": "aut",
+  "InStock": 7556.074,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

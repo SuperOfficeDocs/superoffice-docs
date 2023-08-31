@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Howell-Schmidt",
-    "StepNumber": 904,
+    "Name": "Luettgen-Emmerich",
+    "StepNumber": 377,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldType": "System.String",
+        "FieldLength": 712
       }
     }
   },
   {
-    "Name": "Howell-Schmidt",
-    "StepNumber": 904,
+    "Name": "Luettgen-Emmerich",
+    "StepNumber": 377,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldType": "System.String",
+        "FieldLength": 712
       }
     }
   }

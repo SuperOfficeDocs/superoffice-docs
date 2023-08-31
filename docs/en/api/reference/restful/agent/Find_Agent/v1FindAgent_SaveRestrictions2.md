@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Lowe Group",
-  "StorageKey": "dolores",
-  "Restrictions": "quaerat"
+  "StorageType": "itaque",
+  "ProviderName": "Adams Inc and Sons",
+  "StorageKey": "praesentium",
+  "Restrictions": "tenetur"
 }
 ```
 

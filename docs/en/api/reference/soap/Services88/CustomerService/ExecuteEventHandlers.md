@@ -64,6 +64,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       </CustomerService:StringKeyValuePair>
      </CustomerService:StateValues>
      <CustomerService:Exception xsi:type="xsd:string"></CustomerService:Exception>
+     <CustomerService:ParserValues xsi:type="CustomerService:StringDictionary">
+      <CustomerService:StringKeyValuePair>
+       <CustomerService:Key xsi:type="xsd:string"></CustomerService:Key>
+       <CustomerService:Value xsi:type="xsd:string"></CustomerService:Value>
+      </CustomerService:StringKeyValuePair>
+     </CustomerService:ParserValues>
     </CustomerService:EventData>
    </CustomerService:ExecuteEventHandlers>
 
@@ -112,6 +118,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      </CustomerService:StringKeyValuePair>
     </CustomerService:StateValues>
     <CustomerService:Exception xsi:type="xsd:string"></CustomerService:Exception>
+    <CustomerService:ParserValues xsi:type="CustomerService:StringDictionary">
+     <CustomerService:StringKeyValuePair>
+      <CustomerService:Key xsi:type="xsd:string"></CustomerService:Key>
+      <CustomerService:Value xsi:type="xsd:string"></CustomerService:Value>
+     </CustomerService:StringKeyValuePair>
+    </CustomerService:ParserValues>
    </CustomerService:Response>
   </CustomerService:ExecuteEventHandlersResponse>
  </SOAP-ENV:Body>

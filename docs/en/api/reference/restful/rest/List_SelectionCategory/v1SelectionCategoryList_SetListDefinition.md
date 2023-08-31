@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
-  "Name": "Schmitt Inc and Sons",
-  "Tooltip": "corporis",
-  "Deleted": false,
-  "Rank": 283,
+  "Id": 925,
+  "Name": "Wiegand, Hauck and Crooks",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 876,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "amet",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "illum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Durgan, Schinner and Hartmann",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 345,
-  "IsCustomList": false,
+  "Id": 210,
+  "Name": "Koss-Goyette",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "Rank": 952,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloremque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 918
     }
   }
 }

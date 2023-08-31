@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 595,
-  "FormKey": "blanditiis",
-  "Name": "Pagac-Gibson",
-  "Description": "Advanced tangible interface",
-  "Config": "qui",
-  "FolderId": 644,
-  "ScriptId": 514,
-  "ResponseShipmentId": 101,
+  "FormId": 648,
+  "FormKey": "labore",
+  "Name": "Kessler, Champlin and Schimmel",
+  "Description": "Reactive systematic portal",
+  "Config": "quas",
+  "FolderId": 397,
+  "ScriptId": 776,
+  "ResponseShipmentId": 742,
   "Active": false,
-  "Expires": "2005-09-20T16:00:41.2580675+02:00",
-  "MaxSubmits": 746,
+  "Expires": "2012-01-05T03:31:26.7612835+01:00",
+  "MaxSubmits": 161,
   "Type": "Normal",
-  "Recipe": "quis",
-  "GroupId": 762,
+  "Recipe": "sapiente",
+  "GroupId": 110,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-07-12T16:00:41.2580675+02:00",
-  "RegisteredAssociateId": 52,
-  "Updated": "2019-02-27T16:00:41.2580675+01:00",
-  "UpdatedAssociateId": 99,
-  "UpdatedCount": 807,
-  "FolderName": "Gislason, Auer and Hilpert"
+  "Registered": "2006-12-19T03:31:26.7612835+01:00",
+  "RegisteredAssociateId": 258,
+  "Updated": "2008-06-13T03:31:26.7612835+02:00",
+  "UpdatedAssociateId": 693,
+  "UpdatedCount": 818,
+  "FolderName": "Beatty, Dare and Huel"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 898,
-  "FormKey": "iste",
-  "Name": "Berge, Hahn and Schmidt",
-  "Description": "Enhanced modular encoding",
-  "Config": "hic",
-  "FolderId": 450,
-  "ScriptId": 333,
-  "ResponseShipmentId": 184,
-  "Active": false,
-  "Expires": "2021-08-07T16:00:41.2580675+02:00",
-  "MaxSubmits": 110,
+  "FormId": 643,
+  "FormKey": "enim",
+  "Name": "Lindgren, Kertzmann and Bradtke",
+  "Description": "Organized modular open system",
+  "Config": "assumenda",
+  "FolderId": 129,
+  "ScriptId": 985,
+  "ResponseShipmentId": 160,
+  "Active": true,
+  "Expires": "2012-04-30T03:31:26.7612835+02:00",
+  "MaxSubmits": 177,
   "Type": "Normal",
-  "Recipe": "consequatur",
-  "GroupId": 977,
-  "NewTicket": true,
+  "Recipe": "dolor",
+  "GroupId": 643,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-07-19T16:00:41.2580675+02:00",
-  "RegisteredAssociateId": 795,
-  "Updated": "2014-11-28T16:00:41.2580675+01:00",
-  "UpdatedAssociateId": 801,
-  "UpdatedCount": 664,
-  "FolderName": "Ankunding-Marquardt",
+  "Registered": "2020-06-26T03:31:26.7612835+02:00",
+  "RegisteredAssociateId": 599,
+  "Updated": "2009-05-15T03:31:26.7612835+02:00",
+  "UpdatedAssociateId": 130,
+  "UpdatedCount": 337,
+  "FolderName": "Little-Johnson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 750
+      "FieldType": "System.Int32",
+      "FieldLength": 622
     }
   }
 }

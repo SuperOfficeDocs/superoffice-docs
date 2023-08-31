@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatem"
+  "UniqueIdentifier": "nobis"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "autem",
-  "Name": "O'Connell-Bogan",
-  "Description": "Multi-channelled maximized emulation",
-  "IncludeId": "voluptate",
-  "Source": "eius",
-  "Registered": "2007-06-10T16:00:40.4925031+02:00",
-  "RegisteredBy": "nam",
-  "Updated": "2016-09-27T16:00:40.4925031+02:00",
-  "UpdatedBy": "animi",
-  "Path": "sequi",
+  "UniqueIdentifier": "sunt",
+  "Name": "Bogan-Dare",
+  "Description": "Team-oriented impactful concept",
+  "IncludeId": "ea",
+  "Source": "deleniti",
+  "Registered": "2000-11-06T03:31:25.9790593+01:00",
+  "RegisteredBy": "autem",
+  "Updated": "2004-09-26T03:31:25.9790593+02:00",
+  "UpdatedBy": "maxime",
+  "Path": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

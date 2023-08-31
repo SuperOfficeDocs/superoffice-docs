@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 405,
-    "UserName": "Huel, Stanton and Lebsack",
-    "PersonId": 216,
-    "Rank": 980,
-    "Tooltip": "tempora",
-    "UserGroupId": 147,
-    "EjUserId": 968,
+    "UserInfoId": 554,
+    "UserName": "Lebsack-Jewess",
+    "PersonId": 162,
+    "Rank": 627,
+    "Tooltip": "quo",
+    "UserGroupId": 490,
+    "EjUserId": 704,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "tempore",
-      "atque"
+      "excepturi",
+      "et"
     ],
-    "CanLogon": true,
-    "RoleName": "Lebsack Group",
-    "RoleTooltip": "nihil",
-    "UserGroupName": "Kiehn, Schumm and Jones",
-    "UserGroupTooltip": "recusandae",
+    "CanLogon": false,
+    "RoleName": "Gislason, Dach and Pouros",
+    "RoleTooltip": "quisquam",
+    "UserGroupName": "Medhurst LLC",
+    "UserGroupTooltip": "perferendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 427
       }
     }
   }

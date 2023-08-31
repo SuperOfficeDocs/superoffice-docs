@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 56,
-  "Name": "Okuneva-Leannon",
-  "Tooltip": "consequatur",
+  "Id": 750,
+  "Name": "Rohan Inc and Sons",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "Rank": 541,
+  "Rank": 305,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "saepe",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 540,
-  "Name": "Zboncak Group",
-  "Tooltip": "odit",
+  "Id": 926,
+  "Name": "Bogisich, Maggio and Mills",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 933,
+  "Rank": 583,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 186
     }
   }
 }

@@ -834,7 +834,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -1148,7 +1148,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=contactAssociate/contactId,sourceRelation/orgnr,sale/saleStatus,appointment/associate/personId,appointment/associate/portraitThumbnail
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=postAddress/county,contactExtra/x_contact_request_relation,targetRelation/nameDepartment,targetRelation/registeredBy,appointment/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

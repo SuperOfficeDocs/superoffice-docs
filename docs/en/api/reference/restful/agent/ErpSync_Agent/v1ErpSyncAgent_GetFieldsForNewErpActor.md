@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 694,
+  "ErpConnectionId": 915,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "deserunt",
-    "Rank": 696,
-    "DisplayName": "Schuppe Inc and Sons",
-    "DisplayDescription": "Decentralized explicit conglomeration",
+    "FieldKey": "maxime",
+    "Rank": 768,
+    "DisplayName": "Dietrich Group",
+    "DisplayDescription": "Digitized modular product",
     "FieldType": "Checkbox",
-    "ListName": "Metz-Jast",
-    "DefaultValue": "harum",
-    "MaxLength": 252,
+    "ListName": "Hilll, Buckridge and Morissette",
+    "DefaultValue": "dolorem",
+    "MaxLength": 485,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 266
       }
     }
   }

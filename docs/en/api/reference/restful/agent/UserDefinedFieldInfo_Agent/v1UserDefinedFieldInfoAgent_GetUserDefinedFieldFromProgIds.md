@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "et",
-    "optio"
+    "explicabo",
+    "quia"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 354,
-    "ColumnId": 606,
-    "FieldDefault": "nisi",
-    "FieldHeight": 390,
-    "FieldLabel": "sequi",
-    "FieldLeft": 778,
-    "FieldTop": 1000,
+    "UDefFieldId": 168,
+    "ColumnId": 178,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 45,
+    "FieldLabel": "eligendi",
+    "FieldLeft": 488,
+    "FieldTop": 533,
     "FieldType": "Checkbox",
-    "FieldWidth": 687,
-    "FormatMask": "reprehenderit",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 503,
-    "LabelLeft": 794,
-    "LabelTop": 47,
-    "LabelWidth": 779,
-    "LastVersionId": 563,
-    "ListTableId": 887,
+    "FieldWidth": 472,
+    "FormatMask": "voluptatem",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 583,
+    "LabelLeft": 631,
+    "LabelTop": 73,
+    "LabelWidth": 87,
+    "LastVersionId": 969,
+    "ListTableId": 476,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 207,
-    "ProgId": "qui",
+    "Page1LineNo": 530,
+    "ProgId": "odit",
     "IsReadOnly": true,
-    "ShortLabel": "dolor",
-    "TabOrder": 719,
-    "TextLength": 426,
-    "Tooltip": "eum",
-    "UdefIdentity": 436,
-    "UDListDefinitionId": 523,
+    "ShortLabel": "est",
+    "TabOrder": 327,
+    "TextLength": 956,
+    "Tooltip": "id",
+    "UdefIdentity": 13,
+    "UDListDefinitionId": 350,
     "Justification": "Center",
-    "Version": 883,
-    "TemplateVariableName": "Altenwerth Inc and Sons",
+    "Version": 613,
+    "TemplateVariableName": "Zulauf-Nikolaus",
     "HasBeenPublished": false,
-    "MdoListName": "Stracke-Koelpin",
+    "MdoListName": "Towne, Mann and Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 135
       }
     }
   }

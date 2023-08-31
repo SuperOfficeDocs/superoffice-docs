@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quos",
-  "ProviderName": "Trantow LLC",
-  "StorageKey": "rerum"
+  "StorageType": "sint",
+  "ProviderName": "Zboncak-Schultz",
+  "StorageKey": "ab"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bergnaum LLC",
-    "DisplayTooltip": "suscipit",
-    "DisplayType": "ea",
+    "DisplayName": "Schamberger Group",
+    "DisplayTooltip": "esse",
+    "DisplayType": "et",
     "CanOrderBy": false,
-    "Name": "Ankunding Inc and Sons",
-    "CanRestrictBy": false,
-    "RestrictionType": "autem",
-    "RestrictionListName": "Smitham LLC",
+    "Name": "D'Amore, Moen and Glover",
+    "CanRestrictBy": true,
+    "RestrictionType": "aliquid",
+    "RestrictionListName": "Strosin-Stamm",
     "IsVisible": false,
-    "ExtraInfo": "corporis",
-    "Width": "dolore",
-    "IconHint": "facilis",
-    "HeadingIconHint": "sit"
+    "ExtraInfo": "et",
+    "Width": "ipsa",
+    "IconHint": "vel",
+    "HeadingIconHint": "architecto"
   }
 ]
 ```

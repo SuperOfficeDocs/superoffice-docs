@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 488,
-    "Name": "Donnelly Inc and Sons",
-    "Tooltip": "dicta",
+    "HeadingId": 710,
+    "Name": "Huels-Windler",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 132,
-    "UdListDefinitionId": 118
+    "Rank": 157,
+    "UdListDefinitionId": 703
   },
   {
-    "HeadingId": 488,
-    "Name": "Donnelly Inc and Sons",
-    "Tooltip": "dicta",
+    "HeadingId": 710,
+    "Name": "Huels-Windler",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 132,
-    "UdListDefinitionId": 118
+    "Rank": 157,
+    "UdListDefinitionId": 703
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 680,
-    "Name": "Parisian-O'Hara",
-    "Tooltip": "quo",
+    "HeadingId": 627,
+    "Name": "Volkman, O'Conner and Dooley",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 647,
-    "UdListDefinitionId": 223,
+    "Rank": 941,
+    "UdListDefinitionId": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldType": "System.String",
+        "FieldLength": 73
       }
     }
   }

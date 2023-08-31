@@ -42,7 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|1|Stopped|||
+|1|Not running|||
 |2|Paused|||
 |3|Running|||
 

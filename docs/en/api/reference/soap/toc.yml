@@ -12132,6 +12132,8 @@
       href: Services88/Appointment/CreateAndAccept.md
     - name: CreateAndAcceptWithEmailConfirmation
       href: Services88/Appointment/CreateAndAcceptWithEmailConfirmation.md
+    - name: CreateAppointmentEntityFromExisting
+      href: Services88/Appointment/CreateAppointmentEntityFromExisting.md
     - name: CreateAppointmentForUID
       href: Services88/Appointment/CreateAppointmentForUID.md
     - name: CreateDefaultAppointmentEntity
@@ -12847,6 +12849,8 @@
       href: Services88/CRMScript/ExecuteScriptAsEventByUniqueId.md
     - name: ExecuteScriptByIncludeId
       href: Services88/CRMScript/ExecuteScriptByIncludeId.md
+    - name: ExecuteScriptByString
+      href: Services88/CRMScript/ExecuteScriptByString.md
     - name: ExecuteScriptByUniqueId
       href: Services88/CRMScript/ExecuteScriptByUniqueId.md
     - name: GetCRMScriptByUniqueIdentifier
@@ -12869,6 +12873,8 @@
       href: Services88/CRMScript/ValidateScript.md
     - name: ValidateScriptByIncludeId
       href: Services88/CRMScript/ValidateScriptByIncludeId.md
+    - name: ValidateScriptByString
+      href: Services88/CRMScript/ValidateScriptByString.md
     - name: ValidateScriptByUniqueId
       href: Services88/CRMScript/ValidateScriptByUniqueId.md
     - name: ValidateTriggerScript
@@ -13136,6 +13142,8 @@
       href: Services88/Document/CheckinDocument.md
     - name: CheckoutDocument
       href: Services88/Document/CheckoutDocument.md
+    - name: CopyDocumentToCsAttachment
+      href: Services88/Document/CopyDocumentToCsAttachment.md
     - name: CreateDefaultDocumentEntity
       href: Services88/Document/CreateDefaultDocumentEntity.md
     - name: CreateDefaultDocumentEntityFromSuggestion
@@ -13937,6 +13945,8 @@
       href: Services88/List/CreateDefaultTicketPriorityEntity.md
     - name: CreateDefaultTicketStatusEntity
       href: Services88/List/CreateDefaultTicketStatusEntity.md
+    - name: CreateDefaultTicketTypeEntity
+      href: Services88/List/CreateDefaultTicketTypeEntity.md
     - name: CreateDefaultWebPanelEntity
       href: Services88/List/CreateDefaultWebPanelEntity.md
     - name: DeleteAllFromListDefinition
@@ -13977,6 +13987,8 @@
       href: Services88/List/DeleteTicketPriorityEntity.md
     - name: DeleteTicketStatusEntity
       href: Services88/List/DeleteTicketStatusEntity.md
+    - name: DeleteTicketTypeEntity
+      href: Services88/List/DeleteTicketTypeEntity.md
     - name: DeleteWebPanel
       href: Services88/List/DeleteWebPanel.md
     - name: GenerateNavigationUrl
@@ -14015,6 +14027,8 @@
       href: Services88/List/GetAllTasks.md
     - name: GetAllTicketPriorities
       href: Services88/List/GetAllTicketPriorities.md
+    - name: GetAllTicketTypeEntities
+      href: Services88/List/GetAllTicketTypeEntities.md
     - name: GetAmountClassEntity
       href: Services88/List/GetAmountClassEntity.md
     - name: GetAppTaskMenus
@@ -14335,6 +14349,14 @@
       href: Services88/List/GetTicketStatuses.md
     - name: GetTicketStatusList
       href: Services88/List/GetTicketStatusList.md
+    - name: GetTicketType
+      href: Services88/List/GetTicketType.md
+    - name: GetTicketTypeEntity
+      href: Services88/List/GetTicketTypeEntity.md
+    - name: GetTicketTypeList
+      href: Services88/List/GetTicketTypeList.md
+    - name: GetTicketTypes
+      href: Services88/List/GetTicketTypes.md
     - name: GetVisibleForUserGroups
       href: Services88/List/GetVisibleForUserGroups.md
     - name: GetVisibleForUserGroupsFromListName
@@ -14421,6 +14443,8 @@
       href: Services88/List/SaveTicketPriorityEntity.md
     - name: SaveTicketStatusEntity
       href: Services88/List/SaveTicketStatusEntity.md
+    - name: SaveTicketTypeEntity
+      href: Services88/List/SaveTicketTypeEntity.md
     - name: SaveWebPanelEntity
       href: Services88/List/SaveWebPanelEntity.md
     - name: SetDocumentPluginForAllDocumentTemplates
@@ -15997,8 +16021,14 @@
       href: Services88/Workflow/AddAfterWorkflowStep.md
     - name: ConnectEmailFlowContent
       href: Services88/Workflow/ConnectEmailFlowContent.md
+    - name: CopyEmailFlowContent
+      href: Services88/Workflow/CopyEmailFlowContent.md
     - name: CreateDefaultEmailFlow
       href: Services88/Workflow/CreateDefaultEmailFlow.md
+    - name: CreateDefaultWorkflowEvent
+      href: Services88/Workflow/CreateDefaultWorkflowEvent.md
+    - name: CreateDefaultWorkflowEventResult
+      href: Services88/Workflow/CreateDefaultWorkflowEventResult.md
     - name: CreateDefaultWorkflowFilter
       href: Services88/Workflow/CreateDefaultWorkflowFilter.md
     - name: CreateDefaultWorkflowGoal
@@ -16029,6 +16059,10 @@
       href: Services88/Workflow/GetWorkflowStepOption.md
     - name: GetWorkflowTrigger
       href: Services88/Workflow/GetWorkflowTrigger.md
+    - name: RemoveParticipantsFromEmailFlow
+      href: Services88/Workflow/RemoveParticipantsFromEmailFlow.md
+    - name: Run
+      href: Services88/Workflow/Run.md
     - name: SaveEmailFlow
       href: Services88/Workflow/SaveEmailFlow.md
     - name: SaveWorkflowGoal
@@ -16037,5 +16071,7 @@
       href: Services88/Workflow/SaveWorkflowStepOption.md
     - name: SaveWorkflowTrigger
       href: Services88/Workflow/SaveWorkflowTrigger.md
+    - name: SendEvent
+      href: Services88/Workflow/SendEvent.md
     - name: TryAddPersonsToEmailFlow
       href: Services88/Workflow/TryAddPersonsToEmailFlow.md

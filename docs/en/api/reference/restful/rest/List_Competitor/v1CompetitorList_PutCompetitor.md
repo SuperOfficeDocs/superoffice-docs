@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 597,
-  "Name": "Monahan Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 492,
-  "Rank": 42
+  "Id": 870,
+  "Name": "Grant, Keebler and Keeling",
+  "Tooltip": "quas",
+  "Deleted": true,
+  "UdListDefinitionId": 837,
+  "Rank": 114
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 764,
-  "Name": "Brekke Inc and Sons",
-  "Tooltip": "dolores",
+  "Id": 671,
+  "Name": "Hegmann Inc and Sons",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 236,
-  "Rank": 220,
+  "UdListDefinitionId": 567,
+  "Rank": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldLength": 257
     }
   }
 }

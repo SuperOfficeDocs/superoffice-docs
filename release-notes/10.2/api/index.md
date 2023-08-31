@@ -13,6 +13,9 @@ so.topic: reference
 
 ## New Archive provider
 
+* v10.2.7
+  * [Appointmenthadowselectioncombined][150]
+  
 * v10.2.6
   * [EmailFlowContentProvider][120]
   * [ExternalDocumentItems][121]
@@ -42,6 +45,11 @@ so.topic: reference
   * [Recycle ticket][2]
 
 ## New MDO Providers
+
+* v10.2.7
+  * [AppointmentResource][140]
+  * [contact_and_person_freetextsearch][141]
+  * [contact_and_person_freetextsearch_hierarchical][142]
 
 * v10.2.4
   * [EmailFlow][67]
@@ -327,3 +335,7 @@ services.AddLogging(a =>
 [128]: ../../../docs/en/api/reference/soap/Services88/Workflow/ConnectEmailFlowContent.md
 [129]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateEmailFlowContent.md
 [130]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateEmailFlowContent.md
+[140]: ../../../docs/en/api/mdo-providers/reference/appointmentresource.md
+[141]: ../../../docs/en/api/mdo-providers/reference/contact_and_person_freetextsearch.md
+[142]: ../../../docs/en/api/mdo-providers/reference/contact_and_person_freetextsearch_hierarchical.md
+[150]: ../../../docs/en/api/archive-providers/reference/appointmenthadowselectioncombined.md

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "deserunt"
+  "TriggerScriptUniqueId": "porro"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 34,
-  "Name": "Spinka Group",
+  "ScreenChooserId": 390,
+  "Name": "Grady, Wiegand and Tillman",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "tenetur",
-  "Source": "et",
-  "Registered": "2009-01-16T16:00:40.4925031+01:00",
-  "RegisteredAssociateId": 701,
-  "Updated": "2020-04-24T16:00:40.4925031+02:00",
-  "UpdatedAssociateId": 692,
+  "UniqueIdentifier": "sed",
+  "Source": "voluptates",
+  "Registered": "2003-08-29T03:31:25.9790593+02:00",
+  "RegisteredAssociateId": 149,
+  "Updated": "2022-04-03T03:31:25.9790593+02:00",
+  "UpdatedAssociateId": 137,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldType": "System.String",
+      "FieldLength": 494
     }
   }
 }

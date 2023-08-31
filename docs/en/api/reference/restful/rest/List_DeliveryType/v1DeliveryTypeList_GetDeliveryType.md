@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Bins Inc and Sons",
-  "Tooltip": "dolore",
+  "Id": 562,
+  "Name": "Mitchell Group",
+  "Tooltip": "ab",
   "Deleted": false,
-  "UdListDefinitionId": 360,
-  "Rank": 617,
+  "UdListDefinitionId": 488,
+  "Rank": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

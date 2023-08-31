@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 45,
-    "Name": "Deckow, Cassin and McDermott",
-    "Tooltip": "eum",
+    "HeadingId": 796,
+    "Name": "Jones-Wunsch",
+    "Tooltip": "odit",
     "Deleted": false,
-    "Rank": 962,
-    "UdListDefinitionId": 975,
+    "Rank": 851,
+    "UdListDefinitionId": 226,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 974
       }
     }
   }

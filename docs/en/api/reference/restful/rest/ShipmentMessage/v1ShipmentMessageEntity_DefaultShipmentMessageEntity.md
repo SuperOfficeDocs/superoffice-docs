@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 824,
-  "PlainMessage": "qui",
-  "HtmlMessage": "vero",
-  "SmsMessage": "recusandae",
-  "Description": "Up-sized composite structure",
-  "Subject": "ut",
-  "FolderId": 195,
-  "HeaderField": "quaerat",
-  "Design": "sed",
+  "ShipmentMessageId": 450,
+  "PlainMessage": "ratione",
+  "HtmlMessage": "quidem",
+  "SmsMessage": "id",
+  "Description": "Balanced attitude-oriented complexity",
+  "Subject": "dolor",
+  "FolderId": 381,
+  "HeaderField": "impedit",
+  "Design": "incidunt",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Networked next generation productivity",
-  "AccessKey": "atque",
-  "DocumentMessage": 81,
-  "Registered": "2013-12-03T16:00:48.4615203+01:00",
-  "RegisteredAssociateId": 39,
-  "Updated": "2004-01-14T16:00:48.4615203+01:00",
-  "UpdatedAssociateId": 488,
-  "UpdatedCount": 738,
+  "LongDescription": "Extended contextually-based capacity",
+  "AccessKey": "sit",
+  "DocumentMessage": 756,
+  "Registered": "2023-02-12T03:31:32.9437607+01:00",
+  "RegisteredAssociateId": 133,
+  "Updated": "2004-04-08T03:31:32.9437607+02:00",
+  "UpdatedAssociateId": 938,
+  "UpdatedCount": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldLength": 372
     }
   }
 }

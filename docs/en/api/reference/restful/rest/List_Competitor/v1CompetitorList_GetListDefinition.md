@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 235,
-  "Name": "Kassulke, Gutmann and Kertzmann",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 533,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 850,
+  "Name": "Heller, Raynor and Howe",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 563,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 799
     }
   },
   "_Links": {

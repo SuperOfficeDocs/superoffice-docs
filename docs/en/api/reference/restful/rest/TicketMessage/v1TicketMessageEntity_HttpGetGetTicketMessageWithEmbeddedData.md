@@ -107,78 +107,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 115,
+  "EjMessageId": 250,
   "Ticket": null,
-  "CreatedAt": "2014-03-27T16:00:48.586505+01:00",
+  "CreatedAt": "2012-02-21T03:31:33.2406198+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "quod",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "tempora",
-  "TimeSpent": 321,
-  "Body": "iure",
-  "HtmlBody": "iste",
-  "EmailHeader": "tyrique@hintz.com",
-  "DebugInfo": "quia",
-  "MailSorter": "inventore",
+  "MessageId": "voluptas",
+  "TimeSpent": 533,
+  "Body": "a",
+  "HtmlBody": "qui",
+  "EmailHeader": "jules@welch.uk",
+  "DebugInfo": "est",
+  "MailSorter": "facere",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequuntur",
+  "SearchTitle": "consectetur",
   "MessageHeaders": [
     {
-      "Id": 215,
-      "Name": "Hane-Roberts",
-      "Value": "quo",
+      "Id": 738,
+      "Name": "Kuvalis Inc and Sons",
+      "Value": "repellendus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 653
+          "FieldType": "System.String",
+          "FieldLength": 426
         }
       }
     }
   ],
   "Important": false,
-  "Language": "inventore",
-  "Sentiment": 414,
-  "SentimentConfidence": 951,
+  "Language": "consequatur",
+  "Sentiment": 987,
+  "SentimentConfidence": 832,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 652,
-      "Name": "Schuppe Inc and Sons",
-      "ContentType": "voluptatem",
-      "AttSize": 506,
+      "AttachmentId": 665,
+      "Name": "Walsh, Klein and Daugherty",
+      "ContentType": "velit",
+      "AttSize": 974,
       "InlineImage": false,
-      "ContentId": "vitae",
-      "AuthKey": "qui",
+      "ContentId": "quos",
+      "AuthKey": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldLength": 475
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "tempora"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "sed"
+    "CustomFields1": "corporis",
+    "CustomFields2": "quisquam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   }
 }

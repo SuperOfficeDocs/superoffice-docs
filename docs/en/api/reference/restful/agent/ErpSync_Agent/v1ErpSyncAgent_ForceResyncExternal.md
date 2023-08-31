@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 854,
+  "ErpConnectionId": 683,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "illo",
-    "consequatur"
+    "voluptatem",
+    "eum"
   ]
 }
 ```
@@ -102,10 +102,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "in",
-  "TechExplanation": "eos",
-  "ErrorCode": "molestiae",
+  "IsOk": true,
+  "UserExplanation": "molestias",
+  "TechExplanation": "et",
+  "ErrorCode": "vel",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 489
     }
   }
 }

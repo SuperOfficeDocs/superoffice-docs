@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 795,
-  "CurrencyId": 545
+  "QuoteConnectionId": 485,
+  "CurrencyId": 575
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 854,
-    "ERPPriceListKey": "dolore",
-    "QuoteConnectionId": 921,
-    "Name": "Quigley, O'Keefe and Berge",
-    "Description": "Realigned grid-enabled intranet",
-    "Currency": "dolorum",
-    "CurrencyName": "Hermiston, Green and Klein",
-    "ValidFrom": "2017-12-17T16:00:41.6488224+01:00",
-    "ValidTo": "2001-03-24T16:00:41.6488224+01:00",
-    "IsActive": true,
+    "PriceListId": 656,
+    "ERPPriceListKey": "necessitatibus",
+    "QuoteConnectionId": 57,
+    "Name": "Ziemann, Lebsack and Bayer",
+    "Description": "Progressive even-keeled hardware",
+    "Currency": "eligendi",
+    "CurrencyName": "Terry-Olson",
+    "ValidFrom": "1997-10-11T03:31:27.0905589+02:00",
+    "ValidTo": "2020-01-25T03:31:27.0905589+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 210
       }
     }
   }

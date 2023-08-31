@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "doloremque",
+  "SaleText": "occaecati",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-06-06T16:00:41.7269142+02:00",
-  "Amount": 698.882,
-  "SaleId": 28,
-  "Earning": 30722.602,
-  "EarningPercent": 15177.962,
-  "Heading": "debitis",
-  "Number": "1292971",
-  "Probability": 783,
-  "CreatedDate": "2022-06-06T16:00:41.7269142+02:00",
-  "UpdatedDate": "1999-11-03T16:00:41.7269142+01:00",
+  "Saledate": "2021-11-08T03:31:27.1530871+01:00",
+  "Amount": 6130.1039999999994,
+  "SaleId": 337,
+  "Earning": 23489.329999999998,
+  "EarningPercent": 8098.2559999999994,
+  "Heading": "mollitia",
+  "Number": "1191618",
+  "Probability": 957,
+  "CreatedDate": "2017-05-10T03:31:27.1530871+02:00",
+  "UpdatedDate": "2007-11-29T03:31:27.1530871+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 74,
+  "ActiveLinks": 429,
   "Links": [
     {
-      "EntityName": "Terry, Rippin and Klein",
-      "Id": 997,
-      "Description": "Business-focused solution-oriented open system",
-      "ExtraInfo": "et",
-      "LinkId": 18,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 597
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2001-11-20T16:00:41.7269142+01:00",
-  "Postit": "eum",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2000-03-14T16:00:41.7269142+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Huels Group",
-      "Comment": "voluptas",
-      "StakeholderRoleId": 67,
-      "CountryId": 521,
-      "PersonId": 413,
-      "EmailDescription": "seamus_daniel@ferrycruickshank.co.uk",
-      "EmailId": 899,
-      "EmailAddress": "fannie@mullerhauck.biz",
-      "PhoneId": 481,
-      "ContactName": "Haley Inc and Sons",
-      "ContactId": 513,
-      "SaleId": 846,
-      "Mrmrs": "consectetur",
-      "Firstname": "Karley",
-      "MiddleName": "Hane, Gaylord and Daniel",
-      "Lastname": "Barton",
-      "SaleStakeholderId": 831,
-      "Rank": 138,
-      "Phone": "(612)233-1418 x70678",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 850
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 484,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Cletus Hudson",
-    "SuperOffice:2": "2124685794"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "harum"
-  },
-  "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "dolor"
-  },
-  "PublishEventDate": "2007-02-04T16:00:41.7269142+01:00",
-  "PublishTo": "2015-05-05T16:00:41.7269142+02:00",
-  "PublishFrom": "2023-01-29T16:00:41.7269142+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 46,
-      "Visibility": "All",
-      "DisplayValue": "rerum",
+      "EntityName": "Kessler Inc and Sons",
+      "Id": 451,
+      "Description": "Synergistic bi-directional installation",
+      "ExtraInfo": "sequi",
+      "LinkId": 485,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 143
+          "FieldLength": 330
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2011-08-03T03:31:27.1530871+02:00",
+  "Postit": "corrupti",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2010-12-15T03:31:27.1530871+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "O'Connell LLC",
+      "Comment": "aut",
+      "StakeholderRoleId": 568,
+      "CountryId": 696,
+      "PersonId": 879,
+      "EmailDescription": "deangelo_ortiz@cremin.biz",
+      "EmailId": 261,
+      "EmailAddress": "maida@cummeratadavis.com",
+      "PhoneId": 34,
+      "ContactName": "Larkin, Rodriguez and Purdy",
+      "ContactId": 759,
+      "SaleId": 787,
+      "Mrmrs": "sit",
+      "Firstname": "Mazie",
+      "MiddleName": "Hayes LLC",
+      "Lastname": "Kuhic",
+      "SaleStakeholderId": 52,
+      "Rank": 460,
+      "Phone": "297.018.2800 x0725",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 899
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 822,
+  "UserDefinedFields": {
+    "SuperOffice:1": "145402580",
+    "SuperOffice:2": "Prof. Neha Bella Wintheiser"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "sapiente"
+  },
+  "CustomFields": {
+    "CustomFields1": "et",
+    "CustomFields2": "quisquam"
+  },
+  "PublishEventDate": "2014-10-08T03:31:27.1530871+02:00",
+  "PublishTo": "2009-06-19T03:31:27.1530871+02:00",
+  "PublishFrom": "2008-12-30T03:31:27.1530871+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 381,
+      "Visibility": "All",
+      "DisplayValue": "eum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 232
         }
       }
     },
     {
-      "VisibleId": 46,
+      "VisibleId": 381,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 143
+          "FieldType": "System.Int32",
+          "FieldLength": 232
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldType": "System.Int32",
+      "FieldLength": 105
     }
   }
 }

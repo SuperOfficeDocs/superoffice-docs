@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 190,
-  "BlobSize": 698,
-  "Description": "Pre-emptive non-volatile application",
-  "ExtraInfo": "quia",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "beatae",
-  "OriginalSize": 12,
-  "CreatedDate": "2021-05-15T16:00:48.6958683+02:00",
-  "UpdatedDate": "2012-03-14T16:00:48.6958683+01:00",
+  "BlobId": 771,
+  "BlobSize": 880,
+  "Description": "Universal disintermediate installation",
+  "ExtraInfo": "ea",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "architecto",
+  "OriginalSize": 718,
+  "CreatedDate": "2022-03-13T03:31:33.3354795+01:00",
+  "UpdatedDate": "2020-12-24T03:31:33.3354795+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nihil"
+  "ConceptualType": "dolor"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 295,
-  "BlobSize": 412,
-  "Description": "Inverse high-level collaboration",
-  "ExtraInfo": "sit",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "omnis",
-  "OriginalSize": 346,
-  "CreatedDate": "2020-01-16T16:00:48.6958683+01:00",
-  "UpdatedDate": "2009-05-20T16:00:48.6958683+02:00",
+  "BlobId": 763,
+  "BlobSize": 499,
+  "Description": "Open-architected local synergy",
+  "ExtraInfo": "reiciendis",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "nulla",
+  "OriginalSize": 959,
+  "CreatedDate": "2005-05-30T03:31:33.3354795+02:00",
+  "UpdatedDate": "2022-05-11T03:31:33.3354795+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quasi",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 37
     }
   }
 }

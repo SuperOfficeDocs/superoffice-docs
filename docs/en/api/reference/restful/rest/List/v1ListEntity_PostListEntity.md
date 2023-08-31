@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 184,
-  "Name": "Lubowitz, Quigley and Lubowitz",
-  "Tooltip": "autem",
+  "Id": 982,
+  "Name": "Abshire-Zboncak",
+  "Tooltip": "velit",
   "Deleted": true,
-  "Rank": 53,
-  "IsCustomList": false,
+  "Rank": 488,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consectetur",
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Heaney-Skiles",
-  "Tooltip": "autem",
+  "Id": 239,
+  "Name": "Mitchell Group",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 987,
-  "IsCustomList": true,
+  "Rank": 74,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquam",
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 889
     }
   },
   "_Links": {

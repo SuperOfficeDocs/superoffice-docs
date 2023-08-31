@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Mante Group",
-      "Description": "Team-oriented client-server standardization",
-      "Rank": 675,
+      "Name": "Hettinger LLC",
+      "Description": "Up-sized mobile project",
+      "Rank": 545,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mante Group",
-      "Description": "Team-oriented client-server standardization",
-      "Rank": 675,
+      "Name": "Hettinger LLC",
+      "Description": "Up-sized mobile project",
+      "Rank": 545,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 874
     }
   }
 }

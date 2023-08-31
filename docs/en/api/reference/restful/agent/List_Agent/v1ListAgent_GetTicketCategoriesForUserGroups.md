@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    13,
-    798
+    839,
+    748
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Kertzmann Inc and Sons",
-    "ToolTip": "Id quasi reprehenderit quas.",
-    "Deleted": false,
-    "Rank": 503,
-    "Type": "eum",
+    "Id": 18,
+    "Name": "Hoppe LLC",
+    "ToolTip": "Sequi voluptatem sapiente occaecati.",
+    "Deleted": true,
+    "Rank": 969,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Durgan LLC",
-        "ToolTip": "Tempora assumenda.",
+        "Id": 849,
+        "Name": "Baumbach, O'Conner and Brekke",
+        "ToolTip": "Molestiae dolore quas deleniti sit.",
         "Deleted": false,
-        "Rank": 332,
-        "Type": "autem",
+        "Rank": 652,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 484,
-        "ExtraInfo": "vel",
-        "StyleHint": "quae",
-        "FullName": "Berta Wuckert",
+        "IconHint": "a",
+        "ColorBlock": 794,
+        "ExtraInfo": "non",
+        "StyleHint": "qui",
+        "FullName": "Mrs. Alexandro Lindgren MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldLength": 62
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 408,
-    "ExtraInfo": "illo",
-    "StyleHint": "impedit",
-    "FullName": "Mr. Maia Walter Lowe PhD",
+    "IconHint": "voluptatem",
+    "ColorBlock": 536,
+    "ExtraInfo": "aut",
+    "StyleHint": "quis",
+    "FullName": "Cora Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldType": "System.String",
+        "FieldLength": 708
       }
     }
   }

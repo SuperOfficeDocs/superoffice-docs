@@ -100,6 +100,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -111,7 +112,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -121,21 +122,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 365,
-  "Title": "ea",
-  "CreatedAt": "2007-10-12T16:00:41.9456639+02:00",
-  "LastChanged": "2017-10-05T16:00:41.9456639+02:00",
-  "ReadByOwner": "2001-04-18T16:00:41.9456639+02:00",
-  "ReadByCustomer": "2011-02-24T16:00:41.9456639+01:00",
-  "FirstReadByOwner": "2015-04-06T16:00:41.9456639+02:00",
-  "FirstReadByUser": "2001-09-29T16:00:41.9456639+02:00",
-  "Activate": "2004-01-08T16:00:41.9456639+01:00",
-  "ClosedAt": "2002-01-16T16:00:41.9456639+01:00",
-  "RepliedAt": "1998-09-06T16:00:41.9456639+02:00",
-  "AlertTimeout": "1998-12-08T16:00:41.9456639+01:00",
-  "Deadline": "2015-10-11T16:00:41.9456639+02:00",
+  "TicketId": 89,
+  "Title": "neque",
+  "CreatedAt": "2019-01-08T03:31:27.3405474+01:00",
+  "LastChanged": "2009-02-20T03:31:27.3405474+01:00",
+  "ReadByOwner": "2013-09-21T03:31:27.3405474+02:00",
+  "ReadByCustomer": "2012-03-22T03:31:27.3405474+01:00",
+  "FirstReadByOwner": "2018-11-20T03:31:27.3405474+01:00",
+  "FirstReadByUser": "2002-10-10T03:31:27.3405474+02:00",
+  "Activate": "2002-03-27T03:31:27.3405474+01:00",
+  "ClosedAt": "1998-08-19T03:31:27.3405474+02:00",
+  "RepliedAt": "2022-12-08T03:31:27.3405474+01:00",
+  "AlertTimeout": "1999-02-16T03:31:27.3405474+01:00",
+  "Deadline": "2018-09-07T03:31:27.3405474+02:00",
   "CreatedBy": null,
-  "Author": "sequi",
+  "Author": "quasi",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -146,159 +147,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ullam",
-      "PersonId": 467,
-      "Mrmrs": "quaerat",
-      "Firstname": "Opal",
-      "Lastname": "Koepp",
-      "MiddleName": "Macejkovic LLC",
-      "Title": "rerum",
-      "Description": "Right-sized encompassing approach",
-      "Email": "vernie@gislasonkling.ca",
-      "FullName": "Crystal Krajcik",
-      "DirectPhone": "(436)343-5675 x504",
-      "FormalName": "Abernathy Group",
-      "CountryId": 533,
-      "ContactId": 629,
-      "ContactName": "Ryan Inc and Sons",
-      "Retired": 442,
-      "Rank": 643,
-      "ActiveInterests": 877,
+      "Position": "fuga",
+      "PersonId": 941,
+      "Mrmrs": "et",
+      "Firstname": "Candida",
+      "Lastname": "Hintz",
+      "MiddleName": "Bailey-Haag",
+      "Title": "non",
+      "Description": "Reduced empowering matrix",
+      "Email": "jairo_auer@hudsonkovacek.info",
+      "FullName": "Issac Ratke",
+      "DirectPhone": "1-302-558-7466",
+      "FormalName": "Padberg, Wintheiser and Kessler",
+      "CountryId": 962,
+      "ContactId": 633,
+      "ContactName": "Lakin, White and Christiansen",
+      "Retired": 281,
+      "Rank": 168,
+      "ActiveInterests": 571,
       "ContactDepartment": "",
-      "ContactCountryId": 873,
-      "ContactOrgNr": "1077184",
-      "FaxPhone": "374.365.9429",
-      "MobilePhone": "1-064-062-2290 x3945",
-      "ContactPhone": "628-616-8588 x452",
-      "AssociateName": "Cruickshank Group",
-      "AssociateId": 538,
+      "ContactCountryId": 657,
+      "ContactOrgNr": "1869591",
+      "FaxPhone": "524-183-7971",
+      "MobilePhone": "(095)692-5178 x38484",
+      "ContactPhone": "(299)999-0989",
+      "AssociateName": "Schowalter-Wiza",
+      "AssociateId": 855,
       "UsePersonAddress": false,
-      "ContactFax": "dolor",
-      "Kanafname": "saepe",
-      "Kanalname": "quia",
-      "Post1": "similique",
-      "Post2": "voluptatem",
-      "Post3": "nihil",
-      "EmailName": "lacey@predovic.uk",
-      "ContactFullName": "Isai Brody Bernhard PhD",
-      "ActiveErpLinks": 299,
-      "TicketPriorityId": 72,
-      "SupportLanguageId": 593,
-      "SupportAssociateId": 600,
+      "ContactFax": "ut",
+      "Kanafname": "velit",
+      "Kanalname": "nesciunt",
+      "Post1": "magnam",
+      "Post2": "earum",
+      "Post3": "inventore",
+      "EmailName": "henry@macejkovichowell.biz",
+      "ContactFullName": "Forrest McLaughlin",
+      "ActiveErpLinks": 230,
+      "TicketPriorityId": 297,
+      "SupportLanguageId": 375,
+      "SupportAssociateId": 312,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldType": "System.String",
+          "FieldLength": 861
         }
       }
     }
   ],
-  "AlertLevel": 921,
-  "ConnectId": 481,
+  "AlertLevel": 100,
+  "ConnectId": 945,
   "ReadStatus": "Green",
-  "TimeToReply": 102,
-  "RealTimeToReply": 487,
-  "TimeToClose": 657,
-  "RealTimeToClose": 96,
-  "TimeSpentInternally": 8,
-  "TimeSpentExternally": 623,
-  "TimeSpentQueue": 114,
-  "RealTimeSpentInternally": 908,
-  "RealTimeSpentExternally": 394,
-  "RealTimeSpentQueue": 813,
+  "TimeToReply": 594,
+  "RealTimeToReply": 734,
+  "TimeToClose": 355,
+  "RealTimeToClose": 660,
+  "TimeSpentInternally": 954,
+  "TimeSpentExternally": 176,
+  "TimeSpentQueue": 191,
+  "RealTimeSpentInternally": 574,
+  "RealTimeSpentExternally": 697,
+  "RealTimeSpentQueue": 665,
   "HasAttachment": true,
-  "NumReplies": 161,
-  "NumMessages": 55,
-  "FromAddress": "tenetur",
+  "NumReplies": 86,
+  "NumMessages": 21,
+  "FromAddress": "est",
   "Messages": [
     {
-      "TicketMessageId": 647,
-      "CreatedAt": "2000-11-06T16:00:41.9456639+01:00",
+      "TicketMessageId": 258,
+      "CreatedAt": "2022-07-22T03:31:27.3405474+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "consequuntur",
-      "PersonId": 806,
-      "PersonFullName": "Miss Camila Pansy Ward",
-      "ContactId": 353,
-      "ContactName": "Heathcote-Dietrich",
+      "Author": "animi",
+      "PersonId": 875,
+      "PersonFullName": "Deanna Grimes",
+      "ContactId": 428,
+      "ContactName": "Casper-Vandervort",
       "ContactDepartment": "",
-      "NumAttachments": 472,
-      "EmailHeader": "aniyah@hintz.co.uk",
+      "NumAttachments": 300,
+      "EmailHeader": "tevin@dooleylindgren.biz",
       "MessageHeaders": [
         {},
         {}
       ],
       "Language": "nihil",
-      "Sentiment": 525,
-      "SentimentConfidence": 56,
-      "CreatedBy": 800,
-      "ChangedAt": "2006-09-08T16:00:41.9456639+02:00",
+      "Sentiment": 114,
+      "SentimentConfidence": 257,
+      "CreatedBy": 741,
+      "ChangedAt": "1998-03-31T03:31:27.3405474+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 456
+          "FieldType": "System.Int32",
+          "FieldLength": 362
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 262,
-      "Name": "Brekke LLC",
-      "ToolTip": "Ducimus quo ea vel error et dolor mollitia.",
+      "Id": 747,
+      "Name": "Wilderman-Rogahn",
+      "ToolTip": "Delectus esse.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldType": "System.String",
+          "FieldLength": 567
         }
       }
     },
     {
-      "Id": 262,
-      "Name": "Brekke LLC",
-      "ToolTip": "Ducimus quo ea vel error et dolor mollitia.",
+      "Id": 747,
+      "Name": "Wilderman-Rogahn",
+      "ToolTip": "Delectus esse.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldType": "System.String",
+          "FieldLength": 567
         }
       }
     }
   ],
-  "Language": "eveniet",
-  "Sentiment": 517,
-  "SentimentConfidence": 383,
-  "SuggestedCategoryId": 351,
+  "Language": "ex",
+  "Sentiment": 521,
+  "SentimentConfidence": 979,
+  "SuggestedCategoryId": 249,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 92,
-  "IconHint": "cum",
+  "OrigHumanCategoryId": 352,
+  "IconHint": "rerum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "accusantium"
   },
   "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "quia",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

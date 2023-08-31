@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Buckridge-Lakin",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "UdListDefinitionId": 348,
-    "Rank": 178
+    "Id": 331,
+    "Name": "Corwin, Smith and Cremin",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "UdListDefinitionId": 533,
+    "Rank": 73
   },
   {
-    "Id": 388,
-    "Name": "Buckridge-Lakin",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "UdListDefinitionId": 348,
-    "Rank": 178
+    "Id": 331,
+    "Name": "Corwin, Smith and Cremin",
+    "Tooltip": "quas",
+    "Deleted": false,
+    "UdListDefinitionId": 533,
+    "Rank": 73
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Boehm Group",
-    "Tooltip": "iste",
-    "Deleted": false,
-    "UdListDefinitionId": 351,
-    "Rank": 311,
+    "Id": 150,
+    "Name": "O'Hara Group",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "UdListDefinitionId": 29,
+    "Rank": 44,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 479
       }
     }
   }

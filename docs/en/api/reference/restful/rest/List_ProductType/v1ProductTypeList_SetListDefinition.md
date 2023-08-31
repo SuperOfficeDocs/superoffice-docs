@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 744,
-  "Name": "Crist Group",
-  "Tooltip": "et",
+  "Id": 816,
+  "Name": "Conroy-Beatty",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 193,
+  "Rank": 798,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
-  "InUseByUserDefinedFields": true
+  "ListType": "nobis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Kilback Group",
-  "Tooltip": "id",
+  "Id": 677,
+  "Name": "Auer, Kassulke and Denesik",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 470,
+  "Rank": 878,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "labore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ex",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldLength": 165
     }
   }
 }

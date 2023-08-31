@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 927,
-  "StartTime": "1999-09-12T16:00:40.5706201+02:00",
-  "EndTime": "2018-08-31T16:00:40.5706201+02:00",
-  "Count": 673
+  "ContactId": 461,
+  "StartTime": "2017-05-19T03:31:26.0427182+02:00",
+  "EndTime": "2006-07-21T03:31:26.0427182+02:00",
+  "Count": 364
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 443,
-    "Attention": "ut",
-    "Header": "aut",
-    "Name": "Frami-Roberts",
-    "OurRef": "quod",
-    "YourRef": "harum",
-    "Description": "Automated cohesive moratorium",
-    "DocumentTemplate": "et",
+    "DocumentId": 530,
+    "Attention": "suscipit",
+    "Header": "corporis",
+    "Name": "Russel LLC",
+    "OurRef": "ut",
+    "YourRef": "voluptate",
+    "Description": "Team-oriented system-worthy migration",
+    "DocumentTemplate": "rem",
     "IsPublished": false,
-    "PersonId": 104,
-    "PersonFullName": "Liliana Arne Heathcote PhD",
-    "AssociateFullName": "Leon Parker",
-    "ContactId": 266,
-    "ContactName": "Schmeler, Koelpin and Daniel",
-    "ProjectId": 89,
-    "ProjectName": "Hane Inc and Sons",
-    "AssociateId": 785,
-    "Snum": 1001,
-    "SaleId": 558,
-    "SaleName": "Steuber, Hackett and Maggio",
+    "PersonId": 702,
+    "PersonFullName": "Lelah Gleichner",
+    "AssociateFullName": "Bette Hills",
+    "ContactId": 384,
+    "ContactName": "Kreiger-Wunsch",
+    "ProjectId": 969,
+    "ProjectName": "Kiehn Group",
+    "AssociateId": 608,
+    "Snum": 349,
+    "SaleId": 959,
+    "SaleName": "Hoeger LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldLength": 973
       }
     }
   }

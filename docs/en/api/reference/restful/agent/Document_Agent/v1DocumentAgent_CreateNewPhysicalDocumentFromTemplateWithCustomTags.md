@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 732,
-  "PersonId": 375,
-  "AppointmentId": 459,
-  "DocumentId": 632,
-  "SaleId": 49,
-  "SelectionId": 725,
-  "ProjectId": 131,
+  "ContactId": 230,
+  "PersonId": 899,
+  "AppointmentId": 79,
+  "DocumentId": 228,
+  "SaleId": 741,
+  "SelectionId": 708,
+  "ProjectId": 640,
   "CustomTags": [
-    "quibusdam",
-    "qui"
+    "et",
+    "quia"
   ],
   "CustomValues": [
-    "recusandae",
-    "hic"
+    "ab",
+    "ipsa"
   ],
-  "UiCulture": "modi"
+  "UiCulture": "non"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 859,
+  "DocumentId": 634,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "enim",
-  "Header": "sit",
-  "Name": "Nicolas, Marks and Lakin",
-  "OurRef": "iusto",
-  "YourRef": "qui",
-  "CreatedDate": "2021-12-02T16:00:40.7581269+01:00",
-  "UpdatedDate": "2004-05-05T16:00:40.7581269+02:00",
-  "Description": "Multi-lateral multi-state conglomeration",
+  "Attention": "soluta",
+  "Header": "doloribus",
+  "Name": "Kessler, Nader and Feeney",
+  "OurRef": "illum",
+  "YourRef": "accusamus",
+  "CreatedDate": "2007-03-28T03:31:26.1364448+02:00",
+  "UpdatedDate": "2008-09-25T03:31:26.1364448+02:00",
+  "Description": "Customer-focused zero tolerance ability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-11-06T16:00:40.7737465+01:00",
-  "ExternalRef": "labore",
+  "Date": "2021-06-22T03:31:26.1364448+02:00",
+  "ExternalRef": "quaerat",
   "Completed": "Completed",
-  "ActiveLinks": 14,
+  "ActiveLinks": 673,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gaylord, Torp and Cummings",
-      "Id": 881,
-      "Description": "Customizable directional benchmark",
-      "ExtraInfo": "tenetur",
-      "LinkId": 117,
+      "EntityName": "Sawayn, Emard and Ritchie",
+      "Id": 49,
+      "Description": "Implemented bandwidth-monitored orchestration",
+      "ExtraInfo": "ullam",
+      "LinkId": 622,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 787
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 199,
-  "Snum": 936,
+  "SuggestedDocumentId": 487,
+  "Snum": 42,
   "UserDefinedFields": {
-    "SuperOffice:1": "Wallace Dibbert",
-    "SuperOffice:2": "1670109785"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "est",
+    "CustomFields2": "culpa"
   },
-  "PublishEventDate": "2015-09-26T16:00:40.7737465+02:00",
-  "PublishTo": "2017-05-20T16:00:40.7737465+02:00",
-  "PublishFrom": "2020-01-09T16:00:40.7737465+01:00",
+  "PublishEventDate": "2017-08-26T03:31:26.1364448+02:00",
+  "PublishTo": "2019-04-28T03:31:26.1364448+02:00",
+  "PublishFrom": "2020-03-22T03:31:26.1364448+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 354,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldType": "System.String",
+          "FieldLength": 214
         }
       }
     },
     {
-      "VisibleId": 354,
+      "VisibleId": 230,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldType": "System.String",
+          "FieldLength": 214
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 748
     }
   }
 }

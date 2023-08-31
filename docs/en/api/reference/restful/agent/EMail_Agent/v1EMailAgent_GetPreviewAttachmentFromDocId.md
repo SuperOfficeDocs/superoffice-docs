@@ -76,6 +76,7 @@ OK
 | Encoding | string | Content-Transfer-Encoding |
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
+| IsSafeFileExtension | bool | If the user should be allowed to download and perform other actions on the attachment. |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 944,
-  "AttachmentId": "omnis"
+  "DocId": 976,
+  "AttachmentId": "libero"
 }
 ```
 
@@ -102,20 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered value-added protocol",
-  "Filename": "rerum",
-  "Size": 988,
-  "Type": "distinctio",
-  "Encoding": "hic",
-  "Id": "totam",
-  "Disposition": "maxime",
+  "Description": "Enhanced incremental support",
+  "Filename": "eius",
+  "Size": 407,
+  "Type": "corporis",
+  "Encoding": "quia",
+  "Id": "dolorem",
+  "Disposition": "enim",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldType": "System.Int32",
+      "FieldLength": 517
     }
   }
 }

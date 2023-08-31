@@ -678,7 +678,7 @@ as well as before any ORDER BY, are applied.
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -992,7 +992,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personUpdatedDate,personDirectPhone/formattedNumber,personInfo/textId,personAddress/formattedAddress,personSourceRelation/restrictionPersonId
+GET /api/v1/archive/FreetextPerson?$select=personBusiness,personAssociate/title,personAssociate/ejUserId,personContact/contactUdef/SuperOffice:9,request/realTimeSpentQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

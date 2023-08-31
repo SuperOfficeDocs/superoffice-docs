@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 92,
-  "ERPProductKey": "voluptatum",
-  "ERPPriceListKey": "quas",
-  "Name": "Grimes-Kuphal",
-  "Description": "Re-contextualized real-time internet solution",
-  "Code": "labore",
-  "PriceUnit": "nihil",
-  "QuantityUnit": "neque",
+  "ProductId": 765,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "et",
+  "Name": "Considine, Paucek and Turner",
+  "Description": "Robust 3rd generation ability",
+  "Code": "sed",
+  "PriceUnit": "est",
+  "QuantityUnit": "ex",
   "IsSubscription": true,
-  "SubscriptionUnit": "fuga",
-  "DefaultSubscriptionQuantity": 29747.928,
-  "ItemNumber": "797113",
+  "SubscriptionUnit": "sint",
+  "DefaultSubscriptionQuantity": 12463.918,
+  "ItemNumber": "1248111",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
-  "ProductTypeKey": "beatae",
-  "VAT": 7415.044,
-  "VATInfo": "autem",
-  "UnitCost": 19133.07,
-  "UnitMinimumPrice": 28713.708,
-  "UnitListPrice": 18449.858,
-  "InAssortment": false,
-  "Supplier": "veritatis",
-  "SupplierCode": "in",
-  "Rights": "et",
-  "Rule": "molestias",
+  "ProductFamilyKey": "ex",
+  "ProductTypeKey": "consequatur",
+  "VAT": 9909.708,
+  "VATInfo": "nihil",
+  "UnitCost": 6832.12,
+  "UnitMinimumPrice": 27178.048,
+  "UnitListPrice": 29951.638,
+  "InAssortment": true,
+  "Supplier": "sed",
+  "SupplierCode": "alias",
+  "Rights": "porro",
+  "Rule": "rem",
   "ExtraInfo": [
     {
-      "Name": "Turcotte, Mueller and Fay",
-      "Value": "quia",
+      "Name": "Padberg, Heaney and Beatty",
+      "Value": "ut",
       "Type": "Image"
     },
     {
-      "Name": "Turcotte, Mueller and Fay",
-      "Value": "quia",
+      "Name": "Padberg, Heaney and Beatty",
+      "Value": "ut",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "facere",
-  "ExtraField1": "illo",
-  "ExtraField2": "alias",
-  "ExtraField3": "aut",
-  "ExtraField4": "dolore",
-  "ExtraField5": "voluptatem",
-  "InStock": 27341.016
+  "RawExtraInfo": "est",
+  "ExtraField1": "beatae",
+  "ExtraField2": "et",
+  "ExtraField3": "consectetur",
+  "ExtraField4": "impedit",
+  "ExtraField5": "dignissimos",
+  "InStock": 10900.052
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 582,
-  "ERPProductKey": "consequatur",
-  "ERPPriceListKey": "doloribus",
-  "Name": "Schimmel, Monahan and Koepp",
-  "Description": "Vision-oriented logistical hub",
-  "Code": "facilis",
-  "PriceUnit": "optio",
-  "QuantityUnit": "assumenda",
-  "IsSubscription": false,
-  "SubscriptionUnit": "excepturi",
-  "DefaultSubscriptionQuantity": 17215.061999999998,
-  "ItemNumber": "1124347",
+  "ProductId": 563,
+  "ERPProductKey": "possimus",
+  "ERPPriceListKey": "laboriosam",
+  "Name": "Nitzsche Group",
+  "Description": "Devolved dynamic concept",
+  "Code": "ut",
+  "PriceUnit": "quos",
+  "QuantityUnit": "similique",
+  "IsSubscription": true,
+  "SubscriptionUnit": "earum",
+  "DefaultSubscriptionQuantity": 24451.468,
+  "ItemNumber": "1128118",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cum",
-  "ProductTypeKey": "doloribus",
-  "VAT": 4559.97,
-  "VATInfo": "sint",
-  "UnitCost": 15898.782,
-  "UnitMinimumPrice": 18299.426,
-  "UnitListPrice": 22978.487999999998,
-  "InAssortment": true,
-  "Supplier": "sed",
-  "SupplierCode": "et",
-  "Rights": "quia",
-  "Rule": "id",
+  "ProductFamilyKey": "officiis",
+  "ProductTypeKey": "autem",
+  "VAT": 23279.352,
+  "VATInfo": "ut",
+  "UnitCost": 19013.978,
+  "UnitMinimumPrice": 8728.19,
+  "UnitListPrice": 11943.673999999999,
+  "InAssortment": false,
+  "Supplier": "totam",
+  "SupplierCode": "repudiandae",
+  "Rights": "saepe",
+  "Rule": "quod",
   "ExtraInfo": [
     {
-      "Name": "Stehr-Thiel",
-      "Value": "voluptas",
+      "Name": "Bernier-Schimmel",
+      "Value": "nisi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 771
+          "FieldType": "System.Int32",
+          "FieldLength": 531
         }
       }
     },
     {
-      "Name": "Stehr-Thiel",
-      "Value": "voluptas",
+      "Name": "Bernier-Schimmel",
+      "Value": "nisi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 771
+          "FieldType": "System.Int32",
+          "FieldLength": 531
         }
       }
     }
   ],
-  "RawExtraInfo": "iusto",
-  "ExtraField1": "ut",
-  "ExtraField2": "ex",
-  "ExtraField3": "quia",
-  "ExtraField4": "qui",
-  "ExtraField5": "et",
-  "InStock": 595.46,
+  "RawExtraInfo": "doloremque",
+  "ExtraField1": "ea",
+  "ExtraField2": "sit",
+  "ExtraField3": "enim",
+  "ExtraField4": "inventore",
+  "ExtraField5": "qui",
+  "InStock": 21477.302,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 11
     }
   }
 }

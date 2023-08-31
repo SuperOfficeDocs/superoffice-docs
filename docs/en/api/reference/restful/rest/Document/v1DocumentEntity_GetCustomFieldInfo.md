@@ -71,7 +71,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hane Inc and Sons",
-  "DisplayName": "Durgan-Larson",
-  "Description": "Mandatory full-range capacity",
-  "ShortLabel": "recusandae",
-  "HideLabel": false,
-  "HideField": false,
+  "FieldName": "Roob-Rippin",
+  "DisplayName": "Effertz Inc and Sons",
+  "Description": "Quality-focused assymetric synergy",
+  "ShortLabel": "qui",
+  "HideLabel": true,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": false,
-  "Rank": 277,
-  "TemplateVariableName": "Ernser, Kuvalis and Crona"
+  "IsExternal": true,
+  "Rank": 832,
+  "TemplateVariableName": "Ryan Inc and Sons"
 }
 ```

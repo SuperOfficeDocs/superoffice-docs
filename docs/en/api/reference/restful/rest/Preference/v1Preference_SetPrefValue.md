@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "cumque",
+  "RawValue": "deserunt",
   "Specification": null,
-  "DisplayValue": "repellat",
-  "DisplayTooltip": "omnis",
+  "DisplayValue": "qui",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 411,
-  "PrefDescId": 222,
-  "TableName": "Lueilwitz, Adams and Bednar",
-  "UserPreferenceId": 434
+  "TargetId": 834,
+  "PrefDescId": 304,
+  "TableName": "Bode Inc and Sons",
+  "UserPreferenceId": 402
 }
 ```
 

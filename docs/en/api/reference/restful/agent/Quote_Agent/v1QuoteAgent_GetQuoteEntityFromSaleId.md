@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 518
+  "SaleId": 477
 }
 ```
 
@@ -100,57 +100,57 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 624,
-  "SaleId": 183,
-  "QuoteConnectionId": 640,
+  "QuoteId": 336,
+  "SaleId": 212,
+  "QuoteConnectionId": 108,
   "ERPQuoteKey": "qui",
-  "ERPOrderKey": "fugiat",
-  "ActiveQuoteVersionId": 326,
-  "AcceptedQuoteAlternativeId": 901,
-  "UseValuesFromQuote": 899,
-  "DocumentId": 182,
-  "PoNumber": "600203",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "joan_yundt@eichmann.com",
+  "ERPOrderKey": "ut",
+  "ActiveQuoteVersionId": 530,
+  "AcceptedQuoteAlternativeId": 831,
+  "UseValuesFromQuote": 662,
+  "DocumentId": 239,
+  "PoNumber": "1054826",
+  "OrderComment": "est",
+  "PreferredEmailCulture": "reva_mann@blanda.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 620,
-      "ERPQuoteVersionKey": "enim",
-      "QuoteId": 9,
-      "Description": "Organized explicit methodology",
-      "Number": "114290",
+      "QuoteVersionId": 63,
+      "ERPQuoteVersionKey": "aut",
+      "QuoteId": 5,
+      "Description": "Stand-alone zero defect projection",
+      "Number": "659859",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 171,
-      "SentDate": "2018-05-22T16:00:41.6644415+02:00",
-      "FollowupId": 468,
-      "ExpirationDate": "2004-01-02T16:00:41.6644415+01:00",
-      "DeliveryCountryId": 383,
+      "LikelyQuoteAlternativeId": 644,
+      "SentDate": "2011-05-20T03:31:27.106235+02:00",
+      "FollowupId": 904,
+      "ExpirationDate": "2010-05-31T03:31:27.106235+02:00",
+      "DeliveryCountryId": 816,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 806,
+      "InvoiceCountryId": 55,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "vel",
-      "ERPPaymentTypeKey": "praesentium",
+      "ERPPaymentTermsKey": "fuga",
+      "ERPPaymentTypeKey": "non",
       "ERPDeliveryTermsKey": "quis",
-      "ERPDeliveryTypeKey": "adipisci",
-      "Rank": 267,
-      "ApprovedBy": 957,
-      "ApprovedText": "praesentium",
-      "ApprovedRegisteredBy": 894,
-      "ApprovedRegisteredDate": "1998-04-08T16:00:41.6644415+02:00",
-      "ExtraField1": "odio",
-      "ExtraField2": "magni",
-      "ExtraField3": "illo",
-      "ExtraField4": "in",
-      "ExtraField5": "eum",
-      "LastRecalculated": "2017-11-23T16:00:41.6644415+01:00",
-      "Updated": "2002-01-30T16:00:41.6644415+01:00",
-      "UpdatedAssociateId": 435,
-      "Registered": "1997-10-06T16:00:41.6644415+02:00",
-      "RegisteredAssociateId": 550,
-      "RequestAssociateId": 296,
+      "ERPDeliveryTypeKey": "ipsa",
+      "Rank": 195,
+      "ApprovedBy": 28,
+      "ApprovedText": "laborum",
+      "ApprovedRegisteredBy": 2,
+      "ApprovedRegisteredDate": "1996-09-17T03:31:27.106235+02:00",
+      "ExtraField1": "aut",
+      "ExtraField2": "suscipit",
+      "ExtraField3": "harum",
+      "ExtraField4": "quia",
+      "ExtraField5": "optio",
+      "LastRecalculated": "2014-07-02T03:31:27.106235+02:00",
+      "Updated": "1997-03-13T03:31:27.106235+01:00",
+      "UpdatedAssociateId": 597,
+      "Registered": "2021-07-22T03:31:27.106235+02:00",
+      "RegisteredAssociateId": 490,
+      "RequestAssociateId": 470,
       "RequestComment": "est",
       "QuoteAlternatives": [
         {},
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 512
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

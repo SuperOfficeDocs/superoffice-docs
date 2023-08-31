@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 421
+  "ProductId": 894
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 788,
-  "BlobSize": 136,
-  "Description": "Extended content-based firmware",
-  "ExtraInfo": "occaecati",
+  "BlobId": 150,
+  "BlobSize": 274,
+  "Description": "Monitored stable array",
+  "ExtraInfo": "facere",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ex",
-  "OriginalSize": 329,
-  "CreatedDate": "2000-08-18T16:00:40.1331959+02:00",
-  "UpdatedDate": "2015-12-04T16:00:40.1331959+01:00",
+  "IsZipped": false,
+  "MimeType": "non",
+  "OriginalSize": 617,
+  "CreatedDate": "2019-08-22T03:31:25.6652413+02:00",
+  "UpdatedDate": "2020-10-09T03:31:25.6652413+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "atque",
+  "ConceptualType": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

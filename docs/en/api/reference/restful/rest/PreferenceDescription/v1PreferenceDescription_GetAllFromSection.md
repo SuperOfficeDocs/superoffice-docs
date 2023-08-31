@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 923,
-    "Section": "nihil",
-    "Key": "natus",
-    "Name": "Yundt, Hermann and Reinger",
+    "PrefDescId": 805,
+    "Section": "possimus",
+    "Key": "magni",
+    "Name": "Gibson-Tromp",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Compatible analyzing concept",
-    "IsBuiltin": false,
-    "TableName": "Beier Group",
-    "UserDefinedListId": 247,
-    "Rank": 173,
-    "SubGroup": "quae",
-    "MinLevel": 607,
-    "MaxValue": 717,
-    "MinValue": 379,
-    "RequiredLicense": "reprehenderit",
+    "Description": "Versatile full-range capability",
+    "IsBuiltin": true,
+    "TableName": "Runte, Lemke and Champlin",
+    "UserDefinedListId": 996,
+    "Rank": 450,
+    "SubGroup": "eius",
+    "MinLevel": 963,
+    "MaxValue": 659,
+    "MinValue": 297,
+    "RequiredLicense": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 237
       }
     }
   }

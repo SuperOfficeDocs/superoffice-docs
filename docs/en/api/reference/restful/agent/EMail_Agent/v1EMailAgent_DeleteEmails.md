@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    579,
-    872
+    463,
+    143
   ],
-  "MoveToFolder": "magnam"
+  "MoveToFolder": "error"
 }
 ```
 

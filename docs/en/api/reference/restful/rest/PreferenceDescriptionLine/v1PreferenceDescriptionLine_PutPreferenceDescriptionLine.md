@@ -89,16 +89,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 946,
-  "PrefDescId": 600,
-  "PrefValue": "in",
-  "PrefShowValue": "sint",
-  "Description": "Optimized regional initiative",
-  "IsBuiltin": false
+  "PrefDescLineId": 38,
+  "PrefDescId": 862,
+  "PrefValue": "exercitationem",
+  "PrefShowValue": "et",
+  "Description": "Mandatory attitude-oriented superstructure",
+  "IsBuiltin": true
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 201,
-  "PrefDescId": 526,
-  "PrefValue": "qui",
-  "PrefShowValue": "suscipit",
-  "Description": "Persevering hybrid capacity",
-  "IsBuiltin": true,
+  "PrefDescLineId": 998,
+  "PrefDescId": 875,
+  "PrefValue": "officia",
+  "PrefShowValue": "qui",
+  "Description": "Customizable responsive Graphical User Interface",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

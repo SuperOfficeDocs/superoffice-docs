@@ -109,12 +109,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 121,
+  "DocId": 356,
   "AttachmentIds": [
-    "non",
-    "in"
+    "illo",
+    "rerum"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -127,113 +127,114 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 436,
-      "ContactName": "Grimes-Bailey",
-      "PersonId": 743,
-      "PersonName": "Koss-Ritchie",
-      "AssociateId": 714,
-      "Address": "qui",
-      "EmailId": 335,
+      "ContactId": 322,
+      "ContactName": "Halvorson-Mueller",
+      "PersonId": 650,
+      "PersonName": "Nikolaus Inc and Sons",
+      "AssociateId": 243,
+      "Address": "sequi",
+      "EmailId": 161,
       "DuplicatePersonIds": [
-        80,
-        721
+        244,
+        43
       ],
-      "Name": "Boyer LLC",
+      "Name": "Jenkins, Mann and Hammes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldType": "System.String",
+          "FieldLength": 417
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 756,
-      "ContactName": "McLaughlin, Luettgen and Donnelly",
-      "PersonId": 729,
-      "PersonName": "Halvorson-Murazik",
-      "AssociateId": 725,
-      "Address": "soluta",
-      "EmailId": 918,
+      "ContactId": 395,
+      "ContactName": "Romaguera Inc and Sons",
+      "PersonId": 943,
+      "PersonName": "Cartwright, Mante and Yost",
+      "AssociateId": 957,
+      "Address": "placeat",
+      "EmailId": 170,
       "DuplicatePersonIds": [
-        875,
-        760
+        197,
+        444
       ],
-      "Name": "Nolan-O'Connell",
+      "Name": "Olson-Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 413
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 800,
-      "ContactName": "Borer-Larson",
-      "PersonId": 91,
-      "PersonName": "Rutherford, Carter and Senger",
-      "AssociateId": 798,
-      "Address": "voluptates",
-      "EmailId": 654,
+      "ContactId": 859,
+      "ContactName": "Bogisich-Kuhic",
+      "PersonId": 820,
+      "PersonName": "Anderson-Macejkovic",
+      "AssociateId": 858,
+      "Address": "quidem",
+      "EmailId": 432,
       "DuplicatePersonIds": [
-        132,
-        486
+        888,
+        439
       ],
-      "Name": "Streich-Satterfield",
+      "Name": "Nicolas, Sauer and Orn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 618
         }
       }
     }
   ],
-  "Subject": "doloremque",
-  "HTMLBody": "laudantium",
+  "Subject": "tenetur",
+  "HTMLBody": "praesentium",
   "From": null,
-  "Sent": "1999-03-27T16:00:40.9612259+01:00",
-  "Size": 224,
+  "Sent": "1999-06-30T03:31:26.4957222+02:00",
+  "Size": 510,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsam",
-  "PlainBody": "at",
+  "MessageID": "error",
+  "PlainBody": "rerum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 701,
+  "ServerId": 634,
   "Attachments": [
     {
-      "Description": "Synergized hybrid migration",
-      "Filename": "debitis",
-      "Size": 953,
-      "Type": "quasi",
-      "Encoding": "distinctio",
-      "Id": "illo",
-      "Disposition": "minima",
+      "Description": "Multi-lateral zero administration contingency",
+      "Filename": "incidunt",
+      "Size": 847,
+      "Type": "atque",
+      "Encoding": "ea",
+      "Id": "sunt",
+      "Disposition": "eius",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldLength": 923
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nicolas Group",
+      "Name": "Cremin, Senger and Lueilwitz",
       "Values": [
-        "molestiae",
+        "a",
         "vero"
       ],
       "TableRight": null,
@@ -241,14 +242,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 388
         }
       }
     },
     {
-      "Name": "Nicolas Group",
+      "Name": "Cremin, Senger and Lueilwitz",
       "Values": [
-        "molestiae",
+        "a",
         "vero"
       ],
       "TableRight": null,
@@ -256,18 +257,18 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 388
         }
       }
     }
   ],
-  "FolderName": "Hane, Hackett and Waelchi",
-  "EmailItemId": 249,
-  "AccountId": 70,
-  "ReceivedAt": "2007-08-24T16:00:40.9612259+02:00",
+  "FolderName": "Hilpert Group",
+  "EmailItemId": 938,
+  "AccountId": 177,
+  "ReceivedAt": "2008-12-31T03:31:26.4957222+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-04-15T16:00:40.9612259+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2019-07-03T03:31:26.4957222+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -275,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 659
+      "FieldLength": 156
     }
   }
 }

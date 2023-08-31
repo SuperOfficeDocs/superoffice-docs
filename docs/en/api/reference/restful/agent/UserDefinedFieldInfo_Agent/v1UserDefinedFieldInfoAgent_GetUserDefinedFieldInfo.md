@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=141
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=796
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 66,
-  "ColumnId": 626,
-  "FieldDefault": "assumenda",
-  "FieldHeight": 382,
-  "FieldLabel": "suscipit",
-  "FieldLeft": 946,
-  "FieldTop": 898,
+  "UDefFieldId": 532,
+  "ColumnId": 518,
+  "FieldDefault": "quis",
+  "FieldHeight": 377,
+  "FieldLabel": "magni",
+  "FieldLeft": 41,
+  "FieldTop": 500,
   "FieldType": "Checkbox",
-  "FieldWidth": 553,
-  "FormatMask": "consequuntur",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 73,
-  "LabelLeft": 956,
-  "LabelTop": 520,
-  "LabelWidth": 237,
-  "LastVersionId": 78,
-  "ListTableId": 107,
+  "FieldWidth": 967,
+  "FormatMask": "inventore",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 214,
+  "LabelLeft": 100,
+  "LabelTop": 482,
+  "LabelWidth": 715,
+  "LastVersionId": 764,
+  "ListTableId": 314,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 483,
-  "ProgId": "ullam",
+  "Page1LineNo": 452,
+  "ProgId": "tenetur",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 476,
-  "TextLength": 176,
-  "Tooltip": "modi",
-  "UdefIdentity": 466,
-  "UDListDefinitionId": 701,
+  "ShortLabel": "culpa",
+  "TabOrder": 30,
+  "TextLength": 341,
+  "Tooltip": "a",
+  "UdefIdentity": 748,
+  "UDListDefinitionId": 26,
   "Justification": "Center",
-  "Version": 475,
-  "TemplateVariableName": "Cruickshank, Ankunding and Lindgren",
-  "HasBeenPublished": false,
-  "MdoListName": "Gottlieb Inc and Sons",
+  "Version": 299,
+  "TemplateVariableName": "Wilderman LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Renner LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 561
     }
   }
 }

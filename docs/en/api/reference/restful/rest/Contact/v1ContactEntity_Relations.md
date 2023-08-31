@@ -75,13 +75,13 @@ GET /api/v1/Contact/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Relations?$orderBy=name asc
 GET /api/v1/Contact/{id}/Relations?$entities=illo
-GET /api/v1/Contact/{id}/Relations?$top=430
-GET /api/v1/Contact/{id}/Relations?$skip=553
+GET /api/v1/Contact/{id}/Relations?$top=413
+GET /api/v1/Contact/{id}/Relations?$skip=951
 GET /api/v1/Contact/{id}/Relations?$mode=Full
 GET /api/v1/Contact/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Relations?$context=eligendi
+GET /api/v1/Contact/{id}/Relations?$context=et
 GET /api/v1/Contact/{id}/Relations?$format=JSON
-GET /api/v1/Contact/{id}/Relations?$jsonSafe=False
+GET /api/v1/Contact/{id}/Relations?$jsonSafe=True
 GET /api/v1/Contact/{id}/Relations?$output=Display
 ```
 
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Contact/{id}/Relations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "corporis",
+  "odata.nextLink": "facilis",
   "value": [
     {
-      "PrimaryKey": 4526,
+      "PrimaryKey": 4670,
       "EntityName": "sale",
-      "saleId": 4526,
-      "contactId": 2461,
-      "name": "Stoltenberg, Hudson and Kilback"
+      "saleId": 4670,
+      "contactId": 9438,
+      "name": "Bosco Inc and Sons"
     },
     {
-      "PrimaryKey": 3775,
+      "PrimaryKey": 3308,
       "EntityName": "sale",
-      "saleId": 3775,
-      "contactId": 9825,
-      "name": "Stiedemann, Gislason and Dickinson"
+      "saleId": 3308,
+      "contactId": 1205,
+      "name": "Barton-Johnston"
     }
   ]
 }

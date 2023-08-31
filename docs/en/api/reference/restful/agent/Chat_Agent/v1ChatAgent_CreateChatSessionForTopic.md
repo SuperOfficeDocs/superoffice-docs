@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 112
+  "ChatTopicId": 726
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 971,
-  "TopicId": 499,
+  "ChatSessionId": 714,
+  "TopicId": 522,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quos",
-  "CustomerHost": "enim",
-  "CustomerName": "Gleason Inc and Sons",
-  "CustomerEmail": "adriana@wolff.co.uk",
-  "CustomerPhone": "1-269-285-5023",
+  "CustomerAlias": "ea",
+  "CustomerHost": "vel",
+  "CustomerName": "McLaughlin, Stanton and Tromp",
+  "CustomerEmail": "aimee.wiegand@hahn.biz",
+  "CustomerPhone": "991-474-3019 x63880",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Gulgowski-Stiedemann",
+  "CustomerCompanyName": "Reichel-Greenfelder",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "cumque",
-  "WhenRequested": "2014-02-07T16:00:40.2894057+01:00",
-  "WhenStarted": "2017-10-22T16:00:40.2894057+02:00",
-  "WhenEnded": "1999-02-15T16:00:40.2894057+01:00",
-  "WhenIdle": "2020-07-23T16:00:40.2894057+02:00",
-  "WhenFetched": "2004-04-18T16:00:40.2894057+02:00",
-  "SessionKey": "autem",
-  "InitialQueuePos": 760,
-  "AlertLevel": 204,
-  "Rank": 465,
+  "FirstMessage": "est",
+  "LastMessage": "excepturi",
+  "WhenRequested": "2000-05-04T03:31:25.8072288+02:00",
+  "WhenStarted": "1999-05-16T03:31:25.8072288+02:00",
+  "WhenEnded": "2008-10-10T03:31:25.8072288+02:00",
+  "WhenIdle": "1996-06-20T03:31:25.8072288+02:00",
+  "WhenFetched": "2019-04-27T03:31:25.8072288+02:00",
+  "SessionKey": "velit",
+  "InitialQueuePos": 578,
+  "AlertLevel": 134,
+  "Rank": 458,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 608,
+  "Rating": 674,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 797
     }
   }
 }

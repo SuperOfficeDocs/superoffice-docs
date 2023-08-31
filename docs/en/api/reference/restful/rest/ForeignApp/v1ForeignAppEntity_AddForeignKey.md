@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "perferendis",
-  "Value": "blanditiis",
-  "RecordId": 295,
-  "CreatedDate": "2002-12-24T16:00:47.9772018+01:00",
-  "UpdatedDate": "2009-05-14T16:00:47.9772018+02:00",
-  "UpdatedBy": "expedita",
-  "CreatedBy": "iure",
-  "TableName": "Pollich, Sanford and Lang"
+  "Key": "ex",
+  "Value": "beatae",
+  "RecordId": 532,
+  "CreatedDate": "2001-06-06T03:31:32.6289016+02:00",
+  "UpdatedDate": "2011-02-18T03:31:32.6289016+01:00",
+  "UpdatedBy": "aliquid",
+  "CreatedBy": "est",
+  "TableName": "Mraz, Fadel and Bayer"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "eveniet",
-  "RecordId": 805,
-  "CreatedDate": "2009-08-29T16:00:47.9772018+02:00",
-  "UpdatedDate": "2000-05-24T16:00:47.9772018+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "atque",
-  "TableName": "Beer-Gorczany",
+  "Key": "ut",
+  "Value": "culpa",
+  "RecordId": 887,
+  "CreatedDate": "2010-07-01T03:31:32.6289016+02:00",
+  "UpdatedDate": "2009-01-28T03:31:32.6289016+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "error",
+  "TableName": "Crona-Olson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 273
     }
   }
 }

@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 799,
-  "Name": "Murphy-Wuckert",
-  "OrgNr": "1128457",
+  "ContactId": 829,
+  "Name": "Mayert Group",
+  "OrgNr": "1341016",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "voluptate",
-  "DirectPhone": "939.088.2928 x38065",
-  "AssociateId": 595,
-  "CountryId": 743,
-  "EmailAddress": "blanca_mann@monahan.name",
-  "Kananame": "dolore",
-  "EmailAddressName": "reginald.hackett@cartwright.ca",
+  "City": "iste",
+  "DirectPhone": "(079)139-5461",
+  "AssociateId": 402,
+  "CountryId": 967,
+  "EmailAddress": "addie.goodwin@luettgen.com",
+  "Kananame": "voluptas",
+  "EmailAddressName": "brendon.bednar@haley.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Boris DuBuque",
+  "AssociateFullName": "Merritt Lemke",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "quod",
-  "FullName": "Thora Bruen",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 595,
-  "Number1": "1186224",
-  "Number2": "1302603",
+  "FormattedAddress": "laboriosam",
+  "FullName": "Melissa Sylvester McClure IV",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 662,
+  "Number1": "510917",
+  "Number2": "1075608",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldLength": 607
     }
   }
 }

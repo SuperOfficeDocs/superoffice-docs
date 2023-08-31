@@ -93,8 +93,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Metz Inc and Sons",
-  "ListItemId": 405,
+  "UdListDefinitionName": "West-Kessler",
+  "ListItemId": 801,
   "ShowDeleted": true
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Halvorson Group",
-    "ToolTip": "Totam illum tempora.",
-    "Deleted": true,
-    "Rank": 796,
-    "Type": "blanditiis",
-    "ColorBlock": 90,
-    "IconHint": "blanditiis",
+    "Id": 910,
+    "Name": "Cole, Kuhlman and Little",
+    "ToolTip": "Soluta itaque est.",
+    "Deleted": false,
+    "Rank": 903,
+    "Type": "soluta",
+    "ColorBlock": 46,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2023-03-31T16:00:41.1487084+02:00",
+    "LastChanged": "2009-07-24T03:31:26.6831775+02:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Goodwin LLC",
-        "ToolTip": "Quisquam accusantium esse aut et itaque tempore temporibus.",
-        "Deleted": true,
-        "Rank": 22,
-        "Type": "provident",
-        "ColorBlock": 932,
-        "IconHint": "maxime",
+        "Id": 429,
+        "Name": "Powlowski-Bins",
+        "ToolTip": "Et voluptate sit rerum dolores qui corporis quo.",
+        "Deleted": false,
+        "Rank": 885,
+        "Type": "libero",
+        "ColorBlock": 81,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2006-03-17T16:00:41.1487084+01:00",
+        "LastChanged": "2015-06-07T03:31:26.6831775+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "earum",
+        "ExtraInfo": "impedit",
+        "StyleHint": "recusandae",
         "Hidden": false,
-        "FullName": "Ms. Ulises Toby Wunsch",
+        "FullName": "Tamia Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 545
+            "FieldLength": 678
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Carolyn Hodkiewicz",
+    "ExtraInfo": "illum",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Ms. Brooklyn Candido Schuppe Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 9
       }
     }
   }

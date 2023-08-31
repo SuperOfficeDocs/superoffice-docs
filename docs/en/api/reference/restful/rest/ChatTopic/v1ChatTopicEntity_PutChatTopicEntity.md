@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 406,
-  "Name": "Monahan-Herzog",
-  "Description": "Cross-platform incremental focus group",
-  "WelcomeMessage": "voluptate",
+  "ChatTopicId": 231,
+  "Name": "Greenfelder LLC",
+  "Description": "Balanced explicit circuit",
+  "WelcomeMessage": "eveniet",
   "Language": null,
-  "LastAccept": "2004-10-21T16:00:47.6647341+02:00",
-  "SecondsPrAccept": 584,
-  "AlertRecipient": "iste",
+  "LastAccept": "2016-01-22T03:31:32.363348+01:00",
+  "SecondsPrAccept": 609,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "laborum",
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 397,
-  "WarnManagerNewChatMinutes": 187,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 745,
+  "WarnManagerNewChatMinutes": 135,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 200,
-  "WarnManagerChatMessageMinutes": 540,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 584,
-  "OfflineFormQueueLength": 280,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "et"
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 577,
+  "WarnManagerChatMessageMinutes": 721,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 158,
+  "OfflineFormQueueLength": 527,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "id"
 }
 ```
 
@@ -184,21 +184,21 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 643,
-  "Name": "Hayes Inc and Sons",
-  "Description": "Centralized even-keeled instruction set",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 16,
+  "Name": "Abernathy, McClure and Marks",
+  "Description": "Enterprise-wide mission-critical encoding",
+  "WelcomeMessage": "sequi",
   "Language": null,
-  "LastAccept": "2010-09-10T16:00:47.6647341+02:00",
-  "SecondsPrAccept": 509,
-  "AlertRecipient": "nobis",
+  "LastAccept": "2003-04-23T03:31:32.363348+02:00",
+  "SecondsPrAccept": 594,
+  "AlertRecipient": "sed",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "corrupti",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sunt",
-  "WarnNewChatMinutes": 630,
-  "WarnManagerNewChatMinutes": 363,
+  "CollectConsent": false,
+  "BadgeHeader": "laudantium",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "necessitatibus",
+  "WarnNewChatMinutes": 657,
+  "WarnManagerNewChatMinutes": 446,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -208,19 +208,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 470,
-  "WarnManagerChatMessageMinutes": 286,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 257,
-  "OfflineFormQueueLength": 738,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "nisi",
+  "WarnChatMessageMinutes": 362,
+  "WarnManagerChatMessageMinutes": 829,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 481,
+  "OfflineFormQueueLength": 471,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldLength": 1001
     }
   },
   "_Links": {

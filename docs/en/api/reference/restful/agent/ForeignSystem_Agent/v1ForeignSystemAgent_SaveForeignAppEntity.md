@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 201,
-  "Name": "Streich, Brekke and Upton",
-  "CreatedDate": "2014-06-13T16:00:41.0549706+02:00",
-  "UpdatedDate": "2004-06-22T16:00:41.0549706+02:00",
+  "ForeignAppId": 418,
+  "Name": "Kub, Bernier and Dibbert",
+  "CreatedDate": "2005-09-20T03:31:26.5738289+02:00",
+  "UpdatedDate": "1998-02-27T03:31:26.5738289+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 608,
-      "Name": "O'Conner Group",
-      "CreatedDate": "2009-09-02T16:00:41.0549706+02:00",
-      "UpdatedDate": "1999-09-11T16:00:41.0549706+02:00",
-      "AssociateFullName": "Kyra Beahan",
-      "CreatedBy": "velit",
-      "UpdatedBy": "a",
-      "DeviceIdentifier": "nihil",
-      "ForeignAppId": 848
+      "ForeignDeviceId": 75,
+      "Name": "Kihn-Fisher",
+      "CreatedDate": "2003-06-07T03:31:26.589451+02:00",
+      "UpdatedDate": "2010-09-04T03:31:26.589451+02:00",
+      "AssociateFullName": "Dr. Jesus Jeromy Herman Sr.",
+      "CreatedBy": "et",
+      "UpdatedBy": "beatae",
+      "DeviceIdentifier": "modi",
+      "ForeignAppId": 288
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 45,
-  "Name": "Gorczany-Kulas",
-  "CreatedDate": "2014-06-11T16:00:41.0549706+02:00",
-  "UpdatedDate": "2003-09-04T16:00:41.0549706+02:00",
+  "ForeignAppId": 590,
+  "Name": "Herzog-Carroll",
+  "CreatedDate": "2023-02-03T03:31:26.589451+01:00",
+  "UpdatedDate": "2003-04-10T03:31:26.589451+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 493,
-      "Name": "Wilkinson-Metz",
-      "CreatedDate": "2017-01-31T16:00:41.0549706+01:00",
-      "UpdatedDate": "2007-04-27T16:00:41.0549706+02:00",
-      "AssociateFullName": "Louie Lang",
-      "CreatedBy": "iste",
-      "UpdatedBy": "a",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 208,
+      "ForeignDeviceId": 9,
+      "Name": "Wilkinson LLC",
+      "CreatedDate": "2018-08-30T03:31:26.589451+02:00",
+      "UpdatedDate": "2022-11-08T03:31:26.589451+01:00",
+      "AssociateFullName": "Ms. Watson Jose Kemmer",
+      "CreatedBy": "ipsa",
+      "UpdatedBy": "exercitationem",
+      "DeviceIdentifier": "sit",
+      "ForeignAppId": 481,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 451
+          "FieldType": "System.Int32",
+          "FieldLength": 213
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldLength": 271
     }
   }
 }

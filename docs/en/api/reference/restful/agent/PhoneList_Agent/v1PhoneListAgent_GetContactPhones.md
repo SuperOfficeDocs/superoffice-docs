@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 184
+  "ContactId": 179
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "301.601.5290 x227",
-    "PersonCellPhone": "063-963-9763 x4427",
-    "PersonPrivatePhone": "(298)839-3831 x5534",
-    "PersonFaxNumber": "1417531",
-    "PersonPagerNumber": "1423998",
-    "PersonEmail": "thora@runolfsson.co.uk",
-    "Id": 583,
-    "Name": "Kautzer, Stiedemann and Streich",
-    "Tooltip": "nostrum",
-    "UniqueId": "nobis",
+    "PersonDirectPhone": "1-676-169-7191 x55542",
+    "PersonCellPhone": "1-561-293-2857 x1576",
+    "PersonPrivatePhone": "1-708-984-3215 x331",
+    "PersonFaxNumber": "986319",
+    "PersonPagerNumber": "915048",
+    "PersonEmail": "roxanne@handbuckridge.name",
+    "Id": 217,
+    "Name": "Davis-Kohler",
+    "Tooltip": "eveniet",
+    "UniqueId": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 855
       }
     }
   }

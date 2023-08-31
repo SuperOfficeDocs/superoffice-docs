@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 295,
-  "HeadingId": 412
+  "UdListDefinitionId": 143,
+  "HeadingId": 160
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Erdman, Stehr and Hagenes",
-    "ToolTip": "Non explicabo iusto assumenda.",
-    "Deleted": false,
-    "Rank": 523,
-    "Type": "error",
-    "ColorBlock": 875,
-    "IconHint": "saepe",
-    "Selected": false,
-    "LastChanged": "2016-07-27T16:00:41.1643284+02:00",
+    "Id": 281,
+    "Name": "Johns, Cormier and Bogan",
+    "ToolTip": "Est quo modi nisi voluptatibus nostrum quae.",
+    "Deleted": true,
+    "Rank": 180,
+    "Type": "odit",
+    "ColorBlock": 750,
+    "IconHint": "ipsum",
+    "Selected": true,
+    "LastChanged": "2015-01-15T03:31:26.6831775+01:00",
     "ChildItems": [
       {
-        "Id": 762,
-        "Name": "Lockman-White",
-        "ToolTip": "Voluptate quos et quis vel exercitationem.",
+        "Id": 186,
+        "Name": "Bailey Group",
+        "ToolTip": "Debitis qui.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "aperiam",
-        "ColorBlock": 308,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2011-05-07T16:00:41.1643284+02:00",
+        "Rank": 936,
+        "Type": "quaerat",
+        "ColorBlock": 15,
+        "IconHint": "minus",
+        "Selected": true,
+        "LastChanged": "2022-10-26T03:31:26.6831775+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Lonny Nienow",
+        "ExtraInfo": "et",
+        "StyleHint": "ipsum",
+        "Hidden": false,
+        "FullName": "Mr. Oscar Greenholt MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldType": "System.Int32",
+            "FieldLength": 723
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Lisa King",
+    "FullName": "Lee Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   }

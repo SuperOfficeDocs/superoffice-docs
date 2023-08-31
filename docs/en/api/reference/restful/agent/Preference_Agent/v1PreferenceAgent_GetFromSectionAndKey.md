@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sunt",
-  "Key": "repudiandae"
+  "Section": "in",
+  "Key": "quo"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 30,
-  "Section": "occaecati",
-  "Key": "cum",
-  "Name": "Yost-Treutel",
+  "PrefDescId": 187,
+  "Section": "ipsa",
+  "Key": "veniam",
+  "Name": "Considine, Rempel and Murphy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual well-modulated frame",
+  "Description": "Virtual uniform local area network",
   "IsBuiltin": false,
-  "TableName": "Rau-Stark",
-  "UserDefinedListId": 65,
-  "Rank": 852,
-  "SubGroup": "at",
-  "MinLevel": 416,
-  "MaxValue": 567,
-  "MinValue": 282,
-  "RequiredLicense": "soluta",
+  "TableName": "Walter-Bauch",
+  "UserDefinedListId": 806,
+  "Rank": 566,
+  "SubGroup": "ullam",
+  "MinLevel": 399,
+  "MaxValue": 147,
+  "MinValue": 300,
+  "RequiredLicense": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 457,
-    "Name": "Brown, McGlynn and Swaniawski",
-    "Tooltip": "rerum",
-    "Rank": 420,
-    "Rate": 17036.424,
-    "Units": 21975.608,
+    "CurrencyId": 633,
+    "Name": "Hoppe-Fadel",
+    "Tooltip": "veritatis",
+    "Rank": 224,
+    "Rate": 1996.358,
+    "Units": 23943.76,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 365
       }
     }
   }

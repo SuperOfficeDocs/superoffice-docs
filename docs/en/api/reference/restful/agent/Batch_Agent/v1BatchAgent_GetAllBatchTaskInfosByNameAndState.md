@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Fadel, Halvorson and Kling",
+  "TaskName": "Howe Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "Hessel, Stokes and Wolff",
-    "AssociateId": 392,
-    "DetailsTable": 179,
-    "DetailsRecord": 50,
-    "IsSystemTask": false,
+    "Id": 374,
+    "Name": "Kuphal, Grady and Howell",
+    "AssociateId": 302,
+    "DetailsTable": 821,
+    "DetailsRecord": 275,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "exercitationem"
+      "ParameterObject1": "quis",
+      "ParameterObject2": "maiores"
     },
-    "LastStarted": "2013-04-20T16:00:40.1175682+02:00",
-    "Created": "1999-08-30T16:00:40.1175682+02:00",
-    "StartCount": 795,
-    "DatabaseSerialNumber": "788814",
-    "Context": "rerum",
-    "Result": "perferendis",
+    "LastStarted": "2021-12-12T03:31:25.6496314+01:00",
+    "Created": "2021-08-03T03:31:25.6496314+02:00",
+    "StartCount": 155,
+    "DatabaseSerialNumber": "479406",
+    "Context": "voluptates",
+    "Result": "aut",
     "State": "All",
-    "Description": "Re-engineered directional product",
-    "Response": "similique",
-    "Request": "facere",
-    "ProgressDescription": "Optimized real-time moderator",
-    "ProgressPercent": 379,
-    "FileName": "Rodriguez-Anderson",
+    "Description": "Organic clear-thinking moratorium",
+    "Response": "voluptate",
+    "Request": "esse",
+    "ProgressDescription": "Realigned composite paradigm",
+    "ProgressPercent": 478,
+    "FileName": "Weimann-Cronin",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 52
       }
     }
   }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 795,
-  "Name": "Erdman, Murray and Wunsch",
-  "AssociateId": 899,
-  "DetailsTable": 345,
-  "DetailsRecord": 788,
+  "Id": 972,
+  "Name": "Howell-Kuhic",
+  "AssociateId": 553,
+  "DetailsTable": 25,
+  "DetailsRecord": 401,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "soluta",
-    "ParameterObject2": "et"
+    "ParameterObject1": "dicta",
+    "ParameterObject2": "aut"
   },
-  "LastStarted": "2018-06-03T16:00:41.7269142+02:00",
-  "Created": "2006-08-29T16:00:41.7269142+02:00",
-  "StartCount": 419,
-  "DatabaseSerialNumber": "1414255",
-  "Context": "est",
-  "Result": "consequuntur",
+  "LastStarted": "2017-08-24T03:31:27.1374712+02:00",
+  "Created": "2005-09-01T03:31:27.1374712+02:00",
+  "StartCount": 114,
+  "DatabaseSerialNumber": "1751477",
+  "Context": "mollitia",
+  "Result": "impedit",
   "State": "All",
-  "Description": "Inverse upward-trending initiative",
-  "Response": "nemo",
-  "Request": "alias",
-  "ProgressDescription": "Digitized national infrastructure",
-  "ProgressPercent": 836,
-  "FileName": "Eichmann-Wolf",
+  "Description": "Balanced static standardization",
+  "Response": "velit",
+  "Request": "error",
+  "ProgressDescription": "Down-sized human-resource flexibility",
+  "ProgressPercent": 784,
+  "FileName": "Medhurst Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 666
     }
   }
 }

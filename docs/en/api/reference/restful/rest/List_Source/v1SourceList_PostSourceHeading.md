@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 509,
-  "Name": "Hand, Witting and Dare",
-  "Tooltip": "occaecati",
+  "HeadingId": 474,
+  "Name": "Terry, Moore and Kris",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 532,
-  "UdListDefinitionId": 226
+  "Rank": 296,
+  "UdListDefinitionId": 594
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 298,
-  "Name": "Willms, Sanford and Hermiston",
-  "Tooltip": "commodi",
+  "HeadingId": 422,
+  "Name": "Rohan Inc and Sons",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 57,
-  "UdListDefinitionId": 11,
+  "Rank": 227,
+  "UdListDefinitionId": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 703
     }
   }
 }

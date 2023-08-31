@@ -72,7 +72,7 @@ PATCH /api/v1/Attachment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -114,18 +114,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -138,19 +138,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 528,
-  "Name": "Cartwright, Grimes and O'Connell",
-  "ContentType": "voluptatum",
-  "AttSize": 106,
-  "InlineImage": false,
-  "ContentId": "ea",
-  "AuthKey": "voluptatum",
+  "AttachmentId": 381,
+  "Name": "Lang LLC",
+  "ContentType": "laborum",
+  "AttSize": 503,
+  "InlineImage": true,
+  "ContentId": "similique",
+  "AuthKey": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 552
     }
   },
   "_Links": {

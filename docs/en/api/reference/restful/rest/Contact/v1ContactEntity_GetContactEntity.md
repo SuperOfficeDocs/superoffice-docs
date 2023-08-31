@@ -33,7 +33,7 @@ Calls the Contact agent service GetContactEntity.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=False
+GET /api/v1/Contact/{id}?fk=True
 ```
 
 
@@ -127,160 +127,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 May 2017 16:00:47 G5T
+Last-Modified: Mon, 04 Sep 2000 03:31:32 G9T
 
 {
-  "ContactId": 518,
-  "Name": "Okuneva LLC",
+  "ContactId": 511,
+  "Name": "Kemmer Group",
   "Department": "",
-  "OrgNr": "1148947",
-  "Number1": "541001",
-  "Number2": "688394",
-  "UpdatedDate": "2017-05-13T16:00:47.7428547+02:00",
-  "CreatedDate": "2005-12-21T16:00:47.7428547+01:00",
+  "OrgNr": "410708",
+  "Number1": "1641084",
+  "Number2": "1218612",
+  "UpdatedDate": "2000-09-04T03:31:32.4258286+02:00",
+  "CreatedDate": "2017-06-05T03:31:32.4258286+02:00",
   "Emails": [
     {
-      "Value": "perspiciatis",
-      "StrippedValue": "qui",
-      "Description": "Persistent motivating algorithm",
+      "Value": "illum",
+      "StrippedValue": "est",
+      "Description": "Expanded exuding toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 91
         }
       }
     },
     {
-      "Value": "perspiciatis",
-      "StrippedValue": "qui",
-      "Description": "Persistent motivating algorithm",
+      "Value": "illum",
+      "StrippedValue": "est",
+      "Description": "Expanded exuding toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldLength": 91
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 546,
-      "Name": "VonRueden-Kshlerin",
-      "ToolTip": "Alias praesentium illo qui exercitationem officiis tempore.",
-      "Deleted": false,
-      "Rank": 170,
-      "Type": "ullam",
-      "ColorBlock": 23,
-      "IconHint": "doloremque",
-      "Selected": true,
-      "LastChanged": "2002-05-16T16:00:47.7428547+02:00",
+      "Id": 714,
+      "Name": "Ortiz, Lubowitz and Gutkowski",
+      "ToolTip": "Molestias assumenda rerum provident iste.",
+      "Deleted": true,
+      "Rank": 178,
+      "Type": "deserunt",
+      "ColorBlock": 966,
+      "IconHint": "tenetur",
+      "Selected": false,
+      "LastChanged": "2003-06-11T03:31:32.4258286+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "numquam",
-      "StyleHint": "earum",
+      "ExtraInfo": "minus",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Ewald Daugherty",
+      "FullName": "Jewell Kuphal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldLength": 600
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "amet",
-      "StrippedValue": "cupiditate",
-      "Description": "Team-oriented bi-directional moderator",
+      "Value": "sit",
+      "StrippedValue": "ut",
+      "Description": "Distributed disintermediate instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 425
         }
       }
     },
     {
-      "Value": "amet",
-      "StrippedValue": "cupiditate",
-      "Description": "Team-oriented bi-directional moderator",
+      "Value": "sit",
+      "StrippedValue": "ut",
+      "Description": "Distributed disintermediate instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 425
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "repellendus",
-      "StrippedValue": "quis",
-      "Description": "Grass-roots 5th generation concept",
+      "Value": "dolor",
+      "StrippedValue": "architecto",
+      "Description": "Reverse-engineered logistical support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 765
         }
       }
     },
     {
-      "Value": "repellendus",
-      "StrippedValue": "quis",
-      "Description": "Grass-roots 5th generation concept",
+      "Value": "dolor",
+      "StrippedValue": "architecto",
+      "Description": "Reverse-engineered logistical support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 765
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "et",
-      "StrippedValue": "quos",
-      "Description": "Streamlined clear-thinking knowledge base",
+      "Value": "corrupti",
+      "StrippedValue": "non",
+      "Description": "Total national adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "quos",
-      "Description": "Streamlined clear-thinking knowledge base",
+      "Value": "corrupti",
+      "StrippedValue": "non",
+      "Description": "Total national adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 243
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     }
   ],
-  "Description": "Polarised foreground process improvement",
+  "Description": "Public-key asynchronous implementation",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,100 +289,100 @@ Last-Modified: Sat, 13 May 2017 16:00:47 G5T
   "Country": null,
   "Persons": [
     {
-      "Position": "in",
-      "PersonId": 498,
-      "Mrmrs": "incidunt",
-      "Firstname": "Violette",
-      "Lastname": "Maggio",
-      "MiddleName": "Gaylord, Adams and Russel",
-      "Title": "quam",
-      "Description": "Persistent background open architecture",
-      "Email": "estelle@bednar.info",
-      "FullName": "Duane Daugherty",
-      "DirectPhone": "647.410.0078 x602",
-      "FormalName": "Heathcote-Howell",
-      "CountryId": 668,
-      "ContactId": 385,
-      "ContactName": "Mitchell-Dooley",
-      "Retired": 554,
-      "Rank": 404,
-      "ActiveInterests": 860,
+      "Position": "blanditiis",
+      "PersonId": 588,
+      "Mrmrs": "sunt",
+      "Firstname": "Hailie",
+      "Lastname": "Stehr",
+      "MiddleName": "Zboncak, Doyle and Rodriguez",
+      "Title": "amet",
+      "Description": "Enhanced attitude-oriented contingency",
+      "Email": "yadira@millshuel.us",
+      "FullName": "Meggie Kautzer",
+      "DirectPhone": "563.755.7485 x6107",
+      "FormalName": "Lesch, Kuhic and Keebler",
+      "CountryId": 288,
+      "ContactId": 938,
+      "ContactName": "Collier, Roberts and Feeney",
+      "Retired": 895,
+      "Rank": 545,
+      "ActiveInterests": 775,
       "ContactDepartment": "",
-      "ContactCountryId": 765,
-      "ContactOrgNr": "936443",
-      "FaxPhone": "1-837-291-7702 x323",
-      "MobilePhone": "058.165.1976",
-      "ContactPhone": "120.553.3687 x717",
-      "AssociateName": "Gislason Inc and Sons",
-      "AssociateId": 72,
+      "ContactCountryId": 12,
+      "ContactOrgNr": "552219",
+      "FaxPhone": "181.444.2585 x1180",
+      "MobilePhone": "330.648.8563 x81987",
+      "ContactPhone": "(230)336-6278 x3745",
+      "AssociateName": "Leuschke-Bashirian",
+      "AssociateId": 711,
       "UsePersonAddress": false,
-      "ContactFax": "eos",
-      "Kanafname": "veritatis",
-      "Kanalname": "ut",
-      "Post1": "et",
-      "Post2": "ratione",
-      "Post3": "non",
-      "EmailName": "jacky.bode@tremblaytillman.biz",
-      "ContactFullName": "Estell Stokes",
-      "ActiveErpLinks": 333,
-      "TicketPriorityId": 203,
-      "SupportLanguageId": 345,
-      "SupportAssociateId": 217,
+      "ContactFax": "ut",
+      "Kanafname": "quam",
+      "Kanalname": "inventore",
+      "Post1": "omnis",
+      "Post2": "ut",
+      "Post3": "numquam",
+      "EmailName": "gabrielle@lueilwitz.info",
+      "ContactFullName": "Miss Lonnie Rogahn II",
+      "ActiveErpLinks": 218,
+      "TicketPriorityId": 607,
+      "SupportLanguageId": 225,
+      "SupportAssociateId": 956,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldLength": 896
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "excepturi",
+  "Kananame": "est",
   "Xstop": false,
-  "ActiveInterests": 701,
-  "GroupId": 787,
-  "ActiveStatusMonitorId": 30,
+  "ActiveInterests": 385,
+  "GroupId": 344,
+  "ActiveStatusMonitorId": 44,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 355,
-  "DbiAgentId": 570,
-  "DbiLastSyncronized": "1998-07-01T16:00:47.7428547+02:00",
-  "DbiKey": "doloribus",
-  "DbiLastModified": "2022-06-03T16:00:47.7428547+02:00",
+  "Deleted": 256,
+  "DbiAgentId": 238,
+  "DbiLastSyncronized": "2019-09-19T03:31:32.4258286+02:00",
+  "DbiKey": "rem",
+  "DbiLastModified": "2012-08-31T03:31:32.4258286+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 703,
-  "ActiveErpLinks": 496,
+  "Source": 944,
+  "ActiveErpLinks": 432,
   "BounceEmails": [
-    "violet@beier.us",
-    "wilmer@senger.com"
+    "ulises@wyman.biz",
+    "lysanne@marvin.info"
   ],
   "Domains": [
-    "repellat",
-    "quis"
+    "ut",
+    "et"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1546892464"
+    "SuperOffice:1": "Zoie Aufderhar II",
+    "SuperOffice:2": "Emmalee Bernhard"
   },
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "veritatis"
+    "ExtraFields1": "similique",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   },
   "_Links": {

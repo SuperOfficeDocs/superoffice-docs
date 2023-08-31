@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatTopic/{id}/Sessions?$select=name,department,category/id
 GET /api/v1/ChatTopic/{id}/Sessions?$filter=name begins 'S'
 GET /api/v1/ChatTopic/{id}/Sessions?$orderBy=name asc
-GET /api/v1/ChatTopic/{id}/Sessions?$entities=magnam
-GET /api/v1/ChatTopic/{id}/Sessions?$top=269
-GET /api/v1/ChatTopic/{id}/Sessions?$skip=105
+GET /api/v1/ChatTopic/{id}/Sessions?$entities=enim
+GET /api/v1/ChatTopic/{id}/Sessions?$top=724
+GET /api/v1/ChatTopic/{id}/Sessions?$skip=302
 GET /api/v1/ChatTopic/{id}/Sessions?$mode=Full
 GET /api/v1/ChatTopic/{id}/Sessions?$options=GrandTotal=true
-GET /api/v1/ChatTopic/{id}/Sessions?$context=rerum
+GET /api/v1/ChatTopic/{id}/Sessions?$context=aspernatur
 GET /api/v1/ChatTopic/{id}/Sessions?$format=JSON
 GET /api/v1/ChatTopic/{id}/Sessions?$jsonSafe=True
 GET /api/v1/ChatTopic/{id}/Sessions?$output=Display
@@ -134,21 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "saepe",
+  "odata.nextLink": "necessitatibus",
   "value": [
     {
-      "PrimaryKey": 9344,
+      "PrimaryKey": 7618,
       "EntityName": "sale",
-      "saleId": 9344,
-      "contactId": 671,
-      "name": "Botsford, Bailey and Little"
+      "saleId": 7618,
+      "contactId": 2710,
+      "name": "Bosco, Hartmann and Jaskolski"
     },
     {
-      "PrimaryKey": 7179,
+      "PrimaryKey": 5715,
       "EntityName": "sale",
-      "saleId": 7179,
-      "contactId": 732,
-      "name": "Johnston Inc and Sons"
+      "saleId": 5715,
+      "contactId": 4622,
+      "name": "Mann-Jakubowski"
     }
   ]
 }

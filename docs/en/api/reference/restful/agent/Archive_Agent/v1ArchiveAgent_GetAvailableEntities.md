@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jenkins-Runte",
-  "Context": "vero"
+  "ProviderName": "Renner LLC",
+  "Context": "exercitationem"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Mosciski Inc and Sons",
-    "ToolTip": "Optio commodi deleniti et corrupti ab blanditiis.",
-    "Deleted": false,
-    "Rank": 634,
-    "Type": "est",
+    "Id": 74,
+    "Name": "Conn LLC",
+    "ToolTip": "Qui ut vel.",
+    "Deleted": true,
+    "Rank": 394,
+    "Type": "ipsum",
     "ChildItems": [
       {
-        "Id": 928,
-        "Name": "Kiehn Group",
-        "ToolTip": "Ducimus temporibus quis omnis enim.",
+        "Id": 974,
+        "Name": "Mertz-Herman",
+        "ToolTip": "Non ea totam laudantium iusto.",
         "Deleted": false,
-        "Rank": 827,
-        "Type": "aut",
+        "Rank": 481,
+        "Type": "explicabo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 763,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "sit",
-        "FullName": "Sanford Koss",
+        "IconHint": "est",
+        "ColorBlock": 756,
+        "ExtraInfo": "magnam",
+        "StyleHint": "quia",
+        "FullName": "Nova Ayana Mann Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 364
+            "FieldType": "System.Int32",
+            "FieldLength": 327
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 640,
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "ea",
-    "FullName": "Ms. Marilie Duane Wintheiser",
+    "IconHint": "et",
+    "ColorBlock": 148,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "rerum",
+    "FullName": "Ms. Trycia Taya Schultz DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldLength": 403
       }
     }
   }

@@ -28,7 +28,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -732,7 +732,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FavouriteTickets?$select=ticketStatusName,createdBy/credentialType,person/correspondingAssociate/ejStatus,sale/currency,sale/amountWeighted
+GET /api/v1/archive/FavouriteTickets?$select=ticketId,person/supportAssociate,sale/soldReason,sale/associate/fullName,sale/associate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

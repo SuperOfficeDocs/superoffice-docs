@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 798,
-  "StartTime": "2017-09-11T16:00:40.5706201+02:00",
-  "EndTime": "2007-02-27T16:00:40.5706201+01:00",
-  "Count": 69,
-  "TemplateHeadingId": 404
+  "ProjectId": 825,
+  "StartTime": "2018-12-10T03:31:26.0583393+01:00",
+  "EndTime": "2000-07-30T03:31:26.0583393+02:00",
+  "Count": 930,
+  "TemplateHeadingId": 288
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 370,
-    "Attention": "dolor",
-    "Header": "cum",
-    "Name": "Stracke Inc and Sons",
-    "OurRef": "sit",
-    "YourRef": "id",
-    "Description": "Advanced tertiary challenge",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 752,
-    "PersonFullName": "Taylor Kertzmann",
-    "AssociateFullName": "Ryan Langworth",
-    "ContactId": 86,
-    "ContactName": "Armstrong, Yundt and Rowe",
-    "ProjectId": 441,
-    "ProjectName": "Ankunding-Ebert",
-    "AssociateId": 331,
-    "Snum": 507,
-    "SaleId": 470,
-    "SaleName": "Heathcote LLC",
+    "DocumentId": 553,
+    "Attention": "consequatur",
+    "Header": "blanditiis",
+    "Name": "Romaguera-Adams",
+    "OurRef": "facilis",
+    "YourRef": "perspiciatis",
+    "Description": "Networked zero tolerance time-frame",
+    "DocumentTemplate": "est",
+    "IsPublished": true,
+    "PersonId": 643,
+    "PersonFullName": "Lois Kuvalis",
+    "AssociateFullName": "Ms. Emmanuelle Elena Murray IV",
+    "ContactId": 636,
+    "ContactName": "Gerhold Inc and Sons",
+    "ProjectId": 785,
+    "ProjectName": "Kozey LLC",
+    "AssociateId": 501,
+    "Snum": 292,
+    "SaleId": 449,
+    "SaleName": "Bartell-Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldType": "System.String",
+        "FieldLength": 461
       }
     }
   }

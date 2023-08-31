@@ -86,14 +86,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "McKenzie, Walsh and Hegmann",
-  "StorageKey": "est",
+  "StorageType": "ut",
+  "ProviderName": "Beahan LLC",
+  "StorageKey": "sit",
   "StaticColumns": [
-    "consequatur",
-    "ducimus"
+    "aut",
+    "autem"
   ],
-  "Context": "laborum"
+  "Context": "et"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lehner, Parker and Lowe",
-      "Operator": "non",
+      "Name": "Greenfelder-Emmerich",
+      "Operator": "debitis",
       "Values": [
-        "debitis",
-        "earum"
+        "molestias",
+        "adipisci"
       ],
       "DisplayValues": [
-        "ab",
-        "exercitationem"
+        "rem",
+        "quasi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 55,
+      "InterParenthesis": 363,
       "InterOperator": "And",
-      "UniqueHash": 332
+      "UniqueHash": 78
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schumm LLC",
-      "DisplayTooltip": "vitae",
-      "DisplayType": "suscipit",
-      "CanOrderBy": true,
-      "Name": "Hegmann-DuBuque",
+      "DisplayName": "Murazik-Rosenbaum",
+      "DisplayTooltip": "ipsa",
+      "DisplayType": "voluptatibus",
+      "CanOrderBy": false,
+      "Name": "Bernhard LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "repudiandae",
-      "RestrictionListName": "Mraz Inc and Sons",
+      "RestrictionType": "omnis",
+      "RestrictionListName": "Reichel-Kreiger",
       "IsVisible": true,
-      "ExtraInfo": "doloremque",
-      "Width": "rerum",
-      "IconHint": "necessitatibus",
-      "HeadingIconHint": "doloribus"
+      "ExtraInfo": "corporis",
+      "Width": "aut",
+      "IconHint": "saepe",
+      "HeadingIconHint": "occaecati"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kerluke, Kirlin and Cummerata",
-      "PrimaryKey": 279,
+      "EntityName": "Hoeger-Cole",
+      "PrimaryKey": 533,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ut",
-          "TooltipHint": "qui",
-          "LinkHint": "aut"
+          "DisplayValue": "earum",
+          "TooltipHint": "sint",
+          "LinkHint": "delectus"
         }
       },
-      "LinkHint": "dicta",
-      "StyleHint": "modi",
+      "LinkHint": "debitis",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 222
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kuphal-Barton",
-      "Description": "Object-based incremental help-desk",
-      "Rank": 947,
+      "Name": "Jast-Murphy",
+      "Description": "Devolved zero administration implementation",
+      "Rank": 26,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kuphal-Barton",
-      "Description": "Object-based incremental help-desk",
-      "Rank": 947,
+      "Name": "Jast-Murphy",
+      "Description": "Devolved zero administration implementation",
+      "Rank": 26,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldType": "System.Int32",
+      "FieldLength": 116
     }
   }
 }

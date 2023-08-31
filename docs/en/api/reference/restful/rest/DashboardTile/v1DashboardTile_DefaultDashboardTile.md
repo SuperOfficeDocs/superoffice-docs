@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 227,
-  "Caption": "eveniet",
-  "Description": "Quality-focused mission-critical superstructure",
-  "ChartName": "Feeney, Stamm and Borer",
-  "ChartId": "dignissimos",
+  "DashboardTileId": 972,
+  "Caption": "qui",
+  "Description": "Synchronised zero tolerance knowledge user",
+  "ChartName": "Schulist, Koepp and Abbott",
+  "ChartId": "molestiae",
   "IsDefault": false,
-  "AssociateId": 56,
-  "GroupId": 154,
-  "SelectionId": 874,
-  "Config": "et",
+  "AssociateId": 712,
+  "GroupId": 440,
+  "SelectionId": 522,
+  "Config": "facere",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Cummings Group",
-      "Description": "Enterprise-wide value-added approach",
+      "Name": "Boyer-Runte",
+      "Description": "Decentralized full-range functionalities",
       "Type": "Boolean",
-      "ListName": "Fay, Boyer and Koelpin",
+      "ListName": "Zulauf LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eum",
+      "Value": "hic",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 324
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 252,
+      "VisibleId": 185,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     },
     {
-      "VisibleId": 252,
+      "VisibleId": 185,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

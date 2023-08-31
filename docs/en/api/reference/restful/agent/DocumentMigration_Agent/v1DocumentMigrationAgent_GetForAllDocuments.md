@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 821,
+  "DocumentPluginId": 816,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 431,
-  "NumDocumentsAlreadyMigrated": 950,
+  "NumDocumentsOmitted": 94,
+  "NumDocumentsAlreadyMigrated": 402,
   "Documents": [
     {
-      "DocumentId": 654,
-      "ContactId": 753,
-      "PersonId": 142,
-      "SaleId": 861,
-      "ProjectId": 174,
-      "DocTmplId": 963,
-      "AssociateId": 774,
-      "UserGroupId": 699,
-      "VisibleForId": 447
+      "DocumentId": 898,
+      "ContactId": 224,
+      "PersonId": 588,
+      "SaleId": 114,
+      "ProjectId": 807,
+      "DocTmplId": 863,
+      "AssociateId": 204,
+      "UserGroupId": 956,
+      "VisibleForId": 476
     }
   ],
   "Associates": [
     {
-      "AssociateId": 460,
-      "EmailAddress": "lawson.kiehn@jonesgislason.uk"
+      "AssociateId": 416,
+      "EmailAddress": "austen@prohaska.uk"
     },
     {
-      "AssociateId": 460,
-      "EmailAddress": "lawson.kiehn@jonesgislason.uk"
+      "AssociateId": 416,
+      "EmailAddress": "austen@prohaska.uk"
     }
   ]
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,15 +76,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 582,
-  "ERPPriceListKey": "quibusdam",
-  "QuoteConnectionId": 479,
-  "Name": "Hammes LLC",
-  "Description": "Self-enabling client-driven help-desk",
-  "Currency": "sapiente",
-  "CurrencyName": "Bergnaum-Becker",
-  "ValidFrom": "2018-01-01T16:00:49.1177018+01:00",
-  "ValidTo": "2016-09-17T16:00:49.1177018+02:00",
+  "PriceListId": 473,
+  "ERPPriceListKey": "atque",
+  "QuoteConnectionId": 682,
+  "Name": "Senger, Haley and Bins",
+  "Description": "Re-contextualized reciprocal middleware",
+  "Currency": "delectus",
+  "CurrencyName": "Conn Inc and Sons",
+  "ValidFrom": "2019-01-09T03:31:33.696079+01:00",
+  "ValidTo": "2001-09-22T03:31:33.696079+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {

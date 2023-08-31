@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Mayert Inc and Sons",
-    "ToolTip": "Esse qui nesciunt aliquid incidunt dolore quas eos.",
-    "Deleted": false,
-    "Rank": 33,
-    "Type": "facilis",
-    "ColorBlock": 633,
-    "IconHint": "consequatur",
+    "Id": 351,
+    "Name": "Tremblay-Pfannerstill",
+    "ToolTip": "Delectus sed omnis omnis non.",
+    "Deleted": true,
+    "Rank": 195,
+    "Type": "architecto",
+    "ColorBlock": 458,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-07-25T16:00:49.0083336+02:00",
+    "LastChanged": "2019-11-10T03:31:33.6010939+01:00",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Stamm, Gusikowski and Gutkowski",
-        "ToolTip": "Libero nulla omnis doloremque corrupti sint et.",
-        "Deleted": false,
-        "Rank": 48,
-        "Type": "aliquam",
-        "ColorBlock": 515,
-        "IconHint": "maxime",
+        "Id": 45,
+        "Name": "Kuhic Group",
+        "ToolTip": "Eaque est et repellat maxime.",
+        "Deleted": true,
+        "Rank": 889,
+        "Type": "consequuntur",
+        "ColorBlock": 81,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2007-11-07T16:00:49.0083336+01:00",
+        "LastChanged": "1997-05-15T03:31:33.6010939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "placeat",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Odie Gabe Towne MD"
+        "FullName": "Ms. Sedrick Hane"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "quisquam",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "similique",
     "Hidden": true,
-    "FullName": "Dr. Ona Luettgen MD"
+    "FullName": "Mittie Reichel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Emard Group",
-    "ToolTip": "Quasi iste.",
+    "Id": 544,
+    "Name": "Spinka Inc and Sons",
+    "ToolTip": "Non soluta.",
     "Deleted": false,
-    "Rank": 408,
-    "Type": "fuga",
-    "ColorBlock": 503,
-    "IconHint": "aut",
+    "Rank": 756,
+    "Type": "itaque",
+    "ColorBlock": 943,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2004-06-13T16:00:49.0083336+02:00",
+    "LastChanged": "1996-06-06T03:31:33.6010939+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Deckow-Langworth",
-        "ToolTip": "Et et dolor deserunt qui.",
+        "Id": 639,
+        "Name": "Kerluke Inc and Sons",
+        "ToolTip": "Unde accusantium necessitatibus omnis sequi officia.",
         "Deleted": false,
-        "Rank": 406,
-        "Type": "sit",
-        "ColorBlock": 566,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "1999-07-14T16:00:49.0083336+02:00",
+        "Rank": 886,
+        "Type": "perferendis",
+        "ColorBlock": 214,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2000-10-03T03:31:33.6010939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Danial Braden Swift DDS",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Prof. Libby Marion Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 958
+            "FieldLength": 441
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "tempora",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Miss Kamryn O'Connell V",
+    "FullName": "Turner Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 717
+        "FieldLength": 842
       }
     }
   }

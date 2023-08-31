@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Bergnaum Inc and Sons",
-    "ToolTip": "Ea aut.",
+    "Id": 427,
+    "Name": "Bosco, Vandervort and Abbott",
+    "ToolTip": "Fugiat quis occaecati.",
     "Deleted": true,
-    "Rank": 284,
-    "Type": "consectetur",
-    "ColorBlock": 10,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2000-10-07T16:00:49.133322+02:00",
+    "Rank": 551,
+    "Type": "aut",
+    "ColorBlock": 315,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2008-08-09T03:31:33.7117545+02:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Hoeger LLC",
-        "ToolTip": "Placeat alias quasi magni autem hic molestias.",
-        "Deleted": true,
-        "Rank": 689,
-        "Type": "eos",
-        "ColorBlock": 937,
-        "IconHint": "iusto",
-        "Selected": true,
-        "LastChanged": "2015-08-07T16:00:49.133322+02:00",
+        "Id": 805,
+        "Name": "Osinski Inc and Sons",
+        "ToolTip": "Voluptate dolorem ut quia aut occaecati similique magnam.",
+        "Deleted": false,
+        "Rank": 946,
+        "Type": "vel",
+        "ColorBlock": 871,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2011-10-13T03:31:33.7117545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Devin Barrows PhD",
+        "ExtraInfo": "est",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Flavie Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 718
+            "FieldLength": 555
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ex",
+    "ExtraInfo": "nisi",
+    "StyleHint": "recusandae",
     "Hidden": true,
-    "FullName": "Hannah Price",
+    "FullName": "Nona Wiegand Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldType": "System.String",
+        "FieldLength": 20
       }
     }
   }

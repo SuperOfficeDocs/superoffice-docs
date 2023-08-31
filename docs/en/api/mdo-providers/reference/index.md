@@ -77,6 +77,7 @@ so.envir: onsite, online
 | [appointmentcompleted](appointmentcompleted.md) |Appointment completed statuses: AppointmentStatus.NotStarted, AppointmentStatus.Completed|
 | [appointmentfavourite](appointmentfavourite.md) |MDO list provider for Favourites|
 | [appointmentgroup](appointmentgroup.md) |Appointment grouping types: TaskType.Appointment, Phone, ToDo|
+| [appointmentresource](appointmentresource.md) ||
 | [appointmenttask](appointmenttask.md) |MDO list provider for the task list of the AppointmentDialog. This list extends the basic <see cref="T:SuperOffice.CRM.Rows.TaskRow" /> wit|
 | [appointmenttextid](appointmenttextid.md) |Special case of appointment list where we get the id value from the Text table. For use when we wan|
 | [appointmenttype](appointmenttype.md) |List of AppointmentType values: inDiary, inChecklist, Note, Document, SavedReport, BookingForDiary, BookingForChecklist|
@@ -106,6 +107,8 @@ so.envir: onsite, online
 | [contactrelationdefinition](contactrelationdefinition.md) |MDO list provider for contact/person relation definitions. This provider is a takes a mandator|
 | [contactwithpersonsearch](contactwithpersonsearch.md) |Provider for selecting a Contact, including search on persons that match as well as contacts. this provider wil|
 | [contactwithpersonsearch_new](contactwithpersonsearch_new.md) |Provider for selecting a Contact, including search on persons that match as well as contacts. this provider wil|
+| [contact_and_person_freetextsearch](contact_and_person_freetextsearch.md) |Provider for selecting a Contact or a Perso|
+| [contact_and_person_freetextsearch_hierarchical](contact_and_person_freetextsearch_hierarchical.md) ||
 | [contact_freetextsearch](contact_freetextsearch.md) |Provider for selecting a Contact - without person search|
 | [contact_new](contact_new.md) |Provider for selecting a Contact - without person search|
 | [contint](contint.md) |GenericMDOProvider reads MDO lists with default settings|

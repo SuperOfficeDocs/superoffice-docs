@@ -24,6 +24,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IAppointmentAge
 * [CleanUpRecurringBookingDeleted](cleanuprecurringbookingdeleted.md)
 * [CreateAndAccept](createandaccept.md)
 * [CreateAndAcceptWithEmailConfirmation](createandacceptwithemailconfirmation.md)
+* [CreateAppointmentEntityFromExisting](createappointmententityfromexisting.md)
 * [CreateAppointmentForUID](createappointmentforuid.md)
 * [CreateDefaultAppointmentEntity](createdefaultappointmententity.md)
 * [CreateDefaultAppointmentEntityByType](createdefaultappointmententitybytype.md)

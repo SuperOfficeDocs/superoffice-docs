@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 754,
+  "TargetDimensionId": 883,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "dolor",
-  "DimensionListName": "Stark Inc and Sons",
-  "DimensionListId": 461,
-  "DimensionListLabel": "qui",
+  "DimensionListField": "in",
+  "DimensionListName": "Willms Inc and Sons",
+  "DimensionListId": 888,
+  "DimensionListLabel": "debitis",
   "SelectedDimensions": [
-    218,
-    993
+    914,
+    489
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 782,
+  "TargetDimensionId": 448,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "repellat",
-  "DimensionListName": "Pfannerstill-Murazik",
-  "DimensionListId": 624,
-  "DimensionListLabel": "amet",
+  "DimensionListField": "odit",
+  "DimensionListName": "Quigley Inc and Sons",
+  "DimensionListId": 105,
+  "DimensionListLabel": "id",
   "SelectedDimensions": [
-    150,
-    955
+    904,
+    54
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 652
     }
   }
 }

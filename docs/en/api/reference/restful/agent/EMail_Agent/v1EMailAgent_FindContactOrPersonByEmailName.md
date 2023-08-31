@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crona-Jones",
-  "EmailAddress": "harmony.jacobs@kemmer.info"
+  "Name": "Durgan, Sipes and Abernathy",
+  "EmailAddress": "jessica@batzdare.ca"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 72,
-    "FullName": "Claire Rogahn",
-    "EmailAddress": "jessica.harvey@ullrich.us",
-    "ContactId": 994,
-    "ContactName": "Ritchie Inc and Sons",
+    "PersonId": 531,
+    "FullName": "Millie Lubowitz II",
+    "EmailAddress": "ahmad@labadie.biz",
+    "ContactId": 454,
+    "ContactName": "Wilkinson-Ondricka",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Leannon Group",
+    "SortName": "Gutmann, Wiza and Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 593
       }
     }
   }

@@ -88,48 +88,48 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quam",
-  "ProviderName": "Tremblay-Miller",
-  "StorageKey": "culpa",
+  "StorageType": "aut",
+  "ProviderName": "Armstrong, Runte and Pacocha",
+  "StorageKey": "totam",
   "ExtraRestrictions": [
     {
-      "Name": "Corkery, Cartwright and Kohler",
-      "Operator": "dignissimos",
+      "Name": "Swift, Gutmann and Adams",
+      "Operator": "natus",
       "Values": [
-        "sequi",
-        "velit"
+        "et",
+        "ducimus"
       ],
       "DisplayValues": [
-        "doloribus",
-        "dolor"
+        "eveniet",
+        "pariatur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 903,
+      "InterParenthesis": 804,
       "InterOperator": "And",
-      "UniqueHash": 367
+      "UniqueHash": 486
     }
   ],
   "OrderBy": [
     {
-      "Name": "Prohaska LLC",
+      "Name": "Friesen Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Prohaska LLC",
+      "Name": "Friesen Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "nisi",
-    "quia"
+    "in",
+    "veniam"
   ],
-  "PageSize": 208,
-  "PageNumber": 751
+  "PageSize": 400,
+  "PageNumber": 433
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hermiston LLC",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "quis",
-      "CanOrderBy": false,
-      "Name": "Trantow-Gleason",
+      "DisplayName": "Hammes, Jaskolski and Bernier",
+      "DisplayTooltip": "facilis",
+      "DisplayType": "ipsa",
+      "CanOrderBy": true,
+      "Name": "Lehner Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Lakin-Wisoky",
+      "RestrictionType": "est",
+      "RestrictionListName": "Abshire, Huels and Fahey",
       "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "voluptatem",
-      "IconHint": "dolorem",
-      "HeadingIconHint": "natus"
+      "ExtraInfo": "dolorem",
+      "Width": "consequatur",
+      "IconHint": "similique",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Mraz Inc and Sons",
-      "PrimaryKey": 968,
+      "EntityName": "Lynch-Carroll",
+      "PrimaryKey": 617,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatibus",
-          "TooltipHint": "doloribus",
-          "LinkHint": "minus"
+          "DisplayValue": "vel",
+          "TooltipHint": "atque",
+          "LinkHint": "quo"
         }
       },
-      "LinkHint": "officiis",
-      "StyleHint": "minima",
+      "LinkHint": "possimus",
+      "StyleHint": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 53
         }
       }
     }
   ],
-  "RowCount": 512,
+  "RowCount": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

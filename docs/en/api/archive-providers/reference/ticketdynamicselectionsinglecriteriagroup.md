@@ -29,7 +29,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -732,7 +732,7 @@ Ticket selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=createdBy/assocTooltip,person/personUpdatedByFullName,person/legalBaseEmarketing,contact/number,contact/NumberOfNotCompletedSalesInPeriod
+GET /api/v1/archive/TicketDynamicSelectionSingleCriteriaGroup?$select=ownedBy/credentialType,person/personPrivate/description,person/personAssociate/isActive,person/correspondingAssociate/simultaneousEjUser,sale/associate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

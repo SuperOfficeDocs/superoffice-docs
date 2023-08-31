@@ -69,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 711,
+  "ProjectId": 679,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

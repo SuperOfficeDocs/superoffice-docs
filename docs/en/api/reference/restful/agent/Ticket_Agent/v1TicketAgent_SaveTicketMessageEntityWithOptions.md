@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    595,
-    14
+    358,
+    709
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 799,
+  "EjMessageId": 55,
   "Ticket": null,
-  "CreatedAt": "2011-12-10T16:00:42.2425099+01:00",
+  "CreatedAt": "2005-05-26T03:31:27.7009841+02:00",
   "CreatedBy": null,
-  "Author": "vitae",
+  "Author": "eum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptas",
-  "TimeSpent": 591,
-  "Body": "inventore",
-  "HtmlBody": "quae",
-  "EmailHeader": "hassan@bechtelarschmeler.uk",
-  "DebugInfo": "consequatur",
-  "MailSorter": "consequatur",
+  "MessageId": "maxime",
+  "TimeSpent": 784,
+  "Body": "hic",
+  "HtmlBody": "aut",
+  "EmailHeader": "nicola@conn.co.uk",
+  "DebugInfo": "eos",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "occaecati",
+  "SearchTitle": "nam",
   "MessageHeaders": [
     {
-      "Id": 291,
-      "Name": "O'Conner-Moen",
-      "Value": "ea",
+      "Id": 735,
+      "Name": "Kuvalis-Fahey",
+      "Value": "ipsum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,49 +151,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 126
+          "FieldLength": 601
         }
       }
     }
   ],
   "Important": false,
-  "Language": "natus",
-  "Sentiment": 387,
-  "SentimentConfidence": 192,
+  "Language": "enim",
+  "Sentiment": 110,
+  "SentimentConfidence": 782,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 166,
-      "Name": "Jacobson LLC",
-      "ContentType": "suscipit",
-      "AttSize": 27,
+      "AttachmentId": 520,
+      "Name": "Wolff, Durgan and Mertz",
+      "ContentType": "quis",
+      "AttSize": 18,
       "InlineImage": false,
-      "ContentId": "quis",
-      "AuthKey": "enim",
+      "ContentId": "magnam",
+      "AuthKey": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldType": "System.String",
+          "FieldLength": 440
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "quidem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 440
     }
   }
 }

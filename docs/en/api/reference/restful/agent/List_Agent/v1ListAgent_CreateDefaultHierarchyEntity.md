@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 209,
+  "HierarchyId": 83,
   "Domain": "Dashboards",
-  "Name": "Weissnat-Hegmann",
-  "Fullname": "qui",
-  "ParentId": 830,
+  "Name": "Robel, Lesch and Altenwerth",
+  "Fullname": "vero",
+  "ParentId": 345,
   "Children": [
     {
-      "HierarchyId": 487,
+      "HierarchyId": 897,
       "Domain": "Dashboards",
-      "Name": "Tillman Group",
-      "Fullname": "voluptate",
-      "ParentId": 404,
+      "Name": "Hamill-Berge",
+      "Fullname": "et",
+      "ParentId": 355,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-07-22T16:00:41.2112045+02:00",
-      "RegisteredAssociateId": 760,
-      "Updated": "2020-04-24T16:00:41.2112045+02:00",
-      "UpdatedAssociateId": 388,
+      "Registered": "2018-06-13T03:31:26.7300385+02:00",
+      "RegisteredAssociateId": 195,
+      "Updated": "2020-06-03T03:31:26.7300385+02:00",
+      "UpdatedAssociateId": 306,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 248
         }
       }
     }
   ],
-  "Registered": "2017-02-28T16:00:41.2112045+01:00",
-  "RegisteredAssociateId": 70,
-  "Updated": "2019-12-30T16:00:41.2112045+01:00",
-  "UpdatedAssociateId": 494,
+  "Registered": "2004-01-30T03:31:26.7300385+01:00",
+  "RegisteredAssociateId": 715,
+  "Updated": "2013-12-10T03:31:26.7300385+01:00",
+  "UpdatedAssociateId": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 213
     }
   }
 }

@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "itaque",
-    "enim"
+    "aspernatur",
+    "sit"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 647,
-    "ResourceId": 616,
-    "Text": "deleniti",
+    "LanguageId": 377,
+    "ResourceId": 408,
+    "Text": "consequuntur",
     "Type": "Column",
-    "LocalizedTextId": 283,
+    "LocalizedTextId": 836,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 35
       }
     }
   }

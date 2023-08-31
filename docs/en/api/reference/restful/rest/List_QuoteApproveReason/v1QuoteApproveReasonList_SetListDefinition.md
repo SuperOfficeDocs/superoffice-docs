@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Oberbrunner LLC",
-  "Tooltip": "itaque",
+  "Id": 921,
+  "Name": "Schinner, Kirlin and O'Conner",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 643,
+  "Rank": 386,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Satterfield-Beier",
-  "Tooltip": "eaque",
+  "Id": 160,
+  "Name": "Borer Group",
+  "Tooltip": "accusamus",
   "Deleted": false,
-  "Rank": 176,
-  "IsCustomList": false,
+  "Rank": 51,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ad",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 396
     }
   }
 }

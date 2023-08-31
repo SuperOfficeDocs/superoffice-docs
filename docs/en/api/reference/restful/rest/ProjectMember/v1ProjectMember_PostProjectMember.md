@@ -116,31 +116,31 @@ OK
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 123,
-  "ContactId": 820,
-  "ProjectId": 771,
-  "ContactName": "Mann, Schaden and Watsica",
+  "ProjectmemberId": 790,
+  "ContactId": 178,
+  "ProjectId": 549,
+  "ContactName": "Nienow-Mosciski",
   "ContactDepartment": "",
-  "ProjectName": "Williamson, Hamill and Reilly",
-  "EmailId": 557,
-  "EmailAddress": "immanuel.feeney@feest.com",
-  "CountryId": 175,
-  "Firstname": "Nannie",
-  "MiddleName": "Considine Inc and Sons",
-  "Lastname": "Stiedemann",
-  "PersonId": 686,
-  "Mrmrs": "quaerat",
-  "ProjectMemberTypeName": "Schamberger Inc and Sons",
-  "Phone": "1-123-655-6968",
-  "PhoneId": 792,
-  "ProjectMemberTypeId": 92,
-  "EmailAddressName": "ernest@sauer.ca",
-  "Comment": "rerum",
-  "FullName": "Ellis Vada Vandervort II"
+  "ProjectName": "McLaughlin, Howe and Paucek",
+  "EmailId": 826,
+  "EmailAddress": "declan.gislason@gradybailey.com",
+  "CountryId": 483,
+  "Firstname": "Mitchel",
+  "MiddleName": "Wolff, McLaughlin and McCullough",
+  "Lastname": "Dach",
+  "PersonId": 178,
+  "Mrmrs": "dolores",
+  "ProjectMemberTypeName": "Davis, Breitenberg and Schimmel",
+  "Phone": "(938)093-8150",
+  "PhoneId": 303,
+  "ProjectMemberTypeId": 692,
+  "EmailAddressName": "mara@renner.info",
+  "Comment": "dolores",
+  "FullName": "Vesta Botsford"
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 569,
-  "ContactId": 808,
-  "ProjectId": 168,
-  "ContactName": "Moen-Green",
+  "ProjectmemberId": 201,
+  "ContactId": 299,
+  "ProjectId": 676,
+  "ContactName": "Heaney, Skiles and Kessler",
   "ContactDepartment": "",
-  "ProjectName": "Langosh, Hauck and Rogahn",
-  "EmailId": 262,
-  "EmailAddress": "gina@vonrueden.com",
-  "CountryId": 599,
-  "Firstname": "Reed",
-  "MiddleName": "Hermann Inc and Sons",
-  "Lastname": "Bins",
-  "PersonId": 127,
-  "Mrmrs": "omnis",
-  "ProjectMemberTypeName": "Simonis-Gutmann",
-  "Phone": "058-936-6201",
-  "PhoneId": 371,
-  "ProjectMemberTypeId": 538,
-  "EmailAddressName": "damien@hammesschmitt.com",
-  "Comment": "corrupti",
-  "FullName": "Horacio Goldner",
+  "ProjectName": "Romaguera LLC",
+  "EmailId": 650,
+  "EmailAddress": "ena_kunze@kautzer.uk",
+  "CountryId": 953,
+  "Firstname": "Hector",
+  "MiddleName": "Grant-Treutel",
+  "Lastname": "Bednar",
+  "PersonId": 67,
+  "Mrmrs": "assumenda",
+  "ProjectMemberTypeName": "Olson, Schowalter and Hintz",
+  "Phone": "1-015-787-8571 x0361",
+  "PhoneId": 911,
+  "ProjectMemberTypeId": 972,
+  "EmailAddressName": "mabelle@blick.info",
+  "Comment": "alias",
+  "FullName": "Madonna Marvin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 986
     }
   },
   "_Links": {

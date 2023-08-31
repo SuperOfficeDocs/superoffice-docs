@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 962,
-  "Caption": "omnis",
-  "Description": "Seamless disintermediate flexibility",
-  "ChartName": "Cremin LLC",
-  "ChartId": "cupiditate",
-  "IsDefault": false,
-  "AssociateId": 333,
-  "GroupId": 418,
-  "SelectionId": 200,
-  "Config": "voluptas",
+  "DashboardTileId": 688,
+  "Caption": "ratione",
+  "Description": "Robust upward-trending methodology",
+  "ChartName": "Swaniawski-Connelly",
+  "ChartId": "totam",
+  "IsDefault": true,
+  "AssociateId": 432,
+  "GroupId": 401,
+  "SelectionId": 726,
+  "Config": "nihil",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Zieme-Adams",
-      "Description": "Adaptive intangible moderator",
+      "Name": "Fritsch LLC",
+      "Description": "Secured systemic customer loyalty",
       "Type": "Boolean",
-      "ListName": "Koch, Stehr and Hettinger",
+      "ListName": "Purdy Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "repudiandae",
+      "Value": "exercitationem",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldType": "System.String",
+          "FieldLength": 993
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 586,
+      "VisibleId": 769,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldType": "System.Int32",
+          "FieldLength": 828
         }
       }
     },
     {
-      "VisibleId": 586,
+      "VisibleId": 769,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 966
+          "FieldType": "System.Int32",
+          "FieldLength": 828
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 976
     }
   }
 }

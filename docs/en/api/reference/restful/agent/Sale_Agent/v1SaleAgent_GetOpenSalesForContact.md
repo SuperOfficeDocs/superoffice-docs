@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 536
+  "ContactId": 842
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lemke Group",
-    "SaleDate": "1999-05-07T16:00:41.7894273+02:00",
-    "SaleId": 373,
-    "Probability": 904,
-    "Title": "cumque",
-    "Amount": 17823.058,
-    "Currency": "id",
-    "ProjectName": "O'Kon, Flatley and Witting",
-    "AssociateFullName": "Emelia Breitenberg",
-    "Description": "Grass-roots uniform migration",
+    "ContactName": "Morissette LLC",
+    "SaleDate": "2001-03-20T03:31:27.1999504+01:00",
+    "SaleId": 810,
+    "Probability": 302,
+    "Title": "soluta",
+    "Amount": 5876.25,
+    "Currency": "inventore",
+    "ProjectName": "Rice Inc and Sons",
+    "AssociateFullName": "Preston Jaclyn Mayert IV",
+    "Description": "Intuitive next generation definition",
     "Status": "Lost",
-    "WeightedAmount": 9583.771999999999,
-    "ProjectId": 937,
-    "EarningPercent": 14225.225999999999,
-    "Earning": 10630.528,
-    "ContactId": 384,
-    "AssociateId": 621,
-    "PersonId": 924,
-    "SaleTypeId": 817,
-    "SaleTypeName": "Spencer-Jerde",
-    "PersonFullName": "Mable Amara Bosco MD",
+    "WeightedAmount": 20045.064,
+    "ProjectId": 464,
+    "EarningPercent": 19603.17,
+    "Earning": 11016.01,
+    "ContactId": 672,
+    "AssociateId": 378,
+    "PersonId": 434,
+    "SaleTypeId": 73,
+    "SaleTypeName": "Effertz-Walsh",
+    "PersonFullName": "Conrad Wiegand",
     "Completed": "Completed",
-    "ActiveErpLinks": 762,
-    "NextDueDate": "2012-03-05T16:00:41.7894273+01:00",
-    "Number": "612215",
+    "ActiveErpLinks": 495,
+    "NextDueDate": "2014-10-21T03:31:27.1999504+02:00",
+    "Number": "1215645",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 242
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 730,
-    "Name": "Davis-Douglas",
-    "Tooltip": "quo",
-    "Deleted": true,
-    "Rank": 759,
-    "UdListDefinitionId": 209,
+    "HeadingId": 950,
+    "Name": "Roob-Schuster",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 402,
+    "UdListDefinitionId": 869,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldLength": 476
       }
     }
   }

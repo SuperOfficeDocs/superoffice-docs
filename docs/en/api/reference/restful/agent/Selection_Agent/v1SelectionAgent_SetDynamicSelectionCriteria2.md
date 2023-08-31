@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 580,
-  "Filter": "similique"
+  "SelectionId": 262,
+  "Filter": "aspernatur"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Buckridge Inc and Sons",
-    "Operator": "magnam",
+    "Name": "Davis LLC",
+    "Operator": "ullam",
     "Values": [
-      "ipsum",
-      "itaque"
+      "quis",
+      "minima"
     ],
     "DisplayValues": [
-      "rem",
-      "incidunt"
+      "et",
+      "sed"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Simonis, Little and Flatley",
-        "Operator": "repudiandae",
+        "Name": "Kling, Wiza and Gaylord",
+        "Operator": "consequatur",
         "Values": [
-          "soluta",
-          "placeat"
+          "repellat",
+          "ut"
         ],
         "DisplayValues": [
-          "et",
-          "id"
+          "ipsa",
+          "voluptas"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 786,
+        "InterParenthesis": 640,
         "InterOperator": "And",
-        "UniqueHash": 866
+        "UniqueHash": 522
       }
     ],
-    "InterParenthesis": 277,
+    "InterParenthesis": 259,
     "InterOperator": "And",
-    "UniqueHash": 653
+    "UniqueHash": 369
   }
 ]
 ```

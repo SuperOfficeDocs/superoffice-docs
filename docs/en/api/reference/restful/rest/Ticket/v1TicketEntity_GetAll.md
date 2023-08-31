@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=ea
-GET /api/v1/Ticket?$top=780
-GET /api/v1/Ticket?$skip=206
+GET /api/v1/Ticket?$entities=molestiae
+GET /api/v1/Ticket?$top=218
+GET /api/v1/Ticket?$skip=386
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=consequuntur
+GET /api/v1/Ticket?$context=quia
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=False
+GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aspernatur",
+  "odata.nextLink": "dolore",
   "value": [
     {
-      "PrimaryKey": 3014,
+      "PrimaryKey": 1932,
       "EntityName": "sale",
-      "saleId": 3014,
-      "contactId": 3335,
-      "name": "Reichert, Sipes and Dare"
+      "saleId": 1932,
+      "contactId": 1316,
+      "name": "Skiles, Fritsch and Morar"
     },
     {
-      "PrimaryKey": 4924,
+      "PrimaryKey": 6425,
       "EntityName": "sale",
-      "saleId": 4924,
-      "contactId": 8502,
-      "name": "Cruickshank, Mayer and Rath"
+      "saleId": 6425,
+      "contactId": 3714,
+      "name": "Terry, Hegmann and Abbott"
     }
   ]
 }

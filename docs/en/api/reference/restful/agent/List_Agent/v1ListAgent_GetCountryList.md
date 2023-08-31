@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 205,
-    "Name": "Hahn-Jewess",
-    "CurrencyId": 338,
-    "EnglishName": "Veum LLC",
+    "CountryId": 435,
+    "Name": "Crist Group",
+    "CurrencyId": 616,
+    "EnglishName": "Bednar-Jast",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Proactive didactic open architecture",
-    "OrgNrText": "1065787",
-    "InterAreaPrefix": "voluptatibus",
-    "DialInPrefix": "accusamus",
-    "ZipPrefix": "dolore",
-    "DomainName": "Emard, Hodkiewicz and Williamson",
-    "AddressLayoutId": 195,
-    "DomesticAddressLayoutId": 845,
-    "ForeignAddressLayoutId": 886,
-    "Rank": 430,
-    "Tooltip": "cum",
+    "ImageDescription": "User-friendly global emulation",
+    "OrgNrText": "1059900",
+    "InterAreaPrefix": "voluptatem",
+    "DialInPrefix": "voluptate",
+    "ZipPrefix": "quia",
+    "DomainName": "Nienow, Kreiger and Collier",
+    "AddressLayoutId": 237,
+    "DomesticAddressLayoutId": 219,
+    "ForeignAddressLayoutId": 832,
+    "Rank": 701,
+    "Tooltip": "dolor",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldType": "System.String",
+        "FieldLength": 847
       }
     }
   }

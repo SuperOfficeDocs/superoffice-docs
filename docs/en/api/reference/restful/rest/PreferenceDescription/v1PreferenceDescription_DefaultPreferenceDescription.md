@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 618,
-  "Section": "id",
-  "Key": "nemo",
-  "Name": "Kerluke Inc and Sons",
+  "PrefDescId": 999,
+  "Section": "maxime",
+  "Key": "impedit",
+  "Name": "Swift-Bruen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive discrete groupware",
+  "Description": "Switchable transitional conglomeration",
   "IsBuiltin": false,
-  "TableName": "Willms, Wuckert and Douglas",
-  "UserDefinedListId": 192,
-  "Rank": 748,
-  "SubGroup": "similique",
-  "MinLevel": 326,
-  "MaxValue": 217,
-  "MinValue": 991,
-  "RequiredLicense": "vel",
+  "TableName": "Brown-Thompson",
+  "UserDefinedListId": 930,
+  "Rank": 875,
+  "SubGroup": "occaecati",
+  "MinLevel": 236,
+  "MaxValue": 124,
+  "MinValue": 647,
+  "RequiredLicense": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 58
     }
   }
 }

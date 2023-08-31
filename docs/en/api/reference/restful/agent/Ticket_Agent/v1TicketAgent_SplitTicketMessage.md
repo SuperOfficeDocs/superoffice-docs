@@ -119,6 +119,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -130,7 +131,7 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -138,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    886,
-    370
+    172,
+    450
   ]
 }
 ```
@@ -151,21 +152,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 287,
-  "Title": "asperiores",
-  "CreatedAt": "2012-02-25T16:00:42.1956362+01:00",
-  "LastChanged": "2006-04-01T16:00:42.1956362+02:00",
-  "ReadByOwner": "2000-08-02T16:00:42.1956362+02:00",
-  "ReadByCustomer": "2011-11-28T16:00:42.1956362+01:00",
-  "FirstReadByOwner": "2013-06-18T16:00:42.1956362+02:00",
-  "FirstReadByUser": "2008-01-04T16:00:42.1956362+01:00",
-  "Activate": "2000-02-11T16:00:42.1956362+01:00",
-  "ClosedAt": "2020-12-21T16:00:42.1956362+01:00",
-  "RepliedAt": "2007-09-27T16:00:42.1956362+02:00",
-  "AlertTimeout": "2010-07-24T16:00:42.1956362+02:00",
-  "Deadline": "1997-11-09T16:00:42.1956362+01:00",
+  "TicketId": 152,
+  "Title": "sunt",
+  "CreatedAt": "2014-08-27T03:31:27.6541211+02:00",
+  "LastChanged": "2014-12-23T03:31:27.6541211+01:00",
+  "ReadByOwner": "2022-12-25T03:31:27.6541211+01:00",
+  "ReadByCustomer": "2004-03-05T03:31:27.6541211+01:00",
+  "FirstReadByOwner": "2009-02-26T03:31:27.6541211+01:00",
+  "FirstReadByUser": "2020-09-28T03:31:27.6541211+02:00",
+  "Activate": "2019-09-22T03:31:27.6541211+02:00",
+  "ClosedAt": "2021-08-10T03:31:27.6541211+02:00",
+  "RepliedAt": "1999-04-11T03:31:27.6541211+02:00",
+  "AlertTimeout": "1999-06-11T03:31:27.6541211+02:00",
+  "Deadline": "1997-03-19T03:31:27.6541211+01:00",
   "CreatedBy": null,
-  "Author": "optio",
+  "Author": "quisquam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -176,159 +177,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "dolore",
-      "PersonId": 722,
-      "Mrmrs": "distinctio",
-      "Firstname": "Rickey",
-      "Lastname": "Mayer",
-      "MiddleName": "Trantow, Pouros and Eichmann",
-      "Title": "eos",
-      "Description": "Self-enabling heuristic contingency",
-      "Email": "keira.koelpin@vonbayer.uk",
-      "FullName": "Bruce Bayer",
-      "DirectPhone": "591-161-0876 x599",
-      "FormalName": "Kertzmann, Stehr and Davis",
-      "CountryId": 974,
-      "ContactId": 9,
-      "ContactName": "Fadel, Frami and Hickle",
-      "Retired": 408,
-      "Rank": 381,
-      "ActiveInterests": 64,
+      "Position": "et",
+      "PersonId": 760,
+      "Mrmrs": "ea",
+      "Firstname": "Rodrigo",
+      "Lastname": "Bogan",
+      "MiddleName": "Herman-Kling",
+      "Title": "unde",
+      "Description": "Front-line well-modulated architecture",
+      "Email": "eileen@hettinger.uk",
+      "FullName": "Prof. Myrtie Rosenbaum MD",
+      "DirectPhone": "161-029-7728 x13048",
+      "FormalName": "Gusikowski Group",
+      "CountryId": 665,
+      "ContactId": 2,
+      "ContactName": "McDermott-Keebler",
+      "Retired": 906,
+      "Rank": 384,
+      "ActiveInterests": 658,
       "ContactDepartment": "",
-      "ContactCountryId": 428,
-      "ContactOrgNr": "1229972",
-      "FaxPhone": "856-447-3952",
-      "MobilePhone": "(047)943-6570 x082",
-      "ContactPhone": "1-582-042-6268 x6867",
-      "AssociateName": "Senger Inc and Sons",
-      "AssociateId": 680,
+      "ContactCountryId": 32,
+      "ContactOrgNr": "282813",
+      "FaxPhone": "(693)858-3424 x01478",
+      "MobilePhone": "(188)354-2416",
+      "ContactPhone": "1-222-318-5167 x74054",
+      "AssociateName": "Conn-Zboncak",
+      "AssociateId": 405,
       "UsePersonAddress": false,
-      "ContactFax": "qui",
-      "Kanafname": "qui",
-      "Kanalname": "consectetur",
-      "Post1": "nobis",
-      "Post2": "aspernatur",
-      "Post3": "et",
-      "EmailName": "enrique.auer@kessler.com",
-      "ContactFullName": "Damaris Gusikowski II",
-      "ActiveErpLinks": 98,
-      "TicketPriorityId": 494,
-      "SupportLanguageId": 319,
-      "SupportAssociateId": 445,
+      "ContactFax": "corporis",
+      "Kanafname": "quae",
+      "Kanalname": "veritatis",
+      "Post1": "aut",
+      "Post2": "deserunt",
+      "Post3": "placeat",
+      "EmailName": "arely@kossjewess.info",
+      "ContactFullName": "Cody Gulgowski",
+      "ActiveErpLinks": 632,
+      "TicketPriorityId": 975,
+      "SupportLanguageId": 933,
+      "SupportAssociateId": 673,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 8
         }
       }
     }
   ],
   "AlertLevel": 42,
-  "ConnectId": 125,
+  "ConnectId": 460,
   "ReadStatus": "Green",
-  "TimeToReply": 583,
-  "RealTimeToReply": 996,
-  "TimeToClose": 599,
-  "RealTimeToClose": 352,
-  "TimeSpentInternally": 265,
-  "TimeSpentExternally": 855,
-  "TimeSpentQueue": 332,
-  "RealTimeSpentInternally": 34,
-  "RealTimeSpentExternally": 323,
-  "RealTimeSpentQueue": 492,
+  "TimeToReply": 635,
+  "RealTimeToReply": 99,
+  "TimeToClose": 397,
+  "RealTimeToClose": 98,
+  "TimeSpentInternally": 371,
+  "TimeSpentExternally": 149,
+  "TimeSpentQueue": 651,
+  "RealTimeSpentInternally": 377,
+  "RealTimeSpentExternally": 794,
+  "RealTimeSpentQueue": 338,
   "HasAttachment": false,
-  "NumReplies": 342,
-  "NumMessages": 289,
-  "FromAddress": "est",
+  "NumReplies": 367,
+  "NumMessages": 936,
+  "FromAddress": "eos",
   "Messages": [
     {
-      "TicketMessageId": 46,
-      "CreatedAt": "2016-10-08T16:00:42.1956362+02:00",
+      "TicketMessageId": 928,
+      "CreatedAt": "2015-05-27T03:31:27.6541211+02:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "repellendus",
-      "PersonId": 697,
-      "PersonFullName": "Mrs. Stella Wintheiser",
-      "ContactId": 695,
-      "ContactName": "Rath Group",
+      "Author": "enim",
+      "PersonId": 811,
+      "PersonFullName": "Hal Gaylord",
+      "ContactId": 212,
+      "ContactName": "Emard-Cole",
       "ContactDepartment": "",
-      "NumAttachments": 12,
-      "EmailHeader": "kendall@turcotte.info",
+      "NumAttachments": 700,
+      "EmailHeader": "edwardo@blicklehner.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "consequatur",
-      "Sentiment": 507,
-      "SentimentConfidence": 896,
-      "CreatedBy": 495,
-      "ChangedAt": "1996-04-16T16:00:42.1956362+02:00",
+      "Language": "enim",
+      "Sentiment": 33,
+      "SentimentConfidence": 443,
+      "CreatedBy": 38,
+      "ChangedAt": "2023-01-08T03:31:27.6541211+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 124
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 354,
-      "Name": "Spencer Group",
-      "ToolTip": "Ut qui qui ab est quo quasi ab.",
+      "Id": 668,
+      "Name": "Hickle LLC",
+      "ToolTip": "Libero sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 195
         }
       }
     },
     {
-      "Id": 354,
-      "Name": "Spencer Group",
-      "ToolTip": "Ut qui qui ab est quo quasi ab.",
+      "Id": 668,
+      "Name": "Hickle LLC",
+      "ToolTip": "Libero sit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 195
         }
       }
     }
   ],
-  "Language": "assumenda",
-  "Sentiment": 160,
-  "SentimentConfidence": 113,
-  "SuggestedCategoryId": 338,
+  "Language": "quia",
+  "Sentiment": 680,
+  "SentimentConfidence": 806,
+  "SuggestedCategoryId": 212,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 356,
-  "IconHint": "fugit",
+  "OrigHumanCategoryId": 599,
+  "IconHint": "eum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "ut"
+    "CustomFields1": "exercitationem",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

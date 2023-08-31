@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 541,
-  "PrefDescId": 619,
-  "PrefValue": "dolorum",
-  "PrefShowValue": "animi",
-  "Description": "Virtual 6th generation help-desk",
-  "IsBuiltin": false,
+  "PrefDescLineId": 158,
+  "PrefDescId": 22,
+  "PrefValue": "molestiae",
+  "PrefShowValue": "nam",
+  "Description": "Extended needs-based time-frame",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

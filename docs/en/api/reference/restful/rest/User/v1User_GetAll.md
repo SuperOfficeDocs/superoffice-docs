@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=quae
-GET /api/v1/User?$top=591
-GET /api/v1/User?$skip=512
+GET /api/v1/User?$entities=cumque
+GET /api/v1/User?$top=777
+GET /api/v1/User?$skip=391
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=ut
+GET /api/v1/User?$context=et
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "tempore",
   "value": [
     {
-      "PrimaryKey": 2700,
+      "PrimaryKey": 6885,
       "EntityName": "sale",
-      "saleId": 2700,
-      "contactId": 6233,
-      "name": "Rath Group"
+      "saleId": 6885,
+      "contactId": 2604,
+      "name": "Oberbrunner-Pacocha"
     },
     {
-      "PrimaryKey": 7130,
+      "PrimaryKey": 1618,
       "EntityName": "sale",
-      "saleId": 7130,
-      "contactId": 421,
-      "name": "Douglas, Emmerich and Bednar"
+      "saleId": 1618,
+      "contactId": 8348,
+      "name": "Marquardt Inc and Sons"
     }
   ]
 }

@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 364,
-  "Name": "Parisian-Kunze",
-  "ContentType": "aliquid",
-  "AttSize": 664,
+  "AttachmentId": 967,
+  "Name": "Runolfsson, Sauer and Hodkiewicz",
+  "ContentType": "incidunt",
+  "AttSize": 823,
   "InlineImage": false,
-  "ContentId": "voluptatem",
-  "AuthKey": "nam"
+  "ContentId": "perspiciatis",
+  "AuthKey": "molestiae"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 970,
-  "Name": "Parisian Group",
-  "ContentType": "repellendus",
-  "AttSize": 340,
+  "AttachmentId": 983,
+  "Name": "Wunsch Group",
+  "ContentType": "sunt",
+  "AttSize": 730,
   "InlineImage": false,
-  "ContentId": "similique",
-  "AuthKey": "mollitia",
+  "ContentId": "cum",
+  "AuthKey": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 107
     }
   }
 }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 356,
-  "Name": "Haley-Hegmann",
+  "TicketPriorityId": 389,
+  "Name": "Wuckert, Mosciski and Kreiger",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 1001,
+  "SortOrder": 778,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 249,
-  "MonStart": "2009-08-11T16:00:49.3990302+02:00",
-  "MonStop": "2000-12-22T16:00:49.3990302+01:00",
-  "TueStart": "2000-08-22T16:00:49.3990302+02:00",
-  "TueStop": "2013-03-23T16:00:49.3990302+01:00",
-  "WedStart": "1996-06-29T16:00:49.3990302+02:00",
-  "WedStop": "2005-08-15T16:00:49.3990302+02:00",
-  "ThuStart": "2015-07-06T16:00:49.3990302+02:00",
-  "ThuStop": "2017-07-06T16:00:49.3990302+02:00",
-  "FriStart": "2009-01-15T16:00:49.3990302+01:00",
-  "FriStop": "2002-01-30T16:00:49.3990302+01:00",
-  "SatStart": "1999-06-30T16:00:49.3990302+02:00",
-  "SatStop": "1996-06-12T16:00:49.3990302+02:00",
-  "SunStart": "2004-11-27T16:00:49.3990302+01:00",
-  "SunStop": "2008-10-26T16:00:49.3990302+01:00",
+  "Deadline": 68,
+  "MonStart": "2000-03-18T03:31:33.9316266+01:00",
+  "MonStop": "2013-04-13T03:31:33.9316266+02:00",
+  "TueStart": "2020-02-18T03:31:33.9316266+01:00",
+  "TueStop": "2003-09-08T03:31:33.9316266+02:00",
+  "WedStart": "2018-07-22T03:31:33.9316266+02:00",
+  "WedStop": "2004-07-04T03:31:33.9316266+02:00",
+  "ThuStart": "2002-11-22T03:31:33.9316266+01:00",
+  "ThuStop": "2002-04-30T03:31:33.9316266+02:00",
+  "FriStart": "2022-12-02T03:31:33.9316266+01:00",
+  "FriStop": "2016-05-10T03:31:33.9316266+02:00",
+  "SatStart": "2018-08-08T03:31:33.9316266+02:00",
+  "SatStop": "2002-01-31T03:31:33.9316266+01:00",
+  "SunStart": "2023-07-26T03:31:33.9316266+02:00",
+  "SunStop": "2012-07-20T03:31:33.9316266+02:00",
   "NonDates": [
-    "incidunt",
-    "facere"
+    "rerum",
+    "assumenda"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 637,
-      "AlertLevel": 176,
-      "AlertTimeout": 589,
-      "Action": 723,
-      "DelegateTo": 721,
-      "ScriptId": 903,
-      "EmailTo": "alexandra_lehner@wilkinsonheidenreich.biz",
-      "SmsTo": "veritatis",
-      "ReplyTemplateIdCustomer": 551,
-      "ReplyTemplateIdUser": 467,
-      "ReplyTemplateIdCatmast": 760,
-      "ReplyTemplateIdEmail": 64,
-      "RtiCustomerSms": 221,
-      "ReplyTemplateIdUserSms": 438,
-      "ReplyTemplateIdCatmastSms": 23,
-      "ReplyTemplateIdSms": 326,
+      "TicketAlertId": 683,
+      "AlertLevel": 837,
+      "AlertTimeout": 336,
+      "Action": 495,
+      "DelegateTo": 544,
+      "ScriptId": 246,
+      "EmailTo": "evans_gutkowski@johnstoncruickshank.info",
+      "SmsTo": "voluptatem",
+      "ReplyTemplateIdCustomer": 655,
+      "ReplyTemplateIdUser": 43,
+      "ReplyTemplateIdCatmast": 652,
+      "ReplyTemplateIdEmail": 92,
+      "RtiCustomerSms": 796,
+      "ReplyTemplateIdUserSms": 195,
+      "ReplyTemplateIdCatmastSms": 140,
+      "ReplyTemplateIdSms": 569,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 346
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 620
     }
   }
 }

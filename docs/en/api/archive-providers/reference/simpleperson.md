@@ -665,7 +665,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -979,7 +979,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=middleName,personExtra/x_person_request_relation,personSourceRelation/useAsMailingAddress,personAssociate/contactDepartment,correspondingAssociate/otherGroups
+GET /api/v1/archive/SimplePerson?$select=ticketPriority,personSourceRelation/hasInfoText,personAssociate/isActiveText,personContact/postAddress/formattedAddress,request/createdBy/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

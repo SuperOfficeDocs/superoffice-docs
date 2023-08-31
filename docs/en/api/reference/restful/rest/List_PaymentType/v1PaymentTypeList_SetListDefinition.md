@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 723,
-  "Name": "Homenick, Osinski and Tremblay",
-  "Tooltip": "repellendus",
+  "Id": 56,
+  "Name": "Hammes-O'Reilly",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 397,
+  "Rank": 269,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quas",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Upton Inc and Sons",
-  "Tooltip": "tenetur",
+  "Id": 819,
+  "Name": "Carroll-Smitham",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 69,
-  "IsCustomList": true,
+  "Rank": 667,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 565
     }
   }
 }

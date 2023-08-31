@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "quo"
+  "FileContent": "sequi"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 906,
-      "NumberOfLicensesFree": 681,
-      "NumberOfLicensesAdded": 915,
-      "NumberOfLicensesNewTotal": 186,
-      "NumberOfLicensesNewFree": 486,
-      "NumberOfLicensesTotal": 122
+      "NumberOfLicensesInUse": 604,
+      "NumberOfLicensesFree": 616,
+      "NumberOfLicensesAdded": 215,
+      "NumberOfLicensesNewTotal": 354,
+      "NumberOfLicensesNewFree": 166,
+      "NumberOfLicensesTotal": 805
     }
   ],
-  "AccumulatedNextCheckDate": "2012-04-22T16:00:41.0862117+02:00"
+  "AccumulatedNextCheckDate": "1999-12-12T03:31:26.6206926+01:00"
 }
 ```

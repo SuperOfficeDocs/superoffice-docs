@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schiller Group",
-  "Type": "voluptatibus",
-  "Size": 457,
+  "Name": "Koelpin, Ullrich and McKenzie",
+  "Type": "facere",
+  "Size": 32,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 530
+      "FieldType": "System.Int32",
+      "FieldLength": 678
     }
   }
 }

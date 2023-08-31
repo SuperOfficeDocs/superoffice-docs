@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Moen-Altenwerth",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 120,
-    "Rank": 932
+    "Id": 480,
+    "Name": "Ernser, Mosciski and Leuschke",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 318,
+    "Rank": 977
   },
   {
-    "Id": 808,
-    "Name": "Moen-Altenwerth",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 120,
-    "Rank": 932
+    "Id": 480,
+    "Name": "Ernser, Mosciski and Leuschke",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 318,
+    "Rank": 977
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Goyette-Klein",
-    "Tooltip": "eveniet",
+    "Id": 418,
+    "Name": "Olson Group",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 580,
+    "UdListDefinitionId": 761,
+    "Rank": 963,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

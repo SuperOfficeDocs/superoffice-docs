@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Kuvalis, Ondricka and Quigley"
+  "ApplicationName": "McDermott, Bednar and Nikolaus"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 266,
-  "Name": "Lesch Inc and Sons",
-  "CreatedDate": "2003-02-03T16:00:41.0705907+01:00",
-  "UpdatedDate": "2022-03-05T16:00:41.0705907+01:00",
-  "AssociateFullName": "Remington Nitzsche",
-  "CreatedBy": "velit",
-  "UpdatedBy": "voluptas",
-  "DeviceIdentifier": "consequuntur",
-  "ForeignAppId": 261,
+  "ForeignDeviceId": 205,
+  "Name": "Volkman Inc and Sons",
+  "CreatedDate": "2018-07-19T03:31:26.6050723+02:00",
+  "UpdatedDate": "2015-08-05T03:31:26.6050723+02:00",
+  "AssociateFullName": "Louie Hudson II",
+  "CreatedBy": "est",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "excepturi",
+  "ForeignAppId": 198,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldLength": 421
     }
   }
 }

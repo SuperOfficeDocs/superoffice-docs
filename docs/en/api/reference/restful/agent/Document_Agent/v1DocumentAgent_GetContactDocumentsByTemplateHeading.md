@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 244,
-  "StartTime": "2010-08-26T16:00:40.5550049+02:00",
-  "EndTime": "2017-11-17T16:00:40.5550049+01:00",
-  "Count": 57,
-  "TemplateHeadingId": 742
+  "ContactId": 8,
+  "StartTime": "2000-06-20T03:31:26.0427182+02:00",
+  "EndTime": "2021-05-01T03:31:26.0427182+02:00",
+  "Count": 681,
+  "TemplateHeadingId": 27
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 753,
-    "Attention": "quo",
-    "Header": "omnis",
-    "Name": "Koch-Block",
-    "OurRef": "itaque",
-    "YourRef": "voluptates",
-    "Description": "Networked static adapter",
-    "DocumentTemplate": "non",
+    "DocumentId": 352,
+    "Attention": "architecto",
+    "Header": "corrupti",
+    "Name": "Windler LLC",
+    "OurRef": "rerum",
+    "YourRef": "veritatis",
+    "Description": "Innovative foreground structure",
+    "DocumentTemplate": "a",
     "IsPublished": true,
-    "PersonId": 97,
-    "PersonFullName": "Anabel Oberbrunner",
-    "AssociateFullName": "Miss Samson Uriah Grimes",
-    "ContactId": 908,
-    "ContactName": "Hansen-Roob",
-    "ProjectId": 418,
-    "ProjectName": "Kreiger Inc and Sons",
-    "AssociateId": 836,
-    "Snum": 689,
-    "SaleId": 135,
-    "SaleName": "Hodkiewicz, Krajcik and Reichert",
+    "PersonId": 601,
+    "PersonFullName": "Efrain Spinka",
+    "AssociateFullName": "Hilario Fahey",
+    "ContactId": 629,
+    "ContactName": "Corkery, West and Schumm",
+    "ProjectId": 87,
+    "ProjectName": "Hackett LLC",
+    "AssociateId": 240,
+    "Snum": 187,
+    "SaleId": 883,
+    "SaleName": "Dach-Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 397
+        "FieldType": "System.Int32",
+        "FieldLength": 422
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gaylord, Weber and Cartwright",
-    "Description": "Cross-platform even-keeled superstructure",
+    "Name": "Stanton-Bauch",
+    "Description": "Persistent responsive ability",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 880,
-        "Tooltip": "eos",
+        "Unrestricted": true,
+        "Total": 918,
+        "Tooltip": "molestias",
         "CanAssign": true,
-        "Free": 284,
-        "InUse": 48,
+        "Free": 262,
+        "InUse": 73,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 17,
-        "Name": "Crona Inc and Sons",
-        "Description": "Enterprise-wide optimizing access",
-        "PrerequisiteModuleName": "Bergstrom LLC",
-        "SortOrder": 913,
-        "ExtraFlags": 462,
+        "ModuleLicenseId": 656,
+        "Name": "Kihn Inc and Sons",
+        "Description": "Upgradable impactful time-frame",
+        "PrerequisiteModuleName": "Schoen LLC",
+        "SortOrder": 332,
+        "ExtraFlags": 694,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 606
+            "FieldLength": 313
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 266,
-        "Tooltip": "in",
+        "Unrestricted": true,
+        "Total": 519,
+        "Tooltip": "adipisci",
         "CanAssign": false,
-        "Free": 106,
-        "InUse": 195,
+        "Free": 23,
+        "InUse": 753,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 243,
-        "Name": "Koch, Corkery and Nicolas",
-        "Description": "Fundamental intangible internet solution",
-        "PrerequisiteModuleName": "Harvey LLC",
-        "SortOrder": 775,
-        "ExtraFlags": 903,
+        "Assigned": false,
+        "ModuleLicenseId": 630,
+        "Name": "Zboncak LLC",
+        "Description": "Persistent incremental collaboration",
+        "PrerequisiteModuleName": "West Group",
+        "SortOrder": 478,
+        "ExtraFlags": 577,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 559
+            "FieldType": "System.Int32",
+            "FieldLength": 330
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldLength": 374
       }
     }
   },
   {
-    "Name": "Gaylord, Weber and Cartwright",
-    "Description": "Cross-platform even-keeled superstructure",
+    "Name": "Stanton-Bauch",
+    "Description": "Persistent responsive ability",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 880,
-        "Tooltip": "eos",
+        "Unrestricted": true,
+        "Total": 918,
+        "Tooltip": "molestias",
         "CanAssign": true,
-        "Free": 284,
-        "InUse": 48,
+        "Free": 262,
+        "InUse": 73,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 17,
-        "Name": "Crona Inc and Sons",
-        "Description": "Enterprise-wide optimizing access",
-        "PrerequisiteModuleName": "Bergstrom LLC",
-        "SortOrder": 913,
-        "ExtraFlags": 462,
+        "ModuleLicenseId": 656,
+        "Name": "Kihn Inc and Sons",
+        "Description": "Upgradable impactful time-frame",
+        "PrerequisiteModuleName": "Schoen LLC",
+        "SortOrder": 332,
+        "ExtraFlags": 694,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 606
+            "FieldLength": 313
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 266,
-        "Tooltip": "in",
+        "Unrestricted": true,
+        "Total": 519,
+        "Tooltip": "adipisci",
         "CanAssign": false,
-        "Free": 106,
-        "InUse": 195,
+        "Free": 23,
+        "InUse": 753,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 243,
-        "Name": "Koch, Corkery and Nicolas",
-        "Description": "Fundamental intangible internet solution",
-        "PrerequisiteModuleName": "Harvey LLC",
-        "SortOrder": 775,
-        "ExtraFlags": 903,
+        "Assigned": false,
+        "ModuleLicenseId": 630,
+        "Name": "Zboncak LLC",
+        "Description": "Persistent incremental collaboration",
+        "PrerequisiteModuleName": "West Group",
+        "SortOrder": 478,
+        "ExtraFlags": 577,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 559
+            "FieldType": "System.Int32",
+            "FieldLength": 330
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldLength": 374
       }
     }
   }

@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Homenick, Mayert and Greenholt",
-  "Tooltip": "eos",
+  "Id": 360,
+  "Name": "Mills LLC",
+  "Tooltip": "voluptate",
   "Deleted": true,
-  "Rank": 493,
+  "Rank": 208,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": false
+  "ListType": "ratione",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 6,
-  "Name": "DuBuque Inc and Sons",
-  "Tooltip": "at",
-  "Deleted": false,
-  "Rank": 767,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 524,
+  "Name": "Rolfson, Walter and Willms",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 680,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 723
+      "FieldType": "System.Int32",
+      "FieldLength": 703
     }
   }
 }

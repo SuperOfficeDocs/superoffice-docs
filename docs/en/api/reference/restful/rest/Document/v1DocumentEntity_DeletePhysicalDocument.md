@@ -68,7 +68,7 @@ OK
 DELETE /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "omnis",
-  "VersionId": "nobis",
+  "ExternalReference": "reiciendis",
+  "VersionId": "nihil",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "sit",
-  "AdditionalInfo": "hic"
+  "Value": "explicabo",
+  "AdditionalInfo": "voluptate"
 }
 ```

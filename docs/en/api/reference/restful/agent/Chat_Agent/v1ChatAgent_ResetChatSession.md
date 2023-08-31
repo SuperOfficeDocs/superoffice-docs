@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 884
+  "ChatSessionId": 488
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 376,
-  "TopicId": 560,
+  "ChatSessionId": 457,
+  "TopicId": 235,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magni",
-  "CustomerHost": "occaecati",
-  "CustomerName": "Hirthe, Smith and Upton",
-  "CustomerEmail": "deion_douglas@becker.ca",
-  "CustomerPhone": "523.682.7875",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Mitchell-Jakubowski",
+  "CustomerAlias": "autem",
+  "CustomerHost": "voluptatum",
+  "CustomerName": "Kris Inc and Sons",
+  "CustomerEmail": "aisha.weber@barton.name",
+  "CustomerPhone": "761-437-2148 x121",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Treutel-DuBuque",
   "Status": "Closed",
-  "FirstMessage": "eaque",
-  "LastMessage": "voluptas",
-  "WhenRequested": "1998-10-26T16:00:40.2581782+01:00",
-  "WhenStarted": "2023-05-06T16:00:40.2581782+02:00",
-  "WhenEnded": "2007-11-01T16:00:40.2581782+01:00",
-  "WhenIdle": "1999-06-16T16:00:40.2581782+02:00",
-  "WhenFetched": "2017-03-06T16:00:40.2581782+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 524,
-  "AlertLevel": 438,
-  "Rank": 223,
+  "FirstMessage": "facilis",
+  "LastMessage": "odio",
+  "WhenRequested": "2009-07-04T03:31:25.7915519+02:00",
+  "WhenStarted": "1996-05-20T03:31:25.7915519+02:00",
+  "WhenEnded": "2006-04-20T03:31:25.7915519+02:00",
+  "WhenIdle": "2005-06-24T03:31:25.7915519+02:00",
+  "WhenFetched": "2003-10-03T03:31:25.7915519+02:00",
+  "SessionKey": "impedit",
+  "InitialQueuePos": 493,
+  "AlertLevel": 965,
+  "Rank": 375,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 21,
+  "Rating": 700,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldType": "System.Int32",
+      "FieldLength": 155
     }
   }
 }

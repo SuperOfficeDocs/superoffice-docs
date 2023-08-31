@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lind, Johnson and Towne",
-  "Context": "dolorem"
+  "ProviderName": "Kemmer Group",
+  "Context": "similique"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Harber, Friesen and Reichel",
-    "DisplayTooltip": "iure",
-    "DisplayType": "in",
+    "DisplayName": "Gleichner, Fisher and Harber",
+    "DisplayTooltip": "corrupti",
+    "DisplayType": "suscipit",
     "CanOrderBy": false,
-    "Name": "Casper Group",
+    "Name": "Wolf-Wintheiser",
     "CanRestrictBy": false,
-    "RestrictionType": "modi",
-    "RestrictionListName": "Runolfsson-Haley",
-    "IsVisible": true,
-    "ExtraInfo": "et",
-    "Width": "eveniet",
-    "IconHint": "vitae",
-    "HeadingIconHint": "officia"
+    "RestrictionType": "rerum",
+    "RestrictionListName": "Johns-Bins",
+    "IsVisible": false,
+    "ExtraInfo": "ut",
+    "Width": "nihil",
+    "IconHint": "optio",
+    "HeadingIconHint": "vero"
   }
 ]
 ```

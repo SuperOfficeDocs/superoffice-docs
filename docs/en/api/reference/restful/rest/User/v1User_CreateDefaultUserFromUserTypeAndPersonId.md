@@ -32,7 +32,7 @@ System and Anonymous users can be created without an exsisting person and permit
 
 ```http
 GET /api/v1/User/Default?userType=AnonymousAssociate
-GET /api/v1/User/Default?personId=736
+GET /api/v1/User/Default?personId=324
 ```
 
 
@@ -96,7 +96,7 @@ OK
 GET /api/v1/User/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,14 +106,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 350,
-  "Name": "Rippin Group",
-  "Rank": 506,
-  "Tooltip": "aut",
+  "AssociateId": 29,
+  "Name": "Rempel Group",
+  "Rank": 453,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Wiegand Group",
-      "Description": "Ameliorated solution-oriented database",
+      "Name": "Lueilwitz-Witting",
+      "Description": "Enterprise-wide mission-critical protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     },
     {
-      "Name": "Wiegand Group",
-      "Description": "Ameliorated solution-oriented database",
+      "Name": "Lueilwitz-Witting",
+      "Description": "Enterprise-wide mission-critical protocol",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     }
@@ -156,110 +156,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "est",
-      "Tooltip": "dicta",
-      "Id": 672,
-      "Rank": 889,
-      "Deleted": true,
+      "Value": "amet",
+      "Tooltip": "sint",
+      "Id": 252,
+      "Rank": 369,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 822
+          "FieldLength": 909
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2023-01-23T16:00:48.7896079+01:00",
-  "Lastlogout": "1996-07-30T16:00:48.7896079+02:00",
-  "EjUserId": 526,
-  "RequestSignature": "quas",
+  "Deleted": true,
+  "Lastlogin": "2023-02-26T03:31:33.4136322+01:00",
+  "Lastlogout": "2001-05-11T03:31:33.4136322+02:00",
+  "EjUserId": 359,
+  "RequestSignature": "adipisci",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "autem",
+      "Value": "ab",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 841
         }
       }
     },
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "autem",
+      "Value": "ab",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 841
         }
       }
     }
   ],
-  "UserName": "Waters Inc and Sons",
+  "UserName": "Luettgen, VonRueden and Medhurst",
   "TicketCategories": [
     {
-      "Id": 184,
-      "Name": "Wilkinson, Mueller and Leannon",
-      "ToolTip": "Pariatur repudiandae nisi.",
-      "Deleted": true,
-      "Rank": 789,
-      "Type": "omnis",
+      "Id": 438,
+      "Name": "Mueller-Schulist",
+      "ToolTip": "Dignissimos consequatur sapiente officia beatae sit.",
+      "Deleted": false,
+      "Rank": 923,
+      "Type": "modi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vero",
-      "ColorBlock": 762,
-      "ExtraInfo": "possimus",
-      "StyleHint": "doloremque",
-      "FullName": "Angel Koch",
+      "IconHint": "facere",
+      "ColorBlock": 741,
+      "ExtraInfo": "ratione",
+      "StyleHint": "molestiae",
+      "FullName": "Mr. Abelardo Janiya Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 394
         }
       }
     }
   ],
-  "NickName": "Jacobson, Heaney and Ward",
-  "WaitingForApproval": false,
+  "NickName": "Doyle LLC",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "at"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "assumenda",
+    "CustomFields2": "rem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Johnson-Dicki",
-      "DisplayName": "O'Kon, Kiehn and Purdy",
-      "Description": "Intuitive background artificial intelligence",
-      "ToolTip": "Non aperiam qui rerum eligendi est aut.",
+      "Name": "Turner, Oberbrunner and Monahan",
+      "DisplayName": "Luettgen LLC",
+      "Description": "Open-source client-server encryption",
+      "ToolTip": "Cupiditate quidem delectus laudantium repudiandae quis aut.",
       "Actions": "Implicit",
-      "ActionData": "laboriosam",
+      "ActionData": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 77
         }
       }
     }
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 823
     }
   }
 }

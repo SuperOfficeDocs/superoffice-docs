@@ -69,7 +69,9 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Valid | bool | True if the CRMScript was successfully validated. If false, see the error message for details |
-| ErrorMessage | string | Contains the error message for a non-valide CRMScript |
+| ErrorMessage | string | Deprecated, see ErrorInformation instead. Contains the error message for a non-valide CRMScript |
+| LineNumber | int32 | Deprecated, see ErrorInformation instead. The line number containing the incorrect syntax, if available |
+| ErrorInformation | CRMScriptErrorInfo | Contains error information if the validation failed |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -83,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptId": 980
+  "TriggerScriptId": 793
 }
 ```
 
@@ -95,13 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "aliquam",
+  "ErrorMessage": "ex",
+  "LineNumber": 316,
+  "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldLength": 996
     }
   }
 }

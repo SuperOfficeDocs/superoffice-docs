@@ -72,7 +72,7 @@ PATCH /api/v1/Dash/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "debitis",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "debitis",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 234,
-  "UniqueId": "sint",
-  "Name": "Hettinger, Corkery and Feil",
-  "Description": "Optimized real-time system engine",
-  "AssociateId": 638,
-  "Columns": 398,
+  "DashboardId": 446,
+  "UniqueId": "placeat",
+  "Name": "Goldner, Abbott and Marquardt",
+  "Description": "Self-enabling bottom-line success",
+  "AssociateId": 534,
+  "Columns": 162,
   "Theme": null,
-  "VisibleForAll": 540,
+  "VisibleForAll": 638,
   "VisibleForAssociates": [
-    917,
-    88
-  ],
-  "VisibleForGroups": [
-    297,
-    610
-  ],
-  "PinForAll": 81,
-  "PinForAssociates": [
-    174,
+    304,
     923
   ],
+  "VisibleForGroups": [
+    959,
+    41
+  ],
+  "PinForAll": 389,
+  "PinForAssociates": [
+    145,
+    125
+  ],
   "PinForGroups": [
-    578,
-    599
+    318,
+    227
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 621
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

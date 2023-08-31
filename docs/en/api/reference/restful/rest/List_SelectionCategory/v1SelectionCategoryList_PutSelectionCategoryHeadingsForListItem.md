@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Krajcik-Johnston",
-    "ToolTip": "Alias quia ipsum quia voluptatem blanditiis totam suscipit.",
+    "Id": 321,
+    "Name": "Waelchi-Hackett",
+    "ToolTip": "Facere hic nisi vel repudiandae.",
     "Deleted": true,
-    "Rank": 49,
-    "Type": "enim",
-    "ColorBlock": 163,
-    "IconHint": "repellat",
+    "Rank": 972,
+    "Type": "et",
+    "ColorBlock": 31,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2017-08-30T16:00:49.3364234+02:00",
+    "LastChanged": "2021-07-16T03:31:33.8835899+02:00",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "Hoppe, Ledner and Walsh",
-        "ToolTip": "Vel et aut nemo perspiciatis.",
+        "Id": 91,
+        "Name": "Considine-Heller",
+        "ToolTip": "Ut ea officia sit et vel.",
         "Deleted": false,
-        "Rank": 333,
-        "Type": "illum",
-        "ColorBlock": 372,
-        "IconHint": "eos",
+        "Rank": 495,
+        "Type": "eos",
+        "ColorBlock": 231,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2005-12-30T16:00:49.3364234+01:00",
+        "LastChanged": "2017-02-24T03:31:33.8835899+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Mr. Shany Rippin"
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Octavia Bode"
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "magni",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Ms. Halle Kub V"
+    "FullName": "Josie Daugherty"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Huel, Lebsack and Goldner",
-    "ToolTip": "Quia et odit reprehenderit aut laudantium in.",
-    "Deleted": true,
-    "Rank": 438,
-    "Type": "aspernatur",
-    "ColorBlock": 955,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2001-10-10T16:00:49.3364234+02:00",
+    "Id": 90,
+    "Name": "Lynch-Baumbach",
+    "ToolTip": "Aut fugit esse.",
+    "Deleted": false,
+    "Rank": 813,
+    "Type": "eum",
+    "ColorBlock": 425,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2014-08-13T03:31:33.8993202+02:00",
     "ChildItems": [
       {
-        "Id": 996,
-        "Name": "Spencer LLC",
-        "ToolTip": "Itaque animi.",
-        "Deleted": false,
-        "Rank": 67,
-        "Type": "doloremque",
-        "ColorBlock": 210,
-        "IconHint": "voluptatem",
+        "Id": 998,
+        "Name": "Wiegand-Herzog",
+        "ToolTip": "Repudiandae impedit illum.",
+        "Deleted": true,
+        "Rank": 663,
+        "Type": "doloribus",
+        "ColorBlock": 212,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2021-10-14T16:00:49.3364234+02:00",
+        "LastChanged": "2004-10-21T03:31:33.8993202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "quia",
+        "StyleHint": "nostrum",
         "Hidden": true,
-        "FullName": "Carlie Wyman",
+        "FullName": "Ms. Milford Larson III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 853
+            "FieldType": "System.String",
+            "FieldLength": 848
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Magnolia Gibson",
+    "ExtraInfo": "autem",
+    "StyleHint": "nemo",
+    "Hidden": false,
+    "FullName": "Dr. Anya Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 230
       }
     }
   }

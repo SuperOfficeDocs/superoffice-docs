@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ipsa",
-    "PersonId": 268,
-    "Mrmrs": "corporis",
-    "Firstname": "Otha",
-    "Lastname": "Ortiz",
-    "MiddleName": "Mills Inc and Sons",
-    "Title": "ducimus",
-    "Description": "Digitized systemic functionalities",
-    "Email": "lynn@casper.uk",
-    "FullName": "Leone Crist DDS",
-    "DirectPhone": "1-915-015-1793 x94389",
-    "FormalName": "Durgan-Shanahan",
-    "CountryId": 828,
-    "ContactId": 416,
-    "ContactName": "Kilback Inc and Sons",
-    "Retired": 789,
-    "Rank": 247,
-    "ActiveInterests": 370,
+    "Position": "omnis",
+    "PersonId": 192,
+    "Mrmrs": "fugit",
+    "Firstname": "Cayla",
+    "Lastname": "Hahn",
+    "MiddleName": "Okuneva Inc and Sons",
+    "Title": "cum",
+    "Description": "Vision-oriented transitional help-desk",
+    "Email": "candice@dubuque.us",
+    "FullName": "Mrs. Shaun Pearline Walter II",
+    "DirectPhone": "1-247-449-0778",
+    "FormalName": "Kutch, Greenholt and Windler",
+    "CountryId": 845,
+    "ContactId": 729,
+    "ContactName": "Pfannerstill-Corkery",
+    "Retired": 610,
+    "Rank": 960,
+    "ActiveInterests": 745,
     "ContactDepartment": "",
-    "ContactCountryId": 79,
-    "ContactOrgNr": "320800",
-    "FaxPhone": "1-012-666-1443 x6283",
-    "MobilePhone": "830-675-8723 x301",
-    "ContactPhone": "1-375-418-3262 x5321",
-    "AssociateName": "Heaney-Padberg",
-    "AssociateId": 443,
-    "UsePersonAddress": true,
-    "ContactFax": "odit",
-    "Kanafname": "ad",
-    "Kanalname": "molestiae",
-    "Post1": "qui",
-    "Post2": "quisquam",
-    "Post3": "culpa",
-    "EmailName": "pascale.nikolaus@mosciski.com",
-    "ContactFullName": "Francisco Nona Walter V",
-    "ActiveErpLinks": 108,
-    "TicketPriorityId": 713,
-    "SupportLanguageId": 626,
-    "SupportAssociateId": 320,
+    "ContactCountryId": 685,
+    "ContactOrgNr": "1163349",
+    "FaxPhone": "511-306-2119",
+    "MobilePhone": "218-553-2560 x505",
+    "ContactPhone": "1-477-500-8375",
+    "AssociateName": "Kohler-O'Reilly",
+    "AssociateId": 791,
+    "UsePersonAddress": false,
+    "ContactFax": "ut",
+    "Kanafname": "dicta",
+    "Kanalname": "asperiores",
+    "Post1": "molestiae",
+    "Post2": "molestiae",
+    "Post3": "aut",
+    "EmailName": "scotty@luettgen.com",
+    "ContactFullName": "Dr. Adonis Baron Bernier PhD",
+    "ActiveErpLinks": 871,
+    "TicketPriorityId": 623,
+    "SupportLanguageId": 852,
+    "SupportAssociateId": 774,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldType": "System.String",
+        "FieldLength": 958
       }
     }
   }

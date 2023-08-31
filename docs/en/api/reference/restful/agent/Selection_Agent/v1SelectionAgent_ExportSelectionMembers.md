@@ -74,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 377,
-  "TemplateName": "Balistreri-Bergstrom",
+  "SelectionId": 88,
+  "TemplateName": "Spinka-D'Amore",
   "UseContacts": false
 }
 ```

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 837,
-  "DefaultValue": "pariatur",
+  "ErpFieldId": 611,
+  "DefaultValue": "laborum",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "quia",
+  "FirstSyncDefaultValue": "et",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "a",
+  "ErpFieldKey": "aut",
   "FieldType": "Checkbox",
-  "ListName": "Hilpert-Altenwerth",
+  "ListName": "Rogahn Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 230
     }
   }
 }

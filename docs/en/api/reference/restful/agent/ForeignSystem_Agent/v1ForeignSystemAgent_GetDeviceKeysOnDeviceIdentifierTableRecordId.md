@@ -88,11 +88,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hickle-Hessel",
-  "DeviceName": "Brakus LLC",
-  "DeviceIdentifier": "numquam",
-  "TableName": "Thompson LLC",
-  "RecordId": 245
+  "ApplicationName": "Douglas Inc and Sons",
+  "DeviceName": "Kuhn-Friesen",
+  "DeviceIdentifier": "et",
+  "TableName": "Renner Inc and Sons",
+  "RecordId": 787
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "et",
-    "Value": "veniam",
-    "RecordId": 98,
-    "CreatedDate": "2012-10-30T16:00:41.0705907+01:00",
-    "UpdatedDate": "2015-06-20T16:00:41.0705907+02:00",
-    "UpdatedBy": "quae",
-    "CreatedBy": "et",
-    "TableName": "Luettgen, Lindgren and O'Keefe",
+    "Key": "maxime",
+    "Value": "repellendus",
+    "RecordId": 364,
+    "CreatedDate": "2022-09-07T03:31:26.6050723+02:00",
+    "UpdatedDate": "2014-11-21T03:31:26.6050723+01:00",
+    "UpdatedBy": "rem",
+    "CreatedBy": "repellendus",
+    "TableName": "Willms-Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 736
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 446,
-    "ColumnId": 397,
-    "FieldDefault": "dicta",
-    "FieldHeight": 1002,
-    "FieldLabel": "voluptate",
-    "FieldLeft": 630,
-    "FieldTop": 213,
+    "UDefFieldId": 655,
+    "ColumnId": 817,
+    "FieldDefault": "et",
+    "FieldHeight": 310,
+    "FieldLabel": "officia",
+    "FieldLeft": 196,
+    "FieldTop": 355,
     "FieldType": "Checkbox",
-    "FieldWidth": 71,
-    "FormatMask": "modi",
+    "FieldWidth": 854,
+    "FormatMask": "nobis",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 103,
-    "LabelLeft": 796,
-    "LabelTop": 69,
-    "LabelWidth": 658,
-    "LastVersionId": 462,
-    "ListTableId": 511,
+    "IsIndexed": false,
+    "LabelHeight": 114,
+    "LabelLeft": 936,
+    "LabelTop": 453,
+    "LabelWidth": 155,
+    "LastVersionId": 743,
+    "ListTableId": 389,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 926,
-    "ProgId": "veniam",
+    "Page1LineNo": 511,
+    "ProgId": "sequi",
     "IsReadOnly": true,
-    "ShortLabel": "mollitia",
-    "TabOrder": 959,
-    "TextLength": 190,
-    "Tooltip": "earum",
-    "UdefIdentity": 446,
-    "UDListDefinitionId": 175,
+    "ShortLabel": "consequatur",
+    "TabOrder": 757,
+    "TextLength": 1001,
+    "Tooltip": "iure",
+    "UdefIdentity": 582,
+    "UDListDefinitionId": 744,
     "Justification": "Center",
-    "Version": 121,
-    "TemplateVariableName": "Jacobson Group",
+    "Version": 365,
+    "TemplateVariableName": "Schuster, Hackett and Schoen",
     "HasBeenPublished": false,
-    "MdoListName": "Padberg-Ward",
+    "MdoListName": "Johns LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 440
       }
     }
   }

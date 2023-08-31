@@ -15,6 +15,8 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgen
 ```cs
     static void BeforeSplitTicket(
        Int32  sourceTicketEntityId,
+       Int32  sourceTicketEntityStatusId,
+       DateTime  sourceTicketEntityActivate,
        Int32[]  transferMessageIds,
        TicketEntity  newTicketEntity,
        ref object  eventState
@@ -28,6 +30,8 @@ Event state is not preserved between different service calls. It is set to null 
 ```cs
     static void AfterSplitTicket(
        Int32  sourceTicketEntityId,
+       Int32  sourceTicketEntityStatusId,
+       DateTime  sourceTicketEntityActivate,
        Int32[]  transferMessageIds,
        TicketEntity  newTicketEntity,
        ref TicketEntity  returnValue,
@@ -41,6 +45,8 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ```cs
     static void AfterSplitTicketAsync(
        Int32  sourceTicketEntityId,
+       Int32  sourceTicketEntityStatusId,
+       DateTime  sourceTicketEntityActivate,
        Int32[]  transferMessageIds,
        TicketEntity  newTicketEntity,
        ref TicketEntity  returnValue,

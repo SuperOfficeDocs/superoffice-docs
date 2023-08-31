@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 286,
+  "QuoteAlternativeId": 297,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 929,
-  "ERPQuoteLineKey": "et",
-  "QuoteAlternativeId": 885,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 38,
+  "ERPQuoteLineKey": "qui",
+  "QuoteAlternativeId": 845,
+  "ERPProductKey": "est",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 20320.856,
-  "DeliveredQuantity": 7364.9,
-  "Rank": 159,
-  "Name": "Ortiz-Hoppe",
-  "Description": "Synchronised 24/7 instruction set",
-  "Code": "rerum",
-  "QuantityUnit": "sit",
-  "PriceUnit": "et",
-  "ItemNumber": "1130676",
+  "Reason": "whiteboard scalable experiences",
+  "Quantity": 8452.398,
+  "DeliveredQuantity": 28732.512,
+  "Rank": 516,
+  "Name": "Ward, Grant and Toy",
+  "Description": "Triple-buffered responsive Graphical User Interface",
+  "Code": "impedit",
+  "QuantityUnit": "quibusdam",
+  "PriceUnit": "a",
+  "ItemNumber": "791789",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatum",
-  "ProductTypeKey": "tempore",
-  "Supplier": "et",
-  "SupplierCode": "alias",
-  "Thumbnail": "sunt",
-  "VATInfo": "natus",
-  "VAT": 10144.758,
-  "UnitCost": 20223.702,
-  "UnitMinimumPrice": 11630.274,
-  "UnitListPrice": 13905.557999999999,
+  "ProductFamilyKey": "omnis",
+  "ProductTypeKey": "repellat",
+  "Supplier": "consequatur",
+  "SupplierCode": "omnis",
+  "Thumbnail": "repudiandae",
+  "VATInfo": "et",
+  "VAT": 410.554,
+  "UnitCost": 21223.448,
+  "UnitMinimumPrice": 16707.354,
+  "UnitListPrice": 20085.806,
   "ExtraInfo": [
     {
-      "Name": "Schiller, Senger and Strosin",
-      "Value": "sed",
+      "Name": "Roberts-Lehner",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldLength": 259
         }
       }
     },
     {
-      "Name": "Schiller, Senger and Strosin",
-      "Value": "sed",
+      "Name": "Roberts-Lehner",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 458
+          "FieldLength": 259
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quos",
-  "SubscriptionQuantity": 8768.9319999999989,
-  "SubscriptionStart": "1997-06-26T16:00:41.6800689+02:00",
-  "ERPDiscountPercent": 28616.554,
-  "ERPDiscountAmount": 9705.998,
-  "DiscountPercent": 26874.05,
-  "DiscountAmount": 12661.359999999999,
+  "RawExtraInfo": "dolorem",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 19935.374,
+  "SubscriptionStart": "2021-05-29T03:31:27.106235+02:00",
+  "ERPDiscountPercent": 31327.464,
+  "ERPDiscountAmount": 11138.235999999999,
+  "DiscountPercent": 16785.703999999998,
+  "DiscountAmount": 4528.63,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5763.4259999999995,
-  "EarningAmount": 30722.602,
-  "SubTotal": 24022.11,
-  "TotalPrice": 21546.25,
-  "Rights": "sed",
-  "Rule": "ut",
-  "ExtraField1": "at",
-  "ExtraField2": "ut",
-  "ExtraField3": "officia",
-  "ExtraField4": "modi",
-  "ExtraField5": "nesciunt",
+  "EarningPercent": 1902.338,
+  "EarningAmount": 29070.984,
+  "SubTotal": 22332.884,
+  "TotalPrice": 12122.312,
+  "Rights": "aliquid",
+  "Rule": "quae",
+  "ExtraField1": "dolor",
+  "ExtraField2": "nihil",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "dignissimos",
+  "ExtraField5": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldLength": 304
     }
   }
 }

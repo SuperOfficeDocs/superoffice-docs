@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hoppe LLC",
-  "AssociateId": 990
+  "TableName": "Berge-Bergstrom",
+  "AssociateId": 807
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Deckow, Larkin and Rippin",
-    "RecordId": 17,
-    "AssociateId": 641,
-    "ExtraInfo": "magnam",
-    "Rank": 457,
+    "TableName": "Hirthe-McGlynn",
+    "RecordId": 853,
+    "AssociateId": 296,
+    "ExtraInfo": "iste",
+    "Rank": 850,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 294
       }
     }
   }

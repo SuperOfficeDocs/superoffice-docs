@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=nesciunt
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=ipsum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Murray-Quitzon",
-    "ToolTip": "Fugit laudantium molestiae assumenda.",
+    "Id": 194,
+    "Name": "Wiza-Daugherty",
+    "ToolTip": "Consequatur deserunt maiores.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "temporibus",
+    "Rank": 958,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Hansen, Lockman and Keebler",
-        "ToolTip": "Occaecati est sint qui.",
-        "Deleted": false,
-        "Rank": 712,
-        "Type": "quidem",
+        "Id": 600,
+        "Name": "Hauck Inc and Sons",
+        "ToolTip": "Atque aut maxime id odio.",
+        "Deleted": true,
+        "Rank": 884,
+        "Type": "repellat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perferendis",
-        "ColorBlock": 740,
-        "ExtraInfo": "at",
-        "StyleHint": "corporis",
-        "FullName": "Dr. Clifton Hortense Considine DVM",
+        "IconHint": "nihil",
+        "ColorBlock": 506,
+        "ExtraInfo": "quas",
+        "StyleHint": "autem",
+        "FullName": "Miss Harvey Elza Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 902
+            "FieldType": "System.Int32",
+            "FieldLength": 960
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 110,
-    "ExtraInfo": "aut",
-    "StyleHint": "dolores",
-    "FullName": "Hollis Zora Simonis IV",
+    "IconHint": "inventore",
+    "ColorBlock": 503,
+    "ExtraInfo": "tenetur",
+    "StyleHint": "aut",
+    "FullName": "Prof. Sarah Carolina Nikolaus Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldType": "System.Int32",
+        "FieldLength": 597
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Keebler-Hettinger",
-    "ToolTip": "Debitis mollitia fuga illum iste sunt et.",
+    "Id": 969,
+    "Name": "Legros-Moore",
+    "ToolTip": "Qui sed est sit qui ea.",
     "Deleted": true,
-    "Rank": 950,
-    "Type": "est",
-    "ColorBlock": 999,
-    "IconHint": "cumque",
+    "Rank": 20,
+    "Type": "eius",
+    "ColorBlock": 706,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2000-10-26T16:00:48.8989756+02:00",
+    "LastChanged": "2016-01-07T03:31:33.5229887+01:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Quigley LLC",
-        "ToolTip": "Quam perferendis cumque repellat earum quasi nam et.",
-        "Deleted": false,
-        "Rank": 274,
-        "Type": "sunt",
-        "ColorBlock": 404,
-        "IconHint": "pariatur",
-        "Selected": true,
-        "LastChanged": "2003-12-29T16:00:48.8989756+01:00",
+        "Id": 1000,
+        "Name": "Reichel-Grimes",
+        "ToolTip": "Ab aliquid accusantium optio quidem.",
+        "Deleted": true,
+        "Rank": 133,
+        "Type": "et",
+        "ColorBlock": 280,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2012-09-19T03:31:33.5229887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Dr. Ricardo Rippin Sr."
+        "ExtraInfo": "ullam",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Valentina Wolff Jr."
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "neque",
-    "Hidden": true,
-    "FullName": "Kurtis Cristian Kihn V"
+    "ExtraInfo": "vitae",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Delpha Willis Parisian V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Robel-Dickens",
-    "ToolTip": "Vero magni illum vel.",
-    "Deleted": false,
-    "Rank": 307,
-    "Type": "ad",
-    "ColorBlock": 113,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2019-04-22T16:00:48.8989756+02:00",
+    "Id": 780,
+    "Name": "Kirlin, Wisoky and Hauck",
+    "ToolTip": "Qui aliquid eveniet.",
+    "Deleted": true,
+    "Rank": 132,
+    "Type": "aliquid",
+    "ColorBlock": 442,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-01-28T03:31:33.5229887+01:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Reynolds Group",
-        "ToolTip": "Quis enim voluptas.",
-        "Deleted": false,
-        "Rank": 932,
-        "Type": "aut",
-        "ColorBlock": 990,
-        "IconHint": "nihil",
+        "Id": 948,
+        "Name": "Keebler-Gulgowski",
+        "ToolTip": "Est est aliquid dignissimos eum eligendi est sapiente.",
+        "Deleted": true,
+        "Rank": 73,
+        "Type": "fugit",
+        "ColorBlock": 796,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2001-01-18T16:00:48.8989756+01:00",
+        "LastChanged": "2017-08-03T03:31:33.5229887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Isabel Walsh",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Mrs. Yessenia Hildegard Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 92
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Coralie Fahey",
+    "FullName": "Mr. Hassan Abbott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 248
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Thiel Inc and Sons",
-    "ToolTip": "Optio est quidem earum recusandae fuga odio.",
-    "Deleted": true,
-    "Rank": 402,
-    "Type": "esse",
-    "ColorBlock": 900,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2016-06-28T16:00:49.289556+02:00",
+    "Id": 933,
+    "Name": "Bartell-Larson",
+    "ToolTip": "Explicabo qui minima voluptatem laborum nam sed.",
+    "Deleted": false,
+    "Rank": 754,
+    "Type": "sit",
+    "ColorBlock": 421,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "1997-05-25T03:31:33.8523421+02:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Dare Group",
-        "ToolTip": "Eos quis.",
+        "Id": 678,
+        "Name": "Gerlach, Stoltenberg and Huels",
+        "ToolTip": "Maxime sequi impedit harum vel quam.",
         "Deleted": false,
-        "Rank": 48,
-        "Type": "est",
-        "ColorBlock": 897,
-        "IconHint": "deserunt",
+        "Rank": 488,
+        "Type": "eum",
+        "ColorBlock": 919,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2000-11-02T16:00:49.289556+01:00",
+        "LastChanged": "2008-04-23T03:31:33.8523421+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "occaecati",
-        "Hidden": false,
-        "FullName": "Miss Darryl Presley Keebler",
+        "ExtraInfo": "corporis",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Manley Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldLength": 85
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "non",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Gayle Runolfsson",
+    "FullName": "Adolfo DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 993
+        "FieldLength": 774
       }
     }
   }

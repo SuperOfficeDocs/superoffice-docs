@@ -118,6 +118,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -133,7 +134,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 179
+  "TicketId": 610
 }
 ```
 
@@ -144,21 +145,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 313,
-  "Title": "est",
-  "CreatedAt": "2000-07-12T16:00:42.1175153+02:00",
-  "LastChanged": "2018-09-12T16:00:42.1175153+02:00",
-  "ReadByOwner": "2005-08-05T16:00:42.1175153+02:00",
-  "ReadByCustomer": "2015-12-04T16:00:42.1175153+01:00",
-  "FirstReadByOwner": "2022-05-19T16:00:42.1175153+02:00",
-  "FirstReadByUser": "2001-05-07T16:00:42.1175153+02:00",
-  "Activate": "2005-03-26T16:00:42.1175153+01:00",
-  "ClosedAt": "2016-07-22T16:00:42.1175153+02:00",
-  "RepliedAt": "2019-03-22T16:00:42.1175153+01:00",
-  "AlertTimeout": "2021-06-12T16:00:42.1175153+02:00",
-  "Deadline": "2022-07-25T16:00:42.1175153+02:00",
+  "TicketId": 510,
+  "Title": "eos",
+  "CreatedAt": "2000-06-23T03:31:27.3874142+02:00",
+  "LastChanged": "2003-10-18T03:31:27.3874142+02:00",
+  "ReadByOwner": "2010-07-14T03:31:27.3874142+02:00",
+  "ReadByCustomer": "2014-01-22T03:31:27.3874142+01:00",
+  "FirstReadByOwner": "2007-07-29T03:31:27.3874142+02:00",
+  "FirstReadByUser": "1998-06-20T03:31:27.3874142+02:00",
+  "Activate": "2012-01-15T03:31:27.3874142+01:00",
+  "ClosedAt": "2014-12-21T03:31:27.3874142+01:00",
+  "RepliedAt": "2018-04-09T03:31:27.3874142+02:00",
+  "AlertTimeout": "2001-05-10T03:31:27.3874142+02:00",
+  "Deadline": "2000-03-28T03:31:27.3874142+02:00",
   "CreatedBy": null,
-  "Author": "voluptates",
+  "Author": "dolorum",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -169,159 +170,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "commodi",
-      "PersonId": 686,
-      "Mrmrs": "suscipit",
-      "Firstname": "Maryse",
-      "Lastname": "O'Reilly",
-      "MiddleName": "Jacobi, Quitzon and Gleichner",
-      "Title": "molestiae",
-      "Description": "Fully-configurable systematic application",
-      "Email": "ibrahim_mosciski@kleinschiller.biz",
-      "FullName": "Mr. Austyn Jamey Rau",
-      "DirectPhone": "(383)910-6698 x647",
-      "FormalName": "Schumm-Mosciski",
-      "CountryId": 195,
-      "ContactId": 731,
-      "ContactName": "Lockman-McDermott",
-      "Retired": 712,
-      "Rank": 219,
-      "ActiveInterests": 208,
+      "Position": "corporis",
+      "PersonId": 560,
+      "Mrmrs": "debitis",
+      "Firstname": "Clarissa",
+      "Lastname": "Graham",
+      "MiddleName": "Feil-Wintheiser",
+      "Title": "repudiandae",
+      "Description": "Enterprise-wide intangible capacity",
+      "Email": "kelley.kassulke@turnerboyle.us",
+      "FullName": "Trevion Blick",
+      "DirectPhone": "914.712.7682",
+      "FormalName": "Ullrich, Stoltenberg and Quigley",
+      "CountryId": 116,
+      "ContactId": 174,
+      "ContactName": "Heller LLC",
+      "Retired": 687,
+      "Rank": 51,
+      "ActiveInterests": 660,
       "ContactDepartment": "",
-      "ContactCountryId": 518,
-      "ContactOrgNr": "850185",
-      "FaxPhone": "(609)597-4606 x3127",
-      "MobilePhone": "(923)833-7715 x6133",
-      "ContactPhone": "036-498-5122 x0038",
-      "AssociateName": "Douglas Inc and Sons",
-      "AssociateId": 474,
+      "ContactCountryId": 685,
+      "ContactOrgNr": "1573533",
+      "FaxPhone": "708.360.7871",
+      "MobilePhone": "470-462-3622 x8290",
+      "ContactPhone": "1-531-392-6070 x167",
+      "AssociateName": "Strosin LLC",
+      "AssociateId": 796,
       "UsePersonAddress": false,
-      "ContactFax": "consequuntur",
-      "Kanafname": "nisi",
-      "Kanalname": "et",
-      "Post1": "similique",
-      "Post2": "dolores",
-      "Post3": "error",
-      "EmailName": "elna_sipes@kuvalis.us",
-      "ContactFullName": "Mr. Deja Percival Schuppe II",
-      "ActiveErpLinks": 73,
-      "TicketPriorityId": 394,
-      "SupportLanguageId": 221,
-      "SupportAssociateId": 32,
+      "ContactFax": "nihil",
+      "Kanafname": "illum",
+      "Kanalname": "ea",
+      "Post1": "deserunt",
+      "Post2": "eius",
+      "Post3": "dicta",
+      "EmailName": "shanie.nikolaus@bashirian.com",
+      "ContactFullName": "Gwendolyn Wisozk",
+      "ActiveErpLinks": 579,
+      "TicketPriorityId": 5,
+      "SupportLanguageId": 355,
+      "SupportAssociateId": 39,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 922
+          "FieldType": "System.Int32",
+          "FieldLength": 869
         }
       }
     }
   ],
-  "AlertLevel": 544,
-  "ConnectId": 606,
+  "AlertLevel": 668,
+  "ConnectId": 289,
   "ReadStatus": "Green",
-  "TimeToReply": 439,
-  "RealTimeToReply": 376,
-  "TimeToClose": 538,
-  "RealTimeToClose": 129,
-  "TimeSpentInternally": 391,
-  "TimeSpentExternally": 414,
-  "TimeSpentQueue": 102,
-  "RealTimeSpentInternally": 549,
-  "RealTimeSpentExternally": 521,
-  "RealTimeSpentQueue": 756,
+  "TimeToReply": 20,
+  "RealTimeToReply": 502,
+  "TimeToClose": 950,
+  "RealTimeToClose": 36,
+  "TimeSpentInternally": 532,
+  "TimeSpentExternally": 1002,
+  "TimeSpentQueue": 175,
+  "RealTimeSpentInternally": 448,
+  "RealTimeSpentExternally": 893,
+  "RealTimeSpentQueue": 493,
   "HasAttachment": false,
-  "NumReplies": 416,
-  "NumMessages": 24,
-  "FromAddress": "pariatur",
+  "NumReplies": 854,
+  "NumMessages": 91,
+  "FromAddress": "est",
   "Messages": [
     {
-      "TicketMessageId": 146,
-      "CreatedAt": "2006-10-14T16:00:42.1175153+02:00",
+      "TicketMessageId": 631,
+      "CreatedAt": "1999-11-26T03:31:27.4030353+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "dolor",
-      "PersonId": 474,
-      "PersonFullName": "Jazlyn Feil",
-      "ContactId": 190,
-      "ContactName": "Gleichner-Ryan",
+      "Author": "ex",
+      "PersonId": 502,
+      "PersonFullName": "Terry Lang",
+      "ContactId": 173,
+      "ContactName": "Hansen, Shields and Kuhic",
       "ContactDepartment": "",
-      "NumAttachments": 785,
-      "EmailHeader": "frank_ryan@barrows.ca",
+      "NumAttachments": 373,
+      "EmailHeader": "urban@schambergerjohnson.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "fugiat",
-      "Sentiment": 489,
-      "SentimentConfidence": 376,
-      "CreatedBy": 120,
-      "ChangedAt": "1998-07-24T16:00:42.1175153+02:00",
+      "Language": "odio",
+      "Sentiment": 114,
+      "SentimentConfidence": 327,
+      "CreatedBy": 159,
+      "ChangedAt": "2008-12-23T03:31:27.4030353+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 5
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 212,
-      "Name": "Keeling LLC",
-      "ToolTip": "Ducimus iusto sed totam impedit.",
+      "Id": 236,
+      "Name": "Hettinger-Thiel",
+      "ToolTip": "Odit est distinctio aut expedita ipsa atque harum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 596
         }
       }
     },
     {
-      "Id": 212,
-      "Name": "Keeling LLC",
-      "ToolTip": "Ducimus iusto sed totam impedit.",
+      "Id": 236,
+      "Name": "Hettinger-Thiel",
+      "ToolTip": "Odit est distinctio aut expedita ipsa atque harum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 596
         }
       }
     }
   ],
-  "Language": "dicta",
-  "Sentiment": 473,
-  "SentimentConfidence": 874,
-  "SuggestedCategoryId": 456,
+  "Language": "velit",
+  "Sentiment": 607,
+  "SentimentConfidence": 504,
+  "SuggestedCategoryId": 837,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 256,
-  "IconHint": "hic",
+  "OrigHumanCategoryId": 894,
+  "IconHint": "harum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "a",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "aut"
+    "CustomFields1": "est",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 171
     }
   }
 }

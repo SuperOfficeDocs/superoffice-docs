@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Lynch Inc and Sons",
-    "Tooltip": "dolor",
+    "HeadingId": 530,
+    "Name": "Kuhic, Lubowitz and Champlin",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 283,
-    "UdListDefinitionId": 499,
+    "Rank": 37,
+    "UdListDefinitionId": 446,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 946
       }
     }
   }

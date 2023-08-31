@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=necessitatibus
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=sint
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 27 Oct 2009 16:00:47 G10T
+Last-Modified: Tue, 24 Mar 1998 03:31:32 G3T
 
 {
-  "Key": "distinctio",
-  "Value": "minima",
-  "RecordId": 475,
-  "CreatedDate": "2003-03-07T16:00:47.9928249+01:00",
-  "UpdatedDate": "2009-10-27T16:00:47.9928249+01:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "sint",
-  "TableName": "Bradtke LLC",
+  "Key": "libero",
+  "Value": "iusto",
+  "RecordId": 937,
+  "CreatedDate": "2009-06-09T03:31:32.6289016+02:00",
+  "UpdatedDate": "1998-03-24T03:31:32.6289016+01:00",
+  "UpdatedBy": "aliquam",
+  "CreatedBy": "commodi",
+  "TableName": "Lakin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldType": "System.String",
+      "FieldLength": 749
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 22,
-    "Name": "Smith-Jacobi",
-    "Tooltip": "aut",
+    "HeadingId": 445,
+    "Name": "Collins Group",
+    "Tooltip": "sapiente",
     "Deleted": false,
-    "Rank": 971,
-    "UdListDefinitionId": 769,
+    "Rank": 764,
+    "UdListDefinitionId": 317,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 824
       }
     }
   }

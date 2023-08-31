@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 108
+  "ChatSessionId": 763
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 345,
-  "TopicId": 344,
+  "ChatSessionId": 303,
+  "TopicId": 332,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consequatur",
-  "CustomerHost": "odit",
-  "CustomerName": "Wiza-Kuphal",
-  "CustomerEmail": "blake_hauck@rowe.uk",
-  "CustomerPhone": "500-147-5025",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Osinski Inc and Sons",
+  "CustomerAlias": "repellendus",
+  "CustomerHost": "nostrum",
+  "CustomerName": "Balistreri Group",
+  "CustomerEmail": "eleonore@croninkuphal.info",
+  "CustomerPhone": "674.551.2763",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Ruecker Group",
   "Status": "Closed",
-  "FirstMessage": "repellat",
-  "LastMessage": "libero",
-  "WhenRequested": "2011-12-14T16:00:40.2113079+01:00",
-  "WhenStarted": "2013-10-24T16:00:40.2113079+02:00",
-  "WhenEnded": "1998-03-09T16:00:40.2113079+01:00",
-  "WhenIdle": "2020-04-10T16:00:40.2113079+02:00",
-  "WhenFetched": "2017-02-08T16:00:40.2113079+01:00",
-  "SessionKey": "id",
-  "InitialQueuePos": 618,
-  "AlertLevel": 847,
-  "Rank": 187,
+  "FirstMessage": "consequatur",
+  "LastMessage": "tempora",
+  "WhenRequested": "2005-07-29T03:31:25.7433488+02:00",
+  "WhenStarted": "2001-11-12T03:31:25.7433488+01:00",
+  "WhenEnded": "2012-12-17T03:31:25.7433488+01:00",
+  "WhenIdle": "2016-10-25T03:31:25.7433488+02:00",
+  "WhenFetched": "2008-01-08T03:31:25.7433488+01:00",
+  "SessionKey": "inventore",
+  "InitialQueuePos": 166,
+  "AlertLevel": 18,
+  "Rank": 725,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 644,
+  "Rating": 48,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 163
     }
   }
 }

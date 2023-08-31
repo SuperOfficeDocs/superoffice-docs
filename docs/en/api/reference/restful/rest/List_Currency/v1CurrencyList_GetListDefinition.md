@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 287,
-  "Name": "Bechtelar, Hamill and Hand",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "Rank": 236,
+  "Id": 662,
+  "Name": "Ferry Inc and Sons",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 387,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 299
     }
   },
   "_Links": {

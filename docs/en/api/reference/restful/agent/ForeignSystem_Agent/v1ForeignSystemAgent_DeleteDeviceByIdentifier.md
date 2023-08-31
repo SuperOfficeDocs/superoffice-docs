@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hilll, Turner and Kub",
-  "DeviceName": "Pacocha Inc and Sons",
-  "DeviceIdentifier": "omnis"
+  "ApplicationName": "Bartell, Metz and Medhurst",
+  "DeviceName": "Hilpert-Kris",
+  "DeviceIdentifier": "neque"
 }
 ```
 

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=laborum
-GET /api/v1/Selection?$top=894
-GET /api/v1/Selection?$skip=292
+GET /api/v1/Selection?$entities=perferendis
+GET /api/v1/Selection?$top=604
+GET /api/v1/Selection?$skip=786
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=dolores
+GET /api/v1/Selection?$context=ab
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=False
+GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "omnis",
+  "odata.nextLink": "est",
   "value": [
     {
-      "PrimaryKey": 2161,
+      "PrimaryKey": 1180,
       "EntityName": "sale",
-      "saleId": 2161,
-      "contactId": 8709,
-      "name": "Gleason-Carter"
+      "saleId": 1180,
+      "contactId": 9365,
+      "name": "Rohan, Bartoletti and Hessel"
     },
     {
-      "PrimaryKey": 1086,
+      "PrimaryKey": 6355,
       "EntityName": "sale",
-      "saleId": 1086,
-      "contactId": 1124,
-      "name": "Hartmann, Prosacco and Abbott"
+      "saleId": 6355,
+      "contactId": 940,
+      "name": "Conn Inc and Sons"
     }
   ]
 }

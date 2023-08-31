@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Hand-Cassin",
-    "Tooltip": "eius",
+    "Id": 123,
+    "Name": "Senger Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 665,
-    "Rank": 742
+    "UdListDefinitionId": 345,
+    "Rank": 798
   },
   {
-    "Id": 765,
-    "Name": "Hand-Cassin",
-    "Tooltip": "eius",
+    "Id": 123,
+    "Name": "Senger Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 665,
-    "Rank": 742
+    "UdListDefinitionId": 345,
+    "Rank": 798
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Fisher Group",
-    "Tooltip": "sunt",
+    "Id": 42,
+    "Name": "Prosacco-Witting",
+    "Tooltip": "praesentium",
     "Deleted": true,
-    "UdListDefinitionId": 506,
-    "Rank": 240,
+    "UdListDefinitionId": 695,
+    "Rank": 876,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 627
       }
     }
   }

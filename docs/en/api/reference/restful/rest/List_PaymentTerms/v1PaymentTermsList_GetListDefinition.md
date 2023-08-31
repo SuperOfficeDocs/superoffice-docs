@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Name": "Satterfield-Adams",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "Rank": 804,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "amet",
+  "Id": 947,
+  "Name": "Emmerich-Muller",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 862,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 500
     }
   },
   "_Links": {

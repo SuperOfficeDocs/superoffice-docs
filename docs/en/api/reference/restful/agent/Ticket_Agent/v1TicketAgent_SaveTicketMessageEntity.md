@@ -113,66 +113,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 854,
+  "EjMessageId": 70,
   "Ticket": null,
-  "CreatedAt": "2008-09-05T16:00:42.0862728+02:00",
+  "CreatedAt": "2001-08-09T03:31:27.3717893+02:00",
   "CreatedBy": null,
-  "Author": "officia",
+  "Author": "in",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 681,
-  "Body": "dolorum",
-  "HtmlBody": "itaque",
-  "EmailHeader": "joana_friesen@haleylakin.ca",
-  "DebugInfo": "placeat",
-  "MailSorter": "aspernatur",
+  "MessageId": "animi",
+  "TimeSpent": 825,
+  "Body": "illo",
+  "HtmlBody": "quis",
+  "EmailHeader": "carmelo.cronin@heathcoteolson.name",
+  "DebugInfo": "explicabo",
+  "MailSorter": "amet",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quibusdam",
+  "SearchTitle": "quos",
   "MessageHeaders": [
     {
-      "Id": 551,
-      "Name": "Kutch Group",
-      "Value": "adipisci",
+      "Id": 7,
+      "Name": "Graham Inc and Sons",
+      "Value": "corrupti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 551,
-      "Name": "Kutch Group",
-      "Value": "adipisci",
+      "Id": 7,
+      "Name": "Graham Inc and Sons",
+      "Value": "corrupti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "animi",
-  "Sentiment": 129,
-  "SentimentConfidence": 547,
+  "Important": true,
+  "Language": "voluptas",
+  "Sentiment": 315,
+  "SentimentConfidence": 381,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 174,
-      "Name": "Jewess Group",
-      "ContentType": "nostrum",
-      "AttSize": 442,
-      "InlineImage": false,
-      "ContentId": "fugit",
-      "AuthKey": "explicabo"
+      "AttachmentId": 458,
+      "Name": "Howell-Nader",
+      "ContentType": "corporis",
+      "AttSize": 333,
+      "InlineImage": true,
+      "ContentId": "dolores",
+      "AuthKey": "laboriosam"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "molestias",
-    "CustomFields2": "dolores"
+    "CustomFields1": "officia",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -184,78 +184,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 399,
+  "EjMessageId": 325,
   "Ticket": null,
-  "CreatedAt": "2014-03-23T16:00:42.0862728+01:00",
+  "CreatedAt": "2011-01-20T03:31:27.3717893+01:00",
   "CreatedBy": null,
-  "Author": "corporis",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quis",
-  "TimeSpent": 451,
-  "Body": "et",
-  "HtmlBody": "autem",
-  "EmailHeader": "jana@carroll.uk",
-  "DebugInfo": "eos",
-  "MailSorter": "saepe",
+  "MessageId": "ut",
+  "TimeSpent": 198,
+  "Body": "dolorem",
+  "HtmlBody": "sunt",
+  "EmailHeader": "irving.kirlin@hartmann.com",
+  "DebugInfo": "aut",
+  "MailSorter": "ea",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "delectus",
+  "SearchTitle": "veritatis",
   "MessageHeaders": [
     {
-      "Id": 155,
-      "Name": "Smith, Raynor and Daugherty",
-      "Value": "suscipit",
+      "Id": 734,
+      "Name": "Schaefer Inc and Sons",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldType": "System.String",
+          "FieldLength": 386
         }
       }
     }
   ],
   "Important": true,
-  "Language": "dolorum",
-  "Sentiment": 599,
-  "SentimentConfidence": 522,
+  "Language": "perferendis",
+  "Sentiment": 409,
+  "SentimentConfidence": 49,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 292,
-      "Name": "Toy Inc and Sons",
-      "ContentType": "aut",
-      "AttSize": 319,
-      "InlineImage": true,
-      "ContentId": "hic",
-      "AuthKey": "enim",
+      "AttachmentId": 455,
+      "Name": "Satterfield Group",
+      "ContentType": "quia",
+      "AttSize": 807,
+      "InlineImage": false,
+      "ContentId": "ut",
+      "AuthKey": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldType": "System.String",
+          "FieldLength": 710
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "dolores"
+    "CustomFields1": "quo",
+    "CustomFields2": "ex"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldLength": 237
     }
   }
 }

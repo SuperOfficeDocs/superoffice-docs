@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quis",
-  "PrefKey": "ea",
+  "PrefSection": "qui",
+  "PrefKey": "aut",
   "PrefLevel": "Database",
-  "OwnerId": 987
+  "OwnerId": 481
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "veniam",
+  "RawValue": "doloribus",
   "Specification": null,
-  "DisplayValue": "veniam",
-  "DisplayTooltip": "fugiat",
+  "DisplayValue": "nemo",
+  "DisplayTooltip": "qui",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 423,
-  "PrefDescId": 112,
-  "TableName": "Waelchi-Hilpert",
-  "UserPreferenceId": 566,
+  "TargetId": 520,
+  "PrefDescId": 787,
+  "TableName": "Hansen-Robel",
+  "UserPreferenceId": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 969
     }
   }
 }

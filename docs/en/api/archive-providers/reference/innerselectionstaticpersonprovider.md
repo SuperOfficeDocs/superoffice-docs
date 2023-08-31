@@ -469,7 +469,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -783,7 +783,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personUdef/SuperOffice:1,restrictionAddress/state,withdrawnEmarketingConsent,projectMembers/projectUrl/URLDescription
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personExtra/x_person_longtext,personSourceRelation/personCountryId,personSourceRelation/hasCompany,personAssociate/firstName,request/createdBy/contactDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

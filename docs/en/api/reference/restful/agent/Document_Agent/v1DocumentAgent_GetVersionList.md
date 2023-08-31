@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 213
+  "DocumentId": 296
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "omnis",
-    "DocumentId": 843,
-    "VersionId": "deleniti",
-    "CheckedInDate": "1998-01-22T16:00:40.7893736+01:00",
-    "CheckedInByName": "Feest LLC",
-    "CheckedInByAssociateId": 966,
-    "Description": "Programmable maximized archive",
-    "DisplayText": "qui",
+    "ExternalReference": "magnam",
+    "DocumentId": 386,
+    "VersionId": "facilis",
+    "CheckedInDate": "2012-03-07T03:31:26.1520941+01:00",
+    "CheckedInByName": "O'Reilly, Eichmann and Dickinson",
+    "CheckedInByAssociateId": 302,
+    "Description": "Visionary web-enabled contingency",
+    "DisplayText": "illo",
     "ExtraFields": [
-      "itaque",
-      "itaque"
+      "sunt",
+      "odio"
     ]
   }
 ]

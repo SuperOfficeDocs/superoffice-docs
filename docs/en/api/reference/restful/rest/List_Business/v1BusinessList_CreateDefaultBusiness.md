@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 554,
-  "Name": "Bode, Moore and Kshlerin",
-  "Tooltip": "molestiae",
+  "Id": 222,
+  "Name": "O'Reilly-DuBuque",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 988,
-  "Rank": 717,
+  "UdListDefinitionId": 133,
+  "Rank": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 144
     }
   }
 }

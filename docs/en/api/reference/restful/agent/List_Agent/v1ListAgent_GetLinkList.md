@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Buckridge, Hirthe and Ritchie",
-    "Id": 58,
-    "Description": "Operative 6th generation circuit",
-    "ExtraInfo": "soluta",
-    "LinkId": 271,
+    "EntityName": "Corkery, Kovacek and Jakubowski",
+    "Id": 908,
+    "Description": "Proactive cohesive artificial intelligence",
+    "ExtraInfo": "harum",
+    "LinkId": 204,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldType": "System.String",
+        "FieldLength": 271
       }
     }
   }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "voluptatum"
+  "SearchString": "libero"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-512-134-7149 x4679",
-    "PersonCellPhone": "(236)260-1520 x50407",
-    "PersonPrivatePhone": "093-110-1892 x6893",
-    "PersonFaxNumber": "1686654",
-    "PersonPagerNumber": "1328266",
-    "PersonEmail": "edwardo@kirlin.biz",
-    "Id": 124,
-    "Name": "Muller, Swaniawski and Medhurst",
-    "Tooltip": "qui",
-    "UniqueId": "sed",
+    "PersonDirectPhone": "1-460-667-2098",
+    "PersonCellPhone": "004.750.7086 x4558",
+    "PersonPrivatePhone": "(482)905-6956",
+    "PersonFaxNumber": "883816",
+    "PersonPagerNumber": "761275",
+    "PersonEmail": "marquis.tillman@okeefemcclure.uk",
+    "Id": 140,
+    "Name": "Reilly, Lowe and Wintheiser",
+    "Tooltip": "molestias",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 52
+        "FieldType": "System.Int32",
+        "FieldLength": 723
       }
     }
   }

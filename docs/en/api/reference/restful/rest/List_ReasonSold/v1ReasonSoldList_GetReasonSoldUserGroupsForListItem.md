@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Block Inc and Sons",
-    "ToolTip": "Porro dolores.",
-    "Deleted": true,
-    "Rank": 717,
-    "Type": "totam",
-    "ColorBlock": 871,
-    "IconHint": "laboriosam",
+    "Id": 460,
+    "Name": "Mann-King",
+    "ToolTip": "Natus dolorem voluptatem aut doloremque.",
+    "Deleted": false,
+    "Rank": 81,
+    "Type": "pariatur",
+    "ColorBlock": 98,
+    "IconHint": "ab",
     "Selected": true,
-    "LastChanged": "1998-08-07T16:00:49.2739351+02:00",
+    "LastChanged": "2000-04-23T03:31:33.8367198+02:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Towne, Walsh and Lockman",
-        "ToolTip": "Libero eos est quasi distinctio voluptates et.",
+        "Id": 796,
+        "Name": "Schmidt, Herman and Goyette",
+        "ToolTip": "Omnis quis quia.",
         "Deleted": false,
-        "Rank": 932,
-        "Type": "est",
-        "ColorBlock": 465,
-        "IconHint": "provident",
+        "Rank": 381,
+        "Type": "hic",
+        "ColorBlock": 555,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2004-06-17T16:00:49.2739351+02:00",
+        "LastChanged": "2008-08-07T03:31:33.8367198+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Dr. Jack Mohammad Ferry Jr.",
+        "ExtraInfo": "eum",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Emie Doyle III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 701
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Ben Swift MD",
+    "ExtraInfo": "officia",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Rossie Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 884
       }
     }
   }

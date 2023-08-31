@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/ErpSync/ValidateArchiveColumnConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "facilis",
-  "ErpConnectionId": 751
+  "ListOwner": "voluptas",
+  "ErpConnectionId": 647
 }
 ```
 

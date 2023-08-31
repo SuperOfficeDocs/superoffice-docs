@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 610,
-  "StartDate": "2015-10-25T16:00:39.8832222+01:00",
-  "EndDate": "2022-08-25T16:00:39.8832222+02:00",
-  "RecurrenceCounter": 877,
+  "RecurrenceId": 1000,
+  "StartDate": "1998-11-02T03:31:25.4308731+01:00",
+  "EndDate": "2002-07-30T03:31:25.4308731+02:00",
+  "RecurrenceCounter": 368,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-10-19T16:00:39.8832222+02:00",
+      "Date": "2016-12-25T03:31:25.4308731+01:00",
       "IsConflict": false,
-      "Description": "Optional leading edge solution",
-      "DescriptionStyleHint": "Proactive multi-state moratorium",
-      "Tooltip": "velit"
+      "Description": "Multi-tiered eco-centric analyzer",
+      "DescriptionStyleHint": "Self-enabling logistical leverage",
+      "Tooltip": "et"
     },
     {
-      "Date": "2016-10-19T16:00:39.8832222+02:00",
+      "Date": "2016-12-25T03:31:25.4308731+01:00",
       "IsConflict": false,
-      "Description": "Optional leading edge solution",
-      "DescriptionStyleHint": "Proactive multi-state moratorium",
-      "Tooltip": "velit"
+      "Description": "Multi-tiered eco-centric analyzer",
+      "DescriptionStyleHint": "Self-enabling logistical leverage",
+      "Tooltip": "et"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

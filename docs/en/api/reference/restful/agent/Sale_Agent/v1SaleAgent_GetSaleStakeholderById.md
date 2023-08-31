@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    610,
-    818
+    246,
+    169
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Walter-O'Keefe",
-    "Comment": "ut",
-    "StakeholderRoleId": 364,
-    "CountryId": 20,
-    "PersonId": 54,
-    "EmailDescription": "godfrey.hane@heidenreich.co.uk",
-    "EmailId": 998,
-    "EmailAddress": "isaias@beer.uk",
-    "PhoneId": 407,
-    "ContactName": "Waters, Cruickshank and Mayert",
-    "ContactId": 661,
-    "SaleId": 242,
-    "Mrmrs": "quia",
-    "Firstname": "Kaela",
-    "MiddleName": "Hammes, Simonis and Effertz",
-    "Lastname": "Schmidt",
-    "SaleStakeholderId": 754,
-    "Rank": 825,
-    "Phone": "1-978-311-0422 x50176",
+    "StakeholderRoleName": "Kirlin, Ankunding and Leffler",
+    "Comment": "quo",
+    "StakeholderRoleId": 167,
+    "CountryId": 972,
+    "PersonId": 580,
+    "EmailDescription": "kylie.legros@connbogisich.co.uk",
+    "EmailId": 192,
+    "EmailAddress": "stacy@corwindamore.name",
+    "PhoneId": 430,
+    "ContactName": "Auer Inc and Sons",
+    "ContactId": 196,
+    "SaleId": 822,
+    "Mrmrs": "tenetur",
+    "Firstname": "Clair",
+    "MiddleName": "Lesch-Toy",
+    "Lastname": "Hermiston",
+    "SaleStakeholderId": 384,
+    "Rank": 533,
+    "Phone": "928-734-2002",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 575
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

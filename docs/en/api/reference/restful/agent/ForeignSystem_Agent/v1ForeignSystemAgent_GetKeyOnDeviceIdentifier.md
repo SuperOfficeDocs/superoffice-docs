@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stanton, Hauck and Lakin",
-  "DeviceName": "Kuhn-Marquardt",
-  "DeviceIdentifier": "omnis",
-  "KeyName": "Cormier Group",
-  "TableName": "Stracke-Feeney",
-  "RecordId": 843
+  "ApplicationName": "Champlin, Daugherty and Thiel",
+  "DeviceName": "Daniel Inc and Sons",
+  "DeviceIdentifier": "ipsum",
+  "KeyName": "Hand, Quigley and Schuppe",
+  "TableName": "Braun, Frami and Jakubowski",
+  "RecordId": 289
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "blanditiis",
-  "RecordId": 117,
-  "CreatedDate": "2002-11-03T16:00:41.0705907+01:00",
-  "UpdatedDate": "2002-04-27T16:00:41.0705907+02:00",
-  "UpdatedBy": "ad",
-  "CreatedBy": "numquam",
-  "TableName": "Steuber Group",
+  "Key": "nihil",
+  "Value": "sequi",
+  "RecordId": 236,
+  "CreatedDate": "2003-11-29T03:31:26.589451+01:00",
+  "UpdatedDate": "2012-10-17T03:31:26.589451+02:00",
+  "UpdatedBy": "consequatur",
+  "CreatedBy": "repellat",
+  "TableName": "Lang LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 833
     }
   }
 }

@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Witting, Rath and Stiedemann",
-  "StorageKey": "ex",
+  "StorageType": "quo",
+  "ProviderName": "Bailey Inc and Sons",
+  "StorageKey": "quas",
   "Restrictions": [
     {
-      "Name": "Marquardt, Douglas and Durgan",
-      "Operator": "ducimus",
+      "Name": "Gutkowski, Wisozk and Mills",
+      "Operator": "omnis",
       "Values": [
-        "doloremque",
-        "placeat"
+        "excepturi",
+        "et"
       ],
       "DisplayValues": [
-        "nam",
-        "harum"
+        "rerum",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 46,
+      "InterParenthesis": 508,
       "InterOperator": "And",
-      "UniqueHash": 150
+      "UniqueHash": 311
     }
   ]
 }

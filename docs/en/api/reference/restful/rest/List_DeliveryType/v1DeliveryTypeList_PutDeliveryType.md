@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Eichmann-Luettgen",
-  "Tooltip": "ad",
-  "Deleted": false,
-  "UdListDefinitionId": 25,
-  "Rank": 391
+  "Id": 371,
+  "Name": "Hickle, Legros and Russel",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "UdListDefinitionId": 860,
+  "Rank": 895
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Lesch Inc and Sons",
-  "Tooltip": "aspernatur",
+  "Id": 73,
+  "Name": "Beatty Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 537,
-  "Rank": 302,
+  "UdListDefinitionId": 580,
+  "Rank": 366,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   }
 }

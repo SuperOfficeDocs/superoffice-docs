@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 604,
-  "TargetDimensionId": 281
+  "Year": 855,
+  "TargetDimensionId": 357
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 351,
+    "TargetAssignmentInfoId": 710,
     "Values": [
-      394,
-      30
+      119,
+      576
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 71,
-    "DimensionListItemDisplayName": "Dibbert, Hickle and Medhurst",
+    "DimensionListItem": 892,
+    "DimensionListItemDisplayName": "Herzog-Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldType": "System.Int32",
+        "FieldLength": 192
       }
     }
   }

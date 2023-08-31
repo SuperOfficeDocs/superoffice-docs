@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 175,
-  "Name": "Lowe-Graham",
-  "Description": "Automated modular contingency",
-  "WelcomeMessage": "molestiae",
+  "ChatTopicId": 425,
+  "Name": "Breitenberg, Mayer and O'Conner",
+  "Description": "Multi-channelled eco-centric ability",
+  "WelcomeMessage": "recusandae",
   "Language": null,
-  "LastAccept": "2013-01-12T16:00:47.6647341+01:00",
-  "SecondsPrAccept": 235,
-  "AlertRecipient": "sit",
+  "LastAccept": "2012-04-23T03:31:32.3477424+02:00",
+  "SecondsPrAccept": 238,
+  "AlertRecipient": "totam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "accusantium",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "accusantium",
-  "WarnNewChatMinutes": 543,
-  "WarnManagerNewChatMinutes": 700,
+  "BadgeHeader": "laboriosam",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "ut",
+  "WarnNewChatMinutes": 182,
+  "WarnManagerNewChatMinutes": 637,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 418,
-  "WarnManagerChatMessageMinutes": 633,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 467,
-  "OfflineFormQueueLength": 419,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 448,
+  "WarnManagerChatMessageMinutes": 494,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 653,
+  "OfflineFormQueueLength": 4,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "WidgetRatingText": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 327
     }
   }
 }

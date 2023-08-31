@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 574,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2001-03-27T16:00:40.5862498+02:00",
-  "EndTime": "2021-05-14T16:00:40.5862498+02:00",
-  "Count": 652
+  "PersonId": 467,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2016-10-17T03:31:26.0583393+02:00",
+  "EndTime": "2012-11-15T03:31:26.0583393+01:00",
+  "Count": 249
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 786,
-    "Attention": "porro",
-    "Header": "aut",
-    "Name": "Swift-Mann",
-    "OurRef": "nam",
-    "YourRef": "quis",
-    "Description": "Advanced intangible product",
-    "DocumentTemplate": "sit",
-    "IsPublished": true,
-    "PersonId": 370,
-    "PersonFullName": "Eden Rutherford",
-    "AssociateFullName": "Marilie Armstrong",
-    "ContactId": 963,
-    "ContactName": "Jaskolski, Braun and Reichert",
-    "ProjectId": 255,
-    "ProjectName": "Weber, Sanford and Moore",
-    "AssociateId": 385,
-    "Snum": 589,
-    "SaleId": 843,
-    "SaleName": "Grady Inc and Sons",
+    "DocumentId": 801,
+    "Attention": "hic",
+    "Header": "dolor",
+    "Name": "Harris, Runolfsson and Lemke",
+    "OurRef": "ea",
+    "YourRef": "praesentium",
+    "Description": "Intuitive local intranet",
+    "DocumentTemplate": "occaecati",
+    "IsPublished": false,
+    "PersonId": 638,
+    "PersonFullName": "Dagmar Satterfield",
+    "AssociateFullName": "Jacey Connelly DVM",
+    "ContactId": 498,
+    "ContactName": "Heaney-Kuhlman",
+    "ProjectId": 279,
+    "ProjectName": "Swaniawski-Stehr",
+    "AssociateId": 76,
+    "Snum": 683,
+    "SaleId": 689,
+    "SaleName": "Lynch-Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

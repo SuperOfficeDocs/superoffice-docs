@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 878,
-    "Name": "Adams, Haley and Moore",
-    "Tooltip": "eum",
-    "SaveInDb": 100,
-    "Filename": "repellendus",
-    "DefaultOref": "ut",
+    "DocumentTemplateId": 202,
+    "Name": "Vandervort Inc and Sons",
+    "Tooltip": "culpa",
+    "SaveInDb": 768,
+    "Filename": "expedita",
+    "DefaultOref": "eos",
     "RecordType": "Appointment",
-    "Deleted": 780,
+    "Deleted": 486,
     "Direction": "Incoming",
-    "AutoeventId": 59,
+    "AutoeventId": 796,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

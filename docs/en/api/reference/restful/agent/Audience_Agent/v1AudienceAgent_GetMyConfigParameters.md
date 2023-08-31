@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 865,
-    "Name": "Blanda, Marks and VonRueden",
-    "Value": "atque",
-    "CreatedDate": "2020-03-14T16:00:40.1019505+01:00",
-    "UpdatedDate": "2010-03-21T16:00:40.1019505+01:00",
-    "CreatedBy": "facilis",
-    "UpdatedBy": "sit",
+    "AudienceLayoutId": 692,
+    "Name": "Hegmann-Corwin",
+    "Value": "eius",
+    "CreatedDate": "2008-11-01T03:31:25.6339962+01:00",
+    "UpdatedDate": "2013-08-18T03:31:25.6339962+02:00",
+    "CreatedBy": "est",
+    "UpdatedBy": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 211
       }
     }
   }

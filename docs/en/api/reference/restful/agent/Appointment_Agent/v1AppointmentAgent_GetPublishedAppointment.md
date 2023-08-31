@@ -124,11 +124,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 105
+  "AppointmentId": 727
 }
 ```
 
@@ -139,64 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 375,
-  "StartDate": "2000-05-30T16:00:39.6332261+02:00",
-  "EndDate": "2019-10-10T16:00:39.6332261+02:00",
+  "AppointmentId": 857,
+  "StartDate": "1999-06-25T03:31:25.1157524+02:00",
+  "EndDate": "2021-12-01T03:31:25.1157524+01:00",
   "Type": "BookingForChecklist",
-  "Task": "aliquid",
-  "AssociateFullName": "Mrs. Tia April Cassin MD",
-  "ContactName": "Steuber LLC",
-  "Description": "Profound directional secured line",
-  "PersonFullName": "Allen Aaliyah Predovic I",
-  "PersonId": 873,
-  "ContactId": 859,
-  "ProjectId": 943,
-  "ProjectName": "Grady-Thompson",
-  "IsPublished": false,
-  "AssociateId": 642,
-  "ColorIndex": 531,
+  "Task": "nesciunt",
+  "AssociateFullName": "Miss Randal Hoeger",
+  "ContactName": "Jerde Group",
+  "Description": "Quality-focused mobile task-force",
+  "PersonFullName": "Lorenz Padberg",
+  "PersonId": 901,
+  "ContactId": 505,
+  "ProjectId": 53,
+  "ProjectName": "O'Keefe LLC",
+  "IsPublished": true,
+  "AssociateId": 327,
+  "ColorIndex": 596,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 60,
-  "PriorityName": "Reilly, Sipes and Cummerata",
+  "PriorityId": 332,
+  "PriorityName": "Kulas Inc and Sons",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "1999-05-03T16:00:39.6332261+02:00",
+  "ActiveDate": "2008-10-04T03:31:25.1157524+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2010-12-23T16:00:39.6332261+01:00",
-  "RecurringEndDate": "2019-09-27T16:00:39.6332261+02:00",
-  "MotherId": 548,
-  "AssignedBy": 834,
-  "AssignedByFullName": "Prof. Ramon Alfred Bins",
-  "RejectReason": "whiteboard ubiquitous vortals",
-  "Location": "omnis",
-  "AlarmLeadTime": "laboriosam",
-  "SaleId": 10,
-  "SaleName": "Lowe Group",
-  "AssociateName": "Schulist Group",
-  "CreatedDate": "2015-11-16T16:00:39.6332261+01:00",
-  "CreatedBy": "sed",
-  "CreatedByFullName": "Douglas Goyette",
-  "CreatedByAssociateId": 349,
+  "RecurringStartDate": "2020-07-16T03:31:25.1157524+02:00",
+  "RecurringEndDate": "2017-01-14T03:31:25.1157524+01:00",
+  "MotherId": 281,
+  "AssignedBy": 530,
+  "AssignedByFullName": "Aliyah Cassin",
+  "RejectReason": "",
+  "Location": "laborum",
+  "AlarmLeadTime": "ad",
+  "SaleId": 436,
+  "SaleName": "Williamson-Zulauf",
+  "AssociateName": "Labadie, Beahan and Koepp",
+  "CreatedDate": "2008-02-21T03:31:25.1157524+01:00",
+  "CreatedBy": "quidem",
+  "CreatedByFullName": "Myrtice Kilback",
+  "CreatedByAssociateId": 698,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "tempora",
-  "Agenda": "sed",
-  "InternalNotes": "beatae",
+  "Title": "minima",
+  "Agenda": "minus",
+  "InternalNotes": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 212
     }
   }
 }

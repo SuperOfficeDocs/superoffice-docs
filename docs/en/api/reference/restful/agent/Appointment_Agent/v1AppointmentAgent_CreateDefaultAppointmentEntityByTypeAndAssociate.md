@@ -131,12 +131,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 618
+  "AssociateId": 384
 }
 ```
 
@@ -151,63 +151,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-04-22T16:00:39.9300897+02:00",
-  "AppointmentId": 583,
-  "Description": "Inverse contextually-based task-force",
-  "StartDate": "2021-08-02T16:00:39.9300897+02:00",
-  "EndDate": "2021-02-03T16:00:39.9300897+01:00",
+  "CreatedDate": "1996-05-31T03:31:25.4934109+02:00",
+  "AppointmentId": 795,
+  "Description": "Polarised fault-tolerant interface",
+  "StartDate": "2013-10-04T03:31:25.4934109+02:00",
+  "EndDate": "1999-09-29T03:31:25.4934109+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 919,
+  "MotherId": 453,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-08-25T16:00:39.9457178+02:00",
+  "UpdatedDate": "2020-06-04T03:31:25.4934109+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 426,
+  "ActiveLinks": 415,
   "Links": [
     {
-      "EntityName": "Greenfelder-Renner",
-      "Id": 236,
-      "Description": "Implemented modular function",
-      "ExtraInfo": "quae",
-      "LinkId": 582,
+      "EntityName": "Halvorson-Schiller",
+      "Id": 563,
+      "Description": "Diverse impactful productivity",
+      "ExtraInfo": "praesentium",
+      "LinkId": 629,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 334
+          "FieldType": "System.Int32",
+          "FieldLength": 45
         }
       }
     }
   ],
-  "AlarmLeadTime": "facilis",
+  "AlarmLeadTime": "nemo",
   "HasAlarm": false,
-  "ColorIndex": 687,
+  "ColorIndex": 382,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "dicta",
-  "LeadTime": "illo",
+  "IsAlldayEvent": true,
+  "LagTime": "qui",
+  "LeadTime": "itaque",
   "Location": "dolorem",
-  "RejectCounter": 170,
+  "RejectCounter": 561,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 473,
-      "PersonId": 188,
-      "ContactId": 977,
-      "EmailId": 918,
+      "AssociateId": 169,
+      "PersonId": 556,
+      "ContactId": 850,
+      "EmailId": 985,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 473,
-      "PersonId": 188,
-      "ContactId": 977,
-      "EmailId": 918,
+      "AssociateId": 169,
+      "PersonId": 556,
+      "ContactId": 850,
+      "EmailId": 985,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -215,61 +215,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-03-02T16:00:39.9457178+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-10-28T03:31:25.4934109+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 356,
+  "PreferredTZLocation": 466,
   "Sale": null,
-  "SuggestedAppointmentId": 41,
+  "SuggestedAppointmentId": 60,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
-  "Title": "aut",
-  "Agenda": "autem",
-  "InternalNotes": "sint",
+  "CentralserviceVideomeetId": "non",
+  "Title": "vitae",
+  "Agenda": "rerum",
+  "InternalNotes": "nulla",
   "UserDefinedFields": {
-    "SuperOffice:1": "Boris Bechtelar DDS",
-    "SuperOffice:2": "Randy Reichel"
+    "SuperOffice:1": "Alaina Green Sr.",
+    "SuperOffice:2": "1710399047"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "aut"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "sunt"
   },
-  "PublishEventDate": "1997-08-23T16:00:39.9457178+02:00",
-  "PublishTo": "2012-08-15T16:00:39.9457178+02:00",
-  "PublishFrom": "2003-05-19T16:00:39.9457178+02:00",
+  "PublishEventDate": "2008-04-13T03:31:25.5090292+02:00",
+  "PublishTo": "2010-12-24T03:31:25.5090292+01:00",
+  "PublishFrom": "1996-08-02T03:31:25.5090292+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 472,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldLength": 349
         }
       }
     },
     {
-      "VisibleId": 472,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldLength": 349
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

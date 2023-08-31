@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 340,
-  "WorkflowId": 223,
+  "WorkflowGoalId": 145,
+  "WorkflowId": 690,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Kling-Murphy",
-      "Description": "Synergized maximized framework",
-      "Rank": 682,
+      "Name": "McKenzie-Mills",
+      "Description": "Open-architected explicit forecast",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kling-Murphy",
-      "Description": "Synergized maximized framework",
-      "Rank": 682,
+      "Name": "McKenzie-Mills",
+      "Description": "Open-architected explicit forecast",
+      "Rank": 107,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 158,
-  "WorkflowId": 687,
+  "WorkflowGoalId": 230,
+  "WorkflowId": 791,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Gaylord-McCullough",
-      "Description": "Quality-focused logistical website",
-      "Rank": 737,
+      "Name": "Klein Inc and Sons",
+      "Description": "Cross-platform modular structure",
+      "Rank": 245,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gaylord-McCullough",
-      "Description": "Quality-focused logistical website",
-      "Rank": 737,
+      "Name": "Klein Inc and Sons",
+      "Description": "Cross-platform modular structure",
+      "Rank": 245,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldType": "System.String",
+      "FieldLength": 273
     }
   }
 }

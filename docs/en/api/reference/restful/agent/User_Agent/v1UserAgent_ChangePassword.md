@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 18,
-  "OldPassword": "quae",
-  "NewPassword": "dolor"
+  "AssociateId": 444,
+  "OldPassword": "sunt",
+  "NewPassword": "sit"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

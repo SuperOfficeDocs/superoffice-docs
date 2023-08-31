@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 920,
-  "Name": "Zulauf, Jacobson and Conroy",
-  "Tooltip": "fugiat",
+  "RoleId": 985,
+  "Name": "Hills Group",
+  "Tooltip": "reprehenderit",
   "RoleType": "Anonymous",
-  "Deleted": 404,
-  "Rank": 701,
-  "Created": "2003-12-21T16:00:48.1959227+01:00",
-  "UseCategories": 948,
+  "Deleted": 445,
+  "Rank": 698,
+  "Created": "2015-05-20T03:31:32.8163583+02:00",
+  "UseCategories": 467,
   "CreatedBy": null,
-  "Updated": "2005-07-17T16:00:48.1959227+02:00",
+  "Updated": "2008-10-09T03:31:32.8163583+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 641,
-  "Name": "Hettinger Group",
-  "Tooltip": "maxime",
+  "RoleId": 335,
+  "Name": "Mosciski Inc and Sons",
+  "Tooltip": "eveniet",
   "RoleType": "Anonymous",
-  "Deleted": 631,
-  "Rank": 686,
-  "Created": "2011-12-29T16:00:48.1959227+01:00",
-  "UseCategories": 859,
+  "Deleted": 527,
+  "Rank": 291,
+  "Created": "1999-10-31T03:31:32.8163583+01:00",
+  "UseCategories": 23,
   "CreatedBy": null,
-  "Updated": "1997-10-03T16:00:48.1959227+02:00",
+  "Updated": "2006-03-24T03:31:32.8163583+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 33
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

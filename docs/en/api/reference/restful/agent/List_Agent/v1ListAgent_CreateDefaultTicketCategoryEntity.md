@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 851,
-  "ParentId": 342,
-  "Name": "Barrows, Osinski and Cruickshank",
-  "Fullname": "nostrum",
-  "CategoryMaster": 206,
+  "TicketCategoryId": 653,
+  "ParentId": 396,
+  "Name": "Mertz Inc and Sons",
+  "Fullname": "atque",
+  "CategoryMaster": 930,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cremin, Mayert and Cummerata",
+  "ExternalName": "Cormier-Gutmann",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 181,
-  "ReplyTemplate": 546,
-  "NotificationEmail": "ansel.hoeger@windlerschamberger.ca",
+  "AssignmentLag": 66,
+  "ReplyTemplate": 41,
+  "NotificationEmail": "joannie@schultz.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 988,
+  "EffectiveReplyTemplateId": 230,
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "quia"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 439
     }
   }
 }

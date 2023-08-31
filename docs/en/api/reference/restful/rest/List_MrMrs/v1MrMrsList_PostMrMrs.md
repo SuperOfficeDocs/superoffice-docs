@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Gerlach Inc and Sons",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 836,
-  "Rank": 553
+  "Id": 138,
+  "Name": "Walsh Group",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 449,
+  "Rank": 873
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Tillman-Nolan",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "UdListDefinitionId": 750,
-  "Rank": 229,
+  "Id": 113,
+  "Name": "Connelly, Will and Hamill",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "UdListDefinitionId": 667,
+  "Rank": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 451
     }
   }
 }

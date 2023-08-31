@@ -705,7 +705,7 @@ This entity is mandatory. Simple bookings have no 'overdue' checks.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleInvitation?$select=person/title,sale/lossReason,contact/saintDirection
+GET /api/v1/archive/SimpleInvitation?$select=contact/country,person/personExtra/y_rental/x_contact,person/personAssociate/isActive,project/projectAssociate/usergroup,project/projectAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

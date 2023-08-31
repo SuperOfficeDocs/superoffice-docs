@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=458
+GET /api/v1/Contact/{contactId}/Summary?limit=267
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 871,
-      "TicketStatus": 810,
-      "Title": "vitae",
-      "Registered": "2000-04-01T16:00:47.8053524+02:00",
-      "IconHint": "distinctio"
+      "TicketId": 603,
+      "TicketStatus": 657,
+      "Title": "aliquid",
+      "Registered": "2013-02-27T03:31:32.4726896+01:00",
+      "IconHint": "aut"
     },
     {
-      "TicketId": 871,
-      "TicketStatus": 810,
-      "Title": "vitae",
-      "Registered": "2000-04-01T16:00:47.8053524+02:00",
-      "IconHint": "distinctio"
+      "TicketId": 603,
+      "TicketStatus": 657,
+      "Title": "aliquid",
+      "Registered": "2013-02-27T03:31:32.4726896+01:00",
+      "IconHint": "aut"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 92,
-      "DocumentId": 804,
-      "Date": "2007-12-11T16:00:47.8053524+01:00",
-      "Description": "Synergistic assymetric circuit",
+      "AppointmentId": 352,
+      "DocumentId": 413,
+      "Date": "2010-05-25T03:31:32.4726896+02:00",
+      "Description": "Integrated client-driven conglomeration",
       "Completed": "Completed",
-      "Registered": "2005-08-27T16:00:47.8053524+02:00"
+      "Registered": "2002-04-24T03:31:32.4726896+02:00"
     },
     {
-      "AppointmentId": 92,
-      "DocumentId": 804,
-      "Date": "2007-12-11T16:00:47.8053524+01:00",
-      "Description": "Synergistic assymetric circuit",
+      "AppointmentId": 352,
+      "DocumentId": 413,
+      "Date": "2010-05-25T03:31:32.4726896+02:00",
+      "Description": "Integrated client-driven conglomeration",
       "Completed": "Completed",
-      "Registered": "2005-08-27T16:00:47.8053524+02:00"
+      "Registered": "2002-04-24T03:31:32.4726896+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 836,
-      "DocumentId": 322,
-      "Date": "1999-09-05T16:00:47.8053524+02:00",
-      "Description": "Streamlined 6th generation website",
+      "AppointmentId": 731,
+      "DocumentId": 442,
+      "Date": "2005-12-17T03:31:32.4726896+01:00",
+      "Description": "Object-based intermediate matrix",
       "Completed": "Completed",
-      "Registered": "2000-04-14T16:00:47.8053524+02:00"
+      "Registered": "2000-03-21T03:31:32.4726896+01:00"
     },
     {
-      "AppointmentId": 836,
-      "DocumentId": 322,
-      "Date": "1999-09-05T16:00:47.8053524+02:00",
-      "Description": "Streamlined 6th generation website",
+      "AppointmentId": 731,
+      "DocumentId": 442,
+      "Date": "2005-12-17T03:31:32.4726896+01:00",
+      "Description": "Object-based intermediate matrix",
       "Completed": "Completed",
-      "Registered": "2000-04-14T16:00:47.8053524+02:00"
+      "Registered": "2000-03-21T03:31:32.4726896+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 456,
-      "SaleDate": "2007-08-25T16:00:47.8053524+02:00",
-      "Probability": 987,
-      "Heading": "magnam",
-      "Amount": 22245.131999999998,
-      "Currency": "deserunt",
-      "AmountInBaseCurrency": 26497.969999999998,
+      "SaleId": 249,
+      "SaleDate": "2006-08-16T03:31:32.4726896+02:00",
+      "Probability": 119,
+      "Heading": "minima",
+      "Amount": 15243.776,
+      "Currency": "nam",
+      "AmountInBaseCurrency": 9082.332,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2003-08-12T16:00:47.8053524+02:00"
+      "Registered": "2012-02-08T03:31:32.4726896+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 60,
-      "Name": "Williamson LLC",
-      "CompanyName": "Ortiz-Walker",
-      "FirstMessage": "impedit",
-      "LastMessage": "nobis",
-      "WhenRequested": "2017-08-27T16:00:47.8053524+02:00",
-      "WhenEnded": "2022-07-25T16:00:47.8053524+02:00"
+      "ChatSessionId": 805,
+      "Name": "Thompson LLC",
+      "CompanyName": "Haag Group",
+      "FirstMessage": "et",
+      "LastMessage": "debitis",
+      "WhenRequested": "2007-07-21T03:31:32.4726896+02:00",
+      "WhenEnded": "2011-11-13T03:31:32.4726896+01:00"
     }
   ]
 }

@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Watsica, Senger and Conn",
-  "ProviderName": "Beier Inc and Sons",
-  "Context": "sit"
+  "GuiName": "Zulauf LLC",
+  "ProviderName": "Rolfson, Jewess and Hahn",
+  "Context": "delectus"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Quitzon, Parker and Kertzmann",
-      "DisplayTooltip": "et",
-      "DisplayType": "tempore",
+      "DisplayName": "Witting-Welch",
+      "DisplayTooltip": "inventore",
+      "DisplayType": "ut",
       "CanOrderBy": true,
-      "Name": "Mann LLC",
+      "Name": "Buckridge-Renner",
       "CanRestrictBy": false,
-      "RestrictionType": "nobis",
-      "RestrictionListName": "Dickens-Marks",
-      "IsVisible": true,
-      "ExtraInfo": "numquam",
-      "Width": "nihil",
-      "IconHint": "laudantium",
-      "HeadingIconHint": "rerum"
+      "RestrictionType": "itaque",
+      "RestrictionListName": "Romaguera-Maggio",
+      "IsVisible": false,
+      "ExtraInfo": "molestias",
+      "Width": "ut",
+      "IconHint": "quis",
+      "HeadingIconHint": "eaque"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 927,
-      "Name": "Moen, Luettgen and Hermann",
-      "ToolTip": "At dolor laborum rem.",
+      "Id": 451,
+      "Name": "Blick, Littel and Reynolds",
+      "ToolTip": "Voluptates rerum.",
       "Deleted": false,
-      "Rank": 334,
-      "Type": "at",
-      "ColorBlock": 526,
-      "IconHint": "facilis",
-      "Selected": true,
-      "LastChanged": "2001-10-17T16:00:40.0550846+02:00",
+      "Rank": 493,
+      "Type": "sit",
+      "ColorBlock": 743,
+      "IconHint": "quae",
+      "Selected": false,
+      "LastChanged": "2012-09-04T03:31:25.6027555+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "ut",
+      "ExtraInfo": "eos",
+      "StyleHint": "accusamus",
       "Hidden": true,
-      "FullName": "Leonardo Harris",
+      "FullName": "Mrs. Delpha Towne I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 446
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Oberbrunner, Stokes and Kerluke",
+      "Name": "Bergstrom LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Oberbrunner, Stokes and Kerluke",
+      "Name": "Bergstrom LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sapiente",
+  "OwnerKeys": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 254
     }
   }
 }

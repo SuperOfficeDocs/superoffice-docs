@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 637,
-  "AssociateId": 675,
-  "Caption": "eos",
+  "DashboardId": 588,
+  "AssociateId": 252,
+  "Caption": "sapiente",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 946,
-      "Caption": "odio",
-      "Description": "Upgradable exuding database",
-      "ChartName": "Gaylord, Kris and Anderson",
-      "ChartId": "ad",
+      "DashboardTileId": 354,
+      "Caption": "et",
+      "Description": "Profound methodical standardization",
+      "ChartName": "Price-Luettgen",
+      "ChartId": "itaque",
       "IsDefault": false,
-      "AssociateId": 679,
-      "GroupId": 297,
-      "SelectionId": 648,
-      "Config": "eos",
+      "AssociateId": 540,
+      "GroupId": 830,
+      "SelectionId": 541,
+      "Config": "asperiores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 34,
-  "AssociateId": 289,
-  "Caption": "fugiat",
+  "DashboardId": 777,
+  "AssociateId": 224,
+  "Caption": "consequatur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 144,
-      "Caption": "ipsa",
-      "Description": "Adaptive logistical ability",
-      "ChartName": "Graham Inc and Sons",
-      "ChartId": "architecto",
+      "DashboardTileId": 32,
+      "Caption": "maiores",
+      "Description": "Ergonomic contextually-based project",
+      "ChartName": "Bartoletti-Mayer",
+      "ChartId": "sed",
       "IsDefault": false,
-      "AssociateId": 283,
-      "GroupId": 242,
-      "SelectionId": 153,
-      "Config": "omnis",
+      "AssociateId": 984,
+      "GroupId": 310,
+      "SelectionId": 234,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldLength": 491
         }
       }
     }
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 587
+      "FieldType": "System.Int32",
+      "FieldLength": 309
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

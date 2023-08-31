@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 547,
+  "ErpConnectionId": 551,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 291,
-      "CrmFieldKey": "rerum",
-      "CrmDisplayName": "Ledner-Beer",
-      "CrmDisplayTooltip": "atque",
-      "ErpFieldKey": "amet",
+      "ErpFieldId": 352,
+      "CrmFieldKey": "tempore",
+      "CrmDisplayName": "Klocko, Howell and Stehr",
+      "CrmDisplayTooltip": "voluptas",
+      "ErpFieldKey": "ipsam",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Beatty Inc and Sons",
-      "ErpDisplayTooltip": "culpa",
+      "ErpDisplayName": "Davis, Aufderhar and Grimes",
+      "ErpDisplayTooltip": "similique",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": true,
+      "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "aut",
+      "ListReference": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldType": "System.String",
+          "FieldLength": 122
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 724
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 784,
-  "ColumnId": 74,
-  "FieldDefault": "non",
-  "FieldHeight": 425,
-  "FieldLabel": "omnis",
-  "FieldLeft": 586,
-  "FieldTop": 641,
+  "UDefFieldId": 687,
+  "ColumnId": 53,
+  "FieldDefault": "sit",
+  "FieldHeight": 779,
+  "FieldLabel": "dolorem",
+  "FieldLeft": 15,
+  "FieldTop": 499,
   "FieldType": "Checkbox",
-  "FieldWidth": 572,
-  "FormatMask": "dolor",
-  "HideLabel": false,
+  "FieldWidth": 77,
+  "FormatMask": "et",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 133,
-  "LabelLeft": 800,
-  "LabelTop": 445,
-  "LabelWidth": 504,
-  "LastVersionId": 631,
-  "ListTableId": 949,
+  "LabelHeight": 59,
+  "LabelLeft": 485,
+  "LabelTop": 121,
+  "LabelWidth": 497,
+  "LastVersionId": 958,
+  "ListTableId": 340,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 316,
-  "ProgId": "molestiae",
+  "Page1LineNo": 175,
+  "ProgId": "et",
   "IsReadOnly": true,
   "ShortLabel": "qui",
-  "TabOrder": 196,
-  "TextLength": 618,
-  "Tooltip": "id",
-  "UdefIdentity": 183,
-  "UDListDefinitionId": 54,
+  "TabOrder": 877,
+  "TextLength": 122,
+  "Tooltip": "quo",
+  "UdefIdentity": 79,
+  "UDListDefinitionId": 139,
   "Justification": "Center",
-  "Version": 178,
-  "TemplateVariableName": "West Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Ryan Inc and Sons",
+  "Version": 998,
+  "TemplateVariableName": "Ziemann-Lindgren",
+  "HasBeenPublished": true,
+  "MdoListName": "Cole, Doyle and Hoppe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 80
     }
   }
 }

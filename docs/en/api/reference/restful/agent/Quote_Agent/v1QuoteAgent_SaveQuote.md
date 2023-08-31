@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 477,
-  "SaleId": 181,
-  "QuoteConnectionId": 604,
-  "ERPQuoteKey": "hic",
-  "ERPOrderKey": "veritatis",
-  "ActiveQuoteVersionId": 452,
-  "AcceptedQuoteAlternativeId": 952,
-  "UseValuesFromQuote": 289,
-  "DocumentId": 422,
-  "PoNumber": "1147442",
-  "OrderComment": "quia",
-  "PreferredEmailCulture": "melody@breitenbergnienow.com",
+  "QuoteId": 539,
+  "SaleId": 646,
+  "QuoteConnectionId": 485,
+  "ERPQuoteKey": "pariatur",
+  "ERPOrderKey": "velit",
+  "ActiveQuoteVersionId": 212,
+  "AcceptedQuoteAlternativeId": 119,
+  "UseValuesFromQuote": 548,
+  "DocumentId": 890,
+  "PoNumber": "681039",
+  "OrderComment": "et",
+  "PreferredEmailCulture": "antonia_jast@white.us",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 556
     }
   }
 }

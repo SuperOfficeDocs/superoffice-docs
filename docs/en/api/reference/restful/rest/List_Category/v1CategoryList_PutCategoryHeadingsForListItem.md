@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Connelly, Pouros and Doyle",
-    "ToolTip": "Eius voluptatibus.",
-    "Deleted": true,
-    "Rank": 485,
-    "Type": "iste",
-    "ColorBlock": 26,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2015-05-09T16:00:48.8833485+02:00",
+    "Id": 803,
+    "Name": "Hayes Group",
+    "ToolTip": "Qui harum asperiores fugiat dolor ut voluptas.",
+    "Deleted": false,
+    "Rank": 266,
+    "Type": "eius",
+    "ColorBlock": 487,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2004-11-05T03:31:33.5073635+01:00",
     "ChildItems": [
       {
-        "Id": 135,
-        "Name": "Bergnaum, Weimann and Wisozk",
-        "ToolTip": "Quis reprehenderit.",
-        "Deleted": false,
-        "Rank": 577,
-        "Type": "velit",
-        "ColorBlock": 721,
-        "IconHint": "animi",
-        "Selected": false,
-        "LastChanged": "2012-05-17T16:00:48.8833485+02:00",
+        "Id": 835,
+        "Name": "Stracke LLC",
+        "ToolTip": "Nihil aut repellat.",
+        "Deleted": true,
+        "Rank": 805,
+        "Type": "nulla",
+        "ColorBlock": 308,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2000-09-11T03:31:33.5073635+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "sunt",
+        "ExtraInfo": "a",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Madelynn Little"
+        "FullName": "Viva Bauch"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Jamison Waters"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Ms. Garrick Farrell PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Torphy, O'Hara and Roob",
-    "ToolTip": "Magni nesciunt numquam rerum.",
+    "Id": 543,
+    "Name": "Gerhold, Thiel and Dickens",
+    "ToolTip": "Asperiores esse est nihil cumque ea reiciendis.",
     "Deleted": false,
-    "Rank": 119,
-    "Type": "eveniet",
-    "ColorBlock": 63,
-    "IconHint": "earum",
-    "Selected": true,
-    "LastChanged": "2000-12-17T16:00:48.8833485+01:00",
+    "Rank": 809,
+    "Type": "ut",
+    "ColorBlock": 290,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2005-04-05T03:31:33.5073635+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Farrell, O'Connell and Schuppe",
-        "ToolTip": "Voluptatum fugit sit magnam.",
+        "Id": 326,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Quia porro nobis est.",
         "Deleted": false,
-        "Rank": 72,
-        "Type": "ea",
-        "ColorBlock": 954,
-        "IconHint": "aperiam",
-        "Selected": true,
-        "LastChanged": "2011-10-14T16:00:48.8833485+02:00",
+        "Rank": 723,
+        "Type": "quia",
+        "ColorBlock": 592,
+        "IconHint": "consequuntur",
+        "Selected": false,
+        "LastChanged": "2014-02-12T03:31:33.5073635+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "inventore",
-        "Hidden": true,
-        "FullName": "Maxime Kiehn",
+        "ExtraInfo": "soluta",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Ana Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 240
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Jacinthe Waters",
+    "ExtraInfo": "eos",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Mrs. Katheryn Marks Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 143
       }
     }
   }

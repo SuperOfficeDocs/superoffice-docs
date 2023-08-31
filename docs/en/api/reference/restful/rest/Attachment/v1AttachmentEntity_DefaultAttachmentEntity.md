@@ -63,7 +63,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 651,
-  "Name": "Hessel-Osinski",
-  "ContentType": "ipsa",
-  "AttSize": 62,
-  "InlineImage": false,
-  "ContentId": "enim",
-  "AuthKey": "sunt",
+  "AttachmentId": 167,
+  "Name": "Johns LLC",
+  "ContentType": "fugit",
+  "AttSize": 754,
+  "InlineImage": true,
+  "ContentId": "mollitia",
+  "AuthKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 564
     }
   }
 }

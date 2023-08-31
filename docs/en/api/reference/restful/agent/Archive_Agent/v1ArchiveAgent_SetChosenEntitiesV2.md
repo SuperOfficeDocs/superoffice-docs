@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sauer, McDermott and Anderson",
-  "ProviderName": "Trantow Inc and Sons",
-  "Context": "ea",
-  "OwnerKeys": "voluptatem",
+  "GuiName": "Moore-Dooley",
+  "ProviderName": "Miller-Langosh",
+  "Context": "reiciendis",
+  "OwnerKeys": "deleniti",
   "Entities": [
-    "eos",
-    "repellat"
+    "suscipit",
+    "doloribus"
   ]
 }
 ```

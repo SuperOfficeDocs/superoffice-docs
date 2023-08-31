@@ -74,18 +74,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "quia",
+  "Provider": "dicta",
   "Restrictions": [
     {
-      "Name": "Rosenbaum-Becker",
-      "Operator": "aut",
+      "Name": "Sauer-Mueller",
+      "Operator": "ipsam",
       "Values": [
-        "qui",
-        "sed"
+        "illo",
+        "quis"
       ],
       "DisplayValues": [
-        "et",
-        "consequatur"
+        "dolorem",
+        "ipsa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 858,
+      "InterParenthesis": 990,
       "InterOperator": "And",
-      "UniqueHash": 147
+      "UniqueHash": 975
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  421,
-  443
+  238,
+  2
 ]
 ```

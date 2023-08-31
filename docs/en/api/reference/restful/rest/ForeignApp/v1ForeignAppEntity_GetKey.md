@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 30 Nov 2004 16:00:47 G11T
+Last-Modified: Sat, 22 Nov 1997 03:31:32 G11T
 
 {
-  "Key": "deleniti",
-  "Value": "corrupti",
-  "RecordId": 756,
-  "CreatedDate": "1998-02-24T16:00:47.9772018+01:00",
-  "UpdatedDate": "2004-11-30T16:00:47.9772018+01:00",
-  "UpdatedBy": "voluptatum",
-  "CreatedBy": "eveniet",
-  "TableName": "Schultz, Witting and Murphy",
+  "Key": "adipisci",
+  "Value": "officia",
+  "RecordId": 286,
+  "CreatedDate": "2017-10-23T03:31:32.6289016+02:00",
+  "UpdatedDate": "1997-11-22T03:31:32.6289016+01:00",
+  "UpdatedBy": "nesciunt",
+  "CreatedBy": "voluptas",
+  "TableName": "Grady-Mante",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 7
     }
   }
 }

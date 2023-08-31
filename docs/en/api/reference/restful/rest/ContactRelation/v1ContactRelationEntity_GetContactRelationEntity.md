@@ -99,38 +99,38 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 05 Mar 2002 16:00:47 G3T
+Last-Modified: Thu, 20 Jul 2006 03:31:32 G7T
 
 {
-  "SourceContactId": 836,
-  "SourcePersonId": 197,
-  "DestinationContactId": 198,
-  "DestinationPersonId": 915,
-  "RelationId": 403,
-  "Comment": "nihil",
-  "RelationDefinitionId": 476,
-  "Reversed": 112,
-  "UpdatedDate": "2002-03-05T16:00:47.8209689+01:00",
-  "CreatedDate": "2013-01-16T16:00:47.8209689+01:00",
+  "SourceContactId": 723,
+  "SourcePersonId": 586,
+  "DestinationContactId": 676,
+  "DestinationPersonId": 448,
+  "RelationId": 15,
+  "Comment": "est",
+  "RelationDefinitionId": 59,
+  "Reversed": 713,
+  "UpdatedDate": "2006-07-20T03:31:32.4883125+02:00",
+  "CreatedDate": "2020-07-12T03:31:32.4883125+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Beatty, Franecki and Denesik",
-  "SourcePersonName": "Greenholt, Runte and Hamill",
-  "DestinationContactName": "Bogan Group",
-  "DestinationPersonName": "Morar, Beatty and Goodwin",
-  "ActiveText": "porro",
-  "PassiveText": "at",
+  "SourceContactName": "Flatley LLC",
+  "SourcePersonName": "Becker-Abbott",
+  "DestinationContactName": "Ondricka-McKenzie",
+  "DestinationPersonName": "Stoltenberg-Beier",
+  "ActiveText": "esse",
+  "PassiveText": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 140
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

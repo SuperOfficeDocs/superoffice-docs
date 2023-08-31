@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,33 +88,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 495,
-    "Name": "Leffler, Toy and Schmeler",
-    "Tooltip": "debitis",
+    "WebPanelId": 289,
+    "Name": "Hansen, Hahn and Schuppe",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 209,
+    "Rank": 914,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Kreiger, Kozey and Franecki",
+    "WindowName": "Berge Group",
     "Url": "http://www.example.com/",
-    "ProgId": "sunt",
-    "Icon": 25,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "autem",
+    "Icon": 743,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 51
       }
     }
   }

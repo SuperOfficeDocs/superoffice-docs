@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 137,
-  "QuoteAlternativeName": "Vandervort-Hickle",
-  "QuoteAlternativeDescription": "Up-sized optimizing methodology"
+  "QuoteVersionId": 251,
+  "QuoteAlternativeName": "Schoen-Hackett",
+  "QuoteAlternativeDescription": "Managed radical forecast"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 182,
-  "ERPQuoteAlternativeKey": "aut",
-  "QuoteVersionId": 503,
-  "Name": "Heller-Hilpert",
-  "Description": "Proactive needs-based open system",
+  "QuoteAlternativeId": 19,
+  "ERPQuoteAlternativeKey": "doloremque",
+  "QuoteVersionId": 76,
+  "Name": "Smitham, Prohaska and Blanda",
+  "Description": "Operative multi-state help-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 20424.278,
-  "ERPDiscountAmount": 18672.372,
-  "DiscountPercent": 25548.368,
-  "DiscountAmount": 23251.146,
+  "ERPDiscountPercent": 24564.291999999998,
+  "ERPDiscountAmount": 30960.786,
+  "DiscountPercent": 4610.114,
+  "DiscountAmount": 13632.9,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "nam",
-  "VAT": 30757.075999999997,
-  "EarningPercent": 16976.878,
-  "EarningAmount": 16171.439999999999,
-  "SubTotal": 23790.194,
-  "TotalPrice": 23138.322,
-  "ExtraField1": "facilis",
-  "ExtraField2": "qui",
-  "ExtraField3": "fugiat",
-  "ExtraField4": "laborum",
-  "ExtraField5": "rerum",
+  "VATInfo": "dolorem",
+  "VAT": 12573.608,
+  "EarningPercent": 25416.739999999998,
+  "EarningAmount": 10094.614,
+  "SubTotal": 13795.868,
+  "TotalPrice": 17832.46,
+  "ExtraField1": "ea",
+  "ExtraField2": "dicta",
+  "ExtraField3": "provident",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldType": "System.Int32",
+      "FieldLength": 773
     }
   }
 }

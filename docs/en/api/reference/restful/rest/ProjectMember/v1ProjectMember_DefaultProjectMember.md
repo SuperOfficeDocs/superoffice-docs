@@ -77,7 +77,7 @@ OK
 GET /api/v1/ProjectMember/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 452,
-  "ContactId": 597,
-  "ProjectId": 185,
-  "ContactName": "Powlowski-Kuhic",
-  "ContactDepartment": "",
-  "ProjectName": "McDermott, Vandervort and Metz",
-  "EmailId": 930,
-  "EmailAddress": "eleanore@boyle.biz",
-  "CountryId": 923,
-  "Firstname": "Herminia",
-  "MiddleName": "Skiles Group",
-  "Lastname": "Witting",
-  "PersonId": 736,
-  "Mrmrs": "corrupti",
-  "ProjectMemberTypeName": "Murazik LLC",
-  "Phone": "1-079-693-3564",
-  "PhoneId": 796,
-  "ProjectMemberTypeId": 972,
-  "EmailAddressName": "murray@west.biz",
-  "Comment": "voluptatem",
-  "FullName": "Ms. Troy Erick Emard",
+  "ProjectmemberId": 544,
+  "ContactId": 238,
+  "ProjectId": 503,
+  "ContactName": "Herman, Towne and Hane",
+  "ContactDepartment": "utilize leading-edge experiences",
+  "ProjectName": "Anderson Inc and Sons",
+  "EmailId": 162,
+  "EmailAddress": "margaret@emmerich.info",
+  "CountryId": 578,
+  "Firstname": "Rhiannon",
+  "MiddleName": "Bogan Inc and Sons",
+  "Lastname": "Hodkiewicz",
+  "PersonId": 263,
+  "Mrmrs": "deleniti",
+  "ProjectMemberTypeName": "Hand-Swaniawski",
+  "Phone": "(241)092-6864 x8071",
+  "PhoneId": 864,
+  "ProjectMemberTypeId": 1000,
+  "EmailAddressName": "madeline@danielschmidt.com",
+  "Comment": "possimus",
+  "FullName": "Nova Wolf",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

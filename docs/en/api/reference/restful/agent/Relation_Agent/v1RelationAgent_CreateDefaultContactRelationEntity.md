@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 588,
-  "SourcePersonId": 632,
-  "DestinationContactId": 512,
-  "DestinationPersonId": 666,
-  "RelationId": 90,
-  "Comment": "error",
-  "RelationDefinitionId": 548,
-  "Reversed": 959,
-  "UpdatedDate": "2015-10-17T16:00:41.6800689+02:00",
-  "CreatedDate": "2017-08-24T16:00:41.6800689+02:00",
+  "SourceContactId": 297,
+  "SourcePersonId": 104,
+  "DestinationContactId": 219,
+  "DestinationPersonId": 351,
+  "RelationId": 301,
+  "Comment": "vel",
+  "RelationDefinitionId": 906,
+  "Reversed": 12,
+  "UpdatedDate": "2013-07-10T03:31:27.1218466+02:00",
+  "CreatedDate": "2003-12-26T03:31:27.1218466+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Shanahan, Hegmann and Dicki",
-  "SourcePersonName": "Hagenes Inc and Sons",
-  "DestinationContactName": "Bosco, Parisian and Jones",
-  "DestinationPersonName": "Wiegand-Collins",
-  "ActiveText": "voluptas",
-  "PassiveText": "perspiciatis",
+  "SourceContactName": "Hickle-McKenzie",
+  "SourcePersonName": "Crona-Howell",
+  "DestinationContactName": "Hegmann Group",
+  "DestinationPersonName": "Kuphal-Pagac",
+  "ActiveText": "sapiente",
+  "PassiveText": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 856
     }
   }
 }

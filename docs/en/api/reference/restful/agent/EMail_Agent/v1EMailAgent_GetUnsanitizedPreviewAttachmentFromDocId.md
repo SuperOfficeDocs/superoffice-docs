@@ -76,6 +76,7 @@ OK
 | Encoding | string | Content-Transfer-Encoding |
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
+| IsSafeFileExtension | bool | If the user should be allowed to download and perform other actions on the attachment. |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -86,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 7,
-  "AttachmentId": "provident"
+  "DocId": 379,
+  "AttachmentId": "repudiandae"
 }
 ```
 
@@ -102,20 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Quality-focused human-resource paradigm",
-  "Filename": "reiciendis",
-  "Size": 686,
-  "Type": "aspernatur",
-  "Encoding": "placeat",
-  "Id": "dolorem",
-  "Disposition": "dolorem",
+  "Description": "Virtual systemic orchestration",
+  "Filename": "ipsum",
+  "Size": 779,
+  "Type": "a",
+  "Encoding": "quia",
+  "Id": "soluta",
+  "Disposition": "aperiam",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   }
 }

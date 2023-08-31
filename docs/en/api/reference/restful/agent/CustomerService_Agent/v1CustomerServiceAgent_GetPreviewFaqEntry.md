@@ -81,7 +81,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 171
+  "KbEntryId": 221
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "adipisci",
-  "RegisteredByFullName": "Buddy Schultz",
-  "Updated": "1999-11-06T16:00:40.5081328+01:00",
-  "Question": "cum",
-  "Answer": "quae",
+  "Title": "amet",
+  "RegisteredByFullName": "Cindy Kub",
+  "Updated": "1997-12-08T03:31:25.9957958+01:00",
+  "Question": "iure",
+  "Answer": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

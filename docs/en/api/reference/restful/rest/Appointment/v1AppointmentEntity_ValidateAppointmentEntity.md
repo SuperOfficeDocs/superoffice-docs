@@ -115,7 +115,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,110 +123,110 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-03-23T16:00:47.4928791+01:00",
-  "AppointmentId": 83,
-  "Description": "Versatile 5th generation leverage",
-  "StartDate": "1998-10-06T16:00:47.4928791+02:00",
-  "EndDate": "2016-12-15T16:00:47.4928791+01:00",
+  "CreatedDate": "2003-10-06T03:31:32.0496832+02:00",
+  "AppointmentId": 367,
+  "Description": "Profit-focused holistic focus group",
+  "StartDate": "2020-01-12T03:31:32.0496832+01:00",
+  "EndDate": "2020-01-21T03:31:32.0496832+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 513,
+  "MotherId": 994,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-03-03T16:00:47.4928791+01:00",
+  "UpdatedDate": "2022-09-11T03:31:32.0965577+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 699,
+  "ActiveLinks": 709,
   "Links": [
     {
-      "EntityName": "Bailey, Romaguera and Wiegand",
-      "Id": 626,
-      "Description": "Programmable motivating website",
-      "ExtraInfo": "quia",
-      "LinkId": 113
+      "EntityName": "Murphy Inc and Sons",
+      "Id": 612,
+      "Description": "Enterprise-wide grid-enabled task-force",
+      "ExtraInfo": "eos",
+      "LinkId": 331
     },
     {
-      "EntityName": "Bailey, Romaguera and Wiegand",
-      "Id": 626,
-      "Description": "Programmable motivating website",
-      "ExtraInfo": "quia",
-      "LinkId": 113
+      "EntityName": "Murphy Inc and Sons",
+      "Id": 612,
+      "Description": "Enterprise-wide grid-enabled task-force",
+      "ExtraInfo": "eos",
+      "LinkId": 331
     }
   ],
-  "AlarmLeadTime": "fugit",
+  "AlarmLeadTime": "autem",
   "HasAlarm": false,
-  "ColorIndex": 659,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "reiciendis",
-  "LeadTime": "accusantium",
-  "Location": "nesciunt",
-  "RejectCounter": 351,
+  "ColorIndex": 957,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "aut",
+  "LeadTime": "placeat",
+  "Location": "accusamus",
+  "RejectCounter": 613,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 217,
-      "PersonId": 572,
-      "ContactId": 797,
-      "EmailId": 182,
-      "SendEmail": true,
+      "AssociateId": 957,
+      "PersonId": 215,
+      "ContactId": 514,
+      "EmailId": 266,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 217,
-      "PersonId": 572,
-      "ContactId": 797,
-      "EmailId": 182,
-      "SendEmail": true,
+      "AssociateId": 957,
+      "PersonId": 215,
+      "ContactId": 514,
+      "EmailId": 266,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2001-08-21T16:00:47.4928791+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2019-04-14T03:31:32.0965577+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 47,
+  "PreferredTZLocation": 180,
   "Sale": null,
-  "SuggestedAppointmentId": 939,
+  "SuggestedAppointmentId": 701,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "magni",
-  "Title": "cupiditate",
-  "Agenda": "placeat",
-  "InternalNotes": "voluptas",
+  "CentralserviceVideomeetId": "omnis",
+  "Title": "occaecati",
+  "Agenda": "totam",
+  "InternalNotes": "non",
   "UserDefinedFields": {
-    "SuperOffice:1": "1894386399",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Prof. Eudora Monahan",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "dicta",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "sequi",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2000-01-21T16:00:47.4928791+01:00",
-  "PublishTo": "1997-02-11T16:00:47.4928791+01:00",
-  "PublishFrom": "2003-01-24T16:00:47.4928791+01:00",
+  "PublishEventDate": "2023-07-06T03:31:32.1277959+02:00",
+  "PublishTo": "2014-03-30T03:31:32.1277959+02:00",
+  "PublishFrom": "2007-06-22T03:31:32.1277959+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 223,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "nostrum"
     },
     {
-      "VisibleId": 223,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "nostrum"
     }
   ]
 }
@@ -239,7 +239,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sit",
-  "2": "voluptatem"
+  "1": "natus",
+  "2": "doloremque"
 }
 ```

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hammes-O'Kon",
+  "Name": "McCullough Group",
   "Entities": [
     {
-      "HeadingId": 196,
-      "Name": "Boyle-Cruickshank",
-      "Tooltip": "voluptas",
+      "HeadingId": 297,
+      "Name": "Rolfson, Doyle and O'Kon",
+      "Tooltip": "exercitationem",
       "Deleted": false,
-      "Rank": 415,
-      "UdListDefinitionId": 812
+      "Rank": 160,
+      "UdListDefinitionId": 402
     },
     {
-      "HeadingId": 196,
-      "Name": "Boyle-Cruickshank",
-      "Tooltip": "voluptas",
+      "HeadingId": 297,
+      "Name": "Rolfson, Doyle and O'Kon",
+      "Tooltip": "exercitationem",
       "Deleted": false,
-      "Rank": 415,
-      "UdListDefinitionId": 812
+      "Rank": 160,
+      "UdListDefinitionId": 402
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 158,
-    "Name": "Ryan-Welch",
-    "Tooltip": "eius",
+    "HeadingId": 819,
+    "Name": "Fay, Padberg and Bechtelar",
+    "Tooltip": "veritatis",
     "Deleted": false,
-    "Rank": 761,
-    "UdListDefinitionId": 431,
+    "Rank": 23,
+    "UdListDefinitionId": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldLength": 849
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Eichmann Inc and Sons",
-  "Tooltip": "tenetur",
+  "Id": 477,
+  "Name": "Runolfsdottir Inc and Sons",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 253,
+  "Rank": 325,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consectetur",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 231
     }
   },
   "_Links": {

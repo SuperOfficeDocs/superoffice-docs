@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 387,
+  "PersonId": 439,
   "IncludeProjectDocuments": true,
-  "StartTime": "2021-01-17T16:00:40.5862498+01:00",
-  "EndTime": "2008-11-04T16:00:40.5862498+01:00",
-  "Count": 360,
-  "DocumentTemplateId": 885
+  "StartTime": "2015-05-16T03:31:26.0583393+02:00",
+  "EndTime": "2014-04-21T03:31:26.0583393+02:00",
+  "Count": 346,
+  "DocumentTemplateId": 105
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 652,
-    "Attention": "ea",
-    "Header": "eos",
-    "Name": "Ledner, Torp and Little",
-    "OurRef": "aut",
-    "YourRef": "alias",
-    "Description": "Sharable bifurcated hierarchy",
-    "DocumentTemplate": "at",
-    "IsPublished": true,
-    "PersonId": 377,
-    "PersonFullName": "Hayley Aufderhar III",
-    "AssociateFullName": "Larissa Gibson IV",
-    "ContactId": 846,
-    "ContactName": "Pfeffer Inc and Sons",
-    "ProjectId": 596,
-    "ProjectName": "Medhurst-O'Conner",
-    "AssociateId": 715,
-    "Snum": 439,
-    "SaleId": 192,
-    "SaleName": "Friesen-Blick",
+    "DocumentId": 541,
+    "Attention": "quam",
+    "Header": "animi",
+    "Name": "Kunze, Halvorson and Sauer",
+    "OurRef": "accusantium",
+    "YourRef": "libero",
+    "Description": "Grass-roots high-level approach",
+    "DocumentTemplate": "repudiandae",
+    "IsPublished": false,
+    "PersonId": 162,
+    "PersonFullName": "Jacquelyn Ferry",
+    "AssociateFullName": "Darlene Littel",
+    "ContactId": 445,
+    "ContactName": "Hagenes-Cruickshank",
+    "ProjectId": 256,
+    "ProjectName": "Kuhn LLC",
+    "AssociateId": 228,
+    "Snum": 690,
+    "SaleId": 3,
+    "SaleName": "Larkin, Effertz and Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 368
       }
     }
   }

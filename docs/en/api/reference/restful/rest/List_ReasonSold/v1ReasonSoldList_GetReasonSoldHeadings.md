@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 636,
-    "Name": "Cassin Group",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "Rank": 354,
-    "UdListDefinitionId": 717,
+    "HeadingId": 936,
+    "Name": "Kertzmann LLC",
+    "Tooltip": "pariatur",
+    "Deleted": false,
+    "Rank": 786,
+    "UdListDefinitionId": 769,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldLength": 679
       }
     }
   }

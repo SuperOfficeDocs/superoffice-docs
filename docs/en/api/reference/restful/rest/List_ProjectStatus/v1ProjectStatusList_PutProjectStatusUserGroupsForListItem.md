@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Gaylord, Prohaska and Zieme",
-    "ToolTip": "Repudiandae dolorum qui.",
-    "Deleted": false,
-    "Rank": 200,
-    "Type": "qui",
-    "ColorBlock": 373,
-    "IconHint": "sapiente",
+    "Id": 975,
+    "Name": "Oberbrunner-D'Amore",
+    "ToolTip": "Nihil eveniet odio repudiandae ducimus quam.",
+    "Deleted": true,
+    "Rank": 354,
+    "Type": "dignissimos",
+    "ColorBlock": 100,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2000-10-05T16:00:49.1958202+02:00",
+    "LastChanged": "2008-11-29T03:31:33.7586101+01:00",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "Ledner-Hoeger",
-        "ToolTip": "Consequatur est blanditiis eius.",
-        "Deleted": false,
-        "Rank": 530,
-        "Type": "autem",
-        "ColorBlock": 819,
-        "IconHint": "nisi",
-        "Selected": true,
-        "LastChanged": "2021-04-03T16:00:49.1958202+02:00",
+        "Id": 238,
+        "Name": "DuBuque-Harber",
+        "ToolTip": "Rerum expedita a et adipisci quis.",
+        "Deleted": true,
+        "Rank": 737,
+        "Type": "consectetur",
+        "ColorBlock": 937,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "2020-09-01T03:31:33.7586101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "illo",
+        "ExtraInfo": "corporis",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mr. Carlie Altenwerth III"
+        "FullName": "Royal Jaleel Boyle I"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Kaitlin Kozey I"
+    "ExtraInfo": "in",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Helena Lexus Deckow Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Kerluke LLC",
-    "ToolTip": "Natus quod consectetur repellendus temporibus ullam.",
+    "Id": 127,
+    "Name": "Torphy, Hansen and Okuneva",
+    "ToolTip": "Quia et ut nam ipsam.",
     "Deleted": true,
-    "Rank": 661,
-    "Type": "velit",
-    "ColorBlock": 451,
+    "Rank": 900,
+    "Type": "neque",
+    "ColorBlock": 178,
     "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2016-04-26T16:00:49.1958202+02:00",
+    "LastChanged": "2001-10-05T03:31:33.7586101+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Zulauf-Watsica",
-        "ToolTip": "Beatae possimus eius.",
-        "Deleted": true,
-        "Rank": 238,
-        "Type": "sunt",
-        "ColorBlock": 829,
-        "IconHint": "aliquam",
+        "Id": 386,
+        "Name": "Hartmann-Paucek",
+        "ToolTip": "Dolorem sit dolorem omnis id et consectetur.",
+        "Deleted": false,
+        "Rank": 127,
+        "Type": "reprehenderit",
+        "ColorBlock": 248,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2019-12-27T16:00:49.1958202+01:00",
+        "LastChanged": "1998-12-27T03:31:33.7586101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "autem",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Ms. Cody Keely Bailey",
+        "FullName": "Axel Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "totam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Leone Wilderman",
+    "FullName": "Dessie Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 233
       }
     }
   }

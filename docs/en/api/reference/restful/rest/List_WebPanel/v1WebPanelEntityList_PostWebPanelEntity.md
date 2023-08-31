@@ -105,31 +105,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 473,
-  "Name": "Casper, Pfannerstill and Hudson",
-  "Tooltip": "molestiae",
+  "WebPanelId": 862,
+  "Name": "Huel, Deckow and Wehner",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "Rank": 726,
+  "Rank": 251,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Predovic-Bailey",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Rolfson-Klocko",
   "Url": "http://www.example.com/",
-  "ProgId": "quisquam",
-  "Icon": 329,
-  "AlwaysReloadOnShow": true
+  "ProgId": "est",
+  "Icon": 809,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -140,33 +140,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 378,
-  "Name": "Pollich-Lockman",
-  "Tooltip": "dolorem",
+  "WebPanelId": 999,
+  "Name": "Klein-Hintz",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "Rank": 758,
+  "Rank": 686,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Casper-Barrows",
+  "WindowName": "Vandervort Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "consectetur",
-  "Icon": 642,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ipsum",
+  "Icon": 885,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 753
     }
   }
 }

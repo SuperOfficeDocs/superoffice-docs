@@ -26,7 +26,7 @@ Gets a ProjectEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=744
+POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=209
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,127 +107,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 810,
-  "Name": "Ruecker-Rath",
-  "ProjectNumber": "1410577",
+  "ProjectId": 320,
+  "Name": "Denesik, McKenzie and Satterfield",
+  "ProjectNumber": "781180",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 791,
-      "ContactId": 477,
-      "ProjectId": 575,
-      "ContactName": "Strosin Inc and Sons",
+      "ProjectmemberId": 850,
+      "ContactId": 204,
+      "ProjectId": 182,
+      "ContactName": "Kohler, Bernier and Nikolaus",
       "ContactDepartment": "",
-      "ProjectName": "Mills Group",
-      "EmailId": 403,
-      "EmailAddress": "narciso@mclaughlin.info",
-      "CountryId": 42,
-      "Firstname": "Joannie",
-      "MiddleName": "Lang-Goodwin",
-      "Lastname": "Keeling",
-      "PersonId": 38,
-      "Mrmrs": "blanditiis",
-      "ProjectMemberTypeName": "Mertz, Cummings and Auer",
-      "Phone": "563-925-0119 x4702",
-      "PhoneId": 905,
-      "ProjectMemberTypeId": 61,
-      "EmailAddressName": "diana.robel@okunevaprice.uk",
-      "Comment": "natus",
-      "FullName": "Mr. Aurelia Parker",
+      "ProjectName": "Carter LLC",
+      "EmailId": 264,
+      "EmailAddress": "josefa@metz.ca",
+      "CountryId": 350,
+      "Firstname": "Otto",
+      "MiddleName": "Mann, Thompson and Wilkinson",
+      "Lastname": "Stehr",
+      "PersonId": 557,
+      "Mrmrs": "at",
+      "ProjectMemberTypeName": "Murray, Predovic and Pouros",
+      "Phone": "518-475-3971 x49099",
+      "PhoneId": 190,
+      "ProjectMemberTypeId": 444,
+      "EmailAddressName": "annalise_goodwin@kuphalmoen.info",
+      "Comment": "quas",
+      "FullName": "Mr. Lia Lupe Schumm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 526
+          "FieldType": "System.String",
+          "FieldLength": 508
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "repellendus",
-      "StrippedValue": "distinctio",
-      "Description": "Centralized asynchronous moderator",
+      "Value": "ab",
+      "StrippedValue": "veritatis",
+      "Description": "Total tertiary frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldType": "System.Int32",
+          "FieldLength": 434
         }
       }
     },
     {
-      "Value": "repellendus",
-      "StrippedValue": "distinctio",
-      "Description": "Centralized asynchronous moderator",
+      "Value": "ab",
+      "StrippedValue": "veritatis",
+      "Description": "Total tertiary frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldType": "System.Int32",
+          "FieldLength": 434
         }
       }
     }
   ],
-  "CreatedDate": "2002-03-07T16:00:41.5550773+01:00",
-  "UpdatedDate": "2007-02-28T16:00:41.5550773+01:00",
-  "Description": "Operative hybrid benchmark",
-  "Postit": "aut",
+  "CreatedDate": "2017-08-17T03:31:26.995596+02:00",
+  "UpdatedDate": "2019-09-25T03:31:26.995596+02:00",
+  "Description": "Team-oriented methodical approach",
+  "Postit": "voluptate",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Configurable coherent project",
-  "ActiveStatusMonitorId": 679,
+  "ImageDescription": "Implemented discrete knowledge base",
+  "ActiveStatusMonitorId": 229,
   "Links": [
     {
-      "EntityName": "Marvin-Emmerich",
-      "Id": 995,
-      "Description": "Persevering solution-oriented hardware",
-      "ExtraInfo": "sit",
-      "LinkId": 427,
+      "EntityName": "Kulas-Konopelski",
+      "Id": 620,
+      "Description": "Re-engineered bandwidth-monitored middleware",
+      "ExtraInfo": "ipsa",
+      "LinkId": 553,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 341
         }
       }
     }
   ],
-  "ActiveLinks": 447,
-  "Completed": true,
-  "NextMilestoneDate": "2022-04-23T16:00:41.5550773+02:00",
-  "NmdAppointmentId": 421,
-  "EndDate": "2008-10-28T16:00:41.5550773+01:00",
-  "ActiveErpLinks": 893,
+  "ActiveLinks": 918,
+  "Completed": false,
+  "NextMilestoneDate": "2008-08-21T03:31:27.0112205+02:00",
+  "NmdAppointmentId": 685,
+  "EndDate": "2006-11-19T03:31:27.0112205+01:00",
+  "ActiveErpLinks": 745,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Camren Evie Bartell V",
-    "SuperOffice:2": "Jordane Reichel"
+    "SuperOffice:1": "386135563",
+    "SuperOffice:2": "1517313813"
   },
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
     "CustomFields1": "est",
-    "CustomFields2": "quia"
+    "CustomFields2": "quisquam"
   },
-  "PublishEventDate": "2015-08-28T16:00:41.5550773+02:00",
-  "PublishTo": "2014-10-31T16:00:41.5550773+01:00",
-  "PublishFrom": "1999-03-10T16:00:41.5550773+01:00",
+  "PublishEventDate": "2003-12-13T03:31:27.0112205+01:00",
+  "PublishTo": "1999-05-11T03:31:27.0112205+02:00",
+  "PublishFrom": "2008-09-07T03:31:27.0112205+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 219
     }
   }
 }

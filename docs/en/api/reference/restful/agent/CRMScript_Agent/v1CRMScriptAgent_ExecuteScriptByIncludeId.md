@@ -75,10 +75,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "laudantium",
+  "CRMScriptIncludeId": "aut",
   "Parameters": {
-    "Parameters1": "et",
-    "Parameters2": "amet"
+    "Parameters1": "earum",
+    "Parameters2": "eaque"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sapiente"
+"ut"
 ```

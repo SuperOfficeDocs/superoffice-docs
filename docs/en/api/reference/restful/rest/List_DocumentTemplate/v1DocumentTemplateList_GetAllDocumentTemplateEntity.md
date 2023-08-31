@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 161,
-    "Name": "Hyatt LLC",
-    "Tooltip": "harum",
-    "SaveInDb": 441,
-    "Filename": "non",
-    "DefaultOref": "sint",
+    "DocumentTemplateId": 813,
+    "Name": "Reichert Inc and Sons",
+    "Tooltip": "nihil",
+    "SaveInDb": 122,
+    "Filename": "velit",
+    "DefaultOref": "fugiat",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 62,
-    "IntentId": 395,
+    "AutoeventId": 173,
+    "IntentId": 853,
     "IsDefaultPublished": false,
-    "Rank": 514,
-    "LoadTemplateFromPlugin": 363,
-    "MimeType": "alias",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 757,
+    "Rank": 263,
+    "LoadTemplateFromPlugin": 722,
+    "MimeType": "voluptatem",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 750,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "hayden@goodwinpurdy.ca",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
+    "EmailSubject": "easter@dooleyheidenreich.biz",
+    "IncludeSignature": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "jannie_toy@considine.info",
+    "SenderEmailAddress": "elliott@labadie.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldLength": 186
       }
     }
   }

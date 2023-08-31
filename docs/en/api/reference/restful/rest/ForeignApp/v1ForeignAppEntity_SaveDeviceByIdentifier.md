@@ -89,15 +89,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 354,
-  "Name": "McCullough Inc and Sons",
-  "CreatedDate": "2000-11-12T16:00:47.9772018+01:00",
-  "UpdatedDate": "2019-07-21T16:00:47.9772018+02:00",
-  "AssociateFullName": "Tatum Wolff",
-  "CreatedBy": "atque",
-  "UpdatedBy": "quae",
-  "DeviceIdentifier": "odio",
-  "ForeignAppId": 890
+  "ForeignDeviceId": 559,
+  "Name": "Gislason-Cole",
+  "CreatedDate": "2021-10-21T03:31:32.6289016+02:00",
+  "UpdatedDate": "2010-07-04T03:31:32.6289016+02:00",
+  "AssociateFullName": "Chet Frami",
+  "CreatedBy": "autem",
+  "UpdatedBy": "minus",
+  "DeviceIdentifier": "fugit",
+  "ForeignAppId": 685
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 510,
-  "Name": "Brakus, Lindgren and Skiles",
-  "CreatedDate": "2017-09-19T16:00:47.9772018+02:00",
-  "UpdatedDate": "1998-05-04T16:00:47.9772018+02:00",
-  "AssociateFullName": "Sincere Conroy",
-  "CreatedBy": "provident",
-  "UpdatedBy": "recusandae",
-  "DeviceIdentifier": "consequatur",
-  "ForeignAppId": 450,
+  "ForeignDeviceId": 867,
+  "Name": "Beer-Renner",
+  "CreatedDate": "2005-01-25T03:31:32.6289016+01:00",
+  "UpdatedDate": "2018-09-04T03:31:32.6289016+02:00",
+  "AssociateFullName": "Clint Rocky Little I",
+  "CreatedBy": "accusamus",
+  "UpdatedBy": "sed",
+  "DeviceIdentifier": "soluta",
+  "ForeignAppId": 500,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 175
     }
   }
 }

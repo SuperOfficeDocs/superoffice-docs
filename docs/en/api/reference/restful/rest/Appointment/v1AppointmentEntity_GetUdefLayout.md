@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 659,
-    "ColumnId": 70,
-    "FieldDefault": "nihil",
-    "FieldHeight": 483,
-    "FieldLabel": "sed",
-    "FieldLeft": 196,
-    "FieldTop": 367,
+    "UDefFieldId": 217,
+    "ColumnId": 115,
+    "FieldDefault": "nobis",
+    "FieldHeight": 439,
+    "FieldLabel": "mollitia",
+    "FieldLeft": 91,
+    "FieldTop": 439,
     "FieldType": "Checkbox",
-    "FieldWidth": 862,
-    "FormatMask": "cumque",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 101,
-    "LabelLeft": 719,
-    "LabelTop": 253,
-    "LabelWidth": 623,
-    "LastVersionId": 333,
-    "ListTableId": 776,
-    "IsMandatory": true,
+    "FieldWidth": 636,
+    "FormatMask": "eum",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 307,
+    "LabelLeft": 783,
+    "LabelTop": 934,
+    "LabelWidth": 309,
+    "LastVersionId": 525,
+    "ListTableId": 155,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 185,
-    "ProgId": "provident",
+    "Page1LineNo": 895,
+    "ProgId": "enim",
     "IsReadOnly": true,
-    "ShortLabel": "est",
-    "TabOrder": 571,
-    "TextLength": 784,
-    "Tooltip": "non",
-    "UdefIdentity": 797,
-    "UDListDefinitionId": 338,
+    "ShortLabel": "reprehenderit",
+    "TabOrder": 546,
+    "TextLength": 162,
+    "Tooltip": "fuga",
+    "UdefIdentity": 390,
+    "UDListDefinitionId": 981,
     "Justification": "Center",
-    "Version": 854,
-    "TemplateVariableName": "Franecki Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Cruickshank Inc and Sons",
+    "Version": 544,
+    "TemplateVariableName": "Wiza LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "O'Connell, Bergstrom and Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 849
       }
     }
   }

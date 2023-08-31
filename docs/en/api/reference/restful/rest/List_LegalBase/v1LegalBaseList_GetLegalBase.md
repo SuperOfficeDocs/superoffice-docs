@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 338,
-  "Name": "Kozey-DuBuque",
-  "Tooltip": "aperiam",
-  "Rank": 356,
-  "Key": "vero",
+  "LegalBaseId": 371,
+  "Name": "Lehner, Schimmel and Glover",
+  "Tooltip": "dolores",
+  "Rank": 264,
+  "Key": "ex",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 722
     }
   }
 }

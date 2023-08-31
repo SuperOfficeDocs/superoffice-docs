@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 692,
-    "Name": "Mueller, Yost and Cummerata",
-    "OrgNr": "1252010",
+    "ContactId": 34,
+    "Name": "Gerlach-Ritchie",
+    "OrgNr": "170995",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "asperiores",
-    "DirectPhone": "820.647.6360 x3746",
-    "AssociateId": 431,
-    "CountryId": 7,
-    "EmailAddress": "afton@baileyrunolfsson.biz",
-    "Kananame": "harum",
-    "EmailAddressName": "hildegard@runtefahey.biz",
+    "City": "nobis",
+    "DirectPhone": "210-099-5882",
+    "AssociateId": 553,
+    "CountryId": 305,
+    "EmailAddress": "linnie.kunde@ankunding.us",
+    "Kananame": "quis",
+    "EmailAddressName": "dorothea_jaskolski@hettinger.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Emma Rippin",
+    "AssociateFullName": "Justice Volkman",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "et",
-    "FullName": "Myrtle Satterfield",
+    "FormattedAddress": "dolor",
+    "FullName": "Britney Hammes",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 193,
-    "Number1": "582061",
-    "Number2": "1178621",
+    "ActiveErpLinks": 750,
+    "Number1": "1882071",
+    "Number2": "716743",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 221
+        "FieldType": "System.Int32",
+        "FieldLength": 335
       }
     }
   }

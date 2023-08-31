@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 430,
-  "SourcePersonId": 604,
-  "DestinationContactId": 702,
-  "DestinationPersonId": 447,
-  "RelationId": 573,
-  "Comment": "sint",
-  "RelationDefinitionId": 64,
-  "Reversed": 146,
-  "UpdatedDate": "2003-07-18T16:00:47.8209689+02:00",
-  "CreatedDate": "2002-06-30T16:00:47.8209689+02:00",
+  "SourceContactId": 570,
+  "SourcePersonId": 600,
+  "DestinationContactId": 599,
+  "DestinationPersonId": 376,
+  "RelationId": 445,
+  "Comment": "non",
+  "RelationDefinitionId": 723,
+  "Reversed": 58,
+  "UpdatedDate": "2003-08-22T03:31:32.4883125+02:00",
+  "CreatedDate": "2009-03-13T03:31:32.4883125+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "McDermott-Grant",
-  "SourcePersonName": "Orn LLC",
-  "DestinationContactName": "O'Reilly, Quitzon and Rempel",
-  "DestinationPersonName": "Collins-Keeling",
-  "ActiveText": "quibusdam",
-  "PassiveText": "enim"
+  "SourceContactName": "Hegmann, Leffler and Corwin",
+  "SourcePersonName": "Abshire LLC",
+  "DestinationContactName": "Wisoky, Balistreri and Daniel",
+  "DestinationPersonName": "Bashirian Group",
+  "ActiveText": "sapiente",
+  "PassiveText": "est"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 722,
-  "SourcePersonId": 613,
-  "DestinationContactId": 255,
-  "DestinationPersonId": 461,
-  "RelationId": 846,
-  "Comment": "ipsa",
-  "RelationDefinitionId": 2,
-  "Reversed": 687,
-  "UpdatedDate": "2005-12-19T16:00:47.8209689+01:00",
-  "CreatedDate": "2015-08-14T16:00:47.8209689+02:00",
+  "SourceContactId": 44,
+  "SourcePersonId": 717,
+  "DestinationContactId": 908,
+  "DestinationPersonId": 487,
+  "RelationId": 298,
+  "Comment": "rerum",
+  "RelationDefinitionId": 692,
+  "Reversed": 878,
+  "UpdatedDate": "2009-12-02T03:31:32.4883125+01:00",
+  "CreatedDate": "2020-08-23T03:31:32.4883125+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jewess-Roob",
-  "SourcePersonName": "Windler-Jenkins",
-  "DestinationContactName": "Paucek LLC",
-  "DestinationPersonName": "Romaguera-Macejkovic",
-  "ActiveText": "in",
-  "PassiveText": "illum",
+  "SourceContactName": "Ondricka-Funk",
+  "SourcePersonName": "Morar-Tremblay",
+  "DestinationContactName": "Schoen-Ward",
+  "DestinationPersonName": "Hartmann, Torp and Ziemann",
+  "ActiveText": "corrupti",
+  "PassiveText": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 499
     }
   },
   "_Links": {

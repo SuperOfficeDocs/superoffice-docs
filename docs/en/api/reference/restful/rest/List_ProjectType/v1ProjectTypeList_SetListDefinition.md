@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Name": "Runolfsson-Will",
-  "Tooltip": "corporis",
+  "Id": 129,
+  "Name": "Tremblay, Roberts and Howe",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 962,
-  "IsCustomList": false,
+  "Rank": 698,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "Name": "Jacobson Group",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 78,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ducimus",
-  "InUseByUserDefinedFields": false,
+  "Id": 581,
+  "Name": "Zulauf Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 292,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   }
 }

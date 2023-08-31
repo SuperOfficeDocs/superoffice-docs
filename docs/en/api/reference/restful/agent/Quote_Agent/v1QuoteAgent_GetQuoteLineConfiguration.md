@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 477
+  "QuoteLineConfigurationId": 897
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 39,
-  "FieldName": "Trantow, Wolf and Goodwin",
-  "Label": "ut",
-  "Tooltip": "qui",
+  "QuoteLineConfigurationId": 208,
+  "FieldName": "Green-Zemlak",
+  "Label": "veniam",
+  "Tooltip": "quia",
   "Editable": true,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 107,
-  "RestrictEdit": true,
+  "Rank": 937,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   }
 }

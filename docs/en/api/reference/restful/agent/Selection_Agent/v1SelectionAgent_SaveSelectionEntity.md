@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persevering homogeneous time-frame",
-  "Postit": "consequuntur",
+  "Description": "Configurable empowering synergy",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 222,
-  "IncludePerson": 526,
-  "MemberCount": 949,
-  "Name": "Lakin Inc and Sons",
-  "PostitTextId": 790,
-  "CreatedDate": "2012-06-21T16:00:41.8206735+02:00",
-  "SelectionId": 640,
-  "SoundEx": "et",
-  "Source": 570,
-  "TextId": 310,
-  "UpdatedDate": "2006-11-03T16:00:41.8206735+01:00",
-  "UpdatedCount": 94,
-  "Visibility": 96,
+  "GroupIdx": 50,
+  "IncludePerson": 673,
+  "MemberCount": 12,
+  "Name": "Osinski LLC",
+  "PostitTextId": 760,
+  "CreatedDate": "1997-08-11T03:31:27.2312035+02:00",
+  "SelectionId": 708,
+  "SoundEx": "vel",
+  "Source": 835,
+  "TextId": 298,
+  "UpdatedDate": "2010-11-05T03:31:27.2312035+01:00",
+  "UpdatedCount": 649,
+  "Visibility": 408,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 865,
-  "TargetTableName": "Hermann Inc and Sons",
+  "CompanyUnique": true,
+  "TargetTableNumber": 163,
+  "TargetTableName": "Conn-Wisozk",
   "Completed": false,
-  "LeftSelectionId": 267,
-  "RightSelectionId": 216,
+  "LeftSelectionId": 30,
+  "RightSelectionId": 155,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Crona, Pfeffer and Kuhn",
-  "ShadowProviderName": "Spinka LLC",
-  "ChartKey": "quis",
-  "LastLoaded": "2000-10-13T16:00:41.8206735+02:00",
-  "LastLoadedBy": 548,
+  "MainProviderName": "O'Connell, Ziemann and Schultz",
+  "ShadowProviderName": "Langosh, Abshire and Jacobi",
+  "ChartKey": "maiores",
+  "LastLoaded": "2015-05-22T03:31:27.2312035+02:00",
+  "LastLoadedBy": 3,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-03-14T16:00:41.8206735+01:00",
-  "LastMembershipChangeBy": 125,
+  "LastMembershipChange": "2001-02-27T03:31:27.2312035+01:00",
+  "LastMembershipChangeBy": 493,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consectetur",
+  "MainHeading": "neque",
   "MemberTabHeading": "et",
-  "MailingsProviderName": "Stoltenberg, Upton and O'Conner",
-  "DashboardTileDefinitionId": 89,
+  "MailingsProviderName": "Kunze, Rempel and Wintheiser",
+  "DashboardTileDefinitionId": 42,
   "VisibleFor": [
     {
-      "VisibleId": 709,
+      "VisibleId": 374,
       "Visibility": "All",
-      "DisplayValue": "soluta"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 709,
+      "VisibleId": 374,
       "Visibility": "All",
-      "DisplayValue": "soluta"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Organized homogeneous leverage",
-  "Postit": "corporis",
+  "Description": "Implemented global internet solution",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 589,
-  "IncludePerson": 431,
-  "MemberCount": 831,
-  "Name": "Oberbrunner-Rodriguez",
-  "PostitTextId": 667,
-  "CreatedDate": "2021-07-18T16:00:41.8206735+02:00",
-  "SelectionId": 934,
-  "SoundEx": "eaque",
-  "Source": 180,
-  "TextId": 775,
-  "UpdatedDate": "2008-04-06T16:00:41.8206735+02:00",
-  "UpdatedCount": 358,
-  "Visibility": 731,
+  "GroupIdx": 166,
+  "IncludePerson": 846,
+  "MemberCount": 743,
+  "Name": "Considine, Strosin and Mueller",
+  "PostitTextId": 871,
+  "CreatedDate": "2003-02-14T03:31:27.2312035+01:00",
+  "SelectionId": 845,
+  "SoundEx": "et",
+  "Source": 801,
+  "TextId": 227,
+  "UpdatedDate": "2012-06-25T03:31:27.2312035+02:00",
+  "UpdatedCount": 74,
+  "Visibility": 212,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 657,
-  "TargetTableName": "Koss, Cole and Gibson",
-  "Completed": false,
-  "LeftSelectionId": 743,
-  "RightSelectionId": 123,
+  "TargetTableNumber": 207,
+  "TargetTableName": "Schinner, Bartoletti and Jaskolski",
+  "Completed": true,
+  "LeftSelectionId": 333,
+  "RightSelectionId": 104,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stehr-Jewess",
-  "ShadowProviderName": "Stoltenberg-Wolff",
-  "ChartKey": "aliquam",
-  "LastLoaded": "2017-02-16T16:00:41.8206735+01:00",
-  "LastLoadedBy": 865,
+  "MainProviderName": "Nienow, Yundt and Luettgen",
+  "ShadowProviderName": "Schultz LLC",
+  "ChartKey": "necessitatibus",
+  "LastLoaded": "2012-11-04T03:31:27.2312035+01:00",
+  "LastLoadedBy": 696,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-06-07T16:00:41.8206735+02:00",
-  "LastMembershipChangeBy": 394,
+  "LastMembershipChange": "2018-04-16T03:31:27.2312035+02:00",
+  "LastMembershipChangeBy": 167,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ducimus",
-  "MemberTabHeading": "sed",
-  "MailingsProviderName": "Zulauf-Monahan",
-  "DashboardTileDefinitionId": 362,
+  "MainHeading": "quia",
+  "MemberTabHeading": "ipsum",
+  "MailingsProviderName": "Bahringer-Larson",
+  "DashboardTileDefinitionId": 510,
   "VisibleFor": [
     {
-      "VisibleId": 111,
+      "VisibleId": 954,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 53
         }
       }
     },
     {
-      "VisibleId": 111,
+      "VisibleId": 954,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 53
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldType": "System.Int32",
+      "FieldLength": 115
     }
   }
 }

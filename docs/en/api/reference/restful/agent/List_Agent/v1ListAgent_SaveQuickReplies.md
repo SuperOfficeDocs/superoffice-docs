@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 894,
-      "Name": "Koepp LLC",
-      "HtmlBody": "aut"
+      "QuickReplyId": 920,
+      "Name": "Ernser-Gaylord",
+      "HtmlBody": "qui"
     },
     {
-      "QuickReplyId": 894,
-      "Name": "Koepp LLC",
-      "HtmlBody": "aut"
+      "QuickReplyId": 920,
+      "Name": "Ernser-Gaylord",
+      "HtmlBody": "qui"
     }
   ]
 }

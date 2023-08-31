@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=190
+PUT /api/v1/Project/{id}/ImageInfo?projectId=525
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 259,
-  "BlobSize": 17,
-  "Description": "Integrated real-time adapter",
-  "ExtraInfo": "perspiciatis",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 469,
-  "CreatedDate": "2018-05-29T16:00:48.1803003+02:00",
-  "UpdatedDate": "2008-01-14T16:00:48.1803003+01:00",
+  "BlobId": 175,
+  "BlobSize": 977,
+  "Description": "Exclusive bi-directional matrices",
+  "ExtraInfo": "minus",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "rem",
+  "OriginalSize": 76,
+  "CreatedDate": "2023-05-02T03:31:32.8007336+02:00",
+  "UpdatedDate": "2008-05-06T03:31:32.8007336+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "illo"
+  "ConceptualType": "qui"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 812,
-  "BlobSize": 817,
-  "Description": "Streamlined bandwidth-monitored artificial intelligence",
-  "ExtraInfo": "earum",
-  "IsEncrypted": false,
+  "BlobId": 896,
+  "BlobSize": 296,
+  "Description": "Integrated solution-oriented help-desk",
+  "ExtraInfo": "quidem",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "nemo",
-  "OriginalSize": 977,
-  "CreatedDate": "2018-08-01T16:00:48.1803003+02:00",
-  "UpdatedDate": "2022-07-01T16:00:48.1803003+02:00",
+  "MimeType": "quas",
+  "OriginalSize": 119,
+  "CreatedDate": "2012-04-26T03:31:32.8007336+02:00",
+  "UpdatedDate": "1999-11-07T03:31:32.8007336+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptas",
+  "ConceptualType": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 536
     }
   }
 }

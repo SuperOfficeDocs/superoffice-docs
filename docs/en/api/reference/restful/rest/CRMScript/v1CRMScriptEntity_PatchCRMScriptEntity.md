@@ -75,7 +75,7 @@ PATCH /api/v1/CRMScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -121,18 +121,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sint",
+    "path": "ex",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sint",
+    "path": "ex",
     "value": {}
   }
 ]
@@ -145,23 +145,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 96,
-  "UniqueIdentifier": "culpa",
-  "Name": "Tromp LLC",
-  "Description": "Stand-alone zero administration hardware",
-  "IncludeId": "minima",
-  "HierarchyId": 903,
-  "Source": "modi",
-  "Registered": "1999-11-02T16:00:47.83659+01:00",
-  "RegisteredAssociateId": 107,
-  "Updated": "2013-12-26T16:00:47.83659+01:00",
-  "UpdatedAssociateId": 844,
+  "EjscriptId": 868,
+  "UniqueIdentifier": "qui",
+  "Name": "Fisher, Keebler and Lynch",
+  "Description": "Reverse-engineered logistical algorithm",
+  "IncludeId": "veritatis",
+  "HierarchyId": 992,
+  "Source": "velit",
+  "Registered": "2018-04-20T03:31:32.5039305+02:00",
+  "RegisteredAssociateId": 877,
+  "Updated": "2009-06-19T03:31:32.5039305+02:00",
+  "UpdatedAssociateId": 534,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 694
     }
   },
   "_Links": {

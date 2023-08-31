@@ -45,6 +45,7 @@ inner participants provider, so that the conflict checking is performed.
 |status| *None* |Status: Shows any conflicts with other follow-ups|  |
 |participantAssociateId| *None* |Associate ID: Database ID for an associate (user or resource) who is a meeting participant|  |
 |participantPersonId| *None* |Contact ID: Database ID for a contact who is a meeting participant|  |
+|rejectReason| *None* |Reason for declining: Reason for declining|  |
 |associateEmailsInformation|int|E-mail ID: IDs of contacts that should receive invitation e-mails for a booking - column is only used as a restriction|  |
 |appointmentRestrictionId|int|Follow-up ID: ID of the follow-up to fetch participants for|  |
 |firstName|string|First name: Displays the contact's first name| x |
@@ -130,11 +131,11 @@ inner participants provider, so that the conflict checking is performed.
 |personContact/contactId| *None* |Company ID: Database ID of company|  |
 |personContact/name| *None* |Company name|  |
 |personContact/department| *None* |Department|  |
-|personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to|  |
 |personContact/hasInfoText| *None* |Has note: Displays an icon indicating if there is additional information available about the contact|  |
 |personContact/hasInterests| *None* |Has interests: Displays an Icon indicating if the contact has active interests|  |
 |personContact/associateId| *None* |Our contact: Displays our contact|  |
@@ -174,7 +175,7 @@ inner participants provider, so that the conflict checking is performed.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=personCountryId,personAssociateFullName,personContact/email/emailAddress
+GET /api/v1/archive/ParticipantsWithConflictRemoval?$select=ejUserId,personEmail,personUpdatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

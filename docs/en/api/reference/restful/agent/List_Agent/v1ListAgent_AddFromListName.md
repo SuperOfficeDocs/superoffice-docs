@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cremin-Lynch",
+  "UdListDefinitionName": "Pouros-Ritchie",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 166,
-  "Name": "Waelchi, Kovacek and Hudson",
-  "Tooltip": "accusantium",
+  "Id": 820,
+  "Name": "Hilll Inc and Sons",
+  "Tooltip": "unde",
   "Deleted": false,
-  "UdListDefinitionId": 466,
-  "Rank": 903,
+  "UdListDefinitionId": 511,
+  "Rank": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

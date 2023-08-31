@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Barrows LLC",
-  "ListItemId": 435,
+  "UdListDefinitionName": "Schinner-Haley",
+  "ListItemId": 865,
   "Headings": [
     {
-      "Id": 945,
-      "Name": "Doyle, Howe and Kshlerin",
-      "ToolTip": "Rerum et et.",
+      "Id": 826,
+      "Name": "Dibbert Group",
+      "ToolTip": "Earum rerum quia unde dolores vero non expedita.",
       "Deleted": false,
-      "Rank": 826,
-      "Type": "consequatur",
-      "ColorBlock": 472,
-      "IconHint": "maiores",
+      "Rank": 47,
+      "Type": "dolor",
+      "ColorBlock": 587,
+      "IconHint": "quis",
       "Selected": false,
-      "LastChanged": "1996-10-28T16:00:41.1643284+01:00",
+      "LastChanged": "2021-04-25T03:31:26.6831775+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "nesciunt",
+      "ExtraInfo": "libero",
+      "StyleHint": "laboriosam",
       "Hidden": false,
-      "FullName": "Ms. Katelynn Ryleigh Pouros"
+      "FullName": "Makenna Zoey Rempel IV"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 143,
-    "Name": "Feil Inc and Sons",
-    "ToolTip": "Adipisci maiores.",
+    "Id": 944,
+    "Name": "Wintheiser-Jakubowski",
+    "ToolTip": "Accusamus totam non iure.",
     "Deleted": true,
-    "Rank": 215,
-    "Type": "dolor",
-    "ColorBlock": 135,
-    "IconHint": "ea",
+    "Rank": 482,
+    "Type": "dolores",
+    "ColorBlock": 460,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "1999-12-20T16:00:41.1643284+01:00",
+    "LastChanged": "2007-10-19T03:31:26.6831775+02:00",
     "ChildItems": [
       {
-        "Id": 649,
-        "Name": "Green, Ullrich and Corwin",
-        "ToolTip": "Molestias aut rerum incidunt est omnis et sunt.",
+        "Id": 218,
+        "Name": "Boehm LLC",
+        "ToolTip": "Non nobis recusandae quidem mollitia ut.",
         "Deleted": true,
-        "Rank": 635,
-        "Type": "dolores",
-        "ColorBlock": 265,
-        "IconHint": "quia",
+        "Rank": 607,
+        "Type": "vel",
+        "ColorBlock": 850,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2012-03-16T16:00:41.1643284+01:00",
+        "LastChanged": "2004-04-21T03:31:26.6831775+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "qui",
+        "ExtraInfo": "delectus",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Eladio Larkin",
+        "FullName": "Lionel Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 166
+            "FieldType": "System.Int32",
+            "FieldLength": 893
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "dolores",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Anahi Friesen",
+    "FullName": "Ricky Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 144
       }
     }
   }

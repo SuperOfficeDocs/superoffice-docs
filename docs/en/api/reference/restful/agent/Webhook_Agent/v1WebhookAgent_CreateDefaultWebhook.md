@@ -56,13 +56,14 @@ OK
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 
 ## Sample request
 
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,26 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 543,
-  "Name": "Weimann-Gutkowski",
+  "WebhookId": 348,
+  "Name": "Will-Dietrich",
   "Events": [
-    "laborum",
-    "consectetur"
+    "magnam",
+    "beatae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "libero",
+  "Secret": "accusamus",
   "State": "Active",
-  "Type": "optio",
+  "Type": "sit",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "veniam"
+    "Headers1": "fugiat",
+    "Headers2": "ut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-09-17T16:00:42.4143588+02:00",
+  "Registered": "2002-08-18T03:31:27.841573+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-02-03T16:00:42.4143588+01:00",
-  "UpdatedAssociate": null
+  "Updated": "2017-04-18T03:31:27.841573+02:00",
+  "UpdatedAssociate": null,
+  "ErrorsEmail": "chadrick.deckow@huelsbahringer.us"
 }
 ```

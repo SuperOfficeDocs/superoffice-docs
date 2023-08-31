@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 370,
-  "TopicId": 183,
+  "ChatSessionId": 700,
+  "TopicId": 609,
   "User": null,
   "Person": null,
-  "CustomerAlias": "at",
-  "CustomerHost": "eaque",
-  "CustomerName": "Crona, Hartmann and Waelchi",
-  "CustomerEmail": "destinee.jerde@price.uk",
-  "CustomerPhone": "(815)234-2823 x178",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "expedita",
+  "CustomerName": "Jerde, Kessler and Shields",
+  "CustomerEmail": "adolph.schumm@lubowitzpfannerstill.ca",
+  "CustomerPhone": "1-222-489-3581 x06533",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Conn-Schiller",
+  "CustomerCompanyName": "Aufderhar, Little and Aufderhar",
   "Status": "Closed",
-  "FirstMessage": "vitae",
-  "LastMessage": "nam",
-  "WhenRequested": "2003-10-09T16:00:40.1488166+02:00",
-  "WhenStarted": "2001-06-08T16:00:40.1488166+02:00",
-  "WhenEnded": "2021-03-30T16:00:40.1488166+02:00",
-  "WhenIdle": "1998-06-30T16:00:40.1488166+02:00",
-  "WhenFetched": "1998-10-13T16:00:40.1488166+02:00",
-  "SessionKey": "minus",
-  "InitialQueuePos": 828,
-  "AlertLevel": 657,
-  "Rank": 742,
+  "FirstMessage": "a",
+  "LastMessage": "sint",
+  "WhenRequested": "2008-08-03T03:31:25.6808603+02:00",
+  "WhenStarted": "2012-10-13T03:31:25.6808603+02:00",
+  "WhenEnded": "2000-10-21T03:31:25.6808603+02:00",
+  "WhenIdle": "2003-04-03T03:31:25.6808603+02:00",
+  "WhenFetched": "2010-07-12T03:31:25.6808603+02:00",
+  "SessionKey": "iusto",
+  "InitialQueuePos": 255,
+  "AlertLevel": 813,
+  "Rank": 597,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 49,
+  "Rating": 532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 712
     }
   }
 }

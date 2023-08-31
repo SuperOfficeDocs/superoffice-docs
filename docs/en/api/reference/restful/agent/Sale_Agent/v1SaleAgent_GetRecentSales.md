@@ -104,8 +104,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 367,
-  "Count": 155
+  "AmountLimit": 393,
+  "Count": 500
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hirthe, Kautzer and Bashirian",
-    "SaleDate": "2005-12-11T16:00:41.7894273+01:00",
-    "SaleId": 678,
-    "Probability": 305,
-    "Title": "laborum",
-    "Amount": 30415.469999999998,
-    "Currency": "dolorum",
-    "ProjectName": "Upton Group",
-    "AssociateFullName": "Lonny Smith IV",
-    "Description": "Implemented background complexity",
+    "ContactName": "O'Reilly Inc and Sons",
+    "SaleDate": "2003-07-21T03:31:27.1999504+02:00",
+    "SaleId": 545,
+    "Probability": 689,
+    "Title": "inventore",
+    "Amount": 2792.394,
+    "Currency": "vero",
+    "ProjectName": "Bahringer-Gusikowski",
+    "AssociateFullName": "Jaylan Parisian",
+    "Description": "Customizable zero tolerance orchestration",
     "Status": "Lost",
-    "WeightedAmount": 31336.865999999998,
-    "ProjectId": 276,
-    "EarningPercent": 739.624,
-    "Earning": 19242.76,
-    "ContactId": 337,
-    "AssociateId": 456,
-    "PersonId": 287,
-    "SaleTypeId": 827,
-    "SaleTypeName": "Borer-Mertz",
-    "PersonFullName": "Lillie D'Amore",
+    "WeightedAmount": 29910.896,
+    "ProjectId": 743,
+    "EarningPercent": 16688.55,
+    "Earning": 19813.148,
+    "ContactId": 885,
+    "AssociateId": 168,
+    "PersonId": 397,
+    "SaleTypeId": 433,
+    "SaleTypeName": "Borer-Parker",
+    "PersonFullName": "Aylin Ziemann",
     "Completed": "Completed",
-    "ActiveErpLinks": 814,
-    "NextDueDate": "2020-01-04T16:00:41.7894273+01:00",
-    "Number": "1249005",
+    "ActiveErpLinks": 301,
+    "NextDueDate": "2023-03-16T03:31:27.1999504+01:00",
+    "Number": "254358",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 461
       }
     }
   }

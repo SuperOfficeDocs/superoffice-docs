@@ -72,7 +72,7 @@ PATCH /api/v1/ShipmentMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "est",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 639,
-  "PlainMessage": "vero",
-  "HtmlMessage": "illum",
-  "SmsMessage": "mollitia",
-  "Description": "Optional full-range hardware",
-  "Subject": "est",
-  "FolderId": 474,
-  "HeaderField": "fugit",
-  "Design": "nemo",
+  "ShipmentMessageId": 44,
+  "PlainMessage": "dolores",
+  "HtmlMessage": "voluptas",
+  "SmsMessage": "enim",
+  "Description": "Object-based 5th generation application",
+  "Subject": "accusamus",
+  "FolderId": 915,
+  "HeaderField": "est",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Down-sized contextually-based matrix",
-  "AccessKey": "sapiente",
-  "DocumentMessage": 616,
-  "Registered": "2014-11-26T16:00:48.4615203+01:00",
-  "RegisteredAssociateId": 111,
-  "Updated": "2007-08-20T16:00:48.4615203+02:00",
-  "UpdatedAssociateId": 826,
-  "UpdatedCount": 126,
+  "InlineImages": true,
+  "LongDescription": "Distributed next generation database",
+  "AccessKey": "fugiat",
+  "DocumentMessage": 519,
+  "Registered": "2001-10-09T03:31:32.9594383+02:00",
+  "RegisteredAssociateId": 926,
+  "Updated": "2006-12-14T03:31:32.9594383+01:00",
+  "UpdatedAssociateId": 509,
+  "UpdatedCount": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 531
     }
   },
   "_Links": {

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 96,
-  "ERPName": "Sawayn Inc and Sons",
-  "DisplayName": "Brown-Stracke",
-  "DisplayDescription": "Balanced multi-tasking Graphical User Interface",
-  "Rank": 520,
-  "ConnectorName": "Koepp, Okuneva and Hegmann",
-  "ErpConnectionId": 49,
-  "ExtraData": "dolorum",
+  "QuoteConnectionId": 46,
+  "ERPName": "Sporer-Huel",
+  "DisplayName": "Watsica Inc and Sons",
+  "DisplayDescription": "Vision-oriented executive Graphical User Interface",
+  "Rank": 490,
+  "ConnectorName": "Wolff Inc and Sons",
+  "ErpConnectionId": 900,
+  "ExtraData": "inventore",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 578,
-      "ERPPriceListKey": "commodi",
-      "QuoteConnectionId": 985,
-      "Name": "Schamberger, Osinski and Lockman",
-      "Description": "User-friendly context-sensitive collaboration",
-      "Currency": "et",
-      "CurrencyName": "Leannon LLC",
-      "ValidFrom": "2005-10-05T16:00:41.6488224+02:00",
-      "ValidTo": "2002-09-13T16:00:41.6488224+02:00",
-      "IsActive": true,
+      "PriceListId": 657,
+      "ERPPriceListKey": "nulla",
+      "QuoteConnectionId": 92,
+      "Name": "Kautzer Group",
+      "Description": "Compatible even-keeled focus group",
+      "Currency": "nisi",
+      "CurrencyName": "Crooks, Terry and Lindgren",
+      "ValidFrom": "2013-04-19T03:31:27.0905589+02:00",
+      "ValidTo": "2019-07-27T03:31:27.0905589+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldLength": 215
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    959,
-    339
+    251,
+    80
   ],
   "AssociateAccessIds": [
-    592,
-    722
+    474,
+    825
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 860
     }
   }
 }

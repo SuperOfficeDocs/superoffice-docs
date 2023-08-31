@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=adipisci
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=est
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Hahn, Hammes and Heaney",
-    "ToolTip": "Odit esse reiciendis veritatis amet eligendi.",
+    "Id": 47,
+    "Name": "Hintz, Abbott and Stark",
+    "ToolTip": "Alias mollitia omnis distinctio et alias dolor illo.",
     "Deleted": false,
-    "Rank": 931,
-    "Type": "numquam",
+    "Rank": 325,
+    "Type": "aperiam",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Okuneva, Brekke and Collier",
-        "ToolTip": "Et earum dignissimos.",
-        "Deleted": true,
-        "Rank": 855,
-        "Type": "nesciunt",
+        "Id": 273,
+        "Name": "Willms Group",
+        "ToolTip": "Aut repudiandae perspiciatis consequatur hic.",
+        "Deleted": false,
+        "Rank": 185,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 373,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "nam",
-        "FullName": "Prof. Jabari Ortiz",
+        "IconHint": "ipsam",
+        "ColorBlock": 963,
+        "ExtraInfo": "et",
+        "StyleHint": "repudiandae",
+        "FullName": "Ayana Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 925
+            "FieldLength": 151
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 947,
-    "ExtraInfo": "quis",
-    "StyleHint": "sapiente",
-    "FullName": "Arden Hessel Sr.",
+    "IconHint": "distinctio",
+    "ColorBlock": 815,
+    "ExtraInfo": "quisquam",
+    "StyleHint": "voluptas",
+    "FullName": "Yesenia Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 314
       }
     }
   }

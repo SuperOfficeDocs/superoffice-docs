@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Function-based upward-trending installation",
-  "Postit": "exercitationem",
+  "Description": "Balanced 24/7 protocol",
+  "Postit": "sint",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 138,
-  "IncludePerson": 798,
-  "MemberCount": 424,
-  "Name": "Brakus-Bernier",
-  "PostitTextId": 517,
-  "CreatedDate": "2022-09-06T16:00:41.8519261+02:00",
-  "SelectionId": 828,
-  "SoundEx": "et",
-  "Source": 51,
-  "TextId": 687,
-  "UpdatedDate": "2014-07-01T16:00:41.8519261+02:00",
-  "UpdatedCount": 176,
-  "Visibility": 51,
+  "GroupIdx": 912,
+  "IncludePerson": 296,
+  "MemberCount": 78,
+  "Name": "Fadel Inc and Sons",
+  "PostitTextId": 784,
+  "CreatedDate": "2003-03-04T03:31:27.2624464+01:00",
+  "SelectionId": 123,
+  "SoundEx": "quibusdam",
+  "Source": 6,
+  "TextId": 762,
+  "UpdatedDate": "2011-04-30T03:31:27.2624464+02:00",
+  "UpdatedCount": 273,
+  "Visibility": 839,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 509,
-  "TargetTableName": "Denesik Group",
-  "Completed": true,
-  "LeftSelectionId": 33,
-  "RightSelectionId": 692,
+  "CompanyUnique": true,
+  "TargetTableNumber": 173,
+  "TargetTableName": "Yundt-Goodwin",
+  "Completed": false,
+  "LeftSelectionId": 2,
+  "RightSelectionId": 317,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Maggio-Goldner",
-  "ShadowProviderName": "Willms Inc and Sons",
-  "ChartKey": "blanditiis",
-  "LastLoaded": "2013-12-22T16:00:41.8519261+01:00",
-  "LastLoadedBy": 267,
+  "MainProviderName": "Casper, Dare and Nitzsche",
+  "ShadowProviderName": "Graham-Witting",
+  "ChartKey": "accusantium",
+  "LastLoaded": "2022-08-20T03:31:27.2624464+02:00",
+  "LastLoadedBy": 941,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-04-09T16:00:41.8519261+02:00",
-  "LastMembershipChangeBy": 193,
+  "LastMembershipChange": "2008-12-08T03:31:27.2624464+01:00",
+  "LastMembershipChangeBy": 876,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "autem",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Rutherford, Jast and Strosin",
-  "DashboardTileDefinitionId": 925,
+  "MainHeading": "ipsam",
+  "MemberTabHeading": "eius",
+  "MailingsProviderName": "Ritchie LLC",
+  "DashboardTileDefinitionId": 17,
   "VisibleFor": [
     {
-      "VisibleId": 492,
+      "VisibleId": 822,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 251
         }
       }
     },
     {
-      "VisibleId": 492,
+      "VisibleId": 822,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 251
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 915
     }
   }
 }

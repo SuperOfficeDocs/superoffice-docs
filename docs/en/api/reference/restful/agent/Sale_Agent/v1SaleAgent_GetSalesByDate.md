@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1999-01-23T16:00:41.7894273+01:00",
-  "ToDate": "2007-11-30T16:00:41.7894273+01:00",
-  "AmountLimit": 231,
+  "FromDate": "2011-10-24T03:31:27.1999504+02:00",
+  "ToDate": "2006-01-30T03:31:27.1999504+01:00",
+  "AmountLimit": 929,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Walker Group",
-    "SaleDate": "1998-07-30T16:00:41.7894273+02:00",
-    "SaleId": 825,
-    "Probability": 26,
-    "Title": "velit",
-    "Amount": 13021.77,
-    "Currency": "tempore",
-    "ProjectName": "Sauer Group",
-    "AssociateFullName": "Clark Feil",
-    "Description": "Open-source bottom-line support",
+    "ContactName": "Cassin-Roberts",
+    "SaleDate": "2017-09-12T03:31:27.1999504+02:00",
+    "SaleId": 797,
+    "Probability": 597,
+    "Title": "minima",
+    "Amount": 13388.448,
+    "Currency": "voluptas",
+    "ProjectName": "Kunde, DuBuque and Fisher",
+    "AssociateFullName": "Fleta Maggio",
+    "Description": "Reactive stable portal",
     "Status": "Lost",
-    "WeightedAmount": 19562.428,
-    "ProjectId": 438,
-    "EarningPercent": 18481.198,
-    "Earning": 15767.153999999999,
-    "ContactId": 838,
-    "AssociateId": 955,
-    "PersonId": 136,
-    "SaleTypeId": 498,
-    "SaleTypeName": "Altenwerth-Ankunding",
-    "PersonFullName": "Stephan Marquardt",
+    "WeightedAmount": 30196.09,
+    "ProjectId": 668,
+    "EarningPercent": 14864.562,
+    "Earning": 1407.166,
+    "ContactId": 29,
+    "AssociateId": 19,
+    "PersonId": 734,
+    "SaleTypeId": 696,
+    "SaleTypeName": "Runolfsdottir Group",
+    "PersonFullName": "Guy Powlowski",
     "Completed": "Completed",
-    "ActiveErpLinks": 543,
-    "NextDueDate": "2010-08-21T16:00:41.7894273+02:00",
-    "Number": "1094482",
+    "ActiveErpLinks": 542,
+    "NextDueDate": "2004-06-08T03:31:27.1999504+02:00",
+    "Number": "612365",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 337
       }
     }
   }

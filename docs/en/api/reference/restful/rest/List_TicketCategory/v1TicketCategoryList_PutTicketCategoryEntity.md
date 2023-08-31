@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 26,
-  "ParentId": 475,
-  "Name": "Grimes Inc and Sons",
-  "Fullname": "sint",
-  "CategoryMaster": 81,
+  "TicketCategoryId": 587,
+  "ParentId": 179,
+  "Name": "Blanda, Bergstrom and Becker",
+  "Fullname": "voluptas",
+  "CategoryMaster": 563,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Witting-Hermiston",
+  "ExternalName": "Krajcik-Eichmann",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 710,
-  "ReplyTemplate": 887,
-  "NotificationEmail": "yadira_reinger@turner.name",
+  "AssignmentLag": 557,
+  "ReplyTemplate": 886,
+  "NotificationEmail": "kaleb@fisherkuhn.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 322,
+  "EffectiveReplyTemplateId": 538,
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "placeat"
+    "CustomFields1": "eos",
+    "CustomFields2": "occaecati"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 388,
-  "ParentId": 518,
-  "Name": "Lebsack LLC",
-  "Fullname": "repudiandae",
-  "CategoryMaster": 621,
+  "TicketCategoryId": 318,
+  "ParentId": 756,
+  "Name": "Cartwright LLC",
+  "Fullname": "enim",
+  "CategoryMaster": 906,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schaden-Hilll",
+  "ExternalName": "Fay-Will",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 738,
-  "ReplyTemplate": 495,
-  "NotificationEmail": "monserrate@thompson.us",
+  "AssignmentLag": 434,
+  "ReplyTemplate": 40,
+  "NotificationEmail": "bridget@quigley.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 451,
+  "EffectiveReplyTemplateId": 717,
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "iure"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "aut"
+    "CustomFields1": "animi",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldLength": 794
     }
   }
 }

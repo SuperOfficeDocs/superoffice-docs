@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 719,
-    "Name": "Brekke Inc and Sons",
-    "Tooltip": "omnis",
-    "Rank": 851,
-    "Key": "maiores",
-    "MailTemplateId": 686,
-    "Deleted": true,
+    "ConsentSourceId": 426,
+    "Name": "Kling-Mohr",
+    "Tooltip": "iure",
+    "Rank": 858,
+    "Key": "pariatur",
+    "MailTemplateId": 496,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

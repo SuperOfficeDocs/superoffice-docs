@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 622,
-  "Name": "Parker, Gibson and Gusikowski",
-  "Rank": 997,
-  "Tooltip": "consequuntur",
+  "ResourceId": 104,
+  "Name": "Feest Group",
+  "Rank": 855,
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "totam",
+  "IsLocation": false,
+  "LocationAddress": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

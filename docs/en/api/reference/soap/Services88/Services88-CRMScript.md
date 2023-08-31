@@ -1175,6 +1175,7 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="OutputValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="StateValues" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="Exception" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ParserValues" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1222,11 +1223,25 @@ title: Services88.CRMScriptAgent WSDL
             <xs:sequence>
               <xs:element minOccurs="0" name="Valid" type="xs:boolean" />
               <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LineNumber" type="xs:int" />
+              <xs:element minOccurs="0" name="ErrorInformation" nillable="true" type="tns:CRMScriptErrorInfo" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="CRMScriptResult" nillable="true" type="tns:CRMScriptResult" />
+      <xs:complexType name="CRMScriptErrorInfo">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ErrorLine" type="xs:int" />
+              <xs:element minOccurs="0" name="ErrorCharacterPosition" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CRMScriptErrorInfo" nillable="true" type="tns:CRMScriptErrorInfo" />
       <xs:element name="ValidateScriptByIncludeId">
         <xs:complexType>
           <xs:sequence>
@@ -1249,6 +1264,51 @@ title: Services88.CRMScriptAgent WSDL
         </xs:complexType>
       </xs:element>
       <xs:element name="ValidateScriptByUniqueIdResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CRMScriptResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExecuteScriptByString">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Script" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:StringDictionary" />
+            <xs:element minOccurs="0" name="EventData" nillable="true" type="tns:EventData" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ExecuteScriptByStringResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CRMScriptRunResult" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="CRMScriptRunResult">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Output" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="Trace" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Eventdata" nillable="true" type="tns:EventData" />
+              <xs:element minOccurs="0" name="Success" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ErrorInformation" nillable="true" type="tns:CRMScriptErrorInfo" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="CRMScriptRunResult" nillable="true" type="tns:CRMScriptRunResult" />
+      <xs:element name="ValidateScriptByString">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Script" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ValidateScriptByStringResponse">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CRMScriptResult" />
@@ -1687,6 +1747,40 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="ExecuteScriptByStringRequest">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptByString" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptByStringRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptByStringResponse">
+    <wsdl:part name="parameters" element="tns:ExecuteScriptByStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteScriptByStringResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ValidateScriptByStringRequest">
+    <wsdl:part name="parameters" element="tns:ValidateScriptByString" />
+  </wsdl:message>
+  <wsdl:message name="ValidateScriptByStringRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ValidateScriptByStringResponse">
+    <wsdl:part name="parameters" element="tns:ValidateScriptByStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateScriptByStringResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetTriggerScriptEntityRequest">
     <wsdl:part name="parameters" element="tns:GetTriggerScriptEntity" />
   </wsdl:message>
@@ -1861,6 +1955,14 @@ title: Services88.CRMScriptAgent WSDL
     <wsdl:operation name="ValidateScriptByUniqueId">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByUniqueId" name="ValidateScriptByUniqueIdRequest" message="tns:ValidateScriptByUniqueIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByUniqueIdResponse" name="ValidateScriptByUniqueIdResponse" message="tns:ValidateScriptByUniqueIdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptByString">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByString" name="ExecuteScriptByStringRequest" message="tns:ExecuteScriptByStringRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByStringResponse" name="ExecuteScriptByStringResponse" message="tns:ExecuteScriptByStringResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateScriptByString">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByString" name="ValidateScriptByStringRequest" message="tns:ValidateScriptByStringRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByStringResponse" name="ValidateScriptByStringResponse" message="tns:ValidateScriptByStringResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetTriggerScriptEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/GetTriggerScriptEntity" name="GetTriggerScriptEntityRequest" message="tns:GetTriggerScriptEntityRequest" />
@@ -2174,6 +2276,38 @@ title: Services88.CRMScriptAgent WSDL
         <soap:header message="tns:ValidateScriptByUniqueIdResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ValidateScriptByUniqueIdResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ValidateScriptByUniqueIdResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteScriptByString">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ExecuteScriptByString" style="document" />
+      <wsdl:input name="ExecuteScriptByStringRequest">
+        <soap:header message="tns:ExecuteScriptByStringRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ExecuteScriptByStringRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ExecuteScriptByStringRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ExecuteScriptByStringResponse">
+        <soap:header message="tns:ExecuteScriptByStringResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptByStringResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ExecuteScriptByStringResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ExecuteScriptByStringResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateScriptByString">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CRMScript/ValidateScriptByString" style="document" />
+      <wsdl:input name="ValidateScriptByStringRequest">
+        <soap:header message="tns:ValidateScriptByStringRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ValidateScriptByStringRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ValidateScriptByStringRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ValidateScriptByStringResponse">
+        <soap:header message="tns:ValidateScriptByStringResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ValidateScriptByStringResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ValidateScriptByStringResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ValidateScriptByStringResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

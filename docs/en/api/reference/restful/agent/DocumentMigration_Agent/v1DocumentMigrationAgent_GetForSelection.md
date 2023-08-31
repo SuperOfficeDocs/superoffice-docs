@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 450,
-  "SelectionId": 489,
-  "IncludeEmails": true
+  "DocumentPluginId": 365,
+  "SelectionId": 582,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 332,
-  "NumDocumentsAlreadyMigrated": 298,
+  "NumDocumentsOmitted": 502,
+  "NumDocumentsAlreadyMigrated": 80,
   "Documents": [
     {
-      "DocumentId": 935,
-      "ContactId": 247,
-      "PersonId": 551,
-      "SaleId": 551,
-      "ProjectId": 946,
-      "DocTmplId": 167,
-      "AssociateId": 403,
-      "UserGroupId": 357,
-      "VisibleForId": 521
+      "DocumentId": 405,
+      "ContactId": 214,
+      "PersonId": 442,
+      "SaleId": 574,
+      "ProjectId": 874,
+      "DocTmplId": 181,
+      "AssociateId": 823,
+      "UserGroupId": 35,
+      "VisibleForId": 923
     }
   ],
   "Associates": [
     {
-      "AssociateId": 596,
-      "EmailAddress": "gregoria.kiehn@huel.ca"
+      "AssociateId": 131,
+      "EmailAddress": "eric.windler@okon.ca"
     },
     {
-      "AssociateId": 596,
-      "EmailAddress": "gregoria.kiehn@huel.ca"
+      "AssociateId": 131,
+      "EmailAddress": "eric.windler@okon.ca"
     }
   ]
 }

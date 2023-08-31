@@ -87,9 +87,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Johnson Group",
-  "DeviceName": "Wunsch Group",
-  "DeviceIdentifier": "distinctio"
+  "ApplicationName": "Braun, Waters and Terry",
+  "DeviceName": "Hilpert LLC",
+  "DeviceIdentifier": "accusamus"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 712,
-  "Name": "Kerluke, Dickens and Mayer",
-  "CreatedDate": "2005-03-17T16:00:41.0705907+01:00",
-  "UpdatedDate": "1998-05-14T16:00:41.0705907+02:00",
-  "AssociateFullName": "Theodora McDermott",
-  "CreatedBy": "sed",
-  "UpdatedBy": "harum",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 93,
+  "ForeignDeviceId": 862,
+  "Name": "Carter, Reichert and Robel",
+  "CreatedDate": "2018-09-11T03:31:26.589451+02:00",
+  "UpdatedDate": "2008-07-27T03:31:26.589451+02:00",
+  "AssociateFullName": "Dr. Melany Delphine Mertz DVM",
+  "CreatedBy": "nostrum",
+  "UpdatedBy": "quidem",
+  "DeviceIdentifier": "molestiae",
+  "ForeignAppId": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 249
     }
   }
 }

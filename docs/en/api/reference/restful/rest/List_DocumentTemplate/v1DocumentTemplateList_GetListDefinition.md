@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Kirlin-Bergnaum",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 795,
+  "Id": 632,
+  "Name": "Goyette, Lockman and Casper",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 255,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": false,
+  "ListType": "libero",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 24
     }
   },
   "_Links": {

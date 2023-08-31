@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 807,
-    "Name": "Schuster-Botsford",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "Rank": 126,
-    "UdListDefinitionId": 470,
+    "HeadingId": 853,
+    "Name": "Wilderman, Nitzsche and McCullough",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 679,
+    "UdListDefinitionId": 775,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldType": "System.String",
+        "FieldLength": 693
       }
     }
   }

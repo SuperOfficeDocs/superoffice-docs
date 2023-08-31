@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 383,
-    "Name": "Borer, Bernhard and Brakus",
-    "Tooltip": "in",
+    "HeadingId": 947,
+    "Name": "Wolf-Pfeffer",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 783,
-    "UdListDefinitionId": 494
+    "Rank": 6,
+    "UdListDefinitionId": 159
   },
   {
-    "HeadingId": 383,
-    "Name": "Borer, Bernhard and Brakus",
-    "Tooltip": "in",
+    "HeadingId": 947,
+    "Name": "Wolf-Pfeffer",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 783,
-    "UdListDefinitionId": 494
+    "Rank": 6,
+    "UdListDefinitionId": 159
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 854,
-    "Name": "King Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 1001,
-    "UdListDefinitionId": 389,
+    "HeadingId": 772,
+    "Name": "Greenholt, Hettinger and Lehner",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "Rank": 770,
+    "UdListDefinitionId": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 569
       }
     }
   }

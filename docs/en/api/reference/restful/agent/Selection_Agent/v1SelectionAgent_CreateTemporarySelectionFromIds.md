@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    537,
-    80
+    968,
+    286
   ],
-  "TargetTableNumber": 618
+  "TargetTableNumber": 428
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized background hub",
-  "Postit": "neque",
+  "Description": "Fundamental bandwidth-monitored solution",
+  "Postit": "dolores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 479,
-  "IncludePerson": 902,
-  "MemberCount": 338,
-  "Name": "Gutkowski Group",
-  "PostitTextId": 588,
-  "CreatedDate": "2000-12-09T16:00:41.8675477+01:00",
-  "SelectionId": 291,
-  "SoundEx": "quos",
-  "Source": 338,
-  "TextId": 848,
-  "UpdatedDate": "2019-01-12T16:00:41.8675477+01:00",
-  "UpdatedCount": 601,
-  "Visibility": 315,
+  "GroupIdx": 672,
+  "IncludePerson": 847,
+  "MemberCount": 23,
+  "Name": "Stoltenberg-Russel",
+  "PostitTextId": 68,
+  "CreatedDate": "2008-04-05T03:31:27.278067+02:00",
+  "SelectionId": 179,
+  "SoundEx": "tempore",
+  "Source": 447,
+  "TextId": 725,
+  "UpdatedDate": "2016-10-16T03:31:27.278067+02:00",
+  "UpdatedCount": 992,
+  "Visibility": 173,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 571,
-  "TargetTableName": "Von-Gislason",
+  "TargetTableNumber": 736,
+  "TargetTableName": "Buckridge, Morar and Schmeler",
   "Completed": true,
-  "LeftSelectionId": 602,
-  "RightSelectionId": 289,
+  "LeftSelectionId": 737,
+  "RightSelectionId": 150,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rowe LLC",
-  "ShadowProviderName": "Howell-Cremin",
-  "ChartKey": "dignissimos",
-  "LastLoaded": "2015-04-03T16:00:41.8675477+02:00",
-  "LastLoadedBy": 265,
+  "MainProviderName": "Gleason Group",
+  "ShadowProviderName": "Rodriguez, Watsica and Marvin",
+  "ChartKey": "autem",
+  "LastLoaded": "2007-01-26T03:31:27.278067+01:00",
+  "LastLoadedBy": 110,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-08-12T16:00:41.8675477+02:00",
-  "LastMembershipChangeBy": 14,
+  "LastMembershipChange": "2018-06-02T03:31:27.278067+02:00",
+  "LastMembershipChangeBy": 229,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "inventore",
-  "MemberTabHeading": "molestias",
-  "MailingsProviderName": "Reynolds, Rogahn and Zboncak",
-  "DashboardTileDefinitionId": 512,
+  "MainHeading": "distinctio",
+  "MemberTabHeading": "harum",
+  "MailingsProviderName": "Stehr-Reilly",
+  "DashboardTileDefinitionId": 435,
   "VisibleFor": [
     {
-      "VisibleId": 540,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldType": "System.Int32",
+          "FieldLength": 147
         }
       }
     },
     {
-      "VisibleId": 540,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldType": "System.Int32",
+          "FieldLength": 147
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 462
+      "FieldType": "System.Int32",
+      "FieldLength": 253
     }
   }
 }

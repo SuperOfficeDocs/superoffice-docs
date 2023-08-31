@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=architecto
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=voluptate
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Wisozk, Shields and Harber",
-    "ToolTip": "A laboriosam consequuntur aperiam id.",
+    "Id": 48,
+    "Name": "Gislason-Rau",
+    "ToolTip": "Quaerat saepe voluptates.",
     "Deleted": true,
-    "Rank": 179,
-    "Type": "eligendi",
+    "Rank": 993,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Zieme LLC",
-        "ToolTip": "Voluptatem ratione error sed eveniet est expedita.",
+        "Id": 399,
+        "Name": "Gleichner Inc and Sons",
+        "ToolTip": "Veniam cupiditate ratione non sunt accusantium iste.",
         "Deleted": false,
-        "Rank": 444,
-        "Type": "necessitatibus",
+        "Rank": 255,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 582,
-        "ExtraInfo": "molestias",
-        "StyleHint": "sint",
-        "FullName": "Vita Ferry",
+        "IconHint": "et",
+        "ColorBlock": 707,
+        "ExtraInfo": "dolorum",
+        "StyleHint": "ut",
+        "FullName": "Juliet Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 890
+            "FieldLength": 8
           }
         }
       }
     ],
-    "IconHint": "atque",
-    "ColorBlock": 896,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "vero",
-    "FullName": "Prof. Bennie Salma White",
+    "IconHint": "ea",
+    "ColorBlock": 646,
+    "ExtraInfo": "eos",
+    "StyleHint": "dolor",
+    "FullName": "Miss Torey Stella O'Reilly IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 11
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

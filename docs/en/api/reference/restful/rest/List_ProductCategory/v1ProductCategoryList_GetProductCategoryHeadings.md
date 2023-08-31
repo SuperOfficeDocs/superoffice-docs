@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 745,
-    "Name": "Roob, Nader and Windler",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "Rank": 639,
-    "UdListDefinitionId": 569,
+    "HeadingId": 542,
+    "Name": "Borer-Abshire",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 173,
+    "UdListDefinitionId": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldType": "System.Int32",
+        "FieldLength": 41
       }
     }
   }

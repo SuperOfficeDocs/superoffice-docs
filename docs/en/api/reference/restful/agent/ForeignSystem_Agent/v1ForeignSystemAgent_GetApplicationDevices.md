@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Collins, Bergnaum and Homenick"
+  "ApplicationName": "Fritsch, Jones and Lynch"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 559,
-    "Name": "Botsford Group",
-    "CreatedDate": "2002-07-17T16:00:41.0549706+02:00",
-    "UpdatedDate": "2008-06-25T16:00:41.0549706+02:00",
-    "AssociateFullName": "Theo Zackary Torphy III",
-    "CreatedBy": "possimus",
+    "ForeignDeviceId": 535,
+    "Name": "Thiel, Rosenbaum and Mueller",
+    "CreatedDate": "2019-05-08T03:31:26.589451+02:00",
+    "UpdatedDate": "2023-08-23T03:31:26.589451+02:00",
+    "AssociateFullName": "Jaeden Jaskolski",
+    "CreatedBy": "quaerat",
     "UpdatedBy": "non",
-    "DeviceIdentifier": "error",
-    "ForeignAppId": 394,
+    "DeviceIdentifier": "itaque",
+    "ForeignAppId": 454,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 5
       }
     }
   }

@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schmeler-Wintheiser",
+  "ProviderName": "O'Kon-Buckridge",
   "Columns": [
-    "quis",
-    "earum"
+    "rem",
+    "aperiam"
   ],
   "SortOrder": [
     {
-      "Name": "Maggio LLC",
+      "Name": "Hegmann LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Maggio LLC",
+      "Name": "Hegmann LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Robel-Blanda",
-      "Operator": "eveniet",
+      "Name": "Miller LLC",
+      "Operator": "dolores",
       "Values": [
-        "dolore",
-        "tempora"
+        "deleniti",
+        "at"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "sed"
+        "nihil",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 589,
+      "InterParenthesis": 712,
       "InterOperator": "And",
-      "UniqueHash": 880
+      "UniqueHash": 331
     }
   ],
   "Entities": [
-    "sequi",
-    "et"
+    "quo",
+    "quia"
   ],
-  "Page": 768,
-  "PageSize": 703
+  "Page": 275,
+  "PageSize": 343
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "O'Keefe Inc and Sons",
-    "PrimaryKey": 439,
+    "EntityName": "Durgan-Mosciski",
+    "PrimaryKey": 747,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "harum",
-        "TooltipHint": "eius",
-        "LinkHint": "qui"
+        "DisplayValue": "soluta",
+        "TooltipHint": "possimus",
+        "LinkHint": "numquam"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "facilis",
+    "LinkHint": "consequuntur",
+    "StyleHint": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 772
       }
     }
   }

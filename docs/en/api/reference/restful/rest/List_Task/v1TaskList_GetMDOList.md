@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=cumque
+GET /api/v1/List/Task/MDOItems?query=porro
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Prohaska Group",
-    "ToolTip": "Iusto iste eum dolor voluptas repellat non sapiente.",
+    "Id": 869,
+    "Name": "Turcotte-Huels",
+    "ToolTip": "Et dignissimos ex et nulla.",
     "Deleted": false,
-    "Rank": 937,
-    "Type": "numquam",
+    "Rank": 241,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 104,
-        "Name": "Pagac-Bogisich",
-        "ToolTip": "Nam sunt eos consequatur accusantium nemo dolore.",
+        "Id": 321,
+        "Name": "Smitham Group",
+        "ToolTip": "Nihil maxime suscipit.",
         "Deleted": false,
-        "Rank": 576,
-        "Type": "est",
+        "Rank": 71,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reiciendis",
-        "ColorBlock": 214,
-        "ExtraInfo": "esse",
-        "StyleHint": "odio",
-        "FullName": "Scot Kuhlman",
+        "IconHint": "velit",
+        "ColorBlock": 602,
+        "ExtraInfo": "aut",
+        "StyleHint": "dolores",
+        "FullName": "Eldora Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 371
+            "FieldLength": 569
           }
         }
       }
     ],
     "IconHint": "et",
-    "ColorBlock": 665,
-    "ExtraInfo": "aut",
-    "StyleHint": "commodi",
-    "FullName": "Myrtis Gottlieb",
+    "ColorBlock": 860,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "suscipit",
+    "FullName": "Geoffrey Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldLength": 931
       }
     }
   }

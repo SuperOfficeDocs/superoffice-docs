@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=laborum
-GET /api/v1/Webhook?eventFilter=consequatur
+GET /api/v1/Webhook?nameFilter=vero
+GET /api/v1/Webhook?eventFilter=magnam
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -67,13 +67,14 @@ OK
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 
 ## Sample request
 
@@ -92,27 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 131,
-    "Name": "Kuhic LLC",
+    "WebhookId": 494,
+    "Name": "McCullough Group",
     "Events": [
-      "possimus",
-      "esse"
+      "voluptatem",
+      "et"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "error",
+    "Secret": "fugit",
     "State": "Active",
-    "Type": "cum",
+    "Type": "quo",
     "Headers": {
-      "Headers1": "perspiciatis",
-      "Headers2": "facere"
+      "Headers1": "saepe",
+      "Headers2": "consequatur"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2006-09-03T16:00:48.8208679+02:00",
+    "Registered": "2014-06-20T03:31:33.4292537+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2020-10-11T16:00:48.8208679+02:00",
-    "UpdatedAssociate": null
+    "Updated": "2018-06-01T03:31:33.4292537+02:00",
+    "UpdatedAssociate": null,
+    "ErrorsEmail": "antonina_shanahan@walkerbode.ca"
   }
 ]
 ```

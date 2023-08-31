@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Value": "voluptatem",
-    "Tooltip": "ipsa",
+    "Id": 740,
+    "Value": "dolorem",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 377
       }
     }
   },
   {
-    "Id": 895,
-    "Value": "voluptatem",
-    "Tooltip": "ipsa",
+    "Id": 740,
+    "Value": "dolorem",
+    "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldLength": 377
       }
     }
   }

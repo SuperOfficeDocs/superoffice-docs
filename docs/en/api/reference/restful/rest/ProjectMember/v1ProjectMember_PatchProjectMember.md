@@ -72,7 +72,7 @@ PATCH /api/v1/ProjectMember/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -128,18 +128,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "possimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "possimus",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 848,
-  "ContactId": 638,
-  "ProjectId": 450,
-  "ContactName": "Kihn, Boyle and Stehr",
+  "ProjectmemberId": 915,
+  "ContactId": 925,
+  "ProjectId": 155,
+  "ContactName": "Rempel, Jewess and Walker",
   "ContactDepartment": "",
-  "ProjectName": "Rosenbaum-Lehner",
-  "EmailId": 585,
-  "EmailAddress": "lavinia.pacocha@parker.name",
-  "CountryId": 666,
-  "Firstname": "Preston",
-  "MiddleName": "Keebler-Turner",
-  "Lastname": "Schneider",
-  "PersonId": 923,
-  "Mrmrs": "quae",
-  "ProjectMemberTypeName": "Klein Inc and Sons",
-  "Phone": "738-956-3435 x20883",
-  "PhoneId": 893,
-  "ProjectMemberTypeId": 10,
-  "EmailAddressName": "kitty.lebsack@gulgowski.info",
-  "Comment": "quam",
-  "FullName": "Arely Koelpin",
+  "ProjectName": "McKenzie Inc and Sons",
+  "EmailId": 111,
+  "EmailAddress": "sheridan@mosciskiprice.us",
+  "CountryId": 202,
+  "Firstname": "Alberta",
+  "MiddleName": "Rippin, Jakubowski and Friesen",
+  "Lastname": "Weimann",
+  "PersonId": 324,
+  "Mrmrs": "non",
+  "ProjectMemberTypeName": "Bailey-Cole",
+  "Phone": "227-323-8027 x400",
+  "PhoneId": 834,
+  "ProjectMemberTypeId": 244,
+  "EmailAddressName": "pauline@rosenbaum.uk",
+  "Comment": "vitae",
+  "FullName": "Mr. Devon Pfeffer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 578
     }
   },
   "_Links": {

@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 982
+  "SaleId": 863
 }
 ```
 
@@ -149,63 +149,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-10-02T16:00:39.9769681+02:00",
-  "AppointmentId": 814,
-  "Description": "Triple-buffered discrete migration",
-  "StartDate": "2002-01-20T16:00:39.9769681+01:00",
-  "EndDate": "2009-06-06T16:00:39.9769681+02:00",
+  "CreatedDate": "2006-09-07T03:31:25.5246513+02:00",
+  "AppointmentId": 234,
+  "Description": "Programmable scalable solution",
+  "StartDate": "2017-02-03T03:31:25.5246513+01:00",
+  "EndDate": "2016-05-09T03:31:25.5246513+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 765,
+  "MotherId": 843,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-09-09T16:00:39.9769681+02:00",
+  "UpdatedDate": "2012-08-15T03:31:25.5246513+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 432,
+  "ActiveLinks": 780,
   "Links": [
     {
-      "EntityName": "Goodwin-O'Kon",
-      "Id": 198,
-      "Description": "Quality-focused demand-driven superstructure",
-      "ExtraInfo": "qui",
-      "LinkId": 753,
+      "EntityName": "Simonis-Cormier",
+      "Id": 612,
+      "Description": "Expanded non-volatile moderator",
+      "ExtraInfo": "aut",
+      "LinkId": 229,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldLength": 786
         }
       }
     }
   ],
-  "AlarmLeadTime": "incidunt",
+  "AlarmLeadTime": "ullam",
   "HasAlarm": true,
-  "ColorIndex": 586,
+  "ColorIndex": 114,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "vero",
-  "LeadTime": "in",
-  "Location": "qui",
-  "RejectCounter": 339,
+  "IsAlldayEvent": true,
+  "LagTime": "quia",
+  "LeadTime": "non",
+  "Location": "perspiciatis",
+  "RejectCounter": 814,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 689,
-      "PersonId": 291,
-      "ContactId": 704,
-      "EmailId": 672,
+      "AssociateId": 725,
+      "PersonId": 174,
+      "ContactId": 501,
+      "EmailId": 301,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 689,
-      "PersonId": 291,
-      "ContactId": 704,
-      "EmailId": 672,
+      "AssociateId": 725,
+      "PersonId": 174,
+      "ContactId": 501,
+      "EmailId": 301,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -213,61 +213,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1996-04-22T16:00:39.9769681+02:00",
+  "ActiveDate": "1999-10-01T03:31:25.5246513+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 280,
+  "PreferredTZLocation": 893,
   "Sale": null,
-  "SuggestedAppointmentId": 339,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 161,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "corporis",
-  "Title": "nesciunt",
-  "Agenda": "asperiores",
-  "InternalNotes": "quis",
+  "CentralserviceVideomeetId": "optio",
+  "Title": "nam",
+  "Agenda": "porro",
+  "InternalNotes": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1769211925",
+    "SuperOffice:2": "1465856489"
   },
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "error"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2009-09-22T16:00:39.9769681+02:00",
-  "PublishTo": "2007-12-02T16:00:39.9769681+01:00",
-  "PublishFrom": "2005-07-12T16:00:39.9769681+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-06-21T03:31:25.5246513+02:00",
+  "PublishTo": "2005-10-26T03:31:25.5246513+02:00",
+  "PublishFrom": "2022-03-16T03:31:25.5246513+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 311,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldLength": 969
         }
       }
     },
     {
-      "VisibleId": 311,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldLength": 969
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 708
     }
   }
 }

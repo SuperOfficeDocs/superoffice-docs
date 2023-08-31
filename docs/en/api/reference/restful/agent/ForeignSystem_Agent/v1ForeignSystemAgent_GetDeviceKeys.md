@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bednar LLC",
-  "DeviceName": "Spencer Inc and Sons"
+  "ApplicationName": "Marks-Corwin",
+  "DeviceName": "Lubowitz Group"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "totam",
-    "Value": "molestiae",
-    "RecordId": 957,
-    "CreatedDate": "2015-01-03T16:00:41.0705907+01:00",
-    "UpdatedDate": "2004-03-25T16:00:41.0705907+01:00",
-    "UpdatedBy": "voluptas",
-    "CreatedBy": "dolores",
-    "TableName": "Jewess-Purdy",
+    "Key": "similique",
+    "Value": "natus",
+    "RecordId": 769,
+    "CreatedDate": "1997-12-05T03:31:26.6050723+01:00",
+    "UpdatedDate": "2009-04-06T03:31:26.6050723+02:00",
+    "UpdatedBy": "consequatur",
+    "CreatedBy": "praesentium",
+    "TableName": "Deckow-Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 964
       }
     }
   }

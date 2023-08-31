@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 365,
-  "FieldName": "Bayer, Altenwerth and Kertzmann",
-  "Label": "et",
-  "Tooltip": "qui",
-  "Editable": false,
-  "InUse": false,
-  "Mandatory": true,
-  "Rank": 606,
+  "QuoteLineConfigurationId": 816,
+  "FieldName": "Rice LLC",
+  "Label": "debitis",
+  "Tooltip": "aut",
+  "Editable": true,
+  "InUse": true,
+  "Mandatory": false,
+  "Rank": 334,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 374
     }
   }
 }

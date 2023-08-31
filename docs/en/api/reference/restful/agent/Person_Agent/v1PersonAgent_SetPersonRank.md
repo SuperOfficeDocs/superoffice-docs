@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Person/SetPersonRank
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 11,
-  "DesiredRank": 303
+  "PersonId": 1002,
+  "DesiredRank": 830
 }
 ```
 

@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Marks-Ledner",
+  "TableName": "Welch, McKenzie and Ferry",
   "RecordIds": [
-    586,
-    333
+    880,
+    309
   ],
-  "AssociateId": 244,
-  "ExtraInfo": "alias"
+  "AssociateId": 495,
+  "ExtraInfo": "sint"
 }
 ```
 

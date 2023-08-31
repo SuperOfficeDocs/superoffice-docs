@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Kuphal LLC",
-    "Tooltip": "repudiandae",
+    "HeadingId": 956,
+    "Name": "Marvin LLC",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "Rank": 85,
-    "UdListDefinitionId": 224,
+    "Rank": 666,
+    "UdListDefinitionId": 456,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 911
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

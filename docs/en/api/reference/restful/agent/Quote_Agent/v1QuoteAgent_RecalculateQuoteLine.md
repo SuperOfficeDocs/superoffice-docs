@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "perferendis",
-    "voluptate"
+    "deleniti",
+    "ea"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 388,
-  "ERPQuoteLineKey": "culpa",
-  "QuoteAlternativeId": 670,
-  "ERPProductKey": "modi",
+  "QuoteLineId": 647,
+  "ERPQuoteLineKey": "et",
+  "QuoteAlternativeId": 917,
+  "ERPProductKey": "atque",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 16469.17,
-  "DeliveredQuantity": 6064.29,
-  "Rank": 20,
-  "Name": "Breitenberg, Hirthe and Mosciski",
-  "Description": "Re-contextualized incremental firmware",
-  "Code": "voluptatem",
-  "QuantityUnit": "aut",
-  "PriceUnit": "eum",
-  "ItemNumber": "954482",
+  "Quantity": 21712.352,
+  "DeliveredQuantity": 24909.032,
+  "Rank": 946,
+  "Name": "Greenfelder-Jenkins",
+  "Description": "Profit-focused object-oriented intranet",
+  "Code": "qui",
+  "QuantityUnit": "fuga",
+  "PriceUnit": "recusandae",
+  "ItemNumber": "902241",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorem",
-  "ProductTypeKey": "cumque",
-  "Supplier": "sed",
-  "SupplierCode": "dignissimos",
-  "Thumbnail": "est",
-  "VATInfo": "est",
-  "VAT": 29757.329999999998,
-  "UnitCost": 29982.978,
-  "UnitMinimumPrice": 15271.982,
-  "UnitListPrice": 12579.876,
+  "ProductFamilyKey": "dignissimos",
+  "ProductTypeKey": "fugit",
+  "Supplier": "voluptates",
+  "SupplierCode": "corporis",
+  "Thumbnail": "commodi",
+  "VATInfo": "voluptatem",
+  "VAT": 8044.978,
+  "UnitCost": 27124.77,
+  "UnitMinimumPrice": 19145.606,
+  "UnitListPrice": 19220.822,
   "ExtraInfo": [
     {
-      "Name": "Lueilwitz, Kuphal and Sanford",
-      "Value": "id",
+      "Name": "Senger, Kiehn and Bruen",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 168
+          "FieldType": "System.Int32",
+          "FieldLength": 809
         }
       }
     },
     {
-      "Name": "Lueilwitz, Kuphal and Sanford",
-      "Value": "id",
+      "Name": "Senger, Kiehn and Bruen",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 168
+          "FieldType": "System.Int32",
+          "FieldLength": 809
         }
       }
     }
   ],
-  "RawExtraInfo": "labore",
+  "RawExtraInfo": "sit",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 4202.6939999999995,
-  "SubscriptionStart": "2014-11-27T16:00:41.6019523+01:00",
-  "ERPDiscountPercent": 6800.78,
-  "ERPDiscountAmount": 27491.448,
-  "DiscountPercent": 504.57399999999996,
-  "DiscountAmount": 13219.212,
+  "SubscriptionUnit": "occaecati",
+  "SubscriptionQuantity": 15.67,
+  "SubscriptionStart": "2001-06-12T03:31:27.0424653+02:00",
+  "ERPDiscountPercent": 8515.078,
+  "ERPDiscountAmount": 166.102,
+  "DiscountPercent": 10806.032,
+  "DiscountAmount": 564.12,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12595.546,
-  "EarningAmount": 595.46,
-  "SubTotal": 31211.505999999998,
-  "TotalPrice": 1899.204,
-  "Rights": "tempora",
-  "Rule": "animi",
-  "ExtraField1": "ab",
-  "ExtraField2": "quia",
-  "ExtraField3": "aut",
-  "ExtraField4": "omnis",
-  "ExtraField5": "dolores",
+  "EarningPercent": 4538.032,
+  "EarningAmount": 12592.412,
+  "SubTotal": 22147.978,
+  "TotalPrice": 689.48,
+  "Rights": "provident",
+  "Rule": "perspiciatis",
+  "ExtraField1": "commodi",
+  "ExtraField2": "quo",
+  "ExtraField3": "possimus",
+  "ExtraField4": "ratione",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   }
 }

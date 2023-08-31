@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 907,
-  "AssociateId": 939,
-  "Caption": "non",
+  "DashboardId": 94,
+  "AssociateId": 856,
+  "Caption": "autem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 547,
-      "Caption": "debitis",
-      "Description": "Organized explicit budgetary management",
-      "ChartName": "Bednar, Hagenes and Hirthe",
-      "ChartId": "laudantium",
+      "DashboardTileId": 712,
+      "Caption": "vero",
+      "Description": "Cross-platform composite encryption",
+      "ChartName": "Collins LLC",
+      "ChartId": "adipisci",
       "IsDefault": false,
-      "AssociateId": 356,
-      "GroupId": 164,
-      "SelectionId": 376,
-      "Config": "voluptate",
+      "AssociateId": 284,
+      "GroupId": 624,
+      "SelectionId": 516,
+      "Config": "rerum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 977
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldLength": 588
     }
   }
 }

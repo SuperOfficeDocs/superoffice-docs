@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "O'Kon, Corkery and Homenick",
-  "DeviceName": "Koepp-Schmidt",
-  "DeviceIdentifier": "labore"
+  "ApplicationName": "Wintheiser-Beier",
+  "DeviceName": "King LLC",
+  "DeviceIdentifier": "et"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsam",
-  "Value": "cupiditate",
-  "RecordId": 549,
-  "CreatedDate": "2011-04-21T16:00:41.0705907+02:00",
-  "UpdatedDate": "2007-02-25T16:00:41.0705907+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "consequuntur",
-  "TableName": "Wisoky-Jacobs",
+  "Key": "autem",
+  "Value": "laudantium",
+  "RecordId": 797,
+  "CreatedDate": "1998-12-17T03:31:26.589451+01:00",
+  "UpdatedDate": "2004-02-27T03:31:26.589451+01:00",
+  "UpdatedBy": "consequatur",
+  "CreatedBy": "dolorem",
+  "TableName": "Torp-Erdman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldLength": 418
     }
   }
 }

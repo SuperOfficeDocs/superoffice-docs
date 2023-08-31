@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klocko, O'Kon and Ruecker",
-    "DisplayName": "Windler, Nolan and Corwin",
-    "DisplayTooltip": "qui",
+    "Name": "Kessler-Luettgen",
+    "DisplayName": "Howell-Goldner",
+    "DisplayTooltip": "dolor",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 208
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   },
   {
-    "Name": "Klocko, O'Kon and Ruecker",
-    "DisplayName": "Windler, Nolan and Corwin",
-    "DisplayTooltip": "qui",
+    "Name": "Kessler-Luettgen",
+    "DisplayName": "Howell-Goldner",
+    "DisplayTooltip": "dolor",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 208
+        "FieldType": "System.Int32",
+        "FieldLength": 1001
       }
     }
   }

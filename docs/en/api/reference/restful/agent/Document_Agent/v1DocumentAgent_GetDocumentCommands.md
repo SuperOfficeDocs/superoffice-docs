@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 219,
+  "DocumentId": 806,
   "AllowedReturnTypes": [
-    "adipisci",
-    "nemo"
+    "officiis",
+    "temporibus"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cummings, Wisozk and Ratke",
-    "DisplayName": "Champlin LLC",
-    "DisplayTooltip": "magnam",
-    "IconHint": "praesentium",
+    "Name": "Pfeffer, Gerhold and Lemke",
+    "DisplayName": "Crist LLC",
+    "DisplayTooltip": "quisquam",
+    "IconHint": "sequi",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Cummings, Wisozk and Ratke",
-    "DisplayName": "Champlin LLC",
-    "DisplayTooltip": "magnam",
-    "IconHint": "praesentium",
+    "Name": "Pfeffer, Gerhold and Lemke",
+    "DisplayName": "Crist LLC",
+    "DisplayTooltip": "quisquam",
+    "IconHint": "sequi",
     "ReturnType": "CustomGui"
   }
 ]

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 688
+  "SelectionId": 719
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ortiz Inc and Sons",
-    "Description": "Phased real-time protocol",
-    "Rank": 586,
+    "Name": "Collins Inc and Sons",
+    "Description": "Stand-alone secondary database",
+    "Rank": 649,
     "Restrictions": [
       {
-        "Name": "Schmidt, Ferry and Prohaska",
-        "Operator": "aut",
+        "Name": "Von, Jenkins and Funk",
+        "Operator": "deleniti",
         "Values": [
-          "labore",
-          "expedita"
+          "sint",
+          "praesentium"
         ],
         "DisplayValues": [
-          "amet",
-          "est"
+          "consequatur",
+          "deserunt"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 547,
+        "InterParenthesis": 690,
         "InterOperator": "And",
-        "UniqueHash": 860
+        "UniqueHash": 726
       }
     ]
   },
   {
-    "Name": "Ortiz Inc and Sons",
-    "Description": "Phased real-time protocol",
-    "Rank": 586,
+    "Name": "Collins Inc and Sons",
+    "Description": "Stand-alone secondary database",
+    "Rank": 649,
     "Restrictions": [
       {
-        "Name": "Schmidt, Ferry and Prohaska",
-        "Operator": "aut",
+        "Name": "Von, Jenkins and Funk",
+        "Operator": "deleniti",
         "Values": [
-          "labore",
-          "expedita"
+          "sint",
+          "praesentium"
         ],
         "DisplayValues": [
-          "amet",
-          "est"
+          "consequatur",
+          "deserunt"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 547,
+        "InterParenthesis": 690,
         "InterOperator": "And",
-        "UniqueHash": 860
+        "UniqueHash": 726
       }
     ]
   }

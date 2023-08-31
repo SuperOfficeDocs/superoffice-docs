@@ -66,12 +66,12 @@ OK
 | GaCampaign | string | GA Campaign |
 | UseTimeframe | bool | Use sender timeframe settings, only send email/sms within the timeframe |
 | SelectedDays | string | Selected days (flags, so several days can be selected) for time frame |
-| TimeframeStart | date-time | Start of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used  in UTC. |
-| TimeframeEnd | date-time | End of email/sms sending timeframe, interpreted in stored timezone or as UTC, only time part is used  in UTC. |
+| TimeframeStart | string | Start of email/sms sending timeframe in [DT: ] format, interpreted in workflow time zone |
+| TimeframeEnd | string | End of email/sms sending timeframe in [DT: ] format, interpreted in workflow time zone |
 | UseWorkflowStart | bool | Start the flow running with enrolled participants at the given time |
-| WorkflowStart | date-time | When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC  in UTC. |
+| WorkflowStart | string | When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. In [DT: ] format, interpreted in workflow time zone |
 | UseEnrollmentEnd | bool | End enrollment into the workflow at the given time |
-| EnrollmentEnd | date-time | Do not enroll more participant after given time, interpreted in stored timezone or as UTC  in UTC. |
+| EnrollmentEnd | string | Do not enroll more participant after given time. In [DT: ] format, interpreted in workflow time zone |
 | RemoveFromFlows | array | Workflows to remove the participants from when they are enrolled in this workflow |
 | TzLocation | TimeZoneData | The workflow timezone setting |
 | Folder | HierarchyEntity | The folder/hierarchy the email flow is in.  <para>Use MDO List name "hierarchy" to get list items.</para> |
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 863,
-  "Name": "Haag Group",
-  "Description": "Expanded non-volatile database",
+  "EmailFlowId": 783,
+  "Name": "Ferry Inc and Sons",
+  "Description": "Re-engineered attitude-oriented approach",
   "Status": "None",
   "JumpToFinish": false,
-  "StartOnlyOnce": true,
+  "StartOnlyOnce": false,
   "OverrideConsentSubscription": false,
   "FromType": "FromOnlySpecified",
-  "FromName": "Bashirian Inc and Sons",
-  "FromAddr": "dolores",
+  "FromName": "O'Hara-Goldner",
+  "FromAddr": "architecto",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "accusamus",
-  "ReplyToName": "Cormier, Buckridge and O'Reilly",
-  "SmsSender": "itaque",
-  "UseGoogleAnalytics": true,
-  "GaSource": "quidem",
-  "GaCampaign": "at",
-  "UseTimeframe": false,
+  "ReplyToAddr": "blanditiis",
+  "ReplyToName": "Littel, Douglas and Roob",
+  "SmsSender": "qui",
+  "UseGoogleAnalytics": false,
+  "GaSource": "cumque",
+  "GaCampaign": "in",
+  "UseTimeframe": true,
   "SelectedDays": "Friday",
-  "TimeframeStart": "2018-04-05T16:00:42.4143588+02:00",
-  "TimeframeEnd": "2005-07-10T16:00:42.4143588+02:00",
-  "UseWorkflowStart": true,
-  "WorkflowStart": "2021-12-17T16:00:42.4143588+01:00",
-  "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "2022-04-19T16:00:42.4143588+02:00",
+  "TimeframeStart": "ut",
+  "TimeframeEnd": "et",
+  "UseWorkflowStart": false,
+  "WorkflowStart": "et",
+  "UseEnrollmentEnd": true,
+  "EnrollmentEnd": "et",
   "RemoveFromFlows": [
-    75,
-    903
+    26,
+    483
   ],
   "TzLocation": null,
   "Folder": null,
@@ -137,22 +137,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 391,
-      "WorkflowId": 752,
+      "WorkflowStepId": 621,
+      "WorkflowId": 795,
       "StepType": "AddToList",
-      "Rank": 589
+      "Rank": 680
     },
     {
-      "WorkflowStepId": 391,
-      "WorkflowId": 752,
+      "WorkflowStepId": 621,
+      "WorkflowId": 795,
       "StepType": "AddToList",
-      "Rank": 589
+      "Rank": 680
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 174,
-      "WorkflowId": 107,
+      "WorkflowTriggerId": 282,
+      "WorkflowId": 901,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -163,13 +163,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 6
         }
       }
     },
     {
-      "WorkflowTriggerId": 174,
-      "WorkflowId": 107,
+      "WorkflowTriggerId": 282,
+      "WorkflowId": 901,
       "TriggerType": "AddToList",
       "RestrictionGroups": [
         {},
@@ -180,15 +180,15 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 6
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 62,
-      "WorkflowId": 769,
+      "WorkflowGoalId": 931,
+      "WorkflowId": 235,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -199,13 +199,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 377
         }
       }
     },
     {
-      "WorkflowGoalId": 62,
-      "WorkflowId": 769,
+      "WorkflowGoalId": 931,
+      "WorkflowId": 235,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -216,40 +216,40 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 377
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    331,
-    358
+    151,
+    294
   ],
   "VisibleFor": [
     {
-      "VisibleId": 660,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldLength": 169
         }
       }
     },
     {
-      "VisibleId": 660,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 739
+          "FieldLength": 169
         }
       }
     }
@@ -258,8 +258,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 388
     }
   }
 }

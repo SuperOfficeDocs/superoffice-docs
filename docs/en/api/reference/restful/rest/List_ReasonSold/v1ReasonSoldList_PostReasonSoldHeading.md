@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 860,
-  "Name": "Okuneva Inc and Sons",
-  "Tooltip": "consequuntur",
+  "HeadingId": 418,
+  "Name": "Gerlach, Jenkins and Yost",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 649,
-  "UdListDefinitionId": 191
+  "Rank": 434,
+  "UdListDefinitionId": 436
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 71,
-  "Name": "Schaden-Lehner",
-  "Tooltip": "eaque",
+  "HeadingId": 109,
+  "Name": "Klein, Turcotte and Nienow",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 828,
-  "UdListDefinitionId": 814,
+  "Rank": 109,
+  "UdListDefinitionId": 7,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 46
     }
   }
 }

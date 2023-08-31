@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplatesTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 692,
-    "Value": "ut",
-    "Tooltip": "consequatur",
+    "Id": 120,
+    "Value": "distinctio",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 260
       }
     }
   },
   {
-    "Id": 692,
-    "Value": "ut",
-    "Tooltip": "consequatur",
+    "Id": 120,
+    "Value": "distinctio",
+    "Tooltip": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 260
       }
     }
   }

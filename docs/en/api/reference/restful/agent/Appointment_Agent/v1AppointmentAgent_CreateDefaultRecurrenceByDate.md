@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2016-01-10T16:00:39.9300897+01:00"
+  "StartDate": "1997-05-03T03:31:25.4934109+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 331,
-  "StartDate": "1999-03-08T16:00:39.9300897+01:00",
-  "EndDate": "2001-08-09T16:00:39.9300897+02:00",
-  "RecurrenceCounter": 607,
+  "RecurrenceId": 147,
+  "StartDate": "2007-10-09T03:31:25.4934109+02:00",
+  "EndDate": "2015-06-10T03:31:25.4934109+02:00",
+  "RecurrenceCounter": 471,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-04-10T16:00:39.9300897+02:00",
-      "IsConflict": true,
-      "Description": "Synergized attitude-oriented product",
-      "DescriptionStyleHint": "Switchable 3rd generation definition",
-      "Tooltip": "ut"
+      "Date": "2016-07-20T03:31:25.4934109+02:00",
+      "IsConflict": false,
+      "Description": "Switchable 24/7 product",
+      "DescriptionStyleHint": "Reactive zero tolerance encryption",
+      "Tooltip": "beatae"
     },
     {
-      "Date": "2006-04-10T16:00:39.9300897+02:00",
-      "IsConflict": true,
-      "Description": "Synergized attitude-oriented product",
-      "DescriptionStyleHint": "Switchable 3rd generation definition",
-      "Tooltip": "ut"
+      "Date": "2016-07-20T03:31:25.4934109+02:00",
+      "IsConflict": false,
+      "Description": "Switchable 24/7 product",
+      "DescriptionStyleHint": "Reactive zero tolerance encryption",
+      "Tooltip": "beatae"
     }
   ],
   "IsRecurrence": false

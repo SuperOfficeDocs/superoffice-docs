@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "nam"
+  "Address": "architecto"
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 505,
-    "ContactName": "West, Farrell and Zemlak",
-    "PersonId": 537,
-    "PersonName": "Powlowski-Windler",
-    "AssociateId": 289,
-    "Address": "et",
-    "EmailId": 193,
+    "ContactId": 611,
+    "ContactName": "Doyle-Corwin",
+    "PersonId": 605,
+    "PersonName": "VonRueden Inc and Sons",
+    "AssociateId": 688,
+    "Address": "dolorem",
+    "EmailId": 708,
     "DuplicatePersonIds": [
-      241,
-      177
+      499,
+      293
     ],
-    "Name": "Ryan-Dare",
+    "Name": "McDermott Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 224
       }
     }
   }

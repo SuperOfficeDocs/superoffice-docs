@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 10
+  "TemplateHeadingId": 920
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 502,
-    "Attention": "dolore",
-    "Header": "at",
-    "Name": "Reichert, Becker and Luettgen",
-    "OurRef": "sit",
-    "YourRef": "reprehenderit",
-    "Description": "Balanced well-modulated framework",
-    "DocumentTemplate": "officiis",
-    "IsPublished": true,
-    "PersonId": 426,
-    "PersonFullName": "Ms. Camylle Pietro Pfeffer MD",
-    "AssociateFullName": "Ms. Isidro Samanta Kiehn IV",
-    "ContactId": 386,
-    "ContactName": "Langosh Group",
-    "ProjectId": 636,
-    "ProjectName": "Hodkiewicz-Satterfield",
-    "AssociateId": 156,
-    "Snum": 839,
-    "SaleId": 937,
-    "SaleName": "Kilback Group",
+    "DocumentId": 275,
+    "Attention": "at",
+    "Header": "dicta",
+    "Name": "Mills Inc and Sons",
+    "OurRef": "debitis",
+    "YourRef": "quos",
+    "Description": "Innovative intangible encryption",
+    "DocumentTemplate": "eius",
+    "IsPublished": false,
+    "PersonId": 272,
+    "PersonFullName": "Ms. Cara Grayson Graham IV",
+    "AssociateFullName": "Ms. Brady Schuster PhD",
+    "ContactId": 238,
+    "ContactName": "Parker Group",
+    "ProjectId": 597,
+    "ProjectName": "Willms, Morissette and Witting",
+    "AssociateId": 839,
+    "Snum": 801,
+    "SaleId": 128,
+    "SaleName": "Eichmann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 511
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 138,
-  "StartDate": "1997-01-18T16:00:39.8832222+01:00",
-  "EndDate": "2009-02-12T16:00:39.8832222+01:00",
-  "RecurrenceCounter": 235,
+  "RecurrenceId": 93,
+  "StartDate": "2013-10-27T03:31:25.4308731+01:00",
+  "EndDate": "1996-07-24T03:31:25.4308731+02:00",
+  "RecurrenceCounter": 706,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2009-05-11T16:00:39.8832222+02:00",
-      "IsConflict": true,
-      "Description": "Enterprise-wide fault-tolerant monitoring",
-      "DescriptionStyleHint": "Universal didactic process improvement",
-      "Tooltip": "qui"
+      "Date": "2005-08-25T03:31:25.4308731+02:00",
+      "IsConflict": false,
+      "Description": "Adaptive logistical contingency",
+      "DescriptionStyleHint": "Upgradable bifurcated utilisation",
+      "Tooltip": "commodi"
     },
     {
-      "Date": "2009-05-11T16:00:39.8832222+02:00",
-      "IsConflict": true,
-      "Description": "Enterprise-wide fault-tolerant monitoring",
-      "DescriptionStyleHint": "Universal didactic process improvement",
-      "Tooltip": "qui"
+      "Date": "2005-08-25T03:31:25.4308731+02:00",
+      "IsConflict": false,
+      "Description": "Adaptive logistical contingency",
+      "DescriptionStyleHint": "Upgradable bifurcated utilisation",
+      "Tooltip": "commodi"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

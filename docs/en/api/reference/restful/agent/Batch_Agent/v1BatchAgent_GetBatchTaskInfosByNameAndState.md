@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harber Group",
+  "Name": "Jenkins Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Purdy-Graham",
-    "AssociateId": 702,
-    "DetailsTable": 615,
-    "DetailsRecord": 453,
+    "Id": 515,
+    "Name": "Gerlach LLC",
+    "AssociateId": 467,
+    "DetailsTable": 716,
+    "DetailsRecord": 639,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sunt",
-      "ParameterObject2": "ea"
+      "ParameterObject1": "delectus",
+      "ParameterObject2": "dolorem"
     },
-    "LastStarted": "2015-09-29T16:00:40.1019505+02:00",
-    "Created": "2008-06-17T16:00:40.1019505+02:00",
-    "StartCount": 993,
-    "DatabaseSerialNumber": "681478",
-    "Context": "quaerat",
-    "Result": "mollitia",
+    "LastStarted": "1997-07-24T03:31:25.6496314+02:00",
+    "Created": "1996-08-14T03:31:25.6496314+02:00",
+    "StartCount": 789,
+    "DatabaseSerialNumber": "788869",
+    "Context": "aut",
+    "Result": "voluptatum",
     "State": "All",
-    "Description": "Multi-channelled object-oriented methodology",
-    "Response": "nam",
-    "Request": "ut",
-    "ProgressDescription": "Innovative even-keeled service-desk",
-    "ProgressPercent": 362,
-    "FileName": "Rau-Bahringer",
+    "Description": "Re-engineered content-based installation",
+    "Response": "natus",
+    "Request": "et",
+    "ProgressDescription": "Switchable multi-state methodology",
+    "ProgressPercent": 579,
+    "FileName": "Will, Mills and Swaniawski",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 422
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

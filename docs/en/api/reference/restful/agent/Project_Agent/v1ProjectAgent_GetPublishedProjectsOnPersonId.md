@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 138
+  "PersonId": 911
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 940,
-    "Name": "Ortiz, Von and Little",
-    "Description": "Extended leading edge moratorium",
+    "ProjectId": 487,
+    "Name": "McKenzie Group",
+    "Description": "Operative executive strategy",
     "URL": "http://www.example.com/",
-    "Type": "eos",
-    "AssociateId": 970,
-    "AssociateFullName": "Prof. Orval Major Dach I",
-    "TypeId": 936,
-    "Updated": "2002-12-03T16:00:41.5863238+01:00",
-    "StatusId": 987,
-    "Status": "non",
-    "TextId": 283,
-    "PublishTo": "2004-08-10T16:00:41.5863238+02:00",
-    "PublishFrom": "2014-10-14T16:00:41.5863238+02:00",
-    "IsPublished": true,
+    "Type": "sed",
+    "AssociateId": 993,
+    "AssociateFullName": "Stanton Gleason",
+    "TypeId": 190,
+    "Updated": "1996-08-27T03:31:27.0268433+02:00",
+    "StatusId": 706,
+    "Status": "itaque",
+    "TextId": 418,
+    "PublishTo": "2009-02-19T03:31:27.0268433+01:00",
+    "PublishFrom": "1997-10-13T03:31:27.0268433+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1029255",
-    "ActiveErpLinks": 654,
+    "ProjectNumber": "1441721",
+    "ActiveErpLinks": 250,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 252
+        "FieldType": "System.Int32",
+        "FieldLength": 767
       }
     }
   }

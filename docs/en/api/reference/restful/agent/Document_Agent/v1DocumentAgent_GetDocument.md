@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=217
+POST /api/v1/Agents/Document/GetDocument?documentId=989
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 938,
-  "Attention": "voluptate",
-  "Header": "omnis",
-  "Name": "McClure LLC",
-  "OurRef": "quasi",
-  "YourRef": "et",
-  "Description": "Cloned tertiary groupware",
-  "DocumentTemplate": "voluptas",
+  "DocumentId": 979,
+  "Attention": "libero",
+  "Header": "nostrum",
+  "Name": "Hilpert, Beahan and Davis",
+  "OurRef": "voluptate",
+  "YourRef": "autem",
+  "Description": "Total responsive approach",
+  "DocumentTemplate": "ex",
   "IsPublished": false,
-  "PersonId": 338,
-  "PersonFullName": "Keven Maud Maggio DDS",
-  "AssociateFullName": "Erika Koch",
-  "ContactId": 962,
-  "ContactName": "Koss, Swaniawski and Breitenberg",
-  "ProjectId": 427,
-  "ProjectName": "Lebsack-Donnelly",
-  "AssociateId": 57,
-  "Snum": 399,
-  "SaleId": 852,
-  "SaleName": "Bogisich-Torphy",
+  "PersonId": 556,
+  "PersonFullName": "Ms. Alvah Oberbrunner",
+  "AssociateFullName": "Joseph Simonis",
+  "ContactId": 822,
+  "ContactName": "Abshire Group",
+  "ProjectId": 344,
+  "ProjectName": "DuBuque-Wiegand",
+  "AssociateId": 981,
+  "Snum": 928,
+  "SaleId": 771,
+  "SaleName": "Funk LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 954
     }
   }
 }

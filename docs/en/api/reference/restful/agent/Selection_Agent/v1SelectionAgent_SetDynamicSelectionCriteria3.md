@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 759,
+  "SelectionId": 556,
   "Criteria": [
     {
-      "Name": "Beier Inc and Sons",
-      "Operator": "ducimus",
+      "Name": "Labadie-Bode",
+      "Operator": "quos",
       "Values": [
-        "dicta",
-        "ducimus"
+        "eos",
+        "dolores"
       ],
       "DisplayValues": [
-        "autem",
-        "aut"
+        "nam",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 488,
+      "InterParenthesis": 267,
       "InterOperator": "And",
-      "UniqueHash": 644
+      "UniqueHash": 201
     }
   ],
-  "Filter": "dolorem"
+  "Filter": "odio"
 }
 ```
 
@@ -124,29 +124,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collins, Kessler and Nitzsche",
-    "Operator": "possimus",
+    "Name": "Jerde, Donnelly and Kohler",
+    "Operator": "aut",
     "Values": [
-      "in",
-      "qui"
+      "velit",
+      "asperiores"
     ],
     "DisplayValues": [
-      "quia",
-      "eos"
+      "cupiditate",
+      "tempora"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Feil, Eichmann and McClure",
-        "Operator": "facilis",
+        "Name": "Mann-Wisozk",
+        "Operator": "vitae",
         "Values": [
-          "expedita",
-          "corrupti"
+          "aut",
+          "sit"
         ],
         "DisplayValues": [
-          "neque",
-          "corrupti"
+          "minima",
+          "soluta"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -154,14 +154,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 727,
+        "InterParenthesis": 202,
         "InterOperator": "And",
-        "UniqueHash": 290
+        "UniqueHash": 282
       }
     ],
-    "InterParenthesis": 169,
+    "InterParenthesis": 716,
     "InterOperator": "And",
-    "UniqueHash": 398
+    "UniqueHash": 117
   }
 ]
 ```

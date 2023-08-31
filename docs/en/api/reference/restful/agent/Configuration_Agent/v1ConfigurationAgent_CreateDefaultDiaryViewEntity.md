@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 243,
-  "Name": "Deckow, Mertz and Lehner",
-  "Tooltip": "enim",
-  "VisibleColumns": 921,
-  "Rank": 930,
-  "AssocId": 706,
+  "DiaryViewId": 349,
+  "Name": "Parisian-Prosacco",
+  "Tooltip": "recusandae",
+  "VisibleColumns": 484,
+  "Rank": 338,
+  "AssocId": 803,
   "AssociateList": [
     {
-      "Id": 382,
-      "Name": "Hilpert-Abbott",
-      "ToolTip": "Dolores quo.",
+      "Id": 255,
+      "Name": "Hickle Group",
+      "ToolTip": "Tempora est.",
       "Deleted": false,
-      "Rank": 551,
-      "Type": "officiis",
-      "ColorBlock": 802,
-      "IconHint": "necessitatibus",
+      "Rank": 542,
+      "Type": "libero",
+      "ColorBlock": 345,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "2023-03-22T16:00:40.2894057+01:00",
+      "LastChanged": "2001-01-01T03:31:25.8072288+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "delectus",
+      "ExtraInfo": "et",
+      "StyleHint": "sint",
       "Hidden": false,
-      "FullName": "Maci Kemmer",
+      "FullName": "Lawrence Flatley MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 298
         }
       }
     }
   ],
-  "TzLocationId": 521,
+  "TzLocationId": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 896
     }
   }
 }

@@ -80,11 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "occaecati",
-  "RecordId": 821,
+  "Table": "ea",
+  "RecordId": 475,
   "Fields": [
-    "rem",
-    "facere"
+    "enim",
+    "dolor"
   ]
 }
 ```
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "voluptate",
+    "Field": "quam",
     "FieldValue": null
   },
   {
-    "Field": "voluptate",
+    "Field": "quam",
     "FieldValue": null
   }
 ]

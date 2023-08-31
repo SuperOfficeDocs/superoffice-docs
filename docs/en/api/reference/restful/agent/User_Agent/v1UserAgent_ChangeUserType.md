@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 790,
-  "Name": "Dach Group",
-  "Rank": 708,
-  "Tooltip": "quaerat",
+  "AssociateId": 906,
+  "Name": "O'Connell-Marvin",
+  "Rank": 676,
+  "Tooltip": "accusamus",
   "LicenseOwners": [
     {
-      "Name": "Steuber Group",
-      "Description": "Down-sized full-range capacity",
+      "Name": "Cummings LLC",
+      "Description": "Integrated human-resource architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldLength": 879
         }
       }
     },
     {
-      "Name": "Steuber Group",
-      "Description": "Down-sized full-range capacity",
+      "Name": "Cummings LLC",
+      "Description": "Integrated human-resource architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldLength": 879
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "beatae",
-      "Tooltip": "nostrum",
-      "Id": 528,
-      "Rank": 763,
-      "Deleted": true,
+      "Value": "aut",
+      "Tooltip": "vero",
+      "Id": 678,
+      "Rank": 363,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 360
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2012-03-22T16:00:42.2737488+01:00",
-  "Lastlogout": "2001-01-11T16:00:42.2737488+01:00",
-  "EjUserId": 721,
-  "RequestSignature": "fugit",
+  "Deleted": true,
+  "Lastlogin": "2008-07-04T03:31:27.716607+02:00",
+  "Lastlogout": "2005-08-18T03:31:27.716607+02:00",
+  "EjUserId": 383,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "qui",
-      "DisplayValue": "quo",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 919
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "qui",
-      "DisplayValue": "quo",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 919
-        }
-      }
-    }
-  ],
-  "UserName": "Miller, McLaughlin and Ondricka",
-  "TicketCategories": [
-    {
-      "Id": 658,
-      "Name": "Goyette LLC",
-      "ToolTip": "Quaerat provident adipisci sunt quidem ducimus doloremque.",
-      "Deleted": true,
-      "Rank": 260,
-      "Type": "quo",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "rerum",
-      "ColorBlock": 937,
-      "ExtraInfo": "ut",
-      "StyleHint": "enim",
-      "FullName": "Miss Nathanial Zieme",
+      "Value": "animi",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 920
         }
       }
-    }
-  ],
-  "NickName": "Gorczany Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "maiores"
-  },
-  "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "ut"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Roberts, Conroy and Sanford",
-      "DisplayName": "Leffler-Konopelski",
-      "Description": "Multi-channelled intangible attitude",
-      "ToolTip": "Quasi occaecati.",
-      "Actions": "Implicit",
-      "ActionData": "quasi",
+      "Type": null,
+      "Value": "animi",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 920
+        }
+      }
+    }
+  ],
+  "UserName": "Padberg-Swift",
+  "TicketCategories": [
+    {
+      "Id": 550,
+      "Name": "Ondricka LLC",
+      "ToolTip": "In velit aut deleniti non.",
+      "Deleted": false,
+      "Rank": 57,
+      "Type": "assumenda",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "ut",
+      "ColorBlock": 940,
+      "ExtraInfo": "labore",
+      "StyleHint": "deserunt",
+      "FullName": "Dr. Eudora Nikolaus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 782
+        }
+      }
+    }
+  ],
+  "NickName": "Greenfelder-Leannon",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "non"
+  },
+  "CustomFields": {
+    "CustomFields1": "sed",
+    "CustomFields2": "est"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Gibson Group",
+      "DisplayName": "Grady-Oberbrunner",
+      "Description": "Versatile asynchronous focus group",
+      "ToolTip": "Ullam dignissimos voluptas fugit est distinctio.",
+      "Actions": "Implicit",
+      "ActionData": "nam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 648
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldType": "System.String",
+      "FieldLength": 859
     }
   }
 }

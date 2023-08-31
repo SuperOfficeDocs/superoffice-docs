@@ -86,7 +86,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 939,
-  "UniqueIdentifier": "iste",
-  "Name": "Bednar Group",
-  "Description": "Focused zero tolerance structure",
-  "IncludeId": "repudiandae",
-  "HierarchyId": 315,
-  "Source": "non",
-  "Registered": "2018-09-21T16:00:47.83659+02:00",
-  "RegisteredAssociateId": 974,
-  "Updated": "1997-02-10T16:00:47.83659+01:00",
-  "UpdatedAssociateId": 102,
+  "EjscriptId": 704,
+  "UniqueIdentifier": "fuga",
+  "Name": "Schowalter, Prosacco and Block",
+  "Description": "Self-enabling mobile project",
+  "IncludeId": "rerum",
+  "HierarchyId": 77,
+  "Source": "eligendi",
+  "Registered": "1996-06-14T03:31:32.5039305+02:00",
+  "RegisteredAssociateId": 65,
+  "Updated": "2002-01-13T03:31:32.5039305+01:00",
+  "UpdatedAssociateId": 332,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 281
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

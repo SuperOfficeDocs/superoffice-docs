@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 190,
-    "Name": "Murazik-Harber",
-    "ToolTip": "Sit et rerum asperiores doloribus consequatur similique facilis.",
+    "Id": 571,
+    "Name": "Kreiger Inc and Sons",
+    "ToolTip": "Nisi aperiam nam minima.",
     "Deleted": false,
-    "Rank": 28,
-    "Type": "dolore",
-    "ColorBlock": 482,
-    "IconHint": "consequatur",
+    "Rank": 553,
+    "Type": "accusamus",
+    "ColorBlock": 614,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2006-01-29T16:00:48.9770869+01:00",
+    "LastChanged": "1998-01-01T03:31:33.5698483+01:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Bogisich, Kutch and Schimmel",
-        "ToolTip": "Voluptas velit pariatur et.",
+        "Id": 5,
+        "Name": "Gislason-Hansen",
+        "ToolTip": "Officia et.",
         "Deleted": false,
-        "Rank": 597,
-        "Type": "at",
-        "ColorBlock": 137,
-        "IconHint": "deserunt",
-        "Selected": false,
-        "LastChanged": "2019-05-13T16:00:48.9770869+02:00",
+        "Rank": 674,
+        "Type": "voluptatem",
+        "ColorBlock": 596,
+        "IconHint": "reprehenderit",
+        "Selected": true,
+        "LastChanged": "2002-10-20T03:31:33.5698483+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
+        "ExtraInfo": "sunt",
+        "StyleHint": "quis",
         "Hidden": true,
-        "FullName": "Reggie Stiedemann"
+        "FullName": "Herta Wyman"
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Chanelle Schulist"
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Alessandra Dickinson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 268,
-    "Name": "Bins, Williamson and Johns",
-    "ToolTip": "Corrupti explicabo et odio enim.",
-    "Deleted": false,
-    "Rank": 298,
-    "Type": "ea",
-    "ColorBlock": 59,
-    "IconHint": "at",
-    "Selected": false,
-    "LastChanged": "1996-05-16T16:00:48.9770869+02:00",
+    "Id": 659,
+    "Name": "Ullrich Group",
+    "ToolTip": "Laudantium quis sint omnis exercitationem incidunt voluptas delectus.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "sed",
+    "ColorBlock": 705,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2022-02-15T03:31:33.5698483+01:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Wilderman Group",
-        "ToolTip": "Nemo autem eligendi.",
+        "Id": 648,
+        "Name": "Ankunding Inc and Sons",
+        "ToolTip": "Rerum magnam qui ad veritatis magnam.",
         "Deleted": false,
-        "Rank": 101,
-        "Type": "amet",
-        "ColorBlock": 600,
-        "IconHint": "officia",
+        "Rank": 872,
+        "Type": "earum",
+        "ColorBlock": 568,
+        "IconHint": "iure",
         "Selected": true,
-        "LastChanged": "2008-11-14T16:00:48.9770869+01:00",
+        "LastChanged": "2010-03-16T03:31:33.5698483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "fugit",
+        "ExtraInfo": "sit",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Tracy Zieme",
+        "FullName": "Dr. Orland Friedrich Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 995
+            "FieldType": "System.Int32",
+            "FieldLength": 434
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "vitae",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Gerard Dickinson",
+    "FullName": "Aylin Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldType": "System.String",
+        "FieldLength": 832
       }
     }
   }

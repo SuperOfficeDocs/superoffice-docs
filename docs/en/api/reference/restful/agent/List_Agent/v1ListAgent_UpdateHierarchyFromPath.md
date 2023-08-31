@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ipsum",
+  "Path": "sint",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 147,
+  "HierarchyId": 434,
   "Domain": "Dashboards",
-  "Name": "Schamberger, Fay and Bins",
-  "Fullname": "quod",
-  "ParentId": 614,
+  "Name": "Jerde Inc and Sons",
+  "Fullname": "et",
+  "ParentId": 411,
   "Children": [
     {
-      "HierarchyId": 99,
+      "HierarchyId": 235,
       "Domain": "Dashboards",
-      "Name": "Wisozk LLC",
-      "Fullname": "voluptatem",
-      "ParentId": 290,
+      "Name": "Jakubowski Inc and Sons",
+      "Fullname": "distinctio",
+      "ParentId": 534,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-02-17T16:00:41.2112045+01:00",
-      "RegisteredAssociateId": 127,
-      "Updated": "2001-10-28T16:00:41.2112045+01:00",
-      "UpdatedAssociateId": 788,
+      "Registered": "2012-01-06T03:31:26.7144201+01:00",
+      "RegisteredAssociateId": 942,
+      "Updated": "2018-02-11T03:31:26.7144201+01:00",
+      "UpdatedAssociateId": 566,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 380
         }
       }
     }
   ],
-  "Registered": "2015-04-29T16:00:41.2112045+02:00",
-  "RegisteredAssociateId": 734,
-  "Updated": "2008-01-10T16:00:41.2112045+01:00",
-  "UpdatedAssociateId": 53,
+  "Registered": "2016-12-08T03:31:26.7144201+01:00",
+  "RegisteredAssociateId": 235,
+  "Updated": "2012-05-18T03:31:26.7144201+02:00",
+  "UpdatedAssociateId": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 616
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 464,
-  "Currency": "a"
+  "QuoteConnectionId": 952,
+  "Currency": "corrupti"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 542,
-    "ERPPriceListKey": "consequatur",
-    "QuoteConnectionId": 257,
-    "Name": "Hartmann-Schumm",
-    "Description": "Team-oriented upward-trending interface",
-    "Currency": "blanditiis",
-    "CurrencyName": "Streich-Glover",
-    "ValidFrom": "2010-02-25T16:00:41.6488224+01:00",
-    "ValidTo": "2016-01-31T16:00:41.6488224+01:00",
-    "IsActive": true,
+    "PriceListId": 887,
+    "ERPPriceListKey": "est",
+    "QuoteConnectionId": 806,
+    "Name": "Gaylord LLC",
+    "Description": "Advanced analyzing website",
+    "Currency": "inventore",
+    "CurrencyName": "Koelpin, Schuster and Feil",
+    "ValidFrom": "2015-07-18T03:31:27.0905589+02:00",
+    "ValidTo": "1996-06-18T03:31:27.0905589+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 662
+        "FieldLength": 99
       }
     }
   }

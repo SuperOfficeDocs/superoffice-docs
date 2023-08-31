@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "Bartoletti Group",
-  "Tooltip": "voluptas",
+  "Id": 89,
+  "Name": "Harvey, Kassulke and Hartmann",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "UdListDefinitionId": 209,
-  "Rank": 656,
+  "UdListDefinitionId": 697,
+  "Rank": 708,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldType": "System.String",
+      "FieldLength": 881
     }
   }
 }

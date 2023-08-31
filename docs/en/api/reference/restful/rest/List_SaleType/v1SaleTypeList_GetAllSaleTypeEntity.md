@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 603,
-    "Name": "Hoppe, Daniel and Legros",
-    "Tooltip": "quo",
-    "Rank": 441,
+    "SaleTypeId": 306,
+    "Name": "Thompson-Little",
+    "Tooltip": "officiis",
+    "Rank": 916,
     "DurationUnit": "Century",
-    "SaleDuration": 107,
-    "SaleTypeCatId": 280,
-    "Deleted": true,
+    "SaleDuration": 948,
+    "SaleTypeCatId": 356,
+    "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": true,
+    "HasStakeholders": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 886,
-    "QuoteLinesTemplate": 275,
-    "ConfirmationLinesTemplate": 44,
+    "DefaultQuoteValidity": 954,
+    "QuoteLinesTemplate": 989,
+    "ConfirmationLinesTemplate": 886,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 60,
-    "MinEarningPercent": 657,
-    "GroupQuoteLinesBy": 608,
-    "SortGroupLinesBy": 295,
+    "MaxDiscountPercent": 744,
+    "MinEarningPercent": 330,
+    "GroupQuoteLinesBy": 734,
+    "SortGroupLinesBy": 858,
     "Stages": [
       {
-        "Id": 114,
-        "Name": "Ruecker-Sawayn",
-        "ToolTip": "Exercitationem et nemo dolor incidunt voluptatum aut.",
+        "Id": 568,
+        "Name": "Carroll Inc and Sons",
+        "ToolTip": "Voluptas quas corrupti ut eos aut.",
         "Deleted": true,
-        "Rank": 343,
-        "Type": "ea",
-        "ColorBlock": 354,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2007-04-18T16:00:49.3051793+02:00",
+        "Rank": 101,
+        "Type": "maxime",
+        "ColorBlock": 489,
+        "IconHint": "quam",
+        "Selected": true,
+        "LastChanged": "2014-04-20T03:31:33.8679659+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "optio",
+        "ExtraInfo": "optio",
+        "StyleHint": "ratione",
         "Hidden": true,
-        "FullName": "Bridgette Macejkovic",
+        "FullName": "Misael Parisian",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 905
+            "FieldType": "System.Int32",
+            "FieldLength": 492
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 337
       }
     }
   }

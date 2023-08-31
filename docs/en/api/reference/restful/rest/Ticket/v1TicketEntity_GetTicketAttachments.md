@@ -65,7 +65,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 67,
-    "Name": "Hickle, Macejkovic and Tillman",
-    "ContentType": "repudiandae",
-    "AttSize": 774,
+    "AttachmentId": 428,
+    "Name": "Wilkinson-Thompson",
+    "ContentType": "temporibus",
+    "AttSize": 573,
     "InlineImage": false,
-    "ContentId": "et",
-    "AuthKey": "et",
+    "ContentId": "laborum",
+    "AuthKey": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldType": "System.String",
+        "FieldLength": 578
       }
     }
   }

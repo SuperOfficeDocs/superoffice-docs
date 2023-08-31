@@ -140,7 +140,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=projectEvent/hasSignOff,projectAssociate/role
+GET /api/v1/archive/FreetextProject?$select=projectAssociate/contactCategory,projectEvent/hasSignOff,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

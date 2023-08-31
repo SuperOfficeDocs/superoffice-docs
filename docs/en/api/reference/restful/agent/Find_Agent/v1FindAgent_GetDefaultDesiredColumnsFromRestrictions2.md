@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler-Prosacco",
-  "Restrictions": "vel"
+  "ProviderName": "Treutel, O'Connell and Weissnat",
+  "Restrictions": "reiciendis"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kemmer, Ward and Feeney",
-    "DisplayTooltip": "vel",
-    "DisplayType": "quia",
-    "CanOrderBy": true,
-    "Name": "Gerhold, Krajcik and Upton",
+    "DisplayName": "Nienow, Wisozk and Heathcote",
+    "DisplayTooltip": "beatae",
+    "DisplayType": "unde",
+    "CanOrderBy": false,
+    "Name": "Stracke Group",
     "CanRestrictBy": false,
-    "RestrictionType": "reprehenderit",
-    "RestrictionListName": "Rosenbaum, Marvin and Greenholt",
+    "RestrictionType": "voluptatum",
+    "RestrictionListName": "Dickinson-Ebert",
     "IsVisible": false,
-    "ExtraInfo": "magnam",
-    "Width": "esse",
-    "IconHint": "est",
-    "HeadingIconHint": "quidem"
+    "ExtraInfo": "ut",
+    "Width": "adipisci",
+    "IconHint": "omnis",
+    "HeadingIconHint": "in"
   }
 ]
 ```

@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "facilis"
+  "UID": "minus"
 }
 ```
 
@@ -149,63 +149,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-10-03T16:00:40.0082062+02:00",
-  "AppointmentId": 762,
-  "Description": "Ameliorated 4th generation capacity",
-  "StartDate": "2020-05-12T16:00:40.0082062+02:00",
-  "EndDate": "2009-07-10T16:00:40.0082062+02:00",
+  "CreatedDate": "2022-02-13T03:31:25.5715237+01:00",
+  "AppointmentId": 104,
+  "Description": "Pre-emptive responsive open architecture",
+  "StartDate": "2008-07-12T03:31:25.5715237+02:00",
+  "EndDate": "2006-04-22T03:31:25.5715237+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 990,
+  "MotherId": 400,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-02-28T16:00:40.0238335+01:00",
+  "UpdatedDate": "2012-04-16T03:31:25.5715237+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 81,
+  "ActiveLinks": 818,
   "Links": [
     {
-      "EntityName": "Jenkins Group",
-      "Id": 109,
-      "Description": "Integrated optimizing open system",
-      "ExtraInfo": "cupiditate",
-      "LinkId": 421,
+      "EntityName": "King, Strosin and Mayer",
+      "Id": 942,
+      "Description": "Triple-buffered next generation paradigm",
+      "ExtraInfo": "assumenda",
+      "LinkId": 770,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldLength": 312
         }
       }
     }
   ],
-  "AlarmLeadTime": "laudantium",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 43,
+  "ColorIndex": 491,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "nam",
-  "LeadTime": "sed",
-  "Location": "provident",
-  "RejectCounter": 898,
+  "IsAlldayEvent": false,
+  "LagTime": "adipisci",
+  "LeadTime": "qui",
+  "Location": "voluptate",
+  "RejectCounter": 371,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 634,
-      "PersonId": 308,
-      "ContactId": 928,
-      "EmailId": 451,
+      "AssociateId": 587,
+      "PersonId": 168,
+      "ContactId": 91,
+      "EmailId": 566,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 634,
-      "PersonId": 308,
-      "ContactId": 928,
-      "EmailId": 451,
+      "AssociateId": 587,
+      "PersonId": 168,
+      "ContactId": 91,
+      "EmailId": 566,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
@@ -213,61 +213,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-03-11T16:00:40.0238335+01:00",
+  "ActiveDate": "2022-04-04T03:31:25.5715237+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 572,
+  "PreferredTZLocation": 202,
   "Sale": null,
-  "SuggestedAppointmentId": 425,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 844,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "occaecati",
+  "CentralserviceVideomeetId": "incidunt",
   "Title": "et",
-  "Agenda": "in",
-  "InternalNotes": "veritatis",
+  "Agenda": "vero",
+  "InternalNotes": "nam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Johnathan Borer",
-    "SuperOffice:2": "Nayeli Ryan"
+    "SuperOffice:1": "Angelina Shanahan",
+    "SuperOffice:2": "647535306"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "et",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "repellat"
+    "CustomFields1": "quam",
+    "CustomFields2": "placeat"
   },
-  "PublishEventDate": "2022-06-18T16:00:40.0238335+02:00",
-  "PublishTo": "2016-10-06T16:00:40.0238335+02:00",
-  "PublishFrom": "2004-09-25T16:00:40.0238335+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-01-20T03:31:25.5715237+01:00",
+  "PublishTo": "2022-02-23T03:31:25.5715237+01:00",
+  "PublishFrom": "1999-10-27T03:31:25.5715237+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 301,
+      "VisibleId": 553,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 112
         }
       }
     },
     {
-      "VisibleId": 301,
+      "VisibleId": 553,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 112
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   }
 }

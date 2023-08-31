@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 840,
-    "Name": "Bergstrom, Zulauf and Flatley",
-    "Tooltip": "nulla",
+    "HeadingId": 798,
+    "Name": "Rippin-Lesch",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "Rank": 730,
-    "UdListDefinitionId": 486
+    "Rank": 144,
+    "UdListDefinitionId": 725
   },
   {
-    "HeadingId": 840,
-    "Name": "Bergstrom, Zulauf and Flatley",
-    "Tooltip": "nulla",
+    "HeadingId": 798,
+    "Name": "Rippin-Lesch",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "Rank": 730,
-    "UdListDefinitionId": 486
+    "Rank": 144,
+    "UdListDefinitionId": 725
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 687,
-    "Name": "Zulauf LLC",
-    "Tooltip": "dolor",
+    "HeadingId": 802,
+    "Name": "Gibson-O'Connell",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 607,
-    "UdListDefinitionId": 925,
+    "Rank": 971,
+    "UdListDefinitionId": 871,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldLength": 663
       }
     }
   }

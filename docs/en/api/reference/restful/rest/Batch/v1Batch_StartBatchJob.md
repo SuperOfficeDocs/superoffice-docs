@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Paucek-Walter",
-  "AssociateId": 648,
-  "DetailsTable": 252,
-  "DetailsRecord": 567,
+  "Id": 961,
+  "Name": "Rath-Collins",
+  "AssociateId": 518,
+  "DetailsTable": 755,
+  "DetailsRecord": 249,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "id",
-    "ParameterObject2": "et"
+    "ParameterObject1": "repudiandae",
+    "ParameterObject2": "illo"
   },
-  "LastStarted": "2016-02-24T16:00:48.617756+01:00",
-  "Created": "2021-09-14T16:00:48.617756+02:00",
-  "StartCount": 954,
-  "DatabaseSerialNumber": "1117923",
-  "Context": "voluptatem",
-  "Result": "in",
+  "LastStarted": "2014-02-25T03:31:33.2718572+01:00",
+  "Created": "1998-10-11T03:31:33.2718572+02:00",
+  "StartCount": 144,
+  "DatabaseSerialNumber": "1068410",
+  "Context": "saepe",
+  "Result": "velit",
   "State": "All",
-  "Description": "Diverse actuating core",
-  "Response": "consequuntur",
-  "Request": "id",
-  "ProgressDescription": "Re-engineered mission-critical protocol",
-  "ProgressPercent": 878,
-  "FileName": "Lemke-Hane",
+  "Description": "Proactive fault-tolerant hardware",
+  "Response": "qui",
+  "Request": "aut",
+  "ProgressDescription": "Extended impactful product",
+  "ProgressPercent": 996,
+  "FileName": "Kutch LLC",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-572
+345
 ```

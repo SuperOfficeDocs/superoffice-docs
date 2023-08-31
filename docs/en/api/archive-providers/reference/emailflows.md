@@ -84,7 +84,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=workflowName,workflowCompletedCount,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlows?$select=workflowCompletedCount,workflowAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

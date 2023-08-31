@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=maiores
+GET /api/v1/List/ProjectType/MDOItems?query=sit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Heaney-Gerlach",
-    "ToolTip": "Distinctio harum sit quia.",
+    "Id": 186,
+    "Name": "Mante, Spencer and Beier",
+    "ToolTip": "Optio sequi perferendis molestiae.",
     "Deleted": false,
-    "Rank": 717,
-    "Type": "ea",
+    "Rank": 164,
+    "Type": "aliquid",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Stark Group",
-        "ToolTip": "Voluptatem rerum consequatur est enim.",
-        "Deleted": true,
-        "Rank": 1000,
-        "Type": "dolorum",
+        "Id": 569,
+        "Name": "Wintheiser-Bernhard",
+        "ToolTip": "Nam vitae numquam quo soluta et est.",
+        "Deleted": false,
+        "Rank": 456,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 559,
-        "ExtraInfo": "harum",
-        "StyleHint": "id",
-        "FullName": "Brielle Reinger V",
+        "IconHint": "voluptates",
+        "ColorBlock": 554,
+        "ExtraInfo": "magni",
+        "StyleHint": "saepe",
+        "FullName": "Tina Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 751
+            "FieldLength": 794
           }
         }
       }
     ],
-    "IconHint": "totam",
-    "ColorBlock": 174,
-    "ExtraInfo": "sed",
-    "StyleHint": "suscipit",
-    "FullName": "Eleanore Felix Mertz V",
+    "IconHint": "facilis",
+    "ColorBlock": 637,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "harum",
+    "FullName": "Arne Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

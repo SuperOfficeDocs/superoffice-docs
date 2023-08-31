@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=magnam
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=modi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Hegmann, Jones and Weissnat",
-    "ToolTip": "Ut accusantium tenetur commodi quia sunt quod.",
-    "Deleted": false,
-    "Rank": 912,
-    "Type": "tempora",
+    "Id": 110,
+    "Name": "Beer, Kreiger and Stroman",
+    "ToolTip": "Aliquam et ut ut voluptatem fugiat.",
+    "Deleted": true,
+    "Rank": 85,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Borer, Swaniawski and Christiansen",
-        "ToolTip": "Quae similique error nihil occaecati magnam.",
+        "Id": 927,
+        "Name": "Kuhic Group",
+        "ToolTip": "Consequatur vel non est culpa ipsum exercitationem.",
         "Deleted": false,
-        "Rank": 193,
-        "Type": "quis",
+        "Rank": 987,
+        "Type": "illo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "autem",
-        "ColorBlock": 120,
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "eveniet",
-        "FullName": "Brandyn Towne",
+        "IconHint": "consectetur",
+        "ColorBlock": 936,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "error",
+        "FullName": "Bianka McLaughlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 923
+            "FieldType": "System.String",
+            "FieldLength": 707
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 567,
-    "ExtraInfo": "quas",
-    "StyleHint": "at",
-    "FullName": "Sabina Wolff",
+    "IconHint": "et",
+    "ColorBlock": 251,
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
+    "FullName": "Dr. Laila Bryon Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldType": "System.Int32",
+        "FieldLength": 530
       }
     }
   }

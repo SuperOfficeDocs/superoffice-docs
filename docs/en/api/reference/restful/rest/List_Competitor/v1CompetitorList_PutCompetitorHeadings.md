@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 527,
-    "Name": "Stroman, Reichert and Christiansen",
-    "Tooltip": "ea",
+    "HeadingId": 59,
+    "Name": "Kreiger-Wyman",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 604,
-    "UdListDefinitionId": 334
+    "Rank": 460,
+    "UdListDefinitionId": 91
   },
   {
-    "HeadingId": 527,
-    "Name": "Stroman, Reichert and Christiansen",
-    "Tooltip": "ea",
+    "HeadingId": 59,
+    "Name": "Kreiger-Wyman",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 604,
-    "UdListDefinitionId": 334
+    "Rank": 460,
+    "UdListDefinitionId": 91
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 120,
-    "Name": "Sawayn LLC",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 368,
-    "UdListDefinitionId": 81,
+    "HeadingId": 627,
+    "Name": "Cronin Inc and Sons",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 772,
+    "UdListDefinitionId": 743,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 917
       }
     }
   }

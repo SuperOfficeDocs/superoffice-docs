@@ -26,7 +26,7 @@ Gets a LanguageInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=596
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=809
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
 
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 632,
-  "LCID": 244,
-  "EnglishName": "Schinner-Leffler",
-  "NativeName": "Pacocha Group",
-  "ThreeLetterISOLanguageName": "Rutherford, Huels and Hermann",
-  "TwoLetterISOLanguageName": "Rutherford, Wunsch and Hettinger",
-  "IsBuiltIn": true,
+  "LanguageInfoId": 768,
+  "LCID": 756,
+  "EnglishName": "Pfeffer, Price and Vandervort",
+  "NativeName": "Cummerata Group",
+  "ThreeLetterISOLanguageName": "Borer-O'Reilly",
+  "TwoLetterISOLanguageName": "Jewess-Parker",
+  "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 236
     }
   }
 }

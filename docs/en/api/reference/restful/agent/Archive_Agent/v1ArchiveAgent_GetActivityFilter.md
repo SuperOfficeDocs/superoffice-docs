@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-12-06T16:00:40.0550846+01:00",
-  "ToDate": "2015-02-18T16:00:40.0550846+01:00",
+  "FromDate": "2016-07-27T03:31:25.6027555+02:00",
+  "ToDate": "1997-01-21T03:31:25.6027555+01:00",
   "AssociateList": [
     {
-      "Id": 104,
-      "Name": "Keebler Inc and Sons",
-      "ToolTip": "Adipisci culpa omnis in sunt.",
+      "Id": 755,
+      "Name": "Rohan, Hammes and Johnston",
+      "ToolTip": "Nesciunt tempora.",
       "Deleted": false,
-      "Rank": 89,
-      "Type": "iste",
-      "ColorBlock": 776,
-      "IconHint": "rerum",
+      "Rank": 197,
+      "Type": "unde",
+      "ColorBlock": 288,
+      "IconHint": "minima",
       "Selected": false,
-      "LastChanged": "1998-07-11T16:00:40.0550846+02:00",
+      "LastChanged": "2002-04-09T03:31:25.6027555+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "numquam",
-      "StyleHint": "porro",
-      "Hidden": false,
-      "FullName": "Mrs. Nelson Amie Stoltenberg MD",
+      "ExtraInfo": "officiis",
+      "StyleHint": "maiores",
+      "Hidden": true,
+      "FullName": "Antonio Kautzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 247,
-      "Name": "Bernhard, Mosciski and Carroll",
-      "ToolTip": "Placeat commodi consequatur minus veniam.",
-      "Deleted": false,
-      "Rank": 815,
-      "Type": "tenetur",
-      "ColorBlock": 368,
-      "IconHint": "ullam",
-      "Selected": true,
-      "LastChanged": "2014-08-08T16:00:40.0550846+02:00",
+      "Id": 778,
+      "Name": "Gislason, Rosenbaum and Muller",
+      "ToolTip": "Eius fugiat sunt aliquid.",
+      "Deleted": true,
+      "Rank": 101,
+      "Type": "aut",
+      "ColorBlock": 985,
+      "IconHint": "rerum",
+      "Selected": false,
+      "LastChanged": "2009-01-14T03:31:25.6027555+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aperiam",
-      "StyleHint": "et",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "assumenda",
       "Hidden": true,
-      "FullName": "Lori Sipes",
+      "FullName": "Chet Streich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 630
+          "FieldLength": 780
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 454,
-      "Name": "Windler-Batz",
-      "ToolTip": "Voluptates atque autem optio.",
+      "Id": 290,
+      "Name": "Yundt, Lesch and Cartwright",
+      "ToolTip": "Numquam perferendis recusandae odio quibusdam ducimus.",
       "Deleted": true,
-      "Rank": 829,
-      "Type": "temporibus",
+      "Rank": 219,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "magni",
-      "ColorBlock": 986,
-      "ExtraInfo": "quam",
-      "StyleHint": "sit",
-      "FullName": "Marguerite Abbott",
+      "IconHint": "est",
+      "ColorBlock": 651,
+      "ExtraInfo": "ipsa",
+      "StyleHint": "esse",
+      "FullName": "Daniela Dietrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 301
+          "FieldLength": 535
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldType": "System.String",
+      "FieldLength": 422
     }
   }
 }

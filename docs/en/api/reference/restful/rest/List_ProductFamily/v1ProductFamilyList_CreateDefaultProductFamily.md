@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 688,
-  "Name": "Bayer Inc and Sons",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "UdListDefinitionId": 915,
-  "Rank": 464,
+  "Id": 14,
+  "Name": "Moen-Hand",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 525,
+  "Rank": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldType": "System.Int32",
+      "FieldLength": 614
     }
   }
 }

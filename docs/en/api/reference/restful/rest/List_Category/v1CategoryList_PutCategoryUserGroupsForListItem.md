@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 382,
-    "Name": "Durgan-Crist",
-    "ToolTip": "Suscipit ut sint nemo quaerat.",
-    "Deleted": true,
-    "Rank": 89,
-    "Type": "aspernatur",
-    "ColorBlock": 41,
-    "IconHint": "provident",
+    "Id": 756,
+    "Name": "Kemmer Inc and Sons",
+    "ToolTip": "Quisquam dolores nostrum tempora incidunt enim qui cupiditate.",
+    "Deleted": false,
+    "Rank": 378,
+    "Type": "facilis",
+    "ColorBlock": 747,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2003-09-21T16:00:48.8833485+02:00",
+    "LastChanged": "2020-12-06T03:31:33.4917333+01:00",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Hoppe, Emard and Walsh",
-        "ToolTip": "Eius sint.",
-        "Deleted": true,
-        "Rank": 462,
-        "Type": "ea",
-        "ColorBlock": 824,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2011-12-08T16:00:48.8833485+01:00",
+        "Id": 917,
+        "Name": "Jast-Gutmann",
+        "ToolTip": "Ut non vel repellat sit quia et voluptatem.",
+        "Deleted": false,
+        "Rank": 953,
+        "Type": "repellendus",
+        "ColorBlock": 756,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2000-04-22T03:31:33.4917333+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "fugiat",
-        "Hidden": false,
-        "FullName": "Jayce Johnson"
+        "ExtraInfo": "incidunt",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Aniya Muller"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Janick Bradtke"
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Ms. Rosario Kuvalis"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Casper Inc and Sons",
-    "ToolTip": "Facere itaque asperiores optio est soluta.",
-    "Deleted": true,
-    "Rank": 559,
-    "Type": "enim",
-    "ColorBlock": 379,
-    "IconHint": "praesentium",
+    "Id": 145,
+    "Name": "Streich Inc and Sons",
+    "ToolTip": "Quasi dicta consequuntur aut voluptatem officiis.",
+    "Deleted": false,
+    "Rank": 71,
+    "Type": "voluptatem",
+    "ColorBlock": 111,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2012-01-07T16:00:48.8833485+01:00",
+    "LastChanged": "2005-09-24T03:31:33.4917333+02:00",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "Rutherford-Rodriguez",
-        "ToolTip": "Perferendis dicta sint itaque odit non.",
+        "Id": 354,
+        "Name": "Wisozk Group",
+        "ToolTip": "Odit necessitatibus aliquid voluptatem et.",
         "Deleted": false,
-        "Rank": 560,
-        "Type": "ut",
-        "ColorBlock": 146,
-        "IconHint": "dolores",
+        "Rank": 199,
+        "Type": "aliquam",
+        "ColorBlock": 781,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "1998-10-10T16:00:48.8833485+02:00",
+        "LastChanged": "2019-09-07T03:31:33.5073635+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Ila Fisher",
+        "ExtraInfo": "ea",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Miss Damon Kaylah Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 903
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "ratione",
-    "Hidden": true,
-    "FullName": "Mr. Marcel Wava Oberbrunner",
+    "ExtraInfo": "dolore",
+    "StyleHint": "beatae",
+    "Hidden": false,
+    "FullName": "Harmon O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 143
       }
     }
   }

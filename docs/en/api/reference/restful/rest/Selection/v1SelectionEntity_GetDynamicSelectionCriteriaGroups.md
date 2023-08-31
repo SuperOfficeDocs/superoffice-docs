@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huel LLC",
-    "Description": "Networked systemic policy",
-    "Rank": 869,
+    "Name": "Davis, Stoltenberg and Gerhold",
+    "Description": "Monitored zero tolerance attitude",
+    "Rank": 714,
     "Restrictions": [
       {
-        "Name": "Hauck-Douglas",
-        "Operator": "qui",
+        "Name": "Weimann, Auer and Wilderman",
+        "Operator": "quia",
         "Values": [
-          "nobis",
-          "consectetur"
+          "modi",
+          "molestias"
         ],
         "DisplayValues": [
           "aut",
-          "nisi"
+          "molestiae"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 261,
+        "InterParenthesis": 155,
         "InterOperator": "And",
-        "UniqueHash": 805
+        "UniqueHash": 806
       }
     ]
   },
   {
-    "Name": "Huel LLC",
-    "Description": "Networked systemic policy",
-    "Rank": 869,
+    "Name": "Davis, Stoltenberg and Gerhold",
+    "Description": "Monitored zero tolerance attitude",
+    "Rank": 714,
     "Restrictions": [
       {
-        "Name": "Hauck-Douglas",
-        "Operator": "qui",
+        "Name": "Weimann, Auer and Wilderman",
+        "Operator": "quia",
         "Values": [
-          "nobis",
-          "consectetur"
+          "modi",
+          "molestias"
         ],
         "DisplayValues": [
           "aut",
-          "nisi"
+          "molestiae"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 261,
+        "InterParenthesis": 155,
         "InterOperator": "And",
-        "UniqueHash": 805
+        "UniqueHash": 806
       }
     ]
   }

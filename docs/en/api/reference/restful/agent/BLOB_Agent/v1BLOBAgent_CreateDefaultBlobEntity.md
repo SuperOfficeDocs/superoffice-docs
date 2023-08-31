@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 929,
-  "BlobSize": 611,
-  "Description": "Down-sized bottom-line ability",
-  "ExtraInfo": "voluptas",
-  "IsEncrypted": true,
+  "BlobId": 788,
+  "BlobSize": 536,
+  "Description": "Front-line 6th generation framework",
+  "ExtraInfo": "sit",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 88,
-  "CreatedDate": "2012-10-14T16:00:40.1175682+02:00",
-  "UpdatedDate": "2017-01-23T16:00:40.1175682+01:00",
+  "MimeType": "quam",
+  "OriginalSize": 939,
+  "CreatedDate": "2013-06-23T03:31:25.6496314+02:00",
+  "UpdatedDate": "1996-11-09T03:31:25.6496314+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel",
+  "ConceptualType": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldType": "System.Int32",
+      "FieldLength": 894
     }
   }
 }

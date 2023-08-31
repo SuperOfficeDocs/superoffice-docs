@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Dickinson Group",
-  "Tooltip": "eum",
+  "Id": 258,
+  "Name": "Anderson, Upton and Altenwerth",
+  "Tooltip": "quam",
   "Deleted": false,
-  "UdListDefinitionId": 256,
-  "Rank": 297,
+  "UdListDefinitionId": 691,
+  "Rank": 151,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

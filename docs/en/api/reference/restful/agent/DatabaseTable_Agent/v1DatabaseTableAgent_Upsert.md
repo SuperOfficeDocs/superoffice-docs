@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lebsack, Pagac and Abshire",
+  "TableName": "Lynch Inc and Sons",
   "Columns": [
-    "omnis",
-    "alias"
+    "sapiente",
+    "et"
   ],
   "Keys": [
-    "quasi",
-    "aut"
+    "inventore",
+    "dolores"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": true
+  "ReturnRowStatus": false
 }
 ```
 
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "praesentium",
-  "Inserts": 712,
-  "Updates": 340,
-  "Deletes": 382,
+  "Success": true,
+  "Message": "sit",
+  "Inserts": 971,
+  "Updates": 537,
+  "Deletes": 492,
   "RowStatus": [
     {
-      "PrimaryKey": 781,
+      "PrimaryKey": 55,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sed",
-        "omnis"
+        "molestiae",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 556
         }
       }
     },
     {
-      "PrimaryKey": 781,
+      "PrimaryKey": 55,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sed",
-        "omnis"
+        "molestiae",
+        "molestiae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 556
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   }
 }

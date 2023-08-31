@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Jacobson Group",
-  "Tooltip": "explicabo",
+  "Id": 358,
+  "Name": "Gerlach-Fadel",
+  "Tooltip": "neque",
   "Deleted": false,
-  "UdListDefinitionId": 382,
-  "Rank": 684,
+  "UdListDefinitionId": 689,
+  "Rank": 21,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 729
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 400,
-    "Name": "Mraz-Stamm",
-    "CurrencyId": 184,
-    "EnglishName": "Bernier LLC",
+    "CountryId": 622,
+    "Name": "Leffler, Purdy and Howe",
+    "CurrencyId": 387,
+    "EnglishName": "Mann-Tromp",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Devolved intangible definition",
-    "OrgNrText": "1080381",
-    "InterAreaPrefix": "deleniti",
-    "DialInPrefix": "repellendus",
-    "ZipPrefix": "error",
-    "DomainName": "Connelly LLC",
-    "AddressLayoutId": 259,
-    "DomesticAddressLayoutId": 460,
-    "ForeignAddressLayoutId": 634,
-    "Rank": 256,
-    "Tooltip": "maiores",
-    "Deleted": false,
+    "ImageDescription": "Persevering fault-tolerant Graphical User Interface",
+    "OrgNrText": "676511",
+    "InterAreaPrefix": "ex",
+    "DialInPrefix": "autem",
+    "ZipPrefix": "quisquam",
+    "DomainName": "Blick Group",
+    "AddressLayoutId": 13,
+    "DomesticAddressLayoutId": 700,
+    "ForeignAddressLayoutId": 96,
+    "Rank": 415,
+    "Tooltip": "corrupti",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldType": "System.String",
+        "FieldLength": 560
       }
     }
   }

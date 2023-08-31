@@ -74,15 +74,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 68,
-  "UserName": "Wolf Inc and Sons",
-  "Password": "in",
-  "IsActive": true,
-  "RoleId": 763,
+  "AssociateId": 542,
+  "UserName": "Mertz-Morar",
+  "Password": "eos",
+  "IsActive": false,
+  "RoleId": 543,
   "ExternalUserInfoModification": "Active"
 }
 ```

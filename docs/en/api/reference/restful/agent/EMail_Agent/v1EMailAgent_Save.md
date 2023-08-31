@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 503,
-      "ContactName": "Beatty, Quitzon and Nienow",
-      "PersonId": 452,
-      "PersonName": "Christiansen-Pollich",
-      "AssociateId": 572,
-      "Address": "alias",
-      "EmailId": 430,
+      "ContactId": 438,
+      "ContactName": "Weber-Cruickshank",
+      "PersonId": 847,
+      "PersonName": "Larkin, Olson and Stehr",
+      "AssociateId": 306,
+      "Address": "dolorum",
+      "EmailId": 862,
       "DuplicatePersonIds": [
-        998,
-        841
+        822,
+        888
       ],
-      "Name": "Altenwerth, Waelchi and Reynolds",
+      "Name": "Rippin-Auer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 884
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 426,
-      "ContactName": "Mante, Mann and Ruecker",
-      "PersonId": 287,
-      "PersonName": "Wyman-Dach",
-      "AssociateId": 255,
-      "Address": "sint",
-      "EmailId": 882,
+      "ContactId": 113,
+      "ContactName": "Labadie-Beer",
+      "PersonId": 44,
+      "PersonName": "Kub-Cormier",
+      "AssociateId": 887,
+      "Address": "quae",
+      "EmailId": 499,
       "DuplicatePersonIds": [
-        168,
-        441
+        208,
+        992
       ],
-      "Name": "Schinner, Pagac and Hagenes",
+      "Name": "Harber, Morar and Lynch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldType": "System.String",
+          "FieldLength": 487
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 852,
-      "ContactName": "Johnston Inc and Sons",
-      "PersonId": 334,
-      "PersonName": "Walker LLC",
-      "AssociateId": 293,
-      "Address": "sit",
-      "EmailId": 148,
+      "ContactId": 412,
+      "ContactName": "Kohler Group",
+      "PersonId": 25,
+      "PersonName": "Schinner LLC",
+      "AssociateId": 625,
+      "Address": "iusto",
+      "EmailId": 159,
       "DuplicatePersonIds": [
-        844,
-        220
+        942,
+        97
       ],
-      "Name": "Reynolds, Abshire and Franecki",
+      "Name": "Emard Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 763
+          "FieldLength": 351
         }
       }
     }
   ],
-  "Subject": "delectus",
-  "HTMLBody": "natus",
+  "Subject": "quia",
+  "HTMLBody": "in",
   "From": null,
-  "Sent": "2018-02-02T16:00:40.8362394+01:00",
-  "Size": 746,
+  "Sent": "2010-10-02T03:31:26.401997+02:00",
+  "Size": 952,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "alias",
-  "PlainBody": "atque",
+  "MessageID": "velit",
+  "PlainBody": "aliquid",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 958,
+  "ServerId": 741,
   "Attachments": [
     {
-      "Description": "Down-sized 5th generation ability",
-      "Filename": "et",
-      "Size": 25,
-      "Type": "doloribus",
-      "Encoding": "deserunt",
-      "Id": "dignissimos",
-      "Disposition": "natus",
+      "Description": "De-engineered intangible synergy",
+      "Filename": "consequatur",
+      "Size": 659,
+      "Type": "fuga",
+      "Encoding": "aut",
+      "Id": "quam",
+      "Disposition": "omnis",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Farrell-Hills",
+      "Name": "Hand-Rice",
       "Values": [
-        "ratione",
-        "eos"
+        "eos",
+        "voluptate"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldLength": 737
         }
       }
     },
     {
-      "Name": "Farrell-Hills",
+      "Name": "Hand-Rice",
       "Values": [
-        "ratione",
-        "eos"
+        "eos",
+        "voluptate"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldLength": 737
         }
       }
     }
   ],
-  "FolderName": "Mosciski Group",
-  "EmailItemId": 281,
-  "AccountId": 609,
-  "ReceivedAt": "2009-08-10T16:00:40.8362394+02:00",
+  "FolderName": "Schulist, Batz and Bruen",
+  "EmailItemId": 600,
+  "AccountId": 430,
+  "ReceivedAt": "2004-04-09T03:31:26.401997+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-10-08T16:00:40.8362394+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2017-11-06T03:31:26.401997+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -265,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 452
     }
   }
 }

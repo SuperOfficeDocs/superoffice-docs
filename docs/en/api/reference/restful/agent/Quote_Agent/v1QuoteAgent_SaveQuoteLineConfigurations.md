@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 43,
-      "FieldName": "Altenwerth LLC",
-      "Label": "distinctio",
-      "Tooltip": "nisi",
-      "Editable": false,
+      "QuoteLineConfigurationId": 716,
+      "FieldName": "Stanton, Johns and Hilpert",
+      "Label": "doloribus",
+      "Tooltip": "ipsum",
+      "Editable": true,
       "InUse": false,
-      "Mandatory": false,
-      "Rank": 314,
+      "Mandatory": true,
+      "Rank": 397,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 935,
-    "FieldName": "Heathcote-Cummings",
-    "Label": "est",
-    "Tooltip": "cumque",
+    "QuoteLineConfigurationId": 472,
+    "FieldName": "Hills, Volkman and D'Amore",
+    "Label": "dolor",
+    "Tooltip": "quae",
     "Editable": false,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 926,
-    "RestrictEdit": false,
+    "Rank": 234,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 162
       }
     }
   }

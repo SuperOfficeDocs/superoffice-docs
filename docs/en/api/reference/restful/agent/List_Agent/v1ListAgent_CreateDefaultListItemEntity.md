@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Kuhlman-Wintheiser",
-  "Tooltip": "quae",
+  "Id": 798,
+  "Name": "Ankunding, Green and Hoppe",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "UdListDefinitionId": 709,
-  "Rank": 353,
+  "UdListDefinitionId": 756,
+  "Rank": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   }
 }

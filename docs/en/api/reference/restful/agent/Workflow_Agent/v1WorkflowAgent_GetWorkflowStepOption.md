@@ -26,7 +26,7 @@ Gets a WorkflowStepOption object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowStepOption?workflowStepOptionId=755
+POST /api/v1/Agents/Workflow/GetWorkflowStepOption?workflowStepOptionId=864
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption?$select=name,department,category/id
 ```
 
@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 379,
-  "WorkflowStepId": 115,
-  "WorkflowId": 475,
-  "Key": "earum",
-  "Name": "Schuppe-Doyle",
-  "Rank": 27,
+  "WorkflowStepOptionId": 149,
+  "WorkflowStepId": 233,
+  "WorkflowId": 666,
+  "Key": "pariatur",
+  "Name": "Gorczany-Botsford",
+  "Rank": 63,
   "Steps": [
     {
-      "WorkflowStepId": 790,
-      "WorkflowId": 604,
+      "WorkflowStepId": 378,
+      "WorkflowId": 831,
       "StepType": "AddToList",
-      "Rank": 109
+      "Rank": 506
     },
     {
-      "WorkflowStepId": 790,
-      "WorkflowId": 604,
+      "WorkflowStepId": 378,
+      "WorkflowId": 831,
       "StepType": "AddToList",
-      "Rank": 109
+      "Rank": 506
     }
   ],
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 242
     }
   }
 }

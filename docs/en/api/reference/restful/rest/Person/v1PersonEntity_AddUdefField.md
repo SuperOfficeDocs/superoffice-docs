@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 890,
-  "ColumnId": 829,
-  "FieldDefault": "non",
-  "FieldHeight": 45,
-  "FieldLabel": "et",
-  "FieldLeft": 863,
-  "FieldTop": 347,
+  "UDefFieldId": 338,
+  "ColumnId": 539,
+  "FieldDefault": "officiis",
+  "FieldHeight": 215,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 110,
+  "FieldTop": 262,
   "FieldType": "Checkbox",
-  "FieldWidth": 179,
-  "FormatMask": "omnis",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 723,
-  "LabelLeft": 665,
-  "LabelTop": 984,
-  "LabelWidth": 476,
-  "LastVersionId": 687,
-  "ListTableId": 31,
-  "IsMandatory": true,
+  "FieldWidth": 215,
+  "FormatMask": "veritatis",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 254,
+  "LabelLeft": 997,
+  "LabelTop": 773,
+  "LabelWidth": 158,
+  "LastVersionId": 19,
+  "ListTableId": 583,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 266,
-  "ProgId": "deleniti",
-  "IsReadOnly": false,
-  "ShortLabel": "soluta",
-  "TabOrder": 179,
-  "TextLength": 574,
-  "Tooltip": "accusamus",
-  "UdefIdentity": 785,
-  "UDListDefinitionId": 745,
+  "Page1LineNo": 535,
+  "ProgId": "non",
+  "IsReadOnly": true,
+  "ShortLabel": "sit",
+  "TabOrder": 649,
+  "TextLength": 652,
+  "Tooltip": "aspernatur",
+  "UdefIdentity": 405,
+  "UDListDefinitionId": 953,
   "Justification": "Center",
-  "Version": 241,
-  "TemplateVariableName": "Murray-Langworth",
+  "Version": 406,
+  "TemplateVariableName": "Gusikowski-Bechtelar",
   "HasBeenPublished": false,
-  "MdoListName": "Schuppe, Cruickshank and Runolfsson",
+  "MdoListName": "Windler, Morissette and Bradtke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 344
     }
   }
 }

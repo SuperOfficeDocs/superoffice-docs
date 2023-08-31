@@ -67,12 +67,12 @@ No Content
 POST /api/v1/Agents/BLOB/ChangeProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 362,
-  "BlobId": 32
+  "ProjectId": 787,
+  "BlobId": 651
 }
 ```
 

@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 621,
-    "DisplayName": "Terry-Bogan",
-    "OngoingChats": 531,
-    "Present": false,
+    "UserId": 361,
+    "DisplayName": "Boyle, Schiller and Gorczany",
+    "OngoingChats": 881,
+    "Present": true,
     "ChatTopics": [
-      6,
-      523
+      385,
+      95
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldType": "System.String",
+        "FieldLength": 365
       }
     }
   }

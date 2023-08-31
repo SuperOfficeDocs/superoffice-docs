@@ -69,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Prosacco-Robel",
+  "TableName": "Grimes-Larkin",
   "IDs": [
-    690,
-    462
+    839,
+    812
   ]
 }
 ```

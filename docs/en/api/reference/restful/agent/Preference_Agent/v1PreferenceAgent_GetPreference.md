@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410
+  "Id": 292
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "maiores",
+  "RawValue": "beatae",
   "Specification": null,
-  "DisplayValue": "esse",
-  "DisplayTooltip": "nisi",
+  "DisplayValue": "omnis",
+  "DisplayTooltip": "provident",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 416,
-  "PrefDescId": 276,
-  "TableName": "Towne, Tremblay and Casper",
-  "UserPreferenceId": 921,
+  "TargetId": 72,
+  "PrefDescId": 143,
+  "TableName": "Hansen LLC",
+  "UserPreferenceId": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

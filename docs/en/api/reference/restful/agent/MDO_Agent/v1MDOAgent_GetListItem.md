@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Abshire, Thompson and Wunsch",
-  "Id": 524
+  "ListName": "Mante, Shanahan and Lang",
+  "Id": 676
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557,
-  "Name": "Friesen, Ruecker and Kohler",
-  "ToolTip": "Necessitatibus facere in.",
+  "Id": 701,
+  "Name": "Brown Group",
+  "ToolTip": "Facilis quo iusto eaque sed et eius.",
   "Deleted": false,
-  "Rank": 110,
-  "Type": "fuga",
+  "Rank": 775,
+  "Type": "asperiores",
   "ChildItems": [
     {
-      "Id": 460,
-      "Name": "Hahn, Adams and Crooks",
-      "ToolTip": "Qui vero nostrum quo commodi.",
+      "Id": 966,
+      "Name": "Schroeder Group",
+      "ToolTip": "Aspernatur expedita ipsam aut.",
       "Deleted": false,
-      "Rank": 151,
-      "Type": "est",
+      "Rank": 367,
+      "Type": "dignissimos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "similique",
-      "ColorBlock": 56,
-      "ExtraInfo": "tenetur",
-      "StyleHint": "esse",
-      "FullName": "Reuben Nitzsche",
+      "IconHint": "architecto",
+      "ColorBlock": 835,
+      "ExtraInfo": "esse",
+      "StyleHint": "fuga",
+      "FullName": "Gracie Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldLength": 886
         }
       }
     }
   ],
-  "IconHint": "occaecati",
-  "ColorBlock": 518,
-  "ExtraInfo": "et",
-  "StyleHint": "ex",
-  "FullName": "Norma Ruecker",
+  "IconHint": "est",
+  "ColorBlock": 18,
+  "ExtraInfo": "in",
+  "StyleHint": "eaque",
+  "FullName": "Leanna Hoeger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 207
     }
   }
 }

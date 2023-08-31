@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 250,
+  "HierarchyId": 565,
   "Domain": "Dashboards",
-  "Name": "Kunde-Dach",
-  "Fullname": "tenetur",
-  "ParentId": 622,
+  "Name": "Altenwerth-Kessler",
+  "Fullname": "culpa",
+  "ParentId": 135,
   "Children": [
     {
-      "HierarchyId": 782,
+      "HierarchyId": 562,
       "Domain": "Dashboards",
-      "Name": "Abshire LLC",
-      "Fullname": "aut",
-      "ParentId": 861,
+      "Name": "Bednar Group",
+      "Fullname": "nisi",
+      "ParentId": 98,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-09-07T16:00:47.9928249+02:00",
-      "RegisteredAssociateId": 239,
-      "Updated": "2011-10-03T16:00:47.9928249+02:00",
-      "UpdatedAssociateId": 99,
+      "Registered": "2003-02-23T03:31:32.6289016+01:00",
+      "RegisteredAssociateId": 505,
+      "Updated": "2020-12-12T03:31:32.6289016+01:00",
+      "UpdatedAssociateId": 486,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
   ],
-  "Registered": "2012-04-27T16:00:47.9928249+02:00",
-  "RegisteredAssociateId": 320,
-  "Updated": "2021-04-14T16:00:47.9928249+02:00",
-  "UpdatedAssociateId": 602,
+  "Registered": "2005-04-30T03:31:32.6289016+02:00",
+  "RegisteredAssociateId": 177,
+  "Updated": "2018-10-04T03:31:32.6289016+02:00",
+  "UpdatedAssociateId": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 848
     }
   }
 }

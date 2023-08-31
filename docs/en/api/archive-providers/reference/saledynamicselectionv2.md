@@ -1268,7 +1268,7 @@ Sale selection archive with OR-able selection groups. Each group is represented 
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDynamicSelectionV2?$select=currency,person/personHasInterests,person/personUpdatedByFullName,person/personAddress/wgs84longitude,person/consentSourceStore
+GET /api/v1/archive/SaleDynamicSelectionV2?$select=person/personMobilePhone/description,person/personInfo/textId,person/personAssociate/middleName,contact/contactExtra/x_contact_integer,project/projectAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

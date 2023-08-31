@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 379,
-  "Year": 707,
+  "TargetGroupId": 685,
+  "Year": 269,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 561,
+      "TargetAssignmentInfoId": 168,
       "Values": [
-        548,
-        341
+        504,
+        558
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 136,
-      "DimensionListItemDisplayName": "Schinner, Steuber and Grimes"
+      "DimensionListItem": 684,
+      "DimensionListItemDisplayName": "Brakus-McLaughlin"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 21,
-  "Year": 225,
+  "TargetGroupId": 898,
+  "Year": 605,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 74,
+      "TargetAssignmentInfoId": 16,
       "Values": [
-        840,
-        566
+        178,
+        921
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 651,
-      "DimensionListItemDisplayName": "Greenfelder Group",
+      "DimensionListItem": 960,
+      "DimensionListItemDisplayName": "Walsh-Bauch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 279
+          "FieldLength": 396
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   }
 }

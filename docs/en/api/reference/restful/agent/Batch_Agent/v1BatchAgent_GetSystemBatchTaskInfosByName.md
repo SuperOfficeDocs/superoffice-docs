@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Ledner-Gerhold"
+  "TaskName": "Friesen Inc and Sons"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "White-Zieme",
-    "AssociateId": 987,
-    "DetailsTable": 721,
-    "DetailsRecord": 806,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 728,
+    "Name": "Haley-Flatley",
+    "AssociateId": 80,
+    "DetailsTable": 160,
+    "DetailsRecord": 892,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "corrupti",
-      "ParameterObject2": "quo"
+      "ParameterObject1": "voluptate",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "1996-04-20T16:00:40.1175682+02:00",
-    "Created": "2012-11-26T16:00:40.1175682+01:00",
-    "StartCount": 317,
-    "DatabaseSerialNumber": "846731",
-    "Context": "aliquam",
-    "Result": "velit",
+    "LastStarted": "2003-10-11T03:31:25.6496314+02:00",
+    "Created": "2003-11-02T03:31:25.6496314+01:00",
+    "StartCount": 731,
+    "DatabaseSerialNumber": "817038",
+    "Context": "deserunt",
+    "Result": "sint",
     "State": "All",
-    "Description": "Synergized assymetric support",
-    "Response": "a",
-    "Request": "ut",
-    "ProgressDescription": "Implemented high-level time-frame",
-    "ProgressPercent": 766,
-    "FileName": "Gusikowski, Heidenreich and Lockman",
+    "Description": "Cross-platform multi-state secured line",
+    "Response": "perferendis",
+    "Request": "veniam",
+    "ProgressDescription": "Self-enabling transitional moderator",
+    "ProgressPercent": 314,
+    "FileName": "Murazik-Balistreri",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 122
       }
     }
   }

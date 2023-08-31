@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Schuppe LLC",
-  "Tooltip": "nesciunt",
-  "Deleted": false,
-  "UdListDefinitionId": 182,
-  "Rank": 712,
+  "Id": 101,
+  "Name": "Dach Group",
+  "Tooltip": "beatae",
+  "Deleted": true,
+  "UdListDefinitionId": 713,
+  "Rank": 935,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

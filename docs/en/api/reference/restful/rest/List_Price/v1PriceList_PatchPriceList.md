@@ -72,7 +72,7 @@ PATCH /api/v1/Pricelist/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "aperiam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "aperiam",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 902,
-  "ERPPriceListKey": "facilis",
-  "QuoteConnectionId": 728,
-  "Name": "Murray-Reichel",
-  "Description": "Re-contextualized mission-critical standardization",
-  "Currency": "voluptate",
-  "CurrencyName": "Bosco LLC",
-  "ValidFrom": "1997-06-03T16:00:49.1177018+02:00",
-  "ValidTo": "2014-03-25T16:00:49.1177018+01:00",
+  "PriceListId": 750,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 693,
+  "Name": "Dibbert Inc and Sons",
+  "Description": "Self-enabling upward-trending paradigm",
+  "Currency": "omnis",
+  "CurrencyName": "Deckow, Hoppe and Bauch",
+  "ValidFrom": "2007-05-26T03:31:33.7117545+02:00",
+  "ValidTo": "2011-02-11T03:31:33.7117545+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 140
     }
   },
   "_Links": {

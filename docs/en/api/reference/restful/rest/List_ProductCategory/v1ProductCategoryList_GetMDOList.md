@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=rem
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=ipsum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Corwin-Vandervort",
-    "ToolTip": "Ab nulla saepe dolore occaecati aut.",
-    "Deleted": false,
-    "Rank": 796,
-    "Type": "natus",
+    "Id": 38,
+    "Name": "Wolff-Orn",
+    "ToolTip": "Et odio omnis.",
+    "Deleted": true,
+    "Rank": 777,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 995,
-        "Name": "Schuster, Lang and Heaney",
-        "ToolTip": "Ea qui et et ut quia.",
+        "Id": 165,
+        "Name": "Cronin-Thiel",
+        "ToolTip": "Ut dicta veniam quas quidem.",
         "Deleted": false,
-        "Rank": 797,
-        "Type": "consectetur",
+        "Rank": 951,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 611,
-        "ExtraInfo": "ea",
-        "StyleHint": "eum",
-        "FullName": "Caleigh Hammes",
+        "IconHint": "aut",
+        "ColorBlock": 641,
+        "ExtraInfo": "error",
+        "StyleHint": "nisi",
+        "FullName": "Dr. Imogene Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 640
+            "FieldType": "System.Int32",
+            "FieldLength": 894
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 607,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "earum",
-    "FullName": "Stewart Cummings",
+    "IconHint": "fugiat",
+    "ColorBlock": 30,
+    "ExtraInfo": "in",
+    "StyleHint": "nulla",
+    "FullName": "Prof. Edwin Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 697
+        "FieldType": "System.Int32",
+        "FieldLength": 591
       }
     }
   }

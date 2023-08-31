@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 546
+  "Count": 205
 }
 ```
 
@@ -142,64 +142,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 295,
-    "StartDate": "1998-07-19T16:00:40.0394546+02:00",
-    "EndDate": "2018-11-01T16:00:40.0394546+01:00",
+    "AppointmentId": 31,
+    "StartDate": "2018-05-29T03:31:25.5871354+02:00",
+    "EndDate": "2015-09-19T03:31:25.5871354+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Raven Schamberger",
-    "ContactName": "Hills-Stehr",
-    "Description": "Cross-platform hybrid database",
-    "PersonFullName": "Mikel Feeney",
-    "PersonId": 402,
-    "ContactId": 415,
-    "ProjectId": 110,
-    "ProjectName": "Wilkinson-Gorczany",
-    "IsPublished": true,
-    "AssociateId": 690,
-    "ColorIndex": 380,
+    "Task": "sunt",
+    "AssociateFullName": "Ms. Rafaela Sallie Tromp",
+    "ContactName": "Towne LLC",
+    "Description": "Sharable incremental product",
+    "PersonFullName": "Lorenz Howell",
+    "PersonId": 366,
+    "ContactId": 269,
+    "ProjectId": 930,
+    "ProjectName": "Gulgowski Group",
+    "IsPublished": false,
+    "AssociateId": 903,
+    "ColorIndex": 400,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 132,
-    "PriorityName": "White-Orn",
+    "PriorityId": 288,
+    "PriorityName": "Bode, Batz and Skiles",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2021-08-08T16:00:40.0394546+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2007-12-20T03:31:25.5871354+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-06-16T16:00:40.0394546+02:00",
-    "RecurringEndDate": "2007-11-29T16:00:40.0394546+01:00",
-    "MotherId": 593,
-    "AssignedBy": 493,
-    "AssignedByFullName": "Daisha Wiza",
+    "RecurringStartDate": "2019-01-22T03:31:25.5871354+01:00",
+    "RecurringEndDate": "2013-06-20T03:31:25.5871354+02:00",
+    "MotherId": 462,
+    "AssignedBy": 420,
+    "AssignedByFullName": "Eveline Koch",
     "RejectReason": "",
-    "Location": "laboriosam",
-    "AlarmLeadTime": "occaecati",
-    "SaleId": 622,
-    "SaleName": "Mohr, Maggio and Wintheiser",
-    "AssociateName": "Hoppe-Rath",
-    "CreatedDate": "2019-08-21T16:00:40.0394546+02:00",
-    "CreatedBy": "consequuntur",
-    "CreatedByFullName": "Krystina Lynn Hauck DVM",
-    "CreatedByAssociateId": 388,
+    "Location": "expedita",
+    "AlarmLeadTime": "et",
+    "SaleId": 356,
+    "SaleName": "Simonis, Senger and Von",
+    "AssociateName": "Homenick-Rath",
+    "CreatedDate": "2023-02-01T03:31:25.5871354+01:00",
+    "CreatedBy": "tenetur",
+    "CreatedByFullName": "Shany Hoeger",
+    "CreatedByAssociateId": 600,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "corporis",
-    "Agenda": "dolores",
-    "InternalNotes": "ullam",
+    "Title": "quod",
+    "Agenda": "ab",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 555
       }
     }
   }

@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ab",
-  "ProviderName": "Yundt-Thiel",
-  "StorageKey": "eos",
+  "StorageType": "deleniti",
+  "ProviderName": "DuBuque-Prohaska",
+  "StorageKey": "facilis",
   "DesiredColumnNames": [
-    "Hauck, Hilpert and Block",
-    "Schneider Group"
+    "Bernier, Kunde and Krajcik",
+    "Kshlerin, Dickinson and Wiegand"
   ],
   "StaticColumns": [
-    "qui",
-    "in"
+    "ea",
+    "ex"
   ],
-  "Context": "cumque"
+  "Context": "itaque"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dibbert, Gorczany and Rath",
-      "Operator": "rerum",
+      "Name": "Wyman Inc and Sons",
+      "Operator": "dolores",
       "Values": [
-        "voluptatem",
-        "recusandae"
+        "ut",
+        "porro"
       ],
       "DisplayValues": [
-        "quos",
-        "rerum"
+        "ut",
+        "libero"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 207,
+      "InterParenthesis": 928,
       "InterOperator": "And",
-      "UniqueHash": 950
+      "UniqueHash": 254
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Koss, West and Christiansen",
-      "DisplayTooltip": "non",
-      "DisplayType": "voluptatum",
-      "CanOrderBy": true,
-      "Name": "Sauer, Frami and Okuneva",
-      "CanRestrictBy": false,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Von, Hand and Carter",
+      "DisplayName": "Prohaska-Keeling",
+      "DisplayTooltip": "et",
+      "DisplayType": "provident",
+      "CanOrderBy": false,
+      "Name": "Lindgren LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "temporibus",
+      "RestrictionListName": "Mann Group",
       "IsVisible": false,
-      "ExtraInfo": "totam",
-      "Width": "cupiditate",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "veritatis"
+      "ExtraInfo": "voluptas",
+      "Width": "est",
+      "IconHint": "et",
+      "HeadingIconHint": "qui"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Vandervort, Ernser and Dickens",
-      "PrimaryKey": 196,
+      "EntityName": "Price-Donnelly",
+      "PrimaryKey": 764,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "non",
-          "LinkHint": "quia"
+          "DisplayValue": "quo",
+          "TooltipHint": "dignissimos",
+          "LinkHint": "veritatis"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "inventore",
+      "LinkHint": "voluptatum",
+      "StyleHint": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Shanahan LLC",
-      "Description": "Configurable analyzing archive",
-      "Rank": 386,
+      "Name": "Graham, Keebler and Greenholt",
+      "Description": "Synchronised reciprocal capacity",
+      "Rank": 767,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Shanahan LLC",
-      "Description": "Configurable analyzing archive",
-      "Rank": 386,
+      "Name": "Graham, Keebler and Greenholt",
+      "Description": "Synchronised reciprocal capacity",
+      "Rank": 767,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldType": "System.Int32",
+      "FieldLength": 786
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Abernathy, Fay and Reichel",
-    "ToolTip": "Explicabo saepe autem.",
+    "Id": 22,
+    "Name": "Stanton, Walsh and Bins",
+    "ToolTip": "Consequuntur sit velit amet id quam rerum aut.",
     "Deleted": false,
-    "Rank": 540,
-    "Type": "quae",
-    "ColorBlock": 185,
-    "IconHint": "et",
+    "Rank": 106,
+    "Type": "amet",
+    "ColorBlock": 65,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2006-02-13T16:00:49.211436+01:00",
+    "LastChanged": "2011-11-05T03:31:33.7742322+01:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Conroy, Douglas and Quitzon",
-        "ToolTip": "Molestiae qui in eaque qui qui asperiores.",
-        "Deleted": false,
-        "Rank": 158,
-        "Type": "aut",
-        "ColorBlock": 124,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "2012-03-04T16:00:49.211436+01:00",
+        "Id": 709,
+        "Name": "Erdman LLC",
+        "ToolTip": "Consequatur ea et qui tempore esse.",
+        "Deleted": true,
+        "Rank": 991,
+        "Type": "et",
+        "ColorBlock": 258,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2007-07-02T03:31:33.7742322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "ipsum",
-        "Hidden": false,
-        "FullName": "Whitney Rath",
+        "ExtraInfo": "quo",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Ellis Stroman DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 608
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Aracely Eichmann",
+    "FullName": "Zetta Sabina Wunsch IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 784
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Howe-Wilderman"
+  "ApplicationName": "Orn-Rutherford"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nihil",
-    "Value": "corrupti",
-    "RecordId": 757,
-    "CreatedDate": "2011-02-23T16:00:41.0705907+01:00",
-    "UpdatedDate": "2017-06-06T16:00:41.0705907+02:00",
-    "UpdatedBy": "ducimus",
-    "CreatedBy": "eveniet",
-    "TableName": "Predovic LLC",
+    "Key": "quisquam",
+    "Value": "atque",
+    "RecordId": 1000,
+    "CreatedDate": "2011-05-26T03:31:26.6050723+02:00",
+    "UpdatedDate": "2019-12-15T03:31:26.6050723+01:00",
+    "UpdatedBy": "voluptas",
+    "CreatedBy": "omnis",
+    "TableName": "Erdman-Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 737
       }
     }
   }

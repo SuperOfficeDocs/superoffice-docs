@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Casper LLC"
+  "Name": "Dietrich, Green and Mitchell"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Value": "autem",
-    "Tooltip": "explicabo",
+    "Id": 526,
+    "Value": "rerum",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   },
   {
-    "Id": 126,
-    "Value": "autem",
-    "Tooltip": "explicabo",
+    "Id": 526,
+    "Value": "rerum",
+    "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   }

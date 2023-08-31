@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 602,
-  "BlobSize": 129,
-  "Description": "Proactive asynchronous hierarchy",
-  "ExtraInfo": "ipsa",
+  "BlobId": 686,
+  "BlobSize": 868,
+  "Description": "Decentralized optimal utilisation",
+  "ExtraInfo": "tempore",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "voluptatem",
-  "OriginalSize": 150,
-  "CreatedDate": "1998-11-01T16:00:40.1175682+01:00",
-  "UpdatedDate": "2010-04-04T16:00:40.1175682+02:00",
+  "MimeType": "non",
+  "OriginalSize": 173,
+  "CreatedDate": "2008-08-12T03:31:25.6496314+02:00",
+  "UpdatedDate": "2018-03-08T03:31:25.6496314+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iste"
+  "ConceptualType": "a"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 307,
-  "BlobSize": 870,
-  "Description": "Balanced disintermediate data-warehouse",
-  "ExtraInfo": "consequatur",
-  "IsEncrypted": true,
+  "BlobId": 925,
+  "BlobSize": 168,
+  "Description": "Extended high-level encoding",
+  "ExtraInfo": "esse",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "maiores",
-  "OriginalSize": 638,
-  "CreatedDate": "2011-11-15T16:00:40.1175682+01:00",
-  "UpdatedDate": "2000-03-18T16:00:40.1175682+01:00",
+  "MimeType": "explicabo",
+  "OriginalSize": 94,
+  "CreatedDate": "2010-02-01T03:31:25.6496314+01:00",
+  "UpdatedDate": "2019-12-18T03:31:25.6496314+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sed",
+  "ConceptualType": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 176
     }
   }
 }

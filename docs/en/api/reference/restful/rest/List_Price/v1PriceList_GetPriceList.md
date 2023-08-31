@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 562,
-  "ERPPriceListKey": "maxime",
-  "QuoteConnectionId": 271,
-  "Name": "Bahringer LLC",
-  "Description": "Profit-focused 6th generation conglomeration",
-  "Currency": "molestiae",
-  "CurrencyName": "Sauer-Smitham",
-  "ValidFrom": "2020-02-03T16:00:49.1177018+01:00",
-  "ValidTo": "2006-09-03T16:00:49.1177018+02:00",
-  "IsActive": false,
+  "PriceListId": 652,
+  "ERPPriceListKey": "sequi",
+  "QuoteConnectionId": 969,
+  "Name": "Morissette, Fahey and Lynch",
+  "Description": "Sharable stable process improvement",
+  "Currency": "aut",
+  "CurrencyName": "Hartmann, Upton and Fisher",
+  "ValidFrom": "2015-03-02T03:31:33.696079+01:00",
+  "ValidTo": "2020-05-24T03:31:33.696079+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   },
   "_Links": {

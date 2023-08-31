@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 530,
-    "FieldName": "Collier Inc and Sons",
-    "Label": "ea",
-    "Tooltip": "rerum",
+    "QuoteLineConfigurationId": 588,
+    "FieldName": "Kris, Heaney and Abshire",
+    "Label": "aliquid",
+    "Tooltip": "fuga",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 438,
-    "RestrictEdit": false,
+    "Rank": 40,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

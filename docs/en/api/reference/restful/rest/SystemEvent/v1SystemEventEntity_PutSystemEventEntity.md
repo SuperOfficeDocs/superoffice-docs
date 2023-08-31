@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 397,
+  "SystemEventId": 335,
   "Scope": "Database",
-  "Eta": "2009-01-05T16:00:48.4615203+01:00",
+  "Eta": "2009-10-07T03:31:32.9594383+02:00",
   "Eventkey": "aut",
-  "Eventmess": "occaecati",
-  "ExtraInfo": 862,
-  "Owner": 352,
-  "UpdatedCount": 783,
-  "Registered": "2014-12-05T16:00:48.4615203+01:00",
+  "Eventmess": "architecto",
+  "ExtraInfo": 258,
+  "Owner": 243,
+  "UpdatedCount": 875,
+  "Registered": "2001-02-20T03:31:32.9594383+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 216,
+  "SystemEventId": 282,
   "Scope": "Database",
-  "Eta": "2011-03-26T16:00:48.4615203+01:00",
-  "Eventkey": "molestiae",
-  "Eventmess": "quasi",
-  "ExtraInfo": 119,
-  "Owner": 306,
-  "UpdatedCount": 794,
-  "Registered": "1997-08-17T16:00:48.4615203+02:00",
+  "Eta": "2020-08-25T03:31:32.9594383+02:00",
+  "Eventkey": "rerum",
+  "Eventmess": "dicta",
+  "ExtraInfo": 529,
+  "Owner": 529,
+  "UpdatedCount": 825,
+  "Registered": "2019-09-17T03:31:32.9594383+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   },
   "_Links": {

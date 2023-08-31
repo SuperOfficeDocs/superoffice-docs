@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 923,
-  "Section": "rerum",
-  "Key": "excepturi",
-  "Name": "Murphy Inc and Sons",
+  "PrefDescId": 62,
+  "Section": "deleniti",
+  "Key": "dolorem",
+  "Name": "Wisoky, Collier and Bradtke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Future-proofed mobile protocol",
+  "Description": "Focused mission-critical info-mediaries",
   "IsBuiltin": false,
-  "TableName": "Schumm Inc and Sons",
-  "UserDefinedListId": 235,
-  "Rank": 665,
-  "SubGroup": "quod",
-  "MinLevel": 308,
-  "MaxValue": 272,
-  "MinValue": 17,
-  "RequiredLicense": "veniam"
+  "TableName": "Kub Inc and Sons",
+  "UserDefinedListId": 427,
+  "Rank": 461,
+  "SubGroup": "fuga",
+  "MinLevel": 511,
+  "MaxValue": 666,
+  "MinValue": 726,
+  "RequiredLicense": "et"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 160,
-  "Section": "ea",
-  "Key": "qui",
-  "Name": "Stamm Inc and Sons",
+  "PrefDescId": 783,
+  "Section": "qui",
+  "Key": "quia",
+  "Name": "Fadel-O'Conner",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental attitude-oriented policy",
-  "IsBuiltin": false,
-  "TableName": "Schowalter LLC",
-  "UserDefinedListId": 94,
-  "Rank": 756,
-  "SubGroup": "est",
-  "MinLevel": 993,
-  "MaxValue": 907,
-  "MinValue": 928,
-  "RequiredLicense": "voluptatem",
+  "Description": "Multi-channelled tertiary infrastructure",
+  "IsBuiltin": true,
+  "TableName": "Renner Inc and Sons",
+  "UserDefinedListId": 516,
+  "Rank": 724,
+  "SubGroup": "incidunt",
+  "MinLevel": 887,
+  "MaxValue": 171,
+  "MinValue": 215,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 465
     }
   }
 }

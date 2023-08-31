@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 892,
-    "Attention": "reprehenderit",
-    "Header": "ipsum",
-    "Name": "Kessler-Sawayn",
-    "OurRef": "mollitia",
-    "YourRef": "et",
-    "Description": "Upgradable actuating database",
-    "DocumentTemplate": "et",
+    "DocumentId": 264,
+    "Attention": "doloribus",
+    "Header": "nostrum",
+    "Name": "Brakus, Sipes and Gorczany",
+    "OurRef": "excepturi",
+    "YourRef": "repellendus",
+    "Description": "Vision-oriented scalable paradigm",
+    "DocumentTemplate": "fuga",
     "IsPublished": true,
-    "PersonId": 411,
-    "PersonFullName": "Golden Parisian",
-    "AssociateFullName": "Ms. Pearline Jarrell Sipes",
-    "ContactId": 328,
-    "ContactName": "Becker-Dickens",
-    "ProjectId": 553,
-    "ProjectName": "Kessler-Hand",
-    "AssociateId": 317,
-    "Snum": 780,
-    "SaleId": 342,
-    "SaleName": "Grant Inc and Sons",
+    "PersonId": 695,
+    "PersonFullName": "Prof. Miracle Julia Zboncak",
+    "AssociateFullName": "Miss Elmer Tod Jast DDS",
+    "ContactId": 405,
+    "ContactName": "Goodwin, Predovic and Greenfelder",
+    "ProjectId": 219,
+    "ProjectName": "Schultz-Rau",
+    "AssociateId": 295,
+    "Snum": 612,
+    "SaleId": 135,
+    "SaleName": "Murphy Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 942
       }
     }
   }

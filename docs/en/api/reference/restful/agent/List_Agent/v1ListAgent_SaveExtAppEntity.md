@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 772,
-  "Name": "Torp LLC",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "Rank": 140,
-  "Filename": "quo",
-  "Parameters": "culpa",
-  "Workdir": "nihil",
+  "ExtAppId": 725,
+  "Name": "Windler-Wilderman",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "Rank": 606,
+  "Filename": "voluptates",
+  "Parameters": "rem",
+  "Workdir": "culpa",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 755,
+  "Icon": 417,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consequatur"
+  "Path": "voluptas"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 622,
-  "Name": "Morar-Lesch",
-  "Tooltip": "tempora",
+  "ExtAppId": 118,
+  "Name": "Durgan-Dare",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 399,
-  "Filename": "consequatur",
-  "Parameters": "fugit",
-  "Workdir": "optio",
+  "Rank": 705,
+  "Filename": "distinctio",
+  "Parameters": "nulla",
+  "Workdir": "velit",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 978,
-  "WaitToFinish": true,
+  "Icon": 496,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "enim",
+  "Path": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

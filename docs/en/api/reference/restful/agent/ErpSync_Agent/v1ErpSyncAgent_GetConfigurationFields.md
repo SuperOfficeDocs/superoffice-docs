@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 765
+  "ErpConnectorId": 625
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "in",
-    "Rank": 293,
-    "DisplayName": "Barrows LLC",
-    "DisplayDescription": "Triple-buffered transitional paradigm",
+    "FieldKey": "libero",
+    "Rank": 673,
+    "DisplayName": "Gusikowski-Halvorson",
+    "DisplayDescription": "Operative logistical firmware",
     "FieldType": "Checkbox",
-    "ListName": "Boehm Group",
-    "DefaultValue": "recusandae",
-    "MaxLength": 50,
+    "ListName": "Stoltenberg Inc and Sons",
+    "DefaultValue": "laborum",
+    "MaxLength": 929,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 96
       }
     }
   }

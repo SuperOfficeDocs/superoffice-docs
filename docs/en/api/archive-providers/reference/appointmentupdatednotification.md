@@ -38,11 +38,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasConflict| *None* |!!hasConflict|  |
 |recurrencePattern| *None* |!!recurrencePattern| x |
 |rejectReason| *None* |!!rejectReason| x |
+|isAssignment| *None* |!!isAssignment|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentUpdatedNotification?$select=originatorFullName,title,endDateTime
+GET /api/v1/archive/AppointmentUpdatedNotification?$select=title,endDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

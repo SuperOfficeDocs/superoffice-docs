@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 43
+  "PersonId": 250
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 554,
-    "Comment": "eaque",
-    "Registered": "1999-11-05T16:00:41.4300927+01:00",
-    "RegisteredAssociateId": 83,
-    "Updated": "1996-11-04T16:00:41.4300927+01:00",
-    "UpdatedAssociateId": 36,
-    "LegalBaseId": 439,
-    "LegalBaseKey": "dolores",
-    "LegalBaseName": "Romaguera-Ortiz",
-    "ConsentPurposeId": 242,
-    "ConsentPurposeKey": "et",
-    "ConsentPurposeName": "Nicolas-Kunze",
-    "ConsentSourceId": 229,
-    "ConsentSourceKey": "temporibus",
-    "ConsentSourceName": "Johns Inc and Sons",
+    "ConsentPersonId": 843,
+    "Comment": "et",
+    "Registered": "2012-10-29T03:31:26.9018734+01:00",
+    "RegisteredAssociateId": 882,
+    "Updated": "2016-06-16T03:31:26.9018734+02:00",
+    "UpdatedAssociateId": 39,
+    "LegalBaseId": 103,
+    "LegalBaseKey": "maiores",
+    "LegalBaseName": "Hudson-Kiehn",
+    "ConsentPurposeId": 483,
+    "ConsentPurposeKey": "maiores",
+    "ConsentPurposeName": "Howell-Weber",
+    "ConsentSourceId": 637,
+    "ConsentSourceKey": "in",
+    "ConsentSourceName": "Fadel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 698
       }
     }
   }

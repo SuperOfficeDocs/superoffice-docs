@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 781,
-  "ColumnId": 384,
-  "FieldDefault": "cum",
-  "FieldHeight": 352,
-  "FieldLabel": "beatae",
-  "FieldLeft": 367,
-  "FieldTop": 633,
+  "UDefFieldId": 699,
+  "ColumnId": 661,
+  "FieldDefault": "aperiam",
+  "FieldHeight": 75,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 467,
+  "FieldTop": 235,
   "FieldType": "Checkbox",
-  "FieldWidth": 322,
-  "FormatMask": "occaecati",
+  "FieldWidth": 801,
+  "FormatMask": "quia",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 399,
-  "LabelLeft": 751,
-  "LabelTop": 931,
-  "LabelWidth": 190,
-  "LastVersionId": 972,
-  "ListTableId": 850,
+  "IsIndexed": false,
+  "LabelHeight": 598,
+  "LabelLeft": 334,
+  "LabelTop": 581,
+  "LabelWidth": 836,
+  "LastVersionId": 891,
+  "ListTableId": 147,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 893,
-  "ProgId": "reiciendis",
+  "Page1LineNo": 39,
+  "ProgId": "adipisci",
   "IsReadOnly": false,
-  "ShortLabel": "asperiores",
-  "TabOrder": 396,
-  "TextLength": 166,
-  "Tooltip": "aut",
-  "UdefIdentity": 652,
-  "UDListDefinitionId": 169,
+  "ShortLabel": "rem",
+  "TabOrder": 242,
+  "TextLength": 694,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 711,
+  "UDListDefinitionId": 122,
   "Justification": "Center",
-  "Version": 760,
-  "TemplateVariableName": "Wyman Inc and Sons",
+  "Version": 421,
+  "TemplateVariableName": "Ledner-Tremblay",
   "HasBeenPublished": false,
-  "MdoListName": "Kovacek Group",
+  "MdoListName": "Schuster LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

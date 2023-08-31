@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Johns Group",
-    "ToolTip": "Omnis at animi.",
+    "Id": 332,
+    "Name": "Mills, Schaden and Klocko",
+    "ToolTip": "Aut culpa et.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "distinctio",
-    "ColorBlock": 176,
-    "IconHint": "sunt",
+    "Rank": 982,
+    "Type": "facere",
+    "ColorBlock": 806,
+    "IconHint": "quam",
     "Selected": true,
-    "LastChanged": "2009-05-14T16:00:49.3364234+02:00",
+    "LastChanged": "2006-02-23T03:31:33.8835899+01:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Toy Group",
-        "ToolTip": "Voluptatem soluta quos ut voluptatum.",
-        "Deleted": false,
-        "Rank": 904,
-        "Type": "veritatis",
-        "ColorBlock": 516,
-        "IconHint": "perferendis",
-        "Selected": false,
-        "LastChanged": "2002-11-21T16:00:49.3364234+01:00",
+        "Id": 249,
+        "Name": "Davis, Hudson and Deckow",
+        "ToolTip": "Molestias nulla sit nisi qui nobis modi quasi.",
+        "Deleted": true,
+        "Rank": 588,
+        "Type": "atque",
+        "ColorBlock": 269,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2013-12-15T03:31:33.8835899+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "mollitia",
-        "Hidden": false,
-        "FullName": "Mr. Friedrich Giovani Simonis",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Mr. Unique Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 287
+            "FieldLength": 972
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Selmer O'Connell",
+    "ExtraInfo": "ex",
+    "StyleHint": "quod",
+    "Hidden": false,
+    "FullName": "Jerad Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldType": "System.Int32",
+        "FieldLength": 317
       }
     }
   }

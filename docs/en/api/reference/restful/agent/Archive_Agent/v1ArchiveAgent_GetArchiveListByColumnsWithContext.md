@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cremin-Turcotte",
+  "ProviderName": "Wilderman Group",
   "Columns": [
-    "hic",
-    "veritatis"
+    "sapiente",
+    "hic"
   ],
   "SortOrder": [
     {
-      "Name": "Quitzon Group",
+      "Name": "Metz Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Quitzon Group",
+      "Name": "Metz Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Deckow, Wilkinson and Swift",
-      "Operator": "nihil",
+      "Name": "Hansen, Johnston and Borer",
+      "Operator": "cupiditate",
       "Values": [
-        "fugit",
-        "voluptatem"
+        "facilis",
+        "culpa"
       ],
       "DisplayValues": [
-        "molestiae",
-        "laudantium"
+        "doloremque",
+        "vero"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 266,
+      "InterParenthesis": 866,
       "InterOperator": "And",
-      "UniqueHash": 523
+      "UniqueHash": 156
     }
   ],
   "Entities": [
-    "sed",
-    "labore"
+    "praesentium",
+    "ipsum"
   ],
-  "Page": 181,
-  "PageSize": 748,
-  "Context": "cupiditate"
+  "Page": 828,
+  "PageSize": 904,
+  "Context": "ea"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Witting, Lang and Hirthe",
-    "PrimaryKey": 812,
+    "EntityName": "Rogahn Inc and Sons",
+    "PrimaryKey": 358,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "tempora",
-        "TooltipHint": "fugit",
-        "LinkHint": "quis"
+        "DisplayValue": "magni",
+        "TooltipHint": "rem",
+        "LinkHint": "adipisci"
       }
     },
-    "LinkHint": "reprehenderit",
-    "StyleHint": "nostrum",
+    "LinkHint": "reiciendis",
+    "StyleHint": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldType": "System.String",
+        "FieldLength": 663
       }
     }
   }

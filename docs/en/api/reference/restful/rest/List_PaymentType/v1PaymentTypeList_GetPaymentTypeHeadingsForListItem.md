@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Halvorson, Marquardt and Lindgren",
-    "ToolTip": "Velit maxime magni.",
+    "Id": 594,
+    "Name": "Olson, Schowalter and White",
+    "ToolTip": "Sed blanditiis voluptate unde similique est eius reprehenderit.",
     "Deleted": false,
-    "Rank": 656,
-    "Type": "velit",
-    "ColorBlock": 386,
-    "IconHint": "nulla",
+    "Rank": 308,
+    "Type": "enim",
+    "ColorBlock": 46,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2001-12-07T16:00:49.1020725+01:00",
+    "LastChanged": "2002-03-28T03:31:33.6791985+01:00",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "McDermott-Kovacek",
-        "ToolTip": "Esse culpa voluptatem nam ad animi.",
+        "Id": 306,
+        "Name": "Parker Inc and Sons",
+        "ToolTip": "Non cupiditate et.",
         "Deleted": true,
-        "Rank": 751,
-        "Type": "impedit",
-        "ColorBlock": 35,
-        "IconHint": "modi",
+        "Rank": 237,
+        "Type": "eum",
+        "ColorBlock": 432,
+        "IconHint": "eligendi",
         "Selected": true,
-        "LastChanged": "2014-10-28T16:00:49.1020725+01:00",
+        "LastChanged": "1997-04-24T03:31:33.6791985+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Aubrey Roberts",
+        "ExtraInfo": "quos",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Nichole Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 507
+            "FieldLength": 614
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "totam",
-    "Hidden": false,
-    "FullName": "Dr. Michaela Monahan",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Ms. Norbert Johns DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 848
       }
     }
   }

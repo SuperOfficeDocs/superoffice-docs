@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 225,
-  "UdListDefinitionId": 204
+  "Id": 621,
+  "UdListDefinitionId": 105
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Kris LLC",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "UdListDefinitionId": 924,
-  "Rank": 363,
+  "Id": 920,
+  "Name": "Cruickshank Inc and Sons",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "UdListDefinitionId": 362,
+  "Rank": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldLength": 290
     }
   }
 }

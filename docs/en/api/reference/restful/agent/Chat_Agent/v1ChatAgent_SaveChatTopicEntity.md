@@ -123,26 +123,26 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 716,
-  "Name": "Murazik Group",
-  "Description": "Visionary heuristic strategy",
-  "WelcomeMessage": "dicta",
+  "ChatTopicId": 418,
+  "Name": "Fritsch, Leuschke and Dibbert",
+  "Description": "Enterprise-wide static open system",
+  "WelcomeMessage": "ipsum",
   "Language": null,
-  "LastAccept": "2022-03-10T16:00:40.1644405+01:00",
-  "SecondsPrAccept": 784,
-  "AlertRecipient": "aut",
+  "LastAccept": "1998-02-21T03:31:25.6964836+01:00",
+  "SecondsPrAccept": 725,
+  "AlertRecipient": "enim",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "asperiores",
+  "BadgeHeader": "alias",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quos",
-  "WarnNewChatMinutes": 758,
-  "WarnManagerNewChatMinutes": 553,
-  "TicketEnabled": false,
+  "CustomQueueText": "molestias",
+  "WarnNewChatMinutes": 267,
+  "WarnManagerNewChatMinutes": 969,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 416,
-  "WarnManagerChatMessageMinutes": 666,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 688,
-  "OfflineFormQueueLength": 623,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "ea"
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 47,
+  "WarnManagerChatMessageMinutes": 509,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 222,
+  "OfflineFormQueueLength": 15,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "temporibus"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 128,
-  "Name": "Gulgowski-O'Connell",
-  "Description": "Sharable optimizing conglomeration",
-  "WelcomeMessage": "culpa",
+  "ChatTopicId": 857,
+  "Name": "Predovic LLC",
+  "Description": "User-centric 24/7 neural-net",
+  "WelcomeMessage": "qui",
   "Language": null,
-  "LastAccept": "2004-05-14T16:00:40.1800621+02:00",
-  "SecondsPrAccept": 752,
-  "AlertRecipient": "dicta",
+  "LastAccept": "1998-12-10T03:31:25.6964836+01:00",
+  "SecondsPrAccept": 642,
+  "AlertRecipient": "vel",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "eligendi",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "magnam",
-  "WarnNewChatMinutes": 599,
-  "WarnManagerNewChatMinutes": 190,
-  "TicketEnabled": true,
+  "CollectConsent": false,
+  "BadgeHeader": "facilis",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "dolorem",
+  "WarnNewChatMinutes": 579,
+  "WarnManagerNewChatMinutes": 902,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 706,
-  "WarnManagerChatMessageMinutes": 452,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 280,
-  "OfflineFormQueueLength": 45,
+  "WarnChatMessageMinutes": 252,
+  "WarnManagerChatMessageMinutes": 736,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 998,
+  "OfflineFormQueueLength": 55,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "et",
+  "WidgetRatingText": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 967
     }
   }
 }

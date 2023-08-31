@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 09 Dec 2019 16:00:48 G12T
+Last-Modified: Wed, 05 Oct 2011 03:31:32 G10T
 
 {
-  "BlobId": 766,
-  "BlobSize": 439,
-  "Description": "Cloned heuristic info-mediaries",
-  "ExtraInfo": "eos",
+  "BlobId": 78,
+  "BlobSize": 127,
+  "Description": "Vision-oriented tertiary service-desk",
+  "ExtraInfo": "sit",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "nihil",
-  "OriginalSize": 68,
-  "CreatedDate": "1997-08-23T16:00:48.1803003+02:00",
-  "UpdatedDate": "2019-12-09T16:00:48.1803003+01:00",
+  "IsZipped": true,
+  "MimeType": "ut",
+  "OriginalSize": 846,
+  "CreatedDate": "2013-05-16T03:31:32.8007336+02:00",
+  "UpdatedDate": "2011-10-05T03:31:32.8007336+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ea",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

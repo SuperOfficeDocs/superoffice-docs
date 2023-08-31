@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "distinctio",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "quidem",
-  "DisplayTooltip": "dolorem",
+  "DisplayValue": "sequi",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 697,
-  "PrefDescId": 589,
-  "TableName": "Barton-Collins",
-  "UserPreferenceId": 654
+  "TargetId": 851,
+  "PrefDescId": 521,
+  "TableName": "Hartmann, Dach and Lakin",
+  "UserPreferenceId": 532
 }
 ```
 

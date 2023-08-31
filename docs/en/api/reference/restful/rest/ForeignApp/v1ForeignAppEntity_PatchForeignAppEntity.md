@@ -72,7 +72,7 @@ PATCH /api/v1/ForeignApp/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "magnam",
+    "path": "cupiditate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magnam",
+    "path": "cupiditate",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 232,
-  "Name": "Turcotte LLC",
-  "CreatedDate": "2015-12-21T16:00:47.9772018+01:00",
-  "UpdatedDate": "2013-11-13T16:00:47.9772018+01:00",
+  "ForeignAppId": 361,
+  "Name": "Moen-Kreiger",
+  "CreatedDate": "2018-04-16T03:31:32.6132803+02:00",
+  "UpdatedDate": "2022-03-14T03:31:32.6132803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 727,
-      "Name": "Pacocha, Beahan and Tromp",
-      "CreatedDate": "2004-01-04T16:00:47.9772018+01:00",
-      "UpdatedDate": "2004-11-01T16:00:47.9772018+01:00",
-      "AssociateFullName": "Dorothy Jacobson",
-      "CreatedBy": "nihil",
-      "UpdatedBy": "at",
-      "DeviceIdentifier": "saepe",
-      "ForeignAppId": 313,
+      "ForeignDeviceId": 750,
+      "Name": "Hartmann, Smitham and Cruickshank",
+      "CreatedDate": "2016-07-24T03:31:32.6132803+02:00",
+      "UpdatedDate": "2014-08-15T03:31:32.6132803+02:00",
+      "AssociateFullName": "Mr. Rey Mozell Leuschke PhD",
+      "CreatedBy": "id",
+      "UpdatedBy": "vero",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 848,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 517
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 369
     }
   },
   "_Links": {

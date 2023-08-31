@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 678,
-  "EMailAddress": "repellat",
-  "AssociateId": 277,
+  "EMailAccountId": 102,
+  "EMailAddress": "neque",
+  "AssociateId": 477,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 984,
-  "ErrorCount": 421,
+  "AccountStatus": 896,
+  "ErrorCount": 283,
   "ErrorReason": "",
-  "InboxFolder": "commodi",
-  "SentFolder": "recusandae",
+  "InboxFolder": "doloribus",
+  "SentFolder": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 616
     }
   }
 }

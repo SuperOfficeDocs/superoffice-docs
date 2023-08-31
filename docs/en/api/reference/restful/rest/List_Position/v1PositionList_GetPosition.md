@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Zulauf, Jacobson and Block",
-  "Tooltip": "non",
+  "Id": 61,
+  "Name": "Hodkiewicz, Little and Armstrong",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 559,
-  "Rank": 76,
+  "UdListDefinitionId": 572,
+  "Rank": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 15
     }
   }
 }

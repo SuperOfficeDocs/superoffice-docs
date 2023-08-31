@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 14 Dec 2000 16:00:47 G12T
+Last-Modified: Sat, 13 Dec 2008 03:31:32 G12T
 
 {
-  "BlobId": 487,
-  "BlobSize": 473,
-  "Description": "Cross-group clear-thinking hierarchy",
-  "ExtraInfo": "dolorem",
+  "BlobId": 143,
+  "BlobSize": 999,
+  "Description": "Switchable real-time emulation",
+  "ExtraInfo": "excepturi",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tempore",
-  "OriginalSize": 694,
-  "CreatedDate": "2011-12-25T16:00:47.6959793+01:00",
-  "UpdatedDate": "2000-12-14T16:00:47.6959793+01:00",
+  "MimeType": "nemo",
+  "OriginalSize": 999,
+  "CreatedDate": "2011-05-16T03:31:32.3789647+02:00",
+  "UpdatedDate": "2008-12-13T03:31:32.3789647+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sit",
+  "ConceptualType": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 346
     }
   }
 }

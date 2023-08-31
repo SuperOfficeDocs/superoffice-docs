@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 887,
+  "SourceDocumentTemplateId": 682,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 5,
-  "Name": "Lubowitz, Stokes and O'Connell",
-  "Tooltip": "dicta",
-  "SaveInDb": 923,
-  "Filename": "expedita",
-  "DefaultOref": "quia",
+  "DocumentTemplateId": 240,
+  "Name": "Heaney, Tromp and Nikolaus",
+  "Tooltip": "aspernatur",
+  "SaveInDb": 285,
+  "Filename": "dolorum",
+  "DefaultOref": "corporis",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 221,
-  "IntentId": 227,
-  "IsDefaultPublished": false,
-  "Rank": 574,
-  "LoadTemplateFromPlugin": 787,
-  "MimeType": "hic",
+  "AutoeventId": 851,
+  "IntentId": 679,
+  "IsDefaultPublished": true,
+  "Rank": 795,
+  "LoadTemplateFromPlugin": 282,
+  "MimeType": "temporibus",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 1001,
+  "DocumentTypeKey": 190,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "brenda_nolan@dibbertkunde.info",
+  "EmailSubject": "kyler.hammes@sawaynconroy.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kendra@labadie.us",
+  "SenderEmailAddress": "willow@doyle.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldLength": 825
     }
   }
 }

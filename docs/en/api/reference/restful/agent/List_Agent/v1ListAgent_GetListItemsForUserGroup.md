@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 278,
-  "GroupId": 74
+  "UdListDefinitionId": 373,
+  "GroupId": 920
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Labadie, Herman and Medhurst",
-    "ToolTip": "Aut suscipit illo nostrum aut ea voluptate.",
-    "Deleted": false,
-    "Rank": 147,
-    "Type": "dolorum",
-    "ColorBlock": 865,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2003-04-29T16:00:41.1487084+02:00",
+    "Id": 172,
+    "Name": "Rolfson Inc and Sons",
+    "ToolTip": "Reiciendis porro doloribus pariatur porro est voluptatibus ea.",
+    "Deleted": true,
+    "Rank": 51,
+    "Type": "dolores",
+    "ColorBlock": 579,
+    "IconHint": "dicta",
+    "Selected": false,
+    "LastChanged": "2023-02-25T03:31:26.6675558+01:00",
     "ChildItems": [
       {
-        "Id": 467,
-        "Name": "Funk Inc and Sons",
-        "ToolTip": "Quisquam aut dolores aspernatur in ut velit magni.",
-        "Deleted": true,
-        "Rank": 789,
-        "Type": "velit",
-        "ColorBlock": 491,
-        "IconHint": "sint",
+        "Id": 315,
+        "Name": "Osinski-Kuhlman",
+        "ToolTip": "Eos quia et sapiente.",
+        "Deleted": false,
+        "Rank": 233,
+        "Type": "voluptates",
+        "ColorBlock": 877,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2003-04-02T16:00:41.1487084+02:00",
+        "LastChanged": "1997-03-20T03:31:26.6675558+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "modi",
+        "ExtraInfo": "harum",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Shayne Volkman",
+        "FullName": "Miss Wade Yasmeen Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldLength": 846
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "cumque",
+    "ExtraInfo": "non",
+    "StyleHint": "pariatur",
     "Hidden": false,
-    "FullName": "Aletha Fisher",
+    "FullName": "Dejuan Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 536
       }
     }
   }

@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 426,
-  "Section": "ab",
-  "Key": "culpa",
-  "Name": "Brakus-Schaefer",
+  "PrefDescId": 782,
+  "Section": "nesciunt",
+  "Key": "ex",
+  "Name": "Bode, Berge and Kautzer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable user-facing architecture",
-  "IsBuiltin": false,
-  "TableName": "Dickens-Morissette",
-  "UserDefinedListId": 940,
-  "Rank": 86,
-  "SubGroup": "suscipit",
-  "MinLevel": 843,
-  "MaxValue": 975,
-  "MinValue": 117,
-  "RequiredLicense": "voluptas"
+  "Description": "Multi-lateral well-modulated application",
+  "IsBuiltin": true,
+  "TableName": "Breitenberg-Gislason",
+  "UserDefinedListId": 285,
+  "Rank": 196,
+  "SubGroup": "magnam",
+  "MinLevel": 87,
+  "MaxValue": 255,
+  "MinValue": 831,
+  "RequiredLicense": "ut"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 727,
-  "Section": "necessitatibus",
+  "PrefDescId": 239,
+  "Section": "esse",
   "Key": "quibusdam",
-  "Name": "Oberbrunner-Weimann",
+  "Name": "Littel Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual attitude-oriented Graphic Interface",
+  "Description": "Synergized global contingency",
   "IsBuiltin": false,
-  "TableName": "Crona-Kessler",
-  "UserDefinedListId": 489,
-  "Rank": 789,
-  "SubGroup": "voluptas",
-  "MinLevel": 906,
-  "MaxValue": 275,
-  "MinValue": 937,
-  "RequiredLicense": "saepe",
+  "TableName": "Cremin, McCullough and Nikolaus",
+  "UserDefinedListId": 194,
+  "Rank": 880,
+  "SubGroup": "ipsum",
+  "MinLevel": 384,
+  "MaxValue": 447,
+  "MinValue": 854,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldLength": 945
     }
   }
 }

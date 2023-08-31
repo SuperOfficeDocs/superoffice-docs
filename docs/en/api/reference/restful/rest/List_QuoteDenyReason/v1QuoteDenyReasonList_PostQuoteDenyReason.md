@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 295,
-  "Name": "Krajcik Inc and Sons",
-  "Tooltip": "eum",
+  "Id": 500,
+  "Name": "Fay-Hettinger",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "UdListDefinitionId": 179,
-  "Rank": 427
+  "UdListDefinitionId": 646,
+  "Rank": 519
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Parker Group",
-  "Tooltip": "neque",
-  "Deleted": true,
-  "UdListDefinitionId": 1000,
-  "Rank": 348,
+  "Id": 19,
+  "Name": "Rutherford Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 968,
+  "Rank": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   }
 }

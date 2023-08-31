@@ -74,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Langosh-Murray",
-  "RecordId": 824,
-  "AssociateId": 311
+  "TableName": "Osinski, Hintz and Dare",
+  "RecordId": 974,
+  "AssociateId": 484
 }
 ```
 

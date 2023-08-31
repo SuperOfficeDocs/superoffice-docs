@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Tremblay Group",
-  "ParameterName": "Vandervort-Zemlak"
+  "LayoutName": "Beier, Lind and Kessler",
+  "ParameterName": "Gleason LLC"
 }
 ```
 

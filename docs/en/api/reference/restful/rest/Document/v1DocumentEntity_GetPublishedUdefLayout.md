@@ -88,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 504,
-    "ColumnId": 393,
-    "FieldDefault": "rem",
-    "FieldHeight": 673,
-    "FieldLabel": "illum",
-    "FieldLeft": 641,
-    "FieldTop": 361,
+    "UDefFieldId": 765,
+    "ColumnId": 686,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 372,
+    "FieldLabel": "et",
+    "FieldLeft": 780,
+    "FieldTop": 380,
     "FieldType": "Checkbox",
-    "FieldWidth": 716,
-    "FormatMask": "non",
+    "FieldWidth": 377,
+    "FormatMask": "molestiae",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 64,
-    "LabelLeft": 961,
-    "LabelTop": 220,
-    "LabelWidth": 401,
-    "LastVersionId": 973,
-    "ListTableId": 522,
+    "LabelHeight": 676,
+    "LabelLeft": 308,
+    "LabelTop": 221,
+    "LabelWidth": 141,
+    "LastVersionId": 454,
+    "ListTableId": 14,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 790,
-    "ProgId": "unde",
+    "Page1LineNo": 976,
+    "ProgId": "repudiandae",
     "IsReadOnly": false,
-    "ShortLabel": "laboriosam",
-    "TabOrder": 338,
-    "TextLength": 322,
-    "Tooltip": "laudantium",
-    "UdefIdentity": 983,
-    "UDListDefinitionId": 295,
+    "ShortLabel": "ullam",
+    "TabOrder": 894,
+    "TextLength": 25,
+    "Tooltip": "necessitatibus",
+    "UdefIdentity": 8,
+    "UDListDefinitionId": 479,
     "Justification": "Center",
-    "Version": 659,
-    "TemplateVariableName": "Cremin, Luettgen and Schulist",
+    "Version": 401,
+    "TemplateVariableName": "Lueilwitz Group",
     "HasBeenPublished": true,
-    "MdoListName": "Parker LLC",
+    "MdoListName": "Wiegand-Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 286
+        "FieldType": "System.Int32",
+        "FieldLength": 922
       }
     }
   }

@@ -72,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    708,
-    730
+    693,
+    299
   ],
   "Read": false
 }

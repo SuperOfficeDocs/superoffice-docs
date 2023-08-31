@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 326,
+  "RowCount": 183,
   "Rows": [
     {
-      "EntityName": "Leuschke LLC",
-      "PrimaryKey": 401,
+      "EntityName": "Beer-Jones",
+      "PrimaryKey": 272,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eveniet",
-          "TooltipHint": "ut",
-          "LinkHint": "cumque"
+          "DisplayValue": "et",
+          "TooltipHint": "minus",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "quisquam",
+      "LinkHint": "non",
       "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 595
+          "FieldLength": 93
         }
       }
     }
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldType": "System.Int32",
+      "FieldLength": 183
     }
   }
 }

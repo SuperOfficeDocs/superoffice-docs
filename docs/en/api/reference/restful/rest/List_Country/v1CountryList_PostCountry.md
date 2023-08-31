@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 410,
-  "Name": "Romaguera, Spencer and Kiehn",
-  "CurrencyId": 439,
-  "EnglishName": "Mraz, Ferry and Goyette",
+  "CountryId": 681,
+  "Name": "Senger-Mertz",
+  "CurrencyId": 334,
+  "EnglishName": "Kozey, Bradtke and Eichmann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Robust actuating emulation",
-  "OrgNrText": "515716",
-  "InterAreaPrefix": "id",
-  "DialInPrefix": "exercitationem",
-  "ZipPrefix": "est",
-  "DomainName": "Kautzer-Donnelly",
-  "AddressLayoutId": 42,
-  "DomesticAddressLayoutId": 490,
-  "ForeignAddressLayoutId": 35,
-  "Rank": 406,
-  "Tooltip": "sed",
+  "ImageDescription": "Cross-group leading edge secured line",
+  "OrgNrText": "926987",
+  "InterAreaPrefix": "ipsum",
+  "DialInPrefix": "a",
+  "ZipPrefix": "odit",
+  "DomainName": "Brakus-Considine",
+  "AddressLayoutId": 453,
+  "DomesticAddressLayoutId": 565,
+  "ForeignAddressLayoutId": 878,
+  "Rank": 557,
+  "Tooltip": "ipsam",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 100,
-  "Name": "Howell, Schaden and Emard",
-  "CurrencyId": 156,
-  "EnglishName": "Reynolds Group",
+  "CountryId": 390,
+  "Name": "Corkery-Emmerich",
+  "CurrencyId": 440,
+  "EnglishName": "Fahey-Roberts",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Customizable encompassing support",
-  "OrgNrText": "689253",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "quia",
-  "DomainName": "Shanahan, Koss and Mitchell",
-  "AddressLayoutId": 12,
-  "DomesticAddressLayoutId": 757,
-  "ForeignAddressLayoutId": 442,
-  "Rank": 536,
-  "Tooltip": "et",
-  "Deleted": true,
+  "ImageDescription": "User-centric logistical ability",
+  "OrgNrText": "1106247",
+  "InterAreaPrefix": "vel",
+  "DialInPrefix": "natus",
+  "ZipPrefix": "id",
+  "DomainName": "Kohler-Price",
+  "AddressLayoutId": 444,
+  "DomesticAddressLayoutId": 207,
+  "ForeignAddressLayoutId": 376,
+  "Rank": 972,
+  "Tooltip": "aut",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 974
     }
   }
 }

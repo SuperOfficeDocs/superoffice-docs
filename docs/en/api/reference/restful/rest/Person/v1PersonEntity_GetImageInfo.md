@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 26 Mar 2006 16:00:48 G3T
+Last-Modified: Sat, 26 Mar 2016 03:31:32 G3T
 
 {
-  "BlobId": 514,
-  "BlobSize": 144,
-  "Description": "Organic high-level Graphic Interface",
-  "ExtraInfo": "nam",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "eum",
-  "OriginalSize": 278,
-  "CreatedDate": "1996-05-21T16:00:48.1178151+02:00",
-  "UpdatedDate": "2006-03-26T16:00:48.1178151+02:00",
+  "BlobId": 270,
+  "BlobSize": 511,
+  "Description": "Distributed homogeneous groupware",
+  "ExtraInfo": "beatae",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "sequi",
+  "OriginalSize": 680,
+  "CreatedDate": "2008-06-05T03:31:32.7382484+02:00",
+  "UpdatedDate": "2016-03-26T03:31:32.7382484+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis",
+  "ConceptualType": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 165
     }
   }
 }

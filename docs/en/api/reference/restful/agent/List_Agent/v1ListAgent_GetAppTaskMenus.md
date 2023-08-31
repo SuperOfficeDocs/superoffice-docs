@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 641,
-    "Name": "Monahan Inc and Sons",
-    "Tooltip": "quis",
-    "TableName": "Reichert Group",
-    "Area": "id",
+    "TaskMenuId": 851,
+    "Name": "Mraz-Hilll",
+    "Tooltip": "repudiandae",
+    "TableName": "Gibson, Treutel and McLaughlin",
+    "Area": "blanditiis",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 719,
+    "CrmScriptId": 284,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 74,
+    "Rank": 497,
     "Encoding": "ANSI",
-    "ProgId": "dolores",
+    "ProgId": "corrupti",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 926
       }
     }
   }

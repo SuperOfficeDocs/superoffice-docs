@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 16,
-    "Name": "Bernier-Lakin",
-    "Tooltip": "ab",
-    "Rank": 292,
+    "SaleTypeId": 946,
+    "Name": "Balistreri, Kassulke and Williamson",
+    "Tooltip": "nesciunt",
+    "Rank": 923,
     "DurationUnit": "Century",
-    "SaleDuration": 736,
-    "SaleTypeCatId": 964,
+    "SaleDuration": 914,
+    "SaleTypeCatId": 52,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": false,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 404,
-    "QuoteLinesTemplate": 501,
-    "ConfirmationLinesTemplate": 820,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 266,
-    "MinEarningPercent": 589,
-    "GroupQuoteLinesBy": 711,
-    "SortGroupLinesBy": 880,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 744,
+    "QuoteLinesTemplate": 107,
+    "ConfirmationLinesTemplate": 142,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 639,
+    "MinEarningPercent": 840,
+    "GroupQuoteLinesBy": 51,
+    "SortGroupLinesBy": 665,
     "Stages": [
       {
-        "Id": 569,
-        "Name": "O'Kon, VonRueden and Stanton",
-        "ToolTip": "Ut voluptas.",
+        "Id": 927,
+        "Name": "Gerlach LLC",
+        "ToolTip": "Ab voluptas dolor saepe nihil earum unde et.",
         "Deleted": false,
-        "Rank": 722,
-        "Type": "nihil",
-        "ColorBlock": 450,
-        "IconHint": "corporis",
+        "Rank": 247,
+        "Type": "minus",
+        "ColorBlock": 472,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "1997-02-12T16:00:41.1330807+01:00",
+        "LastChanged": "2002-06-05T03:31:26.6519338+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "id",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Jade Von",
+        "FullName": "Naomi Kihn V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldLength": 388
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldType": "System.String",
+        "FieldLength": 878
       }
     }
   }

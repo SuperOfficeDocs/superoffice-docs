@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 398,
-  "Name": "Rosenbaum-Medhurst",
-  "Tooltip": "quibusdam",
-  "Deleted": false,
-  "UdListDefinitionId": 814,
-  "Rank": 267
+  "Id": 755,
+  "Name": "Wilderman Inc and Sons",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "UdListDefinitionId": 615,
+  "Rank": 311
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 450,
-  "Name": "Gorczany LLC",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 963,
-  "Rank": 705,
+  "Id": 917,
+  "Name": "O'Hara, Borer and Krajcik",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "UdListDefinitionId": 310,
+  "Rank": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 405
     }
   }
 }

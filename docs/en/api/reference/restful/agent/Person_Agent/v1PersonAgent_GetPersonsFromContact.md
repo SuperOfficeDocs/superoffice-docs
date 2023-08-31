@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 594
+  "ContactId": 401
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "aliquid",
-    "PersonId": 317,
-    "Mrmrs": "nihil",
-    "Firstname": "Beth",
-    "Lastname": "Harber",
-    "MiddleName": "Farrell, O'Hara and Weimann",
-    "Title": "impedit",
-    "Description": "Total full-range adapter",
-    "Email": "emiliano@bailey.info",
-    "FullName": "Eden Green",
-    "DirectPhone": "560-048-3167 x2335",
-    "FormalName": "Ondricka-Walter",
-    "CountryId": 668,
-    "ContactId": 138,
-    "ContactName": "Monahan LLC",
-    "Retired": 323,
-    "Rank": 806,
-    "ActiveInterests": 789,
+    "Position": "delectus",
+    "PersonId": 439,
+    "Mrmrs": "dolor",
+    "Firstname": "Arne",
+    "Lastname": "Feest",
+    "MiddleName": "Ryan Inc and Sons",
+    "Title": "consequuntur",
+    "Description": "Future-proofed hybrid forecast",
+    "Email": "jaleel@raynormcglynn.co.uk",
+    "FullName": "Charlotte Carter",
+    "DirectPhone": "(939)603-8220 x0051",
+    "FormalName": "Fahey, Stracke and Kuhlman",
+    "CountryId": 755,
+    "ContactId": 552,
+    "ContactName": "Hills-Hickle",
+    "Retired": 403,
+    "Rank": 494,
+    "ActiveInterests": 947,
     "ContactDepartment": "",
-    "ContactCountryId": 944,
-    "ContactOrgNr": "403983",
-    "FaxPhone": "1-836-694-8449",
-    "MobilePhone": "337.752.0631 x0685",
-    "ContactPhone": "471-065-1912 x448",
-    "AssociateName": "Weissnat Inc and Sons",
-    "AssociateId": 746,
+    "ContactCountryId": 16,
+    "ContactOrgNr": "1123258",
+    "FaxPhone": "019-456-0633",
+    "MobilePhone": "085-128-0819 x5351",
+    "ContactPhone": "(534)125-7915 x021",
+    "AssociateName": "Willms-Witting",
+    "AssociateId": 856,
     "UsePersonAddress": false,
-    "ContactFax": "mollitia",
-    "Kanafname": "omnis",
-    "Kanalname": "quasi",
-    "Post1": "sit",
-    "Post2": "quibusdam",
-    "Post3": "vitae",
-    "EmailName": "bradford.muller@gloverschiller.co.uk",
-    "ContactFullName": "Mireille Emmerich IV",
-    "ActiveErpLinks": 355,
-    "TicketPriorityId": 672,
-    "SupportLanguageId": 789,
-    "SupportAssociateId": 308,
+    "ContactFax": "culpa",
+    "Kanafname": "nemo",
+    "Kanalname": "nobis",
+    "Post1": "distinctio",
+    "Post2": "doloribus",
+    "Post3": "voluptas",
+    "EmailName": "ozella_stracke@littlejewess.biz",
+    "ContactFullName": "Ms. Blaise Price Sr.",
+    "ActiveErpLinks": 97,
+    "TicketPriorityId": 898,
+    "SupportLanguageId": 639,
+    "SupportAssociateId": 80,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 937
+        "FieldType": "System.Int32",
+        "FieldLength": 87
       }
     }
   }

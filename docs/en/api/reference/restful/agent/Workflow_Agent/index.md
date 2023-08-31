@@ -16,6 +16,10 @@ generated: true
 
 * [POST Agents/Workflow/DeleteEmailFlow](v1WorkflowAgent_DeleteEmailFlow.md)
 
+* [POST Agents/Workflow/CreateDefaultWorkflowEvent](v1WorkflowAgent_CreateDefaultWorkflowEvent.md)
+
+* [POST Agents/Workflow/CreateDefaultWorkflowEventResult](v1WorkflowAgent_CreateDefaultWorkflowEventResult.md)
+
 * [POST Agents/Workflow/CreateDefaultWorkflowFilter](v1WorkflowAgent_CreateDefaultWorkflowFilter.md)
 
 * [POST Agents/Workflow/CreateDefaultWorkflowGoal](v1WorkflowAgent_CreateDefaultWorkflowGoal.md)
@@ -40,9 +44,17 @@ generated: true
 
 * [POST Agents/Workflow/TryAddPersonsToEmailFlow](v1WorkflowAgent_TryAddPersonsToEmailFlow.md)
 
+* [POST Agents/Workflow/RemoveParticipantsFromEmailFlow](v1WorkflowAgent_RemoveParticipantsFromEmailFlow.md)
+
 * [POST Agents/Workflow/CreateEmailFlowContent](v1WorkflowAgent_CreateEmailFlowContent.md)
 
 * [POST Agents/Workflow/ConnectEmailFlowContent](v1WorkflowAgent_ConnectEmailFlowContent.md)
+
+* [POST Agents/Workflow/CopyEmailFlowContent](v1WorkflowAgent_CopyEmailFlowContent.md)
+
+* [POST Agents/Workflow/Run](v1WorkflowAgent_Run.md)
+
+* [POST Agents/Workflow/SendEvent](v1WorkflowAgent_SendEvent.md)
 
 * [POST Agents/Workflow/GetWorkflowGoal](v1WorkflowAgent_GetWorkflowGoal.md)
 

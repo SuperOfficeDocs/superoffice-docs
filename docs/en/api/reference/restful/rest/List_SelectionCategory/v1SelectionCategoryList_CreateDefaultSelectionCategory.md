@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Upton, Morar and O'Reilly",
-  "Tooltip": "dolorem",
+  "Id": 621,
+  "Name": "Wisozk-Tremblay",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "UdListDefinitionId": 431,
-  "Rank": 359,
+  "UdListDefinitionId": 248,
+  "Rank": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 811
     }
   }
 }

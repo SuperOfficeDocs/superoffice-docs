@@ -57,6 +57,7 @@ The EventData instance sent to the crmscript with input values
 | OutputValues | Object | Values sent back to the environment from the event handler |
 | StateValues | Object | Values kept between event handlers |
 | Exception | String | String containing error message from handler system if it failed |
+| ParserValues | Object | Parser values sent to the event handler |
 
 ## Response:
 
@@ -79,6 +80,7 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
+| ParserValues | object | Parser values sent to the event handler |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,22 +96,26 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "sequi",
-    "InputValues2": "ut"
+    "InputValues1": "ipsa",
+    "InputValues2": "earum"
   },
-  "BlockExecution": true,
-  "NavigateTo": "molestias",
-  "Message": "nam",
-  "ShowDialog": "vero",
+  "BlockExecution": false,
+  "NavigateTo": "nulla",
+  "Message": "culpa",
+  "ShowDialog": "nemo",
   "OutputValues": {
-    "OutputValues1": "adipisci",
-    "OutputValues2": "animi"
+    "OutputValues1": "rem",
+    "OutputValues2": "aliquam"
   },
   "StateValues": {
-    "StateValues1": "dolores",
-    "StateValues2": "iure"
+    "StateValues1": "totam",
+    "StateValues2": "eaque"
   },
-  "Exception": "tempore"
+  "Exception": "voluptas",
+  "ParserValues": {
+    "ParserValues1": "eligendi",
+    "ParserValues2": "perferendis"
+  }
 }
 ```
 
@@ -122,28 +128,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quod",
-    "InputValues2": "nesciunt"
+    "InputValues1": "expedita",
+    "InputValues2": "impedit"
   },
   "BlockExecution": false,
-  "NavigateTo": "dolorem",
-  "Message": "odio",
-  "ShowDialog": "consequatur",
+  "NavigateTo": "repellat",
+  "Message": "quidem",
+  "ShowDialog": "expedita",
   "OutputValues": {
-    "OutputValues1": "rerum",
-    "OutputValues2": "non"
+    "OutputValues1": "quos",
+    "OutputValues2": "aperiam"
   },
   "StateValues": {
-    "StateValues1": "dolore",
-    "StateValues2": "consectetur"
+    "StateValues1": "expedita",
+    "StateValues2": "possimus"
   },
-  "Exception": "ut",
+  "Exception": "quisquam",
+  "ParserValues": {
+    "ParserValues1": "labore",
+    "ParserValues2": "adipisci"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

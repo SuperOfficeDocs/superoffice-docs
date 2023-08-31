@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 756,
-    "Tooltip": "culpa",
+    "Unrestricted": false,
+    "Total": 211,
+    "Tooltip": "minus",
     "CanAssign": false,
-    "Free": 771,
-    "InUse": 187,
+    "Free": 903,
+    "InUse": 162,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 896,
-    "Name": "Trantow-Glover",
-    "Description": "Multi-lateral systematic help-desk",
-    "PrerequisiteModuleName": "Boyle LLC",
-    "SortOrder": 864,
-    "ExtraFlags": 320,
+    "ModuleLicenseId": 869,
+    "Name": "Fadel-Hamill",
+    "Description": "Re-engineered encompassing application",
+    "PrerequisiteModuleName": "Hermann-Kshlerin",
+    "SortOrder": 913,
+    "ExtraFlags": 51,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 998
       }
     }
   }

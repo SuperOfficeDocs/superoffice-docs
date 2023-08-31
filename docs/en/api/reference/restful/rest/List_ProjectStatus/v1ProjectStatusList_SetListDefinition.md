@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Hartmann-Ziemann",
-  "Tooltip": "et",
+  "Id": 240,
+  "Name": "Bogan Inc and Sons",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 4,
-  "IsCustomList": false,
+  "Rank": 746,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "ListType": "eius",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 638,
-  "Name": "Jacobs Inc and Sons",
-  "Tooltip": "eligendi",
+  "Id": 86,
+  "Name": "Crooks-Corwin",
+  "Tooltip": "quaerat",
   "Deleted": true,
-  "Rank": 21,
-  "IsCustomList": false,
+  "Rank": 657,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "id",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 974
     }
   }
 }

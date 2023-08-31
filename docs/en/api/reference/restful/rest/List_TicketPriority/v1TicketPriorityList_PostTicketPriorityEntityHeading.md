@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 437,
-  "Name": "Pollich Inc and Sons",
-  "Tooltip": "ratione",
+  "HeadingId": 136,
+  "Name": "Parisian LLC",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 658,
-  "UdListDefinitionId": 400
+  "Rank": 373,
+  "UdListDefinitionId": 50
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 587,
-  "Name": "Runolfsson-Ruecker",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 614,
-  "UdListDefinitionId": 823,
+  "HeadingId": 918,
+  "Name": "Abbott Group",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 509,
+  "UdListDefinitionId": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 511
     }
   }
 }

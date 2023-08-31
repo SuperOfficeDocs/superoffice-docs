@@ -25,6 +25,8 @@ items:
   href: reference/appointmentfavourite.md
 - name: Appointmentgroup
   href: reference/appointmentgroup.md
+- name: Appointmentresource
+  href: reference/appointmentresource.md
 - name: Appointmenttask
   href: reference/appointmenttask.md
 - name: Appointmenttextid
@@ -73,6 +75,10 @@ items:
   href: reference/consentsource.md
 - name: Contact
   href: reference/contact.md
+- name: contact_and_person_freetextsearch
+  href: reference/contact_and_person_freetextsearch.md
+- name: contact_and_person_freetextsearch_hierarchical
+  href: reference/contact_and_person_freetextsearch_hierarchical.md
 - name: Contact_freetextsearch
   href: reference/contact_freetextsearch.md
 - name: Contact_new

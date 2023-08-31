@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 440,
-  "Name": "Abshire-Schuppe",
-  "Description": "Persistent even-keeled analyzer",
+  "ProjectId": 937,
+  "Name": "Bednar-Spinka",
+  "Description": "Assimilated attitude-oriented framework",
   "URL": "http://www.example.com/",
-  "Type": "optio",
-  "AssociateId": 2,
-  "AssociateFullName": "Vickie Gutkowski",
-  "TypeId": 76,
-  "Updated": "2012-01-13T16:00:48.1646768+01:00",
-  "StatusId": 495,
-  "Status": "qui",
-  "TextId": 33,
-  "PublishTo": "1999-05-06T16:00:48.1646768+02:00",
-  "PublishFrom": "2005-08-12T16:00:48.1646768+02:00",
+  "Type": "necessitatibus",
+  "AssociateId": 717,
+  "AssociateFullName": "Ashtyn Schoen",
+  "TypeId": 999,
+  "Updated": "2013-04-01T03:31:32.7851151+02:00",
+  "StatusId": 580,
+  "Status": "sunt",
+  "TextId": 312,
+  "PublishTo": "2018-07-06T03:31:32.7851151+02:00",
+  "PublishFrom": "1999-10-21T03:31:32.7851151+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1595342",
-  "ActiveErpLinks": 229,
+  "ProjectNumber": "733873",
+  "ActiveErpLinks": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

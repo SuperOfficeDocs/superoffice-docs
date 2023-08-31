@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Name": "Walker, Littel and White",
-    "ToolTip": "Quia laborum culpa vitae voluptas.",
+    "Id": 346,
+    "Name": "Brakus Inc and Sons",
+    "ToolTip": "Modi incidunt quia facilis.",
     "Deleted": false,
-    "Rank": 139,
-    "Type": "voluptatibus",
-    "ColorBlock": 41,
-    "IconHint": "minima",
+    "Rank": 434,
+    "Type": "dolores",
+    "ColorBlock": 196,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-08-06T16:00:49.1958202+02:00",
+    "LastChanged": "2001-04-14T03:31:33.7742322+02:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Howe-Johnson",
-        "ToolTip": "Enim vel explicabo quas aut.",
+        "Id": 959,
+        "Name": "Runolfsson LLC",
+        "ToolTip": "Dolorem possimus quo recusandae hic unde.",
         "Deleted": true,
-        "Rank": 240,
-        "Type": "aut",
-        "ColorBlock": 854,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2004-07-21T16:00:49.1958202+02:00",
+        "Rank": 990,
+        "Type": "et",
+        "ColorBlock": 109,
+        "IconHint": "quas",
+        "Selected": true,
+        "LastChanged": "2014-05-07T03:31:33.7742322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Yasmine Aufderhar",
+        "ExtraInfo": "iure",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Richie Hessel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "officiis",
-    "Hidden": false,
-    "FullName": "Miss Chelsie Alvah Bins DVM",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Clare Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 199
+        "FieldLength": 154
       }
     }
   }

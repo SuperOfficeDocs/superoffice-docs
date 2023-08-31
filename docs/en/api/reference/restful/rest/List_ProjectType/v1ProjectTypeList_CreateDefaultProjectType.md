@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Name": "Beer-Kertzmann",
-  "Tooltip": "iusto",
+  "Id": 357,
+  "Name": "Treutel, Schuppe and Ernser",
+  "Tooltip": "modi",
   "Deleted": false,
-  "UdListDefinitionId": 775,
-  "Rank": 92,
+  "UdListDefinitionId": 538,
+  "Rank": 95,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldLength": 962
     }
   }
 }

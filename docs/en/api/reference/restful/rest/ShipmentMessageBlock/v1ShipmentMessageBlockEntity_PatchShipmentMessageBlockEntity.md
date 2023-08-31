@@ -72,7 +72,7 @@ PATCH /api/v1/ShipmentMessageBlock/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "ad",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "ad",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 144,
-  "AssociateId": 520,
-  "Block": "incidunt",
-  "Registered": "2012-08-16T16:00:48.4615203+02:00",
-  "RegisteredAssociateId": 141,
-  "Updated": "2017-11-17T16:00:48.4615203+01:00",
-  "UpdatedAssociateId": 424,
-  "UpdatedCount": 393,
+  "ShipmentMessageBlockId": 10,
+  "AssociateId": 360,
+  "Block": "provident",
+  "Registered": "2021-04-15T03:31:32.9437607+02:00",
+  "RegisteredAssociateId": 528,
+  "Updated": "2020-05-31T03:31:32.9437607+02:00",
+  "UpdatedAssociateId": 778,
+  "UpdatedCount": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 680
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

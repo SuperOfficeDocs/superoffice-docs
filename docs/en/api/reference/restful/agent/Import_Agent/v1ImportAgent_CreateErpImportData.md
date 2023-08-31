@@ -83,32 +83,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Dickens Group",
-      "Operator": "quas",
+      "Name": "Predovic, Shanahan and Witting",
+      "Operator": "quis",
       "Values": [
-        "unde",
-        "sapiente"
+        "id",
+        "ut"
       ],
       "DisplayValues": [
-        "nam",
-        "sint"
+        "et",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 115,
+      "InterParenthesis": 68,
       "InterOperator": "And",
-      "UniqueHash": 792
+      "UniqueHash": 566
     }
   ],
   "Columns": [
-    "corrupti",
-    "dolorem"
+    "aliquam",
+    "animi"
   ],
-  "ConnectionId": 987,
+  "ConnectionId": 124,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "rerum",
-        "magni"
+        "ut",
+        "corrupti"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "error",
+      "ExternalKey": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldLength": 684
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Wolf-Rosenbaum",
-      "DisplayName": "Homenick-Welch",
-      "Locked": true,
+      "Name": "Walter, Ernser and Toy",
+      "DisplayName": "Weissnat-Grady",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     },
     {
-      "Name": "Wolf-Rosenbaum",
-      "DisplayName": "Homenick-Welch",
-      "Locked": true,
+      "Name": "Walter, Ernser and Toy",
+      "DisplayName": "Weissnat-Grady",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldType": "System.String",
+          "FieldLength": 462
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldLength": 677
     }
   }
 }

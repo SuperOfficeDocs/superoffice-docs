@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,146 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 390,
-      "ContactName": "Kuvalis LLC",
-      "PersonId": 695,
-      "PersonName": "Crooks Inc and Sons",
-      "AssociateId": 798,
-      "Address": "reprehenderit",
-      "EmailId": 46,
+      "ContactId": 514,
+      "ContactName": "Bednar-Monahan",
+      "PersonId": 402,
+      "PersonName": "Dare Group",
+      "AssociateId": 369,
+      "Address": "eos",
+      "EmailId": 644,
       "DuplicatePersonIds": [
-        56,
-        569
+        312,
+        276
       ],
-      "Name": "Prohaska, McCullough and Blick",
+      "Name": "Blick, Okuneva and Wunsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 774
+          "FieldLength": 8
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 710,
-      "ContactName": "Jerde Group",
-      "PersonId": 746,
-      "PersonName": "Waelchi Group",
-      "AssociateId": 316,
-      "Address": "praesentium",
-      "EmailId": 571,
+      "ContactId": 915,
+      "ContactName": "Cartwright, Gleichner and O'Kon",
+      "PersonId": 83,
+      "PersonName": "Ziemann, Boehm and Kuhn",
+      "AssociateId": 641,
+      "Address": "maiores",
+      "EmailId": 399,
       "DuplicatePersonIds": [
-        80,
-        849
+        358,
+        847
       ],
-      "Name": "Schmitt, Greenholt and Ledner",
+      "Name": "Franecki-Pollich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 975
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 779,
-      "ContactName": "Jaskolski LLC",
-      "PersonId": 796,
-      "PersonName": "Satterfield-Padberg",
-      "AssociateId": 102,
-      "Address": "cumque",
-      "EmailId": 5,
+      "ContactId": 795,
+      "ContactName": "Bechtelar, Will and Mills",
+      "PersonId": 758,
+      "PersonName": "Runolfsdottir Group",
+      "AssociateId": 694,
+      "Address": "voluptatem",
+      "EmailId": 205,
       "DuplicatePersonIds": [
-        968,
-        899
+        755,
+        659
       ],
-      "Name": "Cremin-Pouros",
+      "Name": "Ratke LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 169
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "sint",
+  "Subject": "magni",
+  "HTMLBody": "aliquam",
   "From": null,
-  "Sent": "1996-12-23T16:00:40.8674876+01:00",
-  "Size": 330,
+  "Sent": "1998-12-27T03:31:26.4332438+01:00",
+  "Size": 765,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "dicta",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "qui",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 576,
+  "ServerId": 463,
   "Attachments": [
     {
-      "Description": "Cross-group 3rd generation interface",
-      "Filename": "voluptas",
-      "Size": 537,
-      "Type": "et",
-      "Encoding": "consequatur",
-      "Id": "quia",
-      "Disposition": "ea",
+      "Description": "Universal composite function",
+      "Filename": "voluptatum",
+      "Size": 478,
+      "Type": "itaque",
+      "Encoding": "omnis",
+      "Id": "modi",
+      "Disposition": "voluptates",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 758
+          "FieldLength": 520
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Feest-Raynor",
+      "Name": "Yundt Group",
       "Values": [
-        "rerum",
-        "eveniet"
+        "officiis",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldLength": 431
         }
       }
     },
     {
-      "Name": "Feest-Raynor",
+      "Name": "Yundt Group",
       "Values": [
-        "rerum",
-        "eveniet"
+        "officiis",
+        "voluptatum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 518
+          "FieldLength": 431
         }
       }
     }
   ],
-  "FolderName": "Ratke, Gutmann and Eichmann",
-  "EmailItemId": 797,
-  "AccountId": 319,
-  "ReceivedAt": "2008-08-04T16:00:40.8674876+02:00",
+  "FolderName": "Hoppe, Harris and Dach",
+  "EmailItemId": 786,
+  "AccountId": 415,
+  "ReceivedAt": "2011-10-26T03:31:26.4332438+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1997-07-21T16:00:40.8674876+02:00",
+  "RepliedAt": "2010-06-18T03:31:26.4332438+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 777
+      "FieldLength": 680
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Mayer Inc and Sons",
-    "ToolTip": "Rerum rerum est quam sit est asperiores.",
-    "Deleted": false,
-    "Rank": 304,
-    "Type": "sunt",
-    "ColorBlock": 913,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2002-04-25T16:00:48.211547+02:00",
+    "Id": 527,
+    "Name": "Harber, Bednar and Larson",
+    "ToolTip": "Eos a et.",
+    "Deleted": true,
+    "Rank": 753,
+    "Type": "et",
+    "ColorBlock": 277,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2013-06-20T03:31:32.8163583+02:00",
     "ChildItems": [
       {
-        "Id": 121,
-        "Name": "Gutkowski, Prosacco and Rogahn",
-        "ToolTip": "Ducimus magni.",
-        "Deleted": true,
-        "Rank": 535,
-        "Type": "unde",
-        "ColorBlock": 427,
-        "IconHint": "enim",
+        "Id": 527,
+        "Name": "Cummerata Inc and Sons",
+        "ToolTip": "Aliquid ut aspernatur qui rerum.",
+        "Deleted": false,
+        "Rank": 44,
+        "Type": "sit",
+        "ColorBlock": 259,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2022-10-31T16:00:48.211547+01:00",
+        "LastChanged": "2016-05-03T03:31:32.8163583+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Dr. Caterina Kilback",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Haley Lelia Bosco II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 827
+            "FieldType": "System.Int32",
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "exercitationem",
+    "ExtraInfo": "expedita",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Albert Volkman",
+    "FullName": "Miss Maude Robel DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 456
       }
     }
   }

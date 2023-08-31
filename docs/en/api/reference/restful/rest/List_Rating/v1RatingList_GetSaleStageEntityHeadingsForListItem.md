@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 563,
-    "Name": "Dooley-McCullough",
-    "ToolTip": "Voluptatum nihil mollitia quo aperiam officiis.",
+    "Id": 633,
+    "Name": "Bogan Inc and Sons",
+    "ToolTip": "Id laudantium reprehenderit quam omnis.",
     "Deleted": false,
-    "Rank": 193,
-    "Type": "molestiae",
-    "ColorBlock": 998,
-    "IconHint": "atque",
+    "Rank": 336,
+    "Type": "minima",
+    "ColorBlock": 615,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "2003-09-21T16:00:49.2583068+02:00",
+    "LastChanged": "2005-07-09T03:31:33.8210957+02:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Kozey, McLaughlin and Hahn",
-        "ToolTip": "Qui sint assumenda.",
+        "Id": 653,
+        "Name": "Hane, Bartell and Blick",
+        "ToolTip": "Id natus sequi saepe.",
         "Deleted": false,
-        "Rank": 225,
-        "Type": "facere",
-        "ColorBlock": 741,
-        "IconHint": "ut",
+        "Rank": 992,
+        "Type": "et",
+        "ColorBlock": 640,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2006-07-16T16:00:49.2583068+02:00",
+        "LastChanged": "2012-04-30T03:31:33.8210957+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Martine Reilly",
+        "ExtraInfo": "vitae",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Herminia VonRueden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 156
+            "FieldLength": 12
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "ab",
-    "Hidden": true,
-    "FullName": "Domenica Rice",
+    "ExtraInfo": "velit",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Donna Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldType": "System.String",
+        "FieldLength": 712
       }
     }
   }

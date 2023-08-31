@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    260,
-    770
+    88,
+    920
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Cole, Beer and Moore",
-    "AssociateId": 428,
-    "DetailsTable": 943,
-    "DetailsRecord": 951,
+    "Id": 94,
+    "Name": "Harvey-Bruen",
+    "AssociateId": 972,
+    "DetailsTable": 289,
+    "DetailsRecord": 780,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "beatae",
-      "ParameterObject2": "earum"
+      "ParameterObject1": "voluptas",
+      "ParameterObject2": "voluptatem"
     },
-    "LastStarted": "2012-04-30T16:00:40.1019505+02:00",
-    "Created": "2014-08-01T16:00:40.1019505+02:00",
-    "StartCount": 457,
-    "DatabaseSerialNumber": "980780",
-    "Context": "eos",
-    "Result": "illum",
+    "LastStarted": "2013-06-06T03:31:25.6496314+02:00",
+    "Created": "2019-02-20T03:31:25.6496314+01:00",
+    "StartCount": 48,
+    "DatabaseSerialNumber": "597378",
+    "Context": "aut",
+    "Result": "quis",
     "State": "All",
-    "Description": "Balanced grid-enabled extranet",
-    "Response": "doloribus",
-    "Request": "sequi",
-    "ProgressDescription": "Programmable web-enabled success",
-    "ProgressPercent": 515,
-    "FileName": "King-Hoppe",
+    "Description": "Profit-focused regional hub",
+    "Response": "est",
+    "Request": "sapiente",
+    "ProgressDescription": "Cloned background intranet",
+    "ProgressPercent": 358,
+    "FileName": "Stark, Schmitt and Deckow",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 670
       }
     }
   }

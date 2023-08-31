@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 983,
+  "SystemEventId": 567,
   "Scope": "Database",
-  "Eta": "2022-12-14T16:00:48.4615203+01:00",
-  "Eventkey": "dolorem",
-  "Eventmess": "vero",
-  "ExtraInfo": 470,
-  "Owner": 157,
-  "UpdatedCount": 41,
-  "Registered": "2012-05-15T16:00:48.4615203+02:00",
+  "Eta": "2017-01-17T03:31:32.9594383+01:00",
+  "Eventkey": "eveniet",
+  "Eventmess": "qui",
+  "ExtraInfo": 567,
+  "Owner": 682,
+  "UpdatedCount": 641,
+  "Registered": "2009-07-21T03:31:32.9594383+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 14
     }
   },
   "_Links": {

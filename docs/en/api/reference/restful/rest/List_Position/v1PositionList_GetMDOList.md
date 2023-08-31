@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=molestiae
+GET /api/v1/List/Position/MDOItems?query=at
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 398,
-    "Name": "Sporer, Predovic and Reichel",
-    "ToolTip": "Quidem officiis odit fuga officiis.",
-    "Deleted": false,
-    "Rank": 88,
-    "Type": "repellat",
+    "Id": 661,
+    "Name": "Pollich-Hudson",
+    "ToolTip": "Deserunt ratione ex sit temporibus.",
+    "Deleted": true,
+    "Rank": 331,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 814,
-        "Name": "Blanda-Grimes",
-        "ToolTip": "Quia aperiam qui exercitationem voluptatem et harum eum.",
+        "Id": 308,
+        "Name": "Jewess, Cole and Bergstrom",
+        "ToolTip": "Hic commodi dolorem rem.",
         "Deleted": true,
-        "Rank": 53,
-        "Type": "libero",
+        "Rank": 658,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 983,
-        "ExtraInfo": "et",
-        "StyleHint": "nostrum",
-        "FullName": "Mr. Joshua Gaylord",
+        "IconHint": "maxime",
+        "ColorBlock": 392,
+        "ExtraInfo": "qui",
+        "StyleHint": "molestiae",
+        "FullName": "Americo Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldType": "System.Int32",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "IconHint": "iusto",
-    "ColorBlock": 100,
-    "ExtraInfo": "illum",
-    "StyleHint": "et",
-    "FullName": "Florian Borer",
+    "IconHint": "atque",
+    "ColorBlock": 927,
+    "ExtraInfo": "explicabo",
+    "StyleHint": "tempore",
+    "FullName": "Elbert Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldType": "System.String",
+        "FieldLength": 292
       }
     }
   }

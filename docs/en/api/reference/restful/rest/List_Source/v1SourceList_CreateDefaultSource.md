@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 95,
-  "Name": "Jakubowski, Anderson and Koss",
-  "Tooltip": "et",
+  "Id": 354,
+  "Name": "Bashirian LLC",
+  "Tooltip": "animi",
   "Deleted": false,
-  "UdListDefinitionId": 258,
-  "Rank": 497,
+  "UdListDefinitionId": 656,
+  "Rank": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 933
     }
   }
 }

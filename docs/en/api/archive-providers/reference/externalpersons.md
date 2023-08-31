@@ -348,7 +348,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -662,7 +662,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=personAssociate/assocTooltip,personAssociate/credentialDisplayValue,request/createdBy/lastName,request/extra/x_ticket_longtext,projectMembers/projectAssociate/contactId
+GET /api/v1/archive/ExternalPersons?$select=searchPhone/description,email/emailAddress,request/lastChanged,request/createdBy/ejStatus,personAppointment/associate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

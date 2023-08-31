@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 795
+  "CountryId": 122
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 980,
-  "BlobSize": 427,
-  "Description": "Open-architected dynamic open system",
-  "ExtraInfo": "quos",
-  "IsEncrypted": false,
+  "BlobId": 365,
+  "BlobSize": 523,
+  "Description": "User-centric context-sensitive complexity",
+  "ExtraInfo": "rerum",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 154,
-  "CreatedDate": "2021-04-13T16:00:40.1331959+02:00",
-  "UpdatedDate": "2007-08-03T16:00:40.1331959+02:00",
+  "MimeType": "dicta",
+  "OriginalSize": 110,
+  "CreatedDate": "2008-09-22T03:31:25.6652413+02:00",
+  "UpdatedDate": "2020-01-12T03:31:25.6652413+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestias",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 348
     }
   }
 }

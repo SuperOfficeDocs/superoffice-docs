@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stanton-Langosh",
-    "DisplayName": "Collier-Schamberger",
-    "Description": "Secured disintermediate open architecture",
-    "ToolTip": "Et quis sit eveniet quia.",
+    "Name": "Gutmann, Stanton and Feest",
+    "DisplayName": "Windler Inc and Sons",
+    "Description": "Distributed secondary parallelism",
+    "ToolTip": "Beatae eaque et in.",
     "Actions": "Implicit",
-    "ActionData": "ullam",
+    "ActionData": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldLength": 190
       }
     }
   }

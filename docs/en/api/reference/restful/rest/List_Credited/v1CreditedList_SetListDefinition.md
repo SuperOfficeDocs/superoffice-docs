@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 431,
-  "Name": "Schumm Group",
-  "Tooltip": "ratione",
+  "Id": 925,
+  "Name": "Bernier Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 429,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 613,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 2,
-  "Name": "Green-Bartoletti",
-  "Tooltip": "atque",
+  "Id": 193,
+  "Name": "Kuhn LLC",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "Rank": 369,
-  "IsCustomList": true,
+  "Rank": 276,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "numquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 881
     }
   }
 }

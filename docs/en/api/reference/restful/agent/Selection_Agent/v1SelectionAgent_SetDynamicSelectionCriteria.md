@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 609,
+  "SelectionId": 986,
   "Criteria": [
     {
-      "Name": "Wiza, Kerluke and Nitzsche",
-      "Operator": "aut",
+      "Name": "Ratke, Bahringer and Kub",
+      "Operator": "nulla",
       "Values": [
-        "eveniet",
-        "quas"
+        "in",
+        "non"
       ],
       "DisplayValues": [
-        "provident",
-        "maxime"
+        "dolorem",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 696,
+      "InterParenthesis": 1002,
       "InterOperator": "And",
-      "UniqueHash": 904
+      "UniqueHash": 723
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kihn, Rosenbaum and Hane",
-    "Operator": "aut",
+    "Name": "Sipes, Turner and Reichert",
+    "Operator": "sequi",
     "Values": [
-      "vero",
-      "quam"
+      "reprehenderit",
+      "dolor"
     ],
     "DisplayValues": [
-      "ad",
-      "non"
+      "repellendus",
+      "excepturi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Cruickshank, Green and Schneider",
-        "Operator": "nobis",
+        "Name": "Kassulke Inc and Sons",
+        "Operator": "magnam",
         "Values": [
-          "repellat",
-          "est"
+          "officiis",
+          "et"
         ],
         "DisplayValues": [
-          "quibusdam",
-          "eaque"
+          "accusantium",
+          "cupiditate"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 457,
+        "InterParenthesis": 710,
         "InterOperator": "And",
-        "UniqueHash": 366
+        "UniqueHash": 104
       }
     ],
-    "InterParenthesis": 133,
+    "InterParenthesis": 794,
     "InterOperator": "And",
-    "UniqueHash": 740
+    "UniqueHash": 316
   }
 ]
 ```

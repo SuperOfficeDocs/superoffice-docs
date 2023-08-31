@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 686,
-  "Name": "Kiehn-Pouros",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "Rank": 649,
+  "Id": 90,
+  "Name": "Hagenes, Kassulke and Hamill",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "Rank": 706,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "ListType": "a",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
-  "Name": "Heaney-Spencer",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 723,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vero",
-  "InUseByUserDefinedFields": true,
+  "Id": 391,
+  "Name": "Parker Group",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "Rank": 850,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nemo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldLength": 410
     }
   }
 }

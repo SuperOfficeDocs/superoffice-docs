@@ -740,7 +740,7 @@ This is the archive Provider for the Selection QuoteLine archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelection?$select=updatedBy,alternative/version/quoteVersionId,alternative/version/quote/registeredDate,alternative/version/quote/sale/contact/contactPhone/description,alternative/version/quote/sale/contact/LastCompletedTicket
+GET /api/v1/archive/QuoteLineSelection?$select=alternative/version/quote/sale/person/personDirectFax/description,alternative/version/quote/sale/person/restrictionAddress/addressId,alternative/version/quote/sale/person/restrictionAddress/zip,alternative/version/quote/sale/contact/restrictionAddress/addressId,alternative/version/quote/sale/saleUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

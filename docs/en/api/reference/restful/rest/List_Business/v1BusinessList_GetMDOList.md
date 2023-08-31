@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Kreiger-Ryan",
-    "ToolTip": "Quia doloremque commodi esse exercitationem commodi culpa rem.",
+    "Id": 841,
+    "Name": "Baumbach, Kreiger and Kreiger",
+    "ToolTip": "Quia voluptatem architecto et quia necessitatibus aliquid vero.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "expedita",
+    "Rank": 726,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Aufderhar, Breitenberg and Mueller",
-        "ToolTip": "Sit dolores facere eum debitis dignissimos.",
-        "Deleted": true,
-        "Rank": 898,
-        "Type": "ad",
+        "Id": 379,
+        "Name": "Jacobs LLC",
+        "ToolTip": "Quas omnis.",
+        "Deleted": false,
+        "Rank": 843,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 979,
-        "ExtraInfo": "sed",
-        "StyleHint": "magni",
-        "FullName": "Ezra Collier",
+        "IconHint": "qui",
+        "ColorBlock": 413,
+        "ExtraInfo": "commodi",
+        "StyleHint": "assumenda",
+        "FullName": "Ms. Rashad O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 959
+            "FieldType": "System.String",
+            "FieldLength": 392
           }
         }
       }
     ],
-    "IconHint": "atque",
-    "ColorBlock": 852,
-    "ExtraInfo": "officiis",
-    "StyleHint": "provident",
-    "FullName": "Prof. Friedrich Satterfield",
+    "IconHint": "nostrum",
+    "ColorBlock": 467,
+    "ExtraInfo": "quia",
+    "StyleHint": "ab",
+    "FullName": "Miss Stuart Wilfredo Sporer MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 446
       }
     }
   }

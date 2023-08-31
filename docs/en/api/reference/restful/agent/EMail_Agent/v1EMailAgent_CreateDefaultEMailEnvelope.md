@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 197,
-  "MessageId": "accusantium",
-  "Subject": "aliquam",
+  "ServerId": 722,
+  "MessageId": "consequatur",
+  "Subject": "ullam",
   "From": null,
   "To": [
     {
-      "ContactId": 468,
-      "ContactName": "Hoppe Group",
-      "PersonId": 761,
-      "PersonName": "Roob, Volkman and Blanda",
-      "AssociateId": 615,
-      "Address": "iste",
-      "EmailId": 59,
+      "ContactId": 271,
+      "ContactName": "McKenzie-Bergnaum",
+      "PersonId": 416,
+      "PersonName": "Langosh, Schroeder and Orn",
+      "AssociateId": 350,
+      "Address": "velit",
+      "EmailId": 313,
       "DuplicatePersonIds": [
-        70,
-        112
+        682,
+        113
       ],
-      "Name": "Bode Group",
+      "Name": "Spinka-Padberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 137
         }
       }
     }
   ],
-  "Sent": "2016-02-11T16:00:40.8987367+01:00",
+  "Sent": "2014-06-11T03:31:26.4488627+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 776,
+  "Size": 324,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

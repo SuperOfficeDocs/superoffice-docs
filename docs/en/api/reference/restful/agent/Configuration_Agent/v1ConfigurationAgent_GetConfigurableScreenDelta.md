@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=393
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=207
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 651,
-  "Name": "Corwin, Fay and Labadie",
-  "Description": "De-engineered cohesive neural-net",
-  "DeltaJson": "recusandae",
+  "ConfigurableScreenDeltaId": 568,
+  "Name": "Doyle LLC",
+  "Description": "Horizontal demand-driven functionalities",
+  "DeltaJson": "voluptatem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "vel",
-  "UpdatedDate": "2007-06-15T16:00:40.3050315+02:00",
-  "CreatedDate": "2008-02-13T16:00:40.3050315+01:00",
+  "RecipeId": "nobis",
+  "UpdatedDate": "2010-06-21T03:31:25.8228647+02:00",
+  "CreatedDate": "1999-03-15T03:31:25.8228647+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    152,
-    561
+    116,
+    566
   ],
-  "AppliesToKey": "non",
+  "AppliesToKey": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 593
     }
   }
 }

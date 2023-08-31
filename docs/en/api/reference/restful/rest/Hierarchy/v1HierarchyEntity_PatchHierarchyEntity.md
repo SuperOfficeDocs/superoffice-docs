@@ -72,7 +72,7 @@ PATCH /api/v1/Hierarchy/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "autem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "autem",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 936,
+  "HierarchyId": 174,
   "Domain": "Dashboards",
-  "Name": "Ratke Inc and Sons",
-  "Fullname": "cupiditate",
-  "ParentId": 869,
+  "Name": "Mills, Christiansen and Brakus",
+  "Fullname": "repellat",
+  "ParentId": 20,
   "Children": [
     {
-      "HierarchyId": 799,
+      "HierarchyId": 37,
       "Domain": "Dashboards",
-      "Name": "Maggio, Kuvalis and Murray",
-      "Fullname": "voluptate",
-      "ParentId": 394,
+      "Name": "Pouros Group",
+      "Fullname": "est",
+      "ParentId": 833,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-07-08T16:00:47.9928249+02:00",
-      "RegisteredAssociateId": 137,
-      "Updated": "2010-10-09T16:00:47.9928249+02:00",
-      "UpdatedAssociateId": 745,
+      "Registered": "2018-03-15T03:31:32.6289016+01:00",
+      "RegisteredAssociateId": 772,
+      "Updated": "2018-08-12T03:31:32.6289016+02:00",
+      "UpdatedAssociateId": 176,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldType": "System.String",
+          "FieldLength": 24
         }
       }
     }
   ],
-  "Registered": "2021-07-23T16:00:47.9928249+02:00",
-  "RegisteredAssociateId": 995,
-  "Updated": "2001-08-16T16:00:47.9928249+02:00",
-  "UpdatedAssociateId": 1001,
+  "Registered": "2019-08-29T03:31:32.6289016+02:00",
+  "RegisteredAssociateId": 143,
+  "Updated": "2000-08-31T03:31:32.6289016+02:00",
+  "UpdatedAssociateId": 200,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldType": "System.Int32",
+      "FieldLength": 496
     }
   },
   "_Links": {

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Murphy Inc and Sons",
-  "Id": 184
+  "HistoryName": "Windler, Brekke and Leannon",
+  "Id": 224
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 792,
-  "Id": 246,
-  "HistoryName": "Lindgren Inc and Sons",
-  "HistoryId": 605,
-  "AssociateId": 741,
-  "Name": "Wolf, Ebert and Greenfelder",
-  "ItemInfo": "nihil",
+  "Rank": 937,
+  "Id": 599,
+  "HistoryName": "Langworth, Rodriguez and Mitchell",
+  "HistoryId": 827,
+  "AssociateId": 297,
+  "Name": "Barrows-Prohaska",
+  "ItemInfo": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldLength": 756
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 12
+  "CountWords": 841
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 338,
-    "Name": "Kunze Inc and Sons",
-    "ToolTip": "Amet tenetur tenetur est ducimus mollitia.",
-    "Deleted": true,
-    "Rank": 606,
-    "Type": "repellendus",
+    "Id": 852,
+    "Name": "Wiza, Dickens and Shanahan",
+    "ToolTip": "Quo voluptas autem iure ut velit eos.",
+    "Deleted": false,
+    "Rank": 765,
+    "Type": "hic",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Cummings-Heidenreich",
-        "ToolTip": "Animi non.",
-        "Deleted": true,
-        "Rank": 152,
-        "Type": "dolore",
+        "Id": 208,
+        "Name": "Howell, O'Connell and Walsh",
+        "ToolTip": "Accusantium totam autem sapiente incidunt error molestiae.",
+        "Deleted": false,
+        "Rank": 137,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fuga",
-        "ColorBlock": 896,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "dolorem",
-        "FullName": "Ibrahim Schaden",
+        "IconHint": "qui",
+        "ColorBlock": 522,
+        "ExtraInfo": "corporis",
+        "StyleHint": "nemo",
+        "FullName": "Paula Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 507
+            "FieldType": "System.Int32",
+            "FieldLength": 143
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 707,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "doloribus",
-    "FullName": "Dr. Elta Tristian Harvey V",
+    "IconHint": "aut",
+    "ColorBlock": 123,
+    "ExtraInfo": "ut",
+    "StyleHint": "autem",
+    "FullName": "Prof. Howard Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

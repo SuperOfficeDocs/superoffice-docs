@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 457,
-  "ColumnId": 962,
-  "FieldDefault": "et",
-  "FieldHeight": 547,
-  "FieldLabel": "et",
-  "FieldLeft": 251,
-  "FieldTop": 162,
+  "UDefFieldId": 826,
+  "ColumnId": 171,
+  "FieldDefault": "quia",
+  "FieldHeight": 5,
+  "FieldLabel": "blanditiis",
+  "FieldLeft": 844,
+  "FieldTop": 958,
   "FieldType": "Checkbox",
-  "FieldWidth": 536,
-  "FormatMask": "nemo",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 36,
-  "LabelLeft": 926,
-  "LabelTop": 136,
-  "LabelWidth": 334,
-  "LastVersionId": 234,
-  "ListTableId": 230,
+  "FieldWidth": 758,
+  "FormatMask": "quis",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 475,
+  "LabelLeft": 396,
+  "LabelTop": 690,
+  "LabelWidth": 399,
+  "LastVersionId": 626,
+  "ListTableId": 114,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 489,
-  "ProgId": "officiis",
+  "Page1LineNo": 142,
+  "ProgId": "amet",
   "IsReadOnly": false,
-  "ShortLabel": "illo",
-  "TabOrder": 804,
-  "TextLength": 462,
-  "Tooltip": "sit",
-  "UdefIdentity": 360,
-  "UDListDefinitionId": 407,
+  "ShortLabel": "rerum",
+  "TabOrder": 959,
+  "TextLength": 40,
+  "Tooltip": "totam",
+  "UdefIdentity": 722,
+  "UDListDefinitionId": 236,
   "Justification": "Center",
-  "Version": 59,
-  "TemplateVariableName": "Block Group",
+  "Version": 754,
+  "TemplateVariableName": "Rogahn Group",
   "HasBeenPublished": true,
-  "MdoListName": "Vandervort LLC",
+  "MdoListName": "Weissnat Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

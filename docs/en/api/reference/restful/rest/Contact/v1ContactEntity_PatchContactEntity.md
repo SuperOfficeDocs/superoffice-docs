@@ -72,7 +72,7 @@ PATCH /api/v1/Contact/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -151,18 +151,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "earum",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "earum",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -175,157 +175,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 878,
-  "Name": "Kuhlman-Jones",
+  "ContactId": 367,
+  "Name": "Altenwerth-Tillman",
   "Department": "",
-  "OrgNr": "846684",
-  "Number1": "833276",
-  "Number2": "456806",
-  "UpdatedDate": "2013-06-22T16:00:47.7741025+02:00",
-  "CreatedDate": "2012-07-06T16:00:47.7741025+02:00",
+  "OrgNr": "1950123",
+  "Number1": "1175073",
+  "Number2": "1239488",
+  "UpdatedDate": "2001-08-08T03:31:32.4570678+02:00",
+  "CreatedDate": "2020-03-05T03:31:32.4570678+01:00",
   "Emails": [
     {
-      "Value": "qui",
-      "StrippedValue": "quo",
-      "Description": "Open-architected dedicated analyzer",
+      "Value": "harum",
+      "StrippedValue": "exercitationem",
+      "Description": "Universal leading edge Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 202
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "quo",
-      "Description": "Open-architected dedicated analyzer",
+      "Value": "harum",
+      "StrippedValue": "exercitationem",
+      "Description": "Universal leading edge Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldType": "System.String",
+          "FieldLength": 202
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 245,
-      "Name": "Hayes, Robel and Turcotte",
-      "ToolTip": "Sed in quod.",
-      "Deleted": true,
-      "Rank": 37,
-      "Type": "nihil",
-      "ColorBlock": 425,
-      "IconHint": "velit",
+      "Id": 289,
+      "Name": "Crooks-Medhurst",
+      "ToolTip": "Nihil et illo sit voluptatum maiores maxime harum.",
+      "Deleted": false,
+      "Rank": 227,
+      "Type": "ipsum",
+      "ColorBlock": 47,
+      "IconHint": "cupiditate",
       "Selected": false,
-      "LastChanged": "1999-09-17T16:00:47.7741025+02:00",
+      "LastChanged": "2018-09-05T03:31:32.4570678+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quos",
-      "StyleHint": "laudantium",
+      "ExtraInfo": "sequi",
+      "StyleHint": "eveniet",
       "Hidden": false,
-      "FullName": "Jesus Lehner",
+      "FullName": "Makayla Dicki",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldType": "System.String",
+          "FieldLength": 968
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ut",
-      "StrippedValue": "veniam",
-      "Description": "Phased high-level open system",
+      "Value": "eveniet",
+      "StrippedValue": "ducimus",
+      "Description": "Organized stable neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 107
         }
       }
     },
     {
-      "Value": "ut",
-      "StrippedValue": "veniam",
-      "Description": "Phased high-level open system",
+      "Value": "eveniet",
+      "StrippedValue": "ducimus",
+      "Description": "Organized stable neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldType": "System.String",
+          "FieldLength": 107
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "tempora",
-      "StrippedValue": "atque",
-      "Description": "Triple-buffered needs-based architecture",
+      "Value": "esse",
+      "StrippedValue": "necessitatibus",
+      "Description": "Multi-layered non-volatile time-frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     },
     {
-      "Value": "tempora",
-      "StrippedValue": "atque",
-      "Description": "Triple-buffered needs-based architecture",
+      "Value": "esse",
+      "StrippedValue": "necessitatibus",
+      "Description": "Multi-layered non-volatile time-frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldType": "System.String",
+          "FieldLength": 587
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptatem",
-      "StrippedValue": "rerum",
-      "Description": "Public-key zero defect pricing structure",
+      "Value": "expedita",
+      "StrippedValue": "dolor",
+      "Description": "Virtual content-based groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 914
         }
       }
     },
     {
-      "Value": "voluptatem",
-      "StrippedValue": "rerum",
-      "Description": "Public-key zero defect pricing structure",
+      "Value": "expedita",
+      "StrippedValue": "dolor",
+      "Description": "Virtual content-based groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 914
         }
       }
     }
   ],
-  "Description": "Quality-focused client-driven synergy",
+  "Description": "Mandatory executive help-desk",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -334,105 +334,105 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "qui",
-      "PersonId": 595,
-      "Mrmrs": "blanditiis",
-      "Firstname": "Roma",
-      "Lastname": "Gleason",
-      "MiddleName": "Farrell-Konopelski",
-      "Title": "earum",
-      "Description": "Diverse logistical internet solution",
-      "Email": "terrill_koelpin@barrows.biz",
-      "FullName": "Quinn Nitzsche",
-      "DirectPhone": "234.551.7105 x068",
-      "FormalName": "Stark-Stroman",
-      "CountryId": 581,
-      "ContactId": 350,
-      "ContactName": "Toy, Block and Miller",
-      "Retired": 689,
-      "Rank": 700,
-      "ActiveInterests": 865,
+      "Position": "reiciendis",
+      "PersonId": 929,
+      "Mrmrs": "esse",
+      "Firstname": "Felipe",
+      "Lastname": "Erdman",
+      "MiddleName": "Luettgen-Sauer",
+      "Title": "delectus",
+      "Description": "Seamless homogeneous algorithm",
+      "Email": "aubree_rogahn@blick.co.uk",
+      "FullName": "Prof. Rico Jacobi V",
+      "DirectPhone": "499.947.7495 x2428",
+      "FormalName": "Torphy-Becker",
+      "CountryId": 971,
+      "ContactId": 772,
+      "ContactName": "Schiller Inc and Sons",
+      "Retired": 48,
+      "Rank": 340,
+      "ActiveInterests": 548,
       "ContactDepartment": "",
-      "ContactCountryId": 779,
-      "ContactOrgNr": "606664",
-      "FaxPhone": "286.217.1534 x126",
-      "MobilePhone": "696-164-8881",
-      "ContactPhone": "902-744-4152",
-      "AssociateName": "Huel Group",
-      "AssociateId": 274,
-      "UsePersonAddress": true,
-      "ContactFax": "corporis",
-      "Kanafname": "aut",
-      "Kanalname": "iure",
-      "Post1": "aliquam",
-      "Post2": "veritatis",
-      "Post3": "aut",
-      "EmailName": "chadd@ritchieconn.biz",
-      "ContactFullName": "Finn Pagac",
-      "ActiveErpLinks": 2,
-      "TicketPriorityId": 381,
-      "SupportLanguageId": 629,
-      "SupportAssociateId": 857,
+      "ContactCountryId": 132,
+      "ContactOrgNr": "1273013",
+      "FaxPhone": "(307)200-5979",
+      "MobilePhone": "846-246-0141 x270",
+      "ContactPhone": "282.725.9611",
+      "AssociateName": "Kozey Inc and Sons",
+      "AssociateId": 895,
+      "UsePersonAddress": false,
+      "ContactFax": "odit",
+      "Kanafname": "iusto",
+      "Kanalname": "temporibus",
+      "Post1": "facere",
+      "Post2": "ea",
+      "Post3": "saepe",
+      "EmailName": "antonetta@turcottewelch.us",
+      "ContactFullName": "Damon Torp",
+      "ActiveErpLinks": 455,
+      "TicketPriorityId": 601,
+      "SupportLanguageId": 422,
+      "SupportAssociateId": 96,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldType": "System.String",
+          "FieldLength": 787
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "autem",
+  "Kananame": "aspernatur",
   "Xstop": false,
-  "ActiveInterests": 974,
-  "GroupId": 630,
-  "ActiveStatusMonitorId": 581,
+  "ActiveInterests": 386,
+  "GroupId": 111,
+  "ActiveStatusMonitorId": 898,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 154,
-  "DbiAgentId": 499,
-  "DbiLastSyncronized": "2001-03-22T16:00:47.7897206+01:00",
-  "DbiKey": "non",
-  "DbiLastModified": "2020-05-08T16:00:47.7897206+02:00",
+  "Deleted": 272,
+  "DbiAgentId": 535,
+  "DbiLastSyncronized": "1997-09-20T03:31:32.4570678+02:00",
+  "DbiKey": "natus",
+  "DbiLastModified": "2010-07-09T03:31:32.4570678+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 511,
-  "ActiveErpLinks": 55,
+  "Source": 920,
+  "ActiveErpLinks": 486,
   "BounceEmails": [
-    "okey@mohr.uk",
-    "armand@johnsherman.us"
+    "mabelle.lesch@schambergerrutherford.co.uk",
+    "ezra@dietrich.com"
   ],
   "Domains": [
-    "eveniet",
-    "nemo"
+    "voluptas",
+    "asperiores"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "613281581",
-    "SuperOffice:2": "Mrs. Amari Enoch Gorczany"
+    "SuperOffice:1": "Kari Murazik",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "veniam"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "illo"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "molestias",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 620
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

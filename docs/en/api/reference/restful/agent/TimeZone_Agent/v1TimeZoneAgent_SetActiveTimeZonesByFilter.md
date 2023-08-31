@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "vitae",
-  "Active": false
+  "Filter": "dicta",
+  "Active": true
 }
 ```
 

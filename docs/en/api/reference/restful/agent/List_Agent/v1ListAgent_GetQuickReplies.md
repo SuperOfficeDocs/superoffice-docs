@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 719,
-    "Name": "VonRueden-Morissette",
-    "HtmlBody": "atque",
+    "QuickReplyId": 823,
+    "Name": "Murazik Inc and Sons",
+    "HtmlBody": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 10
       }
     }
   },
   {
-    "QuickReplyId": 719,
-    "Name": "VonRueden-Morissette",
-    "HtmlBody": "atque",
+    "QuickReplyId": 823,
+    "Name": "Murazik Inc and Sons",
+    "HtmlBody": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldLength": 10
       }
     }
   }

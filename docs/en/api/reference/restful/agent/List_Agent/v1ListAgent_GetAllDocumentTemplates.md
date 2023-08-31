@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 388,
-    "Name": "Kozey Inc and Sons",
-    "Tooltip": "qui",
-    "SaveInDb": 430,
-    "Filename": "deserunt",
-    "DefaultOref": "consequuntur",
+    "DocumentTemplateId": 633,
+    "Name": "O'Connell, Prosacco and Pacocha",
+    "Tooltip": "soluta",
+    "SaveInDb": 522,
+    "Filename": "esse",
+    "DefaultOref": "possimus",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 377,
-    "IntentId": 882,
+    "AutoeventId": 774,
+    "IntentId": 654,
     "IsDefaultPublished": false,
-    "Rank": 501,
-    "LoadTemplateFromPlugin": 630,
-    "MimeType": "iusto",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 322,
+    "Rank": 415,
+    "LoadTemplateFromPlugin": 859,
+    "MimeType": "tempore",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 312,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "eugene@kuphal.name",
+    "EmailSubject": "garrison@tillmancremin.uk",
     "IncludeSignature": true,
-    "ShowCurrents": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "janie_schaefer@medhurst.name",
+    "SenderEmailAddress": "dorothy@rowe.com",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 809
       }
     }
   }

@@ -56,13 +56,14 @@ OK
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 
 ## Sample request
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,26 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 200,
-  "Name": "Powlowski, Goyette and Rau",
+  "WebhookId": 80,
+  "Name": "Gaylord-Moen",
   "Events": [
-    "fugit",
-    "accusantium"
+    "et",
+    "vel"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptas",
+  "Secret": "minus",
   "State": "Active",
-  "Type": "quia",
+  "Type": "rerum",
   "Headers": {
-    "Headers1": "quae",
-    "Headers2": "perferendis"
+    "Headers1": "illo",
+    "Headers2": "assumenda"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-06-01T16:00:48.8052335+02:00",
+  "Registered": "2011-09-09T03:31:33.4292537+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-10-10T16:00:48.8052335+02:00",
-  "UpdatedAssociate": null
+  "Updated": "1998-06-03T03:31:33.4292537+02:00",
+  "UpdatedAssociate": null,
+  "ErrorsEmail": "abagail@mullerbernier.uk"
 }
 ```

@@ -839,7 +839,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -1154,7 +1154,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=personUpdatedDate,personUdef/SuperOffice:4,personExtra/x_person_priority_relation,personTargetRelation/associateType,personTargetRelation/isProjectMember
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=LastDoByActivity,sale/heading,document/associate/contactId,document/associate/title,personUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

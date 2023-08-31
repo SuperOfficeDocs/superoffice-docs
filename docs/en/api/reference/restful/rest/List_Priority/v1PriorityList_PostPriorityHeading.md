@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 381,
-  "Name": "Dickens Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 429,
-  "UdListDefinitionId": 639
+  "HeadingId": 508,
+  "Name": "Hegmann-Lowe",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "Rank": 395,
+  "UdListDefinitionId": 200
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 686,
-  "Name": "Robel, Kulas and Quigley",
-  "Tooltip": "sit",
+  "HeadingId": 653,
+  "Name": "Wilderman LLC",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "Rank": 313,
-  "UdListDefinitionId": 701,
+  "Rank": 477,
+  "UdListDefinitionId": 369,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

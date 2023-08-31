@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 270
+  "QuoteVersionId": 185
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 10608.59,
-    "Wgs84Longitude": 10633.662,
+    "Wgs84Latitude": 17033.29,
+    "Wgs84Longitude": 29810.608,
     "LocalizedAddress": [
       [
         {
-          "Name": "Dare Group",
-          "Value": "enim",
-          "Tooltip": "aut",
-          "Label": "et",
-          "ValueLength": 168,
-          "AddressType": "et",
+          "Name": "Kutch Group",
+          "Value": "illum",
+          "Tooltip": "non",
+          "Label": "reiciendis",
+          "ValueLength": 39,
+          "AddressType": "voluptas",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 274
+              "FieldType": "System.String",
+              "FieldLength": 692
             }
           }
         }
       ],
       [
         {
-          "Name": "Weimann Inc and Sons",
-          "Value": "repellat",
-          "Tooltip": "qui",
-          "Label": "ipsum",
-          "ValueLength": 198,
-          "AddressType": "nihil",
+          "Name": "Gutmann-Dicki",
+          "Value": "autem",
+          "Tooltip": "molestias",
+          "Label": "officiis",
+          "ValueLength": 42,
+          "AddressType": "quos",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 280
+              "FieldType": "System.String",
+              "FieldLength": 322
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "qui",
+    "Formatted": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

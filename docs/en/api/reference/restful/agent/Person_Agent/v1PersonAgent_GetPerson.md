@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=979
+POST /api/v1/Agents/Person/GetPerson?personId=67
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "reiciendis",
-  "PersonId": 984,
-  "Mrmrs": "praesentium",
-  "Firstname": "Alejandra",
-  "Lastname": "Weber",
-  "MiddleName": "Sanford LLC",
-  "Title": "aut",
-  "Description": "Advanced tertiary access",
-  "Email": "catharine@barton.biz",
-  "FullName": "Dr. Gaylord Alexandre Auer",
-  "DirectPhone": "582-493-4737 x47410",
-  "FormalName": "Emmerich-Heaney",
-  "CountryId": 891,
-  "ContactId": 199,
-  "ContactName": "Reilly-Satterfield",
-  "Retired": 899,
-  "Rank": 248,
-  "ActiveInterests": 383,
+  "Position": "omnis",
+  "PersonId": 921,
+  "Mrmrs": "ipsam",
+  "Firstname": "Bulah",
+  "Lastname": "O'Reilly",
+  "MiddleName": "Mann LLC",
+  "Title": "animi",
+  "Description": "Sharable next generation solution",
+  "Email": "guiseppe.cummerata@macejkovickeebler.biz",
+  "FullName": "Miss Afton Simone Lebsack",
+  "DirectPhone": "(308)871-5241",
+  "FormalName": "Ryan-O'Connell",
+  "CountryId": 574,
+  "ContactId": 904,
+  "ContactName": "Zulauf-Renner",
+  "Retired": 543,
+  "Rank": 819,
+  "ActiveInterests": 111,
   "ContactDepartment": "",
-  "ContactCountryId": 63,
-  "ContactOrgNr": "1773382",
-  "FaxPhone": "1-791-577-9721",
-  "MobilePhone": "018-797-7494",
-  "ContactPhone": "167-793-8763 x5447",
-  "AssociateName": "Hyatt LLC",
-  "AssociateId": 768,
+  "ContactCountryId": 26,
+  "ContactOrgNr": "474987",
+  "FaxPhone": "1-639-753-5639 x1583",
+  "MobilePhone": "957.874.7176",
+  "ContactPhone": "1-552-699-9500 x021",
+  "AssociateName": "Predovic, Littel and Cummerata",
+  "AssociateId": 873,
   "UsePersonAddress": true,
-  "ContactFax": "natus",
-  "Kanafname": "ut",
-  "Kanalname": "qui",
-  "Post1": "nesciunt",
-  "Post2": "eveniet",
-  "Post3": "qui",
-  "EmailName": "glenda@kessler.biz",
-  "ContactFullName": "Prof. Madalyn Sherman Crist",
-  "ActiveErpLinks": 82,
-  "TicketPriorityId": 69,
-  "SupportLanguageId": 972,
-  "SupportAssociateId": 317,
+  "ContactFax": "quis",
+  "Kanafname": "nulla",
+  "Kanalname": "rerum",
+  "Post1": "mollitia",
+  "Post2": "accusantium",
+  "Post3": "sed",
+  "EmailName": "marianne_waelchi@mertzjones.com",
+  "ContactFullName": "Ms. Ivy Hermann V",
+  "ActiveErpLinks": 962,
+  "TicketPriorityId": 752,
+  "SupportLanguageId": 722,
+  "SupportAssociateId": 274,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 999
     }
   }
 }

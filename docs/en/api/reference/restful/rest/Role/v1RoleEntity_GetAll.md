@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=suscipit
-GET /api/v1/Role?$top=406
-GET /api/v1/Role?$skip=741
+GET /api/v1/Role?$entities=possimus
+GET /api/v1/Role?$top=662
+GET /api/v1/Role?$skip=670
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=esse
+GET /api/v1/Role?$context=voluptatum
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repellat",
+  "odata.nextLink": "repudiandae",
   "value": [
     {
-      "PrimaryKey": 8251,
+      "PrimaryKey": 4915,
       "EntityName": "sale",
-      "saleId": 8251,
-      "contactId": 9496,
-      "name": "Becker Inc and Sons"
+      "saleId": 4915,
+      "contactId": 1317,
+      "name": "Volkman, Schimmel and Hayes"
     },
     {
-      "PrimaryKey": 5375,
+      "PrimaryKey": 8860,
       "EntityName": "sale",
-      "saleId": 5375,
-      "contactId": 4824,
-      "name": "Feil Group"
+      "saleId": 8860,
+      "contactId": 289,
+      "name": "Shields-Kautzer"
     }
   ]
 }

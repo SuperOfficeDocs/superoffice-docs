@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 911,
-  "Name": "Mayert-Homenick",
+  "ContactId": 525,
+  "Name": "Swift, Lynch and Veum",
   "Department": "",
-  "OrgNr": "1253261",
-  "Number1": "988862",
-  "Number2": "310878",
-  "UpdatedDate": "2012-01-24T16:00:40.4143897+01:00",
-  "CreatedDate": "2012-07-07T16:00:40.4143897+02:00",
+  "OrgNr": "1140211",
+  "Number1": "985752",
+  "Number2": "481860",
+  "UpdatedDate": "2003-01-18T03:31:25.9165935+01:00",
+  "CreatedDate": "1997-02-22T03:31:25.9165935+01:00",
   "Emails": [
     {
-      "Value": "ut",
-      "StrippedValue": "debitis",
-      "Description": "Ameliorated client-server forecast",
+      "Value": "aut",
+      "StrippedValue": "ratione",
+      "Description": "Visionary assymetric archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 612
         }
       }
     },
     {
-      "Value": "ut",
-      "StrippedValue": "debitis",
-      "Description": "Ameliorated client-server forecast",
+      "Value": "aut",
+      "StrippedValue": "ratione",
+      "Description": "Visionary assymetric archive",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 612
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 582,
-      "Name": "Dietrich Inc and Sons",
-      "ToolTip": "Molestiae aut.",
-      "Deleted": true,
-      "Rank": 860,
-      "Type": "quisquam",
-      "ColorBlock": 507,
-      "IconHint": "quae",
-      "Selected": true,
-      "LastChanged": "2011-01-12T16:00:40.4143897+01:00",
+      "Id": 511,
+      "Name": "Christiansen-Bashirian",
+      "ToolTip": "Vel doloribus laboriosam qui qui modi.",
+      "Deleted": false,
+      "Rank": 670,
+      "Type": "corrupti",
+      "ColorBlock": 483,
+      "IconHint": "nisi",
+      "Selected": false,
+      "LastChanged": "2006-09-20T03:31:25.9165935+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "laboriosam",
+      "ExtraInfo": "excepturi",
+      "StyleHint": "maxime",
       "Hidden": false,
-      "FullName": "Joanne Hyatt",
+      "FullName": "Garrison Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldLength": 391
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "id",
-      "StrippedValue": "fugit",
-      "Description": "Front-line multimedia extranet",
+      "Value": "reiciendis",
+      "StrippedValue": "modi",
+      "Description": "Team-oriented tertiary matrix",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldType": "System.String",
+          "FieldLength": 117
         }
       }
     },
     {
-      "Value": "id",
-      "StrippedValue": "fugit",
-      "Description": "Front-line multimedia extranet",
+      "Value": "reiciendis",
+      "StrippedValue": "modi",
+      "Description": "Team-oriented tertiary matrix",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldType": "System.String",
+          "FieldLength": 117
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "ab",
-      "StrippedValue": "illo",
-      "Description": "Function-based 5th generation capacity",
+      "Value": "consequatur",
+      "StrippedValue": "vero",
+      "Description": "Reduced eco-centric migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldLength": 1000
         }
       }
     },
     {
-      "Value": "ab",
-      "StrippedValue": "illo",
-      "Description": "Function-based 5th generation capacity",
+      "Value": "consequatur",
+      "StrippedValue": "vero",
+      "Description": "Reduced eco-centric migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldLength": 1000
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "nihil",
-      "StrippedValue": "modi",
-      "Description": "Integrated dynamic productivity",
+      "Value": "repellendus",
+      "StrippedValue": "distinctio",
+      "Description": "Focused homogeneous framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 828
         }
       }
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "modi",
-      "Description": "Integrated dynamic productivity",
+      "Value": "repellendus",
+      "StrippedValue": "distinctio",
+      "Description": "Focused homogeneous framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 828
         }
       }
     }
   ],
-  "Description": "Visionary client-server project",
+  "Description": "Synchronised national access",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "occaecati",
-      "PersonId": 833,
-      "Mrmrs": "et",
-      "Firstname": "May",
-      "Lastname": "Mertz",
-      "MiddleName": "Casper Group",
-      "Title": "quasi",
-      "Description": "Multi-lateral 4th generation workforce",
-      "Email": "imani@little.com",
-      "FullName": "Mr. Yoshiko Walker",
-      "DirectPhone": "(404)608-9755 x1686",
-      "FormalName": "Deckow LLC",
-      "CountryId": 781,
-      "ContactId": 173,
-      "ContactName": "Barrows, Rutherford and Hegmann",
-      "Retired": 245,
-      "Rank": 284,
-      "ActiveInterests": 331,
+      "Position": "provident",
+      "PersonId": 301,
+      "Mrmrs": "quia",
+      "Firstname": "Kenton",
+      "Lastname": "Breitenberg",
+      "MiddleName": "Schulist Group",
+      "Title": "autem",
+      "Description": "Profound assymetric architecture",
+      "Email": "mac_green@hagenes.name",
+      "FullName": "Valentin Zboncak",
+      "DirectPhone": "1-376-653-9295 x06008",
+      "FormalName": "Lang, Ankunding and Botsford",
+      "CountryId": 328,
+      "ContactId": 518,
+      "ContactName": "Deckow, Ryan and Herman",
+      "Retired": 503,
+      "Rank": 268,
+      "ActiveInterests": 172,
       "ContactDepartment": "",
-      "ContactCountryId": 286,
-      "ContactOrgNr": "1476067",
-      "FaxPhone": "(582)930-3915",
-      "MobilePhone": "178.087.0783 x071",
-      "ContactPhone": "331-722-6484 x5916",
-      "AssociateName": "Paucek-Raynor",
-      "AssociateId": 868,
+      "ContactCountryId": 125,
+      "ContactOrgNr": "1285818",
+      "FaxPhone": "436.922.8892 x381",
+      "MobilePhone": "1-553-171-6024",
+      "ContactPhone": "427-968-4650",
+      "AssociateName": "Luettgen LLC",
+      "AssociateId": 36,
       "UsePersonAddress": false,
-      "ContactFax": "dolor",
-      "Kanafname": "quaerat",
-      "Kanalname": "numquam",
-      "Post1": "repellendus",
-      "Post2": "qui",
-      "Post3": "ipsum",
-      "EmailName": "sammy@schmittnikolaus.us",
-      "ContactFullName": "Matteo Harber",
-      "ActiveErpLinks": 886,
-      "TicketPriorityId": 827,
-      "SupportLanguageId": 278,
-      "SupportAssociateId": 955,
+      "ContactFax": "qui",
+      "Kanafname": "aut",
+      "Kanalname": "eveniet",
+      "Post1": "qui",
+      "Post2": "non",
+      "Post3": "voluptates",
+      "EmailName": "mckayla_terry@wiegand.ca",
+      "ContactFullName": "Alessandro Conn",
+      "ActiveErpLinks": 980,
+      "TicketPriorityId": 951,
+      "SupportLanguageId": 320,
+      "SupportAssociateId": 690,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldType": "System.String",
+          "FieldLength": 783
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "deleniti",
+  "Kananame": "maiores",
   "Xstop": true,
-  "ActiveInterests": 906,
-  "GroupId": 959,
-  "ActiveStatusMonitorId": 212,
+  "ActiveInterests": 780,
+  "GroupId": 856,
+  "ActiveStatusMonitorId": 745,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 996,
-  "DbiAgentId": 158,
-  "DbiLastSyncronized": "2022-05-28T16:00:40.4143897+02:00",
-  "DbiKey": "nesciunt",
-  "DbiLastModified": "2018-01-16T16:00:40.4143897+01:00",
+  "Deleted": 86,
+  "DbiAgentId": 961,
+  "DbiLastSyncronized": "2003-12-29T03:31:25.9165935+01:00",
+  "DbiKey": "laboriosam",
+  "DbiLastModified": "2010-03-18T03:31:25.9165935+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 178,
-  "ActiveErpLinks": 455,
+  "Source": 217,
+  "ActiveErpLinks": 842,
   "BounceEmails": [
-    "boyd_rath@prosaccoconnelly.us",
-    "general_heaney@orn.us"
+    "stuart.pollich@conn.name",
+    "favian.williamson@romaguerajacobson.com"
   ],
   "Domains": [
-    "eveniet",
-    "laborum"
+    "aut",
+    "aut"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Zackary Murray",
-    "SuperOffice:2": "Hugh Kovacek"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "442029518"
   },
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "qui"
+    "CustomFields1": "velit",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 635
     }
   }
 }

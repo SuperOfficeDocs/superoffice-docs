@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=consequatur
+GET /api/v1/List/LegalBase/MDOItems?query=pariatur
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Funk Group",
-    "ToolTip": "Autem illo ratione a.",
-    "Deleted": true,
-    "Rank": 508,
-    "Type": "saepe",
+    "Id": 984,
+    "Name": "Bashirian, Prohaska and Balistreri",
+    "ToolTip": "Ducimus ab nesciunt molestiae sed veritatis in ut.",
+    "Deleted": false,
+    "Rank": 369,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "Hand, Rogahn and Nicolas",
-        "ToolTip": "Commodi sed distinctio.",
-        "Deleted": false,
-        "Rank": 170,
-        "Type": "nostrum",
+        "Id": 701,
+        "Name": "Gislason-Tremblay",
+        "ToolTip": "Aut qui facilis autem.",
+        "Deleted": true,
+        "Rank": 129,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laboriosam",
-        "ColorBlock": 215,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "voluptatum",
-        "FullName": "Miss Maybell Smith IV",
+        "IconHint": "voluptatem",
+        "ColorBlock": 757,
+        "ExtraInfo": "et",
+        "StyleHint": "itaque",
+        "FullName": "Mr. Gloria Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 600
           }
         }
       }
     ],
-    "IconHint": "assumenda",
-    "ColorBlock": 416,
-    "ExtraInfo": "qui",
-    "StyleHint": "minima",
-    "FullName": "Terrell Gutkowski",
+    "IconHint": "quos",
+    "ColorBlock": 997,
+    "ExtraInfo": "et",
+    "StyleHint": "harum",
+    "FullName": "Dr. Jaquelin Wilton Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 598
       }
     }
   }

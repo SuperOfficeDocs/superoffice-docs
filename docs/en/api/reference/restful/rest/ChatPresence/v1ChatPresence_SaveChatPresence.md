@@ -63,23 +63,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 742,
-    "DisplayName": "Koelpin, Greenfelder and Morar",
-    "OngoingChats": 766,
+    "UserId": 741,
+    "DisplayName": "Koch LLC",
+    "OngoingChats": 628,
     "Present": false,
     "ChatTopics": [
-      667,
-      689
+      479,
+      39
     ]
   },
   {
-    "UserId": 742,
-    "DisplayName": "Koelpin, Greenfelder and Morar",
-    "OngoingChats": 766,
+    "UserId": 741,
+    "DisplayName": "Koch LLC",
+    "OngoingChats": 628,
     "Present": false,
     "ChatTopics": [
-      667,
-      689
+      479,
+      39
     ]
   }
 ]

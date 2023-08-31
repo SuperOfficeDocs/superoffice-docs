@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 129,
+  "ErpConnectionId": 369,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 752,
+  "ErpConnectionId": 540,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 860,
-      "CrmFieldKey": "at",
-      "CrmDisplayName": "Halvorson, Stanton and Gerhold",
-      "CrmDisplayTooltip": "laborum",
-      "ErpFieldKey": "qui",
+      "ErpFieldId": 491,
+      "CrmFieldKey": "perferendis",
+      "CrmDisplayName": "Goyette-Douglas",
+      "CrmDisplayTooltip": "reiciendis",
+      "ErpFieldKey": "explicabo",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Lind LLC",
-      "ErpDisplayTooltip": "ab",
+      "ErpDisplayName": "Russel, Von and Lang",
+      "ErpDisplayTooltip": "et",
       "SyncToCrm": false,
-      "SyncToErp": false,
+      "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": false,
+      "AlreadyMapped": true,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "sed",
+      "ListReference": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   }
 }

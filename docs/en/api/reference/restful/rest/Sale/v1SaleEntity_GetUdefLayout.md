@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 218,
-    "ColumnId": 992,
-    "FieldDefault": "dolorem",
-    "FieldHeight": 705,
-    "FieldLabel": "expedita",
-    "FieldLeft": 315,
-    "FieldTop": 641,
+    "UDefFieldId": 73,
+    "ColumnId": 764,
+    "FieldDefault": "eius",
+    "FieldHeight": 768,
+    "FieldLabel": "qui",
+    "FieldLeft": 576,
+    "FieldTop": 786,
     "FieldType": "Checkbox",
-    "FieldWidth": 648,
-    "FormatMask": "corporis",
-    "HideLabel": false,
+    "FieldWidth": 631,
+    "FormatMask": "consectetur",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 641,
-    "LabelLeft": 723,
-    "LabelTop": 169,
-    "LabelWidth": 679,
-    "LastVersionId": 131,
-    "ListTableId": 559,
-    "IsMandatory": true,
+    "LabelHeight": 681,
+    "LabelLeft": 129,
+    "LabelTop": 641,
+    "LabelWidth": 249,
+    "LastVersionId": 552,
+    "ListTableId": 919,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 437,
-    "ProgId": "officia",
-    "IsReadOnly": true,
-    "ShortLabel": "non",
-    "TabOrder": 25,
-    "TextLength": 849,
-    "Tooltip": "aut",
-    "UdefIdentity": 76,
-    "UDListDefinitionId": 530,
+    "Page1LineNo": 213,
+    "ProgId": "possimus",
+    "IsReadOnly": false,
+    "ShortLabel": "ducimus",
+    "TabOrder": 494,
+    "TextLength": 398,
+    "Tooltip": "temporibus",
+    "UdefIdentity": 357,
+    "UDListDefinitionId": 62,
     "Justification": "Center",
-    "Version": 605,
-    "TemplateVariableName": "Bode Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Senger-Wuckert",
+    "Version": 410,
+    "TemplateVariableName": "Prosacco Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Kirlin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldLength": 407
       }
     }
   }

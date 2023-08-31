@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 54,
-  "Name": "Terry-Pagac",
-  "Tooltip": "dolores",
+  "Id": 646,
+  "Name": "Ritchie Group",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "Rank": 523,
+  "Rank": 349,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "atque",
-  "InUseByUserDefinedFields": true
+  "ListType": "enim",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 490,
-  "Name": "Kassulke-Quitzon",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "Rank": 934,
-  "IsCustomList": true,
+  "Id": 580,
+  "Name": "McCullough, Beer and Hackett",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "Rank": 627,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vero",
+  "ListType": "delectus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 122
     }
   }
 }

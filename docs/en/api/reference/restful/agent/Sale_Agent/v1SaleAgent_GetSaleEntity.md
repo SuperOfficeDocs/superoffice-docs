@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=960
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=859
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "impedit",
+  "SaleText": "harum",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-02-22T16:00:41.7738086+01:00",
-  "Amount": 24285.365999999998,
-  "SaleId": 615,
-  "Earning": 7289.684,
-  "EarningPercent": 329.07,
-  "Heading": "cupiditate",
-  "Number": "780029",
-  "Probability": 443,
-  "CreatedDate": "2019-10-04T16:00:41.7738086+02:00",
-  "UpdatedDate": "2012-12-24T16:00:41.7738086+01:00",
+  "Saledate": "2014-03-11T03:31:27.1999504+01:00",
+  "Amount": 7217.602,
+  "SaleId": 303,
+  "Earning": 24902.764,
+  "EarningPercent": 11536.253999999999,
+  "Heading": "molestiae",
+  "Number": "709005",
+  "Probability": 951,
+  "CreatedDate": "2009-06-08T03:31:27.1999504+02:00",
+  "UpdatedDate": "2017-09-25T03:31:27.1999504+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 991,
+  "ActiveLinks": 456,
   "Links": [
     {
-      "EntityName": "Kiehn, Collins and Hodkiewicz",
-      "Id": 300,
-      "Description": "Assimilated web-enabled info-mediaries",
-      "ExtraInfo": "a",
-      "LinkId": 566,
+      "EntityName": "Heller LLC",
+      "Id": 577,
+      "Description": "Object-based systematic orchestration",
+      "ExtraInfo": "tempore",
+      "LinkId": 297,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 982
         }
       }
     }
   ],
-  "NextDueDate": "2007-10-08T16:00:41.7738086+02:00",
-  "Postit": "facilis",
+  "NextDueDate": "2005-09-30T03:31:27.1999504+02:00",
+  "Postit": "sed",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1997-09-15T16:00:41.7738086+02:00",
+  "ReopenDate": "2010-08-31T03:31:27.1999504+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Padberg-Rohan",
-      "Comment": "aut",
-      "StakeholderRoleId": 527,
-      "CountryId": 568,
-      "PersonId": 201,
-      "EmailDescription": "susan_roberts@hegmann.ca",
-      "EmailId": 83,
-      "EmailAddress": "tristin@legrosheidenreich.ca",
-      "PhoneId": 78,
-      "ContactName": "Berge LLC",
-      "ContactId": 462,
-      "SaleId": 270,
-      "Mrmrs": "corporis",
-      "Firstname": "Ronaldo",
-      "MiddleName": "O'Hara-Lebsack",
-      "Lastname": "Moore",
-      "SaleStakeholderId": 960,
-      "Rank": 790,
-      "Phone": "467-490-4251 x304",
+      "StakeholderRoleName": "Cormier, Goldner and Cronin",
+      "Comment": "laborum",
+      "StakeholderRoleId": 806,
+      "CountryId": 389,
+      "PersonId": 209,
+      "EmailDescription": "baby.bogisich@schneider.ca",
+      "EmailId": 854,
+      "EmailAddress": "corbin@ward.name",
+      "PhoneId": 886,
+      "ContactName": "Huel-Okuneva",
+      "ContactId": 968,
+      "SaleId": 294,
+      "Mrmrs": "eum",
+      "Firstname": "Julia",
+      "MiddleName": "Blick, Johns and Monahan",
+      "Lastname": "Orn",
+      "SaleStakeholderId": 247,
+      "Rank": 855,
+      "Phone": "1-634-476-2288",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldLength": 348
         }
       }
     }
   ],
-  "ActiveErpLinks": 564,
+  "ActiveErpLinks": 85,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1884491285"
+    "SuperOffice:1": "Eula Brekke",
+    "SuperOffice:2": "Mr. Alessandra Edgardo Schowalter"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "quos"
+    "CustomFields1": "vitae",
+    "CustomFields2": "quisquam"
   },
-  "PublishEventDate": "2005-12-06T16:00:41.7738086+01:00",
-  "PublishTo": "1998-10-18T16:00:41.7738086+02:00",
-  "PublishFrom": "2008-07-29T16:00:41.7738086+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-09-26T03:31:27.1999504+02:00",
+  "PublishTo": "2019-10-03T03:31:27.1999504+02:00",
+  "PublishFrom": "2007-03-04T03:31:27.1999504+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 815,
+      "VisibleId": 389,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 872
         }
       }
     },
     {
-      "VisibleId": 815,
+      "VisibleId": 389,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldType": "System.String",
+          "FieldLength": 872
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 323
+      "FieldType": "System.Int32",
+      "FieldLength": 612
     }
   }
 }

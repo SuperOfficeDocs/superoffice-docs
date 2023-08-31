@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 477,
-  "Name": "Auer Group",
-  "Tooltip": "nisi",
+  "Id": 343,
+  "Name": "Kunde LLC",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "UdListDefinitionId": 7,
-  "Rank": 237
+  "UdListDefinitionId": 257,
+  "Rank": 493
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Mann-Adams",
-  "Tooltip": "accusamus",
+  "Id": 468,
+  "Name": "Parker, Goldner and Kris",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "UdListDefinitionId": 297,
-  "Rank": 876,
+  "UdListDefinitionId": 371,
+  "Rank": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldType": "System.Int32",
+      "FieldLength": 385
     }
   }
 }

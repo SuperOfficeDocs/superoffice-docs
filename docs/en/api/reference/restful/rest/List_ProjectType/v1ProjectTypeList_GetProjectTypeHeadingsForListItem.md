@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Batz Inc and Sons",
-    "ToolTip": "Ipsam quis.",
-    "Deleted": true,
-    "Rank": 735,
-    "Type": "dolorum",
-    "ColorBlock": 16,
-    "IconHint": "ipsa",
+    "Id": 777,
+    "Name": "Cassin, Johns and Hettinger",
+    "ToolTip": "Ut odio dolorem esse est est quae.",
+    "Deleted": false,
+    "Rank": 482,
+    "Type": "id",
+    "ColorBlock": 694,
+    "IconHint": "aliquid",
     "Selected": true,
-    "LastChanged": "2010-12-20T16:00:49.211436+01:00",
+    "LastChanged": "1999-03-12T03:31:33.7742322+01:00",
     "ChildItems": [
       {
-        "Id": 18,
-        "Name": "Walsh-Greenfelder",
-        "ToolTip": "Recusandae qui.",
-        "Deleted": false,
-        "Rank": 545,
-        "Type": "distinctio",
-        "ColorBlock": 806,
-        "IconHint": "et",
+        "Id": 553,
+        "Name": "Goyette, Beahan and Kuhic",
+        "ToolTip": "Qui aliquam nesciunt repellendus ullam non.",
+        "Deleted": true,
+        "Rank": 161,
+        "Type": "aut",
+        "ColorBlock": 456,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2015-12-16T16:00:49.211436+01:00",
+        "LastChanged": "2008-04-26T03:31:33.7742322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Mrs. Rosendo Dickens PhD",
+        "ExtraInfo": "odio",
+        "StyleHint": "ducimus",
+        "Hidden": true,
+        "FullName": "Mr. Marietta Marina Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 213
+            "FieldType": "System.Int32",
+            "FieldLength": 54
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Meghan Spencer",
+    "ExtraInfo": "et",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Horace Hand DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

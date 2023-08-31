@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 54,
-  "Name": "Kris LLC",
-  "Tooltip": "odio",
+  "Id": 727,
+  "Name": "Ruecker LLC",
+  "Tooltip": "unde",
   "Deleted": false,
-  "UdListDefinitionId": 907,
-  "Rank": 378,
+  "UdListDefinitionId": 194,
+  "Rank": 626,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 487
     }
   }
 }

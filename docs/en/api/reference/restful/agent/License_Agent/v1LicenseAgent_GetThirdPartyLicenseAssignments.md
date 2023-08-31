@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 160,
-  "ModuleOwner": "quidem"
+  "AssociateId": 489,
+  "ModuleOwner": "ut"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 86,
-    "Tooltip": "animi",
-    "CanAssign": false,
-    "Free": 579,
-    "InUse": 696,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 630,
-    "Name": "Bernhard Group",
-    "Description": "Cross-group heuristic complexity",
-    "PrerequisiteModuleName": "Satterfield Group",
-    "SortOrder": 366,
-    "ExtraFlags": 385,
+    "Unrestricted": false,
+    "Total": 870,
+    "Tooltip": "deserunt",
+    "CanAssign": true,
+    "Free": 541,
+    "InUse": 259,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 771,
+    "Name": "Homenick-Christiansen",
+    "Description": "Enhanced motivating architecture",
+    "PrerequisiteModuleName": "Hand-Reinger",
+    "SortOrder": 294,
+    "ExtraFlags": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 895
       }
     }
   }

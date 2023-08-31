@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 975,
-  "AppointmentId": 193,
-  "ProjectId": 623,
-  "SaleId": 631,
+  "DocumentId": 519,
+  "AppointmentId": 256,
+  "ProjectId": 595,
+  "SaleId": 506,
   "Archived": false,
-  "ArchivedAt": "2016-08-03T16:00:40.8987367+02:00",
-  "ArchivedBy": 17,
-  "ArchivedDisplayName": "Wyman LLC",
+  "ArchivedAt": "2013-05-23T03:31:26.4488627+02:00",
+  "ArchivedBy": 20,
+  "ArchivedDisplayName": "Gleichner, Price and Franecki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 158
     }
   }
 }

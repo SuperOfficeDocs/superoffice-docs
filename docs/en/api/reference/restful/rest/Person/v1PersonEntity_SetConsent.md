@@ -32,9 +32,9 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=esse
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=eos
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=eos
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=neque
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=ipsum
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=autem
 ```
 
 
@@ -65,7 +65,7 @@ No Content
 PUT /api/v1/Person/{personId}/Consent/{purpose}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response

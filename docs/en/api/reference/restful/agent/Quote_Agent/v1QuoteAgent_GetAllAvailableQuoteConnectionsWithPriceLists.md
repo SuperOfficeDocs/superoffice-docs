@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 676,
-    "ERPName": "Kutch LLC",
-    "DisplayName": "Bahringer, Bogisich and Vandervort",
-    "DisplayDescription": "Synergized solution-oriented strategy",
-    "Rank": 135,
-    "ConnectorName": "Swaniawski-Barton",
-    "ErpConnectionId": 116,
-    "ExtraData": "dolorum",
-    "IsAvailable": true,
+    "QuoteConnectionId": 902,
+    "ERPName": "Douglas, Schulist and Wintheiser",
+    "DisplayName": "D'Amore-Nader",
+    "DisplayDescription": "Optional empowering data-warehouse",
+    "Rank": 684,
+    "ConnectorName": "Glover, Breitenberg and Ziemann",
+    "ErpConnectionId": 910,
+    "ExtraData": "incidunt",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 302,
-        "ERPPriceListKey": "minima",
-        "QuoteConnectionId": 945,
-        "Name": "Schoen, Rempel and Schmitt",
-        "Description": "Business-focused static project",
-        "Currency": "optio",
-        "CurrencyName": "Marquardt-Schiller",
-        "ValidFrom": "2000-01-02T16:00:41.6488224+01:00",
-        "ValidTo": "2022-08-11T16:00:41.6488224+02:00",
+        "PriceListId": 138,
+        "ERPPriceListKey": "nemo",
+        "QuoteConnectionId": 202,
+        "Name": "Stanton-Cole",
+        "Description": "Triple-buffered radical capability",
+        "Currency": "vel",
+        "CurrencyName": "Witting, Rath and Legros",
+        "ValidFrom": "2020-07-20T03:31:27.0905589+02:00",
+        "ValidTo": "2007-06-20T03:31:27.0905589+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 881
+            "FieldLength": 71
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      907,
-      788
+      851,
+      730
     ],
     "AssociateAccessIds": [
-      786,
-      708
+      313,
+      616
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldType": "System.String",
+        "FieldLength": 349
       }
     }
   }

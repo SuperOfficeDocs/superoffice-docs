@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": true
+  "OverwriteExistingData": false
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 850,
+  "DocumentId": 663,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "dolorum",
-  "Name": "Runte Inc and Sons",
-  "OurRef": "officia",
-  "YourRef": "ipsum",
-  "CreatedDate": "2006-10-25T16:00:40.7425007+02:00",
-  "UpdatedDate": "2013-07-20T16:00:40.7425007+02:00",
-  "Description": "Inverse systematic matrix",
+  "Attention": "rerum",
+  "Header": "tempora",
+  "Name": "Daniel-Waelchi",
+  "OurRef": "molestiae",
+  "YourRef": "quis",
+  "CreatedDate": "2021-03-13T03:31:26.1051994+01:00",
+  "UpdatedDate": "2016-03-23T03:31:26.1051994+01:00",
+  "Description": "Profound impactful open architecture",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-12-15T16:00:40.7425007+01:00",
-  "ExternalRef": "ipsam",
+  "Date": "1996-07-17T03:31:26.1208204+02:00",
+  "ExternalRef": "nam",
   "Completed": "Completed",
-  "ActiveLinks": 29,
+  "ActiveLinks": 811,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ryan LLC",
-      "Id": 75,
-      "Description": "Re-engineered context-sensitive paradigm",
-      "ExtraInfo": "rerum",
-      "LinkId": 13,
+      "EntityName": "Stracke Group",
+      "Id": 809,
+      "Description": "Public-key empowering open architecture",
+      "ExtraInfo": "odio",
+      "LinkId": 76,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 980
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 831,
-  "Snum": 101,
+  "SuggestedDocumentId": 87,
+  "Snum": 579,
   "UserDefinedFields": {
-    "SuperOffice:1": "1028921211",
-    "SuperOffice:2": "1502204799"
+    "SuperOffice:1": "1435336395",
+    "SuperOffice:2": "1889563273"
   },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "vitae",
+    "CustomFields2": "sapiente"
   },
-  "PublishEventDate": "2016-07-19T16:00:40.7425007+02:00",
-  "PublishTo": "1996-08-30T16:00:40.7425007+02:00",
-  "PublishFrom": "1999-02-19T16:00:40.7425007+01:00",
+  "PublishEventDate": "2006-03-04T03:31:26.1208204+01:00",
+  "PublishTo": "2009-02-27T03:31:26.1208204+01:00",
+  "PublishFrom": "1998-04-26T03:31:26.1208204+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 961,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 441
         }
       }
     },
     {
-      "VisibleId": 961,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 441
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldType": "System.String",
+      "FieldLength": 490
     }
   }
 }

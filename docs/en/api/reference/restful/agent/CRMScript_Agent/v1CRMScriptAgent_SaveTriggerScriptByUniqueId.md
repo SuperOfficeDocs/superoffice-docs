@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "et",
+  "TriggerScriptUniqueId": "dolores",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 542,
-  "Name": "Marquardt, Powlowski and Homenick",
+  "ScreenChooserId": 471,
+  "Name": "Bosco-Swaniawski",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "in",
-  "Source": "quisquam",
-  "Registered": "2015-03-10T16:00:40.4925031+01:00",
-  "RegisteredAssociateId": 303,
-  "Updated": "2000-04-04T16:00:40.4925031+02:00",
-  "UpdatedAssociateId": 446,
+  "UniqueIdentifier": "accusamus",
+  "Source": "similique",
+  "Registered": "1998-06-14T03:31:25.9790593+02:00",
+  "RegisteredAssociateId": 307,
+  "Updated": "2002-05-15T03:31:25.9790593+02:00",
+  "UpdatedAssociateId": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 720
     }
   }
 }

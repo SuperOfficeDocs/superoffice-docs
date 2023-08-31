@@ -85,33 +85,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 383,
-  "Name": "Grimes-Schmitt",
-  "Tooltip": "quibusdam",
+  "WebPanelId": 284,
+  "Name": "Altenwerth-Rowe",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 850,
+  "Rank": 749,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Monahan, Paucek and McLaughlin",
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Orn Group",
   "Url": "http://www.example.com/",
-  "ProgId": "eaque",
-  "Icon": 461,
+  "ProgId": "quo",
+  "Icon": 257,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 992
     }
   }
 }

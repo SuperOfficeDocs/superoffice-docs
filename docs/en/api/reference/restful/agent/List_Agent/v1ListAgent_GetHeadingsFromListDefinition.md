@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364
+  "Id": 568
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 753,
-    "Name": "Reynolds, Johnson and Price",
-    "Tooltip": "maiores",
+    "HeadingId": 438,
+    "Name": "Beer Inc and Sons",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 763,
-    "UdListDefinitionId": 118,
+    "Rank": 432,
+    "UdListDefinitionId": 146,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 858
       }
     }
   }

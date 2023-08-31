@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grant, Gusikowski and Trantow",
-  "Delimiter": "rerum",
-  "Flags": "sed",
-  "TotalItems": 808,
-  "UnreadItems": 622,
-  "Subscribed": true,
-  "EmailFolderId": 353,
+  "Name": "Grant Group",
+  "Delimiter": "velit",
+  "Flags": "ipsam",
+  "TotalItems": 471,
+  "UnreadItems": 591,
+  "Subscribed": false,
+  "EmailFolderId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldLength": 934
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Gaylord-Keebler",
-    "Tooltip": "at",
+    "Id": 85,
+    "Name": "Beahan-Jerde",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 341,
-    "Rank": 202
+    "UdListDefinitionId": 641,
+    "Rank": 465
   },
   {
-    "Id": 78,
-    "Name": "Gaylord-Keebler",
-    "Tooltip": "at",
+    "Id": 85,
+    "Name": "Beahan-Jerde",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 341,
-    "Rank": 202
+    "UdListDefinitionId": 641,
+    "Rank": 465
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Turcotte-Abbott",
-    "Tooltip": "magnam",
+    "Id": 459,
+    "Name": "Beer, Mosciski and Wilkinson",
+    "Tooltip": "alias",
     "Deleted": false,
-    "UdListDefinitionId": 531,
-    "Rank": 816,
+    "UdListDefinitionId": 97,
+    "Rank": 780,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 407
+        "FieldType": "System.Int32",
+        "FieldLength": 621
       }
     }
   }

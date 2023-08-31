@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,43 +102,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 320,
-  "TopicId": 343,
+  "ChatSessionId": 393,
+  "TopicId": 965,
   "User": null,
   "Person": null,
-  "CustomerAlias": "cupiditate",
-  "CustomerHost": "eum",
-  "CustomerName": "Bogisich-Hintz",
-  "CustomerEmail": "letitia@daniel.info",
-  "CustomerPhone": "(037)074-8888 x212",
+  "CustomerAlias": "cum",
+  "CustomerHost": "suscipit",
+  "CustomerName": "Runolfsson, Miller and Beahan",
+  "CustomerEmail": "ashleigh.ferry@ziemann.com",
+  "CustomerPhone": "1-764-640-7650 x5947",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Funk-Prosacco",
+  "CustomerCompanyName": "Gerlach LLC",
   "Status": "Closed",
-  "FirstMessage": "illum",
-  "LastMessage": "error",
-  "WhenRequested": "2019-06-02T16:00:47.6022395+02:00",
-  "WhenStarted": "2020-05-05T16:00:47.6022395+02:00",
-  "WhenEnded": "1999-11-24T16:00:47.6022395+01:00",
-  "WhenIdle": "2009-09-26T16:00:47.6022395+02:00",
-  "WhenFetched": "2005-12-26T16:00:47.6022395+01:00",
-  "SessionKey": "commodi",
-  "InitialQueuePos": 484,
-  "AlertLevel": 957,
-  "Rank": 499,
+  "FirstMessage": "iste",
+  "LastMessage": "tempora",
+  "WhenRequested": "2014-12-08T03:31:32.3008587+01:00",
+  "WhenStarted": "2001-08-13T03:31:32.3008587+02:00",
+  "WhenEnded": "2002-06-04T03:31:32.3008587+02:00",
+  "WhenIdle": "2002-07-25T03:31:32.3008587+02:00",
+  "WhenFetched": "2021-04-27T03:31:32.3008587+02:00",
+  "SessionKey": "excepturi",
+  "InitialQueuePos": 756,
+  "AlertLevel": 739,
+  "Rank": 612,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 348,
+  "ChatbotIsActive": true,
+  "Rating": 539,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

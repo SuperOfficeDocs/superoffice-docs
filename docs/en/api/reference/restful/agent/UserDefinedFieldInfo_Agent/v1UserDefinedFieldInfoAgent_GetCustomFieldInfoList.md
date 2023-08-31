@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Von LLC",
-  "IncludeStandard": false
+  "TableName": "Satterfield LLC",
+  "IncludeStandard": true
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hand-Cummerata",
-    "DisplayName": "Emard LLC",
-    "Description": "Multi-tiered 3rd generation time-frame",
-    "ShortLabel": "ratione",
+    "FieldName": "Dooley Group",
+    "DisplayName": "Mraz-Walsh",
+    "Description": "Future-proofed neutral circuit",
+    "ShortLabel": "sit",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 783,
-    "TemplateVariableName": "Cartwright Group"
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 852,
+    "TemplateVariableName": "Labadie, Grady and Smitham"
   }
 ]
 ```

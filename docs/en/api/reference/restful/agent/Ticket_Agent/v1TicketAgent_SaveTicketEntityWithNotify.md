@@ -117,6 +117,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -128,7 +129,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -144,21 +145,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 104,
-  "Title": "dolorem",
-  "CreatedAt": "2015-12-09T16:00:42.1487667+01:00",
-  "LastChanged": "1997-09-23T16:00:42.1487667+02:00",
-  "ReadByOwner": "2022-02-27T16:00:42.1487667+01:00",
-  "ReadByCustomer": "2016-08-31T16:00:42.1487667+02:00",
-  "FirstReadByOwner": "2022-05-25T16:00:42.1487667+02:00",
-  "FirstReadByUser": "2019-06-01T16:00:42.1487667+02:00",
-  "Activate": "1996-09-03T16:00:42.1487667+02:00",
-  "ClosedAt": "2023-04-19T16:00:42.1487667+02:00",
-  "RepliedAt": "2005-09-09T16:00:42.1487667+02:00",
-  "AlertTimeout": "2007-11-27T16:00:42.1487667+01:00",
-  "Deadline": "2011-03-26T16:00:42.1487667+01:00",
+  "TicketId": 13,
+  "Title": "eius",
+  "CreatedAt": "2015-04-23T03:31:27.4186541+02:00",
+  "LastChanged": "2013-11-18T03:31:27.4186541+01:00",
+  "ReadByOwner": "1999-01-05T03:31:27.4186541+01:00",
+  "ReadByCustomer": "2006-01-21T03:31:27.4186541+01:00",
+  "FirstReadByOwner": "2015-04-22T03:31:27.4186541+02:00",
+  "FirstReadByUser": "2013-04-24T03:31:27.4186541+02:00",
+  "Activate": "2011-10-04T03:31:27.4186541+02:00",
+  "ClosedAt": "1999-08-17T03:31:27.4186541+02:00",
+  "RepliedAt": "2005-06-16T03:31:27.4186541+02:00",
+  "AlertTimeout": "2008-09-15T03:31:27.4186541+02:00",
+  "Deadline": "2001-04-20T03:31:27.4186541+02:00",
   "CreatedBy": null,
-  "Author": "ea",
+  "Author": "dolorum",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -169,159 +170,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "et",
-      "PersonId": 256,
-      "Mrmrs": "non",
-      "Firstname": "Cole",
-      "Lastname": "King",
-      "MiddleName": "Gutmann Inc and Sons",
-      "Title": "soluta",
-      "Description": "Advanced zero administration middleware",
-      "Email": "rosetta@schiller.com",
-      "FullName": "Megane Thiel",
-      "DirectPhone": "005-548-7413 x4989",
-      "FormalName": "Glover, Keebler and Kreiger",
-      "CountryId": 705,
-      "ContactId": 477,
-      "ContactName": "Hilll-Hayes",
-      "Retired": 919,
-      "Rank": 655,
-      "ActiveInterests": 500,
+      "Position": "ipsum",
+      "PersonId": 326,
+      "Mrmrs": "rerum",
+      "Firstname": "Asa",
+      "Lastname": "Fritsch",
+      "MiddleName": "Fadel LLC",
+      "Title": "magni",
+      "Description": "Function-based motivating synergy",
+      "Email": "kevin@kulas.com",
+      "FullName": "Alexandrea Juliana Kshlerin I",
+      "DirectPhone": "218.415.3136",
+      "FormalName": "Kuhic-Abbott",
+      "CountryId": 413,
+      "ContactId": 400,
+      "ContactName": "Zieme Group",
+      "Retired": 465,
+      "Rank": 536,
+      "ActiveInterests": 119,
       "ContactDepartment": "",
-      "ContactCountryId": 586,
-      "ContactOrgNr": "1714617",
-      "FaxPhone": "1-163-080-1754 x5913",
-      "MobilePhone": "861.998.7642 x10125",
-      "ContactPhone": "1-297-969-9803",
-      "AssociateName": "Funk, Greenfelder and Little",
-      "AssociateId": 120,
+      "ContactCountryId": 913,
+      "ContactOrgNr": "682748",
+      "FaxPhone": "437-515-1241",
+      "MobilePhone": "(872)399-0407",
+      "ContactPhone": "635.671.7439",
+      "AssociateName": "Romaguera-Jenkins",
+      "AssociateId": 826,
       "UsePersonAddress": false,
-      "ContactFax": "aut",
-      "Kanafname": "voluptatem",
-      "Kanalname": "eum",
-      "Post1": "ea",
-      "Post2": "consequatur",
-      "Post3": "nihil",
-      "EmailName": "jailyn@krajcikferry.com",
-      "ContactFullName": "Hailie Nader DDS",
-      "ActiveErpLinks": 427,
-      "TicketPriorityId": 676,
-      "SupportLanguageId": 138,
-      "SupportAssociateId": 116,
+      "ContactFax": "ad",
+      "Kanafname": "aperiam",
+      "Kanalname": "earum",
+      "Post1": "temporibus",
+      "Post2": "eum",
+      "Post3": "perspiciatis",
+      "EmailName": "emmet.morar@wintheiser.com",
+      "ContactFullName": "Isai O'Kon",
+      "ActiveErpLinks": 238,
+      "TicketPriorityId": 698,
+      "SupportLanguageId": 497,
+      "SupportAssociateId": 662,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldType": "System.String",
+          "FieldLength": 552
         }
       }
     }
   ],
-  "AlertLevel": 510,
-  "ConnectId": 539,
+  "AlertLevel": 44,
+  "ConnectId": 966,
   "ReadStatus": "Green",
   "TimeToReply": 823,
-  "RealTimeToReply": 865,
-  "TimeToClose": 900,
-  "RealTimeToClose": 882,
-  "TimeSpentInternally": 155,
-  "TimeSpentExternally": 428,
-  "TimeSpentQueue": 382,
-  "RealTimeSpentInternally": 664,
-  "RealTimeSpentExternally": 749,
-  "RealTimeSpentQueue": 689,
-  "HasAttachment": false,
-  "NumReplies": 974,
-  "NumMessages": 220,
-  "FromAddress": "provident",
+  "RealTimeToReply": 898,
+  "TimeToClose": 854,
+  "RealTimeToClose": 963,
+  "TimeSpentInternally": 167,
+  "TimeSpentExternally": 126,
+  "TimeSpentQueue": 322,
+  "RealTimeSpentInternally": 274,
+  "RealTimeSpentExternally": 662,
+  "RealTimeSpentQueue": 937,
+  "HasAttachment": true,
+  "NumReplies": 893,
+  "NumMessages": 436,
+  "FromAddress": "tempore",
   "Messages": [
     {
-      "TicketMessageId": 763,
-      "CreatedAt": "2016-12-10T16:00:42.1487667+01:00",
+      "TicketMessageId": 728,
+      "CreatedAt": "2008-08-28T03:31:27.4186541+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "omnis",
-      "PersonId": 131,
-      "PersonFullName": "Raul Stamm",
-      "ContactId": 90,
-      "ContactName": "Nitzsche LLC",
+      "Author": "ratione",
+      "PersonId": 743,
+      "PersonFullName": "Mr. Leone Kari Wuckert",
+      "ContactId": 755,
+      "ContactName": "Rohan Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 507,
-      "EmailHeader": "caesar_wolff@hills.co.uk",
+      "NumAttachments": 668,
+      "EmailHeader": "angelo.jast@greenfelderschowalter.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "inventore",
-      "Sentiment": 255,
-      "SentimentConfidence": 938,
-      "CreatedBy": 761,
-      "ChangedAt": "2006-07-14T16:00:42.1487667+02:00",
+      "Language": "corrupti",
+      "Sentiment": 910,
+      "SentimentConfidence": 877,
+      "CreatedBy": 186,
+      "ChangedAt": "2020-12-25T03:31:27.4186541+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldLength": 255
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 189,
-      "Name": "Cummings-Abshire",
-      "ToolTip": "Eum maxime aut porro consectetur praesentium amet.",
+      "Id": 854,
+      "Name": "Boyer Inc and Sons",
+      "ToolTip": "A eveniet.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 932
         }
       }
     },
     {
-      "Id": 189,
-      "Name": "Cummings-Abshire",
-      "ToolTip": "Eum maxime aut porro consectetur praesentium amet.",
+      "Id": 854,
+      "Name": "Boyer Inc and Sons",
+      "ToolTip": "A eveniet.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 932
         }
       }
     }
   ],
-  "Language": "reprehenderit",
-  "Sentiment": 901,
-  "SentimentConfidence": 920,
-  "SuggestedCategoryId": 487,
+  "Language": "commodi",
+  "Sentiment": 878,
+  "SentimentConfidence": 689,
+  "SuggestedCategoryId": 869,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 222,
-  "IconHint": "quis",
+  "OrigHumanCategoryId": 818,
+  "IconHint": "rerum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "eligendi"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "recusandae",
-    "CustomFields2": "sed"
+    "CustomFields1": "reprehenderit",
+    "CustomFields2": "iusto"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

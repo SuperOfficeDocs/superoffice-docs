@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 668,
-  "WorkflowId": 683,
+  "WorkflowTriggerId": 956,
+  "WorkflowId": 842,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Wolf Group",
-      "Description": "Pre-emptive contextually-based productivity",
-      "Rank": 911,
+      "Name": "Rice, Schinner and Blanda",
+      "Description": "Programmable stable definition",
+      "Rank": 263,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wolf Group",
-      "Description": "Pre-emptive contextually-based productivity",
-      "Rank": 911,
+      "Name": "Rice, Schinner and Blanda",
+      "Description": "Programmable stable definition",
+      "Rank": 263,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 399
     }
   }
 }

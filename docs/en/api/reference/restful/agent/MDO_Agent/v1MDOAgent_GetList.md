@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grady Group",
+  "Name": "Schmidt Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "sunt",
+  "AdditionalInfo": "consequatur",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Schumm, Kertzmann and Berge",
-    "ToolTip": "Ut non.",
-    "Deleted": true,
-    "Rank": 592,
-    "Type": "incidunt",
+    "Id": 254,
+    "Name": "Homenick, Kirlin and Upton",
+    "ToolTip": "Quia accusantium quis.",
+    "Deleted": false,
+    "Rank": 800,
+    "Type": "nulla",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Metz, Skiles and Bahringer",
-        "ToolTip": "Sed mollitia non aut quae laborum maiores.",
-        "Deleted": true,
-        "Rank": 576,
-        "Type": "distinctio",
+        "Id": 617,
+        "Name": "Wintheiser, Stiedemann and Olson",
+        "ToolTip": "Voluptatem est nulla facilis expedita est voluptas.",
+        "Deleted": false,
+        "Rank": 464,
+        "Type": "enim",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "harum",
-        "ColorBlock": 309,
-        "ExtraInfo": "itaque",
-        "StyleHint": "aut",
-        "FullName": "Sofia Yost MD",
+        "IconHint": "nisi",
+        "ColorBlock": 833,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "est",
+        "FullName": "Mrs. Mario Kling PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 907
+            "FieldLength": 794
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 223,
-    "ExtraInfo": "accusamus",
-    "StyleHint": "sit",
-    "FullName": "Demario Cartwright",
+    "IconHint": "sit",
+    "ColorBlock": 568,
+    "ExtraInfo": "veritatis",
+    "StyleHint": "tempora",
+    "FullName": "Jamey Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 1000
       }
     }
   }

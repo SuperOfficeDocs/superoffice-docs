@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 934,
+  "ErpConnectionId": 373,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "non",
-    "odit"
+    "officiis",
+    "quo"
   ]
 }
 ```
@@ -105,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "ut",
-  "TechExplanation": "rerum",
-  "ErrorCode": "ut",
+  "IsOk": false,
+  "UserExplanation": "esse",
+  "TechExplanation": "harum",
+  "ErrorCode": "ad",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

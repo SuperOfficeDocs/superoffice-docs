@@ -81,19 +81,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 282,
-  "ChatSessionId": 890,
+  "ChatMessageId": 985,
+  "ChatSessionId": 606,
   "Type": "Invalid",
-  "Message": "qui",
-  "Author": "eos",
-  "ReadByCustomer": 418,
+  "Message": "numquam",
+  "Author": "nihil",
+  "ReadByCustomer": 774,
   "SpecialType": "Block",
-  "SpecialParam": "ut",
-  "WhenPosted": "2016-11-15T16:00:47.6647341+01:00"
+  "SpecialParam": "non",
+  "WhenPosted": "2005-03-10T03:31:32.3477424+01:00"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 630,
-  "ChatSessionId": 831,
+  "ChatMessageId": 418,
+  "ChatSessionId": 826,
   "Type": "Invalid",
-  "Message": "aut",
-  "Author": "et",
-  "ReadByCustomer": 928,
+  "Message": "blanditiis",
+  "Author": "qui",
+  "ReadByCustomer": 283,
   "SpecialType": "Block",
-  "SpecialParam": "quis",
-  "WhenPosted": "2018-06-11T16:00:47.6647341+02:00"
+  "SpecialParam": "quia",
+  "WhenPosted": "2013-03-10T03:31:32.3477424+01:00"
 }
 ```

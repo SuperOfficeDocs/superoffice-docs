@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 686,
-    "Name": "Runolfsdottir Group",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 286,
+    "WebPanelId": 572,
+    "Name": "King Group",
+    "Tooltip": "odio",
+    "Deleted": false,
+    "Rank": 12,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
+    "OnCentral": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Barrows-Denesik",
+    "WindowName": "Heidenreich, Vandervort and Orn",
     "Url": "http://www.example.com/",
-    "ProgId": "est",
-    "Icon": 811,
+    "ProgId": "in",
+    "Icon": 29,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 591
       }
     }
   }

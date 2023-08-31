@@ -57,6 +57,7 @@ OK
 | Encoding | string | Content-Transfer-Encoding |
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
+| IsSafeFileExtension | bool | If the user should be allowed to download and perform other actions on the attachment. |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory incremental initiative",
-  "Filename": "beatae",
-  "Size": 569,
-  "Type": "dolores",
-  "Encoding": "veritatis",
-  "Id": "error",
-  "Disposition": "aut",
+  "Description": "Focused fault-tolerant attitude",
+  "Filename": "earum",
+  "Size": 950,
+  "Type": "quisquam",
+  "Encoding": "in",
+  "Id": "et",
+  "Disposition": "voluptas",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 26
     }
   }
 }

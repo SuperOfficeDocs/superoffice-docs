@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 982,
-  "Name": "Kirlin Inc and Sons",
-  "CreatedDate": "2017-09-26T16:00:41.0549706+02:00",
-  "UpdatedDate": "2005-12-13T16:00:41.0549706+01:00",
+  "ForeignAppId": 870,
+  "Name": "Kling, O'Reilly and Miller",
+  "CreatedDate": "2015-04-16T03:31:26.5738289+02:00",
+  "UpdatedDate": "1999-11-27T03:31:26.5738289+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 362,
-      "Name": "Donnelly, Sporer and Bauch",
-      "CreatedDate": "1999-01-22T16:00:41.0549706+01:00",
-      "UpdatedDate": "2012-07-05T16:00:41.0549706+02:00",
-      "AssociateFullName": "Wellington Conroy",
-      "CreatedBy": "sint",
-      "UpdatedBy": "perspiciatis",
-      "DeviceIdentifier": "asperiores",
-      "ForeignAppId": 844,
+      "ForeignDeviceId": 91,
+      "Name": "Satterfield, Cartwright and Schowalter",
+      "CreatedDate": "1998-02-10T03:31:26.5738289+01:00",
+      "UpdatedDate": "1997-07-16T03:31:26.5738289+02:00",
+      "AssociateFullName": "Joan Toy",
+      "CreatedBy": "in",
+      "UpdatedBy": "voluptate",
+      "DeviceIdentifier": "error",
+      "ForeignAppId": 764,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 514
+          "FieldLength": 671
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldType": "System.Int32",
+      "FieldLength": 77
     }
   }
 }

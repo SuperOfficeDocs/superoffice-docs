@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Marvin Group",
-    "ToolTip": "Ex praesentium amet et.",
+    "Id": 661,
+    "Name": "Kutch-Orn",
+    "ToolTip": "Optio totam delectus veniam doloremque.",
     "Deleted": false,
-    "Rank": 13,
-    "Type": "dolor",
-    "ColorBlock": 143,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2018-01-01T16:00:48.9927141+01:00",
+    "Rank": 45,
+    "Type": "eveniet",
+    "ColorBlock": 420,
+    "IconHint": "aspernatur",
+    "Selected": true,
+    "LastChanged": "2009-01-27T03:31:33.5854694+01:00",
     "ChildItems": [
       {
-        "Id": 444,
-        "Name": "Russel, Legros and Price",
-        "ToolTip": "Aut natus sit adipisci eos rem nisi.",
-        "Deleted": true,
-        "Rank": 771,
-        "Type": "aspernatur",
-        "ColorBlock": 198,
-        "IconHint": "rerum",
+        "Id": 975,
+        "Name": "Grant, Raynor and Beer",
+        "ToolTip": "Soluta commodi commodi.",
+        "Deleted": false,
+        "Rank": 264,
+        "Type": "et",
+        "ColorBlock": 121,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2011-01-11T16:00:48.9927141+01:00",
+        "LastChanged": "2014-05-01T03:31:33.5854694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "ut",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Alejandrin Breitenberg III",
+        "FullName": "Mrs. Vivianne Jaclyn Pollich DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 194
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Israel Deckow",
+    "ExtraInfo": "sit",
+    "StyleHint": "ex",
+    "Hidden": false,
+    "FullName": "Dr. Lorna Lenora Purdy Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 356
       }
     }
   }

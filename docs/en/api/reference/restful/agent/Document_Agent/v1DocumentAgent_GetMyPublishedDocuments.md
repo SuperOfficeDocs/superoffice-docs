@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 116,
-    "Attention": "quidem",
-    "Header": "qui",
-    "Name": "Bartell, McCullough and Ledner",
-    "OurRef": "consequatur",
-    "YourRef": "tenetur",
-    "Description": "Persevering secondary implementation",
-    "DocumentTemplate": "officia",
-    "IsPublished": true,
-    "PersonId": 937,
-    "PersonFullName": "Andreane Macejkovic PhD",
-    "AssociateFullName": "Mrs. Tanya Hugh Dooley",
-    "ContactId": 750,
-    "ContactName": "Kulas LLC",
-    "ProjectId": 834,
-    "ProjectName": "Roberts, Sawayn and Schiller",
-    "AssociateId": 518,
-    "Snum": 225,
-    "SaleId": 27,
-    "SaleName": "McGlynn, Christiansen and Torphy",
+    "DocumentId": 56,
+    "Attention": "debitis",
+    "Header": "voluptatem",
+    "Name": "Rohan LLC",
+    "OurRef": "ullam",
+    "YourRef": "accusantium",
+    "Description": "User-friendly didactic functionalities",
+    "DocumentTemplate": "aut",
+    "IsPublished": false,
+    "PersonId": 871,
+    "PersonFullName": "Angeline Stamm",
+    "AssociateFullName": "Prof. Gloria Lynch MD",
+    "ContactId": 96,
+    "ContactName": "Jacobi, Trantow and Hintz",
+    "ProjectId": 216,
+    "ProjectName": "Stokes, Funk and Schaefer",
+    "AssociateId": 583,
+    "Snum": 614,
+    "SaleId": 797,
+    "SaleName": "Lang, Kuhlman and Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldLength": 128
       }
     }
   }

@@ -103,8 +103,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 556,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 137,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 625,
+  "EjMessageId": 691,
   "Ticket": null,
-  "CreatedAt": "2020-05-17T16:00:42.2581348+02:00",
+  "CreatedAt": "2014-11-03T03:31:27.716607+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "iusto",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aut",
-  "TimeSpent": 121,
-  "Body": "saepe",
-  "HtmlBody": "dolores",
-  "EmailHeader": "haleigh@erdmanrunte.biz",
-  "DebugInfo": "est",
-  "MailSorter": "est",
+  "MessageId": "debitis",
+  "TimeSpent": 375,
+  "Body": "minus",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "eve@ferrypacocha.us",
+  "DebugInfo": "velit",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 190,
-      "Name": "Swaniawski-Wyman",
-      "Value": "et",
+      "Id": 802,
+      "Name": "Waters Group",
+      "Value": "excepturi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldLength": 485
         }
       }
     }
   ],
   "Important": false,
-  "Language": "perspiciatis",
-  "Sentiment": 755,
-  "SentimentConfidence": 521,
+  "Language": "aperiam",
+  "Sentiment": 533,
+  "SentimentConfidence": 773,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 504,
-      "Name": "Morar-Lind",
-      "ContentType": "autem",
-      "AttSize": 535,
+      "AttachmentId": 442,
+      "Name": "Will-Wilkinson",
+      "ContentType": "harum",
+      "AttSize": 19,
       "InlineImage": true,
-      "ContentId": "ullam",
-      "AuthKey": "aliquam",
+      "ContentId": "sunt",
+      "AuthKey": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldLength": 452
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "est"
+    "CustomFields1": "labore",
+    "CustomFields2": "dicta"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

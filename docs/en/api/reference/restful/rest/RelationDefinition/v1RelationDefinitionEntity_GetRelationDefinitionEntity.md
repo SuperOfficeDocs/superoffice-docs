@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 386,
-  "Name": "Koss LLC",
-  "Tooltip": "quos",
-  "PassiveText": "iure",
+  "ReldefId": 203,
+  "Name": "McClure Group",
+  "Tooltip": "illo",
+  "PassiveText": "aliquam",
   "Deleted": false,
-  "Rank": 794,
+  "Rank": 657,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 13
     }
   },
   "_Links": {

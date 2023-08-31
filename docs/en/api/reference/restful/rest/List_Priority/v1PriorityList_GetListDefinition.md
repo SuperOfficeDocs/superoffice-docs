@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Cremin-Douglas",
-  "Tooltip": "corporis",
+  "Id": 658,
+  "Name": "Muller-Trantow",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 945,
+  "Rank": 137,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
+  "ListType": "amet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 11
     }
   },
   "_Links": {

@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kshlerin LLC",
-  "Columns": "officia",
-  "SortOrder": "ut",
-  "Restrictions": "nesciunt",
-  "Entities": "doloribus",
-  "Page": 288,
-  "PageSize": 740
+  "ProviderName": "Huels-Boyle",
+  "Columns": "tempora",
+  "SortOrder": "quae",
+  "Restrictions": "qui",
+  "Entities": "et",
+  "Page": 184,
+  "PageSize": 661
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kihn-Koss",
-    "PrimaryKey": 730,
+    "EntityName": "Balistreri-Kiehn",
+    "PrimaryKey": 41,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "nam",
-        "TooltipHint": "ipsam",
-        "LinkHint": "quia"
+        "DisplayValue": "rem",
+        "TooltipHint": "nostrum",
+        "LinkHint": "sapiente"
       }
     },
-    "LinkHint": "doloribus",
-    "StyleHint": "cumque",
+    "LinkHint": "sequi",
+    "StyleHint": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldType": "System.String",
+        "FieldLength": 782
       }
     }
   }

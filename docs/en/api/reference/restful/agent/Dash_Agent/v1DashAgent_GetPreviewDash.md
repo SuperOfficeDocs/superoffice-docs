@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 99
+  "DashboardId": 402
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Langosh-Mann",
-  "Description": "Profound actuating implementation",
-  "OwnedByFullName": "Candace Langosh",
-  "Registered": "2022-03-12T16:00:40.5393779+01:00",
+  "Name": "Hahn-Hauck",
+  "Description": "Diverse intangible complexity",
+  "OwnedByFullName": "Jeffrey Wyman",
+  "Registered": "2000-04-09T03:31:26.0114733+02:00",
   "Tiles": [
     {
-      "Name": "Rutherford, Mosciski and Cremin",
+      "Name": "Sawayn-Tillman",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 227
         }
       }
     },
     {
-      "Name": "Rutherford, Mosciski and Cremin",
+      "Name": "Sawayn-Tillman",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 227
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 93
     }
   }
 }

@@ -110,31 +110,31 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 336,
-  "Name": "Treutel, Collins and Gerhold",
+  "WebPanelId": 180,
+  "Name": "Tromp-Effertz",
   "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 552,
+  "Deleted": true,
+  "Rank": 771,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Luettgen, O'Conner and Trantow",
+  "WindowName": "Grant LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "corporis",
-  "Icon": 186,
-  "AlwaysReloadOnShow": true
+  "ProgId": "aut",
+  "Icon": 341,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -145,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 357,
-  "Name": "Hayes-Goldner",
-  "Tooltip": "molestias",
+  "WebPanelId": 331,
+  "Name": "Ledner LLC",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 316,
+  "Rank": 375,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Raynor-Cummings",
+  "ShowInStatusBar": true,
+  "WindowName": "Schaefer-Schiller",
   "Url": "http://www.example.com/",
-  "ProgId": "corrupti",
-  "Icon": 243,
+  "ProgId": "est",
+  "Icon": 667,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldLength": 355
     }
   }
 }

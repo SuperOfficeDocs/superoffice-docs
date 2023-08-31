@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 457,
-  "Name": "Reichel, Weissnat and Hammes",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "Rank": 163,
+  "Id": 45,
+  "Name": "Sauer, Mayer and Conroy",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 790,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "cupiditate",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 333
+      "FieldLength": 273
     }
   },
   "_Links": {

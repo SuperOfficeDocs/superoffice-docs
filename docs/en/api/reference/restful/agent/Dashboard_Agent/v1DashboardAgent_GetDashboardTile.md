@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=415
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=933
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 457,
-  "Caption": "adipisci",
-  "Description": "Multi-channelled didactic task-force",
-  "ChartName": "Thiel Group",
-  "ChartId": "perspiciatis",
-  "IsDefault": false,
-  "AssociateId": 394,
-  "GroupId": 734,
-  "SelectionId": 229,
-  "Config": "harum",
+  "DashboardTileId": 19,
+  "Caption": "iste",
+  "Description": "Networked heuristic system engine",
+  "ChartName": "Jones-Pacocha",
+  "ChartId": "quisquam",
+  "IsDefault": true,
+  "AssociateId": 132,
+  "GroupId": 868,
+  "SelectionId": 398,
+  "Config": "earum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Prohaska, Howell and Schamberger",
-      "Description": "Right-sized systemic time-frame",
+      "Name": "Stracke, King and Emmerich",
+      "Description": "Balanced web-enabled paradigm",
       "Type": "Boolean",
-      "ListName": "Goyette Group",
+      "ListName": "Lowe Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "delectus",
+      "Value": "nam",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 951
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 820,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 131
         }
       }
     },
     {
-      "VisibleId": 820,
+      "VisibleId": 107,
       "Visibility": "All",
-      "DisplayValue": "molestias",
+      "DisplayValue": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 131
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 602
     }
   }
 }

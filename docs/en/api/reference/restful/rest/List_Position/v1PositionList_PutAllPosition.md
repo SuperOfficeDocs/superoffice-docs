@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "UdListDefinitionId": 305,
-    "Rank": 686
+    "Id": 6,
+    "Name": "Little LLC",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 496,
+    "Rank": 669
   },
   {
-    "Id": 91,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "UdListDefinitionId": 305,
-    "Rank": 686
+    "Id": 6,
+    "Name": "Little LLC",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 496,
+    "Rank": 669
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 955,
-    "Name": "Lind LLC",
-    "Tooltip": "assumenda",
-    "Deleted": false,
-    "UdListDefinitionId": 849,
-    "Rank": 885,
+    "Id": 994,
+    "Name": "Kessler-Ratke",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "UdListDefinitionId": 334,
+    "Rank": 993,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 191
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

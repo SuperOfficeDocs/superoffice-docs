@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 124,
+  "TargetYear": 466,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 11,
-  "DimensionId": 878
+  "Id": 754,
+  "DimensionId": 295
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 972,
+  "TargetAssignmentInfoId": 346,
   "Values": [
-    211,
-    561
+    915,
+    912
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 6,
-  "DimensionListItemDisplayName": "Wisozk, Boehm and Franecki",
+  "DimensionListItem": 938,
+  "DimensionListItemDisplayName": "Kassulke Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldLength": 496
     }
   }
 }

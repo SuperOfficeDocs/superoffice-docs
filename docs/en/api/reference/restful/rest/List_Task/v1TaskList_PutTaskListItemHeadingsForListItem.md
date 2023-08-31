@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 789,
-    "Name": "Beer, Wyman and Fay",
-    "ToolTip": "Dolor esse amet non minus vel veniam nisi.",
+    "Id": 174,
+    "Name": "Heidenreich, Feest and Goodwin",
+    "ToolTip": "Et in distinctio perspiciatis et aut autem sequi.",
     "Deleted": false,
-    "Rank": 977,
-    "Type": "magnam",
-    "ColorBlock": 722,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "2021-03-15T16:00:49.3677537+01:00",
+    "Rank": 485,
+    "Type": "earum",
+    "ColorBlock": 660,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "2002-08-15T03:31:33.9160051+02:00",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Kuhic LLC",
-        "ToolTip": "Enim sed quaerat consequatur eum ut libero soluta.",
-        "Deleted": false,
-        "Rank": 160,
-        "Type": "est",
-        "ColorBlock": 262,
-        "IconHint": "consequatur",
+        "Id": 947,
+        "Name": "Smith-Gulgowski",
+        "ToolTip": "Nesciunt exercitationem deserunt.",
+        "Deleted": true,
+        "Rank": 579,
+        "Type": "ex",
+        "ColorBlock": 686,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "1996-12-10T16:00:49.3677537+01:00",
+        "LastChanged": "2017-03-18T03:31:33.9160051+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Fannie Feeney"
+        "FullName": "Giuseppe Oma Hand Jr."
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "optio",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Miss Maynard Ardella Ebert Sr."
+    "FullName": "Ashleigh Rice"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Beatty-Schaden",
-    "ToolTip": "A sed quis.",
-    "Deleted": true,
-    "Rank": 132,
-    "Type": "quam",
-    "ColorBlock": 187,
-    "IconHint": "qui",
+    "Id": 894,
+    "Name": "Rogahn-Hintz",
+    "ToolTip": "Quasi odit.",
+    "Deleted": false,
+    "Rank": 31,
+    "Type": "fuga",
+    "ColorBlock": 593,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2008-07-13T16:00:49.3677537+02:00",
+    "LastChanged": "2012-07-10T03:31:33.9160051+02:00",
     "ChildItems": [
       {
-        "Id": 254,
-        "Name": "Carroll, Goyette and Johnston",
-        "ToolTip": "Animi voluptas aperiam sequi esse et unde.",
-        "Deleted": true,
-        "Rank": 920,
-        "Type": "eaque",
-        "ColorBlock": 37,
-        "IconHint": "ab",
+        "Id": 772,
+        "Name": "Leannon, Rosenbaum and Green",
+        "ToolTip": "Quas ea reprehenderit qui provident.",
+        "Deleted": false,
+        "Rank": 863,
+        "Type": "mollitia",
+        "ColorBlock": 427,
+        "IconHint": "illo",
         "Selected": true,
-        "LastChanged": "1996-03-03T16:00:49.3677537+01:00",
+        "LastChanged": "2003-10-04T03:31:33.9160051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "maxime",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Alene Heather Heidenreich DDS",
+        "FullName": "Guy Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 135
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Delmer Greenholt",
+    "ExtraInfo": "in",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Destinee Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

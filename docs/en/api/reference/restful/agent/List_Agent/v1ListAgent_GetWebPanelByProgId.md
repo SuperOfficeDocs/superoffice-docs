@@ -97,7 +97,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "est"
+  "ProgId": "facilis"
 }
 ```
 
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 976,
-  "Name": "Kutch LLC",
-  "Tooltip": "neque",
+  "WebPanelId": 180,
+  "Name": "Spencer-Howell",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 234,
+  "Rank": 68,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Erdman-Davis",
+  "WindowName": "Grady LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "modi",
-  "Icon": 941,
+  "ProgId": "dolorem",
+  "Icon": 263,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 425
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 590,
-  "Created": "2018-12-16T16:00:41.6956884+01:00",
+  "SatelliteId": 235,
+  "Created": "2020-06-12T03:31:27.1218466+02:00",
   "CreatedBy": null,
-  "Updated": "2001-03-17T16:00:41.6956884+01:00",
+  "Updated": "2003-02-16T03:31:27.1218466+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Gerlach, Olson and Champlin",
-      "Description": "Open-source responsive ability",
+      "Name": "Murphy-Zulauf",
+      "Description": "Re-contextualized multi-tasking matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 177
         }
       }
     },
     {
-      "Name": "Gerlach, Olson and Champlin",
-      "Description": "Open-source responsive ability",
+      "Name": "Murphy-Zulauf",
+      "Description": "Re-contextualized multi-tasking matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 177
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

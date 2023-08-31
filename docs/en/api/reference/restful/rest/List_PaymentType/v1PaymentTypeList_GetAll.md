@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Kuhn-Blick",
-    "Tooltip": "nulla",
+    "Id": 511,
+    "Name": "Bergstrom, Steuber and Grimes",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 839,
-    "Rank": 87,
+    "UdListDefinitionId": 547,
+    "Rank": 804,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 503
       }
     }
   }

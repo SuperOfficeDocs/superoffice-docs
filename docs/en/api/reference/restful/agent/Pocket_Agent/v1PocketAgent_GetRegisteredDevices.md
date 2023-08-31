@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 5
+  "AssociateId": 694
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Shanahan LLC",
-    "DeviceIdentifier": "sint",
-    "PocketVersion": "veniam",
-    "Language": "quo",
-    "PNSHandle": "eveniet",
+    "DeviceName": "Kuvalis-Stiedemann",
+    "DeviceIdentifier": "amet",
+    "PocketVersion": "iure",
+    "Language": "voluptas",
+    "PNSHandle": "occaecati",
     "Platform": "Apple",
-    "OSVersion": "qui",
-    "TimeZoneId": 385
+    "OSVersion": "autem",
+    "TimeZoneId": 90
   }
 ]
 ```

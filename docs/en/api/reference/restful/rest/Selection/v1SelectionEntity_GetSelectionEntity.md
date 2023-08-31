@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 16 Nov 1999 16:00:48 G11T
+Last-Modified: Sun, 14 Feb 1999 03:31:32 G2T
 
 {
-  "Description": "Configurable incremental toolset",
-  "Postit": "quas",
+  "Description": "Fundamental 4th generation matrix",
+  "Postit": "ipsum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 93,
-  "IncludePerson": 946,
-  "MemberCount": 477,
-  "Name": "Boehm-Fahey",
-  "PostitTextId": 666,
-  "CreatedDate": "2009-02-12T16:00:48.4458989+01:00",
-  "SelectionId": 363,
-  "SoundEx": "non",
-  "Source": 689,
-  "TextId": 631,
-  "UpdatedDate": "1999-11-16T16:00:48.4458989+01:00",
-  "UpdatedCount": 723,
-  "Visibility": 392,
+  "GroupIdx": 254,
+  "IncludePerson": 576,
+  "MemberCount": 503,
+  "Name": "Macejkovic-Hand",
+  "PostitTextId": 470,
+  "CreatedDate": "1999-09-19T03:31:32.9257016+02:00",
+  "SelectionId": 279,
+  "SoundEx": "ea",
+  "Source": 32,
+  "TextId": 869,
+  "UpdatedDate": "1999-02-14T03:31:32.9257016+01:00",
+  "UpdatedCount": 771,
+  "Visibility": 991,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 190,
-  "TargetTableName": "Kuhlman Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 946,
-  "RightSelectionId": 682,
+  "CompanyUnique": false,
+  "TargetTableNumber": 625,
+  "TargetTableName": "Koch-Ryan",
+  "Completed": true,
+  "LeftSelectionId": 912,
+  "RightSelectionId": 588,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stokes, Gislason and Hermann",
-  "ShadowProviderName": "Muller-Pfeffer",
-  "ChartKey": "adipisci",
-  "LastLoaded": "2002-07-22T16:00:48.4458989+02:00",
-  "LastLoadedBy": 453,
+  "MainProviderName": "Padberg, Sanford and Treutel",
+  "ShadowProviderName": "Bechtelar-Haley",
+  "ChartKey": "rerum",
+  "LastLoaded": "2012-11-04T03:31:32.9257016+01:00",
+  "LastLoadedBy": 169,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-09-01T16:00:48.4458989+02:00",
-  "LastMembershipChangeBy": 538,
+  "LastMembershipChange": "2002-11-15T03:31:32.9257016+01:00",
+  "LastMembershipChangeBy": 249,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tenetur",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Leffler-Watsica",
-  "DashboardTileDefinitionId": 199,
+  "MainHeading": "consequatur",
+  "MemberTabHeading": "aspernatur",
+  "MailingsProviderName": "Pacocha LLC",
+  "DashboardTileDefinitionId": 649,
   "VisibleFor": [
     {
-      "VisibleId": 288,
+      "VisibleId": 376,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 492
         }
       }
     },
     {
-      "VisibleId": 288,
+      "VisibleId": 376,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldLength": 492
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Tue, 16 Nov 1999 16:00:48 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldLength": 181
     }
   },
   "_Links": {

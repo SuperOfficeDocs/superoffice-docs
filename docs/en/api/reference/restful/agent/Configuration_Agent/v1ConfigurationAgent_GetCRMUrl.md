@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "rerum",
-  "Currents": "inventore",
+  "SoProtocol": "sint",
+  "Currents": "repellat",
   "Frameless": false
 }
 ```

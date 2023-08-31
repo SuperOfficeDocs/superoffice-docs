@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 92,
-  "Name": "Rempel Inc and Sons",
-  "Tooltip": "sed",
-  "Rank": 785,
-  "Key": "eum",
+  "LegalBaseId": 372,
+  "Name": "Lockman Group",
+  "Tooltip": "ea",
+  "Rank": 396,
+  "Key": "dolorem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldLength": 62
     }
   }
 }

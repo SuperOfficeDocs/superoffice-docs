@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 61,
-  "Name": "Gislason-Collier",
+  "ScreenChooserId": 78,
+  "Name": "Jewess, Johns and Pfannerstill",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quis",
-  "Source": "eius",
-  "Registered": "2010-05-21T16:00:48.617756+02:00",
-  "RegisteredAssociateId": 706,
-  "Updated": "2011-05-28T16:00:48.617756+02:00",
-  "UpdatedAssociateId": 938
+  "Enabled": false,
+  "UniqueIdentifier": "ut",
+  "Source": "autem",
+  "Registered": "2010-04-13T03:31:33.2718572+02:00",
+  "RegisteredAssociateId": 93,
+  "Updated": "2007-06-22T03:31:33.2718572+02:00",
+  "UpdatedAssociateId": 278
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 995,
-  "Name": "Rath-Huel",
+  "ScreenChooserId": 285,
+  "Name": "Champlin Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "id",
-  "Source": "blanditiis",
-  "Registered": "2017-06-20T16:00:48.617756+02:00",
-  "RegisteredAssociateId": 490,
-  "Updated": "2002-09-13T16:00:48.617756+02:00",
-  "UpdatedAssociateId": 329,
+  "Enabled": false,
+  "UniqueIdentifier": "nostrum",
+  "Source": "ex",
+  "Registered": "2015-08-17T03:31:33.2718572+02:00",
+  "RegisteredAssociateId": 253,
+  "Updated": "1998-06-29T03:31:33.2718572+02:00",
+  "UpdatedAssociateId": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 411
     }
   }
 }

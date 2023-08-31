@@ -93,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 264,
-  "Name": "Boyer-Champlin",
-  "Config": "voluptas",
-  "Rank": 170,
-  "Client": "debitis",
-  "Style": "earum"
+  "DashboardThemeId": 783,
+  "Name": "Herman, Bogan and Romaguera",
+  "Config": "rerum",
+  "Rank": 550,
+  "Client": "sint",
+  "Style": "et"
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 105,
-  "Name": "Bashirian, Weimann and Wilkinson",
-  "Config": "voluptas",
-  "Rank": 987,
-  "Client": "velit",
-  "Style": "consequatur",
+  "DashboardThemeId": 462,
+  "Name": "Powlowski Group",
+  "Config": "velit",
+  "Rank": 531,
+  "Client": "ab",
+  "Style": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 406
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

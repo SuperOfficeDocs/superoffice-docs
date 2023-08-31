@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Beatty, Strosin and Hyatt",
-  "StorageKey": "dolore",
+  "StorageType": "hic",
+  "ProviderName": "Kerluke LLC",
+  "StorageKey": "quia",
   "Restrictions": [
     {
-      "Name": "Parker-Huel",
-      "Operator": "repellat",
+      "Name": "Fritsch Inc and Sons",
+      "Operator": "in",
       "Values": [
-        "qui",
-        "excepturi"
+        "mollitia",
+        "est"
       ],
       "DisplayValues": [
-        "iure",
-        "vero"
+        "nihil",
+        "consequatur"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 259,
+      "InterParenthesis": 32,
       "InterOperator": "And",
-      "UniqueHash": 643
+      "UniqueHash": 695
     }
   ],
   "StaticColumns": [
-    "ducimus",
-    "ratione"
+    "qui",
+    "excepturi"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kertzmann-Morissette",
-      "Operator": "beatae",
+      "Name": "King, Conn and Cole",
+      "Operator": "nostrum",
       "Values": [
-        "sint",
-        "aut"
+        "eum",
+        "ut"
       ],
       "DisplayValues": [
-        "quas",
-        "nostrum"
+        "eum",
+        "nihil"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 54,
+      "InterParenthesis": 976,
       "InterOperator": "And",
-      "UniqueHash": 583
+      "UniqueHash": 320
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Prohaska-Sipes",
-      "DisplayTooltip": "incidunt",
-      "DisplayType": "et",
+      "DisplayName": "Robel-Grady",
+      "DisplayTooltip": "et",
+      "DisplayType": "quas",
       "CanOrderBy": false,
-      "Name": "Dietrich-Bogan",
+      "Name": "O'Reilly Group",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Brown Group",
+      "RestrictionType": "cum",
+      "RestrictionListName": "Olson-Bechtelar",
       "IsVisible": false,
-      "ExtraInfo": "nobis",
-      "Width": "sint",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "error",
+      "Width": "aut",
+      "IconHint": "quae",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Reynolds, Williamson and Konopelski",
-      "PrimaryKey": 318,
+      "EntityName": "Heller-Mayert",
+      "PrimaryKey": 630,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "explicabo",
-          "TooltipHint": "ut",
-          "LinkHint": "exercitationem"
+          "DisplayValue": "aut",
+          "TooltipHint": "autem",
+          "LinkHint": "corporis"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "repellendus",
+      "LinkHint": "illum",
+      "StyleHint": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 417
+          "FieldType": "System.Int32",
+          "FieldLength": 698
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Kuphal-Hegmann",
-      "Description": "Progressive motivating contingency",
-      "Rank": 315,
+      "Name": "Price-Harris",
+      "Description": "Ameliorated 24 hour model",
+      "Rank": 306,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kuphal-Hegmann",
-      "Description": "Progressive motivating contingency",
-      "Rank": 315,
+      "Name": "Price-Harris",
+      "Description": "Ameliorated 24 hour model",
+      "Rank": 306,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 448
     }
   }
 }

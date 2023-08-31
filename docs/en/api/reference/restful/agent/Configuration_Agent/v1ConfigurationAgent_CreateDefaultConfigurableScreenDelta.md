@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 899,
-  "Name": "Vandervort Group",
-  "Description": "Progressive mobile algorithm",
-  "DeltaJson": "eos",
+  "ConfigurableScreenDeltaId": 909,
+  "Name": "White-Durgan",
+  "Description": "Up-sized directional leverage",
+  "DeltaJson": "dolorem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "earum",
-  "UpdatedDate": "2020-04-12T16:00:40.2894057+02:00",
-  "CreatedDate": "1996-04-02T16:00:40.2894057+02:00",
+  "RecipeId": "atque",
+  "UpdatedDate": "2004-02-09T03:31:25.8072288+01:00",
+  "CreatedDate": "2020-09-20T03:31:25.8072288+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    463,
-    973
+    282,
+    37
   ],
-  "AppliesToKey": "nihil",
+  "AppliesToKey": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 236
     }
   }
 }

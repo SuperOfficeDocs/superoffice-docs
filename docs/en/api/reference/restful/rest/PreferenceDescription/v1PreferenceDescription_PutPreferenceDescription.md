@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 545,
-  "Section": "eum",
-  "Key": "iusto",
-  "Name": "Kutch-Luettgen",
+  "PrefDescId": 920,
+  "Section": "labore",
+  "Key": "eum",
+  "Name": "Konopelski, Ledner and Sanford",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Digitized local infrastructure",
-  "IsBuiltin": true,
-  "TableName": "Zemlak Inc and Sons",
-  "UserDefinedListId": 909,
-  "Rank": 136,
-  "SubGroup": "occaecati",
-  "MinLevel": 862,
-  "MaxValue": 426,
-  "MinValue": 361,
-  "RequiredLicense": "fugit"
+  "Description": "Reverse-engineered clear-thinking functionalities",
+  "IsBuiltin": false,
+  "TableName": "Cruickshank, Littel and Carter",
+  "UserDefinedListId": 368,
+  "Rank": 446,
+  "SubGroup": "est",
+  "MinLevel": 612,
+  "MaxValue": 730,
+  "MinValue": 974,
+  "RequiredLicense": "accusamus"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 525,
-  "Section": "inventore",
-  "Key": "officiis",
-  "Name": "Wunsch, Romaguera and Emmerich",
+  "PrefDescId": 315,
+  "Section": "voluptates",
+  "Key": "facilis",
+  "Name": "Kutch-Miller",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative maximized budgetary management",
+  "Description": "Decentralized non-volatile circuit",
   "IsBuiltin": true,
-  "TableName": "Lubowitz LLC",
-  "UserDefinedListId": 170,
-  "Rank": 44,
-  "SubGroup": "sed",
-  "MinLevel": 216,
-  "MaxValue": 65,
-  "MinValue": 938,
-  "RequiredLicense": "sint",
+  "TableName": "Ward, Schultz and Morissette",
+  "UserDefinedListId": 780,
+  "Rank": 115,
+  "SubGroup": "earum",
+  "MinLevel": 464,
+  "MaxValue": 599,
+  "MinValue": 977,
+  "RequiredLicense": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 950
+      "FieldType": "System.Int32",
+      "FieldLength": 20
     }
   },
   "_Links": {

@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=ducimus
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=ipsam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Sanford-McDermott",
-    "ToolTip": "Incidunt et non nemo voluptatum facilis a aperiam.",
-    "Deleted": false,
-    "Rank": 951,
-    "Type": "harum",
+    "Id": 980,
+    "Name": "Klein, Wisoky and Little",
+    "ToolTip": "Consequuntur sapiente.",
+    "Deleted": true,
+    "Rank": 981,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Breitenberg-Hartmann",
-        "ToolTip": "Quis qui voluptatem in et.",
-        "Deleted": true,
-        "Rank": 954,
-        "Type": "voluptas",
+        "Id": 832,
+        "Name": "Pouros-Trantow",
+        "ToolTip": "Aut et assumenda qui harum non voluptas molestiae.",
+        "Deleted": false,
+        "Rank": 306,
+        "Type": "dolorum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "esse",
-        "ColorBlock": 657,
-        "ExtraInfo": "vel",
-        "StyleHint": "quam",
-        "FullName": "Prof. Orville Marilie Donnelly DVM",
+        "IconHint": "tenetur",
+        "ColorBlock": 413,
+        "ExtraInfo": "suscipit",
+        "StyleHint": "ab",
+        "FullName": "Mrs. Dayna Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldType": "System.String",
+            "FieldLength": 476
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 39,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "aut",
-    "FullName": "Guiseppe Reinger",
+    "IconHint": "sed",
+    "ColorBlock": 722,
+    "ExtraInfo": "nihil",
+    "StyleHint": "ut",
+    "FullName": "Mrs. Reynold Spinka II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 648,
-  "Name": "Koepp, Tromp and Tillman",
-  "Tooltip": "quidem",
-  "Rank": 760,
+  "SaleTypeId": 158,
+  "Name": "Hilll, Monahan and Lehner",
+  "Tooltip": "rerum",
+  "Rank": 668,
   "DurationUnit": "Century",
-  "SaleDuration": 199,
-  "SaleTypeCatId": 356,
+  "SaleDuration": 485,
+  "SaleTypeCatId": 662,
   "Deleted": true,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 965,
-  "QuoteLinesTemplate": 543,
-  "ConfirmationLinesTemplate": 58,
-  "MaxDiscountPercentSet": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 809,
+  "QuoteLinesTemplate": 241,
+  "ConfirmationLinesTemplate": 582,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 195,
-  "MinEarningPercent": 737,
-  "GroupQuoteLinesBy": 398,
-  "SortGroupLinesBy": 616,
+  "MaxDiscountPercent": 611,
+  "MinEarningPercent": 345,
+  "GroupQuoteLinesBy": 896,
+  "SortGroupLinesBy": 196,
   "Stages": [
     {
-      "Id": 551,
-      "Name": "Schneider-Paucek",
-      "ToolTip": "Quibusdam quam aliquid.",
-      "Deleted": true,
-      "Rank": 814,
-      "Type": "occaecati",
-      "ColorBlock": 104,
-      "IconHint": "et",
+      "Id": 445,
+      "Name": "Leffler, Haag and Bogan",
+      "ToolTip": "Omnis eos.",
+      "Deleted": false,
+      "Rank": 677,
+      "Type": "alias",
+      "ColorBlock": 107,
+      "IconHint": "assumenda",
       "Selected": false,
-      "LastChanged": "2003-02-01T16:00:41.2268306+01:00",
+      "LastChanged": "2005-07-04T03:31:26.7300385+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "accusantium",
-      "Hidden": true,
-      "FullName": "Candida Hand",
+      "ExtraInfo": "quae",
+      "StyleHint": "fugiat",
+      "Hidden": false,
+      "FullName": "Sunny Schroeder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 705
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

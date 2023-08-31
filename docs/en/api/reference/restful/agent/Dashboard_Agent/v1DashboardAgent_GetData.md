@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 337,
-  "Restrictions": "omnis"
+  "DashboardTileId": 972,
+  "Restrictions": "similique"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Champlin Inc and Sons",
-        "DisplayTooltip": "illo",
-        "DisplayType": "illo",
-        "CanOrderBy": true,
-        "Name": "Hackett-Jacobs",
-        "CanRestrictBy": false,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Feeney-Bergnaum",
-        "IsVisible": false,
-        "ExtraInfo": "quam",
-        "Width": "et",
-        "IconHint": "eum",
-        "HeadingIconHint": "quis"
+        "DisplayName": "Padberg, Champlin and Simonis",
+        "DisplayTooltip": "voluptates",
+        "DisplayType": "quia",
+        "CanOrderBy": false,
+        "Name": "Rodriguez LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "ipsum",
+        "RestrictionListName": "Robel-Dickens",
+        "IsVisible": true,
+        "ExtraInfo": "eligendi",
+        "Width": "consectetur",
+        "IconHint": "expedita",
+        "HeadingIconHint": "et"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Champlin Inc and Sons",
-        "DisplayTooltip": "illo",
-        "DisplayType": "illo",
-        "CanOrderBy": true,
-        "Name": "Hackett-Jacobs",
-        "CanRestrictBy": false,
-        "RestrictionType": "qui",
-        "RestrictionListName": "Feeney-Bergnaum",
-        "IsVisible": false,
-        "ExtraInfo": "quam",
-        "Width": "et",
-        "IconHint": "eum",
-        "HeadingIconHint": "quis"
+        "DisplayName": "Padberg, Champlin and Simonis",
+        "DisplayTooltip": "voluptates",
+        "DisplayType": "quia",
+        "CanOrderBy": false,
+        "Name": "Rodriguez LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "ipsum",
+        "RestrictionListName": "Robel-Dickens",
+        "IsVisible": true,
+        "ExtraInfo": "eligendi",
+        "Width": "consectetur",
+        "IconHint": "expedita",
+        "HeadingIconHint": "et"
       }
     ],
     "Result": null

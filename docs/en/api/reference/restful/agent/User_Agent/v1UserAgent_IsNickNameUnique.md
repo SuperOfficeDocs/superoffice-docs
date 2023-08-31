@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 783,
-  "NickName": "Schaden LLC"
+  "AssociateId": 734,
+  "NickName": "Hessel, Ondricka and Hahn"
 }
 ```
 

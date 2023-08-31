@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mueller-Marquardt",
-    "SoPrimaryKey": 241,
-    "EntryName": "Schiller LLC",
-    "EntryIdentifier": "dolorem",
-    "RuleDisplayName": "Jaskolski, Fisher and Cremin",
+    "RuleName": "Cronin, Grant and Hilll",
+    "SoPrimaryKey": 216,
+    "EntryName": "Shanahan-Flatley",
+    "EntryIdentifier": "quas",
+    "RuleDisplayName": "Hand-Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldType": "System.String",
+        "FieldLength": 481
       }
     }
   }

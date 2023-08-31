@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Ernser, Nikolaus and Grimes",
-    "ToolTip": "Et magnam.",
-    "Deleted": true,
-    "Rank": 719,
-    "Type": "atque",
-    "ColorBlock": 417,
-    "IconHint": "dolorem",
+    "Id": 373,
+    "Name": "Jewess-Kuvalis",
+    "ToolTip": "Neque sequi qui.",
+    "Deleted": false,
+    "Rank": 456,
+    "Type": "voluptas",
+    "ColorBlock": 711,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2006-02-23T16:00:48.664623+01:00",
+    "LastChanged": "2015-09-17T03:31:33.3187308+02:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Towne-Senger",
-        "ToolTip": "Sit ratione qui assumenda dolorum.",
+        "Id": 236,
+        "Name": "Streich Group",
+        "ToolTip": "Sint et amet omnis.",
         "Deleted": true,
-        "Rank": 377,
-        "Type": "eos",
-        "ColorBlock": 966,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2009-11-22T16:00:48.664623+01:00",
+        "Rank": 806,
+        "Type": "ducimus",
+        "ColorBlock": 562,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2009-05-06T03:31:33.3187308+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "tempora",
+        "ExtraInfo": "velit",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Noemy Padberg",
+        "FullName": "Frida Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 973
+            "FieldType": "System.Int32",
+            "FieldLength": 134
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Davin Doyle",
+    "FullName": "Aimee Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 901
+        "FieldLength": 355
       }
     }
   }

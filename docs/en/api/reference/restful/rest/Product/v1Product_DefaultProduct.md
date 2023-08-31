@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 344,
-  "ERPProductKey": "nulla",
-  "ERPPriceListKey": "quibusdam",
-  "Name": "Wehner-Smitham",
-  "Description": "Triple-buffered object-oriented superstructure",
-  "Code": "qui",
-  "PriceUnit": "nihil",
-  "QuantityUnit": "quis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quisquam",
-  "DefaultSubscriptionQuantity": 10210.572,
-  "ItemNumber": "685507",
+  "ProductId": 17,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "impedit",
+  "Name": "Littel Group",
+  "Description": "User-centric systemic challenge",
+  "Code": "voluptas",
+  "PriceUnit": "quo",
+  "QuantityUnit": "sunt",
+  "IsSubscription": false,
+  "SubscriptionUnit": "exercitationem",
+  "DefaultSubscriptionQuantity": 896.324,
+  "ItemNumber": "1357766",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "distinctio",
-  "ProductTypeKey": "eos",
-  "VAT": 9057.26,
-  "VATInfo": "asperiores",
-  "UnitCost": 354.142,
-  "UnitMinimumPrice": 30337.12,
-  "UnitListPrice": 8348.976,
-  "InAssortment": false,
-  "Supplier": "expedita",
-  "SupplierCode": "quam",
-  "Rights": "soluta",
-  "Rule": "amet",
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "ex",
+  "VAT": 7991.7,
+  "VATInfo": "alias",
+  "UnitCost": 23410.98,
+  "UnitMinimumPrice": 10771.557999999999,
+  "UnitListPrice": 21737.424,
+  "InAssortment": true,
+  "Supplier": "illo",
+  "SupplierCode": "aut",
+  "Rights": "repellat",
+  "Rule": "reprehenderit",
   "ExtraInfo": [
     {
-      "Name": "Hilll Group",
-      "Value": "quidem",
+      "Name": "Barton Inc and Sons",
+      "Value": "cupiditate",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 834
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     },
     {
-      "Name": "Hilll Group",
-      "Value": "quidem",
+      "Name": "Barton Inc and Sons",
+      "Value": "cupiditate",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 834
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
-  "ExtraField1": "nostrum",
-  "ExtraField2": "magnam",
-  "ExtraField3": "aut",
-  "ExtraField4": "quidem",
-  "ExtraField5": "corrupti",
-  "InStock": 30656.788,
+  "RawExtraInfo": "repudiandae",
+  "ExtraField1": "est",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "dicta",
+  "ExtraField5": "in",
+  "InStock": 10185.5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 19
     }
   }
 }

@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schultz-Trantow",
-    "DisplayName": "Kreiger-Daniel",
-    "DisplayTooltip": "id",
-    "IsActive": true,
+    "Name": "McDermott LLC",
+    "DisplayName": "Grant, Grady and Feil",
+    "DisplayTooltip": "animi",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldLength": 91
       }
     }
   },
   {
-    "Name": "Schultz-Trantow",
-    "DisplayName": "Kreiger-Daniel",
-    "DisplayTooltip": "id",
-    "IsActive": true,
+    "Name": "McDermott LLC",
+    "DisplayName": "Grant, Grady and Feil",
+    "DisplayTooltip": "animi",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldLength": 91
       }
     }
   }

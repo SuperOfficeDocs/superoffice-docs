@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 29 Apr 2004 16:00:48 G4T
+Last-Modified: Thu, 09 Dec 2004 03:31:32 G12T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Thu, 29 Apr 2004 16:00:48 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "qui",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Thu, 29 Apr 2004 16:00:48 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-03-24T16:00:48.2584195+01:00",
-  "Amount": 22176.183999999997,
-  "SaleId": 378,
-  "Earning": 291.462,
-  "EarningPercent": 3149.67,
-  "Heading": "quia",
-  "Number": "823497",
-  "Probability": 523,
-  "CreatedDate": "2005-01-11T16:00:48.2584195+01:00",
-  "UpdatedDate": "2004-04-29T16:00:48.2584195+02:00",
+  "Saledate": "1998-05-16T03:31:32.8632191+02:00",
+  "Amount": 12952.822,
+  "SaleId": 925,
+  "Earning": 3616.636,
+  "EarningPercent": 9436.474,
+  "Heading": "mollitia",
+  "Number": "1462188",
+  "Probability": 277,
+  "CreatedDate": "2013-01-06T03:31:32.8632191+01:00",
+  "UpdatedDate": "2004-12-09T03:31:32.8632191+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 650,
+  "ActiveLinks": 110,
   "Links": [
     {
-      "EntityName": "Wilkinson, Schuppe and Koepp",
-      "Id": 237,
-      "Description": "Distributed interactive leverage",
-      "ExtraInfo": "sit",
-      "LinkId": 868,
+      "EntityName": "Kohler, Herman and Grimes",
+      "Id": 348,
+      "Description": "Advanced maximized firmware",
+      "ExtraInfo": "qui",
+      "LinkId": 205,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 577
         }
       }
     }
   ],
-  "NextDueDate": "2022-10-08T16:00:48.2584195+02:00",
-  "Postit": "suscipit",
+  "NextDueDate": "2011-11-04T03:31:32.8632191+01:00",
+  "Postit": "consequatur",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1997-10-02T16:00:48.2584195+02:00",
+  "ReopenDate": "2008-09-15T03:31:32.8632191+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Windler, Reichel and Wilkinson",
-      "Comment": "est",
-      "StakeholderRoleId": 277,
-      "CountryId": 36,
-      "PersonId": 368,
-      "EmailDescription": "elmo.dickinson@hegmann.uk",
-      "EmailId": 95,
-      "EmailAddress": "neil_schiller@von.ca",
-      "PhoneId": 225,
-      "ContactName": "Wehner-Muller",
-      "ContactId": 25,
-      "SaleId": 983,
-      "Mrmrs": "quam",
-      "Firstname": "Sophie",
-      "MiddleName": "Bartoletti Group",
-      "Lastname": "Brekke",
-      "SaleStakeholderId": 978,
-      "Rank": 491,
-      "Phone": "385.882.9191 x06418",
+      "StakeholderRoleName": "Beahan-Towne",
+      "Comment": "labore",
+      "StakeholderRoleId": 962,
+      "CountryId": 823,
+      "PersonId": 626,
+      "EmailDescription": "tyler.medhurst@leannon.co.uk",
+      "EmailId": 599,
+      "EmailAddress": "cary@shanahankoelpin.ca",
+      "PhoneId": 220,
+      "ContactName": "Wehner Group",
+      "ContactId": 18,
+      "SaleId": 678,
+      "Mrmrs": "porro",
+      "Firstname": "Osvaldo",
+      "MiddleName": "Gulgowski Inc and Sons",
+      "Lastname": "Rippin",
+      "SaleStakeholderId": 114,
+      "Rank": 885,
+      "Phone": "438-555-5643 x0730",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 411
+          "FieldType": "System.String",
+          "FieldLength": 750
         }
       }
     }
   ],
-  "ActiveErpLinks": 304,
+  "ActiveErpLinks": 164,
   "UserDefinedFields": {
-    "SuperOffice:1": "Delaney Kutch",
-    "SuperOffice:2": "Mervin Bernier"
+    "SuperOffice:1": "1718272449",
+    "SuperOffice:2": "Everett Lockman"
   },
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "voluptatibus",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "delectus"
+    "CustomFields1": "porro",
+    "CustomFields2": "similique"
   },
-  "PublishEventDate": "2007-04-29T16:00:48.2584195+02:00",
-  "PublishTo": "2019-07-14T16:00:48.2584195+02:00",
-  "PublishFrom": "1998-08-19T16:00:48.2584195+02:00",
+  "PublishEventDate": "2018-03-23T03:31:32.8632191+01:00",
+  "PublishTo": "2007-11-07T03:31:32.8632191+01:00",
+  "PublishFrom": "1998-08-16T03:31:32.8632191+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 844,
+      "VisibleId": 620,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 270
         }
       }
     },
     {
-      "VisibleId": 844,
+      "VisibleId": 620,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 270
         }
       }
     }
@@ -260,13 +260,13 @@ Last-Modified: Thu, 29 Apr 2004 16:00:48 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 763,
-    "Name": "Grant, Harber and Bailey",
-    "ToolTip": "Voluptas id hic aut veniam.",
-    "Deleted": true,
-    "Rank": 351,
-    "Type": "laudantium",
-    "ColorBlock": 358,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "1996-06-05T16:00:49.0083336+02:00",
+    "Id": 360,
+    "Name": "Zemlak-Rohan",
+    "ToolTip": "Est aspernatur fuga vitae laborum fugit dolorem.",
+    "Deleted": false,
+    "Rank": 32,
+    "Type": "consectetur",
+    "ColorBlock": 455,
+    "IconHint": "quibusdam",
+    "Selected": true,
+    "LastChanged": "2002-06-13T03:31:33.6010939+02:00",
     "ChildItems": [
       {
-        "Id": 474,
-        "Name": "Leffler, Tromp and Adams",
-        "ToolTip": "Facere est et aspernatur dicta unde sint sed.",
-        "Deleted": false,
-        "Rank": 588,
-        "Type": "veniam",
-        "ColorBlock": 319,
-        "IconHint": "odio",
+        "Id": 299,
+        "Name": "Stroman-Gutmann",
+        "ToolTip": "Quasi corporis perferendis beatae mollitia.",
+        "Deleted": true,
+        "Rank": 69,
+        "Type": "soluta",
+        "ColorBlock": 308,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2019-12-11T16:00:49.0083336+01:00",
+        "LastChanged": "2008-02-08T03:31:33.6010939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "magnam",
+        "ExtraInfo": "minus",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Milford Treutel"
+        "FullName": "Fabian Kihn"
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Miss Providenci Niko Krajcik DVM"
+    "ExtraInfo": "aperiam",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Laurel Blick"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Kautzer, Moen and Kunze",
-    "ToolTip": "Culpa omnis accusantium quas quam ut sunt dolor.",
-    "Deleted": true,
-    "Rank": 599,
-    "Type": "omnis",
-    "ColorBlock": 516,
-    "IconHint": "totam",
+    "Id": 747,
+    "Name": "Kuhlman Inc and Sons",
+    "ToolTip": "Quas consectetur quis voluptatum tenetur.",
+    "Deleted": false,
+    "Rank": 468,
+    "Type": "corrupti",
+    "ColorBlock": 726,
+    "IconHint": "voluptas",
     "Selected": true,
-    "LastChanged": "2012-11-03T16:00:49.0083336+01:00",
+    "LastChanged": "2015-05-03T03:31:33.6167125+02:00",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Streich, Renner and Cormier",
-        "ToolTip": "Iure qui atque veritatis nostrum quo.",
-        "Deleted": true,
-        "Rank": 608,
-        "Type": "numquam",
-        "ColorBlock": 580,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "2007-07-30T16:00:49.0083336+02:00",
+        "Id": 508,
+        "Name": "Huels, Bosco and Hickle",
+        "ToolTip": "At vero aut enim molestias nisi laudantium.",
+        "Deleted": false,
+        "Rank": 243,
+        "Type": "et",
+        "ColorBlock": 92,
+        "IconHint": "delectus",
+        "Selected": true,
+        "LastChanged": "2013-11-21T03:31:33.6167125+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "laborum",
+        "ExtraInfo": "architecto",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Prof. Cathryn Jacobs",
+        "FullName": "Mr. Carlo Obie Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 455
+            "FieldLength": 972
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "eius",
+    "ExtraInfo": "error",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Prof. Christiana Kilback",
+    "FullName": "Keven Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldType": "System.String",
+        "FieldLength": 635
       }
     }
   }

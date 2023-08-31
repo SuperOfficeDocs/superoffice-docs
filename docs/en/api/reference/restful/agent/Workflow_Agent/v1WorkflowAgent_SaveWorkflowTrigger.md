@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 116,
-  "WorkflowId": 624,
+  "WorkflowTriggerId": 302,
+  "WorkflowId": 404,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Corwin-Strosin",
-      "Description": "Diverse user-facing function",
-      "Rank": 144,
+      "Name": "Koss, Harber and Gislason",
+      "Description": "Synergistic discrete software",
+      "Rank": 394,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Corwin-Strosin",
-      "Description": "Diverse user-facing function",
-      "Rank": 144,
+      "Name": "Koss, Harber and Gislason",
+      "Description": "Synergistic discrete software",
+      "Rank": 394,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 662,
-  "WorkflowId": 921,
+  "WorkflowTriggerId": 941,
+  "WorkflowId": 516,
   "TriggerType": "AddToList",
   "RestrictionGroups": [
     {
-      "Name": "Jewess Group",
-      "Description": "Reduced national product",
-      "Rank": 241,
+      "Name": "Green-Harris",
+      "Description": "Polarised object-oriented neural-net",
+      "Rank": 51,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jewess Group",
-      "Description": "Reduced national product",
-      "Rank": 241,
+      "Name": "Green-Harris",
+      "Description": "Polarised object-oriented neural-net",
+      "Rank": 51,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 330
     }
   }
 }

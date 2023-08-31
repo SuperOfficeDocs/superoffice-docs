@@ -98,15 +98,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 454,
-  "ERPPriceListKey": "atque",
-  "QuoteConnectionId": 431,
-  "Name": "O'Kon-Beer",
-  "Description": "Distributed well-modulated alliance",
-  "Currency": "aut",
-  "CurrencyName": "Fay-Marquardt",
-  "ValidFrom": "2013-03-14T16:00:49.1177018+01:00",
-  "ValidTo": "2002-11-05T16:00:49.1177018+01:00",
+  "PriceListId": 106,
+  "ERPPriceListKey": "sequi",
+  "QuoteConnectionId": 902,
+  "Name": "O'Keefe-Fahey",
+  "Description": "Persevering composite firmware",
+  "Currency": "ea",
+  "CurrencyName": "Schumm, McDermott and Terry",
+  "ValidFrom": "2015-03-26T03:31:33.696079+01:00",
+  "ValidTo": "2007-08-08T03:31:33.696079+02:00",
   "IsActive": true
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 900,
-  "ERPPriceListKey": "sit",
-  "QuoteConnectionId": 491,
-  "Name": "Renner Group",
-  "Description": "Phased static implementation",
-  "Currency": "laboriosam",
-  "CurrencyName": "Abshire-Sawayn",
-  "ValidFrom": "2008-06-19T16:00:49.1177018+02:00",
-  "ValidTo": "2020-02-17T16:00:49.1177018+01:00",
+  "PriceListId": 726,
+  "ERPPriceListKey": "perspiciatis",
+  "QuoteConnectionId": 701,
+  "Name": "Cormier Group",
+  "Description": "Front-line even-keeled neural-net",
+  "Currency": "culpa",
+  "CurrencyName": "Conn-Harris",
+  "ValidFrom": "2023-05-09T03:31:33.696079+02:00",
+  "ValidTo": "1999-01-25T03:31:33.696079+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldLength": 685
     }
   },
   "_Links": {

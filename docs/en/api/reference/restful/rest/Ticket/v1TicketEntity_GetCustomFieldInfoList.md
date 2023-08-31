@@ -67,7 +67,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Baumbach-Harris",
-    "DisplayName": "Paucek LLC",
-    "Description": "Compatible empowering architecture",
-    "ShortLabel": "autem",
-    "HideLabel": true,
+    "FieldName": "Cronin Inc and Sons",
+    "DisplayName": "Corwin, Koch and Kihn",
+    "Description": "Profit-focused reciprocal hierarchy",
+    "ShortLabel": "cum",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 133,
-    "TemplateVariableName": "Reichert Group"
+    "IsExternal": true,
+    "Rank": 188,
+    "TemplateVariableName": "Effertz LLC"
   }
 ]
 ```

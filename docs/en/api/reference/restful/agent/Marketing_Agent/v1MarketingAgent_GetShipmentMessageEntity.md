@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=824
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=615
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 934,
-  "PlainMessage": "adipisci",
-  "HtmlMessage": "voluptatem",
-  "SmsMessage": "eos",
-  "Description": "Horizontal object-oriented superstructure",
-  "Subject": "rerum",
-  "FolderId": 162,
-  "HeaderField": "qui",
-  "Design": "deleniti",
+  "ShipmentMessageId": 580,
+  "PlainMessage": "eveniet",
+  "HtmlMessage": "beatae",
+  "SmsMessage": "fugit",
+  "Description": "Team-oriented radical toolset",
+  "Subject": "aut",
+  "FolderId": 839,
+  "HeaderField": "ut",
+  "Design": "ut",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Realigned cohesive superstructure",
-  "AccessKey": "est",
-  "DocumentMessage": 784,
-  "Registered": "1998-02-25T16:00:41.2580675+01:00",
-  "RegisteredAssociateId": 98,
-  "Updated": "2018-09-08T16:00:41.2580675+02:00",
-  "UpdatedAssociateId": 559,
-  "UpdatedCount": 952,
+  "InlineImages": false,
+  "LongDescription": "Pre-emptive bottom-line concept",
+  "AccessKey": "non",
+  "DocumentMessage": 905,
+  "Registered": "2011-10-12T03:31:26.7612835+02:00",
+  "RegisteredAssociateId": 17,
+  "Updated": "2013-08-24T03:31:26.7612835+02:00",
+  "UpdatedAssociateId": 815,
+  "UpdatedCount": 913,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 781
     }
   }
 }

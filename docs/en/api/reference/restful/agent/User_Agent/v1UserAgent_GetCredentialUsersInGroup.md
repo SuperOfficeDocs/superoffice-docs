@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et",
-  "GroupName": "Bradtke LLC"
+  "Type": "atque",
+  "GroupName": "Kiehn LLC"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "in",
-    "magnam"
+    "voluptatem",
+    "nam"
   ],
   "Users": [
     {
-      "Value": "animi",
-      "DisplayValue": "ut",
+      "Value": "quia",
+      "DisplayValue": "officia",
       "Columns": [
-        "quia",
-        "ipsam"
+        "fugit",
+        "illo"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldType": "System.String",
+          "FieldLength": 288
         }
       }
     },
     {
-      "Value": "animi",
-      "DisplayValue": "ut",
+      "Value": "quia",
+      "DisplayValue": "officia",
       "Columns": [
-        "quia",
-        "ipsam"
+        "fugit",
+        "illo"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldType": "System.String",
+          "FieldLength": 288
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 239
     }
   }
 }

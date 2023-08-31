@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Luettgen-Lang",
-    "Tooltip": "facere",
+    "HeadingId": 240,
+    "Name": "Rodriguez-Leuschke",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 987,
-    "UdListDefinitionId": 46
+    "Rank": 163,
+    "UdListDefinitionId": 563
   },
   {
-    "HeadingId": 14,
-    "Name": "Luettgen-Lang",
-    "Tooltip": "facere",
+    "HeadingId": 240,
+    "Name": "Rodriguez-Leuschke",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 987,
-    "UdListDefinitionId": 46
+    "Rank": 163,
+    "UdListDefinitionId": 563
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 699,
-    "Name": "Jakubowski LLC",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 403,
-    "UdListDefinitionId": 647,
+    "HeadingId": 318,
+    "Name": "Konopelski LLC",
+    "Tooltip": "facere",
+    "Deleted": true,
+    "Rank": 162,
+    "UdListDefinitionId": 422,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 525
       }
     }
   }

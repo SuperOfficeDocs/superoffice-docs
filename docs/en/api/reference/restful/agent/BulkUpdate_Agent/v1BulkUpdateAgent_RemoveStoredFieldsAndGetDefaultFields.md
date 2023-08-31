@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mertz-Bahringer",
-  "Context": "repellat"
+  "TableName": "Purdy Group",
+  "Context": "illum"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "soluta",
-    "ValueType": "dignissimos",
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "molestias",
+    "ValueType": "molestiae",
     "Mandatory": false,
-    "EncodedDisplayName": "Hettinger, Bogisich and Luettgen",
-    "EncodedDisplayDescription": "Switchable background open architecture",
-    "IconHint": "sed",
+    "EncodedDisplayName": "Legros-Marks",
+    "EncodedDisplayDescription": "Switchable 24/7 circuit",
+    "IconHint": "adipisci",
     "ControlInfos": [
       {
         "Type": "eligendi",
-        "Label": "mollitia",
-        "Dimension": 222,
-        "ListProviderName": "Murazik LLC",
-        "ListProviderExtraInfo": "assumenda",
-        "ListProviderPrimaryKeyName": "Keeling-Zemlak",
-        "ListLeadText": "rerum",
+        "Label": "voluptatem",
+        "Dimension": 734,
+        "ListProviderName": "Murphy Inc and Sons",
+        "ListProviderExtraInfo": "quidem",
+        "ListProviderPrimaryKeyName": "Hauck LLC",
+        "ListLeadText": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldLength": 551
           }
         }
       }
     ],
-    "EncodedDataCaption": "placeat",
-    "EncodedDataCaptionDescription": "Implemented demand-driven productivity",
-    "CurrentOperationType": "quisquam",
+    "EncodedDataCaption": "consequatur",
+    "EncodedDataCaptionDescription": "Automated multi-state software",
+    "CurrentOperationType": "omnis",
     "Values": [
-      "maiores",
-      "aut"
+      "et",
+      "voluptatem"
     ],
     "DisplayValues": [
-      "omnis",
-      "et"
+      "adipisci",
+      "qui"
     ],
     "OperationInfos": [
       {
-        "Key": "enim",
-        "EncodedDisplayName": "Farrell, Hettinger and Stamm",
+        "Key": "nihil",
+        "EncodedDisplayName": "Russel, Schaefer and Crooks",
         "EncodedLeadTexts": [
-          "excepturi",
-          "soluta"
+          "fugit",
+          "id"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldType": "System.String",
+            "FieldLength": 715
           }
         }
       },
       {
-        "Key": "enim",
-        "EncodedDisplayName": "Farrell, Hettinger and Stamm",
+        "Key": "nihil",
+        "EncodedDisplayName": "Russel, Schaefer and Crooks",
         "EncodedLeadTexts": [
-          "excepturi",
-          "soluta"
+          "fugit",
+          "id"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldType": "System.String",
+            "FieldLength": 715
           }
         }
       }

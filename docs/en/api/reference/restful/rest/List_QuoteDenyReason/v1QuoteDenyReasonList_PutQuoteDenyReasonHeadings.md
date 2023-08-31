@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 536,
-    "Name": "Lang-Jerde",
-    "Tooltip": "explicabo",
+    "HeadingId": 468,
+    "Name": "Lowe Group",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "Rank": 712,
-    "UdListDefinitionId": 775
+    "Rank": 568,
+    "UdListDefinitionId": 641
   },
   {
-    "HeadingId": 536,
-    "Name": "Lang-Jerde",
-    "Tooltip": "explicabo",
+    "HeadingId": 468,
+    "Name": "Lowe Group",
+    "Tooltip": "voluptate",
     "Deleted": true,
-    "Rank": 712,
-    "UdListDefinitionId": 775
+    "Rank": 568,
+    "UdListDefinitionId": 641
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 136,
-    "Name": "Steuber Group",
-    "Tooltip": "dolores",
+    "HeadingId": 459,
+    "Name": "Langworth, Halvorson and Hagenes",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 769,
-    "UdListDefinitionId": 729,
+    "Rank": 809,
+    "UdListDefinitionId": 395,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldType": "System.String",
+        "FieldLength": 549
       }
     }
   }

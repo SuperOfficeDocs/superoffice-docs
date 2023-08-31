@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 190,
-    "Name": "Bogisich Group",
-    "ToolTip": "Quasi vitae architecto sint quia.",
-    "Deleted": false,
-    "Rank": 58,
-    "Type": "reprehenderit",
-    "ColorBlock": 520,
-    "IconHint": "quo",
+    "Id": 269,
+    "Name": "Douglas, Leuschke and Johnston",
+    "ToolTip": "Corrupti et delectus.",
+    "Deleted": true,
+    "Rank": 436,
+    "Type": "provident",
+    "ColorBlock": 739,
+    "IconHint": "provident",
     "Selected": false,
-    "LastChanged": "2018-03-13T16:00:48.8521026+01:00",
+    "LastChanged": "2001-10-09T03:31:33.4604945+02:00",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Feil-Wiegand",
-        "ToolTip": "Qui recusandae.",
+        "Id": 57,
+        "Name": "Sauer, Gislason and Bradtke",
+        "ToolTip": "Dolore beatae.",
         "Deleted": false,
-        "Rank": 791,
-        "Type": "quis",
-        "ColorBlock": 85,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2000-01-05T16:00:48.8521026+01:00",
+        "Rank": 620,
+        "Type": "rerum",
+        "ColorBlock": 659,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "2011-07-10T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "odit",
-        "Hidden": false,
-        "FullName": "Mabel Mosciski"
+        "ExtraInfo": "minus",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Mathilde Sanford"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "commodi",
+    "ExtraInfo": "id",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Trevor Gutmann"
+    "FullName": "Danyka Boyer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Mitchell, Stehr and Kunde",
-    "ToolTip": "Odio cupiditate.",
+    "Id": 453,
+    "Name": "Abshire Group",
+    "ToolTip": "Voluptatem quos vitae aliquam iste repellat harum voluptatem.",
     "Deleted": false,
-    "Rank": 704,
-    "Type": "labore",
-    "ColorBlock": 358,
-    "IconHint": "dignissimos",
+    "Rank": 337,
+    "Type": "omnis",
+    "ColorBlock": 781,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "1998-10-06T16:00:48.8521026+02:00",
+    "LastChanged": "2020-12-23T03:31:33.4604945+01:00",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Harvey LLC",
-        "ToolTip": "Quas tempora.",
+        "Id": 29,
+        "Name": "Anderson LLC",
+        "ToolTip": "Tempore accusantium iste nesciunt animi saepe.",
         "Deleted": false,
-        "Rank": 358,
-        "Type": "odit",
-        "ColorBlock": 310,
-        "IconHint": "dolor",
+        "Rank": 665,
+        "Type": "vel",
+        "ColorBlock": 947,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2014-11-27T16:00:48.8521026+01:00",
+        "LastChanged": "2017-01-27T03:31:33.4604945+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "sunt",
+        "ExtraInfo": "delectus",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Rahul Schmitt",
+        "FullName": "Steve Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 720
+            "FieldLength": 63
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "in",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sim Schuster",
+    "FullName": "Cruz Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 381
       }
     }
   }

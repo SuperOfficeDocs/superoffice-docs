@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 206,
-  "Rank": 527,
-  "DefaultTask": 415,
-  "DefaultTaskText": "id",
-  "IsVisual": false,
-  "LastGenerated": "2016-02-08T16:00:41.711291+01:00",
-  "Description": "Realigned dynamic benchmark",
-  "Name": "Koelpin, Ward and Ernser",
-  "StatusMonitorId": 269,
-  "PictureId": 381,
+  "OwnerTable": 17,
+  "Rank": 24,
+  "DefaultTask": 269,
+  "DefaultTaskText": "excepturi",
+  "IsVisual": true,
+  "LastGenerated": "2017-06-15T03:31:27.1374712+02:00",
+  "Description": "Front-line secondary adapter",
+  "Name": "Jewess-Hane",
+  "StatusMonitorId": 56,
+  "PictureId": 877,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 469,
-  "NumNeedUpdate": 826,
-  "GenerationStart": "1996-02-27T16:00:41.711291+01:00"
+  "NumMatches": 837,
+  "NumNeedUpdate": 943,
+  "GenerationStart": "2000-11-30T03:31:27.1374712+01:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 891,
-  "Rank": 705,
-  "DefaultTask": 133,
-  "DefaultTaskText": "iusto",
+  "OwnerTable": 417,
+  "Rank": 265,
+  "DefaultTask": 79,
+  "DefaultTaskText": "error",
   "IsVisual": true,
-  "LastGenerated": "2015-09-20T16:00:41.711291+02:00",
-  "Description": "Switchable bi-directional migration",
-  "Name": "Weimann-Armstrong",
-  "StatusMonitorId": 257,
-  "PictureId": 724,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 453,
-  "NumNeedUpdate": 405,
-  "GenerationStart": "2002-03-03T16:00:41.711291+01:00",
+  "LastGenerated": "2011-04-01T03:31:27.1374712+02:00",
+  "Description": "Down-sized background artificial intelligence",
+  "Name": "Mann, Anderson and Keeling",
+  "StatusMonitorId": 122,
+  "PictureId": 945,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 426,
+  "NumNeedUpdate": 624,
+  "GenerationStart": "2021-04-05T03:31:27.1374712+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 160
     }
   }
 }

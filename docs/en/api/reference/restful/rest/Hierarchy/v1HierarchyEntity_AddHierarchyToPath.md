@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 983,
+  "HierarchyId": 87,
   "Domain": "Dashboards",
-  "Name": "Fisher-Doyle",
-  "Fullname": "doloremque",
-  "ParentId": 186,
+  "Name": "McClure Group",
+  "Fullname": "consectetur",
+  "ParentId": 152,
   "Children": [
     {
-      "HierarchyId": 409,
+      "HierarchyId": 644,
       "Domain": "Dashboards",
-      "Name": "Conroy, DuBuque and Schinner",
-      "Fullname": "sed",
-      "ParentId": 805,
+      "Name": "Goodwin-Schaden",
+      "Fullname": "vero",
+      "ParentId": 28,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-01-19T16:00:47.9928249+01:00",
-      "RegisteredAssociateId": 104,
-      "Updated": "2018-05-03T16:00:47.9928249+02:00",
-      "UpdatedAssociateId": 546,
+      "Registered": "2020-01-01T03:31:32.6445204+01:00",
+      "RegisteredAssociateId": 157,
+      "Updated": "2013-06-25T03:31:32.6445204+02:00",
+      "UpdatedAssociateId": 310,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldType": "System.String",
+          "FieldLength": 796
         }
       }
     }
   ],
-  "Registered": "2013-09-07T16:00:47.9928249+02:00",
-  "RegisteredAssociateId": 191,
-  "Updated": "2016-11-15T16:00:47.9928249+01:00",
-  "UpdatedAssociateId": 405,
+  "Registered": "2009-06-29T03:31:32.6445204+02:00",
+  "RegisteredAssociateId": 27,
+  "Updated": "2020-04-14T03:31:32.6445204+02:00",
+  "UpdatedAssociateId": 27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldType": "System.Int32",
+      "FieldLength": 430
     }
   }
 }

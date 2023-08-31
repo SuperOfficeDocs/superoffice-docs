@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Bruen LLC",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "UdListDefinitionId": 212,
-  "Rank": 229,
+  "Id": 553,
+  "Name": "Halvorson Inc and Sons",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "UdListDefinitionId": 26,
+  "Rank": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

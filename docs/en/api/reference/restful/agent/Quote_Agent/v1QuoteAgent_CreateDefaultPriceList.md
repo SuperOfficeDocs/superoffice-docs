@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 197,
-  "ERPPriceListKey": "illo",
-  "QuoteConnectionId": 176,
-  "Name": "Skiles-Bins",
-  "Description": "Managed heuristic groupware",
-  "Currency": "aspernatur",
-  "CurrencyName": "Pagac Group",
-  "ValidFrom": "2015-08-25T16:00:41.6175709+02:00",
-  "ValidTo": "2021-11-21T16:00:41.6175709+01:00",
-  "IsActive": false,
+  "PriceListId": 868,
+  "ERPPriceListKey": "ex",
+  "QuoteConnectionId": 258,
+  "Name": "Hintz Inc and Sons",
+  "Description": "Ameliorated bi-directional paradigm",
+  "Currency": "vel",
+  "CurrencyName": "Sanford, Wehner and Willms",
+  "ValidFrom": "2012-02-13T03:31:27.0580843+01:00",
+  "ValidTo": "2020-12-21T03:31:27.0580843+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   }
 }

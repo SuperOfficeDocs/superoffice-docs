@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=qui
+GET /api/v1/List/DeliveryType/MDOItems?query=sit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "White, Koss and VonRueden",
-    "ToolTip": "Est fugiat.",
-    "Deleted": true,
-    "Rank": 897,
-    "Type": "hic",
+    "Id": 87,
+    "Name": "Zulauf-Zboncak",
+    "ToolTip": "Rerum doloribus est mollitia ea praesentium voluptas.",
+    "Deleted": false,
+    "Rank": 567,
+    "Type": "sapiente",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Moen-Oberbrunner",
-        "ToolTip": "Dolor itaque eum ad commodi rerum consequatur est.",
-        "Deleted": false,
-        "Rank": 700,
-        "Type": "nihil",
+        "Id": 874,
+        "Name": "Ritchie, Bode and Beier",
+        "ToolTip": "Quia qui.",
+        "Deleted": true,
+        "Rank": 214,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 612,
-        "ExtraInfo": "nobis",
-        "StyleHint": "necessitatibus",
-        "FullName": "Miss Danielle Philip Kling",
+        "IconHint": "neque",
+        "ColorBlock": 294,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "perspiciatis",
+        "FullName": "Rebeka Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 441
           }
         }
       }
     ],
-    "IconHint": "libero",
-    "ColorBlock": 585,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "explicabo",
-    "FullName": "Dell Gilberto Haag V",
+    "IconHint": "sed",
+    "ColorBlock": 1002,
+    "ExtraInfo": "ab",
+    "StyleHint": "beatae",
+    "FullName": "Miss Franz Luettgen IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 708
       }
     }
   }

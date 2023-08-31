@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 878,
-  "ModuleOwner": "velit",
+  "AssociateId": 406,
+  "ModuleOwner": "fuga",
   "ModuleLicenseNames": [
-    "Cassin, Bechtelar and Corwin",
-    "Effertz Inc and Sons"
+    "Quigley-Powlowski",
+    "Casper-Lowe"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 552,
-    "Tooltip": "deserunt",
+    "Unrestricted": false,
+    "Total": 600,
+    "Tooltip": "possimus",
     "CanAssign": false,
-    "Free": 900,
-    "InUse": 469,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 137,
-    "Name": "Mills-Lang",
-    "Description": "Open-architected multi-state ability",
-    "PrerequisiteModuleName": "Wyman, Dare and Zieme",
-    "SortOrder": 428,
-    "ExtraFlags": 99,
+    "Free": 251,
+    "InUse": 287,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 415,
+    "Name": "Ledner Inc and Sons",
+    "Description": "Exclusive interactive extranet",
+    "PrerequisiteModuleName": "Auer-Rempel",
+    "SortOrder": 654,
+    "ExtraFlags": 190,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 32
       }
     }
   }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 255
+  "ErpFieldId": 926
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 887,
-  "DefaultValue": "illum",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "modi",
-  "PromptUser": false,
-  "Mandatory": true,
-  "ErpFieldKey": "consequatur",
+  "ErpFieldId": 568,
+  "DefaultValue": "repellat",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "dignissimos",
+  "PromptUser": true,
+  "Mandatory": false,
+  "ErpFieldKey": "animi",
   "FieldType": "Checkbox",
-  "ListName": "Brakus, Mayert and Huel",
+  "ListName": "Williamson, Abernathy and Swaniawski",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldLength": 219
     }
   }
 }

@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 33,
-  "Name": "Stroman-Lueilwitz",
-  "Tooltip": "labore",
-  "Rank": 52,
+  "SaleTypeId": 745,
+  "Name": "Hermiston LLC",
+  "Tooltip": "distinctio",
+  "Rank": 232,
   "DurationUnit": "Century",
-  "SaleDuration": 286,
-  "SaleTypeCatId": 709,
+  "SaleDuration": 650,
+  "SaleTypeCatId": 753,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 213,
-  "QuoteLinesTemplate": 156,
-  "ConfirmationLinesTemplate": 800,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 233,
+  "QuoteLinesTemplate": 603,
+  "ConfirmationLinesTemplate": 178,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 948,
-  "MinEarningPercent": 584,
-  "GroupQuoteLinesBy": 251,
-  "SortGroupLinesBy": 54,
+  "MaxDiscountPercent": 616,
+  "MinEarningPercent": 915,
+  "GroupQuoteLinesBy": 645,
+  "SortGroupLinesBy": 523,
   "Stages": [
     {
-      "Id": 635,
-      "Name": "Ryan, Braun and Dare",
-      "ToolTip": "Ut est dignissimos eos commodi distinctio animi aspernatur.",
+      "Id": 120,
+      "Name": "Langosh, Hegmann and Rosenbaum",
+      "ToolTip": "Architecto mollitia est.",
       "Deleted": false,
-      "Rank": 53,
-      "Type": "fugit",
-      "ColorBlock": 365,
-      "IconHint": "autem",
+      "Rank": 943,
+      "Type": "id",
+      "ColorBlock": 427,
+      "IconHint": "cumque",
       "Selected": false,
-      "LastChanged": "2006-11-12T16:00:49.3051793+01:00",
+      "LastChanged": "2007-01-26T03:31:33.8679659+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "voluptates",
+      "ExtraInfo": "commodi",
+      "StyleHint": "dolorum",
       "Hidden": false,
-      "FullName": "Mrs. Lucinda Reilly V",
+      "FullName": "Emmanuel Smitham",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldLength": 735
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 619
     }
   }
 }

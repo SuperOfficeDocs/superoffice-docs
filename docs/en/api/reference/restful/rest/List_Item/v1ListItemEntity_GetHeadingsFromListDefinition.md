@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 894,
-    "Name": "Schuster Inc and Sons",
-    "Tooltip": "animi",
+    "HeadingId": 62,
+    "Name": "Erdman-Flatley",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 734,
-    "UdListDefinitionId": 666,
+    "Rank": 10,
+    "UdListDefinitionId": 254,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldType": "System.Int32",
+        "FieldLength": 344
       }
     }
   }

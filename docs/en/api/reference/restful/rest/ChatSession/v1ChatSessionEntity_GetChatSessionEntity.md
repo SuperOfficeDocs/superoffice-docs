@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 169,
-  "TopicId": 679,
+  "ChatSessionId": 620,
+  "TopicId": 736,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nesciunt",
-  "CustomerHost": "ex",
-  "CustomerName": "Fisher Group",
-  "CustomerEmail": "jeanette@kohlerstokes.com",
-  "CustomerPhone": "371-029-3195",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Paucek Group",
+  "CustomerAlias": "deleniti",
+  "CustomerHost": "laborum",
+  "CustomerName": "Mann Inc and Sons",
+  "CustomerEmail": "kaia@romaguera.co.uk",
+  "CustomerPhone": "340-940-9319 x527",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Shanahan-Marks",
   "Status": "Closed",
-  "FirstMessage": "totam",
-  "LastMessage": "illo",
-  "WhenRequested": "2012-06-09T16:00:47.5397493+02:00",
-  "WhenStarted": "2020-04-11T16:00:47.5397493+02:00",
-  "WhenEnded": "2020-12-27T16:00:47.5397493+01:00",
-  "WhenIdle": "1999-07-30T16:00:47.5397493+02:00",
-  "WhenFetched": "2007-12-12T16:00:47.5397493+01:00",
-  "SessionKey": "vel",
-  "InitialQueuePos": 954,
-  "AlertLevel": 930,
-  "Rank": 620,
+  "FirstMessage": "eaque",
+  "LastMessage": "velit",
+  "WhenRequested": "2009-12-04T03:31:32.253996+01:00",
+  "WhenStarted": "2003-10-31T03:31:32.253996+01:00",
+  "WhenEnded": "2020-09-01T03:31:32.253996+02:00",
+  "WhenIdle": "1999-05-26T03:31:32.253996+02:00",
+  "WhenFetched": "2017-09-03T03:31:32.253996+02:00",
+  "SessionKey": "omnis",
+  "InitialQueuePos": 94,
+  "AlertLevel": 27,
+  "Rank": 703,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 901,
+  "ChatbotIsActive": true,
+  "Rating": 767,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 205
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 260,
-  "Section": "ea",
-  "Key": "magnam",
-  "Name": "Prohaska Inc and Sons",
+  "PrefDescId": 2,
+  "Section": "esse",
+  "Key": "qui",
+  "Name": "Gislason Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable tangible productivity",
-  "IsBuiltin": false,
-  "TableName": "Lindgren Group",
-  "UserDefinedListId": 71,
-  "Rank": 659,
-  "SubGroup": "totam",
-  "MinLevel": 127,
-  "MaxValue": 356,
-  "MinValue": 209,
-  "RequiredLicense": "accusantium",
+  "Description": "Networked 4th generation knowledge user",
+  "IsBuiltin": true,
+  "TableName": "Boyer, Johns and Conroy",
+  "UserDefinedListId": 640,
+  "Rank": 625,
+  "SubGroup": "porro",
+  "MinLevel": 538,
+  "MaxValue": 965,
+  "MinValue": 725,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 171
     }
   }
 }

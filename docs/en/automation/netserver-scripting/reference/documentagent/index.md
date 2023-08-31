@@ -14,6 +14,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDocumentAgent'
 
 * [CheckinDocument](checkindocument.md)
 * [CheckoutDocument](checkoutdocument.md)
+* [CopyDocumentToCsAttachment](copydocumenttocsattachment.md)
 * [CreateDefaultDocumentEntity](createdefaultdocumententity.md)
 * [CreateDefaultDocumentEntityFromSuggestion](createdefaultdocumententityfromsuggestion.md)
 * [CreateDefaultDocumentPreview](createdefaultdocumentpreview.md)

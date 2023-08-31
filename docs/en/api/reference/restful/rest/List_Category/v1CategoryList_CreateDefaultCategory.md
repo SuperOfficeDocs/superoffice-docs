@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 48,
-  "Name": "O'Reilly, Kirlin and Dooley",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 601,
-  "Rank": 254,
+  "Id": 998,
+  "Name": "Langworth Inc and Sons",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 16,
+  "Rank": 767,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 832
     }
   }
 }

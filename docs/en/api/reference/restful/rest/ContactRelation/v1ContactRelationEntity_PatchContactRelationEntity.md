@@ -72,7 +72,7 @@ PATCH /api/v1/Relation/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "odio",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "odio",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 675,
-  "SourcePersonId": 676,
-  "DestinationContactId": 338,
-  "DestinationPersonId": 3,
-  "RelationId": 697,
-  "Comment": "a",
-  "RelationDefinitionId": 611,
-  "Reversed": 871,
-  "UpdatedDate": "2020-07-14T16:00:47.83659+02:00",
-  "CreatedDate": "2014-10-30T16:00:47.83659+01:00",
+  "SourceContactId": 513,
+  "SourcePersonId": 184,
+  "DestinationContactId": 676,
+  "DestinationPersonId": 614,
+  "RelationId": 528,
+  "Comment": "cumque",
+  "RelationDefinitionId": 543,
+  "Reversed": 286,
+  "UpdatedDate": "2002-12-27T03:31:32.5039305+01:00",
+  "CreatedDate": "2001-05-18T03:31:32.5039305+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Barton-Olson",
-  "SourcePersonName": "McClure, Robel and Gleason",
-  "DestinationContactName": "McGlynn, Kuhlman and Thompson",
-  "DestinationPersonName": "Bosco Inc and Sons",
-  "ActiveText": "sint",
-  "PassiveText": "sint",
+  "SourceContactName": "Kuphal Group",
+  "SourcePersonName": "Hartmann, Mayer and Grimes",
+  "DestinationContactName": "Hahn Inc and Sons",
+  "DestinationPersonName": "Fahey-Jewess",
+  "ActiveText": "in",
+  "PassiveText": "aperiam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -89,17 +89,17 @@ Content-Type: application/json; charset=utf-8
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "suscipit",
-      "PersonId": 186,
-      "AssociateId": 420,
-      "ExtraId": 243,
-      "ExtraInfo": "exercitationem",
-      "Height": 247,
-      "LeftX": 613,
+      "OwnerWindow": "necessitatibus",
+      "PersonId": 148,
+      "AssociateId": 683,
+      "ExtraId": 382,
+      "ExtraInfo": "voluptas",
+      "Height": 353,
+      "LeftX": 386,
       "State": "Maximized",
-      "UpperY": 707,
-      "Width": 367,
-      "WindowPosSizeId": 458
+      "UpperY": 657,
+      "Width": 603,
+      "WindowPosSizeId": 608
     }
   ]
 }
@@ -113,23 +113,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "voluptatem",
-    "PersonId": 78,
-    "AssociateId": 285,
-    "ExtraId": 500,
-    "ExtraInfo": "ut",
-    "Height": 74,
-    "LeftX": 898,
+    "OwnerWindow": "alias",
+    "PersonId": 844,
+    "AssociateId": 840,
+    "ExtraId": 258,
+    "ExtraInfo": "voluptatem",
+    "Height": 423,
+    "LeftX": 133,
     "State": "Maximized",
-    "UpperY": 648,
-    "Width": 555,
-    "WindowPosSizeId": 123,
+    "UpperY": 262,
+    "Width": 376,
+    "WindowPosSizeId": 682,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldType": "System.Int32",
+        "FieldLength": 265
       }
     }
   }

@@ -81,21 +81,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 41,
+  "SelectionId": 113,
   "Criteria": [
     {
-      "Name": "Lehner, Hyatt and Williamson",
-      "Description": "Multi-layered fresh-thinking firmware",
-      "Rank": 77,
+      "Name": "Zieme-Nitzsche",
+      "Description": "Operative analyzing framework",
+      "Rank": 153,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lehner, Hyatt and Williamson",
-      "Description": "Multi-layered fresh-thinking firmware",
-      "Rank": 77,
+      "Name": "Zieme-Nitzsche",
+      "Description": "Operative analyzing framework",
+      "Rank": 153,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heidenreich-Greenholt",
-    "Description": "Seamless holistic website",
-    "Rank": 484,
+    "Name": "Blanda LLC",
+    "Description": "De-engineered dynamic data-warehouse",
+    "Rank": 859,
     "Restrictions": [
       {
-        "Name": "Zemlak-Tromp",
-        "Operator": "voluptatem",
+        "Name": "Hessel Group",
+        "Operator": "perferendis",
         "Values": [
-          "aliquam",
-          "consequatur"
+          "quidem",
+          "sit"
         ],
         "DisplayValues": [
-          "qui",
-          "a"
+          "sed",
+          "quo"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 866,
+        "InterParenthesis": 77,
         "InterOperator": "And",
-        "UniqueHash": 230
+        "UniqueHash": 873
       }
     ]
   },
   {
-    "Name": "Heidenreich-Greenholt",
-    "Description": "Seamless holistic website",
-    "Rank": 484,
+    "Name": "Blanda LLC",
+    "Description": "De-engineered dynamic data-warehouse",
+    "Rank": 859,
     "Restrictions": [
       {
-        "Name": "Zemlak-Tromp",
-        "Operator": "voluptatem",
+        "Name": "Hessel Group",
+        "Operator": "perferendis",
         "Values": [
-          "aliquam",
-          "consequatur"
+          "quidem",
+          "sit"
         ],
         "DisplayValues": [
-          "qui",
-          "a"
+          "sed",
+          "quo"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 866,
+        "InterParenthesis": 77,
         "InterOperator": "And",
-        "UniqueHash": 230
+        "UniqueHash": 873
       }
     ]
   }

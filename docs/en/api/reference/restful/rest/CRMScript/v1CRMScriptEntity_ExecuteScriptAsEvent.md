@@ -57,6 +57,7 @@ The EventData instance sent to the crmscript with input values
 | OutputValues | Object | Values sent back to the environment from the event handler |
 | StateValues | Object | Values kept between event handlers |
 | Exception | String | String containing error message from handler system if it failed |
+| ParserValues | Object | Parser values sent to the event handler |
 
 ## Response:
 
@@ -79,6 +80,7 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
+| ParserValues | object | Parser values sent to the event handler |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,22 +96,26 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ab",
-    "InputValues2": "est"
+    "InputValues1": "rerum",
+    "InputValues2": "repudiandae"
   },
   "BlockExecution": false,
-  "NavigateTo": "ut",
-  "Message": "consequuntur",
-  "ShowDialog": "voluptates",
+  "NavigateTo": "qui",
+  "Message": "praesentium",
+  "ShowDialog": "veniam",
   "OutputValues": {
-    "OutputValues1": "laboriosam",
-    "OutputValues2": "debitis"
+    "OutputValues1": "deleniti",
+    "OutputValues2": "ut"
   },
   "StateValues": {
-    "StateValues1": "officia",
-    "StateValues2": "sint"
+    "StateValues1": "illo",
+    "StateValues2": "enim"
   },
-  "Exception": "et"
+  "Exception": "sequi",
+  "ParserValues": {
+    "ParserValues1": "voluptas",
+    "ParserValues2": "veniam"
+  }
 }
 ```
 
@@ -122,28 +128,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "dolorem",
-    "InputValues2": "exercitationem"
+    "InputValues1": "inventore",
+    "InputValues2": "est"
   },
   "BlockExecution": true,
-  "NavigateTo": "est",
-  "Message": "omnis",
-  "ShowDialog": "quidem",
+  "NavigateTo": "eligendi",
+  "Message": "eveniet",
+  "ShowDialog": "ut",
   "OutputValues": {
-    "OutputValues1": "corporis",
-    "OutputValues2": "aspernatur"
+    "OutputValues1": "voluptate",
+    "OutputValues2": "quae"
   },
   "StateValues": {
-    "StateValues1": "sit",
-    "StateValues2": "sed"
+    "StateValues1": "autem",
+    "StateValues2": "asperiores"
   },
-  "Exception": "voluptatem",
+  "Exception": "aut",
+  "ParserValues": {
+    "ParserValues1": "blanditiis",
+    "ParserValues2": "rem"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   }
 }

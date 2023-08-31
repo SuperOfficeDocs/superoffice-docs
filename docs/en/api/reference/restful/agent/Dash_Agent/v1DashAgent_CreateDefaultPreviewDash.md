@@ -71,32 +71,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Haag-Spinka",
-  "Description": "Pre-emptive systematic initiative",
-  "OwnedByFullName": "Ellsworth Davon Renner I",
-  "Registered": "2018-11-04T16:00:40.5237534+01:00",
+  "Name": "Bode, Collins and Leffler",
+  "Description": "Vision-oriented context-sensitive emulation",
+  "OwnedByFullName": "Molly Ritchie",
+  "Registered": "2007-10-29T03:31:26.0114733+01:00",
   "Tiles": [
     {
-      "Name": "Spencer-Oberbrunner",
+      "Name": "Bradtke Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldType": "System.String",
+          "FieldLength": 211
         }
       }
     },
     {
-      "Name": "Spencer-Oberbrunner",
+      "Name": "Bradtke Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldType": "System.String",
+          "FieldLength": 211
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

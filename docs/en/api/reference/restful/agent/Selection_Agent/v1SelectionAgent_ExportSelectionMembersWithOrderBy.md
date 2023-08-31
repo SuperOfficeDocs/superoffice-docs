@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 539,
-  "TemplateName": "Veum LLC",
+  "SelectionId": 155,
+  "TemplateName": "Stanton Group",
   "UseContacts": false,
-  "OrderBy": "minima"
+  "OrderBy": "placeat"
 }
 ```
 

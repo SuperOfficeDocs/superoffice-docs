@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Willms, Wisozk and Tremblay",
-    "ToolTip": "Velit id dignissimos.",
+    "Id": 199,
+    "Name": "Kub, Daniel and Feest",
+    "ToolTip": "Ea tempora rerum autem facilis vitae occaecati.",
     "Deleted": false,
-    "Rank": 937,
-    "Type": "expedita",
-    "ColorBlock": 837,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2023-06-01T16:00:41.0862117+02:00",
+    "Rank": 886,
+    "Type": "ducimus",
+    "ColorBlock": 8,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "2000-09-02T03:31:26.6206926+02:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Bartoletti, Kub and DuBuque",
-        "ToolTip": "Accusantium voluptatibus.",
-        "Deleted": true,
-        "Rank": 997,
-        "Type": "perferendis",
-        "ColorBlock": 395,
-        "IconHint": "itaque",
-        "Selected": true,
-        "LastChanged": "2007-11-21T16:00:41.0862117+01:00",
+        "Id": 848,
+        "Name": "Haag-Mayer",
+        "ToolTip": "Eveniet iste voluptas est ea minima.",
+        "Deleted": false,
+        "Rank": 659,
+        "Type": "ut",
+        "ColorBlock": 914,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2003-05-25T03:31:26.6206926+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "corporis",
+        "ExtraInfo": "illo",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Judy Rutherford DVM",
+        "FullName": "Mr. Aurelio Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldType": "System.String",
+            "FieldLength": 268
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "velit",
+    "ExtraInfo": "dicta",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Marcella Price DDS",
+    "FullName": "Christian Presley Wintheiser Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldType": "System.String",
+        "FieldLength": 829
       }
     }
   }

@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 839,
-    "ParentId": 124,
-    "Name": "Witting-Gorczany",
-    "Fullname": "esse",
-    "CategoryMaster": 633,
+    "TicketCategoryId": 843,
+    "ParentId": 858,
+    "Name": "Bauch Inc and Sons",
+    "Fullname": "unde",
+    "CategoryMaster": 951,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "McClure-Lesch",
+    "ExternalName": "Steuber-Cummerata",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 961,
-    "ReplyTemplate": 154,
-    "NotificationEmail": "giuseppe.schmitt@lynch.co.uk",
+    "AssignmentLag": 457,
+    "ReplyTemplate": 992,
+    "NotificationEmail": "michale@kunde.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 517,
+    "EffectiveReplyTemplateId": 810,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "unde"
+      "ExtraFields1": "cum",
+      "ExtraFields2": "atque"
     },
     "CustomFields": {
-      "CustomFields1": "unde",
-      "CustomFields2": "amet"
+      "CustomFields1": "quia",
+      "CustomFields2": "ab"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

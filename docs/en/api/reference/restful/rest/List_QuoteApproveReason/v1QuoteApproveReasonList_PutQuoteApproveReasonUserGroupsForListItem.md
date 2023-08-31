@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Shanahan LLC",
-    "ToolTip": "Aspernatur necessitatibus nesciunt.",
+    "Id": 467,
+    "Name": "Bergnaum-Collier",
+    "ToolTip": "Natus laudantium.",
     "Deleted": true,
-    "Rank": 570,
-    "Type": "ab",
-    "ColorBlock": 609,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2012-12-29T16:00:49.2270591+01:00",
+    "Rank": 472,
+    "Type": "provident",
+    "ColorBlock": 141,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2003-06-04T03:31:33.7898498+02:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Grady, Marvin and Kutch",
-        "ToolTip": "Doloremque quia.",
+        "Id": 974,
+        "Name": "Emard, Kling and Jacobs",
+        "ToolTip": "Inventore doloremque aut.",
         "Deleted": true,
-        "Rank": 237,
-        "Type": "ab",
-        "ColorBlock": 423,
-        "IconHint": "molestiae",
-        "Selected": true,
-        "LastChanged": "2016-03-29T16:00:49.2270591+02:00",
+        "Rank": 870,
+        "Type": "earum",
+        "ColorBlock": 41,
+        "IconHint": "eveniet",
+        "Selected": false,
+        "LastChanged": "2018-02-04T03:31:33.7898498+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Dr. Sydni Ashly Quigley"
+        "ExtraInfo": "illo",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Ms. Lea Ashley Rowe Sr."
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "cum",
+    "ExtraInfo": "eaque",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Mrs. Deshaun Kuphal Sr."
+    "FullName": "Mrs. Schuyler Cruickshank"
   }
 ]
 ```
@@ -150,55 +150,55 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Skiles LLC",
-    "ToolTip": "Nobis doloribus omnis aliquid quasi libero quia dolor.",
-    "Deleted": true,
-    "Rank": 759,
-    "Type": "tempore",
-    "ColorBlock": 240,
-    "IconHint": "voluptatem",
+    "Id": 713,
+    "Name": "Daugherty-Carroll",
+    "ToolTip": "Qui impedit.",
+    "Deleted": false,
+    "Rank": 126,
+    "Type": "iste",
+    "ColorBlock": 245,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "1999-08-07T16:00:49.2270591+02:00",
+    "LastChanged": "2009-12-18T03:31:33.7898498+01:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Barrows-Gorczany",
-        "ToolTip": "In dolor unde ea dignissimos.",
+        "Id": 46,
+        "Name": "Reichel Inc and Sons",
+        "ToolTip": "Ea nemo quis.",
         "Deleted": true,
-        "Rank": 892,
-        "Type": "qui",
-        "ColorBlock": 489,
-        "IconHint": "et",
+        "Rank": 451,
+        "Type": "mollitia",
+        "ColorBlock": 934,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "1997-07-01T16:00:49.2270591+02:00",
+        "LastChanged": "1997-11-04T03:31:33.7898498+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "quia",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Sonny Damaris Leuschke III",
+        "FullName": "Joaquin Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldType": "System.Int32",
+            "FieldLength": 25
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Lucius Hudson",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "occaecati",
+    "Hidden": false,
+    "FullName": "Delia Paula Hilll IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
+        "FieldType": "System.Int32",
         "FieldLength": 572
       }
     }

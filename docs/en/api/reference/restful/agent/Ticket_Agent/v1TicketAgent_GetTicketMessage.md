@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=957
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=458
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 176,
-  "CreatedAt": "2005-01-10T16:00:42.2268823+01:00",
+  "TicketMessageId": 321,
+  "CreatedAt": "1997-10-20T03:31:27.6853664+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "molestiae",
-  "PersonId": 173,
-  "PersonFullName": "Isaias Green V",
-  "ContactId": 205,
-  "ContactName": "Wilkinson, Lowe and Ward",
+  "Author": "officiis",
+  "PersonId": 123,
+  "PersonFullName": "Mr. Lazaro Caesar Adams",
+  "ContactId": 601,
+  "ContactName": "Halvorson-Koelpin",
   "ContactDepartment": "",
-  "NumAttachments": 672,
-  "EmailHeader": "felicity@marvinfay.uk",
+  "NumAttachments": 285,
+  "EmailHeader": "lisette@windler.name",
   "MessageHeaders": [
     {
-      "Id": 123,
-      "Name": "Quigley, Douglas and Koch",
-      "Value": "mollitia",
+      "Id": 760,
+      "Name": "Lowe LLC",
+      "Value": "quos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 826
+          "FieldType": "System.Int32",
+          "FieldLength": 628
         }
       }
     }
   ],
-  "Language": "accusamus",
-  "Sentiment": 429,
-  "SentimentConfidence": 811,
-  "CreatedBy": 89,
-  "ChangedAt": "2003-01-22T16:00:42.2268823+01:00",
+  "Language": "dolores",
+  "Sentiment": 972,
+  "SentimentConfidence": 829,
+  "CreatedBy": 145,
+  "ChangedAt": "2017-07-10T03:31:27.6853664+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Kshlerin-O'Conner",
-    "ToolTip": "Velit corrupti eos doloribus molestias.",
-    "Deleted": true,
-    "Rank": 694,
+    "Id": 804,
+    "Name": "Balistreri, Mraz and Wintheiser",
+    "ToolTip": "Quia suscipit odit aliquid laudantium.",
+    "Deleted": false,
+    "Rank": 243,
     "Type": "earum",
-    "ColorBlock": 184,
-    "IconHint": "sint",
+    "ColorBlock": 487,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2007-01-04T16:00:49.0708338+01:00",
+    "LastChanged": "1999-07-16T03:31:33.6479544+02:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Hilll LLC",
-        "ToolTip": "Excepturi explicabo distinctio veniam alias neque.",
-        "Deleted": false,
-        "Rank": 575,
-        "Type": "optio",
-        "ColorBlock": 787,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2003-07-11T16:00:49.0708338+02:00",
+        "Id": 170,
+        "Name": "McCullough-Langosh",
+        "ToolTip": "Sint non corrupti laboriosam.",
+        "Deleted": true,
+        "Rank": 883,
+        "Type": "et",
+        "ColorBlock": 571,
+        "IconHint": "consequuntur",
+        "Selected": false,
+        "LastChanged": "2017-03-24T03:31:33.6479544+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "mollitia",
-        "Hidden": true,
-        "FullName": "Selina Strosin",
+        "ExtraInfo": "dolores",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Ervin Feil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 640
+            "FieldLength": 197
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "tempora",
-    "Hidden": true,
-    "FullName": "Santos Moen",
+    "ExtraInfo": "tempora",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Mrs. Jeffry Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

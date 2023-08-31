@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Koepp Group",
-    "ToolTip": "Voluptatem enim veniam dolor et assumenda ratione.",
+    "Id": 123,
+    "Name": "Mayer, Kunde and Gerhold",
+    "ToolTip": "Officia consequatur et hic ullam voluptatem labore omnis.",
     "Deleted": false,
-    "Rank": 819,
-    "Type": "consequuntur",
-    "ColorBlock": 274,
-    "IconHint": "magnam",
-    "Selected": false,
-    "LastChanged": "2018-10-15T16:00:49.0708338+02:00",
+    "Rank": 988,
+    "Type": "quia",
+    "ColorBlock": 376,
+    "IconHint": "doloremque",
+    "Selected": true,
+    "LastChanged": "2005-12-24T03:31:33.6635785+01:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Balistreri, King and Quitzon",
-        "ToolTip": "Deserunt rerum libero ex quis earum.",
-        "Deleted": false,
-        "Rank": 577,
-        "Type": "cum",
-        "ColorBlock": 972,
-        "IconHint": "impedit",
-        "Selected": false,
-        "LastChanged": "2019-02-08T16:00:49.0708338+01:00",
+        "Id": 398,
+        "Name": "Schuppe-Barrows",
+        "ToolTip": "Qui et sequi quo nesciunt.",
+        "Deleted": true,
+        "Rank": 808,
+        "Type": "ipsum",
+        "ColorBlock": 753,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2006-04-19T03:31:33.6635785+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Amanda Cole"
+        "ExtraInfo": "nam",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Asha Dicki"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Avis Thompson Sr."
+    "FullName": "Haleigh Kuhic"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Gutmann, Pfeffer and Lueilwitz",
-    "ToolTip": "Nulla quam est.",
-    "Deleted": false,
-    "Rank": 794,
-    "Type": "corporis",
-    "ColorBlock": 541,
-    "IconHint": "ipsum",
+    "Id": 116,
+    "Name": "Auer-Grimes",
+    "ToolTip": "Ratione iste architecto.",
+    "Deleted": true,
+    "Rank": 697,
+    "Type": "laudantium",
+    "ColorBlock": 29,
+    "IconHint": "mollitia",
     "Selected": false,
-    "LastChanged": "2018-06-06T16:00:49.0708338+02:00",
+    "LastChanged": "1996-10-28T03:31:33.6635785+01:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Beier Inc and Sons",
-        "ToolTip": "Reiciendis dolor dignissimos cupiditate qui voluptate.",
-        "Deleted": true,
-        "Rank": 591,
-        "Type": "rerum",
-        "ColorBlock": 824,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2012-03-15T16:00:49.0708338+01:00",
+        "Id": 188,
+        "Name": "Abbott-Gutmann",
+        "ToolTip": "Tempore architecto natus accusantium fugit qui.",
+        "Deleted": false,
+        "Rank": 432,
+        "Type": "voluptatem",
+        "ColorBlock": 180,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2005-06-27T03:31:33.6635785+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Larissa McDermott",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Ms. Connie Farrell I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 816
+            "FieldLength": 672
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "corrupti",
-    "Hidden": true,
-    "FullName": "Francesca Green III",
+    "ExtraInfo": "quidem",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Eudora Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 340
       }
     }
   }

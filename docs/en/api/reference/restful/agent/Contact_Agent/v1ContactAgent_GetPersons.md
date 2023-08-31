@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 394
+  "ContactId": 663
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 552,
-    "Mrmrs": "facilis",
-    "Firstname": "Lon",
-    "Lastname": "Orn",
-    "MiddleName": "Price Group",
-    "Title": "voluptas",
-    "Description": "Synergized user-facing core",
-    "Email": "vada@greenfranecki.biz",
-    "FullName": "Ms. Regan O'Kon",
-    "DirectPhone": "1-331-291-5274 x081",
-    "FormalName": "Cremin, Conn and Fahey",
-    "CountryId": 355,
-    "ContactId": 905,
-    "ContactName": "Kirlin LLC",
-    "Retired": 563,
-    "Rank": 220,
-    "ActiveInterests": 786,
-    "ContactDepartment": "reinvent world-class models",
-    "ContactCountryId": 608,
-    "ContactOrgNr": "851280",
-    "FaxPhone": "1-132-141-9862",
-    "MobilePhone": "390-644-2662",
-    "ContactPhone": "(076)787-4491",
-    "AssociateName": "Fritsch Group",
-    "AssociateId": 609,
+    "Position": "consequatur",
+    "PersonId": 551,
+    "Mrmrs": "quasi",
+    "Firstname": "Kaden",
+    "Lastname": "Hane",
+    "MiddleName": "Gaylord-Ortiz",
+    "Title": "culpa",
+    "Description": "Function-based discrete orchestration",
+    "Email": "frederik_senger@heathcote.ca",
+    "FullName": "Kristin Kub",
+    "DirectPhone": "(448)533-7818 x89768",
+    "FormalName": "Mayer Inc and Sons",
+    "CountryId": 98,
+    "ContactId": 394,
+    "ContactName": "Strosin, D'Amore and Baumbach",
+    "Retired": 429,
+    "Rank": 454,
+    "ActiveInterests": 455,
+    "ContactDepartment": "",
+    "ContactCountryId": 184,
+    "ContactOrgNr": "1050105",
+    "FaxPhone": "1-744-662-9486 x5795",
+    "MobilePhone": "664-810-1602 x461",
+    "ContactPhone": "062-637-7811",
+    "AssociateName": "Goyette-Fritsch",
+    "AssociateId": 755,
     "UsePersonAddress": false,
-    "ContactFax": "distinctio",
+    "ContactFax": "ut",
     "Kanafname": "saepe",
-    "Kanalname": "labore",
-    "Post1": "dolor",
-    "Post2": "architecto",
-    "Post3": "culpa",
-    "EmailName": "estevan_dicki@heathcote.ca",
-    "ContactFullName": "Katlyn Hamill",
-    "ActiveErpLinks": 361,
-    "TicketPriorityId": 966,
-    "SupportLanguageId": 671,
-    "SupportAssociateId": 779,
+    "Kanalname": "a",
+    "Post1": "consequatur",
+    "Post2": "occaecati",
+    "Post3": "in",
+    "EmailName": "hipolito@hirthe.biz",
+    "ContactFullName": "Mr. Walter Tatum McCullough",
+    "ActiveErpLinks": 226,
+    "TicketPriorityId": 22,
+    "SupportLanguageId": 439,
+    "SupportAssociateId": 707,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 201
       }
     }
   }

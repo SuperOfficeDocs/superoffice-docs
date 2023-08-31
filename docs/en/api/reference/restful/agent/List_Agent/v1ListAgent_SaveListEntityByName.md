@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Carter, Price and Gutkowski",
+  "Name": "Anderson, Treutel and Hayes",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 223,
-  "Name": "Raynor-Bauch",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 866,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
+  "Id": 48,
+  "Name": "Goyette Group",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 847,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

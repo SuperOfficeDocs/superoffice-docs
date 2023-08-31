@@ -72,7 +72,7 @@ PATCH /api/v1/Sale/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eveniet",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "reiciendis",
+  "SaleText": "at",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-03-08T16:00:48.3990266+01:00",
-  "Amount": 26510.505999999998,
-  "SaleId": 428,
-  "Earning": 25100.206,
-  "EarningPercent": 11028.546,
-  "Heading": "sapiente",
-  "Number": "1177897",
-  "Probability": 111,
-  "CreatedDate": "1997-11-16T16:00:48.3990266+01:00",
-  "UpdatedDate": "2022-11-30T16:00:48.3990266+01:00",
+  "Saledate": "2003-09-03T03:31:32.8944572+02:00",
+  "Amount": 9931.6459999999988,
+  "SaleId": 228,
+  "Earning": 21261.056,
+  "EarningPercent": 22897.004,
+  "Heading": "aperiam",
+  "Number": "709160",
+  "Probability": 100,
+  "CreatedDate": "1998-02-20T03:31:32.8944572+01:00",
+  "UpdatedDate": "2008-03-31T03:31:32.8944572+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 992,
+  "ActiveLinks": 14,
   "Links": [
     {
-      "EntityName": "Jast, Dach and Mraz",
-      "Id": 838,
-      "Description": "Multi-layered fresh-thinking paradigm",
-      "ExtraInfo": "dolorem",
-      "LinkId": 406,
+      "EntityName": "Hickle Inc and Sons",
+      "Id": 64,
+      "Description": "Right-sized heuristic task-force",
+      "ExtraInfo": "accusantium",
+      "LinkId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldType": "System.String",
+          "FieldLength": 654
         }
       }
     }
   ],
-  "NextDueDate": "2006-04-03T16:00:48.3990266+02:00",
-  "Postit": "aliquid",
+  "NextDueDate": "2020-08-05T03:31:32.8944572+02:00",
+  "Postit": "at",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-01-03T16:00:48.3990266+01:00",
+  "ReopenDate": "2005-01-26T03:31:32.8944572+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wolff-Altenwerth",
-      "Comment": "consequatur",
-      "StakeholderRoleId": 287,
-      "CountryId": 993,
-      "PersonId": 480,
-      "EmailDescription": "gage.hirthe@gottlieb.uk",
-      "EmailId": 144,
-      "EmailAddress": "dameon@rohan.us",
-      "PhoneId": 843,
-      "ContactName": "Fahey-Gottlieb",
-      "ContactId": 32,
-      "SaleId": 106,
-      "Mrmrs": "expedita",
-      "Firstname": "Guillermo",
-      "MiddleName": "Schumm-Gleichner",
-      "Lastname": "Pollich",
-      "SaleStakeholderId": 22,
-      "Rank": 801,
-      "Phone": "1-619-726-0057",
+      "StakeholderRoleName": "Nikolaus-Rippin",
+      "Comment": "enim",
+      "StakeholderRoleId": 353,
+      "CountryId": 37,
+      "PersonId": 892,
+      "EmailDescription": "zora.gusikowski@hegmannohara.us",
+      "EmailId": 813,
+      "EmailAddress": "derek@rohan.biz",
+      "PhoneId": 21,
+      "ContactName": "Abbott Group",
+      "ContactId": 868,
+      "SaleId": 696,
+      "Mrmrs": "dolores",
+      "Firstname": "Tyree",
+      "MiddleName": "Hansen LLC",
+      "Lastname": "Welch",
+      "SaleStakeholderId": 655,
+      "Rank": 41,
+      "Phone": "928-526-9909 x8405",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 531
         }
       }
     }
   ],
-  "ActiveErpLinks": 436,
+  "ActiveErpLinks": 699,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kody Quinton Jenkins MD",
-    "SuperOffice:2": "752183738"
+    "SuperOffice:1": "Prof. Ruthie Judah Lemke III",
+    "SuperOffice:2": "1735917887"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "expedita",
+    "CustomFields2": "excepturi"
   },
-  "PublishEventDate": "2014-07-20T16:00:48.3990266+02:00",
-  "PublishTo": "2000-03-30T16:00:48.3990266+02:00",
-  "PublishFrom": "2006-05-08T16:00:48.3990266+02:00",
+  "PublishEventDate": "2005-11-14T03:31:32.8944572+01:00",
+  "PublishTo": "1996-12-15T03:31:32.8944572+01:00",
+  "PublishFrom": "2003-08-19T03:31:32.8944572+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 358,
+      "VisibleId": 788,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldType": "System.String",
+          "FieldLength": 614
         }
       }
     },
     {
-      "VisibleId": 358,
+      "VisibleId": 788,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldType": "System.String",
+          "FieldLength": 614
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 968
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

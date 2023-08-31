@@ -91,22 +91,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 76,
-  "Name": "Nicolas, Mayert and Pagac",
-  "Description": "Front-line full-range structure",
-  "DeltaJson": "et",
+  "ConfigurableScreenDeltaId": 75,
+  "Name": "Wilkinson-Tromp",
+  "Description": "Profit-focused coherent local area network",
+  "DeltaJson": "odit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "dolores",
-  "UpdatedDate": "2018-06-13T16:00:40.2894057+02:00",
-  "CreatedDate": "2003-02-08T16:00:40.2894057+01:00",
+  "RecipeId": "fugiat",
+  "UpdatedDate": "2014-04-07T03:31:25.8072288+02:00",
+  "CreatedDate": "2007-07-02T03:31:25.8072288+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    569,
-    695
+    421,
+    770
   ],
-  "AppliesToKey": "dolor"
+  "AppliesToKey": "qui"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 47,
-  "Name": "Wilkinson, Williamson and Prohaska",
-  "Description": "Synergized multi-state frame",
-  "DeltaJson": "harum",
+  "ConfigurableScreenDeltaId": 916,
+  "Name": "Blanda-Cassin",
+  "Description": "User-centric background firmware",
+  "DeltaJson": "ratione",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ut",
-  "UpdatedDate": "2006-10-13T16:00:40.2894057+02:00",
-  "CreatedDate": "2000-04-12T16:00:40.2894057+02:00",
+  "RecipeId": "ad",
+  "UpdatedDate": "2010-06-07T03:31:25.8072288+02:00",
+  "CreatedDate": "2022-04-24T03:31:25.8072288+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    959,
-    587
+    279,
+    807
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 963
     }
   }
 }

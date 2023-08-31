@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "eum",
+  "FieldLabel": "ab",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 231,
-  "ColumnId": 408,
-  "FieldDefault": "dolore",
-  "FieldHeight": 184,
-  "FieldLabel": "iusto",
-  "FieldLeft": 33,
-  "FieldTop": 721,
+  "UDefFieldId": 83,
+  "ColumnId": 631,
+  "FieldDefault": "possimus",
+  "FieldHeight": 558,
+  "FieldLabel": "esse",
+  "FieldLeft": 587,
+  "FieldTop": 780,
   "FieldType": "Checkbox",
-  "FieldWidth": 831,
-  "FormatMask": "totam",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 608,
-  "LabelLeft": 245,
-  "LabelTop": 144,
-  "LabelWidth": 792,
-  "LastVersionId": 354,
-  "ListTableId": 901,
+  "FieldWidth": 250,
+  "FormatMask": "sed",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 479,
+  "LabelLeft": 43,
+  "LabelTop": 474,
+  "LabelWidth": 197,
+  "LastVersionId": 44,
+  "ListTableId": 303,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 390,
-  "ProgId": "distinctio",
-  "IsReadOnly": true,
-  "ShortLabel": "beatae",
-  "TabOrder": 483,
-  "TextLength": 704,
-  "Tooltip": "perferendis",
-  "UdefIdentity": 52,
-  "UDListDefinitionId": 602,
+  "Page1LineNo": 452,
+  "ProgId": "quibusdam",
+  "IsReadOnly": false,
+  "ShortLabel": "consequatur",
+  "TabOrder": 925,
+  "TextLength": 286,
+  "Tooltip": "nihil",
+  "UdefIdentity": 49,
+  "UDListDefinitionId": 518,
   "Justification": "Center",
-  "Version": 760,
-  "TemplateVariableName": "Jenkins-Barrows",
+  "Version": 669,
+  "TemplateVariableName": "Kulas-Veum",
   "HasBeenPublished": false,
-  "MdoListName": "Medhurst-Goyette",
+  "MdoListName": "Mills LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 719
     }
   }
 }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Weissnat, Schroeder and Bechtelar",
-  "DeviceName": "Beahan, Keebler and Prosacco",
-  "DeviceIdentifier": "culpa",
-  "TableName": "Rohan Inc and Sons"
+  "ApplicationName": "Sanford Inc and Sons",
+  "DeviceName": "Nicolas-Dooley",
+  "DeviceIdentifier": "magni",
+  "TableName": "Walter, Gleichner and Larson"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nihil",
-    "Value": "cupiditate",
-    "RecordId": 244,
-    "CreatedDate": "2003-03-07T16:00:41.0705907+01:00",
-    "UpdatedDate": "1999-12-06T16:00:41.0705907+01:00",
-    "UpdatedBy": "blanditiis",
-    "CreatedBy": "illum",
-    "TableName": "Grady Inc and Sons",
+    "Key": "harum",
+    "Value": "minus",
+    "RecordId": 908,
+    "CreatedDate": "1998-10-19T03:31:26.6050723+02:00",
+    "UpdatedDate": "2006-03-08T03:31:26.6050723+01:00",
+    "UpdatedBy": "modi",
+    "CreatedBy": "eos",
+    "TableName": "Heathcote Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldLength": 828
       }
     }
   }

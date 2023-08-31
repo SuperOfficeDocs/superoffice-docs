@@ -93,7 +93,7 @@ ProjectMember found.
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 109,
-  "ContactId": 955,
-  "ProjectId": 694,
-  "ContactName": "Sanford Group",
-  "ContactDepartment": "",
-  "ProjectName": "Glover, Powlowski and Bergstrom",
-  "EmailId": 763,
-  "EmailAddress": "theron@bartongreen.com",
-  "CountryId": 241,
-  "Firstname": "Santos",
-  "MiddleName": "Bins LLC",
-  "Lastname": "Champlin",
-  "PersonId": 489,
-  "Mrmrs": "ut",
-  "ProjectMemberTypeName": "Pacocha, Stark and Crist",
-  "Phone": "1-307-851-8284",
-  "PhoneId": 296,
-  "ProjectMemberTypeId": 248,
-  "EmailAddressName": "ressie.veum@morissette.name",
-  "Comment": "eum",
-  "FullName": "Miss Narciso Clemmie O'Hara",
+  "ProjectmemberId": 131,
+  "ContactId": 47,
+  "ProjectId": 531,
+  "ContactName": "Wiegand, Tremblay and Brakus",
+  "ContactDepartment": "engage sticky models",
+  "ProjectName": "Turcotte Group",
+  "EmailId": 404,
+  "EmailAddress": "jace.wiza@yundt.uk",
+  "CountryId": 139,
+  "Firstname": "Edmond",
+  "MiddleName": "Bayer Group",
+  "Lastname": "Hayes",
+  "PersonId": 603,
+  "Mrmrs": "quam",
+  "ProjectMemberTypeName": "Graham Inc and Sons",
+  "Phone": "629-387-6618 x8257",
+  "PhoneId": 738,
+  "ProjectMemberTypeId": 879,
+  "EmailAddressName": "ronny.hermiston@bruenhackett.uk",
+  "Comment": "quo",
+  "FullName": "Ms. Maximilian Schinner II",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 399
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -1275,7 +1275,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=person/email/emailLastSent,person/personAssociate/assocTooltip,contact/nameDepartment,appointment/appointmentUdef/SuperOffice:4,appointment/associate/contactFullName
+GET /api/v1/archive/SaleSelectionV2?$select=contact/LastCompletedTicket,document/registeredByFullName,saleStakeholder/person/personInfo/infoText,saleStakeholder/contact/contactNoMail,saleStakeholder/contact/contactAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

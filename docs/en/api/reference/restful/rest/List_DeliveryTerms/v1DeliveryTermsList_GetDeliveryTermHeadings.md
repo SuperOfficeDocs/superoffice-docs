@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1002,
-    "Name": "Von-Zulauf",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "Rank": 57,
-    "UdListDefinitionId": 801,
+    "HeadingId": 728,
+    "Name": "Spencer, Green and Abernathy",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 129,
+    "UdListDefinitionId": 815,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 833
       }
     }
   }

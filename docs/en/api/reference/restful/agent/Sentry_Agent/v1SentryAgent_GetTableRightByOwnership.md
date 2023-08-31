@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Deckow, Koelpin and Rosenbaum",
-  "ContactGroupId": 1002,
-  "ContactAssociateId": 112
+  "TableName": "King-Mann",
+  "ContactGroupId": 993,
+  "ContactAssociateId": 209
 }
 ```
 
@@ -92,6 +92,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": "engage web-enabled solutions"
+  "Reason": ""
 }
 ```

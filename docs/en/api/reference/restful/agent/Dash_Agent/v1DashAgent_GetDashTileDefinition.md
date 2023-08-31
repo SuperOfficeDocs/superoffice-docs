@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=796
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=168
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 516,
-  "Name": "Johns Inc and Sons",
-  "Description": "Visionary client-driven migration",
-  "DefaultHeight": 181,
-  "DefaultWidth": 388,
+  "DashboardTileDefinitionId": 355,
+  "Name": "Miller, Hermann and Bednar",
+  "Description": "Operative demand-driven conglomeration",
+  "DefaultHeight": 927,
+  "DefaultWidth": 460,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Turcotte-Walter",
-  "SelectionId": 1002,
+  "EntityName": "Wintheiser, Pagac and Stark",
+  "SelectionId": 951,
   "CurrencyMode": "Base",
-  "CurrencyCode": "maxime",
+  "CurrencyCode": "sit",
   "Measure": "Average",
-  "MeasureField": "doloribus",
-  "SortBy": "reiciendis",
-  "LayoutConfig": "asperiores",
-  "SecondarySelectionId": 84,
-  "MeasureByField": "aut",
+  "MeasureField": "ut",
+  "SortBy": "ut",
+  "LayoutConfig": "voluptas",
+  "SecondarySelectionId": 267,
+  "MeasureByField": "voluptatibus",
   "Usage": "Dashboard",
-  "ProviderName": "Borer, Robel and Willms",
+  "ProviderName": "Murphy-Effertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldLength": 822
     }
   }
 }

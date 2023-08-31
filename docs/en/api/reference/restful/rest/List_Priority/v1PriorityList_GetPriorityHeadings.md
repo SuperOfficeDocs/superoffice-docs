@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 48,
-    "Name": "Roberts, Bradtke and Nader",
-    "Tooltip": "illum",
+    "HeadingId": 437,
+    "Name": "Kris Inc and Sons",
+    "Tooltip": "quisquam",
     "Deleted": true,
-    "Rank": 846,
-    "UdListDefinitionId": 601,
+    "Rank": 963,
+    "UdListDefinitionId": 108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 56
       }
     }
   }

@@ -97,20 +97,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 508,
-  "Name": "Koch-Walsh",
+  "ScreenChooserId": 172,
+  "Name": "Mayert-Kautzer",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "nostrum",
-  "Registered": "2018-03-21T16:00:48.617756+01:00",
-  "RegisteredAssociateId": 885,
-  "Updated": "2018-12-26T16:00:48.617756+01:00",
-  "UpdatedAssociateId": 723
+  "UniqueIdentifier": "voluptate",
+  "Source": "aperiam",
+  "Registered": "1996-05-29T03:31:33.2718572+02:00",
+  "RegisteredAssociateId": 50,
+  "Updated": "2004-02-07T03:31:33.2718572+01:00",
+  "UpdatedAssociateId": 751
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 186,
-  "Name": "Senger, Purdy and Hayes",
+  "ScreenChooserId": 624,
+  "Name": "Treutel-Emard",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "totam",
-  "Source": "laborum",
-  "Registered": "2011-01-16T16:00:48.617756+01:00",
-  "RegisteredAssociateId": 777,
-  "Updated": "2020-10-06T16:00:48.617756+02:00",
-  "UpdatedAssociateId": 983,
+  "UniqueIdentifier": "reiciendis",
+  "Source": "delectus",
+  "Registered": "2002-02-19T03:31:33.2718572+01:00",
+  "RegisteredAssociateId": 366,
+  "Updated": "2019-04-30T03:31:33.2718572+02:00",
+  "UpdatedAssociateId": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 769
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

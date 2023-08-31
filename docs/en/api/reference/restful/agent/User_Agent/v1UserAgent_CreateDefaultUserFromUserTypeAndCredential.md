@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 894,
-  "CredentialType": "omnis",
-  "CredentialValue": "aut",
-  "CredentialDisplayValue": "voluptate"
+  "ContactId": 860,
+  "CredentialType": "molestiae",
+  "CredentialValue": "accusamus",
+  "CredentialDisplayValue": "doloremque"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 567,
-  "Name": "Ortiz LLC",
-  "Rank": 605,
-  "Tooltip": "tempore",
+  "AssociateId": 140,
+  "Name": "Kshlerin, Grant and Hodkiewicz",
+  "Rank": 15,
+  "Tooltip": "molestiae",
   "LicenseOwners": [
     {
-      "Name": "Pagac Group",
-      "Description": "Fully-configurable global Graphical User Interface",
+      "Name": "Koss-Swift",
+      "Description": "Multi-lateral encompassing internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,14 +142,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldType": "System.String",
+          "FieldLength": 627
         }
       }
     },
     {
-      "Name": "Pagac Group",
-      "Description": "Fully-configurable global Graphical User Interface",
+      "Name": "Koss-Swift",
+      "Description": "Multi-lateral encompassing internet solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldType": "System.String",
+          "FieldLength": 627
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quae",
-      "Tooltip": "et",
-      "Id": 828,
-      "Rank": 825,
+      "Value": "et",
+      "Tooltip": "ab",
+      "Id": 400,
+      "Rank": 418,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 746
+          "FieldType": "System.Int32",
+          "FieldLength": 132
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2003-09-04T16:00:42.2737488+02:00",
-  "Lastlogout": "2008-09-27T16:00:42.2737488+02:00",
-  "EjUserId": 253,
-  "RequestSignature": "laborum",
+  "Deleted": false,
+  "Lastlogin": "1997-06-02T03:31:27.7322326+02:00",
+  "Lastlogout": "2004-11-21T03:31:27.7322326+01:00",
+  "EjUserId": 987,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quo",
-      "DisplayValue": "a",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 91
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "quo",
-      "DisplayValue": "a",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 91
-        }
-      }
-    }
-  ],
-  "UserName": "Walter-Crona",
-  "TicketCategories": [
-    {
-      "Id": 915,
-      "Name": "Collins Group",
-      "ToolTip": "Maiores dolores aut et.",
-      "Deleted": false,
-      "Rank": 115,
-      "Type": "dolore",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dolor",
-      "ColorBlock": 725,
-      "ExtraInfo": "impedit",
-      "StyleHint": "ut",
-      "FullName": "Vance Satterfield",
+      "Value": "quia",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldLength": 330
         }
       }
-    }
-  ],
-  "NickName": "Wiegand, Harvey and Auer",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "minima"
-  },
-  "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "impedit"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "O'Keefe, Crona and Kuvalis",
-      "DisplayName": "Howe-Upton",
-      "Description": "Open-architected analyzing moratorium",
-      "ToolTip": "Id tenetur tempore tempore ex.",
-      "Actions": "Implicit",
-      "ActionData": "numquam",
+      "Type": null,
+      "Value": "quia",
+      "DisplayValue": "quam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 330
+        }
+      }
+    }
+  ],
+  "UserName": "Borer Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 893,
+      "Name": "Glover Inc and Sons",
+      "ToolTip": "Dolorem eum blanditiis qui ducimus error.",
+      "Deleted": false,
+      "Rank": 631,
+      "Type": "voluptatibus",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "qui",
+      "ColorBlock": 363,
+      "ExtraInfo": "doloribus",
+      "StyleHint": "commodi",
+      "FullName": "Cale Fahey",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 136
+        }
+      }
+    }
+  ],
+  "NickName": "Cummings Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "quidem",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "culpa",
+    "CustomFields2": "omnis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Legros, Schimmel and Runolfsdottir",
+      "DisplayName": "Jones-Rodriguez",
+      "Description": "Persevering 3rd generation application",
+      "ToolTip": "Corporis perspiciatis nisi ullam nulla voluptas.",
+      "Actions": "Implicit",
+      "ActionData": "est",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 911
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

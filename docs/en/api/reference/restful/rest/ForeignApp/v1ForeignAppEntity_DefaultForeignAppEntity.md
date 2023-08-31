@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 25 Aug 2020 16:00:47 G8T
+Last-Modified: Sat, 01 Feb 2003 03:31:32 G2T
 
 {
-  "ForeignAppId": 614,
-  "Name": "Huels Group",
-  "CreatedDate": "2006-05-08T16:00:47.9615771+02:00",
-  "UpdatedDate": "2020-08-25T16:00:47.9615771+02:00",
+  "ForeignAppId": 829,
+  "Name": "Russel-Kunde",
+  "CreatedDate": "1997-06-21T03:31:32.6132803+02:00",
+  "UpdatedDate": "2003-02-01T03:31:32.6132803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 1000,
-      "Name": "Ankunding, McClure and Dicki",
-      "CreatedDate": "2017-07-13T16:00:47.9615771+02:00",
-      "UpdatedDate": "2010-06-01T16:00:47.9615771+02:00",
-      "AssociateFullName": "Arnold Yundt",
-      "CreatedBy": "est",
-      "UpdatedBy": "natus",
-      "DeviceIdentifier": "aliquid",
-      "ForeignAppId": 113,
+      "ForeignDeviceId": 779,
+      "Name": "Weber Inc and Sons",
+      "CreatedDate": "2023-05-18T03:31:32.6132803+02:00",
+      "UpdatedDate": "2006-10-17T03:31:32.6132803+02:00",
+      "AssociateFullName": "Webster Jenkins",
+      "CreatedBy": "optio",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 412,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldType": "System.Int32",
+          "FieldLength": 2
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Tue, 25 Aug 2020 16:00:47 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldLength": 756
     }
   }
 }

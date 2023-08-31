@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,63 +128,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-08-09T16:00:39.8051095+02:00",
-  "AppointmentId": 574,
-  "Description": "Reactive client-server info-mediaries",
-  "StartDate": "2008-05-23T16:00:39.8051095+02:00",
-  "EndDate": "2011-11-05T16:00:39.8051095+01:00",
+  "CreatedDate": "1998-12-15T03:31:25.1797458+01:00",
+  "AppointmentId": 872,
+  "Description": "Enhanced high-level monitoring",
+  "StartDate": "2004-03-02T03:31:25.1797458+01:00",
+  "EndDate": "2019-03-04T03:31:25.1797458+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 566,
+  "MotherId": 781,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-05-31T16:00:39.8051095+02:00",
+  "UpdatedDate": "2004-12-20T03:31:25.1797458+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 166,
+  "ActiveLinks": 5,
   "Links": [
     {
-      "EntityName": "Bartell Group",
-      "Id": 630,
-      "Description": "Open-architected tertiary pricing structure",
-      "ExtraInfo": "aut",
-      "LinkId": 815,
+      "EntityName": "Jenkins, Torphy and Braun",
+      "Id": 434,
+      "Description": "De-engineered secondary middleware",
+      "ExtraInfo": "ea",
+      "LinkId": 911,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldType": "System.String",
+          "FieldLength": 780
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptate",
+  "AlarmLeadTime": "voluptas",
   "HasAlarm": false,
-  "ColorIndex": 17,
+  "ColorIndex": 760,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "quos",
+  "IsAlldayEvent": true,
+  "LagTime": "error",
   "LeadTime": "et",
-  "Location": "asperiores",
-  "RejectCounter": 38,
+  "Location": "voluptatem",
+  "RejectCounter": 999,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 241,
-      "PersonId": 306,
-      "ContactId": 858,
-      "EmailId": 299,
+      "AssociateId": 309,
+      "PersonId": 105,
+      "ContactId": 573,
+      "EmailId": 886,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 241,
-      "PersonId": 306,
-      "ContactId": 858,
-      "EmailId": 299,
+      "AssociateId": 309,
+      "PersonId": 105,
+      "ContactId": 573,
+      "EmailId": 886,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -192,61 +192,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-08-19T16:00:39.8051095+02:00",
+  "ActiveDate": "2012-03-19T03:31:25.1797458+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 191,
+  "PreferredTZLocation": 811,
   "Sale": null,
-  "SuggestedAppointmentId": 586,
+  "SuggestedAppointmentId": 418,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
-  "Title": "voluptatem",
-  "Agenda": "et",
-  "InternalNotes": "occaecati",
+  "CentralserviceVideomeetId": "aliquid",
+  "Title": "excepturi",
+  "Agenda": "at",
+  "InternalNotes": "ea",
   "UserDefinedFields": {
-    "SuperOffice:1": "Pamela McGlynn",
-    "SuperOffice:2": "Charlotte Crooks DVM"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dr. Anna Satterfield"
   },
   "ExtraFields": {
-    "ExtraFields1": "ex",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "qui"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "quidem"
   },
-  "PublishEventDate": "2000-11-16T16:00:39.8051095+01:00",
-  "PublishTo": "2016-07-01T16:00:39.8051095+02:00",
-  "PublishFrom": "2002-11-10T16:00:39.8051095+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-04-25T03:31:25.1797458+02:00",
+  "PublishTo": "2009-05-29T03:31:25.1797458+02:00",
+  "PublishFrom": "2010-10-28T03:31:25.1797458+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 598,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 536
         }
       }
     },
     {
-      "VisibleId": 598,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 536
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 931
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

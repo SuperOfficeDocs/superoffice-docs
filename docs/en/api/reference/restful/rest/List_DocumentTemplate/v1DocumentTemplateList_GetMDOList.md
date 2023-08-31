@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=corporis
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=est
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Schuster, Gerhold and Murray",
-    "ToolTip": "Quia quo.",
+    "Id": 552,
+    "Name": "Emard-Deckow",
+    "ToolTip": "Aut ut.",
     "Deleted": false,
-    "Rank": 218,
-    "Type": "iste",
+    "Rank": 56,
+    "Type": "ullam",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Kozey Inc and Sons",
-        "ToolTip": "Dolorum id voluptatem.",
-        "Deleted": true,
-        "Rank": 240,
-        "Type": "et",
+        "Id": 511,
+        "Name": "Kris LLC",
+        "ToolTip": "Quia nemo fugiat laboriosam voluptatem.",
+        "Deleted": false,
+        "Rank": 133,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "labore",
-        "ColorBlock": 476,
-        "ExtraInfo": "numquam",
-        "StyleHint": "dolorem",
-        "FullName": "Miss Zack Eusebio Farrell",
+        "IconHint": "aut",
+        "ColorBlock": 273,
+        "ExtraInfo": "non",
+        "StyleHint": "saepe",
+        "FullName": "Abbie White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 211
+            "FieldType": "System.String",
+            "FieldLength": 117
           }
         }
       }
     ],
-    "IconHint": "facilis",
-    "ColorBlock": 118,
-    "ExtraInfo": "non",
-    "StyleHint": "autem",
-    "FullName": "Noel Gorczany V",
+    "IconHint": "voluptatem",
+    "ColorBlock": 69,
+    "ExtraInfo": "ad",
+    "StyleHint": "fugiat",
+    "FullName": "Cary Wisoky DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 657
       }
     }
   }

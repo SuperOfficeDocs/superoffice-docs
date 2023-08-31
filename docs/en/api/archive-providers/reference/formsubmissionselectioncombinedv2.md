@@ -467,7 +467,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=person/personAssociate/title,person/correspondingAssociate/title,contact/NumberOfActivitiesInPeriod
+GET /api/v1/archive/FormSubmissionSelectionCombinedV2?$select=associate/firstName,person/restrictionAddress/line2,person/correspondingAssociate/assocName,person/consentSourceStore,contact/contactNoMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kunde, Emard and Wuckert",
-  "ListItemId": 764,
+  "UdListDefinitionName": "Muller, Davis and Thompson",
+  "ListItemId": 222,
   "UserGroups": [
     {
-      "Id": 274,
-      "Name": "Tremblay, Balistreri and Hayes",
-      "ToolTip": "Dolores et.",
+      "Id": 789,
+      "Name": "Kuphal-Kunde",
+      "ToolTip": "Magnam quae est pariatur aliquam ab.",
       "Deleted": false,
-      "Rank": 368,
-      "Type": "rem",
-      "ColorBlock": 331,
-      "IconHint": "vero",
+      "Rank": 183,
+      "Type": "magni",
+      "ColorBlock": 786,
+      "IconHint": "nihil",
       "Selected": false,
-      "LastChanged": "2002-08-28T16:00:41.1487084+02:00",
+      "LastChanged": "2014-03-30T03:31:26.6675558+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quasi",
+      "ExtraInfo": "dolores",
       "StyleHint": "voluptatem",
       "Hidden": false,
-      "FullName": "Dr. Delphia Alessia Rath"
+      "FullName": "Dr. Jaquan Raynor"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 993,
-    "Name": "Kris LLC",
-    "ToolTip": "Quia est et ab fugit cumque dolorem ea.",
+    "Id": 629,
+    "Name": "Runolfsson, Ortiz and Gaylord",
+    "ToolTip": "Corrupti praesentium et architecto quasi.",
     "Deleted": true,
-    "Rank": 445,
-    "Type": "maiores",
-    "ColorBlock": 386,
-    "IconHint": "autem",
+    "Rank": 117,
+    "Type": "pariatur",
+    "ColorBlock": 616,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2020-03-06T16:00:41.1487084+01:00",
+    "LastChanged": "2001-01-30T03:31:26.6675558+01:00",
     "ChildItems": [
       {
-        "Id": 302,
-        "Name": "Feeney-Beatty",
-        "ToolTip": "Et ex.",
-        "Deleted": false,
-        "Rank": 110,
-        "Type": "quasi",
-        "ColorBlock": 553,
+        "Id": 549,
+        "Name": "Kuphal, Pagac and Harris",
+        "ToolTip": "Iure magni laborum animi explicabo vel dolor.",
+        "Deleted": true,
+        "Rank": 748,
+        "Type": "laudantium",
+        "ColorBlock": 222,
         "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2011-07-06T16:00:41.1487084+02:00",
+        "Selected": false,
+        "LastChanged": "2000-08-13T03:31:26.6675558+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Dovie Kassulke",
+        "ExtraInfo": "sit",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Randal Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 816
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "ea",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "soluta",
     "Hidden": true,
-    "FullName": "Rickey Parisian II",
+    "FullName": "Denis Heber Sporer II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldType": "System.Int32",
+        "FieldLength": 461
       }
     }
   }

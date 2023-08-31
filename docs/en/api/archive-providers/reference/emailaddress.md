@@ -504,7 +504,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=contactId,personContact/streetAddress/county,searchPhone/description,contactSupportAssociate/ejStatus,contactSupportPerson/contactId
+GET /api/v1/archive/EmailAddress?$select=associateType,personContact/department,contactSupportPerson/rank,contactSupportPerson/personAssociateId,contactSupportPerson/personExtra/x_person_boolean
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

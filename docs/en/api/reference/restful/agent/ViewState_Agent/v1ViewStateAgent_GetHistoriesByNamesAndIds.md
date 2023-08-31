@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Hudson, Blanda and O'Keefe",
-      "EntityOrParentId": 530,
+      "EntityName": "Kutch-Jacobson",
+      "EntityOrParentId": 835,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Hudson, Blanda and O'Keefe",
-      "EntityOrParentId": 530,
+      "EntityName": "Kutch-Jacobson",
+      "EntityOrParentId": 835,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 589,
-    "Id": 36,
-    "HistoryName": "Reilly Group",
-    "HistoryId": 54,
-    "AssociateId": 186,
-    "Name": "Ortiz-Conroy",
-    "ItemInfo": "repellat",
+    "Rank": 892,
+    "Id": 762,
+    "HistoryName": "Mraz, Schumm and Balistreri",
+    "HistoryId": 619,
+    "AssociateId": 274,
+    "Name": "Yundt, Ferry and Trantow",
+    "ItemInfo": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 183
+        "FieldType": "System.Int32",
+        "FieldLength": 213
       }
     }
   }

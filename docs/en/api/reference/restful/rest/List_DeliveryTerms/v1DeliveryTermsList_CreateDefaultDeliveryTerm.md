@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 940,
-  "Name": "Champlin LLC",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "UdListDefinitionId": 435,
-  "Rank": 487,
+  "Id": 359,
+  "Name": "Waelchi, Dietrich and Emmerich",
+  "Tooltip": "incidunt",
+  "Deleted": true,
+  "UdListDefinitionId": 607,
+  "Rank": 809,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldLength": 303
     }
   }
 }

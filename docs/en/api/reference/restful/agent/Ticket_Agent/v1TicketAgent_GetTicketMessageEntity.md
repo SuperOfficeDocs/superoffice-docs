@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=884
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=413
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -102,78 +102,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 519,
+  "EjMessageId": 111,
   "Ticket": null,
-  "CreatedAt": "2004-08-28T16:00:42.2268823+02:00",
+  "CreatedAt": "1999-07-25T03:31:27.6853664+02:00",
   "CreatedBy": null,
-  "Author": "aperiam",
+  "Author": "dolorem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 435,
-  "Body": "est",
-  "HtmlBody": "provident",
-  "EmailHeader": "keara_hessel@prosacco.us",
-  "DebugInfo": "doloribus",
-  "MailSorter": "debitis",
+  "MessageId": "ea",
+  "TimeSpent": 712,
+  "Body": "quis",
+  "HtmlBody": "a",
+  "EmailHeader": "merle@wintheiserhackett.uk",
+  "DebugInfo": "asperiores",
+  "MailSorter": "voluptatem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "temporibus",
+  "SearchTitle": "exercitationem",
   "MessageHeaders": [
     {
-      "Id": 279,
-      "Name": "Kreiger, Conn and Green",
-      "Value": "officia",
+      "Id": 594,
+      "Name": "O'Reilly, Stroman and Rau",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 845
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptatem",
-  "Sentiment": 630,
-  "SentimentConfidence": 652,
+  "Language": "laboriosam",
+  "Sentiment": 973,
+  "SentimentConfidence": 704,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 381,
-      "Name": "Hills Group",
-      "ContentType": "non",
-      "AttSize": 689,
-      "InlineImage": false,
+      "AttachmentId": 43,
+      "Name": "Hilll, Renner and Paucek",
+      "ContentType": "laudantium",
+      "AttSize": 951,
+      "InlineImage": true,
       "ContentId": "autem",
-      "AuthKey": "omnis",
+      "AuthKey": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldLength": 401
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "a"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "nemo",
+    "CustomFields2": "id"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldType": "System.String",
+      "FieldLength": 92
     }
   }
 }

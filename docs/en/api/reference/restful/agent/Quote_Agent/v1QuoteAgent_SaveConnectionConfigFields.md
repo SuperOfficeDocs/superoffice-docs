@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 383,
+  "QuoteConnectionId": 453,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "repellendus",
-    "ConnectionConfigFields2": "qui"
+    "ConnectionConfigFields1": "aut",
+    "ConnectionConfigFields2": "nulla"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "qui",
-  "2": "qui"
+  "1": "ut",
+  "2": "deleniti"
 }
 ```

@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=officia
+GET /api/v1/List/Priority/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Gibson-Toy",
-    "ToolTip": "Aut est placeat ipsum nostrum.",
+    "Id": 846,
+    "Name": "Lemke-Heaney",
+    "ToolTip": "Nulla animi est consequatur ut provident qui.",
     "Deleted": true,
-    "Rank": 644,
-    "Type": "praesentium",
+    "Rank": 744,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "O'Reilly, Bradtke and Strosin",
-        "ToolTip": "Ut deleniti accusamus ut fugiat.",
-        "Deleted": true,
-        "Rank": 347,
-        "Type": "praesentium",
+        "Id": 427,
+        "Name": "Reichel LLC",
+        "ToolTip": "Sunt officiis in accusantium temporibus.",
+        "Deleted": false,
+        "Rank": 167,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 6,
-        "ExtraInfo": "ullam",
-        "StyleHint": "neque",
-        "FullName": "Amir Dibbert",
+        "IconHint": "hic",
+        "ColorBlock": 750,
+        "ExtraInfo": "aut",
+        "StyleHint": "molestias",
+        "FullName": "Mr. Beulah Blanca Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 925
+            "FieldType": "System.Int32",
+            "FieldLength": 888
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 721,
-    "ExtraInfo": "et",
-    "StyleHint": "impedit",
-    "FullName": "Fredy Steuber",
+    "IconHint": "quaerat",
+    "ColorBlock": 862,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "rerum",
+    "FullName": "Marcella Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 54
       }
     }
   }

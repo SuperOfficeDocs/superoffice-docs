@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 765
+  "ErpConnectionId": 835
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Predovic Group",
+      "ErpListName": "Rath-Walsh",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Breitenberg LLC",
-      "ErpFieldId": 769,
+      "ErpActorTypeName": "Hamill-Feest",
+      "ErpFieldId": 132,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldType": "System.String",
+          "FieldLength": 744
         }
       }
     }
   ],
-  "ErpConnectionId": 259,
-  "ErpConnectionName": "Hayes-Franecki",
+  "ErpConnectionId": 32,
+  "ErpConnectionName": "Morissette, Sporer and Larson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 39
     }
   }
 }

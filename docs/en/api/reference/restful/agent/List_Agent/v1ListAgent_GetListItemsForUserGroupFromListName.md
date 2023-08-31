@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hills, Cartwright and Watsica",
-  "GroupId": 472
+  "UdListDefinitionName": "Senger, Frami and Walker",
+  "GroupId": 89
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Herman LLC",
-    "ToolTip": "Ex minima et consequatur eligendi ea.",
+    "Id": 982,
+    "Name": "Goldner, Hahn and Jast",
+    "ToolTip": "Rerum odio dolor dolor.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "et",
-    "ColorBlock": 608,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2013-10-21T16:00:41.1487084+02:00",
+    "Rank": 689,
+    "Type": "explicabo",
+    "ColorBlock": 66,
+    "IconHint": "eaque",
+    "Selected": true,
+    "LastChanged": "2010-03-27T03:31:26.6675558+01:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Willms, Cruickshank and Fay",
-        "ToolTip": "Reprehenderit reprehenderit minima harum atque libero rerum.",
-        "Deleted": false,
-        "Rank": 82,
-        "Type": "vel",
-        "ColorBlock": 531,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2009-03-08T16:00:41.1487084+01:00",
+        "Id": 621,
+        "Name": "Thiel-Ward",
+        "ToolTip": "Id sed.",
+        "Deleted": true,
+        "Rank": 895,
+        "Type": "aut",
+        "ColorBlock": 957,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "1998-11-03T03:31:26.6675558+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "iste",
+        "ExtraInfo": "ut",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Michele Schneider",
+        "FullName": "Giles Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 70
+            "FieldLength": 670
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Mrs. Myles Mohammed Waelchi",
+    "ExtraInfo": "magni",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Keira Berge V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 391
       }
     }
   }

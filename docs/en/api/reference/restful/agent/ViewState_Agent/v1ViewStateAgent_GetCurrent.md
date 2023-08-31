@@ -85,7 +85,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kuhlman, Grimes and Reynolds"
+  "HistoryName": "Schaden LLC"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 759,
-  "Id": 726,
-  "HistoryName": "Connelly, Little and Grant",
-  "HistoryId": 241,
-  "AssociateId": 503,
-  "Name": "Schinner, Feil and Beahan",
-  "ItemInfo": "id",
+  "Rank": 290,
+  "Id": 803,
+  "HistoryName": "Blick-Cartwright",
+  "HistoryId": 98,
+  "AssociateId": 239,
+  "Name": "Torp, Barrows and Hagenes",
+  "ItemInfo": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

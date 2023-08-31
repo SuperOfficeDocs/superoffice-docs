@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 88,
-  "TopicId": 426,
+  "ChatSessionId": 331,
+  "TopicId": 620,
   "User": null,
   "Person": null,
-  "CustomerAlias": "commodi",
-  "CustomerHost": "natus",
-  "CustomerName": "Howell-Waters",
-  "CustomerEmail": "lauren@faywaters.biz",
-  "CustomerPhone": "758.195.9695",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Lynch-Stokes",
+  "CustomerAlias": "distinctio",
+  "CustomerHost": "ut",
+  "CustomerName": "Sipes Group",
+  "CustomerEmail": "napoleon@leuschke.info",
+  "CustomerPhone": "(526)949-4490 x7010",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Auer-Moen",
   "Status": "Closed",
-  "FirstMessage": "ab",
-  "LastMessage": "quisquam",
-  "WhenRequested": "1998-02-15T16:00:47.6022395+01:00",
-  "WhenStarted": "1996-01-23T16:00:47.6022395+01:00",
-  "WhenEnded": "2006-07-15T16:00:47.6022395+02:00",
-  "WhenIdle": "2018-07-28T16:00:47.6022395+02:00",
-  "WhenFetched": "2015-10-02T16:00:47.6022395+02:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 302,
-  "AlertLevel": 696,
-  "Rank": 4,
+  "FirstMessage": "saepe",
+  "LastMessage": "et",
+  "WhenRequested": "2003-09-13T03:31:32.3008587+02:00",
+  "WhenStarted": "2023-06-21T03:31:32.3008587+02:00",
+  "WhenEnded": "1999-03-09T03:31:32.3008587+01:00",
+  "WhenIdle": "2006-03-16T03:31:32.3008587+01:00",
+  "WhenFetched": "2002-08-18T03:31:32.3008587+02:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 736,
+  "AlertLevel": 568,
+  "Rank": 628,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 511,
+  "Rating": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 865
     }
   }
 }

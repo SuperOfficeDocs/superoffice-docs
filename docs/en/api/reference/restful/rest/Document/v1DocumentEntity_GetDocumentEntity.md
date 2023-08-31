@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=True
+GET /api/v1/Document/{id}?fk=False
 ```
 
 
@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 06 Nov 2002 16:00:47 G11T
+Last-Modified: Mon, 18 Aug 2014 03:31:32 G8T
 
 {
-  "DocumentId": 477,
+  "DocumentId": 700,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "neque",
-  "Header": "et",
-  "Name": "Ruecker LLC",
-  "OurRef": "voluptates",
-  "YourRef": "voluptas",
-  "CreatedDate": "2017-03-11T16:00:47.8678402+01:00",
-  "UpdatedDate": "2002-11-06T16:00:47.8678402+01:00",
-  "Description": "Inverse maximized open architecture",
+  "Attention": "ab",
+  "Header": "voluptatem",
+  "Name": "Legros-Brown",
+  "OurRef": "et",
+  "YourRef": "libero",
+  "CreatedDate": "2000-10-01T03:31:32.535176+02:00",
+  "UpdatedDate": "2014-08-18T03:31:32.535176+02:00",
+  "Description": "Optimized multi-state groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-10-14T16:00:47.8834585+02:00",
-  "ExternalRef": "eos",
+  "Date": "2009-08-19T03:31:32.5507961+02:00",
+  "ExternalRef": "dicta",
   "Completed": "Completed",
-  "ActiveLinks": 481,
+  "ActiveLinks": 594,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kessler, Terry and Rutherford",
-      "Id": 73,
-      "Description": "Object-based context-sensitive architecture",
-      "ExtraInfo": "in",
-      "LinkId": 277,
+      "EntityName": "Sawayn Group",
+      "Id": 618,
+      "Description": "Versatile uniform productivity",
+      "ExtraInfo": "temporibus",
+      "LinkId": 841,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 201
+          "FieldType": "System.Int32",
+          "FieldLength": 881
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 940,
-  "Snum": 488,
+  "SuggestedDocumentId": 801,
+  "Snum": 427,
   "UserDefinedFields": {
-    "SuperOffice:1": "Enrico Quitzon",
-    "SuperOffice:2": "Mitchell Trantow"
+    "SuperOffice:1": "Mrs. Dakota Tristin Bartoletti III",
+    "SuperOffice:2": "Miss Shanon Candace Mayer Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "beatae"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "sit"
+    "CustomFields1": "id",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "1997-07-24T16:00:47.8834585+02:00",
-  "PublishTo": "2017-08-20T16:00:47.8834585+02:00",
-  "PublishFrom": "2016-02-24T16:00:47.8834585+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-04-16T03:31:32.5507961+02:00",
+  "PublishTo": "2004-07-15T03:31:32.5507961+02:00",
+  "PublishFrom": "2020-03-26T03:31:32.5507961+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 519,
+      "VisibleId": 38,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 649
         }
       }
     },
     {
-      "VisibleId": 519,
+      "VisibleId": 38,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 649
         }
       }
     }
@@ -210,13 +210,13 @@ Last-Modified: Wed, 06 Nov 2002 16:00:47 G11T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

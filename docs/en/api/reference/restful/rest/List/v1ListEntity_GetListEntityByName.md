@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 821,
-  "Name": "Halvorson-Klocko",
-  "Tooltip": "possimus",
+  "Id": 787,
+  "Name": "Considine Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 806,
+  "Rank": 88,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 239
     }
   }
 }

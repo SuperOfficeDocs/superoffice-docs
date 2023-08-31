@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 799,
-  "TopicId": 458,
+  "ChatSessionId": 953,
+  "TopicId": 969,
   "User": null,
   "Person": null,
   "CustomerAlias": "enim",
-  "CustomerHost": "ipsam",
-  "CustomerName": "Muller LLC",
-  "CustomerEmail": "hal.hirthe@koepphand.us",
-  "CustomerPhone": "(484)321-8681",
+  "CustomerHost": "sit",
+  "CustomerName": "Walsh, Runolfsson and Schiller",
+  "CustomerEmail": "anne.okeefe@hegmannjones.ca",
+  "CustomerPhone": "184.179.2307 x036",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Spinka, Stark and Pagac",
+  "CustomerCompanyName": "D'Amore, Oberbrunner and Cummings",
   "Status": "Closed",
-  "FirstMessage": "necessitatibus",
-  "LastMessage": "commodi",
-  "WhenRequested": "2022-02-11T16:00:47.6491111+01:00",
-  "WhenStarted": "1998-09-28T16:00:47.6491111+02:00",
-  "WhenEnded": "2018-06-04T16:00:47.6491111+02:00",
-  "WhenIdle": "2012-11-06T16:00:47.6491111+01:00",
-  "WhenFetched": "2002-11-16T16:00:47.6491111+01:00",
-  "SessionKey": "velit",
-  "InitialQueuePos": 7,
-  "AlertLevel": 463,
-  "Rank": 876,
+  "FirstMessage": "non",
+  "LastMessage": "quo",
+  "WhenRequested": "1997-12-03T03:31:32.3321007+01:00",
+  "WhenStarted": "2013-02-16T03:31:32.3321007+01:00",
+  "WhenEnded": "2020-08-21T03:31:32.3321007+02:00",
+  "WhenIdle": "2015-02-27T03:31:32.3321007+01:00",
+  "WhenFetched": "2003-12-12T03:31:32.3321007+01:00",
+  "SessionKey": "reiciendis",
+  "InitialQueuePos": 520,
+  "AlertLevel": 199,
+  "Rank": 683,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 141,
+  "ChatbotIsActive": false,
+  "Rating": 746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 383
     }
   }
 }

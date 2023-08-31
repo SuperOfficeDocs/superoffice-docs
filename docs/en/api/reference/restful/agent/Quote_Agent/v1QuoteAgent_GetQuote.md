@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 373
+  "QuoteId": 331
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 736,
-  "SaleId": 516,
-  "QuoteConnectionId": 270,
-  "ERPQuoteKey": "quia",
-  "ERPOrderKey": "quisquam",
-  "ActiveQuoteVersionId": 471,
-  "AcceptedQuoteAlternativeId": 581,
-  "UseValuesFromQuote": 715,
-  "DocumentId": 288,
-  "PoNumber": "686895",
-  "OrderComment": "perspiciatis",
-  "PreferredEmailCulture": "jaydon_boyer@wunsch.uk",
+  "QuoteId": 318,
+  "SaleId": 972,
+  "QuoteConnectionId": 474,
+  "ERPQuoteKey": "ipsa",
+  "ERPOrderKey": "doloremque",
+  "ActiveQuoteVersionId": 224,
+  "AcceptedQuoteAlternativeId": 135,
+  "UseValuesFromQuote": 725,
+  "DocumentId": 471,
+  "PoNumber": "1291955",
+  "OrderComment": "eos",
+  "PreferredEmailCulture": "isaiah.rippin@mertz.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldType": "System.Int32",
+      "FieldLength": 257
     }
   }
 }

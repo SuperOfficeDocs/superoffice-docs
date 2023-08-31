@@ -123,27 +123,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 628,
-  "PlainMessage": "aut",
-  "HtmlMessage": "et",
-  "SmsMessage": "optio",
-  "Description": "Polarised assymetric structure",
-  "Subject": "saepe",
-  "FolderId": 516,
-  "HeaderField": "quia",
-  "Design": "quibusdam",
+  "ShipmentMessageId": 386,
+  "PlainMessage": "quam",
+  "HtmlMessage": "sed",
+  "SmsMessage": "quos",
+  "Description": "Adaptive object-oriented flexibility",
+  "Subject": "provident",
+  "FolderId": 612,
+  "HeaderField": "perspiciatis",
+  "Design": "iure",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Inverse empowering encryption",
-  "AccessKey": "sapiente",
-  "DocumentMessage": 323,
-  "Registered": "2004-03-21T16:00:48.4615203+01:00",
-  "RegisteredAssociateId": 116,
-  "Updated": "2013-02-10T16:00:48.4615203+01:00",
-  "UpdatedAssociateId": 572,
-  "UpdatedCount": 546
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Horizontal global matrix",
+  "AccessKey": "omnis",
+  "DocumentMessage": 462,
+  "Registered": "2005-12-18T03:31:32.9594383+01:00",
+  "RegisteredAssociateId": 897,
+  "Updated": "2010-01-06T03:31:32.9594383+01:00",
+  "UpdatedAssociateId": 700,
+  "UpdatedCount": 255
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 826,
-  "PlainMessage": "est",
-  "HtmlMessage": "tenetur",
-  "SmsMessage": "et",
-  "Description": "Upgradable eco-centric secured line",
-  "Subject": "quia",
-  "FolderId": 730,
-  "HeaderField": "nesciunt",
-  "Design": "et",
+  "ShipmentMessageId": 967,
+  "PlainMessage": "tenetur",
+  "HtmlMessage": "aut",
+  "SmsMessage": "commodi",
+  "Description": "Extended user-facing local area network",
+  "Subject": "corrupti",
+  "FolderId": 674,
+  "HeaderField": "ut",
+  "Design": "distinctio",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Grass-roots zero tolerance archive",
-  "AccessKey": "vel",
-  "DocumentMessage": 35,
-  "Registered": "2001-09-28T16:00:48.4615203+02:00",
-  "RegisteredAssociateId": 886,
-  "Updated": "2005-07-09T16:00:48.4615203+02:00",
-  "UpdatedAssociateId": 671,
-  "UpdatedCount": 668,
+  "LongDescription": "Persevering hybrid monitoring",
+  "AccessKey": "quidem",
+  "DocumentMessage": 843,
+  "Registered": "2012-07-03T03:31:32.9594383+02:00",
+  "RegisteredAssociateId": 563,
+  "Updated": "2010-06-06T03:31:32.9594383+02:00",
+  "UpdatedAssociateId": 28,
+  "UpdatedCount": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldType": "System.String",
+      "FieldLength": 728
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

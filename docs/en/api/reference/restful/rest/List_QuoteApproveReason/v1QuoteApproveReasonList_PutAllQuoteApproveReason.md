@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Beier Inc and Sons",
-    "Tooltip": "aut",
+    "Id": 626,
+    "Name": "Stark, Larkin and Ebert",
+    "Tooltip": "necessitatibus",
     "Deleted": false,
-    "UdListDefinitionId": 287,
-    "Rank": 629
+    "UdListDefinitionId": 137,
+    "Rank": 138
   },
   {
-    "Id": 463,
-    "Name": "Beier Inc and Sons",
-    "Tooltip": "aut",
+    "Id": 626,
+    "Name": "Stark, Larkin and Ebert",
+    "Tooltip": "necessitatibus",
     "Deleted": false,
-    "UdListDefinitionId": 287,
-    "Rank": 629
+    "UdListDefinitionId": 137,
+    "Rank": 138
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Konopelski, Treutel and Grant",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "UdListDefinitionId": 402,
-    "Rank": 124,
+    "Id": 731,
+    "Name": "Rosenbaum LLC",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 349,
+    "Rank": 825,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 571
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

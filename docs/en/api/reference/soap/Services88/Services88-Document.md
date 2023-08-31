@@ -1784,6 +1784,20 @@ title: Services88.DocumentAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="CopyDocumentToCsAttachment">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CopyDocumentToCsAttachmentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetDocumentList">
         <xs:complexType>
           <xs:sequence>
@@ -3267,6 +3281,23 @@ title: Services88.DocumentAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CopyDocumentToCsAttachmentRequest">
+    <wsdl:part name="parameters" element="tns:CopyDocumentToCsAttachment" />
+  </wsdl:message>
+  <wsdl:message name="CopyDocumentToCsAttachmentRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CopyDocumentToCsAttachmentResponse">
+    <wsdl:part name="parameters" element="tns:CopyDocumentToCsAttachmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="CopyDocumentToCsAttachmentResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDocumentListRequest">
     <wsdl:part name="parameters" element="tns:GetDocumentList" />
   </wsdl:message>
@@ -3967,6 +3998,10 @@ title: Services88.DocumentAgent WSDL
     <wsdl:operation name="GetDocumentLength">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentLength" name="GetDocumentLengthRequest" message="tns:GetDocumentLengthRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentLengthResponse" name="GetDocumentLengthResponse" message="tns:GetDocumentLengthResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CopyDocumentToCsAttachment">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CopyDocumentToCsAttachment" name="CopyDocumentToCsAttachmentRequest" message="tns:CopyDocumentToCsAttachmentRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CopyDocumentToCsAttachmentResponse" name="CopyDocumentToCsAttachmentResponse" message="tns:CopyDocumentToCsAttachmentResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDocumentList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/GetDocumentList" name="GetDocumentListRequest" message="tns:GetDocumentListRequest" />
@@ -4976,6 +5011,22 @@ title: Services88.DocumentAgent WSDL
         <soap:header message="tns:GetDocumentLengthResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetDocumentLengthResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetDocumentLengthResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CopyDocumentToCsAttachment">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Document/CopyDocumentToCsAttachment" style="document" />
+      <wsdl:input name="CopyDocumentToCsAttachmentRequest">
+        <soap:header message="tns:CopyDocumentToCsAttachmentRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CopyDocumentToCsAttachmentRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CopyDocumentToCsAttachmentRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CopyDocumentToCsAttachmentResponse">
+        <soap:header message="tns:CopyDocumentToCsAttachmentResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CopyDocumentToCsAttachmentResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CopyDocumentToCsAttachmentResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CopyDocumentToCsAttachmentResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

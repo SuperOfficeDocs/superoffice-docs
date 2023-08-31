@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 48,
-    "ColumnId": 83,
-    "FieldDefault": "illo",
-    "FieldHeight": 709,
-    "FieldLabel": "atque",
-    "FieldLeft": 98,
-    "FieldTop": 117,
+    "UDefFieldId": 291,
+    "ColumnId": 728,
+    "FieldDefault": "aut",
+    "FieldHeight": 196,
+    "FieldLabel": "sed",
+    "FieldLeft": 587,
+    "FieldTop": 614,
     "FieldType": "Checkbox",
-    "FieldWidth": 220,
-    "FormatMask": "aut",
+    "FieldWidth": 331,
+    "FormatMask": "debitis",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 207,
-    "LabelLeft": 335,
-    "LabelTop": 418,
-    "LabelWidth": 898,
-    "LastVersionId": 705,
-    "ListTableId": 936,
-    "IsMandatory": false,
+    "LabelHeight": 922,
+    "LabelLeft": 213,
+    "LabelTop": 850,
+    "LabelWidth": 371,
+    "LastVersionId": 756,
+    "ListTableId": 688,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 696,
-    "ProgId": "neque",
+    "Page1LineNo": 916,
+    "ProgId": "temporibus",
     "IsReadOnly": false,
-    "ShortLabel": "sequi",
-    "TabOrder": 200,
-    "TextLength": 979,
-    "Tooltip": "qui",
-    "UdefIdentity": 909,
-    "UDListDefinitionId": 884,
+    "ShortLabel": "asperiores",
+    "TabOrder": 858,
+    "TextLength": 342,
+    "Tooltip": "nihil",
+    "UdefIdentity": 940,
+    "UDListDefinitionId": 803,
     "Justification": "Center",
-    "Version": 582,
-    "TemplateVariableName": "Collins LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Keeling-Borer",
+    "Version": 564,
+    "TemplateVariableName": "Kiehn-Russel",
+    "HasBeenPublished": false,
+    "MdoListName": "Considine-Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 978
+        "FieldType": "System.Int32",
+        "FieldLength": 663
       }
     }
   }

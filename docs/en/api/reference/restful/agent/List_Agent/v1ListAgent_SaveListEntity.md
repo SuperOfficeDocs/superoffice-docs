@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Zemlak Inc and Sons",
-  "Tooltip": "ullam",
+  "Id": 945,
+  "Name": "Robel Inc and Sons",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "Rank": 676,
+  "Rank": 99,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "beatae",
+  "UseGroupsAndHeadings": false,
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 836,
-  "Name": "Fahey, Zemlak and Hansen",
-  "Tooltip": "maxime",
+  "Id": 793,
+  "Name": "Shields-Sanford",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 369,
+  "Rank": 340,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "a",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 622
     }
   }
 }

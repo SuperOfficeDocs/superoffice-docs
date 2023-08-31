@@ -84,8 +84,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 901,
-  "Select": "necessitatibus"
+  "SelectionId": 55,
+  "Select": "ut"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Turcotte, Dicki and Gleichner",
-    "PrimaryKey": 571,
+    "EntityName": "Schumm Inc and Sons",
+    "PrimaryKey": 382,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "minima",
-        "TooltipHint": "expedita",
-        "LinkHint": "doloribus"
+        "DisplayValue": "autem",
+        "TooltipHint": "et",
+        "LinkHint": "est"
       }
     },
-    "LinkHint": "delectus",
-    "StyleHint": "sit",
+    "LinkHint": "id",
+    "StyleHint": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldType": "System.String",
+        "FieldLength": 634
       }
     }
   }

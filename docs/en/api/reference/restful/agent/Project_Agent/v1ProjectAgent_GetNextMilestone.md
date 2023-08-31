@@ -124,11 +124,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 949
+  "ProjectId": 35
 }
 ```
 
@@ -139,64 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 867,
-  "StartDate": "1998-09-09T16:00:41.5550773+02:00",
-  "EndDate": "2013-02-05T16:00:41.5550773+01:00",
+  "AppointmentId": 670,
+  "StartDate": "2018-05-11T03:31:27.0112205+02:00",
+  "EndDate": "2002-05-07T03:31:27.0112205+02:00",
   "Type": "BookingForChecklist",
-  "Task": "minima",
-  "AssociateFullName": "Mr. Noah Rosenbaum",
-  "ContactName": "Schaefer-White",
-  "Description": "Proactive context-sensitive model",
-  "PersonFullName": "Clemmie Wisoky III",
-  "PersonId": 473,
-  "ContactId": 715,
-  "ProjectId": 998,
-  "ProjectName": "Weissnat-Lowe",
+  "Task": "qui",
+  "AssociateFullName": "Glen Schoen",
+  "ContactName": "Nicolas, Harber and Kerluke",
+  "Description": "Automated coherent instruction set",
+  "PersonFullName": "Dr. Leonora Schuppe",
+  "PersonId": 679,
+  "ContactId": 39,
+  "ProjectId": 632,
+  "ProjectName": "Kiehn-Langosh",
   "IsPublished": false,
-  "AssociateId": 962,
-  "ColorIndex": 990,
-  "IsFree": false,
-  "HasAlarm": false,
+  "AssociateId": 555,
+  "ColorIndex": 303,
+  "IsFree": true,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 693,
-  "PriorityName": "Ebert, Lowe and McDermott",
+  "PriorityId": 992,
+  "PriorityName": "Grant Group",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2020-05-11T16:00:41.5550773+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2021-07-28T03:31:27.0112205+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-08-18T16:00:41.5550773+02:00",
-  "RecurringEndDate": "2006-03-03T16:00:41.5550773+01:00",
-  "MotherId": 790,
-  "AssignedBy": 501,
-  "AssignedByFullName": "Heather Kuhlman",
+  "RecurringStartDate": "2000-02-22T03:31:27.0112205+01:00",
+  "RecurringEndDate": "2015-02-04T03:31:27.0112205+01:00",
+  "MotherId": 801,
+  "AssignedBy": 244,
+  "AssignedByFullName": "Katrine Flatley",
   "RejectReason": "",
-  "Location": "eius",
-  "AlarmLeadTime": "consequatur",
-  "SaleId": 959,
-  "SaleName": "Witting Group",
-  "AssociateName": "Lindgren, Klocko and Kuvalis",
-  "CreatedDate": "2019-11-09T16:00:41.5550773+01:00",
-  "CreatedBy": "non",
-  "CreatedByFullName": "Ms. Ronaldo Franecki",
-  "CreatedByAssociateId": 798,
+  "Location": "voluptatem",
+  "AlarmLeadTime": "voluptate",
+  "SaleId": 666,
+  "SaleName": "Boehm, Murazik and Brown",
+  "AssociateName": "Kohler Inc and Sons",
+  "CreatedDate": "1999-07-24T03:31:27.0112205+02:00",
+  "CreatedBy": "vero",
+  "CreatedByFullName": "Theresia Breitenberg",
+  "CreatedByAssociateId": 159,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "recusandae",
-  "Agenda": "sequi",
-  "InternalNotes": "veniam",
+  "Title": "distinctio",
+  "Agenda": "voluptas",
+  "InternalNotes": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldLength": 77
     }
   }
 }

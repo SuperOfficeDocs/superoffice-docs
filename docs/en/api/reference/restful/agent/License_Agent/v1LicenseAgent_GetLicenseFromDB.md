@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wilderman, Mitchell and Erdman"
+  "OwnerName": "Little-Skiles"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 325,
-      "NumberOfLicensesFree": 616,
-      "NumberOfLicensesAdded": 940,
-      "NumberOfLicensesNewTotal": 150,
-      "NumberOfLicensesNewFree": 732,
-      "NumberOfLicensesTotal": 410
+      "NumberOfLicensesInUse": 404,
+      "NumberOfLicensesFree": 601,
+      "NumberOfLicensesAdded": 896,
+      "NumberOfLicensesNewTotal": 18,
+      "NumberOfLicensesNewFree": 76,
+      "NumberOfLicensesTotal": 179
     }
   ],
-  "AccumulatedNextCheckDate": "2012-05-25T16:00:41.0862117+02:00"
+  "AccumulatedNextCheckDate": "2021-05-22T03:31:26.6050723+02:00"
 }
 ```

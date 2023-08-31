@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=facere
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=porro
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Gibson-Koepp",
-    "ToolTip": "Voluptatem repudiandae iusto sapiente consequatur ullam quod.",
+    "Id": 502,
+    "Name": "Krajcik LLC",
+    "ToolTip": "Corrupti quo quod ad.",
     "Deleted": false,
-    "Rank": 875,
-    "Type": "nesciunt",
+    "Rank": 151,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Will, Ledner and Kuvalis",
-        "ToolTip": "Provident explicabo.",
+        "Id": 654,
+        "Name": "Torp, Hills and Hessel",
+        "ToolTip": "Dicta a eum.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "modi",
+        "Rank": 421,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 748,
-        "ExtraInfo": "illum",
-        "StyleHint": "expedita",
-        "FullName": "Angeline Terry",
+        "IconHint": "et",
+        "ColorBlock": 618,
+        "ExtraInfo": "dolor",
+        "StyleHint": "dolore",
+        "FullName": "Dimitri Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 161
+            "FieldLength": 778
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 484,
-    "ExtraInfo": "officiis",
-    "StyleHint": "tenetur",
-    "FullName": "Louie Bednar",
+    "IconHint": "similique",
+    "ColorBlock": 921,
+    "ExtraInfo": "totam",
+    "StyleHint": "commodi",
+    "FullName": "Fausto Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 705
       }
     }
   }

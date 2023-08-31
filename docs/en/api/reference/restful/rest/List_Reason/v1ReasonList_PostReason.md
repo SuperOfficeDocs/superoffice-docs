@@ -77,12 +77,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "Kuphal, Feest and Powlowski",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "UdListDefinitionId": 661,
-  "Rank": 519
+  "Id": 911,
+  "Name": "Considine, McKenzie and Maggio",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 572,
+  "Rank": 522
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 431,
-  "Name": "Jast LLC",
-  "Tooltip": "dolorum",
-  "Deleted": true,
-  "UdListDefinitionId": 743,
-  "Rank": 599,
+  "Id": 698,
+  "Name": "Reilly LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 19,
+  "Rank": 659,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

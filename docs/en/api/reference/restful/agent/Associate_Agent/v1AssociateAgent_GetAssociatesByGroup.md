@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 94,
-  "Type": 353
+  "GroupId": 827,
+  "Type": 9
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 17,
-    "Name": "Stamm Group",
-    "PersonId": 321,
-    "Rank": 286,
-    "Tooltip": "aut",
+    "AssociateId": 530,
+    "Name": "Kemmer-Kuhlman",
+    "PersonId": 598,
+    "Rank": 599,
+    "Tooltip": "amet",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 222,
-    "FullName": "Ms. Giovanni Schumm",
-    "FormalName": "Ledner-Fritsch",
+    "GroupIdx": 684,
+    "FullName": "Ms. Lucas Tillman DDS",
+    "FormalName": "Torp Group",
     "Deleted": false,
-    "EjUserId": 305,
-    "UserName": "Ledner Inc and Sons",
+    "EjUserId": 183,
+    "UserName": "Maggio Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 805
       }
     }
   }

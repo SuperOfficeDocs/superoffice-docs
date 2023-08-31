@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 27 Dec 2022 16:00:47 G12T
+Last-Modified: Sat, 15 Dec 2018 03:31:32 G12T
 
 {
-  "SourceContactId": 244,
-  "SourcePersonId": 955,
-  "DestinationContactId": 351,
-  "DestinationPersonId": 241,
-  "RelationId": 526,
-  "Comment": "praesentium",
-  "RelationDefinitionId": 985,
-  "Reversed": 577,
-  "UpdatedDate": "2022-12-27T16:00:47.8209689+01:00",
-  "CreatedDate": "2015-11-25T16:00:47.8209689+01:00",
+  "SourceContactId": 631,
+  "SourcePersonId": 634,
+  "DestinationContactId": 103,
+  "DestinationPersonId": 707,
+  "RelationId": 327,
+  "Comment": "quis",
+  "RelationDefinitionId": 142,
+  "Reversed": 91,
+  "UpdatedDate": "2018-12-15T03:31:32.4883125+01:00",
+  "CreatedDate": "1999-02-11T03:31:32.4883125+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wisoky-Donnelly",
-  "SourcePersonName": "Rogahn, Streich and Greenfelder",
-  "DestinationContactName": "Prosacco Inc and Sons",
-  "DestinationPersonName": "Runolfsdottir-Kuhn",
-  "ActiveText": "et",
-  "PassiveText": "atque",
+  "SourceContactName": "Hand-Beer",
+  "SourcePersonName": "Schmidt Group",
+  "DestinationContactName": "Kulas-Douglas",
+  "DestinationPersonName": "Raynor Group",
+  "ActiveText": "est",
+  "PassiveText": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

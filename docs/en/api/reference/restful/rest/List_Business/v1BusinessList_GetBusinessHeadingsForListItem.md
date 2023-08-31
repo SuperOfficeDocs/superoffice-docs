@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Emmerich-Beatty",
-    "ToolTip": "Voluptatum sed et facere voluptatem consectetur dolores.",
+    "Id": 806,
+    "Name": "Cummings Group",
+    "ToolTip": "Esse velit sit consectetur incidunt et.",
     "Deleted": false,
-    "Rank": 404,
-    "Type": "nesciunt",
-    "ColorBlock": 829,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "1998-11-05T16:00:48.8677298+01:00",
+    "Rank": 266,
+    "Type": "debitis",
+    "ColorBlock": 863,
+    "IconHint": "voluptatibus",
+    "Selected": true,
+    "LastChanged": "2019-04-11T03:31:33.4917333+02:00",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Flatley, Frami and Johns",
-        "ToolTip": "Quas at autem ipsum voluptates.",
+        "Id": 850,
+        "Name": "Stroman, Gerhold and Walter",
+        "ToolTip": "Fugit eum quis molestiae optio.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "in",
-        "ColorBlock": 966,
-        "IconHint": "hic",
-        "Selected": false,
-        "LastChanged": "1999-02-06T16:00:48.8677298+01:00",
+        "Rank": 862,
+        "Type": "tenetur",
+        "ColorBlock": 54,
+        "IconHint": "ducimus",
+        "Selected": true,
+        "LastChanged": "2017-11-03T03:31:33.4917333+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "nobis",
+        "ExtraInfo": "dolor",
+        "StyleHint": "recusandae",
         "Hidden": false,
-        "FullName": "Courtney Jewel Runte PhD",
+        "FullName": "Roosevelt Schiller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 242
+            "FieldType": "System.Int32",
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "et",
+    "ExtraInfo": "eius",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Prof. Anabelle Orrin Botsford Jr.",
+    "FullName": "Isabell Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 578
+        "FieldType": "System.Int32",
+        "FieldLength": 976
       }
     }
   }

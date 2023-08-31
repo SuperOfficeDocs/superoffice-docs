@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "O'Keefe, Dickens and Legros",
-    "ToolTip": "Sunt cumque officiis excepturi et repellat incidunt.",
+    "Id": 294,
+    "Name": "Moore, Kohler and Bergstrom",
+    "ToolTip": "Esse maiores maiores nobis sunt.",
     "Deleted": false,
-    "Rank": 444,
-    "Type": "deserunt",
-    "ColorBlock": 344,
-    "IconHint": "debitis",
+    "Rank": 412,
+    "Type": "vero",
+    "ColorBlock": 147,
+    "IconHint": "natus",
     "Selected": false,
-    "LastChanged": "2000-07-26T16:00:49.086451+02:00",
+    "LastChanged": "2020-05-03T03:31:33.6635785+02:00",
     "ChildItems": [
       {
-        "Id": 697,
-        "Name": "Johnson, Strosin and Toy",
-        "ToolTip": "Necessitatibus illum reprehenderit est officia pariatur sed.",
+        "Id": 335,
+        "Name": "Marvin LLC",
+        "ToolTip": "Velit delectus consectetur asperiores voluptas nam ea ex.",
         "Deleted": false,
-        "Rank": 718,
-        "Type": "accusantium",
-        "ColorBlock": 708,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2009-06-23T16:00:49.086451+02:00",
+        "Rank": 490,
+        "Type": "soluta",
+        "ColorBlock": 910,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "2008-08-15T03:31:33.6635785+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Leanne Leannon",
+        "ExtraInfo": "sed",
+        "StyleHint": "earum",
+        "Hidden": false,
+        "FullName": "Dr. Steve Cronin MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 66
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Prof. Ewell Candelario Hodkiewicz DVM",
+    "ExtraInfo": "sunt",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "Sydnee Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 996
+        "FieldType": "System.Int32",
+        "FieldLength": 279
       }
     }
   }

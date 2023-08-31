@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 475,
-    "Name": "Zboncak LLC",
-    "Tooltip": "modi",
+    "HeadingId": 417,
+    "Name": "Langosh-Parisian",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 343,
-    "UdListDefinitionId": 563
+    "Rank": 496,
+    "UdListDefinitionId": 670
   },
   {
-    "HeadingId": 475,
-    "Name": "Zboncak LLC",
-    "Tooltip": "modi",
+    "HeadingId": 417,
+    "Name": "Langosh-Parisian",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 343,
-    "UdListDefinitionId": 563
+    "Rank": 496,
+    "UdListDefinitionId": 670
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Littel Group",
-    "Tooltip": "id",
+    "HeadingId": 820,
+    "Name": "Renner, Berge and Ankunding",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 221,
-    "UdListDefinitionId": 725,
+    "Rank": 111,
+    "UdListDefinitionId": 41,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldLength": 549
       }
     }
   }

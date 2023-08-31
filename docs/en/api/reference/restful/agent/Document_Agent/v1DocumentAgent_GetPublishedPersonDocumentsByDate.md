@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 900,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2017-01-18T16:00:40.5706201+01:00",
-  "EndTime": "1999-08-05T16:00:40.5706201+02:00",
-  "Count": 429
+  "PersonId": 703,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2006-04-22T03:31:26.0427182+02:00",
+  "EndTime": "2008-06-18T03:31:26.0427182+02:00",
+  "Count": 91
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 215,
-    "Attention": "aspernatur",
-    "Header": "cum",
-    "Name": "Kohler-Johnston",
-    "OurRef": "facere",
-    "YourRef": "quo",
-    "Description": "Cross-group background software",
-    "DocumentTemplate": "dolor",
+    "DocumentId": 466,
+    "Attention": "id",
+    "Header": "aut",
+    "Name": "Keeling-Stroman",
+    "OurRef": "aut",
+    "YourRef": "similique",
+    "Description": "Visionary hybrid middleware",
+    "DocumentTemplate": "voluptates",
     "IsPublished": false,
-    "PersonId": 667,
-    "PersonFullName": "Houston Johnston",
-    "AssociateFullName": "Alejandra Konopelski",
-    "ContactId": 922,
-    "ContactName": "Abbott, Skiles and Lueilwitz",
-    "ProjectId": 386,
-    "ProjectName": "Kling-Jerde",
-    "AssociateId": 292,
-    "Snum": 734,
-    "SaleId": 987,
-    "SaleName": "O'Hara-Dickens",
+    "PersonId": 343,
+    "PersonFullName": "Narciso Grover Roberts DVM",
+    "AssociateFullName": "Collin Bosco",
+    "ContactId": 455,
+    "ContactName": "Effertz Group",
+    "ProjectId": 757,
+    "ProjectName": "Klocko Inc and Sons",
+    "AssociateId": 290,
+    "Snum": 686,
+    "SaleId": 894,
+    "SaleName": "Kilback Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 926
       }
     }
   }

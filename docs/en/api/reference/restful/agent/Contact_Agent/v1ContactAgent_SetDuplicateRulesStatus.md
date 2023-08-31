@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Cassin, Kuhic and Lindgren",
-      "DisplayName": "Nolan, Bartoletti and Pfannerstill",
-      "DisplayTooltip": "quaerat",
+      "Name": "Altenwerth Inc and Sons",
+      "DisplayName": "Pacocha-Green",
+      "DisplayTooltip": "voluptatibus",
       "IsActive": false
     },
     {
-      "Name": "Cassin, Kuhic and Lindgren",
-      "DisplayName": "Nolan, Bartoletti and Pfannerstill",
-      "DisplayTooltip": "quaerat",
+      "Name": "Altenwerth Inc and Sons",
+      "DisplayName": "Pacocha-Green",
+      "DisplayTooltip": "voluptatibus",
       "IsActive": false
     }
   ]

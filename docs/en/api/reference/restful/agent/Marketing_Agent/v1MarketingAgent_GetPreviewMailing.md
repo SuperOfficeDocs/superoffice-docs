@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 179
+  "ShipmentAddrId": 345
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "1998-06-16T16:00:41.2580675+02:00",
+  "SendingTime": "2021-02-19T03:31:26.7612835+01:00",
   "Status": "Blocked",
-  "ShipmentId": 967,
-  "ShipmentDescription": "Implemented client-server projection",
-  "FromAddress": "voluptatem",
-  "ContactId": 917,
-  "ContactName": "Heaney-Schmidt",
-  "PersonId": 362,
-  "PersonFullName": "Sim Zboncak II",
-  "ShipmentType": "ratione",
-  "MessageId": 894,
-  "MessageSubject": "laudantium",
-  "DocumentMessageId": 750,
-  "Opened": "2005-06-03T16:00:41.2580675+02:00",
-  "LinkClicks": 81,
+  "ShipmentId": 665,
+  "ShipmentDescription": "Balanced explicit orchestration",
+  "FromAddress": "ratione",
+  "ContactId": 609,
+  "ContactName": "Lang-Abernathy",
+  "PersonId": 289,
+  "PersonFullName": "Blair Emard DDS",
+  "ShipmentType": "sit",
+  "MessageId": 404,
+  "MessageSubject": "facere",
+  "DocumentMessageId": 296,
+  "Opened": "1999-05-31T03:31:26.7612835+02:00",
+  "LinkClicks": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 864
     }
   }
 }

@@ -775,7 +775,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionV2?$select=status,appointment/appointmentPublish/publishedFrom,appointment/associate/personEmail,document/registeredDate,document/subject
+GET /api/v1/archive/ProjectSelectionV2?$select=sale/currency,sale/lossReason,sale/probPercent,sale/associate/title,appointment/booking
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

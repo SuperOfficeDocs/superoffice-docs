@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 68,
-  "ErpConnectorId": 458,
-  "DisplayName": "Dach, Keebler and Halvorson",
-  "DisplayDescription": "Profit-focused transitional application",
-  "Active": false,
-  "ConnectionId": "ratione",
-  "MostRecentTimestamp": "ipsum",
+  "ErpConnectionId": 956,
+  "ErpConnectorId": 588,
+  "DisplayName": "Jones Group",
+  "DisplayDescription": "Customizable hybrid core",
+  "Active": true,
+  "ConnectionId": "nisi",
+  "MostRecentTimestamp": "dolor",
   "ConfigFields": {
-    "ConfigFields1": "velit",
-    "ConfigFields2": "nobis"
+    "ConfigFields1": "impedit",
+    "ConfigFields2": "aperiam"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    147,
-    24
+    858,
+    593
   ],
   "AssociateAccessIds": [
-    268,
-    690
+    206,
+    158
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 134
+      "FieldLength": 314
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Quitzon, Will and Paucek",
-  "Tooltip": "nemo",
-  "Deleted": true,
-  "UdListDefinitionId": 232,
-  "Rank": 830
+  "Id": 813,
+  "Name": "Schmidt, Fritsch and Bayer",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 358,
+  "Rank": 755
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 597,
-  "Name": "Hills, Abbott and Hermann",
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "UdListDefinitionId": 589,
-  "Rank": 404,
+  "Id": 667,
+  "Name": "Boehm Group",
+  "Tooltip": "hic",
+  "Deleted": false,
+  "UdListDefinitionId": 843,
+  "Rank": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldLength": 125
     }
   }
 }

@@ -28,7 +28,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=745
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=650
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 911,
-  "UniqueIdentifier": "dolor",
-  "Name": "Ullrich-Harvey",
-  "Description": "Secured didactic orchestration",
-  "IncludeId": "illum",
-  "HierarchyId": 771,
-  "Source": "qui",
-  "Registered": "2004-11-09T16:00:40.4925031+01:00",
-  "RegisteredAssociateId": 174,
-  "Updated": "1999-09-19T16:00:40.4925031+02:00",
-  "UpdatedAssociateId": 189,
+  "EjscriptId": 90,
+  "UniqueIdentifier": "cumque",
+  "Name": "Ullrich, Yundt and Koch",
+  "Description": "Up-sized discrete alliance",
+  "IncludeId": "est",
+  "HierarchyId": 855,
+  "Source": "voluptatem",
+  "Registered": "2017-12-28T03:31:25.9790593+01:00",
+  "RegisteredAssociateId": 200,
+  "Updated": "1999-07-31T03:31:25.9790593+02:00",
+  "UpdatedAssociateId": 569,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   }
 }

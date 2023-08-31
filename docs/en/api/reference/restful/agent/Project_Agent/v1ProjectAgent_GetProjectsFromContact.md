@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 917
+  "ContactId": 286
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 874,
-    "Name": "Grady Group",
-    "Description": "Streamlined regional knowledge user",
+    "ProjectId": 503,
+    "Name": "Mayert-Treutel",
+    "Description": "Adaptive disintermediate portal",
     "URL": "http://www.example.com/",
-    "Type": "voluptatem",
-    "AssociateId": 17,
-    "AssociateFullName": "Michael Zemlak",
-    "TypeId": 43,
-    "Updated": "2016-05-18T16:00:41.5707037+02:00",
-    "StatusId": 634,
-    "Status": "ut",
-    "TextId": 915,
-    "PublishTo": "2016-01-03T16:00:41.5707037+01:00",
-    "PublishFrom": "2011-09-25T16:00:41.5707037+02:00",
+    "Type": "ut",
+    "AssociateId": 135,
+    "AssociateFullName": "Antonina Kemmer",
+    "TypeId": 765,
+    "Updated": "2013-12-15T03:31:27.0268433+01:00",
+    "StatusId": 439,
+    "Status": "aut",
+    "TextId": 17,
+    "PublishTo": "2001-04-21T03:31:27.0268433+02:00",
+    "PublishFrom": "2000-06-12T03:31:27.0268433+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "651573",
-    "ActiveErpLinks": 481,
+    "ProjectNumber": "748651",
+    "ActiveErpLinks": 362,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 495
       }
     }
   }

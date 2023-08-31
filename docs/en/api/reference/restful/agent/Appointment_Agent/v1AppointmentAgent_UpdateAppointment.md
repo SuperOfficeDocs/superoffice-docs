@@ -129,16 +129,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 187,
-  "StartTime": "2010-01-29T16:00:39.6488525+01:00",
-  "EndTime": "2001-07-18T16:00:39.6488525+02:00",
-  "Status": 129,
-  "Type": 38,
-  "AssociateId": 844
+  "Id": 457,
+  "StartTime": "2008-05-27T03:31:25.1313731+02:00",
+  "EndTime": "2021-06-11T03:31:25.1313731+02:00",
+  "Status": 396,
+  "Type": 133,
+  "AssociateId": 764
 }
 ```
 
@@ -149,64 +149,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 580,
-  "StartDate": "2023-01-08T16:00:39.6488525+01:00",
-  "EndDate": "2012-03-26T16:00:39.6488525+02:00",
+  "AppointmentId": 937,
+  "StartDate": "2017-11-30T03:31:25.1313731+01:00",
+  "EndDate": "2023-07-13T03:31:25.1313731+02:00",
   "Type": "BookingForChecklist",
-  "Task": "corrupti",
-  "AssociateFullName": "Gonzalo Hettinger",
-  "ContactName": "Kuhn Group",
-  "Description": "Secured dynamic knowledge user",
-  "PersonFullName": "Mr. Van Blanda",
-  "PersonId": 945,
-  "ContactId": 753,
-  "ProjectId": 899,
-  "ProjectName": "Kessler-Muller",
-  "IsPublished": true,
-  "AssociateId": 196,
-  "ColorIndex": 635,
+  "Task": "ea",
+  "AssociateFullName": "Mrs. Gerard Pagac Sr.",
+  "ContactName": "Sporer LLC",
+  "Description": "Proactive systematic capability",
+  "PersonFullName": "Miss Hailee Phoebe Lebsack",
+  "PersonId": 477,
+  "ContactId": 371,
+  "ProjectId": 685,
+  "ProjectName": "Cummerata, Robel and O'Connell",
+  "IsPublished": false,
+  "AssociateId": 345,
+  "ColorIndex": 882,
   "IsFree": true,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 470,
-  "PriorityName": "Yost Inc and Sons",
+  "PriorityId": 483,
+  "PriorityName": "Carroll-Nader",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "1997-02-15T16:00:39.6488525+01:00",
+  "ActiveDate": "2015-11-03T03:31:25.1313731+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-11-30T16:00:39.6488525+01:00",
-  "RecurringEndDate": "2007-10-16T16:00:39.6488525+02:00",
-  "MotherId": 35,
-  "AssignedBy": 876,
-  "AssignedByFullName": "Mr. Sibyl Dominic Trantow III",
+  "RecurringStartDate": "2006-12-18T03:31:25.1313731+01:00",
+  "RecurringEndDate": "2003-05-25T03:31:25.1313731+02:00",
+  "MotherId": 633,
+  "AssignedBy": 81,
+  "AssignedByFullName": "Miss Paxton Anna Kub II",
   "RejectReason": "",
-  "Location": "eum",
-  "AlarmLeadTime": "ipsam",
-  "SaleId": 134,
-  "SaleName": "Hettinger, Denesik and McGlynn",
-  "AssociateName": "Hagenes Inc and Sons",
-  "CreatedDate": "2013-05-05T16:00:39.6488525+02:00",
-  "CreatedBy": "reiciendis",
-  "CreatedByFullName": "Micah Kohler",
-  "CreatedByAssociateId": 513,
+  "Location": "soluta",
+  "AlarmLeadTime": "molestias",
+  "SaleId": 274,
+  "SaleName": "Fritsch-Nienow",
+  "AssociateName": "Parisian, Kirlin and Gutmann",
+  "CreatedDate": "1997-11-15T03:31:25.1313731+01:00",
+  "CreatedBy": "adipisci",
+  "CreatedByFullName": "Colton Bergnaum",
+  "CreatedByAssociateId": 39,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "et",
-  "Agenda": "enim",
-  "InternalNotes": "odit",
+  "Title": "dolores",
+  "Agenda": "alias",
+  "InternalNotes": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 803
     }
   }
 }

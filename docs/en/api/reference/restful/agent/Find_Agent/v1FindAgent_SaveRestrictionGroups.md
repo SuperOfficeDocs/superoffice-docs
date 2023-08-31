@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "id",
-  "ProviderName": "Rempel, Gutmann and Hauck",
-  "StorageKey": "mollitia",
+  "StorageType": "in",
+  "ProviderName": "Borer-Pfannerstill",
+  "StorageKey": "quos",
   "RestrictionGroups": [
     {
-      "Name": "Armstrong, Torp and Rice",
-      "Description": "Synergized scalable ability",
-      "Rank": 696,
+      "Name": "Bosco Group",
+      "Description": "Secured didactic installation",
+      "Rank": 657,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Armstrong, Torp and Rice",
-      "Description": "Synergized scalable ability",
-      "Rank": 696,
+      "Name": "Bosco Group",
+      "Description": "Secured didactic installation",
+      "Rank": 657,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "sequi"
+  "Context": "recusandae"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Shields, Hettinger and Kulas",
-    "Description": "Cross-group cohesive algorithm",
-    "Rank": 822,
+    "Name": "McLaughlin, Kihn and Sanford",
+    "Description": "Total web-enabled pricing structure",
+    "Rank": 915,
     "Restrictions": [
       {
-        "Name": "Johnston Inc and Sons",
-        "Operator": "assumenda",
+        "Name": "Buckridge, Medhurst and Fisher",
+        "Operator": "et",
         "Values": [
-          "optio",
-          "excepturi"
+          "et",
+          "dolor"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "nostrum"
+          "ducimus",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 511,
+        "InterParenthesis": 123,
         "InterOperator": "And",
-        "UniqueHash": 623
+        "UniqueHash": 108
       }
     ]
   },
   {
-    "Name": "Shields, Hettinger and Kulas",
-    "Description": "Cross-group cohesive algorithm",
-    "Rank": 822,
+    "Name": "McLaughlin, Kihn and Sanford",
+    "Description": "Total web-enabled pricing structure",
+    "Rank": 915,
     "Restrictions": [
       {
-        "Name": "Johnston Inc and Sons",
-        "Operator": "assumenda",
+        "Name": "Buckridge, Medhurst and Fisher",
+        "Operator": "et",
         "Values": [
-          "optio",
-          "excepturi"
+          "et",
+          "dolor"
         ],
         "DisplayValues": [
-          "necessitatibus",
-          "nostrum"
+          "ducimus",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 511,
+        "InterParenthesis": 123,
         "InterOperator": "And",
-        "UniqueHash": 623
+        "UniqueHash": 108
       }
     ]
   }

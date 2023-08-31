@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 846
+  "PersonId": 746
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 578,
-  "PersonId": 249,
-  "SecretKey": "exercitationem",
-  "SecretValue": "occaecati",
+  "UserCandidateId": 147,
+  "PersonId": 772,
+  "SecretKey": "et",
+  "SecretValue": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldLength": 542
     }
   }
 }

@@ -25,7 +25,7 @@ Deletes the WorkflowStepOption
 | WorkflowStepOptionId | int32 | **Required** The id of the WorkflowStepOption to be deleted. |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowStepOption?WorkflowStepOptionId=475
+POST /api/v1/Agents/Workflow/DeleteWorkflowStepOption?WorkflowStepOptionId=849
 ```
 
 

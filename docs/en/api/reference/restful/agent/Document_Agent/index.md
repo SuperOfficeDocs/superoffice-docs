@@ -10,6 +10,8 @@ generated: true
 
 
 
+* [POST Agents/Document/GetMyPublishedDocuments](v1DocumentAgent_GetMyPublishedDocuments.md)
+
 * [POST Agents/Document/GetPublishedDocumentsByDate](v1DocumentAgent_GetPublishedDocumentsByDate.md)
 
 * [POST Agents/Document/GetContactDocumentsByTemplateTypes](v1DocumentAgent_GetContactDocumentsByTemplateTypes.md)
@@ -164,6 +166,8 @@ generated: true
 
 * [POST Agents/Document/GetDocumentLength](v1DocumentAgent_GetDocumentLength.md)
 
+* [POST Agents/Document/CopyDocumentToCsAttachment](v1DocumentAgent_CopyDocumentToCsAttachment.md)
+
 * [POST Agents/Document/GetDocumentList](v1DocumentAgent_GetDocumentList.md)
 
 * [POST Agents/Document/GetAppointmentDocuments](v1DocumentAgent_GetAppointmentDocuments.md)
@@ -175,5 +179,3 @@ generated: true
 * [POST Agents/Document/GetPublishedDocument](v1DocumentAgent_GetPublishedDocument.md)
 
 * [POST Agents/Document/GetPublishedDocuments](v1DocumentAgent_GetPublishedDocuments.md)
-
-* [POST Agents/Document/GetMyPublishedDocuments](v1DocumentAgent_GetMyPublishedDocuments.md)

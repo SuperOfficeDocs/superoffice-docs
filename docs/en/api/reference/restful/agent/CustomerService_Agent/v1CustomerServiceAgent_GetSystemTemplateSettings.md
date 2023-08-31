@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 192,
-  "CustomerCustomerReplyTemplateId": 427,
-  "CustomerPasswordTemplateId": 636,
-  "CustomerConfirmEmailTemplateId": 979,
-  "CustomerChatLogTemplateId": 225,
-  "NewLinkTemplateId": 623,
-  "HotlistNewMessageTemplateId": 470,
-  "HotlistTicketActivatedTemplateId": 527,
-  "UserTicketAlarmTemplateId": 40,
-  "HotlistTicketTakenOverTemplateId": 834,
-  "UserActiveTicketsTemplateId": 313,
-  "UserNewMessageTemplateId": 289,
-  "UserTicketActivatedTemplateId": 795,
-  "UserNewTicketTemplateId": 518,
-  "PublishKbQuestionTemplateId": 751,
-  "PublishKbAnswerTemplateId": 296,
-  "UserTicketTakenOverTemplateId": 618,
-  "PrintTicketTemplateId": 983,
-  "WeekStatTemplateId": 600,
-  "TicketAlarmHotlistTemplateId": 750,
-  "EmailAddresses": "della@mantemoen.ca",
+  "CustomerNewCustomerTemplateId": 261,
+  "CustomerCustomerReplyTemplateId": 109,
+  "CustomerPasswordTemplateId": 111,
+  "CustomerConfirmEmailTemplateId": 330,
+  "CustomerChatLogTemplateId": 22,
+  "NewLinkTemplateId": 911,
+  "HotlistNewMessageTemplateId": 737,
+  "HotlistTicketActivatedTemplateId": 274,
+  "UserTicketAlarmTemplateId": 607,
+  "HotlistTicketTakenOverTemplateId": 464,
+  "UserActiveTicketsTemplateId": 522,
+  "UserNewMessageTemplateId": 960,
+  "UserTicketActivatedTemplateId": 270,
+  "UserNewTicketTemplateId": 544,
+  "PublishKbQuestionTemplateId": 298,
+  "PublishKbAnswerTemplateId": 661,
+  "UserTicketTakenOverTemplateId": 82,
+  "PrintTicketTemplateId": 417,
+  "WeekStatTemplateId": 945,
+  "TicketAlarmHotlistTemplateId": 631,
+  "EmailAddresses": "eva.hagenes@sauerreichert.name",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

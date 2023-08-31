@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 237,
-      "Id": 800,
-      "HistoryName": "Jacobson-Huel",
-      "HistoryId": 446,
-      "AssociateId": 787,
-      "Name": "Donnelly Inc and Sons",
-      "ItemInfo": "sit"
+      "Rank": 263,
+      "Id": 658,
+      "HistoryName": "Cummerata Inc and Sons",
+      "HistoryId": 676,
+      "AssociateId": 771,
+      "Name": "Fay, Schinner and Rogahn",
+      "ItemInfo": "quo"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 184,
-    "Id": 223,
-    "HistoryName": "Hahn-Bogisich",
-    "HistoryId": 997,
-    "AssociateId": 697,
-    "Name": "Ullrich-Tremblay",
-    "ItemInfo": "tempore",
+    "Rank": 777,
+    "Id": 541,
+    "HistoryName": "Wunsch, Effertz and Lind",
+    "HistoryId": 877,
+    "AssociateId": 954,
+    "Name": "Mann, Emard and Parker",
+    "ItemInfo": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 361
+        "FieldLength": 212
       }
     }
   }

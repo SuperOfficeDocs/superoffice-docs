@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 787,
-  "Name": "Watsica-Gerhold",
-  "Tooltip": "esse",
-  "Deleted": false,
-  "Rank": 720,
+  "Id": 338,
+  "Name": "Prohaska-Wisoky",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "Rank": 633,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 277
     }
   },
   "_Links": {

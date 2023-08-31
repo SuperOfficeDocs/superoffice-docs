@@ -32,7 +32,7 @@ table data; this will also pull in contact udef and related fields.
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -735,7 +735,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ticket?$select=person/personNumber,person/personAssociate/personEmail,contact/searchPhone/formattedNumber,contact/contactAssociate/fullName,contact/contactAssociate/credentialDisplayValue
+GET /api/v1/archive/Ticket?$select=firstReadByOwner,person/ticketPriority,person/email/emailLastSent,person/correspondingAssociate/contactId,contact/LastCompletedSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

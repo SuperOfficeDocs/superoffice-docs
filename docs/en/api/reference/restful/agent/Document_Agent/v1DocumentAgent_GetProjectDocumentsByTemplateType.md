@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 91,
-  "StartTime": "2007-07-07T16:00:40.5706201+02:00",
-  "EndTime": "2003-05-29T16:00:40.5706201+02:00",
-  "Count": 927,
-  "DocumentTemplateId": 292
+  "ProjectId": 104,
+  "StartTime": "2006-03-11T03:31:26.0583393+01:00",
+  "EndTime": "2013-10-27T03:31:26.0583393+01:00",
+  "Count": 916,
+  "DocumentTemplateId": 272
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 424,
-    "Attention": "iure",
-    "Header": "molestiae",
-    "Name": "Kozey Group",
-    "OurRef": "perferendis",
-    "YourRef": "enim",
-    "Description": "Customizable analyzing solution",
-    "DocumentTemplate": "alias",
+    "DocumentId": 683,
+    "Attention": "necessitatibus",
+    "Header": "dicta",
+    "Name": "Simonis Inc and Sons",
+    "OurRef": "totam",
+    "YourRef": "dolor",
+    "Description": "Automated eco-centric budgetary management",
+    "DocumentTemplate": "pariatur",
     "IsPublished": false,
-    "PersonId": 935,
-    "PersonFullName": "Jordy Berge PhD",
-    "AssociateFullName": "Justice Jaskolski",
-    "ContactId": 3,
-    "ContactName": "Strosin-Lehner",
-    "ProjectId": 870,
-    "ProjectName": "Zulauf-Cormier",
-    "AssociateId": 565,
-    "Snum": 417,
-    "SaleId": 605,
-    "SaleName": "Jast LLC",
+    "PersonId": 569,
+    "PersonFullName": "Zoey Shaina Hilpert III",
+    "AssociateFullName": "Gerard Mueller",
+    "ContactId": 209,
+    "ContactName": "Howe LLC",
+    "ProjectId": 353,
+    "ProjectName": "Swift-Miller",
+    "AssociateId": 821,
+    "Snum": 528,
+    "SaleId": 102,
+    "SaleName": "Champlin, O'Reilly and Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 385
+        "FieldLength": 55
       }
     }
   }

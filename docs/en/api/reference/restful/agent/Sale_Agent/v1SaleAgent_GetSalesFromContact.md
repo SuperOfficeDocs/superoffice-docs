@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 30,
+  "ContactId": 507,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Gutkowski-Nikolaus",
-    "SaleDate": "2007-03-11T16:00:41.7894273+01:00",
-    "SaleId": 857,
-    "Probability": 480,
-    "Title": "nisi",
-    "Amount": 20364.732,
-    "Currency": "sed",
-    "ProjectName": "O'Conner Inc and Sons",
-    "AssociateFullName": "Ms. Gertrude Herman II",
-    "Description": "Intuitive actuating core",
+    "ContactName": "Huels Group",
+    "SaleDate": "2017-10-30T03:31:27.1999504+01:00",
+    "SaleId": 538,
+    "Probability": 458,
+    "Title": "ex",
+    "Amount": 31340.0,
+    "Currency": "ea",
+    "ProjectName": "Beier LLC",
+    "AssociateFullName": "Thea Maxine Hayes III",
+    "Description": "Cross-group value-added budgetary management",
     "Status": "Lost",
-    "WeightedAmount": 21938.0,
-    "ProjectId": 320,
-    "EarningPercent": 1438.5059999999999,
-    "Earning": 29785.536,
-    "ContactId": 505,
-    "AssociateId": 383,
-    "PersonId": 421,
-    "SaleTypeId": 567,
-    "SaleTypeName": "Medhurst-Osinski",
-    "PersonFullName": "Miss Newell Sigurd Kohler DDS",
+    "WeightedAmount": 30355.924,
+    "ProjectId": 934,
+    "EarningPercent": 18177.2,
+    "Earning": 7997.968,
+    "ContactId": 77,
+    "AssociateId": 428,
+    "PersonId": 124,
+    "SaleTypeId": 118,
+    "SaleTypeName": "Padberg LLC",
+    "PersonFullName": "Mrs. Jedediah Krajcik I",
     "Completed": "Completed",
-    "ActiveErpLinks": 538,
-    "NextDueDate": "2015-11-24T16:00:41.7894273+01:00",
-    "Number": "198519",
+    "ActiveErpLinks": 845,
+    "NextDueDate": "2003-04-02T03:31:27.2155767+02:00",
+    "Number": "1495302",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 475
       }
     }
   }

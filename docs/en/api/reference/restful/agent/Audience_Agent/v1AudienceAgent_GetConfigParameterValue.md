@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hyatt, Quigley and Cole",
-  "ParameterName": "Nikolaus, Kovacek and Purdy"
+  "LayoutName": "Sauer, Reichert and Graham",
+  "ParameterName": "Yost-Trantow"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"reiciendis"
+"voluptas"
 ```

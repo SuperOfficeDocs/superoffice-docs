@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "O'Connell-Howe",
-  "TypicalSearchId": 602
+  "EntityName": "Mante, Treutel and Schimmel",
+  "TypicalSearchId": 11
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rippin, Herzog and Mayer",
-  "SelectionId": 476,
+  "ProviderName": "Batz, Metz and Rempel",
+  "SelectionId": 715,
   "CanSaveAsSelection": false,
-  "MainHeading": "eos",
-  "FilterScreenHeading": "eos",
-  "SelectionEntityHeading": "atque",
+  "MainHeading": "est",
+  "FilterScreenHeading": "quaerat",
+  "SelectionEntityHeading": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

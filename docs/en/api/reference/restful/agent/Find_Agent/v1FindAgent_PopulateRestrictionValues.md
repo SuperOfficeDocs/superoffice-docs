@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hickle-Swaniawski",
-      "Operator": "et",
+      "Name": "Murray, Koch and Cartwright",
+      "Operator": "repellendus",
       "Values": [
-        "et",
-        "et"
+        "dolor",
+        "voluptatum"
       ],
       "DisplayValues": [
-        "eaque",
-        "id"
+        "nam",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 131,
+      "InterParenthesis": 729,
       "InterOperator": "And",
-      "UniqueHash": 865
+      "UniqueHash": 217
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murazik-Robel",
-    "Operator": "doloribus",
+    "Name": "Schroeder-Von",
+    "Operator": "asperiores",
     "Values": [
-      "mollitia",
-      "qui"
+      "numquam",
+      "inventore"
     ],
     "DisplayValues": [
-      "placeat",
-      "vel"
+      "doloremque",
+      "accusamus"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Ernser, Fisher and Sipes",
-        "Operator": "neque",
+        "Name": "Parisian-Towne",
+        "Operator": "est",
         "Values": [
-          "velit",
-          "similique"
+          "hic",
+          "sapiente"
         ],
         "DisplayValues": [
-          "ipsa",
-          "iure"
+          "et",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 13,
+        "InterParenthesis": 380,
         "InterOperator": "And",
-        "UniqueHash": 191
+        "UniqueHash": 964
       }
     ],
-    "InterParenthesis": 332,
+    "InterParenthesis": 294,
     "InterOperator": "And",
-    "UniqueHash": 908
+    "UniqueHash": 968
   }
 ]
 ```

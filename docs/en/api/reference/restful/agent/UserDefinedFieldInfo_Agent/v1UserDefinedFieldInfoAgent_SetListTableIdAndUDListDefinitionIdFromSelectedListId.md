@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 927
+  "SelectedListId": 115
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 677,
-  "ColumnId": 541,
-  "FieldDefault": "numquam",
-  "FieldHeight": 821,
-  "FieldLabel": "aut",
-  "FieldLeft": 566,
-  "FieldTop": 400,
+  "UDefFieldId": 225,
+  "ColumnId": 108,
+  "FieldDefault": "maxime",
+  "FieldHeight": 526,
+  "FieldLabel": "laudantium",
+  "FieldLeft": 187,
+  "FieldTop": 528,
   "FieldType": "Checkbox",
-  "FieldWidth": 614,
-  "FormatMask": "vel",
+  "FieldWidth": 162,
+  "FormatMask": "ea",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 140,
-  "LabelLeft": 919,
-  "LabelTop": 918,
-  "LabelWidth": 384,
-  "LastVersionId": 845,
-  "ListTableId": 688,
-  "IsMandatory": false,
+  "LabelHeight": 988,
+  "LabelLeft": 10,
+  "LabelTop": 940,
+  "LabelWidth": 989,
+  "LastVersionId": 660,
+  "ListTableId": 642,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 407,
-  "ProgId": "consectetur",
+  "Page1LineNo": 545,
+  "ProgId": "ut",
   "IsReadOnly": false,
-  "ShortLabel": "corporis",
-  "TabOrder": 854,
-  "TextLength": 571,
-  "Tooltip": "odio",
-  "UdefIdentity": 267,
-  "UDListDefinitionId": 641,
+  "ShortLabel": "molestiae",
+  "TabOrder": 91,
+  "TextLength": 704,
+  "Tooltip": "minima",
+  "UdefIdentity": 923,
+  "UDListDefinitionId": 699,
   "Justification": "Center",
-  "Version": 805,
-  "TemplateVariableName": "Bergnaum Group",
+  "Version": 341,
+  "TemplateVariableName": "Swaniawski-Hauck",
   "HasBeenPublished": false,
-  "MdoListName": "Rutherford-Berge",
+  "MdoListName": "Wiza, Mitchell and McKenzie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

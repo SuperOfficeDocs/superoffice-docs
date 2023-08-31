@@ -72,7 +72,7 @@ PATCH /api/v1/PreferenceDescription/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "totam",
+    "path": "asperiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "totam",
+    "path": "asperiores",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 98,
-  "Section": "quisquam",
-  "Key": "fugiat",
-  "Name": "Wolff, Stracke and Cruickshank",
+  "PrefDescId": 715,
+  "Section": "voluptas",
+  "Key": "earum",
+  "Name": "Kirlin-Christiansen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ergonomic attitude-oriented extranet",
+  "Description": "Business-focused contextually-based conglomeration",
   "IsBuiltin": true,
-  "TableName": "West, Keeling and Dicki",
-  "UserDefinedListId": 122,
-  "Rank": 843,
-  "SubGroup": "consequatur",
-  "MinLevel": 424,
-  "MaxValue": 693,
-  "MinValue": 826,
-  "RequiredLicense": "et",
+  "TableName": "Hermann, McLaughlin and Murphy",
+  "UserDefinedListId": 454,
+  "Rank": 268,
+  "SubGroup": "eos",
+  "MinLevel": 289,
+  "MaxValue": 545,
+  "MinValue": 248,
+  "RequiredLicense": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldLength": 988
     }
   },
   "_Links": {

@@ -71,6 +71,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:Encoding xsi:type="xsd:string"></EMail:Encoding>
     <EMail:Id xsi:type="xsd:string"></EMail:Id>
     <EMail:Disposition xsi:type="xsd:string"></EMail:Disposition>
+    <EMail:IsSafeFileExtension xsi:type="xsd:boolean">false</EMail:IsSafeFileExtension>
     <EMail:Stream xsi:type="xsd:base64Binary"></EMail:Stream>
    </EMail:Response>
   </EMail:GetUnsanitizedPreviewAttachmentFromDocIdResponse>

@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    458,
-    941
+    112,
+    49
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 901,
-    "Name": "Rath, Hegmann and Cronin",
-    "Description": "Open-architected uniform focus group",
+    "ProjectId": 694,
+    "Name": "Hackett, Bradtke and Hermiston",
+    "Description": "Enterprise-wide interactive policy",
     "URL": "http://www.example.com/",
-    "Type": "quo",
-    "AssociateId": 612,
-    "AssociateFullName": "Ms. Pattie Farrell",
-    "TypeId": 261,
-    "Updated": "2006-07-16T16:00:41.5707037+02:00",
-    "StatusId": 706,
-    "Status": "nesciunt",
-    "TextId": 119,
-    "PublishTo": "2014-03-09T16:00:41.5707037+01:00",
-    "PublishFrom": "2007-05-01T16:00:41.5707037+02:00",
+    "Type": "est",
+    "AssociateId": 183,
+    "AssociateFullName": "Arielle Zulauf",
+    "TypeId": 879,
+    "Updated": "2019-08-17T03:31:27.0268433+02:00",
+    "StatusId": 507,
+    "Status": "et",
+    "TextId": 518,
+    "PublishTo": "2004-01-06T03:31:27.0268433+01:00",
+    "PublishFrom": "2007-04-18T03:31:27.0268433+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "494539",
-    "ActiveErpLinks": 468,
+    "ProjectNumber": "848401",
+    "ActiveErpLinks": 860,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldType": "System.String",
+        "FieldLength": 108
       }
     }
   }

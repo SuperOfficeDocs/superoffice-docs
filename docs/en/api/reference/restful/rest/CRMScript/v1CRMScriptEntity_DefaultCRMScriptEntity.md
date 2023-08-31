@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 625,
-  "UniqueIdentifier": "dolorum",
-  "Name": "McClure, Swift and Larson",
-  "Description": "Re-contextualized contextually-based protocol",
-  "IncludeId": "aut",
-  "HierarchyId": 286,
-  "Source": "iure",
-  "Registered": "2001-02-28T16:00:47.83659+01:00",
-  "RegisteredAssociateId": 661,
-  "Updated": "2000-02-21T16:00:47.83659+01:00",
-  "UpdatedAssociateId": 263,
+  "EjscriptId": 798,
+  "UniqueIdentifier": "rem",
+  "Name": "Heller, Rippin and Hintz",
+  "Description": "Pre-emptive client-server solution",
+  "IncludeId": "porro",
+  "HierarchyId": 610,
+  "Source": "reiciendis",
+  "Registered": "2022-05-14T03:31:32.5039305+02:00",
+  "RegisteredAssociateId": 653,
+  "Updated": "2013-12-16T03:31:32.5039305+01:00",
+  "UpdatedAssociateId": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 120
     }
   }
 }

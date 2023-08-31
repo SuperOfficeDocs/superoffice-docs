@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Hudson, Klocko and Hilll",
-  "Tooltip": "quia",
+  "Id": 572,
+  "Name": "Abshire Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": true,
-  "UdListDefinitionId": 246,
-  "Rank": 63,
+  "UdListDefinitionId": 508,
+  "Rank": 460,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 344
     }
   }
 }

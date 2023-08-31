@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 948,
+  "ProjectEntityId": 416,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 986,
-      "ContactId": 611,
-      "ProjectId": 519,
-      "ContactName": "Senger LLC",
+      "ProjectmemberId": 873,
+      "ContactId": 417,
+      "ProjectId": 176,
+      "ContactName": "Towne-Vandervort",
       "ContactDepartment": "",
-      "ProjectName": "Thiel LLC",
-      "EmailId": 686,
-      "EmailAddress": "philip@haneoconnell.info",
-      "CountryId": 662,
-      "Firstname": "Tyrel",
-      "MiddleName": "Haag-Hoeger",
-      "Lastname": "Douglas",
-      "PersonId": 359,
-      "Mrmrs": "quis",
-      "ProjectMemberTypeName": "Mayert LLC",
-      "Phone": "646-372-2633 x4181",
-      "PhoneId": 948,
-      "ProjectMemberTypeId": 265,
-      "EmailAddressName": "crystel@schuster.biz",
-      "Comment": "autem",
-      "FullName": "Kris O'Reilly"
+      "ProjectName": "Bernier Inc and Sons",
+      "EmailId": 896,
+      "EmailAddress": "rahul_abernathy@yost.ca",
+      "CountryId": 619,
+      "Firstname": "Casper",
+      "MiddleName": "Jaskolski, Wiza and Hyatt",
+      "Lastname": "Kunde",
+      "PersonId": 939,
+      "Mrmrs": "voluptatem",
+      "ProjectMemberTypeName": "Sporer-Rohan",
+      "Phone": "1-824-898-9399 x0278",
+      "PhoneId": 196,
+      "ProjectMemberTypeId": 754,
+      "EmailAddressName": "shanna_rodriguez@colliernikolaus.co.uk",
+      "Comment": "est",
+      "FullName": "Miss Bonita Stehr Jr."
     }
   ]
 }

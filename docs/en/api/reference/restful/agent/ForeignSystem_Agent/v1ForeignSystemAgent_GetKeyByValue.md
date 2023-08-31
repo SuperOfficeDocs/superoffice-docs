@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sipes-Dooley",
-  "DeviceName": "Armstrong, Abernathy and Eichmann",
-  "KeyName": "Mante-Maggio",
-  "KeyValue": "voluptatem",
-  "TableName": "Kunde-Stanton"
+  "ApplicationName": "Kirlin, Haley and Rolfson",
+  "DeviceName": "Glover Group",
+  "KeyName": "Ward, Boehm and Fadel",
+  "KeyValue": "minima",
+  "TableName": "Armstrong, Ernser and Klein"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellendus",
-  "Value": "repellat",
-  "RecordId": 816,
-  "CreatedDate": "2005-08-05T16:00:41.0705907+02:00",
-  "UpdatedDate": "2005-11-29T16:00:41.0705907+01:00",
-  "UpdatedBy": "labore",
-  "CreatedBy": "animi",
-  "TableName": "Mosciski-Rath",
+  "Key": "autem",
+  "Value": "tempore",
+  "RecordId": 185,
+  "CreatedDate": "2011-12-31T03:31:26.589451+01:00",
+  "UpdatedDate": "2005-08-30T03:31:26.589451+02:00",
+  "UpdatedBy": "tempora",
+  "CreatedBy": "nesciunt",
+  "TableName": "Veum, Hilll and Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 436
     }
   }
 }

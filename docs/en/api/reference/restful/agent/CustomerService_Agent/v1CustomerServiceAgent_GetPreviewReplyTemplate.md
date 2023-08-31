@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 139
+  "ReplyTemplateId": 251
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisozk-Botsford",
-  "Description": "Reduced value-added artificial intelligence",
-  "OwnedByFullName": "Miss Alfredo Marks V",
-  "Updated": "2007-12-22T16:00:40.5081328+01:00",
-  "Body": "cum",
+  "Name": "Leannon, Kihn and Boyer",
+  "Description": "Organic bifurcated middleware",
+  "OwnedByFullName": "Vidal Luciano Metz DVM",
+  "Updated": "1997-04-30T03:31:25.9957958+02:00",
+  "Body": "doloribus",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   }
 }

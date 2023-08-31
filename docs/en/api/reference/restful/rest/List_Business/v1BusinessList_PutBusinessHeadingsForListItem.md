@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Bernier, Gibson and Bergnaum",
-    "ToolTip": "Amet ipsam sit.",
+    "Id": 101,
+    "Name": "Bernhard-Grimes",
+    "ToolTip": "Laboriosam et officiis.",
     "Deleted": false,
-    "Rank": 141,
-    "Type": "aut",
-    "ColorBlock": 885,
-    "IconHint": "aut",
+    "Rank": 89,
+    "Type": "maxime",
+    "ColorBlock": 342,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2020-02-12T16:00:48.8677298+01:00",
+    "LastChanged": "2022-02-11T03:31:33.4917333+01:00",
     "ChildItems": [
       {
-        "Id": 111,
-        "Name": "Abernathy, Crona and Swaniawski",
-        "ToolTip": "Esse voluptatem molestias aut alias.",
-        "Deleted": false,
-        "Rank": 389,
-        "Type": "impedit",
-        "ColorBlock": 735,
-        "IconHint": "repellendus",
+        "Id": 442,
+        "Name": "Kozey LLC",
+        "ToolTip": "Voluptates dolorum voluptate in.",
+        "Deleted": true,
+        "Rank": 631,
+        "Type": "voluptatum",
+        "ColorBlock": 711,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2012-12-08T16:00:48.8677298+01:00",
+        "LastChanged": "2008-05-01T03:31:33.4917333+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Prof. Hollie Balistreri IV"
+        "ExtraInfo": "rerum",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Kennith Ortiz"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Mrs. Jaron Beulah Schoen"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Mr. Kristofer Effie Emmerich DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Boehm-Huel",
-    "ToolTip": "Quae aut sed dolores dolores.",
-    "Deleted": false,
-    "Rank": 874,
-    "Type": "unde",
-    "ColorBlock": 819,
-    "IconHint": "temporibus",
+    "Id": 490,
+    "Name": "Parisian, Pouros and Mertz",
+    "ToolTip": "Sint voluptas et.",
+    "Deleted": true,
+    "Rank": 771,
+    "Type": "ea",
+    "ColorBlock": 273,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "1996-10-28T16:00:48.8677298+01:00",
+    "LastChanged": "2018-12-05T03:31:33.4917333+01:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Effertz Inc and Sons",
-        "ToolTip": "Quaerat odio aperiam.",
-        "Deleted": true,
-        "Rank": 286,
+        "Id": 301,
+        "Name": "Stark, Dooley and Kovacek",
+        "ToolTip": "Incidunt sunt ipsam enim sapiente magnam.",
+        "Deleted": false,
+        "Rank": 602,
         "Type": "et",
-        "ColorBlock": 73,
-        "IconHint": "at",
+        "ColorBlock": 975,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1996-10-19T16:00:48.8677298+02:00",
+        "LastChanged": "2018-09-09T03:31:33.4917333+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "tempore",
-        "Hidden": false,
-        "FullName": "Dr. Roma Jordon Bruen",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Iliana Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 951
+            "FieldType": "System.Int32",
+            "FieldLength": 51
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Gaston Schaden",
+    "ExtraInfo": "ut",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Mr. Brannon Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 738
       }
     }
   }

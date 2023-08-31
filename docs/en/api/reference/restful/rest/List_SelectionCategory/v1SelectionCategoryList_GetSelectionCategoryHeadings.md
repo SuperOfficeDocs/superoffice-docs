@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 230,
-    "Name": "Collier LLC",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 432,
-    "UdListDefinitionId": 846,
+    "HeadingId": 508,
+    "Name": "Gerlach-Kertzmann",
+    "Tooltip": "dolor",
+    "Deleted": false,
+    "Rank": 894,
+    "UdListDefinitionId": 256,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 282
       }
     }
   }

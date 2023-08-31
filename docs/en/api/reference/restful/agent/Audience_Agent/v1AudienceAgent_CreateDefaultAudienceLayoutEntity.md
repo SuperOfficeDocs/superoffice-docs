@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 104,
-  "InstanceLayout": "sed",
-  "InstanceName": "McLaughlin, Gislason and Lindgren",
-  "CreatedDate": "2007-05-19T16:00:40.086328+02:00",
-  "UpdatedDate": "2004-05-05T16:00:40.086328+02:00",
+  "AudienceLayoutId": 225,
+  "InstanceLayout": "quidem",
+  "InstanceName": "Kshlerin LLC",
+  "CreatedDate": "2019-11-03T03:31:25.6339962+01:00",
+  "UpdatedDate": "2000-04-28T03:31:25.6339962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldLength": 692
     }
   }
 }

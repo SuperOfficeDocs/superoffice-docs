@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Boyer Inc and Sons",
+  "TableName": "Yost LLC",
   "Columns": [
-    "consequatur",
-    "aliquid"
+    "ea",
+    "sequi"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "quaerat",
-  "Inserts": 85,
-  "Updates": 212,
-  "Deletes": 12,
+  "Message": "saepe",
+  "Inserts": 629,
+  "Updates": 320,
+  "Deletes": 568,
   "RowStatus": [
     {
-      "PrimaryKey": 577,
+      "PrimaryKey": 104,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "perspiciatis",
-        "culpa"
+        "nihil",
+        "assumenda"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 360
         }
       }
     },
     {
-      "PrimaryKey": 577,
+      "PrimaryKey": 104,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "perspiciatis",
-        "culpa"
+        "nihil",
+        "assumenda"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 360
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 185
     }
   }
 }

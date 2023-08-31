@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 330,
-  "ColumnId": 803,
-  "FieldDefault": "deserunt",
-  "FieldHeight": 801,
-  "FieldLabel": "blanditiis",
-  "FieldLeft": 561,
-  "FieldTop": 17,
+  "UDefFieldId": 228,
+  "ColumnId": 702,
+  "FieldDefault": "sit",
+  "FieldHeight": 955,
+  "FieldLabel": "similique",
+  "FieldLeft": 620,
+  "FieldTop": 786,
   "FieldType": "Checkbox",
-  "FieldWidth": 607,
-  "FormatMask": "debitis",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 163,
-  "LabelLeft": 246,
-  "LabelTop": 284,
-  "LabelWidth": 408,
-  "LastVersionId": 417,
-  "ListTableId": 217,
+  "FieldWidth": 995,
+  "FormatMask": "et",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 10,
+  "LabelLeft": 396,
+  "LabelTop": 683,
+  "LabelWidth": 264,
+  "LastVersionId": 343,
+  "ListTableId": 464,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 430,
-  "ProgId": "quo",
+  "Page1LineNo": 659,
+  "ProgId": "quod",
   "IsReadOnly": false,
-  "ShortLabel": "qui",
-  "TabOrder": 494,
-  "TextLength": 663,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 211,
-  "UDListDefinitionId": 364,
+  "ShortLabel": "iure",
+  "TabOrder": 803,
+  "TextLength": 438,
+  "Tooltip": "ea",
+  "UdefIdentity": 483,
+  "UDListDefinitionId": 271,
   "Justification": "Center",
-  "Version": 421,
-  "TemplateVariableName": "Douglas, Lebsack and Nader",
+  "Version": 383,
+  "TemplateVariableName": "Shields-Reinger",
   "HasBeenPublished": false,
-  "MdoListName": "Osinski, Gibson and Torphy",
+  "MdoListName": "Donnelly-Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 84
     }
   }
 }

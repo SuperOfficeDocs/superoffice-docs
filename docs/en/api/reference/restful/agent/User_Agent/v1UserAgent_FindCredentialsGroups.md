@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "vitae",
-  "SearchString": "accusantium"
+  "Type": "porro",
+  "SearchString": "eos"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Krajcik LLC",
-    "DisplayName": "Kihn LLC",
+    "Name": "Rohan Inc and Sons",
+    "DisplayName": "Kerluke-Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   },
   {
-    "Name": "Krajcik LLC",
-    "DisplayName": "Kihn LLC",
+    "Name": "Rohan Inc and Sons",
+    "DisplayName": "Kerluke-Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

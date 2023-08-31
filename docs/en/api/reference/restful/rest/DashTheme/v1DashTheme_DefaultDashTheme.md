@@ -62,7 +62,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 1001,
-  "Name": "Pacocha, Nienow and Medhurst",
-  "Config": "tempore",
-  "Rank": 141,
-  "Client": "et",
-  "Style": "illo",
+  "DashboardThemeId": 948,
+  "Name": "Schultz LLC",
+  "Config": "quia",
+  "Rank": 810,
+  "Client": "consequuntur",
+  "Style": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 368
     }
   }
 }

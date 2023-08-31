@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 534,
-  "Name": "Schimmel, Ortiz and Kertzmann",
-  "Tooltip": "nam",
+  "Id": 255,
+  "Name": "Keebler Inc and Sons",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "UdListDefinitionId": 892,
-  "Rank": 65,
+  "UdListDefinitionId": 668,
+  "Rank": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 46
     }
   }
 }

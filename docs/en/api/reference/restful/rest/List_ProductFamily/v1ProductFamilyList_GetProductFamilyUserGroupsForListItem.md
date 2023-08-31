@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Wolff, Breitenberg and Robel",
-    "ToolTip": "Iusto corrupti aut ut.",
+    "Id": 443,
+    "Name": "Sawayn-Huels",
+    "ToolTip": "Odit omnis aperiam accusantium ut necessitatibus alias enim.",
     "Deleted": false,
-    "Rank": 648,
-    "Type": "officia",
-    "ColorBlock": 605,
-    "IconHint": "qui",
+    "Rank": 551,
+    "Type": "officiis",
+    "ColorBlock": 959,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2022-01-10T16:00:49.1645684+01:00",
+    "LastChanged": "2007-11-07T03:31:33.7429875+01:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Maggio-Kovacek",
-        "ToolTip": "Repellat omnis et numquam voluptatem accusamus.",
-        "Deleted": true,
-        "Rank": 888,
-        "Type": "voluptatem",
-        "ColorBlock": 556,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2009-02-02T16:00:49.1645684+01:00",
+        "Id": 224,
+        "Name": "Kovacek LLC",
+        "ToolTip": "Aliquam libero eos et itaque accusantium quo consequatur.",
+        "Deleted": false,
+        "Rank": 21,
+        "Type": "itaque",
+        "ColorBlock": 942,
+        "IconHint": "laboriosam",
+        "Selected": true,
+        "LastChanged": "2010-06-24T03:31:33.7429875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "porro",
         "Hidden": true,
-        "FullName": "Claire Emard",
+        "FullName": "Arjun Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldType": "System.String",
+            "FieldLength": 307
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "London Schmitt",
+    "ExtraInfo": "ea",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Marta Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 58
       }
     }
   }

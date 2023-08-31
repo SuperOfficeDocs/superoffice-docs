@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 257,
-    "Name": "Simonis, Homenick and Nader",
-    "Tooltip": "tenetur",
+    "Id": 386,
+    "Name": "Denesik LLC",
+    "Tooltip": "enim",
     "Deleted": false,
-    "UdListDefinitionId": 976,
-    "Rank": 974
+    "UdListDefinitionId": 444,
+    "Rank": 603
   },
   {
-    "Id": 257,
-    "Name": "Simonis, Homenick and Nader",
-    "Tooltip": "tenetur",
+    "Id": 386,
+    "Name": "Denesik LLC",
+    "Tooltip": "enim",
     "Deleted": false,
-    "UdListDefinitionId": 976,
-    "Rank": 974
+    "UdListDefinitionId": 444,
+    "Rank": 603
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Raynor-Hermiston",
-    "Tooltip": "quis",
+    "Id": 345,
+    "Name": "Yost-Schiller",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 473,
-    "Rank": 570,
+    "UdListDefinitionId": 14,
+    "Rank": 584,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

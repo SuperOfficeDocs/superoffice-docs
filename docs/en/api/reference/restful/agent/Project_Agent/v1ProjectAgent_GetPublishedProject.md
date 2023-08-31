@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 990
+  "ProjectId": 168
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 817,
-  "Name": "Strosin-Hintz",
-  "Description": "Secured static toolset",
+  "ProjectId": 534,
+  "Name": "Brakus-Huels",
+  "Description": "Reduced fault-tolerant pricing structure",
   "URL": "http://www.example.com/",
-  "Type": "eum",
-  "AssociateId": 628,
-  "AssociateFullName": "Annalise O'Connell III",
-  "TypeId": 934,
-  "Updated": "2010-07-13T16:00:41.5707037+02:00",
-  "StatusId": 710,
-  "Status": "quod",
-  "TextId": 504,
-  "PublishTo": "2010-09-15T16:00:41.5707037+02:00",
-  "PublishFrom": "2001-08-22T16:00:41.5707037+02:00",
-  "IsPublished": false,
+  "Type": "et",
+  "AssociateId": 461,
+  "AssociateFullName": "Charles Corwin",
+  "TypeId": 563,
+  "Updated": "2006-12-01T03:31:27.0268433+01:00",
+  "StatusId": 78,
+  "Status": "recusandae",
+  "TextId": 149,
+  "PublishTo": "1997-10-26T03:31:27.0268433+01:00",
+  "PublishFrom": "2022-11-08T03:31:27.0268433+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1145225",
-  "ActiveErpLinks": 871,
+  "ProjectNumber": "1051350",
+  "ActiveErpLinks": 785,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 104
     }
   }
 }

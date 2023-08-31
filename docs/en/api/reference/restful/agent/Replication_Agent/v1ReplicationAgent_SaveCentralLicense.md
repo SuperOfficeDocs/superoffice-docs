@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "Keeling, Bogisich and Lesch",
-      "Description": "Synchronised bi-directional parallelism",
+      "Name": "Larson-Vandervort",
+      "Description": "Devolved tertiary strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Keeling, Bogisich and Lesch",
-      "Description": "Synchronised bi-directional parallelism",
+      "Name": "Larson-Vandervort",
+      "Description": "Devolved tertiary strategy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quigley, Jacobs and Roob",
-    "Description": "Compatible encompassing artificial intelligence",
+    "Name": "Schaden Group",
+    "Description": "Triple-buffered regional neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 245,
-        "Tooltip": "voluptatibus",
-        "CanAssign": false,
-        "Free": 963,
-        "InUse": 87,
+        "Total": 17,
+        "Tooltip": "repellendus",
+        "CanAssign": true,
+        "Free": 64,
+        "InUse": 611,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 519,
-        "Name": "Will Inc and Sons",
-        "Description": "Customer-focused object-oriented support",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 625,
-        "ExtraFlags": 118,
+        "ModuleLicenseId": 923,
+        "Name": "Lubowitz-Runte",
+        "Description": "Re-contextualized actuating hierarchy",
+        "PrerequisiteModuleName": "Olson LLC",
+        "SortOrder": 140,
+        "ExtraFlags": 231,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldLength": 222
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 709,
-        "Tooltip": "earum",
-        "CanAssign": false,
-        "Free": 787,
-        "InUse": 893,
-        "IsHidden": false,
+        "Total": 155,
+        "Tooltip": "sed",
+        "CanAssign": true,
+        "Free": 812,
+        "InUse": 502,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 809,
-        "Name": "Vandervort-Jewess",
-        "Description": "Ergonomic hybrid initiative",
-        "PrerequisiteModuleName": "Deckow Inc and Sons",
-        "SortOrder": 145,
-        "ExtraFlags": 552,
+        "ModuleLicenseId": 597,
+        "Name": "Denesik-Ward",
+        "Description": "Re-contextualized object-oriented conglomeration",
+        "PrerequisiteModuleName": "Klein Inc and Sons",
+        "SortOrder": 639,
+        "ExtraFlags": 752,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldLength": 479
           }
         }
       }
@@ -178,35 +178,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldLength": 104
       }
     }
   },
   {
-    "Name": "Quigley, Jacobs and Roob",
-    "Description": "Compatible encompassing artificial intelligence",
+    "Name": "Schaden Group",
+    "Description": "Triple-buffered regional neural-net",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 245,
-        "Tooltip": "voluptatibus",
-        "CanAssign": false,
-        "Free": 963,
-        "InUse": 87,
+        "Total": 17,
+        "Tooltip": "repellendus",
+        "CanAssign": true,
+        "Free": 64,
+        "InUse": 611,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 519,
-        "Name": "Will Inc and Sons",
-        "Description": "Customer-focused object-oriented support",
-        "PrerequisiteModuleName": "Lakin Group",
-        "SortOrder": 625,
-        "ExtraFlags": 118,
+        "ModuleLicenseId": 923,
+        "Name": "Lubowitz-Runte",
+        "Description": "Re-contextualized actuating hierarchy",
+        "PrerequisiteModuleName": "Olson LLC",
+        "SortOrder": 140,
+        "ExtraFlags": 231,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 918
+            "FieldLength": 222
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 709,
-        "Tooltip": "earum",
-        "CanAssign": false,
-        "Free": 787,
-        "InUse": 893,
-        "IsHidden": false,
+        "Total": 155,
+        "Tooltip": "sed",
+        "CanAssign": true,
+        "Free": 812,
+        "InUse": 502,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 809,
-        "Name": "Vandervort-Jewess",
-        "Description": "Ergonomic hybrid initiative",
-        "PrerequisiteModuleName": "Deckow Inc and Sons",
-        "SortOrder": 145,
-        "ExtraFlags": 552,
+        "ModuleLicenseId": 597,
+        "Name": "Denesik-Ward",
+        "Description": "Re-contextualized object-oriented conglomeration",
+        "PrerequisiteModuleName": "Klein Inc and Sons",
+        "SortOrder": 639,
+        "ExtraFlags": 752,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldLength": 479
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldLength": 104
       }
     }
   }

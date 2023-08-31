@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 203,
-      "UniqueId": "et",
-      "Name": "Batz, McCullough and O'Connell",
-      "Description": "Expanded human-resource groupware",
-      "AssociateId": 550,
-      "Columns": 669,
+      "DashboardId": 526,
+      "UniqueId": "iure",
+      "Name": "Gutmann-Heaney",
+      "Description": "Reduced attitude-oriented success",
+      "AssociateId": 131,
+      "Columns": 143,
       "Theme": null,
-      "VisibleForAll": 608,
+      "VisibleForAll": 300,
       "VisibleForAssociates": [
-        788,
-        942
+        875,
+        69
       ],
       "VisibleForGroups": [
-        334,
-        767
+        996,
+        829
       ],
-      "PinForAll": 379,
+      "PinForAll": 344,
       "PinForAssociates": [
-        887,
-        572
+        988,
+        120
       ],
       "PinForGroups": [
-        705,
-        355
+        430,
+        186
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 640
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 231,
-      "UniqueId": "porro",
-      "Name": "Cartwright, Moore and Weissnat",
-      "Description": "Seamless grid-enabled concept",
-      "AssociateId": 883,
-      "Columns": 9,
+      "DashboardId": 513,
+      "UniqueId": "ab",
+      "Name": "Emmerich LLC",
+      "Description": "Diverse client-driven definition",
+      "AssociateId": 118,
+      "Columns": 586,
       "Theme": null,
-      "VisibleForAll": 678,
+      "VisibleForAll": 272,
       "VisibleForAssociates": [
-        838,
-        841
+        828,
+        320
       ],
       "VisibleForGroups": [
-        811,
-        40
+        992,
+        562
       ],
-      "PinForAll": 518,
+      "PinForAll": 338,
       "PinForAssociates": [
-        994,
-        798
+        643,
+        253
       ],
       "PinForGroups": [
-        324,
-        934
+        690,
+        825
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 171
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 161,
-      "UniqueId": "nisi",
-      "Name": "Tromp Group",
-      "Description": "Persistent system-worthy archive",
-      "AssociateId": 806,
-      "Columns": 551,
+      "DashboardId": 596,
+      "UniqueId": "numquam",
+      "Name": "Goldner Inc and Sons",
+      "Description": "Profit-focused disintermediate data-warehouse",
+      "AssociateId": 201,
+      "Columns": 714,
       "Theme": null,
-      "VisibleForAll": 755,
+      "VisibleForAll": 180,
       "VisibleForAssociates": [
-        285,
-        143
+        822,
+        626
       ],
       "VisibleForGroups": [
-        42,
-        114
+        340,
+        361
       ],
-      "PinForAll": 381,
+      "PinForAll": 10,
       "PinForAssociates": [
-        524,
-        338
+        844,
+        471
       ],
       "PinForGroups": [
-        1001,
-        152
+        808,
+        621
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldType": "System.String",
+          "FieldLength": 178
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

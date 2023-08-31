@@ -580,7 +580,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/contactId,mailingAddr/contact/contactAssociate/contactDepartment,mailingAddr/person/rank,mailingAddr/person/email/emailDescription,mailingAddr/person/personAssociate/personId
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/contactExtra/x_contact_default_integer,mailingAddr/person/personExtra/y_rental/y_equipment/x_name,mailingAddr/contact/NumberOfNotCompletedActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Grady Group",
-  "DisplayName": "Schultz, Boehm and Klocko",
-  "Description": "Exclusive maximized pricing structure",
-  "ShortLabel": "laudantium",
+  "FieldName": "Weissnat-Abbott",
+  "DisplayName": "Abernathy, Parisian and Daniel",
+  "Description": "Distributed modular encryption",
+  "ShortLabel": "id",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 837,
-  "TemplateVariableName": "Shanahan-Murazik"
+  "Rank": 775,
+  "TemplateVariableName": "Conn LLC"
 }
 ```

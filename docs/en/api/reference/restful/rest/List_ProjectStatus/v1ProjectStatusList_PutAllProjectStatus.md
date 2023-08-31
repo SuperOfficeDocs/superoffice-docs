@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Runolfsdottir LLC",
-    "Tooltip": "atque",
+    "Id": 135,
+    "Name": "Mitchell, Botsford and West",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 849,
-    "Rank": 666
+    "UdListDefinitionId": 650,
+    "Rank": 931
   },
   {
-    "Id": 355,
-    "Name": "Runolfsdottir LLC",
-    "Tooltip": "atque",
+    "Id": 135,
+    "Name": "Mitchell, Botsford and West",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 849,
-    "Rank": 666
+    "UdListDefinitionId": 650,
+    "Rank": 931
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Glover-Wiegand",
-    "Tooltip": "consequatur",
+    "Id": 312,
+    "Name": "Wolf-Feil",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "UdListDefinitionId": 814,
-    "Rank": 900,
+    "UdListDefinitionId": 835,
+    "Rank": 946,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 494
       }
     }
   }

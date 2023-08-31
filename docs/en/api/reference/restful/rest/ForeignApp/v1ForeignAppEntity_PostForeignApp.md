@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 519,
-  "Name": "Hackett-Gorczany",
-  "CreatedDate": "2019-11-19T16:00:47.9459565+01:00",
-  "UpdatedDate": "2012-08-19T16:00:47.9459565+02:00",
+  "ForeignAppId": 942,
+  "Name": "Macejkovic LLC",
+  "CreatedDate": "2008-05-13T03:31:32.6132803+02:00",
+  "UpdatedDate": "2009-01-17T03:31:32.6132803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 646,
-      "Name": "Padberg-McDermott",
-      "CreatedDate": "2018-07-20T16:00:47.9459565+02:00",
-      "UpdatedDate": "2014-07-18T16:00:47.9459565+02:00",
-      "AssociateFullName": "Conor Heathcote",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "quod",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 93,
+      "ForeignDeviceId": 895,
+      "Name": "Blick Group",
+      "CreatedDate": "2019-11-25T03:31:32.6132803+01:00",
+      "UpdatedDate": "2018-05-20T03:31:32.6132803+02:00",
+      "AssociateFullName": "Brigitte Schiller",
+      "CreatedBy": "eveniet",
+      "UpdatedBy": "expedita",
+      "DeviceIdentifier": "quas",
+      "ForeignAppId": 386,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 529
     }
   }
 }

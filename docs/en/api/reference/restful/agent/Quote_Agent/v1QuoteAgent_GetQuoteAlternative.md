@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=669
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=120
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 521,
-  "ERPQuoteAlternativeKey": "reiciendis",
-  "QuoteVersionId": 273,
-  "Name": "O'Conner-Sanford",
-  "Description": "Upgradable discrete open architecture",
+  "QuoteAlternativeId": 412,
+  "ERPQuoteAlternativeKey": "voluptas",
+  "QuoteVersionId": 810,
+  "Name": "Sauer-Beer",
+  "Description": "Face to face secondary monitoring",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 22542.862,
-  "ERPDiscountAmount": 19650.18,
-  "DiscountPercent": 28635.358,
-  "DiscountAmount": 8750.128,
+  "ERPDiscountPercent": 9796.884,
+  "ERPDiscountAmount": 24789.94,
+  "DiscountPercent": 16077.42,
+  "DiscountAmount": 23329.496,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ad",
-  "VAT": 1617.144,
-  "EarningPercent": 949.602,
-  "EarningAmount": 10530.24,
-  "SubTotal": 28945.624,
-  "TotalPrice": 2535.406,
-  "ExtraField1": "et",
-  "ExtraField2": "cum",
-  "ExtraField3": "quis",
-  "ExtraField4": "laborum",
-  "ExtraField5": "libero",
+  "VATInfo": "qui",
+  "VAT": 21812.64,
+  "EarningPercent": 23113.25,
+  "EarningAmount": 3560.2239999999997,
+  "SubTotal": 16782.57,
+  "TotalPrice": 8120.1939999999995,
+  "ExtraField1": "provident",
+  "ExtraField2": "veniam",
+  "ExtraField3": "ad",
+  "ExtraField4": "eligendi",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 48
     }
   }
 }

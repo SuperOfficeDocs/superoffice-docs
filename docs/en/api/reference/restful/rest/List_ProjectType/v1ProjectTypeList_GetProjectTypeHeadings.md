@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 293,
-    "Name": "Kohler, Greenfelder and Aufderhar",
-    "Tooltip": "magni",
+    "HeadingId": 496,
+    "Name": "Jerde LLC",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 665,
-    "UdListDefinitionId": 526,
+    "Rank": 738,
+    "UdListDefinitionId": 45,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 252
       }
     }
   }

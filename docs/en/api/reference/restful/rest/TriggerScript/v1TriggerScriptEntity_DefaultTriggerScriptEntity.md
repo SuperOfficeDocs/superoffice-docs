@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 876,
-  "Name": "Orn LLC",
+  "ScreenChooserId": 487,
+  "Name": "Howe-Hegmann",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sint",
-  "Source": "minus",
-  "Registered": "2006-06-12T16:00:48.617756+02:00",
-  "RegisteredAssociateId": 981,
-  "Updated": "1997-02-13T16:00:48.617756+01:00",
-  "UpdatedAssociateId": 424,
+  "UniqueIdentifier": "et",
+  "Source": "aliquid",
+  "Registered": "2011-07-22T03:31:33.2562424+02:00",
+  "RegisteredAssociateId": 305,
+  "Updated": "1997-08-07T03:31:33.2562424+02:00",
+  "UpdatedAssociateId": 782,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

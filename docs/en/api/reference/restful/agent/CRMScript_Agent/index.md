@@ -46,6 +46,10 @@ generated: true
 
 * [POST Agents/CRMScript/ValidateScriptByUniqueId](v1CRMScriptAgent_ValidateScriptByUniqueId.md)
 
+* [POST Agents/CRMScript/ExecuteScriptByString](v1CRMScriptAgent_ExecuteScriptByString.md)
+
+* [POST Agents/CRMScript/ValidateScriptByString](v1CRMScriptAgent_ValidateScriptByString.md)
+
 * [POST Agents/CRMScript/GetTriggerScriptEntity](v1CRMScriptAgent_GetTriggerScriptEntity.md)
 
 * [POST Agents/CRMScript/GetTriggerScriptByUniqueId](v1CRMScriptAgent_GetTriggerScriptByUniqueId.md)

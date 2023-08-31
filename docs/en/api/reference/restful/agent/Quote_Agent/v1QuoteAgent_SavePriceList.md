@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 553,
-  "ERPPriceListKey": "facilis",
-  "QuoteConnectionId": 985,
-  "Name": "Rippin-Bartell",
-  "Description": "Total real-time moratorium",
-  "Currency": "quas",
-  "CurrencyName": "Emmerich-Mosciski",
-  "ValidFrom": "2021-10-01T16:00:41.6175709+02:00",
-  "ValidTo": "2006-08-30T16:00:41.6175709+02:00",
+  "PriceListId": 349,
+  "ERPPriceListKey": "odit",
+  "QuoteConnectionId": 786,
+  "Name": "Dooley, Konopelski and Rowe",
+  "Description": "Profound transitional data-warehouse",
+  "Currency": "optio",
+  "CurrencyName": "Glover, Sipes and Heathcote",
+  "ValidFrom": "2000-10-07T03:31:27.0580843+02:00",
+  "ValidTo": "2003-05-08T03:31:27.0580843+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 549,
-  "ERPPriceListKey": "eveniet",
-  "QuoteConnectionId": 697,
-  "Name": "Torphy, Maggio and Hermiston",
-  "Description": "Adaptive static instruction set",
-  "Currency": "sint",
-  "CurrencyName": "Graham, Bradtke and Rodriguez",
-  "ValidFrom": "1996-12-03T16:00:41.6175709+01:00",
-  "ValidTo": "2018-07-18T16:00:41.6175709+02:00",
+  "PriceListId": 619,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 61,
+  "Name": "Rosenbaum-Koch",
+  "Description": "Programmable disintermediate alliance",
+  "Currency": "tenetur",
+  "CurrencyName": "Mitchell, Hettinger and Cronin",
+  "ValidFrom": "1997-02-18T03:31:27.0580843+01:00",
+  "ValidTo": "1998-07-03T03:31:27.0580843+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 102
     }
   }
 }

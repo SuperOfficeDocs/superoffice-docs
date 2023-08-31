@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Dach, Gerlach and Schmidt",
-    "ToolTip": "Iure eaque.",
+    "Id": 721,
+    "Name": "Rowe-Kihn",
+    "ToolTip": "Illum repudiandae tempore cumque.",
     "Deleted": false,
-    "Rank": 805,
-    "Type": "non",
-    "ColorBlock": 619,
-    "IconHint": "eaque",
-    "Selected": true,
-    "LastChanged": "2005-06-26T16:00:49.2739351+02:00",
+    "Rank": 134,
+    "Type": "totam",
+    "ColorBlock": 906,
+    "IconHint": "optio",
+    "Selected": false,
+    "LastChanged": "2020-05-03T03:31:33.8367198+02:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Gorczany, Terry and Kuhic",
-        "ToolTip": "Ipsum rerum quo voluptates molestias.",
+        "Id": 307,
+        "Name": "Hamill-Dietrich",
+        "ToolTip": "Est tempore est reprehenderit harum ducimus eveniet voluptas.",
         "Deleted": true,
-        "Rank": 840,
-        "Type": "in",
-        "ColorBlock": 751,
-        "IconHint": "reprehenderit",
+        "Rank": 641,
+        "Type": "earum",
+        "ColorBlock": 481,
+        "IconHint": "veniam",
         "Selected": true,
-        "LastChanged": "2023-04-16T16:00:49.2739351+02:00",
+        "LastChanged": "2005-03-01T03:31:33.8367198+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "dicta",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Gust Hartmann"
+        "FullName": "Randi O'Conner"
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "odit",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Miss Mike Rickey Satterfield V"
+    "FullName": "Celestino Pouros"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Bashirian LLC",
-    "ToolTip": "Nobis aut earum explicabo ut voluptas cum dolore.",
+    "Id": 891,
+    "Name": "Kemmer-Emard",
+    "ToolTip": "Tempora repellat enim magni molestiae cum ducimus qui.",
     "Deleted": false,
-    "Rank": 676,
-    "Type": "reiciendis",
-    "ColorBlock": 96,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "2010-10-06T16:00:49.2739351+02:00",
+    "Rank": 106,
+    "Type": "quia",
+    "ColorBlock": 786,
+    "IconHint": "exercitationem",
+    "Selected": true,
+    "LastChanged": "2006-04-30T03:31:33.8367198+02:00",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Hodkiewicz Group",
-        "ToolTip": "Deleniti quod inventore aliquam quos.",
+        "Id": 579,
+        "Name": "Funk-Kihn",
+        "ToolTip": "Dolorem et ut hic est.",
         "Deleted": true,
-        "Rank": 600,
-        "Type": "in",
-        "ColorBlock": 676,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2015-03-13T16:00:49.2739351+01:00",
+        "Rank": 315,
+        "Type": "fugiat",
+        "ColorBlock": 592,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2020-04-19T03:31:33.8367198+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Dr. Hiram Annette Barton MD",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "fugiat",
+        "Hidden": false,
+        "FullName": "Prof. Glennie Goodwin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldType": "System.String",
+            "FieldLength": 324
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Belle Stefanie Schuppe V",
+    "ExtraInfo": "rerum",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Meredith Marlen Rau Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldLength": 562
       }
     }
   }

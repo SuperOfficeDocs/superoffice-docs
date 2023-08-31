@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 118,
-  "Name": "Effertz LLC",
-  "Tooltip": "modi",
+  "WebPanelId": 702,
+  "Name": "Bergstrom Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 619,
+  "Rank": 661,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Reinger LLC",
+  "ShowInStatusBar": true,
+  "WindowName": "Johns LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 659,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "quia",
+  "Icon": 80,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 692
     }
   }
 }

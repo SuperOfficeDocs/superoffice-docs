@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 179,
-  "Name": "Fadel Inc and Sons",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "Rank": 604,
-  "UdListDefinitionId": 57
+  "HeadingId": 817,
+  "Name": "Bahringer Group",
+  "Tooltip": "id",
+  "Deleted": true,
+  "Rank": 229,
+  "UdListDefinitionId": 163
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 169,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 35,
-  "UdListDefinitionId": 825,
+  "HeadingId": 761,
+  "Name": "Wunsch LLC",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 372,
+  "UdListDefinitionId": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 207
     }
   }
 }

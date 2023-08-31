@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beahan-Borer",
+  "Name": "Kunde, Hermiston and Monahan",
   "AssociateIds": [
-    538,
-    503
+    702,
+    536
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Gleichner, Gorczany and Lubowitz",
-    "AssociateId": 252,
-    "DetailsTable": 165,
-    "DetailsRecord": 869,
+    "Id": 750,
+    "Name": "Mueller, Flatley and Schumm",
+    "AssociateId": 864,
+    "DetailsTable": 379,
+    "DetailsRecord": 215,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "ipsum",
-      "ParameterObject2": "natus"
+      "ParameterObject1": "voluptatem",
+      "ParameterObject2": "ad"
     },
-    "LastStarted": "1997-02-12T16:00:40.1175682+01:00",
-    "Created": "2016-11-23T16:00:40.1175682+01:00",
-    "StartCount": 397,
-    "DatabaseSerialNumber": "922911",
-    "Context": "rerum",
-    "Result": "occaecati",
+    "LastStarted": "2010-01-16T03:31:25.6496314+01:00",
+    "Created": "2010-12-24T03:31:25.6496314+01:00",
+    "StartCount": 993,
+    "DatabaseSerialNumber": "1079856",
+    "Context": "tempora",
+    "Result": "aut",
     "State": "All",
-    "Description": "Sharable bifurcated time-frame",
-    "Response": "numquam",
-    "Request": "dolor",
-    "ProgressDescription": "Profound multimedia ability",
-    "ProgressPercent": 558,
-    "FileName": "Armstrong-Prohaska",
+    "Description": "Operative disintermediate complexity",
+    "Response": "mollitia",
+    "Request": "sint",
+    "ProgressDescription": "Intuitive optimal frame",
+    "ProgressPercent": 68,
+    "FileName": "Bartell-Rosenbaum",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 192
       }
     }
   }

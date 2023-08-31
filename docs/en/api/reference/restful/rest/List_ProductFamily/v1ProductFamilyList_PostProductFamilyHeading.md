@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 199,
-  "Name": "Conn, Grady and Collier",
-  "Tooltip": "voluptas",
+  "HeadingId": 573,
+  "Name": "Schmidt Inc and Sons",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 272,
-  "UdListDefinitionId": 721
+  "Rank": 373,
+  "UdListDefinitionId": 339
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 741,
-  "Name": "Trantow-Ruecker",
-  "Tooltip": "praesentium",
+  "HeadingId": 355,
+  "Name": "Daugherty, Durgan and Stokes",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 124,
-  "UdListDefinitionId": 920,
+  "Rank": 822,
+  "UdListDefinitionId": 611,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldLength": 166
     }
   }
 }

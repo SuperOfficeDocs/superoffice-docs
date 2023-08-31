@@ -63,6 +63,12 @@ Application tokens must be specified if calling an Online installation. Applicat
    <CRMScript:Response xsi:type="CRMScript:CRMScriptResult">
     <CRMScript:Valid xsi:type="xsd:boolean">false</CRMScript:Valid>
     <CRMScript:ErrorMessage xsi:type="xsd:string"></CRMScript:ErrorMessage>
+    <CRMScript:LineNumber xsi:type="xsd:int">0</CRMScript:LineNumber>
+    <CRMScript:ErrorInformation xsi:type="CRMScript:CRMScriptErrorInfo">
+     <CRMScript:ErrorMessage xsi:type="xsd:string"></CRMScript:ErrorMessage>
+     <CRMScript:ErrorLine xsi:type="xsd:int">0</CRMScript:ErrorLine>
+     <CRMScript:ErrorCharacterPosition xsi:type="xsd:int">0</CRMScript:ErrorCharacterPosition>
+    </CRMScript:ErrorInformation>
    </CRMScript:Response>
   </CRMScript:ValidateScriptByUniqueIdResponse>
  </SOAP-ENV:Body>

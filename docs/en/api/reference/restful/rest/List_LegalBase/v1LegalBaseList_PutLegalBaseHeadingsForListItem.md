@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Nikolaus-Ullrich",
-    "ToolTip": "Ut tempora ut hic sed excepturi consequatur mollitia.",
+    "Id": 137,
+    "Name": "Emmerich, Schmidt and Franecki",
+    "ToolTip": "Vero iste excepturi ut sit esse rerum optio.",
     "Deleted": false,
-    "Rank": 290,
-    "Type": "quos",
-    "ColorBlock": 441,
-    "IconHint": "dolor",
+    "Rank": 548,
+    "Type": "aliquid",
+    "ColorBlock": 314,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2014-07-30T16:00:49.0552074+02:00",
+    "LastChanged": "2003-07-28T03:31:33.6479544+02:00",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Simonis Inc and Sons",
-        "ToolTip": "Enim sunt facilis repellendus atque ut repellendus natus.",
+        "Id": 351,
+        "Name": "Fay-Green",
+        "ToolTip": "Eveniet quibusdam illum vel est repellat exercitationem deleniti.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "labore",
-        "ColorBlock": 843,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2014-06-04T16:00:49.0552074+02:00",
+        "Rank": 298,
+        "Type": "rem",
+        "ColorBlock": 905,
+        "IconHint": "beatae",
+        "Selected": true,
+        "LastChanged": "2022-11-30T03:31:33.6479544+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "minus",
+        "ExtraInfo": "autem",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Ms. Payton O'Hara"
+        "FullName": "Chadd Deckow"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Macie Prince Mante MD"
+    "ExtraInfo": "modi",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Mrs. Luigi Luettgen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Hessel-Thiel",
-    "ToolTip": "Molestias ea.",
-    "Deleted": true,
-    "Rank": 874,
-    "Type": "enim",
-    "ColorBlock": 140,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2018-06-24T16:00:49.0552074+02:00",
+    "Id": 56,
+    "Name": "Cassin, Wyman and Predovic",
+    "ToolTip": "Porro velit.",
+    "Deleted": false,
+    "Rank": 914,
+    "Type": "ut",
+    "ColorBlock": 281,
+    "IconHint": "maiores",
+    "Selected": false,
+    "LastChanged": "1998-10-07T03:31:33.6479544+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Donnelly-Koss",
-        "ToolTip": "Error vel laudantium incidunt enim laudantium ea.",
+        "Id": 277,
+        "Name": "Stehr, Leuschke and Thiel",
+        "ToolTip": "Nobis est consectetur.",
         "Deleted": false,
-        "Rank": 107,
-        "Type": "cupiditate",
-        "ColorBlock": 431,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2004-11-09T16:00:49.0552074+01:00",
+        "Rank": 57,
+        "Type": "aspernatur",
+        "ColorBlock": 57,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "2014-11-30T03:31:33.6479544+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Ms. Terrance Crona Jr.",
+        "ExtraInfo": "aut",
+        "StyleHint": "ipsum",
+        "Hidden": true,
+        "FullName": "Assunta Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 517
+            "FieldLength": 790
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "eaque",
+    "ExtraInfo": "dolores",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Ricky Farrell",
+    "FullName": "Magnolia Goodwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 487
       }
     }
   }

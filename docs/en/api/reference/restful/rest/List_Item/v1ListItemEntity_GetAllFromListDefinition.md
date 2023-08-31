@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Welch-Gulgowski",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "UdListDefinitionId": 537,
-    "Rank": 370,
+    "Id": 687,
+    "Name": "Block, Barrows and Baumbach",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "UdListDefinitionId": 136,
+    "Rank": 659,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 978
       }
     }
   }

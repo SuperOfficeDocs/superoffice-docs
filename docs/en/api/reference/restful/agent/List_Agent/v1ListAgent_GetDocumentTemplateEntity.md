@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=935
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=538
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 760,
-  "Name": "Graham LLC",
-  "Tooltip": "doloribus",
-  "SaveInDb": 947,
-  "Filename": "aliquam",
-  "DefaultOref": "incidunt",
+  "DocumentTemplateId": 827,
+  "Name": "Kessler Group",
+  "Tooltip": "culpa",
+  "SaveInDb": 699,
+  "Filename": "provident",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 5,
-  "IntentId": 646,
+  "AutoeventId": 487,
+  "IntentId": 997,
   "IsDefaultPublished": false,
-  "Rank": 543,
-  "LoadTemplateFromPlugin": 417,
-  "MimeType": "dignissimos",
+  "Rank": 69,
+  "LoadTemplateFromPlugin": 405,
+  "MimeType": "repellat",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 345,
+  "DocumentTypeKey": 496,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cayla_bayer@bednar.name",
+  "EmailSubject": "jakayla_hagenes@romaguera.com",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "timmothy@williamson.us",
+  "SenderEmailAddress": "jacey.hirthe@lockman.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 434
     }
   }
 }

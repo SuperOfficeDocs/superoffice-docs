@@ -32,6 +32,13 @@ Type = "Person"
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider">AllPersonListSearchProvider</see> class.
 The name of the MDO list is 'allpersonsearch'.
 
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Skip retired employees| skipRetired|False|
+
+
 
 
 

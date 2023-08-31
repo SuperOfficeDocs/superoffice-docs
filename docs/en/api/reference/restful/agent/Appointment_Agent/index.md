@@ -10,6 +10,8 @@ generated: true
 
 
 
+* [POST Agents/Appointment/GetProjectAppointmentsByType](v1AppointmentAgent_GetProjectAppointmentsByType.md)
+
 * [POST Agents/Appointment/GetContactAppointments](v1AppointmentAgent_GetContactAppointments.md)
 
 * [POST Agents/Appointment/GetContactAppointmentsByType](v1AppointmentAgent_GetContactAppointmentsByType.md)
@@ -114,6 +116,8 @@ generated: true
 
 * [POST Agents/Appointment/CreateDefaultAppointmentEntityByType](v1AppointmentAgent_CreateDefaultAppointmentEntityByType.md)
 
+* [POST Agents/Appointment/CreateAppointmentEntityFromExisting](v1AppointmentAgent_CreateAppointmentEntityFromExisting.md)
+
 * [POST Agents/Appointment/Accept](v1AppointmentAgent_Accept.md)
 
 * [POST Agents/Appointment/CreateAndAccept](v1AppointmentAgent_CreateAndAccept.md)
@@ -207,5 +211,3 @@ generated: true
 * [POST Agents/Appointment/GetPersonAppointmentsByType](v1AppointmentAgent_GetPersonAppointmentsByType.md)
 
 * [POST Agents/Appointment/GetProjectAppointments](v1AppointmentAgent_GetProjectAppointments.md)
-
-* [POST Agents/Appointment/GetProjectAppointmentsByType](v1AppointmentAgent_GetProjectAppointmentsByType.md)

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 967,
-  "Name": "Huel-Rowe",
-  "Tooltip": "rerum",
-  "Rank": 885,
-  "Key": "praesentium",
-  "Deleted": false
+  "LegalBaseId": 538,
+  "Name": "Kohler, Russel and Hayes",
+  "Tooltip": "dolore",
+  "Rank": 255,
+  "Key": "placeat",
+  "Deleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 59,
-  "Name": "Schamberger-Satterfield",
-  "Tooltip": "aliquid",
-  "Rank": 598,
-  "Key": "aut",
-  "Deleted": true,
+  "LegalBaseId": 408,
+  "Name": "Doyle, Bode and Flatley",
+  "Tooltip": "omnis",
+  "Rank": 145,
+  "Key": "mollitia",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 348
+      "FieldLength": 559
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Gleichner Inc and Sons",
-    "Tooltip": "veniam",
+    "Id": 836,
+    "Name": "Kihn, Weissnat and Stroman",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 14,
-    "Rank": 506
+    "UdListDefinitionId": 165,
+    "Rank": 941
   },
   {
-    "Id": 755,
-    "Name": "Gleichner Inc and Sons",
-    "Tooltip": "veniam",
+    "Id": 836,
+    "Name": "Kihn, Weissnat and Stroman",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 14,
-    "Rank": 506
+    "UdListDefinitionId": 165,
+    "Rank": 941
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Rogahn, Donnelly and Hayes",
-    "Tooltip": "odit",
+    "Id": 148,
+    "Name": "Abshire, McClure and Huel",
+    "Tooltip": "ducimus",
     "Deleted": true,
-    "UdListDefinitionId": 624,
-    "Rank": 595,
+    "UdListDefinitionId": 824,
+    "Rank": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldLength": 704
       }
     }
   }

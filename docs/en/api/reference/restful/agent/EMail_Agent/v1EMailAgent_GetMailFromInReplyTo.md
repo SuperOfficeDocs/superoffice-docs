@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "voluptatibus"
+  "MessageId": "ratione"
 }
 ```
 
@@ -117,146 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 99,
-      "ContactName": "Grant-Hettinger",
-      "PersonId": 995,
-      "PersonName": "Gislason, Fahey and Abshire",
-      "AssociateId": 493,
-      "Address": "suscipit",
-      "EmailId": 482,
+      "ContactId": 753,
+      "ContactName": "Thompson, Stroman and Anderson",
+      "PersonId": 603,
+      "PersonName": "Schinner, Zboncak and Davis",
+      "AssociateId": 646,
+      "Address": "iusto",
+      "EmailId": 966,
       "DuplicatePersonIds": [
-        263,
-        276
+        347,
+        408
       ],
-      "Name": "Ullrich-Grant",
+      "Name": "Borer-Barton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 812
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 897,
-      "ContactName": "Kirlin, Mosciski and Schaden",
-      "PersonId": 174,
-      "PersonName": "Flatley-McClure",
-      "AssociateId": 476,
-      "Address": "et",
-      "EmailId": 782,
+      "ContactId": 404,
+      "ContactName": "Hudson-Gislason",
+      "PersonId": 714,
+      "PersonName": "Roberts-Barton",
+      "AssociateId": 27,
+      "Address": "quo",
+      "EmailId": 876,
       "DuplicatePersonIds": [
-        519,
-        460
+        513,
+        485
       ],
-      "Name": "Herman, Wolff and Kutch",
+      "Name": "Sporer-Rodriguez",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 439
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 75,
-      "ContactName": "Spencer, Murray and Douglas",
-      "PersonId": 597,
-      "PersonName": "Wehner, Romaguera and Morissette",
-      "AssociateId": 714,
-      "Address": "adipisci",
-      "EmailId": 900,
+      "ContactId": 624,
+      "ContactName": "Murphy-Stracke",
+      "PersonId": 451,
+      "PersonName": "Robel, Ullrich and Erdman",
+      "AssociateId": 291,
+      "Address": "ea",
+      "EmailId": 997,
       "DuplicatePersonIds": [
-        752,
-        797
+        495,
+        575
       ],
-      "Name": "Toy-Connelly",
+      "Name": "Kutch-Hahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 426
+          "FieldLength": 406
         }
       }
     }
   ],
-  "Subject": "quasi",
-  "HTMLBody": "aut",
+  "Subject": "commodi",
+  "HTMLBody": "officiis",
   "From": null,
-  "Sent": "1996-02-16T16:00:40.8674876+01:00",
-  "Size": 677,
+  "Sent": "2003-10-20T03:31:26.4176181+02:00",
+  "Size": 112,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "inventore",
-  "PlainBody": "ad",
+  "MessageID": "et",
+  "PlainBody": "recusandae",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 860,
+  "ServerId": 32,
   "Attachments": [
     {
-      "Description": "Enhanced high-level alliance",
-      "Filename": "consequatur",
-      "Size": 94,
-      "Type": "recusandae",
-      "Encoding": "id",
-      "Id": "a",
-      "Disposition": "ea",
+      "Description": "Synchronised user-facing ability",
+      "Filename": "ipsum",
+      "Size": 154,
+      "Type": "et",
+      "Encoding": "laborum",
+      "Id": "adipisci",
+      "Disposition": "minima",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldLength": 520
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Raynor Group",
+      "Name": "Balistreri Inc and Sons",
       "Values": [
-        "aut",
-        "et"
+        "ab",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldType": "System.String",
+          "FieldLength": 580
         }
       }
     },
     {
-      "Name": "Raynor Group",
+      "Name": "Balistreri Inc and Sons",
       "Values": [
-        "aut",
-        "et"
+        "ab",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldType": "System.String",
+          "FieldLength": 580
         }
       }
     }
   ],
-  "FolderName": "Walker-Botsford",
-  "EmailItemId": 976,
-  "AccountId": 24,
-  "ReceivedAt": "1999-04-07T16:00:40.8674876+02:00",
+  "FolderName": "Franecki Inc and Sons",
+  "EmailItemId": 213,
+  "AccountId": 988,
+  "ReceivedAt": "2013-01-20T03:31:26.4176181+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2000-06-02T16:00:40.8674876+02:00",
+  "RepliedAt": "2014-03-04T03:31:26.4176181+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 386
     }
   }
 }

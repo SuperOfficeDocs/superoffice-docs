@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 58,
-  "Name": "Waelchi, Okuneva and Ullrich",
-  "ConsentText": "rem",
-  "FormText": "facere",
-  "Key": "esse",
-  "Tooltip": "qui",
-  "Active": 776,
-  "UpdatedDate": "2016-09-29T16:00:48.9145965+02:00",
+  "ConsentPurposeId": 578,
+  "Name": "Rice, Boyle and Kessler",
+  "ConsentText": "nihil",
+  "FormText": "tenetur",
+  "Key": "suscipit",
+  "Tooltip": "quisquam",
+  "Active": 929,
+  "UpdatedDate": "2002-09-12T03:31:33.5229887+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 695,
-  "PrivacyStatementDesc": "in",
+  "Deleted": false,
+  "Rank": 302,
+  "PrivacyStatementDesc": "sunt",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 261,
-  "Name": "Kunde, Lueilwitz and Howell",
-  "ConsentText": "ipsam",
-  "FormText": "dolores",
-  "Key": "itaque",
-  "Tooltip": "qui",
-  "Active": 962,
-  "UpdatedDate": "1998-12-29T16:00:48.9145965+01:00",
+  "ConsentPurposeId": 615,
+  "Name": "Koch, Hayes and Braun",
+  "ConsentText": "praesentium",
+  "FormText": "ratione",
+  "Key": "voluptate",
+  "Tooltip": "possimus",
+  "Active": 292,
+  "UpdatedDate": "2013-06-20T03:31:33.5229887+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 266,
-  "PrivacyStatementDesc": "mollitia",
+  "Rank": 734,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

@@ -92,12 +92,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Connell, Heaney and Dooley",
+  "Name": "Crooks-Schowalter",
   "ForceFlatList": true,
-  "AdditionalInfo": "et",
+  "AdditionalInfo": "sequi",
   "HistoryItems": [
-    57,
-    269
+    823,
+    391
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "White LLC",
-    "ToolTip": "Accusamus itaque qui excepturi et nemo hic dolore.",
-    "Deleted": false,
-    "Rank": 959,
-    "Type": "nihil",
+    "Id": 895,
+    "Name": "Huel-Schmidt",
+    "ToolTip": "Sint dolorem aliquam sunt illum autem quas blanditiis.",
+    "Deleted": true,
+    "Rank": 922,
+    "Type": "iste",
     "ChildItems": [
       {
-        "Id": 957,
-        "Name": "Medhurst, Dibbert and Ryan",
-        "ToolTip": "Itaque provident voluptatem dolores.",
-        "Deleted": true,
-        "Rank": 197,
-        "Type": "laudantium",
+        "Id": 986,
+        "Name": "Kassulke, Ritchie and Mertz",
+        "ToolTip": "Molestiae esse.",
+        "Deleted": false,
+        "Rank": 340,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 208,
-        "ExtraInfo": "dolor",
-        "StyleHint": "dolor",
-        "FullName": "Ms. Jack Kris Jr.",
+        "IconHint": "sint",
+        "ColorBlock": 386,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "aut",
+        "FullName": "Mrs. Wade Hintz DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 327
+            "FieldType": "System.String",
+            "FieldLength": 127
           }
         }
       }
     ],
-    "IconHint": "dolore",
-    "ColorBlock": 561,
-    "ExtraInfo": "sit",
-    "StyleHint": "eos",
-    "FullName": "Leonardo Rowe DVM",
+    "IconHint": "ratione",
+    "ColorBlock": 959,
+    "ExtraInfo": "autem",
+    "StyleHint": "itaque",
+    "FullName": "Emily Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 465
       }
     }
   }

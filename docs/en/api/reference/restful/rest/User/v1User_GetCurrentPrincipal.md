@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "perspiciatis",
-  "AssociateId": 33,
-  "IsPerson": false,
-  "PersonId": 253,
-  "CountryId": 565,
-  "HomeCountryId": 866,
-  "ContactId": 146,
-  "GroupId": 550,
-  "BusinessId": 131,
-  "CategoryId": 177,
-  "ContactOwner": 400,
-  "RoleId": 920,
-  "RoleName": "Stiedemann LLC",
-  "RoleDescription": "Seamless solution-oriented time-frame",
+  "Associate": "temporibus",
+  "AssociateId": 998,
+  "IsPerson": true,
+  "PersonId": 837,
+  "CountryId": 748,
+  "HomeCountryId": 651,
+  "ContactId": 938,
+  "GroupId": 451,
+  "BusinessId": 416,
+  "CategoryId": 711,
+  "ContactOwner": 429,
+  "RoleId": 707,
+  "RoleName": "Beer Group",
+  "RoleDescription": "Organic reciprocal customer loyalty",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 751,
-      "OwnerName": "Rosenbaum Inc and Sons",
-      "OwnerDescription": "Streamlined neutral knowledge base",
-      "ModuleId": 945,
-      "Name": "Green-Osinski",
-      "Description": "Self-enabling assymetric capability",
-      "Version": "et",
+      "OwnerId": 447,
+      "OwnerName": "Bednar Inc and Sons",
+      "OwnerDescription": "Inverse modular core",
+      "ModuleId": 59,
+      "Name": "Nicolas LLC",
+      "Description": "Inverse interactive protocol",
+      "Version": "deserunt",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 81,
-      "ExtraInfo": "est",
-      "SortOrder": 191,
-      "LicenseNumber": 476,
-      "IsHidden": true,
-      "IsUnrestricted": true,
-      "ExpiryDate": "2006-04-20T16:00:48.8052335+02:00",
+      "ExtraFlags": 654,
+      "ExtraInfo": "totam",
+      "SortOrder": 115,
+      "LicenseNumber": 422,
+      "IsHidden": false,
+      "IsUnrestricted": false,
+      "ExpiryDate": "2005-02-12T03:31:33.4292537+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 312
         }
       }
     }
   ],
-  "FullName": "Miss Fanny Jakubowski",
-  "EMailAddress": "corrupti",
+  "FullName": "Alfreda Bergstrom",
+  "EMailAddress": "et",
   "FunctionRights": [
-    "mollitia",
-    "exercitationem"
+    "possimus",
+    "aperiam"
   ],
-  "EjUserId": 830,
-  "EjAccessLevel": 573,
+  "EjUserId": 800,
+  "EjAccessLevel": 846,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "ea",
-      "SearchName": "Herman Group",
-      "DisplayName": "Balistreri, Dicki and Bruen",
-      "CredentialId": 605
+      "Type": "impedit",
+      "SearchName": "Borer Inc and Sons",
+      "DisplayName": "Hudson-Gleason",
+      "CredentialId": 411
     },
     {
-      "Type": "ea",
-      "SearchName": "Herman Group",
-      "DisplayName": "Balistreri, Dicki and Bruen",
-      "CredentialId": 605
+      "Type": "impedit",
+      "SearchName": "Borer Inc and Sons",
+      "DisplayName": "Hudson-Gleason",
+      "CredentialId": 411
     }
   ],
   "SecondaryGroups": [
-    240,
-    340
+    397,
+    160
   ],
-  "DatabaseContextIdentifier": "aut",
-  "UserName": "Gerlach, Rosenbaum and Douglas"
+  "DatabaseContextIdentifier": "quas",
+  "UserName": "Kuhic-Senger"
 }
 ```

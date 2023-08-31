@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Conn, Howe and Spencer",
-    "ToolTip": "Itaque sint.",
+    "Id": 437,
+    "Name": "Spencer, Schuster and Flatley",
+    "ToolTip": "Esse rerum quo.",
     "Deleted": false,
-    "Rank": 456,
-    "Type": "qui",
-    "ColorBlock": 985,
-    "IconHint": "voluptatem",
+    "Rank": 181,
+    "Type": "soluta",
+    "ColorBlock": 601,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2000-05-08T16:00:49.0552074+02:00",
+    "LastChanged": "2009-08-23T03:31:33.6323343+02:00",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Christiansen-Armstrong",
-        "ToolTip": "Adipisci corporis debitis eum dolorum.",
-        "Deleted": false,
-        "Rank": 566,
-        "Type": "tenetur",
-        "ColorBlock": 338,
-        "IconHint": "quod",
+        "Id": 34,
+        "Name": "Wuckert-Adams",
+        "ToolTip": "Ea est.",
+        "Deleted": true,
+        "Rank": 893,
+        "Type": "molestiae",
+        "ColorBlock": 491,
+        "IconHint": "placeat",
         "Selected": true,
-        "LastChanged": "2006-10-27T16:00:49.0552074+02:00",
+        "LastChanged": "2017-09-23T03:31:33.6323343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quod",
-        "Hidden": true,
-        "FullName": "Jadon Hackett",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "ullam",
+        "Hidden": false,
+        "FullName": "Mrs. Trace Gusikowski PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 417
+            "FieldLength": 959
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Mrs. Dorthy Rocky Haley I",
+    "ExtraInfo": "atque",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Oran Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 193
+        "FieldType": "System.Int32",
+        "FieldLength": 534
       }
     }
   }

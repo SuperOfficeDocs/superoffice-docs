@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 705,
-  "ColumnId": 471,
-  "FieldDefault": "ducimus",
-  "FieldHeight": 639,
-  "FieldLabel": "totam",
-  "FieldLeft": 554,
-  "FieldTop": 227,
+  "UDefFieldId": 967,
+  "ColumnId": 350,
+  "FieldDefault": "aut",
+  "FieldHeight": 55,
+  "FieldLabel": "itaque",
+  "FieldLeft": 208,
+  "FieldTop": 130,
   "FieldType": "Checkbox",
-  "FieldWidth": 247,
-  "FormatMask": "aut",
-  "HideLabel": true,
+  "FieldWidth": 298,
+  "FormatMask": "incidunt",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 54,
-  "LabelLeft": 169,
-  "LabelTop": 587,
-  "LabelWidth": 519,
-  "LastVersionId": 142,
-  "ListTableId": 349,
+  "LabelHeight": 416,
+  "LabelLeft": 360,
+  "LabelTop": 13,
+  "LabelWidth": 212,
+  "LastVersionId": 162,
+  "ListTableId": 584,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 138,
-  "ProgId": "voluptatem",
-  "IsReadOnly": true,
-  "ShortLabel": "dolorum",
-  "TabOrder": 325,
-  "TextLength": 303,
-  "Tooltip": "dolor",
-  "UdefIdentity": 528,
-  "UDListDefinitionId": 137,
+  "Page1LineNo": 568,
+  "ProgId": "iusto",
+  "IsReadOnly": false,
+  "ShortLabel": "quia",
+  "TabOrder": 635,
+  "TextLength": 973,
+  "Tooltip": "sunt",
+  "UdefIdentity": 831,
+  "UDListDefinitionId": 174,
   "Justification": "Center",
-  "Version": 597,
-  "TemplateVariableName": "Bogan Inc and Sons",
+  "Version": 213,
+  "TemplateVariableName": "Frami, Erdman and Carter",
   "HasBeenPublished": true,
-  "MdoListName": "Dietrich-Carter",
+  "MdoListName": "Mueller LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

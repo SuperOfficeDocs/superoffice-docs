@@ -77,22 +77,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 770,
-  "LabelLayoutId": 10,
-  "Filename": "aliquam",
-  "Language": "veniam",
-  "FileType": "reprehenderit",
+  "ReportId": 215,
+  "LabelLayoutId": 459,
+  "Filename": "est",
+  "Language": "necessitatibus",
+  "FileType": "aut",
   "Restrictions": [
     {
-      "Name": "Beahan-Bauch",
-      "Operator": "aut",
+      "Name": "Schamberger-Okuneva",
+      "Operator": "omnis",
       "Values": [
-        "alias",
-        "maiores"
+        "dolore",
+        "sint"
       ],
       "DisplayValues": [
-        "voluptates",
-        "numquam"
+        "inventore",
+        "corporis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 313,
+      "InterParenthesis": 610,
       "InterOperator": "And",
-      "UniqueHash": 565
+      "UniqueHash": 959
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"hic"
+"odit"
 ```

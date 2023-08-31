@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Corkery-Effertz",
-  "UserName": "Collier, Abernathy and Moen",
-  "Password": "dolore",
-  "Folder": "quo",
-  "UseSSL": true,
+  "ServerName": "Ritchie, Aufderhar and Franecki",
+  "UserName": "Hauck LLC",
+  "Password": "saepe",
+  "Folder": "voluptatem",
+  "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldLength": 404
     }
   }
 }

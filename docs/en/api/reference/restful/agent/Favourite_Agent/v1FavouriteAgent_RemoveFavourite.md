@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kunde Inc and Sons",
-  "RecordId": 43,
-  "AssociateId": 48
+  "TableName": "Huels-Terry",
+  "RecordId": 923,
+  "AssociateId": 591
 }
 ```
 

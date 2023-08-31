@@ -26,7 +26,7 @@ Gets a QuoteApproveReason object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetQuoteApproveReason?quoteApproveReasonId=329
+POST /api/v1/Agents/List/GetQuoteApproveReason?quoteApproveReasonId=116
 POST /api/v1/Agents/List/GetQuoteApproveReason?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Value": "veniam",
-  "Tooltip": "id",
+  "Id": 15,
+  "Value": "est",
+  "Tooltip": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 512
     }
   }
 }

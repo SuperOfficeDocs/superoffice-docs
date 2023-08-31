@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=provident
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Leuschke-Johnston",
-    "ToolTip": "Debitis suscipit sapiente quod occaecati dolorum adipisci.",
-    "Deleted": false,
-    "Rank": 549,
-    "Type": "quis",
+    "Id": 726,
+    "Name": "Brekke, Block and Eichmann",
+    "ToolTip": "Repudiandae est fugit ex perferendis sapiente.",
+    "Deleted": true,
+    "Rank": 574,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 840,
-        "Name": "Fay, Roberts and Ledner",
-        "ToolTip": "Repudiandae ut et assumenda architecto voluptatem eligendi enim.",
-        "Deleted": true,
-        "Rank": 401,
-        "Type": "itaque",
+        "Id": 528,
+        "Name": "Satterfield Group",
+        "ToolTip": "A reiciendis culpa.",
+        "Deleted": false,
+        "Rank": 259,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "alias",
-        "ColorBlock": 838,
-        "ExtraInfo": "minima",
-        "StyleHint": "aut",
-        "FullName": "Dr. Olen Bins",
+        "IconHint": "non",
+        "ColorBlock": 905,
+        "ExtraInfo": "qui",
+        "StyleHint": "illo",
+        "FullName": "Miss Richard Waylon Greenfelder II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 125
+            "FieldType": "System.Int32",
+            "FieldLength": 232
           }
         }
       }
     ],
-    "IconHint": "illum",
-    "ColorBlock": 727,
-    "ExtraInfo": "inventore",
-    "StyleHint": "est",
-    "FullName": "Lilyan Parisian III",
+    "IconHint": "autem",
+    "ColorBlock": 831,
+    "ExtraInfo": "dolor",
+    "StyleHint": "cupiditate",
+    "FullName": "Mr. Bobby Marquardt DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldLength": 778
       }
     }
   }

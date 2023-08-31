@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=12/31/1996 16:00:50
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=09/19/1998 16:00:50
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=220
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=06/08/2022 03:31:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/24/2021 03:31:35
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=255
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 518,
-  "ERPPriceListKey": "totam",
-  "QuoteConnectionId": 188,
-  "Name": "Johnston, Abernathy and Reichel",
-  "Description": "Cross-group bifurcated function",
-  "Currency": "magnam",
-  "CurrencyName": "Rau-Reichel",
-  "ValidFrom": "2012-01-01T16:00:49.1177018+01:00",
-  "ValidTo": "2004-04-08T16:00:49.1177018+02:00",
+  "PriceListId": 577,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 765,
+  "Name": "Grady, Gutmann and Gerlach",
+  "Description": "Profit-focused systemic concept",
+  "Currency": "doloribus",
+  "CurrencyName": "Walker LLC",
+  "ValidFrom": "1998-01-19T03:31:33.7117545+01:00",
+  "ValidTo": "2008-02-29T03:31:33.7117545+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 206
+      "FieldLength": 997
     }
   }
 }

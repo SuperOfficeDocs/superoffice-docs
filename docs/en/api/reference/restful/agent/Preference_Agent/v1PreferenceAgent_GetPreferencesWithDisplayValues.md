@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "pariatur",
-      "Key": "ipsum"
+      "Section": "aperiam",
+      "Key": "sed"
     },
     {
-      "Section": "pariatur",
-      "Key": "ipsum"
+      "Section": "aperiam",
+      "Key": "sed"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ut",
+    "RawValue": "est",
     "Specification": null,
-    "DisplayValue": "exercitationem",
-    "DisplayTooltip": "dicta",
+    "DisplayValue": "est",
+    "DisplayTooltip": "consequatur",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 26,
-    "PrefDescId": 649,
-    "TableName": "Olson-Vandervort",
-    "UserPreferenceId": 98,
+    "TargetId": 799,
+    "PrefDescId": 390,
+    "TableName": "Shields LLC",
+    "UserPreferenceId": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 409
+        "FieldType": "System.Int32",
+        "FieldLength": 401
       }
     }
   }

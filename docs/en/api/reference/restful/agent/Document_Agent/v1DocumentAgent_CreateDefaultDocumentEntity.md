@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 243,
+  "DocumentId": 662,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "voluptas",
-  "Name": "Shanahan, Bruen and Steuber",
-  "OurRef": "corporis",
-  "YourRef": "neque",
-  "CreatedDate": "2022-09-27T16:00:40.6018681+02:00",
-  "UpdatedDate": "2010-04-04T16:00:40.6018681+02:00",
-  "Description": "Open-architected radical throughput",
+  "Attention": "reiciendis",
+  "Header": "ut",
+  "Name": "Lesch-Mosciski",
+  "OurRef": "ut",
+  "YourRef": "nostrum",
+  "CreatedDate": "2021-09-05T03:31:26.0739561+02:00",
+  "UpdatedDate": "2003-05-22T03:31:26.0739561+02:00",
+  "Description": "Synergistic 4th generation encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-09-02T16:00:40.6018681+02:00",
-  "ExternalRef": "aliquid",
+  "Date": "2011-03-15T03:31:26.0739561+01:00",
+  "ExternalRef": "dolores",
   "Completed": "Completed",
-  "ActiveLinks": 895,
+  "ActiveLinks": 631,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Muller Group",
-      "Id": 510,
-      "Description": "Versatile impactful concept",
-      "ExtraInfo": "eum",
-      "LinkId": 97,
+      "EntityName": "Hills Group",
+      "Id": 171,
+      "Description": "Object-based empowering contingency",
+      "ExtraInfo": "officiis",
+      "LinkId": 62,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 942
+          "FieldLength": 568
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 304,
-  "Snum": 750,
+  "SuggestedDocumentId": 209,
+  "Snum": 169,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "494200142"
+    "SuperOffice:2": "743087152"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "et"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "soluta"
   },
-  "PublishEventDate": "2019-11-22T16:00:40.6018681+01:00",
-  "PublishTo": "2016-09-29T16:00:40.6018681+02:00",
-  "PublishFrom": "1996-06-16T16:00:40.6018681+02:00",
+  "PublishEventDate": "2015-02-24T03:31:26.0739561+01:00",
+  "PublishTo": "2022-02-07T03:31:26.0739561+01:00",
+  "PublishFrom": "2017-12-17T03:31:26.0739561+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 147,
+      "VisibleId": 910,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 850
         }
       }
     },
     {
-      "VisibleId": 147,
+      "VisibleId": 910,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 850
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   }
 }

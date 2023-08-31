@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Cole Inc and Sons",
-  "AllowPersonal": false,
-  "UiCulture": "dolores"
+  "TemplateName": "Aufderhar LLC",
+  "AllowPersonal": true,
+  "UiCulture": "qui"
 }
 ```
 

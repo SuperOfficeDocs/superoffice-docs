@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 204,
-  "Name": "Torphy, Bogisich and Goldner",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "Rank": 770,
+  "Id": 970,
+  "Name": "Powlowski, Hyatt and O'Conner",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 70,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 566,
-  "Name": "Zboncak LLC",
-  "Tooltip": "autem",
-  "Deleted": false,
-  "Rank": 506,
+  "Id": 550,
+  "Name": "Farrell, Barton and McKenzie",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 345,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 896
     }
   }
 }

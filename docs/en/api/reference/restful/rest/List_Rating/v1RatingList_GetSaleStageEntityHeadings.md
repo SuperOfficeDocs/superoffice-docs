@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 66,
-    "Name": "Bartoletti LLC",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 553,
-    "UdListDefinitionId": 770,
+    "HeadingId": 153,
+    "Name": "Lemke LLC",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 332,
+    "UdListDefinitionId": 106,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 901
       }
     }
   }

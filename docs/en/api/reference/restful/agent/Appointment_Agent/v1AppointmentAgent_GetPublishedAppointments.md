@@ -124,13 +124,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    378,
-    428
+    956,
+    317
   ]
 }
 ```
@@ -143,64 +143,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 910,
-    "StartDate": "2012-09-15T16:00:39.6332261+02:00",
-    "EndDate": "2016-10-14T16:00:39.6332261+02:00",
+    "AppointmentId": 376,
+    "StartDate": "2004-03-01T03:31:25.1157524+01:00",
+    "EndDate": "2023-06-17T03:31:25.1157524+02:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Dr. Makayla Abel VonRueden DDS",
-    "ContactName": "Goodwin-Pacocha",
-    "Description": "Digitized didactic project",
-    "PersonFullName": "Mya Shanahan",
-    "PersonId": 466,
-    "ContactId": 150,
-    "ProjectId": 174,
-    "ProjectName": "Funk-King",
-    "IsPublished": true,
-    "AssociateId": 599,
-    "ColorIndex": 549,
-    "IsFree": false,
+    "Task": "vel",
+    "AssociateFullName": "Luciano Keeling",
+    "ContactName": "Rau, Friesen and Torphy",
+    "Description": "Phased radical synergy",
+    "PersonFullName": "Miss Cesar West",
+    "PersonId": 137,
+    "ContactId": 853,
+    "ProjectId": 961,
+    "ProjectName": "Stoltenberg, Jones and Daugherty",
+    "IsPublished": false,
+    "AssociateId": 586,
+    "ColorIndex": 923,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 489,
-    "PriorityName": "Satterfield, Rowe and Cremin",
+    "PriorityId": 885,
+    "PriorityName": "Gerhold-Torphy",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-08-01T16:00:39.6332261+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2001-03-25T03:31:25.1157524+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-11-15T16:00:39.6332261+01:00",
-    "RecurringEndDate": "2020-08-12T16:00:39.6332261+02:00",
-    "MotherId": 745,
-    "AssignedBy": 174,
-    "AssignedByFullName": "Ashley Altenwerth",
+    "RecurringStartDate": "2001-07-07T03:31:25.1157524+02:00",
+    "RecurringEndDate": "2023-06-20T03:31:25.1157524+02:00",
+    "MotherId": 635,
+    "AssignedBy": 379,
+    "AssignedByFullName": "Ms. Zechariah Reynolds Jr.",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "illum",
-    "SaleId": 187,
-    "SaleName": "Smith Inc and Sons",
-    "AssociateName": "Kautzer-Nolan",
-    "CreatedDate": "1996-12-16T16:00:39.6332261+01:00",
-    "CreatedBy": "in",
-    "CreatedByFullName": "Marilou Schneider",
-    "CreatedByAssociateId": 403,
+    "Location": "perferendis",
+    "AlarmLeadTime": "quidem",
+    "SaleId": 617,
+    "SaleName": "Bode, Reilly and Gleason",
+    "AssociateName": "Walsh-Langosh",
+    "CreatedDate": "2005-05-17T03:31:25.1157524+02:00",
+    "CreatedBy": "pariatur",
+    "CreatedByFullName": "Madyson Gerlach",
+    "CreatedByAssociateId": 976,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "nesciunt",
-    "Agenda": "deserunt",
-    "InternalNotes": "minima",
+    "Title": "et",
+    "Agenda": "reiciendis",
+    "InternalNotes": "aliquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 551
+        "FieldType": "System.Int32",
+        "FieldLength": 438
       }
     }
   }

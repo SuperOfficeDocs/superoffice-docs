@@ -67,7 +67,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cartwright-Adams",
-    "DisplayName": "Carroll, Emmerich and Nitzsche",
-    "Description": "Seamless local adapter",
-    "ShortLabel": "et",
+    "FieldName": "Bogisich LLC",
+    "DisplayName": "Brown, Schmitt and Stokes",
+    "Description": "Business-focused user-facing hub",
+    "ShortLabel": "qui",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 597,
-    "TemplateVariableName": "Larson, Herman and Balistreri"
+    "Rank": 324,
+    "TemplateVariableName": "Franecki Inc and Sons"
   }
 ]
 ```

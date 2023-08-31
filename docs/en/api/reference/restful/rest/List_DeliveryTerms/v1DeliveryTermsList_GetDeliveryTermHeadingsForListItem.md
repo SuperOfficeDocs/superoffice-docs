@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Wunsch Group",
-    "ToolTip": "Dolores non nulla quam sequi.",
+    "Id": 468,
+    "Name": "Flatley Inc and Sons",
+    "ToolTip": "Qui corrupti temporibus excepturi placeat illo officia.",
     "Deleted": true,
-    "Rank": 875,
-    "Type": "non",
-    "ColorBlock": 849,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2022-09-25T16:00:49.0083336+02:00",
+    "Rank": 974,
+    "Type": "aperiam",
+    "ColorBlock": 846,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "1997-05-22T03:31:33.6010939+02:00",
     "ChildItems": [
       {
-        "Id": 684,
-        "Name": "Eichmann Group",
-        "ToolTip": "Natus voluptatem.",
+        "Id": 893,
+        "Name": "McKenzie, McCullough and Leuschke",
+        "ToolTip": "Est laborum et reiciendis commodi nostrum.",
         "Deleted": false,
-        "Rank": 988,
-        "Type": "sunt",
-        "ColorBlock": 255,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2016-12-15T16:00:49.0083336+01:00",
+        "Rank": 45,
+        "Type": "voluptatem",
+        "ColorBlock": 694,
+        "IconHint": "deleniti",
+        "Selected": false,
+        "LastChanged": "2019-07-10T03:31:33.6010939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "est",
+        "ExtraInfo": "odio",
+        "StyleHint": "cupiditate",
         "Hidden": true,
-        "FullName": "Angelina Bechtelar",
+        "FullName": "Jonathan Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 112
+            "FieldType": "System.Int32",
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "earum",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Prof. Bailey Damion Rath",
+    "FullName": "Ms. Margarette Schroeder MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldType": "System.String",
+        "FieldLength": 728
       }
     }
   }

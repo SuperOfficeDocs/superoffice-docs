@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetAllTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,15 +101,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 771,
-    "Value": "officiis",
+    "TaskListItemId": 296,
+    "Value": "et",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "natus",
-    "Deleted": false,
-    "IntentId": 74,
-    "Rank": 331,
-    "IsDefaultAlldayEvent": false,
+    "Tooltip": "iure",
+    "Deleted": true,
+    "IntentId": 758,
+    "Rank": 528,
+    "IsDefaultAlldayEvent": true,
     "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldLength": 712
       }
     }
   }

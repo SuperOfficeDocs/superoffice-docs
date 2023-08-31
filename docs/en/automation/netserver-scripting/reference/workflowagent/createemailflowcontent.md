@@ -14,6 +14,7 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAg
 ## BeforeCreateEmailFlowContent
 ```cs
     static void BeforeCreateEmailFlowContent(
+       Int32  emailFlowId,
        String  contentName,
        ref object  eventState
       );
@@ -25,6 +26,7 @@ Event state is not preserved between different service calls. It is set to null 
 ## AfterCreateEmailFlowContent
 ```cs
     static void AfterCreateEmailFlowContent(
+       Int32  emailFlowId,
        String  contentName,
        ref Int32  returnValue,
        ref object  eventState
@@ -36,6 +38,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ## AfterCreateEmailFlowContentAsync
 ```cs
     static void AfterCreateEmailFlowContentAsync(
+       Int32  emailFlowId,
        String  contentName,
        ref Int32  returnValue,
        ref object  eventState

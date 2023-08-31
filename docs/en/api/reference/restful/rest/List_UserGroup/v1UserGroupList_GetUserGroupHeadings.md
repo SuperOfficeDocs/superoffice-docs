@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 133,
-    "Name": "Monahan-Shanahan",
-    "Tooltip": "nostrum",
-    "Deleted": false,
-    "Rank": 773,
-    "UdListDefinitionId": 556,
+    "HeadingId": 739,
+    "Name": "Waelchi, Moore and Schmeler",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 795,
+    "UdListDefinitionId": 424,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=215
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=429
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Ferry Group",
-  "Comment": "eum",
-  "StakeholderRoleId": 257,
-  "CountryId": 755,
-  "PersonId": 252,
-  "EmailDescription": "alex@roob.info",
-  "EmailId": 455,
-  "EmailAddress": "hope.watsica@renner.info",
-  "PhoneId": 201,
-  "ContactName": "Gusikowski-Wuckert",
-  "ContactId": 871,
-  "SaleId": 547,
-  "Mrmrs": "aut",
-  "Firstname": "Tate",
-  "MiddleName": "Muller-Prohaska",
-  "Lastname": "Ryan",
-  "SaleStakeholderId": 325,
-  "Rank": 771,
-  "Phone": "(962)493-0502",
+  "StakeholderRoleName": "Berge-Crist",
+  "Comment": "cum",
+  "StakeholderRoleId": 855,
+  "CountryId": 157,
+  "PersonId": 647,
+  "EmailDescription": "josie@olsoncollins.name",
+  "EmailId": 735,
+  "EmailAddress": "josephine@stroman.ca",
+  "PhoneId": 613,
+  "ContactName": "Robel Group",
+  "ContactId": 967,
+  "SaleId": 36,
+  "Mrmrs": "voluptas",
+  "Firstname": "Jace",
+  "MiddleName": "Wisoky-Vandervort",
+  "Lastname": "Upton",
+  "SaleStakeholderId": 216,
+  "Rank": 340,
+  "Phone": "419-741-7341 x818",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 12
     }
   }
 }

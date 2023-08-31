@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "rem"
+  "Section": "et"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 946,
-    "Section": "alias",
-    "Key": "fugit",
-    "Name": "Bahringer, Rosenbaum and Halvorson",
+    "PrefDescId": 168,
+    "Section": "sed",
+    "Key": "dolores",
+    "Name": "Dach-Kohler",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Operative zero administration workforce",
-    "IsBuiltin": true,
-    "TableName": "Schamberger Inc and Sons",
-    "UserDefinedListId": 591,
-    "Rank": 29,
-    "SubGroup": "est",
-    "MinLevel": 656,
-    "MaxValue": 873,
-    "MinValue": 889,
-    "RequiredLicense": "rerum",
+    "Description": "Assimilated non-volatile middleware",
+    "IsBuiltin": false,
+    "TableName": "Langworth Group",
+    "UserDefinedListId": 447,
+    "Rank": 405,
+    "SubGroup": "aspernatur",
+    "MinLevel": 425,
+    "MaxValue": 490,
+    "MinValue": 407,
+    "RequiredLicense": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 548
+        "FieldType": "System.Int32",
+        "FieldLength": 950
       }
     }
   }

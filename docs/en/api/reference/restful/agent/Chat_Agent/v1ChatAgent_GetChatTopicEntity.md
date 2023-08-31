@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=179
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=141
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 571,
-  "Name": "Considine Group",
-  "Description": "Synergized discrete info-mediaries",
-  "WelcomeMessage": "optio",
+  "ChatTopicId": 961,
+  "Name": "Larson, Lueilwitz and Terry",
+  "Description": "Enterprise-wide contextually-based access",
+  "WelcomeMessage": "sit",
   "Language": null,
-  "LastAccept": "2021-12-14T16:00:40.2581782+01:00",
-  "SecondsPrAccept": 918,
-  "AlertRecipient": "nostrum",
+  "LastAccept": "2004-08-14T03:31:25.7915519+02:00",
+  "SecondsPrAccept": 72,
+  "AlertRecipient": "porro",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "ut",
+  "BadgeHeader": "ipsa",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "placeat",
-  "WarnNewChatMinutes": 510,
-  "WarnManagerNewChatMinutes": 999,
-  "TicketEnabled": false,
+  "CustomQueueText": "voluptatum",
+  "WarnNewChatMinutes": 138,
+  "WarnManagerNewChatMinutes": 33,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 271,
-  "WarnManagerChatMessageMinutes": 679,
+  "WarnChatMessageMinutes": 789,
+  "WarnManagerChatMessageMinutes": 965,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 465,
-  "OfflineFormQueueLength": 653,
+  "OfflineFormTimeLimit": 945,
+  "OfflineFormQueueLength": 658,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quam",
+  "WidgetRatingText": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldLength": 416
     }
   }
 }

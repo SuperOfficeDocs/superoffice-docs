@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 900,
-  "Name": "O'Reilly, Emmerich and Oberbrunner",
-  "Tooltip": "neque",
-  "Deleted": true,
-  "Rank": 476,
-  "UdListDefinitionId": 671
+  "HeadingId": 952,
+  "Name": "Hagenes-Bechtelar",
+  "Tooltip": "culpa",
+  "Deleted": false,
+  "Rank": 417,
+  "UdListDefinitionId": 890
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 287,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "atque",
+  "HeadingId": 736,
+  "Name": "Bauch-Pfeffer",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 30,
-  "UdListDefinitionId": 303,
+  "Rank": 647,
+  "UdListDefinitionId": 623,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 743
     }
   }
 }

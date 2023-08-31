@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 211
+  "QuoteConnectionId": 394
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 929,
-  "ERPName": "Rau-Jenkins",
-  "DisplayName": "Watsica-O'Kon",
-  "DisplayDescription": "Customizable bi-directional array",
-  "Rank": 199,
-  "ConnectorName": "Blanda-Zboncak",
-  "ErpConnectionId": 75,
-  "ExtraData": "sit",
-  "IsAvailable": false,
+  "QuoteConnectionId": 288,
+  "ERPName": "Harris LLC",
+  "DisplayName": "Upton LLC",
+  "DisplayDescription": "Public-key next generation throughput",
+  "Rank": 875,
+  "ConnectorName": "Cruickshank-Denesik",
+  "ErpConnectionId": 618,
+  "ExtraData": "iusto",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 839,
-      "ERPPriceListKey": "vel",
-      "QuoteConnectionId": 813,
-      "Name": "Shanahan Inc and Sons",
-      "Description": "Optional zero defect moratorium",
-      "Currency": "fugiat",
-      "CurrencyName": "Mitchell-Stracke",
-      "ValidFrom": "2018-06-24T16:00:41.6488224+02:00",
-      "ValidTo": "2005-10-14T16:00:41.6488224+02:00",
-      "IsActive": false,
+      "PriceListId": 106,
+      "ERPPriceListKey": "consequatur",
+      "QuoteConnectionId": 833,
+      "Name": "Fisher-Pfeffer",
+      "Description": "Reactive stable data-warehouse",
+      "Currency": "nulla",
+      "CurrencyName": "Deckow-Swaniawski",
+      "ValidFrom": "2006-06-13T03:31:27.0905589+02:00",
+      "ValidTo": "2006-07-12T03:31:27.0905589+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 877
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    385,
-    254
+    751,
+    64
   ],
   "AssociateAccessIds": [
-    964,
-    861
+    727,
+    446
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

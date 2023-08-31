@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 635,
-  "QuoteAlternativeId": 6,
-  "QuoteAlternativeName": "Feeney Inc and Sons"
+  "QuoteVersionId": 613,
+  "QuoteAlternativeId": 888,
+  "QuoteAlternativeName": "Dickens, Beier and Rutherford"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 474,
-  "ERPQuoteAlternativeKey": "tempora",
-  "QuoteVersionId": 474,
-  "Name": "Waters-West",
-  "Description": "Switchable zero defect standardization",
+  "QuoteAlternativeId": 948,
+  "ERPQuoteAlternativeKey": "qui",
+  "QuoteVersionId": 531,
+  "Name": "Abernathy, Denesik and Skiles",
+  "Description": "Balanced methodical leverage",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 664.408,
-  "ERPDiscountAmount": 1905.472,
-  "DiscountPercent": 17622.482,
-  "DiscountAmount": 4114.942,
+  "ERPDiscountPercent": 28751.316,
+  "ERPDiscountAmount": 10138.49,
+  "DiscountPercent": 22201.255999999998,
+  "DiscountAmount": 9364.392,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "eum",
-  "VAT": 12893.276,
-  "EarningPercent": 26529.309999999998,
-  "EarningAmount": 23019.23,
-  "SubTotal": 18321.363999999998,
-  "TotalPrice": 17428.174,
-  "ExtraField1": "est",
-  "ExtraField2": "sit",
-  "ExtraField3": "dolore",
-  "ExtraField4": "aut",
-  "ExtraField5": "non",
+  "VATInfo": "fugiat",
+  "VAT": 25448.079999999998,
+  "EarningPercent": 23874.811999999998,
+  "EarningAmount": 17534.73,
+  "SubTotal": 22636.881999999998,
+  "TotalPrice": 16726.158,
+  "ExtraField1": "perferendis",
+  "ExtraField2": "qui",
+  "ExtraField3": "quaerat",
+  "ExtraField4": "cupiditate",
+  "ExtraField5": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 503
     }
   }
 }

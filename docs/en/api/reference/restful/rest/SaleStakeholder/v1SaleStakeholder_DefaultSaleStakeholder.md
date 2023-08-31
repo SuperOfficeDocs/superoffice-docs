@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Pagac LLC",
-  "Comment": "consequatur",
-  "StakeholderRoleId": 97,
-  "CountryId": 41,
-  "PersonId": 450,
-  "EmailDescription": "lolita.feil@mosciski.us",
-  "EmailId": 377,
-  "EmailAddress": "keyon_greenfelder@barrows.us",
-  "PhoneId": 928,
-  "ContactName": "Olson LLC",
-  "ContactId": 578,
-  "SaleId": 353,
-  "Mrmrs": "vel",
-  "Firstname": "Mathilde",
-  "MiddleName": "Breitenberg Group",
-  "Lastname": "Douglas",
-  "SaleStakeholderId": 114,
-  "Rank": 161,
-  "Phone": "719-822-5975",
+  "StakeholderRoleName": "Graham LLC",
+  "Comment": "qui",
+  "StakeholderRoleId": 649,
+  "CountryId": 681,
+  "PersonId": 659,
+  "EmailDescription": "celestino@herman.com",
+  "EmailId": 470,
+  "EmailAddress": "bernadine.kunde@will.us",
+  "PhoneId": 281,
+  "ContactName": "Witting, Toy and Buckridge",
+  "ContactId": 95,
+  "SaleId": 655,
+  "Mrmrs": "error",
+  "Firstname": "Carol",
+  "MiddleName": "Stoltenberg-Lehner",
+  "Lastname": "Altenwerth",
+  "SaleStakeholderId": 834,
+  "Rank": 549,
+  "Phone": "248.214.2340",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 619
     }
   }
 }

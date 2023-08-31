@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 541,
-    "Name": "Klein, Nikolaus and Quigley",
-    "MaxDataAge": 687,
-    "NumberOfUsers": 272,
-    "NumberOfLogins": 962,
-    "FreetextEnabeled": true,
+    "AreaId": 435,
+    "Name": "Ledner-Kshlerin",
+    "MaxDataAge": 892,
+    "NumberOfUsers": 305,
+    "NumberOfLogins": 814,
+    "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldLength": 728
       }
     }
   }

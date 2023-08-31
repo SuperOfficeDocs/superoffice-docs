@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 993,
-  "ERPQuoteLineKey": "eius",
-  "QuoteAlternativeId": 911,
-  "ERPProductKey": "eius",
+  "QuoteLineId": 186,
+  "ERPQuoteLineKey": "quos",
+  "QuoteAlternativeId": 171,
+  "ERPProductKey": "architecto",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 830.51,
-  "DeliveredQuantity": 5841.776,
-  "Rank": 970,
-  "Name": "Friesen-Moen",
-  "Description": "Inverse client-driven success",
-  "Code": "aut",
-  "QuantityUnit": "totam",
-  "PriceUnit": "consequatur",
-  "ItemNumber": "790656",
+  "Quantity": 25401.07,
+  "DeliveredQuantity": 3287.566,
+  "Rank": 850,
+  "Name": "Schaden-Jast",
+  "Description": "Face to face disintermediate flexibility",
+  "Code": "magni",
+  "QuantityUnit": "enim",
+  "PriceUnit": "aut",
+  "ItemNumber": "757702",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vel",
-  "ProductTypeKey": "asperiores",
-  "Supplier": "culpa",
-  "SupplierCode": "velit",
-  "Thumbnail": "amet",
-  "VATInfo": "autem",
-  "VAT": 20794.09,
-  "UnitCost": 2579.2819999999997,
-  "UnitMinimumPrice": 12119.178,
-  "UnitListPrice": 8941.302,
+  "ProductFamilyKey": "dolore",
+  "ProductTypeKey": "aut",
+  "Supplier": "non",
+  "SupplierCode": "et",
+  "Thumbnail": "dolorem",
+  "VATInfo": "vel",
+  "VAT": 10097.748,
+  "UnitCost": 25281.978,
+  "UnitMinimumPrice": 18437.322,
+  "UnitListPrice": 26729.886,
   "ExtraInfo": [
     {
-      "Name": "Gottlieb, Rempel and Mraz",
-      "Value": "eum",
+      "Name": "Ankunding, Lemke and Weissnat",
+      "Value": "exercitationem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 843
+          "FieldLength": 737
         }
       }
     },
     {
-      "Name": "Gottlieb, Rempel and Mraz",
-      "Value": "eum",
+      "Name": "Ankunding, Lemke and Weissnat",
+      "Value": "exercitationem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 843
+          "FieldLength": 737
         }
       }
     }
   ],
-  "RawExtraInfo": "odio",
-  "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "SubscriptionQuantity": 9937.9139999999989,
-  "SubscriptionStart": "1998-09-06T16:00:41.6800689+02:00",
-  "ERPDiscountPercent": 11216.586,
-  "ERPDiscountAmount": 24448.334,
-  "DiscountPercent": 23379.64,
-  "DiscountAmount": 16920.466,
+  "RawExtraInfo": "omnis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quas",
+  "SubscriptionQuantity": 6418.432,
+  "SubscriptionStart": "1999-09-20T03:31:27.106235+02:00",
+  "ERPDiscountPercent": 14209.555999999999,
+  "ERPDiscountAmount": 26128.158,
+  "DiscountPercent": 3917.5,
+  "DiscountAmount": 4309.25,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 25958.922,
-  "EarningAmount": 25507.626,
-  "SubTotal": 1974.4199999999998,
-  "TotalPrice": 23172.796,
-  "Rights": "enim",
-  "Rule": "dolorem",
-  "ExtraField1": "autem",
-  "ExtraField2": "veniam",
-  "ExtraField3": "aut",
-  "ExtraField4": "suscipit",
-  "ExtraField5": "magnam",
+  "EarningPercent": 5381.0779999999995,
+  "EarningAmount": 14432.07,
+  "SubTotal": 14084.196,
+  "TotalPrice": 2043.368,
+  "Rights": "debitis",
+  "Rule": "quia",
+  "ExtraField1": "ullam",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "reiciendis",
+  "ExtraField4": "at",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 748
     }
   }
 }

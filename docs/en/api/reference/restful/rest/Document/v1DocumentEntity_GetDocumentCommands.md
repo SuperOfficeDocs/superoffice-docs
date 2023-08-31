@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "DuBuque LLC",
-    "DisplayName": "Mann Group",
-    "DisplayTooltip": "minima",
-    "IconHint": "voluptatem",
+    "Name": "Kessler-Wintheiser",
+    "DisplayName": "Klein LLC",
+    "DisplayTooltip": "earum",
+    "IconHint": "rem",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "DuBuque LLC",
-    "DisplayName": "Mann Group",
-    "DisplayTooltip": "minima",
-    "IconHint": "voluptatem",
+    "Name": "Kessler-Wintheiser",
+    "DisplayName": "Klein LLC",
+    "DisplayTooltip": "earum",
+    "IconHint": "rem",
     "ReturnType": "CustomGui"
   }
 ]

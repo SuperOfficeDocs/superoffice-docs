@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Parisian-Rutherford",
-      "Operator": "similique",
+      "Name": "Friesen-Lockman",
+      "Operator": "magni",
       "Values": [
-        "aut",
-        "voluptatem"
+        "perferendis",
+        "perferendis"
       ],
       "DisplayValues": [
-        "est",
-        "sequi"
+        "omnis",
+        "expedita"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 580,
+      "InterParenthesis": 648,
       "InterOperator": "And",
-      "UniqueHash": 303
+      "UniqueHash": 672
     }
   ],
-  "ProviderName": "Emard Inc and Sons",
-  "PageSize": 172,
-  "PageNumber": 218
+  "ProviderName": "Jewess, Conn and Reynolds",
+  "PageSize": 696,
+  "PageNumber": 740
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gulgowski Group",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "dolorem",
-      "CanOrderBy": false,
-      "Name": "Conroy, Little and Hand",
-      "CanRestrictBy": true,
-      "RestrictionType": "repellat",
-      "RestrictionListName": "Wiegand-Spinka",
-      "IsVisible": false,
-      "ExtraInfo": "sequi",
-      "Width": "laboriosam",
-      "IconHint": "iste",
-      "HeadingIconHint": "necessitatibus"
+      "DisplayName": "Schroeder, Flatley and Walter",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Lehner LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Goodwin Group",
+      "IsVisible": true,
+      "ExtraInfo": "magni",
+      "Width": "maxime",
+      "IconHint": "sed",
+      "HeadingIconHint": "maiores"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jenkins-Grady",
-      "PrimaryKey": 326,
+      "EntityName": "Hirthe, Dietrich and Greenfelder",
+      "PrimaryKey": 924,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "quidem",
-          "LinkHint": "ut"
+          "DisplayValue": "facilis",
+          "TooltipHint": "ipsa",
+          "LinkHint": "enim"
         }
       },
-      "LinkHint": "animi",
-      "StyleHint": "molestias",
+      "LinkHint": "quam",
+      "StyleHint": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldType": "System.String",
+          "FieldLength": 229
         }
       }
     }
   ],
-  "RowCount": 920,
+  "RowCount": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

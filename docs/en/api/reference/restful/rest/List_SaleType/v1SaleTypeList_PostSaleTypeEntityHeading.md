@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 526,
-  "Name": "Pacocha-Langworth",
-  "Tooltip": "impedit",
-  "Deleted": false,
-  "Rank": 140,
-  "UdListDefinitionId": 277
+  "HeadingId": 475,
+  "Name": "Kerluke Group",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 289,
+  "UdListDefinitionId": 653
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 539,
-  "Name": "Koch-Krajcik",
-  "Tooltip": "itaque",
+  "HeadingId": 450,
+  "Name": "Waters-Jakubowski",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "Rank": 345,
-  "UdListDefinitionId": 49,
+  "Rank": 11,
+  "UdListDefinitionId": 60,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 963
     }
   }
 }

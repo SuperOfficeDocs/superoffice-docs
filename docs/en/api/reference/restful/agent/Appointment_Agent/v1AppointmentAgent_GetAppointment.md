@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=415
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=719
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -118,7 +118,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,64 +128,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 263,
-  "StartDate": "2002-03-09T16:00:39.8363495+01:00",
-  "EndDate": "2009-09-22T16:00:39.8363495+02:00",
+  "AppointmentId": 337,
+  "StartDate": "2005-10-23T03:31:25.1954237+02:00",
+  "EndDate": "2022-11-30T03:31:25.1954237+01:00",
   "Type": "BookingForChecklist",
-  "Task": "velit",
-  "AssociateFullName": "Bianka Mitchell",
-  "ContactName": "Padberg, Effertz and Abshire",
-  "Description": "Grass-roots encompassing leverage",
-  "PersonFullName": "Ashlynn Corkery",
-  "PersonId": 147,
-  "ContactId": 52,
-  "ProjectId": 208,
-  "ProjectName": "Gusikowski Inc and Sons",
+  "Task": "deserunt",
+  "AssociateFullName": "Mackenzie Stephanie Effertz Jr.",
+  "ContactName": "Mueller Inc and Sons",
+  "Description": "Synergized local encoding",
+  "PersonFullName": "Cleve Hintz",
+  "PersonId": 977,
+  "ContactId": 21,
+  "ProjectId": 874,
+  "ProjectName": "King, Schneider and Blick",
   "IsPublished": false,
-  "AssociateId": 360,
-  "ColorIndex": 973,
+  "AssociateId": 96,
+  "ColorIndex": 185,
   "IsFree": false,
   "HasAlarm": true,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 51,
-  "PriorityName": "Gorczany-Smith",
+  "PriorityId": 231,
+  "PriorityName": "Batz Inc and Sons",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2014-12-08T16:00:39.8363495+01:00",
+  "ActiveDate": "2022-09-25T03:31:25.1954237+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2017-06-08T16:00:39.8363495+02:00",
-  "RecurringEndDate": "2003-11-03T16:00:39.8363495+01:00",
-  "MotherId": 54,
-  "AssignedBy": 368,
-  "AssignedByFullName": "Miss Norberto Fabiola Ferry",
+  "RecurringStartDate": "2015-11-07T03:31:25.1954237+01:00",
+  "RecurringEndDate": "2020-08-17T03:31:25.1954237+02:00",
+  "MotherId": 198,
+  "AssignedBy": 823,
+  "AssignedByFullName": "Rachel Armstrong Sr.",
   "RejectReason": "",
-  "Location": "minus",
-  "AlarmLeadTime": "earum",
-  "SaleId": 325,
-  "SaleName": "Tromp Inc and Sons",
-  "AssociateName": "West Inc and Sons",
-  "CreatedDate": "2018-11-01T16:00:39.8363495+01:00",
-  "CreatedBy": "reiciendis",
-  "CreatedByFullName": "Hellen Kovacek",
-  "CreatedByAssociateId": 83,
+  "Location": "quas",
+  "AlarmLeadTime": "nihil",
+  "SaleId": 384,
+  "SaleName": "Baumbach Group",
+  "AssociateName": "Kunde-Mueller",
+  "CreatedDate": "2018-03-27T03:31:25.1954237+02:00",
+  "CreatedBy": "est",
+  "CreatedByFullName": "Jeffrey Mertz",
+  "CreatedByAssociateId": 176,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "harum",
-  "Agenda": "dicta",
-  "InternalNotes": "quod",
+  "Title": "dolore",
+  "Agenda": "repellendus",
+  "InternalNotes": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

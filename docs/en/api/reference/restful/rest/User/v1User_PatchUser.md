@@ -75,7 +75,7 @@ PATCH /api/v1/User/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -135,18 +135,18 @@ User  updated.
 PATCH /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "ipsa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "ipsa",
     "value": {}
   }
 ]
@@ -159,14 +159,14 @@ HTTP/1.1 200 User  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 790,
-  "Name": "Gulgowski, Nienow and Koelpin",
-  "Rank": 866,
-  "Tooltip": "voluptatum",
+  "AssociateId": 633,
+  "Name": "Gottlieb-Walter",
+  "Rank": 428,
+  "Tooltip": "autem",
   "LicenseOwners": [
     {
-      "Name": "Kunde-Howe",
-      "Description": "Multi-lateral non-volatile moderator",
+      "Name": "Herman, Moore and McLaughlin",
+      "Description": "Reactive tertiary open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldType": "System.String",
+          "FieldLength": 568
         }
       }
     },
     {
-      "Name": "Kunde-Howe",
-      "Description": "Multi-lateral non-volatile moderator",
+      "Name": "Herman, Moore and McLaughlin",
+      "Description": "Reactive tertiary open system",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldType": "System.String",
+          "FieldLength": 568
         }
       }
     }
@@ -209,110 +209,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "laborum",
-      "Tooltip": "voluptatem",
-      "Id": 60,
-      "Rank": 502,
+      "Value": "veniam",
+      "Tooltip": "distinctio",
+      "Id": 991,
+      "Rank": 338,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 941
+          "FieldType": "System.Int32",
+          "FieldLength": 96
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-12-31T16:00:48.7739843+01:00",
-  "Lastlogout": "2023-06-08T16:00:48.7739843+02:00",
-  "EjUserId": 401,
-  "RequestSignature": "quia",
+  "Lastlogin": "2012-12-29T03:31:33.3980214+01:00",
+  "Lastlogout": "2021-01-23T03:31:33.3980214+01:00",
+  "EjUserId": 479,
+  "RequestSignature": "id",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "assumenda",
-      "DisplayValue": "blanditiis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "assumenda",
-      "DisplayValue": "blanditiis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
-        }
-      }
-    }
-  ],
-  "UserName": "McKenzie, Klocko and Jakubowski",
-  "TicketCategories": [
-    {
-      "Id": 646,
-      "Name": "Gerhold, Kuvalis and Kuhic",
-      "ToolTip": "Aliquam fuga et ut.",
-      "Deleted": true,
-      "Rank": 678,
-      "Type": "ea",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "aut",
-      "ColorBlock": 855,
-      "ExtraInfo": "nemo",
-      "StyleHint": "rerum",
-      "FullName": "Melany VonRueden",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 203
-        }
-      }
-    }
-  ],
-  "NickName": "Larkin-Spinka",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "et"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Ebert LLC",
-      "DisplayName": "Ullrich, Harvey and Crooks",
-      "Description": "Reverse-engineered impactful archive",
-      "ToolTip": "Recusandae quisquam consequatur.",
-      "Actions": "Implicit",
-      "ActionData": "repellendus",
+      "Value": "impedit",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 669
+          "FieldLength": 7
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "impedit",
+      "DisplayValue": "doloribus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 7
+        }
+      }
+    }
+  ],
+  "UserName": "Crist, Towne and Langworth",
+  "TicketCategories": [
+    {
+      "Id": 254,
+      "Name": "Torp-Feest",
+      "ToolTip": "Cum consectetur et aut.",
+      "Deleted": true,
+      "Rank": 522,
+      "Type": "id",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "non",
+      "ColorBlock": 457,
+      "ExtraInfo": "nemo",
+      "StyleHint": "quia",
+      "FullName": "Friedrich Wolf",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 347
+        }
+      }
+    }
+  ],
+  "NickName": "Satterfield Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "odit",
+    "ExtraFields2": "aut"
+  },
+  "CustomFields": {
+    "CustomFields1": "excepturi",
+    "CustomFields2": "voluptatum"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Feil-Schmidt",
+      "DisplayName": "Lindgren-Hirthe",
+      "Description": "Horizontal even-keeled intranet",
+      "ToolTip": "Eum aut quo voluptatem vel quia ipsum.",
+      "Actions": "Implicit",
+      "ActionData": "cumque",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 878
         }
       }
     }
@@ -321,8 +321,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldType": "System.Int32",
+      "FieldLength": 897
     }
   },
   "_Links": {

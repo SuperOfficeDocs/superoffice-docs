@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 228,
-  "Name": "Towne-Dicki",
-  "Tooltip": "unde",
-  "Rank": 600,
-  "Rate": 13021.77,
-  "Units": 1222.26,
-  "Deleted": false,
+  "CurrencyId": 98,
+  "Name": "Towne, Harris and Reichel",
+  "Tooltip": "dicta",
+  "Rank": 515,
+  "Rate": 6380.824,
+  "Units": 21333.138,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldLength": 803
     }
   }
 }

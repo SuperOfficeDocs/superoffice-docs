@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Cruickshank-Johns",
-    "Kuvalis-Lebsack"
+    "Douglas LLC",
+    "Yundt Group"
   ],
-  "Culture": "dolor"
+  "Culture": "similique"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Ratke, Rippin and Considine",
-    "ResourceValue": "pariatur",
-    "Culture": "id",
+    "ResourceName": "Franecki, Turner and Streich",
+    "ResourceValue": "sit",
+    "Culture": "exercitationem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 140
+        "FieldType": "System.Int32",
+        "FieldLength": 754
       }
     }
   },
   {
-    "ResourceName": "Ratke, Rippin and Considine",
-    "ResourceValue": "pariatur",
-    "Culture": "id",
+    "ResourceName": "Franecki, Turner and Streich",
+    "ResourceValue": "sit",
+    "Culture": "exercitationem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 140
+        "FieldType": "System.Int32",
+        "FieldLength": 754
       }
     }
   }

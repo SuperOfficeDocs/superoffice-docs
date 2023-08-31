@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 865,
-  "ViewState": "fuga",
-  "FromDate": "2001-05-06T16:00:40.5550049+02:00"
+  "AssociateId": 141,
+  "ViewState": "ea",
+  "FromDate": "2022-09-23T03:31:26.0270945+02:00"
 }
 ```
 

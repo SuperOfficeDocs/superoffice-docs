@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 798,
+  "Id": 374,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 366,
-  "Name": "Schaden Inc and Sons",
-  "Tooltip": "enim",
+  "HeadingId": 339,
+  "Name": "Hodkiewicz Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 268,
-  "UdListDefinitionId": 828,
+  "Rank": 350,
+  "UdListDefinitionId": 612,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldType": "System.String",
+      "FieldLength": 615
     }
   }
 }

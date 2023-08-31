@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Weber Inc and Sons",
-    "ToolTip": "Porro qui sit et unde amet velit.",
-    "Deleted": true,
-    "Rank": 662,
-    "Type": "recusandae",
-    "ColorBlock": 8,
-    "IconHint": "repellendus",
+    "Id": 357,
+    "Name": "Gibson-VonRueden",
+    "ToolTip": "Delectus nulla dignissimos.",
+    "Deleted": false,
+    "Rank": 718,
+    "Type": "sunt",
+    "ColorBlock": 292,
+    "IconHint": "atque",
     "Selected": true,
-    "LastChanged": "2012-01-25T16:00:49.1177018+01:00",
+    "LastChanged": "2009-04-16T03:31:33.696079+02:00",
     "ChildItems": [
       {
-        "Id": 5,
-        "Name": "Trantow-O'Hara",
-        "ToolTip": "Ut recusandae et minima illum modi consequatur.",
+        "Id": 756,
+        "Name": "Rogahn, Donnelly and Rippin",
+        "ToolTip": "Qui iste laborum.",
         "Deleted": false,
-        "Rank": 888,
-        "Type": "ipsum",
-        "ColorBlock": 129,
-        "IconHint": "ullam",
+        "Rank": 393,
+        "Type": "et",
+        "ColorBlock": 596,
+        "IconHint": "adipisci",
         "Selected": true,
-        "LastChanged": "2007-05-19T16:00:49.1177018+02:00",
+        "LastChanged": "2007-07-10T03:31:33.696079+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Adolphus Tillman"
+        "ExtraInfo": "minus",
+        "StyleHint": "impedit",
+        "Hidden": false,
+        "FullName": "Jacques Goodwin"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Ms. Clara Ashlee Greenfelder"
+    "ExtraInfo": "autem",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Ismael Yost"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Strosin-Beatty",
-    "ToolTip": "Et at harum ad tempora quis.",
+    "Id": 877,
+    "Name": "Heaney Group",
+    "ToolTip": "Voluptas veniam sit et asperiores autem repellat.",
     "Deleted": false,
-    "Rank": 957,
-    "Type": "sunt",
-    "ColorBlock": 692,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2023-06-07T16:00:49.1177018+02:00",
+    "Rank": 826,
+    "Type": "ab",
+    "ColorBlock": 718,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2005-04-29T03:31:33.696079+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Schimmel LLC",
-        "ToolTip": "Quis totam quas consequatur qui ab.",
-        "Deleted": true,
-        "Rank": 940,
-        "Type": "deserunt",
-        "ColorBlock": 344,
-        "IconHint": "iure",
+        "Id": 449,
+        "Name": "Terry-Johns",
+        "ToolTip": "Tenetur repellat enim omnis doloribus tenetur corporis rerum.",
+        "Deleted": false,
+        "Rank": 190,
+        "Type": "enim",
+        "ColorBlock": 18,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2019-03-21T16:00:49.1177018+01:00",
+        "LastChanged": "2017-02-15T03:31:33.696079+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "labore",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Xander Wisozk",
+        "FullName": "Aric Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 933
+            "FieldLength": 451
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "sunt",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Prof. Bernadette Cordie Haag V",
+    "FullName": "Mrs. Eliezer Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 649
       }
     }
   }

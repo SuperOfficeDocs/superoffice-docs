@@ -45,26 +45,26 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1000097|Use academic title||[SR_PD_Functions_NAME]|
-|1000499|Enable sounds|bold|[SR_PD_Visual_NAME]|
-|1000151|Address separator|bold|[SR_PD_Mail_NAME]|
+|1000505|Enable sounds|bold|[SR_PD_Visual_NAME]|
+|1000152|Address separator|bold|[SR_PD_Mail_NAME]|
 |1000074|Alarm on follow-up||[SR_PD_DiaryView_NAME]|
 |1000061|All-day end time|bold|[SR_PD_DiaryView_NAME]|
 |1000062|All-day start time|bold|[SR_PD_DiaryView_NAME]|
-|1000152|Archive sent appointments||[SR_PD_Mail_NAME]|
-|1000153|Archive sent documents||[SR_PD_Mail_NAME]|
-|1000154|Archive forwarded e-mail||[SR_PD_Mail_NAME]|
+|1000153|Archive sent appointments||[SR_PD_Mail_NAME]|
+|1000154|Archive sent documents||[SR_PD_Mail_NAME]|
+|1000155|Archive forwarded e-mail||[SR_PD_Mail_NAME]|
 |1000098|Archive page size||[SR_PD_Functions_NAME]|
-|1000155|Archive replies||[SR_PD_Mail_NAME]|
-|1000156|Archive all e-mail|bold|[SR_PD_Mail_NAME]|
-|1000157|Auto-archive e-mails sent from e-mail client.||[SR_PD_Mail_NAME]|
-|1000158|Archive e-mail to associates||[SR_PD_Mail_NAME]|
+|1000156|Archive replies||[SR_PD_Mail_NAME]|
+|1000157|Archive all e-mail|bold|[SR_PD_Mail_NAME]|
+|1000158|Auto-archive e-mails sent from e-mail client.||[SR_PD_Mail_NAME]|
+|1000159|Archive e-mail to associates||[SR_PD_Mail_NAME]|
 |1000099|Ask to edit or read||[SR_PD_Functions_NAME]|
-|1000159|Use iCalendar attachment||[SR_PD_Mail_NAME]|
-|1000367|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
-|1000401|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
+|1000160|Use iCalendar attachment||[SR_PD_Mail_NAME]|
+|1000372|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
+|1000426|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
 |1000100|Limit for auto-loading||[SR_PD_Functions_NAME]|
-|1000360|Autologout time||[SR_PD_PocketTasks_NAME]|
-|1000370|Automatically quote the last message||[SR_PD_request_NAME]|
+|1000365|Autologout time||[SR_PD_PocketTasks_NAME]|
+|1000375|Automatically quote the last message||[SR_PD_request_NAME]|
 
 
 ## Related MDO Lists

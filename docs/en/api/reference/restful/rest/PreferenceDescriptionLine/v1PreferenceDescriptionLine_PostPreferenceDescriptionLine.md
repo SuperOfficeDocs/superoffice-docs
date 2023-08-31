@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 394,
-  "PrefDescId": 380,
-  "PrefValue": "minus",
-  "PrefShowValue": "sint",
-  "Description": "Ameliorated assymetric architecture",
+  "PrefDescLineId": 135,
+  "PrefDescId": 206,
+  "PrefValue": "asperiores",
+  "PrefShowValue": "aut",
+  "Description": "Organic dynamic standardization",
   "IsBuiltin": false
 }
 ```
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 638,
-  "PrefDescId": 726,
-  "PrefValue": "voluptatum",
-  "PrefShowValue": "dolorum",
-  "Description": "User-friendly 24 hour help-desk",
+  "PrefDescLineId": 316,
+  "PrefDescId": 616,
+  "PrefValue": "voluptatem",
+  "PrefShowValue": "consequatur",
+  "Description": "Ameliorated intangible archive",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   },
   "_Links": {

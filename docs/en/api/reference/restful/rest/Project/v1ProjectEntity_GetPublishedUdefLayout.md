@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 259,
-    "ColumnId": 19,
-    "FieldDefault": "consequatur",
-    "FieldHeight": 761,
-    "FieldLabel": "quo",
-    "FieldLeft": 549,
-    "FieldTop": 81,
+    "UDefFieldId": 900,
+    "ColumnId": 787,
+    "FieldDefault": "dolor",
+    "FieldHeight": 689,
+    "FieldLabel": "iure",
+    "FieldLeft": 488,
+    "FieldTop": 674,
     "FieldType": "Checkbox",
-    "FieldWidth": 774,
-    "FormatMask": "quo",
+    "FieldWidth": 449,
+    "FormatMask": "consectetur",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 76,
-    "LabelLeft": 838,
-    "LabelTop": 241,
-    "LabelWidth": 283,
-    "LastVersionId": 330,
-    "ListTableId": 316,
+    "LabelHeight": 805,
+    "LabelLeft": 252,
+    "LabelTop": 979,
+    "LabelWidth": 35,
+    "LastVersionId": 128,
+    "ListTableId": 89,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 920,
-    "ProgId": "atque",
+    "Page1LineNo": 413,
+    "ProgId": "rem",
     "IsReadOnly": false,
-    "ShortLabel": "ex",
-    "TabOrder": 659,
-    "TextLength": 57,
-    "Tooltip": "inventore",
-    "UdefIdentity": 47,
-    "UDListDefinitionId": 305,
+    "ShortLabel": "dolorem",
+    "TabOrder": 349,
+    "TextLength": 313,
+    "Tooltip": "modi",
+    "UdefIdentity": 373,
+    "UDListDefinitionId": 259,
     "Justification": "Center",
-    "Version": 628,
-    "TemplateVariableName": "Simonis-Kessler",
+    "Version": 446,
+    "TemplateVariableName": "Schaden LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Hermann, Little and Stroman",
+    "MdoListName": "Terry Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

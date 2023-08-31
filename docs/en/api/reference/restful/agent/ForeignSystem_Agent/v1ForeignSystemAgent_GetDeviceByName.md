@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Keeling, Langosh and Mayer",
-  "DeviceName": "Reinger LLC"
+  "ApplicationName": "Cole, Jewess and Gottlieb",
+  "DeviceName": "Green LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 845,
-  "Name": "McDermott Group",
-  "CreatedDate": "2018-03-10T16:00:41.0705907+01:00",
-  "UpdatedDate": "2015-09-07T16:00:41.0705907+02:00",
-  "AssociateFullName": "Justus Runolfsson",
-  "CreatedBy": "non",
-  "UpdatedBy": "impedit",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 315,
+  "ForeignDeviceId": 31,
+  "Name": "Luettgen Inc and Sons",
+  "CreatedDate": "2012-05-09T03:31:26.589451+02:00",
+  "UpdatedDate": "2015-09-30T03:31:26.589451+02:00",
+  "AssociateFullName": "Velva Pagac Jr.",
+  "CreatedBy": "deserunt",
+  "UpdatedBy": "accusamus",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 918,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 573
     }
   }
 }

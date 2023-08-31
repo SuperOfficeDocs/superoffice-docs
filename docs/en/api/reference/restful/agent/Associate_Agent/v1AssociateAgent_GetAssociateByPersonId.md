@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 420
+  "PersonId": 527
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 587,
-  "Name": "Goodwin Inc and Sons",
-  "PersonId": 177,
-  "Rank": 622,
-  "Tooltip": "ipsa",
+  "AssociateId": 967,
+  "Name": "Huel, Stiedemann and O'Kon",
+  "PersonId": 443,
+  "Rank": 182,
+  "Tooltip": "qui",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 774,
-  "FullName": "Lisa Kreiger",
-  "FormalName": "Dach Inc and Sons",
+  "GroupIdx": 379,
+  "FullName": "Thelma Bahringer",
+  "FormalName": "Beahan-Kautzer",
   "Deleted": false,
-  "EjUserId": 216,
-  "UserName": "Krajcik-Schneider",
+  "EjUserId": 738,
+  "UserName": "Zemlak, Abbott and Considine",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 167
     }
   }
 }

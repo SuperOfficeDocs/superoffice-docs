@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 311,
-    "Tooltip": "possimus",
+    "Total": 908,
+    "Tooltip": "magni",
     "CanAssign": true,
-    "Free": 461,
-    "InUse": 784,
+    "Free": 836,
+    "InUse": 111,
     "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 953,
-    "Name": "Collins LLC",
-    "Description": "Secured full-range extranet",
-    "PrerequisiteModuleName": "Renner-Stoltenberg",
-    "SortOrder": 620,
-    "ExtraFlags": 350,
+    "ModuleLicenseId": 926,
+    "Name": "Johns-Towne",
+    "Description": "Universal bandwidth-monitored core",
+    "PrerequisiteModuleName": "Kemmer-Harber",
+    "SortOrder": 970,
+    "ExtraFlags": 269,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 19
       }
     }
   }

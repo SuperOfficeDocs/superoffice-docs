@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    817,
-    868
+    145,
+    513
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Connelly Inc and Sons",
-    "AssociateId": 464,
-    "DetailsTable": 716,
-    "DetailsRecord": 827,
+    "Id": 201,
+    "Name": "Rowe Inc and Sons",
+    "AssociateId": 811,
+    "DetailsTable": 994,
+    "DetailsRecord": 759,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatum",
-      "ParameterObject2": "ducimus"
+      "ParameterObject1": "facilis",
+      "ParameterObject2": "dignissimos"
     },
-    "LastStarted": "2009-06-11T16:00:40.1175682+02:00",
-    "Created": "2020-05-27T16:00:40.1175682+02:00",
-    "StartCount": 665,
-    "DatabaseSerialNumber": "1381388",
-    "Context": "doloribus",
-    "Result": "quam",
+    "LastStarted": "1996-11-25T03:31:25.6496314+01:00",
+    "Created": "2010-11-02T03:31:25.6496314+01:00",
+    "StartCount": 690,
+    "DatabaseSerialNumber": "1030716",
+    "Context": "similique",
+    "Result": "rerum",
     "State": "All",
-    "Description": "Digitized fresh-thinking database",
-    "Response": "voluptatem",
-    "Request": "non",
-    "ProgressDescription": "Right-sized context-sensitive paradigm",
-    "ProgressPercent": 716,
-    "FileName": "Wuckert Group",
+    "Description": "Mandatory analyzing moratorium",
+    "Response": "praesentium",
+    "Request": "quam",
+    "ProgressDescription": "Expanded exuding alliance",
+    "ProgressPercent": 185,
+    "FileName": "Stokes-Konopelski",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldType": "System.Int32",
+        "FieldLength": 765
       }
     }
   }

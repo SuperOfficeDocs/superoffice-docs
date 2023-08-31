@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 865,
-  "Name": "Orn Inc and Sons",
-  "Tooltip": "dolores",
+  "Id": 525,
+  "Name": "Shanahan, Herzog and Gorczany",
+  "Tooltip": "quae",
   "Deleted": false,
-  "UdListDefinitionId": 26,
-  "Rank": 542,
+  "UdListDefinitionId": 790,
+  "Rank": 980,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 480
+      "FieldLength": 345
     }
   }
 }

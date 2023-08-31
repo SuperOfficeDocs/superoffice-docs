@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 849
+  "QuoteAlternativeId": 308
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 231,
-    "ERPQuoteLineKey": "sit",
-    "QuoteAlternativeId": 369,
-    "ERPProductKey": "qui",
+    "QuoteLineId": 558,
+    "ERPQuoteLineKey": "impedit",
+    "QuoteAlternativeId": 654,
+    "ERPProductKey": "molestias",
     "Status": "Error",
-    "Reason": "",
-    "Quantity": 10107.15,
-    "DeliveredQuantity": 25150.35,
-    "Rank": 772,
-    "Name": "Schmeler Group",
-    "Description": "Pre-emptive high-level database",
-    "Code": "aut",
-    "QuantityUnit": "et",
-    "PriceUnit": "qui",
-    "ItemNumber": "902083",
+    "Reason": "seize synergistic technologies",
+    "Quantity": 25774.016,
+    "DeliveredQuantity": 17265.206,
+    "Rank": 81,
+    "Name": "Gerlach Inc and Sons",
+    "Description": "Open-architected fault-tolerant workforce",
+    "Code": "eos",
+    "QuantityUnit": "similique",
+    "PriceUnit": "et",
+    "ItemNumber": "1586327",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ducimus",
-    "ProductTypeKey": "voluptatem",
-    "Supplier": "nisi",
-    "SupplierCode": "sequi",
-    "Thumbnail": "qui",
-    "VATInfo": "porro",
-    "VAT": 15973.998,
-    "UnitCost": 22868.798,
-    "UnitMinimumPrice": 16773.167999999998,
-    "UnitListPrice": 17613.079999999998,
+    "ProductFamilyKey": "sunt",
+    "ProductTypeKey": "porro",
+    "Supplier": "et",
+    "SupplierCode": "nemo",
+    "Thumbnail": "et",
+    "VATInfo": "voluptas",
+    "VAT": 9574.369999999999,
+    "UnitCost": 15585.382,
+    "UnitMinimumPrice": 8048.112,
+    "UnitListPrice": 21439.694,
     "ExtraInfo": [
       {
-        "Name": "Pacocha, McCullough and Conroy",
-        "Value": "dolorem",
+        "Name": "Gusikowski, Hudson and Stanton",
+        "Value": "velit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 419
+            "FieldLength": 692
           }
         }
       },
       {
-        "Name": "Pacocha, McCullough and Conroy",
-        "Value": "dolorem",
+        "Name": "Gusikowski, Hudson and Stanton",
+        "Value": "velit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 419
+            "FieldLength": 692
           }
         }
       }
     ],
-    "RawExtraInfo": "doloribus",
-    "IsSubscription": false,
-    "SubscriptionUnit": "quae",
-    "SubscriptionQuantity": 8490.006,
-    "SubscriptionStart": "2002-09-10T16:00:41.6800689+02:00",
-    "ERPDiscountPercent": 19095.462,
-    "ERPDiscountAmount": 9232.764,
-    "DiscountPercent": 10921.99,
-    "DiscountAmount": 27378.624,
+    "RawExtraInfo": "atque",
+    "IsSubscription": true,
+    "SubscriptionUnit": "voluptatem",
+    "SubscriptionQuantity": 15331.528,
+    "SubscriptionStart": "2010-01-21T03:31:27.106235+01:00",
+    "ERPDiscountPercent": 1372.692,
+    "ERPDiscountAmount": 5854.312,
+    "DiscountPercent": 2090.378,
+    "DiscountAmount": 714.552,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 6744.3679999999995,
-    "EarningAmount": 8574.624,
-    "SubTotal": 3115.196,
-    "TotalPrice": 29625.701999999997,
-    "Rights": "beatae",
-    "Rule": "iste",
-    "ExtraField1": "dolor",
-    "ExtraField2": "ea",
-    "ExtraField3": "velit",
-    "ExtraField4": "et",
-    "ExtraField5": "fuga",
+    "EarningPercent": 17807.388,
+    "EarningAmount": 14789.346,
+    "SubTotal": 5368.5419999999995,
+    "TotalPrice": 5171.0999999999995,
+    "Rights": "distinctio",
+    "Rule": "dolorem",
+    "ExtraField1": "ullam",
+    "ExtraField2": "sed",
+    "ExtraField3": "beatae",
+    "ExtraField4": "ut",
+    "ExtraField5": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 897
       }
     }
   }

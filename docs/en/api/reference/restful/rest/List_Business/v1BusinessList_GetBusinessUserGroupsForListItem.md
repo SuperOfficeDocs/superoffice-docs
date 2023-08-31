@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "Grant Group",
-    "ToolTip": "Aliquam quia recusandae.",
+    "Id": 620,
+    "Name": "Corwin Group",
+    "ToolTip": "Ipsum ea adipisci ut iure odit.",
     "Deleted": false,
-    "Rank": 685,
-    "Type": "earum",
-    "ColorBlock": 779,
-    "IconHint": "qui",
+    "Rank": 552,
+    "Type": "quia",
+    "ColorBlock": 922,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2017-07-11T16:00:48.8677298+02:00",
+    "LastChanged": "2019-12-01T03:31:33.4917333+01:00",
     "ChildItems": [
       {
-        "Id": 33,
-        "Name": "Beer, Mills and Leffler",
-        "ToolTip": "Est omnis eum consequatur reiciendis ut quod.",
+        "Id": 410,
+        "Name": "Gerhold Group",
+        "ToolTip": "Possimus quis quia.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "recusandae",
-        "ColorBlock": 260,
-        "IconHint": "temporibus",
+        "Rank": 108,
+        "Type": "et",
+        "ColorBlock": 819,
+        "IconHint": "labore",
         "Selected": true,
-        "LastChanged": "2011-04-12T16:00:48.8677298+02:00",
+        "LastChanged": "2000-06-12T03:31:33.4917333+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "a",
+        "ExtraInfo": "laborum",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Dessie Klocko",
+        "FullName": "Earline Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 137
+            "FieldType": "System.String",
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Mrs. Friedrich Hamill",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Chase Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 29
       }
     }
   }

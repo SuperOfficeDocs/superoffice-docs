@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 721,
-  "UniqueId": "soluta",
-  "Name": "Rippin, Terry and Turner",
-  "Description": "Centralized contextually-based monitoring",
-  "AssociateId": 546,
-  "Columns": 89,
+  "DashboardId": 396,
+  "UniqueId": "porro",
+  "Name": "Prohaska-Homenick",
+  "Description": "Triple-buffered composite website",
+  "AssociateId": 303,
+  "Columns": 53,
   "Theme": null,
-  "VisibleForAll": 895,
+  "VisibleForAll": 410,
   "VisibleForAssociates": [
-    800,
-    416
+    851,
+    737
   ],
   "VisibleForGroups": [
-    87,
-    821
+    947,
+    536
   ],
-  "PinForAll": 54,
+  "PinForAll": 162,
   "PinForAssociates": [
-    106,
-    273
+    23,
+    478
   ],
   "PinForGroups": [
-    652,
-    622
+    530,
+    784
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldLength": 378
     }
   }
 }

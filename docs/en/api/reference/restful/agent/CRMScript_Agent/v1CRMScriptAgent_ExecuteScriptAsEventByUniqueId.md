@@ -78,6 +78,7 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
+| ParserValues | object | Parser values sent to the event handler |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "quia",
+  "CRMScriptUniqueId": "hic",
   "EventData": null
 }
 ```
@@ -105,28 +106,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ipsam",
-    "InputValues2": "velit"
+    "InputValues1": "qui",
+    "InputValues2": "qui"
   },
   "BlockExecution": false,
-  "NavigateTo": "distinctio",
-  "Message": "illum",
-  "ShowDialog": "hic",
+  "NavigateTo": "porro",
+  "Message": "consequatur",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "soluta",
-    "OutputValues2": "tempora"
+    "OutputValues1": "architecto",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "aut"
+    "StateValues1": "praesentium",
+    "StateValues2": "dolore"
   },
-  "Exception": "quia",
+  "Exception": "dolorem",
+  "ParserValues": {
+    "ParserValues1": "quod",
+    "ParserValues2": "eum"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

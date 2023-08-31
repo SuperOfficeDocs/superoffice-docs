@@ -705,7 +705,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionV2?$select=project/projectAssociate/personEmail,project/NumberOfNotCompletedActivitiesInPeriod,person/personId
+GET /api/v1/archive/AppointmentSelectionV2?$select=contact/postAddress/formattedMultiLineAddress,contact/restrictionAddress/county,contact/contactExtra/x_contact_timespan,person/personRegisteredDate,person/personUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

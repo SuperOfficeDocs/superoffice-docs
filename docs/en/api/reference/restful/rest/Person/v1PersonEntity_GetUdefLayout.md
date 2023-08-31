@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 100,
-    "ColumnId": 103,
-    "FieldDefault": "sint",
-    "FieldHeight": 640,
-    "FieldLabel": "non",
-    "FieldLeft": 322,
-    "FieldTop": 290,
+    "UDefFieldId": 899,
+    "ColumnId": 395,
+    "FieldDefault": "accusantium",
+    "FieldHeight": 126,
+    "FieldLabel": "inventore",
+    "FieldLeft": 472,
+    "FieldTop": 791,
     "FieldType": "Checkbox",
-    "FieldWidth": 441,
-    "FormatMask": "odio",
-    "HideLabel": false,
+    "FieldWidth": 328,
+    "FormatMask": "unde",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 12,
-    "LabelLeft": 256,
-    "LabelTop": 255,
-    "LabelWidth": 843,
-    "LastVersionId": 801,
-    "ListTableId": 735,
+    "LabelHeight": 895,
+    "LabelLeft": 171,
+    "LabelTop": 869,
+    "LabelWidth": 886,
+    "LastVersionId": 309,
+    "ListTableId": 527,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 235,
-    "ProgId": "eum",
+    "Page1LineNo": 141,
+    "ProgId": "magnam",
     "IsReadOnly": false,
-    "ShortLabel": "omnis",
-    "TabOrder": 409,
-    "TextLength": 325,
-    "Tooltip": "sunt",
-    "UdefIdentity": 528,
-    "UDListDefinitionId": 384,
+    "ShortLabel": "consequatur",
+    "TabOrder": 121,
+    "TextLength": 181,
+    "Tooltip": "molestiae",
+    "UdefIdentity": 156,
+    "UDListDefinitionId": 207,
     "Justification": "Center",
-    "Version": 696,
-    "TemplateVariableName": "Gleason Group",
+    "Version": 911,
+    "TemplateVariableName": "Toy, Anderson and Purdy",
     "HasBeenPublished": false,
-    "MdoListName": "Hegmann LLC",
+    "MdoListName": "Daniel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 361
       }
     }
   }

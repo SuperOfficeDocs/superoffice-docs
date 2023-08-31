@@ -60,13 +60,14 @@ The Webhook to be saved.
 | TargetUrl | String | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | String | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | String | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | String | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | String | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | Object | Custom HTTP Headers to add to webhook requests. |
 | Properties | Object | Custom values to inject into JSON body of webhook call. |
 | Registered | String | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | String | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | String | Email address to send error message to when this webhook state changes to too-many errors. |
 
 ## Response:
 
@@ -86,13 +87,14 @@ OK
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 | _Links | object |  |
 
 ## Sample request
@@ -105,27 +107,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 590,
-  "Name": "Predovic, Kihn and Jenkins",
+  "WebhookId": 144,
+  "Name": "Cole-Wisoky",
   "Events": [
-    "et",
-    "et"
+    "quas",
+    "consequuntur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ipsum",
+  "Secret": "sapiente",
   "State": "Active",
-  "Type": "iste",
+  "Type": "magni",
   "Headers": {
-    "Headers1": "eaque",
-    "Headers2": "at"
+    "Headers1": "exercitationem",
+    "Headers2": "saepe"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1997-10-25T16:00:48.8208679+02:00",
+  "Registered": "2020-03-14T03:31:33.4292537+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-03-16T16:00:48.8208679+01:00",
-  "UpdatedAssociate": null
+  "Updated": "2001-06-09T03:31:33.4292537+02:00",
+  "UpdatedAssociate": null,
+  "ErrorsEmail": "thora_kuphal@brakus.ca"
 }
 ```
 
@@ -136,30 +139,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 738,
-  "Name": "Ruecker Group",
+  "WebhookId": 46,
+  "Name": "Aufderhar Group",
   "Events": [
-    "est",
-    "placeat"
+    "et",
+    "nulla"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "harum",
+  "Secret": "ea",
   "State": "Active",
-  "Type": "nemo",
+  "Type": "sapiente",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "quasi"
+    "Headers1": "distinctio",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-12-25T16:00:48.8208679+01:00",
+  "Registered": "2014-10-03T03:31:33.4448734+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2002-01-28T16:00:48.8208679+01:00",
+  "Updated": "1997-11-05T03:31:33.4448734+01:00",
   "UpdatedAssociate": null,
+  "ErrorsEmail": "trey_bechtelar@larkin.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

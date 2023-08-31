@@ -102,8 +102,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 297,
-  "OnlyOpenSales": false
+  "PersonId": 198,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Abshire-Reichel",
-    "SaleDate": "2016-01-30T16:00:41.7894273+01:00",
-    "SaleId": 655,
-    "Probability": 952,
-    "Title": "mollitia",
-    "Amount": 6948.0779999999995,
-    "Currency": "quos",
-    "ProjectName": "Daniel, Cruickshank and Konopelski",
-    "AssociateFullName": "Abbigail Turner IV",
-    "Description": "User-centric assymetric product",
+    "ContactName": "Paucek Group",
+    "SaleDate": "2014-01-09T03:31:27.2155767+01:00",
+    "SaleId": 440,
+    "Probability": 91,
+    "Title": "delectus",
+    "Amount": 16158.903999999999,
+    "Currency": "occaecati",
+    "ProjectName": "Ondricka-Christiansen",
+    "AssociateFullName": "Samson Wyman",
+    "Description": "Multi-lateral foreground forecast",
     "Status": "Lost",
-    "WeightedAmount": 28165.257999999998,
-    "ProjectId": 677,
-    "EarningPercent": 14864.562,
-    "Earning": 3964.5099999999998,
-    "ContactId": 31,
-    "AssociateId": 639,
-    "PersonId": 355,
-    "SaleTypeId": 126,
-    "SaleTypeName": "Prosacco-Schinner",
-    "PersonFullName": "Yoshiko Ledner",
+    "WeightedAmount": 10533.374,
+    "ProjectId": 521,
+    "EarningPercent": 3268.7619999999997,
+    "Earning": 19562.428,
+    "ContactId": 268,
+    "AssociateId": 820,
+    "PersonId": 499,
+    "SaleTypeId": 773,
+    "SaleTypeName": "Kub-Torp",
+    "PersonFullName": "Marisa Schowalter",
     "Completed": "Completed",
-    "ActiveErpLinks": 851,
-    "NextDueDate": "2022-06-01T16:00:41.7894273+02:00",
-    "Number": "1564958",
+    "ActiveErpLinks": 792,
+    "NextDueDate": "1997-02-08T03:31:27.2155767+01:00",
+    "Number": "168406",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldLength": 912
       }
     }
   }

@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Swaniawski, Tromp and Ortiz"
+  "Name": "Hansen Inc and Sons"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Collier Group",
-    "SoPrimaryKey": 748,
-    "EntryName": "Hartmann Group",
-    "EntryIdentifier": "similique",
-    "RuleDisplayName": "Bartoletti Inc and Sons",
+    "RuleName": "Ferry, Miller and Barrows",
+    "SoPrimaryKey": 3,
+    "EntryName": "Renner, Connelly and Kub",
+    "EntryIdentifier": "quia",
+    "RuleDisplayName": "Dickens LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 711
+        "FieldType": "System.String",
+        "FieldLength": 512
       }
     }
   }

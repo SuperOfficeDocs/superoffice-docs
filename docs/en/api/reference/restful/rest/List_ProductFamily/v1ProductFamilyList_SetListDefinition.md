@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Veum Inc and Sons",
-  "Tooltip": "ut",
+  "Id": 558,
+  "Name": "Daniel-Bauch",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 380,
+  "Rank": 43,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
-  "InUseByUserDefinedFields": true
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Runolfsson, Reichert and Gleichner",
-  "Tooltip": "illo",
+  "Id": 835,
+  "Name": "Gutmann-Volkman",
+  "Tooltip": "ullam",
   "Deleted": false,
-  "Rank": 846,
-  "IsCustomList": false,
+  "Rank": 724,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "placeat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 816
     }
   }
 }

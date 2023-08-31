@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 969
+  "PersonId": 864
 }
 ```
 
@@ -92,35 +92,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 127,
-  "PlainParsed": "enim",
-  "HtmlParsed": "autem",
+  "ReplyTemplateId": 434,
+  "PlainParsed": "id",
+  "HtmlParsed": "dolore",
   "Attachments": [
     {
-      "AttachmentId": 991,
-      "Name": "Mante-Bayer",
-      "ContentType": "suscipit",
-      "AttSize": 429,
+      "AttachmentId": 483,
+      "Name": "Cassin Inc and Sons",
+      "ContentType": "repellendus",
+      "AttSize": 333,
       "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "accusantium",
+      "ContentId": "dolor",
+      "AuthKey": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldType": "System.String",
+          "FieldLength": 10
         }
       }
     }
   ],
-  "Subject": "laborum",
+  "Subject": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 989
     }
   }
 }

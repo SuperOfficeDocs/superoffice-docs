@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 3,
-    "ColumnId": 765,
-    "FieldDefault": "minima",
-    "FieldHeight": 386,
-    "FieldLabel": "et",
-    "FieldLeft": 699,
-    "FieldTop": 182,
+    "UDefFieldId": 332,
+    "ColumnId": 821,
+    "FieldDefault": "dolor",
+    "FieldHeight": 835,
+    "FieldLabel": "id",
+    "FieldLeft": 386,
+    "FieldTop": 776,
     "FieldType": "Checkbox",
-    "FieldWidth": 24,
-    "FormatMask": "alias",
+    "FieldWidth": 41,
+    "FormatMask": "accusamus",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 119,
-    "LabelLeft": 925,
-    "LabelTop": 817,
-    "LabelWidth": 680,
-    "LastVersionId": 312,
-    "ListTableId": 560,
+    "IsIndexed": false,
+    "LabelHeight": 904,
+    "LabelLeft": 688,
+    "LabelTop": 226,
+    "LabelWidth": 31,
+    "LastVersionId": 840,
+    "ListTableId": 309,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 365,
-    "ProgId": "in",
-    "IsReadOnly": false,
-    "ShortLabel": "sit",
-    "TabOrder": 922,
-    "TextLength": 552,
-    "Tooltip": "quas",
-    "UdefIdentity": 154,
-    "UDListDefinitionId": 851,
+    "Page1LineNo": 121,
+    "ProgId": "ea",
+    "IsReadOnly": true,
+    "ShortLabel": "voluptate",
+    "TabOrder": 485,
+    "TextLength": 899,
+    "Tooltip": "soluta",
+    "UdefIdentity": 732,
+    "UDListDefinitionId": 488,
     "Justification": "Center",
-    "Version": 356,
-    "TemplateVariableName": "Rogahn Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Lakin Group",
+    "Version": 493,
+    "TemplateVariableName": "Strosin, Bartell and Schneider",
+    "HasBeenPublished": false,
+    "MdoListName": "Carter-Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 834
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ratione",
-  "ProviderName": "Berge, Schiller and Renner",
-  "StorageKey": "beatae",
-  "Rank": 472,
-  "Context": "repellendus"
+  "StorageType": "eligendi",
+  "ProviderName": "Wyman Group",
+  "StorageKey": "est",
+  "Rank": 509,
+  "Context": "nemo"
 }
 ```
 

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 718,
-    "Name": "Lang-Runolfsdottir",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 795,
-    "UdListDefinitionId": 866,
+    "HeadingId": 826,
+    "Name": "Adams Group",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 141,
+    "UdListDefinitionId": 753,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldType": "System.String",
+        "FieldLength": 4
       }
     }
   }

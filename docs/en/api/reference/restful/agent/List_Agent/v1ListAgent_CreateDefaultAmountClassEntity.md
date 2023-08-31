@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 100,
-  "Name": "Wisoky-Torphy",
-  "Tooltip": "impedit",
-  "Rank": 660,
-  "AmountFrom": 20991.532,
-  "AmountTo": 25889.974,
+  "AmountClassId": 68,
+  "Name": "Berge, Walsh and Smith",
+  "Tooltip": "quas",
+  "Rank": 609,
+  "AmountFrom": 22849.994,
+  "AmountTo": 11348.214,
   "Deleted": false,
-  "CurrencyId": 708,
+  "CurrencyId": 241,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 616
     }
   }
 }

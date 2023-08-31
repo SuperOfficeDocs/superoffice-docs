@@ -96,8 +96,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "qui",
-  "Key": "assumenda",
+  "Section": "omnis",
+  "Key": "dolorum",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 318,
-  "Section": "facilis",
-  "Key": "qui",
-  "Name": "Mayer-White",
+  "PrefDescId": 944,
+  "Section": "qui",
+  "Key": "velit",
+  "Name": "Abshire Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Right-sized tangible ability",
+  "Description": "Enterprise-wide local data-warehouse",
   "IsBuiltin": false,
-  "TableName": "Kiehn, Fisher and Legros",
-  "UserDefinedListId": 18,
-  "Rank": 825,
-  "SubGroup": "nam",
-  "MinLevel": 20,
-  "MaxValue": 793,
-  "MinValue": 667,
-  "RequiredLicense": "commodi",
+  "TableName": "Vandervort-Emmerich",
+  "UserDefinedListId": 350,
+  "Rank": 743,
+  "SubGroup": "quis",
+  "MinLevel": 26,
+  "MaxValue": 88,
+  "MinValue": 91,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 748
     }
   }
 }

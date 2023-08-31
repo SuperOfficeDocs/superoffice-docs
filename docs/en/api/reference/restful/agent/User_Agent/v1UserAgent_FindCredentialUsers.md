@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "id",
-  "SearchString": "deleniti"
+  "Type": "explicabo",
+  "SearchString": "ad"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "harum",
-    "quasi"
+    "dolores",
+    "velit"
   ],
   "Users": [
     {
-      "Value": "cumque",
-      "DisplayValue": "aut",
+      "Value": "atque",
+      "DisplayValue": "doloremque",
       "Columns": [
-        "aperiam",
-        "dolore"
+        "aliquid",
+        "necessitatibus"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     },
     {
-      "Value": "cumque",
-      "DisplayValue": "aut",
+      "Value": "atque",
+      "DisplayValue": "doloremque",
       "Columns": [
-        "aperiam",
-        "dolore"
+        "aliquid",
+        "necessitatibus"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldType": "System.String",
+          "FieldLength": 427
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 135
     }
   }
 }

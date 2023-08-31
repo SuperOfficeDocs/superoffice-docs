@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 79,
-  "AssociateId": 570,
-  "Caption": "harum",
+  "DashboardId": 498,
+  "AssociateId": 579,
+  "Caption": "nisi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 308,
-      "Caption": "laudantium",
-      "Description": "Mandatory human-resource alliance",
-      "ChartName": "Corkery-Okuneva",
-      "ChartId": "qui",
-      "IsDefault": false,
-      "AssociateId": 596,
-      "GroupId": 33,
-      "SelectionId": 592,
-      "Config": "modi",
+      "DashboardTileId": 653,
+      "Caption": "maxime",
+      "Description": "Optional bandwidth-monitored local area network",
+      "ChartName": "Thiel, Hermann and Schmidt",
+      "ChartId": "recusandae",
+      "IsDefault": true,
+      "AssociateId": 391,
+      "GroupId": 461,
+      "SelectionId": 65,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldLength": 296
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

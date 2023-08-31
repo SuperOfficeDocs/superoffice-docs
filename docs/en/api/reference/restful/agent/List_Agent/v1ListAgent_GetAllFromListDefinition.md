@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 250,
+  "UdListDefinitionId": 946,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Frami-Dickinson",
-    "Tooltip": "incidunt",
-    "Deleted": false,
-    "UdListDefinitionId": 554,
-    "Rank": 847,
+    "Id": 1000,
+    "Name": "Kris LLC",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 874,
+    "Rank": 210,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 388
+        "FieldLength": 278
       }
     }
   }

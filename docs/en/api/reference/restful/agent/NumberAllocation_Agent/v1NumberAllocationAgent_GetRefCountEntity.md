@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=886
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=299
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,49 +87,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 975,
-  "Field": "aut",
-  "RecordId": 203,
+  "RefCountsId": 207,
+  "Field": "quis",
+  "RecordId": 255,
   "SuggestedRecords": [
     {
-      "Id": 1000,
-      "Name": "Adams-Swaniawski",
-      "ToolTip": "A eius aliquam consequatur consequuntur.",
-      "Deleted": true,
-      "Rank": 779,
-      "Type": "sit",
+      "Id": 778,
+      "Name": "Hills LLC",
+      "ToolTip": "Distinctio maiores.",
+      "Deleted": false,
+      "Rank": 559,
+      "Type": "a",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "numquam",
-      "ColorBlock": 156,
-      "ExtraInfo": "nisi",
-      "StyleHint": "ullam",
-      "FullName": "Dr. Colt Lukas Sanford DDS",
+      "IconHint": "et",
+      "ColorBlock": 264,
+      "ExtraInfo": "distinctio",
+      "StyleHint": "omnis",
+      "FullName": "Ottilie O'Hara",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
-  "CurrentValue": 99,
-  "TravelPrefix": 305,
-  "SatPrefix": 803,
+  "CurrentValue": 662,
+  "TravelPrefix": 480,
+  "SatPrefix": 526,
   "Allocate": true,
-  "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": true,
+  "Unique": true,
+  "ReadOnly": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 84
     }
   }
 }

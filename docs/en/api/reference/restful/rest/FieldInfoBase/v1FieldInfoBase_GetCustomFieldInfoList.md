@@ -79,7 +79,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,18 +91,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Marks, Simonis and Schmitt",
-    "DisplayName": "Hamill Group",
-    "Description": "Reverse-engineered actuating support",
-    "ShortLabel": "aspernatur",
+    "FieldName": "Von, Purdy and Wyman",
+    "DisplayName": "Hilpert-Lindgren",
+    "Description": "Secured user-facing pricing structure",
+    "ShortLabel": "nihil",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 124,
-    "TemplateVariableName": "Beer, Roberts and Deckow"
+    "IsReadOnly": true,
+    "IsExternal": false,
+    "Rank": 895,
+    "TemplateVariableName": "Daniel-Towne"
   }
 ]
 ```

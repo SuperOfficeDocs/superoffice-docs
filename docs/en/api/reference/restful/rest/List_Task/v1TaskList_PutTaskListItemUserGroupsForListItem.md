@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Farrell, Beier and Heidenreich",
-    "ToolTip": "Eveniet fuga.",
+    "Id": 950,
+    "Name": "Pfeffer Group",
+    "ToolTip": "Illo perspiciatis et repellat ex aut at.",
     "Deleted": true,
-    "Rank": 424,
-    "Type": "porro",
-    "ColorBlock": 75,
-    "IconHint": "excepturi",
-    "Selected": false,
-    "LastChanged": "2016-04-12T16:00:49.3677537+02:00",
+    "Rank": 577,
+    "Type": "quisquam",
+    "ColorBlock": 752,
+    "IconHint": "sapiente",
+    "Selected": true,
+    "LastChanged": "2005-12-28T03:31:33.9160051+01:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "O'Reilly LLC",
-        "ToolTip": "Et enim et.",
-        "Deleted": true,
-        "Rank": 767,
-        "Type": "possimus",
-        "ColorBlock": 579,
-        "IconHint": "provident",
+        "Id": 393,
+        "Name": "Yost Group",
+        "ToolTip": "Qui cumque quibusdam.",
+        "Deleted": false,
+        "Rank": 275,
+        "Type": "non",
+        "ColorBlock": 595,
+        "IconHint": "quam",
         "Selected": true,
-        "LastChanged": "2007-09-02T16:00:49.3677537+02:00",
+        "LastChanged": "2010-03-27T03:31:33.9160051+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "error",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Miss Jorge Bridie Kling"
+        "FullName": "Tevin Heidenreich"
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Ms. Faustino Ramon Kirlin PhD"
+    "ExtraInfo": "tenetur",
+    "StyleHint": "voluptatibus",
+    "Hidden": false,
+    "FullName": "Dr. Natasha Chet Ernser"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "D'Amore-Hauck",
-    "ToolTip": "Et ea excepturi quia distinctio dolore et.",
-    "Deleted": true,
-    "Rank": 764,
-    "Type": "sed",
-    "ColorBlock": 266,
-    "IconHint": "iusto",
-    "Selected": false,
-    "LastChanged": "2022-11-03T16:00:49.3677537+01:00",
+    "Id": 722,
+    "Name": "Harris-Upton",
+    "ToolTip": "Aut labore.",
+    "Deleted": false,
+    "Rank": 762,
+    "Type": "et",
+    "ColorBlock": 252,
+    "IconHint": "sint",
+    "Selected": true,
+    "LastChanged": "2012-04-21T03:31:33.9160051+02:00",
     "ChildItems": [
       {
-        "Id": 756,
-        "Name": "Treutel Inc and Sons",
-        "ToolTip": "Aut eos est et et.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "est",
-        "ColorBlock": 748,
-        "IconHint": "doloremque",
-        "Selected": true,
-        "LastChanged": "2004-01-10T16:00:49.3677537+01:00",
+        "Id": 883,
+        "Name": "Ratke LLC",
+        "ToolTip": "Consequatur ipsa aut voluptas eveniet et ex qui.",
+        "Deleted": true,
+        "Rank": 80,
+        "Type": "nesciunt",
+        "ColorBlock": 969,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "2019-04-17T03:31:33.9160051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "placeat",
+        "ExtraInfo": "quia",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mr. Christina Upton",
+        "FullName": "Macey Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 118
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "aut",
+    "ExtraInfo": "sit",
+    "StyleHint": "deleniti",
     "Hidden": true,
-    "FullName": "Douglas Hattie Nicolas PhD",
+    "FullName": "Jorge Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 60
       }
     }
   }

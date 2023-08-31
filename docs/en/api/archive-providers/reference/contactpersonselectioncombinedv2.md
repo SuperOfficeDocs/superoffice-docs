@@ -1153,7 +1153,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=sale/who,appointment/appointmentUdef/SuperOffice:6,appointment/associate/contactFullName,document/documentUdef/SuperOffice:6,withdrawnStoreConsent
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=targetRelation/orgnr,appointment/appointmentUdef/SuperOffice:1,document/associate/assocName,personAddress/formattedAddress,personSourceRelation/personUpdatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

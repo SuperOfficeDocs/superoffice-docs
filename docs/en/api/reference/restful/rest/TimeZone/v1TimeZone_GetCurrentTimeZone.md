@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 53,
-  "Name": "White-Torp",
-  "TZLocationCode": "omnis",
-  "TZLocationCities": "vel",
-  "IsoNumber": 374,
+  "TZLocationID": 833,
+  "Name": "Flatley, Welch and Langworth",
+  "TZLocationCode": "sunt",
+  "TZLocationCities": "dicta",
+  "IsoNumber": 556,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 582,
-      "StartMonth": 966,
-      "EndDay": 342,
-      "EndMonth": 615,
-      "TZOffset": 319,
-      "StartRulePattern": "cum",
-      "EndRulePattern": "ut"
+      "StartDay": 199,
+      "StartMonth": 278,
+      "EndDay": 200,
+      "EndMonth": 95,
+      "TZOffset": 570,
+      "StartRulePattern": "quia",
+      "EndRulePattern": "qui"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 121,
-      "StartMonth": 793,
-      "EndDay": 504,
-      "EndMonth": 489,
-      "TZOffset": 467,
-      "StartRulePattern": "vel",
-      "EndRulePattern": "et"
+      "StartDay": 170,
+      "StartMonth": 244,
+      "EndDay": 674,
+      "EndMonth": 156,
+      "TZOffset": 104,
+      "StartRulePattern": "ab",
+      "EndRulePattern": "maxime"
     }
   }
 }

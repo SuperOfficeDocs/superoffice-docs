@@ -93,17 +93,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 41,
-  "Name": "Baumbach, Wilkinson and Bruen",
-  "Tooltip": "quia",
-  "Rank": 304,
+  "SuggestedAppointmentId": 104,
+  "Name": "Schamberger, Schmidt and Beahan",
+  "Tooltip": "fugiat",
+  "Rank": 29,
   "Deleted": false,
-  "DaysFuture": 112,
-  "Duration": "sit",
+  "DaysFuture": 969,
+  "Duration": "voluptatem",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "esse",
+  "Text": "distinctio",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 180,
-  "Name": "Kunze-Satterfield",
-  "Tooltip": "placeat",
-  "Rank": 497,
-  "Deleted": false,
-  "DaysFuture": 237,
-  "Duration": "ipsam",
-  "AutoSuggest": false,
-  "IsMilestone": false,
+  "SuggestedAppointmentId": 366,
+  "Name": "Hahn-Toy",
+  "Tooltip": "pariatur",
+  "Rank": 569,
+  "Deleted": true,
+  "DaysFuture": 570,
+  "Duration": "odit",
+  "AutoSuggest": true,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "sit",
+  "Text": "qui",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   }
 }

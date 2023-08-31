@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Goodwin, Halvorson and Reichel",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 119,
+  "Id": 643,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 257,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsa",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 537,
-  "Name": "Herman-Kozey",
-  "Tooltip": "quia",
+  "Id": 96,
+  "Name": "Prosacco-Sauer",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 792,
+  "Rank": 172,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "amet",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 736
     }
   }
 }

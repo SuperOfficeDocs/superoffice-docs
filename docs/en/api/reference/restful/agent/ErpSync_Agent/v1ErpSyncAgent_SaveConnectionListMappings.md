@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Hane-Quitzon",
+      "ErpListName": "Mills, Lueilwitz and Schultz",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Will Inc and Sons",
-      "ErpFieldId": 981,
+      "ErpActorTypeName": "Hegmann, Brakus and Wiza",
+      "ErpFieldId": 453,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 594
         }
       }
     }
   ],
-  "ErpConnectionId": 297,
-  "ErpConnectionName": "Jacobs Inc and Sons",
+  "ErpConnectionId": 502,
+  "ErpConnectionName": "Hills-Denesik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 307
     }
   }
 }

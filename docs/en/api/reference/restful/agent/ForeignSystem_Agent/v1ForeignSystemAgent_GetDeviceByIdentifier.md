@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sawayn, Moen and Kiehn",
-  "DeviceName": "Wolff, Conroy and Abshire",
-  "DeviceIdentifier": "recusandae"
+  "ApplicationName": "Collier, Conroy and Stanton",
+  "DeviceName": "Cummings-Batz",
+  "DeviceIdentifier": "architecto"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 825,
-  "Name": "Robel, McKenzie and Bartoletti",
-  "CreatedDate": "2005-08-20T16:00:41.0705907+02:00",
-  "UpdatedDate": "2010-07-15T16:00:41.0705907+02:00",
-  "AssociateFullName": "Arielle Lynch",
-  "CreatedBy": "perferendis",
-  "UpdatedBy": "cumque",
-  "DeviceIdentifier": "officiis",
-  "ForeignAppId": 8,
+  "ForeignDeviceId": 834,
+  "Name": "Oberbrunner-Lubowitz",
+  "CreatedDate": "2003-05-07T03:31:26.589451+02:00",
+  "UpdatedDate": "2020-10-03T03:31:26.589451+02:00",
+  "AssociateFullName": "Nicole Pfannerstill",
+  "CreatedBy": "quod",
+  "UpdatedBy": "error",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 533,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   }
 }

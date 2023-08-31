@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 582,
-  "Name": "Considine LLC",
-  "Rank": 737,
-  "Tooltip": "facilis",
-  "Deleted": true,
+  "ResourceId": 73,
+  "Name": "Cormier LLC",
+  "Rank": 886,
+  "Tooltip": "quas",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "doloribus"
+  "LocationAddress": "velit"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 294,
-  "Name": "Bogan Group",
-  "Rank": 80,
-  "Tooltip": "perspiciatis",
+  "ResourceId": 914,
+  "Name": "Abbott Group",
+  "Rank": 708,
+  "Tooltip": "natus",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "pariatur",
+  "LocationAddress": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

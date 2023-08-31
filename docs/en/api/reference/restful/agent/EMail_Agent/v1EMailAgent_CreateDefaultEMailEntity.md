@@ -97,147 +97,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 476,
-      "ContactName": "Vandervort Group",
-      "PersonId": 518,
-      "PersonName": "Daugherty-Corkery",
-      "AssociateId": 966,
-      "Address": "et",
-      "EmailId": 164,
+      "ContactId": 123,
+      "ContactName": "Fahey Inc and Sons",
+      "PersonId": 615,
+      "PersonName": "Mraz-Langosh",
+      "AssociateId": 576,
+      "Address": "magni",
+      "EmailId": 124,
       "DuplicatePersonIds": [
-        355,
-        953
+        413,
+        412
       ],
-      "Name": "Konopelski LLC",
+      "Name": "Hartmann Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 979
+          "FieldType": "System.Int32",
+          "FieldLength": 307
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 141,
-      "ContactName": "Labadie-Mueller",
-      "PersonId": 342,
-      "PersonName": "Turner, Kilback and Kunze",
-      "AssociateId": 786,
-      "Address": "aut",
-      "EmailId": 356,
+      "ContactId": 525,
+      "ContactName": "Heaney, Koch and Hahn",
+      "PersonId": 832,
+      "PersonName": "Mraz Group",
+      "AssociateId": 156,
+      "Address": "eligendi",
+      "EmailId": 866,
       "DuplicatePersonIds": [
-        701,
-        906
+        169,
+        852
       ],
-      "Name": "Shields-Trantow",
+      "Name": "Heidenreich-Borer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldLength": 576
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 352,
-      "ContactName": "Runte Group",
-      "PersonId": 565,
-      "PersonName": "Green LLC",
-      "AssociateId": 581,
-      "Address": "nostrum",
-      "EmailId": 862,
+      "ContactId": 682,
+      "ContactName": "Ruecker Group",
+      "PersonId": 59,
+      "PersonName": "Williamson LLC",
+      "AssociateId": 347,
+      "Address": "sed",
+      "EmailId": 989,
       "DuplicatePersonIds": [
-        350,
-        144
+        20,
+        552
       ],
-      "Name": "Dare-Hermiston",
+      "Name": "Schuster-Stokes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldType": "System.Int32",
+          "FieldLength": 803
         }
       }
     }
   ],
-  "Subject": "quam",
-  "HTMLBody": "eum",
+  "Subject": "repudiandae",
+  "HTMLBody": "enim",
   "From": null,
-  "Sent": "1998-01-01T16:00:40.8987367+01:00",
-  "Size": 622,
+  "Sent": "2004-11-22T03:31:26.4488627+01:00",
+  "Size": 475,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "soluta",
-  "PlainBody": "facilis",
-  "IsSent": false,
+  "MessageID": "dolor",
+  "PlainBody": "est",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 660,
+  "ServerId": 808,
   "Attachments": [
     {
-      "Description": "Multi-layered national archive",
-      "Filename": "quia",
-      "Size": 537,
-      "Type": "nobis",
-      "Encoding": "hic",
-      "Id": "consequatur",
-      "Disposition": "occaecati",
+      "Description": "Organized 24 hour neural-net",
+      "Filename": "placeat",
+      "Size": 13,
+      "Type": "reiciendis",
+      "Encoding": "voluptatibus",
+      "Id": "porro",
+      "Disposition": "id",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 420
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schowalter, Wisoky and Jakubowski",
+      "Name": "Schumm-Johnston",
       "Values": [
-        "quibusdam",
-        "ut"
+        "quidem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     },
     {
-      "Name": "Schowalter, Wisoky and Jakubowski",
+      "Name": "Schumm-Johnston",
       "Values": [
-        "quibusdam",
-        "ut"
+        "quidem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     }
   ],
-  "FolderName": "Klein-Will",
-  "EmailItemId": 227,
-  "AccountId": 863,
-  "ReceivedAt": "2004-10-07T16:00:40.8987367+02:00",
+  "FolderName": "Murphy Group",
+  "EmailItemId": 867,
+  "AccountId": 685,
+  "ReceivedAt": "2014-08-11T03:31:26.4488627+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-03-27T16:00:40.8987367+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2023-07-09T03:31:26.4488627+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -245,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 737
     }
   }
 }

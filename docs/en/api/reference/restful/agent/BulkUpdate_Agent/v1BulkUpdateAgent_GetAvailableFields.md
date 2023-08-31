@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,72 +107,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
     "IsActive": true,
-    "Key": "error",
-    "ValueType": "officiis",
-    "Mandatory": true,
-    "EncodedDisplayName": "Wyman Inc and Sons",
-    "EncodedDisplayDescription": "Universal human-resource task-force",
-    "IconHint": "et",
+    "Key": "eius",
+    "ValueType": "occaecati",
+    "Mandatory": false,
+    "EncodedDisplayName": "Conn, Thiel and Konopelski",
+    "EncodedDisplayDescription": "Visionary homogeneous website",
+    "IconHint": "at",
     "ControlInfos": [
       {
-        "Type": "voluptates",
-        "Label": "cupiditate",
-        "Dimension": 153,
-        "ListProviderName": "Krajcik-Reynolds",
-        "ListProviderExtraInfo": "omnis",
-        "ListProviderPrimaryKeyName": "Halvorson LLC",
-        "ListLeadText": "nulla",
+        "Type": "unde",
+        "Label": "quis",
+        "Dimension": 453,
+        "ListProviderName": "Hand LLC",
+        "ListProviderExtraInfo": "sed",
+        "ListProviderPrimaryKeyName": "Walter Group",
+        "ListLeadText": "aperiam",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 765
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "est",
+    "EncodedDataCaptionDescription": "Persevering holistic knowledge base",
+    "CurrentOperationType": "laborum",
+    "Values": [
+      "consectetur",
+      "rerum"
+    ],
+    "DisplayValues": [
+      "eos",
+      "ipsum"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "culpa",
+        "EncodedDisplayName": "Mayer-Jaskolski",
+        "EncodedLeadTexts": [
+          "dolorum",
+          "delectus"
+        ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 626
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "incidunt",
-    "EncodedDataCaptionDescription": "Open-source multimedia functionalities",
-    "CurrentOperationType": "expedita",
-    "Values": [
-      "maiores",
-      "vel"
-    ],
-    "DisplayValues": [
-      "et",
-      "eos"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "in",
-        "EncodedDisplayName": "Ruecker Group",
-        "EncodedLeadTexts": [
-          "dolor",
-          "consequatur"
-        ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 170
+            "FieldLength": 394
           }
         }
       },
       {
-        "Key": "in",
-        "EncodedDisplayName": "Ruecker Group",
+        "Key": "culpa",
+        "EncodedDisplayName": "Mayer-Jaskolski",
         "EncodedLeadTexts": [
-          "dolor",
-          "consequatur"
+          "dolorum",
+          "delectus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 170
+            "FieldType": "System.Int32",
+            "FieldLength": 394
           }
         }
       }

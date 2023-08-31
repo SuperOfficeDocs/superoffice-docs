@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Hilpert LLC",
-  "StorageKey": "consequuntur",
-  "PageSize": 294,
-  "PageNumber": 523
+  "StorageType": "omnis",
+  "ProviderName": "Schuster-King",
+  "StorageKey": "quod",
+  "PageSize": 35,
+  "PageNumber": 69
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Maggio, Batz and Block",
-      "DisplayTooltip": "quos",
-      "DisplayType": "distinctio",
-      "CanOrderBy": false,
-      "Name": "Rohan-Corwin",
+      "DisplayName": "Conn Group",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Kreiger LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "nobis",
-      "RestrictionListName": "Will-Rosenbaum",
+      "RestrictionType": "delectus",
+      "RestrictionListName": "Bechtelar LLC",
       "IsVisible": false,
-      "ExtraInfo": "quae",
-      "Width": "non",
-      "IconHint": "commodi",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "totam",
+      "Width": "exercitationem",
+      "IconHint": "esse",
+      "HeadingIconHint": "veniam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Medhurst Group",
-      "PrimaryKey": 735,
+      "EntityName": "Olson Group",
+      "PrimaryKey": 105,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "voluptatum",
-          "LinkHint": "similique"
+          "DisplayValue": "iure",
+          "TooltipHint": "earum",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "et",
+      "LinkHint": "deleniti",
+      "StyleHint": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 520
         }
       }
     }
   ],
-  "RowCount": 861,
+  "RowCount": 383,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

@@ -81,14 +81,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 398,
-      "NumberOfLicensesFree": 544,
-      "NumberOfLicensesAdded": 381,
-      "NumberOfLicensesNewTotal": 392,
-      "NumberOfLicensesNewFree": 205,
-      "NumberOfLicensesTotal": 695
+      "NumberOfLicensesInUse": 222,
+      "NumberOfLicensesFree": 584,
+      "NumberOfLicensesAdded": 195,
+      "NumberOfLicensesNewTotal": 609,
+      "NumberOfLicensesNewFree": 805,
+      "NumberOfLicensesTotal": 338
     }
   ],
-  "AccumulatedNextCheckDate": "2020-08-24T16:00:48.664623+02:00"
+  "AccumulatedNextCheckDate": "1997-12-17T03:31:33.3031011+01:00"
 }
 ```

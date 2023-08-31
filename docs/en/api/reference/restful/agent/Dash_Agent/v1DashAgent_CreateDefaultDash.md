@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 495,
-  "UniqueId": "quia",
-  "Name": "Paucek-Larkin",
-  "Description": "Automated needs-based framework",
-  "AssociateId": 827,
-  "Columns": 776,
+  "DashboardId": 190,
+  "UniqueId": "rerum",
+  "Name": "Wehner, Fahey and Luettgen",
+  "Description": "Polarised radical collaboration",
+  "AssociateId": 321,
+  "Columns": 364,
   "Theme": null,
-  "VisibleForAll": 195,
+  "VisibleForAll": 485,
   "VisibleForAssociates": [
-    529,
-    312
+    943,
+    737
   ],
   "VisibleForGroups": [
-    103,
-    499
+    149,
+    840
   ],
-  "PinForAll": 560,
+  "PinForAll": 805,
   "PinForAssociates": [
-    658,
-    974
+    745,
+    520
   ],
   "PinForGroups": [
-    401,
-    926
+    329,
+    557
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 332
     }
   }
 }

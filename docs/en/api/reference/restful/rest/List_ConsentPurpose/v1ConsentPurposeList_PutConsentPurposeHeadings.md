@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 847,
-    "Name": "Huel-Collier",
-    "Tooltip": "nulla",
+    "HeadingId": 98,
+    "Name": "Heller-Hackett",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 632,
-    "UdListDefinitionId": 618
+    "Rank": 697,
+    "UdListDefinitionId": 309
   },
   {
-    "HeadingId": 847,
-    "Name": "Huel-Collier",
-    "Tooltip": "nulla",
+    "HeadingId": 98,
+    "Name": "Heller-Hackett",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 632,
-    "UdListDefinitionId": 618
+    "Rank": 697,
+    "UdListDefinitionId": 309
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 728,
-    "Name": "Kreiger Group",
-    "Tooltip": "quam",
-    "Deleted": false,
-    "Rank": 600,
-    "UdListDefinitionId": 897,
+    "HeadingId": 681,
+    "Name": "Hickle LLC",
+    "Tooltip": "a",
+    "Deleted": true,
+    "Rank": 563,
+    "UdListDefinitionId": 638,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 554
+        "FieldLength": 286
       }
     }
   }

@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 262,
-  "ColumnId": 481,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 777,
-  "FieldLabel": "ut",
-  "FieldLeft": 401,
-  "FieldTop": 201,
+  "UDefFieldId": 352,
+  "ColumnId": 333,
+  "FieldDefault": "id",
+  "FieldHeight": 998,
+  "FieldLabel": "adipisci",
+  "FieldLeft": 929,
+  "FieldTop": 198,
   "FieldType": "Checkbox",
-  "FieldWidth": 763,
-  "FormatMask": "iste",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 688,
-  "LabelLeft": 51,
-  "LabelTop": 712,
-  "LabelWidth": 707,
-  "LastVersionId": 366,
-  "ListTableId": 474,
-  "IsMandatory": true,
+  "FieldWidth": 717,
+  "FormatMask": "odit",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 709,
+  "LabelLeft": 284,
+  "LabelTop": 547,
+  "LabelWidth": 268,
+  "LastVersionId": 406,
+  "ListTableId": 935,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 799,
-  "ProgId": "at",
-  "IsReadOnly": true,
-  "ShortLabel": "est",
-  "TabOrder": 631,
-  "TextLength": 587,
-  "Tooltip": "suscipit",
-  "UdefIdentity": 339,
-  "UDListDefinitionId": 124,
+  "Page1LineNo": 203,
+  "ProgId": "est",
+  "IsReadOnly": false,
+  "ShortLabel": "ex",
+  "TabOrder": 781,
+  "TextLength": 647,
+  "Tooltip": "porro",
+  "UdefIdentity": 764,
+  "UDListDefinitionId": 466,
   "Justification": "Center",
-  "Version": 835,
-  "TemplateVariableName": "Lynch-Hamill",
+  "Version": 953,
+  "TemplateVariableName": "Block-Quigley",
   "HasBeenPublished": false,
-  "MdoListName": "Dibbert Inc and Sons",
+  "MdoListName": "Rowe, Considine and Walter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 561
     }
   }
 }

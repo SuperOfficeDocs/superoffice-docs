@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 499,
-  "Name": "Casper, Bergnaum and Grimes",
-  "Tooltip": "cumque",
+  "RoleId": 997,
+  "Name": "Hoeger-Kuphal",
+  "Tooltip": "rem",
   "RoleType": "Anonymous",
-  "Deleted": 47,
-  "Rank": 939,
-  "Created": "2009-02-18T16:00:48.1959227+01:00",
-  "UseCategories": 476,
+  "Deleted": 915,
+  "Rank": 617,
+  "Created": "2001-12-13T03:31:32.8163583+01:00",
+  "UseCategories": 613,
   "CreatedBy": null,
-  "Updated": "2022-10-19T16:00:48.1959227+02:00",
+  "Updated": "2021-06-29T03:31:32.8163583+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 178,
-  "Name": "Bashirian-Lynch",
-  "Tooltip": "soluta",
+  "RoleId": 920,
+  "Name": "Pouros Inc and Sons",
+  "Tooltip": "veritatis",
   "RoleType": "Anonymous",
-  "Deleted": 177,
-  "Rank": 785,
-  "Created": "2001-05-01T16:00:48.1959227+02:00",
-  "UseCategories": 49,
+  "Deleted": 919,
+  "Rank": 962,
+  "Created": "2004-12-21T03:31:32.8163583+01:00",
+  "UseCategories": 515,
   "CreatedBy": null,
-  "Updated": "2003-04-09T16:00:48.1959227+02:00",
+  "Updated": "2006-01-11T03:31:32.8163583+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldType": "System.String",
+      "FieldLength": 320
     }
   },
   "_Links": {

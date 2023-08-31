@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 40,
-  "PersonName": "Cruickshank, Cartwright and Pollich",
+  "ContactId": 123,
+  "PersonName": "Schaden, Langosh and Koss",
   "PhoneNumbers": [
-    "1002605",
-    "1395332"
+    "1083361",
+    "1442892"
   ],
   "Emails": [
-    "elvis@goldner.info",
-    "matteo@bogisich.com"
+    "fabiola@wunsch.uk",
+    "ansley_willms@mckenzieortiz.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldType": "System.Int32",
+      "FieldLength": 590
     }
   }
 }

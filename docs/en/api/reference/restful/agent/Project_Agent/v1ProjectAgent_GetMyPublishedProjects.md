@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 215,
-    "Name": "Wilderman, Homenick and Bogisich",
-    "Description": "Total coherent productivity",
+    "ProjectId": 221,
+    "Name": "Beer, Bergnaum and Hudson",
+    "Description": "Implemented leading edge system engine",
     "URL": "http://www.example.com/",
-    "Type": "rerum",
-    "AssociateId": 739,
-    "AssociateFullName": "Monty Marvin",
-    "TypeId": 977,
-    "Updated": "2009-06-20T16:00:41.5707037+02:00",
-    "StatusId": 570,
-    "Status": "eveniet",
-    "TextId": 1000,
-    "PublishTo": "2014-02-10T16:00:41.5707037+01:00",
-    "PublishFrom": "2005-09-26T16:00:41.5707037+02:00",
+    "Type": "et",
+    "AssociateId": 558,
+    "AssociateFullName": "Dr. Lisandro Scotty Koelpin",
+    "TypeId": 471,
+    "Updated": "2010-09-08T03:31:27.0268433+02:00",
+    "StatusId": 466,
+    "Status": "ratione",
+    "TextId": 197,
+    "PublishTo": "2016-09-08T03:31:27.0268433+02:00",
+    "PublishFrom": "2017-08-18T03:31:27.0268433+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1070837",
-    "ActiveErpLinks": 906,
+    "ProjectNumber": "184456",
+    "ActiveErpLinks": 591,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 443
       }
     }
   }

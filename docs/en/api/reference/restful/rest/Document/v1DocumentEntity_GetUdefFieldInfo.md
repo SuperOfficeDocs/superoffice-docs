@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 888,
-  "ColumnId": 548,
-  "FieldDefault": "soluta",
-  "FieldHeight": 621,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 716,
-  "FieldTop": 761,
+  "UDefFieldId": 315,
+  "ColumnId": 90,
+  "FieldDefault": "qui",
+  "FieldHeight": 959,
+  "FieldLabel": "distinctio",
+  "FieldLeft": 215,
+  "FieldTop": 926,
   "FieldType": "Checkbox",
-  "FieldWidth": 494,
-  "FormatMask": "hic",
+  "FieldWidth": 602,
+  "FormatMask": "beatae",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 479,
-  "LabelLeft": 901,
-  "LabelTop": 84,
-  "LabelWidth": 47,
-  "LastVersionId": 603,
-  "ListTableId": 848,
+  "LabelHeight": 126,
+  "LabelLeft": 295,
+  "LabelTop": 634,
+  "LabelWidth": 447,
+  "LastVersionId": 22,
+  "ListTableId": 424,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 240,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 932,
-  "TextLength": 242,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 702,
-  "UDListDefinitionId": 590,
+  "Page1LineNo": 508,
+  "ProgId": "qui",
+  "IsReadOnly": false,
+  "ShortLabel": "et",
+  "TabOrder": 50,
+  "TextLength": 158,
+  "Tooltip": "corporis",
+  "UdefIdentity": 29,
+  "UDListDefinitionId": 710,
   "Justification": "Center",
-  "Version": 17,
-  "TemplateVariableName": "Lakin LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Schimmel, Schulist and Hane",
+  "Version": 385,
+  "TemplateVariableName": "Stokes, Nader and Nicolas",
+  "HasBeenPublished": false,
+  "MdoListName": "Collins, Crona and Glover",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 959
     }
   }
 }

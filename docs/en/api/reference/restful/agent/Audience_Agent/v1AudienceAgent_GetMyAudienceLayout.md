@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 270,
-  "InstanceLayout": "et",
-  "InstanceName": "Hagenes Group",
-  "CreatedDate": "2009-02-14T16:00:40.1019505+01:00",
-  "UpdatedDate": "1998-05-25T16:00:40.1019505+02:00",
+  "AudienceLayoutId": 461,
+  "InstanceLayout": "omnis",
+  "InstanceName": "Romaguera, Mante and Thompson",
+  "CreatedDate": "2010-11-21T03:31:25.6339962+01:00",
+  "UpdatedDate": "2016-11-12T03:31:25.6339962+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 542
     }
   }
 }

@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 453,
+  "DocumentId": 558,
   "AllowedReturnType": [
-    "excepturi",
-    "aspernatur"
+    "animi",
+    "corporis"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "vel",
-  "VersionId": "similique",
-  "Success": false,
+  "ExternalReference": "sed",
+  "VersionId": "eum",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "voluptatum",
-  "AdditionalInfo": "fugiat"
+  "Value": "ut",
+  "AdditionalInfo": "eligendi"
 }
 ```

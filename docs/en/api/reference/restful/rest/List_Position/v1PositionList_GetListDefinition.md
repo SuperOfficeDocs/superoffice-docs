@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
-  "Name": "Gutmann-Streich",
-  "Tooltip": "laboriosam",
-  "Deleted": false,
-  "Rank": 38,
-  "IsCustomList": false,
+  "Id": 285,
+  "Name": "Ziemann, Padberg and Berge",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "Rank": 774,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 713
     }
   },
   "_Links": {

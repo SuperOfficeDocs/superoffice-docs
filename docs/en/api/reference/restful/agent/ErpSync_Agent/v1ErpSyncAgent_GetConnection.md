@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 704
+  "ErpConnectionId": 269
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 327,
-  "ErpConnectorId": 830,
-  "DisplayName": "Corkery LLC",
-  "DisplayDescription": "Configurable eco-centric model",
+  "ErpConnectionId": 546,
+  "ErpConnectorId": 369,
+  "DisplayName": "Wiza-Trantow",
+  "DisplayDescription": "Organized analyzing installation",
   "Active": false,
-  "ConnectionId": "sit",
-  "MostRecentTimestamp": "ut",
+  "ConnectionId": "dolorum",
+  "MostRecentTimestamp": "eum",
   "ConfigFields": {
-    "ConfigFields1": "aspernatur",
-    "ConfigFields2": "quidem"
+    "ConfigFields1": "qui",
+    "ConfigFields2": "deserunt"
   },
-  "Deleted": false,
-  "AllAccess": false,
+  "Deleted": true,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    753,
-    406
+    989,
+    422
   ],
   "AssociateAccessIds": [
-    809,
-    820
+    515,
+    134
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldType": "System.String",
+      "FieldLength": 281
     }
   }
 }

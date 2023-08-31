@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "asperiores",
-      "HTMLBody": "suscipit",
+      "Subject": "deleniti",
+      "HTMLBody": "sint",
       "From": null,
-      "Sent": "2017-09-03T16:00:40.9299854+02:00",
-      "Size": 1001,
+      "Sent": "2014-12-31T03:31:26.4801032+01:00",
+      "Size": 411,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "quidem",
-      "PlainBody": "rem",
-      "IsSent": true,
+      "MessageID": "sequi",
+      "PlainBody": "repudiandae",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 613,
+      "ServerId": 347,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Roberts-Greenfelder",
-      "EmailItemId": 237,
-      "AccountId": 250,
-      "ReceivedAt": "2006-07-03T16:00:40.9299854+02:00",
+      "FolderName": "Corkery-Hyatt",
+      "EmailItemId": 733,
+      "AccountId": 653,
+      "ReceivedAt": "2019-09-14T03:31:26.4801032+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2016-09-13T16:00:40.9299854+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2002-11-24T03:31:26.4801032+01:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,155 +166,156 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 623,
-        "ContactName": "Jast-Bartell",
-        "PersonId": 896,
-        "PersonName": "Adams, Bailey and Rowe",
-        "AssociateId": 143,
-        "Address": "placeat",
-        "EmailId": 650,
+        "ContactId": 395,
+        "ContactName": "Schaefer, Kovacek and Watsica",
+        "PersonId": 895,
+        "PersonName": "Bins-Gleason",
+        "AssociateId": 697,
+        "Address": "facilis",
+        "EmailId": 302,
         "DuplicatePersonIds": [
-          10,
-          818
+          329,
+          839
         ],
-        "Name": "Murazik-Senger",
+        "Name": "Effertz Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 464
+            "FieldType": "System.Int32",
+            "FieldLength": 635
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 343,
-        "ContactName": "Bashirian, Weissnat and Littel",
-        "PersonId": 652,
-        "PersonName": "Nicolas, Connelly and O'Reilly",
-        "AssociateId": 376,
-        "Address": "et",
-        "EmailId": 400,
+        "ContactId": 958,
+        "ContactName": "Christiansen LLC",
+        "PersonId": 554,
+        "PersonName": "Wuckert, Kuhic and Prosacco",
+        "AssociateId": 172,
+        "Address": "cumque",
+        "EmailId": 857,
         "DuplicatePersonIds": [
-          927,
-          555
+          223,
+          704
         ],
-        "Name": "Upton Group",
+        "Name": "Doyle Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 215
+            "FieldType": "System.Int32",
+            "FieldLength": 122
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 560,
-        "ContactName": "Beer, Corwin and Vandervort",
-        "PersonId": 87,
-        "PersonName": "O'Kon-Wilderman",
-        "AssociateId": 90,
-        "Address": "eaque",
-        "EmailId": 629,
+        "ContactId": 462,
+        "ContactName": "Cummings, Flatley and Davis",
+        "PersonId": 917,
+        "PersonName": "Larson Group",
+        "AssociateId": 821,
+        "Address": "eveniet",
+        "EmailId": 285,
         "DuplicatePersonIds": [
-          397,
-          949
+          739,
+          906
         ],
-        "Name": "Wisoky, Wisoky and Thiel",
+        "Name": "West-Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 748
+            "FieldType": "System.Int32",
+            "FieldLength": 416
           }
         }
       }
     ],
-    "Subject": "sit",
-    "HTMLBody": "et",
+    "Subject": "dolor",
+    "HTMLBody": "qui",
     "From": null,
-    "Sent": "2007-10-29T16:00:40.9299854+01:00",
-    "Size": 811,
+    "Sent": "2013-04-24T03:31:26.4801032+02:00",
+    "Size": 887,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "optio",
-    "PlainBody": "et",
-    "IsSent": true,
+    "MessageID": "pariatur",
+    "PlainBody": "architecto",
+    "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 143,
+    "ServerId": 288,
     "Attachments": [
       {
-        "Description": "Front-line well-modulated secured line",
-        "Filename": "animi",
-        "Size": 850,
-        "Type": "voluptas",
-        "Encoding": "tempora",
-        "Id": "corrupti",
-        "Disposition": "voluptatem",
+        "Description": "Operative fault-tolerant paradigm",
+        "Filename": "dolorem",
+        "Size": 932,
+        "Type": "quibusdam",
+        "Encoding": "possimus",
+        "Id": "consectetur",
+        "Disposition": "aut",
+        "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldLength": 792
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Kiehn-McClure",
+        "Name": "Pacocha, Kreiger and Ward",
         "Values": [
-          "doloribus",
-          "quae"
+          "qui",
+          "distinctio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 191
           }
         }
       },
       {
-        "Name": "Kiehn-McClure",
+        "Name": "Pacocha, Kreiger and Ward",
         "Values": [
-          "doloribus",
-          "quae"
+          "qui",
+          "distinctio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 191
           }
         }
       }
     ],
-    "FolderName": "Kreiger-Hoeger",
-    "EmailItemId": 642,
-    "AccountId": 734,
-    "ReceivedAt": "2001-04-02T16:00:40.9299854+02:00",
+    "FolderName": "Hessel-Cassin",
+    "EmailItemId": 95,
+    "AccountId": 256,
+    "ReceivedAt": "2017-09-30T03:31:26.4801032+02:00",
     "InReplyTo": null,
-    "RepliedAt": "1997-07-13T16:00:40.9299854+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2009-10-23T03:31:26.4801032+02:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 362
       }
     }
   }

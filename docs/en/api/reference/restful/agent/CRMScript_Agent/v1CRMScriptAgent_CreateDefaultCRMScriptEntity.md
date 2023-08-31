@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 175,
-  "UniqueIdentifier": "quidem",
-  "Name": "Ankunding-Koss",
-  "Description": "Proactive heuristic algorithm",
-  "IncludeId": "eos",
-  "HierarchyId": 357,
-  "Source": "pariatur",
-  "Registered": "2022-12-26T16:00:40.4768796+01:00",
-  "RegisteredAssociateId": 152,
-  "Updated": "2005-02-24T16:00:40.4768796+01:00",
-  "UpdatedAssociateId": 678,
+  "EjscriptId": 514,
+  "UniqueIdentifier": "libero",
+  "Name": "Marvin, Anderson and Jacobs",
+  "Description": "Monitored 4th generation strategy",
+  "IncludeId": "soluta",
+  "HierarchyId": 373,
+  "Source": "totam",
+  "Registered": "2003-02-26T03:31:25.9634399+01:00",
+  "RegisteredAssociateId": 222,
+  "Updated": "2005-03-04T03:31:25.9634399+01:00",
+  "UpdatedAssociateId": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 542
     }
   }
 }

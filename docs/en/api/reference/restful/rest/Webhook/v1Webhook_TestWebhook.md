@@ -47,13 +47,14 @@ Webhook definition to ping. Must contain a valid TargetUrl.
 | TargetUrl | String | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | String | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | String | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | String | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | String | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | Object | Custom HTTP Headers to add to webhook requests. |
 | Properties | Object | Custom values to inject into JSON body of webhook call. |
 | Registered | String | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | String | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | String | Email address to send error message to when this webhook state changes to too-many errors. |
 
 ## Response:
 
@@ -78,31 +79,32 @@ OK
 POST /api/v1/Webhook/Test
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 482,
-  "Name": "Bruen, Abshire and Stiedemann",
+  "WebhookId": 823,
+  "Name": "Mitchell Inc and Sons",
   "Events": [
-    "eum",
-    "optio"
+    "culpa",
+    "qui"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sit",
+  "Secret": "rerum",
   "State": "Active",
-  "Type": "sed",
+  "Type": "quisquam",
   "Headers": {
-    "Headers1": "quo",
-    "Headers2": "porro"
+    "Headers1": "aut",
+    "Headers2": "optio"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-08-02T16:00:48.8208679+02:00",
+  "Registered": "1998-03-23T03:31:33.4448734+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-09-02T16:00:48.8208679+02:00",
-  "UpdatedAssociate": null
+  "Updated": "2011-03-22T03:31:33.4448734+01:00",
+  "UpdatedAssociate": null,
+  "ErrorsEmail": "leanna_hartmann@white.info"
 }
 ```
 
@@ -114,13 +116,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ad",
+  "Message": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   }
 }

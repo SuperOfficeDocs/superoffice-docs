@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 76
+  "DocumentId": 722
 }
 ```
 
@@ -117,147 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 243,
-      "ContactName": "Strosin Inc and Sons",
-      "PersonId": 575,
-      "PersonName": "Hamill-Wilderman",
+      "ContactId": 85,
+      "ContactName": "Larson, Quitzon and Goyette",
+      "PersonId": 521,
+      "PersonName": "Hagenes-Pacocha",
       "AssociateId": 783,
-      "Address": "sed",
-      "EmailId": 647,
+      "Address": "itaque",
+      "EmailId": 451,
       "DuplicatePersonIds": [
-        668,
-        838
+        77,
+        206
       ],
-      "Name": "Schiller, Parker and Kassulke",
+      "Name": "Gleason, Schuppe and Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 768
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 542,
-      "ContactName": "Kuvalis LLC",
-      "PersonId": 549,
-      "PersonName": "Dach LLC",
-      "AssociateId": 759,
-      "Address": "esse",
-      "EmailId": 236,
+      "ContactId": 305,
+      "ContactName": "Gerlach-Cartwright",
+      "PersonId": 436,
+      "PersonName": "Okuneva Group",
+      "AssociateId": 751,
+      "Address": "voluptatem",
+      "EmailId": 353,
       "DuplicatePersonIds": [
-        270,
-        39
+        650,
+        988
       ],
-      "Name": "Jakubowski LLC",
+      "Name": "Kub-Romaguera",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 653
+          "FieldLength": 3
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 339,
-      "ContactName": "Gislason-Koepp",
-      "PersonId": 716,
-      "PersonName": "Gaylord Inc and Sons",
-      "AssociateId": 530,
-      "Address": "recusandae",
-      "EmailId": 506,
+      "ContactId": 255,
+      "ContactName": "Ratke Group",
+      "PersonId": 554,
+      "PersonName": "Gislason LLC",
+      "AssociateId": 72,
+      "Address": "doloremque",
+      "EmailId": 319,
       "DuplicatePersonIds": [
-        387,
-        330
+        472,
+        383
       ],
-      "Name": "McCullough Group",
+      "Name": "Hackett, Hauck and Roob",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
   ],
-  "Subject": "sapiente",
-  "HTMLBody": "dolor",
+  "Subject": "cupiditate",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2001-11-17T16:00:40.9456053+01:00",
-  "Size": 789,
+  "Sent": "2016-04-19T03:31:26.4957222+02:00",
+  "Size": 313,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "provident",
-  "PlainBody": "odit",
-  "IsSent": false,
+  "MessageID": "debitis",
+  "PlainBody": "ea",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 415,
+  "ServerId": 638,
   "Attachments": [
     {
-      "Description": "Realigned encompassing software",
-      "Filename": "illum",
-      "Size": 104,
-      "Type": "fugit",
-      "Encoding": "qui",
-      "Id": "id",
-      "Disposition": "reprehenderit",
+      "Description": "Visionary interactive system engine",
+      "Filename": "iure",
+      "Size": 527,
+      "Type": "ipsa",
+      "Encoding": "architecto",
+      "Id": "eos",
+      "Disposition": "iste",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 409
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Sawayn LLC",
+      "Name": "Zieme, Feest and Swift",
       "Values": [
-        "minima",
-        "beatae"
+        "qui",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 73
         }
       }
     },
     {
-      "Name": "Sawayn LLC",
+      "Name": "Zieme, Feest and Swift",
       "Values": [
-        "minima",
-        "beatae"
+        "qui",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 73
         }
       }
     }
   ],
-  "FolderName": "Langosh, Johnson and Koch",
-  "EmailItemId": 149,
-  "AccountId": 272,
-  "ReceivedAt": "1998-01-30T16:00:40.9456053+01:00",
+  "FolderName": "Walsh-Von",
+  "EmailItemId": 94,
+  "AccountId": 867,
+  "ReceivedAt": "2004-12-01T03:31:26.4957222+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-07-31T16:00:40.9456053+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2004-07-24T03:31:26.4957222+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -265,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 152
     }
   }
 }

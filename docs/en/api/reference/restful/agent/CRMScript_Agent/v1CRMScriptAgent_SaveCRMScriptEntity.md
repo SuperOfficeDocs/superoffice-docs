@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 721,
-  "UniqueIdentifier": "eum",
-  "Name": "Gusikowski, Terry and Spinka",
-  "Description": "Object-based intermediate complexity",
-  "IncludeId": "nisi",
-  "HierarchyId": 278,
-  "Source": "blanditiis",
-  "Registered": "1996-12-07T16:00:40.4768796+01:00",
-  "RegisteredAssociateId": 527,
-  "Updated": "2003-12-24T16:00:40.4768796+01:00",
-  "UpdatedAssociateId": 38
+  "EjscriptId": 204,
+  "UniqueIdentifier": "repellat",
+  "Name": "Altenwerth Group",
+  "Description": "Advanced disintermediate productivity",
+  "IncludeId": "dolorem",
+  "HierarchyId": 736,
+  "Source": "molestiae",
+  "Registered": "2011-07-30T03:31:25.9634399+02:00",
+  "RegisteredAssociateId": 809,
+  "Updated": "2009-09-28T03:31:25.9634399+02:00",
+  "UpdatedAssociateId": 688
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 842,
-  "UniqueIdentifier": "dolor",
-  "Name": "Will LLC",
-  "Description": "Synergized directional moratorium",
-  "IncludeId": "aut",
-  "HierarchyId": 183,
-  "Source": "omnis",
-  "Registered": "2010-10-16T16:00:40.4768796+02:00",
-  "RegisteredAssociateId": 55,
-  "Updated": "2010-04-10T16:00:40.4768796+02:00",
-  "UpdatedAssociateId": 70,
+  "EjscriptId": 40,
+  "UniqueIdentifier": "et",
+  "Name": "Lowe, Cruickshank and Gutkowski",
+  "Description": "Virtual directional frame",
+  "IncludeId": "qui",
+  "HierarchyId": 528,
+  "Source": "dignissimos",
+  "Registered": "1998-07-31T03:31:25.9634399+02:00",
+  "RegisteredAssociateId": 389,
+  "Updated": "1999-04-28T03:31:25.9634399+02:00",
+  "UpdatedAssociateId": 429,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 519
     }
   }
 }

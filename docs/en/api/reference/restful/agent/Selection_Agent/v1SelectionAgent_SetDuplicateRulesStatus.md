@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Swift-Mante",
-      "DisplayName": "O'Reilly LLC",
-      "DisplayTooltip": "eaque",
+      "Name": "Kutch LLC",
+      "DisplayName": "Lesch Inc and Sons",
+      "DisplayTooltip": "totam",
       "IsActive": false
     },
     {
-      "Name": "Swift-Mante",
-      "DisplayName": "O'Reilly LLC",
-      "DisplayTooltip": "eaque",
+      "Name": "Kutch LLC",
+      "DisplayName": "Lesch Inc and Sons",
+      "DisplayTooltip": "totam",
       "IsActive": false
     }
   ]

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 575,
-    "Name": "Zieme Inc and Sons",
-    "Tooltip": "minima",
+    "HeadingId": 376,
+    "Name": "Hane-Kautzer",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "Rank": 130,
-    "UdListDefinitionId": 141
+    "Rank": 582,
+    "UdListDefinitionId": 311
   },
   {
-    "HeadingId": 575,
-    "Name": "Zieme Inc and Sons",
-    "Tooltip": "minima",
+    "HeadingId": 376,
+    "Name": "Hane-Kautzer",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "Rank": 130,
-    "UdListDefinitionId": 141
+    "Rank": 582,
+    "UdListDefinitionId": 311
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 835,
-    "Name": "Schamberger, Terry and Runolfsdottir",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 779,
-    "UdListDefinitionId": 979,
+    "HeadingId": 635,
+    "Name": "Howe LLC",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "Rank": 608,
+    "UdListDefinitionId": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 571
       }
     }
   }

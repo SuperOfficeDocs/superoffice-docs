@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 586,
-  "ERPQuoteAlternativeKey": "delectus",
-  "QuoteVersionId": 495,
-  "Name": "Lindgren, Brown and Schmeler",
-  "Description": "Centralized bottom-line initiative",
+  "QuoteAlternativeId": 436,
+  "ERPQuoteAlternativeKey": "officiis",
+  "QuoteVersionId": 195,
+  "Name": "Roob, Mayer and Runolfsdottir",
+  "Description": "User-centric 3rd generation support",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17252.67,
-  "ERPDiscountAmount": 26855.246,
-  "DiscountPercent": 9599.442,
-  "DiscountAmount": 27435.036,
+  "ERPDiscountPercent": 1197.1879999999999,
+  "ERPDiscountAmount": 7684.5679999999993,
+  "DiscountPercent": 11000.34,
+  "DiscountAmount": 9254.702,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 23727.514,
-  "EarningPercent": 24711.59,
-  "EarningAmount": 8380.3159999999989,
-  "SubTotal": 7637.558,
-  "TotalPrice": 25419.874,
-  "ExtraField1": "doloribus",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "sed",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "laudantium",
+  "VATInfo": "adipisci",
+  "VAT": 20251.908,
+  "EarningPercent": 1968.152,
+  "EarningAmount": 26604.525999999998,
+  "SubTotal": 28437.915999999997,
+  "TotalPrice": 13451.127999999999,
+  "ExtraField1": "hic",
+  "ExtraField2": "consequatur",
+  "ExtraField3": "accusamus",
+  "ExtraField4": "exercitationem",
+  "ExtraField5": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

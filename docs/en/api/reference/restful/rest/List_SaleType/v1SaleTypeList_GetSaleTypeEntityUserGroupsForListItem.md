@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Rempel, Keebler and Kunde",
-    "ToolTip": "Laborum nemo labore corporis magnam at.",
+    "Id": 319,
+    "Name": "Strosin-Cruickshank",
+    "ToolTip": "Doloremque sunt sunt blanditiis.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "earum",
-    "ColorBlock": 146,
-    "IconHint": "voluptatem",
+    "Rank": 468,
+    "Type": "temporibus",
+    "ColorBlock": 714,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2010-10-18T16:00:49.3208058+02:00",
+    "LastChanged": "1997-06-12T03:31:33.8679659+02:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Ankunding, Rath and Kozey",
-        "ToolTip": "Error eos optio.",
+        "Id": 664,
+        "Name": "Hackett, King and Carroll",
+        "ToolTip": "Rerum dolorum tenetur odio voluptatibus suscipit voluptatem.",
         "Deleted": false,
-        "Rank": 4,
-        "Type": "tenetur",
-        "ColorBlock": 80,
-        "IconHint": "odit",
+        "Rank": 827,
+        "Type": "aut",
+        "ColorBlock": 812,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2022-04-04T16:00:49.3208058+02:00",
+        "LastChanged": "2014-11-02T03:31:33.8679659+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Natasha Torp",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Noelia Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldLength": 94
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Sydnee Gleichner",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Miss Wilmer Luis Ebert Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 787
       }
     }
   }

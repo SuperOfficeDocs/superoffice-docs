@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 605,
-  "Name": "Kunze, Johnson and Kemmer",
-  "Tooltip": "qui",
-  "Rank": 440,
+  "SaleTypeId": 794,
+  "Name": "Bode-Schmitt",
+  "Tooltip": "earum",
+  "Rank": 305,
   "DurationUnit": "Century",
-  "SaleDuration": 157,
-  "SaleTypeCatId": 303,
+  "SaleDuration": 123,
+  "SaleTypeCatId": 75,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 781,
-  "QuoteLinesTemplate": 10,
-  "ConfirmationLinesTemplate": 61,
+  "DefaultQuoteValidity": 958,
+  "QuoteLinesTemplate": 18,
+  "ConfirmationLinesTemplate": 860,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 846,
-  "MinEarningPercent": 110,
-  "GroupQuoteLinesBy": 215,
-  "SortGroupLinesBy": 117,
+  "MaxDiscountPercent": 185,
+  "MinEarningPercent": 139,
+  "GroupQuoteLinesBy": 156,
+  "SortGroupLinesBy": 602,
   "Stages": [
     {
-      "Id": 739,
-      "Name": "Hansen-Feil",
-      "ToolTip": "Optio voluptate velit.",
-      "Deleted": true,
-      "Rank": 599,
-      "Type": "nam",
-      "ColorBlock": 194,
-      "IconHint": "harum",
-      "Selected": true,
-      "LastChanged": "1999-07-07T16:00:41.2268306+02:00",
+      "Id": 946,
+      "Name": "Mante Inc and Sons",
+      "ToolTip": "Saepe qui quia ab recusandae optio.",
+      "Deleted": false,
+      "Rank": 492,
+      "Type": "laboriosam",
+      "ColorBlock": 226,
+      "IconHint": "expedita",
+      "Selected": false,
+      "LastChanged": "2022-03-13T03:31:26.7300385+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "repudiandae",
-      "Hidden": true,
-      "FullName": "Lia Barry Schneider I"
+      "ExtraInfo": "ad",
+      "StyleHint": "ipsa",
+      "Hidden": false,
+      "FullName": "Jovan Bins"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 412,
-  "Name": "Harber, Kulas and Wolff",
-  "Tooltip": "autem",
-  "Rank": 233,
+  "SaleTypeId": 351,
+  "Name": "Pfeffer-Rohan",
+  "Tooltip": "ut",
+  "Rank": 858,
   "DurationUnit": "Century",
-  "SaleDuration": 644,
-  "SaleTypeCatId": 512,
+  "SaleDuration": 220,
+  "SaleTypeCatId": 277,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 889,
-  "QuoteLinesTemplate": 770,
-  "ConfirmationLinesTemplate": 867,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 51,
+  "QuoteLinesTemplate": 769,
+  "ConfirmationLinesTemplate": 669,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 180,
-  "MinEarningPercent": 974,
-  "GroupQuoteLinesBy": 263,
-  "SortGroupLinesBy": 516,
+  "MaxDiscountPercent": 866,
+  "MinEarningPercent": 905,
+  "GroupQuoteLinesBy": 715,
+  "SortGroupLinesBy": 932,
   "Stages": [
     {
-      "Id": 608,
-      "Name": "Parisian-Johns",
-      "ToolTip": "Cumque ipsam tempore.",
+      "Id": 121,
+      "Name": "Schumm-Beier",
+      "ToolTip": "Aut tempore fugit ipsum aut.",
       "Deleted": false,
-      "Rank": 608,
-      "Type": "voluptas",
-      "ColorBlock": 61,
-      "IconHint": "quos",
-      "Selected": false,
-      "LastChanged": "2013-08-31T16:00:41.2268306+02:00",
+      "Rank": 1001,
+      "Type": "possimus",
+      "ColorBlock": 154,
+      "IconHint": "voluptates",
+      "Selected": true,
+      "LastChanged": "2018-09-29T03:31:26.7300385+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "placeat",
-      "Hidden": true,
-      "FullName": "Dustin Goodwin",
+      "ExtraInfo": "blanditiis",
+      "StyleHint": "rerum",
+      "Hidden": false,
+      "FullName": "Diego Mariane Goodwin PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 872
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldType": "System.String",
+      "FieldLength": 870
     }
   }
 }

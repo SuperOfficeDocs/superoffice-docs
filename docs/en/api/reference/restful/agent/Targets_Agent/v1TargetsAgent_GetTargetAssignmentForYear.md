@@ -88,10 +88,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 900,
+  "TargetYear": 320,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 278
+  "Id": 13
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 428,
+  "TargetAssignmentInfoId": 669,
   "Values": [
-    470,
-    201
+    465,
+    383
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 181,
-  "DimensionListItemDisplayName": "Fay, Bosco and Keeling",
+  "DimensionListItem": 989,
+  "DimensionListItemDisplayName": "Boyer-Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 04 May 2003 16:00:47 G5T
+Last-Modified: Thu, 30 Apr 2020 03:31:32 G4T
 
 [
   {
-    "ForeignDeviceId": 312,
-    "Name": "Ledner-Ernser",
-    "CreatedDate": "2010-02-09T16:00:47.9772018+01:00",
-    "UpdatedDate": "2003-05-04T16:00:47.9772018+02:00",
-    "AssociateFullName": "Leonor Haley DDS",
-    "CreatedBy": "neque",
-    "UpdatedBy": "qui",
-    "DeviceIdentifier": "incidunt",
-    "ForeignAppId": 472,
+    "ForeignDeviceId": 636,
+    "Name": "Wolf-Price",
+    "CreatedDate": "2009-10-16T03:31:32.6289016+02:00",
+    "UpdatedDate": "2020-04-30T03:31:32.6289016+02:00",
+    "AssociateFullName": "Trycia Steuber",
+    "CreatedBy": "at",
+    "UpdatedBy": "sint",
+    "DeviceIdentifier": "atque",
+    "ForeignAppId": 424,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 708
       }
     }
   }

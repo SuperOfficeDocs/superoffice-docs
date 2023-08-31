@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 487
+  "ContactId": 544
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 21959.938,
-  "Wgs84Longitude": 17396.834,
+  "Wgs84Latitude": 372.94599999999997,
+  "Wgs84Longitude": 17189.989999999998,
   "LocalizedAddress": [
     [
       {
-        "Name": "Okuneva-Murphy",
-        "Value": "iure",
-        "Tooltip": "voluptas",
-        "Label": "necessitatibus",
-        "ValueLength": 944,
-        "AddressType": "aperiam",
+        "Name": "Monahan Group",
+        "Value": "et",
+        "Tooltip": "molestiae",
+        "Label": "enim",
+        "ValueLength": 886,
+        "AddressType": "velit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldLength": 712
           }
         }
       }
     ],
     [
       {
-        "Name": "Kuhic-D'Amore",
-        "Value": "magni",
-        "Tooltip": "repudiandae",
-        "Label": "enim",
-        "ValueLength": 742,
-        "AddressType": "id",
+        "Name": "Steuber Inc and Sons",
+        "Value": "at",
+        "Tooltip": "sequi",
+        "Label": "consectetur",
+        "ValueLength": 984,
+        "AddressType": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 935
+            "FieldType": "System.String",
+            "FieldLength": 642
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "corrupti",
+  "Formatted": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 810
     }
   }
 }

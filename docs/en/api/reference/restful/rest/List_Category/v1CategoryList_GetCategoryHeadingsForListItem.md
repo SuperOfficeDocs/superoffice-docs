@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Gulgowski-Littel",
-    "ToolTip": "Voluptatibus quia maxime qui facere est necessitatibus.",
+    "Id": 726,
+    "Name": "Sawayn-Yost",
+    "ToolTip": "Neque est sunt.",
     "Deleted": false,
-    "Rank": 136,
-    "Type": "eligendi",
-    "ColorBlock": 357,
-    "IconHint": "doloribus",
+    "Rank": 172,
+    "Type": "et",
+    "ColorBlock": 87,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2008-05-06T16:00:48.8833485+02:00",
+    "LastChanged": "2016-03-08T03:31:33.5073635+01:00",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Moen, Roob and Pagac",
-        "ToolTip": "Doloremque est ipsa cum vel.",
-        "Deleted": false,
-        "Rank": 416,
-        "Type": "accusamus",
-        "ColorBlock": 54,
-        "IconHint": "eum",
+        "Id": 689,
+        "Name": "Leannon Inc and Sons",
+        "ToolTip": "Eum repudiandae reprehenderit repellendus nobis molestiae.",
+        "Deleted": true,
+        "Rank": 38,
+        "Type": "ex",
+        "ColorBlock": 285,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2011-05-15T16:00:48.8833485+02:00",
+        "LastChanged": "2001-12-18T03:31:33.5073635+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "sunt",
         "Hidden": true,
-        "FullName": "Aubrey Gleichner",
+        "FullName": "Andreane Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 852
+            "FieldLength": 879
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Jocelyn Rice",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Gwendolyn Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 276
       }
     }
   }

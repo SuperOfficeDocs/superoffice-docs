@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 743,
-  "ListItemId": 85,
+  "UdListDefinitionId": 741,
+  "ListItemId": 643,
   "UserGroups": [
     {
-      "Id": 78,
-      "Name": "Gulgowski LLC",
-      "ToolTip": "Aut doloremque facilis ab totam illum.",
-      "Deleted": false,
-      "Rank": 802,
-      "Type": "officiis",
-      "ColorBlock": 573,
-      "IconHint": "similique",
-      "Selected": false,
-      "LastChanged": "2016-12-16T16:00:41.1487084+01:00",
+      "Id": 257,
+      "Name": "Spencer, Yost and Satterfield",
+      "ToolTip": "Et exercitationem doloremque ab error eum.",
+      "Deleted": true,
+      "Rank": 360,
+      "Type": "nam",
+      "ColorBlock": 793,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2017-10-03T03:31:26.6675558+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorem",
-      "StyleHint": "nostrum",
+      "ExtraInfo": "sed",
+      "StyleHint": "alias",
       "Hidden": false,
-      "FullName": "Maiya Mohr"
+      "FullName": "D'angelo Kuphal"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Stamm Inc and Sons",
-    "ToolTip": "Accusamus accusamus dignissimos sit.",
+    "Id": 295,
+    "Name": "Stiedemann Group",
+    "ToolTip": "Laborum dolorem rerum culpa nisi nisi deserunt repellat.",
     "Deleted": false,
-    "Rank": 190,
-    "Type": "aut",
-    "ColorBlock": 988,
-    "IconHint": "voluptatibus",
+    "Rank": 298,
+    "Type": "pariatur",
+    "ColorBlock": 861,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2020-03-10T16:00:41.1487084+01:00",
+    "LastChanged": "2015-04-12T03:31:26.6675558+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Beier-Gaylord",
-        "ToolTip": "Voluptates eos ipsum.",
-        "Deleted": false,
-        "Rank": 338,
-        "Type": "facere",
-        "ColorBlock": 402,
-        "IconHint": "suscipit",
-        "Selected": true,
-        "LastChanged": "2011-11-22T16:00:41.1487084+01:00",
+        "Id": 259,
+        "Name": "Schiller-Langosh",
+        "ToolTip": "Corrupti placeat ea accusantium aut suscipit quo.",
+        "Deleted": true,
+        "Rank": 657,
+        "Type": "nesciunt",
+        "ColorBlock": 399,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2007-10-29T03:31:26.6675558+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "harum",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Devin Orn",
+        "FullName": "Prof. Itzel Cormier Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 482
+            "FieldType": "System.Int32",
+            "FieldLength": 870
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Edna Adams",
+    "ExtraInfo": "quas",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Emmanuelle Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 505
       }
     }
   }

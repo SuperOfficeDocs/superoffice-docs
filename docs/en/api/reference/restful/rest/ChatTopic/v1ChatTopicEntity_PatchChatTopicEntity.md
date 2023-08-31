@@ -72,7 +72,7 @@ PATCH /api/v1/ChatTopic/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -162,21 +162,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 774,
-  "Name": "Kutch-Roberts",
-  "Description": "Digitized discrete core",
-  "WelcomeMessage": "dolor",
+  "ChatTopicId": 737,
+  "Name": "Champlin LLC",
+  "Description": "Integrated attitude-oriented parallelism",
+  "WelcomeMessage": "sunt",
   "Language": null,
-  "LastAccept": "2000-02-14T16:00:47.6803565+01:00",
-  "SecondsPrAccept": 741,
-  "AlertRecipient": "voluptatem",
+  "LastAccept": "2019-08-07T03:31:32.363348+02:00",
+  "SecondsPrAccept": 678,
+  "AlertRecipient": "laborum",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "temporibus",
+  "CollectConsent": true,
+  "BadgeHeader": "placeat",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ratione",
-  "WarnNewChatMinutes": 501,
-  "WarnManagerNewChatMinutes": 393,
+  "CustomQueueText": "eum",
+  "WarnNewChatMinutes": 942,
+  "WarnManagerNewChatMinutes": 850,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 329,
-  "WarnManagerChatMessageMinutes": 312,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 408,
-  "OfflineFormQueueLength": 752,
+  "WarnChatMessageMinutes": 852,
+  "WarnManagerChatMessageMinutes": 296,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 250,
+  "OfflineFormQueueLength": 236,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "illo",
+  "WidgetRatingText": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 268
     }
   },
   "_Links": {

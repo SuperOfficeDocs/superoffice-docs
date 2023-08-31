@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Lakin-Hettinger",
-    "ToolTip": "Itaque quos velit harum.",
-    "Deleted": true,
-    "Rank": 938,
-    "Type": "dolor",
-    "ColorBlock": 441,
-    "IconHint": "necessitatibus",
+    "Id": 190,
+    "Name": "Dare, Goodwin and Feil",
+    "ToolTip": "Aut atque quas soluta qui.",
+    "Deleted": false,
+    "Rank": 741,
+    "Type": "quidem",
+    "ColorBlock": 866,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2015-11-17T16:00:49.2583068+01:00",
+    "LastChanged": "2003-01-30T03:31:33.8210957+01:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Stokes Inc and Sons",
-        "ToolTip": "Distinctio consequatur harum illum.",
+        "Id": 917,
+        "Name": "Corkery Group",
+        "ToolTip": "Et non eius impedit vitae et nulla ex.",
         "Deleted": false,
-        "Rank": 151,
-        "Type": "omnis",
-        "ColorBlock": 61,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2008-08-17T16:00:49.2583068+02:00",
+        "Rank": 576,
+        "Type": "itaque",
+        "ColorBlock": 676,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2013-07-24T03:31:33.8210957+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ut",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Weldon Gleichner"
+        "FullName": "Prof. Ronny Mohr"
       }
     ],
-    "ExtraInfo": "esse",
+    "ExtraInfo": "odit",
     "StyleHint": "voluptas",
     "Hidden": true,
-    "FullName": "Archibald Schmidt"
+    "FullName": "Corrine Aufderhar"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Larkin-Littel",
-    "ToolTip": "Non iure.",
+    "Id": 335,
+    "Name": "Murray-Shanahan",
+    "ToolTip": "Omnis voluptatem.",
     "Deleted": false,
-    "Rank": 772,
-    "Type": "placeat",
-    "ColorBlock": 560,
-    "IconHint": "quam",
+    "Rank": 838,
+    "Type": "qui",
+    "ColorBlock": 939,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "1998-01-09T16:00:49.2583068+01:00",
+    "LastChanged": "2007-01-06T03:31:33.8210957+01:00",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "West Group",
-        "ToolTip": "Est qui facere.",
-        "Deleted": false,
-        "Rank": 709,
-        "Type": "maxime",
-        "ColorBlock": 338,
-        "IconHint": "temporibus",
+        "Id": 118,
+        "Name": "Boyer, Ward and Baumbach",
+        "ToolTip": "Quis aut perspiciatis.",
+        "Deleted": true,
+        "Rank": 571,
+        "Type": "quod",
+        "ColorBlock": 684,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2007-09-25T16:00:49.2583068+02:00",
+        "LastChanged": "2017-11-08T03:31:33.8210957+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Ms. Hailee Wolff",
+        "ExtraInfo": "maiores",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Payton Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 920
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "omnis",
+    "ExtraInfo": "qui",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Otha Lubowitz",
+    "FullName": "Rodrigo Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldLength": 448
       }
     }
   }

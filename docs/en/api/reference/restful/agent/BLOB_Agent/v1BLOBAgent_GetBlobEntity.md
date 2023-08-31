@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=161
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=858
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 41,
-  "BlobSize": 460,
-  "Description": "Exclusive scalable throughput",
-  "ExtraInfo": "enim",
-  "IsEncrypted": false,
+  "BlobId": 739,
+  "BlobSize": 570,
+  "Description": "Front-line holistic moratorium",
+  "ExtraInfo": "in",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "repellendus",
-  "OriginalSize": 565,
-  "CreatedDate": "2014-10-30T16:00:40.1175682+01:00",
-  "UpdatedDate": "2015-06-16T16:00:40.1175682+02:00",
+  "MimeType": "aut",
+  "OriginalSize": 650,
+  "CreatedDate": "2011-04-13T03:31:25.6496314+02:00",
+  "UpdatedDate": "2002-05-05T03:31:25.6496314+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vel",
+  "ConceptualType": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 424
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   }
 }

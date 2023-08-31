@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 820,
-  "Name": "Beahan Group",
-  "Tooltip": "eaque",
+  "HeadingId": 947,
+  "Name": "Goodwin-Champlin",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 634,
-  "UdListDefinitionId": 708
+  "Rank": 4,
+  "UdListDefinitionId": 606
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 669,
-  "Name": "Oberbrunner-Beatty",
-  "Tooltip": "consequuntur",
-  "Deleted": true,
-  "Rank": 427,
-  "UdListDefinitionId": 116,
+  "HeadingId": 346,
+  "Name": "Gorczany-Ledner",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 396,
+  "UdListDefinitionId": 640,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   }
 }

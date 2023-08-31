@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 878,
-  "Name": "Ebert-Kuhlman",
-  "CreatedDate": "2021-06-02T16:00:47.9459565+02:00",
-  "UpdatedDate": "2001-05-12T16:00:47.9459565+02:00",
+  "ForeignAppId": 562,
+  "Name": "Braun Inc and Sons",
+  "CreatedDate": "2023-01-14T03:31:32.6132803+01:00",
+  "UpdatedDate": "2006-07-22T03:31:32.6132803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 967,
-      "Name": "Wilkinson Inc and Sons",
-      "CreatedDate": "2002-01-25T16:00:47.9459565+01:00",
-      "UpdatedDate": "1999-08-21T16:00:47.9459565+02:00",
-      "AssociateFullName": "Tyra Leannon",
-      "CreatedBy": "quia",
-      "UpdatedBy": "minus",
-      "DeviceIdentifier": "necessitatibus",
-      "ForeignAppId": 961,
+      "ForeignDeviceId": 468,
+      "Name": "Brown Group",
+      "CreatedDate": "2018-08-01T03:31:32.6132803+02:00",
+      "UpdatedDate": "2010-07-06T03:31:32.6132803+02:00",
+      "AssociateFullName": "Ms. Janessa Leon Breitenberg PhD",
+      "CreatedBy": "blanditiis",
+      "UpdatedBy": "expedita",
+      "DeviceIdentifier": "quis",
+      "ForeignAppId": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 919
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldType": "System.Int32",
+      "FieldLength": 598
     }
   }
 }

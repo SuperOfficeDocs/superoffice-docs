@@ -64,18 +64,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Botsford, Hyatt and Gerlach",
-      "State": false
+      "Name": "Carroll-Mertz",
+      "State": true
     },
     {
-      "Name": "Botsford, Hyatt and Gerlach",
-      "State": false
+      "Name": "Carroll-Mertz",
+      "State": true
     }
   ]
 }

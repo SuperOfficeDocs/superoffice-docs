@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Smith-Jast",
-  "ProviderName": "Cole-Fritsch",
+  "GuiName": "Jewess LLC",
+  "ProviderName": "Conn-Nikolaus",
   "SortOrder": [
     {
-      "Name": "Mueller, Gibson and Keebler",
+      "Name": "Lemke, Howell and Lynch",
       "Direction": "ASC"
     },
     {
-      "Name": "Mueller, Gibson and Keebler",
+      "Name": "Lemke, Howell and Lynch",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bailey, Kuphal and Dare",
-      "Operator": "qui",
+      "Name": "Wiegand Group",
+      "Operator": "ducimus",
       "Values": [
-        "harum",
-        "aut"
+        "omnis",
+        "ut"
       ],
       "DisplayValues": [
-        "impedit",
-        "molestiae"
+        "cupiditate",
+        "dolorum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 75,
+      "InterParenthesis": 718,
       "InterOperator": "And",
-      "UniqueHash": 285
+      "UniqueHash": 512
     }
   ],
   "Entities": [
-    "eveniet",
-    "sit"
+    "quis",
+    "eaque"
   ],
-  "Page": 511,
-  "PageSize": 734,
-  "Context": "quidem"
+  "Page": 13,
+  "PageSize": 986,
+  "Context": "sapiente"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Christiansen, Abshire and Rippin",
-    "PrimaryKey": 772,
+    "EntityName": "Zemlak-Kuvalis",
+    "PrimaryKey": 54,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quaerat",
-        "TooltipHint": "voluptatibus",
-        "LinkHint": "dolor"
+        "DisplayValue": "reiciendis",
+        "TooltipHint": "assumenda",
+        "LinkHint": "neque"
       }
     },
-    "LinkHint": "dolorem",
-    "StyleHint": "sit",
+    "LinkHint": "aut",
+    "StyleHint": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

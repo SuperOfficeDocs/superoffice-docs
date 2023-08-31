@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 582,
-  "Name": "Parisian-Bauch",
-  "Tooltip": "dolorem",
+  "Id": 376,
+  "Name": "O'Conner Inc and Sons",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 61,
-  "Rank": 463
+  "UdListDefinitionId": 254,
+  "Rank": 913
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 912,
-  "Name": "Hermann-Cassin",
-  "Tooltip": "quaerat",
-  "Deleted": true,
-  "UdListDefinitionId": 852,
-  "Rank": 418,
+  "Id": 800,
+  "Name": "Jacobson-Bartell",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "UdListDefinitionId": 824,
+  "Rank": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   }
 }

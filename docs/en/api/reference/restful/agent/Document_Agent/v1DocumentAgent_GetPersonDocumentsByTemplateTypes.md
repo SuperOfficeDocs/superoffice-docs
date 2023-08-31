@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 339,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2007-10-04T16:00:40.5862498+02:00",
-  "EndTime": "2017-03-19T16:00:40.5862498+01:00",
-  "Count": 371,
+  "PersonId": 833,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2007-02-19T03:31:26.0583393+01:00",
+  "EndTime": "2002-06-02T03:31:26.0583393+02:00",
+  "Count": 94,
   "DocumentTemplateIds": [
-    139,
-    626
+    395,
+    244
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 2,
-    "Attention": "doloribus",
-    "Header": "est",
-    "Name": "Herzog-Kutch",
-    "OurRef": "vero",
-    "YourRef": "quae",
-    "Description": "Synergized asynchronous orchestration",
-    "DocumentTemplate": "earum",
+    "DocumentId": 628,
+    "Attention": "et",
+    "Header": "deserunt",
+    "Name": "Wilkinson-Barton",
+    "OurRef": "in",
+    "YourRef": "culpa",
+    "Description": "Organized directional strategy",
+    "DocumentTemplate": "veniam",
     "IsPublished": false,
-    "PersonId": 62,
-    "PersonFullName": "Dayana Cruickshank",
-    "AssociateFullName": "Ms. Earnestine Reichert Jr.",
-    "ContactId": 689,
-    "ContactName": "Dickens-Pfeffer",
-    "ProjectId": 508,
-    "ProjectName": "Marks LLC",
-    "AssociateId": 598,
-    "Snum": 44,
-    "SaleId": 713,
-    "SaleName": "Kiehn, Ruecker and Lemke",
+    "PersonId": 809,
+    "PersonFullName": "Paolo Keeling",
+    "AssociateFullName": "Armando Heller",
+    "ContactId": 687,
+    "ContactName": "Welch Group",
+    "ProjectId": 222,
+    "ProjectName": "Lueilwitz, Wintheiser and O'Keefe",
+    "AssociateId": 258,
+    "Snum": 806,
+    "SaleId": 192,
+    "SaleName": "Powlowski, Lebsack and Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 324
       }
     }
   }

@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 21 Jul 2005 16:00:48 G7T
+Last-Modified: Sat, 20 Jul 2013 03:31:32 G7T
 
 {
-  "Description": "Exclusive encompassing website",
-  "Postit": "omnis",
+  "Description": "Sharable maximized algorithm",
+  "Postit": "consequuntur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 484,
-  "IncludePerson": 31,
-  "MemberCount": 677,
-  "Name": "Torp Group",
-  "PostitTextId": 330,
-  "CreatedDate": "2020-07-17T16:00:48.4146492+02:00",
-  "SelectionId": 879,
-  "SoundEx": "voluptate",
-  "Source": 818,
-  "TextId": 41,
-  "UpdatedDate": "2005-07-21T16:00:48.4146492+02:00",
-  "UpdatedCount": 400,
-  "Visibility": 317,
+  "GroupIdx": 662,
+  "IncludePerson": 752,
+  "MemberCount": 220,
+  "Name": "Jacobi-Waelchi",
+  "PostitTextId": 16,
+  "CreatedDate": "2002-02-10T03:31:32.9257016+01:00",
+  "SelectionId": 753,
+  "SoundEx": "sapiente",
+  "Source": 198,
+  "TextId": 791,
+  "UpdatedDate": "2013-07-20T03:31:32.9257016+02:00",
+  "UpdatedCount": 752,
+  "Visibility": 543,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 453,
-  "TargetTableName": "Pollich-Witting",
+  "TargetTableNumber": 645,
+  "TargetTableName": "Mueller-Nicolas",
   "Completed": false,
-  "LeftSelectionId": 389,
-  "RightSelectionId": 908,
+  "LeftSelectionId": 215,
+  "RightSelectionId": 27,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hickle-Carter",
-  "ShadowProviderName": "Casper-Schimmel",
-  "ChartKey": "provident",
-  "LastLoaded": "1997-12-20T16:00:48.4146492+01:00",
-  "LastLoadedBy": 413,
+  "MainProviderName": "Watsica, Jacobs and Schuppe",
+  "ShadowProviderName": "Flatley, Renner and Parker",
+  "ChartKey": "animi",
+  "LastLoaded": "2003-05-08T03:31:32.9257016+02:00",
+  "LastLoadedBy": 690,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-08-17T16:00:48.4146492+02:00",
-  "LastMembershipChangeBy": 365,
+  "LastMembershipChange": "2015-06-26T03:31:32.9257016+02:00",
+  "LastMembershipChangeBy": 496,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "pariatur",
-  "MemberTabHeading": "quo",
-  "MailingsProviderName": "Huel-O'Conner",
-  "DashboardTileDefinitionId": 968,
+  "MainHeading": "a",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Kshlerin, Gusikowski and Leffler",
+  "DashboardTileDefinitionId": 350,
   "VisibleFor": [
     {
-      "VisibleId": 467,
+      "VisibleId": 33,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldLength": 546
         }
       }
     },
     {
-      "VisibleId": 467,
+      "VisibleId": 33,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 432
+          "FieldLength": 546
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Thu, 21 Jul 2005 16:00:48 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 969
     }
   }
 }

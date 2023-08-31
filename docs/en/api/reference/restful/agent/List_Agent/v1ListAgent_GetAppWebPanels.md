@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 345,
-    "Name": "Reinger, Anderson and Grimes",
-    "Tooltip": "fuga",
+    "WebPanelId": 930,
+    "Name": "Deckow-Leannon",
+    "Tooltip": "ipsum",
     "Deleted": true,
-    "Rank": 877,
+    "Rank": 629,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Jones Group",
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": true,
+    "WindowName": "Cummerata LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "omnis",
-    "Icon": 958,
+    "ProgId": "non",
+    "Icon": 719,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 601
       }
     }
   }

@@ -72,7 +72,7 @@ PATCH /api/v1/Document/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ullam",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ullam",
+    "path": "in",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 970,
+  "DocumentId": 558,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolores",
-  "Header": "tenetur",
-  "Name": "Rutherford LLC",
-  "OurRef": "dolorem",
-  "YourRef": "ut",
-  "CreatedDate": "2000-02-12T16:00:47.8990853+01:00",
-  "UpdatedDate": "2011-05-07T16:00:47.8990853+02:00",
-  "Description": "Stand-alone multi-state contingency",
+  "Attention": "vel",
+  "Header": "sint",
+  "Name": "Roberts, Ebert and Abshire",
+  "OurRef": "sit",
+  "YourRef": "laudantium",
+  "CreatedDate": "2019-09-23T03:31:32.566424+02:00",
+  "UpdatedDate": "2023-05-31T03:31:32.566424+02:00",
+  "Description": "Synergistic explicit Graphic Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-04-27T16:00:47.8990853+02:00",
-  "ExternalRef": "a",
+  "Date": "1996-08-19T03:31:32.566424+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 174,
+  "ActiveLinks": 60,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gorczany LLC",
-      "Id": 921,
-      "Description": "Right-sized 5th generation adapter",
-      "ExtraInfo": "vero",
-      "LinkId": 651,
+      "EntityName": "Harris-Ernser",
+      "Id": 103,
+      "Description": "Cross-platform transitional moderator",
+      "ExtraInfo": "inventore",
+      "LinkId": 887,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 731
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 399,
-  "Snum": 943,
+  "SuggestedDocumentId": 215,
+  "Snum": 500,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ora Koepp",
-    "SuperOffice:2": "1471699612"
+    "SuperOffice:1": "Fausto Halvorson",
+    "SuperOffice:2": "Dr. Jaron Reynolds"
   },
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "libero"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "possimus"
   },
-  "PublishEventDate": "2019-10-27T16:00:47.8990853+01:00",
-  "PublishTo": "2010-04-03T16:00:47.8990853+02:00",
-  "PublishFrom": "1997-05-05T16:00:47.8990853+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-12-09T03:31:32.566424+01:00",
+  "PublishTo": "2003-12-30T03:31:32.566424+01:00",
+  "PublishFrom": "1997-01-04T03:31:32.566424+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 399,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 717
+          "FieldType": "System.String",
+          "FieldLength": 689
         }
       }
     },
     {
-      "VisibleId": 399,
+      "VisibleId": 554,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 717
+          "FieldType": "System.String",
+          "FieldLength": 689
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldType": "System.Int32",
+      "FieldLength": 233
     }
   },
   "_Links": {

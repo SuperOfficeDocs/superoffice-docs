@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceProjectId": 383,
-  "DestinationProjectId": 830,
-  "ReplaceEmptyFieldsOnDestination": false
+  "SourceProjectId": 433,
+  "DestinationProjectId": 798,
+  "ReplaceEmptyFieldsOnDestination": true
 }
 ```
 

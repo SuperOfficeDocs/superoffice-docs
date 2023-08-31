@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    708,
-    417
+    986,
+    671
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 92,
-    "Attention": "porro",
-    "Header": "dolore",
-    "Name": "Larkin, Mayert and Ratke",
-    "OurRef": "provident",
-    "YourRef": "natus",
-    "Description": "Persistent executive analyzer",
-    "DocumentTemplate": "dolore",
-    "IsPublished": false,
-    "PersonId": 794,
-    "PersonFullName": "Florencio Hintz",
-    "AssociateFullName": "Hubert Toy",
-    "ContactId": 733,
-    "ContactName": "Doyle LLC",
-    "ProjectId": 270,
-    "ProjectName": "Frami, Bogisich and Oberbrunner",
-    "AssociateId": 179,
-    "Snum": 952,
-    "SaleId": 556,
-    "SaleName": "Walsh, McClure and Bayer",
+    "DocumentId": 971,
+    "Attention": "ipsa",
+    "Header": "neque",
+    "Name": "King Group",
+    "OurRef": "ipsa",
+    "YourRef": "et",
+    "Description": "Triple-buffered holistic implementation",
+    "DocumentTemplate": "dicta",
+    "IsPublished": true,
+    "PersonId": 850,
+    "PersonFullName": "Mr. Arlene Casper I",
+    "AssociateFullName": "Selina Williamson",
+    "ContactId": 786,
+    "ContactName": "Cole LLC",
+    "ProjectId": 410,
+    "ProjectName": "Becker Inc and Sons",
+    "AssociateId": 817,
+    "Snum": 23,
+    "SaleId": 8,
+    "SaleName": "Bins, Olson and Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 175
       }
     }
   }

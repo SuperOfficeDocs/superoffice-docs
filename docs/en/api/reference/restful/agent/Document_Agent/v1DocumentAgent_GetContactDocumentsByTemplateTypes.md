@@ -102,13 +102,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 902,
-  "StartTime": "2021-11-04T16:00:40.5550049+01:00",
-  "EndTime": "2018-05-26T16:00:40.5550049+02:00",
-  "Count": 365,
+  "ContactId": 509,
+  "StartTime": "2010-08-24T03:31:26.0427182+02:00",
+  "EndTime": "2001-05-01T03:31:26.0427182+02:00",
+  "Count": 638,
   "DocumentTemplateIds": [
-    323,
-    132
+    158,
+    197
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 261,
-    "Attention": "sit",
-    "Header": "iste",
-    "Name": "Schamberger, Zieme and Hauck",
-    "OurRef": "voluptates",
-    "YourRef": "doloremque",
-    "Description": "Down-sized hybrid orchestration",
-    "DocumentTemplate": "dignissimos",
+    "DocumentId": 473,
+    "Attention": "id",
+    "Header": "ullam",
+    "Name": "Kulas LLC",
+    "OurRef": "et",
+    "YourRef": "quo",
+    "Description": "Streamlined responsive hardware",
+    "DocumentTemplate": "error",
     "IsPublished": false,
-    "PersonId": 863,
-    "PersonFullName": "Isaiah Volkman Sr.",
-    "AssociateFullName": "Frank Schmidt",
-    "ContactId": 661,
-    "ContactName": "Brekke Inc and Sons",
-    "ProjectId": 462,
-    "ProjectName": "Crona, Armstrong and Smitham",
-    "AssociateId": 531,
-    "Snum": 675,
-    "SaleId": 678,
-    "SaleName": "Nolan-Kuhic",
+    "PersonId": 687,
+    "PersonFullName": "Nico Prohaska MD",
+    "AssociateFullName": "Mr. Richmond Kadin Sauer DVM",
+    "ContactId": 759,
+    "ContactName": "Hoppe, McGlynn and Harber",
+    "ProjectId": 355,
+    "ProjectName": "Okuneva-Goldner",
+    "AssociateId": 28,
+    "Snum": 85,
+    "SaleId": 467,
+    "SaleName": "Skiles Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 820
+        "FieldType": "System.Int32",
+        "FieldLength": 375
       }
     }
   }

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 367,
-  "Name": "Ziemann, Bailey and Kertzmann",
-  "ContentType": "vero",
-  "AttSize": 377,
+  "AttachmentId": 939,
+  "Name": "Kunze Group",
+  "ContentType": "praesentium",
+  "AttSize": 825,
   "InlineImage": true,
-  "ContentId": "et",
-  "AuthKey": "est",
+  "ContentId": "nemo",
+  "AuthKey": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 786
     }
   }
 }

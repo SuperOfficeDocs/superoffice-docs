@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 949,
-  "Name": "Witting-Tillman",
-  "Tooltip": "eligendi",
+  "Id": 107,
+  "Name": "Williamson LLC",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 367,
-  "IsCustomList": true,
+  "Rank": 269,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
-  "InUseByUserDefinedFields": true
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 699,
-  "Name": "Powlowski LLC",
-  "Tooltip": "mollitia",
+  "Id": 88,
+  "Name": "Kassulke, Brakus and Williamson",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "Rank": 125,
+  "Rank": 247,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 979
     }
   }
 }

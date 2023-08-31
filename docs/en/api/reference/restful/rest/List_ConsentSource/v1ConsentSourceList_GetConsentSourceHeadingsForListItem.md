@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Hermiston-Shanahan",
-    "ToolTip": "Ad omnis sed est nihil ut nemo.",
+    "Id": 816,
+    "Name": "Gutkowski-Tremblay",
+    "ToolTip": "Ipsa perferendis repellendus assumenda ut.",
     "Deleted": false,
-    "Rank": 999,
-    "Type": "eum",
-    "ColorBlock": 956,
+    "Rank": 211,
+    "Type": "rem",
+    "ColorBlock": 90,
     "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "1997-08-04T16:00:48.9302244+02:00",
+    "Selected": true,
+    "LastChanged": "2015-03-01T03:31:33.5386084+01:00",
     "ChildItems": [
       {
-        "Id": 815,
-        "Name": "Gibson Inc and Sons",
-        "ToolTip": "In quae perferendis accusantium et facilis nisi praesentium.",
+        "Id": 63,
+        "Name": "Rippin Inc and Sons",
+        "ToolTip": "Nam odit.",
         "Deleted": true,
-        "Rank": 292,
-        "Type": "sed",
-        "ColorBlock": 224,
-        "IconHint": "maiores",
+        "Rank": 90,
+        "Type": "aut",
+        "ColorBlock": 81,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2012-01-13T16:00:48.9302244+01:00",
+        "LastChanged": "2018-06-18T03:31:33.5386084+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Winona Considine",
+        "FullName": "Sammie Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldType": "System.String",
+            "FieldLength": 76
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "beatae",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Miss Maria Afton Auer I",
+    "FullName": "Mr. Maybell Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldType": "System.String",
+        "FieldLength": 92
       }
     }
   }

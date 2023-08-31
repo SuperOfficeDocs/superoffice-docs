@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "natus",
-    "PersonId": 841,
-    "AssociateId": 396,
-    "ExtraId": 19,
-    "ExtraInfo": "quia",
-    "Height": 637,
-    "LeftX": 294,
+    "OwnerWindow": "at",
+    "PersonId": 756,
+    "AssociateId": 736,
+    "ExtraId": 141,
+    "ExtraInfo": "nobis",
+    "Height": 49,
+    "LeftX": 973,
     "State": "Maximized",
-    "UpperY": 79,
-    "Width": 9,
-    "WindowPosSizeId": 292,
+    "UpperY": 290,
+    "Width": 826,
+    "WindowPosSizeId": 890,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 962
       }
     }
   }

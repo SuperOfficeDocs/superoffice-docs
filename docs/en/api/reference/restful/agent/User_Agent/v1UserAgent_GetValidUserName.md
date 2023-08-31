@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 326,
+  "AssociateId": 403,
   "Type": "AnonymousAssociate",
-  "PersonId": 360,
-  "UserName": "Berge, Collier and Casper"
+  "PersonId": 853,
+  "UserName": "Johnson Group"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Blanda LLC"
+"Weber-Beahan"
 ```

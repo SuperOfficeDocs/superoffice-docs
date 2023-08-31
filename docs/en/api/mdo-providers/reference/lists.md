@@ -61,7 +61,7 @@ foreach (var item in listProvider.RootItems) {
 |165|Privacy - Legal basis|||
 |166|Company - Category family|||
 |176|Task menuAufgabe“"|||
-|177|Mailing domains|||
+|178|Mailing domains|||
 |97|Document - Template|||
 |98|General - Resource|||
 |152|Company - Category|||

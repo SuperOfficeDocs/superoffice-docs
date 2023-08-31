@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 398,
-  "Name": "Ebert LLC",
-  "Tooltip": "ratione",
+  "RoleId": 924,
+  "Name": "Nitzsche LLC",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 755,
-  "Rank": 92,
-  "Created": "2007-07-21T16:00:42.2893736+02:00",
-  "UseCategories": 717,
+  "Deleted": 601,
+  "Rank": 161,
+  "Created": "2011-05-03T03:31:27.7322326+02:00",
+  "UseCategories": 114,
   "CreatedBy": null,
-  "Updated": "2001-04-06T16:00:42.2893736+02:00",
+  "Updated": "2006-12-29T03:31:27.7322326+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 957,
-  "Name": "Grant Inc and Sons",
-  "Tooltip": "cum",
+  "RoleId": 152,
+  "Name": "Bednar-O'Reilly",
+  "Tooltip": "minus",
   "RoleType": "Anonymous",
-  "Deleted": 65,
-  "Rank": 924,
-  "Created": "2022-11-10T16:00:42.2893736+01:00",
-  "UseCategories": 542,
+  "Deleted": 66,
+  "Rank": 972,
+  "Created": "2004-05-07T03:31:27.7478468+02:00",
+  "UseCategories": 160,
   "CreatedBy": null,
-  "Updated": "2020-11-04T16:00:42.2893736+01:00",
+  "Updated": "2015-07-01T03:31:27.7478468+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 280
     }
   }
 }

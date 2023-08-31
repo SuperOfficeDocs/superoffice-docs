@@ -126,16 +126,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    475,
-    366
+    853,
+    663
   ],
-  "StartTime": "2000-02-12T16:00:39.6488525+01:00",
-  "EndTime": "1997-06-10T16:00:39.6488525+02:00"
+  "StartTime": "2012-03-31T03:31:25.1313731+02:00",
+  "EndTime": "2013-07-01T03:31:25.1313731+02:00"
 }
 ```
 
@@ -147,64 +147,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 461,
-    "StartDate": "2022-02-04T16:00:39.6488525+01:00",
-    "EndDate": "2012-06-21T16:00:39.6488525+02:00",
+    "AppointmentId": 143,
+    "StartDate": "2022-12-06T03:31:25.1313731+01:00",
+    "EndDate": "1998-12-01T03:31:25.1313731+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Delores Collins",
-    "ContactName": "Wunsch, Rutherford and Ratke",
-    "Description": "Advanced 6th generation productivity",
-    "PersonFullName": "Muhammad Cruickshank",
-    "PersonId": 730,
-    "ContactId": 504,
-    "ProjectId": 198,
-    "ProjectName": "Schaefer Group",
-    "IsPublished": false,
-    "AssociateId": 643,
-    "ColorIndex": 211,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "recusandae",
+    "AssociateFullName": "Mason Barrows",
+    "ContactName": "Homenick-Boyle",
+    "Description": "Re-contextualized demand-driven parallelism",
+    "PersonFullName": "Horace Zemlak",
+    "PersonId": 396,
+    "ContactId": 449,
+    "ProjectId": 367,
+    "ProjectName": "Huels-Halvorson",
+    "IsPublished": true,
+    "AssociateId": 448,
+    "ColorIndex": 244,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 272,
-    "PriorityName": "Murray-Wolff",
+    "PriorityId": 604,
+    "PriorityName": "Hartmann Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2005-11-03T16:00:39.6488525+01:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2022-07-30T03:31:25.1313731+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-06-13T16:00:39.6488525+02:00",
-    "RecurringEndDate": "2016-01-18T16:00:39.6488525+01:00",
-    "MotherId": 623,
-    "AssignedBy": 330,
-    "AssignedByFullName": "Natasha Eichmann",
+    "RecurringStartDate": "1999-07-25T03:31:25.1313731+02:00",
+    "RecurringEndDate": "2004-12-15T03:31:25.1313731+01:00",
+    "MotherId": 320,
+    "AssignedBy": 904,
+    "AssignedByFullName": "Enoch Robel",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 165,
-    "SaleName": "McCullough, Witting and Zulauf",
-    "AssociateName": "Bogisich-Rogahn",
-    "CreatedDate": "2012-10-13T16:00:39.6488525+02:00",
-    "CreatedBy": "sint",
-    "CreatedByFullName": "Aimee Gerlach",
-    "CreatedByAssociateId": 322,
+    "Location": "adipisci",
+    "AlarmLeadTime": "officiis",
+    "SaleId": 918,
+    "SaleName": "Johnson-Jast",
+    "AssociateName": "Carroll-Wehner",
+    "CreatedDate": "2020-09-08T03:31:25.1313731+02:00",
+    "CreatedBy": "aperiam",
+    "CreatedByFullName": "Felix Schowalter",
+    "CreatedByAssociateId": 336,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "explicabo",
-    "Agenda": "qui",
-    "InternalNotes": "sunt",
+    "Title": "incidunt",
+    "Agenda": "iusto",
+    "InternalNotes": "corporis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dooley Group",
-    "DisplayName": "Morar-Gibson",
-    "DisplayTooltip": "commodi",
-    "IsActive": true
+    "Name": "Wintheiser-Schulist",
+    "DisplayName": "West, Nolan and Conroy",
+    "DisplayTooltip": "ipsum",
+    "IsActive": false
   },
   {
-    "Name": "Dooley Group",
-    "DisplayName": "Morar-Gibson",
-    "DisplayTooltip": "commodi",
-    "IsActive": true
+    "Name": "Wintheiser-Schulist",
+    "DisplayName": "West, Nolan and Conroy",
+    "DisplayTooltip": "ipsum",
+    "IsActive": false
   }
 ]
 ```

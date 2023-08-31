@@ -81,7 +81,7 @@ This is the archive Provider for the Selection selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionV2?$select=selectionAssociate/ejDisplayName,lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionSelectionV2?$select=lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

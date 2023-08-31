@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 22,
-    "Name": "Pfannerstill Group",
-    "Tooltip": "consequuntur",
+    "HeadingId": 653,
+    "Name": "Langworth, Hand and Roberts",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 753,
-    "UdListDefinitionId": 757,
+    "Rank": 283,
+    "UdListDefinitionId": 241,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 545
       }
     }
   }

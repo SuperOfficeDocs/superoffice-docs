@@ -117,6 +117,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -128,14 +129,14 @@ OK
 POST /api/v1/Agents/Ticket/MergeTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    218,
-    871
+    692,
+    14
   ]
 }
 ```
@@ -147,21 +148,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 698,
-  "Title": "tempore",
-  "CreatedAt": "2015-05-05T16:00:42.2112587+02:00",
-  "LastChanged": "2011-03-29T16:00:42.2112587+02:00",
-  "ReadByOwner": "1999-07-07T16:00:42.2112587+02:00",
-  "ReadByCustomer": "1996-06-05T16:00:42.2112587+02:00",
-  "FirstReadByOwner": "2019-08-16T16:00:42.2112587+02:00",
-  "FirstReadByUser": "2010-04-21T16:00:42.2112587+02:00",
-  "Activate": "2020-02-03T16:00:42.2112587+01:00",
-  "ClosedAt": "2013-09-17T16:00:42.2112587+02:00",
-  "RepliedAt": "2012-11-02T16:00:42.2112587+01:00",
-  "AlertTimeout": "2018-05-21T16:00:42.2112587+02:00",
-  "Deadline": "2023-02-18T16:00:42.2112587+01:00",
+  "TicketId": 61,
+  "Title": "repellendus",
+  "CreatedAt": "2016-11-03T03:31:27.6697456+01:00",
+  "LastChanged": "2001-12-28T03:31:27.6697456+01:00",
+  "ReadByOwner": "2011-06-01T03:31:27.6697456+02:00",
+  "ReadByCustomer": "2018-06-14T03:31:27.6697456+02:00",
+  "FirstReadByOwner": "2005-12-20T03:31:27.6697456+01:00",
+  "FirstReadByUser": "2004-11-18T03:31:27.6697456+01:00",
+  "Activate": "2007-04-14T03:31:27.6697456+02:00",
+  "ClosedAt": "1997-03-21T03:31:27.6697456+01:00",
+  "RepliedAt": "2004-08-27T03:31:27.6697456+02:00",
+  "AlertTimeout": "2007-06-28T03:31:27.6697456+02:00",
+  "Deadline": "2014-12-12T03:31:27.6697456+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "dolorem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -172,159 +173,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "cupiditate",
-      "PersonId": 347,
-      "Mrmrs": "perspiciatis",
-      "Firstname": "Sean",
-      "Lastname": "Grady",
-      "MiddleName": "Rosenbaum LLC",
-      "Title": "qui",
-      "Description": "Face to face modular process improvement",
-      "Email": "nikolas_heidenreich@heidenreich.info",
-      "FullName": "Antonina Hodkiewicz DVM",
-      "DirectPhone": "1-615-236-3374 x47104",
-      "FormalName": "Kertzmann LLC",
-      "CountryId": 777,
-      "ContactId": 606,
-      "ContactName": "Gorczany, Towne and Hartmann",
-      "Retired": 177,
-      "Rank": 609,
-      "ActiveInterests": 705,
+      "Position": "voluptatem",
+      "PersonId": 731,
+      "Mrmrs": "ea",
+      "Firstname": "Bette",
+      "Lastname": "Dickinson",
+      "MiddleName": "Monahan Inc and Sons",
+      "Title": "at",
+      "Description": "Secured logistical emulation",
+      "Email": "kenyon_okon@runolfsson.biz",
+      "FullName": "Reagan Swift",
+      "DirectPhone": "139.007.3244 x32762",
+      "FormalName": "Strosin-Mertz",
+      "CountryId": 17,
+      "ContactId": 229,
+      "ContactName": "Hirthe, Schaefer and Conn",
+      "Retired": 876,
+      "Rank": 152,
+      "ActiveInterests": 271,
       "ContactDepartment": "",
-      "ContactCountryId": 959,
-      "ContactOrgNr": "950472",
-      "FaxPhone": "1-509-038-2781 x9999",
-      "MobilePhone": "(623)835-9720",
-      "ContactPhone": "1-700-833-3049",
-      "AssociateName": "Gerlach-Crist",
-      "AssociateId": 5,
-      "UsePersonAddress": false,
-      "ContactFax": "id",
-      "Kanafname": "non",
-      "Kanalname": "repellat",
-      "Post1": "et",
-      "Post2": "sed",
-      "Post3": "quas",
-      "EmailName": "darlene.windler@ortiz.com",
-      "ContactFullName": "Riley Dooley",
-      "ActiveErpLinks": 856,
-      "TicketPriorityId": 306,
-      "SupportLanguageId": 687,
-      "SupportAssociateId": 346,
+      "ContactCountryId": 76,
+      "ContactOrgNr": "732746",
+      "FaxPhone": "257.078.7681 x212",
+      "MobilePhone": "1-920-483-9007",
+      "ContactPhone": "672-320-7513 x16283",
+      "AssociateName": "Cruickshank, Cole and Cole",
+      "AssociateId": 248,
+      "UsePersonAddress": true,
+      "ContactFax": "ex",
+      "Kanafname": "expedita",
+      "Kanalname": "quibusdam",
+      "Post1": "vero",
+      "Post2": "est",
+      "Post3": "qui",
+      "EmailName": "rebeka@quigleybartell.co.uk",
+      "ContactFullName": "Ally Glover",
+      "ActiveErpLinks": 946,
+      "TicketPriorityId": 429,
+      "SupportLanguageId": 414,
+      "SupportAssociateId": 45,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 664
         }
       }
     }
   ],
-  "AlertLevel": 835,
-  "ConnectId": 129,
+  "AlertLevel": 864,
+  "ConnectId": 853,
   "ReadStatus": "Green",
-  "TimeToReply": 70,
-  "RealTimeToReply": 888,
-  "TimeToClose": 302,
-  "RealTimeToClose": 671,
-  "TimeSpentInternally": 679,
-  "TimeSpentExternally": 399,
-  "TimeSpentQueue": 977,
-  "RealTimeSpentInternally": 278,
-  "RealTimeSpentExternally": 128,
-  "RealTimeSpentQueue": 998,
-  "HasAttachment": false,
-  "NumReplies": 482,
-  "NumMessages": 82,
-  "FromAddress": "facilis",
+  "TimeToReply": 839,
+  "RealTimeToReply": 932,
+  "TimeToClose": 552,
+  "RealTimeToClose": 405,
+  "TimeSpentInternally": 790,
+  "TimeSpentExternally": 561,
+  "TimeSpentQueue": 317,
+  "RealTimeSpentInternally": 517,
+  "RealTimeSpentExternally": 791,
+  "RealTimeSpentQueue": 877,
+  "HasAttachment": true,
+  "NumReplies": 473,
+  "NumMessages": 705,
+  "FromAddress": "et",
   "Messages": [
     {
-      "TicketMessageId": 377,
-      "CreatedAt": "2005-04-22T16:00:42.2112587+02:00",
+      "TicketMessageId": 118,
+      "CreatedAt": "2019-12-29T03:31:27.6697456+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "quia",
-      "PersonId": 537,
-      "PersonFullName": "Hosea Sporer DDS",
-      "ContactId": 507,
-      "ContactName": "Aufderhar Inc and Sons",
+      "Important": false,
+      "Author": "rerum",
+      "PersonId": 839,
+      "PersonFullName": "Leopoldo Fay IV",
+      "ContactId": 912,
+      "ContactName": "Weber, Medhurst and Bednar",
       "ContactDepartment": "",
-      "NumAttachments": 975,
-      "EmailHeader": "lavinia@mertz.com",
+      "NumAttachments": 431,
+      "EmailHeader": "jeff@walsh.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quis",
-      "Sentiment": 857,
-      "SentimentConfidence": 984,
-      "CreatedBy": 302,
-      "ChangedAt": "2019-01-22T16:00:42.2112587+01:00",
+      "Language": "magni",
+      "Sentiment": 847,
+      "SentimentConfidence": 895,
+      "CreatedBy": 610,
+      "ChangedAt": "2005-12-20T03:31:27.6697456+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 72
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 861,
-      "Name": "Wisoky LLC",
-      "ToolTip": "Sunt reprehenderit explicabo voluptatem dolorem maxime aut consequatur.",
+      "Id": 341,
+      "Name": "Stark-Mante",
+      "ToolTip": "Cumque fugiat consequuntur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldType": "System.String",
+          "FieldLength": 733
         }
       }
     },
     {
-      "Id": 861,
-      "Name": "Wisoky LLC",
-      "ToolTip": "Sunt reprehenderit explicabo voluptatem dolorem maxime aut consequatur.",
+      "Id": 341,
+      "Name": "Stark-Mante",
+      "ToolTip": "Cumque fugiat consequuntur.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldType": "System.String",
+          "FieldLength": 733
         }
       }
     }
   ],
-  "Language": "ea",
-  "Sentiment": 492,
-  "SentimentConfidence": 919,
-  "SuggestedCategoryId": 98,
+  "Language": "at",
+  "Sentiment": 580,
+  "SentimentConfidence": 810,
+  "SuggestedCategoryId": 658,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 289,
-  "IconHint": "quam",
+  "OrigHumanCategoryId": 162,
+  "IconHint": "eum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "cum"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "tenetur"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "repellendus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 725
     }
   }
 }

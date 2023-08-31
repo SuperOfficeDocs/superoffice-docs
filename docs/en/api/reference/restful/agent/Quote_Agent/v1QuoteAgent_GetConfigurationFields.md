@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 102,
-  "ConnectorName": "Boyle-Pfeffer"
+  "ConnectionId": 54,
+  "ConnectorName": "Schumm, Klocko and Ernser"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "et",
-    "Rank": 547,
-    "DisplayName": "Vandervort Inc and Sons",
-    "DisplayDescription": "Integrated attitude-oriented website",
+    "FieldKey": "quisquam",
+    "Rank": 525,
+    "DisplayName": "Gorczany-Jast",
+    "DisplayDescription": "User-friendly encompassing matrices",
     "FieldType": "Checkbox",
-    "ListName": "Leuschke, McKenzie and Schiller",
-    "DefaultValue": "non",
-    "MaxLength": 524,
+    "ListName": "Klocko-Hagenes",
+    "DefaultValue": "necessitatibus",
+    "MaxLength": 232,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldType": "System.String",
+        "FieldLength": 392
       }
     }
   }

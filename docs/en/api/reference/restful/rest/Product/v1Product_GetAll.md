@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=qui
-GET /api/v1/Product?$top=74
-GET /api/v1/Product?$skip=337
+GET /api/v1/Product?$entities=illo
+GET /api/v1/Product?$top=281
+GET /api/v1/Product?$skip=809
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=dolorum
+GET /api/v1/Product?$context=veniam
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "occaecati",
+  "odata.nextLink": "quo",
   "value": [
     {
-      "PrimaryKey": 8229,
+      "PrimaryKey": 4058,
       "EntityName": "sale",
-      "saleId": 8229,
-      "contactId": 8528,
-      "name": "Spinka-Schmeler"
+      "saleId": 4058,
+      "contactId": 1776,
+      "name": "O'Keefe, Torphy and Wunsch"
     },
     {
-      "PrimaryKey": 9803,
+      "PrimaryKey": 5126,
       "EntityName": "sale",
-      "saleId": 9803,
-      "contactId": 6011,
-      "name": "Schumm-Olson"
+      "saleId": 5126,
+      "contactId": 2240,
+      "name": "Beer, Lakin and Reichert"
     }
   ]
 }

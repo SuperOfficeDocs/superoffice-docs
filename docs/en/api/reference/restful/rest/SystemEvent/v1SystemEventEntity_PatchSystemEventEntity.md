@@ -72,7 +72,7 @@ PATCH /api/v1/SystemEvent/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sapiente",
+    "path": "cupiditate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sapiente",
+    "path": "cupiditate",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 198,
+  "SystemEventId": 780,
   "Scope": "Database",
-  "Eta": "2005-06-03T16:00:48.4771472+02:00",
-  "Eventkey": "deleniti",
-  "Eventmess": "quo",
-  "ExtraInfo": 815,
-  "Owner": 941,
-  "UpdatedCount": 390,
-  "Registered": "2005-06-28T16:00:48.4771472+02:00",
+  "Eta": "2013-04-05T03:31:32.9594383+02:00",
+  "Eventkey": "quas",
+  "Eventmess": "voluptas",
+  "ExtraInfo": 146,
+  "Owner": 888,
+  "UpdatedCount": 331,
+  "Registered": "2004-02-03T03:31:32.9594383+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   },
   "_Links": {

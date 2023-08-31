@@ -86,12 +86,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 506,
-  "Name": "Stamm-Mayer",
-  "Tooltip": "porro",
-  "Rank": 66,
-  "Rate": 19443.336,
-  "Units": 17202.525999999998,
+  "CurrencyId": 169,
+  "Name": "Hodkiewicz-Steuber",
+  "Tooltip": "vel",
+  "Rank": 990,
+  "Rate": 1776.9779999999998,
+  "Units": 3967.644,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 877,
-  "Name": "Kohler LLC",
-  "Tooltip": "iure",
-  "Rank": 305,
-  "Rate": 25009.32,
-  "Units": 17907.676,
+  "CurrencyId": 765,
+  "Name": "Morissette LLC",
+  "Tooltip": "excepturi",
+  "Rank": 689,
+  "Rate": 28253.01,
+  "Units": 5528.376,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 126
     }
   }
 }

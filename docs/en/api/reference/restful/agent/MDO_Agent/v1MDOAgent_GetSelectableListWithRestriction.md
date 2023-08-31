@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer-Huels",
-  "AdditionalInfo": "voluptas",
-  "SearchValue": "blanditiis"
+  "Name": "Greenfelder, Hermann and VonRueden",
+  "AdditionalInfo": "minus",
+  "SearchValue": "ut"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Klein Group",
-    "ToolTip": "Nesciunt dolor velit nihil magni natus sint.",
-    "Deleted": false,
-    "Rank": 758,
-    "Type": "ipsum",
-    "ColorBlock": 782,
-    "IconHint": "quaerat",
+    "Id": 34,
+    "Name": "Rau-Reilly",
+    "ToolTip": "Officiis consequuntur repudiandae.",
+    "Deleted": true,
+    "Rank": 614,
+    "Type": "quae",
+    "ColorBlock": 157,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2012-02-05T16:00:41.2736903+01:00",
+    "LastChanged": "2002-02-26T03:31:26.7769052+01:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Marquardt, Cremin and Hagenes",
-        "ToolTip": "Itaque enim omnis.",
+        "Id": 495,
+        "Name": "Berge Inc and Sons",
+        "ToolTip": "Neque minus.",
         "Deleted": false,
-        "Rank": 457,
-        "Type": "voluptas",
-        "ColorBlock": 615,
-        "IconHint": "unde",
+        "Rank": 252,
+        "Type": "eos",
+        "ColorBlock": 64,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2011-06-02T16:00:41.2736903+02:00",
+        "LastChanged": "2019-09-05T03:31:26.7769052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "sit",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Minnie Delilah Morissette MD",
+        "FullName": "Myrtice Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Kavon Considine",
+    "ExtraInfo": "veniam",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Madaline Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 248
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

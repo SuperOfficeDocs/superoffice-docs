@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 769
+  "MailItemId": 248
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 382,
-  "StartDate": "2015-06-27T16:00:40.8831142+02:00",
-  "EndDate": "2014-03-15T16:00:40.8831142+01:00",
-  "RecurrenceCounter": 491,
+  "RecurrenceId": 790,
+  "StartDate": "2019-08-07T03:31:26.4332438+02:00",
+  "EndDate": "2000-06-11T03:31:26.4332438+02:00",
+  "RecurrenceCounter": 339,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2018-09-22T16:00:40.8831142+02:00",
-      "IsConflict": false,
-      "Description": "Polarised modular artificial intelligence",
-      "DescriptionStyleHint": "Proactive fault-tolerant knowledge base",
-      "Tooltip": "omnis"
+      "Date": "2013-08-24T03:31:26.4332438+02:00",
+      "IsConflict": true,
+      "Description": "Universal clear-thinking benchmark",
+      "DescriptionStyleHint": "Balanced national algorithm",
+      "Tooltip": "quis"
     },
     {
-      "Date": "2018-09-22T16:00:40.8831142+02:00",
-      "IsConflict": false,
-      "Description": "Polarised modular artificial intelligence",
-      "DescriptionStyleHint": "Proactive fault-tolerant knowledge base",
-      "Tooltip": "omnis"
+      "Date": "2013-08-24T03:31:26.4332438+02:00",
+      "IsConflict": true,
+      "Description": "Universal clear-thinking benchmark",
+      "DescriptionStyleHint": "Balanced national algorithm",
+      "Tooltip": "quis"
     }
   ],
   "IsRecurrence": false

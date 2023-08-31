@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 38,
-    "LCID": 412,
-    "EnglishName": "Bashirian Inc and Sons",
-    "NativeName": "Goyette LLC",
-    "ThreeLetterISOLanguageName": "Pagac, Gutkowski and Schroeder",
-    "TwoLetterISOLanguageName": "Heaney Inc and Sons",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 80,
+    "LCID": 13,
+    "EnglishName": "Schmitt LLC",
+    "NativeName": "Langworth-Kunde",
+    "ThreeLetterISOLanguageName": "Luettgen Group",
+    "TwoLetterISOLanguageName": "Roob, Spinka and Schmidt",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldType": "System.String",
+        "FieldLength": 241
       }
     }
   }

@@ -72,7 +72,7 @@ PATCH /api/v1/Selection/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "corrupti",
+    "path": "earum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "corrupti",
+    "path": "earum",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic well-modulated definition",
-  "Postit": "qui",
+  "Description": "Cloned value-added forecast",
+  "Postit": "veritatis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 471,
-  "IncludePerson": 783,
-  "MemberCount": 585,
-  "Name": "Stark Inc and Sons",
-  "PostitTextId": 693,
-  "CreatedDate": "2021-09-02T16:00:48.4458989+02:00",
-  "SelectionId": 868,
-  "SoundEx": "rerum",
-  "Source": 584,
-  "TextId": 871,
-  "UpdatedDate": "2001-10-14T16:00:48.4458989+02:00",
-  "UpdatedCount": 596,
-  "Visibility": 498,
+  "GroupIdx": 549,
+  "IncludePerson": 384,
+  "MemberCount": 17,
+  "Name": "Mertz, Parker and Metz",
+  "PostitTextId": 457,
+  "CreatedDate": "2003-11-09T03:31:32.9437607+01:00",
+  "SelectionId": 75,
+  "SoundEx": "eaque",
+  "Source": 59,
+  "TextId": 57,
+  "UpdatedDate": "2022-06-27T03:31:32.9437607+02:00",
+  "UpdatedCount": 201,
+  "Visibility": 914,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 818,
-  "TargetTableName": "Harris, Stiedemann and Carroll",
+  "TargetTableNumber": 955,
+  "TargetTableName": "Altenwerth-Casper",
   "Completed": false,
-  "LeftSelectionId": 16,
-  "RightSelectionId": 671,
+  "LeftSelectionId": 116,
+  "RightSelectionId": 235,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goldner, Hansen and Kiehn",
-  "ShadowProviderName": "Stokes LLC",
-  "ChartKey": "ut",
-  "LastLoaded": "1996-08-05T16:00:48.4458989+02:00",
-  "LastLoadedBy": 105,
+  "MainProviderName": "Heaney Inc and Sons",
+  "ShadowProviderName": "Turner, Crist and Renner",
+  "ChartKey": "saepe",
+  "LastLoaded": "2009-06-16T03:31:32.9437607+02:00",
+  "LastLoadedBy": 613,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-08-27T16:00:48.4458989+02:00",
-  "LastMembershipChangeBy": 889,
+  "LastMembershipChange": "2011-06-05T03:31:32.9437607+02:00",
+  "LastMembershipChangeBy": 300,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "culpa",
-  "MemberTabHeading": "esse",
-  "MailingsProviderName": "Heller, Nikolaus and Moore",
-  "DashboardTileDefinitionId": 321,
+  "MainHeading": "sit",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Pfeffer, Davis and Christiansen",
+  "DashboardTileDefinitionId": 852,
   "VisibleFor": [
     {
-      "VisibleId": 244,
+      "VisibleId": 238,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldType": "System.Int32",
+          "FieldLength": 838
         }
       }
     },
     {
-      "VisibleId": 244,
+      "VisibleId": 238,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldType": "System.Int32",
+          "FieldLength": 838
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldLength": 527
     }
   },
   "_Links": {

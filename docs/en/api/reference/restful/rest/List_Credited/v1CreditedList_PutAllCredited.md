@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Kshlerin Group",
-    "Tooltip": "aperiam",
+    "Id": 579,
+    "Name": "McDermott LLC",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 238,
-    "Rank": 469
+    "UdListDefinitionId": 371,
+    "Rank": 883
   },
   {
-    "Id": 873,
-    "Name": "Kshlerin Group",
-    "Tooltip": "aperiam",
+    "Id": 579,
+    "Name": "McDermott LLC",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 238,
-    "Rank": 469
+    "UdListDefinitionId": 371,
+    "Rank": 883
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Mertz-Rempel",
-    "Tooltip": "quas",
-    "Deleted": false,
-    "UdListDefinitionId": 827,
-    "Rank": 126,
+    "Id": 558,
+    "Name": "Schmeler Group",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "UdListDefinitionId": 500,
+    "Rank": 18,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldType": "System.Int32",
+        "FieldLength": 155
       }
     }
   }

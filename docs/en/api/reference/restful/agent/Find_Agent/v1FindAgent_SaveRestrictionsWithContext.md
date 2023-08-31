@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Renner, Glover and Bashirian",
-  "StorageKey": "voluptas",
+  "StorageType": "in",
+  "ProviderName": "Dickens-Anderson",
+  "StorageKey": "doloribus",
   "Restrictions": [
     {
-      "Name": "Gerlach-Zemlak",
-      "Operator": "assumenda",
+      "Name": "Corkery-Rolfson",
+      "Operator": "ipsum",
       "Values": [
-        "qui",
-        "officiis"
+        "dolor",
+        "sunt"
       ],
       "DisplayValues": [
-        "pariatur",
-        "minus"
+        "quisquam",
+        "sint"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 195,
+      "InterParenthesis": 622,
       "InterOperator": "And",
-      "UniqueHash": 515
+      "UniqueHash": 818
     }
   ],
-  "Context": "quisquam"
+  "Context": "optio"
 }
 ```
 

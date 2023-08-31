@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 03 Aug 2000 16:00:47 G8T
+Last-Modified: Sat, 23 Jul 2011 03:31:32 G7T
 
 {
-  "ForeignAppId": 512,
-  "Name": "Heller-Crooks",
-  "CreatedDate": "2008-07-21T16:00:47.9772018+02:00",
-  "UpdatedDate": "2000-08-03T16:00:47.9772018+02:00",
+  "ForeignAppId": 921,
+  "Name": "Hodkiewicz Group",
+  "CreatedDate": "2015-10-28T03:31:32.6289016+01:00",
+  "UpdatedDate": "2011-07-23T03:31:32.6289016+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 478,
-      "Name": "Shanahan, Emard and Monahan",
-      "CreatedDate": "2019-12-31T16:00:47.9772018+01:00",
-      "UpdatedDate": "2001-10-02T16:00:47.9772018+02:00",
-      "AssociateFullName": "Roslyn Parker DDS",
-      "CreatedBy": "quos",
-      "UpdatedBy": "dicta",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 752,
+      "ForeignDeviceId": 932,
+      "Name": "Lind LLC",
+      "CreatedDate": "2001-04-29T03:31:32.6289016+02:00",
+      "UpdatedDate": "2007-06-07T03:31:32.6289016+02:00",
+      "AssociateFullName": "Royce Welch",
+      "CreatedBy": "et",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "non",
+      "ForeignAppId": 828,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 799
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Thu, 03 Aug 2000 16:00:47 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 354
     }
   }
 }

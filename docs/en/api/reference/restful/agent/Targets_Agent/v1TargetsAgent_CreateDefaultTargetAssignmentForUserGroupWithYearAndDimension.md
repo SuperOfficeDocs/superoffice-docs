@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 293,
-  "Year": 77,
-  "TargetDimensionId": 261
+  "UserGroupId": 317,
+  "Year": 353,
+  "TargetDimensionId": 867
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 529,
+    "TargetAssignmentInfoId": 533,
     "Values": [
-      120,
-      721
+      510,
+      789
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 777,
-    "DimensionListItemDisplayName": "Torphy, Hoeger and Hudson",
+    "DimensionListItem": 661,
+    "DimensionListItemDisplayName": "Bernhard, Kling and Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 413
+        "FieldType": "System.Int32",
+        "FieldLength": 822
       }
     }
   }

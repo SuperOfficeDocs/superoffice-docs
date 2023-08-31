@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 118,
-      "PrefDescId": 738,
-      "PrefValue": "quia",
-      "PrefShowValue": "animi",
-      "Description": "Streamlined human-resource collaboration",
-      "IsBuiltin": false
+      "PrefDescLineId": 611,
+      "PrefDescId": 532,
+      "PrefValue": "dolorem",
+      "PrefShowValue": "at",
+      "Description": "Devolved dynamic alliance",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 118,
-      "PrefDescId": 738,
-      "PrefValue": "quia",
-      "PrefShowValue": "animi",
-      "Description": "Streamlined human-resource collaboration",
-      "IsBuiltin": false
+      "PrefDescLineId": 611,
+      "PrefDescId": 532,
+      "PrefValue": "dolorem",
+      "PrefShowValue": "at",
+      "Description": "Devolved dynamic alliance",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 951,
-    "PrefDescId": 398,
-    "PrefValue": "temporibus",
-    "PrefShowValue": "totam",
-    "Description": "Streamlined local synergy",
+    "PrefDescLineId": 216,
+    "PrefDescId": 724,
+    "PrefValue": "possimus",
+    "PrefShowValue": "harum",
+    "Description": "Advanced 4th generation budgetary management",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 562
       }
     }
   }

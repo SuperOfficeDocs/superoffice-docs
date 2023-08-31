@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 89,
-  "Name": "Feest, Kunde and Batz",
-  "Tooltip": "praesentium",
-  "Rank": 252,
-  "Rate": 2560.478,
-  "Units": 28920.552,
-  "Deleted": true,
+  "CurrencyId": 373,
+  "Name": "Beer Group",
+  "Tooltip": "mollitia",
+  "Rank": 18,
+  "Rate": 10376.673999999999,
+  "Units": 965.27199999999993,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 234
     }
   }
 }

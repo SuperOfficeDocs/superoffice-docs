@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 938,
-  "Name": "Schuster-Kemmer",
-  "Tooltip": "iusto",
+  "RoleId": 198,
+  "Name": "Funk, Torp and Daniel",
+  "Tooltip": "ipsam",
   "RoleType": "Anonymous",
-  "Deleted": 148,
-  "Rank": 592,
-  "Created": "1997-07-13T16:00:42.3206172+02:00",
-  "UseCategories": 408,
+  "Deleted": 293,
+  "Rank": 363,
+  "Created": "2008-11-29T03:31:27.7634711+01:00",
+  "UseCategories": 350,
   "CreatedBy": null,
-  "Updated": "2006-10-01T16:00:42.3206172+02:00",
+  "Updated": "2006-06-04T03:31:27.7634711+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

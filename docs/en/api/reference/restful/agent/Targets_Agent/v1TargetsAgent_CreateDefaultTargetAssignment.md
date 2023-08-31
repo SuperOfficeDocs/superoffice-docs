@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 390,
+  "TargetAssignmentInfoId": 578,
   "Values": [
-    232,
-    861
+    564,
+    19
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 947,
-  "DimensionListItemDisplayName": "Kovacek LLC",
+  "DimensionListItem": 231,
+  "DimensionListItemDisplayName": "Smith, Berge and Lindgren",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 844
     }
   }
 }

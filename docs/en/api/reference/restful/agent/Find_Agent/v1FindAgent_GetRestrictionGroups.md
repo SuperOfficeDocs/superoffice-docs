@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "rerum",
-  "ProviderName": "Bailey, Padberg and Emmerich",
-  "StorageKey": "eum",
-  "Context": "vel"
+  "StorageType": "saepe",
+  "ProviderName": "Johnson, Smith and Marks",
+  "StorageKey": "earum",
+  "Context": "error"
 }
 ```
 
@@ -96,58 +96,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Borer-Reinger",
-    "Description": "Polarised regional open architecture",
-    "Rank": 363,
+    "Name": "Blanda, Jerde and Reichel",
+    "Description": "Quality-focused contextually-based projection",
+    "Rank": 27,
     "Restrictions": [
       {
-        "Name": "Koelpin-Sawayn",
-        "Operator": "rerum",
+        "Name": "Toy Group",
+        "Operator": "iure",
         "Values": [
-          "iusto",
-          "consectetur"
+          "magnam",
+          "quo"
         ],
         "DisplayValues": [
-          "qui",
-          "a"
+          "est",
+          "est"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 382,
+        "InterParenthesis": 421,
         "InterOperator": "And",
-        "UniqueHash": 899
+        "UniqueHash": 905
       }
     ]
   },
   {
-    "Name": "Borer-Reinger",
-    "Description": "Polarised regional open architecture",
-    "Rank": 363,
+    "Name": "Blanda, Jerde and Reichel",
+    "Description": "Quality-focused contextually-based projection",
+    "Rank": 27,
     "Restrictions": [
       {
-        "Name": "Koelpin-Sawayn",
-        "Operator": "rerum",
+        "Name": "Toy Group",
+        "Operator": "iure",
         "Values": [
-          "iusto",
-          "consectetur"
+          "magnam",
+          "quo"
         ],
         "DisplayValues": [
-          "qui",
-          "a"
+          "est",
+          "est"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 382,
+        "InterParenthesis": 421,
         "InterOperator": "And",
-        "UniqueHash": 899
+        "UniqueHash": 905
       }
     ]
   }

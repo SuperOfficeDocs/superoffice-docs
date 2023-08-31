@@ -75,7 +75,7 @@ PATCH /api/v1/TriggerScript/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "distinctio",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 542,
-  "Name": "Rath, Metz and Okuneva",
+  "ScreenChooserId": 821,
+  "Name": "Walker, Corkery and Hansen",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "accusamus",
-  "Source": "non",
-  "Registered": "2008-06-05T16:00:48.617756+02:00",
-  "RegisteredAssociateId": 415,
-  "Updated": "2003-02-20T16:00:48.617756+01:00",
-  "UpdatedAssociateId": 42,
+  "Enabled": false,
+  "UniqueIdentifier": "ut",
+  "Source": "perspiciatis",
+  "Registered": "1998-10-31T03:31:33.2718572+01:00",
+  "RegisteredAssociateId": 543,
+  "Updated": "2016-12-10T03:31:33.2718572+01:00",
+  "UpdatedAssociateId": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 526
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

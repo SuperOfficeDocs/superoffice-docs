@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 287,
-  "ParentId": 103,
-  "Name": "Welch, Bogisich and Swift",
-  "Fullname": "at",
-  "CategoryMaster": 229,
+  "TicketCategoryId": 608,
+  "ParentId": 434,
+  "Name": "Breitenberg, Predovic and Lemke",
+  "Fullname": "dignissimos",
+  "CategoryMaster": 893,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wuckert-Hand",
+  "ExternalName": "Kirlin Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 623,
-  "ReplyTemplate": 488,
-  "NotificationEmail": "skylar.lebsack@lang.name",
+  "AssignmentLag": 210,
+  "ReplyTemplate": 286,
+  "NotificationEmail": "abby@moenvonrueden.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 970,
+  "EffectiveReplyTemplateId": 55,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "odio"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "officiis"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 122
     }
   }
 }

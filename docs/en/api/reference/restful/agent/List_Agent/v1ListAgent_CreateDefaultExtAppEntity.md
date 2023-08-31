@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 851,
-  "Name": "Bergnaum, Lakin and Bednar",
-  "Tooltip": "deserunt",
+  "ExtAppId": 51,
+  "Name": "Rutherford-Hartmann",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 792,
-  "Filename": "veritatis",
-  "Parameters": "accusamus",
-  "Workdir": "voluptatibus",
+  "Rank": 54,
+  "Filename": "ut",
+  "Parameters": "quam",
+  "Workdir": "possimus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "Icon": 961,
+  "Icon": 801,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "libero",
+  "Path": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 946
     }
   }
 }

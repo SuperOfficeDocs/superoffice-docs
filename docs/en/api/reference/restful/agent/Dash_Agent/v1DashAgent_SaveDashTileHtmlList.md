@@ -79,15 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 290,
+  "DashboardTileDefinitionId": 460,
   "Languages": [
     {
-      "LanguageCode": "voluptatem",
-      "Html": "aut"
+      "LanguageCode": "at",
+      "Html": "laboriosam"
     },
     {
-      "LanguageCode": "voluptatem",
-      "Html": "aut"
+      "LanguageCode": "at",
+      "Html": "laboriosam"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "ut",
-    "Html": "et",
+    "LanguageCode": "accusantium",
+    "Html": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 251
       }
     }
   },
   {
-    "LanguageCode": "ut",
-    "Html": "et",
+    "LanguageCode": "accusantium",
+    "Html": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 251
       }
     }
   }

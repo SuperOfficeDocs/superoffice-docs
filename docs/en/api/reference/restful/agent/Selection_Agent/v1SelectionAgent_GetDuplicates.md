@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman Group"
+  "Name": "Morar, Heller and Lockman"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hessel-Johnston",
-    "SoPrimaryKey": 759,
-    "EntryName": "Hermiston-Stracke",
-    "EntryIdentifier": "in",
-    "RuleDisplayName": "Heller-Hansen",
+    "RuleName": "Hyatt, O'Hara and Stamm",
+    "SoPrimaryKey": 172,
+    "EntryName": "Skiles Group",
+    "EntryIdentifier": "exercitationem",
+    "RuleDisplayName": "Harber, Berge and Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 842
       }
     }
   }

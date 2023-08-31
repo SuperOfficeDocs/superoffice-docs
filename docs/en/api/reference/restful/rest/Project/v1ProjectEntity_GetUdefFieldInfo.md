@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 156,
-  "ColumnId": 314,
-  "FieldDefault": "id",
-  "FieldHeight": 352,
-  "FieldLabel": "impedit",
-  "FieldLeft": 945,
-  "FieldTop": 710,
+  "UDefFieldId": 382,
+  "ColumnId": 114,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 51,
+  "FieldLabel": "qui",
+  "FieldLeft": 976,
+  "FieldTop": 97,
   "FieldType": "Checkbox",
-  "FieldWidth": 375,
-  "FormatMask": "fugit",
-  "HideLabel": false,
+  "FieldWidth": 996,
+  "FormatMask": "quia",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 672,
-  "LabelLeft": 628,
-  "LabelTop": 964,
-  "LabelWidth": 943,
-  "LastVersionId": 217,
-  "ListTableId": 38,
+  "LabelHeight": 71,
+  "LabelLeft": 870,
+  "LabelTop": 838,
+  "LabelWidth": 826,
+  "LastVersionId": 184,
+  "ListTableId": 415,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 184,
-  "ProgId": "modi",
-  "IsReadOnly": false,
-  "ShortLabel": "quis",
-  "TabOrder": 256,
-  "TextLength": 275,
-  "Tooltip": "provident",
-  "UdefIdentity": 326,
-  "UDListDefinitionId": 460,
+  "Page1LineNo": 826,
+  "ProgId": "quia",
+  "IsReadOnly": true,
+  "ShortLabel": "perspiciatis",
+  "TabOrder": 848,
+  "TextLength": 22,
+  "Tooltip": "ipsa",
+  "UdefIdentity": 111,
+  "UDListDefinitionId": 815,
   "Justification": "Center",
-  "Version": 892,
-  "TemplateVariableName": "Klocko LLC",
+  "Version": 377,
+  "TemplateVariableName": "Hoeger-Denesik",
   "HasBeenPublished": false,
-  "MdoListName": "Wolf Group",
+  "MdoListName": "Dibbert Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 249
     }
   }
 }

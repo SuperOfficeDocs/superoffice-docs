@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aspernatur",
-  "ProviderName": "Johns LLC",
-  "StorageKey": "est",
+  "StorageType": "dolore",
+  "ProviderName": "Tromp Inc and Sons",
+  "StorageKey": "incidunt",
   "DesiredColumnNames": [
-    "Weber-Crona",
-    "Bogisich, Ortiz and Herzog"
+    "Conroy Group",
+    "Langworth-Hudson"
   ],
   "StaticColumns": [
-    "odit",
-    "dolor"
+    "autem",
+    "perferendis"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Zemlak Group",
-      "Operator": "laboriosam",
+      "Name": "Kuphal-Schuster",
+      "Operator": "at",
       "Values": [
-        "fugiat",
-        "fuga"
+        "beatae",
+        "aliquid"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "nam"
+        "sit",
+        "id"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 730,
+      "InterParenthesis": 475,
       "InterOperator": "And",
-      "UniqueHash": 269
+      "UniqueHash": 983
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Boyer Group",
-      "DisplayTooltip": "quia",
-      "DisplayType": "dolor",
+      "DisplayName": "Terry Group",
+      "DisplayTooltip": "et",
+      "DisplayType": "sapiente",
       "CanOrderBy": true,
-      "Name": "Sauer, Krajcik and Purdy",
-      "CanRestrictBy": false,
-      "RestrictionType": "omnis",
-      "RestrictionListName": "Cole, Keeling and Christiansen",
-      "IsVisible": false,
-      "ExtraInfo": "doloremque",
-      "Width": "error",
-      "IconHint": "possimus",
-      "HeadingIconHint": "eaque"
+      "Name": "Wisoky-Zulauf",
+      "CanRestrictBy": true,
+      "RestrictionType": "voluptatibus",
+      "RestrictionListName": "Vandervort-Weimann",
+      "IsVisible": true,
+      "ExtraInfo": "aut",
+      "Width": "labore",
+      "IconHint": "incidunt",
+      "HeadingIconHint": "sit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Cruickshank-Hagenes",
-      "PrimaryKey": 76,
+      "EntityName": "Zboncak Inc and Sons",
+      "PrimaryKey": 800,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "veniam",
-          "TooltipHint": "ex",
-          "LinkHint": "ratione"
+          "DisplayValue": "unde",
+          "TooltipHint": "esse",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "velit",
-      "StyleHint": "aliquid",
+      "LinkHint": "quae",
+      "StyleHint": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 277
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Sawayn Group",
-      "Description": "Implemented transitional product",
-      "Rank": 282,
+      "Name": "Bosco, Heathcote and Vandervort",
+      "Description": "Versatile intangible challenge",
+      "Rank": 94,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Sawayn Group",
-      "Description": "Implemented transitional product",
-      "Rank": 282,
+      "Name": "Bosco, Heathcote and Vandervort",
+      "Description": "Versatile intangible challenge",
+      "Rank": 94,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 512
     }
   }
 }

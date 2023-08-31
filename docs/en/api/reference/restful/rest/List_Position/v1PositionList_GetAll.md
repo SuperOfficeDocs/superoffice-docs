@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "UdListDefinitionId": 960,
-    "Rank": 138,
+    "Id": 923,
+    "Name": "Cole-Leannon",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "UdListDefinitionId": 248,
+    "Rank": 463,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldType": "System.String",
+        "FieldLength": 121
       }
     }
   }

@@ -16,6 +16,7 @@ Download [WSDL file for Services88/Document](../Services88-Document.md) if you n
 
 * [CheckinDocument](CheckinDocument.md)
 * [CheckoutDocument](CheckoutDocument.md)
+* [CopyDocumentToCsAttachment](CopyDocumentToCsAttachment.md)
 * [CreateDefaultDocumentEntity](CreateDefaultDocumentEntity.md)
 * [CreateDefaultDocumentEntityFromSuggestion](CreateDefaultDocumentEntityFromSuggestion.md)
 * [CreateDefaultDocumentPreview](CreateDefaultDocumentPreview.md)

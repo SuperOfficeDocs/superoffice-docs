@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuhlman, Nienow and Hartmann",
+  "Name": "Bogisich, Heidenreich and Lowe",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 865,
-  "Name": "Breitenberg LLC",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 474,
-  "UdListDefinitionId": 939,
+  "HeadingId": 526,
+  "Name": "Keeling, Borer and Stark",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 820,
+  "UdListDefinitionId": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 745
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   }
 }

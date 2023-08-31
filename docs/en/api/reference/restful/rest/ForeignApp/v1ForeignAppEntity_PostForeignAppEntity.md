@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 605,
-  "Name": "Mann-Gerlach",
-  "CreatedDate": "2002-06-20T16:00:47.9615771+02:00",
-  "UpdatedDate": "2001-01-07T16:00:47.9615771+01:00",
+  "ForeignAppId": 819,
+  "Name": "Bartell LLC",
+  "CreatedDate": "2006-03-07T03:31:32.6132803+01:00",
+  "UpdatedDate": "2003-08-22T03:31:32.6132803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 215,
-      "Name": "Bogan LLC",
-      "CreatedDate": "2007-04-18T16:00:47.9615771+02:00",
-      "UpdatedDate": "2006-04-23T16:00:47.9615771+02:00",
-      "AssociateFullName": "Ara Mueller",
-      "CreatedBy": "animi",
-      "UpdatedBy": "sunt",
-      "DeviceIdentifier": "blanditiis",
-      "ForeignAppId": 897
+      "ForeignDeviceId": 950,
+      "Name": "Pacocha, Murphy and Sipes",
+      "CreatedDate": "2020-01-22T03:31:32.6132803+01:00",
+      "UpdatedDate": "2022-01-03T03:31:32.6132803+01:00",
+      "AssociateFullName": "Thomas Eve Stiedemann III",
+      "CreatedBy": "distinctio",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "repellendus",
+      "ForeignAppId": 418
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 80,
-  "Name": "Hyatt-Rice",
-  "CreatedDate": "2020-07-01T16:00:47.9615771+02:00",
-  "UpdatedDate": "2011-06-15T16:00:47.9615771+02:00",
+  "ForeignAppId": 917,
+  "Name": "Langworth-Kreiger",
+  "CreatedDate": "2023-02-06T03:31:32.6132803+01:00",
+  "UpdatedDate": "2015-07-23T03:31:32.6132803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 176,
-      "Name": "Mohr, McLaughlin and Lang",
-      "CreatedDate": "2003-12-18T16:00:47.9615771+01:00",
-      "UpdatedDate": "2012-05-13T16:00:47.9615771+02:00",
-      "AssociateFullName": "Victoria Deckow",
-      "CreatedBy": "deleniti",
-      "UpdatedBy": "in",
-      "DeviceIdentifier": "eligendi",
-      "ForeignAppId": 540,
+      "ForeignDeviceId": 411,
+      "Name": "Schamberger-Kihn",
+      "CreatedDate": "1996-09-05T03:31:32.6132803+02:00",
+      "UpdatedDate": "1996-11-29T03:31:32.6132803+01:00",
+      "AssociateFullName": "Miss Selmer Ezequiel Marvin",
+      "CreatedBy": "id",
+      "UpdatedBy": "optio",
+      "DeviceIdentifier": "quaerat",
+      "ForeignAppId": 532,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 308
+          "FieldType": "System.Int32",
+          "FieldLength": 225
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 387
     }
   },
   "_Links": {

@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stiedemann Group",
-  "Comment": "praesentium",
-  "StakeholderRoleId": 48,
-  "CountryId": 672,
-  "PersonId": 126,
-  "EmailDescription": "rodrick@simonis.us",
-  "EmailId": 908,
-  "EmailAddress": "juwan_moore@rempelgreenfelder.uk",
-  "PhoneId": 532,
-  "ContactName": "Schultz-Wintheiser",
-  "ContactId": 8,
-  "SaleId": 139,
-  "Mrmrs": "itaque",
-  "Firstname": "Abraham",
-  "MiddleName": "Maggio-Weber",
-  "Lastname": "Anderson",
-  "SaleStakeholderId": 714,
-  "Rank": 366,
-  "Phone": "(533)923-0996",
+  "StakeholderRoleName": "Rempel Group",
+  "Comment": "impedit",
+  "StakeholderRoleId": 454,
+  "CountryId": 145,
+  "PersonId": 663,
+  "EmailDescription": "hugh.kohler@emard.uk",
+  "EmailId": 841,
+  "EmailAddress": "jorge.schmidt@weissnat.us",
+  "PhoneId": 570,
+  "ContactName": "McGlynn-Effertz",
+  "ContactId": 644,
+  "SaleId": 393,
+  "Mrmrs": "accusantium",
+  "Firstname": "Gerard",
+  "MiddleName": "Bauch, DuBuque and Gottlieb",
+  "Lastname": "Ankunding",
+  "SaleStakeholderId": 665,
+  "Rank": 18,
+  "Phone": "324-309-3287",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 23
     }
   },
   "_Links": {

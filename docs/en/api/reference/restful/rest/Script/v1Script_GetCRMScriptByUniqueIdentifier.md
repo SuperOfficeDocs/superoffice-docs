@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "est",
-  "Name": "Turcotte, Franecki and Jacobson",
-  "Description": "Compatible asynchronous neural-net",
-  "IncludeId": "ex",
-  "Source": "voluptatibus",
-  "Registered": "1997-06-20T16:00:48.7427419+02:00",
-  "RegisteredBy": "maiores",
-  "Updated": "2006-01-02T16:00:48.7427419+01:00",
-  "UpdatedBy": "et",
-  "Path": "ullam",
+  "UniqueIdentifier": "voluptate",
+  "Name": "Beahan-Anderson",
+  "Description": "Profound multi-state application",
+  "IncludeId": "dolore",
+  "Source": "iusto",
+  "Registered": "2003-11-01T03:31:33.3667765+01:00",
+  "RegisteredBy": "accusantium",
+  "Updated": "2002-03-08T03:31:33.3667765+01:00",
+  "UpdatedBy": "aut",
+  "Path": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldLength": 87
     }
   }
 }

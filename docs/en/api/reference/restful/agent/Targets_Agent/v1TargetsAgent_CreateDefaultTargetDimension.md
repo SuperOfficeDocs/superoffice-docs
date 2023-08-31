@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 706,
+  "TargetDimensionId": 358,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "fuga",
-  "DimensionListName": "Dach Inc and Sons",
-  "DimensionListId": 36,
-  "DimensionListLabel": "nam",
+  "DimensionListField": "ducimus",
+  "DimensionListName": "Ritchie Inc and Sons",
+  "DimensionListId": 345,
+  "DimensionListLabel": "temporibus",
   "SelectedDimensions": [
-    622,
-    987
+    992,
+    825
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 540
     }
   }
 }

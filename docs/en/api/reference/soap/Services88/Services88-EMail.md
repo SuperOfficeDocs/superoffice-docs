@@ -601,6 +601,7 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="Encoding" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Disposition" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsSafeFileExtension" type="xs:boolean" />
               <xs:element minOccurs="0" name="Stream" nillable="true" type="xs:base64Binary" />
             </xs:sequence>
           </xs:extension>

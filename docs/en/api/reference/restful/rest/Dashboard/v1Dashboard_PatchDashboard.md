@@ -72,7 +72,7 @@ PATCH /api/v1/Dashboard/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -112,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "ipsa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "ipsa",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 860,
-  "AssociateId": 590,
-  "Caption": "ea",
+  "DashboardId": 607,
+  "AssociateId": 905,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 725,
-      "Caption": "ratione",
-      "Description": "Focused mobile service-desk",
-      "ChartName": "Conroy, Waters and Block",
-      "ChartId": "vitae",
-      "IsDefault": true,
-      "AssociateId": 876,
-      "GroupId": 167,
-      "SelectionId": 469,
-      "Config": "pariatur",
+      "DashboardTileId": 242,
+      "Caption": "rerum",
+      "Description": "Centralized grid-enabled synergy",
+      "ChartName": "Pfannerstill LLC",
+      "ChartId": "eum",
+      "IsDefault": false,
+      "AssociateId": 474,
+      "GroupId": 184,
+      "SelectionId": 587,
+      "Config": "numquam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 147
         }
       }
     }
@@ -177,12 +177,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldLength": 763
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

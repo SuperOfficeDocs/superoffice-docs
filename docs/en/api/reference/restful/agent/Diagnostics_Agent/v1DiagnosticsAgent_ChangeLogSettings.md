@@ -78,9 +78,9 @@ Content-Type: application/json; charset=utf-8
   "LogWarning": true,
   "LogInformation": false,
   "LogSuccessAudit": false,
-  "LogFailureAudit": false,
+  "LogFailureAudit": true,
   "LogToEventLog": true,
-  "LogToSuperOffice": true,
+  "LogToSuperOffice": false,
   "LogToFile": false,
   "LogToTrace": false
 }

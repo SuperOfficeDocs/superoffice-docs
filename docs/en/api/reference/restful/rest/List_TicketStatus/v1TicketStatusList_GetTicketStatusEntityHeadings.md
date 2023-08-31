@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 381,
-    "Name": "O'Kon, Williamson and Johnston",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 492,
-    "UdListDefinitionId": 523,
+    "HeadingId": 37,
+    "Name": "Dibbert, Gorczany and Emard",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 682,
+    "UdListDefinitionId": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldLength": 372
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 41
+  "SaleId": 393
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 978,
-  "SaleId": 258,
-  "QuoteConnectionId": 565,
-  "ERPQuoteKey": "aspernatur",
-  "ERPOrderKey": "aliquam",
-  "ActiveQuoteVersionId": 466,
-  "AcceptedQuoteAlternativeId": 406,
-  "UseValuesFromQuote": 920,
-  "DocumentId": 826,
-  "PoNumber": "1463479",
-  "OrderComment": "velit",
-  "PreferredEmailCulture": "octavia_schultz@schadenbarrows.com",
+  "QuoteId": 83,
+  "SaleId": 833,
+  "QuoteConnectionId": 902,
+  "ERPQuoteKey": "voluptas",
+  "ERPOrderKey": "veritatis",
+  "ActiveQuoteVersionId": 734,
+  "AcceptedQuoteAlternativeId": 643,
+  "UseValuesFromQuote": 315,
+  "DocumentId": 367,
+  "PoNumber": "1092842",
+  "OrderComment": "consequatur",
+  "PreferredEmailCulture": "emilia.barton@reinger.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 209
     }
   }
 }

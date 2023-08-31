@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 414,
-  "ERPProductKey": "ut"
+  "QuoteConnectionId": 616,
+  "ERPProductKey": "et"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 450,
-  "ERPProductKey": "vitae",
-  "ERPPriceListKey": "odit",
-  "Name": "Quigley-Bashirian",
-  "Description": "Self-enabling client-driven synergy",
-  "Code": "autem",
-  "PriceUnit": "suscipit",
-  "QuantityUnit": "ea",
+  "ProductId": 653,
+  "ERPProductKey": "ea",
+  "ERPPriceListKey": "facilis",
+  "Name": "Kozey-Frami",
+  "Description": "Intuitive client-driven firmware",
+  "Code": "illo",
+  "PriceUnit": "eveniet",
+  "QuantityUnit": "quia",
   "IsSubscription": false,
-  "SubscriptionUnit": "ipsa",
-  "DefaultSubscriptionQuantity": 28375.236,
-  "ItemNumber": "217514",
+  "SubscriptionUnit": "aut",
+  "DefaultSubscriptionQuantity": 10420.55,
+  "ItemNumber": "1014080",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ipsam",
-  "ProductTypeKey": "ea",
-  "VAT": 24410.726,
-  "VATInfo": "distinctio",
-  "UnitCost": 8524.48,
-  "UnitMinimumPrice": 11993.818,
-  "UnitListPrice": 21953.67,
+  "ProductFamilyKey": "molestiae",
+  "ProductTypeKey": "est",
+  "VAT": 12927.75,
+  "VATInfo": "officiis",
+  "UnitCost": 13106.387999999999,
+  "UnitMinimumPrice": 29741.66,
+  "UnitListPrice": 2469.592,
   "InAssortment": false,
-  "Supplier": "dolor",
-  "SupplierCode": "nesciunt",
-  "Rights": "impedit",
-  "Rule": "iusto",
+  "Supplier": "laudantium",
+  "SupplierCode": "quo",
+  "Rights": "est",
+  "Rule": "omnis",
   "ExtraInfo": [
     {
-      "Name": "Fahey, Blick and Orn",
-      "Value": "eius",
+      "Name": "Keebler-Rowe",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 790
         }
       }
     },
     {
-      "Name": "Fahey, Blick and Orn",
-      "Value": "eius",
+      "Name": "Keebler-Rowe",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 790
         }
       }
     }
   ],
-  "RawExtraInfo": "soluta",
-  "ExtraField1": "maxime",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "atque",
-  "ExtraField4": "error",
-  "ExtraField5": "molestias",
-  "InStock": 476.368,
+  "RawExtraInfo": "exercitationem",
+  "ExtraField1": "debitis",
+  "ExtraField2": "excepturi",
+  "ExtraField3": "ipsa",
+  "ExtraField4": "velit",
+  "ExtraField5": "deleniti",
+  "InStock": 28406.575999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

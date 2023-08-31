@@ -84,7 +84,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Webhook:Value xsi:type="xsd:anyType"></Webhook:Value>
      </Webhook:StringObjectKeyValuePair>
     </Webhook:Properties>
-    <Webhook:Registered xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Webhook:Registered>
+    <Webhook:Registered xsi:type="xsd:dateTime">2023-08-29T01:31:12Z</Webhook:Registered>
     <Webhook:RegisteredAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -99,7 +99,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
     </Webhook:RegisteredAssociate>
-    <Webhook:Updated xsi:type="xsd:dateTime">2023-06-09T14:00:27Z</Webhook:Updated>
+    <Webhook:Updated xsi:type="xsd:dateTime">2023-08-29T01:31:12Z</Webhook:Updated>
     <Webhook:UpdatedAssociate xsi:type="Webhook:Associate">
      <Webhook:AssociateId xsi:type="xsd:int">0</Webhook:AssociateId>
      <Webhook:Name xsi:type="xsd:string"></Webhook:Name>
@@ -114,6 +114,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Webhook:EjUserId xsi:type="xsd:int">0</Webhook:EjUserId>
      <Webhook:UserName xsi:type="xsd:string"></Webhook:UserName>
     </Webhook:UpdatedAssociate>
+    <Webhook:ErrorsEmail xsi:type="xsd:string"></Webhook:ErrorsEmail>
    </Webhook:Response>
   </Webhook:GetWebhookResponse>
  </SOAP-ENV:Body>

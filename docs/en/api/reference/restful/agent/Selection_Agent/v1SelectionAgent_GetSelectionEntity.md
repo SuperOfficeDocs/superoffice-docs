@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=578
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=763
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive intermediate forecast",
-  "Postit": "ipsa",
+  "Description": "Triple-buffered next generation extranet",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 123,
-  "IncludePerson": 713,
-  "MemberCount": 773,
-  "Name": "Murazik-Raynor",
-  "PostitTextId": 182,
-  "CreatedDate": "2013-01-02T16:00:41.8206735+01:00",
-  "SelectionId": 866,
-  "SoundEx": "corporis",
-  "Source": 926,
-  "TextId": 470,
-  "UpdatedDate": "2001-03-15T16:00:41.8206735+01:00",
-  "UpdatedCount": 585,
-  "Visibility": 873,
+  "GroupIdx": 130,
+  "IncludePerson": 547,
+  "MemberCount": 826,
+  "Name": "Armstrong Inc and Sons",
+  "PostitTextId": 395,
+  "CreatedDate": "2022-05-05T03:31:27.2468237+02:00",
+  "SelectionId": 770,
+  "SoundEx": "totam",
+  "Source": 805,
+  "TextId": 587,
+  "UpdatedDate": "2007-10-14T03:31:27.2468237+02:00",
+  "UpdatedCount": 544,
+  "Visibility": 752,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 162,
-  "TargetTableName": "Tromp, Paucek and Rau",
+  "TargetTableNumber": 357,
+  "TargetTableName": "Spencer LLC",
   "Completed": false,
-  "LeftSelectionId": 901,
-  "RightSelectionId": 510,
+  "LeftSelectionId": 243,
+  "RightSelectionId": 551,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kemmer, Lehner and Maggio",
-  "ShadowProviderName": "Klein, Renner and D'Amore",
-  "ChartKey": "doloremque",
-  "LastLoaded": "2002-04-03T16:00:41.8206735+02:00",
-  "LastLoadedBy": 687,
+  "MainProviderName": "Dickens-Hand",
+  "ShadowProviderName": "Stark Group",
+  "ChartKey": "qui",
+  "LastLoaded": "2005-07-07T03:31:27.2468237+02:00",
+  "LastLoadedBy": 167,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-12-30T16:00:41.8206735+01:00",
-  "LastMembershipChangeBy": 580,
+  "LastMembershipChange": "2022-09-28T03:31:27.2468237+02:00",
+  "LastMembershipChangeBy": 295,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deserunt",
-  "MemberTabHeading": "doloremque",
-  "MailingsProviderName": "Swift-Raynor",
-  "DashboardTileDefinitionId": 694,
+  "MainHeading": "dolores",
+  "MemberTabHeading": "quos",
+  "MailingsProviderName": "Parisian-Erdman",
+  "DashboardTileDefinitionId": 52,
   "VisibleFor": [
     {
-      "VisibleId": 937,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldType": "System.String",
+          "FieldLength": 943
         }
       }
     },
     {
-      "VisibleId": 937,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldType": "System.String",
+          "FieldLength": 943
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 177
     }
   }
 }

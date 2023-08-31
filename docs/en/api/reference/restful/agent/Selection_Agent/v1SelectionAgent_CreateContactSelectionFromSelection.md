@@ -120,10 +120,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 491,
-  "Name": "Breitenberg, Stoltenberg and Tromp",
+  "SelectionId": 369,
+  "Name": "Fisher, Kuphal and Crooks",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional system-worthy flexibility",
-  "Postit": "et",
+  "Description": "Innovative content-based function",
+  "Postit": "dolor",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 822,
-  "IncludePerson": 391,
-  "MemberCount": 218,
-  "Name": "Powlowski Inc and Sons",
-  "PostitTextId": 671,
-  "CreatedDate": "2009-11-03T16:00:41.8362961+01:00",
-  "SelectionId": 455,
-  "SoundEx": "occaecati",
-  "Source": 122,
-  "TextId": 866,
-  "UpdatedDate": "2014-06-01T16:00:41.8362961+02:00",
-  "UpdatedCount": 700,
-  "Visibility": 492,
+  "GroupIdx": 242,
+  "IncludePerson": 306,
+  "MemberCount": 245,
+  "Name": "Raynor Group",
+  "PostitTextId": 455,
+  "CreatedDate": "2000-09-13T03:31:27.2468237+02:00",
+  "SelectionId": 818,
+  "SoundEx": "voluptatum",
+  "Source": 627,
+  "TextId": 778,
+  "UpdatedDate": "1999-09-24T03:31:27.2468237+02:00",
+  "UpdatedCount": 18,
+  "Visibility": 576,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 357,
-  "TargetTableName": "Cummerata LLC",
+  "TargetTableNumber": 945,
+  "TargetTableName": "Skiles-Rogahn",
   "Completed": true,
-  "LeftSelectionId": 539,
-  "RightSelectionId": 874,
+  "LeftSelectionId": 563,
+  "RightSelectionId": 403,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wehner-Runolfsson",
-  "ShadowProviderName": "Vandervort Inc and Sons",
-  "ChartKey": "aut",
-  "LastLoaded": "2006-04-02T16:00:41.8362961+02:00",
-  "LastLoadedBy": 924,
+  "MainProviderName": "Hahn-Rice",
+  "ShadowProviderName": "Hodkiewicz Inc and Sons",
+  "ChartKey": "mollitia",
+  "LastLoaded": "2016-04-23T03:31:27.2468237+02:00",
+  "LastLoadedBy": 397,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-10-14T16:00:41.8362961+02:00",
-  "LastMembershipChangeBy": 632,
+  "LastMembershipChange": "2006-10-05T03:31:27.2468237+02:00",
+  "LastMembershipChangeBy": 673,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ea",
-  "MemberTabHeading": "consequatur",
-  "MailingsProviderName": "Connelly, Zboncak and Boyle",
-  "DashboardTileDefinitionId": 132,
+  "MainHeading": "et",
+  "MemberTabHeading": "natus",
+  "MailingsProviderName": "Goldner, Greenholt and Greenholt",
+  "DashboardTileDefinitionId": 682,
   "VisibleFor": [
     {
-      "VisibleId": 934,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 883
         }
       }
     },
     {
-      "VisibleId": 934,
+      "VisibleId": 804,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 883
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 535
     }
   }
 }

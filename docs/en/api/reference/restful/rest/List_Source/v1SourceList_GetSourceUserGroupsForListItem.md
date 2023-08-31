@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Stroman, Gerhold and Beatty",
-    "ToolTip": "Qui quibusdam aut cumque quasi consequuntur numquam.",
+    "Id": 393,
+    "Name": "Beier Group",
+    "ToolTip": "Quo sint ut veniam qui ducimus.",
     "Deleted": false,
-    "Rank": 903,
-    "Type": "atque",
-    "ColorBlock": 106,
-    "IconHint": "nisi",
+    "Rank": 70,
+    "Type": "voluptates",
+    "ColorBlock": 817,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2015-05-14T16:00:49.3527243+02:00",
+    "LastChanged": "2023-04-26T03:31:33.900328+02:00",
     "ChildItems": [
       {
-        "Id": 839,
-        "Name": "Reichel, Bradtke and Nikolaus",
-        "ToolTip": "Voluptatem maxime.",
-        "Deleted": false,
-        "Rank": 849,
-        "Type": "harum",
-        "ColorBlock": 144,
-        "IconHint": "modi",
-        "Selected": true,
-        "LastChanged": "2008-08-15T16:00:49.3527243+02:00",
+        "Id": 586,
+        "Name": "Beier-Macejkovic",
+        "ToolTip": "Temporibus magni modi rem non.",
+        "Deleted": true,
+        "Rank": 297,
+        "Type": "voluptas",
+        "ColorBlock": 334,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2007-03-15T03:31:33.900328+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "sunt",
+        "ExtraInfo": "libero",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Ms. Henri White",
+        "FullName": "Missouri Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 627
+            "FieldType": "System.Int32",
+            "FieldLength": 267
           }
         }
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "sed",
+    "ExtraInfo": "totam",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Otis Gusikowski",
+    "FullName": "Sarina Hudson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 814
       }
     }
   }

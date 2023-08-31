@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 737,
-  "ModuleOwner": "consequatur",
+  "AssociateId": 89,
+  "ModuleOwner": "nemo",
   "ModuleLicenseNames": [
-    "Steuber-Stoltenberg",
-    "Reichel, Sporer and Huels"
+    "McDermott-Beatty",
+    "Miller Inc and Sons"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 979,
-    "Tooltip": "tenetur",
-    "CanAssign": false,
-    "Free": 24,
-    "InUse": 74,
-    "IsHidden": false,
+    "Unrestricted": true,
+    "Total": 301,
+    "Tooltip": "ut",
+    "CanAssign": true,
+    "Free": 979,
+    "InUse": 390,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 292,
-    "Name": "Pacocha Inc and Sons",
-    "Description": "Advanced client-driven array",
-    "PrerequisiteModuleName": "O'Hara-Lebsack",
-    "SortOrder": 757,
-    "ExtraFlags": 248,
+    "ModuleLicenseId": 893,
+    "Name": "Reilly, Heller and Bradtke",
+    "Description": "Visionary motivating complexity",
+    "PrerequisiteModuleName": "Lemke-Miller",
+    "SortOrder": 880,
+    "ExtraFlags": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 713
       }
     }
   }

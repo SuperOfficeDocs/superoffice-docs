@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
+  "Id": 787,
   "Entities": [
     {
-      "HeadingId": 165,
-      "Name": "Kihn, Mante and Dare",
-      "Tooltip": "molestiae",
-      "Deleted": false,
-      "Rank": 625,
-      "UdListDefinitionId": 84
+      "HeadingId": 593,
+      "Name": "Homenick Group",
+      "Tooltip": "magni",
+      "Deleted": true,
+      "Rank": 861,
+      "UdListDefinitionId": 36
     },
     {
-      "HeadingId": 165,
-      "Name": "Kihn, Mante and Dare",
-      "Tooltip": "molestiae",
-      "Deleted": false,
-      "Rank": 625,
-      "UdListDefinitionId": 84
+      "HeadingId": 593,
+      "Name": "Homenick Group",
+      "Tooltip": "magni",
+      "Deleted": true,
+      "Rank": 861,
+      "UdListDefinitionId": 36
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Gulgowski, Schimmel and Wisoky",
-    "Tooltip": "autem",
+    "HeadingId": 876,
+    "Name": "Hudson LLC",
+    "Tooltip": "numquam",
     "Deleted": false,
-    "Rank": 514,
-    "UdListDefinitionId": 115,
+    "Rank": 588,
+    "UdListDefinitionId": 11,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 538
       }
     }
   }

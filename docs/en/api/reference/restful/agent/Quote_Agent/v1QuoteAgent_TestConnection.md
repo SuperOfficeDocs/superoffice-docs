@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Borer Group",
+  "ConnectorName": "Adams-Schiller",
   "ConnectionData": {
-    "ConnectionData1": "commodi",
-    "ConnectionData2": "repellat"
+    "ConnectionData1": "et",
+    "ConnectionData2": "impedit"
   }
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "iure",
-  "TechExplanation": "alias",
-  "ErrorCode": "nihil",
+  "UserExplanation": "sint",
+  "TechExplanation": "non",
+  "ErrorCode": "rerum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

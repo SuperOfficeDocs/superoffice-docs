@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 803,
-  "LanguageCode": "deserunt"
+  "DocumentTemplateId": 688,
+  "LanguageCode": "vitae"
 }
 ```
 

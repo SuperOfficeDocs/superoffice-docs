@@ -107,27 +107,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 976,
-  "PlainMessage": "earum",
-  "HtmlMessage": "voluptas",
-  "SmsMessage": "omnis",
-  "Description": "Reduced mobile analyzer",
-  "Subject": "nam",
-  "FolderId": 263,
-  "HeaderField": "sequi",
-  "Design": "nostrum",
+  "ShipmentMessageId": 716,
+  "PlainMessage": "culpa",
+  "HtmlMessage": "repudiandae",
+  "SmsMessage": "necessitatibus",
+  "Description": "Ergonomic heuristic hierarchy",
+  "Subject": "accusantium",
+  "FolderId": 502,
+  "HeaderField": "dolor",
+  "Design": "vel",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Fundamental composite superstructure",
-  "AccessKey": "velit",
-  "DocumentMessage": 520,
-  "Registered": "1998-02-26T16:00:41.2580675+01:00",
-  "RegisteredAssociateId": 68,
-  "Updated": "2012-04-11T16:00:41.2580675+02:00",
-  "UpdatedAssociateId": 662,
-  "UpdatedCount": 828
+  "InlineImages": true,
+  "LongDescription": "Integrated incremental attitude",
+  "AccessKey": "deleniti",
+  "DocumentMessage": 219,
+  "Registered": "2002-12-23T03:31:26.7612835+01:00",
+  "RegisteredAssociateId": 453,
+  "Updated": "2011-02-21T03:31:26.7612835+01:00",
+  "UpdatedAssociateId": 718,
+  "UpdatedCount": 987
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 386,
-  "PlainMessage": "dolores",
-  "HtmlMessage": "quo",
-  "SmsMessage": "nam",
-  "Description": "Streamlined bi-directional help-desk",
-  "Subject": "nihil",
-  "FolderId": 625,
-  "HeaderField": "asperiores",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 905,
+  "PlainMessage": "magnam",
+  "HtmlMessage": "sit",
+  "SmsMessage": "officiis",
+  "Description": "Synergistic intangible algorithm",
+  "Subject": "tempore",
+  "FolderId": 255,
+  "HeaderField": "sunt",
+  "Design": "dolorem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Polarised hybrid circuit",
-  "AccessKey": "voluptates",
-  "DocumentMessage": 65,
-  "Registered": "2006-01-23T16:00:41.2580675+01:00",
-  "RegisteredAssociateId": 171,
-  "Updated": "2000-11-19T16:00:41.2580675+01:00",
-  "UpdatedAssociateId": 242,
-  "UpdatedCount": 997,
+  "LongDescription": "Up-sized uniform solution",
+  "AccessKey": "fuga",
+  "DocumentMessage": 833,
+  "Registered": "2009-02-24T03:31:26.7612835+01:00",
+  "RegisteredAssociateId": 667,
+  "Updated": "2008-06-19T03:31:26.7612835+02:00",
+  "UpdatedAssociateId": 23,
+  "UpdatedCount": 425,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 664
     }
   }
 }

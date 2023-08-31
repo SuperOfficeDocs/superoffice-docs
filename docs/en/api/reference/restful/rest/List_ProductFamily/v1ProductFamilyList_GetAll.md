@@ -25,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Purdy LLC",
-    "Tooltip": "id",
+    "Id": 133,
+    "Name": "Larson, Wiegand and Boyle",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 758,
-    "Rank": 901,
+    "UdListDefinitionId": 294,
+    "Rank": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldType": "System.String",
+        "FieldLength": 161
       }
     }
   }

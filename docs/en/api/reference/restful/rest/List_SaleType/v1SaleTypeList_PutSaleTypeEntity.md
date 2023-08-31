@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 695,
-  "Name": "Brakus LLC",
-  "Tooltip": "blanditiis",
-  "Rank": 301,
+  "SaleTypeId": 53,
+  "Name": "Balistreri Group",
+  "Tooltip": "sequi",
+  "Rank": 866,
   "DurationUnit": "Century",
-  "SaleDuration": 746,
-  "SaleTypeCatId": 850,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 222,
+  "SaleTypeCatId": 281,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 602,
-  "QuoteLinesTemplate": 736,
-  "ConfirmationLinesTemplate": 44,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 184,
-  "MinEarningPercent": 587,
-  "GroupQuoteLinesBy": 695,
-  "SortGroupLinesBy": 15,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 581,
+  "QuoteLinesTemplate": 269,
+  "ConfirmationLinesTemplate": 429,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 862,
+  "MinEarningPercent": 904,
+  "GroupQuoteLinesBy": 461,
+  "SortGroupLinesBy": 787,
   "Stages": [
     {
-      "Id": 864,
-      "Name": "Predovic-Berge",
-      "ToolTip": "Natus deleniti aut quae.",
-      "Deleted": false,
-      "Rank": 241,
-      "Type": "dolor",
-      "ColorBlock": 612,
-      "IconHint": "quis",
+      "Id": 588,
+      "Name": "Kovacek-Okuneva",
+      "ToolTip": "Consequatur provident sed et error et et.",
+      "Deleted": true,
+      "Rank": 724,
+      "Type": "reprehenderit",
+      "ColorBlock": 137,
+      "IconHint": "impedit",
       "Selected": false,
-      "LastChanged": "2004-09-03T16:00:49.3051793+02:00",
+      "LastChanged": "2003-06-13T03:31:33.8679659+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "recusandae",
-      "StyleHint": "veritatis",
-      "Hidden": true,
-      "FullName": "Napoleon Shields"
+      "ExtraInfo": "impedit",
+      "StyleHint": "eius",
+      "Hidden": false,
+      "FullName": "Ms. Kendrick Littel DVM"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 14,
-  "Name": "Marquardt, Hoppe and Medhurst",
-  "Tooltip": "tempore",
-  "Rank": 207,
+  "SaleTypeId": 647,
+  "Name": "Zulauf LLC",
+  "Tooltip": "consequatur",
+  "Rank": 702,
   "DurationUnit": "Century",
-  "SaleDuration": 431,
-  "SaleTypeCatId": 14,
+  "SaleDuration": 346,
+  "SaleTypeCatId": 261,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 113,
-  "QuoteLinesTemplate": 505,
-  "ConfirmationLinesTemplate": 252,
+  "DefaultQuoteValidity": 238,
+  "QuoteLinesTemplate": 871,
+  "ConfirmationLinesTemplate": 455,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 215,
-  "MinEarningPercent": 947,
-  "GroupQuoteLinesBy": 66,
-  "SortGroupLinesBy": 821,
+  "MaxDiscountPercent": 95,
+  "MinEarningPercent": 118,
+  "GroupQuoteLinesBy": 913,
+  "SortGroupLinesBy": 482,
   "Stages": [
     {
-      "Id": 579,
-      "Name": "Mayert LLC",
-      "ToolTip": "Corporis numquam iste error ut.",
+      "Id": 658,
+      "Name": "Metz, Volkman and Lueilwitz",
+      "ToolTip": "Ut cumque alias dignissimos.",
       "Deleted": false,
-      "Rank": 6,
-      "Type": "numquam",
-      "ColorBlock": 181,
-      "IconHint": "tempora",
-      "Selected": true,
-      "LastChanged": "2018-01-02T16:00:49.3208058+01:00",
+      "Rank": 213,
+      "Type": "suscipit",
+      "ColorBlock": 341,
+      "IconHint": "ullam",
+      "Selected": false,
+      "LastChanged": "2006-03-14T03:31:33.8679659+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laudantium",
-      "StyleHint": "eveniet",
-      "Hidden": false,
-      "FullName": "Mr. Skye Earnestine Simonis",
+      "ExtraInfo": "qui",
+      "StyleHint": "ex",
+      "Hidden": true,
+      "FullName": "Jovany Gleason II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 895
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   }
 }

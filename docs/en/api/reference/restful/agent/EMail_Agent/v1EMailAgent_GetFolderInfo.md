@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "est",
-    "assumenda"
+    "doloribus",
+    "et"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobs, Mosciski and Lubowitz",
-    "Delimiter": "id",
-    "Flags": "sed",
-    "TotalItems": 652,
-    "UnreadItems": 748,
-    "Subscribed": true,
-    "EmailFolderId": 670,
+    "Name": "Schaefer-Doyle",
+    "Delimiter": "laudantium",
+    "Flags": "provident",
+    "TotalItems": 123,
+    "UnreadItems": 83,
+    "Subscribed": false,
+    "EmailFolderId": 579,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 72
       }
     }
   }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 118
+  "SatelliteId": 455
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lakin, Kunde and Becker",
-    "Description": "Adaptive client-driven software",
+    "Name": "Gusikowski, Legros and Kunze",
+    "Description": "User-friendly background frame",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 758,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 754,
-        "InUse": 390,
+        "Total": 489,
+        "Tooltip": "quo",
+        "CanAssign": false,
+        "Free": 43,
+        "InUse": 384,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 898,
-        "Name": "Gerlach, Schowalter and Durgan",
-        "Description": "Optional motivating conglomeration",
-        "PrerequisiteModuleName": "Cummerata Inc and Sons",
-        "SortOrder": 883,
-        "ExtraFlags": 657,
+        "ModuleLicenseId": 362,
+        "Name": "Jerde, Hodkiewicz and Bradtke",
+        "Description": "Automated national access",
+        "PrerequisiteModuleName": "West, Beier and Lakin",
+        "SortOrder": 957,
+        "ExtraFlags": 327,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 682
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 492,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 419,
-        "InUse": 501,
-        "IsHidden": true,
+        "Total": 462,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 735,
+        "InUse": 592,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 979,
-        "Name": "Kirlin-Rutherford",
-        "Description": "Organic assymetric alliance",
-        "PrerequisiteModuleName": "Schuppe-Keeling",
-        "SortOrder": 475,
-        "ExtraFlags": 174,
+        "ModuleLicenseId": 943,
+        "Name": "Murray, Auer and Stroman",
+        "Description": "Self-enabling intangible frame",
+        "PrerequisiteModuleName": "Tromp, Rogahn and Aufderhar",
+        "SortOrder": 192,
+        "ExtraFlags": 688,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 901
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   },
   {
-    "Name": "Lakin, Kunde and Becker",
-    "Description": "Adaptive client-driven software",
+    "Name": "Gusikowski, Legros and Kunze",
+    "Description": "User-friendly background frame",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 758,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 754,
-        "InUse": 390,
+        "Total": 489,
+        "Tooltip": "quo",
+        "CanAssign": false,
+        "Free": 43,
+        "InUse": 384,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 898,
-        "Name": "Gerlach, Schowalter and Durgan",
-        "Description": "Optional motivating conglomeration",
-        "PrerequisiteModuleName": "Cummerata Inc and Sons",
-        "SortOrder": 883,
-        "ExtraFlags": 657,
+        "ModuleLicenseId": 362,
+        "Name": "Jerde, Hodkiewicz and Bradtke",
+        "Description": "Automated national access",
+        "PrerequisiteModuleName": "West, Beier and Lakin",
+        "SortOrder": 957,
+        "ExtraFlags": 327,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 682
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 492,
-        "Tooltip": "rerum",
-        "CanAssign": true,
-        "Free": 419,
-        "InUse": 501,
-        "IsHidden": true,
+        "Total": 462,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 735,
+        "InUse": 592,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 979,
-        "Name": "Kirlin-Rutherford",
-        "Description": "Organic assymetric alliance",
-        "PrerequisiteModuleName": "Schuppe-Keeling",
-        "SortOrder": 475,
-        "ExtraFlags": 174,
+        "ModuleLicenseId": 943,
+        "Name": "Murray, Auer and Stroman",
+        "Description": "Self-enabling intangible frame",
+        "PrerequisiteModuleName": "Tromp, Rogahn and Aufderhar",
+        "SortOrder": 192,
+        "ExtraFlags": 688,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 901
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   }

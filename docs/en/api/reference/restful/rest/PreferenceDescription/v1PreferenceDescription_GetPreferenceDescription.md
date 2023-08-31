@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 276,
-  "Section": "velit",
-  "Key": "quia",
-  "Name": "Adams-Blanda",
+  "PrefDescId": 445,
+  "Section": "sunt",
+  "Key": "possimus",
+  "Name": "Turner-Herzog",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fully-configurable zero tolerance hierarchy",
+  "Description": "Vision-oriented systemic initiative",
   "IsBuiltin": true,
-  "TableName": "Price-Bechtelar",
-  "UserDefinedListId": 263,
-  "Rank": 877,
-  "SubGroup": "molestiae",
-  "MinLevel": 93,
-  "MaxValue": 338,
-  "MinValue": 933,
-  "RequiredLicense": "autem",
+  "TableName": "Maggio LLC",
+  "UserDefinedListId": 261,
+  "Rank": 679,
+  "SubGroup": "odit",
+  "MinLevel": 367,
+  "MaxValue": 172,
+  "MinValue": 3,
+  "RequiredLicense": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 528
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

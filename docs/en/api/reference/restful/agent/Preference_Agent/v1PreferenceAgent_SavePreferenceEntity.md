@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "rerum",
+  "RawValue": "consequuntur",
   "Specification": null,
-  "DisplayValue": "nulla",
-  "DisplayTooltip": "necessitatibus",
+  "DisplayValue": "expedita",
+  "DisplayTooltip": "iusto",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 609,
-  "PrefDescId": 38,
-  "TableName": "Ledner, Ledner and Heller",
-  "UserPreferenceId": 742,
+  "TargetId": 125,
+  "PrefDescId": 544,
+  "TableName": "Turner-Morissette",
+  "UserPreferenceId": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 648
     }
   }
 }

@@ -70,13 +70,13 @@ Content-Type: application/json; charset=utf-8
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 920,
-      "AssocId": 966,
-      "Timestamp": "2013-05-31T16:00:40.5550049+02:00",
-      "ViewState": "veniam",
-      "AggregateCount": 145,
-      "AggregateBin": 220,
-      "Version": 320
+      "WebAppUsageId": 557,
+      "AssocId": 279,
+      "Timestamp": "2012-06-03T03:31:26.0270945+02:00",
+      "ViewState": "tenetur",
+      "AggregateCount": 334,
+      "AggregateBin": 705,
+      "Version": 761
     }
   ]
 }

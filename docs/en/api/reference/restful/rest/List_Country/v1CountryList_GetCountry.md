@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 545,
-  "Name": "Braun-Predovic",
-  "CurrencyId": 806,
-  "EnglishName": "Maggio-Will",
+  "CountryId": 270,
+  "Name": "Lowe-Kunde",
+  "CurrencyId": 219,
+  "EnglishName": "Zieme-Hackett",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable transitional system engine",
-  "OrgNrText": "1495556",
-  "InterAreaPrefix": "provident",
-  "DialInPrefix": "optio",
-  "ZipPrefix": "nisi",
-  "DomainName": "Boyer-Wiza",
-  "AddressLayoutId": 166,
-  "DomesticAddressLayoutId": 410,
-  "ForeignAddressLayoutId": 894,
-  "Rank": 700,
-  "Tooltip": "harum",
-  "Deleted": false,
+  "ImageDescription": "Object-based dynamic circuit",
+  "OrgNrText": "995540",
+  "InterAreaPrefix": "praesentium",
+  "DialInPrefix": "laudantium",
+  "ZipPrefix": "laudantium",
+  "DomainName": "Bogisich LLC",
+  "AddressLayoutId": 254,
+  "DomesticAddressLayoutId": 240,
+  "ForeignAddressLayoutId": 2,
+  "Rank": 358,
+  "Tooltip": "cupiditate",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

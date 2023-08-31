@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 348,
-    "Name": "Hilll, Treutel and Schroeder",
-    "Tooltip": "in",
+    "HeadingId": 122,
+    "Name": "Bernier LLC",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 80,
-    "UdListDefinitionId": 637,
+    "Rank": 685,
+    "UdListDefinitionId": 392,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 467
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=id
+GET /api/v1/List/ProjectStatus/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Davis, Larkin and Christiansen",
-    "ToolTip": "Illum consequatur voluptatem ut voluptatibus.",
+    "Id": 69,
+    "Name": "Howe, Jewess and Olson",
+    "ToolTip": "Cumque atque quas est.",
     "Deleted": false,
-    "Rank": 605,
-    "Type": "maiores",
+    "Rank": 257,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Hoppe Group",
-        "ToolTip": "Et repudiandae dolores facilis ut.",
+        "Id": 876,
+        "Name": "Pacocha LLC",
+        "ToolTip": "Enim qui.",
         "Deleted": false,
-        "Rank": 752,
-        "Type": "accusamus",
+        "Rank": 15,
+        "Type": "facilis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "commodi",
-        "ColorBlock": 311,
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
-        "FullName": "Lue Luis Lakin MD",
+        "IconHint": "magnam",
+        "ColorBlock": 292,
+        "ExtraInfo": "veniam",
+        "StyleHint": "sunt",
+        "FullName": "Billy Shanahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 560
+            "FieldLength": 556
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 754,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "nam",
-    "FullName": "Prof. Domenic Padberg",
+    "IconHint": "quis",
+    "ColorBlock": 299,
+    "ExtraInfo": "earum",
+    "StyleHint": "aut",
+    "FullName": "Josefa Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 573
       }
     }
   }

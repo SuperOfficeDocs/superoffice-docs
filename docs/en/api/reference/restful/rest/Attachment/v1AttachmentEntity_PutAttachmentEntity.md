@@ -91,17 +91,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 812,
-  "Name": "Sanford LLC",
-  "ContentType": "ipsa",
-  "AttSize": 330,
+  "AttachmentId": 801,
+  "Name": "Thiel-Rutherford",
+  "ContentType": "sunt",
+  "AttSize": 403,
   "InlineImage": false,
-  "ContentId": "ad",
-  "AuthKey": "tempora"
+  "ContentId": "omnis",
+  "AuthKey": "excepturi"
 }
 ```
 
@@ -112,19 +112,19 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 589,
-  "Name": "Bartell LLC",
-  "ContentType": "provident",
-  "AttSize": 234,
+  "AttachmentId": 609,
+  "Name": "Blick, Collier and Wiegand",
+  "ContentType": "sapiente",
+  "AttSize": 612,
   "InlineImage": false,
-  "ContentId": "necessitatibus",
-  "AuthKey": "distinctio",
+  "ContentId": "ullam",
+  "AuthKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 214
     }
   },
   "_Links": {

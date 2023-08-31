@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 937,
-  "Name": "Prosacco-Yundt",
-  "Tooltip": "odio",
+  "HeadingId": 987,
+  "Name": "Walter Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 8,
-  "UdListDefinitionId": 603
+  "Rank": 478,
+  "UdListDefinitionId": 500
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 959,
-  "Name": "Vandervort LLC",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 562,
-  "UdListDefinitionId": 471,
+  "HeadingId": 370,
+  "Name": "Dibbert-Cummerata",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 194,
+  "UdListDefinitionId": 191,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 988
     }
   }
 }

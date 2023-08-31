@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Aufderhar Inc and Sons",
-    "ToolTip": "Molestiae suscipit repellat.",
+    "Id": 355,
+    "Name": "Wolf-Kilback",
+    "ToolTip": "Laudantium hic commodi.",
     "Deleted": true,
-    "Rank": 72,
-    "Type": "sed",
-    "ColorBlock": 615,
-    "IconHint": "error",
+    "Rank": 939,
+    "Type": "accusamus",
+    "ColorBlock": 910,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2012-06-07T16:00:48.8364781+02:00",
+    "LastChanged": "2013-03-07T03:31:33.4448734+01:00",
     "ChildItems": [
       {
-        "Id": 118,
-        "Name": "Schamberger, Abbott and Bartell",
-        "ToolTip": "Aut commodi est.",
+        "Id": 695,
+        "Name": "Koelpin, Kuvalis and Corkery",
+        "ToolTip": "Quos ducimus quibusdam ipsum ex qui qui recusandae.",
         "Deleted": false,
-        "Rank": 244,
-        "Type": "id",
-        "ColorBlock": 382,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2000-01-13T16:00:48.8364781+01:00",
+        "Rank": 857,
+        "Type": "laborum",
+        "ColorBlock": 260,
+        "IconHint": "neque",
+        "Selected": true,
+        "LastChanged": "2015-05-24T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "et",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Prof. Vena Nikolaus II",
+        "FullName": "Bud Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 508
+            "FieldType": "System.Int32",
+            "FieldLength": 960
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Sandy Winifred Murphy IV",
+    "ExtraInfo": "ullam",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Amparo Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 61
       }
     }
   }

@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Sauer, Turner and Schuster",
-  "AssociateId": 880,
-  "DetailsTable": 535,
-  "DetailsRecord": 642,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 589,
+  "Name": "Grimes, Strosin and Stracke",
+  "AssociateId": 460,
+  "DetailsTable": 126,
+  "DetailsRecord": 389,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "esse",
-    "ParameterObject2": "nisi"
+    "ParameterObject1": "occaecati",
+    "ParameterObject2": "sit"
   },
-  "LastStarted": "2021-08-30T16:00:48.6333798+02:00",
-  "Created": "2003-02-19T16:00:48.6333798+01:00",
-  "StartCount": 472,
-  "DatabaseSerialNumber": "858724",
-  "Context": "et",
-  "Result": "dolore",
+  "LastStarted": "2007-09-08T03:31:33.2718572+02:00",
+  "Created": "2017-12-24T03:31:33.2718572+01:00",
+  "StartCount": 926,
+  "DatabaseSerialNumber": "1122068",
+  "Context": "omnis",
+  "Result": "inventore",
   "State": "All",
-  "Description": "Seamless logistical benchmark",
-  "Response": "ut",
-  "Request": "nulla",
-  "ProgressDescription": "Visionary intermediate data-warehouse",
-  "ProgressPercent": 29,
-  "FileName": "Crona-Jewess",
+  "Description": "Diverse radical conglomeration",
+  "Response": "vitae",
+  "Request": "architecto",
+  "ProgressDescription": "Virtual motivating definition",
+  "ProgressPercent": 886,
+  "FileName": "Walsh, Jacobi and Emard",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 465,
-  "Name": "Windler, Abbott and Sanford",
-  "AssociateId": 437,
-  "DetailsTable": 505,
-  "DetailsRecord": 203,
+  "Id": 103,
+  "Name": "Simonis LLC",
+  "AssociateId": 763,
+  "DetailsTable": 283,
+  "DetailsRecord": 748,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "reprehenderit",
-    "ParameterObject2": "voluptas"
+    "ParameterObject1": "excepturi",
+    "ParameterObject2": "deserunt"
   },
-  "LastStarted": "2001-08-26T16:00:48.6333798+02:00",
-  "Created": "2001-04-10T16:00:48.6333798+02:00",
-  "StartCount": 518,
-  "DatabaseSerialNumber": "1317101",
-  "Context": "delectus",
-  "Result": "ipsa",
+  "LastStarted": "2014-06-17T03:31:33.2718572+02:00",
+  "Created": "1996-10-07T03:31:33.2718572+02:00",
+  "StartCount": 227,
+  "DatabaseSerialNumber": "1315612",
+  "Context": "at",
+  "Result": "reiciendis",
   "State": "All",
-  "Description": "Decentralized responsive system engine",
-  "Response": "voluptatibus",
-  "Request": "enim",
-  "ProgressDescription": "Stand-alone encompassing productivity",
-  "ProgressPercent": 377,
-  "FileName": "Fadel-Hilpert",
+  "Description": "Cloned zero administration project",
+  "Response": "distinctio",
+  "Request": "voluptatem",
+  "ProgressDescription": "Cross-group asynchronous installation",
+  "ProgressPercent": 229,
+  "FileName": "Schulist-Nader",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldLength": 944
     }
   }
 }

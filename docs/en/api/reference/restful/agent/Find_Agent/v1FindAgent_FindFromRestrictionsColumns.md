@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Jerde, Hickle and Kshlerin",
-      "Operator": "omnis",
+      "Name": "Feest Inc and Sons",
+      "Operator": "et",
       "Values": [
-        "eius",
-        "natus"
+        "neque",
+        "nostrum"
       ],
       "DisplayValues": [
-        "minus",
-        "a"
+        "unde",
+        "fugit"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 935,
+      "InterParenthesis": 304,
       "InterOperator": "And",
-      "UniqueHash": 760
+      "UniqueHash": 147
     }
   ],
-  "ProviderName": "Bergstrom-Will",
+  "ProviderName": "Waelchi Group",
   "DesiredColumns": [
-    "qui",
-    "quae"
+    "dolore",
+    "aut"
   ],
-  "PageSize": 594,
-  "PageNumber": 5
+  "PageSize": 416,
+  "PageNumber": 882
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hauck Group",
-      "DisplayTooltip": "ea",
-      "DisplayType": "sed",
-      "CanOrderBy": false,
-      "Name": "Stiedemann, Ritchie and Bahringer",
+      "DisplayName": "Botsford, Eichmann and Kilback",
+      "DisplayTooltip": "quam",
+      "DisplayType": "ad",
+      "CanOrderBy": true,
+      "Name": "Wuckert-Crist",
       "CanRestrictBy": false,
-      "RestrictionType": "beatae",
-      "RestrictionListName": "Koch, Hoppe and Ziemann",
-      "IsVisible": true,
-      "ExtraInfo": "hic",
-      "Width": "commodi",
-      "IconHint": "voluptatum",
-      "HeadingIconHint": "esse"
+      "RestrictionType": "voluptates",
+      "RestrictionListName": "Labadie Group",
+      "IsVisible": false,
+      "ExtraInfo": "et",
+      "Width": "qui",
+      "IconHint": "asperiores",
+      "HeadingIconHint": "adipisci"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "DuBuque LLC",
-      "PrimaryKey": 490,
+      "EntityName": "Ryan LLC",
+      "PrimaryKey": 238,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "et",
-          "LinkHint": "molestiae"
+          "DisplayValue": "ullam",
+          "TooltipHint": "expedita",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "ratione",
-      "StyleHint": "asperiores",
+      "LinkHint": "aut",
+      "StyleHint": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 443
+          "FieldType": "System.String",
+          "FieldLength": 425
         }
       }
     }
   ],
-  "RowCount": 527,
+  "RowCount": 292,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 480
     }
   }
 }

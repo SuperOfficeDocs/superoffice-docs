@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Conroy-Kertzmann",
-  "Columns": "veritatis",
-  "SortOrder": "et",
-  "Restriction": "ut",
-  "Entities": "repellendus",
-  "Page": 125,
-  "PageSize": 262,
-  "Context": "et"
+  "ProviderName": "Kihn LLC",
+  "Columns": "perspiciatis",
+  "SortOrder": "natus",
+  "Restriction": "nobis",
+  "Entities": "voluptates",
+  "Page": 112,
+  "PageSize": 431,
+  "Context": "odit"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hane-Miller",
-    "PrimaryKey": 320,
+    "EntityName": "Beahan, Grimes and Kutch",
+    "PrimaryKey": 543,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "odit",
-        "TooltipHint": "rem",
-        "LinkHint": "qui"
+        "DisplayValue": "quas",
+        "TooltipHint": "sed",
+        "LinkHint": "pariatur"
       }
     },
-    "LinkHint": "ad",
-    "StyleHint": "quod",
+    "LinkHint": "veritatis",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

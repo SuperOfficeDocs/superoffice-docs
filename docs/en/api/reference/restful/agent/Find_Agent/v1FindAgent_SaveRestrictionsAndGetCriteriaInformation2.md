@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "soluta",
-  "ProviderName": "Howell LLC",
-  "StorageKey": "id",
-  "Restrictions": "laborum",
-  "StaticColumns": "sunt"
+  "StorageType": "natus",
+  "ProviderName": "Feeney LLC",
+  "StorageKey": "dolorum",
+  "Restrictions": "perspiciatis",
+  "StaticColumns": "veritatis"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Renner, Balistreri and Feil",
-      "Operator": "vero",
+      "Name": "Parker, Cartwright and Smith",
+      "Operator": "et",
       "Values": [
-        "rerum",
-        "consequatur"
+        "velit",
+        "quas"
       ],
       "DisplayValues": [
-        "pariatur",
-        "quia"
+        "adipisci",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 1000,
+      "InterParenthesis": 130,
       "InterOperator": "And",
-      "UniqueHash": 183
+      "UniqueHash": 344
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Hettinger-Schultz",
-      "DisplayTooltip": "cupiditate",
-      "DisplayType": "fugit",
-      "CanOrderBy": false,
-      "Name": "Murphy-Hudson",
-      "CanRestrictBy": false,
-      "RestrictionType": "assumenda",
-      "RestrictionListName": "Effertz, Kilback and Schoen",
+      "DisplayName": "Green LLC",
+      "DisplayTooltip": "eos",
+      "DisplayType": "eveniet",
+      "CanOrderBy": true,
+      "Name": "Cole-Huels",
+      "CanRestrictBy": true,
+      "RestrictionType": "dignissimos",
+      "RestrictionListName": "Gulgowski, Lueilwitz and Armstrong",
       "IsVisible": false,
-      "ExtraInfo": "id",
-      "Width": "cumque",
-      "IconHint": "consectetur",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "beatae",
+      "Width": "qui",
+      "IconHint": "inventore",
+      "HeadingIconHint": "non"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Goyette, Rau and Will",
-      "PrimaryKey": 942,
+      "EntityName": "Roberts, Hammes and Stanton",
+      "PrimaryKey": 537,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "at",
-          "LinkHint": "a"
+          "DisplayValue": "expedita",
+          "TooltipHint": "consequatur",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "natus",
-      "StyleHint": "qui",
+      "LinkHint": "voluptatem",
+      "StyleHint": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 303
+          "FieldType": "System.Int32",
+          "FieldLength": 332
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Blick Inc and Sons",
-      "Description": "Quality-focused uniform array",
-      "Rank": 18,
+      "Name": "Heathcote-Hansen",
+      "Description": "Reverse-engineered static software",
+      "Rank": 408,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Blick Inc and Sons",
-      "Description": "Quality-focused uniform array",
-      "Rank": 18,
+      "Name": "Heathcote-Hansen",
+      "Description": "Reverse-engineered static software",
+      "Rank": 408,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

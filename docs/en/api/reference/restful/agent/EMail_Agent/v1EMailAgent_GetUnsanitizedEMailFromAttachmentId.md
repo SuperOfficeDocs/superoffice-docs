@@ -109,12 +109,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 488,
+  "EmailId": 280,
   "AttachmentIds": [
-    "porro",
-    "consequuntur"
+    "tempora",
+    "ut"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -127,146 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 540,
-      "ContactName": "Balistreri, Corkery and Glover",
-      "PersonId": 121,
-      "PersonName": "Wiza Inc and Sons",
-      "AssociateId": 259,
-      "Address": "ut",
-      "EmailId": 95,
+      "ContactId": 773,
+      "ContactName": "Rosenbaum Inc and Sons",
+      "PersonId": 439,
+      "PersonName": "Quigley-Stiedemann",
+      "AssociateId": 598,
+      "Address": "magnam",
+      "EmailId": 891,
       "DuplicatePersonIds": [
-        926,
-        855
+        81,
+        260
       ],
-      "Name": "Shields-Schumm",
+      "Name": "Nader, Kuphal and Hilll",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 418
+          "FieldType": "System.Int32",
+          "FieldLength": 424
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 217,
-      "ContactName": "Stroman Group",
-      "PersonId": 30,
-      "PersonName": "Goyette-Hudson",
-      "AssociateId": 325,
-      "Address": "illum",
-      "EmailId": 459,
+      "ContactId": 78,
+      "ContactName": "DuBuque Group",
+      "PersonId": 263,
+      "PersonName": "Hayes LLC",
+      "AssociateId": 948,
+      "Address": "consequatur",
+      "EmailId": 60,
       "DuplicatePersonIds": [
-        973,
-        487
+        425,
+        427
       ],
-      "Name": "Zboncak Group",
+      "Name": "Cormier Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 652
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 135,
-      "ContactName": "Block Inc and Sons",
-      "PersonId": 667,
-      "PersonName": "Maggio LLC",
-      "AssociateId": 103,
-      "Address": "aperiam",
-      "EmailId": 376,
+      "ContactId": 881,
+      "ContactName": "Cormier, Emard and Brakus",
+      "PersonId": 580,
+      "PersonName": "Paucek Group",
+      "AssociateId": 232,
+      "Address": "amet",
+      "EmailId": 490,
       "DuplicatePersonIds": [
-        723,
-        31
+        647,
+        144
       ],
-      "Name": "McKenzie Group",
+      "Name": "Kiehn, Pouros and Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 2
+          "FieldType": "System.String",
+          "FieldLength": 748
         }
       }
     }
   ],
-  "Subject": "facilis",
-  "HTMLBody": "illo",
+  "Subject": "deleniti",
+  "HTMLBody": "impedit",
   "From": null,
-  "Sent": "2022-09-27T16:00:40.9456053+02:00",
-  "Size": 381,
+  "Sent": "1999-05-06T03:31:26.4957222+02:00",
+  "Size": 959,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sapiente",
-  "PlainBody": "accusantium",
-  "IsSent": true,
+  "MessageID": "rem",
+  "PlainBody": "sapiente",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 403,
+  "ServerId": 38,
   "Attachments": [
     {
-      "Description": "Synergized disintermediate internet solution",
-      "Filename": "quasi",
-      "Size": 865,
-      "Type": "et",
-      "Encoding": "dolor",
-      "Id": "non",
-      "Disposition": "sunt",
+      "Description": "Implemented non-volatile complexity",
+      "Filename": "et",
+      "Size": 800,
+      "Type": "iusto",
+      "Encoding": "eos",
+      "Id": "qui",
+      "Disposition": "ut",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 100
+          "FieldType": "System.String",
+          "FieldLength": 213
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Raynor-Kuvalis",
+      "Name": "Shields-Hoppe",
       "Values": [
-        "molestiae",
-        "neque"
+        "voluptas",
+        "earum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     },
     {
-      "Name": "Raynor-Kuvalis",
+      "Name": "Shields-Hoppe",
       "Values": [
-        "molestiae",
-        "neque"
+        "voluptas",
+        "earum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     }
   ],
-  "FolderName": "Donnelly LLC",
-  "EmailItemId": 937,
-  "AccountId": 199,
-  "ReceivedAt": "2017-03-19T16:00:40.9456053+01:00",
+  "FolderName": "Mann, Collier and Harris",
+  "EmailItemId": 137,
+  "AccountId": 896,
+  "ReceivedAt": "1997-10-04T03:31:26.4957222+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-07-25T16:00:40.9456053+02:00",
+  "RepliedAt": "2012-05-30T03:31:26.4957222+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -275,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 458
     }
   }
 }

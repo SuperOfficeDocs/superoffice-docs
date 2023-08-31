@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 935,
-  "CurrencyId": 8
+  "QuoteConnectionId": 55,
+  "CurrencyId": 156
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 576,
-    "ERPPriceListKey": "quae",
-    "QuoteConnectionId": 369,
-    "Name": "Bartell Inc and Sons",
-    "Description": "Focused object-oriented superstructure",
-    "Currency": "inventore",
-    "CurrencyName": "Carroll Group",
-    "ValidFrom": "1997-12-22T16:00:41.6488224+01:00",
-    "ValidTo": "1996-10-07T16:00:41.6488224+02:00",
+    "PriceListId": 733,
+    "ERPPriceListKey": "veritatis",
+    "QuoteConnectionId": 469,
+    "Name": "Pacocha LLC",
+    "Description": "Implemented intermediate protocol",
+    "Currency": "illum",
+    "CurrencyName": "Windler, Veum and Robel",
+    "ValidFrom": "2020-07-20T03:31:27.0905589+02:00",
+    "ValidTo": "2000-11-08T03:31:27.0905589+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldType": "System.Int32",
+        "FieldLength": 233
       }
     }
   }

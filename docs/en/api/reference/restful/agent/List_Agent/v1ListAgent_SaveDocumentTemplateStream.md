@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 79,
+  "DocumentTemplateId": 927,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "itaque",
-  "PluginId": 421
+  "LanguageCode": "numquam",
+  "PluginId": 115
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pfeffer-Volkman",
-  "Description": "Realigned solution-oriented capacity",
-  "ExternalReference": "ut",
-  "MimeType": "ipsa",
-  "PluginId": 331
+  "Name": "Schmeler Inc and Sons",
+  "Description": "Self-enabling 4th generation encoding",
+  "ExternalReference": "repudiandae",
+  "MimeType": "ut",
+  "PluginId": 935
 }
 ```

@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 01 Sep 2011 16:00:48 G9T
+Last-Modified: Mon, 12 Feb 2001 03:31:33 G2T
 
 {
-  "BlobId": 775,
-  "BlobSize": 949,
-  "Description": "Balanced leading edge policy",
-  "ExtraInfo": "aut",
+  "BlobId": 364,
+  "BlobSize": 347,
+  "Description": "User-friendly value-added product",
+  "ExtraInfo": "modi",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "mollitia",
-  "OriginalSize": 825,
-  "CreatedDate": "2015-07-18T16:00:48.6958683+02:00",
-  "UpdatedDate": "2011-09-01T16:00:48.6958683+02:00",
+  "MimeType": "tempora",
+  "OriginalSize": 223,
+  "CreatedDate": "2016-08-01T03:31:33.3354795+02:00",
+  "UpdatedDate": "2001-02-12T03:31:33.3354795+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum",
+  "ConceptualType": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 341
     }
   }
 }

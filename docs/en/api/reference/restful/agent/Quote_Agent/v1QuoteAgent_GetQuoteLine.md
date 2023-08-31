@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 503
+  "QuoteLineId": 660
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 174,
-  "ERPQuoteLineKey": "modi",
-  "QuoteAlternativeId": 671,
+  "QuoteLineId": 633,
+  "ERPQuoteLineKey": "amet",
+  "QuoteAlternativeId": 915,
   "ERPProductKey": "ut",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 2522.87,
-  "DeliveredQuantity": 27692.023999999998,
-  "Rank": 547,
-  "Name": "Cruickshank-Donnelly",
-  "Description": "Fundamental web-enabled hierarchy",
-  "Code": "fuga",
-  "QuantityUnit": "saepe",
+  "Quantity": 1121.972,
+  "DeliveredQuantity": 17293.412,
+  "Rank": 346,
+  "Name": "Kling LLC",
+  "Description": "Total next generation task-force",
+  "Code": "eos",
+  "QuantityUnit": "ut",
   "PriceUnit": "doloremque",
-  "ItemNumber": "1431926",
+  "ItemNumber": "1560160",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "porro",
-  "ProductTypeKey": "provident",
-  "Supplier": "consectetur",
-  "SupplierCode": "sunt",
-  "Thumbnail": "facilis",
-  "VATInfo": "alias",
-  "VAT": 21771.898,
-  "UnitCost": 9016.518,
-  "UnitMinimumPrice": 3347.112,
-  "UnitListPrice": 8649.84,
+  "ProductFamilyKey": "consequuntur",
+  "ProductTypeKey": "velit",
+  "Supplier": "in",
+  "SupplierCode": "dolor",
+  "Thumbnail": "reiciendis",
+  "VATInfo": "cum",
+  "VAT": 4359.394,
+  "UnitCost": 21449.095999999998,
+  "UnitMinimumPrice": 26403.95,
+  "UnitListPrice": 7559.208,
   "ExtraInfo": [
     {
-      "Name": "Ryan Inc and Sons",
-      "Value": "neque",
+      "Name": "Terry, Steuber and Stoltenberg",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 957
         }
       }
     },
     {
-      "Name": "Ryan Inc and Sons",
-      "Value": "neque",
+      "Name": "Terry, Steuber and Stoltenberg",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldType": "System.Int32",
+          "FieldLength": 957
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ratione",
-  "SubscriptionQuantity": 28698.038,
-  "SubscriptionStart": "2009-08-21T16:00:41.6800689+02:00",
-  "ERPDiscountPercent": 27701.426,
-  "ERPDiscountAmount": 23943.76,
-  "DiscountPercent": 11686.686,
-  "DiscountAmount": 6669.152,
+  "RawExtraInfo": "deserunt",
+  "IsSubscription": true,
+  "SubscriptionUnit": "qui",
+  "SubscriptionQuantity": 4259.106,
+  "SubscriptionStart": "1999-04-26T03:31:27.106235+02:00",
+  "ERPDiscountPercent": 25965.19,
+  "ERPDiscountAmount": 4628.918,
+  "DiscountPercent": 11721.16,
+  "DiscountAmount": 1143.9099999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 17102.238,
-  "EarningAmount": 11435.966,
-  "SubTotal": 23787.059999999998,
-  "TotalPrice": 20543.37,
-  "Rights": "sit",
-  "Rule": "numquam",
-  "ExtraField1": "delectus",
+  "EarningPercent": 10072.676,
+  "EarningAmount": 12799.256,
+  "SubTotal": 29838.814,
+  "TotalPrice": 507.70799999999997,
+  "Rights": "aut",
+  "Rule": "dolorem",
+  "ExtraField1": "quia",
   "ExtraField2": "odit",
-  "ExtraField3": "minima",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "porro",
+  "ExtraField3": "illo",
+  "ExtraField4": "dolorum",
+  "ExtraField5": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 244
     }
   }
 }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Graham Group",
-  "Id": 13
+  "HistoryName": "Dickinson, Miller and Boehm",
+  "Id": 630
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 592,
-  "Id": 93,
-  "HistoryName": "Wuckert Group",
-  "HistoryId": 781,
-  "AssociateId": 349,
-  "Name": "Monahan Inc and Sons",
-  "ItemInfo": "quia",
+  "Rank": 403,
+  "Id": 440,
+  "HistoryName": "King Group",
+  "HistoryId": 419,
+  "AssociateId": 718,
+  "Name": "Koss, Zemlak and Friesen",
+  "ItemInfo": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 584
+      "FieldType": "System.Int32",
+      "FieldLength": 415
     }
   }
 }

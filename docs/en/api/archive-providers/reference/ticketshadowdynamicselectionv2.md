@@ -31,7 +31,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -734,7 +734,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=timeToReply,person/searchPhone/formattedNumber,contact/contactPhone/formattedNumber,project/endDate
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=person/personAssociateId,person/personPager/formattedNumber,sale/saleNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

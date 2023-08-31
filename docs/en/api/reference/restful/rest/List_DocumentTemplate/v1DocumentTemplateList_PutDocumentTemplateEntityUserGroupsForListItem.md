@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Rempel LLC",
-    "ToolTip": "Ex officiis autem ratione vel ipsa.",
+    "Id": 823,
+    "Name": "Oberbrunner, Labadie and Stark",
+    "ToolTip": "Suscipit sit tempora.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "ea",
-    "ColorBlock": 286,
-    "IconHint": "nulla",
+    "Rank": 1002,
+    "Type": "nostrum",
+    "ColorBlock": 606,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2020-05-01T16:00:49.0395847+02:00",
+    "LastChanged": "2003-04-29T03:31:33.6323343+02:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Fay-Franecki",
-        "ToolTip": "Dignissimos praesentium commodi minus exercitationem quidem aut est.",
+        "Id": 394,
+        "Name": "Klein-Johnston",
+        "ToolTip": "Deserunt vero reprehenderit amet possimus.",
         "Deleted": false,
-        "Rank": 494,
-        "Type": "dolor",
-        "ColorBlock": 562,
-        "IconHint": "architecto",
+        "Rank": 150,
+        "Type": "a",
+        "ColorBlock": 564,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2015-03-13T16:00:49.0395847+01:00",
+        "LastChanged": "2005-12-11T03:31:33.6323343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "hic",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "unde",
         "Hidden": true,
-        "FullName": "Eleazar Stehr III"
+        "FullName": "Davon Schinner"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "saepe",
+    "StyleHint": "soluta",
     "Hidden": false,
-    "FullName": "Prof. Jerome Jaeden Jones"
+    "FullName": "Rossie Hamill"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Bahringer, Little and Boehm",
-    "ToolTip": "Voluptatibus explicabo fuga.",
-    "Deleted": false,
-    "Rank": 307,
-    "Type": "impedit",
-    "ColorBlock": 784,
-    "IconHint": "quo",
+    "Id": 610,
+    "Name": "Stiedemann, Dickens and Vandervort",
+    "ToolTip": "Magni et aut ducimus beatae architecto libero voluptas.",
+    "Deleted": true,
+    "Rank": 375,
+    "Type": "soluta",
+    "ColorBlock": 26,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2012-07-08T16:00:49.0395847+02:00",
+    "LastChanged": "2020-06-21T03:31:33.6323343+02:00",
     "ChildItems": [
       {
-        "Id": 122,
-        "Name": "Friesen-Schamberger",
-        "ToolTip": "Odit vero et quam tenetur adipisci vero velit.",
-        "Deleted": true,
-        "Rank": 696,
-        "Type": "in",
-        "ColorBlock": 568,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2000-05-09T16:00:49.0395847+02:00",
+        "Id": 246,
+        "Name": "Bernhard Inc and Sons",
+        "ToolTip": "Repellat qui suscipit corrupti velit.",
+        "Deleted": false,
+        "Rank": 121,
+        "Type": "ducimus",
+        "ColorBlock": 781,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2003-12-09T03:31:33.6323343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "iste",
         "Hidden": true,
-        "FullName": "Stephania Hannah Reilly III",
+        "FullName": "Miss Beverly Lillie Graham III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 852
+            "FieldType": "System.Int32",
+            "FieldLength": 863
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Leola Friesen",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Darryl Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 455
       }
     }
   }

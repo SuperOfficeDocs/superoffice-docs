@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Klocko, Gleichner and Stamm",
-    "ToolTip": "Autem eos esse eos dolor ullam.",
-    "Deleted": true,
-    "Rank": 952,
-    "Type": "voluptas",
-    "ColorBlock": 468,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2017-07-07T16:00:48.9927141+02:00",
+    "Id": 532,
+    "Name": "Moore-Satterfield",
+    "ToolTip": "Iure beatae possimus et iste non.",
+    "Deleted": false,
+    "Rank": 260,
+    "Type": "cumque",
+    "ColorBlock": 23,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2001-06-09T03:31:33.6010939+02:00",
     "ChildItems": [
       {
-        "Id": 375,
-        "Name": "Davis LLC",
-        "ToolTip": "Molestiae nemo ipsa.",
-        "Deleted": false,
-        "Rank": 348,
-        "Type": "possimus",
-        "ColorBlock": 51,
-        "IconHint": "incidunt",
+        "Id": 11,
+        "Name": "Barton LLC",
+        "ToolTip": "Saepe atque ut.",
+        "Deleted": true,
+        "Rank": 63,
+        "Type": "mollitia",
+        "ColorBlock": 840,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2022-10-01T16:00:48.9927141+02:00",
+        "LastChanged": "2017-05-12T03:31:33.6010939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "non",
+        "ExtraInfo": "rerum",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Dr. Eda Labadie"
+        "FullName": "Edmund Mac Beahan MD"
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "eius",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Dave Nathen Feest DVM"
+    "FullName": "Dr. Wava Dixie Kihn II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Heathcote-Schiller",
-    "ToolTip": "Architecto quia.",
+    "Id": 681,
+    "Name": "Stanton, Jast and Carroll",
+    "ToolTip": "Deserunt aut.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "sit",
-    "ColorBlock": 386,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2022-10-21T16:00:48.9927141+02:00",
+    "Rank": 915,
+    "Type": "dolore",
+    "ColorBlock": 994,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "2004-10-13T03:31:33.6010939+02:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "McDermott LLC",
-        "ToolTip": "Culpa est.",
-        "Deleted": true,
-        "Rank": 671,
-        "Type": "nulla",
-        "ColorBlock": 673,
-        "IconHint": "iure",
+        "Id": 24,
+        "Name": "Ankunding, Heaney and Swaniawski",
+        "ToolTip": "Atque recusandae tenetur architecto ea aspernatur et.",
+        "Deleted": false,
+        "Rank": 516,
+        "Type": "beatae",
+        "ColorBlock": 448,
+        "IconHint": "ducimus",
         "Selected": true,
-        "LastChanged": "1996-10-20T16:00:48.9927141+02:00",
+        "LastChanged": "2021-10-04T03:31:33.6010939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "quasi",
+        "ExtraInfo": "enim",
+        "StyleHint": "soluta",
         "Hidden": true,
-        "FullName": "Prof. Tamia Hessel",
+        "FullName": "Wilburn Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 673
+            "FieldType": "System.Int32",
+            "FieldLength": 614
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "itaque",
+    "ExtraInfo": "quia",
+    "StyleHint": "fugit",
     "Hidden": false,
-    "FullName": "Ursula Kemmer",
+    "FullName": "Russell Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 463
       }
     }
   }

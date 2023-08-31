@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
-  "Name": "Murray, Pollich and Wunsch",
-  "Tooltip": "et",
+  "Id": 171,
+  "Name": "Yost-Donnelly",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 255,
-  "Rank": 85
+  "UdListDefinitionId": 491,
+  "Rank": 485
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Breitenberg-Grady",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "UdListDefinitionId": 451,
-  "Rank": 165,
+  "Id": 273,
+  "Name": "Lowe Group",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "UdListDefinitionId": 135,
+  "Rank": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 553
     }
   }
 }

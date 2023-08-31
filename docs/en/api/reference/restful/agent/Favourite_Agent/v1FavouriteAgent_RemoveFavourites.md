@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lueilwitz-O'Reilly",
+  "TableName": "Murazik LLC",
   "RecordIds": [
-    426,
-    975
+    200,
+    580
   ],
-  "AssociateId": 122
+  "AssociateId": 638
 }
 ```
 

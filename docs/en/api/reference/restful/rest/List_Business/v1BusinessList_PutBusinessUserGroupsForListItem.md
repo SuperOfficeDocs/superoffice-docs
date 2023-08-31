@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Emard Group",
-    "ToolTip": "Vero voluptates earum recusandae sit quis in doloremque.",
-    "Deleted": false,
-    "Rank": 5,
-    "Type": "aut",
-    "ColorBlock": 109,
-    "IconHint": "facere",
+    "Id": 641,
+    "Name": "Schroeder, Durgan and Dicki",
+    "ToolTip": "Perferendis dolor corrupti debitis error maxime voluptatem.",
+    "Deleted": true,
+    "Rank": 578,
+    "Type": "quasi",
+    "ColorBlock": 358,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2019-10-16T16:00:48.8677298+02:00",
+    "LastChanged": "2010-06-07T03:31:33.4917333+02:00",
     "ChildItems": [
       {
-        "Id": 474,
-        "Name": "McClure, O'Hara and Heller",
-        "ToolTip": "Molestias dolor iste deserunt sit.",
-        "Deleted": false,
-        "Rank": 231,
-        "Type": "aut",
-        "ColorBlock": 999,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2011-08-02T16:00:48.8677298+02:00",
+        "Id": 165,
+        "Name": "Purdy, Greenholt and Price",
+        "ToolTip": "Ut sequi soluta perspiciatis qui ipsam minus.",
+        "Deleted": true,
+        "Rank": 675,
+        "Type": "voluptatem",
+        "ColorBlock": 365,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2019-01-27T03:31:33.4917333+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "cum",
+        "ExtraInfo": "non",
+        "StyleHint": "dignissimos",
         "Hidden": true,
-        "FullName": "Ena Turcotte"
+        "FullName": "Ozella Funk"
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Miss Antonette Davis"
+    "ExtraInfo": "nam",
+    "StyleHint": "aliquam",
+    "Hidden": false,
+    "FullName": "Myrl Willms"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Borer LLC",
-    "ToolTip": "Dicta id harum voluptatem aut ipsam et.",
-    "Deleted": false,
-    "Rank": 672,
-    "Type": "mollitia",
-    "ColorBlock": 415,
-    "IconHint": "officiis",
+    "Id": 40,
+    "Name": "Schowalter LLC",
+    "ToolTip": "Ex rerum in vitae incidunt sed excepturi.",
+    "Deleted": true,
+    "Rank": 698,
+    "Type": "qui",
+    "ColorBlock": 868,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2001-08-01T16:00:48.8677298+02:00",
+    "LastChanged": "2021-06-07T03:31:33.4917333+02:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Reinger-Gusikowski",
-        "ToolTip": "Ipsa ex cupiditate ipsam ab deserunt earum beatae.",
-        "Deleted": false,
-        "Rank": 652,
-        "Type": "at",
-        "ColorBlock": 207,
-        "IconHint": "quis",
+        "Id": 890,
+        "Name": "Wolf-Harris",
+        "ToolTip": "Vitae accusantium ut iure.",
+        "Deleted": true,
+        "Rank": 131,
+        "Type": "odit",
+        "ColorBlock": 857,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2009-03-05T16:00:48.8677298+01:00",
+        "LastChanged": "2007-02-16T03:31:33.4917333+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mrs. Claude Lorenz King III",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Dr. Irving Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 669
+            "FieldType": "System.Int32",
+            "FieldLength": 194
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "in",
+    "ExtraInfo": "quos",
+    "StyleHint": "tenetur",
     "Hidden": false,
-    "FullName": "Ms. Abigale Zboncak DDS",
+    "FullName": "Ted Jennings Dickinson MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

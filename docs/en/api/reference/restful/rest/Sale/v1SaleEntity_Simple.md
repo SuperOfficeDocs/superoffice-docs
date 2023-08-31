@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Gutkowski, Kub and Crona",
-  "SaleDate": "2011-10-15T16:00:48.4146492+02:00",
-  "SaleId": 728,
-  "Probability": 578,
-  "Title": "illo",
-  "Amount": 18264.952,
-  "Currency": "nostrum",
-  "ProjectName": "Metz Group",
-  "AssociateFullName": "Bonnie Jewess",
-  "Description": "Assimilated empowering definition",
+  "ContactName": "O'Reilly Group",
+  "SaleDate": "2003-04-17T03:31:32.9100803+02:00",
+  "SaleId": 400,
+  "Probability": 510,
+  "Title": "accusamus",
+  "Amount": 19900.899999999998,
+  "Currency": "illum",
+  "ProjectName": "Lowe-Ferry",
+  "AssociateFullName": "Meagan Schamberger",
+  "Description": "User-centric optimizing knowledge base",
   "Status": "Lost",
-  "WeightedAmount": 4954.854,
-  "ProjectId": 584,
-  "EarningPercent": 30700.664,
-  "Earning": 12307.217999999999,
-  "ContactId": 575,
-  "AssociateId": 580,
-  "PersonId": 661,
-  "SaleTypeId": 669,
-  "SaleTypeName": "Pagac, Dickens and Koss",
-  "PersonFullName": "Dr. Hans Martin Bartell III",
+  "WeightedAmount": 14046.588,
+  "ProjectId": 106,
+  "EarningPercent": 25645.522,
+  "Earning": 1347.62,
+  "ContactId": 434,
+  "AssociateId": 470,
+  "PersonId": 853,
+  "SaleTypeId": 230,
+  "SaleTypeName": "Collier-Walker",
+  "PersonFullName": "Fidel Fay",
   "Completed": "Completed",
-  "ActiveErpLinks": 212,
-  "NextDueDate": "2004-06-03T16:00:48.4146492+02:00",
-  "Number": "1658795",
+  "ActiveErpLinks": 525,
+  "NextDueDate": "2013-08-19T03:31:32.9100803+02:00",
+  "Number": "1229587",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 44
     }
   }
 }

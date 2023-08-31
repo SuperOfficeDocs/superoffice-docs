@@ -45,6 +45,8 @@ items:
     href: appointmentagent/createandaccept.md
   - name: CreateAndAcceptWithEmailConfirmation
     href: appointmentagent/createandacceptwithemailconfirmation.md
+  - name: CreateAppointmentEntityFromExisting
+    href: appointmentagent/createappointmententityfromexisting.md
   - name: CreateAppointmentForUID
     href: appointmentagent/createappointmentforuid.md
   - name: CreateDefaultAppointmentEntity
@@ -644,6 +646,8 @@ items:
     href: crmscriptagent/executescriptaseventbyuniqueid.md
   - name: ExecuteScriptByIncludeId
     href: crmscriptagent/executescriptbyincludeid.md
+  - name: ExecuteScriptByString
+    href: crmscriptagent/executescriptbystring.md
   - name: ExecuteScriptByUniqueId
     href: crmscriptagent/executescriptbyuniqueid.md
   - name: GetCRMScriptByUniqueIdentifier
@@ -666,6 +670,8 @@ items:
     href: crmscriptagent/validatescript.md
   - name: ValidateScriptByIncludeId
     href: crmscriptagent/validatescriptbyincludeid.md
+  - name: ValidateScriptByString
+    href: crmscriptagent/validatescriptbystring.md
   - name: ValidateScriptByUniqueId
     href: crmscriptagent/validatescriptbyuniqueid.md
   - name: ValidateTriggerScript
@@ -933,6 +939,8 @@ items:
     href: documentagent/checkindocument.md
   - name: CheckoutDocument
     href: documentagent/checkoutdocument.md
+  - name: CopyDocumentToCsAttachment
+    href: documentagent/copydocumenttocsattachment.md
   - name: CreateDefaultDocumentEntity
     href: documentagent/createdefaultdocumententity.md
   - name: CreateDefaultDocumentEntityFromSuggestion
@@ -1713,6 +1721,8 @@ items:
     href: listagent/createdefaultticketpriorityentity.md
   - name: CreateDefaultTicketStatusEntity
     href: listagent/createdefaultticketstatusentity.md
+  - name: CreateDefaultTicketTypeEntity
+    href: listagent/createdefaulttickettypeentity.md
   - name: CreateDefaultWebPanelEntity
     href: listagent/createdefaultwebpanelentity.md
   - name: DeleteAllFromListDefinition
@@ -1753,6 +1763,8 @@ items:
     href: listagent/deleteticketpriorityentity.md
   - name: DeleteTicketStatusEntity
     href: listagent/deleteticketstatusentity.md
+  - name: DeleteTicketTypeEntity
+    href: listagent/deletetickettypeentity.md
   - name: DeleteWebPanel
     href: listagent/deletewebpanel.md
   - name: GenerateNavigationUrl
@@ -1791,6 +1803,8 @@ items:
     href: listagent/getalltasks.md
   - name: GetAllTicketPriorities
     href: listagent/getallticketpriorities.md
+  - name: GetAllTicketTypeEntities
+    href: listagent/getalltickettypeentities.md
   - name: GetAmountClassEntity
     href: listagent/getamountclassentity.md
   - name: GetAppTaskMenus
@@ -2111,6 +2125,14 @@ items:
     href: listagent/getticketstatuses.md
   - name: GetTicketStatusList
     href: listagent/getticketstatuslist.md
+  - name: GetTicketType
+    href: listagent/gettickettype.md
+  - name: GetTicketTypeEntity
+    href: listagent/gettickettypeentity.md
+  - name: GetTicketTypeList
+    href: listagent/gettickettypelist.md
+  - name: GetTicketTypes
+    href: listagent/gettickettypes.md
   - name: GetVisibleForUserGroups
     href: listagent/getvisibleforusergroups.md
   - name: GetVisibleForUserGroupsFromListName
@@ -2197,6 +2219,8 @@ items:
     href: listagent/saveticketpriorityentity.md
   - name: SaveTicketStatusEntity
     href: listagent/saveticketstatusentity.md
+  - name: SaveTicketTypeEntity
+    href: listagent/savetickettypeentity.md
   - name: SaveWebPanelEntity
     href: listagent/savewebpanelentity.md
   - name: SetDocumentPluginForAllDocumentTemplates
@@ -3739,8 +3763,14 @@ items:
     href: workflowagent/addafterworkflowstep.md
   - name: ConnectEmailFlowContent
     href: workflowagent/connectemailflowcontent.md
+  - name: CopyEmailFlowContent
+    href: workflowagent/copyemailflowcontent.md
   - name: CreateDefaultEmailFlow
     href: workflowagent/createdefaultemailflow.md
+  - name: CreateDefaultWorkflowEvent
+    href: workflowagent/createdefaultworkflowevent.md
+  - name: CreateDefaultWorkflowEventResult
+    href: workflowagent/createdefaultworkfloweventresult.md
   - name: CreateDefaultWorkflowFilter
     href: workflowagent/createdefaultworkflowfilter.md
   - name: CreateDefaultWorkflowGoal
@@ -3771,6 +3801,10 @@ items:
     href: workflowagent/getworkflowstepoption.md
   - name: GetWorkflowTrigger
     href: workflowagent/getworkflowtrigger.md
+  - name: RemoveParticipantsFromEmailFlow
+    href: workflowagent/removeparticipantsfromemailflow.md
+  - name: Run
+    href: workflowagent/run.md
   - name: SaveEmailFlow
     href: workflowagent/saveemailflow.md
   - name: SaveWorkflowGoal
@@ -3779,6 +3813,8 @@ items:
     href: workflowagent/saveworkflowstepoption.md
   - name: SaveWorkflowTrigger
     href: workflowagent/saveworkflowtrigger.md
+  - name: SendEvent
+    href: workflowagent/sendevent.md
   - name: TryAddPersonsToEmailFlow
     href: workflowagent/tryaddpersonstoemailflow.md
 

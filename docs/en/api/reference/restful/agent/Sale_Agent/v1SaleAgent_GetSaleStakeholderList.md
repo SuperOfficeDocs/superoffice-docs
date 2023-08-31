@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Altenwerth Inc and Sons",
-    "Comment": "ipsam",
-    "StakeholderRoleId": 904,
-    "CountryId": 43,
-    "PersonId": 892,
-    "EmailDescription": "earnestine_berge@herzoghane.co.uk",
-    "EmailId": 891,
-    "EmailAddress": "marcelle@gleason.name",
-    "PhoneId": 186,
-    "ContactName": "O'Hara LLC",
-    "ContactId": 517,
-    "SaleId": 190,
-    "Mrmrs": "voluptatem",
-    "Firstname": "Casimir",
-    "MiddleName": "Hamill Inc and Sons",
-    "Lastname": "Beier",
-    "SaleStakeholderId": 524,
-    "Rank": 887,
-    "Phone": "943-017-4197",
+    "StakeholderRoleName": "Morar-Osinski",
+    "Comment": "sapiente",
+    "StakeholderRoleId": 739,
+    "CountryId": 442,
+    "PersonId": 314,
+    "EmailDescription": "ellis.weber@rau.com",
+    "EmailId": 762,
+    "EmailAddress": "berniece_jewess@champlin.name",
+    "PhoneId": 830,
+    "ContactName": "Cole Group",
+    "ContactId": 579,
+    "SaleId": 988,
+    "Mrmrs": "ratione",
+    "Firstname": "Madyson",
+    "MiddleName": "Littel LLC",
+    "Lastname": "Predovic",
+    "SaleStakeholderId": 116,
+    "Rank": 279,
+    "Phone": "1-116-583-2135 x27465",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 957
       }
     }
   }

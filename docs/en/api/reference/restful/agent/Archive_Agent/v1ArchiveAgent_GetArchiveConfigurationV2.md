@@ -85,10 +85,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Gusikowski, Haley and Mann",
-  "ProviderName": "Murazik, Schinner and Romaguera",
+  "GuiName": "Kuvalis, Green and Klocko",
+  "ProviderName": "Frami-Bogisich",
   "Context": "dolor",
-  "OwnerKeys": "accusamus"
+  "OwnerKeys": "quo"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Marks Inc and Sons",
-      "DisplayTooltip": "quis",
-      "DisplayType": "ipsum",
-      "CanOrderBy": true,
-      "Name": "Rogahn, Jenkins and Nader",
+      "DisplayName": "Frami Group",
+      "DisplayTooltip": "ut",
+      "DisplayType": "atque",
+      "CanOrderBy": false,
+      "Name": "Berge-Auer",
       "CanRestrictBy": false,
-      "RestrictionType": "esse",
-      "RestrictionListName": "Collier-Dare",
+      "RestrictionType": "possimus",
+      "RestrictionListName": "Bogan Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "harum",
-      "IconHint": "nostrum",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "minus",
+      "Width": "vitae",
+      "IconHint": "ut",
+      "HeadingIconHint": "magni"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 121,
-      "Name": "Braun, Harris and Jerde",
-      "ToolTip": "Amet rerum.",
+      "Id": 515,
+      "Name": "Green, Smith and Rice",
+      "ToolTip": "Doloremque vero adipisci fuga.",
       "Deleted": false,
-      "Rank": 586,
-      "Type": "ea",
-      "ColorBlock": 333,
-      "IconHint": "est",
+      "Rank": 522,
+      "Type": "enim",
+      "ColorBlock": 1001,
+      "IconHint": "eos",
       "Selected": false,
-      "LastChanged": "2018-01-12T16:00:40.0550846+01:00",
+      "LastChanged": "2021-07-01T03:31:25.6027555+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequatur",
-      "StyleHint": "nihil",
+      "ExtraInfo": "totam",
+      "StyleHint": "doloribus",
       "Hidden": false,
-      "FullName": "Meta Feil",
+      "FullName": "Gia Berge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 185
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Greenholt, Haag and Batz",
+      "Name": "Bins Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Greenholt, Haag and Batz",
+      "Name": "Bins Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "culpa",
+  "OwnerKeys": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 741
+      "FieldType": "System.String",
+      "FieldLength": 193
     }
   }
 }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Hessel-McLaughlin",
-    "ToolTip": "Occaecati aspernatur dignissimos voluptatem ullam.",
+    "Id": 364,
+    "Name": "Graham-Lindgren",
+    "ToolTip": "Distinctio ipsum sed eius asperiores.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "perspiciatis",
-    "ColorBlock": 745,
-    "IconHint": "expedita",
+    "Rank": 278,
+    "Type": "alias",
+    "ColorBlock": 446,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2015-08-25T16:00:42.3206172+02:00",
+    "LastChanged": "2020-07-31T03:31:27.7634711+02:00",
     "ChildItems": [
       {
-        "Id": 814,
-        "Name": "Haag LLC",
-        "ToolTip": "Eum magni necessitatibus quam beatae omnis.",
-        "Deleted": false,
-        "Rank": 512,
-        "Type": "cum",
-        "ColorBlock": 690,
-        "IconHint": "totam",
-        "Selected": true,
-        "LastChanged": "2020-12-24T16:00:42.3206172+01:00",
+        "Id": 695,
+        "Name": "Satterfield-Treutel",
+        "ToolTip": "Accusamus cum nesciunt debitis quis quia sunt.",
+        "Deleted": true,
+        "Rank": 647,
+        "Type": "sunt",
+        "ColorBlock": 12,
+        "IconHint": "esse",
+        "Selected": false,
+        "LastChanged": "2005-12-23T03:31:27.7634711+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "hic",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Dr. Christian Reynolds",
+        "FullName": "Giuseppe Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Franz Christiansen",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Dr. Elyse Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 41
+        "FieldType": "System.Int32",
+        "FieldLength": 189
       }
     }
   }

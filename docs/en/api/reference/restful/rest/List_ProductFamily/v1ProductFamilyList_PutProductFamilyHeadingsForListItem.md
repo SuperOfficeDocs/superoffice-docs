@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Effertz-Marvin",
-    "ToolTip": "Autem laboriosam recusandae odio.",
+    "Id": 685,
+    "Name": "Brakus-Bernier",
+    "ToolTip": "Non voluptatum labore quia dolores eos voluptatum aut.",
     "Deleted": false,
-    "Rank": 328,
-    "Type": "sunt",
-    "ColorBlock": 89,
-    "IconHint": "qui",
+    "Rank": 897,
+    "Type": "eum",
+    "ColorBlock": 513,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2009-09-30T16:00:49.1645684+02:00",
+    "LastChanged": "2005-07-20T03:31:33.7429875+02:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Jenkins Inc and Sons",
-        "ToolTip": "Alias pariatur eum numquam ullam.",
+        "Id": 400,
+        "Name": "Daniel Inc and Sons",
+        "ToolTip": "Quisquam dolor vel quibusdam non.",
         "Deleted": false,
-        "Rank": 970,
-        "Type": "delectus",
-        "ColorBlock": 737,
-        "IconHint": "necessitatibus",
+        "Rank": 242,
+        "Type": "voluptatum",
+        "ColorBlock": 222,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2009-11-22T16:00:49.1645684+01:00",
+        "LastChanged": "2020-06-24T03:31:33.7429875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Mr. Arvid Bartoletti"
+        "ExtraInfo": "architecto",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Miss Dayna Schmeler"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ab",
-    "Hidden": true,
-    "FullName": "Nannie Feest"
+    "ExtraInfo": "ut",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Prof. Devan Schiller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Green, Douglas and Barrows",
-    "ToolTip": "Sit autem aut.",
+    "Id": 126,
+    "Name": "Greenholt, Graham and Pouros",
+    "ToolTip": "Alias illo nobis autem ducimus.",
     "Deleted": false,
-    "Rank": 920,
-    "Type": "eligendi",
-    "ColorBlock": 638,
-    "IconHint": "delectus",
+    "Rank": 356,
+    "Type": "inventore",
+    "ColorBlock": 930,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2018-09-22T16:00:49.1645684+02:00",
+    "LastChanged": "2018-07-07T03:31:33.7429875+02:00",
     "ChildItems": [
       {
-        "Id": 430,
-        "Name": "West-Hilpert",
-        "ToolTip": "Ut odio ducimus eveniet.",
-        "Deleted": false,
-        "Rank": 853,
-        "Type": "et",
-        "ColorBlock": 892,
-        "IconHint": "sapiente",
-        "Selected": true,
-        "LastChanged": "2006-11-22T16:00:49.1645684+01:00",
+        "Id": 787,
+        "Name": "Braun-Auer",
+        "ToolTip": "Amet provident earum nostrum.",
+        "Deleted": true,
+        "Rank": 506,
+        "Type": "aperiam",
+        "ColorBlock": 396,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2007-10-15T03:31:33.7429875+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "magnam",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Ms. Josephine Nico Jones DVM",
+        "FullName": "Jalyn Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 718
+            "FieldType": "System.String",
+            "FieldLength": 83
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "animi",
+    "ExtraInfo": "dolor",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Prof. Keara Kariane Cartwright",
+    "FullName": "Nia Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 274
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Wisozk, Steuber and Effertz",
-    "ToolTip": "Adipisci omnis.",
+    "Id": 884,
+    "Name": "Nolan-Russel",
+    "ToolTip": "Sit eligendi sit aut.",
     "Deleted": false,
-    "Rank": 751,
-    "Type": "et",
-    "ColorBlock": 417,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2015-07-30T16:00:49.133322+02:00",
+    "Rank": 792,
+    "Type": "voluptas",
+    "ColorBlock": 562,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2005-09-16T03:31:33.7117545+02:00",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Hahn-Gorczany",
-        "ToolTip": "Voluptatem necessitatibus nihil.",
-        "Deleted": false,
-        "Rank": 306,
-        "Type": "aperiam",
-        "ColorBlock": 924,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2009-09-19T16:00:49.133322+02:00",
+        "Id": 684,
+        "Name": "Nolan-Treutel",
+        "ToolTip": "Reprehenderit nobis voluptate voluptas et placeat amet ipsam.",
+        "Deleted": true,
+        "Rank": 736,
+        "Type": "dolore",
+        "ColorBlock": 833,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2007-05-16T03:31:33.7117545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "sed",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Marvin Legros MD"
+        "FullName": "Kira Thiel"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Ms. Augustine Gaylord"
+    "ExtraInfo": "est",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Macie White"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 458,
-    "Name": "Grady Inc and Sons",
-    "ToolTip": "Dolores non illo.",
-    "Deleted": false,
-    "Rank": 450,
-    "Type": "reprehenderit",
-    "ColorBlock": 855,
-    "IconHint": "recusandae",
+    "Id": 546,
+    "Name": "Spencer LLC",
+    "ToolTip": "Ut labore et similique sed.",
+    "Deleted": true,
+    "Rank": 765,
+    "Type": "repellat",
+    "ColorBlock": 979,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2015-06-04T16:00:49.133322+02:00",
+    "LastChanged": "2016-01-03T03:31:33.7117545+01:00",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Auer Group",
-        "ToolTip": "Dolorem nesciunt magnam at veritatis unde.",
+        "Id": 240,
+        "Name": "Johnson Group",
+        "ToolTip": "Sequi hic possimus quis unde omnis modi repudiandae.",
         "Deleted": false,
-        "Rank": 619,
-        "Type": "consectetur",
-        "ColorBlock": 134,
+        "Rank": 529,
+        "Type": "dicta",
+        "ColorBlock": 882,
         "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2013-05-14T16:00:49.133322+02:00",
+        "LastChanged": "2016-07-11T03:31:33.7117545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "sequi",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Miss Ethyl Reilly",
+        "FullName": "Wayne Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 740
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "dicta",
+    "ExtraInfo": "porro",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Dina Tate Streich I",
+    "FullName": "Stevie McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 691
       }
     }
   }

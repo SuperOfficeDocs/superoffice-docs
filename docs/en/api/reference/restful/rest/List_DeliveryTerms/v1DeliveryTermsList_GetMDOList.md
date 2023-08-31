@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=distinctio
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=nostrum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Wolf LLC",
-    "ToolTip": "Enim vitae.",
-    "Deleted": true,
-    "Rank": 541,
-    "Type": "et",
+    "Id": 623,
+    "Name": "Hyatt-Wilkinson",
+    "ToolTip": "Itaque quia quia inventore modi itaque dolorem sed.",
+    "Deleted": false,
+    "Rank": 319,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Walker, McCullough and McKenzie",
-        "ToolTip": "Harum atque possimus.",
-        "Deleted": false,
-        "Rank": 391,
-        "Type": "nam",
+        "Id": 195,
+        "Name": "Swaniawski, Jewess and Pfeffer",
+        "ToolTip": "Repellendus rerum rerum beatae non adipisci.",
+        "Deleted": true,
+        "Rank": 994,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ab",
-        "ColorBlock": 423,
-        "ExtraInfo": "vel",
-        "StyleHint": "nam",
-        "FullName": "Olin Schmidt I",
+        "IconHint": "velit",
+        "ColorBlock": 174,
+        "ExtraInfo": "maiores",
+        "StyleHint": "atque",
+        "FullName": "Clemmie Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 578
+            "FieldLength": 656
           }
         }
       }
     ],
-    "IconHint": "placeat",
-    "ColorBlock": 348,
-    "ExtraInfo": "sit",
-    "StyleHint": "et",
-    "FullName": "Mrs. Ines Chad McGlynn Jr.",
+    "IconHint": "saepe",
+    "ColorBlock": 184,
+    "ExtraInfo": "sunt",
+    "StyleHint": "reprehenderit",
+    "FullName": "Dr. Conner Noemie Klein III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 939
+        "FieldType": "System.Int32",
+        "FieldLength": 479
       }
     }
   }

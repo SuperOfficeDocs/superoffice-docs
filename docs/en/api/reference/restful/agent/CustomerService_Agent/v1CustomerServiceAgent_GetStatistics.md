@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "nostrum",
-    "ad"
+    "officiis",
+    "aut"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "et",
+    "Label": "quo",
     "Values": [
       {
-        "Label": "ab",
-        "Value": 7305.3539999999994,
-        "Description": "Triple-buffered foreground middleware",
+        "Label": "et",
+        "Value": 1012.2819999999999,
+        "Description": "Automated optimal toolset",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 792
           }
         }
       },
       {
-        "Label": "ab",
-        "Value": 7305.3539999999994,
-        "Description": "Triple-buffered foreground middleware",
+        "Label": "et",
+        "Value": 1012.2819999999999,
+        "Description": "Automated optimal toolset",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 792
           }
         }
       }
     ],
-    "Description": "Balanced demand-driven synergy",
+    "Description": "Enterprise-wide content-based solution",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldType": "System.String",
+        "FieldLength": 591
       }
     }
   },
   {
-    "Label": "et",
+    "Label": "quo",
     "Values": [
       {
-        "Label": "ab",
-        "Value": 7305.3539999999994,
-        "Description": "Triple-buffered foreground middleware",
+        "Label": "et",
+        "Value": 1012.2819999999999,
+        "Description": "Automated optimal toolset",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 792
           }
         }
       },
       {
-        "Label": "ab",
-        "Value": 7305.3539999999994,
-        "Description": "Triple-buffered foreground middleware",
+        "Label": "et",
+        "Value": 1012.2819999999999,
+        "Description": "Automated optimal toolset",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 792
           }
         }
       }
     ],
-    "Description": "Balanced demand-driven synergy",
+    "Description": "Enterprise-wide content-based solution",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldType": "System.String",
+        "FieldLength": 591
       }
     }
   }

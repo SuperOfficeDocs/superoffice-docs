@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Orn Inc and Sons",
-    "Description": "Optimized analyzing hub",
-    "Rank": 126,
+    "Name": "Mills-Towne",
+    "Description": "Customizable bi-directional analyzer",
+    "Rank": 722,
     "Restrictions": [
       {
-        "Name": "Lesch Inc and Sons",
-        "Operator": "consequatur",
+        "Name": "Wolff LLC",
+        "Operator": "nihil",
         "Values": [
-          "voluptatem",
-          "nam"
+          "ducimus",
+          "dolorum"
         ],
         "DisplayValues": [
-          "ea",
-          "iusto"
+          "fugiat",
+          "ad"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 728,
+        "InterParenthesis": 268,
         "InterOperator": "And",
-        "UniqueHash": 105
+        "UniqueHash": 773
       }
     ]
   },
   {
-    "Name": "Orn Inc and Sons",
-    "Description": "Optimized analyzing hub",
-    "Rank": 126,
+    "Name": "Mills-Towne",
+    "Description": "Customizable bi-directional analyzer",
+    "Rank": 722,
     "Restrictions": [
       {
-        "Name": "Lesch Inc and Sons",
-        "Operator": "consequatur",
+        "Name": "Wolff LLC",
+        "Operator": "nihil",
         "Values": [
-          "voluptatem",
-          "nam"
+          "ducimus",
+          "dolorum"
         ],
         "DisplayValues": [
-          "ea",
-          "iusto"
+          "fugiat",
+          "ad"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 728,
+        "InterParenthesis": 268,
         "InterOperator": "And",
-        "UniqueHash": 105
+        "UniqueHash": 773
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dickinson-Herzog",
-    "Description": "Business-focused value-added process improvement",
-    "Rank": 929,
+    "Name": "Gleason-Schmitt",
+    "Description": "Object-based stable array",
+    "Rank": 96,
     "Restrictions": [
       {
-        "Name": "McKenzie LLC",
-        "Operator": "cupiditate",
+        "Name": "Abbott, Buckridge and Hagenes",
+        "Operator": "fugiat",
         "Values": [
-          "harum",
-          "ipsum"
+          "sequi",
+          "nesciunt"
         ],
         "DisplayValues": [
-          "voluptas",
-          "et"
+          "iure",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 590,
+        "InterParenthesis": 440,
         "InterOperator": "And",
-        "UniqueHash": 126
+        "UniqueHash": 753
       }
     ]
   },
   {
-    "Name": "Dickinson-Herzog",
-    "Description": "Business-focused value-added process improvement",
-    "Rank": 929,
+    "Name": "Gleason-Schmitt",
+    "Description": "Object-based stable array",
+    "Rank": 96,
     "Restrictions": [
       {
-        "Name": "McKenzie LLC",
-        "Operator": "cupiditate",
+        "Name": "Abbott, Buckridge and Hagenes",
+        "Operator": "fugiat",
         "Values": [
-          "harum",
-          "ipsum"
+          "sequi",
+          "nesciunt"
         ],
         "DisplayValues": [
-          "voluptas",
-          "et"
+          "iure",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 590,
+        "InterParenthesis": 440,
         "InterOperator": "And",
-        "UniqueHash": 126
+        "UniqueHash": 753
       }
     ]
   }

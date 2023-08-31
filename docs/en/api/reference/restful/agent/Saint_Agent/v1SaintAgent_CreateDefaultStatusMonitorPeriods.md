@@ -69,15 +69,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 506,
-  "Period2": 265,
-  "Period3": 792,
+  "Period1": 325,
+  "Period2": 387,
+  "Period3": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldLength": 712
     }
   }
 }

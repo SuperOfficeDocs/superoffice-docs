@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 770,
-  "PrefValue": "dolorem"
+  "PrefDescId": 314,
+  "PrefValue": "quis"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 94,
-  "PrefDescId": 543,
-  "PrefValue": "enim",
-  "PrefShowValue": "impedit",
-  "Description": "Realigned multi-tasking workforce",
-  "IsBuiltin": false,
+  "PrefDescLineId": 601,
+  "PrefDescId": 974,
+  "PrefValue": "quia",
+  "PrefShowValue": "odit",
+  "Description": "Organic stable synergy",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 937
     }
   }
 }

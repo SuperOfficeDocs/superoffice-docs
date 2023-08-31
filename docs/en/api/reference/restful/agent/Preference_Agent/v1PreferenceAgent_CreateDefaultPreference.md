@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "eos",
+  "RawValue": "nulla",
   "Specification": null,
-  "DisplayValue": "eligendi",
-  "DisplayTooltip": "quo",
+  "DisplayValue": "explicabo",
+  "DisplayTooltip": "velit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 327,
-  "PrefDescId": 545,
-  "TableName": "Bergstrom, Walsh and Armstrong",
-  "UserPreferenceId": 527,
+  "TargetId": 526,
+  "PrefDescId": 376,
+  "TableName": "McDermott-Howe",
+  "UserPreferenceId": 234,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldLength": 757
     }
   }
 }

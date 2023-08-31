@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Lemke-Dibbert",
-    "ToolTip": "Eligendi et beatae.",
+    "Id": 568,
+    "Name": "Kutch, Pagac and Krajcik",
+    "ToolTip": "Fugit hic ipsa dolor explicabo illum.",
     "Deleted": false,
-    "Rank": 821,
-    "Type": "possimus",
-    "ColorBlock": 57,
-    "IconHint": "maxime",
+    "Rank": 216,
+    "Type": "aliquid",
+    "ColorBlock": 883,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2013-10-19T16:00:48.211547+02:00",
+    "LastChanged": "2006-01-20T03:31:32.8163583+01:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Windler Group",
-        "ToolTip": "Eos qui qui beatae ab unde.",
-        "Deleted": false,
-        "Rank": 59,
-        "Type": "aliquam",
-        "ColorBlock": 263,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1999-12-29T16:00:48.211547+01:00",
+        "Id": 605,
+        "Name": "Senger, Emard and Kemmer",
+        "ToolTip": "Ullam est.",
+        "Deleted": true,
+        "Rank": 842,
+        "Type": "odit",
+        "ColorBlock": 921,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "2007-11-27T03:31:32.8163583+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Prof. Hortense Paige Mayer IV",
+        "FullName": "Adrienne Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 301
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "placeat",
+    "ExtraInfo": "totam",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Eleonore Romaguera",
+    "FullName": "Julianne Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldLength": 558
       }
     }
   }

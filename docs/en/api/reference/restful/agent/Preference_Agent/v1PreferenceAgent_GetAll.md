@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 409,
-    "Section": "porro",
-    "Key": "voluptas",
-    "Name": "Daniel, Towne and Kessler",
+    "PrefDescId": 816,
+    "Section": "consequuntur",
+    "Key": "consequatur",
+    "Name": "Gottlieb-Yost",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Multi-layered content-based migration",
-    "IsBuiltin": true,
-    "TableName": "Rodriguez-Murazik",
-    "UserDefinedListId": 967,
-    "Rank": 320,
-    "SubGroup": "cum",
-    "MinLevel": 805,
-    "MaxValue": 553,
-    "MinValue": 479,
-    "RequiredLicense": "quibusdam",
+    "Description": "Visionary demand-driven strategy",
+    "IsBuiltin": false,
+    "TableName": "Von, Simonis and Ledner",
+    "UserDefinedListId": 925,
+    "Rank": 465,
+    "SubGroup": "ut",
+    "MinLevel": 666,
+    "MaxValue": 830,
+    "MinValue": 3,
+    "RequiredLicense": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 306
       }
     }
   }

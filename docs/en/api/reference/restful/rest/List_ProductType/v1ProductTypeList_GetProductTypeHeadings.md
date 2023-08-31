@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "Baumbach-Lindgren",
-    "Tooltip": "nihil",
+    "HeadingId": 760,
+    "Name": "Grady Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 987,
-    "UdListDefinitionId": 149,
+    "Rank": 963,
+    "UdListDefinitionId": 305,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 218
       }
     }
   }

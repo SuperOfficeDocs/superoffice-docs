@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 981,
-  "Name": "VonRueden Group",
-  "Tooltip": "totam",
+  "HeadingId": 261,
+  "Name": "Heathcote-Fay",
+  "Tooltip": "eum",
   "Deleted": true,
-  "Rank": 860,
-  "UdListDefinitionId": 878
+  "Rank": 568,
+  "UdListDefinitionId": 963
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 74,
-  "Name": "Dach, Stiedemann and Pollich",
-  "Tooltip": "ipsam",
-  "Deleted": false,
-  "Rank": 276,
-  "UdListDefinitionId": 982,
+  "HeadingId": 223,
+  "Name": "Shields-Durgan",
+  "Tooltip": "modi",
+  "Deleted": true,
+  "Rank": 972,
+  "UdListDefinitionId": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 34
+      "FieldLength": 396
     }
   }
 }

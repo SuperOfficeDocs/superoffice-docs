@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 13 Mar 2003 16:00:47 G3T
+Last-Modified: Mon, 21 Nov 2011 03:31:32 G11T
 
 {
-  "ForeignDeviceId": 602,
-  "Name": "Bogisich LLC",
-  "CreatedDate": "2010-12-04T16:00:47.9772018+01:00",
-  "UpdatedDate": "2003-03-13T16:00:47.9772018+01:00",
-  "AssociateFullName": "Hugh Bartoletti",
-  "CreatedBy": "veniam",
+  "ForeignDeviceId": 580,
+  "Name": "Cronin-Goldner",
+  "CreatedDate": "2004-06-19T03:31:32.6289016+02:00",
+  "UpdatedDate": "2011-11-21T03:31:32.6289016+01:00",
+  "AssociateFullName": "Angelita Schamberger",
+  "CreatedBy": "quas",
   "UpdatedBy": "eum",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 672,
+  "DeviceIdentifier": "ab",
+  "ForeignAppId": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

@@ -30,7 +30,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -733,7 +733,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=numberOfReplies,contact/contactAssociate/fullName,extra/x_ticket_shorttext_list,sale/source
+GET /api/v1/archive/FreetextTicket?$select=lastChanged,contact/contactFax/description,contact/postAddress/line2,contact/contactAssociate/associateDbId,sale/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

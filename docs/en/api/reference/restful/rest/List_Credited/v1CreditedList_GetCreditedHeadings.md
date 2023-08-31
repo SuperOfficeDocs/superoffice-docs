@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 407,
-    "Name": "Heathcote-Gislason",
-    "Tooltip": "expedita",
-    "Deleted": false,
-    "Rank": 451,
-    "UdListDefinitionId": 453,
+    "HeadingId": 81,
+    "Name": "Koepp Inc and Sons",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 837,
+    "UdListDefinitionId": 825,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldLength": 691
       }
     }
   }

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Fritsch-Gutmann"
+  "EntityName": "Bogisich LLC"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 31,
-  "DashboardId": 232,
-  "Height": 367,
-  "Width": 102,
-  "Rank": 358,
+  "DashboardTileId": 778,
+  "DashboardId": 401,
+  "Height": 461,
+  "Width": 696,
+  "Rank": 288,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 141
     }
   }
 }

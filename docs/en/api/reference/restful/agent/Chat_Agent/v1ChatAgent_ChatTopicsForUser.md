@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 168,
-    "Name": "Greenholt Inc and Sons",
-    "Description": "Sharable content-based moderator",
-    "WelcomeMessage": "quia",
+    "ChatTopicId": 644,
+    "Name": "Kuvalis-Hyatt",
+    "Description": "Fundamental directional pricing structure",
+    "WelcomeMessage": "non",
     "Language": null,
-    "LastAccept": "2003-09-15T16:00:40.2738074+02:00",
-    "SecondsPrAccept": 820,
-    "AlertRecipient": "animi",
+    "LastAccept": "2009-05-25T03:31:25.7915519+02:00",
+    "SecondsPrAccept": 741,
+    "AlertRecipient": "aut",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "aut",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "laudantium",
-    "WarnNewChatMinutes": 729,
-    "WarnManagerNewChatMinutes": 278,
-    "TicketEnabled": false,
+    "CollectConsent": true,
+    "BadgeHeader": "et",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "sequi",
+    "WarnNewChatMinutes": 645,
+    "WarnManagerNewChatMinutes": 467,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 176,
-    "WarnManagerChatMessageMinutes": 368,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 149,
-    "OfflineFormQueueLength": 540,
+    "WarnChatMessageMinutes": 143,
+    "WarnManagerChatMessageMinutes": 46,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 255,
+    "OfflineFormQueueLength": 323,
     "WidgetEnableRating": true,
-    "WidgetRatingText": "voluptates",
+    "WidgetRatingText": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 406
       }
     }
   }

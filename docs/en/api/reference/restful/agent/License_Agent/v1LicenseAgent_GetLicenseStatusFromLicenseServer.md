@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ebert, Schamberger and Von"
+  "OwnerName": "McGlynn, Gusikowski and Stehr"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "sed",
+  "Message": "saepe",
   "Url": "http://www.example.com/"
 }
 ```

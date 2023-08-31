@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Goyette Inc and Sons",
-    "ToolTip": "Vero corporis architecto alias nihil nostrum voluptatum nesciunt.",
+    "Id": 725,
+    "Name": "Kirlin-Schiller",
+    "ToolTip": "Libero alias omnis.",
     "Deleted": false,
-    "Rank": 719,
-    "Type": "incidunt",
-    "ColorBlock": 114,
-    "IconHint": "est",
+    "Rank": 887,
+    "Type": "aspernatur",
+    "ColorBlock": 799,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2001-03-25T16:00:49.0083336+02:00",
+    "LastChanged": "2008-04-06T03:31:33.6010939+02:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Gulgowski, Padberg and Adams",
-        "ToolTip": "Facere mollitia ea at minima.",
-        "Deleted": false,
-        "Rank": 810,
-        "Type": "impedit",
-        "ColorBlock": 777,
-        "IconHint": "at",
-        "Selected": true,
-        "LastChanged": "2019-07-07T16:00:49.0083336+02:00",
+        "Id": 373,
+        "Name": "Pfannerstill Group",
+        "ToolTip": "Quia officia beatae quam vel ea.",
+        "Deleted": true,
+        "Rank": 594,
+        "Type": "vel",
+        "ColorBlock": 14,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2011-02-02T03:31:33.6010939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
+        "ExtraInfo": "est",
         "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Ms. Doug Swift III",
+        "Hidden": true,
+        "FullName": "Louvenia Max Daniel III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 103
+            "FieldType": "System.Int32",
+            "FieldLength": 509
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Ms. Antonio Alexys Schiller V",
+    "FullName": "Krista Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 925
       }
     }
   }

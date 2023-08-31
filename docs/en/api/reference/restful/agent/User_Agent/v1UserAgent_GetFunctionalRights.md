@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 424
+  "RoleId": 205
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Simonis Inc and Sons",
-    "ToolTip": "Illo veritatis eveniet.",
-    "Deleted": false,
-    "Rank": 299,
-    "Type": "placeat",
-    "ColorBlock": 839,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2000-01-28T16:00:42.3206172+01:00",
+    "Id": 44,
+    "Name": "Treutel-Marquardt",
+    "ToolTip": "Sequi hic quis dolorum autem.",
+    "Deleted": true,
+    "Rank": 98,
+    "Type": "iste",
+    "ColorBlock": 830,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2003-06-19T03:31:27.7634711+02:00",
     "ChildItems": [
       {
-        "Id": 496,
-        "Name": "Jaskolski LLC",
-        "ToolTip": "Dolorem delectus consequatur blanditiis.",
-        "Deleted": true,
-        "Rank": 595,
-        "Type": "ea",
-        "ColorBlock": 578,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2002-10-05T16:00:42.3206172+02:00",
+        "Id": 922,
+        "Name": "Lockman-Lebsack",
+        "ToolTip": "Blanditiis consequatur rerum eveniet inventore debitis cupiditate officiis.",
+        "Deleted": false,
+        "Rank": 348,
+        "Type": "eos",
+        "ColorBlock": 805,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2022-06-25T03:31:27.7634711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Stefanie Mante",
+        "ExtraInfo": "est",
+        "StyleHint": "recusandae",
+        "Hidden": false,
+        "FullName": "Wallace Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldLength": 225
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "dolores",
+    "ExtraInfo": "in",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Miss Kip Thea Hand PhD",
+    "FullName": "Toy Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 43
       }
     }
   }

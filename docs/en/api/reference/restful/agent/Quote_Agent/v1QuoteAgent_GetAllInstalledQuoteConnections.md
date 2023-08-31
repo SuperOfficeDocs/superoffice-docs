@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 862,
-    "ERPName": "McLaughlin-Adams",
-    "DisplayName": "Eichmann-Rogahn",
-    "DisplayDescription": "Secured web-enabled frame",
-    "Rank": 145,
-    "ConnectorName": "Hirthe LLC",
-    "ErpConnectionId": 406,
-    "ExtraData": "sequi",
-    "IsAvailable": true,
+    "QuoteConnectionId": 480,
+    "ERPName": "Legros, Raynor and Nikolaus",
+    "DisplayName": "Littel-Fritsch",
+    "DisplayDescription": "Diverse tangible access",
+    "Rank": 69,
+    "ConnectorName": "Hills LLC",
+    "ErpConnectionId": 984,
+    "ExtraData": "ut",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 681,
-        "ERPPriceListKey": "voluptatem",
-        "QuoteConnectionId": 821,
-        "Name": "Hintz Group",
-        "Description": "Fully-configurable neutral array",
-        "Currency": "delectus",
-        "CurrencyName": "Casper LLC",
-        "ValidFrom": "2011-09-20T16:00:41.6488224+02:00",
-        "ValidTo": "2006-02-18T16:00:41.6488224+01:00",
-        "IsActive": true,
+        "PriceListId": 356,
+        "ERPPriceListKey": "possimus",
+        "QuoteConnectionId": 584,
+        "Name": "Douglas, Mante and Luettgen",
+        "Description": "Upgradable bandwidth-monitored application",
+        "Currency": "omnis",
+        "CurrencyName": "Gutkowski, Prohaska and Wintheiser",
+        "ValidFrom": "2005-11-29T03:31:27.0905589+01:00",
+        "ValidTo": "2018-07-05T03:31:27.0905589+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 538
+            "FieldLength": 504
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      714,
-      283
+      899,
+      827
     ],
     "AssociateAccessIds": [
-      943,
-      131
+      731,
+      351
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 85
       }
     }
   }

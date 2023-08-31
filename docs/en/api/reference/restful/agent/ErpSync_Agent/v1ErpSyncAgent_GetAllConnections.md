@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 957,
-    "ErpConnectorId": 450,
-    "DisplayName": "Rowe, Herman and Bartoletti",
-    "DisplayDescription": "Upgradable optimal approach",
+    "ErpConnectionId": 703,
+    "ErpConnectorId": 249,
+    "DisplayName": "Gutmann Group",
+    "DisplayDescription": "User-centric needs-based framework",
     "Active": false,
-    "ConnectionId": "quibusdam",
-    "MostRecentTimestamp": "sit",
+    "ConnectionId": "sed",
+    "MostRecentTimestamp": "eos",
     "ConfigFields": {
-      "ConfigFields1": "est",
-      "ConfigFields2": "vitae"
+      "ConfigFields1": "optio",
+      "ConfigFields2": "nostrum"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": true,
     "UserGroupAccessIds": [
-      90,
-      31
+      198,
+      57
     ],
     "AssociateAccessIds": [
-      325,
-      928
+      246,
+      580
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldType": "System.String",
+        "FieldLength": 386
       }
     }
   }

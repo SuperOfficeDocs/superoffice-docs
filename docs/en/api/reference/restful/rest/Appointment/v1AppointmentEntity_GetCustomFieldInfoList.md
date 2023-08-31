@@ -67,7 +67,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Nader Inc and Sons",
-    "DisplayName": "King LLC",
-    "Description": "Synergized eco-centric standardization",
-    "ShortLabel": "tempore",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 178,
-    "TemplateVariableName": "Nitzsche, Watsica and O'Hara"
+    "FieldName": "Murazik-Rippin",
+    "DisplayName": "Herzog Inc and Sons",
+    "Description": "Re-contextualized coherent initiative",
+    "ShortLabel": "quisquam",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 264,
+    "TemplateVariableName": "Schneider-Cole"
   }
 ]
 ```

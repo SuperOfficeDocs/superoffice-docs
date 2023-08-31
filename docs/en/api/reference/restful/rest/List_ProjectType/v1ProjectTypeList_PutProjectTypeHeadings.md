@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 583,
-    "Name": "Rowe, Heathcote and Farrell",
-    "Tooltip": "debitis",
+    "HeadingId": 224,
+    "Name": "Ziemann, Kerluke and Larkin",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 610,
-    "UdListDefinitionId": 421
+    "Rank": 881,
+    "UdListDefinitionId": 15
   },
   {
-    "HeadingId": 583,
-    "Name": "Rowe, Heathcote and Farrell",
-    "Tooltip": "debitis",
+    "HeadingId": 224,
+    "Name": "Ziemann, Kerluke and Larkin",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 610,
-    "UdListDefinitionId": 421
+    "Rank": 881,
+    "UdListDefinitionId": 15
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 202,
-    "Name": "Howe Group",
-    "Tooltip": "fuga",
+    "HeadingId": 943,
+    "Name": "Ankunding-Bergnaum",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 142,
-    "UdListDefinitionId": 949,
+    "Rank": 199,
+    "UdListDefinitionId": 57,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 168
+        "FieldLength": 313
       }
     }
   }

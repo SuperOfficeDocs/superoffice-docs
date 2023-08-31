@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Crooks Group",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "UdListDefinitionId": 9,
-  "Rank": 298,
+  "Id": 645,
+  "Name": "Bergnaum Group",
+  "Tooltip": "excepturi",
+  "Deleted": true,
+  "UdListDefinitionId": 479,
+  "Rank": 371,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 247
     }
   }
 }

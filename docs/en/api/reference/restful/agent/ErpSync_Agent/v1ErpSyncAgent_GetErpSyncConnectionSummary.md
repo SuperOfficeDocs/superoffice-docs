@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 787
+  "ErpSyncConnectionId": 867
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Hilll-Turcotte",
-  "DisplayDescription": "Synergistic composite benchmark",
-  "Active": false,
+  "DisplayName": "Kerluke Inc and Sons",
+  "DisplayDescription": "Up-sized systemic core",
+  "Active": true,
   "Deleted": false,
-  "LastSync": "2013-09-08T16:00:40.9924727+02:00",
+  "LastSync": "2013-05-04T03:31:26.5269641+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "mollitia",
-      "Mappings": "ducimus",
+      "HasMappings": true,
+      "Defaults": "eos",
+      "Mappings": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldType": "System.String",
+          "FieldLength": 849
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "mollitia",
-      "Mappings": "ducimus",
+      "HasMappings": true,
+      "Defaults": "eos",
+      "Mappings": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldType": "System.String",
+          "FieldLength": 849
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 107
+      "FieldType": "System.Int32",
+      "FieldLength": 279
     }
   }
 }

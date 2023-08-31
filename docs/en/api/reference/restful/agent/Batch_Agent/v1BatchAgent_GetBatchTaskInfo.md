@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527
+  "Id": 370
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Mueller-Lesch",
-  "AssociateId": 193,
-  "DetailsTable": 767,
-  "DetailsRecord": 389,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 857,
+  "Name": "Bartell Inc and Sons",
+  "AssociateId": 458,
+  "DetailsTable": 759,
+  "DetailsRecord": 576,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "quam",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "exercitationem",
+    "ParameterObject2": "necessitatibus"
   },
-  "LastStarted": "2014-12-21T16:00:40.1019505+01:00",
-  "Created": "2006-09-27T16:00:40.1019505+02:00",
-  "StartCount": 490,
-  "DatabaseSerialNumber": "1512025",
-  "Context": "autem",
-  "Result": "est",
+  "LastStarted": "2009-01-22T03:31:25.6496314+01:00",
+  "Created": "1998-03-19T03:31:25.6496314+01:00",
+  "StartCount": 582,
+  "DatabaseSerialNumber": "852436",
+  "Context": "quibusdam",
+  "Result": "aut",
   "State": "All",
-  "Description": "Horizontal mobile info-mediaries",
-  "Response": "similique",
-  "Request": "rerum",
-  "ProgressDescription": "Profound bottom-line attitude",
-  "ProgressPercent": 471,
-  "FileName": "Terry, Borer and Willms",
+  "Description": "Business-focused non-volatile functionalities",
+  "Response": "sunt",
+  "Request": "quis",
+  "ProgressDescription": "Switchable mission-critical system engine",
+  "ProgressPercent": 157,
+  "FileName": "Crist LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 280
     }
   }
 }

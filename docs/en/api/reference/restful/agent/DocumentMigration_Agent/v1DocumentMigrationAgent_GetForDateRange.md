@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 4,
-  "MinDate": "2006-02-04T16:00:40.8362394+01:00",
-  "MaxDate": "2020-07-21T16:00:40.8362394+02:00",
+  "DocumentPluginId": 889,
+  "MinDate": "2001-01-23T03:31:26.401997+01:00",
+  "MaxDate": "2007-01-25T03:31:26.401997+01:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 800,
-  "NumDocumentsAlreadyMigrated": 278,
+  "NumDocumentsOmitted": 635,
+  "NumDocumentsAlreadyMigrated": 443,
   "Documents": [
     {
-      "DocumentId": 708,
-      "ContactId": 70,
-      "PersonId": 647,
-      "SaleId": 54,
-      "ProjectId": 291,
-      "DocTmplId": 323,
-      "AssociateId": 310,
-      "UserGroupId": 910,
-      "VisibleForId": 977
+      "DocumentId": 580,
+      "ContactId": 498,
+      "PersonId": 246,
+      "SaleId": 254,
+      "ProjectId": 87,
+      "DocTmplId": 218,
+      "AssociateId": 23,
+      "UserGroupId": 960,
+      "VisibleForId": 596
     }
   ],
   "Associates": [
     {
-      "AssociateId": 645,
-      "EmailAddress": "savanah@robertsohara.uk"
+      "AssociateId": 461,
+      "EmailAddress": "durward.vandervort@daniel.ca"
     },
     {
-      "AssociateId": 645,
-      "EmailAddress": "savanah@robertsohara.uk"
+      "AssociateId": 461,
+      "EmailAddress": "durward.vandervort@daniel.ca"
     }
   ]
 }

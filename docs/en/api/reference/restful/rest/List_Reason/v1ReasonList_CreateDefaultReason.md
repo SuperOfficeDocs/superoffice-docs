@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 449,
-  "Name": "Wolf-Cormier",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "UdListDefinitionId": 58,
-  "Rank": 452,
+  "Id": 333,
+  "Name": "Schiller, Schulist and Ryan",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 525,
+  "Rank": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldLength": 837
     }
   }
 }

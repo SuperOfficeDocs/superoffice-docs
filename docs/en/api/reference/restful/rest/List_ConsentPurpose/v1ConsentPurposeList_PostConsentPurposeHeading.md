@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 147,
-  "Name": "Moen-Leffler",
-  "Tooltip": "ut",
+  "HeadingId": 869,
+  "Name": "D'Amore LLC",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 640,
-  "UdListDefinitionId": 981
+  "Rank": 469,
+  "UdListDefinitionId": 363
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 347,
-  "Name": "O'Hara Group",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 162,
-  "UdListDefinitionId": 373,
+  "HeadingId": 459,
+  "Name": "Lowe-Romaguera",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 680,
+  "UdListDefinitionId": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldType": "System.Int32",
+      "FieldLength": 578
     }
   }
 }

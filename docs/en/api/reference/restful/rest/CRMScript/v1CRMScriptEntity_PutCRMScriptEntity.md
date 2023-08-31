@@ -101,21 +101,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 169,
-  "UniqueIdentifier": "alias",
-  "Name": "Kemmer, Cruickshank and Dibbert",
-  "Description": "Total system-worthy encryption",
-  "IncludeId": "odit",
-  "HierarchyId": 316,
-  "Source": "quasi",
-  "Registered": "2010-07-29T16:00:47.83659+02:00",
-  "RegisteredAssociateId": 633,
-  "Updated": "2000-06-06T16:00:47.83659+02:00",
-  "UpdatedAssociateId": 184
+  "EjscriptId": 702,
+  "UniqueIdentifier": "autem",
+  "Name": "Koelpin, Hagenes and Gutkowski",
+  "Description": "Managed needs-based forecast",
+  "IncludeId": "vel",
+  "HierarchyId": 552,
+  "Source": "expedita",
+  "Registered": "2017-06-02T03:31:32.5039305+02:00",
+  "RegisteredAssociateId": 285,
+  "Updated": "2009-01-20T03:31:32.5039305+01:00",
+  "UpdatedAssociateId": 842
 }
 ```
 
@@ -126,23 +126,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 867,
-  "UniqueIdentifier": "perferendis",
-  "Name": "Schuster Inc and Sons",
-  "Description": "Optimized holistic knowledge user",
-  "IncludeId": "voluptates",
-  "HierarchyId": 202,
-  "Source": "asperiores",
-  "Registered": "2002-09-30T16:00:47.83659+02:00",
-  "RegisteredAssociateId": 411,
-  "Updated": "2017-09-19T16:00:47.83659+02:00",
-  "UpdatedAssociateId": 173,
+  "EjscriptId": 744,
+  "UniqueIdentifier": "aliquam",
+  "Name": "Pfeffer, Muller and Witting",
+  "Description": "Object-based scalable algorithm",
+  "IncludeId": "aut",
+  "HierarchyId": 455,
+  "Source": "harum",
+  "Registered": "2022-09-23T03:31:32.5039305+02:00",
+  "RegisteredAssociateId": 830,
+  "Updated": "2000-08-09T03:31:32.5039305+02:00",
+  "UpdatedAssociateId": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 442
     }
   },
   "_Links": {

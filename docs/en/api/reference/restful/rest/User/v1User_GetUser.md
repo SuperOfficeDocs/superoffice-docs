@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 343,
-  "Name": "Borer, Hermann and Spinka",
-  "Rank": 249,
-  "Tooltip": "tempore",
+  "AssociateId": 765,
+  "Name": "Cassin-Mueller",
+  "Rank": 543,
+  "Tooltip": "suscipit",
   "LicenseOwners": [
     {
-      "Name": "Hickle, O'Kon and Schamberger",
-      "Description": "Organized background extranet",
+      "Name": "Raynor LLC",
+      "Description": "Advanced global encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 706
         }
       }
     },
     {
-      "Name": "Hickle, O'Kon and Schamberger",
-      "Description": "Organized background extranet",
+      "Name": "Raynor LLC",
+      "Description": "Advanced global encoding",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 706
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "tenetur",
-      "Tooltip": "est",
-      "Id": 815,
-      "Rank": 520,
+      "Value": "repudiandae",
+      "Tooltip": "aut",
+      "Id": 491,
+      "Rank": 8,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 244
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2003-10-01T16:00:48.7583614+02:00",
-  "Lastlogout": "2021-10-15T16:00:48.7583614+02:00",
-  "EjUserId": 857,
-  "RequestSignature": "incidunt",
+  "Lastlogin": "2020-06-25T03:31:33.382404+02:00",
+  "Lastlogout": "2009-12-19T03:31:33.382404+01:00",
+  "EjUserId": 343,
+  "RequestSignature": "molestiae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "voluptatem",
-      "DisplayValue": "vel",
+      "Value": "sapiente",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     },
     {
       "Type": null,
-      "Value": "voluptatem",
-      "DisplayValue": "vel",
+      "Value": "sapiente",
+      "DisplayValue": "dolores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 491
+        }
+      }
+    }
+  ],
+  "UserName": "Jenkins, Wiza and Wisozk",
+  "TicketCategories": [
+    {
+      "Id": 111,
+      "Name": "Ankunding, Rogahn and Torp",
+      "ToolTip": "Sint non eum rerum.",
+      "Deleted": false,
+      "Rank": 561,
+      "Type": "consectetur",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "et",
+      "ColorBlock": 598,
+      "ExtraInfo": "ab",
+      "StyleHint": "exercitationem",
+      "FullName": "Leta Satterfield",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 102
+          "FieldLength": 506
         }
       }
     }
   ],
-  "UserName": "Vandervort, Krajcik and Lebsack",
-  "TicketCategories": [
-    {
-      "Id": 634,
-      "Name": "Stroman LLC",
-      "ToolTip": "Repudiandae minus est sed enim.",
-      "Deleted": false,
-      "Rank": 509,
-      "Type": "voluptates",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "voluptas",
-      "ColorBlock": 709,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "recusandae",
-      "FullName": "Ervin Schmeler",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 433
-        }
-      }
-    }
-  ],
-  "NickName": "Purdy-Kling",
+  "NickName": "Gutmann Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "non",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "dolorum",
-    "CustomFields2": "earum"
+    "CustomFields1": "provident",
+    "CustomFields2": "animi"
   },
   "PostSaveCommands": [
     {
-      "Name": "West-Larson",
-      "DisplayName": "Mraz-Reichel",
-      "Description": "Vision-oriented motivating product",
-      "ToolTip": "Perspiciatis fugit eligendi voluptas similique.",
+      "Name": "Ferry, Hintz and Conn",
+      "DisplayName": "Osinski, Torphy and Wuckert",
+      "Description": "Distributed bi-directional protocol",
+      "ToolTip": "Incidunt facilis voluptatibus dicta exercitationem.",
       "Actions": "Implicit",
-      "ActionData": "non",
+      "ActionData": "expedita",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldLength": 540
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 978
     }
   },
   "_Links": {

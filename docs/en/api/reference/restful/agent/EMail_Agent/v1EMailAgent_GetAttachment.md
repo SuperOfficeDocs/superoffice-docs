@@ -74,6 +74,7 @@ OK
 | Encoding | string | Content-Transfer-Encoding |
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
+| IsSafeFileExtension | bool | If the user should be allowed to download and perform other actions on the attachment. |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
@@ -89,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 699,
-  "AttachmentId": "consequuntur"
+  "MessageServerId": 809,
+  "AttachmentId": "aperiam"
 }
 ```
 
@@ -101,20 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused tertiary hardware",
-  "Filename": "et",
-  "Size": 361,
-  "Type": "qui",
-  "Encoding": "a",
-  "Id": "quasi",
-  "Disposition": "magnam",
+  "Description": "Advanced needs-based interface",
+  "Filename": "totam",
+  "Size": 845,
+  "Type": "vel",
+  "Encoding": "eaque",
+  "Id": "eligendi",
+  "Disposition": "fuga",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 945
     }
   }
 }

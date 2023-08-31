@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Franecki-Olson",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "UdListDefinitionId": 273,
-    "Rank": 22
+    "Id": 290,
+    "Name": "Runte Group",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 326,
+    "Rank": 111
   },
   {
-    "Id": 499,
-    "Name": "Franecki-Olson",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "UdListDefinitionId": 273,
-    "Rank": 22
+    "Id": 290,
+    "Name": "Runte Group",
+    "Tooltip": "earum",
+    "Deleted": false,
+    "UdListDefinitionId": 326,
+    "Rank": 111
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Streich LLC",
-    "Tooltip": "perspiciatis",
+    "Id": 48,
+    "Name": "Daugherty-Lueilwitz",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 899,
-    "Rank": 37,
+    "UdListDefinitionId": 808,
+    "Rank": 612,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldType": "System.Int32",
+        "FieldLength": 942
       }
     }
   }

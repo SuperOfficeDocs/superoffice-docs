@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455,
-  "Name": "Purdy, Eichmann and Reichert",
-  "Tooltip": "at",
+  "Id": 177,
+  "Name": "Marquardt Group",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 776,
-  "IsCustomList": false,
+  "Rank": 922,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "veniam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 354
+      "FieldType": "System.Int32",
+      "FieldLength": 765
     }
   },
   "_Links": {

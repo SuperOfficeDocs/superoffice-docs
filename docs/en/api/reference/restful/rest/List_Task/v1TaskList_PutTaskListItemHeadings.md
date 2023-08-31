@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 186,
-    "Name": "Sauer Group",
-    "Tooltip": "soluta",
+    "HeadingId": 359,
+    "Name": "Feil-Brown",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 780
+    "Rank": 410,
+    "UdListDefinitionId": 69
   },
   {
-    "HeadingId": 186,
-    "Name": "Sauer Group",
-    "Tooltip": "soluta",
+    "HeadingId": 359,
+    "Name": "Feil-Brown",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 780
+    "Rank": 410,
+    "UdListDefinitionId": 69
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 892,
-    "Name": "Muller, Nikolaus and Bosco",
-    "Tooltip": "eum",
+    "HeadingId": 919,
+    "Name": "Hills Inc and Sons",
+    "Tooltip": "ad",
     "Deleted": false,
-    "Rank": 364,
-    "UdListDefinitionId": 315,
+    "Rank": 562,
+    "UdListDefinitionId": 984,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

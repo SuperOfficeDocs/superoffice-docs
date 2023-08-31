@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "optio",
-  "PluginId": 491
+  "LanguageCode": "dolores",
+  "PluginId": 837
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 471,
-  "Name": "Marks-Satterfield",
-  "Tooltip": "quo",
-  "SaveInDb": 367,
-  "Filename": "sit",
-  "DefaultOref": "harum",
+  "DocumentTemplateId": 336,
+  "Name": "Little, Maggio and Schimmel",
+  "Tooltip": "quia",
+  "SaveInDb": 813,
+  "Filename": "eum",
+  "DefaultOref": "incidunt",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 854,
-  "IntentId": 996,
+  "AutoeventId": 63,
+  "IntentId": 917,
   "IsDefaultPublished": false,
-  "Rank": 96,
-  "LoadTemplateFromPlugin": 590,
-  "MimeType": "accusamus",
+  "Rank": 825,
+  "LoadTemplateFromPlugin": 662,
+  "MimeType": "omnis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 893,
+  "DocumentTypeKey": 878,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jaida@heathcote.co.uk",
+  "EmailSubject": "kole.stokes@weissnat.name",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "adan@crist.co.uk",
+  "SenderEmailAddress": "saul_botsford@klocko.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldLength": 878
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/{ownerName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,21 +73,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 407,
-      "NumberOfLicensesFree": 826,
-      "NumberOfLicensesAdded": 409,
-      "NumberOfLicensesNewTotal": 587,
-      "NumberOfLicensesNewFree": 924,
-      "NumberOfLicensesTotal": 910
+      "NumberOfLicensesInUse": 959,
+      "NumberOfLicensesFree": 228,
+      "NumberOfLicensesAdded": 144,
+      "NumberOfLicensesNewTotal": 399,
+      "NumberOfLicensesNewFree": 826,
+      "NumberOfLicensesTotal": 743
     }
   ],
-  "AccumulatedNextCheckDate": "2013-09-14T16:00:48.664623+02:00"
+  "AccumulatedNextCheckDate": "2008-11-19T03:31:33.3187308+01:00"
 }
 ```

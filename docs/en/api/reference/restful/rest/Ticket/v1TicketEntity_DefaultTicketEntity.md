@@ -100,6 +100,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -111,7 +112,7 @@ OK
 GET /api/v1/Ticket/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -121,21 +122,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 676,
-  "Title": "enim",
-  "CreatedAt": "2010-01-26T16:00:48.4771472+01:00",
-  "LastChanged": "2006-01-06T16:00:48.4771472+01:00",
-  "ReadByOwner": "2000-11-24T16:00:48.4771472+01:00",
-  "ReadByCustomer": "2003-08-03T16:00:48.4771472+02:00",
-  "FirstReadByOwner": "1997-07-27T16:00:48.4771472+02:00",
-  "FirstReadByUser": "2003-04-21T16:00:48.4771472+02:00",
-  "Activate": "2003-07-15T16:00:48.4771472+02:00",
-  "ClosedAt": "1998-01-27T16:00:48.4771472+01:00",
-  "RepliedAt": "2016-04-18T16:00:48.4771472+02:00",
-  "AlertTimeout": "2017-12-30T16:00:48.4771472+01:00",
-  "Deadline": "2020-03-06T16:00:48.4771472+01:00",
+  "TicketId": 996,
+  "Title": "id",
+  "CreatedAt": "1999-11-02T03:31:32.9594383+01:00",
+  "LastChanged": "2016-04-03T03:31:32.9594383+02:00",
+  "ReadByOwner": "2007-11-18T03:31:32.9594383+01:00",
+  "ReadByCustomer": "2012-10-26T03:31:32.9594383+02:00",
+  "FirstReadByOwner": "2007-05-11T03:31:32.9594383+02:00",
+  "FirstReadByUser": "2004-11-12T03:31:32.9594383+01:00",
+  "Activate": "1998-08-21T03:31:32.9594383+02:00",
+  "ClosedAt": "2006-06-21T03:31:32.9594383+02:00",
+  "RepliedAt": "2009-12-27T03:31:32.9594383+01:00",
+  "AlertTimeout": "2019-05-20T03:31:32.9594383+02:00",
+  "Deadline": "2009-12-14T03:31:32.9594383+01:00",
   "CreatedBy": null,
-  "Author": "natus",
+  "Author": "error",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -146,159 +147,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "tempore",
-      "PersonId": 766,
-      "Mrmrs": "voluptate",
-      "Firstname": "Carli",
-      "Lastname": "Reichert",
-      "MiddleName": "Olson-Ebert",
-      "Title": "fuga",
-      "Description": "Decentralized systematic process improvement",
-      "Email": "addison@robel.co.uk",
-      "FullName": "Cassandra Pfannerstill DDS",
-      "DirectPhone": "564-720-4271 x98308",
-      "FormalName": "Zieme, Legros and Durgan",
-      "CountryId": 264,
-      "ContactId": 821,
-      "ContactName": "Parker, Senger and Dibbert",
-      "Retired": 865,
-      "Rank": 440,
-      "ActiveInterests": 129,
+      "Position": "sed",
+      "PersonId": 338,
+      "Mrmrs": "ut",
+      "Firstname": "Lorenz",
+      "Lastname": "Cartwright",
+      "MiddleName": "Kirlin, Howe and Lebsack",
+      "Title": "sit",
+      "Description": "Switchable analyzing capacity",
+      "Email": "rae_jaskolski@bashirian.com",
+      "FullName": "Juliana Hillard West DVM",
+      "DirectPhone": "(580)944-5166",
+      "FormalName": "Ruecker Group",
+      "CountryId": 586,
+      "ContactId": 152,
+      "ContactName": "Morar Group",
+      "Retired": 339,
+      "Rank": 930,
+      "ActiveInterests": 186,
       "ContactDepartment": "",
-      "ContactCountryId": 832,
-      "ContactOrgNr": "668382",
-      "FaxPhone": "1-020-329-9892",
-      "MobilePhone": "223.043.7912 x172",
-      "ContactPhone": "1-122-638-1903 x756",
-      "AssociateName": "Schowalter Group",
-      "AssociateId": 705,
+      "ContactCountryId": 849,
+      "ContactOrgNr": "1208131",
+      "FaxPhone": "479-256-2792 x3723",
+      "MobilePhone": "(841)616-2316 x6588",
+      "ContactPhone": "1-553-772-0329 x3580",
+      "AssociateName": "Waters-Daniel",
+      "AssociateId": 828,
       "UsePersonAddress": false,
-      "ContactFax": "aperiam",
-      "Kanafname": "animi",
-      "Kanalname": "nostrum",
-      "Post1": "ipsum",
-      "Post2": "numquam",
-      "Post3": "itaque",
-      "EmailName": "casimir@heller.name",
-      "ContactFullName": "Gerard Parisian",
-      "ActiveErpLinks": 365,
-      "TicketPriorityId": 627,
-      "SupportLanguageId": 845,
-      "SupportAssociateId": 213,
+      "ContactFax": "voluptas",
+      "Kanafname": "ab",
+      "Kanalname": "est",
+      "Post1": "sequi",
+      "Post2": "quis",
+      "Post3": "qui",
+      "EmailName": "macie.hansen@vandervort.biz",
+      "ContactFullName": "Prof. Ima Judah Herman",
+      "ActiveErpLinks": 17,
+      "TicketPriorityId": 809,
+      "SupportLanguageId": 673,
+      "SupportAssociateId": 258,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 251
+          "FieldType": "System.Int32",
+          "FieldLength": 841
         }
       }
     }
   ],
-  "AlertLevel": 495,
-  "ConnectId": 944,
+  "AlertLevel": 896,
+  "ConnectId": 52,
   "ReadStatus": "Green",
-  "TimeToReply": 26,
-  "RealTimeToReply": 413,
-  "TimeToClose": 675,
-  "RealTimeToClose": 915,
-  "TimeSpentInternally": 974,
-  "TimeSpentExternally": 917,
-  "TimeSpentQueue": 435,
-  "RealTimeSpentInternally": 906,
-  "RealTimeSpentExternally": 248,
-  "RealTimeSpentQueue": 211,
-  "HasAttachment": false,
-  "NumReplies": 109,
-  "NumMessages": 475,
-  "FromAddress": "ducimus",
+  "TimeToReply": 303,
+  "RealTimeToReply": 330,
+  "TimeToClose": 628,
+  "RealTimeToClose": 574,
+  "TimeSpentInternally": 91,
+  "TimeSpentExternally": 47,
+  "TimeSpentQueue": 536,
+  "RealTimeSpentInternally": 49,
+  "RealTimeSpentExternally": 113,
+  "RealTimeSpentQueue": 47,
+  "HasAttachment": true,
+  "NumReplies": 674,
+  "NumMessages": 151,
+  "FromAddress": "dicta",
   "Messages": [
     {
-      "TicketMessageId": 540,
-      "CreatedAt": "2002-06-13T16:00:48.4771472+02:00",
+      "TicketMessageId": 915,
+      "CreatedAt": "1999-08-29T03:31:32.9750561+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "sit",
-      "PersonId": 714,
-      "PersonFullName": "Mrs. Ray Hackett",
-      "ContactId": 74,
-      "ContactName": "Tromp Inc and Sons",
+      "Author": "veniam",
+      "PersonId": 319,
+      "PersonFullName": "Miss Glen Kautzer",
+      "ContactId": 682,
+      "ContactName": "Konopelski-Rau",
       "ContactDepartment": "",
-      "NumAttachments": 963,
-      "EmailHeader": "estefania@keeblernader.co.uk",
+      "NumAttachments": 780,
+      "EmailHeader": "elmore_mertz@mccullough.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
       "Language": "qui",
-      "Sentiment": 568,
-      "SentimentConfidence": 768,
-      "CreatedBy": 672,
-      "ChangedAt": "2008-11-20T16:00:48.4771472+01:00",
+      "Sentiment": 494,
+      "SentimentConfidence": 99,
+      "CreatedBy": 803,
+      "ChangedAt": "2003-04-08T03:31:32.9750561+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 507
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 861,
-      "Name": "Kassulke LLC",
-      "ToolTip": "Harum rerum.",
+      "Id": 272,
+      "Name": "Schinner Group",
+      "ToolTip": "Ea fuga.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 186
         }
       }
     },
     {
-      "Id": 861,
-      "Name": "Kassulke LLC",
-      "ToolTip": "Harum rerum.",
+      "Id": 272,
+      "Name": "Schinner Group",
+      "ToolTip": "Ea fuga.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 186
         }
       }
     }
   ],
-  "Language": "perferendis",
-  "Sentiment": 197,
-  "SentimentConfidence": 715,
-  "SuggestedCategoryId": 622,
+  "Language": "sit",
+  "Sentiment": 141,
+  "SentimentConfidence": 785,
+  "SuggestedCategoryId": 937,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 670,
-  "IconHint": "similique",
+  "OrigHumanCategoryId": 350,
+  "IconHint": "libero",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "consequuntur"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "tenetur"
+    "CustomFields1": "ea",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

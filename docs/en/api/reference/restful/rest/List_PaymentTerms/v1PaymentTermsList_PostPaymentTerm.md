@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 364,
-  "Name": "Swift Group",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "UdListDefinitionId": 568,
-  "Rank": 496
+  "Id": 177,
+  "Name": "Corwin, Donnelly and Donnelly",
+  "Tooltip": "dicta",
+  "Deleted": true,
+  "UdListDefinitionId": 166,
+  "Rank": 2
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Hermiston Inc and Sons",
-  "Tooltip": "repudiandae",
+  "Id": 469,
+  "Name": "Gutkowski-Feeney",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "UdListDefinitionId": 694,
-  "Rank": 779,
+  "UdListDefinitionId": 409,
+  "Rank": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 696
     }
   }
 }

@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 945,
-  "ParentId": 832,
-  "Name": "Orn, Stiedemann and Abernathy",
-  "Fullname": "ex",
-  "CategoryMaster": 542,
+  "TicketCategoryId": 734,
+  "ParentId": 167,
+  "Name": "Fadel-Jerde",
+  "Fullname": "dolorem",
+  "CategoryMaster": 740,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Klocko, Koelpin and Lindgren",
+  "ExternalName": "Larkin Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 579,
-  "ReplyTemplate": 585,
-  "NotificationEmail": "hudson@pouros.uk",
+  "AssignmentLag": 602,
+  "ReplyTemplate": 194,
+  "NotificationEmail": "raquel_koch@bogan.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 536,
+  "EffectiveReplyTemplateId": 716,
   "ExtraFields": {
-    "ExtraFields1": "porro",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "sequi"
+    "CustomFields1": "provident",
+    "CustomFields2": "vel"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 757,
-  "ParentId": 400,
-  "Name": "Hoeger, Herman and Nitzsche",
-  "Fullname": "omnis",
-  "CategoryMaster": 900,
+  "TicketCategoryId": 840,
+  "ParentId": 8,
+  "Name": "Dach Group",
+  "Fullname": "magni",
+  "CategoryMaster": 760,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Becker-Kuhn",
+  "ExternalName": "Hilll, Mueller and Bogisich",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 799,
-  "ReplyTemplate": 607,
-  "NotificationEmail": "julian@quitzon.info",
+  "AssignmentLag": 215,
+  "ReplyTemplate": 812,
+  "NotificationEmail": "rickey@abbott.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 164,
+  "EffectiveReplyTemplateId": 78,
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "atque"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "fugit"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "nulla"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

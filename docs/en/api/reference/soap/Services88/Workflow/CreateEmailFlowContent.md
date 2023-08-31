@@ -39,6 +39,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Workflow:Credentials>
  <SOAP-ENV:Body>
    <Workflow:CreateEmailFlowContent>
+    <Workflow:EmailFlowId xsi:type="xsd:int">0</Workflow:EmailFlowId>
     <Workflow:ContentName xsi:type="xsd:string"></Workflow:ContentName>
    </Workflow:CreateEmailFlowContent>
 

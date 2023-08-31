@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Hyatt, Schaden and Tromp",
-    "ToolTip": "Nobis odit veritatis dolorem quia accusamus.",
+    "Id": 871,
+    "Name": "White, Beer and Kunde",
+    "ToolTip": "Ea eveniet labore culpa asperiores molestias corporis.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "mollitia",
-    "ColorBlock": 702,
-    "IconHint": "commodi",
+    "Rank": 864,
+    "Type": "sit",
+    "ColorBlock": 991,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "1998-06-18T16:00:48.9770869+02:00",
+    "LastChanged": "2021-08-16T03:31:33.5698483+02:00",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Hintz-Jenkins",
-        "ToolTip": "Explicabo id suscipit odio quae similique velit.",
+        "Id": 666,
+        "Name": "Bins-Altenwerth",
+        "ToolTip": "Nulla et ut.",
         "Deleted": false,
-        "Rank": 171,
-        "Type": "eaque",
-        "ColorBlock": 440,
-        "IconHint": "magnam",
+        "Rank": 411,
+        "Type": "ratione",
+        "ColorBlock": 747,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2013-01-16T16:00:48.9770869+01:00",
+        "LastChanged": "2020-06-24T03:31:33.5698483+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "laborum",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Ms. Landen Darrin Gleichner",
+        "FullName": "Carlie Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 990
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "nihil",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "necessitatibus",
     "Hidden": true,
-    "FullName": "Mary Sauer",
+    "FullName": "Mrs. Cole Javon Breitenberg V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 873
       }
     }
   }

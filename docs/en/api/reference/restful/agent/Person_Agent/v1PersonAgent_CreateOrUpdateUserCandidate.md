@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 774,
-  "Username": "soluta",
-  "AccessAllRequests": true
+  "PersonId": 546,
+  "Username": "voluptate",
+  "AccessAllRequests": false
 }
 ```
 
@@ -97,16 +97,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 822,
-  "PersonId": 480,
-  "SecretKey": "numquam",
-  "SecretValue": "dolorem",
+  "UserCandidateId": 478,
+  "PersonId": 927,
+  "SecretKey": "non",
+  "SecretValue": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 331
     }
   }
 }

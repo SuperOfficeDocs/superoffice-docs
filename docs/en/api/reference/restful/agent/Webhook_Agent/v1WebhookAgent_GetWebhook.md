@@ -28,7 +28,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=53
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=450
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -65,13 +65,14 @@ OK
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 
 ## Sample request
 
@@ -89,26 +90,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 999,
-  "Name": "Goldner Group",
+  "WebhookId": 593,
+  "Name": "Hamill LLC",
   "Events": [
-    "repudiandae",
-    "ratione"
+    "dolores",
+    "vel"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolor",
+  "Secret": "ullam",
   "State": "Active",
-  "Type": "itaque",
+  "Type": "porro",
   "Headers": {
-    "Headers1": "illum",
-    "Headers2": "perferendis"
+    "Headers1": "qui",
+    "Headers2": "modi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1996-11-23T16:00:42.4143588+01:00",
+  "Registered": "2021-04-07T03:31:27.841573+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-04-02T16:00:42.4143588+02:00",
-  "UpdatedAssociate": null
+  "Updated": "2004-06-06T03:31:27.841573+02:00",
+  "UpdatedAssociate": null,
+  "ErrorsEmail": "alden@auer.uk"
 }
 ```

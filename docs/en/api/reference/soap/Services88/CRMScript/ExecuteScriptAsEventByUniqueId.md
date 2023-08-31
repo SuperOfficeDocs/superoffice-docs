@@ -64,6 +64,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       </CRMScript:StringKeyValuePair>
      </CRMScript:StateValues>
      <CRMScript:Exception xsi:type="xsd:string"></CRMScript:Exception>
+     <CRMScript:ParserValues xsi:type="CRMScript:StringDictionary">
+      <CRMScript:StringKeyValuePair>
+       <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+      </CRMScript:StringKeyValuePair>
+     </CRMScript:ParserValues>
     </CRMScript:EventData>
    </CRMScript:ExecuteScriptAsEventByUniqueId>
 
@@ -111,6 +117,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      </CRMScript:StringKeyValuePair>
     </CRMScript:StateValues>
     <CRMScript:Exception xsi:type="xsd:string"></CRMScript:Exception>
+    <CRMScript:ParserValues xsi:type="CRMScript:StringDictionary">
+     <CRMScript:StringKeyValuePair>
+      <CRMScript:Key xsi:type="xsd:string"></CRMScript:Key>
+      <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
+     </CRMScript:StringKeyValuePair>
+    </CRMScript:ParserValues>
    </CRMScript:Response>
   </CRMScript:ExecuteScriptAsEventByUniqueIdResponse>
  </SOAP-ENV:Body>

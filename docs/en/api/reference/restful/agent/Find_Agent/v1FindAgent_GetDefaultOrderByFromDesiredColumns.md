@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Heidenreich, Dietrich and Emmerich",
+  "ProviderName": "Willms-Turcotte",
   "DesiredColumns": [
-    "repellat",
-    "iure"
+    "ullam",
+    "quis"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stracke-Lockman",
+    "Name": "Satterfield-Nader",
     "Direction": "ASC"
   },
   {
-    "Name": "Stracke-Lockman",
+    "Name": "Satterfield-Nader",
     "Direction": "ASC"
   }
 ]

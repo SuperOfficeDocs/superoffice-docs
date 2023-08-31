@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 38,
-  "ERPProductKey": "sed",
-  "ERPPriceListKey": "reprehenderit",
-  "Name": "Krajcik, Breitenberg and Ankunding",
-  "Description": "Reverse-engineered systemic superstructure",
-  "Code": "aliquam",
-  "PriceUnit": "deleniti",
-  "QuantityUnit": "sapiente",
+  "ProductId": 78,
+  "ERPProductKey": "atque",
+  "ERPPriceListKey": "nihil",
+  "Name": "Stokes, Wiegand and Schumm",
+  "Description": "Reverse-engineered grid-enabled definition",
+  "Code": "recusandae",
+  "PriceUnit": "voluptas",
+  "QuantityUnit": "mollitia",
   "IsSubscription": false,
-  "SubscriptionUnit": "ex",
-  "DefaultSubscriptionQuantity": 28491.194,
-  "ItemNumber": "1240315",
+  "SubscriptionUnit": "eum",
+  "DefaultSubscriptionQuantity": 25908.778,
+  "ItemNumber": "1424840",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "recusandae",
-  "ProductTypeKey": "quibusdam",
-  "VAT": 22542.862,
-  "VATInfo": "et",
-  "UnitCost": 2162.46,
-  "UnitMinimumPrice": 8339.574,
-  "UnitListPrice": 11536.253999999999,
-  "InAssortment": true,
-  "Supplier": "temporibus",
-  "SupplierCode": "animi",
-  "Rights": "et",
-  "Rule": "et",
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "ab",
+  "VAT": 14820.686,
+  "VATInfo": "assumenda",
+  "UnitCost": 25636.12,
+  "UnitMinimumPrice": 6615.874,
+  "UnitListPrice": 14168.814,
+  "InAssortment": false,
+  "Supplier": "fuga",
+  "SupplierCode": "doloremque",
+  "Rights": "a",
+  "Rule": "enim",
   "ExtraInfo": [
     {
-      "Name": "Mosciski-Von",
-      "Value": "est",
+      "Name": "Metz-Schneider",
+      "Value": "voluptate",
       "Type": "Image"
     },
     {
-      "Name": "Mosciski-Von",
-      "Value": "est",
+      "Name": "Metz-Schneider",
+      "Value": "voluptate",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "quia",
-  "ExtraField2": "et",
-  "ExtraField3": "nisi",
-  "ExtraField4": "sequi",
-  "ExtraField5": "labore",
-  "InStock": 14579.368
+  "RawExtraInfo": "odit",
+  "ExtraField1": "dolorum",
+  "ExtraField2": "cum",
+  "ExtraField3": "quod",
+  "ExtraField4": "distinctio",
+  "ExtraField5": "incidunt",
+  "InStock": 24432.664
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 250,
-  "ERPProductKey": "consequatur",
-  "ERPPriceListKey": "minima",
-  "Name": "Gibson-Marks",
-  "Description": "Customizable optimizing forecast",
-  "Code": "repellat",
-  "PriceUnit": "rem",
-  "QuantityUnit": "amet",
-  "IsSubscription": false,
-  "SubscriptionUnit": "consequuntur",
-  "DefaultSubscriptionQuantity": 8095.1219999999994,
-  "ItemNumber": "1181284",
+  "ProductId": 668,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "quibusdam",
+  "Name": "Beer, Nicolas and Hammes",
+  "Description": "Multi-layered interactive structure",
+  "Code": "animi",
+  "PriceUnit": "earum",
+  "QuantityUnit": "mollitia",
+  "IsSubscription": true,
+  "SubscriptionUnit": "commodi",
+  "DefaultSubscriptionQuantity": 15400.475999999999,
+  "ItemNumber": "1212992",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "sapiente",
-  "VAT": 3337.71,
-  "VATInfo": "doloremque",
-  "UnitCost": 26933.595999999998,
-  "UnitMinimumPrice": 3698.12,
-  "UnitListPrice": 2808.064,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "mollitia",
+  "VAT": 15619.856,
+  "VATInfo": "beatae",
+  "UnitCost": 15052.601999999999,
+  "UnitMinimumPrice": 18117.654,
+  "UnitListPrice": 29888.958,
   "InAssortment": false,
-  "Supplier": "dolor",
-  "SupplierCode": "ea",
-  "Rights": "sed",
-  "Rule": "facilis",
+  "Supplier": "autem",
+  "SupplierCode": "ad",
+  "Rights": "et",
+  "Rule": "non",
   "ExtraInfo": [
     {
-      "Name": "Collier Inc and Sons",
-      "Value": "ipsa",
+      "Name": "Reichert Group",
+      "Value": "exercitationem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 576
+          "FieldLength": 105
         }
       }
     },
     {
-      "Name": "Collier Inc and Sons",
-      "Value": "ipsa",
+      "Name": "Reichert Group",
+      "Value": "exercitationem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 576
+          "FieldLength": 105
         }
       }
     }
   ],
-  "RawExtraInfo": "alias",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "ad",
-  "ExtraField3": "aut",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "omnis",
-  "InStock": 11755.634,
+  "RawExtraInfo": "nam",
+  "ExtraField1": "qui",
+  "ExtraField2": "facilis",
+  "ExtraField3": "vel",
+  "ExtraField4": "excepturi",
+  "ExtraField5": "magni",
+  "InStock": 20023.126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 457
     }
   }
 }

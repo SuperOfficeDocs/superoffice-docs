@@ -73,13 +73,14 @@ OK
 | TargetUrl | string | Destination to POST event info to. URL for webhooks. Id for CRM scripts |
 | Secret | string | Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server |
 | State | string | Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors |
-| Type | string | Name of plugin that handles this webhook. 'webhook' for webhooks, which are handled by the system plugin. |
+| Type | string | Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations. |
 | Headers | object | Custom HTTP Headers to add to webhook requests. |
 | Properties | object | Custom values to inject into JSON body of webhook call. |
 | Registered | date-time | Registered when  in UTC. |
 | RegisteredAssociate | Associate | The user that created the webhook. |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociate | Associate | The user that last updated the webhook. |
+| ErrorsEmail | string | Email address to send error message to when this webhook state changes to too-many errors. |
 
 ## Sample request
 
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Lowe-Schulist",
-  "EventFilter": "dolorem",
+  "NameFilter": "Bradtke-Hayes",
+  "EventFilter": "ducimus",
   "StatusFilter": "Active"
 }
 ```
@@ -105,27 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 856,
-    "Name": "Farrell Group",
+    "WebhookId": 236,
+    "Name": "Gaylord, Paucek and Brekke",
     "Events": [
-      "nihil",
-      "aliquid"
+      "non",
+      "omnis"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "quod",
+    "Secret": "repellat",
     "State": "Active",
-    "Type": "sit",
+    "Type": "qui",
     "Headers": {
-      "Headers1": "error",
-      "Headers2": "rerum"
+      "Headers1": "modi",
+      "Headers2": "voluptatibus"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2007-10-29T16:00:42.4143588+01:00",
+    "Registered": "1996-08-28T03:31:27.8571972+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2001-02-02T16:00:42.4143588+01:00",
-    "UpdatedAssociate": null
+    "Updated": "2017-07-18T03:31:27.8571972+02:00",
+    "UpdatedAssociate": null,
+    "ErrorsEmail": "issac@hagenes.us"
   }
 ]
 ```

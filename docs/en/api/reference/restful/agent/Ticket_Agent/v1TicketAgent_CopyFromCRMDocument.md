@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 619
+  "DocumentId": 296
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 430,
-  "Name": "Brown-Muller",
-  "ContentType": "illo",
-  "AttSize": 71,
-  "InlineImage": false,
-  "ContentId": "eligendi",
-  "AuthKey": "porro",
+  "AttachmentId": 356,
+  "Name": "Abbott Group",
+  "ContentType": "ex",
+  "AttSize": 207,
+  "InlineImage": true,
+  "ContentId": "et",
+  "AuthKey": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 597
+      "FieldType": "System.Int32",
+      "FieldLength": 829
     }
   }
 }

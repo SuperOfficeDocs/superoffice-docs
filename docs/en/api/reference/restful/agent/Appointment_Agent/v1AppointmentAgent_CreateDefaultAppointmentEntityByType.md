@@ -10,7 +10,7 @@ generated: true
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 ```
 
-Creates a AppointmentEntity populated with the default values for the specific type.
+Creates an AppointmentEntity populated with the default values for the specific type.
 
 
 
@@ -130,7 +130,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -149,63 +149,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-07-28T16:00:39.8519768+02:00",
-  "AppointmentId": 97,
-  "Description": "User-centric system-worthy projection",
-  "StartDate": "2007-03-21T16:00:39.8519768+01:00",
-  "EndDate": "1996-11-30T16:00:39.8519768+01:00",
+  "CreatedDate": "2011-01-06T03:31:25.2266889+01:00",
+  "AppointmentId": 88,
+  "Description": "Robust attitude-oriented process improvement",
+  "StartDate": "2005-08-31T03:31:25.2266889+02:00",
+  "EndDate": "2005-02-18T03:31:25.2266889+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 806,
+  "MotherId": 184,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-12-25T16:00:39.8675965+01:00",
+  "UpdatedDate": "1997-07-11T03:31:25.2266889+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 106,
+  "ActiveLinks": 199,
   "Links": [
     {
-      "EntityName": "Friesen Inc and Sons",
-      "Id": 118,
-      "Description": "Diverse fault-tolerant superstructure",
-      "ExtraInfo": "est",
-      "LinkId": 273,
+      "EntityName": "Hamill, Stanton and Witting",
+      "Id": 247,
+      "Description": "Virtual coherent open architecture",
+      "ExtraInfo": "nam",
+      "LinkId": 668,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 938
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptate",
+  "AlarmLeadTime": "veritatis",
   "HasAlarm": false,
-  "ColorIndex": 746,
+  "ColorIndex": 243,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "exercitationem",
-  "LeadTime": "vitae",
-  "Location": "quia",
-  "RejectCounter": 654,
+  "IsAlldayEvent": true,
+  "LagTime": "atque",
+  "LeadTime": "quo",
+  "Location": "est",
+  "RejectCounter": 874,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 753,
-      "PersonId": 905,
-      "ContactId": 695,
-      "EmailId": 36,
+      "AssociateId": 112,
+      "PersonId": 703,
+      "ContactId": 649,
+      "EmailId": 831,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 753,
-      "PersonId": 905,
-      "ContactId": 695,
-      "EmailId": 36,
+      "AssociateId": 112,
+      "PersonId": 703,
+      "ContactId": 649,
+      "EmailId": 831,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -213,61 +213,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-09-09T16:00:39.8675965+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2009-09-10T03:31:25.2266889+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 300,
+  "PreferredTZLocation": 286,
   "Sale": null,
-  "SuggestedAppointmentId": 933,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 587,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "asperiores",
-  "Title": "corrupti",
-  "Agenda": "voluptatem",
-  "InternalNotes": "nulla",
+  "CentralserviceVideomeetId": "in",
+  "Title": "numquam",
+  "Agenda": "facilis",
+  "InternalNotes": "officia",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Mercedes Henriette Berge I",
-    "SuperOffice:2": "Jensen Padberg"
+    "SuperOffice:1": "Drake Welch",
+    "SuperOffice:2": "Else Simonis"
   },
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "natus"
+    "CustomFields1": "magni",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2010-05-10T16:00:39.8675965+02:00",
-  "PublishTo": "2004-02-06T16:00:39.8675965+01:00",
-  "PublishFrom": "2023-05-18T16:00:39.8675965+02:00",
+  "PublishEventDate": "2019-05-15T03:31:25.2266889+02:00",
+  "PublishTo": "2021-05-08T03:31:25.2266889+02:00",
+  "PublishFrom": "2001-10-25T03:31:25.2266889+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 510,
+      "VisibleId": 987,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 24
         }
       }
     },
     {
-      "VisibleId": 510,
+      "VisibleId": 987,
       "Visibility": "All",
-      "DisplayValue": "pariatur",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 24
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 636
     }
   }
 }

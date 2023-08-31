@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 690,
-    "Name": "Sauer-Jewess",
-    "Description": "Diverse stable hardware",
+    "ProjectId": 316,
+    "Name": "Daniel LLC",
+    "Description": "Function-based bottom-line installation",
     "URL": "http://www.example.com/",
-    "Type": "consequuntur",
-    "AssociateId": 605,
-    "AssociateFullName": "Twila Riley Friesen MD",
-    "TypeId": 229,
-    "Updated": "2023-05-18T16:00:41.5707037+02:00",
-    "StatusId": 392,
-    "Status": "et",
-    "TextId": 610,
-    "PublishTo": "1997-05-22T16:00:41.5707037+02:00",
-    "PublishFrom": "2005-11-28T16:00:41.5707037+01:00",
+    "Type": "deleniti",
+    "AssociateId": 267,
+    "AssociateFullName": "Rebeca Cassin",
+    "TypeId": 217,
+    "Updated": "2022-07-19T03:31:27.0268433+02:00",
+    "StatusId": 183,
+    "Status": "esse",
+    "TextId": 704,
+    "PublishTo": "1997-10-27T03:31:27.0268433+01:00",
+    "PublishFrom": "2005-06-28T03:31:27.0268433+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "945531",
-    "ActiveErpLinks": 215,
+    "ProjectNumber": "1235955",
+    "ActiveErpLinks": 829,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldType": "System.String",
+        "FieldLength": 124
       }
     }
   }

@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": true,
-  "OnlyPresent": true
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Flatley-McClure",
-    "ToolTip": "Rerum corporis qui iure earum non.",
+    "Id": 641,
+    "Name": "Rice LLC",
+    "ToolTip": "Sint excepturi nobis aut quia.",
     "Deleted": true,
-    "Rank": 657,
-    "Type": "culpa",
+    "Rank": 265,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Jaskolski-Stracke",
-        "ToolTip": "Ut sint molestiae et error eos aperiam.",
-        "Deleted": false,
-        "Rank": 808,
-        "Type": "voluptatem",
+        "Id": 374,
+        "Name": "Ankunding Group",
+        "ToolTip": "Qui officiis possimus voluptate voluptatem quia.",
+        "Deleted": true,
+        "Rank": 355,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 409,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "earum",
-        "FullName": "Ms. Ocie Cummerata II",
+        "IconHint": "et",
+        "ColorBlock": 550,
+        "ExtraInfo": "ullam",
+        "StyleHint": "repudiandae",
+        "FullName": "Susana Raynor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 496
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 529,
-    "ExtraInfo": "ut",
-    "StyleHint": "similique",
-    "FullName": "Zaria Josiane Stoltenberg V",
+    "IconHint": "et",
+    "ColorBlock": 736,
+    "ExtraInfo": "autem",
+    "StyleHint": "ex",
+    "FullName": "Susana Fahey IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

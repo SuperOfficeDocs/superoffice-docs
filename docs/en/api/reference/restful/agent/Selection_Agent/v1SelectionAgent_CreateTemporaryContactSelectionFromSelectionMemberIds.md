@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 315,
+  "SelectionId": 195,
   "SelectionMemberIds": [
-    26,
-    375
+    167,
+    889
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive full-range core",
-  "Postit": "nihil",
+  "Description": "Configurable optimizing website",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 162,
-  "IncludePerson": 899,
-  "MemberCount": 694,
-  "Name": "Keeling, Johnson and Quitzon",
-  "PostitTextId": 874,
-  "CreatedDate": "2011-08-10T16:00:41.8519261+02:00",
-  "SelectionId": 840,
-  "SoundEx": "temporibus",
-  "Source": 739,
-  "TextId": 222,
-  "UpdatedDate": "2011-03-28T16:00:41.8519261+02:00",
-  "UpdatedCount": 245,
-  "Visibility": 615,
+  "GroupIdx": 578,
+  "IncludePerson": 168,
+  "MemberCount": 866,
+  "Name": "O'Keefe, Torphy and Heathcote",
+  "PostitTextId": 293,
+  "CreatedDate": "2015-01-17T03:31:27.2624464+01:00",
+  "SelectionId": 992,
+  "SoundEx": "molestiae",
+  "Source": 707,
+  "TextId": 424,
+  "UpdatedDate": "2014-01-25T03:31:27.2624464+01:00",
+  "UpdatedCount": 665,
+  "Visibility": 378,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 78,
-  "TargetTableName": "Conroy Group",
-  "Completed": false,
-  "LeftSelectionId": 679,
-  "RightSelectionId": 628,
+  "CompanyUnique": false,
+  "TargetTableNumber": 564,
+  "TargetTableName": "Klein Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 51,
+  "RightSelectionId": 36,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ward, Predovic and Schuster",
-  "ShadowProviderName": "Kling-Rowe",
-  "ChartKey": "dolore",
-  "LastLoaded": "2006-04-25T16:00:41.8519261+02:00",
-  "LastLoadedBy": 384,
+  "MainProviderName": "Kulas, Stamm and Zieme",
+  "ShadowProviderName": "Block-Stark",
+  "ChartKey": "quo",
+  "LastLoaded": "1999-06-02T03:31:27.2624464+02:00",
+  "LastLoadedBy": 52,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-08-02T16:00:41.8519261+02:00",
-  "LastMembershipChangeBy": 308,
+  "LastMembershipChange": "2003-01-02T03:31:27.2624464+01:00",
+  "LastMembershipChangeBy": 942,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Parker, Effertz and Will",
-  "DashboardTileDefinitionId": 184,
+  "MainHeading": "quo",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Crooks-Skiles",
+  "DashboardTileDefinitionId": 545,
   "VisibleFor": [
     {
-      "VisibleId": 2,
+      "VisibleId": 438,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldType": "System.String",
+          "FieldLength": 244
         }
       }
     },
     {
-      "VisibleId": 2,
+      "VisibleId": 438,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 397
+          "FieldType": "System.String",
+          "FieldLength": 244
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   }
 }

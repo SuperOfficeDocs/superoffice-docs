@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "rerum"
+  "QuoteListType": "tenetur"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "quo",
-    "DisplayValue": "voluptatem",
-    "DisplayDescription": "Mandatory local leverage",
+    "ERPQuoteListItemKey": "vero",
+    "DisplayValue": "qui",
+    "DisplayDescription": "Realigned composite flexibility",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "quo",
-    "DisplayValue": "voluptatem",
-    "DisplayDescription": "Mandatory local leverage",
+    "ERPQuoteListItemKey": "vero",
+    "DisplayValue": "qui",
+    "DisplayDescription": "Realigned composite flexibility",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

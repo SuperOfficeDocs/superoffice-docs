@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=397
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=180
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -138,125 +138,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-12-08T16:00:39.8363495+01:00",
-  "AppointmentId": 149,
-  "Description": "Monitored fresh-thinking firmware",
-  "StartDate": "1997-08-18T16:00:39.8363495+02:00",
-  "EndDate": "2018-03-03T16:00:39.8363495+01:00",
+  "CreatedDate": "2004-06-09T03:31:25.2110479+02:00",
+  "AppointmentId": 213,
+  "Description": "Synchronised coherent support",
+  "StartDate": "2019-09-14T03:31:25.2110479+02:00",
+  "EndDate": "1997-05-06T03:31:25.2110479+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 335,
+  "MotherId": 840,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-09-28T16:00:39.8519768+02:00",
+  "UpdatedDate": "2010-07-27T03:31:25.2110479+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 388,
+  "ActiveLinks": 23,
   "Links": [
     {
-      "EntityName": "Kassulke, Johnston and Jakubowski",
-      "Id": 846,
-      "Description": "Vision-oriented global array",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 326,
+      "EntityName": "Weissnat, Corkery and Larson",
+      "Id": 89,
+      "Description": "Balanced uniform orchestration",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 129,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
   ],
-  "AlarmLeadTime": "blanditiis",
+  "AlarmLeadTime": "numquam",
   "HasAlarm": true,
-  "ColorIndex": 779,
-  "IsFree": true,
+  "ColorIndex": 87,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "aut",
-  "Location": "atque",
-  "RejectCounter": 456,
+  "LagTime": "impedit",
+  "LeadTime": "autem",
+  "Location": "fugiat",
+  "RejectCounter": 795,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 922,
-      "PersonId": 695,
-      "ContactId": 806,
-      "EmailId": 828,
-      "SendEmail": true,
+      "AssociateId": 713,
+      "PersonId": 445,
+      "ContactId": 352,
+      "EmailId": 384,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 922,
-      "PersonId": 695,
-      "ContactId": 806,
-      "EmailId": 828,
-      "SendEmail": true,
+      "AssociateId": 713,
+      "PersonId": 445,
+      "ContactId": 352,
+      "EmailId": 384,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-11-17T16:00:39.8519768+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-10-01T03:31:25.2110479+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 604,
+  "PreferredTZLocation": 114,
   "Sale": null,
-  "SuggestedAppointmentId": 555,
+  "SuggestedAppointmentId": 694,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aut",
-  "Title": "ut",
-  "Agenda": "quo",
+  "CentralserviceVideomeetId": "quia",
+  "Title": "optio",
+  "Agenda": "hic",
   "InternalNotes": "doloribus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ashton Haag PhD",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Cooper Von",
+    "SuperOffice:2": "Baby Becker IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "et"
+    "CustomFields1": "nisi",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "2022-05-11T16:00:39.8519768+02:00",
-  "PublishTo": "2017-11-23T16:00:39.8519768+01:00",
-  "PublishFrom": "2019-12-13T16:00:39.8519768+01:00",
+  "PublishEventDate": "2012-09-14T03:31:25.2110479+02:00",
+  "PublishTo": "2002-10-19T03:31:25.2110479+02:00",
+  "PublishFrom": "2008-02-19T03:31:25.2110479+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 169,
+      "VisibleId": 655,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     },
     {
-      "VisibleId": 169,
+      "VisibleId": 655,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 790
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 37
     }
   }
 }

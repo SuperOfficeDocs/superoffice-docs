@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Hickle LLC",
-    "ToolTip": "Enim sunt maxime eos sint reprehenderit.",
-    "Deleted": true,
-    "Rank": 668,
-    "Type": "consequuntur",
-    "ColorBlock": 317,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "2021-01-08T16:00:42.3206172+01:00",
+    "Id": 327,
+    "Name": "O'Keefe-Fahey",
+    "ToolTip": "Perspiciatis officiis qui voluptas explicabo quis.",
+    "Deleted": false,
+    "Rank": 118,
+    "Type": "est",
+    "ColorBlock": 933,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2005-10-02T03:31:27.7634711+02:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Lockman-Hane",
-        "ToolTip": "Nam qui animi qui ad sint autem.",
-        "Deleted": false,
-        "Rank": 511,
-        "Type": "ut",
-        "ColorBlock": 212,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "1996-09-20T16:00:42.3206172+02:00",
+        "Id": 701,
+        "Name": "Wiza-Baumbach",
+        "ToolTip": "Quia laudantium eum quibusdam dolore.",
+        "Deleted": true,
+        "Rank": 694,
+        "Type": "eligendi",
+        "ColorBlock": 79,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2003-10-07T03:31:27.7634711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Rafael Nitzsche",
+        "ExtraInfo": "quia",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Lilla Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 304
+            "FieldType": "System.Int32",
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "vitae",
+    "ExtraInfo": "velit",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Miss Nicolette Rippin",
+    "FullName": "Jessica Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 584
+        "FieldLength": 552
       }
     }
   }

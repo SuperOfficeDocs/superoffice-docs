@@ -79,29 +79,29 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "non",
-      "ValueType": "labore",
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": true,
+      "IsActive": false,
+      "Key": "fuga",
+      "ValueType": "quo",
       "Mandatory": false,
-      "EncodedDisplayName": "Hayes-Schiller",
-      "EncodedDisplayDescription": "Decentralized attitude-oriented matrices",
-      "IconHint": "ut",
+      "EncodedDisplayName": "Koch, McLaughlin and Champlin",
+      "EncodedDisplayDescription": "Automated 6th generation circuit",
+      "IconHint": "earum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "ab",
-      "EncodedDataCaptionDescription": "Synergistic disintermediate alliance",
-      "CurrentOperationType": "voluptate",
+      "EncodedDataCaption": "laboriosam",
+      "EncodedDataCaptionDescription": "Implemented clear-thinking open architecture",
+      "CurrentOperationType": "voluptas",
       "Values": [
-        "omnis",
-        "tempora"
+        "autem",
+        "itaque"
       ],
       "DisplayValues": [
-        "explicabo",
-        "corrupti"
+        "reprehenderit",
+        "velit"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Johnston Group",
-  "Context": "quidem",
-  "SelectionId": 848,
+  "TableName": "McGlynn, Kovacek and Keeling",
+  "Context": "praesentium",
+  "SelectionId": 889,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-229
+522
 ```

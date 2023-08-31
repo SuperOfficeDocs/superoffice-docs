@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 312,
-  "TopicId": 405,
+  "ChatSessionId": 994,
+  "TopicId": 82,
   "User": null,
   "Person": null,
-  "CustomerAlias": "facilis",
-  "CustomerHost": "in",
-  "CustomerName": "Bergstrom Group",
-  "CustomerEmail": "eino@schultz.uk",
-  "CustomerPhone": "474-460-4887 x690",
+  "CustomerAlias": "quas",
+  "CustomerHost": "praesentium",
+  "CustomerName": "Sauer-Kovacek",
+  "CustomerEmail": "lempi@brakus.co.uk",
+  "CustomerPhone": "1-282-575-7403",
   "CustomerConsented": false,
-  "CustomerCompanyName": "O'Hara LLC",
+  "CustomerCompanyName": "Streich-Boyle",
   "Status": "Closed",
-  "FirstMessage": "quae",
-  "LastMessage": "inventore",
-  "WhenRequested": "2003-01-20T16:00:47.6491111+01:00",
-  "WhenStarted": "2003-12-07T16:00:47.6491111+01:00",
-  "WhenEnded": "2022-07-26T16:00:47.6491111+02:00",
-  "WhenIdle": "2011-09-15T16:00:47.6491111+02:00",
-  "WhenFetched": "2016-04-24T16:00:47.6491111+02:00",
-  "SessionKey": "molestiae",
-  "InitialQueuePos": 488,
-  "AlertLevel": 491,
-  "Rank": 18,
+  "FirstMessage": "dolor",
+  "LastMessage": "delectus",
+  "WhenRequested": "2019-11-09T03:31:32.3477424+01:00",
+  "WhenStarted": "1998-02-24T03:31:32.3477424+01:00",
+  "WhenEnded": "2018-09-27T03:31:32.3477424+02:00",
+  "WhenIdle": "2011-11-03T03:31:32.3477424+01:00",
+  "WhenFetched": "2015-01-26T03:31:32.3477424+01:00",
+  "SessionKey": "sit",
+  "InitialQueuePos": 651,
+  "AlertLevel": 505,
+  "Rank": 613,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 758,
+  "Rating": 803,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 395
     }
   }
 }

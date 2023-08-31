@@ -90,11 +90,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Labadie, Runte and Tremblay",
-  "DeviceName": "Gerhold LLC",
-  "KeyName": "Keeling-Paucek",
-  "TableName": "Schaden-Schmitt",
-  "RecordId": 988
+  "ApplicationName": "Bashirian LLC",
+  "DeviceName": "Hudson LLC",
+  "KeyName": "Wolf Group",
+  "TableName": "Lang, Kris and Hayes",
+  "RecordId": 822
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laudantium",
-  "Value": "dolorum",
-  "RecordId": 501,
-  "CreatedDate": "2003-10-23T16:00:41.0705907+02:00",
-  "UpdatedDate": "1996-12-15T16:00:41.0705907+01:00",
-  "UpdatedBy": "itaque",
-  "CreatedBy": "nihil",
-  "TableName": "Marks-Connelly",
+  "Key": "delectus",
+  "Value": "soluta",
+  "RecordId": 802,
+  "CreatedDate": "2004-04-09T03:31:26.589451+02:00",
+  "UpdatedDate": "1997-11-08T03:31:26.589451+01:00",
+  "UpdatedBy": "eum",
+  "CreatedBy": "voluptatem",
+  "TableName": "Gulgowski, O'Connell and Rice",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 642
     }
   }
 }

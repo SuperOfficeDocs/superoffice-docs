@@ -104,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 884,
-  "Count": 29
+  "WeightedAmountLimit": 107,
+  "Count": 78
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Weimann Inc and Sons",
-    "SaleDate": "2004-05-16T16:00:41.7894273+02:00",
-    "SaleId": 888,
-    "Probability": 92,
-    "Title": "rerum",
-    "Amount": 18572.084,
-    "Currency": "nesciunt",
-    "ProjectName": "Bayer, Lockman and Lind",
-    "AssociateFullName": "Ms. Jolie Jewel Strosin IV",
-    "Description": "Customer-focused modular flexibility",
+    "ContactName": "Miller, Raynor and Ruecker",
+    "SaleDate": "1998-01-25T03:31:27.1999504+01:00",
+    "SaleId": 148,
+    "Probability": 835,
+    "Title": "est",
+    "Amount": 6512.452,
+    "Currency": "nisi",
+    "ProjectName": "Bailey, Blanda and Friesen",
+    "AssociateFullName": "Mr. Polly Cormier Sr.",
+    "Description": "Adaptive object-oriented emulation",
     "Status": "Lost",
-    "WeightedAmount": 28397.174,
-    "ProjectId": 937,
-    "EarningPercent": 13874.217999999999,
-    "Earning": 25911.912,
-    "ContactId": 444,
-    "AssociateId": 223,
-    "PersonId": 322,
-    "SaleTypeId": 658,
-    "SaleTypeName": "Bradtke, Wolf and Stamm",
-    "PersonFullName": "Ricardo Reynolds",
+    "WeightedAmount": 576.656,
+    "ProjectId": 686,
+    "EarningPercent": 27905.136,
+    "Earning": 23160.26,
+    "ContactId": 568,
+    "AssociateId": 10,
+    "PersonId": 899,
+    "SaleTypeId": 523,
+    "SaleTypeName": "Keeling, Waters and Kautzer",
+    "PersonFullName": "Josie Franecki",
     "Completed": "Completed",
-    "ActiveErpLinks": 596,
-    "NextDueDate": "2005-10-13T16:00:41.7894273+02:00",
-    "Number": "1163587",
+    "ActiveErpLinks": 730,
+    "NextDueDate": "2018-04-06T03:31:27.1999504+02:00",
+    "Number": "782841",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 889
+        "FieldLength": 454
       }
     }
   }

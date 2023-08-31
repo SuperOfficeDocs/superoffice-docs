@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 218,
-  "Name": "Emmerich, Greenfelder and Monahan",
-  "Tooltip": "id",
+  "HeadingId": 13,
+  "Name": "Zboncak-Hamill",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 782,
-  "UdListDefinitionId": 442
+  "Rank": 67,
+  "UdListDefinitionId": 120
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 42,
-  "Name": "Bednar Group",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "Rank": 436,
-  "UdListDefinitionId": 675,
+  "HeadingId": 330,
+  "Name": "Stark-Abbott",
+  "Tooltip": "pariatur",
+  "Deleted": false,
+  "Rank": 215,
+  "UdListDefinitionId": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 554
     }
   }
 }

@@ -82,10 +82,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 854,
+  "DocumentTemplateId": 46,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "rerum",
-  "PluginId": 87
+  "LanguageCode": "eos",
+  "PluginId": 537
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenfelder, Yost and Nolan",
-  "Description": "Triple-buffered next generation protocol",
-  "ExternalReference": "aut",
-  "MimeType": "sint",
-  "PluginId": 962
+  "Name": "Pacocha-Hickle",
+  "Description": "Enterprise-wide heuristic matrices",
+  "ExternalReference": "hic",
+  "MimeType": "error",
+  "PluginId": 116
 }
 ```

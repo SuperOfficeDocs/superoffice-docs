@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 216
+  "QuoteId": 460
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 433,
-  "SaleId": 105,
-  "QuoteConnectionId": 928,
-  "ERPQuoteKey": "accusantium",
-  "ERPOrderKey": "animi",
-  "ActiveQuoteVersionId": 872,
-  "AcceptedQuoteAlternativeId": 773,
-  "UseValuesFromQuote": 777,
-  "DocumentId": 100,
-  "PoNumber": "145600",
-  "OrderComment": "quis",
-  "PreferredEmailCulture": "devan_bahringer@heathcote.co.uk",
+  "QuoteId": 131,
+  "SaleId": 237,
+  "QuoteConnectionId": 952,
+  "ERPQuoteKey": "voluptate",
+  "ERPOrderKey": "quisquam",
+  "ActiveQuoteVersionId": 465,
+  "AcceptedQuoteAlternativeId": 193,
+  "UseValuesFromQuote": 636,
+  "DocumentId": 141,
+  "PoNumber": "1745547",
+  "OrderComment": "qui",
+  "PreferredEmailCulture": "berta@daugherty.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 689,
-      "ERPQuoteVersionKey": "voluptas",
-      "QuoteId": 424,
-      "Description": "Open-architected well-modulated groupware",
-      "Number": "295694",
+      "QuoteVersionId": 245,
+      "ERPQuoteVersionKey": "non",
+      "QuoteId": 161,
+      "Description": "Managed analyzing interface",
+      "Number": "251577",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 921,
-      "SentDate": "2001-03-11T16:00:41.6644415+01:00",
-      "FollowupId": 939,
-      "ExpirationDate": "2006-02-14T16:00:41.6644415+01:00",
-      "DeliveryCountryId": 494,
+      "LikelyQuoteAlternativeId": 709,
+      "SentDate": "2020-07-13T03:31:27.106235+02:00",
+      "FollowupId": 462,
+      "ExpirationDate": "1999-02-08T03:31:27.106235+01:00",
+      "DeliveryCountryId": 369,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 466,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ex",
-      "ERPPaymentTypeKey": "quidem",
-      "ERPDeliveryTermsKey": "labore",
-      "ERPDeliveryTypeKey": "voluptatem",
-      "Rank": 651,
-      "ApprovedBy": 778,
-      "ApprovedText": "aut",
-      "ApprovedRegisteredBy": 145,
-      "ApprovedRegisteredDate": "2013-11-21T16:00:41.6644415+01:00",
-      "ExtraField1": "iusto",
-      "ExtraField2": "quis",
-      "ExtraField3": "culpa",
-      "ExtraField4": "consequatur",
-      "ExtraField5": "ea",
-      "LastRecalculated": "2020-05-28T16:00:41.6644415+02:00",
-      "Updated": "2007-10-23T16:00:41.6644415+02:00",
-      "UpdatedAssociateId": 3,
-      "Registered": "2000-02-07T16:00:41.6644415+01:00",
-      "RegisteredAssociateId": 316,
-      "RequestAssociateId": 79,
-      "RequestComment": "provident",
+      "InvoiceCountryId": 120,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "quod",
+      "ERPPaymentTypeKey": "repellendus",
+      "ERPDeliveryTermsKey": "sed",
+      "ERPDeliveryTypeKey": "et",
+      "Rank": 927,
+      "ApprovedBy": 406,
+      "ApprovedText": "ea",
+      "ApprovedRegisteredBy": 296,
+      "ApprovedRegisteredDate": "2010-04-13T03:31:27.106235+02:00",
+      "ExtraField1": "beatae",
+      "ExtraField2": "nesciunt",
+      "ExtraField3": "odio",
+      "ExtraField4": "et",
+      "ExtraField5": "exercitationem",
+      "LastRecalculated": "2022-10-01T03:31:27.106235+02:00",
+      "Updated": "2010-04-26T03:31:27.106235+02:00",
+      "UpdatedAssociateId": 527,
+      "Registered": "2005-05-03T03:31:27.106235+02:00",
+      "RegisteredAssociateId": 333,
+      "RequestAssociateId": 931,
+      "RequestComment": "et",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldType": "System.String",
+          "FieldLength": 128
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   }
 }

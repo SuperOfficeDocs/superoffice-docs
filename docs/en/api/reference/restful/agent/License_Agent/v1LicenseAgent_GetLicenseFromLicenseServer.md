@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Runolfsdottir Inc and Sons"
+  "OwnerName": "Shields, Tromp and Funk"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 819,
-      "NumberOfLicensesFree": 851,
-      "NumberOfLicensesAdded": 8,
-      "NumberOfLicensesNewTotal": 44,
-      "NumberOfLicensesNewFree": 471,
-      "NumberOfLicensesTotal": 909
+      "NumberOfLicensesInUse": 644,
+      "NumberOfLicensesFree": 630,
+      "NumberOfLicensesAdded": 958,
+      "NumberOfLicensesNewTotal": 49,
+      "NumberOfLicensesNewFree": 952,
+      "NumberOfLicensesTotal": 445
     }
   ],
-  "AccumulatedNextCheckDate": "2010-06-20T16:00:41.0862117+02:00"
+  "AccumulatedNextCheckDate": "2009-11-02T03:31:26.6050723+01:00"
 }
 ```

@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 391,
-  "Name": "Smith-Mayer",
-  "Tooltip": "id",
+  "RoleId": 440,
+  "Name": "Dietrich, Rogahn and McCullough",
+  "Tooltip": "ut",
   "RoleType": "Anonymous",
-  "Deleted": 550,
-  "Rank": 798,
-  "Created": "1997-12-30T16:00:48.211547+01:00",
-  "UseCategories": 741,
+  "Deleted": 98,
+  "Rank": 395,
+  "Created": "2011-01-06T03:31:32.831977+01:00",
+  "UseCategories": 979,
   "CreatedBy": null,
-  "Updated": "2001-12-27T16:00:48.211547+01:00",
+  "Updated": "2014-08-29T03:31:32.831977+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 980
     }
   }
 }

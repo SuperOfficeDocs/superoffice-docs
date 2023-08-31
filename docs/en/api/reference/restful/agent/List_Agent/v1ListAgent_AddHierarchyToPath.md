@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ea",
-  "Name": "Harber LLC"
+  "Path": "quas",
+  "Name": "Tillman, Bernhard and Klocko"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 782,
+  "HierarchyId": 551,
   "Domain": "Dashboards",
-  "Name": "Stracke LLC",
-  "Fullname": "nesciunt",
-  "ParentId": 819,
+  "Name": "Davis, Orn and Carter",
+  "Fullname": "voluptatem",
+  "ParentId": 524,
   "Children": [
     {
-      "HierarchyId": 467,
+      "HierarchyId": 54,
       "Domain": "Dashboards",
-      "Name": "Walsh LLC",
-      "Fullname": "voluptatem",
-      "ParentId": 562,
+      "Name": "Cole, Hoeger and Ortiz",
+      "Fullname": "modi",
+      "ParentId": 275,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-12-02T16:00:41.1955783+01:00",
-      "RegisteredAssociateId": 543,
-      "Updated": "2013-12-23T16:00:41.1955783+01:00",
-      "UpdatedAssociateId": 910,
+      "Registered": "1999-12-15T03:31:26.7144201+01:00",
+      "RegisteredAssociateId": 400,
+      "Updated": "2019-06-29T03:31:26.7144201+02:00",
+      "UpdatedAssociateId": 442,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 80
         }
       }
     }
   ],
-  "Registered": "1996-05-10T16:00:41.1955783+02:00",
-  "RegisteredAssociateId": 603,
-  "Updated": "2001-04-13T16:00:41.1955783+02:00",
-  "UpdatedAssociateId": 60,
+  "Registered": "2015-10-23T03:31:26.7144201+02:00",
+  "RegisteredAssociateId": 771,
+  "Updated": "2012-05-30T03:31:26.7144201+02:00",
+  "UpdatedAssociateId": 727,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 339
     }
   }
 }

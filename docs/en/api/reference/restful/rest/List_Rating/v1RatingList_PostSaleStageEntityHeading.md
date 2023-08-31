@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 661,
-  "Name": "Mitchell LLC",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 717,
-  "UdListDefinitionId": 769
+  "HeadingId": 495,
+  "Name": "Kulas Inc and Sons",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 697,
+  "UdListDefinitionId": 664
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 790,
-  "Name": "Kassulke-Daugherty",
-  "Tooltip": "fugit",
+  "HeadingId": 332,
+  "Name": "Renner Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 862,
-  "UdListDefinitionId": 820,
+  "Rank": 236,
+  "UdListDefinitionId": 214,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 202
     }
   }
 }

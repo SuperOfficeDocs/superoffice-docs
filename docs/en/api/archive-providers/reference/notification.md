@@ -49,6 +49,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |hasConflict| *None* |!!hasConflict|  |
 |recurrencePattern| *None* |!!recurrencePattern|  |
 |rejectReason| *None* |!!rejectReason|  |
+|isAssignment| *None* |!!isAssignment|  |
 |ticketId| *None* |!!ticketId|  |
 |category| *None* |!!category|  |
 |customUrl| *None* |!!customUrl|  |
@@ -56,7 +57,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=updateType,location
+GET /api/v1/archive/Notification?$select=updateType,isRecurring
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

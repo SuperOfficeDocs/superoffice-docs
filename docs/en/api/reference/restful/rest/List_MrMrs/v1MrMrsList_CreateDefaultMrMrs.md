@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Rogahn Inc and Sons",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "UdListDefinitionId": 930,
-  "Rank": 635,
+  "Id": 575,
+  "Name": "Bailey Group",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 444,
+  "Rank": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 688
     }
   }
 }

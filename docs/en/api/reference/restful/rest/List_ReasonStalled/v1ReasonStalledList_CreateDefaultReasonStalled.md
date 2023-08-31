@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 928,
-  "Name": "Schaden Group",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 733,
-  "Rank": 858,
+  "Id": 391,
+  "Name": "Robel, Schowalter and Hackett",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "UdListDefinitionId": 790,
+  "Rank": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   }
 }

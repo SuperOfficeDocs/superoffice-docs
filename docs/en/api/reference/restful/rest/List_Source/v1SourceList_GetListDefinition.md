@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 907,
-  "Name": "Graham, Strosin and Armstrong",
-  "Tooltip": "ad",
+  "Id": 614,
+  "Name": "Abshire, Wuckert and Schiller",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 912,
+  "Rank": 16,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "ListType": "quis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 565
     }
   },
   "_Links": {

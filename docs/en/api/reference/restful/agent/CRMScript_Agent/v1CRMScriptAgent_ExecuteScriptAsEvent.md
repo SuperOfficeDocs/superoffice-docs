@@ -78,6 +78,7 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
+| ParserValues | object | Parser values sent to the event handler |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -91,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 567,
+  "CRMScriptId": 861,
   "EventData": null
 }
 ```
@@ -105,28 +106,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "non",
-    "InputValues2": "optio"
+    "InputValues1": "impedit",
+    "InputValues2": "distinctio"
   },
   "BlockExecution": false,
-  "NavigateTo": "sit",
+  "NavigateTo": "dignissimos",
   "Message": "quae",
-  "ShowDialog": "maiores",
+  "ShowDialog": "sed",
   "OutputValues": {
-    "OutputValues1": "repellendus",
-    "OutputValues2": "rerum"
+    "OutputValues1": "nobis",
+    "OutputValues2": "nisi"
   },
   "StateValues": {
-    "StateValues1": "placeat",
-    "StateValues2": "magni"
+    "StateValues1": "et",
+    "StateValues2": "aliquid"
   },
-  "Exception": "magnam",
+  "Exception": "labore",
+  "ParserValues": {
+    "ParserValues1": "vel",
+    "ParserValues2": "ullam"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 727
     }
   }
 }

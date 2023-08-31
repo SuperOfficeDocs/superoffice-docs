@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 531,
-  "Section": "autem",
-  "Key": "odit",
-  "Name": "Franecki, Hirthe and Homenick",
+  "PrefDescId": 301,
+  "Section": "tempora",
+  "Key": "iure",
+  "Name": "Schuppe, Schmitt and Kuvalis",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive attitude-oriented matrices",
+  "Description": "Function-based solution-oriented paradigm",
   "IsBuiltin": true,
-  "TableName": "Terry-Trantow",
-  "UserDefinedListId": 718,
-  "Rank": 727,
-  "SubGroup": "et",
-  "MinLevel": 453,
-  "MaxValue": 181,
-  "MinValue": 498,
-  "RequiredLicense": "nobis",
+  "TableName": "Hamill-Jewess",
+  "UserDefinedListId": 966,
+  "Rank": 240,
+  "SubGroup": "ea",
+  "MinLevel": 292,
+  "MaxValue": 456,
+  "MinValue": 981,
+  "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

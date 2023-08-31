@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 619,
-    "Name": "Dicki Group",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 693,
-    "UdListDefinitionId": 969,
+    "HeadingId": 507,
+    "Name": "Conroy Inc and Sons",
+    "Tooltip": "reprehenderit",
+    "Deleted": false,
+    "Rank": 255,
+    "UdListDefinitionId": 97,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 921
+        "FieldType": "System.Int32",
+        "FieldLength": 456
       }
     }
   }

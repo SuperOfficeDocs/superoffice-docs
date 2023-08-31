@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=facere
+GET /api/v1/List/ProductType/MDOItems?query=neque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Sauer-Schamberger",
-    "ToolTip": "Qui qui sed eligendi adipisci omnis inventore.",
-    "Deleted": true,
-    "Rank": 57,
-    "Type": "deleniti",
+    "Id": 551,
+    "Name": "Stark Inc and Sons",
+    "ToolTip": "Ut est vel ut necessitatibus molestiae.",
+    "Deleted": false,
+    "Rank": 798,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Krajcik, Weimann and Konopelski",
-        "ToolTip": "Amet debitis sint repellendus quia.",
+        "Id": 1002,
+        "Name": "Howell-Wilkinson",
+        "ToolTip": "Consequuntur esse.",
         "Deleted": false,
-        "Rank": 41,
-        "Type": "nam",
+        "Rank": 983,
+        "Type": "praesentium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "porro",
-        "ColorBlock": 653,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "harum",
-        "FullName": "Cydney Legros",
+        "IconHint": "molestiae",
+        "ColorBlock": 490,
+        "ExtraInfo": "in",
+        "StyleHint": "dolor",
+        "FullName": "Mr. Isaac Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 531
+            "FieldLength": 921
           }
         }
       }
     ],
-    "IconHint": "quae",
-    "ColorBlock": 329,
-    "ExtraInfo": "libero",
-    "StyleHint": "qui",
-    "FullName": "Mr. Lonie Rene Stroman I",
+    "IconHint": "aliquam",
+    "ColorBlock": 454,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "nulla",
+    "FullName": "Karl Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 588
+        "FieldLength": 978
       }
     }
   }

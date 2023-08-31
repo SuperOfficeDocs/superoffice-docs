@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 918
+  "Count": 486
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Langworth-Bahringer",
-    "SaleDate": "2002-06-04T16:00:41.7894273+02:00",
-    "SaleId": 980,
-    "Probability": 225,
-    "Title": "sint",
-    "Amount": 18662.97,
-    "Currency": "fugiat",
-    "ProjectName": "Kshlerin LLC",
-    "AssociateFullName": "Larue Reichel",
-    "Description": "Organic radical data-warehouse",
+    "ContactName": "Bechtelar-Feest",
+    "SaleDate": "2016-05-01T03:31:27.1999504+02:00",
+    "SaleId": 664,
+    "Probability": 362,
+    "Title": "reprehenderit",
+    "Amount": 30616.046,
+    "Currency": "velit",
+    "ProjectName": "Purdy-Kuhn",
+    "AssociateFullName": "Erna Jast",
+    "Description": "Reduced tertiary hub",
     "Status": "Lost",
-    "WeightedAmount": 12188.126,
-    "ProjectId": 161,
-    "EarningPercent": 3412.926,
-    "Earning": 5660.004,
-    "ContactId": 364,
-    "AssociateId": 719,
-    "PersonId": 502,
-    "SaleTypeId": 311,
-    "SaleTypeName": "Pagac, Farrell and Roberts",
-    "PersonFullName": "Sigurd Fadel",
+    "WeightedAmount": 20418.01,
+    "ProjectId": 622,
+    "EarningPercent": 2751.652,
+    "Earning": 21850.248,
+    "ContactId": 122,
+    "AssociateId": 512,
+    "PersonId": 766,
+    "SaleTypeId": 750,
+    "SaleTypeName": "Kulas-Effertz",
+    "PersonFullName": "Van Raynor",
     "Completed": "Completed",
-    "ActiveErpLinks": 898,
-    "NextDueDate": "2015-10-23T16:00:41.7894273+02:00",
-    "Number": "1518911",
+    "ActiveErpLinks": 265,
+    "NextDueDate": "2020-01-29T03:31:27.1999504+01:00",
+    "Number": "741895",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 535
       }
     }
   }

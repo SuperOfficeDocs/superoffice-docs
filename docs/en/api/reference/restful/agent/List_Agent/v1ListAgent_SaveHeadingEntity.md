@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 396,
-  "Name": "Fadel-Rosenbaum",
-  "Tooltip": "tempora",
+  "HeadingId": 358,
+  "Name": "Steuber-Welch",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 703,
-  "UdListDefinitionId": 110
+  "Rank": 59,
+  "UdListDefinitionId": 670
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 349,
-  "Name": "Schmeler Inc and Sons",
-  "Tooltip": "quasi",
+  "HeadingId": 388,
+  "Name": "Langosh, Parker and Powlowski",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 644,
-  "UdListDefinitionId": 36,
+  "Rank": 867,
+  "UdListDefinitionId": 260,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 40
     }
   }
 }

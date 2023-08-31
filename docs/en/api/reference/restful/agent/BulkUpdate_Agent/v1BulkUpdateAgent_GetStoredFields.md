@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "odit"
+  "Context": "ipsa"
 }
 ```
 
@@ -108,73 +108,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "asperiores",
-    "ValueType": "consequuntur",
+    "IsActive": true,
+    "Key": "deleniti",
+    "ValueType": "consequatur",
     "Mandatory": false,
-    "EncodedDisplayName": "Hauck-Lindgren",
-    "EncodedDisplayDescription": "Stand-alone modular matrix",
-    "IconHint": "commodi",
+    "EncodedDisplayName": "Strosin, Auer and Raynor",
+    "EncodedDisplayDescription": "Reactive contextually-based service-desk",
+    "IconHint": "iste",
     "ControlInfos": [
       {
-        "Type": "suscipit",
-        "Label": "laborum",
-        "Dimension": 992,
-        "ListProviderName": "Armstrong LLC",
-        "ListProviderExtraInfo": "voluptatem",
-        "ListProviderPrimaryKeyName": "Boyer-Borer",
-        "ListLeadText": "non",
+        "Type": "facere",
+        "Label": "delectus",
+        "Dimension": 745,
+        "ListProviderName": "Bogisich-Cole",
+        "ListProviderExtraInfo": "et",
+        "ListProviderPrimaryKeyName": "Mohr, Emard and Wuckert",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 45
+            "FieldType": "System.Int32",
+            "FieldLength": 948
           }
         }
       }
     ],
-    "EncodedDataCaption": "corrupti",
-    "EncodedDataCaptionDescription": "User-centric multi-tasking architecture",
-    "CurrentOperationType": "fuga",
+    "EncodedDataCaption": "qui",
+    "EncodedDataCaptionDescription": "Ergonomic grid-enabled middleware",
+    "CurrentOperationType": "magnam",
     "Values": [
-      "rerum",
-      "fuga"
+      "quasi",
+      "amet"
     ],
     "DisplayValues": [
-      "ut",
-      "esse"
+      "et",
+      "omnis"
     ],
     "OperationInfos": [
       {
-        "Key": "nulla",
-        "EncodedDisplayName": "Ortiz LLC",
+        "Key": "quis",
+        "EncodedDisplayName": "Stark Inc and Sons",
         "EncodedLeadTexts": [
-          "consectetur",
-          "totam"
+          "distinctio",
+          "natus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldType": "System.Int32",
+            "FieldLength": 590
           }
         }
       },
       {
-        "Key": "nulla",
-        "EncodedDisplayName": "Ortiz LLC",
+        "Key": "quis",
+        "EncodedDisplayName": "Stark Inc and Sons",
         "EncodedLeadTexts": [
-          "consectetur",
-          "totam"
+          "distinctio",
+          "natus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldType": "System.Int32",
+            "FieldLength": 590
           }
         }
       }

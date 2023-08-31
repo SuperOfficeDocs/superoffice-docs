@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 433,
-  "Name": "Kreiger-Quitzon",
-  "Tooltip": "dolorum",
-  "Rank": 85,
+  "ProjTypeId": 543,
+  "Name": "McCullough, Ondricka and Haag",
+  "Tooltip": "explicabo",
+  "Rank": 697,
   "DurationUnit": "Century",
-  "ProjectDuration": 510,
+  "ProjectDuration": 433,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": true,
+  "HasGuide": false,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 178,
-      "Name": "Schmeler-Hyatt",
-      "ToolTip": "Eveniet nisi adipisci quod tenetur molestias optio sapiente.",
-      "Deleted": false,
-      "Rank": 100,
-      "Type": "et",
-      "ColorBlock": 935,
-      "IconHint": "non",
+      "Id": 264,
+      "Name": "Wintheiser, Towne and Runolfsdottir",
+      "ToolTip": "Fugit nihil est.",
+      "Deleted": true,
+      "Rank": 370,
+      "Type": "eius",
+      "ColorBlock": 765,
+      "IconHint": "eos",
       "Selected": false,
-      "LastChanged": "2017-10-27T16:00:41.2268306+02:00",
+      "LastChanged": "1996-04-19T03:31:26.7300385+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "recusandae",
-      "StyleHint": "eos",
+      "ExtraInfo": "nemo",
+      "StyleHint": "repellat",
       "Hidden": true,
-      "FullName": "Paul Fisher"
+      "FullName": "Ms. Vernie Bergstrom Jr."
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 435,
-  "Name": "Becker-Murazik",
-  "Tooltip": "quod",
-  "Rank": 665,
+  "ProjTypeId": 458,
+  "Name": "Nikolaus, Prosacco and Raynor",
+  "Tooltip": "officiis",
+  "Rank": 943,
   "DurationUnit": "Century",
-  "ProjectDuration": 593,
-  "Deleted": false,
-  "HasGuide": true,
+  "ProjectDuration": 907,
+  "Deleted": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 397,
-      "Name": "Block-Kemmer",
-      "ToolTip": "Ut praesentium sit excepturi reprehenderit saepe numquam reprehenderit.",
+      "Id": 973,
+      "Name": "Johnston-Daugherty",
+      "ToolTip": "Nemo corporis mollitia necessitatibus aut eligendi aut quidem.",
       "Deleted": true,
-      "Rank": 361,
-      "Type": "aliquid",
-      "ColorBlock": 349,
-      "IconHint": "debitis",
+      "Rank": 189,
+      "Type": "rerum",
+      "ColorBlock": 720,
+      "IconHint": "mollitia",
       "Selected": false,
-      "LastChanged": "2017-09-06T16:00:41.2268306+02:00",
+      "LastChanged": "2018-03-14T03:31:26.7300385+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptate",
-      "StyleHint": "alias",
-      "Hidden": true,
-      "FullName": "Mr. Isai Stehr",
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "tempore",
+      "Hidden": false,
+      "FullName": "Ana Hyatt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 847
+          "FieldType": "System.Int32",
+          "FieldLength": 928
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 881
+      "FieldType": "System.Int32",
+      "FieldLength": 845
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 414,
+  "EjMessageId": 113,
   "Ticket": null,
-  "CreatedAt": "2014-11-14T16:00:41.9769129+01:00",
+  "CreatedAt": "2016-12-29T03:31:27.3561639+01:00",
   "CreatedBy": null,
-  "Author": "magnam",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quae",
-  "TimeSpent": 361,
-  "Body": "voluptatum",
-  "HtmlBody": "accusamus",
-  "EmailHeader": "owen@batz.us",
-  "DebugInfo": "vel",
-  "MailSorter": "voluptatem",
+  "MessageId": "omnis",
+  "TimeSpent": 506,
+  "Body": "omnis",
+  "HtmlBody": "dolorum",
+  "EmailHeader": "rey.witting@terryframi.ca",
+  "DebugInfo": "sed",
+  "MailSorter": "magni",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "laboriosam",
+  "SearchTitle": "velit",
   "MessageHeaders": [
     {
-      "Id": 659,
-      "Name": "Fay-Mohr",
-      "Value": "quo",
+      "Id": 621,
+      "Name": "Renner LLC",
+      "Value": "deserunt",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldLength": 355
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dicta",
-  "Sentiment": 424,
-  "SentimentConfidence": 28,
+  "Important": true,
+  "Language": "libero",
+  "Sentiment": 625,
+  "SentimentConfidence": 887,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 384,
-      "Name": "Buckridge, Auer and Abshire",
-      "ContentType": "et",
-      "AttSize": 144,
+      "AttachmentId": 890,
+      "Name": "Quigley-Bergstrom",
+      "ContentType": "adipisci",
+      "AttSize": 521,
       "InlineImage": false,
-      "ContentId": "nesciunt",
-      "AuthKey": "accusamus",
+      "ContentId": "officiis",
+      "AuthKey": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 799
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "doloremque"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "fugiat"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "neque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

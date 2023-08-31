@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=omnis
-GET /api/v1/Document?$top=72
-GET /api/v1/Document?$skip=982
+GET /api/v1/Document?$entities=ipsa
+GET /api/v1/Document?$top=132
+GET /api/v1/Document?$skip=555
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=quod
+GET /api/v1/Document?$context=inventore
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vitae",
+  "odata.nextLink": "sunt",
   "value": [
     {
-      "PrimaryKey": 6272,
+      "PrimaryKey": 312,
       "EntityName": "sale",
-      "saleId": 6272,
-      "contactId": 1057,
-      "name": "Fritsch-Baumbach"
+      "saleId": 312,
+      "contactId": 2835,
+      "name": "Swaniawski-Breitenberg"
     },
     {
-      "PrimaryKey": 9089,
+      "PrimaryKey": 540,
       "EntityName": "sale",
-      "saleId": 9089,
-      "contactId": 948,
-      "name": "Brekke LLC"
+      "saleId": 540,
+      "contactId": 5317,
+      "name": "Beahan, Lang and Balistreri"
     }
   ]
 }

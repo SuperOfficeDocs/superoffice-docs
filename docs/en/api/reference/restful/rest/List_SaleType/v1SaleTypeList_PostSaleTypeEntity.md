@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 795,
-  "Name": "Pouros, Nitzsche and Eichmann",
-  "Tooltip": "aut",
-  "Rank": 26,
+  "SaleTypeId": 900,
+  "Name": "Wilkinson LLC",
+  "Tooltip": "asperiores",
+  "Rank": 533,
   "DurationUnit": "Century",
-  "SaleDuration": 932,
-  "SaleTypeCatId": 62,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 225,
-  "QuoteLinesTemplate": 758,
-  "ConfirmationLinesTemplate": 25,
+  "SaleDuration": 530,
+  "SaleTypeCatId": 627,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 774,
+  "QuoteLinesTemplate": 28,
+  "ConfirmationLinesTemplate": 97,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 578,
-  "MinEarningPercent": 544,
-  "GroupQuoteLinesBy": 646,
-  "SortGroupLinesBy": 350,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 557,
+  "MinEarningPercent": 226,
+  "GroupQuoteLinesBy": 785,
+  "SortGroupLinesBy": 120,
   "Stages": [
     {
-      "Id": 281,
-      "Name": "Jewess, Kunde and Dibbert",
-      "ToolTip": "Saepe laudantium et.",
-      "Deleted": true,
-      "Rank": 994,
-      "Type": "id",
-      "ColorBlock": 433,
-      "IconHint": "hic",
-      "Selected": true,
-      "LastChanged": "2016-02-10T16:00:49.3051793+01:00",
+      "Id": 699,
+      "Name": "Kerluke, Roberts and Bruen",
+      "ToolTip": "Quia quae aut.",
+      "Deleted": false,
+      "Rank": 886,
+      "Type": "ea",
+      "ColorBlock": 527,
+      "IconHint": "iusto",
+      "Selected": false,
+      "LastChanged": "2001-04-03T03:31:33.8679659+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "expedita",
+      "ExtraInfo": "minus",
+      "StyleHint": "perspiciatis",
       "Hidden": true,
-      "FullName": "Dr. Filiberto Cornelius Schinner"
+      "FullName": "Jane Smith"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 580,
-  "Name": "Becker, Johns and Treutel",
-  "Tooltip": "qui",
-  "Rank": 934,
+  "SaleTypeId": 479,
+  "Name": "Howell LLC",
+  "Tooltip": "veniam",
+  "Rank": 36,
   "DurationUnit": "Century",
-  "SaleDuration": 854,
-  "SaleTypeCatId": 832,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "SaleDuration": 43,
+  "SaleTypeCatId": 300,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 921,
-  "QuoteLinesTemplate": 471,
-  "ConfirmationLinesTemplate": 943,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 526,
-  "MinEarningPercent": 468,
-  "GroupQuoteLinesBy": 265,
-  "SortGroupLinesBy": 886,
+  "DefaultQuoteValidity": 439,
+  "QuoteLinesTemplate": 148,
+  "ConfirmationLinesTemplate": 997,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 752,
+  "MinEarningPercent": 758,
+  "GroupQuoteLinesBy": 308,
+  "SortGroupLinesBy": 209,
   "Stages": [
     {
-      "Id": 653,
-      "Name": "Sanford-Hermann",
-      "ToolTip": "Provident velit molestias.",
-      "Deleted": true,
-      "Rank": 646,
-      "Type": "sint",
-      "ColorBlock": 207,
-      "IconHint": "sunt",
-      "Selected": false,
-      "LastChanged": "2006-12-16T16:00:49.3051793+01:00",
+      "Id": 180,
+      "Name": "Wisoky-Wunsch",
+      "ToolTip": "Adipisci qui consectetur dolorem consequatur quia aliquid.",
+      "Deleted": false,
+      "Rank": 314,
+      "Type": "unde",
+      "ColorBlock": 512,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2004-08-07T03:31:33.8679659+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "ducimus",
-      "Hidden": true,
-      "FullName": "Nathanael Adams",
+      "ExtraInfo": "ad",
+      "StyleHint": "aut",
+      "Hidden": false,
+      "FullName": "Ms. Oleta Kirstin Dibbert V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 263
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 549
     }
   }
 }

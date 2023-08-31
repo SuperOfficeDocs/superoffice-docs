@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,29 +108,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 278,
-    "TopicId": 812,
+    "ChatSessionId": 640,
+    "TopicId": 964,
     "User": null,
     "Person": null,
-    "CustomerAlias": "ipsum",
-    "CustomerHost": "maxime",
-    "CustomerName": "Smith-Zboncak",
-    "CustomerEmail": "ruben.howe@lind.co.uk",
-    "CustomerPhone": "522-280-3836 x376",
+    "CustomerAlias": "labore",
+    "CustomerHost": "aut",
+    "CustomerName": "Batz Group",
+    "CustomerEmail": "garret.waters@pfeffer.com",
+    "CustomerPhone": "1-252-317-8249 x5992",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Schmitt, Gleason and Von",
+    "CustomerCompanyName": "Parisian LLC",
     "Status": "Closed",
-    "FirstMessage": "et",
-    "LastMessage": "dolore",
-    "WhenRequested": "2014-07-08T16:00:40.1956874+02:00",
-    "WhenStarted": "2015-02-14T16:00:40.1956874+01:00",
-    "WhenEnded": "2012-02-01T16:00:40.1956874+01:00",
-    "WhenIdle": "2021-01-26T16:00:40.1956874+01:00",
-    "WhenFetched": "2021-03-07T16:00:40.1956874+01:00",
-    "SessionKey": "distinctio",
-    "InitialQueuePos": 525,
-    "AlertLevel": 915,
-    "Rank": 625,
+    "FirstMessage": "nulla",
+    "LastMessage": "odit",
+    "WhenRequested": "2008-03-31T03:31:25.7277256+02:00",
+    "WhenStarted": "1999-06-01T03:31:25.7277256+02:00",
+    "WhenEnded": "2007-10-24T03:31:25.7277256+02:00",
+    "WhenIdle": "2017-08-18T03:31:25.7277256+02:00",
+    "WhenFetched": "2015-04-07T03:31:25.7277256+02:00",
+    "SessionKey": "dolorum",
+    "InitialQueuePos": 191,
+    "AlertLevel": 561,
+    "Rank": 928,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 18,
+    "Rating": 450,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldLength": 267
       }
     }
   }

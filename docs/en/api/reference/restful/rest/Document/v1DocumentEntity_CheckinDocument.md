@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Centralized 24 hour frame
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=nisi,nisi
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Cross-group client-server protocol
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=rerum,illo
 ```
 
 
@@ -76,7 +76,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "dolorum",
-  "VersionId": "maxime",
-  "Success": true,
+  "ExternalReference": "aut",
+  "VersionId": "rerum",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "dolorum",
-  "AdditionalInfo": "et"
+  "Value": "ea",
+  "AdditionalInfo": "nihil"
 }
 ```

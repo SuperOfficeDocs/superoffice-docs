@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "McDermott-Graham",
-  "Tooltip": "aperiam",
+  "Id": 32,
+  "Name": "Becker-Schiller",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 959,
-  "IsCustomList": false,
+  "Rank": 335,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Yundt, Keeling and Jakubowski",
-  "Tooltip": "in",
+  "Id": 756,
+  "Name": "O'Conner Inc and Sons",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 107,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 852,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

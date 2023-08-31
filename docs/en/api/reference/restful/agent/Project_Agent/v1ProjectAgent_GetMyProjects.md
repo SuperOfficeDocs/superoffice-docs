@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 919,
-    "Name": "Dickinson Inc and Sons",
-    "Description": "Reverse-engineered real-time access",
+    "ProjectId": 249,
+    "Name": "Bernier-Kunze",
+    "Description": "Diverse foreground Graphic Interface",
     "URL": "http://www.example.com/",
-    "Type": "iusto",
-    "AssociateId": 321,
-    "AssociateFullName": "Dr. Ward Lonny McClure",
-    "TypeId": 2,
-    "Updated": "2008-02-14T16:00:41.5707037+01:00",
-    "StatusId": 530,
-    "Status": "error",
-    "TextId": 630,
-    "PublishTo": "2000-12-03T16:00:41.5707037+01:00",
-    "PublishFrom": "2009-01-25T16:00:41.5707037+01:00",
-    "IsPublished": true,
+    "Type": "voluptas",
+    "AssociateId": 173,
+    "AssociateFullName": "Gillian Lindgren I",
+    "TypeId": 668,
+    "Updated": "2007-12-25T03:31:27.0268433+01:00",
+    "StatusId": 239,
+    "Status": "maxime",
+    "TextId": 67,
+    "PublishTo": "2005-08-21T03:31:27.0268433+02:00",
+    "PublishFrom": "2019-06-26T03:31:27.0268433+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1381818",
-    "ActiveErpLinks": 803,
+    "ProjectNumber": "1071875",
+    "ActiveErpLinks": 611,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 887
       }
     }
   }

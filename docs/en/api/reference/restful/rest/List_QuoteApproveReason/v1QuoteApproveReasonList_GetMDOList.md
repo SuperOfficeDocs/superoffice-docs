@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=recusandae
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=non
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Heathcote LLC",
-    "ToolTip": "Hic illum alias consequatur molestiae.",
+    "Id": 799,
+    "Name": "Willms, Ebert and Abernathy",
+    "ToolTip": "Et recusandae accusamus consequatur magni autem.",
     "Deleted": false,
-    "Rank": 624,
-    "Type": "et",
+    "Rank": 129,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Schaden Inc and Sons",
-        "ToolTip": "Ut quaerat odit enim molestias.",
-        "Deleted": true,
-        "Rank": 903,
-        "Type": "qui",
+        "Id": 224,
+        "Name": "Lebsack Group",
+        "ToolTip": "Beatae eligendi in.",
+        "Deleted": false,
+        "Rank": 558,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 864,
-        "ExtraInfo": "ullam",
-        "StyleHint": "unde",
-        "FullName": "Destany Metz",
+        "IconHint": "ducimus",
+        "ColorBlock": 818,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "eaque",
+        "FullName": "Fletcher Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 787
+            "FieldLength": 726
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 762,
-    "ExtraInfo": "qui",
-    "StyleHint": "cupiditate",
-    "FullName": "Carlie Luettgen",
+    "IconHint": "et",
+    "ColorBlock": 844,
+    "ExtraInfo": "earum",
+    "StyleHint": "rerum",
+    "FullName": "Mrs. Andreane Rosie Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldType": "System.String",
+        "FieldLength": 29
       }
     }
   }

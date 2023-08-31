@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Jenkins Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 498,
+  "Name": "Cremin Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": true,
-  "Rank": 627,
+  "Rank": 227,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 462
+      "FieldLength": 96
     }
   },
   "_Links": {

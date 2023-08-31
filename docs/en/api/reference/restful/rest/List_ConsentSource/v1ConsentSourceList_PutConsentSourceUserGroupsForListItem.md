@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Boyer LLC",
-    "ToolTip": "Exercitationem quasi omnis consectetur qui modi sit.",
-    "Deleted": false,
-    "Rank": 806,
-    "Type": "nisi",
-    "ColorBlock": 489,
-    "IconHint": "et",
+    "Id": 53,
+    "Name": "Langworth-Jerde",
+    "ToolTip": "Voluptas eos iure cumque.",
+    "Deleted": true,
+    "Rank": 404,
+    "Type": "unde",
+    "ColorBlock": 987,
+    "IconHint": "iste",
     "Selected": true,
-    "LastChanged": "2011-03-26T16:00:48.9302244+01:00",
+    "LastChanged": "2007-10-15T03:31:33.5386084+02:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Corkery Group",
-        "ToolTip": "Dicta et cupiditate voluptatibus.",
+        "Id": 799,
+        "Name": "Bayer-Towne",
+        "ToolTip": "Autem autem commodi doloribus ullam sunt ad aut.",
         "Deleted": false,
-        "Rank": 326,
-        "Type": "quibusdam",
-        "ColorBlock": 267,
-        "IconHint": "modi",
+        "Rank": 336,
+        "Type": "sint",
+        "ColorBlock": 296,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2016-09-06T16:00:48.9302244+02:00",
+        "LastChanged": "2009-10-29T03:31:33.5386084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Ms. Dimitri Giovanna Reynolds IV"
+        "ExtraInfo": "autem",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Margarete Elton Schulist IV"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "rerum",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Clarabelle Will"
+    "FullName": "Ezekiel Mueller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 462,
-    "Name": "Walter Group",
-    "ToolTip": "Natus ut animi sed consequuntur culpa.",
+    "Id": 122,
+    "Name": "Mraz, Gleason and Beatty",
+    "ToolTip": "Delectus deleniti est adipisci enim.",
     "Deleted": false,
-    "Rank": 430,
-    "Type": "fugiat",
-    "ColorBlock": 425,
-    "IconHint": "mollitia",
+    "Rank": 33,
+    "Type": "delectus",
+    "ColorBlock": 587,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2018-03-19T16:00:48.9302244+01:00",
+    "LastChanged": "2000-08-02T03:31:33.5386084+02:00",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Trantow, Smith and Bayer",
-        "ToolTip": "Eum vel ratione voluptatem quos saepe nulla exercitationem.",
+        "Id": 159,
+        "Name": "Weber-Will",
+        "ToolTip": "Repudiandae consectetur tempore officiis id.",
         "Deleted": false,
-        "Rank": 891,
-        "Type": "quo",
-        "ColorBlock": 348,
-        "IconHint": "alias",
-        "Selected": false,
-        "LastChanged": "2005-11-13T16:00:48.9302244+01:00",
+        "Rank": 446,
+        "Type": "non",
+        "ColorBlock": 335,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2010-04-01T03:31:33.5386084+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sint",
+        "ExtraInfo": "sunt",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Miss Weston Ed Johnson",
+        "FullName": "Moshe Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "ut",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Dr. Demetrius Schmeler V",
+    "FullName": "Emmanuel Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

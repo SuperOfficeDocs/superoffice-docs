@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Zemlak-Predovic",
-    "ToolTip": "Reiciendis libero est accusamus eos autem et est.",
+    "Id": 757,
+    "Name": "Rippin-Eichmann",
+    "ToolTip": "Qui quia quia dignissimos fugiat aut nobis.",
     "Deleted": false,
-    "Rank": 220,
-    "Type": "sint",
-    "ColorBlock": 160,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2017-07-07T16:00:49.2426861+02:00",
+    "Rank": 92,
+    "Type": "molestias",
+    "ColorBlock": 241,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "1997-03-14T03:31:33.8210957+01:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Ortiz-Cremin",
-        "ToolTip": "Et sed tempora ut dolorum.",
-        "Deleted": false,
-        "Rank": 157,
-        "Type": "est",
-        "ColorBlock": 656,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2016-11-27T16:00:49.2583068+01:00",
+        "Id": 247,
+        "Name": "Jenkins-Skiles",
+        "ToolTip": "Tenetur voluptatibus et in.",
+        "Deleted": true,
+        "Rank": 232,
+        "Type": "voluptas",
+        "ColorBlock": 103,
+        "IconHint": "architecto",
+        "Selected": true,
+        "LastChanged": "2009-03-05T03:31:33.8210957+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "est",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Mr. Daphnee Sim Schmeler IV",
+        "FullName": "Dr. Jordane D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 821
+            "FieldLength": 908
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Russ Zulauf DDS",
+    "ExtraInfo": "fugit",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Nico Littel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 52
       }
     }
   }

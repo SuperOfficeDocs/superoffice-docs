@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 674,
-  "Name": "Morissette, Weimann and Pouros",
-  "Tooltip": "dolorem",
+  "Id": 953,
+  "Name": "Goyette, Eichmann and Johns",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "UdListDefinitionId": 300,
-  "Rank": 578,
+  "UdListDefinitionId": 216,
+  "Rank": 819,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 446
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Feest, Pagac and Schroeder",
-    "ToolTip": "Vel quis.",
-    "Deleted": false,
-    "Rank": 164,
-    "Type": "nostrum",
-    "ColorBlock": 899,
-    "IconHint": "autem",
+    "Id": 364,
+    "Name": "Miller-Koch",
+    "ToolTip": "Non quidem libero voluptatem aut.",
+    "Deleted": true,
+    "Rank": 75,
+    "Type": "doloribus",
+    "ColorBlock": 92,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2009-02-09T16:00:49.3208058+01:00",
+    "LastChanged": "1996-09-28T03:31:33.8835899+02:00",
     "ChildItems": [
       {
-        "Id": 365,
-        "Name": "O'Conner, McGlynn and Kuvalis",
-        "ToolTip": "Nesciunt eligendi laboriosam est hic.",
-        "Deleted": true,
-        "Rank": 715,
-        "Type": "rem",
-        "ColorBlock": 270,
-        "IconHint": "aut",
+        "Id": 16,
+        "Name": "Ratke-Stamm",
+        "ToolTip": "Eum accusamus dolorem quos deserunt nobis deleniti hic.",
+        "Deleted": false,
+        "Rank": 155,
+        "Type": "in",
+        "ColorBlock": 492,
+        "IconHint": "eveniet",
         "Selected": true,
-        "LastChanged": "2022-02-28T16:00:49.3208058+01:00",
+        "LastChanged": "2010-01-01T03:31:33.8835899+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Dr. Gladys Christiana Huels",
+        "ExtraInfo": "atque",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Prince Gleichner V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 218
+            "FieldType": "System.Int32",
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "expedita",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Mrs. Elliott Nikko Bergnaum",
+    "FullName": "Jacinthe Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

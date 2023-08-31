@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "earum",
-  "PrefKey": "officia",
+  "PrefSection": "quas",
+  "PrefKey": "veniam",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "laborum",
+  "RawValue": "nulla",
   "Specification": null,
-  "DisplayValue": "sit",
-  "DisplayTooltip": "tempore",
+  "DisplayValue": "odio",
+  "DisplayTooltip": "illum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 500,
-  "PrefDescId": 297,
-  "TableName": "Crooks-Gutmann",
-  "UserPreferenceId": 892,
+  "TargetId": 104,
+  "PrefDescId": 639,
+  "TableName": "Shields Group",
+  "UserPreferenceId": 191,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldLength": 885
     }
   }
 }

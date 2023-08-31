@@ -10,6 +10,12 @@ generated: true
 
 
 
+* [POST Agents/List/GetTask](v1ListAgent_GetTask.md)
+
+* [POST Agents/List/GetDocumentTemplateTask](v1ListAgent_GetDocumentTemplateTask.md)
+
+* [POST Agents/List/GetTaskList](v1ListAgent_GetTaskList.md)
+
 * [POST Agents/List/GetTasks](v1ListAgent_GetTasks.md)
 
 * [POST Agents/List/GetDocumentTemplatesTasks](v1ListAgent_GetDocumentTemplatesTasks.md)
@@ -56,6 +62,16 @@ generated: true
 
 * [POST Agents/List/GetTicketStatuses](v1ListAgent_GetTicketStatuses.md)
 
+* [POST Agents/List/GetTicketType](v1ListAgent_GetTicketType.md)
+
+* [POST Agents/List/GetTicketTypeEntity](v1ListAgent_GetTicketTypeEntity.md)
+
+* [POST Agents/List/GetAllTicketTypeEntities](v1ListAgent_GetAllTicketTypeEntities.md)
+
+* [POST Agents/List/GetTicketTypeList](v1ListAgent_GetTicketTypeList.md)
+
+* [POST Agents/List/GetTicketTypes](v1ListAgent_GetTicketTypes.md)
+
 * [POST Agents/List/GetWebPanelEntity](v1ListAgent_GetWebPanelEntity.md)
 
 * [POST Agents/List/GenerateNavigationUrl](v1ListAgent_GenerateNavigationUrl.md)
@@ -69,6 +85,12 @@ generated: true
 * [POST Agents/List/DeleteAppWebPanels](v1ListAgent_DeleteAppWebPanels.md)
 
 * [POST Agents/List/GetWebPanelByProgId](v1ListAgent_GetWebPanelByProgId.md)
+
+* [POST Agents/List/GetLocalizedTextByType](v1ListAgent_GetLocalizedTextByType.md)
+
+* [POST Agents/List/GetLocalizedTextList](v1ListAgent_GetLocalizedTextList.md)
+
+* [POST Agents/List/GetLocalizedTexts](v1ListAgent_GetLocalizedTexts.md)
 
 * [POST Agents/List/GetLocalizedTextsByLanguageId](v1ListAgent_GetLocalizedTextsByLanguageId.md)
 
@@ -192,11 +214,11 @@ generated: true
 
 * [POST Agents/List/GetSources](v1ListAgent_GetSources.md)
 
-* [POST Agents/List/GetTask](v1ListAgent_GetTask.md)
+* [POST Agents/List/DeleteHierarchyFromPath](v1ListAgent_DeleteHierarchyFromPath.md)
 
-* [POST Agents/List/GetDocumentTemplateTask](v1ListAgent_GetDocumentTemplateTask.md)
+* [POST Agents/List/GetLanguageInfo](v1ListAgent_GetLanguageInfo.md)
 
-* [POST Agents/List/GetTaskList](v1ListAgent_GetTaskList.md)
+* [POST Agents/List/GetLanguageInfoList](v1ListAgent_GetLanguageInfoList.md)
 
 * [POST Agents/List/GetInstalledLanguages](v1ListAgent_GetInstalledLanguages.md)
 
@@ -320,11 +342,11 @@ generated: true
 
 * [POST Agents/List/GetLocalizedText](v1ListAgent_GetLocalizedText.md)
 
-* [POST Agents/List/GetLocalizedTextByType](v1ListAgent_GetLocalizedTextByType.md)
+* [POST Agents/List/GetConsentPurposeList](v1ListAgent_GetConsentPurposeList.md)
 
-* [POST Agents/List/GetLocalizedTextList](v1ListAgent_GetLocalizedTextList.md)
+* [POST Agents/List/GetConsentPurposes](v1ListAgent_GetConsentPurposes.md)
 
-* [POST Agents/List/GetLocalizedTexts](v1ListAgent_GetLocalizedTexts.md)
+* [POST Agents/List/GetConsentSource](v1ListAgent_GetConsentSource.md)
 
 * [POST Agents/List/SaveConsentSource](v1ListAgent_SaveConsentSource.md)
 
@@ -448,12 +470,6 @@ generated: true
 
 * [POST Agents/List/UpdateHierarchyFromPath](v1ListAgent_UpdateHierarchyFromPath.md)
 
-* [POST Agents/List/DeleteHierarchyFromPath](v1ListAgent_DeleteHierarchyFromPath.md)
-
-* [POST Agents/List/GetLanguageInfo](v1ListAgent_GetLanguageInfo.md)
-
-* [POST Agents/List/GetLanguageInfoList](v1ListAgent_GetLanguageInfoList.md)
-
 * [POST Agents/List/CreateDefaultAmountClassEntity](v1ListAgent_CreateDefaultAmountClassEntity.md)
 
 * [POST Agents/List/SaveAmountClassEntity](v1ListAgent_SaveAmountClassEntity.md)
@@ -534,6 +550,12 @@ generated: true
 
 * [POST Agents/List/DeleteTicketStatusEntity](v1ListAgent_DeleteTicketStatusEntity.md)
 
+* [POST Agents/List/CreateDefaultTicketTypeEntity](v1ListAgent_CreateDefaultTicketTypeEntity.md)
+
+* [POST Agents/List/SaveTicketTypeEntity](v1ListAgent_SaveTicketTypeEntity.md)
+
+* [POST Agents/List/DeleteTicketTypeEntity](v1ListAgent_DeleteTicketTypeEntity.md)
+
 * [POST Agents/List/CreateDefaultWebPanelEntity](v1ListAgent_CreateDefaultWebPanelEntity.md)
 
 * [POST Agents/List/SaveWebPanelEntity](v1ListAgent_SaveWebPanelEntity.md)
@@ -573,9 +595,3 @@ generated: true
 * [POST Agents/List/SetEmarketingStrictMode](v1ListAgent_SetEmarketingStrictMode.md)
 
 * [POST Agents/List/GetEmarketingStrictMode](v1ListAgent_GetEmarketingStrictMode.md)
-
-* [POST Agents/List/GetConsentPurposeList](v1ListAgent_GetConsentPurposeList.md)
-
-* [POST Agents/List/GetConsentPurposes](v1ListAgent_GetConsentPurposes.md)
-
-* [POST Agents/List/GetConsentSource](v1ListAgent_GetConsentSource.md)

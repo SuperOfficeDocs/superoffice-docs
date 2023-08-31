@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 819,
-  "Name": "Johns-Schneider",
-  "Description": "Optimized 5th generation local area network",
-  "DeltaJson": "exercitationem",
+  "ConfigurableScreenDeltaId": 832,
+  "Name": "Lakin-Cormier",
+  "Description": "Open-source national projection",
+  "DeltaJson": "voluptatem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "2014-09-08T16:00:40.320651+02:00",
-  "CreatedDate": "2001-11-02T16:00:40.320651+01:00",
+  "RecipeId": "dolorem",
+  "UpdatedDate": "2018-03-09T03:31:25.8228647+01:00",
+  "CreatedDate": "1999-08-07T03:31:25.8228647+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    257,
-    233
+    286,
+    951
   ],
-  "AppliesToKey": "vitae",
+  "AppliesToKey": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

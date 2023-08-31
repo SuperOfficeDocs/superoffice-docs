@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 168,
-  "Name": "Grimes, Rohan and Stracke",
-  "AssociateId": 330,
-  "DetailsTable": 402,
-  "DetailsRecord": 318,
+  "Id": 170,
+  "Name": "Anderson-King",
+  "AssociateId": 347,
+  "DetailsTable": 589,
+  "DetailsRecord": 117,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "est",
-    "ParameterObject2": "consequatur"
+    "ParameterObject1": "esse",
+    "ParameterObject2": "dolor"
   },
-  "LastStarted": "2008-06-30T16:00:41.0862117+02:00",
-  "Created": "1996-10-20T16:00:41.0862117+02:00",
-  "StartCount": 190,
-  "DatabaseSerialNumber": "1072215",
-  "Context": "et",
-  "Result": "sint",
+  "LastStarted": "2002-09-11T03:31:26.6050723+02:00",
+  "Created": "1997-01-16T03:31:26.6050723+01:00",
+  "StartCount": 537,
+  "DatabaseSerialNumber": "1304948",
+  "Context": "qui",
+  "Result": "sequi",
   "State": "All",
-  "Description": "Self-enabling incremental concept",
-  "Response": "sit",
-  "Request": "nobis",
-  "ProgressDescription": "Future-proofed tertiary paradigm",
-  "ProgressPercent": 474,
-  "FileName": "Morissette Inc and Sons",
+  "Description": "Expanded web-enabled task-force",
+  "Response": "ipsum",
+  "Request": "debitis",
+  "ProgressDescription": "Assimilated even-keeled info-mediaries",
+  "ProgressPercent": 681,
+  "FileName": "Strosin Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 542
     }
   }
 }

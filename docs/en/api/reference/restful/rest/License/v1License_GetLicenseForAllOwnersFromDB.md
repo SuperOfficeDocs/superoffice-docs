@@ -58,7 +58,7 @@ OK
 GET /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,15 +77,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 542,
-        "NumberOfLicensesFree": 374,
-        "NumberOfLicensesAdded": 538,
-        "NumberOfLicensesNewTotal": 42,
-        "NumberOfLicensesNewFree": 271,
-        "NumberOfLicensesTotal": 319
+        "NumberOfLicensesInUse": 5,
+        "NumberOfLicensesFree": 155,
+        "NumberOfLicensesAdded": 210,
+        "NumberOfLicensesNewTotal": 886,
+        "NumberOfLicensesNewFree": 475,
+        "NumberOfLicensesTotal": 4
       }
     ],
-    "AccumulatedNextCheckDate": "2012-07-29T16:00:48.664623+02:00"
+    "AccumulatedNextCheckDate": "2021-01-28T03:31:33.3031011+01:00"
   },
   {
     "Reason": "",
@@ -96,15 +96,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 542,
-        "NumberOfLicensesFree": 374,
-        "NumberOfLicensesAdded": 538,
-        "NumberOfLicensesNewTotal": 42,
-        "NumberOfLicensesNewFree": 271,
-        "NumberOfLicensesTotal": 319
+        "NumberOfLicensesInUse": 5,
+        "NumberOfLicensesFree": 155,
+        "NumberOfLicensesAdded": 210,
+        "NumberOfLicensesNewTotal": 886,
+        "NumberOfLicensesNewFree": 475,
+        "NumberOfLicensesTotal": 4
       }
     ],
-    "AccumulatedNextCheckDate": "2012-07-29T16:00:48.664623+02:00"
+    "AccumulatedNextCheckDate": "2021-01-28T03:31:33.3031011+01:00"
   }
 ]
 ```

@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 852,
-  "UniqueId": "aut",
-  "Name": "Conn Group",
-  "Description": "Customer-focused zero tolerance success",
-  "AssociateId": 242,
-  "Columns": 728,
+  "DashboardId": 617,
+  "UniqueId": "impedit",
+  "Name": "Wiza Group",
+  "Description": "Profit-focused 24 hour Graphical User Interface",
+  "AssociateId": 940,
+  "Columns": 917,
   "Theme": null,
-  "VisibleForAll": 281,
+  "VisibleForAll": 109,
   "VisibleForAssociates": [
-    508,
-    31
+    243,
+    286
   ],
   "VisibleForGroups": [
-    449,
-    721
+    223,
+    702
   ],
-  "PinForAll": 108,
+  "PinForAll": 953,
   "PinForAssociates": [
-    360,
-    896
+    154,
+    596
   ],
   "PinForGroups": [
-    35,
-    977
+    218,
+    819
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 972,
-  "UniqueId": "ducimus",
-  "Name": "Bode-Fahey",
-  "Description": "Function-based system-worthy time-frame",
-  "AssociateId": 922,
-  "Columns": 400,
+  "DashboardId": 573,
+  "UniqueId": "iste",
+  "Name": "Witting LLC",
+  "Description": "Programmable non-volatile algorithm",
+  "AssociateId": 527,
+  "Columns": 557,
   "Theme": null,
-  "VisibleForAll": 436,
+  "VisibleForAll": 335,
   "VisibleForAssociates": [
-    206,
-    980
+    129,
+    628
   ],
   "VisibleForGroups": [
-    827,
-    385
+    846,
+    164
   ],
-  "PinForAll": 375,
+  "PinForAll": 623,
   "PinForAssociates": [
-    110,
-    747
+    525,
+    804
   ],
   "PinForGroups": [
-    1002,
-    117
+    169,
+    330
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   },
   "_Links": {

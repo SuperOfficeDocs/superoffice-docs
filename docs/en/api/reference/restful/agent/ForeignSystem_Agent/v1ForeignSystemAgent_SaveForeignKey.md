@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Dickens LLC",
-  "DeviceName": "Legros-Ondricka",
-  "DeviceIdentifier": "at"
+  "ApplicationName": "Schmeler-Rice",
+  "DeviceName": "Schiller-Braun",
+  "DeviceIdentifier": "quia"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "aut",
-  "RecordId": 824,
-  "CreatedDate": "2020-10-24T16:00:41.0705907+02:00",
-  "UpdatedDate": "2013-08-22T16:00:41.0705907+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "numquam",
-  "TableName": "Lind LLC",
+  "Key": "quam",
+  "Value": "quia",
+  "RecordId": 502,
+  "CreatedDate": "2017-06-15T03:31:26.589451+02:00",
+  "UpdatedDate": "2016-09-02T03:31:26.589451+02:00",
+  "UpdatedBy": "facilis",
+  "CreatedBy": "quam",
+  "TableName": "Hessel, Hickle and Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   }
 }

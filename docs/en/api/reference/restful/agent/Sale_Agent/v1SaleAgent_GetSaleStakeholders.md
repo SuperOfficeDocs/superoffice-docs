@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 622
+  "SaleId": 616
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Zboncak LLC",
-    "Comment": "sed",
-    "StakeholderRoleId": 360,
-    "CountryId": 908,
-    "PersonId": 653,
-    "EmailDescription": "isabell@macejkovicrenner.info",
-    "EmailId": 882,
-    "EmailAddress": "odell@armstrong.biz",
-    "PhoneId": 83,
-    "ContactName": "Sanford Inc and Sons",
-    "ContactId": 125,
-    "SaleId": 363,
-    "Mrmrs": "sed",
-    "Firstname": "Sallie",
-    "MiddleName": "D'Amore-Hane",
-    "Lastname": "McLaughlin",
-    "SaleStakeholderId": 79,
-    "Rank": 313,
-    "Phone": "308-357-6313 x6431",
+    "StakeholderRoleName": "Klocko-Schoen",
+    "Comment": "a",
+    "StakeholderRoleId": 823,
+    "CountryId": 587,
+    "PersonId": 993,
+    "EmailDescription": "rickie_ziemann@wolf.co.uk",
+    "EmailId": 987,
+    "EmailAddress": "michaela.thiel@ward.info",
+    "PhoneId": 872,
+    "ContactName": "Cormier Inc and Sons",
+    "ContactId": 246,
+    "SaleId": 323,
+    "Mrmrs": "minus",
+    "Firstname": "German",
+    "MiddleName": "Bradtke, Blick and Schuster",
+    "Lastname": "Treutel",
+    "SaleStakeholderId": 587,
+    "Rank": 741,
+    "Phone": "(092)933-1543 x232",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldLength": 920
       }
     }
   }

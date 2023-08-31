@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=86
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=121
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 216,
-  "Name": "Nolan-Thompson",
-  "Tooltip": "iste",
-  "Rank": 887,
+  "SaleTypeId": 149,
+  "Name": "Jacobi-Cole",
+  "Tooltip": "omnis",
+  "Rank": 600,
   "DurationUnit": "Century",
-  "SaleDuration": 852,
-  "SaleTypeCatId": 404,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 423,
+  "SaleTypeCatId": 731,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 742,
-  "QuoteLinesTemplate": 766,
-  "ConfirmationLinesTemplate": 992,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 110,
+  "QuoteLinesTemplate": 370,
+  "ConfirmationLinesTemplate": 561,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 241,
-  "MinEarningPercent": 481,
-  "GroupQuoteLinesBy": 212,
-  "SortGroupLinesBy": 229,
+  "MaxDiscountPercent": 686,
+  "MinEarningPercent": 417,
+  "GroupQuoteLinesBy": 181,
+  "SortGroupLinesBy": 221,
   "Stages": [
     {
-      "Id": 684,
-      "Name": "Hammes-Harvey",
-      "ToolTip": "Harum nihil ullam cum est eos assumenda.",
+      "Id": 937,
+      "Name": "Muller LLC",
+      "ToolTip": "Magnam dicta.",
       "Deleted": false,
-      "Rank": 504,
-      "Type": "et",
-      "ColorBlock": 241,
-      "IconHint": "quae",
+      "Rank": 65,
+      "Type": "rerum",
+      "ColorBlock": 384,
+      "IconHint": "voluptatibus",
       "Selected": false,
-      "LastChanged": "2014-09-29T16:00:41.1330807+02:00",
+      "LastChanged": "2002-09-02T03:31:26.6519338+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Jarod Joshuah O'Conner Sr.",
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "adipisci",
+      "Hidden": true,
+      "FullName": "Santos Zieme",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 96
     }
   }
 }

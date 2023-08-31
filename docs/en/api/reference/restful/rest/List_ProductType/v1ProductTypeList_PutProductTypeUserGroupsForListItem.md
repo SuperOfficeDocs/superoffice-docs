@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Jast LLC",
-    "ToolTip": "Incidunt voluptates cupiditate et.",
-    "Deleted": false,
-    "Rank": 766,
-    "Type": "qui",
-    "ColorBlock": 592,
-    "IconHint": "itaque",
+    "Id": 683,
+    "Name": "Heller, Farrell and VonRueden",
+    "ToolTip": "Corrupti qui culpa veritatis.",
+    "Deleted": true,
+    "Rank": 487,
+    "Type": "nihil",
+    "ColorBlock": 159,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2009-07-23T16:00:49.1801938+02:00",
+    "LastChanged": "2012-12-27T03:31:33.7429875+01:00",
     "ChildItems": [
       {
-        "Id": 679,
-        "Name": "Kris-Barton",
-        "ToolTip": "Ea eos aut nihil laboriosam.",
-        "Deleted": false,
-        "Rank": 891,
-        "Type": "omnis",
-        "ColorBlock": 407,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2015-12-17T16:00:49.1801938+01:00",
+        "Id": 805,
+        "Name": "Vandervort, Hermiston and Bailey",
+        "ToolTip": "Maxime voluptas nostrum quo iste consequatur consequatur laudantium.",
+        "Deleted": true,
+        "Rank": 801,
+        "Type": "asperiores",
+        "ColorBlock": 883,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2017-12-26T03:31:33.7586101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "alias",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Sherwood Schinner"
+        "FullName": "Christa Emard"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Rosa Koepp"
+    "ExtraInfo": "tempora",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Tianna Jada Gerlach DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Gleason Group",
-    "ToolTip": "Reprehenderit quas dolores reprehenderit cumque.",
-    "Deleted": true,
-    "Rank": 44,
-    "Type": "nihil",
-    "ColorBlock": 805,
-    "IconHint": "dicta",
-    "Selected": true,
-    "LastChanged": "2003-06-27T16:00:49.1801938+02:00",
+    "Id": 771,
+    "Name": "Lueilwitz Inc and Sons",
+    "ToolTip": "Eos vel et aliquam sed.",
+    "Deleted": false,
+    "Rank": 262,
+    "Type": "reprehenderit",
+    "ColorBlock": 95,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "2000-06-14T03:31:33.7586101+02:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Casper, Larkin and Kirlin",
-        "ToolTip": "Rerum natus ex impedit ut placeat accusantium.",
+        "Id": 185,
+        "Name": "Kassulke Inc and Sons",
+        "ToolTip": "Nesciunt aut ullam enim fugit eius eligendi.",
         "Deleted": false,
-        "Rank": 518,
-        "Type": "minus",
-        "ColorBlock": 218,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "1998-07-30T16:00:49.1801938+02:00",
+        "Rank": 547,
+        "Type": "non",
+        "ColorBlock": 12,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2009-07-30T03:31:33.7586101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
+        "ExtraInfo": "modi",
         "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Kaela Littel",
+        "FullName": "Spencer Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 715
+            "FieldLength": 949
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "et",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Shayne Grady",
+    "FullName": "Miss Kobe Yvette Davis DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 859
       }
     }
   }

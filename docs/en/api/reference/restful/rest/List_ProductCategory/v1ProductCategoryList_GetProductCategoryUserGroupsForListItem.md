@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Shields-Kozey",
-    "ToolTip": "Sed tempora.",
-    "Deleted": false,
-    "Rank": 707,
-    "Type": "est",
-    "ColorBlock": 742,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2014-12-26T16:00:49.1489485+01:00",
+    "Id": 354,
+    "Name": "Cummings-Kuphal",
+    "ToolTip": "Expedita atque occaecati quia rerum quas.",
+    "Deleted": true,
+    "Rank": 440,
+    "Type": "consequuntur",
+    "ColorBlock": 118,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2009-11-24T03:31:33.7273746+01:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Luettgen-Dickinson",
-        "ToolTip": "Enim non consequuntur deserunt earum nulla.",
+        "Id": 834,
+        "Name": "Herzog Group",
+        "ToolTip": "Rerum voluptatem quibusdam.",
         "Deleted": false,
-        "Rank": 978,
-        "Type": "nisi",
-        "ColorBlock": 475,
-        "IconHint": "recusandae",
+        "Rank": 369,
+        "Type": "doloremque",
+        "ColorBlock": 489,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2006-11-07T16:00:49.1489485+01:00",
+        "LastChanged": "2003-08-21T03:31:33.7273746+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "animi",
+        "ExtraInfo": "ut",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Saige Gutmann",
+        "FullName": "Nicole McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 163
+            "FieldType": "System.Int32",
+            "FieldLength": 481
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "quis",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Adonis Parker",
+    "FullName": "Dr. Trystan Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 91
       }
     }
   }

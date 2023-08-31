@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2018-10-17T16:00:41.8987907+02:00",
+  "When": "2019-01-25T03:31:27.2936791+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "voluptatem",
-      "ValueChangeFrom": 30697.53,
-      "ValueChangeTo": 25162.886,
+      "FieldIdentifier": "qui",
+      "ValueChangeFrom": 12103.508,
+      "ValueChangeTo": 8176.606,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 396
         }
       }
     },
     {
-      "FieldIdentifier": "voluptatem",
-      "ValueChangeFrom": 30697.53,
-      "ValueChangeTo": 25162.886,
+      "FieldIdentifier": "qui",
+      "ValueChangeFrom": 12103.508,
+      "ValueChangeTo": 8176.606,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 396
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   }
 }

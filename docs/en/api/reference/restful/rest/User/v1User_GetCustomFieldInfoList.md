@@ -67,7 +67,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Halvorson Inc and Sons",
-    "DisplayName": "Crooks-Parker",
-    "Description": "Enterprise-wide upward-trending strategy",
-    "ShortLabel": "cum",
+    "FieldName": "Waters LLC",
+    "DisplayName": "Stokes LLC",
+    "Description": "Function-based client-server benchmark",
+    "ShortLabel": "voluptas",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 571,
-    "TemplateVariableName": "Kunde Inc and Sons"
+    "Rank": 837,
+    "TemplateVariableName": "Hilll, Gusikowski and Mosciski"
   }
 ]
 ```

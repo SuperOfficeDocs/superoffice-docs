@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Haley-Schamberger",
-  "PersonId": 935
+  "ParameterName": "Hermann Inc and Sons",
+  "PersonId": 507
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 581,
-  "Name": "Johns Inc and Sons",
-  "Value": "rerum",
-  "CreatedDate": "1996-09-08T16:00:40.1019505+02:00",
-  "UpdatedDate": "2012-04-14T16:00:40.1019505+02:00",
-  "CreatedBy": "voluptas",
-  "UpdatedBy": "impedit",
+  "AudienceLayoutId": 962,
+  "Name": "Littel, Parisian and Muller",
+  "Value": "quis",
+  "CreatedDate": "2015-10-24T03:31:25.6339962+02:00",
+  "UpdatedDate": "2003-01-12T03:31:25.6339962+01:00",
+  "CreatedBy": "aut",
+  "UpdatedBy": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 776
     }
   }
 }

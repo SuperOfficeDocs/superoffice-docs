@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 317,
-  "Name": "Metz, Macejkovic and Wunsch",
-  "Tooltip": "error",
-  "SaveInDb": 402,
-  "Filename": "et",
-  "DefaultOref": "eos",
+  "DocumentTemplateId": 822,
+  "Name": "Upton Inc and Sons",
+  "Tooltip": "at",
+  "SaveInDb": 518,
+  "Filename": "est",
+  "DefaultOref": "possimus",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 548,
-  "IntentId": 934,
+  "AutoeventId": 390,
+  "IntentId": 443,
   "IsDefaultPublished": false,
-  "Rank": 162,
-  "LoadTemplateFromPlugin": 55,
-  "MimeType": "consequatur",
+  "Rank": 517,
+  "LoadTemplateFromPlugin": 262,
+  "MimeType": "praesentium",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 259,
+  "DocumentTypeKey": 389,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "micaela@jerde.com",
+  "EmailSubject": "hipolito@manteupton.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kaci_schamberger@brekketurcotte.ca",
+  "SenderEmailAddress": "edison@kossboyle.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 907
     }
   }
 }

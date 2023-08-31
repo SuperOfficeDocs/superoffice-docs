@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Olson-Reichert",
-    "Tooltip": "repudiandae",
+    "Id": 185,
+    "Name": "Kovacek LLC",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 203,
-    "Rank": 227,
+    "UdListDefinitionId": 673,
+    "Rank": 281,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 504
       }
     }
   }

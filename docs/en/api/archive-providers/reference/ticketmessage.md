@@ -40,7 +40,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/saleId|int|Request - Sale ID: The database ID of the sale record| x |
 |ticket/projectId|int|Request - Project ID: Database ID of project record| x |
 |ticket/ticketStatusName|listAny|Request - Status: Request status| x |
-|ticket/categoryFullName|listAny|Request - Category: Request category| x |
+|ticket/categoryFullName|ejCategory|Request - Category: Request category| x |
 |ticket/priorityName|listAny|Request - Priority: Service priority| x |
 |ticket/ticketId|int|Request - ID: Displays request ID| x |
 |ticket/title|string|Request - Title: Displays the request title| x |
@@ -804,7 +804,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=author,ticket/person/personUrl/URLDescription,ticket/extra/x_ticket_faq,ticket/sale/visibleFor,ticket/sale/associate/simultaneousEjUser
+GET /api/v1/archive/TicketMessage?$select=messageId,ticket/lastChanged,ticket/ownedBy/contactCategory,ticket/person/personExtra/x_person_shorttext_list,ticket/person/legalBaseEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 172
+  "SelectionId": 490
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bauch LLC",
-    "Operator": "repellat",
+    "Name": "Barrows-Ortiz",
+    "Operator": "et",
     "Values": [
-      "nemo",
-      "aut"
+      "neque",
+      "optio"
     ],
     "DisplayValues": [
-      "ad",
-      "modi"
+      "harum",
+      "amet"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Luettgen, McClure and Stokes",
-        "Operator": "facere",
+        "Name": "Bins-McCullough",
+        "Operator": "dignissimos",
         "Values": [
-          "dolore",
-          "et"
+          "adipisci",
+          "libero"
         ],
         "DisplayValues": [
-          "iure",
-          "libero"
+          "officiis",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 496,
+        "InterParenthesis": 963,
         "InterOperator": "And",
-        "UniqueHash": 958
+        "UniqueHash": 714
       }
     ],
-    "InterParenthesis": 596,
+    "InterParenthesis": 898,
     "InterOperator": "And",
-    "UniqueHash": 753
+    "UniqueHash": 119
   }
 ]
 ```

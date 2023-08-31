@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 674,
-  "PersonId": 124,
-  "AppointmentId": 222,
-  "DocumentId": 184,
-  "SaleId": 427,
-  "SelectionId": 588,
-  "ProjectId": 438,
+  "ContactId": 338,
+  "PersonId": 968,
+  "AppointmentId": 144,
+  "DocumentId": 732,
+  "SaleId": 763,
+  "SelectionId": 320,
+  "ProjectId": 563,
   "CustomTags": {
-    "CustomTags1": "atque",
-    "CustomTags2": "assumenda"
+    "CustomTags1": "eos",
+    "CustomTags2": "nulla"
   },
-  "UiCulture": "nulla"
+  "UiCulture": "nisi"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 3,
+  "DocumentId": 321,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eius",
-  "Header": "sunt",
-  "Name": "Shanahan-Kunze",
-  "OurRef": "nemo",
-  "YourRef": "recusandae",
-  "CreatedDate": "2007-10-25T16:00:40.7737465+02:00",
-  "UpdatedDate": "2011-10-14T16:00:40.7737465+02:00",
-  "Description": "Networked context-sensitive product",
+  "Attention": "voluptas",
+  "Header": "ducimus",
+  "Name": "Schulist-Feil",
+  "OurRef": "deleniti",
+  "YourRef": "et",
+  "CreatedDate": "2021-09-15T03:31:26.1364448+02:00",
+  "UpdatedDate": "1997-08-10T03:31:26.1364448+02:00",
+  "Description": "Integrated uniform paradigm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-07-31T16:00:40.7737465+02:00",
-  "ExternalRef": "quasi",
+  "Date": "2006-08-20T03:31:26.1364448+02:00",
+  "ExternalRef": "quis",
   "Completed": "Completed",
-  "ActiveLinks": 280,
+  "ActiveLinks": 37,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler-Yost",
-      "Id": 452,
-      "Description": "Profound global algorithm",
-      "ExtraInfo": "sit",
-      "LinkId": 350,
+      "EntityName": "Gaylord, Bosco and Bogan",
+      "Id": 507,
+      "Description": "Ameliorated reciprocal hardware",
+      "ExtraInfo": "molestiae",
+      "LinkId": 501,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 619
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 468,
-  "Snum": 518,
+  "SuggestedDocumentId": 740,
+  "Snum": 359,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kiera Jaskolski II",
-    "SuperOffice:2": "Rogers Runte"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "374838650"
   },
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "1999-11-01T16:00:40.7737465+01:00",
-  "PublishTo": "2020-09-09T16:00:40.7737465+02:00",
-  "PublishFrom": "2006-03-26T16:00:40.7737465+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-12-22T03:31:26.1364448+01:00",
+  "PublishTo": "2017-06-19T03:31:26.1364448+02:00",
+  "PublishFrom": "2013-12-15T03:31:26.1364448+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 226,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 584
         }
       }
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 226,
       "Visibility": "All",
-      "DisplayValue": "temporibus",
+      "DisplayValue": "quidem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 584
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 696
     }
   }
 }

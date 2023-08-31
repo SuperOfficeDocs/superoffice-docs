@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=aut
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=magnam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Ullrich Group",
-    "ToolTip": "Consequuntur dolorem est id temporibus quis eaque ipsam.",
+    "Id": 246,
+    "Name": "Breitenberg, Paucek and Robel",
+    "ToolTip": "Eveniet ea vero voluptatum et sed facilis.",
     "Deleted": false,
-    "Rank": 886,
-    "Type": "perspiciatis",
+    "Rank": 314,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Dickinson-Buckridge",
-        "ToolTip": "Rerum ab quis quod totam.",
-        "Deleted": true,
-        "Rank": 157,
-        "Type": "quia",
+        "Id": 785,
+        "Name": "Quigley, White and Schowalter",
+        "ToolTip": "Neque eius quia rerum.",
+        "Deleted": false,
+        "Rank": 110,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quas",
-        "ColorBlock": 856,
-        "ExtraInfo": "in",
-        "StyleHint": "commodi",
-        "FullName": "Ellen Hermann",
+        "IconHint": "rerum",
+        "ColorBlock": 683,
+        "ExtraInfo": "quis",
+        "StyleHint": "qui",
+        "FullName": "Katlyn Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldType": "System.String",
+            "FieldLength": 758
           }
         }
       }
     ],
-    "IconHint": "magni",
-    "ColorBlock": 410,
-    "ExtraInfo": "qui",
-    "StyleHint": "est",
-    "FullName": "Ellis Ladarius Padberg III",
+    "IconHint": "accusantium",
+    "ColorBlock": 870,
+    "ExtraInfo": "vel",
+    "StyleHint": "dolores",
+    "FullName": "Mr. Adrian Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 281
       }
     }
   }

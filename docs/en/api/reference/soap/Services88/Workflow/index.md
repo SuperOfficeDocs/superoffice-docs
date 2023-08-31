@@ -16,7 +16,10 @@ Download [WSDL file for Services88/Workflow](../Services88-Workflow.md) if you n
 
 * [AddAfterWorkflowStep](AddAfterWorkflowStep.md)
 * [ConnectEmailFlowContent](ConnectEmailFlowContent.md)
+* [CopyEmailFlowContent](CopyEmailFlowContent.md)
 * [CreateDefaultEmailFlow](CreateDefaultEmailFlow.md)
+* [CreateDefaultWorkflowEvent](CreateDefaultWorkflowEvent.md)
+* [CreateDefaultWorkflowEventResult](CreateDefaultWorkflowEventResult.md)
 * [CreateDefaultWorkflowFilter](CreateDefaultWorkflowFilter.md)
 * [CreateDefaultWorkflowGoal](CreateDefaultWorkflowGoal.md)
 * [CreateDefaultWorkflowStepFromType](CreateDefaultWorkflowStepFromType.md)
@@ -32,9 +35,12 @@ Download [WSDL file for Services88/Workflow](../Services88-Workflow.md) if you n
 * [GetWorkflowStep](GetWorkflowStep.md)
 * [GetWorkflowStepOption](GetWorkflowStepOption.md)
 * [GetWorkflowTrigger](GetWorkflowTrigger.md)
+* [RemoveParticipantsFromEmailFlow](RemoveParticipantsFromEmailFlow.md)
+* [Run](Run.md)
 * [SaveEmailFlow](SaveEmailFlow.md)
 * [SaveWorkflowGoal](SaveWorkflowGoal.md)
 * [SaveWorkflowStepOption](SaveWorkflowStepOption.md)
 * [SaveWorkflowTrigger](SaveWorkflowTrigger.md)
+* [SendEvent](SendEvent.md)
 * [TryAddPersonsToEmailFlow](TryAddPersonsToEmailFlow.md)
 

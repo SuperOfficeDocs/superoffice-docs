@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 497,
-  "Rank": 639,
-  "DefaultTask": 977,
-  "DefaultTaskText": "ratione",
-  "IsVisual": false,
-  "LastGenerated": "2011-06-05T16:00:41.711291+02:00",
-  "Description": "Vision-oriented foreground infrastructure",
-  "Name": "Mohr-Rosenbaum",
-  "StatusMonitorId": 566,
-  "PictureId": 807,
-  "NeedsUpdate": true,
+  "OwnerTable": 990,
+  "Rank": 952,
+  "DefaultTask": 807,
+  "DefaultTaskText": "porro",
+  "IsVisual": true,
+  "LastGenerated": "2018-09-29T03:31:27.1374712+02:00",
+  "Description": "Total discrete analyzer",
+  "Name": "Raynor-Quitzon",
+  "StatusMonitorId": 532,
+  "PictureId": 710,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 38,
-  "NumNeedUpdate": 244,
-  "GenerationStart": "2005-05-06T16:00:41.711291+02:00",
+  "NumMatches": 159,
+  "NumNeedUpdate": 174,
+  "GenerationStart": "2022-07-18T03:31:27.1374712+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

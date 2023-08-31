@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Keeling Inc and Sons",
-  "DeviceName": "Lindgren-Hauck",
-  "DeviceIdentifier": "eveniet",
-  "KeyName": "Mante, Wuckert and Yundt",
-  "KeyValue": "ullam",
-  "TableName": "Ruecker, Frami and Hoppe"
+  "ApplicationName": "Bernhard, Schoen and Franecki",
+  "DeviceName": "Corkery Group",
+  "DeviceIdentifier": "animi",
+  "KeyName": "Block-Parker",
+  "KeyValue": "distinctio",
+  "TableName": "McKenzie, Kiehn and McGlynn"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quia",
-  "Value": "ratione",
-  "RecordId": 846,
-  "CreatedDate": "2009-08-08T16:00:41.0705907+02:00",
-  "UpdatedDate": "2022-07-25T16:00:41.0705907+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "unde",
-  "TableName": "Kling-Bayer",
+  "Key": "velit",
+  "Value": "maxime",
+  "RecordId": 806,
+  "CreatedDate": "2012-09-23T03:31:26.589451+02:00",
+  "UpdatedDate": "2016-05-14T03:31:26.589451+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "provident",
+  "TableName": "Connelly Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 314
     }
   }
 }

@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Heaney LLC",
-    "ToolTip": "Quas sunt non ut ut mollitia labore.",
-    "Deleted": false,
-    "Rank": 182,
-    "Type": "ullam",
-    "ColorBlock": 505,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2005-05-09T16:00:48.8364781+02:00",
+    "Id": 88,
+    "Name": "Zboncak-DuBuque",
+    "ToolTip": "Totam ullam nulla.",
+    "Deleted": true,
+    "Rank": 663,
+    "Type": "est",
+    "ColorBlock": 242,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2007-03-29T03:31:33.4604945+02:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Okuneva, Rempel and Cormier",
-        "ToolTip": "Earum aut.",
-        "Deleted": false,
-        "Rank": 865,
-        "Type": "optio",
-        "ColorBlock": 391,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2004-03-30T16:00:48.8364781+02:00",
+        "Id": 513,
+        "Name": "Murray Group",
+        "ToolTip": "Et laborum et autem quia.",
+        "Deleted": true,
+        "Rank": 88,
+        "Type": "qui",
+        "ColorBlock": 10,
+        "IconHint": "neque",
+        "Selected": true,
+        "LastChanged": "2011-03-18T03:31:33.4604945+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Anika O'Kon",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Rashad Britney McGlynn DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 288
+            "FieldLength": 692
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "suscipit",
-    "Hidden": false,
-    "FullName": "Mariam Kertzmann",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Raven Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 959
       }
     }
   }

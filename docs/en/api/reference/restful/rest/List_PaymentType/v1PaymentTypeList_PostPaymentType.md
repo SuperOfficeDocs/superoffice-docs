@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 288,
-  "Name": "Brekke-Kerluke",
-  "Tooltip": "autem",
+  "Id": 82,
+  "Name": "Smith Inc and Sons",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 449,
-  "Rank": 72
+  "UdListDefinitionId": 580,
+  "Rank": 443
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 518,
-  "Name": "O'Kon, Wyman and Wolff",
-  "Tooltip": "veniam",
-  "Deleted": false,
-  "UdListDefinitionId": 832,
-  "Rank": 266,
+  "Id": 248,
+  "Name": "Feest Group",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "UdListDefinitionId": 310,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

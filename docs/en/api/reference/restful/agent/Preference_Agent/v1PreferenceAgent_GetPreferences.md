@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "sunt",
-      "Key": "at"
+      "Section": "sint",
+      "Key": "quam"
     },
     {
-      "Section": "sunt",
-      "Key": "at"
+      "Section": "sint",
+      "Key": "quam"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "quod",
+    "RawValue": "quo",
     "Specification": null,
-    "DisplayValue": "mollitia",
-    "DisplayTooltip": "enim",
+    "DisplayValue": "architecto",
+    "DisplayTooltip": "incidunt",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 635,
-    "PrefDescId": 700,
-    "TableName": "Ryan-Reichert",
-    "UserPreferenceId": 121,
+    "TargetId": 521,
+    "PrefDescId": 582,
+    "TableName": "Hilpert Inc and Sons",
+    "UserPreferenceId": 536,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 48
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

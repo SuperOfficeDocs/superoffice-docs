@@ -104,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 910,
-  "UniqueId": "id",
-  "Name": "Anderson, Bergstrom and Hudson",
-  "Description": "Public-key encompassing moderator",
-  "AssociateId": 137,
-  "Columns": 489,
+  "DashboardId": 968,
+  "UniqueId": "doloremque",
+  "Name": "Kunde-Schuppe",
+  "Description": "Object-based maximized solution",
+  "AssociateId": 298,
+  "Columns": 405,
   "Theme": null,
-  "VisibleForAll": 797,
+  "VisibleForAll": 450,
   "VisibleForAssociates": [
-    812,
-    574
+    613,
+    949
   ],
   "VisibleForGroups": [
-    759,
-    526
+    715,
+    439
   ],
-  "PinForAll": 767,
+  "PinForAll": 289,
   "PinForAssociates": [
-    686,
-    925
+    864,
+    219
   ],
   "PinForGroups": [
-    242,
-    833
+    115,
+    267
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 907,
-  "UniqueId": "quia",
-  "Name": "Macejkovic LLC",
-  "Description": "Innovative multimedia service-desk",
-  "AssociateId": 49,
-  "Columns": 167,
+  "DashboardId": 445,
+  "UniqueId": "molestiae",
+  "Name": "Boyle Group",
+  "Description": "Visionary real-time benchmark",
+  "AssociateId": 471,
+  "Columns": 657,
   "Theme": null,
-  "VisibleForAll": 94,
+  "VisibleForAll": 491,
   "VisibleForAssociates": [
-    998,
-    595
+    426,
+    762
   ],
   "VisibleForGroups": [
-    275,
-    957
+    650,
+    32
   ],
-  "PinForAll": 576,
+  "PinForAll": 133,
   "PinForAssociates": [
-    452,
-    137
+    897,
+    971
   ],
   "PinForGroups": [
-    557,
-    184
+    952,
+    147
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldLength": 701
     }
   },
   "_Links": {

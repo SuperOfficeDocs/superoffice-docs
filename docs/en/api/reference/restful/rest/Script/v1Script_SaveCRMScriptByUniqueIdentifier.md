@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatibus",
-  "Name": "Pfannerstill LLC",
-  "Description": "Centralized analyzing definition",
-  "IncludeId": "quo",
-  "Source": "modi",
-  "Registered": "2011-08-05T16:00:48.7427419+02:00",
-  "RegisteredBy": "cumque",
-  "Updated": "2014-10-20T16:00:48.7427419+02:00",
-  "UpdatedBy": "aut",
-  "Path": "error"
+  "UniqueIdentifier": "eum",
+  "Name": "Keeling Inc and Sons",
+  "Description": "Persevering fault-tolerant complexity",
+  "IncludeId": "facilis",
+  "Source": "voluptatum",
+  "Registered": "2002-09-09T03:31:33.3667765+02:00",
+  "RegisteredBy": "est",
+  "Updated": "1999-06-29T03:31:33.3667765+02:00",
+  "UpdatedBy": "quae",
+  "Path": "possimus"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "neque",
-  "Name": "Nikolaus, Ullrich and Klocko",
-  "Description": "Ameliorated neutral strategy",
-  "IncludeId": "minus",
-  "Source": "debitis",
-  "Registered": "2015-11-07T16:00:48.7427419+01:00",
-  "RegisteredBy": "est",
-  "Updated": "2002-11-09T16:00:48.7427419+01:00",
-  "UpdatedBy": "aut",
-  "Path": "consequuntur",
+  "UniqueIdentifier": "vel",
+  "Name": "Beahan-Mertz",
+  "Description": "Total analyzing circuit",
+  "IncludeId": "placeat",
+  "Source": "id",
+  "Registered": "2022-12-01T03:31:33.3667765+01:00",
+  "RegisteredBy": "nisi",
+  "Updated": "2007-03-18T03:31:33.3667765+01:00",
+  "UpdatedBy": "voluptatum",
+  "Path": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 281
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Schultz-Feest",
-  "Tooltip": "autem",
+  "Id": 501,
+  "Name": "Witting, Ziemann and Parisian",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 10,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 245,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
+  "ListType": "hic",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 46,
-  "Name": "Koss, Zieme and Fritsch",
-  "Tooltip": "et",
+  "Id": 797,
+  "Name": "Zulauf, Ankunding and Leuschke",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 765,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 754,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "repellendus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 483
     }
   }
 }

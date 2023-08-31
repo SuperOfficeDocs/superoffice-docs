@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Nienow Group",
-    "ToolTip": "Consectetur nostrum autem maiores et.",
+    "Id": 768,
+    "Name": "Greenholt LLC",
+    "ToolTip": "Illo culpa et libero ea adipisci.",
     "Deleted": false,
-    "Rank": 711,
-    "Type": "soluta",
-    "ColorBlock": 428,
-    "IconHint": "sapiente",
+    "Rank": 587,
+    "Type": "ut",
+    "ColorBlock": 17,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "1997-11-18T16:00:49.3527243+01:00",
+    "LastChanged": "2011-05-26T03:31:33.900328+02:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Rippin-Schamberger",
-        "ToolTip": "Quod tenetur quibusdam rerum qui adipisci libero.",
-        "Deleted": true,
-        "Rank": 827,
-        "Type": "id",
-        "ColorBlock": 190,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2008-06-23T16:00:49.3527243+02:00",
+        "Id": 140,
+        "Name": "Dibbert LLC",
+        "ToolTip": "Neque quia voluptatem explicabo quia ipsum beatae rerum.",
+        "Deleted": false,
+        "Rank": 745,
+        "Type": "sunt",
+        "ColorBlock": 626,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2015-12-30T03:31:33.900328+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "eos",
+        "ExtraInfo": "fuga",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Miss Giovani Nader",
+        "FullName": "Prof. Trevion Lisandro Dach PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldType": "System.String",
+            "FieldLength": 429
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "sint",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Imelda Gibson",
+    "FullName": "Albert Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 624
       }
     }
   }

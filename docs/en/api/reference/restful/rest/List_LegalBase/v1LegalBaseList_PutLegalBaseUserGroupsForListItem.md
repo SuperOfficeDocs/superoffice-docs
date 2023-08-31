@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Welch-Sporer",
-    "ToolTip": "Maiores in earum.",
+    "Id": 437,
+    "Name": "Morissette-Gerhold",
+    "ToolTip": "Magni temporibus delectus dolorum aspernatur atque.",
     "Deleted": false,
-    "Rank": 868,
-    "Type": "est",
-    "ColorBlock": 970,
-    "IconHint": "rem",
+    "Rank": 733,
+    "Type": "repellendus",
+    "ColorBlock": 216,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2022-08-29T16:00:49.0552074+02:00",
+    "LastChanged": "2011-04-22T03:31:33.6323343+02:00",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Kris LLC",
-        "ToolTip": "Assumenda rem sed iure optio.",
-        "Deleted": true,
-        "Rank": 218,
-        "Type": "eaque",
-        "ColorBlock": 386,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "1999-05-18T16:00:49.0552074+02:00",
+        "Id": 986,
+        "Name": "Marvin-Luettgen",
+        "ToolTip": "Blanditiis veritatis nihil.",
+        "Deleted": false,
+        "Rank": 698,
+        "Type": "recusandae",
+        "ColorBlock": 561,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2014-07-24T03:31:33.6323343+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "laborum",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Prof. Orlando Junius Barton"
+        "FullName": "Lester Durgan"
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "minus",
+    "ExtraInfo": "id",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Hanna Mueller DDS"
+    "FullName": "Nola Homenick"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Predovic, Schumm and Emard",
-    "ToolTip": "Minus amet pariatur asperiores quisquam et sed quia.",
+    "Id": 951,
+    "Name": "Herzog Inc and Sons",
+    "ToolTip": "Esse labore vel.",
     "Deleted": false,
-    "Rank": 817,
-    "Type": "porro",
-    "ColorBlock": 215,
-    "IconHint": "et",
+    "Rank": 572,
+    "Type": "inventore",
+    "ColorBlock": 983,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2000-10-16T16:00:49.0552074+02:00",
+    "LastChanged": "2017-07-14T03:31:33.6323343+02:00",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Walter-Zieme",
-        "ToolTip": "Vel dignissimos iste omnis.",
-        "Deleted": false,
-        "Rank": 419,
-        "Type": "doloribus",
-        "ColorBlock": 112,
-        "IconHint": "dolorem",
+        "Id": 468,
+        "Name": "Mertz, Feeney and McDermott",
+        "ToolTip": "Et voluptas voluptas enim pariatur qui quas.",
+        "Deleted": true,
+        "Rank": 200,
+        "Type": "quisquam",
+        "ColorBlock": 700,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "1997-10-29T16:00:49.0552074+01:00",
+        "LastChanged": "2009-01-02T03:31:33.6323343+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Beulah Isidro Herman I",
+        "ExtraInfo": "sint",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Raven Bosco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 630
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "facere",
-    "Hidden": true,
-    "FullName": "Roslyn Legros",
+    "ExtraInfo": "sed",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Reinhold Pablo Kohler I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 332
+        "FieldType": "System.String",
+        "FieldLength": 243
       }
     }
   }

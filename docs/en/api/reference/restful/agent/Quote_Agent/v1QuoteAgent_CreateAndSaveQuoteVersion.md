@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 770
+  "QuoteVersionId": 712
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 486,
-  "ERPQuoteVersionKey": "nostrum",
-  "QuoteId": 379,
-  "Description": "Open-source upward-trending middleware",
-  "Number": "996434",
+  "QuoteVersionId": 823,
+  "ERPQuoteVersionKey": "rerum",
+  "QuoteId": 50,
+  "Description": "Distributed foreground collaboration",
+  "Number": "1232037",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 770,
-  "SentDate": "2017-10-02T16:00:41.6019523+02:00",
-  "FollowupId": 318,
-  "ExpirationDate": "2010-07-15T16:00:41.6019523+02:00",
-  "DeliveryCountryId": 603,
+  "LikelyQuoteAlternativeId": 842,
+  "SentDate": "2020-07-27T03:31:27.0424653+02:00",
+  "FollowupId": 805,
+  "ExpirationDate": "2003-07-10T03:31:27.0424653+02:00",
+  "DeliveryCountryId": 402,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 866,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "dignissimos",
-  "ERPPaymentTypeKey": "modi",
-  "ERPDeliveryTermsKey": "sunt",
-  "ERPDeliveryTypeKey": "nulla",
-  "Rank": 558,
-  "ApprovedBy": 666,
-  "ApprovedText": "accusamus",
-  "ApprovedRegisteredBy": 82,
-  "ApprovedRegisteredDate": "2018-05-17T16:00:41.6019523+02:00",
-  "ExtraField1": "sit",
-  "ExtraField2": "quia",
-  "ExtraField3": "ea",
-  "ExtraField4": "officiis",
-  "ExtraField5": "magni",
-  "LastRecalculated": "2015-12-05T16:00:41.6019523+01:00",
-  "Updated": "2004-10-06T16:00:41.6019523+02:00",
-  "UpdatedAssociateId": 15,
-  "Registered": "2022-03-09T16:00:41.6019523+01:00",
-  "RegisteredAssociateId": 739,
-  "RequestAssociateId": 97,
-  "RequestComment": "voluptate",
+  "InvoiceCountryId": 970,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "enim",
+  "ERPPaymentTypeKey": "et",
+  "ERPDeliveryTermsKey": "rerum",
+  "ERPDeliveryTypeKey": "tenetur",
+  "Rank": 271,
+  "ApprovedBy": 204,
+  "ApprovedText": "quidem",
+  "ApprovedRegisteredBy": 711,
+  "ApprovedRegisteredDate": "2011-02-03T03:31:27.0424653+01:00",
+  "ExtraField1": "iste",
+  "ExtraField2": "esse",
+  "ExtraField3": "commodi",
+  "ExtraField4": "alias",
+  "ExtraField5": "doloribus",
+  "LastRecalculated": "1997-11-17T03:31:27.0424653+01:00",
+  "Updated": "2007-06-10T03:31:27.0424653+02:00",
+  "UpdatedAssociateId": 845,
+  "Registered": "2014-01-23T03:31:27.0424653+01:00",
+  "RegisteredAssociateId": 249,
+  "RequestAssociateId": 167,
+  "RequestComment": "dolor",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 100,
-      "ERPQuoteAlternativeKey": "enim",
-      "QuoteVersionId": 396,
-      "Name": "Hudson-Ebert",
-      "Description": "Distributed user-facing groupware",
+      "QuoteAlternativeId": 354,
+      "ERPQuoteAlternativeKey": "minus",
+      "QuoteVersionId": 208,
+      "Name": "Nitzsche, Corkery and Lehner",
+      "Description": "Organic zero defect implementation",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 30710.066,
-      "ERPDiscountAmount": 23953.162,
-      "DiscountPercent": 31198.969999999998,
-      "DiscountAmount": 1686.0919999999999,
+      "ERPDiscountPercent": 2447.654,
+      "ERPDiscountAmount": 6562.596,
+      "DiscountPercent": 19180.079999999998,
+      "DiscountAmount": 7405.642,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "in",
-      "VAT": 9016.518,
-      "EarningPercent": 1128.24,
-      "EarningAmount": 23649.164,
-      "SubTotal": 28801.46,
-      "TotalPrice": 24645.775999999998,
-      "ExtraField1": "magnam",
-      "ExtraField2": "animi",
-      "ExtraField3": "est",
-      "ExtraField4": "sint",
-      "ExtraField5": "nesciunt",
+      "VATInfo": "accusantium",
+      "VAT": 4415.806,
+      "EarningPercent": 6493.648,
+      "EarningAmount": 9392.598,
+      "SubTotal": 19214.554,
+      "TotalPrice": 9934.7799999999988,
+      "ExtraField1": "tempore",
+      "ExtraField2": "quaerat",
+      "ExtraField3": "modi",
+      "ExtraField4": "quaerat",
+      "ExtraField5": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 777
+          "FieldType": "System.Int32",
+          "FieldLength": 887
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 772
     }
   }
 }

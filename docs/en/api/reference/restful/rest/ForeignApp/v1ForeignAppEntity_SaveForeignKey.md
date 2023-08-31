@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "aliquam",
-  "RecordId": 911,
-  "CreatedDate": "2021-04-27T16:00:47.9772018+02:00",
-  "UpdatedDate": "2022-07-26T16:00:47.9772018+02:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "rem",
-  "TableName": "Kozey Group"
+  "Key": "necessitatibus",
+  "Value": "eum",
+  "RecordId": 349,
+  "CreatedDate": "2002-02-02T03:31:32.6289016+01:00",
+  "UpdatedDate": "2013-07-29T03:31:32.6289016+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "voluptatem",
+  "TableName": "Dicki Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "aut",
-  "RecordId": 881,
-  "CreatedDate": "2008-10-02T16:00:47.9772018+02:00",
-  "UpdatedDate": "1997-10-08T16:00:47.9772018+02:00",
-  "UpdatedBy": "quaerat",
-  "CreatedBy": "illo",
-  "TableName": "Kilback, Romaguera and Keebler",
+  "Key": "eveniet",
+  "Value": "optio",
+  "RecordId": 645,
+  "CreatedDate": "2013-09-04T03:31:32.6289016+02:00",
+  "UpdatedDate": "2008-03-21T03:31:32.6289016+01:00",
+  "UpdatedBy": "occaecati",
+  "CreatedBy": "dicta",
+  "TableName": "Bergstrom, McClure and Aufderhar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 607
     }
   }
 }

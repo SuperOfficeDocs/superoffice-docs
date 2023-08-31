@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Brekke LLC",
-  "Tooltip": "eveniet",
+  "Id": 223,
+  "Name": "Howe-Strosin",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 301,
-  "Rank": 225
+  "UdListDefinitionId": 239,
+  "Rank": 431
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 485,
-  "Name": "Pacocha, Bahringer and Frami",
-  "Tooltip": "ipsa",
+  "Id": 522,
+  "Name": "White Group",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "UdListDefinitionId": 997,
-  "Rank": 458,
+  "UdListDefinitionId": 718,
+  "Rank": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   }
 }

@@ -78,8 +78,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Willms, White and Mertz",
-  "Id": 362
+  "TableName": "Kerluke-Gulgowski",
+  "Id": 666
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "sed",
-    "Values2": "enim"
+    "Values1": "sint",
+    "Values2": "laboriosam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 454
     }
   }
 }

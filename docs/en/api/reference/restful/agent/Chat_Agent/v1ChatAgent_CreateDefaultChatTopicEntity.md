@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 134,
-  "Name": "Bosco, Ritchie and Gibson",
-  "Description": "Re-contextualized motivating framework",
-  "WelcomeMessage": "laborum",
+  "ChatTopicId": 842,
+  "Name": "Jaskolski-Nader",
+  "Description": "Business-focused intangible software",
+  "WelcomeMessage": "fugiat",
   "Language": null,
-  "LastAccept": "1999-06-10T16:00:40.1644405+02:00",
-  "SecondsPrAccept": 295,
-  "AlertRecipient": "dolorum",
+  "LastAccept": "1996-05-01T03:31:25.6964836+02:00",
+  "SecondsPrAccept": 144,
+  "AlertRecipient": "explicabo",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "qui",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ad",
-  "WarnNewChatMinutes": 635,
-  "WarnManagerNewChatMinutes": 861,
+  "BadgeHeader": "provident",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "autem",
+  "WarnNewChatMinutes": 931,
+  "WarnManagerNewChatMinutes": 258,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 541,
-  "WarnManagerChatMessageMinutes": 169,
+  "WarnChatMessageMinutes": 399,
+  "WarnManagerChatMessageMinutes": 466,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 787,
-  "OfflineFormQueueLength": 535,
+  "OfflineFormTimeLimit": 925,
+  "OfflineFormQueueLength": 340,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "qui",
+  "WidgetRatingText": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldLength": 866
     }
   }
 }

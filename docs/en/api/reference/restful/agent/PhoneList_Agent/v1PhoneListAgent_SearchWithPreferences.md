@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "esse",
+  "SearchString": "non",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "064.797.8924",
-    "PersonCellPhone": "110-103-8228",
-    "PersonPrivatePhone": "697.131.1720",
-    "PersonFaxNumber": "1578440",
-    "PersonPagerNumber": "1045523",
-    "PersonEmail": "ephraim@runtetorphy.biz",
-    "Id": 611,
-    "Name": "Lehner-Champlin",
-    "Tooltip": "quaerat",
-    "UniqueId": "at",
+    "PersonDirectPhone": "(706)780-4469 x598",
+    "PersonCellPhone": "457-880-5857",
+    "PersonPrivatePhone": "786.807.0490",
+    "PersonFaxNumber": "468776",
+    "PersonPagerNumber": "965011",
+    "PersonEmail": "boris@kuhlman.biz",
+    "Id": 633,
+    "Name": "Schaefer Group",
+    "Tooltip": "qui",
+    "UniqueId": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldType": "System.Int32",
+        "FieldLength": 810
       }
     }
   }

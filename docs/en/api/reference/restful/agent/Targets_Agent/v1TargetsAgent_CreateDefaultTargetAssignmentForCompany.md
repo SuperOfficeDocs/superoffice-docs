@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 392,
+  "TargetAssignmentInfoId": 89,
   "Values": [
-    680,
-    42
+    259,
+    797
   ],
   "Locked": false,
   "TargetAssociate": null,
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
   "TargetUserGroup": null,
   "Currency": null,
   "DimensionListItem": 283,
-  "DimensionListItemDisplayName": "Fadel Inc and Sons",
+  "DimensionListItemDisplayName": "Ullrich, Moen and Green",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

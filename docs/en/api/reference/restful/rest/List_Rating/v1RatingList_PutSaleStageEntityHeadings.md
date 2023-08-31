@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 190,
-    "Name": "Windler, Kunde and Goyette",
-    "Tooltip": "sed",
+    "HeadingId": 980,
+    "Name": "Skiles, Cruickshank and Ward",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 67,
-    "UdListDefinitionId": 450
+    "Rank": 110,
+    "UdListDefinitionId": 45
   },
   {
-    "HeadingId": 190,
-    "Name": "Windler, Kunde and Goyette",
-    "Tooltip": "sed",
+    "HeadingId": 980,
+    "Name": "Skiles, Cruickshank and Ward",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 67,
-    "UdListDefinitionId": 450
+    "Rank": 110,
+    "UdListDefinitionId": 45
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 970,
-    "Name": "Stamm-Kautzer",
-    "Tooltip": "similique",
+    "HeadingId": 976,
+    "Name": "Williamson, Ryan and Hilpert",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 437,
-    "UdListDefinitionId": 840,
+    "Rank": 241,
+    "UdListDefinitionId": 819,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 60
+        "FieldLength": 102
       }
     }
   }

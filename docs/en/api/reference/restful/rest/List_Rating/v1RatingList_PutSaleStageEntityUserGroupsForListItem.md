@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Dach Group",
-    "ToolTip": "Soluta a doloremque.",
+    "Id": 870,
+    "Name": "Wiegand, Stamm and Leannon",
+    "ToolTip": "Quia ut id.",
     "Deleted": true,
-    "Rank": 166,
-    "Type": "nihil",
-    "ColorBlock": 828,
-    "IconHint": "tempora",
-    "Selected": true,
-    "LastChanged": "2013-04-14T16:00:49.2583068+02:00",
+    "Rank": 669,
+    "Type": "et",
+    "ColorBlock": 612,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "1998-09-18T03:31:33.8210957+02:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Bechtelar Group",
-        "ToolTip": "Nisi est.",
-        "Deleted": false,
-        "Rank": 389,
-        "Type": "nobis",
-        "ColorBlock": 462,
-        "IconHint": "nisi",
+        "Id": 458,
+        "Name": "Bernier Group",
+        "ToolTip": "Quae ut.",
+        "Deleted": true,
+        "Rank": 161,
+        "Type": "a",
+        "ColorBlock": 812,
+        "IconHint": "fugiat",
         "Selected": true,
-        "LastChanged": "1997-06-11T16:00:49.2583068+02:00",
+        "LastChanged": "2019-07-09T03:31:33.8210957+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "natus",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Marian Auer"
+        "FullName": "Miller Ladarius Bradtke Jr."
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "tempora",
     "Hidden": true,
-    "FullName": "Dr. Alyce Ubaldo Bosco"
+    "FullName": "Prof. Eula Cummerata"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Hoppe Group",
-    "ToolTip": "Consequatur quia dolorem maiores animi ut recusandae amet.",
+    "Id": 293,
+    "Name": "Hegmann-Prohaska",
+    "ToolTip": "Natus sunt error sapiente veritatis suscipit qui omnis.",
     "Deleted": true,
-    "Rank": 405,
-    "Type": "iure",
-    "ColorBlock": 475,
-    "IconHint": "dolorum",
+    "Rank": 187,
+    "Type": "est",
+    "ColorBlock": 343,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2014-11-17T16:00:49.2583068+01:00",
+    "LastChanged": "2000-05-03T03:31:33.8210957+02:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Carroll-Jerde",
-        "ToolTip": "Neque odio a aut inventore id.",
+        "Id": 25,
+        "Name": "Walter-White",
+        "ToolTip": "Necessitatibus totam laboriosam.",
         "Deleted": true,
-        "Rank": 828,
-        "Type": "est",
-        "ColorBlock": 280,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2008-07-31T16:00:49.2583068+02:00",
+        "Rank": 859,
+        "Type": "consectetur",
+        "ColorBlock": 200,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2015-03-07T03:31:33.8210957+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Miss Loy Angelina Swaniawski V",
+        "ExtraInfo": "atque",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Dr. Elise Elody Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 612
+            "FieldType": "System.String",
+            "FieldLength": 800
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "nam",
+    "ExtraInfo": "commodi",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Jana Hoppe",
+    "FullName": "Beryl Werner Fahey V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldType": "System.String",
+        "FieldLength": 2
       }
     }
   }

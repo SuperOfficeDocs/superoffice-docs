@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Green, Jacobi and Sawayn",
-  "Tooltip": "dicta",
+  "Id": 689,
+  "Name": "Littel Inc and Sons",
+  "Tooltip": "ducimus",
   "Deleted": true,
-  "UdListDefinitionId": 170,
-  "Rank": 516
+  "UdListDefinitionId": 476,
+  "Rank": 107
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "Towne, Abernathy and Gerhold",
-  "Tooltip": "voluptates",
+  "Id": 744,
+  "Name": "Moore Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 665,
-  "Rank": 947,
+  "UdListDefinitionId": 958,
+  "Rank": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

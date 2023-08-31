@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 748
+  "TicketEntityId": 15
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 802,
-    "Name": "Heaney, Towne and Rempel",
-    "ContentType": "officiis",
-    "AttSize": 216,
-    "InlineImage": false,
-    "ContentId": "velit",
-    "AuthKey": "nostrum",
+    "AttachmentId": 410,
+    "Name": "Lesch Inc and Sons",
+    "ContentType": "quasi",
+    "AttSize": 444,
+    "InlineImage": true,
+    "ContentId": "a",
+    "AuthKey": "perspiciatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 714
       }
     }
   }

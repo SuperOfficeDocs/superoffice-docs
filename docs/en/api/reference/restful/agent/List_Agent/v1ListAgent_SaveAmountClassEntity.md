@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 319,
-  "Name": "Feil Group",
-  "Tooltip": "eum",
-  "Rank": 855,
-  "AmountFrom": 1147.0439999999999,
-  "AmountTo": 24959.176,
+  "AmountClassId": 676,
+  "Name": "Crona-Fisher",
+  "Tooltip": "est",
+  "Rank": 121,
+  "AmountFrom": 18311.962,
+  "AmountTo": 18145.86,
   "Deleted": false,
-  "CurrencyId": 339
+  "CurrencyId": 434
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 873,
-  "Name": "Wyman, Schmeler and Runte",
-  "Tooltip": "itaque",
-  "Rank": 466,
-  "AmountFrom": 26103.086,
-  "AmountTo": 6988.82,
+  "AmountClassId": 837,
+  "Name": "Kris Group",
+  "Tooltip": "laborum",
+  "Rank": 178,
+  "AmountFrom": 4343.724,
+  "AmountTo": 8997.714,
   "Deleted": false,
-  "CurrencyId": 494,
+  "CurrencyId": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   }
 }

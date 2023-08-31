@@ -70,7 +70,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Friesen Inc and Sons",
-  "DisplayName": "Kris, Borer and Turner",
-  "Description": "Cross-platform methodical frame",
-  "ShortLabel": "vel",
-  "HideLabel": true,
-  "HideField": true,
+  "FieldName": "Kunze, Parker and Beahan",
+  "DisplayName": "Batz, Larkin and Senger",
+  "Description": "Intuitive attitude-oriented product",
+  "ShortLabel": "labore",
+  "HideLabel": false,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 382,
-  "TemplateVariableName": "Stark, Friesen and Powlowski"
+  "Rank": 69,
+  "TemplateVariableName": "Hauck-Mann"
 }
 ```

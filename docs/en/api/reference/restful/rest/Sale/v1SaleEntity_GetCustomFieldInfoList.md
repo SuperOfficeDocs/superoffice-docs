@@ -67,7 +67,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kozey, Zboncak and Wunsch",
-    "DisplayName": "Feil, Dare and O'Conner",
-    "Description": "Devolved responsive artificial intelligence",
-    "ShortLabel": "quisquam",
+    "FieldName": "Schaefer LLC",
+    "DisplayName": "Stanton-Legros",
+    "Description": "Organic content-based pricing structure",
+    "ShortLabel": "tempore",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 77,
-    "TemplateVariableName": "Schowalter Group"
+    "Rank": 335,
+    "TemplateVariableName": "Eichmann-Hayes"
   }
 ]
 ```

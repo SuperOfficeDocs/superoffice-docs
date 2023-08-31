@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Marquardt, Tillman and Fay",
-      "Delimiter": "est",
-      "Flags": "praesentium",
-      "TotalItems": 864,
-      "UnreadItems": 375,
+      "Name": "Littel-Moore",
+      "Delimiter": "perferendis",
+      "Flags": "facilis",
+      "TotalItems": 442,
+      "UnreadItems": 816,
       "Subscribed": true,
-      "EmailFolderId": 192
+      "EmailFolderId": 4
     }
   ]
 }

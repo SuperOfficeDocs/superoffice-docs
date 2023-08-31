@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=quos
+GET /api/v1/List/Credited/MDOItems?query=non
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Wyman, Goodwin and Bogisich",
-    "ToolTip": "Veritatis ut iure voluptatum dolorum.",
+    "Id": 501,
+    "Name": "Wiza LLC",
+    "ToolTip": "Sit ratione dignissimos.",
     "Deleted": false,
-    "Rank": 160,
-    "Type": "dolorem",
+    "Rank": 705,
+    "Type": "commodi",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Bogisich-Champlin",
-        "ToolTip": "Voluptatem sint dolorem.",
-        "Deleted": true,
-        "Rank": 30,
-        "Type": "provident",
+        "Id": 184,
+        "Name": "Davis LLC",
+        "ToolTip": "Animi rerum ut adipisci.",
+        "Deleted": false,
+        "Rank": 97,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "rem",
-        "ColorBlock": 456,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "veniam",
-        "FullName": "Miss Elwin Greenholt II",
+        "ColorBlock": 366,
+        "ExtraInfo": "quis",
+        "StyleHint": "optio",
+        "FullName": "Sam Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 124
+            "FieldType": "System.String",
+            "FieldLength": 71
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 649,
-    "ExtraInfo": "quam",
-    "StyleHint": "omnis",
-    "FullName": "Dahlia Weissnat",
+    "IconHint": "delectus",
+    "ColorBlock": 573,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "eum",
+    "FullName": "Jarret Aidan Predovic Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 803
+        "FieldType": "System.Int32",
+        "FieldLength": 990
       }
     }
   }

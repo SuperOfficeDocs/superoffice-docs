@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 14
+  "UdListDefinitionId": 110
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 764,
-  "Name": "Rau-Berge",
-  "Tooltip": "molestiae",
+  "HeadingId": 571,
+  "Name": "Bins LLC",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 51,
-  "UdListDefinitionId": 806,
+  "Rank": 523,
+  "UdListDefinitionId": 436,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 910
     }
   }
 }

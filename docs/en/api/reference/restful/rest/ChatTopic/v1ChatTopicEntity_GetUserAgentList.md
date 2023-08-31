@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Rippin, Reichel and Rath",
-    "ToolTip": "Voluptatem nesciunt est est facilis.",
+    "Id": 762,
+    "Name": "Ankunding LLC",
+    "ToolTip": "Occaecati veniam harum aperiam voluptas.",
     "Deleted": false,
-    "Rank": 856,
-    "Type": "modi",
+    "Rank": 271,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Will-Ondricka",
-        "ToolTip": "Sunt distinctio deserunt.",
-        "Deleted": true,
-        "Rank": 481,
-        "Type": "maiores",
+        "Id": 314,
+        "Name": "Borer-Williamson",
+        "ToolTip": "Facilis totam et sed.",
+        "Deleted": false,
+        "Rank": 766,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quae",
-        "ColorBlock": 636,
-        "ExtraInfo": "rerum",
-        "StyleHint": "illum",
-        "FullName": "Trevor Hudson",
+        "IconHint": "aut",
+        "ColorBlock": 814,
+        "ExtraInfo": "vero",
+        "StyleHint": "minima",
+        "FullName": "Floy Immanuel Jenkins MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 408
+            "FieldType": "System.String",
+            "FieldLength": 715
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 251,
-    "ExtraInfo": "non",
-    "StyleHint": "omnis",
-    "FullName": "Dr. Aylin Monique Goldner",
+    "IconHint": "nihil",
+    "ColorBlock": 542,
+    "ExtraInfo": "ipsum",
+    "StyleHint": "suscipit",
+    "FullName": "Cordia Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 282
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

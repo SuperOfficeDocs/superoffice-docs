@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=625
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=760
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 866,
-  "SourcePersonId": 2,
-  "DestinationContactId": 364,
-  "DestinationPersonId": 979,
-  "RelationId": 299,
-  "Comment": "tempora",
-  "RelationDefinitionId": 567,
-  "Reversed": 525,
-  "UpdatedDate": "2021-03-01T16:00:41.6800689+01:00",
-  "CreatedDate": "2016-07-28T16:00:41.6800689+02:00",
+  "SourceContactId": 349,
+  "SourcePersonId": 696,
+  "DestinationContactId": 421,
+  "DestinationPersonId": 849,
+  "RelationId": 14,
+  "Comment": "et",
+  "RelationDefinitionId": 797,
+  "Reversed": 196,
+  "UpdatedDate": "2018-12-19T03:31:27.1218466+01:00",
+  "CreatedDate": "2000-11-11T03:31:27.1218466+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "White-Collins",
-  "SourcePersonName": "O'Kon-Bailey",
-  "DestinationContactName": "Abshire, Grady and Corkery",
-  "DestinationPersonName": "Gaylord-Friesen",
-  "ActiveText": "quibusdam",
-  "PassiveText": "voluptas",
+  "SourceContactName": "Sauer Group",
+  "SourcePersonName": "Dibbert, Corkery and Dare",
+  "DestinationContactName": "Torp, Towne and Ernser",
+  "DestinationPersonName": "Orn-Koch",
+  "ActiveText": "perspiciatis",
+  "PassiveText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldLength": 116
     }
   }
 }

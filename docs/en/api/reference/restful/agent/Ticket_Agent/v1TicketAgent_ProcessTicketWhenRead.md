@@ -118,6 +118,7 @@ OK
 | Sale | Sale | The sale that this ticket is connected to  <para>Use MDO List name "sale" to get list items.</para> |
 | Project | Project | The project that this ticket is connected to  <para>Use MDO List name "project" to get list items.</para> |
 | FormSubmission | TicketFormSubmission | The form submission that this ticket is connected to |
+| TicketType | TicketTypeEntity | Type of the Request  <para>Use MDO List name "TicketType" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
@@ -129,11 +130,11 @@ OK
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 817
+  "TicketEntityId": 167
 }
 ```
 
@@ -144,21 +145,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 998,
-  "Title": "magni",
-  "CreatedAt": "2008-06-02T16:00:42.1643851+02:00",
-  "LastChanged": "1996-11-01T16:00:42.1643851+01:00",
-  "ReadByOwner": "2005-12-08T16:00:42.1643851+01:00",
-  "ReadByCustomer": "2015-12-09T16:00:42.1643851+01:00",
-  "FirstReadByOwner": "2000-08-26T16:00:42.1643851+02:00",
-  "FirstReadByUser": "2010-08-02T16:00:42.1643851+02:00",
-  "Activate": "2020-03-04T16:00:42.1643851+01:00",
-  "ClosedAt": "2007-07-04T16:00:42.1643851+02:00",
-  "RepliedAt": "2016-01-21T16:00:42.1643851+01:00",
-  "AlertTimeout": "2016-10-11T16:00:42.1643851+02:00",
-  "Deadline": "2015-01-07T16:00:42.1643851+01:00",
+  "TicketId": 289,
+  "Title": "accusamus",
+  "CreatedAt": "2007-01-20T03:31:27.4342771+01:00",
+  "LastChanged": "2007-07-17T03:31:27.4342771+02:00",
+  "ReadByOwner": "2013-11-10T03:31:27.4342771+01:00",
+  "ReadByCustomer": "2002-05-07T03:31:27.4342771+02:00",
+  "FirstReadByOwner": "2008-06-23T03:31:27.4342771+02:00",
+  "FirstReadByUser": "2011-01-18T03:31:27.4342771+01:00",
+  "Activate": "1996-05-27T03:31:27.4342771+02:00",
+  "ClosedAt": "2015-06-19T03:31:27.4342771+02:00",
+  "RepliedAt": "2001-01-06T03:31:27.4342771+01:00",
+  "AlertTimeout": "2008-07-12T03:31:27.4342771+02:00",
+  "Deadline": "2011-08-18T03:31:27.4342771+02:00",
   "CreatedBy": null,
-  "Author": "autem",
+  "Author": "doloremque",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -169,159 +170,160 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ad",
-      "PersonId": 48,
-      "Mrmrs": "quam",
-      "Firstname": "Grace",
-      "Lastname": "Dibbert",
-      "MiddleName": "Graham-Vandervort",
-      "Title": "et",
-      "Description": "User-centric reciprocal workforce",
-      "Email": "toby@leschrussel.com",
-      "FullName": "Dr. Alyce Labadie",
-      "DirectPhone": "(401)762-8310 x7532",
-      "FormalName": "Altenwerth-Abbott",
-      "CountryId": 247,
-      "ContactId": 434,
-      "ContactName": "Goldner, Rolfson and Thiel",
-      "Retired": 169,
-      "Rank": 43,
-      "ActiveInterests": 550,
+      "Position": "maxime",
+      "PersonId": 206,
+      "Mrmrs": "pariatur",
+      "Firstname": "Nellie",
+      "Lastname": "Harris",
+      "MiddleName": "Farrell LLC",
+      "Title": "earum",
+      "Description": "Inverse holistic model",
+      "Email": "sebastian@handjohnson.com",
+      "FullName": "Miss Meaghan Abernathy",
+      "DirectPhone": "925-164-3887",
+      "FormalName": "Rodriguez, Smitham and Blick",
+      "CountryId": 874,
+      "ContactId": 768,
+      "ContactName": "Altenwerth-Smitham",
+      "Retired": 750,
+      "Rank": 519,
+      "ActiveInterests": 933,
       "ContactDepartment": "",
-      "ContactCountryId": 7,
-      "ContactOrgNr": "1142986",
-      "FaxPhone": "(230)807-0476 x4889",
-      "MobilePhone": "1-772-604-2609",
-      "ContactPhone": "(767)034-6410 x2939",
-      "AssociateName": "Roberts, Jenkins and Bosco",
-      "AssociateId": 227,
+      "ContactCountryId": 322,
+      "ContactOrgNr": "559451",
+      "FaxPhone": "1-082-457-3998",
+      "MobilePhone": "355.137.7112 x33097",
+      "ContactPhone": "201.393.1223 x064",
+      "AssociateName": "Williamson Inc and Sons",
+      "AssociateId": 994,
       "UsePersonAddress": true,
-      "ContactFax": "quo",
-      "Kanafname": "consectetur",
-      "Kanalname": "occaecati",
-      "Post1": "et",
-      "Post2": "saepe",
-      "Post3": "illum",
-      "EmailName": "esther_marquardt@king.ca",
-      "ContactFullName": "Fae Mante",
-      "ActiveErpLinks": 361,
-      "TicketPriorityId": 129,
-      "SupportLanguageId": 939,
-      "SupportAssociateId": 260,
+      "ContactFax": "ut",
+      "Kanafname": "ex",
+      "Kanalname": "consequatur",
+      "Post1": "labore",
+      "Post2": "ut",
+      "Post3": "et",
+      "EmailName": "nat_emmerich@dickens.ca",
+      "ContactFullName": "Charles Farrell",
+      "ActiveErpLinks": 855,
+      "TicketPriorityId": 365,
+      "SupportLanguageId": 66,
+      "SupportAssociateId": 794,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldType": "System.Int32",
+          "FieldLength": 424
         }
       }
     }
   ],
-  "AlertLevel": 608,
-  "ConnectId": 836,
+  "AlertLevel": 303,
+  "ConnectId": 382,
   "ReadStatus": "Green",
-  "TimeToReply": 612,
-  "RealTimeToReply": 710,
-  "TimeToClose": 102,
-  "RealTimeToClose": 905,
-  "TimeSpentInternally": 687,
-  "TimeSpentExternally": 939,
-  "TimeSpentQueue": 576,
-  "RealTimeSpentInternally": 454,
-  "RealTimeSpentExternally": 455,
-  "RealTimeSpentQueue": 343,
+  "TimeToReply": 912,
+  "RealTimeToReply": 597,
+  "TimeToClose": 356,
+  "RealTimeToClose": 857,
+  "TimeSpentInternally": 284,
+  "TimeSpentExternally": 389,
+  "TimeSpentQueue": 400,
+  "RealTimeSpentInternally": 90,
+  "RealTimeSpentExternally": 661,
+  "RealTimeSpentQueue": 265,
   "HasAttachment": false,
-  "NumReplies": 750,
-  "NumMessages": 572,
-  "FromAddress": "omnis",
+  "NumReplies": 696,
+  "NumMessages": 797,
+  "FromAddress": "similique",
   "Messages": [
     {
-      "TicketMessageId": 711,
-      "CreatedAt": "2012-03-07T16:00:42.1800144+01:00",
+      "TicketMessageId": 81,
+      "CreatedAt": "1997-08-17T03:31:27.4498946+02:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "omnis",
-      "PersonId": 475,
-      "PersonFullName": "Hilton Zulauf",
-      "ContactId": 837,
-      "ContactName": "Kreiger, Quitzon and Nitzsche",
+      "Author": "odit",
+      "PersonId": 991,
+      "PersonFullName": "Solon Douglas",
+      "ContactId": 803,
+      "ContactName": "Hettinger-Weimann",
       "ContactDepartment": "",
-      "NumAttachments": 95,
-      "EmailHeader": "carli_schaden@ratkequitzon.co.uk",
+      "NumAttachments": 340,
+      "EmailHeader": "daniela_kunde@hane.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "reiciendis",
-      "Sentiment": 881,
-      "SentimentConfidence": 108,
-      "CreatedBy": 600,
-      "ChangedAt": "2010-01-26T16:00:42.1800144+01:00",
+      "Language": "omnis",
+      "Sentiment": 95,
+      "SentimentConfidence": 293,
+      "CreatedBy": 547,
+      "ChangedAt": "2001-09-14T03:31:27.4498946+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldType": "System.String",
+          "FieldLength": 107
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 819,
-      "Name": "Schneider, Stiedemann and Hills",
-      "ToolTip": "Dolore ea harum doloremque dolores laudantium quibusdam sit.",
+      "Id": 477,
+      "Name": "Schmitt Group",
+      "ToolTip": "Ut pariatur porro sit temporibus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     },
     {
-      "Id": 819,
-      "Name": "Schneider, Stiedemann and Hills",
-      "ToolTip": "Dolore ea harum doloremque dolores laudantium quibusdam sit.",
+      "Id": 477,
+      "Name": "Schmitt Group",
+      "ToolTip": "Ut pariatur porro sit temporibus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     }
   ],
-  "Language": "ipsum",
-  "Sentiment": 934,
-  "SentimentConfidence": 340,
-  "SuggestedCategoryId": 673,
+  "Language": "qui",
+  "Sentiment": 523,
+  "SentimentConfidence": 583,
+  "SuggestedCategoryId": 176,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 122,
-  "IconHint": "et",
+  "OrigHumanCategoryId": 288,
+  "IconHint": "eligendi",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
+  "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "esse",
+    "CustomFields2": "quod"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldLength": 662
     }
   }
 }

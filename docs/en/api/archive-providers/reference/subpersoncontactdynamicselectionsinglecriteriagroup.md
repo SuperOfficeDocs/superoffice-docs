@@ -469,7 +469,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -783,7 +783,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=contactDeleted,personTargetRelation/hasInfoText,personTargetRelation/ticketPriority,correspondingAssociate/userName,contactExtra/x_contact_datetime
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=business,personSourceRelation/personDeletedDate,postAddress/formattedMultiLineAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

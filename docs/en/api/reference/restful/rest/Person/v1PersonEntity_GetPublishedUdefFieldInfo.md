@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 820,
-  "ColumnId": 729,
-  "FieldDefault": "quia",
-  "FieldHeight": 423,
-  "FieldLabel": "perferendis",
-  "FieldLeft": 86,
-  "FieldTop": 175,
+  "UDefFieldId": 234,
+  "ColumnId": 343,
+  "FieldDefault": "repellendus",
+  "FieldHeight": 100,
+  "FieldLabel": "eveniet",
+  "FieldLeft": 715,
+  "FieldTop": 157,
   "FieldType": "Checkbox",
-  "FieldWidth": 255,
-  "FormatMask": "eos",
+  "FieldWidth": 98,
+  "FormatMask": "consequatur",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 558,
-  "LabelLeft": 37,
-  "LabelTop": 231,
-  "LabelWidth": 740,
-  "LastVersionId": 948,
-  "ListTableId": 515,
+  "IsIndexed": false,
+  "LabelHeight": 663,
+  "LabelLeft": 374,
+  "LabelTop": 498,
+  "LabelWidth": 890,
+  "LastVersionId": 418,
+  "ListTableId": 546,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 26,
-  "ProgId": "nobis",
-  "IsReadOnly": true,
-  "ShortLabel": "illo",
-  "TabOrder": 142,
-  "TextLength": 360,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 524,
-  "UDListDefinitionId": 330,
+  "Page1LineNo": 255,
+  "ProgId": "accusantium",
+  "IsReadOnly": false,
+  "ShortLabel": "id",
+  "TabOrder": 816,
+  "TextLength": 506,
+  "Tooltip": "sit",
+  "UdefIdentity": 463,
+  "UDListDefinitionId": 1001,
   "Justification": "Center",
-  "Version": 48,
-  "TemplateVariableName": "Osinski, Hane and Powlowski",
-  "HasBeenPublished": false,
-  "MdoListName": "Hansen LLC",
+  "Version": 500,
+  "TemplateVariableName": "Murphy, Bartoletti and Goyette",
+  "HasBeenPublished": true,
+  "MdoListName": "Hettinger, Schoen and Hane",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Sporer-Kuhn"
+  "HistoryName": "Dicki Inc and Sons"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 739,
-    "Id": 326,
-    "HistoryName": "Walker, Johns and Kris",
-    "HistoryId": 665,
-    "AssociateId": 564,
-    "Name": "Powlowski, Labadie and Hayes",
-    "ItemInfo": "cum",
+    "Rank": 620,
+    "Id": 123,
+    "HistoryName": "Russel, Schroeder and Collins",
+    "HistoryId": 13,
+    "AssociateId": 823,
+    "Name": "Schulist, Mitchell and Keebler",
+    "ItemInfo": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldLength": 131
       }
     }
   }

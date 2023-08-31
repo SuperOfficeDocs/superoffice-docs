@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Hoppe-Doyle",
-  "Tooltip": "ut",
+  "Id": 719,
+  "Name": "Block-Ankunding",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "UdListDefinitionId": 506,
-  "Rank": 331,
+  "UdListDefinitionId": 798,
+  "Rank": 193,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 359
     }
   }
 }

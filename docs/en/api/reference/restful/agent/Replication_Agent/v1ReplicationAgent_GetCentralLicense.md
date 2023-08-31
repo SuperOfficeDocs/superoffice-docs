@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murazik Inc and Sons",
-    "Description": "Proactive optimizing info-mediaries",
+    "Name": "Schaden, Kuhic and Grant",
+    "Description": "User-centric solution-oriented intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 893,
-        "Tooltip": "ex",
+        "Unrestricted": false,
+        "Total": 625,
+        "Tooltip": "impedit",
         "CanAssign": true,
-        "Free": 814,
-        "InUse": 616,
-        "IsHidden": false,
+        "Free": 668,
+        "InUse": 646,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 105,
-        "Name": "Tromp, Grant and Jones",
-        "Description": "Ameliorated stable structure",
-        "PrerequisiteModuleName": "Shanahan Inc and Sons",
-        "SortOrder": 226,
-        "ExtraFlags": 402,
+        "ModuleLicenseId": 987,
+        "Name": "Koepp-Davis",
+        "Description": "Secured grid-enabled open system",
+        "PrerequisiteModuleName": "Bins, Langosh and Carroll",
+        "SortOrder": 664,
+        "ExtraFlags": 904,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 459
+            "FieldType": "System.Int32",
+            "FieldLength": 863
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 239,
-        "Tooltip": "impedit",
+        "Total": 740,
+        "Tooltip": "similique",
         "CanAssign": false,
-        "Free": 690,
-        "InUse": 328,
-        "IsHidden": true,
+        "Free": 782,
+        "InUse": 799,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 264,
-        "Name": "Lemke, Yundt and Hessel",
-        "Description": "Mandatory attitude-oriented alliance",
-        "PrerequisiteModuleName": "Kemmer Group",
-        "SortOrder": 879,
-        "ExtraFlags": 420,
+        "ModuleLicenseId": 807,
+        "Name": "Weissnat, Christiansen and Stark",
+        "Description": "Vision-oriented 24 hour process improvement",
+        "PrerequisiteModuleName": "Schiller-Skiles",
+        "SortOrder": 894,
+        "ExtraFlags": 535,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 507
+            "FieldType": "System.Int32",
+            "FieldLength": 133
           }
         }
       }
@@ -140,35 +140,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 356
       }
     }
   },
   {
-    "Name": "Murazik Inc and Sons",
-    "Description": "Proactive optimizing info-mediaries",
+    "Name": "Schaden, Kuhic and Grant",
+    "Description": "User-centric solution-oriented intranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 893,
-        "Tooltip": "ex",
+        "Unrestricted": false,
+        "Total": 625,
+        "Tooltip": "impedit",
         "CanAssign": true,
-        "Free": 814,
-        "InUse": 616,
-        "IsHidden": false,
+        "Free": 668,
+        "InUse": 646,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 105,
-        "Name": "Tromp, Grant and Jones",
-        "Description": "Ameliorated stable structure",
-        "PrerequisiteModuleName": "Shanahan Inc and Sons",
-        "SortOrder": 226,
-        "ExtraFlags": 402,
+        "ModuleLicenseId": 987,
+        "Name": "Koepp-Davis",
+        "Description": "Secured grid-enabled open system",
+        "PrerequisiteModuleName": "Bins, Langosh and Carroll",
+        "SortOrder": 664,
+        "ExtraFlags": 904,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 459
+            "FieldType": "System.Int32",
+            "FieldLength": 863
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 239,
-        "Tooltip": "impedit",
+        "Total": 740,
+        "Tooltip": "similique",
         "CanAssign": false,
-        "Free": 690,
-        "InUse": 328,
-        "IsHidden": true,
+        "Free": 782,
+        "InUse": 799,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 264,
-        "Name": "Lemke, Yundt and Hessel",
-        "Description": "Mandatory attitude-oriented alliance",
-        "PrerequisiteModuleName": "Kemmer Group",
-        "SortOrder": 879,
-        "ExtraFlags": 420,
+        "ModuleLicenseId": 807,
+        "Name": "Weissnat, Christiansen and Stark",
+        "Description": "Vision-oriented 24 hour process improvement",
+        "PrerequisiteModuleName": "Schiller-Skiles",
+        "SortOrder": 894,
+        "ExtraFlags": 535,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 507
+            "FieldType": "System.Int32",
+            "FieldLength": 133
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 356
       }
     }
   }

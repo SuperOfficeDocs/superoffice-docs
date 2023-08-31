@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 995,
-  "Name": "Wisozk, Breitenberg and Murazik",
-  "Tooltip": "optio",
-  "SaveInDb": 79,
-  "Filename": "quam",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 291,
+  "Name": "Hayes LLC",
+  "Tooltip": "ut",
+  "SaveInDb": 77,
+  "Filename": "vel",
+  "DefaultOref": "quam",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 948,
-  "IntentId": 777,
-  "IsDefaultPublished": true,
-  "Rank": 455,
-  "LoadTemplateFromPlugin": 996,
-  "MimeType": "quas",
+  "AutoeventId": 764,
+  "IntentId": 162,
+  "IsDefaultPublished": false,
+  "Rank": 416,
+  "LoadTemplateFromPlugin": 134,
+  "MimeType": "nemo",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 63,
+  "DocumentTypeKey": 566,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "matt@kiehn.info",
+  "EmailSubject": "eileen.koelpin@feilkuhlman.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alvena@metzjewess.com",
+  "SenderEmailAddress": "camron@eichmann.ca",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 545,
-  "Name": "Pagac Group",
-  "Tooltip": "sit",
-  "SaveInDb": 405,
-  "Filename": "sit",
-  "DefaultOref": "in",
+  "DocumentTemplateId": 916,
+  "Name": "Strosin, Becker and Kilback",
+  "Tooltip": "voluptas",
+  "SaveInDb": 48,
+  "Filename": "nisi",
+  "DefaultOref": "atque",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 436,
-  "IntentId": 242,
+  "AutoeventId": 612,
+  "IntentId": 604,
   "IsDefaultPublished": false,
-  "Rank": 310,
-  "LoadTemplateFromPlugin": 830,
-  "MimeType": "debitis",
+  "Rank": 922,
+  "LoadTemplateFromPlugin": 571,
+  "MimeType": "tempore",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 250,
+  "DocumentTypeKey": 201,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "deron@corwinparker.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "reginald_ankunding@emardnader.com",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "forrest@jakubowskianderson.co.uk",
+  "SenderEmailAddress": "everardo.davis@schadentoy.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

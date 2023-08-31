@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 8,
-    "Name": "Morissette Group",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 647,
-    "UdListDefinitionId": 938,
+    "HeadingId": 320,
+    "Name": "Kuhlman-Will",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 252,
+    "UdListDefinitionId": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldLength": 605
       }
     }
   }

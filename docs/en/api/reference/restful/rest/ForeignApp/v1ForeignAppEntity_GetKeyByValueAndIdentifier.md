@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=molestias
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=consequuntur
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 10 Oct 2010 16:00:47 G10T
+Last-Modified: Sat, 25 May 2019 03:31:32 G5T
 
 {
-  "Key": "non",
-  "Value": "sit",
-  "RecordId": 390,
-  "CreatedDate": "2022-04-18T16:00:47.9928249+02:00",
-  "UpdatedDate": "2010-10-10T16:00:47.9928249+02:00",
-  "UpdatedBy": "deserunt",
-  "CreatedBy": "minus",
-  "TableName": "Anderson, Nolan and Pacocha",
+  "Key": "illum",
+  "Value": "et",
+  "RecordId": 105,
+  "CreatedDate": "1998-01-03T03:31:32.6289016+01:00",
+  "UpdatedDate": "2019-05-25T03:31:32.6289016+02:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "magni",
+  "TableName": "Predovic, Spencer and Bergnaum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldType": "System.String",
+      "FieldLength": 370
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kling Group",
-  "AdditionalInfo": "officia",
+  "Name": "Powlowski Group",
+  "AdditionalInfo": "numquam",
   "SelectableMDOList": [
     {
-      "Id": 143,
-      "Name": "Stiedemann, Schulist and Upton",
-      "ToolTip": "Et expedita voluptatibus ipsam qui exercitationem quidem natus.",
+      "Id": 972,
+      "Name": "Kshlerin-Windler",
+      "ToolTip": "Ut quisquam optio rerum.",
       "Deleted": true,
-      "Rank": 117,
-      "Type": "necessitatibus",
-      "ColorBlock": 295,
-      "IconHint": "amet",
+      "Rank": 367,
+      "Type": "nihil",
+      "ColorBlock": 413,
+      "IconHint": "molestiae",
       "Selected": false,
-      "LastChanged": "1997-04-13T16:00:41.2736903+02:00",
+      "LastChanged": "2014-03-24T03:31:26.7769052+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cumque",
-      "StyleHint": "temporibus",
+      "ExtraInfo": "ducimus",
+      "StyleHint": "sint",
       "Hidden": false,
-      "FullName": "Mr. Devonte Edward Mayert"
+      "FullName": "Celestine Schmitt"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Omnis aut soluta.",
+    "Id": 37,
+    "Name": "Kihn Group",
+    "ToolTip": "Voluptates illum et officia et rerum.",
     "Deleted": false,
-    "Rank": 796,
-    "Type": "ut",
-    "ColorBlock": 551,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "1996-09-26T16:00:41.2736903+02:00",
+    "Rank": 783,
+    "Type": "a",
+    "ColorBlock": 353,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2019-10-01T03:31:26.7769052+02:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Steuber Group",
-        "ToolTip": "Magnam soluta.",
+        "Id": 622,
+        "Name": "Marquardt, Lindgren and Nitzsche",
+        "ToolTip": "Sunt consequatur dicta dolores quis facere itaque animi.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "ut",
-        "ColorBlock": 13,
-        "IconHint": "qui",
+        "Rank": 972,
+        "Type": "voluptatem",
+        "ColorBlock": 253,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2018-01-29T16:00:41.2736903+01:00",
+        "LastChanged": "2015-07-06T03:31:26.7769052+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Leonor Dach",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "doloremque",
+        "Hidden": false,
+        "FullName": "Hermina Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 858
+            "FieldType": "System.String",
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Mikel Wilderman",
+    "ExtraInfo": "omnis",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Brant Mallie Wintheiser Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 708
       }
     }
   }

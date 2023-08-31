@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 59,
-  "Name": "Stroman-Bernhard",
-  "PersonId": 257,
-  "Rank": 313,
-  "Tooltip": "sed",
+  "AssociateId": 326,
+  "Name": "Torp Inc and Sons",
+  "PersonId": 276,
+  "Rank": 260,
+  "Tooltip": "ad",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 48,
-  "FullName": "Jaron Monty Mayert MD",
-  "FormalName": "Daugherty, Ritchie and Gaylord",
-  "Deleted": false,
-  "EjUserId": 757,
-  "UserName": "Casper-Leannon",
+  "GroupIdx": 415,
+  "FullName": "Mr. Francis Raphael Goodwin DDS",
+  "FormalName": "Lowe Inc and Sons",
+  "Deleted": true,
+  "EjUserId": 124,
+  "UserName": "Rohan LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

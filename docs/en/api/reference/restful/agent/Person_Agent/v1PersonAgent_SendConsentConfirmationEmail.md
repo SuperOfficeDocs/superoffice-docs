@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 790,
-  "EmailAddress": "kristin.osinski@stroman.info",
-  "EmailTemplateId": 940,
-  "CultureLcidId": 316,
-  "Subject": "illo"
+  "PersonId": 476,
+  "EmailAddress": "dayton.ondricka@marvin.ca",
+  "EmailTemplateId": 459,
+  "CultureLcidId": 123,
+  "Subject": "quidem"
 }
 ```
 

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 715,
+  "ReportId": 754,
   "ReportCategory": "All",
-  "Description": "Balanced background intranet",
+  "Description": "Monitored logistical workforce",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hintz-Hintz",
-  "AssociateId": 763,
-  "TemplateId": 468,
-  "Published": true,
+  "Name": "Block-Little",
+  "AssociateId": 42,
+  "TemplateId": 776,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

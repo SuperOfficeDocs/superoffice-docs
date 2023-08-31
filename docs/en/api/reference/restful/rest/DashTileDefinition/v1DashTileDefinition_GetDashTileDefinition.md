@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 261,
-  "Name": "Wuckert, Hilpert and Jacobson",
-  "Description": "Operative local throughput",
-  "DefaultHeight": 797,
-  "DefaultWidth": 697,
+  "DashboardTileDefinitionId": 874,
+  "Name": "Johnson-Howell",
+  "Description": "Organized optimal leverage",
+  "DefaultHeight": 176,
+  "DefaultWidth": 564,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Dach-Bernhard",
-  "SelectionId": 594,
+  "EntityName": "Erdman, Veum and Becker",
+  "SelectionId": 24,
   "CurrencyMode": "Base",
-  "CurrencyCode": "maiores",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "molestias",
-  "SortBy": "fuga",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 38,
-  "MeasureByField": "voluptatum",
+  "MeasureField": "quia",
+  "SortBy": "soluta",
+  "LayoutConfig": "numquam",
+  "SecondarySelectionId": 739,
+  "MeasureByField": "saepe",
   "Usage": "Dashboard",
-  "ProviderName": "Farrell LLC",
+  "ProviderName": "Mertz Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 16
     }
   },
   "_Links": {

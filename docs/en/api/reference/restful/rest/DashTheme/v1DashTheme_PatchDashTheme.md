@@ -72,7 +72,7 @@ PATCH /api/v1/DashTheme/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "doloremque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aspernatur",
+    "path": "doloremque",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 319,
-  "Name": "Satterfield, Dicki and Muller",
-  "Config": "dolores",
-  "Rank": 166,
-  "Client": "ullam",
-  "Style": "quia",
+  "DashboardThemeId": 106,
+  "Name": "Kassulke Inc and Sons",
+  "Config": "ea",
+  "Rank": 894,
+  "Client": "fugit",
+  "Style": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

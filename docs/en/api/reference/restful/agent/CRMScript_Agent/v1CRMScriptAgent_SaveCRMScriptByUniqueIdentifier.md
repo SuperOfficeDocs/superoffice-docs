@@ -89,7 +89,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "dolores",
+  "UniqueIdentifier": "id",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "delectus",
-  "Name": "Little LLC",
-  "Description": "Synchronised composite pricing structure",
-  "IncludeId": "ratione",
-  "Source": "quis",
-  "Registered": "2004-01-02T16:00:40.4925031+01:00",
-  "RegisteredBy": "dolorem",
-  "Updated": "2004-12-01T16:00:40.4925031+01:00",
-  "UpdatedBy": "earum",
-  "Path": "eaque",
+  "UniqueIdentifier": "enim",
+  "Name": "Keeling-Jacobson",
+  "Description": "Versatile intermediate support",
+  "IncludeId": "adipisci",
+  "Source": "enim",
+  "Registered": "2001-07-28T03:31:25.9790593+02:00",
+  "RegisteredBy": "illo",
+  "Updated": "2006-07-18T03:31:25.9790593+02:00",
+  "UpdatedBy": "quo",
+  "Path": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 736
     }
   }
 }

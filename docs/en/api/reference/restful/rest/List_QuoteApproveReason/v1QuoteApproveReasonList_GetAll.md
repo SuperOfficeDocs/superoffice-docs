@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Renner LLC",
-    "Tooltip": "voluptas",
+    "Id": 511,
+    "Name": "Cronin Inc and Sons",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "UdListDefinitionId": 204,
-    "Rank": 173,
+    "UdListDefinitionId": 545,
+    "Rank": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 847
       }
     }
   }

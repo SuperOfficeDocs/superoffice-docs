@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cruickshank, Ondricka and Stroman",
-  "RecordId": 949,
-  "AssociateId": 829,
-  "ExtraInfo": "quo"
+  "TableName": "Collier, Schaefer and Grady",
+  "RecordId": 942,
+  "AssociateId": 963,
+  "ExtraInfo": "ea"
 }
 ```
 

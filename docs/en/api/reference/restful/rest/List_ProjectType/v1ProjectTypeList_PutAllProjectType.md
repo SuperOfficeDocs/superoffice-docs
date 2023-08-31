@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Little Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "UdListDefinitionId": 69,
-    "Rank": 598
+    "Id": 490,
+    "Name": "Langworth Group",
+    "Tooltip": "quasi",
+    "Deleted": false,
+    "UdListDefinitionId": 576,
+    "Rank": 101
   },
   {
-    "Id": 717,
-    "Name": "Little Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "UdListDefinitionId": 69,
-    "Rank": 598
+    "Id": 490,
+    "Name": "Langworth Group",
+    "Tooltip": "quasi",
+    "Deleted": false,
+    "UdListDefinitionId": 576,
+    "Rank": 101
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Kiehn Inc and Sons",
-    "Tooltip": "nulla",
-    "Deleted": true,
-    "UdListDefinitionId": 787,
-    "Rank": 52,
+    "Id": 88,
+    "Name": "Wintheiser, Hills and Schumm",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "UdListDefinitionId": 741,
+    "Rank": 299,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 676
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Frami-Von",
-    "Tooltip": "odio",
+    "Id": 858,
+    "Name": "Beer, Leffler and Treutel",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 578,
+    "Rank": 562,
     "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": true,
-    "ListType": "qui",
-    "InUseByUserDefinedFields": false,
+    "ListType": "sapiente",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 996
+        "FieldType": "System.Int32",
+        "FieldLength": 566
       }
     }
   }

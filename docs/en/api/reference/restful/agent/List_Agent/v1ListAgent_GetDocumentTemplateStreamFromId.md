@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 98,
-  "LanguageCode": "dolore"
+  "DocumentTemplateId": 535,
+  "LanguageCode": "eos"
 }
 ```
 

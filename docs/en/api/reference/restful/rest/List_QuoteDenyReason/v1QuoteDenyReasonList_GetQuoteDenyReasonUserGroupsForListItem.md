@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Rempel Inc and Sons",
-    "ToolTip": "Cupiditate nulla optio hic et veritatis et minima.",
+    "Id": 968,
+    "Name": "Mohr-Prosacco",
+    "ToolTip": "Amet dolorem hic dolor maiores velit itaque nobis.",
     "Deleted": false,
-    "Rank": 356,
-    "Type": "doloremque",
-    "ColorBlock": 895,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2020-12-25T16:00:49.2426861+01:00",
+    "Rank": 69,
+    "Type": "veniam",
+    "ColorBlock": 983,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2003-03-31T03:31:33.805477+02:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Wiegand, Hyatt and Armstrong",
-        "ToolTip": "Et consequatur sed.",
+        "Id": 576,
+        "Name": "Rolfson Group",
+        "ToolTip": "Et rerum rem tenetur.",
         "Deleted": false,
-        "Rank": 921,
-        "Type": "qui",
-        "ColorBlock": 966,
-        "IconHint": "laboriosam",
+        "Rank": 686,
+        "Type": "aliquam",
+        "ColorBlock": 441,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2008-08-28T16:00:49.2426861+02:00",
+        "LastChanged": "1996-06-05T03:31:33.805477+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "maxime",
-        "Hidden": true,
-        "FullName": "Mr. Abelardo Lea Haley",
+        "ExtraInfo": "in",
+        "StyleHint": "sint",
+        "Hidden": false,
+        "FullName": "Clark Gusikowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldLength": 946
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "esse",
+    "ExtraInfo": "tempora",
+    "StyleHint": "nulla",
     "Hidden": true,
-    "FullName": "Miss Lizeth Dusty Hintz I",
+    "FullName": "Talia Boris Robel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 368
       }
     }
   }

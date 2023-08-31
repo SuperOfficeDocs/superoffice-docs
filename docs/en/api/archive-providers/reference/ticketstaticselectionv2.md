@@ -29,7 +29,7 @@ Static archive Provider for a Selection of tickets archive.
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
-|categoryFullName|listAny|Category: Request category| x |
+|categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
@@ -737,7 +737,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelectionV2?$select=createdBy/assocTooltip,person/email/emailAddress,person/correspondingAssociate/ejUserId,contact/contactAssociate/ejDisplayName,project/projectAssociate/simultaneousEjUser
+GET /api/v1/archive/TicketStaticSelectionV2?$select=contact/contactId,contact/NumberOfNotCompletedTickets,project/projectAssociate/middleName,project/projectAssociate/isActive,project/saintActivityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

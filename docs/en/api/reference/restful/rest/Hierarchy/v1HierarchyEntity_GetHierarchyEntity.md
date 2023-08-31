@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 223,
+  "HierarchyId": 91,
   "Domain": "Dashboards",
-  "Name": "Kautzer, Hettinger and Mraz",
-  "Fullname": "est",
-  "ParentId": 490,
+  "Name": "Bartell Inc and Sons",
+  "Fullname": "sapiente",
+  "ParentId": 663,
   "Children": [
     {
-      "HierarchyId": 480,
+      "HierarchyId": 146,
       "Domain": "Dashboards",
-      "Name": "Hodkiewicz Group",
-      "Fullname": "omnis",
-      "ParentId": 476,
+      "Name": "Gerlach-Haley",
+      "Fullname": "enim",
+      "ParentId": 373,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-07-20T16:00:47.9928249+02:00",
-      "RegisteredAssociateId": 402,
-      "Updated": "2011-02-16T16:00:47.9928249+01:00",
-      "UpdatedAssociateId": 171,
+      "Registered": "2010-11-17T03:31:32.6289016+01:00",
+      "RegisteredAssociateId": 719,
+      "Updated": "2012-12-23T03:31:32.6289016+01:00",
+      "UpdatedAssociateId": 524,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 986
         }
       }
     }
   ],
-  "Registered": "2002-02-28T16:00:47.9928249+01:00",
-  "RegisteredAssociateId": 939,
-  "Updated": "2006-01-28T16:00:47.9928249+01:00",
-  "UpdatedAssociateId": 109,
+  "Registered": "2001-04-29T03:31:32.6289016+02:00",
+  "RegisteredAssociateId": 368,
+  "Updated": "2001-04-09T03:31:32.6289016+02:00",
+  "UpdatedAssociateId": 449,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldLength": 797
     }
   },
   "_Links": {

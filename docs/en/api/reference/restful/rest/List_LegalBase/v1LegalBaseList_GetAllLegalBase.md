@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 639,
-    "Name": "Quitzon, Cronin and Wisozk",
-    "Tooltip": "voluptatem",
-    "Rank": 488,
-    "Key": "voluptatem",
+    "LegalBaseId": 82,
+    "Name": "Kiehn, Cronin and Romaguera",
+    "Tooltip": "atque",
+    "Rank": 938,
+    "Key": "et",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldLength": 624
       }
     }
   }

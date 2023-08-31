@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 403
+  "QuoteVersionId": 926
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 110,
-    "ERPQuoteAlternativeKey": "labore",
-    "QuoteVersionId": 613,
-    "Name": "Miller Inc and Sons",
-    "Description": "Multi-layered zero administration alliance",
+    "QuoteAlternativeId": 577,
+    "ERPQuoteAlternativeKey": "velit",
+    "QuoteVersionId": 153,
+    "Name": "McGlynn, Goldner and Adams",
+    "Description": "Enhanced dynamic firmware",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 13704.982,
-    "ERPDiscountAmount": 21054.212,
-    "DiscountPercent": 26936.73,
-    "DiscountAmount": 21323.736,
+    "ERPDiscountPercent": 4807.556,
+    "ERPDiscountAmount": 24764.868,
+    "DiscountPercent": 31189.568,
+    "DiscountAmount": 19010.844,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "placeat",
-    "VAT": 29929.7,
-    "EarningPercent": 26761.226,
-    "EarningAmount": 8543.284,
-    "SubTotal": 27566.664,
-    "TotalPrice": 15917.586,
-    "ExtraField1": "eligendi",
-    "ExtraField2": "asperiores",
-    "ExtraField3": "culpa",
-    "ExtraField4": "velit",
-    "ExtraField5": "commodi",
+    "VATInfo": "ratione",
+    "VAT": 27507.118,
+    "EarningPercent": 21492.971999999998,
+    "EarningAmount": 19587.5,
+    "SubTotal": 20095.208,
+    "TotalPrice": 11567.594,
+    "ExtraField1": "voluptatem",
+    "ExtraField2": "sunt",
+    "ExtraField3": "iste",
+    "ExtraField4": "non",
+    "ExtraField5": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 665
       }
     }
   }

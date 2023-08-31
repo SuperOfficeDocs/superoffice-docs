@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=deleniti
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=excepturi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Wunsch Group",
-    "ToolTip": "Sed rerum.",
+    "Id": 704,
+    "Name": "Okuneva, Spencer and Bartoletti",
+    "ToolTip": "Alias aut ut aut.",
     "Deleted": true,
-    "Rank": 977,
-    "Type": "repudiandae",
+    "Rank": 832,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Windler, Spinka and Kreiger",
-        "ToolTip": "Qui dolores eaque.",
-        "Deleted": true,
-        "Rank": 792,
-        "Type": "optio",
+        "Id": 137,
+        "Name": "White-Wolf",
+        "ToolTip": "Et deserunt.",
+        "Deleted": false,
+        "Rank": 923,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 808,
-        "ExtraInfo": "quaerat",
+        "IconHint": "vel",
+        "ColorBlock": 924,
+        "ExtraInfo": "doloremque",
         "StyleHint": "non",
-        "FullName": "Trever Bogan",
+        "FullName": "Mr. Major Rex Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 83
+            "FieldType": "System.Int32",
+            "FieldLength": 156
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 802,
-    "ExtraInfo": "commodi",
-    "StyleHint": "qui",
-    "FullName": "Christophe Smitham",
+    "IconHint": "debitis",
+    "ColorBlock": 1002,
+    "ExtraInfo": "quas",
+    "StyleHint": "quasi",
+    "FullName": "Mitchel Pfannerstill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 450
       }
     }
   }

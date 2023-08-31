@@ -75,30 +75,30 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 50,
-  "CrmRecordId": 727,
+  "ErpConnectionId": 86,
+  "CrmRecordId": 937,
   "CrmActorType": "Contact",
-  "ErpKey": "ipsa",
+  "ErpKey": "omnis",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Rutherford-Braun",
-      "CrmFieldKey": "facilis",
-      "Value": "culpa",
-      "DisplayValue": "sed",
-      "SyncToCrm": true,
+      "DisplayName": "Quigley, Moore and Waters",
+      "CrmFieldKey": "vel",
+      "Value": "omnis",
+      "DisplayValue": "itaque",
+      "SyncToCrm": false,
       "SyncToErp": true
     },
     {
-      "DisplayName": "Rutherford-Braun",
-      "CrmFieldKey": "facilis",
-      "Value": "culpa",
-      "DisplayValue": "sed",
-      "SyncToCrm": true,
+      "DisplayName": "Quigley, Moore and Waters",
+      "CrmFieldKey": "vel",
+      "Value": "omnis",
+      "DisplayValue": "itaque",
+      "SyncToCrm": false,
       "SyncToErp": true
     }
   ]

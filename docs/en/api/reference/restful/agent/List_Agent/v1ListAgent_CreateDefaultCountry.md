@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 923,
-  "Name": "VonRueden-Denesik",
-  "CurrencyId": 174,
-  "EnglishName": "Reilly, Ullrich and Stiedemann",
+  "CountryId": 27,
+  "Name": "Yundt, Lehner and Gerhold",
+  "CurrencyId": 119,
+  "EnglishName": "Larson Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Object-based composite core",
-  "OrgNrText": "1258648",
-  "InterAreaPrefix": "dicta",
-  "DialInPrefix": "molestiae",
-  "ZipPrefix": "est",
-  "DomainName": "Aufderhar, Kreiger and Spinka",
-  "AddressLayoutId": 907,
-  "DomesticAddressLayoutId": 375,
-  "ForeignAddressLayoutId": 95,
-  "Rank": 729,
-  "Tooltip": "non",
-  "Deleted": true,
+  "ImageDescription": "Multi-lateral executive application",
+  "OrgNrText": "478093",
+  "InterAreaPrefix": "nam",
+  "DialInPrefix": "excepturi",
+  "ZipPrefix": "natus",
+  "DomainName": "Nader-Olson",
+  "AddressLayoutId": 986,
+  "DomesticAddressLayoutId": 208,
+  "ForeignAddressLayoutId": 153,
+  "Rank": 958,
+  "Tooltip": "et",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldLength": 366
     }
   }
 }

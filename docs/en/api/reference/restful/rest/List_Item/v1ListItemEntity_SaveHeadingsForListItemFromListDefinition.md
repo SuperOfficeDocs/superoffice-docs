@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 965,
-    "Name": "Roberts-Murazik",
-    "ToolTip": "Distinctio esse.",
-    "Deleted": true,
-    "Rank": 179,
-    "Type": "suscipit",
-    "ColorBlock": 446,
-    "IconHint": "esse",
-    "Selected": false,
-    "LastChanged": "2011-03-25T16:00:48.8364781+01:00",
+    "Id": 474,
+    "Name": "Nienow-Beier",
+    "ToolTip": "Beatae suscipit aut cumque voluptatem eum.",
+    "Deleted": false,
+    "Rank": 13,
+    "Type": "provident",
+    "ColorBlock": 105,
+    "IconHint": "provident",
+    "Selected": true,
+    "LastChanged": "1998-09-26T03:31:33.4604945+02:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Turcotte, Walker and Armstrong",
-        "ToolTip": "Sunt illum culpa.",
+        "Id": 790,
+        "Name": "Bailey, Gulgowski and Huels",
+        "ToolTip": "Aut quod qui magni sed dolor sunt.",
         "Deleted": true,
-        "Rank": 809,
-        "Type": "ipsa",
-        "ColorBlock": 924,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2009-12-28T16:00:48.8364781+01:00",
+        "Rank": 308,
+        "Type": "ex",
+        "ColorBlock": 911,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2011-08-10T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Charlotte Gulgowski"
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "unde",
+        "Hidden": true,
+        "FullName": "Earnestine Kris"
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "tenetur",
-    "Hidden": true,
-    "FullName": "Ms. Kristopher Florian Sauer DVM"
+    "ExtraInfo": "repellendus",
+    "StyleHint": "dolore",
+    "Hidden": false,
+    "FullName": "Bette Beier"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Dickinson, Williamson and Bins",
-    "ToolTip": "Autem consequatur nobis et.",
-    "Deleted": true,
-    "Rank": 757,
-    "Type": "pariatur",
-    "ColorBlock": 449,
-    "IconHint": "facere",
+    "Id": 659,
+    "Name": "Walker Inc and Sons",
+    "ToolTip": "Ut dolores officiis.",
+    "Deleted": false,
+    "Rank": 196,
+    "Type": "repudiandae",
+    "ColorBlock": 633,
+    "IconHint": "nesciunt",
     "Selected": true,
-    "LastChanged": "2011-11-10T16:00:48.8364781+01:00",
+    "LastChanged": "2005-04-29T03:31:33.4604945+02:00",
     "ChildItems": [
       {
-        "Id": 886,
-        "Name": "Medhurst, Koch and Mraz",
-        "ToolTip": "Aut fuga voluptas.",
+        "Id": 479,
+        "Name": "Pagac Group",
+        "ToolTip": "Ea eos perferendis quos esse quia.",
         "Deleted": false,
-        "Rank": 116,
-        "Type": "eaque",
-        "ColorBlock": 811,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2020-11-14T16:00:48.8364781+01:00",
+        "Rank": 397,
+        "Type": "et",
+        "ColorBlock": 54,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "1998-07-10T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "illum",
+        "ExtraInfo": "sequi",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Judah Toy",
+        "FullName": "Ms. Jaeden Jaida Parker IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 241
+            "FieldLength": 142
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "ullam",
+    "ExtraInfo": "quos",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Oma Koss",
+    "FullName": "Ms. Mikel Reggie Hagenes DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 871
       }
     }
   }

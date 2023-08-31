@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 665,
+    "TargetDimensionId": 674,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "provident",
-    "DimensionListName": "Mann Group",
-    "DimensionListId": 37,
-    "DimensionListLabel": "cumque",
+    "DimensionListField": "fugit",
+    "DimensionListName": "Wilkinson Group",
+    "DimensionListId": 811,
+    "DimensionListLabel": "est",
     "SelectedDimensions": [
-      646,
-      220
+      793,
+      987
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 98
       }
     }
   }

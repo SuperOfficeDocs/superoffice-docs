@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Sauer-Kling",
+  "UserName": "Ankunding, Balistreri and Sauer",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 1001,
-  "Name": "Mann, Welch and Carroll",
-  "Rank": 667,
-  "Tooltip": "minus",
+  "AssociateId": 962,
+  "Name": "Lindgren, Abernathy and Aufderhar",
+  "Rank": 932,
+  "Tooltip": "praesentium",
   "LicenseOwners": [
     {
-      "Name": "Lubowitz-O'Keefe",
-      "Description": "Diverse intermediate groupware",
+      "Name": "Ruecker, Kuphal and Abernathy",
+      "Description": "Devolved attitude-oriented hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 840
         }
       }
     },
     {
-      "Name": "Lubowitz-O'Keefe",
-      "Description": "Diverse intermediate groupware",
+      "Name": "Ruecker, Kuphal and Abernathy",
+      "Description": "Devolved attitude-oriented hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 840
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "non",
-      "Tooltip": "eligendi",
-      "Id": 94,
-      "Rank": 373,
-      "Deleted": false,
+      "Value": "aut",
+      "Tooltip": "explicabo",
+      "Id": 756,
+      "Rank": 466,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldType": "System.String",
+          "FieldLength": 558
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1997-01-26T16:00:42.3518725+01:00",
-  "Lastlogout": "2007-04-14T16:00:42.3518725+02:00",
-  "EjUserId": 20,
-  "RequestSignature": "non",
+  "Lastlogin": "2014-11-14T03:31:27.7947096+01:00",
+  "Lastlogout": "2014-11-05T03:31:27.7947096+01:00",
+  "EjUserId": 925,
+  "RequestSignature": "placeat",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "iste",
-      "DisplayValue": "dolor",
+      "Value": "dignissimos",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     },
     {
       "Type": null,
-      "Value": "iste",
-      "DisplayValue": "dolor",
+      "Value": "dignissimos",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 716
         }
       }
     }
   ],
-  "UserName": "Kshlerin-Rath",
+  "UserName": "Denesik, Krajcik and Lind",
   "TicketCategories": [
     {
-      "Id": 750,
-      "Name": "Senger, Langosh and Crooks",
-      "ToolTip": "Deleniti omnis accusantium sit.",
+      "Id": 111,
+      "Name": "Gibson Group",
+      "ToolTip": "Voluptatem modi porro quia.",
       "Deleted": false,
-      "Rank": 227,
-      "Type": "qui",
+      "Rank": 689,
+      "Type": "repellat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dicta",
-      "ColorBlock": 184,
-      "ExtraInfo": "commodi",
-      "StyleHint": "est",
-      "FullName": "Katelyn Kilback",
+      "IconHint": "adipisci",
+      "ColorBlock": 368,
+      "ExtraInfo": "quia",
+      "StyleHint": "veniam",
+      "FullName": "Ms. Loy Smith MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldLength": 591
         }
       }
     }
   ],
-  "NickName": "Cassin Group",
+  "NickName": "Carroll, Boyle and Hamill",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "et",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "veniam"
+    "CustomFields1": "ratione",
+    "CustomFields2": "asperiores"
   },
   "PostSaveCommands": [
     {
-      "Name": "Skiles, Nicolas and Pfannerstill",
-      "DisplayName": "Cassin LLC",
-      "Description": "Reactive intermediate policy",
-      "ToolTip": "Est expedita.",
+      "Name": "Hintz-VonRueden",
+      "DisplayName": "Hansen-Roob",
+      "Description": "Synchronised dynamic frame",
+      "ToolTip": "Quia consequatur.",
       "Actions": "Implicit",
-      "ActionData": "itaque",
+      "ActionData": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 949
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 250
     }
   }
 }

@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 366,
-  "UserInput": "aut",
-  "PriceListKey": "ullam"
+  "QuoteAlternativeId": 87,
+  "UserInput": "aspernatur",
+  "PriceListKey": "amet"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 168,
-    "ERPProductKey": "magnam",
-    "ERPPriceListKey": "incidunt",
-    "Name": "Reinger LLC",
-    "Description": "Compatible contextually-based alliance",
-    "Code": "tempora",
-    "PriceUnit": "ipsum",
-    "QuantityUnit": "cum",
-    "IsSubscription": false,
-    "SubscriptionUnit": "pariatur",
-    "DefaultSubscriptionQuantity": 26331.868,
-    "ItemNumber": "635775",
+    "ProductId": 731,
+    "ERPProductKey": "accusantium",
+    "ERPPriceListKey": "accusamus",
+    "Name": "Hagenes, Fahey and Vandervort",
+    "Description": "Realigned real-time project",
+    "Code": "voluptas",
+    "PriceUnit": "molestiae",
+    "QuantityUnit": "suscipit",
+    "IsSubscription": true,
+    "SubscriptionUnit": "itaque",
+    "DefaultSubscriptionQuantity": 27272.068,
+    "ItemNumber": "1590263",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "illo",
-    "ProductTypeKey": "laborum",
-    "VAT": 8377.1819999999989,
-    "VATInfo": "perspiciatis",
-    "UnitCost": 20483.824,
-    "UnitMinimumPrice": 13379.046,
-    "UnitListPrice": 30402.933999999997,
+    "ProductFamilyKey": "nemo",
+    "ProductTypeKey": "necessitatibus",
+    "VAT": 27485.18,
+    "VATInfo": "sed",
+    "UnitCost": 9279.774,
+    "UnitMinimumPrice": 20596.648,
+    "UnitListPrice": 24934.104,
     "InAssortment": false,
-    "Supplier": "ducimus",
-    "SupplierCode": "nobis",
-    "Rights": "qui",
-    "Rule": "autem",
+    "Supplier": "soluta",
+    "SupplierCode": "consectetur",
+    "Rights": "et",
+    "Rule": "ut",
     "ExtraInfo": [
       {
-        "Name": "Gerlach Inc and Sons",
-        "Value": "in",
+        "Name": "Schmeler-Schmeler",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 682
+            "FieldType": "System.Int32",
+            "FieldLength": 700
           }
         }
       },
       {
-        "Name": "Gerlach Inc and Sons",
-        "Value": "in",
+        "Name": "Schmeler-Schmeler",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 682
+            "FieldType": "System.Int32",
+            "FieldLength": 700
           }
         }
       }
     ],
-    "RawExtraInfo": "accusantium",
-    "ExtraField1": "eius",
-    "ExtraField2": "aliquam",
-    "ExtraField3": "suscipit",
-    "ExtraField4": "delectus",
-    "ExtraField5": "beatae",
-    "InStock": 23044.302,
+    "RawExtraInfo": "est",
+    "ExtraField1": "aliquam",
+    "ExtraField2": "unde",
+    "ExtraField3": "est",
+    "ExtraField4": "voluptatem",
+    "ExtraField5": "in",
+    "InStock": 9458.412,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 864
       }
     }
   }

@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 535,
-  "Name": "Franecki Inc and Sons",
-  "ContentType": "quod",
-  "AttSize": 138,
+  "AttachmentId": 457,
+  "Name": "Ryan Group",
+  "ContentType": "qui",
+  "AttSize": 61,
   "InlineImage": false,
-  "ContentId": "autem",
-  "AuthKey": "temporibus",
+  "ContentId": "repellat",
+  "AuthKey": "a",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 81
     }
   }
 }

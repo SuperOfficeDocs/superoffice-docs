@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 561,
-  "SelectionId": 958,
-  "Restrictions": "deleniti"
+  "DashboardTileId": 119,
+  "SelectionId": 208,
+  "Restrictions": "pariatur"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Feest Group",
-        "DisplayTooltip": "maiores",
-        "DisplayType": "voluptatem",
+        "DisplayName": "Bahringer LLC",
+        "DisplayTooltip": "ut",
+        "DisplayType": "rem",
         "CanOrderBy": true,
-        "Name": "Hermiston Inc and Sons",
+        "Name": "Hirthe Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "veniam",
-        "RestrictionListName": "Tremblay, Kohler and Collier",
+        "RestrictionType": "ut",
+        "RestrictionListName": "Hyatt, O'Hara and Wilderman",
         "IsVisible": true,
-        "ExtraInfo": "nobis",
-        "Width": "aut",
-        "IconHint": "et",
-        "HeadingIconHint": "minus"
+        "ExtraInfo": "sapiente",
+        "Width": "ex",
+        "IconHint": "dolor",
+        "HeadingIconHint": "maxime"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Feest Group",
-        "DisplayTooltip": "maiores",
-        "DisplayType": "voluptatem",
+        "DisplayName": "Bahringer LLC",
+        "DisplayTooltip": "ut",
+        "DisplayType": "rem",
         "CanOrderBy": true,
-        "Name": "Hermiston Inc and Sons",
+        "Name": "Hirthe Inc and Sons",
         "CanRestrictBy": false,
-        "RestrictionType": "veniam",
-        "RestrictionListName": "Tremblay, Kohler and Collier",
+        "RestrictionType": "ut",
+        "RestrictionListName": "Hyatt, O'Hara and Wilderman",
         "IsVisible": true,
-        "ExtraInfo": "nobis",
-        "Width": "aut",
-        "IconHint": "et",
-        "HeadingIconHint": "minus"
+        "ExtraInfo": "sapiente",
+        "Width": "ex",
+        "IconHint": "dolor",
+        "HeadingIconHint": "maxime"
       }
     ],
     "Result": null

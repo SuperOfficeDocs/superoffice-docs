@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 69,
-    "Name": "Moore Inc and Sons",
-    "Tooltip": "est",
+    "HeadingId": 54,
+    "Name": "O'Hara, Powlowski and Champlin",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 790,
-    "UdListDefinitionId": 999
+    "Rank": 881,
+    "UdListDefinitionId": 340
   },
   {
-    "HeadingId": 69,
-    "Name": "Moore Inc and Sons",
-    "Tooltip": "est",
+    "HeadingId": 54,
+    "Name": "O'Hara, Powlowski and Champlin",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 790,
-    "UdListDefinitionId": 999
+    "Rank": 881,
+    "UdListDefinitionId": 340
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 474,
-    "Name": "Goodwin, Konopelski and Simonis",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 986,
-    "UdListDefinitionId": 721,
+    "HeadingId": 415,
+    "Name": "Franecki Inc and Sons",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 150,
+    "UdListDefinitionId": 899,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 44
+        "FieldType": "System.Int32",
+        "FieldLength": 706
       }
     }
   }

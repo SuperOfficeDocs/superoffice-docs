@@ -87,28 +87,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dicki-Walsh",
+  "ProviderName": "Jacobi-Wolff",
   "Restrictions": [
     {
-      "Name": "Baumbach, Conroy and Morar",
-      "Operator": "sunt",
+      "Name": "Moen, Labadie and Kunze",
+      "Operator": "cupiditate",
       "Values": [
-        "neque",
-        "aliquid"
+        "quo",
+        "ducimus"
       ],
       "DisplayValues": [
-        "occaecati",
-        "aut"
+        "voluptas",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 913,
+      "InterParenthesis": 445,
       "InterOperator": "And",
-      "UniqueHash": 748
+      "UniqueHash": 762
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grimes, Emard and Casper",
-    "Operator": "quae",
+    "Name": "Jakubowski Group",
+    "Operator": "vel",
     "Values": [
-      "aut",
-      "ipsum"
+      "vel",
+      "voluptas"
     ],
     "DisplayValues": [
-      "laudantium",
-      "at"
+      "ut",
+      "perferendis"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Graham, Adams and Schoen",
-        "Operator": "perspiciatis",
+        "Name": "Dach, DuBuque and Ratke",
+        "Operator": "quos",
         "Values": [
-          "laboriosam",
-          "deleniti"
+          "nostrum",
+          "pariatur"
         ],
         "DisplayValues": [
           "nostrum",
-          "eum"
+          "necessitatibus"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 264,
+        "InterParenthesis": 624,
         "InterOperator": "And",
-        "UniqueHash": 121
+        "UniqueHash": 12
       }
     ],
-    "InterParenthesis": 971,
+    "InterParenthesis": 890,
     "InterOperator": "And",
-    "UniqueHash": 702
+    "UniqueHash": 412
   }
 ]
 ```

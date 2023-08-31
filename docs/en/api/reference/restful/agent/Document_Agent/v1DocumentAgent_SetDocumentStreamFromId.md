@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 327,
+  "DocumentId": 292,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 891,
+  "DocumentId": 956,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "quis",
-  "Name": "Gerhold-Jakubowski",
-  "OurRef": "nihil",
-  "YourRef": "qui",
-  "CreatedDate": "2020-05-12T16:00:40.8206188+02:00",
-  "UpdatedDate": "2019-02-12T16:00:40.8206188+01:00",
-  "Description": "Customer-focused hybrid superstructure",
+  "Attention": "quae",
+  "Header": "in",
+  "Name": "Ratke Group",
+  "OurRef": "sit",
+  "YourRef": "eum",
+  "CreatedDate": "2000-01-03T03:31:26.1833055+01:00",
+  "UpdatedDate": "1999-10-07T03:31:26.1833055+02:00",
+  "Description": "Implemented incremental model",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-08-14T16:00:40.8206188+02:00",
-  "ExternalRef": "deleniti",
+  "Date": "2020-01-19T03:31:26.1989251+01:00",
+  "ExternalRef": "voluptates",
   "Completed": "Completed",
-  "ActiveLinks": 97,
+  "ActiveLinks": 181,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Waelchi Group",
-      "Id": 113,
-      "Description": "Reactive value-added website",
-      "ExtraInfo": "iusto",
-      "LinkId": 473,
+      "EntityName": "Durgan-Hegmann",
+      "Id": 369,
+      "Description": "Balanced non-volatile standardization",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 537,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 669
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 47,
-  "Snum": 129,
+  "SuggestedDocumentId": 65,
+  "Snum": 580,
   "UserDefinedFields": {
-    "SuperOffice:1": "Sandy Heaney",
-    "SuperOffice:2": "880271561"
+    "SuperOffice:1": "55983896",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "in",
+    "CustomFields2": "totam"
   },
-  "PublishEventDate": "2015-09-20T16:00:40.8206188+02:00",
-  "PublishTo": "2003-06-08T16:00:40.8206188+02:00",
-  "PublishFrom": "2001-06-24T16:00:40.8206188+02:00",
+  "PublishEventDate": "2023-08-05T03:31:26.2301704+02:00",
+  "PublishTo": "2019-05-26T03:31:26.2301704+02:00",
+  "PublishFrom": "2007-08-29T03:31:26.2301704+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 970,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 896
         }
       }
     },
     {
-      "VisibleId": 970,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 896
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

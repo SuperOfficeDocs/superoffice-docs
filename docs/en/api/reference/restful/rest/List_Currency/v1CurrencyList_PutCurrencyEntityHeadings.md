@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 379,
-    "Name": "Rau, Bartoletti and Ortiz",
-    "Tooltip": "hic",
+    "HeadingId": 450,
+    "Name": "Brekke-Gusikowski",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 270,
-    "UdListDefinitionId": 916
+    "Rank": 115,
+    "UdListDefinitionId": 29
   },
   {
-    "HeadingId": 379,
-    "Name": "Rau, Bartoletti and Ortiz",
-    "Tooltip": "hic",
+    "HeadingId": 450,
+    "Name": "Brekke-Gusikowski",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 270,
-    "UdListDefinitionId": 916
+    "Rank": 115,
+    "UdListDefinitionId": 29
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 701,
-    "Name": "Swaniawski, Becker and Kuvalis",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 52,
-    "UdListDefinitionId": 557,
+    "HeadingId": 537,
+    "Name": "Sauer LLC",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "Rank": 720,
+    "UdListDefinitionId": 133,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 722
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Hirthe-Fritsch",
-    "ToolTip": "Expedita ab.",
-    "Deleted": true,
-    "Rank": 995,
-    "Type": "porro",
-    "ColorBlock": 139,
-    "IconHint": "eligendi",
+    "Id": 613,
+    "Name": "Medhurst LLC",
+    "ToolTip": "Voluptatem rerum fuga quas in.",
+    "Deleted": false,
+    "Rank": 636,
+    "Type": "blanditiis",
+    "ColorBlock": 479,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2015-06-22T16:00:48.9614655+02:00",
+    "LastChanged": "2021-05-24T03:31:33.5698483+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Thompson, Kemmer and Zieme",
-        "ToolTip": "Et sunt et ipsa.",
+        "Id": 431,
+        "Name": "Kunde-Adams",
+        "ToolTip": "Voluptatem et molestias tempora id.",
         "Deleted": false,
-        "Rank": 36,
-        "Type": "vel",
-        "ColorBlock": 164,
-        "IconHint": "quis",
+        "Rank": 248,
+        "Type": "accusamus",
+        "ColorBlock": 363,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2013-02-20T16:00:48.9614655+01:00",
+        "LastChanged": "2009-02-18T03:31:33.5698483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "iure",
-        "Hidden": true,
-        "FullName": "Delta Lehner",
+        "ExtraInfo": "enim",
+        "StyleHint": "a",
+        "Hidden": false,
+        "FullName": "Clare Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 348
+            "FieldLength": 237
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "earum",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Augusta Reinger",
+    "FullName": "Rosemary Carley Turner PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 441
       }
     }
   }

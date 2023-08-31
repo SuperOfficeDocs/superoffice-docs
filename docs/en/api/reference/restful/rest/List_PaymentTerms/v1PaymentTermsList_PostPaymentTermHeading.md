@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 536,
-  "Name": "Yost, Ebert and Goyette",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 231,
-  "UdListDefinitionId": 169
+  "HeadingId": 397,
+  "Name": "Russel LLC",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 872,
+  "UdListDefinitionId": 646
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 93,
-  "Name": "Mohr Inc and Sons",
-  "Tooltip": "in",
+  "HeadingId": 4,
+  "Name": "Metz Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 922,
-  "UdListDefinitionId": 547,
+  "Rank": 809,
+  "UdListDefinitionId": 659,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 8
     }
   }
 }

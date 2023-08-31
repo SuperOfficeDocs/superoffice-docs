@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Toy-Stoltenberg",
-  "Context": "vitae",
+  "ProviderName": "Kovacek Group",
+  "Context": "accusamus",
   "DesiredEntities": [
-    "alias",
-    "voluptate"
+    "fugit",
+    "sint"
   ],
   "Columns": [
-    "ut",
-    "accusamus"
+    "esse",
+    "sit"
   ],
   "SortOrder": [
     {
-      "Name": "Bashirian Group",
+      "Name": "Ernser LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Bashirian Group",
+      "Name": "Ernser LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Friesen-Kovacek",
-      "Operator": "consequatur",
+      "Name": "Bradtke Inc and Sons",
+      "Operator": "itaque",
       "Values": [
-        "aperiam",
-        "eligendi"
+        "voluptatem",
+        "repellat"
       ],
       "DisplayValues": [
-        "doloremque",
-        "corporis"
+        "accusantium",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 908,
+      "InterParenthesis": 177,
       "InterOperator": "And",
-      "UniqueHash": 700
+      "UniqueHash": 2
     }
   ],
-  "ExportType": "harum",
+  "ExportType": "ea",
   "SelectedRowIds": [
-    "voluptatem",
-    "ut"
+    "omnis",
+    "sequi"
   ],
-  "EstimatedRowCount": 462
+  "EstimatedRowCount": 52
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 341,
-  "FileName": "Mitchell-Block",
-  "Message": "impedit",
+  "BatchTaskId": 331,
+  "FileName": "Huel, Wiegand and Willms",
+  "Message": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 198
     }
   }
 }

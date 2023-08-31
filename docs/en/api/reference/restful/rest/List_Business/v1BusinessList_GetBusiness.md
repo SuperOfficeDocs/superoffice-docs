@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Mueller-Ward",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 97,
-  "Rank": 125,
+  "Id": 738,
+  "Name": "Kshlerin, Fisher and Buckridge",
+  "Tooltip": "incidunt",
+  "Deleted": true,
+  "UdListDefinitionId": 870,
+  "Rank": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldType": "System.String",
+      "FieldLength": 244
     }
   }
 }

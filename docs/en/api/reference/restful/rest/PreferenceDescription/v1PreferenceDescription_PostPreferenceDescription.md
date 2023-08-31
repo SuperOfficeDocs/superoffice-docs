@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 609,
-  "Section": "molestiae",
-  "Key": "aut",
-  "Name": "Tromp Group",
+  "PrefDescId": 748,
+  "Section": "temporibus",
+  "Key": "qui",
+  "Name": "McGlynn Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cloned web-enabled local area network",
+  "Description": "Versatile actuating workforce",
   "IsBuiltin": false,
-  "TableName": "Von-Waters",
-  "UserDefinedListId": 252,
-  "Rank": 696,
-  "SubGroup": "iure",
-  "MinLevel": 917,
-  "MaxValue": 128,
-  "MinValue": 2,
-  "RequiredLicense": "minus"
+  "TableName": "Abernathy LLC",
+  "UserDefinedListId": 889,
+  "Rank": 649,
+  "SubGroup": "est",
+  "MinLevel": 806,
+  "MaxValue": 150,
+  "MinValue": 493,
+  "RequiredLicense": "corporis"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 201,
-  "Section": "quia",
-  "Key": "odit",
-  "Name": "Lehner Group",
+  "PrefDescId": 346,
+  "Section": "occaecati",
+  "Key": "dolorem",
+  "Name": "Mann-Conroy",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total heuristic middleware",
-  "IsBuiltin": false,
-  "TableName": "Dietrich, Dicki and Lehner",
-  "UserDefinedListId": 573,
-  "Rank": 151,
-  "SubGroup": "qui",
-  "MinLevel": 891,
-  "MaxValue": 656,
-  "MinValue": 503,
-  "RequiredLicense": "eos",
+  "Description": "Exclusive content-based process improvement",
+  "IsBuiltin": true,
+  "TableName": "Wolff-Hammes",
+  "UserDefinedListId": 762,
+  "Rank": 454,
+  "SubGroup": "laudantium",
+  "MinLevel": 766,
+  "MaxValue": 909,
+  "MinValue": 592,
+  "RequiredLicense": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 758
     }
   },
   "_Links": {

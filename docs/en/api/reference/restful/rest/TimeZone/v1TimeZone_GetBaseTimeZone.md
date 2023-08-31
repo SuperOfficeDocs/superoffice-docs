@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 877,
-  "Name": "Jast Group",
-  "TZLocationCode": "error",
-  "TZLocationCities": "vel",
-  "IsoNumber": 672,
+  "TZLocationID": 502,
+  "Name": "Carroll-Dibbert",
+  "TZLocationCode": "quia",
+  "TZLocationCities": "incidunt",
+  "IsoNumber": 991,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 553,
-      "StartMonth": 467,
-      "EndDay": 548,
-      "EndMonth": 865,
-      "TZOffset": 881,
-      "StartRulePattern": "maxime",
-      "EndRulePattern": "quas"
+      "StartDay": 564,
+      "StartMonth": 897,
+      "EndDay": 881,
+      "EndMonth": 275,
+      "TZOffset": 174,
+      "StartRulePattern": "non",
+      "EndRulePattern": "quisquam"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 223,
-      "StartMonth": 172,
-      "EndDay": 368,
-      "EndMonth": 665,
-      "TZOffset": 948,
-      "StartRulePattern": "quas",
-      "EndRulePattern": "quibusdam"
+      "StartDay": 910,
+      "StartMonth": 984,
+      "EndDay": 789,
+      "EndMonth": 699,
+      "TZOffset": 588,
+      "StartRulePattern": "perferendis",
+      "EndRulePattern": "et"
     }
   }
 }

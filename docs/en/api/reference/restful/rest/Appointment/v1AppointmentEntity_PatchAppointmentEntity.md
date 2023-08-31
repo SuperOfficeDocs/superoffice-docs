@@ -72,7 +72,7 @@ PATCH /api/v1/Appointment/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -171,12 +171,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "optio",
+    "path": "ex",
     "value": {}
   },
   {
     "op": "add",
-    "path": "optio",
+    "path": "ex",
     "value": {}
   }
 ]
@@ -193,125 +193,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-10-13T16:00:47.4772545+02:00",
-  "AppointmentId": 823,
-  "Description": "Optional transitional neural-net",
-  "StartDate": "2000-02-19T16:00:47.4772545+01:00",
-  "EndDate": "2016-02-22T16:00:47.4772545+01:00",
+  "CreatedDate": "2019-11-25T03:31:32.0340622+01:00",
+  "AppointmentId": 510,
+  "Description": "Universal executive policy",
+  "StartDate": "2009-11-22T03:31:32.0340622+01:00",
+  "EndDate": "2017-11-12T03:31:32.0340622+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 395,
+  "MotherId": 728,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-06-16T16:00:47.4772545+02:00",
+  "UpdatedDate": "2015-04-16T03:31:32.0340622+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 412,
+  "ActiveLinks": 262,
   "Links": [
     {
-      "EntityName": "Boehm Inc and Sons",
-      "Id": 185,
-      "Description": "Balanced motivating moratorium",
-      "ExtraInfo": "doloremque",
-      "LinkId": 599,
+      "EntityName": "Padberg Group",
+      "Id": 883,
+      "Description": "Organized disintermediate algorithm",
+      "ExtraInfo": "totam",
+      "LinkId": 21,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 144
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
+  "AlarmLeadTime": "quis",
   "HasAlarm": false,
-  "ColorIndex": 929,
+  "ColorIndex": 237,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "animi",
-  "LeadTime": "ut",
-  "Location": "cumque",
-  "RejectCounter": 346,
+  "LagTime": "quo",
+  "LeadTime": "rerum",
+  "Location": "aspernatur",
+  "RejectCounter": 571,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 471,
-      "PersonId": 809,
-      "ContactId": 126,
-      "EmailId": 305,
-      "SendEmail": true,
+      "AssociateId": 502,
+      "PersonId": 873,
+      "ContactId": 692,
+      "EmailId": 629,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 471,
-      "PersonId": 809,
-      "ContactId": 126,
-      "EmailId": 305,
-      "SendEmail": true,
+      "AssociateId": 502,
+      "PersonId": 873,
+      "ContactId": 692,
+      "EmailId": 629,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-02-11T16:00:47.4772545+01:00",
+  "ActiveDate": "2007-01-09T03:31:32.0340622+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 973,
+  "PreferredTZLocation": 447,
   "Sale": null,
-  "SuggestedAppointmentId": 782,
+  "SuggestedAppointmentId": 288,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nam",
-  "Title": "magni",
-  "Agenda": "necessitatibus",
-  "InternalNotes": "natus",
+  "CentralserviceVideomeetId": "qui",
+  "Title": "rerum",
+  "Agenda": "laboriosam",
+  "InternalNotes": "expedita",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Oscar Schuster"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Cielo Grant"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "debitis"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2002-11-20T16:00:47.4928791+01:00",
-  "PublishTo": "2004-03-27T16:00:47.4928791+01:00",
-  "PublishFrom": "2013-08-21T16:00:47.4928791+02:00",
+  "PublishEventDate": "2022-10-10T03:31:32.0340622+02:00",
+  "PublishTo": "2017-06-24T03:31:32.0340622+02:00",
+  "PublishFrom": "2004-12-15T03:31:32.0340622+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 423,
+      "VisibleId": 114,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldType": "System.String",
+          "FieldLength": 101
         }
       }
     },
     {
-      "VisibleId": 423,
+      "VisibleId": 114,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 157
+          "FieldType": "System.String",
+          "FieldLength": 101
         }
       }
     }
@@ -320,13 +320,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 829,
-    "Name": "Wolf, Gutmann and Armstrong",
-    "OrgNr": "935694",
+    "ContactId": 433,
+    "Name": "Ferry-Hansen",
+    "OrgNr": "256314",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "voluptatum",
-    "DirectPhone": "(278)301-7348 x34736",
-    "AssociateId": 62,
-    "CountryId": 49,
-    "EmailAddress": "alice@von.com",
-    "Kananame": "accusantium",
-    "EmailAddressName": "kirstin.turcotte@stracke.biz",
+    "City": "eaque",
+    "DirectPhone": "243.599.0844",
+    "AssociateId": 506,
+    "CountryId": 199,
+    "EmailAddress": "josephine.leffler@bernhardwilliamson.biz",
+    "Kananame": "placeat",
+    "EmailAddressName": "assunta.larkin@kulaswilderman.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Miss Derick Johnston",
+    "AssociateFullName": "Erin McCullough",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "aperiam",
-    "FullName": "Lavon Kovacek",
+    "FormattedAddress": "quo",
+    "FullName": "Landen Durgan",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 720,
-    "Number1": "1288275",
-    "Number2": "1014223",
+    "ActiveErpLinks": 129,
+    "Number1": "1335513",
+    "Number2": "1526236",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 801
       }
     }
   }

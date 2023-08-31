@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 462,
-  "UdListDefinitionId": 823,
+  "Id": 47,
+  "UdListDefinitionId": 968,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 956,
-  "Name": "Hammes LLC",
-  "Tooltip": "et",
+  "Id": 730,
+  "Name": "Dicki Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 357,
-  "Rank": 865,
+  "UdListDefinitionId": 946,
+  "Rank": 965,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 294
     }
   }
 }

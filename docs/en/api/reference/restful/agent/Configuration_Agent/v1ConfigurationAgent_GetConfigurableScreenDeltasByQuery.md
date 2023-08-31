@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 165,
-    "Name": "Bayer LLC",
-    "Description": "Phased bifurcated collaboration",
-    "DeltaJson": "impedit",
+    "ConfigurableScreenDeltaId": 578,
+    "Name": "Smitham-Hayes",
+    "Description": "Decentralized eco-centric architecture",
+    "DeltaJson": "autem",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "doloribus",
-    "UpdatedDate": "2022-09-03T16:00:40.3050315+02:00",
-    "CreatedDate": "2005-11-13T16:00:40.3050315+01:00",
+    "RecipeId": "natus",
+    "UpdatedDate": "2006-04-04T03:31:25.8228647+02:00",
+    "CreatedDate": "2017-08-02T03:31:25.8228647+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      684,
-      494
+      432,
+      624
     ],
-    "AppliesToKey": "maxime",
+    "AppliesToKey": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 705
       }
     }
   }

@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 366,
-  "Name": "Mayer Group",
-  "Description": "Total exuding throughput",
+  "ReportLabelLayoutId": 152,
+  "Name": "Bergnaum-Collier",
+  "Description": "De-engineered zero administration emulation",
   "Orientation": "Landscape",
-  "PaperWidth": 296,
-  "PaperHeight": 468,
-  "LeftMargin": 535,
-  "RightMargin": 841,
-  "TopMargin": 402,
-  "BottomMargin": 195,
-  "CountColumns": 935,
-  "CountRows": 527,
+  "PaperWidth": 933,
+  "PaperHeight": 693,
+  "LeftMargin": 256,
+  "RightMargin": 322,
+  "TopMargin": 887,
+  "BottomMargin": 791,
+  "CountColumns": 567,
+  "CountRows": 171,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldLength": 247
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 588,
-  "Name": "Rath LLC",
-  "Tooltip": "non",
+  "RoleId": 501,
+  "Name": "Schneider Group",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 389,
-  "Rank": 467,
-  "Created": "2008-03-29T16:00:48.1959227+01:00",
-  "UseCategories": 13,
+  "Deleted": 968,
+  "Rank": 230,
+  "Created": "2002-12-24T03:31:32.8163583+01:00",
+  "UseCategories": 105,
   "CreatedBy": null,
-  "Updated": "2004-03-31T16:00:48.1959227+02:00",
+  "Updated": "2023-08-12T03:31:32.8163583+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 598
+      "FieldLength": 334
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Anderson-Langosh",
-    "ToolTip": "Perferendis hic cum illo sint aut fuga quia.",
-    "Deleted": true,
-    "Rank": 224,
-    "Type": "quo",
-    "ColorBlock": 855,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2018-10-11T16:00:49.3527243+02:00",
+    "Id": 319,
+    "Name": "McLaughlin-Yost",
+    "ToolTip": "Earum earum esse aut rerum aperiam.",
+    "Deleted": false,
+    "Rank": 333,
+    "Type": "eaque",
+    "ColorBlock": 722,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2010-06-25T03:31:33.900328+02:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Ward, Will and Jewess",
-        "ToolTip": "Non placeat consequatur perferendis quis pariatur aliquid.",
+        "Id": 482,
+        "Name": "Sauer, Sanford and Lang",
+        "ToolTip": "Ea est repellendus.",
         "Deleted": false,
-        "Rank": 825,
-        "Type": "et",
-        "ColorBlock": 500,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2002-02-25T16:00:49.3527243+01:00",
+        "Rank": 746,
+        "Type": "eum",
+        "ColorBlock": 98,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2007-08-16T03:31:33.900328+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Beverly Sheldon Mayer II"
+        "ExtraInfo": "et",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Sandra Rice"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "dolore",
+    "ExtraInfo": "sit",
+    "StyleHint": "iure",
     "Hidden": false,
-    "FullName": "Lucio Armando Hansen DDS"
+    "FullName": "Corrine Bauch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Williamson-Rippin",
-    "ToolTip": "Accusantium quis aperiam eveniet exercitationem.",
-    "Deleted": true,
-    "Rank": 151,
-    "Type": "qui",
-    "ColorBlock": 993,
-    "IconHint": "veniam",
+    "Id": 392,
+    "Name": "O'Keefe LLC",
+    "ToolTip": "Porro expedita id sed.",
+    "Deleted": false,
+    "Rank": 781,
+    "Type": "cumque",
+    "ColorBlock": 809,
+    "IconHint": "fugiat",
     "Selected": true,
-    "LastChanged": "2015-08-09T16:00:49.3527243+02:00",
+    "LastChanged": "2017-10-19T03:31:33.900328+02:00",
     "ChildItems": [
       {
-        "Id": 5,
-        "Name": "Schamberger LLC",
-        "ToolTip": "Sequi ipsum culpa voluptatem et.",
-        "Deleted": true,
-        "Rank": 793,
-        "Type": "at",
-        "ColorBlock": 399,
-        "IconHint": "delectus",
+        "Id": 553,
+        "Name": "Mayer-Cormier",
+        "ToolTip": "Sint aliquid.",
+        "Deleted": false,
+        "Rank": 1002,
+        "Type": "et",
+        "ColorBlock": 448,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2016-04-30T16:00:49.3527243+02:00",
+        "LastChanged": "2003-03-21T03:31:33.900328+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Sabrina Lakin",
+        "ExtraInfo": "tempore",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Darius Minerva Kemmer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 826
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Kamren McCullough",
+    "ExtraInfo": "qui",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Elody McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 209
       }
     }
   }

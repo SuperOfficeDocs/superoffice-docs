@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "expedita",
-  "ProviderName": "Larson-Schmidt",
-  "PageSize": 1001,
-  "PageNumber": 289
+  "Restrictions": "ipsum",
+  "ProviderName": "Howell-Kulas",
+  "PageSize": 164,
+  "PageNumber": 217
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hammes LLC",
-      "DisplayTooltip": "sed",
-      "DisplayType": "quo",
+      "DisplayName": "McCullough, Cassin and Schiller",
+      "DisplayTooltip": "magnam",
+      "DisplayType": "impedit",
       "CanOrderBy": false,
-      "Name": "Jast-McCullough",
-      "CanRestrictBy": true,
-      "RestrictionType": "odit",
-      "RestrictionListName": "Jakubowski, O'Connell and Hermann",
-      "IsVisible": true,
-      "ExtraInfo": "ipsum",
-      "Width": "et",
-      "IconHint": "et",
-      "HeadingIconHint": "in"
+      "Name": "Lowe, Barton and Sawayn",
+      "CanRestrictBy": false,
+      "RestrictionType": "ea",
+      "RestrictionListName": "Schuppe Group",
+      "IsVisible": false,
+      "ExtraInfo": "incidunt",
+      "Width": "a",
+      "IconHint": "magni",
+      "HeadingIconHint": "adipisci"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pfannerstill-Reilly",
-      "PrimaryKey": 550,
+      "EntityName": "Sanford-Torphy",
+      "PrimaryKey": 576,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quos",
-          "TooltipHint": "ut",
-          "LinkHint": "exercitationem"
+          "DisplayValue": "dolorem",
+          "TooltipHint": "quibusdam",
+          "LinkHint": "minus"
         }
       },
-      "LinkHint": "distinctio",
-      "StyleHint": "sunt",
+      "LinkHint": "et",
+      "StyleHint": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldLength": 605
         }
       }
     }
   ],
-  "RowCount": 600,
+  "RowCount": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

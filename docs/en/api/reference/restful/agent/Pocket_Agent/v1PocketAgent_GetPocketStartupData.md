@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "repellat",
-    "similique"
+    "molestiae",
+    "numquam"
   ],
-  "CurrentClientTime": "2010-08-22T16:00:41.4925904+02:00"
+  "CurrentClientTime": "2015-01-21T03:31:26.9487459+01:00"
 }
 ```
 
@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "laudantium",
-    "blanditiis"
+    "neque",
+    "eveniet"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 311,
-  "NotificationsCount": 543,
+  "OverdueSalesCount": 177,
+  "NotificationsCount": 975,
   "SystemWebPanels": [
     {
-      "WebPanelId": 641,
-      "Name": "Klocko Inc and Sons",
-      "Tooltip": "in",
+      "WebPanelId": 768,
+      "Name": "Mraz-Jast",
+      "Tooltip": "sed",
       "Deleted": false,
-      "Rank": 610,
+      "Rank": 463,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
+      "OnCentral": false,
       "OnSatellite": true,
       "OnTravel": false,
-      "OnSalesMarketingWeb": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
       "ShowInToolBar": false,
       "ShowInAddressBar": false,
       "ShowInStatusBar": true,
-      "WindowName": "Stoltenberg Group",
+      "WindowName": "Kulas-Jenkins",
       "Url": "http://www.example.com/",
-      "ProgId": "aut",
-      "Icon": 701,
+      "ProgId": "voluptas",
+      "Icon": 465,
       "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldType": "System.String",
+          "FieldLength": 625
         }
       }
     }
@@ -145,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "voluptatem",
+      "RawValue": "illum",
       "Specification": null,
-      "DisplayValue": "doloremque",
-      "DisplayTooltip": "voluptas",
+      "DisplayValue": "atque",
+      "DisplayTooltip": "dolor",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 136,
-      "PrefDescId": 551,
-      "TableName": "Funk, Koepp and Morar",
-      "UserPreferenceId": 235,
+      "TargetId": 936,
+      "PrefDescId": 126,
+      "TableName": "Jerde, Purdy and Bins",
+      "UserPreferenceId": 519,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 596
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "quisquam",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 590
     }
   }
 }

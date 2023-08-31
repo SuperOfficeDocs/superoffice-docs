@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Ruecker, Jakubowski and Mayer",
-    "ToolTip": "Fugit voluptas illum consequuntur.",
+    "Id": 13,
+    "Name": "Crist-Shields",
+    "ToolTip": "Aliquid sit.",
     "Deleted": false,
-    "Rank": 173,
-    "Type": "esse",
-    "ColorBlock": 878,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "2010-03-01T16:00:49.211436+01:00",
+    "Rank": 537,
+    "Type": "aut",
+    "ColorBlock": 787,
+    "IconHint": "ex",
+    "Selected": true,
+    "LastChanged": "2002-10-05T03:31:33.7742322+02:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Reichert LLC",
-        "ToolTip": "Quia ut reiciendis.",
-        "Deleted": true,
-        "Rank": 194,
-        "Type": "et",
-        "ColorBlock": 191,
-        "IconHint": "odit",
-        "Selected": false,
-        "LastChanged": "1998-08-05T16:00:49.211436+02:00",
+        "Id": 331,
+        "Name": "Vandervort-Harber",
+        "ToolTip": "Exercitationem quis nihil dolorum beatae iure.",
+        "Deleted": false,
+        "Rank": 41,
+        "Type": "consequatur",
+        "ColorBlock": 819,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2008-05-07T03:31:33.7742322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "totam",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mr. Alexys Stone Halvorson"
+        "FullName": "Mr. Frieda Kiehn"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Napoleon Waelchi"
+    "ExtraInfo": "odio",
+    "StyleHint": "inventore",
+    "Hidden": false,
+    "FullName": "Phoebe Luettgen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Brown-Yost",
-    "ToolTip": "Et nihil quia.",
+    "Id": 851,
+    "Name": "Anderson-Corkery",
+    "ToolTip": "Vero accusamus sapiente eos iure debitis ex.",
     "Deleted": false,
-    "Rank": 352,
-    "Type": "minima",
-    "ColorBlock": 637,
-    "IconHint": "vel",
+    "Rank": 441,
+    "Type": "facere",
+    "ColorBlock": 2,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2006-02-10T16:00:49.211436+01:00",
+    "LastChanged": "2015-10-17T03:31:33.7898498+02:00",
     "ChildItems": [
       {
-        "Id": 997,
-        "Name": "Buckridge Group",
-        "ToolTip": "Nostrum voluptatem placeat est earum aperiam.",
+        "Id": 526,
+        "Name": "Runte Inc and Sons",
+        "ToolTip": "Quae occaecati omnis.",
         "Deleted": false,
-        "Rank": 230,
-        "Type": "fuga",
-        "ColorBlock": 601,
-        "IconHint": "consectetur",
+        "Rank": 80,
+        "Type": "qui",
+        "ColorBlock": 419,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2022-11-27T16:00:49.211436+01:00",
+        "LastChanged": "1996-09-09T03:31:33.7898498+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Orlo Yost",
+        "FullName": "Mrs. Jadon Terence Ortiz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 807
           }
         }
       }
     ],
-    "ExtraInfo": "est",
+    "ExtraInfo": "et",
     "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mrs. Gussie Yundt I",
+    "Hidden": true,
+    "FullName": "Dorian Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 345
       }
     }
   }

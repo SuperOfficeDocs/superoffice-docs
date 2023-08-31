@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 685,
-  "DocumentId": 628,
+  "SelectionId": 814,
+  "DocumentId": 925,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "aliquam",
+  "CustomAttention": "inventore",
   "AlwaysUseCustomAttention": false,
-  "SaveDocument": false,
-  "CustomMailBody": "non",
+  "SaveDocument": true,
+  "CustomMailBody": "ea",
   "TaskEntity": null,
-  "AddCompanyInterest": 395,
-  "AddPersonInterest": 644,
-  "RemoveCompanyInterest": 129,
-  "RemovePersonInterest": 888,
-  "IncludeNoMailingsRecipient": true,
+  "AddCompanyInterest": 332,
+  "AddPersonInterest": 881,
+  "RemoveCompanyInterest": 493,
+  "RemovePersonInterest": 954,
+  "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 521,
-  "IncludeRetiredRecipients": true,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "voluptatem",
-  "ExtraInfo": "qui",
-  "Synchronous": false,
+  "ProjectId": 274,
+  "IncludeRetiredRecipients": false,
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "dolores",
+  "ExtraInfo": "labore",
+  "Synchronous": true,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 230
     }
   }
 }

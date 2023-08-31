@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 328,
-  "Value": "sunt",
+  "TaskListItemId": 32,
+  "Value": "voluptate",
   "Direction": "Incoming",
   "Type": "Appointment",
   "Tooltip": "et",
   "Deleted": false,
-  "IntentId": 991,
-  "Rank": 454,
-  "IsDefaultAlldayEvent": false,
+  "IntentId": 230,
+  "Rank": 553,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

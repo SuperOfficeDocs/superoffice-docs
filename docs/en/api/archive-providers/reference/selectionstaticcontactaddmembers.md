@@ -864,7 +864,7 @@ a non-null value for those contacts or persons that exist in the given static se
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
-|request/categoryFullName|listAny|Category: Request category| x |
+|request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
@@ -1178,7 +1178,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=restrictionAddress/city,sale/associate/contactCategory,appointment/updatedBy,personPager/formattedNumber,personExtra/y_rental/x_start
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=contactUdef/SuperOffice:6,sale/registeredDate,appointment/associateId,appointment/cautionWarning,document/documentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

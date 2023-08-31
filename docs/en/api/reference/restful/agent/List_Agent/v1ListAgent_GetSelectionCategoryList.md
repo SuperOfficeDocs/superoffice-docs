@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Value": "beatae",
-    "Tooltip": "sint",
+    "Id": 823,
+    "Value": "voluptatum",
+    "Tooltip": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldType": "System.String",
+        "FieldLength": 337
       }
     }
   },
   {
-    "Id": 867,
-    "Value": "beatae",
-    "Tooltip": "sint",
+    "Id": 823,
+    "Value": "voluptatum",
+    "Tooltip": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 340
+        "FieldType": "System.String",
+        "FieldLength": 337
       }
     }
   }

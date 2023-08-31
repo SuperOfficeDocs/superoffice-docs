@@ -75,7 +75,7 @@ PATCH /api/v1/Role/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "reiciendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "reiciendis",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 800,
-  "Name": "Hayes-Aufderhar",
-  "Tooltip": "maiores",
+  "RoleId": 692,
+  "Name": "Lynch-Ziemann",
+  "Tooltip": "omnis",
   "RoleType": "Anonymous",
-  "Deleted": 699,
-  "Rank": 130,
-  "Created": "2018-08-18T16:00:48.1959227+02:00",
-  "UseCategories": 83,
+  "Deleted": 965,
+  "Rank": 704,
+  "Created": "2013-05-08T03:31:32.8163583+02:00",
+  "UseCategories": 675,
   "CreatedBy": null,
-  "Updated": "2013-05-14T16:00:48.1959227+02:00",
+  "Updated": "2002-12-06T03:31:32.8163583+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldLength": 978
     }
   },
   "_Links": {

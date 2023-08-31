@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 913,
-  "ColumnId": 181,
-  "FieldDefault": "eos",
-  "FieldHeight": 45,
-  "FieldLabel": "enim",
-  "FieldLeft": 301,
-  "FieldTop": 422,
+  "UDefFieldId": 328,
+  "ColumnId": 812,
+  "FieldDefault": "suscipit",
+  "FieldHeight": 899,
+  "FieldLabel": "ut",
+  "FieldLeft": 635,
+  "FieldTop": 974,
   "FieldType": "Checkbox",
-  "FieldWidth": 324,
-  "FormatMask": "ex",
-  "HideLabel": true,
+  "FieldWidth": 24,
+  "FormatMask": "vero",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 187,
-  "LabelLeft": 636,
-  "LabelTop": 92,
-  "LabelWidth": 982,
-  "LastVersionId": 138,
-  "ListTableId": 422,
-  "IsMandatory": false,
+  "LabelHeight": 91,
+  "LabelLeft": 395,
+  "LabelTop": 27,
+  "LabelWidth": 515,
+  "LastVersionId": 276,
+  "ListTableId": 336,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 335,
-  "ProgId": "esse",
+  "Page1LineNo": 286,
+  "ProgId": "labore",
   "IsReadOnly": false,
-  "ShortLabel": "quas",
-  "TabOrder": 380,
-  "TextLength": 529,
-  "Tooltip": "molestias",
-  "UdefIdentity": 360,
-  "UDListDefinitionId": 865,
+  "ShortLabel": "non",
+  "TabOrder": 834,
+  "TextLength": 962,
+  "Tooltip": "quisquam",
+  "UdefIdentity": 825,
+  "UDListDefinitionId": 307,
   "Justification": "Center",
-  "Version": 397,
-  "TemplateVariableName": "Johns, Lind and Hickle",
+  "Version": 68,
+  "TemplateVariableName": "Boyer-Stanton",
   "HasBeenPublished": true,
-  "MdoListName": "Howe-Hansen",
+  "MdoListName": "Swaniawski, Schowalter and Boyer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldType": "System.String",
+      "FieldLength": 96
     }
   }
 }

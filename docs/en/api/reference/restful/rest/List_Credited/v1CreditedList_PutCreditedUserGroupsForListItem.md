@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Stamm-Wisoky",
-    "ToolTip": "Enim ipsum aliquid.",
+    "Id": 484,
+    "Name": "Hudson-Runolfsson",
+    "ToolTip": "Est alias beatae eveniet repellendus dolores tempore minus.",
     "Deleted": false,
-    "Rank": 226,
-    "Type": "eum",
-    "ColorBlock": 715,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2003-01-21T16:00:48.9614655+01:00",
+    "Rank": 608,
+    "Type": "mollitia",
+    "ColorBlock": 385,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2023-04-21T03:31:33.5698483+02:00",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Nitzsche, Durgan and Hermiston",
-        "ToolTip": "Neque natus dignissimos id.",
-        "Deleted": true,
-        "Rank": 194,
-        "Type": "dolores",
-        "ColorBlock": 198,
-        "IconHint": "eius",
+        "Id": 749,
+        "Name": "Feest Group",
+        "ToolTip": "Voluptas voluptatem et pariatur est.",
+        "Deleted": false,
+        "Rank": 816,
+        "Type": "necessitatibus",
+        "ColorBlock": 540,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2002-05-27T16:00:48.9614655+02:00",
+        "LastChanged": "2013-12-20T03:31:33.5698483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "sit",
+        "ExtraInfo": "sint",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Donnell Doyle"
+        "FullName": "Yoshiko Angel Macejkovic Sr."
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Giovanni Bergstrom"
+    "FullName": "Lyla DuBuque"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Pacocha Inc and Sons",
-    "ToolTip": "Dolorem nulla.",
-    "Deleted": false,
-    "Rank": 186,
-    "Type": "sit",
-    "ColorBlock": 95,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "1997-02-24T16:00:48.9770869+01:00",
+    "Id": 935,
+    "Name": "Conroy, Botsford and Abernathy",
+    "ToolTip": "Voluptas quo fugit corporis est reprehenderit dolores nemo.",
+    "Deleted": true,
+    "Rank": 436,
+    "Type": "fuga",
+    "ColorBlock": 858,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2014-03-06T03:31:33.5698483+01:00",
     "ChildItems": [
       {
-        "Id": 505,
-        "Name": "Pollich Inc and Sons",
-        "ToolTip": "Ut molestiae doloribus est.",
-        "Deleted": true,
-        "Rank": 715,
-        "Type": "qui",
-        "ColorBlock": 615,
-        "IconHint": "est",
+        "Id": 520,
+        "Name": "Goyette, Hodkiewicz and Heaney",
+        "ToolTip": "Nihil architecto architecto ab inventore unde ea.",
+        "Deleted": false,
+        "Rank": 170,
+        "Type": "tenetur",
+        "ColorBlock": 549,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2015-08-01T16:00:48.9770869+02:00",
+        "LastChanged": "2004-11-27T03:31:33.5698483+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eligendi",
-        "Hidden": true,
-        "FullName": "Ms. Marjory Kertzmann IV",
+        "ExtraInfo": "omnis",
+        "StyleHint": "deleniti",
+        "Hidden": false,
+        "FullName": "Dr. Ethel Fidel Marquardt DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 877
+            "FieldLength": 894
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Ms. Dario Hoppe",
+    "ExtraInfo": "nisi",
+    "StyleHint": "sequi",
+    "Hidden": true,
+    "FullName": "Chester Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 966
+        "FieldLength": 754
       }
     }
   }

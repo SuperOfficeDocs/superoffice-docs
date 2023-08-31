@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 50,
-  "ColumnId": 544,
-  "FieldDefault": "ut",
-  "FieldHeight": 149,
-  "FieldLabel": "excepturi",
-  "FieldLeft": 662,
-  "FieldTop": 765,
+  "UDefFieldId": 332,
+  "ColumnId": 245,
+  "FieldDefault": "dolores",
+  "FieldHeight": 510,
+  "FieldLabel": "labore",
+  "FieldLeft": 343,
+  "FieldTop": 750,
   "FieldType": "Checkbox",
-  "FieldWidth": 643,
-  "FormatMask": "nulla",
+  "FieldWidth": 764,
+  "FormatMask": "ipsam",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 813,
-  "LabelLeft": 398,
-  "LabelTop": 853,
-  "LabelWidth": 37,
-  "LastVersionId": 818,
-  "ListTableId": 636,
-  "IsMandatory": false,
+  "LabelHeight": 866,
+  "LabelLeft": 834,
+  "LabelTop": 801,
+  "LabelWidth": 879,
+  "LastVersionId": 583,
+  "ListTableId": 964,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 724,
-  "ProgId": "culpa",
+  "Page1LineNo": 662,
+  "ProgId": "dignissimos",
   "IsReadOnly": true,
-  "ShortLabel": "eligendi",
-  "TabOrder": 685,
-  "TextLength": 947,
-  "Tooltip": "quia",
-  "UdefIdentity": 156,
-  "UDListDefinitionId": 623,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 614,
+  "TextLength": 38,
+  "Tooltip": "ut",
+  "UdefIdentity": 33,
+  "UDListDefinitionId": 719,
   "Justification": "Center",
-  "Version": 256,
-  "TemplateVariableName": "Parisian Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Gorczany, Upton and Lakin",
+  "Version": 50,
+  "TemplateVariableName": "Keeling-Torphy",
+  "HasBeenPublished": false,
+  "MdoListName": "Runte-Block",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 390
     }
   }
 }

@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Padberg-Kertzmann",
-  "Comment": "maxime",
-  "StakeholderRoleId": 712,
-  "CountryId": 514,
-  "PersonId": 115,
-  "EmailDescription": "lamont@mcclure.us",
-  "EmailId": 872,
-  "EmailAddress": "rosemarie_west@gutmann.co.uk",
-  "PhoneId": 269,
-  "ContactName": "Haley, Jakubowski and Hand",
-  "ContactId": 299,
-  "SaleId": 914,
-  "Mrmrs": "soluta",
-  "Firstname": "Mark",
-  "MiddleName": "Maggio, Luettgen and Witting",
-  "Lastname": "Jacobson",
-  "SaleStakeholderId": 717,
-  "Rank": 812,
-  "Phone": "272-940-5464 x1091"
+  "StakeholderRoleName": "Gutkowski Inc and Sons",
+  "Comment": "voluptas",
+  "StakeholderRoleId": 777,
+  "CountryId": 746,
+  "PersonId": 356,
+  "EmailDescription": "delores_renner@kuhnschowalter.ca",
+  "EmailId": 9,
+  "EmailAddress": "ephraim_rutherford@kreigerkiehn.co.uk",
+  "PhoneId": 267,
+  "ContactName": "Ebert-Yost",
+  "ContactId": 878,
+  "SaleId": 49,
+  "Mrmrs": "dolore",
+  "Firstname": "Lora",
+  "MiddleName": "Strosin Inc and Sons",
+  "Lastname": "Dare",
+  "SaleStakeholderId": 22,
+  "Rank": 909,
+  "Phone": "(813)306-6479 x85536"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hudson, Klocko and Funk",
-  "Comment": "eos",
-  "StakeholderRoleId": 829,
-  "CountryId": 589,
-  "PersonId": 872,
-  "EmailDescription": "josephine@moen.us",
-  "EmailId": 662,
-  "EmailAddress": "vicente@johnson.name",
-  "PhoneId": 726,
-  "ContactName": "Goldner, Hermann and O'Kon",
-  "ContactId": 854,
-  "SaleId": 332,
-  "Mrmrs": "est",
-  "Firstname": "Jarrod",
-  "MiddleName": "Greenfelder, Schmitt and Leannon",
-  "Lastname": "Yost",
-  "SaleStakeholderId": 338,
-  "Rank": 681,
-  "Phone": "039.899.2954",
+  "StakeholderRoleName": "Haley Inc and Sons",
+  "Comment": "hic",
+  "StakeholderRoleId": 972,
+  "CountryId": 519,
+  "PersonId": 154,
+  "EmailDescription": "ava.balistreri@leschschoen.co.uk",
+  "EmailId": 42,
+  "EmailAddress": "caden@gleichnerwatsica.biz",
+  "PhoneId": 815,
+  "ContactName": "Emard Group",
+  "ContactId": 671,
+  "SaleId": 154,
+  "Mrmrs": "placeat",
+  "Firstname": "Elise",
+  "MiddleName": "Crona-Koepp",
+  "Lastname": "Quitzon",
+  "SaleStakeholderId": 711,
+  "Rank": 66,
+  "Phone": "1-065-549-9099",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 982
     }
   },
   "_Links": {

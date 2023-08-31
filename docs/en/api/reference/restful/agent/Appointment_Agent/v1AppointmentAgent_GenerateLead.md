@@ -92,18 +92,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 577,
-  "LeadDescription": "Automated multimedia algorithm",
-  "Relation": "accusantium",
-  "RelationId": 447,
-  "LeadContact": "id",
-  "LeadPersonFirstname": "Lori",
-  "LeadPersonLastname": "Carroll",
-  "LeadPersonEmail": "emilie.gulgowski@crooksbreitenberg.name",
-  "LeadPhoneNumber": "1029887",
-  "CreatorsContact": "et",
-  "CreatorsFirstname": "Eliseo",
-  "CreatorsLastname": "Ondricka"
+  "AssociateIdForNewContact": 101,
+  "LeadDescription": "Front-line dynamic protocol",
+  "Relation": "non",
+  "RelationId": 609,
+  "LeadContact": "sint",
+  "LeadPersonFirstname": "Zelma",
+  "LeadPersonLastname": "Mills",
+  "LeadPersonEmail": "rod@beer.co.uk",
+  "LeadPhoneNumber": "1672063",
+  "CreatorsContact": "magni",
+  "CreatorsFirstname": "Rick",
+  "CreatorsLastname": "Sauer"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 947,
-      "Name": "Wolf-Jacobson",
-      "OrgNr": "1856886",
+      "ContactId": 138,
+      "Name": "Kuhic Inc and Sons",
+      "OrgNr": "1465834",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "asperiores",
-      "DirectPhone": "570-641-5785 x2807",
-      "AssociateId": 683,
-      "CountryId": 518,
-      "EmailAddress": "reid@bergstromaltenwerth.uk",
-      "Kananame": "cumque",
-      "EmailAddressName": "lola@anderson.us",
+      "City": "quaerat",
+      "DirectPhone": "1-315-035-9769",
+      "AssociateId": 530,
+      "CountryId": 38,
+      "EmailAddress": "tressie@stokes.name",
+      "Kananame": "provident",
+      "EmailAddressName": "dora@okunevaheathcote.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Loren Rutherford",
+      "AssociateFullName": "Stephanie Runolfsdottir",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "hic",
-      "FullName": "Mrs. Cleo Marilyne Brown",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 74,
-      "Number1": "669670",
-      "Number2": "1247148",
+      "FormattedAddress": "assumenda",
+      "FullName": "Kristofer Will",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 967,
+      "Number1": "964468",
+      "Number2": "1455560",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldLength": 842
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

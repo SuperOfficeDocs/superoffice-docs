@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 425,
-  "AssociateId": 830,
-  "Caption": "ipsam",
+  "DashboardId": 175,
+  "AssociateId": 729,
+  "Caption": "rem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 915,
-      "Caption": "dolores",
-      "Description": "Configurable incremental Graphic Interface",
-      "ChartName": "Aufderhar, Mann and Schuppe",
-      "ChartId": "mollitia",
-      "IsDefault": false,
-      "AssociateId": 646,
-      "GroupId": 838,
-      "SelectionId": 354,
-      "Config": "quia",
+      "DashboardTileId": 924,
+      "Caption": "sit",
+      "Description": "Decentralized regional service-desk",
+      "ChartName": "Vandervort-Lebsack",
+      "ChartId": "facere",
+      "IsDefault": true,
+      "AssociateId": 803,
+      "GroupId": 817,
+      "SelectionId": 878,
+      "Config": "excepturi",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 828,
-  "AssociateId": 36,
-  "Caption": "quod",
+  "DashboardId": 349,
+  "AssociateId": 418,
+  "Caption": "voluptas",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 368,
-      "Caption": "ut",
-      "Description": "Quality-focused motivating alliance",
-      "ChartName": "Bashirian, Haley and Smitham",
-      "ChartId": "neque",
+      "DashboardTileId": 806,
+      "Caption": "est",
+      "Description": "Synergistic 4th generation local area network",
+      "ChartName": "Roob-Schiller",
+      "ChartId": "ab",
       "IsDefault": false,
-      "AssociateId": 840,
-      "GroupId": 880,
-      "SelectionId": 320,
-      "Config": "perspiciatis",
+      "AssociateId": 354,
+      "GroupId": 967,
+      "SelectionId": 707,
+      "Config": "ullam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 346
+          "FieldType": "System.Int32",
+          "FieldLength": 688
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

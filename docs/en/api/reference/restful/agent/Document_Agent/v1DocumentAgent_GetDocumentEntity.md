@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=312
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=192
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 912,
+  "DocumentId": 418,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "commodi",
-  "Header": "aspernatur",
-  "Name": "Emmerich, Green and Collier",
-  "OurRef": "non",
-  "YourRef": "deleniti",
-  "CreatedDate": "2008-12-25T16:00:40.6331138+01:00",
-  "UpdatedDate": "2006-12-07T16:00:40.6331138+01:00",
-  "Description": "Focused well-modulated knowledge user",
+  "Attention": "ut",
+  "Header": "iste",
+  "Name": "White-Kuhlman",
+  "OurRef": "asperiores",
+  "YourRef": "doloremque",
+  "CreatedDate": "2020-09-19T03:31:26.1051994+02:00",
+  "UpdatedDate": "2000-11-15T03:31:26.1051994+01:00",
+  "Description": "Configurable explicit throughput",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-02-13T16:00:40.7268278+01:00",
-  "ExternalRef": "velit",
+  "Date": "2003-07-17T03:31:26.1051994+02:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 859,
+  "ActiveLinks": 290,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Roberts, Lynch and Miller",
-      "Id": 768,
-      "Description": "Business-focused real-time implementation",
-      "ExtraInfo": "sunt",
-      "LinkId": 613,
+      "EntityName": "Rau-Howell",
+      "Id": 966,
+      "Description": "Synergistic value-added paradigm",
+      "ExtraInfo": "ut",
+      "LinkId": 349,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldType": "System.String",
+          "FieldLength": 453
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 151,
-  "Snum": 74,
+  "SuggestedDocumentId": 952,
+  "Snum": 125,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Shanon Green IV",
-    "SuperOffice:2": "Linnie Schaefer"
+    "SuperOffice:1": "Mr. Garnet Harber Jr.",
+    "SuperOffice:2": "Prof. Simeon Schoen DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "cumque"
   },
-  "PublishEventDate": "2009-10-28T16:00:40.7268278+01:00",
-  "PublishTo": "2020-05-10T16:00:40.7268278+02:00",
-  "PublishFrom": "1999-12-01T16:00:40.7268278+01:00",
+  "PublishEventDate": "1998-12-27T03:31:26.1051994+01:00",
+  "PublishTo": "2005-11-12T03:31:26.1051994+01:00",
+  "PublishFrom": "2003-06-03T03:31:26.1051994+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 633,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 516
+          "FieldLength": 126
         }
       }
     },
     {
-      "VisibleId": 633,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 516
+          "FieldLength": 126
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 891
     }
   }
 }

@@ -700,7 +700,7 @@ Find appointment provider
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindAppointment?$select=person/correspondingAssociate/credentialDisplayValue,project/projectUrl/URLDescription,sale/associate/simultaneousEjUser,sale/saleUdef/SuperOffice:8
+GET /api/v1/archive/FindAppointment?$select=contact/countryId,contact/streetAddress/county,person/personAssociate/portraitThumbnail,person/correspondingAssociate/title,project/projectPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

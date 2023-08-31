@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 639
+  "PersonId": 944
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 72,
-    "Name": "Harber Inc and Sons",
-    "Value": "nesciunt",
-    "CreatedDate": "2011-05-11T16:00:40.1019505+02:00",
-    "UpdatedDate": "1997-09-17T16:00:40.1019505+02:00",
-    "CreatedBy": "et",
-    "UpdatedBy": "omnis",
+    "AudienceLayoutId": 864,
+    "Name": "Wehner, Towne and Schuppe",
+    "Value": "aut",
+    "CreatedDate": "2017-03-03T03:31:25.6339962+01:00",
+    "UpdatedDate": "2021-12-28T03:31:25.6339962+01:00",
+    "CreatedBy": "pariatur",
+    "UpdatedBy": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldType": "System.Int32",
+        "FieldLength": 458
       }
     }
   }

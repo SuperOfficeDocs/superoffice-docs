@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hane Inc and Sons",
-  "Columns": "eaque",
-  "SortOrder": "labore",
-  "Restriction": "rerum",
-  "Entities": "cum",
-  "Page": 680,
-  "PageSize": 92,
-  "Options": "occaecati"
+  "ProviderName": "Legros-Von",
+  "Columns": "aut",
+  "SortOrder": "impedit",
+  "Restriction": "aliquid",
+  "Entities": "nulla",
+  "Page": 279,
+  "PageSize": 82,
+  "Options": "animi"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 700,
+  "RowCount": 14,
   "Rows": [
     {
-      "EntityName": "Rutherford Group",
-      "PrimaryKey": 402,
+      "EntityName": "Crist-Konopelski",
+      "PrimaryKey": 295,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusantium",
-          "TooltipHint": "atque",
-          "LinkHint": "qui"
+          "DisplayValue": "illum",
+          "TooltipHint": "in",
+          "LinkHint": "molestias"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "ullam",
+      "LinkHint": "provident",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 998
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldType": "System.String",
+      "FieldLength": 133
     }
   }
 }

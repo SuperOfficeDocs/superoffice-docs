@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 143,
-    "Name": "Stehr, Murray and Abshire",
-    "Description": "Decentralized responsive process improvement",
-    "DeltaJson": "officiis",
+    "ConfigurableScreenDeltaId": 615,
+    "Name": "Hagenes Group",
+    "Description": "Seamless global matrix",
+    "DeltaJson": "illum",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quas",
-    "UpdatedDate": "1999-11-14T16:00:40.3050315+01:00",
-    "CreatedDate": "2000-08-26T16:00:40.3050315+02:00",
+    "RecipeId": "tempore",
+    "UpdatedDate": "2022-10-31T03:31:25.8228647+01:00",
+    "CreatedDate": "2022-06-10T03:31:25.8228647+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      285,
-      705
+      948,
+      776
     ],
-    "AppliesToKey": "necessitatibus",
+    "AppliesToKey": "magnam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldType": "System.String",
+        "FieldLength": 406
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 68,
-    "Name": "Dibbert Group",
-    "ToolTip": "Quia architecto fuga illum ad aut voluptas repellat.",
+    "Id": 764,
+    "Name": "Koch-Jacobson",
+    "ToolTip": "Iure aut harum esse qui illo sequi.",
     "Deleted": false,
-    "Rank": 453,
-    "Type": "alias",
-    "ColorBlock": 790,
-    "IconHint": "corporis",
+    "Rank": 829,
+    "Type": "qui",
+    "ColorBlock": 748,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2009-01-31T16:00:49.0083336+01:00",
+    "LastChanged": "2002-07-14T03:31:33.6167125+02:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Christiansen LLC",
-        "ToolTip": "Ea qui deleniti recusandae.",
-        "Deleted": true,
-        "Rank": 693,
-        "Type": "blanditiis",
-        "ColorBlock": 477,
-        "IconHint": "veritatis",
+        "Id": 368,
+        "Name": "Gerhold-Littel",
+        "ToolTip": "Dolorum rerum.",
+        "Deleted": false,
+        "Rank": 481,
+        "Type": "error",
+        "ColorBlock": 89,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2014-02-02T16:00:49.0083336+01:00",
+        "LastChanged": "2009-12-19T03:31:33.6167125+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Dillon Lukas Boyer Sr.",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "eligendi",
+        "Hidden": true,
+        "FullName": "Mr. Karianne Rosa Heidenreich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 992
+            "FieldType": "System.Int32",
+            "FieldLength": 155
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "nemo",
+    "ExtraInfo": "similique",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Dr. Nick Jacobson Jr.",
+    "FullName": "Ms. Stuart Grant Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldType": "System.Int32",
+        "FieldLength": 442
       }
     }
   }

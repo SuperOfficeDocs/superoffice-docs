@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    614,
-    551
+    264,
+    964
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 441,
-    "MessageId": "illo",
-    "Subject": "harum",
+    "ServerId": 325,
+    "MessageId": "molestiae",
+    "Subject": "et",
     "From": null,
     "To": [
       {
-        "ContactId": 365,
-        "ContactName": "Champlin-Herzog",
-        "PersonId": 499,
-        "PersonName": "Stroman-Collier",
-        "AssociateId": 403,
-        "Address": "vitae",
-        "EmailId": 781,
+        "ContactId": 573,
+        "ContactName": "Howe-Hayes",
+        "PersonId": 548,
+        "PersonName": "Ziemann LLC",
+        "AssociateId": 411,
+        "Address": "consequatur",
+        "EmailId": 481,
         "DuplicatePersonIds": [
-          978,
-          291
+          981,
+          88
         ],
-        "Name": "Wiza, Koch and Stoltenberg",
+        "Name": "Reichel Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 178
+            "FieldType": "System.Int32",
+            "FieldLength": 546
           }
         }
       }
     ],
-    "Sent": "2001-05-05T16:00:40.8518697+02:00",
+    "Sent": "2016-02-15T03:31:26.4176181+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 682,
+    "Size": 491,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 532
       }
     }
   }

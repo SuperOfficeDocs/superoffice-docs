@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 198,
-    "Name": "Kuhlman-Heathcote",
-    "Tooltip": "deleniti",
+    "HeadingId": 837,
+    "Name": "Kihn, Shanahan and Bayer",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 443,
-    "UdListDefinitionId": 332
+    "Rank": 31,
+    "UdListDefinitionId": 680
   },
   {
-    "HeadingId": 198,
-    "Name": "Kuhlman-Heathcote",
-    "Tooltip": "deleniti",
+    "HeadingId": 837,
+    "Name": "Kihn, Shanahan and Bayer",
+    "Tooltip": "non",
     "Deleted": true,
-    "Rank": 443,
-    "UdListDefinitionId": 332
+    "Rank": 31,
+    "UdListDefinitionId": 680
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 228,
-    "Name": "Schiller-Yundt",
-    "Tooltip": "et",
+    "HeadingId": 956,
+    "Name": "Crist Group",
+    "Tooltip": "facere",
     "Deleted": false,
-    "Rank": 38,
-    "UdListDefinitionId": 846,
+    "Rank": 931,
+    "UdListDefinitionId": 950,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

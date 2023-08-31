@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 819,
-  "Name": "Green Inc and Sons",
+  "ScreenChooserId": 885,
+  "Name": "Watsica LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "repudiandae",
-  "Source": "rerum",
-  "Registered": "2001-07-28T16:00:48.617756+02:00",
-  "RegisteredAssociateId": 73,
-  "Updated": "2015-11-27T16:00:48.617756+01:00",
-  "UpdatedAssociateId": 581
+  "Enabled": false,
+  "UniqueIdentifier": "molestias",
+  "Source": "nemo",
+  "Registered": "2002-07-18T03:31:33.2718572+02:00",
+  "RegisteredAssociateId": 107,
+  "Updated": "2005-09-30T03:31:33.2718572+02:00",
+  "UpdatedAssociateId": 803
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 99,
-  "Name": "Bogisich, Bergnaum and Bashirian",
+  "ScreenChooserId": 782,
+  "Name": "Legros, Funk and Kling",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "tenetur",
-  "Source": "laboriosam",
-  "Registered": "2006-02-11T16:00:48.617756+01:00",
-  "RegisteredAssociateId": 323,
-  "Updated": "1996-06-08T16:00:48.617756+02:00",
-  "UpdatedAssociateId": 977,
+  "UniqueIdentifier": "inventore",
+  "Source": "esse",
+  "Registered": "1997-04-09T03:31:33.2718572+02:00",
+  "RegisteredAssociateId": 629,
+  "Updated": "2004-06-11T03:31:33.2718572+02:00",
+  "UpdatedAssociateId": 396,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldType": "System.Int32",
+      "FieldLength": 668
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

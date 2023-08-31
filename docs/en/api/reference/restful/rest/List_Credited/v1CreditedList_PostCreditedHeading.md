@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 64,
-  "Name": "Graham, Baumbach and Glover",
-  "Tooltip": "dolores",
+  "HeadingId": 155,
+  "Name": "Davis-Koepp",
+  "Tooltip": "iure",
   "Deleted": false,
-  "Rank": 665,
-  "UdListDefinitionId": 792
+  "Rank": 697,
+  "UdListDefinitionId": 278
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 583,
-  "Name": "Dietrich LLC",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "Rank": 547,
-  "UdListDefinitionId": 829,
+  "HeadingId": 609,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 927,
+  "UdListDefinitionId": 169,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 505
     }
   }
 }

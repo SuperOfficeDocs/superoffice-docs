@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702,
-  "IncludeAttachments": false
+  "Id": 626,
+  "IncludeAttachments": true
 }
 ```
 
@@ -122,155 +122,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 651,
-      "ContactName": "Simonis, Kshlerin and Nikolaus",
-      "PersonId": 254,
-      "PersonName": "Lueilwitz-McGlynn",
-      "AssociateId": 665,
-      "Address": "eum",
-      "EmailId": 764,
+      "ContactId": 279,
+      "ContactName": "McGlynn, Rice and Tremblay",
+      "PersonId": 595,
+      "PersonName": "Windler LLC",
+      "AssociateId": 163,
+      "Address": "ratione",
+      "EmailId": 742,
       "DuplicatePersonIds": [
-        74,
-        847
+        341,
+        656
       ],
-      "Name": "Becker Group",
+      "Name": "Tremblay, Howe and Daniel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 444
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 837,
-      "ContactName": "Koch Inc and Sons",
-      "PersonId": 980,
-      "PersonName": "Ruecker-Runolfsdottir",
-      "AssociateId": 20,
-      "Address": "non",
-      "EmailId": 207,
+      "ContactId": 725,
+      "ContactName": "Keebler, Brown and Harvey",
+      "PersonId": 86,
+      "PersonName": "Corkery Group",
+      "AssociateId": 884,
+      "Address": "dolore",
+      "EmailId": 153,
       "DuplicatePersonIds": [
-        543,
-        880
+        664,
+        874
       ],
-      "Name": "Konopelski Group",
+      "Name": "Batz-Parker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 262
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 179,
-      "ContactName": "Larkin, Casper and Walker",
-      "PersonId": 169,
-      "PersonName": "Hayes-Kozey",
-      "AssociateId": 705,
-      "Address": "quaerat",
-      "EmailId": 775,
+      "ContactId": 957,
+      "ContactName": "Bahringer Inc and Sons",
+      "PersonId": 639,
+      "PersonName": "Wehner Group",
+      "AssociateId": 810,
+      "Address": "reiciendis",
+      "EmailId": 878,
       "DuplicatePersonIds": [
-        49,
-        589
+        426,
+        59
       ],
-      "Name": "Armstrong, Schultz and Wilkinson",
+      "Name": "Champlin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldType": "System.String",
+          "FieldLength": 428
         }
       }
     }
   ],
-  "Subject": "reprehenderit",
-  "HTMLBody": "quis",
+  "Subject": "nisi",
+  "HTMLBody": "delectus",
   "From": null,
-  "Sent": "2021-12-19T16:00:40.9768577+01:00",
-  "Size": 378,
+  "Sent": "2013-08-19T03:31:26.5269641+02:00",
+  "Size": 995,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "et",
-  "PlainBody": "itaque",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 525,
+  "ServerId": 182,
   "Attachments": [
     {
-      "Description": "Persistent multi-state attitude",
-      "Filename": "eum",
-      "Size": 12,
-      "Type": "et",
-      "Encoding": "quibusdam",
-      "Id": "dolores",
-      "Disposition": "quibusdam",
+      "Description": "Progressive foreground functionalities",
+      "Filename": "quo",
+      "Size": 249,
+      "Type": "facere",
+      "Encoding": "odio",
+      "Id": "explicabo",
+      "Disposition": "est",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 985
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bartoletti-Lynch",
+      "Name": "Grimes, Russel and Robel",
       "Values": [
-        "qui",
-        "ea"
+        "dolor",
+        "a"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 304
         }
       }
     },
     {
-      "Name": "Bartoletti-Lynch",
+      "Name": "Grimes, Russel and Robel",
       "Values": [
-        "qui",
-        "ea"
+        "dolor",
+        "a"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 304
         }
       }
     }
   ],
-  "FolderName": "Larkin-Franecki",
-  "EmailItemId": 627,
-  "AccountId": 51,
-  "ReceivedAt": "2021-01-06T16:00:40.9768577+01:00",
+  "FolderName": "Labadie-Lakin",
+  "EmailItemId": 129,
+  "AccountId": 346,
+  "ReceivedAt": "1997-02-01T03:31:26.5269641+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-01-01T16:00:40.9768577+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2019-05-19T03:31:26.5269641+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 148
     }
   }
 }

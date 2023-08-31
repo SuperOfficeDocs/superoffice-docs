@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 579,
-  "PlainMessage": "molestiae",
-  "HtmlMessage": "eos",
-  "SmsMessage": "vel",
-  "Description": "Integrated tangible task-force",
-  "Subject": "fuga",
-  "FolderId": 319,
-  "HeaderField": "nemo",
-  "Design": "deleniti",
+  "ShipmentMessageId": 465,
+  "PlainMessage": "facilis",
+  "HtmlMessage": "et",
+  "SmsMessage": "voluptas",
+  "Description": "Advanced tangible extranet",
+  "Subject": "rerum",
+  "FolderId": 447,
+  "HeaderField": "ea",
+  "Design": "asperiores",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Enterprise-wide user-facing task-force",
-  "AccessKey": "dolor",
-  "DocumentMessage": 332,
-  "Registered": "2011-07-14T16:00:41.2580675+02:00",
-  "RegisteredAssociateId": 367,
-  "Updated": "2021-03-09T16:00:41.2580675+01:00",
-  "UpdatedAssociateId": 749,
-  "UpdatedCount": 238,
+  "InlineImages": false,
+  "LongDescription": "Grass-roots systemic function",
+  "AccessKey": "dolores",
+  "DocumentMessage": 71,
+  "Registered": "2005-08-30T03:31:26.7612835+02:00",
+  "RegisteredAssociateId": 365,
+  "Updated": "2015-02-02T03:31:26.7612835+01:00",
+  "UpdatedAssociateId": 269,
+  "UpdatedCount": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 761
     }
   }
 }

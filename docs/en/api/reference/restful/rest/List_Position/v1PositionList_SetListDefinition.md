@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 885,
-  "Name": "Hackett LLC",
-  "Tooltip": "omnis",
+  "Id": 774,
+  "Name": "Prosacco-Stoltenberg",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 900,
-  "IsCustomList": true,
+  "Rank": 695,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Lemke LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 501,
+  "Id": 582,
+  "Name": "Shields, Wintheiser and Graham",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 7,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "neque",
+  "UseGroupsAndHeadings": true,
+  "ListType": "unde",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

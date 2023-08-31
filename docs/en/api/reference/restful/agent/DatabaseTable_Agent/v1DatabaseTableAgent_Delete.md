@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Medhurst, Kertzmann and Kohler",
+  "TableName": "Gibson LLC",
   "IDs": [
-    425,
-    649
+    130,
+    332
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "maiores",
-  "Inserts": 641,
-  "Updates": 538,
-  "Deletes": 592,
+  "Success": true,
+  "Message": "ut",
+  "Inserts": 626,
+  "Updates": 640,
+  "Deletes": 244,
   "RowStatus": [
     {
-      "PrimaryKey": 381,
+      "PrimaryKey": 341,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quis",
-        "eum"
+        "quia",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldType": "System.String",
+          "FieldLength": 988
         }
       }
     },
     {
-      "PrimaryKey": 381,
+      "PrimaryKey": 341,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quis",
-        "eum"
+        "quia",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldType": "System.String",
+          "FieldLength": 988
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 86
     }
   }
 }

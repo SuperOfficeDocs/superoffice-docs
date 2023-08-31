@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 707,
-    "Name": "King Group",
+    "TicketPriorityId": 610,
+    "Name": "Feest-Hodkiewicz",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 202,
+    "SortOrder": 464,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 36,
-    "MonStart": "2013-08-13T16:00:41.1018406+02:00",
-    "MonStop": "2015-10-28T16:00:41.1018406+01:00",
-    "TueStart": "2012-08-29T16:00:41.1018406+02:00",
-    "TueStop": "2003-10-22T16:00:41.1018406+02:00",
-    "WedStart": "2021-10-21T16:00:41.1018406+02:00",
-    "WedStop": "2017-04-04T16:00:41.1018406+02:00",
-    "ThuStart": "2011-11-12T16:00:41.1018406+01:00",
-    "ThuStop": "2001-11-08T16:00:41.1018406+01:00",
-    "FriStart": "2009-12-08T16:00:41.1018406+01:00",
-    "FriStop": "2014-02-20T16:00:41.1018406+01:00",
-    "SatStart": "2015-11-03T16:00:41.1018406+01:00",
-    "SatStop": "2008-08-07T16:00:41.1018406+02:00",
-    "SunStart": "2001-06-09T16:00:41.1018406+02:00",
-    "SunStop": "2003-07-29T16:00:41.1018406+02:00",
+    "Deadline": 701,
+    "MonStart": "2004-10-27T03:31:26.6363156+02:00",
+    "MonStop": "1998-02-05T03:31:26.6363156+01:00",
+    "TueStart": "2019-05-09T03:31:26.6363156+02:00",
+    "TueStop": "2019-05-08T03:31:26.6363156+02:00",
+    "WedStart": "2021-04-05T03:31:26.6363156+02:00",
+    "WedStop": "2021-01-20T03:31:26.6363156+01:00",
+    "ThuStart": "1998-10-08T03:31:26.6363156+02:00",
+    "ThuStop": "1999-05-27T03:31:26.6363156+02:00",
+    "FriStart": "2013-07-03T03:31:26.6363156+02:00",
+    "FriStop": "2005-04-21T03:31:26.6363156+02:00",
+    "SatStart": "2000-08-20T03:31:26.6363156+02:00",
+    "SatStop": "2021-06-08T03:31:26.6363156+02:00",
+    "SunStart": "2019-03-01T03:31:26.6363156+01:00",
+    "SunStop": "2006-10-23T03:31:26.6363156+02:00",
     "NonDates": [
-      "numquam",
-      "voluptatem"
+      "est",
+      "fugit"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 543,
-        "AlertLevel": 830,
-        "AlertTimeout": 891,
-        "Action": 945,
-        "DelegateTo": 797,
-        "ScriptId": 273,
-        "EmailTo": "layne@erdman.ca",
-        "SmsTo": "accusantium",
-        "ReplyTemplateIdCustomer": 694,
-        "ReplyTemplateIdUser": 11,
-        "ReplyTemplateIdCatmast": 427,
-        "ReplyTemplateIdEmail": 964,
-        "RtiCustomerSms": 103,
-        "ReplyTemplateIdUserSms": 280,
-        "ReplyTemplateIdCatmastSms": 629,
-        "ReplyTemplateIdSms": 344,
+        "TicketAlertId": 692,
+        "AlertLevel": 176,
+        "AlertTimeout": 714,
+        "Action": 798,
+        "DelegateTo": 521,
+        "ScriptId": 605,
+        "EmailTo": "fannie@ritchiegorczany.info",
+        "SmsTo": "in",
+        "ReplyTemplateIdCustomer": 615,
+        "ReplyTemplateIdUser": 522,
+        "ReplyTemplateIdCatmast": 198,
+        "ReplyTemplateIdEmail": 840,
+        "RtiCustomerSms": 648,
+        "ReplyTemplateIdUserSms": 158,
+        "ReplyTemplateIdCatmastSms": 782,
+        "ReplyTemplateIdSms": 839,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldType": "System.String",
+            "FieldLength": 914
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 886
       }
     }
   }

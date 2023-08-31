@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Keeling Group",
-  "DeviceName": "Rice Group",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Fadel, Upton and Durgan",
+  "DeviceName": "Feeney, Langosh and Leannon",
+  "DeviceIdentifier": "eos"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "eum",
-    "Value": "eos",
-    "RecordId": 263,
-    "CreatedDate": "2008-01-01T16:00:41.0705907+01:00",
-    "UpdatedDate": "2007-11-07T16:00:41.0705907+01:00",
-    "UpdatedBy": "quo",
-    "CreatedBy": "et",
-    "TableName": "Jacobs-Ebert",
+    "Key": "et",
+    "Value": "dicta",
+    "RecordId": 844,
+    "CreatedDate": "2007-07-18T03:31:26.6050723+02:00",
+    "UpdatedDate": "1998-11-10T03:31:26.6050723+01:00",
+    "UpdatedBy": "ut",
+    "CreatedBy": "id",
+    "TableName": "Fay Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldLength": 995
       }
     }
   }

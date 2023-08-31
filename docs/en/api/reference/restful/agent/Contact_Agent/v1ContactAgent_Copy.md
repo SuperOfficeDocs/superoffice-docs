@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 108,
-  "DestinationContactName": "Sauer-Gerlach",
-  "DestinationContactDepartment": "streamline customized e-markets",
+  "SourceContactId": 506,
+  "DestinationContactName": "Blanda, Kuvalis and Lemke",
+  "DestinationContactDepartment": "",
   "CopyPersons": false
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-799
+632
 ```

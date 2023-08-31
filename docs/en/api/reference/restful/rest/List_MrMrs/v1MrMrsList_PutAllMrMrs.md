@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Flatley LLC",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "UdListDefinitionId": 475,
-    "Rank": 932
+    "Id": 180,
+    "Name": "Reynolds-Bartell",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "UdListDefinitionId": 328,
+    "Rank": 849
   },
   {
-    "Id": 99,
-    "Name": "Flatley LLC",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "UdListDefinitionId": 475,
-    "Rank": 932
+    "Id": 180,
+    "Name": "Reynolds-Bartell",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "UdListDefinitionId": 328,
+    "Rank": 849
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Quitzon-Fritsch",
-    "Tooltip": "repellat",
+    "Id": 553,
+    "Name": "Gleason Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 339,
-    "Rank": 141,
+    "UdListDefinitionId": 1001,
+    "Rank": 824,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 269
       }
     }
   }

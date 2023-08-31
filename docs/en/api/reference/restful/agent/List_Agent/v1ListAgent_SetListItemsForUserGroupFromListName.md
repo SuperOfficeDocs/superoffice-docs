@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ledner Group",
-  "UsergroupId": 274,
+  "UdListDefinitionName": "Tillman, Kuhn and Graham",
+  "UsergroupId": 821,
   "ListItemsID": [
-    492,
-    827
+    257,
+    598
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

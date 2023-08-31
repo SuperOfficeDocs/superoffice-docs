@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 277,
-  "Name": "Lowe-Grady",
-  "Tooltip": "sunt",
+  "Id": 681,
+  "Name": "Nicolas, Morar and Bruen",
+  "Tooltip": "sapiente",
   "Deleted": true,
-  "Rank": 863,
+  "Rank": 919,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "ListType": "quam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 704
     }
   },
   "_Links": {

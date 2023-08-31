@@ -102,55 +102,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kuhlman-Legros",
+  "ProviderName": "Steuber LLC",
   "Columns": [
-    "reiciendis",
-    "suscipit"
+    "dolorem",
+    "aut"
   ],
   "SortOrder": [
     {
-      "Name": "Strosin, Feest and Sanford",
+      "Name": "Wunsch Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Strosin, Feest and Sanford",
+      "Name": "Wunsch Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hills Group",
-      "Operator": "aut",
+      "Name": "Schowalter-Considine",
+      "Operator": "quia",
       "Values": [
-        "qui",
+        "totam",
         "aut"
       ],
       "DisplayValues": [
-        "mollitia",
-        "est"
+        "eligendi",
+        "ullam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 53,
+      "InterParenthesis": 675,
       "InterOperator": "And",
-      "UniqueHash": 745
+      "UniqueHash": 685
     }
   ],
   "Entities": [
-    "iusto",
-    "fugit"
+    "tenetur",
+    "ut"
   ],
-  "Page": 954,
-  "PageSize": 36,
-  "Options": "illo"
+  "Page": 203,
+  "PageSize": 497,
+  "Options": "ipsa"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 718,
+  "RowCount": 977,
   "Rows": [
     {
-      "EntityName": "Kulas LLC",
-      "PrimaryKey": 237,
+      "EntityName": "Lynch Inc and Sons",
+      "PrimaryKey": 820,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "quae",
-          "LinkHint": "commodi"
+          "DisplayValue": "sunt",
+          "TooltipHint": "commodi",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "doloribus",
-      "StyleHint": "eius",
+      "LinkHint": "sit",
+      "StyleHint": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldType": "System.Int32",
+          "FieldLength": 808
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 453
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

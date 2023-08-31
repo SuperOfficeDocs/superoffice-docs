@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 526,
-    "Name": "Sauer Inc and Sons",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 404,
-    "UdListDefinitionId": 35
+    "HeadingId": 314,
+    "Name": "Koepp-Goyette",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "Rank": 336,
+    "UdListDefinitionId": 171
   },
   {
-    "HeadingId": 526,
-    "Name": "Sauer Inc and Sons",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 404,
-    "UdListDefinitionId": 35
+    "HeadingId": 314,
+    "Name": "Koepp-Goyette",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "Rank": 336,
+    "UdListDefinitionId": 171
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 43,
-    "Name": "Ernser LLC",
-    "Tooltip": "aperiam",
-    "Deleted": true,
-    "Rank": 811,
-    "UdListDefinitionId": 83,
+    "HeadingId": 466,
+    "Name": "Wisoky, Stark and Schneider",
+    "Tooltip": "delectus",
+    "Deleted": false,
+    "Rank": 421,
+    "UdListDefinitionId": 545,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 373
       }
     }
   }

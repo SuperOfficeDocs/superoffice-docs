@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 434,
-  "PersonId": 325,
-  "AppointmentId": 959,
-  "DocumentId": 497,
-  "SaleId": 728,
-  "SelectionId": 260,
-  "ProjectId": 494,
-  "UiCulture": "sit"
+  "ContactId": 8,
+  "PersonId": 578,
+  "AppointmentId": 807,
+  "DocumentId": 318,
+  "SaleId": 348,
+  "SelectionId": 453,
+  "ProjectId": 693,
+  "UiCulture": "veritatis"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 55,
+  "DocumentId": 618,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "corrupti",
-  "Header": "libero",
-  "Name": "Kuhlman-Batz",
-  "OurRef": "minus",
-  "YourRef": "porro",
-  "CreatedDate": "2014-02-24T16:00:40.7893736+01:00",
-  "UpdatedDate": "2013-11-22T16:00:40.7893736+01:00",
-  "Description": "Re-engineered background concept",
+  "Attention": "neque",
+  "Header": "quia",
+  "Name": "Cremin-Kuphal",
+  "OurRef": "dolore",
+  "YourRef": "saepe",
+  "CreatedDate": "2012-08-18T03:31:26.1520941+02:00",
+  "UpdatedDate": "2010-03-20T03:31:26.1520941+01:00",
+  "Description": "Mandatory high-level complexity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1996-11-11T16:00:40.7893736+01:00",
-  "ExternalRef": "quo",
+  "Date": "2003-12-02T03:31:26.1520941+01:00",
+  "ExternalRef": "autem",
   "Completed": "Completed",
-  "ActiveLinks": 664,
+  "ActiveLinks": 642,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Dickinson-Kunze",
-      "Id": 915,
-      "Description": "Object-based directional attitude",
-      "ExtraInfo": "qui",
-      "LinkId": 139,
+      "EntityName": "Hamill LLC",
+      "Id": 746,
+      "Description": "Implemented coherent methodology",
+      "ExtraInfo": "porro",
+      "LinkId": 246,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 844
+          "FieldLength": 455
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 342,
-  "Snum": 618,
+  "SuggestedDocumentId": 866,
+  "Snum": 563,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ibrahim Ritchie",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "347285822",
+    "SuperOffice:2": "David Nikolaus"
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "non",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "dolor"
+    "CustomFields1": "omnis",
+    "CustomFields2": "nisi"
   },
-  "PublishEventDate": "2003-01-29T16:00:40.7893736+01:00",
-  "PublishTo": "2006-06-11T16:00:40.7893736+02:00",
-  "PublishFrom": "2006-06-09T16:00:40.7893736+02:00",
+  "PublishEventDate": "2011-03-01T03:31:26.1520941+01:00",
+  "PublishTo": "2010-06-08T03:31:26.1520941+02:00",
+  "PublishFrom": "2005-05-16T03:31:26.1520941+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 174,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 385
         }
       }
     },
     {
-      "VisibleId": 174,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 385
         }
       }
     }
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

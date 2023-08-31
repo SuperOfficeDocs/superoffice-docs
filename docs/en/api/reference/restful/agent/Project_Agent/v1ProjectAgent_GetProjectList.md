@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 720,
-    "Name": "Mosciski-Bergstrom",
-    "Description": "Self-enabling real-time synergy",
+    "ProjectId": 95,
+    "Name": "Stiedemann-Bosco",
+    "Description": "Cross-group regional emulation",
     "URL": "http://www.example.com/",
-    "Type": "nulla",
-    "AssociateId": 339,
-    "AssociateFullName": "Alford Fisher",
-    "TypeId": 748,
-    "Updated": "2020-02-14T16:00:41.5707037+01:00",
-    "StatusId": 891,
-    "Status": "ex",
-    "TextId": 359,
-    "PublishTo": "1998-02-13T16:00:41.5707037+01:00",
-    "PublishFrom": "2016-10-12T16:00:41.5707037+02:00",
+    "Type": "fuga",
+    "AssociateId": 987,
+    "AssociateFullName": "Ms. Bruce Franecki MD",
+    "TypeId": 471,
+    "Updated": "2005-11-27T03:31:27.0268433+01:00",
+    "StatusId": 66,
+    "Status": "consequatur",
+    "TextId": 833,
+    "PublishTo": "1997-02-19T03:31:27.0268433+01:00",
+    "PublishFrom": "2011-11-02T03:31:27.0268433+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1311296",
-    "ActiveErpLinks": 243,
+    "ProjectNumber": "1270505",
+    "ActiveErpLinks": 530,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldType": "System.Int32",
+        "FieldLength": 527
       }
     }
   }

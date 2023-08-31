@@ -72,7 +72,7 @@ PATCH /api/v1/TicketMessage/{id}?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: changes string
+## Request Body: changes 
 
 JSON-Patch array of operations+path+value, or a MERGE-PATCH object (which will be converted to a list of JSON-PATCH operations). 
 
@@ -133,18 +133,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -157,78 +157,78 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 496,
+  "EjMessageId": 399,
   "Ticket": null,
-  "CreatedAt": "2014-05-22T16:00:48.6021304+02:00",
+  "CreatedAt": "2014-04-05T03:31:33.2562424+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "quos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 230,
-  "Body": "fuga",
-  "HtmlBody": "maiores",
-  "EmailHeader": "kaylee_dietrich@windler.uk",
-  "DebugInfo": "necessitatibus",
-  "MailSorter": "quasi",
+  "MessageId": "aut",
+  "TimeSpent": 798,
+  "Body": "explicabo",
+  "HtmlBody": "qui",
+  "EmailHeader": "samson@gusikowski.biz",
+  "DebugInfo": "et",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ullam",
+  "SearchTitle": "blanditiis",
   "MessageHeaders": [
     {
-      "Id": 844,
-      "Name": "O'Connell-Bayer",
-      "Value": "nostrum",
+      "Id": 909,
+      "Name": "Fritsch-Donnelly",
+      "Value": "nisi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 100
+          "FieldType": "System.Int32",
+          "FieldLength": 829
         }
       }
     }
   ],
   "Important": false,
-  "Language": "at",
-  "Sentiment": 183,
-  "SentimentConfidence": 935,
+  "Language": "deserunt",
+  "Sentiment": 397,
+  "SentimentConfidence": 850,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 343,
-      "Name": "McDermott Group",
-      "ContentType": "rerum",
-      "AttSize": 619,
-      "InlineImage": true,
-      "ContentId": "optio",
-      "AuthKey": "ut",
+      "AttachmentId": 423,
+      "Name": "Goodwin, Renner and Watsica",
+      "ContentType": "sint",
+      "AttSize": 373,
+      "InlineImage": false,
+      "ContentId": "rerum",
+      "AuthKey": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 116
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "atque"
+    "CustomFields1": "eum",
+    "CustomFields2": "ipsa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   },
   "_Links": {

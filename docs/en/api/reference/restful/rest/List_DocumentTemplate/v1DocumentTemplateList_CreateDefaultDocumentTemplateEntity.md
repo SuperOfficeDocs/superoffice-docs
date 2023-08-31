@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 363,
-  "Name": "Flatley, Skiles and Cartwright",
-  "Tooltip": "dolores",
-  "SaveInDb": 767,
-  "Filename": "modi",
-  "DefaultOref": "explicabo",
+  "DocumentTemplateId": 31,
+  "Name": "Block Group",
+  "Tooltip": "eius",
+  "SaveInDb": 535,
+  "Filename": "rerum",
+  "DefaultOref": "atque",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 603,
-  "IntentId": 371,
+  "AutoeventId": 60,
+  "IntentId": 850,
   "IsDefaultPublished": false,
-  "Rank": 352,
-  "LoadTemplateFromPlugin": 696,
-  "MimeType": "ratione",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 983,
+  "Rank": 982,
+  "LoadTemplateFromPlugin": 254,
+  "MimeType": "dolore",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 1002,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jaylon.bernhard@erdman.ca",
+  "EmailSubject": "lydia@rogahn.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jo.bednar@kovacek.co.uk",
+  "SenderEmailAddress": "alessandro@mraz.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

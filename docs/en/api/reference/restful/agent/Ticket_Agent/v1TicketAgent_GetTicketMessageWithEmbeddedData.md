@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 667,
+  "Id": 205,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,78 +117,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 746,
+  "EjMessageId": 727,
   "Ticket": null,
-  "CreatedAt": "1996-08-01T16:00:42.2581348+02:00",
+  "CreatedAt": "2018-08-20T03:31:27.7009841+02:00",
   "CreatedBy": null,
-  "Author": "at",
+  "Author": "beatae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "earum",
-  "TimeSpent": 62,
-  "Body": "minima",
-  "HtmlBody": "eveniet",
-  "EmailHeader": "georgiana@johnson.uk",
-  "DebugInfo": "aut",
-  "MailSorter": "excepturi",
+  "MessageId": "dignissimos",
+  "TimeSpent": 10,
+  "Body": "nobis",
+  "HtmlBody": "ut",
+  "EmailHeader": "taryn.schamberger@armstrongwillms.us",
+  "DebugInfo": "placeat",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "odio",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 110,
-      "Name": "Macejkovic Inc and Sons",
-      "Value": "corrupti",
+      "Id": 329,
+      "Name": "Rolfson LLC",
+      "Value": "totam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldType": "System.String",
+          "FieldLength": 169
         }
       }
     }
   ],
   "Important": false,
-  "Language": "neque",
-  "Sentiment": 989,
-  "SentimentConfidence": 829,
+  "Language": "esse",
+  "Sentiment": 362,
+  "SentimentConfidence": 281,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 669,
-      "Name": "Johns-Baumbach",
-      "ContentType": "porro",
-      "AttSize": 978,
+      "AttachmentId": 640,
+      "Name": "Hessel, Bergnaum and Altenwerth",
+      "ContentType": "rerum",
+      "AttSize": 861,
       "InlineImage": false,
-      "ContentId": "iure",
-      "AuthKey": "velit",
+      "ContentId": "et",
+      "AuthKey": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 635
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "nemo"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "iste"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 377
     }
   }
 }

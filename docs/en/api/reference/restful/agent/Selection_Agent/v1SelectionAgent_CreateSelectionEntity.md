@@ -117,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Ryan-Bahringer"
+  "TargetTableName": "DuBuque-Reichert"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive methodical contingency",
-  "Postit": "in",
+  "Description": "Profound bifurcated workforce",
+  "Postit": "ex",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 689,
-  "IncludePerson": 652,
-  "MemberCount": 714,
-  "Name": "Jerde, Huels and Kozey",
-  "PostitTextId": 514,
-  "CreatedDate": "2010-03-09T16:00:41.8362961+01:00",
-  "SelectionId": 332,
-  "SoundEx": "maxime",
-  "Source": 740,
-  "TextId": 575,
-  "UpdatedDate": "2002-12-21T16:00:41.8362961+01:00",
-  "UpdatedCount": 905,
-  "Visibility": 184,
+  "GroupIdx": 22,
+  "IncludePerson": 875,
+  "MemberCount": 342,
+  "Name": "O'Reilly, Prosacco and Oberbrunner",
+  "PostitTextId": 941,
+  "CreatedDate": "2002-02-21T03:31:27.2468237+01:00",
+  "SelectionId": 392,
+  "SoundEx": "veritatis",
+  "Source": 334,
+  "TextId": 47,
+  "UpdatedDate": "2008-10-04T03:31:27.2468237+02:00",
+  "UpdatedCount": 955,
+  "Visibility": 635,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 32,
-  "TargetTableName": "Rolfson Group",
+  "TargetTableNumber": 260,
+  "TargetTableName": "McGlynn, Nicolas and Macejkovic",
   "Completed": false,
-  "LeftSelectionId": 629,
-  "RightSelectionId": 679,
+  "LeftSelectionId": 770,
+  "RightSelectionId": 814,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ferry Group",
-  "ShadowProviderName": "Ankunding, Durgan and Stroman",
-  "ChartKey": "ab",
-  "LastLoaded": "1998-12-28T16:00:41.8362961+01:00",
-  "LastLoadedBy": 637,
+  "MainProviderName": "Feeney-Block",
+  "ShadowProviderName": "Daniel Group",
+  "ChartKey": "perferendis",
+  "LastLoaded": "2013-11-03T03:31:27.2468237+01:00",
+  "LastLoadedBy": 186,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-11-07T16:00:41.8362961+01:00",
-  "LastMembershipChangeBy": 576,
+  "LastMembershipChange": "2015-08-06T03:31:27.2468237+02:00",
+  "LastMembershipChangeBy": 996,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "quisquam",
-  "MailingsProviderName": "Mayert Group",
-  "DashboardTileDefinitionId": 956,
+  "MainHeading": "qui",
+  "MemberTabHeading": "laudantium",
+  "MailingsProviderName": "Hermiston-Batz",
+  "DashboardTileDefinitionId": 775,
   "VisibleFor": [
     {
-      "VisibleId": 216,
+      "VisibleId": 299,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldType": "System.Int32",
+          "FieldLength": 578
         }
       }
     },
     {
-      "VisibleId": 216,
+      "VisibleId": 299,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldType": "System.Int32",
+          "FieldLength": 578
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 419
     }
   }
 }

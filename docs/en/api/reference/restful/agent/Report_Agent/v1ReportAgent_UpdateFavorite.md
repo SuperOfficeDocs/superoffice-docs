@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 576,
+  "ReportId": 43,
   "ReportCategory": "All",
-  "Description": "Distributed mission-critical encoding",
+  "Description": "Inverse mission-critical capability",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hudson Inc and Sons",
-  "AssociateId": 284,
-  "TemplateId": 7,
+  "Name": "Leannon-Treutel",
+  "AssociateId": 573,
+  "TemplateId": 604,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 253
     }
   }
 }

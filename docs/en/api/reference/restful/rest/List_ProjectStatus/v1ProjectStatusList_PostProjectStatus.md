@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Deckow LLC",
-  "Tooltip": "sequi",
+  "Id": 106,
+  "Name": "Beer LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 221,
-  "Rank": 475
+  "UdListDefinitionId": 824,
+  "Rank": 295
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 854,
-  "Name": "Kub, Johnson and Altenwerth",
-  "Tooltip": "odit",
+  "Id": 505,
+  "Name": "Rath LLC",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "UdListDefinitionId": 123,
-  "Rank": 647,
+  "UdListDefinitionId": 106,
+  "Rank": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 118
     }
   }
 }

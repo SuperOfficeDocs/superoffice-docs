@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 274,
-  "LanguageId": 388,
-  "PersonId": 60,
-  "TicketId": 334
+  "ReplyTemplateId": 872,
+  "LanguageId": 883,
+  "PersonId": 618,
+  "TicketId": 985
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 341,
-  "PlainParsed": "dolores",
-  "HtmlParsed": "aut",
+  "ReplyTemplateId": 751,
+  "PlainParsed": "incidunt",
+  "HtmlParsed": "perspiciatis",
   "Attachments": [
     {
-      "AttachmentId": 582,
-      "Name": "Larson, Johnson and Stiedemann",
-      "ContentType": "asperiores",
-      "AttSize": 482,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "assumenda",
+      "AttachmentId": 578,
+      "Name": "Jones, McKenzie and Sporer",
+      "ContentType": "quaerat",
+      "AttSize": 589,
+      "InlineImage": true,
+      "ContentId": "animi",
+      "AuthKey": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 54
+          "FieldType": "System.String",
+          "FieldLength": 452
         }
       }
     }
   ],
-  "Subject": "veniam",
+  "Subject": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 39
     }
   }
 }

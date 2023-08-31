@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=architecto
-GET /api/v1/Pricelist?$top=225
-GET /api/v1/Pricelist?$skip=990
+GET /api/v1/Pricelist?$entities=eius
+GET /api/v1/Pricelist?$top=306
+GET /api/v1/Pricelist?$skip=309
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=sapiente
+GET /api/v1/Pricelist?$context=et
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -129,21 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "dolorem",
   "value": [
     {
-      "PrimaryKey": 480,
+      "PrimaryKey": 4087,
       "EntityName": "sale",
-      "saleId": 480,
-      "contactId": 5832,
-      "name": "Eichmann, Walsh and Kub"
+      "saleId": 4087,
+      "contactId": 6810,
+      "name": "Daugherty Inc and Sons"
     },
     {
-      "PrimaryKey": 8893,
+      "PrimaryKey": 925,
       "EntityName": "sale",
-      "saleId": 8893,
-      "contactId": 9059,
-      "name": "Harvey, Braun and Emard"
+      "saleId": 925,
+      "contactId": 4690,
+      "name": "McCullough, Wilderman and Abbott"
     }
   ]
 }

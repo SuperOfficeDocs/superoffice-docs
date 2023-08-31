@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 464,
-  "ParentId": 699,
-  "Name": "Dooley-Nienow",
-  "Fullname": "quaerat",
-  "CategoryMaster": 375,
+  "TicketCategoryId": 62,
+  "ParentId": 446,
+  "Name": "Lemke-Grant",
+  "Fullname": "ad",
+  "CategoryMaster": 631,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wiegand Inc and Sons",
+  "ExternalName": "Vandervort Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 872,
-  "ReplyTemplate": 471,
-  "NotificationEmail": "nicholas@okon.biz",
+  "AssignmentLag": 827,
+  "ReplyTemplate": 360,
+  "NotificationEmail": "lew.lesch@haley.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 508,
+  "EffectiveReplyTemplateId": 489,
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "assumenda"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "porro",
+    "CustomFields2": "quam"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 123,
-  "ParentId": 28,
-  "Name": "McGlynn Group",
-  "Fullname": "saepe",
-  "CategoryMaster": 988,
+  "TicketCategoryId": 724,
+  "ParentId": 335,
+  "Name": "Medhurst Inc and Sons",
+  "Fullname": "voluptas",
+  "CategoryMaster": 668,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rohan, Pollich and McKenzie",
+  "ExternalName": "Tremblay-Nienow",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 760,
-  "ReplyTemplate": 166,
-  "NotificationEmail": "hyman.luettgen@wilkinson.com",
+  "AssignmentLag": 448,
+  "ReplyTemplate": 224,
+  "NotificationEmail": "nasir.abernathy@reillywill.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 146,
+  "EffectiveReplyTemplateId": 139,
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "dolores"
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "aut"
+    "CustomFields1": "amet",
+    "CustomFields2": "commodi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

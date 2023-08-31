@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 383,
-  "ConnectionId": 710,
-  "FirstAlternativeName": "O'Connell, Ratke and Padberg"
+  "SaleId": 946,
+  "ConnectionId": 241,
+  "FirstAlternativeName": "O'Connell, Gutkowski and Feest"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 440,
-  "SaleId": 787,
-  "QuoteConnectionId": 911,
-  "ERPQuoteKey": "quia",
-  "ERPOrderKey": "recusandae",
-  "ActiveQuoteVersionId": 34,
-  "AcceptedQuoteAlternativeId": 82,
-  "UseValuesFromQuote": 885,
-  "DocumentId": 885,
-  "PoNumber": "1103268",
-  "OrderComment": "in",
-  "PreferredEmailCulture": "celine_mclaughlin@thompson.info",
+  "QuoteId": 391,
+  "SaleId": 105,
+  "QuoteConnectionId": 41,
+  "ERPQuoteKey": "quibusdam",
+  "ERPOrderKey": "ut",
+  "ActiveQuoteVersionId": 355,
+  "AcceptedQuoteAlternativeId": 456,
+  "UseValuesFromQuote": 804,
+  "DocumentId": 924,
+  "PoNumber": "1276479",
+  "OrderComment": "esse",
+  "PreferredEmailCulture": "orrin@kuhlman.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 94,
-      "ERPQuoteVersionKey": "debitis",
-      "QuoteId": 600,
-      "Description": "Versatile multi-tasking interface",
-      "Number": "1494297",
+      "QuoteVersionId": 132,
+      "ERPQuoteVersionKey": "delectus",
+      "QuoteId": 680,
+      "Description": "User-friendly system-worthy complexity",
+      "Number": "527509",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 335,
-      "SentDate": "2018-02-17T16:00:41.6644415+01:00",
-      "FollowupId": 849,
-      "ExpirationDate": "2017-01-04T16:00:41.6644415+01:00",
-      "DeliveryCountryId": 845,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 166,
+      "LikelyQuoteAlternativeId": 103,
+      "SentDate": "2000-06-08T03:31:27.0905589+02:00",
+      "FollowupId": 274,
+      "ExpirationDate": "2008-11-26T03:31:27.0905589+01:00",
+      "DeliveryCountryId": 307,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 872,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "est",
-      "ERPPaymentTypeKey": "molestiae",
-      "ERPDeliveryTermsKey": "quo",
-      "ERPDeliveryTypeKey": "omnis",
-      "Rank": 257,
-      "ApprovedBy": 317,
-      "ApprovedText": "eligendi",
-      "ApprovedRegisteredBy": 552,
-      "ApprovedRegisteredDate": "2004-09-09T16:00:41.6644415+02:00",
-      "ExtraField1": "nulla",
-      "ExtraField2": "qui",
-      "ExtraField3": "repellat",
-      "ExtraField4": "et",
-      "ExtraField5": "incidunt",
-      "LastRecalculated": "2007-01-10T16:00:41.6644415+01:00",
-      "Updated": "2009-06-03T16:00:41.6644415+02:00",
-      "UpdatedAssociateId": 430,
-      "Registered": "2016-05-20T16:00:41.6644415+02:00",
-      "RegisteredAssociateId": 39,
-      "RequestAssociateId": 412,
-      "RequestComment": "laboriosam",
+      "ERPPaymentTermsKey": "rerum",
+      "ERPPaymentTypeKey": "in",
+      "ERPDeliveryTermsKey": "recusandae",
+      "ERPDeliveryTypeKey": "est",
+      "Rank": 603,
+      "ApprovedBy": 992,
+      "ApprovedText": "eaque",
+      "ApprovedRegisteredBy": 313,
+      "ApprovedRegisteredDate": "1997-04-27T03:31:27.0905589+02:00",
+      "ExtraField1": "eius",
+      "ExtraField2": "accusantium",
+      "ExtraField3": "et",
+      "ExtraField4": "sequi",
+      "ExtraField5": "saepe",
+      "LastRecalculated": "2006-04-09T03:31:27.0905589+02:00",
+      "Updated": "1997-05-21T03:31:27.0905589+02:00",
+      "UpdatedAssociateId": 909,
+      "Registered": "2019-07-15T03:31:27.0905589+02:00",
+      "RegisteredAssociateId": 539,
+      "RequestAssociateId": 766,
+      "RequestComment": "ut",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldType": "System.String",
+          "FieldLength": 242
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldLength": 432
     }
   }
 }

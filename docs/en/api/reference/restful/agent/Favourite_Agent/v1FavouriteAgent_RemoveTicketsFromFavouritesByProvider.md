@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ondricka Inc and Sons",
+  "ProviderName": "Gleichner LLC",
   "Restrictions": [
     {
-      "Name": "Volkman LLC",
-      "Operator": "consequatur",
+      "Name": "Boehm, Trantow and Schiller",
+      "Operator": "fugit",
       "Values": [
-        "labore",
-        "hic"
+        "id",
+        "consequatur"
       ],
       "DisplayValues": [
-        "eum",
-        "sunt"
+        "quis",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 405,
+      "InterParenthesis": 640,
       "InterOperator": "And",
-      "UniqueHash": 381
+      "UniqueHash": 483
     }
   ],
-  "AssociateId": 564
+  "AssociateId": 395
 }
 ```
 

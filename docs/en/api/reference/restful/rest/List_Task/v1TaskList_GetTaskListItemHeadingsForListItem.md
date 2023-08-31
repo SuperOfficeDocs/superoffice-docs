@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 470,
-    "Name": "Roob-VonRueden",
-    "ToolTip": "Assumenda totam possimus consectetur ut sint cumque est.",
+    "Id": 352,
+    "Name": "Ruecker Group",
+    "ToolTip": "Magnam rem vero quas dolore in fuga.",
     "Deleted": false,
-    "Rank": 302,
-    "Type": "odio",
-    "ColorBlock": 3,
-    "IconHint": "laudantium",
+    "Rank": 477,
+    "Type": "aut",
+    "ColorBlock": 831,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2018-08-31T16:00:49.3677537+02:00",
+    "LastChanged": "2017-03-21T03:31:33.9160051+01:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Cormier Group",
-        "ToolTip": "Occaecati non iure eveniet rerum sed error.",
-        "Deleted": false,
-        "Rank": 959,
-        "Type": "dignissimos",
-        "ColorBlock": 337,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2004-06-17T16:00:49.3677537+02:00",
+        "Id": 87,
+        "Name": "Ledner, Abshire and Nienow",
+        "ToolTip": "Sit nisi.",
+        "Deleted": true,
+        "Rank": 140,
+        "Type": "fugit",
+        "ColorBlock": 413,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "2022-02-07T03:31:33.9160051+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "ex",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Miss Uriel Muller Sr.",
+        "FullName": "Florine Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 982
+            "FieldLength": 888
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Ebony Thiel",
+    "ExtraInfo": "itaque",
+    "StyleHint": "deleniti",
+    "Hidden": false,
+    "FullName": "Mrs. Salvatore Wintheiser DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldType": "System.String",
+        "FieldLength": 986
       }
     }
   }

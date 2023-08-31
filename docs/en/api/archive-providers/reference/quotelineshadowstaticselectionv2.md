@@ -740,7 +740,7 @@ Shadow contact provider for the static quoteline prov ider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=alternative/version/quote/sale/contact/streetAddress/formattedMultiLineAddress,alternative/version/quote/sale/contact/contactAssociate/contactId,alternative/version/quote/sale/person/personAddress/city
+GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=updatedBy,alternative/version/quote/sale/visibleFor,alternative/version/quote/sale/person/personExtra/y_rental/x_end,alternative/version/quote/sale/contact/contactAssociate/otherGroups,alternative/version/quote/sale/contact/contactUdef/SuperOffice:3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

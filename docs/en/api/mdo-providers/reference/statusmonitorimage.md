@@ -42,7 +42,7 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|306|clementin.png|||
+|306|clementin.bmp|||
 |445|elefant.jpg|||
 |307|unhappydemon.jpg|||
 

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gleason, Bogisich and Dickinson"
+  "TableName": "Thiel, Gleason and Kerluke"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "nobis",
-  "Inserts": 523,
-  "Updates": 377,
-  "Deletes": 338,
+  "Message": "qui",
+  "Inserts": 232,
+  "Updates": 99,
+  "Deletes": 458,
   "RowStatus": [
     {
-      "PrimaryKey": 470,
+      "PrimaryKey": 281,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptas",
-        "qui"
+        "aut",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 262
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     },
     {
-      "PrimaryKey": 470,
+      "PrimaryKey": 281,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptas",
-        "qui"
+        "aut",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 262
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldLength": 146
     }
   }
 }

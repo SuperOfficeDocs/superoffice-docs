@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 608,
-  "Name": "Kuhn-Schmidt",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "UdListDefinitionId": 227,
-  "Rank": 505,
+  "Id": 497,
+  "Name": "Moore, Prohaska and Hettinger",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "UdListDefinitionId": 526,
+  "Rank": 431,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 553
     }
   }
 }

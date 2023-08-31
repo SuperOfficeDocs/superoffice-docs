@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 96,
-  "Name": "VonRueden Inc and Sons",
-  "Tooltip": "ea",
-  "Rank": 543,
-  "Key": "recusandae",
-  "MailTemplateId": 946,
-  "Deleted": true,
+  "ConsentSourceId": 202,
+  "Name": "Wiza-Stiedemann",
+  "Tooltip": "corporis",
+  "Rank": 19,
+  "Key": "cupiditate",
+  "MailTemplateId": 380,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 520
     }
   }
 }

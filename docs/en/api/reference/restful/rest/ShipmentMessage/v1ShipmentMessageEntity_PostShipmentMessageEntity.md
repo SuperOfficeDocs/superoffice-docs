@@ -120,27 +120,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 623,
-  "PlainMessage": "dolores",
-  "HtmlMessage": "ut",
-  "SmsMessage": "maiores",
-  "Description": "Open-architected 6th generation ability",
-  "Subject": "eius",
-  "FolderId": 751,
-  "HeaderField": "provident",
-  "Design": "asperiores",
+  "ShipmentMessageId": 526,
+  "PlainMessage": "vero",
+  "HtmlMessage": "qui",
+  "SmsMessage": "quo",
+  "Description": "Cross-platform needs-based infrastructure",
+  "Subject": "deserunt",
+  "FolderId": 847,
+  "HeaderField": "minima",
+  "Design": "vitae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Up-sized fault-tolerant focus group",
-  "AccessKey": "iste",
-  "DocumentMessage": 328,
-  "Registered": "2009-10-11T16:00:48.4615203+02:00",
-  "RegisteredAssociateId": 816,
-  "Updated": "2020-03-15T16:00:48.4615203+01:00",
-  "UpdatedAssociateId": 278,
-  "UpdatedCount": 20
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Vision-oriented real-time moderator",
+  "AccessKey": "aut",
+  "DocumentMessage": 104,
+  "Registered": "1997-08-19T03:31:32.9594383+02:00",
+  "RegisteredAssociateId": 883,
+  "Updated": "2005-03-29T03:31:32.9594383+02:00",
+  "UpdatedAssociateId": 456,
+  "UpdatedCount": 958
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 669,
-  "PlainMessage": "temporibus",
-  "HtmlMessage": "doloribus",
-  "SmsMessage": "ex",
-  "Description": "Networked 24/7 ability",
-  "Subject": "ad",
-  "FolderId": 533,
-  "HeaderField": "sit",
-  "Design": "nam",
+  "ShipmentMessageId": 393,
+  "PlainMessage": "doloremque",
+  "HtmlMessage": "recusandae",
+  "SmsMessage": "harum",
+  "Description": "User-friendly composite circuit",
+  "Subject": "corrupti",
+  "FolderId": 484,
+  "HeaderField": "quis",
+  "Design": "quaerat",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Optimized full-range definition",
-  "AccessKey": "fuga",
-  "DocumentMessage": 210,
-  "Registered": "2015-03-04T16:00:48.4615203+01:00",
-  "RegisteredAssociateId": 116,
-  "Updated": "2010-06-12T16:00:48.4615203+02:00",
-  "UpdatedAssociateId": 983,
-  "UpdatedCount": 453,
+  "InlineImages": true,
+  "LongDescription": "Persevering zero tolerance benchmark",
+  "AccessKey": "ea",
+  "DocumentMessage": 869,
+  "Registered": "1998-05-26T03:31:32.9594383+02:00",
+  "RegisteredAssociateId": 797,
+  "Updated": "2004-08-07T03:31:32.9594383+02:00",
+  "UpdatedAssociateId": 540,
+  "UpdatedCount": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldLength": 550
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

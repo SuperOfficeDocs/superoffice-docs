@@ -2093,6 +2093,33 @@ items:
     href: List_TicketStatus/v1TicketStatusList_PutTicketStatusEntityHeadings.md
   - name: PUT List/TicketStatus/Items/{id}
     href: List_TicketStatus/v1TicketStatusList_PutTicketStatusEntity.md
+- name: List_TicketType
+  href: List_TicketType/index.md
+  items:
+  - name: DEL List/TicketType/Headings
+    href: List_TicketType/v1TicketTypeList_DeleteTicketTypeEntityHeadings.md
+  - name: DEL List/TicketType/Items/{id}
+    href: List_TicketType/v1TicketTypeList_DeleteTicketTypeEntity.md
+  - name: GET List/TicketType
+    href: List_TicketType/v1TicketTypeList_GetListDefinition.md
+  - name: GET List/TicketType/Headings
+    href: List_TicketType/v1TicketTypeList_GetTicketTypeEntityHeadings.md
+  - name: GET List/TicketType/Items
+    href: List_TicketType/v1TicketTypeList_GetAllTicketTypeEntity.md
+  - name: GET List/TicketType/Items/{id}
+    href: List_TicketType/v1TicketTypeList_GetTicketTypeEntity.md
+  - name: GET List/TicketType/Items/Default
+    href: List_TicketType/v1TicketTypeList_CreateDefaultTicketTypeEntity.md
+  - name: POST List/TicketType/Headings
+    href: List_TicketType/v1TicketTypeList_PostTicketTypeEntityHeading.md
+  - name: POST List/TicketType/Items
+    href: List_TicketType/v1TicketTypeList_PostTicketTypeEntity.md
+  - name: PUT List/TicketType
+    href: List_TicketType/v1TicketTypeList_SetListDefinition.md
+  - name: PUT List/TicketType/Headings
+    href: List_TicketType/v1TicketTypeList_PutTicketTypeEntityHeadings.md
+  - name: PUT List/TicketType/Items/{id}
+    href: List_TicketType/v1TicketTypeList_PutTicketTypeEntity.md
 - name: List_UserGroup
   href: List_UserGroup/index.md
   items:
@@ -2753,6 +2780,21 @@ items:
     href: TicketMessage/v1TicketMessageEntity_SendTicketMessageSms.md
   - name: PUT TicketMessage/{id}
     href: TicketMessage/v1TicketMessageEntity_HttpPutSaveTicketMessageEntityWithNotify.md
+- name: TicketType
+  href: TicketType/index.md
+  items:
+  - name: DEL TicketType/{id}
+    href: TicketType/v1TicketTypeEntity_DeleteTicketTypeEntity.md
+  - name: GET TicketType/{id}
+    href: TicketType/v1TicketTypeEntity_GetTicketTypeEntity.md
+  - name: GET TicketType/default
+    href: TicketType/v1TicketTypeEntity_DefaultTicketTypeEntity.md
+  - name: PATCH TicketType/{id}
+    href: TicketType/v1TicketTypeEntity_PatchTicketTypeEntity.md
+  - name: POST TicketType
+    href: TicketType/v1TicketTypeEntity_PostTicketTypeEntity.md
+  - name: PUT TicketType/{id}
+    href: TicketType/v1TicketTypeEntity_PutTicketTypeEntity.md
 - name: TimeZone
   href: TimeZone/index.md
   items:

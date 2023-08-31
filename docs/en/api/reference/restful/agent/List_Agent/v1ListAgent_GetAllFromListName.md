@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cremin, Johns and Considine",
+  "UdListDefinitionName": "Crooks-Murphy",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Huels LLC",
-    "Tooltip": "veritatis",
+    "Id": 43,
+    "Name": "Yundt, Russel and Shields",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "UdListDefinitionId": 490,
-    "Rank": 1001,
+    "UdListDefinitionId": 242,
+    "Rank": 731,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldLength": 54
       }
     }
   }

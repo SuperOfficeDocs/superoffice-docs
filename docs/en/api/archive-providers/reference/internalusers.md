@@ -87,7 +87,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=mrMrs,firstName,title
+GET /api/v1/archive/InternalUsers?$select=superoffice_ten-service,assocTooltip,assocType,otherGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

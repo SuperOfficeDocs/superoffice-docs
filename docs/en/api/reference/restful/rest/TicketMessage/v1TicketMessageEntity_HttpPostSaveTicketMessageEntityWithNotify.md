@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=True
+POST /api/v1/TicketMessage?notify=False
 ```
 
 
@@ -127,62 +127,62 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 236,
+  "EjMessageId": 374,
   "Ticket": null,
-  "CreatedAt": "1996-01-29T16:00:48.5708887+01:00",
+  "CreatedAt": "2015-12-10T03:31:33.2249956+01:00",
   "CreatedBy": null,
-  "Author": "temporibus",
+  "Author": "repellendus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "beatae",
-  "TimeSpent": 84,
-  "Body": "est",
-  "HtmlBody": "quia",
-  "EmailHeader": "stephany@reynoldsjenkins.info",
-  "DebugInfo": "itaque",
-  "MailSorter": "qui",
+  "MessageId": "suscipit",
+  "TimeSpent": 806,
+  "Body": "sit",
+  "HtmlBody": "odit",
+  "EmailHeader": "bradly@weimannlittel.ca",
+  "DebugInfo": "rerum",
+  "MailSorter": "possimus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusantium",
+  "SearchTitle": "temporibus",
   "MessageHeaders": [
     {
-      "Id": 526,
-      "Name": "Mitchell-Brakus",
-      "Value": "molestiae",
+      "Id": 940,
+      "Name": "Bernier, Howell and Collins",
+      "Value": "quis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 526,
-      "Name": "Mitchell-Brakus",
-      "Value": "molestiae",
+      "Id": 940,
+      "Name": "Bernier, Howell and Collins",
+      "Value": "quis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "ipsa",
-  "Sentiment": 533,
-  "SentimentConfidence": 373,
+  "Language": "tempora",
+  "Sentiment": 2,
+  "SentimentConfidence": 653,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 91,
-      "Name": "O'Hara, Johns and Deckow",
-      "ContentType": "harum",
-      "AttSize": 574,
-      "InlineImage": true,
-      "ContentId": "quisquam",
+      "AttachmentId": 664,
+      "Name": "Pagac, Huel and Wunsch",
+      "ContentType": "minima",
+      "AttSize": 511,
+      "InlineImage": false,
+      "ContentId": "natus",
       "AuthKey": "dolores"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -194,28 +194,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 436,
+  "EjMessageId": 445,
   "Ticket": null,
-  "CreatedAt": "1999-03-19T16:00:48.586505+01:00",
+  "CreatedAt": "2019-01-09T03:31:33.2406198+01:00",
   "CreatedBy": null,
-  "Author": "consectetur",
+  "Author": "dolor",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "impedit",
-  "TimeSpent": 846,
-  "Body": "consequatur",
-  "HtmlBody": "veniam",
-  "EmailHeader": "alysha.champlin@simonis.biz",
-  "DebugInfo": "et",
-  "MailSorter": "nemo",
+  "MessageId": "aliquam",
+  "TimeSpent": 781,
+  "Body": "inventore",
+  "HtmlBody": "aut",
+  "EmailHeader": "preston_herzog@oreillystoltenberg.co.uk",
+  "DebugInfo": "expedita",
+  "MailSorter": "accusamus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eius",
+  "SearchTitle": "consequatur",
   "MessageHeaders": [
     {
-      "Id": 580,
-      "Name": "Carroll, Schmitt and Bailey",
-      "Value": "distinctio",
+      "Id": 223,
+      "Name": "Thompson-O'Conner",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -223,49 +223,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 814
+          "FieldLength": 917
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dolorum",
-  "Sentiment": 743,
-  "SentimentConfidence": 344,
+  "Important": true,
+  "Language": "eaque",
+  "Sentiment": 443,
+  "SentimentConfidence": 303,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 815,
-      "Name": "Little Group",
-      "ContentType": "qui",
-      "AttSize": 453,
+      "AttachmentId": 350,
+      "Name": "Dickinson, Donnelly and Reilly",
+      "ContentType": "aut",
+      "AttSize": 234,
       "InlineImage": false,
-      "ContentId": "rerum",
-      "AuthKey": "animi",
+      "ContentId": "voluptatem",
+      "AuthKey": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 553
+          "FieldLength": 105
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "non"
+    "ExtraFields1": "numquam",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "dolore"
+    "CustomFields1": "quidem",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 567
     }
   }
 }

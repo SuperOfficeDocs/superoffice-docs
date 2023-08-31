@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Bradtke-D'Amore",
-    "ToolTip": "Tenetur sint aliquid eveniet.",
-    "Deleted": false,
-    "Rank": 546,
-    "Type": "a",
-    "ColorBlock": 493,
-    "IconHint": "est",
+    "Id": 100,
+    "Name": "Hills-Dickens",
+    "ToolTip": "Corrupti in corrupti.",
+    "Deleted": true,
+    "Rank": 78,
+    "Type": "dolorum",
+    "ColorBlock": 621,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2008-07-28T16:00:48.9302244+02:00",
+    "LastChanged": "2006-03-20T03:31:33.5386084+01:00",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Zieme-Nikolaus",
-        "ToolTip": "Laudantium illo.",
+        "Id": 828,
+        "Name": "Gleason-Windler",
+        "ToolTip": "Quia voluptatem corporis voluptatem voluptatibus impedit.",
         "Deleted": false,
-        "Rank": 555,
-        "Type": "perferendis",
-        "ColorBlock": 787,
-        "IconHint": "fugit",
+        "Rank": 946,
+        "Type": "error",
+        "ColorBlock": 566,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "1997-12-05T16:00:48.9302244+01:00",
+        "LastChanged": "2020-03-15T03:31:33.5386084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ea",
+        "ExtraInfo": "eum",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Dr. Delfina Cydney Waters Jr.",
+        "FullName": "Buford Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 822
+            "FieldLength": 397
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Jamar Schultz",
+    "FullName": "Brennan D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldLength": 182
       }
     }
   }

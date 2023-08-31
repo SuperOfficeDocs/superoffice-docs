@@ -1268,7 +1268,7 @@ Shadow contact provider for the dynamic sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/restrictionAddress/county,person/restrictionAddress/formattedAddress,person/correspondingAssociate/contactFullName,person/correspondingAssociate/credentialDisplayValue,contact/contactSource
+GET /api/v1/archive/SaleShadowDynamicSelection?$select=person/hasCompany,person/personExtra/x_person_shorttext,contact/registeredByFullName,contact/contactUdef/SuperOffice:10,document/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

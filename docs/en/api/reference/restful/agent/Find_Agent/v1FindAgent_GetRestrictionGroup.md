@@ -82,11 +82,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eum",
-  "ProviderName": "Bartoletti-Bednar",
-  "StorageKey": "aut",
-  "Rank": 429,
-  "Context": "voluptatibus"
+  "StorageType": "minima",
+  "ProviderName": "Pagac-West",
+  "StorageKey": "ullam",
+  "Rank": 27,
+  "Context": "aut"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lemke Group",
-  "Description": "Total full-range Graphic Interface",
-  "Rank": 571,
+  "Name": "Treutel-Grant",
+  "Description": "Implemented background matrix",
+  "Rank": 114,
   "Restrictions": [
     {
-      "Name": "Hahn LLC",
-      "Operator": "dolore",
+      "Name": "Christiansen LLC",
+      "Operator": "dolorum",
       "Values": [
-        "omnis",
-        "facere"
+        "eius",
+        "accusantium"
       ],
       "DisplayValues": [
-        "alias",
-        "nihil"
+        "vitae",
+        "ipsam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 991,
+      "InterParenthesis": 622,
       "InterOperator": "And",
-      "UniqueHash": 354
+      "UniqueHash": 91
     }
   ]
 }

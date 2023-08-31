@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Satterfield, Nitzsche and Crona",
-  "ListItemId": 522
+  "UdListDefinitionName": "Ziemann-Streich",
+  "ListItemId": 215
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Schneider-McKenzie",
-    "ToolTip": "Aliquid autem tempore nesciunt provident aliquam.",
-    "Deleted": false,
-    "Rank": 394,
-    "Type": "magnam",
-    "ColorBlock": 372,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2009-08-10T16:00:41.1487084+02:00",
+    "Id": 675,
+    "Name": "Christiansen, Bergstrom and Gleichner",
+    "ToolTip": "Tenetur id quia.",
+    "Deleted": true,
+    "Rank": 163,
+    "Type": "nisi",
+    "ColorBlock": 351,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2021-03-21T03:31:26.6675558+01:00",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "Gleichner-Murray",
-        "ToolTip": "Distinctio explicabo.",
+        "Id": 822,
+        "Name": "Nienow, McClure and Mills",
+        "ToolTip": "Voluptatem ad officia dicta laboriosam.",
         "Deleted": false,
-        "Rank": 57,
-        "Type": "consequatur",
-        "ColorBlock": 941,
-        "IconHint": "enim",
+        "Rank": 797,
+        "Type": "quae",
+        "ColorBlock": 750,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2001-03-14T16:00:41.1487084+01:00",
+        "LastChanged": "2021-03-05T03:31:26.6675558+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "nihil",
+        "ExtraInfo": "iusto",
+        "StyleHint": "amet",
         "Hidden": false,
-        "FullName": "Yasmeen Ken Lakin DVM",
+        "FullName": "Dr. Brandi Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "amet",
+    "ExtraInfo": "sed",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Zane Hamill DVM",
+    "FullName": "Retta Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

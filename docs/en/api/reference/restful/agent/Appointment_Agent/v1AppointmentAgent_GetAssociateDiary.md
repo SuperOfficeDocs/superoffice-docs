@@ -127,14 +127,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 231,
-  "StartTime": "2022-08-04T16:00:39.6488525+02:00",
-  "EndTime": "2017-06-24T16:00:39.6488525+02:00",
-  "Count": 477
+  "AssociateId": 381,
+  "StartTime": "2016-12-23T03:31:25.1313731+01:00",
+  "EndTime": "1999-06-22T03:31:25.1313731+02:00",
+  "Count": 440
 }
 ```
 
@@ -146,64 +146,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 10,
-    "StartDate": "2010-08-04T16:00:39.6488525+02:00",
-    "EndDate": "2007-09-23T16:00:39.6488525+02:00",
+    "AppointmentId": 107,
+    "StartDate": "2013-08-25T03:31:25.1313731+02:00",
+    "EndDate": "2016-11-19T03:31:25.1313731+01:00",
     "Type": "BookingForChecklist",
-    "Task": "unde",
-    "AssociateFullName": "Theo Mitchell",
-    "ContactName": "Upton-White",
-    "Description": "Assimilated zero administration hierarchy",
-    "PersonFullName": "Jaeden Hudson",
-    "PersonId": 349,
-    "ContactId": 217,
-    "ProjectId": 861,
-    "ProjectName": "Sawayn-Renner",
+    "Task": "fuga",
+    "AssociateFullName": "Kasandra Spinka",
+    "ContactName": "Schiller, Grady and Barton",
+    "Description": "Multi-layered multimedia definition",
+    "PersonFullName": "Mr. Liza Marina Casper II",
+    "PersonId": 758,
+    "ContactId": 180,
+    "ProjectId": 229,
+    "ProjectName": "Lehner-Jones",
     "IsPublished": false,
-    "AssociateId": 689,
-    "ColorIndex": 694,
+    "AssociateId": 796,
+    "ColorIndex": 165,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 889,
-    "PriorityName": "Christiansen, Wiegand and Gerlach",
+    "PriorityId": 738,
+    "PriorityName": "Lehner, Dickens and Tremblay",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2003-07-30T16:00:39.6488525+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2010-07-10T03:31:25.1313731+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-10-02T16:00:39.6488525+02:00",
-    "RecurringEndDate": "2020-03-28T16:00:39.6488525+01:00",
-    "MotherId": 816,
-    "AssignedBy": 711,
-    "AssignedByFullName": "Luigi Mante",
+    "RecurringStartDate": "2019-02-12T03:31:25.1313731+01:00",
+    "RecurringEndDate": "2017-05-19T03:31:25.1313731+02:00",
+    "MotherId": 538,
+    "AssignedBy": 380,
+    "AssignedByFullName": "Mortimer Nader",
     "RejectReason": "",
-    "Location": "facere",
-    "AlarmLeadTime": "voluptate",
-    "SaleId": 663,
-    "SaleName": "Gislason Inc and Sons",
-    "AssociateName": "Yost, Kuhlman and Sawayn",
-    "CreatedDate": "2020-07-13T16:00:39.6488525+02:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Ismael Hartmann",
-    "CreatedByAssociateId": 283,
+    "Location": "debitis",
+    "AlarmLeadTime": "in",
+    "SaleId": 356,
+    "SaleName": "Hane-Emard",
+    "AssociateName": "Reichel-King",
+    "CreatedDate": "2013-12-04T03:31:25.1313731+01:00",
+    "CreatedBy": "exercitationem",
+    "CreatedByFullName": "Lorena Carter",
+    "CreatedByAssociateId": 431,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "numquam",
-    "Agenda": "aut",
-    "InternalNotes": "sunt",
+    "Title": "rem",
+    "Agenda": "officia",
+    "InternalNotes": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldLength": 462
       }
     }
   }

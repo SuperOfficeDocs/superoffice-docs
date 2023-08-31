@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Collier, Schaefer and Lindgren"
+  "ApplicationName": "Murazik Group"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 85,
-  "Name": "Marvin-Stamm",
-  "CreatedDate": "2013-10-28T16:00:41.0549706+01:00",
-  "UpdatedDate": "2007-08-15T16:00:41.0549706+02:00",
+  "ForeignAppId": 991,
+  "Name": "Gutkowski-Cummings",
+  "CreatedDate": "1996-05-27T03:31:26.589451+02:00",
+  "UpdatedDate": "2007-10-03T03:31:26.589451+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 805,
-      "Name": "Bosco, Bayer and Walker",
-      "CreatedDate": "2010-06-12T16:00:41.0549706+02:00",
-      "UpdatedDate": "2006-12-18T16:00:41.0549706+01:00",
-      "AssociateFullName": "Rebeca Rau",
-      "CreatedBy": "perspiciatis",
-      "UpdatedBy": "ipsa",
-      "DeviceIdentifier": "reprehenderit",
-      "ForeignAppId": 797,
+      "ForeignDeviceId": 63,
+      "Name": "Mueller, Corwin and Mertz",
+      "CreatedDate": "2017-03-25T03:31:26.589451+01:00",
+      "UpdatedDate": "2022-11-02T03:31:26.589451+01:00",
+      "AssociateFullName": "Marielle Heidenreich",
+      "CreatedBy": "quia",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "quidem",
+      "ForeignAppId": 597,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldLength": 993
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldLength": 844
     }
   }
 }

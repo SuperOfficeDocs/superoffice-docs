@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Bradtke Inc and Sons",
-    "ToolTip": "Facere fugit ab nam mollitia.",
-    "Deleted": false,
-    "Rank": 469,
-    "Type": "voluptas",
-    "ColorBlock": 986,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "1996-02-26T16:00:48.8364781+01:00",
+    "Id": 986,
+    "Name": "Grady, Renner and Schowalter",
+    "ToolTip": "Officia ex et error nemo voluptatibus ut ratione.",
+    "Deleted": true,
+    "Rank": 728,
+    "Type": "rerum",
+    "ColorBlock": 270,
+    "IconHint": "nemo",
+    "Selected": true,
+    "LastChanged": "2013-07-21T03:31:33.4604945+02:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Corwin-Kuvalis",
-        "ToolTip": "Autem at ut eos repudiandae porro ad.",
+        "Id": 931,
+        "Name": "Barrows Inc and Sons",
+        "ToolTip": "Quis dolorem qui consectetur.",
         "Deleted": false,
-        "Rank": 920,
-        "Type": "similique",
-        "ColorBlock": 675,
-        "IconHint": "aut",
+        "Rank": 201,
+        "Type": "id",
+        "ColorBlock": 945,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2017-07-08T16:00:48.8364781+02:00",
+        "LastChanged": "2005-04-25T03:31:33.4604945+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "non",
+        "ExtraInfo": "magnam",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Duncan Douglas",
+        "FullName": "Arturo Jast II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 355
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Donnell Schamberger Jr.",
+    "ExtraInfo": "iure",
+    "StyleHint": "iure",
+    "Hidden": true,
+    "FullName": "Amir Deckow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldLength": 50
       }
     }
   }

@@ -72,6 +72,7 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
+| ParserValues | object | Parser values sent to the event handler |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -98,28 +99,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "expedita",
-    "InputValues2": "ex"
+    "InputValues1": "et",
+    "InputValues2": "quo"
   },
   "BlockExecution": true,
-  "NavigateTo": "a",
-  "Message": "ducimus",
-  "ShowDialog": "iure",
+  "NavigateTo": "modi",
+  "Message": "eligendi",
+  "ShowDialog": "consequatur",
   "OutputValues": {
-    "OutputValues1": "quam",
-    "OutputValues2": "debitis"
+    "OutputValues1": "nemo",
+    "OutputValues2": "exercitationem"
   },
   "StateValues": {
-    "StateValues1": "non",
-    "StateValues2": "qui"
+    "StateValues1": "quidem",
+    "StateValues2": "beatae"
   },
-  "Exception": "provident",
+  "Exception": "possimus",
+  "ParserValues": {
+    "ParserValues1": "ut",
+    "ParserValues2": "quam"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 230
     }
   }
 }

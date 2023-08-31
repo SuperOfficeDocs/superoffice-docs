@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 163,
-    "Name": "Harber Group",
-    "ToolTip": "Ipsam aspernatur quidem qui rerum sint.",
+    "Id": 132,
+    "Name": "Daugherty, Ziemann and Krajcik",
+    "ToolTip": "Sed nobis nulla similique pariatur autem odit.",
     "Deleted": false,
-    "Rank": 938,
-    "Type": "et",
-    "ColorBlock": 159,
-    "IconHint": "sit",
+    "Rank": 528,
+    "Type": "quos",
+    "ColorBlock": 504,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2012-10-11T16:00:49.086451+02:00",
+    "LastChanged": "2016-01-02T03:31:33.6791985+01:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Hills, Emard and Witting",
-        "ToolTip": "Quia est odit beatae.",
+        "Id": 420,
+        "Name": "Rau, Rosenbaum and Crist",
+        "ToolTip": "Suscipit commodi necessitatibus.",
         "Deleted": false,
-        "Rank": 994,
-        "Type": "et",
-        "ColorBlock": 639,
-        "IconHint": "blanditiis",
-        "Selected": true,
-        "LastChanged": "1998-04-29T16:00:49.086451+02:00",
+        "Rank": 408,
+        "Type": "qui",
+        "ColorBlock": 295,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2003-11-30T03:31:33.6791985+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Abbey Hettinger"
+        "FullName": "Kristy Jones"
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "ut",
+    "ExtraInfo": "facilis",
+    "StyleHint": "blanditiis",
     "Hidden": true,
-    "FullName": "Prof. Giovanni Anderson Jacobs"
+    "FullName": "Ronaldo Bartell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Abshire-Erdman",
-    "ToolTip": "Et sed et.",
+    "Id": 713,
+    "Name": "Flatley, Ward and Leuschke",
+    "ToolTip": "Et eum quas explicabo delectus accusamus corporis nam.",
     "Deleted": false,
-    "Rank": 884,
-    "Type": "suscipit",
-    "ColorBlock": 774,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "2014-10-31T16:00:49.086451+01:00",
+    "Rank": 632,
+    "Type": "et",
+    "ColorBlock": 103,
+    "IconHint": "fuga",
+    "Selected": true,
+    "LastChanged": "2007-03-19T03:31:33.6791985+01:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Labadie-Pollich",
-        "ToolTip": "Et ex.",
-        "Deleted": true,
-        "Rank": 143,
-        "Type": "repudiandae",
-        "ColorBlock": 717,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "1998-09-06T16:00:49.086451+02:00",
+        "Id": 799,
+        "Name": "Dickinson-Morissette",
+        "ToolTip": "Delectus quasi unde assumenda.",
+        "Deleted": false,
+        "Rank": 620,
+        "Type": "eligendi",
+        "ColorBlock": 689,
+        "IconHint": "earum",
+        "Selected": false,
+        "LastChanged": "2003-07-28T03:31:33.6791985+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "et",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Yvonne Kiehn",
+        "FullName": "Lyda Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 89
+            "FieldType": "System.Int32",
+            "FieldLength": 379
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "ea",
+    "ExtraInfo": "rerum",
+    "StyleHint": "dolorem",
     "Hidden": true,
-    "FullName": "Graciela Friesen",
+    "FullName": "Golda Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldType": "System.String",
+        "FieldLength": 504
       }
     }
   }

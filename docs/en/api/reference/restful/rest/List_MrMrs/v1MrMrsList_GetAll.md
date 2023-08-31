@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 447,
-    "Name": "Jacobson Group",
-    "Tooltip": "nisi",
+    "Id": 853,
+    "Name": "Heller, Bednar and Zulauf",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 897,
-    "Rank": 437,
+    "UdListDefinitionId": 171,
+    "Rank": 590,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldLength": 728
       }
     }
   }
