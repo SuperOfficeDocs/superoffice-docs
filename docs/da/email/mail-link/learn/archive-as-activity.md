@@ -13,7 +13,7 @@ language: da
 
 Hvis du modtager en e-mail, hvori du anmodes om at udføre en handling, kan du konvertere e-mailen til en aktivitet i SuperOffice CRM.
 
-![Brug Maillink i Outlook til at konvertere en mail til en aktivitet i SuperOffice CRM -screenshot][img1]
+![Brug Maillink i Outlook til at konvertere en mail til en aktivitet i SuperOffice CRM -app-screen][img1]
 
 ## Trin
 
@@ -63,4 +63,5 @@ Hvis du modtager en e-mail, hvori du anmodes om at udføre en handling, kan du k
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png
+
+[img1]: ../../../../media/loc/en/email/mail-link-actions.jpg

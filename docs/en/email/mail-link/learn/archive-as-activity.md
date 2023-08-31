@@ -1,54 +1,63 @@
 ---
-uid: help-en-mail-link-archive-as-activity
-title: Archive email as activity
-description: Saving an email directly as a task, an appointment or a phone-call in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
-author: SuperOffice RnD
-so.date: 02.10.2023
-keywords: Mail Link, email
+uid: help-en-mail-link-create-activity
+title: Create appointment or task from email
+description: Saving an email directly as an appointment or a task in your SuperOffice diary will ensure that you never forget to follow up on a customer or query.
+author: Bergfrid Dias
+so.date: 08.30.2023
+keywords: Mail Link, email, inbox, archive, appointment, task
 so.topic: howto
 language: en
 ---
 
-# Create activity from an email
+# Create appointment or task from email
 
-If you receive an email requesting you to take action, you can convert the email into an activity in SuperOffice CRM.
+If you receive an email requesting you to take action, you can convert the email into an appointment or task in SuperOffice CRM.
 
-![Use Mail link in Outlook to convert an email into an activity in SuperOffice CRM -screenshot][img1]
+![Use Mail link in Outlook to convert an email into an appointment or task in SuperOffice CRM -app-screen][img2]
+![Mail link: create appointment in SuperOffice CRM -app-screen][img3]
+![Mail link: create task in SuperOffice CRM -app-screen][img4]
 
-## Steps
+## Create appointment
 
-1. Select the email(s) you would like to archive as an activity.
+1. Select the emails you want to archive.
 
-2. Click the **Archive email** button on the toolbar, and select **Create activity** from the dropdown. The **Create activity** dialog appears.
+2. Click the **Archive email** button on the toolbar, and select **Create appointment in SuperOffice**.
 
 3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog: "This sender's email address is not recognized. Click here to update SuperOffice with this email address". [How to handle unlisted senders][1]
 
-4. In the **Company** field, you may search for a company by starting to type the company name and then select from the matches that appear.
+4. In the **Company** field, starting typing to search for a company name and then select from the matches that appear.
 
-5. In the **Contact** field, you may use the dropdown to select one of the contacts belonging to the company you selected in the previous step. You can also search by starting to type the contact name.
+5. In the **Contact** field, select one of the contacts belonging to the company you selected in step 4. You can also start typing to search for the contact name.
 
-6. If you would like to link the activity to a certain project, you may select the project in the **Project** field.
+6. Optionally, select a project and/or sale that you want to link the appointment to.
 
-7. If you would like to link the activity to a certain sale, you may select the sale in the **Sale** field.
+7. Use the **Type** dropdown menu to select an appointment types.
 
-8. In the **Description** field, the subject and message body is automatically inserted. However, you may enter any text that you would like to be shown in **Task** dialog of SuperOffice CRM.
+8. Click to select a **Date** and enter a **Time** of day. Today's date is automatically inserted, but can be changed.
 
-9. In the **Do by** field, today's date is automatically inserted. However, you may click the calendar icon and select another date the activity should be completed by.
-
-10. In the **Time** field, edit the time of day the activity should be completed by.
-
-11. In the **Type** dropdown, you may select one of the available activity types.
-
-12. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the activity should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
+9. In the **Visible for** field, click the arrow next to the field. From the list, choose if the activity should be visible to all users, private (visible only to the user defined as owner), or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
-    > The **Visible for** field is only available if this right is assigned to you in Settings and maintenance.
+    > The **Visible for** field is available only if this right is assigned to you in Settings and maintenance.
 
-13. Check the **Completed** box if you would like to indicate that the activity has already been completed.
+10. In the **Description** field, the subject and message body is automatically inserted. However, you may enter any text that you would like to be shown in SuperOffice CRM.
 
-14. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it was archived successfully in SuperOffice CRM.
+11. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it was archived successfully in SuperOffice CRM.
 
-15. Click **OK**. The selected email(s) are archived to SuperOffice CRM as activities. You can then open any of these activities by double-clicking them in the **Activities** section tab or in the checklist in the Diary screen.
+12. Click **OK**. The selected emails are archived to SuperOffice CRM as appointments.
+
+## <a id="task" />Create task
+
+1. Select the emails you want to archive.
+
+2. Click the **Archive email** button on the toolbar, and select **Create task in SuperOffice**.
+
+3. Fill in the fields as described above for creating an appointment.
+
+    > [!NOTE]
+    > Tasks do not have time property, only date.
+
+4. Click **OK**.
 
 ## What would you like to do now?
 
@@ -63,4 +72,6 @@ If you receive an email requesting you to take action, you can convert the email
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png
+[img2]: ../../../../media/loc/en/email/mail-link-actions.jpg
+[img3]: ../../../../media/loc/en/email/mail-link-create-apt.jpg
+[img4]: ../../../../media/loc/en/email/mail-link-create-task.jpg
