@@ -17,7 +17,7 @@ There is no GUI to check data in a mirror, so you must use SQL Server Management
 
 If you notice that some tables are not updating as expected, it might be time to force a resynchronization.
 
-This procedure is intended for a live system. If you want to debug mirroring in SOD, you can [mock a user installing the application to trigger the Mirroring Task][1].
+This procedure is intended for a live system.
 
 ## Pre-requisites
 
@@ -42,6 +42,5 @@ This procedure is intended for a live system. If you want to debug mirroring in 
 1. Shortly thereafter (the next mirroring cycle), the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will recreate the database table(s) and begin to deliver periodic updates to your mirroring service.
 
 <!-- Referenced links -->
-[1]: getting-started/sync-manually.md
 [2]: ../apps/provisioning/get-consent.md
 [3]: mirroring-task.md

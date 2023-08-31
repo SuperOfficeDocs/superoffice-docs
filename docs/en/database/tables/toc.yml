@@ -1207,8 +1207,6 @@ items:
     href: enums/saledone.md
   - name: SaleStatus
     href: enums/salestatus.md
-  - name: ScreenChooserType
-    href: enums/screenchoosertype.md
   - name: SelectionSystemType
     href: enums/selectionsystemtype.md
   - name: SelectionUnionType
