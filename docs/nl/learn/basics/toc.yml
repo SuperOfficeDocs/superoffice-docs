@@ -1,6 +1,8 @@
 items:
   - name: Overzicht
     href: index.md
+  - name: Meldingen
+    href: notifications.md
   - name: Favorieten
     href: fav.md
   - name: Historielijst
