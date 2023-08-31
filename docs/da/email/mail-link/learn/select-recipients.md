@@ -11,7 +11,7 @@ language: da
 
 # Valg af modtagere
 
-Når du opretter en mail [fra Microsoft Outlook][1] eller [Lotus Notes][2] kan du tilføje modtagere ved hjælp af dialogboksen **Vælg modtagere**.
+Når du [opretter en mail fra Microsoft Outlook][1] kan du tilføje modtagere ved hjælp af dialogboksen **Vælg modtagere**.
 
 1. I det nye e-mailvinduet klikker du på knappen **Tilføj modtager** (![ikon][img1]).
 
@@ -31,7 +31,6 @@ Når du opretter en mail [fra Microsoft Outlook][1] eller [Lotus Notes][2] kan d
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-recipient.png

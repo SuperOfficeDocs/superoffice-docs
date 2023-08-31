@@ -11,7 +11,7 @@ language: sv
 
 # Välj mottagare
 
-När du skapar ett e-postmeddelande [från Microsoft Outlook][1] eller [Lotus Notes][2] kan du lägga till mottagare i dialogrutan **Välj mottagare**.
+När du skapar ett e-postmeddelande [från Microsoft Outlook][1] kan du lägga till mottagare i dialogrutan **Välj mottagare**.
 
 1. I fönstret för nytt e-postmeddelande klickar du på knappen **Lägg till mottagare** (![ikon][img1]).
 
@@ -31,7 +31,6 @@ När du skapar ett e-postmeddelande [från Microsoft Outlook][1] eller [Lotus No
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-recipient.png

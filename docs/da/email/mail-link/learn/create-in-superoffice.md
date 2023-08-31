@@ -11,7 +11,7 @@ language: da
 
 # Sådan oprettes e-mails i SuperOffice CRM
 
-Der findes to måder at oprette en e-mail på i SuperOffice CRM. Du kan anvende værktøjslinjeknappen **E-mail** nederst i vinduet SuperOffice CRM. Dette fungerer mere eller mindre på samme måde som beskrevet i [Oprettelse af e-mails fra Microsoft Outlook][1] eller [Oprettelse af e-mails fra Lotus Notes][2], bortset fra at du kan bruge foruddefinerede e-mail-brødtekstskabeloner.
+Der findes to måder at oprette en e-mail på i SuperOffice CRM. Du kan anvende værktøjslinjeknappen **E-mail** nederst i vinduet SuperOffice CRM. Dette fungerer mere eller mindre på samme måde som beskrevet i [Oprettelse af e-mails fra Microsoft Outlook][1], bortset fra at du kan bruge foruddefinerede e-mail-brødtekstskabeloner.
 
 Du kan dog også anvende værktøjslinjeknappen **Skriv**.
 
@@ -51,7 +51,6 @@ Når du opretter en e-mail i SuperOffice CRM, kan du anvende foruddefinerede Sup
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 [4]: select-recipients.md
 [5]: add-attachment.md
 [6]: ../../../admin/lists/learn/create-email-template.md

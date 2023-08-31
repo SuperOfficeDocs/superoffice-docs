@@ -8,16 +8,12 @@ items:
 - name: Standaardarchivering aan-/uitzetten
   href: settings/archive-by-default.md
 - name: Werken met e-mails
-  topicHref: compose.md
+  topicHref: create-in-superoffice.md
   items:
-  - name: E-mails maken
-    href: compose.md
   - name: E-mail maken vanuit SuperOffice CRM
     href: create-in-superoffice.md
   - name: E-mail maken vanuit Microsoft Outlook
     href: create-in-outlook.md
-  - name: E-mail maken vanuit Lotus Notes
-    href: create-in-lotus.md
   - name: Ontvangers selecteren
     href: select-recipients.md
   - name: Afzenders beheren

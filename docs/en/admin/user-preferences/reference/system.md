@@ -30,9 +30,6 @@ SELECT * FROM UserPreference WHERE prefsection='System'
 | EnableCurrency | Allow sales to be recorded in another currency | | Bool | Admin, Crm, Admin users, Wizard |
 | MailMergeMoreTimeNeeded | Increases the time available to SuperOffice to complete a mail merge (mass mailing) operation. This time should be increased if you get empty or incomplete documents printed. | | List | Admin, Crm, Admin users, Wizard |
 | NotesIniPath | Sets the path to the Notes.ini file | | Text | Wizard |
-| NotesSODbName | The name of the database in SuperOffice where Lotus Notes e-mail is saved | SOCONFIG\SoMailArchive.nsf | Text | Admin, Admin users, Wizard |
 | OurCurrencyId | Default currency for new sales | | ListTableRef | Admin, Crm, Admin users, Wizard |
 | OwnCountry | Which country you are currently located in. This affects phone number prefixes and the suggested country when entering a new company. | | ListTableRef | Admin, Crm, Admin users, Wizard |
-| PreferredNotesDocServer | Preferred server name of the Lotus Notes document server | | Text | Admin, Admin users, Wizard |
-| PreferredNotesMailServer | Preferred e-mail server name for Lotus Notes | | Text | Admin, Admin users, Wizard |
 | ReplicateSelection | Replicates selection members to Travel and satellite databases. After changing this preference you need to regenerate satellites and create new prototypes. This will reduce performance. | No | Bool | Admin, Admin users, Wizard |

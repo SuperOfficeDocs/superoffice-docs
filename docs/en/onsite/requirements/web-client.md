@@ -68,8 +68,6 @@ Windows operating system only
 * Outlook 2019
 * Outlook 2016
 * Outlook 2013
-* Lotus Notes 10
-* Lotus Notes 9
 
 ## SuperOffice Ribbons
 

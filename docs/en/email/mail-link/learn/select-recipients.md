@@ -11,7 +11,7 @@ language: en
 
 # Select recipients
 
-When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2], you can add recipients using the **Select recipients** dialog.
+When [creating an email from Microsoft Outlook][1], you can add recipients using the **Select recipients** dialog.
 
 1. In the new email window, click the **Add recipient** button (![icon][img1]).
 
@@ -31,7 +31,6 @@ When creating an email [from Microsoft Outlook][1] or [from Lotus Notes][2], you
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-recipient.png

@@ -11,7 +11,7 @@ language: de
 
 # SuperOffice Dokument als Anhang hinzufügen
 
-Wenn Sie eine E-Mail [von Microsoft Outlook][1] oder [von Lotus Notes][2] erstellen, können Sie Dokumente aus SuperOffice CRM als Anhänge hinzufügen.
+Wenn Sie [eine E-Mail von Microsoft Outlook][1] erstellen, können Sie Dokumente aus SuperOffice CRM als Anhänge hinzufügen.
 
 1. Klicken Sie im E-Mail-Fenster auf die Schaltfläche **Dokument anhängen** (![Symbol][img1]).
 
@@ -33,7 +33,6 @@ Wenn Sie eine E-Mail [von Microsoft Outlook][1] oder [von Lotus Notes][2] erstel
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/mail-link/add-document.png

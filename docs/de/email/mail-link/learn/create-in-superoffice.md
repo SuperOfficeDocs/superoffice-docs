@@ -11,7 +11,7 @@ language: de
 
 # E-Mails von SuperOffice CRM erstellen
 
-Es gibt zwei Möglichkeiten, eine E-Mail von SuperOffice CRM zu erstellen. Sie können die Schaltfläche **E-Mail** in der Werkzeugleiste am unteren Rand des SuperOffice CRM-Fensters verwenden. Dies funktioniert mehr oder weniger auf die gleiche Weise wie unter [E-Mails von Microsoft Outlook erstellen][1] oder [E-Mails von Lotus Notes erstellen][2] beschrieben, nur dass vordefinierte E-Mail-Textvorlagen verwendet werden können.
+Es gibt zwei Möglichkeiten, eine E-Mail von SuperOffice CRM zu erstellen. Sie können die Schaltfläche **E-Mail** in der Werkzeugleiste am unteren Rand des SuperOffice CRM-Fensters verwenden. Dies funktioniert mehr oder weniger auf die gleiche Weise wie unter [E-Mails von Microsoft Outlook erstellen][1] beschrieben, nur dass vordefinierte E-Mail-Textvorlagen verwendet werden können.
 
 Außerdem können Sie auch die Schaltfläche **Schreiben** in der Werkzeugleiste verwenden.
 
@@ -51,7 +51,6 @@ Wenn Sie eine E-Mail von SuperOffice CRM erstellen, können Sie vordefinierte Su
 
 <!-- Referenced links -->
 [1]: create-in-outlook.md
-[2]: create-in-lotus.md
 [4]: select-recipients.md
 [5]: add-attachment.md
 [6]: ../../../admin/lists/learn/create-email-template.md

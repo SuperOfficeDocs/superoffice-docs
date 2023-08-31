@@ -27,7 +27,7 @@ Voor alle verschillende archiveeropties kunt u de optie **Waarschuw mij wanneer 
 
 ## Verschillen tussen Outlook, Notes en SuperOffice CRM
 
-U kunt op verschillende manieren e-mails maken, zowel [vanuit Outlook][6], [vanuit Notes][7], als vanuit [SuperOffice CRM][8]. Als het dialoogvenster **Document** wordt weergegeven, wordt de e-mail behandeld als een SuperOffice-document en wordt deze gearchiveerd. Als het dialoogvenster **Document** niet wordt weergegeven, wordt de e-mail gearchiveerd op basis van de instellingen in het dialoogvenster **SuperOffice CRM-opties**.
+U kunt op verschillende manieren e-mails maken, zowel [vanuit Outlook][6] als vanuit [SuperOffice CRM][8]. Als het dialoogvenster **Document** wordt weergegeven, wordt de e-mail behandeld als een SuperOffice-document en wordt deze gearchiveerd. Als het dialoogvenster **Document** niet wordt weergegeven, wordt de e-mail gearchiveerd op basis van de instellingen in het dialoogvenster **SuperOffice CRM-opties**.
 
 Het dialoogvenster **Document** wordt automatisch geopend als u:
 
@@ -65,7 +65,6 @@ Als u een e-mail opent die al is gearchiveerd, wordt de knop **E-mail archiveren
 [5]: settings/general.md
 [9]: settings/default.md
 [6]: create-in-outlook.md
-[7]: create-in-lotus.md
 [8]: create-in-superoffice.md
 
 <!-- Referenced images -->
