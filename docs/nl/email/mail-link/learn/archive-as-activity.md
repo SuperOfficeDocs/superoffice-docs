@@ -13,7 +13,7 @@ language: nl
 
 Als u een e-mail ontvangt waarin u wordt gevraagd actie te ondernemen, kunt u de e-mail omzetten in een activiteit in SuperOffice CRM.
 
-![Gebruik de Mail-link in Outlook om een e-mail te converteren naar een activiteit in SuperOffice CRM -screenshot][img1]
+![Gebruik de Mail-link in Outlook om een e-mail te converteren naar een activiteit in SuperOffice CRM -app-screen][img1]
 
 ## Stappen
 
@@ -63,4 +63,5 @@ Als u een e-mail ontvangt waarin u wordt gevraagd actie te ondernemen, kunt u de
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png
+
+[img1]: ../../../../media/loc/en/email/mail-link-actions.jpg

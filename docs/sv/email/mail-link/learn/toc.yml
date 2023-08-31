@@ -22,7 +22,7 @@ items:
     href: add-attachment.md
   - name: Arkivera för företag eller kontakt
     href: archive-on-contact.md
-  - name: Skapa aktivitet
+  - name: Skapa bokning/uppgift
     href: archive-as-activity.md
   - name: Skapa ärende
     href: archive-as-request.md

@@ -13,7 +13,7 @@ language: de
 
 Wenn Sie eine E-Mail erhalten, in der Sie zu einer Aktion aufgefordert werden, können Sie die E-Mail in SuperOffice CRM in eine Aktivität umwandeln.
 
-![Verwenden Sie den E-Mail-Link in Outlook, um eine E-Mail in eine Aktivität in SuperOffice CRM umzuwandeln -screenshot][img1]
+![Verwenden Sie den E-Mail-Link in Outlook, um eine E-Mail in eine Aktivität in SuperOffice CRM umzuwandeln -app-screen][img1]
 
 ## Schritte
 
@@ -63,4 +63,5 @@ Wenn Sie eine E-Mail erhalten, in der Sie zu einer Aktion aufgefordert werden, k
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/email/email-maillink-create-activity.png
+
+[img1]: ../../../../media/loc/en/email/mail-link-actions.jpg
