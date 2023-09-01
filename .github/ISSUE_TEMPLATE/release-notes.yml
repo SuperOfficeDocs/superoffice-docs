@@ -39,6 +39,7 @@ body:
     attributes:
       label: Description
       description: |
+       A clear and concise description of the release. Link to issues.
       placeholder: Tell us about your idea!
     validations:
       required: false
