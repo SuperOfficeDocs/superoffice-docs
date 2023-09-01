@@ -1,0 +1,49 @@
+name: New release note entry
+description: Easily create a new content article.
+title: "[VERSION] - Release notes"
+labels: ["release-notes"]
+assignees: 
+  - digitaldiina
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to contribute!
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for this release.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "What is the version of this release?"
+      placeholder: "10.2.x"
+    validations:
+      required: true
+  - type: dropdown
+    id: envir
+    attributes:
+      label: What kind of release is it?
+      multiple: false
+      options:
+        - Online
+        - Onsite
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: |
+        Links? References? Anything that will give us more context about this release!
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      placeholder: Tell us about your idea!
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "Thanks for completing our form!"

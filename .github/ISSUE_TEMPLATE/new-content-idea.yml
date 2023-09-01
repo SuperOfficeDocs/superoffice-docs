@@ -12,7 +12,7 @@ body:
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the proposed update.
+      description: Please search to see if an issue already exists for your suggestion.
       options:
       - label: I have searched the existing issues
         required: true
@@ -55,8 +55,6 @@ body:
     attributes:
       label: Description
       description: |
-        Links? References?
-
         Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
       placeholder: Tell us about your idea!
     validations:

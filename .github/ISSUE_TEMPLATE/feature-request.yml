@@ -1,0 +1,53 @@
+---
+name: Feature request
+description: Suggest a new feature or UI change for SuperOfficeDocs
+title: "[NEW DESIGN IDEA]"
+labels: ["docs/design", "docs-experience"]
+assignees: 
+  - digitaldiina
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share your ideas!
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: |
+        Please search to see if an issue already exists for your suggestion.
+        Is your feature request related to a problem? Please consider creating a bug report instead.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of idea is it?
+      multiple: false
+      options:
+        - Usability
+        - Accessability
+        - Look and feel
+        - Search
+        - Other
+  - type: textarea
+    attributes:
+      label: Description
+      description: |
+        A clear and concise description of what the problem is and the solution you'd like.
+        Ex. I'm always frustrated when [...]
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      placeholder: Tell us about your idea!
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Any alternative solutions or features you've considered?
+        Anything that will give us more context about the issue!
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "Thanks for completing our form!"
