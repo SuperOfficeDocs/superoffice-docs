@@ -20,7 +20,7 @@ body:
     id: type
     attributes:
       label: What kind of idea is it?
-      multiple: true
+      multiple: false
       options:
         - New page on SuperOfficeDocs
         - Add or revise existing page
@@ -41,7 +41,7 @@ body:
     id: topic
     attributes:
       label: Which area (SuperOffice entity) is this related to?
-      multiple: true
+      multiple: false
       options:
         - Company, contact
         - Diary

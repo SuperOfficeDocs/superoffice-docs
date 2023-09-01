@@ -10,12 +10,13 @@ body:
     attributes:
       value: |
         Thanks for taking the time to share your ideas!
+
+        Is your feature request related to a problem? Please consider creating a bug report instead.
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
       description: |
         Please search to see if an issue already exists for your suggestion.
-        Is your feature request related to a problem? Please consider creating a bug report instead.
       options:
       - label: I have searched the existing issues
         required: true
@@ -34,8 +35,7 @@ body:
     attributes:
       label: Description
       description: |
-        A clear and concise description of what the problem is and the solution you'd like.
-        Ex. I'm always frustrated when [...]
+        A clear and concise description of what the problem is and the solution you'd like. Ex. I'm always frustrated when [...]
         Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
       placeholder: Tell us about your idea!
     validations:
