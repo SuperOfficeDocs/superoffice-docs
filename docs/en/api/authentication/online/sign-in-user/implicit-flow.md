@@ -92,4 +92,4 @@ The client application can validate the ID token, and use the access token and t
 <!-- Referenced links -->
 [1]: ../api.md
 [3]: ../index.md
-[4]: ../../../../apps/redirects/index.md
+[4]: ../../../../developer-portal/create-app/config/redirects/index.md

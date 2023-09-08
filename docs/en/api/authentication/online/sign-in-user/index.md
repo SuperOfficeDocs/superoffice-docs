@@ -59,9 +59,9 @@ Below is a high-level overview of the flow. For details, check out the [Implicit
 
 <!-- Referenced links -->
 [1]: implicit-flow.md
-[2]: ../../../../apps/terminology.md
-[3]: ../../../../apps/redirects/index.md
-[4]: ../../../../apps/getting-started/app-envir.md
+[2]: ../../../../developer-portal/terminology.md
+[3]: ../../../../developer-portal/create-app/config/redirects/index.md
+[4]: ../../../../developer-portal/getting-started/app-envir.md
 [5]: ../validate-security-tokens.md
 [6]: auth-code-flow.md
 [7]: ../which-flow-to-use.md

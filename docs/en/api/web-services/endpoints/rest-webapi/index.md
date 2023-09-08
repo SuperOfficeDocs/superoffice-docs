@@ -326,7 +326,7 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 [16]: ../../../search/odata/index.md
 [17]: ../../../search/index.md
 [18]: ../../../../admin/user-preferences/index.md
-[19]: ../../../../apps/best-practices.md#entity-creation
+[19]: ../../../../developer-portal/best-practices/index.md#entity-creation
 [20]: https://tools.ietf.org/html/rfc7386
 [21]: https://tools.ietf.org/html/rfc6902
 [22]: https://erosb.github.io/post/json-patch-vs-merge-patch/

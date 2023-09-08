@@ -113,23 +113,23 @@ conceptualContent:
       - text: Security requirements
         itemType: library_books
         typeDesc: reference
-        url: ../apps/requirements/security.md
+        url: ../developer-portal/standard-app/requirements/security.md
       - text: Checklist
         itemType: library_books
         typeDesc: reference
-        url: ../apps/certification/checklist.md
+        url: ../developer-portal/standard-app/certification/checklist.md
       - text: Certification
         itemType: explore
         typeDesc: concept
-        url: ../apps/certification/index.md
+        url: ../developer-portal/standard-app/certification/index.md
       - text: Watchcom evaluation
         itemType: explore
         typeDesc: concept
-        url: ../apps/certification/initial-watchcom-eval.md
+        url: ../developer-portal/standard-app/certification/initial-watchcom-eval.md
       - text: Obtain consent to access a customer's tenant
         itemType: list
         typeDesc: how-to-guide
-        url: ../apps/provisioning/get-consent.md
+        url: ../developer-portal/provisioning/get-consent.md
       - text: GDPR for app developer
         itemType: explore
         typeDesc: concept

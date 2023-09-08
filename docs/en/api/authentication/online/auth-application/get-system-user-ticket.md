@@ -149,7 +149,7 @@ The following example code has an extensive amount of logging to the console. Th
 [1]: index.md
 [2]: ../../../../../assets/downloads/api/partnersystemuserservice.zip
 [3]: ../validate-security-tokens.md
-[5]: ../../../../apps/terminology.md
+[5]: ../../../../developer-portal/terminology.md
 [8]: sign-system-user-token.md
 [9]: https://www.nuget.org/packages/SuperOffice.WebApi
 [10]: https://github.com/SuperOffice/SuperOffice.WebApi-Samples

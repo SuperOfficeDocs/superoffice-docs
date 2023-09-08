@@ -80,12 +80,12 @@ When the customer is ready to launch the approved application on their productio
 
 <!-- Referenced links -->
 [1]: ../../admin/lists/learn/web-panel.md
-[2]: replace.md
 [3]: ../../admin/license/user-plans.md
+[2]: replace.md
 [4]: order-sandbox.md
 [5]: clone-to.md
-[6]: ../../apps/activate/validate-app.md
-[7]: ../../apps/best-practices.md
+[6]: ../../developer-portal/custom-app/validate.md
+[7]: ../../developer-portal/best-practices.md
 
 <!-- Referenced images -->
 [img12]: media/imageu533bo.png

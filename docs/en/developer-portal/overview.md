@@ -74,9 +74,9 @@ When you sign in to the Developer Portal, you either represent SuperOffice or a 
 
 ### Application
 
-[!include[Application defined](../apps/includes/def-app.md)]
+[!include[Application defined](includes/def-app.md)]
 
-[!include[Standard vs. custom apps](../apps/includes/std-vs-custom-app.md)]
+[!include[Standard vs. custom apps](includes/std-vs-custom-app.md)]
 
 [Learn more about applications][3]
 
@@ -126,7 +126,7 @@ If your company develops custom applications only, you can ignore the **App Stor
 
 ### Environments: SOD, Stage, Production
 
-[!include[Introduction to application environments, SOD, stage, production](../apps/includes/app-envir-intro.md)]
+[!include[Introduction to application environments, SOD, stage, production](includes/app-envir-intro.md)]
 
 [Read more about the different environments.][2]
 
@@ -140,11 +140,11 @@ Watch the walk-through on YouTube:
 > [!Video https://www.youtube-nocookie.com/embed/One6P5Jm5l0]
 
 <!-- Referenced links -->
-[1]: ../apps/getting-started/developer-registration-form.md
-[2]: ../apps/getting-started/app-envir.md
-[3]: ../apps/overview.md
+[1]: getting-started/developer-registration-form.md
+[2]: getting-started/app-envir.md
+[3]: overview2.md
 [4]: create-app/index.md
-[5]: app-store/index.md
+[5]: standard-app/app-store/app-store-info.md
 [6]: https://dev.superoffice.com/
 
 <!-- Referenced images -->

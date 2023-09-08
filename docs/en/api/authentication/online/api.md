@@ -98,8 +98,8 @@ The end session endpoint can be used to trigger single sign-out (see [spec][6])
 This endpoint is used to revoke access tokens (reference tokens only) and refresh token.
 
 <!-- Referenced links -->
-[1]: ../../../apps/getting-started/app-envir.md
-[2]: ../../../apps/provisioning/get-consent.md
+[1]: ../../../developer-portal/getting-started/app-envir.md
+[2]: ../../../developer-portal/provisioning/get-consent.md
 [3]: index.md
 [4]: ../online/sign-in-user/auth-code-flow.md#refresh-token
 [6]: https://openid.net/specs/openid-connect-session-1_0.html#RPLogout

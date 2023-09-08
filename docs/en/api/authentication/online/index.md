@@ -122,9 +122,9 @@ By following these guidelines, you can create a seamless, secure, and user-frien
 <!-- Referenced links -->
 [1]: https://dev.superoffice.com
 [2]: ./auth-application/index.md
-[3]: ../../../apps/getting-started/developer-registration-form.md
+[3]: ../../../developer-portal/getting-started/developer-registration-form.md
 [4]: https://jwt.io/
-[5]: ../../../apps/provisioning/get-consent.md
+[5]: ../../../developer-portal/provisioning/get-consent.md
 [6]: troubleshooting/iframe-idp-auth.md
 [7]: api.md
 [8]: validate-security-tokens.md

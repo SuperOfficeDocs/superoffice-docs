@@ -48,4 +48,4 @@ Upon successful authentication, the user is then redirected from SuperID to the 
 The URL that defines the SuperOffice SuperID login page is defined in the **SoFederationGateway** appSettings value and will change when moving to the [production environment][1].
 
 <!-- Referenced links -->
-[1]: ../../../apps/getting-started/app-envir.md
+[1]: ../../../developer-portal/getting-started/app-envir.md

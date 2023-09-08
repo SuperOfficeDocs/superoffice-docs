@@ -5,94 +5,115 @@ items:
   items:
   - name: Overview
     href: overview.md
-  - name: Versioning
-    href: versioning.md
   - name: Messaging Center
     href: message-center/index.md
-  - name: Create a new app (registration)
-    href: create-app/index.md
+  - name: Client ID and secret
+    href: terminology.md
+
+  - name: Getting started
+    href: getting-started/index.md
+    expanded: true
     items:
-    - name: Web app
-      href: create-app/web-app.md
-    - name: Native app
-      href: create-app/native-app.md
-    - name: Server-to-server app
-      href: create-app/server-to-server-app.md
-    - name: Mirroring app
-      href: create-app/mirror-app.md
-    - name: ERP sync and quote app
-      href: create-app/sync-app.md
-    - name: Blank config, DIY
-      href: create-app/empty-app.md
-  - name: App Store information
-    href: app-store/index.md
+    - name: Developer registration (account)
+      href: getting-started/get-access-to-sod.md
+    - name: Developer registration form
+      href: getting-started/developer-registration-form.md
+    - name: App environment
+      href: getting-started/app-envir.md
+    - name: Hosting
+      href: getting-started/hosting.md
+    - name: User contexts
+      href: getting-started/user-contexts.md
+    - name: What API to use?
+      href: getting-started/what-api-to-use.md
+
+  - name: Create a new app
+    href: create-app/toc.yml
+    topicHref: create-app/index.md
+
+  - name: Custom app
+    href: custom-app/index.md
+    expanded: true
     items:
-    - name: Update partner profile
-      href: app-store/update-company-profile.md
-    - name: Update app-specific page
-      href: app-store/update-app-page.md
-    - name: Prices and terms
-      href: app-store/prices-and-terms.md
-    - name: Images and videos
-      href: app-store/images-and-videos.md
-    - name: Search engine optimization
-      href: app-store/seo.md
-    - name: How to install, Links
-      href: app-store/user-guide.md
-  - name: Security
-    href: security/index.md
+    - name: Checklist
+      href: custom-app/checklist.md
+    - name: Validate app
+      href: custom-app/validate.md
+    - name: First-time activation
+      href: custom-app/activate.md
+
+  - name: Standard app
+    href: standard-app/toc.yml
+    topicHref: standard-app/index.md
+
+  - name: Best practices
+    href: best-practices.md
+    expanded: true
     items:
-    - name: What is my client ID?
-      href: security/find-clientid.md
-    - name: Create new client secret
-      href: security/get-client-secret.md
-    - name: Add and update redirect URLs
-      href: security/cors-and-redirection-urls.md
-    - name: Update text for consent dialog
-      href: security/update-consent-text.md
-    - name: Create new certificate
-      href: security/new-certificate.md
-    - name: Add user
-      href: security/add-user.md
-    - name: Update user
-      href: security/edit-user.md
-    - name: Manage permissions
-      href: security/manage-permissions.md
-  - name: How to...
-    href: howto/index.md
-    items:
-    - name: Update profile
-      href: howto/update-profile.md
-    - name: Update contact person
-      href: howto/update-contact-person.md
-    - name: Update your application
-      href: howto/update-app.md
-    - name: Update configuration
-      href: howto/update-app-config.md
-    - name: Update partner settings
-      href: howto/update-partner-settings.md
-    - name: Update endpoints
-      href: howto/update-endpoints.md
-    - name: Request to publish
-      href: howto/request-to-publish.md
-    - name: View customers
-      href: howto/customers.md
-    - name: View API call statistics
-      href: howto/metered-services.md
-    - name: View exceptions
-      href: howto/failures.md
+    - name: Tenant status
+      href: tenant-status/index.md
+    - name: Status page
+      href: tenant-status/status-page.md
+    - name: How to check status
+      href: tenant-status/check-status.md
+    - name: Notifications
+      href: tenant-status/notifications.md
+    - name: Register to get notifications
+      href: tenant-status/get-notifications.md
+    - name: Parse notifications
+      href: tenant-status/parse-notifications.md
     - name: Manage notifications
       href: howto/notifications.md
-    - name: Format text
-      href: howto/format-text.md
-  - name: Reference
-    href: reference/index.md
+
+  - name: Partners and users
+    expanded: true
     items:
-    - name: Application settings
-      href: reference/app-settings.md
-    - name: Application configuration
-      href: reference/app-config.md
-    - name: Partner settings
-      href: reference/partner-settings.md
-    - name: User settings
-      href: reference/user-settings.md
+    - name: Update profile
+      href: partner/update-profile.md
+    - name: Update partner settings
+      href: partner/update-partner-settings.md
+    - name: Partner settings (reference)
+      href: partner/partner-settings.md
+    - name: Add user
+      href: partner/add-user.md
+    - name: Update user
+      href: partner/edit-user.md
+    - name: User settings (reference)
+      href: partner/user-settings.md
+    - name: Manage permissions
+      href: partner/manage-permissions.md
+
+  - name: Provisioning
+    href: provisioning/index.md
+    expanded: true
+    items:
+    - name: What is consent?
+      href: provisioning/consent.md
+    - name: Get consent
+      href: provisioning/get-consent.md
+    - name: Revoke application
+      href: provisioning/revoke.md
+    - name: Update text for consent dialog
+      href: provisioning/update-consent-text.md
+
+  - name: Analytics
+    expanded: true
+    items:
+    - name: View customers
+      href: analytics/customers.md
+    - name: View API call statistics
+      href: analytics/metered-services.md
+    - name: View exceptions
+      href: analytics/failures.md
+
+  - name: FAQ
+    expanded: true
+    items:
+    - name: Format text
+      href: faq/format-text.md
+    - name: Update contact person
+      href: faq/update-contact-person.md
+    - name: Update your application
+      href: faq/update-app.md
+    - name: Run website on IIS localhost
+      href: faq/run-website-on-iis-localhost.md

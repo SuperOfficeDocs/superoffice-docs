@@ -110,12 +110,12 @@ If you have any issues with the sample, please post an issue on the [repo issues
 
 <!-- Referenced links -->
 [2]: ../../developer-portal/create-app/web-app.md
-[3]: ../../apps/terminology.md
+[3]: ../../developer-portal/terminology.md
 [4]: index.md
 [5]: ../authentication/online/sign-in-user/auth-code-flow.md
 [6]: ../../developer-portal/howto/update-app.md
 [7]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
-[8]: ../../apps/getting-started/app-envir.md
+[8]: ../../developer-portal/getting-started/app-envir.md
 [10]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/issues
 
 <!-- Referenced images -->

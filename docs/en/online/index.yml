@@ -119,11 +119,11 @@ conceptualContent:
         - text: Overview
           itemType: map
           typeDesc: overview
-          url: ../apps/index.yml
+          url: ../developer-portal/index.yml
         - text: Getting started
           itemType: power_settings_new
           typeDesc: get-started
-          url: ../apps/getting-started/index.md
+          url: ../developer-portal/getting-started/index.md
         - text: Developer portal
           itemType: cloud_upload
           typeDesc: deploy
@@ -131,7 +131,7 @@ conceptualContent:
         - text: Get access to SOD
           itemType: list
           typeDesc: how-to-guide
-          url: ../apps/getting-started/get-access-to-sod.md
+          url: ../developer-portal/getting-started/get-access-to-sod.md
         - text: Register an application
           itemType: list
           typeDesc: how-to-guide
@@ -139,15 +139,15 @@ conceptualContent:
         - text: "Requirements"
           itemType: library_books
           typeDesc: reference
-          url: ../apps/requirements/index.md
+          url: ../developer-portal/standard-app/requirements/index.md
         - text: Best practices
           itemType: library_books
           typeDesc: reference
-          url: ../apps/best-practices.md
+          url: ../developer-portal/best-practices.md
         - text: What API to use?
           itemType: library_books
           typeDesc: reference
-          url: ../apps/getting-started/what-api-to-use.md
+          url: ../developer-portal/getting-started/what-api-to-use.md
         - text: Download the NuGet package
           itemType: file_download
           typeDesc: download
@@ -210,6 +210,6 @@ additionalContent:
       - title: Monitoring
         links:
           - text: Check tenant status
-            url: ../apps/tenant-status/check-status.md
+            url: ../developer-portal/best-practices/tenant-status/check-status.md
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

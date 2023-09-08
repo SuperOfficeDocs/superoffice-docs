@@ -28,18 +28,18 @@ landingContent:
         typeDesc: concept
         links:
           - text: What is an application?
-            url: ../apps/overview.md
+            url: overview2.md
           - text: Versions and states
             url: "versioning.md"
           - text: App Store information
-            url: "app-store/index.md"
+            url: "standard-app/app-store/app-store-info.md"
       - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Update profile
-            url: "howto/update-profile.md"
+            url: "partner/update-profile.md"
           - text: Format text
-            url: "howto/format-text.md"
+            url: "faq/format-text.md"
 
 # Card
   - title: Getting started
@@ -48,13 +48,13 @@ landingContent:
         typeDesc: get-started
         links:
         - text: Register as a developer
-          url: "../apps/getting-started/developer-registration-form.md"
+          url: "getting-started/developer-registration-form.md"
         - text: Register an app
           url: "create-app/index.md"
         - text: Integration points
           url: ../api/overview/index.md 
         - text: What API to use?
-          url: ../apps/getting-started/what-api-to-use.md
+          url: getting-started/what-api-to-use.md
 
   # Card
   - title: Applications
@@ -69,20 +69,20 @@ landingContent:
           - text: Change contact persons
             url: "howto/update-contact-person.md"
           - text: Certify an app
-            url: ../apps/certification/certify-app.md
+            url: standard-app/certification/certify-app.md
           - text: Validate an app
-            url: ../apps/activate/validate-app.md
+            url: custom-app/validate.md
       - itemType: library_books
         typeDesc: reference
         links:
           - text: Application settings
-            url: "reference/app-settings.md"
+            url: "standard-app/app-store/app-settings.md"
           - text: Application configuration
-            url: "reference/app-config.md"
+            url: "create-app/config/app-config.md"
           - text: Requirements
-            url: ../apps/requirements/index.md
+            url: standard-app/requirements/index.md
           - text: Best practices
-            url: ../apps/best-practices.md
+            url: best-practices/index.md
 
   # Card
   - title: Partners
@@ -91,20 +91,20 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: Update partner settings
-            url: "howto/update-partner-settings.md"
+            url: "partner/update-partner-settings.md"
           - text: Change technical contact
-            url: "howto/update-contact-person.md"
+            url: "faq/update-contact-person.md"
           - text: Customers
-            url: "howto/customers.md"
+            url: "analytics/customers.md"
           - text: Request to publish
-            url: "howto/request-to-publish.md"
+            url: "create-app/request-to-publish.md"
       - itemType: library_books
         typeDesc: reference
         links:
           - text: Partner settings
-            url: "reference/partner-settings.md"
+            url: "partner/partner-settings.md"
           - text: User settings
-            url: "reference/user-settings.md"
+            url: "partner/user-settings.md"
 
   # Card
   - title: Configuration
@@ -113,19 +113,19 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: Endpoints
-            url: "howto/update-endpoints.md"
+            url: "create-app/config/update-endpoints.md"
           - text: Notifications
             url: "howto/notifications.md"
           - text: CORS and redirection URLs
-            url: "security/cors-and-redirection-urls.md"
+            url: "create-app/configcors-and-redirection-urls.md"
           - text: Find client ID
-            url: "security/find-clientid.md"
+            url: "create-app/configfind-clientid.md"
           - text: New client secret
-            url: "security/get-client-secret.md"
+            url: "create-app/configget-client-secret.md"
           - text: New certificate
-            url: "security/new-certificate.md"
+            url: "create-app/confignew-certificate.md"
           - text: Request to publish
-            url: "howto/request-to-publish.md"
+            url: "create-app/request-to-publish.md"
 
   # Card
   - title: App Store information
@@ -134,24 +134,24 @@ landingContent:
         typeDesc: overview
         links:
           - text: Overview
-            url: "app-store/index.md"
+            url: "standard-app/app-store/app-store-info.md"
       - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Update app page
-            url: "app-store/update-app-page.md"
+            url: "standard-app/app-store/update-app-page.md"
           - text: Update partner profile
-            url: "app-store/update-company-profile.md"
+            url: "standard-app/app-store/update-partner-profile.md"
           - text: Images and videos
-            url: "app-store/images-and-videos.md"
+            url: "standard-app/app-store/images-and-videos.md"
           - text: SEO
-            url: "app-store/seo.md"
+            url: "standard-app/app-store/seo.md"
           - text: Prices and terms
-            url: "app-store/prices-and-terms.md"
+            url: "standard-app/app-store/prices-and-terms.md"
           - text: How to install
-            url: "app-store/user-guide.md#how-to-install"
+            url: "standard-app/app-store/user-guide.md#how-to-install"
           - text: Links
-            url: "app-store/user-guide.md#links"
+            url: "standard-app/app-store/user-guide.md#links"
 
   # Card
   - title: User management
@@ -160,18 +160,18 @@ landingContent:
         typeDesc: how-to-guide
         links:
           - text: Add user
-            url: "security/add-user.md"
+            url: "partner/add-user.md"
           - text: Edit user
-            url: "security/edit-user.md"
+            url: "partner/edit-user.md"
           - text: Update profile
-            url: "howto/update-profile.md"
+            url: "partner/update-profile.md"
           - text: Manage permissions
-            url: "security/manage-permissions.md"
+            url: "partner/manage-permissions.md"
       - itemType: library_books
         typeDesc: reference
         links:
           - text: User settings
-            url: "reference/user-settings.md"
+            url: "partner/user-settings.md"
 
 # Card
   - title: Related content
@@ -182,15 +182,15 @@ landingContent:
           - text: Database mirroring
             url: ../mirroring/index.yml
           - text: Online tenant status
-            url: ../apps/tenant-status/index.md
+            url: best-practices/tenant-status/index.md
           - text: User contexts
-            url: ../apps/getting-started/user-contexts.md
+            url: getting-started/user-contexts.md
           - text: What is provisioning?
-            url: ../apps/provisioning/index.md
+            url:  provisioning/index.md
           - text: What is a redirect?
-            url: ../apps/redirects/index.md
+            url: create-app/config/redirects/index.md
           - text: Certification
-            url: ../apps/certification/index.md
+            url: standard-app/certification/index.md
 
 # Card
   - title: APIs

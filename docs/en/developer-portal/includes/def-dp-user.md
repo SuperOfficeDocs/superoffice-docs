@@ -3,4 +3,4 @@ You need a SuperID user account to access the Developer Portal. A **portal user*
 
 <!-- Referenced links -->
 [1]: ../overview.md#partner
-[2]: ../security/manage-permissions.md
+[2]: ../partner/manage-permissions.md

@@ -1,6 +1,9 @@
 ### YamlMime:ManagedReference
-# Used only in local builds of the superoffice-docs repo! NOT to build the live site.
+
+# Used only in local builds of the superoffice-docs repo! NOT to build the live site
+
 items:
+
 - name: Docs (English)
   items:
   - name: Admin
@@ -8,8 +11,8 @@ items:
     topicHref: admin/overview.md
   - name: AI services
     href: ai/toc.yml
-  - name: Online Apps
-    href: apps/toc.yml
+  - name: Developer Portal
+    href: developer-portal/toc.yml
   - name: Automation
     href: automation/toc.yml
   - name: Developer portal

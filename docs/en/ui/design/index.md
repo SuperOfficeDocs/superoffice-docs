@@ -29,6 +29,6 @@ so.client:
 [4]: readiness-to-hand.md
 [5]: error-removal.md
 [6]: reading-list.md
-[7]: ../../apps/best-practices.md
+[7]: ../../developer-portal/best-practices/index.md
 
 <!-- Referenced images -->

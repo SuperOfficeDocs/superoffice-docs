@@ -1,0 +1,52 @@
+items:
+  - name: Overview
+    href: index.md
+  - name: Requirements
+    href: requirements/index.md
+    expanded: true
+    items:
+    - name: Business
+      href: requirements/business.md
+    - name: Design
+      href: requirements/design.md
+    - name: Localization
+      href: requirements/localization.md
+    - name: Marketing
+      href: requirements/marketing.md
+    - name: Security
+      href: requirements/security.md
+    - name: Technical
+      href: requirements/technical.md
+  - name: Certification
+    href: certification/index.md
+    expanded: true
+    items:
+    - name: About the security evaluation
+      href: certification/initial-watchcom-eval.md
+    - name: Checklist
+      href: certification/checklist.md
+    - name: Certify app
+      href: certification/certify-app.md
+    - name: Watchcom testimonials
+      href: certification/watchcom-testimonials.md
+  - name: App store
+    href: app-store/index.md
+    items:
+    - name: App Store information
+      href: app-store/app-store-info.md
+    - name: Update partner profile
+      href: app-store/update-partner-profile.md
+    - name: Update app-specific page
+      href: app-store/update-app-page.md
+    - name: Search engine optimization
+      href: app-store/seo.md
+    - name: Prices and terms
+      href: app-store/prices-and-terms.md
+    - name: How to install, Links
+      href: app-store/user-guide.md
+    - name: Images and videos
+      href: app-store/images-and-videos.md
+    - name: Application settings (reference)
+      href: create-app/config/app-settings.md
+  - name: Publish
+    href: publish.md

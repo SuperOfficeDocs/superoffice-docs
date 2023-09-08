@@ -51,10 +51,10 @@ Development products are **stand-alone products** that help customers utilize an
 <!-- Referenced links -->
 [1]: tool-box.md
 [2]: ../../../automation/crmscript/overview/index.md
-[3]: ../../../apps/getting-started/get-access-to-sod.md
+[3]: ../../../developer-portal/getting-started/get-access-to-sod.md
 [4]: ../../../automation/trigger/create-trigger-macro.md
 [5]: ../../../ui/blogic/custom-screens/index.md
-[6]: ../../../apps/custom.md
+[6]: ../../../developer-portal/custom-app/index.md
 [7]: ../../../custom-objects/extra-table/index.md
 [10]: ../../../online/sandbox/index.md
 [11]: ../../../identity-management/scim/index.yml
