@@ -18,8 +18,6 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 
 [!include[Remote NetServer](../../includes/remote-netserver-web.md)]
 
-[!include[Warning legacy](../../includes/warn-web-client-https.md)]
-
 ## Before you begin
 
 * Install the SuperOffice CRM Server to set up or upgrade the database.
@@ -28,6 +26,8 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 * Consider the [security][4] of your upcoming installation.
 * Prepare the [web server][5].
 * Have an IIS website where you want to install SuperOffice. If you do not have the site set up, using the [Service installer][2] will create it for you.
+
+[!include[Warning legacy](../../includes/warn-web-client-https.md)]
 
 ## Install
 
