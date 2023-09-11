@@ -12,10 +12,12 @@ items:
 - name: DKIM
   href: dkim/index.md
   items:
-  - name: Order key
-    href: dkim/order-key.md
   - name: Set up
     href: dkim/set-up.md
+  - name: Order key
+    href: dkim/order-key.md
+  - name: Multiple DKIMs
+    href: dkim/multiple-dkim-records.md
   - name: Change US to EU
     href: dkim/change-us-to-eu.md
 - name: SPF
