@@ -40,7 +40,7 @@ Windows 7 SP1 and SP2 have reached the end of support on 14th January 2020.
 | MacOS Ventura      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Monterey     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Big Sur      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
-| MacOS Catalina     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MacOS Catalina     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img3] |
 | MacOS Mojave       | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
 | MacOS High Sierra  | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] |
 | MacOS Sierra       | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |

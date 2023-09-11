@@ -24,17 +24,21 @@ For database-specific system requirements, check the vendor [Microsoft][1] or 
 | MS SQL Server 2017 | ![i][img3] | ![i][img3]\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2016 | ![i][img3] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | MS SQL Server 2014 | ![i][img1] | ![i][img1]   | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| MS SQL Server 2012\*\*\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| MS SQL Server 2008 R2\*\*\* | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
+| MS SQL Server 2012 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MS SQL Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
 | Oracle 18c         | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1]\*\*| ![i][img1]\*\* |  ![i][img1]\*\* |
-| Oracle 12c         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Oracle 12c         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
 | Oracle 11g         | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
 
 \* See the [compatibility reports][3].
 
 \*\* See Oracle 18c compatibility info.
 
-\*\*\* Microsoft has finished Extended support for this product.
+> [!NOTE]
+> MS SQL Server 2012 reached end of support on July 12, 2022.
+> MS SQL Server 2008 R2 reached end of support on July 9, 2019.
+> Oracle 12c reached end of support on July 31, 2022.
+> Oracle 11g reached end of support on December 31, 2020.
 
 ## Oracle 18c compatibility
 

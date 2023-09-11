@@ -17,6 +17,8 @@ From SuperOffice 8.1 both SuperOffice Web and Service must run on the same root 
 
 Installing SuperOffice Web client and Service on the same domain under different applications requires some manual steps for Service.
 
+[!include[Warning legacy](../../onsite/includes/warn-web-client-https.md)]
+
 ## Install Service
 
 If the IIS website is not created, first run the installer for Service (SuperOffice.CustomerService.exe) which is the only installer from SuperOffice that will also create the IIS websites.

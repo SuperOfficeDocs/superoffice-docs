@@ -27,8 +27,7 @@ These apply to computers running the Sales, Marketing, and Service clients.
 ## Operating system
 
 * Microsoft Windows 11
-* Microsoft Windows 10, minimum Anniversary update
-* Microsoft Windows 8.1 (32bit) or (64bit)
+* Microsoft Windows 10, minimum Anniversary Update (version 1607)
 * Mac - Web client only
 
 > [!NOTE]
@@ -46,7 +45,7 @@ These apply to computers running the Sales, Marketing, and Service clients.
 
 * Microsoft Edge
 * Chrome Win
-* Firefox 20+ Win
+* Firefox Win
 * Chrome Mac
 * FireFox Mac
 * Safari Mac
@@ -57,7 +56,6 @@ These apply to computers running the Sales, Marketing, and Service clients.
 * Microsoft Office 2021
 * Microsoft Office 2019
 * Microsoft Office 2016
-* Microsoft Office 2013
 
 ## SuperOffice MailLink
 
@@ -67,7 +65,6 @@ Windows operating system only
 * Outlook 2021
 * Outlook 2019
 * Outlook 2016
-* Outlook 2013
 
 ## SuperOffice Ribbons
 
@@ -76,7 +73,6 @@ SuperOffice Win client only
 * Microsoft Office 2021
 * Microsoft Office 2019
 * Microsoft Office 2016
-* Microsoft Office 2013
 
 ## WebTools
 

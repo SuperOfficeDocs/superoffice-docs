@@ -20,13 +20,17 @@ Want to know if a newly released operating system is compatible? Check the [comp
 | Windows Server 2022    | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | Windows Server 2019    | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Windows Server 2016    | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows Server 2012 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows Server 2012    | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
+| Windows Server 2012 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
+| Windows Server 2012    | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
+| Windows Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img2] |
 | Windows Server 2008    | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] |
 
 > [!NOTE]
 > Windows Server 2019, 2016, 2012, and 2008 R2 are also tested as Terminal Server / Citrix Server.
+
+> [!NOTE]
+> Windows Server 2012 and 2012 R2 reached the end of support on October 10, 2023.
+> Windows Server 2008 and 2008 R2 reached the end of support on January 14, 2020.
 
 Our experience tells us that other configurations also should work, but SuperOffice will not guarantee any other configurations than the ones listed.
 

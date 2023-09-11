@@ -21,11 +21,12 @@ Want to know if a newly released Office version is compatible? Check the [compat
 | Microsoft Office 2019       | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Microsoft 365 for Business  | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Microsoft Office 2016       | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Microsoft Office 2013       | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Microsoft Office 2010 32bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3]* | ![i][img1] | ![i][img3]* | ![i][img3]* |
+| Microsoft Office 2013       | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
+| Microsoft Office 2010 32bit | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img1] | ![i][img3] | ![i][img3] |
 
 > [!NOTE]
-> Support for Office 2010 ended October 13 2020 and it is not part of the test matrix.
+> Microsoft Office 2013 reached the end of support on April 11, 2023.
+> Microsoft Office 2010 reached the end of support on October 13, 2020.
 
 ## Legend
 

@@ -18,15 +18,7 @@ so.client: pocket
 
 ### From Pocket CRM 9.1
 
-iOS version 10 or newer is required!
-
-**Devices no longer supported:**
-
-* iPhone 5 or older
-* Pad 2 or older
-* iPod Touch with ARM v 7 or older
-
-Old devices will still be able to run Pocket CRM but they will not be able to upgrade or re-install.
+iOS version 10 or newer is required.
 
 ## Network
 

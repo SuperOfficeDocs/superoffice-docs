@@ -15,7 +15,7 @@ so.version: 8.1
 
 From SuperOffice 8 you also need to install Service, which is used by mailings inside both Sales & Marketing and Service.
 
-A typical first-time installation of SuperOffice Customer Service on Windows 2012 server using an IIS web server and Microsoft SQL server 2014. There is no client install necessary outside of a supported web client like Internet Explorer, as this is a web-based application.
+A typical first-time installation of SuperOffice Customer Service on Windows server using an IIS web server and Microsoft SQL server. There is no client install necessary outside of a supported web client like Internet Explorer, as this is a web-based application.
 
 ## Prerequisites
 
