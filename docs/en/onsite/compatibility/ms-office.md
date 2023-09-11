@@ -26,6 +26,7 @@ Want to know if a newly released Office version is compatible? Check the [compat
 
 > [!NOTE]
 > Microsoft Office 2013 reached the end of support on April 11, 2023.
+>
 > Microsoft Office 2010 reached the end of support on October 13, 2020.
 
 ## Legend

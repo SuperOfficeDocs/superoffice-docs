@@ -35,10 +35,11 @@ For database-specific system requirements, check the vendor [Microsoft][1] or 
 \*\* See Oracle 18c compatibility info.
 
 > [!NOTE]
-> MS SQL Server 2012 reached end of support on July 12, 2022.
-> MS SQL Server 2008 R2 reached end of support on July 9, 2019.
-> Oracle 12c reached end of support on July 31, 2022.
-> Oracle 11g reached end of support on December 31, 2020.
+>
+> * MS SQL Server 2012 reached end of support on July 12, 2022.
+> * MS SQL Server 2008 R2 reached end of support on July 9, 2019.
+> * Oracle 12c reached end of support on July 31, 2022.
+> * Oracle 11g reached end of support on December 31, 2020.
 
 ## Oracle 18c compatibility
 
