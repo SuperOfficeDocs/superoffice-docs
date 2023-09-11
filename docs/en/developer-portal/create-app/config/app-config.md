@@ -138,7 +138,7 @@ These settings are read only for all except SuperOffice AS app managers.
 [5]: ../../standard-app/certification/certify-app.md
 [6]: ../../standard-app/certification/initial-watchcom-eval.md
 [7]: redirects/index.md
-[8]: ../../terminology.md
+[8]: ../../getting-started/index.md#terminology
 [9]: ../../api/authentication/online/auth-application/sign-system-user-token.md
 [10]: ../../getting-started/what-api-to-use.md
 [11]: ../../best-practices/tenant-status/index.md

@@ -149,7 +149,7 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 
 <!-- Referenced links -->
 [1]: https://www.watchcom.no/
-[2]: ../../terminology.md
+[2]: ../../getting-started/index.md#terminology
 [3]: ../../getting-started/app-envir.md
 [4]: certify-app.md
 [5]: ../app-store/update-app-page.md

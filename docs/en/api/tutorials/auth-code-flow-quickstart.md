@@ -110,7 +110,7 @@ If you have any issues with the sample, please post an issue on the [repo issues
 
 <!-- Referenced links -->
 [2]: ../../developer-portal/create-app/web-app.md
-[3]: ../../developer-portal/terminology.md
+[3]: ../../developer-portal/getting-started/index.md#terminology
 [4]: index.md
 [5]: ../authentication/online/sign-in-user/auth-code-flow.md
 [6]: ../../developer-portal/howto/update-app.md

@@ -42,12 +42,12 @@ The system user has unlimited access to the [tenant][6] and is not restricted by
 * No UI elements in SuperOffice
 * Runs as a service
 
-See also [application models terminology][6] and the [system user MVC example][7].
+See also [application models terminology][3] and the [system user MVC example][7].
 
 <!-- Referenced links -->
-[6]: ../terminology.md
+[6]: ../getting-started/index.md#tenant
+[3]: ../overview.md
 [1]: ../../identity-management/federated-auth.md
 [2]: ../../api/authentication/online/auth-application/index.md
 [4]: ../../api/authentication/online/index.md
-
 [7]: ../../api/tutorials/minimal-csharp-app/overview.md

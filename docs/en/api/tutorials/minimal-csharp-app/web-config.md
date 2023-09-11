@@ -80,4 +80,4 @@ The certificate thumbprint identifier on the machine hosting the website. The th
 The thumbprint identifier is environment-specific. The value of `SuperIdCertificate` will be different in SOD and production.
 
 <!-- Referenced links -->
-[1]: ../../../developer-portal/terminology.md
+[1]: ../../../developer-portal/getting-started/index.md#terminology

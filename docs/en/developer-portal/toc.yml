@@ -3,13 +3,10 @@ items:
   href: index.yml
   expanded: true
   items:
-  - name: Overview
+  - name: About applications
     href: overview.md
-  - name: Messaging Center
-    href: message-center/index.md
-  - name: Client ID and secret
-    href: terminology.md
-
+  - name: Introduction to Developer Portal
+    href: about.md
   - name: Getting started
     href: getting-started/index.md
     expanded: true

@@ -7,7 +7,7 @@ metadata:
   title: Developer Portal
   description: Presents the Developer Portal and describes how to use it to manage online integrations and application.
   so.topic: landing-page
-  so.date: 05.20.2022
+  so.date: 09.11.2023
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -15,63 +15,76 @@ metadata:
 landingContent:
 
   # Card
-  - title: Learn about the Developer Portal
+  - title: Learn about apps and the Developer Portal
     linkLists:
       - itemType: map
         typeDesc: overview
         links:
         - text: Introduction to Developer Portal
-          url: "overview.md"
+          url: about.md
         - text: Terminology
-          url: "overview.md#key-areas-and-concepts"
+          url: about.md#key-areas-and-concepts
+        - text: Client ID and secret
+          url: getting-started/index.md#terminology
       - itemType: explore
         typeDesc: concept
         links:
-          - text: What is an application?
-            url: overview2.md
-          - text: Versions and states
-            url: "versioning.md"
-          - text: App Store information
-            url: "standard-app/app-store/app-store-info.md"
+        - text: What is an application?
+          url: overview.md
+        - text: Versions and states
+          url: versioning.md
       - itemType: list
         typeDesc: how-to-guide
         links:
-          - text: Update profile
-            url: "partner/update-profile.md"
-          - text: Format text
-            url: "faq/format-text.md"
-
-# Card
-  - title: Getting started
-    linkLists:
-      - itemType: power_settings_new
-        typeDesc: get-started
-        links:
-        - text: Register as a developer
-          url: "getting-started/developer-registration-form.md"
-        - text: Register an app
-          url: "create-app/index.md"
-        - text: Integration points
-          url: ../api/overview/index.md 
-        - text: What API to use?
-          url: getting-started/what-api-to-use.md
+        - text: Format text
+          url: faq/format-text.md
+        - text: Update your own user profile
+          url: partner/update-profile.md
 
   # Card
-  - title: Applications
+  - title: Custom applications
     linkLists:
+      - itemType: map
+        typeDesc: overview
+        links:
+        - text: What is a custom (private) application?
+          url: custom.md
       - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Register an app
             url: "create-app/index.md"
-          - text: Update app
-            url: "howto/update-app.md"
-          - text: Change contact persons
-            url: "howto/update-contact-person.md"
-          - text: Certify an app
-            url: standard-app/certification/certify-app.md
           - text: Validate an app
             url: custom-app/validate.md
+          - text: First-time activation
+            url: custom-app/activate-custom-app.md
+          - text: Helper for custom applications
+            url: create/app/helper-application.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Checklist
+            url: custom-app/checklist.md
+
+  # Card
+  - title: Standard applications
+    linkLists:
+      - itemType: map
+        typeDesc: overview
+        links:
+        - text: What is a standard application?
+          url: standard-app/index.md
+        - text: The SuperOffice app store
+          url: standard-app/app-store/index.md
+        - text: Initial Watchcom evaluation
+          url: certification/initial-watchcom-eval.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Register an app
+            url: "create-app/index.md"
+          - text: Certify an app
+            url: standard-app/certification/certify-app.md
       - itemType: library_books
         typeDesc: reference
         links:
@@ -81,23 +94,51 @@ landingContent:
             url: "create-app/config/app-config.md"
           - text: Requirements
             url: standard-app/requirements/index.md
+          - text: Checklist
+            url: standard-app/certification/checklist.md
           - text: Best practices
             url: best-practices/index.md
 
   # Card
-  - title: Partners
+  - title: Getting started
+    linkLists:
+      - itemType: map
+        typeDesc: overview
+        links:
+        - text: Overview
+          url: getting-started/index.md
+      - itemType: power_settings_new
+        typeDesc: get-started
+        links:
+        - text: Register as a developer
+          url: getting-started/developer-registration-form.md
+        - text: Register an app
+          url: create-app/index.md
+        - text: Integration points
+          url: ../api/overview/index.md 
+        - text: What API to use?
+          url: getting-started/what-api-to-use.md
+        - text: Manage notifications
+          url: best-practices/notifications.md
+        - text: Get error emails
+          url: best-practices/notifications.md
+
+  # Card
+  - title: For administrators
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
-          - text: Update partner settings
+          - text: Add or update partner settings
             url: "partner/update-partner-settings.md"
           - text: Change technical contact
             url: "faq/update-contact-person.md"
-          - text: Customers
-            url: "analytics/customers.md"
-          - text: Request to publish
-            url: "create-app/request-to-publish.md"
+          - text: Add a user
+            url: "partner/add-user.md"
+          - text: Update a user profile
+            url: "partner/edit-user.md"
+          - text: Manage permissions within the organization
+            url: "partner/manage-permissions.md"
       - itemType: library_books
         typeDesc: reference
         links:
@@ -106,29 +147,37 @@ landingContent:
           - text: User settings
             url: "partner/user-settings.md"
 
+
   # Card
   - title: Configuration
     linkLists:
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-          - text: Endpoints
-            url: "create-app/config/update-endpoints.md"
-          - text: Notifications
-            url: "howto/notifications.md"
-          - text: CORS and redirection URLs
-            url: "create-app/configcors-and-redirection-urls.md"
-          - text: Find client ID
-            url: "create-app/configfind-clientid.md"
-          - text: New client secret
-            url: "create-app/configget-client-secret.md"
-          - text: New certificate
-            url: "create-app/confignew-certificate.md"
-          - text: Request to publish
-            url: "create-app/request-to-publish.md"
+    - itemType: map
+      typeDesc: overview
+      links:
+      - text: Endpoint types
+        url: redirects/endpoint-types.md
+    - itemType: list
+      typeDesc: how-to-guide
+      links:
+        - text: Endpoints
+          url: "create-app/config/update-endpoints.md"
+        - text: Notifications
+          url: "howto/notifications.md"
+        - text: CORS and redirection URLs
+          url: "create-app/configcors-and-redirection-urls.md"
+        - text: Find client ID
+          url: "create-app/configfind-clientid.md"
+        - text: New client secret
+          url: "create-app/configget-client-secret.md"
+        - text: New certificate
+          url: "create-app/confignew-certificate.md"
+        - text: Request to publish
+          url: "create-app/request-to-publish.md"
+        - text: What is a redirect?
+          url: create-app/config/redirects/index.md
 
   # Card
-  - title: App Store information
+  - title: App Store
     linkLists:
       - itemType: map
         typeDesc: overview
@@ -153,71 +202,98 @@ landingContent:
           - text: Links
             url: "standard-app/app-store/user-guide.md#links"
 
+    # Card
+  - title: Tenant status
+    linkLists:
+    - itemType: map
+      typeDesc: overview
+      links:
+        - text: What is tenant status?
+          url: best-practices/tenant-status/index.md
+        - text: The status page
+          url: best-practices/tenant-status/status-page.md
+        - text: Notifications
+          url: best-practices/tenant-status/notifications.md
+    - itemType: list
+      typeDesc: how-to-guide
+      links:
+        - text: Check status
+          url: best-practices/tenant-status/check-status.md
+        - text: Get notifications
+          url: best-practices/tenant-status/get-notifications.md
+        - text: Parse notifications
+          url: best-practices/tenant-status/parse-notifications.md
+
   # Card
-  - title: User management
+  - title: Provisioning
+    linkLists:
+    - itemType: map
+      typeDesc: overview
+      links:
+        - text: What is provisioning?
+          url: provisioning/index.md
+    - itemType: list
+      typeDesc: how-to-guide
+      links:
+        - text: Get consent
+          url: provisioning/get-consent.md
+        - text: Revoke consent
+          url: provisioning/revoke.md
+        - text: Approval sequence
+          url: provisioning/consent.md
+
+  # Card
+  - title: Related content
+    linkLists:
+    - itemType: explore
+      typeDesc: concept
+      links:
+        - text: Database mirroring
+          url: ../mirroring/index.yml
+        - text: Online tenant status
+          url: best-practices/tenant-status/index.md
+        - text: User contexts
+          url: getting-started/user-contexts.md
+        - text: What is provisioning?
+          url:  provisioning/index.md 
+        - text: Certification
+          url: standard-app/certification/index.md
+
+  # Card
+  - title: Analytics
     linkLists:
       - itemType: list
         typeDesc: how-to-guide
         links:
-          - text: Add user
-            url: "partner/add-user.md"
-          - text: Edit user
-            url: "partner/edit-user.md"
-          - text: Update profile
-            url: "partner/update-profile.md"
-          - text: Manage permissions
-            url: "partner/manage-permissions.md"
-      - itemType: library_books
-        typeDesc: reference
-        links:
-          - text: User settings
-            url: "partner/user-settings.md"
+        - text: Customers
+          url: "analytics/customers.md"
 
-# Card
-  - title: Related content
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-          - text: Database mirroring
-            url: ../mirroring/index.yml
-          - text: Online tenant status
-            url: best-practices/tenant-status/index.md
-          - text: User contexts
-            url: getting-started/user-contexts.md
-          - text: What is provisioning?
-            url:  provisioning/index.md
-          - text: What is a redirect?
-            url: create-app/config/redirects/index.md
-          - text: Certification
-            url: standard-app/certification/index.md
-
-# Card
+  # Card
   - title: APIs
     linkLists:
-      - itemType: map
-        typeDesc: overview
-        links:
-          - text: Introduction to SuperOffice APIs
-            url: ../api/overview/index.md
-          - text: Authentication
-            url: ../api/authentication/overview.md
-          - text: Learn NetServer
-            url: ../api/overview/netserver.md
-          - text: Learn web services
-            url: ../api/web-services/index.md
-      - itemType: library_books
-        typeDesc: reference
-        links:
-          - text: NetServer API reference
-            url: ../api/reference/netserver/index.md
-          - text: RESTful API reference
-            url: ../api/reference/restful/index.md
-          - text: Web Application API
-            url: ../api/reference/web/index.md
-          - text: NetServer REST proxy client
-            url: ../api/reference/webapi/index.md
-          - text: CRMScript
-            url: ../automation/crmscript/reference/index.md
-          - text: Database reference
-            url: ../database/tables/index.md
+    - itemType: map
+      typeDesc: overview
+      links:
+        - text: Introduction to SuperOffice APIs
+          url: ../api/overview/index.md
+        - text: Authentication
+          url: ../api/authentication/overview.md
+        - text: Learn NetServer
+          url: ../api/overview/netserver.md
+        - text: Learn web services
+          url: ../api/web-services/index.md
+    - itemType: library_books
+      typeDesc: reference
+      links:
+        - text: NetServer API reference
+          url: ../api/reference/netserver/index.md
+        - text: RESTful API reference
+          url: ../api/reference/restful/index.md
+        - text: Web Application API
+          url: ../api/reference/web/index.md
+        - text: NetServer REST proxy client
+          url: ../api/reference/webapi/index.md
+        - text: CRMScript
+          url: ../automation/crmscript/reference/index.md
+        - text: Database reference
+          url: ../database/tables/index.md

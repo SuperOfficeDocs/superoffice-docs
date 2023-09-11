@@ -22,7 +22,7 @@ A quick-start guide for getting you up and running with a native console applica
 
   * redirect URI of `^http://127.0.0.1\:\d{4,10}$`
 
-* you have set a unique application [client ID and secret][2]
+* you have set a unique application [client ID and secret][3]
 
 * you have Visual Studio (community, professional, or enterprise edition)
 
@@ -126,7 +126,7 @@ var queryResult = GetData(string.Concat(webApiUrl, uri), "Bearer", result.Access
 
 <!-- Referenced links -->
 [2]: ../../developer-portal/create-app/native-app.md
-[3]: ../../developer-portal/terminology.md
+[3]: ../../developer-portal/getting-started/index.md#terminology
 [4]: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
 
 <!-- Referenced images -->

@@ -244,7 +244,7 @@ I had to update the dependent versions from 4.1.2.0 to 4.0.3.
 [1]: https://github.com/IdentityModel/IdentityModel.OidcClient.Samples/tree/master/ConsoleSystemBrowser
 [2]: native-app-quickstart.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
-[4]: ../../developer-portal/terminology.md
+[4]: ../../developer-portal/getting-started/index.md#terminology
 [5]: ../authentication/online/api.md
 
 <!-- Referenced images -->

@@ -1,156 +1,119 @@
 ---
-title: Developer Portal
-uid: developer-portal-overview
-description: Introduction to the SuperOffice Online Developer Portal.
-author: AnthonyYates, Bergfrid Dias
-so.date: 04.27.2023
-keywords: developer, Developer Portal, apps, app-store, navigation
-so.topic: overview
-so.dp-version: 1.11
+title: Applications
+uid: apps
+description: About SuperOffice CRM Online applications
+author: Bergfrid Dias
+so.date: 09.11.2023
+keywords: app, application, extensibility, integration point
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
-# Developer Portal
+# About SuperOffice CRM Online apps
 
-The [SuperOffice Developer Portal][6] contains a set of self-serve tools that developers can use to manage their access to SuperOffice Online APIs.
+SuperOffice CRM Online has great extensibility points that allow vendors to create complimentary applications in and around SuperOffice.
 
-![SuperOffice Developer Portal start page for a partner -screenshot][img1]
+While a great standalone CRM solution, SuperOffice becomes better with complimentary applications.
 
-In the portal, you have the opportunity to:
-
-* Register and manage your SuperOffice Apps, and the authentication keys and tokens that they use.
-* Manage your endpoint access requirements and integrations integration services endpoints.
-* Learn more about different endpoints and features available.
-* Explore API metrics, exceptions, and failed requests for your apps.
-* With elevated privileges within your organization, you can manage users and their Developer Portal access.
-
-> [!NOTE]
-> The Developer Portal handles the application workflows. However, communication between you and SuperOffice goes through Service.
-
-## How the portal is organized
-
-The Developer Portal has three main areas:
-
-* The Top bar
-* The Navigator (left side)
-* The content area
-
-### The Top bar
-
-![SuperOffice Developer Portal Top bar -screenshot][img2]
-
-The Top bar (green with the SuperOffice logo) is always present and gives you quick access to:
-
-* A list of your apps
-* Your partner page
-* SuperOffice Docs
-* The forums on our Help Center and Community
-* The personal menu, where you access your profile and can sign out
-
-### The Navigator
-
-The Navigator lets you move between the main sections of your partner and app pages. The items depend on the context:
-
-![SuperOffice Developer Portal Navigator partner -screenshot][img3]
-![SuperOffice Developer Portal Navigator application -screenshot][img4]
-
-Clicking a section opens it in the content area.
-
-### The content area
-
-The content area is where you view and update information. Some pages have one or more labelled groups. For example, compare the **Application Settings** below with the **Partner Overview** at the top of this page.
-
-![SuperOffice Developer Portal application settings -screenshot][img5]
-
-Other pages have subsections with their own navigator.
-
-![SuperOffice Developer Portal App Store info versioning page -screenshot][img6]
-
-> [!NOTE]
-> When you click **Save Settings** it applies to all changes on the page, across all subsections. The scope is determined by the left-most Navigator.
-
-## Key areas and concepts
-
-When you sign in to the Developer Portal, you either represent SuperOffice or a third-party organization hereafter referred to as **a partner**. SuperOffice is responsible for the SuperOffice CRM Online service and the partner is responsible for creating apps customizing the core service.
-
-### Application
+## What are applications?
 
 [!include[Application defined](includes/def-app.md)]
 
-[!include[Standard vs. custom apps](includes/std-vs-custom-app.md)]
+The key to any integration is that the application is relevant and adds value to customers in their sales, marketing, customer service, and/or business processes.
 
-[Learn more about applications][3]
+You can think of an application as a link to another cloud service. The link allows the other service to retrieve, present, or add data to SuperOffice.
 
-### Partner
+If you use the APIs, which you will have to use to communicate with the database, it is an application!
 
-A partner may own and/or develop applications.
+All SuperOffice CRM Online applications get a [unique ID][1] to identify each integration within our environment.
 
-[!include[Many apps](includes/note-more-than-8-apps.md)]
+## SuperOffice CRM Online web client at a glance
 
-Anyone may [register as a CRM Online developer][1] and the first person who register for a new company will trigger the creation of a partner.
+* An online platform serving thousands of customers
+* Distributed and federated platform service
+* Client-side JavaScript
+* CRM integrations limited to web panels and database access
+* Customer Service integrations can be almost everything you want
 
-You see only the partners you belong to. If you have a role in multiple partners, you choose one as your current context.
+## Ways your application can extend SuperOffice
 
-A partner can have users with different roles:
+Applications can be or do the following:
 
-| Role | Description |
-|---|---|
-| Administrator | Manages own users and their permissions |
-| Developer | Develops apps and configures everything related to security for those apps |
-| Marketing | Manages content shown in the App Store |
+* An add-on module
+  * SuperOffice Web Tools
+  * Calendar synchronization
+* A configuration
+  * Industry-specific categorization
+  * Document templates
+  * Email templates
+* Synchronize data between SuperOffice and an ERP system
+* Trigger workflows between systems
+* One-way data update (address, financial and similar) between SuperOffice and external data providers
 
-> [!NOTE]
-> SuperOffice employees also have different roles, such as the App Manager and Online Operations.
+The extensibility points are platform-independent.
 
-### User
+Anything a consultant can do inside the SuperOffice Admin application, any application can programmatically do during or after [provisioning][3]:
 
-[!include[ALT](includes/def-dp-user.md)]
+* Custom lists and list items
+* User-defined fields
+* Web panels
+* Custom buttons
+* Sales guide, project guide
+* Preferences
+* Re-skinned to customer's brand
 
-The first person (user) assigned to a partner is commonly the administrator of that partner inside the portal. The administrator can add additional users.
+Applications are either developed by SuperOffice or one of our partners. The creator of the application is responsible for [hosting][2] it. SuperOffice will not bill, [provision][3], or host partner applications. Instead, the App Store redirects to our partner’s websites where customers buy directly from the partner.
 
-### Settings
+### Integration services
 
-Both partners and applications have settings. These are essential information such as name and contact persons.
+Standard and custom applications can incorporate the following external-facing integrations:
 
-### Configuration
+* [Database Mirroring][6]
+* [ERP Sync Connector][7]
+* [Quote Connector][8]
 
-Each application has a configuration, including client ID and secret, certificates, redirection URLs, and endpoints. The initial configuration is added when you [register the application][4]. You can update and test the configuration in SOD and when you are ready, request approval to go live.
+These integration types are referred to as Integration Services.
 
-### App Store information
+## Application models
 
-Both partners and standard applications have App Store information. This is your partner profile page
-and one or more app-specific product pages shown in the SuperOffice App Store.
+How customers will interact with applications, tightly linked to [user contexts][9]. Each application falls into one of the following categories:
 
-If your company develops custom applications only, you can ignore the **App Store information** section. Likewise, this section is hidden on the app page of all custom apps.
+* Internal application
+* External application
+* Hybrid application
 
-[Read more about App Store information.][5]
+### Internal application model
 
-### Environments: SOD, Stage, Production
+Internal applications have tight integration with user interface components inside SuperOffice CRM Online. Applications that add a navigator button, a menu button, or a web panel commonly follow this model.
 
-[!include[Introduction to application environments, SOD, stage, production](includes/app-envir-intro.md)]
+### External application model
 
-[Read more about the different environments.][2]
+External applications are hidden integrations where most or all interaction happens at the partner's website or cloud. This model includes:
 
-## Ready to get access?
+* Any application that has no user interface presence inside SuperOffice
+* Applications that require the user to navigate to a partner website to use the application or service
 
-You can get started using the SuperOffice Online API by [signing up for a developer account][1].
+### Hybrid application model
 
-Watch the walk-through on YouTube:
+Hybrid applications can, as the name suggests, have some UI components inside SuperOffice CRM Online and can operate or be configured on a partner web portal. The majority of applications are hybrids.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube-nocookie.com/embed/One6P5Jm5l0]
+## Standard and custom applications
+
+Applications are either [built to fit many][4] and available in the SuperOffice App Store or [one-off customization][5] for your company or a customer's company only.
+
+## Developer Portal
+
+The [new self-service portal for developers and application partners][10] replaces the manual forms and lets you handle more of the configuration yourself.
 
 <!-- Referenced links -->
-[1]: getting-started/developer-registration-form.md
-[2]: getting-started/app-envir.md
-[3]: overview2.md
-[4]: create-app/index.md
-[5]: standard-app/app-store/app-store-info.md
-[6]: https://dev.superoffice.com/
-
-<!-- Referenced images -->
-[img1]: media/partner-overview.png
-[img2]: media/top-bar.png
-[img3]: media/nav-partner.png
-[img4]: media/nav-app.png
-[img5]: media/app-settings.png
-[img6]: media/versioning-page.png
+[1]: getting-started/index.md#client-id
+[2]: getting-started/hosting.md
+[3]: provisioning/index.md
+[4]: standard-app/index.md
+[5]: custom-app/index.md
+[6]: ../mirroring/overview.md
+[7]: ../api/plugins/erp-connectors/index.md
+[8]: ../api/plugins/quote-connectors/index.md
+[9]: getting-started/user-contexts.md
+[10]: https://dev.superoffice.com/

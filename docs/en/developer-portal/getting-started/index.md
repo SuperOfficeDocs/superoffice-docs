@@ -25,9 +25,9 @@ To develop applications in our SOD environment is free. Required licenses apply 
 1. Register as a developer to get access to our [environment][1].
 
     * Signs you up for a developer user account.
-    * Creates a test [tenant][3] in SOD (can be shared by multiple developers within a company).
+    * Creates a test [tenant](#tenant) in SOD (can be shared by multiple developers within a company).
 
-2. Register your application idea to get your [client ID and client secret (token)][3].
+2. Register your application idea to get your [client ID and client secret (token)](#terminology).
 
     * It's essential that you provide us with your [redirect URLs][4] at this point.
     * You receive a unique set of keys to identify your application and certificates for authentication.
@@ -86,8 +86,23 @@ Creating an application for the SuperOffice App Store is not something to take l
 
 * [Create native app][10]
 
+## Terminology
+
+[!include[Define app credentials](includes/def-app-credentials.md)]
+
+### <a id="client-id" />Client ID - ApplicationIdentifier
+
+Uniquely identifies the application used, and used by the SuperOffice CRM Online to know where to redirect a user.
+
+### <a id="client-secret" />Client secret - ApplicationToken
+
+Must be supplied when invoking any of the SuperOffice CRM Online web services.
+
+## Tenant
+
+A specific SuperOffice installation registered for a specific customer. In other words, the unique combination of customersite/custid. Each application environment [SOD, stage, production][1] has its own set of tenants.
+
 <!-- Referenced links -->
-[3]: ../terminology.md
 [1]: app-envir.md
 [2]: ../create-app/wizard/index.md
 [4]: ../create-app/config/redirects/index.md

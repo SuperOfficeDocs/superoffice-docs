@@ -101,7 +101,7 @@ The *user context* will be used by the web application for all successive calls 
 5. The user is redirected to the application default page after completion.
 
 > [!NOTE]
-> The redirect URL can be changed if requested. Future capabilities will enable you to change it yourself, but for now, you must send an email to have it changed for you. Redirect URL change requests can be sent to sdk@SuperOffice.com.
+> The redirect URL can be changed if requested. Future capabilities will enable you to change it yourself, but for now, you must send an email to have it changed for you. Redirect URL change requests can be sent to `sdk@SuperOffice.com`.
 
 ### ContactEntityController
 
@@ -141,7 +141,7 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 [4]: super-office-devnet-online-login.md
 [5]: system-user-service-console.md
 [6]: web-config.md
-[7]: ../../../developer-portal/terminology.md
+[7]: ../../../developer-portal/getting-started/index.md#client-id
 [8]: ../../../developer-portal/create-app/config/redirects/index.md
 [9]: scenarios.md
 

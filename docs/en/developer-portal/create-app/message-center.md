@@ -62,7 +62,8 @@ To reply to a message, you must either:
 > [!NOTE]
 > The messaging center will in the near future support replying to a messages.
 
-<!-- Reference Links -->
+<!-- Referenced links -->
 
+<!-- Referenced images -->
 [img1]: media/messaging-center-icon.png "Messaging Center"
 [img2]: media/messaging-center-layout-user.png "Messaging Center screen"

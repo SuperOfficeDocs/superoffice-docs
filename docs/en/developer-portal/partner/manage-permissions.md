@@ -35,7 +35,7 @@ This task requires **User management** permission.
 > [!include[Link to user settings](includes/see-user-settings.md)]
 
 <!-- Referenced links -->
-[1]: ../overview.md#partner
+[1]: ../about.md#partner
 [2]: ../standard-app/app-store/app-store-info.md
 [3]: ../create-app/index.md
 [4]: add-user.md

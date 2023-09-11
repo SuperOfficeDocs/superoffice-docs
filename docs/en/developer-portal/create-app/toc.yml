@@ -43,5 +43,7 @@ items:
     href: config/update-endpoints.md
 - name: Request to publish
   href: request-to-publish.md
+- name: Message center
+  href: message-center.md
 - name: Helper for private applications
   href: helper-application.md
