@@ -34,7 +34,7 @@ Choose one of:
 
 When we describe how to set up the SQL database on your server, we will focus on how to prepare the database for a SuperOffice installation.
 
-* Any advice we give is based on that this SQL server application is installed on the lates Windows server that is dedicated as a database application server.
+* Any advice we give is based on that this SQL server application is installed on the latest Windows server that is dedicated as a database application server.
 
 * Any advice is also based on that the SuperOffice database is the only database served by this computer. If your environment is different from these preconditions, our advice may need to be reconsidered.
 
