@@ -67,8 +67,8 @@ This template creates an app configuration where you just need to add in the app
 [18]: ../request-to-publish.md
 [2]: ../../best-practices/tenant-status/get-notifications.md
 [3]: ../../best-practices/error-emails.md
-[5]: ../../api/reference/restful/agent/Webhook_Agent/index.md
-[6]: ../../api/reference/soap/Services88/index.md
+[5]: ../../../api/reference/restful/agent/Webhook_Agent/index.md
+[6]: ../../../api/reference/soap/Services88/index.md
 
 <!-- Referenced images -->
 [img5]: media/select-technical-contact.png

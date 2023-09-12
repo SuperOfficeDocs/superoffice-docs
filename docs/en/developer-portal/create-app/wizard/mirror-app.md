@@ -15,7 +15,7 @@ so.client:
 
 ## About this template
 
-This template creates a [database mirroring][1] app configuration for one specific customer. It will ask for the public endpoint of your mirroring service URL.
+This template creates a [database mirroring][10] app configuration for one specific customer. It will ask for the public endpoint of your mirroring service URL.
 
 ## Required licenses
 
@@ -60,21 +60,21 @@ Required information to put into *web.config* of your mirroring service:
 ## What would you like to do next?
 
 * [Check what your client ID is][7]
-* [Add a certificate][10]
+* [Add a certificate][9]
 * [Manage notifications][2]
 * [Get error emails][3]
 * [Getting started with database mirroring][11]
 * [Request to publish the configuration][18]
 
 <!-- Referenced links -->
-[1]: ../../mirroring/overview.md
 [2]: ../../best-practices/tenant-status/get-notifications.md
 [3]: ../../best-practices/error-emails.md
-[4]: ../../admin/license/expander-services/tool-box.md
-[5]: ../../admin/license/expander-services/index.md#development-products
+[4]: ../../../admin/license/expander-services/tool-box.md
+[5]: ../../../admin/license/expander-services/index.md#development-products
 [7]: ../config/find-clientid.md
-[10]: ../config/new-certificate.md
-[11]: ../../mirroring/getting-started/create-wfc.md
+[9]: ../config/new-certificate.md
+[10]: ../../../mirroring/overview.md
+[11]: ../../../mirroring/getting-started/create-wfc.md
 [18]: ../request-to-publish.md
 
 <!-- Referenced images -->

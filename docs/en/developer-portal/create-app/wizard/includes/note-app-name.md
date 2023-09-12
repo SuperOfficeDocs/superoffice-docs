@@ -8,4 +8,4 @@
 > [Find out the details][1].
 
 <!-- Referenced links -->
-[1]: ../../standard-app/requirements/marketing.md#application-name
+[1]: ../../../standard-app/requirements/marketing.md#application-name

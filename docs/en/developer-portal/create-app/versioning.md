@@ -120,4 +120,4 @@ You can for example compare to variants of the same version or compare the curre
 <!-- Referenced images -->
 [img1]: media/app-versions-2.png
 [img2]: media/more-versions.png
-[img3]: media/versioning-page.png
+[img3]: ../media/versioning-page.png

@@ -13,11 +13,11 @@ so.client: online
 
 # Request to publish
 
-[!include[When to publish](../includes/ready-to-publish.md)]
+[!include[When to publish](includes/ready-to-publish.md)]
 
 ![Request to publish in the Development Portal -screenshot][img1]
 
-[!include[What needs approval for Stage and Production?](../includes/what-to-publish.md)]
+[!include[What needs approval for Stage and Production?](includes/what-to-publish.md)]
 
 In all three cases, after you click the **Request to Publish** button we create a support ticket and follow up with you via email. The workflow is different for standard and custom applications.
 

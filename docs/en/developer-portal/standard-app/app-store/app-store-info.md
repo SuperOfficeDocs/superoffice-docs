@@ -64,7 +64,7 @@ Before a new application gets listed in the App Store:
 [12]: prices-and-terms.md
 [13]: user-guide.md#how-to-install
 [14]: user-guide.md#links
-[10]: ../../versioning.md
+[10]: ../../create-app/versioning.md
 [8]: ../../faq/update-app.md
 [15]: ../../partner/manage-permissions.md
 

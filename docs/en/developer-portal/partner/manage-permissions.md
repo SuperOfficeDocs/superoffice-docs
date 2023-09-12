@@ -37,7 +37,7 @@ This task requires **User management** permission.
 <!-- Referenced links -->
 [1]: ../about.md#partner
 [2]: ../standard-app/app-store/app-store-info.md
-[3]: ../create-app/index.md
+[3]: ../create-app/config/index.md
 [4]: add-user.md
 
 <!-- Referenced images -->

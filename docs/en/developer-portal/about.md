@@ -143,7 +143,7 @@ Watch the walk-through on YouTube:
 [1]: getting-started/developer-registration-form.md
 [2]: getting-started/app-envir.md
 [3]: overview.md
-[4]: create-app/index.md
+[4]: create-app/wizard/index.md
 [5]: standard-app/app-store/app-store-info.md
 [6]: https://dev.superoffice.com/
 

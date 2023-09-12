@@ -26,7 +26,7 @@ items:
 
   - name: Create a new app
     href: create-app/toc.yml
-    topicHref: create-app/index.md
+    topicHref: create-app/wizard/index.md
 
   - name: Custom app
     href: custom-app/index.md

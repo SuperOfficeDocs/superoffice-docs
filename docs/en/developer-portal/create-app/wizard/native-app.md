@@ -55,11 +55,11 @@ This template creates an application configuration that uses [OAuth2 Native app 
 * [Request to publish the configuration][18]
 
 <!-- Referenced links -->
-[1]: ../../api/reference/restful/index.md
 [2]: ../../best-practices/tenant-status/get-notifications.md
 [3]: ../../best-practices/error-emails.md
-[4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
-[5]: ../../api/authentication/online/sign-in-user/auth-code-flow.md
+[1]: ../../../api/reference/restful/index.md
+[4]: ../../../api/reference/restful/agent/Webhook_Agent/index.md
+[5]: ../../../api/authentication/online/sign-in-user/auth-code-flow.md
 [7]: ../config/find-clientid.md
 [8]: ../config/get-client-secret.md
 [9]: ../config/cors-and-redirection-urls.md

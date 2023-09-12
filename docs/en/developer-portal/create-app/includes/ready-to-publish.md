@@ -8,5 +8,5 @@ Remember to pick up application keys for all required environments **before** yo
 For custom applications, when you request publish to Stage, we will automatically publish directly to production when approved.
 
 <!-- Referenced links -->
-[1]: ../standard-app/certification/certify-app.md
-[2]: ../custom-app/validate.md
+[1]: ../../standard-app/certification/certify-app.md
+[2]: ../../custom-app/validate.md

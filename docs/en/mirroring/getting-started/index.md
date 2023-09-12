@@ -76,5 +76,5 @@ If you believe you have a great case for an application, navigate to the [applic
 [6]: ../../developer-portal/getting-started/developer-registration-form.md
 [8]: ../../developer-portal/faq/update-app.md
 [9]: ../../developer-portal/create-app/wizard/mirror-app.md
-[10]: ../../developer-portal/create-app/index.md
+[10]: ../../developer-portal/create-app/wizard/index.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring

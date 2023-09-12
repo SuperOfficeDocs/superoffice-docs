@@ -144,7 +144,7 @@ Setting | Description | Read more |
 [10]: ../publish.md
 
 [12]: ../../create-app/config/app-config.md
-[13]: ../../create-app/index.md
+[13]: ../../create-app/wizard/index.md
 [16]: ../../custom-app/index.md
 
 [21]: ../../faq/update-contact-person.md

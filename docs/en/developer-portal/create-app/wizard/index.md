@@ -114,18 +114,18 @@ If you have registered the application but lost the keys, you need to [look up y
 [8]: ../config/get-client-secret.md
 [9]: ../config/cors-and-redirection-urls.md
 [10]: ../config/new-certificate.md
-[11]: ../standard-app/app-store/update-app-page.md
+[11]: ../../standard-app/app-store/update-app-page.md
 [12]: web-app.md
 [13]: native-app.md
 [14]: server-to-server-app.md
 [15]: mirror-app.md
 [16]: sync-app.md
-[17]: ../../api/overview/index.md
+[17]: ../../../api/overview/index.md
 [18]: ../request-to-publish.md
 [19]: https://dev.superoffice.com/
 
 <!-- Referenced images -->
-[img1]: ../media/partner-overview.png
+[img1]: ../../media/partner-overview.png
 [img2]: media/create-app-wizard.png
 [img3]: media/enter-app-name.png
 [img4]: media/enter-redirect-urls.png
