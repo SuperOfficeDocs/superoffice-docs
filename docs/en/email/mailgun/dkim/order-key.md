@@ -18,11 +18,13 @@ so.client: online
 
 1. [Fill in the form][2] and receive your DKIM key back.
 2. Add the DKIM key as a text record to your DNS.
-3. Validate your new DKIM record, to make sure it has propagated.
-4. Please reply back to us, confirming the DKIM is valid.
+3. Validate your new DKIM record to make sure it has propagated.
+4. Please reply back to us confirming the DKIM is valid.
 5. We will update your CRM Online account to use the new settings.
 
 [More information][1]
+
+[!include[ALT](../includes/multiple-dkims.md )]
 
 ## Required info
 
