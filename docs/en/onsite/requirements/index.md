@@ -25,6 +25,8 @@ Use this overview to get to the specific requirements.
 * [Pocket CRM host][4] and [device][5]
 * [SuperOffice mobile][6]
 
+[!include[Warning legacy](../includes/warn-web-client-https.md)]
+
 ## Microsoft .NET
 
 ### Microsoft .NET 4.8 from SuperOffice 8.5 R05

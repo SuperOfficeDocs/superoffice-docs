@@ -3,6 +3,7 @@ title: Requirements
 uid: crm_server_requirements
 description: System requirements for SuperOffice server
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.envir: onsite
@@ -20,8 +21,6 @@ See also requirements for [IIS][2].
 * Microsoft Windows Server 2022
 * Microsoft Windows Server 2019
 * Microsoft Windows Server 2016
-* Microsoft Windows Server 2012 R2
-* Microsoft Windows Server 2012
 
 ## Document Archive
 

@@ -3,7 +3,7 @@ title: Manual steps
 uid: install_service_manually
 description: Manual steps to install Service
 author: Martin Pavlas
-so.date: 12.17.2021
+so.date: 09.12.2023
 keywords: install, Service, CS, CustomerService, CustomerService.exe, ejTermSetup.exe
 so.topic: howto
 so.envir: onsite
@@ -17,15 +17,17 @@ From SuperOffice 8.1 both SuperOffice Web and Service must run on the same root 
 
 Installing SuperOffice Web client and Service on the same domain under different applications requires some manual steps for Service.
 
+[!include[Warning legacy](../../onsite/includes/warn-web-client-https.md)]
+
 ## Install Service
 
 If the IIS website is not created, first run the installer for Service (SuperOffice.CustomerService.exe) which is the only installer from SuperOffice that will also create the IIS websites.
 
-If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:SuperOffice*
+If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *C:\SuperOffice*.
 
 ![x -screenshot][img1]
 
-Run **SuperOffice.CustomerService.exe** to install the software on the server, the default location is *c:\SuperOffice*.
+Run **SuperOffice.CustomerService.exe** to install the software on the server, the default location is *C:\SuperOffice*.
 
 ![x -screenshot][img2]
 
@@ -33,7 +35,7 @@ If you upgrade an existing site, do not tick the Create IIS website since it wil
 
 ![x -screenshot][img3]
 
-Either set up a new application under `socrm.myorganization.com` for Service or edit the one you created earlier. Point the physical path to the *Customer service\www\doc* folder, in this example, it would be *c:\SuperOffice\Customer Service\www\doc* folder
+Either set up a new application under `socrm.myorganization.com` for Service or edit the one you created earlier. Point the physical path to the *Customer service\www\doc* folder, in this example, it would be *C:\SuperOffice\Customer Service\www\doc* folder.
 
 ![x -screenshot][img4]
 
@@ -41,7 +43,7 @@ Below service, you also need to add 2 applications, one for scripts, which point
 
 ![x -screenshot][img5]
 
-And one application for csplugins pointing to *\customer service\www\csplugins*
+And one application for csplugins pointing to *\customer service\www\csplugins*.
 
 ![x -screenshot][img6]
 
@@ -55,15 +57,18 @@ Browse to `http://socrm.myorganization.com/Sales/Remote/Services84/Contact.svc` 
 
 ## Continue with priming the database for Service
 
-ejTermSetup.exe is only run for NEW installations
+ejTermSetup.exe is only run for NEW installations.
 
-Now run ejTermSetup found in the Bin folder, when asked for Hostname give the path including the application, `socrm.myorganization.com/service` which will correctly set the value for database table registry where `reg_id = 109` to /service/
+Now run ejTermSetup found in the Bin folder, when asked for Hostname give the path including the application, `socrm.myorganization.com/service` which will correctly set the value for database table registry where `reg_id = 109` to /service/.
 
 ![x -screenshot][img9]
 
 When ejtermsetup later asks for **The full HTTP Path to your server (for URLs)**, then just use the hostname without sub-application, like `http://socrm.myorganization.com`. It will in most cases default to the correct URL.
 
-When asked for the **NetServer URL** you give the URL for NetServer created on the same domain. Note: Service does not support HTTPS connection to NetServer, so only HTTP is allowed.
+When asked for the **NetServer URL** you give the URL for NetServer created on the same domain.
+
+> [!NOTE]
+> Service does not support HTTPS connection to NetServer, so only HTTP is allowed.
 
 From SuperOffice 8.1, all authentication for all clients will be done by the web client, and after successfully authenticating a session key is stored in a browser cookie. This is why Sales and Service must be installed on the same domain.
 

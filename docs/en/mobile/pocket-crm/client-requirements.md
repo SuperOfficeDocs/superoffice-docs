@@ -3,6 +3,7 @@ title: Client requirements
 uid: pocket_crm_client_requirements
 description: Requirements for Pocket CRM mobile client
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.client: pocket
@@ -18,15 +19,7 @@ so.client: pocket
 
 ### From Pocket CRM 9.1
 
-iOS version 10 or newer is required!
-
-**Devices no longer supported:**
-
-* iPhone 5 or older
-* Pad 2 or older
-* iPod Touch with ARM v 7 or older
-
-Old devices will still be able to run Pocket CRM but they will not be able to upgrade or re-install.
+iOS version 10 or newer is required.
 
 ## Network
 

@@ -3,6 +3,7 @@ title: Requirements
 uid: iis_server_requirements
 description: System requirements for SuperOffice server
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.envir: onsite
@@ -27,14 +28,11 @@ This server is used for SuperOffice S&M Web client, SuperOffice Service, SuperOf
 * Microsoft Windows Server 2022
 * Microsoft Windows Server 2019
 * Microsoft Windows Server 2016
-* Microsoft Windows Server 2012 R2
-* Microsoft Windows Server 2012
 
 ## Internet Information Server
 
 * Microsoft IIS 10
 * Microsoft IIS 8.5
-* Microsoft IIS 8.0
 
 ## Network/Bandwidth
 

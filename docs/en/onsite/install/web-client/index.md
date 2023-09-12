@@ -3,6 +3,7 @@ title: Install SuperOffice Web
 uid: set_up_web_client
 description: Install SuperOffice Web
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: howto
 so.envir: onsite
@@ -26,6 +27,8 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 * Consider the [security][4] of your upcoming installation.
 * Prepare the [web server][5].
 * Have an IIS website where you want to install SuperOffice. If you do not have the site set up, using the [Service installer][2] will create it for you.
+
+[!include[Warning legacy](../../includes/warn-web-client-https.md)]
 
 ## Install
 

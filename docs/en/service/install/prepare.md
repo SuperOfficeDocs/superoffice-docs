@@ -3,6 +3,7 @@ title: Prepare to install Service
 uid: prepare_service
 description: From SuperOffice 8 you also need to install Service. Here's what you need to do before you start the installation.
 author: {github-id}
+so.date: 09.12.2023
 keywords: install
 so.topic: howto
 so.envir: onsite
@@ -13,7 +14,9 @@ so.envir: onsite
 
 From SuperOffice 8 you also need to install Service, which is used by mailings inside both Sales & Marketing and Service.
 
-A typical first-time installation of SuperOffice Customer Service on Windows 2012 server using an IIS web server and Microsoft SQL server 2014. There is no client install necessary outside of a supported web client like Internet Explorer, as this is a web-based application.
+A typical first-time installation of SuperOffice Customer Service on Windows server using an IIS web server and Microsoft SQL server. There is no client install necessary outside of a supported web client like Internet Explorer, as this is a web-based application.
+
+[!include[Warning legacy](../../onsite/includes/warn-web-client-https.md)]
 
 ## Domain name
 

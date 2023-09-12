@@ -3,6 +3,7 @@ title: Tested client OS
 uid: tested_client_os
 description: Tested client OS
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.envir: onsite
@@ -28,10 +29,13 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 | Windows 7 SP2       | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |
 
 > [!NOTE]
-> Windows 10 is supported from Windows 10 Anniversary Update (version 1607).<br>
-Windows 8.1 has reached the end of support January 10, 2023.<br>
-Windows 8 has reached the end of support on 12th January 2016.<br>
-Windows 7 SP1 and SP2 have reached the end of support on 14th January 2020.
+> Windows 10 is supported from Windows 10 Anniversary Update (version 1607).
+>
+> Windows 8.1 reached the end of support on January 10, 2023.
+>
+> Windows 8 reached the end of support on 12th January 2016.
+>
+> Windows 7 SP1 and SP2 reached the end of support on 14th January 2020.
 
 ## Mac
 
@@ -40,7 +44,7 @@ Windows 7 SP1 and SP2 have reached the end of support on 14th January 2020.
 | MacOS Ventura      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Monterey     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | MacOS Big Sur      | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] |
-| MacOS Catalina     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
+| MacOS Catalina     | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img3] |
 | MacOS Mojave       | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] |
 | MacOS High Sierra  | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] |
 | MacOS Sierra       | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |
