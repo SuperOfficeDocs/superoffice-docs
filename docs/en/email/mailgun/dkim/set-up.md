@@ -2,8 +2,9 @@
 title: How to set up a DKIM Record
 uid: set_up_dkim 
 description: How to set up a DKIM Record
-author: {github-id} 
-keywords:
+author: Martin Pavlas
+so.date: 09.12.2023
+keywords: DKIM
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -33,7 +34,8 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 1. Fill in the [DKIM ORDER FORM][1] and submit it.
 2. We will reply with the DKIM to the submitted email address.
 3. You will now need to add this DKIM to your DNS, see next step.
-[!include[ALT](../includes/multiple-dkims.md )]
+
+[!include[Limitation](../includes/multiple-dkims.md )]
 
 ## Open the domain settings for the Google domain
 
