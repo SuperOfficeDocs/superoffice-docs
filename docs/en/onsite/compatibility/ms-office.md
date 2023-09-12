@@ -3,6 +3,7 @@ title: Microsoft Office versions
 uid: tested_ms_office
 description: Tested Microsoft Office versions
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.envir: onsite

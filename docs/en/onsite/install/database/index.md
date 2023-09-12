@@ -3,7 +3,7 @@ title: Install database
 uid: install_database
 description: "How to prepare and install the SuperOffice database."
 author: {github-id}
-so.date: 02.02.2022
+so.date: 09.12.2023
 keywords: install, database, Oracle, MSQL
 so.topic: howto
 so.envir: onsite

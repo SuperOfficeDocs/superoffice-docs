@@ -3,6 +3,7 @@ title: Tested client OS
 uid: tested_client_os
 description: Tested client OS
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.envir: onsite

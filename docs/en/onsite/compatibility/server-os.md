@@ -3,6 +3,7 @@ title: Operating system
 uid: tested_server_os
 description: Tested server operating system
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.envir: onsite
@@ -25,8 +26,8 @@ Want to know if a newly released operating system is compatible? Check the [comp
 | Windows Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img2] |
 | Windows Server 2008    | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] |
 
-> [!TIP]
-> Windows Servers are also tested as Terminal Server / Citrix Server.
+Windows Servers are also tested as Terminal Server / Citrix Server.
+
 > [!NOTE]
 > Windows Server 2012 and 2012 R2 reached the end of support on October 10, 2023.
 >

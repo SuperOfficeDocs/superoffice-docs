@@ -3,6 +3,7 @@ title: Install SuperOffice Web
 uid: set_up_web_client
 description: Install SuperOffice Web
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: howto
 so.envir: onsite

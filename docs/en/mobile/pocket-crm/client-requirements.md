@@ -3,6 +3,7 @@ title: Client requirements
 uid: pocket_crm_client_requirements
 description: Requirements for Pocket CRM mobile client
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.client: pocket

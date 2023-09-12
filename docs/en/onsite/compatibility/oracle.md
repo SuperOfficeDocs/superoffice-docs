@@ -3,6 +3,7 @@ title: Oracle versions
 uid: tested_oracle
 description: Tested Oracle versions
 author: {github-id}
+so.date: 09.12.2023
 keywords:
 so.topic: reference
 so.envir: onsite

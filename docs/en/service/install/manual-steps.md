@@ -3,7 +3,7 @@ title: Manual steps
 uid: install_service_manually
 description: Manual steps to install Service
 author: Martin Pavlas
-so.date: 12.17.2021
+so.date: 09.12.2023
 keywords: install, Service, CS, CustomerService, CustomerService.exe, ejTermSetup.exe
 so.topic: howto
 so.envir: onsite
