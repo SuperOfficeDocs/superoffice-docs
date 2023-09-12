@@ -109,11 +109,11 @@ The [new self-service portal for developers and application partners][10] replac
 <!-- Referenced links -->
 [1]: getting-started/index.md#client-id
 [2]: getting-started/hosting.md
+[9]: getting-started/user-contexts.md
 [3]: provisioning/index.md
 [4]: standard-app/index.md
 [5]: custom-app/index.md
 [6]: ../mirroring/overview.md
 [7]: ../api/plugins/erp-connectors/index.md
 [8]: ../api/plugins/quote-connectors/index.md
-[9]: getting-started/user-contexts.md
 [10]: https://dev.superoffice.com/

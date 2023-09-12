@@ -37,9 +37,9 @@ The application configuration, also known as the technical specification, consis
 
 <!-- Referenced links -->
 [1]: request-to-publish.md
-[2]: ../security/get-client-secret.md
-[3]: ../security/new-certificate.md
+[2]: get-client-secret.md
+[3]: new-certificate.md
 [4]: update-endpoints.md
-[5]: ../security/cors-and-redirection-urls.md
-[6]: ../howto/notifications.md
+[5]: cors-and-redirection-urls.md
+[6]: ../../best-practices/tenant-status/index.md#notify
 [7]: https://dev.superoffice.com/

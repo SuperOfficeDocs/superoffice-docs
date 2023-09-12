@@ -44,23 +44,17 @@ items:
     topicHref: standard-app/index.md
 
   - name: Best practices
-    href: best-practices.md
+    href: best-practices/index.md
     expanded: true
     items:
     - name: Tenant status
-      href: tenant-status/index.md
-    - name: Status page
-      href: tenant-status/status-page.md
+      href: best-practices/tenant-status/index.md
     - name: How to check status
-      href: tenant-status/check-status.md
-    - name: Notifications
-      href: tenant-status/notifications.md
-    - name: Register to get notifications
-      href: tenant-status/get-notifications.md
-    - name: Parse notifications
-      href: tenant-status/parse-notifications.md
-    - name: Manage notifications
-      href: howto/notifications.md
+      href: best-practices/tenant-status/check-status.md
+    - name: Register and parse notifications
+      href: best-practices/tenant-status/get-notifications.md
+    - name: Error reporting emails
+      href: best-practices/error-emails.md
 
   - name: Partners and users
     expanded: true

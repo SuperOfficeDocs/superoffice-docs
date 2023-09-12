@@ -3,7 +3,7 @@ uid: app-best-practices
 title: Best practices
 description: Best practices for SuperOffice CRM Online apps
 author: Margrethe Romnes, Anthony Yates
-keywords: apps, best practices
+keywords: apps, best practices, 3rd-party
 so.date: 09.07.2023
 so.topic: howto
 so.envir: cloud
@@ -236,13 +236,13 @@ Instead, consider using the sequence table to get an estimate of how many record
 The Sequence table has the next primary key id for all tables. Asking for `next_id` will give the next primary key for any given table. The following example queries the sequence table to obtain the next primary key for the contact table:
 
 ```http
-.../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'contact'
+.../../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'contact'
 ```
 
 And here again for the person table.
 
 ```http
-.../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'person'
+.../../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'person'
 ```
 
 Then, when you have the estimated number of records, use the Dynamic archive provider again to perform even a more granular search for just the contact ID and orgNr, instead of using the default provider, `SimpleContact`, when querying the `api/v1/contact` endpoint.
@@ -280,7 +280,7 @@ There are cases where polling the TTL tables are useless. For example, MergeMove
 Here is an example search query to fetch which companies have been merged into another company, and actually deleted. The source record is the `contact_id​` (company identity).
 
 ```http
-../api/v1/archive/dynamic?$select=mergemovelog.operation, mergemovelog.tableNumber, mergemovelog.sourceRecord&$filter=movemergelog.registered afterTime <LastSyncTime>​
+../../api/v1/archive/dynamic?$select=mergemovelog.operation, mergemovelog.tableNumber, mergemovelog.sourceRecord&$filter=movemergelog.registered afterTime <LastSyncTime>​
 ```
 
 We recommend that you, instead of polling to the TTL table, use webhooks.
@@ -359,26 +359,26 @@ Read about [effective visual design][6].
 * Provide SuperOffice with URLs to your application **documentation**. Links to the documentation will appear in the App Store.
 
 <!-- Referenced links -->
-[1]: tenant-status/status-page.md
-[4]: faq/update-app.md
-[10]: tenant-status/notifications.md
+[1]: tenant-status/index.md#state
+[10]: tenant-status/index.md#notify
+[4]: ../faq/update-app.md
 [12]: ../create-app/index.md
-[13]: getting-started/what-api-to-use.md
+[13]: ../getting-started/what-api-to-use.md
 [14]: ../standard-app/certification/checklist.md
 [15]: ../standard-app/requirements/security.md
+[24]: ../provisioning/index.md
 
-[6]: ../ui/design/index.md
-[16]: ../automation/webhook/index.md
+[6]: ../../ui/design/index.md
+[16]: ../../automation/webhook/index.md
 
-[5]: ../api/authentication/online/validate-security-tokens.md
-[8]: ../api/authentication/online/sign-in-user/index.md
-[9]: ../api/authentication/online/auth-application/index.md
-[17]: ../api/bulk-operations/index.md
-[21]: ../api/search/odata/index.md
-[22]: ../api/authentication/online/api.md#access-tokens
-[23]: ../api/web-services/webapi/index.md#soticket
-[24]: provisioning/index.md
-[25]: ../api/security/sentry/index.md
+[5]: ../../api/authentication/online/validate-security-tokens.md
+[8]: ../../api/authentication/online/sign-in-user/index.md
+[9]: ../../api/authentication/online/auth-application/index.md
+[17]: ../../api/bulk-operations/index.md
+[21]: ../../api/search/odata/index.md
+[22]: ../../api/authentication/online/api.md#access-tokens
+[23]: ../../api/web-services/webapi/index.md#soticket
+[25]: ../../api/security/sentry/index.md
 
 [7]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335

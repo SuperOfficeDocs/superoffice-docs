@@ -74,7 +74,7 @@ Need to update something? [Follow these steps][2].
 [6]: config/cors-and-redirection-urls.md
 [8]: config/update-endpoints.md
 [9]: https://dev.superoffice.com/
-[7]: ../howto/notifications.md
+[7]: ../best-practices/tenant-status/get-notifications.md
 
 <!-- Referenced images -->
 [img1]: ../media/request-to-publish.png

@@ -1,9 +1,10 @@
 ---
+uid: tenant-status-check
 title: Check tenant status
-uid: check_tenant_status
-description: Each tenant has a status page where you can check its state to ensure your application remains stable and responds accordingly.
-author: {github-id}
-keywords:
+description: How to check a tenant's state to ensure your application remains stable and responds accordingly.
+author: Bergfrid Dias
+so.date: 09.12.2023
+keywords: tenant, status, state API
 so.topic: howto
 so.envir: cloud
 so.client: online
@@ -11,7 +12,7 @@ so.client: online
 
 # Check tenant status
 
-Each tenant has a status page where you can check its state to ensure your application remains stable and responds accordingly.
+Each tenant has a [status page][2] where you can check its state to ensure your application remains stable and responds accordingly.
 
 ## Pre-requisites
 
@@ -30,5 +31,5 @@ Each tenant has a status page where you can check its state to ensure your appli
 2. Parse the response. Details in the [state value reference][2].
 
 <!-- Referenced links -->
-[1]: ../getting-started/app-envir.md
-[2]: status-page.md
+[1]: ../../getting-started/app-envir.md
+[2]: index.md#state-api

@@ -52,13 +52,14 @@ This template creates an app configuration that uses the [system user flow][12].
 * [View or change CORS and redirection URLs][9]
 * [Add a certificate][10]
 * [Manage notifications][2]
-* [Get error emails][2]
+* [Get error emails][3]
 * [Start working on the App Store information][11]
 * [Request to publish the configuration][18]
 
 <!-- Referenced links -->
 [1]: ../../api/reference/restful/index.md
-[2]: ../howto/notifications.md
+[2]: ../../best-practices/tenant-status/get-notifications.md
+[3]: ../../best-practices/error-emails.md
 [4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
 [5]: ../../api/authentication/online/index.md#claims-and-scope
 [6]: ../../api/reference/soap/Services88/index.md

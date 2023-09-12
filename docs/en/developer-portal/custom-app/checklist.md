@@ -59,8 +59,8 @@ If the subscription is discontinued, any custom applications will lose access to
 [Sign me up for validation][4]
 
 <!-- Referenced links -->
+[4]: validate.md
 [1]: ../../admin/license/expander-services/index.md
 [2]: ../provisioning/consent.md
-[3]: ../tenant-status/check-status.md
-[4]: validate.md
-[5]: ../best-practices.md
+[3]: ../best-practices/tenant-status/check-status.md
+[5]: ../best-practices/index.md

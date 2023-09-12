@@ -37,7 +37,7 @@ As a partner, you may change the contact persons. Other settings may only be cha
 [4]: user-settings.md
 [2]: ../create-app/config/app-config.md
 [3]: ../faq/update-contact-person.md
-[11]: ../howto/notifications.md
+[11]: ../best-practices/tenant-status/index.md#notify
 [5]: ../standard-app/requirements/marketing.md
 [1]: ../standard-app/app-store/app-settings.md
 [6]: ../standard-app/app-store/update-partner-profile.md

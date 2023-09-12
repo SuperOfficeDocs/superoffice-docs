@@ -62,13 +62,14 @@ Required information to put into *web.config* of your mirroring service:
 * [Check what your client ID is][7]
 * [Add a certificate][10]
 * [Manage notifications][2]
-* [Get error emails][2]
+* [Get error emails][3]
 * [Getting started with database mirroring][11]
 * [Request to publish the configuration][18]
 
 <!-- Referenced links -->
 [1]: ../../mirroring/overview.md
-[2]: ../howto/notifications.md
+[2]: ../../best-practices/tenant-status/get-notifications.md
+[3]: ../../best-practices/error-emails.md
 [4]: ../../admin/license/expander-services/tool-box.md
 [5]: ../../admin/license/expander-services/index.md#development-products
 [7]: ../security/find-clientid.md

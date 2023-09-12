@@ -53,7 +53,7 @@ This template creates an app configuration where you just need to add in the app
 * [View or change CORS and redirection URLs][9]
 * [Add a certificate][10]
 * [Manage notifications][2]
-* [Get error emails][2]
+* [Get error emails][3]
 * [Start working on the App Store information][11]
 * [Request to publish the configuration][18]
 
@@ -65,7 +65,8 @@ This template creates an app configuration where you just need to add in the app
 [10]: ../config/new-certificate.md
 [11]: ../../standard-app/app-store/update-app-page.md
 [18]: ../request-to-publish.md
-[2]: ../howto/notifications.md
+[2]: ../../best-practices/tenant-status/get-notifications.md
+[3]: ../../best-practices/error-emails.md
 [5]: ../../api/reference/restful/agent/Webhook_Agent/index.md
 [6]: ../../api/reference/soap/Services88/index.md
 

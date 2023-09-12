@@ -51,7 +51,7 @@ This template creates a web app configuration that uses [interactive OIDC authen
 * [View or change CORS and redirection URLs][9]
 * [Add a certificate][10]
 * [Manage notifications][2]
-* [Get error emails][2]
+* [Get error emails][3]
 * [Start working on the App Store information][11]
 * [Request to publish the configuration][18]
 
@@ -65,7 +65,8 @@ This template creates a web app configuration that uses [interactive OIDC authen
 [10]: ../config/new-certificate.md
 [11]: ../../standard-app/app-store/update-app-page.md
 [18]: ../request-to-publish.md
-[2]: ../howto/notifications.md
+[2]: ../../best-practices/tenant-status/get-notifications.md
+[3]: ../../best-practices/error-emails.md
 
 <!-- Referenced images -->
 [img4]: media/enter-redirect-urls.png

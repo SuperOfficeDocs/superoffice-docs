@@ -80,20 +80,18 @@ To get access to additional SuperOffice API endpoints or RESTful agents, you nee
 
 ## Customer state change notifications
 
-This is your public URL where we push tenant status changes regarding all customers who have approved your application.
-
-For detailed instructions, see the [Notifications page][7]
+This is your public URL where we [push tenant status changes][7] regarding all customers who have approved your application.
 
 ## Redirection URLs
 
 For detailed instructions, see [CORS and redirection URLs][6] in the Security section.
 
 <!-- Referenced links -->
-[1]: ../create-app/index.md#default-config
+[1]: ../index.md#default-config
 [2]: request-to-publish.md
 [3]: https://dev.superoffice.com/
-[6]: ../security/cors-and-redirection-urls.md
-[7]: ../howto/notifications.md
+[6]: cors-and-redirection-urls.md
+[7]: ../../best-practices/tenant-status/index.md#notify
 
 <!-- Referenced images -->
 [img1]: media/toggle-advanced.png

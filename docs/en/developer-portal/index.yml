@@ -119,9 +119,9 @@ landingContent:
         - text: What API to use?
           url: getting-started/what-api-to-use.md
         - text: Manage notifications
-          url: best-practices/notifications.md
+          url: best-practices/tenant-status/get-notifications.md
         - text: Get error emails
-          url: best-practices/notifications.md
+          url: best-practices/error-emails.md
 
   # Card
   - title: For administrators
@@ -161,8 +161,8 @@ landingContent:
       links:
         - text: Endpoints
           url: "create-app/config/update-endpoints.md"
-        - text: Notifications
-          url: "howto/notifications.md"
+        - text: State Change URL
+          url: "best-practices/tenant-status/get-notifications.md"
         - text: CORS and redirection URLs
           url: "create-app/configcors-and-redirection-urls.md"
         - text: Find client ID
@@ -210,10 +210,6 @@ landingContent:
       links:
         - text: What is tenant status?
           url: best-practices/tenant-status/index.md
-        - text: The status page
-          url: best-practices/tenant-status/status-page.md
-        - text: Notifications
-          url: best-practices/tenant-status/notifications.md
     - itemType: list
       typeDesc: how-to-guide
       links:
@@ -221,8 +217,6 @@ landingContent:
           url: best-practices/tenant-status/check-status.md
         - text: Get notifications
           url: best-practices/tenant-status/get-notifications.md
-        - text: Parse notifications
-          url: best-practices/tenant-status/parse-notifications.md
 
   # Card
   - title: Provisioning

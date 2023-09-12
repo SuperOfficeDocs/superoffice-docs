@@ -1,7 +1,7 @@
 ---
-title: Notifications
-uid: dp-notifications
-description: Manage app notifications in the SuperOffice Developer Portal.
+title: Error reporting emails
+uid: dp-error-email
+description: How to subscribe to error emails in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 04.27.2023
 keywords: Developer Portal, app, notification, error, tenant status
@@ -11,9 +11,7 @@ so.envir: cloud
 so.client:
 ---
 
-# Manage app notifications
-
-[!include[Intro to tenant status](tenant-status/includes/tenant-status-intro.md)]
+# Error reporting emails
 
 SuperOffice will also send you emails when there is a problem with your application. By default, these emails go to the technical contact of the application. However, you can also specify a list of addresses for error reporting.
 
@@ -21,40 +19,6 @@ Watch the walk-through on YouTube:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube-nocookie.com/embed/kqEpAw7qQEY?start=1400]
-
-## Tenant status
-
-The **State change URL** is set in the advanced application configuration of each application.
-
-<!-- markdownlint-disable MD029 -->
-[!include[Go to the app page](../includes/go-to-app-page.md)]
-<!-- List starts in the include. Next line MUST be 2. -->
-
-2. Select **Configuration**.
-
-3. Turn on **Advanced**.
-
-4. Select **Notifications**.
-
-    ![Configure notifications -screenshot][img1]
-
-5. Enter the URL of your endpoint SuperOffice should push notifications to when a tenant changes status.
-
-    `https://www.awesomeapp.com/NotifyCustomerStateChange`
-
-    Optionally, turn on **Configure per Environment** to set different URLs for SOD, Stage, and Production.
-
-    ![Configure notifications per environment -screenshot][img2]
-
-6. [!include[Has integration?](includes/has-integration.md)]
-
-7. Click **Save Settings** or **OK**.
-
-8. [Request to publish the new configuration.][3]
-<!-- markdownlint-restore -->
-
-> [!NOTE]
-> You must set up a web service listening at the given URL and be prepared to [parse notifications][2].
 
 ## ERP sync, quote, and mirroring
 
@@ -92,16 +56,13 @@ For other errors, such as when a customer reports a problem from the App Store, 
 * [Troubleshooting authorizing an application and working with tokens][7]
 
 <!-- Referenced links -->
-[1]: tenant-status/notifications.md
-[2]: tenant-status/parse-notifications.md
-[3]: request-to-publish.md
-[4]: update-endpoints.md#database-mirroring
-[5]: update-endpoints.md#erp-sync
-[6]: update-endpoints.md#quote-connector
+[1]: tenant-status/index.md#notify
+
+[4]: ../create-app/config/update-endpoints.md#database-mirroring
+[5]: ../create-app/config/update-endpoints.md#erp-sync
+[6]: ../create-app/config/update-endpoints.md#quote-connector
 [7]: ../../api/authentication/online/troubleshooting/index.md
-[8]: update-contact-person.md
+[8]: ../faq/update-contact-person.md
 
 <!-- Referenced images -->
-[img1]: media/notifications.png
-[img2]: media/endpoint-per-envir.png
 [img3]: media/error-reporting-emails.png

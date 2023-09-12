@@ -50,13 +50,14 @@ This template creates an application configuration that uses [OAuth2 Native app 
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
 * [Manage notifications][2]
-* [Get error emails][2]
+* [Get error emails][3]
 * [Start working on the App Store information][11]
 * [Request to publish the configuration][18]
 
 <!-- Referenced links -->
 [1]: ../../api/reference/restful/index.md
-[2]: ../howto/notifications.md
+[2]: ../../best-practices/tenant-status/get-notifications.md
+[3]: ../../best-practices/error-emails.md
 [4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
 [5]: ../../api/authentication/online/sign-in-user/auth-code-flow.md
 [7]: ../config/find-clientid.md
