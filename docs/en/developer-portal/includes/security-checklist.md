@@ -6,7 +6,7 @@
 * The application uses [federated authentication][4] and [validates all tokens][5] received from SuperOffice
 
 <!-- Referenced links -->
-[1]: ../redirects/index.md
+[1]: ../create-app/config/redirects.md
 [2]: https://www.ssllabs.com/ssltest/analyze.html
 [3]: https://owasp.org/www-project-cheat-sheets/cheatsheets/Input_Validation_Cheat_Sheet
 [4]: ../../identity-management/federated-auth.md

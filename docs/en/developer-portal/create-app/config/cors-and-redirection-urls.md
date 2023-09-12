@@ -13,7 +13,7 @@ so.client:
 
 # CORS and redirection URLs
 
-The redirection endpoints are specified and whitelisted when you register the application idea. When the app configuration is published to Stage or Production you may no longer make changes to them.
+The [redirection endpoints][1] are specified and whitelisted when you register the application idea. When the app configuration is published to Stage or Production you may no longer make changes to them.
 
 > [!NOTE]
 > To add new CORS or redirect URLs in Stage or Production, create a [new version][5].
@@ -42,7 +42,7 @@ Types of URLs:
 ## To view redirection endpoints
 
 <!-- markdownlint-disable MD029 -->
-[!include[Go to the app page](../includes/go-to-app-page.md)]
+[!include[Go to the app page](../../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
 
@@ -63,14 +63,8 @@ Types of URLs:
 > [!CAUTION]
 > If you add database mirroring or webhooks, the tenant administrator must [renew the consent][4] to your application. **Users will be locked out from when the change happens until the consent has been given.**
 
-## Read more
-
-* [About redirects][1]
-* [Endpoint types][2]
-
 <!-- Referenced links -->
-[1]: redirects/index.md
-[2]: redirects/endpoint-types.md
+[1]: redirects.md
 [4]: ../../provisioning/get-consent.md
 [5]: ../versioning.md
 

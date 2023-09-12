@@ -1,17 +1,17 @@
 ---
-title: Security
-uid: dp-security
-description: Security related information and tasks in the SuperOffice Developer Portal.
+title: Application configuration
+uid: dp-app-config-intro
+description: Overview of application configuration in the SuperOffice Developer Portal.
 author: Bergfrid Dias
 so.date: 05.13.2022
 keywords: Developer Portal, app, security
-so.topic: howto
+so.topic: concept
 so.version:
 so.envir: cloud
 so.client:
 ---
 
-# Security
+# Application configuration
 
 ## Get keys
 
@@ -50,7 +50,7 @@ Watch the walk-through on YouTube:
 [3]: ../../partner/manage-permissions.md
 [5]: ../../partner/update-profile.md
 [4]: ../../getting-started/user-contexts.md
-[6]: redirects/index.md
+[6]: redirects.md
 [7]: find-clientid.md
 [8]: get-client-secret.md
 [9]: cors-and-redirection-urls.md

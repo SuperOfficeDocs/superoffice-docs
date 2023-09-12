@@ -44,7 +44,7 @@ The authentication flow begins with SuperOffice issuing a signed authentication 
 The mirroring service must use one of the following certificate strategies to validate the authentication request.
 
 * [install the SuperOffice public certificates][2] in the server certificate store.
-* [overridden the certificate resolver][10] and load the certificate on demand.
+* [overridden the certificate resolver][1] and load the certificate on demand.
 
 In return, the mirroring service must use its' private certificate to sign the response sent back to SuperOffice.SuperOffice uses the applications stored public certificate to verify the authentication response. Once successfully validated, the SuperOffice Database Mirroring service begin sending data to the application endpoint.
 
@@ -66,15 +66,15 @@ Backup/restore is a special case. If the sequence of events is mirror – backup
 
 It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, but we also prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information, and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the <a href="../../../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
 
-If you believe you have a great case for an application, navigate to the [application registration page][1] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
+If you believe you have a great case for an application, navigate to the [application registration page][10] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 
 <!-- Referenced links -->
-[1]: ../../developer-portal/create-app/index.md
+[1]: ../../api/authentication/online/certificates/override-resolver.md
 [2]: ../../api/authentication/online/certificates/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
-[6]: ../../developer-portal/getting-started/developer-registration-form.md
 [7]: ../order-database-mirroring.md
-[8]: ../../developer-portal/howto/update-app.md
-[9]: ../../developer-portal/create-app/mirror-app.md
-[10]: ../../api/authentication/online/certificates/override-resolver.md
+[6]: ../../developer-portal/getting-started/developer-registration-form.md
+[8]: ../../developer-portal/faq/update-app.md
+[9]: ../../developer-portal/create-app/wizard/mirror-app.md
+[10]: ../../developer-portal/create-app/index.md
 [11]: https://github.com/SuperOffice/devnet-database-mirroring

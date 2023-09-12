@@ -136,14 +136,14 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 
 <!-- Referenced links -->
 [1]: ../../authentication/online/certificates/configure.md
-[2]: ../../../developer-portal/getting-started/run-website-on-iis-localhost.md
 [3]: partner-db-library.md
 [4]: super-office-devnet-online-login.md
 [5]: system-user-service-console.md
 [6]: web-config.md
-[7]: ../../../developer-portal/getting-started/index.md#client-id
-[8]: ../../../developer-portal/create-app/config/redirects/index.md
 [9]: scenarios.md
+[7]: ../../../developer-portal/getting-started/index.md#client-id
+[8]: ../../../developer-portal/create-app/config/redirects.md
+[2]: ../../../developer-portal/getting-started/run-website-on-iis-localhost.md
 
 <!-- Referenced images -->
 [img1]: media/image011.png

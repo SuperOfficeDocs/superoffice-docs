@@ -178,6 +178,6 @@ Ensure your web project contains the following files from the sample project `Su
 * PartnerHttpContext.cs
 
 <!-- Referenced links -->
-[1]: ../../../../developer-portal/howto/update-app-config.md
+[1]: ../../../../developer-portal/create-app/config/update-app-config.md
 [2]: ../certificates/configure.md
 [3]: ../../../config/data.md#session

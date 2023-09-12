@@ -47,6 +47,6 @@ items:
     - name: Images and videos
       href: app-store/images-and-videos.md
     - name: Application settings (reference)
-      href: create-app/config/app-settings.md
+      href: app-store/app-settings.md
   - name: Publish
     href: publish.md

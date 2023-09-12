@@ -26,6 +26,6 @@ Before you get to authorization, you must sign up to get your unique [client IDs
 [1]: ../provisioning/index.md
 [4]: ../getting-started/index.md#terminology
 [6]: ../create-app/wizard/index.md
-[5]: ../create-app/config/redirects/index.md
+[5]: ../create-app/config/redirects.md
 
 [3]: ../../api/authentication/online/validate-security-tokens.md

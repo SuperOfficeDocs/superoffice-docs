@@ -143,7 +143,7 @@ conceptualContent:
         - text: Best practices
           itemType: library_books
           typeDesc: reference
-          url: ../developer-portal/best-practices.md
+          url: ../developer-portal/best-practices/index.md
         - text: What API to use?
           itemType: library_books
           typeDesc: reference

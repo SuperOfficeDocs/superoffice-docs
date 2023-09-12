@@ -109,7 +109,7 @@ If you have registered the application but lost the keys, you need to [look up y
 [3]: ../../getting-started/app-envir.md
 [4]: ../../getting-started/user-contexts.md
 [5]: ../../provisioning/index.md
-[6]: ../config/redirects/index.md
+[6]: ../config/redirects.md
 [7]: ../config/find-clientid.md
 [8]: ../config/get-client-secret.md
 [9]: ../config/cors-and-redirection-urls.md

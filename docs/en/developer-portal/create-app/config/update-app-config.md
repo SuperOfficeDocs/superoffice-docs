@@ -12,7 +12,7 @@ so.client: online
 
 # Update app config
 
-The application configuration, also known as the technical specification, consists of many sections. For details about each field, see the [app config reference section](../reference/app-config.md).
+The application configuration, also known as the technical specification, consists of many sections. For details about each field, see the [app config reference section][8].
 
 1. In the [Developer Portal][7], go to your application page.
 1. Select **Configuration** from the left menu.
@@ -36,10 +36,11 @@ The application configuration, also known as the technical specification, consis
 > If you add database mirroring or webhooks, the tenant administrator must renew the consent to your application. **Users will be locked out from when the change happens until the consent has been given.**
 
 <!-- Referenced links -->
-[1]: request-to-publish.md
+[1]: ../request-to-publish.md
 [2]: get-client-secret.md
 [3]: new-certificate.md
 [4]: update-endpoints.md
 [5]: cors-and-redirection-urls.md
 [6]: ../../best-practices/tenant-status/index.md#notify
 [7]: https://dev.superoffice.com/
+[8]: app-config.md

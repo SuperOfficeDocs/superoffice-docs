@@ -20,9 +20,9 @@ so.client:
 | Is native or mobile app | Type if application. OAuth2 Native App flow if checked. | [Create native app][20] | [OAuth2 Native app flow][21] |
 | Client ID | Uniquely identifies the application. | [Find client ID][16] | [Terminology][8] |
 | Allowed redirect URLs | Context-specific URLs that will be called by the browser after successful sign-in or when a user clicks one of the available buttons on your application entry. | [Add or update][18] | [About redirects and CORS][7] |
-| Allowed postlogout redirect URLs | Context-specific URLs that will be called by the browser after successful sign-out a user.| [Add or update][18] | [Endpoint types][22] |
+| Allowed postlogout redirect URLs | Context-specific URLs that will be called by the browser after successful sign-out a user.| [Add or update][18] | [Endpoint types][7] |
 | CORS URLs | | [Add or update][18] | [About redirects and CORS][7] |
-| Default redirect URL | Used by legacy authentication - add all needed redirect URLs to your apps allowed list. | [Add or update][18] | [Endpoint types][22] |
+| Default redirect URL | Used by legacy authentication - add all needed redirect URLs to your apps allowed list. | [Add or update][18] | [Endpoint types][7] |
 | Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | [Get consent][34], [Add or update text][35] | [About consent][33] |
 
 > [!NOTE]
@@ -137,7 +137,7 @@ These settings are read only for all except SuperOffice AS app managers.
 [1]: ../../standard-app/app-store/app-settings.md
 [5]: ../../standard-app/certification/certify-app.md
 [6]: ../../standard-app/certification/initial-watchcom-eval.md
-[7]: redirects/index.md
+[7]: redirects.md
 [8]: ../../getting-started/index.md#terminology
 [9]: ../../../api/authentication/online/auth-application/sign-system-user-token.md
 [10]: ../../getting-started/what-api-to-use.md
@@ -152,7 +152,6 @@ These settings are read only for all except SuperOffice AS app managers.
 [19]: new-certificate.md
 [20]: ../wizard/native-app.md
 [21]: ../../../api/authentication/online/sign-in-user/auth-code-flow.md
-[22]: redirects/endpoint-types.md
 [23]: update-endpoints.md
 [24]: ../../api/authentication/online/certificates/index.md
 [25]: ../wizard/mirror-app.md

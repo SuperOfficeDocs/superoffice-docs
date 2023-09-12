@@ -105,7 +105,7 @@ A specific SuperOffice installation registered for a specific customer. In other
 <!-- Referenced links -->
 [1]: app-envir.md
 [2]: ../create-app/wizard/index.md
-[4]: ../create-app/config/redirects/index.md
+[4]: ../create-app/config/redirects.md
 [6]: ../standard-app/certification/certify-app.md
 [8]: ../standard-app/publish.md
 [7]: ../custom-app/validate.md

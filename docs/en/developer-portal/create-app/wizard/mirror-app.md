@@ -72,10 +72,10 @@ Required information to put into *web.config* of your mirroring service:
 [3]: ../../best-practices/error-emails.md
 [4]: ../../admin/license/expander-services/tool-box.md
 [5]: ../../admin/license/expander-services/index.md#development-products
-[7]: ../security/find-clientid.md
-[10]: ../security/new-certificate.md
+[7]: ../config/find-clientid.md
+[10]: ../config/new-certificate.md
 [11]: ../../mirroring/getting-started/create-wfc.md
-[18]: ../howto/request-to-publish.md
+[18]: ../request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/mirror-service-url.png

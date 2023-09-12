@@ -18,7 +18,7 @@ so.client:
 [!include[Define app credentials](../../includes/def-app-credentials.md)] That also means that you can't copy it from the Developer Portal. If it's lost, you need to create a new one.
 
 <!-- markdownlint-disable MD029 -->
-[!include[Go to the app page](../includes/go-to-app-page.md)]
+[!include[Go to the app page](../../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
 
@@ -40,7 +40,7 @@ so.client:
 * [Application environments][3]
 
 <!-- Referenced links -->
-[3]: ../../app-envir.md
+[3]: ../../getting-started/app-envir.md
 
 <!-- Referenced images -->
 [img1]: media/client-secret.png

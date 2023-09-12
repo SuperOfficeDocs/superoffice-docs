@@ -75,7 +75,7 @@ If needed, we may go back in time to see when and by whom an operation was perfo
 [4]: ../publish.md#beta
 [5]: ../../custom-app/index.md
 [6]: ../../custom-app/validate.md
-[11]: ../../create-app/config/redirects/index.md
+[11]: ../../create-app/config/redirects.md
 [9]: ../../getting-started/index.md#client-secret
 [10]: ../../getting-started/user-contexts.md
 [12]: ../../getting-started/app-envir.md

@@ -147,15 +147,14 @@ landingContent:
           - text: User settings
             url: "partner/user-settings.md"
 
-
   # Card
   - title: Configuration
     linkLists:
     - itemType: map
       typeDesc: overview
       links:
-      - text: Endpoint types
-        url: redirects/endpoint-types.md
+      - text: What is a redirect?
+        url: create-app/config/redirects.md
     - itemType: list
       typeDesc: how-to-guide
       links:
@@ -164,17 +163,15 @@ landingContent:
         - text: State Change URL
           url: "best-practices/tenant-status/get-notifications.md"
         - text: CORS and redirection URLs
-          url: "create-app/configcors-and-redirection-urls.md"
+          url: "create-app/config/cors-and-redirection-urls.md"
         - text: Find client ID
-          url: "create-app/configfind-clientid.md"
+          url: "create-app/config/find-clientid.md"
         - text: New client secret
-          url: "create-app/configget-client-secret.md"
+          url: "create-app/config/get-client-secret.md"
         - text: New certificate
-          url: "create-app/confignew-certificate.md"
+          url: "create-app/config/new-certificate.md"
         - text: Request to publish
           url: "create-app/request-to-publish.md"
-        - text: What is a redirect?
-          url: create-app/config/redirects/index.md
 
   # Card
   - title: App Store

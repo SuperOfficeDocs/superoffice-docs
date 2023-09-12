@@ -23,8 +23,6 @@ items:
   href: config/index.md
   expanded: true
   items:
-  - name: Application configuration
-    href: config/app-config.md
   - name: What is my client ID?
     href: config/find-clientid.md
   - name: Create new client secret
@@ -34,13 +32,13 @@ items:
   - name: Create new certificate
     href: config/new-certificate.md
   - name: Redirects
-    href: config/redirects/index.md
-  - name: Endpoint types
-    href: config/redirects/endpoint-types.md
-  - name: Update configuration
-    href: config/update-app-config.md
+    href: config/redirects.md
   - name: Update endpoints
     href: config/update-endpoints.md
+  - name: Update configuration
+    href: config/update-app-config.md
+  - name: Reference
+    href: config/app-config.md
 - name: Request to publish
   href: request-to-publish.md
 - name: Message center

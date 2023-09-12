@@ -1,4 +1,5 @@
 ---
+uid: app-provisioning
 title: provisioning
 description: "Learn what app provisioning is and the benefits of automating it."
 author: Margrethe Romnes
