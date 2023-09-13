@@ -41,7 +41,7 @@ so.version: 10.2
   * [Archive attachment on a message][12] in Service
   * [Search in the Find request tab gives both selections and requests][12] in Service
 
-* 10.2.7 (01.09.2023):
+* 10.2.8 (19.09.2023):
   * [Open/download attachments in side bar preview][24] in Service
   * [Update lists clicking the exclamation mark][24] in Service
   * [Create system signature for requests][24] in Service
@@ -110,6 +110,6 @@ so.version: 10.2
 [21]: https://appstore.superoffice.com/lasso-x/lasso-for-superoffice
 [22]: https://appstore.superoffice.com/mailvideo-as/mailvideo
 [23]: https://appstore.superoffice.com/siteshop-aps/risika-risk-credit
-[24]: service/10.2.7-update.md
+[24]: service/10.2.8-update.md
 
 <!-- Referenced images -->
