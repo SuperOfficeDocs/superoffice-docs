@@ -27,7 +27,7 @@ so.client: online
 <!-- markdownlint-restore -->
 
 <!-- Referenced links -->
-[1]: update-contact-person.md
+[1]: ../faq/update-contact-person.md
 
 <!-- Referenced images -->
 [img1]: media/partner-settings.png

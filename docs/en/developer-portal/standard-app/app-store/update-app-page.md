@@ -21,7 +21,7 @@ The information shown on your app-specific product pages in the App Store comes 
 
 <!-- markdownlint-disable DOCSMD007 -->
 > [!TIP]
-> [!include[Link to application settings](../../includes/see-app-settings.md)]
+> [!include[Link to application settings](../includes/see-app-settings.md)]
 <!-- markdownlint-restore -->
 
 ## Update application settings

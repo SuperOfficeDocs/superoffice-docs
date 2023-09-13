@@ -22,7 +22,7 @@ The Developer Portal stores your public key. However, you must store the private
 ## How to
 
 <!-- markdownlint-disable MD029 -->
-[!include[Go to the app page](../includes/go-to-app-page.md)]
+[!include[Go to the app page](../../includes/go-to-app-page.md)]
 <!-- List starts in the include. Next line MUST be 2. -->
 2. Select **Configuration**.
 

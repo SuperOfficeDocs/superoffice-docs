@@ -38,7 +38,7 @@ When a tenant installation changes, SuperOffice sends a [change notification][2]
 
     ![Configure notifications per environment -screenshot][img2]
 
-7. [!include[Has integration?](includes/has-integration.md)]
+7. [!include[Has integration?](../../includes/has-integration.md)]
 
 8. Click **Save Settings** or **OK**.
 

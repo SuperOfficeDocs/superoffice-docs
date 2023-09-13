@@ -84,7 +84,8 @@ When you sign in to the Developer Portal, you either represent SuperOffice or a 
 
 A partner may own and/or develop applications.
 
-[!include[Many apps](includes/note-more-than-8-apps.md)]
+> [!NOTE]
+> By default, applications are shown as tiles on the partner page. If there are more than eight applications by a partner, you'll instead see a list that can be filtered and grouped.
 
 Anyone may [register as a CRM Online developer][1] and the first person who register for a new company will trigger the creation of a partner.
 

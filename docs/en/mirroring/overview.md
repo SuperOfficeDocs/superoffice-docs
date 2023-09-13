@@ -31,17 +31,17 @@ Imagine you are an online application vendor who has created the world's best tr
 
 ### Registered application
 
-We keep a record of the applications you register in our Operations Center. This information includes your [client ID and client secret][1] (token) and whether mirroring has been activated.
+We keep a record of the applications you register in our Operations Center. This information includes your [client ID and client secret][5] (token) and whether mirroring has been activated.
 
 When we activate mirroring, we also store the mirroring URL, which is where the Mirroring Task will send the data.
 
 ### Mirroring task
 
-The [Mirroring task][2] is a background process in our Operation Center that transfers data from a [tenant database][1] to a partner's registered [application][4]. It is responsible for provisioning the change tracking in the customer database and it is managed by SuperOffice.
+The [Mirroring task][2] is a background process in our Operation Center that transfers data from a [tenant database][5] to a partner's registered [application][4]. It is responsible for provisioning the change tracking in the customer database and it is managed by SuperOffice.
 
 ### A web service implementing IMirrorClientService and IMirrorAdmin
 
-You must create and host the web service that receives the data. This web service must implement the [IMirroringClient interface][5]. The service interface is responsible for establishing a trusted connection, receiving the data, and performing the actual mirroring, such as provisioning of tables and performing schema updates.
+You must create and host the web service that receives the data. This web service must implement the [IMirroringClient interface][1]. The service interface is responsible for establishing a trusted connection, receiving the data, and performing the actual mirroring, such as provisioning of tables and performing schema updates.
 
 ## Database management system
 
@@ -55,7 +55,7 @@ This avoids the need to create a NetServer instance for database independence an
 
 You don't get an exact copy of a tenant database, but a subset that contains more than enough data for what the application needs for offline processing.
 
-Primary key, data type, NULL / NOT NULL, and default value are mirrored, and of course the table and column names. [Read more about the schema][6].
+Primary key, data type, NULL / NOT NULL, and default value are mirrored, and of course the table and column names. [Read more about the schema][3].
 
 We remove data that is irrelevant, that would incur unnecessary stress between systems, and which would not make sense to replicate:
 
@@ -113,12 +113,12 @@ There is no user or session concept in the mirroring client, so no session token
 The Mirroring Task sends the SuperOffice signed token with every call so that the client can validate each call independently.
 
 <!-- Referenced links -->
-[1]: ../developer-portal/getting-started/index.md#terminology
+[1]: getting-started/i-mirror-client-service.md
 [2]: mirroring-task.md
+[3]: sql-server-schema.md
 [4]: ../developer-portal/overview.md
-[5]: getting-started/i-mirror-client-service.md
-[6]: sql-server-schema.md
-[8]: ../developer-portal/custom/index.md
+[5]: ../developer-portal/getting-started/index.md#terminology
+[8]: ../developer-portal/custom-app/index.md
 [9]: ../developer-portal/provisioning/get-consent.md
 [10]: ../api/authentication/online/validate-security-tokens.md
 [11]: ../api/authentication/online/auth-application/sign-system-user-token.md

@@ -48,7 +48,7 @@ landingContent:
         typeDesc: overview
         links:
         - text: What is a custom (private) application?
-          url: custom.md
+          url: custom-app/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
@@ -57,9 +57,9 @@ landingContent:
           - text: Validate an app
             url: custom-app/validate.md
           - text: First-time activation
-            url: custom-app/activate-custom-app.md
+            url: custom-app/activate.md
           - text: Helper for custom applications
-            url: create/app/helper-application.md
+            url: create-app/helper-application.md
       - itemType: library_books
         typeDesc: reference
         links:
@@ -77,7 +77,7 @@ landingContent:
         - text: The SuperOffice app store
           url: standard-app/app-store/index.md
         - text: Initial Watchcom evaluation
-          url: certification/initial-watchcom-eval.md
+          url: standard-app/certification/initial-watchcom-eval.md
       - itemType: list
         typeDesc: how-to-guide
         links:

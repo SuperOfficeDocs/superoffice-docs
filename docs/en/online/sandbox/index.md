@@ -85,7 +85,7 @@ When the customer is ready to launch the approved application on their productio
 [4]: order-sandbox.md
 [5]: clone-to.md
 [6]: ../../developer-portal/custom-app/validate.md
-[7]: ../../developer-portal/best-practices.md
+[7]: ../../developer-portal/best-practices/index.md
 
 <!-- Referenced images -->
 [img12]: media/imageu533bo.png

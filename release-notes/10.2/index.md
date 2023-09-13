@@ -106,7 +106,7 @@ so.version: 10.2
 [17]: office-integrations/3.1-update.md
 [18]: https://appstore.superoffice.com/Category/new-or-updated
 [19]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
-[20]: ../../docs/en/developer-portal/message-center/index.md
+[20]: ../../docs/en/developer-portal/create-app/message-center.md
 [21]: https://appstore.superoffice.com/lasso-x/lasso-for-superoffice
 [22]: https://appstore.superoffice.com/mailvideo-as/mailvideo
 [23]: https://appstore.superoffice.com/siteshop-aps/risika-risk-credit

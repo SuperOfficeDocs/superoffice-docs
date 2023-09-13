@@ -65,4 +65,4 @@ For other errors, such as when a customer reports a problem from the App Store, 
 [8]: ../faq/update-contact-person.md
 
 <!-- Referenced images -->
-[img3]: media/error-reporting-emails.png
+[img3]: ../media/error-reporting-emails.png

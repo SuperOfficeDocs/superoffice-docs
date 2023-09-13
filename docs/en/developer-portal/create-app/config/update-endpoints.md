@@ -55,7 +55,7 @@ To get access to additional SuperOffice API endpoints or RESTful agents, you nee
 
     ![Configure endpoint per environment -screenshot][img4]
 
-4. [!include[Has integration?](includes/has-integration.md)]
+4. [!include[Has integration?](../../includes/has-integration.md)]
 
 5. Save and publish.
 
@@ -64,7 +64,7 @@ To get access to additional SuperOffice API endpoints or RESTful agents, you nee
 1. Open the advanced configuration.
 2. Select **ERP** from the secondary menu.
 3. Update the **Endpoint** field in the **Quote connection** section. Optionally, choose different values per environment.
-4. [!include[Has integration?](includes/has-integration.md)]
+4. [!include[Has integration?](../../includes/has-integration.md)]
 5. Save and publish.
 
 ## Database mirroring
@@ -75,7 +75,7 @@ To get access to additional SuperOffice API endpoints or RESTful agents, you nee
     ![Database mirroring configuration for application -screenshot][img5]
 
 3. Update the **Endpoint** field. Optionally, choose different values per environment.
-4. [!include[Has integration?](includes/has-integration.md)]
+4. [!include[Has integration?](../../includes/has-integration.md)]
 5. Save and publish.
 
 ## Customer state change notifications

@@ -20,7 +20,7 @@ so.client:
 | Application name | The human-readable name of the application. | [Update app info][3] | [Naming requirements][8] |
 | SEO-friendly name | For search engines. | [Update partner profile][2], [Update the product page][3] | [Improve SEO][1] |
 | Technical contact | The contact person for this app. | [Update contact person][21] | |
-| Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. If empty, technical contact will get these. | [Set state change URL][26], [Get error emails][26] | [About tenant status][27] |
+| Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. If empty, technical contact will get these. | [Set state change URL][26], [Get error emails][28] | [About tenant status][27] |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | [Create app][13] | [About custom apps][16] |
 | Is beta | Whether the app is currently in beta in the App Store. | [Publish app][10] | [About the beta period][9] |
@@ -150,8 +150,9 @@ Setting | Description | Read more |
 [21]: ../../faq/update-contact-person.md
 [23]: ../../partner/partner-settings.md
 [24]: ../../partner/user-settings.md
-[26]: ../../best-practices/notifications.md#tenant-status
+[26]: ../../best-practices/tenant-status/get-notifications.md
 [27]: ../../best-practices/tenant-status/index.md
+[28]: ../../best-practices/error-emails.md
 
 <!-- Referenced images -->
 [img1]: ../../media/app-overview.png

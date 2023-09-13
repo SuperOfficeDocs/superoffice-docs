@@ -111,11 +111,11 @@ If you have any issues with the sample, please post an issue on the [repo issues
 <!-- Referenced links -->
 [2]: ../../developer-portal/create-app/wizard/web-app.md
 [3]: ../../developer-portal/getting-started/index.md#terminology
+[8]: ../../developer-portal/getting-started/app-envir.md
+[6]: ../../developer-portal/faq/update-app.md
 [4]: index.md
 [5]: ../authentication/online/sign-in-user/auth-code-flow.md
-[6]: ../../developer-portal/howto/update-app.md
 [7]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
-[8]: ../../developer-portal/getting-started/app-envir.md
 [10]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/issues
 
 <!-- Referenced images -->

@@ -79,7 +79,7 @@ Related to the App itself, you have specified specific URLs, in the left section
 
 ## Categories, languages, markets
 
-To indicate the availability of your app and follow the [marketing requirements][3], select one or more categories, languages, markets. [!include[See settings](../../includes/see-app-settings.md)]
+To indicate the availability of your app and follow the [marketing requirements][3], select one or more categories, languages, markets. [!include[See settings](../includes/see-app-settings.md)]
 
 <!-- Referenced links -->
 [1]: update-app-page.md#request-to-publish

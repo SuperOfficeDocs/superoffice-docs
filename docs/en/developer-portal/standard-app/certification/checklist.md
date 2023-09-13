@@ -16,7 +16,7 @@ My application is ready, what should I consider before I ask for a certification
 
 ## Security
 
-[!include[ALT](../includes/security-checklist.md)]
+[!include[ALT](../../includes/security-checklist.md)]
 
 * Absolutely no user credential authentication information is stored in your application
 * [Visibility restrictions][16] are preserved when you copy data. For example, copied documents with private visibility must remain intact.
@@ -33,7 +33,7 @@ My application is ready, what should I consider before I ask for a certification
 
 ## Protect your web panels
 
-[!include[ALT](../includes/protect-webpanels.md)]
+[!include[ALT](../../includes/protect-webpanels.md)]
 
 * Visibility is set to **all user groups** by default
 * The application name and/or your company name is part of the web panel's description
@@ -53,7 +53,7 @@ My application is ready, what should I consider before I ask for a certification
 * Persons may be associates - if they have a row in the associate table then
   * don't update a person's company (`person.contact_id`)
 
-[!include[ALT](../includes/protect-database.md)]
+[!include[ALT](../../includes/protect-database.md)]
 
 ## GDPR - creating persons
 

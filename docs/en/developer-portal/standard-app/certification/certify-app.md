@@ -23,7 +23,7 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 1. [Request to publish configuration in the Developer Portal][5].
 2. Provide additional info and clarify questions while we run certification tests in SOD and Stage.
 
-    [!include[List of info](../includes/list-of-test-period-info.md)]
+    [!include[List of info](../../includes/list-of-test-period-info.md)]
 
 3. [Pass Watchcom security test][3].
 4. Fix issues if necessary.

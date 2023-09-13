@@ -143,7 +143,7 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 [9]: scenarios.md
 [7]: ../../../developer-portal/getting-started/index.md#client-id
 [8]: ../../../developer-portal/create-app/config/redirects.md
-[2]: ../../../developer-portal/getting-started/run-website-on-iis-localhost.md
+[2]: ../../../developer-portal/faq/run-website-on-iis-localhost.md
 
 <!-- Referenced images -->
 [img1]: media/image011.png

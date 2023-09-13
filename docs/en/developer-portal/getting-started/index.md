@@ -88,7 +88,7 @@ Creating an application for the SuperOffice App Store is not something to take l
 
 ## Terminology
 
-[!include[Define app credentials](includes/def-app-credentials.md)]
+[!include[Define app credentials](../includes/def-app-credentials.md)]
 
 ### <a id="client-id" />Client ID - ApplicationIdentifier
 

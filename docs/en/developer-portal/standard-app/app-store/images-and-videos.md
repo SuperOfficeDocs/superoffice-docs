@@ -14,7 +14,7 @@ so.envir: cloud
 
 ![App store information, images and videos -screenshot][img1]
 
-[!include[ALT](../../includes/app-store-image-req.md)]
+[!include[ALT](../includes/app-store-image-req.md)]
 
 > [!NOTE]
 > Remember to [request to publish][1] to make your changes visible in the App Store.
