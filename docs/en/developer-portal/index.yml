@@ -257,7 +257,13 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Customers
-          url: "analytics/customers.md"
+          url: analytics/customers.md
+        - text: View API call statistics
+          url: analytics/metered-services.md
+        - text: View exceptions
+          url: analytics/failures.md
+        - text: Check application API performance
+          url: analytics/metrics-performance.md
 
   # Card
   - title: APIs

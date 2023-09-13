@@ -96,6 +96,8 @@ items:
       href: analytics/metered-services.md
     - name: View exceptions
       href: analytics/failures.md
+    - name: Check application API performance
+      href: analytics/metrics-performance.md
 
   - name: FAQ
     expanded: true

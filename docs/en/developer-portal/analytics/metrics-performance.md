@@ -48,27 +48,24 @@ The **API Performance tab** shows API-level application performance for one spec
 
 * To see the request details, select one of the samples from the samples list.
 
-![API performance selected row -screenshot][img2]
+    ![API performance selected row -screenshot][img2]
 
-Observe the sample details:
+    Observe the sample details:
 
-![API request samples -screenshot][img3]
+    ![API request samples -screenshot][img3]
 
-> [!NOTE]
-> The left side samples column contains each invocation for the endpoint. The center column contains the endpoint and the column on the right contains the invocation details.
+    > [!NOTE]
+    > The left side samples column contains each invocation for the endpoint. The center column contains the endpoint and the column on the right contains the invocation details.
 
 * To return to the API Performance list, click the X in the upper right-hand corner.
 
 ## Improve app performance
 
-Leverage our [best practices for online app development][2] to both boost your application's performance and reduce its API usage. Both [cashing][3] and [search][4] have a huge impact.
+[!include[Best practices](includes/improve-performance.md)]
 
 During development, following the statistics in SOD day-by-day can provide valuable insight into the impact of your improvements.
 
 <!-- Referenced links -->
-[2]: ../best-practices/index.md
-[3]: ../best-practices/index.md#caching
-[4]: ../best-practices/index.md#searching
 
 <!-- Referenced images -->
 [img1]: media/metrics-performance-landing.png

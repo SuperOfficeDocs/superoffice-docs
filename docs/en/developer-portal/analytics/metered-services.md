@@ -56,7 +56,7 @@ The **app page** shows application usage for one specific application.
 
 ## Improve app performance
 
-Leverage our [best practices for online app development][2] to both boost your application's performance and reduce its API usage. Both [cashing][3] and [search][4] have a huge impact.
+[!include[Best practices](includes/improve-performance.md)]
 
 The default time period when you look at API calls is **Months**, but you can change the resolution on the horizontal axis to **Weeks** or **Days**.
 
@@ -68,9 +68,6 @@ During development, following the statistics in SOD day-by-day can provide valua
 
 <!-- Referenced links -->
 [1]: customers.md
-[2]: ../best-practices/index.md
-[3]: ../best-practices/index.md#caching
-[4]: ../best-practices/index.md#searching
 
 <!-- Referenced images -->
 [img1]: media/usage.png
