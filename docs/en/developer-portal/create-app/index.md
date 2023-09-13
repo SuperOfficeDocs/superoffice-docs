@@ -37,7 +37,7 @@ so.client:
 
     ![Enter redirect URL -screenshot][img4]
 
-6. Specify [integration points][17] if applicable.
+6. Specify [integration points][27] if applicable.
 
 7. Set the technical contact for your app.
 
@@ -49,7 +49,7 @@ All app configurations are automatically published to SOD. You can now [request 
 
 ![App registration complete -screenshot][img6]
 
-For standard apps, you can [start working on the App Store information][11].
+For standard apps, you can [start working on the App Store information][26].
 
 Watch the walk-through on YouTube:
 
@@ -81,51 +81,52 @@ When registering an application, you can choose from five predefined templates t
 
 ## Get keys
 
-After [signing up for a developer account][1], you need to register your application idea to get your unique client ID and client secret so you can start coding.
+After [signing up for a developer account][21], you need to register your application idea to get your unique client ID and client secret so you can start coding.
 
 If you have registered the application but lost the keys, you need to [look up your ID][7] and [create a new secret][8].
 
 ## Read more
 
-* [Getting started][1]
-* [Application environments][3]
-* [Integration points][17]
-* [User contexts][4]
-* [Provisioning][5]
+* [Getting started][21]
+* [Application environments][23]
+* [Integration points][27]
+* [User contexts][24]
+* [Provisioning][25]
 * [Redirects][6]
 
 ## What would you like to do?
 
-* [Get access to SOD][2]
+* [Get access to SOD][22]
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
-* [Add a certificate][10]
+* [Add a certificate][5]
 * [Request to publish][18]
 
 <!-- Referenced links -->
-[1]: ../../getting-started/index.md
-[2]: ../../getting-started/get-access-to-sod.md
-[3]: ../../getting-started/app-envir.md
-[4]: ../../getting-started/user-contexts.md
-[5]: ../../provisioning/index.md
-[6]: ../config/redirects.md
-[7]: ../config/find-clientid.md
-[8]: ../config/get-client-secret.md
-[9]: ../config/cors-and-redirection-urls.md
-[10]: ../config/new-certificate.md
-[11]: ../../standard-app/app-store/update-app-page.md
+[5]: config/new-certificate.md
+[6]: config/redirects.md
+[7]: config/find-clientid.md
+[8]: config/get-client-secret.md
+[9]: config/cors-and-redirection-urls.md
 [12]: web-app.md
 [13]: native-app.md
 [14]: server-to-server-app.md
 [15]: mirror-app.md
 [16]: sync-app.md
-[17]: ../../../api/overview/index.md
-[18]: ../request-to-publish.md
+[17]: empty-app.md
+[18]: request-to-publish.md
 [19]: https://dev.superoffice.com/
+[21]: ../getting-started/index.md
+[22]: ../getting-started/get-access-to-sod.md
+[23]: ../getting-started/app-envir.md
+[24]: ../getting-started/user-contexts.md
+[25]: ../provisioning/index.md
+[26]: ../standard-app/app-store/update-app-page.md
+[27]: ../../api/overview/index.md
 
 <!-- Referenced images -->
-[img1]: ../../media/partner-overview.png
+[img1]: ../media/partner-overview.png
 [img2]: media/create-app-wizard.png
 [img3]: media/enter-app-name.png
 [img4]: media/enter-redirect-urls.png

@@ -17,7 +17,7 @@ so.client:
 This template creates an application configuration that uses [OAuth2 Native app flow][5], which depends on Proof Key for Code Exchange (PKCE).
 
 * Adds `^http://127.0.0.1\:\d{4,10}$` as an allowed redirect URL. You may add more.
-* Enables the [WebApi][1] API endpoint and add access to the [Webhook agent][4].
+* Enables the [WebApi][6] API endpoint and add access to the [Webhook agent][4].
 * Sets **Is native or mobile** in the advanced authentication configuration.
 
 [!include[Required license](includes/cust-app-req-license.md)]
@@ -46,25 +46,25 @@ This template creates an application configuration that uses [OAuth2 Native app 
 
 ## What would you like to do next?
 
-* [Check what your client ID is][7]
-* [Create a new client secret][8]
-* [View or change CORS and redirection URLs][9]
+* [Check what your client ID is][17]
+* [Create a new client secret][18]
+* [View or change CORS and redirection URLs][19]
 * [Manage notifications][2]
 * [Get error emails][3]
-* [Start working on the App Store information][11]
-* [Request to publish the configuration][18]
+* [Start working on the App Store information][1]
+* [Request to publish the configuration][16]
 
 <!-- Referenced links -->
-[2]: ../../best-practices/tenant-status/get-notifications.md
-[3]: ../../best-practices/error-emails.md
-[1]: ../../../api/reference/restful/index.md
-[4]: ../../../api/reference/restful/agent/Webhook_Agent/index.md
-[5]: ../../../api/authentication/online/sign-in-user/auth-code-flow.md
-[7]: ../config/find-clientid.md
-[8]: ../config/get-client-secret.md
-[9]: ../config/cors-and-redirection-urls.md
-[11]: ../../standard-app/app-store/update-app-page.md
-[18]: ../request-to-publish.md
+[1]: ../standard-app/app-store/update-app-page.md
+[2]: ../best-practices/tenant-status/get-notifications.md
+[3]: ../best-practices/error-emails.md
+[6]: ../../api/reference/restful/index.md
+[4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
+[5]: ../../api/authentication/online/sign-in-user/auth-code-flow.md
+[16]: request-to-publish.md
+[17]: config/find-clientid.md
+[18]: config/get-client-secret.md
+[19]: config/cors-and-redirection-urls.md
 
 <!-- Referenced images -->
 [img4]: media/enter-redirect-urls.png

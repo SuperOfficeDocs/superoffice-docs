@@ -53,23 +53,23 @@ This template creates an app configuration that uses the [system user flow][7].
 * [Add a certificate][10]
 * [Manage notifications][2]
 * [Get error emails][3]
-* [Start working on the App Store information][11]
-* [Request to publish the configuration][8]
+* [Start working on the App Store information][9]
+* [Request to publish the configuration][11]
 
 <!-- Referenced links -->
-[2]: ../../best-practices/tenant-status/get-notifications.md
-[3]: ../../best-practices/error-emails.md
-[1]: ../../../api/reference/restful/index.md
-[4]: ../../../api/reference/restful/agent/Webhook_Agent/index.md
-[5]: ../../../api/authentication/online/index.md#claims-and-scope
-[6]: ../../../api/reference/soap/Services88/index.md
-[7]: ../../../api/authentication/online/auth-application/index.md
-[12]: ../config/find-clientid.md
-[18]: ../config/get-client-secret.md
-[13]: ../config/cors-and-redirection-urls.md
-[10]: ../config/new-certificate.md
-[11]: ../../standard-app/app-store/update-app-page.md
-[8]: ../request-to-publish.md
+[2]: ../best-practices/tenant-status/get-notifications.md
+[3]: ../best-practices/error-emails.md
+[9]: ../standard-app/app-store/update-app-page.md
+[1]: ../../api/reference/restful/index.md
+[4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
+[5]: ../../api/authentication/online/index.md#claims-and-scope
+[6]: ../../api/reference/soap/Services88/index.md
+[7]: ../../api/authentication/online/auth-application/index.md
+[12]: config/find-clientid.md
+[18]: config/get-client-secret.md
+[13]: config/cors-and-redirection-urls.md
+[10]: config/new-certificate.md
+[11]: request-to-publish.md
 
 <!-- Referenced images -->
 [img4]: media/enter-redirect-urls.png

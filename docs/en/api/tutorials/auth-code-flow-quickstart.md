@@ -109,7 +109,7 @@ The *SoHttpRestClient.cs* file is an `HttpClient` helper class to make REST req
 If you have any issues with the sample, please post an issue on the [repo issues page][10].
 
 <!-- Referenced links -->
-[2]: ../../developer-portal/create-app/wizard/web-app.md
+[2]: ../../developer-portal/create-app/web-app.md
 [3]: ../../developer-portal/getting-started/index.md#terminology
 [8]: ../../developer-portal/getting-started/app-envir.md
 [6]: ../../developer-portal/faq/update-app.md

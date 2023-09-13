@@ -49,24 +49,24 @@ This template creates a web app configuration that uses [interactive OIDC authen
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
-* [Add a certificate][10]
-* [Manage notifications][2]
-* [Get error emails][3]
+* [Add a certificate][6]
+* [Manage notifications][18]
+* [Get error emails][13]
 * [Start working on the App Store information][11]
-* [Request to publish the configuration][18]
+* [Request to publish the configuration][2]
 
 <!-- Referenced links -->
 [1]: ../../api/reference/restful/index.md
 [4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
 [5]: ../../api/authentication/online/index.md#oidc
-[7]: ../config/find-clientid.md
-[8]: ../config/get-client-secret.md
-[9]: ../config/cors-and-redirection-urls.md
-[10]: ../config/new-certificate.md
-[11]: ../../standard-app/app-store/update-app-page.md
-[18]: ../request-to-publish.md
-[2]: ../../best-practices/tenant-status/get-notifications.md
-[3]: ../../best-practices/error-emails.md
+[6]: config/new-certificate.md
+[7]: config/find-clientid.md
+[8]: config/get-client-secret.md
+[9]: config/cors-and-redirection-urls.md
+[2]: request-to-publish.md
+[13]: ../best-practices/error-emails.md
+[11]: ../standard-app/app-store/update-app-page.md
+[18]: ../best-practices/tenant-status/get-notifications.md
 
 <!-- Referenced images -->
 [img4]: media/enter-redirect-urls.png

@@ -135,7 +135,7 @@ conceptualContent:
         - text: Register an application
           itemType: list
           typeDesc: how-to-guide
-          url: ../developer-portal/create-app/wizard/index.md
+          url: ../developer-portal/create-app/index.md
         - text: "Requirements"
           itemType: library_books
           typeDesc: reference

@@ -151,12 +151,12 @@ These settings are read only for all except SuperOffice AS app managers.
 [17]: get-client-secret.md
 [18]: cors-and-redirection-urls.md
 [19]: new-certificate.md
-[20]: ../wizard/native-app.md
+[20]: ../native-app.md
 [21]: ../../../api/authentication/online/sign-in-user/auth-code-flow.md
 [23]: update-endpoints.md
 [24]: ../../api/authentication/online/certificates/index.md
-[25]: ../wizard/mirror-app.md
-[26]: ../wizard/sync-app.md
+[25]: ../mirror-app.md
+[26]: ../sync-app.md
 [27]: ../../../api/plugins/quote-connectors/index.md
 [28]: ../../../api/plugins/erp-connectors/index.md
 [30]: ../../standard-app/certification/index.md

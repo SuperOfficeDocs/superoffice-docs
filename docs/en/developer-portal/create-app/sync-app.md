@@ -18,7 +18,7 @@ so.client:
 This template creates an app configuration for a standard app and asks for the ERP Sync and Quote endpoint URLs. These may also be added at a later time under **Advanced - ERP** in the application configuration.
 
 * Enables the [WebApi][1] and [Services88][6] API endpoints
-* Enable access to the [SystemToken claim][12]
+* Enable access to the [SystemToken claim][7]
 * Enables access to the [ERPSync agent][5] and [Webhook agent][4]
 
 ## Standard app granted license
@@ -54,29 +54,29 @@ This template creates an app configuration for a standard app and asks for the E
 
 ## What would you like to do next?
 
-* [Check what your client ID is][7]
-* [Create a new client secret][8]
-* [View or change CORS and redirection URLs][9]
+* [Check what your client ID is][12]
+* [Create a new client secret][13]
+* [View or change CORS and redirection URLs][11]
 * [Add a certificate][10]
 * [Manage notifications][2]
 * [Get error emails][3]
-* [Start working on the App Store information][11]
+* [Start working on the App Store information][9]
 * [Request to publish the configuration][18]
 
 <!-- Referenced links -->
+[2]: ../best-practices/tenant-status/get-notifications.md
+[3]: ../best-practices/error-emails.md
+[9]: ../standard-app/app-store/update-app-page.md
 [1]: ../../api/reference/restful/index.md
-[2]: ../../best-practices/tenant-status/get-notifications.md
-[3]: ../../best-practices/error-emails.md
 [4]: ../../api/reference/restful/agent/Webhook_Agent/index.md
 [5]: ../../api/reference/restful/agent/ErpSync_Agent/index.md
 [6]: ../../api/reference/soap/Services88/index.md
-[7]: ../config/find-clientid.md
-[8]: ../config/get-client-secret.md
-[9]: ../config/cors-and-redirection-urls.md
-[10]: ../config/new-certificate.md
-[11]: ../../standard-app/app-store/update-app-page.md
-[12]: ../../api/authentication/online/index.md#claims-and-scope
-[18]: ../request-to-publish.md
+[7]: ../../api/authentication/online/index.md#claims-and-scope
+[10]: config/new-certificate.md
+[11]: config/cors-and-redirection-urls.md
+[12]: config/find-clientid.md
+[13]: config/get-client-secret.md
+[18]: request-to-publish.md
 
 <!-- Referenced images -->
 [img1]: media/erp-integration-points.png

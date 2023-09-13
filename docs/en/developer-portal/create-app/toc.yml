@@ -2,21 +2,21 @@ items:
 - name: Overview
   href: index.md
 - name: Register the app
-  href: wizard/index.md
+  href: index.md
   expanded: true
   items:
   - name: Web app
-    href: wizard/web-app.md
+    href: web-app.md
   - name: Native app
-    href: wizard/native-app.md
+    href: native-app.md
   - name: Server-to-server app
-    href: wizard/server-to-server-app.md
+    href: server-to-server-app.md
   - name: Mirroring app
-    href: wizard/mirror-app.md
+    href: mirror-app.md
   - name: ERP sync and quote app
-    href: wizard/sync-app.md
+    href: sync-app.md
   - name: Blank config, DIY
-    href: wizard/empty-app.md
+    href: empty-app.md
 - name: Versioning
   href: versioning.md
 - name: Configuration

@@ -87,7 +87,7 @@ This is your public URL where we [push tenant status changes][7] regarding all c
 For detailed instructions, see [CORS and redirection URLs][6] in the Security section.
 
 <!-- Referenced links -->
-[1]: ../wizard/index.md#default-config
+[1]: ../index.md#default-config
 [2]: ../request-to-publish.md
 [3]: https://dev.superoffice.com/
 [6]: cors-and-redirection-urls.md

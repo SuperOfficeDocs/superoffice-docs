@@ -41,4 +41,4 @@ The SOD tenant can be shared by multiple developers within a company. However, y
 [2]: ../getting-started/index.md#tenant
 [3]: app-envir.md
 [4]: ../../identity-management/user/add-user-in-admin-client.md
-[5]: ../create-app/wizard/index.md
+[5]: ../create-app/index.md

@@ -17,8 +17,8 @@ so.client:
 
 This template creates an app configuration where you just need to add in the application name and technical contact. For the advanced user who know what they want to configure and where our other templates do not really fit the need.
 
-* Enables the [WebApi][1] and [Services88][6] API endpoints
-* Enables access to the [Webhooks agent][5]
+* Enables the [WebApi][1] and [Services88][16] API endpoints
+* Enables access to the [Webhooks agent][15]
 
 [!include[Required license](includes/cust-app-req-license.md)]
 
@@ -51,24 +51,24 @@ This template creates an app configuration where you just need to add in the app
 * [Check what your client ID is][7]
 * [Create a new client secret][8]
 * [View or change CORS and redirection URLs][9]
-* [Add a certificate][10]
-* [Manage notifications][2]
-* [Get error emails][3]
+* [Add a certificate][4]
+* [Manage notifications][18]
+* [Get error emails][13]
 * [Start working on the App Store information][11]
-* [Request to publish the configuration][18]
+* [Request to publish the configuration][2]
 
 <!-- Referenced links -->
-[1]: ../config/app-config.md
-[7]: ../config/find-clientid.md
-[8]: ../config/get-client-secret.md
-[9]: ../config/cors-and-redirection-urls.md
-[10]: ../config/new-certificate.md
-[11]: ../../standard-app/app-store/update-app-page.md
-[18]: ../request-to-publish.md
-[2]: ../../best-practices/tenant-status/get-notifications.md
-[3]: ../../best-practices/error-emails.md
-[5]: ../../../api/reference/restful/agent/Webhook_Agent/index.md
-[6]: ../../../api/reference/soap/Services88/index.md
+[1]: config/app-config.md
+[7]: config/find-clientid.md
+[8]: config/get-client-secret.md
+[9]: config/cors-and-redirection-urls.md
+[4]: config/new-certificate.md
+[2]: request-to-publish.md
+[11]: ../standard-app/app-store/update-app-page.md
+[18]: ../best-practices/tenant-status/get-notifications.md
+[13]: ../best-practices/error-emails.md
+[15]: ../../api/reference/restful/agent/Webhook_Agent/index.md
+[16]: ../../api/reference/soap/Services88/index.md
 
 <!-- Referenced images -->
 [img5]: media/select-technical-contact.png
