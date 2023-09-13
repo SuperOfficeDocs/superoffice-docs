@@ -116,18 +116,18 @@ conceptualContent:
     - title: Develop online apps
       summary: Start developing online integrations
       links:
-        - text: Overview
-          itemType: map
-          typeDesc: overview
-          url: ../developer-portal/index.yml
-        - text: Getting started
-          itemType: power_settings_new
-          typeDesc: get-started
-          url: ../developer-portal/getting-started/index.md
         - text: Developer portal
           itemType: cloud_upload
           typeDesc: deploy
           url: ../developer-portal/index.yml
+        - text: Introduction to app development
+          itemType: map
+          typeDesc: overview
+          url: ../developer-portal/overview.md
+        - text: Getting started
+          itemType: power_settings_new
+          typeDesc: get-started
+          url: ../developer-portal/getting-started/index.md
         - text: Get access to SOD
           itemType: list
           typeDesc: how-to-guide

@@ -236,13 +236,13 @@ Instead, consider using the sequence table to get an estimate of how many record
 The Sequence table has the next primary key id for all tables. Asking for `next_id` will give the next primary key for any given table. The following example queries the sequence table to obtain the next primary key for the contact table:
 
 ```http
-.../../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'contact'
+.../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'contact'
 ```
 
 And here again for the person table.
 
 ```http
-.../../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'person'
+.../api/v1/archive/dynamic?$select=sequence.next_id&$filter=sequence.tablename = 'person'
 ```
 
 Then, when you have the estimated number of records, use the Dynamic archive provider again to perform even a more granular search for just the contact ID and orgNr, instead of using the default provider, `SimpleContact`, when querying the `api/v1/contact` endpoint.
@@ -280,7 +280,7 @@ There are cases where polling the TTL tables are useless. For example, MergeMove
 Here is an example search query to fetch which companies have been merged into another company, and actually deleted. The source record is the `contact_id​` (company identity).
 
 ```http
-../../api/v1/archive/dynamic?$select=mergemovelog.operation, mergemovelog.tableNumber, mergemovelog.sourceRecord&$filter=movemergelog.registered afterTime <LastSyncTime>​
+.../api/v1/archive/dynamic?$select=mergemovelog.operation, mergemovelog.tableNumber, mergemovelog.sourceRecord&$filter=movemergelog.registered afterTime <LastSyncTime>​
 ```
 
 We recommend that you, instead of polling to the TTL table, use webhooks.

@@ -107,7 +107,7 @@ See the `<User:Credentials>` and `<User:ApplicationToken>` elements:
 With a valid credential set, the application can send authenticated requests to the customer tenant.
 
 <!-- Referenced links -->
-[1]: ../../../../developer-portal/create-app/wizard/server-to-server-app.md
+[1]: ../../../../developer-portal/create-app/server-to-server-app.md
 [3]: ../validate-security-tokens.md
 [8]: get-system-user-ticket.md
 [10]: ../sign-in-user/index.md
