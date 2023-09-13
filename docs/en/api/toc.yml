@@ -56,6 +56,8 @@ items:
     items:
     - name: Users and associates
       href: authentication/onsite/users-and-associates.md
+    - name: Terminology
+      href: authentication/onsite/terminology.md
     - name: SoSession
       href: authentication/onsite/sosession/index.md
       items:
@@ -422,6 +424,8 @@ items:
   - name: Find Selection API
     href: search/find-selection/index.md
     items:
+    - name: Terminology
+      href: search/find-selection/terminology.md
     - name: How to search
       href: search/find-selection/how-to-search.md
     - name: How to populate selectable columns
