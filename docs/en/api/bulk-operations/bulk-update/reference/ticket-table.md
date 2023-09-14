@@ -156,6 +156,23 @@ Ticket fields. Key constants are in `BulkUpdateSystem.TicketFieldValueKeys`.
         </tr>
         <tr>
             <td>
+                <p>Status</p>
+            </td>
+            <td>
+                <p>SelectOne</p>
+            </td>
+            <td>
+                <p>Values Count = 1</p>
+                <p>Values[0] = (int) TicketStatus</p>
+            </td>
+            <td>
+            <p>TicketStatus</p>
+                <p>Status</p>
+                <p>Activate</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <p>UserStatus</p>
             </td>
             <td>
@@ -297,6 +314,51 @@ Ticket fields. Key constants are in `BulkUpdateSystem.TicketFieldValueKeys`.
             </td>
             <td>
                 <p>Tags</p>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <p>Sale</p>
+            </td>
+            <td>
+                <p>SelectOne</p>
+            </td>
+            <td>
+                <p>Values Count = 1</p>
+                <p>Values[0] = (int) SaleId</p>
+            </td>
+            <td>
+                <p>SaleId</p>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <p>Project</p>
+            </td>
+            <td>
+                <p>SelectOne</p>
+            </td>
+            <td>
+                <p>Values Count = 1</p>
+                <p>Values[0] = (int) ProjectId</p>
+            </td>
+            <td>
+                <p>ProjectId</p>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <p>TicketType</p>
+            </td>
+            <td>
+                <p>SelectOne</p>
+            </td>
+            <td>
+                <p>Values Count = 1</p>
+                <p>Values[0] = (int) TicketType</p>
+            </td>
+            <td>
+                <p>TicketType</p>
             </td>
         </tr>
     </tbody>
