@@ -141,7 +141,7 @@ Watch the walk-through on YouTube:
 > [!Video https://www.youtube-nocookie.com/embed/One6P5Jm5l0]
 
 <!-- Referenced links -->
-[1]: getting-started/developer-registration-form.md
+[1]: getting-started/get-access-to-sod.md
 [2]: getting-started/app-envir.md
 [3]: overview.md
 [4]: create-app/index.md

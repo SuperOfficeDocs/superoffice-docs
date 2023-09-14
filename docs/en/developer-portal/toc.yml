@@ -13,9 +13,7 @@ items:
     items:
     - name: Developer registration (account)
       href: getting-started/get-access-to-sod.md
-    - name: Developer registration form
-      href: getting-started/developer-registration-form.md
-    - name: App environment
+    - name: App environments
       href: getting-started/app-envir.md
     - name: Hosting
       href: getting-started/hosting.md

@@ -111,7 +111,7 @@ landingContent:
         typeDesc: get-started
         links:
         - text: Register as a developer
-          url: getting-started/developer-registration-form.md
+          url: getting-started/get-access-to-sod.md
         - text: Register an app
           url: create-app/index.md
         - text: Integration points
