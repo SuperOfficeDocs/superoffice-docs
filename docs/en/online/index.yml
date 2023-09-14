@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.02.2022
+  so.date: 09.14.2023
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -120,10 +120,6 @@ conceptualContent:
           itemType: cloud_upload
           typeDesc: deploy
           url: ../developer-portal/index.yml
-        - text: Introduction to app development
-          itemType: map
-          typeDesc: overview
-          url: ../developer-portal/overview.md
         - text: Getting started
           itemType: power_settings_new
           typeDesc: get-started

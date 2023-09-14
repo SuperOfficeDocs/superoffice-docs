@@ -37,7 +37,7 @@ When we activate mirroring, we also store the mirroring URL, which is where the 
 
 ### Mirroring task
 
-The [Mirroring task][2] is a background process in our Operation Center that transfers data from a [tenant database][5] to a partner's registered [application][4]. It is responsible for provisioning the change tracking in the customer database and it is managed by SuperOffice.
+The [Mirroring task][2] is a background process in our Operation Center that transfers data from a [tenant database][5] to a partner's registered [application][8]. It is responsible for provisioning the change tracking in the customer database and it is managed by SuperOffice.
 
 ### A web service implementing IMirrorClientService and IMirrorAdmin
 
@@ -116,7 +116,6 @@ The Mirroring Task sends the SuperOffice signed token with every call so that t
 [1]: getting-started/i-mirror-client-service.md
 [2]: mirroring-task.md
 [3]: sql-server-schema.md
-[4]: ../developer-portal/overview.md
 [5]: ../developer-portal/getting-started/index.md#terminology
 [8]: ../developer-portal/custom-app/index.md
 [9]: ../developer-portal/provisioning/get-consent.md

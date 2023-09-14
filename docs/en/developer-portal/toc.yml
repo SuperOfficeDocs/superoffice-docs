@@ -3,8 +3,6 @@ items:
   href: index.yml
   expanded: true
   items:
-  - name: About applications
-    href: overview.md
   - name: Introduction to Developer Portal
     href: about.md
   - name: Getting started
@@ -15,8 +13,6 @@ items:
       href: getting-started/get-access-to-sod.md
     - name: App environments
       href: getting-started/app-envir.md
-    - name: Hosting
-      href: getting-started/hosting.md
     - name: User contexts
       href: getting-started/user-contexts.md
     - name: What API to use?
