@@ -82,7 +82,8 @@ To remove more than one permission at once, specify each separated by a comma.
 $permissionsToRemove = @("User.Read", "Sites.FullControl.All")
 ```
 
-## How can I retrieve document URLs in SuperOffice SharePoint v2?
+## How to retrieve document URLs in SuperOffice SharePoint v2
+
 
 To retrieve document URLs in SuperOffice SharePoint v2, it's recommended to use the [Microsoft Graph API][1] for access instead of SOExternalref for greater reliability and compatibility across DocPlugin versions. 
 
