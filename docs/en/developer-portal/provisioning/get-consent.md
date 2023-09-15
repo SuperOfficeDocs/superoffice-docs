@@ -3,7 +3,7 @@ uid: tenant-get-consent
 title: Get consent to access a customer's tenant
 description: How to obtain consent to access a customer's tenant
 author: Margrethe Romnes
-so.date: 09.07.2023
+so.date: 09.15.2023
 keywords: tenant, consent, approve
 so.topic: howto
 so.envir: cloud
@@ -23,26 +23,14 @@ Each customer is responsible for their data and must explicitly approve each and
 
     ![Consent -screenshot][img1]
 
+    [Potential errors][3]
+
 3. Provision the application.
-
-## Potential errors
-
-You are unable to complete providing consent (Approve) to the application.
-
-![img2][img2]
-
-This means that SuperOffice Operations Center does not recognize your user as an administrator.
-
-### How to resolve 'account does not have access' error
-
-You can resolve this issue by signing in to SuperOffice, navigate to settings and maintenance (admin), then make a change to the user like user level or role and then save. Next, change back and save again.
-
-Your user is now able to successfully approve the application.
 
 <!-- Referenced links -->
 [1]: ../../api/authentication/online/sign-in-user/index.md
 [2]: consent.md
+[3]: ../faq/unable-to-approve-app.md
 
 <!-- Referenced images -->
 [img1]: media/superid-approve.png
-[img2]: media/no-access-error-page.png

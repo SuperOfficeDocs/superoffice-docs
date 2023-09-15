@@ -104,3 +104,5 @@ items:
       href: faq/update-app.md
     - name: Run website on IIS localhost
       href: faq/run-website-on-iis-localhost.md
+    - name: Unable to approve app
+      href: faq/unable-to-approve-app.md

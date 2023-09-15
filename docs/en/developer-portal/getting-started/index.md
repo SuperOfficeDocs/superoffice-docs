@@ -123,7 +123,7 @@ Any technology stack that supports web services can connect to and exchange data
 
 For SOAP SuperOffice supplies .NET proxy assemblies as NuGet packages. All other technology platforms must generate their own proxies, or use raw SOAP/XML, to access the web services.
 
-## Application hosting
+## <a id ="hosting" />Application hosting
 
 You are responsible for hosting your own applications, regardless of you develop standard applications for the SuperOffice App Store or custom applications for a specific customer.
 
