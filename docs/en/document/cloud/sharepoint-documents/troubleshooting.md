@@ -100,5 +100,5 @@ For detailed guidance and references, consult SuperOffice's documentation:
 
 <!-- Referenced links -->
 [1]: https://docs.microsoft.com/en-us/graph/api/overview
-[2]: https://docs.superoffice.com/en/api/reference/restful/rest/Document/v1DocumentEntity_GetDocumentProperties.html
-[3]: https://docs.superoffice.com/en/api/reference/restful/rest/Document/v1DocumentEntity_GetDocumentUrl.html
+[2]: ../../../api/reference/restful/rest/Document/v1DocumentEntity_GetDocumentProperties.md
+[3]: ../../../api/reference/restful/rest/Document/v1DocumentEntity_GetDocumentUrl.md
