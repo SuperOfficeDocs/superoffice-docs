@@ -81,3 +81,24 @@ To remove more than one permission at once, specify each separated by a comma.
 ```powershell
 $permissionsToRemove = @("User.Read", "Sites.FullControl.All")
 ```
+
+## How to retrieve document URLs in SuperOffice SharePoint v2
+
+
+To retrieve document URLs in SuperOffice SharePoint v2, it's recommended to use the [Microsoft Graph API][1] for access instead of SOExternalref for greater reliability and compatibility across DocPlugin versions. 
+
+Fetching an ExtRef and assuming it has any meaningful value that can be interpreted by anyone other than the DocPlugin is incorrect code. While you may get lucky, the code will still be incorrect.
+
+The Document table contains both ExtRef and ExtUrl values. The choice between the two depends on the specific file.
+
+For the most effective approach, you should first determine whether a document's preferred method for opening is a stream or a URL using `DocumentAgent.GetDocumentProperties()`. If the value is a URL, you can request the URL (typically, but not guaranteed, stored in the ExtUrl column) , using `DocumentAgent.GetDocumentUrl()`.
+
+For detailed guidance and references, consult SuperOffice's documentation:
+
+- [GetDocumentProperties API Reference][2]
+- [GetDocumentUrl API Reference][3]
+
+<!-- Referenced links -->
+[1]: https://docs.microsoft.com/en-us/graph/api/overview
+[2]: ../../../api/reference/restful/rest/Document/v1DocumentEntity_GetDocumentProperties.md
+[3]: ../../../api/reference/restful/rest/Document/v1DocumentEntity_GetDocumentUrl.md
