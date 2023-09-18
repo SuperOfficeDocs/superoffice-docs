@@ -17,10 +17,9 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 
 * Windows 11
 * Windows 10
-* Windows 8.1
+* MacOS Ventura
 * MacOS Monterey
 * MacOS Big Sur
-* MacOS Catalina
 
 ## Browsers
 
@@ -34,7 +33,6 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 * Microsoft Office 2021
 * Microsoft Office 2019
 * Microsoft Office 2016
-* Microsoft Office 2013
 * Support for Google and Microsoft 365 authentication and document storage
 
 ### Documents in CRM online
@@ -42,7 +40,7 @@ CRM Online is the same as our Web client, but since our strategy is to deliver n
 * File size: Max 94,4 MB
 * Timeout on file upload: 5 min
 
-This means that you need about 2,5 - 3 Mbit/sec upload speed to be able to add/edit a 94 MB file to CRM online.
+This means that you need about 2,5 - 3 Mbit/sec upload speed to be able to add/edit a 94 MB file to CRM Online.
 
 ### Attachments in Mailings and Request
 
@@ -56,7 +54,6 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 * Outlook 2021
 * Outlook 2019
 * Outlook 2016
-* Outlook 2013
 
 > [!NOTE]
 > Lotus Notes is NOT supported as a mail client for SuperOffice MailLink in CRM Online.
