@@ -11,7 +11,8 @@ so.client: online
 
 # Requirements
 
-* Available for CRM Online customers only
+* Available for both CRM Online customers and Onsite customers
+  * Onsite: SuperOffice CRM Onsite 10.0.1 or newer (available on the public internet with REST-api enabled)
 * Users must have a Microsoft 365 subscription and must use Microsoft 365 mail account
 * A compatible version of Outlook
 * For mobile phones, the latest version of iOS or Android and use an app that supports Outlook add-ins
