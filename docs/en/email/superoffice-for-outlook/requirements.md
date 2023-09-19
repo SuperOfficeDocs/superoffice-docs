@@ -29,6 +29,8 @@ so.client: online
 
 ## Limitations
 
+SuperOffice for Outlook works only with main account. Shared mailboxes are not supported.
+
 Versions earlier than 2001 of the Outlook desktop app do not work in Send and Archive, because they miss APIs.
 
 ![imagecaqul.png -screenshot][img1]
