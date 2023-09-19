@@ -3,7 +3,7 @@ title: Production sandbox (test environment)
 uid: prod-sandbox
 description: SuperOffice production sandbox
 author: Bergfrid Dias
-so.date: 11.25.2022
+so.date: 09.19.2023
 keywords: sandbox, production sandbox environment, test environment
 so.topic: concept
 so.envir: cloud
@@ -65,10 +65,13 @@ However, as with any custom application under development, it must be [validated
 
 When the customer is ready to launch the approved application on their production tenant, reply to the ticket received when the request to publish was submitted.
 
+> [!NOTE]
+> To get the app into the production sandbox, sign in to the Developer Portal and [request to publish the app's configuration to stage][8] (then we automatically also publish it to production). Also send us the customer ID of the production sandbox.
+
 ## Best practices
 
 > [!NOTE]
-> If your sandbox was cloned from an existing and running CRM Online tenant with apps authroized, then data that was created by the apps in the source will still be in your sandbox. Examples would beweb panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and Maintenance.
+> If your sandbox was cloned from an existing and running CRM Online tenant with apps authorized, then data that was created by the apps in the source will still be in your sandbox. Examples would be web panels that were automatically set up by the app. To  hide them, go to [Lists - GUI Web panel][1] in Settings and Maintenance.
 
 * If you have **ERP sync apps** in production, you should log in to Settings and Maintenance and turn off automatic syncing. Since these apps are not authorized on the sandbox it will not sync, just generate errors.
 
@@ -86,6 +89,7 @@ When the customer is ready to launch the approved application on their productio
 [5]: clone-to.md
 [6]: ../../developer-portal/custom-app/validate.md
 [7]: ../../developer-portal/best-practices/index.md
+[8]: ../../developer-portal/create-app/request-to-publish.md
 
 <!-- Referenced images -->
 [img12]: media/imageu533bo.png
