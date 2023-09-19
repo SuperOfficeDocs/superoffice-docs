@@ -2,8 +2,9 @@
 title: Requirements
 uid: superoffice_for_outlook_requirements
 description: Requirements and known limitations of SuperOffice for Outlook add-in
-author: {github-id}
-keywords:
+author: Frode B, Martin Pavlas
+so.date: 09.19.2023
+keywords: Outlook, email
 so.topic: reference
 so.envir: cloud
 so.client: online
@@ -11,8 +12,8 @@ so.client: online
 
 # Requirements
 
-* Available for both CRM Online customers and Onsite customers
-  * Onsite: SuperOffice CRM Onsite 10.0.1 or newer (available on the public internet with REST-api enabled)
+* Available for both CRM Online and Onsite customers
+  * Onsite: SuperOffice CRM Onsite 10.0.1 or newer (available on the internet with REST API enabled)
 * Users must have a Microsoft 365 subscription and must use Microsoft 365 mail account
 * A compatible version of Outlook
 * For mobile phones, the latest version of iOS or Android and use an app that supports Outlook add-ins
