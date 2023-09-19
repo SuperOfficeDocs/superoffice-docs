@@ -8,6 +8,8 @@ items:
     href: core-crm/10.2.1-update.md
   - name: 10.2.4 update
     href: core-crm/10.2.4-update.md
+  - name: 10.2.8 update
+    href: core-crm/10.2.8-update.md
 - name: Settings and Maintenance
   href: admin/index.md
   items:
@@ -24,8 +26,8 @@ items:
     href: service/10.2.5-update.md
   - name: 10.2.6 update
     href: service/10.2.6-update.md
-  - name: 10.2.7 update
-    href: service/10.2.7-update.md
+  - name: 10.2.8 update
+    href: service/10.2.8-update.md
 - name: Marketing
   href: marketing/index.md
   items:
