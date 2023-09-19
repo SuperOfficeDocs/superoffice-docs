@@ -26,14 +26,14 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
     * **SSL**: `https://localhost:44310/callback`
     * Optionally, disable SSL, then the default URL is `http://localhost:54238/callback`
 
-> [!NOTE]
-> If you have **already registered your application**, replace the default URLs in the project property page (seen below) with your registered redirect URLs.
->
-> Alternatively, send instructions to SuperOffice by [filling in the update form][6] to add these URLs to your application definition.
+    > [!NOTE]
+    > If you have **already registered your application**, replace the default URLs in the project property page (seen below) with your registered redirect URLs.
+    >
+    > Alternatively, sign in to the Developer Portal and [update the redirect URLs for your app][1]. If the current configuration is published to stage/production, create a new version to enable editing.
 
-* you have received a unique application [client ID and secret][3]
+* You have received a unique application [client ID and secret][3].
 
-* you have Visual Studio (community, professional, or enterprise edition)
+* You have Visual Studio (community, professional, or enterprise edition).
 
 ## Quick-start
 
@@ -109,6 +109,7 @@ The *SoHttpRestClient.cs* file is an `HttpClient` helper class to make REST req
 If you have any issues with the sample, please post an issue on the [repo issues page][10].
 
 <!-- Referenced links -->
+[1]: ../../developer-portal/create-app/config/cors-and-redirection-urls.md
 [2]: ../../developer-portal/create-app/web-app.md
 [3]: ../../developer-portal/getting-started/index.md#terminology
 [8]: ../../developer-portal/getting-started/app-envir.md
