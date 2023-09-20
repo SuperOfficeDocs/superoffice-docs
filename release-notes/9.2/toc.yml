@@ -4,24 +4,24 @@ items:
 - name: Standard CRM
   href: standard-crm/index.md
   items:
-  - name: 9.2 R01 update
-    href: standard-crm/9.2-R01-update.md
-  - name: 9.2 R02 update
-    href: standard-crm/9.2-R02-update.md
-  - name: 9.2 R03 update
-    href: standard-crm/9.2-R03-update.md
-  - name: 9.2 R04 update
-    href: standard-crm/9.2-R04-update.md
-  - name: 9.2 R05 update
-    href: standard-crm/9.2-R05-update.md
-  - name: 9.2 R06 update
-    href: standard-crm/9.2-R06-update.md
-  - name: 9.2 R07 update
-    href: standard-crm/9.2-R07-update.md
-  - name: 9.2 R08 update
-    href: standard-crm/9.2-R08-update.md
   - name: 9.2 R09 update
     href: standard-crm/9.2-R09-update.md
+  - name: 9.2 R08 update
+    href: standard-crm/9.2-R08-update.md
+  - name: 9.2 R07 update
+    href: standard-crm/9.2-R07-update.md
+  - name: 9.2 R06 update
+    href: standard-crm/9.2-R06-update.md
+  - name: 9.2 R05 update
+    href: standard-crm/9.2-R05-update.md
+  - name: 9.2 R04 update
+    href: standard-crm/9.2-R04-update.md
+  - name: 9.2 R03 update
+    href: standard-crm/9.2-R03-update.md
+  - name: 9.2 R02 update
+    href: standard-crm/9.2-R02-update.md
+  - name: 9.2 R01 update
+    href: standard-crm/9.2-R01-update.md
 - name: Customer Engagement Portal
   href: cep/index.md
   items:
@@ -30,79 +30,62 @@ items:
 - name: Marketing
   href: marketing/index.md
   items:
-  - name: 9.2 R01 update
-    href: marketing/9.2-R01-update.md
-  - name: 9.2 R02 update
-    href: marketing/9.2-R02-update.md
-  - name: 9.2 R03 update
-    href: marketing/9.2-R03-update.md
-  - name: 9.2 R04 update
-    href: marketing/9.2-R04-update.md
-  - name: 9.2 R05 update
-    href: marketing/9.2-R05-update.md
-  - name: 9.2 R06 update
-    href: marketing/9.2-R06-update.md
-  - name: 9.2 R08 update
-    href: marketing/9.2-R08-update.md
-  - name: 9.2 R09 update
-    href: marketing/9.2-R09-update.md
-  - name: 9.2 R10 update
-    href: marketing/9.2-R10-update.md
   - name: 9.2 R11 update
     href: marketing/9.2-R11-update.md
+  - name: 9.2 R10 update
+    href: marketing/9.2-R10-update.md
+  - name: 9.2 R09 update
+    href: marketing/9.2-R09-update.md
+  - name: 9.2 R08 update
+    href: marketing/9.2-R08-update.md
+  - name: 9.2 R06 update
+    href: marketing/9.2-R06-update.md
+  - name: 9.2 R05 update
+    href: marketing/9.2-R05-update.md
+  - name: 9.2 R04 update
+    href: marketing/9.2-R04-update.md
+  - name: 9.2 R03 update
+    href: marketing/9.2-R03-update.md
+  - name: 9.2 R02 update
+    href: marketing/9.2-R02-update.md
+  - name: 9.2 R01 update
+    href: marketing/9.2-R01-update.md
 - name: Service
   href: service/index.md
   items:
-  - name: 9.2 R01 update
-    href: service/9.2-R01-update.md
-  - name: 9.2 R06 update
-    href: service/9.2-R06-update.md
-  - name: 9.2 R07 update
-    href: service/9.2-R07-update.md
-  - name: 9.2 R11 update
-    href: service/9.2-R11-update.md
   - name: 9.2 R12 update
     href: service/9.2-R12-update.md
-- name: Mobile
-  href: mobile/index.md
-  items:
-  - name: 10.0.1 update
-    href: mobile/10.0.1-update.md
-  - name: 10.0.2 update
-    href: mobile/10.0.2-update.md
-  - name: 10.0.3 update
-    href: mobile/10.0.3-update.md
-  - name: 10.0.4 update
-    href: mobile/10.0.4-update.md
-  - name: 10.0.6 update
-    href: mobile/10.0.6-update.md
-  - name: 10.0.7 update
-    href: mobile/10.0.7-update.md
-  - name: 10.0.9 update
-    href: mobile/10.0.9-update.md
+  - name: 9.2 R11 update
+    href: service/9.2-R11-update.md
+  - name: 9.2 R07 update
+    href: service/9.2-R07-update.md
+  - name: 9.2 R06 update
+    href: service/9.2-R06-update.md
+  - name: 9.2 R01 update
+    href: service/9.2-R01-update.md
 - name: Office integrations
   href: office-integrations/index.md
   items:
-  - name: 2.3 update
-    href: office-integrations/2.3-update.md
-  - name: 2.4 update
-    href: office-integrations/2.4-update.md
   - name: 2.5 update
     href: office-integrations/2.5-update.md
+  - name: 2.4 update
+    href: office-integrations/2.4-update.md
+  - name: 2.3 update
+    href: office-integrations/2.3-update.md
 - name: API
   href: api/index.md
   items:
-  - name: 9.2 R01 update
-    href: api/9.2-R01-update.md
-  - name: 9.2 R03 update
-    href: api/9.2-R03-update.md
-  - name: 9.2 R06 update
-    href: api/9.2-R06-update.md
-  - name: 9.2 R08 update
-    href: api/9.2-R08-update.md
-  - name: 9.2 R09 update
-    href: api/9.2-R09-update.md
   - name: 9.2 R11 update
     href: api/9.2-R11-update.md
+  - name: 9.2 R09 update
+    href: api/9.2-R09-update.md
+  - name: 9.2 R08 update
+    href: api/9.2-R08-update.md
+  - name: 9.2 R06 update
+    href: api/9.2-R06-update.md
+  - name: 9.2 R03 update
+    href: api/9.2-R03-update.md
+  - name: 9.2 R01 update
+    href: api/9.2-R01-update.md
 - name: Database changes
   href: ../database/changes-9.2.md

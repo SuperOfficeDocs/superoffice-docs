@@ -15,7 +15,7 @@ so.topic: reference
 
 * v10.2.7
   * [Appointmenthadowselectioncombined][150]
-  
+
 * v10.2.6
   * [EmailFlowContentProvider][120]
   * [ExternalDocumentItems][121]
@@ -230,7 +230,6 @@ services.AddLogging(a =>
 * [Version 10.2.5][134]
 * [Version 10.2.6][135]
 * [Version 10.2.7][136]
-
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md

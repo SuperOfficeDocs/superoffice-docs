@@ -78,6 +78,6 @@ When you are working with a project, consider linking the the project to relevan
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/mobile/project-members.png
 [img2]: ../../../../../common/icons/mobile/details.png
-[img3]: ../../../../../release-notes/10.2/mobile/media/mobile-crm-sale-request-tab.png
+[img3]: ../../../../../release-notes/mobile/media/mobile-crm-sale-request-tab.png
 [img4]: ../../../../../common/icons/mobile/setstage.png
 [img5]: ../../../../../common/icons/mobile/edit.png

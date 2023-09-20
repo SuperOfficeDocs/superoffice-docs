@@ -89,6 +89,6 @@ To activate or update an alarm for the appointment:
 [2]: invitations.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../release-notes/10.0/mobile/media/move-appointment-1.png
-[img2]: ../../../../../release-notes/10.0/mobile/media/move-appointment-2.png
+[img1]: ../../../../../release-notes/mobile/media/move-appointment-1.png
+[img2]: ../../../../../release-notes/mobile/media/move-appointment-2.png
 [img3]: ../../../../../common/icons/mobile/edit.png

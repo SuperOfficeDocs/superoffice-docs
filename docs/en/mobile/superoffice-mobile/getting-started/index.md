@@ -183,5 +183,5 @@ If you have set your phone to use dark mode, your Mobile CRM app will also use d
 [img32]: ../../../../../common/icons/mobile/edit.png
 [img33]: ../../../../../common/icons/mobile/messages.png
 
-[img42]: ../../../../../release-notes/10.2/mobile/media/mobile-new-floating-button.png
-[img43]: ../../../../../release-notes/9.2/mobile/media/img399.jpg
+[img42]: ../../../../../release-notes/mobile/media/mobile-new-floating-button.png
+[img43]: ../../../../../release-notes/mobile/media/img399.jpg

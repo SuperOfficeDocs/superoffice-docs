@@ -126,6 +126,6 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 [img1]: ../../../../../common/icons/mobile/request-reply.png
 [img3]: ../../../../../common/icons/mobile/addcomment.png
 [img4]: ../../../../../common/icons/forward-icon.png
-[img2]: ../../../../../release-notes/10.0/mobile/media/save-request.png
+[img2]: ../../../../../release-notes/mobile/media/save-request.png
 [img5]: media/add-comment.png
 [img6]: media/internal-message.png

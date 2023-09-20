@@ -58,4 +58,4 @@ You can confirm canceled recurring meetings quickly by swiping left and tapping 
 
 <!-- Referenced images -->
 [img2]: media/invitation.png
-[img3]: ../../../../../release-notes/9.2/mobile/media/img388.jpg
+[img3]: ../../../../../release-notes/mobile/media/img388.jpg

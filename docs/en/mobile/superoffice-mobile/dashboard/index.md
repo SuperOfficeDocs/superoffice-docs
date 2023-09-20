@@ -61,5 +61,5 @@ From the **Dashboard** screen, you have access to the dashboards created in Supe
 [img4]: ../../../../../common/icons/mobile/pinned-h32.png
 [img5]: ../../../../../common/icons/mobile/dashboard.png
 
-[img21]: ../../../../../release-notes/10.0/mobile/media/mobile-1.png
-[img22]: ../../../../../release-notes/10.0/mobile/media/mobile-2.png
+[img21]: ../../../../../release-notes/mobile/media/mobile-1.png
+[img22]: ../../../../../release-notes/mobile/media/mobile-2.png

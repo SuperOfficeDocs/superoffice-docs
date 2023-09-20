@@ -67,6 +67,6 @@ After adding new Task menu definition, log out and in again in Mobile CRM to mak
 
 <!-- Referenced images -->
 [img1]: media/custom-dialog.png
-[img2]: ../../../../release-notes/10.2/mobile/media/mobile-crm-custom-task-appointment-230x500.png
+[img2]: ../../../../release-notes/mobile/media/mobile-crm-custom-task-appointment-230x500.png
 [img5]: ../../../../release-notes/10.2/admin/media/admin-lists-task-menu-dialog.png
 [img6]: ../../../../release-notes/10.2/core-crm/media/custom-task-contact-create-appointment.png

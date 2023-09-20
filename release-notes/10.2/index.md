@@ -49,11 +49,8 @@ so.version: 10.2
 
 ### Mobile CRM
 
-* 10.2.2 (25.08.2022):
-  * [CRMScript on custom tasks in Mobile CRM][4] in Mobile CRM
-
 * 10.2.7 (25.01.2023):
-  * [Custom tasks][11] in Mobile CRM
+  * [CRMScript on custom tasks in Mobile CRM][11] in Mobile CRM
 
 * 10.2.8 (22.02.2023):
   * [SharePoint documents in Mobile CRM, Floating +New button][6] in Mobile CRM
@@ -90,16 +87,15 @@ so.version: 10.2
 [1]: admin/10.2.1-update.md
 [2]: core-crm/10.2.1-update.md
 [3]: marketing/10.2.2-update.md
-[4]: mobile/10.2.2-update.md
 [5]: marketing/10.2.3-update.md
-[6]: mobile/10.2.8-update.md
-[7]: mobile/10.2.10-update.md
+[6]: ../mobile/10.2.8-update.md
+[7]: ../mobile/10.2.10-update.md
 [8]: core-crm/10.2.4-update.md
-[9]: mobile/10.2.11-update.md
+[9]: ../mobile/10.2.11-update.md
 [10]: service/10.2.5-update.md
-[11]: mobile/10.2.7-update.md
+[11]: ../mobile/10.2.7-update.md
 [12]: service/10.2.6-update.md
-[13]: mobile/10.2.12-update.md
+[13]: ../mobile/10.2.12-update.md
 [14]: ../../docs/en/developer-portal/overview.md
 [15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
 [16]: https://zapier.com/apps/superofficecrm/integrations

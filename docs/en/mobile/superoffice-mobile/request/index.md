@@ -146,4 +146,4 @@ Click the notification to open the request in Mobile CRM.
 [img11]: ../../../../../common/icons/mobile/ticket.png
 [img18]: ../../../../../common/icons/mobile/star-h32.png
 [img19]: ../../../../../common/icons/mobile/search-h32.png
-[img20]: ../../../../../release-notes/10.1/mobile/media/mobile-request-notifications.png
+[img20]: ../../../../../release-notes/mobile/media/mobile-request-notifications.png

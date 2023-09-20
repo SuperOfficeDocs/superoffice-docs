@@ -55,4 +55,4 @@ When someone needs approval for their quote to be sent to customer:
 
 <!-- Referenced images -->
 [img1]: media/quote-approval.png
-[img2]: ../../../../../release-notes/10.1/mobile/media/mobile-2-2-quote-approval-2.png
+[img2]: ../../../../../release-notes/mobile/media/mobile-2-2-quote-approval-2.png

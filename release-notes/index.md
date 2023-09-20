@@ -13,7 +13,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## The latest release
 
-[**Version 10.2.6**][6] - 13.06.2023
+[**Version 10.2.8**][6] - 13.06.2023
 
 ## Overview of the different versions
 
