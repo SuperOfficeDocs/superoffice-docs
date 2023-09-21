@@ -49,9 +49,7 @@ de tweede kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeel
 
 * [Activiteiten weergeven][3]
 * [Activiteiten verwijderen][4]
-* [E-mail beantwoorden vanuit het sectietabblad Activiteiten][5]
-* [E-mail doorsturen vanuit het sectietabblad Activiteiten][6]
-* [Activiteiten filteren][7]
+* [E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten][5]
 * [De status Voltooid voor een activiteit wijzigen][2]
 
 <!-- Referenced links -->
@@ -59,9 +57,7 @@ de tweede kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeel
 [2]: ../../../diary/learn/change-completed-status.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
-[7]: ../../../learn/section-tabs/filter.md
+[5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/project/project-activities.png

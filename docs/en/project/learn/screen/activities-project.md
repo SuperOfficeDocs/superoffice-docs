@@ -49,8 +49,7 @@ The second column contains icons that indicate the type of activity, for example
 
 * [View activities][3]
 * [Delete activities][4]
-* [Reply to email from the Activities section tab][5]
-* [Forward email from the Activities section tab][6]
+* [Reply to or forward email from the Activities section tab][5]
 * [Filter activities][7]
 * [Change Completed status of an activity][2]
 
@@ -59,8 +58,7 @@ The second column contains icons that indicate the type of activity, for example
 [2]: ../../../diary/learn/change-completed-status.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/activity/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

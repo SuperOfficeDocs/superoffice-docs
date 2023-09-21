@@ -49,8 +49,7 @@ Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel
 
 * [Visa aktiviteter][3]
 * [Ta bort aktiviteter][4]
-* [Svara på e-post från detaljkortet Aktiviteter][5]
-* [Vidarebefordra e-post från detaljkortet Aktiviteter][6]
+* [Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter][5]
 * [Filtrera aktiviteter][7]
 * [Ändra Slutfört-status för en aktivitet][2]
 
@@ -59,8 +58,7 @@ Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel
 [2]: ../../../diary/learn/change-completed-status.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/activity/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

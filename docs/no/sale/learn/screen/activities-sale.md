@@ -37,8 +37,7 @@ På detaljkortet **Aktiviteter** finner du blant annet følgende kolonner:
 * [Vise aktiviteter][3]
 * [Endre utført-status for salg][1]
 * [Slette aktiviteter][4]
-* [Svare på e-post fra detaljkortet Aktiviteter][5]
-* [Videresende e-post fra detaljkortet Aktiviteter][6]
+* [Svare på eller videresende e-post fra detaljkortet Aktiviteter][5]
 * [Filtrere aktiviteter og salg][7]
 
 <!-- Referenced links -->
@@ -47,8 +46,7 @@ På detaljkortet **Aktiviteter** finner du blant annet følgende kolonner:
 [7]: ../../../learn/section-tabs/filter.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.png

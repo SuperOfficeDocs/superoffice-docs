@@ -37,8 +37,7 @@ The following columns are displayed on the **Activities** section tab:
 * [View activities][3]
 * [Change completed status of sale][1]
 * [Delete activities][4]
-* [Reply to email from the Activities section tab][5]
-* [Forward email from the Activities section tab][6]
+* [Reply to or forward email from the Activities section tab][5]
 * [Filter activities and sales][7]
 
 <!-- Referenced links -->
@@ -47,8 +46,7 @@ The following columns are displayed on the **Activities** section tab:
 [7]: ../../../learn/section-tabs/filter.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.png

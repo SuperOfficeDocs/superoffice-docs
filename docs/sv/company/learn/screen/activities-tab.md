@@ -21,15 +21,13 @@ På detaljkortet **Aktiviteter** i fönstret Företag visas alla aktiviteter som
 
 * [Visa aktiviteter][1]
 * [Ta bort aktiviteter][2]
-* [Svara på e-post från detaljkortet Aktiviteter][3]
-* [Vidarebefordra e-post från detaljkortet Aktiviteter][4]
+* [Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter][3]
 * [Använda filter på detaljkort][5]
 
 <!-- Referenced links -->
 [1]: ../../../learn/activity/view-activities.md
 [2]: ../../../learn/activity/delete-activities-contact.md
-[3]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[4]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[3]: ../../../learn/activity/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

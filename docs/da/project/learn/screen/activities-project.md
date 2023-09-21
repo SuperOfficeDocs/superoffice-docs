@@ -49,8 +49,7 @@ Den anden kolonnen indeholder ikoner, som angiver aktivitetstype, for eksempel e
 
 * [Vis aktiviteter][3]
 * [Sletning af aktiviteter][4]
-* [Besvare e-mail fra detaljekortet Aktiviteter][5]
-* [Videresende e-mail fra detaljekortet Aktiviteter][6]
+* [Besvare eller videresende e-mail fra detaljekortet Aktiviteter][5]
 * [Filtrering af aktiviteter][7]
 * [Ændring af status Udført for en aktivitet][2]
 
@@ -59,8 +58,7 @@ Den anden kolonnen indeholder ikoner, som angiver aktivitetstype, for eksempel e
 [2]: ../../../diary/learn/change-completed-status.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/activity/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

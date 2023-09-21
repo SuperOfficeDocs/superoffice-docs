@@ -7,9 +7,7 @@ items:
     href: delete-activities-contact.md
   - name: Åbn opfølgning
     href: ../../diary/learn/open-follow-up.md
-  - name: Besvar e-mail fra detaljekortet Aktiviteter
-    href: replying-to-email-from-activities-section-tab.md
-  - name: Videresend e-mail fra detaljekortet Aktiviteter
-    href: forwarding-email-from-activities-section-tab.md
+  - name: Besvar eller videresend e-mail fra Aktiviteter
+    href: send-email.md
   - name: Link dokumenter til opfølgning
     href: linking-documents-to-follow-ups.md

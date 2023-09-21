@@ -37,8 +37,7 @@ Följande kolumner visas på fliken **Aktiviteter**:
 * [Visa aktiviteter][3]
 * [Ändra Slutförd-status för en försäljning][1]
 * [Ta bort aktiviteter][4]
-* [Svara på e-post från detaljkortet Aktiviteter][5]
-* [Vidarebefordra e-post från detaljkortet Aktiviteter][6]
+* [Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter][5]
 * [Filtrera aktiviteter och försäljningar][7]
 
 <!-- Referenced links -->
@@ -47,8 +46,7 @@ Följande kolumner visas på fliken **Aktiviteter**:
 [7]: ../../../learn/section-tabs/filter.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
-[5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
-[6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
+[5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.png
