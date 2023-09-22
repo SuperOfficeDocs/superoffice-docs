@@ -31,12 +31,11 @@ De volgende kolommen worden weergegeven op het sectietabblad **Activiteiten**:
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Kies hoeveel en welke kolommen u wilt weergeven][2]
-* [Activiteiten weergeven][3]
+* [Activiteiten][3]
 * [De voltooide status van de verkoop wijzigen][1]
-* [Activiteiten verwijderen][4]
 * [E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten][5]
 * [Filteractiviteiten en verkoop][7]
 
@@ -44,8 +43,7 @@ De volgende kolommen worden weergegeven op het sectietabblad **Activiteiten**:
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
+[3]: ../../../learn/activity/index.md
 [5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->

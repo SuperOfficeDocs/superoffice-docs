@@ -45,7 +45,6 @@ Gör något av följande:
 * [Bokning][6]
 * [Aktiviteter][4]
 * [Varningar/larm][5]
-* [Ta bort en aktivitet][7]
 * [Skapa ett videomöte från SuperOffice-kalendern][8]
 
 <!-- Referenced links -->
@@ -53,7 +52,6 @@ Gör något av följande:
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/activity/index.md
-[7]: ../../learn/activity/delete-activities-contact.md
 [5]: set-alarm.md
 [6]: appointment.md
 [8]: video-meetings.md

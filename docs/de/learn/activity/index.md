@@ -3,10 +3,12 @@ uid: help-de-activity
 title: Aktivitäten
 description: Aktivitäten in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 12.15.2022
+so.date: 09.21.2023
 keywords: activity
 so.topic: concept
 language: de
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Aktivitäten
@@ -50,8 +52,8 @@ In der folgenden Tabelle sind die verschiedenen Arten von Aktivitäten dargestel
 <td><p>Anruf<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
 <td><p>Dokument<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
 <td><p>E-Mail<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Kampagnen/Formularübermittlungen<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chat-Sitzungen<img src="../../../../common/icons/chat.png" alt="" ></td>
+<td style="text-align: center;">Kampagnen/Formularübermittlungen<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
+<td style="text-align: center;">Chat-Sitzungen<img src="../../../../common/icons/chat.png" alt="" ></td>
 </tr>
 <tr>
 </tr>
@@ -70,6 +72,20 @@ In der folgenden Tabelle sind die verschiedenen Arten von Aktivitäten dargestel
 
 > [!NOTE]
 > Die Aktivitäten werden auch in der Ansicht Kalender in [verschiedene Ansichten][7] angezeigt.
+
+## <a id="view" />Aktivitäten anzeigen
+
+Welche Aktivitäten angezeigt werden, hängt davon ab, welche der nachfolgenden Kontrollkästchen Sie unten auf der Bereichsregisterkarte aktiviert haben:
+
+* Folgeaufgaben
+* Dokumente
+* Kampagnen
+* Sonstiges (Chat-Datensätze und Formularübermittlungen)
+
+Sie können entweder alle Aktivitäten oder nur eine bestimmte Art von Aktivitäten anzeigen.
+
+> [!TIP]
+> Sie können [Filteraktivitäten][17] auch nach Datum und Benutzer filtern.
 
 ## Spalten
 
@@ -94,7 +110,7 @@ Hier können Sie wählen, ob alle oder nur eine Art von Aktivitäten angezeigt w
 
 Aktivitäten erstellen Sie über das Menü ![Symbol][img2] **Neu** in der oberen Leiste oder durch Anklicken der Schaltfläche **Hinzufügen** in der Bereichsregisterkarte.
 
-## Aktivität löschen
+## <a id="delete" />Aktivität löschen
 
 Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werden:
 
@@ -107,7 +123,9 @@ Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werde
     >
     > Die Schaltfläche **Löschen** ist nur dann aktiviert, wenn der angemeldete Benutzer berechtigt ist, Einträge aus der betreffenden Aktivitätenliste zu löschen.
 
-3. Es öffnet sich ein Bestätigungsdialogfeld.
+3. Klicken Sie anschließend zur Bestätigung auf **Ja**.
+
+[!include[Deleting items](../includes/tip-deletion.md)]
 
 ## Was möchten Sie jetzt tun?
 

@@ -3,10 +3,12 @@ uid: help-en-activity
 title: Activities
 description: Activities in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 12.15.2022
+so.date: 09.21.2023
 keywords: activity
 so.topic: concept
 language: en
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Activities
@@ -50,8 +52,8 @@ The table below illustrates the different kinds of activities:
 <td><p>Phone Call<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
 <td><p>Document<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
 <td><p>Email<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Mailings / Form submissions<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chat sessions<img src="../../../../common/icons/chat.png" alt="" ></td>
+<td style="text-align: center;">Mailings / Form submissions<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
+<td style="text-align: center;">Chat sessions<img src="../../../../common/icons/chat.png" alt="" ></td>
 </tr>
 <tr>
 </tr>
@@ -70,6 +72,20 @@ The table below illustrates the different kinds of activities:
 
 > [!NOTE]
 > Activities are also displayed in the [different views][7] in the Diary screen.
+
+## <a id="view" />View activities
+
+The activities displayed depend on which of the following checkboxes you selected at the bottom of the section tab:
+
+* Follow-ups
+* Documents
+* Mailings
+* Chat sessions
+* Form submissions
+
+![Activities section tabs shows filter options of different record types -screenshot][img4]
+
+You can show all activities, or just one of the types. Click the ![icon][img5] **Filter** button to [filter activities][17] by date and user.
 
 ## Columns
 
@@ -94,7 +110,7 @@ You can show all activities, or just one type.
 
 You create activities using the ![icon][img2] **New** menu in the top bar, or by clicking **Add** button in the section tab.
 
-## Delete activity
+## <a id="delete" />Delete activity
 
 You can delete activities from any screen where they are displayed:
 
@@ -107,7 +123,9 @@ You can delete activities from any screen where they are displayed:
     >
     > The **Delete** button is only available if the user who is logged in has permission to delete items from the activities list in question.
 
-3. A confirmation dialog opens.
+3. When asked if you really want to delete the activity, click **Yes**.
+
+[!include[Deleting items](../includes/tip-deletion.md)]
 
 ## What would you like to do now?
 
@@ -140,3 +158,5 @@ You can delete activities from any screen where they are displayed:
 [img1]: ../../../media/icons/check.png
 [img2]: ../../../../common/icons/plus-black.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
+[img4]: ../../../media/loc/en/learn/activities-filter.png
+[img5]: ../../../../common/icons/filter-icon.png

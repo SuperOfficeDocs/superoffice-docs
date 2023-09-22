@@ -45,10 +45,9 @@ Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel
 >
 > För händelser, visas det datum då händelsen äger rum.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
-* [Visa aktiviteter][3]
-* [Ta bort aktiviteter][4]
+* [Aktiviteter][1]
 * [Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter][5]
 * [Filtrera aktiviteter][7]
 * [Ändra Slutfört-status för en aktivitet][2]
@@ -56,8 +55,6 @@ Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel
 <!-- Referenced links -->
 [1]: ../../../learn/activity/index.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
 [5]: ../../../learn/activity/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 

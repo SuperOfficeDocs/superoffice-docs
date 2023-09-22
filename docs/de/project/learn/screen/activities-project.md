@@ -47,8 +47,7 @@ Die zweite Spalte enthält Symbole, die die Art der Aktivität näher bezeichnen
 
 ## Was möchten Sie jetzt tun?
 
-* [Aktivitäten anzeigen][3]
-* [Aktivitäten löschen][4]
+* [Aktivitäten][1]
 * [E-Mail antworten oder weiterleiten von der Bereichsregisterkarte 'Aktivitäten'][5]
 * [Aktivitäten filtern][7]
 * [Status Abgeschlossen für eine Aktivität ändern][2]
@@ -56,8 +55,6 @@ Die zweite Spalte enthält Symbole, die die Art der Aktivität näher bezeichnen
 <!-- Referenced links -->
 [1]: ../../../learn/activity/index.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
 [5]: ../../../learn/activity/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 

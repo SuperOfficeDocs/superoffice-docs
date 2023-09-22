@@ -17,16 +17,14 @@ Detaljkortet **Aktiviteter** i Firma-bildet inneholder alle aktivitetene som er 
 
 [!include[Contents of Activities tab](../../../learn/includes/activities-tab.md)]
 
-## Hva vil du gjøre?
+## Aktuelt innhold
 
-* [Vise aktiviteter][1]
-* [Slette aktiviteter][2]
+* [Aktiviteter][1]
 * [Svare på eller videresende e-post fra detaljkortet Aktiviteter][3]
 * [Bruke filtre i detaljkortene][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/view-activities.md
-[2]: ../../../learn/activity/delete-activities-contact.md
+[1]: ../../../learn/activity/index.md
 [3]: ../../../learn/activity/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 

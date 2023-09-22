@@ -45,7 +45,6 @@ Do one of the following:
 * [Appointment][6]
 * [Activities][4]
 * [Notifications / alarms][5]
-* [Delete an activity][7]
 * [Create a video meeting from the SuperOffice diary][8]
 
 <!-- Referenced links -->
@@ -53,7 +52,6 @@ Do one of the following:
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/activity/index.md
-[7]: ../../learn/activity/delete-activities-contact.md
 [5]: set-alarm.md
 [6]: appointment.md
 [8]: video-meetings.md

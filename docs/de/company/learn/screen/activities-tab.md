@@ -19,14 +19,12 @@ Die Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma enthält alle zu
 
 ## Was möchten Sie tun?
 
-* [Aktivitäten anzeigen][1]
-* [Aktivitäten löschen][2]
+* [Aktivitäten][1]
 * [E-Mail antworten oder weiterleiten von der Bereichsregisterkarte 'Aktivitäten'][3]
 * [Filter in Bereichsregisterkarten verwenden][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/view-activities.md
-[2]: ../../../learn/activity/delete-activities-contact.md
+[1]: ../../../learn/activity/index.md
 [3]: ../../../learn/activity/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 

@@ -45,7 +45,6 @@ Führen Sie einen der folgenden Schritte aus:
 * [Termin][6]
 * [Aktivitäten][4]
 * [Benachrichtigungen/Alarme][5]
-* [Aktivität löschen][7]
 * [Videokonferenz vom SuperOffice-Kalender erstellen][8]
 
 <!-- Referenced links -->
@@ -53,7 +52,6 @@ Führen Sie einen der folgenden Schritte aus:
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/activity/index.md
-[7]: ../../learn/activity/delete-activities-contact.md
 [5]: set-alarm.md
 [6]: appointment.md
 [8]: video-meetings.md

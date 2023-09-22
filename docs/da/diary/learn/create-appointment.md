@@ -45,7 +45,6 @@ Gør ét af følgende:
 * [Aftale][6]
 * [Aktiviteter][4]
 * [Underretninger/alarmer][5]
-* [Slet en aktivitet][7]
 * [Opret et videomøde fra SuperOffice dagbog][8]
 
 <!-- Referenced links -->
@@ -53,7 +52,6 @@ Gør ét af følgende:
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/activity/index.md
-[7]: ../../learn/activity/delete-activities-contact.md
 [5]: set-alarm.md
 [6]: appointment.md
 [8]: video-meetings.md

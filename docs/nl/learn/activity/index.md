@@ -3,10 +3,12 @@ uid: help-nl-activity
 title: Activiteiten
 description: Activiteiten in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 12.15.2022
+so.date: 09.21.2023
 keywords: activiteit
 so.topic: concept
 language: nl
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Activiteiten
@@ -50,8 +52,8 @@ De tabel hieronder geeft de verschillende typen activiteiten weer:
 <td><p>Gesprek<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
 <td><p>Document<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
 <td><p>E-mail<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Mailings / Formulierverzendingen<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chatsessies<img src="../../../../common/icons/chat.png" alt="" ></td>
+<td style="text-align: center;">Mailings / Formulierverzendingen<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
+<td style="text-align: center;">Chatsessies<img src="../../../../common/icons/chat.png" alt="" ></td>
 </tr>
 <tr>
 </tr>
@@ -70,6 +72,20 @@ De tabel hieronder geeft de verschillende typen activiteiten weer:
 
 > [!NOTE]
 > Activiteiten worden ook weergegeven in de [verschillende weergaven][7] in het scherm Agenda.
+
+## <a id="view" />Activiteiten weergeven
+
+Welke activiteiten worden weergegeven, is afhankelijk van de volgende selectievakjes die u onder aan het sectietabblad hebt ingeschakeld:
+
+* Vervolgactiviteiten
+* Documenten
+* Mailings
+* Anders (chatrecords en formulierverzendingen)
+
+U kunt naar keus alle activiteiten weergeven of slechts één type.
+
+> [!TIP]
+> U kunt [activiteiten ook filteren][17] op datum of gebruiker.
 
 ## Kolommen
 
@@ -94,7 +110,7 @@ U kunt naar keus alle activiteiten weergeven of slechts een type.
 
 U creëert activiteiten met het ![pictogram][img2] menu **Nieuw** in de bovenste balk of door te klikken op de knop **Toevoegen** in het sectietabblad.
 
-## Activiteit verwijderen
+## <a id="delete" />Activiteit verwijderen
 
 U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten worden weergegeven:
 
@@ -107,7 +123,9 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
     >
     > De knop **Verwijderen** kan alleen worden gekozen wanneer de aangemelde gebruiker bevoegd is items te verwijderen uit de desbetreffende activiteitenlijst.
 
-3. Er wordt een bevestigingsvenster geopend.
+3. Klik op **Ja** om het verwijderen van de activiteit te bevestigen.
+
+[!include[Deleting items](../includes/tip-deletion.md)]
 
 ## Wat wilt u nu doen?
 

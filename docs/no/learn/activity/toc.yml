@@ -1,10 +1,6 @@
 items:
   - name: Oversikt
     href: index.md
-  - name: Vise aktiviteter
-    href: view-activities.md
-  - name: Slette aktiviteter
-    href: delete-activities-contact.md
   - name: Åpne oppfølging
     href: ../../diary/learn/open-follow-up.md
   - name: Svare på eller videresende e-post fra Aktiviteter

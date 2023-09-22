@@ -45,7 +45,6 @@ Gjør ett av følgende:
 * [Avtale][6]
 * [Aktiviteter][4]
 * [Varslinger/alarmer][5]
-* [Slette en aktivitet][7]
 * [Opprette et videomøte fra SuperOffice-dagboken][8]
 
 <!-- Referenced links -->
@@ -53,7 +52,6 @@ Gjør ett av følgende:
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/activity/index.md
-[7]: ../../learn/activity/delete-activities-contact.md
 [5]: set-alarm.md
 [6]: appointment.md
 [8]: video-meetings.md

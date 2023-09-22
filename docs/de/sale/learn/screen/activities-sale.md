@@ -34,9 +34,8 @@ Auf der Bereichsregisterkarte **Aktivitäten** werden die folgenden Spalten ange
 ## Was möchten Sie jetzt tun?
 
 * [Sie können auswählen, wie viele und welche Spalten angezeigt werden sollen][2]
-* [Aktivitäten anzeigen][3]
+* [Aktivitäten][3]
 * [Verkaufsstatus abgeschlossen ändern][1]
-* [Aktivitäten löschen][4]
 * [E-Mail antworten oder weiterleiten von der Bereichsregisterkarte 'Aktivitäten][5]
 * [Aktivitäten und Verkäufe filtern][7]
 
@@ -44,8 +43,7 @@ Auf der Bereichsregisterkarte **Aktivitäten** werden die folgenden Spalten ange
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
+[3]: ../../../learn/activity/index.md
 [5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->

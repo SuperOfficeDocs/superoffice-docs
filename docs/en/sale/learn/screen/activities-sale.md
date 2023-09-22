@@ -34,9 +34,8 @@ The following columns are displayed on the **Activities** section tab:
 ## What would you like to do now?
 
 * [Choose how many and which columns to display][2]
-* [View activities][3]
+* [Learn more about activities][3]
 * [Change completed status of sale][1]
-* [Delete activities][4]
 * [Reply to or forward email from the Activities section tab][5]
 * [Filter activities and sales][7]
 
@@ -44,8 +43,7 @@ The following columns are displayed on the **Activities** section tab:
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
+[3]: ../../../learn/activity/index.md
 [5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->

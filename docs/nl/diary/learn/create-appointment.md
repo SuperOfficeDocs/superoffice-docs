@@ -45,7 +45,6 @@ Voer een van de volgende handelingen uit:
 * [Afspraak][6]
 * [Activiteiten][4]
 * [Meldingen / alarm][5]
-* [Een activiteit verwijderen][7]
 * [Een videovergadering maken vanuit de SuperOffice-agenda][8]
 
 <!-- Referenced links -->
@@ -53,7 +52,6 @@ Voer een van de volgende handelingen uit:
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/activity/index.md
-[7]: ../../learn/activity/delete-activities-contact.md
 [5]: set-alarm.md
 [6]: appointment.md
 [8]: video-meetings.md

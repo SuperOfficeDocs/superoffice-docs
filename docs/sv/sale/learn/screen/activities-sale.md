@@ -31,12 +31,11 @@ Följande kolumner visas på fliken **Aktiviteter**:
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Välj hur många och vilka kolumner som ska visas][2]
-* [Visa aktiviteter][3]
+* [Aktiviteter][3]
 * [Ändra Slutförd-status för en försäljning][1]
-* [Ta bort aktiviteter][4]
 * [Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter][5]
 * [Filtrera aktiviteter och försäljningar][7]
 
@@ -44,8 +43,7 @@ Följande kolumner visas på fliken **Aktiviteter**:
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
+[3]: ../../../learn/activity/index.md
 [5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->

@@ -34,9 +34,8 @@ Følgende kolonner vises under detaljekortet **Aktiviteter**:
 ## Hvad vil du foretage dig nu?
 
 * [Vælge, hvor mange og hvilke kolonner der skal vises][2]
-* [Vis aktiviteter][3]
+* [Aktiviteter][3]
 * [Skifte statussen Udført for salg][1]
-* [Sletning af aktiviteter][4]
 * [Besvare eller videresende e-mail fra detaljekortet Aktiviteter][5]
 * [Filtrering af aktiviteter og salg][7]
 
@@ -44,8 +43,7 @@ Følgende kolonner vises under detaljekortet **Aktiviteter**:
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
+[3]: ../../../learn/activity/index.md
 [5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->

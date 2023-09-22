@@ -1,10 +1,6 @@
 items:
   - name: Overzicht
     href: index.md
-  - name: Activiteiten weergeven
-    href: view-activities.md
-  - name: Activiteiten verwijderen
-    href: delete-activities-contact.md
   - name: Vervolgactiviteit openen
     href: ../../diary/learn/open-follow-up.md
   - name: E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten

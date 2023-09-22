@@ -3,10 +3,12 @@ uid: help-sv-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 author: SuperOffice RnD
-so.date: 12.15.2022
+so.date: 09.21.2023
 keywords: activity
 so.topic: concept
 language: sv
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Aktiviteter
@@ -50,8 +52,8 @@ Tabellen nedan visar de olika aktivitetstyperna:
 <td><p>Samtal<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
 <td><p>Dokument<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
 <td><p>E-post<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Utskick/formulärinlämningar<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chattsessioner<img src="../../../../common/icons/chat.png" alt="" ></td>
+<td style="text-align: center;">Utskick/formulärinlämningar<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
+<td style="text-align: center;">Chattsessioner<img src="../../../../common/icons/chat.png" alt="" ></td>
 </tr>
 <tr>
 </tr>
@@ -70,6 +72,20 @@ Tabellen nedan visar de olika aktivitetstyperna:
 
 > [!NOTE]
 > Aktiviteter visas även i de [olika vyerna][7] i fönstret Kalender.
+
+## <a id="view" />Visa aktiviteter
+
+Vilka aktiviteter som visas beror på vilka av nedanstående alternativ du har markerat längst ned på detaljkortet:
+
+* Uppföljningar
+* Dokument
+* Utskick
+* Annat (chattposter och formulärinlämningar)
+
+Du kan välja att visa alla aktiviteter eller en av typerna.
+
+> [!TIP]
+> Du kan även [filtrera aktiviteter][17] efter datum och användare.
 
 ## Kolumner
 
@@ -94,7 +110,7 @@ Du kan visa alla aktiviteter eller bara en typ av aktivitet.
 
 Du skapar aktiviteter med ![ikon][img2] **Ny** på toppraden, eller genom att dubbelklicka på knappen **Lägg till** på avsnittsfliken.
 
-## Ta bort aktivitete
+## <a id="delete" />Ta bort aktivitete
 
 Du kan ta bort aktiviteter från alla fönster där de visas:
 
@@ -107,7 +123,9 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
     >
     > Knappen **Ta bort** är endast tillgänglig om användaren som är inloggad har behörighet att ta bort objekt från aktivitetslistan i fråga.
 
-3. En dialogrutan för bekräftelse visas.
+3. Klicka på **Ja** när du tillfrågas om du verkligen vill ta bort aktiviteten.
+
+[!include[Deleting items](../includes/tip-deletion.md)]
 
 ## Vad vill du göra nu?
 

@@ -45,18 +45,15 @@ de tweede kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeel
 >
 > Voor vervolgactiviteiten, dit is de datum waarop de vervolgactiviteit plaatsvindt.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
-* [Activiteiten weergeven][3]
-* [Activiteiten verwijderen][4]
+* [Activiteiten][1]
 * [E-mail beantwoorden of doorsturen vanuit het sectietabblad Activiteiten][5]
 * [De status Voltooid voor een activiteit wijzigen][2]
 
 <!-- Referenced links -->
 [1]: ../../../learn/activity/index.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
 [5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->

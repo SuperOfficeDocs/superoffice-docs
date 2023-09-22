@@ -3,10 +3,12 @@ uid: help-no-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 author: SuperOffice RnD
-so.date: 12.15.2022
+so.date: 09.21.2023
 keywords: aktivitet
 so.topic: concept
 language: no
+so.audience: person
+so.audience.tooltip: SuperOffice CRM
 ---
 
 # Aktiviteter
@@ -51,8 +53,8 @@ Tabellen nedenfor illustrerer de ulike aktivitetstypene:
 <td><p>Telefonsamtale<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
 <td><p>Dokument<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
 <td><p>E-post<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Utsendelser / skjemainnsendinger<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chatsesjoner<img src="../../../../common/icons/chat.png" alt="" ></td>
+<td style="text-align: center;">Utsendelser / skjemainnsendinger<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
+<td style="text-align: center;">Chatsesjoner<img src="../../../../common/icons/chat.png" alt="" ></td>
 </tr>
 <tr>
 </tr>
@@ -71,6 +73,20 @@ Tabellen nedenfor illustrerer de ulike aktivitetstypene:
 
 > [!NOTE]
 > Aktiviteter vises også i de [forskjellige visningene][7] på dagbokskjermen.
+
+## <a id="view" />Vise aktiviteter
+
+Aktivitetene som vises, avhenger av hvilken av følgende avmerkingsbokser du valgte nederst på detaljkortet:
+
+* Oppfølginger
+* Dokumenter
+* Utsendelser
+* Andre (chatoppføringer og skjemainnsendinger)
+
+Du kan vise alle aktiviteter eller én av typene.
+
+> [!TIP]
+> Du kan også [filtrere aktiviteter][17] etter dato og bruker.
 
 ## Kolonner
 
@@ -95,7 +111,7 @@ Du kan vise alle aktiviteter, eller bare én type.
 
 Du oppretter aktiviteter ved å bruke ![icon][img2] **Ny** meny i toppraden, eller ved å klikke på **Legg til**-knappen på detaljkortet.
 
-## Slette aktivitet
+## <a id="delete" />Slette aktivitet
 
 Du kan slette aktiviteter fra alle skjermbilder der de vises:
 
@@ -108,7 +124,9 @@ Du kan slette aktiviteter fra alle skjermbilder der de vises:
     >
     > **Slett**-knappen er bare tilgjengelig hvis brukeren som er pålogget, har tilgang til å slette noe fra den gjeldende aktivitetslisten.
 
-3. En bekreftelsesdialogboks åpnes.
+3. Når du blir spurt om du virkelig vil slette aktiviteten, klikker du på **Ja**.
+
+[!include[Deleting items](../includes/tip-deletion.md)]
 
 ## Hva vil du gjøre nå?
 

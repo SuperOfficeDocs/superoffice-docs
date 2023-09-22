@@ -45,10 +45,9 @@ Den andre kolonnen inneholder ikoner som angir type aktivitet, for eksempel en u
 >
 > For oppfølginger, datoen når oppfølgingen finner sted.
 
-## Hva vil du gjøre nå?
+## Aktuelt innhold
 
-* [Vise aktiviteter][3]
-* [Slette aktiviteter][4]
+* [Aktiviteter][1]
 * [Svare på eller videresende e-post fra detaljkortet Aktiviteter][5]
 * [Filtrere aktiviteter][7]
 * [Endre Utført-status for en aktivitet][2]
@@ -56,8 +55,6 @@ Den andre kolonnen inneholder ikoner som angir type aktivitet, for eksempel en u
 <!-- Referenced links -->
 [1]: ../../../learn/activity/index.md
 [2]: ../../../diary/learn/change-completed-status.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
 [5]: ../../../learn/activity/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 

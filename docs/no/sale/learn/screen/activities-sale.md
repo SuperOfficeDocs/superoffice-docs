@@ -31,12 +31,11 @@ På detaljkortet **Aktiviteter** finner du blant annet følgende kolonner:
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-## Hva vil du gjøre nå?
+## Aktuelt innhold
 
 * [Velg hvor mange og hvilke kolonner som skal vises][2]
-* [Vise aktiviteter][3]
+* [Aktiviteter][3]
 * [Endre utført-status for salg][1]
-* [Slette aktiviteter][4]
 * [Svare på eller videresende e-post fra detaljkortet Aktiviteter][5]
 * [Filtrere aktiviteter og salg][7]
 
@@ -44,8 +43,7 @@ På detaljkortet **Aktiviteter** finner du blant annet følgende kolonner:
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/view-activities.md
-[4]: ../../../learn/activity/delete-activities-contact.md
+[3]: ../../../learn/activity/index.md
 [5]: ../../../learn/activity/send-email.md
 
 <!-- Referenced images -->

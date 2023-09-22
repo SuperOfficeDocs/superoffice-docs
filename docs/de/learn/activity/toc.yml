@@ -1,10 +1,6 @@
 items:
   - name: Überblick
     href: index.md
-  - name: Aktivitäten anzeigen
-    href: view-activities.md
-  - name: Aktivitäten löschen
-    href: delete-activities-contact.md
   - name: Folgeaufgabe öffnen
     href: ../../diary/learn/open-follow-up.md
   - name: "E-Mail antworten oder weiterleiten"
