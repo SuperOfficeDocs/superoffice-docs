@@ -19,9 +19,7 @@ so.audience.tooltip: SuperOffice CRM
 
 There are two types of activities – documents and follow-ups. Follow-ups is a collective term for appointments, phone calls and tasks. In addition, mailings, form submissions and chat records are displayed in the **Activities** section tab.
 
-* [Appointment][1]
-* [Task][2]
-* [Phone Call][3]
+* [Follow-ups][1]
 * [Work with documents][4]
 * [Compose an email][5]
 * [Chat][12]
@@ -137,9 +135,7 @@ You can delete activities from any screen where they are displayed:
 * [Compose an email][5]
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/appointment.md
-[2]: ../../diary/learn/task.md
-[3]: ../../diary/learn/phone-call/index.md
+[1]: ../../diary/learn/follow-ups.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md

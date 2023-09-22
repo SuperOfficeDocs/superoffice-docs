@@ -19,9 +19,7 @@ so.audience.tooltip: SuperOffice CRM
 
 Er zijn twee typen activiteiten – documenten en vervolgactiviteiten. Vervolgactiviteiten is een verzamelnaam voor afspraken, telefoongesprekken en taken. Daarnaast worden mailings, formulierverzendingen en chatrecords weergegeven op het sectietabblad **Activiteiten**.
 
-* [Afspraak][1]
-* [Taak][2]
-* [Gesprek][3]
+* [Vervolgactiviteiten][1]
 * [Werken met documenten][4]
 * [Een e-mailbericht schrijven][5]
 * [Chatten][12]
@@ -137,9 +135,7 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 * [Een e-mailbericht schrijven][5]
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/appointment.md
-[2]: ../../diary/learn/task.md
-[3]: ../../diary/learn/phone-call/index.md
+[1]: ../../diary/learn/follow-ups.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md

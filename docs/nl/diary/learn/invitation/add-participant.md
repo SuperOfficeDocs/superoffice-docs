@@ -72,7 +72,7 @@ Als u handmatig een uitnodiging namens iemand wilt accepteren of weigeren, selec
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
-[3]: ../appointment.md
+[3]: ../create-appointment.md
 [4]: ../video-meetings.md
 [5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 

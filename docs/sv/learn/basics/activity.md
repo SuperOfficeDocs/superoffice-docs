@@ -19,9 +19,7 @@ so.audience.tooltip: SuperOffice CRM
 
 Det finns två typer av aktiviteter – dokument och händelser. Händelser är en samlingsbeteckning för bokningar, uppgifter och samtal. Dessutom visas utskick, formulärinlämningar och chattuppföljningar på detaljkortet **Aktiviteter**.
 
-* [Bokning][1]
-* [Uppgift][2]
-* [Samtal][3]
+* [Händelser][1]
 * [Arbeta med dokument][4]
 * [Skriv ett e-postmeddelande][5]
 * [Chatt][12]
@@ -137,9 +135,7 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
 * [Skriv ett e-postmeddelande][5]
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/appointment.md
-[2]: ../../diary/learn/task.md
-[3]: ../../diary/learn/phone-call/index.md
+[1]: ../../diary/learn/follow-ups.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md

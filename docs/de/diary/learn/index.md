@@ -23,7 +23,7 @@ Durch die regelmäßige Nutzung des Kalenders können Sie Termine und Aktivität
 
 ## Mit Folgeaufgaben arbeiten
 
-Eine Folgeaufgabe ist die allgemeine Bezeichnung für [Termin][1], [Aufgabe][2] und [Anrufe][3]. Die Funktionsweise ist bei allen Folgeaufgaben in etwa identisch.
+Eine [Folgeaufgabe][1] ist die allgemeine Bezeichnung für Termin, Aufgabe und Anrufe. Die Funktionsweise ist bei allen Folgeaufgaben in etwa identisch.
 
 > [!NOTE]
 > An dieser Stelle soll auf den entscheidenden Unterschied zwischen Aktivitäten und Folgeaufgaben (Termine, Aufgaben und Anrufe) hingewiesen werden.
@@ -55,9 +55,7 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 * [Videokonferenzen][23]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
+[1]: follow-ups.md
 [4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md

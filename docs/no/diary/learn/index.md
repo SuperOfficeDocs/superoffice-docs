@@ -23,7 +23,7 @@ Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele avt
 
 ## Jobbe med oppfølginger
 
-Oppfølginger er et samlebegrep for aktivitetene [avtale][1], [oppgave][2] og [samtale][3]. Disse fungerer stort sett på samme måte.
+[Oppfølginger][1] er et samlebegrep for aktivitetene avtale, oppgave og samtale. Disse fungerer stort sett på samme måte.
 
 > [!NOTE]
 > Det er viktig å se forskjellen mellom aktiviteter og oppfølginger (avtaler, oppgaver og samtaler).
@@ -55,9 +55,7 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 * [Videomøter][23]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
+[1]: follow-ups.md
 [4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md

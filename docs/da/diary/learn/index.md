@@ -23,7 +23,7 @@ Regelmæssig brug af dagbogen hjælper dig med automatisk at forbinde og dele af
 
 ## Arbejde med opfølgninger
 
-Opfølgning er en samlet betegnelse for aftale-[,][1] [opgave][2] - og [telefonopkaldsaktiviteterne][3] Disse fungerer alle på stort set samme måde.
+[Opfølgning][1] er en samlet betegnelse for aftale-, opgave- og telefonopkaldsaktiviteterne. Disse fungerer alle på stort set samme måde.
 
 > [!NOTE]
 > Det er vigtigt at forstå sondringen mellem aktiviteter og opfølgninger (aftaler, opgaver og telefonopkald).
@@ -55,9 +55,7 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 * [Videomøder][23]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
+[1]: follow-ups.md
 [4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md

@@ -5,6 +5,8 @@ items:
   href: screen/navigate-in-diary.md
 - name: Dialogrutan för händelser
   href: screen/dialog-for-followups.md
+- name: Bokning, samtal, uppgift
+  href: follow-ups.md
 - name: Öppna händelser
   href: open-follow-up.md
 - name: Kalendervyer
@@ -32,31 +34,16 @@ items:
   - name: Försäljning
     href: screen/sales-tab.md
 - name: Arbeta med händelser
-  topicHref: appointment.md
+  topicHref: create-appointment.md
   items:
-  - name: Bokning
-    topicHref: appointment.md
-    items:
-    - name: Översikt
-      href: appointment.md
-    - name: Skapa bokning
-      href: create-appointment.md
-  - name: Samtal
-    topicHref: phone-call/index.md
-    items:
-    - name: Översikt
-      href: phone-call/index.md
-    - name: Registrera samtal
-      href: phone-call/add.md
+  - name: Skapa bokning
+    href: create-appointment.md
+  - name: Registrera samtal
+    href: phone-call/add.md
   - name: Videomöten
     href: video-meetings.md
-  - name: Uppgifter
-    topicHref: task.md
-    items:
-    - name: Översikt
-      href: task.md
-    - name: Skapa uppgift
-      href: create-task.md
+  - name: Skapa uppgift
+    href: create-task.md
   - name: "Lägga till en händelse (möte, uppgift eller telefonsamtal)"
     href: create-follow-up.md
   - name: Redigera händelse

@@ -19,9 +19,7 @@ so.audience.tooltip: SuperOffice CRM
 
 Es gibt zwei Typen von Aktivitäten – Dokumente und Folgeaufgaben. Folgeaufgaben ist ein Sammelbegriff für Termine, Anrufe und Aufgaben. Außerdem werden auf der Bereichsregisterkarte **Aktivitäten** Kampagnen, Formularübermittlungen und Chat-Datensätze angezeigt.
 
-* [Termin][1]
-* [Aufgabe][2]
-* [Anruf][3]
+* [Folgeaufgaben][1]
 * [Mit Dokumenten arbeiten][4]
 * [E-Mail verfassen][5]
 * [Chat][12]
@@ -137,9 +135,7 @@ Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werde
 * [E-Mail verfassen][5]
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/appointment.md
-[2]: ../../diary/learn/task.md
-[3]: ../../diary/learn/phone-call/index.md
+[1]: ../../diary/learn/follow-ups.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md

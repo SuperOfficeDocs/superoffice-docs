@@ -11,7 +11,7 @@ language: en
 
 # The Dialog for follow-ups
 
-Regardless of the type of follow-up you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – [Appointment][1], [Task][2], or [Phone Call][3] – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
+Regardless of the [type of follow-up][1] you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – Appointment, Task, or Phone Call – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
 
 The dialog consists of a main section with general information about the follow-up, and five tabs with additional information:
 
@@ -158,14 +158,12 @@ This tab contains information about URLs, activities (documents and follow-ups),
 This tab displays any [custom fields][14] configured in Settings and maintenance.
 
 <!-- Referenced links -->
-[1]: ../appointment.md
-[2]: ../task.md
-[3]: ../phone-call/index.md
+[1]: ../follow-ups.md
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
 [7]: ../open.md
-[8]: linking-documents-to-follow-ups.md
+[8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

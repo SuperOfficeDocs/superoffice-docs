@@ -23,7 +23,7 @@ Regelbunden användning av kalendern hjälper dig att automatiskt koppla och del
 
 ## Arbeta med händelser
 
-Händelser är ett samlingsbegrepp för aktiviteter kopplade till [bokningar][1], [uppgifter][2] och [samtal][3]. Alla dessa fungerar på i stort sett samma sätt.
+[Händelser][1] är ett samlingsbegrepp för aktiviteter kopplade till bokningar, uppgifter och samtal. Alla dessa fungerar på i stort sett samma sätt.
 
 > [!NOTE]
 > Det är viktigt att du förstår skillnaden mellan aktiviteter och händelser (bokningar, uppgifter och samtal).
@@ -55,9 +55,7 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 * [Videomöten][23]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
+[1]: follow-ups.md
 [4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md

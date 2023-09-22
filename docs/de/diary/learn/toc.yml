@@ -5,6 +5,8 @@ items:
   href: screen/navigate-in-diary.md
 - name: Dialogfeld für Folgeaufgabe
   href: screen/dialog-for-followups.md
+- name: Termin, Telefonanruf, Aufgabe
+  href: follow-ups.md
 - name: Folgeaufgaben öffnen
   href: open-follow-up.md
 - name: Kalender-Ansichten
@@ -32,31 +34,16 @@ items:
   - name: Verkäufe
     href: screen/sales-tab.md
 - name: Mit Folgeaufgaben arbeiten
-  topicHref: appointment.md
+  topicHref: create-appointment.md
   items:
-  - name: Termin
-    topicHref: appointment.md
-    items:
-    - name: Überblick
-      href: appointment.md
-    - name: Termin erstellen
-      href: create-appointment.md
-  - name: Telefonanruf
-    topicHref: phone-call/index.md
-    items:
-    - name: Überblick
-      href: phone-call/index.md
-    - name: Anruf eintragen
-      href: phone-call/add.md
+  - name: Termin erstellen
+    href: create-appointment.md
+  - name: Anruf eintragen
+    href: phone-call/add.md
   - name: Videokonferenzen
     href: video-meetings.md
-  - name: Aufgaben
-    topicHref: task.md
-    items:
-    - name: Überblick
-      href: task.md
-    - name: Aufgabe erstellen
-      href: create-task.md
+  - name: Aufgabe erstellen
+    href: create-task.md
   - name: "Eine Folgeaufgabe (Termin, Aufgabe oder Telefonanruf) hinzufügen"
     href: create-follow-up.md
   - name: Folgeaufgabe bearbeiten

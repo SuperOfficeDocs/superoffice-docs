@@ -5,6 +5,8 @@ items:
   href: screen/navigate-in-diary.md
 - name: Dialogboks til opfølgning
   href: screen/dialog-for-followups.md
+- name: Aftale, samtale, opgave
+  href: follow-ups.md
 - name: Åbn opfølgning
   href: open-follow-up.md
 - name: Kalendervisninger
@@ -32,31 +34,16 @@ items:
   - name: Salg
     href: screen/sales-tab.md
 - name: Arbejd med opfølgning
-  topicHref: appointment.md
+  topicHref: create-appointment.md
   items:
-  - name: Aftale
-    topicHref: appointment.md
-    items:
-    - name: Oversigt
-      href: appointment.md
-    - name: Opret aftale
-      href: create-appointment.md
-  - name: Samtale
-    topicHref: phone-call/index.md
-    items:
-    - name: Oversigt
-      href: phone-call/index.md
-    - name: Registrer samtale
-      href: phone-call/add.md
+  - name: Opret aftale
+    href: create-appointment.md
+  - name: Registrer samtale
+    href: phone-call/add.md
   - name: Videomøder
     href: video-meetings.md
-  - name: Opgaver
-    topicHref: task.md
-    items:
-    - name: Oversigt
-      href: task.md
-    - name: Opret opgave
-      href: create-task.md
+  - name: Opret opgave
+    href: create-task.md
   - name: "Tilføj opfølgning (aftale, opgave eller telefonopkald)"
     href: create-follow-up.md
   - name: Rediger opfølgning

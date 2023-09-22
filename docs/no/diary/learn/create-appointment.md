@@ -53,7 +53,7 @@ Gjør ett av følgende:
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/basics/activity.md
 [5]: set-alarm.md
-[6]: appointment.md
+[6]:follow-ups.md#apt
 [8]: video-meetings.md
 
 <!-- Referenced images -->

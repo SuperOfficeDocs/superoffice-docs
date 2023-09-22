@@ -19,9 +19,7 @@ so.audience.tooltip: SuperOffice CRM
 
 Det finnes to typer aktiviteter – dokumenter og oppfølginger. Oppfølginger er en samlebetegnelse for avtaler, oppgaver og samtaler. I tillegg vises utsendelser, skjemainnsendinger og chatoppføringer på detaljkortet **Aktiviteter**.
 
-* [Avtale][1]
-* [Oppgave][2]
-* [Samtale][3]
+* [Oppfølginger][1]
 * [Arbeide med dokumenter][4]
 * [Skriv en e-post][5]
 * [Chat][12]
@@ -138,9 +136,7 @@ Du kan slette aktiviteter fra alle skjermbilder der de vises:
 * [Skriv en e-post][5]
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/appointment.md
-[2]: ../../diary/learn/task.md
-[3]: ../../diary/learn/phone-call/index.md
+[1]: ../../diary/learn/follow-ups.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md

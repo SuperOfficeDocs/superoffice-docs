@@ -5,6 +5,8 @@ items:
   href: screen/navigate-in-diary.md
 - name: Dialog for follow-up
   href: screen/dialog-for-followups.md
+- name: Appointment, task, phone call
+  href: follow-ups.md
 - name: Open follow-up
   href: open-follow-up.md
 - name: Calendar views
@@ -32,31 +34,16 @@ items:
   - name: Sales
     href: screen/sales-tab.md
 - name: Work with follow-ups
-  topicHref: appointment.md
+  topicHref: create-appointment.md
   items:
-  - name: Appointment
-    topicHref: appointment.md
-    items:
-    - name: Overview
-      href: appointment.md
-    - name: Create appointment
-      href: create-appointment.md
-  - name: Phone call
-    topicHref: phone-call/index.md
-    items:
-    - name: Overview
-      href: phone-call/index.md
-    - name: Enter phone call
-      href: phone-call/add.md
+  - name: Create appointment
+    href: create-appointment.md
+  - name: Enter phone call
+    href: phone-call/add.md
   - name: Video meetings
     href: video-meetings.md
-  - name: Tasks
-    topicHref: task.md
-    items:
-    - name: Overvew
-      href: task.md
-    - name: Create task
-      href: create-task.md
+  - name: Create task
+    href: create-task.md
   - name: Add follow-up (appointment, task, or phone call)
     href: create-follow-up.md
   - name: Edit follow-up

@@ -23,7 +23,7 @@ Regular use of the diary helps you to automatically connect and share appointmen
 
 ## Work with follow-ups
 
-Follow-up is a collective term for the [appointment][1], [task][2], and [phone call][3] activities. These all function in largely the same way.
+[Follow-up][1] is a collective term for the appointment, task, and phone call activities. These all function in largely the same way.
 
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
@@ -55,9 +55,7 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 * [Video meetings][23]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
+[1]: follow-ups.md
 [4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md

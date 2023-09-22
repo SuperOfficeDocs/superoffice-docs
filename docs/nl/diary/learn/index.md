@@ -23,7 +23,7 @@ Regelmatig gebruik van de agenda helpt u om automatisch afspraken en activiteite
 
 ## Werken met vervolgactiviteiten
 
-Een vervolgactiviteit is een verzamelnaam voor de activiteiten [afspraak][1], [taak][2] en [Telefoongesprek][3]. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
+Een [vervolgactiviteit][1] is een verzamelnaam voor de activiteiten afspraak, taak en Telefoongesprek. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
 
 > [!NOTE]
 > het is belangrijk de verschillen tussen activiteiten en vervolgactiviteiten (afspraken, taken en telefoongesprekken) te begrijpen.
@@ -55,9 +55,7 @@ Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat s
 * [Videovergaderingen][23]
 
 <!-- Referenced links -->
-[1]: appointment.md
-[2]: task.md
-[3]: phone-call/index.md
+[1]: follow-ups.md
 [4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md
