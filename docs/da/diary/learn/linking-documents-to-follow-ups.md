@@ -31,6 +31,6 @@ Hvis du vil fjerne tilknytningen til et dokument, en opfølgning eller et salg, 
 
 <!-- Referenced links -->
 [1]: ../../document/learn/screen/index.md
-[2]: ../../diary/learn/screen/dialog-for-followups.md
+[2]: screen/dialog-for-followups.md
 
 <!-- Referenced images -->

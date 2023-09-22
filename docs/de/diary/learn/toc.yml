@@ -5,6 +5,8 @@ items:
   href: screen/navigate-in-diary.md
 - name: Dialogfeld für Folgeaufgabe
   href: screen/dialog-for-followups.md
+- name: Folgeaufgaben öffnen
+  href: open-follow-up.md
 - name: Kalender-Ansichten
   topicHref: screen/day.md
   items:
@@ -77,6 +79,8 @@ items:
     href: follow-up-assign.md
   - name: Alarm für Folgeaufgabe festlegen
     href: set-alarm.md
+  - name: Dokumente mit Folgeaufgaben verknüpfen
+    href: linking-documents-to-follow-ups.md
   - name: Folgeaufgabe als E-Mail senden
     href: send-as-email.md
   - name: Folgeaufgabe löschen

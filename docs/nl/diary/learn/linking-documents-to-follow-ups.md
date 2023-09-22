@@ -9,7 +9,7 @@ so.topic: howto
 language: nl
 ---
 
-# Koppelingen toevoegen vanuit het dialoogvenster voor vervolgactiviteiten of het dialoogvenster Document
+# Koppelingen toevoegen vanuit het dialoogvenster voor vervolgactiviteiten of Document
 
 Wanneer het dialoogvenster voor vervolgactiviteiten of het dialoogvenster **Document** actief is, kunt u koppelingen naar relevante activiteiten, projecten of verkopen toevoegen. Als u bijvoorbeeld naar een vergadering gaat met een bedrijf waarmee u eerder contact hebt gehad, kunt u koppelingen toevoegen naar documenten en verkopen die u al voor dit bedrijf hebt gemaakt.
 
@@ -31,6 +31,6 @@ Voor de verwijdering van de koppeling naar een document, vervolgactiviteit of ve
 
 <!-- Referenced links -->
 [1]: ../../document/learn/screen/index.md
-[2]: ../../diary/learn/screen/dialog-for-followups.md
+[2]: screen/dialog-for-followups.md
 
 <!-- Referenced images -->

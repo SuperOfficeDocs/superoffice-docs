@@ -8,7 +8,7 @@ keywords: diary, follow-up
 so.topic: howto
 language: en
 ---
-
+ 
 # Open follow-ups
 
 Open an existing follow-up by double-clicking it:

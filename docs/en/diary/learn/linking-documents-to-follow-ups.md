@@ -31,6 +31,6 @@ To remove the link to a document, follow-up or sale, select the row in question 
 
 <!-- Referenced links -->
 [1]: ../../document/learn/screen/index.md
-[2]: ../../diary/learn/screen/dialog-for-followups.md
+[2]: screen/dialog-for-followups.md
 
 <!-- Referenced images -->

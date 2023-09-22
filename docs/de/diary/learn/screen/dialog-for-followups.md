@@ -165,7 +165,7 @@ Auf dieser Registerkarte finden Sie alle [benutzerdefinierten Felder][14], die i
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
 [7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[8]: linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

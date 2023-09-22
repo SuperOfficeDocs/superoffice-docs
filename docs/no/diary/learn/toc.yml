@@ -5,6 +5,8 @@ items:
   href: screen/navigate-in-diary.md
 - name: Dialog for oppfølging
   href: screen/dialog-for-followups.md
+- name: Åpne oppfølginger
+  href: open-follow-up.md
 - name: Kalendervisninger
   topicHref: screen/day.md
   items:
@@ -77,6 +79,8 @@ items:
     href: follow-up-assign.md
   - name: Sette alarm for oppfølging
     href: set-alarm.md
+  - name: Koble dokumenter til oppfølging
+    href: linking-documents-to-follow-ups.md
   - name: Sende en oppfølging som e-post
     href: send-as-email.md
   - name: Slette oppfølging

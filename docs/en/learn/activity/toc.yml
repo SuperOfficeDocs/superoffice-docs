@@ -1,9 +1,5 @@
 items:
   - name: Overview
     href: index.md
-  - name: Open follow-up
-    href: ../../diary/learn/open-follow-up.md
   - name: Reply to or forward email from the Activities section tab
     href: send-email.md
-  - name: Link documents to follow ups
-    href: linking-documents-to-follow-ups.md

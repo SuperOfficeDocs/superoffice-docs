@@ -1,9 +1,5 @@
 items:
   - name: Überblick
     href: index.md
-  - name: Folgeaufgabe öffnen
-    href: ../../diary/learn/open-follow-up.md
   - name: "E-Mail antworten oder weiterleiten"
     href: send-email.md
-  - name: Dokumente mit Folgeaufgaben verknüpfen
-    href: linking-documents-to-follow-ups.md

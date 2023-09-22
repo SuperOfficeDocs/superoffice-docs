@@ -5,6 +5,8 @@ items:
   href: screen/navigate-in-diary.md
 - name: Dialogrutan för händelser
   href: screen/dialog-for-followups.md
+- name: Öppna händelser
+  href: open-follow-up.md
 - name: Kalendervyer
   topicHref: screen/day.md
   items:
@@ -77,6 +79,8 @@ items:
     href: follow-up-assign.md
   - name: Ställa in larm för händelser
     href: set-alarm.md
+  - name: Länka dokument till händelser
+    href: linking-documents-to-follow-ups.md
   - name: Skicka en händelse som ett e-postmeddelande
     href: send-as-email.md
   - name: Ta bort händelse

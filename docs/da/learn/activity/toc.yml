@@ -1,9 +1,5 @@
 items:
   - name: Oversigt
     href: index.md
-  - name: Åbn opfølgning
-    href: ../../diary/learn/open-follow-up.md
   - name: Besvar eller videresend e-mail fra Aktiviteter
     href: send-email.md
-  - name: Link dokumenter til opfølgning
-    href: linking-documents-to-follow-ups.md

@@ -66,7 +66,7 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 [9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[12]: ../../learn/activity/linking-documents-to-follow-ups.md
+[12]: linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md

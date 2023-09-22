@@ -165,7 +165,7 @@ På den här fliken visas alla [egendefinierade fält][14] som har konfigurerats
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
 [7]: ../open.md
-[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
+[8]: linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md
