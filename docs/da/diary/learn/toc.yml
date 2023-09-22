@@ -48,10 +48,6 @@ items:
       href: phone-call/index.md
     - name: Registrer samtale
       href: phone-call/add.md
-    - name: Ring til person
-      href: phone-call/dial.md
-    - name: Telefonegenskaber
-      href: phone-call/preferences.md
   - name: Videomøder
     href: video-meetings.md
   - name: Opgaver

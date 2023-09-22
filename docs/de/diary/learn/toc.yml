@@ -48,10 +48,6 @@ items:
       href: phone-call/index.md
     - name: Anruf eintragen
       href: phone-call/add.md
-    - name: Person anrufen
-      href: phone-call/dial.md
-    - name: Telefoneinstellungen
-      href: phone-call/preferences.md
   - name: Videokonferenzen
     href: video-meetings.md
   - name: Aufgaben

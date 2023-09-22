@@ -48,10 +48,6 @@ items:
       href: phone-call/index.md
     - name: Enter phone call
       href: phone-call/add.md
-    - name: Dial contact
-      href: phone-call/dial.md
-    - name: Phone preferences
-      href: phone-call/preferences.md
   - name: Video meetings
     href: video-meetings.md
   - name: Tasks

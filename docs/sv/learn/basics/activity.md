@@ -146,7 +146,7 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
 [7]: ../../diary/learn/screen/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
-[11]: ../../diary/learn/phone-call/dial.md
+[11]: ../../contact/learn/dial.md
 [12]: ../../chat/learn/index.md
 [13]: ../../company/learn/screen/activities-tab.md
 [14]: ../../contact/learn/screen/activities-tab.md

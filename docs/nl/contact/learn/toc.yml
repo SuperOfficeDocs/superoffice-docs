@@ -19,6 +19,8 @@ items:
     href: delete.md
   - name: E-mail verzenden naar een contactpersoon
     href: send-email.md
+  - name: Contactpersonen bellen
+    href: dial.md
   - name: Relatie toevoegen
     href: add-relation.md
   - name: Relatie verwijderen

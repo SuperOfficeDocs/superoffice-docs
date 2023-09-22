@@ -115,7 +115,7 @@ SuperOffice CRM är kompatibelt med alla de nyaste operativsystemen och webbläs
 [13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
 [15]: ../../globalization-and-localization/learn/change-language.md
-[16]: ../../diary/learn/phone-call/preferences.md
+[16]: ../../contact/learn/dial.md
 [21]: ../../../en/onsite/requirements/index.md
 
 <!-- Referenced images -->

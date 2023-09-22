@@ -1,24 +1,36 @@
 ---
-uid: help-sv-phone-preferences
-title: Telefoninställningar
-description: Telefoninställningar
+uid: help-sv-contact-dial
+title: Ringa till kontakter
+description: Ringa till kontakter; Telefoninställningar
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 09.22.2023
 keywords: kalender, händelse, telefon, ringa upp, ringa
 so.topic: howto
 language: sv
 ---
 
-# Telefoninställningar
+# Ringa till kontakter
 
-Du kan ringa från SuperOffice CRM på följande sätt:
+Om IP-telefonin har konfigurerats korrekt kan du ringa en kontakt direkt från SuperOffice CRM på följande sätt:
 
 * Klicka på ett telefonnummer i fönstret Företag
 * Klicka på ![ikon][img1] i en dialogruta.
 * Högerklicka på en person på ett detaljkort och välj **Ring *namn***.
-* [Ring till kontakter][1].
+* Ring till kontakter.
 
-Telefoninställningarna hanteras olika i Windows- och webbklienten. Du kan läsa mer om telefoninställningar för Windows och webben nedan.
+## Ringa en kontakt från dialogrutorna Bokning, Uppgift, Samtal och Dokument
+
+Du använder telefonknappen som finns i bland annat dialogrutorna **Bokning**, **Uppgift**, **Samtal** och **Dokument**:
+
+1. Öppna en bokning, en uppgift, ett samtal eller ett dokument.
+2. Välj önskad kontakt i fältet **Kontakt** i dialogrutan.
+3. Klicka på knappen bredvid kontaktfältet ![ikon][img1]. En lista över nummer till den aktuella kontakten visas.
+4. Välj det telefonnummer du vill ringa upp. Kontakten rings då upp.
+
+## Ringa från detaljkort (till kontakter, urvalsmedlemmar, intressenter och deltagare)
+
+1. Gå till ett detaljkort som innehåller kontakter.
+2. Klicka på ett telefonnummer i en kolumn som innehåller telefonnummer. Kontakten rings då upp.
 
 ## Tekniska krav
 
@@ -43,8 +55,7 @@ Om IP-telefoni, Skype eller FaceTime är installerat kan du ringa från SuperOff
 Du kan också använda [mallvariabler][2] i telefoninställningarna.
 
 <!-- Referenced links -->
-[1]: dial.md
-[2]: ../../../document/learn/template-variables.md
+[2]: ../../document/learn/template-variables.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/phone.png
+[img1]: ../../../../common/icons/phone.png

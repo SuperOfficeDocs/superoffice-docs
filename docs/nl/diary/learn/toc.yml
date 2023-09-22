@@ -48,10 +48,6 @@ items:
       href: phone-call/index.md
     - name: Telefoongesprek registreren
       href: phone-call/add.md
-    - name: Contactpersonen bellen
-      href: phone-call/dial.md
-    - name: Telefoonvoorkeuren
-      href: phone-call/preferences.md
   - name: Videovergaderingen
     href: video-meetings.md
   - name: Taken
