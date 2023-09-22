@@ -5,4 +5,4 @@ Deze worden gemaakt door op de knop **Nieuw** in de [bovenste balk][1], te klikk
 
 <!-- Referenced links -->
 [1]: ../getting-started/main-screen/buttons-in-menu-bar.md
-[2]: ../activity/index.md
+[2]: ../basics/activity.md

@@ -43,8 +43,8 @@ Auf der Bereichsregisterkarte **Aktivitäten** werden die folgenden Spalten ange
 [1]: ../../../diary/learn/change-completed-status.md
 [2]: ../../../learn/section-tabs/configure-columns.md
 [7]: ../../../learn/section-tabs/filter.md
-[3]: ../../../learn/activity/index.md
-[5]: ../../../learn/activity/send-email.md
+[3]: ../../../learn/basics/activity.md
+[5]: ../../../learn/section-tabs/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.png

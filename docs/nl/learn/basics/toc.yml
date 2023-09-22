@@ -18,9 +18,8 @@ items:
   - name: Werken met sectietabbladen
     href: ../section-tabs/toc.yml
     topicHref: ../section-tabs/index.md
-  - name: Werken met activiteiten
-    href: ../activity/toc.yml
-    topicHref: ../activity/index.md
+  - name: Activiteiten
+    href: activity.md
   - name: Taal en vertaling
     href: ../../globalization-and-localization/learn/toc.yml
     topicHref: ../../globalization-and-localization/learn/change-language.md

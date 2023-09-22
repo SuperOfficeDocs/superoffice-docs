@@ -35,7 +35,7 @@ Anrufe können an folgenden Stellen in SuperOffice CRM angezeigt werden:
 * [Mit Folgeaufgaben arbeiten][3]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: add.md
 [3]: ../index.md
 [4]: ../../../learn/getting-started/preferences.md

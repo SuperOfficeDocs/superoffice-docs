@@ -24,8 +24,8 @@ Detaljkortet **Aktiviteter** i Firma-bildet inneholder alle aktivitetene som er 
 * [Bruke filtre i detaljkortene][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
-[3]: ../../../learn/activity/send-email.md
+[1]: ../../../learn/basics/activity.md
+[3]: ../../../learn/section-tabs/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

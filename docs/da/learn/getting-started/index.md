@@ -112,7 +112,7 @@ SuperOffice CRM er kompatibel med alle de nyeste operativsystemer og browsere. D
 
 [11]: ../basics/fav.md
 [12]: ../section-tabs/index.md
-[13]: ../activity/index.md
+[13]: ../basics/activity.md
 [14]: ../../search-options/learn/index.md
 [15]: ../../globalization-and-localization/learn/change-language.md
 [16]: ../../diary/learn/phone-call/preferences.md

@@ -53,9 +53,9 @@ Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel
 * [Ändra Slutfört-status för en aktivitet][2]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: ../../../diary/learn/change-completed-status.md
-[5]: ../../../learn/activity/send-email.md
+[5]: ../../../learn/section-tabs/send-email.md
 [7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

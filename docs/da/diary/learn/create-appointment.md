@@ -51,7 +51,7 @@ Gør ét af følgende:
 [1]: screen/view.md
 [2]: screen/dialog-for-followups.md
 [3]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
-[4]: ../../learn/activity/index.md
+[4]: ../../learn/basics/activity.md
 [5]: set-alarm.md
 [6]: appointment.md
 [8]: video-meetings.md

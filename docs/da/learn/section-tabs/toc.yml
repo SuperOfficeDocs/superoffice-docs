@@ -9,3 +9,5 @@ items:
     href: group.md
   - name: Eksporter
     href: export-archives.md
+  - name: Besvar eller videresend e-mail fra Aktiviteter
+    href: send-email.md

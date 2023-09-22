@@ -24,8 +24,8 @@ The **Activities** section tab in the Company screen contains all the activities
 * [Use filters in the section tabs][5]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
-[3]: ../../../learn/activity/send-email.md
+[1]: ../../../learn/basics/activity.md
+[3]: ../../../learn/section-tabs/send-email.md
 [5]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->

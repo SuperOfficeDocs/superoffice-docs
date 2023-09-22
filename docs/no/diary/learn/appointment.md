@@ -40,7 +40,7 @@ Standard varighet for en avtale er én time, men du kan endre varigheten etter b
 [1]: ../../learn/getting-started/preferences.md
 [2]: create-appointment.md
 [3]: index.md
-[4]: ../../learn/activity/index.md
+[4]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/appointment.png

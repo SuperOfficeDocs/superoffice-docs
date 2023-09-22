@@ -35,7 +35,7 @@ U kunt gesprekken op de volgende plaatsen weergeven in SuperOffice CRM:
 * [Werken met vervolgactiviteiten][3]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: add.md
 [3]: ../index.md
 [4]: ../../../learn/getting-started/preferences.md

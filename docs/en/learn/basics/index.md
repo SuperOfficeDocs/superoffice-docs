@@ -113,7 +113,7 @@ Your administrator can [add and customize project guides][1] for you.
 [8]: ../../diary/learn/create-appointment.md
 [10]: ../../diary/learn/invitation/add-participant.md
 [11]: ../../../en/video-meeting/index.md
-[12]: ../activity/index.md
+[12]: activity.md
 [13]: ../../globalization-and-localization/learn/change-language.md
 [14]: fav.md
 [15]: deleting-elements.md

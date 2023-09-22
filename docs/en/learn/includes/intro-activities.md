@@ -5,4 +5,4 @@ These are created by clicking the **New** button in the [top bar][1], or created
 
 <!-- Referenced links -->
 [1]: ../getting-started/main-screen/buttons-in-menu-bar.md
-[2]: ../activity/index.md
+[2]: ../basics/activity.md

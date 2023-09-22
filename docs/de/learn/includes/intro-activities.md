@@ -5,4 +5,4 @@ Diese werden mit der Schaltfläche **Neu** in der [oberen Leiste][1] oder in and
 
 <!-- Referenced links -->
 [1]: ../getting-started/main-screen/buttons-in-menu-bar.md
-[2]: ../activity/index.md
+[2]: ../basics/activity.md

@@ -9,3 +9,5 @@ items:
     href: group.md
   - name: Export
     href: export-archives.md
+  - name: Svara på eller vidarebefordra e-post från detaljkortet Aktiviteter
+    href: send-email.md

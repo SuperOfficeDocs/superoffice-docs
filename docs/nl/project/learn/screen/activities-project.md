@@ -52,9 +52,9 @@ de tweede kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeel
 * [De status Voltooid voor een activiteit wijzigen][2]
 
 <!-- Referenced links -->
-[1]: ../../../learn/activity/index.md
+[1]: ../../../learn/basics/activity.md
 [2]: ../../../diary/learn/change-completed-status.md
-[5]: ../../../learn/activity/send-email.md
+[5]: ../../../learn/section-tabs/send-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/project/project-activities.png

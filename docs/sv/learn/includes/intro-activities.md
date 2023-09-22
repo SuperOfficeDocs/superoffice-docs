@@ -5,4 +5,4 @@ Dessa skapas genom att klicka på knappen **Nytt** på [toppraden][1], eller ska
 
 <!-- Referenced links -->
 [1]: ../getting-started/main-screen/buttons-in-menu-bar.md
-[2]: ../activity/index.md
+[2]: ../basics/activity.md

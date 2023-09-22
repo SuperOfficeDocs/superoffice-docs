@@ -85,7 +85,7 @@ Rot hervorgehobene Aktivit√§ten weisen darauf hin, dass das vorgesehene Datum f√
 [1]: ../change-completed-status.md
 [2]: dialog-for-followups.md
 [5]: ../create-follow-up.md
-[7]: ../../../learn/activity/index.md
+[7]: ../../../learn/basics/activity.md
 [8]: ../../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->

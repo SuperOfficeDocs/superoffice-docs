@@ -39,7 +39,7 @@ Standardvarigheden for en aftale er 1 time, men denne kan naturligvis ændres ef
 [1]: ../../learn/getting-started/preferences.md
 [2]: create-appointment.md
 [3]: index.md
-[4]: ../../learn/activity/index.md
+[4]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/appointment.png

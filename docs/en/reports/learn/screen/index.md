@@ -60,7 +60,7 @@ The report archive (the **Documents** section tab) appears at the bottom of the 
 <!-- Referenced links -->
 [2]: ../properties.md
 [3]: ../search-criteria/index.md
-[4]: ../../../learn/activity/index.md
+[4]: ../../../learn/basics/activity.md
 [5]: ../index.md
 [6]: ../open-from-archive.md
 [7]: ../filter.md

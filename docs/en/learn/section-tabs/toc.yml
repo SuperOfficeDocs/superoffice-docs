@@ -9,3 +9,5 @@ items:
     href: group.md
   - name: Export
     href: export-archives.md
+  - name: Reply to or forward email from the Activities section tab
+    href: send-email.md
