@@ -136,6 +136,7 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 10.2.5 - (2023.05.09-01) | 12.05.2023 |
 | 10.2.6 - (2023.06.09-06) | 16.06.2023 |
 | 10.2.7 | Online skipped |
+| 10.2.8 - (2023.09.18-04) | 19.09.2023 |
 
 <!-- Referenced links -->
 [1]: ../onsite/version-history.md
