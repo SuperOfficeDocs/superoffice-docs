@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: SuperOffice AS – Research and Development
-so.date: 06.13.2023
+so.date: 09.19.2023
 so.topic: reference
 ---
 
@@ -11,11 +11,9 @@ so.topic: reference
 
 Here you will find all the small and big changes that has been released for SuperOffice in the different versions. We aim to give you an understanding on why we have created the feature and function and how to use it. Hope you will find this inspiring and try out our new functionality.
 
-## The latest release
+## SuperOffice CRM versions
 
-[**Version 10.2.8**][6] - 13.06.2023
-
-## Overview of the different versions
+The latest release is [**version 10.2.8**][6] - 19.09.2023.
 
 * [10.2][6]
 * [10.1][5]
@@ -23,6 +21,12 @@ Here you will find all the small and big changes that has been released for Supe
 * [9.2][1]
 * [9.1][2]
 * [8.5][3]
+
+## Mobile CRM versions
+
+The latest release is [**version 10.2.12**][6] - 13.06.2023.
+
+* [10.x][7]
 
 ## How to navigate this section
 
@@ -49,6 +53,7 @@ Here you will find all the small and big changes that has been released for Supe
 [4]: 10.0/index.md
 [5]: 10.1/index.md
 [6]: 10.2/index.md
+[7]: mobile/index.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

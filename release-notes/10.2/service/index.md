@@ -3,7 +3,7 @@ title: New and improved Service
 uid: news-service-10.2
 description: Release notes. What's new in SuperOffice Service 10.2
 author: SuperOffice AS – Research and Development
-so.date: 08.29.2023
+so.date: 09.19.2023
 keywords: Service, request
 so.version: 10.2
 so.topic: reference
