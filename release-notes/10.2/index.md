@@ -3,7 +3,7 @@ title: What's new in SuperOffice 10.2
 uid: release-notes-10.2
 description: Release notes. What's new in SuperOffice 10.2
 author: Kirsti Aakerholt
-so.date: 08.30.2023
+so.date: 09.19.2023
 keywords: Core CRM, Service, Requests, Sales, Marketing, Settings and maintenance, Mobile CRM, Zapier, App store, API, SuperOffice for Outlook, Office integrations, SharePoint
 so.topic: reference
 so.version: 10.2
@@ -41,7 +41,7 @@ so.version: 10.2
   * [Archive attachment on a message][12] in Service
   * [Search in the Find request tab gives both selections and requests][12] in Service
 
-* 10.2.7 (01.09.2023):
+* 10.2.8 (19.09.2023):
   * [Open/download attachments in side bar preview][24] in Service
   * [Update lists clicking the exclamation mark][24] in Service
   * [Create system signature for requests][24] in Service
@@ -49,11 +49,8 @@ so.version: 10.2
 
 ### Mobile CRM
 
-* 10.2.2 (25.08.2022):
-  * [CRMScript on custom tasks in Mobile CRM][4] in Mobile CRM
-
 * 10.2.7 (25.01.2023):
-  * [Custom tasks][11] in Mobile CRM
+  * [CRMScript on custom tasks in Mobile CRM][11] in Mobile CRM
 
 * 10.2.8 (22.02.2023):
   * [SharePoint documents in Mobile CRM, Floating +New button][6] in Mobile CRM
@@ -90,16 +87,15 @@ so.version: 10.2
 [1]: admin/10.2.1-update.md
 [2]: core-crm/10.2.1-update.md
 [3]: marketing/10.2.2-update.md
-[4]: mobile/10.2.2-update.md
 [5]: marketing/10.2.3-update.md
-[6]: mobile/10.2.8-update.md
-[7]: mobile/10.2.10-update.md
+[6]: ../mobile/10.2.8-update.md
+[7]: ../mobile/10.2.10-update.md
 [8]: core-crm/10.2.4-update.md
-[9]: mobile/10.2.11-update.md
+[9]: ../mobile/10.2.11-update.md
 [10]: service/10.2.5-update.md
-[11]: mobile/10.2.7-update.md
+[11]: ../mobile/10.2.7-update.md
 [12]: service/10.2.6-update.md
-[13]: mobile/10.2.12-update.md
+[13]: ../mobile/10.2.12-update.md
 [14]: ../../docs/en/developer-portal/overview.md
 [15]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Zapier_3.2
 [16]: https://zapier.com/apps/superofficecrm/integrations
@@ -110,6 +106,6 @@ so.version: 10.2
 [21]: https://appstore.superoffice.com/lasso-x/lasso-for-superoffice
 [22]: https://appstore.superoffice.com/mailvideo-as/mailvideo
 [23]: https://appstore.superoffice.com/siteshop-aps/risika-risk-credit
-[24]: service/10.2.7-update.md
+[24]: service/10.2.8-update.md
 
 <!-- Referenced images -->

@@ -45,6 +45,6 @@ When you have set up Mobile CRM to give you alerts when a meeting starts, a pop-
 [2]: ../../../diary/learn/video-meetings.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../release-notes/9.2/mobile/media/img403.jpg
-[img2]: ../../../../../release-notes/9.2/mobile/media/img404.jpg
-[img3]: ../../../../../release-notes/9.2/mobile/media/92-6.png
+[img1]: ../../../../../release-notes/mobile/media/img403.jpg
+[img2]: ../../../../../release-notes/mobile/media/img404.jpg
+[img3]: ../../../../../release-notes/mobile/media/92-6.png

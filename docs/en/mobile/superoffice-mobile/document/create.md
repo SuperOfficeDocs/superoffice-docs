@@ -73,5 +73,5 @@ The steps below assume you are in the **Documents** tab of a company, contact, s
 
 <!-- Referenced images -->
 [img3]: media/save-image.jpg
-[img6]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-menu.png
-[img7]: ../../../../../release-notes/10.2/mobile/media/mobile-sharepoint-create.png
+[img6]: ../../../../../release-notes/mobile/media/mobile-sharepoint-menu.png
+[img7]: ../../../../../release-notes/mobile/media/mobile-sharepoint-create.png

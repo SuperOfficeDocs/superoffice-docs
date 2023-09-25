@@ -11,15 +11,8 @@ items:
   items:
   - name: 9.1 R01 update
     href: service/9.1-R01-update.md
-- name: Mobile
-  href: mobile/index.md
-  items:
-  - name: 9.1 R01 update
-    href: mobile/9.1-R01-update.md
 - name: Office integrations
   href: office-integrations/index.md
   items:
   - name: 9.1 R01 update
     href: office-integrations/9.1-R01-update.md
-
-
