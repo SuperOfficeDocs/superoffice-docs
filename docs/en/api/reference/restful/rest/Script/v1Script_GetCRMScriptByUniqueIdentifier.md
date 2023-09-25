@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptate",
-  "Name": "Beahan-Anderson",
-  "Description": "Profound multi-state application",
-  "IncludeId": "dolore",
-  "Source": "iusto",
-  "Registered": "2003-11-01T03:31:33.3667765+01:00",
-  "RegisteredBy": "accusantium",
-  "Updated": "2002-03-08T03:31:33.3667765+01:00",
-  "UpdatedBy": "aut",
-  "Path": "labore",
+  "UniqueIdentifier": "et",
+  "Name": "Kuhn LLC",
+  "Description": "Operative national capability",
+  "IncludeId": "esse",
+  "Source": "dolores",
+  "Registered": "2017-09-29T03:24:52.0838565+02:00",
+  "RegisteredBy": "aliquam",
+  "Updated": "2015-07-15T03:24:52.0838565+02:00",
+  "UpdatedBy": "perferendis",
+  "Path": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

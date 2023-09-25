@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 777,
-    "Name": "Cassin, Johns and Hettinger",
-    "ToolTip": "Ut odio dolorem esse est est quae.",
-    "Deleted": false,
-    "Rank": 482,
-    "Type": "id",
-    "ColorBlock": 694,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "1999-03-12T03:31:33.7742322+01:00",
+    "Id": 185,
+    "Name": "Graham, Schaden and Pfannerstill",
+    "ToolTip": "Ut aut veritatis laboriosam distinctio nemo nemo distinctio.",
+    "Deleted": true,
+    "Rank": 276,
+    "Type": "eius",
+    "ColorBlock": 212,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "2005-03-25T03:24:52.3494474+01:00",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Goyette, Beahan and Kuhic",
-        "ToolTip": "Qui aliquam nesciunt repellendus ullam non.",
-        "Deleted": true,
-        "Rank": 161,
-        "Type": "aut",
-        "ColorBlock": 456,
-        "IconHint": "nihil",
+        "Id": 303,
+        "Name": "Ziemann-Langosh",
+        "ToolTip": "Labore dolorem et officia eius incidunt.",
+        "Deleted": false,
+        "Rank": 1000,
+        "Type": "est",
+        "ColorBlock": 260,
+        "IconHint": "occaecati",
         "Selected": false,
-        "LastChanged": "2008-04-26T03:31:33.7742322+02:00",
+        "LastChanged": "2010-05-02T03:24:52.3494474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Mr. Marietta Marina Prohaska",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "saepe",
+        "Hidden": false,
+        "FullName": "Consuelo Vandervort",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Horace Hand DVM",
+    "ExtraInfo": "magnam",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Miss Kole Gulgowski DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 950
       }
     }
   }

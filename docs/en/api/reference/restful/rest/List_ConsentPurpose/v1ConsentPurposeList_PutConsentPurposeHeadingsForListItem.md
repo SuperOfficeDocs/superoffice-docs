@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 108,
-    "Name": "Murphy Inc and Sons",
-    "ToolTip": "Itaque soluta nulla impedit tempore atque dolores.",
-    "Deleted": true,
-    "Rank": 191,
-    "Type": "est",
-    "ColorBlock": 763,
-    "IconHint": "placeat",
+    "Id": 574,
+    "Name": "McDermott-Hills",
+    "ToolTip": "Temporibus eveniet.",
+    "Deleted": false,
+    "Rank": 423,
+    "Type": "molestias",
+    "ColorBlock": 419,
+    "IconHint": "quod",
     "Selected": true,
-    "LastChanged": "2001-04-09T03:31:33.5386084+02:00",
+    "LastChanged": "2005-12-28T03:24:52.1932187+01:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Von Group",
-        "ToolTip": "Omnis corporis dignissimos eius.",
+        "Id": 4,
+        "Name": "Ziemann Group",
+        "ToolTip": "Amet ut nihil perspiciatis est amet in velit.",
         "Deleted": false,
-        "Rank": 141,
-        "Type": "et",
-        "ColorBlock": 247,
-        "IconHint": "ipsam",
+        "Rank": 258,
+        "Type": "voluptas",
+        "ColorBlock": 408,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2016-12-28T03:31:33.5386084+01:00",
+        "LastChanged": "2023-04-21T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "assumenda",
-        "Hidden": false,
-        "FullName": "Norberto Jeremie Nader PhD"
+        "ExtraInfo": "quia",
+        "StyleHint": "pariatur",
+        "Hidden": true,
+        "FullName": "Mrs. Mariah Hauck"
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "modi",
+    "ExtraInfo": "est",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Rosemarie Dickens"
+    "FullName": "Haylee Fisher"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Gislason LLC",
-    "ToolTip": "Rerum ut hic enim.",
+    "Id": 898,
+    "Name": "Okuneva LLC",
+    "ToolTip": "Omnis deleniti velit quis optio eum necessitatibus.",
     "Deleted": false,
-    "Rank": 293,
-    "Type": "non",
-    "ColorBlock": 467,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2005-06-13T03:31:33.5386084+02:00",
+    "Rank": 76,
+    "Type": "voluptas",
+    "ColorBlock": 971,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2022-01-29T03:24:52.1932187+01:00",
     "ChildItems": [
       {
-        "Id": 970,
-        "Name": "Kub-Corkery",
-        "ToolTip": "Voluptatum accusantium magnam vel unde occaecati ut.",
+        "Id": 367,
+        "Name": "Deckow, Lemke and Schulist",
+        "ToolTip": "Eaque veritatis impedit cum explicabo.",
         "Deleted": false,
-        "Rank": 71,
-        "Type": "et",
-        "ColorBlock": 192,
-        "IconHint": "harum",
+        "Rank": 995,
+        "Type": "beatae",
+        "ColorBlock": 125,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2000-09-26T03:31:33.5386084+02:00",
+        "LastChanged": "2006-08-10T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "ut",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Ms. Fae Greenfelder",
+        "FullName": "Augusta Bechtelar DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldType": "System.String",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Terrance Wisozk",
+    "ExtraInfo": "odio",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Linnie Crooks DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldLength": 951
       }
     }
   }

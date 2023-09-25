@@ -96,28 +96,28 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 704,
-  "UniqueIdentifier": "fuga",
-  "Name": "Schowalter, Prosacco and Block",
-  "Description": "Self-enabling mobile project",
-  "IncludeId": "rerum",
-  "HierarchyId": 77,
-  "Source": "eligendi",
-  "Registered": "1996-06-14T03:31:32.5039305+02:00",
-  "RegisteredAssociateId": 65,
-  "Updated": "2002-01-13T03:31:32.5039305+01:00",
-  "UpdatedAssociateId": 332,
+  "EjscriptId": 804,
+  "UniqueIdentifier": "ab",
+  "Name": "Collins Inc and Sons",
+  "Description": "Optimized even-keeled data-warehouse",
+  "IncludeId": "quis",
+  "HierarchyId": 114,
+  "Source": "distinctio",
+  "Registered": "2016-10-13T03:24:51.5368575+02:00",
+  "RegisteredAssociateId": 203,
+  "Updated": "2001-05-28T03:24:51.5368575+02:00",
+  "UpdatedAssociateId": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 845
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

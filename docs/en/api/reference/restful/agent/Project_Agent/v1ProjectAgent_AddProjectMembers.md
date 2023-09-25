@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 416,
+  "ProjectEntityId": 690,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 873,
-      "ContactId": 417,
-      "ProjectId": 176,
-      "ContactName": "Towne-Vandervort",
+      "ProjectmemberId": 677,
+      "ContactId": 316,
+      "ProjectId": 122,
+      "ContactName": "Rolfson-Bins",
       "ContactDepartment": "",
-      "ProjectName": "Bernier Inc and Sons",
-      "EmailId": 896,
-      "EmailAddress": "rahul_abernathy@yost.ca",
-      "CountryId": 619,
-      "Firstname": "Casper",
-      "MiddleName": "Jaskolski, Wiza and Hyatt",
-      "Lastname": "Kunde",
-      "PersonId": 939,
+      "ProjectName": "Rogahn Group",
+      "EmailId": 691,
+      "EmailAddress": "talon@kuphalhermiston.name",
+      "CountryId": 36,
+      "Firstname": "Steve",
+      "MiddleName": "Streich, Baumbach and Klocko",
+      "Lastname": "Bosco",
+      "PersonId": 474,
       "Mrmrs": "voluptatem",
-      "ProjectMemberTypeName": "Sporer-Rohan",
-      "Phone": "1-824-898-9399 x0278",
-      "PhoneId": 196,
-      "ProjectMemberTypeId": 754,
-      "EmailAddressName": "shanna_rodriguez@colliernikolaus.co.uk",
-      "Comment": "est",
-      "FullName": "Miss Bonita Stehr Jr."
+      "ProjectMemberTypeName": "Wiza, Wilkinson and Schaefer",
+      "Phone": "922-027-1414 x76511",
+      "PhoneId": 703,
+      "ProjectMemberTypeId": 984,
+      "EmailAddressName": "tanya@kertzmannhermann.com",
+      "Comment": "quae",
+      "FullName": "Keshaun Hickle"
     }
   ]
 }

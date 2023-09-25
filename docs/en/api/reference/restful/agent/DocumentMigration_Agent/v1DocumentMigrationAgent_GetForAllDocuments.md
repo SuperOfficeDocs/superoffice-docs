@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 816,
-  "IncludeEmails": false
+  "DocumentPluginId": 909,
+  "IncludeEmails": true
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 94,
-  "NumDocumentsAlreadyMigrated": 402,
+  "NumDocumentsOmitted": 872,
+  "NumDocumentsAlreadyMigrated": 715,
   "Documents": [
     {
-      "DocumentId": 898,
-      "ContactId": 224,
-      "PersonId": 588,
-      "SaleId": 114,
-      "ProjectId": 807,
-      "DocTmplId": 863,
-      "AssociateId": 204,
-      "UserGroupId": 956,
-      "VisibleForId": 476
+      "DocumentId": 931,
+      "ContactId": 39,
+      "PersonId": 435,
+      "SaleId": 187,
+      "ProjectId": 886,
+      "DocTmplId": 720,
+      "AssociateId": 333,
+      "UserGroupId": 776,
+      "VisibleForId": 670
     }
   ],
   "Associates": [
     {
-      "AssociateId": 416,
-      "EmailAddress": "austen@prohaska.uk"
+      "AssociateId": 794,
+      "EmailAddress": "carmel.runolfsson@brakusmuller.uk"
     },
     {
-      "AssociateId": 416,
-      "EmailAddress": "austen@prohaska.uk"
+      "AssociateId": 794,
+      "EmailAddress": "carmel.runolfsson@brakusmuller.uk"
     }
   ]
 }

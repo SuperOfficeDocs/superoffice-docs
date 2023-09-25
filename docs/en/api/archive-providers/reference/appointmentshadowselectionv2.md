@@ -705,7 +705,7 @@ Shadow contact provider for the appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionV2?$select=contact/contactExtra/x_contact_timespan,person/personBusiness,person/restrictionAddress/state,project/nextMilestone,project/projectAssociate/lastName
+GET /api/v1/archive/AppointmentShadowSelectionV2?$select=isMilestone,contact/deletedDate,contact/postAddress/wgs84latitude,contact/contactUdef/SuperOffice:7,person/personSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

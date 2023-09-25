@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 926,
-    "Name": "Yost-Rempel",
-    "Tooltip": "expedita",
+    "HeadingId": 264,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 154,
-    "UdListDefinitionId": 930
+    "Rank": 401,
+    "UdListDefinitionId": 437
   },
   {
-    "HeadingId": 926,
-    "Name": "Yost-Rempel",
-    "Tooltip": "expedita",
+    "HeadingId": 264,
+    "Name": "Rath Inc and Sons",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 154,
-    "UdListDefinitionId": 930
+    "Rank": 401,
+    "UdListDefinitionId": 437
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 851,
-    "Name": "Stiedemann-Abbott",
-    "Tooltip": "magnam",
-    "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 110,
+    "HeadingId": 961,
+    "Name": "Kshlerin Group",
+    "Tooltip": "similique",
+    "Deleted": true,
+    "Rank": 227,
+    "UdListDefinitionId": 462,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldType": "System.String",
+        "FieldLength": 701
       }
     }
   }

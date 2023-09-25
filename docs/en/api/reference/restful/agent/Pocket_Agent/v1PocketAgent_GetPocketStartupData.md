@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "molestiae",
-    "numquam"
+    "blanditiis",
+    "sit"
   ],
-  "CurrentClientTime": "2015-01-21T03:31:26.9487459+01:00"
+  "CurrentClientTime": "2017-12-05T03:24:48.0488658+01:00"
 }
 ```
 
@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "neque",
-    "eveniet"
+    "et",
+    "explicabo"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 177,
-  "NotificationsCount": 975,
+  "OverdueSalesCount": 779,
+  "NotificationsCount": 182,
   "SystemWebPanels": [
     {
-      "WebPanelId": 768,
-      "Name": "Mraz-Jast",
-      "Tooltip": "sed",
+      "WebPanelId": 109,
+      "Name": "Runte, Abbott and Stamm",
+      "Tooltip": "et",
       "Deleted": false,
-      "Rank": 463,
+      "Rank": 243,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": true,
-      "OnTravel": false,
-      "OnSalesMarketingWeb": true,
+      "OnTravel": true,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": false,
-      "ShowInAddressBar": false,
+      "ShowInToolBar": true,
+      "ShowInAddressBar": true,
       "ShowInStatusBar": true,
-      "WindowName": "Kulas-Jenkins",
+      "WindowName": "Hilpert, Quitzon and Satterfield",
       "Url": "http://www.example.com/",
-      "ProgId": "voluptas",
-      "Icon": 465,
+      "ProgId": "et",
+      "Icon": 355,
       "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldLength": 539
         }
       }
     }
@@ -145,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "illum",
+      "RawValue": "eaque",
       "Specification": null,
-      "DisplayValue": "atque",
-      "DisplayTooltip": "dolor",
+      "DisplayValue": "dolorem",
+      "DisplayTooltip": "laborum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 936,
-      "PrefDescId": 126,
-      "TableName": "Jerde, Purdy and Bins",
-      "UserPreferenceId": 519,
+      "TargetId": 71,
+      "PrefDescId": 902,
+      "TableName": "King, Stroman and Renner",
+      "UserPreferenceId": 641,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 360
         }
       }
     }
   ],
   "IsPushNotificationEnabled": true,
-  "CustomData": "fugiat",
+  "CustomData": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 590
+      "FieldType": "System.Int32",
+      "FieldLength": 65
     }
   }
 }

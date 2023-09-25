@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 270,
-  "Name": "Lowe-Kunde",
-  "CurrencyId": 219,
-  "EnglishName": "Zieme-Hackett",
+  "CountryId": 740,
+  "Name": "Lehner, Gulgowski and Gutkowski",
+  "CurrencyId": 649,
+  "EnglishName": "Schiller-Bergnaum",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Object-based dynamic circuit",
-  "OrgNrText": "995540",
-  "InterAreaPrefix": "praesentium",
-  "DialInPrefix": "laudantium",
-  "ZipPrefix": "laudantium",
-  "DomainName": "Bogisich LLC",
-  "AddressLayoutId": 254,
-  "DomesticAddressLayoutId": 240,
-  "ForeignAddressLayoutId": 2,
-  "Rank": 358,
-  "Tooltip": "cupiditate",
-  "Deleted": true,
+  "ImageDescription": "Inverse modular flexibility",
+  "OrgNrText": "1259939",
+  "InterAreaPrefix": "sed",
+  "DialInPrefix": "autem",
+  "ZipPrefix": "voluptatem",
+  "DomainName": "Mitchell-Wiegand",
+  "AddressLayoutId": 146,
+  "DomesticAddressLayoutId": 775,
+  "ForeignAddressLayoutId": 447,
+  "Rank": 506,
+  "Tooltip": "facere",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 425
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 49,
-    "ERPName": "Murazik, Aufderhar and Harris",
-    "DisplayName": "Blick LLC",
-    "DisplayDescription": "Object-based 24 hour model",
-    "Rank": 377,
-    "ConnectorName": "Jacobson-Cormier",
-    "ErpConnectionId": 452,
-    "ExtraData": "asperiores",
+    "QuoteConnectionId": 618,
+    "ERPName": "Larson Inc and Sons",
+    "DisplayName": "Rogahn-Hilpert",
+    "DisplayDescription": "Re-contextualized client-server database",
+    "Rank": 610,
+    "ConnectorName": "Price LLC",
+    "ErpConnectionId": 751,
+    "ExtraData": "reiciendis",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 29,
-        "ERPPriceListKey": "exercitationem",
-        "QuoteConnectionId": 908,
-        "Name": "Sporer-Reinger",
-        "Description": "Multi-lateral analyzing conglomeration",
-        "Currency": "dolores",
-        "CurrencyName": "Prohaska Inc and Sons",
-        "ValidFrom": "2007-03-03T03:31:27.0905589+01:00",
-        "ValidTo": "2020-12-27T03:31:27.0905589+01:00",
+        "PriceListId": 890,
+        "ERPPriceListKey": "qui",
+        "QuoteConnectionId": 716,
+        "Name": "Gusikowski Group",
+        "Description": "Enterprise-wide 4th generation monitoring",
+        "Currency": "quam",
+        "CurrencyName": "Treutel Inc and Sons",
+        "ValidFrom": "2001-06-14T03:24:48.1426062+02:00",
+        "ValidTo": "2016-08-15T03:24:48.1426062+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 134
+            "FieldType": "System.Int32",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": true,
+    "AllAccess": false,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      36,
-      86
+      426,
+      214
     ],
     "AssociateAccessIds": [
-      472,
-      362
+      976,
+      757
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldType": "System.Int32",
+        "FieldLength": 648
       }
     }
   }

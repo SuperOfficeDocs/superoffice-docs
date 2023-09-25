@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "deleniti",
-  "ProviderName": "DuBuque-Prohaska",
-  "StorageKey": "facilis",
+  "StorageType": "magni",
+  "ProviderName": "Nienow, Goldner and Tremblay",
+  "StorageKey": "nobis",
   "DesiredColumnNames": [
-    "Bernier, Kunde and Krajcik",
-    "Kshlerin, Dickinson and Wiegand"
+    "Jones-Hintz",
+    "Cartwright Group"
   ],
   "StaticColumns": [
-    "ea",
-    "ex"
+    "accusantium",
+    "enim"
   ],
-  "Context": "itaque"
+  "Context": "non"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wyman Inc and Sons",
-      "Operator": "dolores",
+      "Name": "Rolfson, Bashirian and Runolfsson",
+      "Operator": "natus",
       "Values": [
-        "ut",
-        "porro"
+        "occaecati",
+        "quibusdam"
       ],
       "DisplayValues": [
-        "ut",
-        "libero"
+        "consequatur",
+        "est"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 928,
+      "InterParenthesis": 436,
       "InterOperator": "And",
-      "UniqueHash": 254
+      "UniqueHash": 154
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Prohaska-Keeling",
-      "DisplayTooltip": "et",
-      "DisplayType": "provident",
+      "DisplayName": "Steuber LLC",
+      "DisplayTooltip": "explicabo",
+      "DisplayType": "sequi",
       "CanOrderBy": false,
-      "Name": "Lindgren LLC",
+      "Name": "Jaskolski-Kiehn",
       "CanRestrictBy": true,
-      "RestrictionType": "temporibus",
-      "RestrictionListName": "Mann Group",
+      "RestrictionType": "eveniet",
+      "RestrictionListName": "Dickens LLC",
       "IsVisible": false,
-      "ExtraInfo": "voluptas",
+      "ExtraInfo": "et",
       "Width": "est",
-      "IconHint": "et",
-      "HeadingIconHint": "qui"
+      "IconHint": "labore",
+      "HeadingIconHint": "delectus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Price-Donnelly",
-      "PrimaryKey": 764,
+      "EntityName": "Pacocha Group",
+      "PrimaryKey": 312,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quo",
-          "TooltipHint": "dignissimos",
-          "LinkHint": "veritatis"
+          "DisplayValue": "fugiat",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "fugiat"
         }
       },
-      "LinkHint": "voluptatum",
-      "StyleHint": "perspiciatis",
+      "LinkHint": "illum",
+      "StyleHint": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 416
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Graham, Keebler and Greenholt",
-      "Description": "Synchronised reciprocal capacity",
-      "Rank": 767,
+      "Name": "Carter-Schmidt",
+      "Description": "Distributed tangible structure",
+      "Rank": 143,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Graham, Keebler and Greenholt",
-      "Description": "Synchronised reciprocal capacity",
-      "Rank": 767,
+      "Name": "Carter-Schmidt",
+      "Description": "Distributed tangible structure",
+      "Rank": 143,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

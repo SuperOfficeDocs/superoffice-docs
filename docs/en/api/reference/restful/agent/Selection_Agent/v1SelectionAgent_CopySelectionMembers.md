@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Selection/CopySelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 189,
-  "ToSelectionId": 478
+  "FromSelectionId": 325,
+  "ToSelectionId": 987
 }
 ```
 

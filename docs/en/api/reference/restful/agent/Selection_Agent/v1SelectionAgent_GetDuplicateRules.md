@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Orn Group",
-    "DisplayName": "Paucek LLC",
-    "DisplayTooltip": "eius",
+    "Name": "Lakin-Cummerata",
+    "DisplayName": "Fritsch LLC",
+    "DisplayTooltip": "non",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 626
       }
     }
   },
   {
-    "Name": "Orn Group",
-    "DisplayName": "Paucek LLC",
-    "DisplayTooltip": "eius",
+    "Name": "Lakin-Cummerata",
+    "DisplayName": "Fritsch LLC",
+    "DisplayTooltip": "non",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 626
       }
     }
   }

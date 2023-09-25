@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 481,
-  "Name": "Breitenberg Group",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "Rank": 95,
-  "UdListDefinitionId": 690
+  "HeadingId": 765,
+  "Name": "DuBuque-Hirthe",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 848,
+  "UdListDefinitionId": 603
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 264,
-  "Name": "Wiegand Inc and Sons",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 530,
-  "UdListDefinitionId": 154,
+  "HeadingId": 857,
+  "Name": "Ziemann, Steuber and Gleason",
+  "Tooltip": "totam",
+  "Deleted": true,
+  "Rank": 222,
+  "UdListDefinitionId": 846,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 263
     }
   }
 }

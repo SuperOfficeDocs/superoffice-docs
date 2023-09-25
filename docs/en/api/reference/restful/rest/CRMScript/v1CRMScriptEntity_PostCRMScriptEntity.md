@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 501,
-  "UniqueIdentifier": "corporis",
-  "Name": "Wilkinson Group",
-  "Description": "Sharable logistical benchmark",
-  "IncludeId": "voluptatum",
-  "HierarchyId": 173,
-  "Source": "alias",
-  "Registered": "2008-05-20T03:31:32.5039305+02:00",
-  "RegisteredAssociateId": 381,
-  "Updated": "2012-01-04T03:31:32.5039305+01:00",
-  "UpdatedAssociateId": 743
+  "EjscriptId": 700,
+  "UniqueIdentifier": "iure",
+  "Name": "Goodwin Group",
+  "Description": "Robust leading edge hardware",
+  "IncludeId": "autem",
+  "HierarchyId": 229,
+  "Source": "dolores",
+  "Registered": "2019-07-24T03:24:51.5368575+02:00",
+  "RegisteredAssociateId": 50,
+  "Updated": "2006-07-31T03:24:51.5368575+02:00",
+  "UpdatedAssociateId": 144
 }
 ```
 
@@ -124,23 +124,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 100,
-  "UniqueIdentifier": "laudantium",
-  "Name": "Cassin Group",
-  "Description": "Persevering static throughput",
-  "IncludeId": "quo",
-  "HierarchyId": 341,
-  "Source": "et",
-  "Registered": "2019-04-19T03:31:32.5039305+02:00",
-  "RegisteredAssociateId": 273,
-  "Updated": "2007-03-22T03:31:32.5039305+01:00",
-  "UpdatedAssociateId": 398,
+  "EjscriptId": 533,
+  "UniqueIdentifier": "est",
+  "Name": "Murray-Stehr",
+  "Description": "Synergized content-based installation",
+  "IncludeId": "est",
+  "HierarchyId": 326,
+  "Source": "maxime",
+  "Registered": "2014-05-20T03:24:51.5368575+02:00",
+  "RegisteredAssociateId": 675,
+  "Updated": "2021-04-16T03:24:51.5368575+02:00",
+  "UpdatedAssociateId": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   },
   "_Links": {

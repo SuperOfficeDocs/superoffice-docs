@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Yost LLC",
+  "TableName": "Moen-Marvin",
   "Columns": [
-    "ea",
-    "sequi"
+    "ut",
+    "consequatur"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "saepe",
-  "Inserts": 629,
-  "Updates": 320,
-  "Deletes": 568,
+  "Message": "et",
+  "Inserts": 60,
+  "Updates": 845,
+  "Deletes": 249,
   "RowStatus": [
     {
-      "PrimaryKey": 104,
+      "PrimaryKey": 668,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "assumenda"
+        "ut",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 732
         }
       }
     },
     {
-      "PrimaryKey": 104,
+      "PrimaryKey": 668,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "assumenda"
+        "ut",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 732
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldType": "System.String",
+      "FieldLength": 524
     }
   }
 }

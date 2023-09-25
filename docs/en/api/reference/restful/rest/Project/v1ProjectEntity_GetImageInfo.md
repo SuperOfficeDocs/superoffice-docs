@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 05 Oct 2011 03:31:32 G10T
+Last-Modified: Fri, 01 Jun 2018 03:24:51 G6T
 
 {
-  "BlobId": 78,
-  "BlobSize": 127,
-  "Description": "Vision-oriented tertiary service-desk",
-  "ExtraInfo": "sit",
+  "BlobId": 462,
+  "BlobSize": 6,
+  "Description": "Stand-alone tangible synergy",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "ut",
-  "OriginalSize": 846,
-  "CreatedDate": "2013-05-16T03:31:32.8007336+02:00",
-  "UpdatedDate": "2011-10-05T03:31:32.8007336+02:00",
+  "IsZipped": false,
+  "MimeType": "possimus",
+  "OriginalSize": 743,
+  "CreatedDate": "1998-08-24T03:24:51.7401403+02:00",
+  "UpdatedDate": "2018-06-01T03:24:51.7401403+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 176
     }
   }
 }

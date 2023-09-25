@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 529,
-  "Name": "Morissette-Hayes",
-  "Tooltip": "porro",
-  "Deleted": true,
-  "UdListDefinitionId": 85,
-  "Rank": 38
+  "Id": 488,
+  "Name": "Bradtke, Larson and Hilpert",
+  "Tooltip": "placeat",
+  "Deleted": false,
+  "UdListDefinitionId": 493,
+  "Rank": 81
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 470,
-  "Name": "Quitzon Group",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "UdListDefinitionId": 221,
-  "Rank": 119,
+  "Id": 935,
+  "Name": "Terry Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 351,
+  "Rank": 220,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

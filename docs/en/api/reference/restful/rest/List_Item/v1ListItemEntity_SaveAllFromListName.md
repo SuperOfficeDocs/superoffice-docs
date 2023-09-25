@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Runte Group",
-    "Tooltip": "earum",
+    "Id": 355,
+    "Name": "Koss Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 326,
-    "Rank": 111
+    "UdListDefinitionId": 962,
+    "Rank": 488
   },
   {
-    "Id": 290,
-    "Name": "Runte Group",
-    "Tooltip": "earum",
+    "Id": 355,
+    "Name": "Koss Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 326,
-    "Rank": 111
+    "UdListDefinitionId": 962,
+    "Rank": 488
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Daugherty-Lueilwitz",
+    "Id": 900,
+    "Name": "Keebler Inc and Sons",
     "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 808,
-    "Rank": 612,
+    "UdListDefinitionId": 769,
+    "Rank": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldType": "System.String",
+        "FieldLength": 205
       }
     }
   }

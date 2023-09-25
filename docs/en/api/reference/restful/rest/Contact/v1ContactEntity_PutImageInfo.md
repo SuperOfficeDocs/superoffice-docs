@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 454,
-  "BlobSize": 514,
-  "Description": "Reactive homogeneous groupware",
-  "ExtraInfo": "laboriosam",
+  "BlobId": 757,
+  "BlobSize": 778,
+  "Description": "Re-engineered client-server toolset",
+  "ExtraInfo": "sapiente",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sapiente",
-  "OriginalSize": 585,
-  "CreatedDate": "2010-06-17T03:31:32.3789647+02:00",
-  "UpdatedDate": "2017-06-15T03:31:32.3789647+02:00",
+  "MimeType": "cum",
+  "OriginalSize": 359,
+  "CreatedDate": "2018-12-16T03:24:51.459286+01:00",
+  "UpdatedDate": "1998-10-26T03:24:51.459286+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur"
+  "ConceptualType": "facilis"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 148,
-  "BlobSize": 714,
-  "Description": "Team-oriented bandwidth-monitored archive",
-  "ExtraInfo": "totam",
+  "BlobId": 624,
+  "BlobSize": 909,
+  "Description": "Multi-lateral fault-tolerant utilisation",
+  "ExtraInfo": "ad",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 20,
-  "CreatedDate": "2015-04-02T03:31:32.3789647+02:00",
-  "UpdatedDate": "2018-05-18T03:31:32.3789647+02:00",
+  "MimeType": "temporibus",
+  "OriginalSize": 894,
+  "CreatedDate": "2014-03-20T03:24:51.459286+01:00",
+  "UpdatedDate": "2008-04-01T03:24:51.459286+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis",
+  "ConceptualType": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 404
     }
   }
 }

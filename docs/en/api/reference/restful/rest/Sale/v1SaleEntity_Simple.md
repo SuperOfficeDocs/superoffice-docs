@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "O'Reilly Group",
-  "SaleDate": "2003-04-17T03:31:32.9100803+02:00",
-  "SaleId": 400,
-  "Probability": 510,
-  "Title": "accusamus",
-  "Amount": 19900.899999999998,
-  "Currency": "illum",
-  "ProjectName": "Lowe-Ferry",
-  "AssociateFullName": "Meagan Schamberger",
-  "Description": "User-centric optimizing knowledge base",
+  "ContactName": "Jerde Inc and Sons",
+  "SaleDate": "2015-05-14T03:24:51.8963736+02:00",
+  "SaleId": 101,
+  "Probability": 959,
+  "Title": "asperiores",
+  "Amount": 23210.404,
+  "Currency": "corrupti",
+  "ProjectName": "Rosenbaum-Johnson",
+  "AssociateFullName": "Shawna Johnson",
+  "Description": "Seamless needs-based adapter",
   "Status": "Lost",
-  "WeightedAmount": 14046.588,
-  "ProjectId": 106,
-  "EarningPercent": 25645.522,
-  "Earning": 1347.62,
-  "ContactId": 434,
-  "AssociateId": 470,
-  "PersonId": 853,
-  "SaleTypeId": 230,
-  "SaleTypeName": "Collier-Walker",
-  "PersonFullName": "Fidel Fay",
+  "WeightedAmount": 27889.466,
+  "ProjectId": 182,
+  "EarningPercent": 4729.206,
+  "Earning": 19035.916,
+  "ContactId": 663,
+  "AssociateId": 343,
+  "PersonId": 572,
+  "SaleTypeId": 460,
+  "SaleTypeName": "Hills, Gutkowski and Will",
+  "PersonFullName": "Caleb Morar",
   "Completed": "Completed",
-  "ActiveErpLinks": 525,
-  "NextDueDate": "2013-08-19T03:31:32.9100803+02:00",
-  "Number": "1229587",
+  "ActiveErpLinks": 212,
+  "NextDueDate": "2019-06-28T03:24:51.8963736+02:00",
+  "Number": "1443061",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

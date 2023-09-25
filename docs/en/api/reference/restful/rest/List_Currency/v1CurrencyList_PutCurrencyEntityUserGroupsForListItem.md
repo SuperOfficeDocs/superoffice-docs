@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Kris LLC",
-    "ToolTip": "Quas culpa quaerat doloremque voluptatem aut aut.",
+    "Id": 48,
+    "Name": "Watsica, Considine and Schowalter",
+    "ToolTip": "In sunt eaque.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "est",
-    "ColorBlock": 666,
-    "IconHint": "consectetur",
-    "Selected": false,
-    "LastChanged": "2022-04-26T03:31:33.5854694+02:00",
+    "Rank": 539,
+    "Type": "consectetur",
+    "ColorBlock": 940,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "2007-10-21T03:24:52.2244666+02:00",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Runolfsson, Nader and Buckridge",
-        "ToolTip": "Dolore aut veniam et.",
+        "Id": 447,
+        "Name": "Rodriguez, Treutel and Botsford",
+        "ToolTip": "Temporibus quo vel ipsa dolor ea ut repellat.",
         "Deleted": false,
-        "Rank": 238,
-        "Type": "mollitia",
-        "ColorBlock": 150,
-        "IconHint": "quisquam",
+        "Rank": 324,
+        "Type": "accusamus",
+        "ColorBlock": 166,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2005-03-10T03:31:33.5854694+01:00",
+        "LastChanged": "2018-05-12T03:24:52.2244666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Selina Spinka"
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "sequi",
+        "Hidden": true,
+        "FullName": "Nicklaus Daniel"
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "beatae",
+    "ExtraInfo": "est",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Frederik Hackett"
+    "FullName": "Dr. Brenna Feest DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Cruickshank, Balistreri and Metz",
-    "ToolTip": "Minus incidunt facere rem tempore qui.",
+    "Id": 80,
+    "Name": "Gulgowski, Graham and Kemmer",
+    "ToolTip": "Possimus hic consequatur libero.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "quidem",
-    "ColorBlock": 360,
-    "IconHint": "ex",
+    "Rank": 205,
+    "Type": "qui",
+    "ColorBlock": 290,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2014-07-18T03:31:33.5854694+02:00",
+    "LastChanged": "2020-04-21T03:24:52.2244666+02:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Wyman, Becker and Hand",
-        "ToolTip": "Et atque non libero quis iusto.",
-        "Deleted": true,
-        "Rank": 986,
-        "Type": "consequatur",
-        "ColorBlock": 384,
-        "IconHint": "modi",
+        "Id": 479,
+        "Name": "McClure-Nitzsche",
+        "ToolTip": "Quae in illo.",
+        "Deleted": false,
+        "Rank": 400,
+        "Type": "laudantium",
+        "ColorBlock": 441,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2016-10-08T03:31:33.5854694+02:00",
+        "LastChanged": "2004-01-31T03:24:52.2244666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Jedidiah Heidenreich",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Kylie Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 61
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "ex",
     "Hidden": true,
-    "FullName": "Jamel Rowe II",
+    "FullName": "Mr. Melissa Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   }

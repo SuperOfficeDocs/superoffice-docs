@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 82,
-  "Name": "Smith Inc and Sons",
-  "Tooltip": "odit",
+  "Id": 195,
+  "Name": "Goodwin, Dickens and Grimes",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 580,
-  "Rank": 443
+  "UdListDefinitionId": 536,
+  "Rank": 786
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 248,
-  "Name": "Feest Group",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "UdListDefinitionId": 310,
-  "Rank": 92,
+  "Id": 859,
+  "Name": "Bashirian-Stehr",
+  "Tooltip": "ducimus",
+  "Deleted": false,
+  "UdListDefinitionId": 626,
+  "Rank": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

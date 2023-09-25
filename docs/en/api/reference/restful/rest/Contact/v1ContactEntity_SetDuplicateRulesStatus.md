@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Metz LLC",
-    "DisplayName": "Stanton, Dach and Hoppe",
-    "DisplayTooltip": "qui",
+    "Name": "Cummerata Group",
+    "DisplayName": "Gleichner, Kuhic and Marvin",
+    "DisplayTooltip": "voluptatem",
     "IsActive": true
   },
   {
-    "Name": "Metz LLC",
-    "DisplayName": "Stanton, Dach and Hoppe",
-    "DisplayTooltip": "qui",
+    "Name": "Cummerata Group",
+    "DisplayName": "Gleichner, Kuhic and Marvin",
+    "DisplayTooltip": "voluptatem",
     "IsActive": true
   }
 ]

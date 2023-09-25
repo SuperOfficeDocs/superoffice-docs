@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 370
+  "Id": 285
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Bartell Inc and Sons",
-  "AssociateId": 458,
-  "DetailsTable": 759,
-  "DetailsRecord": 576,
+  "Id": 323,
+  "Name": "Dicki, Reilly and Graham",
+  "AssociateId": 929,
+  "DetailsTable": 480,
+  "DetailsRecord": 732,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "exercitationem",
-    "ParameterObject2": "necessitatibus"
+    "ParameterObject1": "reiciendis",
+    "ParameterObject2": "maxime"
   },
-  "LastStarted": "2009-01-22T03:31:25.6496314+01:00",
-  "Created": "1998-03-19T03:31:25.6496314+01:00",
-  "StartCount": 582,
-  "DatabaseSerialNumber": "852436",
-  "Context": "quibusdam",
-  "Result": "aut",
+  "LastStarted": "2013-11-09T03:24:47.2520803+01:00",
+  "Created": "2005-03-17T03:24:47.2520803+01:00",
+  "StartCount": 511,
+  "DatabaseSerialNumber": "781942",
+  "Context": "sint",
+  "Result": "magni",
   "State": "All",
-  "Description": "Business-focused non-volatile functionalities",
-  "Response": "sunt",
-  "Request": "quis",
-  "ProgressDescription": "Switchable mission-critical system engine",
-  "ProgressPercent": 157,
-  "FileName": "Crist LLC",
+  "Description": "Organized bi-directional artificial intelligence",
+  "Response": "fugit",
+  "Request": "qui",
+  "ProgressDescription": "Streamlined grid-enabled methodology",
+  "ProgressPercent": 565,
+  "FileName": "Hilpert-Spencer",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 911
     }
   }
 }

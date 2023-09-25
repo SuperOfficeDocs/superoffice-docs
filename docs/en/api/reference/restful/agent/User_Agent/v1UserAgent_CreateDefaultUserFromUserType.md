@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 960,
-  "Name": "Herman LLC",
-  "Rank": 622,
-  "Tooltip": "earum",
+  "AssociateId": 865,
+  "Name": "Yundt-Denesik",
+  "Rank": 500,
+  "Tooltip": "sed",
   "LicenseOwners": [
     {
-      "Name": "Braun, Lynch and Mertz",
-      "Description": "Open-source high-level projection",
+      "Name": "Abernathy, Runolfsson and Hirthe",
+      "Description": "Up-sized intangible definition",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 670
         }
       }
     },
     {
-      "Name": "Braun, Lynch and Mertz",
-      "Description": "Open-source high-level projection",
+      "Name": "Abernathy, Runolfsson and Hirthe",
+      "Description": "Up-sized intangible definition",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldLength": 670
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "facilis",
-      "Tooltip": "harum",
-      "Id": 803,
-      "Rank": 7,
+      "Value": "eligendi",
+      "Tooltip": "ut",
+      "Id": 343,
+      "Rank": 230,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldType": "System.String",
+          "FieldLength": 720
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2019-02-26T03:31:27.810338+01:00",
-  "Lastlogout": "2009-12-11T03:31:27.810338+01:00",
-  "EjUserId": 753,
-  "RequestSignature": "possimus",
+  "Lastlogin": "1996-06-23T03:24:48.5816417+02:00",
+  "Lastlogout": "2013-12-16T03:24:48.5816417+01:00",
+  "EjUserId": 737,
+  "RequestSignature": "distinctio",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "officia",
-      "DisplayValue": "ut",
+      "Value": "et",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 888
         }
       }
     },
     {
       "Type": null,
-      "Value": "officia",
-      "DisplayValue": "ut",
+      "Value": "et",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 888
         }
       }
     }
   ],
-  "UserName": "Ondricka-Harris",
+  "UserName": "Rogahn, Morissette and Gulgowski",
   "TicketCategories": [
     {
-      "Id": 35,
-      "Name": "Frami Inc and Sons",
-      "ToolTip": "Repellat facilis iste et deleniti.",
+      "Id": 561,
+      "Name": "Halvorson, Quigley and Sipes",
+      "ToolTip": "Suscipit nihil.",
       "Deleted": false,
-      "Rank": 698,
-      "Type": "non",
+      "Rank": 669,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "optio",
-      "ColorBlock": 697,
-      "ExtraInfo": "saepe",
-      "StyleHint": "quia",
-      "FullName": "Emely Stamm",
+      "IconHint": "fugit",
+      "ColorBlock": 680,
+      "ExtraInfo": "enim",
+      "StyleHint": "id",
+      "FullName": "Lindsay Boehm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldType": "System.String",
+          "FieldLength": 373
         }
       }
     }
   ],
-  "NickName": "Ankunding-Hauck",
+  "NickName": "Hessel-Harvey",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quasi",
-    "CustomFields2": "veniam"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "qui"
   },
   "PostSaveCommands": [
     {
-      "Name": "Graham, McLaughlin and Reynolds",
-      "DisplayName": "Corkery, Marks and Wiegand",
-      "Description": "Multi-tiered grid-enabled framework",
-      "ToolTip": "Repellendus vitae animi.",
+      "Name": "Littel LLC",
+      "DisplayName": "O'Hara-Stark",
+      "Description": "Polarised multi-tasking knowledge base",
+      "ToolTip": "Animi qui eius autem amet.",
       "Actions": "Implicit",
-      "ActionData": "magni",
+      "ActionData": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldType": "System.String",
+          "FieldLength": 61
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldType": "System.String",
+      "FieldLength": 632
     }
   }
 }

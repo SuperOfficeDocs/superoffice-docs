@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Collier, Conroy and Stanton",
-  "DeviceName": "Cummings-Batz",
-  "DeviceIdentifier": "architecto"
+  "ApplicationName": "Leffler-Boehm",
+  "DeviceName": "Konopelski, Nienow and Glover",
+  "DeviceIdentifier": "ex"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 834,
-  "Name": "Oberbrunner-Lubowitz",
-  "CreatedDate": "2003-05-07T03:31:26.589451+02:00",
-  "UpdatedDate": "2020-10-03T03:31:26.589451+02:00",
-  "AssociateFullName": "Nicole Pfannerstill",
-  "CreatedBy": "quod",
-  "UpdatedBy": "error",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 533,
+  "ForeignDeviceId": 743,
+  "Name": "Dibbert, Heaney and Lindgren",
+  "CreatedDate": "2008-02-24T03:24:47.8145137+01:00",
+  "UpdatedDate": "2008-12-14T03:24:47.8145137+01:00",
+  "AssociateFullName": "Miss Ricky Tremblay DVM",
+  "CreatedBy": "deleniti",
+  "UpdatedBy": "quia",
+  "DeviceIdentifier": "est",
+  "ForeignAppId": 707,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "in",
-  "Key": "quo"
+  "Section": "et",
+  "Key": "enim"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 187,
-  "Section": "ipsa",
-  "Key": "veniam",
-  "Name": "Considine, Rempel and Murphy",
+  "PrefDescId": 67,
+  "Section": "iusto",
+  "Key": "corporis",
+  "Name": "McClure, Block and Rolfson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual uniform local area network",
-  "IsBuiltin": false,
-  "TableName": "Walter-Bauch",
-  "UserDefinedListId": 806,
-  "Rank": 566,
-  "SubGroup": "ullam",
-  "MinLevel": 399,
-  "MaxValue": 147,
-  "MinValue": 300,
-  "RequiredLicense": "sed",
+  "Description": "Face to face zero administration intranet",
+  "IsBuiltin": true,
+  "TableName": "Dibbert-Roberts",
+  "UserDefinedListId": 805,
+  "Rank": 644,
+  "SubGroup": "consequatur",
+  "MinLevel": 450,
+  "MaxValue": 2,
+  "MinValue": 732,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 450
     }
   }
 }

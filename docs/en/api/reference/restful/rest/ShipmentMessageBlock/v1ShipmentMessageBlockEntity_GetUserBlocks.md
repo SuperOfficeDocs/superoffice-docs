@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 38,
-    "AssociateId": 405,
-    "Block": "veniam",
-    "Registered": "2020-03-12T03:31:32.9437607+01:00",
-    "RegisteredAssociateId": 46,
-    "Updated": "2002-08-08T03:31:32.9437607+02:00",
-    "UpdatedAssociateId": 414,
-    "UpdatedCount": 435,
+    "ShipmentMessageBlockId": 74,
+    "AssociateId": 460,
+    "Block": "inventore",
+    "Registered": "2010-12-27T03:24:51.927622+01:00",
+    "RegisteredAssociateId": 617,
+    "Updated": "2003-05-11T03:24:51.927622+02:00",
+    "UpdatedAssociateId": 175,
+    "UpdatedCount": 663,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 994
       }
     }
   }

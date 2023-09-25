@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 352,
-  "ColumnId": 333,
-  "FieldDefault": "id",
-  "FieldHeight": 998,
-  "FieldLabel": "adipisci",
-  "FieldLeft": 929,
-  "FieldTop": 198,
+  "UDefFieldId": 59,
+  "ColumnId": 989,
+  "FieldDefault": "quia",
+  "FieldHeight": 690,
+  "FieldLabel": "deserunt",
+  "FieldLeft": 632,
+  "FieldTop": 924,
   "FieldType": "Checkbox",
-  "FieldWidth": 717,
-  "FormatMask": "odit",
-  "HideLabel": false,
+  "FieldWidth": 400,
+  "FormatMask": "neque",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 709,
-  "LabelLeft": 284,
-  "LabelTop": 547,
-  "LabelWidth": 268,
-  "LastVersionId": 406,
-  "ListTableId": 935,
+  "LabelHeight": 880,
+  "LabelLeft": 646,
+  "LabelTop": 654,
+  "LabelWidth": 688,
+  "LastVersionId": 884,
+  "ListTableId": 670,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 203,
-  "ProgId": "est",
+  "Page1LineNo": 933,
+  "ProgId": "amet",
   "IsReadOnly": false,
-  "ShortLabel": "ex",
-  "TabOrder": 781,
-  "TextLength": 647,
-  "Tooltip": "porro",
-  "UdefIdentity": 764,
-  "UDListDefinitionId": 466,
+  "ShortLabel": "excepturi",
+  "TabOrder": 764,
+  "TextLength": 693,
+  "Tooltip": "deserunt",
+  "UdefIdentity": 86,
+  "UDListDefinitionId": 113,
   "Justification": "Center",
-  "Version": 953,
-  "TemplateVariableName": "Block-Quigley",
+  "Version": 759,
+  "TemplateVariableName": "Schamberger, Gutmann and Little",
   "HasBeenPublished": false,
-  "MdoListName": "Rowe, Considine and Walter",
+  "MdoListName": "Hartmann-Tillman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 883
     }
   }
 }

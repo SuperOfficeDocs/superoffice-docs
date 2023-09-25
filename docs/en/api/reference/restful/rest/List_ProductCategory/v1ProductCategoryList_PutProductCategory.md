@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Buckridge LLC",
-  "Tooltip": "accusantium",
+  "Id": 673,
+  "Name": "Mosciski Inc and Sons",
+  "Tooltip": "officia",
   "Deleted": false,
-  "UdListDefinitionId": 29,
-  "Rank": 156
+  "UdListDefinitionId": 696,
+  "Rank": 239
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 893,
-  "Name": "Lowe, Brown and Fisher",
-  "Tooltip": "illum",
+  "Id": 826,
+  "Name": "Jenkins-Kozey",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 714,
-  "Rank": 7,
+  "UdListDefinitionId": 402,
+  "Rank": 69,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

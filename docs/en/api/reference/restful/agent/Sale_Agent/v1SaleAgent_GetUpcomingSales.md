@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 107,
-  "Count": 78
+  "WeightedAmountLimit": 280,
+  "Count": 831
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Miller, Raynor and Ruecker",
-    "SaleDate": "1998-01-25T03:31:27.1999504+01:00",
-    "SaleId": 148,
-    "Probability": 835,
-    "Title": "est",
-    "Amount": 6512.452,
-    "Currency": "nisi",
-    "ProjectName": "Bailey, Blanda and Friesen",
-    "AssociateFullName": "Mr. Polly Cormier Sr.",
-    "Description": "Adaptive object-oriented emulation",
+    "ContactName": "Baumbach, Wisozk and Stamm",
+    "SaleDate": "2017-12-29T03:24:48.2207231+01:00",
+    "SaleId": 558,
+    "Probability": 934,
+    "Title": "dolore",
+    "Amount": 30929.446,
+    "Currency": "debitis",
+    "ProjectName": "Kertzmann Inc and Sons",
+    "AssociateFullName": "Felix Weissnat",
+    "Description": "Re-contextualized human-resource info-mediaries",
     "Status": "Lost",
-    "WeightedAmount": 576.656,
-    "ProjectId": 686,
-    "EarningPercent": 27905.136,
-    "Earning": 23160.26,
-    "ContactId": 568,
-    "AssociateId": 10,
-    "PersonId": 899,
-    "SaleTypeId": 523,
-    "SaleTypeName": "Keeling, Waters and Kautzer",
-    "PersonFullName": "Josie Franecki",
+    "WeightedAmount": 6753.7699999999995,
+    "ProjectId": 945,
+    "EarningPercent": 6202.186,
+    "Earning": 21424.023999999998,
+    "ContactId": 118,
+    "AssociateId": 136,
+    "PersonId": 54,
+    "SaleTypeId": 250,
+    "SaleTypeName": "Dickens LLC",
+    "PersonFullName": "Juanita Nienow",
     "Completed": "Completed",
-    "ActiveErpLinks": 730,
-    "NextDueDate": "2018-04-06T03:31:27.1999504+02:00",
-    "Number": "782841",
+    "ActiveErpLinks": 964,
+    "NextDueDate": "2003-04-07T03:24:48.2207231+02:00",
+    "Number": "995677",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 843
       }
     }
   }

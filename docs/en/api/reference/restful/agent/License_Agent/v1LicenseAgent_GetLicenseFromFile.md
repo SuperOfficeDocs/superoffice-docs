@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "sequi"
+  "FileContent": "maiores"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 604,
-      "NumberOfLicensesFree": 616,
-      "NumberOfLicensesAdded": 215,
-      "NumberOfLicensesNewTotal": 354,
-      "NumberOfLicensesNewFree": 166,
-      "NumberOfLicensesTotal": 805
+      "NumberOfLicensesInUse": 677,
+      "NumberOfLicensesFree": 785,
+      "NumberOfLicensesAdded": 939,
+      "NumberOfLicensesNewTotal": 149,
+      "NumberOfLicensesNewFree": 38,
+      "NumberOfLicensesTotal": 3
     }
   ],
-  "AccumulatedNextCheckDate": "1999-12-12T03:31:26.6206926+01:00"
+  "AccumulatedNextCheckDate": "2006-03-22T03:24:47.8301403+01:00"
 }
 ```

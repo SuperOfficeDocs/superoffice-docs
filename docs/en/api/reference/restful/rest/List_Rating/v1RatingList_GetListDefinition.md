@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 233,
-  "Name": "Heathcote, Powlowski and Gutkowski",
-  "Tooltip": "sed",
+  "Id": 381,
+  "Name": "Franecki-Murray",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 586,
+  "Rank": 662,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": true,
+  "ListType": "deserunt",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 348
     }
   },
   "_Links": {

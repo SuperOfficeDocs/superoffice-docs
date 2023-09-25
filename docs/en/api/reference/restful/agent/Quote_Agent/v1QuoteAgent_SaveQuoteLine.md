@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 186,
-  "ERPQuoteLineKey": "quos",
-  "QuoteAlternativeId": 171,
-  "ERPProductKey": "architecto",
+  "QuoteLineId": 225,
+  "ERPQuoteLineKey": "rem",
+  "QuoteAlternativeId": 379,
+  "ERPProductKey": "recusandae",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25401.07,
-  "DeliveredQuantity": 3287.566,
-  "Rank": 850,
-  "Name": "Schaden-Jast",
-  "Description": "Face to face disintermediate flexibility",
-  "Code": "magni",
-  "QuantityUnit": "enim",
-  "PriceUnit": "aut",
-  "ItemNumber": "757702",
+  "Quantity": 23210.404,
+  "DeliveredQuantity": 28513.131999999998,
+  "Rank": 706,
+  "Name": "Reynolds, Bartell and Satterfield",
+  "Description": "Mandatory mobile monitoring",
+  "Code": "error",
+  "QuantityUnit": "voluptatum",
+  "PriceUnit": "ea",
+  "ItemNumber": "1486941",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolore",
-  "ProductTypeKey": "aut",
-  "Supplier": "non",
-  "SupplierCode": "et",
-  "Thumbnail": "dolorem",
-  "VATInfo": "vel",
-  "VAT": 10097.748,
-  "UnitCost": 25281.978,
-  "UnitMinimumPrice": 18437.322,
-  "UnitListPrice": 26729.886,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "expedita",
+  "Supplier": "qui",
+  "SupplierCode": "doloribus",
+  "Thumbnail": "itaque",
+  "VATInfo": "voluptas",
+  "VAT": 28008.557999999997,
+  "UnitCost": 29133.664,
+  "UnitMinimumPrice": 13952.568,
+  "UnitListPrice": 27040.152,
   "ExtraInfo": [
     {
-      "Name": "Ankunding, Lemke and Weissnat",
-      "Value": "exercitationem",
+      "Name": "Mohr-Towne",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldType": "System.Int32",
+          "FieldLength": 536
         }
       }
     },
     {
-      "Name": "Ankunding, Lemke and Weissnat",
-      "Value": "exercitationem",
+      "Name": "Mohr-Towne",
+      "Value": "fuga",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldType": "System.Int32",
+          "FieldLength": 536
         }
       }
     }
   ],
-  "RawExtraInfo": "omnis",
+  "RawExtraInfo": "velit",
   "IsSubscription": true,
-  "SubscriptionUnit": "quas",
-  "SubscriptionQuantity": 6418.432,
-  "SubscriptionStart": "1999-09-20T03:31:27.106235+02:00",
-  "ERPDiscountPercent": 14209.555999999999,
-  "ERPDiscountAmount": 26128.158,
-  "DiscountPercent": 3917.5,
-  "DiscountAmount": 4309.25,
+  "SubscriptionUnit": "omnis",
+  "SubscriptionQuantity": 2375.572,
+  "SubscriptionStart": "2006-12-13T03:24:48.1582254+01:00",
+  "ERPDiscountPercent": 16459.768,
+  "ERPDiscountAmount": 31032.868,
+  "DiscountPercent": 20214.3,
+  "DiscountAmount": 26497.969999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 5381.0779999999995,
-  "EarningAmount": 14432.07,
-  "SubTotal": 14084.196,
-  "TotalPrice": 2043.368,
-  "Rights": "debitis",
-  "Rule": "quia",
-  "ExtraField1": "ullam",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "reiciendis",
-  "ExtraField4": "at",
-  "ExtraField5": "et",
+  "EarningPercent": 12536.0,
+  "EarningAmount": 7831.866,
+  "SubTotal": 11561.326,
+  "TotalPrice": 4679.062,
+  "Rights": "nulla",
+  "Rule": "rem",
+  "ExtraField1": "ut",
+  "ExtraField2": "quos",
+  "ExtraField3": "ut",
+  "ExtraField4": "quisquam",
+  "ExtraField5": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 564
     }
   }
 }

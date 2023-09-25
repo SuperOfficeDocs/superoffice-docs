@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Kutch, Rohan and Barton",
-  "PrimaryKey": 448,
+  "EventName": "Borer Inc and Sons",
+  "PrimaryKey": 1001,
   "Data": {
     "fieldName": {}
   }

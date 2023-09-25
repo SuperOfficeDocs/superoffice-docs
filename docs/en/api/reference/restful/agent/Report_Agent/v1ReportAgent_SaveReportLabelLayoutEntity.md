@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 254,
-  "Name": "Lebsack, Larkin and Lemke",
-  "Description": "Fully-configurable next generation methodology",
+  "ReportLabelLayoutId": 149,
+  "Name": "Kemmer, Weimann and Wunsch",
+  "Description": "Devolved regional emulation",
   "Orientation": "Landscape",
-  "PaperWidth": 588,
-  "PaperHeight": 717,
-  "LeftMargin": 426,
-  "RightMargin": 109,
-  "TopMargin": 140,
-  "BottomMargin": 828,
-  "CountColumns": 183,
-  "CountRows": 872
+  "PaperWidth": 394,
+  "PaperHeight": 904,
+  "LeftMargin": 982,
+  "RightMargin": 979,
+  "TopMargin": 488,
+  "BottomMargin": 652,
+  "CountColumns": 777,
+  "CountRows": 938
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 328,
-  "Name": "Abshire-Rolfson",
-  "Description": "Up-sized executive knowledge user",
+  "ReportLabelLayoutId": 641,
+  "Name": "Bode, Fritsch and McCullough",
+  "Description": "Distributed bottom-line moratorium",
   "Orientation": "Landscape",
-  "PaperWidth": 334,
-  "PaperHeight": 334,
-  "LeftMargin": 465,
-  "RightMargin": 576,
-  "TopMargin": 335,
-  "BottomMargin": 38,
-  "CountColumns": 936,
-  "CountRows": 281,
+  "PaperWidth": 342,
+  "PaperHeight": 680,
+  "LeftMargin": 311,
+  "RightMargin": 975,
+  "TopMargin": 482,
+  "BottomMargin": 216,
+  "CountColumns": 285,
+  "CountRows": 749,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 232
     }
   }
 }

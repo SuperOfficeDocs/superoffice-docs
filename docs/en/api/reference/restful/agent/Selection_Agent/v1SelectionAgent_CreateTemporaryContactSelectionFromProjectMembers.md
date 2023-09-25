@@ -117,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 960
+  "ProjectId": 735
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based mission-critical hub",
-  "Postit": "omnis",
+  "Description": "Decentralized interactive capacity",
+  "Postit": "reprehenderit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 877,
-  "IncludePerson": 930,
-  "MemberCount": 178,
-  "Name": "Strosin-Wisoky",
-  "PostitTextId": 779,
-  "CreatedDate": "1997-11-11T03:31:27.2624464+01:00",
-  "SelectionId": 725,
-  "SoundEx": "et",
-  "Source": 6,
-  "TextId": 645,
-  "UpdatedDate": "2015-10-20T03:31:27.2624464+02:00",
-  "UpdatedCount": 959,
-  "Visibility": 375,
+  "GroupIdx": 373,
+  "IncludePerson": 82,
+  "MemberCount": 795,
+  "Name": "Luettgen-Jacobs",
+  "PostitTextId": 186,
+  "CreatedDate": "2012-07-13T03:24:48.2524255+02:00",
+  "SelectionId": 639,
+  "SoundEx": "laudantium",
+  "Source": 796,
+  "TextId": 19,
+  "UpdatedDate": "2020-06-22T03:24:48.2524255+02:00",
+  "UpdatedCount": 473,
+  "Visibility": 49,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 367,
-  "TargetTableName": "D'Amore-Marvin",
+  "TargetTableNumber": 63,
+  "TargetTableName": "Franecki LLC",
   "Completed": false,
-  "LeftSelectionId": 687,
-  "RightSelectionId": 798,
+  "LeftSelectionId": 644,
+  "RightSelectionId": 782,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cremin-Collier",
-  "ShadowProviderName": "Kihn, Runolfsson and Rodriguez",
-  "ChartKey": "inventore",
-  "LastLoaded": "2009-01-11T03:31:27.2624464+01:00",
-  "LastLoadedBy": 635,
+  "MainProviderName": "Jerde Inc and Sons",
+  "ShadowProviderName": "Stroman-Hagenes",
+  "ChartKey": "consectetur",
+  "LastLoaded": "2004-11-10T03:24:48.2524255+01:00",
+  "LastLoadedBy": 243,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-01-04T03:31:27.2624464+01:00",
-  "LastMembershipChangeBy": 284,
+  "LastMembershipChange": "2008-01-19T03:24:48.2524255+01:00",
+  "LastMembershipChangeBy": 439,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "suscipit",
-  "MailingsProviderName": "Abbott, Harris and Hermiston",
-  "DashboardTileDefinitionId": 900,
+  "MainHeading": "harum",
+  "MemberTabHeading": "sapiente",
+  "MailingsProviderName": "Herman, Hansen and Hermann",
+  "DashboardTileDefinitionId": 482,
   "VisibleFor": [
     {
-      "VisibleId": 277,
+      "VisibleId": 840,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 583
         }
       }
     },
     {
-      "VisibleId": 277,
+      "VisibleId": 840,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 583
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

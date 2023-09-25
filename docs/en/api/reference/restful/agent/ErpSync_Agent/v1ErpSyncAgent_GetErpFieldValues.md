@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpFieldValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 471,
+  "ErpConnectionId": 788,
   "CrmActorType": "Contact",
-  "EntityId": 995,
+  "EntityId": 172,
   "FieldKeys": [
-    "sapiente",
-    "autem"
+    "ipsa",
+    "labore"
   ]
 }
 ```
@@ -94,7 +94,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "natus",
-  "ea"
+  "quia",
+  "officia"
 ]
 ```

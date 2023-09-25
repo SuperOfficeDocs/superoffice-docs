@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=cumque
-GET /api/v1/User?$top=777
-GET /api/v1/User?$skip=391
+GET /api/v1/User?$entities=velit
+GET /api/v1/User?$top=669
+GET /api/v1/User?$skip=142
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=et
+GET /api/v1/User?$context=minima
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "tempore",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 6885,
-      "EntityName": "sale",
-      "saleId": 6885,
-      "contactId": 2604,
-      "name": "Oberbrunner-Pacocha"
+      "PrimaryKey": 3608,
+      "EntityName": "person",
+      "personId": 3608,
+      "fullName": "Michale Ebert"
     },
     {
-      "PrimaryKey": 1618,
-      "EntityName": "sale",
-      "saleId": 1618,
-      "contactId": 8348,
-      "name": "Marquardt Inc and Sons"
+      "PrimaryKey": 3963,
+      "EntityName": "person",
+      "personId": 3963,
+      "fullName": "Mrs. Meghan Hills"
     }
   ]
 }

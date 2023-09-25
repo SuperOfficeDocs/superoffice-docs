@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 720,
-  "ERPProductKey": "occaecati",
-  "ERPPriceListKey": "voluptates",
-  "Name": "Ullrich LLC",
-  "Description": "Synergistic zero tolerance neural-net",
-  "Code": "temporibus",
-  "PriceUnit": "sit",
-  "QuantityUnit": "id",
-  "IsSubscription": false,
-  "SubscriptionUnit": "suscipit",
-  "DefaultSubscriptionQuantity": 28469.255999999998,
-  "ItemNumber": "1074915",
+  "ProductId": 313,
+  "ERPProductKey": "quis",
+  "ERPPriceListKey": "dolorum",
+  "Name": "O'Hara, Simonis and Willms",
+  "Description": "Robust client-server internet solution",
+  "Code": "dolorem",
+  "PriceUnit": "mollitia",
+  "QuantityUnit": "fuga",
+  "IsSubscription": true,
+  "SubscriptionUnit": "temporibus",
+  "DefaultSubscriptionQuantity": 20173.558,
+  "ItemNumber": "502159",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "tempore",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 5537.778,
-  "VATInfo": "nostrum",
-  "UnitCost": 18224.21,
-  "UnitMinimumPrice": 11965.612,
-  "UnitListPrice": 927.664,
-  "InAssortment": false,
-  "Supplier": "doloribus",
-  "SupplierCode": "sit",
-  "Rights": "ut",
-  "Rule": "dolorem",
+  "ProductFamilyKey": "ab",
+  "ProductTypeKey": "ut",
+  "VAT": 9564.9679999999989,
+  "VATInfo": "voluptate",
+  "UnitCost": 22687.025999999998,
+  "UnitMinimumPrice": 21759.362,
+  "UnitListPrice": 6380.824,
+  "InAssortment": true,
+  "Supplier": "voluptatem",
+  "SupplierCode": "expedita",
+  "Rights": "quibusdam",
+  "Rule": "molestiae",
   "ExtraInfo": [
     {
-      "Name": "Kulas-Quitzon",
-      "Value": "quae",
+      "Name": "Sauer, Cummerata and Ondricka",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 435
         }
       }
     },
     {
-      "Name": "Kulas-Quitzon",
-      "Value": "quae",
+      "Name": "Sauer, Cummerata and Ondricka",
+      "Value": "animi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 847
+          "FieldLength": 435
         }
       }
     }
   ],
-  "RawExtraInfo": "provident",
-  "ExtraField1": "aut",
-  "ExtraField2": "expedita",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "aperiam",
-  "ExtraField5": "minima",
-  "InStock": 23921.822,
+  "RawExtraInfo": "nam",
+  "ExtraField1": "ut",
+  "ExtraField2": "quasi",
+  "ExtraField3": "et",
+  "ExtraField4": "illo",
+  "ExtraField5": "quaerat",
+  "InStock": 22922.076,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 794
     }
   }
 }

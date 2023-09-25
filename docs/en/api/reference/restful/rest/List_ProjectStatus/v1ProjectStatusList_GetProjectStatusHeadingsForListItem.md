@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Brakus Inc and Sons",
-    "ToolTip": "Modi incidunt quia facilis.",
+    "Id": 868,
+    "Name": "Runte-Fadel",
+    "ToolTip": "Eos est.",
     "Deleted": false,
-    "Rank": 434,
+    "Rank": 333,
     "Type": "dolores",
-    "ColorBlock": 196,
-    "IconHint": "et",
+    "ColorBlock": 694,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2001-04-14T03:31:33.7742322+02:00",
+    "LastChanged": "2010-05-17T03:24:52.3494474+02:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Runolfsson LLC",
-        "ToolTip": "Dolorem possimus quo recusandae hic unde.",
-        "Deleted": true,
-        "Rank": 990,
-        "Type": "et",
-        "ColorBlock": 109,
-        "IconHint": "quas",
+        "Id": 965,
+        "Name": "Turcotte, Senger and Sauer",
+        "ToolTip": "Natus impedit ex molestiae eos non.",
+        "Deleted": false,
+        "Rank": 317,
+        "Type": "ipsam",
+        "ColorBlock": 253,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2014-05-07T03:31:33.7742322+02:00",
+        "LastChanged": "2007-10-07T03:24:52.3494474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "sit",
+        "ExtraInfo": "quo",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Richie Hessel Sr.",
+        "FullName": "Oleta Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 495
+            "FieldLength": 180
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "error",
+    "ExtraInfo": "iste",
+    "StyleHint": "incidunt",
     "Hidden": true,
-    "FullName": "Clare Bradtke",
+    "FullName": "Adrian Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 623
       }
     }
   }

@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2011-10-24T03:31:27.1999504+02:00",
-  "ToDate": "2006-01-30T03:31:27.1999504+01:00",
-  "AmountLimit": 929,
+  "FromDate": "1998-01-17T03:24:48.2207231+01:00",
+  "ToDate": "2011-09-30T03:24:48.2207231+02:00",
+  "AmountLimit": 100,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cassin-Roberts",
-    "SaleDate": "2017-09-12T03:31:27.1999504+02:00",
-    "SaleId": 797,
-    "Probability": 597,
-    "Title": "minima",
-    "Amount": 13388.448,
-    "Currency": "voluptas",
-    "ProjectName": "Kunde, DuBuque and Fisher",
-    "AssociateFullName": "Fleta Maggio",
-    "Description": "Reactive stable portal",
+    "ContactName": "Lind, Veum and Morissette",
+    "SaleDate": "2009-06-27T03:24:48.2207231+02:00",
+    "SaleId": 696,
+    "Probability": 174,
+    "Title": "aut",
+    "Amount": 4691.598,
+    "Currency": "labore",
+    "ProjectName": "Leuschke, Ullrich and Emard",
+    "AssociateFullName": "Mr. Kathlyn Gutkowski I",
+    "Description": "Profound static array",
     "Status": "Lost",
-    "WeightedAmount": 30196.09,
-    "ProjectId": 668,
-    "EarningPercent": 14864.562,
-    "Earning": 1407.166,
-    "ContactId": 29,
-    "AssociateId": 19,
-    "PersonId": 734,
-    "SaleTypeId": 696,
-    "SaleTypeName": "Runolfsdottir Group",
-    "PersonFullName": "Guy Powlowski",
+    "WeightedAmount": 4033.458,
+    "ProjectId": 348,
+    "EarningPercent": 4494.156,
+    "Earning": 5888.786,
+    "ContactId": 773,
+    "AssociateId": 677,
+    "PersonId": 300,
+    "SaleTypeId": 653,
+    "SaleTypeName": "Dicki Inc and Sons",
+    "PersonFullName": "Kennith Padberg",
     "Completed": "Completed",
-    "ActiveErpLinks": 542,
-    "NextDueDate": "2004-06-08T03:31:27.1999504+02:00",
-    "Number": "612365",
+    "ActiveErpLinks": 806,
+    "NextDueDate": "2010-01-27T03:24:48.2207231+01:00",
+    "Number": "1117321",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldType": "System.String",
+        "FieldLength": 683
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 179,
-  "SaleId": 153,
-  "QuoteConnectionId": 642,
-  "ERPQuoteKey": "aspernatur",
-  "ERPOrderKey": "repellat",
-  "ActiveQuoteVersionId": 299,
-  "AcceptedQuoteAlternativeId": 301,
-  "UseValuesFromQuote": 754,
-  "DocumentId": 875,
-  "PoNumber": "44315",
-  "OrderComment": "deleniti",
-  "PreferredEmailCulture": "gerry_russel@reilly.uk",
+  "QuoteId": 70,
+  "SaleId": 583,
+  "QuoteConnectionId": 889,
+  "ERPQuoteKey": "eos",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 792,
+  "AcceptedQuoteAlternativeId": 576,
+  "UseValuesFromQuote": 609,
+  "DocumentId": 836,
+  "PoNumber": "1143412",
+  "OrderComment": "totam",
+  "PreferredEmailCulture": "kaya.rutherford@treutelwunsch.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 49,
-      "ERPQuoteVersionKey": "eveniet",
-      "QuoteId": 866,
-      "Description": "Programmable motivating initiative",
-      "Number": "1226390",
+      "QuoteVersionId": 848,
+      "ERPQuoteVersionKey": "illum",
+      "QuoteId": 892,
+      "Description": "Up-sized attitude-oriented standardization",
+      "Number": "263566",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 293,
-      "SentDate": "2016-09-09T03:31:27.106235+02:00",
-      "FollowupId": 372,
-      "ExpirationDate": "2006-09-14T03:31:27.106235+02:00",
-      "DeliveryCountryId": 470,
+      "LikelyQuoteAlternativeId": 993,
+      "SentDate": "2009-10-03T03:24:48.1426062+02:00",
+      "FollowupId": 85,
+      "ExpirationDate": "2013-01-09T03:24:48.1426062+01:00",
+      "DeliveryCountryId": 680,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 898,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "in",
-      "ERPPaymentTypeKey": "voluptas",
-      "ERPDeliveryTermsKey": "inventore",
-      "ERPDeliveryTypeKey": "repellendus",
-      "Rank": 850,
-      "ApprovedBy": 558,
-      "ApprovedText": "et",
-      "ApprovedRegisteredBy": 723,
-      "ApprovedRegisteredDate": "2010-09-21T03:31:27.106235+02:00",
-      "ExtraField1": "nostrum",
-      "ExtraField2": "et",
+      "InvoiceCountryId": 366,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "ad",
+      "ERPPaymentTypeKey": "sed",
+      "ERPDeliveryTermsKey": "aut",
+      "ERPDeliveryTypeKey": "eligendi",
+      "Rank": 421,
+      "ApprovedBy": 730,
+      "ApprovedText": "sequi",
+      "ApprovedRegisteredBy": 562,
+      "ApprovedRegisteredDate": "2007-10-09T03:24:48.1426062+02:00",
+      "ExtraField1": "corporis",
+      "ExtraField2": "debitis",
       "ExtraField3": "et",
-      "ExtraField4": "dicta",
-      "ExtraField5": "quae",
-      "LastRecalculated": "2001-12-31T03:31:27.106235+01:00",
-      "Updated": "2002-04-27T03:31:27.106235+02:00",
-      "UpdatedAssociateId": 191,
-      "Registered": "2013-10-16T03:31:27.106235+02:00",
-      "RegisteredAssociateId": 988,
-      "RequestAssociateId": 599,
-      "RequestComment": "nobis",
+      "ExtraField4": "cum",
+      "ExtraField5": "dolores",
+      "LastRecalculated": "2005-09-04T03:24:48.1426062+02:00",
+      "Updated": "2014-03-21T03:24:48.1426062+01:00",
+      "UpdatedAssociateId": 936,
+      "Registered": "2004-08-20T03:24:48.1426062+02:00",
+      "RegisteredAssociateId": 15,
+      "RequestAssociateId": 641,
+      "RequestComment": "eveniet",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 815
+          "FieldLength": 808
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 556
     }
   }
 }

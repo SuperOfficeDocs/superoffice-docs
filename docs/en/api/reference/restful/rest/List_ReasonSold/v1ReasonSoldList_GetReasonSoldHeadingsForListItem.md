@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Hermiston, Swaniawski and Will",
-    "ToolTip": "Eum ea perspiciatis consequatur sunt autem et.",
-    "Deleted": true,
-    "Rank": 517,
-    "Type": "sapiente",
-    "ColorBlock": 112,
-    "IconHint": "enim",
+    "Id": 32,
+    "Name": "Hintz, Murphy and Reynolds",
+    "ToolTip": "Et dolorum.",
+    "Deleted": false,
+    "Rank": 735,
+    "Type": "numquam",
+    "ColorBlock": 34,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2008-02-22T03:31:33.8523421+01:00",
+    "LastChanged": "1999-02-05T03:24:52.3963183+01:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Hermann-Prosacco",
-        "ToolTip": "Autem possimus asperiores ipsa voluptatem.",
-        "Deleted": true,
-        "Rank": 720,
-        "Type": "molestias",
-        "ColorBlock": 44,
-        "IconHint": "vero",
+        "Id": 609,
+        "Name": "Schamberger LLC",
+        "ToolTip": "Ut aut quaerat.",
+        "Deleted": false,
+        "Rank": 690,
+        "Type": "dolor",
+        "ColorBlock": 750,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2005-01-26T03:31:33.8523421+01:00",
+        "LastChanged": "2012-11-28T03:24:52.3963183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Waino Kutch",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Karson Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 954
+            "FieldType": "System.Int32",
+            "FieldLength": 219
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "architecto",
-    "Hidden": false,
-    "FullName": "Oscar Kunze",
+    "ExtraInfo": "nisi",
+    "StyleHint": "esse",
+    "Hidden": true,
+    "FullName": "Ms. Sierra Marisol Will III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

@@ -169,12 +169,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "magni",
-  "ProviderName": "Bode Group",
-  "DesiredColumns": "suscipit",
-  "OrderBy": "eaque",
-  "PageSize": 950,
-  "PageNumber": 947
+  "Restrictions": "fuga",
+  "ProviderName": "Schmeler-Fritsch",
+  "DesiredColumns": "reiciendis",
+  "OrderBy": "eum",
+  "PageSize": 471,
+  "PageNumber": 19
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Quigley, Labadie and Lakin",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "dolor",
-      "CanOrderBy": true,
-      "Name": "Carroll-Funk",
+      "DisplayName": "Powlowski LLC",
+      "DisplayTooltip": "quis",
+      "DisplayType": "asperiores",
+      "CanOrderBy": false,
+      "Name": "Huels, Rempel and Effertz",
       "CanRestrictBy": false,
-      "RestrictionType": "eos",
-      "RestrictionListName": "Hoeger LLC",
+      "RestrictionType": "hic",
+      "RestrictionListName": "Zboncak Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "inventore",
-      "IconHint": "vero",
-      "HeadingIconHint": "voluptatum"
+      "ExtraInfo": "odit",
+      "Width": "saepe",
+      "IconHint": "et",
+      "HeadingIconHint": "sint"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Gusikowski Inc and Sons",
-      "PrimaryKey": 421,
+      "EntityName": "Bartell Inc and Sons",
+      "PrimaryKey": 14,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "vel",
-          "LinkHint": "iusto"
+          "DisplayValue": "porro",
+          "TooltipHint": "dolorem",
+          "LinkHint": "beatae"
         }
       },
-      "LinkHint": "tempora",
-      "StyleHint": "iste",
+      "LinkHint": "sed",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 278
         }
       }
     }
   ],
-  "RowCount": 860,
+  "RowCount": 235,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 728
     }
   }
 }

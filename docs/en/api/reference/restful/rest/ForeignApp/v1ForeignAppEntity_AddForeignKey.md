@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ex",
-  "Value": "beatae",
-  "RecordId": 532,
-  "CreatedDate": "2001-06-06T03:31:32.6289016+02:00",
-  "UpdatedDate": "2011-02-18T03:31:32.6289016+01:00",
-  "UpdatedBy": "aliquid",
-  "CreatedBy": "est",
-  "TableName": "Mraz, Fadel and Bayer"
+  "Key": "aut",
+  "Value": "eius",
+  "RecordId": 165,
+  "CreatedDate": "2015-07-16T03:24:51.630601+02:00",
+  "UpdatedDate": "2004-08-17T03:24:51.630601+02:00",
+  "UpdatedBy": "velit",
+  "CreatedBy": "delectus",
+  "TableName": "Schumm Group"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "culpa",
-  "RecordId": 887,
-  "CreatedDate": "2010-07-01T03:31:32.6289016+02:00",
-  "UpdatedDate": "2009-01-28T03:31:32.6289016+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "error",
-  "TableName": "Crona-Olson",
+  "Key": "occaecati",
+  "Value": "sunt",
+  "RecordId": 974,
+  "CreatedDate": "2013-12-25T03:24:51.630601+01:00",
+  "UpdatedDate": "2006-07-25T03:24:51.630601+02:00",
+  "UpdatedBy": "provident",
+  "CreatedBy": "quia",
+  "TableName": "Quigley LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "eum"
+  "ProgId": "nesciunt"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 255,
-  "Name": "Schultz-Vandervort",
-  "Tooltip": "nesciunt",
-  "TableName": "Toy-Mayer",
-  "Area": "architecto",
+  "TaskMenuId": 128,
+  "Name": "McKenzie Inc and Sons",
+  "Tooltip": "dolor",
+  "TableName": "Brakus Inc and Sons",
+  "Area": "molestiae",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 904,
+  "CrmScriptId": 680,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 24,
+  "Rank": 315,
   "Encoding": "ANSI",
-  "ProgId": "quia",
+  "ProgId": "voluptatum",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   }
 }

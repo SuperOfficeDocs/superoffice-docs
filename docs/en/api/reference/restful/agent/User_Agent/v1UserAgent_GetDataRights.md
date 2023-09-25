@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 248,
-  "TableName": "Gottlieb, Keeling and Ziemann"
+  "RoleId": 433,
+  "TableName": "Ryan Group"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "excepturi",
-  "2": "sed"
+  "1": "sit",
+  "2": "qui"
 }
 ```

@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 819,
-  "Name": "Lockman Group",
-  "Tooltip": "totam",
+  "Id": 72,
+  "Name": "Huel-Williamson",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 500,
-  "Rank": 740
+  "UdListDefinitionId": 86,
+  "Rank": 117
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Kemmer-Armstrong",
-  "Tooltip": "reiciendis",
+  "Id": 852,
+  "Name": "Olson, Hammes and Kulas",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "UdListDefinitionId": 535,
-  "Rank": 990,
+  "UdListDefinitionId": 801,
+  "Rank": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 495,
-  "Name": "Kulas Inc and Sons",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 697,
-  "UdListDefinitionId": 664
+  "HeadingId": 981,
+  "Name": "Johns, Bogan and Kuhlman",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 334,
+  "UdListDefinitionId": 366
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 332,
-  "Name": "Renner Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 236,
-  "UdListDefinitionId": 214,
+  "HeadingId": 575,
+  "Name": "Adams-Hackett",
+  "Tooltip": "facere",
+  "Deleted": true,
+  "Rank": 111,
+  "UdListDefinitionId": 298,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   }
 }

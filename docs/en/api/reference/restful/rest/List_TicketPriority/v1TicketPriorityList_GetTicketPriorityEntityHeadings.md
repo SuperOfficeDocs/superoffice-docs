@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 905,
-    "Name": "Cummings Group",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 228,
-    "UdListDefinitionId": 683,
+    "HeadingId": 956,
+    "Name": "Predovic, Stokes and Ortiz",
+    "Tooltip": "sunt",
+    "Deleted": true,
+    "Rank": 202,
+    "UdListDefinitionId": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldLength": 731
       }
     }
   }

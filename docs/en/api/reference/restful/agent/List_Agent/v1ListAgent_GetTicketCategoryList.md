@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 360,
-    "ParentId": 220,
-    "Name": "Corkery Inc and Sons",
-    "Fullname": "odit",
-    "CategoryMaster": 804,
+    "TicketCategoryId": 404,
+    "ParentId": 351,
+    "Name": "Rosenbaum Inc and Sons",
+    "Fullname": "nisi",
+    "CategoryMaster": 951,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Stanton LLC",
+    "ExternalName": "Bayer-Luettgen",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 841,
-    "ReplyTemplate": 59,
-    "NotificationEmail": "avery@breitenbergluettgen.ca",
+    "AssignmentLag": 953,
+    "ReplyTemplate": 426,
+    "NotificationEmail": "moses@eichmann.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 813,
+    "EffectiveReplyTemplateId": 835,
     "ExtraFields": {
-      "ExtraFields1": "iste",
-      "ExtraFields2": "est"
+      "ExtraFields1": "nobis",
+      "ExtraFields2": "dolores"
     },
     "CustomFields": {
-      "CustomFields1": "rem",
+      "CustomFields1": "facere",
       "CustomFields2": "et"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldType": "System.String",
+        "FieldLength": 185
       }
     }
   }

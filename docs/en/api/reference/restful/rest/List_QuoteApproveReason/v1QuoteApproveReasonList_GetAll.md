@@ -25,7 +25,7 @@ Gets all the QuoteApproveReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Cronin Inc and Sons",
-    "Tooltip": "molestiae",
+    "Id": 871,
+    "Name": "Kertzmann LLC",
+    "Tooltip": "vero",
     "Deleted": true,
-    "UdListDefinitionId": 545,
-    "Rank": 181,
+    "UdListDefinitionId": 936,
+    "Rank": 446,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldLength": 732
       }
     }
   }

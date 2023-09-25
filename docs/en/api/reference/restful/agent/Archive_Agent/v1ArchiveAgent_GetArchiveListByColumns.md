@@ -107,50 +107,50 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Kon-Buckridge",
+  "ProviderName": "Gutmann Group",
   "Columns": [
-    "rem",
-    "aperiam"
+    "quidem",
+    "numquam"
   ],
   "SortOrder": [
     {
-      "Name": "Hegmann LLC",
+      "Name": "Herzog, Mosciski and Ullrich",
       "Direction": "ASC"
     },
     {
-      "Name": "Hegmann LLC",
+      "Name": "Herzog, Mosciski and Ullrich",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Miller LLC",
-      "Operator": "dolores",
+      "Name": "Zieme-Hodkiewicz",
+      "Operator": "non",
       "Values": [
-        "deleniti",
-        "at"
+        "ut",
+        "tempore"
       ],
       "DisplayValues": [
-        "nihil",
-        "aut"
+        "earum",
+        "aperiam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 712,
+      "InterParenthesis": 295,
       "InterOperator": "And",
-      "UniqueHash": 331
+      "UniqueHash": 273
     }
   ],
   "Entities": [
-    "quo",
-    "quia"
+    "ea",
+    "qui"
   ],
-  "Page": 275,
-  "PageSize": 343
+  "Page": 175,
+  "PageSize": 719
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Durgan-Mosciski",
-    "PrimaryKey": 747,
+    "EntityName": "Luettgen, Goldner and Mills",
+    "PrimaryKey": 172,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "soluta",
-        "TooltipHint": "possimus",
-        "LinkHint": "numquam"
+        "DisplayValue": "ipsam",
+        "TooltipHint": "sed",
+        "LinkHint": "magnam"
       }
     },
-    "LinkHint": "consequuntur",
-    "StyleHint": "tenetur",
+    "LinkHint": "ut",
+    "StyleHint": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldType": "System.String",
+        "FieldLength": 923
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 76,
-  "Name": "Heidenreich, Emard and Wisoky",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 207,
+  "Id": 210,
+  "Name": "Bode, Hudson and Friesen",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "Rank": 994,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "architecto",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   },
   "_Links": {

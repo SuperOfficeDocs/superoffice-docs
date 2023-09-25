@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 466,
-    "Name": "Daugherty Inc and Sons",
-    "ToolTip": "Facilis eaque recusandae quod repudiandae.",
+    "Id": 642,
+    "Name": "Jakubowski Inc and Sons",
+    "ToolTip": "Tempora repellat saepe.",
     "Deleted": false,
-    "Rank": 374,
-    "Type": "in",
-    "ColorBlock": 685,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "2022-10-19T03:31:33.6323343+02:00",
+    "Rank": 662,
+    "Type": "numquam",
+    "ColorBlock": 182,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2018-11-21T03:24:52.2557133+01:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Hodkiewicz, Padberg and Schinner",
-        "ToolTip": "Magni consequuntur itaque qui delectus iure architecto in.",
-        "Deleted": true,
-        "Rank": 327,
-        "Type": "eaque",
-        "ColorBlock": 119,
-        "IconHint": "accusamus",
+        "Id": 265,
+        "Name": "Tromp Inc and Sons",
+        "ToolTip": "Reprehenderit amet et.",
+        "Deleted": false,
+        "Rank": 251,
+        "Type": "aut",
+        "ColorBlock": 178,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2000-09-14T03:31:33.6323343+02:00",
+        "LastChanged": "2015-09-03T03:24:52.2557133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Emie Hayes IV",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Ms. Alden Bethany Wehner III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 966
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Harmon Braun Jr.",
+    "ExtraInfo": "omnis",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Ms. Darian Sterling Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Feb 1999 03:31:32 G2T
+Last-Modified: Fri, 14 Feb 2020 03:24:51 G2T
 
 {
-  "Description": "Fundamental 4th generation matrix",
-  "Postit": "ipsum",
+  "Description": "Upgradable user-facing synergy",
+  "Postit": "ipsa",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 254,
-  "IncludePerson": 576,
-  "MemberCount": 503,
-  "Name": "Macejkovic-Hand",
-  "PostitTextId": 470,
-  "CreatedDate": "1999-09-19T03:31:32.9257016+02:00",
-  "SelectionId": 279,
-  "SoundEx": "ea",
-  "Source": 32,
-  "TextId": 869,
-  "UpdatedDate": "1999-02-14T03:31:32.9257016+01:00",
-  "UpdatedCount": 771,
-  "Visibility": 991,
+  "GroupIdx": 755,
+  "IncludePerson": 879,
+  "MemberCount": 106,
+  "Name": "Bogisich, Prohaska and Jacobs",
+  "PostitTextId": 269,
+  "CreatedDate": "2010-08-18T03:24:51.9119624+02:00",
+  "SelectionId": 146,
+  "SoundEx": "sunt",
+  "Source": 527,
+  "TextId": 236,
+  "UpdatedDate": "2020-02-14T03:24:51.9119624+01:00",
+  "UpdatedCount": 964,
+  "Visibility": 921,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 625,
-  "TargetTableName": "Koch-Ryan",
+  "CompanyUnique": true,
+  "TargetTableNumber": 577,
+  "TargetTableName": "Greenfelder Group",
   "Completed": true,
-  "LeftSelectionId": 912,
-  "RightSelectionId": 588,
+  "LeftSelectionId": 399,
+  "RightSelectionId": 560,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Padberg, Sanford and Treutel",
-  "ShadowProviderName": "Bechtelar-Haley",
-  "ChartKey": "rerum",
-  "LastLoaded": "2012-11-04T03:31:32.9257016+01:00",
-  "LastLoadedBy": 169,
+  "MainProviderName": "Balistreri Inc and Sons",
+  "ShadowProviderName": "Herzog, Donnelly and Harvey",
+  "ChartKey": "dolorum",
+  "LastLoaded": "2018-12-07T03:24:51.9119624+01:00",
+  "LastLoadedBy": 855,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-11-15T03:31:32.9257016+01:00",
-  "LastMembershipChangeBy": 249,
+  "LastMembershipChange": "2021-05-13T03:24:51.9119624+02:00",
+  "LastMembershipChangeBy": 21,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consequatur",
-  "MemberTabHeading": "aspernatur",
-  "MailingsProviderName": "Pacocha LLC",
-  "DashboardTileDefinitionId": 649,
+  "MainHeading": "distinctio",
+  "MemberTabHeading": "animi",
+  "MailingsProviderName": "Hermiston Inc and Sons",
+  "DashboardTileDefinitionId": 396,
   "VisibleFor": [
     {
-      "VisibleId": 376,
+      "VisibleId": 449,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 843
         }
       }
     },
     {
-      "VisibleId": 376,
+      "VisibleId": 449,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 843
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Sun, 14 Feb 1999 03:31:32 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 181
+      "FieldLength": 109
     }
   },
   "_Links": {

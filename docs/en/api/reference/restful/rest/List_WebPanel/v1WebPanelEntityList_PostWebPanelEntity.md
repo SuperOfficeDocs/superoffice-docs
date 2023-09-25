@@ -105,30 +105,30 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 862,
-  "Name": "Huel, Deckow and Wehner",
-  "Tooltip": "quidem",
+  "WebPanelId": 777,
+  "Name": "Bode, Macejkovic and Carter",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 251,
+  "Rank": 647,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Rolfson-Klocko",
+  "ShowInStatusBar": false,
+  "WindowName": "Langosh-Renner",
   "Url": "http://www.example.com/",
-  "ProgId": "est",
-  "Icon": 809,
+  "ProgId": "sequi",
+  "Icon": 990,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -140,33 +140,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 999,
-  "Name": "Klein-Hintz",
-  "Tooltip": "ducimus",
+  "WebPanelId": 182,
+  "Name": "Wiegand Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 686,
+  "Rank": 802,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Vandervort Inc and Sons",
+  "ShowInStatusBar": false,
+  "WindowName": "Veum-Blick",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsum",
-  "Icon": 885,
+  "ProgId": "sunt",
+  "Icon": 873,
   "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 766
     }
   }
 }

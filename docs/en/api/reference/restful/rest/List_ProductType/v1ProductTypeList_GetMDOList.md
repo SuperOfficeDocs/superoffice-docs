@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=neque
+GET /api/v1/List/ProductType/MDOItems?query=id
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Stark Inc and Sons",
-    "ToolTip": "Ut est vel ut necessitatibus molestiae.",
+    "Id": 830,
+    "Name": "McLaughlin Group",
+    "ToolTip": "Excepturi quae cupiditate culpa et eligendi autem aut.",
     "Deleted": false,
-    "Rank": 798,
-    "Type": "amet",
+    "Rank": 170,
+    "Type": "odio",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Howell-Wilkinson",
-        "ToolTip": "Consequuntur esse.",
+        "Id": 590,
+        "Name": "Schulist-Gerhold",
+        "ToolTip": "Tenetur sequi ut molestiae.",
         "Deleted": false,
-        "Rank": 983,
-        "Type": "praesentium",
+        "Rank": 874,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 490,
-        "ExtraInfo": "in",
-        "StyleHint": "dolor",
-        "FullName": "Mr. Isaac Hickle",
+        "IconHint": "error",
+        "ColorBlock": 485,
+        "ExtraInfo": "dolor",
+        "StyleHint": "tempora",
+        "FullName": "Mrs. Zakary Reagan Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 921
+            "FieldType": "System.Int32",
+            "FieldLength": 811
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 454,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "nulla",
-    "FullName": "Karl Lubowitz",
+    "IconHint": "beatae",
+    "ColorBlock": 938,
+    "ExtraInfo": "ut",
+    "StyleHint": "tenetur",
+    "FullName": "Letitia Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 850
       }
     }
   }

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 137,
+  "TicketMessageEntityId": 526,
   "IncludeNonInlineAttachmentsInfo": true
 }
 ```
@@ -115,78 +115,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 691,
+  "EjMessageId": 130,
   "Ticket": null,
-  "CreatedAt": "2014-11-03T03:31:27.716607+01:00",
+  "CreatedAt": "2001-03-18T03:24:48.5028909+01:00",
   "CreatedBy": null,
-  "Author": "iusto",
+  "Author": "eum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "debitis",
-  "TimeSpent": 375,
-  "Body": "minus",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "eve@ferrypacocha.us",
-  "DebugInfo": "velit",
-  "MailSorter": "ut",
+  "MessageId": "vel",
+  "TimeSpent": 935,
+  "Body": "ad",
+  "HtmlBody": "provident",
+  "EmailHeader": "minerva_brown@deckowmetz.name",
+  "DebugInfo": "sit",
+  "MailSorter": "in",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "officiis",
   "MessageHeaders": [
     {
-      "Id": 802,
-      "Name": "Waters Group",
-      "Value": "excepturi",
+      "Id": 392,
+      "Name": "Mohr Inc and Sons",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "aperiam",
-  "Sentiment": 533,
-  "SentimentConfidence": 773,
+  "Important": true,
+  "Language": "non",
+  "Sentiment": 379,
+  "SentimentConfidence": 49,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 442,
-      "Name": "Will-Wilkinson",
-      "ContentType": "harum",
-      "AttSize": 19,
+      "AttachmentId": 878,
+      "Name": "Von, Boyer and Beatty",
+      "ContentType": "id",
+      "AttSize": 791,
       "InlineImage": true,
-      "ContentId": "sunt",
-      "AuthKey": "aut",
+      "ContentId": "quidem",
+      "AuthKey": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 452
+          "FieldLength": 874
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "dicta"
+    "CustomFields1": "autem",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 516
+      "FieldLength": 921
     }
   }
 }

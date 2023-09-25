@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 982,
-  "Name": "Abshire-Zboncak",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "Rank": 488,
+  "Id": 227,
+  "Name": "Gleason Group",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 629,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "reiciendis",
-  "InUseByUserDefinedFields": true
+  "ListType": "ex",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Mitchell Group",
-  "Tooltip": "illum",
+  "Id": 245,
+  "Name": "Kuhic, Beatty and Fisher",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 74,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 892,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "blanditiis",
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldType": "System.String",
+      "FieldLength": 333
     }
   },
   "_Links": {

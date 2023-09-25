@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 864
+  "PersonId": 850
 }
 ```
 
@@ -92,35 +92,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 434,
-  "PlainParsed": "id",
-  "HtmlParsed": "dolore",
+  "ReplyTemplateId": 921,
+  "PlainParsed": "omnis",
+  "HtmlParsed": "et",
   "Attachments": [
     {
-      "AttachmentId": 483,
-      "Name": "Cassin Inc and Sons",
-      "ContentType": "repellendus",
-      "AttSize": 333,
+      "AttachmentId": 233,
+      "Name": "Nicolas, Miller and Nolan",
+      "ContentType": "ea",
+      "AttSize": 650,
       "InlineImage": false,
-      "ContentId": "dolor",
-      "AuthKey": "illum",
+      "ContentId": "fugiat",
+      "AuthKey": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldType": "System.Int32",
+          "FieldLength": 426
         }
       }
     }
   ],
-  "Subject": "optio",
+  "Subject": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 572
     }
   }
 }

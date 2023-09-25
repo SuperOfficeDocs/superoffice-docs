@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Name": "Mills LLC",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "Rank": 208,
+  "Id": 919,
+  "Name": "Homenick-Braun",
+  "Tooltip": "reiciendis",
+  "Deleted": false,
+  "Rank": 662,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ratione",
-  "InUseByUserDefinedFields": true
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "Rolfson, Walter and Willms",
-  "Tooltip": "sit",
+  "Id": 834,
+  "Name": "Kertzmann LLC",
+  "Tooltip": "eos",
   "Deleted": true,
-  "Rank": 680,
+  "Rank": 831,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "explicabo",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quod",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 405
     }
   }
 }

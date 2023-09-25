@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Hettinger LLC",
-      "Description": "Up-sized mobile project",
-      "Rank": 545,
+      "Name": "Friesen-Schiller",
+      "Description": "Diverse assymetric knowledge user",
+      "Rank": 911,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hettinger LLC",
-      "Description": "Up-sized mobile project",
-      "Rank": 545,
+      "Name": "Friesen-Schiller",
+      "Description": "Diverse assymetric knowledge user",
+      "Rank": 911,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 689
     }
   }
 }

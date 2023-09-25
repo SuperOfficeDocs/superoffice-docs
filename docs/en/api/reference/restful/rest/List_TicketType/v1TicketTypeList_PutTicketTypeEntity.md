@@ -55,7 +55,8 @@ The details of TicketTypeEntity to be saved.
 | DefaultTicketPriority | Integer | Default ticket priority for new tickets |
 | TicketPriorities | Array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | Boolean | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | Boolean | Is this Ticket Type marked as default |
 
 ## Response:
 
@@ -80,7 +81,8 @@ OK
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -90,27 +92,28 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 603,
-  "Name": "Parisian, Davis and Grant",
-  "Rank": 227,
-  "Tooltip": "modi",
-  "Icon": "nihil",
-  "DefaultTicketStatus": 337,
+  "TicketTypeId": 690,
+  "Name": "Parker-Botsford",
+  "Rank": 91,
+  "Tooltip": "aut",
+  "Icon": "qui",
+  "DefaultTicketStatus": 498,
   "TicketStatuses": [
-    54,
-    522
+    341,
+    29
   ],
-  "DefaultTicketPriority": 438,
+  "DefaultTicketPriority": 404,
   "TicketPriorities": [
-    134,
-    95
+    342,
+    557
   ],
-  "ReplyTemplate": 682,
-  "IsExternalVisible": true
+  "ReplyTemplate": 603,
+  "IsExternalVisible": true,
+  "IsDefault": true
 }
 ```
 
@@ -121,29 +124,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 127,
-  "Name": "Harvey, Zieme and Abshire",
-  "Rank": 165,
-  "Tooltip": "iure",
-  "Icon": "dolorum",
-  "DefaultTicketStatus": 886,
+  "TicketTypeId": 167,
+  "Name": "Lockman-Trantow",
+  "Rank": 889,
+  "Tooltip": "inventore",
+  "Icon": "dicta",
+  "DefaultTicketStatus": 829,
   "TicketStatuses": [
-    881,
-    86
+    638,
+    352
   ],
-  "DefaultTicketPriority": 604,
+  "DefaultTicketPriority": 722,
   "TicketPriorities": [
-    691,
-    40
+    501,
+    135
   ],
-  "ReplyTemplate": 647,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 578,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldLength": 235
     }
   }
 }

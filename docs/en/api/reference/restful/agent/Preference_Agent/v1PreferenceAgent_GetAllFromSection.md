@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et"
+  "Section": "voluptate"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 168,
-    "Section": "sed",
-    "Key": "dolores",
-    "Name": "Dach-Kohler",
+    "PrefDescId": 589,
+    "Section": "similique",
+    "Key": "impedit",
+    "Name": "Breitenberg Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Assimilated non-volatile middleware",
-    "IsBuiltin": false,
-    "TableName": "Langworth Group",
-    "UserDefinedListId": 447,
-    "Rank": 405,
-    "SubGroup": "aspernatur",
-    "MinLevel": 425,
-    "MaxValue": 490,
-    "MinValue": 407,
-    "RequiredLicense": "velit",
+    "Description": "Enterprise-wide transitional strategy",
+    "IsBuiltin": true,
+    "TableName": "Streich, Jewess and Kshlerin",
+    "UserDefinedListId": 449,
+    "Rank": 282,
+    "SubGroup": "illum",
+    "MinLevel": 768,
+    "MaxValue": 215,
+    "MinValue": 373,
+    "RequiredLicense": "sequi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 102
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Kuhlman-Will",
-    "Tooltip": "aut",
+    "HeadingId": 888,
+    "Name": "Mosciski-Franecki",
+    "Tooltip": "magnam",
     "Deleted": true,
-    "Rank": 252,
-    "UdListDefinitionId": 110,
+    "Rank": 678,
+    "UdListDefinitionId": 301,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldLength": 793
       }
     }
   }

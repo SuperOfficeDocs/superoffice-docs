@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "aperiam",
-      "Key": "sed"
+      "Section": "placeat",
+      "Key": "minus"
     },
     {
-      "Section": "aperiam",
-      "Key": "sed"
+      "Section": "placeat",
+      "Key": "minus"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "est",
+    "RawValue": "et",
     "Specification": null,
-    "DisplayValue": "est",
-    "DisplayTooltip": "consequatur",
+    "DisplayValue": "quia",
+    "DisplayTooltip": "non",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 799,
-    "PrefDescId": 390,
-    "TableName": "Shields LLC",
-    "UserPreferenceId": 414,
+    "TargetId": 200,
+    "PrefDescId": 106,
+    "TableName": "Nolan, Rice and Zboncak",
+    "UserPreferenceId": 72,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=989
+POST /api/v1/Agents/Document/GetDocument?documentId=235
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 979,
-  "Attention": "libero",
-  "Header": "nostrum",
-  "Name": "Hilpert, Beahan and Davis",
-  "OurRef": "voluptate",
-  "YourRef": "autem",
-  "Description": "Total responsive approach",
-  "DocumentTemplate": "ex",
-  "IsPublished": false,
-  "PersonId": 556,
-  "PersonFullName": "Ms. Alvah Oberbrunner",
-  "AssociateFullName": "Joseph Simonis",
-  "ContactId": 822,
-  "ContactName": "Abshire Group",
-  "ProjectId": 344,
-  "ProjectName": "DuBuque-Wiegand",
-  "AssociateId": 981,
-  "Snum": 928,
-  "SaleId": 771,
-  "SaleName": "Funk LLC",
+  "DocumentId": 165,
+  "Attention": "sequi",
+  "Header": "voluptatibus",
+  "Name": "Roob, White and Mann",
+  "OurRef": "a",
+  "YourRef": "velit",
+  "Description": "Compatible assymetric migration",
+  "DocumentTemplate": "quam",
+  "IsPublished": true,
+  "PersonId": 192,
+  "PersonFullName": "Ms. Sydnie Koch",
+  "AssociateFullName": "Miss Damian Jerde III",
+  "ContactId": 25,
+  "ContactName": "Dickens-Lebsack",
+  "ProjectId": 266,
+  "ProjectName": "Schiller Group",
+  "AssociateId": 572,
+  "Snum": 957,
+  "SaleId": 581,
+  "SaleName": "Haley-Padberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 344
     }
   }
 }

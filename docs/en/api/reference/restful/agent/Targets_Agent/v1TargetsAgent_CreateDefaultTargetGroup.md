@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 671,
-  "Year": 467,
+  "TargetGroupId": 307,
+  "Year": 368,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 823,
+      "TargetAssignmentInfoId": 512,
       "Values": [
-        657,
-        27
+        82,
+        430
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
       "DimensionListItem": 750,
-      "DimensionListItemDisplayName": "McLaughlin-Anderson",
+      "DimensionListItemDisplayName": "Weissnat, Parisian and Rohan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldLength": 137
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldType": "System.Int32",
+      "FieldLength": 34
     }
   }
 }

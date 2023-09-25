@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 1000,
-  "StartDate": "1998-11-02T03:31:25.4308731+01:00",
-  "EndDate": "2002-07-30T03:31:25.4308731+02:00",
-  "RecurrenceCounter": 368,
+  "RecurrenceId": 667,
+  "StartDate": "2000-10-02T03:24:47.1270922+02:00",
+  "EndDate": "2005-09-19T03:24:47.1270922+02:00",
+  "RecurrenceCounter": 102,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-12-25T03:31:25.4308731+01:00",
-      "IsConflict": false,
-      "Description": "Multi-tiered eco-centric analyzer",
-      "DescriptionStyleHint": "Self-enabling logistical leverage",
-      "Tooltip": "et"
+      "Date": "2002-03-11T03:24:47.1270922+01:00",
+      "IsConflict": true,
+      "Description": "Fully-configurable even-keeled time-frame",
+      "DescriptionStyleHint": "Reactive exuding support",
+      "Tooltip": "sit"
     },
     {
-      "Date": "2016-12-25T03:31:25.4308731+01:00",
-      "IsConflict": false,
-      "Description": "Multi-tiered eco-centric analyzer",
-      "DescriptionStyleHint": "Self-enabling logistical leverage",
-      "Tooltip": "et"
+      "Date": "2002-03-11T03:24:47.1270922+01:00",
+      "IsConflict": true,
+      "Description": "Fully-configurable even-keeled time-frame",
+      "DescriptionStyleHint": "Reactive exuding support",
+      "Tooltip": "sit"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

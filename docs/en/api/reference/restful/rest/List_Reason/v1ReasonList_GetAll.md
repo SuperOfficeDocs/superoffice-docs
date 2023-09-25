@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Kozey-Lueilwitz",
-    "Tooltip": "magni",
-    "Deleted": true,
-    "UdListDefinitionId": 805,
-    "Rank": 80,
+    "Id": 533,
+    "Name": "McLaughlin Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 110,
+    "Rank": 482,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 604
       }
     }
   }

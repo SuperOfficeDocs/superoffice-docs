@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 936
+  "ContactId": 14
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 165,
-  "BlobSize": 312,
-  "Description": "Reverse-engineered full-range core",
-  "ExtraInfo": "porro",
-  "IsEncrypted": true,
+  "BlobId": 454,
+  "BlobSize": 938,
+  "Description": "Enterprise-wide demand-driven algorithm",
+  "ExtraInfo": "eum",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "sequi",
-  "OriginalSize": 15,
-  "CreatedDate": "2020-03-09T03:31:25.6652413+01:00",
-  "UpdatedDate": "2020-10-26T03:31:25.6652413+01:00",
+  "MimeType": "occaecati",
+  "OriginalSize": 49,
+  "CreatedDate": "2015-11-27T03:24:47.2677007+01:00",
+  "UpdatedDate": "2018-02-03T03:24:47.2677007+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque",
+  "ConceptualType": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 614
     }
   }
 }

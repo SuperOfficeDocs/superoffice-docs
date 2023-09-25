@@ -77,7 +77,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "McGlynn, Gusikowski and Stehr"
+  "OwnerName": "Breitenberg, Konopelski and O'Conner"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "saepe",
+  "Message": "delectus",
   "Url": "http://www.example.com/"
 }
 ```

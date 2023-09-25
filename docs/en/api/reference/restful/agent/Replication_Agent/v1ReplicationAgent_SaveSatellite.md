@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 223,
-  "Created": "2008-08-23T03:31:27.1218466+02:00",
+  "SatelliteId": 832,
+  "Created": "2005-02-06T03:24:48.1582254+01:00",
   "CreatedBy": null,
-  "Updated": "2005-08-17T03:31:27.1218466+02:00",
+  "Updated": "1998-01-11T03:24:48.1582254+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Erdman-Buckridge",
-      "Description": "Fully-configurable value-added artificial intelligence",
+      "Name": "McKenzie, Prohaska and Emmerich",
+      "Description": "Devolved 6th generation product",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Erdman-Buckridge",
-      "Description": "Fully-configurable value-added artificial intelligence",
+      "Name": "McKenzie, Prohaska and Emmerich",
+      "Description": "Devolved 6th generation product",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 330,
-  "Created": "2007-07-15T03:31:27.1218466+02:00",
+  "SatelliteId": 629,
+  "Created": "2004-08-23T03:24:48.1582254+02:00",
   "CreatedBy": null,
-  "Updated": "2001-05-05T03:31:27.1218466+02:00",
+  "Updated": "2007-02-19T03:24:48.1582254+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Hahn Inc and Sons",
-      "Description": "Monitored even-keeled open architecture",
+      "Name": "Balistreri, Keeling and Wehner",
+      "Description": "Fully-configurable 6th generation moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 945
         }
       }
     },
     {
-      "Name": "Hahn Inc and Sons",
-      "Description": "Monitored even-keeled open architecture",
+      "Name": "Balistreri, Keeling and Wehner",
+      "Description": "Fully-configurable 6th generation moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 945
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

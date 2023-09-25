@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Labadie-Parker",
-  "Tooltip": "nobis",
+  "Id": 352,
+  "Name": "D'Amore Group",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 986,
-  "Rank": 288
+  "UdListDefinitionId": 273,
+  "Rank": 760
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Daugherty-Cormier",
-  "Tooltip": "nostrum",
+  "Id": 82,
+  "Name": "Barton LLC",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "UdListDefinitionId": 252,
-  "Rank": 862,
+  "UdListDefinitionId": 605,
+  "Rank": 850,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 919
     }
   }
 }

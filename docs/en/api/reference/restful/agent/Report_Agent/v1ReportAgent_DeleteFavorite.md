@@ -68,7 +68,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportEntityId": 237
+  "ReportEntityId": 390
 }
 ```
 

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Ondricka LLC",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "Rank": 137,
-    "UdListDefinitionId": 642
+    "HeadingId": 99,
+    "Name": "Mills, Wiegand and Russel",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 81,
+    "UdListDefinitionId": 444
   },
   {
-    "HeadingId": 67,
-    "Name": "Ondricka LLC",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "Rank": 137,
-    "UdListDefinitionId": 642
+    "HeadingId": 99,
+    "Name": "Mills, Wiegand and Russel",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 81,
+    "UdListDefinitionId": 444
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 105,
-    "Name": "Lowe Group",
-    "Tooltip": "modi",
+    "HeadingId": 621,
+    "Name": "Wilderman LLC",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 500,
-    "UdListDefinitionId": 98,
+    "Rank": 810,
+    "UdListDefinitionId": 445,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 514
       }
     }
   }

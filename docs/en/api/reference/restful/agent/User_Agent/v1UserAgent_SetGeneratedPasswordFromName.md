@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Hermiston, Harber and Herzog"
+  "AssociateName": "Dicki, Raynor and Hayes"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Williamson, Jones and Kohler"
+"Daugherty Inc and Sons"
 ```

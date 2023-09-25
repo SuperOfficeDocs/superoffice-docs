@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 110
+  "UdListDefinitionId": 257
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 571,
-  "Name": "Bins LLC",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "Rank": 523,
-  "UdListDefinitionId": 436,
+  "HeadingId": 940,
+  "Name": "Kiehn-Price",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 936,
+  "UdListDefinitionId": 204,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 178
     }
   }
 }

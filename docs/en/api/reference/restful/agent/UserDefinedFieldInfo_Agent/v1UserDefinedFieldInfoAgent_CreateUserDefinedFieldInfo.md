@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 961,
-  "ColumnId": 116,
-  "FieldDefault": "et",
-  "FieldHeight": 492,
-  "FieldLabel": "cum",
-  "FieldLeft": 105,
-  "FieldTop": 742,
+  "UDefFieldId": 788,
+  "ColumnId": 472,
+  "FieldDefault": "cumque",
+  "FieldHeight": 297,
+  "FieldLabel": "quae",
+  "FieldLeft": 5,
+  "FieldTop": 712,
   "FieldType": "Checkbox",
-  "FieldWidth": 258,
-  "FormatMask": "quo",
+  "FieldWidth": 682,
+  "FormatMask": "quia",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 932,
-  "LabelLeft": 599,
-  "LabelTop": 226,
-  "LabelWidth": 687,
-  "LastVersionId": 11,
-  "ListTableId": 734,
+  "IsIndexed": false,
+  "LabelHeight": 557,
+  "LabelLeft": 759,
+  "LabelTop": 89,
+  "LabelWidth": 940,
+  "LastVersionId": 341,
+  "ListTableId": 190,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 496,
-  "ProgId": "quisquam",
-  "IsReadOnly": true,
-  "ShortLabel": "delectus",
-  "TabOrder": 649,
-  "TextLength": 383,
-  "Tooltip": "nisi",
-  "UdefIdentity": 29,
-  "UDListDefinitionId": 238,
+  "Page1LineNo": 382,
+  "ProgId": "aut",
+  "IsReadOnly": false,
+  "ShortLabel": "odio",
+  "TabOrder": 331,
+  "TextLength": 869,
+  "Tooltip": "eius",
+  "UdefIdentity": 807,
+  "UDListDefinitionId": 620,
   "Justification": "Center",
-  "Version": 931,
-  "TemplateVariableName": "Mayer-Kovacek",
-  "HasBeenPublished": false,
-  "MdoListName": "Feeney-Goldner",
+  "Version": 20,
+  "TemplateVariableName": "Crist LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Klocko, Fay and Kling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 324
     }
   }
 }

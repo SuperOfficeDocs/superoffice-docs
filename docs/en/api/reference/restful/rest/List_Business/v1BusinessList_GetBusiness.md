@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738,
-  "Name": "Kshlerin, Fisher and Buckridge",
-  "Tooltip": "incidunt",
-  "Deleted": true,
-  "UdListDefinitionId": 870,
-  "Rank": 837,
+  "Id": 840,
+  "Name": "Renner Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "UdListDefinitionId": 679,
+  "Rank": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 244
+      "FieldLength": 68
     }
   }
 }

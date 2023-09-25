@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Mante, Treutel and Schimmel",
-  "TypicalSearchId": 11
+  "EntityName": "Dach, Glover and Mosciski",
+  "TypicalSearchId": 260
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Batz, Metz and Rempel",
-  "SelectionId": 715,
+  "ProviderName": "Gislason-Bogan",
+  "SelectionId": 866,
   "CanSaveAsSelection": false,
-  "MainHeading": "est",
-  "FilterScreenHeading": "quaerat",
-  "SelectionEntityHeading": "numquam",
+  "MainHeading": "facilis",
+  "FilterScreenHeading": "aut",
+  "SelectionEntityHeading": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 322
     }
   }
 }

@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Hirthe Group",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "UdListDefinitionId": 765,
-  "Rank": 612
+  "Id": 419,
+  "Name": "Walker, Lowe and Runolfsdottir",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "UdListDefinitionId": 923,
+  "Rank": 231
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 705,
-  "Name": "Hintz-Langosh",
-  "Tooltip": "autem",
+  "Id": 562,
+  "Name": "Bruen Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 9,
-  "Rank": 375,
+  "UdListDefinitionId": 313,
+  "Rank": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldType": "System.Int32",
+      "FieldLength": 391
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "porro"
+  "TriggerScriptUniqueId": "rem"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 390,
-  "Name": "Grady, Wiegand and Tillman",
+  "ScreenChooserId": 882,
+  "Name": "Beatty-Beier",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sed",
-  "Source": "voluptates",
-  "Registered": "2003-08-29T03:31:25.9790593+02:00",
-  "RegisteredAssociateId": 149,
-  "Updated": "2022-04-03T03:31:25.9790593+02:00",
-  "UpdatedAssociateId": 137,
+  "Enabled": false,
+  "UniqueIdentifier": "qui",
+  "Source": "delectus",
+  "Registered": "2012-05-10T03:24:47.4708008+02:00",
+  "RegisteredAssociateId": 159,
+  "Updated": "2002-04-05T03:24:47.4708008+02:00",
+  "UpdatedAssociateId": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldLength": 320
     }
   }
 }

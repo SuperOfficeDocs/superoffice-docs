@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=porro
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Turcotte-Huels",
-    "ToolTip": "Et dignissimos ex et nulla.",
+    "Id": 732,
+    "Name": "Prohaska-Kassulke",
+    "ToolTip": "Quod dolores dicta esse.",
     "Deleted": false,
-    "Rank": 241,
-    "Type": "voluptas",
+    "Rank": 245,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Smitham Group",
-        "ToolTip": "Nihil maxime suscipit.",
+        "Id": 332,
+        "Name": "Nienow Inc and Sons",
+        "ToolTip": "Excepturi voluptatum ut vitae.",
         "Deleted": false,
-        "Rank": 71,
-        "Type": "ad",
+        "Rank": 503,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 602,
-        "ExtraInfo": "aut",
-        "StyleHint": "dolores",
-        "FullName": "Eldora Weimann",
+        "IconHint": "aspernatur",
+        "ColorBlock": 897,
+        "ExtraInfo": "iure",
+        "StyleHint": "qui",
+        "FullName": "Mrs. Mike Douglas I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldType": "System.String",
+            "FieldLength": 396
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 860,
-    "ExtraInfo": "ducimus",
-    "StyleHint": "suscipit",
-    "FullName": "Geoffrey Runte",
+    "IconHint": "adipisci",
+    "ColorBlock": 362,
+    "ExtraInfo": "et",
+    "StyleHint": "nisi",
+    "FullName": "Carolanne Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 763
       }
     }
   }

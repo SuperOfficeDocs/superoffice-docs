@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Rolfson Inc and Sons",
-    "ToolTip": "Cum odit nihil.",
+    "Id": 937,
+    "Name": "Baumbach LLC",
+    "ToolTip": "Et architecto blanditiis sed consequatur dolores voluptatem et.",
     "Deleted": true,
-    "Rank": 502,
-    "Type": "molestiae",
-    "ColorBlock": 276,
-    "IconHint": "reprehenderit",
-    "Selected": true,
-    "LastChanged": "2012-01-25T03:31:33.7273746+01:00",
+    "Rank": 318,
+    "Type": "vel",
+    "ColorBlock": 12,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2020-11-05T03:24:52.318209+01:00",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Torphy-Durgan",
-        "ToolTip": "Et qui et aut est vel fugit fugiat.",
+        "Id": 638,
+        "Name": "Bednar, Hickle and Sauer",
+        "ToolTip": "Ullam ut.",
         "Deleted": false,
-        "Rank": 227,
-        "Type": "molestiae",
-        "ColorBlock": 815,
-        "IconHint": "nostrum",
+        "Rank": 251,
+        "Type": "provident",
+        "ColorBlock": 158,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "1998-05-07T03:31:33.7273746+02:00",
+        "LastChanged": "2008-07-23T03:24:52.318209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "porro",
+        "ExtraInfo": "nisi",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Earl Thompson"
+        "FullName": "Ms. Howell Tremblay"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aut",
+    "ExtraInfo": "placeat",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Bettye Kihn"
+    "FullName": "Orland Stark"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Stracke Inc and Sons",
-    "ToolTip": "Nisi necessitatibus ducimus ipsum deleniti facere quia.",
+    "Id": 298,
+    "Name": "Wolf Group",
+    "ToolTip": "Vel praesentium.",
     "Deleted": false,
-    "Rank": 848,
-    "Type": "rerum",
-    "ColorBlock": 414,
-    "IconHint": "molestiae",
+    "Rank": 375,
+    "Type": "illum",
+    "ColorBlock": 47,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2012-06-15T03:31:33.7273746+02:00",
+    "LastChanged": "2017-06-05T03:24:52.318209+02:00",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Upton, Feeney and Leffler",
-        "ToolTip": "Quo iusto rerum aliquam dolorum.",
-        "Deleted": true,
-        "Rank": 620,
-        "Type": "soluta",
-        "ColorBlock": 684,
-        "IconHint": "vero",
+        "Id": 308,
+        "Name": "Miller, Dietrich and Thiel",
+        "ToolTip": "Aut modi.",
+        "Deleted": false,
+        "Rank": 723,
+        "Type": "et",
+        "ColorBlock": 709,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2014-08-01T03:31:33.7273746+02:00",
+        "LastChanged": "2004-02-23T03:24:52.318209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "expedita",
+        "ExtraInfo": "cum",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Mrs. Jaeden Ethan Ullrich MD",
+        "FullName": "Ms. Georgiana Delores O'Connell DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 523
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "unde",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Dr. Luella Walter",
+    "FullName": "Josue Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 821
       }
     }
   }

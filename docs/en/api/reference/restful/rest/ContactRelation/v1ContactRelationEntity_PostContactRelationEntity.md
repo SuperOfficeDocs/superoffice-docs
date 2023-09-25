@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 462,
-  "SourcePersonId": 453,
-  "DestinationContactId": 904,
-  "DestinationPersonId": 873,
-  "RelationId": 381,
-  "Comment": "odio",
-  "RelationDefinitionId": 748,
-  "Reversed": 728,
-  "UpdatedDate": "2010-02-17T03:31:32.4883125+01:00",
-  "CreatedDate": "2009-10-12T03:31:32.4883125+02:00",
+  "SourceContactId": 773,
+  "SourcePersonId": 145,
+  "DestinationContactId": 513,
+  "DestinationPersonId": 195,
+  "RelationId": 460,
+  "Comment": "dolorem",
+  "RelationDefinitionId": 354,
+  "Reversed": 798,
+  "UpdatedDate": "2000-10-13T03:24:51.5368575+02:00",
+  "CreatedDate": "2019-10-17T03:24:51.5368575+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Donnelly, Jakubowski and Botsford",
-  "SourcePersonName": "Daugherty-Veum",
-  "DestinationContactName": "Gutkowski Group",
-  "DestinationPersonName": "Dietrich, Mohr and King",
-  "ActiveText": "cumque",
-  "PassiveText": "ullam"
+  "SourceContactName": "Larson, Cronin and Batz",
+  "SourcePersonName": "Rath, Nicolas and Mraz",
+  "DestinationContactName": "Kilback Group",
+  "DestinationPersonName": "Ankunding, Lesch and Larkin",
+  "ActiveText": "facilis",
+  "PassiveText": "occaecati"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 762,
-  "SourcePersonId": 732,
-  "DestinationContactId": 345,
-  "DestinationPersonId": 823,
-  "RelationId": 735,
-  "Comment": "consequatur",
-  "RelationDefinitionId": 505,
-  "Reversed": 805,
-  "UpdatedDate": "2011-09-24T03:31:32.4883125+02:00",
-  "CreatedDate": "1998-09-28T03:31:32.4883125+02:00",
+  "SourceContactId": 525,
+  "SourcePersonId": 702,
+  "DestinationContactId": 594,
+  "DestinationPersonId": 133,
+  "RelationId": 794,
+  "Comment": "a",
+  "RelationDefinitionId": 992,
+  "Reversed": 568,
+  "UpdatedDate": "2008-07-11T03:24:51.5368575+02:00",
+  "CreatedDate": "2015-01-12T03:24:51.5368575+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Rempel Group",
-  "SourcePersonName": "Renner Inc and Sons",
-  "DestinationContactName": "Heidenreich-Hyatt",
-  "DestinationPersonName": "Gislason Group",
-  "ActiveText": "vero",
-  "PassiveText": "fuga",
+  "SourceContactName": "Wunsch, Feil and Greenfelder",
+  "SourcePersonName": "Kertzmann Group",
+  "DestinationContactName": "Sauer, Stehr and Douglas",
+  "DestinationPersonName": "Stehr, Rempel and Leuschke",
+  "ActiveText": "eos",
+  "PassiveText": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   },
   "_Links": {

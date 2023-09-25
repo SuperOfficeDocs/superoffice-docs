@@ -92,33 +92,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 702,
-  "Name": "Bergstrom Group",
-  "Tooltip": "omnis",
+  "WebPanelId": 310,
+  "Name": "Eichmann-Reynolds",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 661,
+  "Rank": 319,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Johns LLC",
+  "WindowName": "Corkery-Waelchi",
   "Url": "http://www.example.com/",
-  "ProgId": "quia",
-  "Icon": 80,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "illum",
+  "Icon": 370,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldLength": 121
     }
   }
 }

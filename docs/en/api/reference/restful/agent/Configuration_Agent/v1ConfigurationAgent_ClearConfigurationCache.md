@@ -72,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "minima",
-  "Instance": "rerum",
+  "Application": "quibusdam",
+  "Instance": "cupiditate",
   "ForAllAssociates": false
 }
 ```

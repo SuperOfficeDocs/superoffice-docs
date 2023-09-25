@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 286
+  "ContactId": 105
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 503,
-    "Name": "Mayert-Treutel",
-    "Description": "Adaptive disintermediate portal",
+    "ProjectId": 473,
+    "Name": "Romaguera LLC",
+    "Description": "Configurable fault-tolerant system engine",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 135,
-    "AssociateFullName": "Antonina Kemmer",
-    "TypeId": 765,
-    "Updated": "2013-12-15T03:31:27.0268433+01:00",
-    "StatusId": 439,
-    "Status": "aut",
-    "TextId": 17,
-    "PublishTo": "2001-04-21T03:31:27.0268433+02:00",
-    "PublishFrom": "2000-06-12T03:31:27.0268433+02:00",
+    "Type": "nemo",
+    "AssociateId": 295,
+    "AssociateFullName": "Dr. Kaia Madyson Rice",
+    "TypeId": 601,
+    "Updated": "2005-12-24T03:24:48.0957311+01:00",
+    "StatusId": 248,
+    "Status": "aperiam",
+    "TextId": 130,
+    "PublishTo": "2015-12-03T03:24:48.0957311+01:00",
+    "PublishFrom": "2008-05-18T03:24:48.0957311+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "748651",
-    "ActiveErpLinks": 362,
+    "ProjectNumber": "1536516",
+    "ActiveErpLinks": 882,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldType": "System.String",
+        "FieldLength": 970
       }
     }
   }

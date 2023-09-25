@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 502,
-  "Name": "Carroll-Dibbert",
-  "TZLocationCode": "quia",
-  "TZLocationCities": "incidunt",
-  "IsoNumber": 991,
+  "TZLocationID": 804,
+  "Name": "Murphy-Wolf",
+  "TZLocationCode": "repudiandae",
+  "TZLocationCities": "distinctio",
+  "IsoNumber": 635,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 564,
-      "StartMonth": 897,
-      "EndDay": 881,
-      "EndMonth": 275,
-      "TZOffset": 174,
-      "StartRulePattern": "non",
-      "EndRulePattern": "quisquam"
+      "StartDay": 742,
+      "StartMonth": 365,
+      "EndDay": 255,
+      "EndMonth": 181,
+      "TZOffset": 291,
+      "StartRulePattern": "voluptas",
+      "EndRulePattern": "nihil"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 910,
-      "StartMonth": 984,
-      "EndDay": 789,
-      "EndMonth": 699,
-      "TZOffset": 588,
-      "StartRulePattern": "perferendis",
-      "EndRulePattern": "et"
+      "StartDay": 485,
+      "StartMonth": 671,
+      "EndDay": 900,
+      "EndMonth": 458,
+      "TZOffset": 304,
+      "StartRulePattern": "molestiae",
+      "EndRulePattern": "quasi"
     }
   }
 }

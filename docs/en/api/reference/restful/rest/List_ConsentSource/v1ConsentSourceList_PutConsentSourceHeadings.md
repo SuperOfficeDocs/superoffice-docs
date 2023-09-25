@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "O'Conner, Bradtke and Rosenbaum",
-    "Tooltip": "fugiat",
+    "HeadingId": 308,
+    "Name": "Strosin, Ernser and Cartwright",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 801,
-    "UdListDefinitionId": 642
+    "Rank": 665,
+    "UdListDefinitionId": 681
   },
   {
-    "HeadingId": 30,
-    "Name": "O'Conner, Bradtke and Rosenbaum",
-    "Tooltip": "fugiat",
+    "HeadingId": 308,
+    "Name": "Strosin, Ernser and Cartwright",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 801,
-    "UdListDefinitionId": 642
+    "Rank": 665,
+    "UdListDefinitionId": 681
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 845,
-    "Name": "Rolfson LLC",
-    "Tooltip": "id",
-    "Deleted": true,
-    "Rank": 97,
-    "UdListDefinitionId": 403,
+    "HeadingId": 212,
+    "Name": "Rice, Lebsack and Kerluke",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 243,
+    "UdListDefinitionId": 115,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldLength": 921
       }
     }
   }

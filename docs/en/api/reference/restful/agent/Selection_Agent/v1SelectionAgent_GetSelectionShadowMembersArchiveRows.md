@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 55,
-  "Select": "ut"
+  "SelectionId": 495,
+  "Select": "dolore"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schumm Inc and Sons",
-    "PrimaryKey": 382,
+    "EntityName": "Schultz-Will",
+    "PrimaryKey": 224,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "autem",
-        "TooltipHint": "et",
-        "LinkHint": "est"
+        "DisplayValue": "aspernatur",
+        "TooltipHint": "quia",
+        "LinkHint": "asperiores"
       }
     },
-    "LinkHint": "id",
-    "StyleHint": "sint",
+    "LinkHint": "libero",
+    "StyleHint": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 634
+        "FieldLength": 536
       }
     }
   }

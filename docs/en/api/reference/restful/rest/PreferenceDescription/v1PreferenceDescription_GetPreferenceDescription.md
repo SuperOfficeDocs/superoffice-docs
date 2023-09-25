@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 445,
-  "Section": "sunt",
-  "Key": "possimus",
-  "Name": "Turner-Herzog",
+  "PrefDescId": 131,
+  "Section": "enim",
+  "Key": "aut",
+  "Name": "Kreiger-Reichel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented systemic initiative",
+  "Description": "Diverse content-based policy",
   "IsBuiltin": true,
-  "TableName": "Maggio LLC",
-  "UserDefinedListId": 261,
-  "Rank": 679,
-  "SubGroup": "odit",
-  "MinLevel": 367,
-  "MaxValue": 172,
-  "MinValue": 3,
-  "RequiredLicense": "rerum",
+  "TableName": "Towne, Lind and Raynor",
+  "UserDefinedListId": 631,
+  "Rank": 977,
+  "SubGroup": "qui",
+  "MinLevel": 329,
+  "MaxValue": 112,
+  "MinValue": 763,
+  "RequiredLicense": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 468
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

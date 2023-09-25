@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Connelly, Robel and Turcotte",
-    "DisplayName": "Feest-Dibbert",
-    "DisplayTooltip": "assumenda",
-    "IsActive": false,
+    "Name": "Purdy Group",
+    "DisplayName": "Schowalter Inc and Sons",
+    "DisplayTooltip": "alias",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   },
   {
-    "Name": "Connelly, Robel and Turcotte",
-    "DisplayName": "Feest-Dibbert",
-    "DisplayTooltip": "assumenda",
-    "IsActive": false,
+    "Name": "Purdy Group",
+    "DisplayName": "Schowalter Inc and Sons",
+    "DisplayTooltip": "alias",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Nitzsche Group",
-    "ToolTip": "Soluta impedit provident repellat.",
+    "Id": 390,
+    "Name": "Homenick, Gerlach and Bartell",
+    "ToolTip": "Tempora dolor eius nisi eum velit vel.",
     "Deleted": false,
-    "Rank": 810,
-    "Type": "id",
-    "ColorBlock": 280,
-    "IconHint": "quam",
+    "Rank": 845,
+    "Type": "ut",
+    "ColorBlock": 870,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2002-01-02T03:31:33.696079+01:00",
+    "LastChanged": "2014-05-25T03:24:52.3025813+02:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "Kemmer Group",
-        "ToolTip": "Unde amet molestiae consectetur.",
-        "Deleted": true,
-        "Rank": 517,
-        "Type": "quaerat",
-        "ColorBlock": 544,
-        "IconHint": "eos",
+        "Id": 587,
+        "Name": "Romaguera Inc and Sons",
+        "ToolTip": "Quam doloremque aperiam qui.",
+        "Deleted": false,
+        "Rank": 407,
+        "Type": "repudiandae",
+        "ColorBlock": 609,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2019-02-26T03:31:33.696079+01:00",
+        "LastChanged": "2004-09-14T03:24:52.3025813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "sit",
+        "ExtraInfo": "dolor",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Micheal Monahan",
+        "FullName": "Lauryn Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Jacquelyn Bechtelar",
+    "FullName": "Dr. Estefania Dejon Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 507,
+  "ContactId": 978,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Huels Group",
-    "SaleDate": "2017-10-30T03:31:27.1999504+01:00",
-    "SaleId": 538,
-    "Probability": 458,
-    "Title": "ex",
-    "Amount": 31340.0,
-    "Currency": "ea",
-    "ProjectName": "Beier LLC",
-    "AssociateFullName": "Thea Maxine Hayes III",
-    "Description": "Cross-group value-added budgetary management",
+    "ContactName": "Feil Group",
+    "SaleDate": "2000-03-02T03:24:48.2207231+01:00",
+    "SaleId": 233,
+    "Probability": 712,
+    "Title": "eum",
+    "Amount": 24880.826,
+    "Currency": "numquam",
+    "ProjectName": "Kshlerin, Kuphal and Denesik",
+    "AssociateFullName": "Eriberto Laurine Konopelski DVM",
+    "Description": "De-engineered bottom-line hardware",
     "Status": "Lost",
-    "WeightedAmount": 30355.924,
-    "ProjectId": 934,
-    "EarningPercent": 18177.2,
-    "Earning": 7997.968,
-    "ContactId": 77,
-    "AssociateId": 428,
-    "PersonId": 124,
-    "SaleTypeId": 118,
-    "SaleTypeName": "Padberg LLC",
-    "PersonFullName": "Mrs. Jedediah Krajcik I",
+    "WeightedAmount": 24391.922,
+    "ProjectId": 170,
+    "EarningPercent": 18264.952,
+    "Earning": 26203.374,
+    "ContactId": 125,
+    "AssociateId": 599,
+    "PersonId": 276,
+    "SaleTypeId": 768,
+    "SaleTypeName": "McCullough-Fisher",
+    "PersonFullName": "Kennith Nicklaus Mohr PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 845,
-    "NextDueDate": "2003-04-02T03:31:27.2155767+02:00",
-    "Number": "1495302",
+    "ActiveErpLinks": 675,
+    "NextDueDate": "2009-02-08T03:24:48.2207231+01:00",
+    "Number": "947453",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 236
       }
     }
   }

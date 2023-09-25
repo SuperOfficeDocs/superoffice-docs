@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 18 Aug 2014 03:31:32 G8T
+Last-Modified: Wed, 30 Oct 2002 03:24:51 G10T
 
 {
-  "DocumentId": 700,
+  "DocumentId": 636,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ab",
-  "Header": "voluptatem",
-  "Name": "Legros-Brown",
-  "OurRef": "et",
-  "YourRef": "libero",
-  "CreatedDate": "2000-10-01T03:31:32.535176+02:00",
-  "UpdatedDate": "2014-08-18T03:31:32.535176+02:00",
-  "Description": "Optimized multi-state groupware",
+  "Attention": "iste",
+  "Header": "aliquid",
+  "Name": "Monahan, Baumbach and Funk",
+  "OurRef": "sit",
+  "YourRef": "quo",
+  "CreatedDate": "2003-09-15T03:24:51.5681102+02:00",
+  "UpdatedDate": "2002-10-30T03:24:51.5681102+01:00",
+  "Description": "Fully-configurable user-facing middleware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-08-19T03:31:32.5507961+02:00",
-  "ExternalRef": "dicta",
+  "Date": "2023-05-13T03:24:51.5681102+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 594,
+  "ActiveLinks": 491,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sawayn Group",
-      "Id": 618,
-      "Description": "Versatile uniform productivity",
-      "ExtraInfo": "temporibus",
-      "LinkId": 841,
+      "EntityName": "Heller-Feil",
+      "Id": 990,
+      "Description": "Re-engineered dedicated Graphic Interface",
+      "ExtraInfo": "omnis",
+      "LinkId": 840,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 881
+          "FieldLength": 306
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 801,
-  "Snum": 427,
+  "SuggestedDocumentId": 194,
+  "Snum": 65,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Dakota Tristin Bartoletti III",
-    "SuperOffice:2": "Miss Shanon Candace Mayer Jr."
+    "SuperOffice:1": "Dagmar Strosin",
+    "SuperOffice:2": "Alysha Von IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "non"
+    "CustomFields1": "non",
+    "CustomFields2": "mollitia"
   },
-  "PublishEventDate": "2002-04-16T03:31:32.5507961+02:00",
-  "PublishTo": "2004-07-15T03:31:32.5507961+02:00",
-  "PublishFrom": "2020-03-26T03:31:32.5507961+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1997-03-15T03:24:51.5681102+01:00",
+  "PublishTo": "2011-05-09T03:24:51.5681102+02:00",
+  "PublishFrom": "2021-11-26T03:24:51.5681102+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 38,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 136
         }
       }
     },
     {
-      "VisibleId": 38,
+      "VisibleId": 127,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 136
         }
       }
     }
@@ -211,12 +211,12 @@ Last-Modified: Mon, 18 Aug 2014 03:31:32 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 786
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

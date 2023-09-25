@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Stanton, Walsh and Bins",
-    "ToolTip": "Consequuntur sit velit amet id quam rerum aut.",
+    "Id": 521,
+    "Name": "Ondricka, Pfeffer and Hickle",
+    "ToolTip": "Vel architecto quam incidunt omnis repellat iste.",
     "Deleted": false,
-    "Rank": 106,
-    "Type": "amet",
-    "ColorBlock": 65,
-    "IconHint": "architecto",
+    "Rank": 701,
+    "Type": "numquam",
+    "ColorBlock": 559,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2011-11-05T03:31:33.7742322+01:00",
+    "LastChanged": "2000-07-17T03:24:52.3494474+02:00",
     "ChildItems": [
       {
-        "Id": 709,
-        "Name": "Erdman LLC",
-        "ToolTip": "Consequatur ea et qui tempore esse.",
-        "Deleted": true,
-        "Rank": 991,
-        "Type": "et",
-        "ColorBlock": 258,
-        "IconHint": "fugit",
+        "Id": 696,
+        "Name": "Collier-Jenkins",
+        "ToolTip": "Provident est praesentium atque modi culpa.",
+        "Deleted": false,
+        "Rank": 441,
+        "Type": "ducimus",
+        "ColorBlock": 928,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2007-07-02T03:31:33.7742322+02:00",
+        "LastChanged": "2002-01-03T03:24:52.3494474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "iste",
-        "Hidden": true,
-        "FullName": "Ellis Stroman DDS",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Regan Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldLength": 658
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Zetta Sabina Wunsch IV",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Prof. Candelario Tromp IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldLength": 696
       }
     }
   }

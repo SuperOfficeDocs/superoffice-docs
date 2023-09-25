@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 25,
-  "Name": "Grady Group",
-  "ConsentText": "eum",
-  "FormText": "ipsa",
-  "Key": "est",
-  "Tooltip": "omnis",
-  "Active": 208,
-  "UpdatedDate": "2001-05-24T03:31:33.5229887+02:00",
+  "ConsentPurposeId": 461,
+  "Name": "Erdman Inc and Sons",
+  "ConsentText": "ex",
+  "FormText": "corporis",
+  "Key": "voluptatem",
+  "Tooltip": "accusamus",
+  "Active": 783,
+  "UpdatedDate": "2008-08-05T03:24:52.1932187+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 213,
-  "PrivacyStatementDesc": "ratione",
+  "Deleted": false,
+  "Rank": 151,
+  "PrivacyStatementDesc": "expedita",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 945,
-  "Name": "Hyatt-Hirthe",
-  "ConsentText": "sed",
-  "FormText": "corporis",
-  "Key": "tempora",
-  "Tooltip": "est",
-  "Active": 507,
-  "UpdatedDate": "2005-05-03T03:31:33.5229887+02:00",
+  "ConsentPurposeId": 853,
+  "Name": "Ritchie-Hagenes",
+  "ConsentText": "inventore",
+  "FormText": "vero",
+  "Key": "sit",
+  "Tooltip": "inventore",
+  "Active": 978,
+  "UpdatedDate": "2014-11-25T03:24:52.1932187+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 519,
-  "PrivacyStatementDesc": "voluptas",
+  "Deleted": true,
+  "Rank": 994,
+  "PrivacyStatementDesc": "placeat",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldLength": 855
     }
   }
 }

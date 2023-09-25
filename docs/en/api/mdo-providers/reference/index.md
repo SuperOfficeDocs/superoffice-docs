@@ -96,7 +96,7 @@ so.envir: onsite, online
 | [chatsessionstatus](chatsessionstatus.md) |Chat session status values|
 | [chatuser](chatuser.md) ||
 | [colorindex](colorindex.md) |List of named colors from the "ColorIndex" enum|
-| [combinedcontactpersonsearch](combinedcontactpersonsearch.md) |Provider for selecting a Person or a Contact, including search on contacts that match as well as persons. this provider wil|
+| [combinedcontactpersonsearch](combinedcontactpersonsearch.md) |Consider using the ContactAndPersonListFreetextSearchProvider/"contact_and_person_freetextsearch" MDO list instead of this one|
 | [comptr](comptr.md) |GenericMDOProvider reads MDO lists with default settings|
 | [consentpurpose](consentpurpose.md) |MDO list provider for ConsentPurpose|
 | [consentsource](consentsource.md) |MDO list provider for Consent source|
@@ -415,6 +415,7 @@ so.envir: onsite, online
 | [ticketstatustimecounter](ticketstatustimecounter.md) |Ticket status timer count values: None, Internall, Externally, Queue|
 | [ticketstatuswithpostpone](ticketstatuswithpostpone.md) ||
 | [ticketticketstatus](ticketticketstatus.md) |TicketTicketStatusProvider creates a flat list based on the table: TICKET_STATUS|
+| [tickettype](tickettype.md) |TicketTypeProvider creates a flat list based on the table: TICKET_TYPE|
 | [ticket_freetextsearch](ticket_freetextsearch.md) |Provider for selecting a Ticket - with contact and person search|
 | [ticket_selection_freetextsearch](ticket_selection_freetextsearch.md) |Provider for selecting Ticket Selection or a Ticket|
 | [time](time.md) |MDO provider for the hard-coded list of time alternatives in the appointment dialog and in edit/preference|

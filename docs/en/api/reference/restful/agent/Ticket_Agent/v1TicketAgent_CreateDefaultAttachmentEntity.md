@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 939,
-  "Name": "Kunze Group",
-  "ContentType": "praesentium",
-  "AttSize": 825,
-  "InlineImage": true,
-  "ContentId": "nemo",
-  "AuthKey": "voluptatum",
+  "AttachmentId": 454,
+  "Name": "Harber-Jenkins",
+  "ContentType": "adipisci",
+  "AttSize": 660,
+  "InlineImage": false,
+  "ContentId": "delectus",
+  "AuthKey": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 214
     }
   }
 }

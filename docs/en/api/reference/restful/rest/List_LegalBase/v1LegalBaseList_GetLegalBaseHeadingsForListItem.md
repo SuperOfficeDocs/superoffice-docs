@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Stehr, Dach and Spinka",
-    "ToolTip": "Minus rerum labore quod dolorem voluptates odio.",
-    "Deleted": true,
-    "Rank": 478,
-    "Type": "laudantium",
-    "ColorBlock": 131,
-    "IconHint": "saepe",
-    "Selected": false,
-    "LastChanged": "2017-09-09T03:31:33.6479544+02:00",
+    "Id": 291,
+    "Name": "Hettinger, Dicki and Fritsch",
+    "ToolTip": "Architecto impedit quos ipsam iusto officiis corrupti.",
+    "Deleted": false,
+    "Rank": 374,
+    "Type": "incidunt",
+    "ColorBlock": 542,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "1997-05-20T03:24:52.2557133+02:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Koch LLC",
-        "ToolTip": "Sint asperiores repellendus soluta.",
-        "Deleted": false,
-        "Rank": 859,
-        "Type": "repellendus",
-        "ColorBlock": 24,
-        "IconHint": "impedit",
+        "Id": 320,
+        "Name": "Heaney, Gulgowski and Pouros",
+        "ToolTip": "Repudiandae perspiciatis suscipit.",
+        "Deleted": true,
+        "Rank": 432,
+        "Type": "dolores",
+        "ColorBlock": 902,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2015-06-15T03:31:33.6479544+02:00",
+        "LastChanged": "2007-08-06T03:24:52.2557133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Wilfrid Kiara Corkery III",
+        "ExtraInfo": "minus",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Elmira Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 542
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Olin Hand",
+    "ExtraInfo": "commodi",
+    "StyleHint": "vitae",
+    "Hidden": true,
+    "FullName": "Beryl Michale Rogahn III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldLength": 435
       }
     }
   }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Muller, Davis and Thompson",
-  "ListItemId": 222,
+  "UdListDefinitionName": "Becker Group",
+  "ListItemId": 782,
   "UserGroups": [
     {
-      "Id": 789,
-      "Name": "Kuphal-Kunde",
-      "ToolTip": "Magnam quae est pariatur aliquam ab.",
+      "Id": 689,
+      "Name": "Rohan-Carroll",
+      "ToolTip": "Omnis eveniet quod eveniet recusandae.",
       "Deleted": false,
-      "Rank": 183,
-      "Type": "magni",
-      "ColorBlock": 786,
-      "IconHint": "nihil",
+      "Rank": 32,
+      "Type": "eos",
+      "ColorBlock": 257,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2014-03-30T03:31:26.6675558+02:00",
+      "LastChanged": "1996-05-22T03:24:47.8613878+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Dr. Jaquan Raynor"
+      "ExtraInfo": "sequi",
+      "StyleHint": "aperiam",
+      "Hidden": true,
+      "FullName": "Maurine Orn"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Runolfsson, Ortiz and Gaylord",
-    "ToolTip": "Corrupti praesentium et architecto quasi.",
-    "Deleted": true,
-    "Rank": 117,
-    "Type": "pariatur",
-    "ColorBlock": 616,
-    "IconHint": "dolorem",
+    "Id": 971,
+    "Name": "Mosciski, Rolfson and Carter",
+    "ToolTip": "Quis in.",
+    "Deleted": false,
+    "Rank": 533,
+    "Type": "vel",
+    "ColorBlock": 281,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2001-01-30T03:31:26.6675558+01:00",
+    "LastChanged": "2002-08-30T03:24:47.8613878+02:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Kuphal, Pagac and Harris",
-        "ToolTip": "Iure magni laborum animi explicabo vel dolor.",
-        "Deleted": true,
-        "Rank": 748,
-        "Type": "laudantium",
-        "ColorBlock": 222,
-        "IconHint": "id",
+        "Id": 700,
+        "Name": "Cremin-Wintheiser",
+        "ToolTip": "Quis distinctio aut nihil cupiditate.",
+        "Deleted": false,
+        "Rank": 885,
+        "Type": "vero",
+        "ColorBlock": 944,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2000-08-13T03:31:26.6675558+02:00",
+        "LastChanged": "2023-09-09T03:24:47.8613878+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "rem",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Randal Wuckert",
+        "FullName": "Prof. Jackie Isadore Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 535
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "soluta",
-    "Hidden": true,
-    "FullName": "Denis Heber Sporer II",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Prof. Jaida Kohler II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldType": "System.String",
+        "FieldLength": 816
       }
     }
   }

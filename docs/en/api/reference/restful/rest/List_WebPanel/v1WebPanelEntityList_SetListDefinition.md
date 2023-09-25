@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Koepp-Greenholt",
-  "Tooltip": "et",
+  "Id": 924,
+  "Name": "Luettgen Inc and Sons",
+  "Tooltip": "necessitatibus",
   "Deleted": true,
-  "Rank": 63,
+  "Rank": 144,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Kassulke, Kassulke and Gleason",
-  "Tooltip": "enim",
+  "Id": 944,
+  "Name": "Yost-Rohan",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 845,
+  "Rank": 54,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "facere",
+  "UseGroupsAndHeadings": true,
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldType": "System.String",
+      "FieldLength": 209
     }
   }
 }

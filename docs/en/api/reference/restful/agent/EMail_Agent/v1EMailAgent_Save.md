@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,66 +117,66 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 438,
-      "ContactName": "Weber-Cruickshank",
-      "PersonId": 847,
-      "PersonName": "Larkin, Olson and Stehr",
-      "AssociateId": 306,
-      "Address": "dolorum",
-      "EmailId": 862,
+      "ContactId": 789,
+      "ContactName": "Thompson-Labadie",
+      "PersonId": 954,
+      "PersonName": "Beahan, Mertz and Pfannerstill",
+      "AssociateId": 50,
+      "Address": "velit",
+      "EmailId": 248,
       "DuplicatePersonIds": [
-        822,
-        888
+        322,
+        635
       ],
-      "Name": "Rippin-Auer",
+      "Name": "Hane, Torphy and Bode",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldLength": 458
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 113,
-      "ContactName": "Labadie-Beer",
-      "PersonId": 44,
-      "PersonName": "Kub-Cormier",
-      "AssociateId": 887,
-      "Address": "quae",
-      "EmailId": 499,
+      "ContactId": 116,
+      "ContactName": "Koss-Lynch",
+      "PersonId": 9,
+      "PersonName": "Emard-O'Conner",
+      "AssociateId": 674,
+      "Address": "laborum",
+      "EmailId": 687,
       "DuplicatePersonIds": [
-        208,
-        992
+        495,
+        369
       ],
-      "Name": "Harber, Morar and Lynch",
+      "Name": "Connelly-Kilback",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 487
+          "FieldLength": 178
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 412,
-      "ContactName": "Kohler Group",
-      "PersonId": 25,
-      "PersonName": "Schinner LLC",
-      "AssociateId": 625,
-      "Address": "iusto",
-      "EmailId": 159,
+      "ContactId": 891,
+      "ContactName": "Torp LLC",
+      "PersonId": 932,
+      "PersonName": "Graham, Koch and Glover",
+      "AssociateId": 922,
+      "Address": "ea",
+      "EmailId": 757,
       "DuplicatePersonIds": [
-        942,
-        97
+        855,
+        43
       ],
-      "Name": "Emard Inc and Sons",
+      "Name": "Lockman, McClure and Durgan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -187,78 +187,78 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "in",
+  "Subject": "quaerat",
+  "HTMLBody": "modi",
   "From": null,
-  "Sent": "2010-10-02T03:31:26.401997+02:00",
-  "Size": 952,
+  "Sent": "2016-07-28T03:24:47.705153+02:00",
+  "Size": 152,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "aliquid",
-  "IsSent": false,
+  "MessageID": "ullam",
+  "PlainBody": "sint",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 741,
+  "ServerId": 824,
   "Attachments": [
     {
-      "Description": "De-engineered intangible synergy",
-      "Filename": "consequatur",
-      "Size": 659,
-      "Type": "fuga",
-      "Encoding": "aut",
-      "Id": "quam",
-      "Disposition": "omnis",
-      "IsSafeFileExtension": true,
+      "Description": "Cross-group uniform alliance",
+      "Filename": "et",
+      "Size": 66,
+      "Type": "illum",
+      "Encoding": "vel",
+      "Id": "itaque",
+      "Disposition": "error",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 846
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hand-Rice",
+      "Name": "Braun, Littel and Schaden",
       "Values": [
-        "eos",
-        "voluptate"
+        "ducimus",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldLength": 895
         }
       }
     },
     {
-      "Name": "Hand-Rice",
+      "Name": "Braun, Littel and Schaden",
       "Values": [
-        "eos",
-        "voluptate"
+        "ducimus",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldLength": 895
         }
       }
     }
   ],
-  "FolderName": "Schulist, Batz and Bruen",
-  "EmailItemId": 600,
-  "AccountId": 430,
-  "ReceivedAt": "2004-04-09T03:31:26.401997+02:00",
+  "FolderName": "Reichel LLC",
+  "EmailItemId": 871,
+  "AccountId": 421,
+  "ReceivedAt": "2019-08-27T03:24:47.705153+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-11-06T03:31:26.401997+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-11-26T03:24:47.705153+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 819
     }
   }
 }

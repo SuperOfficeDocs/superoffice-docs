@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=nihil
+GET /api/v1/List/MrMrs/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Goyette-Berge",
-    "ToolTip": "Velit sint.",
+    "Id": 542,
+    "Name": "Ruecker, Raynor and Zulauf",
+    "ToolTip": "Est non repellendus aut ea quo odio.",
     "Deleted": false,
-    "Rank": 635,
-    "Type": "maxime",
+    "Rank": 640,
+    "Type": "quisquam",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Hudson, Renner and Leffler",
-        "ToolTip": "Velit qui iusto delectus expedita aliquid expedita.",
+        "Id": 329,
+        "Name": "Monahan, Trantow and Roob",
+        "ToolTip": "Corporis non sit officiis alias beatae consequatur tempore.",
         "Deleted": true,
-        "Rank": 799,
-        "Type": "esse",
+        "Rank": 252,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 671,
-        "ExtraInfo": "iste",
+        "IconHint": "et",
+        "ColorBlock": 428,
+        "ExtraInfo": "iure",
         "StyleHint": "ut",
-        "FullName": "Ms. Micheal Ricardo Schinner",
+        "FullName": "Newell Hackett PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 355
+            "FieldLength": 711
           }
         }
       }
     ],
-    "IconHint": "veritatis",
-    "ColorBlock": 222,
-    "ExtraInfo": "autem",
-    "StyleHint": "quis",
-    "FullName": "Hattie Champlin",
+    "IconHint": "qui",
+    "ColorBlock": 714,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "officia",
+    "FullName": "Chanel Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 337
       }
     }
   }

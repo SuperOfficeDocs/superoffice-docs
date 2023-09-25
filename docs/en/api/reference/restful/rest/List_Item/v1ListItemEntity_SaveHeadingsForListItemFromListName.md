@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Douglas, Leuschke and Johnston",
-    "ToolTip": "Corrupti et delectus.",
-    "Deleted": true,
-    "Rank": 436,
-    "Type": "provident",
-    "ColorBlock": 739,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2001-10-09T03:31:33.4604945+02:00",
+    "Id": 477,
+    "Name": "Spencer Group",
+    "ToolTip": "Omnis repellendus occaecati nesciunt.",
+    "Deleted": false,
+    "Rank": 654,
+    "Type": "sit",
+    "ColorBlock": 799,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2015-08-28T03:24:52.1463474+02:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "Sauer, Gislason and Bradtke",
-        "ToolTip": "Dolore beatae.",
+        "Id": 521,
+        "Name": "Rippin-Veum",
+        "ToolTip": "Dolorum et dolor saepe.",
         "Deleted": false,
-        "Rank": 620,
-        "Type": "rerum",
-        "ColorBlock": 659,
-        "IconHint": "voluptates",
+        "Rank": 892,
+        "Type": "et",
+        "ColorBlock": 204,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2011-07-10T03:31:33.4604945+02:00",
+        "LastChanged": "2005-05-06T03:24:52.1463474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "sint",
+        "ExtraInfo": "expedita",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Mathilde Sanford"
+        "FullName": "Nico Mckayla Effertz II"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "et",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Danyka Boyer"
+    "FullName": "Dr. Troy Ellis Okuneva"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Abshire Group",
-    "ToolTip": "Voluptatem quos vitae aliquam iste repellat harum voluptatem.",
+    "Id": 343,
+    "Name": "Morissette, Quigley and Schmitt",
+    "ToolTip": "Quis consectetur quibusdam doloribus vel.",
     "Deleted": false,
-    "Rank": 337,
-    "Type": "omnis",
-    "ColorBlock": 781,
-    "IconHint": "a",
+    "Rank": 795,
+    "Type": "iusto",
+    "ColorBlock": 511,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2020-12-23T03:31:33.4604945+01:00",
+    "LastChanged": "2006-09-25T03:24:52.1463474+02:00",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "Anderson LLC",
-        "ToolTip": "Tempore accusantium iste nesciunt animi saepe.",
+        "Id": 402,
+        "Name": "Hayes-Dickens",
+        "ToolTip": "Quo porro.",
         "Deleted": false,
-        "Rank": 665,
-        "Type": "vel",
-        "ColorBlock": 947,
-        "IconHint": "autem",
+        "Rank": 451,
+        "Type": "molestias",
+        "ColorBlock": 551,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2017-01-27T03:31:33.4604945+01:00",
+        "LastChanged": "1996-11-11T03:24:52.1463474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "eaque",
+        "ExtraInfo": "cum",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Steve Kunze",
+        "FullName": "Carolyne Trantow DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 63
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Cruz Langworth",
+    "ExtraInfo": "odit",
+    "StyleHint": "eum",
+    "Hidden": true,
+    "FullName": "Mossie Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 834
       }
     }
   }

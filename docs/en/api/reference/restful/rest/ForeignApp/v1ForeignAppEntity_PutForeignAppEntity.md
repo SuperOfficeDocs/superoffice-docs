@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 225,
-  "Name": "Veum-Becker",
-  "CreatedDate": "2020-08-26T03:31:32.6132803+02:00",
-  "UpdatedDate": "1999-10-30T03:31:32.6132803+02:00",
+  "ForeignAppId": 175,
+  "Name": "Klocko, Zemlak and Abbott",
+  "CreatedDate": "2001-05-10T03:24:51.6149823+02:00",
+  "UpdatedDate": "1998-09-13T03:24:51.6149823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 378,
-      "Name": "Strosin Group",
-      "CreatedDate": "1996-06-10T03:31:32.6132803+02:00",
-      "UpdatedDate": "2009-04-30T03:31:32.6132803+02:00",
-      "AssociateFullName": "Katelynn Price",
-      "CreatedBy": "cumque",
-      "UpdatedBy": "accusamus",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 34
+      "ForeignDeviceId": 664,
+      "Name": "Turcotte-Ebert",
+      "CreatedDate": "2015-07-09T03:24:51.6149823+02:00",
+      "UpdatedDate": "2015-09-29T03:24:51.6149823+02:00",
+      "AssociateFullName": "Alice Nolan",
+      "CreatedBy": "modi",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 775
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 832,
-  "Name": "Roberts-Moore",
-  "CreatedDate": "1998-05-26T03:31:32.6132803+02:00",
-  "UpdatedDate": "1998-12-24T03:31:32.6132803+01:00",
+  "ForeignAppId": 523,
+  "Name": "Fritsch, Nader and Kub",
+  "CreatedDate": "2018-03-03T03:24:51.6149823+01:00",
+  "UpdatedDate": "2012-01-05T03:24:51.6149823+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 968,
-      "Name": "Moen-Toy",
-      "CreatedDate": "1997-08-30T03:31:32.6132803+02:00",
-      "UpdatedDate": "2021-10-14T03:31:32.6132803+02:00",
-      "AssociateFullName": "Collin Adonis Waelchi IV",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "quis",
-      "DeviceIdentifier": "cumque",
-      "ForeignAppId": 375,
+      "ForeignDeviceId": 936,
+      "Name": "Smith Inc and Sons",
+      "CreatedDate": "2005-08-08T03:24:51.6149823+02:00",
+      "UpdatedDate": "2021-11-10T03:24:51.6149823+01:00",
+      "AssociateFullName": "Violette Feil III",
+      "CreatedBy": "autem",
+      "UpdatedBy": "necessitatibus",
+      "DeviceIdentifier": "excepturi",
+      "ForeignAppId": 271,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldType": "System.String",
+          "FieldLength": 691
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 87
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

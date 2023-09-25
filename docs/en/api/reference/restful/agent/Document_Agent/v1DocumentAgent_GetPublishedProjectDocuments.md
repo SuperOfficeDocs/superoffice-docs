@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 776
+  "ProjectId": 345
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 849,
-    "Attention": "quisquam",
-    "Header": "iste",
-    "Name": "Gislason-Nienow",
-    "OurRef": "quae",
-    "YourRef": "dignissimos",
-    "Description": "Re-contextualized optimal instruction set",
-    "DocumentTemplate": "quam",
+    "DocumentId": 190,
+    "Attention": "praesentium",
+    "Header": "nobis",
+    "Name": "Lang, Rohan and Schuster",
+    "OurRef": "vel",
+    "YourRef": "voluptates",
+    "Description": "Pre-emptive radical flexibility",
+    "DocumentTemplate": "laborum",
     "IsPublished": false,
-    "PersonId": 119,
-    "PersonFullName": "Kennith Schuppe",
-    "AssociateFullName": "Hortense Bechtelar DVM",
-    "ContactId": 436,
-    "ContactName": "Gislason-Collins",
-    "ProjectId": 427,
-    "ProjectName": "Daniel Group",
-    "AssociateId": 417,
-    "Snum": 382,
-    "SaleId": 867,
-    "SaleName": "Roberts, Cassin and Douglas",
+    "PersonId": 83,
+    "PersonFullName": "Loren Mraz",
+    "AssociateFullName": "Alanis Torphy",
+    "ContactId": 928,
+    "ContactName": "Osinski, Thompson and Wunsch",
+    "ProjectId": 97,
+    "ProjectName": "Leffler, Gislason and Russel",
+    "AssociateId": 537,
+    "Snum": 890,
+    "SaleId": 113,
+    "SaleName": "Daugherty Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 961
+        "FieldType": "System.Int32",
+        "FieldLength": 565
       }
     }
   }

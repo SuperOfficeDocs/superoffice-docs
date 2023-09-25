@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 331,
+    "HierarchyId": 948,
     "Domain": "Dashboards",
-    "Name": "Senger LLC",
-    "Fullname": "quia",
-    "ParentId": 616,
+    "Name": "Moen Group",
+    "Fullname": "recusandae",
+    "ParentId": 925,
     "Children": [
       {
-        "HierarchyId": 357,
+        "HierarchyId": 905,
         "Domain": "Dashboards",
-        "Name": "Bruen-Maggio",
-        "Fullname": "pariatur",
-        "ParentId": 560,
+        "Name": "Heaney, Schmidt and Davis",
+        "Fullname": "enim",
+        "ParentId": 287,
         "Children": [
           {},
           {}
         ],
-        "Registered": "1999-09-16T03:31:26.7144201+02:00",
-        "RegisteredAssociateId": 321,
-        "Updated": "2003-04-08T03:31:26.7144201+02:00",
-        "UpdatedAssociateId": 314,
+        "Registered": "2008-09-10T03:24:47.8926276+02:00",
+        "RegisteredAssociateId": 970,
+        "Updated": "2015-08-08T03:24:47.8926276+02:00",
+        "UpdatedAssociateId": 927,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 2
+            "FieldType": "System.String",
+            "FieldLength": 789
           }
         }
       }
     ],
-    "Registered": "1998-05-03T03:31:26.7144201+02:00",
-    "RegisteredAssociateId": 454,
-    "Updated": "2006-02-12T03:31:26.7144201+01:00",
-    "UpdatedAssociateId": 442,
+    "Registered": "2010-12-13T03:24:47.8926276+01:00",
+    "RegisteredAssociateId": 686,
+    "Updated": "2017-06-05T03:24:47.8926276+02:00",
+    "UpdatedAssociateId": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

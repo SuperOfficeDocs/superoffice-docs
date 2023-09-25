@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 613,
-  "QuoteAlternativeId": 888,
-  "QuoteAlternativeName": "Dickens, Beier and Rutherford"
+  "QuoteVersionId": 627,
+  "QuoteAlternativeId": 674,
+  "QuoteAlternativeName": "Dare, Nader and Koelpin"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 948,
-  "ERPQuoteAlternativeKey": "qui",
-  "QuoteVersionId": 531,
-  "Name": "Abernathy, Denesik and Skiles",
-  "Description": "Balanced methodical leverage",
+  "QuoteAlternativeId": 448,
+  "ERPQuoteAlternativeKey": "reiciendis",
+  "QuoteVersionId": 49,
+  "Name": "Reinger LLC",
+  "Description": "Diverse systematic moratorium",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 28751.316,
-  "ERPDiscountAmount": 10138.49,
-  "DiscountPercent": 22201.255999999998,
-  "DiscountAmount": 9364.392,
+  "ERPDiscountPercent": 28237.34,
+  "ERPDiscountAmount": 30393.532,
+  "DiscountPercent": 9170.0839999999989,
+  "DiscountAmount": 29995.514,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "fugiat",
-  "VAT": 25448.079999999998,
-  "EarningPercent": 23874.811999999998,
-  "EarningAmount": 17534.73,
-  "SubTotal": 22636.881999999998,
-  "TotalPrice": 16726.158,
-  "ExtraField1": "perferendis",
-  "ExtraField2": "qui",
-  "ExtraField3": "quaerat",
-  "ExtraField4": "cupiditate",
-  "ExtraField5": "in",
+  "VATInfo": "nisi",
+  "VAT": 15036.931999999999,
+  "EarningPercent": 15215.57,
+  "EarningAmount": 25435.543999999998,
+  "SubTotal": 11627.14,
+  "TotalPrice": 5193.038,
+  "ExtraField1": "et",
+  "ExtraField2": "in",
+  "ExtraField3": "qui",
+  "ExtraField4": "provident",
+  "ExtraField5": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 497
     }
   }
 }

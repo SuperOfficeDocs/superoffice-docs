@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 221,
-    "Name": "Beer, Bergnaum and Hudson",
-    "Description": "Implemented leading edge system engine",
+    "ProjectId": 65,
+    "Name": "Hills Inc and Sons",
+    "Description": "Persevering didactic standardization",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 558,
-    "AssociateFullName": "Dr. Lisandro Scotty Koelpin",
-    "TypeId": 471,
-    "Updated": "2010-09-08T03:31:27.0268433+02:00",
-    "StatusId": 466,
-    "Status": "ratione",
-    "TextId": 197,
-    "PublishTo": "2016-09-08T03:31:27.0268433+02:00",
-    "PublishFrom": "2017-08-18T03:31:27.0268433+02:00",
+    "Type": "tempora",
+    "AssociateId": 465,
+    "AssociateFullName": "Prof. Dexter Volkman",
+    "TypeId": 436,
+    "Updated": "2010-10-23T03:24:48.0957311+02:00",
+    "StatusId": 980,
+    "Status": "ex",
+    "TextId": 497,
+    "PublishTo": "2018-05-08T03:24:48.0957311+02:00",
+    "PublishFrom": "1999-05-01T03:24:48.0957311+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "184456",
-    "ActiveErpLinks": 591,
+    "ProjectNumber": "1042193",
+    "ActiveErpLinks": 733,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldLength": 30
       }
     }
   }

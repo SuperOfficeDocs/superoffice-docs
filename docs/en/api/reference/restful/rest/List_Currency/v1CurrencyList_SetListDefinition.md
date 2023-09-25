@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Williamson LLC",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "Rank": 269,
-  "IsCustomList": false,
+  "Id": 425,
+  "Name": "Balistreri, Ferry and Satterfield",
+  "Tooltip": "illo",
+  "Deleted": true,
+  "Rank": 896,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
-  "Name": "Kassulke, Brakus and Williamson",
-  "Tooltip": "asperiores",
+  "Id": 925,
+  "Name": "Cassin, Fadel and Schumm",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 247,
+  "Rank": 382,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 148
     }
   }
 }

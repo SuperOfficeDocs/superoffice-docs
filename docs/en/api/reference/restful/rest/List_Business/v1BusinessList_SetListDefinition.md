@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 417,
-  "Name": "Hamill-Schaefer",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 988,
+  "Id": 365,
+  "Name": "Dickinson Group",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "Rank": 60,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 810,
-  "Name": "Durgan-Auer",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 599,
+  "Id": 450,
+  "Name": "Nader-Robel",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 850,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "amet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 877
     }
   }
 }

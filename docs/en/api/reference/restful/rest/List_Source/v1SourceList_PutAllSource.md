@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Turner, Schimmel and Fisher",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 774,
-    "Rank": 83
+    "Id": 671,
+    "Name": "Koch-Johns",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "UdListDefinitionId": 223,
+    "Rank": 589
   },
   {
-    "Id": 408,
-    "Name": "Turner, Schimmel and Fisher",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 774,
-    "Rank": 83
+    "Id": 671,
+    "Name": "Koch-Johns",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "UdListDefinitionId": 223,
+    "Rank": 589
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Pouros Group",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "UdListDefinitionId": 560,
-    "Rank": 691,
+    "Id": 948,
+    "Name": "Prosacco-Goodwin",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 775,
+    "Rank": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 5
       }
     }
   }

@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "sit",
+      "RawValue": "saepe",
       "Specification": null,
-      "DisplayValue": "maiores",
-      "DisplayTooltip": "perferendis",
+      "DisplayValue": "laborum",
+      "DisplayTooltip": "dignissimos",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 851,
-      "PrefDescId": 320,
-      "TableName": "Watsica-Runolfsdottir",
-      "UserPreferenceId": 517
+      "TargetId": 468,
+      "PrefDescId": 592,
+      "TableName": "Rolfson-Botsford",
+      "UserPreferenceId": 484
     }
   ]
 }

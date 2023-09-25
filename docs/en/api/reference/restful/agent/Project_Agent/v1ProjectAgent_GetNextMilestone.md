@@ -124,11 +124,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 35
+  "ProjectId": 314
 }
 ```
 
@@ -139,64 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 670,
-  "StartDate": "2018-05-11T03:31:27.0112205+02:00",
-  "EndDate": "2002-05-07T03:31:27.0112205+02:00",
+  "AppointmentId": 466,
+  "StartDate": "2016-01-03T03:24:48.0957311+01:00",
+  "EndDate": "2007-01-07T03:24:48.0957311+01:00",
   "Type": "BookingForChecklist",
-  "Task": "qui",
-  "AssociateFullName": "Glen Schoen",
-  "ContactName": "Nicolas, Harber and Kerluke",
-  "Description": "Automated coherent instruction set",
-  "PersonFullName": "Dr. Leonora Schuppe",
-  "PersonId": 679,
-  "ContactId": 39,
-  "ProjectId": 632,
-  "ProjectName": "Kiehn-Langosh",
+  "Task": "quia",
+  "AssociateFullName": "Mr. Koby Pfeffer",
+  "ContactName": "Strosin-Lindgren",
+  "Description": "Organic regional application",
+  "PersonFullName": "Monserrat Beahan",
+  "PersonId": 436,
+  "ContactId": 101,
+  "ProjectId": 38,
+  "ProjectName": "Nikolaus, Farrell and DuBuque",
   "IsPublished": false,
-  "AssociateId": 555,
-  "ColorIndex": 303,
-  "IsFree": true,
-  "HasAlarm": true,
+  "AssociateId": 304,
+  "ColorIndex": 784,
+  "IsFree": false,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 992,
-  "PriorityName": "Grant Group",
+  "PriorityId": 137,
+  "PriorityName": "Padberg Inc and Sons",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2021-07-28T03:31:27.0112205+02:00",
+  "IsRecurrence": true,
+  "IsBooking": true,
+  "ActiveDate": "2023-05-29T03:24:48.0957311+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2000-02-22T03:31:27.0112205+01:00",
-  "RecurringEndDate": "2015-02-04T03:31:27.0112205+01:00",
-  "MotherId": 801,
-  "AssignedBy": 244,
-  "AssignedByFullName": "Katrine Flatley",
+  "RecurringStartDate": "1998-10-16T03:24:48.0957311+02:00",
+  "RecurringEndDate": "2016-09-26T03:24:48.0957311+02:00",
+  "MotherId": 648,
+  "AssignedBy": 478,
+  "AssignedByFullName": "Mr. Turner O'Reilly",
   "RejectReason": "",
-  "Location": "voluptatem",
-  "AlarmLeadTime": "voluptate",
-  "SaleId": 666,
-  "SaleName": "Boehm, Murazik and Brown",
-  "AssociateName": "Kohler Inc and Sons",
-  "CreatedDate": "1999-07-24T03:31:27.0112205+02:00",
-  "CreatedBy": "vero",
-  "CreatedByFullName": "Theresia Breitenberg",
-  "CreatedByAssociateId": 159,
+  "Location": "a",
+  "AlarmLeadTime": "ut",
+  "SaleId": 595,
+  "SaleName": "Welch Group",
+  "AssociateName": "Mann Group",
+  "CreatedDate": "2021-01-07T03:24:48.0957311+01:00",
+  "CreatedBy": "quos",
+  "CreatedByFullName": "Abdullah Miller",
+  "CreatedByAssociateId": 769,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "distinctio",
-  "Agenda": "voluptas",
-  "InternalNotes": "porro",
+  "Title": "magnam",
+  "Agenda": "porro",
+  "InternalNotes": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 77
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

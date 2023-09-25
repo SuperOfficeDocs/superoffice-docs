@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Spencer, Schuster and Flatley",
-    "ToolTip": "Esse rerum quo.",
+    "Id": 135,
+    "Name": "Pacocha, Bosco and Satterfield",
+    "ToolTip": "Ipsam quae architecto cumque.",
     "Deleted": false,
-    "Rank": 181,
-    "Type": "soluta",
-    "ColorBlock": 601,
-    "IconHint": "aliquam",
+    "Rank": 117,
+    "Type": "eum",
+    "ColorBlock": 285,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2009-08-23T03:31:33.6323343+02:00",
+    "LastChanged": "2015-02-19T03:24:52.2557133+01:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Wuckert-Adams",
-        "ToolTip": "Ea est.",
+        "Id": 484,
+        "Name": "Bins, Funk and Schmitt",
+        "ToolTip": "Voluptatibus earum ab consequuntur provident et.",
         "Deleted": true,
-        "Rank": 893,
-        "Type": "molestiae",
-        "ColorBlock": 491,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2017-09-23T03:31:33.6323343+02:00",
+        "Rank": 595,
+        "Type": "perferendis",
+        "ColorBlock": 404,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2013-05-21T03:24:52.2557133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "ullam",
+        "ExtraInfo": "iusto",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mrs. Trace Gusikowski PhD",
+        "FullName": "Ulises Blick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 959
+            "FieldType": "System.String",
+            "FieldLength": 821
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Oran Von",
+    "ExtraInfo": "molestias",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Miss Eusebio Von DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 503
       }
     }
   }

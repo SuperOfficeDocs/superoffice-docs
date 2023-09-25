@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 666,
-      "TabName": "Swaniawski LLC",
-      "Order": "aliquam",
-      "AssociateId": 848
+      "TabOrderId": 818,
+      "TabName": "Prosacco, Brown and Donnelly",
+      "Order": "ratione",
+      "AssociateId": 270
     },
     {
-      "TabOrderId": 666,
-      "TabName": "Swaniawski LLC",
-      "Order": "aliquam",
-      "AssociateId": 848
+      "TabOrderId": 818,
+      "TabName": "Prosacco, Brown and Donnelly",
+      "Order": "ratione",
+      "AssociateId": 270
     }
   ]
 }

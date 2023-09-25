@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 707,
+  "AppointmentId": 257,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -151,125 +151,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-09-01T03:31:25.4777865+02:00",
-  "AppointmentId": 812,
-  "Description": "User-centric grid-enabled array",
-  "StartDate": "2015-06-13T03:31:25.4777865+02:00",
-  "EndDate": "2009-02-17T03:31:25.4777865+01:00",
+  "CreatedDate": "2008-10-20T03:24:47.1427162+02:00",
+  "AppointmentId": 459,
+  "Description": "Ameliorated empowering hub",
+  "StartDate": "1999-11-10T03:24:47.1427162+01:00",
+  "EndDate": "2006-07-09T03:24:47.1427162+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 854,
+  "MotherId": 971,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-08-22T03:31:25.4934109+02:00",
+  "UpdatedDate": "2017-05-03T03:24:47.1427162+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 629,
+  "ActiveLinks": 667,
   "Links": [
     {
-      "EntityName": "Graham, Pollich and Rohan",
-      "Id": 16,
-      "Description": "Programmable hybrid toolset",
-      "ExtraInfo": "velit",
-      "LinkId": 378,
+      "EntityName": "Bartoletti-Boyle",
+      "Id": 388,
+      "Description": "Multi-tiered neutral contingency",
+      "ExtraInfo": "et",
+      "LinkId": 372,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 402
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
   ],
-  "AlarmLeadTime": "consectetur",
-  "HasAlarm": true,
-  "ColorIndex": 657,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "enim",
-  "LeadTime": "nisi",
-  "Location": "ea",
-  "RejectCounter": 192,
+  "AlarmLeadTime": "dolorum",
+  "HasAlarm": false,
+  "ColorIndex": 840,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "dolores",
+  "LeadTime": "aut",
+  "Location": "dolores",
+  "RejectCounter": 87,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 9,
-      "PersonId": 788,
-      "ContactId": 172,
-      "EmailId": 108,
-      "SendEmail": true,
+      "AssociateId": 807,
+      "PersonId": 927,
+      "ContactId": 126,
+      "EmailId": 126,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 9,
-      "PersonId": 788,
-      "ContactId": 172,
-      "EmailId": 108,
-      "SendEmail": true,
+      "AssociateId": 807,
+      "PersonId": 927,
+      "ContactId": 126,
+      "EmailId": 126,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-01-02T03:31:25.4934109+01:00",
+  "ActiveDate": "2006-10-03T03:24:47.1427162+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 364,
+  "PreferredTZLocation": 365,
   "Sale": null,
-  "SuggestedAppointmentId": 433,
+  "SuggestedAppointmentId": 486,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "repudiandae",
-  "Title": "eius",
-  "Agenda": "omnis",
-  "InternalNotes": "voluptatem",
+  "CentralserviceVideomeetId": "harum",
+  "Title": "amet",
+  "Agenda": "suscipit",
+  "InternalNotes": "corrupti",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Ebony Addison Bashirian",
+    "SuperOffice:1": "250555937",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "corporis"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "qui"
+    "CustomFields1": "itaque",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2019-02-21T03:31:25.4934109+01:00",
-  "PublishTo": "2015-09-21T03:31:25.4934109+02:00",
-  "PublishFrom": "2013-11-19T03:31:25.4934109+01:00",
+  "PublishEventDate": "2010-12-26T03:24:47.1427162+01:00",
+  "PublishTo": "2012-09-10T03:24:47.1427162+02:00",
+  "PublishFrom": "2013-10-19T03:24:47.1427162+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 484,
+      "VisibleId": 186,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     },
     {
-      "VisibleId": 484,
+      "VisibleId": 186,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 325
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 715
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   }
 }

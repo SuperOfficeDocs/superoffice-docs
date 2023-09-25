@@ -28,8 +28,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Ankunding LLC",
-    "ToolTip": "Occaecati veniam harum aperiam voluptas.",
+    "Id": 442,
+    "Name": "Jacobson, Ullrich and Miller",
+    "ToolTip": "Ratione et.",
     "Deleted": false,
-    "Rank": 271,
-    "Type": "ipsam",
+    "Rank": 561,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 314,
-        "Name": "Borer-Williamson",
-        "ToolTip": "Facilis totam et sed.",
-        "Deleted": false,
-        "Rank": 766,
-        "Type": "qui",
+        "Id": 591,
+        "Name": "Hudson Inc and Sons",
+        "ToolTip": "Illo aliquid earum dolor nemo.",
+        "Deleted": true,
+        "Rank": 710,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 814,
-        "ExtraInfo": "vero",
-        "StyleHint": "minima",
-        "FullName": "Floy Immanuel Jenkins MD",
+        "IconHint": "quo",
+        "ColorBlock": 264,
+        "ExtraInfo": "et",
+        "StyleHint": "nulla",
+        "FullName": "Dianna Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 715
+            "FieldLength": 479
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 542,
-    "ExtraInfo": "ipsum",
-    "StyleHint": "suscipit",
-    "FullName": "Cordia Stark",
+    "IconHint": "voluptatem",
+    "ColorBlock": 348,
+    "ExtraInfo": "tempora",
+    "StyleHint": "vel",
+    "FullName": "Lolita Roob",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 32
+        "FieldLength": 580
       }
     }
   }

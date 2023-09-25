@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 455
+  "SatelliteId": 29
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski, Legros and Kunze",
-    "Description": "User-friendly background frame",
+    "Name": "Heaney LLC",
+    "Description": "Polarised 3rd generation pricing structure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 489,
-        "Tooltip": "quo",
-        "CanAssign": false,
-        "Free": 43,
-        "InUse": 384,
+        "Unrestricted": true,
+        "Total": 600,
+        "Tooltip": "unde",
+        "CanAssign": true,
+        "Free": 603,
+        "InUse": 503,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 362,
-        "Name": "Jerde, Hodkiewicz and Bradtke",
-        "Description": "Automated national access",
-        "PrerequisiteModuleName": "West, Beier and Lakin",
-        "SortOrder": 957,
-        "ExtraFlags": 327,
+        "ModuleLicenseId": 313,
+        "Name": "Dicki, Douglas and Kuphal",
+        "Description": "Multi-channelled non-volatile support",
+        "PrerequisiteModuleName": "Becker, Robel and Abernathy",
+        "SortOrder": 277,
+        "ExtraFlags": 317,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 682
+            "FieldLength": 546
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 462,
-        "Tooltip": "quia",
-        "CanAssign": false,
-        "Free": 735,
-        "InUse": 592,
+        "Total": 626,
+        "Tooltip": "dolor",
+        "CanAssign": true,
+        "Free": 763,
+        "InUse": 814,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 943,
-        "Name": "Murray, Auer and Stroman",
-        "Description": "Self-enabling intangible frame",
-        "PrerequisiteModuleName": "Tromp, Rogahn and Aufderhar",
-        "SortOrder": 192,
-        "ExtraFlags": 688,
+        "ModuleLicenseId": 457,
+        "Name": "Christiansen-Bartoletti",
+        "Description": "Fundamental impactful functionalities",
+        "PrerequisiteModuleName": "Wiegand, Koelpin and Nitzsche",
+        "SortOrder": 771,
+        "ExtraFlags": 634,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 922
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 633
+        "FieldType": "System.Int32",
+        "FieldLength": 629
       }
     }
   },
   {
-    "Name": "Gusikowski, Legros and Kunze",
-    "Description": "User-friendly background frame",
+    "Name": "Heaney LLC",
+    "Description": "Polarised 3rd generation pricing structure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 489,
-        "Tooltip": "quo",
-        "CanAssign": false,
-        "Free": 43,
-        "InUse": 384,
+        "Unrestricted": true,
+        "Total": 600,
+        "Tooltip": "unde",
+        "CanAssign": true,
+        "Free": 603,
+        "InUse": 503,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 362,
-        "Name": "Jerde, Hodkiewicz and Bradtke",
-        "Description": "Automated national access",
-        "PrerequisiteModuleName": "West, Beier and Lakin",
-        "SortOrder": 957,
-        "ExtraFlags": 327,
+        "ModuleLicenseId": 313,
+        "Name": "Dicki, Douglas and Kuphal",
+        "Description": "Multi-channelled non-volatile support",
+        "PrerequisiteModuleName": "Becker, Robel and Abernathy",
+        "SortOrder": 277,
+        "ExtraFlags": 317,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 682
+            "FieldLength": 546
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 462,
-        "Tooltip": "quia",
-        "CanAssign": false,
-        "Free": 735,
-        "InUse": 592,
+        "Total": 626,
+        "Tooltip": "dolor",
+        "CanAssign": true,
+        "Free": 763,
+        "InUse": 814,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 943,
-        "Name": "Murray, Auer and Stroman",
-        "Description": "Self-enabling intangible frame",
-        "PrerequisiteModuleName": "Tromp, Rogahn and Aufderhar",
-        "SortOrder": 192,
-        "ExtraFlags": 688,
+        "ModuleLicenseId": 457,
+        "Name": "Christiansen-Bartoletti",
+        "Description": "Fundamental impactful functionalities",
+        "PrerequisiteModuleName": "Wiegand, Koelpin and Nitzsche",
+        "SortOrder": 771,
+        "ExtraFlags": 634,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 922
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 633
+        "FieldType": "System.Int32",
+        "FieldLength": 629
       }
     }
   }

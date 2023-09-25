@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 562,
-  "Name": "Mitchell Group",
-  "Tooltip": "ab",
+  "Id": 556,
+  "Name": "Sawayn-Morissette",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 488,
-  "Rank": 800,
+  "UdListDefinitionId": 342,
+  "Rank": 56,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   }
 }

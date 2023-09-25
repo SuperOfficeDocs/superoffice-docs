@@ -76,7 +76,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Anderson, Bradtke and Simonis"
+  "TableName": "Jacobs-Cronin"
 }
 ```
 

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 93,
-  "StartDate": "2013-10-27T03:31:25.4308731+01:00",
-  "EndDate": "1996-07-24T03:31:25.4308731+02:00",
-  "RecurrenceCounter": 706,
+  "RecurrenceId": 788,
+  "StartDate": "2000-07-07T03:24:47.1270922+02:00",
+  "EndDate": "2019-05-27T03:24:47.1270922+02:00",
+  "RecurrenceCounter": 446,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2005-08-25T03:31:25.4308731+02:00",
-      "IsConflict": false,
-      "Description": "Adaptive logistical contingency",
-      "DescriptionStyleHint": "Upgradable bifurcated utilisation",
-      "Tooltip": "commodi"
+      "Date": "2015-05-30T03:24:47.1270922+02:00",
+      "IsConflict": true,
+      "Description": "Ameliorated fresh-thinking challenge",
+      "DescriptionStyleHint": "Horizontal heuristic array",
+      "Tooltip": "quo"
     },
     {
-      "Date": "2005-08-25T03:31:25.4308731+02:00",
-      "IsConflict": false,
-      "Description": "Adaptive logistical contingency",
-      "DescriptionStyleHint": "Upgradable bifurcated utilisation",
-      "Tooltip": "commodi"
+      "Date": "2015-05-30T03:24:47.1270922+02:00",
+      "IsConflict": true,
+      "Description": "Ameliorated fresh-thinking challenge",
+      "DescriptionStyleHint": "Horizontal heuristic array",
+      "Tooltip": "quo"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

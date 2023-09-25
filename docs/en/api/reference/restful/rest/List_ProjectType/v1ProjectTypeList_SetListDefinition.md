@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 129,
-  "Name": "Tremblay, Roberts and Howe",
-  "Tooltip": "recusandae",
+  "Id": 658,
+  "Name": "Terry-Hudson",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "Rank": 698,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": false
+  "Rank": 310,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 986,
+  "Name": "Wiegand Inc and Sons",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 292,
-  "IsCustomList": false,
+  "Rank": 224,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 115
     }
   }
 }

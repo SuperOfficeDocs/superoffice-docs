@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 425,
-  "Name": "Breitenberg, Mayer and O'Conner",
-  "Description": "Multi-channelled eco-centric ability",
-  "WelcomeMessage": "recusandae",
+  "ChatTopicId": 572,
+  "Name": "Mills Inc and Sons",
+  "Description": "Enterprise-wide responsive success",
+  "WelcomeMessage": "suscipit",
   "Language": null,
-  "LastAccept": "2012-04-23T03:31:32.3477424+02:00",
-  "SecondsPrAccept": 238,
-  "AlertRecipient": "totam",
+  "LastAccept": "2002-03-21T03:24:51.4429545+01:00",
+  "SecondsPrAccept": 662,
+  "AlertRecipient": "aut",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "laboriosam",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ut",
-  "WarnNewChatMinutes": 182,
-  "WarnManagerNewChatMinutes": 637,
+  "CollectConsent": true,
+  "BadgeHeader": "et",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "veritatis",
+  "WarnNewChatMinutes": 48,
+  "WarnManagerNewChatMinutes": 708,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 448,
-  "WarnManagerChatMessageMinutes": 494,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 1000,
+  "WarnManagerChatMessageMinutes": 188,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 653,
-  "OfflineFormQueueLength": 4,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "quasi",
+  "OfflineFormTimeLimit": 813,
+  "OfflineFormQueueLength": 5,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 820
     }
   }
 }

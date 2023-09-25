@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 885,
-  "Name": "Watsica LLC",
+  "ScreenChooserId": 433,
+  "Name": "Bashirian-Stanton",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "molestias",
-  "Source": "nemo",
-  "Registered": "2002-07-18T03:31:33.2718572+02:00",
-  "RegisteredAssociateId": 107,
-  "Updated": "2005-09-30T03:31:33.2718572+02:00",
-  "UpdatedAssociateId": 803
+  "Enabled": true,
+  "UniqueIdentifier": "nam",
+  "Source": "fugiat",
+  "Registered": "2019-10-19T03:24:52.0213616+02:00",
+  "RegisteredAssociateId": 565,
+  "Updated": "2016-10-23T03:24:52.0213616+02:00",
+  "UpdatedAssociateId": 506
 }
 ```
 
@@ -123,27 +123,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 782,
-  "Name": "Legros, Funk and Kling",
+  "ScreenChooserId": 579,
+  "Name": "Hoeger-Harber",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "inventore",
-  "Source": "esse",
-  "Registered": "1997-04-09T03:31:33.2718572+02:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2004-06-11T03:31:33.2718572+02:00",
-  "UpdatedAssociateId": 396,
+  "UniqueIdentifier": "assumenda",
+  "Source": "qui",
+  "Registered": "1997-12-02T03:24:52.0213616+01:00",
+  "RegisteredAssociateId": 295,
+  "Updated": "2012-10-23T03:24:52.0213616+02:00",
+  "UpdatedAssociateId": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 773
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

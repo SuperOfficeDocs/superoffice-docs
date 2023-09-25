@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heathcote, Borer and Wuckert",
-  "DeviceName": "McKenzie, Hagenes and Reinger",
-  "DeviceIdentifier": "et",
+  "ApplicationName": "Wyman Inc and Sons",
+  "DeviceName": "Harber-Thiel",
+  "DeviceIdentifier": "illo",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 144,
-  "Name": "Goldner Group",
-  "CreatedDate": "2006-07-24T03:31:26.589451+02:00",
-  "UpdatedDate": "2023-04-20T03:31:26.589451+02:00",
-  "AssociateFullName": "Destiny Schumm",
-  "CreatedBy": "error",
-  "UpdatedBy": "id",
-  "DeviceIdentifier": "eveniet",
-  "ForeignAppId": 28,
+  "ForeignDeviceId": 222,
+  "Name": "Kautzer Inc and Sons",
+  "CreatedDate": "2002-04-25T03:24:47.8145137+02:00",
+  "UpdatedDate": "2006-06-01T03:24:47.8145137+02:00",
+  "AssociateFullName": "Ross Shanahan",
+  "CreatedBy": "doloremque",
+  "UpdatedBy": "laborum",
+  "DeviceIdentifier": "quaerat",
+  "ForeignAppId": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 489,
-    "Name": "Greenfelder-Okuneva",
-    "CurrencyId": 673,
-    "EnglishName": "Bradtke-Jaskolski",
+    "CountryId": 86,
+    "Name": "Brown-Johnston",
+    "CurrencyId": 836,
+    "EnglishName": "Klein, Wisozk and Kohler",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Vision-oriented explicit circuit",
-    "OrgNrText": "1282896",
-    "InterAreaPrefix": "quo",
-    "DialInPrefix": "praesentium",
-    "ZipPrefix": "enim",
-    "DomainName": "Ritchie LLC",
-    "AddressLayoutId": 584,
-    "DomesticAddressLayoutId": 665,
-    "ForeignAddressLayoutId": 705,
-    "Rank": 651,
-    "Tooltip": "hic",
+    "ImageDescription": "Integrated logistical open architecture",
+    "OrgNrText": "631829",
+    "InterAreaPrefix": "consequatur",
+    "DialInPrefix": "impedit",
+    "ZipPrefix": "libero",
+    "DomainName": "Trantow Group",
+    "AddressLayoutId": 519,
+    "DomesticAddressLayoutId": 302,
+    "ForeignAddressLayoutId": 300,
+    "Rank": 224,
+    "Tooltip": "nulla",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 677
       }
     }
   }

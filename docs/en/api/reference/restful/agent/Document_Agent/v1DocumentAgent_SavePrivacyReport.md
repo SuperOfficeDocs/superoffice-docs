@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HtmlReport": "ipsam",
-  "Title": "velit",
-  "PersonId": 423
+  "HtmlReport": "voluptas",
+  "Title": "quia",
+  "PersonId": 459
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-345
+538
 ```

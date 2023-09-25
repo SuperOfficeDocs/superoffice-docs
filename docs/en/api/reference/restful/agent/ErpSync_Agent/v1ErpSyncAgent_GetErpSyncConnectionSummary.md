@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 867
+  "ErpSyncConnectionId": 27
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Kerluke Inc and Sons",
-  "DisplayDescription": "Up-sized systemic core",
-  "Active": true,
+  "DisplayName": "Thiel, Feest and Lind",
+  "DisplayDescription": "Reactive regional moderator",
+  "Active": false,
   "Deleted": false,
-  "LastSync": "2013-05-04T03:31:26.5269641+02:00",
+  "LastSync": "2016-06-13T03:24:47.7832767+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "eos",
-      "Mappings": "voluptatem",
+      "HasMappings": false,
+      "Defaults": "expedita",
+      "Mappings": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldLength": 594
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "eos",
-      "Mappings": "voluptatem",
+      "HasMappings": false,
+      "Defaults": "expedita",
+      "Mappings": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldLength": 594
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 419
     }
   }
 }

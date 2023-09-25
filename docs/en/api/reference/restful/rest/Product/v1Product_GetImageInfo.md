@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 12 Feb 2001 03:31:33 G2T
+Last-Modified: Thu, 10 Apr 1997 03:24:52 G4T
 
 {
-  "BlobId": 364,
-  "BlobSize": 347,
-  "Description": "User-friendly value-added product",
-  "ExtraInfo": "modi",
+  "BlobId": 818,
+  "BlobSize": 15,
+  "Description": "Public-key next generation matrices",
+  "ExtraInfo": "quae",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tempora",
-  "OriginalSize": 223,
-  "CreatedDate": "2016-08-01T03:31:33.3354795+02:00",
-  "UpdatedDate": "2001-02-12T03:31:33.3354795+01:00",
+  "MimeType": "dolores",
+  "OriginalSize": 685,
+  "CreatedDate": "2007-02-14T03:24:52.0682283+01:00",
+  "UpdatedDate": "1997-04-10T03:24:52.0682283+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "facilis",
+  "ConceptualType": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 29
     }
   }
 }

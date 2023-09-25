@@ -114,26 +114,26 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 180,
-  "Name": "Tromp-Effertz",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 771,
+  "WebPanelId": 590,
+  "Name": "D'Amore, Rowe and Funk",
+  "Tooltip": "quod",
+  "Deleted": false,
+  "Rank": 436,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Grant LLC",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Turner, Lueilwitz and Gerhold",
   "Url": "http://www.example.com/",
-  "ProgId": "aut",
-  "Icon": 341,
+  "ProgId": "explicabo",
+  "Icon": 667,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -145,33 +145,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 331,
-  "Name": "Ledner LLC",
-  "Tooltip": "assumenda",
+  "WebPanelId": 652,
+  "Name": "Mraz Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 375,
+  "Rank": 369,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Schaefer-Schiller",
+  "ShowInStatusBar": false,
+  "WindowName": "Towne-Zulauf",
   "Url": "http://www.example.com/",
-  "ProgId": "est",
-  "Icon": 667,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "nihil",
+  "Icon": 24,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldType": "System.Int32",
+      "FieldLength": 531
     }
   }
 }

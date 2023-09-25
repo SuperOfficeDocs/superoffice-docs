@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Koss Inc and Sons"
+  "TabName": "Feest, Keeling and Beier"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 245,
-  "TabName": "Turcotte Inc and Sons",
-  "Order": "magni",
-  "AssociateId": 559,
+  "TabOrderId": 516,
+  "TabName": "Russel Group",
+  "Order": "enim",
+  "AssociateId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 440
     }
   }
 }

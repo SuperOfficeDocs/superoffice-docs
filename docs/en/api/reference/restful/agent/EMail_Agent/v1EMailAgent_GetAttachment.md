@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 809,
-  "AttachmentId": "aperiam"
+  "MessageServerId": 78,
+  "AttachmentId": "voluptatibus"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced needs-based interface",
-  "Filename": "totam",
-  "Size": 845,
-  "Type": "vel",
-  "Encoding": "eaque",
-  "Id": "eligendi",
-  "Disposition": "fuga",
-  "IsSafeFileExtension": false,
+  "Description": "Reactive non-volatile toolset",
+  "Filename": "qui",
+  "Size": 679,
+  "Type": "et",
+  "Encoding": "itaque",
+  "Id": "eos",
+  "Disposition": "sit",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 519
     }
   }
 }

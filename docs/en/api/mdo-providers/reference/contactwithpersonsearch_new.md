@@ -17,22 +17,25 @@ ID is always in the extraInfo.
 
 Searchs contact and person tables for matches, in addition to the contact
 search of the base class "contact" search.
-
+<para />
 Returns a mix of Contact and Person items sorted by relevance: own contacts, recently added or updated
 are more relevant.
-
+<para />
 id = contact or person_id,
-
+<para />
 Name = contact.name + department or person first+last name (contact name + department)
-
+<para />
 ExtraInfo = contact_id,
-
+<para />
 Type = "Contact" or "Person"
-
+<para />
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactListWithPersonSearchProvider">ContactListWithPersonSearchProvider</see> class.
 The name of the MDO list is 'contactwithpersonsearch_new'.
+
+
+
 
 ## Sample Request
 

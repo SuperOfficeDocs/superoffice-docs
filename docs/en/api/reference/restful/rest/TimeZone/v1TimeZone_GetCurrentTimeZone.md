@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 833,
-  "Name": "Flatley, Welch and Langworth",
-  "TZLocationCode": "sunt",
-  "TZLocationCities": "dicta",
-  "IsoNumber": 556,
+  "TZLocationID": 570,
+  "Name": "McLaughlin Group",
+  "TZLocationCode": "quasi",
+  "TZLocationCities": "voluptas",
+  "IsoNumber": 87,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 199,
-      "StartMonth": 278,
-      "EndDay": 200,
-      "EndMonth": 95,
-      "TZOffset": 570,
-      "StartRulePattern": "quia",
-      "EndRulePattern": "qui"
+      "StartDay": 367,
+      "StartMonth": 726,
+      "EndDay": 620,
+      "EndMonth": 839,
+      "TZOffset": 577,
+      "StartRulePattern": "ipsum",
+      "EndRulePattern": "at"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 170,
-      "StartMonth": 244,
-      "EndDay": 674,
-      "EndMonth": 156,
-      "TZOffset": 104,
-      "StartRulePattern": "ab",
-      "EndRulePattern": "maxime"
+      "StartDay": 284,
+      "StartMonth": 738,
+      "EndDay": 541,
+      "EndMonth": 985,
+      "TZOffset": 214,
+      "StartRulePattern": "ipsum",
+      "EndRulePattern": "voluptas"
     }
   }
 }

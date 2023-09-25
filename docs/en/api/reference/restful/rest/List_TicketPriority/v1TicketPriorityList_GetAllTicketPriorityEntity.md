@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 195,
-    "Name": "Goldner LLC",
+    "TicketPriorityId": 496,
+    "Name": "Quigley-Bradtke",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 211,
+    "SortOrder": 65,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 318,
-    "MonStart": "2018-03-12T03:31:33.9316266+01:00",
-    "MonStop": "2008-06-04T03:31:33.9316266+02:00",
-    "TueStart": "2011-07-30T03:31:33.9316266+02:00",
-    "TueStop": "2017-04-09T03:31:33.9316266+02:00",
-    "WedStart": "2004-03-25T03:31:33.9316266+01:00",
-    "WedStop": "2009-05-28T03:31:33.9316266+02:00",
-    "ThuStart": "2013-08-25T03:31:33.9316266+02:00",
-    "ThuStop": "2004-10-27T03:31:33.9316266+02:00",
-    "FriStart": "2005-09-02T03:31:33.9316266+02:00",
-    "FriStop": "2008-03-29T03:31:33.9316266+01:00",
-    "SatStart": "2011-04-19T03:31:33.9316266+02:00",
-    "SatStop": "2014-04-10T03:31:33.9316266+02:00",
-    "SunStart": "2018-04-24T03:31:33.9316266+02:00",
-    "SunStop": "2003-11-11T03:31:33.9316266+01:00",
+    "Deadline": 882,
+    "MonStart": "2005-10-23T03:24:52.4431914+02:00",
+    "MonStop": "2000-06-21T03:24:52.4431914+02:00",
+    "TueStart": "2015-06-07T03:24:52.4431914+02:00",
+    "TueStop": "1996-10-18T03:24:52.4431914+02:00",
+    "WedStart": "2011-02-15T03:24:52.4431914+01:00",
+    "WedStop": "2000-11-11T03:24:52.4431914+01:00",
+    "ThuStart": "2011-12-06T03:24:52.4431914+01:00",
+    "ThuStop": "2015-06-23T03:24:52.4431914+02:00",
+    "FriStart": "2014-12-19T03:24:52.4431914+01:00",
+    "FriStop": "2010-11-28T03:24:52.4431914+01:00",
+    "SatStart": "2004-12-01T03:24:52.4431914+01:00",
+    "SatStop": "2006-05-17T03:24:52.4431914+02:00",
+    "SunStart": "2022-11-24T03:24:52.4431914+01:00",
+    "SunStop": "2022-02-03T03:24:52.4431914+01:00",
     "NonDates": [
       "possimus",
-      "voluptate"
+      "molestiae"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 900,
-        "AlertLevel": 303,
-        "AlertTimeout": 409,
-        "Action": 701,
-        "DelegateTo": 698,
-        "ScriptId": 275,
-        "EmailTo": "kira@strosin.biz",
-        "SmsTo": "animi",
-        "ReplyTemplateIdCustomer": 854,
-        "ReplyTemplateIdUser": 210,
-        "ReplyTemplateIdCatmast": 644,
-        "ReplyTemplateIdEmail": 568,
-        "RtiCustomerSms": 549,
-        "ReplyTemplateIdUserSms": 18,
-        "ReplyTemplateIdCatmastSms": 157,
-        "ReplyTemplateIdSms": 299,
+        "TicketAlertId": 654,
+        "AlertLevel": 706,
+        "AlertTimeout": 974,
+        "Action": 165,
+        "DelegateTo": 850,
+        "ScriptId": 74,
+        "EmailTo": "antonette@muellermills.info",
+        "SmsTo": "officiis",
+        "ReplyTemplateIdCustomer": 226,
+        "ReplyTemplateIdUser": 840,
+        "ReplyTemplateIdCatmast": 414,
+        "ReplyTemplateIdEmail": 612,
+        "RtiCustomerSms": 891,
+        "ReplyTemplateIdUserSms": 560,
+        "ReplyTemplateIdCatmastSms": 971,
+        "ReplyTemplateIdSms": 373,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 173
+            "FieldLength": 551
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 300
       }
     }
   }

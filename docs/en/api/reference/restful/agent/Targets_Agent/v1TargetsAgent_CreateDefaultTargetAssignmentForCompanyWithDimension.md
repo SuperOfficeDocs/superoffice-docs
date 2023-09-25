@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 127
+  "TargetDimensionId": 848
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 390,
+    "TargetAssignmentInfoId": 596,
     "Values": [
-      426,
-      676
+      843,
+      112
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 758,
-    "DimensionListItemDisplayName": "Prosacco, Connelly and Gusikowski",
+    "DimensionListItem": 182,
+    "DimensionListItemDisplayName": "Littel Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldType": "System.String",
+        "FieldLength": 646
       }
     }
   }

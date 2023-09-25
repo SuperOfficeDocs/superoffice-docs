@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 297,
+  "QuoteAlternativeId": 306,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 38,
-  "ERPQuoteLineKey": "qui",
-  "QuoteAlternativeId": 845,
-  "ERPProductKey": "est",
+  "QuoteLineId": 842,
+  "ERPQuoteLineKey": "quos",
+  "QuoteAlternativeId": 151,
+  "ERPProductKey": "aspernatur",
   "Status": "Error",
-  "Reason": "whiteboard scalable experiences",
-  "Quantity": 8452.398,
-  "DeliveredQuantity": 28732.512,
-  "Rank": 516,
-  "Name": "Ward, Grant and Toy",
-  "Description": "Triple-buffered responsive Graphical User Interface",
-  "Code": "impedit",
-  "QuantityUnit": "quibusdam",
-  "PriceUnit": "a",
-  "ItemNumber": "791789",
+  "Reason": "",
+  "Quantity": 25078.268,
+  "DeliveredQuantity": 26617.061999999998,
+  "Rank": 972,
+  "Name": "Lubowitz-Hackett",
+  "Description": "Quality-focused actuating firmware",
+  "Code": "inventore",
+  "QuantityUnit": "dolorem",
+  "PriceUnit": "repudiandae",
+  "ItemNumber": "820189",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "repellat",
-  "Supplier": "consequatur",
-  "SupplierCode": "omnis",
-  "Thumbnail": "repudiandae",
-  "VATInfo": "et",
-  "VAT": 410.554,
-  "UnitCost": 21223.448,
-  "UnitMinimumPrice": 16707.354,
-  "UnitListPrice": 20085.806,
+  "ProductFamilyKey": "voluptates",
+  "ProductTypeKey": "modi",
+  "Supplier": "quibusdam",
+  "SupplierCode": "quisquam",
+  "Thumbnail": "et",
+  "VATInfo": "tempore",
+  "VAT": 7762.918,
+  "UnitCost": 28130.784,
+  "UnitMinimumPrice": 28390.906,
+  "UnitListPrice": 3281.298,
   "ExtraInfo": [
     {
-      "Name": "Roberts-Lehner",
-      "Value": "quae",
+      "Name": "Bashirian-Lind",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Roberts-Lehner",
-      "Value": "quae",
+      "Name": "Bashirian-Lind",
+      "Value": "vel",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 539
         }
       }
     }
   ],
-  "RawExtraInfo": "dolorem",
+  "RawExtraInfo": "perferendis",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 19935.374,
-  "SubscriptionStart": "2021-05-29T03:31:27.106235+02:00",
-  "ERPDiscountPercent": 31327.464,
-  "ERPDiscountAmount": 11138.235999999999,
-  "DiscountPercent": 16785.703999999998,
-  "DiscountAmount": 4528.63,
+  "SubscriptionUnit": "distinctio",
+  "SubscriptionQuantity": 30569.036,
+  "SubscriptionStart": "2021-06-26T03:24:48.1582254+02:00",
+  "ERPDiscountPercent": 30359.057999999997,
+  "ERPDiscountAmount": 3930.036,
+  "DiscountPercent": 19998.054,
+  "DiscountAmount": 27218.79,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 1902.338,
-  "EarningAmount": 29070.984,
-  "SubTotal": 22332.884,
-  "TotalPrice": 12122.312,
-  "Rights": "aliquid",
-  "Rule": "quae",
-  "ExtraField1": "dolor",
-  "ExtraField2": "nihil",
+  "EarningPercent": 19358.718,
+  "EarningAmount": 11078.69,
+  "SubTotal": 6515.586,
+  "TotalPrice": 3312.638,
+  "Rights": "distinctio",
+  "Rule": "et",
+  "ExtraField1": "ut",
+  "ExtraField2": "harum",
   "ExtraField3": "voluptatem",
-  "ExtraField4": "dignissimos",
-  "ExtraField5": "expedita",
+  "ExtraField4": "sapiente",
+  "ExtraField5": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

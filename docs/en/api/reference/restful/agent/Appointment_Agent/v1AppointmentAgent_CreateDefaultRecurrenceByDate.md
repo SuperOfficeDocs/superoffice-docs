@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1997-05-03T03:31:25.4934109+02:00"
+  "StartDate": "2019-12-29T03:24:47.1427162+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 147,
-  "StartDate": "2007-10-09T03:31:25.4934109+02:00",
-  "EndDate": "2015-06-10T03:31:25.4934109+02:00",
-  "RecurrenceCounter": 471,
+  "RecurrenceId": 963,
+  "StartDate": "2018-04-09T03:24:47.1427162+02:00",
+  "EndDate": "2019-01-21T03:24:47.1427162+01:00",
+  "RecurrenceCounter": 246,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-07-20T03:31:25.4934109+02:00",
+      "Date": "2001-03-18T03:24:47.1427162+01:00",
       "IsConflict": false,
-      "Description": "Switchable 24/7 product",
-      "DescriptionStyleHint": "Reactive zero tolerance encryption",
-      "Tooltip": "beatae"
+      "Description": "Organized transitional migration",
+      "DescriptionStyleHint": "Sharable object-oriented budgetary management",
+      "Tooltip": "qui"
     },
     {
-      "Date": "2016-07-20T03:31:25.4934109+02:00",
+      "Date": "2001-03-18T03:24:47.1427162+01:00",
       "IsConflict": false,
-      "Description": "Switchable 24/7 product",
-      "DescriptionStyleHint": "Reactive zero tolerance encryption",
-      "Tooltip": "beatae"
+      "Description": "Organized transitional migration",
+      "DescriptionStyleHint": "Sharable object-oriented budgetary management",
+      "Tooltip": "qui"
     }
   ],
   "IsRecurrence": false

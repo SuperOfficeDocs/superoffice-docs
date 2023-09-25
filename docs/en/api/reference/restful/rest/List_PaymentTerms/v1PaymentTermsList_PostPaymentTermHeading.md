@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 397,
-  "Name": "Russel LLC",
-  "Tooltip": "consequuntur",
+  "HeadingId": 7,
+  "Name": "Romaguera-Tillman",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 872,
-  "UdListDefinitionId": 646
+  "Rank": 478,
+  "UdListDefinitionId": 843
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 4,
-  "Name": "Metz Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 809,
-  "UdListDefinitionId": 659,
+  "HeadingId": 614,
+  "Name": "Torp-Predovic",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 479,
+  "UdListDefinitionId": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldLength": 562
     }
   }
 }

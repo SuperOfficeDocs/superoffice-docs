@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "perferendis",
   "Specification": null,
-  "DisplayValue": "sequi",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "placeat",
+  "DisplayTooltip": "est",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 851,
-  "PrefDescId": 521,
-  "TableName": "Hartmann, Dach and Lakin",
-  "UserPreferenceId": 532
+  "TargetId": 982,
+  "PrefDescId": 264,
+  "TableName": "Breitenberg-Bosco",
+  "UserPreferenceId": 125
 }
 ```
 

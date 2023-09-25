@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Hills-Dickens",
-    "ToolTip": "Corrupti in corrupti.",
-    "Deleted": true,
-    "Rank": 78,
-    "Type": "dolorum",
-    "ColorBlock": 621,
-    "IconHint": "sunt",
+    "Id": 404,
+    "Name": "Wyman-Daugherty",
+    "ToolTip": "Qui laudantium facilis veritatis aut ut quia dolorem.",
+    "Deleted": false,
+    "Rank": 826,
+    "Type": "eum",
+    "ColorBlock": 522,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2006-03-20T03:31:33.5386084+01:00",
+    "LastChanged": "2018-10-09T03:24:52.1932187+02:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Gleason-Windler",
-        "ToolTip": "Quia voluptatem corporis voluptatem voluptatibus impedit.",
+        "Id": 984,
+        "Name": "Goyette LLC",
+        "ToolTip": "Quasi nesciunt exercitationem saepe.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "error",
-        "ColorBlock": 566,
-        "IconHint": "eligendi",
-        "Selected": false,
-        "LastChanged": "2020-03-15T03:31:33.5386084+01:00",
+        "Rank": 710,
+        "Type": "maiores",
+        "ColorBlock": 897,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2007-08-07T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "aut",
+        "ExtraInfo": "est",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Buford Hammes",
+        "FullName": "Harold Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 397
+            "FieldLength": 488
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "sunt",
+    "ExtraInfo": "aut",
+    "StyleHint": "natus",
     "Hidden": false,
-    "FullName": "Brennan D'Amore",
+    "FullName": "Malcolm Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldLength": 547
       }
     }
   }

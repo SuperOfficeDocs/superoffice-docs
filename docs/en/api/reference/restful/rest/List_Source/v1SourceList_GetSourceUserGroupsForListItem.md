@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Beier Group",
-    "ToolTip": "Quo sint ut veniam qui ducimus.",
-    "Deleted": false,
-    "Rank": 70,
-    "Type": "voluptates",
-    "ColorBlock": 817,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2023-04-26T03:31:33.900328+02:00",
+    "Id": 706,
+    "Name": "Witting, Jaskolski and Mayert",
+    "ToolTip": "Sit asperiores minima ut perferendis.",
+    "Deleted": true,
+    "Rank": 171,
+    "Type": "molestiae",
+    "ColorBlock": 571,
+    "IconHint": "sapiente",
+    "Selected": true,
+    "LastChanged": "2005-09-05T03:24:52.4275712+02:00",
     "ChildItems": [
       {
-        "Id": 586,
-        "Name": "Beier-Macejkovic",
-        "ToolTip": "Temporibus magni modi rem non.",
-        "Deleted": true,
-        "Rank": 297,
-        "Type": "voluptas",
-        "ColorBlock": 334,
-        "IconHint": "vitae",
-        "Selected": false,
-        "LastChanged": "2007-03-15T03:31:33.900328+01:00",
+        "Id": 74,
+        "Name": "Donnelly Inc and Sons",
+        "ToolTip": "Ut sed.",
+        "Deleted": false,
+        "Rank": 119,
+        "Type": "enim",
+        "ColorBlock": 401,
+        "IconHint": "dicta",
+        "Selected": true,
+        "LastChanged": "2021-06-02T03:24:52.4275712+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "ut",
+        "ExtraInfo": "alias",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Missouri Mann",
+        "FullName": "Marlon Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 267
+            "FieldLength": 329
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "a",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Sarina Hudson",
+    "FullName": "Keshawn Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldType": "System.String",
+        "FieldLength": 984
       }
     }
   }

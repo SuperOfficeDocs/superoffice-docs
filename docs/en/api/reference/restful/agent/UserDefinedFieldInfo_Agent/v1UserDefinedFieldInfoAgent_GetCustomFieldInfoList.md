@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Satterfield LLC",
+  "TableName": "Cummings LLC",
   "IncludeStandard": true
 }
 ```
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Dooley Group",
-    "DisplayName": "Mraz-Walsh",
-    "Description": "Future-proofed neutral circuit",
-    "ShortLabel": "sit",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "FieldName": "Baumbach, Conroy and Kovacek",
+    "DisplayName": "Schamberger-Mayer",
+    "Description": "Multi-layered 24/7 superstructure",
+    "ShortLabel": "nostrum",
+    "HideLabel": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 852,
-    "TemplateVariableName": "Labadie, Grady and Smitham"
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "Rank": 298,
+    "TemplateVariableName": "Harber, Dooley and Leuschke"
   }
 ]
 ```

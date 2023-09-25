@@ -79,24 +79,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 615,
-  "WorkflowStepId": 228,
-  "WorkflowId": 410,
-  "Key": "voluptatem",
-  "Name": "Bartell, Legros and Beier",
-  "Rank": 177,
+  "WorkflowStepOptionId": 648,
+  "WorkflowStepId": 97,
+  "WorkflowId": 857,
+  "Key": "atque",
+  "Name": "Romaguera Group",
+  "Rank": 636,
   "Steps": [
     {
-      "WorkflowStepId": 124,
-      "WorkflowId": 227,
+      "WorkflowStepId": 939,
+      "WorkflowId": 591,
       "StepType": "AddToList",
-      "Rank": 238
+      "Rank": 101
     },
     {
-      "WorkflowStepId": 124,
-      "WorkflowId": 227,
+      "WorkflowStepId": 939,
+      "WorkflowId": 591,
       "StepType": "AddToList",
-      "Rank": 238
+      "Rank": 101
     }
   ]
 }
@@ -109,32 +109,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 360,
-  "WorkflowStepId": 610,
-  "WorkflowId": 400,
-  "Key": "enim",
-  "Name": "Nolan, Wunsch and Langworth",
-  "Rank": 753,
+  "WorkflowStepOptionId": 849,
+  "WorkflowStepId": 385,
+  "WorkflowId": 89,
+  "Key": "excepturi",
+  "Name": "Brakus-Watsica",
+  "Rank": 329,
   "Steps": [
     {
-      "WorkflowStepId": 794,
-      "WorkflowId": 188,
+      "WorkflowStepId": 388,
+      "WorkflowId": 935,
       "StepType": "AddToList",
-      "Rank": 3
+      "Rank": 824
     },
     {
-      "WorkflowStepId": 794,
-      "WorkflowId": 188,
+      "WorkflowStepId": 388,
+      "WorkflowId": 935,
       "StepType": "AddToList",
-      "Rank": 3
+      "Rank": 824
     }
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldType": "System.String",
+      "FieldLength": 102
     }
   }
 }

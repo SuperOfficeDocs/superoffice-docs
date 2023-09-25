@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 87,
+  "HierarchyId": 658,
   "Domain": "Dashboards",
-  "Name": "McClure Group",
-  "Fullname": "consectetur",
-  "ParentId": 152,
+  "Name": "Doyle-Cronin",
+  "Fullname": "sed",
+  "ParentId": 582,
   "Children": [
     {
-      "HierarchyId": 644,
+      "HierarchyId": 19,
       "Domain": "Dashboards",
-      "Name": "Goodwin-Schaden",
-      "Fullname": "vero",
-      "ParentId": 28,
+      "Name": "Rolfson-McKenzie",
+      "Fullname": "ad",
+      "ParentId": 995,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-01-01T03:31:32.6445204+01:00",
-      "RegisteredAssociateId": 157,
-      "Updated": "2013-06-25T03:31:32.6445204+02:00",
-      "UpdatedAssociateId": 310,
+      "Registered": "2010-02-01T03:24:51.630601+01:00",
+      "RegisteredAssociateId": 65,
+      "Updated": "2014-10-26T03:24:51.630601+01:00",
+      "UpdatedAssociateId": 144,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 796
+          "FieldLength": 729
         }
       }
     }
   ],
-  "Registered": "2009-06-29T03:31:32.6445204+02:00",
-  "RegisteredAssociateId": 27,
-  "Updated": "2020-04-14T03:31:32.6445204+02:00",
-  "UpdatedAssociateId": 27,
+  "Registered": "2015-08-26T03:24:51.630601+02:00",
+  "RegisteredAssociateId": 474,
+  "Updated": "2001-01-06T03:24:51.630601+01:00",
+  "UpdatedAssociateId": 438,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 533
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 563,
-    "Name": "Wunsch LLC",
-    "ToolTip": "Sit nihil qui ut.",
-    "Deleted": true,
-    "Rank": 142,
-    "Type": "ipsa",
-    "ColorBlock": 150,
-    "IconHint": "numquam",
+    "Id": 142,
+    "Name": "Kohler-Bahringer",
+    "ToolTip": "Voluptatibus saepe voluptate enim eaque quod qui.",
+    "Deleted": false,
+    "Rank": 743,
+    "Type": "alias",
+    "ColorBlock": 952,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2018-05-06T03:31:33.8523421+02:00",
+    "LastChanged": "2022-09-03T03:24:52.3963183+02:00",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Bechtelar Group",
-        "ToolTip": "Quae est sit ex sequi.",
-        "Deleted": true,
-        "Rank": 476,
-        "Type": "porro",
-        "ColorBlock": 30,
-        "IconHint": "aliquid",
+        "Id": 738,
+        "Name": "Rolfson-Lockman",
+        "ToolTip": "Voluptatem odio.",
+        "Deleted": false,
+        "Rank": 167,
+        "Type": "at",
+        "ColorBlock": 491,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2004-05-21T03:31:33.8523421+02:00",
+        "LastChanged": "2010-12-17T03:24:52.3963183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Prof. Heidi Kaylin Waters"
+        "ExtraInfo": "ab",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Prof. Jayson Batz"
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "est",
+    "ExtraInfo": "et",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Tiffany Toy"
+    "FullName": "Raul Windler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Kozey-Gibson",
-    "ToolTip": "Incidunt illo esse voluptatem et eos.",
+    "Id": 992,
+    "Name": "Hyatt LLC",
+    "ToolTip": "Dignissimos minima mollitia.",
     "Deleted": false,
-    "Rank": 546,
+    "Rank": 510,
     "Type": "et",
-    "ColorBlock": 518,
-    "IconHint": "aut",
+    "ColorBlock": 186,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2003-04-18T03:31:33.8523421+02:00",
+    "LastChanged": "1999-02-08T03:24:52.3963183+01:00",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Turcotte-Waters",
-        "ToolTip": "Laboriosam et illum quia officia.",
+        "Id": 666,
+        "Name": "Hahn LLC",
+        "ToolTip": "Voluptatibus accusamus consectetur optio magnam nulla.",
         "Deleted": false,
-        "Rank": 922,
-        "Type": "repellendus",
-        "ColorBlock": 785,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2001-12-12T03:31:33.8523421+01:00",
+        "Rank": 436,
+        "Type": "minima",
+        "ColorBlock": 249,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2017-04-20T03:24:52.3963183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Miss Elsa Renner IV",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Ms. Hailey Tromp I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldType": "System.String",
+            "FieldLength": 267
           }
         }
       }
     ],
     "ExtraInfo": "rerum",
-    "StyleHint": "accusamus",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Elnora Mills V",
+    "FullName": "Joesph Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 875
       }
     }
   }

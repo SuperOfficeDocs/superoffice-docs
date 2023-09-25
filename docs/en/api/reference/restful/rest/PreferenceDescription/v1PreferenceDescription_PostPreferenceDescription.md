@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 748,
-  "Section": "temporibus",
-  "Key": "qui",
-  "Name": "McGlynn Group",
+  "PrefDescId": 989,
+  "Section": "dolore",
+  "Key": "numquam",
+  "Name": "Feeney LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile actuating workforce",
-  "IsBuiltin": false,
-  "TableName": "Abernathy LLC",
-  "UserDefinedListId": 889,
-  "Rank": 649,
-  "SubGroup": "est",
-  "MinLevel": 806,
-  "MaxValue": 150,
-  "MinValue": 493,
-  "RequiredLicense": "corporis"
+  "Description": "Enterprise-wide fault-tolerant protocol",
+  "IsBuiltin": true,
+  "TableName": "Gutkowski LLC",
+  "UserDefinedListId": 436,
+  "Rank": 954,
+  "SubGroup": "et",
+  "MinLevel": 370,
+  "MaxValue": 626,
+  "MinValue": 632,
+  "RequiredLicense": "dolor"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 346,
-  "Section": "occaecati",
-  "Key": "dolorem",
-  "Name": "Mann-Conroy",
+  "PrefDescId": 330,
+  "Section": "placeat",
+  "Key": "assumenda",
+  "Name": "Blanda, Gusikowski and Hermann",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Exclusive content-based process improvement",
+  "Description": "Fundamental zero tolerance project",
   "IsBuiltin": true,
-  "TableName": "Wolff-Hammes",
-  "UserDefinedListId": 762,
-  "Rank": 454,
-  "SubGroup": "laudantium",
-  "MinLevel": 766,
-  "MaxValue": 909,
-  "MinValue": 592,
-  "RequiredLicense": "harum",
+  "TableName": "Harris-Goodwin",
+  "UserDefinedListId": 363,
+  "Rank": 514,
+  "SubGroup": "exercitationem",
+  "MinLevel": 650,
+  "MaxValue": 716,
+  "MinValue": 779,
+  "RequiredLicense": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

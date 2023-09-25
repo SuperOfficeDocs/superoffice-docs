@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 715,
-    "Name": "Corkery, Simonis and Hand",
-    "ToolTip": "Id distinctio sapiente.",
+    "Id": 425,
+    "Name": "Friesen LLC",
+    "ToolTip": "Doloremque iusto.",
     "Deleted": false,
-    "Rank": 753,
-    "Type": "sunt",
-    "ColorBlock": 191,
-    "IconHint": "asperiores",
+    "Rank": 231,
+    "Type": "libero",
+    "ColorBlock": 911,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2009-03-19T03:31:33.805477+01:00",
+    "LastChanged": "2005-10-21T03:24:52.3650758+02:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Buckridge-Welch",
-        "ToolTip": "Velit dicta nostrum iste officia omnis.",
+        "Id": 749,
+        "Name": "Batz Inc and Sons",
+        "ToolTip": "Vel sed.",
         "Deleted": true,
-        "Rank": 794,
-        "Type": "voluptas",
-        "ColorBlock": 844,
-        "IconHint": "deleniti",
+        "Rank": 581,
+        "Type": "sunt",
+        "ColorBlock": 567,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2023-05-03T03:31:33.805477+02:00",
+        "LastChanged": "2015-12-17T03:24:52.3650758+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "illum",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Guy Kilback",
+        "FullName": "Althea Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "porro",
-    "Hidden": false,
-    "FullName": "Dr. Grover Welch Jr.",
+    "ExtraInfo": "iure",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Darlene Runolfsdottir I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 160
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 358,
+  "TargetDimensionId": 748,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ducimus",
-  "DimensionListName": "Ritchie Inc and Sons",
-  "DimensionListId": 345,
-  "DimensionListLabel": "temporibus",
+  "DimensionListField": "ab",
+  "DimensionListName": "Carroll LLC",
+  "DimensionListId": 106,
+  "DimensionListLabel": "maiores",
   "SelectedDimensions": [
-    992,
-    825
+    110,
+    573
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 867
     }
   }
 }

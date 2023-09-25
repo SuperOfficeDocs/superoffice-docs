@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Tremblay-Pfannerstill",
-    "ToolTip": "Delectus sed omnis omnis non.",
-    "Deleted": true,
-    "Rank": 195,
-    "Type": "architecto",
-    "ColorBlock": 458,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2019-11-10T03:31:33.6010939+01:00",
+    "Id": 510,
+    "Name": "Farrell-Heller",
+    "ToolTip": "Tenetur iure soluta quos.",
+    "Deleted": false,
+    "Rank": 256,
+    "Type": "debitis",
+    "ColorBlock": 51,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2000-03-24T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 45,
-        "Name": "Kuhic Group",
-        "ToolTip": "Eaque est et repellat maxime.",
-        "Deleted": true,
-        "Rank": 889,
-        "Type": "consequuntur",
-        "ColorBlock": 81,
-        "IconHint": "rerum",
+        "Id": 900,
+        "Name": "Terry Group",
+        "ToolTip": "Commodi nostrum et eum assumenda.",
+        "Deleted": false,
+        "Rank": 703,
+        "Type": "ipsam",
+        "ColorBlock": 723,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "1997-05-15T03:31:33.6010939+02:00",
+        "LastChanged": "2022-07-30T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "odit",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Ms. Sedrick Hane"
+        "FullName": "Khalid Thaddeus Crona MD"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Mittie Reichel"
+    "ExtraInfo": "corporis",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Ciara Bergstrom"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Spinka Inc and Sons",
-    "ToolTip": "Non soluta.",
-    "Deleted": false,
-    "Rank": 756,
-    "Type": "itaque",
-    "ColorBlock": 943,
-    "IconHint": "saepe",
-    "Selected": false,
-    "LastChanged": "1996-06-06T03:31:33.6010939+02:00",
+    "Id": 917,
+    "Name": "Hegmann, Welch and Lemke",
+    "ToolTip": "Dolore molestiae aliquid id sunt.",
+    "Deleted": true,
+    "Rank": 167,
+    "Type": "sequi",
+    "ColorBlock": 698,
+    "IconHint": "nam",
+    "Selected": true,
+    "LastChanged": "2001-12-30T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 639,
-        "Name": "Kerluke Inc and Sons",
-        "ToolTip": "Unde accusantium necessitatibus omnis sequi officia.",
+        "Id": 838,
+        "Name": "Braun-Von",
+        "ToolTip": "Ea aut.",
         "Deleted": false,
-        "Rank": 886,
-        "Type": "perferendis",
-        "ColorBlock": 214,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2000-10-03T03:31:33.6010939+02:00",
+        "Rank": 415,
+        "Type": "sit",
+        "ColorBlock": 72,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2020-05-31T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Prof. Libby Marion Labadie",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Dr. Callie Yesenia Kilback III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 441
+            "FieldLength": 726
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "possimus",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Turner Fisher",
+    "FullName": "Dariana Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldType": "System.Int32",
+        "FieldLength": 286
       }
     }
   }

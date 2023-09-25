@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Osinski, Hintz and Dare",
-  "RecordId": 974,
-  "AssociateId": 484
+  "TableName": "Fadel Group",
+  "RecordId": 903,
+  "AssociateId": 145
 }
 ```
 

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Nienow Inc and Sons",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 257,
+  "Id": 668,
+  "Name": "Flatley LLC",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "Rank": 427,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ipsa",
+  "ListType": "velit",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 96,
-  "Name": "Prosacco-Sauer",
-  "Tooltip": "reprehenderit",
+  "Id": 608,
+  "Name": "Legros-Bogisich",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 172,
+  "Rank": 945,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "molestias",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

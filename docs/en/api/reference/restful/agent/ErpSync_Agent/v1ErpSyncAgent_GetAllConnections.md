@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 703,
-    "ErpConnectorId": 249,
-    "DisplayName": "Gutmann Group",
-    "DisplayDescription": "User-centric needs-based framework",
-    "Active": false,
-    "ConnectionId": "sed",
-    "MostRecentTimestamp": "eos",
+    "ErpConnectionId": 922,
+    "ErpConnectorId": 335,
+    "DisplayName": "Monahan-Hauck",
+    "DisplayDescription": "Diverse cohesive matrix",
+    "Active": true,
+    "ConnectionId": "ipsa",
+    "MostRecentTimestamp": "aut",
     "ConfigFields": {
-      "ConfigFields1": "optio",
-      "ConfigFields2": "nostrum"
+      "ConfigFields1": "laborum",
+      "ConfigFields2": "minus"
     },
-    "Deleted": false,
+    "Deleted": true,
     "AllAccess": true,
     "UserGroupAccessIds": [
-      198,
-      57
+      845,
+      780
     ],
     "AssociateAccessIds": [
-      246,
-      580
+      782,
+      278
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldType": "System.Int32",
+        "FieldLength": 643
       }
     }
   }

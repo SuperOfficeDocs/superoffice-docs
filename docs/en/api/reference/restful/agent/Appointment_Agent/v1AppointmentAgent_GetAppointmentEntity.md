@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=180
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=877
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -124,7 +124,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -138,125 +138,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-06-09T03:31:25.2110479+02:00",
-  "AppointmentId": 213,
-  "Description": "Synchronised coherent support",
-  "StartDate": "2019-09-14T03:31:25.2110479+02:00",
-  "EndDate": "1997-05-06T03:31:25.2110479+02:00",
+  "CreatedDate": "2009-10-20T03:24:47.095837+02:00",
+  "AppointmentId": 980,
+  "Description": "User-friendly contextually-based Graphic Interface",
+  "StartDate": "2000-03-18T03:24:47.095837+01:00",
+  "EndDate": "2021-08-30T03:24:47.095837+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 840,
+  "MotherId": 263,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-07-27T03:31:25.2110479+02:00",
+  "UpdatedDate": "1998-05-21T03:24:47.095837+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 23,
+  "ActiveLinks": 446,
   "Links": [
     {
-      "EntityName": "Weissnat, Corkery and Larson",
-      "Id": 89,
-      "Description": "Balanced uniform orchestration",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 129,
+      "EntityName": "Hermann, Dooley and Dietrich",
+      "Id": 541,
+      "Description": "Assimilated multimedia leverage",
+      "ExtraInfo": "ad",
+      "LinkId": 738,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 758
+          "FieldType": "System.Int32",
+          "FieldLength": 119
         }
       }
     }
   ],
-  "AlarmLeadTime": "numquam",
+  "AlarmLeadTime": "voluptatem",
   "HasAlarm": true,
-  "ColorIndex": 87,
+  "ColorIndex": 62,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "impedit",
-  "LeadTime": "autem",
-  "Location": "fugiat",
-  "RejectCounter": 795,
+  "LagTime": "laudantium",
+  "LeadTime": "ut",
+  "Location": "numquam",
+  "RejectCounter": 131,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 713,
-      "PersonId": 445,
-      "ContactId": 352,
-      "EmailId": 384,
-      "SendEmail": false,
+      "AssociateId": 893,
+      "PersonId": 390,
+      "ContactId": 156,
+      "EmailId": 505,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 713,
-      "PersonId": 445,
-      "ContactId": 352,
-      "EmailId": 384,
-      "SendEmail": false,
+      "AssociateId": 893,
+      "PersonId": 390,
+      "ContactId": 156,
+      "EmailId": 505,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-10-01T03:31:25.2110479+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2007-05-03T03:24:47.095837+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 114,
+  "PreferredTZLocation": 692,
   "Sale": null,
-  "SuggestedAppointmentId": 694,
+  "SuggestedAppointmentId": 80,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
-  "Title": "optio",
-  "Agenda": "hic",
-  "InternalNotes": "doloribus",
+  "CentralserviceVideomeetId": "deleniti",
+  "Title": "alias",
+  "Agenda": "sint",
+  "InternalNotes": "sunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "Cooper Von",
-    "SuperOffice:2": "Baby Becker IV"
+    "SuperOffice:1": "Roberta Gerhold",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "ratione",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "2012-09-14T03:31:25.2110479+02:00",
-  "PublishTo": "2002-10-19T03:31:25.2110479+02:00",
-  "PublishFrom": "2008-02-19T03:31:25.2110479+01:00",
+  "PublishEventDate": "2003-12-27T03:24:47.095837+01:00",
+  "PublishTo": "1998-09-26T03:24:47.095837+02:00",
+  "PublishFrom": "2007-02-17T03:24:47.095837+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 655,
+      "VisibleId": 623,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 860
         }
       }
     },
     {
-      "VisibleId": 655,
+      "VisibleId": 623,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 860
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 828
     }
   }
 }

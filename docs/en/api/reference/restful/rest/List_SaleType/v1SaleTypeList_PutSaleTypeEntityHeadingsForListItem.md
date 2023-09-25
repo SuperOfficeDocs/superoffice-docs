@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "O'Reilly Inc and Sons",
-    "ToolTip": "Necessitatibus minus et numquam deserunt quia.",
-    "Deleted": false,
-    "Rank": 778,
-    "Type": "dicta",
-    "ColorBlock": 954,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2016-05-04T03:31:33.8835899+02:00",
+    "Id": 478,
+    "Name": "Treutel-Gerlach",
+    "ToolTip": "Doloribus consectetur rem explicabo quibusdam.",
+    "Deleted": true,
+    "Rank": 692,
+    "Type": "non",
+    "ColorBlock": 624,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2018-05-05T03:24:52.4119449+02:00",
     "ChildItems": [
       {
-        "Id": 955,
-        "Name": "Schulist-Leuschke",
-        "ToolTip": "Velit sunt officiis repudiandae perferendis aut.",
+        "Id": 630,
+        "Name": "Walker-Monahan",
+        "ToolTip": "Temporibus nulla nesciunt perferendis sapiente molestiae.",
         "Deleted": true,
-        "Rank": 559,
-        "Type": "consectetur",
-        "ColorBlock": 59,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2014-01-29T03:31:33.8835899+01:00",
+        "Rank": 388,
+        "Type": "autem",
+        "ColorBlock": 224,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2023-02-04T03:24:52.4119449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "est",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "recusandae",
         "Hidden": true,
-        "FullName": "Gaston Mueller"
+        "FullName": "Lue Bartell"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Berneice Kuphal"
+    "ExtraInfo": "quod",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Leta Bechtelar"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "Carroll, O'Conner and Dach",
-    "ToolTip": "Quisquam omnis voluptas quos quo doloribus voluptas.",
+    "Id": 49,
+    "Name": "Marvin-Zboncak",
+    "ToolTip": "Reiciendis vel voluptatem perspiciatis.",
     "Deleted": false,
-    "Rank": 23,
-    "Type": "illum",
-    "ColorBlock": 240,
-    "IconHint": "omnis",
+    "Rank": 205,
+    "Type": "enim",
+    "ColorBlock": 328,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2018-12-15T03:31:33.8835899+01:00",
+    "LastChanged": "2005-12-22T03:24:52.4119449+01:00",
     "ChildItems": [
       {
-        "Id": 457,
-        "Name": "Schoen, Altenwerth and Fadel",
-        "ToolTip": "Corrupti quas eos.",
+        "Id": 587,
+        "Name": "Steuber-Greenholt",
+        "ToolTip": "Dolore quo delectus veritatis consequatur.",
         "Deleted": false,
-        "Rank": 865,
-        "Type": "aut",
-        "ColorBlock": 170,
-        "IconHint": "excepturi",
+        "Rank": 239,
+        "Type": "eum",
+        "ColorBlock": 793,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2017-06-22T03:31:33.8835899+02:00",
+        "LastChanged": "2012-05-28T03:24:52.4119449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "qui",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Chase Leuschke",
+        "FullName": "Flavie Angelina Hartmann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldLength": 111
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "qui",
+    "ExtraInfo": "facilis",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Yadira Leffler",
+    "FullName": "Ryley Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 524
       }
     }
   }

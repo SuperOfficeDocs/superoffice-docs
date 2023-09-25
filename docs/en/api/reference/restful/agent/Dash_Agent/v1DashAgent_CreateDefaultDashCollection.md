@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 526,
-      "UniqueId": "iure",
-      "Name": "Gutmann-Heaney",
-      "Description": "Reduced attitude-oriented success",
-      "AssociateId": 131,
-      "Columns": 143,
+      "DashboardId": 2,
+      "UniqueId": "non",
+      "Name": "Quitzon-Quitzon",
+      "Description": "Down-sized web-enabled concept",
+      "AssociateId": 332,
+      "Columns": 606,
       "Theme": null,
-      "VisibleForAll": 300,
+      "VisibleForAll": 340,
       "VisibleForAssociates": [
-        875,
-        69
+        231,
+        132
       ],
       "VisibleForGroups": [
-        996,
-        829
+        394,
+        524
       ],
-      "PinForAll": 344,
+      "PinForAll": 759,
       "PinForAssociates": [
-        988,
-        120
+        471,
+        621
       ],
       "PinForGroups": [
-        430,
-        186
+        915,
+        90
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 41
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 513,
-      "UniqueId": "ab",
-      "Name": "Emmerich LLC",
-      "Description": "Diverse client-driven definition",
-      "AssociateId": 118,
-      "Columns": 586,
+      "DashboardId": 792,
+      "UniqueId": "et",
+      "Name": "Stroman-Wisoky",
+      "Description": "Triple-buffered bifurcated structure",
+      "AssociateId": 144,
+      "Columns": 405,
       "Theme": null,
-      "VisibleForAll": 272,
+      "VisibleForAll": 625,
       "VisibleForAssociates": [
-        828,
-        320
+        703,
+        603
       ],
       "VisibleForGroups": [
-        992,
-        562
+        401,
+        957
       ],
-      "PinForAll": 338,
+      "PinForAll": 118,
       "PinForAssociates": [
-        643,
-        253
+        59,
+        131
       ],
       "PinForGroups": [
-        690,
-        825
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 171
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 596,
-      "UniqueId": "numquam",
-      "Name": "Goldner Inc and Sons",
-      "Description": "Profit-focused disintermediate data-warehouse",
-      "AssociateId": 201,
-      "Columns": 714,
-      "Theme": null,
-      "VisibleForAll": 180,
-      "VisibleForAssociates": [
-        822,
-        626
-      ],
-      "VisibleForGroups": [
-        340,
-        361
-      ],
-      "PinForAll": 10,
-      "PinForAssociates": [
-        844,
-        471
-      ],
-      "PinForGroups": [
-        808,
-        621
+        412,
+        452
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldLength": 33
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 283,
+      "UniqueId": "fugit",
+      "Name": "Hessel-Deckow",
+      "Description": "Visionary systemic open architecture",
+      "AssociateId": 30,
+      "Columns": 862,
+      "Theme": null,
+      "VisibleForAll": 794,
+      "VisibleForAssociates": [
+        992,
+        154
+      ],
+      "VisibleForGroups": [
+        946,
+        168
+      ],
+      "PinForAll": 882,
+      "PinForAssociates": [
+        139,
+        695
+      ],
+      "PinForGroups": [
+        457,
+        318
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 278
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

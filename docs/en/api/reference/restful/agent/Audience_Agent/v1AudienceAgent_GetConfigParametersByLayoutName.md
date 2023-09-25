@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Abbott-Beahan"
+  "LayoutName": "Waelchi-Christiansen"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 928,
-    "Name": "Abernathy, Hessel and Barrows",
-    "Value": "magni",
-    "CreatedDate": "2002-04-25T03:31:25.6339962+02:00",
-    "UpdatedDate": "2022-02-19T03:31:25.6339962+01:00",
-    "CreatedBy": "mollitia",
-    "UpdatedBy": "recusandae",
+    "AudienceLayoutId": 250,
+    "Name": "Bednar-Crona",
+    "Value": "atque",
+    "CreatedDate": "2012-07-12T03:24:47.2520803+02:00",
+    "UpdatedDate": "2000-12-28T03:24:47.2520803+01:00",
+    "CreatedBy": "et",
+    "UpdatedBy": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 58
       }
     }
   }

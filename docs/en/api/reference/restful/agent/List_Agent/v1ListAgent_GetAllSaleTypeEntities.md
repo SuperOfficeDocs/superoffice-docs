@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 946,
-    "Name": "Balistreri, Kassulke and Williamson",
-    "Tooltip": "nesciunt",
-    "Rank": 923,
+    "SaleTypeId": 82,
+    "Name": "Hodkiewicz, Kohler and Bernier",
+    "Tooltip": "consequuntur",
+    "Rank": 631,
     "DurationUnit": "Century",
-    "SaleDuration": 914,
-    "SaleTypeCatId": 52,
+    "SaleDuration": 250,
+    "SaleTypeCatId": 249,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 744,
-    "QuoteLinesTemplate": 107,
-    "ConfirmationLinesTemplate": 142,
-    "MaxDiscountPercentSet": true,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 639,
-    "MinEarningPercent": 840,
-    "GroupQuoteLinesBy": 51,
-    "SortGroupLinesBy": 665,
+    "DefaultQuoteValidity": 864,
+    "QuoteLinesTemplate": 253,
+    "ConfirmationLinesTemplate": 409,
+    "MaxDiscountPercentSet": false,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 624,
+    "MinEarningPercent": 198,
+    "GroupQuoteLinesBy": 589,
+    "SortGroupLinesBy": 282,
     "Stages": [
       {
-        "Id": 927,
-        "Name": "Gerlach LLC",
-        "ToolTip": "Ab voluptas dolor saepe nihil earum unde et.",
+        "Id": 668,
+        "Name": "Bosco, Greenholt and Wunsch",
+        "ToolTip": "Velit autem incidunt tempora.",
         "Deleted": false,
-        "Rank": 247,
-        "Type": "minus",
-        "ColorBlock": 472,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2002-06-05T03:31:26.6519338+02:00",
+        "Rank": 46,
+        "Type": "corrupti",
+        "ColorBlock": 719,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2016-01-18T03:24:47.8613878+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "non",
+        "ExtraInfo": "illo",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Naomi Kihn V",
+        "FullName": "Ms. Elbert Adriana Collier Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 142
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldLength": 774
       }
     }
   }

@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 23,
+  "LatestKnownEventId": 631,
   "PublishEvents": [
     {
-      "EventId": 154,
-      "EventName": "Hahn, Denesik and Barrows",
-      "EntityType": "enim",
-      "EntityKey": 358,
-      "AssociateId": 357,
-      "AssociateName": "Bradtke Inc and Sons",
-      "EventDateTime": "2010-07-13T03:31:27.841573+02:00"
+      "EventId": 579,
+      "EventName": "Sipes-Welch",
+      "EntityType": "saepe",
+      "EntityKey": 945,
+      "AssociateId": 355,
+      "AssociateName": "Aufderhar-Mitchell",
+      "EventDateTime": "1997-10-14T03:24:48.5966823+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Hayes, Grady and Zboncak",
-      "Value": 674
+      "Name": "Nikolaus, Fay and Leuschke",
+      "Value": 454
     },
     {
-      "Name": "Hayes, Grady and Zboncak",
-      "Value": 674
+      "Name": "Nikolaus, Fay and Leuschke",
+      "Value": 454
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 654,
-    "EventName": "Bauch Inc and Sons",
-    "EntityType": "adipisci",
-    "EntityKey": 743,
-    "AssociateId": 669,
-    "AssociateName": "Leuschke-Leannon",
-    "EventDateTime": "2007-11-12T03:31:27.841573+01:00",
+    "EventId": 662,
+    "EventName": "Hayes LLC",
+    "EntityType": "molestias",
+    "EntityKey": 754,
+    "AssociateId": 62,
+    "AssociateName": "Hilpert-Pouros",
+    "EventDateTime": "2015-10-31T03:24:48.5966823+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldLength": 430
       }
     }
   }

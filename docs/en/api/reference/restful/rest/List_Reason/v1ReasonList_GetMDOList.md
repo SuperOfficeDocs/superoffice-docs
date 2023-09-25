@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=True
-GET /api/v1/List/Reason/MDOItems?query=ipsam
+GET /api/v1/List/Reason/MDOItems?flat=False
+GET /api/v1/List/Reason/MDOItems?query=vel
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "Klein, Wisoky and Little",
-    "ToolTip": "Consequuntur sapiente.",
+    "Id": 615,
+    "Name": "Gottlieb, Treutel and Kuhlman",
+    "ToolTip": "Iste in enim pariatur repudiandae.",
     "Deleted": true,
-    "Rank": 981,
-    "Type": "dolores",
+    "Rank": 811,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Pouros-Trantow",
-        "ToolTip": "Aut et assumenda qui harum non voluptas molestiae.",
-        "Deleted": false,
-        "Rank": 306,
-        "Type": "dolorum",
+        "Id": 463,
+        "Name": "Reinger, Murazik and Berge",
+        "ToolTip": "Nam asperiores earum tempora et.",
+        "Deleted": true,
+        "Rank": 748,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "tenetur",
-        "ColorBlock": 413,
-        "ExtraInfo": "suscipit",
-        "StyleHint": "ab",
-        "FullName": "Mrs. Dayna Simonis",
+        "ColorBlock": 793,
+        "ExtraInfo": "ad",
+        "StyleHint": "et",
+        "FullName": "Zola Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldType": "System.Int32",
+            "FieldLength": 315
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 722,
-    "ExtraInfo": "nihil",
-    "StyleHint": "ut",
-    "FullName": "Mrs. Reynold Spinka II",
+    "IconHint": "eum",
+    "ColorBlock": 202,
+    "ExtraInfo": "nulla",
+    "StyleHint": "unde",
+    "FullName": "Elias Hirthe Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

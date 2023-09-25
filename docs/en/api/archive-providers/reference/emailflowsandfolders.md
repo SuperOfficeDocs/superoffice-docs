@@ -38,7 +38,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 |workflowId| *None* |Workflow id: Id of a worflow definition|  |
 |name|string|Name: Name of the workflow definition| x |
 |workflowDescription| *None* |Description: Description of the workflow definition|  |
-|workflowDefinitionStatus| *None* |Status: Status of the workflow definition|  |
+|workflowDefinitionStatus| *None* |E-mail flow status: Status of the workflow definition|  |
 |jumpToFinish| *None* |Jump to finish: Should participant jump to finish when the goals are met?|  |
 |startOnlyOnce| *None* |Start only once: Should the participant enter the workflow only once?|  |
 |workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this workflow|  |
@@ -85,7 +85,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=overrideConsentSubscription,workflowCompletedCount,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlowsAndFolders?$select=name,workflowAssociate/title,workflowCompletedCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

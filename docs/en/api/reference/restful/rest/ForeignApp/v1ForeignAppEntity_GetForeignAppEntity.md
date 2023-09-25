@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 25 May 2005 03:31:32 G5T
+Last-Modified: Wed, 29 May 1996 03:24:51 G5T
 
 {
-  "ForeignAppId": 206,
-  "Name": "Lubowitz Group",
-  "CreatedDate": "2010-07-23T03:31:32.6132803+02:00",
-  "UpdatedDate": "2005-05-25T03:31:32.6132803+02:00",
+  "ForeignAppId": 888,
+  "Name": "Cormier-Hickle",
+  "CreatedDate": "2017-08-05T03:24:51.6149823+02:00",
+  "UpdatedDate": "1996-05-29T03:24:51.6149823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 669,
-      "Name": "Rempel LLC",
-      "CreatedDate": "2022-01-08T03:31:32.6132803+01:00",
-      "UpdatedDate": "2012-05-03T03:31:32.6132803+02:00",
-      "AssociateFullName": "Whitney Hertha Stokes I",
-      "CreatedBy": "perspiciatis",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "facilis",
-      "ForeignAppId": 80,
+      "ForeignDeviceId": 310,
+      "Name": "Boyle-Mann",
+      "CreatedDate": "2011-07-16T03:24:51.6149823+02:00",
+      "UpdatedDate": "2009-03-25T03:24:51.6149823+01:00",
+      "AssociateFullName": "Ellsworth Martin Auer Sr.",
+      "CreatedBy": "et",
+      "UpdatedBy": "numquam",
+      "DeviceIdentifier": "rem",
+      "ForeignAppId": 243,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldLength": 930
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Wed, 25 May 2005 03:31:32 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   },
   "_Links": {

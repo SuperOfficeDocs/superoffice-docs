@@ -99,7 +99,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 926
+  "QuoteVersionId": 743
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 577,
-    "ERPQuoteAlternativeKey": "velit",
-    "QuoteVersionId": 153,
-    "Name": "McGlynn, Goldner and Adams",
-    "Description": "Enhanced dynamic firmware",
+    "QuoteAlternativeId": 635,
+    "ERPQuoteAlternativeKey": "voluptatem",
+    "QuoteVersionId": 446,
+    "Name": "Reilly-Cormier",
+    "Description": "Enhanced dynamic success",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 4807.556,
-    "ERPDiscountAmount": 24764.868,
-    "DiscountPercent": 31189.568,
-    "DiscountAmount": 19010.844,
+    "ERPDiscountPercent": 24924.701999999997,
+    "ERPDiscountAmount": 31314.928,
+    "DiscountPercent": 10903.186,
+    "DiscountAmount": 11978.148,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "ratione",
-    "VAT": 27507.118,
-    "EarningPercent": 21492.971999999998,
-    "EarningAmount": 19587.5,
-    "SubTotal": 20095.208,
-    "TotalPrice": 11567.594,
-    "ExtraField1": "voluptatem",
-    "ExtraField2": "sunt",
-    "ExtraField3": "iste",
-    "ExtraField4": "non",
-    "ExtraField5": "provident",
+    "VATInfo": "aperiam",
+    "VAT": 11661.614,
+    "EarningPercent": 9966.119999999999,
+    "EarningAmount": 2695.24,
+    "SubTotal": 5848.044,
+    "TotalPrice": 25401.07,
+    "ExtraField1": "neque",
+    "ExtraField2": "laborum",
+    "ExtraField3": "nostrum",
+    "ExtraField4": "qui",
+    "ExtraField5": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 811
       }
     }
   }

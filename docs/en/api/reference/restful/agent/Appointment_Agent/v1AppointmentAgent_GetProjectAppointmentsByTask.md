@@ -130,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 735,
-  "StartTime": "2012-01-22T03:31:25.1001331+01:00",
-  "EndTime": "2015-08-02T03:31:25.1001331+02:00",
-  "Count": 735,
-  "TaskId": 111
+  "ProjectId": 958,
+  "StartTime": "2004-04-05T03:24:46.9394467+02:00",
+  "EndTime": "2013-12-16T03:24:46.9394467+01:00",
+  "Count": 200,
+  "TaskId": 958
 }
 ```
 
@@ -150,64 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 21,
-    "StartDate": "1997-01-01T03:31:25.1001331+01:00",
-    "EndDate": "2018-02-06T03:31:25.1001331+01:00",
+    "AppointmentId": 2,
+    "StartDate": "2005-08-04T03:24:46.9394467+02:00",
+    "EndDate": "2020-11-05T03:24:46.9394467+01:00",
     "Type": "BookingForChecklist",
-    "Task": "praesentium",
-    "AssociateFullName": "Ervin Walker DVM",
-    "ContactName": "Dooley-Gottlieb",
-    "Description": "Multi-layered background secured line",
-    "PersonFullName": "Lew Grimes",
-    "PersonId": 941,
-    "ContactId": 975,
-    "ProjectId": 358,
-    "ProjectName": "Halvorson, O'Keefe and Padberg",
-    "IsPublished": false,
-    "AssociateId": 141,
-    "ColorIndex": 745,
+    "Task": "officiis",
+    "AssociateFullName": "Manley Goldner",
+    "ContactName": "Flatley, Hintz and Waelchi",
+    "Description": "Cloned multi-state Graphical User Interface",
+    "PersonFullName": "Ms. Emanuel Yundt Sr.",
+    "PersonId": 50,
+    "ContactId": 513,
+    "ProjectId": 667,
+    "ProjectName": "Schroeder LLC",
+    "IsPublished": true,
+    "AssociateId": 760,
+    "ColorIndex": 521,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 179,
-    "PriorityName": "Kuhic LLC",
+    "PriorityId": 355,
+    "PriorityName": "Champlin, Flatley and Morissette",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-06-11T03:31:25.1001331+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2009-03-25T03:24:46.9394467+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-06-06T03:31:25.1001331+02:00",
-    "RecurringEndDate": "2007-04-29T03:31:25.1001331+02:00",
-    "MotherId": 635,
-    "AssignedBy": 646,
-    "AssignedByFullName": "Brooks Schuster IV",
+    "RecurringStartDate": "2008-09-20T03:24:46.9394467+02:00",
+    "RecurringEndDate": "2003-10-16T03:24:46.9394467+02:00",
+    "MotherId": 195,
+    "AssignedBy": 627,
+    "AssignedByFullName": "Mr. Weston Ritchie",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "qui",
-    "SaleId": 110,
-    "SaleName": "Konopelski, Hauck and Cronin",
-    "AssociateName": "Barton, Spencer and Crist",
-    "CreatedDate": "2013-09-01T03:31:25.1001331+02:00",
-    "CreatedBy": "sunt",
-    "CreatedByFullName": "Marcellus Friesen",
-    "CreatedByAssociateId": 114,
+    "Location": "et",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 707,
+    "SaleName": "Corkery LLC",
+    "AssociateName": "Ziemann, Roberts and Hudson",
+    "CreatedDate": "2006-12-14T03:24:46.9394467+01:00",
+    "CreatedBy": "sed",
+    "CreatedByFullName": "Tianna Ankunding",
+    "CreatedByAssociateId": 480,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "non",
-    "Agenda": "et",
-    "InternalNotes": "ratione",
+    "Title": "rerum",
+    "Agenda": "qui",
+    "InternalNotes": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 223
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

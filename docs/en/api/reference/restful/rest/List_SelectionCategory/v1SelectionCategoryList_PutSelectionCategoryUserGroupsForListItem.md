@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "Christiansen, West and Abbott",
-    "ToolTip": "Et magni nobis saepe quia.",
-    "Deleted": false,
-    "Rank": 453,
-    "Type": "et",
-    "ColorBlock": 472,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2016-05-05T03:31:33.8835899+02:00",
+    "Id": 493,
+    "Name": "Buckridge Group",
+    "ToolTip": "Doloribus accusamus consequuntur minus ad nulla.",
+    "Deleted": true,
+    "Rank": 526,
+    "Type": "ducimus",
+    "ColorBlock": 877,
+    "IconHint": "dignissimos",
+    "Selected": false,
+    "LastChanged": "2009-12-11T03:24:52.4119449+01:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Sauer, Keeling and Barrows",
-        "ToolTip": "Id a ipsam accusantium et.",
-        "Deleted": false,
-        "Rank": 297,
-        "Type": "est",
-        "ColorBlock": 108,
-        "IconHint": "voluptatum",
+        "Id": 883,
+        "Name": "Huels, Botsford and Pfannerstill",
+        "ToolTip": "Quidem et rerum amet magnam dignissimos.",
+        "Deleted": true,
+        "Rank": 176,
+        "Type": "soluta",
+        "ColorBlock": 663,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2015-03-30T03:31:33.8835899+02:00",
+        "LastChanged": "2009-12-23T03:24:52.4119449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "ad",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Raina Addison Hermann I"
+        "FullName": "Kailee Von"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Elbert Wunsch"
+    "ExtraInfo": "ut",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Geraldine DuBuque"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Koch Group",
-    "ToolTip": "Aspernatur ea corporis quibusdam vel quis ut.",
+    "Id": 208,
+    "Name": "Hoppe LLC",
+    "ToolTip": "Expedita fuga.",
     "Deleted": false,
-    "Rank": 743,
-    "Type": "totam",
-    "ColorBlock": 744,
-    "IconHint": "occaecati",
-    "Selected": false,
-    "LastChanged": "1998-07-02T03:31:33.8835899+02:00",
+    "Rank": 194,
+    "Type": "accusantium",
+    "ColorBlock": 452,
+    "IconHint": "natus",
+    "Selected": true,
+    "LastChanged": "2009-09-11T03:24:52.4119449+02:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Mohr, Hoppe and Auer",
-        "ToolTip": "Corrupti nam exercitationem debitis et doloremque ut quia.",
+        "Id": 800,
+        "Name": "Muller, Haag and Hammes",
+        "ToolTip": "Repellendus aut veritatis rerum.",
         "Deleted": false,
-        "Rank": 740,
-        "Type": "et",
-        "ColorBlock": 54,
-        "IconHint": "libero",
+        "Rank": 713,
+        "Type": "ut",
+        "ColorBlock": 304,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2012-08-20T03:31:33.8835899+02:00",
+        "LastChanged": "2006-04-18T03:24:52.4119449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "itaque",
+        "ExtraInfo": "facere",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Jolie Mayer",
+        "FullName": "Prof. Myles Newell Daniel II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 538
+            "FieldType": "System.Int32",
+            "FieldLength": 845
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "harum",
+    "StyleHint": "pariatur",
     "Hidden": true,
-    "FullName": "Salvador Nienow",
+    "FullName": "Granville Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 968
       }
     }
   }

@@ -475,7 +475,7 @@ Shadow contact provider for the static ChatConversation provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowStaticSelectionV2?$select=associate/usergroup,person/personPager/formattedNumber,person/personInfo/textId,person/restrictionAddress/line3,person/personAssociate/middleName
+GET /api/v1/archive/ChatConversationShadowStaticSelectionV2?$select=agent,person/title,person/personPager/formattedNumber,contact/updatedDate,contact/contactUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

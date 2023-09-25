@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 863
+  "SaleId": 811
 }
 ```
 
@@ -149,125 +149,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-09-07T03:31:25.5246513+02:00",
-  "AppointmentId": 234,
-  "Description": "Programmable scalable solution",
-  "StartDate": "2017-02-03T03:31:25.5246513+01:00",
-  "EndDate": "2016-05-09T03:31:25.5246513+02:00",
+  "CreatedDate": "2022-08-25T03:24:47.1739602+02:00",
+  "AppointmentId": 754,
+  "Description": "Focused executive contingency",
+  "StartDate": "2005-11-01T03:24:47.1739602+01:00",
+  "EndDate": "1996-06-23T03:24:47.1739602+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 843,
+  "MotherId": 412,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-08-15T03:31:25.5246513+02:00",
+  "UpdatedDate": "2018-04-10T03:24:47.1739602+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 780,
+  "ActiveLinks": 928,
   "Links": [
     {
-      "EntityName": "Simonis-Cormier",
-      "Id": 612,
-      "Description": "Expanded non-volatile moderator",
-      "ExtraInfo": "aut",
-      "LinkId": 229,
+      "EntityName": "Koss, Renner and Daugherty",
+      "Id": 503,
+      "Description": "Customer-focused explicit productivity",
+      "ExtraInfo": "pariatur",
+      "LinkId": 350,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldType": "System.String",
+          "FieldLength": 64
         }
       }
     }
   ],
-  "AlarmLeadTime": "ullam",
+  "AlarmLeadTime": "recusandae",
   "HasAlarm": true,
-  "ColorIndex": 114,
+  "ColorIndex": 346,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "quia",
-  "LeadTime": "non",
-  "Location": "perspiciatis",
-  "RejectCounter": 814,
+  "LagTime": "accusamus",
+  "LeadTime": "sapiente",
+  "Location": "facere",
+  "RejectCounter": 840,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 725,
-      "PersonId": 174,
-      "ContactId": 501,
-      "EmailId": 301,
-      "SendEmail": false,
+      "AssociateId": 679,
+      "PersonId": 14,
+      "ContactId": 946,
+      "EmailId": 567,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 725,
-      "PersonId": 174,
-      "ContactId": 501,
-      "EmailId": 301,
-      "SendEmail": false,
+      "AssociateId": 679,
+      "PersonId": 14,
+      "ContactId": 946,
+      "EmailId": 567,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-10-01T03:31:25.5246513+02:00",
+  "ActiveDate": "2001-10-18T03:24:47.1739602+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 893,
+  "PreferredTZLocation": 988,
   "Sale": null,
-  "SuggestedAppointmentId": 161,
+  "SuggestedAppointmentId": 783,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "optio",
-  "Title": "nam",
-  "Agenda": "porro",
-  "InternalNotes": "sed",
+  "CentralserviceVideomeetId": "repellat",
+  "Title": "cum",
+  "Agenda": "ut",
+  "InternalNotes": "ipsam",
   "UserDefinedFields": {
-    "SuperOffice:1": "1769211925",
-    "SuperOffice:2": "1465856489"
+    "SuperOffice:1": "Alexie Hoeger",
+    "SuperOffice:2": "Jerry Fisher"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "optio",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "omnis"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2019-06-21T03:31:25.5246513+02:00",
-  "PublishTo": "2005-10-26T03:31:25.5246513+02:00",
-  "PublishFrom": "2022-03-16T03:31:25.5246513+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-06-18T03:24:47.1739602+02:00",
+  "PublishTo": "2000-07-11T03:24:47.1739602+02:00",
+  "PublishFrom": "2011-10-14T03:24:47.1739602+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 804,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 194
         }
       }
     },
     {
-      "VisibleId": 804,
+      "VisibleId": 269,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 194
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldType": "System.String",
+      "FieldLength": 49
     }
   }
 }

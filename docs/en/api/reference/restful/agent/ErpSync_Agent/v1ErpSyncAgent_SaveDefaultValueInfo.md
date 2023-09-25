@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 611,
-  "DefaultValue": "laborum",
+  "ErpFieldId": 291,
+  "DefaultValue": "quibusdam",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "et",
-  "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "aut",
+  "FirstSyncDefaultValue": "harum",
+  "PromptUser": true,
+  "Mandatory": true,
+  "ErpFieldKey": "dolorem",
   "FieldType": "Checkbox",
-  "ListName": "Rogahn Group",
+  "ListName": "Towne Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 142
     }
   }
 }

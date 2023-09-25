@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 968,
-  "Name": "Hoppe Inc and Sons",
-  "Tooltip": "ea",
+  "Id": 315,
+  "Name": "Prohaska-Barton",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 3,
-  "IsCustomList": true,
+  "Rank": 417,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 849,
-  "Name": "Koelpin-Larkin",
-  "Tooltip": "ut",
+  "Id": 8,
+  "Name": "Hilpert Group",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 995,
-  "IsCustomList": false,
+  "Rank": 510,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "culpa",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 591
     }
   }
 }

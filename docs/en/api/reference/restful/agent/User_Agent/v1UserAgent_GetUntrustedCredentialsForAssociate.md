@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 901,
-  "Type": "quis"
+  "AssociateId": 112,
+  "Type": "molestiae"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1997-06-27T03:31:27.7947096+02:00",
-    "ValidTo": "2015-04-20T03:31:27.7947096+02:00",
-    "Comment": "quae",
-    "SecretValue": "et",
-    "PublicValue": "ut",
+    "ValidFrom": "2019-07-14T03:24:48.5653818+02:00",
+    "ValidTo": "2015-04-25T03:24:48.5653818+02:00",
+    "Comment": "ut",
+    "SecretValue": "quia",
+    "PublicValue": "ratione",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 401
       }
     }
   }

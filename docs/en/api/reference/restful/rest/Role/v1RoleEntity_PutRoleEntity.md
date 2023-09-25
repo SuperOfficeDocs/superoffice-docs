@@ -107,16 +107,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 997,
-  "Name": "Hoeger-Kuphal",
-  "Tooltip": "rem",
+  "RoleId": 22,
+  "Name": "Beahan, Waters and Metz",
+  "Tooltip": "repellat",
   "RoleType": "Anonymous",
-  "Deleted": 915,
-  "Rank": 617,
-  "Created": "2001-12-13T03:31:32.8163583+01:00",
-  "UseCategories": 613,
+  "Deleted": 476,
+  "Rank": 268,
+  "Created": "2012-12-24T03:24:51.7557701+01:00",
+  "UseCategories": 60,
   "CreatedBy": null,
-  "Updated": "2021-06-29T03:31:32.8163583+02:00",
+  "Updated": "2012-12-29T03:24:51.7557701+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 920,
-  "Name": "Pouros Inc and Sons",
-  "Tooltip": "veritatis",
+  "RoleId": 821,
+  "Name": "Rath Inc and Sons",
+  "Tooltip": "omnis",
   "RoleType": "Anonymous",
-  "Deleted": 919,
-  "Rank": 962,
-  "Created": "2004-12-21T03:31:32.8163583+01:00",
-  "UseCategories": 515,
+  "Deleted": 582,
+  "Rank": 572,
+  "Created": "1998-07-16T03:24:51.7557701+02:00",
+  "UseCategories": 855,
   "CreatedBy": null,
-  "Updated": "2006-01-11T03:31:32.8163583+01:00",
+  "Updated": "2010-10-05T03:24:51.7557701+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 320
+      "FieldType": "System.Int32",
+      "FieldLength": 425
     }
   },
   "_Links": {

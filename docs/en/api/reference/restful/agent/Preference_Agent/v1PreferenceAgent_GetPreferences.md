@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "sint",
-      "Key": "quam"
+      "Section": "maiores",
+      "Key": "accusantium"
     },
     {
-      "Section": "sint",
-      "Key": "quam"
+      "Section": "maiores",
+      "Key": "accusantium"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "quo",
+    "RawValue": "voluptatem",
     "Specification": null,
     "DisplayValue": "architecto",
-    "DisplayTooltip": "incidunt",
+    "DisplayTooltip": "ea",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 521,
-    "PrefDescId": 582,
-    "TableName": "Hilpert Inc and Sons",
-    "UserPreferenceId": 536,
+    "TargetId": 446,
+    "PrefDescId": 885,
+    "TableName": "Crist Inc and Sons",
+    "UserPreferenceId": 269,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 216
       }
     }
   }

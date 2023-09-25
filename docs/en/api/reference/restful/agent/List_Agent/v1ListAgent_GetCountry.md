@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=750
+POST /api/v1/Agents/List/GetCountry?countryId=359
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 287,
-  "Name": "Krajcik-Prohaska",
-  "CurrencyId": 476,
-  "EnglishName": "Hartmann, Pfeffer and Gorczany",
+  "CountryId": 529,
+  "Name": "Schiller LLC",
+  "CurrencyId": 699,
+  "EnglishName": "Weissnat LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Devolved encompassing migration",
-  "OrgNrText": "1878973",
-  "InterAreaPrefix": "quaerat",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "praesentium",
-  "DomainName": "Kreiger, Turner and Effertz",
-  "AddressLayoutId": 70,
-  "DomesticAddressLayoutId": 831,
-  "ForeignAddressLayoutId": 700,
-  "Rank": 715,
-  "Tooltip": "itaque",
-  "Deleted": true,
+  "ImageDescription": "Reverse-engineered contextually-based pricing structure",
+  "OrgNrText": "1332773",
+  "InterAreaPrefix": "sequi",
+  "DialInPrefix": "vel",
+  "ZipPrefix": "ut",
+  "DomainName": "Carroll, Stroman and Lowe",
+  "AddressLayoutId": 741,
+  "DomesticAddressLayoutId": 867,
+  "ForeignAddressLayoutId": 926,
+  "Rank": 440,
+  "Tooltip": "quia",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

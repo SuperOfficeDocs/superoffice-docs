@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 291
+  "ChatSessionId": 203
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 303,
-  "TopicId": 921,
+  "ChatSessionId": 312,
+  "TopicId": 524,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolorem",
-  "CustomerHost": "ex",
-  "CustomerName": "Aufderhar-Kohler",
-  "CustomerEmail": "colleen.mertz@murray.co.uk",
-  "CustomerPhone": "338.175.3598 x5345",
+  "CustomerAlias": "nulla",
+  "CustomerHost": "ut",
+  "CustomerName": "Schmitt-Rolfson",
+  "CustomerEmail": "laron.turner@okeefebarton.com",
+  "CustomerPhone": "617-629-8132",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Greenholt LLC",
+  "CustomerCompanyName": "Hand Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "quis",
-  "WhenRequested": "1998-02-07T03:31:25.7589689+01:00",
-  "WhenStarted": "2019-11-13T03:31:25.7589689+01:00",
-  "WhenEnded": "2004-04-05T03:31:25.7589689+02:00",
-  "WhenIdle": "1998-04-13T03:31:25.7589689+02:00",
-  "WhenFetched": "1998-12-30T03:31:25.7589689+01:00",
-  "SessionKey": "adipisci",
-  "InitialQueuePos": 869,
-  "AlertLevel": 862,
-  "Rank": 744,
+  "FirstMessage": "placeat",
+  "LastMessage": "assumenda",
+  "WhenRequested": "2009-09-21T03:24:47.3145639+02:00",
+  "WhenStarted": "2013-09-29T03:24:47.3145639+02:00",
+  "WhenEnded": "2007-11-05T03:24:47.3145639+01:00",
+  "WhenIdle": "2017-06-03T03:24:47.3145639+02:00",
+  "WhenFetched": "2016-03-21T03:24:47.3145639+01:00",
+  "SessionKey": "dolor",
+  "InitialQueuePos": 478,
+  "AlertLevel": 627,
+  "Rank": 383,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 120,
+  "Rating": 76,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 302
     }
   }
 }

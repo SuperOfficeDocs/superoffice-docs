@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 587,
-  "Name": "Corkery-Lynch",
-  "Tooltip": "et",
-  "PassiveText": "ut",
+  "ReldefId": 139,
+  "Name": "Stracke Group",
+  "Tooltip": "quia",
+  "PassiveText": "quidem",
   "Deleted": false,
-  "Rank": 548,
+  "Rank": 30,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,20 +115,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 649,
-  "Name": "Feil, Mills and Cormier",
-  "Tooltip": "consequatur",
-  "PassiveText": "necessitatibus",
-  "Deleted": false,
-  "Rank": 524,
+  "ReldefId": 111,
+  "Name": "Grimes Group",
+  "Tooltip": "velit",
+  "PassiveText": "voluptatem",
+  "Deleted": true,
+  "Rank": 135,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 547
     }
   },
   "_Links": {

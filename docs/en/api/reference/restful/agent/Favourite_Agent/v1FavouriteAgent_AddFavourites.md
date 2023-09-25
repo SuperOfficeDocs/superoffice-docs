@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Welch, McKenzie and Ferry",
+  "TableName": "McDermott-Swaniawski",
   "RecordIds": [
-    880,
-    309
+    343,
+    658
   ],
-  "AssociateId": 495,
-  "ExtraInfo": "sint"
+  "AssociateId": 462,
+  "ExtraInfo": "beatae"
 }
 ```
 

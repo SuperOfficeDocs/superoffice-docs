@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 947,
-  "Name": "Goodwin-Champlin",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 4,
-  "UdListDefinitionId": 606
+  "HeadingId": 30,
+  "Name": "Kuhlman, Cummings and Effertz",
+  "Tooltip": "provident",
+  "Deleted": true,
+  "Rank": 951,
+  "UdListDefinitionId": 88
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 346,
-  "Name": "Gorczany-Ledner",
-  "Tooltip": "aut",
+  "HeadingId": 655,
+  "Name": "Kris Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 396,
-  "UdListDefinitionId": 640,
+  "Rank": 665,
+  "UdListDefinitionId": 686,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 850
     }
   }
 }

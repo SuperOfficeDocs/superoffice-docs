@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 959,
-  "TargetDimensionId": 684
+  "UserGroupId": 764,
+  "TargetDimensionId": 668
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 480,
+    "TargetAssignmentInfoId": 994,
     "Values": [
-      90,
-      849
+      482,
+      876
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 40,
-    "DimensionListItemDisplayName": "Turner-Wintheiser",
+    "DimensionListItem": 339,
+    "DimensionListItemDisplayName": "Zemlak Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 331
+        "FieldLength": 890
       }
     }
   }

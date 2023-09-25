@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Hermann Inc and Sons",
-  "PersonId": 507
+  "ParameterName": "Leffler-Marquardt",
+  "PersonId": 46
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 962,
-  "Name": "Littel, Parisian and Muller",
-  "Value": "quis",
-  "CreatedDate": "2015-10-24T03:31:25.6339962+02:00",
-  "UpdatedDate": "2003-01-12T03:31:25.6339962+01:00",
-  "CreatedBy": "aut",
-  "UpdatedBy": "laudantium",
+  "AudienceLayoutId": 847,
+  "Name": "Dibbert LLC",
+  "Value": "minima",
+  "CreatedDate": "2005-01-29T03:24:47.2520803+01:00",
+  "UpdatedDate": "2018-12-21T03:24:47.2520803+01:00",
+  "CreatedBy": "ut",
+  "UpdatedBy": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 82
     }
   }
 }

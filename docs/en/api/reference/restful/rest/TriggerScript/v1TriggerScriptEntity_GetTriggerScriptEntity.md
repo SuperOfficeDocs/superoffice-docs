@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 196,
-  "Name": "Beahan-Crona",
+  "ScreenChooserId": 800,
+  "Name": "Lesch-Rau",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ullam",
-  "Source": "id",
-  "Registered": "2016-07-23T03:31:33.2718572+02:00",
-  "RegisteredAssociateId": 45,
-  "Updated": "1999-01-02T03:31:33.2718572+01:00",
-  "UpdatedAssociateId": 350,
+  "Enabled": false,
+  "UniqueIdentifier": "distinctio",
+  "Source": "voluptate",
+  "Registered": "2015-10-17T03:24:52.0213616+02:00",
+  "RegisteredAssociateId": 125,
+  "Updated": "2007-07-29T03:24:52.0213616+02:00",
+  "UpdatedAssociateId": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 993
     }
   },
   "_Links": {

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 468,
-    "Name": "Lowe Group",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 568,
-    "UdListDefinitionId": 641
+    "HeadingId": 812,
+    "Name": "Bayer LLC",
+    "Tooltip": "in",
+    "Deleted": false,
+    "Rank": 605,
+    "UdListDefinitionId": 743
   },
   {
-    "HeadingId": 468,
-    "Name": "Lowe Group",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 568,
-    "UdListDefinitionId": 641
+    "HeadingId": 812,
+    "Name": "Bayer LLC",
+    "Tooltip": "in",
+    "Deleted": false,
+    "Rank": 605,
+    "UdListDefinitionId": 743
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 459,
-    "Name": "Langworth, Halvorson and Hagenes",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 809,
-    "UdListDefinitionId": 395,
+    "HeadingId": 381,
+    "Name": "Beatty, Schmitt and Spinka",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 507,
+    "UdListDefinitionId": 144,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldLength": 31
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Flatley Inc and Sons",
-    "ToolTip": "Qui corrupti temporibus excepturi placeat illo officia.",
-    "Deleted": true,
-    "Rank": 974,
-    "Type": "aperiam",
-    "ColorBlock": 846,
-    "IconHint": "labore",
+    "Id": 579,
+    "Name": "Hansen-Towne",
+    "ToolTip": "Est aperiam.",
+    "Deleted": false,
+    "Rank": 165,
+    "Type": "quis",
+    "ColorBlock": 904,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "1997-05-22T03:31:33.6010939+02:00",
+    "LastChanged": "2003-02-26T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "McKenzie, McCullough and Leuschke",
-        "ToolTip": "Est laborum et reiciendis commodi nostrum.",
-        "Deleted": false,
-        "Rank": 45,
-        "Type": "voluptatem",
-        "ColorBlock": 694,
-        "IconHint": "deleniti",
-        "Selected": false,
-        "LastChanged": "2019-07-10T03:31:33.6010939+02:00",
+        "Id": 418,
+        "Name": "Schroeder-Keebler",
+        "ToolTip": "Eius magnam possimus et ut.",
+        "Deleted": true,
+        "Rank": 740,
+        "Type": "repudiandae",
+        "ColorBlock": 868,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "2009-06-14T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Jonathan Watsica",
+        "ExtraInfo": "et",
+        "StyleHint": "culpa",
+        "Hidden": false,
+        "FullName": "Friedrich Sauer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 44
+            "FieldType": "System.String",
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "ad",
+    "ExtraInfo": "libero",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Ms. Margarette Schroeder MD",
+    "FullName": "Marcella Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldLength": 33
       }
     }
   }

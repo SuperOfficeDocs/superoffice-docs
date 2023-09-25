@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 616,
-  "ERPProductKey": "et"
+  "QuoteConnectionId": 158,
+  "ERPProductKey": "voluptatem"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 653,
-  "ERPProductKey": "ea",
-  "ERPPriceListKey": "facilis",
-  "Name": "Kozey-Frami",
-  "Description": "Intuitive client-driven firmware",
-  "Code": "illo",
-  "PriceUnit": "eveniet",
-  "QuantityUnit": "quia",
+  "ProductId": 761,
+  "ERPProductKey": "est",
+  "ERPPriceListKey": "occaecati",
+  "Name": "Bechtelar-Langosh",
+  "Description": "Cross-group actuating productivity",
+  "Code": "quos",
+  "PriceUnit": "placeat",
+  "QuantityUnit": "sed",
   "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "DefaultSubscriptionQuantity": 10420.55,
-  "ItemNumber": "1014080",
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 16907.93,
+  "ItemNumber": "989318",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "est",
-  "VAT": 12927.75,
-  "VATInfo": "officiis",
-  "UnitCost": 13106.387999999999,
-  "UnitMinimumPrice": 29741.66,
-  "UnitListPrice": 2469.592,
+  "ProductFamilyKey": "assumenda",
+  "ProductTypeKey": "perferendis",
+  "VAT": 6568.864,
+  "VATInfo": "enim",
+  "UnitCost": 27557.262,
+  "UnitMinimumPrice": 6518.7199999999993,
+  "UnitListPrice": 14422.668,
   "InAssortment": false,
-  "Supplier": "laudantium",
-  "SupplierCode": "quo",
-  "Rights": "est",
-  "Rule": "omnis",
+  "Supplier": "pariatur",
+  "SupplierCode": "alias",
+  "Rights": "quidem",
+  "Rule": "libero",
   "ExtraInfo": [
     {
-      "Name": "Keebler-Rowe",
-      "Value": "et",
+      "Name": "O'Keefe, Okuneva and Gulgowski",
+      "Value": "doloremque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldType": "System.String",
+          "FieldLength": 435
         }
       }
     },
     {
-      "Name": "Keebler-Rowe",
-      "Value": "et",
+      "Name": "O'Keefe, Okuneva and Gulgowski",
+      "Value": "doloremque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldType": "System.String",
+          "FieldLength": 435
         }
       }
     }
   ],
-  "RawExtraInfo": "exercitationem",
-  "ExtraField1": "debitis",
-  "ExtraField2": "excepturi",
-  "ExtraField3": "ipsa",
-  "ExtraField4": "velit",
-  "ExtraField5": "deleniti",
-  "InStock": 28406.575999999997,
+  "RawExtraInfo": "quia",
+  "ExtraField1": "atque",
+  "ExtraField2": "aut",
+  "ExtraField3": "corrupti",
+  "ExtraField4": "sit",
+  "ExtraField5": "sed",
+  "InStock": 10815.434,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   }
 }

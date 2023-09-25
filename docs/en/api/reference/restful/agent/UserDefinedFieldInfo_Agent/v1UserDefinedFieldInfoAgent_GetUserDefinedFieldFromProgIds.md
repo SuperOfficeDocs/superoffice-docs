@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "explicabo",
-    "quia"
+    "et",
+    "rerum"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 168,
-    "ColumnId": 178,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 45,
-    "FieldLabel": "eligendi",
-    "FieldLeft": 488,
-    "FieldTop": 533,
+    "UDefFieldId": 991,
+    "ColumnId": 200,
+    "FieldDefault": "dolor",
+    "FieldHeight": 722,
+    "FieldLabel": "error",
+    "FieldLeft": 944,
+    "FieldTop": 923,
     "FieldType": "Checkbox",
-    "FieldWidth": 472,
-    "FormatMask": "voluptatem",
+    "FieldWidth": 5,
+    "FormatMask": "accusantium",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 583,
-    "LabelLeft": 631,
-    "LabelTop": 73,
-    "LabelWidth": 87,
-    "LastVersionId": 969,
-    "ListTableId": 476,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 509,
+    "LabelLeft": 438,
+    "LabelTop": 676,
+    "LabelWidth": 374,
+    "LastVersionId": 992,
+    "ListTableId": 339,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 530,
-    "ProgId": "odit",
+    "Page1LineNo": 767,
+    "ProgId": "fugit",
     "IsReadOnly": true,
-    "ShortLabel": "est",
-    "TabOrder": 327,
-    "TextLength": 956,
-    "Tooltip": "id",
-    "UdefIdentity": 13,
-    "UDListDefinitionId": 350,
+    "ShortLabel": "nostrum",
+    "TabOrder": 33,
+    "TextLength": 160,
+    "Tooltip": "eos",
+    "UdefIdentity": 529,
+    "UDListDefinitionId": 589,
     "Justification": "Center",
-    "Version": 613,
-    "TemplateVariableName": "Zulauf-Nikolaus",
+    "Version": 499,
+    "TemplateVariableName": "Moen, Mann and Corwin",
     "HasBeenPublished": false,
-    "MdoListName": "Towne, Mann and Deckow",
+    "MdoListName": "Hickle, Conroy and Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 152
       }
     }
   }

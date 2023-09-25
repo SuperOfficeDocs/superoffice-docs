@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 135,
-  "PrefDescId": 206,
-  "PrefValue": "asperiores",
-  "PrefShowValue": "aut",
-  "Description": "Organic dynamic standardization",
-  "IsBuiltin": false
+  "PrefDescLineId": 590,
+  "PrefDescId": 183,
+  "PrefValue": "nihil",
+  "PrefShowValue": "et",
+  "Description": "Team-oriented intangible collaboration",
+  "IsBuiltin": true
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 316,
-  "PrefDescId": 616,
-  "PrefValue": "voluptatem",
-  "PrefShowValue": "consequatur",
-  "Description": "Ameliorated intangible archive",
-  "IsBuiltin": false,
+  "PrefDescLineId": 857,
+  "PrefDescId": 734,
+  "PrefValue": "consectetur",
+  "PrefShowValue": "et",
+  "Description": "Persevering zero administration product",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   },
   "_Links": {

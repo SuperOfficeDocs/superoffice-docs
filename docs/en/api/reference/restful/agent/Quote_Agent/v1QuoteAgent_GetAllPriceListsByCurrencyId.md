@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 55,
-  "CurrencyId": 156
+  "QuoteConnectionId": 376,
+  "CurrencyId": 813
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 733,
-    "ERPPriceListKey": "veritatis",
-    "QuoteConnectionId": 469,
-    "Name": "Pacocha LLC",
-    "Description": "Implemented intermediate protocol",
-    "Currency": "illum",
-    "CurrencyName": "Windler, Veum and Robel",
-    "ValidFrom": "2020-07-20T03:31:27.0905589+02:00",
-    "ValidTo": "2000-11-08T03:31:27.0905589+01:00",
-    "IsActive": true,
+    "PriceListId": 179,
+    "ERPPriceListKey": "quasi",
+    "QuoteConnectionId": 744,
+    "Name": "Trantow, Veum and Swaniawski",
+    "Description": "Organized demand-driven parallelism",
+    "Currency": "delectus",
+    "CurrencyName": "Anderson LLC",
+    "ValidFrom": "2001-09-12T03:24:48.1426062+02:00",
+    "ValidTo": "1999-02-05T03:24:48.1426062+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 467
       }
     }
   }

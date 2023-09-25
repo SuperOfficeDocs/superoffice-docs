@@ -101,6 +101,7 @@ TicketEntity found.
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -130,7 +131,7 @@ TicketEntity found.
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -140,21 +141,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 574,
-  "Title": "aut",
-  "CreatedAt": "2010-07-17T03:31:33.1625088+02:00",
-  "LastChanged": "2004-03-06T03:31:33.1625088+01:00",
-  "ReadByOwner": "1999-07-31T03:31:33.1625088+02:00",
-  "ReadByCustomer": "2021-07-15T03:31:33.1625088+02:00",
-  "FirstReadByOwner": "2021-12-04T03:31:33.1625088+01:00",
-  "FirstReadByUser": "2000-09-12T03:31:33.1625088+02:00",
-  "Activate": "2008-10-18T03:31:33.1625088+02:00",
-  "ClosedAt": "2004-02-11T03:31:33.1625088+01:00",
-  "RepliedAt": "2007-02-17T03:31:33.1625088+01:00",
-  "AlertTimeout": "2010-07-24T03:31:33.1625088+02:00",
-  "Deadline": "1997-03-01T03:31:33.1625088+01:00",
+  "TicketId": 579,
+  "Title": "nulla",
+  "CreatedAt": "2022-04-18T03:24:51.9588682+02:00",
+  "LastChanged": "2020-05-03T03:24:51.9588682+02:00",
+  "ReadByOwner": "2022-09-17T03:24:51.9588682+02:00",
+  "ReadByCustomer": "2008-02-07T03:24:51.9588682+01:00",
+  "FirstReadByOwner": "2020-03-11T03:24:51.9588682+01:00",
+  "FirstReadByUser": "1996-06-16T03:24:51.9588682+02:00",
+  "Activate": "2019-11-20T03:24:51.9588682+01:00",
+  "ClosedAt": "2018-11-20T03:24:51.9588682+01:00",
+  "RepliedAt": "2015-02-15T03:24:51.9588682+01:00",
+  "AlertTimeout": "2001-12-16T03:24:51.9588682+01:00",
+  "Deadline": "2004-02-06T03:24:51.9588682+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "facilis",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -165,165 +166,166 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sunt",
-      "PersonId": 562,
-      "Mrmrs": "dicta",
-      "Firstname": "Nella",
-      "Lastname": "Jast",
-      "MiddleName": "Gutmann, Gottlieb and Cruickshank",
-      "Title": "commodi",
-      "Description": "Fully-configurable attitude-oriented orchestration",
-      "Email": "coralie@jenkins.uk",
-      "FullName": "Mrs. Immanuel Wilkinson",
-      "DirectPhone": "974-426-5493 x945",
-      "FormalName": "Huels-Hoeger",
-      "CountryId": 640,
-      "ContactId": 169,
-      "ContactName": "Waelchi-McLaughlin",
-      "Retired": 754,
-      "Rank": 930,
-      "ActiveInterests": 690,
+      "Position": "ea",
+      "PersonId": 309,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Gilda",
+      "Lastname": "West",
+      "MiddleName": "Volkman, Boyle and Waelchi",
+      "Title": "voluptatum",
+      "Description": "Triple-buffered exuding core",
+      "Email": "favian@champlintillman.uk",
+      "FullName": "Lisandro Ruecker",
+      "DirectPhone": "095.090.0176",
+      "FormalName": "Jakubowski LLC",
+      "CountryId": 72,
+      "ContactId": 918,
+      "ContactName": "Stiedemann, Goodwin and Osinski",
+      "Retired": 190,
+      "Rank": 525,
+      "ActiveInterests": 12,
       "ContactDepartment": "",
-      "ContactCountryId": 787,
-      "ContactOrgNr": "887792",
-      "FaxPhone": "(819)855-6499",
-      "MobilePhone": "046.224.8153",
-      "ContactPhone": "1-649-611-5569 x55345",
-      "AssociateName": "Mills-Parker",
-      "AssociateId": 486,
+      "ContactCountryId": 765,
+      "ContactOrgNr": "128642",
+      "FaxPhone": "1-711-025-0231",
+      "MobilePhone": "1-182-965-1915 x5169",
+      "ContactPhone": "1-524-313-4303 x107",
+      "AssociateName": "Raynor-Kerluke",
+      "AssociateId": 634,
       "UsePersonAddress": true,
-      "ContactFax": "incidunt",
-      "Kanafname": "non",
-      "Kanalname": "nihil",
-      "Post1": "temporibus",
-      "Post2": "voluptates",
-      "Post3": "quae",
-      "EmailName": "benedict@schaden.info",
-      "ContactFullName": "Dr. Ruben Johnson",
-      "ActiveErpLinks": 391,
-      "TicketPriorityId": 162,
-      "SupportLanguageId": 104,
-      "SupportAssociateId": 983,
+      "ContactFax": "veniam",
+      "Kanafname": "ex",
+      "Kanalname": "odit",
+      "Post1": "qui",
+      "Post2": "soluta",
+      "Post3": "labore",
+      "EmailName": "marcel.collier@schaden.biz",
+      "ContactFullName": "Soledad O'Reilly",
+      "ActiveErpLinks": 485,
+      "TicketPriorityId": 784,
+      "SupportLanguageId": 223,
+      "SupportAssociateId": 313,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldLength": 53
         }
       }
     }
   ],
-  "AlertLevel": 935,
-  "ConnectId": 227,
+  "AlertLevel": 908,
+  "ConnectId": 655,
   "ReadStatus": "Green",
-  "TimeToReply": 621,
-  "RealTimeToReply": 298,
-  "TimeToClose": 992,
-  "RealTimeToClose": 870,
-  "TimeSpentInternally": 488,
-  "TimeSpentExternally": 468,
-  "TimeSpentQueue": 347,
-  "RealTimeSpentInternally": 181,
-  "RealTimeSpentExternally": 333,
-  "RealTimeSpentQueue": 945,
-  "HasAttachment": false,
-  "NumReplies": 38,
-  "NumMessages": 165,
-  "FromAddress": "quibusdam",
+  "TimeToReply": 637,
+  "RealTimeToReply": 6,
+  "TimeToClose": 742,
+  "RealTimeToClose": 584,
+  "TimeSpentInternally": 480,
+  "TimeSpentExternally": 491,
+  "TimeSpentQueue": 727,
+  "RealTimeSpentInternally": 448,
+  "RealTimeSpentExternally": 4,
+  "RealTimeSpentQueue": 237,
+  "TimeSpent": 420,
+  "HasAttachment": true,
+  "NumReplies": 17,
+  "NumMessages": 895,
+  "FromAddress": "vero",
   "Messages": [
     {
-      "TicketMessageId": 382,
-      "CreatedAt": "2020-05-04T03:31:33.1625088+02:00",
+      "TicketMessageId": 61,
+      "CreatedAt": "2015-10-04T03:24:51.9588682+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "ea",
-      "PersonId": 57,
-      "PersonFullName": "Darrell Bode",
-      "ContactId": 538,
-      "ContactName": "Hickle, Roob and Beatty",
+      "Important": false,
+      "Author": "reiciendis",
+      "PersonId": 502,
+      "PersonFullName": "Cletus Corwin",
+      "ContactId": 690,
+      "ContactName": "Bauch, Baumbach and Yundt",
       "ContactDepartment": "",
-      "NumAttachments": 445,
-      "EmailHeader": "zachery@kunde.ca",
+      "NumAttachments": 169,
+      "EmailHeader": "mavis@schusterborer.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "qui",
-      "Sentiment": 726,
-      "SentimentConfidence": 314,
-      "CreatedBy": 400,
-      "ChangedAt": "2003-10-21T03:31:33.1781336+02:00",
+      "Language": "numquam",
+      "Sentiment": 179,
+      "SentimentConfidence": 762,
+      "CreatedBy": 514,
+      "ChangedAt": "1997-04-26T03:24:51.9588682+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 926
+          "FieldLength": 449
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 600,
-      "Name": "Krajcik, Collier and Lakin",
-      "ToolTip": "Accusantium itaque omnis consequatur quia qui dolore qui.",
+      "Id": 389,
+      "Name": "Jast Group",
+      "ToolTip": "Corporis rerum et et in.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 40
+          "FieldType": "System.Int32",
+          "FieldLength": 153
         }
       }
     },
     {
-      "Id": 600,
-      "Name": "Krajcik, Collier and Lakin",
-      "ToolTip": "Accusantium itaque omnis consequatur quia qui dolore qui.",
+      "Id": 389,
+      "Name": "Jast Group",
+      "ToolTip": "Corporis rerum et et in.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 40
+          "FieldType": "System.Int32",
+          "FieldLength": 153
         }
       }
     }
   ],
-  "Language": "eum",
-  "Sentiment": 184,
-  "SentimentConfidence": 761,
-  "SuggestedCategoryId": 833,
+  "Language": "fuga",
+  "Sentiment": 985,
+  "SentimentConfidence": 55,
+  "SuggestedCategoryId": 918,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 158,
-  "IconHint": "omnis",
+  "OrigHumanCategoryId": 76,
+  "IconHint": "consectetur",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "ullam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "tempore"
+    "CustomFields1": "omnis",
+    "CustomFields2": "cumque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 776
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

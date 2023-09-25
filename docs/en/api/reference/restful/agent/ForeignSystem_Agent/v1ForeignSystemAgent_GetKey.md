@@ -90,11 +90,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bashirian LLC",
-  "DeviceName": "Hudson LLC",
-  "KeyName": "Wolf Group",
-  "TableName": "Lang, Kris and Hayes",
-  "RecordId": 822
+  "ApplicationName": "Jenkins, Goodwin and Parker",
+  "DeviceName": "Hilll-Prohaska",
+  "KeyName": "McKenzie-Robel",
+  "TableName": "O'Reilly-Blanda",
+  "RecordId": 409
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "delectus",
-  "Value": "soluta",
-  "RecordId": 802,
-  "CreatedDate": "2004-04-09T03:31:26.589451+02:00",
-  "UpdatedDate": "1997-11-08T03:31:26.589451+01:00",
-  "UpdatedBy": "eum",
-  "CreatedBy": "voluptatem",
-  "TableName": "Gulgowski, O'Connell and Rice",
+  "Key": "est",
+  "Value": "odio",
+  "RecordId": 608,
+  "CreatedDate": "1997-04-09T03:24:47.8145137+02:00",
+  "UpdatedDate": "2017-10-31T03:24:47.8145137+01:00",
+  "UpdatedBy": "numquam",
+  "CreatedBy": "vel",
+  "TableName": "Spencer, Prosacco and Sawayn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 347
     }
   }
 }

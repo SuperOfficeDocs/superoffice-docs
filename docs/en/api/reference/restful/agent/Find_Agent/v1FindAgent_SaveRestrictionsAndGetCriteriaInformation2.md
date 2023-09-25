@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "natus",
-  "ProviderName": "Feeney LLC",
-  "StorageKey": "dolorum",
-  "Restrictions": "perspiciatis",
-  "StaticColumns": "veritatis"
+  "StorageType": "nemo",
+  "ProviderName": "Zieme-Swaniawski",
+  "StorageKey": "voluptas",
+  "Restrictions": "atque",
+  "StaticColumns": "quas"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Parker, Cartwright and Smith",
-      "Operator": "et",
+      "Name": "Crist Group",
+      "Operator": "quis",
       "Values": [
-        "velit",
-        "quas"
+        "et",
+        "quae"
       ],
       "DisplayValues": [
-        "adipisci",
-        "aut"
+        "aperiam",
+        "eum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 130,
+      "InterParenthesis": 544,
       "InterOperator": "And",
-      "UniqueHash": 344
+      "UniqueHash": 556
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Green LLC",
-      "DisplayTooltip": "eos",
-      "DisplayType": "eveniet",
-      "CanOrderBy": true,
-      "Name": "Cole-Huels",
-      "CanRestrictBy": true,
-      "RestrictionType": "dignissimos",
-      "RestrictionListName": "Gulgowski, Lueilwitz and Armstrong",
+      "DisplayName": "Trantow, Gleason and Anderson",
+      "DisplayTooltip": "quae",
+      "DisplayType": "quo",
+      "CanOrderBy": false,
+      "Name": "Kutch-Marks",
+      "CanRestrictBy": false,
+      "RestrictionType": "illum",
+      "RestrictionListName": "Pfannerstill, Senger and McKenzie",
       "IsVisible": false,
-      "ExtraInfo": "beatae",
-      "Width": "qui",
-      "IconHint": "inventore",
-      "HeadingIconHint": "non"
+      "ExtraInfo": "eligendi",
+      "Width": "sunt",
+      "IconHint": "illo",
+      "HeadingIconHint": "ut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Roberts, Hammes and Stanton",
-      "PrimaryKey": 537,
+      "EntityName": "Runte Inc and Sons",
+      "PrimaryKey": 577,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "expedita",
-          "TooltipHint": "consequatur",
-          "LinkHint": "dolores"
+          "DisplayValue": "commodi",
+          "TooltipHint": "reprehenderit",
+          "LinkHint": "earum"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "voluptate",
+      "LinkHint": "quia",
+      "StyleHint": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Heathcote-Hansen",
-      "Description": "Reverse-engineered static software",
-      "Rank": 408,
+      "Name": "Feil Inc and Sons",
+      "Description": "Object-based content-based encryption",
+      "Rank": 537,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Heathcote-Hansen",
-      "Description": "Reverse-engineered static software",
-      "Rank": 408,
+      "Name": "Feil Inc and Sons",
+      "Description": "Object-based content-based encryption",
+      "Rank": 537,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldLength": 340
     }
   }
 }

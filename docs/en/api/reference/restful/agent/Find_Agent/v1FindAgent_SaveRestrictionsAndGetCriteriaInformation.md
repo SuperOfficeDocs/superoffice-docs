@@ -86,35 +86,35 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "hic",
-  "ProviderName": "Kerluke LLC",
-  "StorageKey": "quia",
+  "StorageType": "autem",
+  "ProviderName": "Lakin-Kuphal",
+  "StorageKey": "similique",
   "Restrictions": [
     {
-      "Name": "Fritsch Inc and Sons",
-      "Operator": "in",
+      "Name": "Boyer, Thompson and Kihn",
+      "Operator": "et",
       "Values": [
-        "mollitia",
-        "est"
+        "non",
+        "sit"
       ],
       "DisplayValues": [
-        "nihil",
-        "consequatur"
+        "officia",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 32,
+      "InterParenthesis": 647,
       "InterOperator": "And",
-      "UniqueHash": 695
+      "UniqueHash": 478
     }
   ],
   "StaticColumns": [
-    "qui",
-    "excepturi"
+    "quas",
+    "sequi"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "King, Conn and Cole",
-      "Operator": "nostrum",
+      "Name": "Wolff Inc and Sons",
+      "Operator": "quisquam",
       "Values": [
-        "eum",
-        "ut"
+        "et",
+        "molestias"
       ],
       "DisplayValues": [
-        "eum",
-        "nihil"
+        "ea",
+        "quo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 976,
+      "InterParenthesis": 648,
       "InterOperator": "And",
-      "UniqueHash": 320
+      "UniqueHash": 476
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Robel-Grady",
-      "DisplayTooltip": "et",
-      "DisplayType": "quas",
+      "DisplayName": "Pagac LLC",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "eum",
       "CanOrderBy": false,
-      "Name": "O'Reilly Group",
+      "Name": "Spencer, Johns and McDermott",
       "CanRestrictBy": false,
-      "RestrictionType": "cum",
-      "RestrictionListName": "Olson-Bechtelar",
+      "RestrictionType": "porro",
+      "RestrictionListName": "Kuvalis LLC",
       "IsVisible": false,
-      "ExtraInfo": "error",
-      "Width": "aut",
-      "IconHint": "quae",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "vel",
+      "Width": "dicta",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "rem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Heller-Mayert",
-      "PrimaryKey": 630,
+      "EntityName": "Leffler-Wunsch",
+      "PrimaryKey": 532,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "autem",
-          "LinkHint": "corporis"
+          "DisplayValue": "deleniti",
+          "TooltipHint": "et",
+          "LinkHint": "aliquam"
         }
       },
-      "LinkHint": "illum",
-      "StyleHint": "iusto",
+      "LinkHint": "laudantium",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 741
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Price-Harris",
-      "Description": "Ameliorated 24 hour model",
-      "Rank": 306,
+      "Name": "Tremblay Group",
+      "Description": "Virtual holistic standardization",
+      "Rank": 498,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Price-Harris",
-      "Description": "Ameliorated 24 hour model",
-      "Rank": 306,
+      "Name": "Tremblay Group",
+      "Description": "Virtual holistic standardization",
+      "Rank": 498,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 975
     }
   }
 }

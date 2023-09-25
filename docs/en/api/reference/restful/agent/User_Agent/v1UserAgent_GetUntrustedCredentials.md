@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "provident"
+  "Type": "suscipit"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "1996-12-17T03:31:27.7947096+01:00",
-    "ValidTo": "2019-04-10T03:31:27.7947096+02:00",
-    "Comment": "blanditiis",
-    "SecretValue": "dicta",
-    "PublicValue": "magnam",
+    "ValidFrom": "2023-01-26T03:24:48.5653818+01:00",
+    "ValidTo": "2023-06-02T03:24:48.5653818+02:00",
+    "Comment": "ipsum",
+    "SecretValue": "est",
+    "PublicValue": "aut",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 533
       }
     }
   }

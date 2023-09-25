@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Collier, Schaefer and Grady",
-  "RecordId": 942,
-  "AssociateId": 963,
-  "ExtraInfo": "ea"
+  "TableName": "Bahringer Group",
+  "RecordId": 478,
+  "AssociateId": 775,
+  "ExtraInfo": "in"
 }
 ```
 

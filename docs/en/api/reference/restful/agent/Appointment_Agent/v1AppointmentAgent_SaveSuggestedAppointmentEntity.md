@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 104,
-  "Name": "Schamberger, Schmidt and Beahan",
-  "Tooltip": "fugiat",
-  "Rank": 29,
+  "SuggestedAppointmentId": 103,
+  "Name": "Parisian Group",
+  "Tooltip": "eos",
+  "Rank": 915,
   "Deleted": false,
-  "DaysFuture": 969,
-  "Duration": "voluptatem",
+  "DaysFuture": 150,
+  "Duration": "est",
   "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "distinctio",
+  "AssignToMember": true,
+  "Text": "asperiores",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 366,
-  "Name": "Hahn-Toy",
-  "Tooltip": "pariatur",
-  "Rank": 569,
-  "Deleted": true,
-  "DaysFuture": 570,
-  "Duration": "odit",
-  "AutoSuggest": true,
-  "IsMilestone": true,
+  "SuggestedAppointmentId": 646,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "beatae",
+  "Rank": 210,
+  "Deleted": false,
+  "DaysFuture": 990,
+  "Duration": "in",
+  "AutoSuggest": false,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "qui",
+  "Text": "eos",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   }
 }

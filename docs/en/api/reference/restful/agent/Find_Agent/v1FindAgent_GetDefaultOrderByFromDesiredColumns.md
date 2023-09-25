@@ -79,10 +79,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Willms-Turcotte",
+  "ProviderName": "Krajcik, Hayes and Sporer",
   "DesiredColumns": [
-    "ullam",
-    "quis"
+    "totam",
+    "cum"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Satterfield-Nader",
+    "Name": "Welch Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Satterfield-Nader",
+    "Name": "Welch Inc and Sons",
     "Direction": "ASC"
   }
 ]

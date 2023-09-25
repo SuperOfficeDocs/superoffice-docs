@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "UdListDefinitionId": 968,
+  "Id": 845,
+  "UdListDefinitionId": 466,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 730,
-  "Name": "Dicki Group",
-  "Tooltip": "qui",
+  "Id": 693,
+  "Name": "Christiansen, Schmidt and Kuhlman",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 946,
-  "Rank": 965,
+  "UdListDefinitionId": 316,
+  "Rank": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

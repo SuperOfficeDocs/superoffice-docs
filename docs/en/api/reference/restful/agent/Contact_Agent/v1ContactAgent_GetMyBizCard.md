@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 525,
-  "Name": "Swift, Lynch and Veum",
+  "ContactId": 706,
+  "Name": "Rutherford-Muller",
   "Department": "",
-  "OrgNr": "1140211",
-  "Number1": "985752",
-  "Number2": "481860",
-  "UpdatedDate": "2003-01-18T03:31:25.9165935+01:00",
-  "CreatedDate": "1997-02-22T03:31:25.9165935+01:00",
+  "OrgNr": "1323000",
+  "Number1": "599479",
+  "Number2": "591576",
+  "UpdatedDate": "2001-10-15T03:24:47.4239365+02:00",
+  "CreatedDate": "2022-05-19T03:24:47.4239365+02:00",
   "Emails": [
     {
-      "Value": "aut",
-      "StrippedValue": "ratione",
-      "Description": "Visionary assymetric archive",
+      "Value": "porro",
+      "StrippedValue": "amet",
+      "Description": "Profound zero tolerance installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 761
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "ratione",
-      "Description": "Visionary assymetric archive",
+      "Value": "porro",
+      "StrippedValue": "amet",
+      "Description": "Profound zero tolerance installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 612
+          "FieldLength": 761
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 511,
-      "Name": "Christiansen-Bashirian",
-      "ToolTip": "Vel doloribus laboriosam qui qui modi.",
+      "Id": 631,
+      "Name": "Braun Group",
+      "ToolTip": "Impedit accusantium maiores ea consequatur quo.",
       "Deleted": false,
-      "Rank": 670,
-      "Type": "corrupti",
-      "ColorBlock": 483,
-      "IconHint": "nisi",
+      "Rank": 655,
+      "Type": "sed",
+      "ColorBlock": 119,
+      "IconHint": "neque",
       "Selected": false,
-      "LastChanged": "2006-09-20T03:31:25.9165935+02:00",
+      "LastChanged": "2016-06-25T03:24:47.4239365+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "excepturi",
-      "StyleHint": "maxime",
+      "ExtraInfo": "mollitia",
+      "StyleHint": "aliquid",
       "Hidden": false,
-      "FullName": "Garrison Strosin",
+      "FullName": "Opal Balistreri",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 591
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "reiciendis",
-      "StrippedValue": "modi",
-      "Description": "Team-oriented tertiary matrix",
+      "Value": "rerum",
+      "StrippedValue": "ullam",
+      "Description": "De-engineered radical knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 769
         }
       }
     },
     {
-      "Value": "reiciendis",
-      "StrippedValue": "modi",
-      "Description": "Team-oriented tertiary matrix",
+      "Value": "rerum",
+      "StrippedValue": "ullam",
+      "Description": "De-engineered radical knowledge base",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 769
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "consequatur",
-      "StrippedValue": "vero",
-      "Description": "Reduced eco-centric migration",
+      "Value": "quia",
+      "StrippedValue": "deserunt",
+      "Description": "Down-sized zero administration workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 266
         }
       }
     },
     {
-      "Value": "consequatur",
-      "StrippedValue": "vero",
-      "Description": "Reduced eco-centric migration",
+      "Value": "quia",
+      "StrippedValue": "deserunt",
+      "Description": "Down-sized zero administration workforce",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 266
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "repellendus",
-      "StrippedValue": "distinctio",
-      "Description": "Focused homogeneous framework",
+      "Value": "sed",
+      "StrippedValue": "dolor",
+      "Description": "Seamless heuristic installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 515
         }
       }
     },
     {
-      "Value": "repellendus",
-      "StrippedValue": "distinctio",
-      "Description": "Focused homogeneous framework",
+      "Value": "sed",
+      "StrippedValue": "dolor",
+      "Description": "Seamless heuristic installation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 828
+          "FieldLength": 515
         }
       }
     }
   ],
-  "Description": "Synchronised national access",
+  "Description": "Fundamental context-sensitive moderator",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "provident",
-      "PersonId": 301,
-      "Mrmrs": "quia",
-      "Firstname": "Kenton",
-      "Lastname": "Breitenberg",
-      "MiddleName": "Schulist Group",
-      "Title": "autem",
-      "Description": "Profound assymetric architecture",
-      "Email": "mac_green@hagenes.name",
-      "FullName": "Valentin Zboncak",
-      "DirectPhone": "1-376-653-9295 x06008",
-      "FormalName": "Lang, Ankunding and Botsford",
-      "CountryId": 328,
-      "ContactId": 518,
-      "ContactName": "Deckow, Ryan and Herman",
-      "Retired": 503,
-      "Rank": 268,
-      "ActiveInterests": 172,
+      "Position": "ut",
+      "PersonId": 232,
+      "Mrmrs": "similique",
+      "Firstname": "Samantha",
+      "Lastname": "Wisozk",
+      "MiddleName": "Robel LLC",
+      "Title": "eligendi",
+      "Description": "Cloned hybrid time-frame",
+      "Email": "grady@wisozk.us",
+      "FullName": "Blaze Botsford I",
+      "DirectPhone": "(531)001-2221",
+      "FormalName": "Fay-McGlynn",
+      "CountryId": 918,
+      "ContactId": 58,
+      "ContactName": "Pouros Group",
+      "Retired": 326,
+      "Rank": 109,
+      "ActiveInterests": 284,
       "ContactDepartment": "",
-      "ContactCountryId": 125,
-      "ContactOrgNr": "1285818",
-      "FaxPhone": "436.922.8892 x381",
-      "MobilePhone": "1-553-171-6024",
-      "ContactPhone": "427-968-4650",
-      "AssociateName": "Luettgen LLC",
-      "AssociateId": 36,
-      "UsePersonAddress": false,
-      "ContactFax": "qui",
-      "Kanafname": "aut",
-      "Kanalname": "eveniet",
-      "Post1": "qui",
-      "Post2": "non",
-      "Post3": "voluptates",
-      "EmailName": "mckayla_terry@wiegand.ca",
-      "ContactFullName": "Alessandro Conn",
-      "ActiveErpLinks": 980,
-      "TicketPriorityId": 951,
-      "SupportLanguageId": 320,
-      "SupportAssociateId": 690,
+      "ContactCountryId": 592,
+      "ContactOrgNr": "961739",
+      "FaxPhone": "402.328.8990",
+      "MobilePhone": "(855)044-5421",
+      "ContactPhone": "142-967-2844",
+      "AssociateName": "Corwin-Ernser",
+      "AssociateId": 704,
+      "UsePersonAddress": true,
+      "ContactFax": "harum",
+      "Kanafname": "nihil",
+      "Kanalname": "sunt",
+      "Post1": "rerum",
+      "Post2": "expedita",
+      "Post3": "non",
+      "EmailName": "titus@kihn.info",
+      "ContactFullName": "Mrs. Ladarius Ova Hudson Sr.",
+      "ActiveErpLinks": 280,
+      "TicketPriorityId": 753,
+      "SupportLanguageId": 157,
+      "SupportAssociateId": 438,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldLength": 515
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "maiores",
-  "Xstop": true,
-  "ActiveInterests": 780,
-  "GroupId": 856,
-  "ActiveStatusMonitorId": 745,
+  "NoMailing": true,
+  "Kananame": "cupiditate",
+  "Xstop": false,
+  "ActiveInterests": 645,
+  "GroupId": 656,
+  "ActiveStatusMonitorId": 168,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 86,
-  "DbiAgentId": 961,
-  "DbiLastSyncronized": "2003-12-29T03:31:25.9165935+01:00",
-  "DbiKey": "laboriosam",
-  "DbiLastModified": "2010-03-18T03:31:25.9165935+01:00",
+  "Deleted": 494,
+  "DbiAgentId": 283,
+  "DbiLastSyncronized": "2018-06-16T03:24:47.4239365+02:00",
+  "DbiKey": "ipsam",
+  "DbiLastModified": "2000-12-05T03:24:47.4239365+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 217,
-  "ActiveErpLinks": 842,
+  "Source": 230,
+  "ActiveErpLinks": 558,
   "BounceEmails": [
-    "stuart.pollich@conn.name",
-    "favian.williamson@romaguerajacobson.com"
+    "magdalena.swift@ryan.us",
+    "werner_swaniawski@schinner.biz"
   ],
   "Domains": [
-    "aut",
-    "aut"
+    "fuga",
+    "dolor"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "442029518"
+    "SuperOffice:1": "Mekhi Deshaun Welch IV",
+    "SuperOffice:2": "Mr. Yoshiko Donnell Beahan MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "error"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "quia"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 708
     }
   }
 }

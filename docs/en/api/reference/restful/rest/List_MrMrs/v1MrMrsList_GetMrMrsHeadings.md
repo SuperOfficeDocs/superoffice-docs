@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 853,
-    "Name": "Wilderman, Nitzsche and McCullough",
-    "Tooltip": "id",
-    "Deleted": false,
-    "Rank": 679,
-    "UdListDefinitionId": 775,
+    "HeadingId": 802,
+    "Name": "Grant-Nikolaus",
+    "Tooltip": "deleniti",
+    "Deleted": true,
+    "Rank": 177,
+    "UdListDefinitionId": 802,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 693
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

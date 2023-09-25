@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "placeat",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "placeat",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 385,
-  "TopicId": 53,
+  "ChatSessionId": 347,
+  "TopicId": 495,
   "User": null,
   "Person": null,
-  "CustomerAlias": "odit",
-  "CustomerHost": "quae",
-  "CustomerName": "Mertz LLC",
-  "CustomerEmail": "fernando_sporer@terryemard.biz",
-  "CustomerPhone": "673.558.2509 x65202",
+  "CustomerAlias": "quaerat",
+  "CustomerHost": "vel",
+  "CustomerName": "Prosacco-Wiegand",
+  "CustomerEmail": "joanny.mills@gislasonlueilwitz.us",
+  "CustomerPhone": "958.656.4642",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kunze, Fisher and Botsford",
+  "CustomerCompanyName": "Towne LLC",
   "Status": "Closed",
-  "FirstMessage": "hic",
-  "LastMessage": "dolorum",
-  "WhenRequested": "2010-04-04T03:31:32.2852427+02:00",
-  "WhenStarted": "2002-03-30T03:31:32.2852427+01:00",
-  "WhenEnded": "2006-10-05T03:31:32.2852427+02:00",
-  "WhenIdle": "1997-09-05T03:31:32.2852427+02:00",
-  "WhenFetched": "2020-10-03T03:31:32.2852427+02:00",
-  "SessionKey": "consequatur",
-  "InitialQueuePos": 150,
-  "AlertLevel": 234,
-  "Rank": 75,
+  "FirstMessage": "sint",
+  "LastMessage": "ab",
+  "WhenRequested": "2005-05-12T03:24:51.3960792+02:00",
+  "WhenStarted": "2010-11-26T03:24:51.3960792+01:00",
+  "WhenEnded": "2002-06-09T03:24:51.3960792+02:00",
+  "WhenIdle": "2002-04-26T03:24:51.3960792+02:00",
+  "WhenFetched": "2015-03-17T03:24:51.3960792+01:00",
+  "SessionKey": "nesciunt",
+  "InitialQueuePos": 693,
+  "AlertLevel": 949,
+  "Rank": 311,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,18 +192,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 308,
+  "Rating": 643,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldLength": 789
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

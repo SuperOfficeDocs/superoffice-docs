@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 559,
-  "Name": "Gislason-Cole",
-  "CreatedDate": "2021-10-21T03:31:32.6289016+02:00",
-  "UpdatedDate": "2010-07-04T03:31:32.6289016+02:00",
-  "AssociateFullName": "Chet Frami",
-  "CreatedBy": "autem",
-  "UpdatedBy": "minus",
-  "DeviceIdentifier": "fugit",
-  "ForeignAppId": 685
+  "ForeignDeviceId": 863,
+  "Name": "Grimes Inc and Sons",
+  "CreatedDate": "2021-12-13T03:24:51.630601+01:00",
+  "UpdatedDate": "2006-05-22T03:24:51.630601+02:00",
+  "AssociateFullName": "Darron Barton",
+  "CreatedBy": "libero",
+  "UpdatedBy": "possimus",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 872
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 867,
-  "Name": "Beer-Renner",
-  "CreatedDate": "2005-01-25T03:31:32.6289016+01:00",
-  "UpdatedDate": "2018-09-04T03:31:32.6289016+02:00",
-  "AssociateFullName": "Clint Rocky Little I",
-  "CreatedBy": "accusamus",
-  "UpdatedBy": "sed",
-  "DeviceIdentifier": "soluta",
-  "ForeignAppId": 500,
+  "ForeignDeviceId": 422,
+  "Name": "Weber-Ebert",
+  "CreatedDate": "2021-12-27T03:24:51.630601+01:00",
+  "UpdatedDate": "2019-12-12T03:24:51.630601+01:00",
+  "AssociateFullName": "Annetta Nicolas",
+  "CreatedBy": "eos",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "asperiores",
+  "ForeignAppId": 895,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldLength": 912
     }
   }
 }

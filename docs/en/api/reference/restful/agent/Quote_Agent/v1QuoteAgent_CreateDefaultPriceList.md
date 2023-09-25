@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 868,
-  "ERPPriceListKey": "ex",
-  "QuoteConnectionId": 258,
-  "Name": "Hintz Inc and Sons",
-  "Description": "Ameliorated bi-directional paradigm",
-  "Currency": "vel",
-  "CurrencyName": "Sanford, Wehner and Willms",
-  "ValidFrom": "2012-02-13T03:31:27.0580843+01:00",
-  "ValidTo": "2020-12-21T03:31:27.0580843+01:00",
+  "PriceListId": 575,
+  "ERPPriceListKey": "eveniet",
+  "QuoteConnectionId": 380,
+  "Name": "Krajcik Inc and Sons",
+  "Description": "Virtual radical monitoring",
+  "Currency": "nemo",
+  "CurrencyName": "Sauer LLC",
+  "ValidFrom": "2008-01-15T03:24:48.1269787+01:00",
+  "ValidTo": "2016-08-21T03:24:48.1269787+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

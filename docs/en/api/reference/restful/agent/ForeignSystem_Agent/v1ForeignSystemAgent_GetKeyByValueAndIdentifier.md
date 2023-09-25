@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bernhard, Schoen and Franecki",
-  "DeviceName": "Corkery Group",
-  "DeviceIdentifier": "animi",
-  "KeyName": "Block-Parker",
-  "KeyValue": "distinctio",
-  "TableName": "McKenzie, Kiehn and McGlynn"
+  "ApplicationName": "Maggio-Altenwerth",
+  "DeviceName": "Orn, Yost and Donnelly",
+  "DeviceIdentifier": "hic",
+  "KeyName": "Kulas, Pagac and Jones",
+  "KeyValue": "praesentium",
+  "TableName": "Ondricka, Bernier and King"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "velit",
-  "Value": "maxime",
-  "RecordId": 806,
-  "CreatedDate": "2012-09-23T03:31:26.589451+02:00",
-  "UpdatedDate": "2016-05-14T03:31:26.589451+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "provident",
-  "TableName": "Connelly Group",
+  "Key": "deserunt",
+  "Value": "porro",
+  "RecordId": 152,
+  "CreatedDate": "2001-06-17T03:24:47.8301403+02:00",
+  "UpdatedDate": "1997-07-01T03:24:47.8301403+02:00",
+  "UpdatedBy": "vel",
+  "CreatedBy": "assumenda",
+  "TableName": "McGlynn, Ward and Rohan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 980
     }
   }
 }

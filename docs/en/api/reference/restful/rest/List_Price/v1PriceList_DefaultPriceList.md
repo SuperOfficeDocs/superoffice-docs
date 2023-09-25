@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 473,
-  "ERPPriceListKey": "atque",
-  "QuoteConnectionId": 682,
-  "Name": "Senger, Haley and Bins",
-  "Description": "Re-contextualized reciprocal middleware",
-  "Currency": "delectus",
-  "CurrencyName": "Conn Inc and Sons",
-  "ValidFrom": "2019-01-09T03:31:33.696079+01:00",
-  "ValidTo": "2001-09-22T03:31:33.696079+02:00",
+  "PriceListId": 97,
+  "ERPPriceListKey": "quo",
+  "QuoteConnectionId": 966,
+  "Name": "Hessel LLC",
+  "Description": "Expanded logistical interface",
+  "Currency": "et",
+  "CurrencyName": "Haag Inc and Sons",
+  "ValidFrom": "1997-02-08T03:24:52.3025813+01:00",
+  "ValidTo": "2011-11-01T03:24:52.3025813+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 288
     }
   }
 }

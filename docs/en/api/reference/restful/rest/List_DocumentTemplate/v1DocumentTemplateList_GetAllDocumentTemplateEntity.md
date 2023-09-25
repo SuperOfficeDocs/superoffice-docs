@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 813,
-    "Name": "Reichert Inc and Sons",
-    "Tooltip": "nihil",
-    "SaveInDb": 122,
-    "Filename": "velit",
-    "DefaultOref": "fugiat",
+    "DocumentTemplateId": 130,
+    "Name": "Ernser Inc and Sons",
+    "Tooltip": "quas",
+    "SaveInDb": 732,
+    "Filename": "consequatur",
+    "DefaultOref": "et",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 173,
-    "IntentId": 853,
+    "AutoeventId": 108,
+    "IntentId": 857,
     "IsDefaultPublished": false,
-    "Rank": 263,
-    "LoadTemplateFromPlugin": 722,
-    "MimeType": "voluptatem",
+    "Rank": 619,
+    "LoadTemplateFromPlugin": 704,
+    "MimeType": "nostrum",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 750,
+    "DocumentTypeKey": 658,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "easter@dooleyheidenreich.biz",
+    "EmailSubject": "ryann.jenkins@stehrsenger.biz",
     "IncludeSignature": false,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "elliott@labadie.us",
+    "SenderEmailAddress": "jolie@little.co.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 86
       }
     }
   }

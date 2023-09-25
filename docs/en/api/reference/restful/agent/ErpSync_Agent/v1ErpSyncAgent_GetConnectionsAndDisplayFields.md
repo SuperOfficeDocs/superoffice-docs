@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 815
+  "EntityId": 278
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 593,
-    "ConnectionName": "Reynolds-Harris",
+    "ErpConnectionId": 920,
+    "ConnectionName": "Ratke Inc and Sons",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "natus",
-        "Rank": 495,
-        "DisplayName": "Jakubowski Inc and Sons",
-        "DisplayDescription": "Versatile dynamic Graphical User Interface",
+        "FieldKey": "ipsa",
+        "Rank": 701,
+        "DisplayName": "Ziemann, Spinka and Johnston",
+        "DisplayDescription": "Assimilated upward-trending toolset",
         "FieldType": "Checkbox",
-        "ListName": "O'Keefe-Bauch",
-        "DefaultValue": "quisquam",
-        "MaxLength": 963,
+        "ListName": "McLaughlin-Emard",
+        "DefaultValue": "accusantium",
+        "MaxLength": 870,
         "Access": "Mandatory",
         "ShowInSearch": true,
         "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 253
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "nisi",
-      "ipsa"
+      "id",
+      "porro"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldType": "System.String",
+        "FieldLength": 945
       }
     }
   }

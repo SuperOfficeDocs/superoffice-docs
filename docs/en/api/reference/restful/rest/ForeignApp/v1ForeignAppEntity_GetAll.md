@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=ea
-GET /api/v1/ForeignApp?$top=353
-GET /api/v1/ForeignApp?$skip=22
+GET /api/v1/ForeignApp?$entities=dolorem
+GET /api/v1/ForeignApp?$top=588
+GET /api/v1/ForeignApp?$skip=45
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=sed
+GET /api/v1/ForeignApp?$context=enim
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "repudiandae",
   "value": [
     {
-      "PrimaryKey": 8648,
-      "EntityName": "sale",
-      "saleId": 8648,
-      "contactId": 5574,
-      "name": "Frami-Veum"
+      "PrimaryKey": 564,
+      "EntityName": "person",
+      "personId": 564,
+      "fullName": "Ambrose Murphy"
     },
     {
-      "PrimaryKey": 1084,
-      "EntityName": "sale",
-      "saleId": 1084,
-      "contactId": 4473,
-      "name": "Runolfsdottir-Shields"
+      "PrimaryKey": 4672,
+      "EntityName": "person",
+      "personId": 4672,
+      "fullName": "Ewell Dicki"
     }
   ]
 }

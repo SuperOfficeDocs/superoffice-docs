@@ -88,8 +88,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cartwright Inc and Sons",
-  "FieldName": "Sawayn, Jenkins and Goodwin"
+  "TableName": "Keeling LLC",
+  "FieldName": "Franecki Inc and Sons"
 }
 ```
 
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Powlowski-Bashirian",
-  "DisplayName": "Rogahn-Flatley",
-  "Description": "Sharable scalable protocol",
-  "ShortLabel": "dignissimos",
+  "FieldName": "Cummerata, Hudson and Walker",
+  "DisplayName": "Towne-Hand",
+  "Description": "Right-sized radical groupware",
+  "ShortLabel": "odio",
   "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": false,
+  "HideField": true,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 938,
-  "TemplateVariableName": "Streich, Doyle and Pouros"
+  "IsExternal": false,
+  "Rank": 77,
+  "TemplateVariableName": "Goldner Group"
 }
 ```

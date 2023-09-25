@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 95,
-    "Name": "Stiedemann-Bosco",
-    "Description": "Cross-group regional emulation",
+    "ProjectId": 341,
+    "Name": "Hirthe Inc and Sons",
+    "Description": "Horizontal coherent toolset",
     "URL": "http://www.example.com/",
-    "Type": "fuga",
-    "AssociateId": 987,
-    "AssociateFullName": "Ms. Bruce Franecki MD",
-    "TypeId": 471,
-    "Updated": "2005-11-27T03:31:27.0268433+01:00",
-    "StatusId": 66,
-    "Status": "consequatur",
-    "TextId": 833,
-    "PublishTo": "1997-02-19T03:31:27.0268433+01:00",
-    "PublishFrom": "2011-11-02T03:31:27.0268433+01:00",
+    "Type": "natus",
+    "AssociateId": 125,
+    "AssociateFullName": "Janessa Funk",
+    "TypeId": 414,
+    "Updated": "2016-06-03T03:24:48.0957311+02:00",
+    "StatusId": 366,
+    "Status": "modi",
+    "TextId": 734,
+    "PublishTo": "2005-06-05T03:24:48.0957311+02:00",
+    "PublishFrom": "2017-06-09T03:24:48.0957311+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1270505",
-    "ActiveErpLinks": 530,
+    "ProjectNumber": "1225069",
+    "ActiveErpLinks": 656,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 865
       }
     }
   }

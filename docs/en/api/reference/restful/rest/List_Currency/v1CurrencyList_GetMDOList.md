@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=magnam
+GET /api/v1/List/Currency/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Breitenberg, Paucek and Robel",
-    "ToolTip": "Eveniet ea vero voluptatum et sed facilis.",
+    "Id": 748,
+    "Name": "Bernhard, Koepp and Stiedemann",
+    "ToolTip": "Exercitationem blanditiis voluptas repudiandae similique.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "officiis",
+    "Rank": 914,
+    "Type": "aliquid",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Quigley, White and Schowalter",
-        "ToolTip": "Neque eius quia rerum.",
+        "Id": 814,
+        "Name": "Gislason LLC",
+        "ToolTip": "Animi aut et assumenda occaecati ad tenetur laboriosam.",
         "Deleted": false,
-        "Rank": 110,
-        "Type": "ut",
+        "Rank": 679,
+        "Type": "temporibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 683,
-        "ExtraInfo": "quis",
-        "StyleHint": "qui",
-        "FullName": "Katlyn Rau",
+        "IconHint": "est",
+        "ColorBlock": 956,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "ipsum",
+        "FullName": "Katelynn Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 758
+            "FieldLength": 220
           }
         }
       }
     ],
-    "IconHint": "accusantium",
-    "ColorBlock": 870,
-    "ExtraInfo": "vel",
-    "StyleHint": "dolores",
-    "FullName": "Mr. Adrian Hahn",
+    "IconHint": "eos",
+    "ColorBlock": 372,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "facere",
+    "FullName": "Vicente Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 343
       }
     }
   }

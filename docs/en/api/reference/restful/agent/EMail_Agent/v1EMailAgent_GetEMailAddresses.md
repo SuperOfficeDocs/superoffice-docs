@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    813,
-    487
+    864,
+    795
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 675,
-    "ContactName": "Windler Inc and Sons",
-    "PersonId": 683,
-    "PersonName": "Brown Inc and Sons",
-    "AssociateId": 130,
-    "Address": "adipisci",
-    "EmailId": 132,
+    "ContactId": 679,
+    "ContactName": "Christiansen Group",
+    "PersonId": 461,
+    "PersonName": "Wiegand Inc and Sons",
+    "AssociateId": 348,
+    "Address": "doloremque",
+    "EmailId": 590,
     "DuplicatePersonIds": [
-      57,
-      409
+      996,
+      276
     ],
-    "Name": "Feeney, Marquardt and Stracke",
+    "Name": "Goyette, Frami and Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

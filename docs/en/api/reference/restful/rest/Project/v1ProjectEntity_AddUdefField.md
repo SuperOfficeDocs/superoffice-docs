@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 927,
-  "ColumnId": 599,
-  "FieldDefault": "natus",
-  "FieldHeight": 670,
-  "FieldLabel": "optio",
-  "FieldLeft": 464,
-  "FieldTop": 358,
+  "UDefFieldId": 374,
+  "ColumnId": 661,
+  "FieldDefault": "in",
+  "FieldHeight": 368,
+  "FieldLabel": "deleniti",
+  "FieldLeft": 10,
+  "FieldTop": 17,
   "FieldType": "Checkbox",
-  "FieldWidth": 774,
-  "FormatMask": "voluptas",
+  "FieldWidth": 753,
+  "FormatMask": "eius",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 475,
-  "LabelLeft": 38,
-  "LabelTop": 592,
-  "LabelWidth": 492,
-  "LastVersionId": 456,
-  "ListTableId": 660,
+  "LabelHeight": 201,
+  "LabelLeft": 953,
+  "LabelTop": 817,
+  "LabelWidth": 564,
+  "LastVersionId": 265,
+  "ListTableId": 420,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 531,
-  "ProgId": "est",
+  "Page1LineNo": 324,
+  "ProgId": "quis",
   "IsReadOnly": true,
-  "ShortLabel": "corrupti",
-  "TabOrder": 998,
-  "TextLength": 164,
-  "Tooltip": "exercitationem",
-  "UdefIdentity": 293,
-  "UDListDefinitionId": 312,
+  "ShortLabel": "sit",
+  "TabOrder": 378,
+  "TextLength": 683,
+  "Tooltip": "cupiditate",
+  "UdefIdentity": 639,
+  "UDListDefinitionId": 734,
   "Justification": "Center",
-  "Version": 285,
-  "TemplateVariableName": "Maggio Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Stoltenberg Group",
+  "Version": 599,
+  "TemplateVariableName": "Brekke-Larkin",
+  "HasBeenPublished": true,
+  "MdoListName": "Kilback-Auer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 444
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 844,
-    "Name": "Bernhard-Waters",
-    "Tooltip": "unde",
+    "HeadingId": 633,
+    "Name": "Balistreri, Quitzon and Paucek",
+    "Tooltip": "earum",
     "Deleted": true,
-    "Rank": 665,
-    "UdListDefinitionId": 1001
+    "Rank": 613,
+    "UdListDefinitionId": 505
   },
   {
-    "HeadingId": 844,
-    "Name": "Bernhard-Waters",
-    "Tooltip": "unde",
+    "HeadingId": 633,
+    "Name": "Balistreri, Quitzon and Paucek",
+    "Tooltip": "earum",
     "Deleted": true,
-    "Rank": 665,
-    "UdListDefinitionId": 1001
+    "Rank": 613,
+    "UdListDefinitionId": 505
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 620,
-    "Name": "Kshlerin-Reichel",
-    "Tooltip": "tenetur",
-    "Deleted": true,
-    "Rank": 636,
-    "UdListDefinitionId": 229,
+    "HeadingId": 672,
+    "Name": "Shanahan-McClure",
+    "Tooltip": "voluptatibus",
+    "Deleted": false,
+    "Rank": 233,
+    "UdListDefinitionId": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldType": "System.String",
+        "FieldLength": 553
       }
     }
   }

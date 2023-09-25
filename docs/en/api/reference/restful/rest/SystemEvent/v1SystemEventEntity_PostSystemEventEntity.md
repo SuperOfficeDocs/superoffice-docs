@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 338,
+  "SystemEventId": 770,
   "Scope": "Database",
-  "Eta": "2009-05-04T03:31:32.9594383+02:00",
-  "Eventkey": "iste",
-  "Eventmess": "eaque",
-  "ExtraInfo": 297,
-  "Owner": 340,
-  "UpdatedCount": 209,
-  "Registered": "2021-06-23T03:31:32.9594383+02:00",
+  "Eta": "2007-07-03T03:24:51.927622+02:00",
+  "Eventkey": "sunt",
+  "Eventmess": "deleniti",
+  "ExtraInfo": 253,
+  "Owner": 629,
+  "UpdatedCount": 362,
+  "Registered": "2005-05-21T03:24:51.927622+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 593,
+  "SystemEventId": 218,
   "Scope": "Database",
-  "Eta": "1997-02-05T03:31:32.9594383+01:00",
-  "Eventkey": "optio",
-  "Eventmess": "odit",
-  "ExtraInfo": 21,
-  "Owner": 832,
-  "UpdatedCount": 215,
-  "Registered": "2017-04-15T03:31:32.9594383+02:00",
+  "Eta": "2000-09-10T03:24:51.927622+02:00",
+  "Eventkey": "repellat",
+  "Eventmess": "corporis",
+  "ExtraInfo": 257,
+  "Owner": 709,
+  "UpdatedCount": 902,
+  "Registered": "2005-04-19T03:24:51.927622+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 203
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 69,
-    "Name": "Leannon, Auer and Little",
-    "OrgNr": "1033578",
+    "ContactId": 365,
+    "Name": "O'Connell-Johnston",
+    "OrgNr": "402361",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "fugiat",
-    "DirectPhone": "1-787-016-3933 x6633",
-    "AssociateId": 730,
-    "CountryId": 547,
-    "EmailAddress": "brenda.lebsack@goodwinlegros.com",
-    "Kananame": "qui",
-    "EmailAddressName": "aisha_oreilly@anderson.name",
+    "City": "et",
+    "DirectPhone": "525.631.1715",
+    "AssociateId": 978,
+    "CountryId": 403,
+    "EmailAddress": "helen.shanahan@okuneva.biz",
+    "Kananame": "et",
+    "EmailAddressName": "nona@trantow.ca",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Drew Boyle DVM",
+    "AssociateFullName": "Leanna Luettgen",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "in",
-    "FullName": "Lonnie Cormier Sr.",
+    "FormattedAddress": "quo",
+    "FullName": "Tabitha Klocko V",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 232,
-    "Number1": "1821783",
-    "Number2": "1174519",
+    "ActiveErpLinks": 452,
+    "Number1": "735812",
+    "Number2": "598267",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 491
       }
     }
   }

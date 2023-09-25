@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "natus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "natus",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 497,
-  "Name": "Yundt-Kihn",
-  "Tooltip": "explicabo",
+  "Id": 167,
+  "Name": "Kirlin, Corkery and Crist",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 888,
+  "Rank": 875,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 633
     }
   },
   "_Links": {

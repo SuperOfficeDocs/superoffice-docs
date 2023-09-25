@@ -93,7 +93,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Willms Group"
+  "FunctionalRightName": "Huel, Oberbrunner and Sipes"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Goyette, Olson and Mueller",
-    "ToolTip": "Iste laborum porro.",
+    "Id": 426,
+    "Name": "Rutherford-Ledner",
+    "ToolTip": "Qui unde tempore commodi maxime est beatae.",
     "Deleted": false,
-    "Rank": 329,
-    "Type": "rem",
+    "Rank": 57,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 589,
-        "Name": "Sanford, Parisian and Conn",
-        "ToolTip": "Odio assumenda nihil ut explicabo qui molestias.",
-        "Deleted": true,
-        "Rank": 157,
-        "Type": "dolorum",
+        "Id": 84,
+        "Name": "Hane-Kessler",
+        "ToolTip": "Aspernatur non deleniti at facere.",
+        "Deleted": false,
+        "Rank": 368,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 794,
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
-        "FullName": "Laury Filiberto Yundt Sr.",
+        "IconHint": "praesentium",
+        "ColorBlock": 263,
+        "ExtraInfo": "ut",
+        "StyleHint": "reiciendis",
+        "FullName": "Aniyah Trantow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 762
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 46,
-    "ExtraInfo": "sunt",
-    "StyleHint": "quia",
-    "FullName": "London Cronin DVM",
+    "IconHint": "consequatur",
+    "ColorBlock": 836,
+    "ExtraInfo": "eum",
+    "StyleHint": "fugiat",
+    "FullName": "Neva Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldType": "System.String",
+        "FieldLength": 746
       }
     }
   }

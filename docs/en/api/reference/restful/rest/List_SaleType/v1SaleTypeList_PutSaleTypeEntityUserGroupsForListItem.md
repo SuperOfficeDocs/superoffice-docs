@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Witting LLC",
-    "ToolTip": "Quia quasi rerum vel ut perferendis quis.",
-    "Deleted": true,
-    "Rank": 801,
-    "Type": "officiis",
-    "ColorBlock": 580,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "1998-05-23T03:31:33.8679659+02:00",
+    "Id": 543,
+    "Name": "Wunsch LLC",
+    "ToolTip": "Cum delectus deleniti corrupti minima nisi.",
+    "Deleted": false,
+    "Rank": 391,
+    "Type": "molestias",
+    "ColorBlock": 593,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2017-06-03T03:24:52.4119449+02:00",
     "ChildItems": [
       {
-        "Id": 344,
-        "Name": "Mills, Hartmann and Ankunding",
-        "ToolTip": "Omnis veniam et blanditiis.",
+        "Id": 943,
+        "Name": "Cruickshank, Littel and Borer",
+        "ToolTip": "Beatae aut provident numquam sed.",
         "Deleted": false,
-        "Rank": 226,
-        "Type": "est",
-        "ColorBlock": 9,
-        "IconHint": "numquam",
+        "Rank": 62,
+        "Type": "voluptatum",
+        "ColorBlock": 629,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2019-06-20T03:31:33.8679659+02:00",
+        "LastChanged": "2013-07-10T03:24:52.4119449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Lowell Destany Jenkins DDS"
+        "ExtraInfo": "harum",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Brock Gleason"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Wilbert Gaylord"
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Dr. Adell Elvera Beier III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 682,
-    "Name": "Hand LLC",
-    "ToolTip": "Voluptatibus similique odio sequi pariatur a.",
+    "Id": 446,
+    "Name": "Wilderman-Feeney",
+    "ToolTip": "Qui quis ducimus animi repellendus fugit fugit.",
     "Deleted": false,
-    "Rank": 197,
-    "Type": "consectetur",
-    "ColorBlock": 936,
-    "IconHint": "rerum",
+    "Rank": 349,
+    "Type": "quo",
+    "ColorBlock": 712,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "1997-11-30T03:31:33.8679659+01:00",
+    "LastChanged": "2020-03-29T03:24:52.4119449+02:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Blanda-Monahan",
-        "ToolTip": "Consequatur ut.",
+        "Id": 884,
+        "Name": "Mayert-Hoppe",
+        "ToolTip": "Excepturi ullam omnis tenetur doloremque.",
         "Deleted": false,
-        "Rank": 569,
-        "Type": "temporibus",
-        "ColorBlock": 928,
-        "IconHint": "et",
+        "Rank": 670,
+        "Type": "sed",
+        "ColorBlock": 975,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "1997-08-16T03:31:33.8679659+02:00",
+        "LastChanged": "2018-02-26T03:24:52.4119449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "facilis",
+        "ExtraInfo": "delectus",
+        "StyleHint": "minima",
         "Hidden": true,
-        "FullName": "Cydney Cole",
+        "FullName": "Miss Bernita Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 909
+            "FieldLength": 600
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
+    "ExtraInfo": "dignissimos",
     "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Axel Schneider",
+    "Hidden": false,
+    "FullName": "Dawson Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

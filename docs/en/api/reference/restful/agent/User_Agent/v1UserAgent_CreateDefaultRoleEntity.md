@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 914,
-  "Name": "Rempel Group",
-  "Tooltip": "et",
+  "RoleId": 133,
+  "Name": "Beatty LLC",
+  "Tooltip": "repellat",
   "RoleType": "Anonymous",
-  "Deleted": 997,
-  "Rank": 237,
-  "Created": "2012-09-06T03:31:27.7322326+02:00",
-  "UseCategories": 483,
+  "Deleted": 253,
+  "Rank": 641,
+  "Created": "2016-11-18T03:24:48.5341362+01:00",
+  "UseCategories": 246,
   "CreatedBy": null,
-  "Updated": "2012-03-21T03:31:27.7322326+01:00",
+  "Updated": "2004-11-23T03:24:48.5341362+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 237
     }
   }
 }

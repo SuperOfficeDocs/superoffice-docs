@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 530,
-    "Name": "Kuhic, Lubowitz and Champlin",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 37,
-    "UdListDefinitionId": 446,
+    "HeadingId": 316,
+    "Name": "Kihn, Nienow and Brown",
+    "Tooltip": "numquam",
+    "Deleted": true,
+    "Rank": 285,
+    "UdListDefinitionId": 263,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 486
       }
     }
   }

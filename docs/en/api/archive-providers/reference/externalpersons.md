@@ -372,6 +372,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/timeSpentQueue|timeSpan|Time spent in queue: Time spent in queue| x |
 |request/timeSpentExternally|timeSpan|Time spent externally: Time spent externally| x |
 |request/timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
+|request/timeSpent|timeSpan|Time spent: Time spent| x |
 |request/timeToReply|timeSpan|Time to reply: Time to reply| x |
 |request/timeToClose|timeSpan|Time to close: Time to close| x |
 |request/realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
-|request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
 |request/ownedBy/assocName|associate|Owner - User ID: User ID| x |
 |request/ownedBy/assocTooltip|string|Owner - Description: Description|  |
@@ -534,11 +535,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectMembers/projectUdef/SuperOffice:3|int|projectnumber| x |
 |projectMembers/projectUdef/SuperOffice:4|date|projectdate| x |
-|projectMembers/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |projectMembers/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |projectMembers/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |projectMembers/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
@@ -638,11 +639,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
 |personAppointment/associate/assocName|associate|User ID : User ID| x |
-|personAppointment/associate/assocTooltip|string|Description : Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/assocTooltip|string|Description : Description|  |
 |personAppointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAppointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |personAppointment/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -662,7 +663,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalPersons?$select=searchPhone/description,email/emailAddress,request/lastChanged,request/createdBy/ejStatus,personAppointment/associate/lastName
+GET /api/v1/archive/ExternalPersons?$select=personSourceRelation/position,personSourceRelation/personDeletedDate,personAssociate/credentialDisplayValue,correspondingAssociate/role,projectMembers/projectEvent/hasSignOn
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

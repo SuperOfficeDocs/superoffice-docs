@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 487,
-  "Name": "Howe-Hegmann",
+  "ScreenChooserId": 189,
+  "Name": "Hills, Schaefer and Lemke",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "aliquid",
-  "Registered": "2011-07-22T03:31:33.2562424+02:00",
-  "RegisteredAssociateId": 305,
-  "Updated": "1997-08-07T03:31:33.2562424+02:00",
-  "UpdatedAssociateId": 782,
+  "UniqueIdentifier": "esse",
+  "Source": "ex",
+  "Registered": "2001-11-09T03:24:52.0213616+01:00",
+  "RegisteredAssociateId": 262,
+  "Updated": "1996-06-29T03:24:52.0213616+02:00",
+  "UpdatedAssociateId": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   }
 }

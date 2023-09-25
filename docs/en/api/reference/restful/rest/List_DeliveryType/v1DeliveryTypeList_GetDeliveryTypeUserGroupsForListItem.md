@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Kirlin-Schiller",
-    "ToolTip": "Libero alias omnis.",
-    "Deleted": false,
-    "Rank": 887,
-    "Type": "aspernatur",
-    "ColorBlock": 799,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "2008-04-06T03:31:33.6010939+02:00",
+    "Id": 947,
+    "Name": "Hermann Group",
+    "ToolTip": "Nulla non quae.",
+    "Deleted": true,
+    "Rank": 307,
+    "Type": "cupiditate",
+    "ColorBlock": 682,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2012-11-03T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Pfannerstill Group",
-        "ToolTip": "Quia officia beatae quam vel ea.",
-        "Deleted": true,
-        "Rank": 594,
-        "Type": "vel",
-        "ColorBlock": 14,
-        "IconHint": "et",
+        "Id": 180,
+        "Name": "Russel Group",
+        "ToolTip": "Veniam omnis inventore veritatis incidunt incidunt.",
+        "Deleted": false,
+        "Rank": 365,
+        "Type": "ut",
+        "ColorBlock": 22,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2011-02-02T03:31:33.6010939+01:00",
+        "LastChanged": "2014-06-14T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Louvenia Max Daniel III",
+        "ExtraInfo": "quasi",
+        "StyleHint": "recusandae",
+        "Hidden": false,
+        "FullName": "Dr. Paul Alexandria Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 509
+            "FieldLength": 318
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "aut",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Krista Kihn",
+    "FullName": "Isabella Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 925
+        "FieldType": "System.String",
+        "FieldLength": 118
       }
     }
   }

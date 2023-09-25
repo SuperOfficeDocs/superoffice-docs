@@ -583,7 +583,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=type,contactId,mailingAddr/contact/postAddress/line3,mailingAddr/contact/contactExtra/x_contact_datetime,mailingAddr/person/personHasInterests
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/restrictionAddress/formattedAddress,mailingAddr/person/useAsMailingAddress,associate/usergroup,project/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

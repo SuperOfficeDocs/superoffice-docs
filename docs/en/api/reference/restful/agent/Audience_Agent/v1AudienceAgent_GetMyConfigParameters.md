@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 692,
-    "Name": "Hegmann-Corwin",
-    "Value": "eius",
-    "CreatedDate": "2008-11-01T03:31:25.6339962+01:00",
-    "UpdatedDate": "2013-08-18T03:31:25.6339962+02:00",
-    "CreatedBy": "est",
-    "UpdatedBy": "exercitationem",
+    "AudienceLayoutId": 229,
+    "Name": "Skiles-Boyle",
+    "Value": "cumque",
+    "CreatedDate": "2022-01-17T03:24:47.2520803+01:00",
+    "UpdatedDate": "2018-01-11T03:24:47.2520803+01:00",
+    "CreatedBy": "sint",
+    "UpdatedBy": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 656
       }
     }
   }

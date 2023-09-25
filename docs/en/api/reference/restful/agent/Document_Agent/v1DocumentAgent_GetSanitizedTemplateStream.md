@@ -76,9 +76,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Kerluke, Quitzon and Murray",
-  "AllowPersonal": false,
-  "UiCulture": "aperiam"
+  "TemplateName": "Lemke Inc and Sons",
+  "AllowPersonal": true,
+  "UiCulture": "et"
 }
 ```
 

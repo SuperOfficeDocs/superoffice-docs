@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 198,
-  "Name": "Funk, Torp and Daniel",
-  "Tooltip": "ipsam",
+  "RoleId": 849,
+  "Name": "Beatty Group",
+  "Tooltip": "ipsa",
   "RoleType": "Anonymous",
-  "Deleted": 293,
-  "Rank": 363,
-  "Created": "2008-11-29T03:31:27.7634711+01:00",
-  "UseCategories": 350,
+  "Deleted": 51,
+  "Rank": 686,
+  "Created": "2010-04-21T03:24:48.5497594+02:00",
+  "UseCategories": 978,
   "CreatedBy": null,
-  "Updated": "2006-06-04T03:31:27.7634711+02:00",
+  "Updated": "2011-12-11T03:24:48.5497594+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 3
     }
   }
 }

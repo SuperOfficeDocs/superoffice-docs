@@ -102,6 +102,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -130,11 +131,11 @@ OK
 POST /api/v1/Agents/Ticket/GetForRmUi
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 610
+  "TicketId": 416
 }
 ```
 
@@ -145,21 +146,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 510,
-  "Title": "eos",
-  "CreatedAt": "2000-06-23T03:31:27.3874142+02:00",
-  "LastChanged": "2003-10-18T03:31:27.3874142+02:00",
-  "ReadByOwner": "2010-07-14T03:31:27.3874142+02:00",
-  "ReadByCustomer": "2014-01-22T03:31:27.3874142+01:00",
-  "FirstReadByOwner": "2007-07-29T03:31:27.3874142+02:00",
-  "FirstReadByUser": "1998-06-20T03:31:27.3874142+02:00",
-  "Activate": "2012-01-15T03:31:27.3874142+01:00",
-  "ClosedAt": "2014-12-21T03:31:27.3874142+01:00",
-  "RepliedAt": "2018-04-09T03:31:27.3874142+02:00",
-  "AlertTimeout": "2001-05-10T03:31:27.3874142+02:00",
-  "Deadline": "2000-03-28T03:31:27.3874142+02:00",
+  "TicketId": 138,
+  "Title": "dicta",
+  "CreatedAt": "2009-12-14T03:24:48.4247716+01:00",
+  "LastChanged": "2003-10-23T03:24:48.4247716+02:00",
+  "ReadByOwner": "2016-08-04T03:24:48.4247716+02:00",
+  "ReadByCustomer": "2017-01-26T03:24:48.4247716+01:00",
+  "FirstReadByOwner": "2006-12-10T03:24:48.4247716+01:00",
+  "FirstReadByUser": "2007-08-31T03:24:48.4247716+02:00",
+  "Activate": "2021-05-03T03:24:48.4247716+02:00",
+  "ClosedAt": "2002-01-24T03:24:48.4247716+01:00",
+  "RepliedAt": "2000-12-23T03:24:48.4247716+01:00",
+  "AlertTimeout": "2008-12-01T03:24:48.4247716+01:00",
+  "Deadline": "2003-02-16T03:24:48.4247716+01:00",
   "CreatedBy": null,
-  "Author": "dolorum",
+  "Author": "magni",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -170,160 +171,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "corporis",
-      "PersonId": 560,
-      "Mrmrs": "debitis",
-      "Firstname": "Clarissa",
-      "Lastname": "Graham",
-      "MiddleName": "Feil-Wintheiser",
-      "Title": "repudiandae",
-      "Description": "Enterprise-wide intangible capacity",
-      "Email": "kelley.kassulke@turnerboyle.us",
-      "FullName": "Trevion Blick",
-      "DirectPhone": "914.712.7682",
-      "FormalName": "Ullrich, Stoltenberg and Quigley",
-      "CountryId": 116,
-      "ContactId": 174,
-      "ContactName": "Heller LLC",
-      "Retired": 687,
-      "Rank": 51,
-      "ActiveInterests": 660,
+      "Position": "quis",
+      "PersonId": 161,
+      "Mrmrs": "reiciendis",
+      "Firstname": "Zelma",
+      "Lastname": "Douglas",
+      "MiddleName": "Labadie-Weber",
+      "Title": "quos",
+      "Description": "Object-based reciprocal instruction set",
+      "Email": "rogers@rosenbaumsimonis.info",
+      "FullName": "Jared Mueller Sr.",
+      "DirectPhone": "1-084-165-2713 x25547",
+      "FormalName": "Bogisich-Harvey",
+      "CountryId": 720,
+      "ContactId": 937,
+      "ContactName": "Rippin-Skiles",
+      "Retired": 800,
+      "Rank": 667,
+      "ActiveInterests": 83,
       "ContactDepartment": "",
-      "ContactCountryId": 685,
-      "ContactOrgNr": "1573533",
-      "FaxPhone": "708.360.7871",
-      "MobilePhone": "470-462-3622 x8290",
-      "ContactPhone": "1-531-392-6070 x167",
-      "AssociateName": "Strosin LLC",
-      "AssociateId": 796,
-      "UsePersonAddress": false,
-      "ContactFax": "nihil",
-      "Kanafname": "illum",
-      "Kanalname": "ea",
-      "Post1": "deserunt",
-      "Post2": "eius",
-      "Post3": "dicta",
-      "EmailName": "shanie.nikolaus@bashirian.com",
-      "ContactFullName": "Gwendolyn Wisozk",
-      "ActiveErpLinks": 579,
-      "TicketPriorityId": 5,
-      "SupportLanguageId": 355,
-      "SupportAssociateId": 39,
+      "ContactCountryId": 742,
+      "ContactOrgNr": "781520",
+      "FaxPhone": "(518)826-0456",
+      "MobilePhone": "258.995.5356 x001",
+      "ContactPhone": "1-532-444-5036",
+      "AssociateName": "Luettgen, Marvin and Heaney",
+      "AssociateId": 152,
+      "UsePersonAddress": true,
+      "ContactFax": "qui",
+      "Kanafname": "consequatur",
+      "Kanalname": "reiciendis",
+      "Post1": "distinctio",
+      "Post2": "et",
+      "Post3": "maxime",
+      "EmailName": "chasity@flatley.co.uk",
+      "ContactFullName": "Roman Ullrich",
+      "ActiveErpLinks": 209,
+      "TicketPriorityId": 491,
+      "SupportLanguageId": 312,
+      "SupportAssociateId": 849,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldLength": 94
         }
       }
     }
   ],
-  "AlertLevel": 668,
-  "ConnectId": 289,
+  "AlertLevel": 296,
+  "ConnectId": 560,
   "ReadStatus": "Green",
-  "TimeToReply": 20,
-  "RealTimeToReply": 502,
-  "TimeToClose": 950,
-  "RealTimeToClose": 36,
-  "TimeSpentInternally": 532,
-  "TimeSpentExternally": 1002,
-  "TimeSpentQueue": 175,
-  "RealTimeSpentInternally": 448,
-  "RealTimeSpentExternally": 893,
-  "RealTimeSpentQueue": 493,
-  "HasAttachment": false,
-  "NumReplies": 854,
-  "NumMessages": 91,
-  "FromAddress": "est",
+  "TimeToReply": 983,
+  "RealTimeToReply": 729,
+  "TimeToClose": 319,
+  "RealTimeToClose": 500,
+  "TimeSpentInternally": 50,
+  "TimeSpentExternally": 339,
+  "TimeSpentQueue": 396,
+  "RealTimeSpentInternally": 92,
+  "RealTimeSpentExternally": 479,
+  "RealTimeSpentQueue": 300,
+  "TimeSpent": 245,
+  "HasAttachment": true,
+  "NumReplies": 141,
+  "NumMessages": 619,
+  "FromAddress": "consequatur",
   "Messages": [
     {
-      "TicketMessageId": 631,
-      "CreatedAt": "1999-11-26T03:31:27.4030353+01:00",
+      "TicketMessageId": 217,
+      "CreatedAt": "2017-04-16T03:24:48.4247716+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "ex",
-      "PersonId": 502,
-      "PersonFullName": "Terry Lang",
-      "ContactId": 173,
-      "ContactName": "Hansen, Shields and Kuhic",
+      "Important": true,
+      "Author": "quia",
+      "PersonId": 498,
+      "PersonFullName": "Prof. Mabel Frankie Metz Jr.",
+      "ContactId": 864,
+      "ContactName": "Hauck-White",
       "ContactDepartment": "",
-      "NumAttachments": 373,
-      "EmailHeader": "urban@schambergerjohnson.biz",
+      "NumAttachments": 960,
+      "EmailHeader": "brody_nolan@huels.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "odio",
-      "Sentiment": 114,
-      "SentimentConfidence": 327,
-      "CreatedBy": 159,
-      "ChangedAt": "2008-12-23T03:31:27.4030353+01:00",
+      "Language": "est",
+      "Sentiment": 207,
+      "SentimentConfidence": 124,
+      "CreatedBy": 867,
+      "ChangedAt": "2001-11-08T03:24:48.4247716+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldType": "System.String",
+          "FieldLength": 394
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 236,
-      "Name": "Hettinger-Thiel",
-      "ToolTip": "Odit est distinctio aut expedita ipsa atque harum.",
+      "Id": 917,
+      "Name": "Mueller Inc and Sons",
+      "ToolTip": "Odio incidunt ipsam et labore nemo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldType": "System.String",
+          "FieldLength": 767
         }
       }
     },
     {
-      "Id": 236,
-      "Name": "Hettinger-Thiel",
-      "ToolTip": "Odit est distinctio aut expedita ipsa atque harum.",
+      "Id": 917,
+      "Name": "Mueller Inc and Sons",
+      "ToolTip": "Odio incidunt ipsam et labore nemo.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldType": "System.String",
+          "FieldLength": 767
         }
       }
     }
   ],
-  "Language": "velit",
-  "Sentiment": 607,
-  "SentimentConfidence": 504,
-  "SuggestedCategoryId": 837,
+  "Language": "iusto",
+  "Sentiment": 451,
+  "SentimentConfidence": 639,
+  "SuggestedCategoryId": 169,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 894,
-  "IconHint": "harum",
+  "OrigHumanCategoryId": 665,
+  "IconHint": "et",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "et"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "qui"
+    "CustomFields1": "alias",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldType": "System.String",
+      "FieldLength": 342
     }
   }
 }

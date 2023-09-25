@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jenkins Group",
+  "Name": "Hauck-Nitzsche",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Gerlach LLC",
-    "AssociateId": 467,
-    "DetailsTable": 716,
-    "DetailsRecord": 639,
+    "Id": 444,
+    "Name": "Larson, Hartmann and Hartmann",
+    "AssociateId": 521,
+    "DetailsTable": 797,
+    "DetailsRecord": 285,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "delectus",
-      "ParameterObject2": "dolorem"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "excepturi"
     },
-    "LastStarted": "1997-07-24T03:31:25.6496314+02:00",
-    "Created": "1996-08-14T03:31:25.6496314+02:00",
-    "StartCount": 789,
-    "DatabaseSerialNumber": "788869",
-    "Context": "aut",
-    "Result": "voluptatum",
+    "LastStarted": "2008-05-29T03:24:47.2520803+02:00",
+    "Created": "2007-05-25T03:24:47.2520803+02:00",
+    "StartCount": 829,
+    "DatabaseSerialNumber": "1105942",
+    "Context": "hic",
+    "Result": "rerum",
     "State": "All",
-    "Description": "Re-engineered content-based installation",
-    "Response": "natus",
-    "Request": "et",
-    "ProgressDescription": "Switchable multi-state methodology",
-    "ProgressPercent": 579,
-    "FileName": "Will, Mills and Swaniawski",
+    "Description": "Digitized directional moratorium",
+    "Response": "repellendus",
+    "Request": "sed",
+    "ProgressDescription": "Phased holistic parallelism",
+    "ProgressPercent": 655,
+    "FileName": "Emmerich Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldType": "System.String",
+        "FieldLength": 832
       }
     }
   }

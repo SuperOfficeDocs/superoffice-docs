@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 291,
-    "ColumnId": 728,
-    "FieldDefault": "aut",
-    "FieldHeight": 196,
-    "FieldLabel": "sed",
-    "FieldLeft": 587,
-    "FieldTop": 614,
+    "UDefFieldId": 328,
+    "ColumnId": 21,
+    "FieldDefault": "qui",
+    "FieldHeight": 855,
+    "FieldLabel": "voluptatum",
+    "FieldLeft": 512,
+    "FieldTop": 619,
     "FieldType": "Checkbox",
-    "FieldWidth": 331,
-    "FormatMask": "debitis",
+    "FieldWidth": 35,
+    "FormatMask": "omnis",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 922,
-    "LabelLeft": 213,
-    "LabelTop": 850,
-    "LabelWidth": 371,
-    "LastVersionId": 756,
-    "ListTableId": 688,
+    "LabelHeight": 613,
+    "LabelLeft": 32,
+    "LabelTop": 758,
+    "LabelWidth": 120,
+    "LastVersionId": 600,
+    "ListTableId": 70,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 916,
-    "ProgId": "temporibus",
+    "Page1LineNo": 134,
+    "ProgId": "sapiente",
     "IsReadOnly": false,
-    "ShortLabel": "asperiores",
-    "TabOrder": 858,
-    "TextLength": 342,
-    "Tooltip": "nihil",
-    "UdefIdentity": 940,
-    "UDListDefinitionId": 803,
+    "ShortLabel": "eaque",
+    "TabOrder": 30,
+    "TextLength": 870,
+    "Tooltip": "et",
+    "UdefIdentity": 596,
+    "UDListDefinitionId": 350,
     "Justification": "Center",
-    "Version": 564,
-    "TemplateVariableName": "Kiehn-Russel",
+    "Version": 140,
+    "TemplateVariableName": "Kirlin Group",
     "HasBeenPublished": false,
-    "MdoListName": "Considine-Spinka",
+    "MdoListName": "Johnson-Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldLength": 368
       }
     }
   }

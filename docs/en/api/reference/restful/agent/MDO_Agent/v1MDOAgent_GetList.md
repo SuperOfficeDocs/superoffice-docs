@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmidt Group",
+  "Name": "Renner LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "consequatur",
-  "OnlyHistory": false
+  "AdditionalInfo": "vel",
+  "OnlyHistory": true
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Homenick, Kirlin and Upton",
-    "ToolTip": "Quia accusantium quis.",
-    "Deleted": false,
-    "Rank": 800,
-    "Type": "nulla",
+    "Id": 898,
+    "Name": "Corkery-Zieme",
+    "ToolTip": "Quisquam consectetur incidunt iusto minima.",
+    "Deleted": true,
+    "Rank": 132,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Wintheiser, Stiedemann and Olson",
-        "ToolTip": "Voluptatem est nulla facilis expedita est voluptas.",
-        "Deleted": false,
-        "Rank": 464,
-        "Type": "enim",
+        "Id": 205,
+        "Name": "Hahn Group",
+        "ToolTip": "Accusamus illo nobis.",
+        "Deleted": true,
+        "Rank": 619,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nisi",
-        "ColorBlock": 833,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "est",
-        "FullName": "Mrs. Mario Kling PhD",
+        "IconHint": "accusantium",
+        "ColorBlock": 375,
+        "ExtraInfo": "ipsum",
+        "StyleHint": "aliquid",
+        "FullName": "Helene Hand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldType": "System.String",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 568,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "tempora",
-    "FullName": "Jamey Mayert",
+    "IconHint": "nostrum",
+    "ColorBlock": 136,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "veniam",
+    "FullName": "Reginald Zachery Gusikowski PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldType": "System.String",
+        "FieldLength": 678
       }
     }
   }

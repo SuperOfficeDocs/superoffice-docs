@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "libero"
+  "SearchString": "quaerat"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-460-667-2098",
-    "PersonCellPhone": "004.750.7086 x4558",
-    "PersonPrivatePhone": "(482)905-6956",
-    "PersonFaxNumber": "883816",
-    "PersonPagerNumber": "761275",
-    "PersonEmail": "marquis.tillman@okeefemcclure.uk",
-    "Id": 140,
-    "Name": "Reilly, Lowe and Wintheiser",
-    "Tooltip": "molestias",
-    "UniqueId": "et",
+    "PersonDirectPhone": "600-483-0600",
+    "PersonCellPhone": "(436)273-6058 x264",
+    "PersonPrivatePhone": "1-262-711-1122 x1090",
+    "PersonFaxNumber": "1277383",
+    "PersonPagerNumber": "1227856",
+    "PersonEmail": "roselyn_moore@bogisich.com",
+    "Id": 271,
+    "Name": "Will, Macejkovic and Mayer",
+    "Tooltip": "doloribus",
+    "UniqueId": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 53
       }
     }
   }

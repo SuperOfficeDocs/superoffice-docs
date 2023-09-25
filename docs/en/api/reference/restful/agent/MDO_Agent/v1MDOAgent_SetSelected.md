@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Powlowski Group",
-  "AdditionalInfo": "numquam",
+  "Name": "Jacobson, Altenwerth and Bode",
+  "AdditionalInfo": "voluptatibus",
   "SelectableMDOList": [
     {
-      "Id": 972,
-      "Name": "Kshlerin-Windler",
-      "ToolTip": "Ut quisquam optio rerum.",
+      "Id": 888,
+      "Name": "Gleichner LLC",
+      "ToolTip": "Quia necessitatibus saepe qui nesciunt dignissimos molestias ut.",
       "Deleted": true,
-      "Rank": 367,
-      "Type": "nihil",
-      "ColorBlock": 413,
-      "IconHint": "molestiae",
+      "Rank": 435,
+      "Type": "aut",
+      "ColorBlock": 666,
+      "IconHint": "voluptatem",
       "Selected": false,
-      "LastChanged": "2014-03-24T03:31:26.7769052+01:00",
+      "LastChanged": "2010-07-16T03:24:47.9395013+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ducimus",
-      "StyleHint": "sint",
-      "Hidden": false,
-      "FullName": "Celestine Schmitt"
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "nobis",
+      "Hidden": true,
+      "FullName": "Cecelia Crystal Gibson II"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Name": "Kihn Group",
-    "ToolTip": "Voluptates illum et officia et rerum.",
+    "Id": 672,
+    "Name": "Smith, Hansen and Bergstrom",
+    "ToolTip": "Modi blanditiis dolorem.",
     "Deleted": false,
-    "Rank": 783,
-    "Type": "a",
-    "ColorBlock": 353,
-    "IconHint": "dolores",
+    "Rank": 71,
+    "Type": "qui",
+    "ColorBlock": 826,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2019-10-01T03:31:26.7769052+02:00",
+    "LastChanged": "1996-09-08T03:24:47.9395013+02:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Marquardt, Lindgren and Nitzsche",
-        "ToolTip": "Sunt consequatur dicta dolores quis facere itaque animi.",
+        "Id": 80,
+        "Name": "Labadie, Powlowski and Stoltenberg",
+        "ToolTip": "Dolore aut veniam ea saepe.",
         "Deleted": false,
-        "Rank": 972,
-        "Type": "voluptatem",
-        "ColorBlock": 253,
-        "IconHint": "consequatur",
+        "Rank": 66,
+        "Type": "eveniet",
+        "ColorBlock": 768,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2015-07-06T03:31:26.7769052+02:00",
+        "LastChanged": "1998-10-02T03:24:47.9395013+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Hermina Fisher",
+        "FullName": "Prof. Rollin Sim Beatty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 183
+            "FieldType": "System.Int32",
+            "FieldLength": 250
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Brant Mallie Wintheiser Jr.",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Mrs. Horace Antonetta Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldLength": 289
       }
     }
   }

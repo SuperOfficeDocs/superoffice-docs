@@ -107,30 +107,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 617,
-  "UniqueId": "impedit",
-  "Name": "Wiza Group",
-  "Description": "Profit-focused 24 hour Graphical User Interface",
-  "AssociateId": 940,
-  "Columns": 917,
+  "DashboardId": 269,
+  "UniqueId": "sequi",
+  "Name": "Zemlak-Jenkins",
+  "Description": "Profit-focused optimal approach",
+  "AssociateId": 907,
+  "Columns": 607,
   "Theme": null,
-  "VisibleForAll": 109,
+  "VisibleForAll": 22,
   "VisibleForAssociates": [
-    243,
-    286
+    855,
+    909
   ],
   "VisibleForGroups": [
-    223,
-    702
+    98,
+    206
   ],
-  "PinForAll": 953,
+  "PinForAll": 941,
   "PinForAssociates": [
-    154,
-    596
+    308,
+    978
   ],
   "PinForGroups": [
-    218,
-    819
+    430,
+    159
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 573,
-  "UniqueId": "iste",
-  "Name": "Witting LLC",
-  "Description": "Programmable non-volatile algorithm",
-  "AssociateId": 527,
-  "Columns": 557,
+  "DashboardId": 526,
+  "UniqueId": "eius",
+  "Name": "Watsica-Rempel",
+  "Description": "Customer-focused zero tolerance matrix",
+  "AssociateId": 763,
+  "Columns": 358,
   "Theme": null,
-  "VisibleForAll": 335,
+  "VisibleForAll": 145,
   "VisibleForAssociates": [
-    129,
-    628
+    687,
+    615
   ],
   "VisibleForGroups": [
-    846,
-    164
+    781,
+    870
   ],
-  "PinForAll": 623,
+  "PinForAll": 44,
   "PinForAssociates": [
-    525,
-    804
+    734,
+    953
   ],
   "PinForGroups": [
-    169,
-    330
+    108,
+    651
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   },
   "_Links": {

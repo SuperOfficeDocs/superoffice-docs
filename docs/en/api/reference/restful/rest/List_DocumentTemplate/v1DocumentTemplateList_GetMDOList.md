@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=est
+GET /api/v1/List/DocumentTemplate/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Emard-Deckow",
-    "ToolTip": "Aut ut.",
+    "Id": 828,
+    "Name": "Gulgowski, Feeney and Huel",
+    "ToolTip": "Qui ut unde quidem ea quibusdam esse culpa.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "ullam",
+    "Rank": 168,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Kris LLC",
-        "ToolTip": "Quia nemo fugiat laboriosam voluptatem.",
-        "Deleted": false,
-        "Rank": 133,
-        "Type": "sunt",
+        "Id": 287,
+        "Name": "Fadel-Pagac",
+        "ToolTip": "Enim architecto rerum voluptatem consequuntur labore.",
+        "Deleted": true,
+        "Rank": 108,
+        "Type": "quas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 273,
-        "ExtraInfo": "non",
-        "StyleHint": "saepe",
-        "FullName": "Abbie White",
+        "IconHint": "aliquam",
+        "ColorBlock": 759,
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptas",
+        "FullName": "Carlotta Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 117
+            "FieldType": "System.Int32",
+            "FieldLength": 746
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 69,
-    "ExtraInfo": "ad",
-    "StyleHint": "fugiat",
-    "FullName": "Cary Wisoky DVM",
+    "IconHint": "ut",
+    "ColorBlock": 208,
+    "ExtraInfo": "in",
+    "StyleHint": "sit",
+    "FullName": "Dandre Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 813
       }
     }
   }

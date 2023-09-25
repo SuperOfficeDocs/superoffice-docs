@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 839,
-    "Value": "molestiae",
-    "Tooltip": "tempore",
+    "Id": 118,
+    "Value": "sed",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 444
       }
     }
   },
   {
-    "Id": 839,
-    "Value": "molestiae",
-    "Tooltip": "tempore",
+    "Id": 118,
+    "Value": "sed",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 444
       }
     }
   }

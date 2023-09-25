@@ -864,6 +864,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/timeSpentQueue|timeSpan|Time spent in queue: Time spent in queue| x |
 |request/timeSpentExternally|timeSpan|Time spent externally: Time spent externally| x |
 |request/timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
+|request/timeSpent|timeSpan|Time spent: Time spent| x |
 |request/timeToReply|timeSpan|Time to reply: Time to reply| x |
 |request/timeToClose|timeSpan|Time to close: Time to close| x |
 |request/realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
@@ -952,11 +953,11 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
 |request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
-|request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |request/extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |projectMembers/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |projectMembers/projectId|int|DB ID: Displays the database ID for a project row| x |
@@ -1056,11 +1057,11 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 |projectMembers/saintTicketCategory|listAny|Category|  |
 |projectMembers/project/textId|int|Text ID| x |
 |projectMembers/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|personAppointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |personAppointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |personAppointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |personAppointment/time| *None* |Time: Time|  |
@@ -1150,7 +1151,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=postAddress/city,streetAddress/addressId,streetAddress/line3,restrictionAddress/wgs84longitude,personAddress/line2
+GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactNoMail,who,contactExtra/x_contact_timespan,targetRelation/stop,document/associate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

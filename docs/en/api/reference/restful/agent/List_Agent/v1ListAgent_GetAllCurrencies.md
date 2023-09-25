@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 633,
-    "Name": "Hoppe-Fadel",
-    "Tooltip": "veritatis",
-    "Rank": 224,
-    "Rate": 1996.358,
-    "Units": 23943.76,
+    "CurrencyId": 163,
+    "Name": "Bode LLC",
+    "Tooltip": "ipsa",
+    "Rank": 373,
+    "Rate": 6073.692,
+    "Units": 29008.304,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldType": "System.String",
+        "FieldLength": 392
       }
     }
   }

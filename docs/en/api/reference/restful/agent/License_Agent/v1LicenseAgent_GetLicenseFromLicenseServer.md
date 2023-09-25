@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Shields, Tromp and Funk"
+  "OwnerName": "Purdy LLC"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "transform dynamic experiences",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 644,
-      "NumberOfLicensesFree": 630,
-      "NumberOfLicensesAdded": 958,
-      "NumberOfLicensesNewTotal": 49,
-      "NumberOfLicensesNewFree": 952,
-      "NumberOfLicensesTotal": 445
+      "NumberOfLicensesInUse": 771,
+      "NumberOfLicensesFree": 938,
+      "NumberOfLicensesAdded": 112,
+      "NumberOfLicensesNewTotal": 982,
+      "NumberOfLicensesNewFree": 131,
+      "NumberOfLicensesTotal": 158
     }
   ],
-  "AccumulatedNextCheckDate": "2009-11-02T03:31:26.6050723+01:00"
+  "AccumulatedNextCheckDate": "2007-01-26T03:24:47.8301403+01:00"
 }
 ```

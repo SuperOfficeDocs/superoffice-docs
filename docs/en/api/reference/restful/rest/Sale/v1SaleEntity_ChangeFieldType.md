@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 335,
-  "ColumnId": 434,
-  "FieldDefault": "laudantium",
-  "FieldHeight": 57,
-  "FieldLabel": "quis",
-  "FieldLeft": 456,
-  "FieldTop": 966,
+  "UDefFieldId": 543,
+  "ColumnId": 35,
+  "FieldDefault": "non",
+  "FieldHeight": 887,
+  "FieldLabel": "nostrum",
+  "FieldLeft": 390,
+  "FieldTop": 964,
   "FieldType": "Checkbox",
-  "FieldWidth": 199,
-  "FormatMask": "possimus",
-  "HideLabel": false,
+  "FieldWidth": 688,
+  "FormatMask": "modi",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 771,
-  "LabelLeft": 100,
-  "LabelTop": 335,
-  "LabelWidth": 899,
-  "LastVersionId": 665,
-  "ListTableId": 413,
+  "LabelHeight": 36,
+  "LabelLeft": 721,
+  "LabelTop": 733,
+  "LabelWidth": 420,
+  "LastVersionId": 356,
+  "ListTableId": 749,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 861,
-  "ProgId": "repellat",
-  "IsReadOnly": false,
+  "Page1LineNo": 868,
+  "ProgId": "nulla",
+  "IsReadOnly": true,
   "ShortLabel": "et",
-  "TabOrder": 619,
-  "TextLength": 461,
-  "Tooltip": "dolores",
-  "UdefIdentity": 930,
-  "UDListDefinitionId": 571,
+  "TabOrder": 400,
+  "TextLength": 59,
+  "Tooltip": "quia",
+  "UdefIdentity": 325,
+  "UDListDefinitionId": 714,
   "Justification": "Center",
-  "Version": 540,
-  "TemplateVariableName": "Littel LLC",
+  "Version": 29,
+  "TemplateVariableName": "Brekke Group",
   "HasBeenPublished": false,
-  "MdoListName": "Gulgowski, Grant and Mills",
+  "MdoListName": "West Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

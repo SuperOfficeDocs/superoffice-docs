@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 646,
-  "Name": "Ritchie Group",
-  "Tooltip": "incidunt",
+  "Id": 224,
+  "Name": "Kunde LLC",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 349,
+  "Rank": 257,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": false
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 580,
-  "Name": "McCullough, Beer and Hackett",
-  "Tooltip": "tempore",
-  "Deleted": true,
-  "Rank": 627,
+  "Id": 376,
+  "Name": "Okuneva, Breitenberg and McDermott",
+  "Tooltip": "nobis",
+  "Deleted": false,
+  "Rank": 143,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sint",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 543
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Name": "Corwin Group",
-    "ToolTip": "Ipsum ea adipisci ut iure odit.",
+    "Id": 887,
+    "Name": "Miller-Kulas",
+    "ToolTip": "Nihil sapiente fuga voluptates illo.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "quia",
-    "ColorBlock": 922,
-    "IconHint": "sed",
+    "Rank": 909,
+    "Type": "tempora",
+    "ColorBlock": 662,
+    "IconHint": "nulla",
     "Selected": false,
-    "LastChanged": "2019-12-01T03:31:33.4917333+01:00",
+    "LastChanged": "2000-08-18T03:24:52.1619753+02:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Gerhold Group",
-        "ToolTip": "Possimus quis quia.",
-        "Deleted": false,
-        "Rank": 108,
-        "Type": "et",
-        "ColorBlock": 819,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "2000-06-12T03:31:33.4917333+02:00",
+        "Id": 918,
+        "Name": "Bartoletti-Hand",
+        "ToolTip": "Pariatur voluptate est qui voluptatem.",
+        "Deleted": true,
+        "Rank": 91,
+        "Type": "rerum",
+        "ColorBlock": 425,
+        "IconHint": "odio",
+        "Selected": false,
+        "LastChanged": "2010-09-04T03:24:52.1619753+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "maxime",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Earline Hermiston",
+        "FullName": "Mr. Dortha Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 799
+            "FieldLength": 539
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Chase Runolfsdottir",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Jimmy Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 167
       }
     }
   }

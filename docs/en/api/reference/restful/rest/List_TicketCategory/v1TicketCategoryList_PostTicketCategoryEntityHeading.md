@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 531,
-  "Name": "Schmitt, Howell and Considine",
-  "Tooltip": "sit",
+  "HeadingId": 36,
+  "Name": "Becker Inc and Sons",
+  "Tooltip": "deleniti",
   "Deleted": false,
-  "Rank": 335,
-  "UdListDefinitionId": 400
+  "Rank": 378,
+  "UdListDefinitionId": 821
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 387,
-  "Name": "Romaguera Group",
-  "Tooltip": "qui",
+  "HeadingId": 208,
+  "Name": "Dach, Jones and Abernathy",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "Rank": 1000,
-  "UdListDefinitionId": 782,
+  "Rank": 620,
+  "UdListDefinitionId": 918,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 163
     }
   }
 }

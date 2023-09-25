@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 764,
-    "LCID": 307,
-    "EnglishName": "Beer, Ratke and Shanahan",
-    "NativeName": "Schinner, Murphy and Weimann",
-    "ThreeLetterISOLanguageName": "Schneider-Schultz",
-    "TwoLetterISOLanguageName": "Effertz-Feest",
+    "LanguageInfoId": 951,
+    "LCID": 238,
+    "EnglishName": "Daniel-Barton",
+    "NativeName": "Friesen, Murphy and Kemmer",
+    "ThreeLetterISOLanguageName": "West, Cruickshank and Hand",
+    "TwoLetterISOLanguageName": "Gorczany, Connelly and Russel",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldLength": 290
       }
     }
   }

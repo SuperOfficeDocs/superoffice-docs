@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wintheiser-Schulist",
-    "DisplayName": "West, Nolan and Conroy",
-    "DisplayTooltip": "ipsum",
+    "Name": "Goyette-Gorczany",
+    "DisplayName": "Gleason, Tremblay and Stiedemann",
+    "DisplayTooltip": "cumque",
     "IsActive": false
   },
   {
-    "Name": "Wintheiser-Schulist",
-    "DisplayName": "West, Nolan and Conroy",
-    "DisplayTooltip": "ipsum",
+    "Name": "Goyette-Gorczany",
+    "DisplayName": "Gleason, Tremblay and Stiedemann",
+    "DisplayTooltip": "cumque",
     "IsActive": false
   }
 ]

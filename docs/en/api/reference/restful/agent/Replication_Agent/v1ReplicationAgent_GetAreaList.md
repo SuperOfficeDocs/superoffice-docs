@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 435,
-    "Name": "Ledner-Kshlerin",
-    "MaxDataAge": 892,
-    "NumberOfUsers": 305,
-    "NumberOfLogins": 814,
+    "AreaId": 820,
+    "Name": "Halvorson, Heathcote and Cremin",
+    "MaxDataAge": 526,
+    "NumberOfUsers": 316,
+    "NumberOfLogins": 44,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldType": "System.Int32",
+        "FieldLength": 557
       }
     }
   }

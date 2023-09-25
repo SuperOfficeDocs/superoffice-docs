@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "O'Keefe-Fahey",
-    "ToolTip": "Perspiciatis officiis qui voluptas explicabo quis.",
+    "Id": 408,
+    "Name": "Huel, Howe and McDermott",
+    "ToolTip": "Quos totam aspernatur aut quia fuga cumque.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "est",
-    "ColorBlock": 933,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2005-10-02T03:31:27.7634711+02:00",
+    "Rank": 791,
+    "Type": "aliquam",
+    "ColorBlock": 593,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2012-04-06T03:24:48.5497594+02:00",
     "ChildItems": [
       {
-        "Id": 701,
-        "Name": "Wiza-Baumbach",
-        "ToolTip": "Quia laudantium eum quibusdam dolore.",
-        "Deleted": true,
-        "Rank": 694,
-        "Type": "eligendi",
-        "ColorBlock": 79,
-        "IconHint": "repellendus",
+        "Id": 609,
+        "Name": "Heathcote, Flatley and Marquardt",
+        "ToolTip": "Ipsa officiis unde commodi.",
+        "Deleted": false,
+        "Rank": 381,
+        "Type": "asperiores",
+        "ColorBlock": 404,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2003-10-07T03:31:27.7634711+02:00",
+        "LastChanged": "2020-11-13T03:24:48.5497594+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "ut",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Lilla Lynch",
+        "FullName": "Donald Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 739
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "eum",
+    "ExtraInfo": "totam",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Jessica Schuppe",
+    "FullName": "Miss Jacky Myrtice Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 552
+        "FieldLength": 73
       }
     }
   }

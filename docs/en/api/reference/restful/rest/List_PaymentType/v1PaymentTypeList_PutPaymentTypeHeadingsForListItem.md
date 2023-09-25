@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Olson, McLaughlin and Koss",
-    "ToolTip": "Aliquam incidunt possimus exercitationem.",
+    "Id": 144,
+    "Name": "Barrows, Kling and Gusikowski",
+    "ToolTip": "Velit consequuntur aut.",
     "Deleted": false,
-    "Rank": 870,
-    "Type": "culpa",
-    "ColorBlock": 184,
-    "IconHint": "mollitia",
+    "Rank": 656,
+    "Type": "animi",
+    "ColorBlock": 597,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2022-03-04T03:31:33.6791985+01:00",
+    "LastChanged": "2010-08-03T03:24:52.2869587+02:00",
     "ChildItems": [
       {
-        "Id": 679,
-        "Name": "Lemke Inc and Sons",
-        "ToolTip": "Vel iusto qui tempora qui.",
+        "Id": 974,
+        "Name": "Reilly-Schiller",
+        "ToolTip": "Iste error repellat quae commodi.",
         "Deleted": false,
-        "Rank": 248,
-        "Type": "vel",
-        "ColorBlock": 712,
-        "IconHint": "illum",
+        "Rank": 830,
+        "Type": "molestiae",
+        "ColorBlock": 839,
+        "IconHint": "eaque",
         "Selected": true,
-        "LastChanged": "2017-06-14T03:31:33.6791985+02:00",
+        "LastChanged": "2018-08-18T03:24:52.2869587+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Aliyah Metz"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "nulla",
+        "Hidden": false,
+        "FullName": "Candida Wilkinson"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "amet",
+    "ExtraInfo": "nobis",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mr. Emmet Andreanne Roberts"
+    "FullName": "Maximilian Harber"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Zemlak-Schmeler",
-    "ToolTip": "Aut consequuntur rerum illo labore rerum velit.",
-    "Deleted": true,
-    "Rank": 497,
-    "Type": "officiis",
-    "ColorBlock": 313,
-    "IconHint": "at",
+    "Id": 715,
+    "Name": "Brown, Osinski and West",
+    "ToolTip": "Hic ratione dicta dicta aspernatur.",
+    "Deleted": false,
+    "Rank": 250,
+    "Type": "nulla",
+    "ColorBlock": 520,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2002-11-13T03:31:33.6791985+01:00",
+    "LastChanged": "2016-11-17T03:24:52.2869587+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Reinger-Gorczany",
-        "ToolTip": "Voluptatem ad reprehenderit voluptas at ut.",
+        "Id": 523,
+        "Name": "Senger Inc and Sons",
+        "ToolTip": "Cupiditate minima autem numquam.",
         "Deleted": true,
-        "Rank": 802,
-        "Type": "est",
-        "ColorBlock": 170,
-        "IconHint": "nisi",
+        "Rank": 358,
+        "Type": "voluptatem",
+        "ColorBlock": 739,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2021-02-02T03:31:33.6791985+01:00",
+        "LastChanged": "2004-05-14T03:24:52.2869587+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "sunt",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Dr. Hester Marcia Sauer V",
+        "FullName": "Melyssa Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 961
+            "FieldType": "System.Int32",
+            "FieldLength": 685
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Mr. Shawn Alisa Hartmann Sr.",
+    "ExtraInfo": "quia",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Velda O'Connell Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldType": "System.String",
+        "FieldLength": 986
       }
     }
   }

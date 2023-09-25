@@ -446,11 +446,67 @@ title: Services88.WorkflowAgent WSDL
       <xs:complexType name="WorkflowStepCreateFollowUp">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
-            <xs:sequence />
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FollowUpType" type="xs:int" />
+              <xs:element minOccurs="0" name="Project" type="xs:int" />
+              <xs:element minOccurs="0" name="Completed" type="xs:boolean" />
+              <xs:element minOccurs="0" name="WorkflowActionType" type="tns:WorkflowActionType" />
+              <xs:element minOccurs="0" name="WorkflowActionTime" type="xs:int" />
+              <xs:element minOccurs="0" name="WorkflowActionTimeUnit" type="tns:WorkflowTimeWaitIntervalType" />
+              <xs:element minOccurs="0" name="Duration" type="xs:int" />
+              <xs:element minOccurs="0" name="Availability" type="tns:FreeBusy" />
+              <xs:element minOccurs="0" name="AssignTo" type="xs:int" />
+              <xs:element minOccurs="0" name="WorkflowOwnerType" type="tns:WorkflowOwnerType" />
+              <xs:element minOccurs="0" name="Agenda" nillable="true" type="xs:string" />
+            </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepCreateFollowUp" nillable="true" type="tns:WorkflowStepCreateFollowUp" />
+      <xs:simpleType name="WorkflowActionType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="FirstAvailable" />
+          <xs:enumeration value="FirstAvailableAfter" />
+          <xs:enumeration value="Today" />
+          <xs:enumeration value="After" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowActionType" nillable="true" type="tns:WorkflowActionType" />
+      <xs:simpleType name="WorkflowTimeWaitIntervalType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Seconds" />
+          <xs:enumeration value="Minutes" />
+          <xs:enumeration value="Hours" />
+          <xs:enumeration value="WorkingDays" />
+          <xs:enumeration value="Days" />
+          <xs:enumeration value="Weeks" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowTimeWaitIntervalType" nillable="true" type="tns:WorkflowTimeWaitIntervalType" />
+      <xs:simpleType name="FreeBusy">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Busy" />
+          <xs:enumeration value="Free" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="FreeBusy" nillable="true" type="tns:FreeBusy" />
+      <xs:simpleType name="WorkflowOwnerType">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Specified" />
+          <xs:enumeration value="OurContact" />
+          <xs:enumeration value="OurSupportContact" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="WorkflowOwnerType" nillable="true" type="tns:WorkflowOwnerType" />
       <xs:complexType name="WorkflowStepCreateRequest">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -600,18 +656,6 @@ title: Services88.WorkflowAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="WorkflowTimeWaitAlgorithm" nillable="true" type="tns:WorkflowTimeWaitAlgorithm" />
-      <xs:simpleType name="WorkflowTimeWaitIntervalType">
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="None" />
-          <xs:enumeration value="Seconds" />
-          <xs:enumeration value="Minutes" />
-          <xs:enumeration value="Hours" />
-          <xs:enumeration value="WorkingDays" />
-          <xs:enumeration value="Days" />
-          <xs:enumeration value="Weeks" />
-        </xs:restriction>
-      </xs:simpleType>
-      <xs:element name="WorkflowTimeWaitIntervalType" nillable="true" type="tns:WorkflowTimeWaitIntervalType" />
       <xs:complexType name="ArrayOfWorkflowTrigger">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="WorkflowTrigger" nillable="true" type="tns:WorkflowTrigger" />
@@ -639,19 +683,19 @@ title: Services88.WorkflowAgent WSDL
         </xs:annotation>
         <xs:restriction base="xs:string">
           <xs:enumeration value="None" />
-          <xs:enumeration value="SendEmail" />
-          <xs:enumeration value="SendSMS" />
-          <xs:enumeration value="WaitForTime" />
-          <xs:enumeration value="WaitForAction" />
-          <xs:enumeration value="Split" />
-          <xs:enumeration value="UpdateContact" />
-          <xs:enumeration value="AddToList" />
-          <xs:enumeration value="RemoveFromList" />
-          <xs:enumeration value="CreateRequest" />
-          <xs:enumeration value="CreateFollowUp" />
-          <xs:enumeration value="CreateSale" />
-          <xs:enumeration value="NotifyByEmail" />
-          <xs:enumeration value="NotifyBySMS" />
+          <xs:enumeration value="ContactCreated" />
+          <xs:enumeration value="ContactUpdated" />
+          <xs:enumeration value="AddedToProject" />
+          <xs:enumeration value="CreatedRequest" />
+          <xs:enumeration value="LinkClicked" />
+          <xs:enumeration value="AddedToSelection" />
+          <xs:enumeration value="FormSubmitted" />
+          <xs:enumeration value="AddedMessage" />
+          <xs:enumeration value="StartedChat" />
+          <xs:enumeration value="OrderPlaced" />
+          <xs:enumeration value="SaleCreated" />
+          <xs:enumeration value="SaleSold" />
+          <xs:enumeration value="SaleLost" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="WorkflowTriggerType" nillable="true" type="tns:WorkflowTriggerType" />

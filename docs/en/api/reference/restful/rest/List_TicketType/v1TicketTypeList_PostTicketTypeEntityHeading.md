@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 471,
-  "Name": "O'Hara Inc and Sons",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 985,
-  "UdListDefinitionId": 763
+  "HeadingId": 130,
+  "Name": "Gerhold LLC",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 216,
+  "UdListDefinitionId": 573
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 179,
-  "Name": "Schoen, Little and Rogahn",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "Rank": 470,
-  "UdListDefinitionId": 289,
+  "HeadingId": 146,
+  "Name": "Marquardt Inc and Sons",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 332,
+  "UdListDefinitionId": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

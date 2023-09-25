@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Little LLC",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 496,
-    "Rank": 669
+    "Id": 523,
+    "Name": "Boyer-O'Kon",
+    "Tooltip": "ab",
+    "Deleted": true,
+    "UdListDefinitionId": 635,
+    "Rank": 772
   },
   {
-    "Id": 6,
-    "Name": "Little LLC",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 496,
-    "Rank": 669
+    "Id": 523,
+    "Name": "Boyer-O'Kon",
+    "Tooltip": "ab",
+    "Deleted": true,
+    "UdListDefinitionId": 635,
+    "Rank": 772
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Kessler-Ratke",
-    "Tooltip": "quasi",
-    "Deleted": true,
-    "UdListDefinitionId": 334,
-    "Rank": 993,
+    "Id": 38,
+    "Name": "Predovic Inc and Sons",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "UdListDefinitionId": 820,
+    "Rank": 969,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 811
       }
     }
   }

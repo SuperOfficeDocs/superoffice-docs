@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 835
+  "ErpConnectionId": 190
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Rath-Walsh",
+      "ErpListName": "Herman LLC",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Hamill-Feest",
-      "ErpFieldId": 132,
+      "ErpActorTypeName": "Schoen Inc and Sons",
+      "ErpFieldId": 996,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     }
   ],
-  "ErpConnectionId": 32,
-  "ErpConnectionName": "Morissette, Sporer and Larson",
+  "ErpConnectionId": 653,
+  "ErpConnectionName": "Tremblay-Labadie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 916
     }
   }
 }

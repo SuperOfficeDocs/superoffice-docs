@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 348,
-  "Name": "Will-Dietrich",
+  "WebhookId": 717,
+  "Name": "Leffler, Metz and Purdy",
   "Events": [
-    "magnam",
-    "beatae"
+    "dolor",
+    "consequatur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "accusamus",
+  "Secret": "nesciunt",
   "State": "Active",
-  "Type": "sit",
+  "Type": "culpa",
   "Headers": {
-    "Headers1": "fugiat",
-    "Headers2": "ut"
+    "Headers1": "quasi",
+    "Headers2": "id"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-08-18T03:31:27.841573+02:00",
+  "Registered": "2021-04-14T03:24:48.5966823+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2017-04-18T03:31:27.841573+02:00",
+  "Updated": "2002-05-11T03:24:48.5966823+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "chadrick.deckow@huelsbahringer.us"
+  "ErrorsEmail": "reagan@kertzmann.us"
 }
 ```

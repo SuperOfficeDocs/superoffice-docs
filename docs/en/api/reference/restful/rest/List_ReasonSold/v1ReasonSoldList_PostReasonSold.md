@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Yost-Donnelly",
-  "Tooltip": "ipsam",
+  "Id": 945,
+  "Name": "Bogan Inc and Sons",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "UdListDefinitionId": 491,
-  "Rank": 485
+  "UdListDefinitionId": 752,
+  "Rank": 461
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 273,
-  "Name": "Lowe Group",
-  "Tooltip": "veniam",
+  "Id": 403,
+  "Name": "Runolfsdottir, Conn and Berge",
+  "Tooltip": "qui",
   "Deleted": true,
-  "UdListDefinitionId": 135,
-  "Rank": 847,
+  "UdListDefinitionId": 94,
+  "Rank": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldLength": 119
     }
   }
 }

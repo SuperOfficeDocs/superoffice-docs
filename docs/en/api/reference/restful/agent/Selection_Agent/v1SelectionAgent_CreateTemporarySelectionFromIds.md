@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    968,
-    286
+    996,
+    765
   ],
-  "TargetTableNumber": 428
+  "TargetTableNumber": 901
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fundamental bandwidth-monitored solution",
-  "Postit": "dolores",
+  "Description": "User-centric real-time hierarchy",
+  "Postit": "nihil",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 672,
-  "IncludePerson": 847,
-  "MemberCount": 23,
-  "Name": "Stoltenberg-Russel",
-  "PostitTextId": 68,
-  "CreatedDate": "2008-04-05T03:31:27.278067+02:00",
-  "SelectionId": 179,
-  "SoundEx": "tempore",
-  "Source": 447,
-  "TextId": 725,
-  "UpdatedDate": "2016-10-16T03:31:27.278067+02:00",
-  "UpdatedCount": 992,
-  "Visibility": 173,
+  "GroupIdx": 385,
+  "IncludePerson": 766,
+  "MemberCount": 129,
+  "Name": "Cole-Wolff",
+  "PostitTextId": 488,
+  "CreatedDate": "1999-01-28T03:24:48.2680521+01:00",
+  "SelectionId": 433,
+  "SoundEx": "veritatis",
+  "Source": 860,
+  "TextId": 622,
+  "UpdatedDate": "2022-02-17T03:24:48.2680521+01:00",
+  "UpdatedCount": 133,
+  "Visibility": 524,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 736,
-  "TargetTableName": "Buckridge, Morar and Schmeler",
-  "Completed": true,
-  "LeftSelectionId": 737,
-  "RightSelectionId": 150,
+  "TargetTableNumber": 898,
+  "TargetTableName": "Fadel LLC",
+  "Completed": false,
+  "LeftSelectionId": 470,
+  "RightSelectionId": 635,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gleason Group",
-  "ShadowProviderName": "Rodriguez, Watsica and Marvin",
-  "ChartKey": "autem",
-  "LastLoaded": "2007-01-26T03:31:27.278067+01:00",
-  "LastLoadedBy": 110,
+  "MainProviderName": "Dach-Stehr",
+  "ShadowProviderName": "Ullrich-Durgan",
+  "ChartKey": "officiis",
+  "LastLoaded": "1997-09-30T03:24:48.2680521+02:00",
+  "LastLoadedBy": 204,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-06-02T03:31:27.278067+02:00",
-  "LastMembershipChangeBy": 229,
+  "LastMembershipChange": "2010-01-20T03:24:48.2680521+01:00",
+  "LastMembershipChangeBy": 955,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "distinctio",
-  "MemberTabHeading": "harum",
-  "MailingsProviderName": "Stehr-Reilly",
-  "DashboardTileDefinitionId": 435,
+  "MainHeading": "quia",
+  "MemberTabHeading": "molestias",
+  "MailingsProviderName": "Smitham-Howe",
+  "DashboardTileDefinitionId": 208,
   "VisibleFor": [
     {
-      "VisibleId": 604,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldType": "System.String",
+          "FieldLength": 507
         }
       }
     },
     {
-      "VisibleId": 604,
+      "VisibleId": 811,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldType": "System.String",
+          "FieldLength": 507
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Wilderman Inc and Sons",
-  "Tooltip": "iste",
+  "Id": 776,
+  "Name": "Green, Cole and Leffler",
+  "Tooltip": "adipisci",
   "Deleted": true,
-  "UdListDefinitionId": 615,
-  "Rank": 311
+  "UdListDefinitionId": 278,
+  "Rank": 724
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 917,
-  "Name": "O'Hara, Borer and Krajcik",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "UdListDefinitionId": 310,
-  "Rank": 917,
+  "Id": 825,
+  "Name": "Larson LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 516,
+  "Rank": 762,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 730
     }
   }
 }

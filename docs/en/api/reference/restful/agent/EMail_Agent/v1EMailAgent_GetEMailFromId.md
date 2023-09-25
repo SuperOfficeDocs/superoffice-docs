@@ -104,12 +104,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 38,
+  "MessageServerId": 578,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": false
@@ -125,97 +125,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 998,
-      "ContactName": "Upton-Larson",
-      "PersonId": 457,
-      "PersonName": "Schaden-Monahan",
+      "ContactId": 913,
+      "ContactName": "McLaughlin, Russel and Lubowitz",
+      "PersonId": 281,
+      "PersonName": "Daugherty LLC",
       "AssociateId": 822,
-      "Address": "est",
-      "EmailId": 803,
+      "Address": "sint",
+      "EmailId": 104,
       "DuplicatePersonIds": [
-        370,
-        345
+        18,
+        22
       ],
-      "Name": "Macejkovic LLC",
+      "Name": "Wolff, Christiansen and Roberts",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldLength": 180
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 376,
-      "ContactName": "Flatley, Kessler and Mohr",
-      "PersonId": 95,
-      "PersonName": "Mann-Cartwright",
-      "AssociateId": 104,
-      "Address": "iusto",
-      "EmailId": 652,
+      "ContactId": 419,
+      "ContactName": "Bahringer, Rohan and Gutmann",
+      "PersonId": 904,
+      "PersonName": "Mitchell, Berge and White",
+      "AssociateId": 323,
+      "Address": "excepturi",
+      "EmailId": 448,
       "DuplicatePersonIds": [
-        517,
-        637
+        958,
+        835
       ],
-      "Name": "Koch, Schulist and Schuster",
+      "Name": "Skiles Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldLength": 352
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 297,
-      "ContactName": "Wunsch Group",
-      "PersonId": 828,
-      "PersonName": "Herzog-Hansen",
-      "AssociateId": 312,
-      "Address": "at",
-      "EmailId": 566,
+      "ContactId": 998,
+      "ContactName": "Kshlerin Inc and Sons",
+      "PersonId": 227,
+      "PersonName": "Yost Inc and Sons",
+      "AssociateId": 103,
+      "Address": "suscipit",
+      "EmailId": 433,
       "DuplicatePersonIds": [
-        196,
-        717
+        55,
+        373
       ],
-      "Name": "Metz LLC",
+      "Name": "Connelly LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 833
+          "FieldLength": 498
         }
       }
     }
   ],
-  "Subject": "est",
-  "HTMLBody": "et",
+  "Subject": "non",
+  "HTMLBody": "laboriosam",
   "From": null,
-  "Sent": "2005-03-09T03:31:26.4801032+01:00",
-  "Size": 962,
+  "Sent": "2014-04-08T03:24:47.7520273+02:00",
+  "Size": 755,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quibusdam",
-  "PlainBody": "commodi",
+  "MessageID": "neque",
+  "PlainBody": "sapiente",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 579,
+  "ServerId": 214,
   "Attachments": [
     {
-      "Description": "Profound radical pricing structure",
+      "Description": "Integrated holistic encryption",
       "Filename": "est",
-      "Size": 66,
-      "Type": "expedita",
-      "Encoding": "quis",
-      "Id": "consequatur",
-      "Disposition": "autem",
+      "Size": 381,
+      "Type": "asperiores",
+      "Encoding": "quidem",
+      "Id": "inventore",
+      "Disposition": "voluptas",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,58 +223,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 783
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Oberbrunner, Batz and Yost",
+      "Name": "White-Streich",
       "Values": [
-        "repudiandae",
-        "delectus"
+        "aut",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 966
         }
       }
     },
     {
-      "Name": "Oberbrunner, Batz and Yost",
+      "Name": "White-Streich",
       "Values": [
-        "repudiandae",
-        "delectus"
+        "aut",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldType": "System.String",
+          "FieldLength": 966
         }
       }
     }
   ],
-  "FolderName": "Franecki Group",
-  "EmailItemId": 506,
-  "AccountId": 658,
-  "ReceivedAt": "2008-04-05T03:31:26.4801032+02:00",
+  "FolderName": "Dickinson LLC",
+  "EmailItemId": 198,
+  "AccountId": 518,
+  "ReceivedAt": "2014-04-10T03:24:47.7520273+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-01-26T03:31:26.4801032+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2022-05-18T03:24:47.7520273+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

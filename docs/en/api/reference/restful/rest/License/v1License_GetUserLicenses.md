@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kulas, Smitham and Hayes",
-    "Description": "Expanded zero administration implementation",
+    "Name": "Morissette, Smitham and Carroll",
+    "Description": "Cloned homogeneous extranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 553,
-        "Tooltip": "temporibus",
-        "CanAssign": true,
-        "Free": 940,
-        "InUse": 785,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 639,
-        "Name": "Kuvalis Group",
-        "Description": "Focused bandwidth-monitored intranet",
-        "PrerequisiteModuleName": "Yundt Inc and Sons",
-        "SortOrder": 411,
-        "ExtraFlags": 607,
+        "Unrestricted": true,
+        "Total": 423,
+        "Tooltip": "officia",
+        "CanAssign": false,
+        "Free": 421,
+        "InUse": 103,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 835,
+        "Name": "Weissnat, Littel and Adams",
+        "Description": "Optimized 24/7 attitude",
+        "PrerequisiteModuleName": "Bechtelar-Spinka",
+        "SortOrder": 781,
+        "ExtraFlags": 423,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldLength": 335
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 168,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 198,
-        "InUse": 596,
+        "Total": 250,
+        "Tooltip": "laboriosam",
+        "CanAssign": false,
+        "Free": 35,
+        "InUse": 232,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 446,
-        "Name": "Bogan, Sanford and Borer",
-        "Description": "Visionary demand-driven middleware",
-        "PrerequisiteModuleName": "Nader LLC",
-        "SortOrder": 46,
-        "ExtraFlags": 192,
+        "ModuleLicenseId": 357,
+        "Name": "Rosenbaum-Wisoky",
+        "Description": "Advanced bandwidth-monitored core",
+        "PrerequisiteModuleName": "Bernhard LLC",
+        "SortOrder": 34,
+        "ExtraFlags": 840,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 651
       }
     }
   },
   {
-    "Name": "Kulas, Smitham and Hayes",
-    "Description": "Expanded zero administration implementation",
+    "Name": "Morissette, Smitham and Carroll",
+    "Description": "Cloned homogeneous extranet",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 553,
-        "Tooltip": "temporibus",
-        "CanAssign": true,
-        "Free": 940,
-        "InUse": 785,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 639,
-        "Name": "Kuvalis Group",
-        "Description": "Focused bandwidth-monitored intranet",
-        "PrerequisiteModuleName": "Yundt Inc and Sons",
-        "SortOrder": 411,
-        "ExtraFlags": 607,
+        "Unrestricted": true,
+        "Total": 423,
+        "Tooltip": "officia",
+        "CanAssign": false,
+        "Free": 421,
+        "InUse": 103,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 835,
+        "Name": "Weissnat, Littel and Adams",
+        "Description": "Optimized 24/7 attitude",
+        "PrerequisiteModuleName": "Bechtelar-Spinka",
+        "SortOrder": 781,
+        "ExtraFlags": 423,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 169
+            "FieldLength": 335
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 168,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 198,
-        "InUse": 596,
+        "Total": 250,
+        "Tooltip": "laboriosam",
+        "CanAssign": false,
+        "Free": 35,
+        "InUse": 232,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 446,
-        "Name": "Bogan, Sanford and Borer",
-        "Description": "Visionary demand-driven middleware",
-        "PrerequisiteModuleName": "Nader LLC",
-        "SortOrder": 46,
-        "ExtraFlags": 192,
+        "ModuleLicenseId": 357,
+        "Name": "Rosenbaum-Wisoky",
+        "Description": "Advanced bandwidth-monitored core",
+        "PrerequisiteModuleName": "Bernhard LLC",
+        "SortOrder": 34,
+        "ExtraFlags": 840,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 261
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldType": "System.String",
+        "FieldLength": 651
       }
     }
   }

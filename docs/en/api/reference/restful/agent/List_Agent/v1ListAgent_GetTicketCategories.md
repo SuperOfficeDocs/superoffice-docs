@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 843,
-    "ParentId": 858,
-    "Name": "Bauch Inc and Sons",
-    "Fullname": "unde",
-    "CategoryMaster": 951,
+    "TicketCategoryId": 625,
+    "ParentId": 794,
+    "Name": "Lynch LLC",
+    "Fullname": "iste",
+    "CategoryMaster": 722,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Steuber-Cummerata",
+    "ExternalName": "Mills, Funk and Blick",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 457,
-    "ReplyTemplate": 992,
-    "NotificationEmail": "michale@kunde.uk",
+    "AssignmentLag": 775,
+    "ReplyTemplate": 137,
+    "NotificationEmail": "jabari.hauck@larkincrooks.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 810,
+    "EffectiveReplyTemplateId": 940,
     "ExtraFields": {
-      "ExtraFields1": "cum",
-      "ExtraFields2": "atque"
+      "ExtraFields1": "et",
+      "ExtraFields2": "qui"
     },
     "CustomFields": {
-      "CustomFields1": "quia",
-      "CustomFields2": "ab"
+      "CustomFields1": "voluptatem",
+      "CustomFields2": "sed"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldType": "System.String",
+        "FieldLength": 830
       }
     }
   }

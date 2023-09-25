@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Predovic, Shanahan and Witting",
-      "Operator": "quis",
+      "Name": "Maggio, Kulas and Gleichner",
+      "Operator": "voluptas",
       "Values": [
-        "id",
-        "ut"
+        "provident",
+        "optio"
       ],
       "DisplayValues": [
-        "et",
-        "aut"
+        "hic",
+        "ut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 68,
+      "InterParenthesis": 111,
       "InterOperator": "And",
-      "UniqueHash": 566
+      "UniqueHash": 302
     }
   ],
   "Columns": [
-    "aliquam",
-    "animi"
+    "fugiat",
+    "quam"
   ],
-  "ConnectionId": 124,
+  "ConnectionId": 836,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "ut",
-        "corrupti"
+        "aut",
+        "laudantium"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "est",
+      "ExternalKey": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 684
+          "FieldLength": 413
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Walter, Ernser and Toy",
-      "DisplayName": "Weissnat-Grady",
+      "Name": "Marquardt-Wyman",
+      "DisplayName": "Durgan Inc and Sons",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 462
+          "FieldType": "System.Int32",
+          "FieldLength": 840
         }
       }
     },
     {
-      "Name": "Walter, Ernser and Toy",
-      "DisplayName": "Weissnat-Grady",
+      "Name": "Marquardt-Wyman",
+      "DisplayName": "Durgan Inc and Sons",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 462
+          "FieldType": "System.Int32",
+          "FieldLength": 840
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 332
     }
   }
 }

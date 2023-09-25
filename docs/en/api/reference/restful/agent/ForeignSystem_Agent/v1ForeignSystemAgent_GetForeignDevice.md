@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=463
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=568
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 370,
-  "Name": "Feeney, Muller and Ondricka",
-  "CreatedDate": "2013-11-11T03:31:26.6050723+01:00",
-  "UpdatedDate": "2014-06-18T03:31:26.6050723+02:00",
-  "AssociateFullName": "Ms. Ayla Jackson Johns Sr.",
-  "CreatedBy": "architecto",
-  "UpdatedBy": "aut",
-  "DeviceIdentifier": "reprehenderit",
-  "ForeignAppId": 778,
+  "ForeignDeviceId": 19,
+  "Name": "Koepp Group",
+  "CreatedDate": "2015-01-15T03:24:47.8301403+01:00",
+  "UpdatedDate": "2016-12-28T03:24:47.8301403+01:00",
+  "AssociateFullName": "Iliana Jacobi",
+  "CreatedBy": "non",
+  "UpdatedBy": "saepe",
+  "DeviceIdentifier": "dolor",
+  "ForeignAppId": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

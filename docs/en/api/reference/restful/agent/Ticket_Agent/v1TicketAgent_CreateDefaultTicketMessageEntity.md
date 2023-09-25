@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 113,
+  "EjMessageId": 663,
   "Ticket": null,
-  "CreatedAt": "2016-12-29T03:31:27.3561639+01:00",
+  "CreatedAt": "2006-02-06T03:24:48.4092931+01:00",
   "CreatedBy": null,
   "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 506,
-  "Body": "omnis",
-  "HtmlBody": "dolorum",
-  "EmailHeader": "rey.witting@terryframi.ca",
-  "DebugInfo": "sed",
-  "MailSorter": "magni",
+  "MessageId": "facere",
+  "TimeSpent": 529,
+  "Body": "repudiandae",
+  "HtmlBody": "perferendis",
+  "EmailHeader": "elyssa@kilbackhammes.biz",
+  "DebugInfo": "sint",
+  "MailSorter": "quis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "velit",
+  "SearchTitle": "facere",
   "MessageHeaders": [
     {
-      "Id": 621,
-      "Name": "Renner LLC",
-      "Value": "deserunt",
+      "Id": 770,
+      "Name": "Hilpert LLC",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 355
+          "FieldLength": 910
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "libero",
-  "Sentiment": 625,
-  "SentimentConfidence": 887,
+  "Important": false,
+  "Language": "repellat",
+  "Sentiment": 98,
+  "SentimentConfidence": 67,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 890,
-      "Name": "Quigley-Bergstrom",
-      "ContentType": "adipisci",
-      "AttSize": 521,
+      "AttachmentId": 209,
+      "Name": "Brakus Inc and Sons",
+      "ContentType": "sit",
+      "AttSize": 170,
       "InlineImage": false,
-      "ContentId": "officiis",
-      "AuthKey": "amet",
+      "ContentId": "atque",
+      "AuthKey": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 799
+          "FieldLength": 727
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "neque"
+    "CustomFields1": "sit",
+    "CustomFields2": "mollitia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 765
     }
   }
 }

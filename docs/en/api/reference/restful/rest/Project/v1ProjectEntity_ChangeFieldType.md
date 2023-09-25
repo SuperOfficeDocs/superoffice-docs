@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 449,
-  "ColumnId": 926,
-  "FieldDefault": "et",
-  "FieldHeight": 32,
-  "FieldLabel": "non",
-  "FieldLeft": 706,
-  "FieldTop": 296,
+  "UDefFieldId": 635,
+  "ColumnId": 61,
+  "FieldDefault": "vel",
+  "FieldHeight": 573,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 32,
+  "FieldTop": 697,
   "FieldType": "Checkbox",
-  "FieldWidth": 575,
-  "FormatMask": "iusto",
-  "HideLabel": false,
+  "FieldWidth": 510,
+  "FormatMask": "nihil",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 319,
-  "LabelLeft": 408,
-  "LabelTop": 704,
-  "LabelWidth": 238,
-  "LastVersionId": 469,
-  "ListTableId": 349,
+  "LabelHeight": 96,
+  "LabelLeft": 268,
+  "LabelTop": 481,
+  "LabelWidth": 329,
+  "LastVersionId": 162,
+  "ListTableId": 461,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 171,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "consequatur",
-  "TabOrder": 965,
-  "TextLength": 760,
-  "Tooltip": "sed",
-  "UdefIdentity": 330,
-  "UDListDefinitionId": 240,
+  "Page1LineNo": 835,
+  "ProgId": "quasi",
+  "IsReadOnly": false,
+  "ShortLabel": "qui",
+  "TabOrder": 195,
+  "TextLength": 501,
+  "Tooltip": "nulla",
+  "UdefIdentity": 962,
+  "UDListDefinitionId": 134,
   "Justification": "Center",
-  "Version": 580,
-  "TemplateVariableName": "Leuschke, Mills and Reinger",
+  "Version": 71,
+  "TemplateVariableName": "Lind LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Bogisich-Kilback",
+  "MdoListName": "Kozey-Herzog",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 564
     }
   }
 }

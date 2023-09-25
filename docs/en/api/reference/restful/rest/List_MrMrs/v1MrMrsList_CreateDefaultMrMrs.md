@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Bailey Group",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "UdListDefinitionId": 444,
-  "Rank": 185,
+  "Id": 154,
+  "Name": "Larson LLC",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 500,
+  "Rank": 55,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

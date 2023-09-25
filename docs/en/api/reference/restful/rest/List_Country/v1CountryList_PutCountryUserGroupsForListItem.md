@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 113,
-    "Name": "Ruecker Group",
-    "ToolTip": "Id molestiae ex.",
-    "Deleted": false,
-    "Rank": 796,
-    "Type": "consequatur",
-    "ColorBlock": 998,
-    "IconHint": "molestias",
+    "Id": 196,
+    "Name": "Cummerata LLC",
+    "ToolTip": "Modi laudantium a neque est laudantium necessitatibus quia.",
+    "Deleted": true,
+    "Rank": 636,
+    "Type": "voluptatem",
+    "ColorBlock": 195,
+    "IconHint": "eveniet",
     "Selected": false,
-    "LastChanged": "1997-10-29T03:31:33.5542321+01:00",
+    "LastChanged": "1999-11-12T03:24:52.2088405+01:00",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Connelly, Paucek and Kuphal",
-        "ToolTip": "Alias reiciendis laboriosam id tenetur fugit voluptatem.",
+        "Id": 384,
+        "Name": "Douglas, Mohr and Kovacek",
+        "ToolTip": "Dolorem veniam et.",
         "Deleted": false,
-        "Rank": 636,
-        "Type": "et",
-        "ColorBlock": 949,
-        "IconHint": "deleniti",
+        "Rank": 195,
+        "Type": "in",
+        "ColorBlock": 180,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2005-09-15T03:31:33.5542321+02:00",
+        "LastChanged": "2013-03-17T03:24:52.2088405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "culpa",
-        "Hidden": true,
-        "FullName": "Watson Elmore Welch II"
+        "ExtraInfo": "qui",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Maddison Collier II"
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "minus",
+    "ExtraInfo": "in",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Prof. Noemy Cremin"
+    "FullName": "Dr. Marina Mollie Luettgen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Osinski, Schaden and Yundt",
-    "ToolTip": "Et sed qui nobis adipisci iste ex dolor.",
+    "Id": 212,
+    "Name": "Smith Group",
+    "ToolTip": "Laborum molestiae consectetur vel voluptatem est quis voluptas.",
     "Deleted": false,
-    "Rank": 155,
-    "Type": "recusandae",
-    "ColorBlock": 246,
-    "IconHint": "sed",
+    "Rank": 565,
+    "Type": "minus",
+    "ColorBlock": 622,
+    "IconHint": "laboriosam",
     "Selected": true,
-    "LastChanged": "2014-02-12T03:31:33.5542321+01:00",
+    "LastChanged": "2022-08-16T03:24:52.2088405+02:00",
     "ChildItems": [
       {
-        "Id": 277,
-        "Name": "Green LLC",
-        "ToolTip": "Reiciendis dignissimos.",
+        "Id": 945,
+        "Name": "Olson-Welch",
+        "ToolTip": "Officia ex consequuntur.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "qui",
-        "ColorBlock": 314,
-        "IconHint": "cupiditate",
-        "Selected": false,
-        "LastChanged": "2018-08-31T03:31:33.5542321+02:00",
+        "Rank": 36,
+        "Type": "soluta",
+        "ColorBlock": 619,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2001-10-18T03:24:52.2088405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "aut",
+        "ExtraInfo": "earum",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Charles Wintheiser",
+        "FullName": "Prof. Miles Brekke PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 257
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "sequi",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Solon Enrico Heaney Sr.",
+    "FullName": "Frida Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 125
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

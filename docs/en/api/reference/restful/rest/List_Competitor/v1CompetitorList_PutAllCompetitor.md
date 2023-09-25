@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Fritsch-Reichel",
-    "Tooltip": "delectus",
+    "Id": 265,
+    "Name": "Ritchie Group",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 709,
-    "Rank": 275
+    "UdListDefinitionId": 98,
+    "Rank": 972
   },
   {
-    "Id": 743,
-    "Name": "Fritsch-Reichel",
-    "Tooltip": "delectus",
+    "Id": 265,
+    "Name": "Ritchie Group",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 709,
-    "Rank": 275
+    "UdListDefinitionId": 98,
+    "Rank": 972
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "Collins, Murray and Kerluke",
-    "Tooltip": "ad",
+    "Id": 391,
+    "Name": "Mosciski Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 645,
-    "Rank": 174,
+    "UdListDefinitionId": 247,
+    "Rank": 7,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 693
+        "FieldLength": 62
       }
     }
   }

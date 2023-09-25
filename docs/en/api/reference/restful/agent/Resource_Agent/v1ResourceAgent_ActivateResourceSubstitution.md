@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Resource/ActivateResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Lesch Group",
-  "Culture": "laborum",
+  "ResourceName": "Connelly-Nader",
+  "Culture": "temporibus",
   "IsActive": true
 }
 ```

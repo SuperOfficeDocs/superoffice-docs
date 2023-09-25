@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "dicta",
+  "Provider": "ratione",
   "Restrictions": [
     {
-      "Name": "Sauer-Mueller",
-      "Operator": "ipsam",
+      "Name": "Kerluke, Renner and Becker",
+      "Operator": "ut",
       "Values": [
-        "illo",
-        "quis"
+        "ullam",
+        "qui"
       ],
       "DisplayValues": [
-        "dolorem",
-        "ipsa"
+        "blanditiis",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 990,
+      "InterParenthesis": 717,
       "InterOperator": "And",
-      "UniqueHash": 975
+      "UniqueHash": 822
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  238,
-  2
+  20,
+  547
 ]
 ```

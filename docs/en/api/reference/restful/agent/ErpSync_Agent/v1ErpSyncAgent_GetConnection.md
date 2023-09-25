@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 269
+  "ErpConnectionId": 854
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 546,
-  "ErpConnectorId": 369,
-  "DisplayName": "Wiza-Trantow",
-  "DisplayDescription": "Organized analyzing installation",
+  "ErpConnectionId": 634,
+  "ErpConnectorId": 564,
+  "DisplayName": "Ondricka-Harvey",
+  "DisplayDescription": "Managed bottom-line core",
   "Active": false,
-  "ConnectionId": "dolorum",
-  "MostRecentTimestamp": "eum",
+  "ConnectionId": "deserunt",
+  "MostRecentTimestamp": "ipsa",
   "ConfigFields": {
-    "ConfigFields1": "qui",
-    "ConfigFields2": "deserunt"
+    "ConfigFields1": "ipsum",
+    "ConfigFields2": "et"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    989,
-    422
+    937,
+    52
   ],
   "AssociateAccessIds": [
-    515,
-    134
+    483,
+    699
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

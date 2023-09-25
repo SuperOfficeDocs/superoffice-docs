@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Glover Inc and Sons",
-    "Tooltip": "ducimus",
-    "Deleted": false,
-    "UdListDefinitionId": 194,
-    "Rank": 755,
+    "Id": 515,
+    "Name": "Gusikowski LLC",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 826,
+    "Rank": 159,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 129
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

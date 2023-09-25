@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 249,
-    "Name": "Bernier-Kunze",
-    "Description": "Diverse foreground Graphic Interface",
+    "ProjectId": 123,
+    "Name": "Hudson, Paucek and Ruecker",
+    "Description": "Reverse-engineered 3rd generation success",
     "URL": "http://www.example.com/",
-    "Type": "voluptas",
-    "AssociateId": 173,
-    "AssociateFullName": "Gillian Lindgren I",
-    "TypeId": 668,
-    "Updated": "2007-12-25T03:31:27.0268433+01:00",
-    "StatusId": 239,
-    "Status": "maxime",
-    "TextId": 67,
-    "PublishTo": "2005-08-21T03:31:27.0268433+02:00",
-    "PublishFrom": "2019-06-26T03:31:27.0268433+02:00",
-    "IsPublished": false,
+    "Type": "ipsa",
+    "AssociateId": 924,
+    "AssociateFullName": "Ms. Devyn Braeden Dicki",
+    "TypeId": 39,
+    "Updated": "2017-04-02T03:24:48.0957311+02:00",
+    "StatusId": 638,
+    "Status": "quia",
+    "TextId": 457,
+    "PublishTo": "2001-01-10T03:24:48.0957311+01:00",
+    "PublishFrom": "2009-09-11T03:24:48.0957311+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1071875",
-    "ActiveErpLinks": 611,
+    "ProjectNumber": "331487",
+    "ActiveErpLinks": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 458
       }
     }
   }

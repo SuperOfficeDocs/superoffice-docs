@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 402
+  "DashboardId": 931
 }
 ```
 
@@ -92,32 +92,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hahn-Hauck",
-  "Description": "Diverse intangible complexity",
-  "OwnedByFullName": "Jeffrey Wyman",
-  "Registered": "2000-04-09T03:31:26.0114733+02:00",
+  "Name": "Kunde LLC",
+  "Description": "Stand-alone logistical alliance",
+  "OwnedByFullName": "Pete Heller",
+  "Registered": "2001-03-27T03:24:47.5020527+02:00",
   "Tiles": [
     {
-      "Name": "Sawayn-Tillman",
+      "Name": "Pfannerstill-Wiegand",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 230
         }
       }
     },
     {
-      "Name": "Sawayn-Tillman",
+      "Name": "Pfannerstill-Wiegand",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 227
+          "FieldLength": 230
         }
       }
     }
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

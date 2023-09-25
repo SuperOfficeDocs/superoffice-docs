@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Moore-Satterfield",
-    "ToolTip": "Iure beatae possimus et iste non.",
-    "Deleted": false,
-    "Rank": 260,
-    "Type": "cumque",
-    "ColorBlock": 23,
-    "IconHint": "mollitia",
-    "Selected": true,
-    "LastChanged": "2001-06-09T03:31:33.6010939+02:00",
+    "Id": 624,
+    "Name": "Bergnaum-Schaefer",
+    "ToolTip": "Asperiores exercitationem omnis earum in ea neque.",
+    "Deleted": true,
+    "Rank": 283,
+    "Type": "deserunt",
+    "ColorBlock": 976,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "2000-09-24T03:24:52.240053+02:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Barton LLC",
-        "ToolTip": "Saepe atque ut.",
+        "Id": 129,
+        "Name": "Luettgen Group",
+        "ToolTip": "Voluptatem occaecati et cumque.",
         "Deleted": true,
-        "Rank": 63,
-        "Type": "mollitia",
-        "ColorBlock": 840,
-        "IconHint": "unde",
+        "Rank": 119,
+        "Type": "quis",
+        "ColorBlock": 28,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2017-05-12T03:31:33.6010939+02:00",
+        "LastChanged": "2016-05-06T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "atque",
-        "Hidden": false,
-        "FullName": "Edmund Mac Beahan MD"
+        "ExtraInfo": "quae",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Leslie Wiza Sr."
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "sed",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "ipsa",
     "Hidden": false,
-    "FullName": "Dr. Wava Dixie Kihn II"
+    "FullName": "Zechariah Christiansen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Stanton, Jast and Carroll",
-    "ToolTip": "Deserunt aut.",
+    "Id": 231,
+    "Name": "D'Amore, King and White",
+    "ToolTip": "Eos corrupti assumenda numquam ea et dicta at.",
     "Deleted": false,
-    "Rank": 915,
-    "Type": "dolore",
-    "ColorBlock": 994,
-    "IconHint": "corporis",
+    "Rank": 508,
+    "Type": "aliquid",
+    "ColorBlock": 218,
+    "IconHint": "maxime",
     "Selected": true,
-    "LastChanged": "2004-10-13T03:31:33.6010939+02:00",
+    "LastChanged": "2018-12-14T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Ankunding, Heaney and Swaniawski",
-        "ToolTip": "Atque recusandae tenetur architecto ea aspernatur et.",
-        "Deleted": false,
-        "Rank": 516,
-        "Type": "beatae",
-        "ColorBlock": 448,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2021-10-04T03:31:33.6010939+02:00",
+        "Id": 96,
+        "Name": "Dare LLC",
+        "ToolTip": "Molestiae quis sit eum recusandae exercitationem.",
+        "Deleted": true,
+        "Rank": 799,
+        "Type": "et",
+        "ColorBlock": 806,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2018-01-14T03:24:52.240053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Wilburn Marquardt",
+        "ExtraInfo": "earum",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Leora Schoen MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldType": "System.String",
+            "FieldLength": 769
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "fugit",
+    "ExtraInfo": "quis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Russell Strosin",
+    "FullName": "Ms. Elton Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 463
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

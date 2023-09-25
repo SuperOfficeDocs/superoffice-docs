@@ -61,7 +61,7 @@ No Content
 POST /api/v1/Project/{sourceProjectId}/MergeTo/{destinationProjectId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

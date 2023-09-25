@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 513,
-  "Name": "Walsh, Christiansen and Vandervort",
+  "WebhookId": 733,
+  "Name": "Hoeger, Brakus and Koch",
   "Events": [
-    "voluptate",
-    "rem"
+    "cupiditate",
+    "dolor"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "autem",
+  "Secret": "exercitationem",
   "State": "Active",
-  "Type": "ut",
+  "Type": "cupiditate",
   "Headers": {
-    "Headers1": "non",
-    "Headers2": "ut"
+    "Headers1": "voluptas",
+    "Headers2": "quidem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1997-04-21T03:31:33.4448734+02:00",
+  "Registered": "2000-12-28T03:24:52.1307225+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-05-26T03:31:33.4448734+02:00",
+  "Updated": "2015-04-02T03:24:52.1307225+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "robbie.dietrich@bailey.uk"
+  "ErrorsEmail": "lorena_kshlerin@auerrowe.uk"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 868,
-  "Name": "Langosh-Maggio",
+  "WebhookId": 353,
+  "Name": "Langworth-Jakubowski",
   "Events": [
-    "rem",
-    "assumenda"
+    "accusamus",
+    "mollitia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "possimus",
+  "Secret": "voluptates",
   "State": "Active",
-  "Type": "aut",
+  "Type": "a",
   "Headers": {
-    "Headers1": "illo",
-    "Headers2": "ullam"
+    "Headers1": "quasi",
+    "Headers2": "voluptatem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-02-25T03:31:33.4448734+01:00",
+  "Registered": "2013-09-30T03:24:52.1463474+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2023-03-06T03:31:33.4448734+01:00",
+  "Updated": "2007-12-29T03:24:52.1463474+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "marlin@gradyokeefe.uk",
+  "ErrorsEmail": "erika@friesenkuhn.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

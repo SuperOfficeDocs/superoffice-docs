@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 53,
-  "Name": "Balistreri Group",
-  "Tooltip": "sequi",
-  "Rank": 866,
+  "SaleTypeId": 283,
+  "Name": "Hane, Kessler and Gorczany",
+  "Tooltip": "voluptatem",
+  "Rank": 145,
   "DurationUnit": "Century",
-  "SaleDuration": 222,
-  "SaleTypeCatId": 281,
-  "Deleted": false,
+  "SaleDuration": 881,
+  "SaleTypeCatId": 143,
+  "Deleted": true,
   "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 581,
-  "QuoteLinesTemplate": 269,
-  "ConfirmationLinesTemplate": 429,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 594,
+  "QuoteLinesTemplate": 205,
+  "ConfirmationLinesTemplate": 347,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 862,
-  "MinEarningPercent": 904,
-  "GroupQuoteLinesBy": 461,
-  "SortGroupLinesBy": 787,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 402,
+  "MinEarningPercent": 702,
+  "GroupQuoteLinesBy": 70,
+  "SortGroupLinesBy": 276,
   "Stages": [
     {
-      "Id": 588,
-      "Name": "Kovacek-Okuneva",
-      "ToolTip": "Consequatur provident sed et error et et.",
+      "Id": 845,
+      "Name": "Schamberger-Harvey",
+      "ToolTip": "Quas ratione nam ut eum qui.",
       "Deleted": true,
-      "Rank": 724,
-      "Type": "reprehenderit",
-      "ColorBlock": 137,
-      "IconHint": "impedit",
-      "Selected": false,
-      "LastChanged": "2003-06-13T03:31:33.8679659+02:00",
+      "Rank": 98,
+      "Type": "eius",
+      "ColorBlock": 84,
+      "IconHint": "debitis",
+      "Selected": true,
+      "LastChanged": "2012-06-21T03:24:52.4119449+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "impedit",
-      "StyleHint": "eius",
-      "Hidden": false,
-      "FullName": "Ms. Kendrick Littel DVM"
+      "ExtraInfo": "perferendis",
+      "StyleHint": "quia",
+      "Hidden": true,
+      "FullName": "Dr. Christopher Steve Sporer"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 647,
-  "Name": "Zulauf LLC",
-  "Tooltip": "consequatur",
-  "Rank": 702,
+  "SaleTypeId": 593,
+  "Name": "Hermiston Group",
+  "Tooltip": "molestias",
+  "Rank": 463,
   "DurationUnit": "Century",
-  "SaleDuration": 346,
-  "SaleTypeCatId": 261,
+  "SaleDuration": 352,
+  "SaleTypeCatId": 516,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 238,
-  "QuoteLinesTemplate": 871,
-  "ConfirmationLinesTemplate": 455,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 95,
-  "MinEarningPercent": 118,
-  "GroupQuoteLinesBy": 913,
-  "SortGroupLinesBy": 482,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 821,
+  "QuoteLinesTemplate": 104,
+  "ConfirmationLinesTemplate": 217,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 286,
+  "MinEarningPercent": 286,
+  "GroupQuoteLinesBy": 638,
+  "SortGroupLinesBy": 795,
   "Stages": [
     {
-      "Id": 658,
-      "Name": "Metz, Volkman and Lueilwitz",
-      "ToolTip": "Ut cumque alias dignissimos.",
-      "Deleted": false,
-      "Rank": 213,
-      "Type": "suscipit",
-      "ColorBlock": 341,
-      "IconHint": "ullam",
+      "Id": 143,
+      "Name": "Prohaska, Boyer and Hudson",
+      "ToolTip": "Amet quia et delectus.",
+      "Deleted": true,
+      "Rank": 359,
+      "Type": "sit",
+      "ColorBlock": 457,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2006-03-14T03:31:33.8679659+01:00",
+      "LastChanged": "2020-10-22T03:24:52.4119449+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "ex",
-      "Hidden": true,
-      "FullName": "Jovany Gleason II",
+      "ExtraInfo": "odit",
+      "StyleHint": "nostrum",
+      "Hidden": false,
+      "FullName": "Dorcas Orn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 595
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 253
     }
   }
 }

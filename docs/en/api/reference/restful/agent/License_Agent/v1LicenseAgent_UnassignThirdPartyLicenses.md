@@ -92,11 +92,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 89,
-  "ModuleOwner": "nemo",
+  "AssociateId": 674,
+  "ModuleOwner": "inventore",
   "ModuleLicenseNames": [
-    "McDermott-Beatty",
-    "Miller Inc and Sons"
+    "Langosh LLC",
+    "Frami Inc and Sons"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 301,
-    "Tooltip": "ut",
+    "Unrestricted": false,
+    "Total": 540,
+    "Tooltip": "aut",
     "CanAssign": true,
-    "Free": 979,
-    "InUse": 390,
-    "IsHidden": true,
+    "Free": 24,
+    "InUse": 36,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 893,
-    "Name": "Reilly, Heller and Bradtke",
-    "Description": "Visionary motivating complexity",
-    "PrerequisiteModuleName": "Lemke-Miller",
-    "SortOrder": 880,
-    "ExtraFlags": 548,
+    "ModuleLicenseId": 672,
+    "Name": "Heaney-Howe",
+    "Description": "Cross-platform intangible secured line",
+    "PrerequisiteModuleName": "Donnelly-Deckow",
+    "SortOrder": 563,
+    "ExtraFlags": 381,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 84
       }
     }
   }

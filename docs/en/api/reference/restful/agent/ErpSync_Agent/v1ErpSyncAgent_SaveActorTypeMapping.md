@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 551,
+  "ErpConnectionId": 882,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 352,
-      "CrmFieldKey": "tempore",
-      "CrmDisplayName": "Klocko, Howell and Stehr",
-      "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "ipsam",
+      "ErpFieldId": 863,
+      "CrmFieldKey": "repellendus",
+      "CrmDisplayName": "Mann, Mann and Schimmel",
+      "CrmDisplayTooltip": "similique",
+      "ErpFieldKey": "dolorum",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Davis, Aufderhar and Grimes",
-      "ErpDisplayTooltip": "similique",
+      "ErpDisplayName": "Adams-Hartmann",
+      "ErpDisplayTooltip": "voluptatibus",
       "SyncToCrm": false,
-      "SyncToErp": false,
+      "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": false,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "quia",
+      "ListReference": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 948
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 54
     }
   }
 }

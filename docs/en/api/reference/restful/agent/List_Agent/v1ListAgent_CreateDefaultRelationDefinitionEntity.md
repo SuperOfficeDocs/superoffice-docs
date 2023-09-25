@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 503,
-  "Name": "Cole Inc and Sons",
-  "Tooltip": "doloribus",
-  "PassiveText": "assumenda",
+  "ReldefId": 238,
+  "Name": "Denesik-Dooley",
+  "Tooltip": "quia",
+  "PassiveText": "itaque",
   "Deleted": true,
-  "Rank": 705,
+  "Rank": 485,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 56
     }
   }
 }

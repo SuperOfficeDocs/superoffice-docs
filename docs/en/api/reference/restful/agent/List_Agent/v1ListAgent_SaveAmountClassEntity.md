@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 676,
-  "Name": "Crona-Fisher",
-  "Tooltip": "est",
-  "Rank": 121,
-  "AmountFrom": 18311.962,
-  "AmountTo": 18145.86,
+  "AmountClassId": 452,
+  "Name": "Mertz, Ritchie and Parisian",
+  "Tooltip": "cum",
+  "Rank": 922,
+  "AmountFrom": 742.75799999999992,
+  "AmountTo": 24987.381999999998,
   "Deleted": false,
-  "CurrencyId": 434
+  "CurrencyId": 377
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 837,
-  "Name": "Kris Group",
-  "Tooltip": "laborum",
-  "Rank": 178,
-  "AmountFrom": 4343.724,
-  "AmountTo": 8997.714,
+  "AmountClassId": 665,
+  "Name": "Reilly-Leannon",
+  "Tooltip": "et",
+  "Rank": 846,
+  "AmountFrom": 26993.142,
+  "AmountTo": 23928.09,
   "Deleted": false,
-  "CurrencyId": 319,
+  "CurrencyId": 528,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

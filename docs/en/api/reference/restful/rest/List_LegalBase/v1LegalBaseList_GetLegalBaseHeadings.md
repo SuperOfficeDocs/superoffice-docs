@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 826,
-    "Name": "Adams Group",
-    "Tooltip": "et",
+    "HeadingId": 828,
+    "Name": "Williamson, Considine and Casper",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 141,
-    "UdListDefinitionId": 753,
+    "Rank": 341,
+    "UdListDefinitionId": 993,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 79
       }
     }
   }

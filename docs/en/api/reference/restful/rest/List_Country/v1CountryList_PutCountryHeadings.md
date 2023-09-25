@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 91,
-    "Name": "Schowalter, Ferry and Donnelly",
-    "Tooltip": "harum",
-    "Deleted": false,
-    "Rank": 878,
-    "UdListDefinitionId": 502
+    "HeadingId": 21,
+    "Name": "Medhurst, Hickle and Nicolas",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "Rank": 944,
+    "UdListDefinitionId": 975
   },
   {
-    "HeadingId": 91,
-    "Name": "Schowalter, Ferry and Donnelly",
-    "Tooltip": "harum",
-    "Deleted": false,
-    "Rank": 878,
-    "UdListDefinitionId": 502
+    "HeadingId": 21,
+    "Name": "Medhurst, Hickle and Nicolas",
+    "Tooltip": "enim",
+    "Deleted": true,
+    "Rank": 944,
+    "UdListDefinitionId": 975
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 552,
-    "Name": "Murray Inc and Sons",
-    "Tooltip": "nihil",
+    "HeadingId": 585,
+    "Name": "Murphy-Powlowski",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 903,
-    "UdListDefinitionId": 546,
+    "Rank": 113,
+    "UdListDefinitionId": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldType": "System.String",
+        "FieldLength": 287
       }
     }
   }

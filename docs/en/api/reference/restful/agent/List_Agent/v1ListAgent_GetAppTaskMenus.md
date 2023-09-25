@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 851,
-    "Name": "Mraz-Hilll",
-    "Tooltip": "repudiandae",
-    "TableName": "Gibson, Treutel and McLaughlin",
-    "Area": "blanditiis",
+    "TaskMenuId": 681,
+    "Name": "Schmitt Group",
+    "Tooltip": "consequatur",
+    "TableName": "Stamm-Ebert",
+    "Area": "ab",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 284,
+    "CrmScriptId": 881,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 497,
+    "Rank": 85,
     "Encoding": "ANSI",
-    "ProgId": "corrupti",
-    "Deleted": false,
+    "ProgId": "adipisci",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldType": "System.String",
+        "FieldLength": 673
       }
     }
   }

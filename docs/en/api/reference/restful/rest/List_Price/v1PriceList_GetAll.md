@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=eius
-GET /api/v1/Pricelist?$top=306
-GET /api/v1/Pricelist?$skip=309
+GET /api/v1/Pricelist?$entities=ut
+GET /api/v1/Pricelist?$top=665
+GET /api/v1/Pricelist?$skip=161
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=et
+GET /api/v1/Pricelist?$context=omnis
 GET /api/v1/Pricelist?$format=JSON
 GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorem",
+  "odata.nextLink": "molestiae",
   "value": [
     {
-      "PrimaryKey": 4087,
-      "EntityName": "sale",
-      "saleId": 4087,
-      "contactId": 6810,
-      "name": "Daugherty Inc and Sons"
+      "PrimaryKey": 3750,
+      "EntityName": "person",
+      "personId": 3750,
+      "fullName": "Carmela Wilford Collins PhD"
     },
     {
-      "PrimaryKey": 925,
-      "EntityName": "sale",
-      "saleId": 925,
-      "contactId": 4690,
-      "name": "McCullough, Wilderman and Abbott"
+      "PrimaryKey": 3884,
+      "EntityName": "person",
+      "personId": 3884,
+      "fullName": "Justus Schaefer"
     }
   ]
 }

@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cupiditate",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 361,
-  "Name": "Moen-Kreiger",
-  "CreatedDate": "2018-04-16T03:31:32.6132803+02:00",
-  "UpdatedDate": "2022-03-14T03:31:32.6132803+01:00",
+  "ForeignAppId": 423,
+  "Name": "Schmidt, Boyle and Funk",
+  "CreatedDate": "2013-04-06T03:24:51.6149823+02:00",
+  "UpdatedDate": "1998-10-11T03:24:51.6149823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 750,
-      "Name": "Hartmann, Smitham and Cruickshank",
-      "CreatedDate": "2016-07-24T03:31:32.6132803+02:00",
-      "UpdatedDate": "2014-08-15T03:31:32.6132803+02:00",
-      "AssociateFullName": "Mr. Rey Mozell Leuschke PhD",
-      "CreatedBy": "id",
-      "UpdatedBy": "vero",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 848,
+      "ForeignDeviceId": 432,
+      "Name": "Jast, Mante and Bruen",
+      "CreatedDate": "2000-01-01T03:24:51.6149823+01:00",
+      "UpdatedDate": "2006-05-23T03:24:51.6149823+02:00",
+      "AssociateFullName": "Jessie Runolfsson",
+      "CreatedBy": "odit",
+      "UpdatedBy": "suscipit",
+      "DeviceIdentifier": "animi",
+      "ForeignAppId": 91,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 517
+          "FieldType": "System.Int32",
+          "FieldLength": 710
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

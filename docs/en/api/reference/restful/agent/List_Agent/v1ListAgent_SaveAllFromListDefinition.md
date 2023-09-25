@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 67,
+  "UdListDefinitionId": 138,
   "Items": [
     {
-      "Id": 953,
-      "Name": "Bayer, Simonis and Sipes",
-      "Tooltip": "dicta",
+      "Id": 705,
+      "Name": "Dietrich Group",
+      "Tooltip": "veritatis",
       "Deleted": true,
-      "UdListDefinitionId": 584,
-      "Rank": 125
+      "UdListDefinitionId": 749,
+      "Rank": 961
     },
     {
-      "Id": 953,
-      "Name": "Bayer, Simonis and Sipes",
-      "Tooltip": "dicta",
+      "Id": 705,
+      "Name": "Dietrich Group",
+      "Tooltip": "veritatis",
       "Deleted": true,
-      "UdListDefinitionId": 584,
-      "Rank": 125
+      "UdListDefinitionId": 749,
+      "Rank": 961
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Witting, Dibbert and Hilll",
-    "Tooltip": "omnis",
+    "Id": 540,
+    "Name": "Jacobi Inc and Sons",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 650,
-    "Rank": 309,
+    "UdListDefinitionId": 990,
+    "Rank": 635,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 141
       }
     }
   }

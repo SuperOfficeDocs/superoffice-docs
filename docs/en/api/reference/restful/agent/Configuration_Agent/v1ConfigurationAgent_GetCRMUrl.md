@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SoProtocol": "sint",
-  "Currents": "repellat",
-  "Frameless": false
+  "SoProtocol": "quaerat",
+  "Currents": "et",
+  "Frameless": true
 }
 ```
 

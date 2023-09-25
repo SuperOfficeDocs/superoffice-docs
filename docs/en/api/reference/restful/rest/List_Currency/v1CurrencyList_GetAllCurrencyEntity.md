@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 499,
-    "Name": "Lehner, Wisoky and Wilderman",
-    "Tooltip": "id",
-    "Rank": 985,
-    "Rate": 2334.83,
-    "Units": 27751.57,
+    "CurrencyId": 97,
+    "Name": "Jakubowski Inc and Sons",
+    "Tooltip": "similique",
+    "Rank": 322,
+    "Rate": 29284.095999999998,
+    "Units": 14422.668,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 190
       }
     }
   }

@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Aufderhar LLC",
-  "AllowPersonal": true,
-  "UiCulture": "qui"
+  "TemplateName": "Wisoky, Hessel and Krajcik",
+  "AllowPersonal": false,
+  "UiCulture": "earum"
 }
 ```
 

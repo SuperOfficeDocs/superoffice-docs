@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gleichner LLC",
+  "ProviderName": "Hintz Group",
   "Restrictions": [
     {
-      "Name": "Boehm, Trantow and Schiller",
-      "Operator": "fugit",
+      "Name": "Kuhn Inc and Sons",
+      "Operator": "ducimus",
       "Values": [
-        "id",
-        "consequatur"
+        "vel",
+        "praesentium"
       ],
       "DisplayValues": [
-        "quis",
-        "ratione"
+        "consectetur",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 640,
+      "InterParenthesis": 993,
       "InterOperator": "And",
-      "UniqueHash": 483
+      "UniqueHash": 136
     }
   ],
-  "AssociateId": 395
+  "AssociateId": 191
 }
 ```
 

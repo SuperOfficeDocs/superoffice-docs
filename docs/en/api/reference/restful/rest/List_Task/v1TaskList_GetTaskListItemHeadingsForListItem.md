@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Ruecker Group",
-    "ToolTip": "Magnam rem vero quas dolore in fuga.",
+    "Id": 835,
+    "Name": "Runte LLC",
+    "ToolTip": "Et quia dolor unde aut aliquid dolor.",
     "Deleted": false,
-    "Rank": 477,
-    "Type": "aut",
-    "ColorBlock": 831,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2017-03-21T03:31:33.9160051+01:00",
+    "Rank": 433,
+    "Type": "assumenda",
+    "ColorBlock": 768,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2003-08-07T03:24:52.4431914+02:00",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Ledner, Abshire and Nienow",
-        "ToolTip": "Sit nisi.",
-        "Deleted": true,
-        "Rank": 140,
-        "Type": "fugit",
-        "ColorBlock": 413,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2022-02-07T03:31:33.9160051+01:00",
+        "Id": 773,
+        "Name": "Fadel, Littel and Brown",
+        "ToolTip": "Nostrum rerum qui quaerat impedit magni cum.",
+        "Deleted": false,
+        "Rank": 423,
+        "Type": "fuga",
+        "ColorBlock": 60,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2011-06-14T03:24:52.4431914+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "in",
+        "ExtraInfo": "quia",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Florine Lockman",
+        "FullName": "Riley Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 888
+            "FieldType": "System.Int32",
+            "FieldLength": 717
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Mrs. Salvatore Wintheiser DDS",
+    "FullName": "Lillian Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 986
+        "FieldType": "System.Int32",
+        "FieldLength": 71
       }
     }
   }

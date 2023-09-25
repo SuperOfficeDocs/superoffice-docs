@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 588,
-    "FieldName": "Kris, Heaney and Abshire",
-    "Label": "aliquid",
-    "Tooltip": "fuga",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 360,
+    "FieldName": "Reichert Inc and Sons",
+    "Label": "sit",
+    "Tooltip": "facere",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 40,
-    "RestrictEdit": true,
+    "Rank": 70,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 99
       }
     }
   }

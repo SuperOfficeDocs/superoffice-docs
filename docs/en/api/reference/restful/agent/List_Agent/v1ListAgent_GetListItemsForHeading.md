@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 143,
-  "HeadingId": 160
+  "UdListDefinitionId": 156,
+  "HeadingId": 679
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Johns, Cormier and Bogan",
-    "ToolTip": "Est quo modi nisi voluptatibus nostrum quae.",
+    "Id": 980,
+    "Name": "Ernser Group",
+    "ToolTip": "Totam omnis.",
     "Deleted": true,
-    "Rank": 180,
-    "Type": "odit",
-    "ColorBlock": 750,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "2015-01-15T03:31:26.6831775+01:00",
+    "Rank": 892,
+    "Type": "eum",
+    "ColorBlock": 913,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "1997-10-06T03:24:47.8770078+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Bailey Group",
-        "ToolTip": "Debitis qui.",
+        "Id": 550,
+        "Name": "Beer-Farrell",
+        "ToolTip": "Sunt enim dolores aut dolores autem.",
         "Deleted": false,
-        "Rank": 936,
-        "Type": "quaerat",
-        "ColorBlock": 15,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2022-10-26T03:31:26.6831775+02:00",
+        "Rank": 165,
+        "Type": "corporis",
+        "ColorBlock": 4,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2005-07-19T03:24:47.8770078+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ipsum",
-        "Hidden": false,
-        "FullName": "Mr. Oscar Greenholt MD",
+        "ExtraInfo": "cumque",
+        "StyleHint": "perferendis",
+        "Hidden": true,
+        "FullName": "Yasmeen Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "quo",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Lee Strosin",
+    "FullName": "Kris Carlotta Toy V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 141
       }
     }
   }

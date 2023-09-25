@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cole, Jewess and Gottlieb",
-  "DeviceName": "Green LLC"
+  "ApplicationName": "Crist-Lakin",
+  "DeviceName": "Kunze Inc and Sons"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 31,
-  "Name": "Luettgen Inc and Sons",
-  "CreatedDate": "2012-05-09T03:31:26.589451+02:00",
-  "UpdatedDate": "2015-09-30T03:31:26.589451+02:00",
-  "AssociateFullName": "Velva Pagac Jr.",
-  "CreatedBy": "deserunt",
-  "UpdatedBy": "accusamus",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 918,
+  "ForeignDeviceId": 300,
+  "Name": "Gleichner, Satterfield and Kohler",
+  "CreatedDate": "2023-08-06T03:24:47.8145137+02:00",
+  "UpdatedDate": "2010-04-20T03:24:47.8145137+02:00",
+  "AssociateFullName": "Prof. Adriana Raheem Swaniawski MD",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "aliquid",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 275,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 756
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,18 +91,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Von, Purdy and Wyman",
-    "DisplayName": "Hilpert-Lindgren",
-    "Description": "Secured user-facing pricing structure",
-    "ShortLabel": "nihil",
+    "FieldName": "Hoeger-Block",
+    "DisplayName": "Mann LLC",
+    "Description": "Triple-buffered client-driven encryption",
+    "ShortLabel": "dolorem",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 895,
-    "TemplateVariableName": "Daniel-Towne"
+    "Rank": 699,
+    "TemplateVariableName": "Fritsch, Durgan and Murray"
   }
 ]
 ```

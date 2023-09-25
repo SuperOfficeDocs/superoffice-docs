@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 616
+  "SaleId": 546
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Klocko-Schoen",
-    "Comment": "a",
-    "StakeholderRoleId": 823,
-    "CountryId": 587,
-    "PersonId": 993,
-    "EmailDescription": "rickie_ziemann@wolf.co.uk",
-    "EmailId": 987,
-    "EmailAddress": "michaela.thiel@ward.info",
-    "PhoneId": 872,
-    "ContactName": "Cormier Inc and Sons",
-    "ContactId": 246,
-    "SaleId": 323,
-    "Mrmrs": "minus",
-    "Firstname": "German",
-    "MiddleName": "Bradtke, Blick and Schuster",
-    "Lastname": "Treutel",
-    "SaleStakeholderId": 587,
-    "Rank": 741,
-    "Phone": "(092)933-1543 x232",
+    "StakeholderRoleName": "Yundt Inc and Sons",
+    "Comment": "quos",
+    "StakeholderRoleId": 893,
+    "CountryId": 580,
+    "PersonId": 689,
+    "EmailDescription": "fern@altenwerthoreilly.uk",
+    "EmailId": 990,
+    "EmailAddress": "nathan_wilkinson@rowe.uk",
+    "PhoneId": 797,
+    "ContactName": "Flatley-Cartwright",
+    "ContactId": 248,
+    "SaleId": 107,
+    "Mrmrs": "placeat",
+    "Firstname": "Francesco",
+    "MiddleName": "Herman, Schuppe and Wilderman",
+    "Lastname": "Gorczany",
+    "SaleStakeholderId": 840,
+    "Rank": 776,
+    "Phone": "396.496.7292 x13281",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 920
+        "FieldType": "System.Int32",
+        "FieldLength": 891
       }
     }
   }

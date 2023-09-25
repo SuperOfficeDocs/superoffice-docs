@@ -124,11 +124,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 727
+  "AppointmentId": 564
 }
 ```
 
@@ -139,64 +139,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 857,
-  "StartDate": "1999-06-25T03:31:25.1157524+02:00",
-  "EndDate": "2021-12-01T03:31:25.1157524+01:00",
+  "AppointmentId": 631,
+  "StartDate": "2012-05-17T03:24:46.9550719+02:00",
+  "EndDate": "2004-08-16T03:24:46.9550719+02:00",
   "Type": "BookingForChecklist",
-  "Task": "nesciunt",
-  "AssociateFullName": "Miss Randal Hoeger",
-  "ContactName": "Jerde Group",
-  "Description": "Quality-focused mobile task-force",
-  "PersonFullName": "Lorenz Padberg",
-  "PersonId": 901,
-  "ContactId": 505,
-  "ProjectId": 53,
-  "ProjectName": "O'Keefe LLC",
-  "IsPublished": true,
-  "AssociateId": 327,
-  "ColorIndex": 596,
+  "Task": "eaque",
+  "AssociateFullName": "Evie Beahan",
+  "ContactName": "Deckow-Quigley",
+  "Description": "Fundamental assymetric analyzer",
+  "PersonFullName": "Darby Valentine Brown II",
+  "PersonId": 159,
+  "ContactId": 811,
+  "ProjectId": 55,
+  "ProjectName": "Orn Group",
+  "IsPublished": false,
+  "AssociateId": 81,
+  "ColorIndex": 846,
   "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "HasAlarm": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 332,
-  "PriorityName": "Kulas Inc and Sons",
+  "PriorityId": 885,
+  "PriorityName": "Veum Group",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2008-10-04T03:31:25.1157524+02:00",
+  "ActiveDate": "2000-11-28T03:24:46.9550719+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-07-16T03:31:25.1157524+02:00",
-  "RecurringEndDate": "2017-01-14T03:31:25.1157524+01:00",
-  "MotherId": 281,
-  "AssignedBy": 530,
-  "AssignedByFullName": "Aliyah Cassin",
+  "RecurringStartDate": "2010-01-12T03:24:46.9550719+01:00",
+  "RecurringEndDate": "2022-03-31T03:24:46.9550719+02:00",
+  "MotherId": 106,
+  "AssignedBy": 14,
+  "AssignedByFullName": "Ariane Bogisich",
   "RejectReason": "",
-  "Location": "laborum",
-  "AlarmLeadTime": "ad",
-  "SaleId": 436,
-  "SaleName": "Williamson-Zulauf",
-  "AssociateName": "Labadie, Beahan and Koepp",
-  "CreatedDate": "2008-02-21T03:31:25.1157524+01:00",
-  "CreatedBy": "quidem",
-  "CreatedByFullName": "Myrtice Kilback",
-  "CreatedByAssociateId": 698,
+  "Location": "sequi",
+  "AlarmLeadTime": "et",
+  "SaleId": 118,
+  "SaleName": "Cummerata, Ward and Wisoky",
+  "AssociateName": "Parker, Casper and Herman",
+  "CreatedDate": "1997-07-09T03:24:46.9550719+02:00",
+  "CreatedBy": "molestias",
+  "CreatedByFullName": "Dr. Federico Hagenes IV",
+  "CreatedByAssociateId": 869,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "minima",
-  "Agenda": "minus",
-  "InternalNotes": "aut",
+  "Title": "ut",
+  "Agenda": "est",
+  "InternalNotes": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 952
     }
   }
 }

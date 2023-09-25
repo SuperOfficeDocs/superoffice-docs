@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 34,
-    "Name": "Gerlach-Ritchie",
-    "OrgNr": "170995",
+    "ContactId": 432,
+    "Name": "Erdman-Wisozk",
+    "OrgNr": "1627078",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "nobis",
-    "DirectPhone": "210-099-5882",
-    "AssociateId": 553,
-    "CountryId": 305,
-    "EmailAddress": "linnie.kunde@ankunding.us",
-    "Kananame": "quis",
-    "EmailAddressName": "dorothea_jaskolski@hettinger.biz",
+    "City": "debitis",
+    "DirectPhone": "987.172.2272",
+    "AssociateId": 284,
+    "CountryId": 246,
+    "EmailAddress": "keshaun_lesch@turcotte.biz",
+    "Kananame": "blanditiis",
+    "EmailAddressName": "soledad.robel@witting.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Justice Volkman",
+    "AssociateFullName": "Ms. Izaiah Lakin I",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolor",
-    "FullName": "Britney Hammes",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 750,
-    "Number1": "1882071",
-    "Number2": "716743",
+    "FormattedAddress": "consectetur",
+    "FullName": "Lesly Tatum Kuvalis I",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 775,
+    "Number1": "1408372",
+    "Number2": "1141999",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 458
       }
     }
   }

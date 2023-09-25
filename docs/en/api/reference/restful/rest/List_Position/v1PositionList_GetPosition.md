@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Name": "Hodkiewicz, Little and Armstrong",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 572,
-  "Rank": 873,
+  "Id": 700,
+  "Name": "Becker Group",
+  "Tooltip": "illum",
+  "Deleted": true,
+  "UdListDefinitionId": 218,
+  "Rank": 109,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 647
     }
   }
 }

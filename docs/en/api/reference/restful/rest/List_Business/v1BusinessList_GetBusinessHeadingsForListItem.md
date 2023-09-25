@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Cummings Group",
-    "ToolTip": "Esse velit sit consectetur incidunt et.",
-    "Deleted": false,
-    "Rank": 266,
-    "Type": "debitis",
-    "ColorBlock": 863,
-    "IconHint": "voluptatibus",
+    "Id": 15,
+    "Name": "Gleason-Senger",
+    "ToolTip": "Recusandae et et rem.",
+    "Deleted": true,
+    "Rank": 428,
+    "Type": "error",
+    "ColorBlock": 422,
+    "IconHint": "quos",
     "Selected": true,
-    "LastChanged": "2019-04-11T03:31:33.4917333+02:00",
+    "LastChanged": "2022-02-26T03:24:52.1619753+01:00",
     "ChildItems": [
       {
-        "Id": 850,
-        "Name": "Stroman, Gerhold and Walter",
-        "ToolTip": "Fugit eum quis molestiae optio.",
+        "Id": 295,
+        "Name": "Rice-Donnelly",
+        "ToolTip": "Libero at temporibus.",
         "Deleted": false,
-        "Rank": 862,
-        "Type": "tenetur",
-        "ColorBlock": 54,
-        "IconHint": "ducimus",
-        "Selected": true,
-        "LastChanged": "2017-11-03T03:31:33.4917333+01:00",
+        "Rank": 907,
+        "Type": "numquam",
+        "ColorBlock": 749,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2020-06-14T03:24:52.1619753+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "soluta",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Roosevelt Schiller",
+        "FullName": "Litzy Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldLength": 827
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "numquam",
+    "ExtraInfo": "vel",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Isabell Blick",
+    "FullName": "Jasmin Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 868
       }
     }
   }

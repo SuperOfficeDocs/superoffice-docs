@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Morar-Osinski",
-    "Comment": "sapiente",
-    "StakeholderRoleId": 739,
-    "CountryId": 442,
-    "PersonId": 314,
-    "EmailDescription": "ellis.weber@rau.com",
-    "EmailId": 762,
-    "EmailAddress": "berniece_jewess@champlin.name",
-    "PhoneId": 830,
-    "ContactName": "Cole Group",
-    "ContactId": 579,
-    "SaleId": 988,
-    "Mrmrs": "ratione",
-    "Firstname": "Madyson",
-    "MiddleName": "Littel LLC",
-    "Lastname": "Predovic",
-    "SaleStakeholderId": 116,
-    "Rank": 279,
-    "Phone": "1-116-583-2135 x27465",
+    "StakeholderRoleName": "Cole Group",
+    "Comment": "id",
+    "StakeholderRoleId": 886,
+    "CountryId": 994,
+    "PersonId": 484,
+    "EmailDescription": "opal_klocko@krajcikullrich.com",
+    "EmailId": 341,
+    "EmailAddress": "rosalind_kerluke@lebsack.us",
+    "PhoneId": 908,
+    "ContactName": "VonRueden LLC",
+    "ContactId": 533,
+    "SaleId": 275,
+    "Mrmrs": "animi",
+    "Firstname": "Ulises",
+    "MiddleName": "Schiller Inc and Sons",
+    "Lastname": "Spinka",
+    "SaleStakeholderId": 352,
+    "Rank": 281,
+    "Phone": "1-903-539-1809 x3871",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 341
       }
     }
   }

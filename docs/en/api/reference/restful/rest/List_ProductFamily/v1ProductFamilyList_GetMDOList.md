@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=excepturi
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=eum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Okuneva, Spencer and Bartoletti",
-    "ToolTip": "Alias aut ut aut.",
-    "Deleted": true,
-    "Rank": 832,
-    "Type": "ut",
+    "Id": 517,
+    "Name": "Auer, Blick and Padberg",
+    "ToolTip": "Harum aut nisi odit ut aut.",
+    "Deleted": false,
+    "Rank": 376,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 137,
-        "Name": "White-Wolf",
-        "ToolTip": "Et deserunt.",
+        "Id": 686,
+        "Name": "Littel-Schulist",
+        "ToolTip": "Necessitatibus amet molestias.",
         "Deleted": false,
-        "Rank": 923,
-        "Type": "magni",
+        "Rank": 1000,
+        "Type": "ab",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 924,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "non",
-        "FullName": "Mr. Major Rex Prohaska",
+        "IconHint": "accusantium",
+        "ColorBlock": 171,
+        "ExtraInfo": "aut",
+        "StyleHint": "deleniti",
+        "FullName": "Miss Daphne Stroman PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 156
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "IconHint": "debitis",
-    "ColorBlock": 1002,
-    "ExtraInfo": "quas",
-    "StyleHint": "quasi",
-    "FullName": "Mitchel Pfannerstill",
+    "IconHint": "laboriosam",
+    "ColorBlock": 23,
+    "ExtraInfo": "aut",
+    "StyleHint": "provident",
+    "FullName": "Mrs. Ethelyn Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 545
       }
     }
   }

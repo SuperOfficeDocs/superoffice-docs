@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=796
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=969
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 532,
-  "ColumnId": 518,
-  "FieldDefault": "quis",
-  "FieldHeight": 377,
-  "FieldLabel": "magni",
-  "FieldLeft": 41,
-  "FieldTop": 500,
+  "UDefFieldId": 784,
+  "ColumnId": 73,
+  "FieldDefault": "totam",
+  "FieldHeight": 219,
+  "FieldLabel": "quasi",
+  "FieldLeft": 535,
+  "FieldTop": 360,
   "FieldType": "Checkbox",
-  "FieldWidth": 967,
-  "FormatMask": "inventore",
+  "FieldWidth": 396,
+  "FormatMask": "vero",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 214,
-  "LabelLeft": 100,
-  "LabelTop": 482,
-  "LabelWidth": 715,
-  "LastVersionId": 764,
-  "ListTableId": 314,
-  "IsMandatory": false,
+  "LabelHeight": 564,
+  "LabelLeft": 43,
+  "LabelTop": 916,
+  "LabelWidth": 22,
+  "LastVersionId": 557,
+  "ListTableId": 533,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 452,
-  "ProgId": "tenetur",
+  "Page1LineNo": 966,
+  "ProgId": "cum",
   "IsReadOnly": false,
-  "ShortLabel": "culpa",
-  "TabOrder": 30,
-  "TextLength": 341,
-  "Tooltip": "a",
-  "UdefIdentity": 748,
-  "UDListDefinitionId": 26,
+  "ShortLabel": "delectus",
+  "TabOrder": 578,
+  "TextLength": 243,
+  "Tooltip": "id",
+  "UdefIdentity": 324,
+  "UDListDefinitionId": 333,
   "Justification": "Center",
-  "Version": 299,
-  "TemplateVariableName": "Wilderman LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Renner LLC",
+  "Version": 232,
+  "TemplateVariableName": "Koch, Kassulke and Jakubowski",
+  "HasBeenPublished": false,
+  "MdoListName": "Pfannerstill, Harvey and Feil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldType": "System.Int32",
+      "FieldLength": 257
     }
   }
 }

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "sed",
+  "ProgId": "incidunt",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 750,
-  "ColumnId": 925,
-  "FieldDefault": "ab",
-  "FieldHeight": 10,
-  "FieldLabel": "itaque",
-  "FieldLeft": 40,
-  "FieldTop": 898,
+  "UDefFieldId": 907,
+  "ColumnId": 166,
+  "FieldDefault": "omnis",
+  "FieldHeight": 238,
+  "FieldLabel": "labore",
+  "FieldLeft": 937,
+  "FieldTop": 381,
   "FieldType": "Checkbox",
-  "FieldWidth": 744,
-  "FormatMask": "hic",
-  "HideLabel": true,
+  "FieldWidth": 954,
+  "FormatMask": "omnis",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 118,
-  "LabelLeft": 774,
-  "LabelTop": 543,
-  "LabelWidth": 496,
-  "LastVersionId": 499,
-  "ListTableId": 369,
-  "IsMandatory": true,
+  "LabelHeight": 408,
+  "LabelLeft": 216,
+  "LabelTop": 825,
+  "LabelWidth": 436,
+  "LastVersionId": 631,
+  "ListTableId": 722,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 923,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 920,
-  "TextLength": 493,
-  "Tooltip": "ab",
-  "UdefIdentity": 541,
-  "UDListDefinitionId": 901,
+  "Page1LineNo": 88,
+  "ProgId": "ea",
+  "IsReadOnly": true,
+  "ShortLabel": "asperiores",
+  "TabOrder": 694,
+  "TextLength": 576,
+  "Tooltip": "et",
+  "UdefIdentity": 359,
+  "UDListDefinitionId": 124,
   "Justification": "Center",
-  "Version": 896,
-  "TemplateVariableName": "Johnston Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Borer-Considine",
+  "Version": 914,
+  "TemplateVariableName": "Abernathy, Torphy and Schiller",
+  "HasBeenPublished": true,
+  "MdoListName": "Klein-Ullrich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   }
 }

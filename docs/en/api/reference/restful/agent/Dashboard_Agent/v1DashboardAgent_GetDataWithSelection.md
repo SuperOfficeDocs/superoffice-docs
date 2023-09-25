@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 119,
-  "SelectionId": 208,
-  "Restrictions": "pariatur"
+  "DashboardTileId": 37,
+  "SelectionId": 835,
+  "Restrictions": "tempora"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bahringer LLC",
-        "DisplayTooltip": "ut",
-        "DisplayType": "rem",
-        "CanOrderBy": true,
-        "Name": "Hirthe Inc and Sons",
+        "DisplayName": "Waters, Larson and Runte",
+        "DisplayTooltip": "laboriosam",
+        "DisplayType": "in",
+        "CanOrderBy": false,
+        "Name": "Weimann, Champlin and Denesik",
         "CanRestrictBy": false,
-        "RestrictionType": "ut",
-        "RestrictionListName": "Hyatt, O'Hara and Wilderman",
-        "IsVisible": true,
-        "ExtraInfo": "sapiente",
-        "Width": "ex",
-        "IconHint": "dolor",
-        "HeadingIconHint": "maxime"
+        "RestrictionType": "numquam",
+        "RestrictionListName": "Hoppe Group",
+        "IsVisible": false,
+        "ExtraInfo": "sit",
+        "Width": "facere",
+        "IconHint": "vitae",
+        "HeadingIconHint": "amet"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Bahringer LLC",
-        "DisplayTooltip": "ut",
-        "DisplayType": "rem",
-        "CanOrderBy": true,
-        "Name": "Hirthe Inc and Sons",
+        "DisplayName": "Waters, Larson and Runte",
+        "DisplayTooltip": "laboriosam",
+        "DisplayType": "in",
+        "CanOrderBy": false,
+        "Name": "Weimann, Champlin and Denesik",
         "CanRestrictBy": false,
-        "RestrictionType": "ut",
-        "RestrictionListName": "Hyatt, O'Hara and Wilderman",
-        "IsVisible": true,
-        "ExtraInfo": "sapiente",
-        "Width": "ex",
-        "IconHint": "dolor",
-        "HeadingIconHint": "maxime"
+        "RestrictionType": "numquam",
+        "RestrictionListName": "Hoppe Group",
+        "IsVisible": false,
+        "ExtraInfo": "sit",
+        "Width": "facere",
+        "IconHint": "vitae",
+        "HeadingIconHint": "amet"
       }
     ],
     "Result": null

@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 782,
-  "Section": "nesciunt",
-  "Key": "ex",
-  "Name": "Bode, Berge and Kautzer",
+  "PrefDescId": 78,
+  "Section": "accusantium",
+  "Key": "et",
+  "Name": "Kuhlman Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-lateral well-modulated application",
-  "IsBuiltin": true,
-  "TableName": "Breitenberg-Gislason",
-  "UserDefinedListId": 285,
-  "Rank": 196,
-  "SubGroup": "magnam",
-  "MinLevel": 87,
-  "MaxValue": 255,
-  "MinValue": 831,
-  "RequiredLicense": "ut"
+  "Description": "Ameliorated bifurcated migration",
+  "IsBuiltin": false,
+  "TableName": "Schulist, Stark and Hane",
+  "UserDefinedListId": 571,
+  "Rank": 5,
+  "SubGroup": "asperiores",
+  "MinLevel": 666,
+  "MaxValue": 248,
+  "MinValue": 744,
+  "RequiredLicense": "eos"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 239,
+  "PrefDescId": 882,
   "Section": "esse",
-  "Key": "quibusdam",
-  "Name": "Littel Inc and Sons",
+  "Key": "nulla",
+  "Name": "Kerluke-Stracke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergized global contingency",
+  "Description": "Enhanced motivating hub",
   "IsBuiltin": false,
-  "TableName": "Cremin, McCullough and Nikolaus",
-  "UserDefinedListId": 194,
-  "Rank": 880,
-  "SubGroup": "ipsum",
-  "MinLevel": 384,
-  "MaxValue": 447,
-  "MinValue": 854,
-  "RequiredLicense": "eos",
+  "TableName": "Hermiston, Gulgowski and Dickens",
+  "UserDefinedListId": 688,
+  "Rank": 751,
+  "SubGroup": "consequuntur",
+  "MinLevel": 73,
+  "MaxValue": 40,
+  "MinValue": 196,
+  "RequiredLicense": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

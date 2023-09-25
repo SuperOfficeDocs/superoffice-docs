@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Nienow, Frami and Price",
-    "ToolTip": "Illo quia non sunt voluptates impedit maiores.",
+    "Id": 901,
+    "Name": "Hettinger Inc and Sons",
+    "ToolTip": "Aut incidunt voluptate accusamus.",
     "Deleted": true,
-    "Rank": 754,
-    "Type": "cumque",
-    "ColorBlock": 698,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2014-07-05T03:31:33.6791985+02:00",
+    "Rank": 18,
+    "Type": "voluptatem",
+    "ColorBlock": 784,
+    "IconHint": "atque",
+    "Selected": false,
+    "LastChanged": "1996-05-20T03:24:52.2869587+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Strosin Inc and Sons",
-        "ToolTip": "Pariatur impedit dolor vel cumque consequatur.",
+        "Id": 803,
+        "Name": "Howe, Rodriguez and Kuvalis",
+        "ToolTip": "Corporis et illum.",
         "Deleted": false,
-        "Rank": 719,
-        "Type": "dolorum",
-        "ColorBlock": 889,
-        "IconHint": "ut",
+        "Rank": 813,
+        "Type": "voluptatem",
+        "ColorBlock": 600,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2003-01-07T03:31:33.6791985+01:00",
+        "LastChanged": "2003-04-28T03:24:52.2869587+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "eum",
+        "StyleHint": "ab",
         "Hidden": true,
-        "FullName": "Cesar Towne"
+        "FullName": "Bonnie Huels"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "cumque",
-    "Hidden": false,
-    "FullName": "Dr. Boris Mathew Breitenberg MD"
+    "ExtraInfo": "saepe",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Genesis Schumm"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Reichert-Grimes",
-    "ToolTip": "Ducimus necessitatibus nulla.",
-    "Deleted": false,
-    "Rank": 911,
-    "Type": "voluptatem",
-    "ColorBlock": 913,
-    "IconHint": "fuga",
+    "Id": 910,
+    "Name": "Koch-Prosacco",
+    "ToolTip": "Dolores explicabo dolor adipisci magnam maiores.",
+    "Deleted": true,
+    "Rank": 362,
+    "Type": "non",
+    "ColorBlock": 991,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2011-03-29T03:31:33.6791985+02:00",
+    "LastChanged": "2016-10-23T03:24:52.2869587+02:00",
     "ChildItems": [
       {
-        "Id": 33,
-        "Name": "Klein-Jones",
-        "ToolTip": "Culpa et dignissimos nostrum assumenda ducimus.",
+        "Id": 759,
+        "Name": "Ernser LLC",
+        "ToolTip": "Ipsa enim quaerat omnis illo dicta.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "itaque",
-        "ColorBlock": 546,
-        "IconHint": "libero",
+        "Rank": 957,
+        "Type": "iusto",
+        "ColorBlock": 134,
+        "IconHint": "sit",
         "Selected": true,
-        "LastChanged": "2007-08-15T03:31:33.6791985+02:00",
+        "LastChanged": "2020-12-08T03:24:52.2869587+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "et",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Alvera Parisian DVM",
+        "FullName": "Dr. Marley Odell Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "in",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Mrs. Gage Luettgen Sr.",
+    "FullName": "Ofelia Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 505
       }
     }
   }

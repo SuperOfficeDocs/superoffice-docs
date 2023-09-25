@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 832,
-  "Name": "Lakin-Cormier",
-  "Description": "Open-source national projection",
-  "DeltaJson": "voluptatem",
+  "ConfigurableScreenDeltaId": 470,
+  "Name": "Hagenes-Huels",
+  "Description": "Enterprise-wide multi-tasking toolset",
+  "DeltaJson": "suscipit",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "dolorem",
-  "UpdatedDate": "2018-03-09T03:31:25.8228647+01:00",
-  "CreatedDate": "1999-08-07T03:31:25.8228647+02:00",
+  "RecipeId": "quia",
+  "UpdatedDate": "2008-08-03T03:24:47.3614382+02:00",
+  "CreatedDate": "2003-06-13T03:24:47.3614382+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    286,
-    951
+    476,
+    320
   ],
-  "AppliesToKey": "architecto",
+  "AppliesToKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   }
 }

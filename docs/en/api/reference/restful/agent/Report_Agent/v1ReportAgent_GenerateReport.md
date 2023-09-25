@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 215,
-  "LabelLayoutId": 459,
-  "Filename": "est",
-  "Language": "necessitatibus",
-  "FileType": "aut",
+  "ReportId": 21,
+  "LabelLayoutId": 551,
+  "Filename": "nesciunt",
+  "Language": "quis",
+  "FileType": "dolor",
   "Restrictions": [
     {
-      "Name": "Schamberger-Okuneva",
-      "Operator": "omnis",
+      "Name": "Kulas Group",
+      "Operator": "culpa",
       "Values": [
-        "dolore",
-        "sint"
+        "aliquid",
+        "sed"
       ],
       "DisplayValues": [
-        "inventore",
-        "corporis"
+        "et",
+        "doloribus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 610,
+      "InterParenthesis": 643,
       "InterOperator": "And",
-      "UniqueHash": 959
+      "UniqueHash": 390
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"odit"
+"laudantium"
 ```

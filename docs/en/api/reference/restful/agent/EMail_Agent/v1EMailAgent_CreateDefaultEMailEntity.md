@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,148 +97,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 123,
-      "ContactName": "Fahey Inc and Sons",
-      "PersonId": 615,
-      "PersonName": "Mraz-Langosh",
-      "AssociateId": 576,
-      "Address": "magni",
-      "EmailId": 124,
+      "ContactId": 721,
+      "ContactName": "Schaefer, Schamberger and Erdman",
+      "PersonId": 693,
+      "PersonName": "Toy, Hahn and Herman",
+      "AssociateId": 602,
+      "Address": "neque",
+      "EmailId": 430,
       "DuplicatePersonIds": [
-        413,
-        412
+        639,
+        50
       ],
-      "Name": "Hartmann Group",
+      "Name": "Beer LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldLength": 84
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 525,
-      "ContactName": "Heaney, Koch and Hahn",
-      "PersonId": 832,
-      "PersonName": "Mraz Group",
-      "AssociateId": 156,
-      "Address": "eligendi",
-      "EmailId": 866,
+      "ContactId": 260,
+      "ContactName": "Daniel, Gorczany and Stark",
+      "PersonId": 603,
+      "PersonName": "Shields, Spencer and Schiller",
+      "AssociateId": 822,
+      "Address": "et",
+      "EmailId": 369,
       "DuplicatePersonIds": [
-        169,
-        852
+        659,
+        315
       ],
-      "Name": "Heidenreich-Borer",
+      "Name": "Luettgen LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldType": "System.String",
+          "FieldLength": 148
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 682,
-      "ContactName": "Ruecker Group",
-      "PersonId": 59,
-      "PersonName": "Williamson LLC",
-      "AssociateId": 347,
-      "Address": "sed",
-      "EmailId": 989,
+      "ContactId": 826,
+      "ContactName": "Gislason-Reynolds",
+      "PersonId": 963,
+      "PersonName": "Kozey Inc and Sons",
+      "AssociateId": 276,
+      "Address": "soluta",
+      "EmailId": 461,
       "DuplicatePersonIds": [
-        20,
-        552
+        524,
+        868
       ],
-      "Name": "Schuster-Stokes",
+      "Name": "Parker, Walker and McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 803
+          "FieldLength": 753
         }
       }
     }
   ],
-  "Subject": "repudiandae",
-  "HTMLBody": "enim",
+  "Subject": "eos",
+  "HTMLBody": "quia",
   "From": null,
-  "Sent": "2004-11-22T03:31:26.4488627+01:00",
-  "Size": 475,
+  "Sent": "2003-11-01T03:24:47.7363985+01:00",
+  "Size": 862,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolor",
-  "PlainBody": "est",
+  "MessageID": "voluptas",
+  "PlainBody": "laudantium",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 808,
+  "ServerId": 537,
   "Attachments": [
     {
-      "Description": "Organized 24 hour neural-net",
-      "Filename": "placeat",
-      "Size": 13,
-      "Type": "reiciendis",
-      "Encoding": "voluptatibus",
-      "Id": "porro",
-      "Disposition": "id",
+      "Description": "Inverse modular website",
+      "Filename": "deleniti",
+      "Size": 558,
+      "Type": "necessitatibus",
+      "Encoding": "autem",
+      "Id": "quibusdam",
+      "Disposition": "aut",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldType": "System.String",
+          "FieldLength": 476
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schumm-Johnston",
+      "Name": "Pacocha, Beier and Mante",
       "Values": [
-        "quidem",
-        "aut"
+        "cupiditate",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Schumm-Johnston",
+      "Name": "Pacocha, Beier and Mante",
       "Values": [
-        "quidem",
-        "aut"
+        "cupiditate",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     }
   ],
-  "FolderName": "Murphy Group",
-  "EmailItemId": 867,
-  "AccountId": 685,
-  "ReceivedAt": "2014-08-11T03:31:26.4488627+02:00",
+  "FolderName": "Hilll, Blick and Witting",
+  "EmailItemId": 156,
+  "AccountId": 845,
+  "ReceivedAt": "2012-11-01T03:24:47.7363985+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-07-09T03:31:26.4488627+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2009-09-02T03:24:47.7363985+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 974
     }
   }
 }

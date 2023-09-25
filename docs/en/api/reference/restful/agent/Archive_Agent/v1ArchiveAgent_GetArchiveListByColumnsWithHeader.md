@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Steuber LLC",
+  "ProviderName": "Graham, Lubowitz and Marks",
   "Columns": [
-    "dolorem",
-    "aut"
+    "et",
+    "commodi"
   ],
   "SortOrder": [
     {
-      "Name": "Wunsch Group",
+      "Name": "Parker Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Wunsch Group",
+      "Name": "Parker Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Schowalter-Considine",
-      "Operator": "quia",
+      "Name": "Kuvalis, Nitzsche and Borer",
+      "Operator": "mollitia",
       "Values": [
-        "totam",
-        "aut"
+        "corrupti",
+        "doloribus"
       ],
       "DisplayValues": [
-        "eligendi",
-        "ullam"
+        "numquam",
+        "quo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 675,
+      "InterParenthesis": 424,
       "InterOperator": "And",
-      "UniqueHash": 685
+      "UniqueHash": 180
     }
   ],
   "Entities": [
-    "tenetur",
-    "ut"
+    "quo",
+    "officiis"
   ],
-  "Page": 203,
-  "PageSize": 497,
-  "Options": "ipsa"
+  "Page": 529,
+  "PageSize": 934,
+  "Options": "fugiat"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 977,
+  "RowCount": 668,
   "Rows": [
     {
-      "EntityName": "Lynch Inc and Sons",
-      "PrimaryKey": 820,
+      "EntityName": "Tromp, Gottlieb and Harvey",
+      "PrimaryKey": 552,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sunt",
-          "TooltipHint": "commodi",
+          "DisplayValue": "vel",
+          "TooltipHint": "eos",
           "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "sit",
-      "StyleHint": "dicta",
+      "LinkHint": "magni",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldType": "System.String",
+          "FieldLength": 64
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldType": "System.Int32",
+      "FieldLength": 612
     }
   }
 }

@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 582,
-  "ERPQuoteAlternativeKey": "sit",
-  "QuoteVersionId": 80,
-  "Name": "Wolf-Reilly",
-  "Description": "Intuitive intangible knowledge user",
+  "QuoteAlternativeId": 490,
+  "ERPQuoteAlternativeKey": "dolorum",
+  "QuoteVersionId": 781,
+  "Name": "Miller Inc and Sons",
+  "Description": "Multi-channelled stable budgetary management",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14958.582,
-  "ERPDiscountAmount": 9101.136,
-  "DiscountPercent": 18133.324,
-  "DiscountAmount": 3886.16,
+  "ERPDiscountPercent": 4534.898,
+  "ERPDiscountAmount": 20154.754,
+  "DiscountPercent": 23226.074,
+  "DiscountAmount": 30948.25,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "neque",
-  "VAT": 17769.78,
-  "EarningPercent": 23085.043999999998,
-  "EarningAmount": 11266.73,
-  "SubTotal": 25943.252,
-  "TotalPrice": 12677.029999999999,
-  "ExtraField1": "explicabo",
-  "ExtraField2": "dignissimos",
-  "ExtraField3": "dolorem",
-  "ExtraField4": "et",
-  "ExtraField5": "rerum"
+  "VATInfo": "animi",
+  "VAT": 18656.702,
+  "EarningPercent": 4569.372,
+  "EarningAmount": 17960.953999999998,
+  "SubTotal": 3679.316,
+  "TotalPrice": 30261.904,
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "repellendus",
+  "ExtraField3": "eos",
+  "ExtraField4": "rerum",
+  "ExtraField5": "labore"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 151,
-  "ERPQuoteAlternativeKey": "eius",
-  "QuoteVersionId": 532,
-  "Name": "Keeling Group",
-  "Description": "Assimilated hybrid groupware",
+  "QuoteAlternativeId": 457,
+  "ERPQuoteAlternativeKey": "doloremque",
+  "QuoteVersionId": 909,
+  "Name": "Jewess, Wolff and Effertz",
+  "Description": "Phased scalable local area network",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 25429.275999999998,
-  "ERPDiscountAmount": 31311.793999999998,
-  "DiscountPercent": 6913.6039999999994,
-  "DiscountAmount": 10082.078,
+  "ERPDiscountPercent": 921.396,
+  "ERPDiscountAmount": 14109.268,
+  "DiscountPercent": 27949.012,
+  "DiscountAmount": 14008.98,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolor",
-  "VAT": 3099.526,
-  "EarningPercent": 1106.302,
-  "EarningAmount": 28278.082,
-  "SubTotal": 15717.01,
-  "TotalPrice": 880.654,
-  "ExtraField1": "laborum",
-  "ExtraField2": "hic",
-  "ExtraField3": "unde",
-  "ExtraField4": "blanditiis",
-  "ExtraField5": "temporibus",
+  "VATInfo": "ratione",
+  "VAT": 5026.936,
+  "EarningPercent": 27989.754,
+  "EarningAmount": 22433.172,
+  "SubTotal": 13980.774,
+  "TotalPrice": 7690.8359999999993,
+  "ExtraField1": "ad",
+  "ExtraField2": "labore",
+  "ExtraField3": "ipsam",
+  "ExtraField4": "commodi",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 697
     }
   }
 }

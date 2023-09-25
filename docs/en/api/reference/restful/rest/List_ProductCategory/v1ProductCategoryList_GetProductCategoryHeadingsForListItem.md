@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 413,
-    "Name": "Shanahan-Harris",
-    "ToolTip": "Dolorum at quaerat unde.",
+    "Id": 179,
+    "Name": "Boehm-Koelpin",
+    "ToolTip": "Quaerat ad cum officia.",
     "Deleted": false,
-    "Rank": 735,
-    "Type": "aut",
-    "ColorBlock": 49,
-    "IconHint": "quas",
+    "Rank": 961,
+    "Type": "quo",
+    "ColorBlock": 590,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2017-10-20T03:31:33.7273746+02:00",
+    "LastChanged": "2014-08-30T03:24:52.318209+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Ryan, Mitchell and Franecki",
-        "ToolTip": "Qui blanditiis sit illum voluptate quia.",
+        "Id": 559,
+        "Name": "Stoltenberg, Schneider and Wolf",
+        "ToolTip": "Tempora architecto occaecati voluptatibus velit et.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "officiis",
-        "ColorBlock": 413,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "1999-10-09T03:31:33.7273746+02:00",
+        "Rank": 71,
+        "Type": "labore",
+        "ColorBlock": 175,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2019-09-02T03:24:52.318209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quo",
+        "ExtraInfo": "dicta",
+        "StyleHint": "at",
         "Hidden": true,
-        "FullName": "Miss Jordane Kunze MD",
+        "FullName": "Pearlie Beryl Witting DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 751
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "ullam",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Ms. Adrienne Ferry MD",
+    "FullName": "Sigmund Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 612
       }
     }
   }

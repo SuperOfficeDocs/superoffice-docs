@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 437,
-    "Name": "Kris Inc and Sons",
-    "Tooltip": "quisquam",
-    "Deleted": true,
-    "Rank": 963,
-    "UdListDefinitionId": 108,
+    "HeadingId": 692,
+    "Name": "Rogahn Inc and Sons",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 629,
+    "UdListDefinitionId": 826,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 37
       }
     }
   }

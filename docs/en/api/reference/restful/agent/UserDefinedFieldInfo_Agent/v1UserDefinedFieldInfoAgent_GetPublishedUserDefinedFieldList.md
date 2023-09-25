@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 617,
-    "ColumnId": 752,
-    "FieldDefault": "id",
-    "FieldHeight": 685,
-    "FieldLabel": "aliquid",
-    "FieldLeft": 447,
-    "FieldTop": 85,
+    "UDefFieldId": 509,
+    "ColumnId": 245,
+    "FieldDefault": "qui",
+    "FieldHeight": 115,
+    "FieldLabel": "nostrum",
+    "FieldLeft": 878,
+    "FieldTop": 816,
     "FieldType": "Checkbox",
-    "FieldWidth": 635,
-    "FormatMask": "ut",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 600,
-    "LabelLeft": 467,
-    "LabelTop": 229,
-    "LabelWidth": 101,
-    "LastVersionId": 270,
-    "ListTableId": 72,
+    "FieldWidth": 508,
+    "FormatMask": "consequuntur",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 220,
+    "LabelLeft": 107,
+    "LabelTop": 616,
+    "LabelWidth": 324,
+    "LastVersionId": 200,
+    "ListTableId": 588,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 25,
-    "ProgId": "quis",
-    "IsReadOnly": true,
-    "ShortLabel": "beatae",
-    "TabOrder": 606,
-    "TextLength": 418,
-    "Tooltip": "dolores",
-    "UdefIdentity": 164,
-    "UDListDefinitionId": 80,
+    "Page1LineNo": 566,
+    "ProgId": "et",
+    "IsReadOnly": false,
+    "ShortLabel": "tempore",
+    "TabOrder": 741,
+    "TextLength": 440,
+    "Tooltip": "et",
+    "UdefIdentity": 828,
+    "UDListDefinitionId": 912,
     "Justification": "Center",
-    "Version": 798,
-    "TemplateVariableName": "Bogan, Aufderhar and Koepp",
+    "Version": 933,
+    "TemplateVariableName": "Moore, Armstrong and Jerde",
     "HasBeenPublished": false,
-    "MdoListName": "Reichel-Dietrich",
+    "MdoListName": "Kuhic, Hauck and Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldType": "System.Int32",
+        "FieldLength": 820
       }
     }
   }

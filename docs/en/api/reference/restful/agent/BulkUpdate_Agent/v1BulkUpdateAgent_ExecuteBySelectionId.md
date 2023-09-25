@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": false,
       "DefaultShowInGui": true,
-      "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "fuga",
-      "ValueType": "quo",
+      "DefaultShowInSelector": false,
+      "IsActive": true,
+      "Key": "et",
+      "ValueType": "porro",
       "Mandatory": false,
-      "EncodedDisplayName": "Koch, McLaughlin and Champlin",
-      "EncodedDisplayDescription": "Automated 6th generation circuit",
-      "IconHint": "earum",
+      "EncodedDisplayName": "Berge, Cronin and Hilpert",
+      "EncodedDisplayDescription": "Networked logistical workforce",
+      "IconHint": "eum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "laboriosam",
-      "EncodedDataCaptionDescription": "Implemented clear-thinking open architecture",
-      "CurrentOperationType": "voluptas",
+      "EncodedDataCaption": "odio",
+      "EncodedDataCaptionDescription": "Pre-emptive 3rd generation neural-net",
+      "CurrentOperationType": "exercitationem",
       "Values": [
-        "autem",
-        "itaque"
+        "culpa",
+        "delectus"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "velit"
+        "quibusdam",
+        "magni"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "McGlynn, Kovacek and Keeling",
-  "Context": "praesentium",
-  "SelectionId": 889,
+  "TableName": "Larkin Inc and Sons",
+  "Context": "et",
+  "SelectionId": 30,
   "IsShadow": false
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-522
+324
 ```

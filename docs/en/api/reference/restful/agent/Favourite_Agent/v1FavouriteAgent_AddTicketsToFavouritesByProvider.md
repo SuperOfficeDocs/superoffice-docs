@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "D'Amore, Spencer and Hackett",
+  "ProviderName": "Spinka-Doyle",
   "Restrictions": [
     {
-      "Name": "Botsford-Cartwright",
-      "Operator": "officia",
+      "Name": "Jerde, Effertz and McLaughlin",
+      "Operator": "in",
       "Values": [
-        "autem",
-        "quibusdam"
+        "ut",
+        "consequatur"
       ],
       "DisplayValues": [
-        "labore",
-        "velit"
+        "iste",
+        "beatae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 717,
+      "InterParenthesis": 289,
       "InterOperator": "And",
-      "UniqueHash": 413
+      "UniqueHash": 332
     }
   ],
-  "AssociateId": 428,
-  "ExtraInfo": "earum"
+  "AssociateId": 851,
+  "ExtraInfo": "temporibus"
 }
 ```
 

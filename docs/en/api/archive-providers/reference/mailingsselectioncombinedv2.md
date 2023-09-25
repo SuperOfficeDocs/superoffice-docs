@@ -583,7 +583,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionCombinedV2?$select=getNoRows,mailingAddr/contact/LastCompletedActivity,mailingAddr/contact/LastDoBySale,mailingAddr/contact/saintDirection,mailingAddr/person/restrictionAddress/line2
+GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingAddr/contact/contactUdef/SuperOffice:2,mailingAddr/person/retired,mailingAddr/person/personExtra/x_person_shorttext,mailingAddr/person/personExtra/x_person_category_relation,mailingAddr/person/isMailingRecipient
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

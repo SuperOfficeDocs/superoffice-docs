@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=voluptatem
+GET /api/v1/List/PaymentType/MDOItems?query=non
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Mertz Inc and Sons",
-    "ToolTip": "Et ut totam voluptatum nihil.",
-    "Deleted": false,
-    "Rank": 77,
-    "Type": "et",
+    "Id": 534,
+    "Name": "Muller Group",
+    "ToolTip": "Cumque id dolore quia veritatis non.",
+    "Deleted": true,
+    "Rank": 362,
+    "Type": "commodi",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Maggio-Wintheiser",
-        "ToolTip": "Aliquid beatae ab tempora repudiandae molestiae consequatur omnis.",
-        "Deleted": false,
-        "Rank": 649,
-        "Type": "ullam",
+        "Id": 753,
+        "Name": "Toy Group",
+        "ToolTip": "Sunt dolorum itaque qui non amet neque tempore.",
+        "Deleted": true,
+        "Rank": 108,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 886,
-        "ExtraInfo": "cum",
-        "StyleHint": "deleniti",
-        "FullName": "Lisa Jaden Quitzon I",
+        "IconHint": "expedita",
+        "ColorBlock": 30,
+        "ExtraInfo": "id",
+        "StyleHint": "rerum",
+        "FullName": "Prof. Brady Houston Mitchell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 924
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 972,
-    "ExtraInfo": "et",
-    "StyleHint": "ipsa",
-    "FullName": "Mr. Maximillia Aletha McCullough",
+    "IconHint": "voluptate",
+    "ColorBlock": 641,
+    "ExtraInfo": "magnam",
+    "StyleHint": "ratione",
+    "FullName": "Jennie Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 899
+        "FieldType": "System.Int32",
+        "FieldLength": 75
       }
     }
   }

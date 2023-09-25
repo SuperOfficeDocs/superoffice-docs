@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=207
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=535
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 760,
-  "FormKey": "autem",
-  "Name": "Brakus-Hamill",
-  "Description": "Multi-layered even-keeled infrastructure",
-  "Config": "similique",
-  "FolderId": 566,
-  "ScriptId": 855,
-  "ResponseShipmentId": 552,
+  "FormId": 302,
+  "FormKey": "quo",
+  "Name": "Erdman, O'Connell and Rutherford",
+  "Description": "Exclusive grid-enabled analyzer",
+  "Config": "eveniet",
+  "FolderId": 425,
+  "ScriptId": 888,
+  "ResponseShipmentId": 559,
   "Active": false,
-  "Expires": "2013-08-22T03:31:26.7612835+02:00",
-  "MaxSubmits": 592,
+  "Expires": "2007-07-22T03:24:47.9238778+02:00",
+  "MaxSubmits": 272,
   "Type": "Normal",
-  "Recipe": "officiis",
-  "GroupId": 75,
+  "Recipe": "magni",
+  "GroupId": 786,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-07-04T03:31:26.7612835+02:00",
-  "RegisteredAssociateId": 10,
-  "Updated": "1999-06-02T03:31:26.7612835+02:00",
-  "UpdatedAssociateId": 627,
-  "UpdatedCount": 236,
-  "FolderName": "O'Connell, Dickinson and Senger",
+  "Registered": "2017-04-22T03:24:47.9238778+02:00",
+  "RegisteredAssociateId": 7,
+  "Updated": "1999-04-16T03:24:47.9238778+02:00",
+  "UpdatedAssociateId": 581,
+  "UpdatedCount": 831,
+  "FolderName": "Stracke-Balistreri",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldType": "System.Int32",
+      "FieldLength": 275
     }
   }
 }

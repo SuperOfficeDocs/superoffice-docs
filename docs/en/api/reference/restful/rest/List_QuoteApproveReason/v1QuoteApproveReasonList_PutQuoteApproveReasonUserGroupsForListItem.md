@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Bergnaum-Collier",
-    "ToolTip": "Natus laudantium.",
+    "Id": 327,
+    "Name": "Ryan, Frami and Toy",
+    "ToolTip": "Nesciunt consequatur tenetur dolor excepturi.",
     "Deleted": true,
-    "Rank": 472,
-    "Type": "provident",
-    "ColorBlock": 141,
-    "IconHint": "modi",
-    "Selected": false,
-    "LastChanged": "2003-06-04T03:31:33.7898498+02:00",
+    "Rank": 568,
+    "Type": "rem",
+    "ColorBlock": 261,
+    "IconHint": "voluptate",
+    "Selected": true,
+    "LastChanged": "2002-11-15T03:24:52.3650758+01:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Emard, Kling and Jacobs",
-        "ToolTip": "Inventore doloremque aut.",
-        "Deleted": true,
-        "Rank": 870,
-        "Type": "earum",
-        "ColorBlock": 41,
-        "IconHint": "eveniet",
+        "Id": 351,
+        "Name": "Mante-Yundt",
+        "ToolTip": "Consequuntur dolores non facere sunt deserunt.",
+        "Deleted": false,
+        "Rank": 449,
+        "Type": "non",
+        "ColorBlock": 196,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2018-02-04T03:31:33.7898498+01:00",
+        "LastChanged": "2000-09-06T03:24:52.3650758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "officia",
+        "ExtraInfo": "nobis",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Ms. Lea Ashley Rowe Sr."
+        "FullName": "Tamia Auer"
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "doloribus",
-    "Hidden": false,
-    "FullName": "Mrs. Schuyler Cruickshank"
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Juwan Mosciski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Daugherty-Carroll",
-    "ToolTip": "Qui impedit.",
+    "Id": 37,
+    "Name": "Koelpin-Watsica",
+    "ToolTip": "Ipsam velit nemo aut.",
     "Deleted": false,
-    "Rank": 126,
-    "Type": "iste",
-    "ColorBlock": 245,
-    "IconHint": "veniam",
+    "Rank": 834,
+    "Type": "est",
+    "ColorBlock": 710,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "2009-12-18T03:31:33.7898498+01:00",
+    "LastChanged": "2002-05-03T03:24:52.3650758+02:00",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Reichel Inc and Sons",
-        "ToolTip": "Ea nemo quis.",
-        "Deleted": true,
-        "Rank": 451,
-        "Type": "mollitia",
-        "ColorBlock": 934,
-        "IconHint": "soluta",
-        "Selected": false,
-        "LastChanged": "1997-11-04T03:31:33.7898498+01:00",
+        "Id": 769,
+        "Name": "Bosco-Osinski",
+        "ToolTip": "Quo fugiat.",
+        "Deleted": false,
+        "Rank": 521,
+        "Type": "qui",
+        "ColorBlock": 114,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2004-04-05T03:24:52.3650758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "eum",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Joaquin Rodriguez",
+        "FullName": "Desmond Jakubowski DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 25
+            "FieldLength": 865
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "quia",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Delia Paula Hilll IV",
+    "FullName": "Prof. Joana Devante Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 977
       }
     }
   }

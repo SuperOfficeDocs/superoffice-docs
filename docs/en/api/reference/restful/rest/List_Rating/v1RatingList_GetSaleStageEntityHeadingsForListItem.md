@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Bogan Inc and Sons",
-    "ToolTip": "Id laudantium reprehenderit quam omnis.",
+    "Id": 12,
+    "Name": "Lemke, Lockman and Shanahan",
+    "ToolTip": "Possimus qui et est.",
     "Deleted": false,
-    "Rank": 336,
-    "Type": "minima",
-    "ColorBlock": 615,
-    "IconHint": "accusamus",
-    "Selected": false,
-    "LastChanged": "2005-07-09T03:31:33.8210957+02:00",
+    "Rank": 4,
+    "Type": "nihil",
+    "ColorBlock": 330,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "1998-09-01T03:24:52.3806958+02:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Hane, Bartell and Blick",
-        "ToolTip": "Id natus sequi saepe.",
+        "Id": 890,
+        "Name": "Raynor-Pagac",
+        "ToolTip": "Distinctio maiores occaecati eos quasi repellendus nesciunt.",
         "Deleted": false,
-        "Rank": 992,
-        "Type": "et",
-        "ColorBlock": 640,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2012-04-30T03:31:33.8210957+02:00",
+        "Rank": 799,
+        "Type": "consequatur",
+        "ColorBlock": 233,
+        "IconHint": "illum",
+        "Selected": true,
+        "LastChanged": "2001-02-06T03:24:52.3806958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "quis",
+        "ExtraInfo": "aut",
+        "StyleHint": "veniam",
         "Hidden": true,
-        "FullName": "Herminia VonRueden",
+        "FullName": "Brice Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 12
+            "FieldLength": 646
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "iusto",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Donna Waelchi",
+    "FullName": "Rudy Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 712
+        "FieldType": "System.Int32",
+        "FieldLength": 293
       }
     }
   }

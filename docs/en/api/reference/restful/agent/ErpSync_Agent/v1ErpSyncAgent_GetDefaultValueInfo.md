@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 926
+  "ErpFieldId": 100
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 568,
-  "DefaultValue": "repellat",
+  "ErpFieldId": 538,
+  "DefaultValue": "earum",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "dignissimos",
-  "PromptUser": true,
+  "FirstSyncDefaultValue": "atque",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "animi",
+  "ErpFieldKey": "error",
   "FieldType": "Checkbox",
-  "ListName": "Williamson, Abernathy and Swaniawski",
+  "ListName": "Padberg Group",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldLength": 687
     }
   }
 }

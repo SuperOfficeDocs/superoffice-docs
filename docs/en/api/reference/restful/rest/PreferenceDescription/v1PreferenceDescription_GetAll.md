@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 584,
-    "Section": "ab",
-    "Key": "ut",
-    "Name": "Grant LLC",
+    "PrefDescId": 332,
+    "Section": "voluptates",
+    "Key": "voluptatem",
+    "Name": "Conroy-Stark",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Triple-buffered cohesive access",
-    "IsBuiltin": false,
-    "TableName": "O'Connell Group",
-    "UserDefinedListId": 438,
-    "Rank": 181,
-    "SubGroup": "perspiciatis",
-    "MinLevel": 514,
-    "MaxValue": 898,
-    "MinValue": 507,
-    "RequiredLicense": "consequatur",
+    "Description": "Universal systemic hub",
+    "IsBuiltin": true,
+    "TableName": "Johns-Goodwin",
+    "UserDefinedListId": 789,
+    "Rank": 86,
+    "SubGroup": "mollitia",
+    "MinLevel": 74,
+    "MaxValue": 22,
+    "MinValue": 981,
+    "RequiredLicense": "perspiciatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldLength": 867
       }
     }
   }

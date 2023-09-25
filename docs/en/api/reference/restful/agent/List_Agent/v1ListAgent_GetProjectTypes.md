@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 470,
-    "Value": "sit",
-    "Tooltip": "nostrum",
+    "Id": 735,
+    "Value": "ut",
+    "Tooltip": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 899
       }
     }
   },
   {
-    "Id": 470,
-    "Value": "sit",
-    "Tooltip": "nostrum",
+    "Id": 735,
+    "Value": "ut",
+    "Tooltip": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldLength": 899
       }
     }
   }

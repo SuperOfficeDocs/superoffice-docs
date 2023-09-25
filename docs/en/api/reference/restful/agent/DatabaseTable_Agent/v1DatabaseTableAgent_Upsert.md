@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lynch Inc and Sons",
+  "TableName": "Miller-Boyle",
   "Columns": [
-    "sapiente",
-    "et"
+    "enim",
+    "delectus"
   ],
   "Keys": [
-    "inventore",
-    "dolores"
+    "labore",
+    "ut"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "sit",
-  "Inserts": 971,
-  "Updates": 537,
-  "Deletes": 492,
+  "Success": false,
+  "Message": "dolorem",
+  "Inserts": 108,
+  "Updates": 845,
+  "Deletes": 567,
   "RowStatus": [
     {
-      "PrimaryKey": 55,
+      "PrimaryKey": 779,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "molestiae",
-        "molestiae"
+        "architecto",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 646
         }
       }
     },
     {
-      "PrimaryKey": 55,
+      "PrimaryKey": 779,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "molestiae",
-        "molestiae"
+        "architecto",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 646
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldLength": 66
     }
   }
 }

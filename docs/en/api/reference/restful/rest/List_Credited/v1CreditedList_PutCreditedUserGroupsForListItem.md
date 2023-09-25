@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Hudson-Runolfsson",
-    "ToolTip": "Est alias beatae eveniet repellendus dolores tempore minus.",
+    "Id": 513,
+    "Name": "Crooks, Romaguera and Botsford",
+    "ToolTip": "Sit voluptas ut dolor consequatur quo vitae.",
     "Deleted": false,
-    "Rank": 608,
-    "Type": "mollitia",
-    "ColorBlock": 385,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2023-04-21T03:31:33.5698483+02:00",
+    "Rank": 243,
+    "Type": "non",
+    "ColorBlock": 502,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2019-04-29T03:24:52.2244666+02:00",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Feest Group",
-        "ToolTip": "Voluptas voluptatem et pariatur est.",
+        "Id": 736,
+        "Name": "White-Bode",
+        "ToolTip": "Et qui itaque.",
         "Deleted": false,
-        "Rank": 816,
-        "Type": "necessitatibus",
-        "ColorBlock": 540,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2013-12-20T03:31:33.5698483+01:00",
+        "Rank": 559,
+        "Type": "delectus",
+        "ColorBlock": 235,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2014-01-15T03:24:52.2244666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "aut",
+        "ExtraInfo": "earum",
+        "StyleHint": "pariatur",
         "Hidden": true,
-        "FullName": "Yoshiko Angel Macejkovic Sr."
+        "FullName": "Mr. Nils Burnice McDermott"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "sed",
+    "ExtraInfo": "in",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Lyla DuBuque"
+    "FullName": "Kennedi Cruickshank"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Conroy, Botsford and Abernathy",
-    "ToolTip": "Voluptas quo fugit corporis est reprehenderit dolores nemo.",
+    "Id": 747,
+    "Name": "Nienow, Weissnat and Denesik",
+    "ToolTip": "Possimus ut delectus quia accusamus.",
     "Deleted": true,
-    "Rank": 436,
-    "Type": "fuga",
-    "ColorBlock": 858,
-    "IconHint": "cupiditate",
-    "Selected": false,
-    "LastChanged": "2014-03-06T03:31:33.5698483+01:00",
+    "Rank": 599,
+    "Type": "quam",
+    "ColorBlock": 665,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "1996-11-27T03:24:52.2244666+01:00",
     "ChildItems": [
       {
-        "Id": 520,
-        "Name": "Goyette, Hodkiewicz and Heaney",
-        "ToolTip": "Nihil architecto architecto ab inventore unde ea.",
+        "Id": 844,
+        "Name": "Hane Inc and Sons",
+        "ToolTip": "Quidem quaerat nisi iusto ut sint amet ut.",
         "Deleted": false,
-        "Rank": 170,
-        "Type": "tenetur",
-        "ColorBlock": 549,
-        "IconHint": "aut",
+        "Rank": 541,
+        "Type": "sit",
+        "ColorBlock": 472,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2004-11-27T03:31:33.5698483+01:00",
+        "LastChanged": "2008-12-26T03:24:52.2244666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Dr. Ethel Fidel Marquardt DDS",
+        "ExtraInfo": "vero",
+        "StyleHint": "perspiciatis",
+        "Hidden": true,
+        "FullName": "Mr. Kennedy Annamae Satterfield Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldType": "System.String",
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "sequi",
-    "Hidden": true,
-    "FullName": "Chester Schaden",
+    "ExtraInfo": "maxime",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Dr. Otilia Brielle Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 412
       }
     }
   }

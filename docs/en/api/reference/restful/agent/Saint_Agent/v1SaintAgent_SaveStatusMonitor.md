@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 17,
-  "Rank": 24,
-  "DefaultTask": 269,
-  "DefaultTaskText": "excepturi",
-  "IsVisual": true,
-  "LastGenerated": "2017-06-15T03:31:27.1374712+02:00",
-  "Description": "Front-line secondary adapter",
-  "Name": "Jewess-Hane",
-  "StatusMonitorId": 56,
-  "PictureId": 877,
+  "OwnerTable": 436,
+  "Rank": 634,
+  "DefaultTask": 165,
+  "DefaultTaskText": "est",
+  "IsVisual": false,
+  "LastGenerated": "1997-05-30T03:24:48.1738537+02:00",
+  "Description": "Balanced logistical methodology",
+  "Name": "Kerluke LLC",
+  "StatusMonitorId": 163,
+  "PictureId": 466,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 837,
-  "NumNeedUpdate": 943,
-  "GenerationStart": "2000-11-30T03:31:27.1374712+01:00"
+  "NumMatches": 454,
+  "NumNeedUpdate": 342,
+  "GenerationStart": "2011-07-21T03:24:48.1738537+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 417,
-  "Rank": 265,
-  "DefaultTask": 79,
-  "DefaultTaskText": "error",
-  "IsVisual": true,
-  "LastGenerated": "2011-04-01T03:31:27.1374712+02:00",
-  "Description": "Down-sized background artificial intelligence",
-  "Name": "Mann, Anderson and Keeling",
-  "StatusMonitorId": 122,
-  "PictureId": 945,
+  "OwnerTable": 890,
+  "Rank": 296,
+  "DefaultTask": 492,
+  "DefaultTaskText": "quo",
+  "IsVisual": false,
+  "LastGenerated": "2018-04-06T03:24:48.1738537+02:00",
+  "Description": "Ergonomic actuating hierarchy",
+  "Name": "Rowe Group",
+  "StatusMonitorId": 503,
+  "PictureId": 618,
   "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 426,
-  "NumNeedUpdate": 624,
-  "GenerationStart": "2021-04-05T03:31:27.1374712+02:00",
+  "Deleted": false,
+  "NumMatches": 122,
+  "NumNeedUpdate": 321,
+  "GenerationStart": "2005-10-05T03:24:48.1738537+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

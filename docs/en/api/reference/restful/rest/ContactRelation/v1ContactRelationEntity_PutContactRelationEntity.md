@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 570,
-  "SourcePersonId": 600,
-  "DestinationContactId": 599,
-  "DestinationPersonId": 376,
-  "RelationId": 445,
-  "Comment": "non",
-  "RelationDefinitionId": 723,
-  "Reversed": 58,
-  "UpdatedDate": "2003-08-22T03:31:32.4883125+02:00",
-  "CreatedDate": "2009-03-13T03:31:32.4883125+01:00",
+  "SourceContactId": 354,
+  "SourcePersonId": 45,
+  "DestinationContactId": 391,
+  "DestinationPersonId": 924,
+  "RelationId": 907,
+  "Comment": "commodi",
+  "RelationDefinitionId": 68,
+  "Reversed": 492,
+  "UpdatedDate": "2006-12-16T03:24:51.5368575+01:00",
+  "CreatedDate": "2008-07-17T03:24:51.5368575+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hegmann, Leffler and Corwin",
-  "SourcePersonName": "Abshire LLC",
-  "DestinationContactName": "Wisoky, Balistreri and Daniel",
-  "DestinationPersonName": "Bashirian Group",
-  "ActiveText": "sapiente",
-  "PassiveText": "est"
+  "SourceContactName": "Beahan Inc and Sons",
+  "SourcePersonName": "Bradtke LLC",
+  "DestinationContactName": "Schneider, Berge and Stracke",
+  "DestinationPersonName": "Zieme Inc and Sons",
+  "ActiveText": "nulla",
+  "PassiveText": "aut"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 44,
-  "SourcePersonId": 717,
-  "DestinationContactId": 908,
-  "DestinationPersonId": 487,
-  "RelationId": 298,
-  "Comment": "rerum",
-  "RelationDefinitionId": 692,
-  "Reversed": 878,
-  "UpdatedDate": "2009-12-02T03:31:32.4883125+01:00",
-  "CreatedDate": "2020-08-23T03:31:32.4883125+02:00",
+  "SourceContactId": 97,
+  "SourcePersonId": 406,
+  "DestinationContactId": 217,
+  "DestinationPersonId": 949,
+  "RelationId": 721,
+  "Comment": "magnam",
+  "RelationDefinitionId": 782,
+  "Reversed": 389,
+  "UpdatedDate": "2007-10-28T03:24:51.5368575+01:00",
+  "CreatedDate": "1999-09-15T03:24:51.5368575+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ondricka-Funk",
-  "SourcePersonName": "Morar-Tremblay",
-  "DestinationContactName": "Schoen-Ward",
-  "DestinationPersonName": "Hartmann, Torp and Ziemann",
+  "SourceContactName": "Koch-Spinka",
+  "SourcePersonName": "Wuckert-Thompson",
+  "DestinationContactName": "Little-Cormier",
+  "DestinationPersonName": "Stiedemann LLC",
   "ActiveText": "corrupti",
-  "PassiveText": "ratione",
+  "PassiveText": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldType": "System.String",
+      "FieldLength": 925
     }
   },
   "_Links": {

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/{ownerName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,7 +72,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "disintermediate bricks-and-clicks portals",
   "CanBeActivated": true,
   "New": null,
   "Current": null,
@@ -80,14 +80,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 959,
-      "NumberOfLicensesFree": 228,
-      "NumberOfLicensesAdded": 144,
-      "NumberOfLicensesNewTotal": 399,
-      "NumberOfLicensesNewFree": 826,
-      "NumberOfLicensesTotal": 743
+      "NumberOfLicensesInUse": 421,
+      "NumberOfLicensesFree": 801,
+      "NumberOfLicensesAdded": 697,
+      "NumberOfLicensesNewTotal": 741,
+      "NumberOfLicensesNewFree": 125,
+      "NumberOfLicensesTotal": 213
     }
   ],
-  "AccumulatedNextCheckDate": "2008-11-19T03:31:33.3187308+01:00"
+  "AccumulatedNextCheckDate": "2013-09-26T03:24:52.0526089+02:00"
 }
 ```

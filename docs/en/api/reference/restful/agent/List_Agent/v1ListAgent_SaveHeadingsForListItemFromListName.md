@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Schinner-Haley",
-  "ListItemId": 865,
+  "UdListDefinitionName": "Koch LLC",
+  "ListItemId": 616,
   "Headings": [
     {
-      "Id": 826,
-      "Name": "Dibbert Group",
-      "ToolTip": "Earum rerum quia unde dolores vero non expedita.",
+      "Id": 561,
+      "Name": "Herman, Marquardt and Emmerich",
+      "ToolTip": "Praesentium animi.",
       "Deleted": false,
-      "Rank": 47,
-      "Type": "dolor",
-      "ColorBlock": 587,
-      "IconHint": "quis",
-      "Selected": false,
-      "LastChanged": "2021-04-25T03:31:26.6831775+02:00",
+      "Rank": 272,
+      "Type": "quod",
+      "ColorBlock": 293,
+      "IconHint": "in",
+      "Selected": true,
+      "LastChanged": "2020-03-13T03:24:47.8770078+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "laboriosam",
-      "Hidden": false,
-      "FullName": "Makenna Zoey Rempel IV"
+      "ExtraInfo": "eos",
+      "StyleHint": "sint",
+      "Hidden": true,
+      "FullName": "Anahi Nikolaus"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Wintheiser-Jakubowski",
-    "ToolTip": "Accusamus totam non iure.",
+    "Id": 642,
+    "Name": "Runolfsson Inc and Sons",
+    "ToolTip": "In animi quia excepturi magni ut a vitae.",
     "Deleted": true,
-    "Rank": 482,
-    "Type": "dolores",
-    "ColorBlock": 460,
-    "IconHint": "deleniti",
+    "Rank": 446,
+    "Type": "voluptas",
+    "ColorBlock": 963,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2007-10-19T03:31:26.6831775+02:00",
+    "LastChanged": "2011-12-01T03:24:47.8770078+01:00",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Boehm LLC",
-        "ToolTip": "Non nobis recusandae quidem mollitia ut.",
+        "Id": 494,
+        "Name": "Jerde-Osinski",
+        "ToolTip": "Nam earum autem velit.",
         "Deleted": true,
-        "Rank": 607,
-        "Type": "vel",
-        "ColorBlock": 850,
-        "IconHint": "vel",
+        "Rank": 264,
+        "Type": "illum",
+        "ColorBlock": 831,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2004-04-21T03:31:26.6831775+02:00",
+        "LastChanged": "1999-05-09T03:24:47.8770078+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "magni",
-        "Hidden": false,
-        "FullName": "Lionel Steuber",
+        "ExtraInfo": "rem",
+        "StyleHint": "earum",
+        "Hidden": true,
+        "FullName": "Geovanny Gorczany",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldLength": 221
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "cumque",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Ricky Grimes",
+    "FullName": "Miss Aaron DuBuque DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 144
+        "FieldLength": 134
       }
     }
   }

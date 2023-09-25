@@ -114,7 +114,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -122,132 +122,132 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 10 Apr 2003 03:31:31 G4T
+Last-Modified: Wed, 07 Feb 2018 03:24:51 G2T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-04-13T03:31:31.9559571+02:00",
-  "AppointmentId": 523,
-  "Description": "Implemented systemic knowledge base",
-  "StartDate": "2020-06-22T03:31:31.9559571+02:00",
-  "EndDate": "1998-05-19T03:31:31.9559571+02:00",
+  "CreatedDate": "2019-12-04T03:24:51.2867148+01:00",
+  "AppointmentId": 263,
+  "Description": "Managed static product",
+  "StartDate": "2001-08-06T03:24:51.2867148+02:00",
+  "EndDate": "2013-07-26T03:24:51.2867148+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 706,
+  "MotherId": 376,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-04-10T03:31:31.9559571+02:00",
+  "UpdatedDate": "2018-02-07T03:24:51.2867148+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 695,
+  "ActiveLinks": 727,
   "Links": [
     {
-      "EntityName": "Hodkiewicz Group",
-      "Id": 990,
-      "Description": "Decentralized logistical ability",
-      "ExtraInfo": "consequuntur",
-      "LinkId": 364,
+      "EntityName": "Lesch-Jewess",
+      "Id": 472,
+      "Description": "Programmable global task-force",
+      "ExtraInfo": "ut",
+      "LinkId": 810,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 465
+          "FieldLength": 469
         }
       }
     }
   ],
-  "AlarmLeadTime": "facilis",
-  "HasAlarm": false,
-  "ColorIndex": 599,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "rerum",
-  "LeadTime": "id",
-  "Location": "ratione",
-  "RejectCounter": 535,
+  "AlarmLeadTime": "consequuntur",
+  "HasAlarm": true,
+  "ColorIndex": 932,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "architecto",
+  "LeadTime": "nostrum",
+  "Location": "ea",
+  "RejectCounter": 431,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 822,
-      "PersonId": 927,
-      "ContactId": 386,
-      "EmailId": 90,
-      "SendEmail": true,
+      "AssociateId": 691,
+      "PersonId": 953,
+      "ContactId": 941,
+      "EmailId": 432,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 822,
-      "PersonId": 927,
-      "ContactId": 386,
-      "EmailId": 90,
-      "SendEmail": true,
+      "AssociateId": 691,
+      "PersonId": 953,
+      "ContactId": 941,
+      "EmailId": 432,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-07-03T03:31:31.9559571+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2000-01-30T03:24:51.2867148+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 338,
+  "PreferredTZLocation": 155,
   "Sale": null,
-  "SuggestedAppointmentId": 146,
+  "SuggestedAppointmentId": 570,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
-  "Title": "vero",
-  "Agenda": "quae",
-  "InternalNotes": "officiis",
+  "CentralserviceVideomeetId": "alias",
+  "Title": "quia",
+  "Agenda": "voluptatem",
+  "InternalNotes": "assumenda",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Kenyatta Murray",
-    "SuperOffice:2": "1029341499"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1166442530"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "repudiandae",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "dicta"
+    "CustomFields1": "culpa",
+    "CustomFields2": "veritatis"
   },
-  "PublishEventDate": "1999-04-09T03:31:31.9559571+02:00",
-  "PublishTo": "2021-08-17T03:31:31.9559571+02:00",
-  "PublishFrom": "1996-06-04T03:31:31.9559571+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-10-01T03:24:51.2867148+02:00",
+  "PublishTo": "1997-10-05T03:24:51.2867148+02:00",
+  "PublishFrom": "2016-04-28T03:24:51.2867148+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 572,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     },
     {
-      "VisibleId": 572,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldType": "System.Int32",
+          "FieldLength": 188
         }
       }
     }
@@ -257,7 +257,7 @@ Last-Modified: Thu, 10 Apr 2003 03:31:31 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 960
     }
   }
 }

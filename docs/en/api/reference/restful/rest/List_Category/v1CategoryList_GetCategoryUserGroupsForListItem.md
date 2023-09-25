@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Jast Inc and Sons",
-    "ToolTip": "Et voluptatem sequi reprehenderit quo tenetur.",
-    "Deleted": true,
-    "Rank": 900,
-    "Type": "pariatur",
-    "ColorBlock": 488,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2015-02-08T03:31:33.4917333+01:00",
+    "Id": 612,
+    "Name": "Senger Group",
+    "ToolTip": "Laborum est doloremque.",
+    "Deleted": false,
+    "Rank": 272,
+    "Type": "quisquam",
+    "ColorBlock": 765,
+    "IconHint": "minima",
+    "Selected": true,
+    "LastChanged": "2011-07-30T03:24:52.1775959+02:00",
     "ChildItems": [
       {
-        "Id": 639,
-        "Name": "Batz LLC",
-        "ToolTip": "Ut aut at perferendis iure adipisci saepe.",
+        "Id": 80,
+        "Name": "Adams, Dibbert and Bashirian",
+        "ToolTip": "Sit harum sunt explicabo aut.",
         "Deleted": false,
-        "Rank": 404,
-        "Type": "quis",
-        "ColorBlock": 57,
-        "IconHint": "tempore",
+        "Rank": 182,
+        "Type": "voluptatem",
+        "ColorBlock": 375,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1999-07-12T03:31:33.4917333+02:00",
+        "LastChanged": "2002-05-10T03:24:52.1775959+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Kayla Macejkovic",
+        "ExtraInfo": "sit",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Billy Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 736
+            "FieldType": "System.String",
+            "FieldLength": 858
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "rem",
+    "ExtraInfo": "iusto",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Karina Nicolas",
+    "FullName": "Grayce Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 342
+        "FieldType": "System.Int32",
+        "FieldLength": 253
       }
     }
   }

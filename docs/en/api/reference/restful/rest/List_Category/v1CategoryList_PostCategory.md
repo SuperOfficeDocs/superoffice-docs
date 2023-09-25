@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 329,
-  "Name": "Goodwin Inc and Sons",
-  "Tooltip": "distinctio",
+  "Id": 26,
+  "Name": "Schmidt, Rath and Senger",
+  "Tooltip": "illo",
   "Deleted": false,
-  "UdListDefinitionId": 29,
-  "Rank": 227
+  "UdListDefinitionId": 812,
+  "Rank": 574
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 111,
-  "Name": "Howell, Lueilwitz and Roberts",
-  "Tooltip": "quod",
+  "Id": 589,
+  "Name": "Buckridge, Lind and Connelly",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 191,
-  "Rank": 165,
+  "UdListDefinitionId": 732,
+  "Rank": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 984
     }
   }
 }

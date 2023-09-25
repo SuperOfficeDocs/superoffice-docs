@@ -1275,7 +1275,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelection?$select=document/associate/lastName,project/projectAssociate/personEmail,saleStakeholder/saleStakeholderId,saleStakeholder/person/personUpdatedDate,saleStakeholder/contact/contactAssociate/lastName
+GET /api/v1/archive/SaleShadowStaticSelection?$select=salePublish/publishedBy,person/personExtra/x_person_date,person/personAssociate/credentialType,person/consentSourceStore,associate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

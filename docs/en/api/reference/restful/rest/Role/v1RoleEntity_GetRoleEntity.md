@@ -97,24 +97,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 970,
-  "Name": "Waelchi-Lang",
-  "Tooltip": "magni",
+  "RoleId": 865,
+  "Name": "Zulauf-Heller",
+  "Tooltip": "consequuntur",
   "RoleType": "Anonymous",
-  "Deleted": 808,
-  "Rank": 978,
-  "Created": "2015-07-31T03:31:32.8163583+02:00",
-  "UseCategories": 266,
+  "Deleted": 743,
+  "Rank": 421,
+  "Created": "2021-04-10T03:24:51.7401403+02:00",
+  "UseCategories": 424,
   "CreatedBy": null,
-  "Updated": "2002-04-14T03:31:32.8163583+02:00",
+  "Updated": "2018-04-27T03:24:51.7401403+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   },
   "_Links": {

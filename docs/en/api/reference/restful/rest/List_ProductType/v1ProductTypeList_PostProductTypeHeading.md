@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 715,
-  "Name": "Batz Group",
-  "Tooltip": "error",
+  "HeadingId": 855,
+  "Name": "Zemlak-Rosenbaum",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 746,
-  "UdListDefinitionId": 748
+  "Rank": 281,
+  "UdListDefinitionId": 939
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 420,
-  "Name": "McLaughlin-Johns",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 413,
-  "UdListDefinitionId": 566,
+  "HeadingId": 446,
+  "Name": "Walsh-Hane",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 145,
+  "UdListDefinitionId": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 223
     }
   }
 }

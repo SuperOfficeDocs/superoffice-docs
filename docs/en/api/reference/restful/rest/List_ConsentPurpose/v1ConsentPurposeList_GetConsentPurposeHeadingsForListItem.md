@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Hudson Inc and Sons",
-    "ToolTip": "Ad facere aut blanditiis doloribus saepe.",
-    "Deleted": true,
-    "Rank": 518,
-    "Type": "et",
-    "ColorBlock": 682,
-    "IconHint": "mollitia",
+    "Id": 120,
+    "Name": "Jakubowski-Yost",
+    "ToolTip": "Et pariatur.",
+    "Deleted": false,
+    "Rank": 935,
+    "Type": "dignissimos",
+    "ColorBlock": 619,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2023-03-26T03:31:33.5386084+02:00",
+    "LastChanged": "2018-12-26T03:24:52.1932187+01:00",
     "ChildItems": [
       {
-        "Id": 866,
-        "Name": "Hodkiewicz LLC",
-        "ToolTip": "In culpa temporibus animi qui sit ut et.",
-        "Deleted": true,
-        "Rank": 239,
-        "Type": "est",
-        "ColorBlock": 153,
-        "IconHint": "aliquam",
-        "Selected": true,
-        "LastChanged": "2002-03-25T03:31:33.5386084+01:00",
+        "Id": 961,
+        "Name": "Dibbert, Harris and Russel",
+        "ToolTip": "Culpa quia.",
+        "Deleted": false,
+        "Rank": 85,
+        "Type": "provident",
+        "ColorBlock": 692,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2023-02-22T03:24:52.1932187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "eius",
-        "Hidden": true,
-        "FullName": "Jedidiah Hayes",
+        "ExtraInfo": "et",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Raul Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 60
+            "FieldLength": 161
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "quae",
-    "Hidden": false,
-    "FullName": "Emelia Judge Schmeler I",
+    "ExtraInfo": "maxime",
+    "StyleHint": "ipsam",
+    "Hidden": true,
+    "FullName": "Ransom Johnson V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldLength": 592
       }
     }
   }

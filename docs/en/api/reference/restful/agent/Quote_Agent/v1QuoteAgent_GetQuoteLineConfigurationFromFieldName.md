@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Friesen, Haley and Kuphal"
+  "FieldName": "Kirlin Inc and Sons"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 968,
-  "FieldName": "Daugherty, Torp and Lockman",
-  "Label": "consequuntur",
-  "Tooltip": "sit",
+  "QuoteLineConfigurationId": 520,
+  "FieldName": "Kuphal-Shields",
+  "Label": "ullam",
+  "Tooltip": "occaecati",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 858,
-  "RestrictEdit": true,
+  "Rank": 856,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

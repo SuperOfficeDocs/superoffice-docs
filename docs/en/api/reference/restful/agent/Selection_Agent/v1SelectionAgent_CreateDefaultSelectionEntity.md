@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive homogeneous process improvement",
-  "Postit": "et",
+  "Description": "Organized bottom-line service-desk",
+  "Postit": "facere",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 944,
-  "IncludePerson": 858,
-  "MemberCount": 277,
-  "Name": "Rice-Schneider",
-  "PostitTextId": 996,
-  "CreatedDate": "2021-01-07T03:31:27.2312035+01:00",
-  "SelectionId": 472,
-  "SoundEx": "qui",
-  "Source": 964,
-  "TextId": 504,
-  "UpdatedDate": "2009-08-04T03:31:27.2312035+02:00",
-  "UpdatedCount": 21,
-  "Visibility": 984,
+  "GroupIdx": 189,
+  "IncludePerson": 290,
+  "MemberCount": 21,
+  "Name": "Kuhlman-Herman",
+  "PostitTextId": 869,
+  "CreatedDate": "2012-08-09T03:24:48.2404218+02:00",
+  "SelectionId": 175,
+  "SoundEx": "eaque",
+  "Source": 717,
+  "TextId": 179,
+  "UpdatedDate": "2001-01-19T03:24:48.2404218+01:00",
+  "UpdatedCount": 373,
+  "Visibility": 412,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 204,
-  "TargetTableName": "Feil-Marvin",
-  "Completed": true,
-  "LeftSelectionId": 72,
-  "RightSelectionId": 589,
+  "CompanyUnique": true,
+  "TargetTableNumber": 409,
+  "TargetTableName": "Labadie, White and Schinner",
+  "Completed": false,
+  "LeftSelectionId": 580,
+  "RightSelectionId": 509,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Terry Inc and Sons",
-  "ShadowProviderName": "Greenholt Group",
-  "ChartKey": "eligendi",
-  "LastLoaded": "2007-03-01T03:31:27.2312035+01:00",
-  "LastLoadedBy": 318,
+  "MainProviderName": "Bartell, Borer and Tromp",
+  "ShadowProviderName": "Hartmann, Wolff and Shields",
+  "ChartKey": "nam",
+  "LastLoaded": "2021-12-08T03:24:48.2404218+01:00",
+  "LastLoadedBy": 122,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-02-14T03:31:27.2312035+01:00",
-  "LastMembershipChangeBy": 41,
+  "LastMembershipChange": "2000-11-21T03:24:48.2409231+01:00",
+  "LastMembershipChangeBy": 524,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "esse",
-  "MailingsProviderName": "Klocko, Wilderman and Lueilwitz",
-  "DashboardTileDefinitionId": 525,
+  "MainHeading": "praesentium",
+  "MemberTabHeading": "libero",
+  "MailingsProviderName": "Daugherty-Adams",
+  "DashboardTileDefinitionId": 937,
   "VisibleFor": [
     {
-      "VisibleId": 182,
+      "VisibleId": 354,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 76
         }
       }
     },
     {
-      "VisibleId": 182,
+      "VisibleId": 354,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 76
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   }
 }

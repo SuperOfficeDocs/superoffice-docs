@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 251
+  "ReplyTemplateId": 829
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Leannon, Kihn and Boyer",
-  "Description": "Organic bifurcated middleware",
-  "OwnedByFullName": "Vidal Luciano Metz DVM",
-  "Updated": "1997-04-30T03:31:25.9957958+02:00",
-  "Body": "doloribus",
-  "IsHtml": false,
+  "Name": "Graham LLC",
+  "Description": "Profound assymetric solution",
+  "OwnedByFullName": "Candida Walker",
+  "Updated": "2016-04-15T03:24:47.4864254+02:00",
+  "Body": "dolore",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 701
     }
   }
 }

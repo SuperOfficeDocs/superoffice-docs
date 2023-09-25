@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fadel, Upton and Durgan",
-  "DeviceName": "Feeney, Langosh and Leannon",
-  "DeviceIdentifier": "eos"
+  "ApplicationName": "Hirthe, Murazik and Daniel",
+  "DeviceName": "Volkman, Shields and Weimann",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "et",
-    "Value": "dicta",
-    "RecordId": 844,
-    "CreatedDate": "2007-07-18T03:31:26.6050723+02:00",
-    "UpdatedDate": "1998-11-10T03:31:26.6050723+01:00",
-    "UpdatedBy": "ut",
-    "CreatedBy": "id",
-    "TableName": "Fay Group",
+    "Key": "aliquid",
+    "Value": "sit",
+    "RecordId": 808,
+    "CreatedDate": "2001-02-04T03:24:47.8301403+01:00",
+    "UpdatedDate": "2007-03-23T03:24:47.8301403+01:00",
+    "UpdatedBy": "id",
+    "CreatedBy": "et",
+    "TableName": "Volkman LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 995
+        "FieldType": "System.Int32",
+        "FieldLength": 142
       }
     }
   }

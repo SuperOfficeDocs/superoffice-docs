@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 944
+  "PersonId": 369
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 864,
-    "Name": "Wehner, Towne and Schuppe",
-    "Value": "aut",
-    "CreatedDate": "2017-03-03T03:31:25.6339962+01:00",
-    "UpdatedDate": "2021-12-28T03:31:25.6339962+01:00",
-    "CreatedBy": "pariatur",
-    "UpdatedBy": "maiores",
+    "AudienceLayoutId": 437,
+    "Name": "Champlin, Kassulke and Stehr",
+    "Value": "nemo",
+    "CreatedDate": "2003-11-09T03:24:47.2520803+01:00",
+    "UpdatedDate": "2001-08-13T03:24:47.2520803+02:00",
+    "CreatedBy": "tempore",
+    "UpdatedBy": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 295
       }
     }
   }

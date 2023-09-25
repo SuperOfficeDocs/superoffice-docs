@@ -80,7 +80,7 @@ RelationDefinitionEntity found.
 GET /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,12 +90,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 203,
-  "Name": "McClure Group",
-  "Tooltip": "illo",
-  "PassiveText": "aliquam",
-  "Deleted": false,
-  "Rank": 657,
+  "ReldefId": 338,
+  "Name": "Kessler Inc and Sons",
+  "Tooltip": "in",
+  "PassiveText": "dolorem",
+  "Deleted": true,
+  "Rank": 75,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -103,7 +103,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 76
     }
   },
   "_Links": {

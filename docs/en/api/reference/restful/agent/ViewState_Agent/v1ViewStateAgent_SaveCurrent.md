@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 706,
-  "Id": 549,
-  "HistoryName": "Marquardt, Schaefer and Kirlin",
-  "HistoryId": 977,
-  "AssociateId": 869,
-  "Name": "Purdy-Abernathy",
-  "ItemInfo": "nemo",
+  "Rank": 727,
+  "Id": 574,
+  "HistoryName": "Prosacco Group",
+  "HistoryId": 289,
+  "AssociateId": 323,
+  "Name": "Koelpin LLC",
+  "ItemInfo": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 407
     }
   }
 }

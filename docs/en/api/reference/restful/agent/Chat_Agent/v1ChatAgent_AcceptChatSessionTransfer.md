@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 763
+  "ChatSessionId": 712
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 303,
-  "TopicId": 332,
+  "ChatSessionId": 357,
+  "TopicId": 413,
   "User": null,
   "Person": null,
-  "CustomerAlias": "repellendus",
-  "CustomerHost": "nostrum",
-  "CustomerName": "Balistreri Group",
-  "CustomerEmail": "eleonore@croninkuphal.info",
-  "CustomerPhone": "674.551.2763",
+  "CustomerAlias": "sint",
+  "CustomerHost": "asperiores",
+  "CustomerName": "McGlynn Inc and Sons",
+  "CustomerEmail": "macie@bradtke.uk",
+  "CustomerPhone": "872.044.9847 x557",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Ruecker Group",
+  "CustomerCompanyName": "Murray LLC",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "tempora",
-  "WhenRequested": "2005-07-29T03:31:25.7433488+02:00",
-  "WhenStarted": "2001-11-12T03:31:25.7433488+01:00",
-  "WhenEnded": "2012-12-17T03:31:25.7433488+01:00",
-  "WhenIdle": "2016-10-25T03:31:25.7433488+02:00",
-  "WhenFetched": "2008-01-08T03:31:25.7433488+01:00",
-  "SessionKey": "inventore",
-  "InitialQueuePos": 166,
-  "AlertLevel": 18,
-  "Rank": 725,
+  "FirstMessage": "aut",
+  "LastMessage": "perferendis",
+  "WhenRequested": "2006-01-15T03:24:47.3145639+01:00",
+  "WhenStarted": "2009-05-26T03:24:47.3145639+02:00",
+  "WhenEnded": "2006-06-04T03:24:47.3145639+02:00",
+  "WhenIdle": "2019-06-07T03:24:47.3145639+02:00",
+  "WhenFetched": "2014-01-09T03:24:47.3145639+01:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 382,
+  "AlertLevel": 557,
+  "Rank": 157,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 48,
+  "ChatbotIsActive": false,
+  "Rating": 78,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 585
     }
   }
 }

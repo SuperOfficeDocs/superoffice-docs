@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    246,
-    169
+    721,
+    104
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Kirlin, Ankunding and Leffler",
-    "Comment": "quo",
-    "StakeholderRoleId": 167,
-    "CountryId": 972,
-    "PersonId": 580,
-    "EmailDescription": "kylie.legros@connbogisich.co.uk",
-    "EmailId": 192,
-    "EmailAddress": "stacy@corwindamore.name",
-    "PhoneId": 430,
-    "ContactName": "Auer Inc and Sons",
-    "ContactId": 196,
-    "SaleId": 822,
-    "Mrmrs": "tenetur",
-    "Firstname": "Clair",
-    "MiddleName": "Lesch-Toy",
-    "Lastname": "Hermiston",
-    "SaleStakeholderId": 384,
-    "Rank": 533,
-    "Phone": "928-734-2002",
+    "StakeholderRoleName": "Orn Inc and Sons",
+    "Comment": "voluptate",
+    "StakeholderRoleId": 410,
+    "CountryId": 715,
+    "PersonId": 964,
+    "EmailDescription": "teagan_johnston@colliervonrueden.name",
+    "EmailId": 334,
+    "EmailAddress": "isadore_jacobs@simonisfranecki.co.uk",
+    "PhoneId": 631,
+    "ContactName": "Bins-Williamson",
+    "ContactId": 465,
+    "SaleId": 381,
+    "Mrmrs": "soluta",
+    "Firstname": "Jamison",
+    "MiddleName": "Hilpert LLC",
+    "Lastname": "Hane",
+    "SaleStakeholderId": 366,
+    "Rank": 156,
+    "Phone": "213-007-9811 x887",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   }

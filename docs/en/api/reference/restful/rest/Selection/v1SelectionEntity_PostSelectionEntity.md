@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined uniform help-desk",
-  "Postit": "illo",
+  "Description": "Managed client-server intranet",
+  "Postit": "vel",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 880,
-  "IncludePerson": 836,
-  "MemberCount": 494,
-  "Name": "Turner Group",
-  "PostitTextId": 659,
-  "CreatedDate": "2022-12-11T03:31:32.9257016+01:00",
-  "SelectionId": 52,
-  "SoundEx": "libero",
-  "Source": 760,
-  "TextId": 642,
-  "UpdatedDate": "2018-02-24T03:31:32.9257016+01:00",
-  "UpdatedCount": 482,
-  "Visibility": 682,
+  "GroupIdx": 189,
+  "IncludePerson": 13,
+  "MemberCount": 530,
+  "Name": "Zieme, Boehm and Hamill",
+  "PostitTextId": 980,
+  "CreatedDate": "2014-09-03T03:24:51.9119624+02:00",
+  "SelectionId": 902,
+  "SoundEx": "perspiciatis",
+  "Source": 329,
+  "TextId": 447,
+  "UpdatedDate": "2006-06-08T03:24:51.9119624+02:00",
+  "UpdatedCount": 642,
+  "Visibility": 320,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 878,
-  "TargetTableName": "McClure-Harber",
-  "Completed": false,
-  "LeftSelectionId": 199,
-  "RightSelectionId": 930,
+  "CompanyUnique": true,
+  "TargetTableNumber": 118,
+  "TargetTableName": "Berge-Glover",
+  "Completed": true,
+  "LeftSelectionId": 382,
+  "RightSelectionId": 975,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lang, O'Hara and Fahey",
-  "ShadowProviderName": "Lockman, Mueller and Lowe",
-  "ChartKey": "cum",
-  "LastLoaded": "2021-01-22T03:31:32.9257016+01:00",
-  "LastLoadedBy": 512,
+  "MainProviderName": "Hegmann LLC",
+  "ShadowProviderName": "Nolan-Marks",
+  "ChartKey": "dolor",
+  "LastLoaded": "2013-10-26T03:24:51.9119624+02:00",
+  "LastLoadedBy": 778,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-07-28T03:31:32.9257016+02:00",
-  "LastMembershipChangeBy": 931,
+  "LastMembershipChange": "2009-02-20T03:24:51.9119624+01:00",
+  "LastMembershipChangeBy": 572,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "impedit",
-  "MemberTabHeading": "quos",
-  "MailingsProviderName": "Legros, Buckridge and Bailey",
-  "DashboardTileDefinitionId": 503,
+  "MainHeading": "non",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Adams, Breitenberg and Cruickshank",
+  "DashboardTileDefinitionId": 751,
   "VisibleFor": [
     {
-      "VisibleId": 87,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "veniam"
+      "DisplayValue": "officiis"
     },
     {
-      "VisibleId": 87,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "veniam"
+      "DisplayValue": "officiis"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Self-enabling 6th generation success",
-  "Postit": "recusandae",
+  "Description": "Virtual regional open architecture",
+  "Postit": "quaerat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 190,
-  "IncludePerson": 701,
-  "MemberCount": 434,
-  "Name": "Stark-Fahey",
-  "PostitTextId": 558,
-  "CreatedDate": "2000-09-03T03:31:32.9257016+02:00",
-  "SelectionId": 356,
-  "SoundEx": "dicta",
-  "Source": 915,
-  "TextId": 939,
-  "UpdatedDate": "2000-04-22T03:31:32.9257016+02:00",
-  "UpdatedCount": 949,
-  "Visibility": 819,
+  "GroupIdx": 67,
+  "IncludePerson": 764,
+  "MemberCount": 528,
+  "Name": "Von Inc and Sons",
+  "PostitTextId": 268,
+  "CreatedDate": "1998-10-09T03:24:51.9119624+02:00",
+  "SelectionId": 728,
+  "SoundEx": "quaerat",
+  "Source": 469,
+  "TextId": 347,
+  "UpdatedDate": "2000-08-25T03:24:51.9119624+02:00",
+  "UpdatedCount": 431,
+  "Visibility": 486,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 902,
-  "TargetTableName": "Daugherty, Kunze and Yundt",
+  "TargetTableNumber": 457,
+  "TargetTableName": "Murazik Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 589,
-  "RightSelectionId": 195,
+  "LeftSelectionId": 911,
+  "RightSelectionId": 804,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Trantow-Osinski",
-  "ShadowProviderName": "Hirthe Group",
-  "ChartKey": "blanditiis",
-  "LastLoaded": "1998-12-25T03:31:32.9257016+01:00",
-  "LastLoadedBy": 387,
+  "MainProviderName": "Trantow, Shields and Carroll",
+  "ShadowProviderName": "Windler Group",
+  "ChartKey": "dolorem",
+  "LastLoaded": "1997-03-19T03:24:51.9119624+01:00",
+  "LastLoadedBy": 388,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-04-19T03:31:32.9257016+02:00",
-  "LastMembershipChangeBy": 364,
+  "LastMembershipChange": "1999-08-14T03:24:51.9119624+02:00",
+  "LastMembershipChangeBy": 465,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "perspiciatis",
-  "MemberTabHeading": "placeat",
-  "MailingsProviderName": "Abbott, Collier and Monahan",
-  "DashboardTileDefinitionId": 333,
+  "MainHeading": "commodi",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Moen-Keeling",
+  "DashboardTileDefinitionId": 312,
   "VisibleFor": [
     {
-      "VisibleId": 406,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldLength": 687
         }
       }
     },
     {
-      "VisibleId": 406,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldLength": 687
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 466
     }
   },
   "_Links": {

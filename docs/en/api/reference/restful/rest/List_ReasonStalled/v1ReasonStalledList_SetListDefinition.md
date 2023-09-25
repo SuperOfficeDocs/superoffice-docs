@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 750,
-  "Name": "Rohan Inc and Sons",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 305,
+  "Id": 632,
+  "Name": "Schmitt Group",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 516,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nemo",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 926,
-  "Name": "Bogisich, Maggio and Mills",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "Rank": 583,
+  "Id": 117,
+  "Name": "Swift Group",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 109,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quasi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 891
     }
   }
 }

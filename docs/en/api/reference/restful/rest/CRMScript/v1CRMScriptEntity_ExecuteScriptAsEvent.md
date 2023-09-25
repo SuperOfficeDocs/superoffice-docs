@@ -90,31 +90,31 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "rerum",
-    "InputValues2": "repudiandae"
+    "InputValues1": "officia",
+    "InputValues2": "quis"
   },
   "BlockExecution": false,
-  "NavigateTo": "qui",
-  "Message": "praesentium",
-  "ShowDialog": "veniam",
+  "NavigateTo": "autem",
+  "Message": "commodi",
+  "ShowDialog": "adipisci",
   "OutputValues": {
-    "OutputValues1": "deleniti",
-    "OutputValues2": "ut"
+    "OutputValues1": "dolorem",
+    "OutputValues2": "quia"
   },
   "StateValues": {
-    "StateValues1": "illo",
-    "StateValues2": "enim"
+    "StateValues1": "voluptas",
+    "StateValues2": "nihil"
   },
-  "Exception": "sequi",
+  "Exception": "quia",
   "ParserValues": {
-    "ParserValues1": "voluptas",
-    "ParserValues2": "veniam"
+    "ParserValues1": "quia",
+    "ParserValues2": "sed"
   }
 }
 ```
@@ -128,32 +128,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "inventore",
-    "InputValues2": "est"
+    "InputValues1": "cum",
+    "InputValues2": "quia"
   },
   "BlockExecution": true,
-  "NavigateTo": "eligendi",
-  "Message": "eveniet",
-  "ShowDialog": "ut",
+  "NavigateTo": "commodi",
+  "Message": "quae",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "voluptate",
-    "OutputValues2": "quae"
+    "OutputValues1": "explicabo",
+    "OutputValues2": "sit"
   },
   "StateValues": {
-    "StateValues1": "autem",
-    "StateValues2": "asperiores"
+    "StateValues1": "et",
+    "StateValues2": "non"
   },
-  "Exception": "aut",
+  "Exception": "officiis",
   "ParserValues": {
-    "ParserValues1": "blanditiis",
-    "ParserValues2": "rem"
+    "ParserValues1": "minima",
+    "ParserValues2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

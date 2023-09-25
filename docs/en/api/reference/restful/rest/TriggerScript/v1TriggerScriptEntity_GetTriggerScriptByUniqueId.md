@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 659,
-  "Name": "Heathcote, Greenholt and Littel",
+  "ScreenChooserId": 351,
+  "Name": "Wunsch-Fisher",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "quaerat",
-  "Source": "molestiae",
-  "Registered": "1996-04-29T03:31:33.2718572+02:00",
-  "RegisteredAssociateId": 741,
-  "Updated": "2021-10-07T03:31:33.2718572+02:00",
-  "UpdatedAssociateId": 828,
+  "UniqueIdentifier": "sit",
+  "Source": "cupiditate",
+  "Registered": "2001-08-02T03:24:52.0213616+02:00",
+  "RegisteredAssociateId": 629,
+  "Updated": "2001-03-08T03:24:52.0213616+01:00",
+  "UpdatedAssociateId": 766,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldType": "System.String",
+      "FieldLength": 225
     }
   }
 }

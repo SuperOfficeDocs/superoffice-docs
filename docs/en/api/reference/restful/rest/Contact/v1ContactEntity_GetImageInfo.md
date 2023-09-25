@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 Dec 2008 03:31:32 G12T
+Last-Modified: Thu, 27 Dec 2007 03:24:51 G12T
 
 {
-  "BlobId": 143,
-  "BlobSize": 999,
-  "Description": "Switchable real-time emulation",
-  "ExtraInfo": "excepturi",
-  "IsEncrypted": false,
+  "BlobId": 94,
+  "BlobSize": 347,
+  "Description": "Assimilated demand-driven pricing structure",
+  "ExtraInfo": "saepe",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "nemo",
-  "OriginalSize": 999,
-  "CreatedDate": "2011-05-16T03:31:32.3789647+02:00",
-  "UpdatedDate": "2008-12-13T03:31:32.3789647+01:00",
+  "MimeType": "blanditiis",
+  "OriginalSize": 366,
+  "CreatedDate": "2015-05-15T03:24:51.459286+02:00",
+  "UpdatedDate": "2007-12-27T03:24:51.459286+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nihil",
+  "ConceptualType": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 544
     }
   }
 }

@@ -87,31 +87,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "est",
-        "dolores"
+        "sunt",
+        "ex"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "odio"
+      "ExternalKey": "ipsam"
     },
     {
       "Values": [
-        "est",
-        "dolores"
+        "sunt",
+        "ex"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "odio"
+      "ExternalKey": "ipsam"
     }
   ],
   "ColumnDefinition": [
-    "commodi",
-    "quo"
+    "dolor",
+    "ad"
   ],
-  "Culture": "beatae",
-  "Context": "quia"
+  "Culture": "molestiae",
+  "Context": "quae"
 }
 ```
 
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "magnam",
-      "id"
+      "quis",
+      "atque"
     ],
     "Selected": false,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "repellat",
+    "ExternalKey": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 959
+        "FieldLength": 613
       }
     }
   }

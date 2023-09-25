@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 175,
-    "Value": "dolorem",
-    "Tooltip": "rerum",
+    "Id": 264,
+    "Value": "quasi",
+    "Tooltip": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 235
+        "FieldLength": 283
       }
     }
   },
   {
-    "Id": 175,
-    "Value": "dolorem",
-    "Tooltip": "rerum",
+    "Id": 264,
+    "Value": "quasi",
+    "Tooltip": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 235
+        "FieldLength": 283
       }
     }
   }

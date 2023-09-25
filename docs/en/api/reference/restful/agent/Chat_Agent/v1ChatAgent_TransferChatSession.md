@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 582,
-  "ToAssociate": "laboriosam"
+  "ChatSessionId": 339,
+  "ToAssociate": "cum"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 131,
-  "TopicId": 631,
+  "ChatSessionId": 979,
+  "TopicId": 169,
   "User": null,
   "Person": null,
-  "CustomerAlias": "maiores",
-  "CustomerHost": "ipsam",
-  "CustomerName": "Koelpin LLC",
-  "CustomerEmail": "anthony_dare@rowesporer.uk",
-  "CustomerPhone": "(337)680-5386 x667",
+  "CustomerAlias": "quia",
+  "CustomerHost": "deserunt",
+  "CustomerName": "Simonis-Stanton",
+  "CustomerEmail": "kelly_upton@sanford.uk",
+  "CustomerPhone": "1-090-911-3926 x132",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Cassin, Steuber and Kris",
+  "CustomerCompanyName": "Pfannerstill-Simonis",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "similique",
-  "WhenRequested": "2002-06-24T03:31:25.7277256+02:00",
-  "WhenStarted": "2003-11-19T03:31:25.7277256+01:00",
-  "WhenEnded": "2012-02-14T03:31:25.7277256+01:00",
-  "WhenIdle": "2008-07-21T03:31:25.7277256+02:00",
-  "WhenFetched": "2000-09-21T03:31:25.7277256+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 107,
-  "AlertLevel": 514,
-  "Rank": 145,
+  "FirstMessage": "ut",
+  "LastMessage": "vel",
+  "WhenRequested": "1998-08-09T03:24:47.3145639+02:00",
+  "WhenStarted": "2007-03-04T03:24:47.3145639+01:00",
+  "WhenEnded": "2022-02-13T03:24:47.3145639+01:00",
+  "WhenIdle": "1998-05-15T03:24:47.3145639+02:00",
+  "WhenFetched": "2004-10-02T03:24:47.3145639+02:00",
+  "SessionKey": "facere",
+  "InitialQueuePos": 682,
+  "AlertLevel": 694,
+  "Rank": 897,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 871,
+  "Rating": 727,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 666
     }
   }
 }

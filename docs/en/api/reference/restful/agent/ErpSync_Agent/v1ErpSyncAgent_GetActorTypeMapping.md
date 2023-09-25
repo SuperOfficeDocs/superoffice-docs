@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 369,
+  "ErpConnectionId": 214,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 540,
+  "ErpConnectionId": 319,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 491,
-      "CrmFieldKey": "perferendis",
-      "CrmDisplayName": "Goyette-Douglas",
-      "CrmDisplayTooltip": "reiciendis",
-      "ErpFieldKey": "explicabo",
+      "ErpFieldId": 330,
+      "CrmFieldKey": "omnis",
+      "CrmDisplayName": "Koelpin-Keeling",
+      "CrmDisplayTooltip": "quas",
+      "ErpFieldKey": "et",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Russel, Von and Lang",
-      "ErpDisplayTooltip": "et",
+      "ErpDisplayName": "Heathcote-Heller",
+      "ErpDisplayTooltip": "neque",
       "SyncToCrm": false,
-      "SyncToErp": true,
+      "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": false,
-      "AlreadyMapped": true,
+      "ShowInSearch": true,
+      "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "vitae",
+      "ListReference": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 13
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 608
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 739,
-    "Name": "Waelchi, Moore and Schmeler",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 795,
-    "UdListDefinitionId": 424,
+    "HeadingId": 544,
+    "Name": "Mayert, Wintheiser and Keebler",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 411,
+    "UdListDefinitionId": 630,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldLength": 290
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 990,
-  "Rank": 952,
-  "DefaultTask": 807,
-  "DefaultTaskText": "porro",
-  "IsVisual": true,
-  "LastGenerated": "2018-09-29T03:31:27.1374712+02:00",
-  "Description": "Total discrete analyzer",
-  "Name": "Raynor-Quitzon",
-  "StatusMonitorId": 532,
-  "PictureId": 710,
+  "OwnerTable": 313,
+  "Rank": 685,
+  "DefaultTask": 516,
+  "DefaultTaskText": "repellat",
+  "IsVisual": false,
+  "LastGenerated": "2011-10-16T03:24:48.1738537+02:00",
+  "Description": "Visionary exuding algorithm",
+  "Name": "Jast-Gleichner",
+  "StatusMonitorId": 807,
+  "PictureId": 149,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 159,
-  "NumNeedUpdate": 174,
-  "GenerationStart": "2022-07-18T03:31:27.1374712+02:00",
+  "NumMatches": 641,
+  "NumNeedUpdate": 372,
+  "GenerationStart": "2020-10-14T03:24:48.1738537+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 669
     }
   }
 }

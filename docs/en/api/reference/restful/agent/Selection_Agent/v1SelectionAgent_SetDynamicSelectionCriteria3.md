@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 556,
+  "SelectionId": 533,
   "Criteria": [
     {
-      "Name": "Labadie-Bode",
-      "Operator": "quos",
+      "Name": "Reichel-Weimann",
+      "Operator": "et",
       "Values": [
-        "eos",
-        "dolores"
+        "aut",
+        "placeat"
       ],
       "DisplayValues": [
-        "nam",
-        "et"
+        "culpa",
+        "at"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 267,
+      "InterParenthesis": 522,
       "InterOperator": "And",
-      "UniqueHash": 201
+      "UniqueHash": 191
     }
   ],
-  "Filter": "odio"
+  "Filter": "earum"
 }
 ```
 
@@ -124,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jerde, Donnelly and Kohler",
-    "Operator": "aut",
+    "Name": "Gorczany-Boehm",
+    "Operator": "libero",
     "Values": [
-      "velit",
-      "asperiores"
+      "aut",
+      "dolorem"
     ],
     "DisplayValues": [
-      "cupiditate",
-      "tempora"
+      "nulla",
+      "eaque"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Mann-Wisozk",
-        "Operator": "vitae",
+        "Name": "Daugherty, Feil and Nitzsche",
+        "Operator": "dolore",
         "Values": [
-          "aut",
-          "sit"
+          "voluptas",
+          "et"
         ],
         "DisplayValues": [
-          "minima",
-          "soluta"
+          "officiis",
+          "hic"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 202,
+        "InterParenthesis": 144,
         "InterOperator": "And",
-        "UniqueHash": 282
+        "UniqueHash": 306
       }
     ],
-    "InterParenthesis": 716,
+    "InterParenthesis": 467,
     "InterOperator": "And",
-    "UniqueHash": 117
+    "UniqueHash": 973
   }
 ]
 ```

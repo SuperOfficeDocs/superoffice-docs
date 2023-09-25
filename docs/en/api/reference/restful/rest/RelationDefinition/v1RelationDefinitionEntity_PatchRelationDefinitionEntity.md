@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sit",
+    "path": "excepturi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sit",
+    "path": "excepturi",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 587,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "omnis",
-  "PassiveText": "aut",
-  "Deleted": true,
-  "Rank": 62,
+  "ReldefId": 666,
+  "Name": "Murray Group",
+  "Tooltip": "dolores",
+  "PassiveText": "pariatur",
+  "Deleted": false,
+  "Rank": 821,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 139
     }
   },
   "_Links": {

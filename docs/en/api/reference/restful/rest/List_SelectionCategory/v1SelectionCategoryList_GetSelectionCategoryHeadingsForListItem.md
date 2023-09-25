@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 332,
-    "Name": "Mills, Schaden and Klocko",
-    "ToolTip": "Aut culpa et.",
-    "Deleted": false,
-    "Rank": 982,
-    "Type": "facere",
-    "ColorBlock": 806,
-    "IconHint": "quam",
-    "Selected": true,
-    "LastChanged": "2006-02-23T03:31:33.8835899+01:00",
+    "Id": 768,
+    "Name": "Heathcote, Swift and Hahn",
+    "ToolTip": "Enim rerum totam.",
+    "Deleted": true,
+    "Rank": 542,
+    "Type": "deleniti",
+    "ColorBlock": 861,
+    "IconHint": "reiciendis",
+    "Selected": false,
+    "LastChanged": "2006-08-14T03:24:52.4275712+02:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Davis, Hudson and Deckow",
-        "ToolTip": "Molestias nulla sit nisi qui nobis modi quasi.",
-        "Deleted": true,
-        "Rank": 588,
-        "Type": "atque",
-        "ColorBlock": 269,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2013-12-15T03:31:33.8835899+01:00",
+        "Id": 551,
+        "Name": "Block-Brekke",
+        "ToolTip": "Aut aut ipsam atque fugit iusto veniam est.",
+        "Deleted": false,
+        "Rank": 540,
+        "Type": "est",
+        "ColorBlock": 608,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2007-11-16T03:24:52.4275712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "hic",
+        "ExtraInfo": "itaque",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Mr. Unique Ward",
+        "FullName": "Leatha Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 972
+            "FieldLength": 245
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "quod",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Jerad Barton",
+    "FullName": "Eddie Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 317
+        "FieldType": "System.String",
+        "FieldLength": 280
       }
     }
   }

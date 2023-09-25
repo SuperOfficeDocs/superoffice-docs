@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 68,
+  "ReportId": 739,
   "ReportCategory": "All",
-  "Description": "Mandatory coherent workforce",
+  "Description": "Polarised mobile monitoring",
   "ReportLayout": "CalendarMonth",
-  "Name": "Daugherty, Grimes and Rau",
-  "AssociateId": 601,
-  "TemplateId": 881,
+  "Name": "Schmeler-Graham",
+  "AssociateId": 751,
+  "TemplateId": 286,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 233,
+  "ReportId": 613,
   "ReportCategory": "All",
-  "Description": "Expanded fresh-thinking customer loyalty",
+  "Description": "Robust radical functionalities",
   "ReportLayout": "CalendarMonth",
-  "Name": "Powlowski-Bayer",
-  "AssociateId": 958,
-  "TemplateId": 226,
+  "Name": "Lynch-Lakin",
+  "AssociateId": 925,
+  "TemplateId": 680,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

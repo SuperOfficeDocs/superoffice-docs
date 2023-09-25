@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 302,
-  "WorkflowId": 404,
-  "TriggerType": "AddToList",
+  "WorkflowTriggerId": 483,
+  "WorkflowId": 803,
+  "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Koss, Harber and Gislason",
-      "Description": "Synergistic discrete software",
-      "Rank": 394,
+      "Name": "VonRueden-Swift",
+      "Description": "Realigned impactful collaboration",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koss, Harber and Gislason",
-      "Description": "Synergistic discrete software",
-      "Rank": 394,
+      "Name": "VonRueden-Swift",
+      "Description": "Realigned impactful collaboration",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 941,
-  "WorkflowId": 516,
-  "TriggerType": "AddToList",
+  "WorkflowTriggerId": 608,
+  "WorkflowId": 959,
+  "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Green-Harris",
-      "Description": "Polarised object-oriented neural-net",
-      "Rank": 51,
+      "Name": "Hudson, Zulauf and Harber",
+      "Description": "Reactive full-range knowledge user",
+      "Rank": 72,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Green-Harris",
-      "Description": "Polarised object-oriented neural-net",
-      "Rank": 51,
+      "Name": "Hudson, Zulauf and Harber",
+      "Description": "Reactive full-range knowledge user",
+      "Rank": 72,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 129
     }
   }
 }

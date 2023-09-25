@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "White, Beer and Kunde",
-    "ToolTip": "Ea eveniet labore culpa asperiores molestias corporis.",
+    "Id": 941,
+    "Name": "Blanda Inc and Sons",
+    "ToolTip": "Molestiae aliquam corrupti nihil tenetur nisi corporis dolores.",
     "Deleted": false,
-    "Rank": 864,
-    "Type": "sit",
-    "ColorBlock": 991,
-    "IconHint": "consequatur",
+    "Rank": 802,
+    "Type": "quia",
+    "ColorBlock": 943,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2021-08-16T03:31:33.5698483+02:00",
+    "LastChanged": "1997-01-19T03:24:52.2244666+01:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Bins-Altenwerth",
-        "ToolTip": "Nulla et ut.",
-        "Deleted": false,
-        "Rank": 411,
-        "Type": "ratione",
-        "ColorBlock": 747,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2020-06-24T03:31:33.5698483+02:00",
+        "Id": 139,
+        "Name": "Toy LLC",
+        "ToolTip": "Vero incidunt et dolorum molestias autem sint.",
+        "Deleted": true,
+        "Rank": 468,
+        "Type": "qui",
+        "ColorBlock": 589,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2006-01-04T03:24:52.2244666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "dolore",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Carlie Wisozk",
+        "FullName": "Jordan Jenkins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 296
+            "FieldType": "System.Int32",
+            "FieldLength": 262
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Mrs. Cole Javon Breitenberg V",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Dr. Wilton Streich Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldType": "System.String",
+        "FieldLength": 765
       }
     }
   }

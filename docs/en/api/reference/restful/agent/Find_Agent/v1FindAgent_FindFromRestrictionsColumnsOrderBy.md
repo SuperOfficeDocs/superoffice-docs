@@ -88,44 +88,44 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Skiles Group",
-      "Operator": "veniam",
+      "Name": "O'Hara-Lesch",
+      "Operator": "dicta",
       "Values": [
-        "harum",
-        "qui"
+        "magnam",
+        "fugiat"
       ],
       "DisplayValues": [
-        "aut",
-        "aut"
+        "sapiente",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 959,
+      "InterParenthesis": 675,
       "InterOperator": "And",
-      "UniqueHash": 102
+      "UniqueHash": 650
     }
   ],
-  "ProviderName": "Jewess-Price",
+  "ProviderName": "Kohler, Conroy and Becker",
   "DesiredColumns": [
-    "eos",
-    "qui"
+    "dolorum",
+    "at"
   ],
   "OrderBy": [
     {
-      "Name": "Champlin-Boyle",
+      "Name": "Prosacco LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Champlin-Boyle",
+      "Name": "Prosacco LLC",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 550,
-  "PageNumber": 641
+  "PageSize": 796,
+  "PageNumber": 646
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Casper-Mills",
-      "DisplayTooltip": "dolores",
-      "DisplayType": "adipisci",
-      "CanOrderBy": true,
-      "Name": "Bauch Group",
+      "DisplayName": "Gusikowski-Dach",
+      "DisplayTooltip": "ad",
+      "DisplayType": "incidunt",
+      "CanOrderBy": false,
+      "Name": "Walker-Bailey",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Luettgen-Sauer",
-      "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "assumenda",
-      "IconHint": "beatae",
-      "HeadingIconHint": "aut"
+      "RestrictionType": "hic",
+      "RestrictionListName": "Fay, Moen and Howe",
+      "IsVisible": true,
+      "ExtraInfo": "a",
+      "Width": "modi",
+      "IconHint": "autem",
+      "HeadingIconHint": "beatae"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ward-Bergnaum",
-      "PrimaryKey": 808,
+      "EntityName": "Deckow LLC",
+      "PrimaryKey": 934,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "sequi",
-          "LinkHint": "omnis"
+          "DisplayValue": "asperiores",
+          "TooltipHint": "officiis",
+          "LinkHint": "impedit"
         }
       },
-      "LinkHint": "praesentium",
-      "StyleHint": "rem",
+      "LinkHint": "vel",
+      "StyleHint": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 51
+          "FieldLength": 308
         }
       }
     }
   ],
-  "RowCount": 145,
+  "RowCount": 448,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

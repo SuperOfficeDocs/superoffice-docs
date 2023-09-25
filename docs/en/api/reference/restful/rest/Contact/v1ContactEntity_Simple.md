@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 829,
-  "Name": "Mayert Group",
-  "OrgNr": "1341016",
+  "ContactId": 172,
+  "Name": "Buckridge, Kiehn and Toy",
+  "OrgNr": "214435",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "iste",
-  "DirectPhone": "(079)139-5461",
-  "AssociateId": 402,
-  "CountryId": 967,
-  "EmailAddress": "addie.goodwin@luettgen.com",
-  "Kananame": "voluptas",
-  "EmailAddressName": "brendon.bednar@haley.com",
+  "City": "sit",
+  "DirectPhone": "(005)198-5817 x692",
+  "AssociateId": 874,
+  "CountryId": 927,
+  "EmailAddress": "milford@gleason.biz",
+  "Kananame": "et",
+  "EmailAddressName": "joshua@ernser.biz",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Merritt Lemke",
+  "AssociateFullName": "Jarrod Shanel Lakin Sr.",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "laboriosam",
-  "FullName": "Melissa Sylvester McClure IV",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 662,
-  "Number1": "510917",
-  "Number2": "1075608",
+  "FormattedAddress": "fugit",
+  "FullName": "Miss Zella Eryn Reinger",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 582,
+  "Number1": "269422",
+  "Number2": "499797",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 607
+      "FieldType": "System.Int32",
+      "FieldLength": 946
     }
   }
 }

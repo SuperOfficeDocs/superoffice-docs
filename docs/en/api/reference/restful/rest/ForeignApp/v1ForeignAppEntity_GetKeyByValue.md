@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=sint
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aperiam
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 24 Mar 1998 03:31:32 G3T
+Last-Modified: Wed, 19 Jul 2023 03:24:51 G7T
 
 {
-  "Key": "libero",
-  "Value": "iusto",
-  "RecordId": 937,
-  "CreatedDate": "2009-06-09T03:31:32.6289016+02:00",
-  "UpdatedDate": "1998-03-24T03:31:32.6289016+01:00",
-  "UpdatedBy": "aliquam",
-  "CreatedBy": "commodi",
-  "TableName": "Lakin Group",
+  "Key": "totam",
+  "Value": "maiores",
+  "RecordId": 77,
+  "CreatedDate": "2014-02-14T03:24:51.630601+01:00",
+  "UpdatedDate": "2023-07-19T03:24:51.630601+02:00",
+  "UpdatedBy": "ipsum",
+  "CreatedBy": "necessitatibus",
+  "TableName": "Reinger LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldLength": 38
     }
   }
 }

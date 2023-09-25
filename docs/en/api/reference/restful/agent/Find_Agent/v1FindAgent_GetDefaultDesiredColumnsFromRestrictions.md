@@ -90,28 +90,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hartmann-Cartwright",
+  "ProviderName": "Ziemann, Schaden and Beahan",
   "Restrictions": [
     {
-      "Name": "Kirlin Inc and Sons",
-      "Operator": "ut",
+      "Name": "Marks, Oberbrunner and Hauck",
+      "Operator": "incidunt",
       "Values": [
-        "sed",
-        "consectetur"
+        "modi",
+        "consequatur"
       ],
       "DisplayValues": [
-        "magnam",
-        "qui"
+        "aut",
+        "incidunt"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 241,
+      "InterParenthesis": 32,
       "InterOperator": "And",
-      "UniqueHash": 902
+      "UniqueHash": 241
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bergnaum-Morar",
-    "DisplayTooltip": "itaque",
-    "DisplayType": "earum",
-    "CanOrderBy": true,
-    "Name": "Cormier, Schaden and Boyle",
-    "CanRestrictBy": true,
-    "RestrictionType": "doloremque",
-    "RestrictionListName": "Wiegand-Koss",
-    "IsVisible": true,
-    "ExtraInfo": "dolores",
-    "Width": "voluptates",
-    "IconHint": "at",
-    "HeadingIconHint": "ut"
+    "DisplayName": "Hegmann, Bins and Deckow",
+    "DisplayTooltip": "incidunt",
+    "DisplayType": "et",
+    "CanOrderBy": false,
+    "Name": "Gaylord, Marks and Harris",
+    "CanRestrictBy": false,
+    "RestrictionType": "labore",
+    "RestrictionListName": "Pollich-Goldner",
+    "IsVisible": false,
+    "ExtraInfo": "quia",
+    "Width": "asperiores",
+    "IconHint": "magni",
+    "HeadingIconHint": "vel"
   }
 ]
 ```

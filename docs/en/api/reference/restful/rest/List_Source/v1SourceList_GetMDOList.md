@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=voluptate
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=repudiandae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Gislason-Rau",
-    "ToolTip": "Quaerat saepe voluptates.",
+    "Id": 118,
+    "Name": "Gusikowski-Treutel",
+    "ToolTip": "Saepe voluptatem sint ratione non optio quis.",
     "Deleted": true,
-    "Rank": 993,
-    "Type": "nam",
+    "Rank": 403,
+    "Type": "quidem",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Gleichner Inc and Sons",
-        "ToolTip": "Veniam cupiditate ratione non sunt accusantium iste.",
+        "Id": 535,
+        "Name": "Gulgowski, Wolff and Fahey",
+        "ToolTip": "Aliquid nobis at illum esse impedit qui quod.",
         "Deleted": false,
-        "Rank": 255,
-        "Type": "ullam",
+        "Rank": 975,
+        "Type": "nobis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 707,
-        "ExtraInfo": "dolorum",
-        "StyleHint": "ut",
-        "FullName": "Juliet Grimes",
+        "IconHint": "omnis",
+        "ColorBlock": 295,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "minus",
+        "FullName": "Amina Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 8
+            "FieldLength": 402
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 646,
-    "ExtraInfo": "eos",
-    "StyleHint": "dolor",
-    "FullName": "Miss Torey Stella O'Reilly IV",
+    "IconHint": "optio",
+    "ColorBlock": 726,
+    "ExtraInfo": "et",
+    "StyleHint": "accusantium",
+    "FullName": "Cara Elsie Wolf III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 434
       }
     }
   }

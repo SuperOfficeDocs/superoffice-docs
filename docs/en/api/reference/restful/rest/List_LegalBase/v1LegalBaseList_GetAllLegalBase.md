@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 82,
-    "Name": "Kiehn, Cronin and Romaguera",
-    "Tooltip": "atque",
-    "Rank": 938,
-    "Key": "et",
-    "Deleted": false,
+    "LegalBaseId": 270,
+    "Name": "Hermann-Walker",
+    "Tooltip": "quia",
+    "Rank": 47,
+    "Key": "omnis",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldType": "System.Int32",
+        "FieldLength": 408
       }
     }
   }

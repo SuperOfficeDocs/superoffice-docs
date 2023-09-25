@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 314,
-    "Name": "Koepp-Goyette",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 336,
-    "UdListDefinitionId": 171
+    "HeadingId": 971,
+    "Name": "Steuber, Mayert and Dach",
+    "Tooltip": "eaque",
+    "Deleted": true,
+    "Rank": 709,
+    "UdListDefinitionId": 227
   },
   {
-    "HeadingId": 314,
-    "Name": "Koepp-Goyette",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 336,
-    "UdListDefinitionId": 171
+    "HeadingId": 971,
+    "Name": "Steuber, Mayert and Dach",
+    "Tooltip": "eaque",
+    "Deleted": true,
+    "Rank": 709,
+    "UdListDefinitionId": 227
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 466,
-    "Name": "Wisoky, Stark and Schneider",
-    "Tooltip": "delectus",
+    "HeadingId": 285,
+    "Name": "Kreiger Group",
+    "Tooltip": "recusandae",
     "Deleted": false,
-    "Rank": 421,
-    "UdListDefinitionId": 545,
+    "Rank": 336,
+    "UdListDefinitionId": 237,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

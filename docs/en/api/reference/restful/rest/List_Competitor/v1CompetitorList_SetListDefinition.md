@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Becker-Schiller",
-  "Tooltip": "laborum",
+  "Id": 548,
+  "Name": "Jewess-Feest",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 335,
-  "IsCustomList": true,
+  "Rank": 826,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "suscipit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
-  "Name": "O'Conner Inc and Sons",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "Rank": 852,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 200,
+  "Name": "Corkery Group",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 330,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   }
 }

@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 972,
-  "Restrictions": "similique"
+  "DashboardTileId": 705,
+  "Restrictions": "nostrum"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Padberg, Champlin and Simonis",
-        "DisplayTooltip": "voluptates",
-        "DisplayType": "quia",
-        "CanOrderBy": false,
-        "Name": "Rodriguez LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "ipsum",
-        "RestrictionListName": "Robel-Dickens",
+        "DisplayName": "Nader, Jacobs and Parker",
+        "DisplayTooltip": "dolor",
+        "DisplayType": "provident",
+        "CanOrderBy": true,
+        "Name": "Considine-Windler",
+        "CanRestrictBy": false,
+        "RestrictionType": "harum",
+        "RestrictionListName": "Zboncak, Schamberger and Hessel",
         "IsVisible": true,
-        "ExtraInfo": "eligendi",
-        "Width": "consectetur",
-        "IconHint": "expedita",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "maxime",
+        "Width": "sapiente",
+        "IconHint": "dolores",
+        "HeadingIconHint": "ullam"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Padberg, Champlin and Simonis",
-        "DisplayTooltip": "voluptates",
-        "DisplayType": "quia",
-        "CanOrderBy": false,
-        "Name": "Rodriguez LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "ipsum",
-        "RestrictionListName": "Robel-Dickens",
+        "DisplayName": "Nader, Jacobs and Parker",
+        "DisplayTooltip": "dolor",
+        "DisplayType": "provident",
+        "CanOrderBy": true,
+        "Name": "Considine-Windler",
+        "CanRestrictBy": false,
+        "RestrictionType": "harum",
+        "RestrictionListName": "Zboncak, Schamberger and Hessel",
         "IsVisible": true,
-        "ExtraInfo": "eligendi",
-        "Width": "consectetur",
-        "IconHint": "expedita",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "maxime",
+        "Width": "sapiente",
+        "IconHint": "dolores",
+        "HeadingIconHint": "ullam"
       }
     ],
     "Result": null

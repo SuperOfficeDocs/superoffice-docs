@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 306,
-    "Name": "D'Amore, Wisozk and Zulauf",
-    "Tooltip": "explicabo",
-    "SaveInDb": 60,
-    "Filename": "expedita",
-    "DefaultOref": "velit",
+    "DocumentTemplateId": 929,
+    "Name": "Kertzmann, Ratke and Durgan",
+    "Tooltip": "at",
+    "SaveInDb": 645,
+    "Filename": "nihil",
+    "DefaultOref": "quibusdam",
     "RecordType": "Appointment",
-    "Deleted": 881,
+    "Deleted": 781,
     "Direction": "Incoming",
-    "AutoeventId": 346,
+    "AutoeventId": 658,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

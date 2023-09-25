@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 466,
+  "TargetYear": 714,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 754,
-  "DimensionId": 295
+  "Id": 912,
+  "DimensionId": 749
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 346,
+  "TargetAssignmentInfoId": 356,
   "Values": [
-    915,
-    912
+    20,
+    127
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 938,
-  "DimensionListItemDisplayName": "Kassulke Group",
+  "DimensionListItem": 16,
+  "DimensionListItemDisplayName": "Bailey Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 496
+      "FieldLength": 761
     }
   }
 }

@@ -19,7 +19,7 @@ Supports cross-table matching: "Guttorm Teacup" will find tickets from person "G
 
 User's own tickets, recently added + modified tickets, contacts modified or created by user as scored higher.
 Matches on word boundaries or at start of field are scored extra highly.
-
+<para />
 Returns ticket items only: Id = ticket id.
 ExtraInfo = person_id, Type = "Ticket", IconHint = "Ticket"
 StyleHint = "deleted_item" or "ticketUnread"

@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "doloribus",
-    "et"
+    "dignissimos",
+    "explicabo"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schaefer-Doyle",
-    "Delimiter": "laudantium",
-    "Flags": "provident",
-    "TotalItems": 123,
-    "UnreadItems": 83,
+    "Name": "Paucek LLC",
+    "Delimiter": "corrupti",
+    "Flags": "sed",
+    "TotalItems": 832,
+    "UnreadItems": 881,
     "Subscribed": false,
-    "EmailFolderId": 579,
+    "EmailFolderId": 245,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldLength": 61
       }
     }
   }

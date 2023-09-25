@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quas",
-  "PrefKey": "veniam",
+  "PrefSection": "quia",
+  "PrefKey": "quaerat",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nulla",
+  "RawValue": "tempora",
   "Specification": null,
-  "DisplayValue": "odio",
-  "DisplayTooltip": "illum",
+  "DisplayValue": "nulla",
+  "DisplayTooltip": "accusamus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 104,
-  "PrefDescId": 639,
-  "TableName": "Shields Group",
-  "UserPreferenceId": 191,
+  "TargetId": 376,
+  "PrefDescId": 56,
+  "TableName": "Hessel-Kreiger",
+  "UserPreferenceId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 202,
-    "Name": "Spinka, Rodriguez and Blanda",
-    "Tooltip": "facere",
+    "HeadingId": 855,
+    "Name": "Harvey Group",
+    "Tooltip": "similique",
     "Deleted": true,
-    "Rank": 202,
-    "UdListDefinitionId": 503,
+    "Rank": 455,
+    "UdListDefinitionId": 943,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 33
       }
     }
   }

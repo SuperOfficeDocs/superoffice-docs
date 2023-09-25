@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 562,
-  "Name": "Braun Inc and Sons",
-  "CreatedDate": "2023-01-14T03:31:32.6132803+01:00",
-  "UpdatedDate": "2006-07-22T03:31:32.6132803+02:00",
+  "ForeignAppId": 185,
+  "Name": "Weissnat Inc and Sons",
+  "CreatedDate": "2013-11-09T03:24:51.6149823+01:00",
+  "UpdatedDate": "1999-07-26T03:24:51.6149823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 468,
-      "Name": "Brown Group",
-      "CreatedDate": "2018-08-01T03:31:32.6132803+02:00",
-      "UpdatedDate": "2010-07-06T03:31:32.6132803+02:00",
-      "AssociateFullName": "Ms. Janessa Leon Breitenberg PhD",
-      "CreatedBy": "blanditiis",
-      "UpdatedBy": "expedita",
-      "DeviceIdentifier": "quis",
-      "ForeignAppId": 679,
+      "ForeignDeviceId": 383,
+      "Name": "Hyatt Group",
+      "CreatedDate": "2003-04-03T03:24:51.6149823+02:00",
+      "UpdatedDate": "1997-06-20T03:24:51.6149823+02:00",
+      "AssociateFullName": "Torrey Cronin",
+      "CreatedBy": "quibusdam",
+      "UpdatedBy": "harum",
+      "DeviceIdentifier": "commodi",
+      "ForeignAppId": 812,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 399
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 301
     }
   }
 }

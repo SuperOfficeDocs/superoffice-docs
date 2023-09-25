@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Brakus-Bernier",
-    "ToolTip": "Non voluptatum labore quia dolores eos voluptatum aut.",
+    "Id": 196,
+    "Name": "Jerde, Marks and Abshire",
+    "ToolTip": "Fugit numquam debitis atque.",
     "Deleted": false,
-    "Rank": 897,
-    "Type": "eum",
-    "ColorBlock": 513,
-    "IconHint": "soluta",
+    "Rank": 640,
+    "Type": "doloremque",
+    "ColorBlock": 345,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "2005-07-20T03:31:33.7429875+02:00",
+    "LastChanged": "2019-12-09T03:24:52.3338241+01:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Daniel Inc and Sons",
-        "ToolTip": "Quisquam dolor vel quibusdam non.",
+        "Id": 652,
+        "Name": "Schimmel, Borer and Hodkiewicz",
+        "ToolTip": "Dolorem molestiae voluptatem laboriosam et explicabo.",
         "Deleted": false,
-        "Rank": 242,
-        "Type": "voluptatum",
-        "ColorBlock": 222,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2020-06-24T03:31:33.7429875+02:00",
+        "Rank": 299,
+        "Type": "ut",
+        "ColorBlock": 155,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "1997-01-18T03:24:52.3338241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "rem",
+        "ExtraInfo": "itaque",
+        "StyleHint": "consectetur",
         "Hidden": false,
-        "FullName": "Miss Dayna Schmeler"
+        "FullName": "Vincenza Billie Goldner III"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "ea",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Prof. Devan Schiller"
+    "FullName": "Gudrun Bartell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Greenholt, Graham and Pouros",
-    "ToolTip": "Alias illo nobis autem ducimus.",
-    "Deleted": false,
-    "Rank": 356,
-    "Type": "inventore",
-    "ColorBlock": 930,
-    "IconHint": "maxime",
+    "Id": 432,
+    "Name": "Funk Inc and Sons",
+    "ToolTip": "Velit aliquam ducimus hic sit labore explicabo.",
+    "Deleted": true,
+    "Rank": 899,
+    "Type": "voluptas",
+    "ColorBlock": 709,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2018-07-07T03:31:33.7429875+02:00",
+    "LastChanged": "1999-11-11T03:24:52.3338241+01:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Braun-Auer",
-        "ToolTip": "Amet provident earum nostrum.",
+        "Id": 927,
+        "Name": "McDermott, Towne and Russel",
+        "ToolTip": "Esse veniam ut.",
         "Deleted": true,
-        "Rank": 506,
-        "Type": "aperiam",
-        "ColorBlock": 396,
-        "IconHint": "voluptatem",
+        "Rank": 630,
+        "Type": "maiores",
+        "ColorBlock": 706,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2007-10-15T03:31:33.7429875+02:00",
+        "LastChanged": "1999-05-23T03:24:52.3338241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "delectus",
+        "ExtraInfo": "sunt",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Jalyn Gerhold",
+        "FullName": "Mr. Bryon Vivianne Lubowitz DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 83
+            "FieldType": "System.Int32",
+            "FieldLength": 729
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
+    "ExtraInfo": "minus",
     "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Nia Fay",
+    "Hidden": true,
+    "FullName": "Miss Reuben Parisian DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 295
       }
     }
   }

@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 641,
-  "PersonName": "Schoen Inc and Sons",
+  "ContactId": 863,
+  "PersonName": "Auer, Hoppe and Schinner",
   "PhoneNumbers": [
-    "1054955",
-    "1732047"
+    "958110",
+    "854089"
   ],
   "Emails": [
-    "general@gloverhane.info",
-    "jan.stoltenberg@purdy.name"
+    "katlynn@buckridge.biz",
+    "isidro_tromp@oconnerrau.info"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 50
     }
   }
 }

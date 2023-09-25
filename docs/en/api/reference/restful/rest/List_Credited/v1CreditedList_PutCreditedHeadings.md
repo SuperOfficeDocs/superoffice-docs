@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 877,
-    "Name": "Schuster-Murray",
-    "Tooltip": "vel",
+    "HeadingId": 292,
+    "Name": "Stokes-Runolfsson",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "Rank": 807,
-    "UdListDefinitionId": 543
+    "Rank": 246,
+    "UdListDefinitionId": 920
   },
   {
-    "HeadingId": 877,
-    "Name": "Schuster-Murray",
-    "Tooltip": "vel",
+    "HeadingId": 292,
+    "Name": "Stokes-Runolfsson",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "Rank": 807,
-    "UdListDefinitionId": 543
+    "Rank": 246,
+    "UdListDefinitionId": 920
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 914,
-    "Name": "Lind-Sauer",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 568,
-    "UdListDefinitionId": 82,
+    "HeadingId": 114,
+    "Name": "Cormier, Miller and Mosciski",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 311,
+    "UdListDefinitionId": 344,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 809
       }
     }
   }

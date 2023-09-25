@@ -85,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 349,
-  "ERPPriceListKey": "odit",
-  "QuoteConnectionId": 786,
-  "Name": "Dooley, Konopelski and Rowe",
-  "Description": "Profound transitional data-warehouse",
-  "Currency": "optio",
-  "CurrencyName": "Glover, Sipes and Heathcote",
-  "ValidFrom": "2000-10-07T03:31:27.0580843+02:00",
-  "ValidTo": "2003-05-08T03:31:27.0580843+02:00",
-  "IsActive": false
+  "PriceListId": 916,
+  "ERPPriceListKey": "reprehenderit",
+  "QuoteConnectionId": 416,
+  "Name": "Eichmann Inc and Sons",
+  "Description": "Multi-layered zero administration migration",
+  "Currency": "dolores",
+  "CurrencyName": "Walter Inc and Sons",
+  "ValidFrom": "2018-08-14T03:24:48.1269787+02:00",
+  "ValidTo": "2020-05-08T03:24:48.1269787+02:00",
+  "IsActive": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 619,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 61,
-  "Name": "Rosenbaum-Koch",
-  "Description": "Programmable disintermediate alliance",
-  "Currency": "tenetur",
-  "CurrencyName": "Mitchell, Hettinger and Cronin",
-  "ValidFrom": "1997-02-18T03:31:27.0580843+01:00",
-  "ValidTo": "1998-07-03T03:31:27.0580843+02:00",
-  "IsActive": false,
+  "PriceListId": 742,
+  "ERPPriceListKey": "fugiat",
+  "QuoteConnectionId": 314,
+  "Name": "Botsford, Lindgren and Dooley",
+  "Description": "De-engineered well-modulated internet solution",
+  "Currency": "ipsa",
+  "CurrencyName": "Koch Group",
+  "ValidFrom": "2002-06-22T03:24:48.1269787+02:00",
+  "ValidTo": "2000-05-03T03:24:48.1269787+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 778
     }
   }
 }

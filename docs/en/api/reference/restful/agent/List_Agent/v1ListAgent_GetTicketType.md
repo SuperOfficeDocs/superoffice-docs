@@ -26,7 +26,7 @@ Gets a TicketType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketType?ticketTypeId=596
+POST /api/v1/Agents/List/GetTicketType?ticketTypeId=457
 POST /api/v1/Agents/List/GetTicketType?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Value": "laboriosam",
-  "Tooltip": "porro",
+  "Id": 975,
+  "Value": "rem",
+  "Tooltip": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldLength": 344
     }
   }
 }

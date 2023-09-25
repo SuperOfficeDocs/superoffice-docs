@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 741,
-    "DisplayName": "Koch LLC",
-    "OngoingChats": 628,
-    "Present": false,
+    "UserId": 167,
+    "DisplayName": "Bogan, Gibson and Schmeler",
+    "OngoingChats": 897,
+    "Present": true,
     "ChatTopics": [
-      479,
-      39
+      276,
+      87
     ]
   },
   {
-    "UserId": 741,
-    "DisplayName": "Koch LLC",
-    "OngoingChats": 628,
-    "Present": false,
+    "UserId": 167,
+    "DisplayName": "Bogan, Gibson and Schmeler",
+    "OngoingChats": 897,
+    "Present": true,
     "ChatTopics": [
-      479,
-      39
+      276,
+      87
     ]
   }
 ]

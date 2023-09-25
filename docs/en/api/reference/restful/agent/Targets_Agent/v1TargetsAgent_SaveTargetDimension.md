@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 883,
+  "TargetDimensionId": 747,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "in",
-  "DimensionListName": "Willms Inc and Sons",
-  "DimensionListId": 888,
-  "DimensionListLabel": "debitis",
+  "DimensionListField": "sint",
+  "DimensionListName": "Champlin-Balistreri",
+  "DimensionListId": 50,
+  "DimensionListLabel": "optio",
   "SelectedDimensions": [
-    914,
-    489
+    486,
+    162
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 448,
+  "TargetDimensionId": 122,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "odit",
-  "DimensionListName": "Quigley Inc and Sons",
-  "DimensionListId": 105,
-  "DimensionListLabel": "id",
+  "DimensionListField": "qui",
+  "DimensionListName": "Spinka-Kirlin",
+  "DimensionListId": 388,
+  "DimensionListLabel": "numquam",
   "SelectedDimensions": [
-    904,
-    54
+    173,
+    375
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 259
     }
   }
 }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Harvey-Luettgen",
+  "TaskName": "Schulist-Gibson",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Rohan, Gottlieb and Rau",
-    "AssociateId": 605,
-    "DetailsTable": 302,
-    "DetailsRecord": 975,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 771,
+    "Name": "Jewess Group",
+    "AssociateId": 366,
+    "DetailsTable": 887,
+    "DetailsRecord": 963,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "quis"
+      "ParameterObject1": "blanditiis",
+      "ParameterObject2": "quas"
     },
-    "LastStarted": "2013-12-11T03:31:25.6496314+01:00",
-    "Created": "2021-11-16T03:31:25.6496314+01:00",
-    "StartCount": 285,
-    "DatabaseSerialNumber": "1056523",
-    "Context": "dolorum",
-    "Result": "ipsam",
+    "LastStarted": "2019-11-13T03:24:47.2520803+01:00",
+    "Created": "2003-03-13T03:24:47.2520803+01:00",
+    "StartCount": 612,
+    "DatabaseSerialNumber": "959451",
+    "Context": "unde",
+    "Result": "quia",
     "State": "All",
-    "Description": "Proactive radical focus group",
-    "Response": "quibusdam",
-    "Request": "a",
-    "ProgressDescription": "Re-contextualized attitude-oriented emulation",
-    "ProgressPercent": 232,
-    "FileName": "Jast-Hahn",
+    "Description": "Proactive logistical project",
+    "Response": "facere",
+    "Request": "et",
+    "ProgressDescription": "User-centric eco-centric approach",
+    "ProgressPercent": 137,
+    "FileName": "Gerhold-Cartwright",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 20
       }
     }
   }

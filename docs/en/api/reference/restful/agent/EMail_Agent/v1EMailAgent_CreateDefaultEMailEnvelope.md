@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 722,
-  "MessageId": "consequatur",
-  "Subject": "ullam",
+  "ServerId": 724,
+  "MessageId": "dolores",
+  "Subject": "voluptas",
   "From": null,
   "To": [
     {
-      "ContactId": 271,
-      "ContactName": "McKenzie-Bergnaum",
-      "PersonId": 416,
-      "PersonName": "Langosh, Schroeder and Orn",
-      "AssociateId": 350,
-      "Address": "velit",
-      "EmailId": 313,
+      "ContactId": 882,
+      "ContactName": "Hayes-Nitzsche",
+      "PersonId": 505,
+      "PersonName": "Roberts-Kub",
+      "AssociateId": 204,
+      "Address": "ut",
+      "EmailId": 676,
       "DuplicatePersonIds": [
-        682,
-        113
+        990,
+        128
       ],
-      "Name": "Spinka-Padberg",
+      "Name": "Grady Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldLength": 140
         }
       }
     }
   ],
-  "Sent": "2014-06-11T03:31:26.4488627+02:00",
+  "Sent": "2006-03-21T03:24:47.7363985+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 324,
+  "Size": 213,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldLength": 148
     }
   }
 }

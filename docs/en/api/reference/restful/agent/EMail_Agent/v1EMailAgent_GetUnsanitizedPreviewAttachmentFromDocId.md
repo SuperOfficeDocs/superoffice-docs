@@ -91,8 +91,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 379,
-  "AttachmentId": "repudiandae"
+  "DocId": 7,
+  "AttachmentId": "sint"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual systemic orchestration",
-  "Filename": "ipsum",
-  "Size": 779,
-  "Type": "a",
-  "Encoding": "quia",
-  "Id": "soluta",
-  "Disposition": "aperiam",
-  "IsSafeFileExtension": true,
+  "Description": "Innovative dedicated moratorium",
+  "Filename": "nesciunt",
+  "Size": 406,
+  "Type": "autem",
+  "Encoding": "tempore",
+  "Id": "sed",
+  "Disposition": "voluptatum",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

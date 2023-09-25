@@ -82,7 +82,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 652,
-  "ERPPriceListKey": "sequi",
-  "QuoteConnectionId": 969,
-  "Name": "Morissette, Fahey and Lynch",
-  "Description": "Sharable stable process improvement",
-  "Currency": "aut",
-  "CurrencyName": "Hartmann, Upton and Fisher",
-  "ValidFrom": "2015-03-02T03:31:33.696079+01:00",
-  "ValidTo": "2020-05-24T03:31:33.696079+02:00",
-  "IsActive": true,
+  "PriceListId": 991,
+  "ERPPriceListKey": "fugiat",
+  "QuoteConnectionId": 880,
+  "Name": "Koss, Windler and Frami",
+  "Description": "Intuitive radical approach",
+  "Currency": "quasi",
+  "CurrencyName": "Ward LLC",
+  "ValidFrom": "2021-04-24T03:24:52.3025813+02:00",
+  "ValidTo": "2017-01-26T03:24:52.3025813+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 704
     }
   },
   "_Links": {

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Greenholt LLC",
-    "ToolTip": "Illo culpa et libero ea adipisci.",
+    "Id": 696,
+    "Name": "Beier LLC",
+    "ToolTip": "Dolorem sunt amet autem quidem voluptas.",
     "Deleted": false,
-    "Rank": 587,
-    "Type": "ut",
-    "ColorBlock": 17,
-    "IconHint": "facilis",
+    "Rank": 905,
+    "Type": "quis",
+    "ColorBlock": 902,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2011-05-26T03:31:33.900328+02:00",
+    "LastChanged": "2004-12-10T03:24:52.4275712+01:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Dibbert LLC",
-        "ToolTip": "Neque quia voluptatem explicabo quia ipsum beatae rerum.",
+        "Id": 787,
+        "Name": "Hackett, Durgan and Feest",
+        "ToolTip": "Rerum voluptas aperiam corrupti ut.",
         "Deleted": false,
-        "Rank": 745,
-        "Type": "sunt",
-        "ColorBlock": 626,
-        "IconHint": "quia",
+        "Rank": 667,
+        "Type": "ipsum",
+        "ColorBlock": 774,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2015-12-30T03:31:33.900328+01:00",
+        "LastChanged": "2019-11-29T03:24:52.4275712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "sed",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Prof. Trevion Lisandro Dach PhD",
+        "FullName": "Gordon Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 429
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quidem",
+    "ExtraInfo": "labore",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Albert Gislason",
+    "FullName": "Chanelle Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 85
       }
     }
   }

@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    88,
-    920
+    911,
+    478
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Harvey-Bruen",
-    "AssociateId": 972,
-    "DetailsTable": 289,
-    "DetailsRecord": 780,
-    "IsSystemTask": true,
+    "Id": 537,
+    "Name": "Lockman LLC",
+    "AssociateId": 266,
+    "DetailsTable": 941,
+    "DetailsRecord": 832,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptas",
-      "ParameterObject2": "voluptatem"
+      "ParameterObject1": "dolor",
+      "ParameterObject2": "dolor"
     },
-    "LastStarted": "2013-06-06T03:31:25.6496314+02:00",
-    "Created": "2019-02-20T03:31:25.6496314+01:00",
-    "StartCount": 48,
-    "DatabaseSerialNumber": "597378",
-    "Context": "aut",
-    "Result": "quis",
+    "LastStarted": "2021-08-29T03:24:47.2520803+02:00",
+    "Created": "2011-04-02T03:24:47.2520803+02:00",
+    "StartCount": 653,
+    "DatabaseSerialNumber": "1225166",
+    "Context": "rerum",
+    "Result": "accusamus",
     "State": "All",
-    "Description": "Profit-focused regional hub",
-    "Response": "est",
-    "Request": "sapiente",
-    "ProgressDescription": "Cloned background intranet",
-    "ProgressPercent": 358,
-    "FileName": "Stark, Schmitt and Deckow",
+    "Description": "Upgradable uniform firmware",
+    "Response": "quae",
+    "Request": "deleniti",
+    "ProgressDescription": "Monitored eco-centric application",
+    "ProgressPercent": 776,
+    "FileName": "Gaylord-Rosenbaum",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 973
       }
     }
   }

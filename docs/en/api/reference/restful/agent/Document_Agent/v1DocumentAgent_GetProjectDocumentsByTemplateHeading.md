@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 825,
-  "StartTime": "2018-12-10T03:31:26.0583393+01:00",
-  "EndTime": "2000-07-30T03:31:26.0583393+02:00",
-  "Count": 930,
-  "TemplateHeadingId": 288
+  "ProjectId": 509,
+  "StartTime": "2020-08-26T03:24:47.5176724+02:00",
+  "EndTime": "2008-06-14T03:24:47.5176724+02:00",
+  "Count": 604,
+  "TemplateHeadingId": 467
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 553,
+    "DocumentId": 638,
     "Attention": "consequatur",
-    "Header": "blanditiis",
-    "Name": "Romaguera-Adams",
-    "OurRef": "facilis",
-    "YourRef": "perspiciatis",
-    "Description": "Networked zero tolerance time-frame",
-    "DocumentTemplate": "est",
-    "IsPublished": true,
-    "PersonId": 643,
-    "PersonFullName": "Lois Kuvalis",
-    "AssociateFullName": "Ms. Emmanuelle Elena Murray IV",
-    "ContactId": 636,
-    "ContactName": "Gerhold Inc and Sons",
-    "ProjectId": 785,
-    "ProjectName": "Kozey LLC",
-    "AssociateId": 501,
-    "Snum": 292,
-    "SaleId": 449,
-    "SaleName": "Bartell-Lakin",
+    "Header": "fugiat",
+    "Name": "Donnelly Group",
+    "OurRef": "vitae",
+    "YourRef": "culpa",
+    "Description": "Reverse-engineered secondary emulation",
+    "DocumentTemplate": "eveniet",
+    "IsPublished": false,
+    "PersonId": 177,
+    "PersonFullName": "Lysanne Kautzer",
+    "AssociateFullName": "Dudley Glover I",
+    "ContactId": 25,
+    "ContactName": "Simonis Group",
+    "ProjectId": 207,
+    "ProjectName": "Ward LLC",
+    "AssociateId": 275,
+    "Snum": 156,
+    "SaleId": 9,
+    "SaleName": "Schiller, Waters and Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 461
+        "FieldType": "System.Int32",
+        "FieldLength": 329
       }
     }
   }

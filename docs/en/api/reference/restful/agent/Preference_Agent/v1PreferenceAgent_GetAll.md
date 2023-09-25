@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 816,
-    "Section": "consequuntur",
-    "Key": "consequatur",
-    "Name": "Gottlieb-Yost",
+    "PrefDescId": 593,
+    "Section": "libero",
+    "Key": "officiis",
+    "Name": "Kassulke, Renner and Greenfelder",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Visionary demand-driven strategy",
+    "Description": "Profound cohesive ability",
     "IsBuiltin": false,
-    "TableName": "Von, Simonis and Ledner",
-    "UserDefinedListId": 925,
-    "Rank": 465,
-    "SubGroup": "ut",
-    "MinLevel": 666,
-    "MaxValue": 830,
-    "MinValue": 3,
-    "RequiredLicense": "ut",
+    "TableName": "Lesch LLC",
+    "UserDefinedListId": 908,
+    "Rank": 414,
+    "SubGroup": "itaque",
+    "MinLevel": 778,
+    "MaxValue": 434,
+    "MinValue": 892,
+    "RequiredLicense": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 433
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 869,
-  "Name": "Macejkovic-Gutkowski",
-  "Tooltip": "eligendi",
+  "Id": 932,
+  "Name": "Stracke-Bashirian",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 459,
+  "Rank": 180,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ullam",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Walter Group",
-  "Tooltip": "dolor",
+  "Id": 141,
+  "Name": "Breitenberg, Kris and Weissnat",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 371,
+  "Rank": 944,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "esse",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 246
     }
   }
 }

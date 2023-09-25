@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fritsch, Jones and Lynch"
+  "ApplicationName": "McDermott Group"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 535,
-    "Name": "Thiel, Rosenbaum and Mueller",
-    "CreatedDate": "2019-05-08T03:31:26.589451+02:00",
-    "UpdatedDate": "2023-08-23T03:31:26.589451+02:00",
-    "AssociateFullName": "Jaeden Jaskolski",
-    "CreatedBy": "quaerat",
-    "UpdatedBy": "non",
-    "DeviceIdentifier": "itaque",
-    "ForeignAppId": 454,
+    "ForeignDeviceId": 417,
+    "Name": "Ziemann Group",
+    "CreatedDate": "2023-08-08T03:24:47.8145137+02:00",
+    "UpdatedDate": "1997-03-29T03:24:47.8145137+01:00",
+    "AssociateFullName": "Anastacio Farrell",
+    "CreatedBy": "placeat",
+    "UpdatedBy": "inventore",
+    "DeviceIdentifier": "aliquam",
+    "ForeignAppId": 154,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldType": "System.String",
+        "FieldLength": 893
       }
     }
   }

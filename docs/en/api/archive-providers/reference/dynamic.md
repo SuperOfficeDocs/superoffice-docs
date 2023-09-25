@@ -13,14 +13,13 @@ so.envir: onsite, online
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.DotSyntaxProvider">SuperOffice.CRM.ArchiveLists.DotSyntaxProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
-| Name | Description |
-| ---- | ----- |
+
+See <xref:rest_api_search_dynamic> for more information.
 
 ## Supported Columns
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
-|getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
-|getNoRows|bool|GetNone: Do not get any rows from the archive|  |
+
+Columns are defined by the caller. See <xref:rest_api_search_dynamic> for more information.
+
 
 ## Sample
 

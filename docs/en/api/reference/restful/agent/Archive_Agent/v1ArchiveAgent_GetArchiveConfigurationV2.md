@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kuvalis, Green and Klocko",
-  "ProviderName": "Frami-Bogisich",
-  "Context": "dolor",
-  "OwnerKeys": "quo"
+  "GuiName": "Daugherty, Ruecker and Brekke",
+  "ProviderName": "Sauer-Sauer",
+  "Context": "dolores",
+  "OwnerKeys": "eos"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Frami Group",
-      "DisplayTooltip": "ut",
-      "DisplayType": "atque",
+      "DisplayName": "Reynolds, Windler and Lueilwitz",
+      "DisplayTooltip": "aut",
+      "DisplayType": "ipsum",
       "CanOrderBy": false,
-      "Name": "Berge-Auer",
+      "Name": "Berge-Muller",
       "CanRestrictBy": false,
-      "RestrictionType": "possimus",
-      "RestrictionListName": "Bogan Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "minus",
-      "Width": "vitae",
-      "IconHint": "ut",
-      "HeadingIconHint": "magni"
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Crona-Bode",
+      "IsVisible": false,
+      "ExtraInfo": "eos",
+      "Width": "laboriosam",
+      "IconHint": "libero",
+      "HeadingIconHint": "nam"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 515,
-      "Name": "Green, Smith and Rice",
-      "ToolTip": "Doloremque vero adipisci fuga.",
+      "Id": 700,
+      "Name": "Moore, Hansen and Moore",
+      "ToolTip": "Exercitationem voluptatibus eius impedit ut sint.",
       "Deleted": false,
-      "Rank": 522,
-      "Type": "enim",
-      "ColorBlock": 1001,
-      "IconHint": "eos",
+      "Rank": 666,
+      "Type": "omnis",
+      "ColorBlock": 977,
+      "IconHint": "necessitatibus",
       "Selected": false,
-      "LastChanged": "2021-07-01T03:31:25.6027555+02:00",
+      "LastChanged": "2013-11-01T03:24:47.220828+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "totam",
-      "StyleHint": "doloribus",
-      "Hidden": false,
-      "FullName": "Gia Berge",
+      "ExtraInfo": "est",
+      "StyleHint": "reiciendis",
+      "Hidden": true,
+      "FullName": "Prof. Vella Sydnee Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 170
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Bins Inc and Sons",
+      "Name": "Metz-Schmitt",
       "Direction": "ASC"
     },
     {
-      "Name": "Bins Inc and Sons",
+      "Name": "Metz-Schmitt",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "porro",
+  "OwnerKeys": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldLength": 59
     }
   }
 }

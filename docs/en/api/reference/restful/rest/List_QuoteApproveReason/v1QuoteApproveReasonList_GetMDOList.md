@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=non
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=distinctio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Willms, Ebert and Abernathy",
-    "ToolTip": "Et recusandae accusamus consequatur magni autem.",
+    "Id": 782,
+    "Name": "Emmerich, Gutmann and Pouros",
+    "ToolTip": "Perferendis perspiciatis consequatur placeat facilis.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "quis",
+    "Rank": 664,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Lebsack Group",
-        "ToolTip": "Beatae eligendi in.",
+        "Id": 934,
+        "Name": "Berge-Hegmann",
+        "ToolTip": "Qui provident sunt et quia sequi maxime at.",
         "Deleted": false,
-        "Rank": 558,
-        "Type": "fuga",
+        "Rank": 102,
+        "Type": "labore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 818,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "eaque",
-        "FullName": "Fletcher Bednar",
+        "IconHint": "facilis",
+        "ColorBlock": 491,
+        "ExtraInfo": "molestias",
+        "StyleHint": "et",
+        "FullName": "Patsy Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 726
+            "FieldLength": 737
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 844,
-    "ExtraInfo": "earum",
-    "StyleHint": "rerum",
-    "FullName": "Mrs. Andreane Rosie Gislason",
+    "IconHint": "voluptas",
+    "ColorBlock": 292,
+    "ExtraInfo": "distinctio",
+    "StyleHint": "excepturi",
+    "FullName": "Jordy Batz V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

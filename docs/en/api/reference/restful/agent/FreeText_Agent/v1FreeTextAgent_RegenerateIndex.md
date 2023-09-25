@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Anderson-King",
-  "AssociateId": 347,
-  "DetailsTable": 589,
-  "DetailsRecord": 117,
+  "Id": 325,
+  "Name": "Williamson Inc and Sons",
+  "AssociateId": 147,
+  "DetailsTable": 818,
+  "DetailsRecord": 631,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "esse",
-    "ParameterObject2": "dolor"
+    "ParameterObject1": "voluptatem",
+    "ParameterObject2": "dolorem"
   },
-  "LastStarted": "2002-09-11T03:31:26.6050723+02:00",
-  "Created": "1997-01-16T03:31:26.6050723+01:00",
-  "StartCount": 537,
-  "DatabaseSerialNumber": "1304948",
-  "Context": "qui",
-  "Result": "sequi",
+  "LastStarted": "1999-01-25T03:24:47.8301403+01:00",
+  "Created": "1998-10-24T03:24:47.8301403+02:00",
+  "StartCount": 706,
+  "DatabaseSerialNumber": "1101607",
+  "Context": "nisi",
+  "Result": "dolorum",
   "State": "All",
-  "Description": "Expanded web-enabled task-force",
-  "Response": "ipsum",
-  "Request": "debitis",
-  "ProgressDescription": "Assimilated even-keeled info-mediaries",
-  "ProgressPercent": 681,
-  "FileName": "Strosin Group",
+  "Description": "Mandatory cohesive success",
+  "Response": "laboriosam",
+  "Request": "sunt",
+  "ProgressDescription": "Automated contextually-based capability",
+  "ProgressPercent": 374,
+  "FileName": "Gorczany-Dare",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 519
     }
   }
 }

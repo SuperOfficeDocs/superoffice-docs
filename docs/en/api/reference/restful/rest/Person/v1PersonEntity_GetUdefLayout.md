@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 899,
-    "ColumnId": 395,
-    "FieldDefault": "accusantium",
-    "FieldHeight": 126,
-    "FieldLabel": "inventore",
-    "FieldLeft": 472,
-    "FieldTop": 791,
+    "UDefFieldId": 154,
+    "ColumnId": 46,
+    "FieldDefault": "facere",
+    "FieldHeight": 630,
+    "FieldLabel": "minima",
+    "FieldLeft": 296,
+    "FieldTop": 383,
     "FieldType": "Checkbox",
-    "FieldWidth": 328,
-    "FormatMask": "unde",
-    "HideLabel": true,
+    "FieldWidth": 234,
+    "FormatMask": "accusamus",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 895,
-    "LabelLeft": 171,
-    "LabelTop": 869,
-    "LabelWidth": 886,
-    "LastVersionId": 309,
-    "ListTableId": 527,
-    "IsMandatory": false,
+    "LabelHeight": 900,
+    "LabelLeft": 273,
+    "LabelTop": 852,
+    "LabelWidth": 578,
+    "LastVersionId": 415,
+    "ListTableId": 518,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 141,
-    "ProgId": "magnam",
+    "Page1LineNo": 357,
+    "ProgId": "quia",
     "IsReadOnly": false,
-    "ShortLabel": "consequatur",
-    "TabOrder": 121,
-    "TextLength": 181,
-    "Tooltip": "molestiae",
-    "UdefIdentity": 156,
-    "UDListDefinitionId": 207,
+    "ShortLabel": "impedit",
+    "TabOrder": 60,
+    "TextLength": 113,
+    "Tooltip": "ut",
+    "UdefIdentity": 743,
+    "UDListDefinitionId": 572,
     "Justification": "Center",
-    "Version": 911,
-    "TemplateVariableName": "Toy, Anderson and Purdy",
+    "Version": 148,
+    "TemplateVariableName": "Howe Group",
     "HasBeenPublished": false,
-    "MdoListName": "Daniel Group",
+    "MdoListName": "Moore-Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 506
       }
     }
   }

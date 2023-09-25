@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Berge-Bergstrom",
-  "AssociateId": 807
+  "TableName": "Kutch, Stiedemann and Runte",
+  "AssociateId": 782
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Hirthe-McGlynn",
-    "RecordId": 853,
-    "AssociateId": 296,
-    "ExtraInfo": "iste",
-    "Rank": 850,
+    "TableName": "Block-Cassin",
+    "RecordId": 999,
+    "AssociateId": 367,
+    "ExtraInfo": "est",
+    "Rank": 301,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldLength": 40
       }
     }
   }

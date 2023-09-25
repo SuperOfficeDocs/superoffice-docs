@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 152,
-  "Name": "Bergnaum-Collier",
-  "Description": "De-engineered zero administration emulation",
+  "ReportLabelLayoutId": 377,
+  "Name": "Runte-Toy",
+  "Description": "Profit-focused composite adapter",
   "Orientation": "Landscape",
-  "PaperWidth": 933,
-  "PaperHeight": 693,
-  "LeftMargin": 256,
-  "RightMargin": 322,
-  "TopMargin": 887,
-  "BottomMargin": 791,
-  "CountColumns": 567,
-  "CountRows": 171,
+  "PaperWidth": 473,
+  "PaperHeight": 31,
+  "LeftMargin": 450,
+  "RightMargin": 455,
+  "TopMargin": 722,
+  "BottomMargin": 969,
+  "CountColumns": 665,
+  "CountRows": 299,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 28
     }
   }
 }

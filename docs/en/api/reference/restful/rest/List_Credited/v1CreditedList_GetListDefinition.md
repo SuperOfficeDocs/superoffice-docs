@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "Nicolas, Morar and Bruen",
-  "Tooltip": "sapiente",
-  "Deleted": true,
-  "Rank": 919,
-  "IsCustomList": false,
+  "Id": 416,
+  "Name": "Grady Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 620,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldLength": 873
     }
   },
   "_Links": {

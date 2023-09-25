@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 622,
-    "Name": "Leffler, Purdy and Howe",
-    "CurrencyId": 387,
-    "EnglishName": "Mann-Tromp",
+    "CountryId": 538,
+    "Name": "Bradtke LLC",
+    "CurrencyId": 431,
+    "EnglishName": "Goldner, Ritchie and Altenwerth",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Persevering fault-tolerant Graphical User Interface",
-    "OrgNrText": "676511",
-    "InterAreaPrefix": "ex",
-    "DialInPrefix": "autem",
-    "ZipPrefix": "quisquam",
-    "DomainName": "Blick Group",
-    "AddressLayoutId": 13,
-    "DomesticAddressLayoutId": 700,
-    "ForeignAddressLayoutId": 96,
-    "Rank": 415,
-    "Tooltip": "corrupti",
-    "Deleted": true,
+    "ImageDescription": "Stand-alone client-driven database",
+    "OrgNrText": "730333",
+    "InterAreaPrefix": "incidunt",
+    "DialInPrefix": "totam",
+    "ZipPrefix": "nobis",
+    "DomainName": "Jerde-Kutch",
+    "AddressLayoutId": 507,
+    "DomesticAddressLayoutId": 364,
+    "ForeignAddressLayoutId": 929,
+    "Rank": 646,
+    "Tooltip": "aut",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldType": "System.Int32",
+        "FieldLength": 455
       }
     }
   }

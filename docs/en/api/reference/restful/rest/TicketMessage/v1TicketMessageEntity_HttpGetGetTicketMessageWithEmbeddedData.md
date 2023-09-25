@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 250,
+  "EjMessageId": 736,
   "Ticket": null,
-  "CreatedAt": "2012-02-21T03:31:33.2406198+01:00",
+  "CreatedAt": "2009-11-19T03:24:52.0057419+01:00",
   "CreatedBy": null,
-  "Author": "quod",
+  "Author": "quia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptas",
-  "TimeSpent": 533,
-  "Body": "a",
-  "HtmlBody": "qui",
-  "EmailHeader": "jules@welch.uk",
-  "DebugInfo": "est",
-  "MailSorter": "facere",
+  "MessageId": "sint",
+  "TimeSpent": 839,
+  "Body": "assumenda",
+  "HtmlBody": "ut",
+  "EmailHeader": "zelma.denesik@kiehn.co.uk",
+  "DebugInfo": "reprehenderit",
+  "MailSorter": "non",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consectetur",
+  "SearchTitle": "eos",
   "MessageHeaders": [
     {
-      "Id": 738,
-      "Name": "Kuvalis Inc and Sons",
-      "Value": "repellendus",
+      "Id": 835,
+      "Name": "Anderson LLC",
+      "Value": "odit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,49 +136,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 426
+          "FieldLength": 130
         }
       }
     }
   ],
   "Important": false,
-  "Language": "consequatur",
-  "Sentiment": 987,
-  "SentimentConfidence": 832,
+  "Language": "ut",
+  "Sentiment": 44,
+  "SentimentConfidence": 386,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 665,
-      "Name": "Walsh, Klein and Daugherty",
-      "ContentType": "velit",
-      "AttSize": 974,
-      "InlineImage": false,
-      "ContentId": "quos",
-      "AuthKey": "cumque",
+      "AttachmentId": 858,
+      "Name": "Boehm LLC",
+      "ContentType": "voluptas",
+      "AttSize": 42,
+      "InlineImage": true,
+      "ContentId": "id",
+      "AuthKey": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 475
+          "FieldType": "System.Int32",
+          "FieldLength": 802
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 149
     }
   }
 }

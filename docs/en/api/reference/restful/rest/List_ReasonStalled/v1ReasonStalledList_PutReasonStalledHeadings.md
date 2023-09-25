@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 238,
-    "Name": "Maggio Group",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "Rank": 454,
-    "UdListDefinitionId": 455
+    "HeadingId": 758,
+    "Name": "Sipes LLC",
+    "Tooltip": "rem",
+    "Deleted": false,
+    "Rank": 658,
+    "UdListDefinitionId": 646
   },
   {
-    "HeadingId": 238,
-    "Name": "Maggio Group",
-    "Tooltip": "culpa",
-    "Deleted": true,
-    "Rank": 454,
-    "UdListDefinitionId": 455
+    "HeadingId": 758,
+    "Name": "Sipes LLC",
+    "Tooltip": "rem",
+    "Deleted": false,
+    "Rank": 658,
+    "UdListDefinitionId": 646
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 7,
-    "Name": "McGlynn-Swaniawski",
-    "Tooltip": "consequatur",
+    "HeadingId": 801,
+    "Name": "Parisian Inc and Sons",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "Rank": 809,
-    "UdListDefinitionId": 515,
+    "Rank": 602,
+    "UdListDefinitionId": 163,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 652
       }
     }
   }

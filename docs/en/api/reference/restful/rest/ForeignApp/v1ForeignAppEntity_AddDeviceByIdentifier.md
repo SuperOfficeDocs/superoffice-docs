@@ -69,7 +69,7 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 564,
-  "Name": "Jerde-McCullough",
-  "CreatedDate": "1997-03-07T03:31:32.6289016+01:00",
-  "UpdatedDate": "1996-05-10T03:31:32.6289016+02:00",
-  "AssociateFullName": "Mr. Mackenzie Zelma Klocko MD",
-  "CreatedBy": "recusandae",
-  "UpdatedBy": "porro",
-  "DeviceIdentifier": "ipsa",
-  "ForeignAppId": 635,
+  "ForeignDeviceId": 273,
+  "Name": "Sawayn LLC",
+  "CreatedDate": "2000-04-18T03:24:51.630601+02:00",
+  "UpdatedDate": "2020-03-02T03:24:51.630601+01:00",
+  "AssociateFullName": "Marquis Zemlak",
+  "CreatedBy": "consequatur",
+  "UpdatedBy": "corrupti",
+  "DeviceIdentifier": "aliquam",
+  "ForeignAppId": 203,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldLength": 980
     }
   }
 }

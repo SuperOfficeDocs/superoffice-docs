@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Grady, Renner and Schowalter",
-    "ToolTip": "Officia ex et error nemo voluptatibus ut ratione.",
-    "Deleted": true,
-    "Rank": 728,
-    "Type": "rerum",
-    "ColorBlock": 270,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2013-07-21T03:31:33.4604945+02:00",
+    "Id": 437,
+    "Name": "Wunsch LLC",
+    "ToolTip": "Dolores eaque asperiores laboriosam officiis est.",
+    "Deleted": false,
+    "Rank": 425,
+    "Type": "aliquam",
+    "ColorBlock": 740,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "1999-12-11T03:24:52.1463474+01:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Barrows Inc and Sons",
-        "ToolTip": "Quis dolorem qui consectetur.",
-        "Deleted": false,
-        "Rank": 201,
-        "Type": "id",
-        "ColorBlock": 945,
-        "IconHint": "sint",
+        "Id": 857,
+        "Name": "Hackett-Von",
+        "ToolTip": "Error pariatur.",
+        "Deleted": true,
+        "Rank": 507,
+        "Type": "amet",
+        "ColorBlock": 587,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-04-25T03:31:33.4604945+02:00",
+        "LastChanged": "2021-09-03T03:24:52.1463474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "molestias",
+        "ExtraInfo": "cum",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Arturo Jast II",
+        "FullName": "Dr. Vida Magdalena Lubowitz III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 739
+            "FieldLength": 620
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "iure",
-    "Hidden": true,
-    "FullName": "Amir Deckow",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ex",
+    "Hidden": false,
+    "FullName": "Sigrid Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

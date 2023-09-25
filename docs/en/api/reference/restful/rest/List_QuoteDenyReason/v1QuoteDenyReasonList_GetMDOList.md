@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=ut
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=repudiandae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Ernser, Bergnaum and Marquardt",
-    "ToolTip": "Hic aspernatur repellendus voluptates et.",
+    "Id": 611,
+    "Name": "Brekke-Stokes",
+    "ToolTip": "Dolor adipisci.",
     "Deleted": false,
-    "Rank": 803,
-    "Type": "quia",
+    "Rank": 831,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "O'Keefe LLC",
-        "ToolTip": "Itaque ut et nihil debitis.",
+        "Id": 608,
+        "Name": "Harber Inc and Sons",
+        "ToolTip": "Voluptatibus dignissimos.",
         "Deleted": false,
-        "Rank": 587,
-        "Type": "assumenda",
+        "Rank": 878,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 545,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "consequatur",
-        "FullName": "Athena Fredrick Torp V",
+        "IconHint": "qui",
+        "ColorBlock": 27,
+        "ExtraInfo": "ipsa",
+        "StyleHint": "et",
+        "FullName": "Ophelia Mateo Luettgen DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 971
+            "FieldLength": 947
           }
         }
       }
     ],
-    "IconHint": "totam",
-    "ColorBlock": 731,
-    "ExtraInfo": "sed",
-    "StyleHint": "quo",
-    "FullName": "Mr. Thad Gibson",
+    "IconHint": "sed",
+    "ColorBlock": 546,
+    "ExtraInfo": "eos",
+    "StyleHint": "quas",
+    "FullName": "Miracle Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldType": "System.String",
+        "FieldLength": 785
       }
     }
   }

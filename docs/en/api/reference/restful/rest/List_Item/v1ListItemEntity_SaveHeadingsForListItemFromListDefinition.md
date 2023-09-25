@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Nienow-Beier",
-    "ToolTip": "Beatae suscipit aut cumque voluptatem eum.",
+    "Id": 664,
+    "Name": "Daugherty-Brekke",
+    "ToolTip": "Quod quod officiis laudantium illum odit delectus.",
     "Deleted": false,
-    "Rank": 13,
-    "Type": "provident",
-    "ColorBlock": 105,
-    "IconHint": "provident",
+    "Rank": 984,
+    "Type": "ea",
+    "ColorBlock": 593,
+    "IconHint": "tenetur",
     "Selected": true,
-    "LastChanged": "1998-09-26T03:31:33.4604945+02:00",
+    "LastChanged": "2007-10-03T03:24:52.1463474+02:00",
     "ChildItems": [
       {
-        "Id": 790,
-        "Name": "Bailey, Gulgowski and Huels",
-        "ToolTip": "Aut quod qui magni sed dolor sunt.",
-        "Deleted": true,
-        "Rank": 308,
-        "Type": "ex",
-        "ColorBlock": 911,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2011-08-10T03:31:33.4604945+02:00",
+        "Id": 585,
+        "Name": "Harris, Stanton and Hirthe",
+        "ToolTip": "Qui iure sit voluptas harum.",
+        "Deleted": false,
+        "Rank": 92,
+        "Type": "ea",
+        "ColorBlock": 628,
+        "IconHint": "saepe",
+        "Selected": false,
+        "LastChanged": "2016-05-20T03:24:52.1463474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "unde",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Earnestine Kris"
+        "FullName": "Dr. Asa Rice DDS"
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "dolore",
+    "ExtraInfo": "nobis",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Bette Beier"
+    "FullName": "Dr. Derick Gorczany DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Walker Inc and Sons",
-    "ToolTip": "Ut dolores officiis.",
+    "Id": 30,
+    "Name": "Hoppe LLC",
+    "ToolTip": "Ullam et ut eos.",
     "Deleted": false,
-    "Rank": 196,
-    "Type": "repudiandae",
-    "ColorBlock": 633,
-    "IconHint": "nesciunt",
+    "Rank": 204,
+    "Type": "vel",
+    "ColorBlock": 1000,
+    "IconHint": "delectus",
     "Selected": true,
-    "LastChanged": "2005-04-29T03:31:33.4604945+02:00",
+    "LastChanged": "2006-10-11T03:24:52.1463474+02:00",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Pagac Group",
-        "ToolTip": "Ea eos perferendis quos esse quia.",
-        "Deleted": false,
-        "Rank": 397,
-        "Type": "et",
-        "ColorBlock": 54,
-        "IconHint": "in",
+        "Id": 870,
+        "Name": "Stokes-Zieme",
+        "ToolTip": "Alias rerum facilis sed.",
+        "Deleted": true,
+        "Rank": 607,
+        "Type": "enim",
+        "ColorBlock": 758,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "1998-07-10T03:31:33.4604945+02:00",
+        "LastChanged": "2003-11-15T03:24:52.1463474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "aut",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Ms. Jaeden Jaida Parker IV",
+        "FullName": "Rebekah Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 31
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Ms. Mikel Reggie Hagenes DDS",
+    "ExtraInfo": "officia",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Michael Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldLength": 72
       }
     }
   }

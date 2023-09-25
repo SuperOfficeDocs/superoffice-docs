@@ -75,28 +75,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hackett, Kulas and Kuphal",
+  "ProviderName": "Reynolds, Koch and Bernhard",
   "Restrictions": [
     {
-      "Name": "Stokes-Nikolaus",
-      "Operator": "cupiditate",
+      "Name": "Flatley, Dach and Swift",
+      "Operator": "maxime",
       "Values": [
-        "non",
-        "aperiam"
+        "aliquam",
+        "cupiditate"
       ],
       "DisplayValues": [
-        "adipisci",
-        "earum"
+        "consectetur",
+        "libero"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 760,
+      "InterParenthesis": 550,
       "InterOperator": "And",
-      "UniqueHash": 125
+      "UniqueHash": 527
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  563,
-  303
+  789,
+  65
 ]
 ```

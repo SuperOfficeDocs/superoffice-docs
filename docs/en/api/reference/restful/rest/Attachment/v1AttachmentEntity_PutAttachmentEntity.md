@@ -91,17 +91,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 801,
-  "Name": "Thiel-Rutherford",
-  "ContentType": "sunt",
-  "AttSize": 403,
+  "AttachmentId": 998,
+  "Name": "Gislason-Lang",
+  "ContentType": "dolor",
+  "AttSize": 961,
   "InlineImage": false,
-  "ContentId": "omnis",
-  "AuthKey": "excepturi"
+  "ContentId": "eaque",
+  "AuthKey": "asperiores"
 }
 ```
 
@@ -112,24 +112,24 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 609,
-  "Name": "Blick, Collier and Wiegand",
-  "ContentType": "sapiente",
-  "AttSize": 612,
+  "AttachmentId": 782,
+  "Name": "Sipes, Kilback and Monahan",
+  "ContentType": "ab",
+  "AttSize": 194,
   "InlineImage": false,
-  "ContentId": "ullam",
-  "AuthKey": "et",
+  "ContentId": "atque",
+  "AuthKey": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

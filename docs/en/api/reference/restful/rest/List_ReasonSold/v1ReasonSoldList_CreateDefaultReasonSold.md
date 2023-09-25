@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 645,
-  "Name": "Bergnaum Group",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "UdListDefinitionId": 479,
-  "Rank": 371,
+  "Id": 200,
+  "Name": "Donnelly-Turner",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 371,
+  "Rank": 106,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldType": "System.String",
+      "FieldLength": 739
     }
   }
 }

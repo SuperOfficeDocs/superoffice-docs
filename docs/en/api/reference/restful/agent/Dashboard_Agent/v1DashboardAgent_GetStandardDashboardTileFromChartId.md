@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "nihil"
+  "ChartId": "dolorem"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 954,
-  "Caption": "expedita",
-  "Description": "Integrated national projection",
-  "ChartName": "Fahey, Lang and Beier",
-  "ChartId": "repellat",
-  "IsDefault": true,
-  "AssociateId": 988,
-  "GroupId": 900,
-  "SelectionId": 907,
-  "Config": "et",
+  "DashboardTileId": 645,
+  "Caption": "saepe",
+  "Description": "Right-sized client-server firmware",
+  "ChartName": "Leffler LLC",
+  "ChartId": "sunt",
+  "IsDefault": false,
+  "AssociateId": 668,
+  "GroupId": 543,
+  "SelectionId": 552,
+  "Config": "optio",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Rutherford-Mayer",
-      "Description": "Synchronised modular architecture",
+      "Name": "Stiedemann-Bartoletti",
+      "Description": "Persevering optimal attitude",
       "Type": "Boolean",
-      "ListName": "Hauck, Powlowski and Wisozk",
+      "ListName": "Von Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "quia",
-      "DefaultDataOption": true,
+      "Value": "qui",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 446
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 278,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 642
         }
       }
     },
     {
-      "VisibleId": 278,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 642
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 813
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=708
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=924
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,29 +83,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 498,
-  "Name": "Jacobson-Bashirian",
-  "CreatedDate": "2008-12-22T03:31:26.589451+01:00",
-  "UpdatedDate": "1999-07-14T03:31:26.589451+02:00",
+  "ForeignAppId": 230,
+  "Name": "Jacobs, Schiller and Runolfsson",
+  "CreatedDate": "2006-12-14T03:24:47.8145137+01:00",
+  "UpdatedDate": "2011-02-09T03:24:47.8145137+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 316,
-      "Name": "Rau-Davis",
-      "CreatedDate": "2008-10-24T03:31:26.589451+02:00",
-      "UpdatedDate": "1997-05-12T03:31:26.589451+02:00",
-      "AssociateFullName": "Graciela Stokes",
-      "CreatedBy": "totam",
-      "UpdatedBy": "accusamus",
-      "DeviceIdentifier": "illum",
-      "ForeignAppId": 418,
+      "ForeignDeviceId": 895,
+      "Name": "Harvey, Kreiger and Conn",
+      "CreatedDate": "2004-09-10T03:24:47.8145137+02:00",
+      "UpdatedDate": "2005-04-26T03:24:47.8145137+02:00",
+      "AssociateFullName": "Miss Loyal Towne IV",
+      "CreatedBy": "consectetur",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "nostrum",
+      "ForeignAppId": 508,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldType": "System.String",
+          "FieldLength": 711
         }
       }
     }
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 843
     }
   }
 }

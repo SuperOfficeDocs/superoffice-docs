@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 633,
-    "Name": "Jacobson-Schuppe",
-    "ToolTip": "Dolores molestiae sit.",
+    "Id": 784,
+    "Name": "Terry LLC",
+    "ToolTip": "Aut in aspernatur quo.",
     "Deleted": false,
-    "Rank": 549,
-    "Type": "nam",
-    "ColorBlock": 199,
-    "IconHint": "inventore",
-    "Selected": false,
-    "LastChanged": "1996-09-24T03:31:33.7117545+02:00",
+    "Rank": 272,
+    "Type": "voluptatem",
+    "ColorBlock": 784,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2010-05-15T03:24:52.3025813+02:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Bartell-Gerhold",
-        "ToolTip": "Et nulla doloremque cumque occaecati.",
+        "Id": 231,
+        "Name": "Schmeler-Pfannerstill",
+        "ToolTip": "Iure non id sapiente dolorem illum sunt.",
         "Deleted": false,
-        "Rank": 744,
-        "Type": "dolore",
-        "ColorBlock": 597,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2015-04-16T03:31:33.7117545+02:00",
+        "Rank": 137,
+        "Type": "beatae",
+        "ColorBlock": 860,
+        "IconHint": "numquam",
+        "Selected": true,
+        "LastChanged": "2014-07-21T03:24:52.3025813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "nihil",
+        "ExtraInfo": "non",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Gabriella Nikolaus",
+        "FullName": "Dr. Einar Gottlieb PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 513
+            "FieldType": "System.String",
+            "FieldLength": 364
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "repellendus",
-    "Hidden": false,
-    "FullName": "Mrs. Sheila Leannon MD",
+    "ExtraInfo": "earum",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Wayne O'Reilly IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldType": "System.String",
+        "FieldLength": 753
       }
     }
   }

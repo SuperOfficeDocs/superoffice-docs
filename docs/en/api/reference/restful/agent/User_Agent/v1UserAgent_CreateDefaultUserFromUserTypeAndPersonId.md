@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 601
+  "PersonId": 751
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 300,
-  "Name": "Schinner LLC",
-  "Rank": 668,
-  "Tooltip": "minus",
+  "AssociateId": 2,
+  "Name": "Daniel Inc and Sons",
+  "Rank": 563,
+  "Tooltip": "iusto",
   "LicenseOwners": [
     {
-      "Name": "Robel LLC",
-      "Description": "Virtual assymetric database",
+      "Name": "Nitzsche, Boyle and Bailey",
+      "Description": "Optimized leading edge projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 895
         }
       }
     },
     {
-      "Name": "Robel LLC",
-      "Description": "Virtual assymetric database",
+      "Name": "Nitzsche, Boyle and Bailey",
+      "Description": "Optimized leading edge projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 895
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eum",
-      "Tooltip": "aut",
-      "Id": 693,
-      "Rank": 72,
-      "Deleted": false,
+      "Value": "repellendus",
+      "Tooltip": "labore",
+      "Id": 345,
+      "Rank": 81,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 371
+          "FieldLength": 433
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2010-02-25T03:31:27.810338+01:00",
-  "Lastlogout": "2013-07-21T03:31:27.810338+02:00",
-  "EjUserId": 912,
-  "RequestSignature": "eius",
+  "Deleted": false,
+  "Lastlogin": "2001-11-19T03:24:48.5653818+01:00",
+  "Lastlogout": "2013-02-14T03:24:48.5653818+01:00",
+  "EjUserId": 401,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
       "Value": "quis",
-      "DisplayValue": "et",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldLength": 860
         }
       }
     },
     {
       "Type": null,
       "Value": "quis",
-      "DisplayValue": "et",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 746
+          "FieldLength": 860
         }
       }
     }
   ],
-  "UserName": "Kautzer LLC",
+  "UserName": "Torphy-Cronin",
   "TicketCategories": [
     {
-      "Id": 951,
-      "Name": "Harvey Group",
-      "ToolTip": "Ex cum autem.",
+      "Id": 259,
+      "Name": "Schuster, Stokes and Buckridge",
+      "ToolTip": "Enim est sit quas quo vero quasi.",
       "Deleted": false,
-      "Rank": 600,
-      "Type": "fugit",
+      "Rank": 478,
+      "Type": "officia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 689,
-      "ExtraInfo": "non",
-      "StyleHint": "cum",
-      "FullName": "Ronaldo Ryan Rau II",
+      "IconHint": "facilis",
+      "ColorBlock": 748,
+      "ExtraInfo": "odio",
+      "StyleHint": "sit",
+      "FullName": "Louvenia Altenwerth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 494
+          "FieldLength": 348
         }
       }
     }
   ],
-  "NickName": "Medhurst Group",
+  "NickName": "Rowe, Sawayn and Toy",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "et"
+    "CustomFields1": "vero",
+    "CustomFields2": "consequatur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Koss Inc and Sons",
-      "DisplayName": "Bins Inc and Sons",
-      "Description": "Organic static toolset",
-      "ToolTip": "Accusantium est atque non numquam excepturi deserunt voluptas.",
+      "Name": "Crona, Abshire and Vandervort",
+      "DisplayName": "Windler-Lowe",
+      "Description": "Enhanced radical collaboration",
+      "ToolTip": "Magni architecto.",
       "Actions": "Implicit",
-      "ActionData": "doloremque",
+      "ActionData": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 908
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 809
     }
   }
 }

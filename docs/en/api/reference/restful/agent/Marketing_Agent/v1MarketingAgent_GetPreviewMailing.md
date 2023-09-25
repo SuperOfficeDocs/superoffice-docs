@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 345
+  "ShipmentAddrId": 601
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2021-02-19T03:31:26.7612835+01:00",
+  "SendingTime": "2003-02-16T03:24:47.9238778+01:00",
   "Status": "Blocked",
-  "ShipmentId": 665,
-  "ShipmentDescription": "Balanced explicit orchestration",
-  "FromAddress": "ratione",
-  "ContactId": 609,
-  "ContactName": "Lang-Abernathy",
-  "PersonId": 289,
-  "PersonFullName": "Blair Emard DDS",
-  "ShipmentType": "sit",
-  "MessageId": 404,
-  "MessageSubject": "facere",
-  "DocumentMessageId": 296,
-  "Opened": "1999-05-31T03:31:26.7612835+02:00",
-  "LinkClicks": 185,
+  "ShipmentId": 322,
+  "ShipmentDescription": "Enterprise-wide non-volatile flexibility",
+  "FromAddress": "molestiae",
+  "ContactId": 650,
+  "ContactName": "Koch LLC",
+  "PersonId": 763,
+  "PersonFullName": "Mr. Christophe Stokes",
+  "ShipmentType": "voluptatem",
+  "MessageId": 485,
+  "MessageSubject": "quis",
+  "DocumentMessageId": 489,
+  "Opened": "2018-04-28T03:24:47.9238778+02:00",
+  "LinkClicks": 639,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 2
     }
   }
 }

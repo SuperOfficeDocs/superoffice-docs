@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=06/08/2022 03:31:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/24/2021 03:31:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=255
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/14/2008 03:24:53
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/09/2018 03:24:53
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=724
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 577,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 765,
-  "Name": "Grady, Gutmann and Gerlach",
-  "Description": "Profit-focused systemic concept",
-  "Currency": "doloribus",
-  "CurrencyName": "Walker LLC",
-  "ValidFrom": "1998-01-19T03:31:33.7117545+01:00",
-  "ValidTo": "2008-02-29T03:31:33.7117545+01:00",
-  "IsActive": true,
+  "PriceListId": 272,
+  "ERPPriceListKey": "quod",
+  "QuoteConnectionId": 238,
+  "Name": "Buckridge-Boyle",
+  "Description": "Progressive system-worthy algorithm",
+  "Currency": "ducimus",
+  "CurrencyName": "Willms Group",
+  "ValidFrom": "1998-01-17T03:24:52.3025813+01:00",
+  "ValidTo": "2014-11-11T03:24:52.3025813+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 223
     }
   }
 }

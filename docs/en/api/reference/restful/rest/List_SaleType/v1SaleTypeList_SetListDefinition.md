@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Langosh Inc and Sons",
-  "Tooltip": "ad",
+  "Id": 961,
+  "Name": "Parker LLC",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "Rank": 239,
+  "Rank": 712,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 827,
-  "Name": "Bayer Inc and Sons",
-  "Tooltip": "laboriosam",
+  "Id": 709,
+  "Name": "Sipes Inc and Sons",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 562,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "Rank": 493,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 169
     }
   }
 }

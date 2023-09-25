@@ -107,27 +107,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 716,
-  "PlainMessage": "culpa",
-  "HtmlMessage": "repudiandae",
-  "SmsMessage": "necessitatibus",
-  "Description": "Ergonomic heuristic hierarchy",
-  "Subject": "accusantium",
-  "FolderId": 502,
-  "HeaderField": "dolor",
-  "Design": "vel",
+  "ShipmentMessageId": 556,
+  "PlainMessage": "in",
+  "HtmlMessage": "dignissimos",
+  "SmsMessage": "sed",
+  "Description": "Virtual asynchronous software",
+  "Subject": "iste",
+  "FolderId": 299,
+  "HeaderField": "et",
+  "Design": "dolores",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Integrated incremental attitude",
-  "AccessKey": "deleniti",
-  "DocumentMessage": 219,
-  "Registered": "2002-12-23T03:31:26.7612835+01:00",
-  "RegisteredAssociateId": 453,
-  "Updated": "2011-02-21T03:31:26.7612835+01:00",
-  "UpdatedAssociateId": 718,
-  "UpdatedCount": 987
+  "LongDescription": "Public-key hybrid ability",
+  "AccessKey": "cum",
+  "DocumentMessage": 518,
+  "Registered": "2015-09-15T03:24:47.9238778+02:00",
+  "RegisteredAssociateId": 377,
+  "Updated": "2005-05-29T03:24:47.9238778+02:00",
+  "UpdatedAssociateId": 763,
+  "UpdatedCount": 504
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 905,
-  "PlainMessage": "magnam",
-  "HtmlMessage": "sit",
-  "SmsMessage": "officiis",
-  "Description": "Synergistic intangible algorithm",
-  "Subject": "tempore",
-  "FolderId": 255,
-  "HeaderField": "sunt",
-  "Design": "dolorem",
+  "ShipmentMessageId": 623,
+  "PlainMessage": "et",
+  "HtmlMessage": "iusto",
+  "SmsMessage": "similique",
+  "Description": "Progressive local structure",
+  "Subject": "et",
+  "FolderId": 257,
+  "HeaderField": "eos",
+  "Design": "maxime",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Up-sized uniform solution",
-  "AccessKey": "fuga",
-  "DocumentMessage": 833,
-  "Registered": "2009-02-24T03:31:26.7612835+01:00",
-  "RegisteredAssociateId": 667,
-  "Updated": "2008-06-19T03:31:26.7612835+02:00",
-  "UpdatedAssociateId": 23,
-  "UpdatedCount": 425,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Inverse bottom-line pricing structure",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 736,
+  "Registered": "2009-08-01T03:24:47.9238778+02:00",
+  "RegisteredAssociateId": 300,
+  "Updated": "2014-05-09T03:24:47.9238778+02:00",
+  "UpdatedAssociateId": 490,
+  "UpdatedCount": 1001,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 137
     }
   }
 }

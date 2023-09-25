@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "eum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "eum",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 446,
-  "UniqueId": "placeat",
-  "Name": "Goldner, Abbott and Marquardt",
-  "Description": "Self-enabling bottom-line success",
-  "AssociateId": 534,
-  "Columns": 162,
+  "DashboardId": 667,
+  "UniqueId": "est",
+  "Name": "Smitham Inc and Sons",
+  "Description": "Multi-lateral didactic customer loyalty",
+  "AssociateId": 118,
+  "Columns": 654,
   "Theme": null,
-  "VisibleForAll": 638,
+  "VisibleForAll": 434,
   "VisibleForAssociates": [
     304,
-    923
+    382
   ],
   "VisibleForGroups": [
-    959,
-    41
+    383,
+    72
   ],
-  "PinForAll": 389,
+  "PinForAll": 142,
   "PinForAssociates": [
-    145,
-    125
+    255,
+    675
   ],
   "PinForGroups": [
-    318,
-    227
+    412,
+    964
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 621
+      "FieldLength": 91
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

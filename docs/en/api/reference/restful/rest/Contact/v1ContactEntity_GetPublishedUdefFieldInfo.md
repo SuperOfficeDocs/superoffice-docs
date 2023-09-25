@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 14,
-  "ColumnId": 115,
-  "FieldDefault": "quibusdam",
-  "FieldHeight": 38,
-  "FieldLabel": "optio",
-  "FieldLeft": 124,
-  "FieldTop": 950,
+  "UDefFieldId": 788,
+  "ColumnId": 995,
+  "FieldDefault": "hic",
+  "FieldHeight": 113,
+  "FieldLabel": "quas",
+  "FieldLeft": 618,
+  "FieldTop": 695,
   "FieldType": "Checkbox",
-  "FieldWidth": 764,
-  "FormatMask": "blanditiis",
+  "FieldWidth": 222,
+  "FormatMask": "quas",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 839,
-  "LabelLeft": 450,
-  "LabelTop": 290,
-  "LabelWidth": 65,
-  "LastVersionId": 948,
-  "ListTableId": 264,
+  "IsIndexed": false,
+  "LabelHeight": 397,
+  "LabelLeft": 116,
+  "LabelTop": 620,
+  "LabelWidth": 931,
+  "LastVersionId": 552,
+  "ListTableId": 696,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 438,
-  "ProgId": "ipsum",
-  "IsReadOnly": false,
-  "ShortLabel": "non",
-  "TabOrder": 611,
-  "TextLength": 4,
-  "Tooltip": "delectus",
-  "UdefIdentity": 191,
-  "UDListDefinitionId": 222,
+  "Page1LineNo": 348,
+  "ProgId": "voluptates",
+  "IsReadOnly": true,
+  "ShortLabel": "ea",
+  "TabOrder": 680,
+  "TextLength": 814,
+  "Tooltip": "commodi",
+  "UdefIdentity": 309,
+  "UDListDefinitionId": 791,
   "Justification": "Center",
-  "Version": 292,
-  "TemplateVariableName": "Balistreri-Hane",
+  "Version": 899,
+  "TemplateVariableName": "Prosacco LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Labadie Inc and Sons",
+  "MdoListName": "Klocko LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

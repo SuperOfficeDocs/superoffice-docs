@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 828,
-  "Name": "Abernathy, Morar and Kunde",
+  "ScreenChooserId": 592,
+  "Name": "Connelly-Stehr",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "recusandae",
-  "Source": "quisquam",
-  "Registered": "2000-04-07T03:31:25.9634399+02:00",
-  "RegisteredAssociateId": 253,
-  "Updated": "2021-01-06T03:31:25.9634399+01:00",
-  "UpdatedAssociateId": 73
+  "Enabled": true,
+  "UniqueIdentifier": "voluptas",
+  "Source": "reiciendis",
+  "Registered": "2016-02-27T03:24:47.4708008+01:00",
+  "RegisteredAssociateId": 166,
+  "Updated": "2006-05-30T03:24:47.4708008+02:00",
+  "UpdatedAssociateId": 654
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 510,
-  "Name": "Haag Group",
+  "ScreenChooserId": 478,
+  "Name": "Abshire LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "maiores",
-  "Source": "ratione",
-  "Registered": "2000-10-10T03:31:25.9634399+02:00",
-  "RegisteredAssociateId": 211,
-  "Updated": "2004-05-28T03:31:25.9634399+02:00",
-  "UpdatedAssociateId": 951,
+  "Enabled": true,
+  "UniqueIdentifier": "non",
+  "Source": "quo",
+  "Registered": "2021-08-13T03:24:47.4708008+02:00",
+  "RegisteredAssociateId": 64,
+  "Updated": "2023-04-16T03:24:47.4708008+02:00",
+  "UpdatedAssociateId": 522,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 579
     }
   }
 }

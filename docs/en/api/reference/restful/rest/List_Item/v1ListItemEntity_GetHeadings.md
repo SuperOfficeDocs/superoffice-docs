@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Zboncak-DuBuque",
-    "ToolTip": "Totam ullam nulla.",
-    "Deleted": true,
-    "Rank": 663,
-    "Type": "est",
-    "ColorBlock": 242,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2007-03-29T03:31:33.4604945+02:00",
+    "Id": 639,
+    "Name": "Rippin LLC",
+    "ToolTip": "Qui accusantium voluptas fuga laudantium ea iste ab.",
+    "Deleted": false,
+    "Rank": 63,
+    "Type": "aut",
+    "ColorBlock": 160,
+    "IconHint": "impedit",
+    "Selected": false,
+    "LastChanged": "2010-08-10T03:24:52.1463474+02:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Murray Group",
-        "ToolTip": "Et laborum et autem quia.",
+        "Id": 723,
+        "Name": "Moore Inc and Sons",
+        "ToolTip": "Qui blanditiis in.",
         "Deleted": true,
-        "Rank": 88,
-        "Type": "qui",
-        "ColorBlock": 10,
-        "IconHint": "neque",
-        "Selected": true,
-        "LastChanged": "2011-03-18T03:31:33.4604945+01:00",
+        "Rank": 839,
+        "Type": "est",
+        "ColorBlock": 793,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2005-08-26T03:24:52.1463474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Rashad Britney McGlynn DVM",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Owen Kertzmann II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldLength": 190
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Raven Schinner",
+    "ExtraInfo": "iure",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Mr. Sarah Roob DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 114
       }
     }
   }

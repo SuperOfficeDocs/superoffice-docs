@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 264,
-    "Attention": "doloribus",
-    "Header": "nostrum",
-    "Name": "Brakus, Sipes and Gorczany",
-    "OurRef": "excepturi",
-    "YourRef": "repellendus",
-    "Description": "Vision-oriented scalable paradigm",
-    "DocumentTemplate": "fuga",
-    "IsPublished": true,
-    "PersonId": 695,
-    "PersonFullName": "Prof. Miracle Julia Zboncak",
-    "AssociateFullName": "Miss Elmer Tod Jast DDS",
-    "ContactId": 405,
-    "ContactName": "Goodwin, Predovic and Greenfelder",
-    "ProjectId": 219,
-    "ProjectName": "Schultz-Rau",
-    "AssociateId": 295,
-    "Snum": 612,
-    "SaleId": 135,
-    "SaleName": "Murphy Group",
+    "DocumentId": 716,
+    "Attention": "nisi",
+    "Header": "aspernatur",
+    "Name": "Hermiston Group",
+    "OurRef": "nulla",
+    "YourRef": "atque",
+    "Description": "Compatible exuding website",
+    "DocumentTemplate": "veniam",
+    "IsPublished": false,
+    "PersonId": 961,
+    "PersonFullName": "Ms. Larry Kemmer PhD",
+    "AssociateFullName": "Constantin Emard",
+    "ContactId": 275,
+    "ContactName": "Klein-Waelchi",
+    "ProjectId": 460,
+    "ProjectName": "Rice-Haley",
+    "AssociateId": 790,
+    "Snum": 240,
+    "SaleId": 797,
+    "SaleName": "Botsford-Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldType": "System.String",
+        "FieldLength": 339
       }
     }
   }

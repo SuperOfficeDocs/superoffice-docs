@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 533,
-  "Caption": "vitae",
-  "Description": "Advanced tertiary neural-net",
-  "SelectionId": 212,
+  "DashboardTileId": 470,
+  "Caption": "et",
+  "Description": "Profit-focused human-resource contingency",
+  "SelectionId": 49,
   "VisibleFor": [
     {
-      "VisibleId": 596,
+      "VisibleId": 697,
       "Visibility": "All",
-      "DisplayValue": "incidunt"
+      "DisplayValue": "cumque"
     },
     {
-      "VisibleId": 596,
+      "VisibleId": 697,
       "Visibility": "All",
-      "DisplayValue": "incidunt"
+      "DisplayValue": "cumque"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 36,
-  "Caption": "non",
-  "Description": "Quality-focused motivating task-force",
-  "ChartName": "Hirthe Group",
-  "ChartId": "molestiae",
+  "DashboardTileId": 74,
+  "Caption": "quia",
+  "Description": "Decentralized attitude-oriented groupware",
+  "ChartName": "Grady LLC",
+  "ChartId": "illum",
   "IsDefault": false,
-  "AssociateId": 227,
-  "GroupId": 812,
-  "SelectionId": 177,
-  "Config": "porro",
+  "AssociateId": 802,
+  "GroupId": 272,
+  "SelectionId": 104,
+  "Config": "eveniet",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hills Group",
-      "Description": "Customer-focused dynamic customer loyalty",
+      "Name": "Block LLC",
+      "Description": "Function-based bottom-line parallelism",
       "Type": "Boolean",
-      "ListName": "Farrell-Maggio",
+      "ListName": "Fisher, Hamill and Lesch",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "itaque",
-      "DefaultDataOption": false,
+      "Value": "vitae",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 460
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 414,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldType": "System.String",
+          "FieldLength": 187
         }
       }
     },
     {
-      "VisibleId": 414,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "ad",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 505
+          "FieldType": "System.String",
+          "FieldLength": 187
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 557
     }
   }
 }

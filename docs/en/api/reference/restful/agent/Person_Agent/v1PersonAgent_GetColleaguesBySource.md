@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 971
+  "Count": 229
 }
 ```
 
@@ -132,52 +132,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptas",
-    "PersonId": 210,
-    "Mrmrs": "molestiae",
-    "Firstname": "Rosella",
-    "Lastname": "Hilll",
-    "MiddleName": "Wehner, Hyatt and Reichel",
-    "Title": "maxime",
-    "Description": "Upgradable transitional forecast",
-    "Email": "georgette@baumbach.info",
-    "FullName": "Lawrence Dibbert",
-    "DirectPhone": "717.665.6788 x582",
-    "FormalName": "Batz Inc and Sons",
-    "CountryId": 296,
-    "ContactId": 498,
-    "ContactName": "Gaylord-Carter",
-    "Retired": 696,
-    "Rank": 374,
-    "ActiveInterests": 882,
+    "Position": "et",
+    "PersonId": 256,
+    "Mrmrs": "voluptatem",
+    "Firstname": "Corrine",
+    "Lastname": "Lemke",
+    "MiddleName": "Von-Rosenbaum",
+    "Title": "soluta",
+    "Description": "Cloned disintermediate encryption",
+    "Email": "lula.davis@schummwilkinson.us",
+    "FullName": "Prof. Cathrine Adolphus Gusikowski",
+    "DirectPhone": "1-435-482-1880",
+    "FormalName": "Moen LLC",
+    "CountryId": 516,
+    "ContactId": 677,
+    "ContactName": "Emmerich-Johns",
+    "Retired": 761,
+    "Rank": 825,
+    "ActiveInterests": 284,
     "ContactDepartment": "",
-    "ContactCountryId": 958,
-    "ContactOrgNr": "1056998",
-    "FaxPhone": "771-484-5785 x6420",
-    "MobilePhone": "1-999-875-2569 x51709",
-    "ContactPhone": "(807)303-2243",
-    "AssociateName": "Berge, Rogahn and Beatty",
-    "AssociateId": 468,
+    "ContactCountryId": 125,
+    "ContactOrgNr": "867065",
+    "FaxPhone": "(828)153-6120 x41431",
+    "MobilePhone": "1-913-581-0095",
+    "ContactPhone": "498-582-3594",
+    "AssociateName": "Gulgowski LLC",
+    "AssociateId": 508,
     "UsePersonAddress": false,
-    "ContactFax": "officiis",
-    "Kanafname": "fuga",
-    "Kanalname": "eaque",
-    "Post1": "corporis",
-    "Post2": "est",
-    "Post3": "a",
-    "EmailName": "mia_sanford@gusikowskibergstrom.us",
-    "ContactFullName": "Demetrius Runolfsson III",
-    "ActiveErpLinks": 236,
-    "TicketPriorityId": 441,
-    "SupportLanguageId": 466,
-    "SupportAssociateId": 841,
+    "ContactFax": "ducimus",
+    "Kanafname": "quod",
+    "Kanalname": "similique",
+    "Post1": "minus",
+    "Post2": "iure",
+    "Post3": "aliquid",
+    "EmailName": "rex_hahn@schneider.com",
+    "ContactFullName": "Reese Gottlieb I",
+    "ActiveErpLinks": 396,
+    "TicketPriorityId": 865,
+    "SupportLanguageId": 32,
+    "SupportAssociateId": 941,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 967
       }
     }
   }

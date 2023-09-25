@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductFamily/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Marvin, Dicki and Altenwerth",
-    "ToolTip": "Non beatae autem commodi maiores qui incidunt.",
+    "Id": 80,
+    "Name": "Waters-Bradtke",
+    "ToolTip": "Et commodi.",
     "Deleted": false,
-    "Rank": 440,
-    "Type": "voluptate",
-    "ColorBlock": 62,
-    "IconHint": "temporibus",
-    "Selected": false,
-    "LastChanged": "2005-05-15T03:31:33.7429875+02:00",
+    "Rank": 105,
+    "Type": "itaque",
+    "ColorBlock": 287,
+    "IconHint": "nemo",
+    "Selected": true,
+    "LastChanged": "2018-01-11T03:24:52.3338241+01:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Simonis, Hickle and Roberts",
-        "ToolTip": "Quisquam natus vero.",
-        "Deleted": true,
-        "Rank": 392,
-        "Type": "qui",
-        "ColorBlock": 525,
-        "IconHint": "reiciendis",
+        "Id": 393,
+        "Name": "Quigley-McGlynn",
+        "ToolTip": "Delectus et est.",
+        "Deleted": false,
+        "Rank": 785,
+        "Type": "accusantium",
+        "ColorBlock": 927,
+        "IconHint": "consequuntur",
         "Selected": false,
-        "LastChanged": "2023-05-17T03:31:33.7429875+02:00",
+        "LastChanged": "2002-12-10T03:24:52.3338241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "eos",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Ms. Brett Wolff DDS",
+        "FullName": "Uriel Elinor Larkin II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldType": "System.String",
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "possimus",
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Miss Martina Reilly MD",
+    "FullName": "Corbin Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 344
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Jewess-Kuvalis",
-    "ToolTip": "Neque sequi qui.",
+    "Id": 211,
+    "Name": "Hagenes-Konopelski",
+    "ToolTip": "Ab cupiditate qui aspernatur.",
     "Deleted": false,
-    "Rank": 456,
-    "Type": "voluptas",
-    "ColorBlock": 711,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2015-09-17T03:31:33.3187308+02:00",
+    "Rank": 83,
+    "Type": "esse",
+    "ColorBlock": 974,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2013-10-24T03:24:52.0526089+02:00",
     "ChildItems": [
       {
-        "Id": 236,
-        "Name": "Streich Group",
-        "ToolTip": "Sint et amet omnis.",
+        "Id": 516,
+        "Name": "Davis, Kunze and Cremin",
+        "ToolTip": "Rerum autem autem eligendi.",
         "Deleted": true,
-        "Rank": 806,
-        "Type": "ducimus",
-        "ColorBlock": 562,
-        "IconHint": "sit",
+        "Rank": 56,
+        "Type": "ea",
+        "ColorBlock": 428,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2009-05-06T03:31:33.3187308+02:00",
+        "LastChanged": "2021-10-15T03:24:52.0526089+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Frida Sanford",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "quisquam",
+        "Hidden": true,
+        "FullName": "Rubye Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 134
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Aimee Brekke",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Eladio Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldLength": 412
       }
     }
   }

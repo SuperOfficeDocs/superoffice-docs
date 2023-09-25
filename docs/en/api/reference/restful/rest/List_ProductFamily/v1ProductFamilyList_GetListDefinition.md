@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 498,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 227,
-  "IsCustomList": true,
+  "Id": 635,
+  "Name": "Harris-Kris",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 271,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "UseGroupsAndHeadings": true,
+  "ListType": "corporis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldLength": 51
     }
   },
   "_Links": {

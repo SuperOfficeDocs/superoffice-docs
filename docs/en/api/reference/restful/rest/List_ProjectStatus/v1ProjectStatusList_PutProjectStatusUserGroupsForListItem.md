@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Oberbrunner-D'Amore",
-    "ToolTip": "Nihil eveniet odio repudiandae ducimus quam.",
-    "Deleted": true,
-    "Rank": 354,
-    "Type": "dignissimos",
-    "ColorBlock": 100,
-    "IconHint": "possimus",
+    "Id": 286,
+    "Name": "O'Kon Group",
+    "ToolTip": "Voluptas sapiente occaecati odit aut vitae et.",
+    "Deleted": false,
+    "Rank": 5,
+    "Type": "autem",
+    "ColorBlock": 94,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2008-11-29T03:31:33.7586101+01:00",
+    "LastChanged": "2005-11-23T03:24:52.3494474+01:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "DuBuque-Harber",
-        "ToolTip": "Rerum expedita a et adipisci quis.",
+        "Id": 420,
+        "Name": "Mayer, Harvey and Hirthe",
+        "ToolTip": "At nemo dolor et.",
         "Deleted": true,
-        "Rank": 737,
-        "Type": "consectetur",
-        "ColorBlock": 937,
-        "IconHint": "quisquam",
+        "Rank": 562,
+        "Type": "provident",
+        "ColorBlock": 569,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2020-09-01T03:31:33.7586101+02:00",
+        "LastChanged": "1997-04-06T03:24:52.3494474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "est",
+        "ExtraInfo": "fugit",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Royal Jaleel Boyle I"
+        "FullName": "Loren Hermann"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "hic",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Helena Lexus Deckow Sr."
+    "FullName": "Nola Nitzsche"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Torphy, Hansen and Okuneva",
-    "ToolTip": "Quia et ut nam ipsam.",
+    "Id": 754,
+    "Name": "Bayer LLC",
+    "ToolTip": "Consequatur maxime ut quos similique sit at et.",
     "Deleted": true,
-    "Rank": 900,
-    "Type": "neque",
-    "ColorBlock": 178,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2001-10-05T03:31:33.7586101+02:00",
+    "Rank": 31,
+    "Type": "quas",
+    "ColorBlock": 556,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2019-07-10T03:24:52.3494474+02:00",
     "ChildItems": [
       {
-        "Id": 386,
-        "Name": "Hartmann-Paucek",
-        "ToolTip": "Dolorem sit dolorem omnis id et consectetur.",
-        "Deleted": false,
-        "Rank": 127,
-        "Type": "reprehenderit",
-        "ColorBlock": 248,
-        "IconHint": "iste",
+        "Id": 773,
+        "Name": "Lowe-Rogahn",
+        "ToolTip": "Nihil id nisi voluptas.",
+        "Deleted": true,
+        "Rank": 672,
+        "Type": "cumque",
+        "ColorBlock": 824,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "1998-12-27T03:31:33.7586101+01:00",
+        "LastChanged": "2009-10-09T03:24:52.3494474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Axel Vandervort",
+        "ExtraInfo": "officia",
+        "StyleHint": "eveniet",
+        "Hidden": true,
+        "FullName": "Fabian Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "error",
+    "ExtraInfo": "quis",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Dessie Treutel",
+    "FullName": "Dr. Rylan Grady DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 418
       }
     }
   }

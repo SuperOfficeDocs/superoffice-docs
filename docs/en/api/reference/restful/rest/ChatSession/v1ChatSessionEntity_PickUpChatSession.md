@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 462,
-  "TopicId": 275,
+  "ChatSessionId": 610,
+  "TopicId": 123,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "omnis",
-  "CustomerName": "Kuhlman Group",
-  "CustomerEmail": "brenna@willms.us",
-  "CustomerPhone": "155.966.1416",
+  "CustomerAlias": "veniam",
+  "CustomerHost": "enim",
+  "CustomerName": "Bartoletti, Greenholt and Mraz",
+  "CustomerEmail": "emiliano_zemlak@huel.us",
+  "CustomerPhone": "486-399-9815 x9551",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Cruickshank Group",
+  "CustomerCompanyName": "Kiehn LLC",
   "Status": "Closed",
-  "FirstMessage": "debitis",
-  "LastMessage": "minus",
-  "WhenRequested": "2023-03-06T03:31:32.3321007+01:00",
-  "WhenStarted": "2021-02-09T03:31:32.3321007+01:00",
-  "WhenEnded": "2006-10-23T03:31:32.3321007+02:00",
-  "WhenIdle": "1999-01-17T03:31:32.3321007+01:00",
-  "WhenFetched": "2002-04-21T03:31:32.3321007+02:00",
-  "SessionKey": "doloremque",
-  "InitialQueuePos": 158,
-  "AlertLevel": 776,
-  "Rank": 807,
+  "FirstMessage": "sunt",
+  "LastMessage": "in",
+  "WhenRequested": "1999-04-02T03:24:51.4273279+02:00",
+  "WhenStarted": "2019-09-08T03:24:51.4273279+02:00",
+  "WhenEnded": "2007-12-12T03:24:51.4273279+01:00",
+  "WhenIdle": "2004-09-11T03:24:51.4273279+02:00",
+  "WhenFetched": "2001-08-03T03:24:51.4273279+02:00",
+  "SessionKey": "id",
+  "InitialQueuePos": 795,
+  "AlertLevel": 602,
+  "Rank": 959,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 670,
+  "Rating": 168,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   }
 }

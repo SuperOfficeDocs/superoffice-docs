@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 71,
-  "AttachmentId": "reprehenderit"
+  "MailItemId": 6,
+  "AttachmentId": "ratione"
 }
 ```
 
@@ -100,13 +100,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Operative fresh-thinking leverage",
-  "Filename": "perferendis",
-  "Size": 500,
-  "Type": "aut",
-  "Encoding": "nobis",
-  "Id": "tenetur",
-  "Disposition": "quaerat",
+  "Description": "Decentralized dynamic moratorium",
+  "Filename": "placeat",
+  "Size": 665,
+  "Type": "et",
+  "Encoding": "eius",
+  "Id": "laudantium",
+  "Disposition": "aliquid",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 39
     }
   }
 }

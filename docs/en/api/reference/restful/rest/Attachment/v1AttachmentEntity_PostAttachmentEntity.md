@@ -88,17 +88,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 484,
-  "Name": "Corwin-Zieme",
-  "ContentType": "non",
-  "AttSize": 680,
+  "AttachmentId": 711,
+  "Name": "Kuhn-Ward",
+  "ContentType": "reprehenderit",
+  "AttSize": 548,
   "InlineImage": false,
-  "ContentId": "non",
-  "AuthKey": "vel"
+  "ContentId": "blanditiis",
+  "AuthKey": "earum"
 }
 ```
 
@@ -109,19 +109,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 441,
-  "Name": "Wehner-Kulas",
-  "ContentType": "ratione",
-  "AttSize": 900,
+  "AttachmentId": 129,
+  "Name": "Wisoky, Grady and Heathcote",
+  "ContentType": "dolores",
+  "AttSize": 54,
   "InlineImage": false,
-  "ContentId": "consequatur",
-  "AuthKey": "voluptas",
+  "ContentId": "sed",
+  "AuthKey": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   },
   "_Links": {

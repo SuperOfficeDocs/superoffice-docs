@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 437,
-    "Name": "DuBuque-Hegmann",
-    "Tooltip": "sunt",
+    "HeadingId": 364,
+    "Name": "Ferry LLC",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 17,
-    "UdListDefinitionId": 498
+    "Rank": 846,
+    "UdListDefinitionId": 288
   },
   {
-    "HeadingId": 437,
-    "Name": "DuBuque-Hegmann",
-    "Tooltip": "sunt",
+    "HeadingId": 364,
+    "Name": "Ferry LLC",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 17,
-    "UdListDefinitionId": 498
+    "Rank": 846,
+    "UdListDefinitionId": 288
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "Emmerich-Blick",
-    "Tooltip": "modi",
+    "HeadingId": 252,
+    "Name": "Reichert, Hudson and Satterfield",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 283,
-    "UdListDefinitionId": 817,
+    "Rank": 295,
+    "UdListDefinitionId": 516,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldLength": 985
       }
     }
   }

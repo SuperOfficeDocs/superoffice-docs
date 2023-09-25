@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quia",
-  "ProviderName": "Wiza, Stracke and Kreiger",
-  "StorageKey": "exercitationem",
-  "Context": "illo"
+  "StorageType": "non",
+  "ProviderName": "Sawayn Inc and Sons",
+  "StorageKey": "vel",
+  "Context": "veritatis"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Deckow Group",
-  "Description": "Intuitive object-oriented flexibility",
-  "Rank": 836,
+  "Name": "Welch-Bernhard",
+  "Description": "Streamlined systemic frame",
+  "Rank": 951,
   "Restrictions": [
     {
-      "Name": "Bernier-Zieme",
-      "Operator": "rerum",
+      "Name": "Quitzon-Rath",
+      "Operator": "aspernatur",
       "Values": [
-        "et",
-        "maxime"
+        "voluptas",
+        "ab"
       ],
       "DisplayValues": [
-        "laborum",
-        "qui"
+        "alias",
+        "illum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 361,
+      "InterParenthesis": 579,
       "InterOperator": "And",
-      "UniqueHash": 679
+      "UniqueHash": 424
     }
   ]
 }

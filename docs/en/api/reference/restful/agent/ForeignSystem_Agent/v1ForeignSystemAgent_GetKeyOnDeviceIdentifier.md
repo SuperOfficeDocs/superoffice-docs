@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Champlin, Daugherty and Thiel",
-  "DeviceName": "Daniel Inc and Sons",
-  "DeviceIdentifier": "ipsum",
-  "KeyName": "Hand, Quigley and Schuppe",
-  "TableName": "Braun, Frami and Jakubowski",
-  "RecordId": 289
+  "ApplicationName": "Erdman-Murray",
+  "DeviceName": "Koepp, Kilback and Beer",
+  "DeviceIdentifier": "consequatur",
+  "KeyName": "Kozey-Jakubowski",
+  "TableName": "Weissnat, Hauck and Schaefer",
+  "RecordId": 950
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nihil",
-  "Value": "sequi",
-  "RecordId": 236,
-  "CreatedDate": "2003-11-29T03:31:26.589451+01:00",
-  "UpdatedDate": "2012-10-17T03:31:26.589451+02:00",
-  "UpdatedBy": "consequatur",
-  "CreatedBy": "repellat",
-  "TableName": "Lang LLC",
+  "Key": "dolor",
+  "Value": "temporibus",
+  "RecordId": 349,
+  "CreatedDate": "2013-03-19T03:24:47.8145137+01:00",
+  "UpdatedDate": "1996-06-30T03:24:47.8145137+02:00",
+  "UpdatedBy": "magnam",
+  "CreatedBy": "eveniet",
+  "TableName": "Turcotte-Schamberger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 998
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=120
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=658
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 412,
-  "ERPQuoteAlternativeKey": "voluptas",
-  "QuoteVersionId": 810,
-  "Name": "Sauer-Beer",
-  "Description": "Face to face secondary monitoring",
+  "QuoteAlternativeId": 192,
+  "ERPQuoteAlternativeKey": "asperiores",
+  "QuoteVersionId": 71,
+  "Name": "Keebler Group",
+  "Description": "Object-based analyzing system engine",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 9796.884,
-  "ERPDiscountAmount": 24789.94,
-  "DiscountPercent": 16077.42,
-  "DiscountAmount": 23329.496,
+  "ERPDiscountPercent": 24702.188,
+  "ERPDiscountAmount": 6590.802,
+  "DiscountPercent": 14635.779999999999,
+  "DiscountAmount": 5891.92,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "qui",
-  "VAT": 21812.64,
-  "EarningPercent": 23113.25,
-  "EarningAmount": 3560.2239999999997,
-  "SubTotal": 16782.57,
-  "TotalPrice": 8120.1939999999995,
-  "ExtraField1": "provident",
-  "ExtraField2": "veniam",
-  "ExtraField3": "ad",
-  "ExtraField4": "eligendi",
-  "ExtraField5": "voluptatem",
+  "VATInfo": "similique",
+  "VAT": 13849.145999999999,
+  "EarningPercent": 30359.057999999997,
+  "EarningAmount": 3666.7799999999997,
+  "SubTotal": 23950.028,
+  "TotalPrice": 8775.1999999999989,
+  "ExtraField1": "nobis",
+  "ExtraField2": "incidunt",
+  "ExtraField3": "eaque",
+  "ExtraField4": "ipsam",
+  "ExtraField5": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 472
     }
   }
 }

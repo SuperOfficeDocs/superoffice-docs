@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Bosco, Vandervort and Abbott",
-    "ToolTip": "Fugiat quis occaecati.",
-    "Deleted": true,
-    "Rank": 551,
-    "Type": "aut",
-    "ColorBlock": 315,
-    "IconHint": "autem",
+    "Id": 509,
+    "Name": "Hamill-Schinner",
+    "ToolTip": "Dolorem voluptatem reiciendis neque delectus animi.",
+    "Deleted": false,
+    "Rank": 689,
+    "Type": "accusamus",
+    "ColorBlock": 613,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2008-08-09T03:31:33.7117545+02:00",
+    "LastChanged": "2022-09-10T03:24:52.3025813+02:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Osinski Inc and Sons",
-        "ToolTip": "Voluptate dolorem ut quia aut occaecati similique magnam.",
+        "Id": 80,
+        "Name": "Batz-Rohan",
+        "ToolTip": "Velit velit molestiae exercitationem voluptatibus.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "vel",
-        "ColorBlock": 871,
-        "IconHint": "voluptatem",
+        "Rank": 512,
+        "Type": "est",
+        "ColorBlock": 447,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2011-10-13T03:31:33.7117545+02:00",
+        "LastChanged": "1997-01-22T03:24:52.3025813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Flavie Marks",
+        "ExtraInfo": "iusto",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Una Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 555
+            "FieldLength": 125
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "recusandae",
-    "Hidden": true,
-    "FullName": "Nona Wiegand Sr.",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Mrs. Lonzo Sigmund Mayert MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 62
       }
     }
   }

@@ -79,13 +79,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 73,
-  "Name": "Cormier LLC",
-  "Rank": 886,
-  "Tooltip": "quas",
-  "Deleted": false,
+  "ResourceId": 296,
+  "Name": "Gusikowski Inc and Sons",
+  "Rank": 573,
+  "Tooltip": "omnis",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "velit"
+  "LocationAddress": "itaque"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 914,
-  "Name": "Abbott Group",
-  "Rank": 708,
-  "Tooltip": "natus",
+  "ResourceId": 667,
+  "Name": "Mayert, Bechtelar and Greenholt",
+  "Rank": 273,
+  "Tooltip": "minima",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "molestiae",
+  "IsLocation": true,
+  "LocationAddress": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldLength": 658
     }
   }
 }

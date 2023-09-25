@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Nader-Cartwright",
-  "Comment": "laborum",
-  "StakeholderRoleId": 673,
-  "CountryId": 337,
-  "PersonId": 541,
-  "EmailDescription": "nick.rowe@eichmann.com",
-  "EmailId": 414,
-  "EmailAddress": "arely_denesik@feest.uk",
-  "PhoneId": 173,
-  "ContactName": "Goldner Group",
-  "ContactId": 136,
-  "SaleId": 773,
-  "Mrmrs": "autem",
-  "Firstname": "Pattie",
-  "MiddleName": "Walter, Moen and Daniel",
-  "Lastname": "Altenwerth",
-  "SaleStakeholderId": 569,
-  "Rank": 592,
-  "Phone": "(626)854-6537 x63784",
+  "StakeholderRoleName": "Leffler, Harris and Breitenberg",
+  "Comment": "quia",
+  "StakeholderRoleId": 662,
+  "CountryId": 634,
+  "PersonId": 790,
+  "EmailDescription": "lee.nicolas@bahringer.co.uk",
+  "EmailId": 609,
+  "EmailAddress": "cierra.cormier@hermiston.us",
+  "PhoneId": 741,
+  "ContactName": "Renner-Bailey",
+  "ContactId": 610,
+  "SaleId": 263,
+  "Mrmrs": "non",
+  "Firstname": "Kallie",
+  "MiddleName": "Ullrich LLC",
+  "Lastname": "Larson",
+  "SaleStakeholderId": 186,
+  "Rank": 164,
+  "Phone": "271-188-6113",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 104
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

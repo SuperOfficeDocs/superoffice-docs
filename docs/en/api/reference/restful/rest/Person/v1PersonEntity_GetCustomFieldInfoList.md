@@ -67,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Connelly, Daniel and Dietrich",
-    "DisplayName": "Green-Trantow",
-    "Description": "Decentralized well-modulated customer loyalty",
-    "ShortLabel": "sit",
+    "FieldName": "Becker, Purdy and Zulauf",
+    "DisplayName": "Wolff-Osinski",
+    "Description": "Polarised methodical algorithm",
+    "ShortLabel": "eius",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 880,
-    "TemplateVariableName": "Renner LLC"
+    "Rank": 615,
+    "TemplateVariableName": "Altenwerth-Pfannerstill"
   }
 ]
 ```

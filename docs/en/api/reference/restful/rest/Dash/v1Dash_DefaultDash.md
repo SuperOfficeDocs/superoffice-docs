@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 396,
-  "UniqueId": "porro",
-  "Name": "Prohaska-Homenick",
-  "Description": "Triple-buffered composite website",
-  "AssociateId": 303,
-  "Columns": 53,
+  "DashboardId": 587,
+  "UniqueId": "assumenda",
+  "Name": "Walker-Lubowitz",
+  "Description": "Progressive local monitoring",
+  "AssociateId": 267,
+  "Columns": 853,
   "Theme": null,
-  "VisibleForAll": 410,
+  "VisibleForAll": 511,
   "VisibleForAssociates": [
-    851,
-    737
+    356,
+    823
   ],
   "VisibleForGroups": [
-    947,
-    536
+    778,
+    702
   ],
-  "PinForAll": 162,
+  "PinForAll": 345,
   "PinForAssociates": [
-    23,
-    478
+    970,
+    326
   ],
   "PinForGroups": [
-    530,
-    784
+    892,
+    913
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldType": "System.Int32",
+      "FieldLength": 913
     }
   }
 }

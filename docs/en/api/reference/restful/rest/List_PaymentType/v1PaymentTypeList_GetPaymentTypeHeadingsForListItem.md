@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Olson, Schowalter and White",
-    "ToolTip": "Sed blanditiis voluptate unde similique est eius reprehenderit.",
+    "Id": 331,
+    "Name": "Collins, Lindgren and Buckridge",
+    "ToolTip": "Qui soluta beatae corporis repudiandae laborum amet ut.",
     "Deleted": false,
-    "Rank": 308,
-    "Type": "enim",
-    "ColorBlock": 46,
-    "IconHint": "et",
+    "Rank": 804,
+    "Type": "dolores",
+    "ColorBlock": 30,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2002-03-28T03:31:33.6791985+01:00",
+    "LastChanged": "2015-09-05T03:24:52.2869587+02:00",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Parker Inc and Sons",
-        "ToolTip": "Non cupiditate et.",
+        "Id": 936,
+        "Name": "Reichert-Walker",
+        "ToolTip": "Eos perspiciatis harum.",
         "Deleted": true,
-        "Rank": 237,
-        "Type": "eum",
-        "ColorBlock": 432,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "1997-04-24T03:31:33.6791985+02:00",
+        "Rank": 501,
+        "Type": "quas",
+        "ColorBlock": 760,
+        "IconHint": "accusamus",
+        "Selected": false,
+        "LastChanged": "2017-10-28T03:24:52.2869587+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Nichole Stanton",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Coralie Thiel DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldType": "System.String",
+            "FieldLength": 413
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "tenetur",
-    "Hidden": true,
-    "FullName": "Ms. Norbert Johns DVM",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "consequuntur",
+    "Hidden": false,
+    "FullName": "Lowell Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 974
       }
     }
   }

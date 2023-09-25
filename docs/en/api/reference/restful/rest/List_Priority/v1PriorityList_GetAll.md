@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 474,
-    "Name": "Casper Inc and Sons",
-    "Tooltip": "et",
+    "Id": 189,
+    "Name": "Lind, Gorczany and Williamson",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 591,
-    "Rank": 378,
+    "UdListDefinitionId": 610,
+    "Rank": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldType": "System.String",
+        "FieldLength": 912
       }
     }
   }

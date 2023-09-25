@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Cummings-Kuphal",
-    "ToolTip": "Expedita atque occaecati quia rerum quas.",
-    "Deleted": true,
-    "Rank": 440,
-    "Type": "consequuntur",
-    "ColorBlock": 118,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2009-11-24T03:31:33.7273746+01:00",
+    "Id": 403,
+    "Name": "Gerhold-Jones",
+    "ToolTip": "Labore voluptates aut libero culpa amet dolorem et.",
+    "Deleted": false,
+    "Rank": 476,
+    "Type": "ullam",
+    "ColorBlock": 942,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2008-11-18T03:24:52.318209+01:00",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "Herzog Group",
-        "ToolTip": "Rerum voluptatem quibusdam.",
-        "Deleted": false,
-        "Rank": 369,
-        "Type": "doloremque",
-        "ColorBlock": 489,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2003-08-21T03:31:33.7273746+02:00",
+        "Id": 673,
+        "Name": "Bechtelar-Rolfson",
+        "ToolTip": "Et voluptates atque id.",
+        "Deleted": true,
+        "Rank": 739,
+        "Type": "in",
+        "ColorBlock": 633,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2010-03-26T03:24:52.318209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "qui",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Nicole McKenzie",
+        "FullName": "Mrs. Pansy Graham Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldLength": 790
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Dr. Trystan Schimmel",
+    "ExtraInfo": "enim",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Donato Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldType": "System.String",
+        "FieldLength": 182
       }
     }
   }

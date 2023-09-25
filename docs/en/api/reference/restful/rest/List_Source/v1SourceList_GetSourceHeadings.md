@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 516,
-    "Name": "Bode, Jacobi and Heaney",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 833,
-    "UdListDefinitionId": 295,
+    "HeadingId": 826,
+    "Name": "Littel-Hills",
+    "Tooltip": "in",
+    "Deleted": false,
+    "Rank": 11,
+    "UdListDefinitionId": 765,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldType": "System.String",
+        "FieldLength": 819
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Murazik LLC",
-    "ToolTip": "Tempore doloremque autem.",
+    "Id": 277,
+    "Name": "Kovacek, Lesch and Conroy",
+    "ToolTip": "Aperiam facere dolorum.",
     "Deleted": false,
-    "Rank": 135,
-    "Type": "ipsum",
-    "ColorBlock": 988,
-    "IconHint": "minus",
+    "Rank": 246,
+    "Type": "fugit",
+    "ColorBlock": 995,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2005-02-08T03:31:33.5854694+01:00",
+    "LastChanged": "2022-06-16T03:24:52.2244666+02:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Beier-Stokes",
-        "ToolTip": "Assumenda voluptatibus ipsum sunt aliquam.",
+        "Id": 457,
+        "Name": "Feeney-Robel",
+        "ToolTip": "Eveniet distinctio maxime facere aperiam nihil est minima.",
         "Deleted": false,
-        "Rank": 531,
-        "Type": "odit",
-        "ColorBlock": 506,
-        "IconHint": "ipsum",
-        "Selected": false,
-        "LastChanged": "2000-01-26T03:31:33.5854694+01:00",
+        "Rank": 158,
+        "Type": "quae",
+        "ColorBlock": 964,
+        "IconHint": "odit",
+        "Selected": true,
+        "LastChanged": "2023-02-21T03:24:52.2244666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "eum",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Erwin Bahringer"
+        "FullName": "Gillian Koss"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "possimus",
-    "Hidden": true,
-    "FullName": "Carroll Crona"
+    "ExtraInfo": "et",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Agustina Turcotte Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Cormier LLC",
-    "ToolTip": "Exercitationem dolor aut ipsam odio quisquam.",
-    "Deleted": true,
-    "Rank": 202,
-    "Type": "ab",
-    "ColorBlock": 596,
-    "IconHint": "id",
+    "Id": 835,
+    "Name": "Bruen, Stracke and Rosenbaum",
+    "ToolTip": "Voluptates nobis consectetur quaerat occaecati commodi officiis.",
+    "Deleted": false,
+    "Rank": 400,
+    "Type": "voluptates",
+    "ColorBlock": 375,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2000-01-05T03:31:33.5854694+01:00",
+    "LastChanged": "2004-02-27T03:24:52.2244666+01:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Dach Group",
-        "ToolTip": "Ratione quaerat soluta ullam suscipit.",
-        "Deleted": true,
-        "Rank": 135,
-        "Type": "et",
-        "ColorBlock": 190,
-        "IconHint": "saepe",
+        "Id": 119,
+        "Name": "Bartell, Russel and Gutkowski",
+        "ToolTip": "Ullam corrupti dolores qui ut aut odio.",
+        "Deleted": false,
+        "Rank": 957,
+        "Type": "molestias",
+        "ColorBlock": 602,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2015-11-05T03:31:33.5854694+01:00",
+        "LastChanged": "2017-04-20T03:24:52.2244666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Ms. Rosemary O'Hara",
+        "ExtraInfo": "iure",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Kathlyn Donnelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 480
+            "FieldType": "System.String",
+            "FieldLength": 280
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "maiores",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Virginia Cayla West I",
+    "FullName": "Mr. Shanel Celia Heaney MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldType": "System.String",
+        "FieldLength": 760
       }
     }
   }

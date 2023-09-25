@@ -72,7 +72,8 @@ TicketTypeEntity found.
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -83,7 +84,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,29 +94,30 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 234,
-  "Name": "McCullough, McDermott and Nitzsche",
-  "Rank": 633,
-  "Tooltip": "quaerat",
-  "Icon": "necessitatibus",
-  "DefaultTicketStatus": 5,
+  "TicketTypeId": 742,
+  "Name": "Schimmel-Leffler",
+  "Rank": 126,
+  "Tooltip": "omnis",
+  "Icon": "et",
+  "DefaultTicketStatus": 758,
   "TicketStatuses": [
-    185,
-    17
+    398,
+    165
   ],
-  "DefaultTicketPriority": 416,
+  "DefaultTicketPriority": 902,
   "TicketPriorities": [
-    654,
-    139
+    103,
+    753
   ],
-  "ReplyTemplate": 477,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 789,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldType": "System.String",
+      "FieldLength": 800
     }
   },
   "_Links": {

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 803,
-  "StartTime": "2016-05-23T03:31:26.0427182+02:00",
-  "EndTime": "2017-07-09T03:31:26.0427182+02:00",
-  "Count": 866,
-  "DocumentTemplateId": 400
+  "ContactId": 617,
+  "StartTime": "1997-11-04T03:24:47.5020527+01:00",
+  "EndTime": "1998-11-01T03:24:47.5020527+01:00",
+  "Count": 55,
+  "DocumentTemplateId": 346
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 592,
-    "Attention": "ut",
-    "Header": "odio",
-    "Name": "Schumm Inc and Sons",
-    "OurRef": "consequatur",
-    "YourRef": "dolorum",
-    "Description": "Multi-layered national adapter",
-    "DocumentTemplate": "voluptatem",
+    "DocumentId": 443,
+    "Attention": "tempora",
+    "Header": "id",
+    "Name": "Hammes, Schmeler and Gleason",
+    "OurRef": "unde",
+    "YourRef": "asperiores",
+    "Description": "Inverse explicit process improvement",
+    "DocumentTemplate": "eos",
     "IsPublished": false,
-    "PersonId": 468,
-    "PersonFullName": "Miss Oren Clark Langosh DVM",
-    "AssociateFullName": "Joy Mohr",
-    "ContactId": 711,
-    "ContactName": "Jast LLC",
-    "ProjectId": 698,
-    "ProjectName": "Okuneva Inc and Sons",
-    "AssociateId": 553,
-    "Snum": 562,
-    "SaleId": 220,
-    "SaleName": "Lockman, Raynor and Corwin",
+    "PersonId": 988,
+    "PersonFullName": "Mr. Ivory Lamar Fahey",
+    "AssociateFullName": "Mrs. Conrad Emmie Medhurst PhD",
+    "ContactId": 729,
+    "ContactName": "Heaney LLC",
+    "ProjectId": 309,
+    "ProjectName": "Herzog LLC",
+    "AssociateId": 106,
+    "Snum": 654,
+    "SaleId": 156,
+    "SaleName": "Cassin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldType": "System.String",
+        "FieldLength": 68
       }
     }
   }

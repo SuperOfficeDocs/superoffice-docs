@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=modi
+GET /api/v1/List/Competitor/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Beer, Kreiger and Stroman",
-    "ToolTip": "Aliquam et ut ut voluptatem fugiat.",
-    "Deleted": true,
-    "Rank": 85,
-    "Type": "nihil",
+    "Id": 821,
+    "Name": "Tillman-Lemke",
+    "ToolTip": "Doloremque dicta aut.",
+    "Deleted": false,
+    "Rank": 119,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 927,
-        "Name": "Kuhic Group",
-        "ToolTip": "Consequatur vel non est culpa ipsum exercitationem.",
+        "Id": 527,
+        "Name": "Bosco LLC",
+        "ToolTip": "Molestias numquam consequuntur ullam qui et et quisquam.",
         "Deleted": false,
-        "Rank": 987,
-        "Type": "illo",
+        "Rank": 859,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consectetur",
-        "ColorBlock": 936,
-        "ExtraInfo": "tenetur",
-        "StyleHint": "error",
-        "FullName": "Bianka McLaughlin",
+        "IconHint": "consequatur",
+        "ColorBlock": 970,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "sequi",
+        "FullName": "Dr. Amani Delia Grimes II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 707
+            "FieldLength": 243
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 251,
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
-    "FullName": "Dr. Laila Bryon Lakin",
+    "IconHint": "labore",
+    "ColorBlock": 417,
+    "ExtraInfo": "neque",
+    "StyleHint": "excepturi",
+    "FullName": "Destiney Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldType": "System.String",
+        "FieldLength": 803
       }
     }
   }

@@ -84,20 +84,20 @@ Content-Type: application/json; charset=utf-8
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 611,
-      "PrefDescId": 532,
-      "PrefValue": "dolorem",
-      "PrefShowValue": "at",
-      "Description": "Devolved dynamic alliance",
-      "IsBuiltin": true
+      "PrefDescLineId": 933,
+      "PrefDescId": 624,
+      "PrefValue": "tempora",
+      "PrefShowValue": "vitae",
+      "Description": "Balanced reciprocal internet solution",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 611,
-      "PrefDescId": 532,
-      "PrefValue": "dolorem",
-      "PrefShowValue": "at",
-      "Description": "Devolved dynamic alliance",
-      "IsBuiltin": true
+      "PrefDescLineId": 933,
+      "PrefDescId": 624,
+      "PrefValue": "tempora",
+      "PrefShowValue": "vitae",
+      "Description": "Balanced reciprocal internet solution",
+      "IsBuiltin": false
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 216,
-    "PrefDescId": 724,
-    "PrefValue": "possimus",
-    "PrefShowValue": "harum",
-    "Description": "Advanced 4th generation budgetary management",
-    "IsBuiltin": false,
+    "PrefDescLineId": 343,
+    "PrefDescId": 192,
+    "PrefValue": "magnam",
+    "PrefShowValue": "quo",
+    "Description": "Inverse bifurcated process improvement",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldType": "System.String",
+        "FieldLength": 37
       }
     }
   }

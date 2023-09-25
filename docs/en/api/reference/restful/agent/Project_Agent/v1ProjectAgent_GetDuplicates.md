@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pacocha, Ferry and Bradtke"
+  "Name": "Padberg Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bartoletti, Wilderman and Zboncak",
-    "SoPrimaryKey": 35,
-    "EntryName": "Hettinger Inc and Sons",
-    "EntryIdentifier": "adipisci",
-    "RuleDisplayName": "Bosco-Goyette",
+    "RuleName": "Trantow, Ondricka and Hodkiewicz",
+    "SoPrimaryKey": 895,
+    "EntryName": "Kiehn LLC",
+    "EntryIdentifier": "ut",
+    "RuleDisplayName": "Upton Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 91
       }
     }
   }

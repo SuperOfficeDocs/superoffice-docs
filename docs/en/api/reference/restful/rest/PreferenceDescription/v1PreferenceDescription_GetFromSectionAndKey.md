@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 301,
-  "Section": "tempora",
-  "Key": "iure",
-  "Name": "Schuppe, Schmitt and Kuvalis",
+  "PrefDescId": 82,
+  "Section": "iste",
+  "Key": "delectus",
+  "Name": "Erdman Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Function-based solution-oriented paradigm",
-  "IsBuiltin": true,
-  "TableName": "Hamill-Jewess",
-  "UserDefinedListId": 966,
-  "Rank": 240,
-  "SubGroup": "ea",
-  "MinLevel": 292,
-  "MaxValue": 456,
-  "MinValue": 981,
-  "RequiredLicense": "consequatur",
+  "Description": "Compatible bottom-line extranet",
+  "IsBuiltin": false,
+  "TableName": "West-Olson",
+  "UserDefinedListId": 380,
+  "Rank": 949,
+  "SubGroup": "fuga",
+  "MinLevel": 218,
+  "MaxValue": 262,
+  "MinValue": 409,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldLength": 447
     }
   }
 }

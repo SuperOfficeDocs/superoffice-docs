@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 22 Nov 1997 03:31:32 G11T
+Last-Modified: Thu, 05 Jun 2008 03:24:51 G6T
 
 {
-  "Key": "adipisci",
-  "Value": "officia",
-  "RecordId": 286,
-  "CreatedDate": "2017-10-23T03:31:32.6289016+02:00",
-  "UpdatedDate": "1997-11-22T03:31:32.6289016+01:00",
-  "UpdatedBy": "nesciunt",
-  "CreatedBy": "voluptas",
-  "TableName": "Grady-Mante",
+  "Key": "eligendi",
+  "Value": "error",
+  "RecordId": 542,
+  "CreatedDate": "1996-05-31T03:24:51.630601+02:00",
+  "UpdatedDate": "2008-06-05T03:24:51.630601+02:00",
+  "UpdatedBy": "eos",
+  "CreatedBy": "dolores",
+  "TableName": "Rogahn Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldType": "System.String",
+      "FieldLength": 739
     }
   }
 }

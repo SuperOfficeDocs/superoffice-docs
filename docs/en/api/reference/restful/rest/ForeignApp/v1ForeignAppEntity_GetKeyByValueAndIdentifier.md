@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=consequuntur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=iure
 ```
 
 
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 25 May 2019 03:31:32 G5T
+Last-Modified: Mon, 21 Dec 2015 03:24:51 G12T
 
 {
-  "Key": "illum",
-  "Value": "et",
-  "RecordId": 105,
-  "CreatedDate": "1998-01-03T03:31:32.6289016+01:00",
-  "UpdatedDate": "2019-05-25T03:31:32.6289016+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "magni",
-  "TableName": "Predovic, Spencer and Bergnaum",
+  "Key": "quo",
+  "Value": "odio",
+  "RecordId": 449,
+  "CreatedDate": "2007-10-11T03:24:51.630601+02:00",
+  "UpdatedDate": "2015-12-21T03:24:51.630601+01:00",
+  "UpdatedBy": "libero",
+  "CreatedBy": "placeat",
+  "TableName": "Kutch-D'Amore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 644
     }
   }
 }

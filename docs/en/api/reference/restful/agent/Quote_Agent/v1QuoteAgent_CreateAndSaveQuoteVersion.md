@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 712
+  "QuoteVersionId": 227
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 823,
-  "ERPQuoteVersionKey": "rerum",
-  "QuoteId": 50,
-  "Description": "Distributed foreground collaboration",
-  "Number": "1232037",
+  "QuoteVersionId": 91,
+  "ERPQuoteVersionKey": "velit",
+  "QuoteId": 712,
+  "Description": "Programmable optimizing knowledge user",
+  "Number": "384231",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 842,
-  "SentDate": "2020-07-27T03:31:27.0424653+02:00",
-  "FollowupId": 805,
-  "ExpirationDate": "2003-07-10T03:31:27.0424653+02:00",
-  "DeliveryCountryId": 402,
+  "LikelyQuoteAlternativeId": 521,
+  "SentDate": "2021-12-05T03:24:48.111357+01:00",
+  "FollowupId": 415,
+  "ExpirationDate": "1996-05-19T03:24:48.111357+02:00",
+  "DeliveryCountryId": 786,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 970,
+  "InvoiceCountryId": 692,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "enim",
-  "ERPPaymentTypeKey": "et",
-  "ERPDeliveryTermsKey": "rerum",
-  "ERPDeliveryTypeKey": "tenetur",
-  "Rank": 271,
-  "ApprovedBy": 204,
-  "ApprovedText": "quidem",
-  "ApprovedRegisteredBy": 711,
-  "ApprovedRegisteredDate": "2011-02-03T03:31:27.0424653+01:00",
-  "ExtraField1": "iste",
-  "ExtraField2": "esse",
-  "ExtraField3": "commodi",
-  "ExtraField4": "alias",
-  "ExtraField5": "doloribus",
-  "LastRecalculated": "1997-11-17T03:31:27.0424653+01:00",
-  "Updated": "2007-06-10T03:31:27.0424653+02:00",
-  "UpdatedAssociateId": 845,
-  "Registered": "2014-01-23T03:31:27.0424653+01:00",
-  "RegisteredAssociateId": 249,
-  "RequestAssociateId": 167,
-  "RequestComment": "dolor",
+  "ERPPaymentTermsKey": "neque",
+  "ERPPaymentTypeKey": "minus",
+  "ERPDeliveryTermsKey": "et",
+  "ERPDeliveryTypeKey": "error",
+  "Rank": 339,
+  "ApprovedBy": 947,
+  "ApprovedText": "praesentium",
+  "ApprovedRegisteredBy": 196,
+  "ApprovedRegisteredDate": "2000-01-09T03:24:48.111357+01:00",
+  "ExtraField1": "reprehenderit",
+  "ExtraField2": "voluptate",
+  "ExtraField3": "modi",
+  "ExtraField4": "commodi",
+  "ExtraField5": "delectus",
+  "LastRecalculated": "1998-04-08T03:24:48.111357+02:00",
+  "Updated": "2003-04-20T03:24:48.111357+02:00",
+  "UpdatedAssociateId": 351,
+  "Registered": "2015-04-17T03:24:48.111357+02:00",
+  "RegisteredAssociateId": 886,
+  "RequestAssociateId": 279,
+  "RequestComment": "et",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 354,
-      "ERPQuoteAlternativeKey": "minus",
-      "QuoteVersionId": 208,
-      "Name": "Nitzsche, Corkery and Lehner",
-      "Description": "Organic zero defect implementation",
+      "QuoteAlternativeId": 596,
+      "ERPQuoteAlternativeKey": "quis",
+      "QuoteVersionId": 641,
+      "Name": "Heidenreich-Bosco",
+      "Description": "Persevering reciprocal hub",
       "Status": "Error",
-      "Reason": "",
-      "ERPDiscountPercent": 2447.654,
-      "ERPDiscountAmount": 6562.596,
-      "DiscountPercent": 19180.079999999998,
-      "DiscountAmount": 7405.642,
+      "Reason": "cultivate compelling infomediaries",
+      "ERPDiscountPercent": 27635.611999999997,
+      "ERPDiscountAmount": 5973.4039999999995,
+      "DiscountPercent": 23081.91,
+      "DiscountAmount": 24156.872,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "accusantium",
-      "VAT": 4415.806,
-      "EarningPercent": 6493.648,
-      "EarningAmount": 9392.598,
-      "SubTotal": 19214.554,
-      "TotalPrice": 9934.7799999999988,
-      "ExtraField1": "tempore",
-      "ExtraField2": "quaerat",
-      "ExtraField3": "modi",
-      "ExtraField4": "quaerat",
-      "ExtraField5": "delectus",
+      "VATInfo": "eum",
+      "VAT": 23132.054,
+      "EarningPercent": 9781.214,
+      "EarningAmount": 17020.754,
+      "SubTotal": 11526.851999999999,
+      "TotalPrice": 4835.762,
+      "ExtraField1": "pariatur",
+      "ExtraField2": "quo",
+      "ExtraField3": "itaque",
+      "ExtraField4": "non",
+      "ExtraField5": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldLength": 405
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 207
     }
   }
 }

@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 297,
-  "SourcePersonId": 104,
-  "DestinationContactId": 219,
-  "DestinationPersonId": 351,
-  "RelationId": 301,
-  "Comment": "vel",
-  "RelationDefinitionId": 906,
-  "Reversed": 12,
-  "UpdatedDate": "2013-07-10T03:31:27.1218466+02:00",
-  "CreatedDate": "2003-12-26T03:31:27.1218466+01:00",
+  "SourceContactId": 548,
+  "SourcePersonId": 451,
+  "DestinationContactId": 210,
+  "DestinationPersonId": 650,
+  "RelationId": 327,
+  "Comment": "minima",
+  "RelationDefinitionId": 211,
+  "Reversed": 917,
+  "UpdatedDate": "2005-12-29T03:24:48.1582254+01:00",
+  "CreatedDate": "2004-03-11T03:24:48.1582254+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hickle-McKenzie",
-  "SourcePersonName": "Crona-Howell",
-  "DestinationContactName": "Hegmann Group",
-  "DestinationPersonName": "Kuphal-Pagac",
-  "ActiveText": "sapiente",
-  "PassiveText": "numquam",
+  "SourceContactName": "Pacocha Group",
+  "SourcePersonName": "Corkery LLC",
+  "DestinationContactName": "McClure, Kozey and Simonis",
+  "DestinationPersonName": "Kling, Kuphal and Padberg",
+  "ActiveText": "quis",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 203
     }
   }
 }

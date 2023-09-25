@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=est
+GET /api/v1/List/PaymentTerm/MDOItems?query=animi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Hintz, Abbott and Stark",
-    "ToolTip": "Alias mollitia omnis distinctio et alias dolor illo.",
-    "Deleted": false,
-    "Rank": 325,
-    "Type": "aperiam",
+    "Id": 147,
+    "Name": "Gleason, Jenkins and Mraz",
+    "ToolTip": "Nesciunt odio quod iusto laudantium.",
+    "Deleted": true,
+    "Rank": 577,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Willms Group",
-        "ToolTip": "Aut repudiandae perspiciatis consequatur hic.",
+        "Id": 67,
+        "Name": "Gleason-Aufderhar",
+        "ToolTip": "Et sunt consequatur.",
         "Deleted": false,
-        "Rank": 185,
-        "Type": "adipisci",
+        "Rank": 411,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsam",
-        "ColorBlock": 963,
-        "ExtraInfo": "et",
-        "StyleHint": "repudiandae",
-        "FullName": "Ayana Kris",
+        "IconHint": "incidunt",
+        "ColorBlock": 5,
+        "ExtraInfo": "non",
+        "StyleHint": "maiores",
+        "FullName": "Tracy Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 151
+            "FieldType": "System.Int32",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 815,
-    "ExtraInfo": "quisquam",
-    "StyleHint": "voluptas",
-    "FullName": "Yesenia Hickle",
+    "IconHint": "pariatur",
+    "ColorBlock": 22,
+    "ExtraInfo": "excepturi",
+    "StyleHint": "odit",
+    "FullName": "Mrs. Jakob Witting I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 314
+        "FieldLength": 584
       }
     }
   }

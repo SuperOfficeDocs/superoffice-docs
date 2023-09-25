@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 228,
-  "ColumnId": 702,
-  "FieldDefault": "sit",
-  "FieldHeight": 955,
-  "FieldLabel": "similique",
-  "FieldLeft": 620,
-  "FieldTop": 786,
+  "UDefFieldId": 816,
+  "ColumnId": 922,
+  "FieldDefault": "repellat",
+  "FieldHeight": 677,
+  "FieldLabel": "nulla",
+  "FieldLeft": 242,
+  "FieldTop": 411,
   "FieldType": "Checkbox",
-  "FieldWidth": 995,
-  "FormatMask": "et",
+  "FieldWidth": 670,
+  "FormatMask": "asperiores",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 10,
-  "LabelLeft": 396,
-  "LabelTop": 683,
-  "LabelWidth": 264,
-  "LastVersionId": 343,
-  "ListTableId": 464,
+  "LabelHeight": 918,
+  "LabelLeft": 353,
+  "LabelTop": 24,
+  "LabelWidth": 379,
+  "LastVersionId": 204,
+  "ListTableId": 69,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 659,
-  "ProgId": "quod",
+  "Page1LineNo": 576,
+  "ProgId": "dignissimos",
   "IsReadOnly": false,
-  "ShortLabel": "iure",
-  "TabOrder": 803,
-  "TextLength": 438,
-  "Tooltip": "ea",
-  "UdefIdentity": 483,
-  "UDListDefinitionId": 271,
+  "ShortLabel": "vero",
+  "TabOrder": 788,
+  "TextLength": 132,
+  "Tooltip": "eligendi",
+  "UdefIdentity": 94,
+  "UDListDefinitionId": 915,
   "Justification": "Center",
-  "Version": 383,
-  "TemplateVariableName": "Shields-Reinger",
-  "HasBeenPublished": false,
-  "MdoListName": "Donnelly-Collins",
+  "Version": 655,
+  "TemplateVariableName": "Glover-Torphy",
+  "HasBeenPublished": true,
+  "MdoListName": "Lehner, Towne and Senger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldType": "System.String",
+      "FieldLength": 597
     }
   }
 }

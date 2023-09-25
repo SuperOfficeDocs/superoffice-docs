@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 320,
+  "TargetYear": 676,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 13
+  "Id": 70
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 669,
+  "TargetAssignmentInfoId": 503,
   "Values": [
-    465,
-    383
+    985,
+    568
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 989,
-  "DimensionListItemDisplayName": "Boyer-Cruickshank",
+  "DimensionListItem": 926,
+  "DimensionListItemDisplayName": "Emmerich, West and Cummerata",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 716
     }
   }
 }

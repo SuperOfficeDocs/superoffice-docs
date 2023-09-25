@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Wiegand, Stamm and Leannon",
-    "ToolTip": "Quia ut id.",
-    "Deleted": true,
-    "Rank": 669,
-    "Type": "et",
-    "ColorBlock": 612,
-    "IconHint": "assumenda",
+    "Id": 490,
+    "Name": "Schinner-Koss",
+    "ToolTip": "Quisquam dolorem est ducimus mollitia magnam culpa consequatur.",
+    "Deleted": false,
+    "Rank": 13,
+    "Type": "autem",
+    "ColorBlock": 978,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "1998-09-18T03:31:33.8210957+02:00",
+    "LastChanged": "2012-04-04T03:24:52.3806958+02:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Bernier Group",
-        "ToolTip": "Quae ut.",
-        "Deleted": true,
-        "Rank": 161,
-        "Type": "a",
-        "ColorBlock": 812,
-        "IconHint": "fugiat",
+        "Id": 4,
+        "Name": "Bernhard-Lynch",
+        "ToolTip": "Eum et eos reiciendis adipisci enim neque.",
+        "Deleted": false,
+        "Rank": 982,
+        "Type": "quidem",
+        "ColorBlock": 255,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2019-07-09T03:31:33.8210957+02:00",
+        "LastChanged": "2003-08-04T03:24:52.3806958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Miller Ladarius Bradtke Jr."
+        "ExtraInfo": "odit",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Sydnee Keeling"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "tempora",
+    "ExtraInfo": "veniam",
+    "StyleHint": "mollitia",
     "Hidden": true,
-    "FullName": "Prof. Eula Cummerata"
+    "FullName": "Amani Stracke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Hegmann-Prohaska",
-    "ToolTip": "Natus sunt error sapiente veritatis suscipit qui omnis.",
-    "Deleted": true,
-    "Rank": 187,
-    "Type": "est",
-    "ColorBlock": 343,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2000-05-03T03:31:33.8210957+02:00",
+    "Id": 901,
+    "Name": "Robel LLC",
+    "ToolTip": "Maxime suscipit.",
+    "Deleted": false,
+    "Rank": 205,
+    "Type": "quam",
+    "ColorBlock": 436,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2007-08-06T03:24:52.3806958+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Walter-White",
-        "ToolTip": "Necessitatibus totam laboriosam.",
-        "Deleted": true,
-        "Rank": 859,
-        "Type": "consectetur",
-        "ColorBlock": 200,
-        "IconHint": "voluptas",
+        "Id": 887,
+        "Name": "Deckow Inc and Sons",
+        "ToolTip": "Quis sed beatae.",
+        "Deleted": false,
+        "Rank": 887,
+        "Type": "ipsam",
+        "ColorBlock": 959,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2015-03-07T03:31:33.8210957+01:00",
+        "LastChanged": "2006-05-20T03:24:52.3806958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "laborum",
-        "Hidden": true,
-        "FullName": "Dr. Elise Elody Parker",
+        "ExtraInfo": "hic",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Ms. Bertram Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 800
+            "FieldType": "System.Int32",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Beryl Werner Fahey V",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "iure",
+    "Hidden": true,
+    "FullName": "Dr. Ernesto Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 940
       }
     }
   }

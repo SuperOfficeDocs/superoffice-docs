@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aperiam",
+    "path": "est",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 750,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 693,
-  "Name": "Dibbert Inc and Sons",
-  "Description": "Self-enabling upward-trending paradigm",
-  "Currency": "omnis",
-  "CurrencyName": "Deckow, Hoppe and Bauch",
-  "ValidFrom": "2007-05-26T03:31:33.7117545+02:00",
-  "ValidTo": "2011-02-11T03:31:33.7117545+01:00",
+  "PriceListId": 769,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 20,
+  "Name": "Leuschke LLC",
+  "Description": "Open-source exuding workforce",
+  "Currency": "enim",
+  "CurrencyName": "Beier-Yundt",
+  "ValidFrom": "2022-10-09T03:24:52.3025813+02:00",
+  "ValidTo": "2021-05-07T03:24:52.3025813+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldLength": 365
     }
   },
   "_Links": {

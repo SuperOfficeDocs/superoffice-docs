@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 403,
-  "PlainMessage": "consequatur",
-  "HtmlMessage": "et",
-  "SmsMessage": "iusto",
-  "Description": "Integrated mission-critical help-desk",
-  "Subject": "molestias",
-  "FolderId": 860,
-  "HeaderField": "doloribus",
-  "Design": "eaque",
+  "ShipmentMessageId": 772,
+  "PlainMessage": "repellendus",
+  "HtmlMessage": "non",
+  "SmsMessage": "assumenda",
+  "Description": "Pre-emptive systemic knowledge base",
+  "Subject": "optio",
+  "FolderId": 570,
+  "HeaderField": "quis",
+  "Design": "qui",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Multi-channelled directional middleware",
-  "AccessKey": "inventore",
-  "DocumentMessage": 972,
-  "Registered": "2009-08-21T03:31:32.9594383+02:00",
-  "RegisteredAssociateId": 597,
-  "Updated": "2002-07-05T03:31:32.9594383+02:00",
-  "UpdatedAssociateId": 625,
-  "UpdatedCount": 528,
+  "LongDescription": "Universal holistic hardware",
+  "AccessKey": "est",
+  "DocumentMessage": 700,
+  "Registered": "2004-07-17T03:24:51.927622+02:00",
+  "RegisteredAssociateId": 183,
+  "Updated": "2014-05-11T03:24:51.927622+02:00",
+  "UpdatedAssociateId": 876,
+  "UpdatedCount": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 525
     }
   },
   "_Links": {

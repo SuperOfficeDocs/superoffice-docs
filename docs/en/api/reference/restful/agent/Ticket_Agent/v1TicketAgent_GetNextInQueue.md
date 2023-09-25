@@ -92,6 +92,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -120,7 +121,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -130,21 +131,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 839,
-  "Title": "unde",
-  "CreatedAt": "2007-07-03T03:31:27.4342771+02:00",
-  "LastChanged": "2005-06-05T03:31:27.4342771+02:00",
-  "ReadByOwner": "2020-12-05T03:31:27.4342771+01:00",
-  "ReadByCustomer": "2017-07-19T03:31:27.4342771+02:00",
-  "FirstReadByOwner": "2009-06-24T03:31:27.4342771+02:00",
-  "FirstReadByUser": "2003-02-14T03:31:27.4342771+01:00",
-  "Activate": "2003-05-08T03:31:27.4342771+02:00",
-  "ClosedAt": "2022-07-01T03:31:27.4342771+02:00",
-  "RepliedAt": "2023-02-21T03:31:27.4342771+01:00",
-  "AlertTimeout": "2003-03-14T03:31:27.4342771+01:00",
-  "Deadline": "2021-09-25T03:31:27.4342771+02:00",
+  "TicketId": 651,
+  "Title": "ut",
+  "CreatedAt": "2018-03-10T03:24:48.4560256+01:00",
+  "LastChanged": "2014-12-08T03:24:48.4560256+01:00",
+  "ReadByOwner": "2007-01-03T03:24:48.4560256+01:00",
+  "ReadByCustomer": "2011-07-07T03:24:48.4560256+02:00",
+  "FirstReadByOwner": "2005-05-23T03:24:48.4560256+02:00",
+  "FirstReadByUser": "2022-06-27T03:24:48.4560256+02:00",
+  "Activate": "1997-04-08T03:24:48.4560256+02:00",
+  "ClosedAt": "2016-12-19T03:24:48.4560256+01:00",
+  "RepliedAt": "2015-10-20T03:24:48.4560256+02:00",
+  "AlertTimeout": "2008-09-09T03:24:48.4560256+02:00",
+  "Deadline": "2019-08-18T03:24:48.4560256+02:00",
   "CreatedBy": null,
-  "Author": "quod",
+  "Author": "consequatur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -155,160 +156,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quo",
-      "PersonId": 721,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Cletus",
-      "Lastname": "Leuschke",
-      "MiddleName": "Keeling-Wilderman",
-      "Title": "minus",
-      "Description": "Right-sized stable hierarchy",
-      "Email": "ernesto.klein@walsh.com",
-      "FullName": "Ansel Torphy",
-      "DirectPhone": "1-361-325-1467 x14162",
-      "FormalName": "Stokes, Beer and Gutmann",
-      "CountryId": 456,
-      "ContactId": 926,
-      "ContactName": "Borer-Olson",
-      "Retired": 934,
-      "Rank": 517,
-      "ActiveInterests": 767,
-      "ContactDepartment": "engage distributed architectures",
-      "ContactCountryId": 94,
-      "ContactOrgNr": "1401987",
-      "FaxPhone": "497-981-6163 x71213",
-      "MobilePhone": "099-713-7840",
-      "ContactPhone": "(585)282-0727 x6151",
-      "AssociateName": "King, Torphy and Kiehn",
-      "AssociateId": 825,
-      "UsePersonAddress": false,
-      "ContactFax": "iste",
-      "Kanafname": "totam",
-      "Kanalname": "accusamus",
-      "Post1": "velit",
-      "Post2": "ut",
-      "Post3": "voluptas",
-      "EmailName": "maiya.harber@runolfsdottirtremblay.biz",
-      "ContactFullName": "Effie Schaefer",
-      "ActiveErpLinks": 591,
-      "TicketPriorityId": 480,
-      "SupportLanguageId": 184,
-      "SupportAssociateId": 161,
+      "Position": "doloremque",
+      "PersonId": 808,
+      "Mrmrs": "sit",
+      "Firstname": "Guillermo",
+      "Lastname": "Lind",
+      "MiddleName": "Hermann, Nikolaus and Hudson",
+      "Title": "ea",
+      "Description": "Triple-buffered exuding paradigm",
+      "Email": "tracy@casper.us",
+      "FullName": "Mrs. Jessica Torphy MD",
+      "DirectPhone": "(719)013-2383",
+      "FormalName": "Douglas-Pfeffer",
+      "CountryId": 658,
+      "ContactId": 647,
+      "ContactName": "Cole, Russel and Osinski",
+      "Retired": 323,
+      "Rank": 842,
+      "ActiveInterests": 637,
+      "ContactDepartment": "",
+      "ContactCountryId": 742,
+      "ContactOrgNr": "907611",
+      "FaxPhone": "371-200-4291",
+      "MobilePhone": "995-544-6622",
+      "ContactPhone": "731-029-6804",
+      "AssociateName": "Will-Bernhard",
+      "AssociateId": 142,
+      "UsePersonAddress": true,
+      "ContactFax": "quaerat",
+      "Kanafname": "autem",
+      "Kanalname": "voluptatem",
+      "Post1": "quod",
+      "Post2": "expedita",
+      "Post3": "magnam",
+      "EmailName": "frederik@hagenes.co.uk",
+      "ContactFullName": "Prof. Shanelle Jason Grant DVM",
+      "ActiveErpLinks": 890,
+      "TicketPriorityId": 1000,
+      "SupportLanguageId": 696,
+      "SupportAssociateId": 329,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 152
+          "FieldLength": 335
         }
       }
     }
   ],
-  "AlertLevel": 805,
-  "ConnectId": 963,
+  "AlertLevel": 281,
+  "ConnectId": 7,
   "ReadStatus": "Green",
-  "TimeToReply": 950,
-  "RealTimeToReply": 89,
-  "TimeToClose": 652,
-  "RealTimeToClose": 23,
-  "TimeSpentInternally": 250,
-  "TimeSpentExternally": 635,
-  "TimeSpentQueue": 664,
-  "RealTimeSpentInternally": 244,
-  "RealTimeSpentExternally": 194,
-  "RealTimeSpentQueue": 207,
+  "TimeToReply": 49,
+  "RealTimeToReply": 58,
+  "TimeToClose": 902,
+  "RealTimeToClose": 957,
+  "TimeSpentInternally": 882,
+  "TimeSpentExternally": 821,
+  "TimeSpentQueue": 341,
+  "RealTimeSpentInternally": 87,
+  "RealTimeSpentExternally": 980,
+  "RealTimeSpentQueue": 20,
+  "TimeSpent": 832,
   "HasAttachment": false,
-  "NumReplies": 66,
-  "NumMessages": 178,
-  "FromAddress": "quos",
+  "NumReplies": 837,
+  "NumMessages": 203,
+  "FromAddress": "hic",
   "Messages": [
     {
-      "TicketMessageId": 164,
-      "CreatedAt": "2000-07-29T03:31:27.4342771+02:00",
+      "TicketMessageId": 690,
+      "CreatedAt": "1998-06-12T03:24:48.4560256+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "magnam",
-      "PersonId": 548,
-      "PersonFullName": "Mr. Joe Doug Rodriguez I",
-      "ContactId": 842,
-      "ContactName": "Reichert Inc and Sons",
+      "Important": false,
+      "Author": "rerum",
+      "PersonId": 916,
+      "PersonFullName": "Domenico Gutmann",
+      "ContactId": 257,
+      "ContactName": "Schmitt Group",
       "ContactDepartment": "",
-      "NumAttachments": 88,
-      "EmailHeader": "adonis@schuster.com",
+      "NumAttachments": 118,
+      "EmailHeader": "tremayne@beattyemmerich.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "ea",
-      "Sentiment": 834,
-      "SentimentConfidence": 868,
-      "CreatedBy": 206,
-      "ChangedAt": "2023-05-29T03:31:27.4342771+02:00",
+      "Language": "rerum",
+      "Sentiment": 628,
+      "SentimentConfidence": 806,
+      "CreatedBy": 858,
+      "ChangedAt": "2014-12-29T03:24:48.4560256+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 948
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 223,
-      "Name": "Jewess, Fisher and Veum",
-      "ToolTip": "Adipisci et.",
+      "Id": 813,
+      "Name": "Rogahn Inc and Sons",
+      "ToolTip": "Consequuntur itaque voluptate.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 889
         }
       }
     },
     {
-      "Id": 223,
-      "Name": "Jewess, Fisher and Veum",
-      "ToolTip": "Adipisci et.",
+      "Id": 813,
+      "Name": "Rogahn Inc and Sons",
+      "ToolTip": "Consequuntur itaque voluptate.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 889
         }
       }
     }
   ],
-  "Language": "debitis",
-  "Sentiment": 702,
-  "SentimentConfidence": 796,
-  "SuggestedCategoryId": 839,
+  "Language": "omnis",
+  "Sentiment": 909,
+  "SentimentConfidence": 180,
+  "SuggestedCategoryId": 560,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 629,
-  "IconHint": "aspernatur",
+  "OrigHumanCategoryId": 604,
+  "IconHint": "optio",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "laborum"
+    "CustomFields1": "cum",
+    "CustomFields2": "ipsum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 961
     }
   }
 }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Purdy Inc and Sons",
-    "SaleDate": "2001-10-29T03:31:27.1999504+01:00",
-    "SaleId": 578,
-    "Probability": 666,
-    "Title": "eos",
-    "Amount": 26582.588,
-    "Currency": "quo",
-    "ProjectName": "Wolff Group",
-    "AssociateFullName": "Miss Lorine Connelly",
-    "Description": "Mandatory discrete time-frame",
+    "ContactName": "Hammes, Medhurst and Dickinson",
+    "SaleDate": "2007-01-21T03:24:48.2207231+01:00",
+    "SaleId": 868,
+    "Probability": 700,
+    "Title": "voluptatem",
+    "Amount": 29644.505999999998,
+    "Currency": "esse",
+    "ProjectName": "Hane-Jaskolski",
+    "AssociateFullName": "Mrs. Glenna Heller",
+    "Description": "Function-based tangible ability",
     "Status": "Lost",
-    "WeightedAmount": 15528.97,
-    "ProjectId": 863,
-    "EarningPercent": 18888.618,
-    "Earning": 26761.226,
-    "ContactId": 232,
-    "AssociateId": 439,
-    "PersonId": 711,
-    "SaleTypeId": 744,
-    "SaleTypeName": "Aufderhar LLC",
-    "PersonFullName": "Zetta Hackett",
+    "WeightedAmount": 15422.413999999999,
+    "ProjectId": 177,
+    "EarningPercent": 11918.601999999999,
+    "Earning": 1087.498,
+    "ContactId": 381,
+    "AssociateId": 203,
+    "PersonId": 699,
+    "SaleTypeId": 484,
+    "SaleTypeName": "Lockman LLC",
+    "PersonFullName": "Ray Krystel Spinka V",
     "Completed": "Completed",
-    "ActiveErpLinks": 157,
-    "NextDueDate": "1999-05-04T03:31:27.1999504+02:00",
-    "Number": "1766079",
+    "ActiveErpLinks": 267,
+    "NextDueDate": "1997-03-01T03:24:48.2207231+01:00",
+    "Number": "1685961",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 720
       }
     }
   }

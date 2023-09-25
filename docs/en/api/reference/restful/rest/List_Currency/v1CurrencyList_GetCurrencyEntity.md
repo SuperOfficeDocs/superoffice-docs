@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 21,
-  "Name": "Waters-Hayes",
-  "Tooltip": "aut",
-  "Rank": 74,
-  "Rate": 7377.436,
-  "Units": 8935.034,
+  "CurrencyId": 909,
+  "Name": "Padberg-Renner",
+  "Tooltip": "enim",
+  "Rank": 885,
+  "Rate": 12670.761999999999,
+  "Units": 347.87399999999997,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

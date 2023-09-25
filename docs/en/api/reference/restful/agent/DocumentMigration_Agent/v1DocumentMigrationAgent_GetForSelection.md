@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 365,
-  "SelectionId": 582,
-  "IncludeEmails": false
+  "DocumentPluginId": 971,
+  "SelectionId": 465,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 502,
-  "NumDocumentsAlreadyMigrated": 80,
+  "NumDocumentsOmitted": 434,
+  "NumDocumentsAlreadyMigrated": 65,
   "Documents": [
     {
-      "DocumentId": 405,
-      "ContactId": 214,
-      "PersonId": 442,
-      "SaleId": 574,
-      "ProjectId": 874,
-      "DocTmplId": 181,
-      "AssociateId": 823,
-      "UserGroupId": 35,
-      "VisibleForId": 923
+      "DocumentId": 536,
+      "ContactId": 594,
+      "PersonId": 329,
+      "SaleId": 613,
+      "ProjectId": 116,
+      "DocTmplId": 159,
+      "AssociateId": 151,
+      "UserGroupId": 589,
+      "VisibleForId": 247
     }
   ],
   "Associates": [
     {
-      "AssociateId": 131,
-      "EmailAddress": "eric.windler@okon.ca"
+      "AssociateId": 803,
+      "EmailAddress": "vallie@littel.ca"
     },
     {
-      "AssociateId": 131,
-      "EmailAddress": "eric.windler@okon.ca"
+      "AssociateId": 803,
+      "EmailAddress": "vallie@littel.ca"
     }
   ]
 }

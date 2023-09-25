@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 231
+  "AssociateId": 714
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 889,
-    "ERPName": "Mohr, Vandervort and Walsh",
-    "DisplayName": "Berge, Bernier and Pacocha",
-    "DisplayDescription": "Seamless demand-driven customer loyalty",
-    "Rank": 268,
-    "ConnectorName": "Gleichner LLC",
-    "ErpConnectionId": 923,
-    "ExtraData": "deserunt",
-    "IsAvailable": false,
+    "QuoteConnectionId": 330,
+    "ERPName": "Sipes Group",
+    "DisplayName": "McDermott, Carroll and Sawayn",
+    "DisplayDescription": "Stand-alone bi-directional moratorium",
+    "Rank": 246,
+    "ConnectorName": "Little-Lang",
+    "ErpConnectionId": 784,
+    "ExtraData": "vero",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 659,
-        "ERPPriceListKey": "expedita",
-        "QuoteConnectionId": 835,
-        "Name": "Stokes, Funk and Ernser",
-        "Description": "Switchable secondary benchmark",
-        "Currency": "eligendi",
-        "CurrencyName": "Gleason, Beahan and Huels",
-        "ValidFrom": "2001-05-18T03:31:27.0905589+02:00",
-        "ValidTo": "2005-05-02T03:31:27.0905589+02:00",
-        "IsActive": true,
+        "PriceListId": 835,
+        "ERPPriceListKey": "sint",
+        "QuoteConnectionId": 441,
+        "Name": "Schaefer Inc and Sons",
+        "Description": "Multi-layered system-worthy approach",
+        "Currency": "velit",
+        "CurrencyName": "Bins-Brakus",
+        "ValidFrom": "2001-04-24T03:24:48.1426062+02:00",
+        "ValidTo": "2023-04-22T03:24:48.1426062+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 37
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      361,
-      163
+      852,
+      698
     ],
     "AssociateAccessIds": [
-      320,
-      176
+      63,
+      588
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 559
       }
     }
   }

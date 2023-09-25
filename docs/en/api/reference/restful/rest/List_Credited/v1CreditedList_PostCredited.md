@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "O'Conner Inc and Sons",
-  "Tooltip": "odit",
-  "Deleted": false,
-  "UdListDefinitionId": 254,
-  "Rank": 913
+  "Id": 815,
+  "Name": "Bechtelar LLC",
+  "Tooltip": "mollitia",
+  "Deleted": true,
+  "UdListDefinitionId": 730,
+  "Rank": 104
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Jacobson-Bartell",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "UdListDefinitionId": 824,
-  "Rank": 93,
+  "Id": 810,
+  "Name": "Rogahn-Haley",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 206,
+  "Rank": 798,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 650
     }
   }
 }

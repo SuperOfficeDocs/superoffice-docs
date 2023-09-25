@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Auer, Ryan and Dickens",
-  "AssociateId": 830,
-  "DetailsTable": 841,
-  "DetailsRecord": 943,
+  "Id": 789,
+  "Name": "Greenfelder, Parisian and Schinner",
+  "AssociateId": 340,
+  "DetailsTable": 866,
+  "DetailsRecord": 332,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "minima",
-    "ParameterObject2": "aliquid"
+    "ParameterObject1": "placeat",
+    "ParameterObject2": "beatae"
   },
-  "LastStarted": "2023-04-05T03:31:33.2718572+02:00",
-  "Created": "2009-11-24T03:31:33.2718572+01:00",
-  "StartCount": 487,
-  "DatabaseSerialNumber": "902592",
-  "Context": "ut",
-  "Result": "aspernatur",
+  "LastStarted": "2006-08-07T03:24:52.0213616+02:00",
+  "Created": "2015-04-06T03:24:52.0213616+02:00",
+  "StartCount": 780,
+  "DatabaseSerialNumber": "460688",
+  "Context": "nihil",
+  "Result": "vitae",
   "State": "All",
-  "Description": "Horizontal composite hub",
-  "Response": "qui",
-  "Request": "ducimus",
-  "ProgressDescription": "Proactive neutral synergy",
-  "ProgressPercent": 831,
-  "FileName": "O'Kon, Kuhn and Grimes",
+  "Description": "Horizontal incremental firmware",
+  "Response": "sunt",
+  "Request": "iusto",
+  "ProgressDescription": "Upgradable methodical framework",
+  "ProgressPercent": 758,
+  "FileName": "Kiehn, Ortiz and Little",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 504
     }
   }
 }

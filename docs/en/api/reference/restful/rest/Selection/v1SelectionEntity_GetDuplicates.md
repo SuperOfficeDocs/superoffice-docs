@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Cronin, Grant and Hilll",
-    "SoPrimaryKey": 216,
-    "EntryName": "Shanahan-Flatley",
-    "EntryIdentifier": "quas",
-    "RuleDisplayName": "Hand-Beier",
+    "RuleName": "Abshire LLC",
+    "SoPrimaryKey": 259,
+    "EntryName": "King Inc and Sons",
+    "EntryIdentifier": "vero",
+    "RuleDisplayName": "Ernser LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 481
+        "FieldType": "System.Int32",
+        "FieldLength": 995
       }
     }
   }

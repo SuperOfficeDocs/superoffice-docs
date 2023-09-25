@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 837,
-    "Name": "Kihn, Shanahan and Bayer",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 31,
-    "UdListDefinitionId": 680
+    "HeadingId": 214,
+    "Name": "Mosciski, Hodkiewicz and Gerhold",
+    "Tooltip": "impedit",
+    "Deleted": false,
+    "Rank": 977,
+    "UdListDefinitionId": 149
   },
   {
-    "HeadingId": 837,
-    "Name": "Kihn, Shanahan and Bayer",
-    "Tooltip": "non",
-    "Deleted": true,
-    "Rank": 31,
-    "UdListDefinitionId": 680
+    "HeadingId": 214,
+    "Name": "Mosciski, Hodkiewicz and Gerhold",
+    "Tooltip": "impedit",
+    "Deleted": false,
+    "Rank": 977,
+    "UdListDefinitionId": 149
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 956,
-    "Name": "Crist Group",
-    "Tooltip": "facere",
+    "HeadingId": 33,
+    "Name": "Keeling-Heidenreich",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 931,
-    "UdListDefinitionId": 950,
+    "Rank": 885,
+    "UdListDefinitionId": 813,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldLength": 173
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 653,
-    "Name": "Langworth, Hand and Roberts",
-    "Tooltip": "voluptas",
+    "HeadingId": 818,
+    "Name": "Wuckert Inc and Sons",
+    "Tooltip": "soluta",
     "Deleted": true,
-    "Rank": 283,
-    "UdListDefinitionId": 241,
+    "Rank": 436,
+    "UdListDefinitionId": 837,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

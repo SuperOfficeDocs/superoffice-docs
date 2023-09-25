@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 103,
-  "ContactId": 602,
-  "ProjectId": 90,
-  "ContactName": "Jacobs-Jacobi",
+  "ProjectmemberId": 946,
+  "ContactId": 134,
+  "ProjectId": 571,
+  "ContactName": "Ebert, Witting and Rolfson",
   "ContactDepartment": "",
-  "ProjectName": "Moen, Olson and Kerluke",
-  "EmailId": 965,
-  "EmailAddress": "rossie@spinkahackett.name",
-  "CountryId": 441,
-  "Firstname": "Shany",
-  "MiddleName": "Bogan LLC",
-  "Lastname": "Gislason",
-  "PersonId": 203,
-  "Mrmrs": "doloribus",
-  "ProjectMemberTypeName": "Murazik-Mayert",
-  "Phone": "1-372-008-7072 x84074",
-  "PhoneId": 721,
-  "ProjectMemberTypeId": 191,
-  "EmailAddressName": "wilton.jast@prosacco.us",
-  "Comment": "praesentium",
-  "FullName": "Roosevelt O'Reilly",
+  "ProjectName": "Dietrich, Prosacco and Batz",
+  "EmailId": 997,
+  "EmailAddress": "idell@predovic.biz",
+  "CountryId": 798,
+  "Firstname": "Leora",
+  "MiddleName": "Orn, Homenick and Spencer",
+  "Lastname": "Price",
+  "PersonId": 640,
+  "Mrmrs": "omnis",
+  "ProjectMemberTypeName": "Kassulke-Rutherford",
+  "Phone": "566-768-7049",
+  "PhoneId": 354,
+  "ProjectMemberTypeId": 811,
+  "EmailAddressName": "lizeth@mclaughlinokeefe.info",
+  "Comment": "natus",
+  "FullName": "Gillian Prohaska",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

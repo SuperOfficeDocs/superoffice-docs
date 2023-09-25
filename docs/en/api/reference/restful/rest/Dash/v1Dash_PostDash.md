@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 968,
-  "UniqueId": "doloremque",
-  "Name": "Kunde-Schuppe",
-  "Description": "Object-based maximized solution",
-  "AssociateId": 298,
-  "Columns": 405,
+  "DashboardId": 394,
+  "UniqueId": "voluptatem",
+  "Name": "Hudson, Gleichner and Stracke",
+  "Description": "Ergonomic value-added standardization",
+  "AssociateId": 845,
+  "Columns": 253,
   "Theme": null,
-  "VisibleForAll": 450,
+  "VisibleForAll": 699,
   "VisibleForAssociates": [
-    613,
-    949
+    234,
+    579
   ],
   "VisibleForGroups": [
-    715,
-    439
+    574,
+    531
   ],
-  "PinForAll": 289,
+  "PinForAll": 645,
   "PinForAssociates": [
-    864,
-    219
+    221,
+    479
   ],
   "PinForGroups": [
-    115,
-    267
+    419,
+    608
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 445,
-  "UniqueId": "molestiae",
-  "Name": "Boyle Group",
-  "Description": "Visionary real-time benchmark",
-  "AssociateId": 471,
-  "Columns": 657,
+  "DashboardId": 617,
+  "UniqueId": "et",
+  "Name": "Murphy LLC",
+  "Description": "Optimized well-modulated secured line",
+  "AssociateId": 912,
+  "Columns": 631,
   "Theme": null,
-  "VisibleForAll": 491,
+  "VisibleForAll": 782,
   "VisibleForAssociates": [
-    426,
-    762
+    910,
+    536
   ],
   "VisibleForGroups": [
-    650,
-    32
+    23,
+    144
   ],
-  "PinForAll": 133,
+  "PinForAll": 942,
   "PinForAssociates": [
-    897,
-    971
+    565,
+    17
   ],
   "PinForGroups": [
-    952,
-    147
+    569,
+    15
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldType": "System.Int32",
+      "FieldLength": 175
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

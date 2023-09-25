@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 911,
-    "ColumnId": 405,
-    "FieldDefault": "odit",
-    "FieldHeight": 136,
-    "FieldLabel": "dolor",
-    "FieldLeft": 279,
-    "FieldTop": 100,
+    "UDefFieldId": 79,
+    "ColumnId": 110,
+    "FieldDefault": "incidunt",
+    "FieldHeight": 536,
+    "FieldLabel": "fuga",
+    "FieldLeft": 935,
+    "FieldTop": 28,
     "FieldType": "Checkbox",
-    "FieldWidth": 577,
-    "FormatMask": "doloremque",
-    "HideLabel": false,
+    "FieldWidth": 752,
+    "FormatMask": "sed",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 312,
-    "LabelLeft": 659,
-    "LabelTop": 760,
-    "LabelWidth": 748,
-    "LastVersionId": 44,
-    "ListTableId": 380,
-    "IsMandatory": false,
+    "LabelHeight": 538,
+    "LabelLeft": 724,
+    "LabelTop": 794,
+    "LabelWidth": 673,
+    "LastVersionId": 21,
+    "ListTableId": 639,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 196,
-    "ProgId": "itaque",
-    "IsReadOnly": false,
-    "ShortLabel": "nesciunt",
-    "TabOrder": 191,
-    "TextLength": 499,
-    "Tooltip": "sint",
-    "UdefIdentity": 925,
-    "UDListDefinitionId": 834,
+    "Page1LineNo": 235,
+    "ProgId": "similique",
+    "IsReadOnly": true,
+    "ShortLabel": "architecto",
+    "TabOrder": 805,
+    "TextLength": 431,
+    "Tooltip": "sed",
+    "UdefIdentity": 114,
+    "UDListDefinitionId": 316,
     "Justification": "Center",
-    "Version": 944,
-    "TemplateVariableName": "Leffler-Schinner",
+    "Version": 144,
+    "TemplateVariableName": "Langosh LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Koss-Towne",
+    "MdoListName": "Bosco-Durgan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

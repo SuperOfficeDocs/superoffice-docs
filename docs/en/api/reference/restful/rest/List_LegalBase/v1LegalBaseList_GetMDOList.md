@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=pariatur
+GET /api/v1/List/LegalBase/MDOItems?query=est
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Bashirian, Prohaska and Balistreri",
-    "ToolTip": "Ducimus ab nesciunt molestiae sed veritatis in ut.",
+    "Id": 794,
+    "Name": "Schultz LLC",
+    "ToolTip": "Quaerat expedita dolor autem ex non.",
     "Deleted": false,
-    "Rank": 369,
-    "Type": "repellendus",
+    "Rank": 263,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 701,
-        "Name": "Gislason-Tremblay",
-        "ToolTip": "Aut qui facilis autem.",
-        "Deleted": true,
-        "Rank": 129,
-        "Type": "veritatis",
+        "Id": 609,
+        "Name": "Wiza Inc and Sons",
+        "ToolTip": "Fugiat inventore sapiente suscipit.",
+        "Deleted": false,
+        "Rank": 856,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 757,
-        "ExtraInfo": "et",
-        "StyleHint": "itaque",
-        "FullName": "Mr. Gloria Lakin",
+        "IconHint": "enim",
+        "ColorBlock": 679,
+        "ExtraInfo": "enim",
+        "StyleHint": "id",
+        "FullName": "Prof. Francis Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 600
+            "FieldLength": 139
           }
         }
       }
     ],
-    "IconHint": "quos",
-    "ColorBlock": 997,
-    "ExtraInfo": "et",
-    "StyleHint": "harum",
-    "FullName": "Dr. Jaquelin Wilton Conn",
+    "IconHint": "inventore",
+    "ColorBlock": 806,
+    "ExtraInfo": "libero",
+    "StyleHint": "aliquid",
+    "FullName": "Mrs. Rahsaan Melyna Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 741
       }
     }
   }

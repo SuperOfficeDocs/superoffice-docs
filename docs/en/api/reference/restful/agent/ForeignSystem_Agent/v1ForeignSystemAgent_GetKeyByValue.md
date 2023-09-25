@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kirlin, Haley and Rolfson",
-  "DeviceName": "Glover Group",
-  "KeyName": "Ward, Boehm and Fadel",
-  "KeyValue": "minima",
-  "TableName": "Armstrong, Ernser and Klein"
+  "ApplicationName": "Runolfsdottir, Corkery and Lubowitz",
+  "DeviceName": "Langosh Group",
+  "KeyName": "Muller Inc and Sons",
+  "KeyValue": "blanditiis",
+  "TableName": "Zemlak, Hessel and Romaguera"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "autem",
-  "Value": "tempore",
-  "RecordId": 185,
-  "CreatedDate": "2011-12-31T03:31:26.589451+01:00",
-  "UpdatedDate": "2005-08-30T03:31:26.589451+02:00",
-  "UpdatedBy": "tempora",
-  "CreatedBy": "nesciunt",
-  "TableName": "Veum, Hilll and Kerluke",
+  "Key": "dolorem",
+  "Value": "voluptatem",
+  "RecordId": 299,
+  "CreatedDate": "2022-05-03T03:24:47.8145137+02:00",
+  "UpdatedDate": "2011-06-16T03:24:47.8145137+02:00",
+  "UpdatedBy": "quasi",
+  "CreatedBy": "corporis",
+  "TableName": "Kessler LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   }
 }

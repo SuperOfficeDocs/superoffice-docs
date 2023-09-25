@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Heathcote Group",
-  "AdditionalInfo": "nulla",
-  "SearchValue": "alias"
+  "Name": "Welch, Jaskolski and Smitham",
+  "AdditionalInfo": "animi",
+  "SearchValue": "officiis"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Mann-Kreiger",
-    "ToolTip": "Doloribus aperiam vitae qui eos.",
-    "Deleted": true,
-    "Rank": 5,
+    "Id": 662,
+    "Name": "Daniel Inc and Sons",
+    "ToolTip": "Pariatur commodi velit natus aperiam sed expedita officia.",
+    "Deleted": false,
+    "Rank": 3,
     "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Schultz, Prosacco and Roob",
-        "ToolTip": "Eos qui sed qui non soluta.",
+        "Id": 311,
+        "Name": "Thompson-Lueilwitz",
+        "ToolTip": "Est impedit excepturi qui hic animi assumenda.",
         "Deleted": false,
-        "Rank": 3,
-        "Type": "sunt",
+        "Rank": 394,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "hic",
-        "ColorBlock": 775,
-        "ExtraInfo": "eius",
-        "StyleHint": "voluptas",
-        "FullName": "Nora McKenzie II",
+        "IconHint": "aut",
+        "ColorBlock": 186,
+        "ExtraInfo": "et",
+        "StyleHint": "aut",
+        "FullName": "Mr. Johnpaul Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldType": "System.String",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 170,
-    "ExtraInfo": "aut",
-    "StyleHint": "similique",
-    "FullName": "Ilene Barton V",
+    "IconHint": "nihil",
+    "ColorBlock": 980,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "perspiciatis",
+    "FullName": "Isaac Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 492
       }
     }
   }

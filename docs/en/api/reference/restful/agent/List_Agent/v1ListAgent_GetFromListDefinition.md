@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "UdListDefinitionId": 105
+  "Id": 235,
+  "UdListDefinitionId": 292
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 920,
-  "Name": "Cruickshank Inc and Sons",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 362,
-  "Rank": 6,
+  "Id": 599,
+  "Name": "O'Connell-Lockman",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "UdListDefinitionId": 449,
+  "Rank": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 290
+      "FieldLength": 389
     }
   }
 }

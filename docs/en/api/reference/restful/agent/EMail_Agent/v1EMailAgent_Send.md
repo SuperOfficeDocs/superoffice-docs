@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "consectetur",
-      "HTMLBody": "voluptas",
+      "Subject": "possimus",
+      "HTMLBody": "perferendis",
       "From": null,
-      "Sent": "1996-10-07T03:31:26.401997+02:00",
-      "Size": 425,
+      "Sent": "2000-05-02T03:24:47.705153+02:00",
+      "Size": 901,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "alias",
-      "PlainBody": "dolores",
-      "IsSent": true,
+      "MessageID": "ipsum",
+      "PlainBody": "modi",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 247,
+      "ServerId": 696,
       "Attachments": [
         {},
         {}
@@ -138,12 +138,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Conn-Cummerata",
-      "EmailItemId": 336,
-      "AccountId": 89,
-      "ReceivedAt": "2021-05-20T03:31:26.401997+02:00",
+      "FolderName": "Kuhn Group",
+      "EmailItemId": 700,
+      "AccountId": 905,
+      "ReceivedAt": "1999-06-16T03:24:47.705153+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2004-06-05T03:31:26.401997+02:00",
+      "RepliedAt": "2021-06-07T03:24:47.705153+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 146,
-        "ContactName": "Quigley Group",
-        "PersonId": 207,
-        "PersonName": "Ankunding, Hettinger and VonRueden",
-        "AssociateId": 902,
-        "Address": "perferendis",
-        "EmailId": 616,
+        "ContactId": 7,
+        "ContactName": "Kuhic, Grimes and Schiller",
+        "PersonId": 828,
+        "PersonName": "Little Group",
+        "AssociateId": 130,
+        "Address": "quidem",
+        "EmailId": 772,
         "DuplicatePersonIds": [
-          995,
-          445
+          748,
+          366
         ],
-        "Name": "Parisian LLC",
+        "Name": "Abernathy-Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldLength": 492
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 989,
-        "ContactName": "Schowalter-Larkin",
-        "PersonId": 416,
-        "PersonName": "Effertz, Reichert and Schimmel",
-        "AssociateId": 761,
-        "Address": "perferendis",
-        "EmailId": 453,
+        "ContactId": 857,
+        "ContactName": "Terry Inc and Sons",
+        "PersonId": 893,
+        "PersonName": "Considine-Lind",
+        "AssociateId": 78,
+        "Address": "sunt",
+        "EmailId": 560,
         "DuplicatePersonIds": [
-          77,
-          688
+          823,
+          260
         ],
-        "Name": "Jacobi-Nicolas",
+        "Name": "Connelly LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 450
+            "FieldLength": 181
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 424,
-        "ContactName": "Leuschke, Cremin and Gusikowski",
-        "PersonId": 641,
-        "PersonName": "Botsford-Cormier",
-        "AssociateId": 448,
-        "Address": "et",
-        "EmailId": 232,
+        "ContactId": 132,
+        "ContactName": "O'Conner-Durgan",
+        "PersonId": 791,
+        "PersonName": "O'Conner Group",
+        "AssociateId": 166,
+        "Address": "harum",
+        "EmailId": 534,
         "DuplicatePersonIds": [
-          522,
-          717
+          400,
+          419
         ],
-        "Name": "Bauch LLC",
+        "Name": "Ward Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 313
+            "FieldLength": 501
           }
         }
       }
     ],
-    "Subject": "totam",
-    "HTMLBody": "libero",
+    "Subject": "voluptates",
+    "HTMLBody": "sed",
     "From": null,
-    "Sent": "2005-12-21T03:31:26.4176181+01:00",
-    "Size": 545,
+    "Sent": "2001-06-05T03:24:47.705153+02:00",
+    "Size": 155,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "ex",
-    "PlainBody": "possimus",
+    "MessageID": "recusandae",
+    "PlainBody": "amet",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 921,
+    "ServerId": 371,
     "Attachments": [
       {
-        "Description": "Robust stable forecast",
-        "Filename": "a",
-        "Size": 681,
-        "Type": "consequatur",
-        "Encoding": "porro",
-        "Id": "alias",
-        "Disposition": "vel",
+        "Description": "Virtual well-modulated groupware",
+        "Filename": "eius",
+        "Size": 63,
+        "Type": "quas",
+        "Encoding": "itaque",
+        "Id": "illum",
+        "Disposition": "id",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,49 +260,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 492
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Kuhlman, Collier and Gibson",
+        "Name": "Runolfsson-Wuckert",
         "Values": [
-          "quam",
-          "odit"
+          "laudantium",
+          "error"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 644
+            "FieldType": "System.Int32",
+            "FieldLength": 805
           }
         }
       },
       {
-        "Name": "Kuhlman, Collier and Gibson",
+        "Name": "Runolfsson-Wuckert",
         "Values": [
-          "quam",
-          "odit"
+          "laudantium",
+          "error"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 644
+            "FieldType": "System.Int32",
+            "FieldLength": 805
           }
         }
       }
     ],
-    "FolderName": "Okuneva-Lockman",
-    "EmailItemId": 992,
-    "AccountId": 99,
-    "ReceivedAt": "2017-01-03T03:31:26.4176181+01:00",
+    "FolderName": "Reynolds, Muller and Barton",
+    "EmailItemId": 165,
+    "AccountId": 237,
+    "ReceivedAt": "2018-08-27T03:24:47.705153+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2013-05-24T03:31:26.4176181+02:00",
+    "RepliedAt": "2014-11-20T03:24:47.705153+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 115
       }
     }
   }

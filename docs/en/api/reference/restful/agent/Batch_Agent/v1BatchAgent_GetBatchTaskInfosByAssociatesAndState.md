@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    145,
-    513
+    653,
+    855
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Rowe Inc and Sons",
-    "AssociateId": 811,
-    "DetailsTable": 994,
-    "DetailsRecord": 759,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 28,
+    "Name": "Breitenberg Group",
+    "AssociateId": 476,
+    "DetailsTable": 707,
+    "DetailsRecord": 729,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "facilis",
-      "ParameterObject2": "dignissimos"
+      "ParameterObject1": "repellendus",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "1996-11-25T03:31:25.6496314+01:00",
-    "Created": "2010-11-02T03:31:25.6496314+01:00",
-    "StartCount": 690,
-    "DatabaseSerialNumber": "1030716",
-    "Context": "similique",
-    "Result": "rerum",
+    "LastStarted": "2003-01-17T03:24:47.2520803+01:00",
+    "Created": "2002-07-22T03:24:47.2520803+02:00",
+    "StartCount": 272,
+    "DatabaseSerialNumber": "358200",
+    "Context": "est",
+    "Result": "saepe",
     "State": "All",
-    "Description": "Mandatory analyzing moratorium",
-    "Response": "praesentium",
-    "Request": "quam",
-    "ProgressDescription": "Expanded exuding alliance",
-    "ProgressPercent": 185,
-    "FileName": "Stokes-Konopelski",
+    "Description": "Configurable system-worthy utilisation",
+    "Response": "aut",
+    "Request": "qui",
+    "ProgressDescription": "Realigned stable workforce",
+    "ProgressPercent": 998,
+    "FileName": "Keeling-Durgan",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 881
       }
     }
   }

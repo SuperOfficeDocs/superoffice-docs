@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 251,
-  "TopicId": 332,
+  "ChatSessionId": 721,
+  "TopicId": 341,
   "User": null,
   "Person": null,
-  "CustomerAlias": "magni",
-  "CustomerHost": "aliquam",
-  "CustomerName": "Gleichner Inc and Sons",
-  "CustomerEmail": "maye@leuschkemurazik.us",
-  "CustomerPhone": "(093)790-6482",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "tempora",
+  "CustomerName": "Olson Group",
+  "CustomerEmail": "isaias@schowalter.co.uk",
+  "CustomerPhone": "060-442-9184 x7165",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lynch, Erdman and Dicki",
+  "CustomerCompanyName": "Schultz Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "rem",
-  "LastMessage": "explicabo",
-  "WhenRequested": "2002-09-15T03:31:32.3164835+02:00",
-  "WhenStarted": "2020-01-23T03:31:32.3164835+01:00",
-  "WhenEnded": "2009-03-21T03:31:32.3164835+01:00",
-  "WhenIdle": "2010-01-26T03:31:32.3164835+01:00",
-  "WhenFetched": "2008-03-25T03:31:32.3164835+01:00",
-  "SessionKey": "inventore",
-  "InitialQueuePos": 655,
-  "AlertLevel": 474,
-  "Rank": 527,
+  "FirstMessage": "ducimus",
+  "LastMessage": "blanditiis",
+  "WhenRequested": "2005-12-31T03:24:51.4117024+01:00",
+  "WhenStarted": "2009-03-30T03:24:51.4117024+02:00",
+  "WhenEnded": "1999-06-10T03:24:51.4117024+02:00",
+  "WhenIdle": "2004-12-24T03:24:51.4117024+01:00",
+  "WhenFetched": "2004-02-14T03:24:51.4117024+01:00",
+  "SessionKey": "dolorum",
+  "InitialQueuePos": 595,
+  "AlertLevel": 299,
+  "Rank": 811,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 312,
+  "ChatbotIsActive": true,
+  "Rating": 725,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 740
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 572,
-    "Name": "King Group",
-    "Tooltip": "odio",
-    "Deleted": false,
-    "Rank": 12,
+    "WebPanelId": 54,
+    "Name": "Nolan Inc and Sons",
+    "Tooltip": "ullam",
+    "Deleted": true,
+    "Rank": 465,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Heidenreich, Vandervort and Orn",
+    "ShowInStatusBar": false,
+    "WindowName": "King Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "in",
-    "Icon": 29,
+    "ProgId": "ullam",
+    "Icon": 970,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 591
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   }

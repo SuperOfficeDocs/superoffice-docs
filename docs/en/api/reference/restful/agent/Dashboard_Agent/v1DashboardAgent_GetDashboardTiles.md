@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    551,
-    211
+    279,
+    297
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 320,
-    "Caption": "minus",
-    "Description": "Robust upward-trending utilisation",
-    "ChartName": "Considine-O'Conner",
-    "ChartId": "accusantium",
+    "DashboardTileId": 578,
+    "Caption": "reiciendis",
+    "Description": "User-centric scalable framework",
+    "ChartName": "Harber LLC",
+    "ChartId": "hic",
     "IsDefault": false,
-    "AssociateId": 131,
-    "GroupId": 312,
-    "SelectionId": 153,
-    "Config": "harum",
+    "AssociateId": 639,
+    "GroupId": 817,
+    "SelectionId": 941,
+    "Config": "non",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Schoen-Boehm",
-        "Description": "Mandatory dynamic access",
+        "Name": "Goyette Inc and Sons",
+        "Description": "Managed optimal concept",
         "Type": "Boolean",
-        "ListName": "Zieme-Stoltenberg",
+        "ListName": "Cremin-Kihn",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "assumenda",
-        "DefaultDataOption": true,
+        "Value": "aut",
+        "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldType": "System.String",
+            "FieldLength": 117
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 587,
+        "VisibleId": 741,
         "Visibility": "All",
-        "DisplayValue": "illum",
+        "DisplayValue": "iure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldType": "System.String",
+            "FieldLength": 906
           }
         }
       },
       {
-        "VisibleId": 587,
+        "VisibleId": 741,
         "Visibility": "All",
-        "DisplayValue": "illum",
+        "DisplayValue": "iure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldType": "System.String",
+            "FieldLength": 906
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 754
       }
     }
   }

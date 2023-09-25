@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 158,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "possimus",
+  "Id": 807,
+  "Name": "Jast Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 466,
-  "Rank": 164
+  "UdListDefinitionId": 167,
+  "Rank": 578
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Mertz Inc and Sons",
-  "Tooltip": "perspiciatis",
+  "Id": 308,
+  "Name": "Green Group",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 898,
-  "Rank": 591,
+  "UdListDefinitionId": 825,
+  "Rank": 710,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 833
     }
   }
 }

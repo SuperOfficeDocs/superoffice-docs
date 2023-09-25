@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Schiller, Schulist and Ryan",
-  "Tooltip": "dolorem",
+  "Id": 245,
+  "Name": "Bruen Group",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 525,
-  "Rank": 925,
+  "UdListDefinitionId": 487,
+  "Rank": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 837
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

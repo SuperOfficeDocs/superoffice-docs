@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 507,
-    "Name": "Conroy Inc and Sons",
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
-    "Rank": 255,
-    "UdListDefinitionId": 97,
+    "HeadingId": 104,
+    "Name": "Hoppe, Bins and Crona",
+    "Tooltip": "exercitationem",
+    "Deleted": true,
+    "Rank": 979,
+    "UdListDefinitionId": 479,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldType": "System.String",
+        "FieldLength": 94
       }
     }
   }

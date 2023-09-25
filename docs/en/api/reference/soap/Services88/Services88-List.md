@@ -1238,6 +1238,7 @@ title: Services88.ListAgent WSDL
               <xs:element minOccurs="0" name="TicketPriorities" nillable="true" type="q11:ArrayOfint" xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ReplyTemplate" type="xs:int" />
               <xs:element minOccurs="0" name="IsExternalVisible" type="xs:boolean" />
+              <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

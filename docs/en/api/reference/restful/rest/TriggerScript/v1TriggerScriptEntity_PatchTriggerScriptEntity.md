@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "doloribus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "doloribus",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 821,
-  "Name": "Walker, Corkery and Hansen",
+  "ScreenChooserId": 645,
+  "Name": "Harber, Gutmann and Schaefer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "perspiciatis",
-  "Registered": "1998-10-31T03:31:33.2718572+01:00",
-  "RegisteredAssociateId": 543,
-  "Updated": "2016-12-10T03:31:33.2718572+01:00",
-  "UpdatedAssociateId": 933,
+  "Enabled": true,
+  "UniqueIdentifier": "perspiciatis",
+  "Source": "dolores",
+  "Registered": "2008-03-17T03:24:52.0213616+01:00",
+  "RegisteredAssociateId": 247,
+  "Updated": "2019-12-02T03:24:52.0213616+01:00",
+  "UpdatedAssociateId": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldLength": 329
     }
   },
   "_Links": {

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Kreiger Inc and Sons",
-    "ToolTip": "Nisi aperiam nam minima.",
+    "Id": 428,
+    "Name": "Hammes, Kutch and Shields",
+    "ToolTip": "Deserunt debitis pariatur.",
     "Deleted": false,
-    "Rank": 553,
-    "Type": "accusamus",
-    "ColorBlock": 614,
-    "IconHint": "odit",
+    "Rank": 302,
+    "Type": "quod",
+    "ColorBlock": 848,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "1998-01-01T03:31:33.5698483+01:00",
+    "LastChanged": "2015-06-15T03:24:52.2244666+02:00",
     "ChildItems": [
       {
-        "Id": 5,
-        "Name": "Gislason-Hansen",
-        "ToolTip": "Officia et.",
+        "Id": 991,
+        "Name": "Gulgowski Inc and Sons",
+        "ToolTip": "Placeat repellendus vel eligendi nam minus.",
         "Deleted": false,
-        "Rank": 674,
-        "Type": "voluptatem",
-        "ColorBlock": 596,
-        "IconHint": "reprehenderit",
-        "Selected": true,
-        "LastChanged": "2002-10-20T03:31:33.5698483+02:00",
+        "Rank": 239,
+        "Type": "aut",
+        "ColorBlock": 594,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2011-08-20T03:24:52.2244666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Herta Wyman"
+        "ExtraInfo": "veritatis",
+        "StyleHint": "vero",
+        "Hidden": false,
+        "FullName": "Maggie Romaguera"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "sint",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "reprehenderit",
     "Hidden": false,
-    "FullName": "Alessandra Dickinson"
+    "FullName": "Alexys Thiel IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Ullrich Group",
-    "ToolTip": "Laudantium quis sint omnis exercitationem incidunt voluptas delectus.",
-    "Deleted": true,
-    "Rank": 594,
-    "Type": "sed",
-    "ColorBlock": 705,
-    "IconHint": "quis",
+    "Id": 149,
+    "Name": "Little, Christiansen and O'Hara",
+    "ToolTip": "Eius delectus eius ea nobis dolores.",
+    "Deleted": false,
+    "Rank": 702,
+    "Type": "suscipit",
+    "ColorBlock": 822,
+    "IconHint": "nemo",
     "Selected": true,
-    "LastChanged": "2022-02-15T03:31:33.5698483+01:00",
+    "LastChanged": "2018-03-01T03:24:52.2244666+01:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Ankunding Inc and Sons",
-        "ToolTip": "Rerum magnam qui ad veritatis magnam.",
+        "Id": 537,
+        "Name": "Huel, Koch and Walsh",
+        "ToolTip": "Temporibus minima suscipit.",
         "Deleted": false,
-        "Rank": 872,
-        "Type": "earum",
-        "ColorBlock": 568,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2010-03-16T03:31:33.5698483+01:00",
+        "Rank": 608,
+        "Type": "maiores",
+        "ColorBlock": 484,
+        "IconHint": "soluta",
+        "Selected": false,
+        "LastChanged": "1997-06-06T03:24:52.2244666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Dr. Orland Friedrich Kutch",
+        "ExtraInfo": "soluta",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Giovani Collins Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 434
+            "FieldLength": 349
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Aylin Marquardt",
+    "ExtraInfo": "atque",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Tyshawn Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 832
+        "FieldType": "System.Int32",
+        "FieldLength": 843
       }
     }
   }

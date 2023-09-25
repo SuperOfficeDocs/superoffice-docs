@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 798,
-    "Name": "Rippin-Lesch",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "Rank": 144,
-    "UdListDefinitionId": 725
+    "HeadingId": 589,
+    "Name": "VonRueden, Weissnat and Osinski",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 162,
+    "UdListDefinitionId": 536
   },
   {
-    "HeadingId": 798,
-    "Name": "Rippin-Lesch",
-    "Tooltip": "debitis",
-    "Deleted": false,
-    "Rank": 144,
-    "UdListDefinitionId": 725
+    "HeadingId": 589,
+    "Name": "VonRueden, Weissnat and Osinski",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 162,
+    "UdListDefinitionId": 536
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 802,
-    "Name": "Gibson-O'Connell",
-    "Tooltip": "in",
+    "HeadingId": 421,
+    "Name": "Leffler LLC",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 971,
-    "UdListDefinitionId": 871,
+    "Rank": 547,
+    "UdListDefinitionId": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldType": "System.Int32",
+        "FieldLength": 883
       }
     }
   }

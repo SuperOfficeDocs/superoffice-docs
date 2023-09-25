@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    358,
-    709
+    325,
+    209
   ],
   "UpdateRepliedAt": false
 }
@@ -122,78 +122,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 55,
+  "EjMessageId": 305,
   "Ticket": null,
-  "CreatedAt": "2005-05-26T03:31:27.7009841+02:00",
+  "CreatedAt": "2001-07-26T03:24:48.5028909+02:00",
   "CreatedBy": null,
-  "Author": "eum",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maxime",
-  "TimeSpent": 784,
-  "Body": "hic",
-  "HtmlBody": "aut",
-  "EmailHeader": "nicola@conn.co.uk",
-  "DebugInfo": "eos",
-  "MailSorter": "qui",
+  "MessageId": "quam",
+  "TimeSpent": 851,
+  "Body": "ut",
+  "HtmlBody": "recusandae",
+  "EmailHeader": "chaim@kovacek.biz",
+  "DebugInfo": "quisquam",
+  "MailSorter": "tempora",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nam",
+  "SearchTitle": "voluptatum",
   "MessageHeaders": [
     {
-      "Id": 735,
-      "Name": "Kuvalis-Fahey",
-      "Value": "ipsum",
+      "Id": 714,
+      "Name": "Franecki-Weissnat",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 601
+          "FieldType": "System.Int32",
+          "FieldLength": 396
         }
       }
     }
   ],
   "Important": false,
-  "Language": "enim",
-  "Sentiment": 110,
-  "SentimentConfidence": 782,
+  "Language": "velit",
+  "Sentiment": 951,
+  "SentimentConfidence": 445,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 520,
-      "Name": "Wolff, Durgan and Mertz",
-      "ContentType": "quis",
-      "AttSize": 18,
+      "AttachmentId": 402,
+      "Name": "Schoen Inc and Sons",
+      "ContentType": "hic",
+      "AttSize": 876,
       "InlineImage": false,
-      "ContentId": "magnam",
-      "AuthKey": "esse",
+      "ContentId": "est",
+      "AuthKey": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldLength": 15
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "dignissimos",
-    "CustomFields2": "quidem"
+    "CustomFields1": "aut",
+    "CustomFields2": "animi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldLength": 842
     }
   }
 }

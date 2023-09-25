@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Nitzsche-Kuvalis",
-    "ToolTip": "Ea id.",
+    "Id": 267,
+    "Name": "Osinski-Moore",
+    "ToolTip": "Aut repudiandae.",
     "Deleted": false,
-    "Rank": 672,
-    "Type": "ipsam",
-    "ColorBlock": 57,
-    "IconHint": "odio",
+    "Rank": 220,
+    "Type": "vel",
+    "ColorBlock": 752,
+    "IconHint": "vel",
     "Selected": true,
-    "LastChanged": "2016-10-17T03:31:33.6167125+02:00",
+    "LastChanged": "2013-11-13T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 606,
-        "Name": "Medhurst Group",
-        "ToolTip": "Fuga temporibus.",
+        "Id": 834,
+        "Name": "Nolan Inc and Sons",
+        "ToolTip": "Sit ut.",
         "Deleted": false,
-        "Rank": 541,
-        "Type": "repellat",
-        "ColorBlock": 942,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2006-11-25T03:31:33.6167125+01:00",
+        "Rank": 194,
+        "Type": "recusandae",
+        "ColorBlock": 338,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2005-06-03T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Laron Wehner PhD"
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "vitae",
+        "Hidden": true,
+        "FullName": "Tyler Kreiger"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "rerum",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Miss Dedric Durgan II"
+    "FullName": "Edward Reynolds DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Farrell Inc and Sons",
-    "ToolTip": "Neque et dolorem quidem ut officia a.",
-    "Deleted": true,
-    "Rank": 56,
-    "Type": "provident",
-    "ColorBlock": 672,
-    "IconHint": "nesciunt",
+    "Id": 261,
+    "Name": "Wiza, Russel and Bednar",
+    "ToolTip": "Accusamus dicta dolores.",
+    "Deleted": false,
+    "Rank": 9,
+    "Type": "sapiente",
+    "ColorBlock": 192,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2013-02-08T03:31:33.6167125+01:00",
+    "LastChanged": "2007-12-14T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 552,
-        "Name": "Sawayn-Jacobs",
-        "ToolTip": "Incidunt ipsam est omnis sed.",
+        "Id": 710,
+        "Name": "Sporer LLC",
+        "ToolTip": "Eum autem quae.",
         "Deleted": false,
         "Rank": 728,
-        "Type": "provident",
-        "ColorBlock": 756,
-        "IconHint": "dicta",
+        "Type": "rerum",
+        "ColorBlock": 546,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1998-12-07T03:31:33.6167125+01:00",
+        "LastChanged": "2006-04-07T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Miss Kristofer Carson Abshire",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Miss Joannie Swaniawski DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 365
+            "FieldLength": 460
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "qui",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Jedediah Rutherford",
+    "FullName": "Jillian Roob III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 34
       }
     }
   }

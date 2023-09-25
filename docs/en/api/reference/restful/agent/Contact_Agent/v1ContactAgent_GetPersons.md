@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 663
+  "ContactId": 694
 }
 ```
 
@@ -128,52 +128,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "consequatur",
-    "PersonId": 551,
-    "Mrmrs": "quasi",
-    "Firstname": "Kaden",
-    "Lastname": "Hane",
-    "MiddleName": "Gaylord-Ortiz",
-    "Title": "culpa",
-    "Description": "Function-based discrete orchestration",
-    "Email": "frederik_senger@heathcote.ca",
-    "FullName": "Kristin Kub",
-    "DirectPhone": "(448)533-7818 x89768",
-    "FormalName": "Mayer Inc and Sons",
-    "CountryId": 98,
-    "ContactId": 394,
-    "ContactName": "Strosin, D'Amore and Baumbach",
-    "Retired": 429,
-    "Rank": 454,
-    "ActiveInterests": 455,
+    "Position": "eos",
+    "PersonId": 798,
+    "Mrmrs": "qui",
+    "Firstname": "Vergie",
+    "Lastname": "Cole",
+    "MiddleName": "Stoltenberg Group",
+    "Title": "necessitatibus",
+    "Description": "Organized well-modulated pricing structure",
+    "Email": "warren@okuneva.co.uk",
+    "FullName": "Mrs. Randi Zulauf",
+    "DirectPhone": "(985)883-9156",
+    "FormalName": "Hilll Group",
+    "CountryId": 855,
+    "ContactId": 396,
+    "ContactName": "Kuvalis Group",
+    "Retired": 110,
+    "Rank": 773,
+    "ActiveInterests": 293,
     "ContactDepartment": "",
-    "ContactCountryId": 184,
-    "ContactOrgNr": "1050105",
-    "FaxPhone": "1-744-662-9486 x5795",
-    "MobilePhone": "664-810-1602 x461",
-    "ContactPhone": "062-637-7811",
-    "AssociateName": "Goyette-Fritsch",
-    "AssociateId": 755,
-    "UsePersonAddress": false,
-    "ContactFax": "ut",
-    "Kanafname": "saepe",
-    "Kanalname": "a",
-    "Post1": "consequatur",
-    "Post2": "occaecati",
-    "Post3": "in",
-    "EmailName": "hipolito@hirthe.biz",
-    "ContactFullName": "Mr. Walter Tatum McCullough",
-    "ActiveErpLinks": 226,
-    "TicketPriorityId": 22,
-    "SupportLanguageId": 439,
-    "SupportAssociateId": 707,
+    "ContactCountryId": 430,
+    "ContactOrgNr": "817513",
+    "FaxPhone": "735.650.1017",
+    "MobilePhone": "1-924-920-5958 x497",
+    "ContactPhone": "(009)880-5009",
+    "AssociateName": "Bogan-Blick",
+    "AssociateId": 300,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "iusto",
+    "Kanalname": "unde",
+    "Post1": "est",
+    "Post2": "facere",
+    "Post3": "soluta",
+    "EmailName": "alayna.larkin@kunze.com",
+    "ContactFullName": "Hazle Brakus",
+    "ActiveErpLinks": 913,
+    "TicketPriorityId": 879,
+    "SupportLanguageId": 214,
+    "SupportAssociateId": 892,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldType": "System.String",
+        "FieldLength": 872
       }
     }
   }

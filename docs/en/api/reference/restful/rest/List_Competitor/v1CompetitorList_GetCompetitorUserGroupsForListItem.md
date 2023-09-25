@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 190,
-    "Name": "Tremblay-Okuneva",
-    "ToolTip": "Voluptate recusandae.",
+    "Id": 155,
+    "Name": "Hirthe LLC",
+    "ToolTip": "Quis dolorem.",
     "Deleted": false,
-    "Rank": 752,
-    "Type": "mollitia",
-    "ColorBlock": 579,
-    "IconHint": "nobis",
+    "Rank": 165,
+    "Type": "eos",
+    "ColorBlock": 970,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2023-05-15T03:31:33.5073635+02:00",
+    "LastChanged": "1998-12-16T03:24:52.1775959+01:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Carroll-O'Conner",
-        "ToolTip": "Facere est.",
+        "Id": 324,
+        "Name": "Pfannerstill-Huels",
+        "ToolTip": "Ut est iusto.",
         "Deleted": false,
-        "Rank": 61,
-        "Type": "reiciendis",
-        "ColorBlock": 1001,
-        "IconHint": "alias",
-        "Selected": true,
-        "LastChanged": "2008-01-04T03:31:33.5073635+01:00",
+        "Rank": 744,
+        "Type": "dignissimos",
+        "ColorBlock": 951,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "1998-06-18T03:24:52.1775959+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "molestias",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Mrs. Josh D'Amore Jr.",
+        "FullName": "Ms. Yadira Agustin Hamill III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldType": "System.String",
+            "FieldLength": 957
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "molestias",
+    "ExtraInfo": "sint",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Prof. Cora Creola Nienow",
+    "FullName": "Karli Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 675
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Runte Inc and Sons",
-    "ToolTip": "Qui asperiores molestias ut.",
-    "Deleted": false,
-    "Rank": 31,
-    "Type": "in",
-    "ColorBlock": 891,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "1999-08-29T03:31:33.8835899+02:00",
+    "Id": 10,
+    "Name": "McKenzie, Bartoletti and Green",
+    "ToolTip": "Numquam qui earum architecto magni.",
+    "Deleted": true,
+    "Rank": 211,
+    "Type": "ut",
+    "ColorBlock": 316,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2002-07-02T03:24:52.4119449+02:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Gleason LLC",
-        "ToolTip": "Et quae rerum reiciendis eius consequatur.",
-        "Deleted": false,
-        "Rank": 95,
-        "Type": "cum",
-        "ColorBlock": 896,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2000-03-13T03:31:33.8835899+01:00",
+        "Id": 301,
+        "Name": "Carter LLC",
+        "ToolTip": "Nesciunt aut voluptates voluptatibus quas dolore dolore.",
+        "Deleted": true,
+        "Rank": 996,
+        "Type": "autem",
+        "ColorBlock": 595,
+        "IconHint": "cum",
+        "Selected": false,
+        "LastChanged": "2006-02-24T03:24:52.4119449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Heather Jacobi",
+        "FullName": "Layne Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 294
+            "FieldType": "System.String",
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "Edward Carter",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Arturo Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldType": "System.Int32",
+        "FieldLength": 392
       }
     }
   }

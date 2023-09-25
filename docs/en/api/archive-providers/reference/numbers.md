@@ -15,11 +15,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Archive provider for the list of userpreferences
 
 Blah...
-
+<para />
 blah....
-
+<para />
 ...
-
+<para />
 ........
 
 ## Supported Entities
@@ -82,7 +82,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Numbers?$select=nextnum,updated_associate/mrMrs
+GET /api/v1/archive/Numbers?$select=field,nextnum,updated_associate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

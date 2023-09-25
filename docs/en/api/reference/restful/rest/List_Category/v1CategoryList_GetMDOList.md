@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=non
+GET /api/v1/List/Category/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 962,
-    "Name": "Hills-Haag",
-    "ToolTip": "Voluptatem voluptas quae animi esse esse ipsum suscipit.",
+    "Id": 890,
+    "Name": "Reichert, Vandervort and Toy",
+    "ToolTip": "Voluptates vel quos quod natus voluptates repellat voluptas.",
     "Deleted": false,
-    "Rank": 609,
-    "Type": "voluptas",
+    "Rank": 482,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Padberg Inc and Sons",
-        "ToolTip": "Non et excepturi provident.",
-        "Deleted": false,
-        "Rank": 996,
-        "Type": "enim",
+        "Id": 359,
+        "Name": "Hoeger, Moore and Murray",
+        "ToolTip": "Animi maxime voluptatum et ipsam.",
+        "Deleted": true,
+        "Rank": 256,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "doloremque",
-        "ColorBlock": 891,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eveniet",
-        "FullName": "Lucas Metz",
+        "ColorBlock": 594,
+        "ExtraInfo": "vel",
+        "StyleHint": "ut",
+        "FullName": "Prof. Lionel Camille Quigley I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 147
           }
         }
       }
     ],
-    "IconHint": "eos",
-    "ColorBlock": 942,
-    "ExtraInfo": "et",
-    "StyleHint": "dolor",
-    "FullName": "Mr. Israel Felton Connelly",
+    "IconHint": "sed",
+    "ColorBlock": 918,
+    "ExtraInfo": "aut",
+    "StyleHint": "vitae",
+    "FullName": "Christine Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 256
       }
     }
   }

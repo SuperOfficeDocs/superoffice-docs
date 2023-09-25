@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Wolff, Deckow and Ziemann",
-  "Tooltip": "illo",
+  "Id": 296,
+  "Name": "Wiza, Stanton and Terry",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 640,
-  "Rank": 212,
+  "UdListDefinitionId": 811,
+  "Rank": 497,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 638
     }
   }
 }

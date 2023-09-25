@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 136,
-  "Name": "Parisian LLC",
-  "Tooltip": "nesciunt",
+  "HeadingId": 140,
+  "Name": "Cormier, Heathcote and Hermann",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 373,
-  "UdListDefinitionId": 50
+  "Rank": 551,
+  "UdListDefinitionId": 273
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 918,
-  "Name": "Abbott Group",
-  "Tooltip": "facilis",
+  "HeadingId": 686,
+  "Name": "Brown, Pouros and Gleason",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 509,
-  "UdListDefinitionId": 661,
+  "Rank": 883,
+  "UdListDefinitionId": 485,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 858
     }
   }
 }

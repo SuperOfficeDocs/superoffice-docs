@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=consequatur
-GET /api/v1/Script?$top=14
-GET /api/v1/Script?$skip=366
+GET /api/v1/Script?$entities=aut
+GET /api/v1/Script?$top=959
+GET /api/v1/Script?$skip=908
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=est
+GET /api/v1/Script?$context=placeat
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=True
+GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "minima",
   "value": [
     {
-      "PrimaryKey": 5258,
-      "EntityName": "sale",
-      "saleId": 5258,
-      "contactId": 3755,
-      "name": "Rippin-McLaughlin"
+      "PrimaryKey": 1708,
+      "EntityName": "person",
+      "personId": 1708,
+      "fullName": "Newell Chad Block DVM"
     },
     {
-      "PrimaryKey": 562,
-      "EntityName": "sale",
-      "saleId": 562,
-      "contactId": 5153,
-      "name": "Schroeder Inc and Sons"
+      "PrimaryKey": 3381,
+      "EntityName": "person",
+      "personId": 3381,
+      "fullName": "Baylee Glover"
     }
   ]
 }

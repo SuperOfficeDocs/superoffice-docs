@@ -26,7 +26,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=483
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=7
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 604,
-  "Name": "Feeney LLC",
-  "Tooltip": "id",
-  "TableName": "Barrows Group",
-  "Area": "eligendi",
+  "TaskMenuId": 839,
+  "Name": "Homenick, Schimmel and Bergnaum",
+  "Tooltip": "maxime",
+  "TableName": "Simonis, Littel and Koepp",
+  "Area": "consequuntur",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 161,
+  "CrmScriptId": 115,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 961,
+  "Rank": 924,
   "Encoding": "ANSI",
-  "ProgId": "itaque",
+  "ProgId": "rerum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 769
     }
   }
 }

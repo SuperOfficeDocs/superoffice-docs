@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "veniam",
+      "RawValue": "ea",
       "Specification": null,
-      "DisplayValue": "temporibus",
-      "DisplayTooltip": "voluptatibus",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "sit",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 202,
-      "PrefDescId": 492,
-      "TableName": "Cruickshank-Stamm",
-      "UserPreferenceId": 339
+      "TargetId": 697,
+      "PrefDescId": 123,
+      "TableName": "Jenkins, Kuhn and Pfeffer",
+      "UserPreferenceId": 1000
     }
   ],
   "RemoveLowerLevels": false

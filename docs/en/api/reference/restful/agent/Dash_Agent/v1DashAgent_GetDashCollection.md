@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 523,
-      "UniqueId": "velit",
-      "Name": "Gleichner, Cronin and Goldner",
-      "Description": "Fully-configurable client-driven archive",
-      "AssociateId": 190,
-      "Columns": 720,
+      "DashboardId": 199,
+      "UniqueId": "doloribus",
+      "Name": "Hegmann Group",
+      "Description": "Expanded homogeneous secured line",
+      "AssociateId": 154,
+      "Columns": 687,
       "Theme": null,
-      "VisibleForAll": 362,
+      "VisibleForAll": 486,
       "VisibleForAssociates": [
-        776,
-        71
+        723,
+        106
       ],
       "VisibleForGroups": [
-        935,
-        861
+        648,
+        398
       ],
-      "PinForAll": 690,
+      "PinForAll": 786,
       "PinForAssociates": [
-        73,
-        512
+        498,
+        362
       ],
       "PinForGroups": [
-        843,
-        403
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 490
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 553,
-      "UniqueId": "recusandae",
-      "Name": "Barrows LLC",
-      "Description": "Self-enabling non-volatile functionalities",
-      "AssociateId": 639,
-      "Columns": 962,
-      "Theme": null,
-      "VisibleForAll": 220,
-      "VisibleForAssociates": [
-        632,
-        275
-      ],
-      "VisibleForGroups": [
-        704,
-        442
-      ],
-      "PinForAll": 982,
-      "PinForAssociates": [
-        442,
-        285
-      ],
-      "PinForGroups": [
-        109,
-        692
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 302
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 529,
-      "UniqueId": "ipsa",
-      "Name": "Donnelly-Collins",
-      "Description": "Function-based executive hierarchy",
-      "AssociateId": 972,
-      "Columns": 649,
-      "Theme": null,
-      "VisibleForAll": 888,
-      "VisibleForAssociates": [
-        934,
-        610
-      ],
-      "VisibleForGroups": [
-        560,
-        251
-      ],
-      "PinForAll": 838,
-      "PinForAssociates": [
-        718,
-        977
-      ],
-      "PinForGroups": [
-        453,
-        197
+        151,
+        556
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 767
+          "FieldLength": 592
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 105,
+      "UniqueId": "laborum",
+      "Name": "Carroll-Funk",
+      "Description": "Pre-emptive needs-based core",
+      "AssociateId": 329,
+      "Columns": 828,
+      "Theme": null,
+      "VisibleForAll": 553,
+      "VisibleForAssociates": [
+        498,
+        915
+      ],
+      "VisibleForGroups": [
+        856,
+        357
+      ],
+      "PinForAll": 121,
+      "PinForAssociates": [
+        368,
+        769
+      ],
+      "PinForGroups": [
+        993,
+        355
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 938
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 919,
+      "UniqueId": "molestias",
+      "Name": "Mayer LLC",
+      "Description": "Universal next generation info-mediaries",
+      "AssociateId": 271,
+      "Columns": 905,
+      "Theme": null,
+      "VisibleForAll": 257,
+      "VisibleForAssociates": [
+        213,
+        495
+      ],
+      "VisibleForGroups": [
+        95,
+        642
+      ],
+      "PinForAll": 583,
+      "PinForAssociates": [
+        433,
+        350
+      ],
+      "PinForGroups": [
+        351,
+        349
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 913
         }
       }
     }
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldType": "System.String",
+      "FieldLength": 355
     }
   }
 }

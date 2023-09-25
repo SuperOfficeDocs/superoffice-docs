@@ -583,7 +583,7 @@ Shadow contact provider for the static Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/mainContact,mailingAddr/contact/contactAssociate/assocType,mailingAddr/contact/contactExtra/x_contact_hidden_integer,mailingAddr/person/personCountry,mailingAddr/person/personExtra/x_person_request_relation
+GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/hasInterests,mailingAddr/contact/contactAssociate/isActiveText,mailingAddr/person/kanaLastName,mailingAddr/person/personInterestIds,mailingAddr/person/personAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "Mann-King",
-    "ToolTip": "Natus dolorem voluptatem aut doloremque.",
-    "Deleted": false,
-    "Rank": 81,
-    "Type": "pariatur",
-    "ColorBlock": 98,
-    "IconHint": "ab",
-    "Selected": true,
-    "LastChanged": "2000-04-23T03:31:33.8367198+02:00",
+    "Id": 636,
+    "Name": "Rempel-Luettgen",
+    "ToolTip": "Libero totam ab fugiat est.",
+    "Deleted": true,
+    "Rank": 555,
+    "Type": "dolorem",
+    "ColorBlock": 549,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "2002-06-02T03:24:52.3963183+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Schmidt, Herman and Goyette",
-        "ToolTip": "Omnis quis quia.",
-        "Deleted": false,
-        "Rank": 381,
-        "Type": "hic",
-        "ColorBlock": 555,
-        "IconHint": "sapiente",
+        "Id": 426,
+        "Name": "Armstrong Inc and Sons",
+        "ToolTip": "Ea voluptate eveniet repellendus.",
+        "Deleted": true,
+        "Rank": 845,
+        "Type": "fugiat",
+        "ColorBlock": 788,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2008-08-07T03:31:33.8367198+02:00",
+        "LastChanged": "2016-12-01T03:24:52.3963183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "quia",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Emie Doyle III",
+        "FullName": "Reva Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 435
+            "FieldLength": 256
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "odio",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Rossie Stehr",
+    "FullName": "Alfred Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 880
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 719,
-  "Name": "Block-Ankunding",
-  "Tooltip": "quibusdam",
+  "Id": 185,
+  "Name": "Oberbrunner-Schiller",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 798,
-  "Rank": 193,
+  "UdListDefinitionId": 75,
+  "Rank": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 197
     }
   }
 }

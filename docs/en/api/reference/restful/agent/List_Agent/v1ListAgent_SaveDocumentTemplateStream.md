@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 927,
+  "DocumentTemplateId": 805,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "numquam",
-  "PluginId": 115
+  "LanguageCode": "mollitia",
+  "PluginId": 70
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmeler Inc and Sons",
-  "Description": "Self-enabling 4th generation encoding",
-  "ExternalReference": "repudiandae",
-  "MimeType": "ut",
-  "PluginId": 935
+  "Name": "Grimes, Rutherford and Schultz",
+  "Description": "Seamless fault-tolerant algorithm",
+  "ExternalReference": "et",
+  "MimeType": "voluptas",
+  "PluginId": 726
 }
 ```

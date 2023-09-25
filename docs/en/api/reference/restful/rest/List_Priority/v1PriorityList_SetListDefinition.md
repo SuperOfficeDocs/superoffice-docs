@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Weber, Jerde and Runolfsson",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 156,
-  "IsCustomList": false,
+  "Id": 116,
+  "Name": "Mitchell, Labadie and Dibbert",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 847,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 564,
-  "Name": "Crist Inc and Sons",
-  "Tooltip": "quod",
+  "Id": 543,
+  "Name": "Mueller, Walsh and Beahan",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 399,
+  "Rank": 252,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 288
     }
   }
 }

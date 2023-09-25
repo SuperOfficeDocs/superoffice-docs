@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Ritchie, Aufderhar and Franecki",
-  "UserName": "Hauck LLC",
-  "Password": "saepe",
-  "Folder": "voluptatem",
+  "ServerName": "Rogahn, Halvorson and Barton",
+  "UserName": "Carter Group",
+  "Password": "quis",
+  "Folder": "delectus",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

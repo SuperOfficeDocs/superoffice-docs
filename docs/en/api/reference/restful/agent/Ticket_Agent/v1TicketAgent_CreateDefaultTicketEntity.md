@@ -84,6 +84,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -122,21 +123,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 89,
-  "Title": "neque",
-  "CreatedAt": "2019-01-08T03:31:27.3405474+01:00",
-  "LastChanged": "2009-02-20T03:31:27.3405474+01:00",
-  "ReadByOwner": "2013-09-21T03:31:27.3405474+02:00",
-  "ReadByCustomer": "2012-03-22T03:31:27.3405474+01:00",
-  "FirstReadByOwner": "2018-11-20T03:31:27.3405474+01:00",
-  "FirstReadByUser": "2002-10-10T03:31:27.3405474+02:00",
-  "Activate": "2002-03-27T03:31:27.3405474+01:00",
-  "ClosedAt": "1998-08-19T03:31:27.3405474+02:00",
-  "RepliedAt": "2022-12-08T03:31:27.3405474+01:00",
-  "AlertTimeout": "1999-02-16T03:31:27.3405474+01:00",
-  "Deadline": "2018-09-07T03:31:27.3405474+02:00",
+  "TicketId": 202,
+  "Title": "nulla",
+  "CreatedAt": "2015-02-25T03:24:48.3159514+01:00",
+  "LastChanged": "2016-02-06T03:24:48.3159514+01:00",
+  "ReadByOwner": "1999-05-10T03:24:48.3159514+02:00",
+  "ReadByCustomer": "2011-12-07T03:24:48.3159514+01:00",
+  "FirstReadByOwner": "2023-04-06T03:24:48.3159514+02:00",
+  "FirstReadByUser": "2018-05-10T03:24:48.3159514+02:00",
+  "Activate": "2017-04-24T03:24:48.3159514+02:00",
+  "ClosedAt": "2015-09-14T03:24:48.3159514+02:00",
+  "RepliedAt": "2023-06-10T03:24:48.3159514+02:00",
+  "AlertTimeout": "2015-01-13T03:24:48.3159514+01:00",
+  "Deadline": "2003-07-25T03:24:48.3159514+02:00",
   "CreatedBy": null,
-  "Author": "quasi",
+  "Author": "doloremque",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -147,160 +148,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "fuga",
-      "PersonId": 941,
-      "Mrmrs": "et",
-      "Firstname": "Candida",
-      "Lastname": "Hintz",
-      "MiddleName": "Bailey-Haag",
-      "Title": "non",
-      "Description": "Reduced empowering matrix",
-      "Email": "jairo_auer@hudsonkovacek.info",
-      "FullName": "Issac Ratke",
-      "DirectPhone": "1-302-558-7466",
-      "FormalName": "Padberg, Wintheiser and Kessler",
-      "CountryId": 962,
-      "ContactId": 633,
-      "ContactName": "Lakin, White and Christiansen",
-      "Retired": 281,
-      "Rank": 168,
-      "ActiveInterests": 571,
+      "Position": "quisquam",
+      "PersonId": 343,
+      "Mrmrs": "quia",
+      "Firstname": "Polly",
+      "Lastname": "Leffler",
+      "MiddleName": "Schaefer Inc and Sons",
+      "Title": "quia",
+      "Description": "Switchable zero defect function",
+      "Email": "valentina@dibbertbarton.com",
+      "FullName": "Prof. Daniela Sibyl Kuvalis",
+      "DirectPhone": "(340)978-6277 x21519",
+      "FormalName": "Friesen Group",
+      "CountryId": 969,
+      "ContactId": 817,
+      "ContactName": "Kautzer, Windler and Funk",
+      "Retired": 513,
+      "Rank": 13,
+      "ActiveInterests": 467,
       "ContactDepartment": "",
-      "ContactCountryId": 657,
-      "ContactOrgNr": "1869591",
-      "FaxPhone": "524-183-7971",
-      "MobilePhone": "(095)692-5178 x38484",
-      "ContactPhone": "(299)999-0989",
-      "AssociateName": "Schowalter-Wiza",
-      "AssociateId": 855,
+      "ContactCountryId": 150,
+      "ContactOrgNr": "1080627",
+      "FaxPhone": "(202)784-6943",
+      "MobilePhone": "1-301-600-3014 x973",
+      "ContactPhone": "018-835-1040",
+      "AssociateName": "Braun-Ferry",
+      "AssociateId": 592,
       "UsePersonAddress": false,
-      "ContactFax": "ut",
-      "Kanafname": "velit",
-      "Kanalname": "nesciunt",
-      "Post1": "magnam",
-      "Post2": "earum",
-      "Post3": "inventore",
-      "EmailName": "henry@macejkovichowell.biz",
-      "ContactFullName": "Forrest McLaughlin",
-      "ActiveErpLinks": 230,
-      "TicketPriorityId": 297,
-      "SupportLanguageId": 375,
-      "SupportAssociateId": 312,
+      "ContactFax": "aut",
+      "Kanafname": "eveniet",
+      "Kanalname": "asperiores",
+      "Post1": "vel",
+      "Post2": "molestias",
+      "Post3": "commodi",
+      "EmailName": "gerda.hirthe@romaguerawalsh.co.uk",
+      "ContactFullName": "Toni Macejkovic",
+      "ActiveErpLinks": 833,
+      "TicketPriorityId": 585,
+      "SupportLanguageId": 7,
+      "SupportAssociateId": 686,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 861
+          "FieldType": "System.Int32",
+          "FieldLength": 1001
         }
       }
     }
   ],
-  "AlertLevel": 100,
-  "ConnectId": 945,
+  "AlertLevel": 7,
+  "ConnectId": 965,
   "ReadStatus": "Green",
-  "TimeToReply": 594,
-  "RealTimeToReply": 734,
-  "TimeToClose": 355,
-  "RealTimeToClose": 660,
-  "TimeSpentInternally": 954,
-  "TimeSpentExternally": 176,
-  "TimeSpentQueue": 191,
-  "RealTimeSpentInternally": 574,
-  "RealTimeSpentExternally": 697,
-  "RealTimeSpentQueue": 665,
+  "TimeToReply": 308,
+  "RealTimeToReply": 736,
+  "TimeToClose": 171,
+  "RealTimeToClose": 427,
+  "TimeSpentInternally": 715,
+  "TimeSpentExternally": 788,
+  "TimeSpentQueue": 477,
+  "RealTimeSpentInternally": 189,
+  "RealTimeSpentExternally": 955,
+  "RealTimeSpentQueue": 260,
+  "TimeSpent": 783,
   "HasAttachment": true,
-  "NumReplies": 86,
-  "NumMessages": 21,
-  "FromAddress": "est",
+  "NumReplies": 447,
+  "NumMessages": 927,
+  "FromAddress": "vero",
   "Messages": [
     {
-      "TicketMessageId": 258,
-      "CreatedAt": "2022-07-22T03:31:27.3405474+02:00",
+      "TicketMessageId": 979,
+      "CreatedAt": "2007-04-01T03:24:48.3159514+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "animi",
-      "PersonId": 875,
-      "PersonFullName": "Deanna Grimes",
-      "ContactId": 428,
-      "ContactName": "Casper-Vandervort",
-      "ContactDepartment": "",
-      "NumAttachments": 300,
-      "EmailHeader": "tevin@dooleylindgren.biz",
+      "Important": true,
+      "Author": "occaecati",
+      "PersonId": 941,
+      "PersonFullName": "Mitchell Williamson",
+      "ContactId": 372,
+      "ContactName": "Kautzer, Williamson and Keebler",
+      "ContactDepartment": "recontextualize plug-and-play e-markets",
+      "NumAttachments": 248,
+      "EmailHeader": "miracle@willms.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "nihil",
-      "Sentiment": 114,
-      "SentimentConfidence": 257,
-      "CreatedBy": 741,
-      "ChangedAt": "1998-03-31T03:31:27.3405474+02:00",
+      "Language": "rem",
+      "Sentiment": 199,
+      "SentimentConfidence": 800,
+      "CreatedBy": 192,
+      "ChangedAt": "1998-09-07T03:24:48.3159514+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldType": "System.String",
+          "FieldLength": 787
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 747,
-      "Name": "Wilderman-Rogahn",
-      "ToolTip": "Delectus esse.",
+      "Id": 209,
+      "Name": "Osinski-Langosh",
+      "ToolTip": "Quo maiores.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 567
+          "FieldLength": 970
         }
       }
     },
     {
-      "Id": 747,
-      "Name": "Wilderman-Rogahn",
-      "ToolTip": "Delectus esse.",
+      "Id": 209,
+      "Name": "Osinski-Langosh",
+      "ToolTip": "Quo maiores.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 567
+          "FieldLength": 970
         }
       }
     }
   ],
-  "Language": "ex",
-  "Sentiment": 521,
-  "SentimentConfidence": 979,
-  "SuggestedCategoryId": 249,
+  "Language": "reiciendis",
+  "Sentiment": 314,
+  "SentimentConfidence": 523,
+  "SuggestedCategoryId": 61,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 352,
-  "IconHint": "rerum",
+  "OrigHumanCategoryId": 298,
+  "IconHint": "nam",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "accusantium"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "eum"
+    "CustomFields1": "sunt",
+    "CustomFields2": "vitae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldType": "System.String",
+      "FieldLength": 653
     }
   }
 }

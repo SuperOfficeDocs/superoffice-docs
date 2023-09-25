@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 311
+  "ProjectId": 195
 }
 ```
 
@@ -109,33 +109,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 463,
-    "ContactId": 876,
-    "ProjectId": 453,
-    "ContactName": "Jerde-Roberts",
+    "ProjectmemberId": 209,
+    "ContactId": 305,
+    "ProjectId": 447,
+    "ContactName": "Rodriguez Group",
     "ContactDepartment": "",
-    "ProjectName": "Beatty Group",
-    "EmailId": 668,
-    "EmailAddress": "alexandria_lueilwitz@ward.com",
-    "CountryId": 539,
-    "Firstname": "Virginia",
-    "MiddleName": "Cronin-McKenzie",
-    "Lastname": "O'Kon",
-    "PersonId": 336,
-    "Mrmrs": "provident",
-    "ProjectMemberTypeName": "Hansen, Yundt and Keeling",
-    "Phone": "1-057-641-2863 x91428",
-    "PhoneId": 581,
-    "ProjectMemberTypeId": 229,
-    "EmailAddressName": "nathanial_dibbert@eichmann.com",
-    "Comment": "possimus",
-    "FullName": "Miss Kendall Devonte Klein II",
+    "ProjectName": "Weimann, Murphy and Terry",
+    "EmailId": 951,
+    "EmailAddress": "daniela@kunde.com",
+    "CountryId": 835,
+    "Firstname": "Jackson",
+    "MiddleName": "Murray Group",
+    "Lastname": "Will",
+    "PersonId": 626,
+    "Mrmrs": "delectus",
+    "ProjectMemberTypeName": "Brakus, Eichmann and Hansen",
+    "Phone": "043.911.1239 x5463",
+    "PhoneId": 741,
+    "ProjectMemberTypeId": 130,
+    "EmailAddressName": "imogene.oreilly@gradyhilpert.biz",
+    "Comment": "minus",
+    "FullName": "Ludwig Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldType": "System.Int32",
+        "FieldLength": 339
       }
     }
   }

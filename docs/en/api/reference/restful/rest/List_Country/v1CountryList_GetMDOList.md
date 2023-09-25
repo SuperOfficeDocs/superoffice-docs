@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=et
+GET /api/v1/List/Country/MDOItems?query=aliquid
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Brekke, Block and Eichmann",
-    "ToolTip": "Repudiandae est fugit ex perferendis sapiente.",
-    "Deleted": true,
-    "Rank": 574,
-    "Type": "in",
+    "Id": 267,
+    "Name": "Olson-Reynolds",
+    "ToolTip": "Ex vel facilis ut.",
+    "Deleted": false,
+    "Rank": 525,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Satterfield Group",
-        "ToolTip": "A reiciendis culpa.",
-        "Deleted": false,
-        "Rank": 259,
-        "Type": "eum",
+        "Id": 959,
+        "Name": "Zemlak, Keeling and Emard",
+        "ToolTip": "Sit est.",
+        "Deleted": true,
+        "Rank": 849,
+        "Type": "voluptate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 905,
-        "ExtraInfo": "qui",
-        "StyleHint": "illo",
-        "FullName": "Miss Richard Waylon Greenfelder II",
+        "IconHint": "laborum",
+        "ColorBlock": 457,
+        "ExtraInfo": "error",
+        "StyleHint": "doloribus",
+        "FullName": "Miss Marguerite Lesly Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 232
+            "FieldType": "System.String",
+            "FieldLength": 251
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 831,
-    "ExtraInfo": "dolor",
-    "StyleHint": "cupiditate",
-    "FullName": "Mr. Bobby Marquardt DVM",
+    "IconHint": "ut",
+    "ColorBlock": 44,
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "FullName": "Mrs. Shania Gino Schimmel DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 778
+        "FieldLength": 290
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 374,
+  "Id": 367,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 339,
-  "Name": "Hodkiewicz Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 744,
+  "Name": "Effertz-Wilkinson",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 350,
-  "UdListDefinitionId": 612,
+  "Rank": 56,
+  "UdListDefinitionId": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldLength": 806
     }
   }
 }

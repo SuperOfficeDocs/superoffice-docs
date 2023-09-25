@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 120,
+  "ErpConnectionId": 661,
   "ConfigFields": {
-    "ConfigFields1": "in",
-    "ConfigFields2": "id"
+    "ConfigFields1": "ipsam",
+    "ConfigFields2": "architecto"
   }
 }
 ```

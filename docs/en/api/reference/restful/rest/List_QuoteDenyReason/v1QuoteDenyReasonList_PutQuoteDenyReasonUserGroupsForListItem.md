@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Jast, Heidenreich and Doyle",
-    "ToolTip": "Ut quis sit repellendus quod veritatis quae.",
+    "Id": 966,
+    "Name": "Bogan, Ullrich and Barton",
+    "ToolTip": "Ea nisi omnis dignissimos aut qui delectus blanditiis.",
     "Deleted": false,
-    "Rank": 27,
-    "Type": "dolorem",
-    "ColorBlock": 563,
-    "IconHint": "eos",
+    "Rank": 418,
+    "Type": "culpa",
+    "ColorBlock": 25,
+    "IconHint": "officiis",
     "Selected": true,
-    "LastChanged": "1997-11-01T03:31:33.805477+01:00",
+    "LastChanged": "2015-01-07T03:24:52.3650758+01:00",
     "ChildItems": [
       {
-        "Id": 486,
-        "Name": "Gorczany-Emmerich",
-        "ToolTip": "Nemo similique animi.",
-        "Deleted": false,
-        "Rank": 115,
-        "Type": "consequatur",
-        "ColorBlock": 791,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2023-03-24T03:31:33.805477+01:00",
+        "Id": 975,
+        "Name": "Lubowitz-Schoen",
+        "ToolTip": "Reprehenderit sint nulla mollitia.",
+        "Deleted": true,
+        "Rank": 317,
+        "Type": "hic",
+        "ColorBlock": 525,
+        "IconHint": "dolorem",
+        "Selected": true,
+        "LastChanged": "2017-08-22T03:24:52.3650758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Melissa Runolfsdottir MD"
+        "ExtraInfo": "tempora",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Fermin Wuckert"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Dr. Clare Maci Johnston"
+    "ExtraInfo": "velit",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Abagail Murray"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Spinka-Daniel",
-    "ToolTip": "Rerum occaecati reprehenderit voluptates aperiam voluptatem.",
-    "Deleted": false,
-    "Rank": 372,
-    "Type": "quisquam",
-    "ColorBlock": 669,
-    "IconHint": "maiores",
+    "Id": 167,
+    "Name": "Wolf, Lind and Kautzer",
+    "ToolTip": "Voluptatem tempora et.",
+    "Deleted": true,
+    "Rank": 68,
+    "Type": "fuga",
+    "ColorBlock": 996,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2008-04-17T03:31:33.805477+02:00",
+    "LastChanged": "2000-07-07T03:24:52.3650758+02:00",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "Wolf LLC",
-        "ToolTip": "Sequi neque iste ipsum voluptatem est repellat voluptas.",
+        "Id": 868,
+        "Name": "Treutel Inc and Sons",
+        "ToolTip": "Est ratione modi illum voluptatem sed vero.",
         "Deleted": false,
-        "Rank": 49,
-        "Type": "minima",
-        "ColorBlock": 541,
-        "IconHint": "voluptatibus",
-        "Selected": true,
-        "LastChanged": "2009-11-24T03:31:33.805477+01:00",
+        "Rank": 510,
+        "Type": "tempore",
+        "ColorBlock": 242,
+        "IconHint": "nesciunt",
+        "Selected": false,
+        "LastChanged": "2021-08-21T03:24:52.3650758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "ea",
+        "ExtraInfo": "sunt",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Nigel Considine",
+        "FullName": "Christ Nicolas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 702
+            "FieldLength": 629
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Jayda Parker",
+    "ExtraInfo": "ad",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Dr. Green Braden Veum DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldLength": 890
       }
     }
   }

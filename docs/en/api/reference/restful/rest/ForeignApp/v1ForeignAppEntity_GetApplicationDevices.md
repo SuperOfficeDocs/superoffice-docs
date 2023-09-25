@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 30 Apr 2020 03:31:32 G4T
+Last-Modified: Tue, 21 Apr 2015 03:24:51 G4T
 
 [
   {
-    "ForeignDeviceId": 636,
-    "Name": "Wolf-Price",
-    "CreatedDate": "2009-10-16T03:31:32.6289016+02:00",
-    "UpdatedDate": "2020-04-30T03:31:32.6289016+02:00",
-    "AssociateFullName": "Trycia Steuber",
-    "CreatedBy": "at",
-    "UpdatedBy": "sint",
-    "DeviceIdentifier": "atque",
-    "ForeignAppId": 424,
+    "ForeignDeviceId": 627,
+    "Name": "Conn, Kub and Wuckert",
+    "CreatedDate": "2001-02-16T03:24:51.6149823+01:00",
+    "UpdatedDate": "2015-04-21T03:24:51.6149823+02:00",
+    "AssociateFullName": "Heidi Hane III",
+    "CreatedBy": "recusandae",
+    "UpdatedBy": "voluptas",
+    "DeviceIdentifier": "ut",
+    "ForeignAppId": 595,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 361
       }
     }
   }

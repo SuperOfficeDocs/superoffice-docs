@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 596
+  "ProductId": 367
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 293,
-  "ERPProductKey": "alias",
-  "ERPPriceListKey": "asperiores",
-  "Name": "Leuschke-Bogisich",
-  "Description": "User-friendly eco-centric throughput",
-  "Code": "molestiae",
-  "PriceUnit": "et",
-  "QuantityUnit": "laborum",
+  "ProductId": 580,
+  "ERPProductKey": "laudantium",
+  "ERPPriceListKey": "nesciunt",
+  "Name": "Balistreri, O'Hara and Schultz",
+  "Description": "Down-sized full-range monitoring",
+  "Code": "eius",
+  "PriceUnit": "ullam",
+  "QuantityUnit": "eum",
   "IsSubscription": false,
-  "SubscriptionUnit": "earum",
-  "DefaultSubscriptionQuantity": 13764.528,
-  "ItemNumber": "1196714",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 9768.678,
+  "ItemNumber": "1297328",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "placeat",
-  "ProductTypeKey": "tempore",
-  "VAT": 16102.492,
-  "VATInfo": "ut",
-  "UnitCost": 16002.204,
-  "UnitMinimumPrice": 29017.706,
-  "UnitListPrice": 28212.268,
-  "InAssortment": false,
-  "Supplier": "consequatur",
-  "SupplierCode": "atque",
-  "Rights": "eveniet",
-  "Rule": "sint",
+  "ProductFamilyKey": "cupiditate",
+  "ProductTypeKey": "rerum",
+  "VAT": 313.4,
+  "VATInfo": "dolorem",
+  "UnitCost": 3904.964,
+  "UnitMinimumPrice": 4675.928,
+  "UnitListPrice": 12890.142,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "aut",
+  "Rights": "unde",
+  "Rule": "omnis",
   "ExtraInfo": [
     {
-      "Name": "Hodkiewicz-Cronin",
-      "Value": "laborum",
+      "Name": "Parisian-Kuhlman",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 136
         }
       }
     },
     {
-      "Name": "Hodkiewicz-Cronin",
-      "Value": "laborum",
+      "Name": "Parisian-Kuhlman",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 136
         }
       }
     }
   ],
-  "RawExtraInfo": "nam",
-  "ExtraField1": "accusantium",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "voluptatibus",
-  "ExtraField4": "natus",
-  "ExtraField5": "aut",
-  "InStock": 7556.074,
+  "RawExtraInfo": "hic",
+  "ExtraField1": "nam",
+  "ExtraField2": "numquam",
+  "ExtraField3": "commodi",
+  "ExtraField4": "et",
+  "ExtraField5": "enim",
+  "InStock": 30800.951999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 196
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

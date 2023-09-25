@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 07 Dec 2002 03:31:32 G12T
+Last-Modified: Thu, 14 Sep 2006 03:24:51 G9T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Sat, 07 Dec 2002 03:31:32 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "magni",
+  "SaleText": "quas",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Sat, 07 Dec 2002 03:31:32 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2013-09-09T03:31:32.831977+02:00",
-  "Amount": 285.194,
-  "SaleId": 473,
-  "Earning": 21345.674,
-  "EarningPercent": 23683.638,
-  "Heading": "vel",
-  "Number": "1178037",
-  "Probability": 712,
-  "CreatedDate": "2020-09-26T03:31:32.831977+02:00",
-  "UpdatedDate": "2002-12-07T03:31:32.831977+01:00",
+  "Saledate": "1997-01-20T03:24:51.7713912+01:00",
+  "Amount": 780.366,
+  "SaleId": 943,
+  "Earning": 22752.84,
+  "EarningPercent": 4647.722,
+  "Heading": "repudiandae",
+  "Number": "322633",
+  "Probability": 753,
+  "CreatedDate": "2009-09-04T03:24:51.7713912+02:00",
+  "UpdatedDate": "2006-09-14T03:24:51.7713912+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 25,
+  "ActiveLinks": 543,
   "Links": [
     {
-      "EntityName": "Heathcote, Hermiston and Stamm",
-      "Id": 897,
-      "Description": "Horizontal national solution",
-      "ExtraInfo": "ut",
-      "LinkId": 402,
+      "EntityName": "Walker LLC",
+      "Id": 830,
+      "Description": "Open-source even-keeled application",
+      "ExtraInfo": "dolores",
+      "LinkId": 599,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldLength": 748
         }
       }
     }
   ],
-  "NextDueDate": "1999-07-01T03:31:32.831977+02:00",
+  "NextDueDate": "2008-09-18T03:24:51.7713912+02:00",
   "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-12-29T03:31:32.831977+01:00",
+  "ReopenDate": "2002-01-19T03:24:51.7713912+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Zboncak-Littel",
-      "Comment": "maxime",
-      "StakeholderRoleId": 198,
-      "CountryId": 819,
-      "PersonId": 575,
-      "EmailDescription": "jon.koepp@torp.uk",
-      "EmailId": 366,
-      "EmailAddress": "dannie@kuvalisthompson.ca",
-      "PhoneId": 891,
-      "ContactName": "Beier, Lubowitz and Rolfson",
-      "ContactId": 471,
-      "SaleId": 496,
-      "Mrmrs": "ut",
-      "Firstname": "Crystal",
-      "MiddleName": "Leannon-Terry",
-      "Lastname": "Treutel",
-      "SaleStakeholderId": 427,
-      "Rank": 927,
-      "Phone": "(751)041-6994 x8487",
+      "StakeholderRoleName": "Senger Inc and Sons",
+      "Comment": "impedit",
+      "StakeholderRoleId": 326,
+      "CountryId": 517,
+      "PersonId": 912,
+      "EmailDescription": "minnie.lynch@balistreri.com",
+      "EmailId": 616,
+      "EmailAddress": "haskell.considine@braun.name",
+      "PhoneId": 604,
+      "ContactName": "Schroeder, Batz and King",
+      "ContactId": 934,
+      "SaleId": 677,
+      "Mrmrs": "et",
+      "Firstname": "Aditya",
+      "MiddleName": "Cummerata LLC",
+      "Lastname": "Walter",
+      "SaleStakeholderId": 114,
+      "Rank": 692,
+      "Phone": "1-507-138-3818",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     }
   ],
-  "ActiveErpLinks": 674,
+  "ActiveErpLinks": 739,
   "UserDefinedFields": {
-    "SuperOffice:1": "Nikki Orn",
-    "SuperOffice:2": "Fern Hermann"
+    "SuperOffice:1": "2029887923",
+    "SuperOffice:2": "566891631"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "eos"
+    "CustomFields1": "ea",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2000-11-26T03:31:32.8475948+01:00",
-  "PublishTo": "2010-04-07T03:31:32.8475948+02:00",
-  "PublishFrom": "2011-08-31T03:31:32.8475948+02:00",
+  "PublishEventDate": "2020-09-15T03:24:51.7713912+02:00",
+  "PublishTo": "2014-05-04T03:24:51.7713912+02:00",
+  "PublishFrom": "2023-03-29T03:24:51.7713912+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 743,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 682
         }
       }
     },
     {
-      "VisibleId": 743,
+      "VisibleId": 417,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldLength": 682
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Sat, 07 Dec 2002 03:31:32 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 965
     }
   }
 }

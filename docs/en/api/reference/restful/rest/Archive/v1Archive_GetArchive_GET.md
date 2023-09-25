@@ -140,14 +140,14 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=ut
-GET /api/v1/Archive/{archiveProviderName}?$top=775
-GET /api/v1/Archive/{archiveProviderName}?$skip=444
+GET /api/v1/Archive/{archiveProviderName}?$entities=a
+GET /api/v1/Archive/{archiveProviderName}?$top=523
+GET /api/v1/Archive/{archiveProviderName}?$skip=826
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=qui
+GET /api/v1/Archive/{archiveProviderName}?$context=dolorum
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=velit
+GET /api/v1/Archive/{archiveProviderName}?$metadata=aut
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
 GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -201,21 +201,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 3654,
-      "EntityName": "sale",
-      "saleId": 3654,
-      "contactId": 6755,
-      "name": "Altenwerth-Fritsch"
+      "PrimaryKey": 5329,
+      "EntityName": "person",
+      "personId": 5329,
+      "fullName": "Clemmie Braun IV"
     },
     {
-      "PrimaryKey": 4345,
-      "EntityName": "sale",
-      "saleId": 4345,
-      "contactId": 7423,
-      "name": "Grimes, Hayes and Gerhold"
+      "PrimaryKey": 1840,
+      "EntityName": "person",
+      "personId": 1840,
+      "fullName": "Kathryn Rowe Sr."
     }
   ]
 }

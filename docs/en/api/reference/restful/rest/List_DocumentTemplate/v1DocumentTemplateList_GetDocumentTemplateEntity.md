@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 822,
-  "Name": "Upton Inc and Sons",
-  "Tooltip": "at",
-  "SaveInDb": 518,
-  "Filename": "est",
-  "DefaultOref": "possimus",
+  "DocumentTemplateId": 838,
+  "Name": "Grimes, Waters and Tremblay",
+  "Tooltip": "perferendis",
+  "SaveInDb": 776,
+  "Filename": "voluptatem",
+  "DefaultOref": "molestias",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 390,
-  "IntentId": 443,
-  "IsDefaultPublished": false,
-  "Rank": 517,
-  "LoadTemplateFromPlugin": 262,
-  "MimeType": "praesentium",
+  "AutoeventId": 707,
+  "IntentId": 477,
+  "IsDefaultPublished": true,
+  "Rank": 707,
+  "LoadTemplateFromPlugin": 295,
+  "MimeType": "ea",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 389,
+  "DocumentTypeKey": 42,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "hipolito@manteupton.uk",
+  "EmailSubject": "misael@schillertowne.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "edison@kossboyle.co.uk",
+  "SenderEmailAddress": "halie_wyman@braunspinka.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 405
     }
   }
 }

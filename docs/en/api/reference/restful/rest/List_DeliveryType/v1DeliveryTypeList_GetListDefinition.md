@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Marvin, Zieme and Powlowski",
-  "Tooltip": "autem",
+  "Id": 469,
+  "Name": "Marvin, Larkin and Zboncak",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 353,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 784,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "impedit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   },
   "_Links": {

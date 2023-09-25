@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 937,
-  "Name": "Bednar-Spinka",
-  "Description": "Assimilated attitude-oriented framework",
+  "ProjectId": 282,
+  "Name": "Zboncak LLC",
+  "Description": "Public-key context-sensitive projection",
   "URL": "http://www.example.com/",
-  "Type": "necessitatibus",
-  "AssociateId": 717,
-  "AssociateFullName": "Ashtyn Schoen",
-  "TypeId": 999,
-  "Updated": "2013-04-01T03:31:32.7851151+02:00",
-  "StatusId": 580,
-  "Status": "sunt",
-  "TextId": 312,
-  "PublishTo": "2018-07-06T03:31:32.7851151+02:00",
-  "PublishFrom": "1999-10-21T03:31:32.7851151+02:00",
-  "IsPublished": true,
+  "Type": "expedita",
+  "AssociateId": 503,
+  "AssociateFullName": "Russell Langworth",
+  "TypeId": 326,
+  "Updated": "2017-02-19T03:24:51.7401403+01:00",
+  "StatusId": 111,
+  "Status": "quis",
+  "TextId": 228,
+  "PublishTo": "1997-02-07T03:24:51.7401403+01:00",
+  "PublishFrom": "2002-08-23T03:24:51.7401403+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "733873",
-  "ActiveErpLinks": 745,
+  "ProjectNumber": "671141",
+  "ActiveErpLinks": 744,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 719
     }
   }
 }

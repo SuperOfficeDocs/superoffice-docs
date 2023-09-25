@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 248
+  "MailItemId": 139
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 790,
-  "StartDate": "2019-08-07T03:31:26.4332438+02:00",
-  "EndDate": "2000-06-11T03:31:26.4332438+02:00",
-  "RecurrenceCounter": 339,
+  "RecurrenceId": 370,
+  "StartDate": "2013-07-30T03:24:47.7207759+02:00",
+  "EndDate": "2000-01-29T03:24:47.7207759+01:00",
+  "RecurrenceCounter": 928,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2013-08-24T03:31:26.4332438+02:00",
-      "IsConflict": true,
-      "Description": "Universal clear-thinking benchmark",
-      "DescriptionStyleHint": "Balanced national algorithm",
-      "Tooltip": "quis"
+      "Date": "2002-12-20T03:24:47.7207759+01:00",
+      "IsConflict": false,
+      "Description": "Exclusive regional methodology",
+      "DescriptionStyleHint": "Synergistic user-facing intranet",
+      "Tooltip": "dolorum"
     },
     {
-      "Date": "2013-08-24T03:31:26.4332438+02:00",
-      "IsConflict": true,
-      "Description": "Universal clear-thinking benchmark",
-      "DescriptionStyleHint": "Balanced national algorithm",
-      "Tooltip": "quis"
+      "Date": "2002-12-20T03:24:47.7207759+01:00",
+      "IsConflict": false,
+      "Description": "Exclusive regional methodology",
+      "DescriptionStyleHint": "Synergistic user-facing intranet",
+      "Tooltip": "dolorum"
     }
   ],
   "IsRecurrence": false

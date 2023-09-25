@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 728,
-    "Name": "Spencer, Green and Abernathy",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 129,
-    "UdListDefinitionId": 815,
+    "HeadingId": 273,
+    "Name": "Herman-Zieme",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 463,
+    "UdListDefinitionId": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 629
       }
     }
   }

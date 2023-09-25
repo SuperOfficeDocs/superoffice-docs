@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 158,
-  "Name": "Hilll, Monahan and Lehner",
-  "Tooltip": "rerum",
-  "Rank": 668,
+  "SaleTypeId": 759,
+  "Name": "Ebert Inc and Sons",
+  "Tooltip": "expedita",
+  "Rank": 329,
   "DurationUnit": "Century",
-  "SaleDuration": 485,
-  "SaleTypeCatId": 662,
-  "Deleted": true,
+  "SaleDuration": 478,
+  "SaleTypeCatId": 137,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 809,
-  "QuoteLinesTemplate": 241,
-  "ConfirmationLinesTemplate": 582,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 211,
+  "QuoteLinesTemplate": 58,
+  "ConfirmationLinesTemplate": 902,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 611,
-  "MinEarningPercent": 345,
-  "GroupQuoteLinesBy": 896,
-  "SortGroupLinesBy": 196,
+  "MaxDiscountPercent": 776,
+  "MinEarningPercent": 522,
+  "GroupQuoteLinesBy": 320,
+  "SortGroupLinesBy": 993,
   "Stages": [
     {
-      "Id": 445,
-      "Name": "Leffler, Haag and Bogan",
-      "ToolTip": "Omnis eos.",
+      "Id": 303,
+      "Name": "Hane-Dach",
+      "ToolTip": "Perspiciatis tempora architecto et recusandae.",
       "Deleted": false,
-      "Rank": 677,
-      "Type": "alias",
-      "ColorBlock": 107,
-      "IconHint": "assumenda",
+      "Rank": 926,
+      "Type": "omnis",
+      "ColorBlock": 749,
+      "IconHint": "quod",
       "Selected": false,
-      "LastChanged": "2005-07-04T03:31:26.7300385+02:00",
+      "LastChanged": "2013-05-02T03:24:47.908255+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "fugiat",
+      "ExtraInfo": "enim",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Sunny Schroeder",
+      "FullName": "Conrad Johns",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 705
+          "FieldLength": 188
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 845
     }
   }
 }

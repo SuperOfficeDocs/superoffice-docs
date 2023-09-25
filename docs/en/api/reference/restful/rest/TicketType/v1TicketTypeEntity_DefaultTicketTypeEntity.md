@@ -57,7 +57,8 @@ OK
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -67,7 +68,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 306,
-  "Name": "Stamm Group",
-  "Rank": 700,
-  "Tooltip": "quo",
-  "Icon": "eius",
-  "DefaultTicketStatus": 321,
+  "TicketTypeId": 530,
+  "Name": "Strosin, Lakin and Kihn",
+  "Rank": 485,
+  "Tooltip": "quaerat",
+  "Icon": "dolores",
+  "DefaultTicketStatus": 915,
   "TicketStatuses": [
-    642,
-    770
+    154,
+    890
   ],
-  "DefaultTicketPriority": 857,
+  "DefaultTicketPriority": 705,
   "TicketPriorities": [
-    220,
-    218
+    213,
+    347
   ],
-  "ReplyTemplate": 981,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 451,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 799
     }
   }
 }

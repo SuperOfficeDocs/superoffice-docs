@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=ipsa
-GET /api/v1/MDOList/{listname}?query=iure
+GET /api/v1/MDOList/{listname}?additional=eum
+GET /api/v1/MDOList/{listname}?query=dolor
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Volkman LLC",
-    "ToolTip": "Soluta voluptatem voluptatem nulla.",
-    "Deleted": true,
-    "Rank": 863,
-    "Type": "quia",
+    "Id": 734,
+    "Name": "Hauck, Gaylord and Satterfield",
+    "ToolTip": "Ut dolore commodi error aut vero vel.",
+    "Deleted": false,
+    "Rank": 699,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Jones, Pfannerstill and Wehner",
-        "ToolTip": "Quisquam iste eum sed.",
+        "Id": 164,
+        "Name": "Feest Group",
+        "ToolTip": "Est consequatur ut repellendus nihil facilis.",
         "Deleted": true,
-        "Rank": 446,
-        "Type": "velit",
+        "Rank": 664,
+        "Type": "nulla",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 514,
-        "ExtraInfo": "minima",
-        "StyleHint": "est",
-        "FullName": "Nora Hirthe II",
+        "IconHint": "deserunt",
+        "ColorBlock": 657,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "et",
+        "FullName": "Miss Otis Hoeger IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 101
+            "FieldLength": 371
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 79,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "quo",
-    "FullName": "Elsa Neal Mann II",
+    "IconHint": "praesentium",
+    "ColorBlock": 753,
+    "ExtraInfo": "numquam",
+    "StyleHint": "reiciendis",
+    "FullName": "Cordelia McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 503
       }
     }
   }

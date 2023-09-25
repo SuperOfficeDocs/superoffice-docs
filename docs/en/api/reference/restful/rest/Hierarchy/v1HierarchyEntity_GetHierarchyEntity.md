@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 91,
+  "HierarchyId": 93,
   "Domain": "Dashboards",
-  "Name": "Bartell Inc and Sons",
-  "Fullname": "sapiente",
-  "ParentId": 663,
+  "Name": "Kuhlman-Towne",
+  "Fullname": "eum",
+  "ParentId": 557,
   "Children": [
     {
-      "HierarchyId": 146,
+      "HierarchyId": 69,
       "Domain": "Dashboards",
-      "Name": "Gerlach-Haley",
-      "Fullname": "enim",
-      "ParentId": 373,
+      "Name": "Hoeger-D'Amore",
+      "Fullname": "quaerat",
+      "ParentId": 664,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-11-17T03:31:32.6289016+01:00",
-      "RegisteredAssociateId": 719,
-      "Updated": "2012-12-23T03:31:32.6289016+01:00",
-      "UpdatedAssociateId": 524,
+      "Registered": "2022-04-06T03:24:51.630601+02:00",
+      "RegisteredAssociateId": 78,
+      "Updated": "2007-06-15T03:24:51.630601+02:00",
+      "UpdatedAssociateId": 173,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 253
         }
       }
     }
   ],
-  "Registered": "2001-04-29T03:31:32.6289016+02:00",
-  "RegisteredAssociateId": 368,
-  "Updated": "2001-04-09T03:31:32.6289016+02:00",
-  "UpdatedAssociateId": 449,
+  "Registered": "2022-09-21T03:24:51.630601+02:00",
+  "RegisteredAssociateId": 92,
+  "Updated": "2002-10-14T03:24:51.630601+02:00",
+  "UpdatedAssociateId": 861,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 904
     }
   },
   "_Links": {

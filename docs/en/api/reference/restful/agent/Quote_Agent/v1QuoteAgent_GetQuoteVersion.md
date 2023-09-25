@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 319
+  "QuoteVersionId": 328
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 198,
-  "ERPQuoteVersionKey": "et",
-  "QuoteId": 405,
-  "Description": "Distributed exuding definition",
-  "Number": "598097",
+  "QuoteVersionId": 909,
+  "ERPQuoteVersionKey": "aut",
+  "QuoteId": 896,
+  "Description": "Face to face methodical model",
+  "Number": "906447",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 772,
-  "SentDate": "2021-04-25T03:31:27.0424653+02:00",
-  "FollowupId": 346,
-  "ExpirationDate": "2006-09-03T03:31:27.0424653+02:00",
-  "DeliveryCountryId": 21,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 395,
+  "LikelyQuoteAlternativeId": 35,
+  "SentDate": "2022-03-11T03:24:48.111357+01:00",
+  "FollowupId": 313,
+  "ExpirationDate": "2022-01-08T03:24:48.111357+01:00",
+  "DeliveryCountryId": 674,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 370,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "consequatur",
-  "ERPPaymentTypeKey": "illum",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "aut",
-  "Rank": 250,
-  "ApprovedBy": 401,
-  "ApprovedText": "atque",
-  "ApprovedRegisteredBy": 742,
-  "ApprovedRegisteredDate": "1998-03-08T03:31:27.0424653+01:00",
-  "ExtraField1": "sapiente",
-  "ExtraField2": "in",
-  "ExtraField3": "temporibus",
-  "ExtraField4": "impedit",
-  "ExtraField5": "voluptas",
-  "LastRecalculated": "2013-07-26T03:31:27.0424653+02:00",
-  "Updated": "1998-10-25T03:31:27.0424653+01:00",
-  "UpdatedAssociateId": 452,
-  "Registered": "2008-06-14T03:31:27.0424653+02:00",
-  "RegisteredAssociateId": 428,
-  "RequestAssociateId": 47,
-  "RequestComment": "consequuntur",
+  "ERPPaymentTermsKey": "omnis",
+  "ERPPaymentTypeKey": "esse",
+  "ERPDeliveryTermsKey": "autem",
+  "ERPDeliveryTypeKey": "quis",
+  "Rank": 879,
+  "ApprovedBy": 834,
+  "ApprovedText": "deleniti",
+  "ApprovedRegisteredBy": 293,
+  "ApprovedRegisteredDate": "2012-08-19T03:24:48.111357+02:00",
+  "ExtraField1": "quae",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "ullam",
+  "ExtraField4": "et",
+  "ExtraField5": "repellat",
+  "LastRecalculated": "2001-10-26T03:24:48.111357+02:00",
+  "Updated": "2009-08-06T03:24:48.111357+02:00",
+  "UpdatedAssociateId": 373,
+  "Registered": "2005-09-27T03:24:48.111357+02:00",
+  "RegisteredAssociateId": 865,
+  "RequestAssociateId": 657,
+  "RequestComment": "eum",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 849,
-      "ERPQuoteAlternativeKey": "voluptatem",
-      "QuoteVersionId": 248,
-      "Name": "Beier, Crist and Schinner",
-      "Description": "Team-oriented radical architecture",
+      "QuoteAlternativeId": 693,
+      "ERPQuoteAlternativeKey": "cumque",
+      "QuoteVersionId": 890,
+      "Name": "Wisoky LLC",
+      "Description": "Face to face heuristic support",
       "Status": "Error",
-      "Reason": "",
-      "ERPDiscountPercent": 2077.842,
-      "ERPDiscountAmount": 2156.192,
-      "DiscountPercent": 3654.2439999999997,
-      "DiscountAmount": 10727.681999999999,
+      "Reason": "generate customized communities",
+      "ERPDiscountPercent": 31086.146,
+      "ERPDiscountAmount": 4669.66,
+      "DiscountPercent": 5898.188,
+      "DiscountAmount": 22787.314,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "omnis",
-      "VAT": 8847.282,
-      "EarningPercent": 15215.57,
-      "EarningAmount": 22245.131999999998,
-      "SubTotal": 1272.404,
-      "TotalPrice": 24680.25,
-      "ExtraField1": "nihil",
+      "VATInfo": "aut",
+      "VAT": 18409.115999999998,
+      "EarningPercent": 21085.552,
+      "EarningAmount": 18108.252,
+      "SubTotal": 13921.228,
+      "TotalPrice": 3989.582,
+      "ExtraField1": "dolorem",
       "ExtraField2": "aut",
-      "ExtraField3": "repudiandae",
-      "ExtraField4": "sunt",
-      "ExtraField5": "ipsa",
+      "ExtraField3": "sint",
+      "ExtraField4": "accusamus",
+      "ExtraField5": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 380
+          "FieldType": "System.Int32",
+          "FieldLength": 688
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 327
     }
   }
 }

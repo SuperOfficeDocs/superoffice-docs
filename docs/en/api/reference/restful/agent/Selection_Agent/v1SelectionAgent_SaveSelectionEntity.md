@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Configurable empowering synergy",
-  "Postit": "aut",
+  "Description": "Cross-platform 24 hour neural-net",
+  "Postit": "fugiat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 50,
-  "IncludePerson": 673,
-  "MemberCount": 12,
-  "Name": "Osinski LLC",
-  "PostitTextId": 760,
-  "CreatedDate": "1997-08-11T03:31:27.2312035+02:00",
-  "SelectionId": 708,
-  "SoundEx": "vel",
-  "Source": 835,
-  "TextId": 298,
-  "UpdatedDate": "2010-11-05T03:31:27.2312035+01:00",
-  "UpdatedCount": 649,
-  "Visibility": 408,
+  "GroupIdx": 925,
+  "IncludePerson": 608,
+  "MemberCount": 83,
+  "Name": "Blick, Pagac and Abshire",
+  "PostitTextId": 653,
+  "CreatedDate": "2010-12-22T03:24:48.2409231+01:00",
+  "SelectionId": 370,
+  "SoundEx": "sequi",
+  "Source": 926,
+  "TextId": 113,
+  "UpdatedDate": "2015-09-04T03:24:48.2409231+02:00",
+  "UpdatedCount": 897,
+  "Visibility": 366,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 163,
-  "TargetTableName": "Conn-Wisozk",
+  "CompanyUnique": false,
+  "TargetTableNumber": 133,
+  "TargetTableName": "Schowalter-McLaughlin",
   "Completed": false,
-  "LeftSelectionId": 30,
-  "RightSelectionId": 155,
+  "LeftSelectionId": 426,
+  "RightSelectionId": 227,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Connell, Ziemann and Schultz",
-  "ShadowProviderName": "Langosh, Abshire and Jacobi",
-  "ChartKey": "maiores",
-  "LastLoaded": "2015-05-22T03:31:27.2312035+02:00",
-  "LastLoadedBy": 3,
+  "MainProviderName": "Stamm LLC",
+  "ShadowProviderName": "Romaguera, Raynor and Cartwright",
+  "ChartKey": "ullam",
+  "LastLoaded": "2017-10-26T03:24:48.2409231+02:00",
+  "LastLoadedBy": 533,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-02-27T03:31:27.2312035+01:00",
-  "LastMembershipChangeBy": 493,
+  "LastMembershipChange": "1998-06-27T03:24:48.2409231+02:00",
+  "LastMembershipChangeBy": 378,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "neque",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Kunze, Rempel and Wintheiser",
-  "DashboardTileDefinitionId": 42,
+  "MainHeading": "quis",
+  "MemberTabHeading": "quis",
+  "MailingsProviderName": "Pacocha LLC",
+  "DashboardTileDefinitionId": 951,
   "VisibleFor": [
     {
-      "VisibleId": 374,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "dolor"
     },
     {
-      "VisibleId": 374,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "dolor"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented global internet solution",
-  "Postit": "et",
+  "Description": "Operative hybrid projection",
+  "Postit": "iusto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 166,
-  "IncludePerson": 846,
-  "MemberCount": 743,
-  "Name": "Considine, Strosin and Mueller",
-  "PostitTextId": 871,
-  "CreatedDate": "2003-02-14T03:31:27.2312035+01:00",
-  "SelectionId": 845,
-  "SoundEx": "et",
-  "Source": 801,
-  "TextId": 227,
-  "UpdatedDate": "2012-06-25T03:31:27.2312035+02:00",
-  "UpdatedCount": 74,
-  "Visibility": 212,
+  "GroupIdx": 986,
+  "IncludePerson": 992,
+  "MemberCount": 213,
+  "Name": "Brakus Group",
+  "PostitTextId": 663,
+  "CreatedDate": "1996-06-24T03:24:48.2409231+02:00",
+  "SelectionId": 48,
+  "SoundEx": "aut",
+  "Source": 15,
+  "TextId": 842,
+  "UpdatedDate": "2021-12-11T03:24:48.2409231+01:00",
+  "UpdatedCount": 978,
+  "Visibility": 754,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 207,
-  "TargetTableName": "Schinner, Bartoletti and Jaskolski",
-  "Completed": true,
-  "LeftSelectionId": 333,
-  "RightSelectionId": 104,
+  "CompanyUnique": true,
+  "TargetTableNumber": 708,
+  "TargetTableName": "Emmerich-Ullrich",
+  "Completed": false,
+  "LeftSelectionId": 88,
+  "RightSelectionId": 361,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nienow, Yundt and Luettgen",
-  "ShadowProviderName": "Schultz LLC",
-  "ChartKey": "necessitatibus",
-  "LastLoaded": "2012-11-04T03:31:27.2312035+01:00",
-  "LastLoadedBy": 696,
+  "MainProviderName": "Mueller-Aufderhar",
+  "ShadowProviderName": "Gislason-Reynolds",
+  "ChartKey": "et",
+  "LastLoaded": "2023-08-16T03:24:48.2409231+02:00",
+  "LastLoadedBy": 877,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-04-16T03:31:27.2312035+02:00",
-  "LastMembershipChangeBy": 167,
+  "LastMembershipChange": "1997-02-14T03:24:48.2409231+01:00",
+  "LastMembershipChangeBy": 93,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "ipsum",
-  "MailingsProviderName": "Bahringer-Larson",
-  "DashboardTileDefinitionId": 510,
+  "MainHeading": "ut",
+  "MemberTabHeading": "cum",
+  "MailingsProviderName": "Mueller, Gorczany and Weber",
+  "DashboardTileDefinitionId": 622,
   "VisibleFor": [
     {
-      "VisibleId": 954,
+      "VisibleId": 517,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 998
         }
       }
     },
     {
-      "VisibleId": 954,
+      "VisibleId": 517,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 998
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 130
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Torp Inc and Sons",
-    "ToolTip": "Perferendis dolorem provident accusantium id labore.",
-    "Deleted": true,
-    "Rank": 306,
-    "Type": "repudiandae",
-    "ColorBlock": 44,
-    "IconHint": "unde",
-    "Selected": true,
-    "LastChanged": "2009-05-10T03:31:33.7429875+02:00",
+    "Id": 551,
+    "Name": "Hettinger Group",
+    "ToolTip": "Vitae fugit.",
+    "Deleted": false,
+    "Rank": 992,
+    "Type": "repellendus",
+    "ColorBlock": 277,
+    "IconHint": "neque",
+    "Selected": false,
+    "LastChanged": "2009-04-10T03:24:52.318209+02:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Cummings Group",
-        "ToolTip": "Tempora dolore et aut.",
-        "Deleted": true,
-        "Rank": 484,
-        "Type": "hic",
-        "ColorBlock": 712,
-        "IconHint": "et",
+        "Id": 476,
+        "Name": "Weimann-Lehner",
+        "ToolTip": "Unde soluta et rem aut voluptatem vel.",
+        "Deleted": false,
+        "Rank": 977,
+        "Type": "repellendus",
+        "ColorBlock": 860,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2002-07-29T03:31:33.7429875+02:00",
+        "LastChanged": "2021-03-16T03:24:52.318209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Margaret Lubowitz"
+        "ExtraInfo": "aut",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Sylvia Pfeffer DVM"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "quia",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Geraldine Zulauf"
+    "FullName": "Miss Luis Austin Casper Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 189,
-    "Name": "Ziemann-Brekke",
-    "ToolTip": "Est aut.",
+    "Id": 68,
+    "Name": "Reynolds-Lebsack",
+    "ToolTip": "Laudantium eveniet esse qui ipsum nemo.",
     "Deleted": false,
-    "Rank": 790,
-    "Type": "ex",
-    "ColorBlock": 180,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2000-09-10T03:31:33.7429875+02:00",
+    "Rank": 193,
+    "Type": "nobis",
+    "ColorBlock": 255,
+    "IconHint": "quas",
+    "Selected": true,
+    "LastChanged": "2011-08-14T03:24:52.318209+02:00",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Nader Inc and Sons",
-        "ToolTip": "Omnis accusantium velit hic.",
+        "Id": 971,
+        "Name": "Stoltenberg LLC",
+        "ToolTip": "Occaecati eveniet dolores.",
         "Deleted": true,
-        "Rank": 128,
-        "Type": "modi",
-        "ColorBlock": 6,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2006-08-17T03:31:33.7429875+02:00",
+        "Rank": 331,
+        "Type": "facilis",
+        "ColorBlock": 756,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "1997-06-22T03:24:52.318209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "numquam",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Mr. Claire Hipolito Crist II",
+        "FullName": "Foster Wolf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldType": "System.String",
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Paula Jeremie Feil DDS",
+    "FullName": "Tyrel Abbott Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldLength": 646
       }
     }
   }

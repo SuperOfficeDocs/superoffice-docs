@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 373,
-  "Name": "Beer Group",
-  "Tooltip": "mollitia",
-  "Rank": 18,
-  "Rate": 10376.673999999999,
-  "Units": 965.27199999999993,
+  "CurrencyId": 146,
+  "Name": "O'Hara-Greenfelder",
+  "Tooltip": "perferendis",
+  "Rank": 981,
+  "Rate": 19919.703999999998,
+  "Units": 12376.166,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 472
     }
   }
 }

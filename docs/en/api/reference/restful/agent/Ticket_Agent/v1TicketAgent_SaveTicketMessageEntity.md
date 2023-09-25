@@ -117,62 +117,62 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 70,
+  "EjMessageId": 277,
   "Ticket": null,
-  "CreatedAt": "2001-08-09T03:31:27.3717893+02:00",
+  "CreatedAt": "2004-02-05T03:24:48.4092931+01:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "dolore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "animi",
-  "TimeSpent": 825,
-  "Body": "illo",
-  "HtmlBody": "quis",
-  "EmailHeader": "carmelo.cronin@heathcoteolson.name",
-  "DebugInfo": "explicabo",
-  "MailSorter": "amet",
+  "MessageId": "commodi",
+  "TimeSpent": 395,
+  "Body": "dolores",
+  "HtmlBody": "sapiente",
+  "EmailHeader": "corrine@murphy.co.uk",
+  "DebugInfo": "non",
+  "MailSorter": "quod",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quos",
+  "SearchTitle": "libero",
   "MessageHeaders": [
     {
-      "Id": 7,
-      "Name": "Graham Inc and Sons",
-      "Value": "corrupti",
+      "Id": 801,
+      "Name": "Hayes, Olson and Roob",
+      "Value": "omnis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 7,
-      "Name": "Graham Inc and Sons",
-      "Value": "corrupti",
+      "Id": 801,
+      "Name": "Hayes, Olson and Roob",
+      "Value": "omnis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "voluptas",
-  "Sentiment": 315,
-  "SentimentConfidence": 381,
+  "Language": "perferendis",
+  "Sentiment": 152,
+  "SentimentConfidence": 552,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 458,
-      "Name": "Howell-Nader",
-      "ContentType": "corporis",
-      "AttSize": 333,
+      "AttachmentId": 341,
+      "Name": "Prohaska, Sawayn and Powlowski",
+      "ContentType": "non",
+      "AttSize": 759,
       "InlineImage": true,
-      "ContentId": "dolores",
-      "AuthKey": "laboriosam"
+      "ContentId": "officia",
+      "AuthKey": "esse"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "et"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "qui"
   }
 }
 ```
@@ -184,78 +184,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 325,
+  "EjMessageId": 599,
   "Ticket": null,
-  "CreatedAt": "2011-01-20T03:31:27.3717893+01:00",
+  "CreatedAt": "2004-11-18T03:24:48.4092931+01:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "quam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 198,
-  "Body": "dolorem",
-  "HtmlBody": "sunt",
-  "EmailHeader": "irving.kirlin@hartmann.com",
-  "DebugInfo": "aut",
-  "MailSorter": "ea",
+  "MessageId": "unde",
+  "TimeSpent": 159,
+  "Body": "dolor",
+  "HtmlBody": "vel",
+  "EmailHeader": "obie_moen@huelslangworth.uk",
+  "DebugInfo": "non",
+  "MailSorter": "cum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "veritatis",
+  "SearchTitle": "accusantium",
   "MessageHeaders": [
     {
-      "Id": 734,
-      "Name": "Schaefer Inc and Sons",
-      "Value": "nobis",
+      "Id": 970,
+      "Name": "Turner-Stiedemann",
+      "Value": "earum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 386
+          "FieldType": "System.Int32",
+          "FieldLength": 341
         }
       }
     }
   ],
   "Important": true,
-  "Language": "perferendis",
-  "Sentiment": 409,
-  "SentimentConfidence": 49,
+  "Language": "rerum",
+  "Sentiment": 609,
+  "SentimentConfidence": 473,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 455,
-      "Name": "Satterfield Group",
-      "ContentType": "quia",
-      "AttSize": 807,
+      "AttachmentId": 510,
+      "Name": "Toy, Gorczany and Von",
+      "ContentType": "maxime",
+      "AttSize": 536,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "autem",
+      "ContentId": "nemo",
+      "AuthKey": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 710
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "ex"
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "accusantium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 237
+      "FieldLength": 409
     }
   }
 }

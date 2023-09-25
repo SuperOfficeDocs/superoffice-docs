@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Hagenes, Kassulke and Hamill",
-  "Tooltip": "repellat",
+  "Id": 434,
+  "Name": "Harris-Schneider",
+  "Tooltip": "eveniet",
   "Deleted": true,
-  "Rank": 706,
+  "Rank": 412,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "a",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Parker Group",
-  "Tooltip": "eligendi",
-  "Deleted": false,
-  "Rank": 850,
+  "Id": 83,
+  "Name": "Nader, Hoeger and Walker",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 235,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   }
 }

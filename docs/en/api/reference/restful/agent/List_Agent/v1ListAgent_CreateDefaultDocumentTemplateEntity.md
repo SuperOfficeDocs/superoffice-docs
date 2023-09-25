@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 191,
-  "Name": "Grant-Lindgren",
-  "Tooltip": "minima",
-  "SaveInDb": 836,
-  "Filename": "dolores",
-  "DefaultOref": "sunt",
+  "DocumentTemplateId": 842,
+  "Name": "Kovacek, Sauer and Crona",
+  "Tooltip": "voluptatem",
+  "SaveInDb": 938,
+  "Filename": "placeat",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 522,
-  "IntentId": 936,
-  "IsDefaultPublished": true,
-  "Rank": 398,
-  "LoadTemplateFromPlugin": 780,
-  "MimeType": "quisquam",
+  "AutoeventId": 827,
+  "IntentId": 656,
+  "IsDefaultPublished": false,
+  "Rank": 577,
+  "LoadTemplateFromPlugin": 372,
+  "MimeType": "pariatur",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 887,
+  "DocumentTypeKey": 345,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "bette@mann.co.uk",
+  "EmailSubject": "flavio@schuppe.name",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "emmie@fritsch.ca",
+  "SenderEmailAddress": "casandra@okuneva.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

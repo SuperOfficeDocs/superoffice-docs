@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Kutch-Jacobson",
-      "EntityOrParentId": 835,
+      "EntityName": "Wisoky-Parisian",
+      "EntityOrParentId": 96,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Kutch-Jacobson",
-      "EntityOrParentId": 835,
+      "EntityName": "Wisoky-Parisian",
+      "EntityOrParentId": 96,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 892,
-    "Id": 762,
-    "HistoryName": "Mraz, Schumm and Balistreri",
-    "HistoryId": 619,
-    "AssociateId": 274,
-    "Name": "Yundt, Ferry and Trantow",
-    "ItemInfo": "qui",
+    "Rank": 32,
+    "Id": 609,
+    "HistoryName": "Paucek Inc and Sons",
+    "HistoryId": 917,
+    "AssociateId": 310,
+    "Name": "Dach-O'Hara",
+    "ItemInfo": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 316
       }
     }
   }

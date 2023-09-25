@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 68,
-  "Name": "Berge, Walsh and Smith",
-  "Tooltip": "quas",
-  "Rank": 609,
-  "AmountFrom": 22849.994,
-  "AmountTo": 11348.214,
+  "AmountClassId": 516,
+  "Name": "Mertz, Robel and Ward",
+  "Tooltip": "excepturi",
+  "Rank": 847,
+  "AmountFrom": 4813.824,
+  "AmountTo": 10787.228,
   "Deleted": false,
-  "CurrencyId": 241,
+  "CurrencyId": 665,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 878
     }
   }
 }

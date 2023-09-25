@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wintheiser, Pollich and Kshlerin",
-  "Columns": "veritatis",
-  "SortOrder": "necessitatibus",
-  "Restriction": "dolorem",
-  "Entities": "sed",
-  "Page": 858,
-  "PageSize": 480,
-  "Options": "architecto",
-  "Context": "inventore"
+  "ProviderName": "Abernathy-Farrell",
+  "Columns": "inventore",
+  "SortOrder": "accusamus",
+  "Restriction": "pariatur",
+  "Entities": "fugiat",
+  "Page": 617,
+  "PageSize": 213,
+  "Options": "sint",
+  "Context": "et"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 363,
+  "RowCount": 237,
   "Rows": [
     {
-      "EntityName": "Ratke Inc and Sons",
-      "PrimaryKey": 377,
+      "EntityName": "Ruecker-Bins",
+      "PrimaryKey": 321,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "perspiciatis",
-          "LinkHint": "vitae"
+          "DisplayValue": "optio",
+          "TooltipHint": "quibusdam",
+          "LinkHint": "quo"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "est",
+      "LinkHint": "neque",
+      "StyleHint": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 182
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

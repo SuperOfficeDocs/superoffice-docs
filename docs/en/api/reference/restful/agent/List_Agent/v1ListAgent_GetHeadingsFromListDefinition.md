@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568
+  "Id": 41
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "Beer Inc and Sons",
-    "Tooltip": "sint",
+    "HeadingId": 357,
+    "Name": "McGlynn Inc and Sons",
+    "Tooltip": "provident",
     "Deleted": false,
-    "Rank": 432,
-    "UdListDefinitionId": 146,
+    "Rank": 338,
+    "UdListDefinitionId": 773,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 60
       }
     }
   }

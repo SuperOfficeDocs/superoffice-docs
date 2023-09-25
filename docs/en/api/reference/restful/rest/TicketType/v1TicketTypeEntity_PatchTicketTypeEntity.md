@@ -107,7 +107,8 @@ TicketTypeEntity  updated.
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -124,12 +125,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nihil",
+    "path": "laudantium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nihil",
+    "path": "laudantium",
     "value": {}
   }
 ]
@@ -142,34 +143,35 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 745,
-  "Name": "Connelly Group",
-  "Rank": 171,
-  "Tooltip": "voluptates",
-  "Icon": "placeat",
-  "DefaultTicketStatus": 394,
+  "TicketTypeId": 752,
+  "Name": "Stracke Group",
+  "Rank": 55,
+  "Tooltip": "sint",
+  "Icon": "nobis",
+  "DefaultTicketStatus": 829,
   "TicketStatuses": [
-    446,
-    104
+    692,
+    166
   ],
-  "DefaultTicketPriority": 141,
+  "DefaultTicketPriority": 555,
   "TicketPriorities": [
-    921,
-    995
+    543,
+    492
   ],
-  "ReplyTemplate": 727,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 895,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 752
+      "FieldLength": 655
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

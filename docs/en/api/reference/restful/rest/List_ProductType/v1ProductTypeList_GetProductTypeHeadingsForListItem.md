@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Kohler-Rohan",
-    "ToolTip": "Sunt sed eaque placeat impedit blanditiis.",
+    "Id": 67,
+    "Name": "Maggio-Kunde",
+    "ToolTip": "Dolorum aut ut quia.",
     "Deleted": true,
-    "Rank": 460,
-    "Type": "nobis",
-    "ColorBlock": 497,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "2020-08-03T03:31:33.7586101+02:00",
+    "Rank": 804,
+    "Type": "enim",
+    "ColorBlock": 744,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2014-05-04T03:24:52.3338241+02:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Sporer, Quitzon and Stanton",
-        "ToolTip": "Aliquam voluptas libero earum quas.",
-        "Deleted": true,
-        "Rank": 854,
-        "Type": "ut",
-        "ColorBlock": 287,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2014-06-18T03:31:33.7586101+02:00",
+        "Id": 483,
+        "Name": "Lynch LLC",
+        "ToolTip": "Inventore id beatae quod animi debitis.",
+        "Deleted": false,
+        "Rank": 706,
+        "Type": "voluptatem",
+        "ColorBlock": 16,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2004-01-19T03:24:52.3338241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "et",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Ila Tremblay",
+        "FullName": "Mr. Meredith Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 166
+            "FieldType": "System.String",
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "quidem",
-    "Hidden": true,
-    "FullName": "Mr. Brandyn Kylee Rogahn",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Ms. Brandt Mary Cartwright Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 791
       }
     }
   }

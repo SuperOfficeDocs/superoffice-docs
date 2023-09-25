@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 889,
-  "MinDate": "2001-01-23T03:31:26.401997+01:00",
-  "MaxDate": "2007-01-25T03:31:26.401997+01:00",
+  "DocumentPluginId": 906,
+  "MinDate": "2016-10-04T03:24:47.705153+02:00",
+  "MaxDate": "1998-11-19T03:24:47.705153+01:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 635,
-  "NumDocumentsAlreadyMigrated": 443,
+  "NumDocumentsOmitted": 988,
+  "NumDocumentsAlreadyMigrated": 271,
   "Documents": [
     {
-      "DocumentId": 580,
-      "ContactId": 498,
-      "PersonId": 246,
-      "SaleId": 254,
-      "ProjectId": 87,
-      "DocTmplId": 218,
-      "AssociateId": 23,
-      "UserGroupId": 960,
-      "VisibleForId": 596
+      "DocumentId": 234,
+      "ContactId": 503,
+      "PersonId": 90,
+      "SaleId": 502,
+      "ProjectId": 23,
+      "DocTmplId": 981,
+      "AssociateId": 258,
+      "UserGroupId": 346,
+      "VisibleForId": 689
     }
   ],
   "Associates": [
     {
-      "AssociateId": 461,
-      "EmailAddress": "durward.vandervort@daniel.ca"
+      "AssociateId": 146,
+      "EmailAddress": "leslie.schumm@thiel.uk"
     },
     {
-      "AssociateId": 461,
-      "EmailAddress": "durward.vandervort@daniel.ca"
+      "AssociateId": 146,
+      "EmailAddress": "leslie.schumm@thiel.uk"
     }
   ]
 }

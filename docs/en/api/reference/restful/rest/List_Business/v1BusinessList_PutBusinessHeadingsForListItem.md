@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Bernhard-Grimes",
-    "ToolTip": "Laboriosam et officiis.",
+    "Id": 703,
+    "Name": "Lang Inc and Sons",
+    "ToolTip": "Dolor minima.",
     "Deleted": false,
-    "Rank": 89,
-    "Type": "maxime",
-    "ColorBlock": 342,
-    "IconHint": "ullam",
+    "Rank": 884,
+    "Type": "veritatis",
+    "ColorBlock": 109,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2022-02-11T03:31:33.4917333+01:00",
+    "LastChanged": "2011-11-25T03:24:52.1619753+01:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Kozey LLC",
-        "ToolTip": "Voluptates dolorum voluptate in.",
+        "Id": 509,
+        "Name": "Schneider-Prohaska",
+        "ToolTip": "Non adipisci quis atque.",
         "Deleted": true,
-        "Rank": 631,
-        "Type": "voluptatum",
-        "ColorBlock": 711,
-        "IconHint": "atque",
+        "Rank": 693,
+        "Type": "saepe",
+        "ColorBlock": 774,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2008-05-01T03:31:33.4917333+02:00",
+        "LastChanged": "2005-12-01T03:24:52.1619753+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Kennith Ortiz"
+        "ExtraInfo": "qui",
+        "StyleHint": "possimus",
+        "Hidden": false,
+        "FullName": "Mr. Marcus Steuber"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "minus",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Mr. Kristofer Effie Emmerich DVM"
+    "FullName": "Felipe Kuhlman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 490,
-    "Name": "Parisian, Pouros and Mertz",
-    "ToolTip": "Sint voluptas et.",
-    "Deleted": true,
-    "Rank": 771,
-    "Type": "ea",
-    "ColorBlock": 273,
-    "IconHint": "deserunt",
+    "Id": 463,
+    "Name": "Ebert, Hills and Bartoletti",
+    "ToolTip": "Possimus cupiditate et commodi repellendus.",
+    "Deleted": false,
+    "Rank": 474,
+    "Type": "est",
+    "ColorBlock": 856,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2018-12-05T03:31:33.4917333+01:00",
+    "LastChanged": "2006-02-13T03:24:52.1619753+01:00",
     "ChildItems": [
       {
-        "Id": 301,
-        "Name": "Stark, Dooley and Kovacek",
-        "ToolTip": "Incidunt sunt ipsam enim sapiente magnam.",
+        "Id": 340,
+        "Name": "Stehr, Glover and Altenwerth",
+        "ToolTip": "Assumenda sed qui voluptatem incidunt facilis aut.",
         "Deleted": false,
-        "Rank": 602,
-        "Type": "et",
-        "ColorBlock": 975,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2018-09-09T03:31:33.4917333+02:00",
+        "Rank": 199,
+        "Type": "autem",
+        "ColorBlock": 780,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2023-04-25T03:24:52.1619753+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Iliana Hayes",
+        "ExtraInfo": "modi",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Prof. Mariane Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 51
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Mr. Brannon Nader",
+    "ExtraInfo": "quam",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Miss Alysa Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 692
       }
     }
   }

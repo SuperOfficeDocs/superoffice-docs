@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 198,
-  "OnlyOpenSales": true
+  "PersonId": 463,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Paucek Group",
-    "SaleDate": "2014-01-09T03:31:27.2155767+01:00",
-    "SaleId": 440,
-    "Probability": 91,
-    "Title": "delectus",
-    "Amount": 16158.903999999999,
-    "Currency": "occaecati",
-    "ProjectName": "Ondricka-Christiansen",
-    "AssociateFullName": "Samson Wyman",
-    "Description": "Multi-lateral foreground forecast",
+    "ContactName": "Torphy-Heidenreich",
+    "SaleDate": "1996-06-06T03:24:48.2207231+02:00",
+    "SaleId": 132,
+    "Probability": 33,
+    "Title": "deleniti",
+    "Amount": 22922.076,
+    "Currency": "perferendis",
+    "ProjectName": "Breitenberg-Marquardt",
+    "AssociateFullName": "Dr. Delphine Kirlin V",
+    "Description": "Team-oriented static encoding",
     "Status": "Lost",
-    "WeightedAmount": 10533.374,
-    "ProjectId": 521,
-    "EarningPercent": 3268.7619999999997,
-    "Earning": 19562.428,
-    "ContactId": 268,
-    "AssociateId": 820,
-    "PersonId": 499,
-    "SaleTypeId": 773,
-    "SaleTypeName": "Kub-Torp",
-    "PersonFullName": "Marisa Schowalter",
+    "WeightedAmount": 28459.854,
+    "ProjectId": 751,
+    "EarningPercent": 14805.016,
+    "Earning": 28450.451999999997,
+    "ContactId": 733,
+    "AssociateId": 905,
+    "PersonId": 778,
+    "SaleTypeId": 327,
+    "SaleTypeName": "McLaughlin-Leannon",
+    "PersonFullName": "Prof. Nils Jermain Schulist",
     "Completed": "Completed",
-    "ActiveErpLinks": 792,
-    "NextDueDate": "1997-02-08T03:31:27.2155767+01:00",
-    "Number": "168406",
+    "ActiveErpLinks": 329,
+    "NextDueDate": "2020-02-07T03:24:48.2207231+01:00",
+    "Number": "1441560",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 912
+        "FieldLength": 792
       }
     }
   }

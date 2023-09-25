@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Kihn, Weissnat and Stroman",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 165,
-    "Rank": 941
+    "Id": 863,
+    "Name": "Weber Inc and Sons",
+    "Tooltip": "perferendis",
+    "Deleted": false,
+    "UdListDefinitionId": 242,
+    "Rank": 508
   },
   {
-    "Id": 836,
-    "Name": "Kihn, Weissnat and Stroman",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 165,
-    "Rank": 941
+    "Id": 863,
+    "Name": "Weber Inc and Sons",
+    "Tooltip": "perferendis",
+    "Deleted": false,
+    "UdListDefinitionId": 242,
+    "Rank": 508
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Abshire, McClure and Huel",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "UdListDefinitionId": 824,
-    "Rank": 687,
+    "Id": 352,
+    "Name": "Cole Inc and Sons",
+    "Tooltip": "non",
+    "Deleted": false,
+    "UdListDefinitionId": 708,
+    "Rank": 316,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 247
       }
     }
   }

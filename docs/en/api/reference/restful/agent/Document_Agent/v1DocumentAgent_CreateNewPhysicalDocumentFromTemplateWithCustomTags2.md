@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 338,
-  "PersonId": 968,
-  "AppointmentId": 144,
-  "DocumentId": 732,
-  "SaleId": 763,
-  "SelectionId": 320,
-  "ProjectId": 563,
+  "ContactId": 60,
+  "PersonId": 177,
+  "AppointmentId": 939,
+  "DocumentId": 758,
+  "SaleId": 7,
+  "SelectionId": 486,
+  "ProjectId": 504,
   "CustomTags": {
-    "CustomTags1": "eos",
-    "CustomTags2": "nulla"
+    "CustomTags1": "architecto",
+    "CustomTags2": "quas"
   },
-  "UiCulture": "nisi"
+  "UiCulture": "ipsa"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 321,
+  "DocumentId": 677,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "ducimus",
-  "Name": "Schulist-Feil",
-  "OurRef": "deleniti",
-  "YourRef": "et",
-  "CreatedDate": "2021-09-15T03:31:26.1364448+02:00",
-  "UpdatedDate": "1997-08-10T03:31:26.1364448+02:00",
-  "Description": "Integrated uniform paradigm",
+  "Attention": "in",
+  "Header": "doloribus",
+  "Name": "Cartwright, Watsica and Koch",
+  "OurRef": "laboriosam",
+  "YourRef": "qui",
+  "CreatedDate": "2002-02-21T03:24:47.6739096+01:00",
+  "UpdatedDate": "2013-05-22T03:24:47.6739096+02:00",
+  "Description": "Intuitive 5th generation utilisation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-08-20T03:31:26.1364448+02:00",
-  "ExternalRef": "quis",
+  "Date": "2012-08-20T03:24:47.6739096+02:00",
+  "ExternalRef": "optio",
   "Completed": "Completed",
-  "ActiveLinks": 37,
+  "ActiveLinks": 313,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gaylord, Bosco and Bogan",
-      "Id": 507,
-      "Description": "Ameliorated reciprocal hardware",
-      "ExtraInfo": "molestiae",
-      "LinkId": 501,
+      "EntityName": "Marquardt, Torphy and Turner",
+      "Id": 63,
+      "Description": "Horizontal analyzing structure",
+      "ExtraInfo": "cumque",
+      "LinkId": 860,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldType": "System.String",
+          "FieldLength": 81
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 740,
-  "Snum": 359,
+  "SuggestedDocumentId": 709,
+  "Snum": 346,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "374838650"
+    "SuperOffice:1": "1849808338",
+    "SuperOffice:2": "919331324"
   },
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "quo"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "distinctio"
   },
-  "PublishEventDate": "2011-12-22T03:31:26.1364448+01:00",
-  "PublishTo": "2017-06-19T03:31:26.1364448+02:00",
-  "PublishFrom": "2013-12-15T03:31:26.1364448+01:00",
+  "PublishEventDate": "2019-08-09T03:24:47.6739096+02:00",
+  "PublishTo": "2005-07-29T03:24:47.6739096+02:00",
+  "PublishFrom": "2012-06-22T03:24:47.6739096+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 226,
+      "VisibleId": 172,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
+          "FieldType": "System.Int32",
+          "FieldLength": 110
         }
       }
     },
     {
-      "VisibleId": 226,
+      "VisibleId": 172,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
+          "FieldType": "System.Int32",
+          "FieldLength": 110
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 934
     }
   }
 }

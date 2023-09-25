@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Yost-Wintheiser",
-    "AssociateId": 587,
-    "DetailsTable": 318,
-    "DetailsRecord": 275,
+    "Id": 486,
+    "Name": "Hane Inc and Sons",
+    "AssociateId": 543,
+    "DetailsTable": 469,
+    "DetailsRecord": 527,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "praesentium",
-      "ParameterObject2": "dolore"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "adipisci"
     },
-    "LastStarted": "2014-10-11T03:31:33.2718572+02:00",
-    "Created": "2011-07-11T03:31:33.2718572+02:00",
-    "StartCount": 303,
-    "DatabaseSerialNumber": "759198",
-    "Context": "et",
-    "Result": "ab",
+    "LastStarted": "2016-09-01T03:24:52.0369874+02:00",
+    "Created": "2001-03-01T03:24:52.0369874+01:00",
+    "StartCount": 1002,
+    "DatabaseSerialNumber": "475996",
+    "Context": "architecto",
+    "Result": "et",
     "State": "All",
-    "Description": "Centralized demand-driven artificial intelligence",
-    "Response": "veritatis",
-    "Request": "unde",
-    "ProgressDescription": "Enterprise-wide multimedia structure",
-    "ProgressPercent": 704,
-    "FileName": "Bernhard Inc and Sons",
+    "Description": "Profit-focused homogeneous open system",
+    "Response": "harum",
+    "Request": "est",
+    "ProgressDescription": "Reactive multimedia monitoring",
+    "ProgressPercent": 471,
+    "FileName": "Greenfelder LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldType": "System.String",
+        "FieldLength": 932
       }
     }
   }

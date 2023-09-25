@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 15
+  "TicketEntityId": 52
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 410,
-    "Name": "Lesch Inc and Sons",
-    "ContentType": "quasi",
-    "AttSize": 444,
-    "InlineImage": true,
-    "ContentId": "a",
-    "AuthKey": "perspiciatis",
+    "AttachmentId": 519,
+    "Name": "VonRueden-Shanahan",
+    "ContentType": "tempora",
+    "AttSize": 76,
+    "InlineImage": false,
+    "ContentId": "deserunt",
+    "AuthKey": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 714
+        "FieldType": "System.Int32",
+        "FieldLength": 766
       }
     }
   }

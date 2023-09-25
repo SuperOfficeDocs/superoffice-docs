@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 710,
-    "Name": "Huels-Windler",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 157,
-    "UdListDefinitionId": 703
+    "HeadingId": 68,
+    "Name": "Larson, Wyman and Nienow",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 453,
+    "UdListDefinitionId": 177
   },
   {
-    "HeadingId": 710,
-    "Name": "Huels-Windler",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 157,
-    "UdListDefinitionId": 703
+    "HeadingId": 68,
+    "Name": "Larson, Wyman and Nienow",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 453,
+    "UdListDefinitionId": 177
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 627,
-    "Name": "Volkman, O'Conner and Dooley",
-    "Tooltip": "autem",
+    "HeadingId": 935,
+    "Name": "VonRueden Group",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 941,
-    "UdListDefinitionId": 764,
+    "Rank": 445,
+    "UdListDefinitionId": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 1002
       }
     }
   }

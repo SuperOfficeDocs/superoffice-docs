@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 54,
-  "ConnectorName": "Schumm, Klocko and Ernser"
+  "ConnectionId": 295,
+  "ConnectorName": "Moen Inc and Sons"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "quisquam",
-    "Rank": 525,
-    "DisplayName": "Gorczany-Jast",
-    "DisplayDescription": "User-friendly encompassing matrices",
+    "FieldKey": "repellendus",
+    "Rank": 431,
+    "DisplayName": "Treutel, Stanton and Bayer",
+    "DisplayDescription": "Fundamental user-facing model",
     "FieldType": "Checkbox",
-    "ListName": "Klocko-Hagenes",
-    "DefaultValue": "necessitatibus",
-    "MaxLength": 232,
+    "ListName": "Gleason-Schamberger",
+    "DefaultValue": "id",
+    "MaxLength": 872,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

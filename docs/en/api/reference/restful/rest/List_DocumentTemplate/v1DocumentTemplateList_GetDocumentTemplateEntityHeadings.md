@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 194,
-    "Name": "Reichert-Rowe",
-    "Tooltip": "omnis",
+    "HeadingId": 251,
+    "Name": "Morissette, Homenick and Schuster",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 102,
-    "UdListDefinitionId": 293,
+    "Rank": 62,
+    "UdListDefinitionId": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldType": "System.String",
+        "FieldLength": 278
       }
     }
   }

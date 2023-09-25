@@ -89,16 +89,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 783,
-  "Name": "Herman, Bogan and Romaguera",
-  "Config": "rerum",
-  "Rank": 550,
-  "Client": "sint",
-  "Style": "et"
+  "DashboardThemeId": 723,
+  "Name": "Balistreri Group",
+  "Config": "ipsam",
+  "Rank": 876,
+  "Client": "qui",
+  "Style": "nostrum"
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 462,
-  "Name": "Powlowski Group",
-  "Config": "velit",
-  "Rank": 531,
-  "Client": "ab",
-  "Style": "eum",
+  "DashboardThemeId": 133,
+  "Name": "Marks-Donnelly",
+  "Config": "iure",
+  "Rank": 861,
+  "Client": "dolor",
+  "Style": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 19
     }
   },
   "_Links": {

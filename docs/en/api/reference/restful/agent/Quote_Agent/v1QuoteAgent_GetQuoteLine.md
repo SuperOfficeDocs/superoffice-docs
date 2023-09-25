@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 660
+  "QuoteLineId": 759
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 633,
-  "ERPQuoteLineKey": "amet",
-  "QuoteAlternativeId": 915,
-  "ERPProductKey": "ut",
+  "QuoteLineId": 27,
+  "ERPQuoteLineKey": "provident",
+  "QuoteAlternativeId": 491,
+  "ERPProductKey": "reprehenderit",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1121.972,
-  "DeliveredQuantity": 17293.412,
-  "Rank": 346,
-  "Name": "Kling LLC",
-  "Description": "Total next generation task-force",
-  "Code": "eos",
-  "QuantityUnit": "ut",
-  "PriceUnit": "doloremque",
-  "ItemNumber": "1560160",
+  "Quantity": 5819.838,
+  "DeliveredQuantity": 18760.124,
+  "Rank": 426,
+  "Name": "Schamberger-Stroman",
+  "Description": "Enhanced cohesive open architecture",
+  "Code": "voluptatibus",
+  "QuantityUnit": "repellat",
+  "PriceUnit": "non",
+  "ItemNumber": "1624133",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequuntur",
-  "ProductTypeKey": "velit",
-  "Supplier": "in",
-  "SupplierCode": "dolor",
-  "Thumbnail": "reiciendis",
-  "VATInfo": "cum",
-  "VAT": 4359.394,
-  "UnitCost": 21449.095999999998,
-  "UnitMinimumPrice": 26403.95,
-  "UnitListPrice": 7559.208,
+  "ProductFamilyKey": "perspiciatis",
+  "ProductTypeKey": "nostrum",
+  "Supplier": "ipsa",
+  "SupplierCode": "ut",
+  "Thumbnail": "corrupti",
+  "VATInfo": "ipsam",
+  "VAT": 18509.404,
+  "UnitCost": 29907.762,
+  "UnitMinimumPrice": 29945.37,
+  "UnitListPrice": 26516.773999999998,
   "ExtraInfo": [
     {
-      "Name": "Terry, Steuber and Stoltenberg",
-      "Value": "omnis",
+      "Name": "Mills, Jenkins and Huels",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     },
     {
-      "Name": "Terry, Steuber and Stoltenberg",
-      "Value": "omnis",
+      "Name": "Mills, Jenkins and Huels",
+      "Value": "odit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     }
   ],
-  "RawExtraInfo": "deserunt",
-  "IsSubscription": true,
-  "SubscriptionUnit": "qui",
-  "SubscriptionQuantity": 4259.106,
-  "SubscriptionStart": "1999-04-26T03:31:27.106235+02:00",
-  "ERPDiscountPercent": 25965.19,
-  "ERPDiscountAmount": 4628.918,
-  "DiscountPercent": 11721.16,
-  "DiscountAmount": 1143.9099999999999,
+  "RawExtraInfo": "cupiditate",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "SubscriptionQuantity": 11526.851999999999,
+  "SubscriptionStart": "2001-06-04T03:24:48.1582254+02:00",
+  "ERPDiscountPercent": 1397.764,
+  "ERPDiscountAmount": 16591.396,
+  "DiscountPercent": 11022.278,
+  "DiscountAmount": 11943.673999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10072.676,
-  "EarningAmount": 12799.256,
-  "SubTotal": 29838.814,
-  "TotalPrice": 507.70799999999997,
-  "Rights": "aut",
-  "Rule": "dolorem",
-  "ExtraField1": "quia",
-  "ExtraField2": "odit",
-  "ExtraField3": "illo",
-  "ExtraField4": "dolorum",
-  "ExtraField5": "eum",
+  "EarningPercent": 14488.482,
+  "EarningAmount": 11990.684,
+  "SubTotal": 24777.404,
+  "TotalPrice": 6731.8319999999994,
+  "Rights": "cum",
+  "Rule": "et",
+  "ExtraField1": "sed",
+  "ExtraField2": "aut",
+  "ExtraField3": "sed",
+  "ExtraField4": "qui",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

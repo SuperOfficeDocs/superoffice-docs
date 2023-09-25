@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 506,
-  "DestinationContactName": "Blanda, Kuvalis and Lemke",
-  "DestinationContactDepartment": "",
-  "CopyPersons": false
+  "SourceContactId": 59,
+  "DestinationContactName": "Mann, Orn and Macejkovic",
+  "DestinationContactDepartment": "iterate back-end web-readiness",
+  "CopyPersons": true
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-632
+705
 ```

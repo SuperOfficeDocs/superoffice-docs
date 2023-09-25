@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 527,
-  "ColumnId": 254,
-  "FieldDefault": "quidem",
-  "FieldHeight": 461,
-  "FieldLabel": "qui",
-  "FieldLeft": 875,
-  "FieldTop": 239,
+  "UDefFieldId": 900,
+  "ColumnId": 80,
+  "FieldDefault": "minus",
+  "FieldHeight": 558,
+  "FieldLabel": "nesciunt",
+  "FieldLeft": 950,
+  "FieldTop": 691,
   "FieldType": "Checkbox",
-  "FieldWidth": 930,
-  "FormatMask": "et",
-  "HideLabel": true,
+  "FieldWidth": 741,
+  "FormatMask": "sed",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 685,
-  "LabelLeft": 723,
-  "LabelTop": 276,
-  "LabelWidth": 731,
-  "LastVersionId": 746,
-  "ListTableId": 335,
+  "LabelHeight": 77,
+  "LabelLeft": 832,
+  "LabelTop": 352,
+  "LabelWidth": 461,
+  "LastVersionId": 684,
+  "ListTableId": 883,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 782,
-  "ProgId": "magni",
-  "IsReadOnly": false,
-  "ShortLabel": "assumenda",
-  "TabOrder": 306,
-  "TextLength": 647,
-  "Tooltip": "velit",
-  "UdefIdentity": 563,
-  "UDListDefinitionId": 257,
+  "Page1LineNo": 101,
+  "ProgId": "animi",
+  "IsReadOnly": true,
+  "ShortLabel": "blanditiis",
+  "TabOrder": 623,
+  "TextLength": 184,
+  "Tooltip": "delectus",
+  "UdefIdentity": 764,
+  "UDListDefinitionId": 408,
   "Justification": "Center",
-  "Version": 86,
-  "TemplateVariableName": "Kuhic Inc and Sons",
+  "Version": 418,
+  "TemplateVariableName": "Block-Ward",
   "HasBeenPublished": false,
-  "MdoListName": "Maggio, Pagac and Erdman",
+  "MdoListName": "Swaniawski-Kiehn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 998
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

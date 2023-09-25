@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 26,
-  "ERPPriceListKey": "exercitationem",
-  "QuoteConnectionId": 567,
-  "Name": "Vandervort LLC",
-  "Description": "Pre-emptive executive challenge",
-  "Currency": "rerum",
-  "CurrencyName": "Stanton Inc and Sons",
-  "ValidFrom": "2009-09-10T03:31:33.696079+02:00",
-  "ValidTo": "2022-12-07T03:31:33.696079+01:00",
-  "IsActive": true
+  "PriceListId": 140,
+  "ERPPriceListKey": "cumque",
+  "QuoteConnectionId": 640,
+  "Name": "Grant LLC",
+  "Description": "Balanced composite task-force",
+  "Currency": "culpa",
+  "CurrencyName": "Bernhard-Anderson",
+  "ValidFrom": "2012-10-30T03:24:52.3025813+01:00",
+  "ValidTo": "2020-01-11T03:24:52.3025813+01:00",
+  "IsActive": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 744,
-  "ERPPriceListKey": "est",
-  "QuoteConnectionId": 754,
-  "Name": "Friesen LLC",
-  "Description": "Cross-platform modular utilisation",
-  "Currency": "velit",
-  "CurrencyName": "Jacobi Inc and Sons",
-  "ValidFrom": "2021-03-15T03:31:33.7117545+01:00",
-  "ValidTo": "2010-03-08T03:31:33.7117545+01:00",
+  "PriceListId": 360,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 924,
+  "Name": "McClure, Hahn and Sanford",
+  "Description": "Balanced responsive architecture",
+  "Currency": "et",
+  "CurrencyName": "Luettgen-Parisian",
+  "ValidFrom": "2012-02-29T03:24:52.3025813+01:00",
+  "ValidTo": "2001-06-22T03:24:52.3025813+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 833
     }
   },
   "_Links": {

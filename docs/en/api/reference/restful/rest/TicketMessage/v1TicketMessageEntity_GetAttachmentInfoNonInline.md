@@ -65,7 +65,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 435,
-    "Name": "Kiehn, Halvorson and Jacobson",
-    "ContentType": "minus",
-    "AttSize": 660,
-    "InlineImage": false,
-    "ContentId": "quos",
-    "AuthKey": "maxime",
+    "AttachmentId": 190,
+    "Name": "Sipes-Schamberger",
+    "ContentType": "rerum",
+    "AttSize": 58,
+    "InlineImage": true,
+    "ContentId": "quo",
+    "AuthKey": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldLength": 10
       }
     }
   }

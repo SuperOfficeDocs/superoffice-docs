@@ -104,6 +104,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -132,13 +133,13 @@ OK
 POST /api/v1/Agents/Ticket/SetTicketReadByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 190,
+  "TicketEntityId": 223,
   "ReadStatus": "Green",
-  "CheckEscalating": false
+  "CheckEscalating": true
 }
 ```
 
@@ -149,21 +150,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 810,
-  "Title": "autem",
-  "CreatedAt": "1998-09-29T03:31:27.4030353+02:00",
-  "LastChanged": "2013-04-24T03:31:27.4030353+02:00",
-  "ReadByOwner": "2018-08-05T03:31:27.4030353+02:00",
-  "ReadByCustomer": "2011-03-10T03:31:27.4030353+01:00",
-  "FirstReadByOwner": "2022-05-12T03:31:27.4030353+02:00",
-  "FirstReadByUser": "2007-06-28T03:31:27.4030353+02:00",
-  "Activate": "2011-12-24T03:31:27.4030353+01:00",
-  "ClosedAt": "2000-01-13T03:31:27.4030353+01:00",
-  "RepliedAt": "2016-09-22T03:31:27.4030353+02:00",
-  "AlertTimeout": "2021-03-22T03:31:27.4030353+01:00",
-  "Deadline": "2013-05-17T03:31:27.4030353+02:00",
+  "TicketId": 364,
+  "Title": "sed",
+  "CreatedAt": "2001-09-01T03:24:48.4403961+02:00",
+  "LastChanged": "2006-05-27T03:24:48.4403961+02:00",
+  "ReadByOwner": "2020-02-15T03:24:48.4403961+01:00",
+  "ReadByCustomer": "2018-03-19T03:24:48.4403961+01:00",
+  "FirstReadByOwner": "2006-02-24T03:24:48.4403961+01:00",
+  "FirstReadByUser": "2023-08-20T03:24:48.4403961+02:00",
+  "Activate": "2013-10-30T03:24:48.4403961+01:00",
+  "ClosedAt": "1998-06-10T03:24:48.4403961+02:00",
+  "RepliedAt": "2004-05-14T03:24:48.4403961+02:00",
+  "AlertTimeout": "2011-05-06T03:24:48.4403961+02:00",
+  "Deadline": "2015-09-25T03:24:48.4403961+02:00",
   "CreatedBy": null,
-  "Author": "nulla",
+  "Author": "est",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -174,160 +175,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quas",
-      "PersonId": 412,
-      "Mrmrs": "ab",
-      "Firstname": "Dustin",
-      "Lastname": "Jenkins",
-      "MiddleName": "Murazik-Carroll",
-      "Title": "expedita",
-      "Description": "Customer-focused neutral moderator",
-      "Email": "marisa.toy@hermiston.name",
-      "FullName": "Ms. Myah Howe",
-      "DirectPhone": "(238)721-4164 x36678",
-      "FormalName": "Nienow LLC",
-      "CountryId": 254,
-      "ContactId": 593,
-      "ContactName": "Schaefer-Kuvalis",
-      "Retired": 480,
-      "Rank": 775,
-      "ActiveInterests": 360,
+      "Position": "voluptas",
+      "PersonId": 770,
+      "Mrmrs": "ut",
+      "Firstname": "Christine",
+      "Lastname": "Dach",
+      "MiddleName": "Jacobs, Robel and Reinger",
+      "Title": "non",
+      "Description": "Front-line bottom-line extranet",
+      "Email": "naomi.moen@davis.ca",
+      "FullName": "Mr. Jarrell Dare I",
+      "DirectPhone": "(242)163-5720",
+      "FormalName": "Connelly-O'Hara",
+      "CountryId": 74,
+      "ContactId": 749,
+      "ContactName": "Pouros LLC",
+      "Retired": 684,
+      "Rank": 359,
+      "ActiveInterests": 961,
       "ContactDepartment": "",
-      "ContactCountryId": 591,
-      "ContactOrgNr": "1123600",
-      "FaxPhone": "1-374-926-8088 x8318",
-      "MobilePhone": "(331)415-6076 x95394",
-      "ContactPhone": "1-968-746-4947",
-      "AssociateName": "Cormier, Bahringer and Yost",
-      "AssociateId": 172,
+      "ContactCountryId": 603,
+      "ContactOrgNr": "1085400",
+      "FaxPhone": "199-814-4369",
+      "MobilePhone": "(493)276-3645 x99246",
+      "ContactPhone": "(160)955-4060 x399",
+      "AssociateName": "Hoeger-Ryan",
+      "AssociateId": 168,
       "UsePersonAddress": false,
-      "ContactFax": "occaecati",
-      "Kanafname": "minus",
-      "Kanalname": "consequatur",
-      "Post1": "placeat",
-      "Post2": "mollitia",
-      "Post3": "et",
-      "EmailName": "maxwell@stokes.info",
-      "ContactFullName": "Brionna Pacocha",
-      "ActiveErpLinks": 353,
-      "TicketPriorityId": 471,
-      "SupportLanguageId": 757,
-      "SupportAssociateId": 455,
+      "ContactFax": "et",
+      "Kanafname": "atque",
+      "Kanalname": "eaque",
+      "Post1": "non",
+      "Post2": "eligendi",
+      "Post3": "minus",
+      "EmailName": "zoie@lowe.name",
+      "ContactFullName": "Jan Stamm",
+      "ActiveErpLinks": 136,
+      "TicketPriorityId": 867,
+      "SupportLanguageId": 116,
+      "SupportAssociateId": 798,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldType": "System.Int32",
+          "FieldLength": 708
         }
       }
     }
   ],
-  "AlertLevel": 599,
-  "ConnectId": 50,
+  "AlertLevel": 3,
+  "ConnectId": 62,
   "ReadStatus": "Green",
-  "TimeToReply": 805,
-  "RealTimeToReply": 999,
-  "TimeToClose": 297,
-  "RealTimeToClose": 517,
-  "TimeSpentInternally": 960,
-  "TimeSpentExternally": 668,
-  "TimeSpentQueue": 336,
-  "RealTimeSpentInternally": 942,
-  "RealTimeSpentExternally": 748,
-  "RealTimeSpentQueue": 986,
+  "TimeToReply": 781,
+  "RealTimeToReply": 804,
+  "TimeToClose": 469,
+  "RealTimeToClose": 747,
+  "TimeSpentInternally": 100,
+  "TimeSpentExternally": 288,
+  "TimeSpentQueue": 94,
+  "RealTimeSpentInternally": 757,
+  "RealTimeSpentExternally": 87,
+  "RealTimeSpentQueue": 644,
+  "TimeSpent": 5,
   "HasAttachment": true,
-  "NumReplies": 908,
-  "NumMessages": 578,
-  "FromAddress": "molestiae",
+  "NumReplies": 341,
+  "NumMessages": 325,
+  "FromAddress": "laboriosam",
   "Messages": [
     {
-      "TicketMessageId": 97,
-      "CreatedAt": "2004-11-25T03:31:27.4030353+01:00",
+      "TicketMessageId": 309,
+      "CreatedAt": "2014-03-12T03:24:48.4403961+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "omnis",
-      "PersonId": 840,
-      "PersonFullName": "Chase Wiza Sr.",
-      "ContactId": 961,
-      "ContactName": "Wuckert Inc and Sons",
+      "Important": false,
+      "Author": "sunt",
+      "PersonId": 621,
+      "PersonFullName": "Miss Annamarie Mann II",
+      "ContactId": 471,
+      "ContactName": "Paucek LLC",
       "ContactDepartment": "",
-      "NumAttachments": 871,
-      "EmailHeader": "adriana_macejkovic@ziemann.name",
+      "NumAttachments": 263,
+      "EmailHeader": "merl.tremblay@welch.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "et",
-      "Sentiment": 635,
-      "SentimentConfidence": 883,
-      "CreatedBy": 482,
-      "ChangedAt": "2022-09-13T03:31:27.4030353+02:00",
+      "Language": "quis",
+      "Sentiment": 482,
+      "SentimentConfidence": 183,
+      "CreatedBy": 111,
+      "ChangedAt": "1996-07-11T03:24:48.4403961+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldLength": 119
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 705,
-      "Name": "Yundt-Langosh",
-      "ToolTip": "Quibusdam rerum debitis et eaque explicabo.",
+      "Id": 981,
+      "Name": "McLaughlin, Wiza and Kshlerin",
+      "ToolTip": "Laborum dolor culpa soluta omnis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldType": "System.Int32",
+          "FieldLength": 605
         }
       }
     },
     {
-      "Id": 705,
-      "Name": "Yundt-Langosh",
-      "ToolTip": "Quibusdam rerum debitis et eaque explicabo.",
+      "Id": 981,
+      "Name": "McLaughlin, Wiza and Kshlerin",
+      "ToolTip": "Laborum dolor culpa soluta omnis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldType": "System.Int32",
+          "FieldLength": 605
         }
       }
     }
   ],
-  "Language": "omnis",
-  "Sentiment": 770,
-  "SentimentConfidence": 838,
-  "SuggestedCategoryId": 834,
+  "Language": "earum",
+  "Sentiment": 470,
+  "SentimentConfidence": 197,
+  "SuggestedCategoryId": 3,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 802,
-  "IconHint": "deleniti",
+  "OrigHumanCategoryId": 227,
+  "IconHint": "veritatis",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "reprehenderit",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "ut"
+    "CustomFields1": "dolor",
+    "CustomFields2": "consectetur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 893
     }
   }
 }

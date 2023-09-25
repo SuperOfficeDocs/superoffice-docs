@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Greenholt Inc and Sons",
-    "Leannon-Schuppe"
+    "Sawayn Group",
+    "Daniel LLC"
   ],
-  "Culture": "provident",
+  "Culture": "et",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Rowe-King",
-    "ResourceValue": "ratione",
-    "Culture": "amet",
+    "ResourceName": "Beatty, Turcotte and Davis",
+    "ResourceValue": "dolores",
+    "Culture": "praesentium",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 922
       }
     }
   },
   {
-    "ResourceName": "Rowe-King",
-    "ResourceValue": "ratione",
-    "Culture": "amet",
+    "ResourceName": "Beatty, Turcotte and Davis",
+    "ResourceValue": "dolores",
+    "Culture": "praesentium",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 922
       }
     }
   }

@@ -77,24 +77,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 685,
-  "Year": 269,
+  "TargetGroupId": 76,
+  "Year": 644,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 168,
+      "TargetAssignmentInfoId": 689,
       "Values": [
-        504,
-        558
+        546,
+        335
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 684,
-      "DimensionListItemDisplayName": "Brakus-McLaughlin"
+      "DimensionListItem": 15,
+      "DimensionListItemDisplayName": "Bailey Inc and Sons"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 898,
-  "Year": 605,
+  "TargetGroupId": 980,
+  "Year": 916,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 16,
+      "TargetAssignmentInfoId": 567,
       "Values": [
-        178,
-        921
+        884,
+        238
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 960,
-      "DimensionListItemDisplayName": "Walsh-Bauch",
+      "DimensionListItem": 354,
+      "DimensionListItemDisplayName": "Reilly, Jacobi and Becker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 396
+          "FieldType": "System.Int32",
+          "FieldLength": 397
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldLength": 182
     }
   }
 }

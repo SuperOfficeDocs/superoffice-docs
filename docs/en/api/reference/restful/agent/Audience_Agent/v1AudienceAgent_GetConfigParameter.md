@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Will, Goldner and Simonis",
-  "ParameterName": "Jast, Roob and Mosciski"
+  "LayoutName": "Little-Schaefer",
+  "ParameterName": "Gibson-Langosh"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 493,
-  "Name": "Johnson Group",
-  "Value": "reiciendis",
-  "CreatedDate": "2000-08-18T03:31:25.6339962+02:00",
-  "UpdatedDate": "2008-03-26T03:31:25.6339962+01:00",
-  "CreatedBy": "nobis",
-  "UpdatedBy": "tempore",
+  "AudienceLayoutId": 626,
+  "Name": "Wilderman, Kovacek and Mertz",
+  "Value": "suscipit",
+  "CreatedDate": "2008-10-06T03:24:47.2364513+02:00",
+  "UpdatedDate": "2009-01-19T03:24:47.2364513+01:00",
+  "CreatedBy": "quia",
+  "UpdatedBy": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldLength": 500
     }
   }
 }

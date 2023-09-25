@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 936,
-    "Name": "Kertzmann LLC",
-    "Tooltip": "pariatur",
+    "HeadingId": 57,
+    "Name": "Wolff, Schuppe and D'Amore",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 786,
-    "UdListDefinitionId": 769,
+    "Rank": 141,
+    "UdListDefinitionId": 211,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 318
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Block, Barrows and Baumbach",
-    "Tooltip": "dolores",
+    "Id": 576,
+    "Name": "Cummings-Flatley",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "UdListDefinitionId": 136,
-    "Rank": 659,
+    "UdListDefinitionId": 438,
+    "Rank": 844,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 978
+        "FieldLength": 904
       }
     }
   }

@@ -733,7 +733,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/quote/sale/amountWeighted,alternative/version/quote/sale/person/restrictionAddress/formattedAddress,alternative/version/quote/sale/contact/orgnr,alternative/version/quote/sale/contact/deletedDate,alternative/version/quote/sale/contact/contactUdef/SuperOffice:11
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/quote/sale/person/personCountry,alternative/version/quote/sale/person/personExtra/x_person_datetime,alternative/version/quote/sale/person/legalBaseEmarketing,alternative/version/quote/sale/contact/streetAddress/zip,alternative/version/quote/sale/contact/contactAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

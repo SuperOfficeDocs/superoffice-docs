@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 502,
-    "Name": "Mosciski-Bartell",
-    "PersonId": 341,
-    "Rank": 796,
-    "Tooltip": "rem",
+    "AssociateId": 560,
+    "Name": "Wehner, Champlin and Kirlin",
+    "PersonId": 490,
+    "Rank": 500,
+    "Tooltip": "dicta",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 468,
-    "FullName": "Melany Kuvalis",
-    "FormalName": "Aufderhar Group",
-    "Deleted": false,
-    "EjUserId": 233,
-    "UserName": "Hansen Inc and Sons",
+    "GroupIdx": 727,
+    "FullName": "Ms. Sydni Heathcote IV",
+    "FormalName": "Wisoky, Kris and Weimann",
+    "Deleted": true,
+    "EjUserId": 998,
+    "UserName": "VonRueden-Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldLength": 955
       }
     }
   }

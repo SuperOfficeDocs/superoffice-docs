@@ -65,19 +65,19 @@ No Content
 POST /api/v1/Agents/Selection/AddContactSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 979,
+  "SelectionId": 486,
   "ContactPersonIds": [
     {
-      "PersonId": 84,
-      "ContactId": 591
+      "PersonId": 25,
+      "ContactId": 867
     },
     {
-      "PersonId": 84,
-      "ContactId": 591
+      "PersonId": 25,
+      "ContactId": 867
     }
   ]
 }

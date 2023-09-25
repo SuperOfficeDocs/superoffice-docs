@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 347,
-  "Field": "placeat",
-  "RecordId": 990,
+  "RefCountsId": 731,
+  "Field": "molestiae",
+  "RecordId": 887,
   "SuggestedRecords": [
     {
-      "Id": 512,
-      "Name": "Parker-Stoltenberg",
-      "ToolTip": "Esse adipisci atque consequatur.",
+      "Id": 170,
+      "Name": "Grant, Ondricka and Brakus",
+      "ToolTip": "Architecto placeat quo et quod.",
       "Deleted": false,
-      "Rank": 595,
-      "Type": "id",
+      "Rank": 828,
+      "Type": "ab",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eaque",
-      "ColorBlock": 927,
-      "ExtraInfo": "delectus",
-      "StyleHint": "autem",
-      "FullName": "Phyllis Little",
+      "IconHint": "eum",
+      "ColorBlock": 411,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "provident",
+      "FullName": "Elenor Waelchi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldType": "System.String",
+          "FieldLength": 131
         }
       }
     }
   ],
-  "CurrentValue": 933,
-  "TravelPrefix": 713,
-  "SatPrefix": 811,
-  "Allocate": true,
-  "Unique": false,
+  "CurrentValue": 125,
+  "TravelPrefix": 690,
+  "SatPrefix": 473,
+  "Allocate": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldType": "System.String",
+      "FieldLength": 467
     }
   }
 }

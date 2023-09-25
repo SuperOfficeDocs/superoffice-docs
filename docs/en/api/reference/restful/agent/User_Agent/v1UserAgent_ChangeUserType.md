@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 906,
-  "Name": "O'Connell-Marvin",
-  "Rank": 676,
-  "Tooltip": "accusamus",
+  "AssociateId": 146,
+  "Name": "Murphy Group",
+  "Rank": 376,
+  "Tooltip": "quam",
   "LicenseOwners": [
     {
-      "Name": "Cummings LLC",
-      "Description": "Integrated human-resource architecture",
+      "Name": "Kunde LLC",
+      "Description": "Down-sized 6th generation framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldType": "System.Int32",
+          "FieldLength": 637
         }
       }
     },
     {
-      "Name": "Cummings LLC",
-      "Description": "Integrated human-resource architecture",
+      "Name": "Kunde LLC",
+      "Description": "Down-sized 6th generation framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 879
+          "FieldType": "System.Int32",
+          "FieldLength": 637
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "vero",
-      "Id": 678,
-      "Rank": 363,
+      "Value": "autem",
+      "Tooltip": "nisi",
+      "Id": 879,
+      "Rank": 302,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 412
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2008-07-04T03:31:27.716607+02:00",
-  "Lastlogout": "2005-08-18T03:31:27.716607+02:00",
-  "EjUserId": 383,
-  "RequestSignature": "et",
+  "Lastlogin": "2022-07-03T03:24:48.5185139+02:00",
+  "Lastlogout": "2018-10-09T03:24:48.5185139+02:00",
+  "EjUserId": 414,
+  "RequestSignature": "ipsa",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "animi",
-      "DisplayValue": "dolores",
+      "Value": "autem",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 920
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     },
     {
       "Type": null,
-      "Value": "animi",
-      "DisplayValue": "dolores",
+      "Value": "autem",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 920
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     }
   ],
-  "UserName": "Padberg-Swift",
+  "UserName": "Boyle-Metz",
   "TicketCategories": [
     {
-      "Id": 550,
-      "Name": "Ondricka LLC",
-      "ToolTip": "In velit aut deleniti non.",
-      "Deleted": false,
-      "Rank": 57,
-      "Type": "assumenda",
+      "Id": 589,
+      "Name": "Parisian, Skiles and Tromp",
+      "ToolTip": "Sunt voluptatem.",
+      "Deleted": true,
+      "Rank": 235,
+      "Type": "hic",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 940,
-      "ExtraInfo": "labore",
-      "StyleHint": "deserunt",
-      "FullName": "Dr. Eudora Nikolaus",
+      "IconHint": "nesciunt",
+      "ColorBlock": 32,
+      "ExtraInfo": "et",
+      "StyleHint": "consequatur",
+      "FullName": "Felicita DuBuque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 303
         }
       }
     }
   ],
-  "NickName": "Greenfelder-Leannon",
+  "NickName": "Kautzer, Hudson and Orn",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "non"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "est"
+    "CustomFields1": "aut",
+    "CustomFields2": "excepturi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Gibson Group",
-      "DisplayName": "Grady-Oberbrunner",
-      "Description": "Versatile asynchronous focus group",
-      "ToolTip": "Ullam dignissimos voluptas fugit est distinctio.",
+      "Name": "Heidenreich Inc and Sons",
+      "DisplayName": "Nader, Beatty and Nikolaus",
+      "Description": "Customizable global alliance",
+      "ToolTip": "Ex eos.",
       "Actions": "Implicit",
-      "ActionData": "nam",
+      "ActionData": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 90
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldLength": 672
     }
   }
 }

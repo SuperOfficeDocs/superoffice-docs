@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 296,
-  "CountryId": 25
+  "ContactId": 347,
+  "CountryId": 590
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 17421.906,
-  "Wgs84Longitude": 17804.254,
+  "Wgs84Latitude": 12786.72,
+  "Wgs84Longitude": 12244.538,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kilback Inc and Sons",
-        "Value": "aut",
-        "Tooltip": "qui",
-        "Label": "reprehenderit",
-        "ValueLength": 515,
-        "AddressType": "earum",
+        "Name": "Weissnat-Stamm",
+        "Value": "ullam",
+        "Tooltip": "officiis",
+        "Label": "voluptatibus",
+        "ValueLength": 588,
+        "AddressType": "ipsum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 988
+            "FieldType": "System.String",
+            "FieldLength": 877
           }
         }
       }
     ],
     [
       {
-        "Name": "Leffler-Monahan",
-        "Value": "enim",
-        "Tooltip": "iste",
-        "Label": "assumenda",
-        "ValueLength": 171,
-        "AddressType": "et",
+        "Name": "Keeling-Prosacco",
+        "Value": "vel",
+        "Tooltip": "beatae",
+        "Label": "voluptatem",
+        "ValueLength": 182,
+        "AddressType": "vitae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 833
+            "FieldLength": 424
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "enim",
+  "Formatted": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 298
     }
   }
 }

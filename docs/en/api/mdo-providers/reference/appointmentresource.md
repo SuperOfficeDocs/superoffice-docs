@@ -10,6 +10,9 @@ so.envir: onsite, online
 
 # "appointmentresource" MDO List
 
+
+
+
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AppointmentResource">AppointmentResource</see> class.
 The name of the MDO list is 'appointmentresource'.
 

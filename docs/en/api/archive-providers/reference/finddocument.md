@@ -691,7 +691,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=person/personAssociate/contactFullName,person/legalBaseStore,contact/contactDeleted,contact/activeErpLinks,contact/LastActivity
+GET /api/v1/archive/FindDocument?$select=name,person/personMobilePhone/formattedNumber,person/personExtra/x_person_datetime,contact/streetAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

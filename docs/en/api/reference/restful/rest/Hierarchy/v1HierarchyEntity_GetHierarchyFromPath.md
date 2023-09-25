@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 565,
+  "HierarchyId": 926,
   "Domain": "Dashboards",
-  "Name": "Altenwerth-Kessler",
-  "Fullname": "culpa",
-  "ParentId": 135,
+  "Name": "Corwin-Goldner",
+  "Fullname": "vel",
+  "ParentId": 871,
   "Children": [
     {
-      "HierarchyId": 562,
+      "HierarchyId": 459,
       "Domain": "Dashboards",
-      "Name": "Bednar Group",
-      "Fullname": "nisi",
-      "ParentId": 98,
+      "Name": "Stehr, Zulauf and Mueller",
+      "Fullname": "deserunt",
+      "ParentId": 355,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-02-23T03:31:32.6289016+01:00",
-      "RegisteredAssociateId": 505,
-      "Updated": "2020-12-12T03:31:32.6289016+01:00",
-      "UpdatedAssociateId": 486,
+      "Registered": "1997-07-28T03:24:51.630601+02:00",
+      "RegisteredAssociateId": 825,
+      "Updated": "2009-08-07T03:24:51.630601+02:00",
+      "UpdatedAssociateId": 165,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     }
   ],
-  "Registered": "2005-04-30T03:31:32.6289016+02:00",
-  "RegisteredAssociateId": 177,
-  "Updated": "2018-10-04T03:31:32.6289016+02:00",
-  "UpdatedAssociateId": 247,
+  "Registered": "2006-04-26T03:24:51.630601+02:00",
+  "RegisteredAssociateId": 366,
+  "Updated": "2022-09-15T03:24:51.630601+02:00",
+  "UpdatedAssociateId": 52,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

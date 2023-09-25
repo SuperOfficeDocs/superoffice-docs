@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Wolf-Kilback",
-    "ToolTip": "Laudantium hic commodi.",
-    "Deleted": true,
-    "Rank": 939,
-    "Type": "accusamus",
-    "ColorBlock": 910,
-    "IconHint": "dolores",
+    "Id": 870,
+    "Name": "Leffler-Keeling",
+    "ToolTip": "Quod qui odio ex.",
+    "Deleted": false,
+    "Rank": 905,
+    "Type": "minima",
+    "ColorBlock": 260,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2013-03-07T03:31:33.4448734+01:00",
+    "LastChanged": "1998-09-28T03:24:52.1463474+02:00",
     "ChildItems": [
       {
-        "Id": 695,
-        "Name": "Koelpin, Kuvalis and Corkery",
-        "ToolTip": "Quos ducimus quibusdam ipsum ex qui qui recusandae.",
+        "Id": 194,
+        "Name": "Mertz-Rolfson",
+        "ToolTip": "Itaque temporibus voluptate velit nisi.",
         "Deleted": false,
-        "Rank": 857,
-        "Type": "laborum",
-        "ColorBlock": 260,
-        "IconHint": "neque",
-        "Selected": true,
-        "LastChanged": "2015-05-24T03:31:33.4604945+02:00",
+        "Rank": 47,
+        "Type": "quo",
+        "ColorBlock": 592,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2022-05-14T03:24:52.1463474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Bud Schultz",
+        "ExtraInfo": "quos",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Scot Tyrese Haag II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 960
+            "FieldType": "System.String",
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Amparo Haley",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Miss Emmet Trudie Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldType": "System.String",
+        "FieldLength": 232
       }
     }
   }

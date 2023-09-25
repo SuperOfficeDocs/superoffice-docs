@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 394
+  "QuoteConnectionId": 426
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 288,
-  "ERPName": "Harris LLC",
-  "DisplayName": "Upton LLC",
-  "DisplayDescription": "Public-key next generation throughput",
-  "Rank": 875,
-  "ConnectorName": "Cruickshank-Denesik",
-  "ErpConnectionId": 618,
-  "ExtraData": "iusto",
-  "IsAvailable": true,
+  "QuoteConnectionId": 625,
+  "ERPName": "Hickle-Robel",
+  "DisplayName": "Swift, Auer and Balistreri",
+  "DisplayDescription": "Streamlined 24 hour internet solution",
+  "Rank": 665,
+  "ConnectorName": "Rippin Inc and Sons",
+  "ErpConnectionId": 522,
+  "ExtraData": "velit",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 106,
-      "ERPPriceListKey": "consequatur",
-      "QuoteConnectionId": 833,
-      "Name": "Fisher-Pfeffer",
-      "Description": "Reactive stable data-warehouse",
-      "Currency": "nulla",
-      "CurrencyName": "Deckow-Swaniawski",
-      "ValidFrom": "2006-06-13T03:31:27.0905589+02:00",
-      "ValidTo": "2006-07-12T03:31:27.0905589+02:00",
-      "IsActive": true,
+      "PriceListId": 861,
+      "ERPPriceListKey": "veniam",
+      "QuoteConnectionId": 272,
+      "Name": "Block-Bernhard",
+      "Description": "Grass-roots explicit structure",
+      "Currency": "odio",
+      "CurrencyName": "Runolfsdottir Group",
+      "ValidFrom": "2003-10-04T03:24:48.1426062+02:00",
+      "ValidTo": "2019-11-27T03:24:48.1426062+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 806
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    751,
-    64
+    702,
+    823
   ],
   "AssociateAccessIds": [
-    727,
-    446
+    153,
+    298
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldLength": 474
     }
   }
 }

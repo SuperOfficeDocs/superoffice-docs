@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 694,
-  "Name": "Koepp-Bradtke",
-  "Tooltip": "aperiam",
+  "HeadingId": 8,
+  "Name": "Hegmann Inc and Sons",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 75,
-  "UdListDefinitionId": 622
+  "Rank": 761,
+  "UdListDefinitionId": 868
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 108,
-  "Name": "Zulauf Group",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 765,
-  "UdListDefinitionId": 715,
+  "HeadingId": 323,
+  "Name": "Stiedemann LLC",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "Rank": 251,
+  "UdListDefinitionId": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 397
     }
   }
 }

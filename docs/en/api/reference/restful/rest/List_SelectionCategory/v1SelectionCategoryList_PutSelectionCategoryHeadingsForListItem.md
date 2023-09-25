@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Waelchi-Hackett",
-    "ToolTip": "Facere hic nisi vel repudiandae.",
-    "Deleted": true,
-    "Rank": 972,
-    "Type": "et",
-    "ColorBlock": 31,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2021-07-16T03:31:33.8835899+02:00",
+    "Id": 925,
+    "Name": "Mraz, Vandervort and Haley",
+    "ToolTip": "Voluptas doloribus dolores quis cupiditate sit.",
+    "Deleted": false,
+    "Rank": 259,
+    "Type": "aspernatur",
+    "ColorBlock": 804,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2009-12-05T03:24:52.4275712+01:00",
     "ChildItems": [
       {
-        "Id": 91,
-        "Name": "Considine-Heller",
-        "ToolTip": "Ut ea officia sit et vel.",
+        "Id": 201,
+        "Name": "Tremblay-Moore",
+        "ToolTip": "Ut saepe deserunt perferendis delectus.",
         "Deleted": false,
-        "Rank": 495,
-        "Type": "eos",
-        "ColorBlock": 231,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2017-02-24T03:31:33.8835899+01:00",
+        "Rank": 791,
+        "Type": "eum",
+        "ColorBlock": 933,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2006-04-27T03:24:52.4275712+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Octavia Bode"
+        "ExtraInfo": "earum",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Alejandra O'Hara"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "expedita",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Josie Daugherty"
+    "FullName": "Miss Angie Hartmann MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Lynch-Baumbach",
-    "ToolTip": "Aut fugit esse.",
-    "Deleted": false,
-    "Rank": 813,
-    "Type": "eum",
-    "ColorBlock": 425,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2014-08-13T03:31:33.8993202+02:00",
+    "Id": 60,
+    "Name": "Reichert-Davis",
+    "ToolTip": "Ipsa aliquid nulla qui.",
+    "Deleted": true,
+    "Rank": 174,
+    "Type": "et",
+    "ColorBlock": 261,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "2015-12-20T03:24:52.4275712+01:00",
     "ChildItems": [
       {
-        "Id": 998,
-        "Name": "Wiegand-Herzog",
-        "ToolTip": "Repudiandae impedit illum.",
-        "Deleted": true,
-        "Rank": 663,
-        "Type": "doloribus",
-        "ColorBlock": 212,
-        "IconHint": "eum",
+        "Id": 892,
+        "Name": "Kuhic, Wiza and Parker",
+        "ToolTip": "Nam quasi ut quibusdam beatae.",
+        "Deleted": false,
+        "Rank": 651,
+        "Type": "eaque",
+        "ColorBlock": 870,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2004-10-21T03:31:33.8993202+02:00",
+        "LastChanged": "2020-10-31T03:24:52.4275712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "nihil",
+        "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Ms. Milford Larson III",
+        "FullName": "Kristina Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 848
+            "FieldType": "System.Int32",
+            "FieldLength": 258
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "nemo",
+    "ExtraInfo": "nihil",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Dr. Anya Wolff",
+    "FullName": "Miss Kristy Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 415
       }
     }
   }

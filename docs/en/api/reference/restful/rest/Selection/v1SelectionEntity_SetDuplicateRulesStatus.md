@@ -62,15 +62,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Shields Inc and Sons",
-    "DisplayName": "Windler, Kris and Reynolds",
-    "DisplayTooltip": "eveniet",
+    "Name": "Lesch, Braun and Koelpin",
+    "DisplayName": "Bauch-Ryan",
+    "DisplayTooltip": "saepe",
     "IsActive": true
   },
   {
-    "Name": "Shields Inc and Sons",
-    "DisplayName": "Windler, Kris and Reynolds",
-    "DisplayTooltip": "eveniet",
+    "Name": "Lesch, Braun and Koelpin",
+    "DisplayName": "Bauch-Ryan",
+    "DisplayTooltip": "saepe",
     "IsActive": true
   }
 ]

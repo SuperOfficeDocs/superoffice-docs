@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "suscipit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "suscipit",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 558,
+  "DocumentId": 69,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "vel",
-  "Header": "sint",
-  "Name": "Roberts, Ebert and Abshire",
-  "OurRef": "sit",
-  "YourRef": "laudantium",
-  "CreatedDate": "2019-09-23T03:31:32.566424+02:00",
-  "UpdatedDate": "2023-05-31T03:31:32.566424+02:00",
-  "Description": "Synergistic explicit Graphic Interface",
+  "Attention": "praesentium",
+  "Header": "recusandae",
+  "Name": "Quigley, Ortiz and Corkery",
+  "OurRef": "ut",
+  "YourRef": "doloremque",
+  "CreatedDate": "2014-12-31T03:24:51.5837277+01:00",
+  "UpdatedDate": "2018-04-04T03:24:51.5837277+02:00",
+  "Description": "Cross-group neutral process improvement",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1996-08-19T03:31:32.566424+02:00",
-  "ExternalRef": "qui",
+  "Date": "2013-04-11T03:24:51.5837277+02:00",
+  "ExternalRef": "labore",
   "Completed": "Completed",
-  "ActiveLinks": 60,
+  "ActiveLinks": 52,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Harris-Ernser",
-      "Id": 103,
-      "Description": "Cross-platform transitional moderator",
-      "ExtraInfo": "inventore",
-      "LinkId": 887,
+      "EntityName": "Lang, McKenzie and Raynor",
+      "Id": 707,
+      "Description": "Synergistic context-sensitive matrix",
+      "ExtraInfo": "sunt",
+      "LinkId": 350,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 160
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 215,
-  "Snum": 500,
+  "SuggestedDocumentId": 933,
+  "Snum": 41,
   "UserDefinedFields": {
-    "SuperOffice:1": "Fausto Halvorson",
-    "SuperOffice:2": "Dr. Jaron Reynolds"
+    "SuperOffice:1": "Alfreda Hand",
+    "SuperOffice:2": "629017613"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "in",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "possimus"
+    "CustomFields1": "harum",
+    "CustomFields2": "ullam"
   },
-  "PublishEventDate": "1999-12-09T03:31:32.566424+01:00",
-  "PublishTo": "2003-12-30T03:31:32.566424+01:00",
-  "PublishFrom": "1997-01-04T03:31:32.566424+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-11-28T03:24:51.5837277+01:00",
+  "PublishTo": "2000-10-11T03:24:51.5837277+02:00",
+  "PublishFrom": "2005-08-10T03:24:51.5837277+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 554,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldType": "System.Int32",
+          "FieldLength": 791
         }
       }
     },
     {
-      "VisibleId": 554,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldType": "System.Int32",
+          "FieldLength": 791
         }
       }
     }
@@ -256,12 +256,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 934
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

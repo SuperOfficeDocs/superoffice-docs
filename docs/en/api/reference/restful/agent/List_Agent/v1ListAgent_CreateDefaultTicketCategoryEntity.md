@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 653,
-  "ParentId": 396,
-  "Name": "Mertz Inc and Sons",
-  "Fullname": "atque",
-  "CategoryMaster": 930,
+  "TicketCategoryId": 271,
+  "ParentId": 92,
+  "Name": "Medhurst-Heathcote",
+  "Fullname": "voluptas",
+  "CategoryMaster": 806,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cormier-Gutmann",
+  "ExternalName": "McKenzie-Kessler",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 66,
-  "ReplyTemplate": 41,
-  "NotificationEmail": "joannie@schultz.info",
+  "AssignmentLag": 455,
+  "ReplyTemplate": 473,
+  "NotificationEmail": "carter@ullrichweimann.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 230,
+  "EffectiveReplyTemplateId": 534,
   "ExtraFields": {
-    "ExtraFields1": "quisquam",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "temporibus",
-    "CustomFields2": "id"
+    "CustomFields1": "aut",
+    "CustomFields2": "minus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 152
     }
   }
 }

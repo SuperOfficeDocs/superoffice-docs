@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 337,
-  "Name": "Runolfsdottir, Casper and Lubowitz",
-  "Tooltip": "temporibus",
-  "Rank": 714,
+  "ProjTypeId": 601,
+  "Name": "O'Reilly, Quitzon and Predovic",
+  "Tooltip": "est",
+  "Rank": 206,
   "DurationUnit": "Century",
-  "ProjectDuration": 742,
+  "ProjectDuration": 989,
   "Deleted": true,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 914,
-      "Name": "Gerhold Inc and Sons",
-      "ToolTip": "Quam at.",
-      "Deleted": false,
-      "Rank": 696,
-      "Type": "maiores",
-      "ColorBlock": 772,
-      "IconHint": "provident",
-      "Selected": true,
-      "LastChanged": "1997-05-25T03:31:26.7300385+02:00",
+      "Id": 646,
+      "Name": "Walter Group",
+      "ToolTip": "Ut recusandae.",
+      "Deleted": true,
+      "Rank": 503,
+      "Type": "nesciunt",
+      "ColorBlock": 720,
+      "IconHint": "dolor",
+      "Selected": false,
+      "LastChanged": "2005-09-21T03:24:47.908255+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "minus",
+      "ExtraInfo": "placeat",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Laurine Lempi Anderson III",
+      "FullName": "Melvin Germaine Hermann Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 597
+          "FieldLength": 435
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 206
     }
   }
 }

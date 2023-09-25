@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 715,
-  "Section": "voluptas",
-  "Key": "earum",
-  "Name": "Kirlin-Christiansen",
+  "PrefDescId": 863,
+  "Section": "consequatur",
+  "Key": "eos",
+  "Name": "Aufderhar, Quitzon and Marquardt",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Business-focused contextually-based conglomeration",
+  "Description": "Cross-group holistic groupware",
   "IsBuiltin": true,
-  "TableName": "Hermann, McLaughlin and Murphy",
-  "UserDefinedListId": 454,
-  "Rank": 268,
-  "SubGroup": "eos",
-  "MinLevel": 289,
-  "MaxValue": 545,
-  "MinValue": 248,
-  "RequiredLicense": "illo",
+  "TableName": "Huels, Baumbach and Jones",
+  "UserDefinedListId": 295,
+  "Rank": 278,
+  "SubGroup": "unde",
+  "MinLevel": 952,
+  "MaxValue": 443,
+  "MinValue": 297,
+  "RequiredLicense": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

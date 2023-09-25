@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 102,
-  "Name": "Balistreri, Bergnaum and Kertzmann",
-  "Tooltip": "dolore",
+  "Id": 977,
+  "Name": "O'Connell-Weimann",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 713,
+  "Rank": 848,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldLength": 641
     }
   },
   "_Links": {

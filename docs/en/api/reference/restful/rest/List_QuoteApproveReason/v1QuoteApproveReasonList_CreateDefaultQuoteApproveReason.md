@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Goyette, Eichmann and Johns",
-  "Tooltip": "assumenda",
+  "Id": 854,
+  "Name": "Collier Inc and Sons",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "UdListDefinitionId": 216,
-  "Rank": 819,
+  "UdListDefinitionId": 948,
+  "Rank": 536,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 51
     }
   }
 }

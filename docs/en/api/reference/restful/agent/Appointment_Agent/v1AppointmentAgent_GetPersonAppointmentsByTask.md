@@ -131,16 +131,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 214,
-  "IncludeProjectAppointments": false,
-  "StartTime": "1998-12-13T03:31:25.0845131+01:00",
-  "EndTime": "2014-12-18T03:31:25.0845131+01:00",
-  "Count": 596,
-  "TaskId": 17
+  "PersonId": 446,
+  "IncludeProjectAppointments": true,
+  "StartTime": "1999-01-14T03:24:46.9394467+01:00",
+  "EndTime": "2019-12-09T03:24:46.9394467+01:00",
+  "Count": 488,
+  "TaskId": 795
 }
 ```
 
@@ -152,64 +152,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 651,
-    "StartDate": "1998-06-28T03:31:25.1001331+02:00",
-    "EndDate": "1999-01-12T03:31:25.1001331+01:00",
+    "AppointmentId": 905,
+    "StartDate": "2019-09-03T03:24:46.9394467+02:00",
+    "EndDate": "2002-03-08T03:24:46.9394467+01:00",
     "Type": "BookingForChecklist",
-    "Task": "commodi",
-    "AssociateFullName": "Ike Willms",
-    "ContactName": "Tromp Inc and Sons",
-    "Description": "Cloned methodical synergy",
-    "PersonFullName": "Prof. Kaylah Olson",
-    "PersonId": 294,
-    "ContactId": 696,
-    "ProjectId": 846,
-    "ProjectName": "Kuhlman Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 216,
-    "ColorIndex": 46,
-    "IsFree": true,
+    "Task": "possimus",
+    "AssociateFullName": "Tristin Stehr",
+    "ContactName": "Farrell-Schultz",
+    "Description": "Stand-alone attitude-oriented alliance",
+    "PersonFullName": "Caden Bruen",
+    "PersonId": 241,
+    "ContactId": 602,
+    "ProjectId": 563,
+    "ProjectName": "Schinner-Wuckert",
+    "IsPublished": false,
+    "AssociateId": 675,
+    "ColorIndex": 563,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 775,
-    "PriorityName": "Considine-Adams",
+    "PriorityId": 888,
+    "PriorityName": "Wilkinson, Kirlin and Hackett",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2016-01-26T03:31:25.1001331+01:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "1996-06-29T03:24:46.9394467+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-11-15T03:31:25.1001331+01:00",
-    "RecurringEndDate": "2000-11-10T03:31:25.1001331+01:00",
-    "MotherId": 575,
-    "AssignedBy": 26,
-    "AssignedByFullName": "Ransom Emard II",
+    "RecurringStartDate": "2008-12-02T03:24:46.9394467+01:00",
+    "RecurringEndDate": "2013-07-13T03:24:46.9394467+02:00",
+    "MotherId": 260,
+    "AssignedBy": 739,
+    "AssignedByFullName": "Baylee Ruecker",
     "RejectReason": "",
-    "Location": "eum",
-    "AlarmLeadTime": "deleniti",
-    "SaleId": 39,
-    "SaleName": "Bogan-Langworth",
-    "AssociateName": "Adams Group",
-    "CreatedDate": "2018-05-04T03:31:25.1001331+02:00",
-    "CreatedBy": "maxime",
-    "CreatedByFullName": "Eliza O'Kon",
-    "CreatedByAssociateId": 690,
+    "Location": "ut",
+    "AlarmLeadTime": "veritatis",
+    "SaleId": 889,
+    "SaleName": "Bernier-Powlowski",
+    "AssociateName": "Franecki Inc and Sons",
+    "CreatedDate": "2011-10-14T03:24:46.9394467+02:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Dr. Catalina Koch DVM",
+    "CreatedByAssociateId": 408,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "temporibus",
-    "Agenda": "voluptate",
-    "InternalNotes": "ea",
+    "Title": "quaerat",
+    "Agenda": "repellat",
+    "InternalNotes": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldType": "System.String",
+        "FieldLength": 523
       }
     }
   }

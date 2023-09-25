@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=569
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=376
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 333,
-  "ParentId": 75,
-  "Name": "McLaughlin Inc and Sons",
-  "Fullname": "et",
-  "CategoryMaster": 323,
+  "TicketCategoryId": 698,
+  "ParentId": 409,
+  "Name": "Pollich Group",
+  "Fullname": "nobis",
+  "CategoryMaster": 864,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fadel, Bogan and Bednar",
+  "ExternalName": "Treutel-Lind",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 879,
-  "ReplyTemplate": 503,
-  "NotificationEmail": "noemy_hane@bechtelarjacobs.biz",
+  "AssignmentLag": 599,
+  "ReplyTemplate": 251,
+  "NotificationEmail": "jaycee.kuphal@goyette.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 799,
+  "EffectiveReplyTemplateId": 112,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "non"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "beatae"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "dolorum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 591
     }
   }
 }

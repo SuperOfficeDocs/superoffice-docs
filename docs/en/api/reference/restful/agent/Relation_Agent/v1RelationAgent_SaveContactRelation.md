@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 379,
-  "SourcePersonId": 809,
-  "DestinationContactId": 424,
-  "DestinationPersonId": 776,
-  "RelationId": 436,
-  "Comment": "et",
-  "RelationDefinitionId": 425,
-  "Reversed": 340,
-  "UpdatedDate": "2019-11-18T03:31:27.1218466+01:00",
-  "CreatedDate": "2012-12-22T03:31:27.1218466+01:00",
+  "SourceContactId": 666,
+  "SourcePersonId": 548,
+  "DestinationContactId": 944,
+  "DestinationPersonId": 845,
+  "RelationId": 10,
+  "Comment": "nisi",
+  "RelationDefinitionId": 798,
+  "Reversed": 651,
+  "UpdatedDate": "2015-09-01T03:24:48.1582254+02:00",
+  "CreatedDate": "2003-02-02T03:24:48.1582254+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bernier-Murphy",
-  "SourcePersonName": "Cummerata, Bergstrom and Swift",
-  "DestinationContactName": "Spencer, Kutch and Weber",
-  "DestinationPersonName": "Strosin, Orn and Haag",
-  "ActiveText": "est",
-  "PassiveText": "quas",
+  "SourceContactName": "Durgan, Leuschke and Marks",
+  "SourcePersonName": "Kautzer, Grant and Ondricka",
+  "DestinationContactName": "Frami, Bartoletti and Borer",
+  "DestinationPersonName": "Christiansen Inc and Sons",
+  "ActiveText": "sit",
+  "PassiveText": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 109
     }
   }
 }

@@ -74,7 +74,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sed",
-  "2": "quia"
+  "1": "et",
+  "2": "eos"
 }
 ```

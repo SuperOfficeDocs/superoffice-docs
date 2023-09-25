@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stanton-Bauch",
-    "Description": "Persistent responsive ability",
+    "Name": "Cremin Inc and Sons",
+    "Description": "Multi-tiered user-facing neural-net",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 918,
-        "Tooltip": "molestias",
+        "Unrestricted": false,
+        "Total": 171,
+        "Tooltip": "reiciendis",
         "CanAssign": true,
-        "Free": 262,
-        "InUse": 73,
-        "IsHidden": false,
+        "Free": 923,
+        "InUse": 821,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 656,
-        "Name": "Kihn Inc and Sons",
-        "Description": "Upgradable impactful time-frame",
-        "PrerequisiteModuleName": "Schoen LLC",
-        "SortOrder": 332,
-        "ExtraFlags": 694,
+        "ModuleLicenseId": 717,
+        "Name": "Goyette LLC",
+        "Description": "Realigned global firmware",
+        "PrerequisiteModuleName": "Fritsch-Wilkinson",
+        "SortOrder": 963,
+        "ExtraFlags": 654,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 313
+            "FieldType": "System.String",
+            "FieldLength": 73
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 519,
-        "Tooltip": "adipisci",
+        "Unrestricted": false,
+        "Total": 493,
+        "Tooltip": "placeat",
         "CanAssign": false,
-        "Free": 23,
-        "InUse": 753,
+        "Free": 680,
+        "InUse": 29,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 630,
-        "Name": "Zboncak LLC",
-        "Description": "Persistent incremental collaboration",
-        "PrerequisiteModuleName": "West Group",
-        "SortOrder": 478,
-        "ExtraFlags": 577,
+        "Assigned": true,
+        "ModuleLicenseId": 123,
+        "Name": "Bailey, Bradtke and Schroeder",
+        "Description": "User-friendly zero defect moderator",
+        "PrerequisiteModuleName": "Frami LLC",
+        "SortOrder": 945,
+        "ExtraFlags": 22,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 330
+            "FieldLength": 780
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 854
       }
     }
   },
   {
-    "Name": "Stanton-Bauch",
-    "Description": "Persistent responsive ability",
+    "Name": "Cremin Inc and Sons",
+    "Description": "Multi-tiered user-facing neural-net",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 918,
-        "Tooltip": "molestias",
+        "Unrestricted": false,
+        "Total": 171,
+        "Tooltip": "reiciendis",
         "CanAssign": true,
-        "Free": 262,
-        "InUse": 73,
-        "IsHidden": false,
+        "Free": 923,
+        "InUse": 821,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 656,
-        "Name": "Kihn Inc and Sons",
-        "Description": "Upgradable impactful time-frame",
-        "PrerequisiteModuleName": "Schoen LLC",
-        "SortOrder": 332,
-        "ExtraFlags": 694,
+        "ModuleLicenseId": 717,
+        "Name": "Goyette LLC",
+        "Description": "Realigned global firmware",
+        "PrerequisiteModuleName": "Fritsch-Wilkinson",
+        "SortOrder": 963,
+        "ExtraFlags": 654,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 313
+            "FieldType": "System.String",
+            "FieldLength": 73
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 519,
-        "Tooltip": "adipisci",
+        "Unrestricted": false,
+        "Total": 493,
+        "Tooltip": "placeat",
         "CanAssign": false,
-        "Free": 23,
-        "InUse": 753,
+        "Free": 680,
+        "InUse": 29,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 630,
-        "Name": "Zboncak LLC",
-        "Description": "Persistent incremental collaboration",
-        "PrerequisiteModuleName": "West Group",
-        "SortOrder": 478,
-        "ExtraFlags": 577,
+        "Assigned": true,
+        "ModuleLicenseId": 123,
+        "Name": "Bailey, Bradtke and Schroeder",
+        "Description": "User-friendly zero defect moderator",
+        "PrerequisiteModuleName": "Frami LLC",
+        "SortOrder": 945,
+        "ExtraFlags": 22,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 330
+            "FieldLength": 780
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 854
       }
     }
   }

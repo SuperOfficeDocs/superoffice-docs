@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Roob-Rippin",
-  "DisplayName": "Effertz Inc and Sons",
-  "Description": "Quality-focused assymetric synergy",
-  "ShortLabel": "qui",
-  "HideLabel": true,
+  "FieldName": "Kuphal Inc and Sons",
+  "DisplayName": "Huels, Koelpin and Murphy",
+  "Description": "Pre-emptive 24 hour support",
+  "ShortLabel": "id",
+  "HideLabel": false,
   "HideField": true,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsReadOnly": false,
   "IsExternal": true,
-  "Rank": 832,
-  "TemplateVariableName": "Ryan Inc and Sons"
+  "Rank": 103,
+  "TemplateVariableName": "Dach LLC"
 }
 ```

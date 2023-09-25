@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Luettgen, Batz and Bogisich",
-  "ProviderName": "Beer, Rau and Collier",
+  "GuiName": "Aufderhar, Daniel and Bayer",
+  "ProviderName": "Quitzon, Barrows and Sawayn",
   "ChosenColumns": [
-    "magni",
-    "harum"
+    "temporibus",
+    "reprehenderit"
   ]
 }
 ```

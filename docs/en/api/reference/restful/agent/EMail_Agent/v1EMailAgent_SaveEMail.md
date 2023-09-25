@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 743,
-      "ContactName": "Hackett-Greenfelder",
-      "PersonId": 656,
-      "PersonName": "Kovacek Inc and Sons",
-      "AssociateId": 901,
-      "Address": "eaque",
-      "EmailId": 563,
+      "ContactId": 487,
+      "ContactName": "Bailey, Fahey and Kuhn",
+      "PersonId": 26,
+      "PersonName": "Boyle-Quitzon",
+      "AssociateId": 510,
+      "Address": "cumque",
+      "EmailId": 160,
       "DuplicatePersonIds": [
-        240,
-        365
+        964,
+        179
       ],
-      "Name": "Ebert, Huels and Mayert",
+      "Name": "Bosco-Murphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 256
+          "FieldType": "System.Int32",
+          "FieldLength": 291
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 300,
-      "ContactName": "Smith, Adams and Schamberger",
-      "PersonId": 407,
-      "PersonName": "Keeling, Jones and Lang",
-      "AssociateId": 708,
-      "Address": "corporis",
-      "EmailId": 820,
+      "ContactId": 51,
+      "ContactName": "Fritsch LLC",
+      "PersonId": 120,
+      "PersonName": "Parisian, Ward and Ullrich",
+      "AssociateId": 117,
+      "Address": "ut",
+      "EmailId": 512,
       "DuplicatePersonIds": [
-        310,
-        369
+        237,
+        295
       ],
-      "Name": "Bernier-Cole",
+      "Name": "Marks-Thiel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 48
+          "FieldType": "System.String",
+          "FieldLength": 787
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 889,
-      "ContactName": "Streich, Hilll and Reilly",
-      "PersonId": 733,
-      "PersonName": "Wolff LLC",
-      "AssociateId": 218,
-      "Address": "sit",
-      "EmailId": 7,
+      "ContactId": 674,
+      "ContactName": "Gutkowski-McGlynn",
+      "PersonId": 425,
+      "PersonName": "Fay, Koch and Donnelly",
+      "AssociateId": 48,
+      "Address": "ut",
+      "EmailId": 230,
       "DuplicatePersonIds": [
-        24,
-        575
+        891,
+        674
       ],
-      "Name": "Schmeler-Stanton",
+      "Name": "Bayer LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldType": "System.Int32",
+          "FieldLength": 854
         }
       }
     }
   ],
-  "Subject": "laboriosam",
-  "HTMLBody": "perferendis",
+  "Subject": "sunt",
+  "HTMLBody": "in",
   "From": null,
-  "Sent": "1996-04-22T03:31:26.4801032+02:00",
-  "Size": 907,
+  "Sent": "2013-09-21T03:24:47.7520273+02:00",
+  "Size": 153,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quod",
-  "PlainBody": "excepturi",
-  "IsSent": false,
+  "MessageID": "eaque",
+  "PlainBody": "sunt",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 796,
+  "ServerId": 226,
   "Attachments": [
     {
-      "Description": "Realigned asynchronous framework",
-      "Filename": "vitae",
-      "Size": 204,
-      "Type": "possimus",
-      "Encoding": "error",
-      "Id": "illo",
-      "Disposition": "natus",
+      "Description": "Re-contextualized bottom-line info-mediaries",
+      "Filename": "ex",
+      "Size": 216,
+      "Type": "in",
+      "Encoding": "molestiae",
+      "Id": "earum",
+      "Disposition": "assumenda",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 770
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mante, Rutherford and Wisoky",
+      "Name": "Lakin-Friesen",
       "Values": [
-        "autem",
-        "earum"
+        "enim",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldType": "System.String",
+          "FieldLength": 875
         }
       }
     },
     {
-      "Name": "Mante, Rutherford and Wisoky",
+      "Name": "Lakin-Friesen",
       "Values": [
-        "autem",
-        "earum"
+        "enim",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 309
+          "FieldType": "System.String",
+          "FieldLength": 875
         }
       }
     }
   ],
-  "FolderName": "Zboncak, Littel and Murphy",
-  "EmailItemId": 447,
-  "AccountId": 72,
-  "ReceivedAt": "2018-11-23T03:31:26.4801032+01:00",
+  "FolderName": "Kunde LLC",
+  "EmailItemId": 876,
+  "AccountId": 291,
+  "ReceivedAt": "2017-01-03T03:24:47.7520273+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-06-26T03:31:26.4801032+02:00",
+  "RepliedAt": "2020-08-06T03:24:47.7520273+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 92
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/DashTheme/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 948,
-  "Name": "Schultz LLC",
-  "Config": "quia",
-  "Rank": 810,
-  "Client": "consequuntur",
-  "Style": "temporibus",
+  "DashboardThemeId": 666,
+  "Name": "Kuvalis-Kilback",
+  "Config": "veritatis",
+  "Rank": 760,
+  "Client": "dolor",
+  "Style": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 69
     }
   }
 }

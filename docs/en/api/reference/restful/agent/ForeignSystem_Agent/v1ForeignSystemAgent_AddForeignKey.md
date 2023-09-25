@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Wintheiser-Beier",
-  "DeviceName": "King LLC",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Heller, Bartoletti and Terry",
+  "DeviceName": "Dietrich, Ziemann and Robel",
+  "DeviceIdentifier": "itaque"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "autem",
-  "Value": "laudantium",
-  "RecordId": 797,
-  "CreatedDate": "1998-12-17T03:31:26.589451+01:00",
-  "UpdatedDate": "2004-02-27T03:31:26.589451+01:00",
-  "UpdatedBy": "consequatur",
-  "CreatedBy": "dolorem",
-  "TableName": "Torp-Erdman",
+  "Key": "eos",
+  "Value": "quidem",
+  "RecordId": 839,
+  "CreatedDate": "2016-12-21T03:24:47.8145137+01:00",
+  "UpdatedDate": "1998-06-25T03:24:47.8145137+02:00",
+  "UpdatedBy": "beatae",
+  "CreatedBy": "veritatis",
+  "TableName": "VonRueden-Swift",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

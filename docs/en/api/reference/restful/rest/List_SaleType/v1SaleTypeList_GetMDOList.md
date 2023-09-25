@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=corrupti
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Nienow-McLaughlin",
-    "ToolTip": "Hic fugiat architecto rerum.",
-    "Deleted": false,
-    "Rank": 731,
-    "Type": "ut",
+    "Id": 447,
+    "Name": "Bechtelar-Gibson",
+    "ToolTip": "Quo libero quaerat magni.",
+    "Deleted": true,
+    "Rank": 482,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Dicki LLC",
-        "ToolTip": "Repellat eligendi.",
+        "Id": 256,
+        "Name": "Mann Inc and Sons",
+        "ToolTip": "Hic nobis.",
         "Deleted": true,
-        "Rank": 650,
-        "Type": "qui",
+        "Rank": 740,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 720,
-        "ExtraInfo": "corporis",
-        "StyleHint": "cupiditate",
-        "FullName": "Jarrod Wolff",
+        "IconHint": "fuga",
+        "ColorBlock": 777,
+        "ExtraInfo": "numquam",
+        "StyleHint": "reprehenderit",
+        "FullName": "Dena Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 276
+            "FieldType": "System.Int32",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "IconHint": "illum",
-    "ColorBlock": 855,
-    "ExtraInfo": "numquam",
-    "StyleHint": "sint",
-    "FullName": "Fanny Lebsack",
+    "IconHint": "laborum",
+    "ColorBlock": 48,
+    "ExtraInfo": "iure",
+    "StyleHint": "ea",
+    "FullName": "Mr. King Harris III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

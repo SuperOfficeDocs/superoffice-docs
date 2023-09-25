@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 115
+  "SelectedListId": 340
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 225,
-  "ColumnId": 108,
-  "FieldDefault": "maxime",
-  "FieldHeight": 526,
-  "FieldLabel": "laudantium",
-  "FieldLeft": 187,
-  "FieldTop": 528,
+  "UDefFieldId": 775,
+  "ColumnId": 169,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 988,
+  "FieldLabel": "impedit",
+  "FieldLeft": 311,
+  "FieldTop": 396,
   "FieldType": "Checkbox",
-  "FieldWidth": 162,
-  "FormatMask": "ea",
+  "FieldWidth": 412,
+  "FormatMask": "magni",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 988,
-  "LabelLeft": 10,
-  "LabelTop": 940,
-  "LabelWidth": 989,
-  "LastVersionId": 660,
-  "ListTableId": 642,
-  "IsMandatory": true,
+  "LabelHeight": 543,
+  "LabelLeft": 955,
+  "LabelTop": 193,
+  "LabelWidth": 439,
+  "LastVersionId": 261,
+  "ListTableId": 325,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 545,
-  "ProgId": "ut",
-  "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 91,
-  "TextLength": 704,
-  "Tooltip": "minima",
-  "UdefIdentity": 923,
-  "UDListDefinitionId": 699,
+  "Page1LineNo": 8,
+  "ProgId": "mollitia",
+  "IsReadOnly": true,
+  "ShortLabel": "qui",
+  "TabOrder": 804,
+  "TextLength": 74,
+  "Tooltip": "dolorum",
+  "UdefIdentity": 202,
+  "UDListDefinitionId": 591,
   "Justification": "Center",
-  "Version": 341,
-  "TemplateVariableName": "Swaniawski-Hauck",
+  "Version": 19,
+  "TemplateVariableName": "Barton LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Wiza, Mitchell and McKenzie",
+  "MdoListName": "Corkery-Yost",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 980
+      "FieldType": "System.Int32",
+      "FieldLength": 849
     }
   }
 }

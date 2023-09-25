@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 339,
-  "ColumnId": 421,
-  "FieldDefault": "quae",
-  "FieldHeight": 559,
-  "FieldLabel": "optio",
-  "FieldLeft": 55,
-  "FieldTop": 150,
+  "UDefFieldId": 81,
+  "ColumnId": 612,
+  "FieldDefault": "iste",
+  "FieldHeight": 724,
+  "FieldLabel": "odit",
+  "FieldLeft": 986,
+  "FieldTop": 704,
   "FieldType": "Checkbox",
-  "FieldWidth": 90,
-  "FormatMask": "eius",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 411,
-  "LabelLeft": 716,
-  "LabelTop": 137,
-  "LabelWidth": 159,
-  "LastVersionId": 148,
-  "ListTableId": 764,
+  "FieldWidth": 445,
+  "FormatMask": "quia",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 94,
+  "LabelLeft": 291,
+  "LabelTop": 868,
+  "LabelWidth": 721,
+  "LastVersionId": 117,
+  "ListTableId": 485,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 360,
-  "ProgId": "similique",
+  "Page1LineNo": 191,
+  "ProgId": "facilis",
   "IsReadOnly": false,
-  "ShortLabel": "earum",
-  "TabOrder": 306,
-  "TextLength": 545,
-  "Tooltip": "repellat",
-  "UdefIdentity": 227,
-  "UDListDefinitionId": 597,
+  "ShortLabel": "necessitatibus",
+  "TabOrder": 606,
+  "TextLength": 570,
+  "Tooltip": "error",
+  "UdefIdentity": 557,
+  "UDListDefinitionId": 362,
   "Justification": "Center",
-  "Version": 588,
-  "TemplateVariableName": "Howell, Walker and Vandervort",
+  "Version": 295,
+  "TemplateVariableName": "D'Amore Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Schultz-Von",
+  "MdoListName": "Hudson-Weissnat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 964
     }
   }
 }

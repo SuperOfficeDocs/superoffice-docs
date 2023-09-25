@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 815,
-  "Name": "Carroll, Eichmann and Rohan",
-  "Tooltip": "sequi",
-  "Rank": 838,
-  "Rate": 13507.539999999999,
-  "Units": 2927.156,
-  "Deleted": true
+  "CurrencyId": 183,
+  "Name": "Nikolaus-Ryan",
+  "Tooltip": "iste",
+  "Rank": 792,
+  "Rate": 13140.862,
+  "Units": 6396.494,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 990,
-  "Name": "VonRueden-Ferry",
-  "Tooltip": "eos",
-  "Rank": 756,
-  "Rate": 25012.453999999998,
-  "Units": 17725.904,
-  "Deleted": true,
+  "CurrencyId": 444,
+  "Name": "Muller-Gleason",
+  "Tooltip": "minus",
+  "Rank": 790,
+  "Rate": 19183.214,
+  "Units": 27720.23,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 316
     }
   }
 }

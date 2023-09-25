@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Pfeffer Group",
-    "ToolTip": "Illo perspiciatis et repellat ex aut at.",
-    "Deleted": true,
-    "Rank": 577,
-    "Type": "quisquam",
-    "ColorBlock": 752,
-    "IconHint": "sapiente",
-    "Selected": true,
-    "LastChanged": "2005-12-28T03:31:33.9160051+01:00",
+    "Id": 142,
+    "Name": "Bauch-Hayes",
+    "ToolTip": "Sed at consequuntur accusantium cum ut.",
+    "Deleted": false,
+    "Rank": 147,
+    "Type": "qui",
+    "ColorBlock": 149,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2019-03-16T03:24:52.4431914+01:00",
     "ChildItems": [
       {
-        "Id": 393,
-        "Name": "Yost Group",
-        "ToolTip": "Qui cumque quibusdam.",
+        "Id": 942,
+        "Name": "Brown-Macejkovic",
+        "ToolTip": "Perspiciatis voluptas nam omnis quisquam voluptatum.",
         "Deleted": false,
-        "Rank": 275,
-        "Type": "non",
-        "ColorBlock": 595,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2010-03-27T03:31:33.9160051+01:00",
+        "Rank": 660,
+        "Type": "voluptatem",
+        "ColorBlock": 824,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "1997-02-03T03:24:52.4431914+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Tevin Heidenreich"
+        "FullName": "Monty Batz"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Dr. Natasha Chet Ernser"
+    "ExtraInfo": "beatae",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Garnet Schroeder"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Harris-Upton",
-    "ToolTip": "Aut labore.",
+    "Id": 935,
+    "Name": "Bernier-Kling",
+    "ToolTip": "Libero et sint illo quos saepe corporis distinctio.",
     "Deleted": false,
-    "Rank": 762,
-    "Type": "et",
-    "ColorBlock": 252,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2012-04-21T03:31:33.9160051+02:00",
+    "Rank": 879,
+    "Type": "illum",
+    "ColorBlock": 634,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "1996-08-30T03:24:52.4431914+02:00",
     "ChildItems": [
       {
-        "Id": 883,
-        "Name": "Ratke LLC",
-        "ToolTip": "Consequatur ipsa aut voluptas eveniet et ex qui.",
-        "Deleted": true,
-        "Rank": 80,
-        "Type": "nesciunt",
-        "ColorBlock": 969,
-        "IconHint": "repellat",
-        "Selected": false,
-        "LastChanged": "2019-04-17T03:31:33.9160051+02:00",
+        "Id": 489,
+        "Name": "Koch LLC",
+        "ToolTip": "Ipsam dolorem et.",
+        "Deleted": false,
+        "Rank": 409,
+        "Type": "accusamus",
+        "ColorBlock": 893,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "1998-06-10T03:24:52.4431914+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Macey Hodkiewicz",
+        "ExtraInfo": "velit",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Mrs. Edyth Hintz PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 854
+            "FieldType": "System.Int32",
+            "FieldLength": 709
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "fugit",
     "Hidden": true,
-    "FullName": "Jorge Langworth",
+    "FullName": "Rosamond Sean Kulas Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 821
       }
     }
   }

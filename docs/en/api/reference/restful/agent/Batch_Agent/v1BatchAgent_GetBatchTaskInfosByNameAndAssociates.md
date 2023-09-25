@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kunde, Hermiston and Monahan",
+  "Name": "Berge, Lueilwitz and Quitzon",
   "AssociateIds": [
-    702,
-    536
+    196,
+    261
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 750,
-    "Name": "Mueller, Flatley and Schumm",
-    "AssociateId": 864,
-    "DetailsTable": 379,
-    "DetailsRecord": 215,
+    "Id": 169,
+    "Name": "Hills-Hane",
+    "AssociateId": 410,
+    "DetailsTable": 654,
+    "DetailsRecord": 588,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatem",
-      "ParameterObject2": "ad"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "ratione"
     },
-    "LastStarted": "2010-01-16T03:31:25.6496314+01:00",
-    "Created": "2010-12-24T03:31:25.6496314+01:00",
-    "StartCount": 993,
-    "DatabaseSerialNumber": "1079856",
-    "Context": "tempora",
-    "Result": "aut",
+    "LastStarted": "2011-03-15T03:24:47.2520803+01:00",
+    "Created": "2000-03-10T03:24:47.2520803+01:00",
+    "StartCount": 128,
+    "DatabaseSerialNumber": "502471",
+    "Context": "maxime",
+    "Result": "illo",
     "State": "All",
-    "Description": "Operative disintermediate complexity",
-    "Response": "mollitia",
-    "Request": "sint",
-    "ProgressDescription": "Intuitive optimal frame",
-    "ProgressPercent": 68,
-    "FileName": "Bartell-Rosenbaum",
+    "Description": "Implemented explicit toolset",
+    "Response": "nisi",
+    "Request": "illum",
+    "ProgressDescription": "Upgradable content-based challenge",
+    "ProgressPercent": 780,
+    "FileName": "Ortiz-Tromp",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldLength": 570
       }
     }
   }

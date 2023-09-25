@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Nov 2011 03:31:32 G11T
+Last-Modified: Wed, 05 Oct 2022 03:24:51 G10T
 
 {
-  "ForeignDeviceId": 580,
-  "Name": "Cronin-Goldner",
-  "CreatedDate": "2004-06-19T03:31:32.6289016+02:00",
-  "UpdatedDate": "2011-11-21T03:31:32.6289016+01:00",
-  "AssociateFullName": "Angelita Schamberger",
-  "CreatedBy": "quas",
-  "UpdatedBy": "eum",
-  "DeviceIdentifier": "ab",
-  "ForeignAppId": 940,
+  "ForeignDeviceId": 274,
+  "Name": "Abbott, Bruen and Okuneva",
+  "CreatedDate": "2018-04-03T03:24:51.630601+02:00",
+  "UpdatedDate": "2022-10-05T03:24:51.630601+02:00",
+  "AssociateFullName": "Shawna Toni Miller Sr.",
+  "CreatedBy": "at",
+  "UpdatedBy": "voluptatem",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 328,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 495
     }
   }
 }

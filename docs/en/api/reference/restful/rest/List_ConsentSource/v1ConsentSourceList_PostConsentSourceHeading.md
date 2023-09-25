@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 261,
-  "Name": "Heathcote-Fay",
-  "Tooltip": "eum",
-  "Deleted": true,
-  "Rank": 568,
-  "UdListDefinitionId": 963
+  "HeadingId": 708,
+  "Name": "Pouros Inc and Sons",
+  "Tooltip": "fugit",
+  "Deleted": false,
+  "Rank": 584,
+  "UdListDefinitionId": 69
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 223,
-  "Name": "Shields-Durgan",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "Rank": 972,
-  "UdListDefinitionId": 150,
+  "HeadingId": 27,
+  "Name": "Koelpin-Toy",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "Rank": 263,
+  "UdListDefinitionId": 337,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 383
     }
   }
 }

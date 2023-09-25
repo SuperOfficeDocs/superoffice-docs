@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
+  "Flat": false,
   "OnlyPresent": false
 }
 ```
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Rice LLC",
-    "ToolTip": "Sint excepturi nobis aut quia.",
+    "Id": 601,
+    "Name": "Lebsack, Sawayn and Reilly",
+    "ToolTip": "In quia magni explicabo accusamus maxime totam.",
     "Deleted": true,
-    "Rank": 265,
-    "Type": "aut",
+    "Rank": 883,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 374,
-        "Name": "Ankunding Group",
-        "ToolTip": "Qui officiis possimus voluptate voluptatem quia.",
-        "Deleted": true,
-        "Rank": 355,
-        "Type": "quia",
+        "Id": 204,
+        "Name": "Gottlieb, Frami and Herman",
+        "ToolTip": "Quos quo.",
+        "Deleted": false,
+        "Rank": 429,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 550,
-        "ExtraInfo": "ullam",
-        "StyleHint": "repudiandae",
-        "FullName": "Susana Raynor",
+        "IconHint": "exercitationem",
+        "ColorBlock": 547,
+        "ExtraInfo": "autem",
+        "StyleHint": "minus",
+        "FullName": "Lester Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 496
+            "FieldType": "System.String",
+            "FieldLength": 553
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 736,
-    "ExtraInfo": "autem",
-    "StyleHint": "ex",
-    "FullName": "Susana Fahey IV",
+    "IconHint": "aperiam",
+    "ColorBlock": 367,
+    "ExtraInfo": "inventore",
+    "StyleHint": "sit",
+    "FullName": "Haleigh Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldLength": 767
       }
     }
   }

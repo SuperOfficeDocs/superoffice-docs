@@ -768,7 +768,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=nextMilestone,projectAssociate/contactFullName,sale/date,sale/stalledComment,sale/associate/fullName
+GET /api/v1/archive/FindProject?$select=sale/completed,sale/saleStatus,sale/sale/description,appointment/associate/contactFullName,document/time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

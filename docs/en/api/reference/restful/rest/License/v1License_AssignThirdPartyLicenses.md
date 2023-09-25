@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 908,
-    "Tooltip": "magni",
+    "Total": 192,
+    "Tooltip": "laudantium",
     "CanAssign": true,
-    "Free": 836,
-    "InUse": 111,
-    "IsHidden": true,
+    "Free": 523,
+    "InUse": 105,
+    "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 926,
-    "Name": "Johns-Towne",
-    "Description": "Universal bandwidth-monitored core",
-    "PrerequisiteModuleName": "Kemmer-Harber",
-    "SortOrder": 970,
-    "ExtraFlags": 269,
+    "ModuleLicenseId": 818,
+    "Name": "Huel Group",
+    "Description": "Horizontal assymetric internet solution",
+    "PrerequisiteModuleName": "Beatty Group",
+    "SortOrder": 78,
+    "ExtraFlags": 529,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 573
       }
     }
   }

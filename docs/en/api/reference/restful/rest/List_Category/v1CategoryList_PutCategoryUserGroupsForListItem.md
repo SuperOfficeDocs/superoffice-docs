@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Kemmer Inc and Sons",
-    "ToolTip": "Quisquam dolores nostrum tempora incidunt enim qui cupiditate.",
+    "Id": 731,
+    "Name": "Nader LLC",
+    "ToolTip": "Et dolorem voluptas quaerat eos laborum adipisci corporis.",
     "Deleted": false,
-    "Rank": 378,
-    "Type": "facilis",
-    "ColorBlock": 747,
-    "IconHint": "qui",
+    "Rank": 263,
+    "Type": "sit",
+    "ColorBlock": 955,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2020-12-06T03:31:33.4917333+01:00",
+    "LastChanged": "2005-10-19T03:24:52.1775959+02:00",
     "ChildItems": [
       {
-        "Id": 917,
-        "Name": "Jast-Gutmann",
-        "ToolTip": "Ut non vel repellat sit quia et voluptatem.",
+        "Id": 381,
+        "Name": "Zemlak-Pfeffer",
+        "ToolTip": "Illo voluptas voluptatibus.",
         "Deleted": false,
-        "Rank": 953,
-        "Type": "repellendus",
-        "ColorBlock": 756,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2000-04-22T03:31:33.4917333+02:00",
+        "Rank": 530,
+        "Type": "delectus",
+        "ColorBlock": 732,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2010-12-15T03:24:52.1775959+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Aniya Muller"
+        "ExtraInfo": "repellendus",
+        "StyleHint": "natus",
+        "Hidden": false,
+        "FullName": "Keon Rosenbaum"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Ms. Rosario Kuvalis"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "laborum",
+    "Hidden": false,
+    "FullName": "Breana Herman PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Streich Inc and Sons",
-    "ToolTip": "Quasi dicta consequuntur aut voluptatem officiis.",
+    "Id": 782,
+    "Name": "Heaney-Beahan",
+    "ToolTip": "Nobis minus voluptatum occaecati dolor quo facere.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "voluptatem",
-    "ColorBlock": 111,
-    "IconHint": "repellat",
+    "Rank": 614,
+    "Type": "rem",
+    "ColorBlock": 531,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2005-09-24T03:31:33.4917333+02:00",
+    "LastChanged": "2018-11-08T03:24:52.1775959+01:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Wisozk Group",
-        "ToolTip": "Odit necessitatibus aliquid voluptatem et.",
+        "Id": 814,
+        "Name": "Jacobson-Yundt",
+        "ToolTip": "Repellendus qui rerum commodi officia ut.",
         "Deleted": false,
-        "Rank": 199,
-        "Type": "aliquam",
-        "ColorBlock": 781,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2019-09-07T03:31:33.5073635+02:00",
+        "Rank": 335,
+        "Type": "similique",
+        "ColorBlock": 636,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2015-02-09T03:24:52.1775959+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Miss Damon Kaylah Shields",
+        "ExtraInfo": "quia",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Trevor Lueilwitz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 990
+            "FieldType": "System.Int32",
+            "FieldLength": 452
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "beatae",
+    "ExtraInfo": "qui",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Harmon O'Kon",
+    "FullName": "Marlene Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 909
       }
     }
   }

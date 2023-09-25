@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 900,
-  "Name": "Wilkinson LLC",
-  "Tooltip": "asperiores",
-  "Rank": 533,
+  "SaleTypeId": 767,
+  "Name": "Wehner-Miller",
+  "Tooltip": "nesciunt",
+  "Rank": 276,
   "DurationUnit": "Century",
-  "SaleDuration": 530,
-  "SaleTypeCatId": 627,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 736,
+  "SaleTypeCatId": 484,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 774,
-  "QuoteLinesTemplate": 28,
-  "ConfirmationLinesTemplate": 97,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 800,
+  "QuoteLinesTemplate": 96,
+  "ConfirmationLinesTemplate": 405,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 557,
-  "MinEarningPercent": 226,
-  "GroupQuoteLinesBy": 785,
-  "SortGroupLinesBy": 120,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 380,
+  "MinEarningPercent": 807,
+  "GroupQuoteLinesBy": 936,
+  "SortGroupLinesBy": 555,
   "Stages": [
     {
-      "Id": 699,
-      "Name": "Kerluke, Roberts and Bruen",
-      "ToolTip": "Quia quae aut.",
-      "Deleted": false,
-      "Rank": 886,
-      "Type": "ea",
-      "ColorBlock": 527,
-      "IconHint": "iusto",
-      "Selected": false,
-      "LastChanged": "2001-04-03T03:31:33.8679659+02:00",
+      "Id": 771,
+      "Name": "Klocko-O'Kon",
+      "ToolTip": "At aut quia voluptas.",
+      "Deleted": true,
+      "Rank": 934,
+      "Type": "incidunt",
+      "ColorBlock": 267,
+      "IconHint": "aliquam",
+      "Selected": true,
+      "LastChanged": "2009-09-21T03:24:52.4119449+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minus",
-      "StyleHint": "perspiciatis",
-      "Hidden": true,
-      "FullName": "Jane Smith"
+      "ExtraInfo": "sed",
+      "StyleHint": "nobis",
+      "Hidden": false,
+      "FullName": "Prof. Gennaro Hahn"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 479,
-  "Name": "Howell LLC",
-  "Tooltip": "veniam",
-  "Rank": 36,
+  "SaleTypeId": 311,
+  "Name": "Marks-Fay",
+  "Tooltip": "mollitia",
+  "Rank": 214,
   "DurationUnit": "Century",
-  "SaleDuration": 43,
-  "SaleTypeCatId": 300,
+  "SaleDuration": 623,
+  "SaleTypeCatId": 306,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 439,
-  "QuoteLinesTemplate": 148,
-  "ConfirmationLinesTemplate": 997,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 1001,
+  "QuoteLinesTemplate": 974,
+  "ConfirmationLinesTemplate": 264,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 752,
-  "MinEarningPercent": 758,
-  "GroupQuoteLinesBy": 308,
-  "SortGroupLinesBy": 209,
+  "MaxDiscountPercent": 200,
+  "MinEarningPercent": 177,
+  "GroupQuoteLinesBy": 716,
+  "SortGroupLinesBy": 533,
   "Stages": [
     {
-      "Id": 180,
-      "Name": "Wisoky-Wunsch",
-      "ToolTip": "Adipisci qui consectetur dolorem consequatur quia aliquid.",
+      "Id": 916,
+      "Name": "Gaylord, Hagenes and Keebler",
+      "ToolTip": "Quibusdam qui doloremque nobis est.",
       "Deleted": false,
-      "Rank": 314,
-      "Type": "unde",
-      "ColorBlock": 512,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2004-08-07T03:31:33.8679659+02:00",
+      "Rank": 968,
+      "Type": "enim",
+      "ColorBlock": 988,
+      "IconHint": "dolore",
+      "Selected": false,
+      "LastChanged": "2021-12-24T03:24:52.4119449+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "aut",
+      "ExtraInfo": "voluptate",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Ms. Oleta Kirstin Dibbert V",
+      "FullName": "Thelma Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 263
+          "FieldType": "System.String",
+          "FieldLength": 710
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   }
 }

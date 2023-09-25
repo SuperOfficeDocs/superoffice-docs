@@ -124,13 +124,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    956,
-    317
+    534,
+    920
   ]
 }
 ```
@@ -143,64 +143,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 376,
-    "StartDate": "2004-03-01T03:31:25.1157524+01:00",
-    "EndDate": "2023-06-17T03:31:25.1157524+02:00",
+    "AppointmentId": 43,
+    "StartDate": "2019-03-21T03:24:46.9550719+01:00",
+    "EndDate": "2010-04-08T03:24:46.9550719+02:00",
     "Type": "BookingForChecklist",
-    "Task": "vel",
-    "AssociateFullName": "Luciano Keeling",
-    "ContactName": "Rau, Friesen and Torphy",
-    "Description": "Phased radical synergy",
-    "PersonFullName": "Miss Cesar West",
-    "PersonId": 137,
-    "ContactId": 853,
-    "ProjectId": 961,
-    "ProjectName": "Stoltenberg, Jones and Daugherty",
-    "IsPublished": false,
-    "AssociateId": 586,
-    "ColorIndex": 923,
+    "Task": "est",
+    "AssociateFullName": "Hilbert Warren Davis MD",
+    "ContactName": "Marks LLC",
+    "Description": "Focused didactic analyzer",
+    "PersonFullName": "Julio Gorczany",
+    "PersonId": 732,
+    "ContactId": 23,
+    "ProjectId": 125,
+    "ProjectName": "Daniel-Harvey",
+    "IsPublished": true,
+    "AssociateId": 814,
+    "ColorIndex": 466,
     "IsFree": true,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 885,
-    "PriorityName": "Gerhold-Torphy",
+    "PriorityId": 677,
+    "PriorityName": "Auer-Greenholt",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2001-03-25T03:31:25.1157524+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2005-05-06T03:24:46.9550719+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-07-07T03:31:25.1157524+02:00",
-    "RecurringEndDate": "2023-06-20T03:31:25.1157524+02:00",
-    "MotherId": 635,
-    "AssignedBy": 379,
-    "AssignedByFullName": "Ms. Zechariah Reynolds Jr.",
+    "RecurringStartDate": "2000-06-01T03:24:46.9550719+02:00",
+    "RecurringEndDate": "2008-11-09T03:24:46.9550719+01:00",
+    "MotherId": 71,
+    "AssignedBy": 177,
+    "AssignedByFullName": "Laisha Emard",
     "RejectReason": "",
-    "Location": "perferendis",
-    "AlarmLeadTime": "quidem",
-    "SaleId": 617,
-    "SaleName": "Bode, Reilly and Gleason",
-    "AssociateName": "Walsh-Langosh",
-    "CreatedDate": "2005-05-17T03:31:25.1157524+02:00",
-    "CreatedBy": "pariatur",
-    "CreatedByFullName": "Madyson Gerlach",
-    "CreatedByAssociateId": 976,
+    "Location": "quam",
+    "AlarmLeadTime": "aut",
+    "SaleId": 512,
+    "SaleName": "Hirthe, Mayer and Lakin",
+    "AssociateName": "Durgan-Goodwin",
+    "CreatedDate": "2005-01-28T03:24:46.9550719+01:00",
+    "CreatedBy": "accusantium",
+    "CreatedByFullName": "Ashlynn Parker",
+    "CreatedByAssociateId": 249,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "et",
-    "Agenda": "reiciendis",
-    "InternalNotes": "aliquam",
+    "Title": "autem",
+    "Agenda": "ea",
+    "InternalNotes": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 430
       }
     }
   }

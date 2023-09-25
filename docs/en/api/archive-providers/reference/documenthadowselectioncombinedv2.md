@@ -696,7 +696,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumenthadowSelectionCombinedV2?$select=snum,documentPublish/isPublished,person/personUdef/SuperOffice:9,person/correspondingAssociate/contactDepartment,person/withdrawnStoreConsent
+GET /api/v1/archive/DocumenthadowSelectionCombinedV2?$select=person/personUdef/SuperOffice:8,person/personAssociate/isActive,contact/updatedDate,project/projectAssociate/mrMrs,project/projectAssociate/ejStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

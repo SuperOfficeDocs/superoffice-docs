@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 956,
-    "Name": "Marvin LLC",
-    "Tooltip": "dolorum",
+    "HeadingId": 573,
+    "Name": "Kling, Herzog and Franecki",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 456,
+    "Rank": 998,
+    "UdListDefinitionId": 901,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 182
       }
     }
   }

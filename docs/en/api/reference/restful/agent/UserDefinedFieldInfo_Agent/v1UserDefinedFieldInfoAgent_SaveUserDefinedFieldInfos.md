@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 476,
-      "ColumnId": 975,
-      "FieldDefault": "porro",
-      "FieldHeight": 844,
-      "FieldLabel": "qui",
-      "FieldLeft": 302,
-      "FieldTop": 202,
+      "UDefFieldId": 973,
+      "ColumnId": 217,
+      "FieldDefault": "nemo",
+      "FieldHeight": 628,
+      "FieldLabel": "sint",
+      "FieldLeft": 334,
+      "FieldTop": 370,
       "FieldType": "Checkbox",
-      "FieldWidth": 192,
-      "FormatMask": "voluptas",
+      "FieldWidth": 775,
+      "FormatMask": "amet",
       "HideLabel": true,
       "IsIndexed": true,
-      "LabelHeight": 86,
-      "LabelLeft": 797,
-      "LabelTop": 923,
-      "LabelWidth": 607,
-      "LastVersionId": 177,
-      "ListTableId": 35,
-      "IsMandatory": true,
+      "LabelHeight": 637,
+      "LabelLeft": 357,
+      "LabelTop": 85,
+      "LabelWidth": 225,
+      "LastVersionId": 917,
+      "ListTableId": 564,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 710,
-      "ProgId": "qui",
+      "Page1LineNo": 283,
+      "ProgId": "doloremque",
       "IsReadOnly": false,
-      "ShortLabel": "repudiandae",
-      "TabOrder": 591,
-      "TextLength": 957,
-      "Tooltip": "dignissimos",
-      "UdefIdentity": 635,
-      "UDListDefinitionId": 964,
+      "ShortLabel": "nostrum",
+      "TabOrder": 741,
+      "TextLength": 125,
+      "Tooltip": "a",
+      "UdefIdentity": 463,
+      "UDListDefinitionId": 796,
       "Justification": "Center",
-      "Version": 761,
-      "TemplateVariableName": "Nikolaus Group",
+      "Version": 617,
+      "TemplateVariableName": "Wehner Group",
       "HasBeenPublished": true,
-      "MdoListName": "Haag-Emard"
+      "MdoListName": "Kautzer LLC"
     }
   ]
 }

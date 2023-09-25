@@ -89,8 +89,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 485,
-  "CurrencyId": 575
+  "QuoteConnectionId": 756,
+  "CurrencyId": 702
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 656,
-    "ERPPriceListKey": "necessitatibus",
-    "QuoteConnectionId": 57,
-    "Name": "Ziemann, Lebsack and Bayer",
-    "Description": "Progressive even-keeled hardware",
-    "Currency": "eligendi",
-    "CurrencyName": "Terry-Olson",
-    "ValidFrom": "1997-10-11T03:31:27.0905589+02:00",
-    "ValidTo": "2020-01-25T03:31:27.0905589+01:00",
-    "IsActive": false,
+    "PriceListId": 197,
+    "ERPPriceListKey": "corporis",
+    "QuoteConnectionId": 134,
+    "Name": "Muller-Waters",
+    "Description": "Innovative intangible attitude",
+    "Currency": "magni",
+    "CurrencyName": "Yost LLC",
+    "ValidFrom": "2012-07-30T03:24:48.1426062+02:00",
+    "ValidTo": "1998-08-17T03:24:48.1426062+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=non
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=atque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Wiza LLC",
-    "ToolTip": "Sit ratione dignissimos.",
-    "Deleted": false,
-    "Rank": 705,
-    "Type": "commodi",
+    "Id": 889,
+    "Name": "Kuhic-McGlynn",
+    "ToolTip": "Nulla autem commodi.",
+    "Deleted": true,
+    "Rank": 555,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Davis LLC",
-        "ToolTip": "Animi rerum ut adipisci.",
+        "Id": 383,
+        "Name": "Nicolas-Daugherty",
+        "ToolTip": "Ut eligendi et placeat asperiores repellat blanditiis repellendus.",
         "Deleted": false,
-        "Rank": 97,
-        "Type": "qui",
+        "Rank": 989,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 366,
-        "ExtraInfo": "quis",
-        "StyleHint": "optio",
-        "FullName": "Sam Brakus",
+        "IconHint": "sed",
+        "ColorBlock": 2,
+        "ExtraInfo": "quia",
+        "StyleHint": "dolor",
+        "FullName": "Miss Katheryn Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 71
+            "FieldType": "System.Int32",
+            "FieldLength": 653
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 573,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "eum",
-    "FullName": "Jarret Aidan Predovic Sr.",
+    "IconHint": "sequi",
+    "ColorBlock": 999,
+    "ExtraInfo": "dolore",
+    "StyleHint": "commodi",
+    "FullName": "Della Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 986
       }
     }
   }

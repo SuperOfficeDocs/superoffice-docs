@@ -101,6 +101,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -129,14 +130,14 @@ OK
 POST /api/v1/Agents/Ticket/MergeTickets
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    692,
-    14
+    759,
+    357
   ]
 }
 ```
@@ -148,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 61,
-  "Title": "repellendus",
-  "CreatedAt": "2016-11-03T03:31:27.6697456+01:00",
-  "LastChanged": "2001-12-28T03:31:27.6697456+01:00",
-  "ReadByOwner": "2011-06-01T03:31:27.6697456+02:00",
-  "ReadByCustomer": "2018-06-14T03:31:27.6697456+02:00",
-  "FirstReadByOwner": "2005-12-20T03:31:27.6697456+01:00",
-  "FirstReadByUser": "2004-11-18T03:31:27.6697456+01:00",
-  "Activate": "2007-04-14T03:31:27.6697456+02:00",
-  "ClosedAt": "1997-03-21T03:31:27.6697456+01:00",
-  "RepliedAt": "2004-08-27T03:31:27.6697456+02:00",
-  "AlertTimeout": "2007-06-28T03:31:27.6697456+02:00",
-  "Deadline": "2014-12-12T03:31:27.6697456+01:00",
+  "TicketId": 269,
+  "Title": "et",
+  "CreatedAt": "2020-03-31T03:24:48.4872676+02:00",
+  "LastChanged": "2000-03-10T03:24:48.4872676+01:00",
+  "ReadByOwner": "2019-02-15T03:24:48.4872676+01:00",
+  "ReadByCustomer": "2007-06-04T03:24:48.4872676+02:00",
+  "FirstReadByOwner": "2023-05-18T03:24:48.4872676+02:00",
+  "FirstReadByUser": "2003-02-09T03:24:48.4872676+01:00",
+  "Activate": "2020-08-14T03:24:48.4872676+02:00",
+  "ClosedAt": "2005-10-25T03:24:48.4872676+02:00",
+  "RepliedAt": "2010-05-24T03:24:48.4872676+02:00",
+  "AlertTimeout": "2022-06-13T03:24:48.4872676+02:00",
+  "Deadline": "2014-12-18T03:24:48.4872676+01:00",
   "CreatedBy": null,
-  "Author": "dolorem",
+  "Author": "dicta",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -173,160 +174,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "voluptatem",
-      "PersonId": 731,
-      "Mrmrs": "ea",
-      "Firstname": "Bette",
-      "Lastname": "Dickinson",
-      "MiddleName": "Monahan Inc and Sons",
-      "Title": "at",
-      "Description": "Secured logistical emulation",
-      "Email": "kenyon_okon@runolfsson.biz",
-      "FullName": "Reagan Swift",
-      "DirectPhone": "139.007.3244 x32762",
-      "FormalName": "Strosin-Mertz",
-      "CountryId": 17,
-      "ContactId": 229,
-      "ContactName": "Hirthe, Schaefer and Conn",
-      "Retired": 876,
-      "Rank": 152,
-      "ActiveInterests": 271,
+      "Position": "at",
+      "PersonId": 742,
+      "Mrmrs": "et",
+      "Firstname": "Bradly",
+      "Lastname": "Cummings",
+      "MiddleName": "Berge-Gleason",
+      "Title": "recusandae",
+      "Description": "Exclusive impactful hardware",
+      "Email": "giles@cronaerdman.name",
+      "FullName": "Lilla Fay",
+      "DirectPhone": "957-820-0609 x97919",
+      "FormalName": "Lockman-Bednar",
+      "CountryId": 242,
+      "ContactId": 412,
+      "ContactName": "Champlin-Kreiger",
+      "Retired": 137,
+      "Rank": 809,
+      "ActiveInterests": 524,
       "ContactDepartment": "",
-      "ContactCountryId": 76,
-      "ContactOrgNr": "732746",
-      "FaxPhone": "257.078.7681 x212",
-      "MobilePhone": "1-920-483-9007",
-      "ContactPhone": "672-320-7513 x16283",
-      "AssociateName": "Cruickshank, Cole and Cole",
-      "AssociateId": 248,
-      "UsePersonAddress": true,
-      "ContactFax": "ex",
-      "Kanafname": "expedita",
-      "Kanalname": "quibusdam",
-      "Post1": "vero",
-      "Post2": "est",
-      "Post3": "qui",
-      "EmailName": "rebeka@quigleybartell.co.uk",
-      "ContactFullName": "Ally Glover",
-      "ActiveErpLinks": 946,
-      "TicketPriorityId": 429,
-      "SupportLanguageId": 414,
-      "SupportAssociateId": 45,
+      "ContactCountryId": 544,
+      "ContactOrgNr": "497675",
+      "FaxPhone": "240.232.7749 x5716",
+      "MobilePhone": "020.474.9739",
+      "ContactPhone": "207-712-9862 x33140",
+      "AssociateName": "Zulauf-Collier",
+      "AssociateId": 813,
+      "UsePersonAddress": false,
+      "ContactFax": "saepe",
+      "Kanafname": "doloremque",
+      "Kanalname": "soluta",
+      "Post1": "mollitia",
+      "Post2": "sint",
+      "Post3": "harum",
+      "EmailName": "bennett.jakubowski@schmelerstracke.ca",
+      "ContactFullName": "Cassandre Balistreri",
+      "ActiveErpLinks": 927,
+      "TicketPriorityId": 180,
+      "SupportLanguageId": 437,
+      "SupportAssociateId": 873,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldType": "System.String",
+          "FieldLength": 413
         }
       }
     }
   ],
-  "AlertLevel": 864,
-  "ConnectId": 853,
+  "AlertLevel": 645,
+  "ConnectId": 553,
   "ReadStatus": "Green",
-  "TimeToReply": 839,
-  "RealTimeToReply": 932,
-  "TimeToClose": 552,
-  "RealTimeToClose": 405,
-  "TimeSpentInternally": 790,
-  "TimeSpentExternally": 561,
-  "TimeSpentQueue": 317,
-  "RealTimeSpentInternally": 517,
-  "RealTimeSpentExternally": 791,
-  "RealTimeSpentQueue": 877,
-  "HasAttachment": true,
-  "NumReplies": 473,
-  "NumMessages": 705,
-  "FromAddress": "et",
+  "TimeToReply": 100,
+  "RealTimeToReply": 842,
+  "TimeToClose": 757,
+  "RealTimeToClose": 618,
+  "TimeSpentInternally": 627,
+  "TimeSpentExternally": 187,
+  "TimeSpentQueue": 864,
+  "RealTimeSpentInternally": 773,
+  "RealTimeSpentExternally": 214,
+  "RealTimeSpentQueue": 602,
+  "TimeSpent": 360,
+  "HasAttachment": false,
+  "NumReplies": 661,
+  "NumMessages": 570,
+  "FromAddress": "voluptatem",
   "Messages": [
     {
-      "TicketMessageId": 118,
-      "CreatedAt": "2019-12-29T03:31:27.6697456+01:00",
+      "TicketMessageId": 858,
+      "CreatedAt": "1996-10-04T03:24:48.4872676+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "rerum",
-      "PersonId": 839,
-      "PersonFullName": "Leopoldo Fay IV",
-      "ContactId": 912,
-      "ContactName": "Weber, Medhurst and Bednar",
+      "Author": "aliquam",
+      "PersonId": 107,
+      "PersonFullName": "Josefina Kiley Reilly III",
+      "ContactId": 786,
+      "ContactName": "Schowalter Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 431,
-      "EmailHeader": "jeff@walsh.ca",
+      "NumAttachments": 993,
+      "EmailHeader": "madison@wolff.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "magni",
-      "Sentiment": 847,
-      "SentimentConfidence": 895,
-      "CreatedBy": 610,
-      "ChangedAt": "2005-12-20T03:31:27.6697456+01:00",
+      "Language": "est",
+      "Sentiment": 939,
+      "SentimentConfidence": 420,
+      "CreatedBy": 771,
+      "ChangedAt": "1998-09-28T03:24:48.4872676+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldLength": 281
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 341,
-      "Name": "Stark-Mante",
-      "ToolTip": "Cumque fugiat consequuntur.",
+      "Id": 903,
+      "Name": "Nader Group",
+      "ToolTip": "Consequatur est aut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 733
+          "FieldType": "System.Int32",
+          "FieldLength": 875
         }
       }
     },
     {
-      "Id": 341,
-      "Name": "Stark-Mante",
-      "ToolTip": "Cumque fugiat consequuntur.",
+      "Id": 903,
+      "Name": "Nader Group",
+      "ToolTip": "Consequatur est aut.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 733
+          "FieldType": "System.Int32",
+          "FieldLength": 875
         }
       }
     }
   ],
-  "Language": "at",
-  "Sentiment": 580,
-  "SentimentConfidence": 810,
-  "SuggestedCategoryId": 658,
+  "Language": "laboriosam",
+  "Sentiment": 815,
+  "SentimentConfidence": 545,
+  "SuggestedCategoryId": 672,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 162,
-  "IconHint": "eum",
+  "OrigHumanCategoryId": 92,
+  "IconHint": "ullam",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
     "ExtraFields1": "sunt",
-    "ExtraFields2": "cum"
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "eum",
+    "CustomFields2": "reiciendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldType": "System.Int32",
+      "FieldLength": 66
     }
   }
 }

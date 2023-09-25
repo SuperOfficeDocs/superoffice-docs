@@ -103,56 +103,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jacobson Group",
+  "ProviderName": "Heller LLC",
   "Columns": [
-    "alias",
-    "vel"
+    "praesentium",
+    "in"
   ],
   "SortOrder": [
     {
-      "Name": "Fisher, O'Hara and Romaguera",
+      "Name": "Grimes, Bogan and Friesen",
       "Direction": "ASC"
     },
     {
-      "Name": "Fisher, O'Hara and Romaguera",
+      "Name": "Grimes, Bogan and Friesen",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Romaguera-McKenzie",
-      "Operator": "officiis",
+      "Name": "Prosacco Inc and Sons",
+      "Operator": "et",
       "Values": [
-        "veritatis",
-        "earum"
+        "ut",
+        "ut"
       ],
       "DisplayValues": [
-        "omnis",
-        "corporis"
+        "eum",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 44,
+      "InterParenthesis": 303,
       "InterOperator": "And",
-      "UniqueHash": 320
+      "UniqueHash": 490
     }
   ],
   "Entities": [
-    "fugiat",
-    "iure"
+    "porro",
+    "ab"
   ],
-  "Page": 35,
-  "PageSize": 484,
-  "Options": "non",
-  "Context": "hic"
+  "Page": 466,
+  "PageSize": 160,
+  "Options": "provident",
+  "Context": "enim"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 574,
+  "RowCount": 514,
   "Rows": [
     {
-      "EntityName": "Jacobi-Hansen",
-      "PrimaryKey": 192,
+      "EntityName": "Doyle-Armstrong",
+      "PrimaryKey": 153,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quia",
-          "TooltipHint": "delectus",
-          "LinkHint": "ut"
+          "DisplayValue": "ratione",
+          "TooltipHint": "eaque",
+          "LinkHint": "eveniet"
         }
       },
-      "LinkHint": "quo",
-      "StyleHint": "sit",
+      "LinkHint": "sequi",
+      "StyleHint": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 760
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldLength": 113
     }
   }
 }

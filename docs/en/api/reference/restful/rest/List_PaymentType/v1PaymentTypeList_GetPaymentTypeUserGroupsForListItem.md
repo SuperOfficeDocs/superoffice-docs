@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Bayer-Parker",
-    "ToolTip": "Consequatur et omnis.",
+    "Id": 422,
+    "Name": "Koelpin, Shanahan and Wiegand",
+    "ToolTip": "Vero est asperiores ut vel dolorum.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "suscipit",
-    "ColorBlock": 172,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2001-09-09T03:31:33.6791985+02:00",
+    "Rank": 32,
+    "Type": "natus",
+    "ColorBlock": 909,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2017-02-25T03:24:52.2869587+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Robel-Ledner",
-        "ToolTip": "Quod qui ut.",
-        "Deleted": false,
-        "Rank": 285,
-        "Type": "voluptas",
-        "ColorBlock": 146,
-        "IconHint": "eius",
-        "Selected": true,
-        "LastChanged": "2021-09-24T03:31:33.6791985+02:00",
+        "Id": 164,
+        "Name": "Lebsack-Lind",
+        "ToolTip": "Ea non ex eum maiores et odit.",
+        "Deleted": true,
+        "Rank": 422,
+        "Type": "adipisci",
+        "ColorBlock": 94,
+        "IconHint": "consectetur",
+        "Selected": false,
+        "LastChanged": "2002-09-28T03:24:52.2869587+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "libero",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "quasi",
         "Hidden": false,
-        "FullName": "Israel Becker",
+        "FullName": "Forrest Ransom Satterfield III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 727
+            "FieldLength": 136
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Ambrose Walsh",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Katlynn Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldLength": 388
       }
     }
   }

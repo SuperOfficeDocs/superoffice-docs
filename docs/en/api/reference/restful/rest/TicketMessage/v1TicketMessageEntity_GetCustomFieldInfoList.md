@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Corwin Group",
-    "DisplayName": "Schmidt Inc and Sons",
-    "Description": "Inverse system-worthy moratorium",
-    "ShortLabel": "voluptatem",
-    "HideLabel": false,
+    "FieldName": "Schowalter-Bashirian",
+    "DisplayName": "Breitenberg-Stehr",
+    "Description": "Seamless disintermediate installation",
+    "ShortLabel": "eius",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 266,
-    "TemplateVariableName": "Hand-Marks"
+    "Rank": 890,
+    "TemplateVariableName": "Crist, Bahringer and Shanahan"
   }
 ]
 ```

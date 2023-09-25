@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 175,
-  "AssociateId": 729,
-  "Caption": "rem",
+  "DashboardId": 50,
+  "AssociateId": 570,
+  "Caption": "error",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 924,
-      "Caption": "sit",
-      "Description": "Decentralized regional service-desk",
-      "ChartName": "Vandervort-Lebsack",
-      "ChartId": "facere",
-      "IsDefault": true,
-      "AssociateId": 803,
-      "GroupId": 817,
-      "SelectionId": 878,
-      "Config": "excepturi",
+      "DashboardTileId": 636,
+      "Caption": "culpa",
+      "Description": "Universal national database",
+      "ChartName": "Beier-Nienow",
+      "ChartId": "consectetur",
+      "IsDefault": false,
+      "AssociateId": 822,
+      "GroupId": 35,
+      "SelectionId": 858,
+      "Config": "deserunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 349,
-  "AssociateId": 418,
-  "Caption": "voluptas",
+  "DashboardId": 108,
+  "AssociateId": 138,
+  "Caption": "quisquam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 806,
-      "Caption": "est",
-      "Description": "Synergistic 4th generation local area network",
-      "ChartName": "Roob-Schiller",
-      "ChartId": "ab",
+      "DashboardTileId": 278,
+      "Caption": "voluptate",
+      "Description": "Mandatory context-sensitive intranet",
+      "ChartName": "Sauer Inc and Sons",
+      "ChartId": "sed",
       "IsDefault": false,
-      "AssociateId": 354,
-      "GroupId": 967,
-      "SelectionId": 707,
-      "Config": "ullam",
+      "AssociateId": 821,
+      "GroupId": 926,
+      "SelectionId": 264,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 801
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 468
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

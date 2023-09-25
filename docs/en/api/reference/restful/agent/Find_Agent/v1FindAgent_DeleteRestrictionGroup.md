@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eligendi",
-  "ProviderName": "Wyman Group",
-  "StorageKey": "est",
-  "Rank": 509,
-  "Context": "nemo"
+  "StorageType": "consequatur",
+  "ProviderName": "Wolf LLC",
+  "StorageKey": "saepe",
+  "Rank": 263,
+  "Context": "voluptate"
 }
 ```
 

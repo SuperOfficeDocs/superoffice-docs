@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "O'Reilly-DuBuque",
-  "Tooltip": "omnis",
+  "Id": 50,
+  "Name": "Howe-Zulauf",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "UdListDefinitionId": 133,
-  "Rank": 973,
+  "UdListDefinitionId": 762,
+  "Rank": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 422
     }
   }
 }

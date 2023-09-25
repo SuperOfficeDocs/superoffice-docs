@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "hic",
+  "CRMScriptUniqueId": "et",
   "EventData": null
 }
 ```
@@ -106,32 +106,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "qui",
-    "InputValues2": "qui"
+    "InputValues1": "vel",
+    "InputValues2": "voluptas"
   },
   "BlockExecution": false,
-  "NavigateTo": "porro",
-  "Message": "consequatur",
-  "ShowDialog": "aut",
+  "NavigateTo": "nobis",
+  "Message": "porro",
+  "ShowDialog": "eveniet",
   "OutputValues": {
-    "OutputValues1": "architecto",
-    "OutputValues2": "et"
+    "OutputValues1": "mollitia",
+    "OutputValues2": "rerum"
   },
   "StateValues": {
-    "StateValues1": "praesentium",
-    "StateValues2": "dolore"
+    "StateValues1": "sed",
+    "StateValues2": "ipsam"
   },
-  "Exception": "dolorem",
+  "Exception": "perspiciatis",
   "ParserValues": {
-    "ParserValues1": "quod",
-    "ParserValues2": "eum"
+    "ParserValues1": "totam",
+    "ParserValues2": "exercitationem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 627
     }
   }
 }

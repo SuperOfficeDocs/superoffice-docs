@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=aut
-GET /api/v1/Sale?$top=329
-GET /api/v1/Sale?$skip=763
+GET /api/v1/Sale?$entities=sit
+GET /api/v1/Sale?$top=159
+GET /api/v1/Sale?$skip=515
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=qui
+GET /api/v1/Sale?$context=debitis
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 754,
-      "EntityName": "sale",
-      "saleId": 754,
-      "contactId": 9370,
-      "name": "Feeney Group"
+      "PrimaryKey": 5615,
+      "EntityName": "person",
+      "personId": 5615,
+      "fullName": "Christelle Braun"
     },
     {
-      "PrimaryKey": 9127,
-      "EntityName": "sale",
-      "saleId": 9127,
-      "contactId": 1190,
-      "name": "Schuster-Graham"
+      "PrimaryKey": 2380,
+      "EntityName": "person",
+      "personId": 2380,
+      "fullName": "Amalia Denesik I"
     }
   ]
 }

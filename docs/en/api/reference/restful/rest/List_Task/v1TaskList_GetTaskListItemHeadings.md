@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 842,
-    "Name": "Fay-Nader",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 172,
-    "UdListDefinitionId": 240,
+    "HeadingId": 829,
+    "Name": "Marvin, Walter and Stanton",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 542,
+    "UdListDefinitionId": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 940
       }
     }
   }

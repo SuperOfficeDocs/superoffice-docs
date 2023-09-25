@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Value": "aspernatur",
-    "Tooltip": "molestias",
+    "Id": 54,
+    "Value": "reprehenderit",
+    "Tooltip": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   },
   {
-    "Id": 571,
-    "Value": "aspernatur",
-    "Tooltip": "molestias",
+    "Id": 54,
+    "Value": "reprehenderit",
+    "Tooltip": "voluptatum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldType": "System.Int32",
+        "FieldLength": 343
       }
     }
   }

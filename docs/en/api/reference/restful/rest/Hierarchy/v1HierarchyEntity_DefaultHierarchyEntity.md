@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 375,
+  "HierarchyId": 50,
   "Domain": "Dashboards",
-  "Name": "Hermiston, Swift and Bins",
-  "Fullname": "error",
-  "ParentId": 700,
+  "Name": "Macejkovic Group",
+  "Fullname": "deserunt",
+  "ParentId": 909,
   "Children": [
     {
-      "HierarchyId": 561,
+      "HierarchyId": 126,
       "Domain": "Dashboards",
-      "Name": "Grimes, Ondricka and Weimann",
-      "Fullname": "libero",
-      "ParentId": 361,
+      "Name": "Grimes Group",
+      "Fullname": "hic",
+      "ParentId": 528,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-12-13T03:31:32.6289016+01:00",
-      "RegisteredAssociateId": 478,
-      "Updated": "2007-01-05T03:31:32.6289016+01:00",
-      "UpdatedAssociateId": 341,
+      "Registered": "2017-08-01T03:24:51.630601+02:00",
+      "RegisteredAssociateId": 691,
+      "Updated": "2014-12-14T03:24:51.630601+01:00",
+      "UpdatedAssociateId": 306,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 833
+          "FieldLength": 133
         }
       }
     }
   ],
-  "Registered": "2015-10-05T03:31:32.6289016+02:00",
-  "RegisteredAssociateId": 372,
-  "Updated": "2023-01-29T03:31:32.6289016+01:00",
-  "UpdatedAssociateId": 910,
+  "Registered": "2007-03-23T03:24:51.630601+01:00",
+  "RegisteredAssociateId": 347,
+  "Updated": "2003-09-15T03:24:51.630601+02:00",
+  "UpdatedAssociateId": 167,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 326,
-  "Name": "Torp Inc and Sons",
-  "PersonId": 276,
-  "Rank": 260,
-  "Tooltip": "ad",
+  "AssociateId": 670,
+  "Name": "Bins-Ondricka",
+  "PersonId": 842,
+  "Rank": 799,
+  "Tooltip": "doloremque",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 415,
-  "FullName": "Mr. Francis Raphael Goodwin DDS",
-  "FormalName": "Lowe Inc and Sons",
+  "GroupIdx": 602,
+  "FullName": "Ottis Schmitt Jr.",
+  "FormalName": "Cummerata-O'Kon",
   "Deleted": true,
-  "EjUserId": 124,
-  "UserName": "Rohan LLC",
+  "EjUserId": 558,
+  "UserName": "Hauck Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 701
     }
   }
 }

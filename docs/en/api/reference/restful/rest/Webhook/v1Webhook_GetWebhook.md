@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,28 +97,28 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 419,
-  "Name": "Robel Group",
+  "WebhookId": 627,
+  "Name": "Waters-Effertz",
   "Events": [
-    "nulla",
-    "nobis"
+    "et",
+    "neque"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "accusantium",
+  "Secret": "eos",
   "State": "Active",
-  "Type": "provident",
+  "Type": "est",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "in"
+    "Headers1": "hic",
+    "Headers2": "officiis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-07-03T03:31:33.4448734+02:00",
+  "Registered": "2017-12-26T03:24:52.1307225+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2008-03-27T03:31:33.4448734+01:00",
+  "Updated": "2014-12-21T03:24:52.1307225+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "elyse@funk.ca",
+  "ErrorsEmail": "jeanette_lemke@blockdibbert.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

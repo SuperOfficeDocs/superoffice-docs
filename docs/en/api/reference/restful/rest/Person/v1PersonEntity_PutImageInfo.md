@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 153,
-  "BlobSize": 720,
-  "Description": "Balanced user-facing workforce",
-  "ExtraInfo": "doloribus",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "laboriosam",
-  "OriginalSize": 745,
-  "CreatedDate": "2022-05-21T03:31:32.7382484+02:00",
-  "UpdatedDate": "2017-07-09T03:31:32.7382484+02:00",
+  "BlobId": 344,
+  "BlobSize": 441,
+  "Description": "Robust composite superstructure",
+  "ExtraInfo": "adipisci",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "dolorem",
+  "OriginalSize": 121,
+  "CreatedDate": "2009-07-12T03:24:51.6930999+02:00",
+  "UpdatedDate": "2004-05-25T03:24:51.6930999+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "provident"
+  "ConceptualType": "et"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 334,
-  "BlobSize": 839,
-  "Description": "Distributed 4th generation local area network",
-  "ExtraInfo": "iure",
+  "BlobId": 856,
+  "BlobSize": 374,
+  "Description": "Multi-tiered mobile website",
+  "ExtraInfo": "atque",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "laborum",
-  "OriginalSize": 445,
-  "CreatedDate": "2023-05-13T03:31:32.7382484+02:00",
-  "UpdatedDate": "2019-07-31T03:31:32.7382484+02:00",
+  "IsZipped": false,
+  "MimeType": "alias",
+  "OriginalSize": 893,
+  "CreatedDate": "2022-11-07T03:24:51.7089392+01:00",
+  "UpdatedDate": "2009-07-08T03:24:51.7089392+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 486
     }
   }
 }

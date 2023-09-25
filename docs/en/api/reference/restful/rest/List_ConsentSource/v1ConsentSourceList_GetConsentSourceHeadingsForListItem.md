@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Gutkowski-Tremblay",
-    "ToolTip": "Ipsa perferendis repellendus assumenda ut.",
-    "Deleted": false,
-    "Rank": 211,
-    "Type": "rem",
-    "ColorBlock": 90,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2015-03-01T03:31:33.5386084+01:00",
+    "Id": 137,
+    "Name": "Gerhold-Buckridge",
+    "ToolTip": "Aut tenetur animi.",
+    "Deleted": true,
+    "Rank": 956,
+    "Type": "tempore",
+    "ColorBlock": 731,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2013-01-28T03:24:52.2088405+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Rippin Inc and Sons",
-        "ToolTip": "Nam odit.",
-        "Deleted": true,
-        "Rank": 90,
-        "Type": "aut",
-        "ColorBlock": 81,
-        "IconHint": "rerum",
+        "Id": 229,
+        "Name": "Farrell-Hackett",
+        "ToolTip": "Tempore doloribus non dicta.",
+        "Deleted": false,
+        "Rank": 534,
+        "Type": "et",
+        "ColorBlock": 571,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2018-06-18T03:31:33.5386084+02:00",
+        "LastChanged": "2003-05-10T03:24:52.2088405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "dolore",
+        "ExtraInfo": "dolores",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Sammie Hammes",
+        "FullName": "Miss Bettye Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 76
+            "FieldLength": 885
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "facere",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mr. Maybell Padberg",
+    "FullName": "Cassie Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldType": "System.Int32",
+        "FieldLength": 312
       }
     }
   }

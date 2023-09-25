@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Person/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Sales?$orderBy=name asc
-GET /api/v1/Person/{id}/Sales?$entities=eligendi
-GET /api/v1/Person/{id}/Sales?$top=455
-GET /api/v1/Person/{id}/Sales?$skip=592
+GET /api/v1/Person/{id}/Sales?$entities=eaque
+GET /api/v1/Person/{id}/Sales?$top=422
+GET /api/v1/Person/{id}/Sales?$skip=949
 GET /api/v1/Person/{id}/Sales?$mode=Full
 GET /api/v1/Person/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Sales?$context=perferendis
+GET /api/v1/Person/{id}/Sales?$context=quia
 GET /api/v1/Person/{id}/Sales?$format=JSON
-GET /api/v1/Person/{id}/Sales?$jsonSafe=True
+GET /api/v1/Person/{id}/Sales?$jsonSafe=False
 GET /api/v1/Person/{id}/Sales?$output=Display
 ```
 
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "temporibus",
   "value": [
     {
-      "PrimaryKey": 8233,
-      "EntityName": "sale",
-      "saleId": 8233,
-      "contactId": 2514,
-      "name": "DuBuque, Thiel and Crist"
+      "PrimaryKey": 9786,
+      "EntityName": "person",
+      "personId": 9786,
+      "fullName": "Nakia Miller Sr."
     },
     {
-      "PrimaryKey": 4790,
-      "EntityName": "sale",
-      "saleId": 4790,
-      "contactId": 7853,
-      "name": "Runolfsdottir-Donnelly"
+      "PrimaryKey": 4871,
+      "EntityName": "person",
+      "personId": 4871,
+      "fullName": "Savanna Runolfsson"
     }
   ]
 }

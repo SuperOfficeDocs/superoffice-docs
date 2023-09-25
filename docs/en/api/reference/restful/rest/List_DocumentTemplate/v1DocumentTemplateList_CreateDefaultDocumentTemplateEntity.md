@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 31,
-  "Name": "Block Group",
-  "Tooltip": "eius",
-  "SaveInDb": 535,
-  "Filename": "rerum",
-  "DefaultOref": "atque",
+  "DocumentTemplateId": 279,
+  "Name": "Ward, Ankunding and Walter",
+  "Tooltip": "voluptatibus",
+  "SaveInDb": 129,
+  "Filename": "qui",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 60,
-  "IntentId": 850,
+  "AutoeventId": 1001,
+  "IntentId": 602,
   "IsDefaultPublished": false,
-  "Rank": 982,
-  "LoadTemplateFromPlugin": 254,
-  "MimeType": "dolore",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 1002,
+  "Rank": 979,
+  "LoadTemplateFromPlugin": 508,
+  "MimeType": "possimus",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 841,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lydia@rogahn.biz",
+  "EmailSubject": "samson.davis@wuckertkertzmann.info",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alessandro@mraz.name",
+  "SenderEmailAddress": "annalise@sipespollich.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 205
     }
   }
 }

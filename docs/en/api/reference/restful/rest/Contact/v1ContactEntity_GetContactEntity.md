@@ -33,7 +33,7 @@ Calls the Contact agent service GetContactEntity.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=True
+GET /api/v1/Contact/{id}?fk=False
 ```
 
 
@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 04 Sep 2000 03:31:32 G9T
+Last-Modified: Fri, 27 Sep 2002 03:24:51 G9T
 
 {
-  "ContactId": 511,
-  "Name": "Kemmer Group",
+  "ContactId": 707,
+  "Name": "Monahan, Schowalter and Gutkowski",
   "Department": "",
-  "OrgNr": "410708",
-  "Number1": "1641084",
-  "Number2": "1218612",
-  "UpdatedDate": "2000-09-04T03:31:32.4258286+02:00",
-  "CreatedDate": "2017-06-05T03:31:32.4258286+02:00",
+  "OrgNr": "393355",
+  "Number1": "1733346",
+  "Number2": "557471",
+  "UpdatedDate": "2002-09-27T03:24:51.4899959+02:00",
+  "CreatedDate": "2016-05-01T03:24:51.4899959+02:00",
   "Emails": [
     {
-      "Value": "illum",
-      "StrippedValue": "est",
-      "Description": "Expanded exuding toolset",
+      "Value": "neque",
+      "StrippedValue": "quos",
+      "Description": "Decentralized foreground alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 793
         }
       }
     },
     {
-      "Value": "illum",
-      "StrippedValue": "est",
-      "Description": "Expanded exuding toolset",
+      "Value": "neque",
+      "StrippedValue": "quos",
+      "Description": "Decentralized foreground alliance",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 793
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 714,
-      "Name": "Ortiz, Lubowitz and Gutkowski",
-      "ToolTip": "Molestias assumenda rerum provident iste.",
+      "Id": 146,
+      "Name": "Sporer, Upton and Spinka",
+      "ToolTip": "Voluptas consequatur dolorem voluptatem iste minus sint aut.",
       "Deleted": true,
-      "Rank": 178,
-      "Type": "deserunt",
-      "ColorBlock": 966,
-      "IconHint": "tenetur",
-      "Selected": false,
-      "LastChanged": "2003-06-11T03:31:32.4258286+02:00",
+      "Rank": 428,
+      "Type": "quis",
+      "ColorBlock": 345,
+      "IconHint": "a",
+      "Selected": true,
+      "LastChanged": "2018-02-04T03:24:51.4899959+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minus",
-      "StyleHint": "quia",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Jewell Kuphal",
+      "FullName": "Prof. Bill Klocko MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldType": "System.String",
+          "FieldLength": 345
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "sit",
-      "StrippedValue": "ut",
-      "Description": "Distributed disintermediate instruction set",
+      "Value": "et",
+      "StrippedValue": "modi",
+      "Description": "Right-sized methodical neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 352
         }
       }
     },
     {
-      "Value": "sit",
-      "StrippedValue": "ut",
-      "Description": "Distributed disintermediate instruction set",
+      "Value": "et",
+      "StrippedValue": "modi",
+      "Description": "Right-sized methodical neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 352
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "dolor",
-      "StrippedValue": "architecto",
-      "Description": "Reverse-engineered logistical support",
+      "Value": "illum",
+      "StrippedValue": "eligendi",
+      "Description": "Fundamental systematic portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 628
         }
       }
     },
     {
-      "Value": "dolor",
-      "StrippedValue": "architecto",
-      "Description": "Reverse-engineered logistical support",
+      "Value": "illum",
+      "StrippedValue": "eligendi",
+      "Description": "Fundamental systematic portal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 765
+          "FieldLength": 628
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "corrupti",
-      "StrippedValue": "non",
-      "Description": "Total national adapter",
+      "Value": "laudantium",
+      "StrippedValue": "est",
+      "Description": "Enhanced 24/7 capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 688
         }
       }
     },
     {
-      "Value": "corrupti",
-      "StrippedValue": "non",
-      "Description": "Total national adapter",
+      "Value": "laudantium",
+      "StrippedValue": "est",
+      "Description": "Enhanced 24/7 capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 688
         }
       }
     }
   ],
-  "Description": "Public-key asynchronous implementation",
+  "Description": "Vision-oriented hybrid moratorium",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,100 +289,100 @@ Last-Modified: Mon, 04 Sep 2000 03:31:32 G9T
   "Country": null,
   "Persons": [
     {
-      "Position": "blanditiis",
-      "PersonId": 588,
-      "Mrmrs": "sunt",
-      "Firstname": "Hailie",
-      "Lastname": "Stehr",
-      "MiddleName": "Zboncak, Doyle and Rodriguez",
-      "Title": "amet",
-      "Description": "Enhanced attitude-oriented contingency",
-      "Email": "yadira@millshuel.us",
-      "FullName": "Meggie Kautzer",
-      "DirectPhone": "563.755.7485 x6107",
-      "FormalName": "Lesch, Kuhic and Keebler",
-      "CountryId": 288,
-      "ContactId": 938,
-      "ContactName": "Collier, Roberts and Feeney",
-      "Retired": 895,
-      "Rank": 545,
-      "ActiveInterests": 775,
+      "Position": "praesentium",
+      "PersonId": 190,
+      "Mrmrs": "similique",
+      "Firstname": "Kadin",
+      "Lastname": "Green",
+      "MiddleName": "Rutherford-Muller",
+      "Title": "ipsa",
+      "Description": "Up-sized encompassing neural-net",
+      "Email": "giovanni@jerde.ca",
+      "FullName": "Prof. Zane Camylle Dicki PhD",
+      "DirectPhone": "1-461-856-7715",
+      "FormalName": "Schmidt-Graham",
+      "CountryId": 431,
+      "ContactId": 112,
+      "ContactName": "Hermann-Hartmann",
+      "Retired": 925,
+      "Rank": 288,
+      "ActiveInterests": 124,
       "ContactDepartment": "",
-      "ContactCountryId": 12,
-      "ContactOrgNr": "552219",
-      "FaxPhone": "181.444.2585 x1180",
-      "MobilePhone": "330.648.8563 x81987",
-      "ContactPhone": "(230)336-6278 x3745",
-      "AssociateName": "Leuschke-Bashirian",
-      "AssociateId": 711,
+      "ContactCountryId": 192,
+      "ContactOrgNr": "939524",
+      "FaxPhone": "(719)107-6016",
+      "MobilePhone": "519-388-1433 x745",
+      "ContactPhone": "969.660.1984",
+      "AssociateName": "Moen-McGlynn",
+      "AssociateId": 218,
       "UsePersonAddress": false,
-      "ContactFax": "ut",
-      "Kanafname": "quam",
-      "Kanalname": "inventore",
-      "Post1": "omnis",
-      "Post2": "ut",
-      "Post3": "numquam",
-      "EmailName": "gabrielle@lueilwitz.info",
-      "ContactFullName": "Miss Lonnie Rogahn II",
-      "ActiveErpLinks": 218,
-      "TicketPriorityId": 607,
-      "SupportLanguageId": 225,
-      "SupportAssociateId": 956,
+      "ContactFax": "quis",
+      "Kanafname": "et",
+      "Kanalname": "eos",
+      "Post1": "error",
+      "Post2": "ex",
+      "Post3": "quia",
+      "EmailName": "arnold.mcglynn@daugherty.info",
+      "ContactFullName": "Elisa Crist",
+      "ActiveErpLinks": 31,
+      "TicketPriorityId": 858,
+      "SupportLanguageId": 882,
+      "SupportAssociateId": 979,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 154
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "est",
-  "Xstop": false,
-  "ActiveInterests": 385,
-  "GroupId": 344,
-  "ActiveStatusMonitorId": 44,
+  "NoMailing": false,
+  "Kananame": "explicabo",
+  "Xstop": true,
+  "ActiveInterests": 776,
+  "GroupId": 649,
+  "ActiveStatusMonitorId": 798,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 256,
-  "DbiAgentId": 238,
-  "DbiLastSyncronized": "2019-09-19T03:31:32.4258286+02:00",
-  "DbiKey": "rem",
-  "DbiLastModified": "2012-08-31T03:31:32.4258286+02:00",
+  "Deleted": 138,
+  "DbiAgentId": 205,
+  "DbiLastSyncronized": "2010-11-29T03:24:51.4899959+01:00",
+  "DbiKey": "quis",
+  "DbiLastModified": "2020-07-30T03:24:51.4899959+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 944,
-  "ActiveErpLinks": 432,
+  "Source": 125,
+  "ActiveErpLinks": 863,
   "BounceEmails": [
-    "ulises@wyman.biz",
-    "lysanne@marvin.info"
+    "kira_prosacco@hammes.biz",
+    "tina_gottlieb@rath.com"
   ],
   "Domains": [
-    "ut",
-    "et"
+    "eaque",
+    "cumque"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Zoie Aufderhar II",
-    "SuperOffice:2": "Emmalee Bernhard"
+    "SuperOffice:1": "Faustino Howe",
+    "SuperOffice:2": "Ashtyn Schumm"
   },
   "ExtraFields": {
-    "ExtraFields1": "similique",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "et"
+    "CustomFields1": "explicabo",
+    "CustomFields2": "dignissimos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   },
   "_Links": {

@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 515,
-  "UniqueId": "excepturi",
-  "Name": "Schroeder, Moore and Ritchie",
-  "Description": "Pre-emptive bi-directional archive",
-  "AssociateId": 282,
-  "Columns": 175,
+  "DashboardId": 916,
+  "UniqueId": "doloribus",
+  "Name": "Cole-Stroman",
+  "Description": "Intuitive intermediate pricing structure",
+  "AssociateId": 510,
+  "Columns": 473,
   "Theme": null,
-  "VisibleForAll": 778,
+  "VisibleForAll": 569,
   "VisibleForAssociates": [
-    363,
-    143
+    57,
+    784
   ],
   "VisibleForGroups": [
-    774,
-    607
+    214,
+    959
   ],
-  "PinForAll": 534,
+  "PinForAll": 98,
   "PinForAssociates": [
-    239,
-    355
+    190,
+    366
   ],
   "PinForGroups": [
-    725,
-    524
+    582,
+    637
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 958
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

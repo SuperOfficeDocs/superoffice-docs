@@ -73,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "McGlynn Group",
+  "ProgramName": "Halvorson Group",
   "External": false
 }
 ```

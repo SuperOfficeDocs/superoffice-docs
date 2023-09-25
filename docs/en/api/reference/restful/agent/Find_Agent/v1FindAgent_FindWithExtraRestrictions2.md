@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quibusdam",
-  "ProviderName": "Reynolds, Gutkowski and Smith",
-  "StorageKey": "eum",
-  "ExtraRestrictions": "mollitia",
-  "OrderBy": "sed",
-  "DesiredColumns": "tempora",
-  "PageSize": 935,
-  "PageNumber": 539
+  "StorageType": "omnis",
+  "ProviderName": "Beahan-Kemmer",
+  "StorageKey": "deserunt",
+  "ExtraRestrictions": "quidem",
+  "OrderBy": "aut",
+  "DesiredColumns": "placeat",
+  "PageSize": 142,
+  "PageNumber": 351
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Carter Group",
-      "DisplayTooltip": "velit",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Treutel Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "sit",
-      "RestrictionListName": "Blanda-Funk",
+      "DisplayName": "Cummings Group",
+      "DisplayTooltip": "sint",
+      "DisplayType": "sit",
+      "CanOrderBy": true,
+      "Name": "Howe LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Kuvalis LLC",
       "IsVisible": true,
-      "ExtraInfo": "dolorem",
-      "Width": "aspernatur",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "id"
+      "ExtraInfo": "repellendus",
+      "Width": "ipsa",
+      "IconHint": "neque",
+      "HeadingIconHint": "provident"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Reilly, Bernhard and Bailey",
-      "PrimaryKey": 158,
+      "EntityName": "Keebler LLC",
+      "PrimaryKey": 445,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "repellendus",
-          "LinkHint": "sunt"
+          "DisplayValue": "assumenda",
+          "TooltipHint": "eius",
+          "LinkHint": "repellendus"
         }
       },
-      "LinkHint": "explicabo",
-      "StyleHint": "saepe",
+      "LinkHint": "perspiciatis",
+      "StyleHint": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 451
+          "FieldLength": 341
         }
       }
     }
   ],
-  "RowCount": 45,
+  "RowCount": 148,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 527
     }
   }
 }

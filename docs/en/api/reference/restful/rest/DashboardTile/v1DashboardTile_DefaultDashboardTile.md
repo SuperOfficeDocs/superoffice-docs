@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 972,
-  "Caption": "qui",
-  "Description": "Synchronised zero tolerance knowledge user",
-  "ChartName": "Schulist, Koepp and Abbott",
-  "ChartId": "molestiae",
+  "DashboardTileId": 662,
+  "Caption": "praesentium",
+  "Description": "Right-sized non-volatile concept",
+  "ChartName": "Zemlak, Runte and Zemlak",
+  "ChartId": "iusto",
   "IsDefault": false,
-  "AssociateId": 712,
-  "GroupId": 440,
-  "SelectionId": 522,
-  "Config": "facere",
+  "AssociateId": 280,
+  "GroupId": 126,
+  "SelectionId": 207,
+  "Config": "molestiae",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Boyer-Runte",
-      "Description": "Decentralized full-range functionalities",
+      "Name": "Parisian-DuBuque",
+      "Description": "Synchronised methodical product",
       "Type": "Boolean",
-      "ListName": "Zulauf LLC",
+      "ListName": "Beier-Braun",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "hic",
+      "Value": "soluta",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 299
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 185,
+      "VisibleId": 134,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldType": "System.Int32",
+          "FieldLength": 957
         }
       }
     },
     {
-      "VisibleId": 185,
+      "VisibleId": 134,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 359
+          "FieldType": "System.Int32",
+          "FieldLength": 957
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 7
     }
   }
 }

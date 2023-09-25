@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "West-Kessler",
-  "ListItemId": 801,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Beier-Bosco",
+  "ListItemId": 338,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 910,
-    "Name": "Cole, Kuhlman and Little",
-    "ToolTip": "Soluta itaque est.",
+    "Id": 949,
+    "Name": "Hermiston-Hermann",
+    "ToolTip": "Voluptatem deleniti voluptates.",
     "Deleted": false,
-    "Rank": 903,
-    "Type": "soluta",
-    "ColorBlock": 46,
-    "IconHint": "saepe",
+    "Rank": 411,
+    "Type": "temporibus",
+    "ColorBlock": 842,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2009-07-24T03:31:26.6831775+02:00",
+    "LastChanged": "2022-08-13T03:24:47.8770078+02:00",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "Powlowski-Bins",
-        "ToolTip": "Et voluptate sit rerum dolores qui corporis quo.",
-        "Deleted": false,
-        "Rank": 885,
-        "Type": "libero",
-        "ColorBlock": 81,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2015-06-07T03:31:26.6831775+02:00",
+        "Id": 296,
+        "Name": "Torphy-Doyle",
+        "ToolTip": "Qui dolor nemo cumque quis.",
+        "Deleted": true,
+        "Rank": 576,
+        "Type": "architecto",
+        "ColorBlock": 476,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2009-06-02T03:24:47.8770078+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Tamia Turner",
+        "ExtraInfo": "illo",
+        "StyleHint": "ullam",
+        "Hidden": true,
+        "FullName": "Mario Thompson PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 678
+            "FieldLength": 190
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "omnis",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Ms. Brooklyn Candido Schuppe Sr.",
+    "FullName": "Dewayne Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 788
       }
     }
   }

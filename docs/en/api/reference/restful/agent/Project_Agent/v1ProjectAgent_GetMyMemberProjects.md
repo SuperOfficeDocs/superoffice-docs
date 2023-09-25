@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 316,
-    "Name": "Daniel LLC",
-    "Description": "Function-based bottom-line installation",
+    "ProjectId": 361,
+    "Name": "Towne Group",
+    "Description": "Visionary stable architecture",
     "URL": "http://www.example.com/",
-    "Type": "deleniti",
-    "AssociateId": 267,
-    "AssociateFullName": "Rebeca Cassin",
-    "TypeId": 217,
-    "Updated": "2022-07-19T03:31:27.0268433+02:00",
-    "StatusId": 183,
-    "Status": "esse",
-    "TextId": 704,
-    "PublishTo": "1997-10-27T03:31:27.0268433+01:00",
-    "PublishFrom": "2005-06-28T03:31:27.0268433+02:00",
-    "IsPublished": false,
+    "Type": "distinctio",
+    "AssociateId": 947,
+    "AssociateFullName": "Noemi Rath",
+    "TypeId": 931,
+    "Updated": "2004-12-23T03:24:48.0957311+01:00",
+    "StatusId": 366,
+    "Status": "ducimus",
+    "TextId": 689,
+    "PublishTo": "2023-01-13T03:24:48.0957311+01:00",
+    "PublishFrom": "1997-11-16T03:24:48.0957311+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1235955",
-    "ActiveErpLinks": 829,
+    "ProjectNumber": "901110",
+    "ActiveErpLinks": 663,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 919
       }
     }
   }

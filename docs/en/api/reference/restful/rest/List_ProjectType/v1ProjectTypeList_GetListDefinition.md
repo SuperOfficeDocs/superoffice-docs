@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 951,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 493,
+  "Id": 122,
+  "Name": "Feest-Hackett",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "Rank": 172,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 404
     }
   },
   "_Links": {

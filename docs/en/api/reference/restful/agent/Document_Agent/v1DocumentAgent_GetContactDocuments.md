@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 461,
-  "StartTime": "2017-05-19T03:31:26.0427182+02:00",
-  "EndTime": "2006-07-21T03:31:26.0427182+02:00",
-  "Count": 364
+  "ContactId": 398,
+  "StartTime": "2000-10-21T03:24:47.5020527+02:00",
+  "EndTime": "2009-06-07T03:24:47.5020527+02:00",
+  "Count": 490
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 530,
-    "Attention": "suscipit",
-    "Header": "corporis",
-    "Name": "Russel LLC",
-    "OurRef": "ut",
-    "YourRef": "voluptate",
-    "Description": "Team-oriented system-worthy migration",
-    "DocumentTemplate": "rem",
-    "IsPublished": false,
-    "PersonId": 702,
-    "PersonFullName": "Lelah Gleichner",
-    "AssociateFullName": "Bette Hills",
-    "ContactId": 384,
-    "ContactName": "Kreiger-Wunsch",
-    "ProjectId": 969,
-    "ProjectName": "Kiehn Group",
-    "AssociateId": 608,
-    "Snum": 349,
-    "SaleId": 959,
-    "SaleName": "Hoeger LLC",
+    "DocumentId": 739,
+    "Attention": "et",
+    "Header": "voluptatem",
+    "Name": "Yundt Group",
+    "OurRef": "omnis",
+    "YourRef": "illum",
+    "Description": "Extended static encryption",
+    "DocumentTemplate": "asperiores",
+    "IsPublished": true,
+    "PersonId": 569,
+    "PersonFullName": "Braden Gerlach",
+    "AssociateFullName": "Melissa Hickle",
+    "ContactId": 394,
+    "ContactName": "Goyette LLC",
+    "ProjectId": 806,
+    "ProjectName": "Stiedemann Group",
+    "AssociateId": 221,
+    "Snum": 138,
+    "SaleId": 234,
+    "SaleName": "Graham, Konopelski and Krajcik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldType": "System.Int32",
+        "FieldLength": 521
       }
     }
   }

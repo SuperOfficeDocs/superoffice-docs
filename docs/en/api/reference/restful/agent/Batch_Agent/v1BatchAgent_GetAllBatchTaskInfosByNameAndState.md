@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Howe Inc and Sons",
+  "TaskName": "Ritchie, Miller and Schiller",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Kuphal, Grady and Howell",
-    "AssociateId": 302,
-    "DetailsTable": 821,
-    "DetailsRecord": 275,
-    "IsSystemTask": true,
+    "Id": 313,
+    "Name": "Abernathy Group",
+    "AssociateId": 87,
+    "DetailsTable": 259,
+    "DetailsRecord": 809,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quis",
-      "ParameterObject2": "maiores"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "sint"
     },
-    "LastStarted": "2021-12-12T03:31:25.6496314+01:00",
-    "Created": "2021-08-03T03:31:25.6496314+02:00",
-    "StartCount": 155,
-    "DatabaseSerialNumber": "479406",
-    "Context": "voluptates",
-    "Result": "aut",
+    "LastStarted": "2001-02-26T03:24:47.2520803+01:00",
+    "Created": "1996-05-30T03:24:47.2520803+02:00",
+    "StartCount": 692,
+    "DatabaseSerialNumber": "507254",
+    "Context": "aspernatur",
+    "Result": "pariatur",
     "State": "All",
-    "Description": "Organic clear-thinking moratorium",
-    "Response": "voluptate",
-    "Request": "esse",
-    "ProgressDescription": "Realigned composite paradigm",
-    "ProgressPercent": 478,
-    "FileName": "Weimann-Cronin",
+    "Description": "Re-contextualized heuristic benchmark",
+    "Response": "cupiditate",
+    "Request": "ex",
+    "ProgressDescription": "Advanced maximized matrix",
+    "ProgressPercent": 224,
+    "FileName": "Schuppe-Kunde",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldLength": 819
       }
     }
   }

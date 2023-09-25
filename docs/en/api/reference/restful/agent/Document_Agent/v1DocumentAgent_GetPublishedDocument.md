@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 401
+  "DocumentId": 192
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 903,
-  "Attention": "in",
-  "Header": "est",
-  "Name": "Effertz-Gaylord",
-  "OurRef": "porro",
-  "YourRef": "quia",
-  "Description": "Persistent modular knowledge base",
-  "DocumentTemplate": "quibusdam",
+  "DocumentId": 204,
+  "Attention": "non",
+  "Header": "quia",
+  "Name": "Hand, Ebert and Jones",
+  "OurRef": "non",
+  "YourRef": "non",
+  "Description": "Seamless optimal groupware",
+  "DocumentTemplate": "illo",
   "IsPublished": false,
-  "PersonId": 537,
-  "PersonFullName": "Franco Schroeder",
-  "AssociateFullName": "Prof. Dale Edna Price DVM",
-  "ContactId": 64,
-  "ContactName": "Weimann Inc and Sons",
-  "ProjectId": 730,
-  "ProjectName": "Satterfield-Vandervort",
-  "AssociateId": 173,
-  "Snum": 634,
-  "SaleId": 417,
-  "SaleName": "Beatty Group",
+  "PersonId": 947,
+  "PersonFullName": "Dr. Vida Wunsch",
+  "AssociateFullName": "Prof. Rosetta Arch Stroman DDS",
+  "ContactId": 592,
+  "ContactName": "Fadel Inc and Sons",
+  "ProjectId": 333,
+  "ProjectName": "Abbott LLC",
+  "AssociateId": 394,
+  "Snum": 931,
+  "SaleId": 116,
+  "SaleName": "Adams LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 697
+      "FieldType": "System.Int32",
+      "FieldLength": 855
     }
   }
 }

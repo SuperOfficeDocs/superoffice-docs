@@ -145,51 +145,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 765,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "et",
-  "Name": "Considine, Paucek and Turner",
-  "Description": "Robust 3rd generation ability",
-  "Code": "sed",
-  "PriceUnit": "est",
-  "QuantityUnit": "ex",
+  "ProductId": 396,
+  "ERPProductKey": "praesentium",
+  "ERPPriceListKey": "quae",
+  "Name": "Miller, Conroy and Torp",
+  "Description": "Mandatory modular time-frame",
+  "Code": "excepturi",
+  "PriceUnit": "dolor",
+  "QuantityUnit": "laboriosam",
   "IsSubscription": true,
-  "SubscriptionUnit": "sint",
-  "DefaultSubscriptionQuantity": 12463.918,
-  "ItemNumber": "1248111",
+  "SubscriptionUnit": "voluptates",
+  "DefaultSubscriptionQuantity": 26031.004,
+  "ItemNumber": "580693",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ex",
-  "ProductTypeKey": "consequatur",
-  "VAT": 9909.708,
-  "VATInfo": "nihil",
-  "UnitCost": 6832.12,
-  "UnitMinimumPrice": 27178.048,
-  "UnitListPrice": 29951.638,
-  "InAssortment": true,
-  "Supplier": "sed",
-  "SupplierCode": "alias",
-  "Rights": "porro",
-  "Rule": "rem",
+  "ProductFamilyKey": "maxime",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 19330.512,
+  "VATInfo": "suscipit",
+  "UnitCost": 12043.962,
+  "UnitMinimumPrice": 29161.87,
+  "UnitListPrice": 2751.652,
+  "InAssortment": false,
+  "Supplier": "omnis",
+  "SupplierCode": "nulla",
+  "Rights": "ut",
+  "Rule": "corrupti",
   "ExtraInfo": [
     {
-      "Name": "Padberg, Heaney and Beatty",
-      "Value": "ut",
+      "Name": "Gutkowski-Cole",
+      "Value": "qui",
       "Type": "Image"
     },
     {
-      "Name": "Padberg, Heaney and Beatty",
-      "Value": "ut",
+      "Name": "Gutkowski-Cole",
+      "Value": "qui",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "beatae",
+  "RawExtraInfo": "aut",
+  "ExtraField1": "quis",
   "ExtraField2": "et",
-  "ExtraField3": "consectetur",
-  "ExtraField4": "impedit",
-  "ExtraField5": "dignissimos",
-  "InStock": 10900.052
+  "ExtraField3": "tempora",
+  "ExtraField4": "et",
+  "ExtraField5": "ut",
+  "InStock": 19336.78
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 563,
-  "ERPProductKey": "possimus",
-  "ERPPriceListKey": "laboriosam",
-  "Name": "Nitzsche Group",
-  "Description": "Devolved dynamic concept",
-  "Code": "ut",
-  "PriceUnit": "quos",
-  "QuantityUnit": "similique",
+  "ProductId": 811,
+  "ERPProductKey": "fuga",
+  "ERPPriceListKey": "magnam",
+  "Name": "Lehner Inc and Sons",
+  "Description": "Visionary hybrid knowledge user",
+  "Code": "delectus",
+  "PriceUnit": "nulla",
+  "QuantityUnit": "rerum",
   "IsSubscription": true,
-  "SubscriptionUnit": "earum",
-  "DefaultSubscriptionQuantity": 24451.468,
-  "ItemNumber": "1128118",
+  "SubscriptionUnit": "error",
+  "DefaultSubscriptionQuantity": 896.324,
+  "ItemNumber": "919968",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "officiis",
-  "ProductTypeKey": "autem",
-  "VAT": 23279.352,
-  "VATInfo": "ut",
-  "UnitCost": 19013.978,
-  "UnitMinimumPrice": 8728.19,
-  "UnitListPrice": 11943.673999999999,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "quae",
+  "VAT": 22182.451999999997,
+  "VATInfo": "quaerat",
+  "UnitCost": 6487.38,
+  "UnitMinimumPrice": 29954.771999999997,
+  "UnitListPrice": 2168.728,
   "InAssortment": false,
-  "Supplier": "totam",
-  "SupplierCode": "repudiandae",
-  "Rights": "saepe",
-  "Rule": "quod",
+  "Supplier": "sapiente",
+  "SupplierCode": "et",
+  "Rights": "ducimus",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Bernier-Schimmel",
-      "Value": "nisi",
+      "Name": "Medhurst LLC",
+      "Value": "consequuntur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldLength": 853
         }
       }
     },
     {
-      "Name": "Bernier-Schimmel",
-      "Value": "nisi",
+      "Name": "Medhurst LLC",
+      "Value": "consequuntur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldLength": 853
         }
       }
     }
   ],
-  "RawExtraInfo": "doloremque",
-  "ExtraField1": "ea",
-  "ExtraField2": "sit",
-  "ExtraField3": "enim",
-  "ExtraField4": "inventore",
-  "ExtraField5": "qui",
-  "InStock": 21477.302,
+  "RawExtraInfo": "sint",
+  "ExtraField1": "distinctio",
+  "ExtraField2": "sint",
+  "ExtraField3": "ut",
+  "ExtraField4": "quis",
+  "ExtraField5": "rerum",
+  "InStock": 5064.544,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 121
     }
   }
 }

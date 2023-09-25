@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 833,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2007-02-19T03:31:26.0583393+01:00",
-  "EndTime": "2002-06-02T03:31:26.0583393+02:00",
-  "Count": 94,
+  "PersonId": 53,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2005-06-30T03:24:47.5176724+02:00",
+  "EndTime": "1999-11-03T03:24:47.5176724+01:00",
+  "Count": 389,
   "DocumentTemplateIds": [
-    395,
-    244
+    352,
+    380
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 628,
-    "Attention": "et",
-    "Header": "deserunt",
-    "Name": "Wilkinson-Barton",
-    "OurRef": "in",
-    "YourRef": "culpa",
-    "Description": "Organized directional strategy",
-    "DocumentTemplate": "veniam",
+    "DocumentId": 292,
+    "Attention": "quia",
+    "Header": "eum",
+    "Name": "Schaden, Beer and Sporer",
+    "OurRef": "ut",
+    "YourRef": "exercitationem",
+    "Description": "User-centric hybrid portal",
+    "DocumentTemplate": "numquam",
     "IsPublished": false,
-    "PersonId": 809,
-    "PersonFullName": "Paolo Keeling",
-    "AssociateFullName": "Armando Heller",
-    "ContactId": 687,
-    "ContactName": "Welch Group",
-    "ProjectId": 222,
-    "ProjectName": "Lueilwitz, Wintheiser and O'Keefe",
-    "AssociateId": 258,
-    "Snum": 806,
-    "SaleId": 192,
-    "SaleName": "Powlowski, Lebsack and Hagenes",
+    "PersonId": 460,
+    "PersonFullName": "Santos Hertha Grant MD",
+    "AssociateFullName": "Dr. Ashtyn Cassie Wilkinson",
+    "ContactId": 997,
+    "ContactName": "Wolf Inc and Sons",
+    "ProjectId": 74,
+    "ProjectName": "Buckridge-Schiller",
+    "AssociateId": 804,
+    "Snum": 930,
+    "SaleId": 112,
+    "SaleName": "Kertzmann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 582
       }
     }
   }

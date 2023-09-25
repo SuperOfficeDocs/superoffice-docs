@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Davis, Stoltenberg and Gerhold",
-    "Description": "Monitored zero tolerance attitude",
-    "Rank": 714,
+    "Name": "Sauer Inc and Sons",
+    "Description": "Implemented tangible extranet",
+    "Rank": 886,
     "Restrictions": [
       {
-        "Name": "Weimann, Auer and Wilderman",
-        "Operator": "quia",
+        "Name": "Kohler-Orn",
+        "Operator": "totam",
         "Values": [
-          "modi",
-          "molestias"
+          "itaque",
+          "vel"
         ],
         "DisplayValues": [
-          "aut",
-          "molestiae"
+          "voluptatem",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 155,
+        "InterParenthesis": 543,
         "InterOperator": "And",
-        "UniqueHash": 806
+        "UniqueHash": 395
       }
     ]
   },
   {
-    "Name": "Davis, Stoltenberg and Gerhold",
-    "Description": "Monitored zero tolerance attitude",
-    "Rank": 714,
+    "Name": "Sauer Inc and Sons",
+    "Description": "Implemented tangible extranet",
+    "Rank": 886,
     "Restrictions": [
       {
-        "Name": "Weimann, Auer and Wilderman",
-        "Operator": "quia",
+        "Name": "Kohler-Orn",
+        "Operator": "totam",
         "Values": [
-          "modi",
-          "molestias"
+          "itaque",
+          "vel"
         ],
         "DisplayValues": [
-          "aut",
-          "molestiae"
+          "voluptatem",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 155,
+        "InterParenthesis": 543,
         "InterOperator": "And",
-        "UniqueHash": 806
+        "UniqueHash": 395
       }
     ]
   }

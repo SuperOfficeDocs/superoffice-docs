@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 841
+  "CountWords": 275
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Wiza, Dickens and Shanahan",
-    "ToolTip": "Quo voluptas autem iure ut velit eos.",
+    "Id": 784,
+    "Name": "Hahn Group",
+    "ToolTip": "Eaque odio et ut molestiae dolorem vero dolore.",
     "Deleted": false,
-    "Rank": 765,
-    "Type": "hic",
+    "Rank": 907,
+    "Type": "nobis",
     "ChildItems": [
       {
-        "Id": 208,
-        "Name": "Howell, O'Connell and Walsh",
-        "ToolTip": "Accusantium totam autem sapiente incidunt error molestiae.",
+        "Id": 951,
+        "Name": "Murray-Kulas",
+        "ToolTip": "Aut excepturi ab voluptates.",
         "Deleted": false,
-        "Rank": 137,
-        "Type": "et",
+        "Rank": 597,
+        "Type": "deserunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 522,
-        "ExtraInfo": "corporis",
-        "StyleHint": "nemo",
-        "FullName": "Paula Reinger",
+        "IconHint": "quaerat",
+        "ColorBlock": 95,
+        "ExtraInfo": "est",
+        "StyleHint": "voluptate",
+        "FullName": "Brock Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 143
+            "FieldType": "System.String",
+            "FieldLength": 261
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 123,
-    "ExtraInfo": "ut",
-    "StyleHint": "autem",
-    "FullName": "Prof. Howard Schuppe",
+    "IconHint": "voluptas",
+    "ColorBlock": 977,
+    "ExtraInfo": "debitis",
+    "StyleHint": "est",
+    "FullName": "Miss Daisha Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldLength": 806
       }
     }
   }

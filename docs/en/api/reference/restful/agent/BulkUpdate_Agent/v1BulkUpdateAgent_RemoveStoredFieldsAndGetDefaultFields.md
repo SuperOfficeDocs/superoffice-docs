@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Purdy Group",
-  "Context": "illum"
+  "TableName": "Becker, Donnelly and Kris",
+  "Context": "quis"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "molestias",
-    "ValueType": "molestiae",
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "quae",
+    "ValueType": "non",
     "Mandatory": false,
-    "EncodedDisplayName": "Legros-Marks",
-    "EncodedDisplayDescription": "Switchable 24/7 circuit",
-    "IconHint": "adipisci",
+    "EncodedDisplayName": "Rempel, Hilll and Stanton",
+    "EncodedDisplayDescription": "Upgradable full-range matrices",
+    "IconHint": "officiis",
     "ControlInfos": [
       {
-        "Type": "eligendi",
-        "Label": "voluptatem",
-        "Dimension": 734,
-        "ListProviderName": "Murphy Inc and Sons",
-        "ListProviderExtraInfo": "quidem",
-        "ListProviderPrimaryKeyName": "Hauck LLC",
-        "ListLeadText": "consequatur",
+        "Type": "eos",
+        "Label": "ut",
+        "Dimension": 910,
+        "ListProviderName": "Cassin, Morar and McLaughlin",
+        "ListProviderExtraInfo": "consequatur",
+        "ListProviderPrimaryKeyName": "Hagenes-Murray",
+        "ListLeadText": "assumenda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldLength": 367
           }
         }
       }
     ],
-    "EncodedDataCaption": "consequatur",
-    "EncodedDataCaptionDescription": "Automated multi-state software",
-    "CurrentOperationType": "omnis",
+    "EncodedDataCaption": "a",
+    "EncodedDataCaptionDescription": "Quality-focused discrete synergy",
+    "CurrentOperationType": "ut",
     "Values": [
-      "et",
-      "voluptatem"
+      "tenetur",
+      "occaecati"
     ],
     "DisplayValues": [
-      "adipisci",
-      "qui"
+      "aut",
+      "ad"
     ],
     "OperationInfos": [
       {
-        "Key": "nihil",
-        "EncodedDisplayName": "Russel, Schaefer and Crooks",
+        "Key": "quibusdam",
+        "EncodedDisplayName": "Kessler-Pollich",
         "EncodedLeadTexts": [
-          "fugit",
-          "id"
+          "earum",
+          "placeat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 715
+            "FieldType": "System.Int32",
+            "FieldLength": 252
           }
         }
       },
       {
-        "Key": "nihil",
-        "EncodedDisplayName": "Russel, Schaefer and Crooks",
+        "Key": "quibusdam",
+        "EncodedDisplayName": "Kessler-Pollich",
         "EncodedLeadTexts": [
-          "fugit",
-          "id"
+          "earum",
+          "placeat"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 715
+            "FieldType": "System.Int32",
+            "FieldLength": 252
           }
         }
       }

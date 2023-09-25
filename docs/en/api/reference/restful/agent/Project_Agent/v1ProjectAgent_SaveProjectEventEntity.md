@@ -121,76 +121,76 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "et",
-  "SignOffText": "molestias",
-  "SignOnConfirmationText": "fugiat",
-  "SignOnText": "voluptates",
-  "EventDate": "2018-09-16T03:31:26.9799814+02:00",
-  "Enabled": true,
-  "CreatedDate": "2005-11-30T03:31:26.9799814+01:00",
+  "SignOffConfirmationText": "quibusdam",
+  "SignOffText": "doloribus",
+  "SignOnConfirmationText": "voluptatum",
+  "SignOnText": "autem",
+  "EventDate": "2016-03-31T03:24:48.0801113+02:00",
+  "Enabled": false,
+  "CreatedDate": "2019-03-01T03:24:48.0801113+01:00",
   "SignOff": true,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 96,
+  "SignOffTaskId": 663,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 595,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2001-05-25T03:31:26.9799814+02:00",
+  "SignOnTaskId": 934,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2021-06-08T03:24:48.0801113+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 801,
-  "Id": 378,
-  "PublishFrom": "2005-06-21T03:31:26.9799814+02:00",
+  "ProjectId": 225,
+  "Id": 941,
+  "PublishFrom": "2008-08-22T03:24:48.0801113+02:00",
   "PublishType": "External",
-  "PublishTo": "2023-06-14T03:31:26.9799814+02:00",
+  "PublishTo": "2021-12-23T03:24:48.0801113+01:00",
   "VisibleForCategories": [
     {
-      "Id": 401,
-      "Name": "Walter LLC",
-      "ToolTip": "Dolorem sint placeat ut dicta quos.",
-      "Deleted": false,
-      "Rank": 72,
-      "Type": "esse",
+      "Id": 225,
+      "Name": "Beier-Feil",
+      "ToolTip": "Incidunt eius quia voluptas ut.",
+      "Deleted": true,
+      "Rank": 127,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ratione",
-      "ColorBlock": 691,
-      "ExtraInfo": "nihil",
-      "StyleHint": "possimus",
-      "FullName": "Dominique Sanford Sr."
+      "IconHint": "voluptatem",
+      "ColorBlock": 273,
+      "ExtraInfo": "dignissimos",
+      "StyleHint": "et",
+      "FullName": "Orland Brown"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 250,
-      "Name": "Toy LLC",
-      "ToolTip": "Praesentium blanditiis ea et aut et qui.",
-      "Deleted": true,
-      "Rank": 818,
-      "Type": "illo",
+      "Id": 283,
+      "Name": "Pouros, Hauck and Connelly",
+      "ToolTip": "Quaerat dolor eos.",
+      "Deleted": false,
+      "Rank": 653,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 849,
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "libero",
-      "FullName": "Mr. Teresa Bins II"
+      "IconHint": "maiores",
+      "ColorBlock": 478,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "quia",
+      "FullName": "Carli Bednar"
     }
   ],
-  "IsPublished": false,
+  "IsPublished": true,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 168
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 156
 }
 ```
 
@@ -201,94 +201,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "sunt",
-  "SignOffText": "maxime",
-  "SignOnConfirmationText": "eum",
-  "SignOnText": "iste",
-  "EventDate": "2018-10-03T03:31:26.995596+02:00",
-  "Enabled": true,
-  "CreatedDate": "2008-01-19T03:31:26.995596+01:00",
+  "SignOffConfirmationText": "nihil",
+  "SignOffText": "architecto",
+  "SignOnConfirmationText": "iure",
+  "SignOnText": "voluptas",
+  "EventDate": "2005-06-21T03:24:48.0801113+02:00",
+  "Enabled": false,
+  "CreatedDate": "2017-12-25T03:24:48.0801113+01:00",
   "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 197,
-  "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOffTaskId": 304,
+  "SignOffTriggersAssign": true,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 790,
+  "SignOnTaskId": 395,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2021-08-29T03:31:26.995596+02:00",
+  "UpdatedDate": "2014-02-18T03:24:48.0801113+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 443,
-  "Id": 25,
-  "PublishFrom": "2008-01-08T03:31:26.995596+01:00",
+  "ProjectId": 911,
+  "Id": 343,
+  "PublishFrom": "2014-12-04T03:24:48.0801113+01:00",
   "PublishType": "External",
-  "PublishTo": "2012-09-20T03:31:26.995596+02:00",
+  "PublishTo": "2001-05-01T03:24:48.0801113+02:00",
   "VisibleForCategories": [
     {
-      "Id": 754,
-      "Name": "McClure Group",
-      "ToolTip": "Maxime odio perferendis.",
-      "Deleted": true,
-      "Rank": 259,
-      "Type": "quasi",
+      "Id": 821,
+      "Name": "Price-Hayes",
+      "ToolTip": "Placeat dolorum hic ut nobis minus non.",
+      "Deleted": false,
+      "Rank": 167,
+      "Type": "iste",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eligendi",
-      "ColorBlock": 786,
-      "ExtraInfo": "nihil",
-      "StyleHint": "et",
-      "FullName": "Brisa Emie Gibson DVM",
+      "IconHint": "est",
+      "ColorBlock": 543,
+      "ExtraInfo": "quod",
+      "StyleHint": "aut",
+      "FullName": "Elva Feil DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldType": "System.Int32",
+          "FieldLength": 100
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 913,
-      "Name": "Howe, McKenzie and McDermott",
-      "ToolTip": "Expedita est qui ut.",
+      "Id": 891,
+      "Name": "Waelchi Inc and Sons",
+      "ToolTip": "Est enim dolor qui eaque omnis.",
       "Deleted": false,
-      "Rank": 932,
-      "Type": "id",
+      "Rank": 41,
+      "Type": "sint",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dignissimos",
-      "ColorBlock": 952,
-      "ExtraInfo": "magnam",
-      "StyleHint": "voluptate",
-      "FullName": "Albina Nova Rice I",
+      "IconHint": "nihil",
+      "ColorBlock": 130,
+      "ExtraInfo": "expedita",
+      "StyleHint": "nobis",
+      "FullName": "Sydnee Wolff",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 274
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 491,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 899,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 434
     }
   }
 }

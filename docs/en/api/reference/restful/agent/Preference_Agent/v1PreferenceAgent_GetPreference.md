@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292
+  "Id": 207
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "beatae",
+  "RawValue": "officiis",
   "Specification": null,
-  "DisplayValue": "omnis",
-  "DisplayTooltip": "provident",
+  "DisplayValue": "officiis",
+  "DisplayTooltip": "placeat",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 72,
-  "PrefDescId": 143,
-  "TableName": "Hansen LLC",
-  "UserPreferenceId": 554,
+  "TargetId": 925,
+  "PrefDescId": 648,
+  "TableName": "Abbott, Lind and Smith",
+  "UserPreferenceId": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

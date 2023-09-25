@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=487
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=547
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 765,
-  "WorkflowId": 557,
+  "WorkflowGoalId": 159,
+  "WorkflowId": 864,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Schuppe, Cummerata and Lockman",
-      "Description": "Distributed high-level budgetary management",
-      "Rank": 232,
+      "Name": "Pfeffer-Ward",
+      "Description": "Integrated systematic budgetary management",
+      "Rank": 661,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schuppe, Cummerata and Lockman",
-      "Description": "Distributed high-level budgetary management",
-      "Rank": 232,
+      "Name": "Pfeffer-Ward",
+      "Description": "Integrated systematic budgetary management",
+      "Rank": 661,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldLength": 514
     }
   }
 }

@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crooks-Schowalter",
-  "ForceFlatList": true,
-  "AdditionalInfo": "sequi",
+  "Name": "Green-Tillman",
+  "ForceFlatList": false,
+  "AdditionalInfo": "minus",
   "HistoryItems": [
-    823,
-    391
+    278,
+    528
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Huel-Schmidt",
-    "ToolTip": "Sint dolorem aliquam sunt illum autem quas blanditiis.",
+    "Id": 866,
+    "Name": "Moore LLC",
+    "ToolTip": "Accusantium ratione nobis.",
     "Deleted": true,
-    "Rank": 922,
-    "Type": "iste",
+    "Rank": 744,
+    "Type": "ullam",
     "ChildItems": [
       {
-        "Id": 986,
-        "Name": "Kassulke, Ritchie and Mertz",
-        "ToolTip": "Molestiae esse.",
+        "Id": 663,
+        "Name": "Rau LLC",
+        "ToolTip": "Molestias omnis at.",
         "Deleted": false,
-        "Rank": 340,
-        "Type": "magni",
+        "Rank": 835,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 386,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "aut",
-        "FullName": "Mrs. Wade Hintz DVM",
+        "IconHint": "quia",
+        "ColorBlock": 536,
+        "ExtraInfo": "fuga",
+        "StyleHint": "modi",
+        "FullName": "Jessie Skiles Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 127
+            "FieldType": "System.Int32",
+            "FieldLength": 499
           }
         }
       }
     ],
-    "IconHint": "ratione",
-    "ColorBlock": 959,
-    "ExtraInfo": "autem",
-    "StyleHint": "itaque",
-    "FullName": "Emily Stehr",
+    "IconHint": "voluptatem",
+    "ColorBlock": 469,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "sit",
+    "FullName": "Devon Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 935
       }
     }
   }

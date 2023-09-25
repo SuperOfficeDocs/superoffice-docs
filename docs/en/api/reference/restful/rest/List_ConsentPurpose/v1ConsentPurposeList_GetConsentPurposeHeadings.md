@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 41,
-    "Name": "Hickle-Jakubowski",
-    "Tooltip": "voluptatum",
+    "HeadingId": 153,
+    "Name": "Towne, Gutkowski and Cronin",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 331,
-    "UdListDefinitionId": 625,
+    "Rank": 317,
+    "UdListDefinitionId": 129,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 38
+        "FieldType": "System.Int32",
+        "FieldLength": 547
       }
     }
   }

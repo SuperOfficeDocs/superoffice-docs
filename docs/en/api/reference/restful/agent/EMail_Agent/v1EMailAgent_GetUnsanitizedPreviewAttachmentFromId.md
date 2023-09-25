@@ -93,10 +93,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 263,
-  "AttachmentId": "et",
-  "AttachmentType": "natus",
-  "AttachmentFilename": "quia"
+  "MailItemId": 929,
+  "AttachmentId": "fugiat",
+  "AttachmentType": "sit",
+  "AttachmentFilename": "aut"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked foreground installation",
-  "Filename": "beatae",
-  "Size": 598,
-  "Type": "repellat",
-  "Encoding": "voluptas",
-  "Id": "deleniti",
-  "Disposition": "doloremque",
-  "IsSafeFileExtension": true,
+  "Description": "Operative analyzing local area network",
+  "Filename": "qui",
+  "Size": 397,
+  "Type": "fugit",
+  "Encoding": "molestias",
+  "Id": "ipsa",
+  "Disposition": "quod",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 361
     }
   }
 }

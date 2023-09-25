@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "temporibus",
-  "ProviderName": "Kreiger Inc and Sons",
-  "StorageKey": "explicabo",
-  "Restrictions": "eius",
-  "Context": "nostrum"
+  "StorageType": "sunt",
+  "ProviderName": "Dietrich, Adams and Kirlin",
+  "StorageKey": "ab",
+  "Restrictions": "velit",
+  "Context": "iusto"
 }
 ```
 

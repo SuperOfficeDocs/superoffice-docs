@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 608,
-  "ParentId": 434,
-  "Name": "Breitenberg, Predovic and Lemke",
-  "Fullname": "dignissimos",
-  "CategoryMaster": 893,
+  "TicketCategoryId": 823,
+  "ParentId": 521,
+  "Name": "Murphy Group",
+  "Fullname": "et",
+  "CategoryMaster": 528,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kirlin Group",
+  "ExternalName": "Prohaska, Muller and Metz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 210,
-  "ReplyTemplate": 286,
-  "NotificationEmail": "abby@moenvonrueden.uk",
+  "AssignmentLag": 172,
+  "ReplyTemplate": 792,
+  "NotificationEmail": "malika_lebsack@bashirian.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 55,
+  "EffectiveReplyTemplateId": 721,
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "rem"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 709
     }
   }
 }

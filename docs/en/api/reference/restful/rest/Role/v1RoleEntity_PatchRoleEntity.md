@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "beatae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "beatae",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 692,
-  "Name": "Lynch-Ziemann",
-  "Tooltip": "omnis",
+  "RoleId": 295,
+  "Name": "Jacobson-West",
+  "Tooltip": "enim",
   "RoleType": "Anonymous",
-  "Deleted": 965,
-  "Rank": 704,
-  "Created": "2013-05-08T03:31:32.8163583+02:00",
-  "UseCategories": 675,
+  "Deleted": 852,
+  "Rank": 841,
+  "Created": "2003-05-17T03:24:51.7557701+02:00",
+  "UseCategories": 72,
   "CreatedBy": null,
-  "Updated": "2002-12-06T03:31:32.8163583+01:00",
+  "Updated": "2020-07-29T03:24:51.7557701+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 980
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

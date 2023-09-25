@@ -12,7 +12,7 @@ so.envir: onsite, online
 MDO Provider that retrieves a list of preference sections
 
 Preferences are described in the prefdesc table. This provider will retrieve descriptions for all sections.
-
+<para />
 Each item contains the programmatic section name in the extraInfo field.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PreferenceSectionProvider">PreferenceSectionProvider</see> class.

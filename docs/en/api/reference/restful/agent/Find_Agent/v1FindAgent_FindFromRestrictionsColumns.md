@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Feest Inc and Sons",
-      "Operator": "et",
+      "Name": "Luettgen LLC",
+      "Operator": "ratione",
       "Values": [
-        "neque",
-        "nostrum"
+        "ea",
+        "dolore"
       ],
       "DisplayValues": [
-        "unde",
-        "fugit"
+        "voluptatem",
+        "debitis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 304,
+      "InterParenthesis": 925,
       "InterOperator": "And",
-      "UniqueHash": 147
+      "UniqueHash": 394
     }
   ],
-  "ProviderName": "Waelchi Group",
+  "ProviderName": "Pouros, Wyman and Sanford",
   "DesiredColumns": [
-    "dolore",
-    "aut"
+    "itaque",
+    "sed"
   ],
-  "PageSize": 416,
-  "PageNumber": 882
+  "PageSize": 472,
+  "PageNumber": 329
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Botsford, Eichmann and Kilback",
-      "DisplayTooltip": "quam",
-      "DisplayType": "ad",
-      "CanOrderBy": true,
-      "Name": "Wuckert-Crist",
-      "CanRestrictBy": false,
-      "RestrictionType": "voluptates",
-      "RestrictionListName": "Labadie Group",
-      "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "qui",
-      "IconHint": "asperiores",
-      "HeadingIconHint": "adipisci"
+      "DisplayName": "Dietrich, Jerde and Leuschke",
+      "DisplayTooltip": "harum",
+      "DisplayType": "aut",
+      "CanOrderBy": false,
+      "Name": "Rolfson, Konopelski and Hayes",
+      "CanRestrictBy": true,
+      "RestrictionType": "deserunt",
+      "RestrictionListName": "Quigley LLC",
+      "IsVisible": true,
+      "ExtraInfo": "iste",
+      "Width": "vel",
+      "IconHint": "dolore",
+      "HeadingIconHint": "nemo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ryan LLC",
-      "PrimaryKey": 238,
+      "EntityName": "Eichmann, Parker and Gutmann",
+      "PrimaryKey": 647,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ullam",
-          "TooltipHint": "expedita",
-          "LinkHint": "qui"
+          "DisplayValue": "velit",
+          "TooltipHint": "aut",
+          "LinkHint": "dolore"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "laboriosam",
+      "LinkHint": "veniam",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldType": "System.Int32",
+          "FieldLength": 369
         }
       }
     }
   ],
-  "RowCount": 292,
+  "RowCount": 930,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   }
 }

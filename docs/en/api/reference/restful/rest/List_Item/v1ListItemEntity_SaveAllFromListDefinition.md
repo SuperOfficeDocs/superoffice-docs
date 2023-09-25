@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Corwin, Smith and Cremin",
-    "Tooltip": "quas",
+    "Id": 749,
+    "Name": "Hoppe, Christiansen and Williamson",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 73
+    "UdListDefinitionId": 534,
+    "Rank": 611
   },
   {
-    "Id": 331,
-    "Name": "Corwin, Smith and Cremin",
-    "Tooltip": "quas",
+    "Id": 749,
+    "Name": "Hoppe, Christiansen and Williamson",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "UdListDefinitionId": 533,
-    "Rank": 73
+    "UdListDefinitionId": 534,
+    "Rank": 611
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "O'Hara Group",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "UdListDefinitionId": 29,
-    "Rank": 44,
+    "Id": 139,
+    "Name": "Blanda-Rempel",
+    "Tooltip": "fugiat",
+    "Deleted": false,
+    "UdListDefinitionId": 56,
+    "Rank": 198,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldType": "System.String",
+        "FieldLength": 218
       }
     }
   }

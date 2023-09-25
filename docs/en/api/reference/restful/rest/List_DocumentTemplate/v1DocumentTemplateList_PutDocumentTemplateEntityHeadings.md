@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Torp-Emard",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 754,
-    "UdListDefinitionId": 799
+    "HeadingId": 553,
+    "Name": "Spencer-Ebert",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "Rank": 646,
+    "UdListDefinitionId": 825
   },
   {
-    "HeadingId": 601,
-    "Name": "Torp-Emard",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 754,
-    "UdListDefinitionId": 799
+    "HeadingId": 553,
+    "Name": "Spencer-Ebert",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "Rank": 646,
+    "UdListDefinitionId": 825
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 706,
-    "Name": "Mitchell-McLaughlin",
-    "Tooltip": "illo",
+    "HeadingId": 5,
+    "Name": "Hirthe Inc and Sons",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 24,
-    "UdListDefinitionId": 908,
+    "Rank": 762,
+    "UdListDefinitionId": 551,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldLength": 139
       }
     }
   }

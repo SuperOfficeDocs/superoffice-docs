@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Hessel-O'Reilly",
-    "ToolTip": "Eveniet eius sapiente non natus sequi rem fugit.",
-    "Deleted": true,
-    "Rank": 82,
-    "Type": "odit",
-    "ColorBlock": 989,
-    "IconHint": "iusto",
-    "Selected": false,
-    "LastChanged": "1999-01-15T03:31:33.7742322+01:00",
+    "Id": 161,
+    "Name": "Mertz, Jerde and Roob",
+    "ToolTip": "Veniam qui itaque.",
+    "Deleted": false,
+    "Rank": 326,
+    "Type": "magnam",
+    "ColorBlock": 330,
+    "IconHint": "nobis",
+    "Selected": true,
+    "LastChanged": "2007-09-24T03:24:52.3494474+02:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "D'Amore-Brekke",
-        "ToolTip": "Et architecto in voluptas minima occaecati omnis.",
+        "Id": 515,
+        "Name": "Gislason, Trantow and Dicki",
+        "ToolTip": "Quis est qui ex sint ad.",
         "Deleted": false,
-        "Rank": 537,
-        "Type": "ut",
-        "ColorBlock": 809,
-        "IconHint": "architecto",
+        "Rank": 669,
+        "Type": "earum",
+        "ColorBlock": 840,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2022-10-31T03:31:33.7742322+01:00",
+        "LastChanged": "1996-09-10T03:24:52.3494474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Mina Beier DVM"
+        "ExtraInfo": "eos",
+        "StyleHint": "cupiditate",
+        "Hidden": false,
+        "FullName": "Danyka Botsford"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Ms. Rossie Danika Becker DDS"
+    "ExtraInfo": "repellat",
+    "StyleHint": "culpa",
+    "Hidden": false,
+    "FullName": "Miss Theresa Cicero Sipes DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Name": "Lind-Krajcik",
-    "ToolTip": "Velit dolor dolore dicta sequi sit voluptatem quae.",
+    "Id": 89,
+    "Name": "Roberts-Kuhic",
+    "ToolTip": "Et totam.",
     "Deleted": false,
-    "Rank": 276,
-    "Type": "quod",
-    "ColorBlock": 347,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2006-03-31T03:31:33.7742322+02:00",
+    "Rank": 125,
+    "Type": "ex",
+    "ColorBlock": 20,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2014-03-12T03:24:52.3494474+01:00",
     "ChildItems": [
       {
-        "Id": 328,
-        "Name": "Mills LLC",
-        "ToolTip": "Eos atque vero ullam aut debitis unde dolore.",
-        "Deleted": true,
-        "Rank": 389,
-        "Type": "rem",
-        "ColorBlock": 893,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2008-09-28T03:31:33.7742322+02:00",
+        "Id": 675,
+        "Name": "Cartwright, Robel and Mohr",
+        "ToolTip": "Consequuntur dolores minus et impedit recusandae voluptatem.",
+        "Deleted": false,
+        "Rank": 773,
+        "Type": "ut",
+        "ColorBlock": 804,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2012-05-24T03:24:52.3494474+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "odio",
+        "ExtraInfo": "corporis",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Lempi Raynor",
+        "FullName": "Johnathon Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 487
+            "FieldLength": 904
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "veniam",
-    "Hidden": true,
-    "FullName": "Mr. Johnny Columbus Wisozk",
+    "ExtraInfo": "quas",
+    "StyleHint": "eaque",
+    "Hidden": false,
+    "FullName": "Modesto Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 348
       }
     }
   }

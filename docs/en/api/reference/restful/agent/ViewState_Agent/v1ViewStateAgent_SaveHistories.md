@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Gottlieb Inc and Sons",
+  "HistoryName": "Kassulke LLC",
   "History": [
     {
-      "Rank": 925,
-      "Id": 98,
-      "HistoryName": "Lubowitz, Hauck and Bauch",
-      "HistoryId": 204,
-      "AssociateId": 68,
-      "Name": "Mohr-Langosh",
-      "ItemInfo": "occaecati"
+      "Rank": 418,
+      "Id": 252,
+      "HistoryName": "Heaney-Rutherford",
+      "HistoryId": 31,
+      "AssociateId": 344,
+      "Name": "Okuneva LLC",
+      "ItemInfo": "incidunt"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 282,
-    "Id": 272,
-    "HistoryName": "Cruickshank-Gibson",
-    "HistoryId": 946,
-    "AssociateId": 755,
-    "Name": "Bednar-Wyman",
-    "ItemInfo": "harum",
+    "Rank": 554,
+    "Id": 69,
+    "HistoryName": "Trantow Group",
+    "HistoryId": 446,
+    "AssociateId": 268,
+    "Name": "Kozey-Jaskolski",
+    "ItemInfo": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldType": "System.String",
+        "FieldLength": 915
       }
     }
   }

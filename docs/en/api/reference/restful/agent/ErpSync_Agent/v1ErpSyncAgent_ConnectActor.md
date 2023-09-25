@@ -71,31 +71,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 437,
-  "CrmRecordId": 391,
+  "ErpConnectionId": 236,
+  "CrmRecordId": 368,
   "CrmActorType": "Contact",
-  "ErpKey": "rerum",
+  "ErpKey": "distinctio",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Schmeler-Pollich",
-      "CrmFieldKey": "animi",
-      "Value": "velit",
-      "DisplayValue": "rerum",
+      "DisplayName": "Turcotte Inc and Sons",
+      "CrmFieldKey": "dolores",
+      "Value": "at",
+      "DisplayValue": "asperiores",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Schmeler-Pollich",
-      "CrmFieldKey": "animi",
-      "Value": "velit",
-      "DisplayValue": "rerum",
+      "DisplayName": "Turcotte Inc and Sons",
+      "CrmFieldKey": "dolores",
+      "Value": "at",
+      "DisplayValue": "asperiores",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

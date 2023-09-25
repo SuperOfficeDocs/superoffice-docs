@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 62,
-  "ParentId": 446,
-  "Name": "Lemke-Grant",
-  "Fullname": "ad",
-  "CategoryMaster": 631,
+  "TicketCategoryId": 277,
+  "ParentId": 816,
+  "Name": "Swift-Lebsack",
+  "Fullname": "ut",
+  "CategoryMaster": 431,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Vandervort Inc and Sons",
+  "ExternalName": "Brekke-Koepp",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 827,
-  "ReplyTemplate": 360,
-  "NotificationEmail": "lew.lesch@haley.co.uk",
+  "AssignmentLag": 425,
+  "ReplyTemplate": 973,
+  "NotificationEmail": "ashlynn_heidenreich@doyle.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 489,
+  "EffectiveReplyTemplateId": 439,
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "et",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "quam"
+    "CustomFields1": "dolor",
+    "CustomFields2": "est"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 724,
-  "ParentId": 335,
-  "Name": "Medhurst Inc and Sons",
-  "Fullname": "voluptas",
-  "CategoryMaster": 668,
+  "TicketCategoryId": 951,
+  "ParentId": 996,
+  "Name": "Ritchie, Koepp and Koelpin",
+  "Fullname": "corporis",
+  "CategoryMaster": 497,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Tremblay-Nienow",
+  "ExternalName": "Heidenreich, Goodwin and Mosciski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 448,
-  "ReplyTemplate": 224,
-  "NotificationEmail": "nasir.abernathy@reillywill.name",
+  "AssignmentLag": 366,
+  "ReplyTemplate": 273,
+  "NotificationEmail": "vernice.von@kuphal.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 139,
+  "EffectiveReplyTemplateId": 167,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "natus"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "soluta"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "commodi"
+    "CustomFields1": "est",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldType": "System.Int32",
+      "FieldLength": 628
     }
   }
 }

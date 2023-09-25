@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 417,
-    "Name": "Langosh-Parisian",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 496,
-    "UdListDefinitionId": 670
+    "HeadingId": 846,
+    "Name": "Lynch LLC",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 552,
+    "UdListDefinitionId": 663
   },
   {
-    "HeadingId": 417,
-    "Name": "Langosh-Parisian",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 496,
-    "UdListDefinitionId": 670
+    "HeadingId": 846,
+    "Name": "Lynch LLC",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 552,
+    "UdListDefinitionId": 663
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 820,
-    "Name": "Renner, Berge and Ankunding",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 111,
-    "UdListDefinitionId": 41,
+    "HeadingId": 811,
+    "Name": "Moen, Kemmer and Halvorson",
+    "Tooltip": "sequi",
+    "Deleted": true,
+    "Rank": 38,
+    "UdListDefinitionId": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

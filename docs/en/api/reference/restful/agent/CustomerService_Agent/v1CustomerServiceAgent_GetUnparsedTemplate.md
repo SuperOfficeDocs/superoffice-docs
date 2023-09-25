@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 841,
-  "LanguageId": 128
+  "ReplyTemplateId": 377,
+  "LanguageId": 914
 }
 ```
 
@@ -96,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 113,
-  "PlainParsed": "praesentium",
-  "HtmlParsed": "illo",
+  "ReplyTemplateId": 859,
+  "PlainParsed": "et",
+  "HtmlParsed": "quod",
   "Attachments": [
     {
-      "AttachmentId": 681,
-      "Name": "Lowe Inc and Sons",
-      "ContentType": "et",
-      "AttSize": 640,
-      "InlineImage": true,
-      "ContentId": "modi",
-      "AuthKey": "nulla",
+      "AttachmentId": 285,
+      "Name": "Kassulke, Waters and Corwin",
+      "ContentType": "praesentium",
+      "AttSize": 87,
+      "InlineImage": false,
+      "ContentId": "commodi",
+      "AuthKey": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldType": "System.String",
+          "FieldLength": 378
         }
       }
     }
   ],
-  "Subject": "aut",
+  "Subject": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 629
     }
   }
 }

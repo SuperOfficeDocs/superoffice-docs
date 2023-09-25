@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 985,
-  "Name": "Hills Group",
-  "Tooltip": "reprehenderit",
+  "RoleId": 168,
+  "Name": "Boehm Group",
+  "Tooltip": "ea",
   "RoleType": "Anonymous",
-  "Deleted": 445,
-  "Rank": 698,
-  "Created": "2015-05-20T03:31:32.8163583+02:00",
-  "UseCategories": 467,
+  "Deleted": 256,
+  "Rank": 867,
+  "Created": "2022-08-14T03:24:51.7401403+02:00",
+  "UseCategories": 835,
   "CreatedBy": null,
-  "Updated": "2008-10-09T03:31:32.8163583+02:00",
+  "Updated": "2000-07-17T03:24:51.7401403+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 335,
-  "Name": "Mosciski Inc and Sons",
-  "Tooltip": "eveniet",
+  "RoleId": 929,
+  "Name": "Mante LLC",
+  "Tooltip": "in",
   "RoleType": "Anonymous",
-  "Deleted": 527,
-  "Rank": 291,
-  "Created": "1999-10-31T03:31:32.8163583+01:00",
-  "UseCategories": 23,
+  "Deleted": 698,
+  "Rank": 836,
+  "Created": "2019-01-18T03:24:51.7401403+01:00",
+  "UseCategories": 353,
   "CreatedBy": null,
-  "Updated": "2006-03-24T03:31:32.8163583+01:00",
+  "Updated": "2010-10-21T03:24:51.7401403+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 460
     }
   },
   "_Links": {

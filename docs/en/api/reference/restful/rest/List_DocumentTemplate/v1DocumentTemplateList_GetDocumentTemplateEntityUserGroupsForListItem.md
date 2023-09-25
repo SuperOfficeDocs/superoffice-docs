@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Monahan, Feeney and Wolff",
-    "ToolTip": "Facere sit tempora omnis.",
+    "Id": 451,
+    "Name": "Ward, Hermann and DuBuque",
+    "ToolTip": "Odit fugit.",
     "Deleted": false,
-    "Rank": 490,
-    "Type": "ipsa",
-    "ColorBlock": 400,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2019-01-06T03:31:33.6323343+01:00",
+    "Rank": 81,
+    "Type": "tempore",
+    "ColorBlock": 746,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2018-08-08T03:24:52.2557133+02:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Steuber Group",
-        "ToolTip": "Accusamus et qui et eaque unde rerum.",
+        "Id": 784,
+        "Name": "Ullrich, Koelpin and Purdy",
+        "ToolTip": "Aperiam dolor quis ipsa velit velit non.",
         "Deleted": false,
-        "Rank": 659,
-        "Type": "rerum",
-        "ColorBlock": 60,
+        "Rank": 342,
+        "Type": "ratione",
+        "ColorBlock": 502,
         "IconHint": "cumque",
-        "Selected": true,
-        "LastChanged": "2007-08-26T03:31:33.6323343+02:00",
+        "Selected": false,
+        "LastChanged": "1996-09-05T03:24:52.2557133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "rem",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Braxton Stoltenberg",
+        "FullName": "Sadye Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 761
+            "FieldLength": 489
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "esse",
+    "ExtraInfo": "architecto",
+    "StyleHint": "error",
     "Hidden": true,
-    "FullName": "Ms. Coleman Rubie Johnson II",
+    "FullName": "Dr. Dakota Marcel Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 453
+        "FieldType": "System.Int32",
+        "FieldLength": 915
       }
     }
   }

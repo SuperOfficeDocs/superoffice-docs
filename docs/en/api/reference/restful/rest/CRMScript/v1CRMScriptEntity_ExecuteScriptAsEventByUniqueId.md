@@ -90,31 +90,31 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ipsa",
-    "InputValues2": "earum"
+    "InputValues1": "consectetur",
+    "InputValues2": "maiores"
   },
-  "BlockExecution": false,
-  "NavigateTo": "nulla",
-  "Message": "culpa",
-  "ShowDialog": "nemo",
+  "BlockExecution": true,
+  "NavigateTo": "beatae",
+  "Message": "corporis",
+  "ShowDialog": "aut",
   "OutputValues": {
-    "OutputValues1": "rem",
-    "OutputValues2": "aliquam"
+    "OutputValues1": "expedita",
+    "OutputValues2": "aperiam"
   },
   "StateValues": {
-    "StateValues1": "totam",
-    "StateValues2": "eaque"
+    "StateValues1": "labore",
+    "StateValues2": "nesciunt"
   },
-  "Exception": "voluptas",
+  "Exception": "possimus",
   "ParserValues": {
-    "ParserValues1": "eligendi",
-    "ParserValues2": "perferendis"
+    "ParserValues1": "illum",
+    "ParserValues2": "consequatur"
   }
 }
 ```
@@ -128,32 +128,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "expedita",
-    "InputValues2": "impedit"
+    "InputValues1": "itaque",
+    "InputValues2": "corporis"
   },
   "BlockExecution": false,
-  "NavigateTo": "repellat",
-  "Message": "quidem",
-  "ShowDialog": "expedita",
+  "NavigateTo": "doloremque",
+  "Message": "animi",
+  "ShowDialog": "sit",
   "OutputValues": {
-    "OutputValues1": "quos",
-    "OutputValues2": "aperiam"
+    "OutputValues1": "et",
+    "OutputValues2": "dolorem"
   },
   "StateValues": {
-    "StateValues1": "expedita",
-    "StateValues2": "possimus"
+    "StateValues1": "non",
+    "StateValues2": "adipisci"
   },
-  "Exception": "quisquam",
+  "Exception": "numquam",
   "ParserValues": {
-    "ParserValues1": "labore",
-    "ParserValues2": "adipisci"
+    "ParserValues1": "error",
+    "ParserValues2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 438
     }
   }
 }

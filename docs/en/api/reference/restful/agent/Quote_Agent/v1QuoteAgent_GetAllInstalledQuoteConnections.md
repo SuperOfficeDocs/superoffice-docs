@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 480,
-    "ERPName": "Legros, Raynor and Nikolaus",
-    "DisplayName": "Littel-Fritsch",
-    "DisplayDescription": "Diverse tangible access",
-    "Rank": 69,
-    "ConnectorName": "Hills LLC",
-    "ErpConnectionId": 984,
-    "ExtraData": "ut",
+    "QuoteConnectionId": 544,
+    "ERPName": "Kessler Group",
+    "DisplayName": "Jones, Welch and Littel",
+    "DisplayDescription": "De-engineered regional conglomeration",
+    "Rank": 995,
+    "ConnectorName": "Koelpin, Klocko and Kris",
+    "ErpConnectionId": 235,
+    "ExtraData": "labore",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 356,
-        "ERPPriceListKey": "possimus",
-        "QuoteConnectionId": 584,
-        "Name": "Douglas, Mante and Luettgen",
-        "Description": "Upgradable bandwidth-monitored application",
-        "Currency": "omnis",
-        "CurrencyName": "Gutkowski, Prohaska and Wintheiser",
-        "ValidFrom": "2005-11-29T03:31:27.0905589+01:00",
-        "ValidTo": "2018-07-05T03:31:27.0905589+02:00",
+        "PriceListId": 6,
+        "ERPPriceListKey": "accusamus",
+        "QuoteConnectionId": 228,
+        "Name": "Krajcik-Ernser",
+        "Description": "Implemented intangible budgetary management",
+        "Currency": "enim",
+        "CurrencyName": "Ernser-Connelly",
+        "ValidFrom": "2020-02-28T03:24:48.1426062+01:00",
+        "ValidTo": "2010-08-08T03:24:48.1426062+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 504
+            "FieldLength": 449
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": false,
+    "AllAccess": true,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      899,
-      827
+      679,
+      352
     ],
     "AssociateAccessIds": [
-      731,
-      351
+      264,
+      636
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 942
       }
     }
   }

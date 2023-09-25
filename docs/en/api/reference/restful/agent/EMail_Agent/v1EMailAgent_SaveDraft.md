@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 514,
-      "ContactName": "Bednar-Monahan",
-      "PersonId": 402,
-      "PersonName": "Dare Group",
-      "AssociateId": 369,
-      "Address": "eos",
-      "EmailId": 644,
+      "ContactId": 839,
+      "ContactName": "Metz LLC",
+      "PersonId": 201,
+      "PersonName": "Bogan-Considine",
+      "AssociateId": 655,
+      "Address": "ad",
+      "EmailId": 799,
       "DuplicatePersonIds": [
-        312,
-        276
+        514,
+        855
       ],
-      "Name": "Blick, Okuneva and Wunsch",
+      "Name": "Watsica, Runolfsson and Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldLength": 145
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 915,
-      "ContactName": "Cartwright, Gleichner and O'Kon",
-      "PersonId": 83,
-      "PersonName": "Ziemann, Boehm and Kuhn",
-      "AssociateId": 641,
-      "Address": "maiores",
-      "EmailId": 399,
+      "ContactId": 825,
+      "ContactName": "Monahan, Mosciski and Mueller",
+      "PersonId": 571,
+      "PersonName": "Hudson, Corwin and Howe",
+      "AssociateId": 692,
+      "Address": "at",
+      "EmailId": 898,
       "DuplicatePersonIds": [
-        358,
-        847
+        168,
+        87
       ],
-      "Name": "Franecki-Pollich",
+      "Name": "Pacocha Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldType": "System.String",
+          "FieldLength": 21
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 795,
-      "ContactName": "Bechtelar, Will and Mills",
-      "PersonId": 758,
-      "PersonName": "Runolfsdottir Group",
-      "AssociateId": 694,
-      "Address": "voluptatem",
-      "EmailId": 205,
+      "ContactId": 215,
+      "ContactName": "Jewess-Von",
+      "PersonId": 614,
+      "PersonName": "Pfeffer-Stark",
+      "AssociateId": 862,
+      "Address": "doloremque",
+      "EmailId": 781,
       "DuplicatePersonIds": [
-        755,
-        659
+        734,
+        325
       ],
-      "Name": "Ratke LLC",
+      "Name": "Wolff, Bashirian and Crona",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 884
         }
       }
     }
   ],
-  "Subject": "magni",
-  "HTMLBody": "aliquam",
+  "Subject": "eligendi",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "1998-12-27T03:31:26.4332438+01:00",
-  "Size": 765,
+  "Sent": "2005-01-09T03:24:47.7207759+01:00",
+  "Size": 501,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "qui",
+  "MessageID": "quo",
+  "PlainBody": "modi",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 463,
+  "ServerId": 564,
   "Attachments": [
     {
-      "Description": "Universal composite function",
-      "Filename": "voluptatum",
-      "Size": 478,
-      "Type": "itaque",
-      "Encoding": "omnis",
-      "Id": "modi",
-      "Disposition": "voluptates",
-      "IsSafeFileExtension": false,
+      "Description": "Ergonomic incremental parallelism",
+      "Filename": "et",
+      "Size": 400,
+      "Type": "voluptas",
+      "Encoding": "itaque",
+      "Id": "aut",
+      "Disposition": "quo",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Yundt Group",
+      "Name": "Turcotte-Nader",
       "Values": [
-        "officiis",
-        "voluptatum"
+        "quis",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 431
+          "FieldType": "System.Int32",
+          "FieldLength": 211
         }
       }
     },
     {
-      "Name": "Yundt Group",
+      "Name": "Turcotte-Nader",
       "Values": [
-        "officiis",
-        "voluptatum"
+        "quis",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 431
+          "FieldType": "System.Int32",
+          "FieldLength": 211
         }
       }
     }
   ],
-  "FolderName": "Hoppe, Harris and Dach",
-  "EmailItemId": 786,
-  "AccountId": 415,
-  "ReceivedAt": "2011-10-26T03:31:26.4332438+02:00",
+  "FolderName": "Osinski, Wilkinson and Treutel",
+  "EmailItemId": 542,
+  "AccountId": 960,
+  "ReceivedAt": "2009-07-31T03:24:47.7207759+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2010-06-18T03:31:26.4332438+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1997-12-25T03:24:47.7207759+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 728
     }
   }
 }

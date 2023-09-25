@@ -106,6 +106,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -138,12 +139,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 154,
-  "SourceTicketEntityStatusId": 903,
-  "SourceTicketEntityActivate": "2021-08-26T03:31:27.4811328+02:00",
+  "SourceTicketEntityId": 346,
+  "SourceTicketEntityStatusId": 310,
+  "SourceTicketEntityActivate": "2022-08-24T03:24:48.4560256+02:00",
   "TransferMessageIds": [
-    806,
-    802
+    590,
+    378
   ],
   "NewTicketEntity": null
 }
@@ -156,21 +157,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 175,
-  "Title": "alias",
-  "CreatedAt": "2017-11-21T03:31:27.6072597+01:00",
-  "LastChanged": "2018-12-12T03:31:27.6072597+01:00",
-  "ReadByOwner": "2006-03-23T03:31:27.6072597+01:00",
-  "ReadByCustomer": "2009-07-10T03:31:27.6072597+02:00",
-  "FirstReadByOwner": "2008-03-30T03:31:27.6072597+02:00",
-  "FirstReadByUser": "2009-07-20T03:31:27.6072597+02:00",
-  "Activate": "2018-05-15T03:31:27.6072597+02:00",
-  "ClosedAt": "2006-09-29T03:31:27.6072597+02:00",
-  "RepliedAt": "2015-03-05T03:31:27.6072597+01:00",
-  "AlertTimeout": "2013-04-26T03:31:27.6072597+02:00",
-  "Deadline": "2012-10-11T03:31:27.6072597+02:00",
+  "TicketId": 41,
+  "Title": "praesentium",
+  "CreatedAt": "2015-07-01T03:24:48.4716406+02:00",
+  "LastChanged": "2010-08-08T03:24:48.4716406+02:00",
+  "ReadByOwner": "2005-02-15T03:24:48.4716406+01:00",
+  "ReadByCustomer": "2003-09-24T03:24:48.4716406+02:00",
+  "FirstReadByOwner": "2009-07-25T03:24:48.4716406+02:00",
+  "FirstReadByUser": "2010-12-15T03:24:48.4716406+01:00",
+  "Activate": "2019-01-30T03:24:48.4716406+01:00",
+  "ClosedAt": "2010-04-10T03:24:48.4716406+02:00",
+  "RepliedAt": "2013-02-22T03:24:48.4716406+01:00",
+  "AlertTimeout": "1998-08-10T03:24:48.4716406+02:00",
+  "Deadline": "2004-11-18T03:24:48.4716406+01:00",
   "CreatedBy": null,
-  "Author": "modi",
+  "Author": "qui",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -181,160 +182,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "consequatur",
-      "PersonId": 653,
-      "Mrmrs": "sed",
-      "Firstname": "Marcellus",
-      "Lastname": "Herzog",
-      "MiddleName": "Zieme LLC",
-      "Title": "labore",
-      "Description": "Profit-focused interactive support",
-      "Email": "ryan.wisoky@williamsonokon.co.uk",
-      "FullName": "Andreanne Marks",
-      "DirectPhone": "280.997.9604 x7003",
-      "FormalName": "Rippin, Turner and Nienow",
-      "CountryId": 776,
-      "ContactId": 997,
-      "ContactName": "Harber-Steuber",
-      "Retired": 467,
-      "Rank": 65,
-      "ActiveInterests": 735,
+      "Position": "dolorem",
+      "PersonId": 986,
+      "Mrmrs": "facere",
+      "Firstname": "Norwood",
+      "Lastname": "Tromp",
+      "MiddleName": "Kunde, Denesik and Zieme",
+      "Title": "totam",
+      "Description": "Innovative fault-tolerant utilisation",
+      "Email": "savanna@johns.ca",
+      "FullName": "Jamar Doyle",
+      "DirectPhone": "228.016.2404 x533",
+      "FormalName": "Osinski Group",
+      "CountryId": 500,
+      "ContactId": 653,
+      "ContactName": "Flatley-Pacocha",
+      "Retired": 8,
+      "Rank": 637,
+      "ActiveInterests": 407,
       "ContactDepartment": "",
-      "ContactCountryId": 270,
-      "ContactOrgNr": "1008095",
-      "FaxPhone": "1-106-278-9440 x4642",
-      "MobilePhone": "496.875.8143 x234",
-      "ContactPhone": "820-190-9685",
-      "AssociateName": "McDermott-Langworth",
-      "AssociateId": 879,
+      "ContactCountryId": 589,
+      "ContactOrgNr": "1216339",
+      "FaxPhone": "437-100-8725",
+      "MobilePhone": "577-757-0460 x347",
+      "ContactPhone": "860.693.0035 x5671",
+      "AssociateName": "Brekke Group",
+      "AssociateId": 747,
       "UsePersonAddress": false,
-      "ContactFax": "ipsam",
-      "Kanafname": "est",
-      "Kanalname": "ducimus",
-      "Post1": "asperiores",
-      "Post2": "quod",
-      "Post3": "quo",
-      "EmailName": "nicolas_hills@pfannerstill.uk",
-      "ContactFullName": "Mrs. Olaf Leffler",
-      "ActiveErpLinks": 28,
-      "TicketPriorityId": 542,
-      "SupportLanguageId": 635,
-      "SupportAssociateId": 222,
+      "ContactFax": "ea",
+      "Kanafname": "fugiat",
+      "Kanalname": "occaecati",
+      "Post1": "qui",
+      "Post2": "nisi",
+      "Post3": "est",
+      "EmailName": "franz.kihn@heaney.ca",
+      "ContactFullName": "Timmy Hermiston",
+      "ActiveErpLinks": 74,
+      "TicketPriorityId": 386,
+      "SupportLanguageId": 959,
+      "SupportAssociateId": 611,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 881
+          "FieldLength": 673
         }
       }
     }
   ],
-  "AlertLevel": 277,
-  "ConnectId": 608,
+  "AlertLevel": 53,
+  "ConnectId": 395,
   "ReadStatus": "Green",
-  "TimeToReply": 249,
-  "RealTimeToReply": 879,
-  "TimeToClose": 732,
-  "RealTimeToClose": 422,
-  "TimeSpentInternally": 204,
-  "TimeSpentExternally": 399,
-  "TimeSpentQueue": 839,
-  "RealTimeSpentInternally": 997,
-  "RealTimeSpentExternally": 338,
-  "RealTimeSpentQueue": 90,
-  "HasAttachment": false,
-  "NumReplies": 382,
-  "NumMessages": 713,
-  "FromAddress": "quod",
+  "TimeToReply": 844,
+  "RealTimeToReply": 176,
+  "TimeToClose": 416,
+  "RealTimeToClose": 493,
+  "TimeSpentInternally": 986,
+  "TimeSpentExternally": 573,
+  "TimeSpentQueue": 250,
+  "RealTimeSpentInternally": 352,
+  "RealTimeSpentExternally": 520,
+  "RealTimeSpentQueue": 429,
+  "TimeSpent": 8,
+  "HasAttachment": true,
+  "NumReplies": 985,
+  "NumMessages": 365,
+  "FromAddress": "fuga",
   "Messages": [
     {
-      "TicketMessageId": 748,
-      "CreatedAt": "2004-01-10T03:31:27.62288+01:00",
+      "TicketMessageId": 718,
+      "CreatedAt": "1998-06-09T03:24:48.4716406+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "dicta",
-      "PersonId": 501,
-      "PersonFullName": "Roger Haley",
-      "ContactId": 938,
-      "ContactName": "Auer Group",
+      "Author": "praesentium",
+      "PersonId": 831,
+      "PersonFullName": "Laura Boyle",
+      "ContactId": 161,
+      "ContactName": "Howell Group",
       "ContactDepartment": "",
-      "NumAttachments": 13,
-      "EmailHeader": "hildegard.price@ziemebotsford.com",
+      "NumAttachments": 639,
+      "EmailHeader": "jesus_hammes@starkbernhard.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "aut",
-      "Sentiment": 802,
-      "SentimentConfidence": 735,
-      "CreatedBy": 692,
-      "ChangedAt": "2019-06-01T03:31:27.62288+02:00",
+      "Language": "consequuntur",
+      "Sentiment": 956,
+      "SentimentConfidence": 47,
+      "CreatedBy": 37,
+      "ChangedAt": "2003-12-12T03:24:48.4716406+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 392
+          "FieldType": "System.Int32",
+          "FieldLength": 593
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 154,
-      "Name": "Tillman Group",
-      "ToolTip": "Delectus sit culpa ipsam illo quidem sit.",
+      "Id": 382,
+      "Name": "Jakubowski LLC",
+      "ToolTip": "Qui voluptatem ratione quo blanditiis aperiam eligendi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 503
         }
       }
     },
     {
-      "Id": 154,
-      "Name": "Tillman Group",
-      "ToolTip": "Delectus sit culpa ipsam illo quidem sit.",
+      "Id": 382,
+      "Name": "Jakubowski LLC",
+      "ToolTip": "Qui voluptatem ratione quo blanditiis aperiam eligendi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 503
         }
       }
     }
   ],
-  "Language": "suscipit",
-  "Sentiment": 217,
-  "SentimentConfidence": 313,
-  "SuggestedCategoryId": 627,
+  "Language": "ducimus",
+  "Sentiment": 994,
+  "SentimentConfidence": 543,
+  "SuggestedCategoryId": 659,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 314,
-  "IconHint": "exercitationem",
+  "OrigHumanCategoryId": 141,
+  "IconHint": "facere",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "mollitia",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 69
     }
   }
 }

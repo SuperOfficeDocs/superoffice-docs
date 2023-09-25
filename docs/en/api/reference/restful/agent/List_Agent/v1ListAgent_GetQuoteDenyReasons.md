@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Value": "nemo",
-    "Tooltip": "dolorem",
+    "Id": 327,
+    "Value": "ipsa",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 342
       }
     }
   },
   {
-    "Id": 645,
-    "Value": "nemo",
-    "Tooltip": "dolorem",
+    "Id": 327,
+    "Value": "ipsa",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 342
       }
     }
   }

@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,51 +116,51 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Position": "omnis",
-    "PersonId": 192,
-    "Mrmrs": "fugit",
-    "Firstname": "Cayla",
-    "Lastname": "Hahn",
-    "MiddleName": "Okuneva Inc and Sons",
-    "Title": "cum",
-    "Description": "Vision-oriented transitional help-desk",
-    "Email": "candice@dubuque.us",
-    "FullName": "Mrs. Shaun Pearline Walter II",
-    "DirectPhone": "1-247-449-0778",
-    "FormalName": "Kutch, Greenholt and Windler",
-    "CountryId": 845,
-    "ContactId": 729,
-    "ContactName": "Pfannerstill-Corkery",
-    "Retired": 610,
-    "Rank": 960,
-    "ActiveInterests": 745,
+    "PersonId": 888,
+    "Mrmrs": "quasi",
+    "Firstname": "Alexandrine",
+    "Lastname": "Nitzsche",
+    "MiddleName": "Beahan Inc and Sons",
+    "Title": "ipsam",
+    "Description": "Self-enabling user-facing superstructure",
+    "Email": "bradley_weissnat@muller.biz",
+    "FullName": "Casimer Gutmann",
+    "DirectPhone": "277.640.0168 x40388",
+    "FormalName": "Tromp-Turner",
+    "CountryId": 581,
+    "ContactId": 892,
+    "ContactName": "Schimmel, Herzog and Auer",
+    "Retired": 785,
+    "Rank": 969,
+    "ActiveInterests": 856,
     "ContactDepartment": "",
-    "ContactCountryId": 685,
-    "ContactOrgNr": "1163349",
-    "FaxPhone": "511-306-2119",
-    "MobilePhone": "218-553-2560 x505",
-    "ContactPhone": "1-477-500-8375",
-    "AssociateName": "Kohler-O'Reilly",
-    "AssociateId": 791,
+    "ContactCountryId": 159,
+    "ContactOrgNr": "1184787",
+    "FaxPhone": "095.522.4242 x173",
+    "MobilePhone": "(720)248-8151",
+    "ContactPhone": "1-860-262-8385 x370",
+    "AssociateName": "Wiegand Inc and Sons",
+    "AssociateId": 621,
     "UsePersonAddress": false,
-    "ContactFax": "ut",
-    "Kanafname": "dicta",
-    "Kanalname": "asperiores",
-    "Post1": "molestiae",
-    "Post2": "molestiae",
-    "Post3": "aut",
-    "EmailName": "scotty@luettgen.com",
-    "ContactFullName": "Dr. Adonis Baron Bernier PhD",
-    "ActiveErpLinks": 871,
-    "TicketPriorityId": 623,
-    "SupportLanguageId": 852,
-    "SupportAssociateId": 774,
+    "ContactFax": "molestias",
+    "Kanafname": "repudiandae",
+    "Kanalname": "molestias",
+    "Post1": "est",
+    "Post2": "sed",
+    "Post3": "qui",
+    "EmailName": "tyree@jaskolski.ca",
+    "ContactFullName": "Russell Dicki I",
+    "ActiveErpLinks": 899,
+    "TicketPriorityId": 201,
+    "SupportLanguageId": 645,
+    "SupportAssociateId": 265,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 958
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

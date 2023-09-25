@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 313
+  "ShipmentId": 461
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2018-07-17T03:31:26.7612835+02:00",
+  "StartDate": "2002-02-17T03:24:47.9238778+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 500,
-  "ShipmentDescription": "Integrated context-sensitive emulation",
-  "FromAddress": "et",
-  "PersonId": 829,
-  "PersonFullName": "Annamarie Wiegand",
+  "ShipmentId": 820,
+  "ShipmentDescription": "User-friendly national data-warehouse",
+  "FromAddress": "officia",
+  "PersonId": 288,
+  "PersonFullName": "Steve Kuhn",
   "ShipmentType": "et",
-  "MessageId": 577,
-  "MessageSubject": "maxime",
-  "DocumentMessageId": 958,
-  "NumSent": 213,
-  "NumOpened": 236,
-  "NumBounced": 563,
-  "NumClicks": 8,
+  "MessageId": 800,
+  "MessageSubject": "dolore",
+  "DocumentMessageId": 482,
+  "NumSent": 35,
+  "NumOpened": 772,
+  "NumBounced": 954,
+  "NumClicks": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 364
     }
   }
 }

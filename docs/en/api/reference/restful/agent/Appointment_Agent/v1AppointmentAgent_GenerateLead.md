@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 101,
-  "LeadDescription": "Front-line dynamic protocol",
-  "Relation": "non",
-  "RelationId": 609,
-  "LeadContact": "sint",
-  "LeadPersonFirstname": "Zelma",
-  "LeadPersonLastname": "Mills",
-  "LeadPersonEmail": "rod@beer.co.uk",
-  "LeadPhoneNumber": "1672063",
-  "CreatorsContact": "magni",
-  "CreatorsFirstname": "Rick",
-  "CreatorsLastname": "Sauer"
+  "AssociateIdForNewContact": 111,
+  "LeadDescription": "Proactive multimedia local area network",
+  "Relation": "harum",
+  "RelationId": 162,
+  "LeadContact": "et",
+  "LeadPersonFirstname": "Damon",
+  "LeadPersonLastname": "Altenwerth",
+  "LeadPersonEmail": "mckayla@treutel.com",
+  "LeadPhoneNumber": "846692",
+  "CreatorsContact": "libero",
+  "CreatorsFirstname": "Gus",
+  "CreatorsLastname": "Waters"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 138,
-      "Name": "Kuhic Inc and Sons",
-      "OrgNr": "1465834",
+      "ContactId": 86,
+      "Name": "Stark-White",
+      "OrgNr": "685149",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "quaerat",
-      "DirectPhone": "1-315-035-9769",
-      "AssociateId": 530,
-      "CountryId": 38,
-      "EmailAddress": "tressie@stokes.name",
-      "Kananame": "provident",
-      "EmailAddressName": "dora@okunevaheathcote.us",
+      "City": "esse",
+      "DirectPhone": "(574)803-5101 x6488",
+      "AssociateId": 269,
+      "CountryId": 921,
+      "EmailAddress": "zella.gutmann@wisozk.biz",
+      "Kananame": "porro",
+      "EmailAddressName": "tre_auer@donnelly.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Stephanie Runolfsdottir",
+      "AssociateFullName": "Phyllis McGlynn",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "assumenda",
-      "FullName": "Kristofer Will",
+      "FormattedAddress": "veniam",
+      "FullName": "Mrs. Loren Marietta Heidenreich PhD",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 967,
-      "Number1": "964468",
-      "Number2": "1455560",
+      "ActiveErpLinks": 77,
+      "Number1": "1097249",
+      "Number2": "306864",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldLength": 151
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 65
     }
   }
 }

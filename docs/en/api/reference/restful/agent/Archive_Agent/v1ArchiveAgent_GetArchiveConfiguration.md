@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Durgan-Hackett",
-  "ProviderName": "Greenholt-Kirlin"
+  "GuiName": "Erdman, Bernier and Doyle",
+  "ProviderName": "Dickinson-Daniel"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Steuber, Lowe and Bashirian",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "ipsam",
+      "DisplayName": "Kutch-Schuppe",
+      "DisplayTooltip": "ut",
+      "DisplayType": "dolores",
       "CanOrderBy": false,
-      "Name": "Gleason-Lakin",
+      "Name": "Farrell, Wehner and VonRueden",
       "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Mayer, Schultz and Jacobs",
-      "IsVisible": true,
-      "ExtraInfo": "consequuntur",
-      "Width": "illo",
-      "IconHint": "rem",
-      "HeadingIconHint": "qui"
+      "RestrictionType": "ea",
+      "RestrictionListName": "Klein Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "impedit",
+      "Width": "et",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "unde"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 287,
-      "Name": "Hyatt Inc and Sons",
-      "ToolTip": "Debitis nisi est sit modi non.",
+      "Id": 185,
+      "Name": "Dickinson, Wyman and Kilback",
+      "ToolTip": "Rerum earum.",
       "Deleted": false,
-      "Rank": 576,
-      "Type": "facere",
-      "ColorBlock": 105,
-      "IconHint": "ut",
+      "Rank": 172,
+      "Type": "ad",
+      "ColorBlock": 845,
+      "IconHint": "ullam",
       "Selected": true,
-      "LastChanged": "2000-03-31T03:31:25.6027555+02:00",
+      "LastChanged": "2001-11-11T03:24:47.220828+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "qui",
+      "ExtraInfo": "optio",
+      "StyleHint": "quia",
       "Hidden": true,
-      "FullName": "Miss Aditya Rocky Lebsack",
+      "FullName": "Miss Fay Dejuan Skiles V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldType": "System.String",
+          "FieldLength": 501
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Abernathy Inc and Sons",
+      "Name": "Hirthe Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Abernathy Inc and Sons",
+      "Name": "Hirthe Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "inventore",
+  "OwnerKeys": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 672
     }
   }
 }

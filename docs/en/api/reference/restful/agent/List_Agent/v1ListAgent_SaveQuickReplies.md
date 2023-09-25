@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 920,
-      "Name": "Ernser-Gaylord",
-      "HtmlBody": "qui"
+      "QuickReplyId": 684,
+      "Name": "Murray-Cole",
+      "HtmlBody": "sunt"
     },
     {
-      "QuickReplyId": 920,
-      "Name": "Ernser-Gaylord",
-      "HtmlBody": "qui"
+      "QuickReplyId": 684,
+      "Name": "Murray-Cole",
+      "HtmlBody": "sunt"
     }
   ]
 }

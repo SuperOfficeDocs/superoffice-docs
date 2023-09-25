@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 319,
+  "UdListDefinitionId": 798,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Ernser-Schamberger",
-  "Tooltip": "ut",
+  "Id": 927,
+  "Name": "Ryan Inc and Sons",
+  "Tooltip": "blanditiis",
   "Deleted": true,
-  "UdListDefinitionId": 71,
-  "Rank": 550,
+  "UdListDefinitionId": 205,
+  "Rank": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldType": "System.Int32",
+      "FieldLength": 844
     }
   }
 }

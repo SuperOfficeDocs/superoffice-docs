@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 46,
+  "DocumentTemplateId": 102,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "eos",
-  "PluginId": 537
+  "LanguageCode": "praesentium",
+  "PluginId": 439
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Pacocha-Hickle",
-  "Description": "Enterprise-wide heuristic matrices",
-  "ExternalReference": "hic",
-  "MimeType": "error",
-  "PluginId": 116
+  "Name": "Ferry Inc and Sons",
+  "Description": "Balanced attitude-oriented service-desk",
+  "ExternalReference": "aut",
+  "MimeType": "voluptates",
+  "PluginId": 99
 }
 ```

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 420,
-    "Name": "Jewess Group",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 428,
-    "UdListDefinitionId": 933
+    "HeadingId": 811,
+    "Name": "Hettinger-Macejkovic",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 573,
+    "UdListDefinitionId": 659
   },
   {
-    "HeadingId": 420,
-    "Name": "Jewess Group",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "Rank": 428,
-    "UdListDefinitionId": 933
+    "HeadingId": 811,
+    "Name": "Hettinger-Macejkovic",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "Rank": 573,
+    "UdListDefinitionId": 659
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Cruickshank-Cummings",
-    "Tooltip": "porro",
+    "HeadingId": 888,
+    "Name": "Stoltenberg Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 97,
-    "UdListDefinitionId": 784,
+    "Rank": 731,
+    "UdListDefinitionId": 613,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 793
       }
     }
   }

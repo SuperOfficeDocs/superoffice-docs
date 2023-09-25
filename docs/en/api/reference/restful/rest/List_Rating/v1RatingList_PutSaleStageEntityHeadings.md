@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 980,
-    "Name": "Skiles, Cruickshank and Ward",
-    "Tooltip": "qui",
+    "HeadingId": 479,
+    "Name": "Veum LLC",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 110,
-    "UdListDefinitionId": 45
+    "Rank": 139,
+    "UdListDefinitionId": 748
   },
   {
-    "HeadingId": 980,
-    "Name": "Skiles, Cruickshank and Ward",
-    "Tooltip": "qui",
+    "HeadingId": 479,
+    "Name": "Veum LLC",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 110,
-    "UdListDefinitionId": 45
+    "Rank": 139,
+    "UdListDefinitionId": 748
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 976,
-    "Name": "Williamson, Ryan and Hilpert",
-    "Tooltip": "voluptatem",
+    "HeadingId": 750,
+    "Name": "Ritchie Group",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 241,
-    "UdListDefinitionId": 819,
+    "Rank": 507,
+    "UdListDefinitionId": 452,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 102
+        "FieldType": "System.Int32",
+        "FieldLength": 744
       }
     }
   }

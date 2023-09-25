@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Beier-Schuster",
-    "Tooltip": "deserunt",
-    "Deleted": true,
-    "UdListDefinitionId": 547,
-    "Rank": 265,
+    "Id": 932,
+    "Name": "Ziemann, Johns and Jewess",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "UdListDefinitionId": 544,
+    "Rank": 981,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldLength": 476
       }
     }
   }

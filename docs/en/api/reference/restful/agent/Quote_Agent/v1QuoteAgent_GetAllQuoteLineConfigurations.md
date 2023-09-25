@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 36,
-    "FieldName": "Macejkovic, Stehr and Treutel",
-    "Label": "voluptatem",
-    "Tooltip": "nobis",
-    "Editable": true,
+    "QuoteLineConfigurationId": 566,
+    "FieldName": "Adams Inc and Sons",
+    "Label": "ipsa",
+    "Tooltip": "minus",
+    "Editable": false,
     "InUse": true,
-    "Mandatory": true,
-    "Rank": 639,
+    "Mandatory": false,
+    "Rank": 242,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 312
       }
     }
   }

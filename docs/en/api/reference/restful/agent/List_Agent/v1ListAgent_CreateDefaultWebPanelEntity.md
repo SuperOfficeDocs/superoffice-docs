@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 557,
-  "Name": "Langosh Inc and Sons",
-  "Tooltip": "aliquam",
-  "Deleted": false,
-  "Rank": 688,
+  "WebPanelId": 671,
+  "Name": "Frami Inc and Sons",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 988,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Dickinson-Grady",
+  "ShowInStatusBar": false,
+  "WindowName": "Dach Group",
   "Url": "http://www.example.com/",
-  "ProgId": "velit",
-  "Icon": 274,
+  "ProgId": "saepe",
+  "Icon": 211,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   }
 }

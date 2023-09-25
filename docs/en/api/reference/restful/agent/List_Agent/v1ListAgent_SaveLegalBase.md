@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 372,
-  "Name": "Lockman Group",
-  "Tooltip": "ea",
-  "Rank": 396,
-  "Key": "dolorem",
+  "LegalBaseId": 209,
+  "Name": "Fay, Ledner and Lowe",
+  "Tooltip": "est",
+  "Rank": 849,
+  "Key": "quos",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldLength": 547
     }
   }
 }

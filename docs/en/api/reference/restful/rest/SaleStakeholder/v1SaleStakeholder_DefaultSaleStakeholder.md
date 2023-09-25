@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Graham LLC",
-  "Comment": "qui",
-  "StakeholderRoleId": 649,
-  "CountryId": 681,
-  "PersonId": 659,
-  "EmailDescription": "celestino@herman.com",
-  "EmailId": 470,
-  "EmailAddress": "bernadine.kunde@will.us",
-  "PhoneId": 281,
-  "ContactName": "Witting, Toy and Buckridge",
-  "ContactId": 95,
-  "SaleId": 655,
-  "Mrmrs": "error",
-  "Firstname": "Carol",
-  "MiddleName": "Stoltenberg-Lehner",
-  "Lastname": "Altenwerth",
-  "SaleStakeholderId": 834,
-  "Rank": 549,
-  "Phone": "248.214.2340",
+  "StakeholderRoleName": "Hilpert, Klocko and Maggio",
+  "Comment": "a",
+  "StakeholderRoleId": 563,
+  "CountryId": 828,
+  "PersonId": 10,
+  "EmailDescription": "elbert.willms@weissnat.name",
+  "EmailId": 926,
+  "EmailAddress": "faustino@zemlakruecker.com",
+  "PhoneId": 245,
+  "ContactName": "Spinka, Haley and Shanahan",
+  "ContactId": 115,
+  "SaleId": 841,
+  "Mrmrs": "quos",
+  "Firstname": "Amani",
+  "MiddleName": "Towne Group",
+  "Lastname": "Kihn",
+  "SaleStakeholderId": 801,
+  "Rank": 934,
+  "Phone": "1-772-473-0451",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 472
     }
   }
 }

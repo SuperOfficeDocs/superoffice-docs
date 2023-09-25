@@ -88,23 +88,23 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 76,
-  "Name": "Collins, Sporer and Homenick",
-  "Config": "est",
-  "Rank": 996,
-  "Client": "sed",
-  "Style": "numquam",
+  "DashboardThemeId": 119,
+  "Name": "Nikolaus-Koch",
+  "Config": "ea",
+  "Rank": 701,
+  "Client": "nihil",
+  "Style": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 148
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

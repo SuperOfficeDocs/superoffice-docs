@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 230,
-    "ColumnId": 477,
-    "FieldDefault": "sit",
-    "FieldHeight": 20,
-    "FieldLabel": "ducimus",
-    "FieldLeft": 399,
-    "FieldTop": 821,
+    "UDefFieldId": 422,
+    "ColumnId": 154,
+    "FieldDefault": "molestiae",
+    "FieldHeight": 496,
+    "FieldLabel": "ullam",
+    "FieldLeft": 976,
+    "FieldTop": 963,
     "FieldType": "Checkbox",
-    "FieldWidth": 437,
-    "FormatMask": "incidunt",
-    "HideLabel": false,
+    "FieldWidth": 224,
+    "FormatMask": "est",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 61,
-    "LabelLeft": 745,
-    "LabelTop": 618,
-    "LabelWidth": 659,
-    "LastVersionId": 274,
-    "ListTableId": 266,
+    "LabelHeight": 654,
+    "LabelLeft": 893,
+    "LabelTop": 562,
+    "LabelWidth": 71,
+    "LastVersionId": 512,
+    "ListTableId": 939,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 145,
-    "ProgId": "aspernatur",
+    "Page1LineNo": 802,
+    "ProgId": "voluptatem",
     "IsReadOnly": false,
-    "ShortLabel": "occaecati",
-    "TabOrder": 674,
-    "TextLength": 13,
-    "Tooltip": "occaecati",
-    "UdefIdentity": 682,
-    "UDListDefinitionId": 66,
+    "ShortLabel": "exercitationem",
+    "TabOrder": 128,
+    "TextLength": 746,
+    "Tooltip": "earum",
+    "UdefIdentity": 865,
+    "UDListDefinitionId": 93,
     "Justification": "Center",
-    "Version": 57,
-    "TemplateVariableName": "Welch, Jones and Balistreri",
-    "HasBeenPublished": false,
-    "MdoListName": "Labadie, Herman and Windler",
+    "Version": 551,
+    "TemplateVariableName": "Kirlin-Bernier",
+    "HasBeenPublished": true,
+    "MdoListName": "Littel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 792
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=ipsum
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=eos
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Wolff-Orn",
-    "ToolTip": "Et odio omnis.",
-    "Deleted": true,
-    "Rank": 777,
-    "Type": "numquam",
+    "Id": 222,
+    "Name": "Farrell, Bode and Leannon",
+    "ToolTip": "Magnam repellendus quibusdam ut.",
+    "Deleted": false,
+    "Rank": 69,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 165,
-        "Name": "Cronin-Thiel",
-        "ToolTip": "Ut dicta veniam quas quidem.",
-        "Deleted": false,
-        "Rank": 951,
-        "Type": "magnam",
+        "Id": 946,
+        "Name": "Reynolds-Botsford",
+        "ToolTip": "Voluptas inventore repellat neque qui assumenda.",
+        "Deleted": true,
+        "Rank": 864,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 641,
-        "ExtraInfo": "error",
-        "StyleHint": "nisi",
-        "FullName": "Dr. Imogene Bartoletti",
+        "IconHint": "vel",
+        "ColorBlock": 78,
+        "ExtraInfo": "iste",
+        "StyleHint": "consequatur",
+        "FullName": "Dion Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldLength": 529
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 30,
-    "ExtraInfo": "in",
-    "StyleHint": "nulla",
-    "FullName": "Prof. Edwin Yost",
+    "IconHint": "et",
+    "ColorBlock": 967,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "aut",
+    "FullName": "April Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 49
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Name": "Powlowski, Hyatt and O'Conner",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 70,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 405,
+  "Name": "Von Group",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 456,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Farrell, Barton and McKenzie",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 345,
-  "IsCustomList": false,
+  "Id": 558,
+  "Name": "Towne-Keeling",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "Rank": 678,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 191
     }
   }
 }

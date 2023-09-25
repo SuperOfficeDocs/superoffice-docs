@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Roberts-Gusikowski",
-    "ToolTip": "Inventore ipsum.",
-    "Deleted": false,
-    "Rank": 830,
-    "Type": "quia",
-    "ColorBlock": 293,
-    "IconHint": "facere",
-    "Selected": false,
-    "LastChanged": "2001-06-10T03:31:33.8367198+02:00",
+    "Id": 972,
+    "Name": "Erdman-Heathcote",
+    "ToolTip": "Facilis quia.",
+    "Deleted": true,
+    "Rank": 978,
+    "Type": "ut",
+    "ColorBlock": 684,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2001-05-18T03:24:52.3806958+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Marvin, Schulist and Dooley",
-        "ToolTip": "Dolorem explicabo voluptates.",
-        "Deleted": true,
-        "Rank": 142,
-        "Type": "totam",
-        "ColorBlock": 365,
-        "IconHint": "repellat",
+        "Id": 267,
+        "Name": "Fahey, Kerluke and Hettinger",
+        "ToolTip": "Ut porro alias consequatur.",
+        "Deleted": false,
+        "Rank": 655,
+        "Type": "ea",
+        "ColorBlock": 852,
+        "IconHint": "molestiae",
         "Selected": true,
-        "LastChanged": "2015-09-25T03:31:33.8367198+02:00",
+        "LastChanged": "1999-07-06T03:24:52.3806958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Mrs. Kiarra Harber",
+        "FullName": "Mr. Chyna Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 863
+            "FieldType": "System.Int32",
+            "FieldLength": 99
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "veniam",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Wyatt Swaniawski",
+    "FullName": "Mrs. Flavie Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 771
+        "FieldType": "System.Int32",
+        "FieldLength": 809
       }
     }
   }

@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 169,
-  "Name": "Hodkiewicz-Steuber",
-  "Tooltip": "vel",
-  "Rank": 990,
-  "Rate": 1776.9779999999998,
-  "Units": 3967.644,
-  "Deleted": false
+  "CurrencyId": 674,
+  "Name": "Hansen-Hagenes",
+  "Tooltip": "est",
+  "Rank": 558,
+  "Rate": 1366.424,
+  "Units": 22633.748,
+  "Deleted": true
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 765,
-  "Name": "Morissette LLC",
-  "Tooltip": "excepturi",
-  "Rank": 689,
-  "Rate": 28253.01,
-  "Units": 5528.376,
-  "Deleted": true,
+  "CurrencyId": 622,
+  "Name": "Pfannerstill-Bergstrom",
+  "Tooltip": "blanditiis",
+  "Rank": 925,
+  "Rate": 18985.772,
+  "Units": 7004.49,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 874
     }
   }
 }

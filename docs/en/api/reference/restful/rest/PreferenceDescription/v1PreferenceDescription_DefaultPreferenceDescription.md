@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 999,
-  "Section": "maxime",
-  "Key": "impedit",
-  "Name": "Swift-Bruen",
+  "PrefDescId": 410,
+  "Section": "nostrum",
+  "Key": "culpa",
+  "Name": "Mayert, Labadie and Friesen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Switchable transitional conglomeration",
+  "Description": "Operative static algorithm",
   "IsBuiltin": false,
-  "TableName": "Brown-Thompson",
-  "UserDefinedListId": 930,
-  "Rank": 875,
-  "SubGroup": "occaecati",
-  "MinLevel": 236,
-  "MaxValue": 124,
-  "MinValue": 647,
-  "RequiredLicense": "accusamus",
+  "TableName": "Muller-Corwin",
+  "UserDefinedListId": 624,
+  "Rank": 916,
+  "SubGroup": "nihil",
+  "MinLevel": 188,
+  "MaxValue": 38,
+  "MinValue": 491,
+  "RequiredLicense": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 616
     }
   }
 }

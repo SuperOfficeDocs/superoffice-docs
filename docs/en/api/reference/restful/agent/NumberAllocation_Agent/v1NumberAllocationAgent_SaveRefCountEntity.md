@@ -83,36 +83,36 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 68,
-  "Field": "harum",
-  "RecordId": 394,
+  "RefCountsId": 45,
+  "Field": "autem",
+  "RecordId": 505,
   "SuggestedRecords": [
     {
-      "Id": 728,
-      "Name": "Goyette, Dach and Feest",
-      "ToolTip": "Aliquam in.",
+      "Id": 740,
+      "Name": "Mayer, Stiedemann and Bashirian",
+      "ToolTip": "Odio et ut et quo ratione optio fugiat.",
       "Deleted": false,
-      "Rank": 244,
-      "Type": "dolores",
+      "Rank": 745,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "minima",
-      "ColorBlock": 977,
-      "ExtraInfo": "sunt",
-      "StyleHint": "nihil",
-      "FullName": "Dr. Blair VonRueden DDS"
+      "IconHint": "velit",
+      "ColorBlock": 631,
+      "ExtraInfo": "deserunt",
+      "StyleHint": "vitae",
+      "FullName": "Thaddeus Cremin"
     }
   ],
-  "CurrentValue": 838,
-  "TravelPrefix": 830,
-  "SatPrefix": 866,
-  "Allocate": false,
+  "CurrentValue": 278,
+  "TravelPrefix": 187,
+  "SatPrefix": 393,
+  "Allocate": true,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false
@@ -126,40 +126,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 367,
-  "Field": "voluptas",
-  "RecordId": 836,
+  "RefCountsId": 302,
+  "Field": "reprehenderit",
+  "RecordId": 864,
   "SuggestedRecords": [
     {
-      "Id": 662,
-      "Name": "Hettinger-O'Conner",
-      "ToolTip": "Molestiae non blanditiis laboriosam.",
-      "Deleted": true,
-      "Rank": 565,
-      "Type": "et",
+      "Id": 88,
+      "Name": "Wisozk-Schultz",
+      "ToolTip": "Nostrum voluptas et expedita veniam natus doloremque illum.",
+      "Deleted": false,
+      "Rank": 222,
+      "Type": "cum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "saepe",
-      "ColorBlock": 773,
-      "ExtraInfo": "qui",
-      "StyleHint": "sed",
-      "FullName": "Dayna Jerde I",
+      "IconHint": "aut",
+      "ColorBlock": 827,
+      "ExtraInfo": "omnis",
+      "StyleHint": "aspernatur",
+      "FullName": "Mrs. Chandler Kozey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldLength": 891
         }
       }
     }
   ],
-  "CurrentValue": 730,
-  "TravelPrefix": 68,
-  "SatPrefix": 468,
-  "Allocate": true,
+  "CurrentValue": 289,
+  "TravelPrefix": 916,
+  "SatPrefix": 154,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 701
+      "FieldLength": 85
     }
   }
 }

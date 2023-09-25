@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 681,
-  "Name": "Senger-Mertz",
-  "CurrencyId": 334,
-  "EnglishName": "Kozey, Bradtke and Eichmann",
+  "CountryId": 51,
+  "Name": "Okuneva-Bosco",
+  "CurrencyId": 307,
+  "EnglishName": "Dietrich, Barrows and Paucek",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Cross-group leading edge secured line",
-  "OrgNrText": "926987",
-  "InterAreaPrefix": "ipsum",
-  "DialInPrefix": "a",
-  "ZipPrefix": "odit",
-  "DomainName": "Brakus-Considine",
-  "AddressLayoutId": 453,
-  "DomesticAddressLayoutId": 565,
-  "ForeignAddressLayoutId": 878,
-  "Rank": 557,
-  "Tooltip": "ipsam",
+  "ImageDescription": "Inverse empowering initiative",
+  "OrgNrText": "865242",
+  "InterAreaPrefix": "expedita",
+  "DialInPrefix": "quasi",
+  "ZipPrefix": "aspernatur",
+  "DomainName": "Rogahn, Hagenes and Parker",
+  "AddressLayoutId": 866,
+  "DomesticAddressLayoutId": 336,
+  "ForeignAddressLayoutId": 105,
+  "Rank": 68,
+  "Tooltip": "omnis",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 390,
-  "Name": "Corkery-Emmerich",
-  "CurrencyId": 440,
-  "EnglishName": "Fahey-Roberts",
+  "CountryId": 459,
+  "Name": "Miller, Hermann and Strosin",
+  "CurrencyId": 126,
+  "EnglishName": "Tremblay, Gulgowski and Moen",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-centric logistical ability",
-  "OrgNrText": "1106247",
-  "InterAreaPrefix": "vel",
-  "DialInPrefix": "natus",
-  "ZipPrefix": "id",
-  "DomainName": "Kohler-Price",
-  "AddressLayoutId": 444,
-  "DomesticAddressLayoutId": 207,
-  "ForeignAddressLayoutId": 376,
-  "Rank": 972,
-  "Tooltip": "aut",
-  "Deleted": false,
+  "ImageDescription": "Monitored asynchronous implementation",
+  "OrgNrText": "191311",
+  "InterAreaPrefix": "dolores",
+  "DialInPrefix": "sint",
+  "ZipPrefix": "quo",
+  "DomainName": "Reynolds Group",
+  "AddressLayoutId": 412,
+  "DomesticAddressLayoutId": 618,
+  "ForeignAddressLayoutId": 361,
+  "Rank": 561,
+  "Tooltip": "sed",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 13
     }
   }
 }

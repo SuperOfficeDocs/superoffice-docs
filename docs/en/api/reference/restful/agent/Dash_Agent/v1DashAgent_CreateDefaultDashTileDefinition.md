@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 301,
-  "Name": "Skiles Group",
-  "Description": "Extended next generation neural-net",
-  "DefaultHeight": 752,
-  "DefaultWidth": 896,
+  "DashboardTileDefinitionId": 938,
+  "Name": "Sipes, Berge and Wisozk",
+  "Description": "Sharable motivating contingency",
+  "DefaultHeight": 432,
+  "DefaultWidth": 659,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Cruickshank, Aufderhar and Runolfsdottir",
-  "SelectionId": 700,
+  "EntityName": "Reichert-Kilback",
+  "SelectionId": 45,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "temporibus",
   "Measure": "Average",
-  "MeasureField": "aut",
-  "SortBy": "iste",
-  "LayoutConfig": "doloremque",
-  "SecondarySelectionId": 469,
-  "MeasureByField": "repellat",
+  "MeasureField": "sapiente",
+  "SortBy": "et",
+  "LayoutConfig": "eos",
+  "SecondarySelectionId": 703,
+  "MeasureByField": "omnis",
   "Usage": "Dashboard",
-  "ProviderName": "Hauck Inc and Sons",
+  "ProviderName": "Brekke, Rogahn and Brekke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 728
     }
   }
 }

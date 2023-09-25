@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 204,
-  "UniqueIdentifier": "repellat",
-  "Name": "Altenwerth Group",
-  "Description": "Advanced disintermediate productivity",
-  "IncludeId": "dolorem",
-  "HierarchyId": 736,
-  "Source": "molestiae",
-  "Registered": "2011-07-30T03:31:25.9634399+02:00",
-  "RegisteredAssociateId": 809,
-  "Updated": "2009-09-28T03:31:25.9634399+02:00",
-  "UpdatedAssociateId": 688
+  "EjscriptId": 709,
+  "UniqueIdentifier": "non",
+  "Name": "Graham, Kilback and Kuphal",
+  "Description": "Persistent mission-critical model",
+  "IncludeId": "voluptatum",
+  "HierarchyId": 145,
+  "Source": "fuga",
+  "Registered": "2000-08-09T03:24:47.4708008+02:00",
+  "RegisteredAssociateId": 555,
+  "Updated": "2010-04-13T03:24:47.4708008+02:00",
+  "UpdatedAssociateId": 21
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 40,
-  "UniqueIdentifier": "et",
-  "Name": "Lowe, Cruickshank and Gutkowski",
-  "Description": "Virtual directional frame",
-  "IncludeId": "qui",
-  "HierarchyId": 528,
-  "Source": "dignissimos",
-  "Registered": "1998-07-31T03:31:25.9634399+02:00",
-  "RegisteredAssociateId": 389,
-  "Updated": "1999-04-28T03:31:25.9634399+02:00",
-  "UpdatedAssociateId": 429,
+  "EjscriptId": 932,
+  "UniqueIdentifier": "qui",
+  "Name": "Bechtelar Inc and Sons",
+  "Description": "Managed multimedia firmware",
+  "IncludeId": "dolorem",
+  "HierarchyId": 584,
+  "Source": "quo",
+  "Registered": "2016-04-28T03:24:47.4708008+02:00",
+  "RegisteredAssociateId": 668,
+  "Updated": "2012-07-29T03:24:47.4708008+02:00",
+  "UpdatedAssociateId": 474,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 519
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

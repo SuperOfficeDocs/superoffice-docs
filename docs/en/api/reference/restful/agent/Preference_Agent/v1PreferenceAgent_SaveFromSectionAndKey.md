@@ -96,8 +96,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "omnis",
-  "Key": "dolorum",
+  "Section": "minima",
+  "Key": "possimus",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 944,
-  "Section": "qui",
-  "Key": "velit",
-  "Name": "Abshire Group",
+  "PrefDescId": 747,
+  "Section": "aperiam",
+  "Key": "dolores",
+  "Name": "Sanford, Jast and Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide local data-warehouse",
+  "Description": "Reduced composite knowledge base",
   "IsBuiltin": false,
-  "TableName": "Vandervort-Emmerich",
-  "UserDefinedListId": 350,
-  "Rank": 743,
-  "SubGroup": "quis",
-  "MinLevel": 26,
-  "MaxValue": 88,
-  "MinValue": 91,
-  "RequiredLicense": "et",
+  "TableName": "Lubowitz, Bayer and King",
+  "UserDefinedListId": 58,
+  "Rank": 476,
+  "SubGroup": "molestiae",
+  "MinLevel": 893,
+  "MaxValue": 865,
+  "MinValue": 358,
+  "RequiredLicense": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 385
     }
   }
 }

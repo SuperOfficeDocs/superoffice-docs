@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 683,
-  "Name": "Strosin, Parisian and Wyman",
-  "CurrencyId": 285,
-  "EnglishName": "Hilll LLC",
+  "CountryId": 885,
+  "Name": "Goldner-Schuster",
+  "CurrencyId": 808,
+  "EnglishName": "Oberbrunner-Harvey",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Open-source clear-thinking architecture",
-  "OrgNrText": "1619758",
-  "InterAreaPrefix": "autem",
-  "DialInPrefix": "explicabo",
-  "ZipPrefix": "quam",
-  "DomainName": "Gusikowski, Sawayn and Schuster",
-  "AddressLayoutId": 655,
-  "DomesticAddressLayoutId": 574,
-  "ForeignAddressLayoutId": 637,
-  "Rank": 574,
-  "Tooltip": "nemo",
+  "ImageDescription": "Switchable responsive functionalities",
+  "OrgNrText": "359384",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "vel",
+  "ZipPrefix": "maxime",
+  "DomainName": "Haag, Rath and Huels",
+  "AddressLayoutId": 114,
+  "DomesticAddressLayoutId": 231,
+  "ForeignAddressLayoutId": 66,
+  "Rank": 198,
+  "Tooltip": "omnis",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 641,
-  "Name": "Moore Inc and Sons",
-  "CurrencyId": 4,
-  "EnglishName": "O'Reilly-Trantow",
+  "CountryId": 330,
+  "Name": "Hahn LLC",
+  "CurrencyId": 350,
+  "EnglishName": "Will-Beer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Self-enabling exuding standardization",
-  "OrgNrText": "1245567",
+  "ImageDescription": "Sharable systemic Graphical User Interface",
+  "OrgNrText": "1482034",
   "InterAreaPrefix": "et",
-  "DialInPrefix": "cum",
-  "ZipPrefix": "qui",
-  "DomainName": "McCullough-Bartoletti",
-  "AddressLayoutId": 239,
-  "DomesticAddressLayoutId": 514,
-  "ForeignAddressLayoutId": 382,
-  "Rank": 751,
-  "Tooltip": "saepe",
-  "Deleted": false,
+  "DialInPrefix": "soluta",
+  "ZipPrefix": "aspernatur",
+  "DomainName": "Kerluke-Schimmel",
+  "AddressLayoutId": 21,
+  "DomesticAddressLayoutId": 318,
+  "ForeignAddressLayoutId": 15,
+  "Rank": 431,
+  "Tooltip": "officiis",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 847
     }
   }
 }

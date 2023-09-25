@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Hirthe, Pagac and Corkery",
-  "Tooltip": "itaque",
+  "Id": 776,
+  "Name": "Kautzer-Treutel",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 914,
-  "IsCustomList": true,
+  "Rank": 227,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 802
     }
   },
   "_Links": {

@@ -84,6 +84,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -122,21 +123,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 996,
-  "Title": "id",
-  "CreatedAt": "1999-11-02T03:31:32.9594383+01:00",
-  "LastChanged": "2016-04-03T03:31:32.9594383+02:00",
-  "ReadByOwner": "2007-11-18T03:31:32.9594383+01:00",
-  "ReadByCustomer": "2012-10-26T03:31:32.9594383+02:00",
-  "FirstReadByOwner": "2007-05-11T03:31:32.9594383+02:00",
-  "FirstReadByUser": "2004-11-12T03:31:32.9594383+01:00",
-  "Activate": "1998-08-21T03:31:32.9594383+02:00",
-  "ClosedAt": "2006-06-21T03:31:32.9594383+02:00",
-  "RepliedAt": "2009-12-27T03:31:32.9594383+01:00",
-  "AlertTimeout": "2019-05-20T03:31:32.9594383+02:00",
-  "Deadline": "2009-12-14T03:31:32.9594383+01:00",
+  "TicketId": 41,
+  "Title": "libero",
+  "CreatedAt": "2022-07-22T03:24:51.943244+02:00",
+  "LastChanged": "2019-07-21T03:24:51.943244+02:00",
+  "ReadByOwner": "2012-10-03T03:24:51.943244+02:00",
+  "ReadByCustomer": "2015-09-08T03:24:51.943244+02:00",
+  "FirstReadByOwner": "2001-03-03T03:24:51.943244+01:00",
+  "FirstReadByUser": "2019-05-21T03:24:51.943244+02:00",
+  "Activate": "2018-04-17T03:24:51.943244+02:00",
+  "ClosedAt": "2008-04-08T03:24:51.943244+02:00",
+  "RepliedAt": "1997-05-14T03:24:51.943244+02:00",
+  "AlertTimeout": "1996-11-23T03:24:51.943244+01:00",
+  "Deadline": "2017-04-24T03:24:51.943244+02:00",
   "CreatedBy": null,
-  "Author": "error",
+  "Author": "quia",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -147,160 +148,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "sed",
-      "PersonId": 338,
-      "Mrmrs": "ut",
-      "Firstname": "Lorenz",
-      "Lastname": "Cartwright",
-      "MiddleName": "Kirlin, Howe and Lebsack",
-      "Title": "sit",
-      "Description": "Switchable analyzing capacity",
-      "Email": "rae_jaskolski@bashirian.com",
-      "FullName": "Juliana Hillard West DVM",
-      "DirectPhone": "(580)944-5166",
-      "FormalName": "Ruecker Group",
-      "CountryId": 586,
-      "ContactId": 152,
-      "ContactName": "Morar Group",
-      "Retired": 339,
-      "Rank": 930,
-      "ActiveInterests": 186,
+      "Position": "animi",
+      "PersonId": 570,
+      "Mrmrs": "eum",
+      "Firstname": "Lafayette",
+      "Lastname": "Hayes",
+      "MiddleName": "Klein, Tromp and Ortiz",
+      "Title": "doloremque",
+      "Description": "Intuitive client-driven framework",
+      "Email": "anibal_toy@baumbach.biz",
+      "FullName": "Myles Ebert",
+      "DirectPhone": "845.652.5428 x445",
+      "FormalName": "Gislason, Schroeder and Brakus",
+      "CountryId": 784,
+      "ContactId": 636,
+      "ContactName": "Spencer Group",
+      "Retired": 266,
+      "Rank": 314,
+      "ActiveInterests": 503,
       "ContactDepartment": "",
       "ContactCountryId": 849,
-      "ContactOrgNr": "1208131",
-      "FaxPhone": "479-256-2792 x3723",
-      "MobilePhone": "(841)616-2316 x6588",
-      "ContactPhone": "1-553-772-0329 x3580",
-      "AssociateName": "Waters-Daniel",
-      "AssociateId": 828,
+      "ContactOrgNr": "1236161",
+      "FaxPhone": "501-403-9309 x45062",
+      "MobilePhone": "091.215.1373 x25313",
+      "ContactPhone": "1-907-378-1588",
+      "AssociateName": "Hilpert, Walter and Langworth",
+      "AssociateId": 997,
       "UsePersonAddress": false,
-      "ContactFax": "voluptas",
-      "Kanafname": "ab",
-      "Kanalname": "est",
-      "Post1": "sequi",
-      "Post2": "quis",
-      "Post3": "qui",
-      "EmailName": "macie.hansen@vandervort.biz",
-      "ContactFullName": "Prof. Ima Judah Herman",
-      "ActiveErpLinks": 17,
-      "TicketPriorityId": 809,
-      "SupportLanguageId": 673,
-      "SupportAssociateId": 258,
+      "ContactFax": "sint",
+      "Kanafname": "nulla",
+      "Kanalname": "consequatur",
+      "Post1": "maxime",
+      "Post2": "velit",
+      "Post3": "quia",
+      "EmailName": "evert.wiegand@kunze.co.uk",
+      "ContactFullName": "Ms. Sebastian Federico Thiel DVM",
+      "ActiveErpLinks": 608,
+      "TicketPriorityId": 61,
+      "SupportLanguageId": 926,
+      "SupportAssociateId": 133,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldLength": 37
         }
       }
     }
   ],
-  "AlertLevel": 896,
-  "ConnectId": 52,
+  "AlertLevel": 543,
+  "ConnectId": 941,
   "ReadStatus": "Green",
-  "TimeToReply": 303,
-  "RealTimeToReply": 330,
-  "TimeToClose": 628,
-  "RealTimeToClose": 574,
-  "TimeSpentInternally": 91,
-  "TimeSpentExternally": 47,
-  "TimeSpentQueue": 536,
-  "RealTimeSpentInternally": 49,
-  "RealTimeSpentExternally": 113,
-  "RealTimeSpentQueue": 47,
-  "HasAttachment": true,
-  "NumReplies": 674,
-  "NumMessages": 151,
-  "FromAddress": "dicta",
+  "TimeToReply": 191,
+  "RealTimeToReply": 200,
+  "TimeToClose": 60,
+  "RealTimeToClose": 137,
+  "TimeSpentInternally": 188,
+  "TimeSpentExternally": 218,
+  "TimeSpentQueue": 447,
+  "RealTimeSpentInternally": 251,
+  "RealTimeSpentExternally": 471,
+  "RealTimeSpentQueue": 620,
+  "TimeSpent": 27,
+  "HasAttachment": false,
+  "NumReplies": 170,
+  "NumMessages": 984,
+  "FromAddress": "optio",
   "Messages": [
     {
-      "TicketMessageId": 915,
-      "CreatedAt": "1999-08-29T03:31:32.9750561+02:00",
+      "TicketMessageId": 756,
+      "CreatedAt": "1999-12-31T03:24:51.943244+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "veniam",
-      "PersonId": 319,
-      "PersonFullName": "Miss Glen Kautzer",
-      "ContactId": 682,
-      "ContactName": "Konopelski-Rau",
+      "Author": "magnam",
+      "PersonId": 981,
+      "PersonFullName": "Mr. Darrel Chelsey Durgan II",
+      "ContactId": 843,
+      "ContactName": "Heidenreich LLC",
       "ContactDepartment": "",
-      "NumAttachments": 780,
-      "EmailHeader": "elmore_mertz@mccullough.co.uk",
+      "NumAttachments": 794,
+      "EmailHeader": "nellie_dickinson@beahan.ca",
       "MessageHeaders": [
         {},
         {}
       ],
       "Language": "qui",
-      "Sentiment": 494,
-      "SentimentConfidence": 99,
-      "CreatedBy": 803,
-      "ChangedAt": "2003-04-08T03:31:32.9750561+02:00",
+      "Sentiment": 535,
+      "SentimentConfidence": 147,
+      "CreatedBy": 960,
+      "ChangedAt": "2004-11-26T03:24:51.943244+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 638
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 272,
-      "Name": "Schinner Group",
-      "ToolTip": "Ea fuga.",
+      "Id": 314,
+      "Name": "Dibbert, Gottlieb and Kutch",
+      "ToolTip": "Facilis nobis dicta odio dolorum asperiores fugiat commodi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldType": "System.String",
+          "FieldLength": 725
         }
       }
     },
     {
-      "Id": 272,
-      "Name": "Schinner Group",
-      "ToolTip": "Ea fuga.",
+      "Id": 314,
+      "Name": "Dibbert, Gottlieb and Kutch",
+      "ToolTip": "Facilis nobis dicta odio dolorum asperiores fugiat commodi.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldType": "System.String",
+          "FieldLength": 725
         }
       }
     }
   ],
-  "Language": "sit",
-  "Sentiment": 141,
-  "SentimentConfidence": 785,
-  "SuggestedCategoryId": 937,
+  "Language": "odio",
+  "Sentiment": 198,
+  "SentimentConfidence": 447,
+  "SuggestedCategoryId": 890,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 350,
-  "IconHint": "libero",
+  "OrigHumanCategoryId": 368,
+  "IconHint": "vel",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "quo"
+    "CustomFields1": "esse",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 913
     }
   }
 }

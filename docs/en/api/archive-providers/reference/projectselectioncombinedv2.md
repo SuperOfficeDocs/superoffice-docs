@@ -767,7 +767,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectUrl/URLAddress,document/associate/fullName,projectMember/contactAssociate/isActiveText
+GET /api/v1/archive/ProjectSelectionCombinedV2?$select=projectEvent/eventDate,projectUdef/SuperOffice:5,NumberOfSales,LastCompletedSale,sale/registeredByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Zulauf LLC",
-  "ProviderName": "Rolfson, Jewess and Hahn",
-  "Context": "delectus"
+  "GuiName": "Huel Inc and Sons",
+  "ProviderName": "Hoppe-Cremin",
+  "Context": "ab"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Witting-Welch",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "ut",
-      "CanOrderBy": true,
-      "Name": "Buckridge-Renner",
-      "CanRestrictBy": false,
-      "RestrictionType": "itaque",
-      "RestrictionListName": "Romaguera-Maggio",
+      "DisplayName": "Gleason-Denesik",
+      "DisplayTooltip": "qui",
+      "DisplayType": "iste",
+      "CanOrderBy": false,
+      "Name": "Senger-Gleichner",
+      "CanRestrictBy": true,
+      "RestrictionType": "ullam",
+      "RestrictionListName": "Kilback, Hammes and Hudson",
       "IsVisible": false,
-      "ExtraInfo": "molestias",
-      "Width": "ut",
-      "IconHint": "quis",
-      "HeadingIconHint": "eaque"
+      "ExtraInfo": "rerum",
+      "Width": "optio",
+      "IconHint": "est",
+      "HeadingIconHint": "nihil"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 451,
-      "Name": "Blick, Littel and Reynolds",
-      "ToolTip": "Voluptates rerum.",
+      "Id": 789,
+      "Name": "Douglas, Connelly and Shields",
+      "ToolTip": "Repellat illum.",
       "Deleted": false,
-      "Rank": 493,
-      "Type": "sit",
-      "ColorBlock": 743,
-      "IconHint": "quae",
-      "Selected": false,
-      "LastChanged": "2012-09-04T03:31:25.6027555+02:00",
+      "Rank": 510,
+      "Type": "enim",
+      "ColorBlock": 351,
+      "IconHint": "itaque",
+      "Selected": true,
+      "LastChanged": "1998-06-07T03:24:47.220828+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "accusamus",
-      "Hidden": true,
-      "FullName": "Mrs. Delpha Towne I",
+      "ExtraInfo": "nihil",
+      "StyleHint": "voluptatem",
+      "Hidden": false,
+      "FullName": "Fredy Medhurst",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldType": "System.String",
+          "FieldLength": 133
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Bergstrom LLC",
+      "Name": "Flatley LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Bergstrom LLC",
+      "Name": "Flatley LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "inventore",
+  "OwnerKeys": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 440
     }
   }
 }

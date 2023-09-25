@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "McDermott, Bednar and Nikolaus"
+  "ApplicationName": "Blanda, Wiza and Feest"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 205,
-  "Name": "Volkman Inc and Sons",
-  "CreatedDate": "2018-07-19T03:31:26.6050723+02:00",
-  "UpdatedDate": "2015-08-05T03:31:26.6050723+02:00",
-  "AssociateFullName": "Louie Hudson II",
-  "CreatedBy": "est",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "excepturi",
-  "ForeignAppId": 198,
+  "ForeignDeviceId": 814,
+  "Name": "West Inc and Sons",
+  "CreatedDate": "1998-01-28T03:24:47.8301403+01:00",
+  "UpdatedDate": "1999-10-19T03:24:47.8301403+02:00",
+  "AssociateFullName": "Alessandra Ferry",
+  "CreatedBy": "tempore",
+  "UpdatedBy": "quaerat",
+  "DeviceIdentifier": "ipsam",
+  "ForeignAppId": 772,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 779
     }
   }
 }

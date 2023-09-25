@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dolores",
-  "PluginId": 837
+  "LanguageCode": "sed",
+  "PluginId": 763
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 336,
-  "Name": "Little, Maggio and Schimmel",
-  "Tooltip": "quia",
-  "SaveInDb": 813,
-  "Filename": "eum",
-  "DefaultOref": "incidunt",
+  "DocumentTemplateId": 351,
+  "Name": "Johns-Hand",
+  "Tooltip": "dolorem",
+  "SaveInDb": 116,
+  "Filename": "et",
+  "DefaultOref": "minima",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 63,
-  "IntentId": 917,
+  "AutoeventId": 930,
+  "IntentId": 21,
   "IsDefaultPublished": false,
-  "Rank": 825,
-  "LoadTemplateFromPlugin": 662,
-  "MimeType": "omnis",
+  "Rank": 340,
+  "LoadTemplateFromPlugin": 355,
+  "MimeType": "nulla",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 878,
+  "DocumentTypeKey": 104,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kole.stokes@weissnat.name",
-  "IncludeSignature": false,
+  "EmailSubject": "sophia@hoppe.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "saul_botsford@klocko.uk",
+  "SenderEmailAddress": "elta@altenwerth.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldLength": 471
     }
   }
 }

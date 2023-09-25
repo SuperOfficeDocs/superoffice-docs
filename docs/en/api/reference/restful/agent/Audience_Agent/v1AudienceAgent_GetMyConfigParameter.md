@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Stark, Hermann and Greenfelder"
+  "ParameterName": "Fadel-Schmitt"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 556,
-  "Name": "Towne, Gerlach and Casper",
-  "Value": "dolorem",
-  "CreatedDate": "2019-09-15T03:31:25.6339962+02:00",
-  "UpdatedDate": "2022-05-19T03:31:25.6339962+02:00",
+  "AudienceLayoutId": 438,
+  "Name": "Casper, Koss and McGlynn",
+  "Value": "ratione",
+  "CreatedDate": "2009-09-10T03:24:47.2364513+02:00",
+  "UpdatedDate": "2012-12-23T03:24:47.2364513+01:00",
   "CreatedBy": "consequatur",
-  "UpdatedBy": "veniam",
+  "UpdatedBy": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 954
     }
   }
 }

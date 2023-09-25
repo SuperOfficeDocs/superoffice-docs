@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    839,
-    748
+    407,
+    322
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Hoppe LLC",
-    "ToolTip": "Sequi voluptatem sapiente occaecati.",
+    "Id": 976,
+    "Name": "Block Group",
+    "ToolTip": "Consectetur sunt sunt blanditiis sapiente magni.",
     "Deleted": true,
-    "Rank": 969,
-    "Type": "id",
+    "Rank": 292,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Baumbach, O'Conner and Brekke",
-        "ToolTip": "Molestiae dolore quas deleniti sit.",
+        "Id": 758,
+        "Name": "Hudson-Crooks",
+        "ToolTip": "Dolorum alias sint distinctio.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "ut",
+        "Rank": 905,
+        "Type": "nesciunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 794,
-        "ExtraInfo": "non",
-        "StyleHint": "qui",
-        "FullName": "Mrs. Alexandro Lindgren MD",
+        "IconHint": "veniam",
+        "ColorBlock": 219,
+        "ExtraInfo": "at",
+        "StyleHint": "voluptatibus",
+        "FullName": "Amelie Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 321
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 536,
-    "ExtraInfo": "aut",
-    "StyleHint": "quis",
-    "FullName": "Cora Heathcote",
+    "IconHint": "illo",
+    "ColorBlock": 849,
+    "ExtraInfo": "quia",
+    "StyleHint": "dolore",
+    "FullName": "Ms. Dino Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 708
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 78,
-  "ERPProductKey": "atque",
-  "ERPPriceListKey": "nihil",
-  "Name": "Stokes, Wiegand and Schumm",
-  "Description": "Reverse-engineered grid-enabled definition",
-  "Code": "recusandae",
-  "PriceUnit": "voluptas",
-  "QuantityUnit": "mollitia",
+  "ProductId": 961,
+  "ERPProductKey": "alias",
+  "ERPPriceListKey": "commodi",
+  "Name": "Dickinson Group",
+  "Description": "User-friendly systematic model",
+  "Code": "quam",
+  "PriceUnit": "et",
+  "QuantityUnit": "ad",
   "IsSubscription": false,
-  "SubscriptionUnit": "eum",
-  "DefaultSubscriptionQuantity": 25908.778,
-  "ItemNumber": "1424840",
+  "SubscriptionUnit": "asperiores",
+  "DefaultSubscriptionQuantity": 8486.872,
+  "ItemNumber": "593999",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "ab",
-  "VAT": 14820.686,
-  "VATInfo": "assumenda",
-  "UnitCost": 25636.12,
-  "UnitMinimumPrice": 6615.874,
-  "UnitListPrice": 14168.814,
-  "InAssortment": false,
-  "Supplier": "fuga",
-  "SupplierCode": "doloremque",
-  "Rights": "a",
-  "Rule": "enim",
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "praesentium",
+  "VAT": 3901.83,
+  "VATInfo": "ad",
+  "UnitCost": 27472.644,
+  "UnitMinimumPrice": 18192.87,
+  "UnitListPrice": 28882.944,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "minus",
+  "Rights": "ut",
+  "Rule": "hic",
   "ExtraInfo": [
     {
-      "Name": "Metz-Schneider",
-      "Value": "voluptate",
+      "Name": "Koelpin Group",
+      "Value": "repellendus",
       "Type": "Image"
     },
     {
-      "Name": "Metz-Schneider",
-      "Value": "voluptate",
+      "Name": "Koelpin Group",
+      "Value": "repellendus",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "odit",
-  "ExtraField1": "dolorum",
-  "ExtraField2": "cum",
-  "ExtraField3": "quod",
-  "ExtraField4": "distinctio",
-  "ExtraField5": "incidunt",
-  "InStock": 24432.664
+  "RawExtraInfo": "deserunt",
+  "ExtraField1": "ipsam",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "ut",
+  "ExtraField4": "nemo",
+  "ExtraField5": "dolores",
+  "InStock": 24097.326
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "quibusdam",
-  "Name": "Beer, Nicolas and Hammes",
-  "Description": "Multi-layered interactive structure",
-  "Code": "animi",
-  "PriceUnit": "earum",
-  "QuantityUnit": "mollitia",
-  "IsSubscription": true,
-  "SubscriptionUnit": "commodi",
-  "DefaultSubscriptionQuantity": 15400.475999999999,
-  "ItemNumber": "1212992",
+  "ProductId": 356,
+  "ERPProductKey": "a",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Rice, Predovic and Hirthe",
+  "Description": "Implemented even-keeled system engine",
+  "Code": "consequatur",
+  "PriceUnit": "ut",
+  "QuantityUnit": "tempora",
+  "IsSubscription": false,
+  "SubscriptionUnit": "libero",
+  "DefaultSubscriptionQuantity": 7907.0819999999994,
+  "ItemNumber": "877501",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "mollitia",
-  "VAT": 15619.856,
-  "VATInfo": "beatae",
-  "UnitCost": 15052.601999999999,
-  "UnitMinimumPrice": 18117.654,
-  "UnitListPrice": 29888.958,
+  "ProductFamilyKey": "veniam",
+  "ProductTypeKey": "quos",
+  "VAT": 17023.888,
+  "VATInfo": "id",
+  "UnitCost": 30550.232,
+  "UnitMinimumPrice": 9414.536,
+  "UnitListPrice": 11996.952,
   "InAssortment": false,
-  "Supplier": "autem",
-  "SupplierCode": "ad",
-  "Rights": "et",
-  "Rule": "non",
+  "Supplier": "nulla",
+  "SupplierCode": "voluptates",
+  "Rights": "excepturi",
+  "Rule": "neque",
   "ExtraInfo": [
     {
-      "Name": "Reichert Group",
-      "Value": "exercitationem",
+      "Name": "Ondricka-Williamson",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     },
     {
-      "Name": "Reichert Group",
-      "Value": "exercitationem",
+      "Name": "Ondricka-Williamson",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     }
   ],
-  "RawExtraInfo": "nam",
-  "ExtraField1": "qui",
-  "ExtraField2": "facilis",
-  "ExtraField3": "vel",
-  "ExtraField4": "excepturi",
-  "ExtraField5": "magni",
-  "InStock": 20023.126,
+  "RawExtraInfo": "hic",
+  "ExtraField1": "iusto",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "accusamus",
+  "ExtraField4": "reiciendis",
+  "ExtraField5": "nostrum",
+  "InStock": 18412.25,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 292
     }
   }
 }

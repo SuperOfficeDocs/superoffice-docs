@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 210,
-  "Name": "Kozey Inc and Sons",
-  "Tooltip": "molestiae",
+  "Id": 123,
+  "Name": "Padberg Group",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 977,
-  "IsCustomList": true,
+  "Rank": 676,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": true
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Smitham-Mosciski",
-  "Tooltip": "quae",
+  "Id": 708,
+  "Name": "Christiansen-Conroy",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 927,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
+  "Rank": 367,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 526
     }
   }
 }

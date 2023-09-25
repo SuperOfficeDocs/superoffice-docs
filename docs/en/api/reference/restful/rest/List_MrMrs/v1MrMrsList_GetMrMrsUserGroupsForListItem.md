@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 804,
-    "Name": "Balistreri, Mraz and Wintheiser",
-    "ToolTip": "Quia suscipit odit aliquid laudantium.",
-    "Deleted": false,
-    "Rank": 243,
-    "Type": "earum",
-    "ColorBlock": 487,
-    "IconHint": "voluptatum",
+    "Id": 616,
+    "Name": "Nader Inc and Sons",
+    "ToolTip": "Perferendis libero nesciunt ex nihil id.",
+    "Deleted": true,
+    "Rank": 898,
+    "Type": "non",
+    "ColorBlock": 443,
+    "IconHint": "accusamus",
     "Selected": false,
-    "LastChanged": "1999-07-16T03:31:33.6479544+02:00",
+    "LastChanged": "2002-04-30T03:24:52.2713365+02:00",
     "ChildItems": [
       {
-        "Id": 170,
-        "Name": "McCullough-Langosh",
-        "ToolTip": "Sint non corrupti laboriosam.",
-        "Deleted": true,
-        "Rank": 883,
-        "Type": "et",
-        "ColorBlock": 571,
-        "IconHint": "consequuntur",
+        "Id": 504,
+        "Name": "Upton Inc and Sons",
+        "ToolTip": "Rerum magnam dolorem voluptate iusto omnis.",
+        "Deleted": false,
+        "Rank": 706,
+        "Type": "ea",
+        "ColorBlock": 720,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2017-03-24T03:31:33.6479544+01:00",
+        "LastChanged": "1998-09-26T03:24:52.2713365+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "sed",
+        "ExtraInfo": "nisi",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Ervin Feil",
+        "FullName": "Dr. Pamela Boyer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 197
+            "FieldLength": 37
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "placeat",
-    "Hidden": false,
-    "FullName": "Mrs. Jeffry Nader",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Joey Chance Bartell DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 185
       }
     }
   }

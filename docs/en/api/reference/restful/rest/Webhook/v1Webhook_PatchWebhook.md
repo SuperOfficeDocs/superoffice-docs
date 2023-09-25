@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "eligendi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "eligendi",
     "value": {}
   }
 ]
@@ -146,31 +146,31 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 516,
-  "Name": "Gusikowski Inc and Sons",
+  "WebhookId": 853,
+  "Name": "Kozey, Hudson and Rempel",
   "Events": [
-    "maxime",
-    "voluptate"
+    "animi",
+    "similique"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "aut",
+  "Secret": "eligendi",
   "State": "Active",
-  "Type": "dolor",
+  "Type": "ad",
   "Headers": {
-    "Headers1": "eveniet",
-    "Headers2": "molestiae"
+    "Headers1": "quia",
+    "Headers2": "at"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-04-22T03:31:33.4448734+02:00",
+  "Registered": "2001-09-04T03:24:52.1463474+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-01-02T03:31:33.4448734+01:00",
+  "Updated": "2018-08-08T03:24:52.1463474+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "felicita@schambergerward.co.uk",
+  "ErrorsEmail": "camden.russel@koelpin.co.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

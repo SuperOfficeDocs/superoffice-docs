@@ -57,7 +57,8 @@ OK
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -78,29 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 648,
-    "Name": "Schmitt, Hermiston and Lockman",
-    "Rank": 150,
-    "Tooltip": "id",
-    "Icon": "voluptate",
-    "DefaultTicketStatus": 345,
+    "TicketTypeId": 412,
+    "Name": "Brakus Inc and Sons",
+    "Rank": 93,
+    "Tooltip": "quidem",
+    "Icon": "accusantium",
+    "DefaultTicketStatus": 549,
     "TicketStatuses": [
-      246,
-      652
+      390,
+      262
     ],
-    "DefaultTicketPriority": 691,
+    "DefaultTicketPriority": 613,
     "TicketPriorities": [
-      299,
-      47
+      657,
+      657
     ],
-    "ReplyTemplate": 240,
+    "ReplyTemplate": 965,
     "IsExternalVisible": true,
+    "IsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldType": "System.String",
+        "FieldLength": 439
       }
     }
   }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 476,
-  "EmailAddress": "dayton.ondricka@marvin.ca",
-  "EmailTemplateId": 459,
-  "CultureLcidId": 123,
-  "Subject": "quidem"
+  "PersonId": 321,
+  "EmailAddress": "claudie_abshire@cummerata.uk",
+  "EmailTemplateId": 568,
+  "CultureLcidId": 970,
+  "Subject": "dolorum"
 }
 ```
 

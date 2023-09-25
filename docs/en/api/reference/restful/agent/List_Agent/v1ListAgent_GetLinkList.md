@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Corkery, Kovacek and Jakubowski",
-    "Id": 908,
-    "Description": "Proactive cohesive artificial intelligence",
-    "ExtraInfo": "harum",
-    "LinkId": 204,
+    "EntityName": "McClure, Nicolas and Kassulke",
+    "Id": 549,
+    "Description": "Automated mission-critical moratorium",
+    "ExtraInfo": "impedit",
+    "LinkId": 651,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 271
+        "FieldType": "System.Int32",
+        "FieldLength": 63
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 876
+  "PersonId": 274
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 984,
-  "InstanceLayout": "labore",
-  "InstanceName": "Larson, Runte and Leannon",
-  "CreatedDate": "2006-05-30T03:31:25.6339962+02:00",
-  "UpdatedDate": "1999-08-05T03:31:25.6339962+02:00",
+  "AudienceLayoutId": 178,
+  "InstanceLayout": "expedita",
+  "InstanceName": "Senger Inc and Sons",
+  "CreatedDate": "1998-04-20T03:24:47.2520803+02:00",
+  "UpdatedDate": "2010-05-31T03:24:47.2520803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 916
     }
   }
 }

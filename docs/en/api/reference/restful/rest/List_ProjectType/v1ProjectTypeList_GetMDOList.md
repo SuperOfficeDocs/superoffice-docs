@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=sit
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Mante, Spencer and Beier",
-    "ToolTip": "Optio sequi perferendis molestiae.",
+    "Id": 90,
+    "Name": "Kuphal-Waelchi",
+    "ToolTip": "Molestiae voluptatibus.",
     "Deleted": false,
-    "Rank": 164,
-    "Type": "aliquid",
+    "Rank": 723,
+    "Type": "adipisci",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Wintheiser-Bernhard",
-        "ToolTip": "Nam vitae numquam quo soluta et est.",
+        "Id": 680,
+        "Name": "Balistreri LLC",
+        "ToolTip": "Vel sit rem impedit omnis eligendi.",
         "Deleted": false,
-        "Rank": 456,
-        "Type": "et",
+        "Rank": 644,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptates",
-        "ColorBlock": 554,
-        "ExtraInfo": "magni",
-        "StyleHint": "saepe",
-        "FullName": "Tina Kunze",
+        "IconHint": "id",
+        "ColorBlock": 920,
+        "ExtraInfo": "modi",
+        "StyleHint": "velit",
+        "FullName": "Demetris Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldLength": 228
           }
         }
       }
     ],
-    "IconHint": "facilis",
-    "ColorBlock": 637,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "harum",
-    "FullName": "Arne Schuppe",
+    "IconHint": "provident",
+    "ColorBlock": 288,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "dolore",
+    "FullName": "Wilhelm Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldLength": 388
       }
     }
   }

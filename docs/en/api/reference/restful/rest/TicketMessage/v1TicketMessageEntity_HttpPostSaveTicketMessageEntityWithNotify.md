@@ -123,65 +123,65 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 374,
+  "EjMessageId": 831,
   "Ticket": null,
-  "CreatedAt": "2015-12-10T03:31:33.2249956+01:00",
+  "CreatedAt": "2008-12-06T03:24:51.9901188+01:00",
   "CreatedBy": null,
-  "Author": "repellendus",
+  "Author": "nobis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "suscipit",
-  "TimeSpent": 806,
-  "Body": "sit",
-  "HtmlBody": "odit",
-  "EmailHeader": "bradly@weimannlittel.ca",
-  "DebugInfo": "rerum",
-  "MailSorter": "possimus",
+  "MessageId": "dolores",
+  "TimeSpent": 121,
+  "Body": "natus",
+  "HtmlBody": "optio",
+  "EmailHeader": "sheridan@west.biz",
+  "DebugInfo": "aliquam",
+  "MailSorter": "numquam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "temporibus",
+  "SearchTitle": "suscipit",
   "MessageHeaders": [
     {
-      "Id": 940,
-      "Name": "Bernier, Howell and Collins",
-      "Value": "quis",
+      "Id": 848,
+      "Name": "Streich-VonRueden",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 940,
-      "Name": "Bernier, Howell and Collins",
-      "Value": "quis",
+      "Id": 848,
+      "Name": "Streich-VonRueden",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "tempora",
-  "Sentiment": 2,
-  "SentimentConfidence": 653,
+  "Language": "voluptas",
+  "Sentiment": 457,
+  "SentimentConfidence": 715,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 664,
-      "Name": "Pagac, Huel and Wunsch",
-      "ContentType": "minima",
-      "AttSize": 511,
-      "InlineImage": false,
-      "ContentId": "natus",
-      "AuthKey": "dolores"
+      "AttachmentId": 193,
+      "Name": "Crist Inc and Sons",
+      "ContentType": "voluptatem",
+      "AttSize": 933,
+      "InlineImage": true,
+      "ContentId": "velit",
+      "AuthKey": "delectus"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "cumque",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "officia"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
+    "CustomFields1": "ut",
     "CustomFields2": "et"
   }
 }
@@ -194,28 +194,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 445,
+  "EjMessageId": 308,
   "Ticket": null,
-  "CreatedAt": "2019-01-09T03:31:33.2406198+01:00",
+  "CreatedAt": "2007-04-19T03:24:52.0057419+02:00",
   "CreatedBy": null,
-  "Author": "dolor",
+  "Author": "illum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aliquam",
-  "TimeSpent": 781,
-  "Body": "inventore",
-  "HtmlBody": "aut",
-  "EmailHeader": "preston_herzog@oreillystoltenberg.co.uk",
-  "DebugInfo": "expedita",
-  "MailSorter": "accusamus",
+  "MessageId": "est",
+  "TimeSpent": 504,
+  "Body": "qui",
+  "HtmlBody": "nostrum",
+  "EmailHeader": "abigayle.upton@lind.biz",
+  "DebugInfo": "ea",
+  "MailSorter": "aliquid",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequatur",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 223,
-      "Name": "Thompson-O'Conner",
-      "Value": "et",
+      "Id": 105,
+      "Name": "Zemlak, Kuphal and Cole",
+      "Value": "at",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -223,49 +223,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 113
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "eaque",
-  "Sentiment": 443,
-  "SentimentConfidence": 303,
+  "Important": false,
+  "Language": "non",
+  "Sentiment": 159,
+  "SentimentConfidence": 620,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 350,
-      "Name": "Dickinson, Donnelly and Reilly",
-      "ContentType": "aut",
-      "AttSize": 234,
-      "InlineImage": false,
+      "AttachmentId": 644,
+      "Name": "Walker, Douglas and Parker",
+      "ContentType": "vel",
+      "AttSize": 157,
+      "InlineImage": true,
       "ContentId": "voluptatem",
-      "AuthKey": "quia",
+      "AuthKey": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 788
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "numquam",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "aut"
+    "CustomFields1": "dolor",
+    "CustomFields2": "libero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 567
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

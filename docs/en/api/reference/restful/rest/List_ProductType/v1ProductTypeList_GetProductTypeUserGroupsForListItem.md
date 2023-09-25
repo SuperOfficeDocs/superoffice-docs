@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Heidenreich, Barton and Greenfelder",
-    "ToolTip": "Animi et aperiam.",
+    "Id": 500,
+    "Name": "Purdy, Jones and Bailey",
+    "ToolTip": "Molestiae consequatur ad.",
     "Deleted": true,
-    "Rank": 927,
-    "Type": "dicta",
-    "ColorBlock": 191,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2007-03-31T03:31:33.7429875+02:00",
+    "Rank": 591,
+    "Type": "voluptatum",
+    "ColorBlock": 753,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2014-05-04T03:24:52.3338241+02:00",
     "ChildItems": [
       {
-        "Id": 525,
-        "Name": "Batz-Kassulke",
-        "ToolTip": "Modi ut.",
+        "Id": 37,
+        "Name": "Rogahn, Nitzsche and Lockman",
+        "ToolTip": "Corporis facilis doloremque iusto voluptatem molestiae incidunt aut.",
         "Deleted": false,
-        "Rank": 607,
-        "Type": "est",
-        "ColorBlock": 688,
-        "IconHint": "fugit",
+        "Rank": 554,
+        "Type": "harum",
+        "ColorBlock": 950,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2017-12-30T03:31:33.7429875+01:00",
+        "LastChanged": "2019-11-22T03:24:52.3338241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "numquam",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Zackery Huel",
+        "FullName": "Ruthie Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 944
+            "FieldType": "System.Int32",
+            "FieldLength": 405
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "vel",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Lacy Reynolds",
+    "FullName": "Miss Franz Lynch DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldLength": 191
       }
     }
   }

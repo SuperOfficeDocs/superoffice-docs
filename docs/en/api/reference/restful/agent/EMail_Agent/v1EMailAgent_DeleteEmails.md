@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    463,
-    143
+    603,
+    535
   ],
-  "MoveToFolder": "error"
+  "MoveToFolder": "nisi"
 }
 ```
 

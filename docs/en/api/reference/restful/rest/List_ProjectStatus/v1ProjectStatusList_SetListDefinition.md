@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Bogan Inc and Sons",
-  "Tooltip": "a",
+  "Id": 547,
+  "Name": "Johnson LLC",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "Rank": 746,
-  "IsCustomList": true,
+  "Rank": 622,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "Crooks-Corwin",
-  "Tooltip": "quaerat",
-  "Deleted": true,
-  "Rank": 657,
+  "Id": 573,
+  "Name": "Cassin Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 25,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "veniam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 414
     }
   }
 }

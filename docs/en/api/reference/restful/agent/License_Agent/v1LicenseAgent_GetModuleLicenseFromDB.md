@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Dare-Deckow",
-  "ModuleName": "Orn-Koss"
+  "OwnerName": "Block-Bechtelar",
+  "ModuleName": "King Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Osinski-Becker",
-  "ModuleName": "Krajcik LLC",
-  "ModuleDescription": "Focused needs-based installation",
-  "ModuleTooltip": "consequuntur",
-  "ModuleVersion": "est",
+  "OwnerName": "Wisozk, Beatty and Beatty",
+  "ModuleName": "Thompson-Ullrich",
+  "ModuleDescription": "User-centric actuating installation",
+  "ModuleTooltip": "nihil",
+  "ModuleVersion": "magni",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 630,
-  "ExtraFlags": 229,
-  "ExtraInfo": "pariatur",
-  "SortOrder": 685,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Zboncak-Berge",
-  "Signature": "nemo"
+  "NumberOfLicenses": 535,
+  "ExtraFlags": 570,
+  "ExtraInfo": "beatae",
+  "SortOrder": 193,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Hickle Group",
+  "Signature": "eos"
 }
 ```

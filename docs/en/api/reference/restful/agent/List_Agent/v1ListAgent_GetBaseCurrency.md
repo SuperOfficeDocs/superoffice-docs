@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 190,
-  "Name": "Zieme, Marquardt and Haag",
-  "Tooltip": "doloribus",
-  "Rank": 492,
-  "Rate": 28284.35,
-  "Units": 30258.77,
-  "Deleted": true,
+  "CurrencyId": 281,
+  "Name": "Block LLC",
+  "Tooltip": "molestiae",
+  "Rank": 687,
+  "Rate": 8806.5399999999991,
+  "Units": 23022.363999999998,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldLength": 266
     }
   }
 }

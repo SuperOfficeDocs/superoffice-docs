@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 104,
-  "Name": "Feest Group",
-  "Rank": 855,
-  "Tooltip": "ipsa",
+  "ResourceId": 346,
+  "Name": "Lakin LLC",
+  "Rank": 333,
+  "Tooltip": "quis",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "velit",
+  "IsLocation": true,
+  "LocationAddress": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 476
     }
   }
 }

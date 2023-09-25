@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=sit
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=saepe
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Zulauf-Zboncak",
-    "ToolTip": "Rerum doloribus est mollitia ea praesentium voluptas.",
-    "Deleted": false,
-    "Rank": 567,
-    "Type": "sapiente",
+    "Id": 260,
+    "Name": "Daugherty, Schaefer and Wunsch",
+    "ToolTip": "Deserunt laudantium velit recusandae.",
+    "Deleted": true,
+    "Rank": 156,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Ritchie, Bode and Beier",
-        "ToolTip": "Quia qui.",
+        "Id": 324,
+        "Name": "Homenick, Stokes and Haag",
+        "ToolTip": "Enim optio nesciunt totam inventore omnis eligendi.",
         "Deleted": true,
-        "Rank": 214,
-        "Type": "est",
+        "Rank": 844,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 294,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "perspiciatis",
-        "FullName": "Rebeka Monahan",
+        "IconHint": "tempora",
+        "ColorBlock": 511,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "ullam",
+        "FullName": "Dr. Kristina Dare I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 441
+            "FieldLength": 10
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 1002,
-    "ExtraInfo": "ab",
-    "StyleHint": "beatae",
-    "FullName": "Miss Franz Luettgen IV",
+    "IconHint": "aspernatur",
+    "ColorBlock": 950,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "alias",
+    "FullName": "Kendra Maurine Daugherty I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldLength": 607
       }
     }
   }

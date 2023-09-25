@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 915,
+  "ErpConnectionId": 222,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "maxime",
-    "Rank": 768,
-    "DisplayName": "Dietrich Group",
-    "DisplayDescription": "Digitized modular product",
+    "FieldKey": "velit",
+    "Rank": 572,
+    "DisplayName": "Smitham-Larson",
+    "DisplayDescription": "Exclusive mobile concept",
     "FieldType": "Checkbox",
-    "ListName": "Hilll, Buckridge and Morissette",
-    "DefaultValue": "dolorem",
-    "MaxLength": 485,
+    "ListName": "Jewess-Collins",
+    "DefaultValue": "est",
+    "MaxLength": 2,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 411
       }
     }
   }

@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Person/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Relations?$orderBy=name asc
-GET /api/v1/Person/{id}/Relations?$entities=perferendis
-GET /api/v1/Person/{id}/Relations?$top=566
-GET /api/v1/Person/{id}/Relations?$skip=366
+GET /api/v1/Person/{id}/Relations?$entities=et
+GET /api/v1/Person/{id}/Relations?$top=910
+GET /api/v1/Person/{id}/Relations?$skip=961
 GET /api/v1/Person/{id}/Relations?$mode=Full
 GET /api/v1/Person/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Relations?$context=sunt
+GET /api/v1/Person/{id}/Relations?$context=sit
 GET /api/v1/Person/{id}/Relations?$format=JSON
 GET /api/v1/Person/{id}/Relations?$jsonSafe=False
 GET /api/v1/Person/{id}/Relations?$output=Display
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "rem",
   "value": [
     {
-      "PrimaryKey": 9156,
-      "EntityName": "sale",
-      "saleId": 9156,
-      "contactId": 2394,
-      "name": "Morar LLC"
+      "PrimaryKey": 8054,
+      "EntityName": "person",
+      "personId": 8054,
+      "fullName": "Myra VonRueden"
     },
     {
-      "PrimaryKey": 1784,
-      "EntityName": "sale",
-      "saleId": 1784,
-      "contactId": 7278,
-      "name": "Jakubowski-Legros"
+      "PrimaryKey": 1081,
+      "EntityName": "person",
+      "personId": 1081,
+      "fullName": "Cheyanne Halvorson"
     }
   ]
 }

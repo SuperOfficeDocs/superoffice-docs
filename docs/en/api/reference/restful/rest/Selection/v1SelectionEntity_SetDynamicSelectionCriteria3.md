@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Will LLC",
-    "Operator": "enim",
+    "Name": "Von-Gusikowski",
+    "Operator": "quaerat",
     "Values": [
-      "ut",
-      "ut"
+      "quos",
+      "consequuntur"
     ],
     "DisplayValues": [
-      "officia",
-      "vel"
+      "consequuntur",
+      "aut"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schneider LLC",
-        "Operator": "repudiandae",
+        "Name": "Leannon, Oberbrunner and Bahringer",
+        "Operator": "labore",
         "Values": [
-          "et",
-          "ipsa"
+          "ut",
+          "sed"
         ],
         "DisplayValues": [
-          "sequi",
-          "necessitatibus"
+          "suscipit",
+          "placeat"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 251,
+        "InterParenthesis": 49,
         "InterOperator": "And",
-        "UniqueHash": 21
+        "UniqueHash": 812
       }
     ],
-    "InterParenthesis": 156,
+    "InterParenthesis": 434,
     "InterOperator": "And",
-    "UniqueHash": 695
+    "UniqueHash": 564
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jast LLC",
-    "Operator": "hic",
+    "Name": "Carter, Tromp and Emard",
+    "Operator": "aliquam",
     "Values": [
-      "earum",
-      "magni"
+      "enim",
+      "officiis"
     ],
     "DisplayValues": [
-      "tempore",
-      "laborum"
+      "rerum",
+      "eos"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Sanford, Kihn and Gutmann",
-        "Operator": "qui",
+        "Name": "Kling, Labadie and Morissette",
+        "Operator": "debitis",
         "Values": [
-          "tempora",
-          "molestiae"
+          "eius",
+          "et"
         ],
         "DisplayValues": [
-          "omnis",
-          "nostrum"
+          "sed",
+          "consequatur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 70,
         "InterOperator": "And",
-        "UniqueHash": 249
+        "UniqueHash": 825
       }
     ],
-    "InterParenthesis": 1002,
+    "InterParenthesis": 10,
     "InterOperator": "And",
-    "UniqueHash": 966
+    "UniqueHash": 448
   }
 ]
 ```

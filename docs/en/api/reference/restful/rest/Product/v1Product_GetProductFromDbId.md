@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 473,
-  "ERPProductKey": "dolore",
-  "ERPPriceListKey": "sint",
-  "Name": "Wuckert LLC",
-  "Description": "Multi-lateral optimal groupware",
-  "Code": "maxime",
-  "PriceUnit": "ad",
-  "QuantityUnit": "minus",
+  "ProductId": 95,
+  "ERPProductKey": "facilis",
+  "ERPPriceListKey": "sed",
+  "Name": "Schultz, Wilderman and Treutel",
+  "Description": "Exclusive contextually-based policy",
+  "Code": "doloremque",
+  "PriceUnit": "ratione",
+  "QuantityUnit": "enim",
   "IsSubscription": true,
-  "SubscriptionUnit": "sit",
-  "DefaultSubscriptionQuantity": 15209.302,
-  "ItemNumber": "463337",
+  "SubscriptionUnit": "nam",
+  "DefaultSubscriptionQuantity": 15663.732,
+  "ItemNumber": "857863",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nemo",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 20505.762,
-  "VATInfo": "aliquid",
-  "UnitCost": 9637.05,
-  "UnitMinimumPrice": 17337.288,
-  "UnitListPrice": 9010.25,
-  "InAssortment": false,
-  "Supplier": "saepe",
-  "SupplierCode": "aliquam",
-  "Rights": "doloremque",
-  "Rule": "perspiciatis",
+  "ProductFamilyKey": "eos",
+  "ProductTypeKey": "qui",
+  "VAT": 4663.392,
+  "VATInfo": "voluptas",
+  "UnitCost": 15942.658,
+  "UnitMinimumPrice": 29816.876,
+  "UnitListPrice": 8305.1,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "facilis",
+  "Rights": "tempore",
+  "Rule": "sunt",
   "ExtraInfo": [
     {
-      "Name": "Johnston, Considine and Stanton",
-      "Value": "quia",
+      "Name": "Kautzer-Feil",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 13
         }
       }
     },
     {
-      "Name": "Johnston, Considine and Stanton",
-      "Value": "quia",
+      "Name": "Kautzer-Feil",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 13
         }
       }
     }
   ],
-  "RawExtraInfo": "tempora",
-  "ExtraField1": "quo",
-  "ExtraField2": "iusto",
-  "ExtraField3": "praesentium",
-  "ExtraField4": "quod",
-  "ExtraField5": "aut",
-  "InStock": 28939.356,
+  "RawExtraInfo": "quae",
+  "ExtraField1": "ut",
+  "ExtraField2": "perspiciatis",
+  "ExtraField3": "consequatur",
+  "ExtraField4": "commodi",
+  "ExtraField5": "facilis",
+  "InStock": 1378.96,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 335
     }
   }
 }

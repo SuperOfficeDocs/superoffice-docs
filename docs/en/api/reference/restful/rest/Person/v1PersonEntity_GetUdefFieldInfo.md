@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 435,
-  "ColumnId": 560,
-  "FieldDefault": "voluptate",
-  "FieldHeight": 221,
-  "FieldLabel": "labore",
-  "FieldLeft": 911,
-  "FieldTop": 728,
+  "UDefFieldId": 792,
+  "ColumnId": 303,
+  "FieldDefault": "velit",
+  "FieldHeight": 71,
+  "FieldLabel": "atque",
+  "FieldLeft": 33,
+  "FieldTop": 767,
   "FieldType": "Checkbox",
-  "FieldWidth": 127,
-  "FormatMask": "quasi",
+  "FieldWidth": 119,
+  "FormatMask": "enim",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 209,
-  "LabelLeft": 964,
-  "LabelTop": 81,
-  "LabelWidth": 187,
-  "LastVersionId": 12,
-  "ListTableId": 893,
-  "IsMandatory": false,
+  "LabelHeight": 415,
+  "LabelLeft": 820,
+  "LabelTop": 901,
+  "LabelWidth": 984,
+  "LastVersionId": 13,
+  "ListTableId": 247,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 92,
-  "ProgId": "suscipit",
+  "Page1LineNo": 968,
+  "ProgId": "libero",
   "IsReadOnly": false,
-  "ShortLabel": "ullam",
-  "TabOrder": 304,
-  "TextLength": 25,
-  "Tooltip": "qui",
-  "UdefIdentity": 61,
-  "UDListDefinitionId": 13,
+  "ShortLabel": "quod",
+  "TabOrder": 563,
+  "TextLength": 536,
+  "Tooltip": "ut",
+  "UdefIdentity": 663,
+  "UDListDefinitionId": 119,
   "Justification": "Center",
-  "Version": 459,
-  "TemplateVariableName": "Stehr, Bailey and Robel",
+  "Version": 535,
+  "TemplateVariableName": "Grady-Upton",
   "HasBeenPublished": false,
-  "MdoListName": "Rowe-Hansen",
+  "MdoListName": "Yundt Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 886
     }
   }
 }

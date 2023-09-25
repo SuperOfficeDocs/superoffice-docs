@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Miller-Koch",
-    "ToolTip": "Non quidem libero voluptatem aut.",
+    "Id": 484,
+    "Name": "Rowe-Bernhard",
+    "ToolTip": "Vero maiores ullam aperiam.",
     "Deleted": true,
-    "Rank": 75,
-    "Type": "doloribus",
-    "ColorBlock": 92,
-    "IconHint": "laudantium",
+    "Rank": 204,
+    "Type": "esse",
+    "ColorBlock": 783,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "1996-09-28T03:31:33.8835899+02:00",
+    "LastChanged": "2008-11-02T03:24:52.4119449+01:00",
     "ChildItems": [
       {
-        "Id": 16,
-        "Name": "Ratke-Stamm",
-        "ToolTip": "Eum accusamus dolorem quos deserunt nobis deleniti hic.",
+        "Id": 931,
+        "Name": "Marquardt-Emard",
+        "ToolTip": "Id neque voluptatum voluptatum cumque.",
         "Deleted": false,
-        "Rank": 155,
-        "Type": "in",
-        "ColorBlock": 492,
-        "IconHint": "eveniet",
-        "Selected": true,
-        "LastChanged": "2010-01-01T03:31:33.8835899+01:00",
+        "Rank": 803,
+        "Type": "sed",
+        "ColorBlock": 376,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2006-05-31T03:24:52.4119449+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "ad",
+        "ExtraInfo": "et",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Prince Gleichner V",
+        "FullName": "Gus Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldType": "System.String",
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "incidunt",
-    "Hidden": false,
-    "FullName": "Jacinthe Armstrong",
+    "ExtraInfo": "dolor",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Anissa Denesik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 883
       }
     }
   }

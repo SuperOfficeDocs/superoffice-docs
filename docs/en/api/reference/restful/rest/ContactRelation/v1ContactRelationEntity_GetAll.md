@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Relation?$select=name,department,category/id
 GET /api/v1/Relation?$filter=name begins 'S'
 GET /api/v1/Relation?$orderBy=name asc
-GET /api/v1/Relation?$entities=veniam
-GET /api/v1/Relation?$top=898
-GET /api/v1/Relation?$skip=654
+GET /api/v1/Relation?$entities=ex
+GET /api/v1/Relation?$top=557
+GET /api/v1/Relation?$skip=81
 GET /api/v1/Relation?$mode=Full
 GET /api/v1/Relation?$options=GrandTotal=true
-GET /api/v1/Relation?$context=sapiente
+GET /api/v1/Relation?$context=quia
 GET /api/v1/Relation?$format=JSON
 GET /api/v1/Relation?$jsonSafe=False
 GET /api/v1/Relation?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "labore",
   "value": [
     {
-      "PrimaryKey": 3690,
-      "EntityName": "sale",
-      "saleId": 3690,
-      "contactId": 2498,
-      "name": "Wiza, Kuhlman and Leffler"
+      "PrimaryKey": 1293,
+      "EntityName": "person",
+      "personId": 1293,
+      "fullName": "Mrs. Jayde Ryleigh Towne IV"
     },
     {
-      "PrimaryKey": 9039,
-      "EntityName": "sale",
-      "saleId": 9039,
-      "contactId": 9139,
-      "name": "Farrell-Moore"
+      "PrimaryKey": 7135,
+      "EntityName": "person",
+      "personId": 7135,
+      "fullName": "William Nicolas"
     }
   ]
 }

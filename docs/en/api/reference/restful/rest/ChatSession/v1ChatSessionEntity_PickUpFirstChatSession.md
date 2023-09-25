@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 953,
-  "TopicId": 969,
+  "ChatSessionId": 693,
+  "TopicId": 841,
   "User": null,
   "Person": null,
-  "CustomerAlias": "enim",
-  "CustomerHost": "sit",
-  "CustomerName": "Walsh, Runolfsson and Schiller",
-  "CustomerEmail": "anne.okeefe@hegmannjones.ca",
-  "CustomerPhone": "184.179.2307 x036",
+  "CustomerAlias": "impedit",
+  "CustomerHost": "facere",
+  "CustomerName": "Herman, Kuhic and Emard",
+  "CustomerEmail": "jovany@kleinhilpert.info",
+  "CustomerPhone": "976-554-8994 x9647",
   "CustomerConsented": false,
-  "CustomerCompanyName": "D'Amore, Oberbrunner and Cummings",
+  "CustomerCompanyName": "Little-Davis",
   "Status": "Closed",
-  "FirstMessage": "non",
-  "LastMessage": "quo",
-  "WhenRequested": "1997-12-03T03:31:32.3321007+01:00",
-  "WhenStarted": "2013-02-16T03:31:32.3321007+01:00",
-  "WhenEnded": "2020-08-21T03:31:32.3321007+02:00",
-  "WhenIdle": "2015-02-27T03:31:32.3321007+01:00",
-  "WhenFetched": "2003-12-12T03:31:32.3321007+01:00",
-  "SessionKey": "reiciendis",
-  "InitialQueuePos": 520,
-  "AlertLevel": 199,
-  "Rank": 683,
+  "FirstMessage": "debitis",
+  "LastMessage": "dignissimos",
+  "WhenRequested": "2021-12-17T03:24:51.4273279+01:00",
+  "WhenStarted": "2009-07-27T03:24:51.4273279+02:00",
+  "WhenEnded": "2020-04-01T03:24:51.4273279+02:00",
+  "WhenIdle": "2005-11-13T03:24:51.4273279+01:00",
+  "WhenFetched": "2007-03-13T03:24:51.4273279+01:00",
+  "SessionKey": "debitis",
+  "InitialQueuePos": 638,
+  "AlertLevel": 339,
+  "Rank": 623,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 746,
+  "Rating": 383,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 633
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 519,
-  "AppointmentId": 256,
-  "ProjectId": 595,
-  "SaleId": 506,
+  "DocumentId": 972,
+  "AppointmentId": 589,
+  "ProjectId": 706,
+  "SaleId": 60,
   "Archived": false,
-  "ArchivedAt": "2013-05-23T03:31:26.4488627+02:00",
-  "ArchivedBy": 20,
-  "ArchivedDisplayName": "Gleichner, Price and Franecki",
+  "ArchivedAt": "2021-10-24T03:24:47.7363985+02:00",
+  "ArchivedBy": 602,
+  "ArchivedDisplayName": "Orn LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

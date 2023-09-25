@@ -78,8 +78,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kerluke-Gulgowski",
-  "Id": 666
+  "TableName": "Douglas LLC",
+  "Id": 241
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "sint",
-    "Values2": "laboriosam"
+    "Values1": "facilis",
+    "Values2": "vero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

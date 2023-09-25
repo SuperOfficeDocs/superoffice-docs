@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 509,
-  "StartTime": "2010-08-24T03:31:26.0427182+02:00",
-  "EndTime": "2001-05-01T03:31:26.0427182+02:00",
-  "Count": 638,
+  "ContactId": 910,
+  "StartTime": "2001-09-14T03:24:47.5020527+02:00",
+  "EndTime": "2012-10-15T03:24:47.5020527+02:00",
+  "Count": 445,
   "DocumentTemplateIds": [
-    158,
-    197
+    155,
+    72
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 473,
-    "Attention": "id",
-    "Header": "ullam",
-    "Name": "Kulas LLC",
-    "OurRef": "et",
-    "YourRef": "quo",
-    "Description": "Streamlined responsive hardware",
-    "DocumentTemplate": "error",
+    "DocumentId": 782,
+    "Attention": "molestias",
+    "Header": "veritatis",
+    "Name": "Wunsch-Skiles",
+    "OurRef": "doloribus",
+    "YourRef": "veritatis",
+    "Description": "Optional optimizing hardware",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 687,
-    "PersonFullName": "Nico Prohaska MD",
-    "AssociateFullName": "Mr. Richmond Kadin Sauer DVM",
-    "ContactId": 759,
-    "ContactName": "Hoppe, McGlynn and Harber",
-    "ProjectId": 355,
-    "ProjectName": "Okuneva-Goldner",
-    "AssociateId": 28,
-    "Snum": 85,
-    "SaleId": 467,
-    "SaleName": "Skiles Inc and Sons",
+    "PersonId": 673,
+    "PersonFullName": "Elza Monahan",
+    "AssociateFullName": "Andre Glover",
+    "ContactId": 727,
+    "ContactName": "Renner, Brown and Nikolaus",
+    "ProjectId": 467,
+    "ProjectName": "Lynch Group",
+    "AssociateId": 764,
+    "Snum": 37,
+    "SaleId": 387,
+    "SaleName": "Feest-Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldType": "System.String",
+        "FieldLength": 358
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Robel LLC",
-    "ToolTip": "Praesentium facere eveniet quos unde voluptates.",
-    "Deleted": true,
-    "Rank": 242,
-    "Type": "et",
-    "ColorBlock": 731,
-    "IconHint": "distinctio",
+    "Id": 67,
+    "Name": "Bruen-Glover",
+    "ToolTip": "Id sit ratione sint quia earum.",
+    "Deleted": false,
+    "Rank": 320,
+    "Type": "itaque",
+    "ColorBlock": 547,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "1996-05-15T03:31:33.5542321+02:00",
+    "LastChanged": "2021-05-09T03:24:52.2088405+02:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Spencer-Marks",
-        "ToolTip": "Ut in soluta eos saepe fuga sint.",
+        "Id": 678,
+        "Name": "Gibson Inc and Sons",
+        "ToolTip": "Amet quidem aut aut cum qui.",
         "Deleted": false,
-        "Rank": 206,
-        "Type": "cumque",
-        "ColorBlock": 902,
-        "IconHint": "sapiente",
-        "Selected": false,
-        "LastChanged": "1998-01-18T03:31:33.5542321+01:00",
+        "Rank": 447,
+        "Type": "quaerat",
+        "ColorBlock": 711,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2004-08-16T03:24:52.2088405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Ulises Wiza",
+        "ExtraInfo": "quis",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Judah Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 175
+            "FieldLength": 529
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "rem",
-    "Hidden": false,
-    "FullName": "Adolfo Watsica",
+    "ExtraInfo": "qui",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Martina Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldLength": 220
       }
     }
   }

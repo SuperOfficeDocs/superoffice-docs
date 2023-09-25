@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 794,
-  "Name": "Bode-Schmitt",
-  "Tooltip": "earum",
-  "Rank": 305,
+  "SaleTypeId": 16,
+  "Name": "Kulas, Kreiger and Romaguera",
+  "Tooltip": "consequatur",
+  "Rank": 952,
   "DurationUnit": "Century",
-  "SaleDuration": 123,
-  "SaleTypeCatId": 75,
+  "SaleDuration": 808,
+  "SaleTypeCatId": 444,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 958,
-  "QuoteLinesTemplate": 18,
-  "ConfirmationLinesTemplate": 860,
+  "DefaultQuoteValidity": 18,
+  "QuoteLinesTemplate": 671,
+  "ConfirmationLinesTemplate": 846,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 185,
-  "MinEarningPercent": 139,
-  "GroupQuoteLinesBy": 156,
-  "SortGroupLinesBy": 602,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 470,
+  "MinEarningPercent": 167,
+  "GroupQuoteLinesBy": 655,
+  "SortGroupLinesBy": 521,
   "Stages": [
     {
-      "Id": 946,
-      "Name": "Mante Inc and Sons",
-      "ToolTip": "Saepe qui quia ab recusandae optio.",
+      "Id": 210,
+      "Name": "Hyatt, Stoltenberg and McClure",
+      "ToolTip": "Nisi saepe.",
       "Deleted": false,
-      "Rank": 492,
-      "Type": "laboriosam",
-      "ColorBlock": 226,
-      "IconHint": "expedita",
-      "Selected": false,
-      "LastChanged": "2022-03-13T03:31:26.7300385+01:00",
+      "Rank": 137,
+      "Type": "esse",
+      "ColorBlock": 309,
+      "IconHint": "temporibus",
+      "Selected": true,
+      "LastChanged": "2001-02-05T03:24:47.908255+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "ipsa",
+      "ExtraInfo": "officiis",
+      "StyleHint": "natus",
       "Hidden": false,
-      "FullName": "Jovan Bins"
+      "FullName": "Mr. Estevan Titus Stanton"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 351,
-  "Name": "Pfeffer-Rohan",
-  "Tooltip": "ut",
-  "Rank": 858,
+  "SaleTypeId": 770,
+  "Name": "Kunze-Runolfsdottir",
+  "Tooltip": "qui",
+  "Rank": 889,
   "DurationUnit": "Century",
-  "SaleDuration": 220,
-  "SaleTypeCatId": 277,
+  "SaleDuration": 754,
+  "SaleTypeCatId": 231,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 51,
-  "QuoteLinesTemplate": 769,
-  "ConfirmationLinesTemplate": 669,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 866,
-  "MinEarningPercent": 905,
-  "GroupQuoteLinesBy": 715,
-  "SortGroupLinesBy": 932,
+  "DefaultQuoteValidity": 582,
+  "QuoteLinesTemplate": 840,
+  "ConfirmationLinesTemplate": 821,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 575,
+  "MinEarningPercent": 401,
+  "GroupQuoteLinesBy": 517,
+  "SortGroupLinesBy": 191,
   "Stages": [
     {
-      "Id": 121,
-      "Name": "Schumm-Beier",
-      "ToolTip": "Aut tempore fugit ipsum aut.",
+      "Id": 317,
+      "Name": "Reinger, Russel and Dickens",
+      "ToolTip": "Quos nisi et.",
       "Deleted": false,
-      "Rank": 1001,
-      "Type": "possimus",
-      "ColorBlock": 154,
-      "IconHint": "voluptates",
-      "Selected": true,
-      "LastChanged": "2018-09-29T03:31:26.7300385+02:00",
+      "Rank": 587,
+      "Type": "est",
+      "ColorBlock": 329,
+      "IconHint": "explicabo",
+      "Selected": false,
+      "LastChanged": "2015-07-11T03:24:47.908255+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "blanditiis",
-      "StyleHint": "rerum",
-      "Hidden": false,
-      "FullName": "Diego Mariane Goodwin PhD",
+      "ExtraInfo": "doloremque",
+      "StyleHint": "enim",
+      "Hidden": true,
+      "FullName": "Turner Brown",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldLength": 937
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 870
+      "FieldType": "System.Int32",
+      "FieldLength": 222
     }
   }
 }

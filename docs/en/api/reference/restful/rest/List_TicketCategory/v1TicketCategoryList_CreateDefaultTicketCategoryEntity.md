@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 168,
-  "ParentId": 326,
-  "Name": "Herman-Goodwin",
-  "Fullname": "quas",
-  "CategoryMaster": 810,
+  "TicketCategoryId": 138,
+  "ParentId": 152,
+  "Name": "Hettinger, McDermott and Robel",
+  "Fullname": "asperiores",
+  "CategoryMaster": 568,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McGlynn LLC",
+  "ExternalName": "Romaguera-Eichmann",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 419,
-  "ReplyTemplate": 618,
-  "NotificationEmail": "guillermo@smith.uk",
+  "AssignmentLag": 208,
+  "ReplyTemplate": 181,
+  "NotificationEmail": "melba.abshire@herzog.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 985,
+  "EffectiveReplyTemplateId": 251,
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "sequi"
+    "CustomFields1": "fuga",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 800
     }
   }
 }

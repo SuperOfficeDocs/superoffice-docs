@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 765,
-  "Name": "Cassin-Mueller",
-  "Rank": 543,
-  "Tooltip": "suscipit",
+  "AssociateId": 701,
+  "Name": "Gibson Group",
+  "Rank": 488,
+  "Tooltip": "necessitatibus",
   "LicenseOwners": [
     {
-      "Name": "Raynor LLC",
-      "Description": "Advanced global encoding",
+      "Name": "Kerluke Inc and Sons",
+      "Description": "Configurable value-added hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,14 +132,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 17
         }
       }
     },
     {
-      "Name": "Raynor LLC",
-      "Description": "Advanced global encoding",
+      "Name": "Kerluke Inc and Sons",
+      "Description": "Configurable value-added hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 17
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "repudiandae",
-      "Tooltip": "aut",
-      "Id": 491,
-      "Rank": 8,
+      "Value": "soluta",
+      "Tooltip": "tempore",
+      "Id": 301,
+      "Rank": 34,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 836
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2020-06-25T03:31:33.382404+02:00",
-  "Lastlogout": "2009-12-19T03:31:33.382404+01:00",
-  "EjUserId": 343,
-  "RequestSignature": "molestiae",
+  "Lastlogin": "2021-09-27T03:24:52.0994739+02:00",
+  "Lastlogout": "2017-01-15T03:24:52.0994739+01:00",
+  "EjUserId": 179,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "sapiente",
-      "DisplayValue": "dolores",
+      "Value": "ipsa",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 462
         }
       }
     },
     {
       "Type": null,
-      "Value": "sapiente",
-      "DisplayValue": "dolores",
+      "Value": "ipsa",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 462
         }
       }
     }
   ],
-  "UserName": "Jenkins, Wiza and Wisozk",
+  "UserName": "Bogan-Morar",
   "TicketCategories": [
     {
-      "Id": 111,
-      "Name": "Ankunding, Rogahn and Torp",
-      "ToolTip": "Sint non eum rerum.",
+      "Id": 661,
+      "Name": "Nicolas, Doyle and Wolff",
+      "ToolTip": "Ad voluptate ut fugiat autem aut animi odit.",
       "Deleted": false,
-      "Rank": 561,
-      "Type": "consectetur",
+      "Rank": 354,
+      "Type": "nobis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 598,
-      "ExtraInfo": "ab",
-      "StyleHint": "exercitationem",
-      "FullName": "Leta Satterfield",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
-        }
-      }
-    }
-  ],
-  "NickName": "Gutmann Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "labore"
-  },
-  "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "animi"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Ferry, Hintz and Conn",
-      "DisplayName": "Osinski, Torphy and Wuckert",
-      "Description": "Distributed bi-directional protocol",
-      "ToolTip": "Incidunt facilis voluptatibus dicta exercitationem.",
-      "Actions": "Implicit",
-      "ActionData": "expedita",
+      "IconHint": "nihil",
+      "ColorBlock": 267,
+      "ExtraInfo": "suscipit",
+      "StyleHint": "accusamus",
+      "FullName": "Prof. Everette Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 157
+        }
+      }
+    }
+  ],
+  "NickName": "Waters Group",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "voluptas"
+  },
+  "CustomFields": {
+    "CustomFields1": "dolores",
+    "CustomFields2": "non"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kirlin, Ondricka and Daugherty",
+      "DisplayName": "Ritchie, Howe and O'Kon",
+      "Description": "Stand-alone 5th generation Graphic Interface",
+      "ToolTip": "Amet veniam ut ad architecto.",
+      "Actions": "Implicit",
+      "ActionData": "qui",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 379
         }
       }
     }
@@ -274,13 +274,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 615,
-    "Name": "Hagenes Group",
-    "Description": "Seamless global matrix",
-    "DeltaJson": "illum",
+    "ConfigurableScreenDeltaId": 598,
+    "Name": "Pouros Inc and Sons",
+    "Description": "Organic scalable capability",
+    "DeltaJson": "nobis",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "tempore",
-    "UpdatedDate": "2022-10-31T03:31:25.8228647+01:00",
-    "CreatedDate": "2022-06-10T03:31:25.8228647+02:00",
+    "RecipeId": "ex",
+    "UpdatedDate": "2004-01-13T03:24:47.3614382+01:00",
+    "CreatedDate": "2018-11-11T03:24:47.3614382+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      948,
-      776
+      237,
+      614
     ],
-    "AppliesToKey": "magnam",
+    "AppliesToKey": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 406
+        "FieldLength": 280
       }
     }
   }

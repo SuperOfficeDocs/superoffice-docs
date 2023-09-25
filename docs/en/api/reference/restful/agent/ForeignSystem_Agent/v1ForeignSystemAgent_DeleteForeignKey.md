@@ -71,16 +71,16 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Davis, Dibbert and Berge",
-  "DeviceName": "O'Conner LLC",
-  "DeviceIdentifier": "vitae",
-  "TableName": "Funk, Ziemann and Nitzsche",
-  "RecordId": 628
+  "ApplicationName": "Harber Group",
+  "DeviceName": "Hamill Group",
+  "DeviceIdentifier": "sapiente",
+  "TableName": "Rodriguez Inc and Sons",
+  "RecordId": 42
 }
 ```
 

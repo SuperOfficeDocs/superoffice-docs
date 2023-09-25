@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 974,
-  "Name": "Berge-Howe",
+  "TicketPriorityId": 124,
+  "Name": "Daniel, Homenick and Borer",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 148,
+  "SortOrder": 52,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 126,
-  "MonStart": "2001-10-10T03:31:33.9316266+02:00",
-  "MonStop": "2000-11-16T03:31:33.9316266+01:00",
-  "TueStart": "2014-01-11T03:31:33.9316266+01:00",
-  "TueStop": "2000-02-17T03:31:33.9316266+01:00",
-  "WedStart": "2019-06-02T03:31:33.9316266+02:00",
-  "WedStop": "1999-05-14T03:31:33.9316266+02:00",
-  "ThuStart": "2004-04-25T03:31:33.9316266+02:00",
-  "ThuStop": "2018-09-14T03:31:33.9316266+02:00",
-  "FriStart": "2004-03-12T03:31:33.9316266+01:00",
-  "FriStop": "2008-12-05T03:31:33.9316266+01:00",
-  "SatStart": "2005-04-24T03:31:33.9316266+02:00",
-  "SatStop": "2022-08-14T03:31:33.9316266+02:00",
-  "SunStart": "2014-12-02T03:31:33.9316266+01:00",
-  "SunStop": "2019-10-15T03:31:33.9316266+02:00",
+  "Deadline": 395,
+  "MonStart": "1998-12-30T03:24:52.4431914+01:00",
+  "MonStop": "2007-03-22T03:24:52.4431914+01:00",
+  "TueStart": "2019-11-27T03:24:52.4431914+01:00",
+  "TueStop": "2020-07-06T03:24:52.4431914+02:00",
+  "WedStart": "2002-09-18T03:24:52.4431914+02:00",
+  "WedStop": "1996-11-17T03:24:52.4431914+01:00",
+  "ThuStart": "2000-08-18T03:24:52.4431914+02:00",
+  "ThuStop": "2017-11-14T03:24:52.4431914+01:00",
+  "FriStart": "2006-03-27T03:24:52.4431914+02:00",
+  "FriStop": "2012-12-06T03:24:52.4431914+01:00",
+  "SatStart": "1998-09-21T03:24:52.4431914+02:00",
+  "SatStop": "2006-01-19T03:24:52.4431914+01:00",
+  "SunStart": "2000-12-20T03:24:52.4431914+01:00",
+  "SunStop": "2009-05-26T03:24:52.4431914+02:00",
   "NonDates": [
-    "numquam",
-    "quas"
+    "non",
+    "voluptatum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 372,
-      "AlertLevel": 784,
-      "AlertTimeout": 4,
-      "Action": 356,
-      "DelegateTo": 893,
-      "ScriptId": 557,
-      "EmailTo": "kaela@brown.us",
-      "SmsTo": "quidem",
-      "ReplyTemplateIdCustomer": 504,
-      "ReplyTemplateIdUser": 675,
-      "ReplyTemplateIdCatmast": 312,
-      "ReplyTemplateIdEmail": 119,
-      "RtiCustomerSms": 671,
-      "ReplyTemplateIdUserSms": 414,
-      "ReplyTemplateIdCatmastSms": 965,
-      "ReplyTemplateIdSms": 972,
+      "TicketAlertId": 898,
+      "AlertLevel": 102,
+      "AlertTimeout": 8,
+      "Action": 618,
+      "DelegateTo": 630,
+      "ScriptId": 588,
+      "EmailTo": "johnpaul.stoltenberg@brakus.ca",
+      "SmsTo": "consequatur",
+      "ReplyTemplateIdCustomer": 973,
+      "ReplyTemplateIdUser": 438,
+      "ReplyTemplateIdCatmast": 203,
+      "ReplyTemplateIdEmail": 49,
+      "RtiCustomerSms": 192,
+      "ReplyTemplateIdUserSms": 544,
+      "ReplyTemplateIdCatmastSms": 792,
+      "ReplyTemplateIdSms": 168,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldType": "System.Int32",
+          "FieldLength": 330
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 501
     }
   }
 }

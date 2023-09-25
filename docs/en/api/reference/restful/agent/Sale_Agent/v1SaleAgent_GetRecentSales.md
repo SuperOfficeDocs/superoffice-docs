@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 393,
-  "Count": 500
+  "AmountLimit": 636,
+  "Count": 351
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "O'Reilly Inc and Sons",
-    "SaleDate": "2003-07-21T03:31:27.1999504+02:00",
-    "SaleId": 545,
-    "Probability": 689,
-    "Title": "inventore",
-    "Amount": 2792.394,
-    "Currency": "vero",
-    "ProjectName": "Bahringer-Gusikowski",
-    "AssociateFullName": "Jaylan Parisian",
-    "Description": "Customizable zero tolerance orchestration",
+    "ContactName": "Cormier, Mayert and Johns",
+    "SaleDate": "2005-02-03T03:24:48.2207231+01:00",
+    "SaleId": 66,
+    "Probability": 190,
+    "Title": "fugit",
+    "Amount": 24915.3,
+    "Currency": "eligendi",
+    "ProjectName": "Lockman LLC",
+    "AssociateFullName": "Prof. Carolyne Graham Sr.",
+    "Description": "Reactive tangible secured line",
     "Status": "Lost",
-    "WeightedAmount": 29910.896,
-    "ProjectId": 743,
-    "EarningPercent": 16688.55,
-    "Earning": 19813.148,
-    "ContactId": 885,
-    "AssociateId": 168,
-    "PersonId": 397,
-    "SaleTypeId": 433,
-    "SaleTypeName": "Borer-Parker",
-    "PersonFullName": "Aylin Ziemann",
+    "WeightedAmount": 28701.172,
+    "ProjectId": 103,
+    "EarningPercent": 952.736,
+    "Earning": 16024.142,
+    "ContactId": 707,
+    "AssociateId": 781,
+    "PersonId": 569,
+    "SaleTypeId": 353,
+    "SaleTypeName": "Littel-Trantow",
+    "PersonFullName": "Cleveland Lind",
     "Completed": "Completed",
-    "ActiveErpLinks": 301,
-    "NextDueDate": "2023-03-16T03:31:27.1999504+01:00",
-    "Number": "254358",
+    "ActiveErpLinks": 543,
+    "NextDueDate": "2012-07-21T03:24:48.2207231+02:00",
+    "Number": "1399304",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldLength": 306
       }
     }
   }

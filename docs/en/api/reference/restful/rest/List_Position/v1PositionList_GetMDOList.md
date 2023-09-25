@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=at
+GET /api/v1/List/Position/MDOItems?query=cumque
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Pollich-Hudson",
-    "ToolTip": "Deserunt ratione ex sit temporibus.",
-    "Deleted": true,
-    "Rank": 331,
-    "Type": "explicabo",
+    "Id": 312,
+    "Name": "Wiegand, Pacocha and Blick",
+    "ToolTip": "Placeat temporibus temporibus.",
+    "Deleted": false,
+    "Rank": 711,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Jewess, Cole and Bergstrom",
-        "ToolTip": "Hic commodi dolorem rem.",
-        "Deleted": true,
-        "Rank": 658,
-        "Type": "magnam",
+        "Id": 130,
+        "Name": "Marks, Howell and Lehner",
+        "ToolTip": "Excepturi sed.",
+        "Deleted": false,
+        "Rank": 66,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maxime",
-        "ColorBlock": 392,
-        "ExtraInfo": "qui",
-        "StyleHint": "molestiae",
-        "FullName": "Americo Lebsack",
+        "IconHint": "dolorem",
+        "ColorBlock": 51,
+        "ExtraInfo": "quia",
+        "StyleHint": "illo",
+        "FullName": "Darrell Daniel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldLength": 888
           }
         }
       }
     ],
-    "IconHint": "atque",
-    "ColorBlock": 927,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "tempore",
-    "FullName": "Elbert Rodriguez",
+    "IconHint": "voluptates",
+    "ColorBlock": 327,
+    "ExtraInfo": "corporis",
+    "StyleHint": "dicta",
+    "FullName": "Ms. Ed Kemmer IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldType": "System.Int32",
+        "FieldLength": 349
       }
     }
   }

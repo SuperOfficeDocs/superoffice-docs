@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Kutch LLC",
-      "DisplayName": "Lesch Inc and Sons",
-      "DisplayTooltip": "totam",
+      "Name": "McDermott Group",
+      "DisplayName": "Volkman Inc and Sons",
+      "DisplayTooltip": "non",
       "IsActive": false
     },
     {
-      "Name": "Kutch LLC",
-      "DisplayName": "Lesch Inc and Sons",
-      "DisplayTooltip": "totam",
+      "Name": "McDermott Group",
+      "DisplayName": "Volkman Inc and Sons",
+      "DisplayTooltip": "non",
       "IsActive": false
     }
   ]

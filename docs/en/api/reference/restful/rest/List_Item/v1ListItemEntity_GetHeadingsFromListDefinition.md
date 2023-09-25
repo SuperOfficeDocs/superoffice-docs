@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 62,
-    "Name": "Erdman-Flatley",
-    "Tooltip": "repellat",
-    "Deleted": false,
-    "Rank": 10,
-    "UdListDefinitionId": 254,
+    "HeadingId": 46,
+    "Name": "Wuckert, Keebler and Muller",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 688,
+    "UdListDefinitionId": 673,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

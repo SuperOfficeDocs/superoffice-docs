@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 954
+  "SuggestedDocumentId": 160
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 186,
+  "DocumentId": 550,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ex",
-  "Header": "error",
-  "Name": "Harris, Zemlak and Keebler",
-  "OurRef": "incidunt",
-  "YourRef": "numquam",
-  "CreatedDate": "2015-07-22T03:31:26.16768+02:00",
-  "UpdatedDate": "2000-11-28T03:31:26.16768+01:00",
-  "Description": "Ergonomic web-enabled hub",
+  "Attention": "officia",
+  "Header": "eligendi",
+  "Name": "Frami-Kilback",
+  "OurRef": "esse",
+  "YourRef": "perspiciatis",
+  "CreatedDate": "2008-08-20T03:24:47.6895288+02:00",
+  "UpdatedDate": "2021-04-10T03:24:47.6895288+02:00",
+  "Description": "Front-line client-server extranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-11-06T03:31:26.16768+01:00",
-  "ExternalRef": "aspernatur",
+  "Date": "2001-09-13T03:24:47.6895288+02:00",
+  "ExternalRef": "mollitia",
   "Completed": "Completed",
-  "ActiveLinks": 664,
+  "ActiveLinks": 108,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kuvalis-Gerlach",
-      "Id": 488,
-      "Description": "Secured responsive monitoring",
-      "ExtraInfo": "atque",
-      "LinkId": 884,
+      "EntityName": "Leuschke-Johnson",
+      "Id": 241,
+      "Description": "Multi-tiered methodical software",
+      "ExtraInfo": "sit",
+      "LinkId": 890,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldLength": 140
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 910,
-  "Snum": 827,
+  "SuggestedDocumentId": 999,
+  "Snum": 42,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lemuel Kunde I",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1141311539",
+    "SuperOffice:2": "110817467"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "non",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "eaque"
+    "CustomFields1": "quos",
+    "CustomFields2": "praesentium"
   },
-  "PublishEventDate": "1996-08-25T03:31:26.16768+02:00",
-  "PublishTo": "2016-02-01T03:31:26.16768+01:00",
-  "PublishFrom": "2005-02-10T03:31:26.16768+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-04-13T03:24:47.6895288+02:00",
+  "PublishTo": "2020-10-08T03:24:47.6895288+02:00",
+  "PublishFrom": "1998-01-12T03:24:47.6895288+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 34,
+      "VisibleId": 901,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldLength": 556
         }
       }
     },
     {
-      "VisibleId": 34,
+      "VisibleId": 901,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldLength": 556
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

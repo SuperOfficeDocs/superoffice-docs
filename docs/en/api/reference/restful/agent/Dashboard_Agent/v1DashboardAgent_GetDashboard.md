@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=494
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=455
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 998,
-  "AssociateId": 191,
-  "Caption": "quia",
+  "DashboardId": 933,
+  "AssociateId": 399,
+  "Caption": "repudiandae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 174,
-      "Caption": "eaque",
-      "Description": "Upgradable exuding orchestration",
-      "ChartName": "Wolff Group",
-      "ChartId": "fugit",
+      "DashboardTileId": 442,
+      "Caption": "esse",
+      "Description": "Organic foreground budgetary management",
+      "ChartName": "Keebler, Beer and Schimmel",
+      "ChartId": "similique",
       "IsDefault": false,
-      "AssociateId": 605,
-      "GroupId": 41,
-      "SelectionId": 786,
-      "Config": "sint",
+      "AssociateId": 387,
+      "GroupId": 972,
+      "SelectionId": 990,
+      "Config": "voluptatem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 951
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 746
     }
   }
 }

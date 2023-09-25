@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 354,
-  "Name": "Bashirian LLC",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "UdListDefinitionId": 656,
-  "Rank": 504,
+  "Id": 842,
+  "Name": "Gerlach-Johnson",
+  "Tooltip": "est",
+  "Deleted": true,
+  "UdListDefinitionId": 89,
+  "Rank": 947,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 830
     }
   }
 }

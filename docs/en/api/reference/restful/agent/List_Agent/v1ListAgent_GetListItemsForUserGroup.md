@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 373,
-  "GroupId": 920
+  "UdListDefinitionId": 596,
+  "GroupId": 126
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Rolfson Inc and Sons",
-    "ToolTip": "Reiciendis porro doloribus pariatur porro est voluptatibus ea.",
-    "Deleted": true,
-    "Rank": 51,
-    "Type": "dolores",
-    "ColorBlock": 579,
-    "IconHint": "dicta",
-    "Selected": false,
-    "LastChanged": "2023-02-25T03:31:26.6675558+01:00",
+    "Id": 828,
+    "Name": "Nitzsche, Collier and Erdman",
+    "ToolTip": "Soluta aut voluptatem autem distinctio.",
+    "Deleted": false,
+    "Rank": 373,
+    "Type": "ab",
+    "ColorBlock": 411,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "1997-02-08T03:24:47.8613878+01:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Osinski-Kuhlman",
-        "ToolTip": "Eos quia et sapiente.",
+        "Id": 625,
+        "Name": "Kreiger, Steuber and Franecki",
+        "ToolTip": "Sunt ab et perspiciatis.",
         "Deleted": false,
-        "Rank": 233,
-        "Type": "voluptates",
-        "ColorBlock": 877,
-        "IconHint": "adipisci",
+        "Rank": 810,
+        "Type": "placeat",
+        "ColorBlock": 706,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "1997-03-20T03:31:26.6675558+01:00",
+        "LastChanged": "2008-05-11T03:24:47.8613878+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Miss Wade Yasmeen Baumbach",
+        "ExtraInfo": "facilis",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Jensen Marjory Bechtelar PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 846
+            "FieldType": "System.String",
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "a",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Dejuan Padberg",
+    "FullName": "Prof. Wilbert Gene Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldType": "System.String",
+        "FieldLength": 494
       }
     }
   }

@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 872,
-  "LanguageId": 883,
-  "PersonId": 618,
-  "TicketId": 985
+  "ReplyTemplateId": 836,
+  "LanguageId": 906,
+  "PersonId": 765,
+  "TicketId": 112
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 751,
-  "PlainParsed": "incidunt",
-  "HtmlParsed": "perspiciatis",
+  "ReplyTemplateId": 768,
+  "PlainParsed": "adipisci",
+  "HtmlParsed": "tenetur",
   "Attachments": [
     {
-      "AttachmentId": 578,
-      "Name": "Jones, McKenzie and Sporer",
-      "ContentType": "quaerat",
-      "AttSize": 589,
-      "InlineImage": true,
-      "ContentId": "animi",
-      "AuthKey": "nesciunt",
+      "AttachmentId": 880,
+      "Name": "Gutmann-Harvey",
+      "ContentType": "quis",
+      "AttSize": 924,
+      "InlineImage": false,
+      "ContentId": "eveniet",
+      "AuthKey": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 452
+          "FieldType": "System.Int32",
+          "FieldLength": 65
         }
       }
     }
   ],
-  "Subject": "quod",
+  "Subject": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 313
     }
   }
 }

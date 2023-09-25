@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 526,
-  "PlainMessage": "vero",
-  "HtmlMessage": "qui",
-  "SmsMessage": "quo",
-  "Description": "Cross-platform needs-based infrastructure",
-  "Subject": "deserunt",
-  "FolderId": 847,
-  "HeaderField": "minima",
-  "Design": "vitae",
+  "ShipmentMessageId": 143,
+  "PlainMessage": "expedita",
+  "HtmlMessage": "enim",
+  "SmsMessage": "eligendi",
+  "Description": "Right-sized radical data-warehouse",
+  "Subject": "eveniet",
+  "FolderId": 155,
+  "HeaderField": "magnam",
+  "Design": "fugiat",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Vision-oriented real-time moderator",
-  "AccessKey": "aut",
-  "DocumentMessage": 104,
-  "Registered": "1997-08-19T03:31:32.9594383+02:00",
-  "RegisteredAssociateId": 883,
-  "Updated": "2005-03-29T03:31:32.9594383+02:00",
-  "UpdatedAssociateId": 456,
-  "UpdatedCount": 958
+  "InlineImages": false,
+  "LongDescription": "Innovative coherent capability",
+  "AccessKey": "tempora",
+  "DocumentMessage": 207,
+  "Registered": "2009-03-18T03:24:51.927622+01:00",
+  "RegisteredAssociateId": 32,
+  "Updated": "2000-07-01T03:24:51.927622+02:00",
+  "UpdatedAssociateId": 810,
+  "UpdatedCount": 582
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 393,
-  "PlainMessage": "doloremque",
-  "HtmlMessage": "recusandae",
+  "ShipmentMessageId": 593,
+  "PlainMessage": "veritatis",
+  "HtmlMessage": "aspernatur",
   "SmsMessage": "harum",
-  "Description": "User-friendly composite circuit",
-  "Subject": "corrupti",
-  "FolderId": 484,
-  "HeaderField": "quis",
-  "Design": "quaerat",
+  "Description": "Object-based systematic attitude",
+  "Subject": "occaecati",
+  "FolderId": 519,
+  "HeaderField": "voluptas",
+  "Design": "sit",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Persevering zero tolerance benchmark",
-  "AccessKey": "ea",
-  "DocumentMessage": 869,
-  "Registered": "1998-05-26T03:31:32.9594383+02:00",
-  "RegisteredAssociateId": 797,
-  "Updated": "2004-08-07T03:31:32.9594383+02:00",
-  "UpdatedAssociateId": 540,
-  "UpdatedCount": 238,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Customizable encompassing infrastructure",
+  "AccessKey": "officiis",
+  "DocumentMessage": 604,
+  "Registered": "2018-06-28T03:24:51.927622+02:00",
+  "RegisteredAssociateId": 1001,
+  "Updated": "2013-01-03T03:24:51.927622+01:00",
+  "UpdatedAssociateId": 516,
+  "UpdatedCount": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldLength": 93
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

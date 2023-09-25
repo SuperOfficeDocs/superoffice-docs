@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 418,
-  "Name": "Kub, Bernier and Dibbert",
-  "CreatedDate": "2005-09-20T03:31:26.5738289+02:00",
-  "UpdatedDate": "1998-02-27T03:31:26.5738289+01:00",
+  "ForeignAppId": 331,
+  "Name": "Nader, Conroy and Hagenes",
+  "CreatedDate": "2011-05-21T03:24:47.8145137+02:00",
+  "UpdatedDate": "2023-07-04T03:24:47.8145137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 75,
-      "Name": "Kihn-Fisher",
-      "CreatedDate": "2003-06-07T03:31:26.589451+02:00",
-      "UpdatedDate": "2010-09-04T03:31:26.589451+02:00",
-      "AssociateFullName": "Dr. Jesus Jeromy Herman Sr.",
-      "CreatedBy": "et",
-      "UpdatedBy": "beatae",
-      "DeviceIdentifier": "modi",
-      "ForeignAppId": 288
+      "ForeignDeviceId": 494,
+      "Name": "Yundt Group",
+      "CreatedDate": "1997-02-02T03:24:47.8145137+01:00",
+      "UpdatedDate": "2012-09-21T03:24:47.8145137+02:00",
+      "AssociateFullName": "Erich Parker",
+      "CreatedBy": "assumenda",
+      "UpdatedBy": "accusamus",
+      "DeviceIdentifier": "molestiae",
+      "ForeignAppId": 285
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 590,
-  "Name": "Herzog-Carroll",
-  "CreatedDate": "2023-02-03T03:31:26.589451+01:00",
-  "UpdatedDate": "2003-04-10T03:31:26.589451+02:00",
+  "ForeignAppId": 6,
+  "Name": "Rolfson Group",
+  "CreatedDate": "2012-04-03T03:24:47.8145137+02:00",
+  "UpdatedDate": "1996-06-12T03:24:47.8145137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 9,
-      "Name": "Wilkinson LLC",
-      "CreatedDate": "2018-08-30T03:31:26.589451+02:00",
-      "UpdatedDate": "2022-11-08T03:31:26.589451+01:00",
-      "AssociateFullName": "Ms. Watson Jose Kemmer",
-      "CreatedBy": "ipsa",
-      "UpdatedBy": "exercitationem",
-      "DeviceIdentifier": "sit",
-      "ForeignAppId": 481,
+      "ForeignDeviceId": 928,
+      "Name": "Predovic, Cummerata and Pouros",
+      "CreatedDate": "2016-05-09T03:24:47.8145137+02:00",
+      "UpdatedDate": "2000-02-09T03:24:47.8145137+01:00",
+      "AssociateFullName": "Alice Schultz",
+      "CreatedBy": "autem",
+      "UpdatedBy": "quos",
+      "DeviceIdentifier": "fugit",
+      "ForeignAppId": 163,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 648
     }
   }
 }

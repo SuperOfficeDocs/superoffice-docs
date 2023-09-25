@@ -42,17 +42,17 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:TicketEntity xsi:type="Ticket:TicketEntity">
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-     <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:CreatedAt>
-     <Ticket:LastChanged xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:LastChanged>
-     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ReadByOwner>
-     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ReadByCustomer>
-     <Ticket:FirstReadByOwner xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FirstReadByOwner>
-     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FirstReadByUser>
-     <Ticket:Activate xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:Activate>
-     <Ticket:ClosedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ClosedAt>
-     <Ticket:RepliedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:RepliedAt>
-     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:AlertTimeout>
-     <Ticket:Deadline xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:Deadline>
+     <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:CreatedAt>
+     <Ticket:LastChanged xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:LastChanged>
+     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ReadByOwner>
+     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ReadByCustomer>
+     <Ticket:FirstReadByOwner xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FirstReadByOwner>
+     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FirstReadByUser>
+     <Ticket:Activate xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:Activate>
+     <Ticket:ClosedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ClosedAt>
+     <Ticket:RepliedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:RepliedAt>
+     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:AlertTimeout>
+     <Ticket:Deadline xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:Deadline>
      <Ticket:CreatedBy xsi:type="Ticket:Associate">
       <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
       <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
@@ -142,22 +142,22 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Ticket:TicketChangedPriority xsi:type="Ticket:TicketPriorityEscalateEvent">None</Ticket:TicketChangedPriority>
       <Ticket:TicketNew xsi:type="Ticket:TicketPriorityEscalateEvent">None</Ticket:TicketNew>
       <Ticket:Deadline xsi:type="xsd:int">0</Ticket:Deadline>
-      <Ticket:MonStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:MonStart>
-      <Ticket:MonStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:MonStop>
-      <Ticket:TueStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:TueStart>
-      <Ticket:TueStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:TueStop>
-      <Ticket:WedStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:WedStart>
-      <Ticket:WedStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:WedStop>
-      <Ticket:ThuStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ThuStart>
-      <Ticket:ThuStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ThuStop>
-      <Ticket:FriStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FriStart>
-      <Ticket:FriStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FriStop>
-      <Ticket:SatStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SatStart>
-      <Ticket:SatStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SatStop>
-      <Ticket:SunStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SunStart>
-      <Ticket:SunStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SunStop>
+      <Ticket:MonStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:MonStart>
+      <Ticket:MonStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:MonStop>
+      <Ticket:TueStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:TueStart>
+      <Ticket:TueStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:TueStop>
+      <Ticket:WedStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:WedStart>
+      <Ticket:WedStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:WedStop>
+      <Ticket:ThuStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ThuStart>
+      <Ticket:ThuStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ThuStop>
+      <Ticket:FriStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FriStart>
+      <Ticket:FriStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FriStop>
+      <Ticket:SatStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SatStart>
+      <Ticket:SatStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SatStop>
+      <Ticket:SunStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SunStart>
+      <Ticket:SunStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SunStop>
       <Ticket:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-       <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</NetServerServices882:dateTime>
+       <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</NetServerServices882:dateTime>
       </Ticket:NonDates>
       <Ticket:EscalationLevels xsi:type="Ticket:ArrayOfTicketPriorityEscalationLevelEntity">
        <Ticket:TicketPriorityEscalationLevelEntity xsi:type="Ticket:TicketPriorityEscalationLevelEntity">
@@ -290,6 +290,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:RealTimeSpentInternally xsi:type="xsd:int">0</Ticket:RealTimeSpentInternally>
      <Ticket:RealTimeSpentExternally xsi:type="xsd:int">0</Ticket:RealTimeSpentExternally>
      <Ticket:RealTimeSpentQueue xsi:type="xsd:int">0</Ticket:RealTimeSpentQueue>
+     <Ticket:TimeSpent xsi:type="xsd:int">0</Ticket:TimeSpent>
      <Ticket:HasAttachment xsi:type="xsd:boolean">false</Ticket:HasAttachment>
      <Ticket:NumReplies xsi:type="xsd:int">0</Ticket:NumReplies>
      <Ticket:NumMessages xsi:type="xsd:int">0</Ticket:NumMessages>
@@ -297,7 +298,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:Messages xsi:type="Ticket:ArrayOfTicketMessage">
       <Ticket:TicketMessage xsi:type="Ticket:TicketMessage">
        <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-       <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:CreatedAt>
+       <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:CreatedAt>
        <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
        <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
        <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -321,7 +322,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
        <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
        <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
-       <Ticket:ChangedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ChangedAt>
+       <Ticket:ChangedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ChangedAt>
        <Ticket:Badge xsi:type="Ticket:BadgeType">Unknown</Ticket:Badge>
       </Ticket:TicketMessage>
      </Ticket:Messages>
@@ -341,7 +342,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:IconHint xsi:type="xsd:string"></Ticket:IconHint>
      <Ticket:Sale xsi:type="Ticket:Sale">
       <Ticket:ContactName xsi:type="xsd:string"></Ticket:ContactName>
-      <Ticket:SaleDate xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SaleDate>
+      <Ticket:SaleDate xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SaleDate>
       <Ticket:SaleId xsi:type="xsd:int">0</Ticket:SaleId>
       <Ticket:Probability xsi:type="xsd:short">0</Ticket:Probability>
       <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
@@ -363,7 +364,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Ticket:PersonFullName xsi:type="xsd:string"></Ticket:PersonFullName>
       <Ticket:Completed xsi:type="Ticket:ActivityStatus">Unknown</Ticket:Completed>
       <Ticket:ActiveErpLinks xsi:type="xsd:int">0</Ticket:ActiveErpLinks>
-      <Ticket:NextDueDate xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:NextDueDate>
+      <Ticket:NextDueDate xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:NextDueDate>
       <Ticket:Number xsi:type="xsd:string"></Ticket:Number>
      </Ticket:Sale>
      <Ticket:Project xsi:type="Ticket:Project">
@@ -375,12 +376,12 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
       <Ticket:AssociateFullName xsi:type="xsd:string"></Ticket:AssociateFullName>
       <Ticket:TypeId xsi:type="xsd:int">0</Ticket:TypeId>
-      <Ticket:Updated xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:Updated>
+      <Ticket:Updated xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:Updated>
       <Ticket:StatusId xsi:type="xsd:int">0</Ticket:StatusId>
       <Ticket:Status xsi:type="xsd:string"></Ticket:Status>
       <Ticket:TextId xsi:type="xsd:int">0</Ticket:TextId>
-      <Ticket:PublishTo xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:PublishTo>
-      <Ticket:PublishFrom xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:PublishFrom>
+      <Ticket:PublishTo xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:PublishTo>
+      <Ticket:PublishFrom xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:PublishFrom>
       <Ticket:IsPublished xsi:type="xsd:boolean">false</Ticket:IsPublished>
       <Ticket:URLName xsi:type="xsd:string"></Ticket:URLName>
       <Ticket:ProjectNumber xsi:type="xsd:string"></Ticket:ProjectNumber>
@@ -407,6 +408,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       </Ticket:TicketPriorities>
       <Ticket:ReplyTemplate xsi:type="xsd:int">0</Ticket:ReplyTemplate>
       <Ticket:IsExternalVisible xsi:type="xsd:boolean">false</Ticket:IsExternalVisible>
+      <Ticket:IsDefault xsi:type="xsd:boolean">false</Ticket:IsDefault>
      </Ticket:TicketType>
      <Ticket:ExtraFields xsi:type="Ticket:StringDictionary">
       <Ticket:StringKeyValuePair>
@@ -446,17 +448,17 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Ticket:Response xsi:type="Ticket:TicketEntity">
     <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
     <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:CreatedAt>
-    <Ticket:LastChanged xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:LastChanged>
-    <Ticket:ReadByOwner xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ReadByOwner>
-    <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ReadByCustomer>
-    <Ticket:FirstReadByOwner xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FirstReadByOwner>
-    <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FirstReadByUser>
-    <Ticket:Activate xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:Activate>
-    <Ticket:ClosedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ClosedAt>
-    <Ticket:RepliedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:RepliedAt>
-    <Ticket:AlertTimeout xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:AlertTimeout>
-    <Ticket:Deadline xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:Deadline>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:CreatedAt>
+    <Ticket:LastChanged xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:LastChanged>
+    <Ticket:ReadByOwner xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ReadByOwner>
+    <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ReadByCustomer>
+    <Ticket:FirstReadByOwner xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FirstReadByOwner>
+    <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FirstReadByUser>
+    <Ticket:Activate xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:Activate>
+    <Ticket:ClosedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ClosedAt>
+    <Ticket:RepliedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:RepliedAt>
+    <Ticket:AlertTimeout xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:AlertTimeout>
+    <Ticket:Deadline xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:Deadline>
     <Ticket:CreatedBy xsi:type="Ticket:Associate">
      <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>
@@ -546,22 +548,22 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:TicketChangedPriority xsi:type="Ticket:TicketPriorityEscalateEvent">None</Ticket:TicketChangedPriority>
      <Ticket:TicketNew xsi:type="Ticket:TicketPriorityEscalateEvent">None</Ticket:TicketNew>
      <Ticket:Deadline xsi:type="xsd:int">0</Ticket:Deadline>
-     <Ticket:MonStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:MonStart>
-     <Ticket:MonStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:MonStop>
-     <Ticket:TueStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:TueStart>
-     <Ticket:TueStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:TueStop>
-     <Ticket:WedStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:WedStart>
-     <Ticket:WedStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:WedStop>
-     <Ticket:ThuStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ThuStart>
-     <Ticket:ThuStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ThuStop>
-     <Ticket:FriStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FriStart>
-     <Ticket:FriStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:FriStop>
-     <Ticket:SatStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SatStart>
-     <Ticket:SatStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SatStop>
-     <Ticket:SunStart xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SunStart>
-     <Ticket:SunStop xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SunStop>
+     <Ticket:MonStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:MonStart>
+     <Ticket:MonStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:MonStop>
+     <Ticket:TueStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:TueStart>
+     <Ticket:TueStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:TueStop>
+     <Ticket:WedStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:WedStart>
+     <Ticket:WedStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:WedStop>
+     <Ticket:ThuStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ThuStart>
+     <Ticket:ThuStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ThuStop>
+     <Ticket:FriStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FriStart>
+     <Ticket:FriStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:FriStop>
+     <Ticket:SatStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SatStart>
+     <Ticket:SatStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SatStop>
+     <Ticket:SunStart xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SunStart>
+     <Ticket:SunStop xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SunStop>
      <Ticket:NonDates xsi:type="NetServerServices882:ArrayOfdateTime">
-      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</NetServerServices882:dateTime>
+      <NetServerServices882:dateTime xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</NetServerServices882:dateTime>
      </Ticket:NonDates>
      <Ticket:EscalationLevels xsi:type="Ticket:ArrayOfTicketPriorityEscalationLevelEntity">
       <Ticket:TicketPriorityEscalationLevelEntity xsi:type="Ticket:TicketPriorityEscalationLevelEntity">
@@ -694,6 +696,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:RealTimeSpentInternally xsi:type="xsd:int">0</Ticket:RealTimeSpentInternally>
     <Ticket:RealTimeSpentExternally xsi:type="xsd:int">0</Ticket:RealTimeSpentExternally>
     <Ticket:RealTimeSpentQueue xsi:type="xsd:int">0</Ticket:RealTimeSpentQueue>
+    <Ticket:TimeSpent xsi:type="xsd:int">0</Ticket:TimeSpent>
     <Ticket:HasAttachment xsi:type="xsd:boolean">false</Ticket:HasAttachment>
     <Ticket:NumReplies xsi:type="xsd:int">0</Ticket:NumReplies>
     <Ticket:NumMessages xsi:type="xsd:int">0</Ticket:NumMessages>
@@ -701,7 +704,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Messages xsi:type="Ticket:ArrayOfTicketMessage">
      <Ticket:TicketMessage xsi:type="Ticket:TicketMessage">
       <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-      <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:CreatedAt>
+      <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:CreatedAt>
       <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
       <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
       <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -725,7 +728,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Ticket:Sentiment xsi:type="xsd:int">0</Ticket:Sentiment>
       <Ticket:SentimentConfidence xsi:type="xsd:int">0</Ticket:SentimentConfidence>
       <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
-      <Ticket:ChangedAt xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:ChangedAt>
+      <Ticket:ChangedAt xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:ChangedAt>
       <Ticket:Badge xsi:type="Ticket:BadgeType">Unknown</Ticket:Badge>
      </Ticket:TicketMessage>
     </Ticket:Messages>
@@ -745,7 +748,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:IconHint xsi:type="xsd:string"></Ticket:IconHint>
     <Ticket:Sale xsi:type="Ticket:Sale">
      <Ticket:ContactName xsi:type="xsd:string"></Ticket:ContactName>
-     <Ticket:SaleDate xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:SaleDate>
+     <Ticket:SaleDate xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:SaleDate>
      <Ticket:SaleId xsi:type="xsd:int">0</Ticket:SaleId>
      <Ticket:Probability xsi:type="xsd:short">0</Ticket:Probability>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
@@ -767,7 +770,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:PersonFullName xsi:type="xsd:string"></Ticket:PersonFullName>
      <Ticket:Completed xsi:type="Ticket:ActivityStatus">Unknown</Ticket:Completed>
      <Ticket:ActiveErpLinks xsi:type="xsd:int">0</Ticket:ActiveErpLinks>
-     <Ticket:NextDueDate xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:NextDueDate>
+     <Ticket:NextDueDate xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:NextDueDate>
      <Ticket:Number xsi:type="xsd:string"></Ticket:Number>
     </Ticket:Sale>
     <Ticket:Project xsi:type="Ticket:Project">
@@ -779,12 +782,12 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
      <Ticket:AssociateFullName xsi:type="xsd:string"></Ticket:AssociateFullName>
      <Ticket:TypeId xsi:type="xsd:int">0</Ticket:TypeId>
-     <Ticket:Updated xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:Updated>
+     <Ticket:Updated xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:Updated>
      <Ticket:StatusId xsi:type="xsd:int">0</Ticket:StatusId>
      <Ticket:Status xsi:type="xsd:string"></Ticket:Status>
      <Ticket:TextId xsi:type="xsd:int">0</Ticket:TextId>
-     <Ticket:PublishTo xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:PublishTo>
-     <Ticket:PublishFrom xsi:type="xsd:dateTime">2023-08-29T01:30:56Z</Ticket:PublishFrom>
+     <Ticket:PublishTo xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:PublishTo>
+     <Ticket:PublishFrom xsi:type="xsd:dateTime">2023-09-19T01:24:22Z</Ticket:PublishFrom>
      <Ticket:IsPublished xsi:type="xsd:boolean">false</Ticket:IsPublished>
      <Ticket:URLName xsi:type="xsd:string"></Ticket:URLName>
      <Ticket:ProjectNumber xsi:type="xsd:string"></Ticket:ProjectNumber>
@@ -811,6 +814,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      </Ticket:TicketPriorities>
      <Ticket:ReplyTemplate xsi:type="xsd:int">0</Ticket:ReplyTemplate>
      <Ticket:IsExternalVisible xsi:type="xsd:boolean">false</Ticket:IsExternalVisible>
+     <Ticket:IsDefault xsi:type="xsd:boolean">false</Ticket:IsDefault>
     </Ticket:TicketType>
     <Ticket:ExtraFields xsi:type="Ticket:StringDictionary">
      <Ticket:StringKeyValuePair>

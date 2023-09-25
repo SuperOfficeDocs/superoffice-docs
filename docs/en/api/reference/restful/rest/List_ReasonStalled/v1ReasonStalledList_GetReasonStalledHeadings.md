@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 950,
-    "Name": "Roob-Schuster",
-    "Tooltip": "sit",
+    "HeadingId": 662,
+    "Name": "Hirthe Inc and Sons",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "Rank": 402,
-    "UdListDefinitionId": 869,
+    "Rank": 602,
+    "UdListDefinitionId": 407,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldLength": 327
       }
     }
   }

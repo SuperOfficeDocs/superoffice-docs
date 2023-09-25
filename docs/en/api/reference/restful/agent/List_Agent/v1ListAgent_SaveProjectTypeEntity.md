@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 543,
-  "Name": "McCullough, Ondricka and Haag",
-  "Tooltip": "explicabo",
-  "Rank": 697,
+  "ProjTypeId": 549,
+  "Name": "Stehr LLC",
+  "Tooltip": "et",
+  "Rank": 510,
   "DurationUnit": "Century",
-  "ProjectDuration": 433,
-  "Deleted": false,
+  "ProjectDuration": 510,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 264,
-      "Name": "Wintheiser, Towne and Runolfsdottir",
-      "ToolTip": "Fugit nihil est.",
-      "Deleted": true,
-      "Rank": 370,
-      "Type": "eius",
-      "ColorBlock": 765,
-      "IconHint": "eos",
+      "Id": 986,
+      "Name": "Schmitt-Collins",
+      "ToolTip": "Et velit commodi aliquam cumque.",
+      "Deleted": false,
+      "Rank": 458,
+      "Type": "sit",
+      "ColorBlock": 762,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "1996-04-19T03:31:26.7300385+02:00",
+      "LastChanged": "2023-06-19T03:24:47.908255+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nemo",
-      "StyleHint": "repellat",
-      "Hidden": true,
-      "FullName": "Ms. Vernie Bergstrom Jr."
+      "ExtraInfo": "autem",
+      "StyleHint": "illum",
+      "Hidden": false,
+      "FullName": "Hillard Carli Ankunding DDS"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 458,
-  "Name": "Nikolaus, Prosacco and Raynor",
-  "Tooltip": "officiis",
-  "Rank": 943,
+  "ProjTypeId": 343,
+  "Name": "Blick Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 2,
   "DurationUnit": "Century",
-  "ProjectDuration": 907,
+  "ProjectDuration": 107,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 973,
-      "Name": "Johnston-Daugherty",
-      "ToolTip": "Nemo corporis mollitia necessitatibus aut eligendi aut quidem.",
+      "Id": 523,
+      "Name": "Volkman Inc and Sons",
+      "ToolTip": "Corporis cumque.",
       "Deleted": true,
-      "Rank": 189,
-      "Type": "rerum",
-      "ColorBlock": 720,
-      "IconHint": "mollitia",
+      "Rank": 522,
+      "Type": "numquam",
+      "ColorBlock": 525,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2018-03-14T03:31:26.7300385+01:00",
+      "LastChanged": "2014-11-18T03:24:47.908255+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "tempore",
+      "ExtraInfo": "et",
+      "StyleHint": "commodi",
       "Hidden": false,
-      "FullName": "Ana Hyatt",
+      "FullName": "Abdul Shields",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldLength": 480
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 841
     }
   }
 }

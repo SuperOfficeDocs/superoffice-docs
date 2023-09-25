@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 179
+  "ContactId": 999
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-676-169-7191 x55542",
-    "PersonCellPhone": "1-561-293-2857 x1576",
-    "PersonPrivatePhone": "1-708-984-3215 x331",
-    "PersonFaxNumber": "986319",
-    "PersonPagerNumber": "915048",
-    "PersonEmail": "roxanne@handbuckridge.name",
-    "Id": 217,
-    "Name": "Davis-Kohler",
-    "Tooltip": "eveniet",
-    "UniqueId": "nemo",
+    "PersonDirectPhone": "(768)116-3293",
+    "PersonCellPhone": "091-627-3364",
+    "PersonPrivatePhone": "667.225.6441 x9678",
+    "PersonFaxNumber": "405746",
+    "PersonPagerNumber": "1200440",
+    "PersonEmail": "timmothy_gulgowski@aufderhar.biz",
+    "Id": 969,
+    "Name": "Swaniawski-Johnston",
+    "Tooltip": "ut",
+    "UniqueId": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 855
+        "FieldType": "System.Int32",
+        "FieldLength": 668
       }
     }
   }

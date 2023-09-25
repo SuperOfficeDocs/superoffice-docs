@@ -865,6 +865,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/timeSpentQueue| *None* |Time spent in queue: Time spent in queue|  |
 |request/timeSpentExternally| *None* |Time spent externally: Time spent externally|  |
 |request/timeSpentInternally| *None* |Time spent internally: Time spent internally|  |
+|request/timeSpent| *None* |Time spent: Time spent|  |
 |request/timeToReply| *None* |Time to reply: Time to reply|  |
 |request/timeToClose| *None* |Time to close: Time to close|  |
 |request/realTimeToReply| *None* |Real time to reply: Real time to reply|  |
@@ -951,11 +952,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request|  |
 |request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot|  |
 |request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field|  |
-|request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request|  |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation|  |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request|  |
 |request/extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table|  |
@@ -1055,11 +1056,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/saintIntention| *None* |Intention|  |
 |projectMembers/saintTicketStatus| *None* |Status|  |
 |projectMembers/saintTicketCategory| *None* |Category|  |
-|projectMembers/project/textId| *None* |Text ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/project/textId| *None* |Text ID|  |
 |projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field|  |
 |personAppointment/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
 |personAppointment/icon| *None* |Category: Displays the icon for an activity type|  |
@@ -1151,7 +1152,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=email/emailHasBounced,sale/associate/simultaneousEjUser,appointment/saleId,personExtra/y_rental/id,personAppointment/recordType
+GET /api/v1/archive/ContactStaticSelection?$select=sale/probPercent,appointment/registeredDate,document/associate/mrMrs,personDirectPhone/description,personTargetRelation/kanaLastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

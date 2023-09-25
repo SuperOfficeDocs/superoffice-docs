@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 Mar 2016 03:31:32 G3T
+Last-Modified: Sat, 13 Jun 2015 03:24:51 G6T
 
 {
-  "BlobId": 270,
-  "BlobSize": 511,
-  "Description": "Distributed homogeneous groupware",
-  "ExtraInfo": "beatae",
+  "BlobId": 523,
+  "BlobSize": 835,
+  "Description": "Ergonomic optimizing framework",
+  "ExtraInfo": "reprehenderit",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sequi",
-  "OriginalSize": 680,
-  "CreatedDate": "2008-06-05T03:31:32.7382484+02:00",
-  "UpdatedDate": "2016-03-26T03:31:32.7382484+01:00",
+  "MimeType": "a",
+  "OriginalSize": 902,
+  "CreatedDate": "2010-10-31T03:24:51.6930999+01:00",
+  "UpdatedDate": "2015-06-13T03:24:51.6930999+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aperiam",
+  "ConceptualType": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 608
     }
   }
 }

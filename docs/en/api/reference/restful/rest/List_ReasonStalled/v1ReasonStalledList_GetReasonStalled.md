@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 289,
-  "Name": "Crooks-White",
-  "Tooltip": "aut",
+  "Id": 327,
+  "Name": "Schowalter, Flatley and Stark",
+  "Tooltip": "at",
   "Deleted": false,
-  "UdListDefinitionId": 648,
-  "Rank": 145,
+  "UdListDefinitionId": 427,
+  "Rank": 559,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 745
     }
   }
 }

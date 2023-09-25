@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Ziemann LLC"
+  "LayoutName": "Stoltenberg LLC"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 624,
-  "InstanceLayout": "vitae",
-  "InstanceName": "Bergnaum Group",
-  "CreatedDate": "2023-08-11T03:31:25.6339962+02:00",
-  "UpdatedDate": "2017-11-30T03:31:25.6339962+01:00",
+  "AudienceLayoutId": 644,
+  "InstanceLayout": "animi",
+  "InstanceName": "Johnston LLC",
+  "CreatedDate": "2008-09-21T03:24:47.2520803+02:00",
+  "UpdatedDate": "1997-03-21T03:24:47.2520803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldType": "System.Int32",
+      "FieldLength": 860
     }
   }
 }

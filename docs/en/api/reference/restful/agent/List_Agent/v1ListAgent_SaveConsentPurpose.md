@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 608,
-  "Name": "Connelly-Labadie",
-  "ConsentText": "et",
-  "FormText": "aspernatur",
-  "Key": "dolores",
-  "Tooltip": "et",
-  "Active": 724,
-  "UpdatedDate": "2002-12-24T03:31:26.7456608+01:00",
+  "ConsentPurposeId": 313,
+  "Name": "Keeling Group",
+  "ConsentText": "accusamus",
+  "FormText": "officiis",
+  "Key": "deserunt",
+  "Tooltip": "dolores",
+  "Active": 542,
+  "UpdatedDate": "2007-10-03T03:24:47.9238778+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 868,
-  "PrivacyStatementDesc": "temporibus",
+  "Rank": 434,
+  "PrivacyStatementDesc": "voluptatibus",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

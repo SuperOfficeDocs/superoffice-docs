@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 501,
-  "Name": "Schneider Group",
-  "Tooltip": "et",
+  "RoleId": 511,
+  "Name": "Yundt Inc and Sons",
+  "Tooltip": "iure",
   "RoleType": "Anonymous",
-  "Deleted": 968,
-  "Rank": 230,
-  "Created": "2002-12-24T03:31:32.8163583+01:00",
-  "UseCategories": 105,
+  "Deleted": 227,
+  "Rank": 295,
+  "Created": "2005-05-16T03:24:51.7401403+02:00",
+  "UseCategories": 332,
   "CreatedBy": null,
-  "Updated": "2023-08-12T03:31:32.8163583+02:00",
+  "Updated": "2016-11-16T03:24:51.7401403+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldType": "System.Int32",
+      "FieldLength": 886
     }
   }
 }

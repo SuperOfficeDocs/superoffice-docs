@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 737,
-  "Name": "Champlin LLC",
-  "Description": "Integrated attitude-oriented parallelism",
-  "WelcomeMessage": "sunt",
+  "ChatTopicId": 692,
+  "Name": "Strosin, Halvorson and Beier",
+  "Description": "Multi-tiered multimedia data-warehouse",
+  "WelcomeMessage": "consequuntur",
   "Language": null,
-  "LastAccept": "2019-08-07T03:31:32.363348+02:00",
-  "SecondsPrAccept": 678,
-  "AlertRecipient": "laborum",
+  "LastAccept": "2012-08-04T03:24:51.4429545+02:00",
+  "SecondsPrAccept": 368,
+  "AlertRecipient": "totam",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "placeat",
+  "CollectConsent": false,
+  "BadgeHeader": "labore",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eum",
-  "WarnNewChatMinutes": 942,
-  "WarnManagerNewChatMinutes": 850,
-  "TicketEnabled": true,
+  "CustomQueueText": "dolor",
+  "WarnNewChatMinutes": 457,
+  "WarnManagerNewChatMinutes": 62,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 852,
-  "WarnManagerChatMessageMinutes": 296,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 361,
+  "WarnManagerChatMessageMinutes": 404,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 250,
-  "OfflineFormQueueLength": 236,
+  "OfflineFormTimeLimit": 627,
+  "OfflineFormQueueLength": 992,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "consequatur",
+  "WidgetRatingText": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 89
     }
   },
   "_Links": {

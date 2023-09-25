@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=728
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=856
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 948,
-  "TopicId": 989,
+  "ChatSessionId": 611,
+  "TopicId": 262,
   "User": null,
   "Person": null,
-  "CustomerAlias": "maxime",
-  "CustomerHost": "nobis",
-  "CustomerName": "Trantow LLC",
-  "CustomerEmail": "rachelle_douglas@marquardtchristiansen.biz",
-  "CustomerPhone": "347.681.5112",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "minus",
+  "CustomerName": "Mann-Rau",
+  "CustomerEmail": "glen@mckenziebergnaum.uk",
+  "CustomerPhone": "(112)879-7216 x16663",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Stiedemann-Anderson",
+  "CustomerCompanyName": "Walker, Prosacco and Oberbrunner",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "perferendis",
-  "WhenRequested": "2018-03-24T03:31:25.712107+01:00",
-  "WhenStarted": "2012-02-18T03:31:25.712107+01:00",
-  "WhenEnded": "2012-08-15T03:31:25.712107+02:00",
-  "WhenIdle": "2011-07-28T03:31:25.712107+02:00",
-  "WhenFetched": "2016-11-18T03:31:25.712107+01:00",
-  "SessionKey": "sint",
-  "InitialQueuePos": 326,
-  "AlertLevel": 191,
-  "Rank": 649,
+  "FirstMessage": "rerum",
+  "LastMessage": "deserunt",
+  "WhenRequested": "2004-12-06T03:24:47.2989471+01:00",
+  "WhenStarted": "2010-11-20T03:24:47.2989471+01:00",
+  "WhenEnded": "2016-09-22T03:24:47.2989471+02:00",
+  "WhenIdle": "2018-10-15T03:24:47.2989471+02:00",
+  "WhenFetched": "2002-03-03T03:24:47.2989471+01:00",
+  "SessionKey": "voluptatem",
+  "InitialQueuePos": 734,
+  "AlertLevel": 556,
+  "Rank": 768,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 984,
+  "ChatbotIsActive": true,
+  "Rating": 280,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

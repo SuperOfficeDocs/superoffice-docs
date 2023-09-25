@@ -67,7 +67,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Boehm Group",
-    "DisplayName": "Klocko, Gottlieb and Reichert",
-    "Description": "Upgradable holistic time-frame",
-    "ShortLabel": "dicta",
+    "FieldName": "McDermott Inc and Sons",
+    "DisplayName": "Schumm Inc and Sons",
+    "Description": "Right-sized neutral flexibility",
+    "ShortLabel": "architecto",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 680,
-    "TemplateVariableName": "Botsford Inc and Sons"
+    "IsExternal": true,
+    "Rank": 698,
+    "TemplateVariableName": "Gottlieb LLC"
   }
 ]
 ```

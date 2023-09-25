@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/User/CreateExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 579,
-  "UserName": "Sporer, Williamson and Casper",
-  "Password": "ipsum",
-  "RoleId": 299,
+  "PersonId": 845,
+  "UserName": "Rodriguez LLC",
+  "Password": "nulla",
+  "RoleId": 763,
   "IsActive": true
 }
 ```
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-85
+116
 ```

@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    377,
-    934
+    304,
+    428
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 923,
-    "MessageId": "consectetur",
-    "Subject": "autem",
+    "ServerId": 261,
+    "MessageId": "qui",
+    "Subject": "dignissimos",
     "From": null,
     "To": [
       {
-        "ContactId": 334,
-        "ContactName": "O'Conner, Macejkovic and Dooley",
-        "PersonId": 578,
-        "PersonName": "Sawayn-Romaguera",
-        "AssociateId": 458,
-        "Address": "voluptatum",
-        "EmailId": 517,
+        "ContactId": 511,
+        "ContactName": "Pacocha-Dare",
+        "PersonId": 335,
+        "PersonName": "Nikolaus, Mueller and Parker",
+        "AssociateId": 639,
+        "Address": "libero",
+        "EmailId": 589,
         "DuplicatePersonIds": [
-          461,
-          411
+          920,
+          206
         ],
-        "Name": "Schuppe-Gleichner",
+        "Name": "Oberbrunner-Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 776
+            "FieldType": "System.Int32",
+            "FieldLength": 242
           }
         }
       }
     ],
-    "Sent": "2000-11-27T03:31:26.4957222+01:00",
+    "Sent": "2000-10-09T03:24:47.7676476+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 277,
+    "Size": 131,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 807
       }
     }
   }

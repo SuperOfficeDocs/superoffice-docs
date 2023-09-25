@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "porro",
-  "SearchString": "eos"
+  "Type": "molestiae",
+  "SearchString": "necessitatibus"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan Inc and Sons",
-    "DisplayName": "Kerluke-Christiansen",
+    "Name": "Pagac-Hills",
+    "DisplayName": "Fahey-Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldLength": 350
       }
     }
   },
   {
-    "Name": "Rohan Inc and Sons",
-    "DisplayName": "Kerluke-Christiansen",
+    "Name": "Pagac-Hills",
+    "DisplayName": "Fahey-Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldLength": 350
       }
     }
   }

@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "at",
-    "PersonId": 756,
-    "AssociateId": 736,
-    "ExtraId": 141,
-    "ExtraInfo": "nobis",
-    "Height": 49,
-    "LeftX": 973,
+    "OwnerWindow": "alias",
+    "PersonId": 565,
+    "AssociateId": 337,
+    "ExtraId": 89,
+    "ExtraInfo": "molestias",
+    "Height": 109,
+    "LeftX": 403,
     "State": "Maximized",
-    "UpperY": 290,
-    "Width": 826,
-    "WindowPosSizeId": 890,
+    "UpperY": 404,
+    "Width": 517,
+    "WindowPosSizeId": 982,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldType": "System.String",
+        "FieldLength": 349
       }
     }
   }

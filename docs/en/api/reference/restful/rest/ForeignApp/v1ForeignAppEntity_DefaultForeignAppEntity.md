@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 01 Feb 2003 03:31:32 G2T
+Last-Modified: Tue, 08 Nov 2016 03:24:51 G11T
 
 {
-  "ForeignAppId": 829,
-  "Name": "Russel-Kunde",
-  "CreatedDate": "1997-06-21T03:31:32.6132803+02:00",
-  "UpdatedDate": "2003-02-01T03:31:32.6132803+01:00",
+  "ForeignAppId": 416,
+  "Name": "Ritchie-Daugherty",
+  "CreatedDate": "2001-07-08T03:24:51.6149823+02:00",
+  "UpdatedDate": "2016-11-08T03:24:51.6149823+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 779,
-      "Name": "Weber Inc and Sons",
-      "CreatedDate": "2023-05-18T03:31:32.6132803+02:00",
-      "UpdatedDate": "2006-10-17T03:31:32.6132803+02:00",
-      "AssociateFullName": "Webster Jenkins",
-      "CreatedBy": "optio",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 412,
+      "ForeignDeviceId": 833,
+      "Name": "Lang-Wilderman",
+      "CreatedDate": "2020-10-08T03:24:51.6149823+02:00",
+      "UpdatedDate": "2007-02-04T03:24:51.6149823+01:00",
+      "AssociateFullName": "Sylvan O'Kon",
+      "CreatedBy": "ut",
+      "UpdatedBy": "quo",
+      "DeviceIdentifier": "odit",
+      "ForeignAppId": 618,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 2
+          "FieldType": "System.String",
+          "FieldLength": 801
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Sat, 01 Feb 2003 03:31:32 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 474
     }
   }
 }

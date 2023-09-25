@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Tromp Inc and Sons",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "UdListDefinitionId": 404,
-  "Rank": 977,
+  "Id": 207,
+  "Name": "Kuhic-Bogan",
+  "Tooltip": "aperiam",
+  "Deleted": false,
+  "UdListDefinitionId": 800,
+  "Rank": 729,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

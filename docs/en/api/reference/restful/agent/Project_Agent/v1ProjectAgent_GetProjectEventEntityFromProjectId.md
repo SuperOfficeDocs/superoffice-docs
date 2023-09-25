@@ -106,7 +106,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 972
+  "ProjectId": 230
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "ipsum",
-  "SignOffText": "optio",
-  "SignOnConfirmationText": "dicta",
-  "SignOnText": "cupiditate",
-  "EventDate": "2012-11-14T03:31:27.0112205+01:00",
+  "SignOffConfirmationText": "quia",
+  "SignOffText": "nesciunt",
+  "SignOnConfirmationText": "accusantium",
+  "SignOnText": "quia",
+  "EventDate": "2020-01-30T03:24:48.0957311+01:00",
   "Enabled": false,
-  "CreatedDate": "2006-03-13T03:31:27.0112205+01:00",
+  "CreatedDate": "2022-03-28T03:24:48.0957311+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 868,
+  "SignOffTaskId": 512,
   "SignOffTriggersAssign": false,
-  "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 682,
+  "SignOn": false,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 272,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2007-10-02T03:31:27.0112205+02:00",
+  "UpdatedDate": "2014-12-09T03:24:48.0957311+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 493,
-  "Id": 71,
-  "PublishFrom": "2007-02-10T03:31:27.0112205+01:00",
+  "ProjectId": 125,
+  "Id": 297,
+  "PublishFrom": "2022-03-02T03:24:48.0957311+01:00",
   "PublishType": "External",
-  "PublishTo": "2005-02-26T03:31:27.0112205+01:00",
+  "PublishTo": "2004-02-11T03:24:48.0957311+01:00",
   "VisibleForCategories": [
     {
-      "Id": 511,
-      "Name": "Bosco-Bailey",
-      "ToolTip": "Ad similique sed nesciunt iusto qui autem voluptatibus.",
+      "Id": 54,
+      "Name": "Prosacco-Tromp",
+      "ToolTip": "Ipsa quas libero possimus perferendis earum.",
       "Deleted": true,
-      "Rank": 29,
-      "Type": "excepturi",
+      "Rank": 703,
+      "Type": "provident",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "deserunt",
-      "ColorBlock": 52,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "soluta",
-      "FullName": "Claudie Rath",
+      "IconHint": "maxime",
+      "ColorBlock": 257,
+      "ExtraInfo": "enim",
+      "StyleHint": "vel",
+      "FullName": "Tristian Kozey Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 526
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 798,
-      "Name": "Renner-Runolfsson",
-      "ToolTip": "Aspernatur modi iure accusamus id est tenetur voluptatem.",
+      "Id": 345,
+      "Name": "Muller-Stroman",
+      "ToolTip": "Et dolores ut omnis quibusdam.",
       "Deleted": false,
-      "Rank": 541,
-      "Type": "eum",
+      "Rank": 145,
+      "Type": "quas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptas",
-      "ColorBlock": 265,
-      "ExtraInfo": "ut",
-      "StyleHint": "tenetur",
-      "FullName": "Ivy Wisozk DDS",
+      "IconHint": "ea",
+      "ColorBlock": 317,
+      "ExtraInfo": "sed",
+      "StyleHint": "error",
+      "FullName": "Minnie Lemke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldLength": 28
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 307,
+  "ProjectEventId": 98,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 963
     }
   }
 }

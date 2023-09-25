@@ -63,7 +63,8 @@ The TicketTypeEntity to be saved.
 | DefaultTicketPriority | Integer | Default ticket priority for new tickets |
 | TicketPriorities | Array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | Boolean | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | Boolean | Is this Ticket Type marked as default |
 
 ## Response:
 
@@ -88,7 +89,8 @@ TicketTypeEntity updated.
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -99,27 +101,28 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 427,
-  "Name": "Predovic-Adams",
-  "Rank": 91,
-  "Tooltip": "alias",
-  "Icon": "culpa",
-  "DefaultTicketStatus": 927,
+  "TicketTypeId": 592,
+  "Name": "Cummings, Roob and Dietrich",
+  "Rank": 853,
+  "Tooltip": "suscipit",
+  "Icon": "perferendis",
+  "DefaultTicketStatus": 819,
   "TicketStatuses": [
-    572,
-    125
+    248,
+    446
   ],
-  "DefaultTicketPriority": 24,
+  "DefaultTicketPriority": 422,
   "TicketPriorities": [
-    522,
-    702
+    555,
+    792
   ],
-  "ReplyTemplate": 702,
-  "IsExternalVisible": false
+  "ReplyTemplate": 481,
+  "IsExternalVisible": true,
+  "IsDefault": false
 }
 ```
 
@@ -130,34 +133,35 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 987,
-  "Name": "Braun, Rowe and Watsica",
-  "Rank": 27,
-  "Tooltip": "nesciunt",
-  "Icon": "alias",
-  "DefaultTicketStatus": 495,
+  "TicketTypeId": 890,
+  "Name": "Spinka Inc and Sons",
+  "Rank": 629,
+  "Tooltip": "enim",
+  "Icon": "minima",
+  "DefaultTicketStatus": 182,
   "TicketStatuses": [
-    924,
-    994
+    892,
+    733
   ],
-  "DefaultTicketPriority": 668,
+  "DefaultTicketPriority": 970,
   "TicketPriorities": [
-    624,
-    251
+    300,
+    910
   ],
-  "ReplyTemplate": 128,
+  "ReplyTemplate": 290,
   "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

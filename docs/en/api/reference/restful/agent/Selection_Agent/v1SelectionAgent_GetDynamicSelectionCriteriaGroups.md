@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 719
+  "SelectionId": 23
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collins Inc and Sons",
-    "Description": "Stand-alone secondary database",
-    "Rank": 649,
+    "Name": "Davis LLC",
+    "Description": "Down-sized radical function",
+    "Rank": 919,
     "Restrictions": [
       {
-        "Name": "Von, Jenkins and Funk",
-        "Operator": "deleniti",
+        "Name": "West Inc and Sons",
+        "Operator": "est",
         "Values": [
-          "sint",
-          "praesentium"
+          "qui",
+          "repudiandae"
         ],
         "DisplayValues": [
-          "consequatur",
-          "deserunt"
+          "aliquid",
+          "quas"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 920,
         "InterOperator": "And",
-        "UniqueHash": 726
+        "UniqueHash": 360
       }
     ]
   },
   {
-    "Name": "Collins Inc and Sons",
-    "Description": "Stand-alone secondary database",
-    "Rank": 649,
+    "Name": "Davis LLC",
+    "Description": "Down-sized radical function",
+    "Rank": 919,
     "Restrictions": [
       {
-        "Name": "Von, Jenkins and Funk",
-        "Operator": "deleniti",
+        "Name": "West Inc and Sons",
+        "Operator": "est",
         "Values": [
-          "sint",
-          "praesentium"
+          "qui",
+          "repudiandae"
         ],
         "DisplayValues": [
-          "consequatur",
-          "deserunt"
+          "aliquid",
+          "quas"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 920,
         "InterOperator": "And",
-        "UniqueHash": 726
+        "UniqueHash": 360
       }
     ]
   }

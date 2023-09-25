@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=45
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=163
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -94,6 +94,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -122,7 +123,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -132,21 +133,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 673,
-  "Title": "beatae",
-  "CreatedAt": "2004-02-27T03:31:27.3874142+01:00",
-  "LastChanged": "2001-03-21T03:31:27.3874142+01:00",
-  "ReadByOwner": "1996-06-16T03:31:27.3874142+02:00",
-  "ReadByCustomer": "2023-08-15T03:31:27.3874142+02:00",
-  "FirstReadByOwner": "1998-05-08T03:31:27.3874142+02:00",
-  "FirstReadByUser": "2018-05-06T03:31:27.3874142+02:00",
-  "Activate": "2019-05-27T03:31:27.3874142+02:00",
-  "ClosedAt": "2007-10-26T03:31:27.3874142+02:00",
-  "RepliedAt": "2004-03-15T03:31:27.3874142+01:00",
-  "AlertTimeout": "1998-02-10T03:31:27.3874142+01:00",
-  "Deadline": "2011-03-24T03:31:27.3874142+01:00",
+  "TicketId": 66,
+  "Title": "sit",
+  "CreatedAt": "2019-09-19T03:24:48.4247716+02:00",
+  "LastChanged": "1999-06-14T03:24:48.4247716+02:00",
+  "ReadByOwner": "1998-02-15T03:24:48.4247716+01:00",
+  "ReadByCustomer": "2002-02-01T03:24:48.4247716+01:00",
+  "FirstReadByOwner": "2010-01-10T03:24:48.4247716+01:00",
+  "FirstReadByUser": "2017-03-23T03:24:48.4247716+01:00",
+  "Activate": "2003-10-02T03:24:48.4247716+02:00",
+  "ClosedAt": "2003-05-25T03:24:48.4247716+02:00",
+  "RepliedAt": "2002-07-22T03:24:48.4247716+02:00",
+  "AlertTimeout": "2002-04-21T03:24:48.4247716+02:00",
+  "Deadline": "2012-05-29T03:24:48.4247716+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "nemo",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -157,160 +158,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "et",
-      "PersonId": 885,
-      "Mrmrs": "vel",
-      "Firstname": "Rhiannon",
-      "Lastname": "Farrell",
-      "MiddleName": "Runte, Simonis and Goyette",
+      "Position": "odit",
+      "PersonId": 447,
+      "Mrmrs": "similique",
+      "Firstname": "Dessie",
+      "Lastname": "Boyer",
+      "MiddleName": "Halvorson-Turcotte",
       "Title": "fuga",
-      "Description": "Re-engineered fault-tolerant intranet",
-      "Email": "mac@hayes.uk",
-      "FullName": "Arthur Purdy",
-      "DirectPhone": "(659)304-8662 x588",
-      "FormalName": "Jast Group",
-      "CountryId": 684,
-      "ContactId": 652,
-      "ContactName": "Hermann, Kessler and Crist",
-      "Retired": 579,
-      "Rank": 109,
-      "ActiveInterests": 825,
+      "Description": "Synchronised well-modulated encryption",
+      "Email": "mauricio_lockman@bradtke.uk",
+      "FullName": "Toby Sawayn",
+      "DirectPhone": "(687)037-2638 x8153",
+      "FormalName": "Rippin Inc and Sons",
+      "CountryId": 479,
+      "ContactId": 286,
+      "ContactName": "Schimmel LLC",
+      "Retired": 483,
+      "Rank": 808,
+      "ActiveInterests": 685,
       "ContactDepartment": "",
-      "ContactCountryId": 92,
-      "ContactOrgNr": "1703990",
-      "FaxPhone": "865-178-5917 x441",
-      "MobilePhone": "228.581.2649",
-      "ContactPhone": "840-951-1929 x670",
-      "AssociateName": "Donnelly LLC",
-      "AssociateId": 788,
+      "ContactCountryId": 453,
+      "ContactOrgNr": "833947",
+      "FaxPhone": "234-574-8619 x492",
+      "MobilePhone": "(966)130-3697",
+      "ContactPhone": "(883)436-2713 x15979",
+      "AssociateName": "Hayes, Conroy and Prohaska",
+      "AssociateId": 464,
       "UsePersonAddress": false,
-      "ContactFax": "porro",
-      "Kanafname": "suscipit",
-      "Kanalname": "ut",
-      "Post1": "nam",
-      "Post2": "id",
-      "Post3": "dicta",
-      "EmailName": "haylee_mayer@simonis.uk",
-      "ContactFullName": "Lucious Olson",
-      "ActiveErpLinks": 481,
-      "TicketPriorityId": 35,
-      "SupportLanguageId": 327,
-      "SupportAssociateId": 231,
+      "ContactFax": "sit",
+      "Kanafname": "nihil",
+      "Kanalname": "doloremque",
+      "Post1": "fugiat",
+      "Post2": "quod",
+      "Post3": "ut",
+      "EmailName": "arnulfo@jasthermiston.co.uk",
+      "ContactFullName": "Christophe Bartell",
+      "ActiveErpLinks": 266,
+      "TicketPriorityId": 32,
+      "SupportLanguageId": 382,
+      "SupportAssociateId": 126,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldType": "System.Int32",
+          "FieldLength": 573
         }
       }
     }
   ],
-  "AlertLevel": 226,
-  "ConnectId": 378,
+  "AlertLevel": 668,
+  "ConnectId": 529,
   "ReadStatus": "Green",
-  "TimeToReply": 7,
-  "RealTimeToReply": 474,
-  "TimeToClose": 310,
-  "RealTimeToClose": 778,
-  "TimeSpentInternally": 962,
-  "TimeSpentExternally": 761,
-  "TimeSpentQueue": 496,
-  "RealTimeSpentInternally": 704,
-  "RealTimeSpentExternally": 563,
-  "RealTimeSpentQueue": 204,
-  "HasAttachment": false,
-  "NumReplies": 460,
-  "NumMessages": 855,
-  "FromAddress": "et",
+  "TimeToReply": 110,
+  "RealTimeToReply": 77,
+  "TimeToClose": 677,
+  "RealTimeToClose": 993,
+  "TimeSpentInternally": 409,
+  "TimeSpentExternally": 856,
+  "TimeSpentQueue": 736,
+  "RealTimeSpentInternally": 93,
+  "RealTimeSpentExternally": 732,
+  "RealTimeSpentQueue": 217,
+  "TimeSpent": 572,
+  "HasAttachment": true,
+  "NumReplies": 495,
+  "NumMessages": 774,
+  "FromAddress": "tempora",
   "Messages": [
     {
-      "TicketMessageId": 555,
-      "CreatedAt": "2023-04-23T03:31:27.3874142+02:00",
+      "TicketMessageId": 346,
+      "CreatedAt": "2022-11-30T03:24:48.4247716+01:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "quaerat",
-      "PersonId": 609,
-      "PersonFullName": "Amely Breitenberg DDS",
-      "ContactId": 169,
-      "ContactName": "Osinski, McClure and Moen",
+      "Author": "veniam",
+      "PersonId": 453,
+      "PersonFullName": "Mr. Michelle Homenick",
+      "ContactId": 88,
+      "ContactName": "Pollich, Batz and Schimmel",
       "ContactDepartment": "",
-      "NumAttachments": 274,
-      "EmailHeader": "davion.mertz@koelpinreynolds.ca",
+      "NumAttachments": 670,
+      "EmailHeader": "emilia@monahan.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "excepturi",
-      "Sentiment": 785,
-      "SentimentConfidence": 561,
-      "CreatedBy": 531,
-      "ChangedAt": "2019-03-08T03:31:27.3874142+01:00",
+      "Language": "voluptatem",
+      "Sentiment": 633,
+      "SentimentConfidence": 623,
+      "CreatedBy": 970,
+      "ChangedAt": "2008-10-20T03:24:48.4247716+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 95
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 535,
-      "Name": "Bosco-Cummerata",
-      "ToolTip": "Consequatur sapiente.",
+      "Id": 553,
+      "Name": "Kris-Murray",
+      "ToolTip": "Quasi laudantium tempore enim dolorem ea nihil quae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 622
         }
       }
     },
     {
-      "Id": 535,
-      "Name": "Bosco-Cummerata",
-      "ToolTip": "Consequatur sapiente.",
+      "Id": 553,
+      "Name": "Kris-Murray",
+      "ToolTip": "Quasi laudantium tempore enim dolorem ea nihil quae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 622
         }
       }
     }
   ],
-  "Language": "beatae",
-  "Sentiment": 769,
-  "SentimentConfidence": 490,
-  "SuggestedCategoryId": 630,
+  "Language": "temporibus",
+  "Sentiment": 464,
+  "SentimentConfidence": 36,
+  "SuggestedCategoryId": 599,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 966,
-  "IconHint": "expedita",
+  "OrigHumanCategoryId": 370,
+  "IconHint": "temporibus",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "vitae"
+    "CustomFields1": "et",
+    "CustomFields2": "laborum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   }
 }

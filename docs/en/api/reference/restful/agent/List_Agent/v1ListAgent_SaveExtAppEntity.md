@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 725,
-  "Name": "Windler-Wilderman",
-  "Tooltip": "temporibus",
-  "Deleted": true,
-  "Rank": 606,
-  "Filename": "voluptates",
-  "Parameters": "rem",
-  "Workdir": "culpa",
+  "ExtAppId": 59,
+  "Name": "Murray, Dare and Frami",
+  "Tooltip": "assumenda",
+  "Deleted": false,
+  "Rank": 790,
+  "Filename": "ipsa",
+  "Parameters": "pariatur",
+  "Workdir": "repellat",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnTravel": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 417,
+  "ShowInStatusBar": true,
+  "Icon": 562,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptas"
+  "Path": "debitis"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 118,
-  "Name": "Durgan-Dare",
-  "Tooltip": "tenetur",
+  "ExtAppId": 79,
+  "Name": "Shields LLC",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 705,
-  "Filename": "distinctio",
-  "Parameters": "nulla",
-  "Workdir": "velit",
+  "Rank": 463,
+  "Filename": "ut",
+  "Parameters": "accusantium",
+  "Workdir": "rem",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 496,
-  "WaitToFinish": false,
+  "Icon": 405,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "aut",
+  "Path": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 186
     }
   }
 }

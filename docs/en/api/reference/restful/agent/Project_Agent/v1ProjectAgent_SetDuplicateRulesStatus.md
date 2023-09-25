@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Pfeffer, Pacocha and Barrows",
-      "DisplayName": "Jakubowski, Stamm and Kshlerin",
-      "DisplayTooltip": "expedita",
+      "Name": "Quigley LLC",
+      "DisplayName": "Blick, Mohr and Rosenbaum",
+      "DisplayTooltip": "tenetur",
       "IsActive": false
     },
     {
-      "Name": "Pfeffer, Pacocha and Barrows",
-      "DisplayName": "Jakubowski, Stamm and Kshlerin",
-      "DisplayTooltip": "expedita",
+      "Name": "Quigley LLC",
+      "DisplayName": "Blick, Mohr and Rosenbaum",
+      "DisplayTooltip": "tenetur",
       "IsActive": false
     }
   ]

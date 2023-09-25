@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 155,
-  "Name": "Davis-Koepp",
-  "Tooltip": "iure",
-  "Deleted": false,
-  "Rank": 697,
-  "UdListDefinitionId": 278
+  "HeadingId": 342,
+  "Name": "Schiller-Kertzmann",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "Rank": 591,
+  "UdListDefinitionId": 19
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 609,
-  "Name": "Metz Inc and Sons",
+  "HeadingId": 899,
+  "Name": "Smith, Steuber and Gibson",
   "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 927,
-  "UdListDefinitionId": 169,
+  "Deleted": false,
+  "Rank": 418,
+  "UdListDefinitionId": 766,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 819
     }
   }
 }

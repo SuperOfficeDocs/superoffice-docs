@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Davis, Mayert and Lowe",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 908,
-    "Rank": 644,
+    "Id": 764,
+    "Name": "Hyatt-Fritsch",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "UdListDefinitionId": 771,
+    "Rank": 271,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldType": "System.String",
+        "FieldLength": 201
       }
     }
   }

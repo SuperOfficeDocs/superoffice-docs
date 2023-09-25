@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=in
+GET /api/v1/MDOList/{listname}/selectable?additional=nobis
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 470,
-    "Name": "Rodriguez Inc and Sons",
-    "ToolTip": "Nisi veritatis dolore et suscipit eum quod aut.",
+    "Id": 597,
+    "Name": "Barrows-Conn",
+    "ToolTip": "Et vero sequi minus sit.",
     "Deleted": false,
-    "Rank": 611,
-    "Type": "possimus",
-    "ColorBlock": 318,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "1998-07-01T03:31:33.6479544+02:00",
+    "Rank": 823,
+    "Type": "eligendi",
+    "ColorBlock": 554,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2002-12-20T03:24:52.2713365+01:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Senger Inc and Sons",
-        "ToolTip": "Quaerat eos quae libero dolorum nulla corporis.",
-        "Deleted": false,
-        "Rank": 202,
-        "Type": "voluptatibus",
-        "ColorBlock": 400,
-        "IconHint": "aperiam",
+        "Id": 76,
+        "Name": "Keeling-Legros",
+        "ToolTip": "Aperiam voluptas magni.",
+        "Deleted": true,
+        "Rank": 67,
+        "Type": "dolor",
+        "ColorBlock": 557,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2014-10-13T03:31:33.6479544+02:00",
+        "LastChanged": "2002-07-03T03:24:52.2713365+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "ut",
+        "ExtraInfo": "dolor",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Miss Kaylah Hartmann Sr.",
+        "FullName": "Kallie Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 919
+            "FieldType": "System.Int32",
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "facere",
+    "ExtraInfo": "veniam",
+    "StyleHint": "sunt",
     "Hidden": true,
-    "FullName": "Mr. Matteo Abshire",
+    "FullName": "Dr. Madison Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldLength": 641
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=et
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=iusto
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Lemke-Heaney",
-    "ToolTip": "Nulla animi est consequatur ut provident qui.",
-    "Deleted": true,
-    "Rank": 744,
-    "Type": "ut",
+    "Id": 259,
+    "Name": "Murphy-Morar",
+    "ToolTip": "Ut quos fugiat.",
+    "Deleted": false,
+    "Rank": 219,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Reichel LLC",
-        "ToolTip": "Sunt officiis in accusantium temporibus.",
+        "Id": 331,
+        "Name": "Wintheiser Inc and Sons",
+        "ToolTip": "Aut debitis ullam quis aut.",
         "Deleted": false,
-        "Rank": 167,
-        "Type": "qui",
+        "Rank": 11,
+        "Type": "nihil",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "hic",
-        "ColorBlock": 750,
-        "ExtraInfo": "aut",
-        "StyleHint": "molestias",
-        "FullName": "Mr. Beulah Blanca Kuhlman",
+        "IconHint": "voluptas",
+        "ColorBlock": 568,
+        "ExtraInfo": "qui",
+        "StyleHint": "omnis",
+        "FullName": "Ms. Maximus Sienna Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldLength": 839
           }
         }
       }
     ],
-    "IconHint": "quaerat",
-    "ColorBlock": 862,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "rerum",
-    "FullName": "Marcella Kling",
+    "IconHint": "voluptatum",
+    "ColorBlock": 159,
+    "ExtraInfo": "non",
+    "StyleHint": "iste",
+    "FullName": "Felipe Feil DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 203
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Green, Schinner and Rogahn",
-    "Tooltip": "omnis",
+    "Id": 785,
+    "Name": "Schoen-Jones",
+    "Tooltip": "ex",
     "Deleted": false,
-    "UdListDefinitionId": 11,
-    "Rank": 138,
+    "UdListDefinitionId": 137,
+    "Rank": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 32
       }
     }
   }

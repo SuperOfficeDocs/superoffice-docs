@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 09 Dec 2004 03:31:32 G12T
+Last-Modified: Tue, 04 May 2021 03:24:51 G5T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Thu, 09 Dec 2004 03:31:32 G12T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "id",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Thu, 09 Dec 2004 03:31:32 G12T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-05-16T03:31:32.8632191+02:00",
-  "Amount": 12952.822,
-  "SaleId": 925,
-  "Earning": 3616.636,
-  "EarningPercent": 9436.474,
-  "Heading": "mollitia",
-  "Number": "1462188",
-  "Probability": 277,
-  "CreatedDate": "2013-01-06T03:31:32.8632191+01:00",
-  "UpdatedDate": "2004-12-09T03:31:32.8632191+01:00",
+  "Saledate": "2021-10-03T03:24:51.849507+02:00",
+  "Amount": 26203.374,
+  "SaleId": 728,
+  "Earning": 11025.412,
+  "EarningPercent": 28663.564,
+  "Heading": "ut",
+  "Number": "1331157",
+  "Probability": 440,
+  "CreatedDate": "1997-05-23T03:24:51.849507+02:00",
+  "UpdatedDate": "2021-05-04T03:24:51.849507+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 110,
+  "ActiveLinks": 916,
   "Links": [
     {
-      "EntityName": "Kohler, Herman and Grimes",
-      "Id": 348,
-      "Description": "Advanced maximized firmware",
-      "ExtraInfo": "qui",
-      "LinkId": 205,
+      "EntityName": "Bashirian LLC",
+      "Id": 294,
+      "Description": "Multi-tiered directional moderator",
+      "ExtraInfo": "autem",
+      "LinkId": 959,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldLength": 492
         }
       }
     }
   ],
-  "NextDueDate": "2011-11-04T03:31:32.8632191+01:00",
-  "Postit": "consequatur",
+  "NextDueDate": "2022-02-02T03:24:51.849507+01:00",
+  "Postit": "fuga",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2008-09-15T03:31:32.8632191+02:00",
+  "ReopenDate": "1999-10-08T03:24:51.8651245+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Beahan-Towne",
-      "Comment": "labore",
-      "StakeholderRoleId": 962,
-      "CountryId": 823,
-      "PersonId": 626,
-      "EmailDescription": "tyler.medhurst@leannon.co.uk",
-      "EmailId": 599,
-      "EmailAddress": "cary@shanahankoelpin.ca",
-      "PhoneId": 220,
-      "ContactName": "Wehner Group",
-      "ContactId": 18,
-      "SaleId": 678,
-      "Mrmrs": "porro",
-      "Firstname": "Osvaldo",
-      "MiddleName": "Gulgowski Inc and Sons",
-      "Lastname": "Rippin",
-      "SaleStakeholderId": 114,
-      "Rank": 885,
-      "Phone": "438-555-5643 x0730",
+      "StakeholderRoleName": "Nikolaus, Aufderhar and DuBuque",
+      "Comment": "aliquam",
+      "StakeholderRoleId": 370,
+      "CountryId": 172,
+      "PersonId": 667,
+      "EmailDescription": "ella.rowe@rutherford.biz",
+      "EmailId": 99,
+      "EmailAddress": "eden@rennermills.uk",
+      "PhoneId": 972,
+      "ContactName": "Kreiger Inc and Sons",
+      "ContactId": 348,
+      "SaleId": 87,
+      "Mrmrs": "quia",
+      "Firstname": "Alexane",
+      "MiddleName": "Corkery Inc and Sons",
+      "Lastname": "Rempel",
+      "SaleStakeholderId": 863,
+      "Rank": 492,
+      "Phone": "(009)715-9838 x4735",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 750
+          "FieldLength": 391
         }
       }
     }
   ],
-  "ActiveErpLinks": 164,
+  "ActiveErpLinks": 644,
   "UserDefinedFields": {
-    "SuperOffice:1": "1718272449",
-    "SuperOffice:2": "Everett Lockman"
+    "SuperOffice:1": "Ena Wilkinson",
+    "SuperOffice:2": "Dayton Kiehn V"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "est"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "similique"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2018-03-23T03:31:32.8632191+01:00",
-  "PublishTo": "2007-11-07T03:31:32.8632191+01:00",
-  "PublishFrom": "1998-08-16T03:31:32.8632191+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-07-26T03:24:51.8807491+02:00",
+  "PublishTo": "2022-07-11T03:24:51.8807491+02:00",
+  "PublishFrom": "2000-01-18T03:24:51.8807491+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 620,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 212
         }
       }
     },
     {
-      "VisibleId": 620,
+      "VisibleId": 46,
       "Visibility": "All",
-      "DisplayValue": "exercitationem",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 212
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Thu, 09 Dec 2004 03:31:32 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 951
     }
   },
   "_Links": {

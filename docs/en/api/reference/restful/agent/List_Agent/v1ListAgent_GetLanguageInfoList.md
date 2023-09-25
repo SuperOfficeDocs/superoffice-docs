@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 80,
-    "LCID": 13,
-    "EnglishName": "Schmitt LLC",
-    "NativeName": "Langworth-Kunde",
-    "ThreeLetterISOLanguageName": "Luettgen Group",
-    "TwoLetterISOLanguageName": "Roob, Spinka and Schmidt",
+    "LanguageInfoId": 204,
+    "LCID": 184,
+    "EnglishName": "Feest LLC",
+    "NativeName": "Kerluke, Kihn and Reichert",
+    "ThreeLetterISOLanguageName": "Lehner, Bogan and Bayer",
+    "TwoLetterISOLanguageName": "Kshlerin-Heidenreich",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldLength": 736
       }
     }
   }

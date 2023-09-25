@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 636,
-  "Currency": "qui"
+  "QuoteConnectionId": 517,
+  "Currency": "non"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 914,
-    "ERPPriceListKey": "placeat",
-    "QuoteConnectionId": 701,
-    "Name": "Zboncak, Ziemann and D'Amore",
-    "Description": "Enhanced real-time encryption",
-    "Currency": "ad",
-    "CurrencyName": "Funk LLC",
-    "ValidFrom": "2022-12-27T03:31:27.0905589+01:00",
-    "ValidTo": "2023-04-14T03:31:27.0905589+02:00",
-    "IsActive": true,
+    "PriceListId": 454,
+    "ERPPriceListKey": "voluptate",
+    "QuoteConnectionId": 303,
+    "Name": "Kihn, Jerde and Schuster",
+    "Description": "Adaptive foreground circuit",
+    "Currency": "excepturi",
+    "CurrencyName": "Lynch-Casper",
+    "ValidFrom": "2014-12-06T03:24:48.1426062+01:00",
+    "ValidTo": "2023-09-10T03:24:48.1426062+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Value": "accusantium",
-    "Tooltip": "asperiores",
+    "Id": 854,
+    "Value": "ut",
+    "Tooltip": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 937
       }
     }
   },
   {
-    "Id": 603,
-    "Value": "accusantium",
-    "Tooltip": "asperiores",
+    "Id": 854,
+    "Value": "ut",
+    "Tooltip": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 937
       }
     }
   }

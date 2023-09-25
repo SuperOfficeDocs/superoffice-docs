@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dietrich, Green and Mitchell"
+  "Name": "Kutch Group"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Value": "rerum",
-    "Tooltip": "quo",
+    "Id": 659,
+    "Value": "eaque",
+    "Tooltip": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   },
   {
-    "Id": 526,
-    "Value": "rerum",
-    "Tooltip": "quo",
+    "Id": 659,
+    "Value": "eaque",
+    "Tooltip": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldType": "System.Int32",
+        "FieldLength": 880
       }
     }
   }

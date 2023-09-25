@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 17,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "impedit",
-  "Name": "Littel Group",
-  "Description": "User-centric systemic challenge",
-  "Code": "voluptas",
-  "PriceUnit": "quo",
-  "QuantityUnit": "sunt",
+  "ProductId": 435,
+  "ERPProductKey": "labore",
+  "ERPPriceListKey": "pariatur",
+  "Name": "Cassin, Sipes and Hoppe",
+  "Description": "Persevering bi-directional info-mediaries",
+  "Code": "voluptatum",
+  "PriceUnit": "error",
+  "QuantityUnit": "quis",
   "IsSubscription": false,
-  "SubscriptionUnit": "exercitationem",
-  "DefaultSubscriptionQuantity": 896.324,
-  "ItemNumber": "1357766",
+  "SubscriptionUnit": "ex",
+  "DefaultSubscriptionQuantity": 26429.022,
+  "ItemNumber": "873907",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "ex",
-  "VAT": 7991.7,
-  "VATInfo": "alias",
-  "UnitCost": 23410.98,
-  "UnitMinimumPrice": 10771.557999999999,
-  "UnitListPrice": 21737.424,
+  "ProductFamilyKey": "labore",
+  "ProductTypeKey": "aut",
+  "VAT": 14939.778,
+  "VATInfo": "non",
+  "UnitCost": 26773.762,
+  "UnitMinimumPrice": 19455.872,
+  "UnitListPrice": 18713.113999999998,
   "InAssortment": true,
-  "Supplier": "illo",
-  "SupplierCode": "aut",
-  "Rights": "repellat",
-  "Rule": "reprehenderit",
+  "Supplier": "omnis",
+  "SupplierCode": "eos",
+  "Rights": "aut",
+  "Rule": "expedita",
   "ExtraInfo": [
     {
-      "Name": "Barton Inc and Sons",
-      "Value": "cupiditate",
+      "Name": "Schmidt Group",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 323
         }
       }
     },
     {
-      "Name": "Barton Inc and Sons",
-      "Value": "cupiditate",
+      "Name": "Schmidt Group",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 323
         }
       }
     }
   ],
-  "RawExtraInfo": "repudiandae",
-  "ExtraField1": "est",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "dignissimos",
-  "ExtraField4": "dicta",
-  "ExtraField5": "in",
-  "InStock": 10185.5,
+  "RawExtraInfo": "totam",
+  "ExtraField1": "et",
+  "ExtraField2": "illum",
+  "ExtraField3": "reprehenderit",
+  "ExtraField4": "praesentium",
+  "ExtraField5": "possimus",
+  "InStock": 28710.574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 847
     }
   }
 }

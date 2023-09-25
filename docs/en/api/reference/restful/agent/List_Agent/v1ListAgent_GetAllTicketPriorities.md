@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 610,
-    "Name": "Feest-Hodkiewicz",
+    "TicketPriorityId": 248,
+    "Name": "Blick LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 464,
+    "SortOrder": 717,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 701,
-    "MonStart": "2004-10-27T03:31:26.6363156+02:00",
-    "MonStop": "1998-02-05T03:31:26.6363156+01:00",
-    "TueStart": "2019-05-09T03:31:26.6363156+02:00",
-    "TueStop": "2019-05-08T03:31:26.6363156+02:00",
-    "WedStart": "2021-04-05T03:31:26.6363156+02:00",
-    "WedStop": "2021-01-20T03:31:26.6363156+01:00",
-    "ThuStart": "1998-10-08T03:31:26.6363156+02:00",
-    "ThuStop": "1999-05-27T03:31:26.6363156+02:00",
-    "FriStart": "2013-07-03T03:31:26.6363156+02:00",
-    "FriStop": "2005-04-21T03:31:26.6363156+02:00",
-    "SatStart": "2000-08-20T03:31:26.6363156+02:00",
-    "SatStop": "2021-06-08T03:31:26.6363156+02:00",
-    "SunStart": "2019-03-01T03:31:26.6363156+01:00",
-    "SunStop": "2006-10-23T03:31:26.6363156+02:00",
+    "Deadline": 894,
+    "MonStart": "2017-11-13T03:24:47.8457602+01:00",
+    "MonStop": "2006-11-05T03:24:47.8457602+01:00",
+    "TueStart": "2006-01-14T03:24:47.8457602+01:00",
+    "TueStop": "1997-01-22T03:24:47.8457602+01:00",
+    "WedStart": "2004-01-16T03:24:47.8457602+01:00",
+    "WedStop": "2003-09-25T03:24:47.8457602+02:00",
+    "ThuStart": "2001-05-23T03:24:47.8457602+02:00",
+    "ThuStop": "2021-05-27T03:24:47.8457602+02:00",
+    "FriStart": "2020-09-24T03:24:47.8457602+02:00",
+    "FriStop": "2017-03-07T03:24:47.8457602+01:00",
+    "SatStart": "2001-01-16T03:24:47.8457602+01:00",
+    "SatStop": "2020-02-24T03:24:47.8457602+01:00",
+    "SunStart": "2007-03-28T03:24:47.8457602+02:00",
+    "SunStop": "2007-01-12T03:24:47.8457602+01:00",
     "NonDates": [
-      "est",
-      "fugit"
+      "voluptatem",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 692,
-        "AlertLevel": 176,
-        "AlertTimeout": 714,
-        "Action": 798,
-        "DelegateTo": 521,
-        "ScriptId": 605,
-        "EmailTo": "fannie@ritchiegorczany.info",
-        "SmsTo": "in",
-        "ReplyTemplateIdCustomer": 615,
-        "ReplyTemplateIdUser": 522,
-        "ReplyTemplateIdCatmast": 198,
-        "ReplyTemplateIdEmail": 840,
-        "RtiCustomerSms": 648,
-        "ReplyTemplateIdUserSms": 158,
-        "ReplyTemplateIdCatmastSms": 782,
-        "ReplyTemplateIdSms": 839,
+        "TicketAlertId": 342,
+        "AlertLevel": 309,
+        "AlertTimeout": 191,
+        "Action": 778,
+        "DelegateTo": 950,
+        "ScriptId": 763,
+        "EmailTo": "elinore_lemke@turcotte.uk",
+        "SmsTo": "velit",
+        "ReplyTemplateIdCustomer": 384,
+        "ReplyTemplateIdUser": 890,
+        "ReplyTemplateIdCatmast": 833,
+        "ReplyTemplateIdEmail": 357,
+        "RtiCustomerSms": 579,
+        "ReplyTemplateIdUserSms": 845,
+        "ReplyTemplateIdCatmastSms": 104,
+        "ReplyTemplateIdSms": 6,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 914
+            "FieldType": "System.Int32",
+            "FieldLength": 605
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 226
       }
     }
   }

@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2003-06-11T03:31:25.8697058+02:00",
+  "ActivityStartTime": "1997-12-17T03:24:47.3926839+01:00",
   "ContactCategories": [
-    14,
-    97
+    175,
+    424
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 605,
+    "ContactId": 317,
     "Department": "",
-    "OrgNr": "887585",
-    "Name": "Koepp-Muller",
+    "OrgNr": "1285022",
+    "Name": "Aufderhar-Friesen",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Bruce Hand",
+    "AssociateFullName": "Jaiden Mraz",
     "Action": "ActivityCompleted",
-    "ActionTime": "2009-01-25T03:31:25.8697058+01:00",
+    "ActionTime": "2020-08-19T03:24:47.3926839+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Koch, Marks and Dickinson",
-    "ActionId": 733,
-    "PersonId": 635,
-    "ActivityPersonId": 17,
-    "AssociateId": 401,
+    "ActivityPersonName": "Cruickshank-Hegmann",
+    "ActionId": 60,
+    "PersonId": 888,
+    "ActivityPersonId": 614,
+    "AssociateId": 172,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldLength": 227
       }
     }
   }

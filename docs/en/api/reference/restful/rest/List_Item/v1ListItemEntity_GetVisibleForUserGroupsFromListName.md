@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "O'Conner, Kuhn and Schamberger",
-    "ToolTip": "Rem sint odit quo quia libero voluptas.",
+    "Id": 315,
+    "Name": "Mills, Mann and Rice",
+    "ToolTip": "Est nihil atque animi architecto necessitatibus veritatis nesciunt.",
     "Deleted": false,
-    "Rank": 315,
-    "Type": "cum",
-    "ColorBlock": 939,
-    "IconHint": "et",
+    "Rank": 848,
+    "Type": "voluptas",
+    "ColorBlock": 896,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2003-02-12T03:31:33.4604945+01:00",
+    "LastChanged": "2014-02-19T03:24:52.1463474+01:00",
     "ChildItems": [
       {
-        "Id": 747,
-        "Name": "Gutmann-Von",
-        "ToolTip": "Perspiciatis id dolores aut optio dolore perspiciatis error.",
-        "Deleted": false,
-        "Rank": 128,
-        "Type": "ullam",
-        "ColorBlock": 186,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "2022-06-22T03:31:33.4604945+02:00",
+        "Id": 913,
+        "Name": "Kunde-Bashirian",
+        "ToolTip": "Ullam ipsum ea quia debitis.",
+        "Deleted": true,
+        "Rank": 211,
+        "Type": "voluptatem",
+        "ColorBlock": 679,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2004-12-09T03:24:52.1463474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "saepe",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Charity Winona Kuhlman Sr.",
+        "FullName": "Paxton Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 775
+            "FieldLength": 763
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "et",
+    "ExtraInfo": "rem",
+    "StyleHint": "debitis",
     "Hidden": true,
-    "FullName": "Ahmed Sipes DVM",
+    "FullName": "Quentin Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldLength": 846
       }
     }
   }

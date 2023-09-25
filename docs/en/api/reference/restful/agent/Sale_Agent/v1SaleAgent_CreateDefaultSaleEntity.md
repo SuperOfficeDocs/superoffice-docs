@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "occaecati",
+  "SaleText": "asperiores",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-11-08T03:31:27.1530871+01:00",
-  "Amount": 6130.1039999999994,
-  "SaleId": 337,
-  "Earning": 23489.329999999998,
-  "EarningPercent": 8098.2559999999994,
-  "Heading": "mollitia",
-  "Number": "1191618",
-  "Probability": 957,
-  "CreatedDate": "2017-05-10T03:31:27.1530871+02:00",
-  "UpdatedDate": "2007-11-29T03:31:27.1530871+01:00",
+  "Saledate": "2001-08-06T03:24:48.1894758+02:00",
+  "Amount": 13777.064,
+  "SaleId": 961,
+  "Earning": 24771.136,
+  "EarningPercent": 18728.784,
+  "Heading": "tempore",
+  "Number": "248870",
+  "Probability": 313,
+  "CreatedDate": "2020-02-15T03:24:48.1894758+01:00",
+  "UpdatedDate": "1998-04-16T03:24:48.1894758+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 429,
+  "ActiveLinks": 828,
   "Links": [
     {
-      "EntityName": "Kessler Inc and Sons",
-      "Id": 451,
-      "Description": "Synergistic bi-directional installation",
-      "ExtraInfo": "sequi",
-      "LinkId": 485,
+      "EntityName": "Haley, Davis and Dickinson",
+      "Id": 97,
+      "Description": "Profit-focused multimedia array",
+      "ExtraInfo": "non",
+      "LinkId": 937,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 330
+          "FieldLength": 266
         }
       }
     }
   ],
-  "NextDueDate": "2011-08-03T03:31:27.1530871+02:00",
-  "Postit": "corrupti",
+  "NextDueDate": "2015-08-21T03:24:48.1894758+02:00",
+  "Postit": "deleniti",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2010-12-15T03:31:27.1530871+01:00",
+  "ReopenDate": "2011-09-16T03:24:48.1894758+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "O'Connell LLC",
-      "Comment": "aut",
-      "StakeholderRoleId": 568,
-      "CountryId": 696,
-      "PersonId": 879,
-      "EmailDescription": "deangelo_ortiz@cremin.biz",
-      "EmailId": 261,
-      "EmailAddress": "maida@cummeratadavis.com",
-      "PhoneId": 34,
-      "ContactName": "Larkin, Rodriguez and Purdy",
-      "ContactId": 759,
-      "SaleId": 787,
-      "Mrmrs": "sit",
-      "Firstname": "Mazie",
-      "MiddleName": "Hayes LLC",
-      "Lastname": "Kuhic",
-      "SaleStakeholderId": 52,
-      "Rank": 460,
-      "Phone": "297.018.2800 x0725",
+      "StakeholderRoleName": "Armstrong-Conroy",
+      "Comment": "magni",
+      "StakeholderRoleId": 938,
+      "CountryId": 379,
+      "PersonId": 526,
+      "EmailDescription": "orrin@oconnell.name",
+      "EmailId": 100,
+      "EmailAddress": "mina@romaguerastehr.info",
+      "PhoneId": 292,
+      "ContactName": "Wisoky LLC",
+      "ContactId": 304,
+      "SaleId": 805,
+      "Mrmrs": "a",
+      "Firstname": "Maximillian",
+      "MiddleName": "Quitzon LLC",
+      "Lastname": "Ullrich",
+      "SaleStakeholderId": 83,
+      "Rank": 546,
+      "Phone": "175.686.6482 x304",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 899
+          "FieldLength": 811
         }
       }
     }
   ],
-  "ActiveErpLinks": 822,
+  "ActiveErpLinks": 674,
   "UserDefinedFields": {
-    "SuperOffice:1": "145402580",
-    "SuperOffice:2": "Prof. Neha Bella Wintheiser"
+    "SuperOffice:1": "1988944610",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "fuga",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "est",
+    "CustomFields2": "ad"
   },
-  "PublishEventDate": "2014-10-08T03:31:27.1530871+02:00",
-  "PublishTo": "2009-06-19T03:31:27.1530871+02:00",
-  "PublishFrom": "2008-12-30T03:31:27.1530871+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-09-11T03:24:48.1894758+02:00",
+  "PublishTo": "2011-03-23T03:24:48.1894758+01:00",
+  "PublishFrom": "2021-12-21T03:24:48.1894758+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 381,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 200
         }
       }
     },
     {
-      "VisibleId": 381,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 200
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 622
     }
   }
 }

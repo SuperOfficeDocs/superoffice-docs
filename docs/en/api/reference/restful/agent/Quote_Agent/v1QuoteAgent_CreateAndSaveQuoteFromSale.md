@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 10,
-  "CopyToSaleId": 196
+  "CopyFromSaleId": 661,
+  "CopyToSaleId": 31
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 257,
-  "SaleId": 944,
-  "QuoteConnectionId": 178,
-  "ERPQuoteKey": "perferendis",
-  "ERPOrderKey": "adipisci",
-  "ActiveQuoteVersionId": 936,
-  "AcceptedQuoteAlternativeId": 976,
-  "UseValuesFromQuote": 497,
-  "DocumentId": 658,
-  "PoNumber": "419620",
+  "QuoteId": 763,
+  "SaleId": 785,
+  "QuoteConnectionId": 832,
+  "ERPQuoteKey": "eos",
+  "ERPOrderKey": "velit",
+  "ActiveQuoteVersionId": 1000,
+  "AcceptedQuoteAlternativeId": 291,
+  "UseValuesFromQuote": 777,
+  "DocumentId": 767,
+  "PoNumber": "695738",
   "OrderComment": "ipsam",
-  "PreferredEmailCulture": "matilda.damore@reichert.com",
+  "PreferredEmailCulture": "lourdes_mertz@connelly.biz",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 177,
-      "ERPQuoteVersionKey": "earum",
-      "QuoteId": 368,
-      "Description": "Customer-focused exuding monitoring",
-      "Number": "719824",
+      "QuoteVersionId": 516,
+      "ERPQuoteVersionKey": "veniam",
+      "QuoteId": 178,
+      "Description": "Self-enabling next generation adapter",
+      "Number": "1646155",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 968,
-      "SentDate": "2008-01-21T03:31:27.106235+01:00",
-      "FollowupId": 195,
-      "ExpirationDate": "2021-04-25T03:31:27.106235+02:00",
-      "DeliveryCountryId": 756,
+      "LikelyQuoteAlternativeId": 576,
+      "SentDate": "2002-09-08T03:24:48.1426062+02:00",
+      "FollowupId": 484,
+      "ExpirationDate": "2018-06-28T03:24:48.1426062+02:00",
+      "DeliveryCountryId": 411,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 791,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "eius",
-      "ERPPaymentTypeKey": "aut",
-      "ERPDeliveryTermsKey": "itaque",
-      "ERPDeliveryTypeKey": "aperiam",
-      "Rank": 867,
-      "ApprovedBy": 820,
-      "ApprovedText": "veniam",
-      "ApprovedRegisteredBy": 332,
-      "ApprovedRegisteredDate": "2019-11-10T03:31:27.106235+01:00",
+      "InvoiceCountryId": 934,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "placeat",
+      "ERPPaymentTypeKey": "illum",
+      "ERPDeliveryTermsKey": "ratione",
+      "ERPDeliveryTypeKey": "sit",
+      "Rank": 204,
+      "ApprovedBy": 535,
+      "ApprovedText": "ipsam",
+      "ApprovedRegisteredBy": 163,
+      "ApprovedRegisteredDate": "2016-02-18T03:24:48.1426062+01:00",
       "ExtraField1": "quia",
-      "ExtraField2": "alias",
-      "ExtraField3": "qui",
-      "ExtraField4": "asperiores",
-      "ExtraField5": "sequi",
-      "LastRecalculated": "2016-06-23T03:31:27.106235+02:00",
-      "Updated": "2017-12-07T03:31:27.106235+01:00",
-      "UpdatedAssociateId": 548,
-      "Registered": "2002-12-21T03:31:27.106235+01:00",
-      "RegisteredAssociateId": 462,
-      "RequestAssociateId": 114,
-      "RequestComment": "ex",
+      "ExtraField2": "cum",
+      "ExtraField3": "modi",
+      "ExtraField4": "porro",
+      "ExtraField5": "quidem",
+      "LastRecalculated": "2005-03-27T03:24:48.1426062+02:00",
+      "Updated": "1998-08-28T03:24:48.1426062+02:00",
+      "UpdatedAssociateId": 713,
+      "Registered": "2021-10-27T03:24:48.1426062+02:00",
+      "RegisteredAssociateId": 114,
+      "RequestAssociateId": 753,
+      "RequestComment": "cum",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldType": "System.Int32",
+          "FieldLength": 873
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 256
     }
   }
 }

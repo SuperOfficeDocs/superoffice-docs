@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=299
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=42
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -87,49 +87,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 207,
-  "Field": "quis",
-  "RecordId": 255,
+  "RefCountsId": 411,
+  "Field": "quod",
+  "RecordId": 404,
   "SuggestedRecords": [
     {
-      "Id": 778,
-      "Name": "Hills LLC",
-      "ToolTip": "Distinctio maiores.",
+      "Id": 609,
+      "Name": "Considine Group",
+      "ToolTip": "Corrupti quasi voluptas.",
       "Deleted": false,
-      "Rank": 559,
-      "Type": "a",
+      "Rank": 333,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 264,
-      "ExtraInfo": "distinctio",
-      "StyleHint": "omnis",
-      "FullName": "Ottilie O'Hara",
+      "IconHint": "voluptates",
+      "ColorBlock": 36,
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "est",
+      "FullName": "Brando Mozelle Russel MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 190
         }
       }
     }
   ],
-  "CurrentValue": 662,
-  "TravelPrefix": 480,
-  "SatPrefix": 526,
+  "CurrentValue": 985,
+  "TravelPrefix": 662,
+  "SatPrefix": 894,
   "Allocate": true,
-  "Unique": true,
-  "ReadOnly": true,
+  "Unique": false,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 331
     }
   }
 }

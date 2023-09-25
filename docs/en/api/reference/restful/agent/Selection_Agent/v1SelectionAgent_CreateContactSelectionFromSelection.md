@@ -120,10 +120,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 369,
-  "Name": "Fisher, Kuphal and Crooks",
+  "SelectionId": 724,
+  "Name": "Macejkovic, Bogan and Ward",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative content-based function",
-  "Postit": "dolor",
+  "Description": "Cross-group executive success",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 242,
-  "IncludePerson": 306,
-  "MemberCount": 245,
-  "Name": "Raynor Group",
-  "PostitTextId": 455,
-  "CreatedDate": "2000-09-13T03:31:27.2468237+02:00",
-  "SelectionId": 818,
-  "SoundEx": "voluptatum",
-  "Source": 627,
-  "TextId": 778,
-  "UpdatedDate": "1999-09-24T03:31:27.2468237+02:00",
-  "UpdatedCount": 18,
-  "Visibility": 576,
+  "GroupIdx": 894,
+  "IncludePerson": 186,
+  "MemberCount": 101,
+  "Name": "Hane LLC",
+  "PostitTextId": 869,
+  "CreatedDate": "2007-10-02T03:24:48.2524255+02:00",
+  "SelectionId": 370,
+  "SoundEx": "nihil",
+  "Source": 57,
+  "TextId": 792,
+  "UpdatedDate": "2020-05-07T03:24:48.2524255+02:00",
+  "UpdatedCount": 279,
+  "Visibility": 103,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 945,
-  "TargetTableName": "Skiles-Rogahn",
-  "Completed": true,
-  "LeftSelectionId": 563,
-  "RightSelectionId": 403,
+  "TargetTableNumber": 865,
+  "TargetTableName": "Tremblay, Heidenreich and Wintheiser",
+  "Completed": false,
+  "LeftSelectionId": 938,
+  "RightSelectionId": 823,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hahn-Rice",
-  "ShadowProviderName": "Hodkiewicz Inc and Sons",
-  "ChartKey": "mollitia",
-  "LastLoaded": "2016-04-23T03:31:27.2468237+02:00",
-  "LastLoadedBy": 397,
+  "MainProviderName": "Reynolds Inc and Sons",
+  "ShadowProviderName": "O'Conner-Zboncak",
+  "ChartKey": "tempora",
+  "LastLoaded": "1996-12-06T03:24:48.2524255+01:00",
+  "LastLoadedBy": 684,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-10-05T03:31:27.2468237+02:00",
-  "LastMembershipChangeBy": 673,
+  "LastMembershipChange": "2017-08-21T03:24:48.2524255+02:00",
+  "LastMembershipChangeBy": 718,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "natus",
-  "MailingsProviderName": "Goldner, Greenholt and Greenholt",
-  "DashboardTileDefinitionId": 682,
+  "MainHeading": "aut",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Quitzon, Osinski and Waters",
+  "DashboardTileDefinitionId": 641,
   "VisibleFor": [
     {
-      "VisibleId": 804,
+      "VisibleId": 194,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 650
         }
       }
     },
     {
-      "VisibleId": 804,
+      "VisibleId": 194,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 650
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 725
     }
   }
 }

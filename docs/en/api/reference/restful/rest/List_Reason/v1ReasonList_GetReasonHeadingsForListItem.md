@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Abshire, Moen and Bechtelar",
-    "ToolTip": "Sint vero.",
+    "Id": 240,
+    "Name": "Mohr Group",
+    "ToolTip": "Expedita quia sint rerum molestiae.",
     "Deleted": true,
-    "Rank": 208,
-    "Type": "nesciunt",
-    "ColorBlock": 713,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2009-06-08T03:31:33.8367198+02:00",
+    "Rank": 963,
+    "Type": "harum",
+    "ColorBlock": 545,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2005-11-01T03:24:52.3806958+01:00",
     "ChildItems": [
       {
-        "Id": 602,
-        "Name": "Lindgren, Marks and Brakus",
-        "ToolTip": "Recusandae nihil et nobis rerum veniam.",
-        "Deleted": true,
-        "Rank": 886,
-        "Type": "et",
-        "ColorBlock": 793,
-        "IconHint": "ut",
+        "Id": 631,
+        "Name": "Kuvalis LLC",
+        "ToolTip": "Saepe voluptas beatae eligendi reiciendis.",
+        "Deleted": false,
+        "Rank": 275,
+        "Type": "rem",
+        "ColorBlock": 969,
+        "IconHint": "assumenda",
         "Selected": true,
-        "LastChanged": "2004-07-10T03:31:33.8367198+02:00",
+        "LastChanged": "2020-03-23T03:24:52.3806958+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Mrs. Jerel Karolann Cremin II",
+        "ExtraInfo": "quia",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Lavada Jerry Ryan DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 826
+            "FieldType": "System.String",
+            "FieldLength": 952
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "omnis",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Ms. Elliott Wyman Sr.",
+    "FullName": "Mrs. Magnus Gerlach III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 616
       }
     }
   }

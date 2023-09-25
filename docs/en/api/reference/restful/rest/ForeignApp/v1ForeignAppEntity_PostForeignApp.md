@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 942,
-  "Name": "Macejkovic LLC",
-  "CreatedDate": "2008-05-13T03:31:32.6132803+02:00",
-  "UpdatedDate": "2009-01-17T03:31:32.6132803+01:00",
+  "ForeignAppId": 455,
+  "Name": "Veum-Greenfelder",
+  "CreatedDate": "2005-06-27T03:24:51.6149823+02:00",
+  "UpdatedDate": "2002-06-18T03:24:51.6149823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 895,
-      "Name": "Blick Group",
-      "CreatedDate": "2019-11-25T03:31:32.6132803+01:00",
-      "UpdatedDate": "2018-05-20T03:31:32.6132803+02:00",
-      "AssociateFullName": "Brigitte Schiller",
-      "CreatedBy": "eveniet",
-      "UpdatedBy": "expedita",
-      "DeviceIdentifier": "quas",
-      "ForeignAppId": 386,
+      "ForeignDeviceId": 639,
+      "Name": "Schaefer Group",
+      "CreatedDate": "2002-10-03T03:24:51.6149823+02:00",
+      "UpdatedDate": "2008-04-20T03:24:51.6149823+02:00",
+      "AssociateFullName": "Kevon Dylan Rolfson DVM",
+      "CreatedBy": "possimus",
+      "UpdatedBy": "assumenda",
+      "DeviceIdentifier": "delectus",
+      "ForeignAppId": 16,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldType": "System.String",
+          "FieldLength": 429
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 790
     }
   }
 }

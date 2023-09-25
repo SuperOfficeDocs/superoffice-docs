@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 106,
-  "Name": "Kassulke Inc and Sons",
-  "Config": "ea",
-  "Rank": 894,
-  "Client": "fugit",
-  "Style": "delectus",
+  "DashboardThemeId": 712,
+  "Name": "Boyer LLC",
+  "Config": "id",
+  "Rank": 521,
+  "Client": "architecto",
+  "Style": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 492,
-    "Name": "Roob Group",
-    "Tooltip": "quaerat",
+    "HeadingId": 480,
+    "Name": "Stehr-Frami",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 26,
-    "UdListDefinitionId": 165
+    "Rank": 17,
+    "UdListDefinitionId": 977
   },
   {
-    "HeadingId": 492,
-    "Name": "Roob Group",
-    "Tooltip": "quaerat",
+    "HeadingId": 480,
+    "Name": "Stehr-Frami",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 26,
-    "UdListDefinitionId": 165
+    "Rank": 17,
+    "UdListDefinitionId": 977
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 719,
-    "Name": "Ondricka LLC",
-    "Tooltip": "quod",
+    "HeadingId": 985,
+    "Name": "Schaefer LLC",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "Rank": 822,
-    "UdListDefinitionId": 562,
+    "Rank": 633,
+    "UdListDefinitionId": 897,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 961
+        "FieldType": "System.Int32",
+        "FieldLength": 120
       }
     }
   }

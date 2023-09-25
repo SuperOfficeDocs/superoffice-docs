@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 332,
-    "ColumnId": 821,
-    "FieldDefault": "dolor",
-    "FieldHeight": 835,
-    "FieldLabel": "id",
-    "FieldLeft": 386,
-    "FieldTop": 776,
+    "UDefFieldId": 984,
+    "ColumnId": 416,
+    "FieldDefault": "quo",
+    "FieldHeight": 417,
+    "FieldLabel": "et",
+    "FieldLeft": 212,
+    "FieldTop": 580,
     "FieldType": "Checkbox",
-    "FieldWidth": 41,
-    "FormatMask": "accusamus",
+    "FieldWidth": 244,
+    "FormatMask": "voluptatibus",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 904,
-    "LabelLeft": 688,
-    "LabelTop": 226,
-    "LabelWidth": 31,
-    "LastVersionId": 840,
-    "ListTableId": 309,
+    "IsIndexed": true,
+    "LabelHeight": 601,
+    "LabelLeft": 888,
+    "LabelTop": 525,
+    "LabelWidth": 573,
+    "LastVersionId": 583,
+    "ListTableId": 290,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 121,
-    "ProgId": "ea",
-    "IsReadOnly": true,
-    "ShortLabel": "voluptate",
-    "TabOrder": 485,
-    "TextLength": 899,
-    "Tooltip": "soluta",
-    "UdefIdentity": 732,
-    "UDListDefinitionId": 488,
+    "Page1LineNo": 955,
+    "ProgId": "quis",
+    "IsReadOnly": false,
+    "ShortLabel": "delectus",
+    "TabOrder": 996,
+    "TextLength": 969,
+    "Tooltip": "ducimus",
+    "UdefIdentity": 46,
+    "UDListDefinitionId": 222,
     "Justification": "Center",
-    "Version": 493,
-    "TemplateVariableName": "Strosin, Bartell and Schneider",
-    "HasBeenPublished": false,
-    "MdoListName": "Carter-Padberg",
+    "Version": 77,
+    "TemplateVariableName": "Hills Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Muller, Rice and Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 578
       }
     }
   }

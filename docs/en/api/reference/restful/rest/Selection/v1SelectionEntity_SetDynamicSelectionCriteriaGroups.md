@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mills-Towne",
-    "Description": "Customizable bi-directional analyzer",
-    "Rank": 722,
+    "Name": "Wiegand-Berge",
+    "Description": "Extended non-volatile workforce",
+    "Rank": 135,
     "Restrictions": [
       {
-        "Name": "Wolff LLC",
-        "Operator": "nihil",
+        "Name": "Marquardt Inc and Sons",
+        "Operator": "occaecati",
         "Values": [
-          "ducimus",
-          "dolorum"
+          "qui",
+          "qui"
         ],
         "DisplayValues": [
-          "fugiat",
-          "ad"
+          "quis",
+          "eaque"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 268,
+        "InterParenthesis": 879,
         "InterOperator": "And",
-        "UniqueHash": 773
+        "UniqueHash": 218
       }
     ]
   },
   {
-    "Name": "Mills-Towne",
-    "Description": "Customizable bi-directional analyzer",
-    "Rank": 722,
+    "Name": "Wiegand-Berge",
+    "Description": "Extended non-volatile workforce",
+    "Rank": 135,
     "Restrictions": [
       {
-        "Name": "Wolff LLC",
-        "Operator": "nihil",
+        "Name": "Marquardt Inc and Sons",
+        "Operator": "occaecati",
         "Values": [
-          "ducimus",
-          "dolorum"
+          "qui",
+          "qui"
         ],
         "DisplayValues": [
-          "fugiat",
-          "ad"
+          "quis",
+          "eaque"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 268,
+        "InterParenthesis": 879,
         "InterOperator": "And",
-        "UniqueHash": 773
+        "UniqueHash": 218
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gleason-Schmitt",
-    "Description": "Object-based stable array",
-    "Rank": 96,
+    "Name": "McCullough, Grimes and Hodkiewicz",
+    "Description": "Fully-configurable non-volatile focus group",
+    "Rank": 471,
     "Restrictions": [
       {
-        "Name": "Abbott, Buckridge and Hagenes",
-        "Operator": "fugiat",
+        "Name": "Huels, Schneider and McLaughlin",
+        "Operator": "et",
         "Values": [
-          "sequi",
-          "nesciunt"
+          "corporis",
+          "molestiae"
         ],
         "DisplayValues": [
-          "iure",
-          "eum"
+          "fugit",
+          "quos"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 440,
+        "InterParenthesis": 711,
         "InterOperator": "And",
-        "UniqueHash": 753
+        "UniqueHash": 690
       }
     ]
   },
   {
-    "Name": "Gleason-Schmitt",
-    "Description": "Object-based stable array",
-    "Rank": 96,
+    "Name": "McCullough, Grimes and Hodkiewicz",
+    "Description": "Fully-configurable non-volatile focus group",
+    "Rank": 471,
     "Restrictions": [
       {
-        "Name": "Abbott, Buckridge and Hagenes",
-        "Operator": "fugiat",
+        "Name": "Huels, Schneider and McLaughlin",
+        "Operator": "et",
         "Values": [
-          "sequi",
-          "nesciunt"
+          "corporis",
+          "molestiae"
         ],
         "DisplayValues": [
-          "iure",
-          "eum"
+          "fugit",
+          "quos"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 440,
+        "InterParenthesis": 711,
         "InterOperator": "And",
-        "UniqueHash": 753
+        "UniqueHash": 690
       }
     ]
   }

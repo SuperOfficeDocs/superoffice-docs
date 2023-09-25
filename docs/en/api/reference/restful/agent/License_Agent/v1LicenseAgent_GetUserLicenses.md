@@ -80,7 +80,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 294
+  "AssociateId": 621
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wiegand, Terry and Frami",
-    "Description": "Advanced dedicated installation",
+    "Name": "Steuber-Schumm",
+    "Description": "Multi-layered homogeneous Graphic Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 582,
-        "Tooltip": "eos",
+        "Unrestricted": true,
+        "Total": 935,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 267,
-        "InUse": 526,
+        "Free": 190,
+        "InUse": 994,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 501,
-        "Name": "Davis Inc and Sons",
-        "Description": "Open-source coherent implementation",
-        "PrerequisiteModuleName": "Prohaska-Bergstrom",
-        "SortOrder": 947,
-        "ExtraFlags": 959,
+        "Assigned": false,
+        "ModuleLicenseId": 62,
+        "Name": "O'Reilly, Jacobs and Kihn",
+        "Description": "Synergistic national focus group",
+        "PrerequisiteModuleName": "Koss LLC",
+        "SortOrder": 934,
+        "ExtraFlags": 518,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldType": "System.Int32",
+            "FieldLength": 563
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 270,
-        "Tooltip": "quia",
+        "Total": 300,
+        "Tooltip": "minus",
         "CanAssign": true,
-        "Free": 207,
-        "InUse": 206,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 931,
-        "Name": "Wolff Group",
-        "Description": "Reduced human-resource protocol",
-        "PrerequisiteModuleName": "Orn, Bradtke and Gutkowski",
-        "SortOrder": 67,
-        "ExtraFlags": 632,
+        "Free": 296,
+        "InUse": 739,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 639,
+        "Name": "Glover, Gutmann and Schumm",
+        "Description": "Profit-focused zero tolerance secured line",
+        "PrerequisiteModuleName": "Harber-Auer",
+        "SortOrder": 162,
+        "ExtraFlags": 112,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 370
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 352
       }
     }
   },
   {
-    "Name": "Wiegand, Terry and Frami",
-    "Description": "Advanced dedicated installation",
+    "Name": "Steuber-Schumm",
+    "Description": "Multi-layered homogeneous Graphic Interface",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 582,
-        "Tooltip": "eos",
+        "Unrestricted": true,
+        "Total": 935,
+        "Tooltip": "sit",
         "CanAssign": false,
-        "Free": 267,
-        "InUse": 526,
+        "Free": 190,
+        "InUse": 994,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 501,
-        "Name": "Davis Inc and Sons",
-        "Description": "Open-source coherent implementation",
-        "PrerequisiteModuleName": "Prohaska-Bergstrom",
-        "SortOrder": 947,
-        "ExtraFlags": 959,
+        "Assigned": false,
+        "ModuleLicenseId": 62,
+        "Name": "O'Reilly, Jacobs and Kihn",
+        "Description": "Synergistic national focus group",
+        "PrerequisiteModuleName": "Koss LLC",
+        "SortOrder": 934,
+        "ExtraFlags": 518,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldType": "System.Int32",
+            "FieldLength": 563
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 270,
-        "Tooltip": "quia",
+        "Total": 300,
+        "Tooltip": "minus",
         "CanAssign": true,
-        "Free": 207,
-        "InUse": 206,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 931,
-        "Name": "Wolff Group",
-        "Description": "Reduced human-resource protocol",
-        "PrerequisiteModuleName": "Orn, Bradtke and Gutkowski",
-        "SortOrder": 67,
-        "ExtraFlags": 632,
+        "Free": 296,
+        "InUse": 739,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 639,
+        "Name": "Glover, Gutmann and Schumm",
+        "Description": "Profit-focused zero tolerance secured line",
+        "PrerequisiteModuleName": "Harber-Auer",
+        "SortOrder": 162,
+        "ExtraFlags": 112,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 370
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 352
       }
     }
   }

@@ -26,7 +26,7 @@ then contacts that have the <see cref="P:SuperOffice.CRM.Rows.ContactRow.Nomaili
 value will not NOT be included. If it is set to 1 or not set at all, such contacts WILL be included.</description></item><item><term>includePersonWithNoDMRestriction</term><description>If this boolean restriction is included and set to 0,
 then persons that have the <see cref="P:SuperOffice.CRM.Rows.PersonRow.Nomailing" /> property set to a nonzero
 value will not NOT be included. If it is set to 1 or not set at all, such persons WILL be included.
-Note that this restriction will by itself NOT trigger a person search; a genuine person-type restriction
+<para />Note that this restriction will by itself NOT trigger a person search; a genuine person-type restriction
 has to be present to do that.</description></item><item><term>includePersonRestriction</term><description>This restriction, if included, can have one of three distinct
 string values. The strings correspond to the values of the
 <see cref="T:SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType" /> enumeration (parsing
@@ -892,6 +892,7 @@ a non-null value for those contacts or persons that exist in the given static se
 |request/timeSpentQueue|timeSpan|Time spent in queue: Time spent in queue| x |
 |request/timeSpentExternally|timeSpan|Time spent externally: Time spent externally| x |
 |request/timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
+|request/timeSpent|timeSpan|Time spent: Time spent| x |
 |request/timeToReply|timeSpan|Time to reply: Time to reply| x |
 |request/timeToClose|timeSpan|Time to close: Time to close| x |
 |request/realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
@@ -978,11 +979,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |request/extra/x\_ticket\_short\_text|string|Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list|listAny|Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |request/extra/x\_ticket\_timestamp|datetime|Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
-|request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_project\_relation|stringorPK|Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq|stringorPK|Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation|listAny|Extra category relation: Category relation on request| x |
 |request/extra/y\_equipment/x\_name|string|Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -1082,11 +1083,11 @@ a non-null value for those contacts or persons that exist in the given static se
 |projectMembers/saintIntention|listAny|Intention|  |
 |projectMembers/saintTicketStatus|listAny|Status|  |
 |projectMembers/saintTicketCategory|listAny|Category|  |
-|projectMembers/project/textId|int|Text ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/project/textId|int|Text ID| x |
 |projectMembers/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personAppointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |personAppointment/icon|listAny|Category: Displays the icon for an activity type| x |
@@ -1178,7 +1179,7 @@ a non-null value for those contacts or persons that exist in the given static se
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticContactAddMembers?$select=contactUdef/SuperOffice:6,sale/registeredDate,appointment/associateId,appointment/cautionWarning,document/documentPublish/publishedBy
+GET /api/v1/archive/SelectionStaticContactAddMembers?$select=phone/formattedNumber,contactPhone/formattedNumber,streetAddress/line3,streetAddress/wgs84longitude,sourceRelation/associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

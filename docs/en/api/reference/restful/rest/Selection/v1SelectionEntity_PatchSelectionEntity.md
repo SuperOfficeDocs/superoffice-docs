@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "earum",
+    "path": "necessitatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "earum",
+    "path": "necessitatibus",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cloned value-added forecast",
-  "Postit": "veritatis",
+  "Description": "Proactive value-added function",
+  "Postit": "asperiores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 549,
-  "IncludePerson": 384,
-  "MemberCount": 17,
-  "Name": "Mertz, Parker and Metz",
-  "PostitTextId": 457,
-  "CreatedDate": "2003-11-09T03:31:32.9437607+01:00",
-  "SelectionId": 75,
-  "SoundEx": "eaque",
-  "Source": 59,
-  "TextId": 57,
-  "UpdatedDate": "2022-06-27T03:31:32.9437607+02:00",
-  "UpdatedCount": 201,
-  "Visibility": 914,
+  "GroupIdx": 975,
+  "IncludePerson": 507,
+  "MemberCount": 712,
+  "Name": "Kovacek, Schamberger and Lesch",
+  "PostitTextId": 716,
+  "CreatedDate": "2003-05-22T03:24:51.927622+02:00",
+  "SelectionId": 627,
+  "SoundEx": "quia",
+  "Source": 398,
+  "TextId": 331,
+  "UpdatedDate": "2007-08-27T03:24:51.927622+02:00",
+  "UpdatedCount": 90,
+  "Visibility": 370,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 955,
-  "TargetTableName": "Altenwerth-Casper",
+  "TargetTableNumber": 36,
+  "TargetTableName": "Hayes-Ziemann",
   "Completed": false,
-  "LeftSelectionId": 116,
-  "RightSelectionId": 235,
+  "LeftSelectionId": 522,
+  "RightSelectionId": 336,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Heaney Inc and Sons",
-  "ShadowProviderName": "Turner, Crist and Renner",
-  "ChartKey": "saepe",
-  "LastLoaded": "2009-06-16T03:31:32.9437607+02:00",
-  "LastLoadedBy": 613,
+  "MainProviderName": "Bosco, Haley and Fahey",
+  "ShadowProviderName": "Von, Shanahan and Eichmann",
+  "ChartKey": "sint",
+  "LastLoaded": "2006-01-09T03:24:51.927622+01:00",
+  "LastLoadedBy": 560,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-06-05T03:31:32.9437607+02:00",
-  "LastMembershipChangeBy": 300,
+  "LastMembershipChange": "2016-01-20T03:24:51.927622+01:00",
+  "LastMembershipChangeBy": 532,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Pfeffer, Davis and Christiansen",
-  "DashboardTileDefinitionId": 852,
+  "MainHeading": "et",
+  "MemberTabHeading": "unde",
+  "MailingsProviderName": "Grant Group",
+  "DashboardTileDefinitionId": 250,
   "VisibleFor": [
     {
-      "VisibleId": 238,
+      "VisibleId": 732,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 13
         }
       }
     },
     {
-      "VisibleId": 238,
+      "VisibleId": 732,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 13
         }
       }
     }
@@ -244,13 +244,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

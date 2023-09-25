@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 433,
-    "Name": "Ferry-Hansen",
-    "OrgNr": "256314",
+    "ContactId": 116,
+    "Name": "Wehner-Gutkowski",
+    "OrgNr": "1550801",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "eaque",
-    "DirectPhone": "243.599.0844",
-    "AssociateId": 506,
-    "CountryId": 199,
-    "EmailAddress": "josephine.leffler@bernhardwilliamson.biz",
-    "Kananame": "placeat",
-    "EmailAddressName": "assunta.larkin@kulaswilderman.us",
+    "City": "voluptate",
+    "DirectPhone": "377-207-0906",
+    "AssociateId": 178,
+    "CountryId": 549,
+    "EmailAddress": "bettye@marks.uk",
+    "Kananame": "sit",
+    "EmailAddressName": "rowena.west@nikolaus.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Erin McCullough",
+    "AssociateFullName": "Mae Welch Jr.",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quo",
-    "FullName": "Landen Durgan",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 129,
-    "Number1": "1335513",
-    "Number2": "1526236",
+    "FormattedAddress": "officia",
+    "FullName": "Mrs. Caleb Elwyn Hickle PhD",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 543,
+    "Number1": "692841",
+    "Number2": "1380889",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 1001
       }
     }
   }

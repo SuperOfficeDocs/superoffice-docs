@@ -130,17 +130,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 587,
-  "StartTime": "2019-09-16T03:31:25.1001331+02:00",
-  "EndTime": "2004-04-18T03:31:25.1001331+02:00",
-  "Count": 880,
+  "PersonId": 120,
+  "StartTime": "1997-03-31T03:24:46.9394467+02:00",
+  "EndTime": "2020-03-16T03:24:46.9394467+01:00",
+  "Count": 492,
   "TaskIds": [
-    804,
-    603
+    567,
+    218
   ]
 }
 ```
@@ -153,64 +153,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 848,
-    "StartDate": "1998-03-15T03:31:25.1001331+01:00",
-    "EndDate": "2014-03-06T03:31:25.1001331+01:00",
+    "AppointmentId": 107,
+    "StartDate": "2017-11-08T03:24:46.9394467+01:00",
+    "EndDate": "1998-09-18T03:24:46.9394467+02:00",
     "Type": "BookingForChecklist",
-    "Task": "fuga",
-    "AssociateFullName": "Hollis Hirthe",
-    "ContactName": "Predovic Inc and Sons",
-    "Description": "Team-oriented assymetric middleware",
-    "PersonFullName": "Jessyca Mohr",
-    "PersonId": 695,
-    "ContactId": 910,
-    "ProjectId": 344,
-    "ProjectName": "Jacobs, Cronin and Kulas",
-    "IsPublished": true,
-    "AssociateId": 325,
-    "ColorIndex": 628,
+    "Task": "unde",
+    "AssociateFullName": "Mrs. Antone Ward",
+    "ContactName": "Wiza Group",
+    "Description": "Programmable human-resource extranet",
+    "PersonFullName": "Maryjane Emard DDS",
+    "PersonId": 854,
+    "ContactId": 207,
+    "ProjectId": 143,
+    "ProjectName": "Schmeler-Zulauf",
+    "IsPublished": false,
+    "AssociateId": 735,
+    "ColorIndex": 409,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 554,
-    "PriorityName": "Mohr, Kuhlman and D'Amore",
+    "PriorityId": 552,
+    "PriorityName": "Macejkovic-Reichel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2015-03-13T03:31:25.1157524+01:00",
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2001-05-19T03:24:46.9394467+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-05-05T03:31:25.1157524+02:00",
-    "RecurringEndDate": "2010-03-11T03:31:25.1157524+01:00",
-    "MotherId": 431,
-    "AssignedBy": 65,
-    "AssignedByFullName": "Miss Javier Logan Gaylord",
+    "RecurringStartDate": "2013-09-24T03:24:46.9394467+02:00",
+    "RecurringEndDate": "2021-10-25T03:24:46.9394467+02:00",
+    "MotherId": 538,
+    "AssignedBy": 84,
+    "AssignedByFullName": "Dr. Tracey Casper",
     "RejectReason": "",
-    "Location": "repellat",
-    "AlarmLeadTime": "velit",
-    "SaleId": 24,
-    "SaleName": "Herzog Group",
-    "AssociateName": "Swaniawski-Kunde",
-    "CreatedDate": "2015-02-16T03:31:25.1157524+01:00",
-    "CreatedBy": "sit",
-    "CreatedByFullName": "Rolando Keeling",
-    "CreatedByAssociateId": 581,
+    "Location": "labore",
+    "AlarmLeadTime": "architecto",
+    "SaleId": 861,
+    "SaleName": "Swaniawski, Huels and Turcotte",
+    "AssociateName": "Davis-Hauck",
+    "CreatedDate": "1996-06-07T03:24:46.9394467+02:00",
+    "CreatedBy": "explicabo",
+    "CreatedByFullName": "Kiley Keebler",
+    "CreatedByAssociateId": 658,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "sunt",
-    "Agenda": "sint",
-    "InternalNotes": "cumque",
+    "Title": "reiciendis",
+    "Agenda": "sit",
+    "InternalNotes": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 259
+        "FieldLength": 811
       }
     }
   }

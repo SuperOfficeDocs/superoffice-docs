@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Larson-Vandervort",
-      "Description": "Devolved tertiary strategy",
+      "Name": "Lesch Group",
+      "Description": "Cross-platform 3rd generation focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Larson-Vandervort",
-      "Description": "Devolved tertiary strategy",
+      "Name": "Lesch Group",
+      "Description": "Cross-platform 3rd generation focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schaden Group",
-    "Description": "Triple-buffered regional neural-net",
+    "Name": "Ebert-Lang",
+    "Description": "Polarised needs-based algorithm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 17,
-        "Tooltip": "repellendus",
-        "CanAssign": true,
-        "Free": 64,
-        "InUse": 611,
+        "Total": 714,
+        "Tooltip": "ut",
+        "CanAssign": false,
+        "Free": 965,
+        "InUse": 314,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 923,
-        "Name": "Lubowitz-Runte",
-        "Description": "Re-contextualized actuating hierarchy",
-        "PrerequisiteModuleName": "Olson LLC",
-        "SortOrder": 140,
-        "ExtraFlags": 231,
+        "ModuleLicenseId": 969,
+        "Name": "Graham-Bosco",
+        "Description": "Implemented modular productivity",
+        "PrerequisiteModuleName": "Dare, Bernhard and O'Conner",
+        "SortOrder": 290,
+        "ExtraFlags": 556,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 222
+            "FieldType": "System.String",
+            "FieldLength": 139
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 155,
-        "Tooltip": "sed",
-        "CanAssign": true,
-        "Free": 812,
-        "InUse": 502,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 841,
+        "Tooltip": "commodi",
+        "CanAssign": false,
+        "Free": 283,
+        "InUse": 225,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 597,
-        "Name": "Denesik-Ward",
-        "Description": "Re-contextualized object-oriented conglomeration",
-        "PrerequisiteModuleName": "Klein Inc and Sons",
-        "SortOrder": 639,
-        "ExtraFlags": 752,
+        "ModuleLicenseId": 759,
+        "Name": "Harris, Gerhold and Corkery",
+        "Description": "Realigned national solution",
+        "PrerequisiteModuleName": "Brown, Bechtelar and McKenzie",
+        "SortOrder": 505,
+        "ExtraFlags": 718,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldLength": 661
           }
         }
       }
@@ -178,61 +178,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldLength": 643
       }
     }
   },
   {
-    "Name": "Schaden Group",
-    "Description": "Triple-buffered regional neural-net",
+    "Name": "Ebert-Lang",
+    "Description": "Polarised needs-based algorithm",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 17,
-        "Tooltip": "repellendus",
-        "CanAssign": true,
-        "Free": 64,
-        "InUse": 611,
+        "Total": 714,
+        "Tooltip": "ut",
+        "CanAssign": false,
+        "Free": 965,
+        "InUse": 314,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 923,
-        "Name": "Lubowitz-Runte",
-        "Description": "Re-contextualized actuating hierarchy",
-        "PrerequisiteModuleName": "Olson LLC",
-        "SortOrder": 140,
-        "ExtraFlags": 231,
+        "ModuleLicenseId": 969,
+        "Name": "Graham-Bosco",
+        "Description": "Implemented modular productivity",
+        "PrerequisiteModuleName": "Dare, Bernhard and O'Conner",
+        "SortOrder": 290,
+        "ExtraFlags": 556,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 222
+            "FieldType": "System.String",
+            "FieldLength": 139
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 155,
-        "Tooltip": "sed",
-        "CanAssign": true,
-        "Free": 812,
-        "InUse": 502,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 841,
+        "Tooltip": "commodi",
+        "CanAssign": false,
+        "Free": 283,
+        "InUse": 225,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 597,
-        "Name": "Denesik-Ward",
-        "Description": "Re-contextualized object-oriented conglomeration",
-        "PrerequisiteModuleName": "Klein Inc and Sons",
-        "SortOrder": 639,
-        "ExtraFlags": 752,
+        "ModuleLicenseId": 759,
+        "Name": "Harris, Gerhold and Corkery",
+        "Description": "Realigned national solution",
+        "PrerequisiteModuleName": "Brown, Bechtelar and McKenzie",
+        "SortOrder": 505,
+        "ExtraFlags": 718,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldLength": 661
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldLength": 643
       }
     }
   }

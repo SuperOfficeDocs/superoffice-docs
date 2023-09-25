@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5
+  "Id": 963
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 796,
-  "Rank": 411,
-  "DefaultTask": 191,
-  "DefaultTaskText": "voluptatum",
-  "IsVisual": true,
-  "LastGenerated": "2022-04-22T03:31:27.1374712+02:00",
-  "Description": "Networked clear-thinking system engine",
-  "Name": "Bins LLC",
-  "StatusMonitorId": 500,
-  "PictureId": 173,
+  "OwnerTable": 465,
+  "Rank": 113,
+  "DefaultTask": 411,
+  "DefaultTaskText": "nesciunt",
+  "IsVisual": false,
+  "LastGenerated": "2021-04-30T03:24:48.1738537+02:00",
+  "Description": "Organized user-facing conglomeration",
+  "Name": "Keebler, Ullrich and Cole",
+  "StatusMonitorId": 878,
+  "PictureId": 557,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 560,
-  "NumNeedUpdate": 784,
-  "GenerationStart": "2018-08-17T03:31:27.1374712+02:00",
+  "NumMatches": 332,
+  "NumNeedUpdate": 18,
+  "GenerationStart": "1997-08-12T03:24:48.1738537+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

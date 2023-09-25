@@ -46,7 +46,7 @@ Lists all email flow content
 |emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |emailFlow/workflowId|int|Workflow id: Id of a worflow definition| x |
 |emailFlow/workflowDescription|string|Description: Description of the workflow definition| x |
-|emailFlow/workflowDefinitionStatus|listAny|Status: Status of the workflow definition| x |
+|emailFlow/workflowDefinitionStatus|listAny|E-mail flow status: Status of the workflow definition| x |
 |emailFlow/jumpToFinish|bool|Jump to finish: Should participant jump to finish when the goals are met?| x |
 |emailFlow/startOnlyOnce|bool|Start only once: Should the participant enter the workflow only once?| x |
 |emailFlow/workflowEnrolledCount| *None* |Enrolled: How many times has a participant entered this workflow|  |
@@ -646,7 +646,7 @@ Lists all email flow content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowContent?$select=emailFlow/workflowAssociate/contactDepartment,shipment/mailingAddr/contact/orgnr,shipment/mailingAddr/contact/restrictionAddress/line2,shipment/mailingAddr/contact/contactAssociate/credentialDisplayValue,shipment/mailingAddr/person/ticketPriority
+GET /api/v1/archive/EmailFlowContent?$select=shipment/mailingAddr/contact/postAddress/wgs84longitude,shipment/project/projectAssociate/middleName,shipment/project/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

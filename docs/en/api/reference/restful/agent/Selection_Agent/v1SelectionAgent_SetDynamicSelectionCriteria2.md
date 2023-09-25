@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 262,
-  "Filter": "aspernatur"
+  "SelectionId": 94,
+  "Filter": "velit"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Davis LLC",
-    "Operator": "ullam",
+    "Name": "Willms-Stoltenberg",
+    "Operator": "optio",
     "Values": [
-      "quis",
-      "minima"
+      "sit",
+      "sint"
     ],
     "DisplayValues": [
-      "et",
-      "sed"
+      "dolorem",
+      "nam"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kling, Wiza and Gaylord",
-        "Operator": "consequatur",
+        "Name": "Lemke-Beer",
+        "Operator": "debitis",
         "Values": [
-          "repellat",
-          "ut"
+          "vitae",
+          "saepe"
         ],
         "DisplayValues": [
-          "ipsa",
-          "voluptas"
+          "molestiae",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 640,
+        "InterParenthesis": 320,
         "InterOperator": "And",
-        "UniqueHash": 522
+        "UniqueHash": 524
       }
     ],
-    "InterParenthesis": 259,
+    "InterParenthesis": 939,
     "InterOperator": "And",
-    "UniqueHash": 369
+    "UniqueHash": 948
   }
 ]
 ```

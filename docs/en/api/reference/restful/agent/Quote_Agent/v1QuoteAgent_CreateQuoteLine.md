@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 662,
-  "ERPProductKey": "ut"
+  "QuoteAlternativeId": 204,
+  "ERPProductKey": "saepe"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 73,
-  "ERPQuoteLineKey": "consequatur",
-  "QuoteAlternativeId": 301,
-  "ERPProductKey": "laudantium",
+  "QuoteLineId": 934,
+  "ERPQuoteLineKey": "vero",
+  "QuoteAlternativeId": 828,
+  "ERPProductKey": "maiores",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18666.104,
-  "DeliveredQuantity": 22589.872,
-  "Rank": 853,
-  "Name": "O'Reilly LLC",
-  "Description": "Realigned mission-critical moderator",
-  "Code": "dolorum",
-  "QuantityUnit": "dolores",
-  "PriceUnit": "quis",
-  "ItemNumber": "1760866",
+  "Quantity": 18995.174,
+  "DeliveredQuantity": 29453.332,
+  "Rank": 189,
+  "Name": "Douglas-Cronin",
+  "Description": "Stand-alone impactful application",
+  "Code": "veniam",
+  "QuantityUnit": "rerum",
+  "PriceUnit": "quia",
+  "ItemNumber": "1266010",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quos",
-  "ProductTypeKey": "molestiae",
-  "Supplier": "doloremque",
+  "ProductFamilyKey": "quidem",
+  "ProductTypeKey": "sed",
+  "Supplier": "officiis",
   "SupplierCode": "quo",
-  "Thumbnail": "fuga",
-  "VATInfo": "earum",
-  "VAT": 30111.471999999998,
-  "UnitCost": 25833.561999999998,
-  "UnitMinimumPrice": 26275.456,
-  "UnitListPrice": 639.336,
+  "Thumbnail": "sed",
+  "VATInfo": "dolor",
+  "VAT": 29243.354,
+  "UnitCost": 9464.68,
+  "UnitMinimumPrice": 7831.866,
+  "UnitListPrice": 9853.296,
   "ExtraInfo": [
     {
-      "Name": "Bailey, Beer and Morar",
-      "Value": "veritatis",
+      "Name": "Moen, Abbott and Aufderhar",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 975
         }
       }
     },
     {
-      "Name": "Bailey, Beer and Morar",
-      "Value": "veritatis",
+      "Name": "Moen, Abbott and Aufderhar",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 975
         }
       }
     }
   ],
-  "RawExtraInfo": "quaerat",
+  "RawExtraInfo": "autem",
   "IsSubscription": false,
-  "SubscriptionUnit": "rerum",
-  "SubscriptionQuantity": 8881.756,
-  "SubscriptionStart": "2017-12-22T03:31:27.106235+01:00",
-  "ERPDiscountPercent": 21345.674,
-  "ERPDiscountAmount": 2858.208,
-  "DiscountPercent": 16362.614,
-  "DiscountAmount": 13344.572,
+  "SubscriptionUnit": "amet",
+  "SubscriptionQuantity": 23226.074,
+  "SubscriptionStart": "2016-09-21T03:24:48.1426062+02:00",
+  "ERPDiscountPercent": 12062.766,
+  "ERPDiscountAmount": 3312.638,
+  "DiscountPercent": 1178.384,
+  "DiscountAmount": 25238.102,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 131.628,
-  "EarningAmount": 9740.472,
-  "SubTotal": 12200.662,
-  "TotalPrice": 13795.868,
-  "Rights": "eos",
-  "Rule": "in",
-  "ExtraField1": "magni",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "vitae",
+  "EarningPercent": 12730.307999999999,
+  "EarningAmount": 16406.489999999998,
+  "SubTotal": 24714.724,
+  "TotalPrice": 20374.134,
+  "Rights": "reiciendis",
+  "Rule": "ut",
+  "ExtraField1": "dolor",
+  "ExtraField2": "sed",
+  "ExtraField3": "et",
   "ExtraField4": "qui",
-  "ExtraField5": "nulla",
+  "ExtraField5": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 796
     }
   }
 }

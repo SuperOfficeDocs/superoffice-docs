@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Grimes Group",
+  "UdListDefinitionName": "Emard LLC",
   "Items": [
     {
-      "Id": 890,
-      "Name": "Nicolas Inc and Sons",
-      "Tooltip": "iste",
-      "Deleted": true,
-      "UdListDefinitionId": 876,
-      "Rank": 178
+      "Id": 434,
+      "Name": "Lindgren Group",
+      "Tooltip": "molestias",
+      "Deleted": false,
+      "UdListDefinitionId": 170,
+      "Rank": 380
     },
     {
-      "Id": 890,
-      "Name": "Nicolas Inc and Sons",
-      "Tooltip": "iste",
-      "Deleted": true,
-      "UdListDefinitionId": 876,
-      "Rank": 178
+      "Id": 434,
+      "Name": "Lindgren Group",
+      "Tooltip": "molestias",
+      "Deleted": false,
+      "UdListDefinitionId": 170,
+      "Rank": 380
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Schiller-Zboncak",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 991,
-    "Rank": 713,
+    "Id": 752,
+    "Name": "Kreiger, Ortiz and Ernser",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "UdListDefinitionId": 999,
+    "Rank": 89,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 414
       }
     }
   }

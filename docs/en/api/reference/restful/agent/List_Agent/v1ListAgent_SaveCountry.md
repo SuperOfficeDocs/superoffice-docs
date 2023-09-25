@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 120,
-  "Name": "Rice-Treutel",
-  "CurrencyId": 898,
-  "EnglishName": "McCullough Inc and Sons",
+  "CountryId": 21,
+  "Name": "Schmidt Inc and Sons",
+  "CurrencyId": 928,
+  "EnglishName": "Thompson Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Adaptive bandwidth-monitored model",
-  "OrgNrText": "795615",
-  "InterAreaPrefix": "quis",
-  "DialInPrefix": "non",
-  "ZipPrefix": "ipsa",
-  "DomainName": "Mann, Schumm and West",
-  "AddressLayoutId": 900,
-  "DomesticAddressLayoutId": 350,
-  "ForeignAddressLayoutId": 699,
-  "Rank": 124,
-  "Tooltip": "natus",
+  "ImageDescription": "Ameliorated contextually-based portal",
+  "OrgNrText": "1080610",
+  "InterAreaPrefix": "alias",
+  "DialInPrefix": "at",
+  "ZipPrefix": "laboriosam",
+  "DomainName": "Sawayn, Wisoky and Ratke",
+  "AddressLayoutId": 391,
+  "DomesticAddressLayoutId": 521,
+  "ForeignAddressLayoutId": 412,
+  "Rank": 56,
+  "Tooltip": "exercitationem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 684
     }
   }
 }

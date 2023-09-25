@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Pollich, Ward and Crona",
-    "ToolTip": "Quas sed.",
+    "Id": 773,
+    "Name": "Conroy-Runte",
+    "ToolTip": "Molestiae adipisci eveniet repudiandae pariatur.",
     "Deleted": false,
-    "Rank": 902,
-    "Type": "nihil",
-    "ColorBlock": 276,
-    "IconHint": "cupiditate",
+    "Rank": 159,
+    "Type": "quod",
+    "ColorBlock": 196,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2021-04-08T03:31:33.7898498+02:00",
+    "LastChanged": "2020-08-22T03:24:52.3650758+02:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Buckridge Group",
-        "ToolTip": "Officia accusamus laborum nam.",
+        "Id": 193,
+        "Name": "Dietrich Inc and Sons",
+        "ToolTip": "Doloribus accusantium id veniam quam consectetur.",
         "Deleted": false,
-        "Rank": 998,
-        "Type": "enim",
-        "ColorBlock": 436,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2003-02-04T03:31:33.7898498+01:00",
+        "Rank": 941,
+        "Type": "est",
+        "ColorBlock": 305,
+        "IconHint": "voluptatum",
+        "Selected": false,
+        "LastChanged": "2021-08-01T03:24:52.3650758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Ms. Travis Cummings IV",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Deshawn Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 549
+            "FieldType": "System.Int32",
+            "FieldLength": 780
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "iste",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Bennett D'Amore",
+    "FullName": "Dannie Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 849
       }
     }
   }

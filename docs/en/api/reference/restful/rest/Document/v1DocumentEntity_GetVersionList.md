@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "hic",
-    "DocumentId": 210,
-    "VersionId": "similique",
-    "CheckedInDate": "2001-11-20T03:31:32.597663+01:00",
-    "CheckedInByName": "Stracke, Schinner and Jacobson",
-    "CheckedInByAssociateId": 134,
-    "Description": "Diverse disintermediate extranet",
-    "DisplayText": "dicta",
+    "ExternalReference": "fugiat",
+    "DocumentId": 49,
+    "VersionId": "id",
+    "CheckedInDate": "2018-07-02T03:24:51.599356+02:00",
+    "CheckedInByName": "Pfannerstill, Wiegand and Wintheiser",
+    "CheckedInByAssociateId": 804,
+    "Description": "Profound value-added system engine",
+    "DisplayText": "architecto",
     "ExtraFields": [
-      "nam",
-      "quam"
+      "maxime",
+      "ut"
     ]
   }
 ]

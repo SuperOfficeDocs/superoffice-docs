@@ -127,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 351,
-  "RecurrenceRuleId": 44
+  "MotherId": 844,
+  "RecurrenceRuleId": 779
 }
 ```
 
@@ -144,64 +144,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 890,
-    "StartDate": "2018-11-23T03:31:25.1313731+01:00",
-    "EndDate": "2014-01-17T03:31:25.1313731+01:00",
+    "AppointmentId": 224,
+    "StartDate": "1997-05-10T03:24:46.9713962+02:00",
+    "EndDate": "2016-05-31T03:24:46.9713962+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Prof. Ariane Casey Hickle PhD",
-    "ContactName": "Hintz-Paucek",
-    "Description": "Open-source fresh-thinking project",
-    "PersonFullName": "Abagail Prohaska II",
-    "PersonId": 609,
-    "ContactId": 787,
-    "ProjectId": 759,
-    "ProjectName": "Hane, Marks and Kirlin",
-    "IsPublished": false,
-    "AssociateId": 826,
-    "ColorIndex": 540,
+    "Task": "non",
+    "AssociateFullName": "Jayce Reichert",
+    "ContactName": "Zemlak, Dare and Nader",
+    "Description": "Team-oriented motivating functionalities",
+    "PersonFullName": "Toni Beer",
+    "PersonId": 407,
+    "ContactId": 486,
+    "ProjectId": 328,
+    "ProjectName": "Effertz-Ryan",
+    "IsPublished": true,
+    "AssociateId": 840,
+    "ColorIndex": 131,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 140,
-    "PriorityName": "Friesen-Bartoletti",
+    "PriorityId": 7,
+    "PriorityName": "Sipes-Altenwerth",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-05-27T03:31:25.1313731+02:00",
+    "ActiveDate": "2014-12-09T03:24:46.9713962+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-08-18T03:31:25.1313731+02:00",
-    "RecurringEndDate": "2022-04-13T03:31:25.1313731+02:00",
-    "MotherId": 837,
-    "AssignedBy": 253,
-    "AssignedByFullName": "Vinnie Botsford",
+    "RecurringStartDate": "2000-03-29T03:24:46.9713962+02:00",
+    "RecurringEndDate": "2010-08-20T03:24:46.9713962+02:00",
+    "MotherId": 904,
+    "AssignedBy": 254,
+    "AssignedByFullName": "Percival Kling",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "minus",
-    "SaleId": 895,
-    "SaleName": "Hahn, Kihn and Ryan",
-    "AssociateName": "Hessel-Walter",
-    "CreatedDate": "2018-06-06T03:31:25.1313731+02:00",
-    "CreatedBy": "iste",
-    "CreatedByFullName": "Maximilian Ferry",
-    "CreatedByAssociateId": 468,
+    "Location": "omnis",
+    "AlarmLeadTime": "odit",
+    "SaleId": 715,
+    "SaleName": "Batz, Hirthe and Miller",
+    "AssociateName": "Powlowski-Orn",
+    "CreatedDate": "2011-01-14T03:24:46.9713962+01:00",
+    "CreatedBy": "tempore",
+    "CreatedByFullName": "Ms. Aditya Nader",
+    "CreatedByAssociateId": 792,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "architecto",
-    "Agenda": "fuga",
-    "InternalNotes": "dolore",
+    "Title": "officia",
+    "Agenda": "qui",
+    "InternalNotes": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 764
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 727,
-  "Name": "Ruecker LLC",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "UdListDefinitionId": 194,
-  "Rank": 626,
+  "Id": 388,
+  "Name": "Barrows Inc and Sons",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "UdListDefinitionId": 21,
+  "Rank": 671,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 434
     }
   }
 }

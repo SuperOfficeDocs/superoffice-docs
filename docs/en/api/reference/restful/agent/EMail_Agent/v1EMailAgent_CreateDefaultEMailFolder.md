@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grant Group",
-  "Delimiter": "velit",
-  "Flags": "ipsam",
-  "TotalItems": 471,
-  "UnreadItems": 591,
+  "Name": "Bins LLC",
+  "Delimiter": "architecto",
+  "Flags": "nulla",
+  "TotalItems": 97,
+  "UnreadItems": 737,
   "Subscribed": false,
-  "EmailFolderId": 459,
+  "EmailFolderId": 895,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldType": "System.String",
+      "FieldLength": 610
     }
   }
 }

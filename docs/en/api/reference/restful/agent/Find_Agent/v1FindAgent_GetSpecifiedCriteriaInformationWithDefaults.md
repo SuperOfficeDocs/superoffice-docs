@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolore",
-  "ProviderName": "Tromp Inc and Sons",
-  "StorageKey": "incidunt",
+  "StorageType": "ipsum",
+  "ProviderName": "Wisoky-Goyette",
+  "StorageKey": "et",
   "DesiredColumnNames": [
-    "Conroy Group",
-    "Langworth-Hudson"
+    "Bauch-Hintz",
+    "Collins, Morissette and Kassulke"
   ],
   "StaticColumns": [
-    "autem",
-    "perferendis"
+    "porro",
+    "iusto"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kuphal-Schuster",
-      "Operator": "at",
+      "Name": "Schowalter, Fadel and Lindgren",
+      "Operator": "vel",
       "Values": [
-        "beatae",
-        "aliquid"
+        "et",
+        "sed"
       ],
       "DisplayValues": [
-        "sit",
-        "id"
+        "vitae",
+        "officia"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 475,
+      "InterParenthesis": 820,
       "InterOperator": "And",
-      "UniqueHash": 983
+      "UniqueHash": 424
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Terry Group",
-      "DisplayTooltip": "et",
-      "DisplayType": "sapiente",
-      "CanOrderBy": true,
-      "Name": "Wisoky-Zulauf",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptatibus",
-      "RestrictionListName": "Vandervort-Weimann",
+      "DisplayName": "Fay Inc and Sons",
+      "DisplayTooltip": "reiciendis",
+      "DisplayType": "officiis",
+      "CanOrderBy": false,
+      "Name": "Torp LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "reiciendis",
+      "RestrictionListName": "Heathcote Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "aut",
-      "Width": "labore",
-      "IconHint": "incidunt",
-      "HeadingIconHint": "sit"
+      "ExtraInfo": "ut",
+      "Width": "ratione",
+      "IconHint": "ut",
+      "HeadingIconHint": "quaerat"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Zboncak Inc and Sons",
-      "PrimaryKey": 800,
+      "EntityName": "Dooley-Spencer",
+      "PrimaryKey": 424,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "unde",
-          "TooltipHint": "esse",
-          "LinkHint": "et"
+          "DisplayValue": "iste",
+          "TooltipHint": "dolore",
+          "LinkHint": "temporibus"
         }
       },
-      "LinkHint": "quae",
-      "StyleHint": "dolor",
+      "LinkHint": "vel",
+      "StyleHint": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Bosco, Heathcote and Vandervort",
-      "Description": "Versatile intangible challenge",
-      "Rank": 94,
+      "Name": "Jones, Armstrong and Hintz",
+      "Description": "Synchronised even-keeled methodology",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bosco, Heathcote and Vandervort",
-      "Description": "Versatile intangible challenge",
-      "Rank": 94,
+      "Name": "Jones, Armstrong and Hintz",
+      "Description": "Synchronised even-keeled methodology",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 671
     }
   }
 }

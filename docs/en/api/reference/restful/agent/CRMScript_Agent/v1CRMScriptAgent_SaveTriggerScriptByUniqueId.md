@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "dolores",
+  "TriggerScriptUniqueId": "impedit",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 471,
-  "Name": "Bosco-Swaniawski",
+  "ScreenChooserId": 88,
+  "Name": "Cassin Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "accusamus",
-  "Source": "similique",
-  "Registered": "1998-06-14T03:31:25.9790593+02:00",
-  "RegisteredAssociateId": 307,
-  "Updated": "2002-05-15T03:31:25.9790593+02:00",
-  "UpdatedAssociateId": 98,
+  "Enabled": false,
+  "UniqueIdentifier": "autem",
+  "Source": "voluptas",
+  "Registered": "2012-05-07T03:24:47.4708008+02:00",
+  "RegisteredAssociateId": 568,
+  "Updated": "2004-02-13T03:24:47.4708008+01:00",
+  "UpdatedAssociateId": 225,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 372
     }
   }
 }

@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 986,
+  "SelectionId": 522,
   "Criteria": [
     {
-      "Name": "Ratke, Bahringer and Kub",
-      "Operator": "nulla",
+      "Name": "Volkman Group",
+      "Operator": "iusto",
       "Values": [
-        "in",
-        "non"
+        "quibusdam",
+        "tempore"
       ],
       "DisplayValues": [
-        "dolorem",
-        "sed"
+        "odit",
+        "vero"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 1002,
+      "InterParenthesis": 337,
       "InterOperator": "And",
-      "UniqueHash": 723
+      "UniqueHash": 393
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sipes, Turner and Reichert",
-    "Operator": "sequi",
+    "Name": "Quitzon-Goyette",
+    "Operator": "ut",
     "Values": [
-      "reprehenderit",
-      "dolor"
+      "earum",
+      "reiciendis"
     ],
     "DisplayValues": [
-      "repellendus",
-      "excepturi"
+      "voluptate",
+      "sunt"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kassulke Inc and Sons",
-        "Operator": "magnam",
+        "Name": "Jast, O'Connell and Metz",
+        "Operator": "sint",
         "Values": [
-          "officiis",
-          "et"
+          "rem",
+          "assumenda"
         ],
         "DisplayValues": [
-          "accusantium",
-          "cupiditate"
+          "voluptas",
+          "laborum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 710,
+        "InterParenthesis": 355,
         "InterOperator": "And",
-        "UniqueHash": 104
+        "UniqueHash": 785
       }
     ],
-    "InterParenthesis": 794,
+    "InterParenthesis": 748,
     "InterOperator": "And",
-    "UniqueHash": 316
+    "UniqueHash": 262
   }
 ]
 ```

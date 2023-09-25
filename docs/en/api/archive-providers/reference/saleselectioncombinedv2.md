@@ -1275,7 +1275,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionCombinedV2?$select=person/personExtra/x_person_float,contact/registeredBy,contact/contactFax/formattedNumber,appointment/projectId,document/registeredBy
+GET /api/v1/archive/SaleSelectionCombinedV2?$select=projectId,updatedByFullName,person/correspondingAssociate/contactFullName,associate/userName,project/saintTicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

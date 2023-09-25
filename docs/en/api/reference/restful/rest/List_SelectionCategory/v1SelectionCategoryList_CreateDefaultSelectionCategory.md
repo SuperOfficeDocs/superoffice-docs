@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Wisozk-Tremblay",
-  "Tooltip": "nisi",
+  "Id": 863,
+  "Name": "Medhurst, Dach and Skiles",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 248,
-  "Rank": 365,
+  "UdListDefinitionId": 938,
+  "Rank": 196,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 674
     }
   }
 }

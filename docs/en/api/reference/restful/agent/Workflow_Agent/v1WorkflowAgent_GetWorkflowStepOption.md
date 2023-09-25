@@ -26,7 +26,7 @@ Gets a WorkflowStepOption object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowStepOption?workflowStepOptionId=864
+POST /api/v1/Agents/Workflow/GetWorkflowStepOption?workflowStepOptionId=132
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption?$select=name,department,category/id
 ```
 
@@ -83,32 +83,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 149,
-  "WorkflowStepId": 233,
-  "WorkflowId": 666,
-  "Key": "pariatur",
-  "Name": "Gorczany-Botsford",
-  "Rank": 63,
+  "WorkflowStepOptionId": 725,
+  "WorkflowStepId": 385,
+  "WorkflowId": 301,
+  "Key": "minus",
+  "Name": "Mohr Group",
+  "Rank": 34,
   "Steps": [
     {
-      "WorkflowStepId": 378,
-      "WorkflowId": 831,
+      "WorkflowStepId": 999,
+      "WorkflowId": 659,
       "StepType": "AddToList",
-      "Rank": 506
+      "Rank": 667
     },
     {
-      "WorkflowStepId": 378,
-      "WorkflowId": 831,
+      "WorkflowStepId": 999,
+      "WorkflowId": 659,
       "StepType": "AddToList",
-      "Rank": 506
+      "Rank": 667
     }
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   }
 }

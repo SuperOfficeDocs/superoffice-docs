@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 183,
+  "RowCount": 967,
   "Rows": [
     {
-      "EntityName": "Beer-Jones",
-      "PrimaryKey": 272,
+      "EntityName": "Kris-Toy",
+      "PrimaryKey": 728,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "minus",
-          "LinkHint": "aut"
+          "DisplayValue": "corporis",
+          "TooltipHint": "dolorem",
+          "LinkHint": "provident"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "aut",
+      "LinkHint": "quidem",
+      "StyleHint": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 158
     }
   }
 }

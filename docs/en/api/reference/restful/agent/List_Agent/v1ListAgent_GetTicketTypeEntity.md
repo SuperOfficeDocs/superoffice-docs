@@ -26,7 +26,7 @@ Gets a TicketTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=506
+POST /api/v1/Agents/List/GetTicketTypeEntity?ticketTypeEntityId=437
 POST /api/v1/Agents/List/GetTicketTypeEntity?$select=name,department,category/id
 ```
 
@@ -67,7 +67,8 @@ OK
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -87,29 +88,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 477,
-  "Name": "Heller Group",
-  "Rank": 999,
-  "Tooltip": "totam",
-  "Icon": "amet",
-  "DefaultTicketStatus": 407,
+  "TicketTypeId": 143,
+  "Name": "Greenholt LLC",
+  "Rank": 516,
+  "Tooltip": "qui",
+  "Icon": "aut",
+  "DefaultTicketStatus": 173,
   "TicketStatuses": [
-    871,
-    36
+    70,
+    764
   ],
-  "DefaultTicketPriority": 992,
+  "DefaultTicketPriority": 932,
   "TicketPriorities": [
-    554,
-    609
+    635,
+    183
   ],
-  "ReplyTemplate": 657,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 49,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 488
     }
   }
 }

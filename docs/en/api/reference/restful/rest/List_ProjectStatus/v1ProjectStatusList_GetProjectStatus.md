@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 3,
-  "Name": "Mueller LLC",
-  "Tooltip": "ea",
+  "Id": 27,
+  "Name": "Bergnaum, Bergnaum and Zulauf",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "UdListDefinitionId": 241,
-  "Rank": 871,
+  "UdListDefinitionId": 289,
+  "Rank": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 250
     }
   }
 }

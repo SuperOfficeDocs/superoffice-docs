@@ -57,7 +57,8 @@ OK
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -77,29 +78,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 602,
-  "Name": "Rolfson-Kihn",
-  "Rank": 325,
-  "Tooltip": "aliquid",
-  "Icon": "ullam",
-  "DefaultTicketStatus": 899,
+  "TicketTypeId": 374,
+  "Name": "Conroy, Olson and Carroll",
+  "Rank": 40,
+  "Tooltip": "et",
+  "Icon": "ad",
+  "DefaultTicketStatus": 962,
   "TicketStatuses": [
-    456,
-    37
+    727,
+    676
   ],
-  "DefaultTicketPriority": 141,
+  "DefaultTicketPriority": 467,
   "TicketPriorities": [
-    916,
-    105
+    405,
+    834
   ],
-  "ReplyTemplate": 492,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 559,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 523
     }
   }
 }

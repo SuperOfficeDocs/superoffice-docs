@@ -91,11 +91,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 608,
-  "NewName": "Bergstrom LLC",
-  "ValidFrom": "2009-07-23T03:31:27.0737031+02:00",
-  "ValidTo": "2008-07-02T03:31:27.0737031+02:00",
-  "NewCurrencyId": 46,
+  "OriginalPriceListId": 857,
+  "NewName": "Cremin-Labadie",
+  "ValidFrom": "2007-03-19T03:24:48.1269787+01:00",
+  "ValidTo": "2013-07-13T03:24:48.1269787+02:00",
+  "NewCurrencyId": 628,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 708,
-  "ERPPriceListKey": "quasi",
-  "QuoteConnectionId": 431,
-  "Name": "Mayert-Mitchell",
-  "Description": "Managed value-added conglomeration",
-  "Currency": "totam",
-  "CurrencyName": "Hessel, Lynch and Jast",
-  "ValidFrom": "2004-05-08T03:31:27.0737031+02:00",
-  "ValidTo": "2004-11-11T03:31:27.0737031+01:00",
+  "PriceListId": 672,
+  "ERPPriceListKey": "adipisci",
+  "QuoteConnectionId": 491,
+  "Name": "Collier Inc and Sons",
+  "Description": "Decentralized context-sensitive capacity",
+  "Currency": "id",
+  "CurrencyName": "Paucek LLC",
+  "ValidFrom": "1999-11-07T03:24:48.1269787+01:00",
+  "ValidTo": "1999-02-06T03:24:48.1269787+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 222
     }
   }
 }

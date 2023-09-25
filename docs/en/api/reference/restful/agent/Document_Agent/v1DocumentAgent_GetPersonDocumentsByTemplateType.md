@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 439,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2015-05-16T03:31:26.0583393+02:00",
-  "EndTime": "2014-04-21T03:31:26.0583393+02:00",
-  "Count": 346,
-  "DocumentTemplateId": 105
+  "PersonId": 293,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2003-01-23T03:24:47.5176724+01:00",
+  "EndTime": "1998-01-08T03:24:47.5176724+01:00",
+  "Count": 254,
+  "DocumentTemplateId": 396
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 541,
-    "Attention": "quam",
-    "Header": "animi",
-    "Name": "Kunze, Halvorson and Sauer",
-    "OurRef": "accusantium",
-    "YourRef": "libero",
-    "Description": "Grass-roots high-level approach",
-    "DocumentTemplate": "repudiandae",
+    "DocumentId": 629,
+    "Attention": "illum",
+    "Header": "nam",
+    "Name": "Stokes, Dach and Quigley",
+    "OurRef": "quia",
+    "YourRef": "quis",
+    "Description": "Operative holistic matrix",
+    "DocumentTemplate": "pariatur",
     "IsPublished": false,
-    "PersonId": 162,
-    "PersonFullName": "Jacquelyn Ferry",
-    "AssociateFullName": "Darlene Littel",
-    "ContactId": 445,
-    "ContactName": "Hagenes-Cruickshank",
-    "ProjectId": 256,
-    "ProjectName": "Kuhn LLC",
-    "AssociateId": 228,
-    "Snum": 690,
-    "SaleId": 3,
-    "SaleName": "Larkin, Effertz and Prohaska",
+    "PersonId": 42,
+    "PersonFullName": "April Koch",
+    "AssociateFullName": "Dovie Feeney",
+    "ContactId": 222,
+    "ContactName": "Roob, Kassulke and Reilly",
+    "ProjectId": 681,
+    "ProjectName": "Grant Inc and Sons",
+    "AssociateId": 438,
+    "Snum": 622,
+    "SaleId": 86,
+    "SaleName": "Ernser LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 682
       }
     }
   }

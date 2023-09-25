@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 15,
-  "Name": "Marvin LLC",
-  "Tooltip": "consequatur",
-  "Rank": 609,
-  "Key": "cumque",
-  "MailTemplateId": 455,
+  "ConsentSourceId": 845,
+  "Name": "Jakubowski, Heaney and Schamberger",
+  "Tooltip": "minima",
+  "Rank": 814,
+  "Key": "saepe",
+  "MailTemplateId": 675,
   "Deleted": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 541,
-  "Name": "Green, Jaskolski and McKenzie",
-  "Tooltip": "temporibus",
-  "Rank": 608,
-  "Key": "quo",
-  "MailTemplateId": 615,
+  "ConsentSourceId": 486,
+  "Name": "Beier-Stehr",
+  "Tooltip": "deleniti",
+  "Rank": 423,
+  "Key": "similique",
+  "MailTemplateId": 583,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 547
     }
   }
 }

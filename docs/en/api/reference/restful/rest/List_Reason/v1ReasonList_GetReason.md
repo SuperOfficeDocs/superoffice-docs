@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Keebler Inc and Sons",
-  "Tooltip": "asperiores",
-  "Deleted": false,
-  "UdListDefinitionId": 668,
-  "Rank": 385,
+  "Id": 784,
+  "Name": "Swift-Metz",
+  "Tooltip": "inventore",
+  "Deleted": true,
+  "UdListDefinitionId": 223,
+  "Rank": 538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

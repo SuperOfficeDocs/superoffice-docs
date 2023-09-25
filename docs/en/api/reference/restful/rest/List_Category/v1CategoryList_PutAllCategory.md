@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Pacocha-Hegmann",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "UdListDefinitionId": 910,
-    "Rank": 765
+    "Id": 898,
+    "Name": "Volkman, Casper and Conn",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 807,
+    "Rank": 889
   },
   {
-    "Id": 129,
-    "Name": "Pacocha-Hegmann",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "UdListDefinitionId": 910,
-    "Rank": 765
+    "Id": 898,
+    "Name": "Volkman, Casper and Conn",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "UdListDefinitionId": 807,
+    "Rank": 889
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Schiller Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": false,
-    "UdListDefinitionId": 862,
-    "Rank": 358,
+    "Id": 282,
+    "Name": "Predovic, Medhurst and Halvorson",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 927,
+    "Rank": 396,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 904
+        "FieldLength": 379
       }
     }
   }

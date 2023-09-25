@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 946,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 744,
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Kris LLC",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "UdListDefinitionId": 874,
-    "Rank": 210,
+    "Id": 373,
+    "Name": "Renner Inc and Sons",
+    "Tooltip": "error",
+    "Deleted": false,
+    "UdListDefinitionId": 51,
+    "Rank": 49,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 809
       }
     }
   }

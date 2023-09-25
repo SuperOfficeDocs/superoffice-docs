@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 306,
-    "Name": "Thompson-Little",
-    "Tooltip": "officiis",
-    "Rank": 916,
+    "SaleTypeId": 340,
+    "Name": "Schneider, Kuhn and Rath",
+    "Tooltip": "incidunt",
+    "Rank": 777,
     "DurationUnit": "Century",
-    "SaleDuration": 948,
-    "SaleTypeCatId": 356,
+    "SaleDuration": 610,
+    "SaleTypeCatId": 555,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": true,
+    "HasGuide": true,
+    "HasStakeholders": false,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 954,
-    "QuoteLinesTemplate": 989,
-    "ConfirmationLinesTemplate": 886,
+    "DefaultQuoteValidity": 27,
+    "QuoteLinesTemplate": 524,
+    "ConfirmationLinesTemplate": 994,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 744,
-    "MinEarningPercent": 330,
-    "GroupQuoteLinesBy": 734,
-    "SortGroupLinesBy": 858,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 254,
+    "MinEarningPercent": 492,
+    "GroupQuoteLinesBy": 11,
+    "SortGroupLinesBy": 264,
     "Stages": [
       {
-        "Id": 568,
-        "Name": "Carroll Inc and Sons",
-        "ToolTip": "Voluptas quas corrupti ut eos aut.",
+        "Id": 632,
+        "Name": "VonRueden, Koss and Lind",
+        "ToolTip": "Placeat facere incidunt ducimus quia mollitia.",
         "Deleted": true,
-        "Rank": 101,
-        "Type": "maxime",
-        "ColorBlock": 489,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2014-04-20T03:31:33.8679659+02:00",
+        "Rank": 810,
+        "Type": "ipsum",
+        "ColorBlock": 383,
+        "IconHint": "quidem",
+        "Selected": false,
+        "LastChanged": "2001-02-28T03:24:52.4119449+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "ratione",
+        "ExtraInfo": "ullam",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Misael Parisian",
+        "FullName": "Henriette Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 492
+            "FieldLength": 903
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 833
       }
     }
   }

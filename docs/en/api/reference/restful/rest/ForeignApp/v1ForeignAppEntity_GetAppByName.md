@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 23 Jul 2011 03:31:32 G7T
+Last-Modified: Fri, 23 May 1997 03:24:51 G5T
 
 {
-  "ForeignAppId": 921,
-  "Name": "Hodkiewicz Group",
-  "CreatedDate": "2015-10-28T03:31:32.6289016+01:00",
-  "UpdatedDate": "2011-07-23T03:31:32.6289016+02:00",
+  "ForeignAppId": 475,
+  "Name": "Parker, Lynch and O'Connell",
+  "CreatedDate": "2008-06-15T03:24:51.6149823+02:00",
+  "UpdatedDate": "1997-05-23T03:24:51.6149823+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 932,
-      "Name": "Lind LLC",
-      "CreatedDate": "2001-04-29T03:31:32.6289016+02:00",
-      "UpdatedDate": "2007-06-07T03:31:32.6289016+02:00",
-      "AssociateFullName": "Royce Welch",
-      "CreatedBy": "et",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "non",
-      "ForeignAppId": 828,
+      "ForeignDeviceId": 433,
+      "Name": "Barrows, Jewess and Hessel",
+      "CreatedDate": "2014-03-08T03:24:51.6149823+01:00",
+      "UpdatedDate": "2013-11-02T03:24:51.6149823+01:00",
+      "AssociateFullName": "Mr. Hipolito Mueller",
+      "CreatedBy": "eligendi",
+      "UpdatedBy": "porro",
+      "DeviceIdentifier": "unde",
+      "ForeignAppId": 746,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 799
+          "FieldType": "System.Int32",
+          "FieldLength": 859
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Sat, 23 Jul 2011 03:31:32 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 395
     }
   }
 }

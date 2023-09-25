@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gibson LLC",
+  "TableName": "Mayer, Marks and Marvin",
   "IDs": [
-    130,
-    332
+    443,
+    555
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "ut",
-  "Inserts": 626,
-  "Updates": 640,
-  "Deletes": 244,
+  "Success": false,
+  "Message": "quia",
+  "Inserts": 242,
+  "Updates": 176,
+  "Deletes": 166,
   "RowStatus": [
     {
-      "PrimaryKey": 341,
+      "PrimaryKey": 830,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "aut"
+        "rem",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 988
+          "FieldLength": 113
         }
       }
     },
     {
-      "PrimaryKey": 341,
+      "PrimaryKey": 830,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quia",
-        "aut"
+        "rem",
+        "dolore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 988
+          "FieldLength": 113
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

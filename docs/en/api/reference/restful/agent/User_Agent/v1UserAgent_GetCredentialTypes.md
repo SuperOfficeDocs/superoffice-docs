@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "a",
-    "Type": "rerum",
-    "Description": "Enterprise-wide system-worthy utilisation",
+    "DisplayType": "deserunt",
+    "Type": "aut",
+    "Description": "Automated holistic methodology",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldType": "System.String",
+        "FieldLength": 113
       }
     }
   }

@@ -77,6 +77,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     </List:TicketPriorities>
     <List:ReplyTemplate xsi:type="xsd:int">0</List:ReplyTemplate>
     <List:IsExternalVisible xsi:type="xsd:boolean">false</List:IsExternalVisible>
+    <List:IsDefault xsi:type="xsd:boolean">false</List:IsDefault>
    </List:Response>
   </List:CreateDefaultTicketTypeEntityResponse>
  </SOAP-ENV:Body>

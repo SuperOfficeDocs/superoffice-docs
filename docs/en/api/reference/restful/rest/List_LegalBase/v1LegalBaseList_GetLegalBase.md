@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 371,
-  "Name": "Lehner, Schimmel and Glover",
-  "Tooltip": "dolores",
-  "Rank": 264,
-  "Key": "ex",
+  "LegalBaseId": 412,
+  "Name": "Labadie Group",
+  "Tooltip": "fuga",
+  "Rank": 630,
+  "Key": "ullam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Wiza Inc and Sons",
-    "Tooltip": "dolorem",
+    "Id": 898,
+    "Name": "Lockman, Harvey and Gusikowski",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 342,
-    "Rank": 506
+    "UdListDefinitionId": 825,
+    "Rank": 52
   },
   {
-    "Id": 809,
-    "Name": "Wiza Inc and Sons",
-    "Tooltip": "dolorem",
+    "Id": 898,
+    "Name": "Lockman, Harvey and Gusikowski",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 342,
-    "Rank": 506
+    "UdListDefinitionId": 825,
+    "Rank": 52
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Lang, Franecki and Jaskolski",
-    "Tooltip": "quis",
-    "Deleted": true,
-    "UdListDefinitionId": 510,
-    "Rank": 890,
+    "Id": 388,
+    "Name": "Durgan-Mante",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "UdListDefinitionId": 374,
+    "Rank": 704,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldType": "System.Int32",
+        "FieldLength": 398
       }
     }
   }

@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 75,
+  "EjMessageId": 169,
   "Ticket": null,
-  "CreatedAt": "2002-02-20T03:31:27.6853664+01:00",
+  "CreatedAt": "2017-04-15T03:24:48.5028909+02:00",
   "CreatedBy": null,
-  "Author": "exercitationem",
+  "Author": "quia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quos",
-  "TimeSpent": 11,
-  "Body": "esse",
-  "HtmlBody": "non",
-  "EmailHeader": "asia@krajcik.com",
-  "DebugInfo": "quos",
-  "MailSorter": "est",
+  "MessageId": "praesentium",
+  "TimeSpent": 823,
+  "Body": "quod",
+  "HtmlBody": "saepe",
+  "EmailHeader": "margret.schiller@franecki.uk",
+  "DebugInfo": "voluptatum",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "iusto",
+  "SearchTitle": "ipsum",
   "MessageHeaders": [
     {
-      "Id": 140,
-      "Name": "Heller Group",
-      "Value": "explicabo",
+      "Id": 714,
+      "Name": "Koelpin Group",
+      "Value": "quasi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,49 +144,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldLength": 831
         }
       }
     }
   ],
   "Important": false,
-  "Language": "qui",
-  "Sentiment": 281,
-  "SentimentConfidence": 58,
+  "Language": "facere",
+  "Sentiment": 762,
+  "SentimentConfidence": 421,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 629,
-      "Name": "O'Conner Group",
-      "ContentType": "enim",
-      "AttSize": 633,
+      "AttachmentId": 382,
+      "Name": "Schulist-Wisozk",
+      "ContentType": "harum",
+      "AttSize": 730,
       "InlineImage": false,
-      "ContentId": "saepe",
-      "AuthKey": "sit",
+      "ContentId": "et",
+      "AuthKey": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 144
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "eius",
-    "CustomFields2": "dolor"
+    "CustomFields1": "amet",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldType": "System.Int32",
+      "FieldLength": 178
     }
   }
 }

@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Quigley-Schultz",
-  "StorageKey": "maiores",
+  "StorageType": "dolorem",
+  "ProviderName": "Hayes-Oberbrunner",
+  "StorageKey": "esse",
   "StaticColumns": [
-    "ad",
-    "iusto"
+    "iure",
+    "non"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Crist, Greenfelder and Keeling",
-      "Operator": "et",
+      "Name": "Wiegand-Turner",
+      "Operator": "cupiditate",
       "Values": [
-        "sapiente",
-        "eum"
+        "esse",
+        "magnam"
       ],
       "DisplayValues": [
-        "consectetur",
-        "ullam"
+        "architecto",
+        "mollitia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 494,
+      "InterParenthesis": 515,
       "InterOperator": "And",
-      "UniqueHash": 482
+      "UniqueHash": 328
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Predovic, Hegmann and Huels",
-      "DisplayTooltip": "doloribus",
-      "DisplayType": "tempora",
+      "DisplayName": "Friesen, Conroy and Toy",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "distinctio",
       "CanOrderBy": false,
-      "Name": "Rodriguez LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "sed",
-      "RestrictionListName": "Turcotte Group",
+      "Name": "Boyle Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "nostrum",
+      "RestrictionListName": "Eichmann-Schuster",
       "IsVisible": false,
-      "ExtraInfo": "iusto",
-      "Width": "autem",
-      "IconHint": "assumenda",
-      "HeadingIconHint": "consectetur"
+      "ExtraInfo": "consequuntur",
+      "Width": "dolorem",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "doloremque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stark, Goyette and Hermiston",
-      "PrimaryKey": 68,
+      "EntityName": "Luettgen, Dickens and Kertzmann",
+      "PrimaryKey": 40,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eveniet",
-          "TooltipHint": "hic",
-          "LinkHint": "sint"
+          "DisplayValue": "autem",
+          "TooltipHint": "doloribus",
+          "LinkHint": "dolorem"
         }
       },
-      "LinkHint": "provident",
-      "StyleHint": "qui",
+      "LinkHint": "molestias",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 865
+          "FieldType": "System.String",
+          "FieldLength": 199
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Turner-Green",
-      "Description": "Right-sized global definition",
-      "Rank": 133,
+      "Name": "Carroll-Mayert",
+      "Description": "Universal actuating open architecture",
+      "Rank": 661,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Turner-Green",
-      "Description": "Right-sized global definition",
-      "Rank": 133,
+      "Name": "Carroll-Mayert",
+      "Description": "Universal actuating open architecture",
+      "Rank": 661,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 628
     }
   }
 }

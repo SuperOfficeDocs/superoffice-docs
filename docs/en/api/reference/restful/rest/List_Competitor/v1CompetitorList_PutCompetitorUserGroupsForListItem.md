@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Brown Inc and Sons",
-    "ToolTip": "Aliquam laudantium.",
-    "Deleted": false,
-    "Rank": 911,
-    "Type": "minima",
-    "ColorBlock": 337,
-    "IconHint": "odit",
+    "Id": 543,
+    "Name": "Wolf LLC",
+    "ToolTip": "Quia laboriosam.",
+    "Deleted": true,
+    "Rank": 10,
+    "Type": "est",
+    "ColorBlock": 42,
+    "IconHint": "nemo",
     "Selected": true,
-    "LastChanged": "2015-09-01T03:31:33.5073635+02:00",
+    "LastChanged": "2016-02-19T03:24:52.1775959+01:00",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "White, Langosh and Koss",
-        "ToolTip": "Provident optio vitae et non recusandae.",
+        "Id": 333,
+        "Name": "Gleichner-Pagac",
+        "ToolTip": "Dolore expedita consequatur totam.",
         "Deleted": false,
-        "Rank": 35,
-        "Type": "fugit",
-        "ColorBlock": 349,
-        "IconHint": "quaerat",
+        "Rank": 201,
+        "Type": "qui",
+        "ColorBlock": 226,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "1999-06-25T03:31:33.5073635+02:00",
+        "LastChanged": "2013-05-29T03:24:52.1775959+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "quas",
+        "StyleHint": "eaque",
         "Hidden": true,
-        "FullName": "Cornelius Emmerich"
+        "FullName": "Eli Hilpert PhD"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "qui",
+    "StyleHint": "optio",
     "Hidden": true,
-    "FullName": "Wilhelmine Grant"
+    "FullName": "Richie Langworth"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Swaniawski LLC",
-    "ToolTip": "Enim itaque voluptatem consequatur saepe exercitationem aliquid.",
+    "Id": 865,
+    "Name": "Ledner Inc and Sons",
+    "ToolTip": "Quo libero quibusdam quam neque.",
     "Deleted": false,
-    "Rank": 986,
-    "Type": "minus",
-    "ColorBlock": 340,
-    "IconHint": "quia",
+    "Rank": 149,
+    "Type": "omnis",
+    "ColorBlock": 273,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2014-06-06T03:31:33.5073635+02:00",
+    "LastChanged": "2000-02-02T03:24:52.1775959+01:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Johnson Inc and Sons",
-        "ToolTip": "Dolor ad voluptas repellat nam et accusamus facilis.",
-        "Deleted": false,
-        "Rank": 595,
-        "Type": "distinctio",
-        "ColorBlock": 884,
-        "IconHint": "perferendis",
+        "Id": 691,
+        "Name": "Kulas, Kessler and Von",
+        "ToolTip": "Sint maxime nulla labore inventore rerum quo.",
+        "Deleted": true,
+        "Rank": 189,
+        "Type": "vitae",
+        "ColorBlock": 21,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2015-01-31T03:31:33.5073635+01:00",
+        "LastChanged": "2012-01-18T03:24:52.1775959+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "qui",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "perferendis",
         "Hidden": true,
-        "FullName": "Myrtis Lemke",
+        "FullName": "Tia Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldLength": 822
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "et",
+    "ExtraInfo": "modi",
+    "StyleHint": "facilis",
     "Hidden": true,
-    "FullName": "Miss Tressa Davonte Hills PhD",
+    "FullName": "Christian Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

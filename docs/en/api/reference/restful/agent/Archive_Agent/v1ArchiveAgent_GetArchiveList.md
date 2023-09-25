@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jerde, Spencer and Sauer",
-  "ProviderName": "Shields, Denesik and Koch",
+  "GuiName": "Schmeler Inc and Sons",
+  "ProviderName": "Parisian-Blick",
   "SortOrder": [
     {
-      "Name": "Dietrich-Corwin",
+      "Name": "Swaniawski-Torphy",
       "Direction": "ASC"
     },
     {
-      "Name": "Dietrich-Corwin",
+      "Name": "Swaniawski-Torphy",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Cartwright-Ratke",
-      "Operator": "ipsam",
+      "Name": "Sipes, McDermott and Huel",
+      "Operator": "non",
       "Values": [
-        "quod",
-        "voluptatem"
+        "doloribus",
+        "consequatur"
       ],
       "DisplayValues": [
-        "animi",
-        "dolorum"
+        "velit",
+        "magnam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 854,
+      "InterParenthesis": 998,
       "InterOperator": "And",
-      "UniqueHash": 269
+      "UniqueHash": 490
     }
   ],
   "Entities": [
-    "quasi",
-    "voluptatem"
+    "similique",
+    "amet"
   ],
-  "Page": 691,
-  "PageSize": 258
+  "Page": 759,
+  "PageSize": 174
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Reynolds LLC",
-    "PrimaryKey": 912,
+    "EntityName": "Gorczany, Quitzon and Jenkins",
+    "PrimaryKey": 404,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quod",
-        "TooltipHint": "quia",
-        "LinkHint": "deserunt"
+        "DisplayValue": "quia",
+        "TooltipHint": "omnis",
+        "LinkHint": "in"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "rem",
+    "LinkHint": "sunt",
+    "StyleHint": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 649,
-  "ColumnId": 730,
-  "FieldDefault": "placeat",
-  "FieldHeight": 91,
-  "FieldLabel": "repellendus",
-  "FieldLeft": 846,
-  "FieldTop": 37,
+  "UDefFieldId": 95,
+  "ColumnId": 361,
+  "FieldDefault": "nam",
+  "FieldHeight": 849,
+  "FieldLabel": "error",
+  "FieldLeft": 466,
+  "FieldTop": 153,
   "FieldType": "Checkbox",
-  "FieldWidth": 970,
-  "FormatMask": "ullam",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 133,
-  "LabelLeft": 559,
-  "LabelTop": 884,
-  "LabelWidth": 833,
-  "LastVersionId": 565,
-  "ListTableId": 199,
-  "IsMandatory": false,
+  "FieldWidth": 939,
+  "FormatMask": "repellendus",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 286,
+  "LabelLeft": 426,
+  "LabelTop": 923,
+  "LabelWidth": 268,
+  "LastVersionId": 405,
+  "ListTableId": 943,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 444,
-  "ProgId": "aliquid",
-  "IsReadOnly": false,
-  "ShortLabel": "optio",
-  "TabOrder": 766,
-  "TextLength": 667,
-  "Tooltip": "magnam",
+  "Page1LineNo": 1002,
+  "ProgId": "nihil",
+  "IsReadOnly": true,
+  "ShortLabel": "quas",
+  "TabOrder": 949,
+  "TextLength": 547,
+  "Tooltip": "inventore",
   "UdefIdentity": 998,
-  "UDListDefinitionId": 967,
+  "UDListDefinitionId": 685,
   "Justification": "Center",
-  "Version": 869,
-  "TemplateVariableName": "Mitchell-Sanford",
-  "HasBeenPublished": false,
-  "MdoListName": "Von-Considine",
+  "Version": 117,
+  "TemplateVariableName": "Wuckert, O'Conner and Cruickshank",
+  "HasBeenPublished": true,
+  "MdoListName": "Kuphal LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 938
     }
   }
 }

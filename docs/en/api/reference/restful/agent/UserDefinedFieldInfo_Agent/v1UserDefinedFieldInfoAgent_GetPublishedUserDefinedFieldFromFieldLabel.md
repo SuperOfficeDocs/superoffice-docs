@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 446,
-  "ColumnId": 552,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 176,
-  "FieldLabel": "deleniti",
-  "FieldLeft": 275,
-  "FieldTop": 402,
+  "UDefFieldId": 430,
+  "ColumnId": 801,
+  "FieldDefault": "atque",
+  "FieldHeight": 539,
+  "FieldLabel": "qui",
+  "FieldLeft": 328,
+  "FieldTop": 122,
   "FieldType": "Checkbox",
-  "FieldWidth": 563,
-  "FormatMask": "quibusdam",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 165,
-  "LabelLeft": 331,
-  "LabelTop": 97,
-  "LabelWidth": 795,
-  "LastVersionId": 539,
-  "ListTableId": 381,
-  "IsMandatory": false,
+  "FieldWidth": 708,
+  "FormatMask": "fugit",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 454,
+  "LabelLeft": 391,
+  "LabelTop": 810,
+  "LabelWidth": 141,
+  "LastVersionId": 390,
+  "ListTableId": 414,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 955,
-  "ProgId": "exercitationem",
-  "IsReadOnly": true,
-  "ShortLabel": "placeat",
-  "TabOrder": 851,
-  "TextLength": 972,
-  "Tooltip": "voluptatum",
-  "UdefIdentity": 221,
-  "UDListDefinitionId": 51,
+  "Page1LineNo": 412,
+  "ProgId": "iusto",
+  "IsReadOnly": false,
+  "ShortLabel": "perspiciatis",
+  "TabOrder": 977,
+  "TextLength": 988,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 120,
+  "UDListDefinitionId": 859,
   "Justification": "Center",
-  "Version": 111,
-  "TemplateVariableName": "Schulist-Ritchie",
+  "Version": 845,
+  "TemplateVariableName": "Effertz, Casper and Volkman",
   "HasBeenPublished": false,
-  "MdoListName": "Littel, Cruickshank and Keeling",
+  "MdoListName": "Wolff-Johns",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 19
     }
   }
 }

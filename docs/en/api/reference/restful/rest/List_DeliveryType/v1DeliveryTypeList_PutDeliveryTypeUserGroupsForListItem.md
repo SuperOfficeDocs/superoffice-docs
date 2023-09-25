@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Zemlak-Rohan",
-    "ToolTip": "Est aspernatur fuga vitae laborum fugit dolorem.",
+    "Id": 47,
+    "Name": "Ebert, Botsford and Rau",
+    "ToolTip": "Odit amet error debitis quaerat optio vitae autem.",
     "Deleted": false,
-    "Rank": 32,
-    "Type": "consectetur",
-    "ColorBlock": 455,
-    "IconHint": "quibusdam",
+    "Rank": 773,
+    "Type": "voluptas",
+    "ColorBlock": 511,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2002-06-13T03:31:33.6010939+02:00",
+    "LastChanged": "2023-03-26T03:24:52.240053+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Stroman-Gutmann",
-        "ToolTip": "Quasi corporis perferendis beatae mollitia.",
+        "Id": 554,
+        "Name": "Schultz LLC",
+        "ToolTip": "Est commodi necessitatibus molestias consectetur sit.",
         "Deleted": true,
-        "Rank": 69,
-        "Type": "soluta",
-        "ColorBlock": 308,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2008-02-08T03:31:33.6010939+01:00",
+        "Rank": 727,
+        "Type": "explicabo",
+        "ColorBlock": 227,
+        "IconHint": "modi",
+        "Selected": true,
+        "LastChanged": "2018-07-27T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "ab",
+        "ExtraInfo": "iste",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Fabian Kihn"
+        "FullName": "Alexane Kiarra Langosh Sr."
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Laurel Blick"
+    "ExtraInfo": "hic",
+    "StyleHint": "in",
+    "Hidden": false,
+    "FullName": "Caden Schoen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Kuhlman Inc and Sons",
-    "ToolTip": "Quas consectetur quis voluptatum tenetur.",
-    "Deleted": false,
-    "Rank": 468,
-    "Type": "corrupti",
-    "ColorBlock": 726,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2015-05-03T03:31:33.6167125+02:00",
+    "Id": 339,
+    "Name": "Walker-Towne",
+    "ToolTip": "Earum commodi et qui ducimus quos animi quia.",
+    "Deleted": true,
+    "Rank": 864,
+    "Type": "dolores",
+    "ColorBlock": 301,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2000-09-23T03:24:52.240053+02:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Huels, Bosco and Hickle",
-        "ToolTip": "At vero aut enim molestias nisi laudantium.",
+        "Id": 116,
+        "Name": "Bauch, Hartmann and Kohler",
+        "ToolTip": "Ut voluptas perspiciatis cumque veritatis ad voluptatem.",
         "Deleted": false,
-        "Rank": 243,
-        "Type": "et",
-        "ColorBlock": 92,
-        "IconHint": "delectus",
-        "Selected": true,
-        "LastChanged": "2013-11-21T03:31:33.6167125+01:00",
+        "Rank": 623,
+        "Type": "cum",
+        "ColorBlock": 312,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2005-05-15T03:24:52.240053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "in",
-        "Hidden": false,
-        "FullName": "Mr. Carlo Obie Krajcik",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Florence Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 972
+            "FieldType": "System.Int32",
+            "FieldLength": 549
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "commodi",
+    "ExtraInfo": "cum",
+    "StyleHint": "odit",
     "Hidden": false,
-    "FullName": "Keven Mraz",
+    "FullName": "Hank Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 604,
-  "Name": "Lesch Group",
-  "Tooltip": "error",
-  "PassiveText": "ipsum",
-  "Deleted": false,
-  "Rank": 901,
+  "ReldefId": 616,
+  "Name": "Upton Group",
+  "Tooltip": "quia",
+  "PassiveText": "sed",
+  "Deleted": true,
+  "Rank": 446,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   }
 }

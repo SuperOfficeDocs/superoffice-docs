@@ -130,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "minus"
+  "UID": "quidem"
 }
 ```
 
@@ -149,106 +149,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-02-13T03:31:25.5715237+01:00",
-  "AppointmentId": 104,
-  "Description": "Pre-emptive responsive open architecture",
-  "StartDate": "2008-07-12T03:31:25.5715237+02:00",
-  "EndDate": "2006-04-22T03:31:25.5715237+02:00",
+  "CreatedDate": "2007-02-02T03:24:47.2052134+01:00",
+  "AppointmentId": 832,
+  "Description": "Future-proofed asynchronous conglomeration",
+  "StartDate": "2013-02-18T03:24:47.2052134+01:00",
+  "EndDate": "2007-03-02T03:24:47.2052134+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 400,
+  "MotherId": 540,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-04-16T03:31:25.5715237+02:00",
+  "UpdatedDate": "2001-05-28T03:24:47.2052134+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 818,
+  "ActiveLinks": 219,
   "Links": [
     {
-      "EntityName": "King, Strosin and Mayer",
-      "Id": 942,
-      "Description": "Triple-buffered next generation paradigm",
-      "ExtraInfo": "assumenda",
-      "LinkId": 770,
+      "EntityName": "Langworth-Cole",
+      "Id": 928,
+      "Description": "Universal eco-centric pricing structure",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 109,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldType": "System.String",
+          "FieldLength": 622
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "consequatur",
   "HasAlarm": false,
-  "ColorIndex": 491,
+  "ColorIndex": 727,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "adipisci",
-  "LeadTime": "qui",
-  "Location": "voluptate",
-  "RejectCounter": 371,
+  "LagTime": "ut",
+  "LeadTime": "ut",
+  "Location": "est",
+  "RejectCounter": 735,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 587,
-      "PersonId": 168,
-      "ContactId": 91,
-      "EmailId": 566,
-      "SendEmail": true,
+      "AssociateId": 913,
+      "PersonId": 970,
+      "ContactId": 828,
+      "EmailId": 732,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 587,
-      "PersonId": 168,
-      "ContactId": 91,
-      "EmailId": 566,
-      "SendEmail": true,
+      "AssociateId": 913,
+      "PersonId": 970,
+      "ContactId": 828,
+      "EmailId": 732,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-04-04T03:31:25.5715237+02:00",
+  "ActiveDate": "2014-10-01T03:24:47.2052134+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 202,
+  "PreferredTZLocation": 379,
   "Sale": null,
-  "SuggestedAppointmentId": 844,
+  "SuggestedAppointmentId": 214,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "incidunt",
-  "Title": "et",
-  "Agenda": "vero",
-  "InternalNotes": "nam",
+  "CentralserviceVideomeetId": "odio",
+  "Title": "qui",
+  "Agenda": "ratione",
+  "InternalNotes": "aperiam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Angelina Shanahan",
-    "SuperOffice:2": "647535306"
+    "SuperOffice:1": "173769922",
+    "SuperOffice:2": "1384637109"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "quam",
-    "CustomFields2": "placeat"
+    "CustomFields1": "est",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2020-01-20T03:31:25.5715237+01:00",
-  "PublishTo": "2022-02-23T03:31:25.5715237+01:00",
-  "PublishFrom": "1999-10-27T03:31:25.5715237+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2001-11-27T03:24:47.2052134+01:00",
+  "PublishTo": "2012-02-17T03:24:47.2052134+01:00",
+  "PublishFrom": "1999-06-28T03:24:47.2052134+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 553,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -259,9 +259,9 @@ Content-Type: application/json; charset=utf-8
       }
     },
     {
-      "VisibleId": 553,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "odio",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {

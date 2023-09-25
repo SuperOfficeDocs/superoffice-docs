@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Bauch, Wisozk and Farrell",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "UdListDefinitionId": 364,
-  "Rank": 383,
+  "Id": 703,
+  "Name": "Pacocha, Kozey and Powlowski",
+  "Tooltip": "commodi",
+  "Deleted": false,
+  "UdListDefinitionId": 148,
+  "Rank": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 268
     }
   }
 }

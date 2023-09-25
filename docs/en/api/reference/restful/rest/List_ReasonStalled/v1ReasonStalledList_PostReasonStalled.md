@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 325,
-  "Name": "Schimmel Inc and Sons",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "UdListDefinitionId": 180,
-  "Rank": 739
+  "Id": 722,
+  "Name": "Schroeder Inc and Sons",
+  "Tooltip": "magni",
+  "Deleted": true,
+  "UdListDefinitionId": 827,
+  "Rank": 460
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 825,
-  "Name": "Spencer Inc and Sons",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "UdListDefinitionId": 818,
-  "Rank": 310,
+  "Id": 352,
+  "Name": "Wiegand LLC",
+  "Tooltip": "quaerat",
+  "Deleted": true,
+  "UdListDefinitionId": 606,
+  "Rank": 683,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldType": "System.Int32",
+      "FieldLength": 339
     }
   }
 }

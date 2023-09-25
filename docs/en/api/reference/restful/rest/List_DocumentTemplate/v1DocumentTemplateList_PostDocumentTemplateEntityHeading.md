@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 238,
-  "Name": "Schultz LLC",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 448,
-  "UdListDefinitionId": 469
+  "HeadingId": 620,
+  "Name": "Kiehn-Davis",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "Rank": 349,
+  "UdListDefinitionId": 961
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 623,
-  "Name": "Legros, Torp and Gulgowski",
-  "Tooltip": "cumque",
+  "HeadingId": 770,
+  "Name": "Conroy-Kris",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 731,
-  "UdListDefinitionId": 3,
+  "Rank": 271,
+  "UdListDefinitionId": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

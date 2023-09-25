@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 717,
-  "StartTime": "2022-06-14T03:31:26.0427182+02:00",
-  "EndTime": "1998-04-27T03:31:26.0427182+02:00",
-  "Count": 266,
-  "DocumentTemplateId": 447
+  "PersonId": 888,
+  "StartTime": "2006-06-16T03:24:47.5176724+02:00",
+  "EndTime": "1997-01-08T03:24:47.5176724+01:00",
+  "Count": 83,
+  "DocumentTemplateId": 14
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 9,
-    "Attention": "qui",
-    "Header": "provident",
-    "Name": "Konopelski-Morissette",
-    "OurRef": "molestiae",
-    "YourRef": "dolorem",
-    "Description": "Reduced interactive core",
-    "DocumentTemplate": "laboriosam",
+    "DocumentId": 33,
+    "Attention": "voluptatem",
+    "Header": "atque",
+    "Name": "DuBuque-Lakin",
+    "OurRef": "qui",
+    "YourRef": "nisi",
+    "Description": "Future-proofed mobile project",
+    "DocumentTemplate": "optio",
     "IsPublished": false,
-    "PersonId": 441,
-    "PersonFullName": "Prof. Aisha Mosciski V",
-    "AssociateFullName": "Ressie Larkin",
-    "ContactId": 279,
-    "ContactName": "Medhurst-Stroman",
-    "ProjectId": 708,
-    "ProjectName": "Runte-Koelpin",
-    "AssociateId": 738,
-    "Snum": 790,
-    "SaleId": 2,
-    "SaleName": "Lang-Lowe",
+    "PersonId": 904,
+    "PersonFullName": "Dr. Peggie Lehner I",
+    "AssociateFullName": "Freddy Schultz",
+    "ContactId": 679,
+    "ContactName": "Feeney-Hackett",
+    "ProjectId": 148,
+    "ProjectName": "Schamberger-McDermott",
+    "AssociateId": 113,
+    "Snum": 698,
+    "SaleId": 711,
+    "SaleName": "Conn Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 266
+        "FieldType": "System.Int32",
+        "FieldLength": 222
       }
     }
   }

@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Prohaska LLC"
+  "ApplicationName": "Blick, Prosacco and Hane"
 }
 ```
 

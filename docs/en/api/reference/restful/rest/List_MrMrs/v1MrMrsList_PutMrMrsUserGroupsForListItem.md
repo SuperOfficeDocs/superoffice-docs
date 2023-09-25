@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 505,
-    "Name": "Kub LLC",
-    "ToolTip": "Quo error eos adipisci dolores.",
+    "Id": 978,
+    "Name": "Hilpert Group",
+    "ToolTip": "Quasi sunt architecto voluptatem laboriosam eveniet.",
     "Deleted": false,
-    "Rank": 707,
-    "Type": "voluptatem",
-    "ColorBlock": 206,
-    "IconHint": "impedit",
+    "Rank": 505,
+    "Type": "tenetur",
+    "ColorBlock": 453,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2002-10-24T03:31:33.6479544+02:00",
+    "LastChanged": "2021-03-31T03:24:52.2713365+02:00",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Stehr Group",
-        "ToolTip": "Fugit iste ratione dolor iusto est.",
+        "Id": 727,
+        "Name": "Kub, O'Connell and Kautzer",
+        "ToolTip": "Ea tenetur aut et tempore.",
         "Deleted": true,
-        "Rank": 557,
-        "Type": "sit",
-        "ColorBlock": 504,
-        "IconHint": "fugit",
+        "Rank": 872,
+        "Type": "et",
+        "ColorBlock": 218,
+        "IconHint": "cumque",
         "Selected": false,
-        "LastChanged": "1998-04-26T03:31:33.6479544+02:00",
+        "LastChanged": "1999-11-26T03:24:52.2713365+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "fuga",
+        "StyleHint": "sequi",
         "Hidden": true,
-        "FullName": "Buddy Hodkiewicz"
+        "FullName": "Guiseppe Kessler"
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "ut",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Elizabeth O'Conner III"
+    "FullName": "Mr. Audrey Grimes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Parker-Rogahn",
-    "ToolTip": "Doloremque illo alias.",
-    "Deleted": true,
-    "Rank": 633,
-    "Type": "voluptatem",
-    "ColorBlock": 405,
-    "IconHint": "sequi",
+    "Id": 472,
+    "Name": "Mante Group",
+    "ToolTip": "Non eos explicabo illum.",
+    "Deleted": false,
+    "Rank": 850,
+    "Type": "laborum",
+    "ColorBlock": 508,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2006-01-02T03:31:33.6635785+01:00",
+    "LastChanged": "2009-04-15T03:24:52.2713365+02:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Nitzsche, Spinka and Borer",
-        "ToolTip": "Omnis et quod tenetur eos ut sunt dolorem.",
-        "Deleted": false,
-        "Rank": 708,
-        "Type": "ut",
-        "ColorBlock": 845,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2023-05-26T03:31:33.6635785+02:00",
+        "Id": 784,
+        "Name": "Collier-Glover",
+        "ToolTip": "Sit hic nam et ex.",
+        "Deleted": true,
+        "Rank": 238,
+        "Type": "tempore",
+        "ColorBlock": 424,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2015-05-14T03:24:52.2713365+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dicta",
+        "ExtraInfo": "enim",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Elaina Brakus",
+        "FullName": "Kayla O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 984
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Shayne Ziemann",
+    "ExtraInfo": "officiis",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Mrs. Abe Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldLength": 796
       }
     }
   }

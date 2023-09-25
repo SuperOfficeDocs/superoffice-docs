@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 893,
-    "Name": "Senger-Schmeler",
-    "Tooltip": "eos",
+    "HeadingId": 175,
+    "Name": "Schmeler-Bernhard",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 642,
-    "UdListDefinitionId": 945
+    "Rank": 361,
+    "UdListDefinitionId": 284
   },
   {
-    "HeadingId": 893,
-    "Name": "Senger-Schmeler",
-    "Tooltip": "eos",
+    "HeadingId": 175,
+    "Name": "Schmeler-Bernhard",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 642,
-    "UdListDefinitionId": 945
+    "Rank": 361,
+    "UdListDefinitionId": 284
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 763,
-    "Name": "Reichel-Christiansen",
-    "Tooltip": "sed",
+    "HeadingId": 349,
+    "Name": "Bergstrom-Rodriguez",
+    "Tooltip": "perferendis",
     "Deleted": true,
-    "Rank": 307,
-    "UdListDefinitionId": 104,
+    "Rank": 673,
+    "UdListDefinitionId": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 680
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

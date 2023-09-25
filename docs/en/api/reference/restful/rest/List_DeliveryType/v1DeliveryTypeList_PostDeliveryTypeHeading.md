@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 408,
-  "Name": "Homenick-Bartoletti",
-  "Tooltip": "eos",
+  "HeadingId": 54,
+  "Name": "Haley Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 35,
-  "UdListDefinitionId": 700
+  "Rank": 57,
+  "UdListDefinitionId": 42
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 324,
-  "Name": "Howell-Wuckert",
-  "Tooltip": "corrupti",
+  "HeadingId": 661,
+  "Name": "Sawayn-Carroll",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 947,
-  "UdListDefinitionId": 544,
+  "Rank": 671,
+  "UdListDefinitionId": 97,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldType": "System.Int32",
+      "FieldLength": 462
     }
   }
 }

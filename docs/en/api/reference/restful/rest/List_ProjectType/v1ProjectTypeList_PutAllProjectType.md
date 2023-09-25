@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 490,
-    "Name": "Langworth Group",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "UdListDefinitionId": 576,
-    "Rank": 101
+    "Id": 847,
+    "Name": "Barrows, Purdy and Kirlin",
+    "Tooltip": "quaerat",
+    "Deleted": true,
+    "UdListDefinitionId": 590,
+    "Rank": 49
   },
   {
-    "Id": 490,
-    "Name": "Langworth Group",
-    "Tooltip": "quasi",
-    "Deleted": false,
-    "UdListDefinitionId": 576,
-    "Rank": 101
+    "Id": 847,
+    "Name": "Barrows, Purdy and Kirlin",
+    "Tooltip": "quaerat",
+    "Deleted": true,
+    "UdListDefinitionId": 590,
+    "Rank": 49
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Wintheiser, Hills and Schumm",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "UdListDefinitionId": 741,
-    "Rank": 299,
+    "Id": 406,
+    "Name": "Walter, McClure and Powlowski",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "UdListDefinitionId": 401,
+    "Rank": 531,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 210
       }
     }
   }

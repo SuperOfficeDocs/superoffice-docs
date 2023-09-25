@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kessler-Luettgen",
-    "DisplayName": "Howell-Goldner",
-    "DisplayTooltip": "dolor",
+    "Name": "Larkin, Gutmann and Homenick",
+    "DisplayName": "Jenkins Inc and Sons",
+    "DisplayTooltip": "expedita",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 51
       }
     }
   },
   {
-    "Name": "Kessler-Luettgen",
-    "DisplayName": "Howell-Goldner",
-    "DisplayTooltip": "dolor",
+    "Name": "Larkin, Gutmann and Homenick",
+    "DisplayName": "Jenkins Inc and Sons",
+    "DisplayTooltip": "expedita",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 51
       }
     }
   }

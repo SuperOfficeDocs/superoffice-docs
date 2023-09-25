@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 572,
-  "Name": "Abshire Inc and Sons",
-  "Tooltip": "architecto",
-  "Deleted": true,
-  "UdListDefinitionId": 508,
-  "Rank": 460,
+  "Id": 462,
+  "Name": "Metz Group",
+  "Tooltip": "occaecati",
+  "Deleted": false,
+  "UdListDefinitionId": 671,
+  "Rank": 206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   }
 }

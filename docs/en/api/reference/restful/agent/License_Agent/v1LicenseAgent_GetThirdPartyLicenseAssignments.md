@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 489,
-  "ModuleOwner": "ut"
+  "AssociateId": 193,
+  "ModuleOwner": "aperiam"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 870,
-    "Tooltip": "deserunt",
-    "CanAssign": true,
-    "Free": 541,
-    "InUse": 259,
-    "IsHidden": true,
+    "Total": 365,
+    "Tooltip": "harum",
+    "CanAssign": false,
+    "Free": 907,
+    "InUse": 167,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 771,
-    "Name": "Homenick-Christiansen",
-    "Description": "Enhanced motivating architecture",
-    "PrerequisiteModuleName": "Hand-Reinger",
-    "SortOrder": 294,
-    "ExtraFlags": 183,
+    "ModuleLicenseId": 783,
+    "Name": "Okuneva-Turner",
+    "Description": "Streamlined coherent solution",
+    "PrerequisiteModuleName": "Marks, O'Connell and Heaney",
+    "SortOrder": 406,
+    "ExtraFlags": 322,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 218
       }
     }
   }

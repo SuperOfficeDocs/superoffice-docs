@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 790,
-  "Name": "Mraz-Oberbrunner",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "UdListDefinitionId": 642,
-  "Rank": 845,
+  "Id": 75,
+  "Name": "Hammes Inc and Sons",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "UdListDefinitionId": 229,
+  "Rank": 462,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldLength": 396
     }
   }
 }

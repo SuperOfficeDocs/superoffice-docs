@@ -81,36 +81,36 @@ OK
 POST /api/v1/Agents/List/SaveHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 549,
+  "HierarchyId": 436,
   "Domain": "Dashboards",
-  "Name": "Romaguera-Kerluke",
-  "Fullname": "iste",
-  "ParentId": 981,
+  "Name": "Sanford, Grady and Dicki",
+  "Fullname": "quae",
+  "ParentId": 401,
   "Children": [
     {
-      "HierarchyId": 495,
+      "HierarchyId": 281,
       "Domain": "Dashboards",
-      "Name": "Schiller LLC",
-      "Fullname": "incidunt",
-      "ParentId": 22,
+      "Name": "Torphy, Gutmann and Greenfelder",
+      "Fullname": "pariatur",
+      "ParentId": 785,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-04-16T03:31:26.7300385+02:00",
-      "RegisteredAssociateId": 953,
-      "Updated": "2016-08-13T03:31:26.7300385+02:00",
-      "UpdatedAssociateId": 850
+      "Registered": "2012-02-14T03:24:47.908255+01:00",
+      "RegisteredAssociateId": 795,
+      "Updated": "2003-07-30T03:24:47.908255+02:00",
+      "UpdatedAssociateId": 671
     }
   ],
-  "Registered": "2007-01-17T03:31:26.7300385+01:00",
-  "RegisteredAssociateId": 618,
-  "Updated": "2001-11-20T03:31:26.7300385+01:00",
-  "UpdatedAssociateId": 162
+  "Registered": "2001-05-20T03:24:47.908255+02:00",
+  "RegisteredAssociateId": 50,
+  "Updated": "2020-07-06T03:24:47.908255+02:00",
+  "UpdatedAssociateId": 110
 }
 ```
 
@@ -121,46 +121,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 911,
+  "HierarchyId": 714,
   "Domain": "Dashboards",
-  "Name": "Terry, Feil and Adams",
-  "Fullname": "alias",
-  "ParentId": 516,
+  "Name": "Reynolds-Rolfson",
+  "Fullname": "sit",
+  "ParentId": 556,
   "Children": [
     {
-      "HierarchyId": 705,
+      "HierarchyId": 761,
       "Domain": "Dashboards",
-      "Name": "Hammes-Braun",
-      "Fullname": "omnis",
-      "ParentId": 437,
+      "Name": "Lynch-Blanda",
+      "Fullname": "aliquam",
+      "ParentId": 590,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-09-12T03:31:26.7300385+02:00",
-      "RegisteredAssociateId": 860,
-      "Updated": "2002-06-28T03:31:26.7300385+02:00",
-      "UpdatedAssociateId": 414,
+      "Registered": "2018-05-25T03:24:47.908255+02:00",
+      "RegisteredAssociateId": 931,
+      "Updated": "2021-11-23T03:24:47.908255+01:00",
+      "UpdatedAssociateId": 362,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldLength": 279
         }
       }
     }
   ],
-  "Registered": "2005-08-18T03:31:26.7300385+02:00",
-  "RegisteredAssociateId": 840,
-  "Updated": "2002-09-30T03:31:26.7300385+02:00",
-  "UpdatedAssociateId": 946,
+  "Registered": "2002-05-23T03:24:47.908255+02:00",
+  "RegisteredAssociateId": 626,
+  "Updated": "2012-06-15T03:24:47.908255+02:00",
+  "UpdatedAssociateId": 205,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 771
     }
   }
 }

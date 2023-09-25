@@ -84,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 185,
-  "AssociateId": 889,
-  "Comment": "sapiente"
+  "QuoteVersionId": 916,
+  "AssociateId": 647,
+  "Comment": "id"
 }
 ```
 
@@ -98,9 +98,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "recusandae",
-  "TechExplanation": "recusandae",
-  "ErrorCode": "minima",
+  "UserExplanation": "ratione",
+  "TechExplanation": "in",
+  "ErrorCode": "non",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 534
     }
   }
 }

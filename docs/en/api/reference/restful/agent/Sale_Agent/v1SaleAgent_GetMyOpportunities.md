@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 486
+  "Count": 837
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bechtelar-Feest",
-    "SaleDate": "2016-05-01T03:31:27.1999504+02:00",
-    "SaleId": 664,
-    "Probability": 362,
-    "Title": "reprehenderit",
-    "Amount": 30616.046,
-    "Currency": "velit",
-    "ProjectName": "Purdy-Kuhn",
-    "AssociateFullName": "Erna Jast",
-    "Description": "Reduced tertiary hub",
+    "ContactName": "Howe-Lubowitz",
+    "SaleDate": "1996-09-15T03:24:48.2207231+02:00",
+    "SaleId": 677,
+    "Probability": 497,
+    "Title": "dignissimos",
+    "Amount": 19593.768,
+    "Currency": "nesciunt",
+    "ProjectName": "Nitzsche Inc and Sons",
+    "AssociateFullName": "Bret Hammes V",
+    "Description": "Assimilated coherent firmware",
     "Status": "Lost",
-    "WeightedAmount": 20418.01,
-    "ProjectId": 622,
-    "EarningPercent": 2751.652,
-    "Earning": 21850.248,
-    "ContactId": 122,
-    "AssociateId": 512,
-    "PersonId": 766,
-    "SaleTypeId": 750,
-    "SaleTypeName": "Kulas-Effertz",
-    "PersonFullName": "Van Raynor",
+    "WeightedAmount": 24862.022,
+    "ProjectId": 668,
+    "EarningPercent": 27309.676,
+    "Earning": 15767.153999999999,
+    "ContactId": 623,
+    "AssociateId": 713,
+    "PersonId": 96,
+    "SaleTypeId": 418,
+    "SaleTypeName": "O'Conner Inc and Sons",
+    "PersonFullName": "Max Kohler",
     "Completed": "Completed",
-    "ActiveErpLinks": 265,
-    "NextDueDate": "2020-01-29T03:31:27.1999504+01:00",
-    "Number": "741895",
+    "ActiveErpLinks": 35,
+    "NextDueDate": "2013-11-04T03:24:48.2207231+01:00",
+    "Number": "1032812",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldType": "System.String",
+        "FieldLength": 208
       }
     }
   }

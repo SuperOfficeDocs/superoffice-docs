@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 633,
-    "Name": "O'Connell, Prosacco and Pacocha",
-    "Tooltip": "soluta",
-    "SaveInDb": 522,
-    "Filename": "esse",
-    "DefaultOref": "possimus",
+    "DocumentTemplateId": 412,
+    "Name": "Bogan Inc and Sons",
+    "Tooltip": "corporis",
+    "SaveInDb": 359,
+    "Filename": "voluptatem",
+    "DefaultOref": "veniam",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 774,
-    "IntentId": 654,
-    "IsDefaultPublished": false,
-    "Rank": 415,
-    "LoadTemplateFromPlugin": 859,
-    "MimeType": "tempore",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 312,
+    "AutoeventId": 687,
+    "IntentId": 65,
+    "IsDefaultPublished": true,
+    "Rank": 148,
+    "LoadTemplateFromPlugin": 179,
+    "MimeType": "numquam",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 570,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "garrison@tillmancremin.uk",
+    "EmailSubject": "sonya_bogan@stokes.ca",
     "IncludeSignature": true,
     "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "dorothy@rowe.com",
+    "SenderEmailAddress": "keon.ernser@barton.biz",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 185
       }
     }
   }

@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/List/MoveListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 611,
-  "ListItemId": 183,
-  "Direction": 865
+  "UdListDefinitionId": 652,
+  "ListItemId": 772,
+  "Direction": 647
 }
 ```
 

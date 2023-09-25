@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Strosin LLC"
+  "ConnectorName": "Muller, Bernhard and Jacobi"
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 222,
-  "ERPName": "Luettgen Group",
-  "DisplayName": "Waters, Johnston and Hickle",
-  "DisplayDescription": "Intuitive empowering open architecture",
-  "Rank": 100,
-  "ConnectorName": "Skiles Inc and Sons",
-  "ErpConnectionId": 132,
-  "ExtraData": "inventore",
-  "IsAvailable": false,
+  "QuoteConnectionId": 522,
+  "ERPName": "Kiehn, Stiedemann and Wuckert",
+  "DisplayName": "Champlin, Keeling and Cummerata",
+  "DisplayDescription": "Adaptive client-server data-warehouse",
+  "Rank": 699,
+  "ConnectorName": "Paucek Group",
+  "ErpConnectionId": 476,
+  "ExtraData": "minus",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 92,
-      "ERPPriceListKey": "aliquam",
-      "QuoteConnectionId": 381,
-      "Name": "Friesen, Prosacco and Jacobson",
-      "Description": "Organic responsive policy",
-      "Currency": "qui",
-      "CurrencyName": "Simonis-Parker",
-      "ValidFrom": "2013-07-26T03:31:27.0905589+02:00",
-      "ValidTo": "2009-11-29T03:31:27.0905589+01:00",
-      "IsActive": false,
+      "PriceListId": 319,
+      "ERPPriceListKey": "veritatis",
+      "QuoteConnectionId": 67,
+      "Name": "Kessler-Bartell",
+      "Description": "User-centric impactful process improvement",
+      "Currency": "eos",
+      "CurrencyName": "Roob, Harris and Deckow",
+      "ValidFrom": "2006-12-07T03:24:48.1426062+01:00",
+      "ValidTo": "2013-04-24T03:24:48.1426062+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 275
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    133,
-    196
+    556,
+    853
   ],
   "AssociateAccessIds": [
-    702,
-    450
+    64,
+    475
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 24
     }
   }
 }

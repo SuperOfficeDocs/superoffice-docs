@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 168
+  "ProjectId": 175
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 534,
-  "Name": "Brakus-Huels",
-  "Description": "Reduced fault-tolerant pricing structure",
+  "ProjectId": 613,
+  "Name": "Macejkovic Inc and Sons",
+  "Description": "Phased value-added complexity",
   "URL": "http://www.example.com/",
-  "Type": "et",
-  "AssociateId": 461,
-  "AssociateFullName": "Charles Corwin",
-  "TypeId": 563,
-  "Updated": "2006-12-01T03:31:27.0268433+01:00",
-  "StatusId": 78,
-  "Status": "recusandae",
-  "TextId": 149,
-  "PublishTo": "1997-10-26T03:31:27.0268433+01:00",
-  "PublishFrom": "2022-11-08T03:31:27.0268433+01:00",
-  "IsPublished": true,
+  "Type": "provident",
+  "AssociateId": 419,
+  "AssociateFullName": "Miss Jaylan Carolina Mann V",
+  "TypeId": 359,
+  "Updated": "2018-08-23T03:24:48.0957311+02:00",
+  "StatusId": 671,
+  "Status": "maiores",
+  "TextId": 518,
+  "PublishTo": "2023-04-21T03:24:48.0957311+02:00",
+  "PublishFrom": "2000-10-15T03:24:48.0957311+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1051350",
-  "ActiveErpLinks": 785,
+  "ProjectNumber": "614511",
+  "ActiveErpLinks": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 162
     }
   }
 }

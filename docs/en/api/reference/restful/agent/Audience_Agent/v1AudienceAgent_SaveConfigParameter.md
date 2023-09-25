@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Larson-Gibson",
+  "LayoutName": "Klein, Jakubowski and Rogahn",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 845,
-  "Name": "Terry-Mante",
-  "Value": "et",
-  "CreatedDate": "1996-09-08T03:31:25.6339962+02:00",
-  "UpdatedDate": "1998-07-18T03:31:25.6339962+02:00",
-  "CreatedBy": "ipsa",
-  "UpdatedBy": "qui",
+  "AudienceLayoutId": 75,
+  "Name": "Jast Group",
+  "Value": "alias",
+  "CreatedDate": "2016-04-10T03:24:47.2364513+02:00",
+  "UpdatedDate": "2007-05-22T03:24:47.2364513+02:00",
+  "CreatedBy": "tenetur",
+  "UpdatedBy": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 275
     }
   }
 }

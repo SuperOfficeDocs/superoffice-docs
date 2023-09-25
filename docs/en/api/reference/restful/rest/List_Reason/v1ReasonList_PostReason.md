@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
-  "Name": "Considine, McKenzie and Maggio",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 572,
-  "Rank": 522
+  "Id": 160,
+  "Name": "Bode-Marquardt",
+  "Tooltip": "voluptatibus",
+  "Deleted": true,
+  "UdListDefinitionId": 82,
+  "Rank": 672
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Reilly LLC",
-  "Tooltip": "et",
+  "Id": 919,
+  "Name": "Haley, Renner and Harris",
+  "Tooltip": "vitae",
   "Deleted": false,
-  "UdListDefinitionId": 19,
-  "Rank": 659,
+  "UdListDefinitionId": 125,
+  "Rank": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldLength": 187
     }
   }
 }

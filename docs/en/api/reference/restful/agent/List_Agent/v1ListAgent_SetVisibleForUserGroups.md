@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 741,
-  "ListItemId": 643,
+  "UdListDefinitionId": 426,
+  "ListItemId": 449,
   "UserGroups": [
     {
-      "Id": 257,
-      "Name": "Spencer, Yost and Satterfield",
-      "ToolTip": "Et exercitationem doloremque ab error eum.",
-      "Deleted": true,
-      "Rank": 360,
-      "Type": "nam",
-      "ColorBlock": 793,
-      "IconHint": "et",
+      "Id": 645,
+      "Name": "Schiller Inc and Sons",
+      "ToolTip": "Quisquam distinctio autem.",
+      "Deleted": false,
+      "Rank": 678,
+      "Type": "debitis",
+      "ColorBlock": 670,
+      "IconHint": "exercitationem",
       "Selected": true,
-      "LastChanged": "2017-10-03T03:31:26.6675558+02:00",
+      "LastChanged": "2016-05-14T03:24:47.8613878+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "alias",
-      "Hidden": false,
-      "FullName": "D'angelo Kuphal"
+      "ExtraInfo": "optio",
+      "StyleHint": "accusamus",
+      "Hidden": true,
+      "FullName": "Mrs. Philip Gerlach II"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Stiedemann Group",
-    "ToolTip": "Laborum dolorem rerum culpa nisi nisi deserunt repellat.",
+    "Id": 524,
+    "Name": "Metz LLC",
+    "ToolTip": "Nihil porro eos ducimus vel.",
     "Deleted": false,
-    "Rank": 298,
-    "Type": "pariatur",
-    "ColorBlock": 861,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2015-04-12T03:31:26.6675558+02:00",
+    "Rank": 501,
+    "Type": "aut",
+    "ColorBlock": 565,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2006-08-07T03:24:47.8613878+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Schiller-Langosh",
-        "ToolTip": "Corrupti placeat ea accusantium aut suscipit quo.",
+        "Id": 841,
+        "Name": "Heller-Pfeffer",
+        "ToolTip": "Nobis ut enim commodi possimus quo in eius.",
         "Deleted": true,
-        "Rank": 657,
-        "Type": "nesciunt",
-        "ColorBlock": 399,
-        "IconHint": "molestias",
+        "Rank": 423,
+        "Type": "quaerat",
+        "ColorBlock": 26,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2007-10-29T03:31:26.6675558+01:00",
+        "LastChanged": "2010-02-17T03:24:47.8613878+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "beatae",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Prof. Itzel Cormier Sr.",
+        "FullName": "Verdie Williamson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 870
+            "FieldType": "System.String",
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "quis",
+    "ExtraInfo": "tempore",
+    "StyleHint": "iusto",
     "Hidden": true,
-    "FullName": "Emmanuelle Flatley",
+    "FullName": "Miss Mabelle Sanford Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 421
       }
     }
   }

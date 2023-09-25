@@ -128,15 +128,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 206,
-  "GroupType": 666,
-  "StartTime": "2003-10-26T03:31:25.1313731+01:00",
-  "EndTime": "2020-04-15T03:31:25.1313731+02:00",
-  "Count": 402
+  "GroupId": 660,
+  "GroupType": 39,
+  "StartTime": "2009-09-21T03:24:46.9550719+02:00",
+  "EndTime": "2006-01-17T03:24:46.9550719+01:00",
+  "Count": 841
 }
 ```
 
@@ -148,64 +148,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 870,
-    "StartDate": "2013-09-18T03:31:25.1313731+02:00",
-    "EndDate": "1998-11-01T03:31:25.1313731+01:00",
+    "AppointmentId": 331,
+    "StartDate": "2017-03-11T03:24:46.9550719+01:00",
+    "EndDate": "2013-08-17T03:24:46.9550719+02:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Hester Labadie",
-    "ContactName": "D'Amore LLC",
-    "Description": "Optimized systemic implementation",
-    "PersonFullName": "Viola Bahringer Jr.",
-    "PersonId": 480,
-    "ContactId": 583,
-    "ProjectId": 913,
-    "ProjectName": "Kilback-Leffler",
-    "IsPublished": false,
-    "AssociateId": 212,
-    "ColorIndex": 126,
+    "Task": "quam",
+    "AssociateFullName": "Joelle McGlynn",
+    "ContactName": "Lebsack-Okuneva",
+    "Description": "Polarised modular support",
+    "PersonFullName": "Mr. May Buck Hammes IV",
+    "PersonId": 933,
+    "ContactId": 748,
+    "ProjectId": 973,
+    "ProjectName": "Heathcote-Muller",
+    "IsPublished": true,
+    "AssociateId": 899,
+    "ColorIndex": 182,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 615,
-    "PriorityName": "Crona, Franecki and Gibson",
+    "PriorityId": 359,
+    "PriorityName": "Jacobs-Jast",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2016-03-11T03:31:25.1313731+01:00",
+    "ActiveDate": "2016-09-11T03:24:46.9550719+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-12-30T03:31:25.1313731+01:00",
-    "RecurringEndDate": "2007-10-09T03:31:25.1313731+02:00",
-    "MotherId": 831,
-    "AssignedBy": 775,
-    "AssignedByFullName": "Eva Osinski",
+    "RecurringStartDate": "2017-03-20T03:24:46.9550719+01:00",
+    "RecurringEndDate": "2009-01-15T03:24:46.9550719+01:00",
+    "MotherId": 66,
+    "AssignedBy": 306,
+    "AssignedByFullName": "Alene Pagac",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "non",
-    "SaleId": 807,
-    "SaleName": "Kreiger, Tromp and Blanda",
-    "AssociateName": "Wintheiser-Walsh",
-    "CreatedDate": "2005-08-04T03:31:25.1313731+02:00",
-    "CreatedBy": "dolores",
-    "CreatedByFullName": "Jace O'Hara",
-    "CreatedByAssociateId": 282,
+    "Location": "odit",
+    "AlarmLeadTime": "et",
+    "SaleId": 469,
+    "SaleName": "Collier, Medhurst and Kuhic",
+    "AssociateName": "Reinger Inc and Sons",
+    "CreatedDate": "2003-09-02T03:24:46.9550719+02:00",
+    "CreatedBy": "blanditiis",
+    "CreatedByFullName": "Wade Moen",
+    "CreatedByAssociateId": 828,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "cupiditate",
-    "Agenda": "et",
-    "InternalNotes": "deleniti",
+    "Title": "ab",
+    "Agenda": "dolorem",
+    "InternalNotes": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 16
       }
     }
   }

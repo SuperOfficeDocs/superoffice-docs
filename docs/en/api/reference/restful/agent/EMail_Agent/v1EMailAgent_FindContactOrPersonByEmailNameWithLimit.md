@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boehm, Hammes and Barrows",
-  "EmailAddress": "llewellyn_howell@keelingconn.com",
-  "NumberOfContacts": 54,
-  "NumberOfPersons": 601
+  "Name": "Osinski, Abbott and Rice",
+  "EmailAddress": "josue@legros.info",
+  "NumberOfContacts": 675,
+  "NumberOfPersons": 564
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 538,
-    "FullName": "Ervin Hickle DVM",
-    "EmailAddress": "kari.romaguera@thompsonweber.us",
-    "ContactId": 913,
-    "ContactName": "Wiza, Greenholt and Monahan",
-    "ContactDepartment": "deploy end-to-end e-markets",
+    "PersonId": 432,
+    "FullName": "Rosanna Rhiannon Veum Sr.",
+    "EmailAddress": "madeline.krajcik@streich.us",
+    "ContactId": 46,
+    "ContactName": "Treutel, Kihn and VonRueden",
+    "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Gorczany LLC",
+    "SortName": "Von, Stiedemann and Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 848
       }
     }
   }

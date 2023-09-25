@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 952,
-  "Currency": "corrupti"
+  "QuoteConnectionId": 313,
+  "Currency": "nam"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 887,
-    "ERPPriceListKey": "est",
-    "QuoteConnectionId": 806,
-    "Name": "Gaylord LLC",
-    "Description": "Advanced analyzing website",
-    "Currency": "inventore",
-    "CurrencyName": "Koelpin, Schuster and Feil",
-    "ValidFrom": "2015-07-18T03:31:27.0905589+02:00",
-    "ValidTo": "1996-06-18T03:31:27.0905589+02:00",
+    "PriceListId": 429,
+    "ERPPriceListKey": "reprehenderit",
+    "QuoteConnectionId": 203,
+    "Name": "Stamm Inc and Sons",
+    "Description": "Fully-configurable discrete groupware",
+    "Currency": "quis",
+    "CurrencyName": "Cremin-Kihn",
+    "ValidFrom": "2016-05-14T03:24:48.1426062+02:00",
+    "ValidTo": "2015-12-05T03:24:48.1426062+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   }

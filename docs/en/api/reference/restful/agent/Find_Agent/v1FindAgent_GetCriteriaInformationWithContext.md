@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Beahan LLC",
-  "StorageKey": "sit",
+  "StorageType": "unde",
+  "ProviderName": "Schiller Inc and Sons",
+  "StorageKey": "saepe",
   "StaticColumns": [
-    "aut",
-    "autem"
+    "alias",
+    "ullam"
   ],
-  "Context": "et"
+  "Context": "ipsa"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Greenfelder-Emmerich",
-      "Operator": "debitis",
+      "Name": "Klocko, Littel and Lind",
+      "Operator": "ratione",
       "Values": [
-        "molestias",
-        "adipisci"
+        "doloribus",
+        "assumenda"
       ],
       "DisplayValues": [
-        "rem",
-        "quasi"
+        "est",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 363,
+      "InterParenthesis": 75,
       "InterOperator": "And",
-      "UniqueHash": 78
+      "UniqueHash": 2
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Murazik-Rosenbaum",
-      "DisplayTooltip": "ipsa",
-      "DisplayType": "voluptatibus",
+      "DisplayName": "Stoltenberg, Shields and Breitenberg",
+      "DisplayTooltip": "architecto",
+      "DisplayType": "consequatur",
       "CanOrderBy": false,
-      "Name": "Bernhard LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "omnis",
-      "RestrictionListName": "Reichel-Kreiger",
+      "Name": "Buckridge Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "repudiandae",
+      "RestrictionListName": "Thompson Group",
       "IsVisible": true,
-      "ExtraInfo": "corporis",
-      "Width": "aut",
-      "IconHint": "saepe",
+      "ExtraInfo": "expedita",
+      "Width": "quas",
+      "IconHint": "perspiciatis",
       "HeadingIconHint": "occaecati"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hoeger-Cole",
-      "PrimaryKey": 533,
+      "EntityName": "Purdy, Morar and Heller",
+      "PrimaryKey": 941,
       "ColumnData": {
         "fieldName": {
           "DisplayValue": "earum",
-          "TooltipHint": "sint",
-          "LinkHint": "delectus"
+          "TooltipHint": "quas",
+          "LinkHint": "quasi"
         }
       },
-      "LinkHint": "debitis",
-      "StyleHint": "rerum",
+      "LinkHint": "et",
+      "StyleHint": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 222
+          "FieldLength": 244
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jast-Murphy",
-      "Description": "Devolved zero administration implementation",
-      "Rank": 26,
+      "Name": "Wehner, Nolan and Haley",
+      "Description": "Reactive high-level customer loyalty",
+      "Rank": 50,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jast-Murphy",
-      "Description": "Devolved zero administration implementation",
-      "Rank": 26,
+      "Name": "Wehner, Nolan and Haley",
+      "Description": "Reactive high-level customer loyalty",
+      "Rank": 50,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 976
     }
   }
 }

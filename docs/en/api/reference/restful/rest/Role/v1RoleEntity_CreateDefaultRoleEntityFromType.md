@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 440,
-  "Name": "Dietrich, Rogahn and McCullough",
-  "Tooltip": "ut",
+  "RoleId": 979,
+  "Name": "Dibbert-Trantow",
+  "Tooltip": "temporibus",
   "RoleType": "Anonymous",
-  "Deleted": 98,
-  "Rank": 395,
-  "Created": "2011-01-06T03:31:32.831977+01:00",
-  "UseCategories": 979,
+  "Deleted": 306,
+  "Rank": 637,
+  "Created": "2002-10-04T03:24:51.7557701+02:00",
+  "UseCategories": 307,
   "CreatedBy": null,
-  "Updated": "2014-08-29T03:31:32.831977+02:00",
+  "Updated": "2017-01-09T03:24:51.7557701+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 394
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=fuga
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=velit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Crist Inc and Sons",
-    "ToolTip": "Nisi ratione quae velit.",
+    "Id": 780,
+    "Name": "Boyer-Bergstrom",
+    "ToolTip": "Omnis nostrum voluptatibus aliquid enim.",
     "Deleted": false,
-    "Rank": 227,
-    "Type": "inventore",
+    "Rank": 231,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Sanford, Abbott and Johns",
-        "ToolTip": "Officiis quis cumque accusantium eum ad sapiente eligendi.",
+        "Id": 308,
+        "Name": "Wehner-Bailey",
+        "ToolTip": "Exercitationem quisquam autem earum et non autem.",
         "Deleted": false,
-        "Rank": 819,
-        "Type": "et",
+        "Rank": 684,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 784,
-        "ExtraInfo": "perferendis",
-        "StyleHint": "quia",
-        "FullName": "Nayeli Senger",
+        "IconHint": "voluptatem",
+        "ColorBlock": 142,
+        "ExtraInfo": "placeat",
+        "StyleHint": "nemo",
+        "FullName": "Kevon Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 922
+            "FieldLength": 404
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 174,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "est",
-    "FullName": "Maggie Renner",
+    "IconHint": "qui",
+    "ColorBlock": 178,
+    "ExtraInfo": "tempore",
+    "StyleHint": "assumenda",
+    "FullName": "Kamren Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 649
       }
     }
   }

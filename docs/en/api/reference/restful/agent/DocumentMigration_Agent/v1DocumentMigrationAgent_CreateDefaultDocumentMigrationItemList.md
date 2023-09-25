@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 242,
-  "NumDocumentsAlreadyMigrated": 201,
+  "NumDocumentsOmitted": 622,
+  "NumDocumentsAlreadyMigrated": 270,
   "Documents": [
     {
-      "DocumentId": 72,
-      "ContactId": 387,
-      "PersonId": 813,
-      "SaleId": 319,
-      "ProjectId": 37,
-      "DocTmplId": 588,
-      "AssociateId": 620,
-      "UserGroupId": 922,
-      "VisibleForId": 762
+      "DocumentId": 63,
+      "ContactId": 508,
+      "PersonId": 116,
+      "SaleId": 929,
+      "ProjectId": 292,
+      "DocTmplId": 495,
+      "AssociateId": 178,
+      "UserGroupId": 352,
+      "VisibleForId": 940
     }
   ],
   "Associates": [
     {
-      "AssociateId": 688,
-      "EmailAddress": "aylin@gutkowskinikolaus.com"
+      "AssociateId": 474,
+      "EmailAddress": "kathleen.ferry@dachzulauf.us"
     },
     {
-      "AssociateId": 688,
-      "EmailAddress": "aylin@gutkowskinikolaus.com"
+      "AssociateId": 474,
+      "EmailAddress": "kathleen.ferry@dachzulauf.us"
     }
   ]
 }

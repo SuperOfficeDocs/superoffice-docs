@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 276
+  "PersonId": 886
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 574,
-  "BlobSize": 784,
-  "Description": "Networked assymetric hierarchy",
-  "ExtraInfo": "ratione",
+  "BlobId": 85,
+  "BlobSize": 614,
+  "Description": "Cloned logistical product",
+  "ExtraInfo": "explicabo",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "eius",
-  "OriginalSize": 401,
-  "CreatedDate": "2003-12-30T03:31:25.6652413+01:00",
-  "UpdatedDate": "2019-05-25T03:31:25.6652413+02:00",
+  "IsZipped": true,
+  "MimeType": "nam",
+  "OriginalSize": 112,
+  "CreatedDate": "2016-06-27T03:24:47.2677007+02:00",
+  "UpdatedDate": "1999-05-23T03:24:47.2677007+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quasi",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 549
+      "FieldLength": 357
     }
   }
 }

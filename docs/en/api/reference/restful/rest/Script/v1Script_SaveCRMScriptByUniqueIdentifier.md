@@ -91,16 +91,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eum",
-  "Name": "Keeling Inc and Sons",
-  "Description": "Persevering fault-tolerant complexity",
-  "IncludeId": "facilis",
-  "Source": "voluptatum",
-  "Registered": "2002-09-09T03:31:33.3667765+02:00",
-  "RegisteredBy": "est",
-  "Updated": "1999-06-29T03:31:33.3667765+02:00",
-  "UpdatedBy": "quae",
-  "Path": "possimus"
+  "UniqueIdentifier": "enim",
+  "Name": "Russel-Hauck",
+  "Description": "Open-architected solution-oriented projection",
+  "IncludeId": "iure",
+  "Source": "sint",
+  "Registered": "2007-05-01T03:24:52.0838565+02:00",
+  "RegisteredBy": "deserunt",
+  "Updated": "2016-06-14T03:24:52.0838565+02:00",
+  "UpdatedBy": "nobis",
+  "Path": "quis"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "vel",
-  "Name": "Beahan-Mertz",
-  "Description": "Total analyzing circuit",
-  "IncludeId": "placeat",
-  "Source": "id",
-  "Registered": "2022-12-01T03:31:33.3667765+01:00",
-  "RegisteredBy": "nisi",
-  "Updated": "2007-03-18T03:31:33.3667765+01:00",
-  "UpdatedBy": "voluptatum",
-  "Path": "alias",
+  "UniqueIdentifier": "est",
+  "Name": "Wisozk-Reichel",
+  "Description": "Optional high-level intranet",
+  "IncludeId": "molestiae",
+  "Source": "minus",
+  "Registered": "2023-03-08T03:24:52.0838565+01:00",
+  "RegisteredBy": "officia",
+  "Updated": "2008-11-21T03:24:52.0838565+01:00",
+  "UpdatedBy": "nam",
+  "Path": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 406,
-  "ModuleOwner": "fuga",
+  "AssociateId": 546,
+  "ModuleOwner": "voluptatem",
   "ModuleLicenseNames": [
-    "Quigley-Powlowski",
-    "Casper-Lowe"
+    "Strosin, Funk and Kuvalis",
+    "Medhurst LLC"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 600,
-    "Tooltip": "possimus",
-    "CanAssign": false,
-    "Free": 251,
-    "InUse": 287,
+    "Total": 368,
+    "Tooltip": "voluptatum",
+    "CanAssign": true,
+    "Free": 279,
+    "InUse": 131,
     "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 415,
-    "Name": "Ledner Inc and Sons",
-    "Description": "Exclusive interactive extranet",
-    "PrerequisiteModuleName": "Auer-Rempel",
-    "SortOrder": 654,
-    "ExtraFlags": 190,
+    "Assigned": false,
+    "ModuleLicenseId": 96,
+    "Name": "Ritchie Inc and Sons",
+    "Description": "Team-oriented static adapter",
+    "PrerequisiteModuleName": "Schultz-Rodriguez",
+    "SortOrder": 364,
+    "ExtraFlags": 149,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 779
       }
     }
   }

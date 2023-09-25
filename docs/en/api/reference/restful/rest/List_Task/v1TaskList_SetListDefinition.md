@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Yundt-Emard",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 604,
-  "IsCustomList": false,
+  "Id": 544,
+  "Name": "Grimes LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 172,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": false
+  "ListType": "exercitationem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Carter, Deckow and Ernser",
-  "Tooltip": "eos",
+  "Id": 342,
+  "Name": "Ernser Inc and Sons",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 104,
+  "Rank": 708,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 592
     }
   }
 }

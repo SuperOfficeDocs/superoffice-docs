@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 445,
-    "Name": "Collins Group",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "Rank": 764,
-    "UdListDefinitionId": 317,
+    "HeadingId": 157,
+    "Name": "Bergstrom-Sauer",
+    "Tooltip": "ratione",
+    "Deleted": true,
+    "Rank": 212,
+    "UdListDefinitionId": 945,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 364
       }
     }
   }

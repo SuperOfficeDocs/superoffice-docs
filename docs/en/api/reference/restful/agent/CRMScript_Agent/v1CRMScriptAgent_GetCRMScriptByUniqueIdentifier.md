@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nobis"
+  "UniqueIdentifier": "est"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sunt",
-  "Name": "Bogan-Dare",
-  "Description": "Team-oriented impactful concept",
-  "IncludeId": "ea",
-  "Source": "deleniti",
-  "Registered": "2000-11-06T03:31:25.9790593+01:00",
-  "RegisteredBy": "autem",
-  "Updated": "2004-09-26T03:31:25.9790593+02:00",
-  "UpdatedBy": "maxime",
-  "Path": "cum",
+  "UniqueIdentifier": "iste",
+  "Name": "Kertzmann, Hermiston and Zboncak",
+  "Description": "Cross-group foreground open architecture",
+  "IncludeId": "blanditiis",
+  "Source": "sit",
+  "Registered": "2015-04-14T03:24:47.4708008+02:00",
+  "RegisteredBy": "enim",
+  "Updated": "2002-03-13T03:24:47.4708008+01:00",
+  "UpdatedBy": "veritatis",
+  "Path": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

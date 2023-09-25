@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Gutkowski Inc and Sons",
-  "Comment": "voluptas",
-  "StakeholderRoleId": 777,
-  "CountryId": 746,
-  "PersonId": 356,
-  "EmailDescription": "delores_renner@kuhnschowalter.ca",
-  "EmailId": 9,
-  "EmailAddress": "ephraim_rutherford@kreigerkiehn.co.uk",
-  "PhoneId": 267,
-  "ContactName": "Ebert-Yost",
-  "ContactId": 878,
-  "SaleId": 49,
-  "Mrmrs": "dolore",
-  "Firstname": "Lora",
-  "MiddleName": "Strosin Inc and Sons",
-  "Lastname": "Dare",
-  "SaleStakeholderId": 22,
-  "Rank": 909,
-  "Phone": "(813)306-6479 x85536"
+  "StakeholderRoleName": "Hoppe Group",
+  "Comment": "aliquid",
+  "StakeholderRoleId": 187,
+  "CountryId": 486,
+  "PersonId": 115,
+  "EmailDescription": "ramiro.farrell@mueller.name",
+  "EmailId": 148,
+  "EmailAddress": "nelda_hauck@bruen.name",
+  "PhoneId": 639,
+  "ContactName": "Fisher, Schuppe and Brakus",
+  "ContactId": 386,
+  "SaleId": 746,
+  "Mrmrs": "quisquam",
+  "Firstname": "Larry",
+  "MiddleName": "Farrell, Feil and Champlin",
+  "Lastname": "Koss",
+  "SaleStakeholderId": 109,
+  "Rank": 772,
+  "Phone": "492-274-9346"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Haley Inc and Sons",
-  "Comment": "hic",
-  "StakeholderRoleId": 972,
-  "CountryId": 519,
-  "PersonId": 154,
-  "EmailDescription": "ava.balistreri@leschschoen.co.uk",
-  "EmailId": 42,
-  "EmailAddress": "caden@gleichnerwatsica.biz",
-  "PhoneId": 815,
-  "ContactName": "Emard Group",
-  "ContactId": 671,
-  "SaleId": 154,
-  "Mrmrs": "placeat",
-  "Firstname": "Elise",
-  "MiddleName": "Crona-Koepp",
-  "Lastname": "Quitzon",
-  "SaleStakeholderId": 711,
-  "Rank": 66,
-  "Phone": "1-065-549-9099",
+  "StakeholderRoleName": "Stehr-Stark",
+  "Comment": "est",
+  "StakeholderRoleId": 964,
+  "CountryId": 451,
+  "PersonId": 457,
+  "EmailDescription": "jaylen_lakin@hickle.us",
+  "EmailId": 215,
+  "EmailAddress": "stanton@bahringersauer.co.uk",
+  "PhoneId": 345,
+  "ContactName": "Feest Group",
+  "ContactId": 235,
+  "SaleId": 883,
+  "Mrmrs": "in",
+  "Firstname": "Chaz",
+  "MiddleName": "Littel Group",
+  "Lastname": "Doyle",
+  "SaleStakeholderId": 654,
+  "Rank": 447,
+  "Phone": "008.559.2738",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 557
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

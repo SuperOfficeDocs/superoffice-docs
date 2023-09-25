@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 147,
-  "Name": "Prohaska Group",
-  "Tooltip": "rem",
-  "SaveInDb": 257,
-  "Filename": "dolore",
-  "DefaultOref": "necessitatibus",
+  "DocumentTemplateId": 499,
+  "Name": "Runolfsdottir-Rau",
+  "Tooltip": "sint",
+  "SaveInDb": 93,
+  "Filename": "sunt",
+  "DefaultOref": "inventore",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 721,
-  "IntentId": 692,
-  "IsDefaultPublished": true,
-  "Rank": 468,
-  "LoadTemplateFromPlugin": 439,
-  "MimeType": "saepe",
+  "AutoeventId": 311,
+  "IntentId": 303,
+  "IsDefaultPublished": false,
+  "Rank": 860,
+  "LoadTemplateFromPlugin": 719,
+  "MimeType": "quibusdam",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 92,
+  "DocumentTypeKey": 359,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elmore@raujast.us",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "lizzie@koelpin.biz",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "queen@joneslehner.ca",
+  "SenderEmailAddress": "anjali@stiedemanndamore.ca",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 342,
-  "Name": "Collins, Spinka and Borer",
-  "Tooltip": "numquam",
-  "SaveInDb": 897,
-  "Filename": "modi",
-  "DefaultOref": "fugiat",
+  "DocumentTemplateId": 562,
+  "Name": "Lesch Group",
+  "Tooltip": "et",
+  "SaveInDb": 441,
+  "Filename": "provident",
+  "DefaultOref": "pariatur",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 28,
-  "IntentId": 102,
-  "IsDefaultPublished": false,
-  "Rank": 624,
-  "LoadTemplateFromPlugin": 730,
-  "MimeType": "repellendus",
+  "AutoeventId": 835,
+  "IntentId": 526,
+  "IsDefaultPublished": true,
+  "Rank": 279,
+  "LoadTemplateFromPlugin": 734,
+  "MimeType": "non",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 787,
+  "DocumentTypeKey": 837,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "brenna_kulas@kshlerinhettinger.us",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "enrico_roob@nitzsche.name",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dejuan@treutel.name",
+  "SenderEmailAddress": "hector.mueller@kassulke.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 950
     }
   }
 }

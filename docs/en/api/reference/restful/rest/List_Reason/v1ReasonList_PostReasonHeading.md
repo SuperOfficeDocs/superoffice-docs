@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 524,
-  "Name": "Jacobson LLC",
-  "Tooltip": "repellat",
+  "HeadingId": 644,
+  "Name": "Schulist, Cormier and Raynor",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 120,
-  "UdListDefinitionId": 557
+  "Rank": 570,
+  "UdListDefinitionId": 329
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 566,
-  "Name": "Rogahn LLC",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 232,
-  "UdListDefinitionId": 23,
+  "HeadingId": 873,
+  "Name": "Stiedemann-Leannon",
+  "Tooltip": "cumque",
+  "Deleted": false,
+  "Rank": 257,
+  "UdListDefinitionId": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

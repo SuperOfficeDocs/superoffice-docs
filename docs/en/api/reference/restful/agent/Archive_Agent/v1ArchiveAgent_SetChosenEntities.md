@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Pouros LLC",
-  "ProviderName": "Bergnaum-Cremin",
+  "GuiName": "Lind-Casper",
+  "ProviderName": "Torphy-Murphy",
   "Entities": [
-    "ullam",
-    "fugiat"
+    "qui",
+    "debitis"
   ]
 }
 ```

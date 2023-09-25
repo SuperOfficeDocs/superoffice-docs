@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 874,
-  "Name": "Johnson-Howell",
-  "Description": "Organized optimal leverage",
-  "DefaultHeight": 176,
-  "DefaultWidth": 564,
+  "DashboardTileDefinitionId": 817,
+  "Name": "Brekke, Dietrich and Purdy",
+  "Description": "Polarised solution-oriented application",
+  "DefaultHeight": 214,
+  "DefaultWidth": 316,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Erdman, Veum and Becker",
-  "SelectionId": 24,
+  "EntityName": "Conroy-Gaylord",
+  "SelectionId": 690,
   "CurrencyMode": "Base",
-  "CurrencyCode": "est",
+  "CurrencyCode": "dolor",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "soluta",
-  "LayoutConfig": "numquam",
-  "SecondarySelectionId": 739,
-  "MeasureByField": "saepe",
+  "MeasureField": "molestiae",
+  "SortBy": "accusantium",
+  "LayoutConfig": "dolor",
+  "SecondarySelectionId": 888,
+  "MeasureByField": "rerum",
   "Usage": "Dashboard",
-  "ProviderName": "Mertz Group",
+  "ProviderName": "Ritchie, Hauck and Terry",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 207
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

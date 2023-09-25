@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pouros-Ritchie",
+  "UdListDefinitionName": "Yost Inc and Sons",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 820,
-  "Name": "Hilll Inc and Sons",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "UdListDefinitionId": 511,
-  "Rank": 856,
+  "Id": 294,
+  "Name": "Abshire, Konopelski and Yundt",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "UdListDefinitionId": 265,
+  "Rank": 534,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 985
     }
   }
 }

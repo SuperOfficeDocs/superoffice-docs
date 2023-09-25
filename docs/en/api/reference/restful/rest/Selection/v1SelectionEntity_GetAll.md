@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=perferendis
-GET /api/v1/Selection?$top=604
-GET /api/v1/Selection?$skip=786
+GET /api/v1/Selection?$entities=dignissimos
+GET /api/v1/Selection?$top=452
+GET /api/v1/Selection?$skip=208
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=ab
+GET /api/v1/Selection?$context=officiis
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=True
+GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "nulla",
   "value": [
     {
-      "PrimaryKey": 1180,
-      "EntityName": "sale",
-      "saleId": 1180,
-      "contactId": 9365,
-      "name": "Rohan, Bartoletti and Hessel"
+      "PrimaryKey": 8394,
+      "EntityName": "person",
+      "personId": 8394,
+      "fullName": "Favian Parisian"
     },
     {
-      "PrimaryKey": 6355,
-      "EntityName": "sale",
-      "saleId": 6355,
-      "contactId": 940,
-      "name": "Conn Inc and Sons"
+      "PrimaryKey": 877,
+      "EntityName": "person",
+      "personId": 877,
+      "fullName": "Ally Funk"
     }
   ]
 }

@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "architecto",
+  "Path": "reiciendis",
   "Children": true
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 452,
+  "HierarchyId": 279,
   "Domain": "Dashboards",
-  "Name": "Sipes-Crooks",
-  "Fullname": "aut",
-  "ParentId": 860,
+  "Name": "Hills LLC",
+  "Fullname": "sed",
+  "ParentId": 572,
   "Children": [
     {
-      "HierarchyId": 623,
+      "HierarchyId": 715,
       "Domain": "Dashboards",
-      "Name": "Shanahan, Davis and Schaden",
-      "Fullname": "illum",
-      "ParentId": 629,
+      "Name": "Hyatt-Mante",
+      "Fullname": "aliquam",
+      "ParentId": 926,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-09-05T03:31:26.7144201+02:00",
-      "RegisteredAssociateId": 359,
-      "Updated": "1996-05-22T03:31:26.7144201+02:00",
-      "UpdatedAssociateId": 23,
+      "Registered": "2000-05-24T03:24:47.8926276+02:00",
+      "RegisteredAssociateId": 807,
+      "Updated": "2002-11-18T03:24:47.8926276+01:00",
+      "UpdatedAssociateId": 850,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 181
         }
       }
     }
   ],
-  "Registered": "1996-10-28T03:31:26.7144201+01:00",
-  "RegisteredAssociateId": 719,
-  "Updated": "2006-12-16T03:31:26.7144201+01:00",
-  "UpdatedAssociateId": 627,
+  "Registered": "2018-04-02T03:24:47.8926276+02:00",
+  "RegisteredAssociateId": 684,
+  "Updated": "2011-03-26T03:24:47.8926276+01:00",
+  "UpdatedAssociateId": 804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 469
     }
   }
 }

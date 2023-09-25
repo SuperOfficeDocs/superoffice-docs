@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    112,
-    49
+    119,
+    911
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 694,
-    "Name": "Hackett, Bradtke and Hermiston",
-    "Description": "Enterprise-wide interactive policy",
+    "ProjectId": 128,
+    "Name": "Koelpin-Trantow",
+    "Description": "Organic mobile system engine",
     "URL": "http://www.example.com/",
-    "Type": "est",
-    "AssociateId": 183,
-    "AssociateFullName": "Arielle Zulauf",
-    "TypeId": 879,
-    "Updated": "2019-08-17T03:31:27.0268433+02:00",
-    "StatusId": 507,
-    "Status": "et",
-    "TextId": 518,
-    "PublishTo": "2004-01-06T03:31:27.0268433+01:00",
-    "PublishFrom": "2007-04-18T03:31:27.0268433+02:00",
-    "IsPublished": false,
+    "Type": "doloribus",
+    "AssociateId": 120,
+    "AssociateFullName": "Shany Adams",
+    "TypeId": 153,
+    "Updated": "2007-12-02T03:24:48.0957311+01:00",
+    "StatusId": 546,
+    "Status": "fugit",
+    "TextId": 334,
+    "PublishTo": "2020-01-05T03:24:48.0957311+01:00",
+    "PublishFrom": "2012-02-21T03:24:48.0957311+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "848401",
-    "ActiveErpLinks": 860,
+    "ProjectNumber": "1285174",
+    "ActiveErpLinks": 782,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 108
+        "FieldLength": 292
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 216,
-  "Name": "D'Amore LLC",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 809,
-  "Rank": 797,
+  "Id": 431,
+  "Name": "Batz-Parker",
+  "Tooltip": "cupiditate",
+  "Deleted": true,
+  "UdListDefinitionId": 890,
+  "Rank": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldLength": 603
     }
   }
 }

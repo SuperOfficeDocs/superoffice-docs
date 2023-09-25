@@ -107,7 +107,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 187
+  "DocumentId": 330
 }
 ```
 
@@ -120,148 +120,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 784,
-      "ContactName": "Greenfelder, Mills and Gutmann",
-      "PersonId": 781,
-      "PersonName": "Jerde, Kunde and Barton",
-      "AssociateId": 978,
-      "Address": "fuga",
-      "EmailId": 325,
+      "ContactId": 588,
+      "ContactName": "Hettinger Group",
+      "PersonId": 465,
+      "PersonName": "Oberbrunner Group",
+      "AssociateId": 587,
+      "Address": "qui",
+      "EmailId": 275,
       "DuplicatePersonIds": [
-        108,
-        46
+        360,
+        298
       ],
-      "Name": "Farrell-Bechtelar",
+      "Name": "Dickens Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 448
+          "FieldLength": 600
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 859,
-      "ContactName": "Kilback, McDermott and Price",
-      "PersonId": 735,
-      "PersonName": "D'Amore, Reichert and Wintheiser",
-      "AssociateId": 618,
-      "Address": "est",
-      "EmailId": 928,
+      "ContactId": 635,
+      "ContactName": "Morar Inc and Sons",
+      "PersonId": 677,
+      "PersonName": "Lindgren Group",
+      "AssociateId": 443,
+      "Address": "et",
+      "EmailId": 847,
       "DuplicatePersonIds": [
-        335,
-        148
+        355,
+        46
       ],
-      "Name": "Walsh LLC",
+      "Name": "Abbott-Hamill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 162
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 870,
-      "ContactName": "Lubowitz, Treutel and Funk",
-      "PersonId": 445,
-      "PersonName": "Stokes, Halvorson and Leffler",
-      "AssociateId": 420,
-      "Address": "nihil",
-      "EmailId": 748,
+      "ContactId": 68,
+      "ContactName": "Powlowski, Goodwin and Reilly",
+      "PersonId": 316,
+      "PersonName": "Rogahn, Hansen and Bernhard",
+      "AssociateId": 680,
+      "Address": "dolorum",
+      "EmailId": 866,
       "DuplicatePersonIds": [
-        237,
-        1002
+        227,
+        540
       ],
-      "Name": "Kiehn-Bartell",
+      "Name": "McClure LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 801
+          "FieldLength": 349
         }
       }
     }
   ],
-  "Subject": "voluptatibus",
-  "HTMLBody": "et",
+  "Subject": "aut",
+  "HTMLBody": "voluptatem",
   "From": null,
-  "Sent": "2002-01-27T03:31:26.4957222+01:00",
-  "Size": 788,
+  "Sent": "2015-10-15T03:24:47.7520273+02:00",
+  "Size": 390,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "natus",
-  "PlainBody": "quia",
-  "IsSent": true,
+  "MessageID": "numquam",
+  "PlainBody": "accusantium",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 237,
+  "ServerId": 494,
   "Attachments": [
     {
-      "Description": "Up-sized executive flexibility",
-      "Filename": "tempore",
-      "Size": 727,
-      "Type": "officia",
-      "Encoding": "qui",
-      "Id": "omnis",
-      "Disposition": "est",
-      "IsSafeFileExtension": false,
+      "Description": "Implemented high-level implementation",
+      "Filename": "velit",
+      "Size": 386,
+      "Type": "sunt",
+      "Encoding": "placeat",
+      "Id": "quod",
+      "Disposition": "ipsum",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 547
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Walter, Hettinger and Raynor",
+      "Name": "Konopelski, Legros and Corwin",
       "Values": [
-        "laborum",
-        "quo"
+        "sit",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldType": "System.String",
+          "FieldLength": 167
         }
       }
     },
     {
-      "Name": "Walter, Hettinger and Raynor",
+      "Name": "Konopelski, Legros and Corwin",
       "Values": [
-        "laborum",
-        "quo"
+        "sit",
+        "iusto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldType": "System.String",
+          "FieldLength": 167
         }
       }
     }
   ],
-  "FolderName": "Kemmer, Kunde and Russel",
-  "EmailItemId": 228,
-  "AccountId": 228,
-  "ReceivedAt": "2017-02-06T03:31:26.4957222+01:00",
+  "FolderName": "Bahringer, Predovic and Runolfsdottir",
+  "EmailItemId": 616,
+  "AccountId": 496,
+  "ReceivedAt": "2001-12-14T03:24:47.7520273+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-01-29T03:31:26.4957222+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2022-10-12T03:24:47.7520273+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 743
     }
   }
 }

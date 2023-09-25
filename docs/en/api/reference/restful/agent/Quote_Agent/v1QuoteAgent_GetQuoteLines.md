@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 308
+  "QuoteAlternativeId": 202
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 558,
-    "ERPQuoteLineKey": "impedit",
-    "QuoteAlternativeId": 654,
-    "ERPProductKey": "molestias",
+    "QuoteLineId": 827,
+    "ERPQuoteLineKey": "minus",
+    "QuoteAlternativeId": 572,
+    "ERPProductKey": "placeat",
     "Status": "Error",
-    "Reason": "seize synergistic technologies",
-    "Quantity": 25774.016,
-    "DeliveredQuantity": 17265.206,
-    "Rank": 81,
-    "Name": "Gerlach Inc and Sons",
-    "Description": "Open-architected fault-tolerant workforce",
-    "Code": "eos",
-    "QuantityUnit": "similique",
-    "PriceUnit": "et",
-    "ItemNumber": "1586327",
+    "Reason": "",
+    "Quantity": 26253.518,
+    "DeliveredQuantity": 29550.486,
+    "Rank": 128,
+    "Name": "Hermann Inc and Sons",
+    "Description": "Object-based eco-centric toolset",
+    "Code": "ut",
+    "QuantityUnit": "eveniet",
+    "PriceUnit": "alias",
+    "ItemNumber": "834176",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "sunt",
-    "ProductTypeKey": "porro",
-    "Supplier": "et",
-    "SupplierCode": "nemo",
-    "Thumbnail": "et",
-    "VATInfo": "voluptas",
-    "VAT": 9574.369999999999,
-    "UnitCost": 15585.382,
-    "UnitMinimumPrice": 8048.112,
-    "UnitListPrice": 21439.694,
+    "ProductFamilyKey": "vel",
+    "ProductTypeKey": "aspernatur",
+    "Supplier": "reiciendis",
+    "SupplierCode": "odit",
+    "Thumbnail": "distinctio",
+    "VATInfo": "non",
+    "VAT": 27820.518,
+    "UnitCost": 1523.124,
+    "UnitMinimumPrice": 23818.399999999998,
+    "UnitListPrice": 27550.994,
     "ExtraInfo": [
       {
-        "Name": "Gusikowski, Hudson and Stanton",
+        "Name": "Pouros, Gaylord and Bayer",
         "Value": "velit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldType": "System.String",
+            "FieldLength": 414
           }
         }
       },
       {
-        "Name": "Gusikowski, Hudson and Stanton",
+        "Name": "Pouros, Gaylord and Bayer",
         "Value": "velit",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldType": "System.String",
+            "FieldLength": 414
           }
         }
       }
     ],
-    "RawExtraInfo": "atque",
-    "IsSubscription": true,
-    "SubscriptionUnit": "voluptatem",
-    "SubscriptionQuantity": 15331.528,
-    "SubscriptionStart": "2010-01-21T03:31:27.106235+01:00",
-    "ERPDiscountPercent": 1372.692,
-    "ERPDiscountAmount": 5854.312,
-    "DiscountPercent": 2090.378,
-    "DiscountAmount": 714.552,
+    "RawExtraInfo": "voluptas",
+    "IsSubscription": false,
+    "SubscriptionUnit": "eum",
+    "SubscriptionQuantity": 19759.87,
+    "SubscriptionStart": "2002-02-19T03:24:48.1582254+01:00",
+    "ERPDiscountPercent": 15206.168,
+    "ERPDiscountAmount": 15566.578,
+    "DiscountPercent": 18036.17,
+    "DiscountAmount": 53.278,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 17807.388,
-    "EarningAmount": 14789.346,
-    "SubTotal": 5368.5419999999995,
-    "TotalPrice": 5171.0999999999995,
-    "Rights": "distinctio",
-    "Rule": "dolorem",
-    "ExtraField1": "ullam",
-    "ExtraField2": "sed",
-    "ExtraField3": "beatae",
-    "ExtraField4": "ut",
-    "ExtraField5": "neque",
+    "EarningPercent": 17901.408,
+    "EarningAmount": 16155.769999999999,
+    "SubTotal": 21994.412,
+    "TotalPrice": 10138.49,
+    "Rights": "sit",
+    "Rule": "sit",
+    "ExtraField1": "sint",
+    "ExtraField2": "magni",
+    "ExtraField3": "quos",
+    "ExtraField4": "perspiciatis",
+    "ExtraField5": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldLength": 7
       }
     }
   }

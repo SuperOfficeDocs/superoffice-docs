@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 816,
-  "FieldName": "Rice LLC",
-  "Label": "debitis",
-  "Tooltip": "aut",
-  "Editable": true,
-  "InUse": true,
+  "QuoteLineConfigurationId": 544,
+  "FieldName": "Jakubowski-Ankunding",
+  "Label": "et",
+  "Tooltip": "tenetur",
+  "Editable": false,
+  "InUse": false,
   "Mandatory": false,
-  "Rank": 334,
-  "RestrictEdit": false,
+  "Rank": 242,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 631
     }
   }
 }

@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "necessitatibus",
-  "Value": "eum",
-  "RecordId": 349,
-  "CreatedDate": "2002-02-02T03:31:32.6289016+01:00",
-  "UpdatedDate": "2013-07-29T03:31:32.6289016+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "voluptatem",
-  "TableName": "Dicki Inc and Sons"
+  "Key": "voluptates",
+  "Value": "dolorum",
+  "RecordId": 839,
+  "CreatedDate": "2019-01-27T03:24:51.630601+01:00",
+  "UpdatedDate": "2013-09-16T03:24:51.630601+02:00",
+  "UpdatedBy": "nemo",
+  "CreatedBy": "adipisci",
+  "TableName": "Sporer-Haag"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eveniet",
-  "Value": "optio",
-  "RecordId": 645,
-  "CreatedDate": "2013-09-04T03:31:32.6289016+02:00",
-  "UpdatedDate": "2008-03-21T03:31:32.6289016+01:00",
-  "UpdatedBy": "occaecati",
-  "CreatedBy": "dicta",
-  "TableName": "Bergstrom, McClure and Aufderhar",
+  "Key": "mollitia",
+  "Value": "alias",
+  "RecordId": 199,
+  "CreatedDate": "2021-08-13T03:24:51.630601+02:00",
+  "UpdatedDate": "2006-05-31T03:24:51.630601+02:00",
+  "UpdatedBy": "veritatis",
+  "CreatedBy": "modi",
+  "TableName": "Eichmann, Flatley and Nicolas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 177
     }
   }
 }

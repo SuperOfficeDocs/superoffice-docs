@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Maggio-Hand",
-    "ToolTip": "Unde autem.",
+    "Id": 497,
+    "Name": "Dickinson Inc and Sons",
+    "ToolTip": "Aut et eos est sint nobis sequi.",
     "Deleted": true,
-    "Rank": 376,
-    "Type": "corrupti",
-    "ColorBlock": 438,
-    "IconHint": "odit",
+    "Rank": 516,
+    "Type": "assumenda",
+    "ColorBlock": 414,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2011-07-28T03:31:33.7586101+02:00",
+    "LastChanged": "1997-06-14T03:24:52.3338241+02:00",
     "ChildItems": [
       {
-        "Id": 444,
-        "Name": "Bednar, VonRueden and Sawayn",
-        "ToolTip": "Quod voluptatem non est sed quia occaecati.",
+        "Id": 41,
+        "Name": "Corkery, Carroll and Hyatt",
+        "ToolTip": "Amet ex aut iusto aspernatur velit est.",
         "Deleted": false,
-        "Rank": 484,
-        "Type": "earum",
-        "ColorBlock": 827,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "1996-11-28T03:31:33.7586101+01:00",
+        "Rank": 585,
+        "Type": "consequuntur",
+        "ColorBlock": 241,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2008-11-02T03:24:52.3338241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "a",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Gus Hackett"
+        "FullName": "Alphonso Kovacek"
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Ms. Zackary Domenica Shields"
+    "ExtraInfo": "magnam",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Kylee Conroy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Jacobs Inc and Sons",
-    "ToolTip": "Perferendis voluptas vero.",
+    "Id": 769,
+    "Name": "Witting, Vandervort and Ledner",
+    "ToolTip": "Beatae unde ut eveniet dolores dolores vel hic.",
     "Deleted": false,
-    "Rank": 572,
-    "Type": "ipsa",
-    "ColorBlock": 179,
-    "IconHint": "et",
+    "Rank": 804,
+    "Type": "soluta",
+    "ColorBlock": 353,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2004-01-15T03:31:33.7586101+01:00",
+    "LastChanged": "2002-07-27T03:24:52.3338241+02:00",
     "ChildItems": [
       {
-        "Id": 39,
-        "Name": "Stark-Padberg",
-        "ToolTip": "Dolores officia est rerum consequuntur.",
-        "Deleted": false,
-        "Rank": 960,
-        "Type": "quo",
-        "ColorBlock": 447,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2017-06-14T03:31:33.7586101+02:00",
+        "Id": 139,
+        "Name": "Weber, Heller and Schneider",
+        "ToolTip": "Autem a magni voluptatem.",
+        "Deleted": true,
+        "Rank": 592,
+        "Type": "voluptatibus",
+        "ColorBlock": 256,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2018-03-25T03:24:52.3338241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Nigel Davis Jr.",
+        "FullName": "Aniyah Ullrich DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 331
+            "FieldLength": 99
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Korbin Wyman",
+    "ExtraInfo": "dolor",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Andreanne Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 358
       }
     }
   }

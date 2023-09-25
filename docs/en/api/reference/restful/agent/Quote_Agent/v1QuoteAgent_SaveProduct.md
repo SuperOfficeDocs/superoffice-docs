@@ -133,51 +133,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 200,
-  "ERPProductKey": "consequatur",
-  "ERPPriceListKey": "aut",
-  "Name": "Heathcote, Treutel and Streich",
-  "Description": "Front-line intangible framework",
-  "Code": "cumque",
-  "PriceUnit": "ut",
-  "QuantityUnit": "molestias",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sunt",
-  "DefaultSubscriptionQuantity": 13332.036,
-  "ItemNumber": "819278",
+  "ProductId": 668,
+  "ERPProductKey": "quos",
+  "ERPPriceListKey": "minus",
+  "Name": "Sawayn, Hammes and Ondricka",
+  "Description": "Inverse multimedia firmware",
+  "Code": "aperiam",
+  "PriceUnit": "ipsum",
+  "QuantityUnit": "tenetur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "fuga",
+  "DefaultSubscriptionQuantity": 11072.422,
+  "ItemNumber": "1322457",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "architecto",
-  "VAT": 1588.9379999999999,
-  "VATInfo": "possimus",
-  "UnitCost": 21420.89,
-  "UnitMinimumPrice": 20859.904,
-  "UnitListPrice": 22176.183999999997,
-  "InAssortment": false,
-  "Supplier": "sequi",
-  "SupplierCode": "enim",
-  "Rights": "perspiciatis",
-  "Rule": "maxime",
+  "ProductFamilyKey": "laborum",
+  "ProductTypeKey": "facilis",
+  "VAT": 18976.37,
+  "VATInfo": "repudiandae",
+  "UnitCost": 28726.244,
+  "UnitMinimumPrice": 27955.28,
+  "UnitListPrice": 17296.546,
+  "InAssortment": true,
+  "Supplier": "est",
+  "SupplierCode": "amet",
+  "Rights": "dolores",
+  "Rule": "vitae",
   "ExtraInfo": [
     {
-      "Name": "Hoppe-Wiegand",
-      "Value": "laborum",
+      "Name": "Kuhic Group",
+      "Value": "cupiditate",
       "Type": "Image"
     },
     {
-      "Name": "Hoppe-Wiegand",
-      "Value": "laborum",
+      "Name": "Kuhic Group",
+      "Value": "cupiditate",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "corrupti",
-  "ExtraField1": "corrupti",
-  "ExtraField2": "atque",
-  "ExtraField3": "mollitia",
-  "ExtraField4": "occaecati",
-  "ExtraField5": "ut",
-  "InStock": 4688.464
+  "RawExtraInfo": "suscipit",
+  "ExtraField1": "earum",
+  "ExtraField2": "quo",
+  "ExtraField3": "officia",
+  "ExtraField4": "reiciendis",
+  "ExtraField5": "iusto",
+  "InStock": 9213.96
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 759,
-  "ERPProductKey": "deserunt",
-  "ERPPriceListKey": "perspiciatis",
-  "Name": "Emard-Christiansen",
-  "Description": "Polarised dedicated artificial intelligence",
-  "Code": "eius",
-  "PriceUnit": "assumenda",
-  "QuantityUnit": "deleniti",
+  "ProductId": 280,
+  "ERPProductKey": "corrupti",
+  "ERPPriceListKey": "velit",
+  "Name": "Reynolds LLC",
+  "Description": "Enhanced tangible internet solution",
+  "Code": "iure",
+  "PriceUnit": "sint",
+  "QuantityUnit": "in",
   "IsSubscription": false,
-  "SubscriptionUnit": "labore",
-  "DefaultSubscriptionQuantity": 22530.326,
-  "ItemNumber": "1584125",
+  "SubscriptionUnit": "suscipit",
+  "DefaultSubscriptionQuantity": 2178.13,
+  "ItemNumber": "362543",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
-  "ProductTypeKey": "ea",
-  "VAT": 18305.694,
-  "VATInfo": "odit",
-  "UnitCost": 26889.719999999998,
-  "UnitMinimumPrice": 586.058,
-  "UnitListPrice": 11423.43,
+  "ProductFamilyKey": "iste",
+  "ProductTypeKey": "sit",
+  "VAT": 9496.02,
+  "VATInfo": "ea",
+  "UnitCost": 7042.098,
+  "UnitMinimumPrice": 11865.323999999999,
+  "UnitListPrice": 9000.848,
   "InAssortment": false,
-  "Supplier": "voluptas",
-  "SupplierCode": "similique",
-  "Rights": "et",
-  "Rule": "dolores",
+  "Supplier": "est",
+  "SupplierCode": "tempore",
+  "Rights": "pariatur",
+  "Rule": "incidunt",
   "ExtraInfo": [
     {
-      "Name": "Heaney Group",
-      "Value": "omnis",
+      "Name": "Johnson Inc and Sons",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldLength": 496
         }
       }
     },
     {
-      "Name": "Heaney Group",
-      "Value": "omnis",
+      "Name": "Johnson Inc and Sons",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 592
+          "FieldLength": 496
         }
       }
     }
   ],
-  "RawExtraInfo": "maxime",
-  "ExtraField1": "ut",
-  "ExtraField2": "omnis",
-  "ExtraField3": "eius",
-  "ExtraField4": "rerum",
-  "ExtraField5": "repellat",
-  "InStock": 24999.917999999998,
+  "RawExtraInfo": "et",
+  "ExtraField1": "dolores",
+  "ExtraField2": "laboriosam",
+  "ExtraField3": "cumque",
+  "ExtraField4": "ipsa",
+  "ExtraField5": "provident",
+  "InStock": 15776.555999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldLength": 404
     }
   }
 }

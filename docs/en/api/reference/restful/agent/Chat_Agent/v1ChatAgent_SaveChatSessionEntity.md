@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 714,
-  "TopicId": 833,
+  "ChatSessionId": 321,
+  "TopicId": 136,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quos",
-  "CustomerHost": "quas",
-  "CustomerName": "Stamm-Gerhold",
-  "CustomerEmail": "theron@windler.co.uk",
-  "CustomerPhone": "369.575.2085 x0103",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Crooks Inc and Sons",
+  "CustomerAlias": "praesentium",
+  "CustomerHost": "aut",
+  "CustomerName": "Zemlak Group",
+  "CustomerEmail": "royal@schuppefarrell.co.uk",
+  "CustomerPhone": "1-462-824-4819",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Reichert-Casper",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "consequuntur",
-  "WhenRequested": "2001-11-02T03:31:25.6808603+01:00",
-  "WhenStarted": "2009-07-31T03:31:25.6808603+02:00",
-  "WhenEnded": "2009-12-13T03:31:25.6808603+01:00",
-  "WhenIdle": "2018-10-04T03:31:25.6808603+02:00",
-  "WhenFetched": "2023-05-26T03:31:25.6808603+02:00",
-  "SessionKey": "ea",
-  "InitialQueuePos": 338,
-  "AlertLevel": 449,
-  "Rank": 117,
+  "FirstMessage": "deserunt",
+  "LastMessage": "et",
+  "WhenRequested": "2018-07-30T03:24:47.2833249+02:00",
+  "WhenStarted": "2014-09-22T03:24:47.2833249+02:00",
+  "WhenEnded": "2007-05-31T03:24:47.2833249+02:00",
+  "WhenIdle": "2009-06-23T03:24:47.2833249+02:00",
+  "WhenFetched": "1998-03-31T03:24:47.2833249+02:00",
+  "SessionKey": "hic",
+  "InitialQueuePos": 795,
+  "AlertLevel": 758,
+  "Rank": 388,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 511
+  "Rating": 454
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 834,
-  "TopicId": 379,
+  "ChatSessionId": 858,
+  "TopicId": 987,
   "User": null,
   "Person": null,
-  "CustomerAlias": "harum",
-  "CustomerHost": "sed",
-  "CustomerName": "Kling, Jacobson and Kling",
-  "CustomerEmail": "felipa@casper.info",
-  "CustomerPhone": "(474)138-0384 x8874",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Gulgowski-Swift",
+  "CustomerAlias": "tempora",
+  "CustomerHost": "quia",
+  "CustomerName": "Crist, Koelpin and Haley",
+  "CustomerEmail": "hermina@mohrcorkery.info",
+  "CustomerPhone": "(740)887-5186",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Dietrich-Quigley",
   "Status": "Closed",
-  "FirstMessage": "doloribus",
-  "LastMessage": "non",
-  "WhenRequested": "2008-05-03T03:31:25.6964836+02:00",
-  "WhenStarted": "2008-04-18T03:31:25.6964836+02:00",
-  "WhenEnded": "1997-05-19T03:31:25.6964836+02:00",
-  "WhenIdle": "2021-11-28T03:31:25.6964836+01:00",
-  "WhenFetched": "2018-03-04T03:31:25.6964836+01:00",
-  "SessionKey": "accusantium",
-  "InitialQueuePos": 640,
-  "AlertLevel": 333,
-  "Rank": 256,
+  "FirstMessage": "maxime",
+  "LastMessage": "eum",
+  "WhenRequested": "2018-01-18T03:24:47.2833249+01:00",
+  "WhenStarted": "2023-04-24T03:24:47.2833249+02:00",
+  "WhenEnded": "1996-09-29T03:24:47.2833249+02:00",
+  "WhenIdle": "2013-06-22T03:24:47.2833249+02:00",
+  "WhenFetched": "1998-08-29T03:24:47.2833249+02:00",
+  "SessionKey": "enim",
+  "InitialQueuePos": 881,
+  "AlertLevel": 295,
+  "Rank": 271,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 862,
+  "Rating": 292,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 45
     }
   }
 }

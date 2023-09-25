@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 535
+  "TicketMessageEntityId": 930
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 439,
-    "Name": "Yundt Inc and Sons",
-    "ContentType": "odio",
-    "AttSize": 554,
+    "AttachmentId": 335,
+    "Name": "Ruecker Group",
+    "ContentType": "natus",
+    "AttSize": 887,
     "InlineImage": false,
-    "ContentId": "odit",
-    "AuthKey": "accusantium",
+    "ContentId": "vel",
+    "AuthKey": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldType": "System.Int32",
+        "FieldLength": 185
       }
     }
   }

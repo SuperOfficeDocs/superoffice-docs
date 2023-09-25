@@ -760,7 +760,7 @@ This is the archive Provider for the Configurable project Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveProject?$select=projectAssociate/userName,NumberOfNotCompletedActivitiesInPeriod,appointment/icon,appointment/time,document/saleId
+GET /api/v1/archive/ConfigurableArchiveProject?$select=activeErpLinks,projectAssociate/personId,projectAssociate/contactName,LastActivity,sale/hasQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

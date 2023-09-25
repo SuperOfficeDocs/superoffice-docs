@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=et
-GET /api/v1/CRMScript?$top=860
-GET /api/v1/CRMScript?$skip=485
+GET /api/v1/CRMScript?$entities=labore
+GET /api/v1/CRMScript?$top=787
+GET /api/v1/CRMScript?$skip=428
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=veniam
+GET /api/v1/CRMScript?$context=voluptatem
 GET /api/v1/CRMScript?$format=JSON
 GET /api/v1/CRMScript?$jsonSafe=False
 GET /api/v1/CRMScript?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ipsum",
+  "odata.nextLink": "fugit",
   "value": [
     {
-      "PrimaryKey": 2937,
-      "EntityName": "sale",
-      "saleId": 2937,
-      "contactId": 7860,
-      "name": "Beier-Mohr"
+      "PrimaryKey": 4429,
+      "EntityName": "person",
+      "personId": 4429,
+      "fullName": "Kristin Macejkovic"
     },
     {
-      "PrimaryKey": 797,
-      "EntityName": "sale",
-      "saleId": 797,
-      "contactId": 7562,
-      "name": "Walter-Heathcote"
+      "PrimaryKey": 3661,
+      "EntityName": "person",
+      "personId": 3661,
+      "fullName": "Isidro Fritsch"
     }
   ]
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 855,
-  "TargetDimensionId": 357
+  "Year": 155,
+  "TargetDimensionId": 100
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 710,
+    "TargetAssignmentInfoId": 369,
     "Values": [
-      119,
-      576
+      61,
+      469
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 892,
-    "DimensionListItemDisplayName": "Herzog-Mertz",
+    "DimensionListItem": 774,
+    "DimensionListItemDisplayName": "Wisoky, Goodwin and Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 192
+        "FieldLength": 623
       }
     }
   }

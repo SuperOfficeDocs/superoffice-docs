@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 708,
-    "ParentId": 417,
-    "Name": "Kuhlman, Dickens and Koelpin",
-    "Fullname": "et",
-    "CategoryMaster": 922,
+    "TicketCategoryId": 493,
+    "ParentId": 698,
+    "Name": "Schowalter-Stracke",
+    "Fullname": "dicta",
+    "CategoryMaster": 7,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Marks-Schmidt",
+    "ExternalName": "Frami-Mayert",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 232,
-    "ReplyTemplate": 704,
-    "NotificationEmail": "eloise_welch@monahan.ca",
+    "AssignmentLag": 416,
+    "ReplyTemplate": 777,
+    "NotificationEmail": "mazie_wiza@johns.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 800,
+    "EffectiveReplyTemplateId": 487,
     "ExtraFields": {
-      "ExtraFields1": "inventore",
-      "ExtraFields2": "non"
+      "ExtraFields1": "amet",
+      "ExtraFields2": "earum"
     },
     "CustomFields": {
-      "CustomFields1": "commodi",
-      "CustomFields2": "deserunt"
+      "CustomFields1": "numquam",
+      "CustomFields2": "aliquid"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldLength": 20
       }
     }
   }

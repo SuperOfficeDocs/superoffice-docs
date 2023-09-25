@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Braun, Waters and Terry",
-  "DeviceName": "Hilpert LLC",
-  "DeviceIdentifier": "accusamus"
+  "ApplicationName": "Glover LLC",
+  "DeviceName": "McGlynn, Friesen and Hilll",
+  "DeviceIdentifier": "placeat"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 862,
-  "Name": "Carter, Reichert and Robel",
-  "CreatedDate": "2018-09-11T03:31:26.589451+02:00",
-  "UpdatedDate": "2008-07-27T03:31:26.589451+02:00",
-  "AssociateFullName": "Dr. Melany Delphine Mertz DVM",
-  "CreatedBy": "nostrum",
-  "UpdatedBy": "quidem",
-  "DeviceIdentifier": "molestiae",
-  "ForeignAppId": 898,
+  "ForeignDeviceId": 882,
+  "Name": "Rodriguez Group",
+  "CreatedDate": "2005-02-01T03:24:47.8145137+01:00",
+  "UpdatedDate": "2013-07-27T03:24:47.8145137+02:00",
+  "AssociateFullName": "Eileen King",
+  "CreatedBy": "ea",
+  "UpdatedBy": "autem",
+  "DeviceIdentifier": "eaque",
+  "ForeignAppId": 586,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 329
     }
   }
 }

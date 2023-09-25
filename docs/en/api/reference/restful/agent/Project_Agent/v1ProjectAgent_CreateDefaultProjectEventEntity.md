@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "est",
-  "SignOffText": "quaerat",
-  "SignOnConfirmationText": "aut",
-  "SignOnText": "voluptas",
-  "EventDate": "2003-05-28T03:31:26.9799814+02:00",
-  "Enabled": false,
-  "CreatedDate": "2010-09-25T03:31:26.9799814+02:00",
+  "SignOffConfirmationText": "porro",
+  "SignOffText": "quidem",
+  "SignOnConfirmationText": "est",
+  "SignOnText": "sed",
+  "EventDate": "1996-08-21T03:24:48.0801113+02:00",
+  "Enabled": true,
+  "CreatedDate": "2011-05-07T03:24:48.0801113+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 476,
-  "SignOffTriggersAssign": true,
-  "SignOn": false,
+  "SignOffTaskId": 371,
+  "SignOffTriggersAssign": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 649,
+  "SignOnTaskId": 611,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2013-12-16T03:31:26.9799814+01:00",
+  "UpdatedDate": "2013-02-12T03:24:48.0801113+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 605,
-  "Id": 660,
-  "PublishFrom": "2016-07-13T03:31:26.9799814+02:00",
+  "ProjectId": 266,
+  "Id": 306,
+  "PublishFrom": "2005-01-15T03:24:48.0801113+01:00",
   "PublishType": "External",
-  "PublishTo": "2012-05-05T03:31:26.9799814+02:00",
+  "PublishTo": "2021-05-29T03:24:48.0801113+02:00",
   "VisibleForCategories": [
     {
-      "Id": 486,
-      "Name": "Klocko-Brown",
-      "ToolTip": "Et qui.",
+      "Id": 578,
+      "Name": "Adams-Osinski",
+      "ToolTip": "Repellendus incidunt consequatur iure sed laborum et.",
       "Deleted": false,
-      "Rank": 11,
-      "Type": "impedit",
+      "Rank": 382,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "distinctio",
-      "ColorBlock": 52,
+      "IconHint": "velit",
+      "ColorBlock": 444,
       "ExtraInfo": "laborum",
-      "StyleHint": "corrupti",
-      "FullName": "Catalina Wilderman",
+      "StyleHint": "aut",
+      "FullName": "Jaleel Abshire",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 805
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 115,
-      "Name": "Bernier Inc and Sons",
-      "ToolTip": "Occaecati eos eum omnis sit iure.",
+      "Id": 760,
+      "Name": "Pfannerstill-Fay",
+      "ToolTip": "Velit non sunt cum vel.",
       "Deleted": true,
-      "Rank": 971,
-      "Type": "earum",
+      "Rank": 920,
+      "Type": "unde",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "minima",
-      "ColorBlock": 818,
-      "ExtraInfo": "aut",
-      "StyleHint": "aspernatur",
-      "FullName": "Tyshawn Mills",
+      "IconHint": "laboriosam",
+      "ColorBlock": 277,
+      "ExtraInfo": "ratione",
+      "StyleHint": "fugit",
+      "FullName": "Dillan Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 377
+          "FieldType": "System.Int32",
+          "FieldLength": 86
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 49,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 136,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 796
     }
   }
 }

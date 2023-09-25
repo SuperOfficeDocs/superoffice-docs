@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "fugiat",
   "value": [
     {
-      "PrimaryKey": 8978,
-      "EntityName": "sale",
-      "saleId": 8978,
-      "contactId": 3941,
-      "name": "Hilll-Boyle"
+      "PrimaryKey": 6421,
+      "EntityName": "person",
+      "personId": 6421,
+      "fullName": "Mr. Adalberto Nikolaus"
     },
     {
-      "PrimaryKey": 1584,
-      "EntityName": "sale",
-      "saleId": 1584,
-      "contactId": 4195,
-      "name": "Tillman, Kuvalis and Dare"
+      "PrimaryKey": 8644,
+      "EntityName": "person",
+      "personId": 8644,
+      "fullName": "Mr. Zakary Borer"
     }
   ]
 }

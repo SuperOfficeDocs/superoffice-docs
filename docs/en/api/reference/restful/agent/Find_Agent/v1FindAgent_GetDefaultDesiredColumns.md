@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sint",
-  "ProviderName": "Zboncak-Schultz",
-  "StorageKey": "ab"
+  "StorageType": "perferendis",
+  "ProviderName": "Hauck Inc and Sons",
+  "StorageKey": "accusamus"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schamberger Group",
-    "DisplayTooltip": "esse",
-    "DisplayType": "et",
-    "CanOrderBy": false,
-    "Name": "D'Amore, Moen and Glover",
-    "CanRestrictBy": true,
-    "RestrictionType": "aliquid",
-    "RestrictionListName": "Strosin-Stamm",
-    "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "ipsa",
-    "IconHint": "vel",
-    "HeadingIconHint": "architecto"
+    "DisplayName": "Koepp Inc and Sons",
+    "DisplayTooltip": "repellendus",
+    "DisplayType": "earum",
+    "CanOrderBy": true,
+    "Name": "Littel, Ziemann and Upton",
+    "CanRestrictBy": false,
+    "RestrictionType": "ab",
+    "RestrictionListName": "Legros, Emmerich and Tillman",
+    "IsVisible": true,
+    "ExtraInfo": "iste",
+    "Width": "ea",
+    "IconHint": "non",
+    "HeadingIconHint": "nesciunt"
   }
 ]
 ```

@@ -41,7 +41,7 @@ Lists all Roles in table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Role?$select=rank,description,useCategories
+GET /api/v1/archive/Role?$select=description,useCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

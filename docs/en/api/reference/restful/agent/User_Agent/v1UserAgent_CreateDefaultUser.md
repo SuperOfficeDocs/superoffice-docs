@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 436,
-  "Name": "Torphy Inc and Sons",
-  "Rank": 972,
-  "Tooltip": "quidem",
+  "AssociateId": 636,
+  "Name": "Franecki Group",
+  "Rank": 841,
+  "Tooltip": "ipsa",
   "LicenseOwners": [
     {
-      "Name": "Donnelly Inc and Sons",
-      "Description": "Compatible foreground software",
+      "Name": "Pagac LLC",
+      "Description": "Total eco-centric emulation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 908
         }
       }
     },
     {
-      "Name": "Donnelly Inc and Sons",
-      "Description": "Compatible foreground software",
+      "Name": "Pagac LLC",
+      "Description": "Total eco-centric emulation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 908
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eveniet",
-      "Tooltip": "recusandae",
-      "Id": 932,
-      "Rank": 37,
+      "Value": "nihil",
+      "Tooltip": "quia",
+      "Id": 540,
+      "Rank": 358,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 769
+          "FieldLength": 253
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2006-03-18T03:31:27.7478468+01:00",
-  "Lastlogout": "1997-12-27T03:31:27.7478468+01:00",
-  "EjUserId": 672,
-  "RequestSignature": "facilis",
+  "Deleted": false,
+  "Lastlogin": "2014-06-01T03:24:48.5341362+02:00",
+  "Lastlogout": "2016-10-08T03:24:48.5341362+02:00",
+  "EjUserId": 759,
+  "RequestSignature": "incidunt",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ea",
-      "DisplayValue": "quo",
+      "Value": "et",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 479
+          "FieldLength": 798
         }
       }
     },
     {
       "Type": null,
-      "Value": "ea",
-      "DisplayValue": "quo",
+      "Value": "et",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 479
+          "FieldLength": 798
         }
       }
     }
   ],
-  "UserName": "Yundt Group",
+  "UserName": "Kulas, Hills and Yundt",
   "TicketCategories": [
     {
-      "Id": 234,
-      "Name": "Sanford, Tremblay and Ledner",
-      "ToolTip": "Quasi voluptatum dolores autem eum occaecati quaerat ut.",
-      "Deleted": false,
-      "Rank": 955,
-      "Type": "qui",
+      "Id": 563,
+      "Name": "Rempel-Volkman",
+      "ToolTip": "Quia quia at quo.",
+      "Deleted": true,
+      "Rank": 71,
+      "Type": "nulla",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rerum",
-      "ColorBlock": 217,
-      "ExtraInfo": "magnam",
-      "StyleHint": "ex",
-      "FullName": "Kristian Stanton",
+      "IconHint": "id",
+      "ColorBlock": 940,
+      "ExtraInfo": "perspiciatis",
+      "StyleHint": "corporis",
+      "FullName": "Sanford DuBuque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 469
         }
       }
     }
   ],
-  "NickName": "Kozey, Ward and Rowe",
+  "NickName": "Price Group",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "maxime"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "eum"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "possimus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lang-Steuber",
-      "DisplayName": "Reichert, Jacobs and Johnston",
-      "Description": "Progressive methodical hub",
-      "ToolTip": "Dignissimos temporibus aut voluptatem qui asperiores.",
+      "Name": "Satterfield, Hilll and Schimmel",
+      "DisplayName": "Grant-Nikolaus",
+      "Description": "Universal coherent local area network",
+      "ToolTip": "Id atque explicabo.",
       "Actions": "Implicit",
-      "ActionData": "explicabo",
+      "ActionData": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 670
         }
       }
     }
@@ -257,7 +257,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 889
     }
   }
 }

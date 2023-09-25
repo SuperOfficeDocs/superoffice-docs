@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=719
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=557
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -118,7 +118,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -128,64 +128,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 337,
-  "StartDate": "2005-10-23T03:31:25.1954237+02:00",
-  "EndDate": "2022-11-30T03:31:25.1954237+01:00",
+  "AppointmentId": 416,
+  "StartDate": "2000-09-07T03:24:47.0803445+02:00",
+  "EndDate": "2019-08-15T03:24:47.0803445+02:00",
   "Type": "BookingForChecklist",
-  "Task": "deserunt",
-  "AssociateFullName": "Mackenzie Stephanie Effertz Jr.",
-  "ContactName": "Mueller Inc and Sons",
-  "Description": "Synergized local encoding",
-  "PersonFullName": "Cleve Hintz",
-  "PersonId": 977,
-  "ContactId": 21,
-  "ProjectId": 874,
-  "ProjectName": "King, Schneider and Blick",
-  "IsPublished": false,
-  "AssociateId": 96,
-  "ColorIndex": 185,
+  "Task": "ea",
+  "AssociateFullName": "Abner Spencer",
+  "ContactName": "Jewess, Russel and Gottlieb",
+  "Description": "Sharable local local area network",
+  "PersonFullName": "Jimmie Gulgowski",
+  "PersonId": 268,
+  "ContactId": 463,
+  "ProjectId": 776,
+  "ProjectName": "Sauer-Altenwerth",
+  "IsPublished": true,
+  "AssociateId": 344,
+  "ColorIndex": 333,
   "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 231,
-  "PriorityName": "Batz Inc and Sons",
+  "PriorityId": 334,
+  "PriorityName": "Lubowitz-Lockman",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "2022-09-25T03:31:25.1954237+02:00",
+  "IsBooking": true,
+  "ActiveDate": "2015-07-22T03:24:47.0803445+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-11-07T03:31:25.1954237+01:00",
-  "RecurringEndDate": "2020-08-17T03:31:25.1954237+02:00",
-  "MotherId": 198,
-  "AssignedBy": 823,
-  "AssignedByFullName": "Rachel Armstrong Sr.",
+  "RecurringStartDate": "2015-06-15T03:24:47.0803445+02:00",
+  "RecurringEndDate": "2015-01-25T03:24:47.0803445+01:00",
+  "MotherId": 190,
+  "AssignedBy": 121,
+  "AssignedByFullName": "Dr. Janae Conroy",
   "RejectReason": "",
-  "Location": "quas",
-  "AlarmLeadTime": "nihil",
-  "SaleId": 384,
-  "SaleName": "Baumbach Group",
-  "AssociateName": "Kunde-Mueller",
-  "CreatedDate": "2018-03-27T03:31:25.1954237+02:00",
-  "CreatedBy": "est",
-  "CreatedByFullName": "Jeffrey Mertz",
-  "CreatedByAssociateId": 176,
+  "Location": "tempora",
+  "AlarmLeadTime": "earum",
+  "SaleId": 295,
+  "SaleName": "Tromp Group",
+  "AssociateName": "Muller-Bogan",
+  "CreatedDate": "2003-01-10T03:24:47.0803445+01:00",
+  "CreatedBy": "explicabo",
+  "CreatedByFullName": "Buster Padberg",
+  "CreatedByAssociateId": 840,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "Title": "dolore",
-  "Agenda": "repellendus",
-  "InternalNotes": "velit",
+  "Title": "non",
+  "Agenda": "qui",
+  "InternalNotes": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldLength": 786
     }
   }
 }

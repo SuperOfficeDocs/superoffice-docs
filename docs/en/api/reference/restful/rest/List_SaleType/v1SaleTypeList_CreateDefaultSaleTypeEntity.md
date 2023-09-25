@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 413,
-  "Name": "Beer LLC",
-  "Tooltip": "tempore",
-  "Rank": 876,
+  "SaleTypeId": 857,
+  "Name": "Rogahn-Daniel",
+  "Tooltip": "ut",
+  "Rank": 843,
   "DurationUnit": "Century",
-  "SaleDuration": 240,
-  "SaleTypeCatId": 259,
+  "SaleDuration": 223,
+  "SaleTypeCatId": 626,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 271,
-  "QuoteLinesTemplate": 443,
-  "ConfirmationLinesTemplate": 815,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 905,
-  "MinEarningPercent": 923,
-  "GroupQuoteLinesBy": 129,
-  "SortGroupLinesBy": 440,
+  "DefaultQuoteValidity": 589,
+  "QuoteLinesTemplate": 538,
+  "ConfirmationLinesTemplate": 595,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 4,
+  "MinEarningPercent": 521,
+  "GroupQuoteLinesBy": 240,
+  "SortGroupLinesBy": 442,
   "Stages": [
     {
-      "Id": 757,
-      "Name": "Reinger, Smith and Medhurst",
-      "ToolTip": "Ipsum nihil dolorem dolores et.",
+      "Id": 978,
+      "Name": "Flatley, Nicolas and Heidenreich",
+      "ToolTip": "Quia quia.",
       "Deleted": true,
-      "Rank": 271,
-      "Type": "ipsum",
-      "ColorBlock": 887,
-      "IconHint": "corrupti",
+      "Rank": 788,
+      "Type": "optio",
+      "ColorBlock": 592,
+      "IconHint": "occaecati",
       "Selected": false,
-      "LastChanged": "2000-01-22T03:31:33.8679659+01:00",
+      "LastChanged": "2012-03-12T03:24:52.4119449+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "omnis",
-      "Hidden": false,
-      "FullName": "Miss Eulalia Zachery Bergnaum Sr.",
+      "ExtraInfo": "ad",
+      "StyleHint": "voluptatem",
+      "Hidden": true,
+      "FullName": "Nikolas Zulauf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldLength": 458
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   }
 }

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=nobis
-GET /api/v1/BatchTask?$top=151
-GET /api/v1/BatchTask?$skip=424
+GET /api/v1/BatchTask?$entities=voluptatem
+GET /api/v1/BatchTask?$top=319
+GET /api/v1/BatchTask?$skip=547
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=numquam
+GET /api/v1/BatchTask?$context=omnis
 GET /api/v1/BatchTask?$format=JSON
-GET /api/v1/BatchTask?$jsonSafe=True
+GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ut",
+  "odata.nextLink": "quaerat",
   "value": [
     {
-      "PrimaryKey": 2710,
-      "EntityName": "sale",
-      "saleId": 2710,
-      "contactId": 5033,
-      "name": "Maggio LLC"
+      "PrimaryKey": 6917,
+      "EntityName": "person",
+      "personId": 6917,
+      "fullName": "Erna Conn"
     },
     {
-      "PrimaryKey": 7346,
-      "EntityName": "sale",
-      "saleId": 7346,
-      "contactId": 5624,
-      "name": "Flatley-Stanton"
+      "PrimaryKey": 5704,
+      "EntityName": "person",
+      "personId": 5704,
+      "fullName": "Eunice Beth Nienow Sr."
     }
   ]
 }

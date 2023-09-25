@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Adams-Schiller",
+  "ConnectorName": "Orn Inc and Sons",
   "ConnectionData": {
-    "ConnectionData1": "et",
-    "ConnectionData2": "impedit"
+    "ConnectionData1": "provident",
+    "ConnectionData2": "suscipit"
   }
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "sint",
-  "TechExplanation": "non",
-  "ErrorCode": "rerum",
+  "IsOk": true,
+  "UserExplanation": "odio",
+  "TechExplanation": "autem",
+  "ErrorCode": "sint",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   }
 }

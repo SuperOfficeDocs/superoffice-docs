@@ -136,26 +136,26 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 28,
-  "Name": "McCullough-Beahan",
-  "Description": "Object-based coherent knowledge user",
-  "WelcomeMessage": "molestiae",
+  "ChatTopicId": 952,
+  "Name": "Reilly Group",
+  "Description": "Robust encompassing collaboration",
+  "WelcomeMessage": "nesciunt",
   "Language": null,
-  "LastAccept": "2007-02-13T03:31:32.3477424+01:00",
-  "SecondsPrAccept": 316,
-  "AlertRecipient": "aut",
+  "LastAccept": "2014-02-07T03:24:51.4429545+01:00",
+  "SecondsPrAccept": 496,
+  "AlertRecipient": "quasi",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "aut",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "consectetur",
-  "WarnNewChatMinutes": 285,
-  "WarnManagerNewChatMinutes": 524,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "ab",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "cumque",
+  "WarnNewChatMinutes": 780,
+  "WarnManagerNewChatMinutes": 869,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -163,14 +163,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 315,
-  "WarnManagerChatMessageMinutes": 931,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 953,
+  "WarnManagerChatMessageMinutes": 361,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 850,
-  "OfflineFormQueueLength": 441,
+  "OfflineFormTimeLimit": 169,
+  "OfflineFormQueueLength": 18,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "odio"
+  "WidgetRatingText": "a"
 }
 ```
 
@@ -181,35 +181,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 809,
-  "Name": "Corkery, Schmitt and Heidenreich",
-  "Description": "Decentralized transitional parallelism",
-  "WelcomeMessage": "ducimus",
+  "ChatTopicId": 761,
+  "Name": "Hagenes, Heller and Olson",
+  "Description": "Programmable empowering core",
+  "WelcomeMessage": "beatae",
   "Language": null,
-  "LastAccept": "2018-12-19T03:31:32.3477424+01:00",
-  "SecondsPrAccept": 804,
-  "AlertRecipient": "ratione",
+  "LastAccept": "2022-02-28T03:24:51.4429545+01:00",
+  "SecondsPrAccept": 868,
+  "AlertRecipient": "dignissimos",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "pariatur",
+  "BadgeHeader": "ex",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "nihil",
-  "WarnNewChatMinutes": 777,
-  "WarnManagerNewChatMinutes": 967,
-  "TicketEnabled": true,
+  "CustomQueueText": "porro",
+  "WarnNewChatMinutes": 323,
+  "WarnManagerNewChatMinutes": 713,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 193,
-  "WarnManagerChatMessageMinutes": 464,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 36,
+  "WarnManagerChatMessageMinutes": 440,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 79,
-  "OfflineFormQueueLength": 25,
+  "OfflineFormTimeLimit": 354,
+  "OfflineFormQueueLength": 468,
   "WidgetEnableRating": false,
   "WidgetRatingText": "minus",
   "TableRight": null,
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 929
     }
   },
   "_Links": {

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 956,
-  "ErpConnectorId": 588,
-  "DisplayName": "Jones Group",
-  "DisplayDescription": "Customizable hybrid core",
-  "Active": true,
-  "ConnectionId": "nisi",
-  "MostRecentTimestamp": "dolor",
+  "ErpConnectionId": 237,
+  "ErpConnectorId": 61,
+  "DisplayName": "Kohler, Thompson and Kertzmann",
+  "DisplayDescription": "Compatible uniform neural-net",
+  "Active": false,
+  "ConnectionId": "porro",
+  "MostRecentTimestamp": "explicabo",
   "ConfigFields": {
-    "ConfigFields1": "impedit",
-    "ConfigFields2": "aperiam"
+    "ConfigFields1": "aliquid",
+    "ConfigFields2": "id"
   },
-  "Deleted": true,
-  "AllAccess": true,
+  "Deleted": false,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    858,
-    593
+    170,
+    735
   ],
   "AssociateAccessIds": [
-    206,
-    158
+    914,
+    915
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 397
     }
   }
 }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 888,
-  "Name": "Kshlerin-Pouros"
+  "DashboardId": 898,
+  "Name": "Yundt, Ernser and Doyle"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 170,
-  "UniqueId": "hic",
-  "Name": "Lind-Schultz",
-  "Description": "Organized dedicated product",
-  "AssociateId": 367,
-  "Columns": 223,
+  "DashboardId": 130,
+  "UniqueId": "dolor",
+  "Name": "Runolfsson-Schowalter",
+  "Description": "Realigned high-level architecture",
+  "AssociateId": 164,
+  "Columns": 108,
   "Theme": null,
-  "VisibleForAll": 131,
+  "VisibleForAll": 583,
   "VisibleForAssociates": [
-    73,
-    103
+    268,
+    201
   ],
   "VisibleForGroups": [
-    974,
-    636
+    760,
+    335
   ],
-  "PinForAll": 877,
+  "PinForAll": 334,
   "PinForAssociates": [
-    867,
-    275
+    367,
+    704
   ],
   "PinForGroups": [
-    492,
-    358
+    788,
+    627
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 999
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Smith, Pouros and Franecki",
-    "ToolTip": "Sed inventore earum corrupti molestias velit nihil.",
+    "Id": 543,
+    "Name": "Mosciski, Stehr and Funk",
+    "ToolTip": "Sit eos.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "molestiae",
-    "ColorBlock": 226,
-    "IconHint": "illo",
+    "Rank": 153,
+    "Type": "voluptates",
+    "ColorBlock": 608,
+    "IconHint": "consectetur",
     "Selected": true,
-    "LastChanged": "2008-06-15T03:31:33.696079+02:00",
+    "LastChanged": "2005-09-10T03:24:52.3025813+02:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Tremblay, Johnston and Mraz",
-        "ToolTip": "Impedit earum perspiciatis tempora molestiae.",
-        "Deleted": false,
-        "Rank": 511,
-        "Type": "ratione",
-        "ColorBlock": 194,
-        "IconHint": "similique",
+        "Id": 187,
+        "Name": "Hermiston, Hoppe and Ritchie",
+        "ToolTip": "Doloremque omnis eveniet occaecati sit occaecati.",
+        "Deleted": true,
+        "Rank": 768,
+        "Type": "ut",
+        "ColorBlock": 547,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2011-01-17T03:31:33.696079+01:00",
+        "LastChanged": "2000-09-17T03:24:52.3025813+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "rem",
-        "Hidden": true,
-        "FullName": "Alvena Weissnat",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Isabella Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 470
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Eddie Feest",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Helena Muller PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   }

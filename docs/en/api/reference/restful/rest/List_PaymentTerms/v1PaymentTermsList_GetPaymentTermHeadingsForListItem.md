@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 294,
-    "Name": "Moore, Kohler and Bergstrom",
-    "ToolTip": "Esse maiores maiores nobis sunt.",
+    "Id": 345,
+    "Name": "Kuvalis Group",
+    "ToolTip": "Mollitia iure quibusdam quo sint asperiores.",
     "Deleted": false,
-    "Rank": 412,
-    "Type": "vero",
-    "ColorBlock": 147,
-    "IconHint": "natus",
+    "Rank": 533,
+    "Type": "ducimus",
+    "ColorBlock": 563,
+    "IconHint": "repudiandae",
     "Selected": false,
-    "LastChanged": "2020-05-03T03:31:33.6635785+02:00",
+    "LastChanged": "2016-05-07T03:24:52.2869587+02:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Marvin LLC",
-        "ToolTip": "Velit delectus consectetur asperiores voluptas nam ea ex.",
+        "Id": 612,
+        "Name": "Marvin Group",
+        "ToolTip": "Eveniet facilis.",
         "Deleted": false,
-        "Rank": 490,
-        "Type": "soluta",
-        "ColorBlock": 910,
-        "IconHint": "iusto",
+        "Rank": 901,
+        "Type": "nemo",
+        "ColorBlock": 473,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2008-08-15T03:31:33.6635785+02:00",
+        "LastChanged": "2017-03-18T03:24:52.2869587+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "earum",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Dr. Steve Cronin MD",
+        "FullName": "Kendra Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 549
+            "FieldLength": 72
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "id",
+    "ExtraInfo": "quo",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Sydnee Rodriguez",
+    "FullName": "Kelton Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 599
       }
     }
   }

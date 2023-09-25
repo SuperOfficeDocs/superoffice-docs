@@ -91,8 +91,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 976,
-  "AttachmentId": "libero"
+  "DocId": 140,
+  "AttachmentId": "aut"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enhanced incremental support",
-  "Filename": "eius",
-  "Size": 407,
-  "Type": "corporis",
-  "Encoding": "quia",
-  "Id": "dolorem",
-  "Disposition": "enim",
+  "Description": "Cross-group intermediate frame",
+  "Filename": "aut",
+  "Size": 366,
+  "Type": "ut",
+  "Encoding": "consequatur",
+  "Id": "omnis",
+  "Disposition": "laudantium",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 472
     }
   }
 }

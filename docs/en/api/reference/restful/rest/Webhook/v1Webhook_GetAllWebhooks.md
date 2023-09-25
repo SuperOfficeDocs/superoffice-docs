@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=vero
-GET /api/v1/Webhook?eventFilter=magnam
+GET /api/v1/Webhook?nameFilter=rerum
+GET /api/v1/Webhook?eventFilter=vel
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 494,
-    "Name": "McCullough Group",
+    "WebhookId": 141,
+    "Name": "Kiehn Inc and Sons",
     "Events": [
-      "voluptatem",
+      "error",
       "et"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "fugit",
+    "Secret": "nihil",
     "State": "Active",
-    "Type": "quo",
+    "Type": "quam",
     "Headers": {
-      "Headers1": "saepe",
-      "Headers2": "consequatur"
+      "Headers1": "asperiores",
+      "Headers2": "est"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2014-06-20T03:31:33.4292537+02:00",
+    "Registered": "2019-10-10T03:24:52.1307225+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2018-06-01T03:31:33.4292537+02:00",
+    "Updated": "2013-08-06T03:24:52.1307225+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "antonina_shanahan@walkerbode.ca"
+    "ErrorsEmail": "cayla_blanda@ratke.name"
   }
 ]
 ```

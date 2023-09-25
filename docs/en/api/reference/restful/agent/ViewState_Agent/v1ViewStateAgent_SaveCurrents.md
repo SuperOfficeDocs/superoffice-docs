@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 263,
-      "Id": 658,
-      "HistoryName": "Cummerata Inc and Sons",
-      "HistoryId": 676,
-      "AssociateId": 771,
-      "Name": "Fay, Schinner and Rogahn",
-      "ItemInfo": "quo"
+      "Rank": 270,
+      "Id": 295,
+      "HistoryName": "Ratke Group",
+      "HistoryId": 496,
+      "AssociateId": 528,
+      "Name": "Cole-Ziemann",
+      "ItemInfo": "dolor"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 777,
-    "Id": 541,
-    "HistoryName": "Wunsch, Effertz and Lind",
-    "HistoryId": 877,
-    "AssociateId": 954,
-    "Name": "Mann, Emard and Parker",
-    "ItemInfo": "aspernatur",
+    "Rank": 318,
+    "Id": 766,
+    "HistoryName": "Prohaska LLC",
+    "HistoryId": 124,
+    "AssociateId": 96,
+    "Name": "Gottlieb-Kuvalis",
+    "ItemInfo": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldType": "System.Int32",
+        "FieldLength": 717
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "eius",
-    "ValueType": "occaecati",
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "omnis",
+    "ValueType": "inventore",
     "Mandatory": false,
-    "EncodedDisplayName": "Conn, Thiel and Konopelski",
-    "EncodedDisplayDescription": "Visionary homogeneous website",
-    "IconHint": "at",
+    "EncodedDisplayName": "Marquardt Inc and Sons",
+    "EncodedDisplayDescription": "De-engineered tangible open system",
+    "IconHint": "dolor",
     "ControlInfos": [
       {
-        "Type": "unde",
+        "Type": "quas",
         "Label": "quis",
-        "Dimension": 453,
-        "ListProviderName": "Hand LLC",
-        "ListProviderExtraInfo": "sed",
-        "ListProviderPrimaryKeyName": "Walter Group",
-        "ListLeadText": "aperiam",
+        "Dimension": 823,
+        "ListProviderName": "Bernhard LLC",
+        "ListProviderExtraInfo": "beatae",
+        "ListProviderPrimaryKeyName": "Funk Inc and Sons",
+        "ListLeadText": "voluptas",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 171
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "nobis",
+    "EncodedDataCaptionDescription": "Down-sized leading edge forecast",
+    "CurrentOperationType": "voluptate",
+    "Values": [
+      "ut",
+      "ea"
+    ],
+    "DisplayValues": [
+      "qui",
+      "minima"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "voluptatibus",
+        "EncodedDisplayName": "Adams, Braun and Hills",
+        "EncodedLeadTexts": [
+          "iste",
+          "qui"
+        ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 765
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "est",
-    "EncodedDataCaptionDescription": "Persevering holistic knowledge base",
-    "CurrentOperationType": "laborum",
-    "Values": [
-      "consectetur",
-      "rerum"
-    ],
-    "DisplayValues": [
-      "eos",
-      "ipsum"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "culpa",
-        "EncodedDisplayName": "Mayer-Jaskolski",
-        "EncodedLeadTexts": [
-          "dolorum",
-          "delectus"
-        ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldLength": 487
           }
         }
       },
       {
-        "Key": "culpa",
-        "EncodedDisplayName": "Mayer-Jaskolski",
+        "Key": "voluptatibus",
+        "EncodedDisplayName": "Adams, Braun and Hills",
         "EncodedLeadTexts": [
-          "dolorum",
-          "delectus"
+          "iste",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldType": "System.String",
+            "FieldLength": 487
           }
         }
       }

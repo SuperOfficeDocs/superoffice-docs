@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Mante, Shanahan and Lang",
-  "Id": 676
+  "ListName": "Funk-Pfeffer",
+  "Id": 216
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Brown Group",
-  "ToolTip": "Facilis quo iusto eaque sed et eius.",
-  "Deleted": false,
-  "Rank": 775,
-  "Type": "asperiores",
+  "Id": 788,
+  "Name": "Gutmann-Dicki",
+  "ToolTip": "Nobis possimus sit natus.",
+  "Deleted": true,
+  "Rank": 823,
+  "Type": "eos",
   "ChildItems": [
     {
-      "Id": 966,
-      "Name": "Schroeder Group",
-      "ToolTip": "Aspernatur expedita ipsam aut.",
+      "Id": 94,
+      "Name": "Stiedemann, Doyle and Bartell",
+      "ToolTip": "Ut excepturi.",
       "Deleted": false,
-      "Rank": 367,
-      "Type": "dignissimos",
+      "Rank": 560,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "architecto",
-      "ColorBlock": 835,
-      "ExtraInfo": "esse",
-      "StyleHint": "fuga",
-      "FullName": "Gracie Breitenberg",
+      "IconHint": "nemo",
+      "ColorBlock": 274,
+      "ExtraInfo": "eos",
+      "StyleHint": "iusto",
+      "FullName": "Abigayle Stroman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldType": "System.Int32",
+          "FieldLength": 999
         }
       }
     }
   ],
-  "IconHint": "est",
-  "ColorBlock": 18,
-  "ExtraInfo": "in",
-  "StyleHint": "eaque",
-  "FullName": "Leanna Hoeger",
+  "IconHint": "qui",
+  "ColorBlock": 625,
+  "ExtraInfo": "quo",
+  "StyleHint": "quia",
+  "FullName": "Nicholaus Barrows",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 216
     }
   }
 }

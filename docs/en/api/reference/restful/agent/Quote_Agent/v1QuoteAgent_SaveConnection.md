@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 46,
-  "ERPName": "Sporer-Huel",
-  "DisplayName": "Watsica Inc and Sons",
-  "DisplayDescription": "Vision-oriented executive Graphical User Interface",
-  "Rank": 490,
-  "ConnectorName": "Wolff Inc and Sons",
-  "ErpConnectionId": 900,
-  "ExtraData": "inventore",
+  "QuoteConnectionId": 169,
+  "ERPName": "Kerluke-Pouros",
+  "DisplayName": "Gerhold, Heidenreich and Larkin",
+  "DisplayDescription": "De-engineered fresh-thinking core",
+  "Rank": 699,
+  "ConnectorName": "Torp-Cummings",
+  "ErpConnectionId": 652,
+  "ExtraData": "ex",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 657,
-      "ERPPriceListKey": "nulla",
-      "QuoteConnectionId": 92,
-      "Name": "Kautzer Group",
-      "Description": "Compatible even-keeled focus group",
-      "Currency": "nisi",
-      "CurrencyName": "Crooks, Terry and Lindgren",
-      "ValidFrom": "2013-04-19T03:31:27.0905589+02:00",
-      "ValidTo": "2019-07-27T03:31:27.0905589+02:00",
+      "PriceListId": 215,
+      "ERPPriceListKey": "consequatur",
+      "QuoteConnectionId": 454,
+      "Name": "Daniel Group",
+      "Description": "Versatile clear-thinking methodology",
+      "Currency": "ut",
+      "CurrencyName": "Heathcote Group",
+      "ValidFrom": "2002-03-28T03:24:48.1426062+01:00",
+      "ValidTo": "2013-07-12T03:24:48.1426062+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 807
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    251,
-    80
+    40,
+    961
   ],
   "AssociateAccessIds": [
-    474,
-    825
+    730,
+    784
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 922
     }
   }
 }

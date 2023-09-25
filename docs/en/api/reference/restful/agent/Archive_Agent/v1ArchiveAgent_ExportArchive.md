@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kovacek Group",
-  "Context": "accusamus",
+  "ProviderName": "Klocko, O'Connell and Renner",
+  "Context": "nam",
   "DesiredEntities": [
-    "fugit",
-    "sint"
+    "numquam",
+    "dolore"
   ],
   "Columns": [
-    "esse",
-    "sit"
+    "iure",
+    "earum"
   ],
   "SortOrder": [
     {
-      "Name": "Ernser LLC",
+      "Name": "Flatley Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Ernser LLC",
+      "Name": "Flatley Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Bradtke Inc and Sons",
-      "Operator": "itaque",
+      "Name": "Rowe-Hagenes",
+      "Operator": "quia",
       "Values": [
-        "voluptatem",
-        "repellat"
+        "maiores",
+        "aut"
       ],
       "DisplayValues": [
-        "accusantium",
-        "est"
+        "consequatur",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 177,
+      "InterParenthesis": 622,
       "InterOperator": "And",
-      "UniqueHash": 2
+      "UniqueHash": 762
     }
   ],
-  "ExportType": "ea",
+  "ExportType": "ipsum",
   "SelectedRowIds": [
-    "omnis",
-    "sequi"
+    "magnam",
+    "asperiores"
   ],
-  "EstimatedRowCount": 52
+  "EstimatedRowCount": 156
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 331,
-  "FileName": "Huel, Wiegand and Willms",
-  "Message": "ut",
+  "BatchTaskId": 766,
+  "FileName": "Bauch-Schowalter",
+  "Message": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 991
     }
   }
 }

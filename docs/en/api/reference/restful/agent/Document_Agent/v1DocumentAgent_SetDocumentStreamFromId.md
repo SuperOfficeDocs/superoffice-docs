@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 292,
+  "DocumentId": 241,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 956,
+  "DocumentId": 127,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quae",
-  "Header": "in",
-  "Name": "Ratke Group",
-  "OurRef": "sit",
-  "YourRef": "eum",
-  "CreatedDate": "2000-01-03T03:31:26.1833055+01:00",
-  "UpdatedDate": "1999-10-07T03:31:26.1833055+02:00",
-  "Description": "Implemented incremental model",
+  "Attention": "officiis",
+  "Header": "non",
+  "Name": "Welch-Swaniawski",
+  "OurRef": "vitae",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2006-03-04T03:24:47.6895288+01:00",
+  "UpdatedDate": "2002-09-17T03:24:47.6895288+02:00",
+  "Description": "Quality-focused bifurcated software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-01-19T03:31:26.1989251+01:00",
-  "ExternalRef": "voluptates",
+  "Date": "2018-06-23T03:24:47.6895288+02:00",
+  "ExternalRef": "sed",
   "Completed": "Completed",
-  "ActiveLinks": 181,
+  "ActiveLinks": 321,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Durgan-Hegmann",
-      "Id": 369,
-      "Description": "Balanced non-volatile standardization",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 537,
+      "EntityName": "Dach-Steuber",
+      "Id": 351,
+      "Description": "Sharable well-modulated workforce",
+      "ExtraInfo": "sed",
+      "LinkId": 833,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldLength": 181
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 65,
-  "Snum": 580,
+  "SuggestedDocumentId": 718,
+  "Snum": 10,
   "UserDefinedFields": {
-    "SuperOffice:1": "55983896",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Miss Charlotte Mellie Kling Sr.",
+    "SuperOffice:2": "Gladyce Schmeler"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "totam"
+    "CustomFields1": "et",
+    "CustomFields2": "magni"
   },
-  "PublishEventDate": "2023-08-05T03:31:26.2301704+02:00",
-  "PublishTo": "2019-05-26T03:31:26.2301704+02:00",
-  "PublishFrom": "2007-08-29T03:31:26.2301704+02:00",
+  "PublishEventDate": "2013-08-17T03:24:47.6895288+02:00",
+  "PublishTo": "1998-03-31T03:24:47.6895288+02:00",
+  "PublishFrom": "1997-03-24T03:24:47.6895288+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 76,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldType": "System.String",
+          "FieldLength": 517
         }
       }
     },
     {
-      "VisibleId": 76,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldType": "System.String",
+          "FieldLength": 517
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldLength": 300
     }
   }
 }

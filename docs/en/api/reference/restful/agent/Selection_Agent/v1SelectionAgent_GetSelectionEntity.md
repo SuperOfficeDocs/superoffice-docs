@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=763
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=597
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered next generation extranet",
-  "Postit": "et",
+  "Description": "Enterprise-wide tangible orchestration",
+  "Postit": "dolore",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 130,
-  "IncludePerson": 547,
-  "MemberCount": 826,
-  "Name": "Armstrong Inc and Sons",
-  "PostitTextId": 395,
-  "CreatedDate": "2022-05-05T03:31:27.2468237+02:00",
-  "SelectionId": 770,
-  "SoundEx": "totam",
-  "Source": 805,
-  "TextId": 587,
-  "UpdatedDate": "2007-10-14T03:31:27.2468237+02:00",
-  "UpdatedCount": 544,
-  "Visibility": 752,
+  "GroupIdx": 95,
+  "IncludePerson": 1000,
+  "MemberCount": 350,
+  "Name": "Jacobs, Schamberger and Green",
+  "PostitTextId": 354,
+  "CreatedDate": "1998-02-04T03:24:48.2409231+01:00",
+  "SelectionId": 63,
+  "SoundEx": "eos",
+  "Source": 727,
+  "TextId": 930,
+  "UpdatedDate": "2018-06-09T03:24:48.2409231+02:00",
+  "UpdatedCount": 763,
+  "Visibility": 143,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 357,
-  "TargetTableName": "Spencer LLC",
-  "Completed": false,
-  "LeftSelectionId": 243,
-  "RightSelectionId": 551,
+  "TargetTableNumber": 299,
+  "TargetTableName": "Sauer, Hirthe and Heller",
+  "Completed": true,
+  "LeftSelectionId": 4,
+  "RightSelectionId": 405,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Dickens-Hand",
-  "ShadowProviderName": "Stark Group",
-  "ChartKey": "qui",
-  "LastLoaded": "2005-07-07T03:31:27.2468237+02:00",
-  "LastLoadedBy": 167,
+  "MainProviderName": "Vandervort Inc and Sons",
+  "ShadowProviderName": "Howe Inc and Sons",
+  "ChartKey": "quod",
+  "LastLoaded": "2018-08-11T03:24:48.2409231+02:00",
+  "LastLoadedBy": 325,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-09-28T03:31:27.2468237+02:00",
-  "LastMembershipChangeBy": 295,
+  "LastMembershipChange": "2006-06-21T03:24:48.2409231+02:00",
+  "LastMembershipChangeBy": 239,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolores",
-  "MemberTabHeading": "quos",
-  "MailingsProviderName": "Parisian-Erdman",
-  "DashboardTileDefinitionId": 52,
+  "MainHeading": "adipisci",
+  "MemberTabHeading": "labore",
+  "MailingsProviderName": "Stracke Inc and Sons",
+  "DashboardTileDefinitionId": 642,
   "VisibleFor": [
     {
-      "VisibleId": 675,
+      "VisibleId": 694,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldType": "System.Int32",
+          "FieldLength": 340
         }
       }
     },
     {
-      "VisibleId": 675,
+      "VisibleId": 694,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldType": "System.Int32",
+          "FieldLength": 340
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

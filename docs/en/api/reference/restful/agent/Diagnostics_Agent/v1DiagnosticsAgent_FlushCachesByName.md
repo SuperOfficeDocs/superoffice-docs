@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Altenwerth Inc and Sons",
-    "Spencer-Quitzon"
+    "Pfeffer, Huel and Heidenreich",
+    "Little-Kirlin"
   ]
 }
 ```

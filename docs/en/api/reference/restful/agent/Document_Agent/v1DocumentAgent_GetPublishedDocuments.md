@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    986,
-    671
+    855,
+    88
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 971,
-    "Attention": "ipsa",
-    "Header": "neque",
-    "Name": "King Group",
-    "OurRef": "ipsa",
-    "YourRef": "et",
-    "Description": "Triple-buffered holistic implementation",
-    "DocumentTemplate": "dicta",
-    "IsPublished": true,
-    "PersonId": 850,
-    "PersonFullName": "Mr. Arlene Casper I",
-    "AssociateFullName": "Selina Williamson",
-    "ContactId": 786,
-    "ContactName": "Cole LLC",
-    "ProjectId": 410,
-    "ProjectName": "Becker Inc and Sons",
-    "AssociateId": 817,
-    "Snum": 23,
-    "SaleId": 8,
-    "SaleName": "Bins, Olson and Nitzsche",
+    "DocumentId": 428,
+    "Attention": "repellat",
+    "Header": "omnis",
+    "Name": "Halvorson, Emard and Morissette",
+    "OurRef": "et",
+    "YourRef": "recusandae",
+    "Description": "Customer-focused assymetric strategy",
+    "DocumentTemplate": "molestias",
+    "IsPublished": false,
+    "PersonId": 386,
+    "PersonFullName": "Carley Schaden Jr.",
+    "AssociateFullName": "Makayla Orrin Nicolas Jr.",
+    "ContactId": 199,
+    "ContactName": "Swift-Frami",
+    "ProjectId": 715,
+    "ProjectName": "Bernhard LLC",
+    "AssociateId": 121,
+    "Snum": 834,
+    "SaleId": 935,
+    "SaleName": "Waters, Deckow and Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldType": "System.String",
+        "FieldLength": 736
       }
     }
   }

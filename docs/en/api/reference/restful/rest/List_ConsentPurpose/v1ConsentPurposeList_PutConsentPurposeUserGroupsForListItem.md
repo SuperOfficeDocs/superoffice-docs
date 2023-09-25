@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Greenholt LLC",
-    "ToolTip": "Qui accusantium nesciunt et sint natus odit.",
-    "Deleted": true,
-    "Rank": 817,
-    "Type": "reiciendis",
-    "ColorBlock": 209,
-    "IconHint": "doloremque",
+    "Id": 237,
+    "Name": "Bradtke Group",
+    "ToolTip": "In tempora veritatis ea quibusdam saepe voluptatem tempore.",
+    "Deleted": false,
+    "Rank": 654,
+    "Type": "sed",
+    "ColorBlock": 403,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2014-01-07T03:31:33.5229887+01:00",
+    "LastChanged": "2011-09-04T03:24:52.1932187+02:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Crist-Huels",
-        "ToolTip": "Soluta ut reprehenderit nobis laudantium eius qui.",
-        "Deleted": true,
-        "Rank": 738,
-        "Type": "deserunt",
-        "ColorBlock": 38,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2016-02-18T03:31:33.5229887+01:00",
+        "Id": 847,
+        "Name": "Daniel LLC",
+        "ToolTip": "Animi et optio ab temporibus error.",
+        "Deleted": false,
+        "Rank": 730,
+        "Type": "fugiat",
+        "ColorBlock": 301,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2007-06-26T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Adah Cruickshank"
+        "ExtraInfo": "excepturi",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Zora Schroeder DVM"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Dr. Alvina Myrtis Reynolds Jr."
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Veronica Larson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Mertz, Pouros and Lesch",
-    "ToolTip": "Eum et et nemo voluptatum.",
+    "Id": 544,
+    "Name": "Donnelly, Dare and Gutkowski",
+    "ToolTip": "Consequatur deserunt excepturi eveniet autem veritatis.",
     "Deleted": false,
-    "Rank": 597,
-    "Type": "itaque",
-    "ColorBlock": 304,
-    "IconHint": "amet",
+    "Rank": 647,
+    "Type": "atque",
+    "ColorBlock": 500,
+    "IconHint": "provident",
     "Selected": true,
-    "LastChanged": "2002-08-16T03:31:33.5229887+02:00",
+    "LastChanged": "2022-08-31T03:24:52.1932187+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Mertz, Luettgen and Thompson",
-        "ToolTip": "Reiciendis atque architecto dignissimos itaque.",
-        "Deleted": false,
-        "Rank": 740,
-        "Type": "iusto",
-        "ColorBlock": 83,
-        "IconHint": "odit",
+        "Id": 968,
+        "Name": "Bode Group",
+        "ToolTip": "Sapiente maiores mollitia maiores aspernatur iusto voluptas eveniet.",
+        "Deleted": true,
+        "Rank": 373,
+        "Type": "earum",
+        "ColorBlock": 657,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2017-07-16T03:31:33.5229887+02:00",
+        "LastChanged": "2022-04-17T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "nobis",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Kylie Wilderman",
+        "FullName": "Randall Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldType": "System.String",
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "ab",
-    "Hidden": true,
-    "FullName": "Dane Baron Torp DDS",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "officiis",
+    "Hidden": false,
+    "FullName": "Dejah Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

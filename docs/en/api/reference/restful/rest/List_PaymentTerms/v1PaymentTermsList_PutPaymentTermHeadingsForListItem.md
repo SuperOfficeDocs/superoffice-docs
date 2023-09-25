@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Daugherty, Ziemann and Krajcik",
-    "ToolTip": "Sed nobis nulla similique pariatur autem odit.",
+    "Id": 158,
+    "Name": "Okuneva-Kirlin",
+    "ToolTip": "Quia qui tenetur quo hic omnis.",
     "Deleted": false,
-    "Rank": 528,
-    "Type": "quos",
-    "ColorBlock": 504,
-    "IconHint": "doloremque",
+    "Rank": 388,
+    "Type": "iusto",
+    "ColorBlock": 145,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2016-01-02T03:31:33.6791985+01:00",
+    "LastChanged": "2015-07-19T03:24:52.2869587+02:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Rau, Rosenbaum and Crist",
-        "ToolTip": "Suscipit commodi necessitatibus.",
+        "Id": 222,
+        "Name": "Kling LLC",
+        "ToolTip": "Inventore sunt qui et repellat.",
         "Deleted": false,
-        "Rank": 408,
-        "Type": "qui",
-        "ColorBlock": 295,
-        "IconHint": "fugit",
-        "Selected": false,
-        "LastChanged": "2003-11-30T03:31:33.6791985+01:00",
+        "Rank": 625,
+        "Type": "ullam",
+        "ColorBlock": 903,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2003-04-30T03:24:52.2869587+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "quis",
+        "ExtraInfo": "impedit",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Kristy Jones"
+        "FullName": "Quentin Jakubowski III"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "blanditiis",
-    "Hidden": true,
-    "FullName": "Ronaldo Bartell"
+    "ExtraInfo": "nobis",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "River Mayer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Flatley, Ward and Leuschke",
-    "ToolTip": "Et eum quas explicabo delectus accusamus corporis nam.",
-    "Deleted": false,
-    "Rank": 632,
-    "Type": "et",
-    "ColorBlock": 103,
-    "IconHint": "fuga",
+    "Id": 41,
+    "Name": "Heathcote-Jacobi",
+    "ToolTip": "Perspiciatis ea ut voluptatibus accusamus magni.",
+    "Deleted": true,
+    "Rank": 548,
+    "Type": "vero",
+    "ColorBlock": 492,
+    "IconHint": "necessitatibus",
     "Selected": true,
-    "LastChanged": "2007-03-19T03:31:33.6791985+01:00",
+    "LastChanged": "2009-11-09T03:24:52.2869587+01:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Dickinson-Morissette",
-        "ToolTip": "Delectus quasi unde assumenda.",
+        "Id": 764,
+        "Name": "Jast, McClure and Dibbert",
+        "ToolTip": "Omnis aut et doloremque sit quae.",
         "Deleted": false,
-        "Rank": 620,
-        "Type": "eligendi",
-        "ColorBlock": 689,
-        "IconHint": "earum",
+        "Rank": 701,
+        "Type": "provident",
+        "ColorBlock": 409,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2003-07-28T03:31:33.6791985+02:00",
+        "LastChanged": "2015-11-25T03:24:52.2869587+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "officia",
+        "ExtraInfo": "modi",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Lyda Upton",
+        "FullName": "Mozelle Schuster PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 421
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "sed",
+    "StyleHint": "quae",
     "Hidden": true,
-    "FullName": "Golda Pagac",
+    "FullName": "Jarod Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 504
+        "FieldType": "System.Int32",
+        "FieldLength": 743
       }
     }
   }

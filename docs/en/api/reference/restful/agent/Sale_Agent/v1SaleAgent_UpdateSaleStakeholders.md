@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Mohr Group",
-      "Comment": "occaecati",
-      "StakeholderRoleId": 934,
-      "CountryId": 4,
-      "PersonId": 327,
-      "EmailDescription": "luigi.schimmel@volkman.com",
-      "EmailId": 508,
-      "EmailAddress": "jack.littel@tremblay.biz",
-      "PhoneId": 807,
-      "ContactName": "Mayert-Stroman",
-      "ContactId": 215,
-      "SaleId": 268,
-      "Mrmrs": "velit",
-      "Firstname": "Carlie",
-      "MiddleName": "Gottlieb-Smitham",
-      "Lastname": "Koepp",
-      "SaleStakeholderId": 914,
-      "Rank": 147,
-      "Phone": "131.640.8783 x209"
+      "StakeholderRoleName": "Considine, Eichmann and Bashirian",
+      "Comment": "adipisci",
+      "StakeholderRoleId": 632,
+      "CountryId": 685,
+      "PersonId": 361,
+      "EmailDescription": "chadd@mayertgulgowski.com",
+      "EmailId": 249,
+      "EmailAddress": "rickey.daniel@weissnat.info",
+      "PhoneId": 160,
+      "ContactName": "Schuster LLC",
+      "ContactId": 652,
+      "SaleId": 748,
+      "Mrmrs": "veniam",
+      "Firstname": "Waylon",
+      "MiddleName": "Mayert-Runolfsdottir",
+      "Lastname": "Brekke",
+      "SaleStakeholderId": 335,
+      "Rank": 89,
+      "Phone": "041-478-5372 x209"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Kihn, Funk and Ruecker",
-    "Comment": "ea",
-    "StakeholderRoleId": 74,
-    "CountryId": 660,
-    "PersonId": 971,
-    "EmailDescription": "edna_boyle@walsh.ca",
-    "EmailId": 969,
-    "EmailAddress": "emmitt.franecki@zboncak.biz",
-    "PhoneId": 597,
-    "ContactName": "Hessel LLC",
-    "ContactId": 17,
-    "SaleId": 805,
-    "Mrmrs": "ut",
-    "Firstname": "Destin",
-    "MiddleName": "Boehm, Fisher and Marvin",
-    "Lastname": "Champlin",
-    "SaleStakeholderId": 611,
-    "Rank": 669,
-    "Phone": "190.133.8683",
+    "StakeholderRoleName": "Nolan-Wiegand",
+    "Comment": "a",
+    "StakeholderRoleId": 701,
+    "CountryId": 284,
+    "PersonId": 487,
+    "EmailDescription": "roosevelt@koch.uk",
+    "EmailId": 392,
+    "EmailAddress": "luther@luettgen.name",
+    "PhoneId": 344,
+    "ContactName": "Koepp Inc and Sons",
+    "ContactId": 100,
+    "SaleId": 552,
+    "Mrmrs": "quaerat",
+    "Firstname": "Otho",
+    "MiddleName": "Simonis, Herman and Dickinson",
+    "Lastname": "Batz",
+    "SaleStakeholderId": 290,
+    "Rank": 922,
+    "Phone": "(221)492-8242 x214",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldType": "System.Int32",
+        "FieldLength": 58
       }
     }
   }

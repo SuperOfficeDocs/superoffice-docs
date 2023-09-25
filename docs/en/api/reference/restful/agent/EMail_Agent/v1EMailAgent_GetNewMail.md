@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    264,
-    964
+    384,
+    142
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 325,
-    "MessageId": "molestiae",
-    "Subject": "et",
+    "ServerId": 884,
+    "MessageId": "deserunt",
+    "Subject": "totam",
     "From": null,
     "To": [
       {
-        "ContactId": 573,
-        "ContactName": "Howe-Hayes",
-        "PersonId": 548,
-        "PersonName": "Ziemann LLC",
-        "AssociateId": 411,
-        "Address": "consequatur",
-        "EmailId": 481,
+        "ContactId": 743,
+        "ContactName": "Heathcote LLC",
+        "PersonId": 698,
+        "PersonName": "Abernathy-Paucek",
+        "AssociateId": 569,
+        "Address": "sint",
+        "EmailId": 165,
         "DuplicatePersonIds": [
-          981,
-          88
+          810,
+          824
         ],
-        "Name": "Reichel Inc and Sons",
+        "Name": "Fahey Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldType": "System.String",
+            "FieldLength": 297
           }
         }
       }
     ],
-    "Sent": "2016-02-15T03:31:26.4176181+01:00",
+    "Sent": "2002-03-05T03:24:47.705153+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 491,
+    "Size": 852,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 245
       }
     }
   }

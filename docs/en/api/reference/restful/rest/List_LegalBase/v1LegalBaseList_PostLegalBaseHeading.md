@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 229,
-  "Name": "Quigley-Rath",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 540,
-  "UdListDefinitionId": 64
+  "HeadingId": 494,
+  "Name": "Bins-Beier",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "Rank": 433,
+  "UdListDefinitionId": 896
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 129,
-  "Name": "Hammes LLC",
-  "Tooltip": "corrupti",
+  "HeadingId": 734,
+  "Name": "Daugherty LLC",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 952,
-  "UdListDefinitionId": 352,
+  "Rank": 764,
+  "UdListDefinitionId": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

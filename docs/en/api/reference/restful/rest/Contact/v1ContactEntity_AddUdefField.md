@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 215,
-  "ColumnId": 660,
-  "FieldDefault": "distinctio",
-  "FieldHeight": 131,
-  "FieldLabel": "mollitia",
-  "FieldLeft": 438,
-  "FieldTop": 28,
+  "UDefFieldId": 501,
+  "ColumnId": 574,
+  "FieldDefault": "alias",
+  "FieldHeight": 660,
+  "FieldLabel": "ut",
+  "FieldLeft": 489,
+  "FieldTop": 342,
   "FieldType": "Checkbox",
-  "FieldWidth": 814,
-  "FormatMask": "aut",
+  "FieldWidth": 23,
+  "FormatMask": "facilis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 18,
-  "LabelLeft": 848,
-  "LabelTop": 112,
-  "LabelWidth": 578,
-  "LastVersionId": 226,
-  "ListTableId": 330,
-  "IsMandatory": false,
+  "LabelHeight": 137,
+  "LabelLeft": 396,
+  "LabelTop": 494,
+  "LabelWidth": 423,
+  "LastVersionId": 834,
+  "ListTableId": 963,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 137,
-  "ProgId": "odio",
+  "Page1LineNo": 132,
+  "ProgId": "accusantium",
   "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 20,
-  "TextLength": 967,
-  "Tooltip": "perferendis",
-  "UdefIdentity": 957,
-  "UDListDefinitionId": 564,
+  "ShortLabel": "quis",
+  "TabOrder": 79,
+  "TextLength": 405,
+  "Tooltip": "sed",
+  "UdefIdentity": 281,
+  "UDListDefinitionId": 810,
   "Justification": "Center",
-  "Version": 405,
-  "TemplateVariableName": "Ullrich LLC",
+  "Version": 701,
+  "TemplateVariableName": "Pollich, Will and Kerluke",
   "HasBeenPublished": false,
-  "MdoListName": "O'Keefe, Murray and Kihn",
+  "MdoListName": "Herzog Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   }
 }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sanford Inc and Sons",
-  "DeviceName": "Nicolas-Dooley",
-  "DeviceIdentifier": "magni",
-  "TableName": "Walter, Gleichner and Larson"
+  "ApplicationName": "Braun, O'Conner and Schowalter",
+  "DeviceName": "Wisozk LLC",
+  "DeviceIdentifier": "ea",
+  "TableName": "Prohaska Group"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "harum",
-    "Value": "minus",
-    "RecordId": 908,
-    "CreatedDate": "1998-10-19T03:31:26.6050723+02:00",
-    "UpdatedDate": "2006-03-08T03:31:26.6050723+01:00",
-    "UpdatedBy": "modi",
-    "CreatedBy": "eos",
-    "TableName": "Heathcote Inc and Sons",
+    "Key": "assumenda",
+    "Value": "omnis",
+    "RecordId": 119,
+    "CreatedDate": "2023-01-04T03:24:47.8301403+01:00",
+    "UpdatedDate": "1996-10-25T03:24:47.8301403+02:00",
+    "UpdatedBy": "voluptas",
+    "CreatedBy": "fugit",
+    "TableName": "Bergnaum Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 828
+        "FieldType": "System.Int32",
+        "FieldLength": 888
       }
     }
   }

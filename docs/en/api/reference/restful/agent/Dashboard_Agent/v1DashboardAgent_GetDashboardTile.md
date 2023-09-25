@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=933
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=789
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 19,
-  "Caption": "iste",
-  "Description": "Networked heuristic system engine",
-  "ChartName": "Jones-Pacocha",
-  "ChartId": "quisquam",
-  "IsDefault": true,
-  "AssociateId": 132,
-  "GroupId": 868,
-  "SelectionId": 398,
-  "Config": "earum",
+  "DashboardTileId": 159,
+  "Caption": "dolore",
+  "Description": "Multi-layered optimizing model",
+  "ChartName": "Marquardt, Harvey and Rowe",
+  "ChartId": "asperiores",
+  "IsDefault": false,
+  "AssociateId": 818,
+  "GroupId": 140,
+  "SelectionId": 613,
+  "Config": "debitis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stracke, King and Emmerich",
-      "Description": "Balanced web-enabled paradigm",
+      "Name": "Schultz LLC",
+      "Description": "Customizable real-time instruction set",
       "Type": "Boolean",
-      "ListName": "Lowe Inc and Sons",
+      "ListName": "Hyatt Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nam",
+      "Value": "aut",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldType": "System.String",
+          "FieldLength": 199
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 107,
+      "VisibleId": 122,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldType": "System.String",
+          "FieldLength": 848
         }
       }
     },
     {
-      "VisibleId": 107,
+      "VisibleId": 122,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldType": "System.String",
+          "FieldLength": 848
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 169
     }
   }
 }

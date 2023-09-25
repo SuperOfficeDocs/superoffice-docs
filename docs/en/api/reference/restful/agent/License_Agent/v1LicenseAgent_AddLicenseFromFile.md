@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "aliquid"
+  "FileContent": "repudiandae"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "orchestrate bleeding-edge infomediaries",
+  "Reason": "",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 879,
-      "NumberOfLicensesFree": 213,
-      "NumberOfLicensesAdded": 214,
-      "NumberOfLicensesNewTotal": 295,
-      "NumberOfLicensesNewFree": 594,
-      "NumberOfLicensesTotal": 59
+      "NumberOfLicensesInUse": 770,
+      "NumberOfLicensesFree": 411,
+      "NumberOfLicensesAdded": 168,
+      "NumberOfLicensesNewTotal": 390,
+      "NumberOfLicensesNewFree": 437,
+      "NumberOfLicensesTotal": 242
     }
   ],
-  "AccumulatedNextCheckDate": "1996-10-10T03:31:26.6206926+02:00"
+  "AccumulatedNextCheckDate": "2012-05-20T03:24:47.8301403+02:00"
 }
 ```

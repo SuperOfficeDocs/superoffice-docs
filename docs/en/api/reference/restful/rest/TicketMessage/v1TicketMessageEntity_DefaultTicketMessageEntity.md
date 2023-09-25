@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 478,
+  "EjMessageId": 19,
   "Ticket": null,
-  "CreatedAt": "2013-08-22T03:31:33.2249956+02:00",
+  "CreatedAt": "2019-03-03T03:24:51.9901188+01:00",
   "CreatedBy": null,
-  "Author": "quo",
+  "Author": "quas",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 982,
-  "Body": "aperiam",
-  "HtmlBody": "ut",
-  "EmailHeader": "kareem@nolanwalsh.us",
-  "DebugInfo": "possimus",
-  "MailSorter": "ut",
+  "MessageId": "dicta",
+  "TimeSpent": 209,
+  "Body": "sit",
+  "HtmlBody": "tempora",
+  "EmailHeader": "darien@marks.ca",
+  "DebugInfo": "voluptatem",
+  "MailSorter": "repellendus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquam",
+  "SearchTitle": "repudiandae",
   "MessageHeaders": [
     {
-      "Id": 261,
-      "Name": "Schimmel LLC",
-      "Value": "laborum",
+      "Id": 47,
+      "Name": "Bernhard-Emmerich",
+      "Value": "quas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 591
         }
       }
     }
   ],
   "Important": false,
-  "Language": "nesciunt",
-  "Sentiment": 715,
-  "SentimentConfidence": 884,
+  "Language": "voluptatibus",
+  "Sentiment": 737,
+  "SentimentConfidence": 596,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 89,
-      "Name": "Feest LLC",
-      "ContentType": "amet",
-      "AttSize": 158,
-      "InlineImage": true,
-      "ContentId": "illo",
-      "AuthKey": "nesciunt",
+      "AttachmentId": 151,
+      "Name": "Gutmann Inc and Sons",
+      "ContentType": "voluptatem",
+      "AttSize": 32,
+      "InlineImage": false,
+      "ContentId": "culpa",
+      "AuthKey": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldType": "System.String",
+          "FieldLength": 107
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "id",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "ab"
+    "CustomFields1": "itaque",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 585
     }
   }
 }

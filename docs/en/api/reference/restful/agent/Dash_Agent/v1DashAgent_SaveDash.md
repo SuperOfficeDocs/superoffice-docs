@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 731,
-  "UniqueId": "est",
-  "Name": "Stroman Inc and Sons",
-  "Description": "Synergized global info-mediaries",
-  "AssociateId": 656,
-  "Columns": 158,
+  "DashboardId": 888,
+  "UniqueId": "ad",
+  "Name": "Wyman, Mante and Wolff",
+  "Description": "Cross-platform clear-thinking utilisation",
+  "AssociateId": 307,
+  "Columns": 251,
   "Theme": null,
-  "VisibleForAll": 808,
+  "VisibleForAll": 782,
   "VisibleForAssociates": [
-    209,
-    387
+    385,
+    642
   ],
   "VisibleForGroups": [
-    42,
-    396
+    532,
+    644
   ],
-  "PinForAll": 42,
+  "PinForAll": 904,
   "PinForAssociates": [
-    653,
-    52
+    525,
+    831
   ],
   "PinForGroups": [
-    770,
-    182
+    61,
+    270
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 592,
-  "UniqueId": "saepe",
-  "Name": "Price, Willms and Altenwerth",
-  "Description": "Versatile full-range help-desk",
-  "AssociateId": 509,
-  "Columns": 11,
+  "DashboardId": 767,
+  "UniqueId": "ea",
+  "Name": "Mann-Schiller",
+  "Description": "Enhanced 5th generation firmware",
+  "AssociateId": 391,
+  "Columns": 572,
   "Theme": null,
-  "VisibleForAll": 677,
+  "VisibleForAll": 633,
   "VisibleForAssociates": [
-    501,
-    626
+    753,
+    891
   ],
   "VisibleForGroups": [
-    345,
-    193
+    901,
+    61
   ],
-  "PinForAll": 728,
+  "PinForAll": 815,
   "PinForAssociates": [
-    564,
-    144
+    596,
+    194
   ],
   "PinForGroups": [
-    990,
-    923
+    72,
+    610
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 217
     }
   }
 }

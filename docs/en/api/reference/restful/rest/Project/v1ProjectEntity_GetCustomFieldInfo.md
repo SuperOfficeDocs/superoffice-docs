@@ -71,7 +71,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Weber LLC",
-  "DisplayName": "Adams, Jones and Marquardt",
-  "Description": "Business-focused attitude-oriented knowledge base",
-  "ShortLabel": "aut",
+  "FieldName": "Lemke-Gutmann",
+  "DisplayName": "Hand Inc and Sons",
+  "Description": "Polarised 3rd generation process improvement",
+  "ShortLabel": "ipsa",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 713,
-  "TemplateVariableName": "Ratke, Frami and Bashirian"
+  "Rank": 915,
+  "TemplateVariableName": "Jones-Klocko"
 }
 ```

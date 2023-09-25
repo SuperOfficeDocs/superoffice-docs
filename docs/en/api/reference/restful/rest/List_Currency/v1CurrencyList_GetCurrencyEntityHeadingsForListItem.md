@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Kutch-Orn",
-    "ToolTip": "Optio totam delectus veniam doloremque.",
-    "Deleted": false,
-    "Rank": 45,
-    "Type": "eveniet",
-    "ColorBlock": 420,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2009-01-27T03:31:33.5854694+01:00",
+    "Id": 387,
+    "Name": "Trantow-Cronin",
+    "ToolTip": "Dolores necessitatibus delectus reiciendis esse.",
+    "Deleted": true,
+    "Rank": 261,
+    "Type": "deleniti",
+    "ColorBlock": 755,
+    "IconHint": "debitis",
+    "Selected": false,
+    "LastChanged": "1996-05-09T03:24:52.2244666+02:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Grant, Raynor and Beer",
-        "ToolTip": "Soluta commodi commodi.",
+        "Id": 972,
+        "Name": "Reynolds, Aufderhar and Zboncak",
+        "ToolTip": "Vitae exercitationem qui.",
         "Deleted": false,
-        "Rank": 264,
-        "Type": "et",
-        "ColorBlock": 121,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2014-05-01T03:31:33.5854694+02:00",
+        "Rank": 355,
+        "Type": "sed",
+        "ColorBlock": 827,
+        "IconHint": "adipisci",
+        "Selected": true,
+        "LastChanged": "2021-10-12T03:24:52.2244666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Mrs. Vivianne Jaclyn Pollich DVM",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Malinda Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 185
+            "FieldLength": 773
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Dr. Lorna Lenora Purdy Jr.",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Mrs. Emilio Fabiola Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 356
+        "FieldLength": 537
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Orn-Rutherford"
+  "ApplicationName": "Glover Group"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quisquam",
-    "Value": "atque",
-    "RecordId": 1000,
-    "CreatedDate": "2011-05-26T03:31:26.6050723+02:00",
-    "UpdatedDate": "2019-12-15T03:31:26.6050723+01:00",
-    "UpdatedBy": "voluptas",
-    "CreatedBy": "omnis",
-    "TableName": "Erdman-Torp",
+    "Key": "corrupti",
+    "Value": "alias",
+    "RecordId": 793,
+    "CreatedDate": "2010-07-15T03:24:47.8301403+02:00",
+    "UpdatedDate": "2004-03-19T03:24:47.8301403+01:00",
+    "UpdatedBy": "quae",
+    "CreatedBy": "dolorem",
+    "TableName": "Abernathy, Corwin and Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 737
+        "FieldType": "System.Int32",
+        "FieldLength": 363
       }
     }
   }

@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 930,
+  "EmailId": 685,
   "AttachmentIds": [
-    "sit",
-    "amet"
+    "aut",
+    "in"
   ],
   "IncludeAttachments": false
 }
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 40,
-      "ContactName": "Goodwin Group",
-      "PersonId": 404,
-      "PersonName": "Kassulke, Koss and Block",
-      "AssociateId": 233,
-      "Address": "esse",
-      "EmailId": 917,
+      "ContactId": 324,
+      "ContactName": "Pfannerstill LLC",
+      "PersonId": 962,
+      "PersonName": "Walsh Inc and Sons",
+      "AssociateId": 61,
+      "Address": "qui",
+      "EmailId": 274,
       "DuplicatePersonIds": [
-        749,
-        838
+        835,
+        96
       ],
-      "Name": "Boyle Inc and Sons",
+      "Name": "Willms-Mayert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 397
+          "FieldType": "System.Int32",
+          "FieldLength": 324
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 893,
-      "ContactName": "Ratke, Blanda and Johnson",
-      "PersonId": 66,
-      "PersonName": "Ernser LLC",
-      "AssociateId": 33,
-      "Address": "ex",
-      "EmailId": 747,
+      "ContactId": 60,
+      "ContactName": "Hudson Group",
+      "PersonId": 771,
+      "PersonName": "O'Reilly, Hagenes and Goodwin",
+      "AssociateId": 326,
+      "Address": "quia",
+      "EmailId": 467,
       "DuplicatePersonIds": [
-        35,
-        352
+        81,
+        431
       ],
-      "Name": "O'Hara-Harvey",
+      "Name": "Schneider LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldLength": 734
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 726,
-      "ContactName": "Hayes-Wintheiser",
-      "PersonId": 691,
-      "PersonName": "Prohaska-Runte",
-      "AssociateId": 788,
-      "Address": "voluptate",
-      "EmailId": 268,
+      "ContactId": 920,
+      "ContactName": "Bartoletti-Connelly",
+      "PersonId": 83,
+      "PersonName": "Marks Inc and Sons",
+      "AssociateId": 804,
+      "Address": "et",
+      "EmailId": 233,
       "DuplicatePersonIds": [
-        948,
-        48
+        961,
+        430
       ],
-      "Name": "Dach LLC",
+      "Name": "Lemke-Heidenreich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 500
         }
       }
     }
   ],
-  "Subject": "ex",
-  "HTMLBody": "earum",
+  "Subject": "temporibus",
+  "HTMLBody": "aliquid",
   "From": null,
-  "Sent": "2009-04-16T03:31:26.4957222+02:00",
-  "Size": 419,
+  "Sent": "2014-01-25T03:24:47.7520273+01:00",
+  "Size": 665,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "adipisci",
-  "PlainBody": "provident",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "sit",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 43,
+  "ServerId": 31,
   "Attachments": [
     {
-      "Description": "Synchronised intangible policy",
-      "Filename": "aperiam",
-      "Size": 101,
-      "Type": "omnis",
-      "Encoding": "sit",
-      "Id": "tempore",
-      "Disposition": "nemo",
+      "Description": "Reverse-engineered zero defect methodology",
+      "Filename": "quis",
+      "Size": 690,
+      "Type": "voluptatem",
+      "Encoding": "omnis",
+      "Id": "ea",
+      "Disposition": "perspiciatis",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,49 +222,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldLength": 192
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Parisian, Nicolas and Hegmann",
+      "Name": "Mueller-Paucek",
       "Values": [
-        "velit",
-        "voluptatum"
+        "dolores",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldType": "System.Int32",
+          "FieldLength": 963
         }
       }
     },
     {
-      "Name": "Parisian, Nicolas and Hegmann",
+      "Name": "Mueller-Paucek",
       "Values": [
-        "velit",
-        "voluptatum"
+        "dolores",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldType": "System.Int32",
+          "FieldLength": 963
         }
       }
     }
   ],
-  "FolderName": "D'Amore, Weissnat and Robel",
-  "EmailItemId": 266,
-  "AccountId": 841,
-  "ReceivedAt": "2001-07-18T03:31:26.4957222+02:00",
+  "FolderName": "Hessel-Mertz",
+  "EmailItemId": 29,
+  "AccountId": 263,
+  "ReceivedAt": "2013-09-04T03:24:47.7520273+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-02-19T03:31:26.4957222+01:00",
+  "RepliedAt": "2003-09-02T03:24:47.7520273+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 214
     }
   }
 }

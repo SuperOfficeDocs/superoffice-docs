@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 771,
-  "BlobSize": 880,
-  "Description": "Universal disintermediate installation",
-  "ExtraInfo": "ea",
+  "BlobId": 716,
+  "BlobSize": 627,
+  "Description": "Operative background workforce",
+  "ExtraInfo": "cupiditate",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "architecto",
-  "OriginalSize": 718,
-  "CreatedDate": "2022-03-13T03:31:33.3354795+01:00",
-  "UpdatedDate": "2020-12-24T03:31:33.3354795+01:00",
+  "MimeType": "et",
+  "OriginalSize": 941,
+  "CreatedDate": "2015-12-31T03:24:52.0682283+01:00",
+  "UpdatedDate": "2010-11-16T03:24:52.0682283+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolor"
+  "ConceptualType": "ipsum"
 }
 ```
 
@@ -120,16 +120,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 763,
-  "BlobSize": 499,
-  "Description": "Open-architected local synergy",
-  "ExtraInfo": "reiciendis",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "nulla",
-  "OriginalSize": 959,
-  "CreatedDate": "2005-05-30T03:31:33.3354795+02:00",
-  "UpdatedDate": "2022-05-11T03:31:33.3354795+02:00",
+  "BlobId": 435,
+  "BlobSize": 981,
+  "Description": "Focused client-server conglomeration",
+  "ExtraInfo": "eos",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "saepe",
+  "OriginalSize": 270,
+  "CreatedDate": "2008-07-29T03:24:52.0682283+02:00",
+  "UpdatedDate": "2005-09-09T03:24:52.0682283+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "ConceptualType": "et",
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 265
     }
   }
 }

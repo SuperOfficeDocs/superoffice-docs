@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Value": "mollitia",
-    "Tooltip": "iure",
+    "Id": 678,
+    "Value": "libero",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldLength": 206
       }
     }
   },
   {
-    "Id": 178,
-    "Value": "mollitia",
-    "Tooltip": "iure",
+    "Id": 678,
+    "Value": "libero",
+    "Tooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldLength": 206
       }
     }
   }

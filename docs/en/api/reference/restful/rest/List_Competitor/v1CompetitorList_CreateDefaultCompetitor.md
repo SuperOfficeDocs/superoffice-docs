@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Ankunding-Harber",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 39,
-  "Rank": 702,
+  "Id": 365,
+  "Name": "Franecki Group",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "UdListDefinitionId": 662,
+  "Rank": 642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 40
     }
   }
 }

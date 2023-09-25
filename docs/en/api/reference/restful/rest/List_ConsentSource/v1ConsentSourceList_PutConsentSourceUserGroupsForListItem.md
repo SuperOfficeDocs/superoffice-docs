@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "Langworth-Jerde",
-    "ToolTip": "Voluptas eos iure cumque.",
-    "Deleted": true,
-    "Rank": 404,
-    "Type": "unde",
-    "ColorBlock": 987,
-    "IconHint": "iste",
-    "Selected": true,
-    "LastChanged": "2007-10-15T03:31:33.5386084+02:00",
+    "Id": 617,
+    "Name": "Feil-Crooks",
+    "ToolTip": "Ea impedit quo.",
+    "Deleted": false,
+    "Rank": 908,
+    "Type": "explicabo",
+    "ColorBlock": 698,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "1998-08-10T03:24:52.1932187+02:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Bayer-Towne",
-        "ToolTip": "Autem autem commodi doloribus ullam sunt ad aut.",
-        "Deleted": false,
-        "Rank": 336,
-        "Type": "sint",
-        "ColorBlock": 296,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2009-10-29T03:31:33.5386084+01:00",
+        "Id": 959,
+        "Name": "Osinski, Ratke and Smitham",
+        "ToolTip": "Voluptatem quo quam.",
+        "Deleted": true,
+        "Rank": 720,
+        "Type": "impedit",
+        "ColorBlock": 375,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2021-11-11T03:24:52.1932187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Margarete Elton Schulist IV"
+        "FullName": "Miss Arielle Rhoda Herzog III"
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "in",
-    "Hidden": true,
-    "FullName": "Ezekiel Mueller"
+    "ExtraInfo": "quis",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Ms. Arianna Windler I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Mraz, Gleason and Beatty",
-    "ToolTip": "Delectus deleniti est adipisci enim.",
+    "Id": 326,
+    "Name": "Sporer, Senger and Muller",
+    "ToolTip": "Excepturi ut est doloremque.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "delectus",
-    "ColorBlock": 587,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2000-08-02T03:31:33.5386084+02:00",
+    "Rank": 724,
+    "Type": "rerum",
+    "ColorBlock": 934,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "2001-06-17T03:24:52.2088405+02:00",
     "ChildItems": [
       {
         "Id": 159,
-        "Name": "Weber-Will",
-        "ToolTip": "Repudiandae consectetur tempore officiis id.",
+        "Name": "Harber LLC",
+        "ToolTip": "Sint necessitatibus autem.",
         "Deleted": false,
-        "Rank": 446,
-        "Type": "non",
-        "ColorBlock": 335,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2010-04-01T03:31:33.5386084+02:00",
+        "Rank": 694,
+        "Type": "molestias",
+        "ColorBlock": 664,
+        "IconHint": "labore",
+        "Selected": false,
+        "LastChanged": "2020-09-01T03:24:52.2088405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Moshe Wiza",
+        "ExtraInfo": "placeat",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Miss Baron Miller Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 244
+            "FieldLength": 82
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "earum",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Emmanuel Shanahan",
+    "FullName": "Emil Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 857
+        "FieldType": "System.Int32",
+        "FieldLength": 35
       }
     }
   }

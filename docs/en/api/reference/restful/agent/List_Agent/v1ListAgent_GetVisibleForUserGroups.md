@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 389,
-  "ListItemId": 543
+  "UdListDefinitionId": 34,
+  "ListItemId": 837
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Willms-Batz",
-    "ToolTip": "Aliquam totam.",
-    "Deleted": true,
-    "Rank": 971,
-    "Type": "eum",
-    "ColorBlock": 388,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "1997-10-06T03:31:26.6675558+02:00",
+    "Id": 547,
+    "Name": "Hyatt, Lockman and Willms",
+    "ToolTip": "Cupiditate omnis autem ut quis ea impedit ut.",
+    "Deleted": false,
+    "Rank": 584,
+    "Type": "illo",
+    "ColorBlock": 646,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2014-03-09T03:24:47.8613878+01:00",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Johns Group",
-        "ToolTip": "Hic possimus sint nihil molestiae.",
-        "Deleted": true,
-        "Rank": 419,
-        "Type": "repudiandae",
-        "ColorBlock": 417,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2003-04-04T03:31:26.6675558+02:00",
+        "Id": 877,
+        "Name": "Stokes-Weimann",
+        "ToolTip": "Qui at aliquid ad suscipit est nihil incidunt.",
+        "Deleted": false,
+        "Rank": 61,
+        "Type": "harum",
+        "ColorBlock": 447,
+        "IconHint": "aspernatur",
+        "Selected": false,
+        "LastChanged": "2002-05-18T03:24:47.8613878+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "itaque",
-        "Hidden": false,
-        "FullName": "Owen Amani Bergnaum Sr.",
+        "ExtraInfo": "illum",
+        "StyleHint": "libero",
+        "Hidden": true,
+        "FullName": "Jadyn Kelsi Stiedemann III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 343
+            "FieldLength": 560
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "pariatur",
-    "Hidden": false,
-    "FullName": "Cordie Brock Mertz DDS",
+    "ExtraInfo": "excepturi",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Cydney Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   }

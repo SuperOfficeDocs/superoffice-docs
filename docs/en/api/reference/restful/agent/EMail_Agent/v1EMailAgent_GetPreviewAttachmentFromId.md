@@ -93,10 +93,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 419,
-  "AttachmentId": "voluptatem",
-  "AttachmentType": "dolore",
-  "AttachmentFilename": "quas"
+  "MailItemId": 950,
+  "AttachmentId": "est",
+  "AttachmentType": "unde",
+  "AttachmentFilename": "dolor"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Front-line bifurcated methodology",
-  "Filename": "ipsam",
-  "Size": 414,
-  "Type": "voluptate",
-  "Encoding": "voluptatem",
-  "Id": "voluptatum",
-  "Disposition": "optio",
-  "IsSafeFileExtension": false,
+  "Description": "Right-sized bottom-line firmware",
+  "Filename": "unde",
+  "Size": 173,
+  "Type": "laudantium",
+  "Encoding": "ducimus",
+  "Id": "id",
+  "Disposition": "vel",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldType": "System.Int32",
+      "FieldLength": 588
     }
   }
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "Treutel, Schuppe and Ernser",
-  "Tooltip": "modi",
+  "Id": 640,
+  "Name": "Sipes Group",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "UdListDefinitionId": 538,
-  "Rank": 95,
+  "UdListDefinitionId": 460,
+  "Rank": 4,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 962
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

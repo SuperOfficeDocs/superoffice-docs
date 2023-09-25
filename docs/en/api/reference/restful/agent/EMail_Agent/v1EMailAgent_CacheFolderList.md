@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Harris LLC",
-    "Delimiter": "est",
-    "Flags": "at",
-    "TotalItems": 849,
-    "UnreadItems": 188,
-    "Subscribed": false,
-    "EmailFolderId": 579,
+    "Name": "Hammes-Stanton",
+    "Delimiter": "ratione",
+    "Flags": "ut",
+    "TotalItems": 767,
+    "UnreadItems": 913,
+    "Subscribed": true,
+    "EmailFolderId": 234,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 141
       }
     }
   }

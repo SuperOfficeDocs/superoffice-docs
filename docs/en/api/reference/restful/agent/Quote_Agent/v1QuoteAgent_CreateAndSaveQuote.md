@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 946,
-  "ConnectionId": 241,
-  "FirstAlternativeName": "O'Connell, Gutkowski and Feest"
+  "SaleId": 665,
+  "ConnectionId": 203,
+  "FirstAlternativeName": "O'Keefe Group"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 391,
-  "SaleId": 105,
-  "QuoteConnectionId": 41,
-  "ERPQuoteKey": "quibusdam",
-  "ERPOrderKey": "ut",
-  "ActiveQuoteVersionId": 355,
-  "AcceptedQuoteAlternativeId": 456,
-  "UseValuesFromQuote": 804,
-  "DocumentId": 924,
-  "PoNumber": "1276479",
-  "OrderComment": "esse",
-  "PreferredEmailCulture": "orrin@kuhlman.co.uk",
+  "QuoteId": 411,
+  "SaleId": 233,
+  "QuoteConnectionId": 310,
+  "ERPQuoteKey": "ullam",
+  "ERPOrderKey": "assumenda",
+  "ActiveQuoteVersionId": 574,
+  "AcceptedQuoteAlternativeId": 695,
+  "UseValuesFromQuote": 382,
+  "DocumentId": 794,
+  "PoNumber": "624001",
+  "OrderComment": "nam",
+  "PreferredEmailCulture": "walton_bahringer@nitzsche.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 132,
-      "ERPQuoteVersionKey": "delectus",
-      "QuoteId": 680,
-      "Description": "User-friendly system-worthy complexity",
-      "Number": "527509",
+      "QuoteVersionId": 974,
+      "ERPQuoteVersionKey": "in",
+      "QuoteId": 520,
+      "Description": "Enhanced full-range framework",
+      "Number": "1008115",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 103,
-      "SentDate": "2000-06-08T03:31:27.0905589+02:00",
-      "FollowupId": 274,
-      "ExpirationDate": "2008-11-26T03:31:27.0905589+01:00",
-      "DeliveryCountryId": 307,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 872,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "rerum",
-      "ERPPaymentTypeKey": "in",
-      "ERPDeliveryTermsKey": "recusandae",
-      "ERPDeliveryTypeKey": "est",
-      "Rank": 603,
-      "ApprovedBy": 992,
-      "ApprovedText": "eaque",
-      "ApprovedRegisteredBy": 313,
-      "ApprovedRegisteredDate": "1997-04-27T03:31:27.0905589+02:00",
-      "ExtraField1": "eius",
-      "ExtraField2": "accusantium",
-      "ExtraField3": "et",
-      "ExtraField4": "sequi",
-      "ExtraField5": "saepe",
-      "LastRecalculated": "2006-04-09T03:31:27.0905589+02:00",
-      "Updated": "1997-05-21T03:31:27.0905589+02:00",
-      "UpdatedAssociateId": 909,
-      "Registered": "2019-07-15T03:31:27.0905589+02:00",
-      "RegisteredAssociateId": 539,
-      "RequestAssociateId": 766,
-      "RequestComment": "ut",
+      "LikelyQuoteAlternativeId": 400,
+      "SentDate": "2004-11-16T03:24:48.1426062+01:00",
+      "FollowupId": 419,
+      "ExpirationDate": "2006-01-13T03:24:48.1426062+01:00",
+      "DeliveryCountryId": 579,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 479,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "eum",
+      "ERPPaymentTypeKey": "eum",
+      "ERPDeliveryTermsKey": "sapiente",
+      "ERPDeliveryTypeKey": "quis",
+      "Rank": 605,
+      "ApprovedBy": 351,
+      "ApprovedText": "nihil",
+      "ApprovedRegisteredBy": 575,
+      "ApprovedRegisteredDate": "2000-08-03T03:24:48.1426062+02:00",
+      "ExtraField1": "sunt",
+      "ExtraField2": "laborum",
+      "ExtraField3": "eveniet",
+      "ExtraField4": "et",
+      "ExtraField5": "consequuntur",
+      "LastRecalculated": "2006-12-24T03:24:48.1426062+01:00",
+      "Updated": "2007-05-20T03:24:48.1426062+02:00",
+      "UpdatedAssociateId": 316,
+      "Registered": "2012-05-09T03:24:48.1426062+02:00",
+      "RegisteredAssociateId": 661,
+      "RequestAssociateId": 21,
+      "RequestComment": "ratione",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 242
+          "FieldLength": 734
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldLength": 171
     }
   }
 }

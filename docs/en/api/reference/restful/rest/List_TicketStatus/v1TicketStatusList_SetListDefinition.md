@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 4,
-  "Name": "Sauer, Crist and Gleason",
-  "Tooltip": "ipsam",
+  "Id": 262,
+  "Name": "Schumm Group",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 946,
-  "IsCustomList": true,
+  "Rank": 317,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "pariatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
-  "Name": "Zemlak, Kohler and Walker",
-  "Tooltip": "a",
-  "Deleted": false,
-  "Rank": 418,
+  "Id": 188,
+  "Name": "Rogahn, Lowe and Roberts",
+  "Tooltip": "nam",
+  "Deleted": true,
+  "Rank": 116,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "facilis",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   }
 }

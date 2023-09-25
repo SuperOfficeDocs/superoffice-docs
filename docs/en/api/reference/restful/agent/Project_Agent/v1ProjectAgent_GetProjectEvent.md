@@ -26,7 +26,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=311
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=963
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Marietta Pfannerstill II",
-  "Description": "Decentralized high-level moderator",
-  "ProjectId": 328,
-  "EventName": "Bartoletti-O'Conner",
-  "AssociateId": 581,
+  "AssociateFullName": "Prof. Hassie Walsh Sr.",
+  "Description": "Reactive empowering collaboration",
+  "ProjectId": 241,
+  "EventName": "Hagenes-Cormier",
+  "AssociateId": 815,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "et",
-  "SignOffText": "sapiente",
-  "SignOnConfirmationText": "aut",
-  "SignOnText": "et",
-  "EventDate": "2019-02-04T03:31:27.0112205+01:00",
+  "SignOffConfirmationText": "cumque",
+  "SignOffText": "recusandae",
+  "SignOnConfirmationText": "quis",
+  "SignOnText": "non",
+  "EventDate": "2010-10-23T03:24:48.0957311+02:00",
   "Enabled": false,
-  "SignOff": true,
-  "SignOffTaskEnable": false,
+  "SignOff": false,
+  "SignOffTaskEnable": true,
   "SignOnTaskEnable": false,
   "SignOn": true,
-  "SignOffTaskId": 966,
-  "SignOnTaskId": 631,
-  "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 182,
-  "SignOffPersonId": 204,
+  "SignOffTaskId": 8,
+  "SignOnTaskId": 145,
+  "SignOffTriggersAssign": false,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 809,
+  "SignOffPersonId": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldType": "System.String",
+      "FieldLength": 6
     }
   }
 }

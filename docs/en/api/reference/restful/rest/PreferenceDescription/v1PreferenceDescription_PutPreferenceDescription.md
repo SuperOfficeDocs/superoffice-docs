@@ -117,24 +117,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 920,
-  "Section": "labore",
-  "Key": "eum",
-  "Name": "Konopelski, Ledner and Sanford",
+  "PrefDescId": 445,
+  "Section": "quam",
+  "Key": "est",
+  "Name": "Johnson, Heaney and Johns",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered clear-thinking functionalities",
+  "Description": "Assimilated real-time knowledge user",
   "IsBuiltin": false,
-  "TableName": "Cruickshank, Littel and Carter",
-  "UserDefinedListId": 368,
-  "Rank": 446,
-  "SubGroup": "est",
-  "MinLevel": 612,
-  "MaxValue": 730,
-  "MinValue": 974,
-  "RequiredLicense": "accusamus"
+  "TableName": "Goodwin-Lebsack",
+  "UserDefinedListId": 411,
+  "Rank": 820,
+  "SubGroup": "vero",
+  "MinLevel": 84,
+  "MaxValue": 290,
+  "MinValue": 200,
+  "RequiredLicense": "officiis"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 315,
-  "Section": "voluptates",
-  "Key": "facilis",
-  "Name": "Kutch-Miller",
+  "PrefDescId": 226,
+  "Section": "et",
+  "Key": "rerum",
+  "Name": "Williamson-Koss",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized non-volatile circuit",
-  "IsBuiltin": true,
-  "TableName": "Ward, Schultz and Morissette",
-  "UserDefinedListId": 780,
-  "Rank": 115,
-  "SubGroup": "earum",
-  "MinLevel": 464,
-  "MaxValue": 599,
-  "MinValue": 977,
-  "RequiredLicense": "ducimus",
+  "Description": "Public-key dynamic website",
+  "IsBuiltin": false,
+  "TableName": "Nitzsche, Hills and Harber",
+  "UserDefinedListId": 170,
+  "Rank": 141,
+  "SubGroup": "quo",
+  "MinLevel": 644,
+  "MaxValue": 691,
+  "MinValue": 762,
+  "RequiredLicense": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldType": "System.String",
+      "FieldLength": 447
     }
   },
   "_Links": {

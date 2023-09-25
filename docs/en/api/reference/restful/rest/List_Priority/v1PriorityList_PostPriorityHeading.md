@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 508,
-  "Name": "Hegmann-Lowe",
-  "Tooltip": "quaerat",
+  "HeadingId": 649,
+  "Name": "Considine Inc and Sons",
+  "Tooltip": "optio",
   "Deleted": true,
-  "Rank": 395,
-  "UdListDefinitionId": 200
+  "Rank": 33,
+  "UdListDefinitionId": 807
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 653,
-  "Name": "Wilderman LLC",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 477,
-  "UdListDefinitionId": 369,
+  "HeadingId": 214,
+  "Name": "Dietrich-Harris",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "Rank": 585,
+  "UdListDefinitionId": 876,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

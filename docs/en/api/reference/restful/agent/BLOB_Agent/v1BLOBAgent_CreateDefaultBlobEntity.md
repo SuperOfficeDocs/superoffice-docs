@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 788,
-  "BlobSize": 536,
-  "Description": "Front-line 6th generation framework",
-  "ExtraInfo": "sit",
+  "BlobId": 471,
+  "BlobSize": 479,
+  "Description": "Synchronised zero administration data-warehouse",
+  "ExtraInfo": "unde",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quam",
-  "OriginalSize": 939,
-  "CreatedDate": "2013-06-23T03:31:25.6496314+02:00",
-  "UpdatedDate": "1996-11-09T03:31:25.6496314+01:00",
+  "IsZipped": true,
+  "MimeType": "sunt",
+  "OriginalSize": 128,
+  "CreatedDate": "2019-11-26T03:24:47.2520803+01:00",
+  "UpdatedDate": "2009-06-04T03:24:47.2520803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nobis",
+  "ConceptualType": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 570
     }
   }
 }

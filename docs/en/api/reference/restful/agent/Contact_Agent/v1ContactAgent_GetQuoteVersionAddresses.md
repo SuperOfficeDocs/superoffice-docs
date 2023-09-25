@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 185
+  "QuoteVersionId": 474
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 17033.29,
-    "Wgs84Longitude": 29810.608,
+    "Wgs84Latitude": 22536.594,
+    "Wgs84Longitude": 12767.916,
     "LocalizedAddress": [
       [
         {
-          "Name": "Kutch Group",
-          "Value": "illum",
-          "Tooltip": "non",
-          "Label": "reiciendis",
-          "ValueLength": 39,
-          "AddressType": "voluptas",
+          "Name": "Kuhic-Oberbrunner",
+          "Value": "voluptas",
+          "Tooltip": "laudantium",
+          "Label": "dolor",
+          "ValueLength": 983,
+          "AddressType": "soluta",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 692
+              "FieldType": "System.Int32",
+              "FieldLength": 495
             }
           }
         }
       ],
       [
         {
-          "Name": "Gutmann-Dicki",
-          "Value": "autem",
-          "Tooltip": "molestias",
-          "Label": "officiis",
-          "ValueLength": 42,
-          "AddressType": "quos",
+          "Name": "Huel Inc and Sons",
+          "Value": "officia",
+          "Tooltip": "sunt",
+          "Label": "voluptas",
+          "ValueLength": 264,
+          "AddressType": "voluptas",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 322
+              "FieldType": "System.Int32",
+              "FieldLength": 190
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "aut",
+    "Formatted": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

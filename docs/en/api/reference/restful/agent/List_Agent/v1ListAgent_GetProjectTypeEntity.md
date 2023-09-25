@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=657
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=391
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 647,
-  "Name": "Reichel Group",
-  "Tooltip": "ullam",
-  "Rank": 948,
+  "ProjTypeId": 836,
+  "Name": "Ratke, Bednar and Hoppe",
+  "Tooltip": "officiis",
+  "Rank": 772,
   "DurationUnit": "Century",
-  "ProjectDuration": 617,
-  "Deleted": true,
-  "HasGuide": false,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 137,
+  "Deleted": false,
+  "HasGuide": true,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 363,
-      "Name": "Robel LLC",
-      "ToolTip": "Sunt sunt ipsum.",
+      "Id": 930,
+      "Name": "Altenwerth Group",
+      "ToolTip": "Et voluptas dolor quo voluptas repellat est.",
       "Deleted": false,
-      "Rank": 834,
-      "Type": "dolore",
-      "ColorBlock": 713,
-      "IconHint": "nam",
+      "Rank": 8,
+      "Type": "quod",
+      "ColorBlock": 289,
+      "IconHint": "sapiente",
       "Selected": false,
-      "LastChanged": "2019-01-16T03:31:26.6519338+01:00",
+      "LastChanged": "2018-06-27T03:24:47.8457602+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "distinctio",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Guillermo Littel",
+      "ExtraInfo": "officiis",
+      "StyleHint": "temporibus",
+      "Hidden": true,
+      "FullName": "Tre Conn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 544
+          "FieldLength": 437
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 135
     }
   }
 }

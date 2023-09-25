@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/CopyFromCRMDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 296
+  "DocumentId": 508
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 356,
-  "Name": "Abbott Group",
-  "ContentType": "ex",
-  "AttSize": 207,
-  "InlineImage": true,
-  "ContentId": "et",
-  "AuthKey": "nisi",
+  "AttachmentId": 450,
+  "Name": "Heidenreich-Hilll",
+  "ContentType": "libero",
+  "AttSize": 892,
+  "InlineImage": false,
+  "ContentId": "autem",
+  "AuthKey": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

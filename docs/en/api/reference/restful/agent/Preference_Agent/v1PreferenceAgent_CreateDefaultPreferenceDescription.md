@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 2,
-  "Section": "esse",
-  "Key": "qui",
-  "Name": "Gislason Group",
+  "PrefDescId": 811,
+  "Section": "a",
+  "Key": "vel",
+  "Name": "Leannon LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked 4th generation knowledge user",
-  "IsBuiltin": true,
-  "TableName": "Boyer, Johns and Conroy",
-  "UserDefinedListId": 640,
-  "Rank": 625,
-  "SubGroup": "porro",
-  "MinLevel": 538,
-  "MaxValue": 965,
-  "MinValue": 725,
-  "RequiredLicense": "et",
+  "Description": "Ergonomic global capacity",
+  "IsBuiltin": false,
+  "TableName": "Lind Group",
+  "UserDefinedListId": 930,
+  "Rank": 668,
+  "SubGroup": "eos",
+  "MinLevel": 429,
+  "MaxValue": 437,
+  "MinValue": 800,
+  "RequiredLicense": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 512
     }
   }
 }

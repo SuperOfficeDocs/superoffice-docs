@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 442,
-  "Name": "McGlynn, Douglas and Larson",
-  "Tooltip": "architecto",
-  "Deleted": true,
-  "Rank": 859,
+  "Id": 799,
+  "Name": "Williamson Inc and Sons",
+  "Tooltip": "reiciendis",
+  "Deleted": false,
+  "Rank": 596,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "ipsa",
+  "Id": 113,
+  "Name": "O'Keefe Inc and Sons",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "Rank": 800,
+  "Rank": 993,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "reprehenderit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldLength": 141
     }
   }
 }

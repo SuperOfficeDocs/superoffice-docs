@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "deserunt",
+  "RawValue": "quis",
   "Specification": null,
-  "DisplayValue": "qui",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "laborum",
+  "DisplayTooltip": "officia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 834,
-  "PrefDescId": 304,
-  "TableName": "Bode Inc and Sons",
-  "UserPreferenceId": 402
+  "TargetId": 865,
+  "PrefDescId": 220,
+  "TableName": "Goyette Inc and Sons",
+  "UserPreferenceId": 568
 }
 ```
 

@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=67
+POST /api/v1/Agents/Person/GetPerson?personId=147
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,52 +116,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "omnis",
-  "PersonId": 921,
-  "Mrmrs": "ipsam",
-  "Firstname": "Bulah",
-  "Lastname": "O'Reilly",
-  "MiddleName": "Mann LLC",
-  "Title": "animi",
-  "Description": "Sharable next generation solution",
-  "Email": "guiseppe.cummerata@macejkovickeebler.biz",
-  "FullName": "Miss Afton Simone Lebsack",
-  "DirectPhone": "(308)871-5241",
-  "FormalName": "Ryan-O'Connell",
-  "CountryId": 574,
-  "ContactId": 904,
-  "ContactName": "Zulauf-Renner",
-  "Retired": 543,
-  "Rank": 819,
-  "ActiveInterests": 111,
-  "ContactDepartment": "",
-  "ContactCountryId": 26,
-  "ContactOrgNr": "474987",
-  "FaxPhone": "1-639-753-5639 x1583",
-  "MobilePhone": "957.874.7176",
-  "ContactPhone": "1-552-699-9500 x021",
-  "AssociateName": "Predovic, Littel and Cummerata",
-  "AssociateId": 873,
-  "UsePersonAddress": true,
-  "ContactFax": "quis",
-  "Kanafname": "nulla",
-  "Kanalname": "rerum",
-  "Post1": "mollitia",
-  "Post2": "accusantium",
-  "Post3": "sed",
-  "EmailName": "marianne_waelchi@mertzjones.com",
-  "ContactFullName": "Ms. Ivy Hermann V",
-  "ActiveErpLinks": 962,
-  "TicketPriorityId": 752,
-  "SupportLanguageId": 722,
-  "SupportAssociateId": 274,
+  "Position": "dolore",
+  "PersonId": 946,
+  "Mrmrs": "dolor",
+  "Firstname": "Denis",
+  "Lastname": "Conroy",
+  "MiddleName": "Effertz LLC",
+  "Title": "ut",
+  "Description": "Stand-alone responsive function",
+  "Email": "clair@mckenzie.us",
+  "FullName": "Ms. Josianne Nadia Feest",
+  "DirectPhone": "126-912-4123",
+  "FormalName": "Botsford-Will",
+  "CountryId": 37,
+  "ContactId": 831,
+  "ContactName": "Keeling LLC",
+  "Retired": 862,
+  "Rank": 674,
+  "ActiveInterests": 347,
+  "ContactDepartment": "engage cross-platform infrastructures",
+  "ContactCountryId": 673,
+  "ContactOrgNr": "1509296",
+  "FaxPhone": "1-096-243-7013",
+  "MobilePhone": "473.574.4653",
+  "ContactPhone": "(959)105-5646 x931",
+  "AssociateName": "Purdy-Bergnaum",
+  "AssociateId": 236,
+  "UsePersonAddress": false,
+  "ContactFax": "libero",
+  "Kanafname": "dolores",
+  "Kanalname": "fugit",
+  "Post1": "optio",
+  "Post2": "adipisci",
+  "Post3": "pariatur",
+  "EmailName": "kelley@millerruecker.ca",
+  "ContactFullName": "Ambrose Stehr",
+  "ActiveErpLinks": 47,
+  "TicketPriorityId": 205,
+  "SupportLanguageId": 961,
+  "SupportAssociateId": 349,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldType": "System.Int32",
+      "FieldLength": 764
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 23,
-    "Name": "Daniel Group",
-    "Tooltip": "molestiae",
+    "HeadingId": 84,
+    "Name": "Langworth, Corwin and Casper",
+    "Tooltip": "magnam",
     "Deleted": false,
-    "Rank": 52,
-    "UdListDefinitionId": 764,
+    "Rank": 289,
+    "UdListDefinitionId": 437,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 891
       }
     }
   }

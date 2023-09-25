@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Koelpin, Ullrich and McKenzie",
-  "Type": "facere",
-  "Size": 32,
+  "Name": "Veum-Gutkowski",
+  "Type": "nihil",
+  "Size": 241,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 280
     }
   }
 }

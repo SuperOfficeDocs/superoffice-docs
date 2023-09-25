@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 514,
-  "UniqueIdentifier": "libero",
-  "Name": "Marvin, Anderson and Jacobs",
-  "Description": "Monitored 4th generation strategy",
-  "IncludeId": "soluta",
-  "HierarchyId": 373,
-  "Source": "totam",
-  "Registered": "2003-02-26T03:31:25.9634399+01:00",
-  "RegisteredAssociateId": 222,
-  "Updated": "2005-03-04T03:31:25.9634399+01:00",
-  "UpdatedAssociateId": 222,
+  "EjscriptId": 757,
+  "UniqueIdentifier": "sint",
+  "Name": "Langosh LLC",
+  "Description": "Automated dedicated database",
+  "IncludeId": "maiores",
+  "HierarchyId": 412,
+  "Source": "quo",
+  "Registered": "2006-10-04T03:24:47.4708008+02:00",
+  "RegisteredAssociateId": 980,
+  "Updated": "2001-08-19T03:24:47.4708008+02:00",
+  "UpdatedAssociateId": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 51
     }
   }
 }

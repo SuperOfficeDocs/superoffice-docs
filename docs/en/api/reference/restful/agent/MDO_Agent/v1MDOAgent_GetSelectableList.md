@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ernser Group",
-  "ForceFlatList": false,
-  "AdditionalInfo": "maiores",
+  "Name": "Lindgren Inc and Sons",
+  "ForceFlatList": true,
+  "AdditionalInfo": "recusandae",
   "OnlyHistory": true
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Luettgen-Kuhic",
-    "ToolTip": "In et explicabo.",
-    "Deleted": true,
-    "Rank": 548,
-    "Type": "nihil",
-    "ColorBlock": 50,
-    "IconHint": "soluta",
-    "Selected": true,
-    "LastChanged": "2008-09-03T03:31:26.7769052+02:00",
+    "Id": 886,
+    "Name": "Gulgowski LLC",
+    "ToolTip": "Quae ut et.",
+    "Deleted": false,
+    "Rank": 270,
+    "Type": "esse",
+    "ColorBlock": 183,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2016-01-20T03:24:47.9395013+01:00",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "Pouros, Emmerich and Orn",
-        "ToolTip": "Sint tempore qui minus asperiores praesentium non ut.",
+        "Id": 237,
+        "Name": "Johnston-King",
+        "ToolTip": "Et corrupti fugiat ullam ab.",
         "Deleted": false,
-        "Rank": 378,
-        "Type": "suscipit",
-        "ColorBlock": 380,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2016-05-28T03:31:26.7769052+02:00",
+        "Rank": 166,
+        "Type": "quia",
+        "ColorBlock": 194,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2013-09-18T03:24:47.9395013+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "aut",
+        "ExtraInfo": "id",
+        "StyleHint": "quae",
         "Hidden": true,
-        "FullName": "Henderson Osinski",
+        "FullName": "Enos Carroll Rodriguez I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 402
+            "FieldType": "System.Int32",
+            "FieldLength": 948
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sed",
+    "ExtraInfo": "quas",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Teresa Howell V",
+    "FullName": "Adrain Lakin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldType": "System.Int32",
+        "FieldLength": 716
       }
     }
   }

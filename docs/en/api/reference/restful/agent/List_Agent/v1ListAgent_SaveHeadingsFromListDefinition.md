@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 787,
+  "Id": 115,
   "Entities": [
     {
-      "HeadingId": 593,
-      "Name": "Homenick Group",
-      "Tooltip": "magni",
+      "HeadingId": 354,
+      "Name": "Yundt, Farrell and Simonis",
+      "Tooltip": "dolorum",
       "Deleted": true,
-      "Rank": 861,
-      "UdListDefinitionId": 36
+      "Rank": 148,
+      "UdListDefinitionId": 23
     },
     {
-      "HeadingId": 593,
-      "Name": "Homenick Group",
-      "Tooltip": "magni",
+      "HeadingId": 354,
+      "Name": "Yundt, Farrell and Simonis",
+      "Tooltip": "dolorum",
       "Deleted": true,
-      "Rank": 861,
-      "UdListDefinitionId": 36
+      "Rank": 148,
+      "UdListDefinitionId": 23
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 876,
-    "Name": "Hudson LLC",
-    "Tooltip": "numquam",
-    "Deleted": false,
-    "Rank": 588,
-    "UdListDefinitionId": 11,
+    "HeadingId": 555,
+    "Name": "Ullrich-Streich",
+    "Tooltip": "nam",
+    "Deleted": true,
+    "Rank": 973,
+    "UdListDefinitionId": 187,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

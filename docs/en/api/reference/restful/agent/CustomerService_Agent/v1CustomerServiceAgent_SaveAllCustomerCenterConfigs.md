@@ -64,20 +64,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 557,
+      "CustConfigId": 155,
       "Type": "Options",
-      "Config": "eos",
-      "CustLangId": 946,
-      "Registered": "2021-09-02T03:31:25.9947878+02:00",
-      "RegisteredAssociateId": 809,
-      "Updated": "1997-06-28T03:31:25.9947878+02:00",
-      "UpdatedAssociateId": 732
+      "Config": "tenetur",
+      "CustLangId": 126,
+      "Registered": "1996-07-21T03:24:47.4708008+02:00",
+      "RegisteredAssociateId": 816,
+      "Updated": "2007-01-30T03:24:47.4708008+01:00",
+      "UpdatedAssociateId": 214
     }
   ]
 }

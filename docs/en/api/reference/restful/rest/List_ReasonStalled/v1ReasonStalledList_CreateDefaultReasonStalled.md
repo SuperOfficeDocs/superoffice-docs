@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Robel, Schowalter and Hackett",
-  "Tooltip": "quos",
+  "Id": 382,
+  "Name": "Bernhard LLC",
+  "Tooltip": "ut",
   "Deleted": true,
-  "UdListDefinitionId": 790,
-  "Rank": 593,
+  "UdListDefinitionId": 504,
+  "Rank": 349,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 125
     }
   }
 }

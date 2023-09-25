@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=laborum
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Rohan, Kovacek and Little",
-    "ToolTip": "Placeat fugit blanditiis.",
+    "Id": 383,
+    "Name": "Kerluke, Zulauf and Schmidt",
+    "ToolTip": "Molestias eum ea soluta.",
     "Deleted": false,
-    "Rank": 296,
-    "Type": "quasi",
+    "Rank": 209,
+    "Type": "praesentium",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Gutkowski LLC",
-        "ToolTip": "Vel voluptatibus ipsa nulla.",
+        "Id": 423,
+        "Name": "Johns-Legros",
+        "ToolTip": "Velit est dolor consequatur.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "repudiandae",
+        "Rank": 328,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 420,
-        "ExtraInfo": "aut",
-        "StyleHint": "molestias",
-        "FullName": "Whitney Hackett",
+        "IconHint": "ea",
+        "ColorBlock": 240,
+        "ExtraInfo": "rem",
+        "StyleHint": "modi",
+        "FullName": "Mr. Wilford Friesen PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 773
+            "FieldLength": 604
           }
         }
       }
     ],
-    "IconHint": "maiores",
-    "ColorBlock": 71,
-    "ExtraInfo": "tenetur",
-    "StyleHint": "fugit",
-    "FullName": "Mr. Elyse Larson MD",
+    "IconHint": "eum",
+    "ColorBlock": 90,
+    "ExtraInfo": "facere",
+    "StyleHint": "officiis",
+    "FullName": "Fidel Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 300
       }
     }
   }

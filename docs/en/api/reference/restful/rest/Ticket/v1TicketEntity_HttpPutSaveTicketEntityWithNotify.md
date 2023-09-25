@@ -29,7 +29,7 @@ Saves a ticket and performs any user notifications
 | notify | bool |  If true, then the notifications will be sent |
 
 ```http
-PUT /api/v1/Ticket/{id}?notify=False
+PUT /api/v1/Ticket/{id}?notify=True
 ```
 
 
@@ -90,6 +90,7 @@ The ticket to save
 | RealTimeSpentInternally | Integer | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | Integer | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | Integer | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | Integer | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | Boolean | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | Integer | The number of replies (messages) to the customer for this request. |
 | NumMessages | Integer | The total number of messages for this request. |
@@ -160,6 +161,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -192,21 +194,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 699,
-  "Title": "dignissimos",
-  "CreatedAt": "2015-12-10T03:31:33.1781336+01:00",
-  "LastChanged": "1997-05-30T03:31:33.1781336+02:00",
-  "ReadByOwner": "2018-05-30T03:31:33.1781336+02:00",
-  "ReadByCustomer": "2023-05-31T03:31:33.1781336+02:00",
-  "FirstReadByOwner": "2006-11-04T03:31:33.1781336+01:00",
-  "FirstReadByUser": "1998-08-31T03:31:33.1781336+02:00",
-  "Activate": "1997-10-06T03:31:33.1781336+02:00",
-  "ClosedAt": "2003-02-11T03:31:33.1781336+01:00",
-  "RepliedAt": "2017-10-10T03:31:33.1781336+02:00",
-  "AlertTimeout": "2012-12-10T03:31:33.1781336+01:00",
-  "Deadline": "2021-04-29T03:31:33.1781336+02:00",
+  "TicketId": 800,
+  "Title": "aperiam",
+  "CreatedAt": "2021-10-02T03:24:51.9588682+02:00",
+  "LastChanged": "2009-03-10T03:24:51.9588682+01:00",
+  "ReadByOwner": "2016-06-10T03:24:51.9588682+02:00",
+  "ReadByCustomer": "2004-10-18T03:24:51.9588682+02:00",
+  "FirstReadByOwner": "2016-03-21T03:24:51.9588682+01:00",
+  "FirstReadByUser": "2017-08-07T03:24:51.9588682+02:00",
+  "Activate": "1998-11-03T03:24:51.9588682+01:00",
+  "ClosedAt": "2021-03-02T03:24:51.9588682+01:00",
+  "RepliedAt": "2008-06-20T03:24:51.9588682+02:00",
+  "AlertTimeout": "1998-09-28T03:24:51.9588682+02:00",
+  "Deadline": "2002-11-21T03:24:51.9588682+01:00",
   "CreatedBy": null,
-  "Author": "illum",
+  "Author": "et",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -217,121 +219,122 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "hic",
-      "PersonId": 742,
-      "Mrmrs": "quo",
-      "Firstname": "Jammie",
-      "Lastname": "Walsh",
-      "MiddleName": "Okuneva-Dach",
-      "Title": "sed",
-      "Description": "Multi-lateral client-server concept",
-      "Email": "larry@vonbreitenberg.info",
-      "FullName": "Whitney Grady",
-      "DirectPhone": "237.644.4477 x744",
-      "FormalName": "Stiedemann, Kuvalis and Quigley",
-      "CountryId": 174,
-      "ContactId": 801,
-      "ContactName": "Kunde-Altenwerth",
-      "Retired": 724,
-      "Rank": 604,
-      "ActiveInterests": 127,
-      "ContactDepartment": "",
-      "ContactCountryId": 84,
-      "ContactOrgNr": "1046036",
-      "FaxPhone": "(477)655-7628 x09876",
-      "MobilePhone": "929.897.1718 x75814",
-      "ContactPhone": "868-794-3063",
-      "AssociateName": "Kemmer Group",
-      "AssociateId": 229,
+      "Position": "quidem",
+      "PersonId": 119,
+      "Mrmrs": "sunt",
+      "Firstname": "Camylle",
+      "Lastname": "Fadel",
+      "MiddleName": "Stamm-Lynch",
+      "Title": "non",
+      "Description": "Realigned regional encoding",
+      "Email": "marianna.murazik@hoegerturcotte.uk",
+      "FullName": "Natalie Schamberger",
+      "DirectPhone": "(983)479-9711 x08811",
+      "FormalName": "Beier LLC",
+      "CountryId": 417,
+      "ContactId": 80,
+      "ContactName": "Langosh-Williamson",
+      "Retired": 477,
+      "Rank": 303,
+      "ActiveInterests": 440,
+      "ContactDepartment": "leverage innovative technologies",
+      "ContactCountryId": 691,
+      "ContactOrgNr": "1011410",
+      "FaxPhone": "(028)896-1860",
+      "MobilePhone": "(166)581-2932",
+      "ContactPhone": "519-739-2232",
+      "AssociateName": "Moore, Ullrich and Murray",
+      "AssociateId": 716,
       "UsePersonAddress": false,
-      "ContactFax": "sed",
-      "Kanafname": "sapiente",
-      "Kanalname": "distinctio",
-      "Post1": "totam",
-      "Post2": "repudiandae",
-      "Post3": "aperiam",
-      "EmailName": "kaylie_rippin@doylekiehn.com",
-      "ContactFullName": "Jaqueline Shields",
-      "ActiveErpLinks": 148,
-      "TicketPriorityId": 850,
-      "SupportLanguageId": 27,
-      "SupportAssociateId": 738,
+      "ContactFax": "consequuntur",
+      "Kanafname": "sunt",
+      "Kanalname": "ut",
+      "Post1": "expedita",
+      "Post2": "nemo",
+      "Post3": "esse",
+      "EmailName": "freddy_wiza@boehm.name",
+      "ContactFullName": "Daija Travon Hermiston V",
+      "ActiveErpLinks": 215,
+      "TicketPriorityId": 43,
+      "SupportLanguageId": 247,
+      "SupportAssociateId": 942,
       "CategoryName": "VIP Customer"
     }
   ],
-  "AlertLevel": 129,
-  "ConnectId": 144,
+  "AlertLevel": 629,
+  "ConnectId": 657,
   "ReadStatus": "Green",
-  "TimeToReply": 878,
-  "RealTimeToReply": 328,
-  "TimeToClose": 667,
-  "RealTimeToClose": 486,
-  "TimeSpentInternally": 16,
-  "TimeSpentExternally": 206,
-  "TimeSpentQueue": 347,
-  "RealTimeSpentInternally": 594,
-  "RealTimeSpentExternally": 703,
-  "RealTimeSpentQueue": 549,
+  "TimeToReply": 289,
+  "RealTimeToReply": 911,
+  "TimeToClose": 273,
+  "RealTimeToClose": 598,
+  "TimeSpentInternally": 601,
+  "TimeSpentExternally": 278,
+  "TimeSpentQueue": 561,
+  "RealTimeSpentInternally": 934,
+  "RealTimeSpentExternally": 397,
+  "RealTimeSpentQueue": 780,
+  "TimeSpent": 567,
   "HasAttachment": false,
-  "NumReplies": 114,
-  "NumMessages": 310,
-  "FromAddress": "aliquid",
+  "NumReplies": 987,
+  "NumMessages": 754,
+  "FromAddress": "sint",
   "Messages": [
     {
-      "TicketMessageId": 235,
-      "CreatedAt": "2019-12-11T03:31:33.1781336+01:00",
+      "TicketMessageId": 611,
+      "CreatedAt": "2001-10-04T03:24:51.9588682+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "corporis",
-      "PersonId": 174,
-      "PersonFullName": "Miss Clair Lorenzo Herzog",
-      "ContactId": 649,
-      "ContactName": "Pfeffer, Blick and Ankunding",
+      "Author": "consequatur",
+      "PersonId": 147,
+      "PersonFullName": "Rosie Jamil Nikolaus IV",
+      "ContactId": 677,
+      "ContactName": "Nitzsche, Turcotte and Kling",
       "ContactDepartment": "",
-      "NumAttachments": 333,
-      "EmailHeader": "dawson@breitenbergkreiger.co.uk",
+      "NumAttachments": 494,
+      "EmailHeader": "elaina_reichert@walkerhilpert.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "aut",
-      "Sentiment": 955,
-      "SentimentConfidence": 69,
-      "CreatedBy": 842,
-      "ChangedAt": "2010-03-25T03:31:33.1781336+01:00",
+      "Language": "blanditiis",
+      "Sentiment": 237,
+      "SentimentConfidence": 65,
+      "CreatedBy": 863,
+      "ChangedAt": "2010-12-15T03:24:51.9588682+01:00",
       "Badge": "Comment"
     }
   ],
   "Tags": [
     {
-      "Id": 477,
-      "Name": "Torphy, Thompson and Mertz",
-      "ToolTip": "Ut corrupti."
+      "Id": 836,
+      "Name": "Pfeffer-Quitzon",
+      "ToolTip": "Assumenda aliquid dolores doloremque culpa autem repellendus explicabo."
     },
     {
-      "Id": 477,
-      "Name": "Torphy, Thompson and Mertz",
-      "ToolTip": "Ut corrupti."
+      "Id": 836,
+      "Name": "Pfeffer-Quitzon",
+      "ToolTip": "Assumenda aliquid dolores doloremque culpa autem repellendus explicabo."
     }
   ],
-  "Language": "placeat",
-  "Sentiment": 332,
-  "SentimentConfidence": 490,
-  "SuggestedCategoryId": 786,
+  "Language": "cumque",
+  "Sentiment": 796,
+  "SentimentConfidence": 279,
+  "SuggestedCategoryId": 703,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 773,
-  "IconHint": "consequuntur",
+  "OrigHumanCategoryId": 525,
+  "IconHint": "odio",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "necessitatibus",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "vel",
+    "CustomFields2": "non"
   }
 }
 ```
@@ -343,21 +346,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 277,
-  "Title": "repellat",
-  "CreatedAt": "2005-08-11T03:31:33.1781336+02:00",
-  "LastChanged": "2015-10-23T03:31:33.1781336+02:00",
-  "ReadByOwner": "2001-06-07T03:31:33.1781336+02:00",
-  "ReadByCustomer": "2019-04-25T03:31:33.1781336+02:00",
-  "FirstReadByOwner": "2022-12-20T03:31:33.1781336+01:00",
-  "FirstReadByUser": "2002-01-24T03:31:33.1781336+01:00",
-  "Activate": "2005-07-14T03:31:33.1781336+02:00",
-  "ClosedAt": "2015-07-14T03:31:33.1781336+02:00",
-  "RepliedAt": "2002-08-26T03:31:33.1781336+02:00",
-  "AlertTimeout": "2001-03-21T03:31:33.1781336+01:00",
-  "Deadline": "1999-08-30T03:31:33.1781336+02:00",
+  "TicketId": 361,
+  "Title": "omnis",
+  "CreatedAt": "1998-02-01T03:24:51.9744944+01:00",
+  "LastChanged": "1998-04-27T03:24:51.9744944+02:00",
+  "ReadByOwner": "2001-04-10T03:24:51.9744944+02:00",
+  "ReadByCustomer": "1996-07-22T03:24:51.9744944+02:00",
+  "FirstReadByOwner": "2004-06-22T03:24:51.9744944+02:00",
+  "FirstReadByUser": "2020-01-02T03:24:51.9744944+01:00",
+  "Activate": "2002-06-09T03:24:51.9744944+02:00",
+  "ClosedAt": "2020-11-12T03:24:51.9744944+01:00",
+  "RepliedAt": "2016-08-06T03:24:51.9744944+02:00",
+  "AlertTimeout": "2017-10-16T03:24:51.9744944+02:00",
+  "Deadline": "2021-07-25T03:24:51.9744944+02:00",
   "CreatedBy": null,
-  "Author": "ipsa",
+  "Author": "ullam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -368,160 +371,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ut",
-      "PersonId": 470,
-      "Mrmrs": "qui",
-      "Firstname": "Carroll",
-      "Lastname": "Fritsch",
-      "MiddleName": "McDermott, Corkery and Roberts",
-      "Title": "consequuntur",
-      "Description": "Up-sized optimal secured line",
-      "Email": "emmalee.gutkowski@bednaranderson.name",
-      "FullName": "Miss Yessenia Kertzmann DVM",
-      "DirectPhone": "763.101.2760 x635",
-      "FormalName": "Predovic Group",
-      "CountryId": 288,
-      "ContactId": 815,
-      "ContactName": "Kohler-Frami",
-      "Retired": 998,
-      "Rank": 275,
-      "ActiveInterests": 385,
+      "Position": "nihil",
+      "PersonId": 366,
+      "Mrmrs": "aliquid",
+      "Firstname": "Orion",
+      "Lastname": "Wuckert",
+      "MiddleName": "Lindgren-Torphy",
+      "Title": "earum",
+      "Description": "Versatile zero tolerance service-desk",
+      "Email": "duane@orn.name",
+      "FullName": "Martin Bosco",
+      "DirectPhone": "(713)742-9293 x0083",
+      "FormalName": "Torp Group",
+      "CountryId": 26,
+      "ContactId": 388,
+      "ContactName": "Lueilwitz-Huels",
+      "Retired": 892,
+      "Rank": 550,
+      "ActiveInterests": 837,
       "ContactDepartment": "",
-      "ContactCountryId": 714,
-      "ContactOrgNr": "987394",
-      "FaxPhone": "(603)446-9191 x083",
-      "MobilePhone": "255.347.2768 x3666",
-      "ContactPhone": "1-084-658-6361 x941",
-      "AssociateName": "Upton, Durgan and Hoppe",
-      "AssociateId": 882,
+      "ContactCountryId": 456,
+      "ContactOrgNr": "1566486",
+      "FaxPhone": "079.145.7337 x9119",
+      "MobilePhone": "429.930.7810 x261",
+      "ContactPhone": "1-803-061-8038 x60126",
+      "AssociateName": "Wuckert-Runte",
+      "AssociateId": 856,
       "UsePersonAddress": false,
-      "ContactFax": "a",
-      "Kanafname": "quia",
-      "Kanalname": "aperiam",
-      "Post1": "ea",
-      "Post2": "sunt",
-      "Post3": "eius",
-      "EmailName": "kendrick@mills.biz",
-      "ContactFullName": "Mr. Dorothea Cassandra Howe",
-      "ActiveErpLinks": 353,
-      "TicketPriorityId": 296,
-      "SupportLanguageId": 908,
-      "SupportAssociateId": 564,
+      "ContactFax": "quas",
+      "Kanafname": "hic",
+      "Kanalname": "aut",
+      "Post1": "voluptatum",
+      "Post2": "qui",
+      "Post3": "reprehenderit",
+      "EmailName": "lina.considine@marvin.ca",
+      "ContactFullName": "Elenora Rutherford",
+      "ActiveErpLinks": 20,
+      "TicketPriorityId": 687,
+      "SupportLanguageId": 581,
+      "SupportAssociateId": 352,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 632
         }
       }
     }
   ],
-  "AlertLevel": 952,
-  "ConnectId": 637,
+  "AlertLevel": 996,
+  "ConnectId": 924,
   "ReadStatus": "Green",
-  "TimeToReply": 890,
-  "RealTimeToReply": 487,
-  "TimeToClose": 312,
-  "RealTimeToClose": 836,
-  "TimeSpentInternally": 212,
-  "TimeSpentExternally": 410,
-  "TimeSpentQueue": 30,
-  "RealTimeSpentInternally": 441,
-  "RealTimeSpentExternally": 23,
-  "RealTimeSpentQueue": 409,
-  "HasAttachment": true,
-  "NumReplies": 673,
-  "NumMessages": 81,
-  "FromAddress": "nobis",
+  "TimeToReply": 599,
+  "RealTimeToReply": 352,
+  "TimeToClose": 385,
+  "RealTimeToClose": 939,
+  "TimeSpentInternally": 533,
+  "TimeSpentExternally": 954,
+  "TimeSpentQueue": 477,
+  "RealTimeSpentInternally": 757,
+  "RealTimeSpentExternally": 782,
+  "RealTimeSpentQueue": 950,
+  "TimeSpent": 968,
+  "HasAttachment": false,
+  "NumReplies": 887,
+  "NumMessages": 994,
+  "FromAddress": "voluptatem",
   "Messages": [
     {
-      "TicketMessageId": 994,
-      "CreatedAt": "2007-10-21T03:31:33.1937529+02:00",
+      "TicketMessageId": 448,
+      "CreatedAt": "2009-05-15T03:24:51.9744944+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "eligendi",
-      "PersonId": 476,
-      "PersonFullName": "Mr. Rodger O'Hara PhD",
-      "ContactId": 575,
-      "ContactName": "Jewess-Wunsch",
+      "Author": "ducimus",
+      "PersonId": 11,
+      "PersonFullName": "Mr. Elroy Hackett",
+      "ContactId": 68,
+      "ContactName": "Little, Aufderhar and Ziemann",
       "ContactDepartment": "",
-      "NumAttachments": 481,
-      "EmailHeader": "albertha@feeney.info",
+      "NumAttachments": 829,
+      "EmailHeader": "reuben_kub@predovic.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "magnam",
-      "Sentiment": 413,
-      "SentimentConfidence": 383,
-      "CreatedBy": 246,
-      "ChangedAt": "2009-11-19T03:31:33.1937529+01:00",
+      "Language": "et",
+      "Sentiment": 309,
+      "SentimentConfidence": 71,
+      "CreatedBy": 519,
+      "ChangedAt": "2016-10-26T03:24:51.9744944+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 254
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 851,
-      "Name": "Wehner Group",
-      "ToolTip": "Sed eos dolores voluptatem.",
+      "Id": 240,
+      "Name": "McDermott LLC",
+      "ToolTip": "Soluta at.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 325
+          "FieldType": "System.Int32",
+          "FieldLength": 423
         }
       }
     },
     {
-      "Id": 851,
-      "Name": "Wehner Group",
-      "ToolTip": "Sed eos dolores voluptatem.",
+      "Id": 240,
+      "Name": "McDermott LLC",
+      "ToolTip": "Soluta at.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 325
+          "FieldType": "System.Int32",
+          "FieldLength": 423
         }
       }
     }
   ],
-  "Language": "voluptatem",
-  "Sentiment": 929,
-  "SentimentConfidence": 460,
-  "SuggestedCategoryId": 659,
+  "Language": "nostrum",
+  "Sentiment": 361,
+  "SentimentConfidence": 527,
+  "SuggestedCategoryId": 355,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 448,
-  "IconHint": "fuga",
+  "OrigHumanCategoryId": 575,
+  "IconHint": "non",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "accusantium"
+    "CustomFields1": "autem",
+    "CustomFields2": "quas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 458
     }
   }
 }

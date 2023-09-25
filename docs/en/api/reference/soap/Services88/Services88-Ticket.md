@@ -278,6 +278,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="RealTimeSpentInternally" type="xs:int" />
               <xs:element minOccurs="0" name="RealTimeSpentExternally" type="xs:int" />
               <xs:element minOccurs="0" name="RealTimeSpentQueue" type="xs:int" />
+              <xs:element minOccurs="0" name="TimeSpent" type="xs:int" />
               <xs:element minOccurs="0" name="HasAttachment" type="xs:boolean" />
               <xs:element minOccurs="0" name="NumReplies" type="xs:int" />
               <xs:element minOccurs="0" name="NumMessages" type="xs:int" />
@@ -995,6 +996,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="TicketPriorities" nillable="true" type="q3:ArrayOfint" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ReplyTemplate" type="xs:int" />
               <xs:element minOccurs="0" name="IsExternalVisible" type="xs:boolean" />
+              <xs:element minOccurs="0" name="IsDefault" type="xs:boolean" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1110,6 +1112,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="RealTimeSpentInternally" type="xs:int" />
               <xs:element minOccurs="0" name="RealTimeSpentExternally" type="xs:int" />
               <xs:element minOccurs="0" name="RealTimeSpentQueue" type="xs:int" />
+              <xs:element minOccurs="0" name="TimeSpent" type="xs:int" />
               <xs:element minOccurs="0" name="HasAttachment" type="xs:boolean" />
               <xs:element minOccurs="0" name="NumReplies" type="xs:int" />
               <xs:element minOccurs="0" name="NumMessages" type="xs:int" />

@@ -61,7 +61,8 @@ The TicketTypeEntity to be saved.
 | DefaultTicketPriority | Integer | Default ticket priority for new tickets |
 | TicketPriorities | Array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | Boolean | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | Boolean | Is this Ticket Type marked as default |
 
 ## Response:
 
@@ -85,7 +86,8 @@ OK
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -96,27 +98,28 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 401,
-  "Name": "Hills, Fahey and Welch",
-  "Rank": 318,
-  "Tooltip": "eaque",
-  "Icon": "et",
-  "DefaultTicketStatus": 975,
+  "TicketTypeId": 45,
+  "Name": "Reinger, Smitham and Dicki",
+  "Rank": 279,
+  "Tooltip": "voluptatem",
+  "Icon": "fugit",
+  "DefaultTicketStatus": 743,
   "TicketStatuses": [
-    907,
-    881
+    102,
+    992
   ],
-  "DefaultTicketPriority": 748,
+  "DefaultTicketPriority": 762,
   "TicketPriorities": [
-    947,
-    345
+    767,
+    828
   ],
-  "ReplyTemplate": 458,
-  "IsExternalVisible": false
+  "ReplyTemplate": 997,
+  "IsExternalVisible": true,
+  "IsDefault": false
 }
 ```
 
@@ -127,29 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 525,
-  "Name": "Treutel-Marvin",
-  "Rank": 205,
-  "Tooltip": "fuga",
-  "Icon": "laboriosam",
-  "DefaultTicketStatus": 528,
+  "TicketTypeId": 907,
+  "Name": "Farrell Inc and Sons",
+  "Rank": 755,
+  "Tooltip": "repudiandae",
+  "Icon": "aut",
+  "DefaultTicketStatus": 321,
   "TicketStatuses": [
-    634,
-    694
+    117,
+    101
   ],
-  "DefaultTicketPriority": 617,
+  "DefaultTicketPriority": 895,
   "TicketPriorities": [
-    452,
-    671
+    183,
+    249
   ],
-  "ReplyTemplate": 76,
+  "ReplyTemplate": 198,
   "IsExternalVisible": true,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 354
     }
   },
   "_Links": {

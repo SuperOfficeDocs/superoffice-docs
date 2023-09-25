@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 911
+  "PersonId": 601
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 487,
-    "Name": "McKenzie Group",
-    "Description": "Operative executive strategy",
+    "ProjectId": 910,
+    "Name": "Stiedemann, Okuneva and Kutch",
+    "Description": "Switchable transitional flexibility",
     "URL": "http://www.example.com/",
-    "Type": "sed",
-    "AssociateId": 993,
-    "AssociateFullName": "Stanton Gleason",
-    "TypeId": 190,
-    "Updated": "1996-08-27T03:31:27.0268433+02:00",
-    "StatusId": 706,
-    "Status": "itaque",
-    "TextId": 418,
-    "PublishTo": "2009-02-19T03:31:27.0268433+01:00",
-    "PublishFrom": "1997-10-13T03:31:27.0268433+02:00",
+    "Type": "ut",
+    "AssociateId": 195,
+    "AssociateFullName": "Miss Maryam Shanahan MD",
+    "TypeId": 945,
+    "Updated": "2020-12-27T03:24:48.0957311+01:00",
+    "StatusId": 500,
+    "Status": "accusantium",
+    "TextId": 497,
+    "PublishTo": "2020-10-10T03:24:48.0957311+02:00",
+    "PublishFrom": "2009-06-06T03:24:48.0957311+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1441721",
-    "ActiveErpLinks": 250,
+    "ProjectNumber": "1314788",
+    "ActiveErpLinks": 574,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 177
       }
     }
   }

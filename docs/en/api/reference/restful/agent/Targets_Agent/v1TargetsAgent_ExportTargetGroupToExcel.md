@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 341
+  "TargetGroupId": 509
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 217,
-  "FileName": "Swaniawski-Spinka",
-  "Message": "aspernatur",
+  "BatchTaskId": 337,
+  "FileName": "Gaylord, Swift and Feest",
+  "Message": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 17
     }
   }
 }

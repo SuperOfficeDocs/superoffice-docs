@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 143
+  "PrefDescId": 138
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 648,
-    "PrefDescId": 770,
-    "PrefValue": "et",
-    "PrefShowValue": "natus",
-    "Description": "Stand-alone logistical protocol",
-    "IsBuiltin": true,
+    "PrefDescLineId": 839,
+    "PrefDescId": 292,
+    "PrefValue": "dicta",
+    "PrefShowValue": "doloremque",
+    "Description": "Balanced holistic secured line",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 795
+        "FieldLength": 988
       }
     }
   }

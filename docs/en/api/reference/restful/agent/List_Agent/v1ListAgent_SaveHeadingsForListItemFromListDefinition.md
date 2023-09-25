@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 2,
-  "ListItemId": 982,
+  "UdListDefinitionId": 918,
+  "ListItemId": 507,
   "Headings": [
     {
-      "Id": 549,
-      "Name": "Braun, Ondricka and Swaniawski",
-      "ToolTip": "Quas ea illum rerum eum incidunt eligendi est.",
-      "Deleted": false,
-      "Rank": 208,
-      "Type": "quia",
-      "ColorBlock": 660,
-      "IconHint": "sit",
-      "Selected": true,
-      "LastChanged": "2018-06-18T03:31:26.6831775+02:00",
+      "Id": 329,
+      "Name": "Nader-Connelly",
+      "ToolTip": "Beatae et itaque neque repellendus et.",
+      "Deleted": true,
+      "Rank": 291,
+      "Type": "soluta",
+      "ColorBlock": 369,
+      "IconHint": "modi",
+      "Selected": false,
+      "LastChanged": "2014-05-10T03:24:47.8770078+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "facilis",
-      "StyleHint": "officiis",
+      "ExtraInfo": "quia",
+      "StyleHint": "eligendi",
       "Hidden": true,
-      "FullName": "Dr. Marian Harvey"
+      "FullName": "Flo McKenzie"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Name": "Beer, Langosh and Nikolaus",
-    "ToolTip": "Dolorem eaque.",
+    "Id": 535,
+    "Name": "O'Kon-Kunde",
+    "ToolTip": "Dolorem est quia velit suscipit reprehenderit voluptas quidem.",
     "Deleted": false,
-    "Rank": 833,
-    "Type": "consequatur",
-    "ColorBlock": 160,
-    "IconHint": "fuga",
+    "Rank": 426,
+    "Type": "qui",
+    "ColorBlock": 15,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "1998-01-02T03:31:26.6831775+01:00",
+    "LastChanged": "2004-04-20T03:24:47.8770078+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Graham LLC",
-        "ToolTip": "Deserunt velit autem.",
+        "Id": 982,
+        "Name": "Rice-Bashirian",
+        "ToolTip": "Harum exercitationem quos.",
         "Deleted": false,
-        "Rank": 807,
-        "Type": "eos",
-        "ColorBlock": 726,
-        "IconHint": "aliquam",
+        "Rank": 435,
+        "Type": "aut",
+        "ColorBlock": 596,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2020-01-11T03:31:26.6831775+01:00",
+        "LastChanged": "2013-05-27T03:24:47.8770078+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "nisi",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Mrs. Katelin Lue Denesik",
+        "FullName": "Jerrell Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 476
+            "FieldType": "System.Int32",
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "ut",
+    "ExtraInfo": "iure",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Haven Upton",
+    "FullName": "Savanah Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 427
       }
     }
   }

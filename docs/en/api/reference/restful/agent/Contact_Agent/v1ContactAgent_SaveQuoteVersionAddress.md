@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 396,
+  "QuoteVersionId": 900,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 255
+  "CountryId": 565
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 10313.993999999999,
-  "Wgs84Longitude": 10433.086,
+  "Wgs84Latitude": 2472.726,
+  "Wgs84Longitude": 26855.246,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bergnaum Group",
-        "Value": "illum",
-        "Tooltip": "sed",
-        "Label": "corporis",
-        "ValueLength": 37,
-        "AddressType": "quos",
+        "Name": "Kuhic Inc and Sons",
+        "Value": "aliquam",
+        "Tooltip": "dolor",
+        "Label": "laudantium",
+        "ValueLength": 426,
+        "AddressType": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 816
+            "FieldType": "System.Int32",
+            "FieldLength": 829
           }
         }
       }
     ],
     [
       {
-        "Name": "Zieme, Torp and Douglas",
-        "Value": "iusto",
-        "Tooltip": "rem",
-        "Label": "velit",
-        "ValueLength": 374,
-        "AddressType": "ut",
+        "Name": "Bogisich, Roberts and Goyette",
+        "Value": "sit",
+        "Tooltip": "voluptas",
+        "Label": "enim",
+        "ValueLength": 830,
+        "AddressType": "occaecati",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 381
+            "FieldLength": 556
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "sit",
+  "Formatted": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 40
     }
   }
 }

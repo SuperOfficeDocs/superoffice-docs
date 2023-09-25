@@ -93,9 +93,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 880,
-  "ListItemId": 896,
-  "ShowDeleted": true
+  "UdListDefinitionId": 706,
+  "ListItemId": 891,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Strosin, Boyer and Kuhlman",
-    "ToolTip": "Quisquam suscipit quo rerum aut qui.",
+    "Id": 267,
+    "Name": "McKenzie-Rutherford",
+    "ToolTip": "Porro non.",
     "Deleted": true,
-    "Rank": 440,
-    "Type": "voluptas",
-    "ColorBlock": 416,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2012-10-11T03:31:26.6675558+02:00",
+    "Rank": 738,
+    "Type": "vel",
+    "ColorBlock": 511,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2011-01-11T03:24:47.8770078+01:00",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Runolfsdottir Group",
-        "ToolTip": "Dolores error optio quis.",
+        "Id": 683,
+        "Name": "Reilly, Hessel and Terry",
+        "ToolTip": "Ea labore aut esse et libero esse.",
         "Deleted": false,
-        "Rank": 642,
-        "Type": "magni",
-        "ColorBlock": 520,
-        "IconHint": "quos",
-        "Selected": false,
-        "LastChanged": "2000-03-05T03:31:26.6675558+01:00",
+        "Rank": 509,
+        "Type": "facilis",
+        "ColorBlock": 593,
+        "IconHint": "veniam",
+        "Selected": true,
+        "LastChanged": "2005-06-06T03:24:47.8770078+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Abdullah McCullough",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "voluptatum",
+        "Hidden": false,
+        "FullName": "Gerda Smitham DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "ea",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Audreanne Durgan",
+    "FullName": "Mrs. Tyson Charley Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldType": "System.String",
+        "FieldLength": 910
       }
     }
   }

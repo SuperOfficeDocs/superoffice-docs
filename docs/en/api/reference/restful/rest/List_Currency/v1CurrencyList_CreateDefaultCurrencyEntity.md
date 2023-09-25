@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 98,
-  "Name": "Towne, Harris and Reichel",
-  "Tooltip": "dicta",
-  "Rank": 515,
-  "Rate": 6380.824,
-  "Units": 21333.138,
-  "Deleted": true,
+  "CurrencyId": 148,
+  "Name": "Greenfelder, Ankunding and Kautzer",
+  "Tooltip": "qui",
+  "Rank": 400,
+  "Rate": 8286.296,
+  "Units": 11968.746,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

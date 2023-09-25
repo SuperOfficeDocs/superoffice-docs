@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Cormier, Kertzmann and Treutel"
+  "EntityName": "Little Inc and Sons"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 731,
-  "Name": "Koelpin LLC",
-  "Description": "Intuitive 4th generation parallelism",
-  "DefaultHeight": 617,
-  "DefaultWidth": 193,
+  "DashboardTileDefinitionId": 750,
+  "Name": "Romaguera, Wiza and Paucek",
+  "Description": "Future-proofed stable superstructure",
+  "DefaultHeight": 825,
+  "DefaultWidth": 995,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Breitenberg-Champlin",
-  "SelectionId": 428,
+  "EntityName": "Wyman, Carter and Hammes",
+  "SelectionId": 693,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "temporibus",
   "Measure": "Average",
-  "MeasureField": "officia",
-  "SortBy": "incidunt",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 813,
-  "MeasureByField": "quisquam",
+  "MeasureField": "provident",
+  "SortBy": "maxime",
+  "LayoutConfig": "occaecati",
+  "SecondarySelectionId": 570,
+  "MeasureByField": "sequi",
   "Usage": "Dashboard",
-  "ProviderName": "Kohler-Beatty",
+  "ProviderName": "Feil, Kuhic and Larkin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldType": "System.String",
+      "FieldLength": 662
     }
   }
 }

@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
+  "Id": 568,
   "IncludeAttachments": false
 }
 ```
@@ -119,156 +119,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 396,
-      "ContactName": "O'Hara-McLaughlin",
-      "PersonId": 403,
-      "PersonName": "Sipes-Watsica",
-      "AssociateId": 778,
-      "Address": "eos",
-      "EmailId": 538,
+      "ContactId": 271,
+      "ContactName": "Herzog-Conroy",
+      "PersonId": 345,
+      "PersonName": "Jerde LLC",
+      "AssociateId": 508,
+      "Address": "quaerat",
+      "EmailId": 409,
       "DuplicatePersonIds": [
-        135,
-        919
+        380,
+        400
       ],
-      "Name": "Raynor Inc and Sons",
+      "Name": "Cummings, Bins and O'Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 585
+          "FieldLength": 859
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 355,
-      "ContactName": "Schaefer, Hegmann and Bode",
-      "PersonId": 69,
-      "PersonName": "Champlin-Schamberger",
-      "AssociateId": 184,
-      "Address": "voluptates",
-      "EmailId": 982,
+      "ContactId": 485,
+      "ContactName": "Schulist, Robel and Stokes",
+      "PersonId": 91,
+      "PersonName": "Braun-Boyer",
+      "AssociateId": 208,
+      "Address": "neque",
+      "EmailId": 374,
       "DuplicatePersonIds": [
-        153,
-        772
+        206,
+        149
       ],
-      "Name": "Schmitt-Dickens",
+      "Name": "Gerlach-Gulgowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldLength": 445
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 527,
-      "ContactName": "McGlynn, Pagac and Bode",
-      "PersonId": 414,
-      "PersonName": "Beahan Inc and Sons",
-      "AssociateId": 452,
-      "Address": "distinctio",
-      "EmailId": 919,
+      "ContactId": 171,
+      "ContactName": "Howell Inc and Sons",
+      "PersonId": 94,
+      "PersonName": "Mohr LLC",
+      "AssociateId": 911,
+      "Address": "minus",
+      "EmailId": 969,
       "DuplicatePersonIds": [
-        320,
-        113
+        781,
+        446
       ],
-      "Name": "Wilkinson Inc and Sons",
+      "Name": "Kiehn, Weber and Leannon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 844
         }
       }
     }
   ],
-  "Subject": "in",
-  "HTMLBody": "rem",
+  "Subject": "accusantium",
+  "HTMLBody": "nihil",
   "From": null,
-  "Sent": "2014-10-16T03:31:26.5113463+02:00",
-  "Size": 361,
+  "Sent": "2018-06-02T03:24:47.7676476+02:00",
+  "Size": 674,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sint",
-  "PlainBody": "ut",
+  "MessageID": "fugiat",
+  "PlainBody": "accusantium",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 782,
+  "ServerId": 188,
   "Attachments": [
     {
-      "Description": "Customer-focused 6th generation task-force",
-      "Filename": "unde",
-      "Size": 698,
-      "Type": "natus",
-      "Encoding": "quaerat",
-      "Id": "impedit",
-      "Disposition": "excepturi",
-      "IsSafeFileExtension": false,
+      "Description": "Focused bifurcated application",
+      "Filename": "laborum",
+      "Size": 501,
+      "Type": "eum",
+      "Encoding": "laboriosam",
+      "Id": "placeat",
+      "Disposition": "delectus",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldType": "System.Int32",
+          "FieldLength": 512
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gutkowski Group",
+      "Name": "Murphy Group",
       "Values": [
-        "non",
-        "pariatur"
+        "eos",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 392
         }
       }
     },
     {
-      "Name": "Gutkowski Group",
+      "Name": "Murphy Group",
       "Values": [
-        "non",
-        "pariatur"
+        "eos",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 392
         }
       }
     }
   ],
-  "FolderName": "Schaden Inc and Sons",
-  "EmailItemId": 319,
-  "AccountId": 314,
-  "ReceivedAt": "2018-12-23T03:31:26.5113463+01:00",
+  "FolderName": "Larkin Group",
+  "EmailItemId": 538,
+  "AccountId": 87,
+  "ReceivedAt": "2008-12-09T03:24:47.7676476+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-11-30T03:31:26.5113463+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2021-09-24T03:24:47.7676476+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

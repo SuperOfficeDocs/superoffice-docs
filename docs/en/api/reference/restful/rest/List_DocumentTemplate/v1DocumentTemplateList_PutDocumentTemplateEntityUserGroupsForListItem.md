@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Oberbrunner, Labadie and Stark",
-    "ToolTip": "Suscipit sit tempora.",
+    "Id": 391,
+    "Name": "Pouros LLC",
+    "ToolTip": "Aspernatur quidem ipsum non.",
     "Deleted": false,
-    "Rank": 1002,
-    "Type": "nostrum",
-    "ColorBlock": 606,
-    "IconHint": "earum",
+    "Rank": 195,
+    "Type": "placeat",
+    "ColorBlock": 308,
+    "IconHint": "voluptatibus",
     "Selected": false,
-    "LastChanged": "2003-04-29T03:31:33.6323343+02:00",
+    "LastChanged": "2020-05-20T03:24:52.2557133+02:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Klein-Johnston",
-        "ToolTip": "Deserunt vero reprehenderit amet possimus.",
+        "Id": 278,
+        "Name": "Deckow, Parisian and Bednar",
+        "ToolTip": "Odit et vel porro et.",
         "Deleted": false,
-        "Rank": 150,
-        "Type": "a",
-        "ColorBlock": 564,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2005-12-11T03:31:33.6323343+01:00",
+        "Rank": 406,
+        "Type": "quaerat",
+        "ColorBlock": 361,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2018-05-10T03:24:52.2557133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "unde",
+        "ExtraInfo": "quod",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Davon Schinner"
+        "FullName": "Joyce Lubowitz"
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "soluta",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Rossie Hamill"
+    "FullName": "Rickey Corwin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Name": "Stiedemann, Dickens and Vandervort",
-    "ToolTip": "Magni et aut ducimus beatae architecto libero voluptas.",
-    "Deleted": true,
-    "Rank": 375,
-    "Type": "soluta",
-    "ColorBlock": 26,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2020-06-21T03:31:33.6323343+02:00",
+    "Id": 251,
+    "Name": "Goodwin-Wisozk",
+    "ToolTip": "Libero molestiae.",
+    "Deleted": false,
+    "Rank": 703,
+    "Type": "maxime",
+    "ColorBlock": 42,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2010-07-11T03:24:52.2557133+02:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Bernhard Inc and Sons",
-        "ToolTip": "Repellat qui suscipit corrupti velit.",
-        "Deleted": false,
-        "Rank": 121,
-        "Type": "ducimus",
-        "ColorBlock": 781,
-        "IconHint": "reprehenderit",
+        "Id": 469,
+        "Name": "Cole Inc and Sons",
+        "ToolTip": "Iure quasi iusto qui unde repellendus earum ab.",
+        "Deleted": true,
+        "Rank": 825,
+        "Type": "dolorem",
+        "ColorBlock": 449,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2003-12-09T03:31:33.6323343+01:00",
+        "LastChanged": "2018-11-16T03:24:52.2557133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "iste",
+        "ExtraInfo": "facere",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Miss Beverly Lillie Graham III",
+        "FullName": "Beverly Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 863
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Darryl Crona",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Bridgette Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 455
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

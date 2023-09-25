@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 113,
+  "SelectionId": 850,
   "Criteria": [
     {
-      "Name": "Zieme-Nitzsche",
-      "Description": "Operative analyzing framework",
-      "Rank": 153,
+      "Name": "Ziemann LLC",
+      "Description": "Intuitive zero administration complexity",
+      "Rank": 446,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Zieme-Nitzsche",
-      "Description": "Operative analyzing framework",
-      "Rank": 153,
+      "Name": "Ziemann LLC",
+      "Description": "Intuitive zero administration complexity",
+      "Rank": 446,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blanda LLC",
-    "Description": "De-engineered dynamic data-warehouse",
-    "Rank": 859,
+    "Name": "Wolff Inc and Sons",
+    "Description": "Ergonomic intermediate encoding",
+    "Rank": 180,
     "Restrictions": [
       {
-        "Name": "Hessel Group",
-        "Operator": "perferendis",
+        "Name": "Okuneva Group",
+        "Operator": "est",
         "Values": [
-          "quidem",
-          "sit"
+          "praesentium",
+          "consequuntur"
         ],
         "DisplayValues": [
-          "sed",
-          "quo"
+          "aut",
+          "ea"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 77,
+        "InterParenthesis": 421,
         "InterOperator": "And",
-        "UniqueHash": 873
+        "UniqueHash": 307
       }
     ]
   },
   {
-    "Name": "Blanda LLC",
-    "Description": "De-engineered dynamic data-warehouse",
-    "Rank": 859,
+    "Name": "Wolff Inc and Sons",
+    "Description": "Ergonomic intermediate encoding",
+    "Rank": 180,
     "Restrictions": [
       {
-        "Name": "Hessel Group",
-        "Operator": "perferendis",
+        "Name": "Okuneva Group",
+        "Operator": "est",
         "Values": [
-          "quidem",
-          "sit"
+          "praesentium",
+          "consequuntur"
         ],
         "DisplayValues": [
-          "sed",
-          "quo"
+          "aut",
+          "ea"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 77,
+        "InterParenthesis": 421,
         "InterOperator": "And",
-        "UniqueHash": 873
+        "UniqueHash": 307
       }
     ]
   }

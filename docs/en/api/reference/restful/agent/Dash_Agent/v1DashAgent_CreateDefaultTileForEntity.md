@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Bogisich LLC"
+  "EntityName": "Schinner, Nitzsche and Klocko"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 778,
-  "DashboardId": 401,
-  "Height": 461,
-  "Width": 696,
-  "Rank": 288,
+  "DashboardTileId": 650,
+  "DashboardId": 571,
+  "Height": 28,
+  "Width": 150,
+  "Rank": 909,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 853
     }
   }
 }

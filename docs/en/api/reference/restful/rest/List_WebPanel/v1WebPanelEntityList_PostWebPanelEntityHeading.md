@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 800,
-  "Name": "Ebert LLC",
-  "Tooltip": "quos",
+  "HeadingId": 222,
+  "Name": "Rempel-Schowalter",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 63,
-  "UdListDefinitionId": 961
+  "Rank": 980,
+  "UdListDefinitionId": 964
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 941,
-  "Name": "Williamson LLC",
-  "Tooltip": "voluptatum",
+  "HeadingId": 591,
+  "Name": "Schmitt, Kulas and Beahan",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 9,
-  "UdListDefinitionId": 418,
+  "Rank": 304,
+  "UdListDefinitionId": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 122
     }
   }
 }

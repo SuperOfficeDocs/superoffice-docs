@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Friesen-Lockman",
-      "Operator": "magni",
+      "Name": "Friesen-Strosin",
+      "Operator": "reprehenderit",
       "Values": [
-        "perferendis",
-        "perferendis"
+        "repudiandae",
+        "facilis"
       ],
       "DisplayValues": [
-        "omnis",
-        "expedita"
+        "nisi",
+        "id"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 648,
+      "InterParenthesis": 511,
       "InterOperator": "And",
-      "UniqueHash": 672
+      "UniqueHash": 327
     }
   ],
-  "ProviderName": "Jewess, Conn and Reynolds",
-  "PageSize": 696,
-  "PageNumber": 740
+  "ProviderName": "Keeling-Torp",
+  "PageSize": 253,
+  "PageNumber": 319
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schroeder, Flatley and Walter",
-      "DisplayTooltip": "dolore",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Lehner LLC",
+      "DisplayName": "Hackett-O'Hara",
+      "DisplayTooltip": "earum",
+      "DisplayType": "accusamus",
+      "CanOrderBy": false,
+      "Name": "McGlynn-Reynolds",
       "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Goodwin Group",
+      "RestrictionType": "autem",
+      "RestrictionListName": "Haley-Toy",
       "IsVisible": true,
-      "ExtraInfo": "magni",
-      "Width": "maxime",
-      "IconHint": "sed",
-      "HeadingIconHint": "maiores"
+      "ExtraInfo": "praesentium",
+      "Width": "delectus",
+      "IconHint": "rem",
+      "HeadingIconHint": "numquam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hirthe, Dietrich and Greenfelder",
-      "PrimaryKey": 924,
+      "EntityName": "Klocko, Grady and Spinka",
+      "PrimaryKey": 656,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "facilis",
-          "TooltipHint": "ipsa",
-          "LinkHint": "enim"
+          "DisplayValue": "aut",
+          "TooltipHint": "facere",
+          "LinkHint": "quibusdam"
         }
       },
-      "LinkHint": "quam",
-      "StyleHint": "dolor",
+      "LinkHint": "architecto",
+      "StyleHint": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 229
+          "FieldType": "System.Int32",
+          "FieldLength": 489
         }
       }
     }
   ],
-  "RowCount": 432,
+  "RowCount": 823,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldLength": 997
     }
   }
 }

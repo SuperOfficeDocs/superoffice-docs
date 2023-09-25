@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Schmeler-Rice",
-  "DeviceName": "Schiller-Braun",
-  "DeviceIdentifier": "quia"
+  "ApplicationName": "Friesen, Vandervort and Orn",
+  "DeviceName": "Stark Inc and Sons",
+  "DeviceIdentifier": "voluptatem"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quam",
-  "Value": "quia",
-  "RecordId": 502,
-  "CreatedDate": "2017-06-15T03:31:26.589451+02:00",
-  "UpdatedDate": "2016-09-02T03:31:26.589451+02:00",
-  "UpdatedBy": "facilis",
-  "CreatedBy": "quam",
-  "TableName": "Hessel, Hickle and Kulas",
+  "Key": "voluptas",
+  "Value": "atque",
+  "RecordId": 812,
+  "CreatedDate": "1999-12-19T03:24:47.8145137+01:00",
+  "UpdatedDate": "2011-08-21T03:24:47.8145137+02:00",
+  "UpdatedBy": "veritatis",
+  "CreatedBy": "sed",
+  "TableName": "Schumm-McGlynn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldType": "System.Int32",
+      "FieldLength": 352
     }
   }
 }

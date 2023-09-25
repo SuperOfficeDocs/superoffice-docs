@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=qui
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=nihil
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Baumbach, Kreiger and Kreiger",
-    "ToolTip": "Quia voluptatem architecto et quia necessitatibus aliquid vero.",
-    "Deleted": false,
-    "Rank": 726,
-    "Type": "sint",
+    "Id": 863,
+    "Name": "Larson LLC",
+    "ToolTip": "Voluptate repellat illo.",
+    "Deleted": true,
+    "Rank": 665,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "Jacobs LLC",
-        "ToolTip": "Quas omnis.",
+        "Id": 320,
+        "Name": "Osinski-Conroy",
+        "ToolTip": "Voluptas ipsa nisi voluptatem aspernatur aut autem eum.",
         "Deleted": false,
-        "Rank": 843,
-        "Type": "sunt",
+        "Rank": 49,
+        "Type": "doloribus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 413,
+        "IconHint": "veritatis",
+        "ColorBlock": 849,
         "ExtraInfo": "commodi",
-        "StyleHint": "assumenda",
-        "FullName": "Ms. Rashad O'Conner",
+        "StyleHint": "accusantium",
+        "FullName": "Richard Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 392
+            "FieldLength": 469
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 467,
-    "ExtraInfo": "quia",
-    "StyleHint": "ab",
-    "FullName": "Miss Stuart Wilfredo Sporer MD",
+    "IconHint": "occaecati",
+    "ColorBlock": 506,
+    "ExtraInfo": "sit",
+    "StyleHint": "iusto",
+    "FullName": "Elissa Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 446
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

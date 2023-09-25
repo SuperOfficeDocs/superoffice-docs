@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Harber, Bednar and Larson",
-    "ToolTip": "Eos a et.",
+    "Id": 583,
+    "Name": "Ferry LLC",
+    "ToolTip": "Quam inventore velit.",
     "Deleted": true,
-    "Rank": 753,
-    "Type": "et",
-    "ColorBlock": 277,
-    "IconHint": "culpa",
+    "Rank": 822,
+    "Type": "repellendus",
+    "ColorBlock": 433,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2013-06-20T03:31:32.8163583+02:00",
+    "LastChanged": "2017-08-07T03:24:51.7557701+02:00",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Cummerata Inc and Sons",
-        "ToolTip": "Aliquid ut aspernatur qui rerum.",
+        "Id": 391,
+        "Name": "Gislason, Jaskolski and Schroeder",
+        "ToolTip": "Minima sed.",
         "Deleted": false,
-        "Rank": 44,
-        "Type": "sit",
-        "ColorBlock": 259,
-        "IconHint": "saepe",
-        "Selected": false,
-        "LastChanged": "2016-05-03T03:31:32.8163583+02:00",
+        "Rank": 248,
+        "Type": "dolor",
+        "ColorBlock": 942,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2002-08-24T03:24:51.7557701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Haley Lelia Bosco II",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "architecto",
+        "Hidden": false,
+        "FullName": "Prof. Jena Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldLength": 373
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Miss Maude Robel DDS",
+    "ExtraInfo": "ut",
+    "StyleHint": "nobis",
+    "Hidden": true,
+    "FullName": "Robbie McGlynn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldLength": 509
       }
     }
   }

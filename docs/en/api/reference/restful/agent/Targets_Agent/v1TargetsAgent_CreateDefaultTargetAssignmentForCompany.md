@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 89,
+  "TargetAssignmentInfoId": 83,
   "Values": [
-    259,
-    797
+    3,
+    902
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 283,
-  "DimensionListItemDisplayName": "Ullrich, Moen and Green",
+  "DimensionListItem": 243,
+  "DimensionListItemDisplayName": "Metz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldLength": 512
     }
   }
 }

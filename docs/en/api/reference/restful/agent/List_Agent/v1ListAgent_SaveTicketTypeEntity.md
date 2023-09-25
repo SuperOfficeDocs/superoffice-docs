@@ -49,7 +49,8 @@ The TicketTypeEntity to be saved.
 | DefaultTicketPriority | Integer | Default ticket priority for new tickets |
 | TicketPriorities | Array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | Integer | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | Boolean | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | Boolean | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | Boolean | Is this Ticket Type marked as default |
 
 ## Response:
 
@@ -73,7 +74,8 @@ OK
 | DefaultTicketPriority | int32 | Default ticket priority for new tickets |
 | TicketPriorities | array | Relevant/available ticket priorities for this Request type. Empty field means all priorities are available. |
 | ReplyTemplate | int32 | Reply template to use when replying to a ticket of this type |
-| IsExternalVisible | bool | Is this requesty type visible to external people and they can submit requests of this type |
+| IsExternalVisible | bool | Is this request type visible to external people and they can submit requests of this type |
+| IsDefault | bool | Is this Ticket Type marked as default |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -83,27 +85,28 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 967,
-  "Name": "Von-Runolfsson",
-  "Rank": 215,
-  "Tooltip": "dignissimos",
-  "Icon": "reiciendis",
-  "DefaultTicketStatus": 676,
+  "TicketTypeId": 55,
+  "Name": "Romaguera-Gutkowski",
+  "Rank": 796,
+  "Tooltip": "consequatur",
+  "Icon": "aperiam",
+  "DefaultTicketStatus": 864,
   "TicketStatuses": [
-    672,
-    317
+    373,
+    126
   ],
-  "DefaultTicketPriority": 206,
+  "DefaultTicketPriority": 393,
   "TicketPriorities": [
-    377,
-    299
+    851,
+    554
   ],
-  "ReplyTemplate": 345,
-  "IsExternalVisible": false
+  "ReplyTemplate": 568,
+  "IsExternalVisible": false,
+  "IsDefault": false
 }
 ```
 
@@ -114,29 +117,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 296,
-  "Name": "Block, Pfannerstill and Sporer",
-  "Rank": 315,
-  "Tooltip": "illo",
-  "Icon": "impedit",
-  "DefaultTicketStatus": 101,
+  "TicketTypeId": 246,
+  "Name": "Wuckert, Borer and Howell",
+  "Rank": 64,
+  "Tooltip": "iure",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 234,
   "TicketStatuses": [
-    526,
-    662
+    301,
+    563
   ],
-  "DefaultTicketPriority": 419,
+  "DefaultTicketPriority": 812,
   "TicketPriorities": [
-    836,
-    764
+    412,
+    11
   ],
-  "ReplyTemplate": 797,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 758,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldLength": 61
     }
   }
 }

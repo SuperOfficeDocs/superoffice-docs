@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Von Group",
-    "ToolTip": "Deserunt ipsam iusto.",
+    "Id": 908,
+    "Name": "Schumm, Sauer and Quitzon",
+    "ToolTip": "Reiciendis et natus in.",
     "Deleted": false,
-    "Rank": 180,
-    "Type": "similique",
-    "ColorBlock": 693,
-    "IconHint": "amet",
-    "Selected": false,
-    "LastChanged": "2015-06-20T03:31:33.5073635+02:00",
+    "Rank": 456,
+    "Type": "laboriosam",
+    "ColorBlock": 132,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2002-06-11T03:24:52.1775959+02:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Moen, Johns and Pacocha",
-        "ToolTip": "Illo maiores consequuntur odit magni est molestiae quis.",
+        "Id": 803,
+        "Name": "Strosin, Mante and Rath",
+        "ToolTip": "Ut soluta.",
         "Deleted": false,
-        "Rank": 291,
-        "Type": "pariatur",
-        "ColorBlock": 737,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2018-01-30T03:31:33.5073635+01:00",
+        "Rank": 799,
+        "Type": "qui",
+        "ColorBlock": 508,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2016-11-13T03:24:52.1932187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "hic",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Mrs. Willow Oberbrunner II",
+        "FullName": "Guy Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 158
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Miss Annie Sipes DVM",
+    "ExtraInfo": "non",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Dustin Satterfield III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldLength": 74
       }
     }
   }

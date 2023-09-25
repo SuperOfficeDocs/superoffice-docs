@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "McDermott LLC",
-    "Tooltip": "nemo",
+    "Id": 882,
+    "Name": "Runte, Turner and Mills",
+    "Tooltip": "beatae",
     "Deleted": false,
-    "UdListDefinitionId": 371,
-    "Rank": 883
+    "UdListDefinitionId": 659,
+    "Rank": 597
   },
   {
-    "Id": 579,
-    "Name": "McDermott LLC",
-    "Tooltip": "nemo",
+    "Id": 882,
+    "Name": "Runte, Turner and Mills",
+    "Tooltip": "beatae",
     "Deleted": false,
-    "UdListDefinitionId": 371,
-    "Rank": 883
+    "UdListDefinitionId": 659,
+    "Rank": 597
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Schmeler Group",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "UdListDefinitionId": 500,
-    "Rank": 18,
+    "Id": 375,
+    "Name": "Wisozk, Homenick and Rosenbaum",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "UdListDefinitionId": 569,
+    "Rank": 148,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

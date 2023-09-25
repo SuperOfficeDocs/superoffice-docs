@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "neque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "neque",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 44,
-  "PlainMessage": "dolores",
-  "HtmlMessage": "voluptas",
-  "SmsMessage": "enim",
-  "Description": "Object-based 5th generation application",
-  "Subject": "accusamus",
-  "FolderId": 915,
-  "HeaderField": "est",
-  "Design": "est",
+  "ShipmentMessageId": 394,
+  "PlainMessage": "non",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "libero",
+  "Description": "Progressive foreground groupware",
+  "Subject": "aliquid",
+  "FolderId": 951,
+  "HeaderField": "quis",
+  "Design": "nobis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Distributed next generation database",
-  "AccessKey": "fugiat",
-  "DocumentMessage": 519,
-  "Registered": "2001-10-09T03:31:32.9594383+02:00",
-  "RegisteredAssociateId": 926,
-  "Updated": "2006-12-14T03:31:32.9594383+01:00",
-  "UpdatedAssociateId": 509,
-  "UpdatedCount": 756,
+  "InlineImages": false,
+  "LongDescription": "Reduced foreground forecast",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 218,
+  "Registered": "2020-11-01T03:24:51.927622+01:00",
+  "RegisteredAssociateId": 84,
+  "Updated": "2008-11-10T03:24:51.927622+01:00",
+  "UpdatedAssociateId": 976,
+  "UpdatedCount": 270,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 305
     }
   },
   "_Links": {

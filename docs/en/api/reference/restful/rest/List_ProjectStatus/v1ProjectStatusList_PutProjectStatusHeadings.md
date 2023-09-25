@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 54,
-    "Name": "O'Hara, Powlowski and Champlin",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 881,
-    "UdListDefinitionId": 340
+    "HeadingId": 572,
+    "Name": "O'Kon, Cruickshank and Fay",
+    "Tooltip": "earum",
+    "Deleted": true,
+    "Rank": 904,
+    "UdListDefinitionId": 781
   },
   {
-    "HeadingId": 54,
-    "Name": "O'Hara, Powlowski and Champlin",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 881,
-    "UdListDefinitionId": 340
+    "HeadingId": 572,
+    "Name": "O'Kon, Cruickshank and Fay",
+    "Tooltip": "earum",
+    "Deleted": true,
+    "Rank": 904,
+    "UdListDefinitionId": 781
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 415,
-    "Name": "Franecki Inc and Sons",
-    "Tooltip": "velit",
+    "HeadingId": 491,
+    "Name": "O'Conner, Douglas and Jones",
+    "Tooltip": "delectus",
     "Deleted": true,
-    "Rank": 150,
-    "UdListDefinitionId": 899,
+    "Rank": 766,
+    "UdListDefinitionId": 525,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 706
+        "FieldLength": 854
       }
     }
   }

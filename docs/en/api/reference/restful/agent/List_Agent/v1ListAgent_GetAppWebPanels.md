@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 930,
-    "Name": "Deckow-Leannon",
-    "Tooltip": "ipsum",
-    "Deleted": true,
-    "Rank": 629,
+    "WebPanelId": 187,
+    "Name": "Marquardt LLC",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 993,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": false,
+    "OnSatellite": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Cummerata LLC",
+    "ShowInStatusBar": false,
+    "WindowName": "Pagac, Kutch and Lynch",
     "Url": "http://www.example.com/",
-    "ProgId": "non",
-    "Icon": 719,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "quasi",
+    "Icon": 361,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 270
       }
     }
   }

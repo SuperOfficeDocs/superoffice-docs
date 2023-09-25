@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Thiel, Gleason and Kerluke"
+  "TableName": "Will-Bechtelar"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "qui",
-  "Inserts": 232,
-  "Updates": 99,
-  "Deletes": 458,
+  "Message": "modi",
+  "Inserts": 51,
+  "Updates": 813,
+  "Deletes": 277,
   "RowStatus": [
     {
-      "PrimaryKey": 281,
+      "PrimaryKey": 303,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aut",
-        "expedita"
+        "non",
+        "perferendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldType": "System.Int32",
+          "FieldLength": 668
         }
       }
     },
     {
-      "PrimaryKey": 281,
+      "PrimaryKey": 303,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aut",
-        "expedita"
+        "non",
+        "perferendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldType": "System.Int32",
+          "FieldLength": 668
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 146
+      "FieldType": "System.Int32",
+      "FieldLength": 713
     }
   }
 }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Schaden LLC"
+  "HistoryName": "Waelchi, Lowe and Herzog"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 290,
-  "Id": 803,
-  "HistoryName": "Blick-Cartwright",
-  "HistoryId": 98,
-  "AssociateId": 239,
-  "Name": "Torp, Barrows and Hagenes",
+  "Rank": 284,
+  "Id": 884,
+  "HistoryName": "Bergnaum LLC",
+  "HistoryId": 928,
+  "AssociateId": 416,
+  "Name": "Marquardt-D'Amore",
   "ItemInfo": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldType": "System.String",
+      "FieldLength": 48
     }
   }
 }

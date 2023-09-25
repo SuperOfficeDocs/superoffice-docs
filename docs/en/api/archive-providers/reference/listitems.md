@@ -15,11 +15,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Archive provider for the list of ListItems
 
 Blah...
-
+<para />
 blah....
-
+<para />
 ...
-
+<para />
 ........
 
 ## Supported Entities
@@ -47,7 +47,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/ListItems?$select=listItemsName,listItemsTooltip
+GET /api/v1/archive/ListItems?$select=listItemsId,listItemsName,listItemsTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

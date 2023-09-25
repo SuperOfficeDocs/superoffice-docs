@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=ipsum
+GET /api/v1/List/SelectionCategory/MDOItems?query=sint
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Wiza-Daugherty",
-    "ToolTip": "Consequatur deserunt maiores.",
+    "Id": 366,
+    "Name": "Marks Inc and Sons",
+    "ToolTip": "Assumenda architecto doloremque.",
     "Deleted": false,
-    "Rank": 958,
-    "Type": "qui",
+    "Rank": 578,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Hauck Inc and Sons",
-        "ToolTip": "Atque aut maxime id odio.",
-        "Deleted": true,
-        "Rank": 884,
-        "Type": "repellat",
+        "Id": 113,
+        "Name": "Anderson-Durgan",
+        "ToolTip": "Eos impedit occaecati autem.",
+        "Deleted": false,
+        "Rank": 472,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 506,
-        "ExtraInfo": "quas",
-        "StyleHint": "autem",
-        "FullName": "Miss Harvey Elza Cronin",
+        "IconHint": "est",
+        "ColorBlock": 35,
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "molestiae",
+        "FullName": "Mr. Chester Sonny Lebsack I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 960
+            "FieldLength": 75
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 503,
-    "ExtraInfo": "tenetur",
-    "StyleHint": "aut",
-    "FullName": "Prof. Sarah Carolina Nikolaus Jr.",
+    "IconHint": "repellendus",
+    "ColorBlock": 620,
+    "ExtraInfo": "et",
+    "StyleHint": "voluptates",
+    "FullName": "Mrs. Benjamin Missouri Smitham V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 918
       }
     }
   }

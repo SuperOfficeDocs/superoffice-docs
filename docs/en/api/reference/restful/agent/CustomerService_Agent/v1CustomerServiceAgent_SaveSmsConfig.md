@@ -69,16 +69,16 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "consequatur",
-  "NsPluginSender": "quia",
+  "NetServerSmsProvider": "voluptatem",
+  "NsPluginSender": "eveniet",
   "NsPluginConfig": {
-    "NsPluginConfig1": "eum",
-    "NsPluginConfig2": "hic"
+    "NsPluginConfig1": "et",
+    "NsPluginConfig2": "consectetur"
   }
 }
 ```
@@ -91,18 +91,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "fuga",
-  "NsPluginSender": "quis",
+  "NetServerSmsProvider": "sed",
+  "NsPluginSender": "aut",
   "NsPluginConfig": {
-    "NsPluginConfig1": "rerum",
-    "NsPluginConfig2": "dolorem"
+    "NsPluginConfig1": "eveniet",
+    "NsPluginConfig2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   }
 }

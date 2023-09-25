@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 745,
-  "Name": "Hermiston LLC",
-  "Tooltip": "distinctio",
-  "Rank": 232,
+  "SaleTypeId": 702,
+  "Name": "Mertz, Ratke and Torp",
+  "Tooltip": "nam",
+  "Rank": 305,
   "DurationUnit": "Century",
-  "SaleDuration": 650,
-  "SaleTypeCatId": 753,
+  "SaleDuration": 202,
+  "SaleTypeCatId": 730,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 233,
-  "QuoteLinesTemplate": 603,
-  "ConfirmationLinesTemplate": 178,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 3,
+  "QuoteLinesTemplate": 849,
+  "ConfirmationLinesTemplate": 515,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 616,
-  "MinEarningPercent": 915,
-  "GroupQuoteLinesBy": 645,
-  "SortGroupLinesBy": 523,
+  "MaxDiscountPercent": 890,
+  "MinEarningPercent": 768,
+  "GroupQuoteLinesBy": 350,
+  "SortGroupLinesBy": 791,
   "Stages": [
     {
-      "Id": 120,
-      "Name": "Langosh, Hegmann and Rosenbaum",
-      "ToolTip": "Architecto mollitia est.",
+      "Id": 93,
+      "Name": "Mann-Miller",
+      "ToolTip": "Dolorum est et.",
       "Deleted": false,
-      "Rank": 943,
-      "Type": "id",
-      "ColorBlock": 427,
-      "IconHint": "cumque",
+      "Rank": 716,
+      "Type": "sint",
+      "ColorBlock": 118,
+      "IconHint": "pariatur",
       "Selected": false,
-      "LastChanged": "2007-01-26T03:31:33.8679659+01:00",
+      "LastChanged": "2006-10-27T03:24:52.4119449+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "commodi",
-      "StyleHint": "dolorum",
-      "Hidden": false,
-      "FullName": "Emmanuel Smitham",
+      "ExtraInfo": "explicabo",
+      "StyleHint": "repellat",
+      "Hidden": true,
+      "FullName": "Erick Tillman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldLength": 55
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldLength": 235
     }
   }
 }

@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 842
+  "ContactId": 274
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Morissette LLC",
-    "SaleDate": "2001-03-20T03:31:27.1999504+01:00",
-    "SaleId": 810,
-    "Probability": 302,
-    "Title": "soluta",
-    "Amount": 5876.25,
-    "Currency": "inventore",
-    "ProjectName": "Rice Inc and Sons",
-    "AssociateFullName": "Preston Jaclyn Mayert IV",
-    "Description": "Intuitive next generation definition",
+    "ContactName": "Moore Group",
+    "SaleDate": "2014-09-19T03:24:48.2207231+02:00",
+    "SaleId": 763,
+    "Probability": 651,
+    "Title": "accusamus",
+    "Amount": 18481.198,
+    "Currency": "provident",
+    "ProjectName": "Kertzmann-Pfeffer",
+    "AssociateFullName": "Miss Tate Paige O'Reilly",
+    "Description": "Realigned fresh-thinking methodology",
     "Status": "Lost",
-    "WeightedAmount": 20045.064,
-    "ProjectId": 464,
-    "EarningPercent": 19603.17,
-    "Earning": 11016.01,
-    "ContactId": 672,
-    "AssociateId": 378,
-    "PersonId": 434,
-    "SaleTypeId": 73,
-    "SaleTypeName": "Effertz-Walsh",
-    "PersonFullName": "Conrad Wiegand",
+    "WeightedAmount": 11357.616,
+    "ProjectId": 380,
+    "EarningPercent": 24435.798,
+    "Earning": 30133.41,
+    "ContactId": 430,
+    "AssociateId": 893,
+    "PersonId": 468,
+    "SaleTypeId": 668,
+    "SaleTypeName": "Kunze-Borer",
+    "PersonFullName": "Ms. Christ Elbert Rempel",
     "Completed": "Completed",
-    "ActiveErpLinks": 495,
-    "NextDueDate": "2014-10-21T03:31:27.1999504+02:00",
-    "Number": "1215645",
+    "ActiveErpLinks": 879,
+    "NextDueDate": "2023-09-02T03:24:48.2207231+02:00",
+    "Number": "1070075",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 654
       }
     }
   }

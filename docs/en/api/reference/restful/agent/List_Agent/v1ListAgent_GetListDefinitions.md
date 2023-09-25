@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Beer, Leffler and Treutel",
-    "Tooltip": "est",
+    "Id": 431,
+    "Name": "Gottlieb Group",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 562,
+    "Rank": 994,
     "IsCustomList": false,
-    "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "sapiente",
-    "InUseByUserDefinedFields": true,
+    "IsMDOList": true,
+    "UseGroupsAndHeadings": false,
+    "ListType": "blanditiis",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 520
       }
     }
   }

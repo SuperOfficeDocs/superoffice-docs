@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable assymetric groupware",
-  "Postit": "eum",
+  "Description": "Assimilated dedicated monitoring",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 179,
-  "IncludePerson": 660,
-  "MemberCount": 437,
-  "Name": "Zulauf-Johnson",
-  "PostitTextId": 261,
-  "CreatedDate": "2019-02-24T03:31:32.9257016+01:00",
-  "SelectionId": 408,
-  "SoundEx": "fugit",
-  "Source": 854,
-  "TextId": 993,
-  "UpdatedDate": "2009-08-18T03:31:32.9257016+02:00",
-  "UpdatedCount": 415,
-  "Visibility": 379,
+  "GroupIdx": 93,
+  "IncludePerson": 463,
+  "MemberCount": 743,
+  "Name": "Hansen, Labadie and Kuhn",
+  "PostitTextId": 205,
+  "CreatedDate": "2021-03-09T03:24:51.9119624+01:00",
+  "SelectionId": 44,
+  "SoundEx": "quidem",
+  "Source": 134,
+  "TextId": 113,
+  "UpdatedDate": "2013-05-06T03:24:51.9119624+02:00",
+  "UpdatedCount": 90,
+  "Visibility": 173,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 468,
-  "TargetTableName": "Sawayn-Romaguera",
-  "Completed": false,
-  "LeftSelectionId": 808,
-  "RightSelectionId": 513,
+  "TargetTableNumber": 152,
+  "TargetTableName": "Douglas Group",
+  "Completed": true,
+  "LeftSelectionId": 2,
+  "RightSelectionId": 500,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kilback-Legros",
-  "ShadowProviderName": "Kertzmann LLC",
-  "ChartKey": "et",
-  "LastLoaded": "2018-07-10T03:31:32.9257016+02:00",
-  "LastLoadedBy": 180,
+  "MainProviderName": "Hermiston-Sawayn",
+  "ShadowProviderName": "Klocko, Lakin and Zemlak",
+  "ChartKey": "incidunt",
+  "LastLoaded": "1997-11-21T03:24:51.9119624+01:00",
+  "LastLoadedBy": 109,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-01-01T03:31:32.9257016+01:00",
-  "LastMembershipChangeBy": 280,
+  "LastMembershipChange": "2021-08-13T03:24:51.9119624+02:00",
+  "LastMembershipChangeBy": 993,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quos",
-  "MemberTabHeading": "quod",
-  "MailingsProviderName": "Braun, Wisozk and Rau",
-  "DashboardTileDefinitionId": 785,
+  "MainHeading": "vel",
+  "MemberTabHeading": "debitis",
+  "MailingsProviderName": "Schinner Inc and Sons",
+  "DashboardTileDefinitionId": 324,
   "VisibleFor": [
     {
-      "VisibleId": 351,
+      "VisibleId": 934,
       "Visibility": "All",
-      "DisplayValue": "maxime"
+      "DisplayValue": "occaecati"
     },
     {
-      "VisibleId": 351,
+      "VisibleId": 934,
       "Visibility": "All",
-      "DisplayValue": "maxime"
+      "DisplayValue": "occaecati"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored 24 hour analyzer",
-  "Postit": "dolore",
+  "Description": "Optional needs-based circuit",
+  "Postit": "itaque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 805,
-  "IncludePerson": 434,
-  "MemberCount": 136,
-  "Name": "Schuppe-Keebler",
-  "PostitTextId": 41,
-  "CreatedDate": "2011-07-19T03:31:32.9437607+02:00",
-  "SelectionId": 578,
-  "SoundEx": "incidunt",
-  "Source": 588,
-  "TextId": 788,
-  "UpdatedDate": "2022-03-07T03:31:32.9437607+01:00",
-  "UpdatedCount": 356,
-  "Visibility": 797,
+  "GroupIdx": 330,
+  "IncludePerson": 772,
+  "MemberCount": 939,
+  "Name": "Sanford, Tromp and Smitham",
+  "PostitTextId": 586,
+  "CreatedDate": "2006-02-19T03:24:51.9119624+01:00",
+  "SelectionId": 701,
+  "SoundEx": "qui",
+  "Source": 704,
+  "TextId": 278,
+  "UpdatedDate": "2009-11-12T03:24:51.9119624+01:00",
+  "UpdatedCount": 450,
+  "Visibility": 838,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 308,
-  "TargetTableName": "Beatty-Swaniawski",
+  "CompanyUnique": true,
+  "TargetTableNumber": 390,
+  "TargetTableName": "O'Hara LLC",
   "Completed": false,
-  "LeftSelectionId": 355,
-  "RightSelectionId": 41,
+  "LeftSelectionId": 518,
+  "RightSelectionId": 27,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lueilwitz Group",
-  "ShadowProviderName": "Kub Inc and Sons",
-  "ChartKey": "inventore",
-  "LastLoaded": "2012-11-24T03:31:32.9437607+01:00",
-  "LastLoadedBy": 104,
+  "MainProviderName": "Walker, Kerluke and Gerlach",
+  "ShadowProviderName": "Fisher-Quitzon",
+  "ChartKey": "sit",
+  "LastLoaded": "2007-04-28T03:24:51.9119624+02:00",
+  "LastLoadedBy": 642,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-01-12T03:31:32.9437607+01:00",
-  "LastMembershipChangeBy": 679,
+  "LastMembershipChange": "2021-01-02T03:24:51.9119624+01:00",
+  "LastMembershipChangeBy": 365,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "debitis",
-  "MemberTabHeading": "officia",
-  "MailingsProviderName": "Kiehn-McKenzie",
-  "DashboardTileDefinitionId": 2,
+  "MainHeading": "consectetur",
+  "MemberTabHeading": "sunt",
+  "MailingsProviderName": "Volkman, Hahn and Ferry",
+  "DashboardTileDefinitionId": 96,
   "VisibleFor": [
     {
-      "VisibleId": 192,
+      "VisibleId": 118,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 235
         }
       }
     },
     {
-      "VisibleId": 192,
+      "VisibleId": 118,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 235
         }
       }
     }
@@ -298,13 +298,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 469
+      "FieldType": "System.Int32",
+      "FieldLength": 314
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

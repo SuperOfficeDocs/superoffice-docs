@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285,
-  "Name": "Dietrich-Klocko",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 439,
+  "Id": 297,
+  "Name": "Pouros, Kshlerin and Renner",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 98,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 518
     }
   },
   "_Links": {

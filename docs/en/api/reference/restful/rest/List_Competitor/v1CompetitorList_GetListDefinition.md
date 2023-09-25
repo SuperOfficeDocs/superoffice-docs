@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Heller, Raynor and Howe",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 563,
+  "Id": 270,
+  "Name": "Boehm Inc and Sons",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 424,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldType": "System.String",
+      "FieldLength": 905
     }
   },
   "_Links": {

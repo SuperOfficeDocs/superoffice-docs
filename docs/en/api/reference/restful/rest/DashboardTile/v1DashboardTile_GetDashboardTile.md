@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 14,
-  "Caption": "natus",
-  "Description": "Automated multimedia solution",
-  "ChartName": "Huels LLC",
-  "ChartId": "quia",
+  "DashboardTileId": 797,
+  "Caption": "nihil",
+  "Description": "User-friendly cohesive middleware",
+  "ChartName": "Davis, Corkery and Powlowski",
+  "ChartId": "occaecati",
   "IsDefault": true,
-  "AssociateId": 987,
-  "GroupId": 377,
-  "SelectionId": 608,
-  "Config": "perferendis",
+  "AssociateId": 452,
+  "GroupId": 992,
+  "SelectionId": 50,
+  "Config": "in",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Schumm-Feeney",
-      "Description": "Triple-buffered empowering core",
+      "Name": "Jerde-Reichel",
+      "Description": "Programmable user-facing ability",
       "Type": "Boolean",
-      "ListName": "Leuschke LLC",
+      "ListName": "Mante-Wyman",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ex",
-      "DefaultDataOption": true,
+      "Value": "est",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldLength": 75
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 496,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldType": "System.String",
+          "FieldLength": 755
         }
       }
     },
     {
-      "VisibleId": 496,
+      "VisibleId": 921,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 7
+          "FieldType": "System.String",
+          "FieldLength": 755
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 524
     }
   },
   "_Links": {

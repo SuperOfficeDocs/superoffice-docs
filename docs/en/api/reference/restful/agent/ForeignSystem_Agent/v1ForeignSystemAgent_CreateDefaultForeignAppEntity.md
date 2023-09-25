@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 870,
-  "Name": "Kling, O'Reilly and Miller",
-  "CreatedDate": "2015-04-16T03:31:26.5738289+02:00",
-  "UpdatedDate": "1999-11-27T03:31:26.5738289+01:00",
+  "ForeignAppId": 57,
+  "Name": "Eichmann LLC",
+  "CreatedDate": "2000-04-16T03:24:47.8145137+02:00",
+  "UpdatedDate": "1997-01-02T03:24:47.8145137+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 91,
-      "Name": "Satterfield, Cartwright and Schowalter",
-      "CreatedDate": "1998-02-10T03:31:26.5738289+01:00",
-      "UpdatedDate": "1997-07-16T03:31:26.5738289+02:00",
-      "AssociateFullName": "Joan Toy",
-      "CreatedBy": "in",
-      "UpdatedBy": "voluptate",
-      "DeviceIdentifier": "error",
-      "ForeignAppId": 764,
+      "ForeignDeviceId": 928,
+      "Name": "Torp, Hauck and Wilkinson",
+      "CreatedDate": "2008-03-17T03:24:47.8145137+01:00",
+      "UpdatedDate": "2000-02-23T03:24:47.8145137+01:00",
+      "AssociateFullName": "Furman Hickle",
+      "CreatedBy": "a",
+      "UpdatedBy": "pariatur",
+      "DeviceIdentifier": "incidunt",
+      "ForeignAppId": 941,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 503
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 995
     }
   }
 }

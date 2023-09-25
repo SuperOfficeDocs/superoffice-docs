@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 27,
-  "Name": "Yundt, Lehner and Gerhold",
-  "CurrencyId": 119,
-  "EnglishName": "Larson Inc and Sons",
+  "CountryId": 601,
+  "Name": "Wolff Inc and Sons",
+  "CurrencyId": 247,
+  "EnglishName": "Roob, Hamill and Haley",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-lateral executive application",
-  "OrgNrText": "478093",
-  "InterAreaPrefix": "nam",
-  "DialInPrefix": "excepturi",
-  "ZipPrefix": "natus",
-  "DomainName": "Nader-Olson",
-  "AddressLayoutId": 986,
-  "DomesticAddressLayoutId": 208,
-  "ForeignAddressLayoutId": 153,
-  "Rank": 958,
-  "Tooltip": "et",
+  "ImageDescription": "Multi-layered non-volatile migration",
+  "OrgNrText": "378107",
+  "InterAreaPrefix": "maiores",
+  "DialInPrefix": "recusandae",
+  "ZipPrefix": "quis",
+  "DomainName": "Williamson-Bins",
+  "AddressLayoutId": 664,
+  "DomesticAddressLayoutId": 532,
+  "ForeignAddressLayoutId": 919,
+  "Rank": 155,
+  "Tooltip": "cum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 262
     }
   }
 }

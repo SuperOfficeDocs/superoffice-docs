@@ -102,13 +102,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 865,
-  "StartTime": "2004-01-09T03:31:26.0427182+01:00",
-  "EndTime": "2006-05-03T03:31:26.0427182+02:00",
-  "Count": 233,
+  "PersonId": 904,
+  "StartTime": "1999-07-06T03:24:47.5176724+02:00",
+  "EndTime": "2016-08-23T03:24:47.5176724+02:00",
+  "Count": 394,
   "DocumentTemplateIds": [
-    875,
-    491
+    68,
+    209
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 187,
-    "Attention": "et",
-    "Header": "repellat",
-    "Name": "Zulauf LLC",
-    "OurRef": "tenetur",
-    "YourRef": "animi",
-    "Description": "Inverse foreground approach",
-    "DocumentTemplate": "sit",
-    "IsPublished": true,
-    "PersonId": 444,
-    "PersonFullName": "Florine Bosco",
-    "AssociateFullName": "Dr. Savannah Bernier PhD",
-    "ContactId": 920,
-    "ContactName": "Price Group",
-    "ProjectId": 856,
-    "ProjectName": "Cormier Group",
-    "AssociateId": 191,
-    "Snum": 599,
-    "SaleId": 509,
-    "SaleName": "Wehner, Bernhard and Steuber",
+    "DocumentId": 555,
+    "Attention": "incidunt",
+    "Header": "eum",
+    "Name": "Roob, Conn and Mitchell",
+    "OurRef": "porro",
+    "YourRef": "sint",
+    "Description": "Progressive exuding monitoring",
+    "DocumentTemplate": "deserunt",
+    "IsPublished": false,
+    "PersonId": 993,
+    "PersonFullName": "Mrs. Lila Adams",
+    "AssociateFullName": "Major Bins",
+    "ContactId": 248,
+    "ContactName": "Mante Inc and Sons",
+    "ProjectId": 788,
+    "ProjectName": "Treutel-D'Amore",
+    "AssociateId": 497,
+    "Snum": 475,
+    "SaleId": 708,
+    "SaleName": "Purdy-Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldType": "System.Int32",
+        "FieldLength": 677
       }
     }
   }

@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/Document/SetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "voluptatum",
+  "Filename": "quidem",
   "Personal": false,
   "Stream": "GIF89....File contents as raw bytes..."
 }

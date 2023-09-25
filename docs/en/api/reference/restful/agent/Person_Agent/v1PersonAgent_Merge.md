@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourcePersonId": 301,
-  "DestinationPersonId": 693,
-  "MoveAfterDate": "2016-05-08T03:31:26.8862517+02:00",
+  "SourcePersonId": 674,
+  "DestinationPersonId": 839,
+  "MoveAfterDate": "2016-04-12T03:24:48.0176214+02:00",
   "DeleteSource": false,
   "ReplaceEmptyFieldsOnDestination": true
 }

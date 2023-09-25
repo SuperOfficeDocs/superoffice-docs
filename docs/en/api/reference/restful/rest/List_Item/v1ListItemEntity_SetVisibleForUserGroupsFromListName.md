@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 943,
-    "Name": "Mayer Group",
-    "ToolTip": "Officia expedita possimus.",
+    "Id": 671,
+    "Name": "Wintheiser-Witting",
+    "ToolTip": "Recusandae porro et praesentium quaerat occaecati cum deleniti.",
     "Deleted": false,
-    "Rank": 288,
-    "Type": "eos",
-    "ColorBlock": 57,
-    "IconHint": "earum",
+    "Rank": 783,
+    "Type": "numquam",
+    "ColorBlock": 288,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2006-01-13T03:31:33.4604945+01:00",
+    "LastChanged": "2016-05-28T03:24:52.1463474+02:00",
     "ChildItems": [
       {
-        "Id": 724,
-        "Name": "Ryan Group",
-        "ToolTip": "Odit dolorem.",
+        "Id": 166,
+        "Name": "Sporer-Hagenes",
+        "ToolTip": "Totam et velit quam et.",
         "Deleted": false,
-        "Rank": 320,
-        "Type": "quaerat",
-        "ColorBlock": 102,
-        "IconHint": "quia",
+        "Rank": 214,
+        "Type": "a",
+        "ColorBlock": 667,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "1998-06-11T03:31:33.4604945+02:00",
+        "LastChanged": "2009-02-08T03:24:52.1463474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "illo",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Prof. Sherman Adella Wuckert PhD"
+        "FullName": "Clemmie Lueilwitz Sr."
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "maiores",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Naomi Lowe"
+    "FullName": "Mrs. Tatum Kemmer DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 430,
-    "Name": "Morissette-Nader",
-    "ToolTip": "Modi blanditiis placeat cumque provident ipsam beatae accusantium.",
+    "Id": 893,
+    "Name": "Ferry-Schuppe",
+    "ToolTip": "Ipsa laboriosam enim quasi ut.",
     "Deleted": true,
-    "Rank": 183,
-    "Type": "rerum",
-    "ColorBlock": 484,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2011-06-07T03:31:33.4604945+02:00",
+    "Rank": 228,
+    "Type": "nobis",
+    "ColorBlock": 722,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2016-03-07T03:24:52.1463474+01:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Streich-Kreiger",
-        "ToolTip": "Dolorem totam doloribus quia.",
+        "Id": 378,
+        "Name": "Torphy-Haley",
+        "ToolTip": "Eveniet qui dolor tempore ad voluptatem.",
         "Deleted": false,
-        "Rank": 465,
-        "Type": "voluptatem",
-        "ColorBlock": 389,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2005-07-16T03:31:33.4604945+02:00",
+        "Rank": 529,
+        "Type": "fugit",
+        "ColorBlock": 208,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "2018-02-20T03:24:52.1463474+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Claudia Bergstrom",
+        "ExtraInfo": "itaque",
+        "StyleHint": "laboriosam",
+        "Hidden": false,
+        "FullName": "Travon Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 796
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "quis",
+    "ExtraInfo": "cumque",
+    "StyleHint": "rerum",
     "Hidden": true,
-    "FullName": "Prof. Martine Lynch",
+    "FullName": "Eliseo Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldLength": 709
       }
     }
   }

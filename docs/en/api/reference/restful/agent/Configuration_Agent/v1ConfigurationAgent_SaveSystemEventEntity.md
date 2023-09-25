@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 135,
+  "SystemEventId": 921,
   "Scope": "Database",
-  "Eta": "2016-02-04T03:31:25.8072288+01:00",
-  "Eventkey": "odit",
-  "Eventmess": "alias",
-  "ExtraInfo": 722,
-  "Owner": 456,
-  "UpdatedCount": 927,
-  "Registered": "2015-11-22T03:31:25.8072288+01:00",
+  "Eta": "1999-09-21T03:24:47.3614382+02:00",
+  "Eventkey": "qui",
+  "Eventmess": "excepturi",
+  "ExtraInfo": 977,
+  "Owner": 34,
+  "UpdatedCount": 709,
+  "Registered": "2004-02-29T03:24:47.3614382+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 905,
+  "SystemEventId": 88,
   "Scope": "Database",
-  "Eta": "2013-05-19T03:31:25.8228647+02:00",
-  "Eventkey": "id",
-  "Eventmess": "aspernatur",
-  "ExtraInfo": 794,
-  "Owner": 939,
-  "UpdatedCount": 918,
-  "Registered": "2015-12-19T03:31:25.8228647+01:00",
+  "Eta": "2000-05-30T03:24:47.3614382+02:00",
+  "Eventkey": "officia",
+  "Eventmess": "voluptatibus",
+  "ExtraInfo": 103,
+  "Owner": 649,
+  "UpdatedCount": 527,
+  "Registered": "1999-01-14T03:24:47.3614382+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 458
     }
   }
 }

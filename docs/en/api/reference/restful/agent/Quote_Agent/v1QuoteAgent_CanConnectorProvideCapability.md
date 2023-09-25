@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 808,
-  "CapabilityName": "Huel, Olson and Johnson"
+  "QuoteConnectionId": 559,
+  "CapabilityName": "Crist Group"
 }
 ```
 

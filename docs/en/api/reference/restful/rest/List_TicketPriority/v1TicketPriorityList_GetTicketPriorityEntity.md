@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 389,
-  "Name": "Wuckert, Mosciski and Kreiger",
+  "TicketPriorityId": 174,
+  "Name": "Fadel-Frami",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 778,
+  "SortOrder": 4,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 68,
-  "MonStart": "2000-03-18T03:31:33.9316266+01:00",
-  "MonStop": "2013-04-13T03:31:33.9316266+02:00",
-  "TueStart": "2020-02-18T03:31:33.9316266+01:00",
-  "TueStop": "2003-09-08T03:31:33.9316266+02:00",
-  "WedStart": "2018-07-22T03:31:33.9316266+02:00",
-  "WedStop": "2004-07-04T03:31:33.9316266+02:00",
-  "ThuStart": "2002-11-22T03:31:33.9316266+01:00",
-  "ThuStop": "2002-04-30T03:31:33.9316266+02:00",
-  "FriStart": "2022-12-02T03:31:33.9316266+01:00",
-  "FriStop": "2016-05-10T03:31:33.9316266+02:00",
-  "SatStart": "2018-08-08T03:31:33.9316266+02:00",
-  "SatStop": "2002-01-31T03:31:33.9316266+01:00",
-  "SunStart": "2023-07-26T03:31:33.9316266+02:00",
-  "SunStop": "2012-07-20T03:31:33.9316266+02:00",
+  "Deadline": 555,
+  "MonStart": "2020-03-13T03:24:52.4431914+01:00",
+  "MonStop": "2003-12-22T03:24:52.4431914+01:00",
+  "TueStart": "2021-06-16T03:24:52.4431914+02:00",
+  "TueStop": "1998-11-27T03:24:52.4431914+01:00",
+  "WedStart": "2001-08-08T03:24:52.4431914+02:00",
+  "WedStop": "2022-11-07T03:24:52.4431914+01:00",
+  "ThuStart": "2005-04-06T03:24:52.4431914+02:00",
+  "ThuStop": "2021-11-09T03:24:52.4431914+01:00",
+  "FriStart": "2015-10-11T03:24:52.4431914+02:00",
+  "FriStop": "2005-03-04T03:24:52.4431914+01:00",
+  "SatStart": "1996-07-24T03:24:52.4431914+02:00",
+  "SatStop": "2018-10-31T03:24:52.4431914+01:00",
+  "SunStart": "2004-01-13T03:24:52.4431914+01:00",
+  "SunStop": "2003-02-28T03:24:52.4431914+01:00",
   "NonDates": [
-    "rerum",
-    "assumenda"
+    "laboriosam",
+    "qui"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 683,
-      "AlertLevel": 837,
-      "AlertTimeout": 336,
-      "Action": 495,
-      "DelegateTo": 544,
-      "ScriptId": 246,
-      "EmailTo": "evans_gutkowski@johnstoncruickshank.info",
-      "SmsTo": "voluptatem",
-      "ReplyTemplateIdCustomer": 655,
-      "ReplyTemplateIdUser": 43,
-      "ReplyTemplateIdCatmast": 652,
-      "ReplyTemplateIdEmail": 92,
-      "RtiCustomerSms": 796,
-      "ReplyTemplateIdUserSms": 195,
-      "ReplyTemplateIdCatmastSms": 140,
-      "ReplyTemplateIdSms": 569,
+      "TicketAlertId": 374,
+      "AlertLevel": 334,
+      "AlertTimeout": 517,
+      "Action": 951,
+      "DelegateTo": 702,
+      "ScriptId": 693,
+      "EmailTo": "ayden_bradtke@johnson.name",
+      "SmsTo": "maiores",
+      "ReplyTemplateIdCustomer": 66,
+      "ReplyTemplateIdUser": 586,
+      "ReplyTemplateIdCatmast": 698,
+      "ReplyTemplateIdEmail": 493,
+      "RtiCustomerSms": 647,
+      "ReplyTemplateIdUserSms": 230,
+      "ReplyTemplateIdCatmastSms": 37,
+      "ReplyTemplateIdSms": 995,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldLength": 975
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 191
     }
   }
 }

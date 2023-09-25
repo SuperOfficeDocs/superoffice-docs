@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 381,
-  "PrefDescId": 485,
-  "PrefValue": "tempora",
-  "PrefShowValue": "id",
-  "Description": "Assimilated empowering workforce",
+  "PrefDescLineId": 624,
+  "PrefDescId": 713,
+  "PrefValue": "quae",
+  "PrefShowValue": "esse",
+  "Description": "Implemented national initiative",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 956,
-  "PrefDescId": 964,
-  "PrefValue": "aut",
-  "PrefShowValue": "dignissimos",
-  "Description": "Focused value-added intranet",
-  "IsBuiltin": false,
+  "PrefDescLineId": 358,
+  "PrefDescId": 502,
+  "PrefValue": "omnis",
+  "PrefShowValue": "omnis",
+  "Description": "Balanced user-facing open system",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

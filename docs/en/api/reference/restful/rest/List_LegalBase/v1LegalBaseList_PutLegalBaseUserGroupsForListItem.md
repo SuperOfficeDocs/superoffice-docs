@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Morissette-Gerhold",
-    "ToolTip": "Magni temporibus delectus dolorum aspernatur atque.",
-    "Deleted": false,
-    "Rank": 733,
-    "Type": "repellendus",
-    "ColorBlock": 216,
-    "IconHint": "quae",
-    "Selected": false,
-    "LastChanged": "2011-04-22T03:31:33.6323343+02:00",
+    "Id": 910,
+    "Name": "Wunsch-Gerhold",
+    "ToolTip": "Illum nulla delectus numquam tenetur aut quis est.",
+    "Deleted": true,
+    "Rank": 415,
+    "Type": "molestiae",
+    "ColorBlock": 595,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2000-01-04T03:24:52.2557133+01:00",
     "ChildItems": [
       {
-        "Id": 986,
-        "Name": "Marvin-Luettgen",
-        "ToolTip": "Blanditiis veritatis nihil.",
+        "Id": 351,
+        "Name": "Smitham-Gleichner",
+        "ToolTip": "Iste dolorem.",
         "Deleted": false,
-        "Rank": 698,
-        "Type": "recusandae",
-        "ColorBlock": 561,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2014-07-24T03:31:33.6323343+02:00",
+        "Rank": 480,
+        "Type": "consequuntur",
+        "ColorBlock": 90,
+        "IconHint": "cupiditate",
+        "Selected": true,
+        "LastChanged": "2001-02-16T03:24:52.2557133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "ab",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Lester Durgan"
+        "FullName": "Hester Raynor"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "et",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Nola Homenick"
+    "FullName": "Miss Theo Turner I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 951,
-    "Name": "Herzog Inc and Sons",
-    "ToolTip": "Esse labore vel.",
+    "Id": 346,
+    "Name": "Dibbert LLC",
+    "ToolTip": "Occaecati ab repellat animi.",
     "Deleted": false,
-    "Rank": 572,
-    "Type": "inventore",
-    "ColorBlock": 983,
-    "IconHint": "odio",
+    "Rank": 303,
+    "Type": "consectetur",
+    "ColorBlock": 890,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2017-07-14T03:31:33.6323343+02:00",
+    "LastChanged": "2022-03-30T03:24:52.2557133+02:00",
     "ChildItems": [
       {
-        "Id": 468,
-        "Name": "Mertz, Feeney and McDermott",
-        "ToolTip": "Et voluptas voluptas enim pariatur qui quas.",
-        "Deleted": true,
-        "Rank": 200,
-        "Type": "quisquam",
-        "ColorBlock": 700,
-        "IconHint": "odio",
+        "Id": 620,
+        "Name": "Yundt-Zemlak",
+        "ToolTip": "Iste nesciunt.",
+        "Deleted": false,
+        "Rank": 157,
+        "Type": "est",
+        "ColorBlock": 589,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2009-01-02T03:31:33.6323343+01:00",
+        "LastChanged": "2011-02-01T03:24:52.2557133+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Raven Bosco",
+        "ExtraInfo": "in",
+        "StyleHint": "placeat",
+        "Hidden": false,
+        "FullName": "Ms. Tristin Wyman Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 378
+            "FieldType": "System.Int32",
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Reinhold Pablo Kohler I",
+    "ExtraInfo": "sint",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Dante Boyer Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldLength": 185
       }
     }
   }

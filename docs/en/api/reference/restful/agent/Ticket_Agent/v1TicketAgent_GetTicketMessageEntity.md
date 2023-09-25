@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=413
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=182
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 111,
+  "EjMessageId": 588,
   "Ticket": null,
-  "CreatedAt": "1999-07-25T03:31:27.6853664+02:00",
+  "CreatedAt": "2018-07-16T03:24:48.4872676+02:00",
   "CreatedBy": null,
-  "Author": "dolorem",
+  "Author": "placeat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ea",
-  "TimeSpent": 712,
-  "Body": "quis",
-  "HtmlBody": "a",
-  "EmailHeader": "merle@wintheiserhackett.uk",
-  "DebugInfo": "asperiores",
-  "MailSorter": "voluptatem",
+  "MessageId": "ex",
+  "TimeSpent": 989,
+  "Body": "nesciunt",
+  "HtmlBody": "consectetur",
+  "EmailHeader": "andres@hauck.us",
+  "DebugInfo": "nobis",
+  "MailSorter": "minima",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "exercitationem",
+  "SearchTitle": "non",
   "MessageHeaders": [
     {
-      "Id": 594,
-      "Name": "O'Reilly, Stroman and Rau",
-      "Value": "qui",
+      "Id": 635,
+      "Name": "Marks, Dietrich and Murazik",
+      "Value": "unde",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,49 +131,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 845
+          "FieldLength": 76
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "laboriosam",
-  "Sentiment": 973,
-  "SentimentConfidence": 704,
+  "Important": true,
+  "Language": "et",
+  "Sentiment": 207,
+  "SentimentConfidence": 765,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 43,
-      "Name": "Hilll, Renner and Paucek",
-      "ContentType": "laudantium",
-      "AttSize": 951,
-      "InlineImage": true,
-      "ContentId": "autem",
-      "AuthKey": "debitis",
+      "AttachmentId": 292,
+      "Name": "Runolfsdottir Inc and Sons",
+      "ContentType": "magnam",
+      "AttSize": 519,
+      "InlineImage": false,
+      "ContentId": "ratione",
+      "AuthKey": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 401
+          "FieldLength": 396
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "id"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldLength": 784
     }
   }
 }

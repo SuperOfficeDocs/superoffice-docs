@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "minima",
-  "ProviderName": "Pagac-West",
-  "StorageKey": "ullam",
-  "Rank": 27,
-  "Context": "aut"
+  "StorageType": "ipsam",
+  "ProviderName": "Abernathy, Wiegand and Schoen",
+  "StorageKey": "quas",
+  "Rank": 184,
+  "Context": "fugit"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Treutel-Grant",
-  "Description": "Implemented background matrix",
-  "Rank": 114,
+  "Name": "Herzog-Hauck",
+  "Description": "Vision-oriented non-volatile software",
+  "Rank": 429,
   "Restrictions": [
     {
-      "Name": "Christiansen LLC",
-      "Operator": "dolorum",
+      "Name": "Russel, Robel and Feest",
+      "Operator": "nostrum",
       "Values": [
-        "eius",
-        "accusantium"
+        "impedit",
+        "sed"
       ],
       "DisplayValues": [
-        "vitae",
-        "ipsam"
+        "architecto",
+        "quos"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 622,
+      "InterParenthesis": 181,
       "InterOperator": "And",
-      "UniqueHash": 91
+      "UniqueHash": 992
     }
   ]
 }

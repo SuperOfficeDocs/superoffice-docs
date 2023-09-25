@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,33 +85,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 284,
-  "Name": "Altenwerth-Rowe",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "Rank": 749,
+  "WebPanelId": 520,
+  "Name": "Rogahn LLC",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 582,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Orn Group",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Fritsch-Bauch",
   "Url": "http://www.example.com/",
-  "ProgId": "quo",
-  "Icon": 257,
+  "ProgId": "animi",
+  "Icon": 485,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 886
     }
   }
 }

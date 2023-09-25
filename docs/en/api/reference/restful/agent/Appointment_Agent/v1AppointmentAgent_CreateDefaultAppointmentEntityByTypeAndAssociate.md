@@ -131,12 +131,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 384
+  "AssociateId": 509
 }
 ```
 
@@ -151,63 +151,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-05-31T03:31:25.4934109+02:00",
-  "AppointmentId": 795,
-  "Description": "Polarised fault-tolerant interface",
-  "StartDate": "2013-10-04T03:31:25.4934109+02:00",
-  "EndDate": "1999-09-29T03:31:25.4934109+02:00",
+  "CreatedDate": "2014-03-12T03:24:47.1583343+01:00",
+  "AppointmentId": 518,
+  "Description": "Function-based heuristic contingency",
+  "StartDate": "2012-06-08T03:24:47.1583343+02:00",
+  "EndDate": "2023-05-15T03:24:47.1583343+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 453,
+  "MotherId": 543,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-06-04T03:31:25.4934109+02:00",
+  "UpdatedDate": "2007-05-21T03:24:47.1583343+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 415,
+  "ActiveLinks": 468,
   "Links": [
     {
-      "EntityName": "Halvorson-Schiller",
-      "Id": 563,
-      "Description": "Diverse impactful productivity",
-      "ExtraInfo": "praesentium",
-      "LinkId": 629,
+      "EntityName": "Marquardt Inc and Sons",
+      "Id": 519,
+      "Description": "Function-based responsive alliance",
+      "ExtraInfo": "debitis",
+      "LinkId": 234,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldType": "System.String",
+          "FieldLength": 926
         }
       }
     }
   ],
-  "AlarmLeadTime": "nemo",
+  "AlarmLeadTime": "pariatur",
   "HasAlarm": false,
-  "ColorIndex": 382,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "qui",
-  "LeadTime": "itaque",
-  "Location": "dolorem",
-  "RejectCounter": 561,
+  "ColorIndex": 857,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "incidunt",
+  "LeadTime": "sed",
+  "Location": "nobis",
+  "RejectCounter": 393,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 169,
-      "PersonId": 556,
-      "ContactId": 850,
-      "EmailId": 985,
+      "AssociateId": 697,
+      "PersonId": 210,
+      "ContactId": 584,
+      "EmailId": 86,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 169,
-      "PersonId": 556,
-      "ContactId": 850,
-      "EmailId": 985,
+      "AssociateId": 697,
+      "PersonId": 210,
+      "ContactId": 584,
+      "EmailId": 86,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -215,61 +215,61 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-10-28T03:31:25.4934109+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1997-12-10T03:24:47.1583343+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 466,
+  "PreferredTZLocation": 779,
   "Sale": null,
-  "SuggestedAppointmentId": 60,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 183,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
-  "Title": "vitae",
-  "Agenda": "rerum",
-  "InternalNotes": "nulla",
+  "CentralserviceVideomeetId": "quae",
+  "Title": "rem",
+  "Agenda": "eum",
+  "InternalNotes": "omnis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Alaina Green Sr.",
-    "SuperOffice:2": "1710399047"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Estefania Schroeder"
   },
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "sunt"
+    "CustomFields1": "minima",
+    "CustomFields2": "maiores"
   },
-  "PublishEventDate": "2008-04-13T03:31:25.5090292+02:00",
-  "PublishTo": "2010-12-24T03:31:25.5090292+01:00",
-  "PublishFrom": "1996-08-02T03:31:25.5090292+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-01-29T03:24:47.1583343+01:00",
+  "PublishTo": "2001-10-30T03:24:47.1583343+01:00",
+  "PublishFrom": "2016-07-22T03:24:47.1583343+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 454,
+      "VisibleId": 38,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 694
         }
       }
     },
     {
-      "VisibleId": 454,
+      "VisibleId": 38,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 694
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 398
     }
   }
 }

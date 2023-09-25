@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Huels-Boyle",
-  "Columns": "tempora",
-  "SortOrder": "quae",
-  "Restrictions": "qui",
-  "Entities": "et",
-  "Page": 184,
-  "PageSize": 661
+  "ProviderName": "Daugherty, Rutherford and Nicolas",
+  "Columns": "maiores",
+  "SortOrder": "dicta",
+  "Restrictions": "maxime",
+  "Entities": "recusandae",
+  "Page": 682,
+  "PageSize": 784
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Balistreri-Kiehn",
-    "PrimaryKey": 41,
+    "EntityName": "Carter, Hagenes and Green",
+    "PrimaryKey": 438,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "rem",
-        "TooltipHint": "nostrum",
-        "LinkHint": "sapiente"
+        "DisplayValue": "architecto",
+        "TooltipHint": "perferendis",
+        "LinkHint": "iure"
       }
     },
-    "LinkHint": "sequi",
-    "StyleHint": "voluptas",
+    "LinkHint": "et",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 782
+        "FieldLength": 679
       }
     }
   }

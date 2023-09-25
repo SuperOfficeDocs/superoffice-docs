@@ -134,6 +134,7 @@ TicketEntity  updated.
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -163,18 +164,18 @@ TicketEntity  updated.
 PATCH /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "fuga",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fuga",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -187,21 +188,21 @@ HTTP/1.1 200 TicketEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 304,
-  "Title": "sit",
-  "CreatedAt": "2020-03-06T03:31:33.1937529+01:00",
-  "LastChanged": "2020-08-17T03:31:33.1937529+02:00",
-  "ReadByOwner": "2016-10-25T03:31:33.1937529+02:00",
-  "ReadByCustomer": "2013-12-15T03:31:33.1937529+01:00",
-  "FirstReadByOwner": "2021-01-02T03:31:33.1937529+01:00",
-  "FirstReadByUser": "2010-12-05T03:31:33.1937529+01:00",
-  "Activate": "2011-03-15T03:31:33.1937529+01:00",
-  "ClosedAt": "2018-11-11T03:31:33.1937529+01:00",
-  "RepliedAt": "2015-11-20T03:31:33.1937529+01:00",
-  "AlertTimeout": "2013-08-07T03:31:33.1937529+02:00",
-  "Deadline": "2009-08-05T03:31:33.1937529+02:00",
+  "TicketId": 39,
+  "Title": "consequuntur",
+  "CreatedAt": "2011-07-24T03:24:51.9744944+02:00",
+  "LastChanged": "1999-01-10T03:24:51.9744944+01:00",
+  "ReadByOwner": "2014-09-28T03:24:51.9744944+02:00",
+  "ReadByCustomer": "2012-12-05T03:24:51.9744944+01:00",
+  "FirstReadByOwner": "1999-08-13T03:24:51.9744944+02:00",
+  "FirstReadByUser": "2008-05-04T03:24:51.9744944+02:00",
+  "Activate": "1997-10-09T03:24:51.9744944+02:00",
+  "ClosedAt": "1998-04-23T03:24:51.9744944+02:00",
+  "RepliedAt": "2021-07-01T03:24:51.9744944+02:00",
+  "AlertTimeout": "2009-03-08T03:24:51.9744944+01:00",
+  "Deadline": "2007-09-19T03:24:51.9744944+02:00",
   "CreatedBy": null,
-  "Author": "tempore",
+  "Author": "ut",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -212,165 +213,166 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "delectus",
-      "PersonId": 771,
-      "Mrmrs": "repudiandae",
-      "Firstname": "Laisha",
-      "Lastname": "Vandervort",
-      "MiddleName": "Franecki-Spinka",
-      "Title": "unde",
-      "Description": "Open-source system-worthy data-warehouse",
-      "Email": "ricky_block@walshspencer.info",
-      "FullName": "Mrs. Janick Jackson Kunde Jr.",
-      "DirectPhone": "1-619-316-7509 x307",
-      "FormalName": "Dickens, Waelchi and Muller",
-      "CountryId": 91,
-      "ContactId": 106,
-      "ContactName": "Veum LLC",
-      "Retired": 467,
-      "Rank": 751,
-      "ActiveInterests": 675,
+      "Position": "distinctio",
+      "PersonId": 720,
+      "Mrmrs": "nesciunt",
+      "Firstname": "Amira",
+      "Lastname": "Becker",
+      "MiddleName": "Gislason Inc and Sons",
+      "Title": "beatae",
+      "Description": "Versatile hybrid superstructure",
+      "Email": "elliot.emmerich@joneshodkiewicz.uk",
+      "FullName": "Isom Hand",
+      "DirectPhone": "1-080-668-7588 x987",
+      "FormalName": "Koss, McDermott and Kilback",
+      "CountryId": 322,
+      "ContactId": 596,
+      "ContactName": "Dickens-Prohaska",
+      "Retired": 772,
+      "Rank": 477,
+      "ActiveInterests": 839,
       "ContactDepartment": "",
-      "ContactCountryId": 300,
-      "ContactOrgNr": "920753",
-      "FaxPhone": "389.554.6815 x329",
-      "MobilePhone": "854-199-4223",
-      "ContactPhone": "(917)226-6875",
-      "AssociateName": "Huels, Runte and Moen",
-      "AssociateId": 448,
-      "UsePersonAddress": false,
-      "ContactFax": "pariatur",
-      "Kanafname": "dolor",
-      "Kanalname": "sit",
-      "Post1": "excepturi",
-      "Post2": "voluptatum",
-      "Post3": "quae",
-      "EmailName": "reid@marquardtstracke.ca",
-      "ContactFullName": "Ms. Bettye Lakin",
-      "ActiveErpLinks": 506,
-      "TicketPriorityId": 600,
-      "SupportLanguageId": 763,
-      "SupportAssociateId": 564,
+      "ContactCountryId": 422,
+      "ContactOrgNr": "1567455",
+      "FaxPhone": "(442)249-2828 x95381",
+      "MobilePhone": "964.254.4248 x29538",
+      "ContactPhone": "717-585-9396",
+      "AssociateName": "Lubowitz-Kuphal",
+      "AssociateId": 294,
+      "UsePersonAddress": true,
+      "ContactFax": "culpa",
+      "Kanafname": "quaerat",
+      "Kanalname": "omnis",
+      "Post1": "soluta",
+      "Post2": "distinctio",
+      "Post3": "dicta",
+      "EmailName": "gracie@kunde.us",
+      "ContactFullName": "Dr. Sandy Zulauf I",
+      "ActiveErpLinks": 450,
+      "TicketPriorityId": 602,
+      "SupportLanguageId": 655,
+      "SupportAssociateId": 420,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 835
         }
       }
     }
   ],
-  "AlertLevel": 998,
-  "ConnectId": 284,
+  "AlertLevel": 148,
+  "ConnectId": 203,
   "ReadStatus": "Green",
-  "TimeToReply": 374,
-  "RealTimeToReply": 498,
-  "TimeToClose": 604,
-  "RealTimeToClose": 114,
-  "TimeSpentInternally": 398,
-  "TimeSpentExternally": 297,
-  "TimeSpentQueue": 728,
-  "RealTimeSpentInternally": 170,
-  "RealTimeSpentExternally": 836,
-  "RealTimeSpentQueue": 399,
+  "TimeToReply": 473,
+  "RealTimeToReply": 3,
+  "TimeToClose": 856,
+  "RealTimeToClose": 662,
+  "TimeSpentInternally": 95,
+  "TimeSpentExternally": 30,
+  "TimeSpentQueue": 64,
+  "RealTimeSpentInternally": 339,
+  "RealTimeSpentExternally": 522,
+  "RealTimeSpentQueue": 659,
+  "TimeSpent": 659,
   "HasAttachment": false,
-  "NumReplies": 14,
-  "NumMessages": 440,
-  "FromAddress": "laudantium",
+  "NumReplies": 920,
+  "NumMessages": 523,
+  "FromAddress": "expedita",
   "Messages": [
     {
-      "TicketMessageId": 395,
-      "CreatedAt": "2008-04-10T03:31:33.1937529+02:00",
+      "TicketMessageId": 482,
+      "CreatedAt": "2011-07-23T03:24:51.9744944+02:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "quos",
-      "PersonId": 695,
-      "PersonFullName": "Eve Stracke",
-      "ContactId": 908,
-      "ContactName": "Bogan-Fisher",
+      "Author": "possimus",
+      "PersonId": 465,
+      "PersonFullName": "Meagan Hegmann",
+      "ContactId": 224,
+      "ContactName": "Crist LLC",
       "ContactDepartment": "",
-      "NumAttachments": 561,
-      "EmailHeader": "chyna@hermann.com",
+      "NumAttachments": 719,
+      "EmailHeader": "caroline.halvorson@kassulkerunolfsson.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "laudantium",
-      "Sentiment": 857,
-      "SentimentConfidence": 802,
-      "CreatedBy": 298,
-      "ChangedAt": "2008-05-23T03:31:33.1937529+02:00",
+      "Language": "placeat",
+      "Sentiment": 209,
+      "SentimentConfidence": 97,
+      "CreatedBy": 795,
+      "ChangedAt": "2000-02-10T03:24:51.9744944+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 678
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 67,
-      "Name": "Reinger-Abbott",
-      "ToolTip": "A molestiae occaecati ullam sequi distinctio officiis.",
+      "Id": 151,
+      "Name": "Denesik-Bins",
+      "ToolTip": "Sed enim rem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 462
         }
       }
     },
     {
-      "Id": 67,
-      "Name": "Reinger-Abbott",
-      "ToolTip": "A molestiae occaecati ullam sequi distinctio officiis.",
+      "Id": 151,
+      "Name": "Denesik-Bins",
+      "ToolTip": "Sed enim rem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 701
+          "FieldType": "System.Int32",
+          "FieldLength": 462
         }
       }
     }
   ],
-  "Language": "cumque",
-  "Sentiment": 188,
-  "SentimentConfidence": 106,
-  "SuggestedCategoryId": 825,
+  "Language": "tenetur",
+  "Sentiment": 142,
+  "SentimentConfidence": 255,
+  "SuggestedCategoryId": 726,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 868,
-  "IconHint": "quae",
+  "OrigHumanCategoryId": 313,
+  "IconHint": "aspernatur",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "earum",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldType": "System.String",
+      "FieldLength": 240
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

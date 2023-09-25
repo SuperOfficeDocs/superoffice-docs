@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 972
+  "UserGroupId": 652
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 149,
-    "ColumnId": 979,
-    "FieldDefault": "ullam",
-    "FieldHeight": 851,
-    "FieldLabel": "aut",
-    "FieldLeft": 610,
-    "FieldTop": 745,
+    "UDefFieldId": 819,
+    "ColumnId": 330,
+    "FieldDefault": "illo",
+    "FieldHeight": 918,
+    "FieldLabel": "mollitia",
+    "FieldLeft": 382,
+    "FieldTop": 620,
     "FieldType": "Checkbox",
-    "FieldWidth": 330,
-    "FormatMask": "dolor",
-    "HideLabel": true,
+    "FieldWidth": 86,
+    "FormatMask": "cum",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 888,
-    "LabelLeft": 448,
-    "LabelTop": 449,
-    "LabelWidth": 178,
-    "LastVersionId": 940,
-    "ListTableId": 145,
+    "LabelHeight": 830,
+    "LabelLeft": 64,
+    "LabelTop": 423,
+    "LabelWidth": 244,
+    "LastVersionId": 610,
+    "ListTableId": 773,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 500,
-    "ProgId": "et",
+    "Page1LineNo": 810,
+    "ProgId": "deleniti",
     "IsReadOnly": true,
-    "ShortLabel": "quia",
-    "TabOrder": 33,
-    "TextLength": 658,
-    "Tooltip": "vel",
-    "UdefIdentity": 574,
-    "UDListDefinitionId": 194,
+    "ShortLabel": "quidem",
+    "TabOrder": 224,
+    "TextLength": 498,
+    "Tooltip": "doloremque",
+    "UdefIdentity": 661,
+    "UDListDefinitionId": 198,
     "Justification": "Center",
-    "Version": 177,
-    "TemplateVariableName": "Balistreri, Luettgen and Wunsch",
+    "Version": 569,
+    "TemplateVariableName": "Nitzsche-Skiles",
     "HasBeenPublished": false,
-    "MdoListName": "Goyette-Jewess",
+    "MdoListName": "Lang-Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldType": "System.String",
+        "FieldLength": 12
       }
     }
   }

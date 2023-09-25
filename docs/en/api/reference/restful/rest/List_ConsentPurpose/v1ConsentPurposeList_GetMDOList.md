@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=porro
+GET /api/v1/List/ConsentPurpose/MDOItems?query=qui
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Krajcik LLC",
-    "ToolTip": "Corrupti quo quod ad.",
+    "Id": 255,
+    "Name": "Cartwright Group",
+    "ToolTip": "Minima qui earum dignissimos corporis.",
     "Deleted": false,
-    "Rank": 151,
-    "Type": "qui",
+    "Rank": 841,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 654,
-        "Name": "Torp, Hills and Hessel",
-        "ToolTip": "Dicta a eum.",
-        "Deleted": false,
-        "Rank": 421,
-        "Type": "vel",
+        "Id": 56,
+        "Name": "Swift, Leannon and Hane",
+        "ToolTip": "Modi iure modi et eos et at alias.",
+        "Deleted": true,
+        "Rank": 463,
+        "Type": "explicabo",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "et",
-        "ColorBlock": 618,
-        "ExtraInfo": "dolor",
-        "StyleHint": "dolore",
-        "FullName": "Dimitri Hickle",
+        "ColorBlock": 919,
+        "ExtraInfo": "ad",
+        "StyleHint": "alias",
+        "FullName": "Lilla Wehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 778
+            "FieldLength": 802
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 921,
-    "ExtraInfo": "totam",
-    "StyleHint": "commodi",
-    "FullName": "Fausto Runte",
+    "IconHint": "perferendis",
+    "ColorBlock": 709,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "occaecati",
+    "FullName": "Freddie Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

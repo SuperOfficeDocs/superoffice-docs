@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 543,
-  "Name": "Botsford-Carroll",
-  "Tooltip": "minima",
-  "Rank": 420,
-  "DoctmplId": 65,
-  "Header": "eos",
-  "OurRef": "non",
-  "Deleted": true,
+  "SuggestedDocumentId": 823,
+  "Name": "Schmeler, Gibson and Emard",
+  "Tooltip": "minus",
+  "Rank": 214,
+  "DoctmplId": 474,
+  "Header": "ullam",
+  "OurRef": "et",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,14 +108,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 961,
-  "Name": "Hickle, Spencer and Howe",
-  "Tooltip": "voluptas",
-  "Rank": 971,
-  "DoctmplId": 961,
-  "Header": "officiis",
-  "OurRef": "qui",
-  "Deleted": false,
+  "SuggestedDocumentId": 522,
+  "Name": "Mertz, Pacocha and Leannon",
+  "Tooltip": "ipsa",
+  "Rank": 713,
+  "DoctmplId": 340,
+  "Header": "iure",
+  "OurRef": "reprehenderit",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 47
     }
   }
 }

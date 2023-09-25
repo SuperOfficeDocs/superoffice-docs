@@ -124,11 +124,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 90
+  "ProjectId": 302
 }
 ```
 
@@ -140,64 +140,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 30,
-    "StartDate": "2012-04-19T03:31:25.1313731+02:00",
-    "EndDate": "2001-07-10T03:31:25.1313731+02:00",
+    "AppointmentId": 904,
+    "StartDate": "1998-06-23T03:24:46.9550719+02:00",
+    "EndDate": "2021-01-16T03:24:46.9550719+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Laney Spencer",
-    "ContactName": "Ledner-Harvey",
-    "Description": "Reverse-engineered needs-based info-mediaries",
-    "PersonFullName": "Timmy Pfeffer Sr.",
-    "PersonId": 458,
-    "ContactId": 765,
-    "ProjectId": 248,
-    "ProjectName": "Brekke, Lowe and Crist",
+    "Task": "velit",
+    "AssociateFullName": "Carolyn Herman",
+    "ContactName": "Heidenreich, Graham and O'Connell",
+    "Description": "Versatile cohesive archive",
+    "PersonFullName": "Mr. Teagan Beahan",
+    "PersonId": 922,
+    "ContactId": 40,
+    "ProjectId": 714,
+    "ProjectName": "Kunde, Hessel and Klocko",
     "IsPublished": false,
-    "AssociateId": 238,
-    "ColorIndex": 443,
+    "AssociateId": 354,
+    "ColorIndex": 919,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 35,
-    "PriorityName": "Hartmann LLC",
+    "PriorityId": 346,
+    "PriorityName": "Rippin-O'Conner",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-06-17T03:31:25.1313731+02:00",
+    "ActiveDate": "2007-08-08T03:24:46.9550719+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-07-13T03:31:25.1313731+02:00",
-    "RecurringEndDate": "1997-02-07T03:31:25.1313731+01:00",
-    "MotherId": 404,
-    "AssignedBy": 718,
-    "AssignedByFullName": "Natalie Welch",
+    "RecurringStartDate": "2008-06-27T03:24:46.9550719+02:00",
+    "RecurringEndDate": "1998-08-23T03:24:46.9550719+02:00",
+    "MotherId": 783,
+    "AssignedBy": 1001,
+    "AssignedByFullName": "Nyah Parker",
     "RejectReason": "",
-    "Location": "hic",
-    "AlarmLeadTime": "eveniet",
-    "SaleId": 696,
-    "SaleName": "Davis LLC",
-    "AssociateName": "Wisoky, Ruecker and Emard",
-    "CreatedDate": "2020-04-04T03:31:25.1313731+02:00",
-    "CreatedBy": "dolores",
-    "CreatedByFullName": "Elenora Gibson",
-    "CreatedByAssociateId": 981,
+    "Location": "quos",
+    "AlarmLeadTime": "error",
+    "SaleId": 989,
+    "SaleName": "Kuphal-Collins",
+    "AssociateName": "Carroll-O'Reilly",
+    "CreatedDate": "2002-12-08T03:24:46.9550719+01:00",
+    "CreatedBy": "nesciunt",
+    "CreatedByFullName": "Dixie Koepp",
+    "CreatedByAssociateId": 363,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "est",
-    "Agenda": "natus",
-    "InternalNotes": "beatae",
+    "Title": "voluptates",
+    "Agenda": "sunt",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 567
+        "FieldType": "System.Int32",
+        "FieldLength": 711
       }
     }
   }

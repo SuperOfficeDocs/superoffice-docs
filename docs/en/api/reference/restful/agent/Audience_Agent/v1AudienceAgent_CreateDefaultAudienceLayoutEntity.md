@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 225,
-  "InstanceLayout": "quidem",
-  "InstanceName": "Kshlerin LLC",
-  "CreatedDate": "2019-11-03T03:31:25.6339962+01:00",
-  "UpdatedDate": "2000-04-28T03:31:25.6339962+02:00",
+  "AudienceLayoutId": 892,
+  "InstanceLayout": "et",
+  "InstanceName": "Orn Group",
+  "CreatedDate": "2003-12-23T03:24:47.2364513+01:00",
+  "UpdatedDate": "1996-05-25T03:24:47.2364513+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldLength": 205
     }
   }
 }

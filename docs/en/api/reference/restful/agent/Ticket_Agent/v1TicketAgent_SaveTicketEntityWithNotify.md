@@ -101,6 +101,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -129,7 +130,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -145,21 +146,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 13,
-  "Title": "eius",
-  "CreatedAt": "2015-04-23T03:31:27.4186541+02:00",
-  "LastChanged": "2013-11-18T03:31:27.4186541+01:00",
-  "ReadByOwner": "1999-01-05T03:31:27.4186541+01:00",
-  "ReadByCustomer": "2006-01-21T03:31:27.4186541+01:00",
-  "FirstReadByOwner": "2015-04-22T03:31:27.4186541+02:00",
-  "FirstReadByUser": "2013-04-24T03:31:27.4186541+02:00",
-  "Activate": "2011-10-04T03:31:27.4186541+02:00",
-  "ClosedAt": "1999-08-17T03:31:27.4186541+02:00",
-  "RepliedAt": "2005-06-16T03:31:27.4186541+02:00",
-  "AlertTimeout": "2008-09-15T03:31:27.4186541+02:00",
-  "Deadline": "2001-04-20T03:31:27.4186541+02:00",
+  "TicketId": 867,
+  "Title": "omnis",
+  "CreatedAt": "2009-06-02T03:24:48.4403961+02:00",
+  "LastChanged": "2018-12-02T03:24:48.4403961+01:00",
+  "ReadByOwner": "2016-01-24T03:24:48.4403961+01:00",
+  "ReadByCustomer": "2005-08-28T03:24:48.4403961+02:00",
+  "FirstReadByOwner": "2021-01-27T03:24:48.4403961+01:00",
+  "FirstReadByUser": "2007-12-16T03:24:48.4403961+01:00",
+  "Activate": "2010-07-28T03:24:48.4403961+02:00",
+  "ClosedAt": "2010-05-11T03:24:48.4403961+02:00",
+  "RepliedAt": "2003-07-20T03:24:48.4403961+02:00",
+  "AlertTimeout": "2009-11-17T03:24:48.4403961+01:00",
+  "Deadline": "2017-06-07T03:24:48.4403961+02:00",
   "CreatedBy": null,
-  "Author": "dolorum",
+  "Author": "veniam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -170,160 +171,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ipsum",
-      "PersonId": 326,
-      "Mrmrs": "rerum",
-      "Firstname": "Asa",
-      "Lastname": "Fritsch",
-      "MiddleName": "Fadel LLC",
-      "Title": "magni",
-      "Description": "Function-based motivating synergy",
-      "Email": "kevin@kulas.com",
-      "FullName": "Alexandrea Juliana Kshlerin I",
-      "DirectPhone": "218.415.3136",
-      "FormalName": "Kuhic-Abbott",
-      "CountryId": 413,
-      "ContactId": 400,
-      "ContactName": "Zieme Group",
-      "Retired": 465,
-      "Rank": 536,
-      "ActiveInterests": 119,
+      "Position": "dolorum",
+      "PersonId": 716,
+      "Mrmrs": "aut",
+      "Firstname": "Ricardo",
+      "Lastname": "Rogahn",
+      "MiddleName": "McKenzie, Bosco and Zulauf",
+      "Title": "aliquid",
+      "Description": "Programmable cohesive secured line",
+      "Email": "kenton_dicki@crona.biz",
+      "FullName": "Cameron Lockman",
+      "DirectPhone": "1-335-268-0811 x345",
+      "FormalName": "Strosin-Schamberger",
+      "CountryId": 984,
+      "ContactId": 989,
+      "ContactName": "Weber-Reilly",
+      "Retired": 798,
+      "Rank": 136,
+      "ActiveInterests": 340,
       "ContactDepartment": "",
-      "ContactCountryId": 913,
-      "ContactOrgNr": "682748",
-      "FaxPhone": "437-515-1241",
-      "MobilePhone": "(872)399-0407",
-      "ContactPhone": "635.671.7439",
-      "AssociateName": "Romaguera-Jenkins",
-      "AssociateId": 826,
-      "UsePersonAddress": false,
-      "ContactFax": "ad",
-      "Kanafname": "aperiam",
-      "Kanalname": "earum",
-      "Post1": "temporibus",
-      "Post2": "eum",
-      "Post3": "perspiciatis",
-      "EmailName": "emmet.morar@wintheiser.com",
-      "ContactFullName": "Isai O'Kon",
-      "ActiveErpLinks": 238,
-      "TicketPriorityId": 698,
-      "SupportLanguageId": 497,
-      "SupportAssociateId": 662,
+      "ContactCountryId": 124,
+      "ContactOrgNr": "1706685",
+      "FaxPhone": "1-905-182-2930 x2345",
+      "MobilePhone": "(482)498-0330",
+      "ContactPhone": "790-428-6136 x68333",
+      "AssociateName": "Parker-Armstrong",
+      "AssociateId": 86,
+      "UsePersonAddress": true,
+      "ContactFax": "expedita",
+      "Kanafname": "expedita",
+      "Kanalname": "maxime",
+      "Post1": "aut",
+      "Post2": "modi",
+      "Post3": "suscipit",
+      "EmailName": "lydia@marvin.com",
+      "ContactFullName": "Lula Herman",
+      "ActiveErpLinks": 283,
+      "TicketPriorityId": 429,
+      "SupportLanguageId": 926,
+      "SupportAssociateId": 776,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 552
+          "FieldLength": 163
         }
       }
     }
   ],
-  "AlertLevel": 44,
-  "ConnectId": 966,
+  "AlertLevel": 26,
+  "ConnectId": 650,
   "ReadStatus": "Green",
-  "TimeToReply": 823,
-  "RealTimeToReply": 898,
-  "TimeToClose": 854,
-  "RealTimeToClose": 963,
-  "TimeSpentInternally": 167,
-  "TimeSpentExternally": 126,
-  "TimeSpentQueue": 322,
-  "RealTimeSpentInternally": 274,
-  "RealTimeSpentExternally": 662,
-  "RealTimeSpentQueue": 937,
-  "HasAttachment": true,
-  "NumReplies": 893,
-  "NumMessages": 436,
-  "FromAddress": "tempore",
+  "TimeToReply": 378,
+  "RealTimeToReply": 576,
+  "TimeToClose": 339,
+  "RealTimeToClose": 798,
+  "TimeSpentInternally": 219,
+  "TimeSpentExternally": 658,
+  "TimeSpentQueue": 19,
+  "RealTimeSpentInternally": 904,
+  "RealTimeSpentExternally": 721,
+  "RealTimeSpentQueue": 281,
+  "TimeSpent": 596,
+  "HasAttachment": false,
+  "NumReplies": 388,
+  "NumMessages": 258,
+  "FromAddress": "est",
   "Messages": [
     {
-      "TicketMessageId": 728,
-      "CreatedAt": "2008-08-28T03:31:27.4186541+02:00",
+      "TicketMessageId": 336,
+      "CreatedAt": "2010-09-26T03:24:48.4403961+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "ratione",
-      "PersonId": 743,
-      "PersonFullName": "Mr. Leone Kari Wuckert",
-      "ContactId": 755,
-      "ContactName": "Rohan Inc and Sons",
+      "Author": "quo",
+      "PersonId": 36,
+      "PersonFullName": "Darrion Wilderman",
+      "ContactId": 501,
+      "ContactName": "O'Conner Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 668,
-      "EmailHeader": "angelo.jast@greenfelderschowalter.ca",
+      "NumAttachments": 134,
+      "EmailHeader": "samantha@towneklein.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "corrupti",
-      "Sentiment": 910,
-      "SentimentConfidence": 877,
-      "CreatedBy": 186,
-      "ChangedAt": "2020-12-25T03:31:27.4186541+01:00",
+      "Language": "vero",
+      "Sentiment": 29,
+      "SentimentConfidence": 840,
+      "CreatedBy": 274,
+      "ChangedAt": "1998-02-14T03:24:48.4403961+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldLength": 770
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 854,
-      "Name": "Boyer Inc and Sons",
-      "ToolTip": "A eveniet.",
+      "Id": 76,
+      "Name": "Ziemann-Blick",
+      "ToolTip": "Delectus numquam aliquam sit ea quibusdam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldLength": 731
         }
       }
     },
     {
-      "Id": 854,
-      "Name": "Boyer Inc and Sons",
-      "ToolTip": "A eveniet.",
+      "Id": 76,
+      "Name": "Ziemann-Blick",
+      "ToolTip": "Delectus numquam aliquam sit ea quibusdam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
+          "FieldLength": 731
         }
       }
     }
   ],
-  "Language": "commodi",
-  "Sentiment": 878,
-  "SentimentConfidence": 689,
-  "SuggestedCategoryId": 869,
+  "Language": "placeat",
+  "Sentiment": 742,
+  "SentimentConfidence": 35,
+  "SuggestedCategoryId": 599,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 818,
-  "IconHint": "rerum",
+  "OrigHumanCategoryId": 629,
+  "IconHint": "quo",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "iusto"
+    "CustomFields1": "ea",
+    "CustomFields2": "aspernatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldLength": 916
     }
   }
 }

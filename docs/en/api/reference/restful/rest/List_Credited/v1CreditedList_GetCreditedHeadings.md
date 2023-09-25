@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 81,
-    "Name": "Koepp Inc and Sons",
-    "Tooltip": "optio",
+    "HeadingId": 151,
+    "Name": "Gleason-Kohler",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 837,
-    "UdListDefinitionId": 825,
+    "Rank": 129,
+    "UdListDefinitionId": 530,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 691
+        "FieldType": "System.Int32",
+        "FieldLength": 140
       }
     }
   }

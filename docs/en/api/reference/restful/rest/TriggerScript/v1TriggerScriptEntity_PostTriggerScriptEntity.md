@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 172,
-  "Name": "Mayert-Kautzer",
+  "ScreenChooserId": 15,
+  "Name": "Langosh-Johnston",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptate",
-  "Source": "aperiam",
-  "Registered": "1996-05-29T03:31:33.2718572+02:00",
-  "RegisteredAssociateId": 50,
-  "Updated": "2004-02-07T03:31:33.2718572+01:00",
-  "UpdatedAssociateId": 751
+  "UniqueIdentifier": "at",
+  "Source": "eum",
+  "Registered": "2019-09-08T03:24:52.0213616+02:00",
+  "RegisteredAssociateId": 164,
+  "Updated": "2001-12-08T03:24:52.0213616+01:00",
+  "UpdatedAssociateId": 352
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 624,
-  "Name": "Treutel-Emard",
+  "ScreenChooserId": 655,
+  "Name": "Hudson-Kirlin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "reiciendis",
-  "Source": "delectus",
-  "Registered": "2002-02-19T03:31:33.2718572+01:00",
-  "RegisteredAssociateId": 366,
-  "Updated": "2019-04-30T03:31:33.2718572+02:00",
-  "UpdatedAssociateId": 247,
+  "UniqueIdentifier": "atque",
+  "Source": "quia",
+  "Registered": "2002-09-03T03:24:52.0213616+02:00",
+  "RegisteredAssociateId": 349,
+  "Updated": "2017-03-15T03:24:52.0213616+01:00",
+  "UpdatedAssociateId": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 312
     }
   },
   "_Links": {

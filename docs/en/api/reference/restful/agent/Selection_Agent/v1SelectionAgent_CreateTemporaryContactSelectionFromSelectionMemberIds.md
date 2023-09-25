@@ -118,10 +118,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 195,
+  "SelectionId": 639,
   "SelectionMemberIds": [
-    167,
-    889
+    837,
+    17
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Configurable optimizing website",
-  "Postit": "ut",
+  "Description": "Team-oriented zero tolerance leverage",
+  "Postit": "eaque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 578,
-  "IncludePerson": 168,
-  "MemberCount": 866,
-  "Name": "O'Keefe, Torphy and Heathcote",
-  "PostitTextId": 293,
-  "CreatedDate": "2015-01-17T03:31:27.2624464+01:00",
-  "SelectionId": 992,
-  "SoundEx": "molestiae",
-  "Source": 707,
-  "TextId": 424,
-  "UpdatedDate": "2014-01-25T03:31:27.2624464+01:00",
-  "UpdatedCount": 665,
-  "Visibility": 378,
+  "GroupIdx": 656,
+  "IncludePerson": 889,
+  "MemberCount": 991,
+  "Name": "Johnson Group",
+  "PostitTextId": 288,
+  "CreatedDate": "2007-04-13T03:24:48.2524255+02:00",
+  "SelectionId": 482,
+  "SoundEx": "eligendi",
+  "Source": 427,
+  "TextId": 110,
+  "UpdatedDate": "2007-12-12T03:24:48.2524255+01:00",
+  "UpdatedCount": 175,
+  "Visibility": 714,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 564,
-  "TargetTableName": "Klein Inc and Sons",
+  "TargetTableNumber": 409,
+  "TargetTableName": "Halvorson-Donnelly",
   "Completed": true,
-  "LeftSelectionId": 51,
-  "RightSelectionId": 36,
+  "LeftSelectionId": 441,
+  "RightSelectionId": 149,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kulas, Stamm and Zieme",
-  "ShadowProviderName": "Block-Stark",
-  "ChartKey": "quo",
-  "LastLoaded": "1999-06-02T03:31:27.2624464+02:00",
-  "LastLoadedBy": 52,
+  "MainProviderName": "Deckow Inc and Sons",
+  "ShadowProviderName": "Schumm, Rath and O'Keefe",
+  "ChartKey": "in",
+  "LastLoaded": "2008-11-29T03:24:48.2524255+01:00",
+  "LastLoadedBy": 207,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-01-02T03:31:27.2624464+01:00",
-  "LastMembershipChangeBy": 942,
+  "LastMembershipChange": "2008-10-02T03:24:48.2524255+02:00",
+  "LastMembershipChangeBy": 943,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quo",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Crooks-Skiles",
-  "DashboardTileDefinitionId": 545,
+  "MainHeading": "quia",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Langworth-Goldner",
+  "DashboardTileDefinitionId": 652,
   "VisibleFor": [
     {
-      "VisibleId": 438,
+      "VisibleId": 44,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     },
     {
-      "VisibleId": 438,
+      "VisibleId": 44,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 14
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 998
     }
   }
 }

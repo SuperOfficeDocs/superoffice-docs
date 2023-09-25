@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Moen-Hand",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 525,
-  "Rank": 733,
+  "Id": 400,
+  "Name": "Mraz-Murray",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "UdListDefinitionId": 462,
+  "Rank": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldType": "System.String",
+      "FieldLength": 876
     }
   }
 }

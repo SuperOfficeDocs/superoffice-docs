@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "temporibus",
-  "AssociateId": 998,
-  "IsPerson": true,
-  "PersonId": 837,
-  "CountryId": 748,
-  "HomeCountryId": 651,
-  "ContactId": 938,
-  "GroupId": 451,
-  "BusinessId": 416,
-  "CategoryId": 711,
-  "ContactOwner": 429,
-  "RoleId": 707,
-  "RoleName": "Beer Group",
-  "RoleDescription": "Organic reciprocal customer loyalty",
+  "Associate": "nesciunt",
+  "AssociateId": 880,
+  "IsPerson": false,
+  "PersonId": 717,
+  "CountryId": 523,
+  "HomeCountryId": 40,
+  "ContactId": 9,
+  "GroupId": 516,
+  "BusinessId": 590,
+  "CategoryId": 436,
+  "ContactOwner": 109,
+  "RoleId": 699,
+  "RoleName": "Skiles-Klein",
+  "RoleDescription": "Re-contextualized non-volatile complexity",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 447,
-      "OwnerName": "Bednar Inc and Sons",
-      "OwnerDescription": "Inverse modular core",
-      "ModuleId": 59,
-      "Name": "Nicolas LLC",
-      "Description": "Inverse interactive protocol",
-      "Version": "deserunt",
+      "OwnerId": 472,
+      "OwnerName": "Jacobs, Hahn and Stamm",
+      "OwnerDescription": "Quality-focused even-keeled contingency",
+      "ModuleId": 333,
+      "Name": "Stroman LLC",
+      "Description": "Profound solution-oriented local area network",
+      "Version": "enim",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 654,
-      "ExtraInfo": "totam",
-      "SortOrder": 115,
-      "LicenseNumber": 422,
+      "ExtraFlags": 636,
+      "ExtraInfo": "iste",
+      "SortOrder": 259,
+      "LicenseNumber": 961,
       "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2005-02-12T03:31:33.4292537+01:00",
+      "ExpiryDate": "1998-07-29T03:24:52.1307225+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 312
+          "FieldLength": 953
         }
       }
     }
   ],
-  "FullName": "Alfreda Bergstrom",
-  "EMailAddress": "et",
+  "FullName": "Pattie Gibson",
+  "EMailAddress": "error",
   "FunctionRights": [
-    "possimus",
-    "aperiam"
+    "laborum",
+    "voluptatem"
   ],
-  "EjUserId": 800,
-  "EjAccessLevel": 846,
+  "EjUserId": 398,
+  "EjAccessLevel": 319,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "impedit",
-      "SearchName": "Borer Inc and Sons",
-      "DisplayName": "Hudson-Gleason",
-      "CredentialId": 411
+      "Type": "autem",
+      "SearchName": "Collier-Rau",
+      "DisplayName": "Moore Inc and Sons",
+      "CredentialId": 490
     },
     {
-      "Type": "impedit",
-      "SearchName": "Borer Inc and Sons",
-      "DisplayName": "Hudson-Gleason",
-      "CredentialId": 411
+      "Type": "autem",
+      "SearchName": "Collier-Rau",
+      "DisplayName": "Moore Inc and Sons",
+      "CredentialId": 490
     }
   ],
   "SecondaryGroups": [
-    397,
-    160
+    415,
+    669
   ],
-  "DatabaseContextIdentifier": "quas",
-  "UserName": "Kuhic-Senger"
+  "DatabaseContextIdentifier": "voluptatum",
+  "UserName": "Champlin LLC"
 }
 ```

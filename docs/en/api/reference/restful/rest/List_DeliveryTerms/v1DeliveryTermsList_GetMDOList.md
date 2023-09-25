@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=nostrum
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=dolor
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Hyatt-Wilkinson",
-    "ToolTip": "Itaque quia quia inventore modi itaque dolorem sed.",
+    "Id": 517,
+    "Name": "Hilpert, Lemke and Hyatt",
+    "ToolTip": "Eligendi aut mollitia.",
     "Deleted": false,
-    "Rank": 319,
-    "Type": "doloribus",
+    "Rank": 605,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Swaniawski, Jewess and Pfeffer",
-        "ToolTip": "Repellendus rerum rerum beatae non adipisci.",
-        "Deleted": true,
-        "Rank": 994,
-        "Type": "cum",
+        "Id": 545,
+        "Name": "Okuneva, Wiza and Haag",
+        "ToolTip": "Dolore laborum.",
+        "Deleted": false,
+        "Rank": 845,
+        "Type": "doloremque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "velit",
-        "ColorBlock": 174,
-        "ExtraInfo": "maiores",
-        "StyleHint": "atque",
-        "FullName": "Clemmie Lind",
+        "IconHint": "aut",
+        "ColorBlock": 507,
+        "ExtraInfo": "cumque",
+        "StyleHint": "qui",
+        "FullName": "Miss Roel Volkman I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 656
+            "FieldLength": 71
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 184,
-    "ExtraInfo": "sunt",
-    "StyleHint": "reprehenderit",
-    "FullName": "Dr. Conner Noemie Klein III",
+    "IconHint": "aut",
+    "ColorBlock": 968,
+    "ExtraInfo": "quae",
+    "StyleHint": "incidunt",
+    "FullName": "Miss Adrain Bosco V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 430
       }
     }
   }

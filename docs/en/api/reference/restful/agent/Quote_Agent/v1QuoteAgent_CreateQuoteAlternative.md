@@ -101,9 +101,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 251,
-  "QuoteAlternativeName": "Schoen-Hackett",
-  "QuoteAlternativeDescription": "Managed radical forecast"
+  "QuoteVersionId": 937,
+  "QuoteAlternativeName": "Kassulke-Wuckert",
+  "QuoteAlternativeDescription": "Advanced bottom-line projection"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 19,
-  "ERPQuoteAlternativeKey": "doloremque",
-  "QuoteVersionId": 76,
-  "Name": "Smitham, Prohaska and Blanda",
-  "Description": "Operative multi-state help-desk",
+  "QuoteAlternativeId": 609,
+  "ERPQuoteAlternativeKey": "fuga",
+  "QuoteVersionId": 57,
+  "Name": "Corwin Inc and Sons",
+  "Description": "Decentralized intermediate initiative",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 24564.291999999998,
-  "ERPDiscountAmount": 30960.786,
-  "DiscountPercent": 4610.114,
-  "DiscountAmount": 13632.9,
+  "ERPDiscountPercent": 2463.324,
+  "ERPDiscountAmount": 26134.426,
+  "DiscountPercent": 15018.127999999999,
+  "DiscountAmount": 1883.5339999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolorem",
-  "VAT": 12573.608,
-  "EarningPercent": 25416.739999999998,
-  "EarningAmount": 10094.614,
-  "SubTotal": 13795.868,
-  "TotalPrice": 17832.46,
-  "ExtraField1": "ea",
-  "ExtraField2": "dicta",
-  "ExtraField3": "provident",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "eos",
+  "VATInfo": "quam",
+  "VAT": 4547.434,
+  "EarningPercent": 25936.984,
+  "EarningAmount": 1560.732,
+  "SubTotal": 26212.775999999998,
+  "TotalPrice": 4230.9,
+  "ExtraField1": "quaerat",
+  "ExtraField2": "nihil",
+  "ExtraField3": "alias",
+  "ExtraField4": "numquam",
+  "ExtraField5": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 41
     }
   }
 }

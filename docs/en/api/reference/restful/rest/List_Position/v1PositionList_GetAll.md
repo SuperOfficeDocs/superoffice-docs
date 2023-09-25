@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Cole-Leannon",
-    "Tooltip": "necessitatibus",
-    "Deleted": true,
-    "UdListDefinitionId": 248,
-    "Rank": 463,
+    "Id": 527,
+    "Name": "Simonis Inc and Sons",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "UdListDefinitionId": 287,
+    "Rank": 129,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 109
       }
     }
   }

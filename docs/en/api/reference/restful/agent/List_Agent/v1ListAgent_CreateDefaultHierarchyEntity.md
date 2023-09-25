@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 83,
+  "HierarchyId": 51,
   "Domain": "Dashboards",
-  "Name": "Robel, Lesch and Altenwerth",
-  "Fullname": "vero",
-  "ParentId": 345,
+  "Name": "Terry-Kozey",
+  "Fullname": "deserunt",
+  "ParentId": 961,
   "Children": [
     {
-      "HierarchyId": 897,
+      "HierarchyId": 807,
       "Domain": "Dashboards",
-      "Name": "Hamill-Berge",
-      "Fullname": "et",
-      "ParentId": 355,
+      "Name": "D'Amore LLC",
+      "Fullname": "consequatur",
+      "ParentId": 429,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-06-13T03:31:26.7300385+02:00",
-      "RegisteredAssociateId": 195,
-      "Updated": "2020-06-03T03:31:26.7300385+02:00",
-      "UpdatedAssociateId": 306,
+      "Registered": "2020-07-18T03:24:47.908255+02:00",
+      "RegisteredAssociateId": 504,
+      "Updated": "2019-03-07T03:24:47.908255+01:00",
+      "UpdatedAssociateId": 621,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldLength": 769
         }
       }
     }
   ],
-  "Registered": "2004-01-30T03:31:26.7300385+01:00",
-  "RegisteredAssociateId": 715,
-  "Updated": "2013-12-10T03:31:26.7300385+01:00",
-  "UpdatedAssociateId": 104,
+  "Registered": "2018-08-07T03:24:47.908255+02:00",
+  "RegisteredAssociateId": 99,
+  "Updated": "2001-06-03T03:24:47.908255+02:00",
+  "UpdatedAssociateId": 658,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

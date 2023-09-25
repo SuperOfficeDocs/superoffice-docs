@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 20 Jul 2006 03:31:32 G7T
+Last-Modified: Fri, 04 Nov 2005 03:24:51 G11T
 
 {
-  "SourceContactId": 723,
-  "SourcePersonId": 586,
-  "DestinationContactId": 676,
-  "DestinationPersonId": 448,
-  "RelationId": 15,
-  "Comment": "est",
-  "RelationDefinitionId": 59,
-  "Reversed": 713,
-  "UpdatedDate": "2006-07-20T03:31:32.4883125+02:00",
-  "CreatedDate": "2020-07-12T03:31:32.4883125+02:00",
+  "SourceContactId": 90,
+  "SourcePersonId": 600,
+  "DestinationContactId": 900,
+  "DestinationPersonId": 706,
+  "RelationId": 526,
+  "Comment": "consequuntur",
+  "RelationDefinitionId": 902,
+  "Reversed": 29,
+  "UpdatedDate": "2005-11-04T03:24:51.5368575+01:00",
+  "CreatedDate": "1998-02-19T03:24:51.5368575+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Flatley LLC",
-  "SourcePersonName": "Becker-Abbott",
-  "DestinationContactName": "Ondricka-McKenzie",
-  "DestinationPersonName": "Stoltenberg-Beier",
-  "ActiveText": "esse",
-  "PassiveText": "aperiam",
+  "SourceContactName": "Boehm, Lindgren and Leannon",
+  "SourcePersonName": "Hamill, Effertz and Mohr",
+  "DestinationContactName": "Becker, Mosciski and Pagac",
+  "DestinationPersonName": "Boyer Inc and Sons",
+  "ActiveText": "eligendi",
+  "PassiveText": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldType": "System.String",
+      "FieldLength": 713
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

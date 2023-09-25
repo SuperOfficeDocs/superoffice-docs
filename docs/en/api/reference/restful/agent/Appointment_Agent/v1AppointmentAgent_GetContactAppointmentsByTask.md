@@ -130,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 506,
-  "StartTime": "2014-07-12T03:31:25.1157524+02:00",
-  "EndTime": "2002-03-20T03:31:25.1157524+01:00",
-  "Count": 710,
-  "TaskId": 232
+  "ContactId": 306,
+  "StartTime": "2001-06-15T03:24:46.9394467+02:00",
+  "EndTime": "2004-10-07T03:24:46.9394467+02:00",
+  "Count": 359,
+  "TaskId": 96
 }
 ```
 
@@ -150,64 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 962,
-    "StartDate": "2002-09-06T03:31:25.1157524+02:00",
-    "EndDate": "1997-03-05T03:31:25.1157524+01:00",
+    "AppointmentId": 516,
+    "StartDate": "2006-06-03T03:24:46.9394467+02:00",
+    "EndDate": "2010-11-22T03:24:46.9394467+01:00",
     "Type": "BookingForChecklist",
-    "Task": "itaque",
-    "AssociateFullName": "Tressie Rosenbaum",
-    "ContactName": "Erdman Inc and Sons",
-    "Description": "Upgradable responsive solution",
-    "PersonFullName": "Mr. Darion Champlin IV",
-    "PersonId": 525,
-    "ContactId": 606,
-    "ProjectId": 841,
-    "ProjectName": "Sporer Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 170,
-    "ColorIndex": 462,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "autem",
+    "AssociateFullName": "Ronny Grimes",
+    "ContactName": "Huel-Moen",
+    "Description": "Networked full-range process improvement",
+    "PersonFullName": "Hester Wehner",
+    "PersonId": 275,
+    "ContactId": 946,
+    "ProjectId": 860,
+    "ProjectName": "Kiehn, Wunsch and Bode",
+    "IsPublished": false,
+    "AssociateId": 503,
+    "ColorIndex": 217,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 813,
-    "PriorityName": "Jacobson LLC",
+    "PriorityId": 344,
+    "PriorityName": "Larson, Kuvalis and Macejkovic",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2003-11-30T03:31:25.1157524+01:00",
+    "ActiveDate": "2013-01-01T03:24:46.9394467+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-11-06T03:31:25.1157524+01:00",
-    "RecurringEndDate": "2010-10-22T03:31:25.1157524+02:00",
-    "MotherId": 391,
-    "AssignedBy": 1000,
-    "AssignedByFullName": "Gust Pfannerstill",
+    "RecurringStartDate": "2000-03-25T03:24:46.9394467+01:00",
+    "RecurringEndDate": "2009-06-11T03:24:46.9394467+02:00",
+    "MotherId": 639,
+    "AssignedBy": 135,
+    "AssignedByFullName": "Prof. Dallas Josiah Schmidt",
     "RejectReason": "",
-    "Location": "quaerat",
-    "AlarmLeadTime": "et",
-    "SaleId": 310,
-    "SaleName": "Russel, Kutch and Jones",
-    "AssociateName": "Halvorson, Hayes and O'Kon",
-    "CreatedDate": "2021-04-23T03:31:25.1157524+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Golden Beahan",
-    "CreatedByAssociateId": 224,
+    "Location": "quia",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 477,
+    "SaleName": "Windler Inc and Sons",
+    "AssociateName": "Smitham, Deckow and Feeney",
+    "CreatedDate": "2002-05-16T03:24:46.9394467+02:00",
+    "CreatedBy": "amet",
+    "CreatedByFullName": "Miss Lelah Parker MD",
+    "CreatedByAssociateId": 654,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "quia",
-    "Agenda": "laudantium",
-    "InternalNotes": "dicta",
+    "Title": "commodi",
+    "Agenda": "non",
+    "InternalNotes": "sequi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 631
       }
     }
   }

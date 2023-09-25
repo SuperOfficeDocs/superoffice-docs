@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "id",
+  "UniqueIdentifier": "dolores",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "enim",
-  "Name": "Keeling-Jacobson",
-  "Description": "Versatile intermediate support",
-  "IncludeId": "adipisci",
-  "Source": "enim",
-  "Registered": "2001-07-28T03:31:25.9790593+02:00",
-  "RegisteredBy": "illo",
-  "Updated": "2006-07-18T03:31:25.9790593+02:00",
-  "UpdatedBy": "quo",
-  "Path": "nobis",
+  "UniqueIdentifier": "repellat",
+  "Name": "Prosacco Inc and Sons",
+  "Description": "Assimilated bi-directional flexibility",
+  "IncludeId": "sit",
+  "Source": "eligendi",
+  "Registered": "2021-12-11T03:24:47.4708008+01:00",
+  "RegisteredBy": "dolore",
+  "Updated": "2006-11-07T03:24:47.4708008+01:00",
+  "UpdatedBy": "ut",
+  "Path": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldType": "System.String",
+      "FieldLength": 99
     }
   }
 }

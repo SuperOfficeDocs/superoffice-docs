@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 551,
-    "Name": "Luettgen-Stiedemann",
-    "Tooltip": "ullam",
+    "HeadingId": 276,
+    "Name": "Williamson LLC",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 126,
-    "UdListDefinitionId": 741,
+    "Rank": 14,
+    "UdListDefinitionId": 142,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 336
+        "FieldLength": 639
       }
     }
   }

@@ -92,9 +92,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 499,
-  "CurrentAppointmentId": 629,
-  "SkipCompleteCheck": false
+  "SaleId": 883,
+  "CurrentAppointmentId": 119,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 667,
-  "Deleted": 144,
-  "DaysFuture": 565,
-  "Tooltip": "voluptatem",
-  "Text": "laborum",
-  "TaskId": 622,
-  "SuggestedAppointmentId": 209,
-  "SaleTypeStageLinkId": 73,
-  "RegisteredAssociateId": 727,
-  "Rank": 993,
-  "ProjectTypeStatusLinkId": 25,
-  "Name": "Wyman Group",
-  "Duration": 988,
+  "AutoSuggest": 141,
+  "Deleted": 529,
+  "DaysFuture": 133,
+  "Tooltip": "nulla",
+  "Text": "nam",
+  "TaskId": 669,
+  "SuggestedAppointmentId": 633,
+  "SaleTypeStageLinkId": 728,
+  "RegisteredAssociateId": 745,
+  "Rank": 853,
+  "ProjectTypeStatusLinkId": 700,
+  "Name": "Larson, Rohan and Beier",
+  "Duration": 767,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 71
     }
   }
 }

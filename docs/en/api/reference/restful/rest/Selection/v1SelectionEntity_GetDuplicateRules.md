@@ -58,7 +58,7 @@ OK
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McDermott, Torp and Roberts",
-    "DisplayName": "Christiansen Group",
-    "DisplayTooltip": "id",
-    "IsActive": false,
+    "Name": "Douglas Inc and Sons",
+    "DisplayName": "Schamberger-Smith",
+    "DisplayTooltip": "numquam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldType": "System.Int32",
+        "FieldLength": 765
       }
     }
   },
   {
-    "Name": "McDermott, Torp and Roberts",
-    "DisplayName": "Christiansen Group",
-    "DisplayTooltip": "id",
-    "IsActive": false,
+    "Name": "Douglas Inc and Sons",
+    "DisplayName": "Schamberger-Smith",
+    "DisplayTooltip": "numquam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldType": "System.Int32",
+        "FieldLength": 765
       }
     }
   }

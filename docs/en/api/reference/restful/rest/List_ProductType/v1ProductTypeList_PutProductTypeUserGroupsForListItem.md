@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Heller, Farrell and VonRueden",
-    "ToolTip": "Corrupti qui culpa veritatis.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "nihil",
-    "ColorBlock": 159,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2012-12-27T03:31:33.7429875+01:00",
+    "Id": 667,
+    "Name": "Bergnaum Group",
+    "ToolTip": "Error et qui et consequatur.",
+    "Deleted": false,
+    "Rank": 891,
+    "Type": "magnam",
+    "ColorBlock": 997,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "1998-03-02T03:24:52.3338241+01:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Vandervort, Hermiston and Bailey",
-        "ToolTip": "Maxime voluptas nostrum quo iste consequatur consequatur laudantium.",
+        "Id": 31,
+        "Name": "Yost Group",
+        "ToolTip": "Ut est culpa explicabo vel omnis neque.",
         "Deleted": true,
-        "Rank": 801,
-        "Type": "asperiores",
-        "ColorBlock": 883,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2017-12-26T03:31:33.7586101+01:00",
+        "Rank": 639,
+        "Type": "alias",
+        "ColorBlock": 273,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2005-03-20T03:24:52.3338241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "qui",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Christa Emard"
+        "FullName": "May Kris"
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "sit",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Tianna Jada Gerlach DDS"
+    "FullName": "Floyd Muller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Lueilwitz Inc and Sons",
-    "ToolTip": "Eos vel et aliquam sed.",
-    "Deleted": false,
-    "Rank": 262,
-    "Type": "reprehenderit",
-    "ColorBlock": 95,
-    "IconHint": "odit",
-    "Selected": false,
-    "LastChanged": "2000-06-14T03:31:33.7586101+02:00",
+    "Id": 772,
+    "Name": "Roob-Sporer",
+    "ToolTip": "Ea officiis quis repellat.",
+    "Deleted": true,
+    "Rank": 243,
+    "Type": "unde",
+    "ColorBlock": 844,
+    "IconHint": "qui",
+    "Selected": true,
+    "LastChanged": "2008-02-24T03:24:52.3338241+01:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Kassulke Inc and Sons",
-        "ToolTip": "Nesciunt aut ullam enim fugit eius eligendi.",
+        "Id": 593,
+        "Name": "Koelpin Inc and Sons",
+        "ToolTip": "Repellendus ut vero fuga aut consequuntur voluptatibus laboriosam.",
         "Deleted": false,
-        "Rank": 547,
-        "Type": "non",
-        "ColorBlock": 12,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2009-07-30T03:31:33.7586101+02:00",
+        "Rank": 806,
+        "Type": "maxime",
+        "ColorBlock": 801,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2004-11-03T03:24:52.3338241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "est",
+        "ExtraInfo": "ut",
+        "StyleHint": "error",
         "Hidden": true,
-        "FullName": "Spencer Hauck",
+        "FullName": "Ms. Juston Mona Waelchi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 949
+            "FieldLength": 609
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "alias",
+    "ExtraInfo": "quis",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Miss Kobe Yvette Davis DDS",
+    "FullName": "Jadon Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldType": "System.String",
+        "FieldLength": 596
       }
     }
   }

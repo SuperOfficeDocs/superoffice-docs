@@ -40,7 +40,7 @@ Anything else needs to be coded!
 ## Sample
 
 ```http!
-GET /api/v1/archive/MappedPreferences?$select=maxlevelname,maxlevel,ownerId
+GET /api/v1/archive/MappedPreferences?$select=maxlevel,ownerId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

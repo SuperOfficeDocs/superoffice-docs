@@ -88,33 +88,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 289,
-    "Name": "Hansen, Hahn and Schuppe",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 914,
+    "WebPanelId": 586,
+    "Name": "Waters Inc and Sons",
+    "Tooltip": "deserunt",
+    "Deleted": false,
+    "Rank": 352,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Berge Group",
+    "WindowName": "Walter, Jakubowski and Mann",
     "Url": "http://www.example.com/",
-    "ProgId": "autem",
-    "Icon": 743,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "consequatur",
+    "Icon": 259,
+    "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 569
       }
     }
   }

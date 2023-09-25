@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "facere",
+  "SaleText": "expedita",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-02-15T03:31:32.9100803+01:00",
-  "Amount": 5694.478,
-  "SaleId": 263,
-  "Earning": 18872.948,
-  "EarningPercent": 22063.36,
-  "Heading": "officiis",
-  "Number": "851827",
-  "Probability": 505,
-  "CreatedDate": "2009-10-20T03:31:32.9100803+02:00",
-  "UpdatedDate": "2017-07-12T03:31:32.9100803+02:00",
+  "Saledate": "2010-08-07T03:24:51.8963736+02:00",
+  "Amount": 31340.0,
+  "SaleId": 402,
+  "Earning": 2911.486,
+  "EarningPercent": 9809.42,
+  "Heading": "qui",
+  "Number": "1103399",
+  "Probability": 371,
+  "CreatedDate": "2020-03-22T03:24:51.8963736+01:00",
+  "UpdatedDate": "2023-05-26T03:24:51.8963736+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 498,
+  "ActiveLinks": 671,
   "Links": [
     {
-      "EntityName": "Cummings Group",
-      "Id": 577,
-      "Description": "Reverse-engineered local time-frame",
-      "ExtraInfo": "eaque",
-      "LinkId": 505
+      "EntityName": "Nienow LLC",
+      "Id": 265,
+      "Description": "Reactive explicit parallelism",
+      "ExtraInfo": "iure",
+      "LinkId": 737
     },
     {
-      "EntityName": "Cummings Group",
-      "Id": 577,
-      "Description": "Reverse-engineered local time-frame",
-      "ExtraInfo": "eaque",
-      "LinkId": 505
+      "EntityName": "Nienow LLC",
+      "Id": 265,
+      "Description": "Reactive explicit parallelism",
+      "ExtraInfo": "iure",
+      "LinkId": 737
     }
   ],
-  "NextDueDate": "2019-06-29T03:31:32.9100803+02:00",
-  "Postit": "magni",
+  "NextDueDate": "2021-08-10T03:24:51.8963736+02:00",
+  "Postit": "voluptatem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-01-19T03:31:32.9100803+01:00",
+  "ReopenDate": "2012-07-22T03:24:51.8963736+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kautzer, Lindgren and Runolfsdottir",
-      "Comment": "nisi",
-      "StakeholderRoleId": 700,
-      "CountryId": 856,
-      "PersonId": 501,
-      "EmailDescription": "celestine.johnston@douglas.info",
-      "EmailId": 739,
-      "EmailAddress": "pinkie@sporerabshire.ca",
-      "PhoneId": 746,
-      "ContactName": "Schimmel-Ondricka",
-      "ContactId": 839,
-      "SaleId": 78,
-      "Mrmrs": "voluptate",
-      "Firstname": "Michael",
-      "MiddleName": "Hand, Okuneva and Bahringer",
-      "Lastname": "Ebert",
-      "SaleStakeholderId": 501,
-      "Rank": 893,
-      "Phone": "381-777-2087"
+      "StakeholderRoleName": "Brekke-Gutmann",
+      "Comment": "blanditiis",
+      "StakeholderRoleId": 510,
+      "CountryId": 970,
+      "PersonId": 197,
+      "EmailDescription": "walker_steuber@mclaughlinhermann.com",
+      "EmailId": 695,
+      "EmailAddress": "amya@trantow.co.uk",
+      "PhoneId": 629,
+      "ContactName": "Brown-Langworth",
+      "ContactId": 289,
+      "SaleId": 369,
+      "Mrmrs": "distinctio",
+      "Firstname": "Daphne",
+      "MiddleName": "Stracke-Boehm",
+      "Lastname": "Lockman",
+      "SaleStakeholderId": 538,
+      "Rank": 286,
+      "Phone": "362.535.0733 x83857"
     }
   ],
-  "ActiveErpLinks": 951,
+  "ActiveErpLinks": 46,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kelley Moore",
-    "SuperOffice:2": "1094515447"
+    "SuperOffice:1": "610403024",
+    "SuperOffice:2": "1601245532"
   },
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
     "CustomFields1": "rerum",
-    "CustomFields2": "et"
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "2012-08-27T03:31:32.9100803+02:00",
-  "PublishTo": "2005-04-22T03:31:32.9100803+02:00",
-  "PublishFrom": "2001-09-23T03:31:32.9100803+02:00",
+  "PublishEventDate": "2014-09-14T03:24:51.8963736+02:00",
+  "PublishTo": "2011-12-28T03:24:51.8963736+01:00",
+  "PublishFrom": "2006-06-15T03:24:51.8963736+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 948,
+      "VisibleId": 823,
       "Visibility": "All",
-      "DisplayValue": "consequuntur"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 948,
+      "VisibleId": 823,
       "Visibility": "All",
-      "DisplayValue": "consequuntur"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "atque",
-  "2": "id"
+  "1": "sapiente",
+  "2": "sint"
 }
 ```

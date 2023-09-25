@@ -482,6 +482,7 @@ table data; this will also pull in contact udef and related fields.
 |request/timeSpentQueue|timeSpan|Time spent in queue: Time spent in queue| x |
 |request/timeSpentExternally|timeSpan|Time spent externally: Time spent externally| x |
 |request/timeSpentInternally|timeSpan|Time spent internally: Time spent internally| x |
+|request/timeSpent|timeSpan|Time spent: Time spent| x |
 |request/timeToReply|timeSpan|Time to reply: Time to reply| x |
 |request/timeToClose|timeSpan|Time to close: Time to close| x |
 |request/realTimeToReply|timeSpan|Real time to reply: Real time to reply| x |
@@ -539,11 +540,11 @@ table data; this will also pull in contact udef and related fields.
 |request/ownedBy/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
 |request/ownedBy/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
 |request/ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
-|request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |request/ownedBy/contactCategory|listAny|Owner - Category: Category| x |
 |request/ownedBy/role|listAny|Owner - Role: Role| x |
 |request/ownedBy/assocName|associate|Owner - User ID: User ID| x |
@@ -643,11 +644,11 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |projectMembers/projectUdef/SuperOffice:2|string|projectlongtext| x |
 |projectMembers/projectUdef/SuperOffice:3|int|projectnumber| x |
-|projectMembers/projectUdef/SuperOffice:4|date|projectdate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectUdef/SuperOffice:4|date|projectdate| x |
 |projectMembers/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
 |projectMembers/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |projectMembers/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
@@ -747,11 +748,11 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |personAppointment/associate/contactCategory|listAny|Category: Category| x |
 |personAppointment/associate/role|listAny|Role : Role| x |
-|personAppointment/associate/assocName|associate|User ID : User ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/associate/assocName|associate|User ID : User ID| x |
 |personAppointment/associate/assocTooltip|string|Description : Description|  |
 |personAppointment/associate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |personAppointment/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
@@ -772,7 +773,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=birthDay,restrictionAddress/zip,personExtra/x_person_timespan,personTargetRelation/personCountry
+GET /api/v1/archive/Person?$select=personCountryId,personAddress/line3,personAddress/county,personAddress/wgs84latitude,correspondingAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

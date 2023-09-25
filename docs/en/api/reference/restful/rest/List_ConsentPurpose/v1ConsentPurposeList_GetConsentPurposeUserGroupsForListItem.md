@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Bechtelar-Jast",
-    "ToolTip": "Similique maxime fugit omnis fugit eos harum quia.",
+    "Id": 718,
+    "Name": "Hansen, Schultz and Ernser",
+    "ToolTip": "Quis odit.",
     "Deleted": false,
-    "Rank": 159,
-    "Type": "placeat",
-    "ColorBlock": 776,
-    "IconHint": "est",
+    "Rank": 449,
+    "Type": "earum",
+    "ColorBlock": 739,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "1998-12-10T03:31:33.5229887+01:00",
+    "LastChanged": "2004-01-07T03:24:52.1932187+01:00",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Abernathy, Corwin and Mills",
-        "ToolTip": "Rerum placeat rem error.",
+        "Id": 741,
+        "Name": "Mohr-Schulist",
+        "ToolTip": "Doloribus ullam rerum aspernatur consequuntur.",
         "Deleted": false,
-        "Rank": 903,
-        "Type": "quo",
-        "ColorBlock": 608,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2016-06-03T03:31:33.5229887+02:00",
+        "Rank": 147,
+        "Type": "nobis",
+        "ColorBlock": 678,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2018-03-26T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Amanda Kuhic",
+        "ExtraInfo": "vitae",
+        "StyleHint": "esse",
+        "Hidden": false,
+        "FullName": "Eusebio Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 934
+            "FieldType": "System.Int32",
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "nam",
-    "Hidden": false,
-    "FullName": "Arnaldo McCullough DVM",
+    "ExtraInfo": "aut",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Wilma Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldType": "System.String",
+        "FieldLength": 17
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "Legros-Moore",
-    "ToolTip": "Qui sed est sit qui ea.",
-    "Deleted": true,
-    "Rank": 20,
-    "Type": "eius",
-    "ColorBlock": 706,
-    "IconHint": "debitis",
+    "Id": 690,
+    "Name": "Emmerich, Cassin and Heathcote",
+    "ToolTip": "Incidunt deleniti mollitia.",
+    "Deleted": false,
+    "Rank": 34,
+    "Type": "laborum",
+    "ColorBlock": 453,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2016-01-07T03:31:33.5229887+01:00",
+    "LastChanged": "2000-01-29T03:24:52.1932187+01:00",
     "ChildItems": [
       {
-        "Id": 1000,
-        "Name": "Reichel-Grimes",
-        "ToolTip": "Ab aliquid accusantium optio quidem.",
-        "Deleted": true,
-        "Rank": 133,
-        "Type": "et",
-        "ColorBlock": 280,
-        "IconHint": "consequatur",
+        "Id": 63,
+        "Name": "Stracke LLC",
+        "ToolTip": "Officia dicta.",
+        "Deleted": false,
+        "Rank": 811,
+        "Type": "eligendi",
+        "ColorBlock": 680,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2012-09-19T03:31:33.5229887+02:00",
+        "LastChanged": "2005-05-10T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "qui",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Valentina Wolff Jr."
+        "FullName": "Marjolaine Streich"
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "commodi",
+    "ExtraInfo": "fugit",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Delpha Willis Parisian V"
+    "FullName": "Abdul Lind"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Kirlin, Wisoky and Hauck",
-    "ToolTip": "Qui aliquid eveniet.",
-    "Deleted": true,
-    "Rank": 132,
-    "Type": "aliquid",
-    "ColorBlock": 442,
-    "IconHint": "et",
+    "Id": 580,
+    "Name": "Bartell-Fay",
+    "ToolTip": "Reprehenderit atque occaecati velit.",
+    "Deleted": false,
+    "Rank": 240,
+    "Type": "esse",
+    "ColorBlock": 110,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2007-01-28T03:31:33.5229887+01:00",
+    "LastChanged": "2004-08-25T03:24:52.1932187+02:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Keebler-Gulgowski",
-        "ToolTip": "Est est aliquid dignissimos eum eligendi est sapiente.",
-        "Deleted": true,
-        "Rank": 73,
-        "Type": "fugit",
-        "ColorBlock": 796,
-        "IconHint": "facere",
+        "Id": 618,
+        "Name": "Botsford, Ward and Dickinson",
+        "ToolTip": "Et dolorem quos dolorem omnis.",
+        "Deleted": false,
+        "Rank": 696,
+        "Type": "quo",
+        "ColorBlock": 592,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2017-08-03T03:31:33.5229887+02:00",
+        "LastChanged": "1999-09-02T03:24:52.1932187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Mrs. Yessenia Hildegard Kuphal",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Abby Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 483
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Mr. Hassan Abbott",
+    "ExtraInfo": "sed",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Rylee Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldLength": 975
       }
     }
   }

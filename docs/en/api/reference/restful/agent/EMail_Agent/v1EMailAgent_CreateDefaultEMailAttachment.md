@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused fault-tolerant attitude",
-  "Filename": "earum",
-  "Size": 950,
-  "Type": "quisquam",
-  "Encoding": "in",
-  "Id": "et",
-  "Disposition": "voluptas",
-  "IsSafeFileExtension": true,
+  "Description": "Stand-alone impactful circuit",
+  "Filename": "doloremque",
+  "Size": 469,
+  "Type": "voluptas",
+  "Encoding": "quia",
+  "Id": "vel",
+  "Disposition": "velit",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 803
     }
   }
 }

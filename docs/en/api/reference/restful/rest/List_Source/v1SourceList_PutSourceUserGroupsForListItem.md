@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "McLaughlin-Yost",
-    "ToolTip": "Earum earum esse aut rerum aperiam.",
+    "Id": 266,
+    "Name": "Walsh-Greenfelder",
+    "ToolTip": "Et accusantium velit aliquam.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "eaque",
-    "ColorBlock": 722,
-    "IconHint": "assumenda",
+    "Rank": 85,
+    "Type": "doloremque",
+    "ColorBlock": 351,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2010-06-25T03:31:33.900328+02:00",
+    "LastChanged": "2006-08-03T03:24:52.4275712+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Sauer, Sanford and Lang",
-        "ToolTip": "Ea est repellendus.",
+        "Id": 895,
+        "Name": "Cormier LLC",
+        "ToolTip": "Quis omnis aut impedit occaecati.",
         "Deleted": false,
-        "Rank": 746,
-        "Type": "eum",
-        "ColorBlock": 98,
-        "IconHint": "amet",
+        "Rank": 449,
+        "Type": "incidunt",
+        "ColorBlock": 286,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2007-08-16T03:31:33.900328+02:00",
+        "LastChanged": "2019-12-24T03:24:52.4275712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quos",
+        "ExtraInfo": "numquam",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Sandra Rice"
+        "FullName": "Brannon Thompson"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Corrine Bauch"
+    "ExtraInfo": "mollitia",
+    "StyleHint": "nulla",
+    "Hidden": true,
+    "FullName": "Jonatan Keebler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "O'Keefe LLC",
-    "ToolTip": "Porro expedita id sed.",
-    "Deleted": false,
-    "Rank": 781,
-    "Type": "cumque",
-    "ColorBlock": 809,
-    "IconHint": "fugiat",
+    "Id": 363,
+    "Name": "Luettgen, Lakin and Tillman",
+    "ToolTip": "Aut fuga labore expedita dicta sed.",
+    "Deleted": true,
+    "Rank": 666,
+    "Type": "doloremque",
+    "ColorBlock": 217,
+    "IconHint": "labore",
     "Selected": true,
-    "LastChanged": "2017-10-19T03:31:33.900328+02:00",
+    "LastChanged": "2000-08-08T03:24:52.4275712+02:00",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Mayer-Cormier",
-        "ToolTip": "Sint aliquid.",
-        "Deleted": false,
-        "Rank": 1002,
-        "Type": "et",
-        "ColorBlock": 448,
-        "IconHint": "quibusdam",
+        "Id": 23,
+        "Name": "Romaguera, Murray and Zboncak",
+        "ToolTip": "Facere dolor id.",
+        "Deleted": true,
+        "Rank": 53,
+        "Type": "reprehenderit",
+        "ColorBlock": 639,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2003-03-21T03:31:33.900328+01:00",
+        "LastChanged": "2013-02-03T03:24:52.4275712+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "qui",
+        "ExtraInfo": "est",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Darius Minerva Kemmer II",
+        "FullName": "Maudie Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 826
+            "FieldLength": 981
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Elody McCullough",
+    "ExtraInfo": "dolore",
+    "StyleHint": "veritatis",
+    "Hidden": true,
+    "FullName": "Rhoda Claudie Conroy II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldLength": 527
       }
     }
   }

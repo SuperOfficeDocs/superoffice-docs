@@ -78,11 +78,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 542,
-  "UserName": "Mertz-Morar",
-  "Password": "eos",
-  "IsActive": false,
-  "RoleId": 543,
+  "AssociateId": 266,
+  "UserName": "Harvey LLC",
+  "Password": "natus",
+  "IsActive": true,
+  "RoleId": 894,
   "ExternalUserInfoModification": "Active"
 }
 ```

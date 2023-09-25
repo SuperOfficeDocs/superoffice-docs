@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 776
+  "UserGroupId": 975
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 636,
-    "ColumnId": 234,
-    "FieldDefault": "ex",
-    "FieldHeight": 513,
-    "FieldLabel": "iusto",
-    "FieldLeft": 867,
-    "FieldTop": 283,
+    "UDefFieldId": 731,
+    "ColumnId": 635,
+    "FieldDefault": "et",
+    "FieldHeight": 273,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 800,
+    "FieldTop": 740,
     "FieldType": "Checkbox",
-    "FieldWidth": 308,
-    "FormatMask": "sequi",
+    "FieldWidth": 607,
+    "FormatMask": "perspiciatis",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 798,
-    "LabelLeft": 378,
-    "LabelTop": 946,
-    "LabelWidth": 381,
-    "LastVersionId": 964,
-    "ListTableId": 707,
+    "LabelHeight": 337,
+    "LabelLeft": 778,
+    "LabelTop": 315,
+    "LabelWidth": 11,
+    "LastVersionId": 734,
+    "ListTableId": 158,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 98,
-    "ProgId": "libero",
+    "Page1LineNo": 55,
+    "ProgId": "voluptatibus",
     "IsReadOnly": false,
-    "ShortLabel": "dolore",
-    "TabOrder": 920,
-    "TextLength": 110,
-    "Tooltip": "quas",
-    "UdefIdentity": 890,
-    "UDListDefinitionId": 436,
+    "ShortLabel": "molestias",
+    "TabOrder": 443,
+    "TextLength": 37,
+    "Tooltip": "autem",
+    "UdefIdentity": 326,
+    "UDListDefinitionId": 621,
     "Justification": "Center",
-    "Version": 96,
-    "TemplateVariableName": "Stehr LLC",
+    "Version": 208,
+    "TemplateVariableName": "Towne-Gerhold",
     "HasBeenPublished": false,
-    "MdoListName": "Wiza Group",
+    "MdoListName": "Oberbrunner LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 154
+        "FieldType": "System.Int32",
+        "FieldLength": 537
       }
     }
   }

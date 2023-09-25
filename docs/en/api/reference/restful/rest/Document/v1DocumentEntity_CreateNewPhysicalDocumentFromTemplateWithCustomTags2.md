@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=725
-POST /api/v1/Document/{documentId}/Content?personId=818
-POST /api/v1/Document/{documentId}/Content?appointmentId=949
-POST /api/v1/Document/{documentId}/Content?saleId=142
-POST /api/v1/Document/{documentId}/Content?selectionId=710
-POST /api/v1/Document/{documentId}/Content?projectId=356
-POST /api/v1/Document/{documentId}/Content?uiCulture=dolores
+POST /api/v1/Document/{documentId}/Content?contactId=781
+POST /api/v1/Document/{documentId}/Content?personId=193
+POST /api/v1/Document/{documentId}/Content?appointmentId=592
+POST /api/v1/Document/{documentId}/Content?saleId=303
+POST /api/v1/Document/{documentId}/Content?selectionId=721
+POST /api/v1/Document/{documentId}/Content?projectId=414
+POST /api/v1/Document/{documentId}/Content?uiCulture=provident
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 240,
+  "DocumentId": 139,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "tenetur",
-  "Name": "Trantow-Bruen",
+  "Attention": "ratione",
+  "Header": "non",
+  "Name": "Rempel-Sauer",
   "OurRef": "et",
-  "YourRef": "illo",
-  "CreatedDate": "2004-07-05T03:31:32.5820422+02:00",
-  "UpdatedDate": "2002-12-22T03:31:32.5820422+01:00",
-  "Description": "Automated mobile data-warehouse",
+  "YourRef": "molestias",
+  "CreatedDate": "2020-03-18T03:24:51.599356+01:00",
+  "UpdatedDate": "2010-08-29T03:24:51.599356+02:00",
+  "Description": "Re-engineered context-sensitive approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-01-14T03:31:32.5820422+01:00",
-  "ExternalRef": "aut",
+  "Date": "2020-01-21T03:24:51.599356+01:00",
+  "ExternalRef": "consequatur",
   "Completed": "Completed",
-  "ActiveLinks": 789,
+  "ActiveLinks": 939,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Langosh, Gerhold and Steuber",
-      "Id": 412,
-      "Description": "Optional global Graphic Interface",
-      "ExtraInfo": "dolore",
-      "LinkId": 863,
+      "EntityName": "Roberts Inc and Sons",
+      "Id": 634,
+      "Description": "Cross-platform transitional function",
+      "ExtraInfo": "et",
+      "LinkId": 357,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 733
+          "FieldType": "System.String",
+          "FieldLength": 583
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 262,
-  "Snum": 45,
+  "SuggestedDocumentId": 592,
+  "Snum": 683,
   "UserDefinedFields": {
-    "SuperOffice:1": "1512881180",
-    "SuperOffice:2": "Prof. Meagan Langworth DDS"
+    "SuperOffice:1": "Jerad Aubree Reichel Sr.",
+    "SuperOffice:2": "Domenick Gibson"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "qui"
+    "CustomFields1": "quia",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2007-06-04T03:31:32.5820422+02:00",
-  "PublishTo": "1998-08-23T03:31:32.5820422+02:00",
-  "PublishFrom": "2021-12-13T03:31:32.5820422+01:00",
+  "PublishEventDate": "2008-10-27T03:24:51.599356+01:00",
+  "PublishTo": "2022-05-27T03:24:51.599356+02:00",
+  "PublishFrom": "2003-06-16T03:24:51.599356+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 180,
+      "VisibleId": 332,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldType": "System.String",
+          "FieldLength": 559
         }
       }
     },
     {
-      "VisibleId": 180,
+      "VisibleId": 332,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldType": "System.String",
+          "FieldLength": 559
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldLength": 786
     }
   }
 }

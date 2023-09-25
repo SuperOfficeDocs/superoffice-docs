@@ -101,29 +101,29 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 734,
-  "ParentId": 167,
-  "Name": "Fadel-Jerde",
-  "Fullname": "dolorem",
-  "CategoryMaster": 740,
+  "TicketCategoryId": 783,
+  "ParentId": 810,
+  "Name": "Feil, Schmidt and Cole",
+  "Fullname": "rerum",
+  "CategoryMaster": 583,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Larkin Inc and Sons",
+  "ExternalName": "Weissnat-White",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 602,
-  "ReplyTemplate": 194,
-  "NotificationEmail": "raquel_koch@bogan.uk",
+  "AssignmentLag": 664,
+  "ReplyTemplate": 533,
+  "NotificationEmail": "philip@jakubowski.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 716,
+  "EffectiveReplyTemplateId": 421,
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "vel"
+    "CustomFields1": "nisi",
+    "CustomFields2": "quisquam"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 840,
-  "ParentId": 8,
-  "Name": "Dach Group",
-  "Fullname": "magni",
-  "CategoryMaster": 760,
+  "TicketCategoryId": 967,
+  "ParentId": 933,
+  "Name": "Herzog-Hudson",
+  "Fullname": "sunt",
+  "CategoryMaster": 468,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hilll, Mueller and Bogisich",
+  "ExternalName": "Boyle, Kertzmann and Lindgren",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 215,
-  "ReplyTemplate": 812,
-  "NotificationEmail": "rickey@abbott.com",
+  "AssignmentLag": 650,
+  "ReplyTemplate": 667,
+  "NotificationEmail": "ardella@dachdoyle.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 78,
+  "EffectiveReplyTemplateId": 744,
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "non"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "nulla"
+    "CustomFields1": "totam",
+    "CustomFields2": "earum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldLength": 59
     }
   }
 }

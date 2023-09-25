@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Lesch LLC"
+  "UserName": "O'Keefe, Weber and Hilll"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 100,
-  "Name": "Hansen, Mertz and Hintz",
-  "Rank": 483,
-  "Tooltip": "consectetur",
+  "AssociateId": 766,
+  "Name": "Kovacek-Cormier",
+  "Rank": 417,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Towne-Hamill",
-      "Description": "Stand-alone heuristic open architecture",
+      "Name": "Lind-Daugherty",
+      "Description": "Versatile optimal open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 847
         }
       }
     },
     {
-      "Name": "Towne-Hamill",
-      "Description": "Stand-alone heuristic open architecture",
+      "Name": "Lind-Daugherty",
+      "Description": "Versatile optimal open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 246
+          "FieldType": "System.Int32",
+          "FieldLength": 847
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quidem",
-      "Tooltip": "voluptatibus",
-      "Id": 631,
-      "Rank": 39,
+      "Value": "dolorum",
+      "Tooltip": "perferendis",
+      "Id": 842,
+      "Rank": 805,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 404
+          "FieldType": "System.Int32",
+          "FieldLength": 698
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2017-05-25T03:31:27.7790901+02:00",
-  "Lastlogout": "1999-11-27T03:31:27.7790901+01:00",
-  "EjUserId": 162,
-  "RequestSignature": "veniam",
+  "Lastlogin": "2003-07-12T03:24:48.5653818+02:00",
+  "Lastlogout": "2004-09-12T03:24:48.5653818+02:00",
+  "EjUserId": 303,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "harum",
-      "DisplayValue": "ut",
+      "Value": "atque",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 292
         }
       }
     },
     {
       "Type": null,
-      "Value": "harum",
-      "DisplayValue": "ut",
+      "Value": "atque",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 292
         }
       }
     }
   ],
-  "UserName": "Conroy, Macejkovic and Stokes",
+  "UserName": "Pouros-Weimann",
   "TicketCategories": [
     {
-      "Id": 621,
-      "Name": "Rodriguez-Sanford",
-      "ToolTip": "Et repudiandae.",
+      "Id": 925,
+      "Name": "Konopelski Group",
+      "ToolTip": "Ex numquam dolorem.",
       "Deleted": true,
-      "Rank": 95,
-      "Type": "commodi",
+      "Rank": 467,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "explicabo",
-      "ColorBlock": 932,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "qui",
-      "FullName": "Marilou Gusikowski",
+      "IconHint": "voluptatibus",
+      "ColorBlock": 583,
+      "ExtraInfo": "et",
+      "StyleHint": "dolore",
+      "FullName": "Freddie Kub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldType": "System.String",
+          "FieldLength": 116
         }
       }
     }
   ],
-  "NickName": "Daniel-Runolfsson",
-  "WaitingForApproval": false,
+  "NickName": "Morar, Bruen and Kilback",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "at",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "qui",
+    "CustomFields2": "voluptatem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lockman-Feeney",
-      "DisplayName": "Doyle LLC",
-      "Description": "Stand-alone clear-thinking concept",
-      "ToolTip": "Dolorem voluptas debitis provident et dolor ea.",
+      "Name": "Okuneva, Feest and Mueller",
+      "DisplayName": "Miller LLC",
+      "Description": "Upgradable explicit monitoring",
+      "ToolTip": "Inventore nobis reprehenderit sit quo hic atque.",
       "Actions": "Implicit",
-      "ActionData": "sed",
+      "ActionData": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 84
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 65
     }
   }
 }

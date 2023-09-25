@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "Name": "Howell-Kuhic",
-  "AssociateId": 553,
-  "DetailsTable": 25,
-  "DetailsRecord": 401,
-  "IsSystemTask": false,
+  "Id": 260,
+  "Name": "Hauck LLC",
+  "AssociateId": 715,
+  "DetailsTable": 877,
+  "DetailsRecord": 385,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "dicta",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "non",
+    "ParameterObject2": "ducimus"
   },
-  "LastStarted": "2017-08-24T03:31:27.1374712+02:00",
-  "Created": "2005-09-01T03:31:27.1374712+02:00",
-  "StartCount": 114,
-  "DatabaseSerialNumber": "1751477",
-  "Context": "mollitia",
-  "Result": "impedit",
+  "LastStarted": "2022-05-08T03:24:48.1738537+02:00",
+  "Created": "2001-11-13T03:24:48.1738537+01:00",
+  "StartCount": 356,
+  "DatabaseSerialNumber": "1819941",
+  "Context": "omnis",
+  "Result": "tempora",
   "State": "All",
-  "Description": "Balanced static standardization",
-  "Response": "velit",
-  "Request": "error",
-  "ProgressDescription": "Down-sized human-resource flexibility",
-  "ProgressPercent": 784,
-  "FileName": "Medhurst Group",
+  "Description": "Pre-emptive uniform paradigm",
+  "Response": "modi",
+  "Request": "pariatur",
+  "ProgressDescription": "User-centric methodical complexity",
+  "ProgressPercent": 284,
+  "FileName": "Hettinger-Abernathy",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 702
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=995
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=586
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 625,
-  "ERPPriceListKey": "itaque",
-  "QuoteConnectionId": 840,
-  "Name": "Swaniawski LLC",
-  "Description": "Adaptive high-level projection",
-  "Currency": "blanditiis",
-  "CurrencyName": "Klocko Inc and Sons",
-  "ValidFrom": "2018-11-29T03:31:27.0737031+01:00",
-  "ValidTo": "2006-05-23T03:31:27.0737031+02:00",
-  "IsActive": false,
+  "PriceListId": 428,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 328,
+  "Name": "Miller LLC",
+  "Description": "Cross-group global help-desk",
+  "Currency": "odit",
+  "CurrencyName": "Kerluke, Gusikowski and Huel",
+  "ValidFrom": "2019-04-03T03:24:48.1269787+02:00",
+  "ValidTo": "2001-03-15T03:24:48.1269787+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldType": "System.Int32",
+      "FieldLength": 558
     }
   }
 }

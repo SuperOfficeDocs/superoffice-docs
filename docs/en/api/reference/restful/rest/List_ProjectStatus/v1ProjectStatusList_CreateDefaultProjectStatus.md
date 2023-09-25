@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Carter LLC",
-  "Tooltip": "perspiciatis",
-  "Deleted": true,
-  "UdListDefinitionId": 719,
-  "Rank": 347,
+  "Id": 430,
+  "Name": "Buckridge LLC",
+  "Tooltip": "magni",
+  "Deleted": false,
+  "UdListDefinitionId": 872,
+  "Rank": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 748
     }
   }
 }

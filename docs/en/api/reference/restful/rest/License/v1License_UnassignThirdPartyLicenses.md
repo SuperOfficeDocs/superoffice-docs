@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 211,
-    "Tooltip": "minus",
-    "CanAssign": false,
-    "Free": 903,
-    "InUse": 162,
+    "Total": 867,
+    "Tooltip": "placeat",
+    "CanAssign": true,
+    "Free": 270,
+    "InUse": 735,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 869,
-    "Name": "Fadel-Hamill",
-    "Description": "Re-engineered encompassing application",
-    "PrerequisiteModuleName": "Hermann-Kshlerin",
-    "SortOrder": 913,
-    "ExtraFlags": 51,
+    "ModuleLicenseId": 490,
+    "Name": "Veum, Schuppe and Jacobi",
+    "Description": "Profit-focused zero administration intranet",
+    "PrerequisiteModuleName": "Armstrong, Hegmann and Walker",
+    "SortOrder": 454,
+    "ExtraFlags": 79,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 666
       }
     }
   }

@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/BLOB/SaveProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused executive function",
+  "Description": "Compatible encompassing extranet",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

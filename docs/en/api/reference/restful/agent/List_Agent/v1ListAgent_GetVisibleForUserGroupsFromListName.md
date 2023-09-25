@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ziemann-Streich",
-  "ListItemId": 215
+  "UdListDefinitionName": "Monahan LLC",
+  "ListItemId": 346
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Christiansen, Bergstrom and Gleichner",
-    "ToolTip": "Tenetur id quia.",
-    "Deleted": true,
-    "Rank": 163,
-    "Type": "nisi",
-    "ColorBlock": 351,
-    "IconHint": "et",
+    "Id": 215,
+    "Name": "Ritchie, Murphy and Wiza",
+    "ToolTip": "Ut dolor accusantium voluptatibus molestiae.",
+    "Deleted": false,
+    "Rank": 701,
+    "Type": "aut",
+    "ColorBlock": 695,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2021-03-21T03:31:26.6675558+01:00",
+    "LastChanged": "2006-10-22T03:24:47.8613878+02:00",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "Nienow, McClure and Mills",
-        "ToolTip": "Voluptatem ad officia dicta laboriosam.",
-        "Deleted": false,
-        "Rank": 797,
-        "Type": "quae",
-        "ColorBlock": 750,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2021-03-05T03:31:26.6675558+01:00",
+        "Id": 583,
+        "Name": "Ondricka, Hodkiewicz and Stracke",
+        "ToolTip": "Est iure qui porro aut.",
+        "Deleted": true,
+        "Rank": 513,
+        "Type": "vel",
+        "ColorBlock": 369,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "1999-03-31T03:24:47.8613878+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "amet",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Dr. Brandi Klocko",
+        "FullName": "Miss Jennie Hermann DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Retta Schimmel",
+    "ExtraInfo": "earum",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Warren Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 24
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 224,
-    "Name": "Ziemann, Kerluke and Larkin",
-    "Tooltip": "non",
+    "HeadingId": 355,
+    "Name": "Hermiston, Bergstrom and Oberbrunner",
+    "Tooltip": "accusamus",
     "Deleted": false,
-    "Rank": 881,
-    "UdListDefinitionId": 15
+    "Rank": 951,
+    "UdListDefinitionId": 238
   },
   {
-    "HeadingId": 224,
-    "Name": "Ziemann, Kerluke and Larkin",
-    "Tooltip": "non",
+    "HeadingId": 355,
+    "Name": "Hermiston, Bergstrom and Oberbrunner",
+    "Tooltip": "accusamus",
     "Deleted": false,
-    "Rank": 881,
-    "UdListDefinitionId": 15
+    "Rank": 951,
+    "UdListDefinitionId": 238
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 943,
-    "Name": "Ankunding-Bergnaum",
-    "Tooltip": "ducimus",
+    "HeadingId": 449,
+    "Name": "Konopelski-Lindgren",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 199,
-    "UdListDefinitionId": 57,
+    "Rank": 622,
+    "UdListDefinitionId": 880,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 801
       }
     }
   }

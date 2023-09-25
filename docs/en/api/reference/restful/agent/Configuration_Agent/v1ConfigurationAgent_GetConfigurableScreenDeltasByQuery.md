@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 578,
-    "Name": "Smitham-Hayes",
-    "Description": "Decentralized eco-centric architecture",
-    "DeltaJson": "autem",
+    "ConfigurableScreenDeltaId": 220,
+    "Name": "Smitham Inc and Sons",
+    "Description": "Down-sized user-facing frame",
+    "DeltaJson": "voluptatem",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "natus",
-    "UpdatedDate": "2006-04-04T03:31:25.8228647+02:00",
-    "CreatedDate": "2017-08-02T03:31:25.8228647+02:00",
+    "RecipeId": "quia",
+    "UpdatedDate": "2000-11-21T03:24:47.3614382+01:00",
+    "CreatedDate": "2001-04-02T03:24:47.3614382+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      432,
-      624
+      317,
+      334
     ],
     "AppliesToKey": "et",
     "TableRight": null,
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 564
       }
     }
   }

@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 449,
-  "Select": "libero"
+  "SelectionId": 399,
+  "Select": "fuga"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "DuBuque Inc and Sons",
-    "PrimaryKey": 782,
+    "EntityName": "Dach, Wolff and Kreiger",
+    "PrimaryKey": 919,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "fuga",
-        "TooltipHint": "sapiente",
-        "LinkHint": "rerum"
+        "DisplayValue": "illo",
+        "TooltipHint": "veniam",
+        "LinkHint": "soluta"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "dolores",
+    "LinkHint": "tenetur",
+    "StyleHint": "laudantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 233
       }
     }
   }

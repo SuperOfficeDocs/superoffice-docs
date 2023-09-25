@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 276,
-  "PrefDescId": 763,
-  "PrefValue": "facilis",
-  "PrefShowValue": "consequuntur",
-  "Description": "Synergistic clear-thinking data-warehouse",
+  "PrefDescLineId": 932,
+  "PrefDescId": 388,
+  "PrefValue": "non",
+  "PrefShowValue": "vero",
+  "Description": "Cloned demand-driven core",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

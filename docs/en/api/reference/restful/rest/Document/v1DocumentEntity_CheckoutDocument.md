@@ -82,11 +82,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "at",
-  "VersionId": "a",
+  "ExternalReference": "accusamus",
+  "VersionId": "pariatur",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ex",
-  "AdditionalInfo": "sapiente"
+  "Value": "a",
+  "AdditionalInfo": "voluptas"
 }
 ```

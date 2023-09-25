@@ -130,7 +130,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -149,125 +149,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-01-06T03:31:25.2266889+01:00",
-  "AppointmentId": 88,
-  "Description": "Robust attitude-oriented process improvement",
-  "StartDate": "2005-08-31T03:31:25.2266889+02:00",
-  "EndDate": "2005-02-18T03:31:25.2266889+01:00",
+  "CreatedDate": "2018-12-29T03:24:47.095837+01:00",
+  "AppointmentId": 297,
+  "Description": "Exclusive exuding alliance",
+  "StartDate": "2019-12-20T03:24:47.095837+01:00",
+  "EndDate": "2002-09-29T03:24:47.095837+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 184,
+  "MotherId": 511,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-07-11T03:31:25.2266889+02:00",
+  "UpdatedDate": "2010-01-28T03:24:47.095837+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 199,
+  "ActiveLinks": 441,
   "Links": [
     {
-      "EntityName": "Hamill, Stanton and Witting",
-      "Id": 247,
-      "Description": "Virtual coherent open architecture",
-      "ExtraInfo": "nam",
-      "LinkId": 668,
+      "EntityName": "Brekke LLC",
+      "Id": 668,
+      "Description": "Cross-group human-resource support",
+      "ExtraInfo": "facilis",
+      "LinkId": 168,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldType": "System.String",
+          "FieldLength": 445
         }
       }
     }
   ],
-  "AlarmLeadTime": "veritatis",
+  "AlarmLeadTime": "expedita",
   "HasAlarm": false,
-  "ColorIndex": 243,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "atque",
-  "LeadTime": "quo",
-  "Location": "est",
-  "RejectCounter": 874,
+  "ColorIndex": 268,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "voluptas",
+  "LeadTime": "quibusdam",
+  "Location": "eligendi",
+  "RejectCounter": 132,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 112,
-      "PersonId": 703,
-      "ContactId": 649,
-      "EmailId": 831,
-      "SendEmail": false,
+      "AssociateId": 543,
+      "PersonId": 129,
+      "ContactId": 849,
+      "EmailId": 549,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 112,
-      "PersonId": 703,
-      "ContactId": 649,
-      "EmailId": 831,
-      "SendEmail": false,
+      "AssociateId": 543,
+      "PersonId": 129,
+      "ContactId": 849,
+      "EmailId": 549,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-09-10T03:31:25.2266889+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2016-12-28T03:24:47.095837+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 286,
+  "PreferredTZLocation": 6,
   "Sale": null,
-  "SuggestedAppointmentId": 587,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 593,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "in",
-  "Title": "numquam",
-  "Agenda": "facilis",
-  "InternalNotes": "officia",
+  "CentralserviceVideomeetId": "quae",
+  "Title": "magnam",
+  "Agenda": "necessitatibus",
+  "InternalNotes": "autem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Drake Welch",
-    "SuperOffice:2": "Else Simonis"
+    "SuperOffice:1": "Ms. Brandt Lulu Kilback PhD",
+    "SuperOffice:2": "708254138"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "est"
+    "CustomFields1": "odit",
+    "CustomFields2": "quas"
   },
-  "PublishEventDate": "2019-05-15T03:31:25.2266889+02:00",
-  "PublishTo": "2021-05-08T03:31:25.2266889+02:00",
-  "PublishFrom": "2001-10-25T03:31:25.2266889+02:00",
+  "PublishEventDate": "2012-08-04T03:24:47.095837+02:00",
+  "PublishTo": "2009-02-17T03:24:47.095837+01:00",
+  "PublishFrom": "2008-11-07T03:24:47.095837+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 987,
+      "VisibleId": 55,
       "Visibility": "All",
       "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     },
     {
-      "VisibleId": 987,
+      "VisibleId": 55,
       "Visibility": "All",
       "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 24
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

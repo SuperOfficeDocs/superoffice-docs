@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=207
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=991
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 568,
-  "Name": "Doyle LLC",
-  "Description": "Horizontal demand-driven functionalities",
-  "DeltaJson": "voluptatem",
+  "ConfigurableScreenDeltaId": 998,
+  "Name": "Nolan Group",
+  "Description": "Ameliorated neutral architecture",
+  "DeltaJson": "vero",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nobis",
-  "UpdatedDate": "2010-06-21T03:31:25.8228647+02:00",
-  "CreatedDate": "1999-03-15T03:31:25.8228647+01:00",
+  "RecipeId": "repellendus",
+  "UpdatedDate": "2005-01-17T03:24:47.3614382+01:00",
+  "CreatedDate": "2008-04-24T03:24:47.3614382+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    116,
-    566
+    738,
+    500
   ],
-  "AppliesToKey": "error",
+  "AppliesToKey": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldType": "System.String",
+      "FieldLength": 981
     }
   }
 }

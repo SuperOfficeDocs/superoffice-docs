@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 296
+  "DocumentId": 466
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "magnam",
-    "DocumentId": 386,
-    "VersionId": "facilis",
-    "CheckedInDate": "2012-03-07T03:31:26.1520941+01:00",
-    "CheckedInByName": "O'Reilly, Eichmann and Dickinson",
-    "CheckedInByAssociateId": 302,
-    "Description": "Visionary web-enabled contingency",
-    "DisplayText": "illo",
+    "ExternalReference": "veniam",
+    "DocumentId": 652,
+    "VersionId": "eum",
+    "CheckedInDate": "2005-08-16T03:24:47.6739096+02:00",
+    "CheckedInByName": "Graham Inc and Sons",
+    "CheckedInByAssociateId": 81,
+    "Description": "Fully-configurable foreground definition",
+    "DisplayText": "commodi",
     "ExtraFields": [
-      "sunt",
-      "odio"
+      "reiciendis",
+      "nesciunt"
     ]
   }
 ]

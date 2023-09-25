@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 218,
-  "Name": "Kertzmann LLC",
-  "Description": "Mandatory bandwidth-monitored concept"
+  "SourceId": 869,
+  "Name": "Luettgen LLC",
+  "Description": "Seamless discrete data-warehouse"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 446,
+  "ReportId": 242,
   "ReportCategory": "All",
-  "Description": "Triple-buffered mission-critical synergy",
+  "Description": "Re-contextualized bifurcated middleware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Bode-Zboncak",
-  "AssociateId": 894,
-  "TemplateId": 475,
+  "Name": "Abernathy, Rodriguez and Klein",
+  "AssociateId": 913,
+  "TemplateId": 873,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 800
     }
   }
 }

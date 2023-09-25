@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 465,
-  "PlainMessage": "facilis",
-  "HtmlMessage": "et",
-  "SmsMessage": "voluptas",
-  "Description": "Advanced tangible extranet",
-  "Subject": "rerum",
-  "FolderId": 447,
-  "HeaderField": "ea",
-  "Design": "asperiores",
+  "ShipmentMessageId": 537,
+  "PlainMessage": "optio",
+  "HtmlMessage": "odio",
+  "SmsMessage": "doloremque",
+  "Description": "Vision-oriented full-range access",
+  "Subject": "perferendis",
+  "FolderId": 419,
+  "HeaderField": "repudiandae",
+  "Design": "eos",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Grass-roots systemic function",
-  "AccessKey": "dolores",
-  "DocumentMessage": 71,
-  "Registered": "2005-08-30T03:31:26.7612835+02:00",
-  "RegisteredAssociateId": 365,
-  "Updated": "2015-02-02T03:31:26.7612835+01:00",
-  "UpdatedAssociateId": 269,
-  "UpdatedCount": 712,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Quality-focused methodical challenge",
+  "AccessKey": "molestias",
+  "DocumentMessage": 831,
+  "Registered": "2011-06-19T03:24:47.9238778+02:00",
+  "RegisteredAssociateId": 203,
+  "Updated": "2007-03-21T03:24:47.9238778+01:00",
+  "UpdatedAssociateId": 398,
+  "UpdatedCount": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldLength": 934
     }
   }
 }

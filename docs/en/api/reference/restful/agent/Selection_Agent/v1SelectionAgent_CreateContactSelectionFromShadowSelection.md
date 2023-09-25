@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 778,
-  "Name": "Kozey, DuBuque and Fisher"
+  "SelectionId": 324,
+  "Name": "Eichmann, O'Conner and Balistreri"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered cohesive help-desk",
-  "Postit": "molestiae",
+  "Description": "Programmable didactic projection",
+  "Postit": "quasi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 338,
-  "IncludePerson": 597,
-  "MemberCount": 362,
-  "Name": "Kub, Sawayn and Gislason",
-  "PostitTextId": 219,
-  "CreatedDate": "2002-01-10T03:31:27.278067+01:00",
-  "SelectionId": 967,
-  "SoundEx": "voluptate",
-  "Source": 27,
-  "TextId": 543,
-  "UpdatedDate": "2018-09-21T03:31:27.278067+02:00",
-  "UpdatedCount": 467,
-  "Visibility": 716,
+  "GroupIdx": 165,
+  "IncludePerson": 591,
+  "MemberCount": 403,
+  "Name": "Wyman-Krajcik",
+  "PostitTextId": 664,
+  "CreatedDate": "2016-06-11T03:24:48.2680521+02:00",
+  "SelectionId": 897,
+  "SoundEx": "quas",
+  "Source": 356,
+  "TextId": 642,
+  "UpdatedDate": "2008-06-21T03:24:48.2680521+02:00",
+  "UpdatedCount": 52,
+  "Visibility": 984,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 186,
-  "TargetTableName": "Murphy-Witting",
-  "Completed": false,
-  "LeftSelectionId": 564,
-  "RightSelectionId": 803,
+  "CompanyUnique": true,
+  "TargetTableNumber": 449,
+  "TargetTableName": "Daugherty Group",
+  "Completed": true,
+  "LeftSelectionId": 331,
+  "RightSelectionId": 786,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Glover-Purdy",
-  "ShadowProviderName": "Tremblay LLC",
-  "ChartKey": "dolorem",
-  "LastLoaded": "2002-07-19T03:31:27.278067+02:00",
-  "LastLoadedBy": 509,
+  "MainProviderName": "Wehner, Hagenes and Dach",
+  "ShadowProviderName": "Will Inc and Sons",
+  "ChartKey": "aut",
+  "LastLoaded": "2022-09-08T03:24:48.2680521+02:00",
+  "LastLoadedBy": 778,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-05-08T03:31:27.278067+02:00",
-  "LastMembershipChangeBy": 723,
+  "LastMembershipChange": "1999-10-27T03:24:48.2680521+02:00",
+  "LastMembershipChangeBy": 582,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "necessitatibus",
-  "MemberTabHeading": "laudantium",
-  "MailingsProviderName": "Connelly Group",
-  "DashboardTileDefinitionId": 236,
+  "MainHeading": "et",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Cassin-Muller",
+  "DashboardTileDefinitionId": 785,
   "VisibleFor": [
     {
-      "VisibleId": 498,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     },
     {
-      "VisibleId": 498,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 952
+          "FieldType": "System.Int32",
+          "FieldLength": 672
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldType": "System.String",
+      "FieldLength": 334
     }
   }
 }

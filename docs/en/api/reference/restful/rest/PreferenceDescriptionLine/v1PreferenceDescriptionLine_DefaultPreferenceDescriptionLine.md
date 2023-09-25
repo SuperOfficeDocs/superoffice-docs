@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 158,
-  "PrefDescId": 22,
-  "PrefValue": "molestiae",
-  "PrefShowValue": "nam",
-  "Description": "Extended needs-based time-frame",
-  "IsBuiltin": true,
+  "PrefDescLineId": 527,
+  "PrefDescId": 41,
+  "PrefValue": "labore",
+  "PrefShowValue": "sit",
+  "Description": "Mandatory scalable leverage",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 683
     }
   }
 }

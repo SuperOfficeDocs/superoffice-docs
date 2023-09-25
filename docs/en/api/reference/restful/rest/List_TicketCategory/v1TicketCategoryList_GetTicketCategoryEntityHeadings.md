@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 269,
-    "Name": "Nitzsche LLC",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 715,
-    "UdListDefinitionId": 629,
+    "HeadingId": 411,
+    "Name": "Hintz Group",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 792,
+    "UdListDefinitionId": 28,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 225
+        "FieldType": "System.Int32",
+        "FieldLength": 397
       }
     }
   }

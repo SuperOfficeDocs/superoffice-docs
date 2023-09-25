@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 542,
+  "SaleId": 388,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Zieme Group",
-      "Comment": "aut",
-      "StakeholderRoleId": 254,
-      "CountryId": 790,
-      "PersonId": 216,
-      "EmailDescription": "colby@murphypadberg.co.uk",
-      "EmailId": 865,
-      "EmailAddress": "mozelle.considine@jaskolskigibson.info",
-      "PhoneId": 866,
-      "ContactName": "Breitenberg-Kiehn",
-      "ContactId": 363,
-      "SaleId": 168,
-      "Mrmrs": "tenetur",
-      "Firstname": "Adelbert",
-      "MiddleName": "McKenzie-Strosin",
-      "Lastname": "Becker",
-      "SaleStakeholderId": 44,
-      "Rank": 557,
-      "Phone": "846.947.9380 x0021"
+      "StakeholderRoleName": "Keebler LLC",
+      "Comment": "ratione",
+      "StakeholderRoleId": 40,
+      "CountryId": 567,
+      "PersonId": 306,
+      "EmailDescription": "william@prohaska.info",
+      "EmailId": 264,
+      "EmailAddress": "junior@runolfssonlowe.uk",
+      "PhoneId": 179,
+      "ContactName": "Grimes-Ziemann",
+      "ContactId": 678,
+      "SaleId": 473,
+      "Mrmrs": "pariatur",
+      "Firstname": "Janis",
+      "MiddleName": "Wyman Group",
+      "Lastname": "Ankunding",
+      "SaleStakeholderId": 961,
+      "Rank": 797,
+      "Phone": "(550)659-8765"
     }
   ]
 }

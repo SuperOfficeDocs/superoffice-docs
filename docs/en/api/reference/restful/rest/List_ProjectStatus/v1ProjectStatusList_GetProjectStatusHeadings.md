@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 452,
-    "Name": "Ryan-Moen",
-    "Tooltip": "aut",
+    "HeadingId": 505,
+    "Name": "Willms-Zemlak",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 945,
-    "UdListDefinitionId": 466,
+    "Rank": 670,
+    "UdListDefinitionId": 357,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 125
       }
     }
   }

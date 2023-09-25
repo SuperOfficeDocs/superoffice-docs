@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=121
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=998
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 149,
-  "Name": "Jacobi-Cole",
-  "Tooltip": "omnis",
-  "Rank": 600,
+  "SaleTypeId": 905,
+  "Name": "Reinger, Fritsch and Daugherty",
+  "Tooltip": "quae",
+  "Rank": 861,
   "DurationUnit": "Century",
-  "SaleDuration": 423,
-  "SaleTypeCatId": 731,
+  "SaleDuration": 616,
+  "SaleTypeCatId": 431,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 110,
-  "QuoteLinesTemplate": 370,
-  "ConfirmationLinesTemplate": 561,
+  "DefaultQuoteValidity": 358,
+  "QuoteLinesTemplate": 255,
+  "ConfirmationLinesTemplate": 837,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 686,
-  "MinEarningPercent": 417,
-  "GroupQuoteLinesBy": 181,
-  "SortGroupLinesBy": 221,
+  "MaxDiscountPercent": 422,
+  "MinEarningPercent": 727,
+  "GroupQuoteLinesBy": 567,
+  "SortGroupLinesBy": 159,
   "Stages": [
     {
-      "Id": 937,
-      "Name": "Muller LLC",
-      "ToolTip": "Magnam dicta.",
+      "Id": 642,
+      "Name": "Roob, Mueller and Abshire",
+      "ToolTip": "Laudantium et quae repudiandae aut debitis odio odit.",
       "Deleted": false,
-      "Rank": 65,
-      "Type": "rerum",
-      "ColorBlock": 384,
-      "IconHint": "voluptatibus",
-      "Selected": false,
-      "LastChanged": "2002-09-02T03:31:26.6519338+02:00",
+      "Rank": 45,
+      "Type": "aspernatur",
+      "ColorBlock": 490,
+      "IconHint": "pariatur",
+      "Selected": true,
+      "LastChanged": "2014-02-12T03:24:47.8613878+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "adipisci",
-      "Hidden": true,
-      "FullName": "Santos Zieme",
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "quos",
+      "Hidden": false,
+      "FullName": "Dr. Randi Fidel Roberts",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldType": "System.Int32",
+          "FieldLength": 740
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

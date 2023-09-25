@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hickle-Runolfsdottir",
-  "ProviderName": "Sipes, Cruickshank and Ernser",
-  "SortOrder": "reprehenderit",
-  "Restriction": "dolor",
-  "Entities": "quis",
-  "Page": 198,
-  "PageSize": 957
+  "GuiName": "Schulist LLC",
+  "ProviderName": "Bayer, Kemmer and Corwin",
+  "SortOrder": "voluptatem",
+  "Restriction": "nisi",
+  "Entities": "quia",
+  "Page": 472,
+  "PageSize": 170
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Macejkovic, Ratke and Prohaska",
-    "PrimaryKey": 419,
+    "EntityName": "Barton LLC",
+    "PrimaryKey": 623,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "non",
-        "TooltipHint": "nesciunt",
-        "LinkHint": "consequuntur"
+        "DisplayValue": "mollitia",
+        "TooltipHint": "assumenda",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "ut",
-    "StyleHint": "ducimus",
+    "LinkHint": "explicabo",
+    "StyleHint": "consequatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 713
+        "FieldType": "System.Int32",
+        "FieldLength": 77
       }
     }
   }

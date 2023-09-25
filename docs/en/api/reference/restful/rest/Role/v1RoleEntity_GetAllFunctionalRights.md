@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Kutch, Pagac and Krajcik",
-    "ToolTip": "Fugit hic ipsa dolor explicabo illum.",
+    "Id": 16,
+    "Name": "Rice LLC",
+    "ToolTip": "Dolores ut ad.",
     "Deleted": false,
-    "Rank": 216,
-    "Type": "aliquid",
-    "ColorBlock": 883,
-    "IconHint": "libero",
+    "Rank": 85,
+    "Type": "nihil",
+    "ColorBlock": 416,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2006-01-20T03:31:32.8163583+01:00",
+    "LastChanged": "2004-03-27T03:24:51.7557701+01:00",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Senger, Emard and Kemmer",
-        "ToolTip": "Ullam est.",
-        "Deleted": true,
-        "Rank": 842,
-        "Type": "odit",
-        "ColorBlock": 921,
-        "IconHint": "doloribus",
+        "Id": 890,
+        "Name": "Kshlerin LLC",
+        "ToolTip": "Tempora nobis.",
+        "Deleted": false,
+        "Rank": 774,
+        "Type": "amet",
+        "ColorBlock": 695,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2007-11-27T03:31:32.8163583+01:00",
+        "LastChanged": "2003-07-24T03:24:51.7557701+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Adrienne Larkin",
+        "ExtraInfo": "ea",
+        "StyleHint": "impedit",
+        "Hidden": true,
+        "FullName": "Otis Rempel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Julianne Hauck",
+    "ExtraInfo": "fugit",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Winona Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 216
       }
     }
   }

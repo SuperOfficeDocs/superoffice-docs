@@ -67,7 +67,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schaefer LLC",
-    "DisplayName": "Stanton-Legros",
-    "Description": "Organic content-based pricing structure",
-    "ShortLabel": "tempore",
+    "FieldName": "Bernier-Ruecker",
+    "DisplayName": "Ferry-Larkin",
+    "Description": "Organized content-based conglomeration",
+    "ShortLabel": "qui",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
-    "Rank": 335,
-    "TemplateVariableName": "Eichmann-Hayes"
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": true,
+    "Rank": 21,
+    "TemplateVariableName": "Pollich, O'Kon and Wunsch"
   }
 ]
 ```

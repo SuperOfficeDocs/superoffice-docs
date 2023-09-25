@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Marks-Corwin",
-  "DeviceName": "Lubowitz Group"
+  "ApplicationName": "Bashirian LLC",
+  "DeviceName": "Pfannerstill Inc and Sons"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "similique",
-    "Value": "natus",
-    "RecordId": 769,
-    "CreatedDate": "1997-12-05T03:31:26.6050723+01:00",
-    "UpdatedDate": "2009-04-06T03:31:26.6050723+02:00",
-    "UpdatedBy": "consequatur",
-    "CreatedBy": "praesentium",
-    "TableName": "Deckow-Hyatt",
+    "Key": "eum",
+    "Value": "maiores",
+    "RecordId": 40,
+    "CreatedDate": "2010-07-31T03:24:47.8301403+02:00",
+    "UpdatedDate": "1996-05-26T03:24:47.8301403+02:00",
+    "UpdatedBy": "dolores",
+    "CreatedBy": "impedit",
+    "TableName": "Koch LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 964
+        "FieldType": "System.Int32",
+        "FieldLength": 872
       }
     }
   }

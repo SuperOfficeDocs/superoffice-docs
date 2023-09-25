@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 936,
-  "Name": "Tremblay, Hane and Stanton",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 17,
+  "Id": 431,
+  "Name": "Morar-Hegmann",
+  "Tooltip": "veniam",
+  "Deleted": false,
+  "Rank": 981,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ex",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldLength": 128
     }
   },
   "_Links": {

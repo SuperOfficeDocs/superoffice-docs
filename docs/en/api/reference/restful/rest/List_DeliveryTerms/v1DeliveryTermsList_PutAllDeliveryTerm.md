@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Beahan Inc and Sons",
-    "Tooltip": "nihil",
+    "Id": 434,
+    "Name": "Wilkinson-Satterfield",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 79,
-    "Rank": 9
+    "UdListDefinitionId": 1000,
+    "Rank": 505
   },
   {
-    "Id": 6,
-    "Name": "Beahan Inc and Sons",
-    "Tooltip": "nihil",
+    "Id": 434,
+    "Name": "Wilkinson-Satterfield",
+    "Tooltip": "omnis",
     "Deleted": true,
-    "UdListDefinitionId": 79,
-    "Rank": 9
+    "UdListDefinitionId": 1000,
+    "Rank": 505
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 783,
-    "Name": "Harber-Aufderhar",
-    "Tooltip": "nemo",
+    "Id": 548,
+    "Name": "Purdy-Mills",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "UdListDefinitionId": 132,
-    "Rank": 441,
+    "UdListDefinitionId": 505,
+    "Rank": 791,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 788
       }
     }
   }

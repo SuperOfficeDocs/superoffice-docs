@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "ab",
+  "FieldLabel": "eum",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 83,
-  "ColumnId": 631,
-  "FieldDefault": "possimus",
-  "FieldHeight": 558,
-  "FieldLabel": "esse",
-  "FieldLeft": 587,
-  "FieldTop": 780,
+  "UDefFieldId": 777,
+  "ColumnId": 170,
+  "FieldDefault": "nemo",
+  "FieldHeight": 654,
+  "FieldLabel": "et",
+  "FieldLeft": 977,
+  "FieldTop": 799,
   "FieldType": "Checkbox",
-  "FieldWidth": 250,
-  "FormatMask": "sed",
+  "FieldWidth": 665,
+  "FormatMask": "reprehenderit",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 479,
-  "LabelLeft": 43,
-  "LabelTop": 474,
-  "LabelWidth": 197,
-  "LastVersionId": 44,
-  "ListTableId": 303,
+  "LabelHeight": 107,
+  "LabelLeft": 84,
+  "LabelTop": 537,
+  "LabelWidth": 286,
+  "LastVersionId": 142,
+  "ListTableId": 408,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 452,
-  "ProgId": "quibusdam",
+  "Page1LineNo": 574,
+  "ProgId": "provident",
   "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 925,
-  "TextLength": 286,
-  "Tooltip": "nihil",
-  "UdefIdentity": 49,
-  "UDListDefinitionId": 518,
+  "ShortLabel": "qui",
+  "TabOrder": 129,
+  "TextLength": 707,
+  "Tooltip": "autem",
+  "UdefIdentity": 817,
+  "UDListDefinitionId": 415,
   "Justification": "Center",
-  "Version": 669,
-  "TemplateVariableName": "Kulas-Veum",
+  "Version": 829,
+  "TemplateVariableName": "Monahan, Hickle and Osinski",
   "HasBeenPublished": false,
-  "MdoListName": "Mills LLC",
+  "MdoListName": "Hickle, Gleason and Mertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 709
     }
   }
 }

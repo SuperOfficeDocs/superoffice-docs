@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Reinger, Corwin and O'Conner",
-    "Tooltip": "atque",
+    "Id": 968,
+    "Name": "Raynor, Wisozk and Hayes",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "UdListDefinitionId": 429,
-    "Rank": 996,
+    "UdListDefinitionId": 19,
+    "Rank": 288,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldLength": 528
       }
     }
   }

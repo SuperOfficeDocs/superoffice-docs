@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "McLaughlin Group",
-  "Password": "voluptatum"
+  "AssociateName": "Steuber, Mitchell and Turcotte",
+  "Password": "possimus"
 }
 ```
 

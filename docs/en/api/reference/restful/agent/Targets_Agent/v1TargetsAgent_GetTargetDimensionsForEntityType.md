@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 674,
+    "TargetDimensionId": 987,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "fugit",
-    "DimensionListName": "Wilkinson Group",
-    "DimensionListId": 811,
-    "DimensionListLabel": "est",
+    "DimensionListField": "alias",
+    "DimensionListName": "Kohler, Wilderman and Kuvalis",
+    "DimensionListId": 403,
+    "DimensionListLabel": "quia",
     "SelectedDimensions": [
-      793,
-      987
+      151,
+      938
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldType": "System.String",
+        "FieldLength": 326
       }
     }
   }

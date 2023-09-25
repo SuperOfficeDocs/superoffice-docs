@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Murazik Group"
+  "ApplicationName": "Baumbach-Toy"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 991,
-  "Name": "Gutkowski-Cummings",
-  "CreatedDate": "1996-05-27T03:31:26.589451+02:00",
-  "UpdatedDate": "2007-10-03T03:31:26.589451+02:00",
+  "ForeignAppId": 502,
+  "Name": "Walker, Lang and Koss",
+  "CreatedDate": "2008-06-16T03:24:47.8145137+02:00",
+  "UpdatedDate": "2022-04-15T03:24:47.8145137+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 63,
-      "Name": "Mueller, Corwin and Mertz",
-      "CreatedDate": "2017-03-25T03:31:26.589451+01:00",
-      "UpdatedDate": "2022-11-02T03:31:26.589451+01:00",
-      "AssociateFullName": "Marielle Heidenreich",
-      "CreatedBy": "quia",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "quidem",
-      "ForeignAppId": 597,
+      "ForeignDeviceId": 908,
+      "Name": "Yost-Murray",
+      "CreatedDate": "2009-12-04T03:24:47.8145137+01:00",
+      "UpdatedDate": "2008-02-22T03:24:47.8145137+01:00",
+      "AssociateFullName": "Mr. Louisa Greg Rogahn",
+      "CreatedBy": "magnam",
+      "UpdatedBy": "illo",
+      "DeviceIdentifier": "modi",
+      "ForeignAppId": 401,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldType": "System.String",
+          "FieldLength": 86
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   }
 }

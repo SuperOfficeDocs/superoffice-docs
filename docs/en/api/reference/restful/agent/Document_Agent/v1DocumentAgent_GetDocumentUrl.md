@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Document/GetDocumentUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 350,
-  "VersionId": "ipsam",
+  "DocumentId": 751,
+  "VersionId": "nisi",
   "WriteableUrl": true
 }
 ```

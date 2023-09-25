@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket/{id}/Messages?$select=name,department,category/id
 GET /api/v1/Ticket/{id}/Messages?$filter=name begins 'S'
 GET /api/v1/Ticket/{id}/Messages?$orderBy=name asc
-GET /api/v1/Ticket/{id}/Messages?$entities=aspernatur
-GET /api/v1/Ticket/{id}/Messages?$top=369
-GET /api/v1/Ticket/{id}/Messages?$skip=78
+GET /api/v1/Ticket/{id}/Messages?$entities=velit
+GET /api/v1/Ticket/{id}/Messages?$top=517
+GET /api/v1/Ticket/{id}/Messages?$skip=936
 GET /api/v1/Ticket/{id}/Messages?$mode=Full
 GET /api/v1/Ticket/{id}/Messages?$options=GrandTotal=true
-GET /api/v1/Ticket/{id}/Messages?$context=inventore
+GET /api/v1/Ticket/{id}/Messages?$context=at
 GET /api/v1/Ticket/{id}/Messages?$format=JSON
-GET /api/v1/Ticket/{id}/Messages?$jsonSafe=False
+GET /api/v1/Ticket/{id}/Messages?$jsonSafe=True
 GET /api/v1/Ticket/{id}/Messages?$output=Display
 ```
 
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Ticket/{id}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "earum",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 8795,
-      "EntityName": "sale",
-      "saleId": 8795,
-      "contactId": 548,
-      "name": "VonRueden-Hamill"
+      "PrimaryKey": 9389,
+      "EntityName": "person",
+      "personId": 9389,
+      "fullName": "Miss Pedro Constantin Mertz"
     },
     {
-      "PrimaryKey": 4527,
-      "EntityName": "sale",
-      "saleId": 4527,
-      "contactId": 6622,
-      "name": "Krajcik Inc and Sons"
+      "PrimaryKey": 4727,
+      "EntityName": "person",
+      "personId": 4727,
+      "fullName": "Jamey Carter DVM"
     }
   ]
 }

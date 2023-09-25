@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Robel Inc and Sons",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "Rank": 99,
-  "IsCustomList": false,
+  "Id": 644,
+  "Name": "Reilly-Tromp",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 132,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "Name": "Shields-Sanford",
-  "Tooltip": "repellendus",
+  "Id": 809,
+  "Name": "King Group",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "Rank": 340,
+  "Rank": 443,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 282
     }
   }
 }

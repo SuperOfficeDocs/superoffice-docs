@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 861,
+  "CRMScriptId": 772,
   "EventData": null
 }
 ```
@@ -106,32 +106,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "impedit",
-    "InputValues2": "distinctio"
+    "InputValues1": "aut",
+    "InputValues2": "voluptatem"
   },
   "BlockExecution": false,
-  "NavigateTo": "dignissimos",
-  "Message": "quae",
-  "ShowDialog": "sed",
+  "NavigateTo": "voluptatem",
+  "Message": "quibusdam",
+  "ShowDialog": "odit",
   "OutputValues": {
-    "OutputValues1": "nobis",
-    "OutputValues2": "nisi"
+    "OutputValues1": "et",
+    "OutputValues2": "pariatur"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "aliquid"
+    "StateValues1": "doloribus",
+    "StateValues2": "nulla"
   },
-  "Exception": "labore",
+  "Exception": "magni",
   "ParserValues": {
-    "ParserValues1": "vel",
-    "ParserValues2": "ullam"
+    "ParserValues1": "nam",
+    "ParserValues2": "error"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

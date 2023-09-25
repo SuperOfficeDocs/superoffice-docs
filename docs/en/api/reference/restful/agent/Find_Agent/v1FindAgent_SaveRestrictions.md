@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Bailey Inc and Sons",
-  "StorageKey": "quas",
+  "StorageType": "est",
+  "ProviderName": "DuBuque LLC",
+  "StorageKey": "in",
   "Restrictions": [
     {
-      "Name": "Gutkowski, Wisozk and Mills",
-      "Operator": "omnis",
+      "Name": "D'Amore, Kuvalis and Heidenreich",
+      "Operator": "quia",
       "Values": [
-        "excepturi",
-        "et"
+        "nemo",
+        "nemo"
       ],
       "DisplayValues": [
-        "rerum",
-        "consequatur"
+        "nam",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 508,
+      "InterParenthesis": 712,
       "InterOperator": "And",
-      "UniqueHash": 311
+      "UniqueHash": 543
     }
   ]
 }

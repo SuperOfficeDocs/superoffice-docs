@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 314,
-  "PrefValue": "quis"
+  "PrefDescId": 994,
+  "PrefValue": "saepe"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 601,
-  "PrefDescId": 974,
-  "PrefValue": "quia",
+  "PrefDescLineId": 855,
+  "PrefDescId": 525,
+  "PrefValue": "nesciunt",
   "PrefShowValue": "odit",
-  "Description": "Organic stable synergy",
-  "IsBuiltin": true,
+  "Description": "Managed user-facing challenge",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldType": "System.Int32",
+      "FieldLength": 270
     }
   }
 }

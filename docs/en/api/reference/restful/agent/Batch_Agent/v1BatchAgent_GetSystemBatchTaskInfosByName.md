@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Friesen Inc and Sons"
+  "TaskName": "O'Keefe-Schmitt"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "Haley-Flatley",
-    "AssociateId": 80,
-    "DetailsTable": 160,
-    "DetailsRecord": 892,
-    "IsSystemTask": true,
+    "Id": 255,
+    "Name": "Wyman-Wuckert",
+    "AssociateId": 572,
+    "DetailsTable": 295,
+    "DetailsRecord": 817,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptate",
-      "ParameterObject2": "et"
+      "ParameterObject1": "sunt",
+      "ParameterObject2": "suscipit"
     },
-    "LastStarted": "2003-10-11T03:31:25.6496314+02:00",
-    "Created": "2003-11-02T03:31:25.6496314+01:00",
-    "StartCount": 731,
-    "DatabaseSerialNumber": "817038",
-    "Context": "deserunt",
-    "Result": "sint",
+    "LastStarted": "2000-04-09T03:24:47.2520803+02:00",
+    "Created": "2014-11-05T03:24:47.2520803+01:00",
+    "StartCount": 886,
+    "DatabaseSerialNumber": "495212",
+    "Context": "in",
+    "Result": "nesciunt",
     "State": "All",
-    "Description": "Cross-platform multi-state secured line",
-    "Response": "perferendis",
-    "Request": "veniam",
-    "ProgressDescription": "Self-enabling transitional moderator",
-    "ProgressPercent": 314,
-    "FileName": "Murazik-Balistreri",
+    "Description": "Vision-oriented multi-tasking focus group",
+    "Response": "qui",
+    "Request": "rerum",
+    "ProgressDescription": "Triple-buffered local service-desk",
+    "ProgressPercent": 955,
+    "FileName": "Kunze-Schinner",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldType": "System.String",
+        "FieldLength": 232
       }
     }
   }

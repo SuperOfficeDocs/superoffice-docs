@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=iure
-GET /api/v1/Contact?$top=142
-GET /api/v1/Contact?$skip=526
+GET /api/v1/Contact?$entities=ut
+GET /api/v1/Contact?$top=578
+GET /api/v1/Contact?$skip=124
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=eveniet
+GET /api/v1/Contact?$context=saepe
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=False
+GET /api/v1/Contact?$jsonSafe=True
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "id",
+  "odata.nextLink": "quisquam",
   "value": [
     {
-      "PrimaryKey": 9734,
-      "EntityName": "sale",
-      "saleId": 9734,
-      "contactId": 3893,
-      "name": "Sawayn-Heaney"
+      "PrimaryKey": 9354,
+      "EntityName": "person",
+      "personId": 9354,
+      "fullName": "Dr. Tianna Ullrich"
     },
     {
-      "PrimaryKey": 2911,
-      "EntityName": "sale",
-      "saleId": 2911,
-      "contactId": 6870,
-      "name": "Lakin-Conn"
+      "PrimaryKey": 3519,
+      "EntityName": "person",
+      "personId": 3519,
+      "fullName": "Avery Nikolaus"
     }
   ]
 }

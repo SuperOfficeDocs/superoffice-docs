@@ -566,6 +566,7 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="RealTimeSpentInternally" type="xs:int" />
               <xs:element minOccurs="0" name="RealTimeSpentExternally" type="xs:int" />
               <xs:element minOccurs="0" name="RealTimeSpentQueue" type="xs:int" />
+              <xs:element minOccurs="0" name="TimeSpent" type="xs:int" />
               <xs:element minOccurs="0" name="HasAttachment" type="xs:boolean" />
               <xs:element minOccurs="0" name="NumReplies" type="xs:int" />
               <xs:element minOccurs="0" name="NumMessages" type="xs:int" />

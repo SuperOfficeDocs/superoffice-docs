@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ratione",
-  "PersonId": 725,
-  "Mrmrs": "sapiente",
-  "Firstname": "Adalberto",
-  "Lastname": "Bailey",
-  "MiddleName": "Braun-Turner",
-  "Title": "illum",
-  "Description": "Stand-alone stable array",
-  "Email": "lauryn_rice@oconner.name",
-  "FullName": "Gina Buckridge",
-  "DirectPhone": "062-652-9797",
-  "FormalName": "Gleichner LLC",
-  "CountryId": 71,
-  "ContactId": 558,
-  "ContactName": "Cronin-Windler",
-  "Retired": 999,
-  "Rank": 475,
-  "ActiveInterests": 499,
-  "ContactDepartment": "optimize efficient ROI",
-  "ContactCountryId": 696,
-  "ContactOrgNr": "791309",
-  "FaxPhone": "1-642-367-4903 x609",
-  "MobilePhone": "(532)384-5837",
-  "ContactPhone": "327.873.8853 x3248",
-  "AssociateName": "Abernathy LLC",
-  "AssociateId": 69,
-  "UsePersonAddress": true,
-  "ContactFax": "et",
-  "Kanafname": "provident",
+  "Position": "et",
+  "PersonId": 774,
+  "Mrmrs": "enim",
+  "Firstname": "Weston",
+  "Lastname": "Emard",
+  "MiddleName": "Zemlak LLC",
+  "Title": "possimus",
+  "Description": "Decentralized bandwidth-monitored superstructure",
+  "Email": "jamil_bogisich@bergeoberbrunner.uk",
+  "FullName": "Joe Ledner",
+  "DirectPhone": "350.370.8664 x43830",
+  "FormalName": "McGlynn-Hessel",
+  "CountryId": 412,
+  "ContactId": 725,
+  "ContactName": "Ledner Group",
+  "Retired": 814,
+  "Rank": 970,
+  "ActiveInterests": 719,
+  "ContactDepartment": "",
+  "ContactCountryId": 56,
+  "ContactOrgNr": "1165810",
+  "FaxPhone": "031-479-6541",
+  "MobilePhone": "1-994-903-4617 x904",
+  "ContactPhone": "(695)780-8446",
+  "AssociateName": "VonRueden Group",
+  "AssociateId": 926,
+  "UsePersonAddress": false,
+  "ContactFax": "quo",
+  "Kanafname": "ut",
   "Kanalname": "dolorum",
-  "Post1": "inventore",
-  "Post2": "enim",
-  "Post3": "est",
-  "EmailName": "trystan@kertzmann.biz",
-  "ContactFullName": "Clyde Carter DVM",
-  "ActiveErpLinks": 926,
-  "TicketPriorityId": 640,
-  "SupportLanguageId": 17,
-  "SupportAssociateId": 139,
+  "Post1": "occaecati",
+  "Post2": "hic",
+  "Post3": "perspiciatis",
+  "EmailName": "thurman@hoppehamill.biz",
+  "ContactFullName": "Ms. Kathleen Wisozk II",
+  "ActiveErpLinks": 632,
+  "TicketPriorityId": 665,
+  "SupportLanguageId": 278,
+  "SupportAssociateId": 737,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 882
     }
   }
 }

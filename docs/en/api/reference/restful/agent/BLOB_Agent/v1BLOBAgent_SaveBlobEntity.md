@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 686,
-  "BlobSize": 868,
-  "Description": "Decentralized optimal utilisation",
-  "ExtraInfo": "tempore",
+  "BlobId": 673,
+  "BlobSize": 844,
+  "Description": "Business-focused holistic service-desk",
+  "ExtraInfo": "molestiae",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "non",
-  "OriginalSize": 173,
-  "CreatedDate": "2008-08-12T03:31:25.6496314+02:00",
-  "UpdatedDate": "2018-03-08T03:31:25.6496314+01:00",
+  "IsZipped": false,
+  "MimeType": "iusto",
+  "OriginalSize": 160,
+  "CreatedDate": "1998-02-02T03:24:47.2520803+01:00",
+  "UpdatedDate": "2010-09-22T03:24:47.2520803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "a"
+  "ConceptualType": "rerum"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 925,
-  "BlobSize": 168,
-  "Description": "Extended high-level encoding",
-  "ExtraInfo": "esse",
-  "IsEncrypted": false,
+  "BlobId": 794,
+  "BlobSize": 888,
+  "Description": "Innovative user-facing infrastructure",
+  "ExtraInfo": "ut",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "explicabo",
-  "OriginalSize": 94,
-  "CreatedDate": "2010-02-01T03:31:25.6496314+01:00",
-  "UpdatedDate": "2019-12-18T03:31:25.6496314+01:00",
+  "MimeType": "mollitia",
+  "OriginalSize": 108,
+  "CreatedDate": "2003-04-30T03:24:47.2520803+02:00",
+  "UpdatedDate": "2020-11-03T03:24:47.2520803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorem",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

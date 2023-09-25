@@ -79,13 +79,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 765,
-  "Name": "Stark Group",
-  "Tooltip": "quis",
-  "Rank": 949,
-  "Rate": 6443.504,
-  "Units": 4939.184,
-  "Deleted": true
+  "CurrencyId": 531,
+  "Name": "Stokes Group",
+  "Tooltip": "sunt",
+  "Rank": 166,
+  "Rate": 29550.486,
+  "Units": 7916.4839999999995,
+  "Deleted": false
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 136,
-  "Name": "Hoeger Group",
-  "Tooltip": "voluptas",
-  "Rank": 813,
-  "Rate": 2670.168,
-  "Units": 21273.592,
+  "CurrencyId": 144,
+  "Name": "Blick, Runolfsdottir and Hauck",
+  "Tooltip": "consectetur",
+  "Rank": 388,
+  "Rate": 5117.822,
+  "Units": 31104.95,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldLength": 331
     }
   }
 }

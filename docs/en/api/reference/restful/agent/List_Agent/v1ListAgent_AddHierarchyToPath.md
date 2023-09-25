@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quas",
-  "Name": "Tillman, Bernhard and Klocko"
+  "Path": "qui",
+  "Name": "Purdy-Sauer"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 551,
+  "HierarchyId": 842,
   "Domain": "Dashboards",
-  "Name": "Davis, Orn and Carter",
-  "Fullname": "voluptatem",
-  "ParentId": 524,
+  "Name": "Lueilwitz, King and Trantow",
+  "Fullname": "hic",
+  "ParentId": 890,
   "Children": [
     {
-      "HierarchyId": 54,
+      "HierarchyId": 695,
       "Domain": "Dashboards",
-      "Name": "Cole, Hoeger and Ortiz",
-      "Fullname": "modi",
-      "ParentId": 275,
+      "Name": "Bartoletti-Rosenbaum",
+      "Fullname": "nostrum",
+      "ParentId": 370,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-12-15T03:31:26.7144201+01:00",
-      "RegisteredAssociateId": 400,
-      "Updated": "2019-06-29T03:31:26.7144201+02:00",
-      "UpdatedAssociateId": 442,
+      "Registered": "2002-05-08T03:24:47.8926276+02:00",
+      "RegisteredAssociateId": 780,
+      "Updated": "2014-01-29T03:24:47.8926276+01:00",
+      "UpdatedAssociateId": 526,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 305
         }
       }
     }
   ],
-  "Registered": "2015-10-23T03:31:26.7144201+02:00",
-  "RegisteredAssociateId": 771,
-  "Updated": "2012-05-30T03:31:26.7144201+02:00",
-  "UpdatedAssociateId": 727,
+  "Registered": "2004-07-08T03:24:47.8926276+02:00",
+  "RegisteredAssociateId": 356,
+  "Updated": "1999-02-26T03:24:47.8926276+01:00",
+  "UpdatedAssociateId": 74,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 278
     }
   }
 }

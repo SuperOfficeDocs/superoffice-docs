@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/ViewState/DeleteHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Satterfield, Maggio and Ondricka",
-  "Id": 53
+  "HistoryName": "Hamill LLC",
+  "Id": 97
 }
 ```
 

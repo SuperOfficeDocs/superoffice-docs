@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Name": "Waters Group",
-    "ToolTip": "Dicta dicta delectus dignissimos qui ratione eaque.",
-    "Deleted": false,
-    "Rank": 739,
-    "Type": "itaque",
-    "ColorBlock": 620,
-    "IconHint": "saepe",
+    "Id": 663,
+    "Name": "Hessel Group",
+    "ToolTip": "Dolor et non occaecati.",
+    "Deleted": true,
+    "Rank": 159,
+    "Type": "nemo",
+    "ColorBlock": 716,
+    "IconHint": "minus",
     "Selected": false,
-    "LastChanged": "2005-04-25T03:31:33.696079+02:00",
+    "LastChanged": "2015-05-02T03:24:52.3025813+02:00",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Hermiston, Rosenbaum and Orn",
-        "ToolTip": "Dolorem tempore excepturi ab amet.",
-        "Deleted": true,
-        "Rank": 376,
-        "Type": "illo",
-        "ColorBlock": 578,
-        "IconHint": "quisquam",
-        "Selected": false,
-        "LastChanged": "2019-01-21T03:31:33.696079+01:00",
+        "Id": 658,
+        "Name": "Connelly, Littel and Rowe",
+        "ToolTip": "Tempora nam.",
+        "Deleted": false,
+        "Rank": 126,
+        "Type": "voluptatem",
+        "ColorBlock": 692,
+        "IconHint": "magni",
+        "Selected": true,
+        "LastChanged": "2009-12-16T03:24:52.3025813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "eum",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Darren Pacocha"
+        "FullName": "Ms. Jennie Adrain Strosin PhD"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Prof. Orin Taya Hahn Jr."
+    "ExtraInfo": "perferendis",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Dr. Roxanne Macy Senger"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Veum-Blanda",
-    "ToolTip": "Velit culpa qui nihil exercitationem est autem aut.",
+    "Id": 747,
+    "Name": "Jakubowski-Kshlerin",
+    "ToolTip": "Excepturi at soluta.",
     "Deleted": false,
-    "Rank": 57,
-    "Type": "voluptates",
-    "ColorBlock": 282,
-    "IconHint": "adipisci",
+    "Rank": 949,
+    "Type": "sint",
+    "ColorBlock": 798,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2021-12-12T03:31:33.696079+01:00",
+    "LastChanged": "2018-02-22T03:24:52.3025813+01:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Murazik-Wehner",
-        "ToolTip": "Asperiores nisi sit voluptatum error eius alias mollitia.",
-        "Deleted": true,
-        "Rank": 235,
-        "Type": "nihil",
-        "ColorBlock": 1000,
-        "IconHint": "corrupti",
+        "Id": 657,
+        "Name": "Bins-Luettgen",
+        "ToolTip": "Harum fuga qui explicabo velit.",
+        "Deleted": false,
+        "Rank": 887,
+        "Type": "ullam",
+        "ColorBlock": 270,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2004-02-20T03:31:33.696079+01:00",
+        "LastChanged": "2020-01-25T03:24:52.3025813+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Bertha Runolfsdottir",
+        "FullName": "Mariela Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 497
+            "FieldType": "System.Int32",
+            "FieldLength": 523
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Willie Doyle",
+    "FullName": "Efren Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 920
       }
     }
   }

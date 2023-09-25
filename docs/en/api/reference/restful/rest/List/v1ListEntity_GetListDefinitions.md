@@ -74,7 +74,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Adams-Jacobson",
-    "Tooltip": "labore",
+    "Id": 905,
+    "Name": "Glover-Lueilwitz",
+    "Tooltip": "adipisci",
     "Deleted": false,
-    "Rank": 310,
+    "Rank": 194,
     "IsCustomList": true,
     "IsMDOList": false,
-    "UseGroupsAndHeadings": true,
-    "ListType": "eum",
+    "UseGroupsAndHeadings": false,
+    "ListType": "consequatur",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 685
       }
     }
   }

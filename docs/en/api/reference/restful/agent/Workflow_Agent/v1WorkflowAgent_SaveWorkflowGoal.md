@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 145,
-  "WorkflowId": 690,
+  "WorkflowGoalId": 522,
+  "WorkflowId": 213,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "McKenzie-Mills",
-      "Description": "Open-architected explicit forecast",
-      "Rank": 107,
+      "Name": "Mosciski-Zulauf",
+      "Description": "Triple-buffered fault-tolerant help-desk",
+      "Rank": 518,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "McKenzie-Mills",
-      "Description": "Open-architected explicit forecast",
-      "Rank": 107,
+      "Name": "Mosciski-Zulauf",
+      "Description": "Triple-buffered fault-tolerant help-desk",
+      "Rank": 518,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 230,
-  "WorkflowId": 791,
+  "WorkflowGoalId": 5,
+  "WorkflowId": 17,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Klein Inc and Sons",
-      "Description": "Cross-platform modular structure",
-      "Rank": 245,
+      "Name": "Conroy, Flatley and Bogan",
+      "Description": "Progressive discrete standardization",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Klein Inc and Sons",
-      "Description": "Cross-platform modular structure",
-      "Rank": 245,
+      "Name": "Conroy, Flatley and Bogan",
+      "Description": "Progressive discrete standardization",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

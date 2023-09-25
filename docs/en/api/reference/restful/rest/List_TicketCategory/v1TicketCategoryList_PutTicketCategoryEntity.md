@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 587,
-  "ParentId": 179,
-  "Name": "Blanda, Bergstrom and Becker",
-  "Fullname": "voluptas",
-  "CategoryMaster": 563,
+  "TicketCategoryId": 502,
+  "ParentId": 782,
+  "Name": "Gerlach Group",
+  "Fullname": "cupiditate",
+  "CategoryMaster": 195,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Krajcik-Eichmann",
+  "ExternalName": "Gaylord Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 557,
-  "ReplyTemplate": 886,
-  "NotificationEmail": "kaleb@fisherkuhn.com",
+  "AssignmentLag": 483,
+  "ReplyTemplate": 491,
+  "NotificationEmail": "kariane@lindgren.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 538,
+  "EffectiveReplyTemplateId": 648,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "magni",
+    "CustomFields2": "iure"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 318,
-  "ParentId": 756,
-  "Name": "Cartwright LLC",
-  "Fullname": "enim",
-  "CategoryMaster": 906,
+  "TicketCategoryId": 807,
+  "ParentId": 284,
+  "Name": "Larson-Toy",
+  "Fullname": "necessitatibus",
+  "CategoryMaster": 591,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fay-Will",
+  "ExternalName": "Tillman, Leannon and Leannon",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 434,
-  "ReplyTemplate": 40,
-  "NotificationEmail": "bridget@quigley.biz",
+  "AssignmentLag": 913,
+  "ReplyTemplate": 43,
+  "NotificationEmail": "ramiro.kulas@prohaska.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 717,
+  "EffectiveReplyTemplateId": 742,
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "et",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "animi",
-    "CustomFields2": "quo"
+    "CustomFields1": "vitae",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

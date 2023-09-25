@@ -869,6 +869,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/timeSpentQueue| *None* |Time spent in queue: Time spent in queue| x |
 |request/timeSpentExternally| *None* |Time spent externally: Time spent externally| x |
 |request/timeSpentInternally| *None* |Time spent internally: Time spent internally| x |
+|request/timeSpent| *None* |Time spent: Time spent| x |
 |request/timeToReply| *None* |Time to reply: Time to reply| x |
 |request/timeToClose| *None* |Time to close: Time to close| x |
 |request/realTimeToReply| *None* |Real time to reply: Real time to reply| x |
@@ -955,11 +956,11 @@ This is the archive Provider for the Selection contact/person archive.
 |request/extra/x\_ticket\_short\_text| *None* |Extra short text: Custom short text field on Request. Do not keep HTML tags. Display on new request| x |
 |request/extra/x\_ticket\_shorttext\_list| *None* |Extra Dropdown: Custom short text with list for Request Pink, Orange, Yellow, Polkadot| x |
 |request/extra/x\_ticket\_timestamp| *None* |Extra timestamp: Custom date time field on ticket with default = current date + time. Field cannot change. Hide field| x |
-|request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/extra/x\_ticket\_project\_relation| *None* |Extra project: Custom project relation on Request| x |
 |request/extra/x\_ticket\_faq| *None* |Extra FAQ Relation| x |
 |request/extra/x\_ticket\_category\_relation| *None* |Extra category relation: Category relation on request| x |
 |request/extra/y\_equipment/x\_name| *None* |Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -1059,11 +1060,11 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/saintIntention| *None* |Intention|  |
 |projectMembers/saintTicketStatus| *None* |Status|  |
 |projectMembers/saintTicketCategory| *None* |Category|  |
-|projectMembers/project/textId| *None* |Text ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/project/textId| *None* |Text ID| x |
 |projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field| x |
 |personAppointment/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed| x |
 |personAppointment/icon| *None* |Category: Displays the icon for an activity type| x |
@@ -1157,7 +1158,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=streetAddress/city,contactUdef/SuperOffice:10,targetRelation/personContactRelation,sale/associate/contactCategory,personExtra/x_person_user_relation
+GET /api/v1/archive/ContactPersonSelectionV2?$select=postAddress/zip,streetAddress/wgs84latitude,NumberOfNotCompletedTickets,saintSaleStatus,appointment/invitedPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

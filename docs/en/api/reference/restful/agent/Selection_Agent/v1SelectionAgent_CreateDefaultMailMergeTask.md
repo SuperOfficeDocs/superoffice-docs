@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 786,
-  "TypeId": 460,
-  "StartDate": "2009-05-13T03:31:27.2155767+02:00",
-  "Duration": 261,
-  "Description": "Stand-alone logistical paradigm",
-  "PriorityId": 596,
+  "ProjectId": 993,
+  "TypeId": 688,
+  "StartDate": "2002-03-23T03:24:48.2377352+01:00",
+  "Duration": 791,
+  "Description": "Versatile scalable function",
+  "PriorityId": 401,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 16,
-  "SingleEntryOnEachCompany": false,
-  "SaleId": 497,
+  "OwnerAssociateId": 103,
+  "SingleEntryOnEachCompany": true,
+  "SaleId": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 840
     }
   }
 }

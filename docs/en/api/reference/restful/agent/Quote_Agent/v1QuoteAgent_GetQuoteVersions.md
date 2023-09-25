@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 253
+  "QuoteId": 520
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 556,
-    "ERPQuoteVersionKey": "natus",
-    "QuoteId": 752,
-    "Description": "Optional web-enabled framework",
-    "Number": "1534273",
+    "QuoteVersionId": 569,
+    "ERPQuoteVersionKey": "tempore",
+    "QuoteId": 67,
+    "Description": "Assimilated human-resource support",
+    "Number": "458058",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "deploy enterprise deliverables",
-    "LikelyQuoteAlternativeId": 977,
-    "SentDate": "2009-03-17T03:31:27.0424653+01:00",
-    "FollowupId": 839,
-    "ExpirationDate": "1999-07-27T03:31:27.0424653+02:00",
-    "DeliveryCountryId": 810,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 418,
+    "Reason": "embrace 24/7 networks",
+    "LikelyQuoteAlternativeId": 566,
+    "SentDate": "2023-01-29T03:24:48.111357+01:00",
+    "FollowupId": 429,
+    "ExpirationDate": "2015-10-31T03:24:48.111357+01:00",
+    "DeliveryCountryId": 223,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 890,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "autem",
-    "ERPPaymentTypeKey": "quia",
-    "ERPDeliveryTermsKey": "asperiores",
-    "ERPDeliveryTypeKey": "id",
-    "Rank": 59,
-    "ApprovedBy": 302,
-    "ApprovedText": "laboriosam",
-    "ApprovedRegisteredBy": 89,
-    "ApprovedRegisteredDate": "2016-05-06T03:31:27.0424653+02:00",
-    "ExtraField1": "quasi",
-    "ExtraField2": "sed",
-    "ExtraField3": "aut",
-    "ExtraField4": "excepturi",
-    "ExtraField5": "nisi",
-    "LastRecalculated": "2014-08-12T03:31:27.0580843+02:00",
-    "Updated": "2010-05-27T03:31:27.0580843+02:00",
-    "UpdatedAssociateId": 707,
-    "Registered": "2015-08-08T03:31:27.0580843+02:00",
-    "RegisteredAssociateId": 751,
-    "RequestAssociateId": 179,
-    "RequestComment": "voluptatem",
+    "ERPPaymentTermsKey": "quisquam",
+    "ERPPaymentTypeKey": "maiores",
+    "ERPDeliveryTermsKey": "ut",
+    "ERPDeliveryTypeKey": "perferendis",
+    "Rank": 193,
+    "ApprovedBy": 807,
+    "ApprovedText": "neque",
+    "ApprovedRegisteredBy": 347,
+    "ApprovedRegisteredDate": "2004-09-30T03:24:48.111357+02:00",
+    "ExtraField1": "minus",
+    "ExtraField2": "dolores",
+    "ExtraField3": "repellendus",
+    "ExtraField4": "fugit",
+    "ExtraField5": "assumenda",
+    "LastRecalculated": "2001-12-11T03:24:48.111357+01:00",
+    "Updated": "2006-11-08T03:24:48.111357+01:00",
+    "UpdatedAssociateId": 939,
+    "Registered": "2017-05-10T03:24:48.111357+02:00",
+    "RegisteredAssociateId": 673,
+    "RequestAssociateId": 862,
+    "RequestComment": "sint",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 232,
-        "ERPQuoteAlternativeKey": "nihil",
-        "QuoteVersionId": 738,
-        "Name": "Mertz LLC",
-        "Description": "Innovative incremental secured line",
+        "QuoteAlternativeId": 440,
+        "ERPQuoteAlternativeKey": "voluptatem",
+        "QuoteVersionId": 667,
+        "Name": "Lynch-Lebsack",
+        "Description": "Synchronised high-level definition",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 22389.296,
-        "ERPDiscountAmount": 20690.667999999998,
-        "DiscountPercent": 11987.55,
-        "DiscountAmount": 23915.554,
+        "ERPDiscountPercent": 13379.046,
+        "ERPDiscountAmount": 22448.842,
+        "DiscountPercent": 29926.566,
+        "DiscountAmount": 24517.282,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "animi",
-        "VAT": 4816.958,
-        "EarningPercent": 16948.672,
-        "EarningAmount": 7665.764,
-        "SubTotal": 17672.626,
-        "TotalPrice": 3246.824,
-        "ExtraField1": "dolor",
-        "ExtraField2": "deleniti",
-        "ExtraField3": "officiis",
-        "ExtraField4": "quo",
-        "ExtraField5": "pariatur",
+        "VATInfo": "nam",
+        "VAT": 18647.3,
+        "EarningPercent": 19054.72,
+        "EarningAmount": 24282.232,
+        "SubTotal": 23241.744,
+        "TotalPrice": 15290.786,
+        "ExtraField1": "fugiat",
+        "ExtraField2": "nam",
+        "ExtraField3": "doloribus",
+        "ExtraField4": "ipsam",
+        "ExtraField5": "voluptatem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 491
+            "FieldType": "System.Int32",
+            "FieldLength": 856
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 631
       }
     }
   }

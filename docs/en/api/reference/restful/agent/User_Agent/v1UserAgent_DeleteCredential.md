@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 657,
-  "CredentialType": "quo"
+  "UserId": 64,
+  "CredentialType": "possimus"
 }
 ```
 

@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=525
+PUT /api/v1/Project/{id}/ImageInfo?projectId=19
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 175,
-  "BlobSize": 977,
-  "Description": "Exclusive bi-directional matrices",
-  "ExtraInfo": "minus",
+  "BlobId": 461,
+  "BlobSize": 868,
+  "Description": "Reactive homogeneous ability",
+  "ExtraInfo": "officiis",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "rem",
-  "OriginalSize": 76,
-  "CreatedDate": "2023-05-02T03:31:32.8007336+02:00",
-  "UpdatedDate": "2008-05-06T03:31:32.8007336+02:00",
+  "MimeType": "rerum",
+  "OriginalSize": 517,
+  "CreatedDate": "2001-01-26T03:24:51.7401403+01:00",
+  "UpdatedDate": "2019-07-17T03:24:51.7401403+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui"
+  "ConceptualType": "deleniti"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 896,
-  "BlobSize": 296,
-  "Description": "Integrated solution-oriented help-desk",
-  "ExtraInfo": "quidem",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "quas",
-  "OriginalSize": 119,
-  "CreatedDate": "2012-04-26T03:31:32.8007336+02:00",
-  "UpdatedDate": "1999-11-07T03:31:32.8007336+01:00",
+  "BlobId": 796,
+  "BlobSize": 1000,
+  "Description": "Programmable explicit task-force",
+  "ExtraInfo": "quos",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "praesentium",
+  "OriginalSize": 618,
+  "CreatedDate": "2016-12-29T03:24:51.7401403+01:00",
+  "UpdatedDate": "2003-11-05T03:24:51.7401403+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "necessitatibus",
+  "ConceptualType": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 235
     }
   }
 }

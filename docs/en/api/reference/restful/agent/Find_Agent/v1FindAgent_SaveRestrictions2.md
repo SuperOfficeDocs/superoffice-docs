@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "itaque",
-  "ProviderName": "Adams Inc and Sons",
-  "StorageKey": "praesentium",
-  "Restrictions": "tenetur"
+  "StorageType": "recusandae",
+  "ProviderName": "Morissette LLC",
+  "StorageKey": "atque",
+  "Restrictions": "aut"
 }
 ```
 

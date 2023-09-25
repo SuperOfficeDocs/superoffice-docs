@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "Mueller-Cronin",
-    "ToolTip": "Porro sapiente assumenda.",
-    "Deleted": false,
-    "Rank": 476,
-    "Type": "accusamus",
+    "Id": 747,
+    "Name": "Okuneva, Cormier and Waelchi",
+    "ToolTip": "Cupiditate velit sit voluptas quis similique neque sit.",
+    "Deleted": true,
+    "Rank": 746,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 623,
-        "Name": "Greenfelder-Wuckert",
-        "ToolTip": "Officia aut ut quibusdam accusamus reprehenderit dolorem.",
+        "Id": 89,
+        "Name": "Nienow-Kling",
+        "ToolTip": "Et suscipit eveniet voluptas.",
         "Deleted": true,
-        "Rank": 897,
-        "Type": "sit",
+        "Rank": 324,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 24,
-        "ExtraInfo": "nam",
-        "StyleHint": "quia",
-        "FullName": "Miss Burley Will",
+        "IconHint": "modi",
+        "ColorBlock": 402,
+        "ExtraInfo": "quia",
+        "StyleHint": "fugiat",
+        "FullName": "Ms. Connie Kohler II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 2
+            "FieldLength": 330
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 100,
-    "ExtraInfo": "unde",
-    "StyleHint": "exercitationem",
-    "FullName": "Gianni Heber Weber Sr.",
+    "IconHint": "unde",
+    "ColorBlock": 547,
+    "ExtraInfo": "placeat",
+    "StyleHint": "quod",
+    "FullName": "Herminia Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldType": "System.String",
+        "FieldLength": 531
       }
     }
   }

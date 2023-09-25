@@ -95,14 +95,14 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schowalter-Keebler",
+  "Name": "Rath, Daugherty and Becker",
   "ForceFlatList": false,
-  "AdditionalInfo": "consequatur",
+  "AdditionalInfo": "fugit",
   "HistoryItems": [
-    992,
-    694
+    858,
+    469
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "O'Kon-Hartmann",
-    "ToolTip": "Blanditiis ducimus.",
+    "Id": 136,
+    "Name": "Dicki, Funk and Lynch",
+    "ToolTip": "Cum aspernatur ut deleniti voluptatibus est.",
     "Deleted": false,
-    "Rank": 352,
-    "Type": "deleniti",
-    "ColorBlock": 800,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2005-10-20T03:31:26.7769052+02:00",
+    "Rank": 517,
+    "Type": "consequatur",
+    "ColorBlock": 826,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2017-03-11T03:24:47.9395013+01:00",
     "ChildItems": [
       {
-        "Id": 548,
-        "Name": "Crooks Group",
-        "ToolTip": "Repellendus qui quibusdam officiis qui ut harum dolores.",
-        "Deleted": true,
-        "Rank": 119,
-        "Type": "aliquam",
-        "ColorBlock": 414,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2017-09-17T03:31:26.7769052+02:00",
+        "Id": 795,
+        "Name": "Williamson, Emard and Reichert",
+        "ToolTip": "Culpa harum maxime ut soluta facilis exercitationem.",
+        "Deleted": false,
+        "Rank": 774,
+        "Type": "sed",
+        "ColorBlock": 645,
+        "IconHint": "assumenda",
+        "Selected": true,
+        "LastChanged": "2005-03-29T03:24:47.9395013+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "eos",
+        "ExtraInfo": "quidem",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Filomena Spinka",
+        "FullName": "Nikita Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 268
+            "FieldLength": 298
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "iusto",
+    "ExtraInfo": "atque",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Mr. Phyllis Otto Hansen DVM",
+    "FullName": "Saul Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldLength": 776
       }
     }
   }

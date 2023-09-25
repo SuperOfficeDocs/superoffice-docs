@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 620,
-  "TopicId": 736,
+  "ChatSessionId": 114,
+  "TopicId": 314,
   "User": null,
   "Person": null,
-  "CustomerAlias": "deleniti",
-  "CustomerHost": "laborum",
-  "CustomerName": "Mann Inc and Sons",
-  "CustomerEmail": "kaia@romaguera.co.uk",
-  "CustomerPhone": "340-940-9319 x527",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Shanahan-Marks",
+  "CustomerAlias": "suscipit",
+  "CustomerHost": "accusamus",
+  "CustomerName": "Herman Group",
+  "CustomerEmail": "blair.leuschke@hahnleuschke.name",
+  "CustomerPhone": "804-999-0210",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Hyatt, Crist and Hudson",
   "Status": "Closed",
-  "FirstMessage": "eaque",
-  "LastMessage": "velit",
-  "WhenRequested": "2009-12-04T03:31:32.253996+01:00",
-  "WhenStarted": "2003-10-31T03:31:32.253996+01:00",
-  "WhenEnded": "2020-09-01T03:31:32.253996+02:00",
-  "WhenIdle": "1999-05-26T03:31:32.253996+02:00",
-  "WhenFetched": "2017-09-03T03:31:32.253996+02:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 94,
-  "AlertLevel": 27,
-  "Rank": 703,
+  "FirstMessage": "asperiores",
+  "LastMessage": "non",
+  "WhenRequested": "2014-09-06T03:24:51.3804391+02:00",
+  "WhenStarted": "2017-05-24T03:24:51.3804391+02:00",
+  "WhenEnded": "2008-04-23T03:24:51.3804391+02:00",
+  "WhenIdle": "2001-03-21T03:24:51.3804391+01:00",
+  "WhenFetched": "1996-12-04T03:24:51.3804391+01:00",
+  "SessionKey": "itaque",
+  "InitialQueuePos": 254,
+  "AlertLevel": 434,
+  "Rank": 263,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 767,
+  "ChatbotIsActive": false,
+  "Rating": 975,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 375
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

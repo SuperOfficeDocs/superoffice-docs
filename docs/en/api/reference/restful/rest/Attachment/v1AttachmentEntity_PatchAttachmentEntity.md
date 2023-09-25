@@ -114,18 +114,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "expedita",
+    "path": "quibusdam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "expedita",
+    "path": "quibusdam",
     "value": {}
   }
 ]
@@ -138,19 +138,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 381,
-  "Name": "Lang LLC",
-  "ContentType": "laborum",
-  "AttSize": 503,
-  "InlineImage": true,
-  "ContentId": "similique",
-  "AuthKey": "est",
+  "AttachmentId": 599,
+  "Name": "Conroy Group",
+  "ContentType": "a",
+  "AttSize": 983,
+  "InlineImage": false,
+  "ContentId": "cum",
+  "AuthKey": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 737
     }
   },
   "_Links": {

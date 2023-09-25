@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 62,
-  "Section": "deleniti",
-  "Key": "dolorem",
-  "Name": "Wisoky, Collier and Bradtke",
+  "PrefDescId": 287,
+  "Section": "provident",
+  "Key": "quae",
+  "Name": "Buckridge-Farrell",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused mission-critical info-mediaries",
+  "Description": "Focused radical leverage",
   "IsBuiltin": false,
-  "TableName": "Kub Inc and Sons",
-  "UserDefinedListId": 427,
-  "Rank": 461,
-  "SubGroup": "fuga",
-  "MinLevel": 511,
-  "MaxValue": 666,
-  "MinValue": 726,
-  "RequiredLicense": "et"
+  "TableName": "Little, Ankunding and Runolfsdottir",
+  "UserDefinedListId": 187,
+  "Rank": 373,
+  "SubGroup": "consequatur",
+  "MinLevel": 91,
+  "MaxValue": 364,
+  "MinValue": 724,
+  "RequiredLicense": "aliquam"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 783,
-  "Section": "qui",
-  "Key": "quia",
-  "Name": "Fadel-O'Conner",
+  "PrefDescId": 137,
+  "Section": "tenetur",
+  "Key": "assumenda",
+  "Name": "Homenick, Satterfield and Rippin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-channelled tertiary infrastructure",
-  "IsBuiltin": true,
-  "TableName": "Renner Inc and Sons",
-  "UserDefinedListId": 516,
-  "Rank": 724,
-  "SubGroup": "incidunt",
-  "MinLevel": 887,
-  "MaxValue": 171,
-  "MinValue": 215,
-  "RequiredLicense": "autem",
+  "Description": "Phased reciprocal data-warehouse",
+  "IsBuiltin": false,
+  "TableName": "Marvin-Lind",
+  "UserDefinedListId": 304,
+  "Rank": 491,
+  "SubGroup": "nesciunt",
+  "MinLevel": 615,
+  "MaxValue": 706,
+  "MinValue": 332,
+  "RequiredLicense": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 829
     }
   }
 }

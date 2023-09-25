@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 458,
-    "Tooltip": "et",
+    "Unrestricted": true,
+    "Total": 337,
+    "Tooltip": "soluta",
     "CanAssign": true,
-    "Free": 418,
-    "InUse": 656,
+    "Free": 681,
+    "InUse": 681,
     "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 493,
-    "Name": "Von, Ward and Spinka",
-    "Description": "Compatible solution-oriented hub",
-    "PrerequisiteModuleName": "Harber LLC",
-    "SortOrder": 601,
-    "ExtraFlags": 505,
+    "Assigned": false,
+    "ModuleLicenseId": 842,
+    "Name": "Eichmann, Ledner and Wintheiser",
+    "Description": "Exclusive analyzing contingency",
+    "PrerequisiteModuleName": "Collins Group",
+    "SortOrder": 916,
+    "ExtraFlags": 207,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 553
       }
     }
   }

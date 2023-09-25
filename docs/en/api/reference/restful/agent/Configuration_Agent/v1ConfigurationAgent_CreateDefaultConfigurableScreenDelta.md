@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 909,
-  "Name": "White-Durgan",
-  "Description": "Up-sized directional leverage",
-  "DeltaJson": "dolorem",
+  "ConfigurableScreenDeltaId": 911,
+  "Name": "Bednar-Block",
+  "Description": "Realigned intangible help-desk",
+  "DeltaJson": "eos",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "atque",
-  "UpdatedDate": "2004-02-09T03:31:25.8072288+01:00",
-  "CreatedDate": "2020-09-20T03:31:25.8072288+02:00",
+  "RecipeId": "quis",
+  "UpdatedDate": "2014-08-15T03:24:47.3614382+02:00",
+  "CreatedDate": "2021-06-16T03:24:47.3614382+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    282,
-    37
+    846,
+    328
   ],
-  "AppliesToKey": "aut",
+  "AppliesToKey": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 601
     }
   }
 }

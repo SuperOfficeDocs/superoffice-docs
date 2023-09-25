@@ -103,6 +103,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -131,7 +132,7 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -139,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    172,
-    450
+    18,
+    751
   ]
 }
 ```
@@ -152,21 +153,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 152,
-  "Title": "sunt",
-  "CreatedAt": "2014-08-27T03:31:27.6541211+02:00",
-  "LastChanged": "2014-12-23T03:31:27.6541211+01:00",
-  "ReadByOwner": "2022-12-25T03:31:27.6541211+01:00",
-  "ReadByCustomer": "2004-03-05T03:31:27.6541211+01:00",
-  "FirstReadByOwner": "2009-02-26T03:31:27.6541211+01:00",
-  "FirstReadByUser": "2020-09-28T03:31:27.6541211+02:00",
-  "Activate": "2019-09-22T03:31:27.6541211+02:00",
-  "ClosedAt": "2021-08-10T03:31:27.6541211+02:00",
-  "RepliedAt": "1999-04-11T03:31:27.6541211+02:00",
-  "AlertTimeout": "1999-06-11T03:31:27.6541211+02:00",
-  "Deadline": "1997-03-19T03:31:27.6541211+01:00",
+  "TicketId": 733,
+  "Title": "soluta",
+  "CreatedAt": "1999-08-14T03:24:48.4716406+02:00",
+  "LastChanged": "2022-11-23T03:24:48.4716406+01:00",
+  "ReadByOwner": "2007-09-17T03:24:48.4716406+02:00",
+  "ReadByCustomer": "2017-08-15T03:24:48.4716406+02:00",
+  "FirstReadByOwner": "2008-08-28T03:24:48.4716406+02:00",
+  "FirstReadByUser": "1999-06-30T03:24:48.4716406+02:00",
+  "Activate": "2000-12-17T03:24:48.4716406+01:00",
+  "ClosedAt": "2003-07-11T03:24:48.4716406+02:00",
+  "RepliedAt": "2002-07-18T03:24:48.4716406+02:00",
+  "AlertTimeout": "2014-12-05T03:24:48.4716406+01:00",
+  "Deadline": "2009-07-13T03:24:48.4716406+02:00",
   "CreatedBy": null,
-  "Author": "quisquam",
+  "Author": "illo",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -177,160 +178,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "et",
-      "PersonId": 760,
-      "Mrmrs": "ea",
-      "Firstname": "Rodrigo",
-      "Lastname": "Bogan",
-      "MiddleName": "Herman-Kling",
-      "Title": "unde",
-      "Description": "Front-line well-modulated architecture",
-      "Email": "eileen@hettinger.uk",
-      "FullName": "Prof. Myrtie Rosenbaum MD",
-      "DirectPhone": "161-029-7728 x13048",
-      "FormalName": "Gusikowski Group",
-      "CountryId": 665,
-      "ContactId": 2,
-      "ContactName": "McDermott-Keebler",
-      "Retired": 906,
-      "Rank": 384,
-      "ActiveInterests": 658,
+      "Position": "illo",
+      "PersonId": 839,
+      "Mrmrs": "delectus",
+      "Firstname": "Neoma",
+      "Lastname": "Connelly",
+      "MiddleName": "McLaughlin, Zulauf and Ziemann",
+      "Title": "ut",
+      "Description": "Sharable interactive portal",
+      "Email": "nicole_bruen@hoeger.biz",
+      "FullName": "Eileen Zemlak",
+      "DirectPhone": "(090)420-0109",
+      "FormalName": "Farrell Group",
+      "CountryId": 429,
+      "ContactId": 269,
+      "ContactName": "Padberg, Murray and Johnston",
+      "Retired": 441,
+      "Rank": 997,
+      "ActiveInterests": 4,
       "ContactDepartment": "",
-      "ContactCountryId": 32,
-      "ContactOrgNr": "282813",
-      "FaxPhone": "(693)858-3424 x01478",
-      "MobilePhone": "(188)354-2416",
-      "ContactPhone": "1-222-318-5167 x74054",
-      "AssociateName": "Conn-Zboncak",
-      "AssociateId": 405,
+      "ContactCountryId": 449,
+      "ContactOrgNr": "962777",
+      "FaxPhone": "(793)441-9231 x5735",
+      "MobilePhone": "362-130-3102 x2574",
+      "ContactPhone": "(252)382-0909",
+      "AssociateName": "Gibson Inc and Sons",
+      "AssociateId": 421,
       "UsePersonAddress": false,
-      "ContactFax": "corporis",
-      "Kanafname": "quae",
-      "Kanalname": "veritatis",
-      "Post1": "aut",
-      "Post2": "deserunt",
-      "Post3": "placeat",
-      "EmailName": "arely@kossjewess.info",
-      "ContactFullName": "Cody Gulgowski",
-      "ActiveErpLinks": 632,
-      "TicketPriorityId": 975,
-      "SupportLanguageId": 933,
-      "SupportAssociateId": 673,
+      "ContactFax": "ipsam",
+      "Kanafname": "doloribus",
+      "Kanalname": "omnis",
+      "Post1": "fuga",
+      "Post2": "provident",
+      "Post3": "deleniti",
+      "EmailName": "luisa@keeblerbahringer.biz",
+      "ContactFullName": "Prof. Mossie Earl Terry",
+      "ActiveErpLinks": 341,
+      "TicketPriorityId": 897,
+      "SupportLanguageId": 53,
+      "SupportAssociateId": 322,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldType": "System.String",
+          "FieldLength": 101
         }
       }
     }
   ],
-  "AlertLevel": 42,
-  "ConnectId": 460,
+  "AlertLevel": 56,
+  "ConnectId": 892,
   "ReadStatus": "Green",
-  "TimeToReply": 635,
-  "RealTimeToReply": 99,
-  "TimeToClose": 397,
-  "RealTimeToClose": 98,
-  "TimeSpentInternally": 371,
-  "TimeSpentExternally": 149,
-  "TimeSpentQueue": 651,
-  "RealTimeSpentInternally": 377,
-  "RealTimeSpentExternally": 794,
-  "RealTimeSpentQueue": 338,
+  "TimeToReply": 302,
+  "RealTimeToReply": 208,
+  "TimeToClose": 576,
+  "RealTimeToClose": 885,
+  "TimeSpentInternally": 930,
+  "TimeSpentExternally": 738,
+  "TimeSpentQueue": 863,
+  "RealTimeSpentInternally": 812,
+  "RealTimeSpentExternally": 913,
+  "RealTimeSpentQueue": 373,
+  "TimeSpent": 538,
   "HasAttachment": false,
-  "NumReplies": 367,
-  "NumMessages": 936,
-  "FromAddress": "eos",
+  "NumReplies": 494,
+  "NumMessages": 55,
+  "FromAddress": "qui",
   "Messages": [
     {
-      "TicketMessageId": 928,
-      "CreatedAt": "2015-05-27T03:31:27.6541211+02:00",
+      "TicketMessageId": 735,
+      "CreatedAt": "2010-11-12T03:24:48.4716406+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "enim",
-      "PersonId": 811,
-      "PersonFullName": "Hal Gaylord",
-      "ContactId": 212,
-      "ContactName": "Emard-Cole",
-      "ContactDepartment": "",
-      "NumAttachments": 700,
-      "EmailHeader": "edwardo@blicklehner.biz",
+      "Important": false,
+      "Author": "sapiente",
+      "PersonId": 108,
+      "PersonFullName": "Dr. Emilie Monahan III",
+      "ContactId": 743,
+      "ContactName": "Zemlak-Volkman",
+      "ContactDepartment": "expedite robust models",
+      "NumAttachments": 778,
+      "EmailHeader": "garrison_conn@shanahan.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "enim",
-      "Sentiment": 33,
-      "SentimentConfidence": 443,
-      "CreatedBy": 38,
-      "ChangedAt": "2023-01-08T03:31:27.6541211+01:00",
+      "Language": "numquam",
+      "Sentiment": 335,
+      "SentimentConfidence": 170,
+      "CreatedBy": 129,
+      "ChangedAt": "2001-05-05T03:24:48.4716406+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldLength": 261
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 668,
-      "Name": "Hickle LLC",
-      "ToolTip": "Libero sit.",
+      "Id": 433,
+      "Name": "Romaguera Group",
+      "ToolTip": "Rerum delectus nisi possimus nobis libero.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     },
     {
-      "Id": 668,
-      "Name": "Hickle LLC",
-      "ToolTip": "Libero sit.",
+      "Id": 433,
+      "Name": "Romaguera Group",
+      "ToolTip": "Rerum delectus nisi possimus nobis libero.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     }
   ],
-  "Language": "quia",
-  "Sentiment": 680,
-  "SentimentConfidence": 806,
-  "SuggestedCategoryId": 212,
+  "Language": "quod",
+  "Sentiment": 323,
+  "SentimentConfidence": 909,
+  "SuggestedCategoryId": 15,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 599,
-  "IconHint": "eum",
+  "OrigHumanCategoryId": 125,
+  "IconHint": "assumenda",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "ea"
+    "CustomFields1": "doloremque",
+    "CustomFields2": "exercitationem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

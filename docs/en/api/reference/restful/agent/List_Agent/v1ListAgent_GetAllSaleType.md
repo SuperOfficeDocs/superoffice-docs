@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Value": "placeat",
-    "Tooltip": "aspernatur",
+    "Id": 266,
+    "Value": "maxime",
+    "Tooltip": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldLength": 838
       }
     }
   },
   {
-    "Id": 295,
-    "Value": "placeat",
-    "Tooltip": "aspernatur",
+    "Id": 266,
+    "Value": "maxime",
+    "Tooltip": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 92
+        "FieldLength": 838
       }
     }
   }

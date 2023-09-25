@@ -26,7 +26,7 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=979
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=176
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 318,
+  "CustConfigId": 779,
   "Type": "Options",
-  "Config": "et",
-  "CustLangId": 866,
-  "Registered": "2018-03-29T03:31:25.9790593+02:00",
-  "RegisteredAssociateId": 134,
-  "Updated": "2003-03-27T03:31:25.9790593+01:00",
-  "UpdatedAssociateId": 393,
+  "Config": "omnis",
+  "CustLangId": 244,
+  "Registered": "2023-07-16T03:24:47.4708008+02:00",
+  "RegisteredAssociateId": 121,
+  "Updated": "2018-09-24T03:24:47.4708008+02:00",
+  "UpdatedAssociateId": 754,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 758
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

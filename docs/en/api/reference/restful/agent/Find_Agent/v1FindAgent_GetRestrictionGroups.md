@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "saepe",
-  "ProviderName": "Johnson, Smith and Marks",
-  "StorageKey": "earum",
-  "Context": "error"
+  "StorageType": "necessitatibus",
+  "ProviderName": "McDermott, Feeney and Bartell",
+  "StorageKey": "saepe",
+  "Context": "corporis"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blanda, Jerde and Reichel",
-    "Description": "Quality-focused contextually-based projection",
-    "Rank": 27,
+    "Name": "Mante-Klocko",
+    "Description": "Streamlined global approach",
+    "Rank": 174,
     "Restrictions": [
       {
-        "Name": "Toy Group",
-        "Operator": "iure",
+        "Name": "Reichel-Jenkins",
+        "Operator": "ad",
         "Values": [
-          "magnam",
-          "quo"
+          "blanditiis",
+          "et"
         ],
         "DisplayValues": [
-          "est",
-          "est"
+          "rerum",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 421,
+        "InterParenthesis": 82,
         "InterOperator": "And",
-        "UniqueHash": 905
+        "UniqueHash": 171
       }
     ]
   },
   {
-    "Name": "Blanda, Jerde and Reichel",
-    "Description": "Quality-focused contextually-based projection",
-    "Rank": 27,
+    "Name": "Mante-Klocko",
+    "Description": "Streamlined global approach",
+    "Rank": 174,
     "Restrictions": [
       {
-        "Name": "Toy Group",
-        "Operator": "iure",
+        "Name": "Reichel-Jenkins",
+        "Operator": "ad",
         "Values": [
-          "magnam",
-          "quo"
+          "blanditiis",
+          "et"
         ],
         "DisplayValues": [
-          "est",
-          "est"
+          "rerum",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 421,
+        "InterParenthesis": 82,
         "InterOperator": "And",
-        "UniqueHash": 905
+        "UniqueHash": 171
       }
     ]
   }

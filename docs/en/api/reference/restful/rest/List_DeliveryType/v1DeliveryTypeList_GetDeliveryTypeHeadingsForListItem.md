@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Koch-Jacobson",
-    "ToolTip": "Iure aut harum esse qui illo sequi.",
+    "Id": 128,
+    "Name": "Erdman-Nader",
+    "ToolTip": "Et rerum dignissimos est ipsum.",
     "Deleted": false,
-    "Rank": 829,
-    "Type": "qui",
-    "ColorBlock": 748,
-    "IconHint": "esse",
+    "Rank": 34,
+    "Type": "sit",
+    "ColorBlock": 770,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2002-07-14T03:31:33.6167125+02:00",
+    "LastChanged": "2021-12-07T03:24:52.240053+01:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Gerhold-Littel",
-        "ToolTip": "Dolorum rerum.",
+        "Id": 260,
+        "Name": "Cummerata, Bauch and Fahey",
+        "ToolTip": "Mollitia quae.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "error",
-        "ColorBlock": 89,
-        "IconHint": "iste",
+        "Rank": 149,
+        "Type": "nulla",
+        "ColorBlock": 267,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2009-12-19T03:31:33.6167125+01:00",
+        "LastChanged": "2006-02-01T03:24:52.240053+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "eligendi",
-        "Hidden": true,
-        "FullName": "Mr. Karianne Rosa Heidenreich",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Mrs. Shanel Cecelia Marvin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldLength": 348
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "recusandae",
-    "Hidden": false,
-    "FullName": "Ms. Stuart Grant Mann",
+    "ExtraInfo": "eum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Elna Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 715
       }
     }
   }

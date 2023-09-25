@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 699,
-  "ColumnId": 661,
-  "FieldDefault": "aperiam",
-  "FieldHeight": 75,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 467,
-  "FieldTop": 235,
+  "UDefFieldId": 347,
+  "ColumnId": 299,
+  "FieldDefault": "illo",
+  "FieldHeight": 642,
+  "FieldLabel": "voluptate",
+  "FieldLeft": 601,
+  "FieldTop": 431,
   "FieldType": "Checkbox",
-  "FieldWidth": 801,
-  "FormatMask": "quia",
-  "HideLabel": true,
+  "FieldWidth": 250,
+  "FormatMask": "non",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 598,
-  "LabelLeft": 334,
-  "LabelTop": 581,
-  "LabelWidth": 836,
-  "LastVersionId": 891,
-  "ListTableId": 147,
+  "LabelHeight": 153,
+  "LabelLeft": 370,
+  "LabelTop": 304,
+  "LabelWidth": 519,
+  "LastVersionId": 702,
+  "ListTableId": 753,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 39,
-  "ProgId": "adipisci",
+  "Page1LineNo": 856,
+  "ProgId": "rem",
   "IsReadOnly": false,
-  "ShortLabel": "rem",
-  "TabOrder": 242,
-  "TextLength": 694,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 711,
-  "UDListDefinitionId": 122,
+  "ShortLabel": "ut",
+  "TabOrder": 300,
+  "TextLength": 928,
+  "Tooltip": "eius",
+  "UdefIdentity": 110,
+  "UDListDefinitionId": 672,
   "Justification": "Center",
-  "Version": 421,
-  "TemplateVariableName": "Ledner-Tremblay",
-  "HasBeenPublished": false,
-  "MdoListName": "Schuster LLC",
+  "Version": 999,
+  "TemplateVariableName": "Hettinger Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Hirthe, Beer and Considine",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

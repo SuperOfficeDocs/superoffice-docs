@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 625
+  "ErpConnectorId": 724
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "libero",
-    "Rank": 673,
-    "DisplayName": "Gusikowski-Halvorson",
-    "DisplayDescription": "Operative logistical firmware",
+    "FieldKey": "tempore",
+    "Rank": 641,
+    "DisplayName": "Schmidt, Rath and Kohler",
+    "DisplayDescription": "Secured cohesive secured line",
     "FieldType": "Checkbox",
-    "ListName": "Stoltenberg Inc and Sons",
-    "DefaultValue": "laborum",
-    "MaxLength": 929,
+    "ListName": "Williamson-Stracke",
+    "DefaultValue": "eius",
+    "MaxLength": 390,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 839
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 639
+  "TicketMessageEntityId": 746
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "AttachmentId": 922,
-    "Name": "Predovic Group",
-    "ContentType": "et",
-    "AttSize": 500,
-    "InlineImage": false,
-    "ContentId": "ea",
-    "AuthKey": "reprehenderit",
+    "Name": "McGlynn-Erdman",
+    "ContentType": "itaque",
+    "AttSize": 951,
+    "InlineImage": true,
+    "ContentId": "maxime",
+    "AuthKey": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 150
       }
     }
   }

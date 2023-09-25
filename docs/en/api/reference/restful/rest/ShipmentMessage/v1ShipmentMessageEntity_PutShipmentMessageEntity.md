@@ -123,27 +123,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 386,
-  "PlainMessage": "quam",
-  "HtmlMessage": "sed",
-  "SmsMessage": "quos",
-  "Description": "Adaptive object-oriented flexibility",
-  "Subject": "provident",
-  "FolderId": 612,
-  "HeaderField": "perspiciatis",
-  "Design": "iure",
+  "ShipmentMessageId": 742,
+  "PlainMessage": "possimus",
+  "HtmlMessage": "vitae",
+  "SmsMessage": "aut",
+  "Description": "Synergized needs-based attitude",
+  "Subject": "non",
+  "FolderId": 505,
+  "HeaderField": "perferendis",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Horizontal global matrix",
-  "AccessKey": "omnis",
-  "DocumentMessage": 462,
-  "Registered": "2005-12-18T03:31:32.9594383+01:00",
-  "RegisteredAssociateId": 897,
-  "Updated": "2010-01-06T03:31:32.9594383+01:00",
-  "UpdatedAssociateId": 700,
-  "UpdatedCount": 255
+  "LongDescription": "Front-line logistical orchestration",
+  "AccessKey": "eveniet",
+  "DocumentMessage": 957,
+  "Registered": "1996-10-30T03:24:51.927622+01:00",
+  "RegisteredAssociateId": 704,
+  "Updated": "2001-05-12T03:24:51.927622+02:00",
+  "UpdatedAssociateId": 674,
+  "UpdatedCount": 978
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 967,
+  "ShipmentMessageId": 909,
   "PlainMessage": "tenetur",
-  "HtmlMessage": "aut",
-  "SmsMessage": "commodi",
-  "Description": "Extended user-facing local area network",
-  "Subject": "corrupti",
-  "FolderId": 674,
-  "HeaderField": "ut",
-  "Design": "distinctio",
+  "HtmlMessage": "laudantium",
+  "SmsMessage": "voluptatem",
+  "Description": "Future-proofed foreground instruction set",
+  "Subject": "qui",
+  "FolderId": 907,
+  "HeaderField": "voluptas",
+  "Design": "blanditiis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Persevering hybrid monitoring",
-  "AccessKey": "quidem",
-  "DocumentMessage": 843,
-  "Registered": "2012-07-03T03:31:32.9594383+02:00",
-  "RegisteredAssociateId": 563,
-  "Updated": "2010-06-06T03:31:32.9594383+02:00",
-  "UpdatedAssociateId": 28,
-  "UpdatedCount": 976,
+  "InlineImages": false,
+  "LongDescription": "User-friendly static contingency",
+  "AccessKey": "sed",
+  "DocumentMessage": 214,
+  "Registered": "2006-07-06T03:24:51.927622+02:00",
+  "RegisteredAssociateId": 36,
+  "Updated": "2022-08-06T03:24:51.927622+02:00",
+  "UpdatedAssociateId": 475,
+  "UpdatedCount": 170,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldLength": 927
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

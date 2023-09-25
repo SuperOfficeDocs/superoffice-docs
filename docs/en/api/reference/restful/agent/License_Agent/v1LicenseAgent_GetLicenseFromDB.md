@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Little-Skiles"
+  "OwnerName": "Rice, Lesch and Gislason"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 404,
-      "NumberOfLicensesFree": 601,
-      "NumberOfLicensesAdded": 896,
-      "NumberOfLicensesNewTotal": 18,
-      "NumberOfLicensesNewFree": 76,
-      "NumberOfLicensesTotal": 179
+      "NumberOfLicensesInUse": 384,
+      "NumberOfLicensesFree": 380,
+      "NumberOfLicensesAdded": 315,
+      "NumberOfLicensesNewTotal": 677,
+      "NumberOfLicensesNewFree": 622,
+      "NumberOfLicensesTotal": 487
     }
   ],
-  "AccumulatedNextCheckDate": "2021-05-22T03:31:26.6050723+02:00"
+  "AccumulatedNextCheckDate": "2021-01-17T03:24:47.8301403+01:00"
 }
 ```

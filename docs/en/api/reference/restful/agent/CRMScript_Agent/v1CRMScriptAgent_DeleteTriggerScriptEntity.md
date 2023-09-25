@@ -27,7 +27,7 @@ Deletes the TriggerScriptEntity
 | TriggerScriptEntityId | int32 | **Required** The id of the TriggerScriptEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=444
+POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=828
 ```
 
 
@@ -58,7 +58,7 @@ No Content
 POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

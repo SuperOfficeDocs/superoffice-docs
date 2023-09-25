@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Dickens-Anderson",
-  "StorageKey": "doloribus",
+  "StorageType": "tenetur",
+  "ProviderName": "Collier-Powlowski",
+  "StorageKey": "ipsum",
   "Restrictions": [
     {
-      "Name": "Corkery-Rolfson",
-      "Operator": "ipsum",
+      "Name": "Yost Inc and Sons",
+      "Operator": "enim",
       "Values": [
-        "dolor",
-        "sunt"
+        "omnis",
+        "amet"
       ],
       "DisplayValues": [
-        "quisquam",
-        "sint"
+        "ullam",
+        "laborum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 622,
+      "InterParenthesis": 484,
       "InterOperator": "And",
-      "UniqueHash": 818
+      "UniqueHash": 770
     }
   ],
-  "Context": "optio"
+  "Context": "veniam"
 }
 ```
 

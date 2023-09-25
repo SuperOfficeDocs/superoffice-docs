@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 205
+  "RoleId": 991
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Treutel-Marquardt",
-    "ToolTip": "Sequi hic quis dolorum autem.",
+    "Id": 616,
+    "Name": "Stamm-Smith",
+    "ToolTip": "Enim autem omnis et.",
     "Deleted": true,
-    "Rank": 98,
-    "Type": "iste",
-    "ColorBlock": 830,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2003-06-19T03:31:27.7634711+02:00",
+    "Rank": 30,
+    "Type": "accusamus",
+    "ColorBlock": 410,
+    "IconHint": "sint",
+    "Selected": false,
+    "LastChanged": "2011-08-09T03:24:48.5497594+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Lockman-Lebsack",
-        "ToolTip": "Blanditiis consequatur rerum eveniet inventore debitis cupiditate officiis.",
+        "Id": 831,
+        "Name": "Robel LLC",
+        "ToolTip": "Accusantium aut ut ab.",
         "Deleted": false,
-        "Rank": 348,
+        "Rank": 779,
         "Type": "eos",
-        "ColorBlock": 805,
-        "IconHint": "laborum",
-        "Selected": false,
-        "LastChanged": "2022-06-25T03:31:27.7634711+02:00",
+        "ColorBlock": 983,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2010-03-17T03:24:48.5497594+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "facere",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Wallace Daugherty",
+        "FullName": "Ms. Gayle Wiza MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldLength": 113
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Toy Haag",
+    "ExtraInfo": "non",
+    "StyleHint": "iusto",
+    "Hidden": true,
+    "FullName": "Rogers Kole Koch DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

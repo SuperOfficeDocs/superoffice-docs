@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 979,
-    "Name": "Howell, Lubowitz and Waelchi",
-    "Tooltip": "sapiente",
+    "HeadingId": 436,
+    "Name": "Luettgen LLC",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 875
+    "Rank": 616,
+    "UdListDefinitionId": 679
   },
   {
-    "HeadingId": 979,
-    "Name": "Howell, Lubowitz and Waelchi",
-    "Tooltip": "sapiente",
+    "HeadingId": 436,
+    "Name": "Luettgen LLC",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 875
+    "Rank": 616,
+    "UdListDefinitionId": 679
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 143,
-    "Name": "Jenkins LLC",
-    "Tooltip": "necessitatibus",
+    "HeadingId": 650,
+    "Name": "Schamberger-Adams",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 198,
-    "UdListDefinitionId": 157,
+    "Rank": 736,
+    "UdListDefinitionId": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldType": "System.Int32",
+        "FieldLength": 859
       }
     }
   }

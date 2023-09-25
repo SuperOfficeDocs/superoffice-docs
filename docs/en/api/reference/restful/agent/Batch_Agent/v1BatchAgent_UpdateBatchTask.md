@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 659,
-  "Name": "Renner-McClure",
-  "AssociateId": 818,
-  "DetailsTable": 313,
-  "DetailsRecord": 841,
+  "Id": 591,
+  "Name": "Stehr-Rogahn",
+  "AssociateId": 570,
+  "DetailsTable": 706,
+  "DetailsRecord": 11,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "blanditiis",
-    "ParameterObject2": "natus"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "eos"
   },
-  "LastStarted": "2002-03-10T03:31:25.6496314+01:00",
-  "Created": "2014-09-15T03:31:25.6496314+02:00",
-  "StartCount": 81,
-  "DatabaseSerialNumber": "450218",
-  "Context": "dicta",
-  "Result": "voluptas",
+  "LastStarted": "2000-02-29T03:24:47.2520803+01:00",
+  "Created": "2013-07-18T03:24:47.2520803+02:00",
+  "StartCount": 487,
+  "DatabaseSerialNumber": "893400",
+  "Context": "expedita",
+  "Result": "sit",
   "State": "All",
-  "Description": "Progressive incremental attitude",
-  "Response": "explicabo",
-  "Request": "voluptatem",
-  "ProgressDescription": "Exclusive multimedia structure",
-  "ProgressPercent": 165,
-  "FileName": "Kessler-Jacobi",
+  "Description": "Quality-focused encompassing adapter",
+  "Response": "quis",
+  "Request": "et",
+  "ProgressDescription": "Team-oriented secondary circuit",
+  "ProgressPercent": 942,
+  "FileName": "Lowe, Jacobi and Mills",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 292
     }
   }
 }

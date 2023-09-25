@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 436,
-  "ERPQuoteAlternativeKey": "officiis",
-  "QuoteVersionId": 195,
-  "Name": "Roob, Mayer and Runolfsdottir",
-  "Description": "User-centric 3rd generation support",
+  "QuoteAlternativeId": 358,
+  "ERPQuoteAlternativeKey": "porro",
+  "QuoteVersionId": 840,
+  "Name": "Reynolds-Jaskolski",
+  "Description": "Cross-group discrete conglomeration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 1197.1879999999999,
-  "ERPDiscountAmount": 7684.5679999999993,
-  "DiscountPercent": 11000.34,
-  "DiscountAmount": 9254.702,
+  "ERPDiscountPercent": 14485.348,
+  "ERPDiscountAmount": 21167.036,
+  "DiscountPercent": 20762.75,
+  "DiscountAmount": 23269.95,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "adipisci",
-  "VAT": 20251.908,
-  "EarningPercent": 1968.152,
-  "EarningAmount": 26604.525999999998,
-  "SubTotal": 28437.915999999997,
-  "TotalPrice": 13451.127999999999,
-  "ExtraField1": "hic",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "accusamus",
-  "ExtraField4": "exercitationem",
-  "ExtraField5": "voluptates",
+  "VATInfo": "voluptas",
+  "VAT": 9574.369999999999,
+  "EarningPercent": 567.254,
+  "EarningAmount": 29741.66,
+  "SubTotal": 10890.65,
+  "TotalPrice": 25930.716,
+  "ExtraField1": "vel",
+  "ExtraField2": "nihil",
+  "ExtraField3": "at",
+  "ExtraField4": "reiciendis",
+  "ExtraField5": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldLength": 856
     }
   }
 }

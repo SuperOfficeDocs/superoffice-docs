@@ -82,30 +82,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Borer-Pfannerstill",
-  "StorageKey": "quos",
+  "StorageType": "doloremque",
+  "ProviderName": "Altenwerth, Kertzmann and Kshlerin",
+  "StorageKey": "accusantium",
   "RestrictionGroups": [
     {
-      "Name": "Bosco Group",
-      "Description": "Secured didactic installation",
-      "Rank": 657,
+      "Name": "Bins Inc and Sons",
+      "Description": "Future-proofed system-worthy Graphical User Interface",
+      "Rank": 941,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bosco Group",
-      "Description": "Secured didactic installation",
-      "Rank": 657,
+      "Name": "Bins Inc and Sons",
+      "Description": "Future-proofed system-worthy Graphical User Interface",
+      "Rank": 941,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "recusandae"
+  "Context": "officia"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McLaughlin, Kihn and Sanford",
-    "Description": "Total web-enabled pricing structure",
-    "Rank": 915,
+    "Name": "Grimes, Eichmann and Rath",
+    "Description": "Realigned stable product",
+    "Rank": 680,
     "Restrictions": [
       {
-        "Name": "Buckridge, Medhurst and Fisher",
-        "Operator": "et",
+        "Name": "Koepp-Bernhard",
+        "Operator": "dolores",
         "Values": [
-          "et",
-          "dolor"
+          "vel",
+          "est"
         ],
         "DisplayValues": [
-          "ducimus",
-          "est"
+          "id",
+          "molestias"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 123,
+        "InterParenthesis": 355,
         "InterOperator": "And",
-        "UniqueHash": 108
+        "UniqueHash": 444
       }
     ]
   },
   {
-    "Name": "McLaughlin, Kihn and Sanford",
-    "Description": "Total web-enabled pricing structure",
-    "Rank": 915,
+    "Name": "Grimes, Eichmann and Rath",
+    "Description": "Realigned stable product",
+    "Rank": 680,
     "Restrictions": [
       {
-        "Name": "Buckridge, Medhurst and Fisher",
-        "Operator": "et",
+        "Name": "Koepp-Bernhard",
+        "Operator": "dolores",
         "Values": [
-          "et",
-          "dolor"
+          "vel",
+          "est"
         ],
         "DisplayValues": [
-          "ducimus",
-          "est"
+          "id",
+          "molestias"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 123,
+        "InterParenthesis": 355,
         "InterOperator": "And",
-        "UniqueHash": 108
+        "UniqueHash": 444
       }
     ]
   }

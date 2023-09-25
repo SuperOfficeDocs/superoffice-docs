@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 791,
-      "ContactId": 547
+      "PersonId": 425,
+      "ContactId": 160
     },
     {
-      "PersonId": 791,
-      "ContactId": 547
+      "PersonId": 425,
+      "ContactId": 160
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated composite solution",
-  "Postit": "quibusdam",
+  "Description": "Extended bifurcated solution",
+  "Postit": "odio",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 554,
-  "IncludePerson": 993,
-  "MemberCount": 634,
-  "Name": "Lemke, Sawayn and Carter",
-  "PostitTextId": 286,
-  "CreatedDate": "2008-01-17T03:31:27.2468237+01:00",
-  "SelectionId": 752,
-  "SoundEx": "laborum",
-  "Source": 192,
-  "TextId": 321,
-  "UpdatedDate": "2014-10-03T03:31:27.2468237+02:00",
-  "UpdatedCount": 41,
-  "Visibility": 76,
+  "GroupIdx": 431,
+  "IncludePerson": 130,
+  "MemberCount": 259,
+  "Name": "Harber, Bosco and Graham",
+  "PostitTextId": 98,
+  "CreatedDate": "2018-10-18T03:24:48.2524255+02:00",
+  "SelectionId": 143,
+  "SoundEx": "illo",
+  "Source": 604,
+  "TextId": 113,
+  "UpdatedDate": "2004-04-03T03:24:48.2524255+02:00",
+  "UpdatedCount": 787,
+  "Visibility": 674,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 958,
-  "TargetTableName": "Kris, O'Reilly and D'Amore",
-  "Completed": false,
-  "LeftSelectionId": 248,
-  "RightSelectionId": 354,
+  "CompanyUnique": false,
+  "TargetTableNumber": 433,
+  "TargetTableName": "Runte-Pollich",
+  "Completed": true,
+  "LeftSelectionId": 989,
+  "RightSelectionId": 761,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Weber-Sipes",
-  "ShadowProviderName": "Christiansen Inc and Sons",
-  "ChartKey": "qui",
-  "LastLoaded": "2000-01-27T03:31:27.2468237+01:00",
-  "LastLoadedBy": 703,
+  "MainProviderName": "Carroll Group",
+  "ShadowProviderName": "Haley Inc and Sons",
+  "ChartKey": "ut",
+  "LastLoaded": "2017-03-20T03:24:48.2524255+01:00",
+  "LastLoadedBy": 351,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-06-06T03:31:27.2468237+02:00",
-  "LastMembershipChangeBy": 39,
+  "LastMembershipChange": "2015-10-24T03:24:48.2524255+02:00",
+  "LastMembershipChangeBy": 729,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptate",
-  "MemberTabHeading": "deserunt",
-  "MailingsProviderName": "Treutel Inc and Sons",
-  "DashboardTileDefinitionId": 597,
+  "MainHeading": "dolores",
+  "MemberTabHeading": "enim",
+  "MailingsProviderName": "Schultz-Mertz",
+  "DashboardTileDefinitionId": 949,
   "VisibleFor": [
     {
-      "VisibleId": 121,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldLength": 531
         }
       }
     },
     {
-      "VisibleId": 121,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 889
+          "FieldLength": 531
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 662
     }
   }
 }

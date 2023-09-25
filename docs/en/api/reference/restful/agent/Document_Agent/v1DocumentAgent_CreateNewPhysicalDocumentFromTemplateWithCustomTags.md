@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 230,
-  "PersonId": 899,
-  "AppointmentId": 79,
-  "DocumentId": 228,
-  "SaleId": 741,
-  "SelectionId": 708,
-  "ProjectId": 640,
+  "ContactId": 381,
+  "PersonId": 889,
+  "AppointmentId": 350,
+  "DocumentId": 321,
+  "SaleId": 794,
+  "SelectionId": 942,
+  "ProjectId": 307,
   "CustomTags": [
-    "et",
-    "quia"
+    "sed",
+    "minus"
   ],
   "CustomValues": [
-    "ab",
-    "ipsa"
+    "illo",
+    "aut"
   ],
-  "UiCulture": "non"
+  "UiCulture": "iusto"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 634,
+  "DocumentId": 500,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "soluta",
-  "Header": "doloribus",
-  "Name": "Kessler, Nader and Feeney",
-  "OurRef": "illum",
-  "YourRef": "accusamus",
-  "CreatedDate": "2007-03-28T03:31:26.1364448+02:00",
-  "UpdatedDate": "2008-09-25T03:31:26.1364448+02:00",
-  "Description": "Customer-focused zero tolerance ability",
+  "Attention": "rerum",
+  "Header": "sit",
+  "Name": "Robel, Durgan and Kautzer",
+  "OurRef": "eos",
+  "YourRef": "voluptates",
+  "CreatedDate": "2001-07-02T03:24:47.6582818+02:00",
+  "UpdatedDate": "2020-10-24T03:24:47.6582818+02:00",
+  "Description": "Mandatory motivating hub",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-06-22T03:31:26.1364448+02:00",
-  "ExternalRef": "quaerat",
+  "Date": "2006-07-16T03:24:47.6582818+02:00",
+  "ExternalRef": "provident",
   "Completed": "Completed",
-  "ActiveLinks": 673,
+  "ActiveLinks": 36,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sawayn, Emard and Ritchie",
-      "Id": 49,
-      "Description": "Implemented bandwidth-monitored orchestration",
-      "ExtraInfo": "ullam",
-      "LinkId": 622,
+      "EntityName": "Sauer-Jast",
+      "Id": 885,
+      "Description": "Ameliorated real-time budgetary management",
+      "ExtraInfo": "suscipit",
+      "LinkId": 456,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 487,
-  "Snum": 42,
+  "SuggestedDocumentId": 779,
+  "Snum": 145,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Fern Haley"
   },
   "ExtraFields": {
     "ExtraFields1": "nihil",
-    "ExtraFields2": "rerum"
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "culpa"
+    "CustomFields1": "ut",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2017-08-26T03:31:26.1364448+02:00",
-  "PublishTo": "2019-04-28T03:31:26.1364448+02:00",
-  "PublishFrom": "2020-03-22T03:31:26.1364448+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-12-05T03:24:47.6582818+01:00",
+  "PublishTo": "2017-08-25T03:24:47.6582818+02:00",
+  "PublishFrom": "2012-05-20T03:24:47.6582818+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 230,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     },
     {
-      "VisibleId": 230,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldType": "System.Int32",
+          "FieldLength": 565
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 537
     }
   }
 }

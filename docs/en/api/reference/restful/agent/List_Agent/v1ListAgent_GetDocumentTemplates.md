@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 202,
-    "Name": "Vandervort Inc and Sons",
-    "Tooltip": "culpa",
-    "SaveInDb": 768,
-    "Filename": "expedita",
-    "DefaultOref": "eos",
+    "DocumentTemplateId": 600,
+    "Name": "Wilderman Group",
+    "Tooltip": "aut",
+    "SaveInDb": 315,
+    "Filename": "nihil",
+    "DefaultOref": "voluptatum",
     "RecordType": "Appointment",
-    "Deleted": 486,
+    "Deleted": 699,
     "Direction": "Incoming",
-    "AutoeventId": 796,
+    "AutoeventId": 652,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 325
       }
     }
   }

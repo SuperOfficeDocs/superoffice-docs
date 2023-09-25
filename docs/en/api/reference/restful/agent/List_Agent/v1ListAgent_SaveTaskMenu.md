@@ -89,23 +89,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 974,
-  "Name": "Schaefer LLC",
-  "Tooltip": "sapiente",
-  "TableName": "Boehm-Padberg",
-  "Area": "dolor",
+  "TaskMenuId": 625,
+  "Name": "Heller-Weber",
+  "Tooltip": "in",
+  "TableName": "Halvorson Inc and Sons",
+  "Area": "enim",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 578,
+  "CrmScriptId": 957,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 200,
+  "Rank": 370,
   "Encoding": "ANSI",
-  "ProgId": "illum",
+  "ProgId": "modi",
   "Deleted": false
 }
 ```
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 895,
-  "Name": "Funk-Bogan",
-  "Tooltip": "sit",
-  "TableName": "Rolfson-Muller",
-  "Area": "quo",
+  "TaskMenuId": 107,
+  "Name": "Schiller LLC",
+  "Tooltip": "ullam",
+  "TableName": "Dickens, Frami and Rippin",
+  "Area": "voluptatum",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 20,
+  "CrmScriptId": 663,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 781,
+  "Rank": 344,
   "Encoding": "ANSI",
-  "ProgId": "odio",
-  "Deleted": false,
+  "ProgId": "labore",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

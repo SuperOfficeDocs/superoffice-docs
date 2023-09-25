@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 820,
-  "Name": "Ferry-Gerhold",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "Rank": 882,
-  "UdListDefinitionId": 727
+  "HeadingId": 111,
+  "Name": "Quigley, Wilderman and Hayes",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "Rank": 242,
+  "UdListDefinitionId": 963
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 355,
-  "Name": "Prohaska, Stracke and Leuschke",
-  "Tooltip": "veritatis",
+  "HeadingId": 561,
+  "Name": "Corwin Inc and Sons",
+  "Tooltip": "rem",
   "Deleted": true,
-  "Rank": 794,
-  "UdListDefinitionId": 395,
+  "Rank": 899,
+  "UdListDefinitionId": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

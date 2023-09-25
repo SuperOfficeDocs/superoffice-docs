@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 317,
-  "Year": 353,
-  "TargetDimensionId": 867
+  "UserGroupId": 961,
+  "Year": 194,
+  "TargetDimensionId": 237
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 533,
+    "TargetAssignmentInfoId": 233,
     "Values": [
-      510,
-      789
+      725,
+      677
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 661,
-    "DimensionListItemDisplayName": "Bernhard, Kling and Hansen",
+    "DimensionListItem": 577,
+    "DimensionListItemDisplayName": "Funk-Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldLength": 634
       }
     }
   }

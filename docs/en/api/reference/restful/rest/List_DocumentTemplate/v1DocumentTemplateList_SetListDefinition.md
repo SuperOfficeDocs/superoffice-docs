@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Ortiz LLC",
-  "Tooltip": "sed",
+  "Id": 867,
+  "Name": "Gleason-McClure",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 812,
+  "Rank": 161,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true
+  "ListType": "quos",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 391,
-  "Name": "Bechtelar-Ullrich",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 254,
+  "Id": 651,
+  "Name": "Olson, Adams and Volkman",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "Rank": 835,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 623
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Anderson, Upton and Altenwerth",
-  "Tooltip": "quam",
+  "Id": 349,
+  "Name": "Gerhold-Hermann",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "UdListDefinitionId": 691,
-  "Rank": 151,
+  "UdListDefinitionId": 493,
+  "Rank": 591,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 633
     }
   }
 }

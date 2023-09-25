@@ -102,7 +102,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 682,
+  "SourceDocumentTemplateId": 628,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 240,
-  "Name": "Heaney, Tromp and Nikolaus",
-  "Tooltip": "aspernatur",
-  "SaveInDb": 285,
-  "Filename": "dolorum",
-  "DefaultOref": "corporis",
+  "DocumentTemplateId": 715,
+  "Name": "Bailey Inc and Sons",
+  "Tooltip": "porro",
+  "SaveInDb": 838,
+  "Filename": "rem",
+  "DefaultOref": "non",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 851,
-  "IntentId": 679,
-  "IsDefaultPublished": true,
-  "Rank": 795,
-  "LoadTemplateFromPlugin": 282,
-  "MimeType": "temporibus",
+  "AutoeventId": 843,
+  "IntentId": 607,
+  "IsDefaultPublished": false,
+  "Rank": 719,
+  "LoadTemplateFromPlugin": 952,
+  "MimeType": "modi",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 190,
+  "DocumentTypeKey": 58,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kyler.hammes@sawaynconroy.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "allen@torpdickens.com",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "willow@doyle.info",
+  "SenderEmailAddress": "cecile@bailey.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 748
     }
   }
 }

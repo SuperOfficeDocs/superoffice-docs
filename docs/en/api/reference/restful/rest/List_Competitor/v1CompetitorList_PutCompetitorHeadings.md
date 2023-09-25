@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 59,
-    "Name": "Kreiger-Wyman",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 460,
-    "UdListDefinitionId": 91
+    "HeadingId": 90,
+    "Name": "Cruickshank, Dietrich and Steuber",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "Rank": 187,
+    "UdListDefinitionId": 470
   },
   {
-    "HeadingId": 59,
-    "Name": "Kreiger-Wyman",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 460,
-    "UdListDefinitionId": 91
+    "HeadingId": 90,
+    "Name": "Cruickshank, Dietrich and Steuber",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "Rank": 187,
+    "UdListDefinitionId": 470
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 627,
-    "Name": "Cronin Inc and Sons",
-    "Tooltip": "debitis",
-    "Deleted": true,
-    "Rank": 772,
-    "UdListDefinitionId": 743,
+    "HeadingId": 199,
+    "Name": "Zboncak, Koss and Gleason",
+    "Tooltip": "impedit",
+    "Deleted": false,
+    "Rank": 55,
+    "UdListDefinitionId": 559,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 948
       }
     }
   }

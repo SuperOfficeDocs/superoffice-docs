@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-07-27T03:31:25.6027555+02:00",
-  "ToDate": "1997-01-21T03:31:25.6027555+01:00",
+  "FromDate": "2004-07-19T03:24:47.220828+02:00",
+  "ToDate": "2013-11-01T03:24:47.220828+01:00",
   "AssociateList": [
     {
-      "Id": 755,
-      "Name": "Rohan, Hammes and Johnston",
-      "ToolTip": "Nesciunt tempora.",
+      "Id": 759,
+      "Name": "Harris LLC",
+      "ToolTip": "Nostrum in repellendus.",
       "Deleted": false,
-      "Rank": 197,
-      "Type": "unde",
-      "ColorBlock": 288,
-      "IconHint": "minima",
+      "Rank": 369,
+      "Type": "tempore",
+      "ColorBlock": 293,
+      "IconHint": "quia",
       "Selected": false,
-      "LastChanged": "2002-04-09T03:31:25.6027555+02:00",
+      "LastChanged": "2012-01-17T03:24:47.220828+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "maiores",
-      "Hidden": true,
-      "FullName": "Antonio Kautzer",
+      "ExtraInfo": "hic",
+      "StyleHint": "totam",
+      "Hidden": false,
+      "FullName": "Hayden Russel I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 236
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 778,
-      "Name": "Gislason, Rosenbaum and Muller",
-      "ToolTip": "Eius fugiat sunt aliquid.",
-      "Deleted": true,
-      "Rank": 101,
-      "Type": "aut",
-      "ColorBlock": 985,
-      "IconHint": "rerum",
+      "Id": 912,
+      "Name": "Johnson-Hoeger",
+      "ToolTip": "Eaque hic veniam enim dolores.",
+      "Deleted": false,
+      "Rank": 97,
+      "Type": "delectus",
+      "ColorBlock": 247,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2009-01-14T03:31:25.6027555+01:00",
+      "LastChanged": "2023-02-07T03:24:47.220828+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "assumenda",
+      "ExtraInfo": "non",
+      "StyleHint": "magnam",
       "Hidden": true,
-      "FullName": "Chet Streich",
+      "FullName": "Prof. Lea Rohan II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 780
+          "FieldLength": 594
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 290,
-      "Name": "Yundt, Lesch and Cartwright",
-      "ToolTip": "Numquam perferendis recusandae odio quibusdam ducimus.",
-      "Deleted": true,
-      "Rank": 219,
-      "Type": "non",
+      "Id": 391,
+      "Name": "Donnelly, McKenzie and Johns",
+      "ToolTip": "Sit consequatur.",
+      "Deleted": false,
+      "Rank": 921,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 651,
-      "ExtraInfo": "ipsa",
-      "StyleHint": "esse",
-      "FullName": "Daniela Dietrich",
+      "IconHint": "cumque",
+      "ColorBlock": 472,
+      "ExtraInfo": "quia",
+      "StyleHint": "dolores",
+      "FullName": "Miss Aniyah Eliseo Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 535
+          "FieldLength": 652
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 522
     }
   }
 }

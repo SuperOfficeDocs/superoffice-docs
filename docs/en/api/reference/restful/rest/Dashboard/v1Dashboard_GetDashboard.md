@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 759,
-  "AssociateId": 972,
-  "Caption": "quia",
+  "DashboardId": 765,
+  "AssociateId": 836,
+  "Caption": "itaque",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 454,
-      "Caption": "reprehenderit",
-      "Description": "Adaptive background orchestration",
-      "ChartName": "Carroll, Gislason and Stroman",
-      "ChartId": "quidem",
-      "IsDefault": false,
-      "AssociateId": 601,
-      "GroupId": 593,
-      "SelectionId": 559,
-      "Config": "est",
+      "DashboardTileId": 460,
+      "Caption": "distinctio",
+      "Description": "Customer-focused bifurcated monitoring",
+      "ChartName": "Feil Group",
+      "ChartId": "dolores",
+      "IsDefault": true,
+      "AssociateId": 355,
+      "GroupId": 240,
+      "SelectionId": 960,
+      "Config": "quia",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 672
+          "FieldType": "System.Int32",
+          "FieldLength": 588
         }
       }
     }
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

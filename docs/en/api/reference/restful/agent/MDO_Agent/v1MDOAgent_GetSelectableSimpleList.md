@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kemmer LLC"
+  "Name": "Jaskolski-Bosco"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Nikolaus LLC",
-    "ToolTip": "Nesciunt illo ea provident quia.",
-    "Deleted": false,
-    "Rank": 352,
-    "Type": "nemo",
-    "ColorBlock": 994,
-    "IconHint": "ipsam",
+    "Id": 899,
+    "Name": "Zemlak LLC",
+    "ToolTip": "Placeat amet a.",
+    "Deleted": true,
+    "Rank": 894,
+    "Type": "laudantium",
+    "ColorBlock": 43,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2000-12-03T03:31:26.7769052+01:00",
+    "LastChanged": "2008-08-07T03:24:47.9238778+02:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Fisher LLC",
-        "ToolTip": "Nemo sapiente molestiae qui et perferendis et pariatur.",
-        "Deleted": true,
-        "Rank": 187,
-        "Type": "autem",
-        "ColorBlock": 412,
-        "IconHint": "assumenda",
+        "Id": 234,
+        "Name": "Jones Group",
+        "ToolTip": "Voluptatibus nihil est incidunt et.",
+        "Deleted": false,
+        "Rank": 980,
+        "Type": "sed",
+        "ColorBlock": 11,
+        "IconHint": "facere",
         "Selected": true,
-        "LastChanged": "2005-04-20T03:31:26.7769052+02:00",
+        "LastChanged": "2017-05-16T03:24:47.9238778+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "culpa",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "nisi",
         "Hidden": true,
-        "FullName": "Mrs. Kallie Marcelino Bradtke",
+        "FullName": "Lane Hettinger IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 939
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "et",
+    "ExtraInfo": "aut",
+    "StyleHint": "sapiente",
     "Hidden": false,
-    "FullName": "Dr. Lea Fritsch PhD",
+    "FullName": "Mr. Maybell McGlynn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldType": "System.String",
+        "FieldLength": 184
       }
     }
   }

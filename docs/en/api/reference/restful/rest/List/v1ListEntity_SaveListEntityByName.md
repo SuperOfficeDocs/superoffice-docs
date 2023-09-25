@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Hessel, Abshire and Marks",
-  "Tooltip": "est",
-  "Deleted": false,
-  "Rank": 787,
+  "Id": 159,
+  "Name": "Corkery-Ratke",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 828,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "McCullough-O'Reilly",
-  "Tooltip": "repellat",
+  "Id": 8,
+  "Name": "Blanda Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 638,
+  "Rank": 795,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "beatae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 710
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 15 Dec 2018 03:31:32 G12T
+Last-Modified: Wed, 12 Sep 2001 03:24:51 G9T
 
 {
-  "SourceContactId": 631,
-  "SourcePersonId": 634,
-  "DestinationContactId": 103,
-  "DestinationPersonId": 707,
-  "RelationId": 327,
-  "Comment": "quis",
-  "RelationDefinitionId": 142,
-  "Reversed": 91,
-  "UpdatedDate": "2018-12-15T03:31:32.4883125+01:00",
-  "CreatedDate": "1999-02-11T03:31:32.4883125+01:00",
+  "SourceContactId": 382,
+  "SourcePersonId": 466,
+  "DestinationContactId": 167,
+  "DestinationPersonId": 544,
+  "RelationId": 68,
+  "Comment": "cupiditate",
+  "RelationDefinitionId": 152,
+  "Reversed": 539,
+  "UpdatedDate": "2001-09-12T03:24:51.5368575+02:00",
+  "CreatedDate": "1999-10-31T03:24:51.5368575+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hand-Beer",
-  "SourcePersonName": "Schmidt Group",
-  "DestinationContactName": "Kulas-Douglas",
-  "DestinationPersonName": "Raynor Group",
-  "ActiveText": "est",
-  "PassiveText": "doloremque",
+  "SourceContactName": "Miller LLC",
+  "SourcePersonName": "Tromp Group",
+  "DestinationContactName": "Tromp-Huel",
+  "DestinationPersonName": "Turner, Greenfelder and Gorczany",
+  "ActiveText": "ex",
+  "PassiveText": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 990
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   }
 }

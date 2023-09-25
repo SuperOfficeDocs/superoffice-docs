@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nihil",
+  "SaleText": "esse",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-08-15T03:31:27.1687103+02:00",
-  "Amount": 22912.674,
-  "SaleId": 921,
-  "Earning": 3444.266,
-  "EarningPercent": 22464.512,
-  "Heading": "delectus",
-  "Number": "596356",
-  "Probability": 231,
-  "CreatedDate": "2015-03-08T03:31:27.1687103+01:00",
-  "UpdatedDate": "2009-04-26T03:31:27.1687103+02:00",
+  "Saledate": "2012-09-06T03:24:48.1894758+02:00",
+  "Amount": 12811.792,
+  "SaleId": 951,
+  "Earning": 19129.935999999998,
+  "EarningPercent": 14178.216,
+  "Heading": "fuga",
+  "Number": "527063",
+  "Probability": 136,
+  "CreatedDate": "1997-10-25T03:24:48.1894758+02:00",
+  "UpdatedDate": "2014-10-07T03:24:48.1894758+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 1000,
+  "ActiveLinks": 311,
   "Links": [
     {
-      "EntityName": "Veum Group",
-      "Id": 1000,
-      "Description": "Open-source client-server open system",
-      "ExtraInfo": "placeat",
-      "LinkId": 130
+      "EntityName": "O'Reilly-Dooley",
+      "Id": 595,
+      "Description": "Multi-layered fresh-thinking customer loyalty",
+      "ExtraInfo": "non",
+      "LinkId": 92
     },
     {
-      "EntityName": "Veum Group",
-      "Id": 1000,
-      "Description": "Open-source client-server open system",
-      "ExtraInfo": "placeat",
-      "LinkId": 130
+      "EntityName": "O'Reilly-Dooley",
+      "Id": 595,
+      "Description": "Multi-layered fresh-thinking customer loyalty",
+      "ExtraInfo": "non",
+      "LinkId": 92
     }
   ],
-  "NextDueDate": "2007-04-12T03:31:27.1687103+02:00",
-  "Postit": "vitae",
+  "NextDueDate": "2003-03-19T03:24:48.1894758+01:00",
+  "Postit": "incidunt",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-07-25T03:31:27.1687103+02:00",
+  "ReopenDate": "2015-03-19T03:24:48.1894758+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Russel LLC",
-      "Comment": "error",
-      "StakeholderRoleId": 300,
-      "CountryId": 291,
-      "PersonId": 109,
-      "EmailDescription": "karelle_gorczany@cruickshanklemke.info",
-      "EmailId": 620,
-      "EmailAddress": "bryon.ondricka@kertzmannoberbrunner.name",
-      "PhoneId": 913,
-      "ContactName": "Welch, Jaskolski and Price",
-      "ContactId": 521,
-      "SaleId": 693,
-      "Mrmrs": "iste",
-      "Firstname": "Davion",
-      "MiddleName": "Koelpin, Hegmann and Hamill",
-      "Lastname": "Sporer",
-      "SaleStakeholderId": 750,
-      "Rank": 304,
-      "Phone": "907.907.0587"
+      "StakeholderRoleName": "Dickens Group",
+      "Comment": "similique",
+      "StakeholderRoleId": 665,
+      "CountryId": 457,
+      "PersonId": 719,
+      "EmailDescription": "hector@mann.uk",
+      "EmailId": 814,
+      "EmailAddress": "norberto@wittingreilly.co.uk",
+      "PhoneId": 319,
+      "ContactName": "Pouros, Bashirian and Ortiz",
+      "ContactId": 169,
+      "SaleId": 89,
+      "Mrmrs": "tempore",
+      "Firstname": "Kelley",
+      "MiddleName": "Bosco Group",
+      "Lastname": "Hoeger",
+      "SaleStakeholderId": 385,
+      "Rank": 894,
+      "Phone": "1-823-830-5128 x0179"
     }
   ],
-  "ActiveErpLinks": 850,
+  "ActiveErpLinks": 484,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "868005738"
+    "SuperOffice:1": "Carlie Fritsch",
+    "SuperOffice:2": "Buck Beer"
   },
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "et",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "iure"
   },
-  "PublishEventDate": "1999-07-18T03:31:27.1687103+02:00",
-  "PublishTo": "2009-07-01T03:31:27.1687103+02:00",
-  "PublishFrom": "2002-08-02T03:31:27.1687103+02:00",
+  "PublishEventDate": "2012-03-11T03:24:48.1894758+01:00",
+  "PublishTo": "2000-06-26T03:24:48.1894758+02:00",
+  "PublishFrom": "2008-11-06T03:24:48.1894758+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 923,
+      "VisibleId": 926,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "libero"
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 926,
       "Visibility": "All",
-      "DisplayValue": "laboriosam"
+      "DisplayValue": "libero"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "rem",
+  "SaleText": "cupiditate",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2012-06-13T03:31:27.1687103+02:00",
-  "Amount": 10884.382,
-  "SaleId": 339,
-  "Earning": 3839.15,
-  "EarningPercent": 23802.73,
-  "Heading": "aut",
-  "Number": "547005",
-  "Probability": 28,
-  "CreatedDate": "2017-11-17T03:31:27.1687103+01:00",
-  "UpdatedDate": "2022-03-03T03:31:27.1687103+01:00",
+  "Saledate": "2016-03-05T03:24:48.1894758+01:00",
+  "Amount": 27880.064,
+  "SaleId": 237,
+  "Earning": 162.968,
+  "EarningPercent": 22674.489999999998,
+  "Heading": "recusandae",
+  "Number": "444380",
+  "Probability": 451,
+  "CreatedDate": "2004-02-26T03:24:48.1894758+01:00",
+  "UpdatedDate": "2005-05-04T03:24:48.1894758+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 875,
+  "ActiveLinks": 786,
   "Links": [
     {
-      "EntityName": "Mann, Goyette and Balistreri",
-      "Id": 819,
-      "Description": "Intuitive encompassing extranet",
-      "ExtraInfo": "ea",
-      "LinkId": 856,
+      "EntityName": "Rosenbaum-Schowalter",
+      "Id": 222,
+      "Description": "Ameliorated client-driven task-force",
+      "ExtraInfo": "sapiente",
+      "LinkId": 732,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldLength": 624
         }
       }
     }
   ],
-  "NextDueDate": "2006-10-05T03:31:27.1687103+02:00",
-  "Postit": "illo",
+  "NextDueDate": "2020-12-04T03:24:48.1894758+01:00",
+  "Postit": "laudantium",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-04-30T03:31:27.1687103+02:00",
+  "ReopenDate": "2021-10-21T03:24:48.1894758+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Johnson-Barrows",
-      "Comment": "soluta",
-      "StakeholderRoleId": 584,
-      "CountryId": 960,
-      "PersonId": 408,
-      "EmailDescription": "frederique@blockschmeler.info",
-      "EmailId": 364,
-      "EmailAddress": "kole_lubowitz@borerortiz.uk",
-      "PhoneId": 592,
-      "ContactName": "Lockman-Dare",
-      "ContactId": 626,
-      "SaleId": 456,
-      "Mrmrs": "animi",
-      "Firstname": "Arthur",
-      "MiddleName": "Reichel, Collins and Ortiz",
-      "Lastname": "Wyman",
-      "SaleStakeholderId": 398,
-      "Rank": 569,
-      "Phone": "1-366-576-3992",
+      "StakeholderRoleName": "Kihn Group",
+      "Comment": "quis",
+      "StakeholderRoleId": 958,
+      "CountryId": 247,
+      "PersonId": 955,
+      "EmailDescription": "jimmy_daniel@upton.us",
+      "EmailId": 398,
+      "EmailAddress": "harmon@grantraynor.com",
+      "PhoneId": 703,
+      "ContactName": "Mante Group",
+      "ContactId": 666,
+      "SaleId": 815,
+      "Mrmrs": "sed",
+      "Firstname": "Hubert",
+      "MiddleName": "Kutch-Hane",
+      "Lastname": "Johnson",
+      "SaleStakeholderId": 353,
+      "Rank": 196,
+      "Phone": "101-913-6951",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 984
         }
       }
     }
   ],
-  "ActiveErpLinks": 382,
+  "ActiveErpLinks": 920,
   "UserDefinedFields": {
-    "SuperOffice:1": "Brenna Mayer",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mose Blanda IV",
+    "SuperOffice:2": "1485172661"
   },
   "ExtraFields": {
-    "ExtraFields1": "quisquam",
-    "ExtraFields2": "quidem"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "nostrum"
+    "CustomFields1": "aut",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2017-03-07T03:31:27.1687103+01:00",
-  "PublishTo": "2021-01-11T03:31:27.1687103+01:00",
-  "PublishFrom": "2019-08-18T03:31:27.1687103+02:00",
+  "PublishEventDate": "2016-10-19T03:24:48.1894758+02:00",
+  "PublishTo": "2006-09-23T03:24:48.1894758+02:00",
+  "PublishFrom": "2006-09-02T03:24:48.1894758+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 103,
+      "VisibleId": 513,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldLength": 291
         }
       }
     },
     {
-      "VisibleId": 103,
+      "VisibleId": 513,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldLength": 291
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldType": "System.String",
+      "FieldLength": 178
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 601,
-  "Name": "Koch Inc and Sons",
+  "WebhookId": 782,
+  "Name": "Treutel-Christiansen",
   "Events": [
-    "nulla",
-    "et"
+    "aliquam",
+    "possimus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "est",
+  "Secret": "eos",
   "State": "Active",
-  "Type": "eum",
+  "Type": "labore",
   "Headers": {
-    "Headers1": "consequatur",
-    "Headers2": "fuga"
+    "Headers1": "sed",
+    "Headers2": "rerum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1996-10-03T03:31:27.841573+02:00",
+  "Registered": "2000-09-03T03:24:48.5966823+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2016-03-31T03:31:27.841573+02:00",
+  "Updated": "2002-09-09T03:24:48.5966823+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "kris_rogahn@conroy.uk"
+  "ErrorsEmail": "arthur@schumm.uk"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 656,
-  "Name": "Mraz Inc and Sons",
+  "WebhookId": 356,
+  "Name": "Pacocha, Davis and Johns",
   "Events": [
-    "qui",
-    "quia"
+    "sit",
+    "eum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "assumenda",
+  "Secret": "porro",
   "State": "Active",
-  "Type": "et",
+  "Type": "reiciendis",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "ad"
+    "Headers1": "ratione",
+    "Headers2": "dolorum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-01-06T03:31:27.841573+01:00",
+  "Registered": "2015-09-10T03:24:48.5966823+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-01-11T03:31:27.841573+01:00",
+  "Updated": "2022-01-11T03:24:48.5966823+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "francesca@dibbert.ca"
+  "ErrorsEmail": "hermann@schinnerratke.com"
 }
 ```

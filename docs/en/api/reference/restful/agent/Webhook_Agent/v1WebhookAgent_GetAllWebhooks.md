@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Bradtke-Hayes",
-  "EventFilter": "ducimus",
+  "NameFilter": "Bashirian-Rowe",
+  "EventFilter": "incidunt",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 236,
-    "Name": "Gaylord, Paucek and Brekke",
+    "WebhookId": 709,
+    "Name": "Littel, Barton and Schowalter",
     "Events": [
-      "non",
-      "omnis"
+      "iusto",
+      "unde"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "repellat",
+    "Secret": "rerum",
     "State": "Active",
-    "Type": "qui",
+    "Type": "sit",
     "Headers": {
-      "Headers1": "modi",
-      "Headers2": "voluptatibus"
+      "Headers1": "dolores",
+      "Headers2": "aspernatur"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1996-08-28T03:31:27.8571972+02:00",
+    "Registered": "2000-06-19T03:24:48.5966823+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2017-07-18T03:31:27.8571972+02:00",
+    "Updated": "2014-11-28T03:24:48.5966823+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "issac@hagenes.us"
+    "ErrorsEmail": "herta@mcdermott.com"
   }
 ]
 ```

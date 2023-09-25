@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 450,
-  "PlainMessage": "ratione",
-  "HtmlMessage": "quidem",
-  "SmsMessage": "id",
-  "Description": "Balanced attitude-oriented complexity",
-  "Subject": "dolor",
-  "FolderId": 381,
-  "HeaderField": "impedit",
-  "Design": "incidunt",
+  "ShipmentMessageId": 73,
+  "PlainMessage": "error",
+  "HtmlMessage": "unde",
+  "SmsMessage": "non",
+  "Description": "Phased actuating matrices",
+  "Subject": "omnis",
+  "FolderId": 175,
+  "HeaderField": "repellendus",
+  "Design": "unde",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Extended contextually-based capacity",
-  "AccessKey": "sit",
-  "DocumentMessage": 756,
-  "Registered": "2023-02-12T03:31:32.9437607+01:00",
-  "RegisteredAssociateId": 133,
-  "Updated": "2004-04-08T03:31:32.9437607+02:00",
-  "UpdatedAssociateId": 938,
-  "UpdatedCount": 590,
+  "LongDescription": "Polarised user-facing process improvement",
+  "AccessKey": "commodi",
+  "DocumentMessage": 611,
+  "Registered": "2015-03-13T03:24:51.927622+01:00",
+  "RegisteredAssociateId": 199,
+  "Updated": "2004-07-19T03:24:51.927622+02:00",
+  "UpdatedAssociateId": 417,
+  "UpdatedCount": 618,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 233
     }
   }
 }

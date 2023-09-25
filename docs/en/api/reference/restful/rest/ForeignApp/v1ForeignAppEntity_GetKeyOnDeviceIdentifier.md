@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 18 Aug 2003 03:31:32 G8T
+Last-Modified: Fri, 04 Feb 2000 03:24:51 G2T
 
 {
-  "Key": "ea",
-  "Value": "ut",
-  "RecordId": 169,
-  "CreatedDate": "2023-05-13T03:31:32.6289016+02:00",
-  "UpdatedDate": "2003-08-18T03:31:32.6289016+02:00",
-  "UpdatedBy": "iure",
-  "CreatedBy": "deserunt",
-  "TableName": "Corkery LLC",
+  "Key": "sed",
+  "Value": "vero",
+  "RecordId": 846,
+  "CreatedDate": "2018-03-26T03:24:51.630601+02:00",
+  "UpdatedDate": "2000-02-04T03:24:51.630601+01:00",
+  "UpdatedBy": "impedit",
+  "CreatedBy": "nesciunt",
+  "TableName": "Spinka LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 556
     }
   }
 }

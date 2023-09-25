@@ -102,6 +102,7 @@ OK
 | RealTimeSpentInternally | int32 | The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state |
 | RealTimeSpentExternally | int32 | The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state |
 | RealTimeSpentQueue | int32 | The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state |
+| TimeSpent | int32 | The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use. |
 | HasAttachment | bool | Boolean indicating if this ticket has one or more attachments. |
 | NumReplies | int32 | The number of replies (messages) to the customer for this request. |
 | NumMessages | int32 | The total number of messages for this request. |
@@ -130,11 +131,11 @@ OK
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 167
+  "TicketEntityId": 639
 }
 ```
 
@@ -145,21 +146,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 289,
-  "Title": "accusamus",
-  "CreatedAt": "2007-01-20T03:31:27.4342771+01:00",
-  "LastChanged": "2007-07-17T03:31:27.4342771+02:00",
-  "ReadByOwner": "2013-11-10T03:31:27.4342771+01:00",
-  "ReadByCustomer": "2002-05-07T03:31:27.4342771+02:00",
-  "FirstReadByOwner": "2008-06-23T03:31:27.4342771+02:00",
-  "FirstReadByUser": "2011-01-18T03:31:27.4342771+01:00",
-  "Activate": "1996-05-27T03:31:27.4342771+02:00",
-  "ClosedAt": "2015-06-19T03:31:27.4342771+02:00",
-  "RepliedAt": "2001-01-06T03:31:27.4342771+01:00",
-  "AlertTimeout": "2008-07-12T03:31:27.4342771+02:00",
-  "Deadline": "2011-08-18T03:31:27.4342771+02:00",
+  "TicketId": 208,
+  "Title": "dignissimos",
+  "CreatedAt": "2002-07-22T03:24:48.4560256+02:00",
+  "LastChanged": "1998-12-19T03:24:48.4560256+01:00",
+  "ReadByOwner": "2015-06-16T03:24:48.4560256+02:00",
+  "ReadByCustomer": "2012-08-06T03:24:48.4560256+02:00",
+  "FirstReadByOwner": "2002-03-30T03:24:48.4560256+01:00",
+  "FirstReadByUser": "2009-12-07T03:24:48.4560256+01:00",
+  "Activate": "1998-08-26T03:24:48.4560256+02:00",
+  "ClosedAt": "1998-03-12T03:24:48.4560256+01:00",
+  "RepliedAt": "1998-01-04T03:24:48.4560256+01:00",
+  "AlertTimeout": "2010-01-19T03:24:48.4560256+01:00",
+  "Deadline": "2016-11-08T03:24:48.4560256+01:00",
   "CreatedBy": null,
-  "Author": "doloremque",
+  "Author": "quia",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -170,160 +171,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "maxime",
-      "PersonId": 206,
-      "Mrmrs": "pariatur",
-      "Firstname": "Nellie",
-      "Lastname": "Harris",
-      "MiddleName": "Farrell LLC",
-      "Title": "earum",
-      "Description": "Inverse holistic model",
-      "Email": "sebastian@handjohnson.com",
-      "FullName": "Miss Meaghan Abernathy",
-      "DirectPhone": "925-164-3887",
-      "FormalName": "Rodriguez, Smitham and Blick",
-      "CountryId": 874,
-      "ContactId": 768,
-      "ContactName": "Altenwerth-Smitham",
-      "Retired": 750,
-      "Rank": 519,
-      "ActiveInterests": 933,
+      "Position": "placeat",
+      "PersonId": 737,
+      "Mrmrs": "aspernatur",
+      "Firstname": "Rory",
+      "Lastname": "Ferry",
+      "MiddleName": "Feest-Deckow",
+      "Title": "quam",
+      "Description": "Face to face solution-oriented frame",
+      "Email": "abdullah.jones@grady.biz",
+      "FullName": "Dr. Walker Schuppe II",
+      "DirectPhone": "620-517-0921 x85614",
+      "FormalName": "Adams-Rowe",
+      "CountryId": 68,
+      "ContactId": 994,
+      "ContactName": "Dach-Simonis",
+      "Retired": 324,
+      "Rank": 381,
+      "ActiveInterests": 196,
       "ContactDepartment": "",
-      "ContactCountryId": 322,
-      "ContactOrgNr": "559451",
-      "FaxPhone": "1-082-457-3998",
-      "MobilePhone": "355.137.7112 x33097",
-      "ContactPhone": "201.393.1223 x064",
-      "AssociateName": "Williamson Inc and Sons",
-      "AssociateId": 994,
+      "ContactCountryId": 925,
+      "ContactOrgNr": "940990",
+      "FaxPhone": "874-529-6570 x490",
+      "MobilePhone": "(587)911-4309 x3855",
+      "ContactPhone": "(137)396-4957",
+      "AssociateName": "Collins-Maggio",
+      "AssociateId": 174,
       "UsePersonAddress": true,
-      "ContactFax": "ut",
-      "Kanafname": "ex",
-      "Kanalname": "consequatur",
-      "Post1": "labore",
-      "Post2": "ut",
+      "ContactFax": "et",
+      "Kanafname": "dolor",
+      "Kanalname": "iste",
+      "Post1": "aut",
+      "Post2": "voluptatum",
       "Post3": "et",
-      "EmailName": "nat_emmerich@dickens.ca",
-      "ContactFullName": "Charles Farrell",
-      "ActiveErpLinks": 855,
-      "TicketPriorityId": 365,
-      "SupportLanguageId": 66,
-      "SupportAssociateId": 794,
+      "EmailName": "sally.vandervort@jones.name",
+      "ContactFullName": "Dannie Greenholt",
+      "ActiveErpLinks": 431,
+      "TicketPriorityId": 995,
+      "SupportLanguageId": 57,
+      "SupportAssociateId": 8,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 638
         }
       }
     }
   ],
-  "AlertLevel": 303,
-  "ConnectId": 382,
+  "AlertLevel": 107,
+  "ConnectId": 185,
   "ReadStatus": "Green",
-  "TimeToReply": 912,
-  "RealTimeToReply": 597,
-  "TimeToClose": 356,
-  "RealTimeToClose": 857,
-  "TimeSpentInternally": 284,
-  "TimeSpentExternally": 389,
-  "TimeSpentQueue": 400,
-  "RealTimeSpentInternally": 90,
-  "RealTimeSpentExternally": 661,
-  "RealTimeSpentQueue": 265,
+  "TimeToReply": 746,
+  "RealTimeToReply": 128,
+  "TimeToClose": 591,
+  "RealTimeToClose": 563,
+  "TimeSpentInternally": 184,
+  "TimeSpentExternally": 978,
+  "TimeSpentQueue": 670,
+  "RealTimeSpentInternally": 762,
+  "RealTimeSpentExternally": 299,
+  "RealTimeSpentQueue": 873,
+  "TimeSpent": 410,
   "HasAttachment": false,
-  "NumReplies": 696,
-  "NumMessages": 797,
-  "FromAddress": "similique",
+  "NumReplies": 777,
+  "NumMessages": 339,
+  "FromAddress": "reprehenderit",
   "Messages": [
     {
-      "TicketMessageId": 81,
-      "CreatedAt": "1997-08-17T03:31:27.4498946+02:00",
+      "TicketMessageId": 721,
+      "CreatedAt": "2017-08-06T03:24:48.4560256+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "odit",
-      "PersonId": 991,
-      "PersonFullName": "Solon Douglas",
-      "ContactId": 803,
-      "ContactName": "Hettinger-Weimann",
+      "Important": false,
+      "Author": "dolorum",
+      "PersonId": 538,
+      "PersonFullName": "Prof. Joanny Fritsch",
+      "ContactId": 788,
+      "ContactName": "Dietrich-Torp",
       "ContactDepartment": "",
-      "NumAttachments": 340,
-      "EmailHeader": "daniela_kunde@hane.co.uk",
+      "NumAttachments": 547,
+      "EmailHeader": "velda_pfeffer@mosciski.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "omnis",
-      "Sentiment": 95,
-      "SentimentConfidence": 293,
-      "CreatedBy": 547,
-      "ChangedAt": "2001-09-14T03:31:27.4498946+02:00",
+      "Language": "nobis",
+      "Sentiment": 704,
+      "SentimentConfidence": 230,
+      "CreatedBy": 461,
+      "ChangedAt": "2021-09-08T03:24:48.4560256+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 107
+          "FieldType": "System.Int32",
+          "FieldLength": 998
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 477,
-      "Name": "Schmitt Group",
-      "ToolTip": "Ut pariatur porro sit temporibus.",
+      "Id": 599,
+      "Name": "Maggio-Towne",
+      "ToolTip": "Voluptatibus perspiciatis perspiciatis sint ratione.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     },
     {
-      "Id": 477,
-      "Name": "Schmitt Group",
-      "ToolTip": "Ut pariatur porro sit temporibus.",
+      "Id": 599,
+      "Name": "Maggio-Towne",
+      "ToolTip": "Voluptatibus perspiciatis perspiciatis sint ratione.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 254
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
   ],
-  "Language": "qui",
-  "Sentiment": 523,
-  "SentimentConfidence": 583,
-  "SuggestedCategoryId": 176,
+  "Language": "molestiae",
+  "Sentiment": 60,
+  "SentimentConfidence": 730,
+  "SuggestedCategoryId": 425,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 288,
-  "IconHint": "eligendi",
+  "OrigHumanCategoryId": 97,
+  "IconHint": "et",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "quod"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "neque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 560
     }
   }
 }

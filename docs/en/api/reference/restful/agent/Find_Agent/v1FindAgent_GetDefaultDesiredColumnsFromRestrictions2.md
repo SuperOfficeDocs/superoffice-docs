@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Treutel, O'Connell and Weissnat",
-  "Restrictions": "reiciendis"
+  "ProviderName": "Abshire LLC",
+  "Restrictions": "odit"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Nienow, Wisozk and Heathcote",
-    "DisplayTooltip": "beatae",
-    "DisplayType": "unde",
+    "DisplayName": "Halvorson-Terry",
+    "DisplayTooltip": "est",
+    "DisplayType": "voluptatum",
     "CanOrderBy": false,
-    "Name": "Stracke Group",
+    "Name": "Kiehn Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "voluptatum",
-    "RestrictionListName": "Dickinson-Ebert",
-    "IsVisible": false,
-    "ExtraInfo": "ut",
-    "Width": "adipisci",
-    "IconHint": "omnis",
-    "HeadingIconHint": "in"
+    "RestrictionType": "repudiandae",
+    "RestrictionListName": "Rath-Cummerata",
+    "IsVisible": true,
+    "ExtraInfo": "doloribus",
+    "Width": "velit",
+    "IconHint": "unde",
+    "HeadingIconHint": "modi"
   }
 ]
 ```

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rutherford, Bruen and Witting",
+  "Name": "Schmidt Group",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bernhard Inc and Sons",
-    "SoPrimaryKey": 996,
-    "EntryName": "Fahey-Olson",
-    "EntryIdentifier": "ducimus",
-    "RuleDisplayName": "Emard-Tromp",
+    "RuleName": "Marks, Krajcik and Witting",
+    "SoPrimaryKey": 57,
+    "EntryName": "Leannon, Abernathy and Bahringer",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Ondricka-Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldType": "System.Int32",
+        "FieldLength": 205
       }
     }
   }

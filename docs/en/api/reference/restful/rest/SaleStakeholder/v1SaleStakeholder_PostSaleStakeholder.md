@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Breitenberg-Davis",
-  "Comment": "aliquam",
-  "StakeholderRoleId": 284,
-  "CountryId": 657,
-  "PersonId": 832,
-  "EmailDescription": "august@torphyruecker.ca",
-  "EmailId": 96,
-  "EmailAddress": "cicero_hermiston@lynchdietrich.ca",
-  "PhoneId": 491,
-  "ContactName": "Flatley, Harris and Trantow",
-  "ContactId": 455,
-  "SaleId": 862,
-  "Mrmrs": "aut",
-  "Firstname": "Rogers",
-  "MiddleName": "Wuckert-Torp",
-  "Lastname": "Hintz",
-  "SaleStakeholderId": 797,
-  "Rank": 686,
-  "Phone": "438-955-4232"
+  "StakeholderRoleName": "Dare, Runolfsdottir and Hauck",
+  "Comment": "hic",
+  "StakeholderRoleId": 689,
+  "CountryId": 680,
+  "PersonId": 563,
+  "EmailDescription": "ephraim@swaniawskidamore.name",
+  "EmailId": 518,
+  "EmailAddress": "yesenia_harris@uptontremblay.uk",
+  "PhoneId": 699,
+  "ContactName": "Mitchell-Feeney",
+  "ContactId": 957,
+  "SaleId": 467,
+  "Mrmrs": "quibusdam",
+  "Firstname": "Raymond",
+  "MiddleName": "Romaguera Group",
+  "Lastname": "Batz",
+  "SaleStakeholderId": 770,
+  "Rank": 538,
+  "Phone": "766-930-8008 x638"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "McKenzie, Upton and Volkman",
-  "Comment": "quos",
-  "StakeholderRoleId": 359,
-  "CountryId": 449,
-  "PersonId": 23,
-  "EmailDescription": "orrin@eichmannortiz.biz",
-  "EmailId": 151,
-  "EmailAddress": "roel_littel@fahey.us",
-  "PhoneId": 731,
-  "ContactName": "Welch, VonRueden and Effertz",
-  "ContactId": 104,
-  "SaleId": 225,
-  "Mrmrs": "et",
-  "Firstname": "Luella",
-  "MiddleName": "Klein Inc and Sons",
-  "Lastname": "Cronin",
-  "SaleStakeholderId": 890,
-  "Rank": 111,
-  "Phone": "1-225-658-0907 x52542",
+  "StakeholderRoleName": "Anderson-Ruecker",
+  "Comment": "voluptas",
+  "StakeholderRoleId": 780,
+  "CountryId": 391,
+  "PersonId": 720,
+  "EmailDescription": "franco@hartmann.com",
+  "EmailId": 218,
+  "EmailAddress": "max@osinskishields.name",
+  "PhoneId": 980,
+  "ContactName": "Gutmann, Wisozk and Fadel",
+  "ContactId": 699,
+  "SaleId": 606,
+  "Mrmrs": "accusamus",
+  "Firstname": "Zoila",
+  "MiddleName": "Lehner, Dach and Lueilwitz",
+  "Lastname": "Gislason",
+  "SaleStakeholderId": 564,
+  "Rank": 359,
+  "Phone": "(420)205-4075",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 940
     }
   },
   "_Links": {

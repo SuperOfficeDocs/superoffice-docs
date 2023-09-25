@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "ipsa"
+  "Context": "nesciunt"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": true,
-    "Key": "deleniti",
-    "ValueType": "consequatur",
+    "DefaultShowInSelector": false,
+    "IsActive": false,
+    "Key": "est",
+    "ValueType": "ut",
     "Mandatory": false,
-    "EncodedDisplayName": "Strosin, Auer and Raynor",
-    "EncodedDisplayDescription": "Reactive contextually-based service-desk",
-    "IconHint": "iste",
+    "EncodedDisplayName": "Hegmann-Bogan",
+    "EncodedDisplayDescription": "Synergized 6th generation definition",
+    "IconHint": "et",
     "ControlInfos": [
       {
-        "Type": "facere",
-        "Label": "delectus",
-        "Dimension": 745,
-        "ListProviderName": "Bogisich-Cole",
-        "ListProviderExtraInfo": "et",
-        "ListProviderPrimaryKeyName": "Mohr, Emard and Wuckert",
-        "ListLeadText": "et",
+        "Type": "iure",
+        "Label": "sapiente",
+        "Dimension": 893,
+        "ListProviderName": "Padberg, Reinger and Blanda",
+        "ListProviderExtraInfo": "fugit",
+        "ListProviderPrimaryKeyName": "Bahringer LLC",
+        "ListLeadText": "assumenda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 948
+            "FieldLength": 836
           }
         }
       }
     ],
-    "EncodedDataCaption": "qui",
-    "EncodedDataCaptionDescription": "Ergonomic grid-enabled middleware",
-    "CurrentOperationType": "magnam",
+    "EncodedDataCaption": "quia",
+    "EncodedDataCaptionDescription": "Cross-platform cohesive circuit",
+    "CurrentOperationType": "recusandae",
     "Values": [
-      "quasi",
-      "amet"
+      "voluptas",
+      "nostrum"
     ],
     "DisplayValues": [
-      "et",
-      "omnis"
+      "quis",
+      "enim"
     ],
     "OperationInfos": [
       {
-        "Key": "quis",
-        "EncodedDisplayName": "Stark Inc and Sons",
+        "Key": "sunt",
+        "EncodedDisplayName": "Block Group",
         "EncodedLeadTexts": [
-          "distinctio",
-          "natus"
+          "sunt",
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 590
+            "FieldLength": 393
           }
         }
       },
       {
-        "Key": "quis",
-        "EncodedDisplayName": "Stark Inc and Sons",
+        "Key": "sunt",
+        "EncodedDisplayName": "Block Group",
         "EncodedLeadTexts": [
-          "distinctio",
-          "natus"
+          "sunt",
+          "amet"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 590
+            "FieldLength": 393
           }
         }
       }

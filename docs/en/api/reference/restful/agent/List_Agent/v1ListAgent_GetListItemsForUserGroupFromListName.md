@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Senger, Frami and Walker",
-  "GroupId": 89
+  "UdListDefinitionName": "Heaney-Runolfsdottir",
+  "GroupId": 137
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 982,
-    "Name": "Goldner, Hahn and Jast",
-    "ToolTip": "Rerum odio dolor dolor.",
+    "Id": 416,
+    "Name": "Lebsack Group",
+    "ToolTip": "Iusto repudiandae aut dolore esse officia omnis.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "explicabo",
-    "ColorBlock": 66,
-    "IconHint": "eaque",
+    "Rank": 789,
+    "Type": "eos",
+    "ColorBlock": 148,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2010-03-27T03:31:26.6675558+01:00",
+    "LastChanged": "2018-10-22T03:24:47.8613878+02:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Thiel-Ward",
-        "ToolTip": "Id sed.",
-        "Deleted": true,
-        "Rank": 895,
-        "Type": "aut",
-        "ColorBlock": 957,
-        "IconHint": "dolorem",
+        "Id": 753,
+        "Name": "Spencer Inc and Sons",
+        "ToolTip": "Error molestiae perferendis id.",
+        "Deleted": false,
+        "Rank": 23,
+        "Type": "quas",
+        "ColorBlock": 665,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1998-11-03T03:31:26.6675558+01:00",
+        "LastChanged": "2019-09-23T03:24:47.8613878+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "sit",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Giles Bergstrom",
+        "FullName": "Hassie Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 670
+            "FieldType": "System.String",
+            "FieldLength": 325
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Keira Berge V",
+    "ExtraInfo": "sed",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Janet Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 914
       }
     }
   }
