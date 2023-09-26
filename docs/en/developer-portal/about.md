@@ -143,7 +143,7 @@ Watch the walk-through on YouTube:
 <!-- Referenced links -->
 [1]: getting-started/get-access-to-sod.md
 [2]: getting-started/app-envir.md
-[3]: overview.md
+[3]: index.yml
 [4]: create-app/index.md
 [5]: standard-app/app-store/app-store-info.md
 [6]: https://dev.superoffice.com/

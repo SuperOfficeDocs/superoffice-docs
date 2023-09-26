@@ -22,7 +22,7 @@ All applications begin in our [sandbox environment][2]. Standard applications mu
 > The Watchcom security evaluation is a mandatory part of our certification program.
 
 <!-- Referenced links -->
-[1]: ../overview.md
+[1]: ../index.yml
 [2]: ../getting-started/app-envir.md
 [3]: certification/index.md
 [4]: certification/initial-watchcom-eval.md

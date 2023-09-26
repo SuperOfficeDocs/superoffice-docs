@@ -29,8 +29,6 @@ landingContent:
       - itemType: explore
         typeDesc: concept
         links:
-        - text: What is an application?
-          url: overview.md
         - text: Versions and states
           url: create-app/versioning.md
       - itemType: list

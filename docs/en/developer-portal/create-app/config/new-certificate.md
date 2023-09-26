@@ -54,8 +54,8 @@ The Developer Portal stores your public key. However, you must store the private
 
 <!-- Referenced links -->
 [3]: ../../getting-started/app-envir.md
-[1]: ../../api/authentication/online/certificates/index.md
-[2]: ../../api//authentication/online/auth-application/sign-system-user-token.md
+[1]: ../../../api/authentication/online/certificates/index.md
+[2]: ../../../api//authentication/online/auth-application/sign-system-user-token.md
 
 <!-- Referenced images -->
 [img1]: media/secrets-and-certificates.png

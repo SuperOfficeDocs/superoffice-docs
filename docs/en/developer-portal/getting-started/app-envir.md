@@ -102,7 +102,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 <!-- Referenced links -->
 [5]: index.md
 [10]: index.md#terminology
-[8]: ../overview.md
+[8]: ../index.yml
 [1]: ../standard-app/index.md
 [4]: ../standard-app/certification/index.md
 [7]: ../standard-app/app-store/index.md

@@ -154,7 +154,7 @@ These settings are read only for all except SuperOffice AS app managers.
 [20]: ../native-app.md
 [21]: ../../../api/authentication/online/sign-in-user/auth-code-flow.md
 [23]: update-endpoints.md
-[24]: ../../api/authentication/online/certificates/index.md
+[24]: ../../../api/authentication/online/certificates/index.md
 [25]: ../mirror-app.md
 [26]: ../sync-app.md
 [27]: ../../../api/plugins/quote-connectors/index.md
