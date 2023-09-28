@@ -15,9 +15,6 @@ Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie
 
 Klicken Sie auf die Schaltfläche **Hinzufügen**, um eine Person über die Registerkarte Teilnehmer zu einem Termin einzuladen. Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][5] an.
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
-
 ## Schritte
 
 1. Öffnen Sie das Dialogfeld **Termin**, **Aufgabe** oder **Anruf** und führen Sie die Funktion [erforderliche Information eingeben][2] aus.
@@ -72,7 +69,7 @@ Wenn Sie eine Einladung im Namen einer anderen Person manuell akzeptieren oder a
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
-[3]: ../create-appointment.md
+[3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 

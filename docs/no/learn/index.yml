@@ -224,7 +224,7 @@ conceptualContent:
       - text: Opprette avtale
         itemType: list
         typeDesc: how-to-guide
-        url: ../diary/learn/create-appointment.md
+        url: ../diary/learn/create-follow-up.md
       - text: Videomøter
         itemType: list
         typeDesc: how-to-guide

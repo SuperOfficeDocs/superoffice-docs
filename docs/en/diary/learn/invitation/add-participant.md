@@ -15,9 +15,6 @@ When you create a follow-up that concerns other people, you can add them as part
 
 Invite a contact to an appointment from the participants tab by clicking the **Add** button. Watch the video for [Add participants to an appointment][5].
 
-<!--
-> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
-
 ## Steps
 
 1. Open the **Appointment**, **Task** or **Phone Call** dialog and [enter the required information][2].
@@ -72,7 +69,7 @@ To manually accept or decline an invitation on behalf of someone, select the nam
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
-[3]: ../create-appointment.md
+[3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 

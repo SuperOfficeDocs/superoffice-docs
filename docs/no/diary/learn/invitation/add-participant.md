@@ -15,9 +15,6 @@ Når du oppretter en oppfølging som omfatter flere enn deg selv, kan du knytte 
 
 Klikk på **Legg til**-knappen for å invitere en person til en avtale fra fanen deltakere. Se videoen [Legge til deltakere i en avtale][5].
 
-<!--
-> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
-
 ## Trinn
 
 1. Åpne dialogboksen **Avtale**, **Oppgave** eller **Samtale**, og [angi deretter den nødvendige informasjonen][2].
@@ -72,7 +69,7 @@ Hvis du vil godta eller avslå en invitasjon på vegne av noen, velger du navnet
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
-[3]: ../create-appointment.md
+[3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 

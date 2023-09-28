@@ -34,16 +34,10 @@ items:
   - name: Verkoop
     href: screen/sales-tab.md
 - name: Werken met vervolgactiviteiten
-  topicHref: create-appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Afspraak maken
-    href: create-appointment.md
-  - name: Telefoongesprek registreren
-    href: phone-call/add.md
   - name: Videovergaderingen
     href: video-meetings.md
-  - name: Taak maken
-    href: create-task.md
   - name: "Vervolgactiviteit (afspraak, taak of telefoongesprek) toevoegen"
     href: create-follow-up.md
   - name: Vervolgactiviteit bewerken

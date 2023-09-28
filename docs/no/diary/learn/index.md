@@ -42,8 +42,7 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 * [Redigere oppfølging][6]
 * [Angi alarmer for oppfølging][7]
 * [Sende oppfølginger][8]
-* [Opprette avtale ved hjelp av dagboken][18]
-* [Opprette overlappende oppfølginger][9]
+* [Opprette oppfølginger][18]
 * [Opprette repeterende oppfølging][10]
 * [Invitere andre medarbeidere til en oppfølging][11]
 * [Koble aktiviteter][12]
@@ -61,7 +60,6 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 [6]: edit-follow-up.md
 [7]: set-alarm.md
 [8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [12]: linking-documents-to-follow-ups.md
@@ -70,7 +68,7 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: delete-follow-up.md
-[18]: create-appointment.md
+[18]: create-follow-up.md
 [19]: move-follow-up.md
 [20]: change-end-time.md
 [21]: copy-follow-up.md

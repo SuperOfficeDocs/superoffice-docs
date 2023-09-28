@@ -4,7 +4,7 @@
 3. Complete the information in the **Follow-up** dialog as described in the [user guide][2].
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/create-appointment.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->

@@ -15,9 +15,6 @@ När du skapar en händelse som omfattar flera kontakter kan du koppla personern
 
 Bjud in en kontakt till en bokning från deltagarfliken genom att klicka på knappen **Lägg till**. Titta på filmen om att [Lägga till deltagare i en bokning][5].
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
-
 ## Steg
 
 1. Öppna dialogrutan **Bokning**, **Uppgift** eller **Samtal** och [ange de nödvändiga uppgifter][2].
@@ -72,7 +69,7 @@ Om du manuellt vill tacka ja eller nej till en förfrågan för någon annans r�
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
-[3]: ../create-appointment.md
+[3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 

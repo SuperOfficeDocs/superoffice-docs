@@ -11,6 +11,8 @@ language: nl
 
 # Vervolgactiviteit
 
+Vervolgactiviteiten kunnen elkaar overlappen. Overlappende vervolgactiviteiten worden weergegeven in het scherm Agenda, waar u een deel van elke vervolgactiviteit kunt zien.
+
 ## <a id="apt" />Afspraak
 
 Afspraken zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuwe afspraak maken door te klikken op de knop **Nieuw** op de bovenste balk en door ![pictogram][img1] te selecteren.
@@ -67,17 +69,13 @@ U kunt gesprekken op de volgende plaatsen weergeven in SuperOffice CRM:
 
 ## Wat wilt u doen?
 
-* [Afspraken maken][2]
-* [Taken maken][12]
-* [Telefoongesprekken registreren][22]
+* [Afspraken maken, Taken maken, Telefoongesprekken registreren][2]
 * [Werken met vervolgactiviteiten][3]
 * [Meer informatie over activiteiten][4]
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/preferences.md
-[2]: create-appointment.md
-[12]: create-task.md
-[22]: phone-call/add.md
+[2]: create-follow-up.md
 [3]: index.md
 [4]: ../../learn/basics/activity.md
 

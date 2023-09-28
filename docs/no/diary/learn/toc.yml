@@ -34,16 +34,10 @@ items:
   - name: Salg
     href: screen/sales-tab.md
 - name: Jobbe med oppfølginger
-  topicHref: create-appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Opprette avtale
-    href: create-appointment.md
-  - name: Gå inn i telefonsamtale
-    href: phone-call/add.md
   - name: Videomøter
     href: video-meetings.md
-  - name: Opprette oppgave
-    href: create-task.md
   - name: "Legge til oppfølging (avtale, oppgave eller samtale)"
     href: create-follow-up.md
   - name: Redigere oppfølging

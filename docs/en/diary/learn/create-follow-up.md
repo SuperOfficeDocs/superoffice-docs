@@ -1,75 +1,104 @@
 ---
 uid: help-en-follow-up-create
-title: Add follow-ups (appointments, tasks and phone calls)
-description: Add follow-ups (appointments, tasks and phone calls)
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: diary, follow-up
+title: Add follow-up (appointment, task, and phone call)
+description: How to add an appointments, a task, or a phone call in SuperOffice CRM.
+author: Bergfrid Dias
+so.date: 09.27.2023
+keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
 so.topic: howto
 language: en
 ---
 
-# Add follow-ups (appointments, tasks and phone calls)
+# Add follow-up (appointment, task, phone call)
 
-To create follow-ups in SuperOffice CRM, click the **New** button on the top bar.
+Creating appointments and scheduling all meetings and activities in your SuperOffice Diary help you to always have a complete overview of what is happening, build up solid communication history, and keep your colleagues informed.
 
-> [!TIP]
-> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. To specify which dialog should open, select ![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Type from Activities section tab**.
+## Steps
 
-## Create follow-ups in the activities list
+There are many ways to create a follow-up. This method works from anywhere in SuperOffice CRM and for all types of follow-ups.
 
-To create a new follow-up directly in the activities list, double-click an empty row below the last activity in the list.
+1. Click **+New** in the top bar and select **Appointment**, **Phone Call**, or **Task**.
 
-If no empty row is displayed at the bottom of the activities list, enlarge the activities list:
+2. [Enter the required information in the fields.][6]
 
-1. Position the mouse pointer between the section tabs and the card above. The pointer changes to a double-headed arrow.
+    > [!NOTE]
+    > If the new follow-up overlaps with an existing follow-up, an exclamation mark ![icon][img2] is shown next to the start and stop fields as a reminder (you can still add the follow-up). A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
+    >
+    > When you create a new task, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the task.
 
-2. Click and drag the line upwards until you see more empty rows at the bottom of the activities list.
+3. Click the **Save** button.
+
+**Other options:**
+
+| Starting point | Appointment | Phone call | Task |
+|---|---|---|---|
+| Activities section tab | x | x | x |
+| Task button on a contact | x | x | |
+| Diary | x | | |
+
+## Create follow-up from Activities section tab
+
+* Click the **Add** button in the **Activities** section tab.
+
+* Or, double-click an empty row below the last activity in the list. If you see no empty rows, position the mouse pointer between the section tabs and the card above. The pointer changes to a double-headed arrow. Then click and drag the line up to expand the section tab area.
+
+By default this opens the **Appointment** dialog. To specify which dialog should open, select ![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Type from Activities section tab**.
 
 > [!NOTE]
 > If you specify a time or duration for a follow-up you are creating from within the activities list, it is entered in the Diary.
 
-## <a id="associate" />Create appointment for an associate
+## Create follow-up from Task button
 
-When you open the diary of an associate, you can create appointments for this person yourself.
+1. Click the ![icon][img3] **Task** button in the Contact card.
 
-1. Click the **View** tab in the Diary screen.
+1. To create an appointment, select **Request a meeting**.
 
-2. [Find the person's diary][4] in the **View**.
+    To register a call, select **Make a phone call**.
 
-3. [Create a new appointment][1] in this diary using the mouse.
+1. Enter information and click **Save**.
 
-4. The **Appointment** dialog opens. [Choose the participants to include][5], if they are not automatically included.
+## Create appointment from Diary
 
-    > [!NOTE]
-    > If you checked **Participants from group view** under **Preferences**, all members of the view are automatically added as participants in the appointment. To change this preference, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
+* **To choose a time slot:** click the time at which you want the appointment to start and hold the mouse button down while you drag the mouse to the required end time for the task. A blue area is displayed while you define the time slot before the **Appointment** dialog opens.
 
-5. [Enter the required information in the fields.][6]
+* **To use default duration:** double-click a time in the Diary or right-click a time in the Diary and select **New**.
 
-6. Click the **Save** button. The appointment will be displayed in the selected person's diary.
+> [!NOTE]
+> If you create the appointment from [the View tab][7], you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
-## <a id="overlap" />Create overlapping follow-ups
+### <a id="associate" />Create appointment for an associate
 
-Follow-ups may overlap each other. When you try to record an overlapping follow-up, the dialog has an exclamation mark ![icon][img2] next to the start and stop fields as a reminder (you can still record the follow-up).
+You can open another user's diary, or the diary of an available resource, to see when they are free or to create follow-ups for them directly.
 
-A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
+1. Select the **View** tab in the Diary screen.
 
-Overlapping follow-ups are displayed in the Diary screen so that you can see part of each follow-up.
+2. Click the diary owner list and select the person's diary.
 
-## What would you like to do now?
+3. Create a new appointment in this diary using the mouse.
 
-* [Create appointments][1]
-* [Create tasks][2]
-* [Enter phone calls][3]
+4. In the **Appointment** dialog, [enter the required information][6].
+
+5. [Choose the participants to include][5], if they are not automatically included.
+
+6. Click **Save**. The appointment will be displayed in the selected person's diary.
+
+## Related content
+
+* [Follow-up types][1]
+* [Activities][8]
+* [Notifications (alarms)][3]
+* [Create a video meeting from the SuperOffice diary][2]
 
 <!-- Referenced links -->
-[1]: create-appointment.md
-[2]: create-task.md
-[3]: phone-call/add.md
-[4]: open.md
+[1]: follow-ups.md
+[2]: video-meetings.md
+[3]: set-alarm.md
 [5]: invitation/add-participant.md
 [6]: screen/dialog-for-followups.md
+[7]: screen/view.md
+[8]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../../common/icons/warning-red.png
+[img1]: ../../../media/icons/personal-settings-small.png
+[img3]: ../../../media/icons/btn-menu.png

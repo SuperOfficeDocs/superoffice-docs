@@ -42,8 +42,7 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 * [Rediger opfølgning][6]
 * [Indstilling af alarmer for opfølgning][7]
 * [Afsendelse af opfølgninger][8]
-* [Opret aftale ved hjælp af Dagbog][18]
-* [Oprettelse af overlappende opfølgninger][9]
+* [Opret opfølgning][18]
 * [Oprettelse af gentagne opfølgning][10]
 * [Invitation af andre medarbejdere til en opfølgning][11]
 * [Link aktiviteter][12]
@@ -61,7 +60,6 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 [6]: edit-follow-up.md
 [7]: set-alarm.md
 [8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [12]: linking-documents-to-follow-ups.md
@@ -69,7 +67,7 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
-[18]: create-appointment.md
+[18]: create-follow-up.md
 [19]: move-follow-up.md
 [20]: change-end-time.md
 [21]: copy-follow-up.md

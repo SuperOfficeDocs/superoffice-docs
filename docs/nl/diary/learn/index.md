@@ -42,8 +42,7 @@ Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat s
 * [Vervolgactiviteit bewerken][6]
 * [Een alarm instellen voor vervolgactiviteiten][7]
 * [Vervolgactiviteiten verzenden][8]
-* [Afspraken maken via de agenda][18]
-* [Overlappende vervolgactiviteiten maken][9]
+* [Vervolgactiviteiten maken][18]
 * [Herhalende vervolgactiviteiten maken][10]
 * [Uw medewerkers uitnodigen voor een vervolgactiviteit][11]
 * [Activiteiten koppelen][12]
@@ -61,7 +60,6 @@ Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat s
 [6]: edit-follow-up.md
 [7]: set-alarm.md
 [8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [12]: linking-documents-to-follow-ups.md
@@ -70,7 +68,7 @@ Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat s
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: delete-follow-up.md
-[18]: create-appointment.md
+[18]: create-follow-up.md
 [19]: move-follow-up.md
 [20]: change-end-time.md
 [21]: copy-follow-up.md

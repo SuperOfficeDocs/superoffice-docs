@@ -11,6 +11,8 @@ language: sv
 
 # Händelser
 
+Händelser kan överlappa varandra. Överlappande händelser visas i Kalender-fönstret på ett sådant sätt att du ser en del av varje händelse.
+
 ## <a id="apt" />Bokning
 
 En bokning är en händelse med en fastställd start- och sluttid. Var du än arbetar i SuperOffice CRM kan du lägga in nya bokningar genom att klicka på knappen **Nytt** i det övre fältet och välja ![ikon][img1].
@@ -67,17 +69,13 @@ Samtal kan visas på följande ställen i SuperOffice CRM:
 
 ## Vad vill du göra?
 
-* [Skapa bokningar][2]
-* [Skapa uppgifter][12]
-* [Registrera samtal][22]
+* [Skapa bokningar, uppgifter, samtal][2]
 * [Arbeta med händelser][3]
 * [Lär dig om Aktiviteter][4]
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/preferences.md
-[2]: create-appointment.md
-[12]: create-task.md
-[22]: phone-call/add.md
+[2]: create-follow-up.md
 [3]: index.md
 [4]: ../../learn/basics/activity.md
 

@@ -34,16 +34,10 @@ items:
   - name: Försäljning
     href: screen/sales-tab.md
 - name: Arbeta med händelser
-  topicHref: create-appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Skapa bokning
-    href: create-appointment.md
-  - name: Registrera samtal
-    href: phone-call/add.md
   - name: Videomöten
     href: video-meetings.md
-  - name: Skapa uppgift
-    href: create-task.md
   - name: "Lägga till en händelse (möte, uppgift eller telefonsamtal)"
     href: create-follow-up.md
   - name: Redigera händelse

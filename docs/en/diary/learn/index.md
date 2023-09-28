@@ -42,8 +42,7 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 * [Edit follow-up][6]
 * [Set alarms for follow-up][7]
 * [Send follow-ups][8]
-* [Create appointment using the Diary][18]
-* [Create overlapping follow-ups][9]
+* [Create appointment, task, phone call][18]
 * [Create repeating follow-up][10]
 * [Invite your associates to a follow-up][11]
 * [Link activities][12]
@@ -61,7 +60,6 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 [6]: edit-follow-up.md
 [7]: set-alarm.md
 [8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [12]: linking-documents-to-follow-ups.md
@@ -70,7 +68,7 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: delete-follow-up.md
-[18]: create-appointment.md
+[18]: create-follow-up.md
 [19]: move-follow-up.md
 [20]: change-end-time.md
 [21]: copy-follow-up.md

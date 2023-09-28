@@ -34,16 +34,10 @@ items:
   - name: Verkäufe
     href: screen/sales-tab.md
 - name: Mit Folgeaufgaben arbeiten
-  topicHref: create-appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Termin erstellen
-    href: create-appointment.md
-  - name: Anruf eintragen
-    href: phone-call/add.md
   - name: Videokonferenzen
     href: video-meetings.md
-  - name: Aufgabe erstellen
-    href: create-task.md
   - name: "Eine Folgeaufgabe (Termin, Aufgabe oder Telefonanruf) hinzufügen"
     href: create-follow-up.md
   - name: Folgeaufgabe bearbeiten

@@ -42,8 +42,7 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 * [Redigera händelse][6]
 * [Ställa in alarm för händelser][7]
 * [Skicka händelser][8]
-* [Skapa en bokning i kalendern][18]
-* [Skapa överlappande händelser][9]
+* [Skapa händelser][18]
 * [Skapa återkommande händelse][10]
 * [Bjuda in andra medarbetare till en händelse][11]
 * [Koppla aktiviteter][12]
@@ -61,7 +60,6 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 [6]: edit-follow-up.md
 [7]: set-alarm.md
 [8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [12]: linking-documents-to-follow-ups.md
@@ -70,7 +68,7 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: delete-follow-up.md
-[18]: create-appointment.md
+[18]: create-follow-up.md
 [19]: move-follow-up.md
 [20]: change-end-time.md
 [21]: copy-follow-up.md

@@ -15,9 +15,6 @@ Når du opretter en opfølgning, som omfatter flere personer end dig selv, kan d
 
 Inviter en kontakt til en aftale fra fanen deltagere ved at klikke på knappen **Tilføj** . Se videoen for [Føj deltagere til en aftale][5].
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
-
 ## Trin
 
 1. Åbn dialogboksen **Aftale**, **Opgave** eller **Samtale**, og[angiv de ønskede oplysninger][2].
@@ -72,7 +69,7 @@ Hvis du vil acceptere eller afvise en invitation på vegne af en anden, skal du 
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
-[3]: ../create-appointment.md
+[3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 

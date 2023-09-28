@@ -42,8 +42,7 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 * [Folgeaufgabe bearbeiten][6]
 * [Alarme für Folgeaufgabe festlegen][7]
 * [Folgeaufgaben senden][8]
-* [Termin mithilfe des Kalenders erstellen][18]
-* [Sich überschneidende Folgeaufgaben erstellen][9]
+* [Folgeaufgaben erstellen][18]
 * [Regelmäßige Folgeaufgabe erstellen][10]
 * [Mitarbeiter zu einer Folgeaufgabe einladen][11]
 * [Aktivitäten verknüpfen mit][12]
@@ -61,7 +60,6 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 [6]: edit-follow-up.md
 [7]: set-alarm.md
 [8]: send-as-email.md
-[9]: create-follow-up.md#overlap
 [10]: recurrence/create.md
 [11]: invitation/index.md
 [12]: linking-documents-to-follow-ups.md
@@ -70,7 +68,7 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: delete-follow-up.md
-[18]: create-appointment.md
+[18]: create-follow-up.md
 [19]: move-follow-up.md
 [20]: change-end-time.md
 [21]: copy-follow-up.md

@@ -2,7 +2,7 @@
 title: Create a video meeting
 uid: create_video_meeting
 description: How to create a video meeting
-author: {github-id}
+author: Bergfrid Dias
 so.date: 13.08.2021
 keywords: video meeting
 so.topic: howto
@@ -28,7 +28,7 @@ If you have turned on email invitations for the participants of the follow-up, a
 > Click ![copy link -screenshot][img4] to copy the video meeting link. You can then paste the link in the description of the appointment or send it to others via direct messaging.
 
 <!-- Referenced links -->
-[1]: ../../diary/learn/create-appointment.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->

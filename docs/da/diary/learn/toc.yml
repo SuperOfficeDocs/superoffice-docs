@@ -34,16 +34,10 @@ items:
   - name: Salg
     href: screen/sales-tab.md
 - name: Arbejd med opfølgning
-  topicHref: create-appointment.md
+  topicHref: create-follow-up.md
   items:
-  - name: Opret aftale
-    href: create-appointment.md
-  - name: Registrer samtale
-    href: phone-call/add.md
   - name: Videomøder
     href: video-meetings.md
-  - name: Opret opgave
-    href: create-task.md
   - name: "Tilføj opfølgning (aftale, opgave eller telefonopkald)"
     href: create-follow-up.md
   - name: Rediger opfølgning

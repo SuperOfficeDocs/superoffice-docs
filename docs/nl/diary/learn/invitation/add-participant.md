@@ -15,9 +15,6 @@ Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft,
 
 Nodig een contactpersoon uit voor een afspraak op het tabblad Deelnemers door op de knop **Toevoegen** te klikken. Bekijk de video voor [Deelnemers toevoegen aan een afspraak][5].
 
-<!--
-> [!Video https://community.SuperOffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
-
 ## Stappen
 
 1. Open het dialoogvenster **Afspraak**, **Taak** of **Gesprek** en [voer de benodigde gegevens in][2].
@@ -72,7 +69,7 @@ Als u handmatig een uitnodiging namens iemand wilt accepteren of weigeren, selec
 <!-- Referenced links -->
 [1]: index.md#status
 [2]: ../screen/dialog-for-followups.md
-[3]: ../create-appointment.md
+[3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 

@@ -13,6 +13,8 @@ language: en
 
 *Follow-up* is a collective term for [appointment](#apt), [task](#task), and [phone call](#call). These activities all function in largely the same way.
 
+Follow-ups may overlap each other. Overlapping follow-ups are displayed in the Diary screen so that you can see part of each follow-up.
+
 ## <a id="apt" />Appointment
 
 Appointments are activities with a defined start and end time, such as meetings. No matter where you are in SuperOffice CRM, you can create a new appointment by clicking the **New** button in the Top bar and selecting ![icon][img1].
@@ -67,19 +69,15 @@ Phone calls can be displayed in the following places in SuperOffice CRM:
 * In these side panel views: **Day**, **Month**, **Next day** and **Week**.
 <!-- markdownlint-restore -->
 
-## What do you want to do?
+## Related content
 
-* [Create appointments][2]
-* [Create tasks][12]
-* [Enter phone calls][22]
+* [Create an appointments, a task, or a phone call][2]
 * [Work with follow-ups][3]
 * [Learn about activities][4]
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/preferences.md
-[2]: create-appointment.md
-[12]: create-task.md
-[22]: phone-call/add.md
+[2]: create-follow-up.md
 [3]: index.md
 [4]: ../../learn/basics/activity.md
 

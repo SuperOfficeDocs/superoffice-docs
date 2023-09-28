@@ -11,6 +11,8 @@ language: no
 
 # Oppfølging
 
+Oppfølginger kan overlappe hverandre. I Dagbok-bildet vises overlappende oppfølginger slik at du ser litt av hver oppfølging.
+
 ## <a id="apt" /> Avtale
 
 Avtaler er oppfølginger med definert start- og sluttid, for eksempel møter. Uansett hvor i SuperOffice CRM du er, kan du opprette en ny avtale ved å klikke på **Ny**-knappen i toppraden og deretter velge ![ikon][img1].
@@ -69,17 +71,13 @@ Samtaler kan vises på følgende steder i SuperOffice CRM:
 
 ## Hva vil du gjøre?
 
-* [Opprett avtaler][2]
-* [Opprette oppgaver][12]
-* [Registrere samtaler][22]
+* [Opprett avtaler, oppgaver, samtaler][2]
 * [Jobbe med oppfølginger][3]
 * [Finne ut mer om aktiviteter][4]
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/preferences.md
-[2]: create-appointment.md
-[12]: create-task.md
-[22]: phone-call/add.md
+[2]: create-follow-up.md
 [3]: index.md
 [4]: ../../learn/basics/activity.md
 
