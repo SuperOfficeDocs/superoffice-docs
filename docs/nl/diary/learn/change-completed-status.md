@@ -17,15 +17,15 @@ Wanneer u vindt dat een activiteit is beëindigd, kunt u deze markeren als volto
 
 ## Stappen
 
-1. Open de activiteit en schakel het selectievakje **Voltooid** rechtsboven in het dialoogvenster uit.
+Voer een van de volgende handelingen uit:
+
+* Open de activiteit en schakel het selectievakje **Voltooid** rechtsboven in het dialoogvenster uit.
 
     ![De status Voltooid voor een activiteit wijzigen -screenshot][img3]
 
-    Zie [Vervolgactiviteiten openen][1] en [Documenten openen][2] voor meer informatie.
+* Houd de muisaanwijzer op het vak in de kolom **Voltooid** ![pictogram][img2] op het sectietabblad **Activiteiten**. Klik dan in het selectievakje ![pictogram][img1].
 
-1. Houd de muisaanwijzer op het vak in de kolom **Voltooid** ![pictogram][img2] op het sectietabblad **Activiteiten**. Klik dan in het selectievakje ![pictogram][img1].
-
-1. Klik met de rechtermuisknop op de activiteit en kies **Voltooid**.
+* Klik met de rechtermuisknop op de activiteit en kies **Voltooid**.
 
     ![De status Voltooid voor een activiteit wijzigen -screenshot][img4]
 
@@ -33,8 +33,6 @@ Wanneer u vindt dat een activiteit is beëindigd, kunt u deze markeren als volto
 > Als u een voltooide activiteit wilt bewerken, moet u eerst de status **Voltooid** uitschakelen.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png

@@ -17,15 +17,15 @@ When you consider that an activity is finished, you can mark it as completed.
 
 ## Steps
 
-1. Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
+Do one of the following:
+
+* Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
 
     ![Change Completed status of an activity -screenshot][img3]
 
-    For details, see [Open follow-ups][1] and [Open documents][2].
+* Hold the mouse pointer over the box in the **Completed** column ![icon][img2] in the **Activities** section tab. Then click the checkbox ![icon][img1].
 
-1. Hold the mouse pointer over the box in the **Completed** column ![icon][img2] in the **Activities** section tab. Then click the checkbox ![icon][img1].
-
-1. Right-click the activity and choose **Completed**.
+* Right-click the activity and choose **Completed**.
 
     ![Change Completed status of an activity -screenshot][img4]
 
@@ -33,8 +33,6 @@ When you consider that an activity is finished, you can mark it as completed.
 > To edit a completed activity, you must first uncheck the **Completed** status.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png

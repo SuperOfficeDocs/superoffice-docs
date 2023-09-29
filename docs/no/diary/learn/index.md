@@ -3,7 +3,7 @@ uid: help-no-diary
 title: Dagbok
 description: SuperOffice-dagboken er hjertet i CRM-systemet ditt. Disse guidene gjør det enklere å lære å jobbe med dagboken.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 09.29.2023
 keywords: dagbok
 so.topic: concept
 language: no
@@ -25,6 +25,8 @@ Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele avt
 
 [Oppfølginger][1] er et samlebegrep for aktivitetene avtale, oppgave og samtale. Disse fungerer stort sett på samme måte.
 
+Åpne en tidligere registrert oppfølging ved å dobbeltklikke på den i dagboken eller i detaljkortet **Aktiviteter**.
+
 > [!NOTE]
 > Det er viktig å se forskjellen mellom aktiviteter og oppfølginger (avtaler, oppgaver og samtaler).
 Når du oppretter oppfølginger via Dagbok-bildet, defineres disse som standard som avtaler. Du kan imidlertid endre oppfølgingstypen til oppgave eller samtale i feltet for type i [dialogboksen **Avtale**][22].
@@ -38,7 +40,6 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 
 * [Navigere i Dagbok-bildet][14]
 * [Velge tidssone][15]
-* [Åpne oppfølginger][4]
 * [Redigere oppfølging][6]
 * [Angi alarmer for oppfølging][7]
 * [Sende oppfølginger][8]
@@ -55,7 +56,6 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 
 <!-- Referenced links -->
 [1]: follow-ups.md
-[4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md
 [7]: set-alarm.md
@@ -67,10 +67,10 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
-[17]: delete-follow-up.md
+[17]: edit-follow-up.md#delete
 [18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
+[20]: edit-follow-up.md#change-end
 [21]: copy-follow-up.md
 [22]: screen/dialog-for-followups.md
 [23]: video-meetings.md

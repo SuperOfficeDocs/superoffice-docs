@@ -3,7 +3,7 @@ uid: help-en-diary
 title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to work with the diary.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 09.29.2023
 keywords: diary
 so.topic: concept
 language: en
@@ -25,6 +25,8 @@ Regular use of the diary helps you to automatically connect and share appointmen
 
 [Follow-up][1] is a collective term for the appointment, task, and phone call activities. These all function in largely the same way.
 
+Open an existing follow-up by double-clicking it in the Diary or the **Activities** section tab.
+
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
 When you create follow-ups from the Diary screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
@@ -38,7 +40,6 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 
 * [Navigate in the Diary screen][14]
 * [Select a time zone][15]
-* [Open follow-ups][4]
 * [Edit follow-up][6]
 * [Set alarms for follow-up][7]
 * [Send follow-ups][8]
@@ -55,7 +56,6 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 
 <!-- Referenced links -->
 [1]: follow-ups.md
-[4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md
 [7]: set-alarm.md
@@ -67,10 +67,10 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
-[17]: delete-follow-up.md
+[17]: edit-follow-up.md#delete
 [18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
+[20]: edit-follow-up.md#change-end
 [21]: copy-follow-up.md
 [22]: screen/dialog-for-followups.md
 [23]: video-meetings.md

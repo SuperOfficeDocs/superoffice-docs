@@ -3,7 +3,7 @@ uid: help-de-diary
 title: Kalender
 description: "Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Diese Anleitungen helfen Ihnen, die Arbeit mit dem Kalender zu erlernen."
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 09.29.2023
 keywords: Kalender
 so.topic: concept
 language: de
@@ -25,6 +25,8 @@ Durch die regelmäßige Nutzung des Kalenders können Sie Termine und Aktivität
 
 Eine [Folgeaufgabe][1] ist die allgemeine Bezeichnung für Termin, Aufgabe und Anrufe. Die Funktionsweise ist bei allen Folgeaufgaben in etwa identisch.
 
+Öffnen Sie eine Folgeaufgabe, indem Sie darauf doppelklicken im Kalender oder auf die Bereichsregisterkarte **Aktivitäten**.
+
 > [!NOTE]
 > An dieser Stelle soll auf den entscheidenden Unterschied zwischen Aktivitäten und Folgeaufgaben (Termine, Aufgaben und Anrufe) hingewiesen werden.
 Wenn Sie Folgeaufgaben von der Ansicht Kalender erstellen, werden diese standardmäßig als Termine definiert. Im [Dialogfeld **Termin**][22] können Sie jedoch im Feld Typ den Folgeaufgabentyp in Aufgabe oder Anruf ändern.
@@ -38,7 +40,6 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 
 * [In der Ansicht Kalender navigieren][14]
 * [Eine Zeitzone auswählen][15]
-* [Folgeaufgaben öffnen][4]
 * [Folgeaufgabe bearbeiten][6]
 * [Alarme für Folgeaufgabe festlegen][7]
 * [Folgeaufgaben senden][8]
@@ -55,7 +56,6 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 
 <!-- Referenced links -->
 [1]: follow-ups.md
-[4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md
 [7]: set-alarm.md
@@ -67,10 +67,10 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
-[17]: delete-follow-up.md
+[17]: edit-follow-up.md#delete
 [18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
+[20]: edit-follow-up.md#change-end
 [21]: copy-follow-up.md
 [22]: screen/dialog-for-followups.md
 [23]: video-meetings.md

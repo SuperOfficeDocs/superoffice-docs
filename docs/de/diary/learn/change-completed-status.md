@@ -17,15 +17,15 @@ Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren
 
 ## Schritte
 
-1. Öffnen Sie die Aktivität und deaktivieren Sie oben rechts im Dialogfeld das Symbol **Erledigt**.
+Führen Sie eine der folgenden Aktionen aus:
+
+* Öffnen Sie die Aktivität und deaktivieren Sie oben rechts im Dialogfeld das Symbol **Erledigt**.
 
     ![Status Abgeschlossen für eine Aktivität ändern -screenshot][img3]
 
-    Für weitere Details siehe [Folgeaufgaben öffnen][1] und [Dokumente öffnen][2].
+* Platzieren Sie den Mauszeiger auf dem Feld in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde. Klicken Sie auf das Kontrollkästchen ![Symbol][img1].
 
-1. Platzieren Sie den Mauszeiger auf dem Feld in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde. Klicken Sie auf das Kontrollkästchen ![Symbol][img1].
-
-1. Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
+* Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
 
     ![Status Abgeschlossen für eine Aktivität ändern -screenshot][img4]
 
@@ -33,8 +33,6 @@ Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren
 > Um eine abgeschlossene Aktivität zu bearbeiten, müssen Sie zunächst den Status **Abgeschlossen** deaktivieren.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png

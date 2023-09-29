@@ -1,9 +1,9 @@
 ---
 uid: help-da-follow-up-edit
-title: Redigering af opfølgninger
-description: Redigering af opfølgninger
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: Rediger opfølgning
+description: Åbn, rediger, slet opfølgning; Rediger sluttidspunkt for opfølgninger i dagbogen
+author: Bergfrid Dias
+so.date: 09.27.2023
 keywords: dagbog, opfølgning
 so.topic: howto
 language: da
@@ -11,7 +11,16 @@ language: da
 
 # Rediger opfølgning
 
-1. [Åbn den ønskede opfølgning][1]. Dialogboksen **Aftale**, **Opgave** eller **Telefonopkald** vises.
+[!include[Note](includes/note-edit-followup.md)]
+
+## Trin
+
+1. Åbn den ønskede opfølgning ved at dobbeltklikke på den:
+
+    * I detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog.
+    * På de forskellige faner i skærmbilledet Dagbog.
+
+    Dette åbner dialogboksen **Aftalen**, **Opgave** eller **Telefonopkald** afhængig af typen af opfølgning.
 
 2. [Foretag de ønskede ændringer i dialogboksen.][3]
 
@@ -22,12 +31,34 @@ language: da
 > [!NOTE]
 > Du kan ikke redigere afsluttede ændringer, før du har sat deres status til **Udført**.
 
+## <a id="change-end" />Rediger sluttidspunkt for opfølgninger i dagbogen
+
+På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden at skulle åbne den:
+
+1. Klik på opfølgningen på fanen **Dag**, fanen **Uge** eller fanen **Vis**.
+
+2. Placer musemarkøren på den nederste kant af opfølgningen. Markøren ændres til en dobbeltpil.
+
+3. Klik på kanten, og hold museknappen nede, mens du trækker den blå linje op eller ned for at mindske eller øge tidsintervallet for opfølgningen. Du kan se sluttidspunktet for opfølgningen øverst i det blå område.
+
+4. Slip museknappen. Tidsintervallet for opfølgningen ændres.
+
+> [!NOTE]
+> Du kan også ændre tidsintervallet ved at åbne opfølgningen og ændre felterne **Start**, **Slut**, **Forfalden** eller **Varighed** . Disse felter er beskrevet i [Dialogboksen til opfølgning][3].
+
+## <a id="delete" />Slet opfølgning ved hjælp af Dagbogen
+
+1. Vælg den ønskede opfølgning.
+2. Højreklik, og vælg **Slet**.
+3. Bekræft eller annuller sletningen i bekræftelsesdialogboksen.
+
+[!include[Deleting items](../../learn/includes/tip-deletion.md)]
+
 ## Relaterede emner
 
 * [Ændring af status Udført for en aktivitet][2]
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
 

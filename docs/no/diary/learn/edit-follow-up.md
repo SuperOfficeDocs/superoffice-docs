@@ -1,9 +1,9 @@
 ---
 uid: help-no-follow-up-edit
-title: Redigere oppfølginger
-description: Redigere oppfølginger
-author: SuperOffice RnD
-so.date: 06.29.2022
+title: Redigere oppfølging
+description: Åpne og redigere og slette oppfølginger; endre sluttidspunktet for en oppfølging i dagboken.
+author: Bergfrid Dias
+so.date: 09.27.2023
 keywords: dagbok, oppfølging
 so.topic: howto
 language: no
@@ -11,7 +11,16 @@ language: no
 
 # Redigere oppfølging
 
-1. [Åpne den nødvendige oppfølgingen][1]. Dialogboksen **Avtale**, **Oppgave** eller **Samtale** vises.
+[!include[Note](includes/note-edit-followup.md)]
+
+## Trinn
+
+1. Du kan åpne en tidligere registrert oppfølging ved å dobbeltklikke på den:
+
+    * I detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, eller Dagbok.
+    * I de ulike fanene i dagboken.
+
+    Du får da opp dialogboksen **Avtale**, **Oppgave** eller **Samtale**, avhengig av type oppfølging.
 
 2. [Gjør ønskede endringer i dialogboksen.][3]
 
@@ -22,12 +31,34 @@ language: no
 > [!NOTE]
 > Du kan ikke gjøre endringer i utførte oppfølginger før du har deaktivert **Utført**-statusen.
 
+## <a id="change-end" />Endre sluttidspunktet for en oppfølging i dagboken
+
+I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte åpne den:
+
+1. Klikk på oppfølgingen i fanen **Dag**, **Uke** eller **Oversikt**.
+
+2. Plasser musepekeren på den nedre linjen i oppfølgingen. Musepekeren endres til en dobbeltpil.
+
+3. Klikk på rammekanten og hold museknappen nede mens du drar den blå linjen opp eller ned for å redusere eller øke tidsrommet for oppfølgingen. Du kan se sluttidspunktet for oppfølgingen øverst i det blå området.
+
+4. Slipp museknappen. Tidsrommet for oppfølgingen blir endret.
+
+> [!NOTE]
+> Du kan også endre tidsrommet ved å åpne oppfølgingen og endre feltene **Start**, **Slutt**, **Frist** eller **Varighet**. Disse feltene er beskrevet under [Dialogboksen for oppfølginger][3].
+
+## <a id="delete" />Slette oppfølging ved hjelp av dagboken
+
+1. Merk ønsket oppfølging.
+2. Høyreklikk og velg **Slett**.
+3. Bekreft eller avbryt slettingen i bekreftelsesdialogboksen.
+
+[!include[Deleting items](../../learn/includes/tip-deletion.md)]
+
 ## Aktuelle emner
 
 * [Endre Utført-status for en aktivitet][2]
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
 

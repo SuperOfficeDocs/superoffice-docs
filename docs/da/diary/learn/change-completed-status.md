@@ -17,24 +17,22 @@ Når du mener, at en aktivitet er afsluttet, kan du markere den som fuldført.
 
 ## Trin
 
-1. Åbn aktiviteten, og fjern markeringen af ikonet **Afsluttet** øverst til højre i dialogen.
+Udfør en af følgende handlinger:
+
+* Åbn aktiviteten, og fjern markeringen af ikonet **Afsluttet** øverst til højre i dialogen.
 
     ![Ændring af status Udført for en aktivitet -screenshot][img3]
 
-    Du kan finde flere oplysninger under [Åbne opfølgninger][1] og [Åbne dokumenter][2].
+* Hold musemarkøren over feltet i kolonneikonet **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**. Klik derefter på afkrydsningsfeltikonet ![ikon][img1].
 
-1. Hold musemarkøren over feltet i kolonneikonet **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**. Klik derefter på afkrydsningsfeltikonet ![ikon][img1].
-
-1. Højreklik på aktiviteten, og vælg **Fuldført**.
+* Højreklik på aktiviteten, og vælg **Fuldført**.
 
     ![Ændring af status Udført for en aktivitet -screenshot][img4]
 
 > [!NOTE]
-> Hvis du vil redigere en fuldført aktivitet, skal du først fjerne markeringen af statussen **Fuldført** .
+> Hvis du vil redigere en fuldført aktivitet, skal du først fjerne markeringen af statussen **Fuldført**.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png

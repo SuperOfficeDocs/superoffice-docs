@@ -3,7 +3,7 @@ uid: help-da-diary
 title: Dagbog
 description: SuperOffice Dagbog er hjertet i dit CRM-system. Disse vejledninger hjælper dig med at lære at arbejde med dagbogen.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 09.29.2023
 keywords: dagbog
 so.topic: concept
 language: da
@@ -25,6 +25,8 @@ Regelmæssig brug af dagbogen hjælper dig med automatisk at forbinde og dele af
 
 [Opfølgning][1] er en samlet betegnelse for aftale-, opgave- og telefonopkaldsaktiviteterne. Disse fungerer alle på stort set samme måde.
 
+Åbn en opfølgning ved at dobbeltklikke på den i dagbogen eller i detaljekortet **Aktiviteter**.
+
 > [!NOTE]
 > Det er vigtigt at forstå sondringen mellem aktiviteter og opfølgninger (aftaler, opgaver og telefonopkald).
 Når du opretter opfølgninger fra skærmbilledet Dagbog, defineres de som standard som aftaler. Du kan dog ændre opfølgningstypen til opgave eller telefonopkald i feltet Type i [**dialogboksen Aftale**][22].
@@ -38,7 +40,6 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 
 * [Navigering i skærmbilledet Dagbog][14]
 * [Valg af tidszone][15]
-* [Åbning af opfølgninger][4]
 * [Rediger opfølgning][6]
 * [Indstilling af alarmer for opfølgning][7]
 * [Afsendelse af opfølgninger][8]
@@ -50,12 +51,10 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 * [Ændre sluttidspunktet for opfølgning][20]
 * [Kopiering af opfølgning til Dagbogen][21]
 * [Udskriv][5]
-* Opret opfølgning
 * [Videomøder][23]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
-[4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md
 [7]: set-alarm.md
@@ -69,7 +68,7 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 [16]: ../../learn/basics/activity.md
 [18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
+[20]: edit-follow-up.md#change-end
 [21]: copy-follow-up.md
 [22]: screen/dialog-for-followups.md
 [23]: video-meetings.md

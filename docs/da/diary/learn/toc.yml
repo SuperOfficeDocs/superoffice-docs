@@ -7,8 +7,6 @@ items:
   href: screen/dialog-for-followups.md
 - name: Aftale, samtale, opgave
   href: follow-ups.md
-- name: Åbn opfølgning
-  href: open-follow-up.md
 - name: Kalendervisninger
   topicHref: screen/day.md
   items:
@@ -40,12 +38,10 @@ items:
     href: video-meetings.md
   - name: "Tilføj opfølgning (aftale, opgave eller telefonopkald)"
     href: create-follow-up.md
-  - name: Rediger opfølgning
+  - name: Rediger eller slet opfølgning
     href: edit-follow-up.md
   - name: Kopiér opfølgning
     href: copy-follow-up.md
-  - name: Skift sluttid
-    href: change-end-time.md
   - name: Flyt opfølgning
     href: move-follow-up.md
   - name: Komplet opfølgning
@@ -60,8 +56,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Send en opfølgning som en e-mail
     href: send-as-email.md
-  - name: Slet opfølgning
-    href: delete-follow-up.md
   - name: Udskriv opfølgninger og dagbogsskærm
     href: print.md
 

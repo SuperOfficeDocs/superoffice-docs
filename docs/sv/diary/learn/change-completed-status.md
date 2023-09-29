@@ -17,15 +17,15 @@ När du anser att en aktivitet är avslutad kan du markera den som slutförd.
 
 ## Steg
 
-1. Öppna aktiviteten och avmarkera ikonen **Slutförd** längst upp till höger i dialogrutan.
+Utför en av följande åtgärder:
+
+* Öppna aktiviteten och avmarkera ikonen **Slutförd** längst upp till höger i dialogrutan.
 
     ![Ändra Slutfört-status för en aktivitet -screenshot][img3]
 
-    Mer information finns under [Öppna händelser][1] och [Öppna dokument][2].
+* Håll muspekaren över rutan i kolumnen **Slutförd** ![ikon][img2] på fliken **Aktiviteter**. Sedan klickar du i kryssrutan ![ikon][img1].
 
-1. Håll muspekaren över rutan i kolumnen **Slutförd** ![ikon][img2] på fliken **Aktiviteter**. Sedan klickar du i kryssrutan ![ikon][img1].
-
-1. Högerklicka på aktiviteten och välj **Slutförd**.
+* Högerklicka på aktiviteten och välj **Slutförd**.
 
     ![Ändra Slutförd-status för en aktivitet -screenshot][img4]
 
@@ -33,8 +33,6 @@ När du anser att en aktivitet är avslutad kan du markera den som slutförd.
 > Om du vill redigera en slutförd aktivitet måste du först avmarkera statusen **Slutförd**.
 
 <!-- Referenced links -->
-[1]: open-follow-up.md
-[2]: ../../document/learn/open.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png

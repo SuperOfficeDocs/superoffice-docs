@@ -7,8 +7,6 @@ items:
   href: screen/dialog-for-followups.md
 - name: Appointment, task, phone call
   href: follow-ups.md
-- name: Open follow-up
-  href: open-follow-up.md
 - name: Calendar views
   topicHref: screen/day.md
   items:
@@ -40,12 +38,10 @@ items:
     href: video-meetings.md
   - name: Add follow-up (appointment, task, phone call)
     href: create-follow-up.md
-  - name: Edit follow-up
+  - name: Edit or delete follow-up
     href: edit-follow-up.md
   - name: Copy follow-up
     href: copy-follow-up.md
-  - name: Change end time
-    href: change-end-time.md
   - name: Move follow-up
     href: move-follow-up.md
   - name: Complete follow-up
@@ -60,8 +56,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Send a follow-up as an email
     href: send-as-email.md
-  - name: Delete follow-up
-    href: delete-follow-up.md
   - name: Print follow-ups and Diary screen
     href: print.md
 

@@ -3,7 +3,7 @@ uid: help-nl-diary
 title: Agenda
 description: De SuperOffice Agenda is het hart van uw CRM-systeem. Deze handleidingen helpen u te leren werken met de agenda.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 09.29.2023
 keywords: agenda
 so.topic: concept
 language: nl
@@ -25,8 +25,10 @@ Regelmatig gebruik van de agenda helpt u om automatisch afspraken en activiteite
 
 Een [vervolgactiviteit][1] is een verzamelnaam voor de activiteiten afspraak, taak en Telefoongesprek. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
 
+Open en vervolgactiviteit door erop te dubbelklikken in het agenda of op het sectietabblad **Activiteiten**.
+
 > [!NOTE]
-> het is belangrijk de verschillen tussen activiteiten en vervolgactiviteiten (afspraken, taken en telefoongesprekken) te begrijpen.
+> Het is belangrijk de verschillen tussen activiteiten en vervolgactiviteiten (afspraken, taken en telefoongesprekken) te begrijpen.
 Wanneer u vervolgactiviteiten maakt via het scherm Agenda, worden deze standaard gedefinieerd als afspraken. U kunt het type vervolgactiviteit echter wijzigen in taak of telefoongesprek. Gebruik hiervoor het [dialoogvenster **Afspraak**][22].
 
 Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat sommige functies voor vervolgactiviteiten alleen van toepassing zijn op de Agenda.
@@ -38,7 +40,6 @@ Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat s
 
 * [Navigeren in het scherm Agenda][14]
 * [Een tijdzone selecteren][15]
-* [Vervolgactiviteiten openen][4]
 * [Vervolgactiviteit bewerken][6]
 * [Een alarm instellen voor vervolgactiviteiten][7]
 * [Vervolgactiviteiten verzenden][8]
@@ -55,7 +56,6 @@ Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat s
 
 <!-- Referenced links -->
 [1]: follow-ups.md
-[4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md
 [7]: set-alarm.md
@@ -67,10 +67,10 @@ Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. Het is zelfs zo dat s
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
-[17]: delete-follow-up.md
+[17]: edit-follow-up.md#delete
 [18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
+[20]: edit-follow-up.md#change-end
 [21]: copy-follow-up.md
 [22]: screen/dialog-for-followups.md
 [23]: video-meetings.md

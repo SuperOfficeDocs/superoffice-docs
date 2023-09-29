@@ -7,8 +7,6 @@ items:
   href: screen/dialog-for-followups.md
 - name: Termin, Telefonanruf, Aufgabe
   href: follow-ups.md
-- name: Folgeaufgaben öffnen
-  href: open-follow-up.md
 - name: Kalender-Ansichten
   topicHref: screen/day.md
   items:
@@ -40,12 +38,10 @@ items:
     href: video-meetings.md
   - name: "Eine Folgeaufgabe (Termin, Aufgabe oder Telefonanruf) hinzufügen"
     href: create-follow-up.md
-  - name: Folgeaufgabe bearbeiten
+  - name: Folgeaufgabe bearbeiten oder löschen
     href: edit-follow-up.md
   - name: Folgeaufgabe kopieren
     href: copy-follow-up.md
-  - name: Endzeitpunkt ändern
-    href: change-end-time.md
   - name: Folgeaufgabe verschieben
     href: move-follow-up.md
   - name: Folgeaufgabe abschließen
@@ -60,8 +56,6 @@ items:
     href: linking-documents-to-follow-ups.md
   - name: Folgeaufgabe als E-Mail senden
     href: send-as-email.md
-  - name: Folgeaufgabe löschen
-    href: delete-follow-up.md
   - name: Folgeaufgaben und Kalender drucken
     href: print.md
 

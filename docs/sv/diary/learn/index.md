@@ -3,7 +3,7 @@ uid: help-sv-diary
 title: Kalender
 description: SuperOffice-kalendern är en central funktion i ditt CRM-system. De här guiderna förklarar hur du använder kalendern.
 author: SuperOffice RnD
-so.date: 02.10.2023
+so.date: 09.29.2023
 keywords: kalender
 so.topic: concept
 language: sv
@@ -25,6 +25,8 @@ Regelbunden användning av kalendern hjälper dig att automatiskt koppla och del
 
 [Händelser][1] är ett samlingsbegrepp för aktiviteter kopplade till bokningar, uppgifter och samtal. Alla dessa fungerar på i stort sett samma sätt.
 
+Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
+
 > [!NOTE]
 > Det är viktigt att du förstår skillnaden mellan aktiviteter och händelser (bokningar, uppgifter och samtal).
 När du skapar händelser från Kalender-fönstret definieras de som standard som bokningar. Du kan dock ändra händelsetypen till uppgift eller samtal i typfältet i dialogrutan [**Bokning**][22].
@@ -38,7 +40,6 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 
 * [Navigera i fönstret Kalender][14]
 * [Välj tidszon][15]
-* [Öppna händelser][4]
 * [Redigera händelse][6]
 * [Ställa in alarm för händelser][7]
 * [Skicka händelser][8]
@@ -55,7 +56,6 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 
 <!-- Referenced links -->
 [1]: follow-ups.md
-[4]: open-follow-up.md
 [5]: print.md
 [6]: edit-follow-up.md
 [7]: set-alarm.md
@@ -67,10 +67,10 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 [14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
-[17]: delete-follow-up.md
+[17]: edit-follow-up.md#delete
 [18]: create-follow-up.md
 [19]: move-follow-up.md
-[20]: change-end-time.md
+[20]: edit-follow-up.md#change-end
 [21]: copy-follow-up.md
 [22]: screen/dialog-for-followups.md
 [23]: video-meetings.md
