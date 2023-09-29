@@ -1,9 +1,9 @@
 ---
 uid: help-da-follow-up-create
 title: "Tilføjelse af opfølgning (aftale, opgave, samtale)"
-description: "Tilføjelse af opfølgning (aftale, opgave, samtale)"
+description: "Tilføje eller kopiere opfølgning (aftale, opgave, samtale)"
 author: Bergfrid Dias
-so.date: 09.27.2023
+so.date: 09.29.2023
 keywords: dagbog, opfølgning, ring til, telefon
 so.topic: howto
 language: da
@@ -81,6 +81,16 @@ Du kan åbne en anden brugers dagbog eller dagbogen for en tilgængelig ressourc
 5. [Vælg de deltagere, der skal inkluderes][5], hvis de ikke automatisk inkluderes.
 
 6. Klik på knappen **Gem**. Aftalen vises i den valgte persons dagbog.
+
+## <a id="copy" />Kopiering af opfølgning til dagbogen
+
+Du kan også oprette en ny opfølgning ved at kopiere en eksisterende opfølgning til en anden tid eller dag i dagbogen.
+
+1. Åbn dagbogen og find den opfølgning, du ønsker at kopiere.
+
+2. Hvis opfølgningen er udført, højreklik på den og vælg **Fuldført** for at aktivere redigering. (Husk at nulstille statussen efter kopiering.)
+
+3. Hold **CTRL**-tasten nede, mens du trækker og slipper opfølgningen til en anden tid.
 
 ## Relateret indhold
 

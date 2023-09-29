@@ -1,9 +1,9 @@
 ---
 uid: help-en-follow-up-create
 title: Add follow-up (appointment, task, and phone call)
-description: How to add an appointments, a task, or a phone call in SuperOffice CRM.
+description: How to add or copy an appointments, a task, or a phone call in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 09.27.2023
+so.date: 09.29.2023
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
 so.topic: howto
 language: en
@@ -81,6 +81,16 @@ You can open another user's diary, or the diary of an available resource, to see
 5. [Choose the participants to include][5], if they are not automatically included.
 
 6. Click **Save**. The appointment will be displayed in the selected person's diary.
+
+## <a id="copy" />Copy a follow-up to the Diary
+
+You can also create a new follow-up by copying an existing follow-up to another time or day in the diary.
+
+1. Open the diary and locate the follow-up you wish to copy.
+
+2. If the follow-up is completed, right-click it and choose **Completed** to enable editing. (Remember to re-set the status after copying it.)
+
+3. Hold down the **CTRL** key while you drag and drop the follow-up to a different time.
 
 ## Related content
 

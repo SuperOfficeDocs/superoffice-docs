@@ -40,8 +40,6 @@ items:
     href: create-follow-up.md
   - name: Edit or delete follow-up
     href: edit-follow-up.md
-  - name: Copy follow-up
-    href: copy-follow-up.md
   - name: Move follow-up
     href: move-follow-up.md
   - name: Complete follow-up

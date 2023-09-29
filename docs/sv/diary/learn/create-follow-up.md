@@ -1,9 +1,9 @@
 ---
 uid: help-sv-follow-up-create
 title: "Lägga till händelser (bokningar, uppgifter och samtal)"
-description: "Lägga till händelser (bokningar, uppgifter och samtal)"
+description: "Lägga till eller kopiera händelser (bokningar, uppgifter och samtal)"
 author: Bergfrid Dias
-so.date: 09.27.2023
+so.date: 09.29.2023
 keywords: kalender, händelse, ringa upp, telefon
 so.topic: howto
 language: sv
@@ -81,6 +81,16 @@ Du kan öppna en annan användares kalender, eller kalendern för en tillgängli
 5. [Välj vilka deltagare som ska inkluderas][5] om de inte inkluderas automatiskt.
 
 6. Klicka på **Spara**-knappen. Bokningen visas i den valda personens kalender.
+
+## <a id="copy" />Kopiera en händelse till kalendern
+
+Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljning till en annan tid eller dag i dagboken.
+
+1. Öppna dagboken och hitta uppföljningen du vill kopiera.
+
+2. Om uppföljningen är slutförd, högerklicka på den och välj **Slutförd** för att aktivera redigering. (Kom ihåg att återställa statusen efter att du har kopierat den.)
+
+3. Håll ned **CTRL**-tangenten medan du drar och släpper uppföljningen till en annan tid.
 
 ## Relaterat innehåll
 

@@ -1,9 +1,9 @@
 ---
 uid: help-de-follow-up-create
 title: "Folgeaufgaben (Termine, Aufgaben und Anrufe) hinzufügen"
-description: "Folgeaufgaben (Termine, Aufgaben und Anrufe) hinzufügen"
+description: "Folgeaufgaben (Termine, Aufgaben und Anrufe) hinzufügen oder kopieren"
 author: Bergfrid Dias
-so.date: 09.27.2023
+so.date: 09.29.2023
 keywords: Kalender, Folgeaufgabe, Anruf, Telefon
 so.topic: howto
 language: de
@@ -81,6 +81,16 @@ Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öff
 5. Führen Sie die Option [Einzubeziehende Teilnehmer auswählen][5] aus, wenn sie nicht bereits automatisch einbezogen wurden.
 
 6. Klicken Sie auf die Schaltfläche **Speichern**. Der Termin wird im Kalender der ausgewählten Person angezeigt.
+
+## <a id="copy" />Folgeaufgabe in den Kalender kopieren
+
+Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Folgeaufgabe in den Kalender zu einem anderen Zeitpunkt oder Tag kopieren.
+
+1. Öffnen Sie den Kalender und suchen Sie die Folgeaufgabe, die Sie kopieren möchten.
+
+2. Wenn die Folgeaufgabe abgeschlossen ist, klicken Sie mit der rechten Maustaste darauf und wählen Sie **Abgeschlossen**, um die Bearbeitung zu aktivieren. (Denken Sie daran, den Status nach dem Kopieren zurückzusetzen.)
+
+3. Halten Sie die **STRG**-Taste gedrückt, während Sie die Folgeaufgabe an eine andere Zeit ziehen und ablegen.
 
 ## Zugehörige Inhalte
 

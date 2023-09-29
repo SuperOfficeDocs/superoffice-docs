@@ -1,9 +1,9 @@
 ---
 uid: help-nl-follow-up-create
 title: "Vervolgactiviteiten toevoegen (afspraken, taken, gesprekken)"
-description: "Vervolgactiviteiten toevoegen (afspraken, taken, gesprekken)"
+description: "Vervolgactiviteiten toevoegen of kopiëren (afspraken, taken, gesprekken)"
 author: Bergfrid Dias
-so.date: 09.27.2023
+so.date: 09.29.2023
 keywords: agenda, vervolgactiviteit, bellen, telefoon
 so.topic: howto
 language: nl
@@ -81,6 +81,16 @@ U kunt ook de agenda van een andere gebruiker openen of de agenda voor een besch
 5. [Kies de gewenste deelnemers][5] als deze niet automatisch worden opgenomen.
 
 6. Klik op de knop **Opslaan**. De afspraak wordt weergegeven in de agenda van de geselecteerde persoon.
+
+## <a id="copy" />Vervolgactiviteit naar de agenda kopiëren
+
+U kunt ook een nieuwe follow-up maken door een bestaande follow-up naar een andere tijd of dag in de agenda te kopiëren.
+
+1. Open de agenda en zoek de follow-up die u wilt kopiëren.
+
+2. Als de follow-up is voltooid, klik er met de rechtermuisknop op en kies **Voltooid** om bewerken mogelijk te maken. (Vergeet niet om de status na het kopiëren opnieuw in te stellen.)
+
+3. Houd de **CTRL**-toets ingedrukt terwijl u de follow-up naar een andere tijd versleept.
 
 ## Gerelateerde inhoud
 

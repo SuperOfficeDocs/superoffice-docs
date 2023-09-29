@@ -40,8 +40,6 @@ items:
     href: create-follow-up.md
   - name: Vervolgactiviteit bewerken of verwijderen
     href: edit-follow-up.md
-  - name: Vervolgactiviteit kopiëren
-    href: copy-follow-up.md
   - name: Vervolgactiviteit verplaatsen
     href: move-follow-up.md
   - name: Volledige opvolging

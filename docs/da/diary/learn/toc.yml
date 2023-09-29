@@ -40,8 +40,6 @@ items:
     href: create-follow-up.md
   - name: Rediger eller slet opfølgning
     href: edit-follow-up.md
-  - name: Kopiér opfølgning
-    href: copy-follow-up.md
   - name: Flyt opfølgning
     href: move-follow-up.md
   - name: Komplet opfølgning

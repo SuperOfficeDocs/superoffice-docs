@@ -69,7 +69,7 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 [18]: create-follow-up.md
 [19]: move-follow-up.md
 [20]: edit-follow-up.md#change-end
-[21]: copy-follow-up.md
+[21]: create-follow-up.md#copy
 [22]: screen/dialog-for-followups.md
 [23]: video-meetings.md
 

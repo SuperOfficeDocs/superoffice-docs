@@ -40,8 +40,6 @@ items:
     href: create-follow-up.md
   - name: Redigera eller ta bort händelse
     href: edit-follow-up.md
-  - name: Kopiera händelse
-    href: copy-follow-up.md
   - name: Flytta händelse
     href: move-follow-up.md
   - name: Slutföra händelse

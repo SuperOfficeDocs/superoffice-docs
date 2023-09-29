@@ -40,8 +40,6 @@ items:
     href: create-follow-up.md
   - name: Folgeaufgabe bearbeiten oder löschen
     href: edit-follow-up.md
-  - name: Folgeaufgabe kopieren
-    href: copy-follow-up.md
   - name: Folgeaufgabe verschieben
     href: move-follow-up.md
   - name: Folgeaufgabe abschließen

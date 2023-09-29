@@ -1,9 +1,9 @@
 ---
 uid: help-no-follow-up-create
 title: "Legge til oppfølging (avtale, oppgave, samtale)"
-description: "Legge til oppfølging (avtale, oppgave, samtale)"
+description: "Legge til eller kopiere oppfølging (avtale, oppgave, samtale)"
 author: Bergfrid Dias
-so.date: 09.27.2023
+so.date: 09.29.2023
 keywords: dagbok, oppfølging, avtale, oppgave, samtale, møte, telefon
 so.topic: howto
 language: no
@@ -81,6 +81,16 @@ Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs hvis
 5. [Velg deltakerne du vil inkludere][5], hvis de ikke inkluderes automatisk.
 
 6. Klikk på **Lagre**-knappen. Avtalen vises i den merkede personens dagbok.
+
+## <a id="copy" />Kopiere en oppfølging til dagboken
+
+Du kan også lage en oppfølging ved å kopiere en eksistterende oppfølging til en annen tid eller dag i dagboken.
+
+1. Åpne dagboken og finn oppfølgingen du vil kopiere.
+
+2. Hvis oppfølgingen er utført, høyreklikk på den og velg **Utført**. (Husk å tilbakestille statusen etter kopiering.)
+
+3. Holder nede **CTRL**-tasten mens du drar og slipper oppfølgingen til en annen tid.
 
 ## Aktuelt innhold
 
