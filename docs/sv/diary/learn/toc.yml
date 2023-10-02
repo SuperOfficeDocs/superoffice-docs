@@ -8,14 +8,8 @@ items:
 - name: Bokning, samtal, uppgift
   href: follow-ups.md
 - name: Kalendervyer
-  topicHref: screen/day.md
+  href: screen/index.md
   items:
-  - name: Dag
-    href: screen/day.md
-  - name: Månad
-    href: screen/month.md
-  - name: Vecka
-    href: screen/week.md
   - name: Visa
     href: screen/view.md
   - name: Dialogrutan gruppöversikt

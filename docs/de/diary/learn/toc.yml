@@ -8,14 +8,8 @@ items:
 - name: Termin, Telefonanruf, Aufgabe
   href: follow-ups.md
 - name: Kalender-Ansichten
-  topicHref: screen/day.md
+  href: screen/index.md
   items:
-  - name: Tag
-    href: screen/day.md
-  - name: Monat
-    href: screen/month.md
-  - name: Woche
-    href: screen/week.md
   - name: Ansicht
     href: screen/view.md
   - name: Dialogfeld Gruppenansicht

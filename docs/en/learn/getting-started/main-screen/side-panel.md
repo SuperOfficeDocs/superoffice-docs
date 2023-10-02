@@ -44,7 +44,7 @@ In a [dynamic selection][7], you can choose to show companies only, without spec
 
 ## Day
 
-Shows a day's agenda. Works in the same way as the [Day][3] tab in the [Diary][4] screen
+Shows a day's agenda. Works in the same way as the **Day** tab in the [Diary screen][4].
 
 > [!NOTE]
 > You can show only your own diary in the side panel. To view other people's diaries, go to the [Diary][4] screen.
@@ -134,7 +134,6 @@ In Settings and maintenance, you can also define your own views for the side pan
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

@@ -25,7 +25,7 @@ Du kan navigere i dagbogen på forskellige måder.
 
 ## Skifte mellem oversigterne
 
-Dagbogen består af [fire forskellige faner: **Dag**, **Uge**, **Måned** og **Oversigt**. Du kan nemt skifte mellem disse oversigter ved at klikke på fanerne øverst i skærmbilledet Dagbog. Den aktuelle dag, uge eller måned vises øverst på siden, afhængigt af hvilken oversigt du befinder dig i.
+Dagbogen består af fire forskellige faner: **Dag**, **Uge**, **Måned** og **Oversigt**. Du kan nemt skifte mellem disse oversigter ved at klikke på fanerne øverst i skærmbilledet Dagbog. Den aktuelle dag, uge eller måned vises øverst på siden, afhængigt af hvilken oversigt du befinder dig i.
 
 > [!TIP]
 > Klik på **Dagbog** i navigatoren og klik på en måned, et ugenummer eller en dag i kalenderen for at gå direkte til en af fanerne ovenfor.

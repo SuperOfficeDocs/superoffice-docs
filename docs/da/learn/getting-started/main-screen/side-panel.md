@@ -44,7 +44,7 @@ I et [dynamisk udvalg][7] kan du vælge, at der kun skal vises firmaer, uden at 
 
 ## Dag
 
-Viser en dags dagsorden. Fungerer på samme måde som fanen [Dag][3] i skærmbilledet [Dagbog][4]
+Viser en dags dagsorden. Fungerer på samme måde som fanen **Dag** i [skærmbilledet Dagbog][4].
 
 > [!NOTE]
 > Du kan kun få vist din egen dagbog i sidepanelet. Hvis du vil se andre personers dagbøger, skal du gå til skærmen [Dagbog][4] .
@@ -134,7 +134,6 @@ I Indstillinger og vedligeholdelse kan du også definere egne oversigter for sid
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

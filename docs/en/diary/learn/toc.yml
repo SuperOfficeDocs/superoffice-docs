@@ -8,14 +8,8 @@ items:
 - name: Appointment, task, phone call
   href: follow-ups.md
 - name: Calendar views
-  topicHref: screen/day.md
+  href: screen/index.md
   items:
-  - name: Day
-    href: screen/day.md
-  - name: Month
-    href: screen/month.md
-  - name: Week
-    href: screen/week.md
   - name: View
     href: screen/view.md
   - name: Group view dialog

@@ -3,7 +3,7 @@ uid: help-en-diary-screen
 title: The Diary screen
 description: The Diary screen
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 10.02.2023
 keywords: diary, follow-up
 so.topic: reference
 language: en
@@ -22,9 +22,9 @@ At the lower left of the calendar is a field for selecting a [time zone][12], if
 
 The diary consists of four different tabs you can select simply by clicking them at the top of the Diary screen.
 
-* [The Day tab][2]
-* [The Week tab][3]
-* [The Month tab][4]
+* [The Day tab](#day)
+* [The Week tab](#week)
+* [The Month tab](#month)
 * [The View tab][5]
 
 Click the word **Diary** in the Navigator and select a time period from the list that appears.
@@ -47,6 +47,36 @@ By default, the follow-ups are displayed as a blue field in the diary tabs. If y
 > [!NOTE]
 > In Settings and maintenance, you can define that all follow-ups of a specific type are displayed in the Diary screen with a different background color from the usual blue.
 
+### <a id="day" />The Day tab
+
+The **Day** tab displays one day at a time, with hourly time intervals along the left edge.
+
+![Diary screen, the Day tab -screenshot][img11]
+
+If [time zones][14] are enabled, you can switch time zone in the lower-left corner.
+
+### <a id="week" />The Week tab
+
+The **Week** tab displays one week at a time. There is one column for each day of the week and hourly time intervals along the left edge.
+
+![Diary screen, the Week tab -screenshot][img12]
+
+To open the **Day** tab for a particular day, click the relevant day heading.
+
+> [!NOTE]
+> You can define if Sunday or Monday should be considered the first day of the week under ![icon][img7] **Personal settings** > **Preferences**.
+
+### <a id="month" />The Month tab
+
+The **Month** tab displays one month at a time. It does not display the time, but follow-ups for individual days are shown.
+
+> [!TIP]
+> If you hold the mouse pointer over a follow-up, a tooltip containing information about the follow-up is displayed.
+
+![Diary screen, the Month tab -screenshot][img13]
+
+To open the **Day** tab for a particular day, click the header/date.
+
 ## Section tabs in the Diary screen
 
 The Diary screen contains the following section tabs:
@@ -58,9 +88,6 @@ The Diary screen contains the following section tabs:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[2]: day.md
-[3]: week.md
-[4]: month.md
 [5]: view.md
 [6]: activities-tab.md
 [7]: sales-tab.md
@@ -70,11 +97,16 @@ The Diary screen contains the following section tabs:
 [11]: ../recurrence/create.md
 [12]: ../invitation/index.md
 [13]: ../index.md
+[14]: ../../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
+[img7]: ../../../../media/icons/personal-settings-small.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
 [img4]: ../../../../../common/icons/diary-alarm.png
 [img5]: ../../../../../common/icons/diary-tentative.png
 [img6]: ../../../../../common/icons/diary-videocall.png
+[img11]: ../../../../media/loc/en/diary/day-plan.png
+[img12]: ../../../../media/loc/en/diary/week-plan.png
+[img13]: ../../../../media/loc/en/diary/month-plan.png

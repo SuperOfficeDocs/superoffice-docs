@@ -8,14 +8,8 @@ items:
 - name: Avtale, telefonsamtale, oppgave
   href: follow-ups.md
 - name: Kalendervisninger
-  topicHref: screen/day.md
+  href: screen/index.md
   items:
-  - name: Dag
-    href: screen/day.md
-  - name: Måned
-    href: screen/month.md
-  - name: Uke
-    href: screen/week.md
   - name: Oversikt
     href: screen/view.md
   - name: Dialogboksen Gruppeoversikt

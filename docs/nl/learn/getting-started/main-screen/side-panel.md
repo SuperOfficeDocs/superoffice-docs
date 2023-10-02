@@ -44,7 +44,7 @@ In een [dynamische selectie][7] kunt u ervoor kiezen om alleen bedrijven weer te
 
 ## Dag
 
-Toont de agenda van een dag. Werkt op dezelfde manier als het tabblad [Dag][3] in het scherm [Agenda][4]
+Toont de agenda van een dag. Werkt op dezelfde manier als het tabblad **Dag** in het [scherm Agenda][4].
 
 > [!NOTE]
 > U kunt alleen uw eigen agenda in het zijpaneel weergeven. Als u de agenda's van anderen wilt bekijken, gaat u naar het scherm [Agenda][4].
@@ -134,7 +134,6 @@ In Instellingen en onderhoud kunt u ook uw eigen weergaven voor het zijpaneel de
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

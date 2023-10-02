@@ -44,7 +44,7 @@ I et [dynamisk utvalg][7], kan du velge å vise bare firmaer uten å angi en per
 
 ## Dag
 
-Viser en dags agenda. Fungerer på samme måte som fanen [Dag][3] i [Dagbok][4]-skjermen
+Viser en dags agenda. Fungerer på samme måte som fanen **Dag** i [Dagbok-skjermen][4].
 
 > [!NOTE]
 > Du kan bare vise din egen dagbok i sidepanelet. For å se andres dagbøker, gå til [dagbok][4]-skjermen.
@@ -134,7 +134,6 @@ I Innstillinger og vedlikehold kan du også definere dine egne visninger for sid
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md

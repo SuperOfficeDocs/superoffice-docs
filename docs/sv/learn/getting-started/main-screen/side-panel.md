@@ -44,7 +44,7 @@ I ett [dynamiskt urval][7] kan du välja att bara visa företag, utan att ange n
 
 ## Dag
 
-Visar dagens agenda. Fungerar på samma sätt som fliken [Dag][3] i fönstret [Kalender][4]
+Visar dagens agenda. Fungerar på samma sätt som fliken **Dag** i [fönstret Kalender][4].
 
 > [!NOTE]
 > Du kan visa endast din egen kalender på sidopanelen. Om du vill visa andras dagböcker går du till [fönstret Kalender][4].
@@ -134,7 +134,6 @@ I Inställningar och underhåll kan du även definiera egna översikter för sid
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[3]: ../../../diary/learn/screen/day.md
 [4]: ../../../diary/learn/screen/index.md
 [5]: ../../../document/learn/screen/index.md
 [6]: ../../../diary/learn/screen/dialog-for-followups.md
