@@ -10,8 +10,6 @@ items:
 - name: Kalendervyer
   href: screen/index.md
   items:
-  - name: Visa
-    href: screen/view.md
   - name: Dialogrutan gruppöversikt
     href: screen/view-dialog.md
   - name: Visa dina eller andras kalendrar

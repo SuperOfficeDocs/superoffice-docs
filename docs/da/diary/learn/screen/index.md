@@ -25,7 +25,7 @@ Dagbogen består af fire forskellige faner, som du nemt kan skifte mellem ved at
 * [Fanen Dag](#day)
 * [Fanen Uge](#week)
 * [Fanen Måned](#month)
-* [Fanen Oversigt][5]
+* [Fanen Oversigt](#view)
 
 Klik på ordet **Dagbog** i navigatoren, og vælg en tidsperiode fra den viste liste.
 
@@ -77,6 +77,25 @@ Fanen **Måned** viser en måned ad gangen. Det viser ikke tiden, men opfølgnin
 
 Hvis du vil åbne **fanen Dag** for en bestemt dag, skal du klikke på overskriften/datoen.
 
+### <a id="view" />Fanen Oversigt
+
+Fanen **Vis** på skærmen Dagbog viser din egen dagbog med dit bruger-id øverst på siden.
+
+![Skærmbilledet Dagbog, fanen Vis -screenshot][img14]
+
+Fanen **Vis** bruges primært til at åbne og se oversigter over andre brugere eller ressourcer for at finde ud af, hvornår de vil være tilgængelige, før du inviterer dem til et møde ved [at linke dem til opfølgninger][5], eller oprette opfølgninger til dem.
+
+Hvis du vælger **fanen Vis** på skærmbilledet Dagbog, ![vises ikonet][img8] **Opgaveknap** .
+
+**Muligheder:**
+
+* Vælg **Rediger** for at redigere en eksisterende visning. Foruddefinerede visninger kan ikke redigeres.
+* Vælg **Ny gruppevisning** for at oprette en ny gruppevisning.
+* Vælg **Kopiér** for at oprette en kopi af den gruppevisning, du åbnede.
+* Vælg **Slet gruppevisning** for at slette den gruppevisning du åbnede.
+* Vælg **Inviter deltagere for at knytte deltagere** til en opfølgning.
+* Vælg **Hjælp** for at åbne denne brugervejledning.
+
 ## Detaljekortene i skærmbilledet Dagbog
 
 Skærmbilledet Dagbog indeholder følgende detaljekort:
@@ -88,7 +107,7 @@ Skærmbilledet Dagbog indeholder følgende detaljekort:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[5]: view.md
+[5]: ../invitation/add-participant.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
@@ -101,6 +120,7 @@ Skærmbilledet Dagbog indeholder følgende detaljekort:
 
 <!-- Referenced images -->
 [img7]: ../../../../media/icons/personal-settings-small.png
+[img8]: ../../../../media/icons/btn-menu.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
@@ -110,3 +130,4 @@ Skærmbilledet Dagbog indeholder følgende detaljekort:
 [img11]: ../../../../media/loc/en/diary/day-plan.png
 [img12]: ../../../../media/loc/en/diary/week-plan.png
 [img13]: ../../../../media/loc/en/diary/month-plan.png
+[img14]: ../../../../media/loc/en/diary/view.png

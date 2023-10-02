@@ -64,7 +64,7 @@ Derefter åbnes som standard dialogboksen **Aftale**. Du kan angive, hvilken dia
 * **For at bruge standardvarighed:** Dobbeltklik på et klokkeslæt i dagbogen eller højreklik på et klokkeslæt i dagbogen, og vælg **Ny**.
 
 > [!NOTE]
-> Hvis du opretter aftalen fra [fanen Oversigt][7], kan du vælge at få dialogboksen **Deltagere** automatisk udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
+> Hvis du opretter aftalen fra fanen **Oversigt**, kan du vælge at få dialogboksen **Deltagere** automatisk udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
 
 ### <a id="associate" />Opret aftaler for en medarbejder
 
@@ -105,7 +105,6 @@ Du kan også oprette en ny opfølgning ved at kopiere en eksisterende opfølgnin
 [3]: set-alarm.md
 [5]: invitation/add-participant.md
 [6]: screen/dialog-for-followups.md
-[7]: screen/view.md
 [8]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

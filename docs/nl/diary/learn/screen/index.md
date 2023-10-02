@@ -25,7 +25,7 @@ De agenda bestaat uit vier verschillende tabbladen die u eenvoudig kunt selecter
 * [Het tabblad Dag](#day)
 * [Het tabblad Week](#week)
 * [Het tabblad Maand](#month)
-* [Het tabblad Weergave][5]
+* [Het tabblad Weergave](#view)
 
 Klik op het woord **Agenda** in de navigator en selecteer een tijdsperiode in de lijst die wordt weergegeven.
 
@@ -77,6 +77,25 @@ In het tabblad **Maand** wordt Ã©Ã©n maand tegelijk weergegeven. Op dit tabb
 
 Om het tabblad **Dag** voor een bepaalde dag te openen, klikt u op de koptekst/datum.
 
+### <a id="view" />Het tabblad Weergave
+
+Als u op het tabblad **Weergave** klikt in het scherm Agenda, ziet u een scherm met daarin uw eigen agenda met uw gebruikers-ID boven aan de pagina.
+
+![Scherm Agenda, het tabblad Weergave -screenshot][img14]
+
+U gebruikt het tabblad **Weergave** voornamelijk voor het openen en bekijken van overzichten van andere gebruikers of bronnen. Zo kunt u vaststellen wanneer iedereen beschikbaar is voor een vergadering. Vervolgens kunt u deze personen uitnodigen door hen te [koppelen aan vervolgactiviteiten][5] of door vervolgactiviteiten voor hen te registreren.
+
+Als u het tabblad **Weergave** in het scherm Agenda selecteert, wordt de ![pictogram][img8] knop **Taak** weergegeven.
+
+**Opties:**
+
+* Selecteer **Bewerken** om een bestaande weergave te bewerken. Voorgedefinieerde weergaven kunnen niet bewerkt worden.
+* Selecteer **Nieuwe groepsweergave** om een nieuwe groepsweergave te maken.
+* Selecteer **Kopiëren** om een kopie van de geopende groepsweergave te maken.
+* Selecteer **Groepsweergave verwijderen** om de geopende groepsweergave te verwijderen.
+* Selecteer **Deelnemers uitnodigen** om deelnemers aan een vervolgactiviteit te koppelen.
+* Selecteer **Help** om deze gebruikershandleiding te openen.
+
 ## Sectietabbladen in het scherm Agenda
 
 Het scherm Agenda bevat de volgende sectietabbladen:
@@ -88,7 +107,7 @@ Het scherm Agenda bevat de volgende sectietabbladen:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[5]: view.md
+[5]: ../invitation/add-participant.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
@@ -101,6 +120,7 @@ Het scherm Agenda bevat de volgende sectietabbladen:
 
 <!-- Referenced images -->
 [img7]: ../../../../media/icons/personal-settings-small.png
+[img8]: ../../../../media/icons/btn-menu.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
@@ -110,3 +130,4 @@ Het scherm Agenda bevat de volgende sectietabbladen:
 [img11]: ../../../../media/loc/en/diary/day-plan.png
 [img12]: ../../../../media/loc/en/diary/week-plan.png
 [img13]: ../../../../media/loc/en/diary/month-plan.png
+[img14]: ../../../../media/loc/en/diary/view.png

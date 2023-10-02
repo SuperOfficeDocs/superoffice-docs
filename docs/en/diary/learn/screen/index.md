@@ -25,7 +25,7 @@ The diary consists of four different tabs you can select simply by clicking them
 * [The Day tab](#day)
 * [The Week tab](#week)
 * [The Month tab](#month)
-* [The View tab][5]
+* [The View tab](#view)
 
 Click the word **Diary** in the Navigator and select a time period from the list that appears.
 
@@ -77,6 +77,25 @@ The **Month** tab displays one month at a time. It does not display the time, bu
 
 To open the **Day** tab for a particular day, click the header/date.
 
+### <a id="view" />The View tab
+
+The **View** tab in the Diary screen shows your own diary with your user ID at the top of the page.
+
+![Diary screen, the View tab -screenshot][img14]
+
+The **View** tab is used mainly to open and look at overviews of other users or resources, to find out when they will be available, before inviting them to a meeting by [linking them to follow-ups][5], or creating follow-ups for them.
+
+If you select the **View** tab in the Diary screen, the ![icon][img8] **Task** button is displayed.
+
+**Options:**
+
+* Select **Edit** to edit an existing view. Predefined views cannot be edited.
+* Select **New group view** to create a new group view.
+* Select **Copy** to make a copy of the group view you opened.
+* Select **Delete group view** to delete the group view you opened.
+* Select **Invite participants** to link participants to a follow-up.
+* Select **Help** to open this user guide.
+
 ## Section tabs in the Diary screen
 
 The Diary screen contains the following section tabs:
@@ -88,7 +107,7 @@ The Diary screen contains the following section tabs:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[5]: view.md
+[5]: ../invitation/add-participant.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
@@ -101,6 +120,7 @@ The Diary screen contains the following section tabs:
 
 <!-- Referenced images -->
 [img7]: ../../../../media/icons/personal-settings-small.png
+[img8]: ../../../../media/icons/btn-menu.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
@@ -110,3 +130,4 @@ The Diary screen contains the following section tabs:
 [img11]: ../../../../media/loc/en/diary/day-plan.png
 [img12]: ../../../../media/loc/en/diary/week-plan.png
 [img13]: ../../../../media/loc/en/diary/month-plan.png
+[img14]: ../../../../media/loc/en/diary/view.png

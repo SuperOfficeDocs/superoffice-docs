@@ -64,7 +64,7 @@ Standardmäßig wird dann das Dialogfeld **Termin** geöffnet. Um festzulegen, w
 * **Um die Standarddauer zu verwenden:** Doppelklicken Sie auf einen Zeitraum im Kalender. Oder, klicken Sie mit der rechten Maustaste auf eine Uhrzeit im Kalender und wählen Sie **Neu**.
 
 > [!NOTE]
-> Wenn Sie den Termin von [der Registerkarte Ansicht][7] erstellen, können Sie wählen, ob das Dialogfeld **Teilnehmer** automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
+> Wenn Sie den Termin von der Registerkarte **Ansicht** erstellen, können Sie wählen, ob das Dialogfeld **Teilnehmer** automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
 
 ### <a id="associate" />Termin für einen Mitarbeiter erstellen
 
@@ -105,7 +105,6 @@ Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Fol
 [3]: set-alarm.md
 [5]: invitation/add-participant.md
 [6]: screen/dialog-for-followups.md
-[7]: screen/view.md
 [8]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

@@ -10,8 +10,6 @@ items:
 - name: Calendar views
   href: screen/index.md
   items:
-  - name: View
-    href: screen/view.md
   - name: Group view dialog
     href: screen/view-dialog.md
   - name: View your or other diaries

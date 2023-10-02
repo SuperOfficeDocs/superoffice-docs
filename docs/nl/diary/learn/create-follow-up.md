@@ -64,7 +64,7 @@ Het dialoogvenster **Afspraak** wordt standaard geopend. Als u wilt opgeven welk
 * **Om de standaardduur te gebruiken:** Dubbelklik op een tijdsinterval in de agenda, of klik met de rechtermuisknop op een tijd in de agenda en selecteer **Nieuw**.
 
 > [!NOTE]
-> Als u de afspraak maakt op [het tabblad Weergave][7], kunt u ervoor kiezen om het dialoogvenster **Deelnemers automatisch** te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
+> Als u de afspraak maakt op het tabblad **Weergave**, kunt u ervoor kiezen om het dialoogvenster **Deelnemers automatisch** te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
 
 ### <a id="associate" />Afspraak maken voor een medewerker
 
@@ -105,7 +105,6 @@ U kunt ook een nieuwe follow-up maken door een bestaande follow-up naar een ande
 [3]: set-alarm.md
 [5]: invitation/add-participant.md
 [6]: screen/dialog-for-followups.md
-[7]: screen/view.md
 [8]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

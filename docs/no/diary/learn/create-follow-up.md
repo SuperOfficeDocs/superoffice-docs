@@ -64,7 +64,7 @@ Da åpnes som standard dialogboksen **Avtale**. For å angi hvilken dialogboks s
 * **For å bruke standardvarighet:** Dobbeltklikk på et klokkeslett i dagboken eller høyreklikk på et klokkeslett i dagboken og velg **Ny**.
 
 > [!NOTE]
-> Hvis du oppretter avtalen fra [fanen Oversikt][7], kan du velge at dialogboksen **Deltakere** skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
+> Hvis du oppretter avtalen fra fanen **Oversikt**, kan du velge at dialogboksen **Deltakere** skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
 
 ### <a id="associate" />Opprette avtale for en medarbeider
 
@@ -105,7 +105,6 @@ Du kan også lage en oppfølging ved å kopiere en eksistterende oppfølging til
 [3]: set-alarm.md
 [5]: invitation/add-participant.md
 [6]: screen/dialog-for-followups.md
-[7]: screen/view.md
 [8]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

@@ -64,7 +64,7 @@ By default this opens the **Appointment** dialog. To specify which dialog should
 * **To use default duration:** double-click a time in the Diary or right-click a time in the Diary and select **New**.
 
 > [!NOTE]
-> If you create the appointment from [the View tab][7], you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
+> If you create the appointment from the **View** tab, you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
 ### <a id="associate" />Create appointment for an associate
 
@@ -105,7 +105,6 @@ You can also create a new follow-up by copying an existing follow-up to another 
 [3]: set-alarm.md
 [5]: invitation/add-participant.md
 [6]: screen/dialog-for-followups.md
-[7]: screen/view.md
 [8]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

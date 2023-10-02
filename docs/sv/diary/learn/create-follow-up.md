@@ -64,7 +64,7 @@ Då öppnas som standard dialogrutan **Bokning**. Du kan ange vilken dialogruta 
 * **För att använda standardvaraktighet:** Dubbelklicka på ett klockslag i kalendern eller högerklicka på ett klockslag i kalendern och välj **Nytt**.
 
 > [!NOTE]
-> Om du skapar bokningen på [fliken Översikt][7] kan du välja att dialogrutan **Deltagare** ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
+> Om du skapar bokningen på fliken **Översikt** kan du välja att dialogrutan **Deltagare** ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
 
 ## <a id="associate" />Skapa bokning för en medarbetare
 
@@ -105,7 +105,6 @@ Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljni
 [3]: set-alarm.md
 [5]: invitation/add-participant.md
 [6]: screen/dialog-for-followups.md
-[7]: screen/view.md
 [8]: ../../learn/basics/activity.md
 
 <!-- Referenced images -->

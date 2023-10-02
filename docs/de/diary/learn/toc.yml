@@ -10,8 +10,6 @@ items:
 - name: Kalender-Ansichten
   href: screen/index.md
   items:
-  - name: Ansicht
-    href: screen/view.md
   - name: Dialogfeld Gruppenansicht
     href: screen/view-dialog.md
   - name: Ihre oder andere Tagebücher ansehen

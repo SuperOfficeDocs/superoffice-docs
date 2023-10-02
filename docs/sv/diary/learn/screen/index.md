@@ -25,7 +25,7 @@ Kalendern består av fyra olika flikar som du enkelt kan växla mellan genom att
 * [Fliken Dag](#day)
 * [Fliken Vecka](#week)
 * [Fliken Månad](#month)
-* [Fliken Översikt][5]
+* [Fliken Översikt](#view)
 
 Klicka på ordet **Kalender** i navigatorn och välj en tidsperiod i listan som visas.
 
@@ -77,6 +77,25 @@ På fliken **Månad** visas en månad i taget. Här visas inte tiden, utan händ
 
 Om du vill öppna fliken **Dag** för en viss dag klickar du på sidhuvudet/datumet.
 
+### <a id="view" />Fliken Översikt
+
+På fliken **Översikt** i Kalender-fönstret visas din egen kalender med ditt användar-ID högst upp på sidan.
+
+![Fönstret Kalender, fliken Översikt -screenshot][img14]
+
+Fliken **Översikt** används främst för att öppna och titta på översikter över andra användare eller resurser för att ta reda på när de är tillgängliga innan du bjuder in dem till ett möte genom att [koppla dem till händelser][5] eller skapar händelser för dem.
+
+Om du väljer fliken **Översikt** i Kalender-fönstret visas ![ikon][img8] knappen **Uppgift**.
+
+**Alternativ:**
+
+* Välj **Redigera** om du vill redigera en befintlig översikt. Fördefinierade översikter kan inte redigeras.
+* Välj **Ny gruppöversikt** om du vill skapa en ny gruppöversikt.
+* Välj **Kopiera** om du vill skapa en kopia av den gruppöversikt du har öppnat.
+* Välj **Ta bort gruppöversikt** om du vill ta bort gruppöversikten du har öppnat.
+* Välj **Bjud in deltagare** om du vill koppla deltagare till en händelse.
+* Välj **Hjälp** för att öppna den här användarhandboken.
+
 ## Detaljkorten i fönstret Kalender
 
 Fönstret Kalender innehåller följande detaljkort:
@@ -88,7 +107,7 @@ Fönstret Kalender innehåller följande detaljkort:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[5]: view.md
+[5]: ../invitation/add-participant.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
@@ -101,6 +120,7 @@ Fönstret Kalender innehåller följande detaljkort:
 
 <!-- Referenced images -->
 [img7]: ../../../../media/icons/personal-settings-small.png
+[img8]: ../../../../media/icons/btn-menu.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
@@ -110,3 +130,4 @@ Fönstret Kalender innehåller följande detaljkort:
 [img11]: ../../../../media/loc/en/diary/day-plan.png
 [img12]: ../../../../media/loc/en/diary/week-plan.png
 [img13]: ../../../../media/loc/en/diary/month-plan.png
+[img14]: ../../../../media/loc/en/diary/view.png

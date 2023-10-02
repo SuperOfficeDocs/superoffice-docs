@@ -25,7 +25,7 @@ Der Kalender verfügt über vier verschiedene Registerkarten, die Sie aufrufen k
 * [Registerkarte Tag](#day)
 * [Registerkarte Woche](#week)
 * [Registerkarte Monat](#month)
-* [Registerkarte Übersicht][5]
+* [Registerkarte Übersicht](#view)
 
 Klicken Sie im Navigator auf **Kalender** und wählen Sie einen Zeitraum aus der Liste aus.
 
@@ -77,6 +77,25 @@ Auf der Registerkarte **Monat** wird jeder Monat einzeln angezeigt. Hier werden 
 
 Wenn Sie eine bestimmte **Tagesübersicht** einsehen möchten, klicken Sie auf die Überschrift/das Datum.
 
+### <a id="view" />Registerkarte Übersicht
+
+Wenn Sie in der Ansicht Kalender die Registerkarte **Ansicht**auswählen, wird ein Fenster mit Ihrem Kalender angezeigt, in dem oben Ihre Benutzer-ID angegeben ist.
+
+![Ansicht Kalender, die Registerkarte Ansicht -screenshot][img14]
+
+Die Registerkarte **Übersicht** dient hauptsächlich dazu, die Übersichten anderer Benutzer und Ressourcen zu öffnen und einzusehen. Auf diese Weise können Sie überprüfen, wann sie verfügbar sind, bevor Sie sie über eine Folgeaufgabe zu einer Besprechung einladen, indem Sie sie [Mit Folgeaufgaben verknüpfen][5] oder Folgeaufgaben für Sie erstellen.
+
+Wenn Sie die Registerkarte **Übersicht** in der Ansicht Kalender auswählen, wird die Schaltfläche ![Symbol][img8] **Aufgabe** angezeigt.
+
+**Optionen:**
+
+* Wählen Sie **Bearbeiten**, um eine bestehende Ansicht zu bearbeiten. Vordefinierte Ansichten können nicht bearbeitet werden.
+* Wählen Sie **Neue Gruppenansicht** aus, um eine neue Gruppenansicht zu erstellen.
+* Wählen Sie **Kopieren**, um eine Kopie der geöffneten Gruppenansicht zu erstellen.
+* Wählen Sie **Gruppenansicht löschen**, um eine geöffnete Gruppenansicht zu löschen.
+* Wählen Sie **Teilnehmer einladen**, um Teilnehmer mit einer Folgeaufgabe zu verknüpfen.
+* Wählen Sie **Hilfe** aus, um diesen Benutzerführer zu öffnen.
+
 ## Bereichsregisterkarten in der Ansicht Kalender
 
 Die Ansicht Kalender enthält die folgenden Bereichsregisterkarten:
@@ -88,7 +107,7 @@ Die Ansicht Kalender enthält die folgenden Bereichsregisterkarten:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[5]: view.md
+[5]: ../invitation/add-participant.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
@@ -101,6 +120,7 @@ Die Ansicht Kalender enthält die folgenden Bereichsregisterkarten:
 
 <!-- Referenced images -->
 [img7]: ../../../../media/icons/personal-settings-small.png
+[img8]: ../../../../media/icons/btn-menu.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
@@ -110,3 +130,4 @@ Die Ansicht Kalender enthält die folgenden Bereichsregisterkarten:
 [img11]: ../../../../media/loc/en/diary/day-plan.png
 [img12]: ../../../../media/loc/en/diary/week-plan.png
 [img13]: ../../../../media/loc/en/diary/month-plan.png
+[img14]: ../../../../media/loc/en/diary/view.png

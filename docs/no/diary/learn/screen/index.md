@@ -25,7 +25,7 @@ Dagboken består av fire forskjellige faner du kan velge ganske enkelt ved å kl
 * [Fanen Dag](#day)
 * [Fanen Uke](#week)
 * [Fanen Måned](#month)
-* [Fanen Oversikt][5]
+* [Fanen Oversikt](#view)
 
 Klikk på ordet **Dagbok** i navigatoren, og velg en tidsperiode fra listen som vises.
 
@@ -55,7 +55,18 @@ Oppfølgingene vises som blå felt i dagbokfanene. Hvis du holder musepekeren ov
 
 Hvis [tidssoner][14] er aktivert, kan du bytte tidssone nederst til venstre.
 
-### <a id="week" />Fanen Måned
+### <a id="week" />Fanen Uke
+
+Fanen **Uke** viser én uke om gangen. Det er én kolonne for hver ukedag og tidsintervaller langs venstre kant.
+
+![Dagbok-skjermen, fanen Uke -screenshot][img13]
+
+Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskriften som representerer den aktuelle dagen.
+
+> [!NOTE]
+> Du kan definere om søndag eller mandag skal betraktes som den første dagen i uken under ![icon][img7] **Personlige innstillinger > Preferanser**.
+
+### <a id="month" />Fanen Måned
 
 Fanen **Måned** viser én måned om gangen. Den viser ikke klokkeslettet, men oppfølginger for enkeltdager vises.
 
@@ -66,16 +77,24 @@ Fanen **Måned** viser én måned om gangen. Den viser ikke klokkeslettet, men o
 
 Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskriften/datoen.
 
-### <a id="month" />Fanen Uke
+### <a id="view" />Fanen Oversikt
 
-Fanen **Uke** viser én uke om gangen. Det er én kolonne for hver ukedag og tidsintervaller langs venstre kant.
+**Vis**-fanen på dagbokskjermbildet viser din egen dagbok med bruker-ID-en din øverst på siden.
 
-![Dagbok-skjermen, fanen Uke -screenshot][img13]
+![Dagbokskjerm, Vis-fanen -screenshot][img14]
 
-Hvis du vil åpne fanen **Dag** for en bestemt dag, kan du klikke på overskriften som representerer den aktuelle dagen.
+**Vis**-fanen brukes hovedsakelig til å åpne og se på oversikter over andre brukere eller ressurser, for å finne ut når de vil være tilgjengelige, før du inviterer dem til et møte ved å [koble dem til oppfølginger][5], eller opprette oppfølginger for dem.
 
-> [!NOTE]
-> Du kan definere om søndag eller mandag skal betraktes som den første dagen i uken under ![icon][img7] **Personlige innstillinger > Preferanser**.
+Hvis du velger **Vis**-fanen på Dagbok-skjermbildet, vises ![icon][img8] **Oppgave**-knappen.
+
+**Alternativer:**
+
+* Velg **Rediger** hvis du vil redigere en eksisterende oversikt. Du kan ikke redigere forhåndsdefinerte oversikter.
+* Velg **Ny gruppeoversikt** for å opprette en ny gruppeoversikt.
+* Velg **Kopier** for å lage en kopi av gruppeoversikten du åpnet.
+* Velg **Slett gruppeoversikt** for å slette gruppeoversikten du åpnet.
+* Velg **Inviter deltakere** for å knytte deltakere til en oppfølging.
+* Velg **Hjelp** for å åpne denne brukerhåndboken.
 
 ## Detaljkortene i Dagbok-bildet
 
@@ -88,7 +107,7 @@ Dagbokskjermen inneholder følgende detaljkort:
 [!include[Add more section tabs](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
-[5]: view.md
+[5]: ../invitation/add-participant.md
 [6]: activities-tab.md
 [7]: sales-tab.md
 [8]: ../change-completed-status.md
@@ -101,6 +120,7 @@ Dagbokskjermen inneholder følgende detaljkort:
 
 <!-- Referenced images -->
 [img7]: ../../../../media/icons/personal-settings-small.png
+[img8]: ../../../../media/icons/btn-menu.png
 [img1]: ../../../../media/icons/recurring-booking-assignment.png
 [img2]: ../../../../../common/icons/diary-participants.png
 [img3]: ../../../../../common/icons/diary-complete.png
@@ -110,3 +130,4 @@ Dagbokskjermen inneholder følgende detaljkort:
 [img11]: ../../../../media/loc/en/diary/day-plan.png
 [img12]: ../../../../media/loc/en/diary/week-plan.png
 [img13]: ../../../../media/loc/en/diary/month-plan.png
+[img14]: ../../../../media/loc/en/diary/view.png
