@@ -10,8 +10,6 @@ items:
 - name: Kalendervisninger
   href: screen/index.md
   items:
-  - name: Dialogboksen Gruppeoversigt
-    href: screen/view-dialog.md
   - name: Se dine eller andre dagbøger
     href: open.md
   - name: Opret gruppeoversigt

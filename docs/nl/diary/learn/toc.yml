@@ -10,8 +10,6 @@ items:
 - name: Kalenderweergaven
   href: screen/index.md
   items:
-  - name: Dialoogvenster groepsweergave
-    href: screen/view-dialog.md
   - name: "Uw agenda of andere agenda's bekijken"
     href: open.md
   - name: Groepsweergave maken
