@@ -35,21 +35,11 @@ Als u op de naam van een gebruiker of bron klikt, wordt deze gebruiker of bron d
 
 Wanneer u zich bevindt in de agenda van een andere gebruiker of een bron, kunt u net als in uw eigen agenda schakelen tussen de verschillende tabbladen. U kunt [vervolgactiviteiten maken][2] in de andere agenda door op deze activiteiten te klikken met de muis en vervolgens de gepaste tijdsperiodes te selecteren, mits u daarvoor de toegangsrechten hebt.
 
-## Meerdere agenda's weergeven (groepsweergave)
-
-1. Klik op het tabblad **Weergave** in het scherm Agenda.
-
-2. Klik op de keuzelijst **Weergeven** onder in het scherm Agenda. Er wordt een lijst weergegeven met alle groepen en bronnen die in uw organisatie zijn ingesteld.
-
-3. Selecteer de gewenste groep in de lijst. Het tabblad **Weergave** bevat nu de agenda's van alle gebruikers en bronnen in de geselecteerde gebruikersgroep.
-
 ## Wat wilt u nu doen?
 
-* [Groepsweergave maken][1]
 * [Afspraak maken][2]
 
 <!-- Referenced links -->
-[1]: create-view.md
 [2]: create-follow-up.md
 
 <!-- Referenced images -->

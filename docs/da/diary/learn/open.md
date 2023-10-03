@@ -35,21 +35,11 @@ Hvis du klikker på en brugers eller en ressources navn, bliver denne bruger ell
 
 Når du åbner en anden brugers eller ressources dagbog, kan du skifte mellem de forskellige faner som i din egen dagbog, og du kan [oprette opfølgninger][2] i deres dagbøger ved at klikke og vælge tidsperioder med musen, forudsat at du har adgangsrettighederne.
 
-## Se flere dagbøger (gruppevisning)
-
-1. Klik på fanen **Oversigt** i skærmbilledet Dagbog.
-
-2. Klik på rullelisten **Vis** nederst på skærmbilledet Dagbog. Dette viser en liste over alle de grupper og ressourcer, der er konfigureret i organisationen.
-
-3. Vælg den ønskede gruppe på listen. Fanen **Vis** indeholder nu dagbøgerne for alle brugere og ressourcer i den valgte brugergruppe.
-
 ## Hvad vil du foretage dig nu?
 
-* [Opret gruppeoversigt][1]
 * [Opret aftale][2]
 
 <!-- Referenced links -->
-[1]: create-view.md
 [2]: create-follow-up.md
 
 <!-- Referenced images -->

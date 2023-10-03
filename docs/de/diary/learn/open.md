@@ -35,21 +35,11 @@ Wenn Sie auf den Namen eines Benutzers oder einer Ressource klicken, wird dieser
 
 Wenn Sie den Kalender eines anderen Benutzers bzw. einer anderen Ressource öffnen, können Sie zwischen den verschiedenen Registerkarten wie in Ihrem eigenen Kalender wechseln und in den Kalendern durch Klicken und Wählen von Zeiträumen mit der Maus [Folgeaufgaben erstellen][2], sofern Sie über die Rechte verfügen.
 
-## Mehrere Kalender anzeigen (Gruppenansicht)
-
-1. Klicken Sie in der Ansicht Kalender auf die Registerkarte Anzeigen.
-
-2. Klicken Sie auf das Listenfeld **Anzeigen** unten in der Ansicht Kalender. Daraufhin wird eine Liste aller Gruppen und Ressourcen in Ihrer Firma angezeigt.
-
-3. Wählen Sie die gewünschte Gruppe aus. Die Registerkarte **Übersicht** enthält nun die Kalender aller Benutzer der ausgewählten Gruppe.
-
 ## Was möchten Sie jetzt tun?
 
-* [Gruppenansicht erstellen][1]
 * [Termin erstellen][2]
 
 <!-- Referenced links -->
-[1]: create-view.md
 [2]: create-follow-up.md
 
 <!-- Referenced images -->

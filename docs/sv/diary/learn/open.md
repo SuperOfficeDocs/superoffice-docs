@@ -35,21 +35,11 @@ Om du klickar på namnet för en användare eller resurs blir denne ägare av ka
 
 När du öppnar en annan användares eller resurs kalender kan du växla mellan de olika flikarna på samma sätt som i din egen kalender, och du kan [skapa händelser][2] i deras kalendrar genom att klicka och välja tidsperioder med musen, förutsatt att du har behörighet.
 
-## Visa flera kalendrar (gruppöversikt)
-
-1. Klicka på fliken **Översikt** i fönstret Kalender.
-
-2. Klicka på listrutan **Visa** längst ned i Kalender-fönstret. En lista visas över alla grupper och resurser som har skapats i företaget.
-
-3. Välj önskad grupp i listan. På fliken **Översikt** visas nu kalendrarna för alla användare och resurser i den valda användargruppen.
-
 ## Vad vill du göra nu?
 
-* [Skapa gruppöversikt][1]
 * [Skapa bokning][2]
 
 <!-- Referenced links -->
-[1]: create-view.md
 [2]: create-follow-up.md
 
 <!-- Referenced images -->

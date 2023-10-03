@@ -35,21 +35,11 @@ If you click on the name of a user or resource, this user or resource becomes th
 
 When you open the diary of another user or resource, you can switch between the different tabs as in your own diary, and you can [create follow-ups][2] in their diaries by clicking and selecting time periods with the mouse, provided that you have the access rights.
 
-## View multiple diaries (group view)
-
-1. Click the **View** tab in the Diary screen.
-
-2. Click the **Show** list box at the bottom of the Diary screen. This brings up a list of all the groups and resources that are set up in your organization.
-
-3. Select the required group from the list. The **View** tab now contains the diaries of all the users and resources in the selected user group.
-
 ## What would you like to do now?
 
-* [Create group view][1]
 * [Create appointment][2]
 
 <!-- Referenced links -->
-[1]: create-view.md
 [2]: create-follow-up.md
 
 <!-- Referenced images -->

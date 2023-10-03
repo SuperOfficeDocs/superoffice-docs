@@ -1,19 +1,27 @@
 ---
 uid: help-da-diary-group-view
-title: Oprette dagbogsvisninger
-description: Oprette dagbogsvisninger; Ny gruppeoversigt
-author: SuperOffice RnD
-so.date: 10.02.2023
-keywords: dagbog, opfølgning
+title: Gruppevisning
+description: gruppevisning; Oprette dagbogsvisninger; Ny gruppeoversigt
+author: Bergfrid Dias
+so.date: 10.03.2023
+keywords: dagbog, opfølgning, gruppevisning
 so.topic: howto
 language: da
 ---
 
-# Opret en gruppevisning
+# Gruppevisning
 
 Du kan vælge brugere og ressourcer, som du vil se dagbogen for, og gemme oversigterne i listen **Vis** under et navn du selv vælger.
 
-## Trin
+## Se flere dagbøger
+
+1. Klik på fanen **Oversigt** i skærmbilledet Dagbog.
+
+2. Klik på rullelisten **Vis** nederst på skærmbilledet Dagbog. Dette viser en liste over alle de grupper og ressourcer, der er konfigureret i organisationen.
+
+3. Vælg den ønskede gruppe på listen. Fanen **Vis** indeholder nu dagbøgerne for alle brugere og ressourcer i den valgte brugergruppe.
+
+## Opret en gruppevisning
 
 1. Klik på fanen **Oversigt** i skærmbilledet Dagbog.
 
@@ -94,11 +102,9 @@ Hvis du vil redigere og gemme en forhåndsdefineret liste, skal du vælge **Kopi
 
 ## Relateret indhold
 
-* [Visning af gruppeoversigter for en hel brugergruppe][2]
 * [Oprettelse af aftaler for andre medarbejdere][4]
 
 <!-- Referenced links -->
-[2]: open.md
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->

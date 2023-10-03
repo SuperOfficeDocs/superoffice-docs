@@ -1,19 +1,27 @@
 ---
 uid: help-nl-diary-group-view
-title: Agendaweergaven maken
-description: Agendaweergaven maken; Het dialoogvenster Nieuwe groepsweergave
-author: SuperOffice RnD
-so.date: 10.02.2023
-keywords: agenda, vervolgactiviteit
+title: Groepsweergave
+description: Groepsweergave; Agendaweergaven maken; Het dialoogvenster Nieuwe groepsweergave
+author: Bergfrid Dias
+so.date: 10.03.2023
+keywords: agenda, vervolgactiviteit, groepsweergave
 so.topic: howto
 language: nl
 ---
 
-# Een groepsweergave maken
+# Groepsweergave
 
 U kunt gebruikers en bronnen weergeven waarvan u de agenda's wilt zien, waarna u de weergaven in de keuzelijst **Weergeven** kunt opslaan onder de naam van uw keuze.
 
-## Stappen
+## Meerdere agenda's weergeven
+
+1. Klik op het tabblad **Weergave** in het scherm Agenda.
+
+2. Klik op de keuzelijst **Weergeven** onder in het scherm Agenda. Er wordt een lijst weergegeven met alle groepen en bronnen die in uw organisatie zijn ingesteld.
+
+3. Selecteer de gewenste groep in de lijst. Het tabblad **Weergave** bevat nu de agenda's van alle gebruikers en bronnen in de geselecteerde gebruikersgroep.
+
+## Een groepsweergave maken
 
 1. Klik op het tabblad **Weergave** in het scherm Agenda.
 
@@ -94,11 +102,9 @@ Als u een vooraf gedefinieerde groepsweergave wilt bewerken en opslaan, selectee
 
 ## Gerelateerde inhoud
 
-* [Groepsweergaven voor een gebruikersgroep bekijken][2]
 * [Afspraken maken voor andere medewerkers][4]
 
 <!-- Referenced links -->
-[2]: open.md
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->

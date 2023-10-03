@@ -1,19 +1,27 @@
 ---
 uid: help-no-diary-group-view
-title: Opprette dagbokvisninger
-description: Opprette dagbokvisninger; Dialogboksen Ny gruppeoversikt
-author: SuperOffice RnD
-so.date: 10.02.2023
-keywords: dagbok, oppfølging
+title: Gruppeoversikt
+description: Gruppeoversikt; Opprette dagbokvisninger; Dialogboksen Ny gruppeoversikt
+author: Bergfrid Dias
+so.date: 10.03.2023
+keywords: dagbok, oppfølging, gruppeoversikt
 so.topic: howto
 language: no
 ---
 
-# Opprette en gruppeoversikt
+# Gruppeoversikt
 
 Du kan vise brukere og ressurser som du vil se dagbøkene til, og lagre oversiktene i listeboksen **Vis** med navn du velger selv.
 
-## Trinn
+## Vise flere dagbøker
+
+1. Klikk på **Vis**-fanen i Dagbok-bildet.
+
+2. Klikk på listeboksen **Vis** nederst i Dagbok-bildet. Da får du frem en listeboks med alle gruppene og ressursene som er satt opp i din organisasjon.
+
+3. Velg ønsket gruppe fra listen. Fanen **Oversikt** inneholder nå dagbøkene til alle personene i den valgte brukergruppen.
+
+## Opprette en gruppeoversikt
 
 1. Klikk på **Vis**-fanen i Dagbok-bildet.
 
@@ -94,11 +102,9 @@ For å redigere og lagre en forhåndsdefinert gruppeoversikt velger du alternati
 
 ## Aktuelt innhold
 
-* [Vise gruppeoversikter for en brukergruppe][2]
 * [Opprett avtaler for andre medarbeidere][4]
 
 <!-- Referenced links -->
-[2]: open.md
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->

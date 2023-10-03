@@ -1,19 +1,27 @@
 ---
 uid: help-en-diary-group-view
-title: Creating diary views
-description: Creating diary views; The New group view dialog
-author: SuperOffice RnD
-so.date: 10.02.2023
-keywords: diary, follow-up
+title: Group view
+description: The Group view; How to creating diary views; The New group view dialog
+author: Bergfrid Dias
+so.date: 10.03.2023
+keywords: diary, follow-up, group view
 so.topic: howto
 language: en
 ---
 
-# Create a group view
+# Group view
 
 You can choose users and resources whose diaries you want to see and save the views in the **View** list box with a name of your choosing.
 
-## Steps
+## View multiple diaries
+
+1. Click the **View** tab in the Diary screen.
+
+2. Click the **Show** list box at the bottom of the Diary screen. This brings up a list of all the groups and resources that are set up in your organization.
+
+3. Select the required group from the list. The **View** tab now contains the diaries of all the users and resources in the selected user group.
+
+## Create a group view
 
 1. Click the **View** tab in the Diary screen.
 
@@ -94,11 +102,9 @@ To edit and save a predefined group view, select the **Copy** option and save th
 
 ## Related content
 
-* [View group views for a user group][2]
 * [Create appointments for associates][4]
 
 <!-- Referenced links -->
-[2]: open.md
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->

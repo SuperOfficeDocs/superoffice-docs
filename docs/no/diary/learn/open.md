@@ -35,21 +35,11 @@ Hvis du klikker på navnet til en bruker eller ressurs, blir denne brukeren elle
 
 Når du er inne i dagboken til en annen bruker eller ressurs, kan du skifte mellom de ulike fanene som i din egen dagbok, og du kan [opprette oppfølginger][2] i deres dagbøker ved å klikke og velge tidsperioder med musen, hvis du har rettigheter til dette.
 
-## Vise flere dagbøker (gruppeoversikt)
-
-1. Klikk på **Vis**-fanen i Dagbok-bildet.
-
-2. Klikk på listeboksen **Vis** nederst i Dagbok-bildet. Da får du frem en listeboks med alle gruppene og ressursene som er satt opp i din organisasjon.
-
-3. Velg ønsket gruppe fra listen. Fanen **Oversikt** inneholder nå dagbøkene til alle personene i den valgte brukergruppen.
-
 ## Hva vil du gjøre nå?
 
-* [Opprette gruppeoversikt][1]
 * [Opprette avtale][2]
 
 <!-- Referenced links -->
-[1]: create-view.md
 [2]: create-follow-up.md
 
 <!-- Referenced images -->

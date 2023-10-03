@@ -1,19 +1,27 @@
 ---
 uid: help-de-diary-group-view
-title: Kalenderansichten erstellen
-description: Kalenderansichten erstellen; Das Dialogfeld Neue Gruppenansicht
-author: SuperOffice RnD
-so.date: 10.02.2023
-keywords: Kalender, Folgeaufgabe
+title: Gruppenansicht
+description: Gruppenansicht; Kalenderansichten erstellen; Das Dialogfeld Neue Gruppenansicht
+author: Bergfrid Dias
+so.date: 10.03.2023
+keywords: Kalender, Folgeaufgabe, Gruppenansicht
 so.topic: howto
 language: de
 ---
 
-# Gruppenansicht erstellen
+# Gruppenansicht
 
 Sie können Benutzer und Ressourcen aufrufen, deren Kalender Sie einsehen möchten, und die Anzeigen mit einem Namen Ihrer Wahl im Listenfeld **Anzeigen** speichern.
 
-## Schritte
+## Mehrere Kalender anzeigen
+
+1. Klicken Sie in der Ansicht Kalender auf die Registerkarte Anzeigen.
+
+2. Klicken Sie auf das Listenfeld **Anzeigen** unten in der Ansicht Kalender. Daraufhin wird eine Liste aller Gruppen und Ressourcen in Ihrer Firma angezeigt.
+
+3. Wählen Sie die gewünschte Gruppe aus. Die Registerkarte **Übersicht** enthält nun die Kalender aller Benutzer der ausgewählten Gruppe.
+
+## Gruppenansicht erstellen
 
 1. Klicken Sie in der Ansicht Kalender auf die Registerkarte Anzeigen.
 
@@ -94,11 +102,9 @@ Um eine vordefinierte Gruppenansicht zu bearbeiten und zu speichern möchten, w�
 
 ## Zugehörige Inhalte
 
-* [Gruppenansichten für eine Benutzergruppe anzeigen][2]
 * [Termine für Mitarbeiter erstellen][4]
 
 <!-- Referenced links -->
-[2]: open.md
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->

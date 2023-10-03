@@ -1,19 +1,27 @@
 ---
 uid: help-sv-diary-group-view
-title: Skapa kalenderöversikter
-description: Skapa kalenderöversikter; Dialogrutan Ny gruppöversikt
-author: SuperOffice RnD
-so.date: 10.02.2023
-keywords: kalender, händelse
+title: Gruppöversikt
+description: Gruppöversikt; Skapa kalenderöversikter; Dialogrutan Ny gruppöversikt
+author: Bergfrid Dias
+so.date: 10.03.2023
+keywords: kalender, händelse, gruppöversikt
 so.topic: howto
 language: sv
 ---
 
-# Skapa en gruppöversikt
+# Gruppöversikt
 
 Du kan välja kalendrar för andra användare och resurser, och du kan spara dessa översikter i listrutan **Visa** med namn som du väljer själv.
 
-## Steg
+## Visa flera kalendrar
+
+1. Klicka på fliken **Översikt** i fönstret Kalender.
+
+2. Klicka på listrutan **Visa** längst ned i Kalender-fönstret. En lista visas över alla grupper och resurser som har skapats i företaget.
+
+3. Välj önskad grupp i listan. På fliken **Översikt** visas nu kalendrarna för alla användare och resurser i den valda användargruppen.
+
+## Skapa en gruppöversikt
 
 1. Klicka på fliken **Översikt** i fönstret Kalender.
 
@@ -94,11 +102,9 @@ Om du vill redigera och spara en fördefinierad gruppöversikt väljer du altern
 
 ## Relaterat innehåll
 
-* [Visa gruppöversikter för en användargrupp][2]
 * [Skapa bokningar för andra medarbetare][4]
 
 <!-- Referenced links -->
-[2]: open.md
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->
