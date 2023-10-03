@@ -16,7 +16,7 @@ so.client: online
 
 * SuperOffice Online tenant
   * AAD Authentication of SuperOffice Admin. For more info, see [IDP authentication][2].
-  * Soon you will not be able to continue to set up the integration [until ALL users with user plan use IDP](#to-use-it).
+  * You will not be able to continue to set up the integration [until ALL users with user plan use IDP](#to-use-it).
 
 * Microsoft 365 for business subscription
   * If you don't have a Microsoft 365 subscription, you have to sign up for one at Microsoft.
