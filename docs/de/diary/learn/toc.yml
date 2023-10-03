@@ -12,8 +12,8 @@ items:
   items:
   - name: Ihre oder andere Tagebücher ansehen
     href: open.md
-  - name: Gruppenansicht erstellen
-    href: create-view.md
+  - name: Gruppenansicht
+    href: group-view.md
 - name: Bereichsregisterkarten
   topicHref: screen/activities-tab.md
   items:

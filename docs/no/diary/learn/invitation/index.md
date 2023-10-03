@@ -45,7 +45,7 @@ Oppfølgingen vises på detaljkortet **Aktiviteter** for det aktuelle firmaet.
 * [Motta invitasjoner][3]
 
 <!-- Referenced links -->
-[1]: ../create-view.md
+[1]: ../group-view.md
 [2]: add-participant.md
 [3]: receive.md
 

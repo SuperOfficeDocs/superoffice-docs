@@ -12,8 +12,8 @@ items:
   items:
   - name: View your or other diaries
     href: open.md
-  - name: Create group view
-    href: create-view.md
+  - name: Group view
+    href: group-view.md
 - name: Section tabs
   topicHref: screen/activities-tab.md
   items:

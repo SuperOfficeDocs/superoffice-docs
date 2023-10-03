@@ -12,8 +12,8 @@ items:
   items:
   - name: Se dine eller andre dagbøger
     href: open.md
-  - name: Opret gruppeoversigt
-    href: create-view.md
+  - name: Gruppeoversigt
+    href: group-view.md
 - name: Faner for afsnit
   topicHref: screen/activities-tab.md
   items:

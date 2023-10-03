@@ -12,8 +12,8 @@ items:
   items:
   - name: Visa dina eller andras kalendrar
     href: open.md
-  - name: Skapa gruppöversikt
-    href: create-view.md
+  - name: Gruppöversikt
+    href: group-view.md
 - name: Detaljkort
   topicHref: screen/activities-tab.md
   items:

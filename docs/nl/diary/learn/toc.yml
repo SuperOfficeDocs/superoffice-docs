@@ -12,8 +12,8 @@ items:
   items:
   - name: "Uw agenda of andere agenda's bekijken"
     href: open.md
-  - name: Groepsweergave maken
-    href: create-view.md
+  - name: Groepsweergave
+    href: group-view.md
 - name: Sectietabbladen
   topicHref: screen/activities-tab.md
   items:

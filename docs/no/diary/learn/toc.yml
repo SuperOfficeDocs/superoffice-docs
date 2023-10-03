@@ -12,8 +12,8 @@ items:
   items:
   - name: Se dine eller andre dagbøker
     href: open.md
-  - name: Opprette gruppeoversikt
-    href: create-view.md
+  - name: Gruppeoversikt
+    href: group-view.md
 - name: Detaljkort
   topicHref: screen/activities-tab.md
   items:

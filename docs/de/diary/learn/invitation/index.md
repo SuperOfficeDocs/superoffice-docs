@@ -45,7 +45,7 @@ Die Folgeaufgabe wird auf der Bereichsregisterkarte **Aktivitäten** der betreff
 * [Einladungen empfangen][3]
 
 <!-- Referenced links -->
-[1]: ../create-view.md
+[1]: ../group-view.md
 [2]: add-participant.md
 [3]: receive.md
 
