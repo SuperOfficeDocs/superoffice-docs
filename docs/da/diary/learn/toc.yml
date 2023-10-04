@@ -1,8 +1,6 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Naviger i skærmbilledet Dagbog
-  href: screen/navigate-in-diary.md
 - name: Dialogboks til opfølgning
   href: screen/dialog-for-followups.md
 - name: Aftale, samtale, opgave

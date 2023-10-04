@@ -9,15 +9,7 @@ so.topic: howto
 language: da
 ---
 
-# Se dagbog
-
-Dagbogen i SuperOffice CRM er grundlæggende en personlig dagbog. Dit navn vises øverst til højre på skærmen Dagbog.
-
-Du kan åbne en anden brugers dagbog eller dagbogen for en tilgængelig ressource for f.eks. at se, hvornår de er ledige, eller for at oprette opfølgninger direkte til dem.
-
-Du kan også få vist dagbøger for andre brugere og ressourcer i organisationen ved at få vist gruppevisninger i din dagbog.
-
-## Visning af en anden dagbog
+# Visning af en anden dagbog
 
 Hvis du klikker på en brugers eller en ressources navn, bliver denne bruger eller ressource ejer af dagbogen, og du kommer direkte til fanen **Dag** den pågældende bruger eller ressource. Når du vil gå tilbage til din egen dagbog, vælger du dit navn på dagbogsejerlisten.
 

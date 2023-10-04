@@ -9,15 +9,7 @@ so.topic: howto
 language: nl
 ---
 
-# Agenda weergeven
-
-De agenda in CRM 5 is in feite een persoonlijke agenda. Uw naam staat rechtsboven in het scherm Agenda.
-
-U kunt ook de agenda van een andere gebruiker openen of de agenda voor een beschikbare bron, bijvoorbeeld om te kijken wanneer iemand tijd heeft of als u rechtstreeks vervolgactiviteiten wilt registreren voor een gebruiker.
-
-U kunt ook de agenda's van andere gebruikers en bronnen in uw organisatie bekijken door groepsweergaven in uw agenda weer te geven.
-
-## Een andere agenda weergeven
+# Een andere agenda weergeven
 
 Als u op de naam van een gebruiker of bron klikt, wordt deze gebruiker of bron de eigenaar van de agenda en gaat u rechtstreeks naar het tabblad **Dag** voor deze gebruiker of bron. Wanneer u terug wilt gaan naar uw eigen agenda, kiest u uw naam in de lijst met agenda-eigenaars.
 

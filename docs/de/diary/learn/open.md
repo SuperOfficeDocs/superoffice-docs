@@ -8,16 +8,7 @@ keywords: Kalender, Folgeaufgabe
 so.topic: howto
 language: de
 ---
-
-# Kalender anzeigen
-
-Der Kalender in SuperOffice CRM ist in erster Linie ein persönlicher Kalender. Oben rechts in der Ansicht Kalender wird Ihr Name angezeigt.
-
-Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öffnen, um zum Beispiel ihre Verfügbarkeit zu überprüfen oder Folgeaufgaben für sie zu erstellen.
-
-Sie können auch die Kalender anderer Benutzer und Ressourcen in Ihrer Firma anzeigen, indem Sie Gruppenansichten in Ihrem eigenen Kalender aufrufen.
-
-## Anderen Kalender anzeigen
+# Anderen Kalender anzeigen
 
 Wenn Sie auf den Namen eines Benutzers oder einer Ressource klicken, wird dieser Benutzer bzw. diese Ressource zum Besitzer des Kalenders, und Sie gelangen direkt zur Registerkarte **Tag** des Benutzers bzw. der Ressource. Wenn Sie zu Ihrem eigenen Kalender zurückkehren möchten, wählen Sie Ihren Namen in der Liste der Kalendereigentümer.
 

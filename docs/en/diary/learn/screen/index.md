@@ -27,7 +27,7 @@ The diary consists of four different tabs you can select simply by clicking them
 * [The Month tab](#month)
 * [The View tab](#view)
 
-Click the word **Diary** in the Navigator and select a time period from the list that appears.
+Click the word **Diary** in the Navigator and select a time period from the list.
 
 You can [create, edit, move, and delete follow-ups][13] directly in these tabs. Click and drag a follow-up to reschedule it.
 

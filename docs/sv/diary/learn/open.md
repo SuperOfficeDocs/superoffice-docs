@@ -9,15 +9,7 @@ so.topic: howto
 language: sv
 ---
 
-# Visa kalender
-
-Kalendern i SuperOffice CRM är i grunden en personlig kalender. Ditt namn visas längst upp till höger i Kalender-fönstret.
-
-Du kan öppna en annan användares kalender, eller kalendern för en tillgänglig resurs, för att se när de är lediga, till exempel, eller för att skapa händelser för dem direkt.
-
-Du kan också visa kalendrar för andra användare och resurser i företaget genom att visa gruppvyer i din kalender.
-
-## Visa en annan kalender
+# Visa en annan kalender
 
 Om du klickar på namnet för en användare eller resurs blir denne ägare av kalendern, vilket innebär att fliken **Dag** för den användaren eller resursen visas. Du går tillbaka till din egen kalender genom att välja ditt namn i listan över kalenderägare.
 

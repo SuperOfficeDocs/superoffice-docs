@@ -2,8 +2,8 @@
 uid: help-sv-diary
 title: Kalender
 description: SuperOffice-kalendern är en central funktion i ditt CRM-system. De här guiderna förklarar hur du använder kalendern.
-author: SuperOffice RnD
-so.date: 09.29.2023
+author: Bergfrid Dias
+so.date: 10.04.2023
 keywords: kalender
 so.topic: concept
 language: sv
@@ -13,13 +13,31 @@ language: sv
 
 Kalendern i SuperOffice CRM används på samma sätt som en pappersalmanacka och har separata sidor för varje dag, vecka och månad.
 
-![Håll koll på alla dina bokningar och uppgifter genom att lägga in dem i kalendern -screenshot][img1]
+![Håll koll på alla dina bokningar och uppgifter genom att lägga in dem i kalendern -screenshot][img3]
 
-Kalendern är ett användbart hjälpmedel vid planering och utförande av olika typer av uppgifter. Du kan visa, redigera och ta bort [aktiviteter][16] i kalendern.
-
-Dessutom kan du få du en [lista över försäljningarna][13] du ska jobba med på detaljkortet **Försäljning** i Kalender-fönstret.
+Kalendern är ett användbart hjälpmedel vid planering och utförande av olika typer av uppgifter. Du kan visa, redigera och ta bort [aktiviteter][16] i kalendern. Dessutom kan du få du en [lista över försäljningarna][13] du ska jobba med på detaljkortet **Försäljning** i Kalender-fönstret.
 
 Regelbunden användning av kalendern hjälper dig att automatiskt koppla och dela bokningar och aktiviteter kopplade till en kontakt eller ett företag så att du och ditt team enkelt kan hålla koll på vad som händer och arbeta produktivt.
+
+## <a id="open" />Visa kalender
+
+För at gå til kalendern, klicka på ordet **Kalender** i navigatorn och välj en tidsperiod i listan som visas, eller klicka på **Idag** eller **Innevarande vecka** för att gå till aktuell dag eller vecka. Ditt namn visas längst upp till höger i Kalender-fönstret.
+
+Du kan öppna en annan användares kalender, eller kalendern för en tillgänglig resurs, för att se när de är lediga, till exempel, eller för att skapa händelser för dem direkt.
+
+Du kan också visa kalendrar för andra användare och resurser i företaget genom att visa [gruppvyer][2] i din kalender.
+
+## <a id="nav" />Navigera i fönstret Kalender
+
+Kalendern består av [fyra flikar][24]: Flikarna **Dag**, **Vecka**, **Månad** och **Översikt**. Du kan enkelt växla mellan dessa översikter genom att klicka på flikarna högst upp i Kalender-fönstret. Aktuell dag, vecka eller månad visas överst på sidan beroende på vilken flik du är på.
+
+* På flikarna **Dag**, **Vecka** och **Månad** kan du klicka på **Idag** eller **Innevarande vecka** för att gå till aktuell dag eller vecka.
+
+* Klicka på en månad, ett veckonummer eller en dag i kalendern för att gå direkt till en av flikarna.
+
+* Klicka på knapparna för föregående/nästa ![ikon][img2] ![ikon][img1] längst ner till höger i kalendern.
+
+* Klicka på dag eller vecka (om den är öppen) i dag-, vecko- eller månadsöversikten i sidopanelen.
 
 ## Arbeta med händelser
 
@@ -38,7 +56,6 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 
 ## Vad vill du göra nu?
 
-* [Navigera i fönstret Kalender][14]
 * [Välj tidszon][15]
 * [Redigera händelse][6]
 * [Ställa in alarm för händelser][7]
@@ -50,13 +67,12 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 * [Flytta händelser][19]
 * [Ändra sluttid för en händelse][20]
 * [Kopiera en händelse till kalendern][21]
-* [Skriva ut][5]
 * [Ta bort händelse][17]
 * [Videomöten][23]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
-[5]: print.md
+[2]: group-view.md
 [6]: edit-follow-up.md
 [7]: set-alarm.md
 [8]: send-as-email.md
@@ -64,7 +80,6 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 [11]: invitation/index.md
 [12]: linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
-[14]: screen/navigate-in-diary.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
 [17]: edit-follow-up.md#delete
@@ -73,7 +88,10 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 [20]: edit-follow-up.md#change-end
 [21]: create-follow-up.md#copy
 [22]: screen/dialog-for-followups.md
+[24]: screen/index.md
 [23]: video-meetings.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/diary/diary.png
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../../../media/loc/en/diary/diary.png

@@ -9,15 +9,7 @@ so.topic: howto
 language: no
 ---
 
-# Vise dagbok
-
-Dagboken i SuperOffice CRM er i utgangspunktet personlig. Ditt eget navn vises øverst til høyre i Dagbok-bildet.
-
-Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs, for eksempel hvis du ønsker å se når de har ledig tid, eller hvis du vil opprette oppfølginger for dem direkte.
-
-Du kan også vise dagbøkene til andre brukere og ressurser i organisasjonen ved å vise gruppeoversikter i dagboken.
-
-## Vise en annen dagbok
+# Vise en annen dagbok
 
 Hvis du klikker på navnet til en bruker eller ressurs, blir denne brukeren eller ressursen eieren av dagboken, og du kommer rett til fanen **Dag** for denne brukeren eller ressursen. For å gå tilbake til din egen dagbok velger du navnet ditt fra dagbokeierlisten.
 

@@ -1,8 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Navigera i fönstret Kalender
-  href: screen/navigate-in-diary.md
 - name: Dialogrutan för händelser
   href: screen/dialog-for-followups.md
 - name: Bokning, samtal, uppgift

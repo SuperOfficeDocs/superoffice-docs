@@ -1,8 +1,6 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Navigeren in het scherm Agenda
-  href: screen/navigate-in-diary.md
 - name: Dialoogvenster voor vervolgactiviteit
   href: screen/dialog-for-followups.md
 - name: Afspraak, telefoongesprek, taken

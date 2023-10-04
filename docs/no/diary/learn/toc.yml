@@ -1,8 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Navigere i Dagbok-bildet
-  href: screen/navigate-in-diary.md
 - name: Dialog for oppfølging
   href: screen/dialog-for-followups.md
 - name: Avtale, telefonsamtale, oppgave
