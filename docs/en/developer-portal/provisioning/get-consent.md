@@ -3,7 +3,7 @@ uid: tenant-get-consent
 title: Get consent to access a customer's tenant
 description: How to obtain consent to access a customer's tenant
 author: Margrethe Romnes
-so.date: 09.15.2023
+so.date: 10.04.2023
 keywords: tenant, consent, approve
 so.topic: howto
 so.envir: cloud
