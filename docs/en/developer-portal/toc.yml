@@ -5,6 +5,8 @@ items:
   items:
   - name: Introduction to Developer Portal
     href: about.md
+  - name: Dashboard and widgets
+    href: widgets/index.md
   - name: Getting started
     href: getting-started/index.md
     expanded: true
@@ -17,9 +19,6 @@ items:
       href: getting-started/user-contexts.md
     - name: What API to use?
       href: getting-started/what-api-to-use.md
-
-  - name: Dashboard and widgets
-    href: widgets/index.md
 
   - name: Create a new app
     href: create-app/toc.yml
