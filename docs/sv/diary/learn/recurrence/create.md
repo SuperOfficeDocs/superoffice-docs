@@ -59,12 +59,12 @@ I dialogrutan **Bokning**, **Uppgift** eller **Samtal** visar texten bredvid fä
 ## Vad vill du veta mer om?
 
 * [Redigera återkommande händelser][1]
-* [Få en förfrågan][2]
+* [Acceptera eller tacka nej till förfrågningar][2]
 * [Stoppa återkommande händelser][3]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
+[2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md
 [5]: ../screen/dialog-for-followups.md

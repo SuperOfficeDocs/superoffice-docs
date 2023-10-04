@@ -42,12 +42,10 @@ De vervolgactiviteit wordt op het sectietabblad **Activiteiten** voor het betref
 
 * [Deelnemers toevoegen aan vervolgactiviteiten][2]
 * [Groepsweergaven maken][1]
-* [Uitnodigingen ontvangen][3]
 
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-participant.md
-[3]: receive.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png

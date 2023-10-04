@@ -1,23 +1,27 @@
 ---
-uid: help-da-invitation-receive
-title: Modtagelse af invitationer
-description: Modtagelse af invitationer
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: dagbog, opfølgning
+uid: help-da-invitation-accept
+title: "Opfølgninger, du er inviteret til"
+description: "Visning af opfølgninger, du er inviteret til; Accepter eller afvis invitationer"
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: dagbog, opfølgning, invitation
 so.topic: howto
 language: da
 ---
 
-# Modtagelse af invitationer
+# Opfølgninger du er inviteret til
+
+Når du skal vise en opfølgning, som du ejer selv, åbnes den sædvanlige dialogboks **Aftale**, **Opgave** eller **Samtale**. Du kan imidlertid ikke foretage ændringer i andres invitationer og dermed heller ikke tilføje deltagere. Derfor er knappen **Tilføj** på fanen **Deltagere** deaktiveret.
+
+* Indtil du accepterer eller afviser invitationen, har dialogboksen to ekstra knapper: **Accepter** og **Afvis**. Når du accepterer, forsvinder knappen.
+
+* Da du ikke selv har oprettet aftalen, opgaven eller telefonopkaldet, kan du kun ændre felterne **Prioritet**, **Alarm**, og **Fuldført** . Alle andre indstillinger er deaktiveret.
 
 ![ikon][img1]
 
 Deltagere, der er blevet inviteret til en opfølgning, modtager en advarsel på toplinjen. Klik på ikonet **Advarsler** for at vise invitationen/invitationerne.
 
 ![Modtag invitationer -screenshot][img2]
-
- [Dialogboks til opfølgninger][1] er opdelt i to:
 
 * Øverst vises en liste over dine invitationer med blandt andet status og ikoner.
 
@@ -84,10 +88,6 @@ Klik på **Luk** for at lukke dialogboksen.
 
 * Invitationer gemmes helt til dagen efter, at opfølgningen er markeret som udført, så deltagerne kan få besked om ændringer.
 
-* Hvis du modtager en invitation til et tidspunkt, hvor du allerede er optaget, vises et udråbstegn ![ikon][img6] i beskrivelsen af opfølgningen i dialogboksen **Invitationer**. Dette henleder din opmærksomhed på konflikten.
-
-<!-- Referenced links -->
-[1]: ../screen/dialog-for-followups.md
 [3]: ../recurrence/create.md
 [4]: response.md
 

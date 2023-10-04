@@ -21,13 +21,11 @@ In het dialoogvenster **Herhalende vervolgactiviteiten** hebt u twee opties:
 ## Wat wilt u nu doen?
 
 * [Herhalende vervolgactiviteit maken][3]
-* [Uitnodigingen ontvangen][4]
 * [Herhalende vervolgactiviteit stoppen][5]
 
 <!-- Referenced links -->
 [2]: ../edit-follow-up.md
 [3]: create.md
-[4]: ../invitation/receive.md
 [5]: stop.md
 
 <!-- Referenced images -->

@@ -5,9 +5,7 @@ items:
     href: add-participant.md
   - name: Edit or delete invitation
     href: update.md
-  - name: Show follow-ups you are invited to
-    href: follow-ups-you-are-invited-to.md
-  - name: Receive invitations
-    href: receive.md
+  - name: Accept or decline
+    href: accept-decline.md
   - name: Handle response to invitations
     href: response.md

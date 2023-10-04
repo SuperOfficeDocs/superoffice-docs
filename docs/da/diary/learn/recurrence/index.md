@@ -53,11 +53,9 @@ Hvis ingen af mønstrene fungerer for dig, kan du manuelt angive de datoer, du h
 * [Opret en gentagen opfølgning][4]
 * [Rediger en gentagen opfølgning][1]
 * [Stop en gentagen opfølgning][3]
-* [Modtagelse af invitationer][2]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
 [3]: stop.md
 [4]: create.md
 

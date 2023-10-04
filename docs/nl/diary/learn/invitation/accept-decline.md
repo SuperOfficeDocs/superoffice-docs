@@ -1,23 +1,27 @@
 ---
-uid: help-nl-invitation-receive
-title: Uitnodigingen ontvangen
-description: Uitnodigingen ontvangen
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: agenda, vervolgactiviteit
+uid: help-nl-invitation-accept
+title: Vervolgactiviteiten waarvoor u bent uitgenodigd
+description: Vervolgactiviteiten weergeven waarvoor u bent uitgenodigd
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: agenda, vervolgactiviteit, uitnodiging
 so.topic: howto
 language: nl
 ---
 
-# Uitnodigingen ontvangen
+# Vervolgactiviteiten waarvoor u bent uitgenodigd
+
+Wanneer u een vervolgactiviteit wilt weergeven waarvan u niet de eigenaar bent, wordt het gebruikelijke dialoogvenster **Afspraak**, **Taak** of **Telefoongesprek** weergegeven. U kunt echter geen wijzigingen aanbrengen in uitnodigingen van andere mensen of deelnemers toevoegen, dus de knop **Toevoegen** op het tabblad **Deelnemers**is uitgeschakeld.
+
+* Totdat u de uitnodiging, accepteert of afwijst, heeft het dialoogvenster twee extra knoppen: **Accepteren** en **Weigeren**. Wanneer u deze accepteert, wordt de knop uitgeschakeld.
+
+* Omdat u de afspraak, taak of telefoongesprek niet zelf hebt gemaakt, kunt u alleen de velden **Prioriteit**, **Alarm** en **Voltooid** wijzigen. Alle andere opties zijn uitgeschakeld.
 
 ![pictogram][img1]
 
 Deelnemers die worden uitgenodigd voor een vervolgactiviteit ontvangen een melding op de bovenste balk. Klik op het pictogram **Meldingen** om de uitnodiging(en) te zien.
 
 ![Uitnodigingen ontvangen -screenshot][img2]
-
-Het [Dialoogvenster Activiteiten][1] is verdeeld in twee:
 
 * Bovenin staat een lijst met uw uitnodigingen, met status en pictogrammen.
 
@@ -84,10 +88,7 @@ Klik op **Sluiten** om het dialoogvenster te sluiten.
 
 * Uitnodigingen worden opgeslagen tot de dag nadat de vervolgactiviteit is gemarkeerd als Voltooid, zodat de deelnemers op de hoogte kunnen worden gehouden van wijzigingen.
 
-* Wanneer u een uitnodiging ontvangt voor een tijdstip waarop u al bezet bent, wordt een uitroepteken ![pictogram][img6] weergegeven in de beschrijving van de vervolgactiviteit in het dialoogvenster **Uitnodigingen**. Dit vestigt uw aandacht op het conflict.
-
 <!-- Referenced links -->
-[1]: ../screen/dialog-for-followups.md
 [3]: ../recurrence/create.md
 [4]: response.md
 

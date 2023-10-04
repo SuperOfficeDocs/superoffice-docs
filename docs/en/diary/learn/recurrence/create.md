@@ -59,12 +59,12 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 ## What would you like to find out more about?
 
 * [Edit repeating follow-ups][1]
-* [Receive invitations][2]
+* [Accept or decline invitations][2]
 * [Stop repeating follow-ups][3]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
+[2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md
 [5]: ../screen/dialog-for-followups.md

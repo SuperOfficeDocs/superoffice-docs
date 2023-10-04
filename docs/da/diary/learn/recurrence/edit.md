@@ -11,7 +11,7 @@ language: da
 
 # Rediger gentagne opfølgninger
 
-Du kan foretage ændringer i alle gentagne opfølgninger, du er ejer af. Ændringer fungerer på samme måde, som når du [redigerer opfølgninger][2], men når du [foretager en ændring, vises dialogboksen **Gentaget opfølgning** med en kort beskrivelse af opfølgningen.
+Du kan foretage ændringer i alle gentagne opfølgninger, du er ejer af. Ændringer fungerer på samme måde, som når du [redigerer opfølgninger][2], men når du foretager en ændring, vises dialogboksen **Gentaget opfølgning** med en kort beskrivelse af opfølgningen.
 
  **I dialogboksen Gentagne opfølgninger** har du to muligheder:
 
@@ -21,13 +21,11 @@ Du kan foretage ændringer i alle gentagne opfølgninger, du er ejer af. Ændrin
 ## Hvad vil du foretage dig nu?
 
 * [Oprettelse af gentagen opfølgning][3]
-* [Modtagelse af invitationer][4]
 * [Stop gentagen opfølgning][5]
 
 <!-- Referenced links -->
 [2]: ../edit-follow-up.md
 [3]: create.md
-[4]: ../invitation/receive.md
 [5]: stop.md
 
 <!-- Referenced images -->

@@ -59,12 +59,12 @@ Im Dialogfeld **Termin**, **Aufgabe** oder **Anruf** zeigt der Text neben dem Fe
 ## Worüber würden Sie gern mehr erfahren?
 
 * [Regelmäßige Folgeaufgaben bearbeiten][1]
-* [Einladungen empfangen][2]
+* [Einladungen annehmen oder ablehnen][2]
 * [Regelmäßige Folgeaufgaben stoppen][3]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
+[2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md
 [5]: ../screen/dialog-for-followups.md

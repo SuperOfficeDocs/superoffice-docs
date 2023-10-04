@@ -53,11 +53,9 @@ Hvis ingen av mønstrene fungerer for deg, kan du manuelt angi datoene du trenge
 * [Opprette en gjentakende oppfølging][4]
 * [Redigere en gjentakende oppfølging][1]
 * [Stoppe en gjentakende oppfølging][3]
-* [Motta invitasjoner][2]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
 [3]: stop.md
 [4]: create.md
 

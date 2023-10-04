@@ -99,7 +99,7 @@ What's new | Opens the splash screen with the latest details. |
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [10]: ../../../search-options/learn/freetext-search.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md

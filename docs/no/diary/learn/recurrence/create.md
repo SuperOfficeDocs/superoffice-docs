@@ -59,12 +59,12 @@ I dialogboksen **Avtale**, **Oppgave** eller **Samtale** viser teksten ved siden
 ## Hva vil du lære mer om?
 
 * [Redigere repeterende oppfølginger][1]
-* [Motta invitasjoner][2]
+* [Godta eller avslå invitasjoner][2]
 * [Stoppe repeterende oppfølginger][3]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
+[2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md
 [5]: ../screen/dialog-for-followups.md

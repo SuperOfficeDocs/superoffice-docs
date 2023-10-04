@@ -1,23 +1,27 @@
 ---
-uid: help-de-invitation-receive
-title: Einladungen empfangen
-description: Einladungen empfangen
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Kalender, Folgeaufgabe
+uid: help-de-invitation-accept
+title: Folgeaufgaben zu denen Sie eingeladen sind
+description: "Folgeaufgaben anzeigen, zu denen Sie eingeladen sind; Einladungen annehmen oder ablehnen"
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: Kalender, Folgeaufgabe, Einladung
 so.topic: howto
 language: de
 ---
 
-# Einladungen empfangen
+# Folgeaufgaben zu denen Sie eingeladen sind
+
+Wenn Sie eine Folgeaufgabe anzeigen möchten, deren Eigentümer nicht Sie sind, wird wie gewohnt das Dialogfeld **Termin**, **Aufgabe** oder **Anruf** geöffnet. Sie können jedoch an den Einladungen von anderen Personen weder Änderungen vornehmen noch Teilnehmer hinzufügen. Daher ist die Schaltfläche **Hinzufügen** auf der Registerkarte **Teilnehmer** deaktiviert.
+
+* Bis Sie die Einladung annehmen oder ablehnen, hat das Dialogfeld zwei zusätzliche Schaltflächen: **Annehmen** und **Ablehnen**. Nachdem Sie die Einladung akzeptiert haben, werden die Schaltflächen deaktiviert.
+
+* Da Sie den Termin, die Aufgabe oder den Anruf nicht selbst erstellt haben, können Sie nur die Felder **Priorität**, **Alarm** und **Abgeschlossen** ändern. Alle anderen Optionen sind deaktiviert.
 
 ![Symbol][img1]
 
 Teilnehmer, die zu einer Folgeaufgabe eingeladen sind, werden eine Benachrichtigung in der oberen Leiste erhalten. Klicken Sie auf das Symbol **Benachrichtigungen**, um die Einladung(en) zu sehen.
 
 ![Einladungen empfangen -screenshot][img2]
-
-Die Option [Dialogfeld 'Folgeaufgabe'][1] ist zweigeteilt:
 
 * Oben wird eine Liste der Einladungen mit Status und Symbolen angezeigt.
 
@@ -84,10 +88,7 @@ Klicken Sie auf die Schaltfläche **Schließen**, um das Dialogfeld zu schließe
 
 * Einladungen werden bis einen Tag, nachdem die Folgeaufgabe als abgeschlossen gekennzeichnet wurde, gespeichert. Auf diese Weise können die Teilnehmer während des Bestehens der Einladung über Änderungen informiert werden.
 
-* Wenn Sie eine Einladung erhalten und zum angegebenen Zeitpunkt bereits ein Termin ansteht, wird in der Beschreibung der Folgeaufgabe im Dialogfeld **Einladungen** ein Ausrufezeichen ![Symbol][img6] angezeigt. Dies lenkt Ihre Aufmerksamkeit auf den Konflikt.
-
 <!-- Referenced links -->
-[1]: ../screen/dialog-for-followups.md
 [3]: ../recurrence/create.md
 [4]: response.md
 

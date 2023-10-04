@@ -53,11 +53,9 @@ Wenn keines der Muster für Sie anwendbar ist, können Sie die gewünschten Datu
 * [Wiederholende Folgeaufgabe erstellen][4]
 * [Regelmäßige Folgeaufgabe bearbeiten][1]
 * [Regelmäßige Folgeaufgabe stoppen][3]
-* [Einladungen empfangen][2]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
 [3]: stop.md
 [4]: create.md
 

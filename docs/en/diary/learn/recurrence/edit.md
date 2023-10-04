@@ -21,13 +21,11 @@ In the **Repeating follow-ups** dialog, you have two options:
 ## What would you like to do now?
 
 * [Create repeating follow-up][3]
-* [Receive invitations][4]
 * [Stop repeating follow-up][5]
 
 <!-- Referenced links -->
 [2]: ../edit-follow-up.md
 [3]: create.md
-[4]: ../invitation/receive.md
 [5]: stop.md
 
 <!-- Referenced images -->

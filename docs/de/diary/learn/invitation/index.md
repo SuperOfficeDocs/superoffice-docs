@@ -42,12 +42,10 @@ Die Folgeaufgabe wird auf der Bereichsregisterkarte **Aktivitäten** der betreff
 
 * [Teilnehmer zu Folgeaufgaben hinzufügen][2]
 * [Gruppenansichten erstellen][1]
-* [Einladungen empfangen][3]
 
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-participant.md
-[3]: receive.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png

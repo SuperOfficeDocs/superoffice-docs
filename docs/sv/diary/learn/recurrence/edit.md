@@ -21,13 +21,11 @@ I dialogrutan **Återkommande händelser** har du två alternativ:
 ## Vad vill du göra nu?
 
 * [Skapa återkommande händelse][3]
-* [Få en förfrågan][4]
 * [Stoppa återkommande händelse][5]
 
 <!-- Referenced links -->
 [2]: ../edit-follow-up.md
 [3]: create.md
-[4]: ../invitation/receive.md
 [5]: stop.md
 
 <!-- Referenced images -->

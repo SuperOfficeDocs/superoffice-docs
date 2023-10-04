@@ -53,11 +53,9 @@ If none of the patterns work for you, you can manually enter the dates you requi
 * [Create a recurring follow-up][4]
 * [Edit a repeating follow-up][1]
 * [Stop a repeating follow-up][3]
-* [Receive invitations][2]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
 [3]: stop.md
 [4]: create.md
 

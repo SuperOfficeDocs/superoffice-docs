@@ -21,13 +21,11 @@ Das Dialogfeld **Regelmäßige Folgeaufgaben** bietet zwei Optionen:
 ## Was möchten Sie jetzt tun?
 
 * [Regelmäßige Folgeaufgabe erstellen][3]
-* [Einladungen empfangen][4]
 * [Regelmäßige Folgeaufgabe stoppen][5]
 
 <!-- Referenced links -->
 [2]: ../edit-follow-up.md
 [3]: create.md
-[4]: ../invitation/receive.md
 [5]: stop.md
 
 <!-- Referenced images -->

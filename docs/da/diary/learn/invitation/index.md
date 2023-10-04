@@ -42,12 +42,10 @@ Opfølgningen vises på detaljekortet **Aktiviteter** for det aktuelle firma.
 
 * [Tilføjelse af deltagere i opfølgninger][2]
 * [Oprettelse af gruppeoversigter][1]
-* [Modtagelse af invitationer][3]
 
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-participant.md
-[3]: receive.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png

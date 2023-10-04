@@ -42,12 +42,10 @@ Händelsen visas på detaljkortet **Aktiviteter** under det aktuella företaget.
 
 * [Lägga till deltagare i händelser][2]
 * [Skapa gruppöversikter][1]
-* [Få en förfrågan][3]
 
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-participant.md
-[3]: receive.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png

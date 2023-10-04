@@ -42,12 +42,10 @@ The follow-up is shown on the **Activities** section tab for the company in ques
 
 * [Add participants to follow-ups][2]
 * [Create group views][1]
-* [Receive invitations][3]
 
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-participant.md
-[3]: receive.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png

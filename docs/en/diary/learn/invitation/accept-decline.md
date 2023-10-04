@@ -1,23 +1,27 @@
 ---
-uid: help-en-invitation-receive
-title: Receive invitations
-description: Receive invitations
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: diary, follow-up
+uid: help-en-invitation-accept
+title: Follow-ups you are invited to
+description: Show follow-ups you are invited to; accept or decline an invitation
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: diary, follow-up, invitation
 so.topic: howto
 language: en
 ---
 
-# Receive invitations
+# Follow-ups you are invited to
+
+When you view a follow-up you are not the owner of, the usual **Appointment**, **Task**, or **Phone Call** dialog is displayed. However, you cannot make changes to other people's invitations, nor add participants, so the **Add** button in the **Participants** tab is disabled.
+
+* Until you accept or decline the invitation, the dialog has two extra buttons: **Accept** and **Decline**. After you accept, the button is disabled.
+
+* Because you did not create the appointment, task or phone call yourself, you may change only the **Priority**, **Alarm**, and **Completed** fields. All other options are disabled.
 
 ![icon][img1]
 
 Participants who are invited to a follow-up will receive a notification on the Top bar. Click the **Notifications** icon to view the invitations(s).
 
 ![Receive invitations -screenshot][img2]
-
-The [The Dialog for follow-ups][1] is divided into two:
 
 * At the top is a list of your invitations, with status and icons.
 
@@ -48,9 +52,9 @@ Check all three to show all this information at the same time.
 
 If you do not check any of these options, all that is displayed are follow-ups you are invited to but have not yet made a decision on.
 
-## <a id="accept" />Accept or decline invitations
+## <a id="accept" />Accept or decline invitation
 
-When you select one of the invitations in the top part of the dialog, its details are displayed below. The active follow-up is emboldened. Accept or decline the invitation by clicking **Accept** or **Decline**:
+When you select one of the invitations in the top part of the dialog, its details are displayed below. The active follow-up is highlighted. Accept or decline the invitation by clicking **Accept** or **Decline**:
 
 | Action | Description |
 |---|---|
@@ -61,7 +65,7 @@ When you select one of the invitations in the top part of the dialog, its detail
 > When you select an invitation in the **Invitations** dialog, the day in question is shown in the Diary screen in the background, so that you can check if you have other appointments.
 If you have other overlapping appointments, a **Conflict** icon ![icon][img6] is also displayed in the preview in the **Invitations** dialog.
 
-## Receive invitations to repeating follow-ups
+## Invitation to repeating follow-up
 
 If you select **Show repetitions** below the list of invitations, all instances of the follow-up are displayed.
 
@@ -84,10 +88,7 @@ Click **Close** to close the dialog.
 
 * Invitations are saved up until the day after the follow-up is marked as completed so that the participants can be informed of changes.
 
-* If you receive an invitation for a time when you are already occupied, an exclamation mark ![icon][img6] is displayed in the description of the follow-up in the **Invitations** dialog. This draws your attention to the conflict.
-
 <!-- Referenced links -->
-[1]: ../screen/dialog-for-followups.md
 [3]: ../recurrence/create.md
 [4]: response.md
 

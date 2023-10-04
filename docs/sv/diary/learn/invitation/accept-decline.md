@@ -1,23 +1,27 @@
 ---
-uid: help-sv-invitation-receive
-title: Få en förfrågan
-description: Få en förfrågan
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: kalender, händelse
+uid: help-sv-invitation-accept
+title: Händelser du har inbjudits till
+description: Visa händelser du har inbjudits till; Acceptera eller tacka nej till förfrågningar
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: kalender, händelse, förfrågning
 so.topic: howto
 language: sv
 ---
 
-# Få en förfrågan
+# Händelser du har inbjudits till
+
+När du ska visa en händelse som du inte själv äger visas den vanliga dialogrutan **Bokning**, **Uppgift** eller **Samtal**. Du kan däremot inte göra ändringar i någon annans förfrågan eller lägga till deltagare. Därmed är knappen **Lägg till** på fliken **Deltagare** inaktiverad.
+
+* Tills du accepterar eller avslår förfrågan visas två extra knappar i dialogrutan: **Acceptera** och **Avslå**. När du har godtagit förfrågan inaktiveras knappen.
+
+* Eftersom du inte har skapat bokningen, uppgiften eller samtalet själv kan du bara göra ändringar i fälten **Prioritet**, **Alarm** och **Slutfört**. Alla andra alternativ är inaktiverade.
 
 ![ikon][img1]
 
 Deltagare som har bjudits in till en händelse får ett varningsmeddelande på toppraden. Klicka på ikonen **Varningar** för att visa förfrågan.
 
 ![Få förfrågningar -screenshot][img2]
-
-[Dialogrutan för händelser][1] är indelad i två delar:
 
 * Överst visas en lista över dina förfrågningar med bland annat status och ikoner.
 
@@ -84,10 +88,7 @@ Stäng dialogrutan genom att klicka på **Stäng**.
 
 * En förfrågan sparas till dagen efter händelsen har markerats som slutförd, så att deltagarna meddelas om eventuella ändringar.
 
-* Om du får en förfrågan för en tidpunkt när du redan är upptagen visas ett utropstecken ![ikon][img6] i beskrivningen av händelsen i dialogrutan **Förfrågningar**. Det uppmärksammar dig på konflikten.
-
 <!-- Referenced links -->
-[1]: ../screen/dialog-for-followups.md
 [3]: ../recurrence/create.md
 [4]: response.md
 

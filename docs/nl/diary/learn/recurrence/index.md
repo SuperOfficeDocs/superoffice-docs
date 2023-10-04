@@ -53,11 +53,9 @@ Als geen van de patronen voor u werkt, kunt u handmatig de gewenste datums invoe
 * [Een terugkerende vervolgactiviteit maken][4]
 * [Een herhalende vervolgactiviteit bewerken][1]
 * [Een herhalende vervolgactiviteit stoppen][3]
-* [Uitnodigingen ontvangen][2]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
 [3]: stop.md
 [4]: create.md
 

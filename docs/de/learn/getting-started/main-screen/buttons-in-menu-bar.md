@@ -87,7 +87,7 @@ Die Elemente am oberen Rand der Anzeige variieren leicht zwischen SuperOffice CR
 [2]: ../../section-tabs/filter.md
 [6]: ../preferences.md
 [7]: ../edit-email-signature.md
-[4]: ../../../diary/learn/invitation/receive.md
+[4]: ../../../diary/learn/invitation/accept-decline.md
 [5]: ../../../search-options/learn/find-screen.md
 [15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

@@ -21,13 +21,11 @@ I dialogboksen **Repeterende oppfølginger** har du to alternativer:
 ## Hva vil du gjøre nå?
 
 * [Opprette repeterende oppfølging][3]
-* [Motta invitasjoner][4]
 * [Stoppe repeterende oppfølging][5]
 
 <!-- Referenced links -->
 [2]: ../edit-follow-up.md
 [3]: create.md
-[4]: ../invitation/receive.md
 [5]: stop.md
 
 <!-- Referenced images -->

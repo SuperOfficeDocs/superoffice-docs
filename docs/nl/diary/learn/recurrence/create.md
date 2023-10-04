@@ -59,12 +59,12 @@ In de dialoogvensters **Afspraak**, **Taak** of **Gesprek** geeft de tekst naast
 ## Waarover zou u meer te weten willen komen?
 
 * [Herhalende vervolgactiviteiten bewerken][1]
-* [Uitnodigingen ontvangen][2]
+* [Uitnodigingen accepteren of afwijzen][2]
 * [Herhalende vervolgactiviteiten stoppen][3]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
+[2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md
 [5]: ../screen/dialog-for-followups.md

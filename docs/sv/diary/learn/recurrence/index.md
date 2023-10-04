@@ -53,11 +53,9 @@ Om inget av mönstren fungerar kan du ange önskade datum manuellt.
 * [Skapa en återkommande händelse][4]
 * [Redigera en återkommande händelse][1]
 * [Stoppa en återkommande händelse][3]
-* [Få en förfrågan][2]
 
 <!-- Referenced links -->
 [1]: edit.md
-[2]: ../invitation/receive.md
 [3]: stop.md
 [4]: create.md
 

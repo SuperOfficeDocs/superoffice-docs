@@ -42,12 +42,10 @@ Oppfølgingen vises på detaljkortet **Aktiviteter** for det aktuelle firmaet.
 
 * [Legge til deltakere i oppfølginger][2]
 * [Opprett gruppeoversikter][1]
-* [Motta invitasjoner][3]
 
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-participant.md
-[3]: receive.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/check-black.png
