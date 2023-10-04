@@ -15,4 +15,4 @@ so.client: online
 
 You can view your profile via the top menu. Click your display name in the upper-right corner and select **Profile**.
 
-[!include[Note about limitations](../includes/note-cannot-edit.md)]
+The name, email address, and phone number are fetched from your primary SuperOffice tenant. Sign in there to update the personal information. If you need assistance, reach out in the chat or send an email to `appdev AT superoffice.com`.
