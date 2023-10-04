@@ -38,21 +38,6 @@ The toolbar shows the options available to you. From left to right:
 
     ![Insert link in rich text field -screenshot][img2]
 
-<!-- ## Old Markdown editor
-
-* To turn preview on/off, click the eye icon on the toolbar.
-
-* To expand to use the full browser window, click the double arrow on the right side of the toolbar. Click again to go back to normal mode.
-
-| Format | Code |
-|---|---|
-| Bold | `**bold text**` |
-| Italic | `*italic text*` |
-| Heading | `# Heading text` |
-| Quotation | `> quoted text` |
-| Unordered list | `- unordered list item` |
-| Ordered list | `1. ordered list item` | -->
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->

@@ -5,6 +5,8 @@ items:
   items:
   - name: Introduction to Developer Portal
     href: about.md
+  - name: Dashboard and widgets
+    href: widgets/index.md
   - name: Getting started
     href: getting-started/index.md
     expanded: true
@@ -102,6 +104,8 @@ items:
       href: faq/update-contact-person.md
     - name: Update your application
       href: faq/update-app.md
+    - name: Turn off mirroring for app
+      href: faq/turn-off-mirroring.md
     - name: Run website on IIS localhost
       href: faq/run-website-on-iis-localhost.md
     - name: Unable to approve app

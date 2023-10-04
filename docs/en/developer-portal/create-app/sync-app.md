@@ -39,7 +39,7 @@ This template creates an app configuration for a standard app and asks for the E
 
 5. Enter the URL of the integration endpoints.
 
-    Click On/Off to activate the endpoint.
+    Click Off/On to activate the endpoint.
 
     > [!NOTE]
     > If the endpoint is not yet ready, you may change configuration later.

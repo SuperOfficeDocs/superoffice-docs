@@ -36,8 +36,6 @@ landingContent:
         links:
         - text: Format text
           url: faq/format-text.md
-        - text: Update your own user profile
-          url: partner/update-profile.md
 
   # Card
   - title: Custom applications
@@ -133,8 +131,6 @@ landingContent:
             url: "faq/update-contact-person.md"
           - text: Add a user
             url: "partner/add-user.md"
-          - text: Update a user profile
-            url: "partner/edit-user.md"
           - text: Manage permissions within the organization
             url: "partner/manage-permissions.md"
       - itemType: library_books
