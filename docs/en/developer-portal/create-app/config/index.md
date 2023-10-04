@@ -41,14 +41,10 @@ Watch the walk-through on YouTube:
 
 * [Manage permissions within the organization][3]
 * [Add a user][1]
-* [Update a user profile][2]
-* [Update your own user profile][5]
 
 <!-- Referenced links -->
 [1]: ../../partner/add-user.md
-[2]: ../../partner/edit-user.md
 [3]: ../../partner/manage-permissions.md
-[5]: ../../partner/update-profile.md
 [4]: ../../getting-started/user-contexts.md
 [6]: redirects.md
 [7]: find-clientid.md
