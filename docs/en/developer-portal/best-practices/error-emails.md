@@ -24,7 +24,7 @@ Watch the walk-through on YouTube:
 
 For each endpoint you have configured SuperOffice to send data to, you can also subscribe to error emails.
 
-To turn on/off error emails to the technical contact for an endpoint, update the advanced configuration of the application.
+To turn off/on error emails to the technical contact for an endpoint, update the advanced configuration of the application.
 
 * [ERP sync][5]
 * [Quote connector][6]

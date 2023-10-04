@@ -47,7 +47,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (on/off) | [Manage notifications][14] | [About tenant status][11] |
+| Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (off/on) | [Manage notifications][14] | [About tenant status][11] |
 | Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][14], [Update contact person][15] | [About tenant status][11] |
 
 ## Integrations
@@ -60,7 +60,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 
 For each of the above:
 
-* Endpoint URL, on/off
+* Endpoint URL, off/on
 * Send error emails to technical contact
 
 ## License
