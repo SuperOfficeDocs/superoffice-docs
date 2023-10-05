@@ -1,15 +1,15 @@
 ---
-uid: help-da-diary-view
-title: Se dagbog
-description: Se din egen eller andres dagbog eller en gruppevisning.
-author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: dagbog, opfølgning
+uid: help-da-diary-other
+title: Se en anden dagbog
+description: Se andres dagbog.
+author: Bergfrid Dias
+so.date: 10.05.2023
+keywords: dagbog, opfølgning, ressource, ejer
 so.topic: howto
 language: da
 ---
 
-# Visning af en anden dagbog
+# Se en anden dagbog
 
 Hvis du klikker på en brugers eller en ressources navn, bliver denne bruger eller ressource ejer af dagbogen, og du kommer direkte til fanen **Dag** den pågældende bruger eller ressource. Når du vil gå tilbage til din egen dagbog, vælger du dit navn på dagbogsejerlisten.
 

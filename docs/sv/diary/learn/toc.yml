@@ -6,12 +6,14 @@ items:
 - name: Bokning, samtal, uppgift
   href: follow-ups.md
 - name: Kalendervyer
-  href: screen/index.md
+  topicHref: screen/index.md
   items:
-  - name: Visa dina eller andras kalendrar
-    href: open.md
+  - name: Dag, vecka, månad
+    href: screen/index.md
   - name: Gruppöversikt
     href: group-view.md
+  - name: Visa andras kalendrar
+    href: other-diaries.md
 - name: Detaljkort
   topicHref: screen/activities-tab.md
   items:

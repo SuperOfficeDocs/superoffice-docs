@@ -6,12 +6,14 @@ items:
 - name: Afspraak, telefoongesprek, taken
   href: follow-ups.md
 - name: Kalenderweergaven
-  href: screen/index.md
+  topicHref: screen/index.md
   items:
-  - name: "Uw agenda of andere agenda's bekijken"
-    href: open.md
+  - name: Dag, week, maand
+    href: screen/index.md
   - name: Groepsweergave
     href: group-view.md
+  - name: "Andere agenda's bekijken"
+    href: other-diaries.md
 - name: Sectietabbladen
   topicHref: screen/activities-tab.md
   items:

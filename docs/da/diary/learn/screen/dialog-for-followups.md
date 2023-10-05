@@ -162,7 +162,7 @@ Denne fane viser alle [brugerdefinerede felter][14], der er konfigureret i Indst
 [4]: ../recurrence/index.md
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
-[7]: ../open.md
+[7]: ../other-diaries.md
 [8]: ../linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md

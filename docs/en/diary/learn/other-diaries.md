@@ -1,10 +1,10 @@
 ---
-uid: help-en-diary-view
-title: View diary
-description: View your own or other's diary or a group view.
-author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: diary, follow-up
+uid: help-en-diary-other
+title: View another diary
+description: View other's diary.
+author: Bergfrid Dias
+so.date: 10.05.2023
+keywords: diary, follow-up, resource, owner
 so.topic: howto
 language: en
 ---
@@ -32,7 +32,7 @@ When you open the diary of another user or resource, you can switch between the 
 * [Create appointment][2]
 
 <!-- Referenced links -->
-[2]: create-follow-up.md
+[2]: create-follow-up.md#associate
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/menu-arrow.png

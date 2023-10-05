@@ -6,12 +6,14 @@ items:
 - name: Appointment, task, phone call
   href: follow-ups.md
 - name: Calendar views
-  href: screen/index.md
+  topicHref: screen/index.md
   items:
-  - name: View your or other diaries
-    href: open.md
+  - name: Day, week, month
+    href: screen/index.md
   - name: Group view
     href: group-view.md
+  - name: View other diaries
+    href: other-diaries.md
 - name: Section tabs
   topicHref: screen/activities-tab.md
   items:

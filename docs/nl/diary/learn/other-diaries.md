@@ -1,10 +1,10 @@
 ---
-uid: help-nl-diary-view
-title: Agenda weergeven
-description: Bekijk uw eigen of andermans agenda of een groepsweergave.
-author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: agenda, vervolgactiviteit
+uid: help-nl-diary-other
+title: Een andere agenda weergeven
+description: Bekijk andermans agenda.
+author: Bergfrid Dias
+so.date: 10.05.2023
+keywords: agenda, vervolgactiviteit, bron, eigenaar
 so.topic: howto
 language: nl
 ---

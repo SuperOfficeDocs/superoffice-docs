@@ -1,13 +1,14 @@
 ---
-uid: help-de-diary-view
-title: Kalender anzeigen
-description: "Zeigen Sie Ihren eigenen Kalender, den Kalender eines anderen oder eine Gruppenansicht an."
-author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: Kalender, Folgeaufgabe
+uid: help-de-diary-other
+title: Anderen Kalender anzeigen
+description: Zeigen Sie den Kalender eines anderen an.
+author: Bergfrid Dias
+so.date: 10.05.2023
+keywords: Kalender, Folgeaufgabe, Ressource, Besitzer
 so.topic: howto
 language: de
 ---
+
 # Anderen Kalender anzeigen
 
 Wenn Sie auf den Namen eines Benutzers oder einer Ressource klicken, wird dieser Benutzer bzw. diese Ressource zum Besitzer des Kalenders, und Sie gelangen direkt zur Registerkarte **Tag** des Benutzers bzw. der Ressource. Wenn Sie zu Ihrem eigenen Kalender zurückkehren möchten, wählen Sie Ihren Namen in der Liste der Kalendereigentümer.

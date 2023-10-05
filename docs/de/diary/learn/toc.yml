@@ -6,12 +6,14 @@ items:
 - name: Termin, Telefonanruf, Aufgabe
   href: follow-ups.md
 - name: Kalender-Ansichten
-  href: screen/index.md
+  topicHref: screen/index.md
   items:
-  - name: Ihre oder andere Tagebücher ansehen
-    href: open.md
+  - name: Tag, Woche, Monat
+    href: screen/index.md
   - name: Gruppenansicht
     href: group-view.md
+  - name: Andere Tagebücher ansehen
+    href: other-diaries.md
 - name: Bereichsregisterkarten
   topicHref: screen/activities-tab.md
   items:

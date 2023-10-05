@@ -1,10 +1,10 @@
 ---
-uid: help-sv-diary-view
-title: Visa kalender
-description: Visa din egen eller en annan persons kalender eller en gruppöversikt.
-author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: kalender, händelse
+uid: help-sv-diary-other
+title: Visa en annan kalender
+description: Visa en annan persons kalender.
+author: Bergfrid Dias
+so.date: 10.05.2023
+keywords: kalender, händelse, resurs, ägare
 so.topic: howto
 language: sv
 ---

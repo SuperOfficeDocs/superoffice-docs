@@ -6,12 +6,14 @@ items:
 - name: Avtale, telefonsamtale, oppgave
   href: follow-ups.md
 - name: Kalendervisninger
-  href: screen/index.md
+  topicHref: screen/index.md
   items:
-  - name: Se dine eller andre dagbøker
-    href: open.md
+  - name: Dag, uke, måned
+    href: screen/index.md
   - name: Gruppeoversikt
     href: group-view.md
+  - name: Se andre dagbøker
+    href: other-diaries.md
 - name: Detaljkort
   topicHref: screen/activities-tab.md
   items:

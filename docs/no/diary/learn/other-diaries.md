@@ -1,15 +1,15 @@
 ---
-uid: help-no-diary-view
-title: Vise dagbok
-description: Se din egen eller andres dagbok eller en gruppeoversikt.
-author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: dagbok, oppfølging
+uid: help-no-diary-other
+title: Se andres dagbok
+description: Se andres dagbok.
+author: Bergfrid Dias
+so.date: 10.05.2023
+keywords: dagbok, oppfølging, ressurs, eier
 so.topic: howto
 language: no
 ---
 
-# Vise en annen dagbok
+# Se andres dagbok
 
 Hvis du klikker på navnet til en bruker eller ressurs, blir denne brukeren eller ressursen eieren av dagboken, og du kommer rett til fanen **Dag** for denne brukeren eller ressursen. For å gå tilbake til din egen dagbok velger du navnet ditt fra dagbokeierlisten.
 
