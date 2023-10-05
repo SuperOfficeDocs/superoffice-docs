@@ -77,4 +77,4 @@ This sample will list all tasks of type 6 that have not been started and a deadl
 [2]: <xref:CRMScript.NetServer.NSAppointmentEntity>
 [3]: ../../../automation/crmscript/searchengine/index.md
 [4]: create-appointment.md
-[5]: ../../overview.md#todo-list
+[5]: ../../learn/follow-ups.md#task

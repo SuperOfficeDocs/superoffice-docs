@@ -3,7 +3,7 @@ uid: help-en-diary
 title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
 author: Bergfrid Dias
-so.date: 10.03.2023
+so.date: 10.05.2023
 keywords: diary
 so.topic: concept
 language: en
@@ -11,7 +11,10 @@ language: en
 
 # Diary
 
-The diary in SuperOffice CRM is used much like a personal diary and has separate pages for every day, week, and month.
+The SuperOffice diary consists of a calendar and a todo list and is used similar to a Filofax with separate pages for every day, week, and month.
+
+* **Calendar**: shows entries allocated to a particular time or date.
+* **Todo list**: shows stuff that you have not yet completed, mostly calls and tasks without time or date.
 
 ![Keep track of all your appointments and tasks by registering them in your diary -screenshot][img3]
 
@@ -41,13 +44,23 @@ The diary consists of [four different tabs][24]: **Day** tab, **Week** tab, **Mo
 
 ## Work with follow-ups
 
-[Follow-up][1] is a collective term for the appointment, task, and phone call activities. These all function in largely the same way.
+[Follow-up][1] is a collective term for appointment, task, and phone call. These all function in largely the same way.
+
+| type | start time | end time | duration | deadline | displayed | description | example |
+|---|:-:|:-:|:-:|:-:|---|---|---|
+| appointment | x | x | calculated | | calendar | activity w/ defined start and end time | meetings |
+| task/todo | | | | x | todo list | follow-up w/ no start time | reminder for stuff due by a specific time |
+| call | x | | x | | todo list | phone call | |
+
+> [!NOTE]
+> Overdue appointments will by default also appear in the todo list!
+>
+> Logged phone calls will also appear in the calendar.
 
 Open an existing follow-up by double-clicking it in the Diary or the **Activities** section tab.
 
 > [!NOTE]
-> It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
-When you create follow-ups from the Diary screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
+> When you create follow-ups from the Diary screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
 
 Follow-ups are closely linked to the Diary screen, and some functions apply especially to the Diary.
 
@@ -69,6 +82,7 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 * [Copy follow-up to the Diary][21]
 * [Delete follow-up][17]
 * [Video meetings][23]
+* [Working with follow-ups in API][50]
 
 <!-- Referenced links -->
 [1]: follow-ups.md
@@ -90,6 +104,7 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 [22]: screen/dialog-for-followups.md
 [24]: screen/index.md
 [23]: video-meetings.md
+[50]: ../../../en/diary/howto/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/arrow-right.png

@@ -3,8 +3,8 @@ uid: help-en-follow-ups
 title: Follow-ups
 description: Follow-ups - appointment, task, phone call
 author: Bergfrid Dias
-so.date: 09.22.2023
-keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call
+so.date: 10.05.2023
+keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, participant
 so.topic: concept
 language: en
 ---
@@ -17,7 +17,30 @@ Follow-ups may overlap each other. Overlapping follow-ups are displayed in the D
 
 ## <a id="apt" />Appointment
 
-Appointments are activities with a defined start and end time, such as meetings. No matter where you are in SuperOffice CRM, you can create a new appointment by clicking the **New** button in the Top bar and selecting ![icon][img1].
+Appointments are activities with a defined start and end time, such as meetings. It will be shown in the calendar of the owner's diary.
+
+No matter where you are in SuperOffice CRM, you can create a new appointment by clicking the **New** button in the Top bar and selecting ![icon][img1].
+
+Appointments can be displayed in the following places in SuperOffice CRM:
+
+* The **Activities** section tab in the Company, Contact, Sale, Project, and Diary screen
+* On the **Day**, **Week**, **Month**, and **View** tabs in the Diary screen
+* In these side panel views: **Day**, **Month**, **Next day**, and **Week**
+
+### Common scenarios
+
+| Scenario | Resource | 2+ participants | Description |
+|---|:-:|:-:|---|
+| Own time reserved | | | You have set aside time to work on something, alone |
+| Own time and resource reserved | x | | As above + need room or equipment |
+| Meeting w/ multiple participants | x | x | A meeting, commonly also w/ a resource or location |
+
+**Also:**
+
+* Appointments can be single events or part of a recurring series.
+* Overdue and completed appointments will be in the todo list in addition to in the calendar.
+* Appointments involving a resource and/or additional participants are called [invitations][5] (or group reservation).
+* Appointments can be created by the owner or assigned/delegated to an associate.
 
 ### Default duration
 
@@ -27,47 +50,43 @@ The default duration for an appointment is 1 hour, but you can change the durati
 1. Select **Default values**.
 1. [Enter the required value][1] under **Duration for new appointment**.
 
-### Where can appointments be displayed?
+## <a id="task" />Task (to-do list) ![icon][img2]
 
-<!-- markdownlint-disable MD032 -->
-[!include[List of Activities section tabs](../../learn/includes/list-activities-section-tabs.md)]
-* On the **Day**/**Week**/**Month**/**View** tabs in the Diary screen
-* In these side panel views: **Day**, **Month**, **Next day** and **Week**
-<!-- markdownlint-restore -->
-
-## <a id="task" />Task
-
-Tasks are follow-ups that do not usually have a defined time or duration. They always have a date deadline, for example, they may be things you must remember to do by a certain time.
-
-![icon][img2]
+A *task* is a follow-up without a start time. It usually does not have a duration either, but it always has a **deadline**.
+Tasks are typically used for things you have to remember to do by a certain time.
 
 No matter where you are in SuperOffice CRM, you can create a new task by clicking **New** > **Task** on the top bar.
 
+By default, you will find tasks in the diary todo list, where they can be checked off when completed.
+
 Tasks can be displayed in the following places in SuperOffice CRM:
 
-[!include[List of Activities section tabs](../../learn/includes/list-activities-section-tabs.md)]
+* The **Activities** section tab in the Company, Contact, Sale, Project, and Diary screen
 
 > [!NOTE]
 > If you specify a start and end time for a task, it is entered in the diary at the correct day and time.
 
-## <a id="call" />Phone call
+## <a id="call" />Phone call ![icon][img3]
 
-Calls are follow-ups with a default duration of 15 minutes. The default start time is the current time and the date is today's date. You can set up a call follow-up if, for example, you want to enter an outgoing phone call.
+A *call* is a follow-up representing a very specific action - the phone call. For example, you want to enter an outgoing phone call.
+
+It is also kinda a hybrid between an appointment and a task:
+
+* When you initially plan a call, it lives in the todo list with a deadline much like a task.
+* When you make the call, it gets fixed in time and now resembles an appointment.
+  * The start time becomes the current time and today's date.
+  * The default duration is 15 minutes.
 
 > [!TIP]
 > You can change the default duration to something other than 15 minutes. Select ![icon][img4] **Personal settings** > **Preferences** > **Default values** > **Duration of a new phone call** and [enter the required value][1].
-
-![icon][img3]
 
 No matter where you are in SuperOffice CRM, you can create a new phone call by selecting **New** > **Phone Call** on the top bar.
 
 Phone calls can be displayed in the following places in SuperOffice CRM:
 
-<!-- markdownlint-disable MD032 -->
-[!include[List of Activities section tabs](../../learn/includes/list-activities-section-tabs.md)]
-* On the **Day**/**Week**/**Month**/**View** tabs in the Diary screen.
+* The **Activities** section tab in the Company, Contact, Sale, Project, and Diary screen
+* On the **Day**, **Week**, **Month**, and **View** tabs in the Diary screen
 * In these side panel views: **Day**, **Month**, **Next day** and **Week**.
-<!-- markdownlint-restore -->
 
 ## Related content
 
@@ -80,6 +99,7 @@ Phone calls can be displayed in the following places in SuperOffice CRM:
 [2]: create-follow-up.md
 [3]: index.md
 [4]: ../../learn/basics/activity.md
+[5]: invitation/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/appointment.png

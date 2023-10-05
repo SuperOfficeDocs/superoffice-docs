@@ -55,7 +55,7 @@ conceptualContent:
       - text: Types of follow-ups
         itemType: explore
         typeDesc: concept
-        url: overview.md
+        url: learn/follow-ups.md
       - text: Recurring appointments
         itemType: explore
         typeDesc: concept
