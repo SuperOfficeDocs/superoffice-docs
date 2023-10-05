@@ -11,6 +11,8 @@ language: no
 
 # Repeterende oppfølginger
 
+![Recurring follow-up dialog -screenshot][img1]
+
 **Hyppighet** er hvordan oppfølgingen gjentas. Mønsteret kan være daglig, ukentlig, månedlig, årlig eller gjentas med et brukerdefinert intervall.
 
 Alternativene som er tilgjengelige for hver hyppighet, varierer.
@@ -55,8 +57,9 @@ Hvis ingen av mønstrene fungerer for deg, kan du manuelt angi datoene du trenge
 * [Stoppe en gjentakende oppfølging][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [3]: stop.md
 [4]: create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

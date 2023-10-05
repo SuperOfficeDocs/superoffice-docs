@@ -63,7 +63,7 @@ I dialogrutan **Bokning**, **Uppgift** eller **Samtal** visar texten bredvid fä
 * [Stoppa återkommande händelser][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md

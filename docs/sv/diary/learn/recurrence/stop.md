@@ -35,6 +35,6 @@ När du stoppar den återkommande händelsen raderas alla förekomster av hände
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: edit.md
+[2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->

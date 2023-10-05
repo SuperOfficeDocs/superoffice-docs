@@ -63,7 +63,7 @@ In de dialoogvensters **Afspraak**, **Taak** of **Gesprek** geeft de tekst naast
 * [Herhalende vervolgactiviteiten stoppen][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md

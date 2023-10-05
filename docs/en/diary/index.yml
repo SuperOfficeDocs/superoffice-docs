@@ -59,7 +59,7 @@ conceptualContent:
       - text: Recurring appointments
         itemType: explore
         typeDesc: concept
-        url: recurring-appointments.md
+        url: learn/recurrence/index.md
       - text: Invitations
         itemType: explore
         typeDesc: concept

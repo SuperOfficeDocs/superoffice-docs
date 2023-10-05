@@ -4,7 +4,7 @@ title: Redigere oppfølging
 description: Åpne og redigere og slette oppfølginger; endre sluttidspunktet for en oppfølging i dagboken; redigere eller slette invitasjon.
 author: Bergfrid Dias
 so.date: 10.05.2023
-keywords: dagbok, oppfølging, invitasjon, avtale, oppgave, samtale
+keywords: dagbok, oppfølging, invitasjon, avtale, oppgave, samtale, gjenta
 so.topic: howto
 language: no
 ---
@@ -48,6 +48,14 @@ I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte �
 > [!NOTE]
 > Du kan også endre tidsrommet ved å åpne oppfølgingen og endre feltene **Start**, **Slutt**, **Frist** eller **Varighet**. Disse feltene er beskrevet under [Dialogboksen for oppfølginger][3].
 
+## <a id="repeat" />Redigere repeterende oppfølging
+
+Endringer fungerer på samme måte som når du redigerer oppfølginger, men når du gjør en endring, vises dialogboksen **Repeterende oppfølginger**, der det vises en kort beskrivelse av oppfølgingen.
+
+* Hvis du velger **Endre bare denne forekomsten**, vil ikke endringen påvirke andre tidspunkter enn det som er angitt.
+
+* Hvis du velger **Endre alle fremtidige forekomster inkludert denne**, foretas den samme endringen på denne oppfølgingen også i fremtiden.
+
 ## <a id="delete" />Slette oppfølging ved hjelp av dagboken
 
 Hvis du redigerer eller sletter en invitasjon du selv har opprettet og sendt, får de inviterte deltakerne beskjed om dette. Hvis du sletter en invitasjon du selv eier, fra dagboken din, forsvinner oppføringen fra dagbøkene til alle inviterte deltakere også.
@@ -63,13 +71,11 @@ Hvis en av mottakerne av en invitasjon velger å slette oppføringen fra dagboke
 ## Aktuelle emner
 
 * [Endre Utført-status for en aktivitet][2]
-* [Redigere repeterende oppfølginger][4]
 * [Stoppe repeterende oppfølginger][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
-[4]: recurrence/edit.md
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->

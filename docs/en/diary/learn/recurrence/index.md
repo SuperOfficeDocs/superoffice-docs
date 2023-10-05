@@ -11,6 +11,8 @@ language: en
 
 # Repeating follow-ups
 
+![Recurring follow-up dialog -screenshot][img1]
+
 **Frequency** is how the follow-up is repeated. The pattern can be daily, weekly, monthly, yearly, or repeat at a user-defined interval.
 
 The options available for each frequency vary.
@@ -55,8 +57,9 @@ If none of the patterns work for you, you can manually enter the dates you requi
 * [Stop a repeating follow-up][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [3]: stop.md
 [4]: create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

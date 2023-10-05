@@ -35,6 +35,6 @@ Når du stopper repeteringen, slettes alle forekomster av oppfølgingen *etter* 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: edit.md
+[2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->

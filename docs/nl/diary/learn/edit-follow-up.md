@@ -4,7 +4,7 @@ title: Vervolgactiviteiten bewerken
 description: Vervolgactiviteiten openen, bewerken, verwijderen via de agenda; De eindtijd voor een vervolgactiviteit in de agenda wijzigen
 author: Bergfrid Dias
 so.date: 10.05.2023
-keywords: agenda, vervolgactiviteit, uitnodiging, afspraak, taak, gesprek
+keywords: agenda, vervolgactiviteit, uitnodiging, afspraak, taak, gesprek, herhalen, terugkeren, instantie
 so.topic: howto
 language: nl
 ---
@@ -48,6 +48,14 @@ U kunt als volgt de eindtijd voor een vervolgactiviteit wijzigen in het scherm A
 > [!NOTE]
 > U kunt de tijd ook wijzigen door de vervolgactiviteit te openen en de velden **Start**, **Eind**, **Vervaldatum** of **Duur** te wijzigen. Deze velden worden beschreven in [Het dialoogvenster voor vervolgactiviteiten][3].
 
+## <a id="repeat" />Herhalende vervolgactiviteit bewerken
+
+Wijzigingen worden op dezelfde manier doorgevoerd als in Vervolgactiviteiten bewerken, maar wanneer u een wijziging doorvoert, wordt het dialoogvenster **Herhalende vervolgactiviteiten** weergegeven.
+
+* Als u **Alleen dit item wijzigen** selecteert, heeft de wijziging geen invloed op andere vervolgactiviteiten.
+
+* Als u **Alle toekomstige items wijzigen inclusief dit item** selecteert, is de wijziging ook in de toekomst van toepassing op deze vervolgactiviteit.
+
 ## <a id="delete" />Vervolgactiviteit verwijderen via de agenda
 
 Als u een uitnodiging waarvan u de eigenaar bent verwijdert uit uw agenda, wordt deze record ook verwijderd uit de agenda's van de genodigden.
@@ -63,13 +71,11 @@ Als een van de ontvangers van een uitnodiging de record verwijdert, wordt deze s
 ## Verwante onderwerpen
 
 * [De status Voltooid voor een activiteit wijzigen][2]
-* [Herhalende vervolgactiviteiten bewerken][4]
 * [Herhalende vervolgactiviteiten stoppen][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
-[4]: recurrence/edit.md
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->

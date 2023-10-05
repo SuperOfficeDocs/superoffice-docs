@@ -1,7 +1,7 @@
 ---
 uid: help-en-follow-up-edit
 title: Edit follow-up
-description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation
+description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation; Edit repeating follow-up
 author: Bergfrid Dias
 so.date: 10.05.2023
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
@@ -48,6 +48,21 @@ In the Diary screen, you can change the end time for a follow-up without having 
 > [!NOTE]
 > You can also change the time slot by opening the follow-up and changing the **Start**, **End**, **Due**, or **Duration** fields. These fields are described in [The Dialog for follow-ups][3].
 
+## <a id="repeat" />Edit repeating follow-up
+
+Changes work in the same way as when you edit follow-ups, but when you make a change, the **Repeating follow-ups** dialog appears.
+
+* If you select **Change only this instance**, the change will not affect other times.
+
+* If you select **Change all future instances including this one**, the change will apply to this follow-up in the future as well.
+
+If you decide to change the rule pattern in the middle of a series of appointments, then a new rule is created, and the old rule is stopped at the point where the break occurs.
+
+If you change the start time for a single appointment, the rule is not affected. The appointment is treated as an exception to the rule. The exception can be made un-exceptional by moving it back into line with the other appointments.
+
+> [!CAUTION]
+> Modifying the start or end date on a recurring appointment after it has been saved is a bad idea. Changing the time on a recurring appointment will work fine, but changing the date will only lead to confusion. **Changing the start time on an appointment will trigger an update on all subsequence recurrences** if you have set the update mode to this-and-forward.
+
 ## <a id="delete" />Delete follow-up using the Diary
 
 If you delete an invitation that you own from your Diary, this record also disappears from the invitees' diaries.
@@ -63,13 +78,11 @@ If one of the recipients of an invitation chooses to delete the record from thei
 ## Related topics
 
 * [Change Completed status of an activity][2]
-* [Edit repeating follow-ups][4]
 * [Stop repeating follow-ups][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
-[4]: recurrence/edit.md
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->

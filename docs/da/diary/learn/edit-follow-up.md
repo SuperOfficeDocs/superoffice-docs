@@ -4,7 +4,7 @@ title: Rediger opfølgning
 description: Åbn, rediger, slet opfølgning; Rediger sluttidspunkt for opfølgninger i dagbogen; Rediger eller slet invitation
 author: Bergfrid Dias
 so.date: 10.05.2023
-keywords: dagbog, opfølgning, invitation, aftale, oppgave, telefonopkald
+keywords: dagbog, opfølgning, invitation, aftale, oppgave, telefonopkald, gentag
 so.topic: howto
 language: da
 ---
@@ -48,6 +48,14 @@ På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden 
 > [!NOTE]
 > Du kan også ændre tidsintervallet ved at åbne opfølgningen og ændre felterne **Start**, **Slut**, **Forfalden** eller **Varighed** . Disse felter er beskrevet i [Dialogboksen til opfølgning][3].
 
+## <a id="repeat" />Rediger gentagne opfølgninger
+
+Ændringer fungerer på samme måde, som når du redigerer opfølgninger, men når du foretager en ændring, vises dialogboksen **Gentaget opfølgning**.
+
+* Hvis du vælger **Skift kun denne forekomst**, påvirker ændringen ikke andre tidspunkter.
+
+* Hvis du vælger **Skift alle fremtidige forekomster, herunder denne**, vil ændringen også gælde for denne opfølgning i fremtiden.
+
 ## <a id="delete" />Slet opfølgning ved hjælp af Dagbogen
 
 Hvis du sletter en invitation, som du ejer, fra din Dagbog, forsvinder denne post også fra de inviteredes dagbøger.
@@ -63,13 +71,11 @@ Hvis en af modtagerne af en invitation vælger at slette optegnelsen fra sin ege
 ## Relaterede emner
 
 * [Ændring af status Udført for en aktivitet][2]
-* [Redigering af gentagne opfølgninger][4]
 * [Stop af gentagne opfølgninger][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
-[4]: recurrence/edit.md
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->

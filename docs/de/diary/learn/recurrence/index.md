@@ -11,6 +11,8 @@ language: de
 
 # Regelmäßige Folgeaufgaben
 
+![Recurring follow-up dialog -screenshot][img1]
+
 Die **Häufigkeit** ist die Art und Weise, wie die Folgeaufgabe wiederholt wird. Das Muster kann täglich, wöchentlich, monatlich, jährlich oder in einem benutzerdefinierten Intervall wiederholt werden.
 
 Die verfügbaren Optionen für jede Häufigkeit.
@@ -55,8 +57,9 @@ Wenn keines der Muster für Sie anwendbar ist, können Sie die gewünschten Datu
 * [Regelmäßige Folgeaufgabe stoppen][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [3]: stop.md
 [4]: create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

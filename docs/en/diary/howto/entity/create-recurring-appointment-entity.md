@@ -36,6 +36,6 @@ Finally, the recurrence information is assigned to the matrix and the matrix is 
 
 <!-- Referenced links -->
 [1]: appointment-matrix.md
-[2]: ../../recurring-appointments.md
+[2]: ../../learn/recurrence/index.md
 
 <!-- Referenced images -->

@@ -11,6 +11,8 @@ language: nl
 
 # Herhalende vervolgactiviteiten
 
+![Recurring follow-up dialog -screenshot][img1]
+
 **Frequentie** is hoe de vervolgactiviteit wordt herhaald. Het patroon kan dagelijks, wekelijks, maandelijks, jaarlijks of herhaald worden met een door de gebruiker gedefinieerd interval.
 
 De beschikbare opties voor elke frequentie variëren.
@@ -55,8 +57,9 @@ Als geen van de patronen voor u werkt, kunt u handmatig de gewenste datums invoe
 * [Een herhalende vervolgactiviteit stoppen][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [3]: stop.md
 [4]: create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

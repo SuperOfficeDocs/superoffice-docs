@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Skapa en återkommande händelse
     href: create.md
-  - name: Redigera en återkommande händelse
-    href: edit.md
   - name: Stoppa en återkommande händelse
     href: stop.md

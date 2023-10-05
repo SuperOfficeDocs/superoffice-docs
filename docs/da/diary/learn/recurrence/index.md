@@ -11,6 +11,8 @@ language: da
 
 # Gentagelse af opfølgninger
 
+![Recurring follow-up dialog -screenshot][img1]
+
 **Frekvens** er, hvordan opfølgningen gentages. Mønsteret kan være dagligt, ugentligt, månedligt, årligt eller gentages med et brugerdefineret interval.
 
 De tilgængelige indstillinger for hver frekvens varierer.
@@ -55,8 +57,9 @@ Hvis ingen af mønstrene fungerer for dig, kan du manuelt angive de datoer, du h
 * [Stop en gentagen opfølgning][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [3]: stop.md
 [4]: create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

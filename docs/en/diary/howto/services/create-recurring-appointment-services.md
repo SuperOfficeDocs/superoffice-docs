@@ -38,6 +38,6 @@ Next, the recurrence pattern is created using the `CalculateDays` method of the 
 
 <!-- Referenced links -->
 [1]: ../../../api/web-services/index.md
-[2]: ../../recurring-appointments.md
+[2]: ../../learn/recurrence/index.md
 
 <!-- Referenced images -->

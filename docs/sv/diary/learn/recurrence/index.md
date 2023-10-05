@@ -11,6 +11,8 @@ language: sv
 
 # Upprepa händelser
 
+![Recurring follow-up dialog -screenshot][img1]
+
 **Förekomst** beskriver hur händelsen upprepas. Mönstret kan vara dagligen, veckovis, månadsvis, årligen eller upprepning med ett användardefinierat intervall.
 
 Vilka alternativ som är tillgängliga för varje förekomst varierar.
@@ -55,8 +57,9 @@ Om inget av mönstren fungerar kan du ange önskade datum manuellt.
 * [Stoppa en återkommande händelse][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [3]: stop.md
 [4]: create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/diary/recurrence-dialog.png

@@ -4,7 +4,7 @@ uid: diary-howto
 description: How to work with appointments at multiple levels of NetServer.
 author: Bergfrid Skaara Dias
 so.date: 10.05.2023
-keywords: diary, calendar, appointment, API, associate, call, task, todo, follow-up
+keywords: diary, calendar, appointment, API, associate, call, task, todo, follow-up, recurrence, recurrencerule, frequency, pattern
 so.topic: howto
 ---
 
@@ -15,6 +15,11 @@ so.topic: howto
 Appointments are the foundation of the SuperOffice diary. **Follow-up** is a collective term for **appointments**, **phone calls**, and **tasks**. These entities are always tied to an [associate][39] and have some form of time reference.
 
 Associate acts as the owner of the appointment. If you don't assign an associate to the `Associate` property of the appointment, the current user will become the owner of the appointment and only one row will be added to the appointment table when the appointment is saved.
+
+A repeating follow-up is a series of appointments, tasks, or calls scheduled to occur at regular intervals. For example, a weekly status meeting. A recurring appointment is stored in two parts:
+
+* A recurrence rule, which defines the pattern of the recurrence
+* All the appointments created by the recurrence are created in the [appointment table][30], and each one points to the recurrence rule that defines it.
 
 Follow-ups are part of a broader group of entities labeled **activities**:
 
@@ -70,6 +75,51 @@ When two appointments have a shared text record and different status values it c
 * [Accept invitation - web services][27]
 * [Accept invitation - entity][24]
 * [Accept invitation - raw SQL][22]
+
+## Recurrence
+
+* [Create recurring appointment - CRMScript][46]
+* [Create recurring appointment - web services][44]
+* [Create recurring appointment - entity layer][42]
+
+**See also:**
+
+* [recurrencerule table][41]
+* [RecurrencePattern enum][45]
+
+### Example (SQL)
+
+The system generates appointment records for all the recurrence instances:
+
+```SQL
+SELECT appointment_id, associate_id, activeDate, type, status, recurrenceRuleId 
+FROM appointment WHERE recurrenceRuleId = 1
+```
+
+| appointment_id | associate_id | activeDate | type | status | recurrenceRuleId |
+|---|---|---|---|---|---|
+| 264 | 15 | 2021-11-04 11:30:00 | 1 | 1 | 1 |
+| 267 | 15 | 2021-11-09 11:30:00 | 1 | 1 | 1 |
+| 268 | 15 | 2021-11-11 11:30:00 | 1 | 1 | 1 |
+| 269 | 15 | 2021-11-16 11:30:00 | 1 | 1 | 1 |
+| 270 | 15 | 2021-11-18 11:30:00 | 1 | 1 | 1 |
+| 271 | 15 | 2021-11-23 11:30:00 | 1 | 1 | 1 |
+
+Let's look at the rule:
+
+```SQL
+SELECT * FROM recurrencerule WHERE recurrencerule_id = 1
+```
+
+| RecurrenceRule_id | pattern | subPattern | startDate | endDate | cyclicDay | cyclicWeek | cyclicMonth|
+|---|---|---|---|---|---|---|---|
+| 1 | 2 | 0 | 2021-11-04 11:30:00 | 2022-01-27 12:00:00 | 0 | 1 | 0 |
+
+This recurrence rule has:
+
+* pattern = 2 (weekly) (corresponds to the radio-button choice in the dialog).
+* subPattern = 0 (none)
+* cyclicWeek = 1  = "every 1 week(s)"
 
 ## How-tos by API
 
@@ -144,6 +194,73 @@ For a complete list of fields, see the [database reference][30].
 | 9  | User has declined the meeting |
 | 10 | Meeting is canceled |
 
+### Frequency
+
+| Value | Description | Comment | Example |
+|:--|:--|:--|:--|
+| daily | every working day<br>every day of the week | or custom | every other day |
+| weekly | every week on given day | must set weekday | every 3 weeks on Tuesday |
+| monthly | every month on given day | must set day of month  | on the 5th of the month, every 4th month |
+| yearly | every year on given date | must set day and month | every 23rd of September |
+
+A **cycle** is the number of days between each recurrence.
+
+The enum values correspond to what you see in the **Pattern** dialog.
+
+### Enum RecurrencePattern
+
+| Value | Description |
+|:-:|:--|
+| 0 | unknown |
+| 1 | daily |
+| 2 | weekly |
+| 3 | monthly |
+| 4 | yearly |
+| 5 | custom |
+
+### Enum RecurrenceSubPattern
+
+| Value | Name | Type | Description |
+|:-:|:--|---|---|
+| 0 | Unknown | | |
+| 1 | EveryWorkday| daily | Mon-Fri |
+| 2 | EveryWeekday | daily | Mon-Sun |
+| 3 | EveryCyclicDay | daily | cyclic interval of days |
+| 4 | DayOfMonth | weekly | repeat on day n of the month<br>ex: the 17th day of every 2 months |
+| 5 | WeekdayOfMonth | weekly | repeat on given weekday <br>ex: the 3rd Thursday of every 3 months |
+| 6 | DayOfMonth | yearly | repeat on given date every year |
+| 7 | WeekdayOfMonth | yearly | repeat on given weekdays of month<br>ex: the 3rd Thursday of every August |
+
+> [!CAUTION]
+> The **sub-pattern should match the pattern**. There is little error-checking if you mix the wrong set. You can set pattern = yearly and sub-pattern = dailyEveryDay and something strange will probably happen.
+
+#### Weekdays
+
+| Value | Weekday |
+|:-:|:--|
+| 0 | Unknown |
+| 1 | Monday |
+| 2 | Tuesday |
+| 4 | Wednesday |
+| 8 | Thursday |
+| 16 | Friday |
+| 32 | Saturday |
+| 64 | Sunday |
+
+> [!TIP]
+> Enumeration flag values can be combined.
+
+#### Week of month
+
+| Value | Description |
+|:-:|:--|
+| 0 | Unknown |
+| 1 | The 1st week of the month |
+| 2 | The 2nd week of the month |
+| 3 | The 3rd week of the month |
+| 4 | The 4th week of the month |
+| 5 | The last week of the month |
+
 <!-- Referenced links -->
 [1]: entity/create-apt-entity.md
 [2]: entity/create-apt-entity-in-entity.md
@@ -179,5 +296,11 @@ For a complete list of fields, see the [database reference][30].
 [37]: ../../automation/chatbot/index.md
 [38]: ../learn/follow-ups.md
 [39]: ../../contact/associate.md
+
+[41]: ../../database/tables/recurrencerule.md
+[45]: ../../database/tables/enums/recurrencepattern.md
+[42]: entity/create-recurring-appointment-entity.md
+[44]: services/create-recurring-appointment-services.md
+[46]: crmscript/create-recurring-appointment.md
 
 <!-- Referenced images -->

@@ -35,6 +35,6 @@ Als u de herhalende vervolgactiviteit stopt, worden alle herhalingen van de verv
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: edit.md
+[2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->

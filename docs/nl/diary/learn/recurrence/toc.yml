@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Een terugkerende vervolgactiviteit maken
     href: create.md
-  - name: Een terugkerende vervolgactiviteit bewerken
-    href: edit.md
   - name: Een terugkerende vervolgactiviteit stoppen
     href: stop.md

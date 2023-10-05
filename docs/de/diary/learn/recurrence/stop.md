@@ -35,6 +35,6 @@ Wenn Sie eine regelmäßige Folgeaufgabe stoppen, werden alle Instanzen der Folg
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: edit.md
+[2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->

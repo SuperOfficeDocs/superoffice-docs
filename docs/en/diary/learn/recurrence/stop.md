@@ -35,6 +35,6 @@ When you stop the repeating follow-up, all instances of the follow-up *after* th
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: edit.md
+[2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->

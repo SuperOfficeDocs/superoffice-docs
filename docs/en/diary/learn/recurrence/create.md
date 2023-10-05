@@ -63,7 +63,7 @@ In the **Appointment**, **Task** or **Phone call** dialog, the text next to the 
 * [Stop repeating follow-ups][3]
 
 <!-- Referenced links -->
-[1]: edit.md
+[1]: ../edit-follow-up.md#repeat
 [2]: ../invitation/accept-decline.md
 [3]: stop.md
 [4]: index.md
