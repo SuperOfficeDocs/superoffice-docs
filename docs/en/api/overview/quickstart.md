@@ -61,7 +61,8 @@ Accept: application/json
 
 ## Practical example
 So now that you have your ticket and know how to set the headers, how do you proceed to actually do something towards the API?
-To keep this example as simple as possible we will be using the RESTful REST to [POST new appointmentEntity][4] connected to a specific contactId, then we will [JSON MERGE PATCH][5] the appointment to also connect it to a personId. 
+
+To keep this example as simple as possible we will be using the RESTful REST to [POST new appointmentEntity][4] connected to a specific contactId, then we will [JSON MERGE PATCH][5] the appointment to also connect it to a personId.
 
 When you POST a new appointment to SuperOffice it will automatically create a new AppointmentEntity based on the system settings, and then set any value you pass inn as the body of the request. We also add a Description to the example, so that its easier to find the appointment inside SuperOffice (if you want to check that it got created):
 
@@ -115,6 +116,10 @@ The returned json-string looks something like this (The ..... in the nested obje
   "StartDate": "2023-10-05T14:17:57",
   "EndDate": "2023-10-05T15:17:57",
   "Person": null,
+  "Task": {
+        "TaskListItemId": 8,
+        ......
+  }
   ......
 }
 ```
@@ -305,14 +310,15 @@ Body: {
 ```
 ***
 
-This example shows howto:
-Create a new AppointmentEntity
-JSON PATCH is with a contactId
-Find MDList for Task
-JSON MERGE PATCH the AppointmentEntity with correct TaskListItem. 
+
+To summarize we now have: 
+
+1. Create a new AppointmentEntity
+2. JSON PATCH is with a contactId
+3. Find MDList for Task
+4. JSON MERGE PATCH the AppointmentEntity with correct TaskListItem. 
 
 If you still are having issues with communicating with our API we very much appreciate feedback to make it more clear and informative, so feel free to either give feedback directly on this page OR head over to our docs-repo and create an issue there!
-
 
 
 ## Optimization
