@@ -1,10 +1,10 @@
 ---
 uid: help-no-follow-up-edit
 title: Redigere oppfølging
-description: Åpne og redigere og slette oppfølginger; endre sluttidspunktet for en oppfølging i dagboken.
+description: Åpne og redigere og slette oppfølginger; endre sluttidspunktet for en oppfølging i dagboken; redigere eller slette invitasjon.
 author: Bergfrid Dias
-so.date: 09.27.2023
-keywords: dagbok, oppfølging
+so.date: 10.05.2023
+keywords: dagbok, oppfølging, invitasjon, avtale, oppgave, samtale
 so.topic: howto
 language: no
 ---
@@ -12,6 +12,8 @@ language: no
 # Redigere oppfølging
 
 [!include[Note](includes/note-edit-followup.md)]
+
+Hvis du redigerer eller sletter en invitasjon du selv har opprettet og sendt, får de inviterte deltakerne beskjed om dette.
 
 ## Trinn
 
@@ -48,6 +50,10 @@ I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte �
 
 ## <a id="delete" />Slette oppfølging ved hjelp av dagboken
 
+Hvis du redigerer eller sletter en invitasjon du selv har opprettet og sendt, får de inviterte deltakerne beskjed om dette. Hvis du sletter en invitasjon du selv eier, fra dagboken din, forsvinner oppføringen fra dagbøkene til alle inviterte deltakere også.
+
+Hvis en av mottakerne av en invitasjon velger å slette oppføringen fra dagboken sin, slettes den bare i mottakerens dagbok. Oppføringen vil da vises i dialogboksen **Invitasjoner**, slik at den kan finnes igjen og godtas senere.
+
 1. Merk ønsket oppfølging.
 2. Høyreklikk og velg **Slett**.
 3. Bekreft eller avbryt slettingen i bekreftelsesdialogboksen.
@@ -57,9 +63,13 @@ I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte �
 ## Aktuelle emner
 
 * [Endre Utført-status for en aktivitet][2]
+* [Redigere repeterende oppfølginger][4]
+* [Stoppe repeterende oppfølginger][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
+[4]: recurrence/edit.md
+[5]: recurrence/stop.md
 
 <!-- Referenced images -->

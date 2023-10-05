@@ -1,10 +1,10 @@
 ---
 uid: help-sv-follow-up-edit
 title: Redigera händelser
-description: Öppna, redigera, eller ta bort händelse i kalendern; Ändra sluttid för en händelse i kalendern
+description: Öppna, redigera, eller ta bort händelse i kalendern; Ändra sluttid för en händelse i kalendern; Redigera eller ta bort förfrågan
 author: Bergfrid Dias
 so.date: 09.27.2023
-keywords: kalender, händelse
+keywords: kalender, händelse, förfrågan, bokning, uppgift, samtal
 so.topic: howto
 language: sv
 ---
@@ -12,6 +12,8 @@ language: sv
 # Redigera händelse
 
 [!include[Note](includes/note-edit-followup.md)]
+
+Om du redigerar eller tar bort en förfrågan som du har skapat och skickat får mottagarna ett meddelande om detta.
 
 ## Steg
 
@@ -48,6 +50,10 @@ I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna d
 
 ## <a id="delete" />Ta bort händelse i kalendern
 
+Om du tar bort en förfrågan som du äger från din kalender försvinner posten även från de inbjudna personernas kalendrar.
+
+Om en mottagare av en förfrågan väljer att ta bort posten från sin egen kalender tas den bara bort från hans/hennes kalender. Posten visas sedan i dialogrutan **Förfrågningar** så att den kan hittas och accepteras senare.
+
 1. Välj önskad händelse.
 2. Högerklicka och välj **Ta bort**.
 3. Bekräfta eller avbryt borttagningen i dialogrutan för bekräftelse.
@@ -57,9 +63,13 @@ I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna d
 ## Relaterade ämnen
 
 * [Ändra Slutfört-status för en aktivitet][2]
+* [Redigera återkommande händelser][4]
+* [Stoppa återkommande händelser][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
+[4]: recurrence/edit.md
+[5]: recurrence/stop.md
 
 <!-- Referenced images -->

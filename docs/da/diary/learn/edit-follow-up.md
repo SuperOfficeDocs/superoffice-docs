@@ -1,10 +1,10 @@
 ---
 uid: help-da-follow-up-edit
 title: Rediger opfølgning
-description: Åbn, rediger, slet opfølgning; Rediger sluttidspunkt for opfølgninger i dagbogen
+description: Åbn, rediger, slet opfølgning; Rediger sluttidspunkt for opfølgninger i dagbogen; Rediger eller slet invitation
 author: Bergfrid Dias
-so.date: 09.27.2023
-keywords: dagbog, opfølgning
+so.date: 10.05.2023
+keywords: dagbog, opfølgning, invitation, aftale, oppgave, telefonopkald
 so.topic: howto
 language: da
 ---
@@ -12,6 +12,8 @@ language: da
 # Rediger opfølgning
 
 [!include[Note](includes/note-edit-followup.md)]
+
+Hvis du redigerer eller sletter en invitation, du har oprettet og sendt, modtager de inviterede en meddelelse om dette.
 
 ## Trin
 
@@ -48,6 +50,10 @@ På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden 
 
 ## <a id="delete" />Slet opfølgning ved hjælp af Dagbogen
 
+Hvis du sletter en invitation, som du ejer, fra din Dagbog, forsvinder denne post også fra de inviteredes dagbøger.
+
+Hvis en af modtagerne af en invitation vælger at slette optegnelsen fra sin egen dagbog, slettes den kun fra sin dagbog. Posten vises derefter i dialogboksen **Invitationer** så den kan findes og accepteres senere.
+
 1. Vælg den ønskede opfølgning.
 2. Højreklik, og vælg **Slet**.
 3. Bekræft eller annuller sletningen i bekræftelsesdialogboksen.
@@ -57,9 +63,13 @@ På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden 
 ## Relaterede emner
 
 * [Ændring af status Udført for en aktivitet][2]
+* [Redigering af gentagne opfølgninger][4]
+* [Stop af gentagne opfølgninger][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
+[4]: recurrence/edit.md
+[5]: recurrence/stop.md
 
 <!-- Referenced images -->

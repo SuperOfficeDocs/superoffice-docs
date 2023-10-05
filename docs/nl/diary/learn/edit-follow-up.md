@@ -3,8 +3,8 @@ uid: help-nl-follow-up-edit
 title: Vervolgactiviteiten bewerken
 description: Vervolgactiviteiten openen, bewerken, verwijderen via de agenda; De eindtijd voor een vervolgactiviteit in de agenda wijzigen
 author: Bergfrid Dias
-so.date: 09.27.2023
-keywords: agenda, vervolgactiviteit
+so.date: 10.05.2023
+keywords: agenda, vervolgactiviteit, uitnodiging, afspraak, taak, gesprek
 so.topic: howto
 language: nl
 ---
@@ -12,6 +12,8 @@ language: nl
 # Vervolgactiviteit bewerken
 
 [!include[Note](includes/note-edit-followup.md)]
+
+Als u een uitnodiging die u hebt aangemaakt en verzonden, bewerkt of verwijdert, wordt er hierover een bericht gestuurd aan de genodigden.
 
 ## Stappen
 
@@ -48,6 +50,10 @@ U kunt als volgt de eindtijd voor een vervolgactiviteit wijzigen in het scherm A
 
 ## <a id="delete" />Vervolgactiviteit verwijderen via de agenda
 
+Als u een uitnodiging waarvan u de eigenaar bent verwijdert uit uw agenda, wordt deze record ook verwijderd uit de agenda's van de genodigden.
+
+Als een van de ontvangers van een uitnodiging de record verwijdert, wordt deze slechts verwijderd uit zijn/haar eigen agenda. De record wordt vervolgens weergegeven in het dialoogvenster **Uitnodigingen**, zodat deze later kan worden gevonden en geaccepteerd.
+
 1. Selecteer de gewenste vervolgactiviteit.
 2. Klik met de rechtermuisknop en kies **Verwijderen**.
 3. Bevestig of annuleer de verwijdering in het bevestigingsdialoogvenster.
@@ -57,9 +63,13 @@ U kunt als volgt de eindtijd voor een vervolgactiviteit wijzigen in het scherm A
 ## Verwante onderwerpen
 
 * [De status Voltooid voor een activiteit wijzigen][2]
+* [Herhalende vervolgactiviteiten bewerken][4]
+* [Herhalende vervolgactiviteiten stoppen][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
+[4]: recurrence/edit.md
+[5]: recurrence/stop.md
 
 <!-- Referenced images -->

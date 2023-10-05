@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Legge til deltakere i oppfølging
     href: add-participant.md
-  - name: Redigere eller slette invitasjon
-    href: update.md
   - name: Godta eller avslå invitasjon
     href: accept-decline.md

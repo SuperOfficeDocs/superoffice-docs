@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Føj deltagere til opfølgning
     href: add-participant.md
-  - name: Rediger eller slet invitation
-    href: update.md
   - name: Accepter eller afvis invitation
     href: accept-decline.md

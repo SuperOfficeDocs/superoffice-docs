@@ -1,10 +1,10 @@
 ---
 uid: help-en-follow-up-edit
 title: Edit follow-up
-description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary
+description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation
 author: Bergfrid Dias
-so.date: 09.27.2023
-keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
+so.date: 10.05.2023
+keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
 so.topic: howto
 language: en
 ---
@@ -12,6 +12,8 @@ language: en
 # Edit follow-up
 
 [!include[Note](includes/note-edit-followup.md)]
+
+If you edit or delete an invitation that you created and sent, the invitees will receive a message about this.
 
 ## Steps
 
@@ -48,6 +50,10 @@ In the Diary screen, you can change the end time for a follow-up without having 
 
 ## <a id="delete" />Delete follow-up using the Diary
 
+If you delete an invitation that you own from your Diary, this record also disappears from the invitees' diaries.
+
+If one of the recipients of an invitation chooses to delete the record from their own diary, it is deleted from their diary only. The record will then appear in the **Invitations** dialog, so that it can be found and accepted later on.
+
 1. Select the required follow-up.
 2. Right-click and choose **Delete**.
 3. Confirm or cancel the deletion in the confirmation dialog.
@@ -57,9 +63,13 @@ In the Diary screen, you can change the end time for a follow-up without having 
 ## Related topics
 
 * [Change Completed status of an activity][2]
+* [Edit repeating follow-ups][4]
+* [Stop repeating follow-ups][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
+[4]: recurrence/edit.md
+[5]: recurrence/stop.md
 
 <!-- Referenced images -->

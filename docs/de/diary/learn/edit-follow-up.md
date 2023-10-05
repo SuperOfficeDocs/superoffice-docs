@@ -1,10 +1,10 @@
 ---
 uid: help-de-follow-up-edit
 title: Folgeaufgaben bearbeiten
-description: Folgeaufgaben öffnen, bearbeiten, aus dem Kalender löschen; Endzeitpunkt für eine Folgeaufgabe im Kalender ändern
+description: Folgeaufgaben öffnen, bearbeiten, aus dem Kalender löschen; Endzeitpunkt für eine Folgeaufgabe im Kalender ändern; Einladung bearbeiten oder löschen
 author: Bergfrid Dias
-so.date: 09.27.2023
-keywords: Kalender, Folgeaufgabe
+so.date: 10.05.2023
+keywords: Kalender, Folgeaufgabe, Einladung, Termin, Aufgabe, Anruf
 so.topic: howto
 language: de
 ---
@@ -12,6 +12,8 @@ language: de
 # Folgeaufgabe bearbeiten
 
 [!include[Note](includes/note-edit-followup.md)]
+
+Wenn Sie eine erstellte und gesendete Einladung bearbeiten oder löschen, werden die Eingeladenen mit einer Mitteilung darüber verständigt.
 
 ## Schritte
 
@@ -48,6 +50,10 @@ Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern,
 
 ## <a id="delete" />Folgeaufgabe aus dem Kalender löschen
 
+Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet dieser Datensatz auch aus den Kalendern der Eingeladenen.
+
+Wenn einer der Empfänger einer Einladung den Datensatz von seinem eigenen Kalender löscht, wird der Datensatz nur in seinem Kalender gelöscht. Die Folgeaufgabe erscheint dann im Dialogfeld **Einladungen**, sodass sie später wiedergefunden und angenommen werden kann.
+
 1. Wählen Sie die gewünschte Folgeaufgabe aus.
 2. Klicken Sie mit der rechten Maustaste, und wählen Sie **Löschen**.
 3. Bestätigen oder brechen Sie den Löschvorgang im Dialogfeld Bestätigung ab.
@@ -57,9 +63,13 @@ Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern,
 ## Verwandte Themen
 
 * [Status Abgeschlossen für eine Aktivität ändern][2]
+* [Regelmäßige Folgeaufgaben bearbeiten][4]
+* [Regelmäßige Folgeaufgaben stoppen][5]
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: screen/dialog-for-followups.md
+[4]: recurrence/edit.md
+[5]: recurrence/stop.md
 
 <!-- Referenced images -->

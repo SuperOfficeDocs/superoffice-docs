@@ -3,7 +3,5 @@ items:
     href: index.md
   - name: Add participants to follow-up
     href: add-participant.md
-  - name: Edit or delete invitation
-    href: update.md
   - name: Accept or decline
     href: accept-decline.md
