@@ -1,9 +1,9 @@
 ---
 uid: help-sv-invitation-add-participant
 title: Lägga till deltagare i händelser
-description: "Att bjuda in kontakter till en bokning görs på olika sätt beroende på om det är en intern eller extern person, eller en resurs, till exempel ett mötesrum eller specialutrustning. Den här guiden beskriver hur du lägger till deltagare i en bokning."
-author: SuperOffice RnD
-so.date: 02.10.2023
+description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning."
+author: Bergfrid Dias
+so.date: 10.04.2023
 keywords: kalender, händelse, förfrågan, deltagare
 so.topic: howto
 language: sv
@@ -30,20 +30,37 @@ Bjud in en kontakt till en bokning från deltagarfliken genom att klicka på kna
     * Om du har valt **Medarbetare** eller **Resurser** i steg 3 kan du välja **Alla** i listrutan, så visas kontakter eller resurser från alla grupperna.
     * Om du har valt **Företag/kontakt**, **Projekt** eller **Urval** i steg 3 kan du söka efter företag, kontakt, projekt eller urval i det här fältet.
 
-5. När du har valt källa visas en lista över alla poster som finns tillgängliga för källan. Markera de användare eller resurser som ska inkluderas i händelsen och klicka på pilknappen till höger om listan (![ikon][img2]). De visas då i fönstrets högra del. Du kan lägga till användare och resurser en i taget genom att dubbelklicka på dem.
+5. När du har valt källa visas en lista över alla poster som finns tillgängliga för källan. Markera de användare eller resurser som ska inkluderas i händelsen och klicka på pilknappen till höger om listan ![ikon][img2]. De visas då i fönstrets högra del. Du kan lägga till användare och resurser en i taget genom att dubbelklicka på dem.
 
     > [!NOTE]
     > Om någon eller några av personerna är upptagen vid den angivna tidpunkten visas deras namn med rött, så att du enkelt ser om du bör hitta en annan tidpunkt för händelsen. Du kan också bjuda in dem till den nya bokningen och deras sökträff visas då med rött och ordet "KONFLIKT" i dialogrutan för händelser.
 
-6. Klicka på knappen **E-postförfrågan** för att aktivera e-postförfrågningar för alla deltagare på listan (utom dig själv). Ikonen ![ikon][img1] till vänster om deltagarens namn betyder att en e-postförfrågan för händelsen kommer att skickas till deltagaren. Klicka på ![ikon][img1] ikonen bredvid en deltagares namn för att inaktivera e-postförfrågan för denna deltagare. Ikonen ![ikon][img1] ändras till inaktiv (![ikon][img3]) och deltagaren får ingen förfrågan via e-post.
+6. Klicka på knappen **E-postförfrågan** för att aktivera e-postförfrågningar för alla deltagare på listan (utom dig själv). Ikonen ![ikon][img1] till vänster om deltagarens namn betyder att en e-postförfrågan för händelsen kommer att skickas till deltagaren. Klicka på ![ikon][img1] ikonen bredvid en deltagares namn för att inaktivera e-postförfrågan för denna deltagare. Ikonen ![ikon][img1] ändras till inaktiv ![ikon][img3] och deltagaren får ingen förfrågan via e-post.
 
 7. Stäng dialogrutan **Förfrågan** genom att klicka på **OK**. Du ser nu de valda deltagarna och resurserna på fliken **Deltagare**. Du kan klicka på knappen **E-postförfrågan** och ![ikon][img1]-ikonen för att aktivera/inaktivera e-postförfrågningar på samma sätt som i föregående steg.
-    Om någon eller några av kontakterna du har valt inte har en giltig e-postadress registrerad i SuperOffice CRM ändras ![ikon][img1]-ikonen till inaktiv (![ikon][img3]) på fliken **Deltagare**.
+    Om någon eller några av kontakterna du har valt inte har en giltig e-postadress registrerad i SuperOffice CRM ändras ![ikon][img1]-ikonen till inaktiv ![ikon][img3] på fliken **Deltagare**.
 
     > [!NOTE]
     > Om du har valt användare eller resurser av misstag markerar du dem i listan längst till höger och klickar på **Ta bort** för att ta bort dem.
 
 8. När du har valt deltagare och resurser klickar du på **Spara** för att spara dina val, eller på **Avbryt** för att stänga dialogrutan utan att spara.
+
+## Vad händer härnäst
+
+1. När du har sparat händelsen visas den i dialogrutan **Förfrågningar** i SuperOffice CRM för den andra personen.
+
+2. Om den andra kontakten avslår förfrågan visas den som avböjd i dialogrutan **Förfrågningar** hos dig.
+
+3. Nu kan du klicka på knappen **Sök ny tid** och söka efter en ny tid som passar. Dialogrutan för händelser visas, där du kan ange en ny tid. Upprepa tills du hittar en tidpunkt som passar.
+
+> [!TIP]
+> Om det finns mycket information i listan över förfrågningar och du bara vill visa svar från andra som du har skickat förfrågningar till kan du filtrera listan med kryssrutan **Visa svar**.
+
+### Hur anger jag att en extern kontakt har accepterat eller avböjt förfrågan?
+
+Externa deltagare meddelas via e-post (om du har valt detta alternativ i dialogrutan Förfrågan). E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din förfrågan uppdateras [statusen][1] automatiskt i SuperOffice.
+
+Om du manuellt vill tacka ja eller nej till en förfrågan för någon annans räkning väljer du namnet i listan och klickar en gång på knappen **Byt status** för att infoga en grön bock, som visar att förfrågan har godtagits, eller två gånger för att infoga ett rött kryss som visar att förfrågan har avböjts.
 
 ## Felsökning
 
@@ -54,12 +71,6 @@ Om den valda kontakten inte har en giltig e-postadress i SuperOffice CRM händer
 ### Varför är knappen E-postförfrågan inaktiverad?
 
 Använda inkorgen i SuperOffice: Om du inte har angett de obligatoriska uppgifterna i fönstret **Inloggning** som visas första gången du klickar på knappen **Inkorg** i SuperOffice CRM är knappen **E-postförfrågan** inaktiverad.
-
-### Hur anger jag att en extern kontakt har accepterat eller avböjt förfrågan?
-
-Externa deltagare meddelas via e-post (om du har valt detta alternativ i dialogrutan Förfrågan). E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din förfrågan uppdateras [statusen][1] automatiskt i SuperOffice.
-
-Om du manuellt vill tacka ja eller nej till en förfrågan för någon annans räkning väljer du namnet i listan och klickar en gång på knappen **Byt status** för att infoga en grön bock, som visar att förfrågan har godtagits, eller två gånger för att infoga ett rött kryss som visar att förfrågan har avböjts.
 
 ## Relaterat innehåll
 

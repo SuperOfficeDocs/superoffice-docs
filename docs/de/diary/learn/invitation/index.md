@@ -2,9 +2,9 @@
 uid: help-de-invitation
 title: Folgeaufgaben bei anderen Mitarbeitern eintragen
 description: Folgeaufgaben bei anderen Mitarbeitern eintragen
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Kalender, Folgeaufgabe
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: Kalender, Folgeaufgabe, Einladung
 so.topic: howto
 language: de
 ---
@@ -37,6 +37,14 @@ Es ist möglich, eine Ressource doppelt zu buchen. Ist eine Ressource zur fragli
 Die Personen, die Sie im Dialogfeld **Einladung** unter **Firma** wählen, sind normalerweise keine Mitglieder Ihres Unternehmens. Sie können ihnen mittels der Option **E-Mail-Einladung** eine Einladung per E-Mail senden. Einladungs-E-Mails, die an externe Kontakte gesendet werden, enthalten eine iCal-Datei (.ics) mit den Einladungsdaten. Wenn sie auf eine Einladung reagieren, wird der Status in SuperOffice automatisch aktualisiert.
 
 Die Folgeaufgabe wird auf der Bereichsregisterkarte **Aktivitäten** der betreffenden Firma angezeigt.
+
+## Antworten auf Einladungen behandeln
+
+Wenn Sie eine Einladung versenden, kann der Empfänger sie annehmen oder ablehnen.
+
+* Bei einer Ablehnung können Sie die Nachverfolgung neu planen oder neu zuweisen.
+
+* Wenn die Person die Einladung annimmt, wird diese nicht mehr im Dialogfeld **Einladungen** angezeigt und stattdessen auf die übliche Art und Weise in SuperOffice erfasst.
 
 ## Was möchten Sie tun?
 

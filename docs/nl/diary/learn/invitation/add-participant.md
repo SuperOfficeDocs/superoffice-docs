@@ -1,9 +1,9 @@
 ---
 uid: help-nl-invitation-add-participant
 title: Deelnemers toevoegen aan vervolgactiviteiten
-description: "Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan, afhankelijk van of het een interne of externe persoon is, of een bron, zoals een vergaderruimte of speciale apparatuur. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen."
-author: SuperOffice RnD
-so.date: 02.10.2023
+description: "Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen."
+author: Bergfrid Dias
+so.date: 10.04.2023
 keywords: agenda, vervolgactiviteit, uitnodiging, deelnemer
 so.topic: howto
 language: nl
@@ -45,6 +45,23 @@ Nodig een contactpersoon uit voor een afspraak op het tabblad Deelnemers door op
 
 8. Nadat u deelnemers en bronnen hebt gekozen, klikt u op **Opslaan** of kiest u **Annuleren** om het dialoogvenster te sluiten zonder de wijzigingen op te slaan.
 
+## Wat gebeurt er hierna
+
+1. Wanneer u een vervolgactiviteit hebt opgeslagen, wordt deze weergegeven in het dialoogvenster **Uitnodigingen** in SuperOffice CRM van de andere persoon.
+
+2. Als de andere persoon de uitnodiging weigert, wordt het in uw dialoogvenster **Uitnodigingen** als geweigerd weergegeven.
+
+3. U kunt nu op de knop **Opnieuw plannen** klikken om een nieuwe geschikte tijd te zoeken. Het dialoogvenster Vervolgactiviteiten wordt weergegeven en u kunt een nieuwe tijd instellen. In de praktijk worden de punten 2 t/m 4 herhaald tot u een geschikte tijd vindt.
+
+> [!TIP]
+> Wanneer er veel informatie in de lijst met uitnodigingen staat en u wilt alleen de antwoorden van anderen weergeven, kunt u de lijst met het selectievakje **Antwoorden weergeven** filteren.
+
+### Hoe geef ik aan dat een externe persoon de uitnodiging heeft geaccepteerd of geweigerd?
+
+Externe deelnemers krijgen een bericht via e-mail (als u dit alternatief in het dialoogvenster Uitnodiging hebt geselecteerd). Uitnodigingsmails die naar externe contactpersonen worden verzonden, bevatten een iCal-bestand (.ics) met de uitnodigingsgegevens. Wanneer er op uw uitnodiging wordt gereageerd, wordt de [status][1] automatisch bijgewerkt in SuperOffice.
+
+Als u handmatig een uitnodiging namens iemand wilt accepteren of weigeren, selecteert u de naam in de lijst en klikt u vervolgens eenmaal op de knop **Status in-/uitschakelen** om een groen vinkje te plaatsen dat een geaccepteerde uitnodiging aangeeft of klikt u tweemaal om een rood kruisje te plaatsen voor een geweigerde uitnodiging.
+
 ## Troubleshooting
 
 ### Waarom gebeurt er niets wanneer ik op E-mailuitnodiging klik?
@@ -54,12 +71,6 @@ Wanneer voor de geselecteerde persoon geen geldig e-mailadres in SuperOffice CRM
 ### Waarom is de knop E-mailuitnodiging uitgeschakeld?
 
 Postvak IN in SuperOffice gebruiken: Als u de vereiste informatie niet hebt ingevoerd in het scherm **Aanmelden** dat wordt weergegeven als u de eerste keer op de knop **Postvak IN** klikt in SuperOffice CRM, wordt de knop **E-mailuitnodiging** uitgeschakeld.
-
-### Hoe geef ik aan dat een externe persoon de uitnodiging heeft geaccepteerd of geweigerd?
-
-Externe deelnemers krijgen een bericht via e-mail (als u dit alternatief in het dialoogvenster Uitnodiging hebt geselecteerd). Uitnodigingsmails die naar externe contactpersonen worden verzonden, bevatten een iCal-bestand (.ics) met de uitnodigingsgegevens. Wanneer er op uw uitnodiging wordt gereageerd, wordt de [status][1] automatisch bijgewerkt in SuperOffice.
-
-Als u handmatig een uitnodiging namens iemand wilt accepteren of weigeren, selecteert u de naam in de lijst en klikt u vervolgens eenmaal op de knop **Status in-/uitschakelen** om een groen vinkje te plaatsen dat een geaccepteerde uitnodiging aangeeft of klikt u tweemaal om een rood kruisje te plaatsen voor een geweigerde uitnodiging.
 
 ## Gerelateerde inhoud
 

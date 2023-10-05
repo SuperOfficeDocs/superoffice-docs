@@ -1,9 +1,9 @@
 ---
 uid: help-da-invitation-add-participant
 title: Tilføjelse af deltagere i opfølgninger
-description: "Invitation af kontakter til en aftale kan gøres på forskellige måder, afhængigt af om det er en intern eller en ekstern person eller en ressource, såsom et mødelokale eller specielt udstyr. Denne vejledning viser, hvordan du føjer deltagere til en aftale."
-author: SuperOffice RnD
-so.date: 02.10.2023
+description: "Invitation af kontakter til en aftale kan gøres på forskellige måder. Denne vejledning viser, hvordan du føjer deltagere til en aftale."
+author: Bergfrid Dias
+so.date: 10.04.2023
 keywords: dagbog, opfølgning, invitation, deltager
 so.topic: howto
 language: da
@@ -45,11 +45,16 @@ Inviter en kontakt til en aftale fra fanen deltagere ved at klikke på knappen *
 
 8. Når du er færdig med at vælge deltagere og ressourcer, skal du klikke på **Gem** for at gemme det, du har valgt, eller på **Afbryd** for at afslutte dialogboksen uden at gemme.
 
-## Fejlfinding
+## Hvad sker der herefter
 
-### Hvorfor sker der ikke noget, når jeg klikker på E-mailinvitation?
+1. Når du har gemt opfølgningen, vises den i dialogboksen **Invitationer** i SuperOffice CRM for den anden person.
 
-Hvis den valgte person ikke har en gyldig e-mailadresse registreret i SuperOffice CRM, vil der ikke ske noget, når du klikker på **E-mail-invitation**.
+2. Hvis den anden person afviser invitationen, vises den som afvist i dialogboksen **Invitationer** hos dig.
+
+3. Du kan nu klikke på knappen **Find ny tid** for at finde en ny tid, som passer. Dialogboksen for opfølgninger vises, og du kan angive en ny tid. Gentag til du finder et tidspunkt, som passer.
+
+> [!TIP]
+> Hvis du har mange oplysninger på listen med invitationer og kun vil vise tilbagemeldinger fra andre, kan du filtrere ved hjælp af afkrydsningsfeltet **Vis svar**.
 
 ### Hvorfor er knappen E-mailinvitation deaktiveret?
 
@@ -60,6 +65,12 @@ Brug af indbakken i SuperOffice: Hvis du ikke har angivet nødvendig information
 Eksterne deltagere bliver påmindet via e-mail (hvis du har valgt denne indstilling i dialogboksen Invitation). E-mails med invitationer, der sendes til eksterne kontaktpersoner, indeholder et iCal-arkiv (.ics) med invitationsdataene. Når de svarer på din invitation, opdateres [status][1] automatisk i SuperOffice.
 
 Hvis du vil acceptere eller afvise en invitation på vegne af en anden, skal du vælge navnet på listen og klikke én gang på knappen **Skift status** for at indsætte en grøn markering, som viser, at invitationen er accepteret, eller klikke to gange for at sætte et rødt kryds, som viser, at invitationen er afvist.
+
+## Fejlfinding
+
+### Hvorfor sker der ikke noget, når jeg klikker på E-mailinvitation?
+
+Hvis den valgte person ikke har en gyldig e-mailadresse registreret i SuperOffice CRM, vil der ikke ske noget, når du klikker på **E-mail-invitation**.
 
 ## Relateret indhold
 

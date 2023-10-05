@@ -2,9 +2,9 @@
 uid: help-nl-invitation
 title: Vervolgactiviteiten met andere medewerkers maken
 description: Vervolgactiviteiten met andere medewerkers maken
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: agenda, vervolgactiviteit
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: agenda, vervolgactiviteit, uitnodiging
 so.topic: howto
 language: nl
 ---
@@ -37,6 +37,14 @@ Het is mogelijk om een bron dubbel te boeken. Als een bron op een bepaald tijdst
 De mensen die u kiest onder **Bedrijf** in het dialoogvenster **Uitnodiging** zijn meestal geen leden van uw organisatie. U kunt ze de uitnodiging sturen via e-mail met de optie **Uitnodiging via e-mail**. Uitnodigingsmails die naar externe contactpersonen worden verzonden, bevatten een iCal-bestand (.ics) met de uitnodigingsgegevens. Wanneer er op uw uitnodiging wordt gereageerd, wordt de status automatisch bijgewerkt in SuperOffice.
 
 De vervolgactiviteit wordt op het sectietabblad **Activiteiten** voor het betreffende bedrijf weergegeven.
+
+## Antwoorden op uitnodigingen verwerken
+
+Wanneer u een uitnodiging verzendt, kan de ontvanger deze accepteren of weigeren.
+
+* Wanneer de ontvanger de uitnodiging weigert, kunt u de follow-up opnieuw plannen of opnieuw toewijzen, afhankelijk van het soort uitnodiging.
+
+* Als de persoon de uitnodiging accepteert, verdwijnt deze uit het dialoogvenster **Uitnodigingen** en wordt deze op de normale manier vastgelegd in SuperOffice CRM.
 
 ## Wat wilt u doen?
 

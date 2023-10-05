@@ -1,26 +1,34 @@
 ---
 uid: help-de-follow-up-assign
-title: Eine Folgeaufgabe einer anderen Person zuweisen
+title: Eine Folgeaufgabe zuweisen
 description: Eine Folgeaufgabe einer anderen Person zuweisen
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Kalender, Folgeaufgabe
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: Kalender, Folgeaufgabe, zuweisen, delegieren
 so.topic: howto
 language: de
 ---
 
-# Eine Folgeaufgabe einer anderen Person zuweisen
+# Folgeaufgabe delegieren
 
-Wenn Sie im Namen eines anderen Benutzers eine Folgeaufgabe erstellen, können Sie den Besitzer der Folgeaufgabe ändern (das heißt, die Folgeaufgabe wird einer anderen Person zugewiesen).
+Als zugeordnete Folgeaufgabe wird eine Folgeaufgabe bezeichnet, die Sie an eine andere Person delegiert haben.
 
 Beispiele: Ihr Kollege ist im Urlaub, muss aber einen Kunden anrufen, wenn er zurückkommt. Sie haben ein Treffen mit einem Kunden vereinbart, müssen es aber einer anderen Person übertragen.
+
+**Optionen:**
+
+* Eine Folgeaufgabe einer anderen Person zuweisen (Eigentümer ändern)
+* Neu zuweisen
+* [Termin für einen Mitarbeiter erstellen][2]
+
+## Eine Folgeaufgabe zuweisen
 
 1. [Öffnen oder erstellen Sie eine Folgeaufgabe][1].
 
 1. Wählen Sie einen Eigentümer aus. Führen Sie einen der folgenden Schritte aus:
 
     * Wählen Sie die Registerkarte **Details** und klicken Sie im Feld **Eigentümer** auf den Namen.
-    * Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** und wählen Sie **Zuweisen zu** aus.
+    * Klicken Sie auf der Schaltfläche **Aufgabe** ![Symbol][img1] und wählen Sie **Zuweisen zu** aus.
 
 1. Klicken Sie im Dialogfeld **Zuweisen zu** auf die Liste oben, um die anzuzeigenden Benutzer auszuwählen (Verlaufsliste, alle oder Gruppen).
 
@@ -28,10 +36,21 @@ Beispiele: Ihr Kollege ist im Urlaub, muss aber einen Kunden anrufen, wenn er zu
 
 1. Klicken Sie auf **OK** und **Speichern**.
 
-Die ausgewählte Person ist nun der Eigentümer der Folgeaufgabe und sieht sie in ihrem Kalender und ihrer Aktivitätenliste.
+Die ausgewählte Person ist nun der Eigentümer der Folgeaufgabe. Die Folgeaufgabe wird im Dialogfeld **Einladungen** der eingeladenen Person angezeigt und Sie sehen in ihrem Kalender und ihrer Aktivitätenliste.
+
+## Neu zuweisen
+
+Wenn die Person die Einladung ablehnt, wird sie in Ihrem eigenen Dialogfeld **Einladungen** entsprechend gekennzeichnet.
+
+1. Sie können nun auf die Schaltfläche **Neu zuweisen** klicken, um die Folgeaufgabe einer anderen Person zuzuweisen.
+
+2. Das Dialogfeld **Zuweisen zu** wird angezeigt, in dem Sie eine andere Person auswählen können, an die Sie die Aufgabe delegieren möchten.
+
+3. Die Folgeaufgabe wird nun im Dialogfeld **Einladungen** mit dem Status **Zugeordnet** aufgeführt.
 
 <!-- Referenced links -->
 [1]: create-follow-up.md
+[2]: create-follow-up.md#associate
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

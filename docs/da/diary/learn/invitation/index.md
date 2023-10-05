@@ -2,9 +2,9 @@
 uid: help-da-invitation
 title: Oprettelse af opfølgninger med dine medarbejdere
 description: Oprettelse af opfølgninger med dine medarbejdere
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: dagbog, opfølgning
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: dagbog, opfølgning, invitation, møde
 so.topic: howto
 language: da
 ---
@@ -37,6 +37,14 @@ Det er muligt at dobbeltbooke en ressource. Hvis en ressource ikke er ledig på 
 De personer, du vælger under **Firma** i dialogboksen **Invitation**, er normalt ikke medlemmer af din organisation. Du kan sende invitationen til dem via e-mail ved hjælp af indstillingen **E-mailinvitation**. E-mails med invitationer, der sendes til eksterne kontaktpersoner, indeholder et iCal-arkiv (.ics) med invitationsdataene. Når de svarer på din invitation, opdateres status automatisk i SuperOffice.
 
 Opfølgningen vises på detaljekortet **Aktiviteter** for det aktuelle firma.
+
+## Håndter tilbagemeldinger på invitationer
+
+Når du sender en invitation, kan modtageren af invitationen enten acceptere eller afvise invitationen.
+
+* Hvis modtageren afviser invitationen, kan du ændre tidspunktet eller tildele opfølgningen på ny, afhængigt af hvilken type invitation der er tale om.
+
+* Hvis personen accepterer invitationen, forsvinder den fra dialogboksen **Invitationer** og registreres i SuperOffice CRM på normal vis.
 
 ## Hvad ønsker du at foretage dig nu?
 

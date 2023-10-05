@@ -34,7 +34,7 @@ items:
     href: change-completed-status.md
   - name: Recurrence
     href: recurrence/toc.yml
-  - name: Assign a follow-up to someone else
+  - name: Assign follow-up (delegate)
     href: follow-up-assign.md
   - name: Sett alarm for follow-up
     href: set-alarm.md

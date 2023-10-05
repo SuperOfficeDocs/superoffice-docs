@@ -90,7 +90,7 @@ Klicken Sie auf die Schaltfläche **Schließen**, um das Dialogfeld zu schließe
 
 <!-- Referenced links -->
 [3]: ../recurrence/create.md
-[4]: response.md
+[4]: ../follow-up-assign.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/notice-new.png

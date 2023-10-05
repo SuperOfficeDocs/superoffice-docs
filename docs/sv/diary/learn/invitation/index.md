@@ -2,8 +2,8 @@
 uid: help-sv-invitation
 title: Skapa händelser med dina medarbetare
 description: Skapa händelser med dina medarbetare
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 10.04.2023
 keywords: kalender, händelse
 so.topic: howto
 language: sv
@@ -37,6 +37,14 @@ Resurser kan dubbelbokas. Om en resurs inte är ledig på den aktuella tidpunkte
 De kontakter som du väljer under **Företag** i dialogrutan **Förfrågan** tillhör normalt inte din egen organisation. Du kan skicka förfrågan till dem via e-post med hjälp av alternativet **E-postförfrågan**. E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din inbjudan kommer statusen automatiskt att uppdateras i SuperOffice.
 
 Händelsen visas på detaljkortet **Aktiviteter** under det aktuella företaget.
+
+## Hantera svar på förfrågningar
+
+När du skickar en förfrågan kan mottagaren välja att acceptera eller avböja den.
+
+* Om mottagaren avböjer förfrågan kan du ändra tiden eller omfördela uppföljningen, beroende på vilken typ av förfrågan det handlar om.
+
+* Om kontakten godtar förfrågan försvinner den från dialogrutan **Förfrågningar** och registreras som vanligt i SuperOffice CRM.
 
 ## Vad vill du göra?
 

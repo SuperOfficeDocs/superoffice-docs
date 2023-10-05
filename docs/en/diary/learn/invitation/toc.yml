@@ -7,5 +7,3 @@ items:
     href: update.md
   - name: Accept or decline
     href: accept-decline.md
-  - name: Handle response to invitations
-    href: response.md

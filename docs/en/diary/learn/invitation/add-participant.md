@@ -1,9 +1,9 @@
 ---
 uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
-description: Inviting contacts to an appointment can be done in different ways, depending on whether it's an internal or an external person, or a resource, such as a meeting room or special equipment. This how-to guide will show how you to add participants to an appointment.
-author: SuperOffice RnD
-so.date: 02.10.2023
+description: Inviting contacts to an appointment can be done in different ways. This how-to guide will show how you to add participants to an appointment.
+author: Bergfrid Dias
+so.date: 10.04.2023
 keywords: diary, follow-up, invitation, participant
 so.topic: howto
 language: en
@@ -17,7 +17,7 @@ Invite a contact to an appointment from the participants tab by clicking the **A
 
 ## Steps
 
-1. Open the **Appointment**, **Task** or **Phone Call** dialog and [enter the required information][2].
+1. Open the **Appointment**, **Task**, or **Phone Call** dialog and [enter the required information][2].
 
 2. Open the **Participants** tab and click **Add** at the lower left of the window. The **Invitation** dialog opens.
 
@@ -30,20 +30,37 @@ Invite a contact to an appointment from the participants tab by clicking the **A
     * If you selected **Associates** or **Resource** in step 3, you can choose **All** in the list box to display the associates or resources in all groups.
     * If you selected **Company/contact**, **Project** or **Selection** in step 3, you can search for the required company, contact, project or selection from this field.
 
-5. After you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ( ![icon][img2] ). They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
+5. After you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ![icon][img2]. They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
 
     > [!NOTE]
     > If any of the people are busy at the time you specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
 
-6. Click the **Email Invitation** button to activate email invitations for all participants in the list (except yourself). The ![icon][img1] icon to the left of the participant's name means that an email invitation to the follow-up will be sent to this participant. Click the ![icon][img1] icon next to a participant's name to disable email invitation for this participant. The ![icon][img1] icon changes to inactive ( ![icon][img3] ) and the participant will then not receive an invitation by email.
+6. Click the **Email Invitation** button to activate email invitations for all participants in the list (except yourself). The ![icon][img1] icon to the left of the participant's name means that an email invitation to the follow-up will be sent to this participant. Click the ![icon][img1] icon next to a participant's name to disable email invitation for this participant. The ![icon][img1] icon changes to inactive ![icon][img3] and the participant will then not receive an invitation by email.
 
 7. Click **OK** to close the **Invitation** dialog. The selected participants and resources will now be visible in the **Participants** tab. You can click the**Email Invitation** button and the ![icon][img1] icon to activate/deactivate email invitations, similar to the previous step.
-    If any of the contacts you selected do not have a valid email address recorded in SuperOffice CRM, the ![icon][img1] icon changes to inactive ( ![icon][img3] ) in the **Participants** tab.
+    If any of the contacts you selected do not have a valid email address recorded in SuperOffice CRM, the ![icon][img1] icon changes to inactive ![icon][img3] in the **Participants** tab.
 
     > [!NOTE]
     > If you selected users or resources by mistake, select them in the rightmost list and click **Delete** to remove them.
 
 8. After choosing participants and resources, click **Save** to save your selections or **Cancel** to exit the dialog without saving.
+
+## What happens next
+
+1. When you have saved the follow-up, it appears in the **Invitations** dialog in SuperOffice CRM for the other person.
+
+2. If the other person declines the invitation, it appears as declined in your own **Invitations** dialog.
+
+3. You can now click the **Reschedule** button to find a new suitable time. The dialog for follow-ups appears and you can now set a new time. Repeat until you find a suitable time.
+
+> [!TIP]
+> If you have a lot of information on the list of invitations and only want to display responses from others, you can filter the list using the **Show responses** checkbox.
+
+### How do I specify that an external contact has accepted or declined the invitation?
+
+External participants are notified via email (if you selected this alternative in the invitation dialog). Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the [status][1] will automatically be updated in SuperOffice.
+
+To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button one time to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
 
 ## Troubleshooting
 
@@ -54,12 +71,6 @@ If the contact you selected does not have a valid email address recorded in Supe
 ### Why is the Email Invitation button disabled?
 
 Using the SuperOffice Inbox: If you have not entered the requisite information in the **Log in** screen, which is displayed the first time you click the **Inbox** button in SuperOffice CRM, the **Email Invitation** button is disabled.
-
-### How do I specify that an external contact has accepted or declined the invitation?
-
-External participants are notified via email (if you selected this alternative in the invitation dialog). Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the [status][1] will automatically be updated in SuperOffice.
-
-To manually accept or decline an invitation on behalf of someone, select the name in the list and click the **Toggle Status** button one time to insert a green tick to show that the invitation was accepted, or click twice to insert a red cross for a declined invitation.
 
 ## Related content
 

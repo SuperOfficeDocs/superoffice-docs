@@ -90,7 +90,7 @@ Klik op **Sluiten** om het dialoogvenster te sluiten.
 
 <!-- Referenced links -->
 [3]: ../recurrence/create.md
-[4]: response.md
+[4]: ../follow-up-assign.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/notice-new.png

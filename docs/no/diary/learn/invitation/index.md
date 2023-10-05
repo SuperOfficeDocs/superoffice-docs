@@ -2,9 +2,9 @@
 uid: help-no-invitation
 title: Opprette oppfølginger med medarbeiderne dine
 description: Opprette oppfølginger med medarbeiderne dine
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: dagbok, oppfølging
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: dagbok, oppfølging, invitasjon, møte
 so.topic: howto
 language: no
 ---
@@ -37,6 +37,14 @@ Ressurser kan dobbeltbookes. Hvis en ressurs ikke er ledig på det aktuelle tids
 Personene du velger under **Firma** i dialogboksen **Invitasjon**, er vanligvis ikke med i din egen organisasjon. Du kan sende invitasjonen til dem på e-post ved å bruke alternativet **E-postinvitasjon**. E-postinvitasjoner som sendes til eksterne personer, inneholder en iCal-fil (.ics) sammen med invitasjonsdataene. Når de svarer på invitasjonen din, oppdateres statusen automatisk i SuperOffice.
 
 Oppfølgingen vises på detaljkortet **Aktiviteter** for det aktuelle firmaet.
+
+## Håndtere svar på invitasjoner
+
+Når du sender en invitasjon, kan mottakeren av invitasjonen enten godta eller avslå den.
+
+* Hvis mottakeren avslår invitasjonen, kan du endre tidspunktet eller tilordne oppfølgingen på nytt, avhengig av hva slags type invitasjon det er snakk om.
+
+* Hvis personen godtar invitasjonen, forsvinner den fra dialogboksen **Invitasjoner** og registreres i SuperOffice CRM på vanlig måte.
 
 ## Hva vil du gjøre?
 

@@ -2,9 +2,9 @@
 uid: help-en-invitation
 title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: diary, follow-up
+author: Bergfrid Dias
+so.date: 10.04.2023
+keywords: diary, follow-up, invitation, appointment, meeting
 so.topic: howto
 language: en
 ---
@@ -37,6 +37,14 @@ It is possible to double-book a resource. If a resource is not free at the time 
 The people you choose under **Company** in the **Invitation** dialog are not usually members of your organization. You can send the invitation to them via email using the **Email invitation** option. Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice.
 
 The follow-up is shown on the **Activities** section tab for the company in question.
+
+## Handle responses to invitations
+
+When you send an invitation, the recipient can either accept or decline it.
+
+* If the recipient declines the invitation, you can reschedule or re-assign the follow-up, depending on the type of invitation in question.
+
+* If the person accepts the invitation, it disappears from the **Invitations** dialog and is recorded in SuperOffice in the usual way.
 
 ## What do you want to do?
 
