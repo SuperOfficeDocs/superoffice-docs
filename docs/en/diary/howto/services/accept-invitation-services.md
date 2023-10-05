@@ -42,7 +42,7 @@ The reason that the details of an invitation with `appointmentId` 150 is not sho
 
 <!-- Referenced links -->
 [1]: get-invitations-services.md
-[2]: ../../invitations.md
+[2]: ../../learn/invitation/index.md
 [3]: ../../../api/web-services/index.md
 [4]: ../../../api/reference/restful/agent/Appointment_Agent/index.md
 [5]: ../../../api/archive-providers/reference/invitation.md

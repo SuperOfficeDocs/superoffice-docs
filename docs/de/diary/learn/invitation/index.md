@@ -20,19 +20,19 @@ Sie tragen Folgeaufgaben in die Kalender anderer Mitarbeiter ein, indem Sie sie 
 Den Benutzern, die Sie mit einer Folgeaufgabe verknüpfen möchten, wird dies auf ihren Ansichten angezeigt. Wenn Sie die Registerkarte **Teilnehmer** für die Folgeaufgabe öffnen, sehen Sie eine Liste mit den Teilnehmern und Ressourcen, die Sie mit der Folgeaufgabe verknüpft sind. Sie können auch an den Symbolen neben den Namen erkennen, wer die Einladung akzeptiert oder abgelehnt hat und welche Ressourcen reserviert sind:
 
 | Symbol | Beschreibung |
-|---|---|
+|:-:|---|
 | ![Symbol][img1] | Einladung akzeptiert. |
 | ![Symbol][img2] | Einladung abgelehnt. |
 | ![Symbol][img3] | Einladung wurde gesehen, aber nicht beantwortet. |
 | Keine Markierung | Einladung wurde nicht gelesen. |
 
-### Ressourcen
+## Ressourcen
 
 Wenn Sie Ressourcen verknüpfen, wird der Status auf *akzeptiert* festgelegt, da eine Ressource die Einladung selbst nicht beantworten kann.
 
 Es ist möglich, eine Ressource doppelt zu buchen. Ist eine Ressource zur fraglichen Zeit bereits belegt, wird in der Spalte **Status** die Anmerkung **Konflikt** angezeigt. Ein Ausrufezeichen wird auch im Dialogfeld **Termin** angezeigt. Die sollten die Uhrzeit der Folgeaufgabe ändern. Das Feld **Zuerst verfügbar** enthält den ersten verfügbaren Termin für die Besprechung.
 
-### Externe Kontakte
+## Externe Kontakte
 
 Die Personen, die Sie im Dialogfeld **Einladung** unter **Firma** wählen, sind normalerweise keine Mitglieder Ihres Unternehmens. Sie können ihnen mittels der Option **E-Mail-Einladung** eine Einladung per E-Mail senden. Einladungs-E-Mails, die an externe Kontakte gesendet werden, enthalten eine iCal-Datei (.ics) mit den Einladungsdaten. Wenn sie auf eine Einladung reagieren, wird der Status in SuperOffice automatisch aktualisiert.
 

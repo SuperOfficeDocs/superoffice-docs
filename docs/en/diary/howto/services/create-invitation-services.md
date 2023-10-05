@@ -45,6 +45,6 @@ The first participant doesn't get an invitation since the first participant is c
 > The `AssociateId`, `PersonId`, and the `ContactId` that you specify in the participant info object **must be consistent**. If you specify more than one field for a participant, they must agree with the information in the database. Specifying multiple values on a single participant object will not create multiple invitations. Each participant object is a single invitation.
 
 <!-- Referenced links -->
-[1]: ../../invitations.md
+[1]: ../../learn/invitation/index.md
 [2]: ../../../api/web-services/index.md
 [3]: ../../../api/reference/restful/agent/Appointment_Agent/index.md

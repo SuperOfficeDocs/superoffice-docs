@@ -160,7 +160,7 @@ When working with follow-ups, data will often intersect with the following entit
 [4]: ../project/index.yml
 [5]: ../database/tables/appointment.md
 [6]: recurring-appointments.md
-[7]: invitations.md
+[7]: learn/invitation/index.md
 [8]: howto/index.md
 [9]: ../contact/associate.md
 [10]: ../email/index.yml

@@ -20,19 +20,19 @@ Händelser med medarbetare skapas genom att de kopplas till händelsen som delta
 Användarna du väljer att koppla till en händelse får ett meddelande om detta på skärmen. Om du öppnar händelsen på fliken **Deltagare** visas en lista över de deltagare och resurser du har kopplat till händelsen. Med hjälp av symbolerna bredvid namnen kan du också se vilka som har sagt ja eller nej och vilka resurser som är bokade:
 
 | Ikon | Beskrivning |
-|---|---|
+|:-:|---|
 | ![ikon][img1] | Förfrågan har godtagits. |
 | ![ikon][img2] | Förfrågan har avböjts. |
 | ![ikon][img3] | Förfrågan har mottagits men inte besvarats. |
 | ingen symbol | Förfrågningen har inte tagits emot. |
 
-### Resurser
+## Resurser
 
 När du kopplar resurser ändras statusen till *Accepterad* eftersom en resurs inte kan svara på förfrågan.
 
 Resurser kan dubbelbokas. Om en resurs inte är ledig på den aktuella tidpunkten står det **Konflikt** i kolumnen **Status**. Dessutom visas ett utropstecken i dialogrutan **Bokning**. Du måste ändra tidpunkt för händelsen. I fältet **Första lediga** visas den första lediga tidpunkten.
 
-### Befintliga kontakter
+## Befintliga kontakter
 
 De kontakter som du väljer under **Företag** i dialogrutan **Förfrågan** tillhör normalt inte din egen organisation. Du kan skicka förfrågan till dem via e-post med hjälp av alternativet **E-postförfrågan**. E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din inbjudan kommer statusen automatiskt att uppdateras i SuperOffice.
 

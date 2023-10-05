@@ -50,4 +50,4 @@ Attendees may change only the priority, alarm, and completed fields. The rest is
 [1]: update-appointment.md
 [2]: <xref:CRMScript.NetServer.NSAppointmentAgent.GetMyAppointments(Integer)>
 [3]: <xref:CRMScript.NetServer.NSAppointmentAgent.GetPersonDiary(Integer,Integer)>
-[4]: ../../invitations.md
+[4]: ../../learn/invitation/index.md

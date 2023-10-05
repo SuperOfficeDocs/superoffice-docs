@@ -63,7 +63,7 @@ conceptualContent:
       - text: Invitations
         itemType: explore
         typeDesc: concept
-        url: invitations.md
+        url: learn/invitation/index.md
 
   # Card
     - title: User guide

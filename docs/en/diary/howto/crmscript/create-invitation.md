@@ -66,4 +66,4 @@ a = appointmentAgent.SaveAppointmentEntity(a);
 * [Invitations][1]
 
 <!-- Referenced links -->
-[1]: ../../invitations.md
+[1]: ../../learn/invitation/index.md

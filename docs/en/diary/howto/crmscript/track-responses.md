@@ -54,4 +54,4 @@ for (Integer i = 0; i < invites.length(); i++) {
 ```
 
 <!-- Referenced links -->
-[1]: ../../invitations.md
+[1]: ../../learn/invitation/index.md

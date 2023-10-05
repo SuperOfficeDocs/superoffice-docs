@@ -20,19 +20,19 @@ U stelt vervolgactiviteiten met andere medewerkers in door de medewerkers als de
 De gebruikers die u hebt gekozen voor koppeling aan een vervolgactiviteit, ontvangen hierover een bericht op hun schermen. Als u het tabblad **Deelnemers** van de vervolgactiviteit opent, wordt een lijst met deelnemers en bronnen weergegeven die u aan de vervolgactiviteit hebt gekoppeld. De symbolen naast de namen geven aan wie de uitnodiging heeft geaccepteerd of geweigerd en welke bronnen zijn gereserveerd:
 
 | Pictogram | Beschrijving |
-|---|---|
+|:-:|---|
 | ![pictogram][img1] | Uitnodiging wordt geaccepteerd. |
 | ![pictogram][img2] | Uitnodiging is afgewezen. |
 | ![pictogram][img3] | Uitnodiging is gelezen, maar nog niet beantwoord. |
 | geen symbool | De uitnodiging is nog niet gelezen. |
 
-### Bronnen
+## Bronnen
 
 Wanneer u bronnen koppelt, wordt de status ingesteld op *geaccepteerd* omdat een bron de uitnodiging zelf niet kan beantwoorden.
 
 Het is mogelijk om een bron dubbel te boeken. Als een bron op een bepaald tijdstip niet vrij is, wordt **Conflict** weergegeven in de kolom **Status**. Er wordt ook een uitroepteken weergegeven in het dialoogvenster **Afspraak**. In dit geval moet u de tijd van de vervolgactiviteit wijzigen. Het veld **Eerst beschikbaar** geeft de eerst beschikbare vergadertijd weer.
 
-### Externe contactpersonen
+## Externe contactpersonen
 
 De mensen die u kiest onder **Bedrijf** in het dialoogvenster **Uitnodiging** zijn meestal geen leden van uw organisatie. U kunt ze de uitnodiging sturen via e-mail met de optie **Uitnodiging via e-mail**. Uitnodigingsmails die naar externe contactpersonen worden verzonden, bevatten een iCal-bestand (.ics) met de uitnodigingsgegevens. Wanneer er op uw uitnodiging wordt gereageerd, wordt de status automatisch bijgewerkt in SuperOffice.
 
