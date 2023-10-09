@@ -74,7 +74,7 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 * [Set alarms for follow-up][7]
 * [Send follow-ups][8]
 * [Create appointment, task, phone call][18]
-* [Create repeating follow-up][10]
+* [Schedule repeating follow-up][10]
 * [Invite your associates to a follow-up][11]
 * [Link activities][12]
 * [Move follow-ups][19]

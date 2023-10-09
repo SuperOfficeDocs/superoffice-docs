@@ -88,7 +88,7 @@ Klik på **Luk** for at lukke dialogboksen.
 
 * Invitationer gemmes helt til dagen efter, at opfølgningen er markeret som udført, så deltagerne kan få besked om ændringer.
 
-[3]: ../recurrence/create.md
+[3]: ../recurrence/index.md
 [4]: ../follow-up-assign.md
 
 <!-- Referenced images -->

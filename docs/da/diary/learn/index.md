@@ -61,7 +61,7 @@ Opfølgninger er tæt knyttet til dagbogsskærmen, og nogle funktioner gælder i
 * [Indstilling af alarmer for opfølgning][7]
 * [Afsendelse af opfølgninger][8]
 * [Opret opfølgning][18]
-* [Oprettelse af gentagne opfølgning][10]
+* [Planlægelse af gentagne opfølgning][10]
 * [Invitation af andre medarbejdere til en opfølgning][11]
 * [Link aktiviteter][12]
 * [Flyt opfølgninger][19]

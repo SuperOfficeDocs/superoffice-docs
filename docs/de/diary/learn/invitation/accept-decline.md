@@ -89,7 +89,7 @@ Klicken Sie auf die Schaltfläche **Schließen**, um das Dialogfeld zu schließe
 * Einladungen werden bis einen Tag, nachdem die Folgeaufgabe als abgeschlossen gekennzeichnet wurde, gespeichert. Auf diese Weise können die Teilnehmer während des Bestehens der Einladung über Änderungen informiert werden.
 
 <!-- Referenced links -->
-[3]: ../recurrence/create.md
+[3]: ../recurrence/index.md
 [4]: ../follow-up-assign.md
 
 <!-- Referenced images -->

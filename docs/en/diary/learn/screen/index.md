@@ -35,7 +35,7 @@ Follow-ups with times are displayed as boxes in the different views in the Diary
 
 | Icon | Description | Read more |
 |:-:|---|---|
-| ![icon][img1] | This is a repeating follow-up. | [Create repeating follow-ups][11] |
+| ![icon][img1] | This is a repeating follow-up. | [Schedule repeating follow-ups][11] |
 | ![icon][img2] | The follow-up has several participants. | [Invite your associates to a follow-up][12] |
 | ![icon][img3] | The follow-up is completed. | [Change Completed status of an activity][8] |
 | ![icon][img4] | The follow-up has an active alarm. | |

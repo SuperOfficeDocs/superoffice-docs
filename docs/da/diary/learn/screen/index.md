@@ -35,7 +35,7 @@ Opfølgninger med klokkeslæt vises som bokse i de forskellige oversigter i skæ
 
 | Ikon | Beskrivelse | Læs mere |
 |:-:|---|---|
-| ![ikon][img1] | Dette er en gentagen opfølgning. | [Oprettelse af gentagne opfølgninger][11] |
+| ![ikon][img1] | Dette er en gentagen opfølgning. | [Planlægelse af gentagne opfølgninger][11] |
 | ![ikon][img2] | Opfølgningen har flere deltagere. | [Invitation af andre medarbejdere til en opfølgning][12] |
 | ![ikon][img3] | Opfølgningen er udført. | [Ændring af status Udført for en aktivitet][8] |
 | ![ikon][img4] | Opfølgningen har en aktiv alarm. | |

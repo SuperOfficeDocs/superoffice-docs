@@ -89,7 +89,7 @@ Click **Close** to close the dialog.
 * Invitations are saved up until the day after the follow-up is marked as completed so that the participants can be informed of changes.
 
 <!-- Referenced links -->
-[3]: ../recurrence/create.md
+[3]: ../recurrence/index.md
 [4]: ../follow-up-assign.md
 
 <!-- Referenced images -->

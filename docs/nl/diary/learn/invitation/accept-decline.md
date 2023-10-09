@@ -89,7 +89,7 @@ Klik op **Sluiten** om het dialoogvenster te sluiten.
 * Uitnodigingen worden opgeslagen tot de dag nadat de vervolgactiviteit is gemarkeerd als Voltooid, zodat de deelnemers op de hoogte kunnen worden gehouden van wijzigingen.
 
 <!-- Referenced links -->
-[3]: ../recurrence/create.md
+[3]: ../recurrence/index.md
 [4]: ../follow-up-assign.md
 
 <!-- Referenced images -->

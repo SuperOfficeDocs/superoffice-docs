@@ -89,7 +89,7 @@ Klikk på **Lukk** for å lukke dialogboksen.
 * Invitasjoner blir lagret helt til dagen etter at oppfølgingen er merket som utført, slik at deltakerne kan få melding om endringer.
 
 <!-- Referenced links -->
-[3]: ../recurrence/create.md
+[3]: ../recurrence/index.md
 [4]: ../follow-up-assign.md
 
 <!-- Referenced images -->

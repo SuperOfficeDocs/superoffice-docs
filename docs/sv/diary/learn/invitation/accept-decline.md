@@ -89,7 +89,7 @@ Stäng dialogrutan genom att klicka på **Stäng**.
 * En förfrågan sparas till dagen efter händelsen har markerats som slutförd, så att deltagarna meddelas om eventuella ändringar.
 
 <!-- Referenced links -->
-[3]: ../recurrence/create.md
+[3]: ../recurrence/index.md
 [4]: ../follow-up-assign.md
 
 <!-- Referenced images -->
