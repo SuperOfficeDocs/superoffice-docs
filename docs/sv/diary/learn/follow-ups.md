@@ -3,7 +3,7 @@ uid: help-sv-follow-ups
 title: Händelser
 description: Händelser - Bokning, Uppgift, Samtal
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 10.11.2023
 keywords: kalender, uppgift, händelse, bokning, möte, telefon, ringa upp
 so.topic: concept
 language: sv
@@ -11,68 +11,109 @@ language: sv
 
 # Händelser
 
+*Händelser* är ett samlingsbegrepp för aktiviteter kopplade till bokningar, uppgifter och samtal. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
+
+Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
+
 Händelser kan överlappa varandra. Överlappande händelser visas i Kalender-fönstret på ett sådant sätt att du ser en del av varje händelse.
+
+## Allmän information
+
+| Ikoner | Egenskap | Beskrivning |
+|:-:|---|---|
+| ![ikoner][img9]| Ägare | Vem uppföljningen tillhör. Den ursprungliga skaparen eller den medarbetare som uppföljningen tilldelades/delegerades till. |
+| ![ikoner][img3]| Titel | En beskrivande etikett. Ytterligare detaljer läggs till i dagordningen. |
+| (en färgad prick) | Typ | En fördefinierad lista med aktiviteter som möte (externa) och telefonsamtal. |
+| ![ikoner][img7], ![ikoner][img8] | Företag / kontakt | På vem uppföljningen rör sig. |
+| ![ikoner][img10]| Tid och datum | När uppföljningen börjar eller ska vara klar. |
+| ![ikoner][img4]| Återkomst | Om och hur uppföljningen upprepas. |
+| (ingen ikon) | Tillgänglighet | Ledig/upptagen. Påverkar konflikthantering. |
+| ![ikoner][img2] | Varning | Om och när personen ska meddelas. |
+| ![ikoner][img5] | Försäljning | En försäljning kopplad till uppföljningen. |
+| ![ikoner][img6] | Projekt | Ett projekt kopplat till uppföljningen. |
+
+## Skapa ny
+
+ Var du än arbetar i SuperOffice CRM kan du lägga in nya händelser genom att klicka på knappen **Nytt** i det övre fältet och välja **Bokning**, **Uppgift**, eller **Samtal**.
+
+Uppföljningar som skapas från fönstret Kalender är som standard avtal. Du kan dock ändra typen innan du sparar.
+
+## Hitta dina uppföljningar
+
+I fönstret Kalender visas avtal och telefonsamtal på flikarna **Dag**, **Vecka**, **Månad**, och **Visa**, samt i sidopanelerna **Dag**, **Månad**, **Nästa dag** och **Vecka**.
+
+Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt, Kalender visar alla uppföljningar, inklusive uppgifter.
+
+## Uppföljningstyper
+
+| Typ | Starttid | Sluttid | Varaktighet | Deadline | Visas i | Beskrivning | Exempel |
+|---|:-:|:-:|:-:|:-:|---|---|---|
+| Möte (avtal) | &#10003; | &#10003; | Beräknad | | Kalender | Aktivitet med definierad start- och sluttid | Externt möte med leverantör |
+| Uppgift (att göra) | | | | &#10003; | Avsnitt Aktiviteter | Uppföljning utan starttid | Påminnelse för saker som ska vara klara vid en specifik tidpunkt |
+| Samtal (uppföljning) | &#10003; | | &#10003; | | Avsnitt Aktiviteter | Telefonsamtal | Inkommande samtal från kund |
 
 ## <a id="apt" />Bokning
 
-En bokning är en händelse med en fastställd start- och sluttid. Var du än arbetar i SuperOffice CRM kan du lägga in nya bokningar genom att klicka på knappen **Nytt** i det övre fältet och välja ![ikon][img1].
+En bokning är en händelse med en fastställd start- och sluttid. De visas i ägarens kalender.
 
-Bokning kan visas på följande ställen:
+En möte kan vara en enstaka händelse eller en del av en återkommande serie. Möten som involverar en resurs och/eller extra deltagare kallas [inbjudningar][5] (eller gruppbokningar).
 
-* Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt, Kalender
-* I fönstren **Dag**, **Vecka**, **Månad**, och **Visa** i fönstret Kalender
-* I följande sidopanelvyer: **Dag**, **Månad**, **Nästa dag** och **Vecka**
+Försenade och avslutade möten kommer att finnas i **Aktiviteter**-fliken samt i kalendern.
 
-### Standardlängd
+### Vanliga scenarier
 
-Standardlängden för en bokning är 1 timme, men du kan ändra längden efter behov.
+| Scenario | Resurs | 2+ deltagare | Beskrivning |
+|---|:-:|:-:|---|
+| Egen tid bokad | | | Du har reserverat tid för att arbeta på något själv |
+| Egen tid och resurs bokad | &#10003; | | Som ovan, plus behov av rum eller utrustning |
+| Möte med flera deltagare | &#10003; | &#10003; | Ett möte, oftast även med en resurs eller plats |
 
-1. Välj **Inställningar** på menyn **Personliga inställningar**.
+## <a id="task" />Uppgift
+
+En *uppgift* är en uppföljning utan starttid. Den har vanligtvis inte heller någon varaktighet, men den har alltid en **deadline**. Uppgifter används vanligtvis för saker du måste komma ihåg att göra inom en viss tid.
+
+Som standard hittar du uppgifter på dagbokens "att göra"-lista, där de kan bockas av när de är klara. Om du anger en start- och sluttid för uppgiften läggs den in på rätt datum och klockslag i kalendern.
+
+## <a id="call" />Samtal
+
+Ett *samtal* är en uppföljning som representerar en mycket specifik åtgärd - telefonsamtalet. Till exempel vill du registrera ett utgående telefonsamtal.
+
+Det är också något av en hybrid mellan en möte och en uppgift:
+
+* När du först planerar ett samtal, finns det i att göra-listan med en deadline, precis som en uppgift.
+* När du genomför samtalet, fixeras det i tid och liknar nu en mötesbokning.
+  * Starttiden blir nuvarande tidpunkt och dagens datum.
+  * Standardvaraktigheten är 15 minuter.
+
+## Standardlängd
+
+Standardlängden för en bokning är 1 timme och 15 minuter for et samtal, men du kan ändra längden efter behov.
+
+1. Gå till ![ikon][img14] **Personliga inställningar** och välj **Inställningar**.
 1. Välj **Standardvärden**.
-1. [Ange önskat värde][1] under **Längd för ny bokning**.
+1. Ange ett värde för en eller båda av dessa värden och klicka **Spara**.
+    * **Längd för ny bokning**
+    * **Längd för nytt samtal**
 
-## <a id="task" />Uppgift ![ikon][img2]
-
-Uppgifter är händelser som normalt inte har någon fastställd tid eller varaktighet. Uppgiften har dock alltid en tidsfrist. Den kan till exempel bestå av något som du måste komma ihåg att göra inom en viss tid.
-
-Var du än arbetar i SuperOffice CRM kan du skapa en ny uppgift genom att klicka på **Nytt** > **Uppgift** i det övre fältet.
-
-Uppgifter kan visas på följande ställen:
-
-* Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt, Kalender
-
-> [!NOTE]
-> Om du anger en start- och sluttid för uppgiften läggs den in på rätt datum och klockslag i kalendern.
-
-## <a id="call" />Samtal ![ikon][img3]
-
-Samtal har som standard en längd på 15 minuter. Som standard anges aktuellt klockslag och dagens datum som starttid. Du kan skapa en samtalshändelse om du till exempel vill registrera ett utgående telefonsamtal.
-
-> [!TIP]
-> Du kan ändra standardlängden till något annat än 15 minuter. Gå till ![ikon][img4] **Personliga inställningar** > **Inställningar** > **Standardvärden** > **Längd för nytt samtal** och [ange önskat värde][1].
-
-Var du än arbetar i SuperOffice CRM kan du skapa nya samtal genom att välja **Nytt** > **Samtal** i det övre fältet.
-
-Samtal kan visas på följande ställen:
-
-* Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt, Kalender
-* I fönstren **Dag**, **Vecka**, **Månad**, och **Visa** i fönstret Kalender
-* I följande sidopanelvyer: **Dag**, **Månad**, **Nästa dag** och **Vecka**
-
-## Vad vill du göra?
+## Relaterat innehåll
 
 * [Skapa bokningar, uppgifter, samtal][2]
-* [Arbeta med händelser][3]
 * [Lär dig om Aktiviteter][4]
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+<!-- Referenced links -->
 [2]: create-follow-up.md
-[3]: index.md
 [4]: ../../learn/basics/activity.md
+[5]: invitation/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/appointment.png
-[img2]: ../../../../common/icons/appointment-task-h32.png
-[img3]: ../../../../common/icons/phone-h32.png
-[img4]: ../../../media/icons/personal-settings-small.png
+[img2]: ../../../../common/icons/diary-alarm.png
+[img3]: ../../../../common/icons/title.png
+[img4]: ../../../../common/icons/diary-recurring-transparent.png
+[img5]: ../../../../common/icons/sale.png
+[img6]: ../../../../common/icons/singlecolour/project.png
+[img7]: ../../../../common/icons/singlecolour/contact.png
+[img8]: ../../../../common/icons/person.png
+[img9]: ../../../../common/icons/associate-current.png
+[img10]: ../../../../common/icons/now.png
+[img14]: ../../../media/icons/personal-settings-small.png

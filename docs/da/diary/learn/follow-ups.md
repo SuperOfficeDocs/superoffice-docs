@@ -1,78 +1,118 @@
 ---
 uid: help-da-follow-ups
 title: Opfølgninger
-description: Opfølgninger - Aftale, Opgave
+description: Opfølgninger - aftale, opgave, samtale
 author: Bergfrid Dias
 so.date: 10.05.2023
-keywords: dagbog, opfølgning, aftale, møde, telefon, ring til
+keywords: dagbog, opfølgning, aftale, møde, telefon, ring til, opgave
 so.topic: concept
 language: da
 ---
 
 # Opfølgninger
 
-Opfølgninger kan overlappe hinanden. Overlappende opfølgninger vises på skærmbilledet Dagbog, så du kan se en del af hver opfølgning.
+*Opfølgning* er en samlet betegnelse for aftale-, opgave- og telefonopkaldsaktiviteterne. Disse er tæt knyttet til dagbogsskærmen og fungerer alle på stort set samme måde.
+
+Åbn en opfølgning ved at dobbeltklikke på den i dagbogen eller i detaljekortet **Aktiviteter**.
+
+## Generel information
+
+| Ikon | Egenskab | Beskrivelse |
+|:-:|---|---|
+| ![ikon][img9]| Ejer | Hvem opfølgningen tilhører. Den oprindelige skaber eller den tilknyttede person, som opfølgningen blev tildelt/delegeret til. |
+| ![ikon][img3]| Titel | En beskrivende etiket. Yderligere detaljer placeres i dagsorden. |
+| (en farvet prik) | Type | En foruddefineret liste over aktiviteter som møde (eksternt) og telefonopkald. |
+| ![ikon][img7], ![ikon][img8] | Firma / kontakt | Hvem opfølgningen vedrører. |
+| ![ikon][img10]| Tid og dato | Hvornår opfølgningen begynder eller skal være færdig. |
+| ![ikon][img4]| Gentagelse | Hvis og hvordan opfølgningen gentager sig. |
+| (intet ikon) | Tilgængelighed | Ledig/optaget. Påvirker konflikthåndtering. |
+| ![ikon][img2] | Alarm | Hvis og hvornår personen skal underrettes. |
+| ![ikon][img5] | Salg | Et salg, der er knyttet til opfølgningen. |
+| ![ikon][img6] | Projekt | Et projekt knyttet til opfølgningen. |
+
+## Opret ny
+
+Uanset hvor du er i SuperOffice CRM, kan du oprette en ny opfølgning ved at klikke på knappen **+Ny** på Toplinjen og så vælge **Aftale**, **Opgave**, eller **Samtale**.
+
+> [!NOTE]
+> Opfølgninger oprettet fra skærmbilledet Dagbog er som standard aftaler. Du kan dog ændre typen, inden du gemmer.
+
+## Find dine opfølgninger
+
+På skærmen Dagbog vises aftaler og telefonopkald på fanerne **Dag**, **Uge**, **Måned**, og **Vis**, og i sidepanelerne **Dag**, **Måned**, **Næste dag** og **Uge**.
+
+Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog viser alle opfølgninger, herunder opgaver.
+
+## Typer af opfølgninger
+
+| Type | Starttidspunkt | Sluttidspunkt | Varighed | Deadline | Vises i | Beskrivelse | Eksempel |
+|---|:-:|:-:|:-:|:-:|---|---|---|
+| Aftale (møde) | &#10003; | &#10003; | Beregnet | | Kalender | Aktivitet med defineret start- og sluttidspunkt | Eksternt møde med leverandør |
+| Opgave (To-do) | | | | &#10003; | Aktiviteter-sektionen | Opfølgning uden starttidspunkt | Påmindelse om opgaver, der forfalder på et bestemt tidspunkt |
+| Opkald (opfølgning) | &#10003; | | &#10003; | | Aktiviteter-sektionen | Telefonopkald | Indgående opkald fra kunden |
 
 ## <a id="apt" />Aftale
 
-Aftaler er opfølgninger med defineret start- og sluttid, for eksempel møder. Uanset hvor du er i SuperOffice CRM, kan du oprette en ny aftale ved at klikke på knappen **Ny** på Toplinjen og vælge ![ikon][img1].
+Aftaler er opfølgninger med defineret start- og sluttid, for eksempel møder. De vises i ejerens kalender.
 
-Aftaler kan vises følgende steder:
+En aftale kan være en enkelt begivenhed eller en del af en tilbagevendende serie. Aftaler, der involverer en ressource og/eller yderligere deltagere, kaldes [invitationer][5] (eller gruppebestillinger).
 
-* Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog
-* På fanerne **Dag**, **Uge**, **Måned**, og **Vis** på skærmen Dagbog
-* I disse sidepanelvisninger: **Dag**, **Måned**, **Næste dag** og **Uge**
+Forfaldne og fuldførte aftaler vil blive vist i **Aktiviteter**-fanen ud over i kalenderen.
 
-### Standardvarighed
+### Vanlige scenarioer
 
-Standardvarigheden for en aftale er 1 time, men denne kan naturligvis ændres efter behov.
+| Scenario | Ressurs | 2+ deltakere | Beskrivelse |
+|---|:-:|:-:|---|
+| Egen tid reservert | | | Du har satt av tid til å jobbe med noe alene |
+| Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
+| Møte med flere deltakere | &#10003; | &#10003; | Et møte, vanligvis også med en ressurs eller sted |
 
-1. Vælg **Præferencer** i menuen **Personlige indstillinger**.
+## <a id="task" />Opgave
+
+En *opgave* er en opfølgning uden starttid. Den har normalt heller ingen varighed, men den har altid en **frist**. Opgaver bruges normalt til ting, du skal huske at gøre inden en bestemt tid.
+
+Som standard finder du opgaver på dagbogens "to-do"-liste, hvor de kan markeres som færdige, når de er udført. Hvis du angiver et start- og sluttidspunkt for en opgave, indføres den i dagbogen på det korrekte tidspunkt.
+
+## <a id="call" />Samtale
+
+En *samtale* er en opfølgning, der repræsenterer en meget specifik handling - telefonopkaldet. For eksempel ønsker du at registrere et udgående telefonopkald.
+
+Det er også en hybrid mellem en aftale og en opgave:
+
+* Når du først planlægger et opkald, befinder det sig på "to-do"-listen med en deadline, ligesom en opgave.
+* Når du foretager opkaldet, fastsættes det på et tidspunkt og ligner nu en aftale.
+  * Starttidspunktet bliver det nuværende tidspunkt og dagens dato.
+  * Standardvarigheden er 15 minutter.
+
+## Standardvarighed
+
+Standardvarigheden er 1 timefor en aftale og 15 minutter for en samtale. For at ændres standardværdier:
+
+1. Gå til ![ikon][img14] **Personlige indstillinger** og vælg **Præferencer**.
 1. Vælg **Bibehold standardværdier**.
-1. [Angiv den påkrævede værdi][1] under **Varighed for ny aftale**.
+1. Indtast en værdi for én eller begge af disse værdier og klik **Gem**.
+    * **Varighed for ny aftale**
+    * **Varighed for ny samtale**
 
-## <a id="task" />Opgave ![ikon][img2]
-
-Opgaver er opfølgninger, som normalt ikke har noget fastlagt klokkeslæt eller varighed. De har altid en datofrist - det kan f.eks. være noget, du skal huske at gøre inden et bestemt tidspunkt.
-
-Uanset hvor du er i SuperOffice CRM, kan du oprette en ny aftale ved at klikke på knappen **Ny** > **Opgave** på toplinjen.
-
-Opgaver kan vises følgende steder:
-
-* Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog
-
-> [!NOTE]
-> Hvis du angiver et start- og sluttidspunkt for en opgave, indføres den i dagbogen på det korrekte tidspunkt.
-
-## <a id="call" />Samtale ![ikon][img3]
-
-Samtaler er opfølgninger med en standardvarighed på 15 minutter. Standardstarttidspunktet er nu, og datoen er den aktuelle dato. Du kan oprette en samtaleopfølgning, hvis du f.eks. vil registrere en udgående telefonsamtale.
-
-> [!TIP]
-> Du kan ændre standardvarigheden til noget andet end 15 minutter. Vælg ![ikon][img4] **Personlige indstillinger** > **Præferencer** > **Standardværdier** > **Varighed for ny samtale** og [indtast den ønskede værdi][1].
-
-Uanset hvor du er i SuperOffice CRM, kan du oprette en ny samtale ved at vælge **Ny** > **Samtale** på toplinjen.
-
-Samtaler kan vises følgende steder:
-
-* Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog
-* På fanerne **Dag**, **Uge**, **Måned**, og **Vis** på skærmen Dagbog
-* I disse sidepanelvisninger: **Dag**, **Måned**, **Næste dag** og **Uge**.
-
-## Hvad ønsker du at foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af aftaler, opgaver, samtaler][2]
-* [Arbejde med opfølgninger][3]
 * [Få mere at vide om aktiviteter][4]
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+<!-- Referenced links -->
 [2]: create-follow-up.md
-[3]: index.md
 [4]: ../../learn/basics/activity.md
+[5]: invitation/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/appointment.png
-[img2]: ../../../../common/icons/appointment-task-h32.png
-[img3]: ../../../../common/icons/phone-h32.png
-[img4]: ../../../media/icons/personal-settings-small.png
+[img2]: ../../../../common/icons/diary-alarm.png
+[img3]: ../../../../common/icons/title.png
+[img4]: ../../../../common/icons/diary-recurring-transparent.png
+[img5]: ../../../../common/icons/sale.png
+[img6]: ../../../../common/icons/singlecolour/project.png
+[img7]: ../../../../common/icons/singlecolour/contact.png
+[img8]: ../../../../common/icons/person.png
+[img9]: ../../../../common/icons/associate-current.png
+[img10]: ../../../../common/icons/now.png
+[img14]: ../../../media/icons/personal-settings-small.png

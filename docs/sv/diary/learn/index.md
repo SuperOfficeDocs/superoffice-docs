@@ -23,9 +23,14 @@ Regelbunden användning av kalendern hjälper dig att automatiskt koppla och del
 
 För at gå til kalendern, klicka på ordet **Kalender** i navigatorn och välj en tidsperiod i listan som visas, eller klicka på **Idag** eller **Innevarande vecka** för att gå till aktuell dag eller vecka. Ditt namn visas längst upp till höger i Kalender-fönstret.
 
+Om två eller fler händelse överlappar varandra kan du se en del av varje händelse.
+
 Du kan öppna en annan användares kalender, eller kalendern för en tillgänglig resurs, för att se när de är lediga, till exempel, eller för att skapa händelser för dem direkt.
 
 Du kan också visa kalendrar för andra användare och resurser i företaget genom att visa [gruppvyer][2] i din kalender.
+
+> [!TIP]
+> Under Inställningar och underhåll kan du definiera att alla händelser av en viss typ ska visas med en annan bakgrundsfärg i fönstret Kalender.
 
 ## <a id="nav" />Navigera i fönstret Kalender
 
@@ -39,31 +44,13 @@ Kalendern består av [fyra flikar][24]: Flikarna **Dag**, **Vecka**, **Månad** 
 
 * Klicka på dag eller vecka (om den är öppen) i dag-, vecko- eller månadsöversikten i sidopanelen.
 
-## Arbeta med händelser
-
-[Händelser][1] är ett samlingsbegrepp för aktiviteter kopplade till bokningar, uppgifter och samtal. Alla dessa fungerar på i stort sett samma sätt.
-
-Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
-
-> [!NOTE]
-> Det är viktigt att du förstår skillnaden mellan aktiviteter och händelser (bokningar, uppgifter och samtal).
-När du skapar händelser från Kalender-fönstret definieras de som standard som bokningar. Du kan dock ändra händelsetypen till uppgift eller samtal i typfältet i dialogrutan [**Bokning**][22].
-
-Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäller specifikt Kalendern.
-
-> [!TIP]
-> Under Inställningar och underhåll kan du definiera att alla händelser av en viss typ ska visas med en annan bakgrundsfärg i fönstret Kalender.
-
 ## Vad vill du göra nu?
 
 * [Välj tidszon][15]
 * [Redigera händelse][6]
-* [Ställa in alarm för händelser][7]
-* [Skicka händelser][8]
 * [Skapa händelser][18]
 * [Skapa återkommande händelse][10]
 * [Bjuda in andra medarbetare till en händelse][11]
-* [Koppla aktiviteter][12]
 * [Flytta händelser][19]
 * [Ändra sluttid för en händelse][20]
 * [Kopiera en händelse till kalendern][21]
@@ -71,14 +58,10 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 * [Videomöten][23]
 
 <!-- Referenced links -->
-[1]: follow-ups.md
 [2]: group-view.md
 [6]: edit-follow-up.md
-[7]: set-alarm.md
-[8]: send-as-email.md
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[12]: linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
@@ -87,7 +70,6 @@ Händelser är nära kopplade till Kalender-fönstret och vissa funktioner gäll
 [19]: move-follow-up.md
 [20]: edit-follow-up.md#change-end
 [21]: create-follow-up.md#copy
-[22]: screen/dialog-for-followups.md
 [24]: screen/index.md
 [23]: video-meetings.md
 

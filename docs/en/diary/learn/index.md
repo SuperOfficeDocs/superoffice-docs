@@ -3,7 +3,7 @@ uid: help-en-diary
 title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 10.11.2023
 keywords: diary
 so.topic: concept
 language: en
@@ -26,9 +26,14 @@ Regular use of the diary helps you to automatically connect and share appointmen
 
 To open your diary, click the word **Diary** in the Navigator and select a time period from the list, or click **Today** or **This week** to move to the current day or week. Your name is displayed at the upper right of the Diary screen.
 
+If two or more follow-ups overlap, you can see part of each follow-up.
+
 You can open another user's diary, or the diary of an available resource, to see when they are free, for example, or to create follow-ups for them directly.
 
 You can also view the diaries of other users and resources in your organization by displaying [group views][2] in your diary.
+
+> [!TIP]
+> In Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the Diary screen with the same background color.
 
 ## <a id="nav" />Navigate in the Diary screen
 
@@ -42,41 +47,13 @@ The diary consists of [four different tabs][24]: **Day** tab, **Week** tab, **Mo
 
 * (If open) click a day or week in the day, week or month view in the side panel.
 
-## Work with follow-ups
-
-[Follow-up][1] is a collective term for appointment, task, and phone call. These all function in largely the same way.
-
-| type | start time | end time | duration | deadline | displayed | description | example |
-|---|:-:|:-:|:-:|:-:|---|---|---|
-| appointment | x | x | calculated | | calendar | activity w/ defined start and end time | meetings |
-| task/todo | | | | x | todo list | follow-up w/ no start time | reminder for stuff due by a specific time |
-| call | x | | x | | todo list | phone call | |
-
-> [!NOTE]
-> Overdue appointments will by default also appear in the todo list!
->
-> Logged phone calls will also appear in the calendar.
-
-Open an existing follow-up by double-clicking it in the Diary or the **Activities** section tab.
-
-> [!NOTE]
-> When you create follow-ups from the Diary screen, by default they are defined as appointments. However, you can change the follow-up type to task or phone call in the type field in the [**Appointment** dialog][22].
-
-Follow-ups are closely linked to the Diary screen, and some functions apply especially to the Diary.
-
-> [!TIP]
-> In Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the Diary screen with the same background color.
-
 ## What would you like to do now?
 
 * [Select a time zone][15]
 * [Edit follow-up][6]
-* [Set alarms for follow-up][7]
-* [Send follow-ups][8]
 * [Create appointment, task, phone call][18]
 * [Schedule repeating follow-up][10]
 * [Invite your associates to a follow-up][11]
-* [Link activities][12]
 * [Move follow-ups][19]
 * [Change the end time of follow-up][20]
 * [Copy follow-up to the Diary][21]
@@ -85,14 +62,10 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 * [Working with follow-ups in API][50]
 
 <!-- Referenced links -->
-[1]: follow-ups.md
 [2]: group-view.md
 [6]: edit-follow-up.md
-[7]: set-alarm.md
-[8]: send-as-email.md
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[12]: linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
@@ -101,7 +74,6 @@ Follow-ups are closely linked to the Diary screen, and some functions apply espe
 [19]: move-follow-up.md
 [20]: edit-follow-up.md#change-end
 [21]: create-follow-up.md#copy
-[22]: screen/dialog-for-followups.md
 [24]: screen/index.md
 [23]: video-meetings.md
 [50]: ../../../en/diary/howto/index.md

@@ -59,7 +59,7 @@ Enter the name of the sale (if any) that the follow-up is linked to. If you cann
 
 If your SuperOffice has [time zones][10] turned on, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
 
-### Start / End/Due / Duration
+### Start / End / Due / Duration
 
 Enter a date and, where appropriate, a time in the **Start** field and the **End** field (for appointments and phone calls) or **Due** field (for tasks), for the follow-up start and the follow-up end/deadline respectively. If you specify a time, the content of the **Duration** field is automatically adjusted accordingly.
 

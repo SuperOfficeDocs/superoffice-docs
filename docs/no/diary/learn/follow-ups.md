@@ -11,68 +11,108 @@ language: no
 
 # Oppfølging
 
-Oppfølginger kan overlappe hverandre. I Dagbok-bildet vises overlappende oppfølginger slik at du ser litt av hver oppfølging.
+*Oppfølginger* er et samlebegrep for aktivitetene avtale, oppgave og samtale. Disse er nært knyttet til Dagbok-bildet fungerer stort sett på samme måte.
+
+Åpne en tidligere registrert oppfølging ved å dobbeltklikke på den i dagboken eller i detaljkortet **Aktiviteter**.
+
+## Generell informasjon
+
+| Ikon | Egenskap | Beskrivelse |
+|:-:|---|---|
+| ![ikon][img9]| Eier | Hvem oppfølgingen tilhører. Den opprinnelige oppretteren eller den tilknyttede personen som oppfølgingen ble tildelt/delegerades til. |
+| ![ikon][img3]| Tittel | En beskrivende etikett. Ytterligere detaljer legges til i agendaen. |
+| (en farget prikk) | Type | En forhåndsdefinert liste over aktiviteter som for eksempel Møte (eksternt) og Telefonmøte. |
+| ![ikon][img7], ![ikon][img8] | Firma / kontakt | Hvem oppfølgingen gjelder. |
+| ![ikon][img10]| Tid og dato | Når oppfølgingen starter eller er forfalt. |
+| ![ikon][img4]| Gjentakelse | Om og hvordan oppfølgingen gjentas. |
+| (ingen ikon) | Tilgjengelighet | Ledig/opptatt. Påvirker konflikthåndtering. |
+| ![ikon][img2] | Varsel | Om og når å varsle personen. |
+| ![ikon][img5] | Salg | Et salg knyttet til oppfølgingen. |
+| ![ikon][img6] | Prosjekt | Et prosjekt knyttet til oppfølgingen. |
+
+## Opprett ny
+
+Uansett hvor i SuperOffice CRM du er, kan du opprette en ny oppfølging ved å klikke på **Ny**-knappen i toppraden og deretter velge **Avtale**, **Oppgave**, eller **Samtale**.
+
+> [!NOTE]
+> Oppfølgninger opprettet fra dagboken er som standard avtaler. Du kan imidlertid endre typen før du lagrer.
+
+## Finn dine oppfølginger
+
+I Dagbok-bildet vises avtaler og telefonsamtaler på fanene **Dag**, **Uke**, **Måned**, og **Vis**, samt i sidepanelene **Dag**, **Måned**, **Neste dag** og **Uke**.
+
+Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, Dagbok viser alle oppfølginger, inkludert oppgaver.
+
+## Oppfølgingstyper
+
+| Type | Starttid | Sluttid | Varighet | Frist | Vises i | Beskrivelse | Eksempel |
+|---|:-:|:-:|:-:|:-:|---|---|---|
+| Avtale (møte) | &#10003; | &#10003; | Beregnet | | Kalender | Aktivitet med definert start- og sluttid | Eksternt møte med leverandør |
+| Oppgave (To-do) | | | | &#10003; | Seksjon Aktiviteter | Oppfølging uten starttid | Påminnelse for oppgaver som forfaller til en bestemt tid |
+| Samtale (oppfølging) | &#10003; | | &#10003; | | Seksjon Aktiviteter | Telefonsamtale | Innkommende samtale fra kunde |
 
 ## <a id="apt" /> Avtale
 
-Avtaler er oppfølginger med definert start- og sluttid, for eksempel møter. Uansett hvor i SuperOffice CRM du er, kan du opprette en ny avtale ved å klikke på **Ny**-knappen i toppraden og deretter velge ![ikon][img1].
+Avtaler er oppfølginger med definert start- og sluttid, for eksempel møter. De vises i eierens kalender.
 
-Avtaler kan vises på følgende steder:
+En avtale kan være en enkelt hendelse eller en del av en gjentakende serie. Avtaler som involverer en ressurs og/eller ekstra deltakere kalles [invitasjoner][5] (eller gruppebestillinger).
 
-* Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, Dagbok
-* På fanene **Dag**, **Uke**, **Måned**, og **Vis** i Dagbok-bildet
-* I disse sidepanelvisningene: **Dag**, **Måned**, **Neste dag** og **Uke**
+Forfalte og fullførte avtaler vil vises i seksjonen **Aktiviteter**-fanen i tillegg til i kalenderen.
 
-### Standard varighet
+### Vanlige scenarioer
 
-Standard varighet for en avtale er én time, men du kan endre varigheten etter behov.
+| Scenario | Ressurs | 2+ deltakere | Beskrivelse |
+|---|:-:|:-:|---|
+| Egen tid reservert | | | Du har satt av tid til å jobbe med noe alene |
+| Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
+| Møte med flere deltakere | &#10003; | &#10003; | Et møte, vanligvis også med en ressurs eller sted |
 
-1. Velg **Preferanser** på menyen **Personlige preferanser.**
+## <a id="task" />Oppgave
+
+En *oppgave* er en oppfølging uten starttid. Den har vanligvis heller ingen varighet, men den har alltid en **frist**. Oppgaver brukes vanligvis for ting du må huske å gjøre innen en bestemt tid.
+
+Som standard finner du oppgaver i dagbokens "to-do"-liste, hvor de kan krysses av når de er fullført. Hvis du angir et start- og sluttidspunkt for en oppgave, legges det inn i dagboken på riktig dag og klokkeslett.
+
+## <a id="call" />Samtale
+
+En *samtale* er en oppfølging som representerer en svært spesifikk handling - telefonsamtalen. For eksempel ønsker du å registrere et utgående telefonanrop.
+
+Det er også en hybrid mellom en avtale og en oppgave:
+
+* Når du først planlegger en samtale, befinner den seg i "to-do"-listen med en frist, akkurat som en oppgave.
+* Når du utfører samtalen, blir den knyttet til et tidspunkt og ligner nå en avtale.
+  * Starttiden blir gjeldende tidspunkt og dagens dato.
+  * Standardvarigheten er 15 minutter.
+
+## Standard varighet
+
+Standard varighet for en avtale er én time og 15 minutter for en samtale. For å endre standardverdier:
+
+1. Gå til ![ikon][img14] **Personlige innstillinger** og velg **Preferanser**.
 1. Velg **Standardverdier**.
-1. [Angi ønsket verdi][1] under **Varighet på ny avtale**.
+1. Skriv inn en verdi for én eller begge av disse verdiene og klikk **Lagre**.
+    * **Varighet på ny avtale**
+    * **Varighet på ny samtale**
 
-## <a id="task" />Oppgave ![icon][img2]
-
-Oppgaver er oppfølginger som vanligvis ikke har en definert tid eller varighet. De har alltid en datofrist, for eksempel kan de være ting du må huske å gjøre innen en viss tidsfrist.
-
-Uansett hvor du er i SuperOffice CRM, kan du opprette en ny oppgave ved å klikke på **Ny** > **Oppgave** på toppraden.
-
-Oppgaver kan vises på følgende steder:
-
-* Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, Dagbok
-
-> [!NOTE]
-> Hvis du angir et start- og sluttidspunkt for en oppgave, legges det inn i dagboken på riktig dag og klokkeslett.
-
-## <a id="call" />Samtale ![ikon][img3]
-
-Samtaler er oppfølginger med en standard varighet på 15 minutter. Standard starttid er nå, og dato er dagens dato. Du kan lage en samtaleoppfølging hvis du for eksempel vil registrere en utgående telefonsamtale.
-
-> [!TIP]
-> Du kan endre standardvarigheten fra 15 minutter. Velg ![ikon][img4] **Personlige innstillinger** > **Preferanser** > **Standardverdier** > **Varighet på ny samtale**, og [angi deretter ønsket verdi][1].
-
-Uansett hvor i SuperOffice CRM du er, kan du opprette en ny telefonsamtale ved å klikke på **Ny** > **Samtale** i toppraden.
-
-Samtaler kan vises på følgende steder:
-
-* Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, Dagbok
-* På fanene **Dag**, **Uke**, **Måned**, og **Vis** i Dagbok-bildet
-* I disse sidepanelvisningene: **Dag**, **Måned**, **Neste dag** og **Uke**.
-
-## Hva vil du gjøre?
+## Aktuelt innhold
 
 * [Opprett avtaler, oppgaver, samtaler][2]
-* [Jobbe med oppfølginger][3]
 * [Finne ut mer om aktiviteter][4]
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+<!-- Referenced links -->
 [2]: create-follow-up.md
-[3]: index.md
 [4]: ../../learn/basics/activity.md
+[5]: invitation/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/appointment.png
-[img2]: ../../../../common/icons/appointment-task-h32.png
-[img3]: ../../../../common/icons/phone-h32.png
-[img4]: ../../../media/icons/personal-settings-small.png
+[img2]: ../../../../common/icons/diary-alarm.png
+[img3]: ../../../../common/icons/title.png
+[img4]: ../../../../common/icons/diary-recurring-transparent.png
+[img5]: ../../../../common/icons/sale.png
+[img6]: ../../../../common/icons/singlecolour/project.png
+[img7]: ../../../../common/icons/singlecolour/contact.png
+[img8]: ../../../../common/icons/person.png
+[img9]: ../../../../common/icons/associate-current.png
+[img10]: ../../../../common/icons/now.png
+[img14]: ../../../media/icons/personal-settings-small.png

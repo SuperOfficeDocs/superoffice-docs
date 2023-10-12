@@ -3,7 +3,7 @@ uid: help-no-diary
 title: Dagbok
 description: SuperOffice-dagboken er hjertet i CRM-systemet ditt. Disse guidene gjør det enklere å lære å jobbe med dagboken.
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.11.2023
 keywords: dagbok
 so.topic: concept
 language: no
@@ -23,9 +23,14 @@ Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele avt
 
 For å åpne dagboken, klikk på ordet **Dagbok** i navigatoren, og velg en tidsperiode fra listen som vises, eller klikk **I dag** eller **Denne uken** for å gå til gjeldende dag eller uke. Ditt eget navn vises øverst til høyre i Dagbok-bildet.
 
+Hvis to eller flere oppfølginger overlapper, kan du se deler av hver oppfølging.
+
 Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs, for eksempel hvis du ønsker å se når de har ledig tid, eller hvis du vil opprette oppfølginger for dem direkte.
 
 Du kan også vise dagbøkene til andre brukere og ressurser i organisasjonen ved å vise [gruppeoversikter][2] i dagboken.
+
+> [!TIP]
+> I Innstillinger og vedlikehold kan du definere at alle oppfølginger av en bestemt type skal vises i Dagbok-bildet med samme bakgrunnsfarge.
 
 ## <a id="nav" />Navigere i Dagbok-bildet
 
@@ -39,31 +44,13 @@ Dagboken består av [fire forskjellige faner][24]: **Dag**, **Uke**, **Måned** 
 
 * (Hvis åpen) klikk på en dag eller uke i dag-, uke- eller månedsoversikten i sidepanelet.
 
-## Jobbe med oppfølginger
-
-[Oppfølginger][1] er et samlebegrep for aktivitetene avtale, oppgave og samtale. Disse fungerer stort sett på samme måte.
-
-Åpne en tidligere registrert oppfølging ved å dobbeltklikke på den i dagboken eller i detaljkortet **Aktiviteter**.
-
-> [!NOTE]
-> Det er viktig å se forskjellen mellom aktiviteter og oppfølginger (avtaler, oppgaver og samtaler).
-Når du oppretter oppfølginger via Dagbok-bildet, defineres disse som standard som avtaler. Du kan imidlertid endre oppfølgingstypen til oppgave eller samtale i feltet for type i [dialogboksen **Avtale**][22].
-
-Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder spesielt for dagboken.
-
-> [!TIP]
-> I Innstillinger og vedlikehold kan du definere at alle oppfølginger av en bestemt type skal vises i Dagbok-bildet med samme bakgrunnsfarge.
-
 ## Hva vil du gjøre nå?
 
 * [Velge tidssone][15]
 * [Redigere oppfølging][6]
-* [Angi alarmer for oppfølging][7]
-* [Sende oppfølginger][8]
 * [Opprette oppfølginger][18]
 * [Opprette repeterende oppfølging][10]
 * [Invitere andre medarbeidere til en oppfølging][11]
-* [Koble aktiviteter][12]
 * [Flytte oppfølginger][19]
 * [Endre sluttidspunktet for oppfølging][20]
 * [Kopiere oppfølging til Dagbok][21]
@@ -71,14 +58,10 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 * [Videomøter][23]
 
 <!-- Referenced links -->
-[1]: follow-ups.md
 [2]: group-view.md
 [6]: edit-follow-up.md
-[7]: set-alarm.md
-[8]: send-as-email.md
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[12]: linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
@@ -87,7 +70,6 @@ Oppfølginger er nært knyttet til Dagbok-bildet, og visse funksjoner gjelder sp
 [19]: move-follow-up.md
 [20]: edit-follow-up.md#change-end
 [21]: create-follow-up.md#copy
-[22]: screen/dialog-for-followups.md
 [24]: screen/index.md
 [23]: video-meetings.md
 

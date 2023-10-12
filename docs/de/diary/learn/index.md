@@ -23,9 +23,14 @@ Durch die regelmäßige Nutzung des Kalenders können Sie Termine und Aktivität
 
 Klicken Sie im Navigator auf **Kalender** und wählen Sie einen Zeitraum aus der angezeigten Liste aus, oder klicken Sie auf **Heute** oder **Diese Woche**, um zum aktuellen Tag oder zur aktuellen Woche zu wechseln. Oben rechts in der Ansicht Kalender wird Ihr Name angezeigt.
 
+Wenn sich zwei oder mehr Folgeaufgabe überschneiden, können Sie einen Teil jeder Nachverfolgung sehen.
+
 Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öffnen, um zum Beispiel ihre Verfügbarkeit zu überprüfen oder Folgeaufgaben für sie zu erstellen.
 
 Sie können auch die Kalender anderer Benutzer und Ressourcen in Ihrer Firma anzeigen, indem Sie [Gruppenansichten][2] in Ihrem eigenen Kalender aufrufen.
+
+> [!TIP]
+> In Einstellungen und Verwaltung können Sie festlegen, dass alle Folgeaufgaben eines bestimmten Typs in der Ansicht Kalender mit derselben Hintergrundfarbe angezeigt werden sollen.
 
 ## <a id="nav" />In der Ansicht Kalender navigieren
 
@@ -39,31 +44,13 @@ Der Kalender besteht aus [vier verschiedenen Registerkarten][24]: Registerkarte 
 
 * Klicken Sie (wenn offen) auf einen Tag oder eine Woche in der Ansicht Tag, Woche oder Monat auf der Seitenleiste.
 
-## Mit Folgeaufgaben arbeiten
-
-Eine [Folgeaufgabe][1] ist die allgemeine Bezeichnung für Termin, Aufgabe und Anrufe. Die Funktionsweise ist bei allen Folgeaufgaben in etwa identisch.
-
-Öffnen Sie eine Folgeaufgabe, indem Sie darauf doppelklicken im Kalender oder auf die Bereichsregisterkarte **Aktivitäten**.
-
-> [!NOTE]
-> An dieser Stelle soll auf den entscheidenden Unterschied zwischen Aktivitäten und Folgeaufgaben (Termine, Aufgaben und Anrufe) hingewiesen werden.
-Wenn Sie Folgeaufgaben von der Ansicht Kalender erstellen, werden diese standardmäßig als Termine definiert. Im [Dialogfeld **Termin**][22] können Sie jedoch im Feld Typ den Folgeaufgabentyp in Aufgabe oder Anruf ändern.
-
-Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktionen beziehen sich speziell auf den Kalender.
-
-> [!TIP]
-> In Einstellungen und Verwaltung können Sie festlegen, dass alle Folgeaufgaben eines bestimmten Typs in der Ansicht Kalender mit derselben Hintergrundfarbe angezeigt werden sollen.
-
 ## Was möchten Sie jetzt tun?
 
 * [Eine Zeitzone auswählen][15]
 * [Folgeaufgabe bearbeiten][6]
-* [Alarme für Folgeaufgabe festlegen][7]
-* [Folgeaufgaben senden][8]
 * [Folgeaufgaben erstellen][18]
 * [Regelmäßige Folgeaufgabe erstellen][10]
 * [Mitarbeiter zu einer Folgeaufgabe einladen][11]
-* [Aktivitäten verknüpfen mit][12]
 * [Folgeaufgaben verschieben][19]
 * [Endzeitpunkt der Folgeaufgabe ändern][20]
 * [Folgeaufgabe in den Kalender kopieren][21]
@@ -71,14 +58,10 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 * [Videokonferenzen][23]
 
 <!-- Referenced links -->
-[1]: follow-ups.md
 [2]: group-view.md
 [6]: edit-follow-up.md
-[7]: set-alarm.md
-[8]: send-as-email.md
 [10]: recurrence/create.md
 [11]: invitation/index.md
-[12]: linking-documents-to-follow-ups.md
 [13]: screen/sales-tab.md
 [15]: ../../globalization-and-localization/learn/time-zones.md
 [16]: ../../learn/basics/activity.md
@@ -87,7 +70,6 @@ Folgeaufgaben sind eng mit der Ansicht Kalender verknüpft, und einige Funktione
 [19]: move-follow-up.md
 [20]: edit-follow-up.md#change-end
 [21]: create-follow-up.md#copy
-[22]: screen/dialog-for-followups.md
 [24]: screen/index.md
 [23]: video-meetings.md
 
