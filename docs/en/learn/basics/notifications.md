@@ -39,7 +39,7 @@ These are the different request notifications:
 > [!NOTE]
 > The list of request notifications is cleared every night, meaning that any request notifications you have in your list at the end of the day will not be there tomorrow.
 
-## Activity notifications
+## <a id="activity" />Activity notifications
 
 When you receive an activity notification, it will appear in your notifications panel. Click the link in the notification to open the activity.
 

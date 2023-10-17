@@ -2,8 +2,8 @@
 uid: help-da-invitation-response
 title: Håndter tilbagemeldinger på invitationer
 description: Håndter tilbagemeldinger på invitationer
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 10.16.2023
 keywords: dagbog, opfølgning, invitation
 so.topic: howto
 language: da
@@ -13,40 +13,31 @@ language: da
 
 Når du sender en invitation, kan modtageren af invitationen enten acceptere eller afvise invitationen. Hvis modtageren afviser invitationen, har du to valgmuligheder, afhængigt af hvilken type invitation der er tale om.
 
-> [!NOTE]
-> Hvis personen accepterer invitationen, forsvinder den fra dialogboksen **Invitationer** og registreres i SuperOffice CRM på normal vis.
-
 ## Tildelte opfølgninger
 
 En tildelt opfølgning er en opfølgning, du har delegeret til en anden person. Dette fungerer på følgende måde:
 
 1. Deleger en opfølgning til en anden ved hjælp af feltet **Ejer** på fanen **Detaljer** i [dialogboks til opfølgninger][1], eller ved klikke på knappen **Opgave** og vælge **Tildel til**.
 
-2. Når du har gemt opfølgningen, vises den i dialogboksen **Invitationer** i SuperOffice CRM for den anden person.
+2. Når du gemmer opfølgningen, [modtager den anden person en meddelelse][3].
 
-3. Hvis den anden person afviser invitationen, vises den som afvist i dialogboksen **Invitationer** hos dig.
+3. Hvis den anden person afviser invitationen, modtager du en Invitation afslået-meddelelse. Klik på **Forstået** for at bekræfte.
 
-4. Du kan nu klikke på knappen **Tildel igen** for at tildele opfølgningen til en anden.
-
-5. Dialogboksen **Overfør til** vises, hvor du kan vælge en anden person at delegere opgaven til.
-
-6. Opfølgningen vises nu med statussen **Tildelt** i dialogboksen **Invitationer**.
+4. Du er nu ejeren. Valgfrit, gentag trin 1 for at tildele opfølgningen til en anden.
 
 ## Andre opfølgninger
 
-1. [Link deltagere til opfølgninger][2] på den sædvanlige måde.
+1. [Link deltagere til opfølgninger][2].
 
-2. Når du har gemt opfølgningen, vises den i dialogboksen **Invitationer** i SuperOffice CRM for den anden person.
+2. Når du gemmer opfølgningen, [modtager den anden person en meddelelse][3].
 
-3. Hvis den anden person afviser invitationen, vises den som afvist i dialogboksen **Invitationer** hos dig.
+3. Hvis den anden person afviser invitationen, modtager du en Invitation afslået-meddelelse. Klik på **Forstået** for at bekræfte.
 
-4. Du kan nu klikke på knappen **Find ny tid** for at finde en ny tid, som passer. Dialogboksen for opfølgninger vises, og du kan angive en ny tid. I praksis gentages punkt 2 til 4, til du finder et tidspunkt, som passer.
-
-> [!TIP]
-> Hvis du har mange oplysninger på listen med invitationer og kun vil vise tilbagemeldinger fra andre, kan du filtrere ved hjælp af afkrydsningsfeltet **Vis svar**.
+4. Valgfrit, find en ny passende tid og planlæg opfølgningen igen.
 
 <!-- Referenced links -->
 [1]: ../screen/dialog-for-followups.md
 [2]: add-participant.md
+[3]: receive.md
 
 <!-- Referenced images -->

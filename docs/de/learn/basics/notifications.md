@@ -39,7 +39,7 @@ Dies sind die verschiedenen Anforderungsbenachrichtigungen:
     > [!NOTE]
     > Die Liste der Anforderungsbenachrichtigungen wird jede Nacht gelöscht, was bedeutet, dass alle Anforderungsbenachrichtigungen, die Sie am Ende des Tages in Ihrer Liste haben, morgen nicht mehr vorhanden sind.
 
-## Aktivitätsbenachrichtigungen
+## <a id="activity" />Aktivitätsbenachrichtigungen
 
 Wenn Sie eine Aktivitätsbenachrichtigung erhalten, wird diese in Ihrem Benachrichtigungsbildschirm angezeigt. Klicken Sie auf den Link in der Benachrichtigung, um die Aktivität zu öffnen.
 

@@ -39,7 +39,7 @@ Det här är de olika aviseringarna för ärenden:
     > [!NOTE]
     > Listan över ärendemeddelanden rensas varje natt, vilket innebär att eventuella ärenden som du på listan i slutet av dagen inte kommer att finnas där nästa dag.
 
-## Aktivitetsmeddelanden
+## <a id="activity" />Aktivitetsmeddelanden
 
 När du får ett aktivitetsmeddelande visas det i meddelandepanelen. Klicka på länken i meddelandet för att öppna aktiviteten.
 

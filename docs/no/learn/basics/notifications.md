@@ -39,7 +39,7 @@ Dette er de forskjellige saksvarslene:
 > [!NOTE]
 > Listen over saksvarsler blir slettet hver natt, noe som betyr at eventuelle saksvarsler du har i listen din på slutten av dagen, ikke vil være der i morgen.
 
-## Aktivitetsvarsler
+## <a id="activity" />Aktivitetsvarsler
 
 Når du mottar et aktivitetsvarsel, vises det i varslingsruten. Klikk på koblingen i varselet for å åpne aktiviteten.
 

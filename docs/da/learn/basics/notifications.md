@@ -39,7 +39,7 @@ Dette er de forskellige sagsnotifikationer:
     > [!NOTE]
     > Listen over sagsmeddelelser ryddes hver aften, hvilket betyder, at eventuelle sagsmeddelelser, du har på din liste i slutningen af dagen, ikke vil være der i morgen.
 
-## Meddelelser om aktivitet
+## <a id="activity" />Meddelelser om aktivitet
 
 Når du modtager en aktivitetsmeddelelse, vises den i dit meddelelsespanel. Klik på linket i meddelelsen for at åbne aktiviteten.
 

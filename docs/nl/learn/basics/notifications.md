@@ -39,7 +39,7 @@ Dit zijn de verschillende verzoekmeldingen:
     > [!NOTE]
     > De lijst met verzoekmeldingen wordt elke nacht gewist, wat betekent dat eventuele verzoekmeldingen die u aan het einde van de dag in uw lijst hebt, er morgen niet meer zijn.
 
-## Activiteitsmeldingen
+## <a id="activity" />Activiteitsmeldingen
 
 Wanneer u een activiteitsmelding ontvangt, wordt deze weergegeven in uw meldingenpaneel. Klik op de link in de melding om de activiteit te openen.
 
