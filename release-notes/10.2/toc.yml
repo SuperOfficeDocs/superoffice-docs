@@ -22,6 +22,8 @@ items:
 - name: Requests / Service
   href: service/index.md
   items:
+  - name: 10.2.9 update
+    href: service/10.2.9-update.md
   - name: 10.2.8 update
     href: service/10.2.8-update.md
   - name: 10.2.6 update

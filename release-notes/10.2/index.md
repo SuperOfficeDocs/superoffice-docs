@@ -42,10 +42,14 @@ so.version: 10.2
   * [Search in the Find request tab gives both selections and requests][12] in Service
 
 * 10.2.8 (19.09.2023):
+  * [Notifications][25] in Core CRM
   * [Open/download attachments in side bar preview][24] in Service
   * [Update lists clicking the exclamation mark][24] in Service
   * [Create system signature for requests][24] in Service
   * [Change rank on contacts by drag and drop][24] in Service
+
+* 10.2.9 (20.10.2023):
+  * [Add new contact from the request][26] in Service
 
 ### Mobile CRM
 
@@ -107,5 +111,7 @@ so.version: 10.2
 [22]: https://appstore.superoffice.com/mailvideo-as/mailvideo
 [23]: https://appstore.superoffice.com/siteshop-aps/risika-risk-credit
 [24]: service/10.2.8-update.md
+[25]: core-crm/10.2.8-update.md
+[26]: service/10.2.9-update.md
 
 <!-- Referenced images -->

@@ -20,8 +20,10 @@ so.topic: reference
 * [Create system signature for requests (10.2.8)][8]
 * [Change rank on contacts by drag and drop (10.2.8)][8]
 * [Refresh request tab (10.2.8)][8]
+* [Add new contact from the request (10.2.9)][9]
 
 <!-- Referenced links-->
 [5]: 10.2.5-update.md
 [6]: 10.2.6-update.md
 [8]: 10.2.8-update.md
+[9]: 10.2.9-update.md
