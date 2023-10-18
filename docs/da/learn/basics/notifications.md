@@ -22,6 +22,21 @@ Når du klikker på **klokkeikonikonet** ![ikon][img1] i øverste højre hjørne
 
 ![Pop op-meddelelsen vises, der viser både meddelelser om sager og invitationer -screenshot][img5]
 
+## <a id="activity" />Meddelelser om aktivitet
+
+Når du modtager en aktivitetsmeddelelse, vises den i dit meddelelsespanel. Klik på linket i meddelelsen for at åbne aktiviteten.
+
+Dette er de forskellige aktivitetsmeddelelser:
+
+* **Nyt møde**: Svar ved at klikke på **Acceptér** eller **Afvis**. Når du har svaret, forsvinder invitationen fra meddelelsespanelet.
+* **Nyt tilbagevendende møde**: Hvis invitationen er til en tilbagevendende begivenhed, afspejles dette med et ikon ![ikon][img4] under linket.
+* **Mødet er blevet ændret**: Hvis tidspunktet eller datoen for et møde, du allerede har accepteret, ændres, modtager du en ny meddelelse, der fortæller dig, hvad der er ændret, og kræver, at du accepterer eller afviser det.
+* **Møde aflyst**: Mødet er aflyst. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
+* **Invitation afslået**: En mødedeltager har afvist invitationen. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
+
+> [!NOTE]
+> Invitationer og ændrede aktiviteter fjernes ikke fra meddelelsespanelet, men forbliver, indtil du enten **accepterer** eller **afviser** invitationen.
+
 ## Sagsnotifikationer
 
 Når noget ændres på en sag, som du er tilknyttet, vises en meddelelse i meddelelsespanelet. Klik på linket i meddelelsen for at åbne sagen.
@@ -36,23 +51,8 @@ Dette er de forskellige sagsnotifikationer:
 * **Foretrukne sager opdateret**: En af dine foretrukne sager er opdateret.
 * **Tilpasset meddelelse**: Der er føjet en brugerdefineret meddelelse til en sag.
 
-    > [!NOTE]
-    > Listen over sagsmeddelelser ryddes hver aften, hvilket betyder, at eventuelle sagsmeddelelser, du har på din liste i slutningen af dagen, ikke vil være der i morgen.
-
-## <a id="activity" />Meddelelser om aktivitet
-
-Når du modtager en aktivitetsmeddelelse, vises den i dit meddelelsespanel. Klik på linket i meddelelsen for at åbne aktiviteten.
-
-Dette er de forskellige aktivitetsmeddelelser:
-
-* **Nyt møde**: Svar ved at klikke på **Acceptér** eller **Afvis**. Når du har svaret, forsvinder invitationen fra meddelelsespanelet.
-* **Nyt tilbagevendende møde**: Hvis invitationen er til en tilbagevendende begivenhed, afspejles dette med et ikon ![ikon][img4] under linket.
-* **Mødet er blevet ændret**: Hvis tidspunktet eller datoen for et møde, du allerede har accepteret, ændres, modtager du en ny meddelelse, der fortæller dig, hvad der er ændret, og kræver, at du accepterer eller afviser det.
-* **Møde aflyst**: Mødet er aflyst. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
-* **Invitation afslået**: En mødedeltager har afvist invitationen. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
-
-    > [!NOTE]
-    > Invitationer og ændrede aktiviteter fjernes ikke fra meddelelsespanelet, men forbliver, indtil du enten **accepterer** eller **afviser** invitationen.
+> [!NOTE]
+> Listen over sagsmeddelelser ryddes hver aften, hvilket betyder, at eventuelle sagsmeddelelser, du har på din liste i slutningen af dagen, ikke vil være der i morgen.
 
 ## Beskedindstillinger
 
