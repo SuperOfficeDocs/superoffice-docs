@@ -34,9 +34,6 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
 2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new one. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`.
 
-    > [!NOTE]
-    > For customers using DKIM (only): you need to add `"include:mailgun.org ~all"` to be able to send and receive emails. Read more in [DKIM setup][4].
-
     1. Click **Edit.** Update the existing record (text field) with the new combined record.
 
          ![x -screenshot][img2]
