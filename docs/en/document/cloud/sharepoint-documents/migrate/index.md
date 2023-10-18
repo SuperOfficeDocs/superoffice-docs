@@ -85,12 +85,25 @@ To move orphaned documents (those without a SharePoint owner), we need a **Globa
 
 How do you handle documents that have never been stored in SoArc Online? Perhaps your organization has used Microsoft 365 Document Integration since it started using SuperOffice.
 
-Documents created with our Microsoft 365 Document Integration are already stored in SharePoint (version 1.0). In theory, [configuring SharePoint 2.0][4] and [migrating existing documents to version 2.0][6] are the same whether you use so_arc (online) or SharePoint 1.0 for. Our tests indicate that it works fine.
+For easier refrence and understanding, we use **"SharePoint version 1.0"** for the legacy version of "Microsoft 365 Document Integration" (aka. "Office 365 Document Integration", "365 CloudOffice", "365 SharePoint document integration", "O365 integration", and uses "SuperOffice Integrator App in Microsoft 365 SharePoint" to fasilitate the use of it), and **"SharePoint version 3.x"** for "SuperOffice SharePoint documents" (2.x and 3.x), and **"SuperOffice SharePoint Migration"** as the tool to migrate the documents to "SharePoint version 3.x", in this section:
 
-As long as the pre-requisite is met (IdP authentication), you should be able to configure SharePoint 2.0 from Settings and maintenance.
+Documents created with "SharePoint version 1.0" are already stored in SharePoint. In theory, [configuring "SharePoint version 3.x"][4] and [migrating existing documents to "SharePoint version 3.x"][6] are the very much same whether you use so_arc (online) or "SharePoint version 1.0" as an document archive for SuperOffice documents.
+Our tests indicate that it works fine to migrate, but there is 2 manual steps needed to be performed by Online Operations / RnD Services team during migration, and there is one limitation in "SharePoint version 3.x" compared to "SharePoint version 1.0" affecting migration and useage for external users:
+* Update access tokens to be able to read existing O365 documents
+* Turn off "SharePoint version 1.0"
+* IdP authentication needs all users using same MS subscription. 
 
 > [!NOTE]
-> Ask support to **turn off SharePoint 1.0 for customer XXXX**. This will remove/turn off the old legacy login process "SuperOffice Integrator App in Microsoft 365 SharePoint" to normal SuperID login process.
+> The old legacy login process of "SharePoint version 1.0" (using "SuperOffice Integrator App" in Microsoft 365 SharePoint) provides the capability to authenticate both internal users (belonging to the same Azure Active Directory tenant) and external users (guest users belonging to another Azure subscription or even external organizations). "SharePoint version 3.x" does not support AAD external users due to limitations in the Microsoft Graph API. You should be able to migrate documents created by / owned by AAD external users in "SharePoint version 1.0" to"SharePoint version 3.x", but the owner will then be the "SuperOffice App" for all those documents. During migration Admin needs to remove the user plan for those users while migrating. As "SharePoint version 3.x" does not support AAD external users, those AAD external users will not be able to create new document in "SharePoint version 3.x" from SuperOffice afterwards. You can identify those users in Microsoft Azure Active Directory / Microsoft Entra ID -> Users: User Type or Identities say "Guest" or "External AD", or have 'User Principal Name' in format of [exernalUPN-nam]#EXT#@[internaldominaname].onmicrosoft.com etc.
+
+Here are the steps:
+1. SuperOffice Admin: Configure SuperOffice SharePoint documents (and if you have AAD external users: remove SuperOffice user plans for SuperOffice users who are AAD external users)
+1. Online Operations: Run access token fix
+1. SuperOffice Admin: Run SuperOffice SharePoint Migration to migrate documents to the SharePoint document library
+1. Online Operations: Remove 'Microsoft 365 Document Integration' (legacy) setup
+
+> [!NOTE]
+> For step # 2 and step # 4: Ask support to **Run access token fix for customer XXXX** (This will  Update access tokens to be able to read existing O365 documents) / Ask support to **Turn off SharePoint 1.0 for customer XXXX** (This will remove/turn off the old legacy login process "SuperOffice Integrator App in Microsoft 365 SharePoint" to normal SuperID login process. )
 
 ### Hybrid solutions
 
