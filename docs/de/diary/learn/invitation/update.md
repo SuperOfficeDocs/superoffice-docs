@@ -2,8 +2,8 @@
 uid: help-de-invitation-update
 title: Einladung bearbeiten oder löschen
 description: Einladung bearbeiten oder löschen
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 10.16.2023
 keywords: Kalender, Folgeaufgabe, Einladung
 so.topic: howto
 language: de
@@ -11,12 +11,11 @@ language: de
 
 # Einladung bearbeiten oder löschen
 
-Wenn Sie eine erstellte und gesendete Einladung bearbeiten oder löschen, werden die Eingeladenen mit einer Mitteilung darüber verständigt. Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet dieser Datensatz auch aus den Kalendern der Eingeladenen.
+* Wenn Sie eine erstellte und gesendete Einladung bearbeiten oder löschen, werden die Eingeladenen mit einer Mitteilung darüber verständigt.
 
-Wenn einer der Empfänger einer Einladung den Datensatz von seinem eigenen Kalender löscht, wird der Datensatz nur in seinem Kalender gelöscht. Die Folgeaufgabe erscheint dann im Dialogfeld **Einladungen**, sodass sie später wiedergefunden und angenommen werden kann.
+* Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet dieser Datensatz auch aus den Kalendern der Eingeladenen.
 
-> [!TIP]
-> Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Benachrichtigungen** in der oberen Leiste, um das Dialogfeld **Einladungen** zu öffnen.
+* Wenn Sie eine Folgeaufgabe löschen, zu der Sie eingeladen sind, wird die Folgeaufgabe nur aus Ihrem Kalender entfernt.
 
 ## Was möchten Sie jetzt tun?
 
@@ -26,6 +25,3 @@ Wenn einer der Empfänger einer Einladung den Datensatz von seinem eigenen Kalen
 <!-- Referenced links -->
 [1]: ../recurrence/edit.md
 [2]: ../recurrence/stop.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/notice-small.png

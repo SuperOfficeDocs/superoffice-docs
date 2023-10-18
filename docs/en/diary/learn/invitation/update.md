@@ -2,8 +2,8 @@
 uid: help-en-invitation-update
 title: Edit or delete invitation
 description: Edit or delete invitation
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 10.16.2023
 keywords: diary, follow-up, invitation
 so.topic: howto
 language: en
@@ -11,12 +11,11 @@ language: en
 
 # Edit or delete invitation
 
-If you edit or delete an invitation that you created and sent, the invitees will receive a message about this. If you delete an invitation that you own from your Diary, this record also disappears from the invitees' diaries.
+* If you edit or delete an invitation that you created and sent, the invitees will receive a message about this.
 
-If one of the recipients of an invitation chooses to delete the record from their own diary, it is deleted from their diary only. The record will then appear in the **Invitations** dialog, so that it can be found and accepted later on.
+* If you delete an invitation that you own from your Diary, this record also disappears from the invitees' diaries.
 
-> [!TIP]
-> To open the **Invitations** dialog, click the ![icon][img1] **Notifications** button on the Top bar.
+* If you delete a follow-up you are invited to, the follow-up is removed from your diary only.
 
 ## What would you like to do now?
 
@@ -26,6 +25,3 @@ If one of the recipients of an invitation chooses to delete the record from thei
 <!-- Referenced links -->
 [1]: ../recurrence/edit.md
 [2]: ../recurrence/stop.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/notice-small.png
