@@ -3,7 +3,7 @@ title: New and improved Service
 uid: news-service-10.2
 description: Release notes. What's new in SuperOffice Service 10.2
 author: SuperOffice AS – Research and Development
-so.date: 09.19.2023
+so.date: 10.20.2023
 keywords: Service, request
 so.version: 10.2
 so.topic: reference
@@ -20,8 +20,10 @@ so.topic: reference
 * [Create system signature for requests (10.2.8)][8]
 * [Change rank on contacts by drag and drop (10.2.8)][8]
 * [Refresh request tab (10.2.8)][8]
+* [Add new contact from the request (10.2.9)][9]
 
 <!-- Referenced links-->
 [5]: 10.2.5-update.md
 [6]: 10.2.6-update.md
 [8]: 10.2.8-update.md
+[9]: 10.2.9-update.md
