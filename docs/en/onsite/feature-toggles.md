@@ -17,7 +17,7 @@ Some features are enabled by **feature toggles**.
 To enable toggled features - you need to add two sections manually in your NetServer configuration file.
 
 * Web Application: [*web.config*][2]
-* For SupeOffice versions less than 10, and support the feature: Windows Application: [*SuperOffice.config*][4] and [*SOUSER.INI*][3]
+* For SuperOffice versions less than 10 which support the feature Windows Application: [*SuperOffice.config*][4] and [*SOUSER.INI*][3]
 
 > [!NOTE]
 > If you have used feature toggles before and want to enable a new feature, simply add a new key to your existing configuration.
