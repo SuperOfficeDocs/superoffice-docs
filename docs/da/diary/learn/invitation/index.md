@@ -42,9 +42,9 @@ Opfølgningen vises på detaljekortet **Aktiviteter** for det aktuelle firma.
 
 Når du sender en invitation, kan modtageren af invitationen enten acceptere eller afvise invitationen.
 
-* Hvis modtageren afviser invitationen, kan du ændre tidspunktet eller tildele opfølgningen på ny, afhængigt af hvilken type invitation der er tale om.
+* Hvis modtageren afviser invitationen, Klik på **Forstået** for at bekræfte. Valgfrit, find en ny passende tid og planlæg opfølgningen igen, eller tildele opfølgningen på ny.
 
-* Hvis personen accepterer invitationen, forsvinder den fra dialogboksen **Invitationer** og registreres i SuperOffice CRM på normal vis.
+* Hvis personen accepterer invitationen, registreres den i SuperOffice CRM på normal vis.
 
 ## Hvad ønsker du at foretage dig nu?
 

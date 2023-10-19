@@ -3,7 +3,7 @@ uid: help-de-invitation-add-participant
 title: Teilnehmer zu Folgeaufgaben hinzufügen
 description: "Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen."
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: Kalender, Folgeaufgabe, Einladung, Teilnehmer
 so.topic: howto
 language: de
@@ -13,7 +13,7 @@ language: de
 
 Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie diese Personen als Teilnehmer an der Folgeaufgabe hinzufügen. Sie können auch ein Konferenzzimmer und Ausrüstungen des Unternehmens reservieren. Personen, die als Teilnehmer verfügbar sind, werden in Einstellungen und Verwaltung definiert.
 
-Klicken Sie auf die Schaltfläche **Hinzufügen**, um eine Person über die Registerkarte Teilnehmer zu einem Termin einzuladen. Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][5] an.
+Klicken Sie auf die Schaltfläche **Hinzufügen**, um eine Person über die Registerkarte Teilnehmer zu einem Termin einzuladen. Sehen Sie sich das Video für [Teilnehmer zu einem Termin hinzufügen][15] an.
 
 ## Schritte
 
@@ -47,14 +47,11 @@ Klicken Sie auf die Schaltfläche **Hinzufügen**, um eine Person über die Regi
 
 ## Was passiert als nächstes
 
-1. Wenn Sie die Folgeaufgabe gespeichert haben, wird sie im SuperOffice CRM-Dialogfeld **Einladungen** der eingeladenen Person angezeigt.
+1. Wenn Sie die Folgeaufgaben speichern, [erhält die andere Person eine Benachrichtigung][5].
 
-2. Wenn die Person die Einladung ablehnt, wird sie in Ihrem eigenen Dialogfeld **Einladungen** entsprechend gekennzeichnet.
+2. Wenn die andere Person die Einladung ablehnt, erhalten Sie eine Einladung abgelehnt-Benachrichtigung. Klicken Sie auf **Alles klar**, um dies zu bestätigen.
 
-3. Sie können nun auf die Schaltfläche **Verschieben** klicken, um einen anderen Zeitpunkt festzulegen. Das Dialogfeld für Folgeaufgaben wird angezeigt, in dem ein neuer Zeitpunkt definiert werden kann. In der Praxis müssen die Schritte 2 bis 4 meist mehrmals wiederholt werden, um einen geeigneten Zeitpunkt zu finden.
-
-> [!TIP]
-> Wenn Ihre Liste der Einladungen sehr viele Informationen enthält und Sie nur die Antworten anderer Personen anzeigen lassen möchten, können Sie die Listeneinträge mithilfe des Kontrollkästchens **Antworten anzeigen** filtern.
+3. Optional können Sie eine neue geeignete Zeit finden und die Folgeaufgabe neu planen.
 
 ### Eine externe Person die Einladung akzeptiert oder abgelehnt hat
 
@@ -82,7 +79,8 @@ Verwendung der SuperOffice-E-Mail: Wenn Sie die erforderlichen Informationen nic
 [2]: ../screen/dialog-for-followups.md
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
-[5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
+[5]: accept-decline.md
+[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

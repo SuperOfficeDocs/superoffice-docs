@@ -3,7 +3,7 @@ uid: help-da-invitation-add-participant
 title: Tilføjelse af deltagere i opfølgninger
 description: "Invitation af kontakter til en aftale kan gøres på forskellige måder. Denne vejledning viser, hvordan du føjer deltagere til en aftale."
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: dagbog, opfølgning, invitation, deltager
 so.topic: howto
 language: da
@@ -13,7 +13,7 @@ language: da
 
 Når du opretter en opfølgning, som omfatter flere personer end dig selv, kan du knytte personerne til opfølgningen som deltagere. Du kan også reservere mødelokaler og udstyr i organisationen. De personer, der er tilgængelige som deltagere, defineres i Indstillinger og vedligeholdelse.
 
-Inviter en kontakt til en aftale fra fanen deltagere ved at klikke på knappen **Tilføj** . Se videoen for [Føj deltagere til en aftale][5].
+Inviter en kontakt til en aftale fra fanen deltagere ved at klikke på knappen **Tilføj** . Se videoen for [Føj deltagere til en aftale][15].
 
 ## Trin
 
@@ -47,14 +47,11 @@ Inviter en kontakt til en aftale fra fanen deltagere ved at klikke på knappen *
 
 ## Hvad sker der herefter
 
-1. Når du har gemt opfølgningen, vises den i dialogboksen **Invitationer** i SuperOffice CRM for den anden person.
+1. Når du gemmer opfølgningen, [modtager den anden person en meddelelse][5].
 
-2. Hvis den anden person afviser invitationen, vises den som afvist i dialogboksen **Invitationer** hos dig.
+2. Hvis den anden person afviser invitationen, modtager du en Invitation afslået-meddelelse. Klik på **Forstået** for at bekræfte.
 
-3. Du kan nu klikke på knappen **Find ny tid** for at finde en ny tid, som passer. Dialogboksen for opfølgninger vises, og du kan angive en ny tid. Gentag til du finder et tidspunkt, som passer.
-
-> [!TIP]
-> Hvis du har mange oplysninger på listen med invitationer og kun vil vise tilbagemeldinger fra andre, kan du filtrere ved hjælp af afkrydsningsfeltet **Vis svar**.
+3. Valgfrit, find en ny passende tid og planlæg opfølgningen igen.
 
 ### Hvorfor er knappen E-mailinvitation deaktiveret?
 
@@ -82,7 +79,8 @@ Hvis den valgte person ikke har en gyldig e-mailadresse registreret i SuperOffic
 [2]: ../screen/dialog-for-followups.md
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
-[5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
+[5]: accept-decline.md
+[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

@@ -42,9 +42,9 @@ De vervolgactiviteit wordt op het sectietabblad **Activiteiten** voor het betref
 
 Wanneer u een uitnodiging verzendt, kan de ontvanger deze accepteren of weigeren.
 
-* Wanneer de ontvanger de uitnodiging weigert, kunt u de follow-up opnieuw plannen of opnieuw toewijzen, afhankelijk van het soort uitnodiging.
+* Wanneer de ontvanger de uitnodiging weigert, ontvangt u een melding van uitnodiging geweigerd. Klik op **Duidelijk** om dit te bevestigen. Optioneel, zoek een nieuwe geschikte tijd en plan de vervolgactiviteit opnieuw in of opnieuw toewijzen.
 
-* Als de persoon de uitnodiging accepteert, verdwijnt deze uit het dialoogvenster **Uitnodigingen** en wordt deze op de normale manier vastgelegd in SuperOffice CRM.
+* Als de persoon de uitnodiging accepteert, wordt deze op de normale manier vastgelegd in SuperOffice CRM.
 
 ## Wat wilt u doen?
 

@@ -3,7 +3,7 @@ uid: help-da-follow-up-assign
 title: Tildele opfølgning
 description: Overførsel af en opfølgning til andre
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: dagbog, opfølgning, medarbejder, deleger, tildele
 so.topic: howto
 language: da
@@ -36,21 +36,20 @@ Eksempler: En kollega er på ferie, men har brug for at ringe til en kunde, når
 
 1. Klik på **OK** og derefter **Gem**.
 
-Den valgte person er nu ejer af opfølgningen. Den vises i dialogboksen **Invitationer** i SuperOffice for den anden person, og de ser opfølgningen i sin dagbog og aktivitetsliste.
+Den valgte person er nu ejer af opfølgningen. De [modtager en meddelelse][3] og ser opfølgningen i sin dagbog og aktivitetsliste.
 
 ## Tildel igen
 
-Hvis den anden person afviser invitationen, vises den som afvist i dialogboksen **Invitationer** hos dig.
+Hvis den anden person afviser invitationen, modtager du en Invitation afslået-meddelelse.
 
-1. Du kan nu klikke på knappen **Tildel igen** for at tildele opfølgningen til en anden.
+1. Klik på **Forstået** for at bekræfte. Du er nu ejeren.
 
-2. Dialogboksen **Overfør til** vises, hvor du kan vælge en anden person at delegere opgaven til.
-
-3. Opfølgningen vises nu med statussen **Tildelt** i dialogboksen **Invitationer**.
+1. Valgfrit, gentag trinnene for at tildele opfølgningen til en anden.
 
 <!-- Referenced links -->
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
+[3]: invitation/accept-decline.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

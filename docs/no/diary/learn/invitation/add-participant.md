@@ -3,7 +3,7 @@ uid: help-no-invitation-add-participant
 title: Legge til deltakere i oppfølginger
 description: "Det er flere måter å invitere personer til en avtale på. Denne guiden viser hvordan du legger til deltakere i en avtale."
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: dagbok, oppfølging, invitasjon, deltaker
 so.topic: howto
 language: no
@@ -13,7 +13,7 @@ language: no
 
 Når du oppretter en oppfølging som omfatter flere enn deg selv, kan du knytte personene til oppfølgingen som deltakere. Du kan også reservere møterom og utstyr i organisasjonen. Hvem som er tilgjengelige som deltakere, defineres i Innstillinger og vedlikehold.
 
-Klikk på **Legg til**-knappen for å invitere en person til en avtale fra fanen deltakere. Se videoen [Legge til deltakere i en avtale][5].
+Klikk på **Legg til**-knappen for å invitere en person til en avtale fra fanen deltakere. Se videoen [Legge til deltakere i en avtale][15].
 
 ## Trinn
 
@@ -47,14 +47,11 @@ Klikk på **Legg til**-knappen for å invitere en person til en avtale fra fanen
 
 ## Hva skjer neste
 
-1. Når du har lagret oppfølgingen, vises den i dialogboksen **Invitasjoner** i SuperOffice CRM hos den andre personen.
+1. Når du lagrer oppfølgingen, [mottar den andre personen et aktivitetsvarsel][5].
 
-2. Hvis den andre personen avslår invitasjonen, vises den som avslått i dialogboksen **Invitasjoner** hos deg.
+2. Hvis den andre personen avslår invitasjonen, får du en Invitasjon avslått-melding. Klikk **Greit** for å bekrefte.
 
-3. Du kan nå klikke på knappen **Finn ny tid** for å finne en ny tid som passer. Dialogboksen for oppfølginger vises, og du kan angi en ny tid. I praksis blir punkt 2 til 4 gjentatt til dere finner et tidspunkt som passer.
-
-> [!TIP]
-> Hvis du har mye informasjon på listen med invitasjoner, og bare ønsker å vise tilbakemeldinger fra andre, kan du filtrere ved hjelp av avmerkingsboksen **Vis svar**.
+3. Valgfritt, finn en ny passende tid og endre tidspunktet for oppfølgingen.
 
 ### Hvordan angir jeg om en ekstern person har godtatt eller avslått invitasjonen?
 
@@ -82,7 +79,8 @@ Bruke innboksen i SuperOffice: Hvis du ikke har angitt nødvendig informasjon i 
 [2]: ../screen/dialog-for-followups.md
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
-[5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
+[5]: accept-decline.md
+[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

@@ -3,7 +3,7 @@ uid: help-no-invitation
 title: Opprette oppfølginger med medarbeiderne dine
 description: Opprette oppfølginger med medarbeiderne dine
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: dagbok, oppfølging, invitasjon, møte
 so.topic: howto
 language: no
@@ -42,9 +42,9 @@ Oppfølgingen vises på detaljkortet **Aktiviteter** for det aktuelle firmaet.
 
 Når du sender en invitasjon, kan mottakeren av invitasjonen enten godta eller avslå den.
 
-* Hvis mottakeren avslår invitasjonen, kan du endre tidspunktet eller tilordne oppfølgingen på nytt, avhengig av hva slags type invitasjon det er snakk om.
+* Hvis mottakeren avslår invitasjonen, får du en Invitasjon avslått-melding. Klikk **Greit** for å bekrefte. Valgfritt, finn en ny passende tid og endre tidspunktet for oppfølgingen, eller tilordne oppfølgingen på nytt.
 
-* Hvis personen godtar invitasjonen, forsvinner den fra dialogboksen **Invitasjoner** og registreres i SuperOffice CRM på vanlig måte.
+* Hvis personen godtar invitasjonen, registreres den i SuperOffice CRM på vanlig måte.
 
 ## Hva vil du gjøre?
 

@@ -3,7 +3,7 @@ uid: help-no-follow-up-assign
 title: Delegere
 description: Overføre en oppfølging til noen andre
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: dagbok, oppfølging, delegere, tilordne, invitasjon, medarbeider
 so.topic: howto
 language: no
@@ -36,21 +36,20 @@ Eksempler: Kollegaen din er på ferie, men må ringe en klient når vedkommende 
 
 1. Klikk på **OK** og deretter på **Lagre**.
 
-Valgte person er nå eier av oppfølgingen. Den vises i dialogboksen **Invitasjoner** i SuperOffice hos den andre personen, og de ser oppfølgingen i dagboken og aktivitetslisten sin.
+Valgte person er nå eier av oppfølgingen. De [mottar et aktivitetsvarsel][3] og ser oppfølgingen i dagboken og aktivitetslisten sin.
 
 ## Tildel på nytt
 
-Hvis den andre personen avslår invitasjonen, vises den som avslått i dialogboksen **Invitasjoner** hos deg.
+Hvis den andre personen avslår invitasjonen, får du en Invitasjon avslått-melding.
 
-1. Du kan nå klikke på knappen **Tildel på nytt** for å tildele oppfølgingen til en annen.
+1. Klikk **Greit** for å bekrefte. Du er nå eieren.
 
-2. Dialogboksen **Overfør til** vises, der du kan velge en annen person å delegere oppgaven til.
-
-3. Oppfølgingen vises nå med statusen **Tildelt** i dialogboksen **Invitasjoner**.
+2. Valgfritt, gjenta trinnene for å tildele oppfølgingen til noen andre.
 
 <!-- Referenced links -->
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
+[3]: invitation/accept-decline.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

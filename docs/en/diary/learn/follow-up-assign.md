@@ -3,7 +3,7 @@ uid: help-en-follow-up-assign
 title: Assign a follow-up
 description: Assign a follow-up to someone else
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: diary, follow-up, assign, delegate
 so.topic: howto
 language: en
@@ -36,21 +36,20 @@ Examples: Your colleague is on vacation, but needs to phone a client when they g
 
 1. Click **OK** and **Save**.
 
-The selected person is now the owner of the follow-up. It appears in the **Invitations** dialog in SuperOffice for the other person, and they will see the follow-up in their diary and activities list.
+The selected person is now the owner of the follow-up. They [receive a notification][3] and see the follow-up in their diary and activities list.
 
 ## Re-assign
 
-If the other person declines the invitation, it appears as declined in your own **Invitations** dialog.
+If the other person declines the invitation, you get an **Invitation declined** notification.
 
-1. Click the **Reassign** button to assign the follow-up to someone else.
+1. Click **Got it** to acknowledge. You are now the owner.
 
-2. The **Assign to** dialog appears, allowing you to select another person to delegate the task to.
-
-3. The follow-up is now displayed with the status **Assigned** in the **Invitations** dialog.
+2. Optionally, repeat the steps to re-assign the follow-up to someone else.
 
 <!-- Referenced links -->
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
+[3]: invitation/accept-decline.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

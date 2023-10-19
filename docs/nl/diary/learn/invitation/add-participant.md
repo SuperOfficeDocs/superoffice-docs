@@ -3,7 +3,7 @@ uid: help-nl-invitation-add-participant
 title: Deelnemers toevoegen aan vervolgactiviteiten
 description: "Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen."
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: agenda, vervolgactiviteit, uitnodiging, deelnemer
 so.topic: howto
 language: nl
@@ -13,7 +13,7 @@ language: nl
 
 Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft, kunt u de betrokken personen als deelnemers aan de vervolgactiviteit toevoegen. U kunt ook een vergaderruimte en apparatuur reserveren. Mensen die beschikbaar zijn als deelnemers worden gedefinieerd in Instellingen en onderhoud.
 
-Nodig een contactpersoon uit voor een afspraak op het tabblad Deelnemers door op de knop **Toevoegen** te klikken. Bekijk de video voor [Deelnemers toevoegen aan een afspraak][5].
+Nodig een contactpersoon uit voor een afspraak op het tabblad Deelnemers door op de knop **Toevoegen** te klikken. Bekijk de video voor [Deelnemers toevoegen aan een afspraak][15].
 
 ## Stappen
 
@@ -47,16 +47,13 @@ Nodig een contactpersoon uit voor een afspraak op het tabblad Deelnemers door op
 
 ## Wat gebeurt er hierna
 
-1. Wanneer u een vervolgactiviteit hebt opgeslagen, wordt deze weergegeven in het dialoogvenster **Uitnodigingen** in SuperOffice CRM van de andere persoon.
+1. Wanneer u de vervolgactiviteit opslaat, [ontvangt de andere persoon een melding][5].
 
-2. Als de andere persoon de uitnodiging weigert, wordt het in uw dialoogvenster **Uitnodigingen** als geweigerd weergegeven.
+2. Als de andere persoon de uitnodiging weigert, ontvangt u een melding van uitnodiging geweigerd. Klik op **Duidelijk** om dit te bevestigen.
 
-3. U kunt nu op de knop **Opnieuw plannen** klikken om een nieuwe geschikte tijd te zoeken. Het dialoogvenster Vervolgactiviteiten wordt weergegeven en u kunt een nieuwe tijd instellen. In de praktijk worden de punten 2 t/m 4 herhaald tot u een geschikte tijd vindt.
+3. Optioneel, zoek een nieuwe geschikte tijd en plan de vervolgactiviteit opnieuw in.
 
-> [!TIP]
-> Wanneer er veel informatie in de lijst met uitnodigingen staat en u wilt alleen de antwoorden van anderen weergeven, kunt u de lijst met het selectievakje **Antwoorden weergeven** filteren.
-
-### Hoe geef ik aan dat een externe persoon de uitnodiging heeft geaccepteerd of geweigerd?
+### Hoe geef ik aan dat een externe persoon heeft geaccepteerd of geweigerd?
 
 Externe deelnemers krijgen een bericht via e-mail (als u dit alternatief in het dialoogvenster Uitnodiging hebt geselecteerd). Uitnodigingsmails die naar externe contactpersonen worden verzonden, bevatten een iCal-bestand (.ics) met de uitnodigingsgegevens. Wanneer er op uw uitnodiging wordt gereageerd, wordt de [status][1] automatisch bijgewerkt in SuperOffice.
 
@@ -82,7 +79,8 @@ Postvak IN in SuperOffice gebruiken: Als u de vereiste informatie niet hebt inge
 [2]: ../screen/dialog-for-followups.md
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
-[5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
+[5]: accept-decline.md
+[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

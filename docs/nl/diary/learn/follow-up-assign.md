@@ -3,7 +3,7 @@ uid: help-nl-follow-up-assign
 title: Toegewezen vervolgactiviteit
 description: Een vervolgactiviteit aan iemand toewijzen
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: agenda, vervolgactiviteit, uitnodiging, toewijzen
 so.topic: howto
 language: nl
@@ -36,21 +36,20 @@ Voorbeelden: Uw collega is op vakantie, maar moet een klant bellen als hij terug
 
 1. Klik op **OK** en op **Opslaan**.
 
-De geselecteerde persoon is nu de eigenaar van de vervolgactie. Deze weergegeven wordt in het dialoogvenster **Uitnodigingen** in SuperOffice van de andere persoon en zij ziet de vervolgactie in diens agenda en activiteitenlijst.
+De geselecteerde persoon is nu de eigenaar van de vervolgactie. Zij [ontvangt een melding][3] en ziet de vervolgactie in diens agenda en activiteitenlijst.
 
 ## Opnieuw toewijzen
 
-Als de andere persoon de uitnodiging weigert, wordt het in uw dialoogvenster **Uitnodigingen** als geweigerd weergegeven.
+Als de andere persoon de uitnodiging weigert, ontvangt u een melding van uitnodiging geweigerd.
 
-1. U kunt nu op de knop **Opnieuw toewijzen** klikken om de vervolgactiviteit aan iemand anders toe te wijzen.
+1. Klik op **Duidelijk** om dit te bevestigen. U bent nu de eigenaar.
 
-2. Het dialoogvenster **Toewijzen aan** wordt weergegeven, waarin u een andere persoon kunt selecteren om de taak naar te delegeren.
-
-3. De vervolgactiviteit wordt nu met de status **Toegewezen** weergegeven in het dialoogvenster **Uitnodigingen**.
+2. Optioneel, herhaal de stapen om de vervolgactiviteit aan iemand anders toe te wijzen.
 
 <!-- Referenced links -->
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
+[3]: invitation/accept-decline.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

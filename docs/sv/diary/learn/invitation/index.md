@@ -42,9 +42,9 @@ Händelsen visas på detaljkortet **Aktiviteter** under det aktuella företaget.
 
 När du skickar en förfrågan kan mottagaren välja att acceptera eller avböja den.
 
-* Om mottagaren avböjer förfrågan kan du ändra tiden eller omfördela uppföljningen, beroende på vilken typ av förfrågan det handlar om.
+* Om mottagaren avböjer förfrågan får du en Inbjudan avvisades-avisering. Klicka på **Jag förstår** för att bekräfta. Om så önskas, hitta en ny lämplig tid och ändra tidpunkten för händelse, eller omfördela uppföljningen.
 
-* Om kontakten godtar förfrågan försvinner den från dialogrutan **Förfrågningar** och registreras som vanligt i SuperOffice CRM.
+* Om kontakten godtar förfrågan registreras den som vanligt i SuperOffice CRM.
 
 ## Vad vill du göra?
 

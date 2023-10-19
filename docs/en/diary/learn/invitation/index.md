@@ -3,7 +3,7 @@ uid: help-en-invitation
 title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 10.19.2023
 keywords: diary, follow-up, calendar, invitation, appointment, meeting, associate, participant
 so.topic: concept
 language: en
@@ -42,21 +42,21 @@ The users you chose to link to a follow-up will be notified of this on their scr
 
 When you link resources, the status is set to *accepted* because a resource cannot answer the invitation itself.
 
-It is possible to double-book a resource. If a resource is not free at the time in question, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Appointment** dialog. You should change the time of the follow-up. The **First available** field displays the first available meeting time.
+It is possible to double-book a resource. If a resource is not free at the time, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Appointment** dialog. You should change the time of the follow-up. The **First available** field displays the first available meeting time.
 
 ## External contacts
 
 The people you choose under **Company** in the **Invitation** dialog are not usually members of your organization. You can send the invitation to them via email using the **Email invitation** option. Invitation emails sent to external contacts will contain an iCal file (.ics) with the invitation data. When they respond to your invitation, the status will automatically be updated in SuperOffice.
 
-The follow-up is shown on the **Activities** section tab for the company in question.
+The follow-up is shown on the **Activities** section tab for the company.
 
 ## Handle responses to invitations
 
 When you send an invitation, the recipient can either accept or decline it.
 
-* If the recipient declines the invitation, you can reschedule or re-assign the follow-up, depending on the type of invitation in question.
+* If the recipient declines the invitation, you get an **Invitation declined** notification. Click **Got it** to acknowledge. Optionally, find a new suitable time and reschedule the follow-up or re-assign the follow-up to someone else.
 
-* If the person accepts the invitation, it disappears from the **Invitations** dialog and is recorded in SuperOffice in the usual way.
+* If the person accepts the invitation, it is recorded in SuperOffice in the usual way.
 
 ## What do you want to do?
 

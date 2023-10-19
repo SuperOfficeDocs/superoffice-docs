@@ -3,7 +3,7 @@ uid: help-sv-invitation-add-participant
 title: Lägga till deltagare i händelser
 description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning."
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: kalender, händelse, förfrågan, deltagare
 so.topic: howto
 language: sv
@@ -13,7 +13,7 @@ language: sv
 
 När du skapar en händelse som omfattar flera kontakter kan du koppla personerna till händelsen som deltagare. Du kan också boka företagets mötesrum och utrustning. Vilka som är tillgängliga som deltagare definieras under Inställningar och underhåll.
 
-Bjud in en kontakt till en bokning från deltagarfliken genom att klicka på knappen **Lägg till**. Titta på filmen om att [Lägga till deltagare i en bokning][5].
+Bjud in en kontakt till en bokning från deltagarfliken genom att klicka på knappen **Lägg till**. Titta på filmen om att [Lägga till deltagare i en bokning][15].
 
 ## Steg
 
@@ -47,14 +47,11 @@ Bjud in en kontakt till en bokning från deltagarfliken genom att klicka på kna
 
 ## Vad händer härnäst
 
-1. När du har sparat händelsen visas den i dialogrutan **Förfrågningar** i SuperOffice CRM för den andra personen.
+1. När du sparar händelsen, [får den andra personen en avisering][5].
 
-2. Om den andra kontakten avslår förfrågan visas den som avböjd i dialogrutan **Förfrågningar** hos dig.
+2. Om den andra personen avvisar inbjudan får du en Inbjudan avvisades-avisering. Klicka på **Jag förstår** för att bekräfta.
 
-3. Nu kan du klicka på knappen **Sök ny tid** och söka efter en ny tid som passar. Dialogrutan för händelser visas, där du kan ange en ny tid. Upprepa tills du hittar en tidpunkt som passar.
-
-> [!TIP]
-> Om det finns mycket information i listan över förfrågningar och du bara vill visa svar från andra som du har skickat förfrågningar till kan du filtrera listan med kryssrutan **Visa svar**.
+3. Om så önskas, hitta en ny lämplig tid och ändra tidpunkten för händelse.
 
 ### Hur anger jag att en extern kontakt har accepterat eller avböjt förfrågan?
 
@@ -82,7 +79,8 @@ Använda inkorgen i SuperOffice: Om du inte har angett de obligatoriska uppgifte
 [2]: ../screen/dialog-for-followups.md
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
-[5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
+[5]: accept-decline.md
+[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png

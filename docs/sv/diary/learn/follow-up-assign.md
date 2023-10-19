@@ -3,7 +3,7 @@ uid: help-sv-follow-up-assign
 title: Delegera händelse
 description: Överföra en händelse till någon annan
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: kalender, händelse, tildela, möte, delegera
 so.topic: howto
 language: sv
@@ -36,21 +36,20 @@ Exempel: En kollega är på semester men behöver ringa en kund när han/hon kom
 
 1. Klicka på **OK** och sedan på **Spara**.
 
-Den valda kontakten är nu ägare till händelsen. Den visas i dialogrutan **Förfrågningar** i SuperOffice för den andra personen, och de ser den i sin kalender och aktivitetslista.
+Den valda kontakten är nu ägare till händelsen. De [får en avisering][3] och ser den i sin kalender och aktivitetslista.
 
 ## Tilldela igen
 
-Om den andra kontakten avslår förfrågan visas den som avböjd i dialogrutan **Förfrågningar** hos dig.
+Om den andra personen avvisar inbjudan får du en Inbjudan avvisades-avisering.
 
-1. Nu kan du klicka på knappen **Tilldela igen** och tilldela händelsen till en annan kontakt.
+1. Klicka på **Jag förstår** för att bekräfta. Du är nu ägaren.
 
-2. Dialogrutan **Överför til** visas, där du kan välja en annan kontakt att delegera uppgiften till.
-
-3. Händelsen får nu statusen **Tilldelad** i dialogrutan **Förfrågningar**.
+2. Om så önskas, upprepa stegen för att tilldela händelse till någon annan.
 
 <!-- Referenced links -->
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
+[3]: invitation/accept-decline.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

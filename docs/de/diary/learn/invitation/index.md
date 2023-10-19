@@ -42,9 +42,9 @@ Die Folgeaufgabe wird auf der Bereichsregisterkarte **Aktivitäten** der betreff
 
 Wenn Sie eine Einladung versenden, kann der Empfänger sie annehmen oder ablehnen.
 
-* Bei einer Ablehnung können Sie die Nachverfolgung neu planen oder neu zuweisen.
+* Bei einer Ablehnung erhalten Sie eine Einladung abgelehnt-Benachrichtigung. Klicken Sie auf **Alles klar**, um dies zu bestätigen. Sie sind jetzt der Eigentümer. Optional können Sie eine neue geeignete Zeit finden und die Folgeaufgabe neu planen, oder neu zuweisen.
 
-* Wenn die Person die Einladung annimmt, wird diese nicht mehr im Dialogfeld **Einladungen** angezeigt und stattdessen auf die übliche Art und Weise in SuperOffice erfasst.
+* Wenn die Person die Einladung annimmt, wird diese auf die übliche Art und Weise in SuperOffice erfasst.
 
 ## Was möchten Sie tun?
 

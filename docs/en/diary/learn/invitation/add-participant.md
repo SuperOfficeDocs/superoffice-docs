@@ -3,7 +3,7 @@ uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
 description: Inviting contacts to an appointment can be done in different ways. This how-to guide will show how you to add participants to an appointment.
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 10.19.2023
 keywords: diary, follow-up, invitation, participant
 so.topic: howto
 language: en
@@ -13,7 +13,7 @@ language: en
 
 When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as participants are defined in Settings and maintenance.
 
-Invite a contact to an appointment from the participants tab by clicking the **Add** button. Watch the video for [Add participants to an appointment][5].
+Invite a contact to an appointment from the participants tab by clicking the **Add** button. Watch the video for [Add participants to an appointment][15].
 
 ## Steps
 
@@ -47,14 +47,11 @@ Invite a contact to an appointment from the participants tab by clicking the **A
 
 ## What happens next
 
-1. When you have saved the follow-up, it appears in the **Invitations** dialog in SuperOffice CRM for the other person.
+1. When you save the follow-up, the other person [receives a notification][5].
 
-2. If the other person declines the invitation, it appears as declined in your own **Invitations** dialog.
+2. If the other person declines the invitation, you get an **Invitation declined** notification. Click **Got it** to acknowledge.
 
-3. You can now click the **Reschedule** button to find a new suitable time. The dialog for follow-ups appears and you can now set a new time. Repeat until you find a suitable time.
-
-> [!TIP]
-> If you have a lot of information on the list of invitations and only want to display responses from others, you can filter the list using the **Show responses** checkbox.
+3. Optionally, find a new suitable time and reschedule the follow-up.
 
 ### How do I specify that an external contact has accepted or declined the invitation?
 
@@ -82,7 +79,8 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 [2]: ../screen/dialog-for-followups.md
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
-[5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
+[5]: accept-decline.md
+[15]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png
