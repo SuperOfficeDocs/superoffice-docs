@@ -22,6 +22,21 @@ Wenn Sie auf das **Glockensymbol** ![Symbol][img1] in der oberen rechten Ecke vo
 
 ![Das Popup-Fenster Benachrichtigung zeigt sowohl Benachrichtigungen über Anfragen als auch Einladungen -screenshot][img5]
 
+## <a id="activity" />Aktivitätsbenachrichtigungen
+
+Wenn Sie eine Aktivitätsbenachrichtigung erhalten, wird diese in Ihrem Benachrichtigungsbildschirm angezeigt. Klicken Sie auf den Link in der Benachrichtigung, um die Aktivität zu öffnen.
+
+Dies sind die verschiedenen Aktivitätsbenachrichtigungen:
+
+* **Neue Besprechung**: Antworten Sie, indem Sie auf **Akzeptieren** oder **Ablehnen** klicken. Sobald Sie geantwortet haben, verschwindet die Einladung aus dem Benachrichtigungsbildschirm.
+* **Neue wiederkehrende Besprechung**: Wenn es sich bei der Einladung um ein wiederkehrendes Ereignis handelt, wird dies durch ein Symbol ![Symbol][img4] unter dem Link angezeigt.
+* **Besprechung wurde geändert**: Wenn sich die Uhrzeit oder das Datum einer Besprechung ändert, die Sie bereits akzeptiert haben, erhalten Sie eine neue Benachrichtigung, die Sie darüber informiert, was sich geändert hat, und Sie auffordert, sie anzunehmen oder abzulehnen.
+* **Besprechung abgesagt**: Die Besprechung wird abgesagt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
+* **Einladung abgelehnt**: Ein Besprechungsteilnehmer hat die Einladung abgelehnt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
+
+> [!NOTE]
+> Einladungen und geänderte Aktivitäten werden nicht aus dem Benachrichtigungsbildschirm entfernt, sondern bleiben erhalten, bis Sie die Einladung entweder **Annehmen** oder **Ablehnen** .
+
 ## Anfragebenachrichtigungen
 
 Wenn sich etwas an einer Anfrage ändert, mit der Sie verknüpft sind, wird eine Benachrichtigung im Benachrichtigungsbildschirm angezeigt. Klicken Sie auf den Link in der Benachrichtigung, um die Anfrage zu öffnen.
@@ -36,23 +51,8 @@ Dies sind die verschiedenen Anforderungsbenachrichtigungen:
 * **Als Favorit gekennzeichnete Anfrage aktualisiert**: Eine als Favorit gekennzeichnete Anfrage wurde aktualisiert.
 * **Benutzerdefinierte Mitteilung**: Einer Anfrage wurde eine benutzerdefinierte Mitteilung hinzugefügt.
 
-    > [!NOTE]
-    > Die Liste der Anforderungsbenachrichtigungen wird jede Nacht gelöscht, was bedeutet, dass alle Anforderungsbenachrichtigungen, die Sie am Ende des Tages in Ihrer Liste haben, morgen nicht mehr vorhanden sind.
-
-## Aktivitätsbenachrichtigungen
-
-Wenn Sie eine Aktivitätsbenachrichtigung erhalten, wird diese in Ihrem Benachrichtigungsbildschirm angezeigt. Klicken Sie auf den Link in der Benachrichtigung, um die Aktivität zu öffnen.
-
-Dies sind die verschiedenen Aktivitätsbenachrichtigungen:
-
-* **Neue Besprechung**: Antworten Sie, indem Sie auf **Akzeptieren** oder **Ablehnen** klicken. Sobald Sie geantwortet haben, verschwindet die Einladung aus dem Benachrichtigungsbildschirm.
-* **Neue wiederkehrende Besprechung**: Wenn es sich bei der Einladung um ein wiederkehrendes Ereignis handelt, wird dies durch ein Symbol ![Symbol][img4] unter dem Link angezeigt.
-* **Besprechung wurde geändert**: Wenn sich die Uhrzeit oder das Datum einer Besprechung ändert, die Sie bereits akzeptiert haben, erhalten Sie eine neue Benachrichtigung, die Sie darüber informiert, was sich geändert hat, und Sie auffordert, sie anzunehmen oder abzulehnen.
-* **Besprechung abgesagt**: Die Besprechung wird abgesagt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
-* **Einladung abgelehnt**: Ein Besprechungsteilnehmer hat die Einladung abgelehnt. Klicken Sie auf den Link, um das Kalenderobjekt zu öffnen, oder klicken Sie auf **Alles klar**, um es aus Ihren Benachrichtigungen zu entfernen.
-
-    > [!NOTE]
-    > Einladungen und geänderte Aktivitäten werden nicht aus dem Benachrichtigungsbildschirm entfernt, sondern bleiben erhalten, bis Sie die Einladung entweder **Annehmen** oder **Ablehnen** .
+> [!NOTE]
+> Die Liste der Anforderungsbenachrichtigungen wird jede Nacht gelöscht, was bedeutet, dass alle Anforderungsbenachrichtigungen, die Sie am Ende des Tages in Ihrer Liste haben, morgen nicht mehr vorhanden sind.
 
 ## Benachrichtigungseinstellungen
 

@@ -22,6 +22,21 @@ Når du klikker på **bjelleikonet** ![icon][img1] øverst til høyre i SuperOff
 
 ![Popup-vinduet med varsel som viser både varsler om saker og invitasjoner -screenshot][img5]
 
+## <a id="activity" />Aktivitetsvarsler
+
+Når du mottar et aktivitetsvarsel, vises det i varslingsruten. Klikk på koblingen i varselet for å åpne aktiviteten.
+
+Dette er de forskjellige aktivitetsvarslene:
+
+* **Nytt møte**: Svar ved å klikke på **Godta** eller **Avslå**. Når du har svart, forsvinner invitasjonen fra varslingsruten.
+* **Nytt gjentakende møte**: Hvis invitasjonen er for en gjentakende hendelse, vil dette gjenspeiles med et forekommende ikon ![icon][img4] under koblingen.
+* **Møtet er endret**: Hvis klokkeslettet eller datoen for et møte du allerede har godtatt endres, vil du motta et nytt varsel som forteller deg hva som er endret og krever at du godtar eller avslår det.
+* **Møte avlyst**: Møtet er avlyst. Klikk på koblingen for å åpne kalenderelementet, eller klikk **Greit** for å fjerne det fra varslene.
+* **Invitasjon avslått**: En møtedeltaker har avslått invitasjonen. Klikk på koblingen for å åpne kalenderelementet, eller klikk **Greit** for å fjerne det fra varslene.
+
+> [!NOTE]
+> Invitasjoner og endrede aktiviteter fjernes ikke fra varslingsruten, men blir værende til du enten **godtar** eller **avslår** invitasjonen.
+
 ## Saksvarsler
 
 Når noe endres i en sak du er tilknyttet, vises et varsel i varslingsruten. Klikk på koblingen i varselet for å åpne saken.
@@ -38,21 +53,6 @@ Dette er de forskjellige saksvarslene:
 
 > [!NOTE]
 > Listen over saksvarsler blir slettet hver natt, noe som betyr at eventuelle saksvarsler du har i listen din på slutten av dagen, ikke vil være der i morgen.
-
-## Aktivitetsvarsler
-
-Når du mottar et aktivitetsvarsel, vises det i varslingsruten. Klikk på koblingen i varselet for å åpne aktiviteten.
-
-Dette er de forskjellige aktivitetsvarslene:
-
-* **Nytt møte**: Svar ved å klikke på **Godta** eller **Avslå**. Når du har svart, forsvinner invitasjonen fra varslingsruten.
-* **Nytt gjentakende møte**: Hvis invitasjonen er for en gjentakende hendelse, vil dette gjenspeiles med et forekommende ikon ![icon][img4] under koblingen.
-* **Møtet er endret**: Hvis klokkeslettet eller datoen for et møte du allerede har godtatt endres, vil du motta et nytt varsel som forteller deg hva som er endret og krever at du godtar eller avslår det.
-* **Møte avlyst**: Møtet er avlyst. Klikk på koblingen for å åpne kalenderelementet, eller klikk **Greit** for å fjerne det fra varslene.
-* **Invitasjon avslått**: En møtedeltaker har avslått invitasjonen. Klikk på koblingen for å åpne kalenderelementet, eller klikk **Greit** for å fjerne det fra varslene.
-
-> [!NOTE]
-> Invitasjoner og endrede aktiviteter fjernes ikke fra varslingsruten, men blir værende til du enten **godtar** eller **avslår** invitasjonen.
 
 ## Varslingsinnstillinger
 

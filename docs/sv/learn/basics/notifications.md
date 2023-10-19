@@ -22,6 +22,21 @@ När du klickar på **klockikonen** ![ikon][img1] i det övre högra hörnet av 
 
 ![Aviseringsrutan visar både aviseringar om ärenden och inbjudningar -screenshot][img5]
 
+## <a id="activity" />Aktivitetsmeddelanden
+
+När du får ett aktivitetsmeddelande visas det i meddelandepanelen. Klicka på länken i meddelandet för att öppna aktiviteten.
+
+Det här är de olika aktivitetsmeddelandena:
+
+* **Nytt möte**: Svara genom att klicka på **Acceptera** eller **Avvisa**. När du har svarat försvinner inbjudan från meddelandepanelen.
+* **Nytt återkommande möte**: Om inbjudan gäller en återkommande händelse visas detta med en förekomstikon ![ikon][img4] under länken.
+* **Mötet har ändrats**: Om tiden eller datumet för ett möte som du redan har accepterat ändras får du ett nytt meddelande som informerar dig om vad som har ändrats och kräver att du accepterar eller avböjer det.
+* **Mötet har ställts in**: Mötet har ställts in. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
+* **Inbjudan avvisades**: En mötesdeltagare har avvisat inbjudan. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
+
+> [!NOTE]
+> Inbjudningar och ändrade aktiviteter tas inte bort från meddelandepanelen utan finns kvar tills du antingen **accepterar** eller **avvisar** inbjudan.
+
 ## Ärendemeddelanden
 
 När något ändras i ett ärende som du är associerad till visas ett meddelande i meddelandepanelen. Klicka på länken i meddelandet för att öppna ärendet.
@@ -36,23 +51,8 @@ Det här är de olika aviseringarna för ärenden:
 * **Ett ärende som du lagt till under favoriter har uppdaterats**: Ett av dina favoritmarkerade ärenden har uppdaterats.
 * **Anpassat meddelande**: Ett anpassat meddelande har lagts till i ett ärende.
 
-    > [!NOTE]
-    > Listan över ärendemeddelanden rensas varje natt, vilket innebär att eventuella ärenden som du på listan i slutet av dagen inte kommer att finnas där nästa dag.
-
-## Aktivitetsmeddelanden
-
-När du får ett aktivitetsmeddelande visas det i meddelandepanelen. Klicka på länken i meddelandet för att öppna aktiviteten.
-
-Det här är de olika aktivitetsmeddelandena:
-
-* **Nytt möte**: Svara genom att klicka på **Acceptera** eller **Avvisa**. När du har svarat försvinner inbjudan från meddelandepanelen.
-* **Nytt återkommande möte**: Om inbjudan gäller en återkommande händelse visas detta med en förekomstikon ![ikon][img4] under länken.
-* **Mötet har ändrats**: Om tiden eller datumet för ett möte som du redan har accepterat ändras får du ett nytt meddelande som informerar dig om vad som har ändrats och kräver att du accepterar eller avböjer det.
-* **Mötet har ställts in**: Mötet har ställts in. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
-* **Inbjudan avvisades**: En mötesdeltagare har avvisat inbjudan. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
-
-    > [!NOTE]
-    > Inbjudningar och ändrade aktiviteter tas inte bort från meddelandepanelen utan finns kvar tills du antingen **accepterar** eller **avvisar** inbjudan.
+> [!NOTE]
+> Listan över ärendemeddelanden rensas varje natt, vilket innebär att eventuella ärenden som du på listan i slutet av dagen inte kommer att finnas där nästa dag.
 
 ## Aviseringsinställningar
 
