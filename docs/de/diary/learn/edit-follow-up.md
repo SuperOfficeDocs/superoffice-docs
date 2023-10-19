@@ -3,7 +3,7 @@ uid: help-de-follow-up-edit
 title: Folgeaufgaben bearbeiten
 description: Folgeaufgaben öffnen, bearbeiten, aus dem Kalender löschen; Endzeitpunkt für eine Folgeaufgabe im Kalender ändern; Einladung bearbeiten oder löschen
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 10.19.2023
 keywords: Kalender, Folgeaufgabe, Einladung, Termin, Aufgabe, Anruf, Wiederholen, Wiederkehren, Instanz
 so.topic: howto
 language: de
@@ -13,7 +13,7 @@ language: de
 
 [!include[Note](includes/note-edit-followup.md)]
 
-Wenn Sie eine erstellte und gesendete Einladung bearbeiten oder löschen, werden die Eingeladenen mit einer Mitteilung darüber verständigt.
+Wenn Sie die Zeit, Datum oder Ort einer Folgeaufgabe bearbeiten - oder eine erstellte und gesendete Einladung löschen - werden die Eingeladenen mit einer Mitteilung darüber verständigt.
 
 ## Schritte
 
@@ -58,9 +58,8 @@ Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern,
 
 ## <a id="delete" />Folgeaufgabe aus dem Kalender löschen
 
-Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet dieser Datensatz auch aus den Kalendern der Eingeladenen.
-
-Wenn einer der Empfänger einer Einladung den Datensatz von seinem eigenen Kalender löscht, wird der Datensatz nur in seinem Kalender gelöscht. Die Folgeaufgabe erscheint dann im Dialogfeld **Einladungen**, sodass sie später wiedergefunden und angenommen werden kann.
+* Wenn Sie eine Folgeaufgabe löschen, zu der Sie eingeladen sind, wird die Folgeaufgabe nur aus Ihrem Kalender entfernt.
+* Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet dieser Datensatz auch aus den Kalendern der Eingeladenen.
 
 1. Wählen Sie die gewünschte Folgeaufgabe aus.
 2. Klicken Sie mit der rechten Maustaste, und wählen Sie **Löschen**.

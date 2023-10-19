@@ -3,7 +3,7 @@ uid: help-no-follow-up-edit
 title: Redigere oppfølging
 description: Åpne og redigere og slette oppfølginger; endre sluttidspunktet for en oppfølging i dagboken; redigere eller slette invitasjon.
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 10.19.2023
 keywords: dagbok, oppfølging, invitasjon, avtale, oppgave, samtale, gjenta
 so.topic: howto
 language: no
@@ -13,7 +13,7 @@ language: no
 
 [!include[Note](includes/note-edit-followup.md)]
 
-Hvis du redigerer eller sletter en invitasjon du selv har opprettet og sendt, får de inviterte deltakerne beskjed om dette.
+Hvis du redigerer tid, dato eller sted for en oppfølging - eller sletter en invitasjon du selv har opprettet og sendt - får de inviterte deltakerne beskjed om dette.
 
 ## Trinn
 
@@ -58,9 +58,8 @@ Endringer fungerer på samme måte som når du redigerer oppfølginger, men når
 
 ## <a id="delete" />Slette oppfølging ved hjelp av dagboken
 
-Hvis du redigerer eller sletter en invitasjon du selv har opprettet og sendt, får de inviterte deltakerne beskjed om dette. Hvis du sletter en invitasjon du selv eier, fra dagboken din, forsvinner oppføringen fra dagbøkene til alle inviterte deltakere også.
-
-Hvis en av mottakerne av en invitasjon velger å slette oppføringen fra dagboken sin, slettes den bare i mottakerens dagbok. Oppføringen vil da vises i dialogboksen **Invitasjoner**, slik at den kan finnes igjen og godtas senere.
+* Hvis du sletter en oppfølging du er invitert til, blir oppfølgingen kun fjernet fra din dagbok.
+* Hvis du sletter en invitasjon du eier fra din dagbok, forsvinner denne oppføringen fra dagbøkene til alle inviterte deltakere også.
 
 1. Merk ønsket oppfølging.
 2. Høyreklikk og velg **Slett**.

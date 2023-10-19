@@ -3,7 +3,7 @@ uid: help-sv-follow-up-edit
 title: Redigera händelser
 description: Öppna, redigera, eller ta bort händelse i kalendern; Ändra sluttid för en händelse i kalendern; Redigera eller ta bort förfrågan; Redigera återkommande händelse
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 10.19.2023
 keywords: kalender, händelse, förfrågan, bokning, uppgift, samtal, upprepa, återkomma
 so.topic: howto
 language: sv
@@ -13,7 +13,7 @@ language: sv
 
 [!include[Note](includes/note-edit-followup.md)]
 
-Om du redigerar eller tar bort en förfrågan som du har skapat och skickat får mottagarna ett meddelande om detta.
+Om du redigerar tid, datum eller plats för en händelse - eller tar bort en förfrågan som du har skapat och skickat - får mottagarna ett meddelande om detta.
 
 ## Steg
 
@@ -58,9 +58,8 @@ I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna d
 
 ## <a id="delete" />Ta bort händelse i kalendern
 
-Om du tar bort en förfrågan som du äger från din kalender försvinner posten även från de inbjudna personernas kalendrar.
-
-Om en mottagare av en förfrågan väljer att ta bort posten från sin egen kalender tas den bara bort från hans/hennes kalender. Posten visas sedan i dialogrutan **Förfrågningar** så att den kan hittas och accepteras senare.
+* Om du tar bort en förfrågan du blivit inbjuden till, tas den bort enbart från din egen dagbok.
+* Om du tar bort en förfrågan som du äger från din dagbok, försvinner posten även från de inbjudna personernas kalendrar.
 
 1. Välj önskad händelse.
 2. Högerklicka och välj **Ta bort**.

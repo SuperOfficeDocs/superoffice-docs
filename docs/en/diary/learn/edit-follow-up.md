@@ -3,7 +3,7 @@ uid: help-en-follow-up-edit
 title: Edit follow-up
 description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation; Edit repeating follow-up
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 10.19.2023
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
 so.topic: howto
 language: en
@@ -13,7 +13,7 @@ language: en
 
 [!include[Note](includes/note-edit-followup.md)]
 
-If you edit or delete an invitation that you created and sent, the invitees will receive a message about this.
+If you edit the time, date, or location of a follow-up - or delete an invitation that you created and sent - the invitees will receive a message about this.
 
 ## Steps
 
@@ -65,9 +65,8 @@ If you change the start time for a single appointment, the rule is not affected.
 
 ## <a id="delete" />Delete follow-up using the Diary
 
-If you delete an invitation that you own from your Diary, this record also disappears from the invitees' diaries.
-
-If one of the recipients of an invitation chooses to delete the record from their own diary, it is deleted from their diary only. The record will then appear in the **Invitations** dialog, so that it can be found and accepted later on.
+* If you delete a follow-up you are invited to, the follow-up is removed from your diary only.
+* If you delete an invitation that you own from your Diary, this record also disappears from the invitees' diaries.
 
 1. Select the required follow-up.
 2. Right-click and choose **Delete**.
