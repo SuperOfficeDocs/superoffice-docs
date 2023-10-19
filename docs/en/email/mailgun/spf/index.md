@@ -38,18 +38,9 @@ The SPF '_spf.online.superoffice.com' includes:
 * 3 IP address (or ranges) of a Mailgun US cluster (the IP address we used to use while we were using Mailgun US)
 * shortcut to SPF range '_spf.eu.mailgun.org' (all Mailgun EU IP addresses)
 
-Non-DKIM: add SPF '_spf.online.superoffice.com'
+All SuperOffice Online customers should add SPF '_spf.online.superoffice.com' for the domains they use as sender's email or in custom DKIM.
 <!-- markdownlint-restore -->
 
-## SuperOffice CRM Online SPF details for DKIM-customers
-
-When using DKIM, the SPF check requires to include SPF for 'mailgun.org' - to be able to send and receive emails in SuperOffice Service.
-
-<!-- markdownlint-disable MD044 -->
-So when using DKIM (and therefore SPF for 'mailgun.org'), you do not need '_spf.online.superoffice.com' (as this includes the same sub-selection as SPF 'mailgun.org' does: '_spf.eu.mailgun.org').
-<!-- markdownlint-restore -->
-
-DKIM: add SPF 'mailgun.org'
 
 <!-- Referenced links -->
 [1]: https://en.wikipedia.org/wiki/Domain_Name_System
