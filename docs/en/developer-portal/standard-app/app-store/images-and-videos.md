@@ -24,18 +24,20 @@ so.envir: cloud
 1. In the Developer Portal, go to your partner page.
 2. Select **App Store information** from the left menu.
 3. Click and select a picture for the logo.
-4. Click **Save Settings**.
+4. In the Crop Image dialog, accept, reposition or zoom selected area, then click Save.
+5. Click **Save Settings**.
 
 ## How to add or change app icon
 
 1. In the Developer Portal, go to your application page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
 3. In the `Home Page Icon` or `Detail Page Icon` circle, drag and drop a file into the circle or click to upload one from your computer.
-4. Enter alt text.
+4. In the Crop|Upload Image dialog, accept, reposition or zoom selected images, then click Save|Upload.
+5. Enter alt text.
 
     ![Add HomePageAppIcon or DetailPageAppIcon -screenshot][img7]
 
-5. Click **Save Settings**.
+6. Click **Save Settings**.
 
 ## Screenshots
 
