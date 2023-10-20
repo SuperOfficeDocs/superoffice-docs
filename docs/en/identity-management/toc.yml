@@ -24,7 +24,7 @@ items:
     href: superid/user-accounts-and-passwords.md
   - name: Primary tenant
     href: superid/primary-tenant.md
-  - name: SuperID WebTools MailLink pocket
+  - name: SuperID WebTools MailLink Pocket
     href: superid/superid-webtools-maillink-pocket.md
   - name: Known challenges
     href: superid/known-challenges.md
