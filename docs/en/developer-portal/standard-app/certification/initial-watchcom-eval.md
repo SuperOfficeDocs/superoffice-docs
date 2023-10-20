@@ -3,14 +3,14 @@ title: Watchcom initial security evaluation
 uid: watchcom-app-evaluation
 description: About Watchcom initial security evaluation
 author: Margrethe Romnes
-so.date: 09.07.2023
+so.date: 01.11.2023
 keywords: Watchcom, security, certification
 so.topic: concept
 so.envir: cloud
 so.client: online
 ---
 
-# About Watchcom initial security evaluation
+# About Watchcom initial security evaluation 
 
 Our security policy requires that applications pass a security evaluation before being accepted into the software sphere of SuperOffice. This security evaluation is performed by [Watchcom Security Group][1], a specialist on internet security.
 
