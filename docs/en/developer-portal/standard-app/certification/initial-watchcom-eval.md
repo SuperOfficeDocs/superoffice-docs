@@ -3,7 +3,7 @@ title: Watchcom initial security evaluation
 uid: watchcom-app-evaluation
 description: About Watchcom initial security evaluation
 author: Margrethe Romnes
-so.date: 09.07.2023
+so.date: 11.01.2023
 keywords: Watchcom, security, certification
 so.topic: concept
 so.envir: cloud
@@ -103,9 +103,9 @@ Security audits come in 3 different packages: small, medium (for most apps), and
     </tr>
     <tr>
     <th scope="row">Price</th>
-    <td>10.000 NOK + VAT <br>(approx &euro; 995)</td>
-    <td>15.000 NOK + VAT <br>(approx &euro; 1490)</td>
-    <td>25.000 NOK + VAT <br>(approx &euro; 2480)</td>
+    <td>12.500 NOK + VAT <br>(approx &euro; 1000)</td>
+    <td>17.500 NOK + VAT <br>(approx &euro; 1500)</td>
+    <td>29.500 NOK + VAT <br>(approx &euro; 2500)</td>
     </tr>
   </tbody>
 </table>
