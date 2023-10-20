@@ -58,11 +58,6 @@ landingContent:
           url: howto/register-idp.md
         - text: Map IDP usernames
           url: howto/map-idp-usernames.md
-      - itemType: explore
-        typeDesc: concept
-        links:
-        - text: IdP and document handling
-          url: idp-and-doc-handling.md
   # Card
   - title: Reference
     linkLists:
