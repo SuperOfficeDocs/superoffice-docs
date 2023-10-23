@@ -29,7 +29,7 @@ The URL of the webpage can contain **template variables**, so that what the page
 7. The web panel displays the page.
 
 > [!TIP]
-> [!INCLUDE [flush.md](../../../../../../common/includes/)]
+> [!INCLUDE [flush.md](../../../../common/includes/)]
 
 ## Places you can add web panels
 
