@@ -13,20 +13,20 @@ so.client: web, service
 <!-- markdownlint-disable-file MD024 -->
 # Article content
 
-SuperOffice provides various different ways to communicate with the API, depending on if you are onsite (local installation) or an online-customer (in the cloud). This quickstart will focus on how you can get up and running using the REST api, which is available for both online and onsite (from version XXXX).
+SuperOffice provides different ways to communicate with the API, depending on if you are onsite (local installation) or an online-customer (in the cloud). This quickstart will focus on how you can get up and running using the REST api, which is available for both online and onsite (from version XXXX for onsite).
 
 ## Authentication flows
 
 [This article][1] shows the different kind of authentication flows you can use towards SuperOffice.
-The most fundamental thing you need to ask yourself is if you are going to use an interactive flow, where a SuperOffice-user inputs their credentials, or a non-interactive flow, where no interaction is required.
+Which flow you select depends on what your application does, but on the most basic level you have the interactive flow, where a SuperOffice-user inputs their credentials, or a non-interactive flow, where no interaction is required.
 When you have decided what flow to use you can head over to our [Developer Portal][2] to register as a developer and register your app-idea.
 
 The description for how you run each authentication flow is heavily documented already, and this article will not contain specifics about how you get a hold of the ticket itself.
 
 ## Language
 
-You can write your application in whatever language you want. SuperOffice does not recommend you to write your integration/application in a specific language, and you will find various different examples on our [github-page][3]. That being said we internally are more familiar with .net/C#, and we have no way of keeping up to date on all types of languages that are out there.
-We try to keep the examples up to date, but as things change without our knowledge we are depending on feedback from you, as the users/readers of the examples, to fix things if they are not working. Feel free to create an issue whenever you come across something that is not working as intended!
+You can write your application in whatever language you want. SuperOffice does not recommend you to write your integration/application in a specific language, and you will find various different examples on our [github-page][3].
+We try to keep the examples up to date, but as things change without our knowledge we are depending on feedback from you, as the users/readers of the examples, to be able to fix things if they are not working. Feel free to create an issue whenever you come across something that is not working as intended!
 
 ## Packages
 
@@ -41,7 +41,7 @@ The RESTful AGENT API is meant to reflect what the underlying NetServer exposes.
 
 The RESTful REST API works as a standard REST-api, where you POST/GET/PATCH entities based on what you pass inn the body of the request.
 
-Which REST-api you chose to use is totally up to you, and you dont need to only use one or the other as they can be used interchangeably.
+Which REST-api you chose to use is up to you, and you dont need to only use one or the other as they can be used interchangeably.
 
 ## I have my ticket, how do i use it?
 
@@ -50,7 +50,7 @@ Which REST-api you chose to use is totally up to you, and you dont need to only 
 With an interactive flow you put the ticket in the Authorization header as a BEARER.
 
 ```http
-GET https://sod.superoffice.com/Cust12345/api/v1/User/currentPrincipal HTTP/1.1
+GET https://{{environment}}.superoffice.com/{{tenant}}/api/v1/User/currentPrincipal HTTP/1.1
 Authorization: Bearer {{ticket}}
 Accept: application/json
 ```
@@ -60,7 +60,7 @@ Accept: application/json
 With the non-interactive flow you need to setht the Authorization header as SOTicket, AND include your SO-AppToken (your client_secret):
 
 ```http
-GET https://sod.superoffice.com/Cust12345/api/v1/User/currentPrincipal HTTP/1.1
+GET https://{{environment}}.superoffice.com/{{tenant}}/api/v1/User/currentPrincipal HTTP/1.1
 Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
@@ -78,7 +78,7 @@ When you POST a new appointment to SuperOffice it will automatically create a ne
 ### [Interactive](#tab/interactive)
 
 ```http
-POST https://sod.superoffice.com/Cust12345/api/v1/Appointment HTTP/1.1
+POST https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment HTTP/1.1
 Authorization: Bearer {{ticket}}
 Accept: application/json
 Body: {
@@ -92,7 +92,7 @@ Body: {
 ### [Non-interactive](#tab/non-interactive)
 
 ```http
-POST https://sod.superoffice.com/Cust12345/api/v1/Appointment HTTP/1.1
+POST https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment HTTP/1.1
 Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
@@ -133,14 +133,14 @@ The returned json-string looks something like this (The ..... in the nested obje
 }
 ```
 
-It also contains a bunch of other information, and from this we can see which fields are available on the appointment.
+It also contains a other information, and from this we can see which fields are available on the appointment.
 
 In this example we want to update the Appointment so that its connected to a Person, and we see from the above json that we have the attribute "Person" available, which is now NULL. We use JSON PATCH to update this field on our AppointmentId, which we can see from above response has AppointmentId = 591:
 
 ### [Interactive](#tab/interactive)
 
 ```http
-PATCH https://sod.superoffice.com/Cust12345/api/v1/Appointment/591 HTTP/1.1
+PATCH https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591 HTTP/1.1
 Authorization: Bearer {{ticket}}
 Accept: application/json
 Body: [ 
@@ -157,7 +157,7 @@ Body: [
 ### [Non-interactive](#tab/non-interactive)
 
 ```http
-PATCH https://sod.superoffice.com/Cust12345/api/v1/Appointment/591 HTTP/1.1
+PATCH https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591 HTTP/1.1
 Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
@@ -219,7 +219,7 @@ For the sake of this example we will go the general route, as it can be used acr
 ### [Interactive](#tab/interactive)
 
 ```http
-GET https://sod.superoffice.com/Cust12345/api/v1/MDOList/task HTTP/1.1
+GET https://{{environment}}.superoffice.com/{{tenant}}/api/v1/MDOList/task HTTP/1.1
 Authorization: Bearer {{ticket}}
 Accept: application/json
 ```
@@ -227,7 +227,7 @@ Accept: application/json
 ### [Non-interactive](#tab/non-interactive)
 
 ```http
-GET https://sod.superoffice.com/Cust12345/api/v1/MDOList/task HTTP/1.1
+GET https://{{environment}}.superoffice.com/{{tenant}}/api/v1/MDOList/task HTTP/1.1
 Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
@@ -342,8 +342,8 @@ If you still are having issues with communicating with our API we very much appr
 
 ## Optimization
 
-In the example above we get a lot of extra data that we dont really need. You can filder out things by adding queryparameters to your uri. In our above example we only really cared about the fields AppointmentId, Contact, Description and Person, so when we PATCH the entity we could filter the response to only include these two fields:
-<https://sod.superoffice.com/Cust12345/api/v1/Appointment/591$select=AppointmentId,Contact,Description,Person>
+In the example above we get a lot of extra data that we dont really need. You can filder the payload by adding queryparameters to your uri. In our above example we only really needed the fields AppointmentId, Contact, Description and Person, so when we PATCH the entity we should filter the response to only include these two fields:
+<https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591$select=AppointmentId,Contact,Description,Person>
 
 There is no need to return everything in the payload, but this is more of a best practice and not something we enforce.
 
