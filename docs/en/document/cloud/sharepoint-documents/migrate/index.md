@@ -3,7 +3,7 @@ title: Migration guide
 uid: sharepoint-documents-migration
 description: Introduction to SuperOffice SharePoint document migration.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 08.18.2023
+so.date: 10.20.2023
 keywords: SharePoint, document, Microsoft
 so.topic: concept
 so.version:
@@ -83,20 +83,53 @@ To move orphaned documents (those without a SharePoint owner), we need a **Globa
 
 ## <a id="legacy" />Migrate from Microsoft 365 Document Integration (legacy)
 
-How do you handle documents that have never been stored in SoArc Online? Perhaps your organization has used Microsoft 365 Document Integration since it started using SuperOffice.
+How do you handle documents that have never been stored in SoArc Online? Perhaps your organization has used Microsoft 365 Document Integration (also referred to as Office 365 Document Integration, 365 CloudOffice, 365 SharePoint document integration, and O365 integration) since it started using SuperOffice. Here's how it works:
 
-Documents created with our Microsoft 365 Document Integration are already stored in SharePoint (version 1.0). In theory, [configuring SharePoint 2.0][4] and [migrating existing documents to version 2.0][6] are the same whether you use so_arc (online) or SharePoint 1.0 for. Our tests indicate that it works fine.
+We use **SharePoint version 1.0** for the legacy Microsoft 365 Document Integration. To facilitate this, we employ the **SuperOffice Integrator App** in Microsoft 365 SharePoint.
 
-As long as the pre-requisite is met (IdP authentication), you should be able to configure SharePoint 2.0 from Settings and maintenance.
+In addition, we use **SharePoint version 3.x** for "SuperOffice SharePoint documents" (2.x and 3.x). To migrate these documents to SharePoint version 3.x, we rely on the **SuperOffice SharePoint Migration** tool.
 
-> [!NOTE]
-> Ask support to **turn off SharePoint 1.0 for customer XXXX**. This will remove/turn off the old legacy login process "SuperOffice Integrator App in Microsoft 365 SharePoint" to normal SuperID login process.
+Documents created with SharePoint version 1.0 are already stored in SharePoint. The process of [configuring "SharePoint version 3.x"][4] and [migrating existing documents][6] to it is essentially the same, whether you use so_arc (online) or SharePoint version 1.0 as a document archive for SuperOffice documents. Our tests have shown that migration is successful, but **two manual steps** are required during migration by the Online Operations or RnD Services team:
+
+* Update access tokens to enable reading of existing Office 365 documents.
+* Deactivate SharePoint version 1.0.
+
+### AAD external users
+
+Additionally, there is one limitation in SharePoint version 3.x compared to version 1.0, which affects migration and usage for external users:
+
+* IdP authentication requires all users to use the same MS subscription.
+
+The legacy login process in SharePoint version 1.0 allows authentication for both internal users within the same Azure Active Directory tenant and external users, including those from other Azure subscriptions or external organizations. However, SharePoint version 3.x lacks support for AAD external users due to limitations in the Microsoft Graph API.
+
+When migrating documents created by AAD external users from SharePoint version 1.0 to SharePoint version 3.x, the documents' ownership transfer to the **SuperOffice App**. Admins should remove the user plan for these users during migration.
+
+After migration, AAD external users won't be able to create new documents in SharePoint version 3.x from SuperOffice. To identify AAD external users, refer to Microsoft Azure Active Directory or Microsoft Entra ID under **Users**, where they may be labeled as *Guest* or *External AD* in terms of user type or identity. Alternatively, their User Principal Name may be in a specific format, such as `[externalUPN-name]#EXT#@[internaldomainname].onmicrosoft.com`.
+
+### Steps
+
+1. SuperOffice Admin: [Configure SuperOffice SharePoint documents][4].
+
+    > [!NOTE]
+    > If you have AAD external users, remove SuperOffice user plans for SuperOffice users who are AAD external users.
+
+1. Online Operations: Run access token fix. This will update access tokens to be able to read existing Office 365 documents.
+
+    > [!NOTE]
+    > Ask support to **Run access token fix for customer XXXX**.
+
+1. SuperOffice Admin: [Run SuperOffice SharePoint Migration][6] to migrate documents to the SharePoint document library.
+
+1. Online Operations: Remove Microsoft 365 Document Integration (legacy) setup. This will remove/turn off the old legacy login process "SuperOffice Integrator App in Microsoft 365 SharePoint" to normal SuperID login process.
+
+    > [!NOTE]
+    > Ask support to **Turn off SharePoint 1.0 for customer XXXX**.
 
 ### Hybrid solutions
 
 Sometimes a customer uses Microsoft 365 Document Integration but store signed documents (from DataBridge or other 3.party document integration) in SoArc Online.
 
-The solution is simple: Move everything to SharePoint documents 2.x
+The solution is simple: Move everything to SharePoint documents 2.x.
 
 If you have a third-party app that creates documents in SuperOffice, you need to [enable the system user for storing documents in SharePoint][7].
 

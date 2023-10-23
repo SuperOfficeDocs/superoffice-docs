@@ -24,9 +24,7 @@ items:
     href: superid/user-accounts-and-passwords.md
   - name: Primary tenant
     href: superid/primary-tenant.md
-  - name: IDP and doc handling
-    href: superid/idp-and-doc-handling.md
-  - name: SuperID WebTools MailLink pocket
+  - name: SuperID WebTools MailLink Pocket
     href: superid/superid-webtools-maillink-pocket.md
   - name: Known challenges
     href: superid/known-challenges.md

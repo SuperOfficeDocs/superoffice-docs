@@ -49,7 +49,6 @@ The user [accounts provisioned via SCIM][5] are by definition [federated IDs][2]
 ## Continue reading
 
 * [User accounts and passwords][6]
-* [IdP and document handling][7]
 * [Authentication with WebTools, MailLink, and Pocket][8]
 
 <!-- Referenced links -->
@@ -59,7 +58,6 @@ The user [accounts provisioned via SCIM][5] are by definition [federated IDs][2]
 [4]: ../scim/identity-management-gw.md
 [5]: ../scim/user-provisioning.md
 [6]: user-accounts-and-passwords.md
-[7]: idp-and-doc-handling.md
 [8]: superid-webtools-maillink-pocket.md
 
 <!-- Referenced images -->

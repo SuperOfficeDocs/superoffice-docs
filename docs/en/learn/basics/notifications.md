@@ -22,24 +22,7 @@ When you click on the **bell icon** ![icon][img1] in the upper-right corner of S
 
 ![The Notification pop out that shows both notifications on Requests and Invitations -screenshot][img5]
 
-## Request notifications
-
-When something changes on a request that you are associated with, a notification will appear in the notifications panel. Click the link in the notification to open the request.
-
-These are the different request notifications:
-
-* **New request**: A new request has been received.
-* **New message in request**: There is a new message in a request.
-* **Request escalated**: A request has been escalated to the next escalation level.
-* **Request activated**: A request has been activated.
-* **Request taken over**: Someone has taken over one of your requests.
-* **Favourited request updated**: One of your favourite requests has been updated.
-* **Custom message**: A custom message has been added to a request.
-
-> [!NOTE]
-> The list of request notifications is cleared every night, meaning that any request notifications you have in your list at the end of the day will not be there tomorrow.
-
-## Activity notifications
+## <a id="activity" />Activity notifications
 
 When you receive an activity notification, it will appear in your notifications panel. Click the link in the notification to open the activity.
 
@@ -57,6 +40,23 @@ These are the different activity notifications:
 
 > [!NOTE]
 > Invitations and changed activities will not be removed from the notifications panel but will remain until you either **Accept** or **Decline** the invitation.
+
+## Request notifications
+
+When something changes on a request that you are associated with, a notification will appear in the notifications panel. Click the link in the notification to open the request.
+
+These are the different request notifications:
+
+* **New request**: A new request has been received.
+* **New message in request**: There is a new message in a request.
+* **Request escalated**: A request has been escalated to the next escalation level.
+* **Request activated**: A request has been activated.
+* **Request taken over**: Someone has taken over one of your requests.
+* **Favourited request updated**: One of your favourite requests has been updated.
+* **Custom message**: A custom message has been added to a request.
+
+> [!NOTE]
+> The list of request notifications is cleared every night, meaning that any request notifications you have in your list at the end of the day will not be there tomorrow.
 
 ## Notification settings
 

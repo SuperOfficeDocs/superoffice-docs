@@ -13,6 +13,10 @@ items:
     href: security.md
   - name: Migrate to Online
     href: migrate/index.md
+    expanded: true
+    items:
+      - name: Documents migration
+        href: migrate/documents-migration.md      
   - name: Troubleshooting migrations
     href: migrate/troubleshooting.md
   - name: Integrate with Online
