@@ -314,7 +314,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     }
     ```
 
-    [!INCLUDE [flush.md](../../../../../../common/includes/)]
+    [!INCLUDE [File not found: flush.md](../../../../includes/flush.md)]
 
 ##### [SuperOffice.WebApi](#tab/create-webapi)
 

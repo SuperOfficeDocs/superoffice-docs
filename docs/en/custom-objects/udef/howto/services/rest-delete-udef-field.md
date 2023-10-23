@@ -108,7 +108,7 @@ Get the current UDefFieldId value for the user-defined field to delete, then pas
     }
     ```
 
-    [!INCLUDE [flush.md](../../../../../../common/includes/)]
+    [!INCLUDE [File not found: flush.md](../../../../includes/flush.md)]
 
 ### [SuperOffice.WebApi](#tab/delete-webapi)
 
