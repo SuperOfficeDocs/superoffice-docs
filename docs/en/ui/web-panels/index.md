@@ -28,6 +28,9 @@ The URL of the webpage can contain **template variables**, so that what the page
 6. The web server returns the webpage.
 7. The web panel displays the page.
 
+> [!TIP]
+> [!INCLUDE [flush.md](../../../../../../common/includes/)]
+
 ## Places you can add web panels
 
 The **display location** of a web panel is selected as *Visible in* when you define the panel.
@@ -77,5 +80,6 @@ The **display location** of a web panel is selected as *Visible in* when you def
 | Visible in   | The display location                                                  |
 | Available on | Device type (web, mobile)                                             |
 | Show         | Whether to show the menu bar, toolbar, address bar, and/or status bar |
+
 
 <!-- Referenced links -->

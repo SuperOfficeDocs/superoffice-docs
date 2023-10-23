@@ -314,15 +314,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     }
     ```
 
-    Caching on the web application may prevent new user-defined fields from appearing in the client. If that is the case, send a GET request with the `flush` query string to flush all caches.
-
-    ```http
-    GET https://{{env}}.superoffice.com/{{tenant}}/default.aspx?flush HTTP/1.1
-    Authorization: Bearer {{token}}
-    Accept: application/json; charset=utf-8
-    ```
-
-    Optionally, enter that URL into a browser and navigate to the page with the ´?flush´ query string parameter with an authenticated user.
+    [!INCLUDE [flush.md](../../../../../../common/includes/)]
 
 ##### [SuperOffice.WebApi](#tab/create-webapi)
 
