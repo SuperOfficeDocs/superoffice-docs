@@ -21,13 +21,13 @@ Alternativer i ruten **Arkiveringsalternativer** i dialogboksen til **SuperOffic
 | Opprettet fra e-postklient | [Aktiverer standardarkivering][5] av e-postmeldinger du skriver i e-postklienten din ved å klikke på **Ny e-post**-knappen. Når du sender en e-post, arkiveres den som standard i SuperOffice CRM. Hvis du velger **Arkivering er AV** i e-postvinduet i e-postklienten, blir ikke e-posten arkivert i SuperOffice CRM. |
 | Svare på e-post fra SuperOffice CRM | Aktiver standardarkivering av e-postmeldinger du svarer på i SuperOffice CRM. |
 | Videresende e-post fra SuperOffice CRM | Aktiver standardarkivering av e-postmeldinger du videresender i SuperOffice CRM. |
-| Sende avtaler fra SuperOffice CRM | Som standard arkiverer du avtaler som sendes som e-post fra SuperOffice CRM. |
+| Sende avtaler fra SuperOffice CRM | Som standard arkiverer du oppfølginger som sendes som e-post fra SuperOffice CRM. |
 | Sende dokumenter fra SuperOffice CRM | Arkiver dokumenter som er sendt som e-post fra SuperOffice CRM. |
 | Standardmal ved arkivering av e-post | I disse to rullegardinmenyene kan du velge standard innkommende og utgående e-postmal. |
 
 ## Send som e-post
 
-* Du kan sende en avtale som en e-post ved å klikke på **Oppgave** > **Send som e-post** i dialogboksen **Avtale**. Et nytt e-postvindu som inneholder avtalen vil da åpnes i e-postklienten din.
+* Du kan sende en oppfølginger som en e-post ved å klikke på **Oppgave** > **Send som e-post** i dialogboksen **Oppfølging**. Et nytt e-postvindu som inneholder avtalen vil da åpnes i e-postklienten din.
 
 * Du kan sende et dokument som en e-post ved å høyreklikke på det på detaljkortet **Aktiviteter** i SuperOffice CRM og velge **Send som e-post** eller ved å klikke på **Oppgave** > **Send som e-post** i skjermbildet Dokument. Et nytt e-postvindu som inneholder dokumentet vil da åpnes i e-postklienten din.
 

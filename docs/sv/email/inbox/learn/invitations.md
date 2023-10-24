@@ -14,7 +14,7 @@ language: sv
 Du kan få förfrågningar från en person utanför organisationen och enkelt acceptera och lägga till den i din kalender. Förfrågningsmejlet måste innehålla en iCal-fil (.ics) med information om förfrågan. I inkorgen visas e-postmeddelanden som innehåller iCal-förfrågningar med följande ikoner: ![ikon][img1] och ![ikon][img2]
 
 > [!NOTE]
-> Om avsändaren/organisatören är en registrerad (en unik) kontakt i SuperOffice CRM kommer läggs förfrågningarna automatiskt till som preliminära bokningar i din kalender. Preliminära bokningar kan också skapas för andra medarbetare, beroende på om inställningen **Hantera inkommande förfrågningar, inaktivera preliminära** (under **E-post**) är aktiv eller inte.
+> Om avsändaren/organisatören är en registrerad (en unik) kontakt i SuperOffice CRM kommer läggs förfrågningarna automatiskt till som preliminära händelser i din kalender. Preliminära händelser kan också skapas för andra medarbetare, beroende på om inställningen **Hantera inkommande förfrågningar, inaktivera preliminära** (under **E-post**) är aktiv eller inte.
 
 ## Så här accepterar du en förfrågan
 
@@ -34,7 +34,7 @@ Du kan få förfrågningar från en person utanför organisationen och enkelt ac
     * Acceptera och meddela avsändaren
     * Acceptera men meddela inte avsändaren
 
-Meddelandet tas bort från inkorgen och bokningen läggs in i din kalender.
+Meddelandet tas bort från inkorgen och händelsen läggs in i din kalender.
 
 <!-- Referenced links -->
 

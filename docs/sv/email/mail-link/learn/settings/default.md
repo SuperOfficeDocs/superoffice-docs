@@ -21,13 +21,13 @@ Alternativ i fönstret **Arkiveringsalternativ** i dialogrutan **Alternativ för
 | Skapat från e-postklient | [Aktivera standardarkivering][5] av e-postmeddelanden som du skriver i din e-postklient genom att klicka på knappen **Nytt e-postmeddelande**. När du skickar ett e-postmeddelande arkiveras det som standard i SuperOffice CRM. Om du väljer **Arkivering är av** i e-postfönstret i e-postklienten arkiveras inte e-postmeddelandet till SuperOffice CRM. |
 | Svara på e-postmeddelanden från SuperOffice CRM | Aktivera standardarkivering av e-postmeddelanden som du svarar på i SuperOffice CRM. |
 | Vidarebefordra e-postmeddelanden från SuperOffice CRM | Aktivera standardarkivering av e-postmeddelanden som du vidarebefordrar i SuperOffice CRM. |
-| Skicka bokningar från SuperOffice CRM | Arkivera bokningar som skickas som e-postmeddelanden från SuperOffice CRM som standard. |
+| Skicka bokningar från SuperOffice CRM | Arkivera händelser som skickas som e-postmeddelanden från SuperOffice CRM som standard. |
 | Skicka dokument från SuperOffice CRM | Arkivera dokument som skickas som e-postmeddelanden från SuperOffice CRM. |
 | Standardmall vid arkivering av e-post | I de här två rullgardinsmenyerna kan du välja standardmall för inkommande och utgående e-post. |
 
 ## Skicka som e-post
 
-* Du kan skicka en bokning som ett e-postmeddelande genom att klicka på **Uppgift** > **Skicka som e-post** i dialogrutan **Bokning**. Ett nytt e-postfönster med bokningen öppnas i din e-postklient.
+* Du kan skicka en händelse som ett e-postmeddelande genom att klicka på **Uppgift** > **Skicka som e-post** i dialogrutan **Händelse**. Ett nytt e-postfönster med händelsen öppnas i din e-postklient.
 
 * Du kan skicka ett dokument som ett e-postmeddelande genom att högerklicka på det på detaljkortet **Aktiviteter** i SuperOffice CRM och välja **Skicka som e-post** eller genom att klicka på **Uppgift** > **Skicka som e-post** i fönstret Dokument. Ett nytt e-postfönster med dokumentet öppnas i din e-postklient.
 

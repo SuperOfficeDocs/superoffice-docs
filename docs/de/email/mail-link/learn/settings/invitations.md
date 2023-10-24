@@ -15,7 +15,7 @@ Diese Optionen werden im Dialogfeld **SuperOffice CRM Optionen** im Bereich **Ei
 
 | Option | Beschreibung |
 |---|---|
-| Eingehende Einladungen | Wenn Sie auf eine Einladung in Outlook antworten (zugesagt oder mit Vorbehalt), können Sie auch einen Termin in SuperOffice erstellen oder aktualisieren. Wählen Sie diese Option aus: **Hinzufügen/Aktualisieren von Terminen in SuperOffice beim Antworten auf Einladungen in Outlook** |
+| Eingehende Einladungen | Wenn Sie auf eine Einladung in Outlook antworten (zugesagt oder mit Vorbehalt), können Sie auch eine Folgeaufgabe in SuperOffice erstellen oder aktualisieren. Wählen Sie diese Option aus: **Hinzufügen/Aktualisieren von Terminen in SuperOffice beim Antworten auf Einladungen in Outlook** |
 
 <!-- Referenced links -->
 

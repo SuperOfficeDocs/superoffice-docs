@@ -13,7 +13,7 @@ language: sv
 
 E-post är den mest populära formen av kommunikation mellan företag. Med SuperOffice CRM kan du välja att spara och dela dina e-postmeddelanden på olika sätt som gör att du och ditt team blir mer produktiva.
 
-När du har [integrerat den e-postklient du vill använda med SuperOffice][13] kan du spara e-postkonversationer och bilagor under ett företag, en kontakt, en försäljning eller ett projekt i ditt CRM-system. Du kan också spara e-postmeddelanden direkt som bokningar eller aktiviteter så att du aldrig glömmer att följa upp eller slutföra saker.
+När du har [integrerat den e-postklient du vill använda med SuperOffice][13] kan du spara e-postkonversationer och bilagor under ett företag, en kontakt, en försäljning eller ett projekt i ditt CRM-system. Du kan också spara e-postmeddelanden direkt som händelser eller aktiviteter så att du aldrig glömmer att följa upp eller slutföra saker.
 
 ## E-postklienter
 
@@ -36,12 +36,12 @@ Om du vill samla all kundrelaterad information på ett ställe kan du enkelt ark
 * [Arkivera e-post med WebTools och Mail Link][8]
 * [Arkivera e-post med Gmail Link][3]
 
-### Spara e-postmeddelanden som bokningar
+### Spara e-postmeddelanden som händelser
 
-Genom att spara ett e-postmeddelande direkt som en uppgift, ett möte eller ett telefonsamtal i din SuperOffice-kalender ser du till att du aldrig glömmer att följa upp en kund eller fråga.
+Genom att spara ett e-postmeddelande direkt som en händelse i din SuperOffice-kalender ser du till att du aldrig glömmer att följa upp en kund eller fråga.
 
-* [Arkivera e-postmeddelanden som bokningar med WebTools och Mail Link][7]
-* [Arkivera e-postmeddelanden som bokningar med Gmail Link][4]
+* [Arkivera e-postmeddelanden som händelse med WebTools och Mail Link][7]
+* [Arkivera e-postmeddelanden som händelse med Gmail Link][4]
 
 ## Bilagor
 
