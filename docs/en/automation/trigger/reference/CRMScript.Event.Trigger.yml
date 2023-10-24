@@ -1715,7 +1715,7 @@ items:
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre><strong>Example parser variables:</strong><p></p>\n<pre><code>if(getParserVariable(&quot;ticket.new.category&quot;) != getParserVariable(&quot;ticket.old.value&quot;))\n    log(&quot;Category has changed&quot;);</code></pre>In this event it is possible to get more information regarding changes done using Parser variables to compare old values against new values.\n"
-- uid: CRMSCript.Event.Trigger.Outbox
+- uid: CRMSCript.Event.Trigger.OutboxItemCreated
   commentId: M:CRMSCript.Event.Trigger.OutboxItemCreated
   id: 'OutboxItemCreated'
   so.intellisense:
