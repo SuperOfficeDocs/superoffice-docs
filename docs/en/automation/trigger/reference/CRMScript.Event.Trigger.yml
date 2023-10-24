@@ -1727,7 +1727,10 @@ items:
   fullName: CRMScript.Event.Trigger.OutboxItemCreated
   type: Method
   summary: "\nCalled when an outbox item is being created (i.e. outbound email or sms).\n"
-  remarks: "See reference for [tutorial](../../crmscript/tutorials/crmscript-trigger-outbox.md) "
+  remarks: "\nSee reference for [tutorial](../../crmscript/tutorials/crmscript-trigger-outbox.md).\n"
+  syntax: 
+  example: 
+  - "\n<pre><code>#setLanguageLevel 3;\n"
 references:
 - uid: CRMScript.Event.Trigger
   commentId: T:CRMScript.Event.Trigger
