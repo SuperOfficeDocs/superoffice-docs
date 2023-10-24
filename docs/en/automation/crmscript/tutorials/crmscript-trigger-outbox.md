@@ -11,7 +11,7 @@ so.topic: tutorial
 <!-- markdownlint-disable-file MD044 -->
 # Creating a trigger for the outbox
 
-This event is called when an email or SMS outbox item is created. All emails or SMSs sent from SuperOffice Service will pass through the outbox. The event is named `Outbound email or SMS created`. The `EventData` instance will contain several input values relevant to the context.
+This event is called when an email or SMS outbox item is created. All emails or SMSes sent from SuperOffice Service will pass through the outbox. The event is named [Outbound email or SMS created][1]. The `EventData` instance will contain several input values relevant to the context.
 
 First, the input value `eventType` will identify the event that caused the outbox item to be created. The list of known events are:
 
@@ -28,7 +28,7 @@ First, the input value `eventType` will identify the event that caused the outbo
 * crmScript: When an email is sent from CRMScript using the Email-class (Note: can be overridden using setValue("eventName", "...")).
 * notSupported: Used as a fallback value for deprecated or obsolete functionality.
 
-Depending on whether this is an email or SMS event, the input values will be different. For emails, the `EventData.InputValues` will contain values such as *outbox.to*, *outbox.subject*. For SMSs, it will contain, for example, *body*, *recipient*, and *sender*. Also, depending of the type, various operations are supported, controlled by settings values in the `EventData.OutputValues`.
+The input values will be different, depending on whether this is an email or SMS event. For emails, the `EventData.InputValues` will contain values such as *outbox.to*, *outbox.subject*. For SMSs, it will contain, for example, *body*, *recipient*, and *sender*. Also, depending of the type, various operations are supported, controlled by settings values in the `EventData.OutputValues`.
 
 ## Trigger executed for Email
 
@@ -70,7 +70,7 @@ For both email and SMS, setting `EventData.BlockExecution` to *true* will block 
 
 ## Example
 
-This example will block outbound emails sent as replies to cases, and instead ask the customer to login to the Customer Centre to view the case.
+This example will block outbound emails sent as replies to a request, and instead ask the customer to log in to the Customer Centre to view the message.
 
 ```crmscript
 #setLanguageLevel 4;
@@ -84,8 +84,8 @@ if (ed.getInputValue("outbox.eventName") == "addMessage") {
   e.setValue("cc", ed.getInputValue("outbox.cc"));
   e.setValue("bcc", ed.getInputValue("outbox.bcc"));
   e.setValue("subject", ed.getInputValue("outbox.subject"));
-  e.setValue("body", "A new message has been added to your ticket: " + ed.getInputValue("outbox.ticketId") + ". Please login to the Customer Centre to view it.");
-  e.send();
+  e.setValue("body", "A new message has been added to your ticket: " + ed.getInputValue("outbox.ticketId") + ". Please log in to the Customer Centre to view it.");
+  e.send();  
 }
 ```
 
@@ -97,3 +97,6 @@ ed.setOutputValue("outbox.header.length", "1");
 ed.setOutputValue("outbox.header.0.name", "X-our-header");
 ed.setOutputValue("outbox.header.0.value", "Email processed by CRMScript");
 ```
+
+<!-- Referenced links -->
+[1]: <xref:CRMSCript.Event.Trigger.OutboxItemCreated>

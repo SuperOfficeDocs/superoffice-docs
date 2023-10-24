@@ -1715,8 +1715,8 @@ items:
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nString param1 = getVariable(&quot;ticketId&quot;);</code></pre><strong>Example parser variables:</strong><p></p>\n<pre><code>if(getParserVariable(&quot;ticket.new.category&quot;) != getParserVariable(&quot;ticket.old.value&quot;))\n    log(&quot;Category has changed&quot;);</code></pre>In this event it is possible to get more information regarding changes done using Parser variables to compare old values against new values.\n"
-- uid: CRMSCript.Event.Trigger.OutboxItemCreated
-  commentId: M:CRMSCript.Event.Trigger.OutboxItemCreated
+- uid: CRMScript.Event.Trigger.OutboxItemCreated
+  commentId: M:CRMScript.Event.Trigger.OutboxItemCreated
   id: 'OutboxItemCreated'
   so.intellisense:
   so.version: 10.2.10
@@ -1726,8 +1726,8 @@ items:
   nameWithType: Trigger.OutboxItemCreated
   fullName: CRMScript.Event.Trigger.OutboxItemCreated
   type: Method
-  summary: "\nCalled when an outbox item is being created (i.e. outbound email or sms).\n"
-  remarks: "\nSee reference for [tutorial](../../crmscript/tutorials/crmscript-trigger-outbox.md).\n"
+  summary: "\nCalled when an outbox item is being created (outbound email or SMS).\n"
+  remarks: "\nSee also [tutorial](../../crmscript/tutorials/crmscript-trigger-outbox.md).\n"
   syntax: 
   example: 
   - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nif (ed.getInputValue(&quot;eventType&quot;) == &quot;autoReply&quot;) {\n//Do something\n}</code></pre>\n"
