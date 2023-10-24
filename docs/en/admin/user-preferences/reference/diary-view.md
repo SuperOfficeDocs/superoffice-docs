@@ -19,8 +19,8 @@ Diary preferences control the calendar display in the diary panel.
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
-| AllDayEndTime | End time for an all-day appointment | | Date | Admin, Crm, Admin users, Wizard |
-| AllDayStartTime | Start time for an all-day appointment | | Date | Admin, Crm, Admin users, Wizard |
+| AllDayEndTime | End time for an all-day meeting | | Date | Admin, Crm, Admin users, Wizard |
+| AllDayStartTime | Start time for an all-day meeting | | Date | Admin, Crm, Admin users, Wizard |
 | DefaultAlarmTime | Default number of minutes before a follow-up alarm is triggered | | Number | Admin, Crm, Admin users, Wizard |
 | DiaryStartTime | Specifies the time your calendar starts in the morning.<br>Use a number to indicate the whole hour. | 8<br>(your calendar will start at 08:00) | Number | Admin, Admin users, Wizard |
 | DiaryViewAssociates | A comma-separated list of the associates and resources to display in the group view | | Text | Wizard |

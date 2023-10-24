@@ -13,7 +13,7 @@ language: en
 
 A great way to order information to find, review, and access information efficiently is by grouping the information. Grouping information means you sort information as a set of people or things, that have something in common.
 
-You can group the information in an archive by all the fields/columns in the archive. For example, group a list of activities on category, so you can view all your appointments or web forms; group a list of requests on category and status, so you can get an overview of request statuses per category.
+You can group the information in an archive by all the fields/columns in the archive. For example, group a list of activities on category, so you can view all your follow-ups or web forms; group a list of requests on category and status, so you can get an overview of request statuses per category.
 
 Grouping is personal. The columns you use to group your information, are visible only for you and you can add and remove as many groups as you like.
 

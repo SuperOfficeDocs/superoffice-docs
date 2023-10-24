@@ -60,7 +60,7 @@ The generic procedure is like this. The details are up to you.
 
 1. Retrieve an existing sale or create a new.
 2. Create the new follow-up **and save it**.
-3. Call `SetAppointment()` to link the appointment to the sale.
+3. Call `SetAppointment()` to link the follow-up to the sale.
 4. Save the sale.
 
 > [!NOTE]

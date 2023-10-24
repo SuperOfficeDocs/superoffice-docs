@@ -17,46 +17,18 @@ so.audience.tooltip: SuperOffice CRM
 
 ## Types
 
-There are two types of activities – documents and follow-ups. Follow-ups is a collective term for appointments, phone calls and tasks. In addition, mailings, form submissions and chat records are displayed in the **Activities** section tab.
+There are two main types of activities – documents and follow-ups. In addition, mailings, form submissions, and chat records are displayed in the **Activities** section tab.
 
 * [Follow-ups][1]
-* [Work with documents][4]
-* [Compose an email][5]
-* [Chat][12]
-
-The table below illustrates the different kinds of activities:
-
-<!-- markdownlint-disable MD041 MD033 -->
-<table>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<tr>
-<td colspan="7" style="text-align: center;">Activities</td>
-</tr>
-<tr>
-<td colspan="3" style="text-align: center;">Follow-ups</td>
-<td colspan="2" style="text-align: center;">Documents</td>
-<td rowspan="2" style="text-align: center;">Mailings / Form submissions<img src="../../../../common/icons/marketing-h32.png" alt="" /><img src="../../../../common/icons/singlecolour/webform-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chat sessions<img src="../../../../common/icons/chat-h32.png" alt="" ></td>
-</tr>
-<tr>
-<td><p>Appointment<img src="../../../../common/icons/appointment-h32.png" alt="" /></td>
-<td><p>Task<img src="../../../../common/icons/appointment-task-h32.png" alt="" /></td>
-<td><p>Phone Call<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
-<td><p>Document<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
-<td><p>Email<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td style="text-align: center;">Mailings / Form submissions<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td style="text-align: center;">Chat sessions<img src="../../../../common/icons/chat.png" alt="" ></td>
-</tr>
-<tr>
-</tr>
-</table>
-<!-- markdownlint-restore -->
+  * ![icon][img11] Meeting (appointment)
+  * ![icon][img13] Follow-up (call)
+  * ![icon][img12 ]To-do (task)
+* [Documents][4]
+  * ![icon][img14] Document (letters and other documents)
+  * ![icon][img15] Email
+* ![icon][img16] [Mailings][3] (bulk mailings by merged document, email or SMS)
+* ![icon][img18] [Chat sessions][12]
+* ![icon][img17] Form submissions
 
 ## Where do I find activities?
 
@@ -73,17 +45,9 @@ The table below illustrates the different kinds of activities:
 
 ## <a id="view" />View activities
 
-The activities displayed depend on which of the following checkboxes you selected at the bottom of the section tab:
-
-* Follow-ups
-* Documents
-* Mailings
-* Chat sessions
-* Form submissions
+The activities displayed depend on which filters you select at the bottom of the section tab. You can show all activities, or just one of the types. Click the ![icon][img5] **Filter** button to [filter activities][17] by date and user.
 
 ![Activities section tabs shows filter options of different record types -screenshot][img4]
-
-You can show all activities, or just one of the types. Click the ![icon][img5] **Filter** button to [filter activities][17] by date and user.
 
 ## Columns
 
@@ -91,18 +55,9 @@ The activities list columns contain the following information:
 
 * ![icon][img1]: The first column in the activities list specifies the **Completed** status of an activity. A tick means that the activity is completed, while an empty box means that it is not completed.
 
-* The Category column contains icons that indicate the type of activity, for example, a telephone for a call. These icons reflect the text in the **Type** column.
+* The Category column contains icons that indicate the type of activity, for example, a calendar for a meeting. These icons reflect the text in the **Type** column.
 
 * The other columns in the activities list show various information about the activity. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
-
-The activities displayed depend on which checkboxes you select at the bottom of the section tab:
-
-* Follow-ups (appointments, tasks and phone calls)
-* Documents (email, letters, and other documents)
-* Mailings (bulk mailings by merged document, email or SMS)
-* Other (chat records, form submissions)
-
-You can show all activities, or just one type.
 
 ## Create activity
 
@@ -129,13 +84,14 @@ You can delete activities from any screen where they are displayed:
 
 * [Filter activities][17]
 * [Change Completed status of an activity][10]
-* [Add follow-ups (appointments, tasks and phone calls)][8]
+* [Add follow-up (meeting, to-do, call)][8]
 * [Dial contacts][11]
 * [Work with documents][4]
 * [Compose an email][5]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md
@@ -156,3 +112,11 @@ You can delete activities from any screen where they are displayed:
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
 [img5]: ../../../../common/icons/filter-icon.png
+[img11]: ../../../../common/icons/appointment.png
+[img12]: ../../../../common/icons/appointment-task.png
+[img13]: ../../../../common/icons/appointment.png
+[img14]: ../../../../common/icons/document.png
+[img15]: ../../../../common/icons/email.png
+[img16]: ../../../../common/icons/marketing.png
+[img17]: ../../../../common/icons/webforms.png
+[img18]: ../../../../common/icons/chat.png

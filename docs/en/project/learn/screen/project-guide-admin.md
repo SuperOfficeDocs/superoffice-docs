@@ -17,7 +17,7 @@ In the **Project guide** tab in the Workflow screen in Settings and maintenance,
 
 ## Example
 
-The "Conference" project type may consist of three statuses: Planned, In progress, and Closing. The Planned status may, for example, include the "Planning meeting" follow-up (an appointment) and the "Conference programme" document (a note).
+The "Conference" project type may consist of three statuses: Planned, In progress, and Closing. The Planned status may, for example, include the "Planning meeting" follow-up and the "Conference programme" document (a note).
 
 ## What would you like to do now?
 

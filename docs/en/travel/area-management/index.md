@@ -44,7 +44,7 @@ Companies are controlled by the field Our Contact, which refers to an employee. 
 
 A project is included depending on the field Manager, which refers to an employee in the same way as Our Contact in the company card. A project is only included in an area if Manager is included. Like the company card, a project may include activities, documents, and sales that are linked to the project, but no persons (even if they are project members).
 
-## Appointments, documents, and sales
+## Follow-ups, documents, and sales
 
 An activity or a document is included in the area if the activity’s or the document’s owner is included (the employee who has the activity in his diary) or if the activity or the document is linked to a company or a project that is included. The same applies to sales. If the employee in the salesperson field is included, the sale will be included. The sale will also be included if it is linked to a company or a project that is included.
 

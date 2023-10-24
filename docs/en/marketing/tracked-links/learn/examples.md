@@ -22,7 +22,7 @@ Trackable links can be used in a variety of interesting ways:
 
 * **Prospect list**: If you are launching a new product, recipients can register their interest in the product by clicking the "Send me more info" link. Those who click the link can be added to a static selection in SuperOffice CRM, which sales staff can use to manage further contact with these customers.
 
-* **Tasks/appointments for salespersons in SuperOffice CRM**: One alternative to the prospect list in the example above is to generate a task/appointment for salespersons / customer contacts for each link click. A click on the "Contact me" link could, for example, generate an appointment in SuperOffice CRM of type "Phone out" for the contact for that customer. In addition, the appointment can be linked to a project in SuperOffice CRM, such as a marketing campaign.
+* **Follow-ups for salespersons in SuperOffice CRM**: One alternative to the prospect list in the example above is to generate a to-do or meeting for salespersons / customer contacts for each link click. A click on the "Contact me" link could, for example, generate a follow-up in SuperOffice CRM of type "Phone out" for the contact for that customer. In addition, the follow-up can be linked to a project in SuperOffice CRM, such as a marketing campaign.
 
 * **Unsubscribe**: In the content editor, you can [insert a link for unsubscribing][1] from a specific mailing type. This means that the customer no longer receives this mailing type from SuperOffice Marketing, regardless of which recipient list is used for the mailing.
 

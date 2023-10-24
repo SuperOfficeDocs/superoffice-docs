@@ -1,7 +1,7 @@
 ---
 uid: help-en-follow-up-create
-title: Add follow-up (appointment, task, and phone call)
-description: How to add or copy an appointments, a task, or a phone call in SuperOffice CRM.
+title: Add follow-up
+description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
 author: Bergfrid Dias
 so.date: 09.29.2023
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
@@ -9,15 +9,15 @@ so.topic: howto
 language: en
 ---
 
-# Add follow-up (appointment, task, phone call)
+# Add follow-up
 
-Creating appointments and scheduling all meetings and activities in your SuperOffice Diary help you to always have a complete overview of what is happening, build up solid communication history, and keep your colleagues informed.
+Creating follow-ups and scheduling all meetings and activities in your SuperOffice Diary help you to always have a complete overview of what is happening, build up solid communication history, and keep your colleagues informed.
 
 ## Steps
 
 There are many ways to create a follow-up. This method works from anywhere in SuperOffice CRM and for all types of follow-ups.
 
-1. Click **+New** in the top bar and select **Appointment**, **Phone Call**, or **Task**.
+1. Click **+New** in the top bar and select **Meeting**, **To-do**, or **Follow-up**.
 
 2. [Enter the required information in the fields.][6]
 
@@ -30,7 +30,7 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 
 **Other options:**
 
-| Starting point | Appointment | Phone call | Task |
+| Starting point | Meeting | Follow-up (call) | To-do |
 |---|---|---|---|
 | Activities section tab | x | x | x |
 | Task button on a contact | x | x | |
@@ -42,8 +42,6 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 
 * Or, double-click an empty row below the last activity in the list. If you see no empty rows, position the mouse pointer between the section tabs and the card above. The pointer changes to a double-headed arrow. Then click and drag the line up to expand the section tab area.
 
-By default this opens the **Appointment** dialog. To specify which dialog should open, select ![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Type from Activities section tab**.
-
 > [!NOTE]
 > If you specify a time or duration for a follow-up you are creating from within the activities list, it is entered in the Diary.
 
@@ -51,22 +49,22 @@ By default this opens the **Appointment** dialog. To specify which dialog should
 
 1. Click the ![icon][img3] **Task** button in the Contact card.
 
-1. To create an appointment, select **Request a meeting**.
+1. To create a meeting, select **Request a meeting**.
 
     To register a call, select **Make a phone call**.
 
 1. Enter information and click **Save**.
 
-## Create appointment from Diary
+## Create meeting from Diary
 
-* **To choose a time slot:** click the time at which you want the appointment to start and hold the mouse button down while you drag the mouse to the required end time for the task. A blue area is displayed while you define the time slot before the **Appointment** dialog opens.
+* **To choose a time slot:** click the time at which you want the meeting to start and hold the mouse button down while you drag the mouse to the required end time for the task. A blue area is displayed while you define the time slot before the **Follow-up** dialog opens.
 
 * **To use default duration:** double-click a time in the Diary or right-click a time in the Diary and select **New**.
 
 > [!NOTE]
-> If you create the appointment from the **View** tab, you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
+> If you create the meeting from the **View** tab, you can choose to have the **Participants** dialog automatically filled out with the members of the view. To set this option, go to ![icon][img1] **Personal settings** > **Preferences** > **Functions** and set the **Participants from group view** preference to **Yes**. Click **Save**.
 
-### <a id="associate" />Create appointment for an associate
+### <a id="associate" />Create meeting for an associate
 
 You can open another user's diary, or the diary of an available resource, to see when they are free or to create follow-ups for them directly.
 
@@ -74,13 +72,13 @@ You can open another user's diary, or the diary of an available resource, to see
 
 2. Click the diary owner list and select the person's diary.
 
-3. Create a new appointment in this diary using the mouse.
+3. Create a new meeting in this diary using the mouse.
 
-4. In the **Appointment** dialog, [enter the required information][6].
+4. In the **Follow-up** dialog, [enter the required information][6].
 
 5. [Choose the participants to include][5], if they are not automatically included.
 
-6. Click **Save**. The appointment will be displayed in the selected person's diary.
+6. Click **Save**. The meeting will be displayed in the selected person's diary.
 
 ## <a id="copy" />Copy a follow-up to the Diary
 

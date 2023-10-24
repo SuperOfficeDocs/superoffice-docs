@@ -1,7 +1,7 @@
 ---
 uid: help-en-follow-ups
 title: Follow-ups
-description: Follow-ups - appointment, task, phone call
+description: Follow-ups - meeting, to-do, call
 author: Bergfrid Dias
 so.date: 10.11.2023
 keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, participant
@@ -11,7 +11,7 @@ language: en
 
 # Follow-ups
 
-*Follow-up* is a collective term for [appointment](#apt), [task](#task), and [phone call](#call). These activities are closely linked to the Diary screen and function in largely the same way.
+*Follow-up* is a collective term for [meetings](#apt) and [to-dos](#task). A [phone call](#call) is a hybrid of the two. These activities are closely linked to the Diary screen and function in largely the same way.
 
 Open an existing follow-up by double-clicking it in the Diary or the **Activities** section tab.
 
@@ -32,32 +32,32 @@ Open an existing follow-up by double-clicking it in the Diary or the **Activitie
 
 ## Create new
 
-No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **+New** in the top bar and then select **Appointment**, **Task**, or **Phone call**.
+No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **+New** in the top bar and then select **Meeting**, **To-do**, or **Follow-up**.
 
 > [!NOTE]
-> Follow-ups created from the Diary screen are by default appointments. However, you can change the type before you save.
+> Follow-ups created from the Diary screen are by default meetings. However, you can change the type before you save.
 
 ## Locate your follow-ups
 
-In in the Diary screen, appointments and phone calls appear on the **Day**, **Week**, **Month**, and **View** tabs - and in the **Day**, **Month**, **Next day**, and **Week** side panels.
+In in the Diary screen, meetings and phone calls appear on the **Day**, **Week**, **Month**, and **View** tabs - and in the **Day**, **Month**, **Next day**, and **Week** side panels.
 
-The **Activities** section tab (in the Company, Contact, Sale, Project, and Diary screen) shows all follow-ups, including tasks.
+The **Activities** section tab (in the Company, Contact, Sale, Project, and Diary screen) shows all follow-ups, including to-dos.
 
 ## Follow-up types
 
 | Type | Start time | End time | Duration | Deadline | Shown in | Description | Example |
 |---|:-:|:-:|:-:|:-:|---|---|---|
-| Appointment (meeting) | &#10003; | &#10003; | Calculated | | Calendar | Activity w/ defined start and end time | External meeting with supplier |
-| Task (To-do) | | | | &#10003; | Activities section tab | Follow-up w/ no start time | reminder for stuff due by a specific time |
-| Call (follow-up) | &#10003; | | &#10003; | | Activities section tab | Phone call | Incoming call from customer |
+| Meeting (appointment) | &#10003; | &#10003; | Calculated | | Calendar | Activity w/ defined start and end time | External meeting with supplier |
+| To-do (task) | | | | &#10003; | Activities section tab | Follow-up w/ no start time | reminder for stuff due by a specific time |
+| Follow-up (call) | &#10003; | | &#10003; | | Activities section tab | Phone call | Incoming call from customer |
 
-## <a id="apt" />Appointment (meeting)
+## <a id="apt" />Meeting (Appointment)
 
-Appointments are activities with a defined start and end time, such as meetings. They are shown in the owner's calendar.
+Meetings are activities with a defined start and end time. They are shown in the owner's calendar.
 
-An appointment can be a single event or part of a recurring series. Appointments involving a resource and/or additional participants are called [invitations][5] (or group reservations).
+A meeting can be a single event or part of a recurring series. Meetings involving a resource and/or additional participants are called [invitations][5].
 
-Overdue and completed appointments will be in the **Activities** section tab in addition to in the calendar.
+Overdue and completed meetings will be in the **Activities** section tab in addition to in the calendar.
 
 ### Common scenarios
 
@@ -67,26 +67,26 @@ Overdue and completed appointments will be in the **Activities** section tab in 
 | Own time and resource reserved | &#10003; | | As above plus need room or equipment |
 | Meeting with multiple participants | &#10003; | &#10003; | A meeting, commonly also with a resource or location |
 
-## <a id="task" />Task (to-do)
+## <a id="task" />To-do (task)
 
-A *task* is a follow-up without a start time. It usually does not have a duration either, but it always has a **deadline**. Tasks are typically used for things you have to remember to do by a certain time.
+A *to-do* is a follow-up without a start time. It usually does not have a duration either, but it always has a **deadline**. To-dos are typically used for things you have to remember to do by a certain time.
 
-By default, you will find tasks in the diary todo list, where they can be checked off when completed. If you specify a start and end time for a task, it is entered in the diary at the given day and time.
+By default, you will find to-dos in the diary todo list, where they can be checked off when completed. If you specify a start and end time for a to-do, it is entered in the diary at the given day and time.
 
-## <a id="call" />Phone call (follow-up)
+## <a id="call" />Follow-up (phone call)
 
 A *call* is a follow-up representing a very specific action - the phone call. For example, you want to enter an outgoing phone call.
 
-It is also kinda a hybrid between an appointment and a task:
+It is also kinda a hybrid between an meeting and a to-do:
 
-* When you initially plan a call, it lives in the todo list with a deadline much like a task.
-* When you make the call, it gets fixed in time and now resembles an appointment.
+* When you initially plan a call, it lives in the todo list with a deadline much like a to-do.
+* When you make the call, it gets fixed in time and now resembles an meeting.
   * The start time becomes the current time and today's date.
   * The default duration is 15 minutes.
 
 ## Default duration
 
-The default duration is 1 hour for an appointment and 15 minutes for a call. To change the default value:
+The default duration is 1 hour for a meeting and 15 minutes for a call. To change the default value:
 
 1. Go to ![icon][img14] **Personal settings** and select **Preferences**.
 1. Select **Default values**.
@@ -96,7 +96,7 @@ The default duration is 1 hour for an appointment and 15 minutes for a call. To 
 
 ## Related content
 
-* [Create an appointments, a task, or a phone call][2]
+* [Create a follow-up][2]
 * [Learn about activities][4]
 
 <!-- Referenced links -->

@@ -1,10 +1,10 @@
 ---
 title: Diary howto
 uid: diary-howto
-description: How to work with appointments at multiple levels of NetServer.
+description: How to work with follow-ups (appointments) at multiple levels of NetServer.
 author: Bergfrid Skaara Dias
-so.date: 10.05.2023
-keywords: diary, calendar, appointment, API, associate, call, task, todo, follow-up, recurrence, recurrencerule, frequency, pattern
+so.date: 10.23.2023
+keywords: diary, calendar, appointment, meeting, API, associate, call, task, todo, follow-up, recurrence, recurrencerule, frequency, pattern
 so.topic: howto
 ---
 
@@ -12,26 +12,30 @@ so.topic: howto
 
 ## Introduction
 
-Appointments are the foundation of the SuperOffice diary. **Follow-up** is a collective term for **appointments**, **phone calls**, and **tasks**. These entities are always tied to an [associate][39] and have some form of time reference.
-
-Associate acts as the owner of the appointment. If you don't assign an associate to the `Associate` property of the appointment, the current user will become the owner of the appointment and only one row will be added to the appointment table when the appointment is saved.
-
-A repeating follow-up is a series of appointments, tasks, or calls scheduled to occur at regular intervals. For example, a weekly status meeting. A recurring appointment is stored in two parts:
-
-* A recurrence rule, which defines the pattern of the recurrence
-* All the appointments created by the recurrence are created in the [appointment table][30], and each one points to the recurrence rule that defines it.
+**Follow-ups** are the foundation of the SuperOffice diary. These entities are always tied to an [associate][39] and have some form of time reference.
 
 Follow-ups are part of a broader group of entities labeled **activities**:
 
 * [follow-ups][38]
-  * appointment
-  * task
-  * call
+  * Meeting (appointment)
+  * To-do (task)
+  * Call (follow-up)
 * documents
   * [document][36]
   * [email][35]
 * mailings and form submissions
 * [chat sessions][37]
+
+### Owner
+
+Associate acts as the owner of the follow-up. If you don't assign an associate to the `Associate` property of the appointment, the current user will become the owner of the appointment and only one row will be added to the [appointment table][30] when the appointment is saved.
+
+### Recurrence
+
+A repeating follow-up is a series events scheduled to occur at regular intervals. For example, a weekly status meeting. A recurring appointment is stored in two parts:
+
+* A recurrence rule, which defines the pattern of the recurrence
+* All the appointments created by the recurrence are created in the appointment table, and each one points to the recurrence rule that defines it.
 
 When working with follow-ups, data will often intersect with the following entities:
 

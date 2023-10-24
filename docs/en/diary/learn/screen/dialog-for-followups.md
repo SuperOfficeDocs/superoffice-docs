@@ -8,7 +8,7 @@ keywords: diary, follow-up
 so.topic: reference
 language: en
 ---
-
+<!-- DO NOT CHANGE TERMINOLOGY IN THIS FILE -->
 # The Dialog for follow-ups
 
 Regardless of the [type of follow-up][1] you are working with, you will see the dialog for follow-ups. The actual name of this dialog varies according to the type of follow-up – Appointment, Task, or Phone Call – but the fields are the same in each case. The fields in the dialog and how to use them are described below.
@@ -61,7 +61,7 @@ If your SuperOffice has [time zones][10] turned on, you can select which time zo
 
 ### Start / End / Due / Duration
 
-Enter a date and, where appropriate, a time in the **Start** field and the **End** field (for appointments and phone calls) or **Due** field (for tasks), for the follow-up start and the follow-up end/deadline respectively. If you specify a time, the content of the **Duration** field is automatically adjusted accordingly.
+Enter a date and, where appropriate, a time in the **Start** field and the **End** field or **Due** field (for to-dos), for the follow-up start and the follow-up end/deadline respectively. If you specify a time, the content of the **Duration** field is automatically adjusted accordingly.
 
 > [!TIP]
 > If the follow-up conflicts with another one or has several participants, the **First available** field is displayed, showing the first available meeting time.
@@ -86,9 +86,7 @@ Completed ![icon][img5] ![icon][img6]
 
 Check here when the [follow-up is completed][11].
 
-### Task
-
-![icon][img1]
+### Task ![icon][img1]
 
 Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 

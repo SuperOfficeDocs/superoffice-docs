@@ -50,7 +50,7 @@ so.client: online
 
 The Video Meeting URL will be added to the **Location** field if it is left blank.
 
-With SuperOffice Mail Link, the Video Meeting URL is added to the appointment text automatically ("Join meeting: ...").
+With SuperOffice Mail Link, the Video Meeting URL is added to the meeting text automatically ("Join meeting: ...").
 With SuperOffice Inbox, you need to update the invitation template.
 
 ![imageloql6.png -screenshot][img2]

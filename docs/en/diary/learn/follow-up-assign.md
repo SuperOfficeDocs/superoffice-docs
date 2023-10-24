@@ -19,7 +19,7 @@ Examples: Your colleague is on vacation, but needs to phone a client when they g
 
 * Assign a follow-up to someone (change owner)
 * Re-assign a follow-up
-* [Create an appointment in an associate's diary][2]
+* [Create a meeting in an associate's diary][2]
 
 ## Assign a follow-up
 

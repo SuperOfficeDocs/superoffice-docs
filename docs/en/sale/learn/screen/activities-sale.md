@@ -11,7 +11,7 @@ language: en
 
 # The Activities section tab
 
-The **Activities** section tab shows all appointments, tasks, phone calls, documents, and emails that are linked to the active sale. Double-click an activity in the section tab to view or edit it, as required.
+The **Activities** section tab shows all follow-ups, documents, and emails that are linked to the active sale. Double-click an activity in the section tab to view or edit it, as required.
 
 ## Columns in the Activities section tab
 
@@ -19,7 +19,7 @@ The following columns are displayed on the **Activities** section tab:
 
 * ![icon][img2] : **Completed** status of an activity. A tick in the checkbox (![icon][img1]) means that the [activity is completed][1], while an empty box means that it is not completed.
 
-* The second column contains icons that indicate the type of activity, one category for each of the different types. For example, a telephone icon indicates a phone call. These icons reflect the text in the **Type** column.
+* The second column contains icons that indicate the type of activity, one category for each of the different types. For example, a calendar icon indicates a meeting. These icons reflect the text in the **Type** column.
 
 * The date of the activity.
 * The type of activity.

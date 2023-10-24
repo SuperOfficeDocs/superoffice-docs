@@ -17,7 +17,7 @@ SuperOffice CRM can notify you before your meeting is about to start. When it is
 
 ## To be notified of a follow-up in advance
 
-1. Check the **Alarm** checkbox in the **Details** tab in the **Appointment**, **Task** or **Phone Call** dialog.
+1. Check the **Alarm** checkbox in the **Details** tab in the **Follow-up** dialog.
 1. In the field next to the checkbox, add the number of hours and minutes ahead of your meeting you wish to be notified.
 
     The default is 10 minutes, but you can change it.

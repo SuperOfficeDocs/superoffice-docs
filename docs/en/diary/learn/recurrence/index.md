@@ -11,11 +11,11 @@ language: en
 
 # Repeating follow-ups
 
-It may happen that you want to create a series of appointments to occur at regular intervals, for example, a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function.
+It may happen that you want to create a series of follow-ups to occur at regular intervals, for example, a weekly status meeting. Instead of recording these meetings one at a time, you can use the repeating follow-ups function.
 
 ![Recurring follow-up dialog -screenshot][img1]
 
-At the upper right of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed. You can change only the start date for the follow-up here. To change the time, first close the **Repeating follow-ups** dialog and then change the time in the **Appointment**, **Task**, or **Phone call** dialog.
+At the upper right of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed. You can change only the start date for the follow-up here. To change the time, first close the **Repeating follow-ups** dialog and then change the time in the **Follow-up** dialog.
 
 ## <a id="frequency" />Frequency
 

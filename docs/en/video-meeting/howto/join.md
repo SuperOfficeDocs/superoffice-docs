@@ -14,7 +14,7 @@ so.client: online
 
 There are several ways you can join a video meeting in SuperOffice:
 
-* Click **Join meeting** in the **Follow-up** dialog (appointment).
+* Click **Join meeting** in the **Follow-up** dialog.
 * Click **Join meeting** in the side panel.
 * Click a browser notification (only available if the Alarm option has been activated, see the [Details tab][1]).
 * Right-click in your diary and click **Join meeting**.

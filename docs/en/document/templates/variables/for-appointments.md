@@ -1,13 +1,13 @@
 ---
 uid: tempvar-appointment
-title: Variables for appointments
-description: Variables for appointments
+title: Variables for follow-up
+description: Variables for follow-up
 author: Bergfrid Dias
 so.date: 09.22.2022
 keywords: template variable
 so.topic: reference
 ---
 
-# Variables for appointments
+# Variables for follow-up
 
 [!include[Table](../../../../../common/includes/variable/table-appointment.md)]

@@ -70,9 +70,9 @@ SELECT * FROM PROJSTATUS WHERE ProjStatus_id IN
 | 6 | Implementation | 7 | Implementation | 0 | 2021-11-05 10:57:03 | |
 | 7 | Completion | 9 | Completion | 0 | 2021-11-05 10:57:03 | |
 
-## Tasks
+## To-dos
 
-The different tasks defined for a project's different statuses is found in the [ProjectTypeStatusLink table][1]:
+The different to-dos defined for a project's different statuses is found in the [ProjectTypeStatusLink table][1]:
 
 **Suggested appointment:**
 

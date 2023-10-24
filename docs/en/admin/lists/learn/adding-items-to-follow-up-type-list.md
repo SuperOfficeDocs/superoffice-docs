@@ -20,7 +20,7 @@ language: en
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Click the ![icon][img1] arrow next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
+2. Click the ![icon][img1] arrow next to the **Type** field and select the required follow-up type from the list box. You can choose from **Meeting**, **To-do**.
 
 3. In the **Direction** field, specify if the follow-up is outgoing or incoming by clicking the arrow and choosing from the list box.
 

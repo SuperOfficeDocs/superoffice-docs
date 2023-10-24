@@ -29,7 +29,7 @@ When you open the diary of another user or resource, you can switch between the 
 
 ## What would you like to do now?
 
-* [Create appointment][2]
+* [Create meeting][2]
 
 <!-- Referenced links -->
 [2]: create-follow-up.md#associate

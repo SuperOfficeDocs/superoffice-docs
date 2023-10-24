@@ -13,7 +13,7 @@ language: en
 
 ![Project guide activities section -screenshot][img1]
 
-The **Activities** section tab shows all [activities][1] that are linked to the active project: follow-ups (appointments, tasks and phone calls) and documents (including merge documents, reports and email).
+The **Activities** section tab shows all [activities][1] that are linked to the active project: follow-ups (meetings, to-dos, calls) and documents (including merge documents, reports and email).
 
 Double-click an activity in the section tab to view or edit it, as required.
 
@@ -25,7 +25,7 @@ The first column in the **Activities** section tab indicates the **Completed** s
 
 ### Type icons
 
-The second column contains icons that indicate the type of activity, for example, a clock for an appointment and a telephone for a call. These icons reflect the text in the **Type** column.
+The second column contains icons that indicate the type of activity. These icons reflect the text in the **Type** column.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 

@@ -37,7 +37,7 @@ To set up recurrence means to schedule the *start date* of follow-ups in a serie
 
 7. Click **OK** to save the dates and close the dialog, or click **Cancel** to close the dialog without saving the dates.
 
-8. Click **Save** in the **Appointment** dialog to save all changes.
+8. Click **Save** in the **Follow-up** dialog to save all changes.
 
 In the dialog, the text next to the **Recurrence** field will show what sort of repetition you specified for the follow-up, for example, **Monthly (23.09.2023 - 23.09.2024)**.
 

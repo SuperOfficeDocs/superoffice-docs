@@ -48,7 +48,7 @@ Set the preferences to fit your needs:
 * Open and edit document directly from SuperOffice
   * Ask to check-in when done editing
   * Only upload on document close
-* Show alarms for appointments in SuperOffice
+* Show alarms for follow-up in SuperOffice
 * Copy activities to iCal
   * Copy activities every [x minutes]
   * Copy participants to Address Book

@@ -23,7 +23,7 @@ The following diagram shows a model of how the access right system works in Supe
 
 A [role][1] has a set of data and [functional rights][7], and a group setting grants access to data objects, various SuperOffice lists, and helps to set system preferences more efficiently.
 
-The system allows you to configure access to companies, contacts, projects, project members, selections, sales, stakeholders (of sales), follow-ups (appointments, tasks, phone calls), documents (including emails and mailings), relations (contact and company), and dashboards. All these different types of records are called **data objects**.
+The system allows you to configure access to companies, contacts, projects, project members, selections, sales, stakeholders (of sales), follow-ups, documents (including emails and mailings), relations (contact and company), and dashboards. All these different types of records are called **data objects**.
 
 Each data object belongs to a user who might be you yourself (a), users in your primary group (b), users that belong to your other groups (c), other associates to whom you are not connected by any of your groups (d), external users (e), and anonymous users (f).
 

@@ -15,7 +15,7 @@ These options appear in the **Invitations** pane of the **SuperOffice CRM option
 
 | Option | Description |
 |---|---|
-| Incoming invitations | When you respond to an invitation in Outlook (accepted or tentative), you can also create or update an appointment in SuperOffice. Select this option: **Add / update appointment in SuperOffice when responding to invitations in Outlook** |
+| Incoming invitations | When you respond to an invitation in Outlook (accepted or tentative), you can also create or update a meeting in SuperOffice. Select this option: **Add / update appointment in SuperOffice when responding to invitations in Outlook** |
 
 <!-- Referenced links -->
 

@@ -33,7 +33,7 @@ You can easily set up a video meeting when creating a follow up. Watch this vide
 
 ### Steps
 
-1. Create a new appointment and select the name of the company and the contact you plan to meet.
+1. Create a new meeting and select the name of the company and the contact you plan to meet.
 
 2. To create the video meeting URL, click ![icon][img1] next to the meeting type (for instance **Business meeting**). The icon changes to ![icon][img2] and a video meeting link is added. SuperOffice CRM will create and add the video meeting URL for the video provider you use.
 
@@ -50,16 +50,16 @@ You can easily set up a video meeting when creating a follow up. Watch this vide
 
     When you have added everyone that you want to attend the meeting, click **Save**.
 
-    If you turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting is sent when the appointment is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
+    If you turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting is sent when the meeting is saved. In the diary, follow-ups with video meetings are displayed with the icon ![icon][img3].
 
 > [!TIP]
-> Click ![icon][img4] to copy the video meeting link. You can then paste the link in the description of the appointment or send to others via direct messaging. Use the template variable {burl} to add the video meeting link to invitation templates.
+> Click ![icon][img4] to copy the video meeting link. You can then paste the link in the description of the meeting or send to others via direct messaging. Use the template variable {burl} to add the video meeting link to invitation templates.
 
 ## Join video meetings
 
 You can join a video meeting in SuperOffice in several ways:
 
-* Click **Join meeting** in the **Follow-up** dialog (appointment).
+* Click **Join meeting** in the **Follow-up** dialog.
 * Click **Join meeting** in the side panel.
 * Click a browser notification (only available if the **Alarm** option is active).
 * Right-click a video meeting in the diary and select **Join meeting**.
@@ -75,9 +75,9 @@ Watch this video or follow the steps below (video length - 1:11):
 
 If the host of the meeting has set up notifications for the meeting, SuperOffice CRM will warn you by showing a notification pop-up before your meeting is about to begin. You can click the Join Meeting button in the pop-up to automatically start your video meeting.
 
-#### In the appointment
+#### In the follow-up
 
-You can also join the video meeting by opening the appointment in your diary and clicking the Join Meeting button at the bottom of the appointment.
+You can also join the video meeting by opening the follow-up in your diary and clicking the Join Meeting button at the bottom of the follow-up.
 
 When you click the link, your video meeting will automatically start.
 
@@ -86,7 +86,7 @@ When you click the link, your video meeting will automatically start.
 
 #### In the side panel preview
 
-Click on the appointment in your SuperOffice diary to view its details in the preview screen in the side panel.
+Click on the follow-up in your SuperOffice diary to view its details in the preview screen in the side panel.
 
 (Enable the preview by selecting it from the drop-down menu at the top of the side panel).
 

@@ -11,9 +11,9 @@ language: en
 
 # Stop repeating follow-up
 
-1. Select the required follow-up in the Diary or on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screens. The **Appointment**, **Task** or **Phone Call** dialog appears.
+1. Select the required follow-up in the Diary or on the **Activities** section tab in the Company, Contact, Diary, Sale, or Project screens.
 
-2. Select the **Details** tab.
+2. In the **Follow-up** dialog, select the **Details** tab.
 
 3. Click the link to the right of the **Recurrence** text.
 

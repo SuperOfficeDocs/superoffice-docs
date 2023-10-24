@@ -64,7 +64,7 @@ When you click the ![icon][img2] icon, the notification settings panel appears. 
 
 These are the notification options:
 
-### Appointment notification preferences
+### Follow-up notification preferences
 
 * Show notifications for meeting invitations
 * Show notifications for changed meetings

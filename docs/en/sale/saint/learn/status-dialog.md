@@ -30,7 +30,7 @@ The **View statuses** dialog is displayed when you click a status image for a co
 ## Related topics
 
 * [Status monitors][2]
-* [Appointment dialog][3]
+* [Follow-up dialog][3]
 
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md

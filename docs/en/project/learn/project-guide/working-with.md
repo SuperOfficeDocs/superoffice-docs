@@ -79,10 +79,10 @@ You record a new project and select the **Conference** project type, which is li
 
 ### The Planned status
 
-1. You have agreed a meeting time and want to create the **Planning meeting** appointment in the Diary and invite participants.
+1. You have agreed a meeting time and want to create the **Planning meeting** follow-up in the Diary and invite participants.
 
     1. In the project guide, you click **Create** next to the **Planning meeting** follow-up.
-        The **Appointment** dialog opens, with **Meeting (Internal)** specified as the appointment type and the name of the project prefilled.
+        The **Follow-up** dialog opens, with **Meeting (Internal)** specified as the type and the name of the project prefilled.
     1. [Complete the information and invite participants][2].
     1. Click **Save**.
 
@@ -119,7 +119,7 @@ You record a new project and select the **Conference** project type, which is li
     1. Click **Create** next to the **Create list of project members** follow-up.
         The **Assign task to project member** dialog opens.
 
-    1. In the list of project members, select the person you want to assign the task, and click **OK**. The **Appointment** dialog opens.
+    1. In the list of project members, select the person you want to assign the task, and click **OK**. The **Follow-up** dialog opens.
 
     1. Enter the required information and click **Save**. (In the **Details** tab, you can see that your colleague is already defined as the owner.)
 
@@ -135,7 +135,7 @@ You record a new project and select the **Conference** project type, which is li
 1. Finally, the conference itself is held. You create the **Conference** meeting.
 
     1. Click **Create** next to the **Conference** follow-up.
-        The **Appointment** dialog opens, with **Meeting (External)** specified as the appointment type and the name of the project prefilled.
+        The **Follow-up** dialog opens, with **Meeting (External)** specified as the type and the name of the project prefilled.
     2. Complete the information and invite the conference participants in the usual way.
     3. Click **Save**.
 
@@ -149,8 +149,8 @@ You record a new project and select the **Conference** project type, which is li
 
 1. You want to hold an internal meeting to summarize the conference.
 
-    1. Click **Create** next to the **Evaluation meeting** appointment and create the appointment in the usual way.
-    2. When the appointment is completed, check the box.
+    1. Click **Create** next to the **Evaluation meeting** follow-up, enter information, and save.
+    2. When the meeting is completed, check the box.
 
 1. Then you want to produce an evaluation report that summarizes the evaluation meeting and the conference.
 

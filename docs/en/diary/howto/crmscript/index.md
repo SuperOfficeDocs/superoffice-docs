@@ -23,7 +23,7 @@ so.topic: concept
 * [Book a resource][9]
 * [Register incoming call][15]
 * [Plan outgoing call][16]
-* [Working with tasks][17]
+* [Working with to-dos][17]
 
 ## Recurrence
 

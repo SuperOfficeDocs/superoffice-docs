@@ -14,13 +14,13 @@ language: en
 The SuperOffice diary consists of a calendar and a todo list and is used similar to a Filofax with separate pages for every day, week, and month.
 
 * **Calendar**: shows entries allocated to a particular time or date.
-* **Todo list**: shows stuff that you have not yet completed, mostly calls and tasks without time or date.
+* **Todo list**: shows stuff that you have not yet completed, mostly calls and to-dos without time or date.
 
-![Keep track of all your appointments and tasks by registering them in your diary -screenshot][img3]
+![Keep track of all your meetings and to-dos by registering them in your diary -screenshot][img3]
 
-The diary is a useful tool when you want to plan and perform different types of tasks. From the diary, you can view, edit and delete [activities][16]. You also get a [list of sales][13] to work on, using the **Sales** section tab in the Diary screen.
+The diary is a useful tool when you want to plan and perform different types of activities. From the diary, you can view, edit and delete [activities][16]. You also get a [list of sales][13] to work on, using the **Sales** section tab in the Diary screen.
 
-Regular use of the diary helps you to automatically connect and share appointments and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively.
+Regular use of the diary helps you to automatically connect and share meetings and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively.
 
 ## <a id="open" />View diary
 
@@ -51,7 +51,7 @@ The diary consists of [four different tabs][24]: **Day** tab, **Week** tab, **Mo
 
 * [Select a time zone][15]
 * [Edit follow-up][6]
-* [Create appointment, task, phone call][18]
+* [Create follow-up (meeting, to-do)][18]
 * [Schedule repeating follow-up][10]
 * [Invite your associates to a follow-up][11]
 * [Move follow-ups][19]

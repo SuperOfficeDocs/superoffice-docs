@@ -25,7 +25,7 @@ There are multiple `person` records for any `contact`. A classic many-to-one rel
 * A **person** can only belong to one **contact**.
 * A **contact** can have zero or more **persons**.
 
-It is this relationship that drives the first to fields in the appointment, sale, and document dialogs. Every time you select a new company, the person list below it has to be re-populated.
+It is this relationship that drives the first to fields in the follow-up, sale, and document dialogs. Every time you select a new company, the person list below it has to be re-populated.
 
 * [contact][10] (person table)
 * [documents][11]

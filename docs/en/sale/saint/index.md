@@ -17,7 +17,7 @@ SAINT **counters** are used to keep track of certain actions. For example who ow
 SAINT counters are stored in the [countervalue][3] table and updated automatically as you do things:
 
 * When SAINT is enabled, whenever a contact or a project is created, a bunch of counter rows are created.
-* Whenever an appointment, document, or sale is created, then the corresponding counter rows are updated.
+* Whenever an follow-up, document, or sale is created, then the corresponding counter rows are updated.
 
 SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][1] table.
 

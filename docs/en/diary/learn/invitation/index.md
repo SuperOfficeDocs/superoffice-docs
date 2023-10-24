@@ -13,7 +13,7 @@ language: en
 
 Invitations are **created** when calling meetings or other arrangements between different members of a company. Meetings have multiple **participants**: you invite several associates or resources to join. When an invitation is **accepted** it will be displayed on the user’s diary.
 
-While appointments with the owner plus one resource technically are bookings, we here define a **meeting** as:
+While follow-up with the owner plus one resource technically are bookings, we here define a **meeting** as:
 
 * 2 or more persons
 * Optionally a resource
@@ -22,10 +22,10 @@ To allocate time for a meeting with one or more associates, use the **View** tab
 
 Follow-ups with associates are set up by linking them as participants to the follow-up.
 
-When we save the appointment, an invitation will also be added to the person we invited and will be shown in the diary of the person on the appropriate date and time. **This only happens if the invited person also is an associate.** You may invite persons belonging to other contacts as well, these will not have a diary where the appointment is shown, but it will be shown in the activity archive of their contact instead.
+When we save the meeting, an invitation will also be added to the person we invited and will be shown in the diary of the person on the appropriate date and time. **This only happens if the invited person also is an associate.** You may invite persons belonging to other contacts as well, these will not have a diary where the meeting is shown, but it will be shown in the activity archive of their contact instead.
 
 > [!NOTE]
-> Resources and non-user persons don't receive invitations – the appointment is just created as a normal appointment for these participants.
+> Resources and non-user persons don't receive invitations – the meeting is just created as a normal meeting for them.
 
 ## <a id="status" />Status
 
@@ -42,7 +42,7 @@ The users you chose to link to a follow-up will be notified of this on their scr
 
 When you link resources, the status is set to *accepted* because a resource cannot answer the invitation itself.
 
-It is possible to double-book a resource. If a resource is not free at the time, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Appointment** dialog. You should change the time of the follow-up. The **First available** field displays the first available meeting time.
+It is possible to double-book a resource. If a resource is not free at the time, **Conflict** is shown in the **Status** column. An exclamation mark is also displayed in the **Follow-up** dialog. You should change the time of the follow-up. The **First available** field displays the first available meeting time.
 
 ## External contacts
 

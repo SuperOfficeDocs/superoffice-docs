@@ -1,10 +1,10 @@
 ---
 uid: help-en-invitation-add-participant
 title: Add participants to follow-ups
-description: Inviting contacts to an appointment can be done in different ways. This how-to guide will show how you to add participants to an appointment.
+description: This how-to guide will show how you to add participants to a follow-up.
 author: Bergfrid Dias
 so.date: 10.19.2023
-keywords: diary, follow-up, invitation, participant
+keywords: diary, follow-up, invitation, participant, meeting
 so.topic: howto
 language: en
 ---
@@ -13,11 +13,11 @@ language: en
 
 When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as participants are defined in Settings and maintenance.
 
-Invite a contact to an appointment from the participants tab by clicking the **Add** button. Watch the video for [Add participants to an appointment][15].
+Invite a contact to a meeting from the participants tab by clicking the **Add** button. Watch the video for [Add participants to a meeting][15].
 
 ## Steps
 
-1. Open the **Appointment**, **Task**, or **Phone Call** dialog and [enter the required information][2].
+1. Open the **Follow-up** dialog and [enter the required information][2].
 
 2. Open the **Participants** tab and click **Add** at the lower left of the window. The **Invitation** dialog opens.
 
@@ -33,7 +33,7 @@ Invite a contact to an appointment from the participants tab by clicking the **A
 5. After you select the required source, a list of all available entries for this source is displayed. Select the users or resources to include in the follow-up and click the arrow button to the right of the list ![icon][img2]. They are then displayed on the right side of the window. You can also select users and resources individually by double-clicking them.
 
     > [!NOTE]
-    > If any of the people are busy at the time you specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new appointment, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
+    > If any of the people are busy at the time you specified, their name is shown in red, so you can easily see if you should find a different time for the follow-up. You can still invite them to this new meeting, and their entry will then be shown in red with the word "CONFLICT" in the dialog for follow-ups.
 
 6. Click the **Email Invitation** button to activate email invitations for all participants in the list (except yourself). The ![icon][img1] icon to the left of the participant's name means that an email invitation to the follow-up will be sent to this participant. Click the ![icon][img1] icon next to a participant's name to disable email invitation for this participant. The ![icon][img1] icon changes to inactive ![icon][img3] and the participant will then not receive an invitation by email.
 
@@ -71,7 +71,7 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 
 ## Related content
 
-* [Create appointments][3]
+* [Create follow-up][3]
 * [Join a video meeting][4]
 
 <!-- Referenced links -->

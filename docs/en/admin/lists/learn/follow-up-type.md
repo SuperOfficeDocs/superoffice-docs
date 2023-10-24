@@ -11,7 +11,7 @@ language: en
 
 # Follow-up - Type
 
-In SuperOffice CRM, follow-ups is a collective term for the appointment, task and phone call activities. Each of these is again divided into different types, and these are defined in the **Lists** screen in Settings and maintenance. The types are displayed as items in the **Follow-up - Type** list.
+Follow-ups are divided into different types, and these are defined in the **Lists** screen in Settings and maintenance. The types are displayed as items in the **Follow-up - Type** list.
 
 ## What would you like to do now?
 

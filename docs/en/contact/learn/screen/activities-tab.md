@@ -11,7 +11,7 @@ language: en
 
 # Activities tab
 
-The **Activities** section tab in the Contact screen contains all the activities linked to the active contact (including appointments where the contact is a participant).
+The **Activities** section tab in the Contact screen contains all the activities linked to the active contact (including follow-ups where the contact is a participant).
 
 If the contact is associated with a company, these activities will also be available in the **Activities** section tab in the Company screen.
 

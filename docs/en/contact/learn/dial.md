@@ -18,11 +18,11 @@ If your IP phone solution is correctly configured, you can call a contact direct
 * Right-click a person in a section tab and selecting **Call *name***.
 * Dial contacts.
 
-## Dial a contact from the Appointment, Task, Phone Call and Document dialogs
+## Dial a contact from the Follow-up and Document dialogs
 
-You do this using the telephone button in, for example, the **Appointment**, **Task**, **Phone Call** and **Document** dialogs:
+You do this using the telephone button in, for example, the **Follow-up** and **Document** dialogs:
 
-1. Open an appointment, task, phone call or document.
+1. Open a follow-up or document.
 2. Select the required contact in the **Contact** field in the dialog.
 3. Click the button next to the contact field ![icon][img1]. A list of numbers for the selected contact is displayed.
 4. Select the number you want to call. The contact is then dialled.

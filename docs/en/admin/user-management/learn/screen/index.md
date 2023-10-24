@@ -48,7 +48,7 @@ The full name, email address and owning company is displayed at the top. At the 
 There are different tabs in the User overview:
 
 * **Details** - main overview of user information like **User ID**, **Role**, **User plan**, **Primary group** and **Service categories**.
-* **Licences** - extra license information like **Condfidential activities** that will give the user the option to set **visible for** on appointments, documents and selections.
+* **Licences** - extra license information like **Condfidential activities** that will give the user the option to set **visible for** on follow-ups, documents and selections.
 * **More** - the tab shows if there are any extra fields on person.
 
 ## <a id="other-users" />Other users (Onsite)

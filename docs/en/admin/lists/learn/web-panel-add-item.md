@@ -71,7 +71,7 @@ language: en
 
 ### Dialog
 
-* **The Dialog for follow-ups**: a shortcut to the URL address is added at the top of the **www** tab in the **Appointment**, **Task** and **Phone Call** dialogs. You can then also click **Open in separate window** to view the web page in a separate browser window.
+* **The Dialog for follow-ups**: a shortcut to the URL address is added at the top of the **www** tab in the **Follow-up** dialog. You can then also click **Open in separate window** to view the web page in a separate browser window.
 
 * **The Document/Quote/Product dialog**: a shortcut to the URL address is added at the top of the **www** tab in these dialogs.
 

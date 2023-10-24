@@ -102,7 +102,7 @@ To edit and save a predefined group view, select the **Copy** option and save th
 
 ## Related content
 
-* [Create appointments for associates][4]
+* [Create follow-up for associate][4]
 
 <!-- Referenced links -->
 [4]: create-follow-up.md#associate
