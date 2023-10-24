@@ -12,7 +12,7 @@ so.client: online
 <!-- markdownlint-disable-file MD051 -->
 # System user flow
 
-The system user flow is how to obtain a Ticket credential to perform **non-interactive server-to-server** communications.
+The System User Flow is used in scenarios where you require server-to-server communication without an interactive user login. It's especially vital when your application needs the power to access data without regular user restrictions.
 
 > [!NOTE]
 > In the future, system user functionality will be replaced with OAuth 2.0 Client Credentials flow.
@@ -21,6 +21,12 @@ Watch the walk-through on YouTube:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube-nocookie.com/embed/Tyzm6H50DC8]
+
+## Understanding the basics
+
+* System User: A unique user type that allows an application to have unrestricted access to data.
+* System User Token: A "magic string" received as a claim in the id_token when an administrative user authenticates your application for the first time.
+* System User Ticket: A credential received as a claim in a JWT when sending a signed representation of the System User Token as part of a request to the [PartnerSystemUser endpoint][8].
 
 ## Overview
 
