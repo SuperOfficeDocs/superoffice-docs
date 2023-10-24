@@ -31,12 +31,12 @@ Um eine Einladung per E-Mail an externe Benutzer zu senden, müssen Sie:
 * Ihr E-Mail-Setup im SuperOffice Posteingang konfigurieren
 
     > [!TIP]
-    > Um die URL für Videokonferenz automatisch in den Termintext aufzunehmen, aktualisieren Sie ihre Einladungsvorlage mit {burl}. Wenn das Feld **Ort** im Termin leer ist, wird hier die URL für Videokonferenz hinzugefügt.
+    > Um die URL für Videokonferenz automatisch in den Agenda aufzunehmen, aktualisieren Sie ihre Einladungsvorlage mit {burl}. Wenn das Feld **Ort** leer ist, wird hier die URL für Videokonferenz hinzugefügt.
 
 * den SuperOffice E-Mail-Link konfiguriert haben
 
     > [!NOTE]
-    > Die URL für Videokonferenz wird automatisch zum Termintext hinzugefügt ("An Konferenz teilnehmen: ..."). Wenn das Feld **Ort** im Termin leer ist, wird hier die URL für Videokonferenz hinzugefügt.
+    > Die URL für Videokonferenz wird automatisch zum Agenda hinzugefügt ("An Konferenz teilnehmen: ..."). Wenn das Feld **Ort** leer ist, wird hier die URL für Videokonferenz hinzugefügt.
 
 ## Verwandte Themen
 

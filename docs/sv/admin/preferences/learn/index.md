@@ -66,7 +66,7 @@ Om du vill ändra de här inställningarna går du till fönstret **Inställning
 
 ## <a id="preferences-tab" /> Fliken inställningar
 
-På fliken **Inställningar** kan du ange ett antal inställningar för olika delar av SuperOffice CRM, bland annat hur många poster som ska visas i historiken, standardtyp för nya bokningar, uppgifter och samtal samt standardvaluta i fönstret Försäljning.
+På fliken **Inställningar** kan du ange ett antal inställningar för olika delar av SuperOffice CRM, bland annat hur många poster som ska visas i historiken, standardtyp för ett nytt möte samt standardvaluta i fönstret Försäljning.
 
 Högst upp i fliken **Inställningar** kan du välja önskad inställningsgrupp. Resten av fliken **Inställningar** är indelad i tre huvudsektioner: en lista över alla inställningar, ett beskrivningsfält som förklarar den aktiva inställningen och ett fält som visar de aktuella inställningarna för parametern.
 

@@ -71,7 +71,7 @@ language: de
 
 ### Dialogfeld
 
-* **Dialogfeld für Folgeaufgaben**: Oben auf der Registerkarte **www** der Dialogfelder **Termin**, **Aufgabe** und **Anruf** wird eine Verknüpfung zur URL-Adresse eingefügt. Sie können anschließend auf **In separatem Fenster öffnen** klicken, um die Webseite in einem eigenen Browser-Fenster anzuzeigen.
+* **Dialogfeld für Folgeaufgaben**: Oben auf der Registerkarte **www** des Dialogfeld **Folgeaufgabe** wird eine Verknüpfung zur URL-Adresse eingefügt. Sie können anschließend auf **In separatem Fenster öffnen** klicken, um die Webseite in einem eigenen Browser-Fenster anzuzeigen.
 
 * **Das Dialogfeld Dokument/Angebot/Produkt**: Oben auf der Registerkarte **www** des Dialogfelds wird eine Verknüpfung zur URL-Adresse eingefügt.
 

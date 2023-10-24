@@ -15,13 +15,13 @@ I fanen **Videomøter** kan du velge videomøtetjenesten du vil bruke i SuperOff
 
 SuperOffice-videomøter lar deg opprette og delta i videomøter direkte fra CRM-løsningen. Hvis du vil konfigurere videomøtefunksjonaliteten i SuperOffice CRM, må du koble til en av fem videomøteleverandører (Cisco Webex, Google Meet, Jitsi Meet, Microsoft Teams eller Zoom).
 
-For at brukerne skal kunne bruke videomøter i dialogboksen Avtale, må du utføre noen trinn:
+For at brukerne skal kunne bruke videomøter i dialogboksen Oppfølging, må du utføre noen trinn:
 
 * En administrator må koble til en av de valgte videomøteleverandørene som er tilgjengelige.
 
 * Brukeren må enten bruke Mail Link eller SuperOffice-innboksen for å kunne sende webadresser for videomøter til eksterne brukere.
 
-* Brukere må godkjenne (logge på) første gang de klikker på Videomøte-ikonet i popup-dialogboksen Avtale.
+* Brukere må godkjenne (logge på) første gang de klikker på Videomøte-ikonet i dialogboksen Oppfølging.
 
 ## Forutsetninger for videomøter
 

@@ -31,12 +31,12 @@ För att kunna skicka inbjudningar via e-post till externa användare måste du
 * konfigurera dina e-postinställningarna i SuperOffice-inkorgen
 
     > [!TIP]
-    > Om du vill att webbadressen till videomötet automatiskt ska inkluderas i bokningstexten uppdaterar du inbjudningsmallen med {burl}. Om fältet **Plats** i bokningen är tomt läggs videomötets URL till här.
+    > Om du vill att webbadressen till videomötet automatiskt ska inkluderas i mötetexten uppdaterar du inbjudningsmallen med {burl}. Om fältet **Plats** är tomt läggs videomötets URL till här.
 
 * ha konfigurerat för SuperOffice Mail Link
 
     > [!NOTE]
-    > Videomötets URL läggs till automatiskt i bokningstexten ("Anslut till möte: ..."). Om fältet **Plats** i bokningen är tomt läggs videomötets URL till här.
+    > Videomötets URL läggs till automatiskt i mötetexten ("Anslut till möte: ..."). Om fältet **Plats** är tomt läggs videomötets URL till här.
 
 ## Relaterade ämnen
 

@@ -11,7 +11,7 @@ language: nl
 
 # Vervolgactiviteit - Type
 
-In CRM 5 is het begrip vervolgactiviteiten een verzamelnaam voor de activiteiten afspraak, taak en telefoongesprek. Elk van deze activiteiten is weer onderverdeeld in andere typen, die worden gedefinieerd in het scherm **Lijsten** in Instellingen en onderhoud. De typen worden weergegeven als items in de lijst **Vervolgactiviteit - Type**.
+Typen vervolgactiviteiten worden gedefinieerd in het scherm **Lijsten** in Instellingen en onderhoud. De typen worden weergegeven als items in de lijst **Vervolgactiviteit - Type**.
 
 ## Wat wilt u nu doen?
 

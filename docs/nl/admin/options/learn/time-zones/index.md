@@ -13,7 +13,7 @@ language: nl
 
 # Tijdzones
 
-SuperOffice CRM ondersteunt vervolgactiviteiten in verschillende tijdzones. De tijdzonefunctionaliteit kan handig zijn wanneer uw organisatie vestigingen heeft in verschillende landen met verschillende tijdzones en gebruikers vergaderingen of telefoonconferenties moeten plannen met mensen in een land met een andere tijdzone dan de eigen tijdzone. De afspraak wordt vervolgens gemaakt in de tijdzone van het geselecteerde land.
+SuperOffice CRM ondersteunt vervolgactiviteiten in verschillende tijdzones. De tijdzonefunctionaliteit kan handig zijn wanneer uw organisatie vestigingen heeft in verschillende landen met verschillende tijdzones en gebruikers vergaderingen of telefoonconferenties moeten plannen met mensen in een land met een andere tijdzone dan de eigen tijdzone. De vergadering wordt vervolgens gemaakt in de tijdzone van het geselecteerde land.
 
 De tijdzonefunctie ondersteunt ook zomertijd.
 

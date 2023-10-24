@@ -72,7 +72,7 @@ language: no
 
 ### Dialogboks
 
-* **Dialogboksen for oppfølginger**: Det legges inn en snarvei til URL-adressen øverst i fanen **www** i dialogboksen **Avtale**, **Oppgave** og **Telefonsamtale**. Der er det også mulig å klikke på **Åpne i eget vindu** for å åpne nettsiden i et frittstående nettleservindu.
+* **Dialogboksen for oppfølginger**: Det legges inn en snarvei til URL-adressen øverst i fanen **www** i dialogboksen **Oppfølging**. Der er det også mulig å klikke på **Åpne i eget vindu** for å åpne nettsiden i et frittstående nettleservindu.
 
 * **Dialogboksen Dokument/Tilbud/Produkt**: Det legges inn en snarvei til URL-adressen øverst i fanen **www** i disse dialogboksene.
 

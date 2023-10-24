@@ -13,7 +13,7 @@ language: no
 
 # Tidssoner
 
-SuperOffice CRM støtter oppfølginger i forskjellige tidssoner. Tidssonefunksjonalitet kan være nyttig hvis firmaet har kontorer i flere land med forskjellige tidssoner og brukerne skal planlegge møter eller telefonkonferanser med noen som jobber i et land med en annen tidssone enn eget land. Avtalen opprettes da i den tidssonen som tilsvarer landet de har valgt.
+SuperOffice CRM støtter oppfølginger i forskjellige tidssoner. Tidssonefunksjonalitet kan være nyttig hvis firmaet har kontorer i flere land med forskjellige tidssoner og brukerne skal planlegge møter eller telefonkonferanser med noen som jobber i et land med en annen tidssone enn eget land. Oppfølgingen opprettes da i den tidssonen som tilsvarer landet de har valgt.
 
 Tidssonefunksjonen støtter sommertid/vintertid.
 
