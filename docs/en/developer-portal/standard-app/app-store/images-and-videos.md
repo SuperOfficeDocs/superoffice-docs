@@ -3,10 +3,10 @@ title: Images and videos
 uid: dp-app-images-and-videos
 description: How to create good screenshots and videos; how to add images and videos to your app listing in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 09.08.2023
+so.date: 10.24.2023
 keywords: Developer Portal, app store, image, video, icon, logo, screenshot
 so.topic: howto
-so.dp-version: 1.11
+so.dp-version: 1.15
 so.envir: cloud
 ---
 
@@ -24,18 +24,20 @@ so.envir: cloud
 1. In the Developer Portal, go to your partner page.
 2. Select **App Store information** from the left menu.
 3. Click and select a picture for the logo.
-4. Click **Save Settings**.
+4. In the **Crop Image** dialog, reposition or zoom the selected area, then click **Save**.
+5. Click **Save Settings**.
 
 ## How to add or change app icon
 
 1. In the Developer Portal, go to your application page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
-3. In the `Home Page Icon` or `Detail Page Icon` circle, drag and drop a file into the circle or click to upload one from your computer.
-4. Enter alt text.
+3. Drag and drop a file into the **Home Page Icon** or the **Detail Page Icon** circle. Alternatively, click the circle to select an image from your computer.
+4. In the **Crop Image** dialog, reposition or zoom the selected area, then click **Save**.
+5. Enter alt text.
 
     ![Add HomePageAppIcon or DetailPageAppIcon -screenshot][img7]
 
-5. Click **Save Settings**.
+6. Click **Save Settings**.
 
 ## Screenshots
 
@@ -44,11 +46,15 @@ We encourage you to include beautiful and meaningful screenshots from the applic
 > [!TIP]
 > If you want screenshots shown in a specific order, use the list item handle to reorder as desired.
 
-1. In the Developer Portal, go to your partner page.
+1. In the Developer Portal, go to your application page.
 2. Select **App Store information** from the left menu, then select **Images and videos**.
 3. Click **Add Images**.
 4. Drag and drop a file into the box or click to upload one from your computer.
-5. Enter alt text.
+
+    * If the resolution is too low, remove the image and choose another one.
+    * If the resolution is bigger than the [recommended size](#resolution), click **Crop** on the thumbnail, reposition or zoom the selected area, and then click **Save**.
+
+5. Click **Upload** and enter alt text.
 
     ![App store information, images -screenshot][img2]
 
