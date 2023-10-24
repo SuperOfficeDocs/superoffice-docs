@@ -26,6 +26,7 @@ items:
   - CRMScript.Event.Trigger.NewTicketFromEmail
   - CRMScript.Event.Trigger.NewTicketFromForm
   - CRMScript.Event.Trigger.NewTicketFromSpmLink
+  - CRMScript.Event.Trigger.OutboxItemCreated
   - CRMScript.Event.Trigger.SalesAfterSaveAcceptQuote
   - CRMScript.Event.Trigger.SalesAfterSaveAppointment
   - CRMScript.Event.Trigger.SalesAfterSaveContact
@@ -108,7 +109,6 @@ items:
   - CRMScript.Event.Trigger.TicketReopenedFromCustomerCenter
   - CRMScript.Event.Trigger.TicketReopenedFromEmail
   - CRMScript.Event.Trigger.TicketSave
-  - CRMScript.Event.Trigger.OutboxItemCreated
   name: Trigger
   nameWithType: Trigger
   fullName: CRMScript.Event.Trigger
@@ -1730,7 +1730,7 @@ items:
   remarks: "\nSee reference for [tutorial](../../crmscript/tutorials/crmscript-trigger-outbox.md).\n"
   syntax: 
   example: 
-  - "\n<pre><code>#setLanguageLevel 3;\n"
+  - "\n<pre><code>#setLanguageLevel 3;\nEventData ed = getEventData();\nif (ed.getInputValue(&quot;eventType&quot;) == &quot;autoReply&quot;) {\n//Do something\n}</code></pre>\n"
 references:
 - uid: CRMScript.Event.Trigger
   commentId: T:CRMScript.Event.Trigger

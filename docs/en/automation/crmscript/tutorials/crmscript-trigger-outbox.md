@@ -11,7 +11,7 @@ so.topic: tutorial
 <!-- markdownlint-disable-file MD044 -->
 # Creating a trigger for the outbox
 
-This event is called when an email or SMS outbox item is created. The `EventData` instance will contain several input values relevant to the context.
+This event is called when an email or SMS outbox item is created. All emails or SMSs sent from SuperOffice Service will pass through the outbox. The event is named `Outbound email or SMS created`. The `EventData` instance will contain several input values relevant to the context.
 
 First, the input value `eventType` will identify the event that caused the outbox item to be created. The list of known events are:
 
@@ -67,3 +67,33 @@ The following **output values** are supported:
 * outbox.sender: Change the sender of the SMS.
 
 For both email and SMS, setting `EventData.BlockExecution` to *true* will block the Outbox item (prevent it from being created). The idea of this trigger is that minor changes to emails and SMSs can be performed by settings output values.
+
+## Example
+
+This example will block outbound emails sent as replies to cases, and instead ask the customer to login to the Customer Centre to view the case.
+
+```crmscript
+#setLanguageLevel 4;
+if (ed.getInputValue("outbox.eventName") == "addMessage") {
+  // Block the original message
+  ed.setBlockExecution(true); 
+
+  // Send an alternative message
+  Email e;
+  e.setValue("to", ed.getInputValue("outbox.to"));
+  e.setValue("cc", ed.getInputValue("outbox.cc"));
+  e.setValue("bcc", ed.getInputValue("outbox.bcc"));
+  e.setValue("subject", ed.getInputValue("outbox.subject"));
+  e.setValue("body", "A new message has been added to your ticket: " + ed.getInputValue("outbox.ticketId") + ". Please login to the Customer Centre to view it.");
+  e.send();
+}
+```
+
+This example will add a new header to any outbound email.
+
+```crmscript
+#setLanguageLevel 4;
+ed.setOutputValue("outbox.header.length", "1");
+ed.setOutputValue("outbox.header.0.name", "X-our-header");
+ed.setOutputValue("outbox.header.0.value", "Email processed by CRMScript");
+```
