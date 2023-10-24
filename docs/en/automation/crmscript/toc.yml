@@ -137,6 +137,8 @@ items:
     href: tutorials/waiting-for-customer-status-with-reminders.md
   - name: Using dialogs in triggers
     href: tutorials/using-dialogs-in-triggers.md
+  - name: Creating a trigger for the outbox
+    href: tutorials/crmscript-trigger-outbox.md
 - name: Reference
   href: reference/toc.yml
   topicHref: reference/index.md
