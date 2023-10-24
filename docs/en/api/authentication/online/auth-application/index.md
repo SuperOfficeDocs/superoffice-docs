@@ -12,68 +12,57 @@ so.client: online
 <!-- markdownlint-disable-file MD051 -->
 # System user flow
 
-The System User Flow is used in scenarios where you require server-to-server communication without an interactive user login. It's especially vital when your application needs the power to access data without regular user restrictions.
+The **System User Flow** offers a method for server-to-server communication, eliminating the need for an interactive user login. This approach is pivotal for applications aiming to access data without traditional user constraints.
 
 > [!NOTE]
-> In the future, system user functionality will be replaced with OAuth 2.0 Client Credentials flow.
+> Keep in mind, the system user functionality will soon transition to the OAuth 2.0 Client Credentials flow.
 
-Watch the walk-through on YouTube:
-
+To better grasp the process, check out our visual walk-through:
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube-nocookie.com/embed/Tyzm6H50DC8]
 
-## Understanding the basics
+## Key concepts
 
-* System User: A unique user type that allows an application to have unrestricted access to data.
-* System User Token: A "magic string" received as a claim in the id_token when an administrative user authenticates your application for the first time.
-* System User Ticket: A credential received as a claim in a JWT when sending a signed representation of the System User Token as part of a request to the [PartnerSystemUser endpoint][8].
+- **System User**: A distinct user category that empowers an application to seamlessly access data without any limitations.
+  
+- **System User Token**: This "magic string" is received as a claim in the `id_token` when an administrative user authenticates your application for the first time.
+  
+- **System User Ticket**: This is a credential one receives as a claim in a JWT. It's generated when sending a signed version of the System User Token to the [PartnerSystemUser endpoint][8].
 
-## Overview
+## Getting started
 
-There are two prerequisites before one can begin using the System User flow:
+Before delving into the System User flow, ensure you meet these two prerequisites:
 
-1. The application has the System User option enabled.
-
-   It is enabled by selecting the **Server to server** option when creating an application in the [Developer Portal][1].
-
+1. **Activate the System User Option**: While setting up your application in the [Developer Portal][1], choose the **Server to server** option.
+   
    ![create-application-server-to-server.png -screenshot][img3]
 
-2. The application has been issued a **system user token**.
+2. **Acquire the System User Token**: An administrator needs to sign in to their tenant via [OAuth 2.0/OpenID Connect][10]. Once they approve the application after authentication, the `id_token` claim collection will contain the system user token.
 
-A **system user token** is only available after someone with administrator rights uses the application to signs in to their tenant using [OAuth 2.0/OpenID Connect][10]. When the individual gives consent to the application, by clicking the **I Approve** button after authentication, the system user token is generated and issued as a claim in the `id_token`.
+Remember, the system user token:
 
-The system user token is:
+- Is uniquely formatted: `Application Name-<random-number-of-characters>`.
+- Stays constant for each tenant and application combo.
+- Will remain unchanged throughout the application's life, unless rescinded by the client or app vendor.
 
-* formatted as: `Application Name-<random-number-of-characters>`
-* is unique for each tenant and application combination
-* will exist for the lifetime of the application
-* is included in the `id_token` claim collection
+### From Token to Ticket
 
-A system user token remains the same and will not change for the lifetime of the application, unless the customer or application vendor revokes it.
+1. Start by generating a [signed System User token][11].
+2. Proceed to [send this signed token][8] to the SuperOffice PartnerSystemUser endpoint.
+3. Upon receiving the response, [validate the JSON Web Token (JWT)][3].
+4. Derive the Ticket claim from the JWT.
 
-### How to use the system user token to obtain a Ticket
+## Implementing the System User Ticket credentials
 
-The following procedure outline the steps necessary to use the system user **token** to obtain a **Ticket** credential.
+An application can harness the system user ticket in multiple ways:
 
-1. Generate a [signed System User token][11] signature.
-1. [Send the signed system user token][8] to the SuperOffice PartnerSystemUser endpoint.
-1. In the response, [validate the JSON Web Token (JWT)][3].
-1. Extract the Ticket claim from the JWT.
+- For HTTP requests in the Authorization header:
+  - Swap `Authorization Bearer <access_token>` for `Authorization SOTicket <ticket>`.
+  - The **SO-AppToken** header *has* to accompany the request, with the value being the OAuth 2.0 client_secret.
 
-## How to use the system user ticket credentials
-
-An application can use the system user ticket credential in:
-
-* an Authorization header in HTTP requests
-  * Instead of `Authorization Bearer <access_token>`, use
-    `Authorization SOTicket <ticket>`
-  * The **SO-AppToken** header *must* be included in the headers with the request.
-    * The SO-AppToken value is the OAuth 2.0 client_secret.
-* an **SoCredential** ticket property in SOAP API
+- For SOAP API, use the ticket in the **User:Ticket** element, and the client_id in the **User:ApplicationToken** element.
 
 ### [REST](#tab/rest)
-
-See the Authorization header:
 
 ```http
 GET https://sod.superoffice.com/Cust12345/api/v1/User/currentPrincipal HTTP/1.1
@@ -89,14 +78,8 @@ See the `<User:Credentials>` and `<User:ApplicationToken>` elements:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope
- xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
- xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xmlns:xsd="http://www.w3.org/2001/XMLSchema"
- xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
- xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
- xmlns:User="http://www.superoffice.net/ws/crm/NetServer/Services88">
-  <User:ApplicationToken>1234567-1234-9876</User:ApplicationToken>
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" ...>
+  <User:ApplicationToken>{{client_secret}}</User:ApplicationToken>
   <User:Credentials>
     <User:Ticket>{{ticket}}</User:Ticket>
   </User:Credentials>
@@ -108,9 +91,9 @@ See the `<User:Credentials>` and `<User:ApplicationToken>` elements:
 </SOAP-ENV:Envelope>
 ```
 
-***
+Armed with valid credentials, your application is set to send authenticated requests to the desired customer tenant.
 
-With a valid credential set, the application can send authenticated requests to the customer tenant.
+[Continue exploring Server-to-Serve][1] in the Developer Portal documentation.
 
 <!-- Referenced links -->
 [1]: ../../../../developer-portal/create-app/server-to-server-app.md
