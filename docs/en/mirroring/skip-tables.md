@@ -12,14 +12,14 @@ so.client: online
 
 # Add tables to skip mirroring OBSOLETE from 10.1.8
 
-Our database mirroring service has a pre-defined list of tables not replicated during the mirroring process. What if, however, you want to add more tables to the blacklist?
+Our database mirroring service has a pre-defined [list of tables][1] not replicated during the mirroring process. What if, however, you want to add more tables to the blocked list?
 
-To add tables to the mirroring service blacklist, create a user preference with:
+To add tables to the mirroring service blocked list, create a user preference with:
 
 * `prefSection`: Mirroring
 * `prefKey`: SkipTables
 
-The `prefValue` is where you store a comma-separated string of table names that are added to the blacklisted list during the replication phase.
+The `prefValue` is where you store a comma-separated string of table names that are added to the blocked list during the replication phase.
 
 Adding a user preference **affects all database mirroring jobs for that tenant**. If another application also using mirroring, it too will be affected by this setting.
 
@@ -172,6 +172,7 @@ To add and edit the **SkipTable** preference, click **Add** in the **Active sett
 Alternatively, use the code in the previous section to programmatically add the user preference.
 
 <!-- Referenced links -->
+[1]: blocked-tables.md
 
 <!-- Referenced images -->
 [img1]: media/imageq9fi.png

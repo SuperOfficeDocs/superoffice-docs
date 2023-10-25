@@ -66,7 +66,7 @@ We remove data that is irrelevant, that would incur unnecessary stress between s
 * User credentials
 * Sensitive information
 
-A complete list of tables both replicated and not replicated with reason is listed in the <a href="../../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
+A complete list of tables both replicated and not replicated with reason is listed in the [blocked tables list][4]..
 
 You will not be able to connect to the mirror database using any SuperOffice client or API!
 
@@ -116,6 +116,7 @@ The Mirroring Task sends the SuperOffice signed token with every call so that t
 [1]: getting-started/i-mirror-client-service.md
 [2]: mirroring-task.md
 [3]: sql-server-schema.md
+[4]: blocked-tables.md
 [5]: ../developer-portal/getting-started/index.md#terminology
 [8]: ../developer-portal/custom-app/index.md
 [9]: ../developer-portal/provisioning/get-consent.md
