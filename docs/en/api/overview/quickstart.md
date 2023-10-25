@@ -75,6 +75,10 @@ To keep this example as simple as possible we will be using the RESTful REST to 
 
 When you POST a new appointment to SuperOffice it will automatically create a new AppointmentEntity based on the system settings, and then set any value you pass inn as the body of the request. We also add a Description to the example, so that its easier to find the appointment inside SuperOffice (if you want to check that it got created):
 
+> NOTE
+> {{environment}} defines if you connect to sod, stage or prod.
+> {{tenant}} defines which tenant (Cust12345) you are working towards
+
 ### [Interactive](#tab/postappointment-interactive)
 
 ```http
@@ -308,7 +312,7 @@ From this JSON we can figure out which task we are supposed to set on our appoin
 ### [Interactive](#tab/mergepatchappointment-interactive)
 
 ```http
-POST https://sod.superoffice.com/Cust12345/api/v1/Appointment/591 HTTP/1.1
+POST https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591 HTTP/1.1
 Authorization: Bearer {{ticket}}
 Accept: application/json
 Body: {
@@ -321,7 +325,7 @@ Body: {
 ### [Non-Interactive](#tab/mergepatchappointment-non-interactive)
 
 ```http
-POST https://sod.superoffice.com/Cust12345/api/v1/Appointment/591 HTTP/1.1
+POST https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591 HTTP/1.1
 Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
