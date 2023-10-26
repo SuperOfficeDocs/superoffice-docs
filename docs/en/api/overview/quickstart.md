@@ -1,53 +1,53 @@
 ---
 uid: quickstart
-title: API Quickstart
-description: Quickstart for the SuperOffice APIs
-author: {github-id}
-so.date: 05.10.2023
-keywords: API, getting started
+title: API Quick-start
+description: Quick-start for the SuperOffice APIs
+author: Eivind Fasting
+so.date: 10.05.2023
+keywords: API, getting started, REST
 so.topic: concept
 so.envir: cloud, onsite
 so.client: web, service
 ---
 
 <!-- markdownlint-disable-file MD051 -->
-# Article content
 
-SuperOffice provides different ways to communicate with the API, depending on if you are onsite (local installation) or an online-customer (in the cloud). This quickstart will focus on how you can get up and running using the REST API, which is available for both online and onsite (from version [8.1][6] for onsite).
+# Quick-start for SuperOffice APIs
+
+SuperOffice provides different ways to communicate with the API. This guide focuses on how you can get up and running using the REST API, which is available for all online tenants and also onsite installations (from [version 8.1][6]).
 
 ## Authentication flows
 
-[This article][1] shows the different kind of authentication flows you can use towards SuperOffice.
-The flow you select depends on your application's requirements. At the most basic level, there's the interactive flow, where a SuperOffice user inputs their credentials, and the non-interactive flow, which requires no user interaction.
-When you have decided what flow to use you can head over to our [Developer Portal][2] to register as a developer and register your app-idea.
+Select flow based on your application's requirements. At the most basic level, choose between the interactive and non-interactive flow:
 
-The process for executing each authentication flow is already well-documented. This article won't delve into the specifics of obtaining the ticket.
+* In the **interactive flow**, a SuperOffice user inputs their credentials.
+* The **non-interactive flow** requires no user interaction.
+
+Examine these [authentication scenarios][1] for a more detailed overview. The process for executing each authentication flow is already well-documented. This article won't delve into the specifics of obtaining the ticket.
+
+After deciding on a flow, [register as a developer][7] and go to our **Developer Portal** to [configure your application][8].
 
 ## Language
 
-You can write your application in whatever language you want. SuperOffice does not recommend you to write your integration/application in a specific language, and you will find various different examples on our [github-page][3].
-We strive to keep the examples updated. However, as changes might occur without our knowledge, we rely on your feedback to address any issues. Feel free to create an issue whenever you come across something that is not working as intended!
+Write your application in whatever language you want. SuperOffice doesn't recommend one specific language, and there are various examples on our [GitHub page][9].
 
 ## Packages
 
-You can decide if you want to use our NPM/nuget package, or if you want to use your own httpclient to fetch data directly from the REST API.
-We do not recommend you do it one way or another, and it's totally up to what you find most efficient in your workflow. Our webapi-package is meant to make it easier to work with our APIs, but if you are more familiar with doing REST-requests directly then its probably better to stick with that.
+You can choose to use our NPM/NuGet package or your own HTTP client to directly fetch data from the REST API. We don't have a preference; it's entirely your choice based on what suits your workflow best. While our web API package streamlines API interactions, if you're more comfortable with making REST requests directly, that approach works too.
 
 ## RESTful REST or RESTful AGENT?
 
-If you look at the documentation for our REST API we actually have 2 different 'types' of REST-APIs.
+Our REST API documentation covers two variants of REST APIs. You have the freedom to choose which REST API suits your needs, and you're not limited to using only one; they can be used interchangeably.
 
-The RESTful AGENT API is meant to reflect what the underlying NetServer exposes. This will look familiar to those who have previously worked with SuperOffice and its agents, but might not make much sense to newcomers. In general it contains the agent' methods, like 'CreateDefaultAppointmentEntity'.
+The [RESTful AGENT API][2] reflects what the underlying NetServer exposes, making it familiar to SuperOffice veterans but potentially confusing for newcomers. It includes agent methods, such as `CreateDefaultAppointmentEntity`.
 
-The RESTful REST API works as a standard REST-api, where you POST/GET/PATCH entities based on what you pass inn the body of the request.
-
-Which REST-api you chose to use is up to you, and you don't need to only use one or the other as they can be used interchangeably.
+On the other hand, the [RESTful REST API][3] operates as a standard REST API, allowing you to POST/GET/PATCH entities based on the request body.
 
 ## I have my ticket, how do i use it?
 
 ### [Interactive](#tab/interactive)
 
-With an interactive flow you put the ticket in the Authorization header as a BEARER.
+With an interactive flow, put the ticket in the Authorization header as a **BEARER**.
 
 ```http
 GET https://{{environment}}.superoffice.com/{{tenant}}/api/v1/User/currentPrincipal HTTP/1.1
@@ -57,7 +57,7 @@ Accept: application/json
 
 ### [Non-interactive](#tab/non-interactive)
 
-With the non-interactive flow you need to setht the Authorization header as SOTicket, AND include your SO-AppToken (your client_secret):
+With the non-interactive flow, set the Authorization header as **SOTicket**, AND include your **SO-AppToken** (your client secret):
 
 ```http
 GET https://{{environment}}.superoffice.com/{{tenant}}/api/v1/User/currentPrincipal HTTP/1.1
@@ -68,16 +68,20 @@ Accept: application/json
 
 ***
 
-## Practical example
+## Example
 
-So now that you have your ticket and know how to set the headers, how do you proceed to actually do something towards the API?
-To keep this example as simple as possible we will be using the RESTful REST to [POST new appointmentEntity][4] connected to a specific contactId, then we will [JSON MERGE PATCH][5] the appointment to also connect it to a personId.
+You have your ticket and know how to set the headers - how do you proceed to actually do something towards the API?
 
-When you POST a new appointment to SuperOffice it will automatically create a new AppointmentEntity based on the system settings, and then set any value you pass inn as the body of the request. We also add a Description to the example, so that its easier to find the appointment inside SuperOffice (if you want to check that it got created):
+In this example, we'll demonstrate how to use the RESTful REST API to perform two key operations. First, we'll [POST a new appointmentEntity][4] linked to a specific contact ID. Then, we'll apply a [JSON MERGE PATCH][5] to associate this appointment with a person ID. Additionally, we'll include a Description in the example to facilitate easy identification of the appointment within SuperOffice, should you need to locate it
 
-> NOTE
-> {{environment}} defines if you connect to sod, stage or prod.
-> {{tenant}} defines which tenant (Cust12345) you are working towards
+When you POST a new appointment to SuperOffice it will automatically create a new AppointmentEntity based on the system settings, and then set any value you pass in as the body of the request. We also add a description to the example, so that it's easier to find the appointment inside SuperOffice (if you want to check that it got created):
+
+When you send a POST request to create a new appointment in SuperOffice, it automatically generates an AppointmentEntity based on the system settings and assigns any values provided in the request body.
+
+> [!NOTE]
+> {{environment}} specifies whether you're connecting to sod, stage, or prod.
+>
+> {{tenant}} identifies the specific tenant you're working with (for example, Cust12345).
 
 ### [Interactive](#tab/postappointment-interactive)
 
@@ -86,11 +90,11 @@ POST https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment HTTP/
 Authorization: Bearer {{ticket}}
 Accept: application/json
 Body: {
-        "Contact": {
-            "ContactId": 2
-        },
-        "Description": "Hello world!"
-      }
+  "Contact": {
+    "ContactId": 2
+  },
+  "Description": "Hello world!"
+}
 ```
 
 ### [Non-interactive](#tab/postappointment-non-interactive)
@@ -101,45 +105,43 @@ Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
 Body: {
-        "Contact": {
-            "ContactId": 2
-        },
-        "Description": "Hello world!"
-      }
+  "Contact": {
+    "ContactId": 2
+  },
+  "Description": "Hello world!"
+}
 ```
 
 ***
 
-The returned json-string looks something like this (The ..... in the nested objects are omitted to make it easier to read):
+The returned JSON string looks something like this:
 
 ```json
 {
   "Associate": {
-        "AssociateId": 18,
-        ......
+    "AssociateId": 18,
+    ...
   },
- "Contact": {
-        "ContactId": 2,
-        ......
- }
- "CreatedBy": {
-        "AssociateId": 18,
-        ......
- },
+  "Contact": {
+    "ContactId": 2,
+    ...
+  },
+  "CreatedBy": {
+    "AssociateId": 18,
+    ...
+  },
   "UpdatedBy": null,
-   "CreatedDate": "2023-10-05T14:17:57",
+  "CreatedDate": "2023-10-05T14:17:57",
   "AppointmentId": 591,
   "Description": "Hello world!",
   "StartDate": "2023-10-05T14:17:57",
   "EndDate": "2023-10-05T15:17:57",
   "Person": null,
-  ......
+  ...
 }
 ```
 
-It also contains a other information, and from this we can see which fields are available on the appointment.
-
-In this example we want to update the Appointment so that its connected to a Person, and we see from the above json that we have the attribute "Person" available, which is now NULL. We use JSON PATCH to update this field on our AppointmentId, which we can see from above response has AppointmentId = 591:
+It also includes other information that provides insight into the available fields for appointments. In this particular case, we aim to establish a connection between the Appointment and a Person. Referring to the JSON data above, we observe that the "Person" attribute is currently set to NULL. To modify this attribute for our Appointment with AppointmentId = 591, we employ JSON PATCH.
 
 ### [Interactive](#tab/patchappointment-interactive)
 
@@ -147,15 +149,15 @@ In this example we want to update the Appointment so that its connected to a Per
 PATCH https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591 HTTP/1.1
 Authorization: Bearer {{ticket}}
 Accept: application/json
-Body: [ 
-        { 
-          "op": "replace", 
-          "path": "/Person", 
-          "value": {
-              "PersonId": 1
-          }
-        } 
-      ]
+Body: [
+  {
+    "op": "replace",
+    "path": "/Person",
+    "value": {
+      "PersonId": 1
+    }
+  }
+]
 ```
 
 ### [Non-interactive](#tab/patchappointment-non-interactive)
@@ -165,61 +167,59 @@ PATCH https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591 
 Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
-Body: [ 
-        { 
-          "op": "replace", 
-          "path": "/Person", 
-          "value": {
-              "PersonId": 1
-          }
-        } 
-      ]
+Body: [
+  {
+    "op": "replace",
+    "path": "/Person",
+    "value": {
+      "PersonId": 1
+    }
+  }
+]
 ```
 
 ***
 
-The returned json is the whole, updated, AppointmentEntity:
+The returned JSON is the complete, updated, AppointmentEntity:
 
 ```json
 {
   "Associate": {
-        "AssociateId": 18,
-        ......
+    "AssociateId": 18,
+    ...
   },
- "Contact": {
-        "ContactId": 2,
-        ......
- }
- "CreatedBy": {
-        "AssociateId": 18,
-        ......
- },
+  "Contact": {
+    "ContactId": 2,
+    ...
+  },
+  "CreatedBy": {
+    "AssociateId": 18,
+    ...
+  },
   "UpdatedBy": null,
-   "CreatedDate": "2023-10-05T14:17:57",
+  "CreatedDate": "2023-10-05T14:17:57",
   "AppointmentId": 591,
   "Description": "Hello world!",
   "StartDate": "2023-10-05T14:17:57",
   "EndDate": "2023-10-05T15:17:57",
   "Person": {
     "PersonId": 1,
-    ......
+    ...
   },
-  ......
+  ...
 }
 ```
 
-Note: JSON Merge Patch does NOT work on updating null-properties, like Person in our example. This is why we use JSON PATCH, but if it already contains a value you can go ahead and use use JSON MERGE PATCH if you like.
+> [!NOTE]
+> JSON MERGE PATCH does NOT update `null` properties, like "Person" in our example. We use JSON PATCH for this purpose. However, if a property already contains a value, you can still opt to use JSON MERGE PATCH.
 
-## What is an MDOList and how do i find the correct id?
+## What is an MDOList and how do I find the correct ID?
 
-In our above example we haven't set the 'task' of the appointment, which in the SuperOffice-world defines what type of activity this is.
-If we look at the documentation it says Task = TaskListItem:
-'Task comprises the different types of activities, like “Phone call”, “Meeting” and so on. Use MDO List name "task" to get list items.'
+Earlier, we didn't specify the **task** for the appointment, which defines the type of activity in SuperOffice, such as a phone call or meeting. Task is represented by `TaskListItem`, and you can access the list items using the MDO List name "task."
 
-In our scenario we have 2 options, as we can use the /api/v1/List/Task/MDOItems , or we can go the more general way and use the /api/v1/List/MDO/{listname}.
-Note: This variable {listname} is what the documentation says should be "task" in our case, and the documentation will state which MDOList you need to get.
+In our scenario, we have two options. We can either use the `/api/v1/List/Task/MDOItems` endpoint or take a more general approach by using the `/api/v1/List/MDO/{listname}` endpoint. In our case, {listname} should be "task," as per the documentation's instructions, which will specify the required MDO List.
 
-For the sake of this example we will go the general route, as it can be used across all lists in SuperOffice:
+For the sake of this example, we will opt for the general approach, which can be applied to all lists in SuperOffice.
 
 ### [Interactive](#tab/getmdolist-interactive)
 
@@ -240,74 +240,74 @@ Accept: application/json
 
 ***
 
-The returned json looks something like this:
+The returned JSON looks something like this:
 
 ```json
 [
-    {
-        "Id": 1,
-        "Name": "Meeting (Internal)",
-        ......
-    },
-    {
-        "Id": 2,
-        "Name": "Meeting (External)",
-        ......
-    },
-    {
-        "Id": 3,
-        "Name": "Phone-Out",
-        ......
-    },
-    {
-        "Id": 4,
-        "Name": "Phone-In",
-        ......
-    },
-    {
-        "Id": 5,
-        "Name": "Follow-up",
-        ......
-    },
-    {
-        "Id": 6,
-        "Name": "Planning",
-        ......
-    },
-    {
-        "Id": 7,
-        "Name": "Visit",
-        ......
-    },
-    {
-        "Id": 8,
-        "Name": "Lunch",
-        ......
-    },
-    {
-        "Id": 9,
-        "Name": "Proposal",
-        ......
-    },
-    {
-        "Id": 10,
-        "Name": "Service",
-        ......
-    },
-    {
-        "Id": 11,
-        "Name": "Private",
-        ......
-    },
-    {
-        "Id": 12,
-        "Name": "Other",
-        ......
-    }
+  {
+    "Id": 1,
+    "Name": "Meeting (Internal)",
+    ...
+  },
+  {
+    "Id": 2,
+    "Name": "Meeting (External)",
+    ...
+  },
+  {
+    "Id": 3,
+    "Name": "Phone-Out",
+    ...
+  },
+  {
+    "Id": 4,
+    "Name": "Phone-In",
+    ...
+  },
+  {
+    "Id": 5,
+    "Name": "Follow-up",
+    ...
+  },
+  {
+    "Id": 6,
+    "Name": "Planning",
+    ...
+  },
+  {
+    "Id": 7,
+    "Name": "Visit",
+    ...
+  },
+  {
+    "Id": 8,
+    "Name": "Lunch",
+    ...
+  },
+  {
+    "Id": 9,
+    "Name": "Proposal",
+    ...
+  },
+  {
+    "Id": 10,
+    "Name": "Service",
+    ...
+  },
+  {
+    "Id": 11,
+    "Name": "Private",
+    ...
+  },
+  {
+    "Id": 12,
+    "Name": "Other",
+    ...
+  }
 ]
 ```
 
-From this JSON we can figure out which task we are supposed to set on our appointment (I will set 'Meeting (External)'), and use JSON MERGE PATCH to update it:
+From this JSON, we determine the task to assign to our appointment, such as "Meeting (External)", and proceed to update it using JSON MERGE PATCH.
 
 ### [Interactive](#tab/mergepatchappointment-interactive)
 
@@ -316,10 +316,10 @@ POST https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591 H
 Authorization: Bearer {{ticket}}
 Accept: application/json
 Body: {
-        "Task": {
-            "TaskListItemId": 2
-        }
-      }
+  "Task": {
+    "TaskListItemId": 2
+  }
+}
 ```
 
 ### [Non-Interactive](#tab/mergepatchappointment-non-interactive)
@@ -330,34 +330,41 @@ Authorization: SOTicket {{ticket}}
 SO-AppToken: {{client_secret}}
 Accept: application/json
 Body: {
-        "Task": {
-            "TaskListItemId": 2
-        }
-      }
+  "Task": {
+    "TaskListItemId": 2
+  }
+}
 ```
 
 ***
 
-This example shows how to:
-Create a new AppointmentEntity
-JSON PATCH is with a contactId
-Find MDList for Task
-JSON MERGE PATCH the AppointmentEntity with correct TaskListItem.
-
-If you still are having issues with communicating with our API we very much appreciate feedback to make it more clear and informative, so feel free to either give feedback directly on this page OR head over to our docs-repo and create an issue there!
-
 ## Optimization
 
-In the example above we get a lot of extra data that we don't really need. You can filter the payload by adding query parameters to your URI. In our above example we only really needed the fields AppointmentId, Contact, Description and Person, so when we PATCH the entity we should filter the response to only include these two fields:
-<https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591$select=AppointmentId,Contact,Description,Person>
+In our example, we received an extensive dataset with surplus information that isn't essential. You can filter the payload by incorporating query parameters in your URI. Here, we're interested only in the fields AppointmentId, Contact, Description, and Person. Consequently, when PATCHing the entity, it's advisable to narrow the response down to only include these essential fields:
 
-There is no need to return everything in the payload, but this is more of a best practice and not something we enforce.
+`https://{{environment}}.superoffice.com/{{tenant}}/api/v1/Appointment/591$select=AppointmentId,Contact,Description,Person`
+
+While there's no strict requirement to return the entire payload, this approach aligns with best practices for more efficient data retrieval.
+
+## Summary
+
+This example illustrated:
+
+* Creating a new AppointmentEntity
+* Using JSON PATCH with a contactId
+* Locating the MDList for the Task
+* Applying JSON MERGE PATCH to the AppointmentEntity with the correct TaskListItem.
+
+If you encounter difficulties in communicating with our API, we highly value your feedback to enhance clarity.
 
 <!-- Referenced links -->
 
 [1]: ../authentication/online/which-flow-to-use.md
-[2]: ../../developer-portal/about.md
-[3]: https://github.com/SuperOffice
-[4]: ../../api/reference/restful/rest/Appointment/v1AppointmentEntity_PostAppointmentEntity.md
-[5]: ../../api/reference/restful/rest/Appointment/v1AppointmentEntity_PatchAppointmentEntity.md
-[6]: ../../onsite/install//netserver/setup-rest.md
+[2]: ../reference/restful/agent/index.md
+[3]: ../reference/restful/rest/index.md
+[4]: ../reference/restful/rest/Appointment/v1AppointmentEntity_PostAppointmentEntity.md
+[5]: ../reference/restful/rest/Appointment/v1AppointmentEntity_PatchAppointmentEntity.md
+[6]: ../../onsite/install/netserver/setup-rest.md
+[7]: ../../developer-portal/getting-started/get-access-to-sod.md
+[8]: ../../developer-portal/create-app/index.md
+[9]: https://github.com/SuperOffice
