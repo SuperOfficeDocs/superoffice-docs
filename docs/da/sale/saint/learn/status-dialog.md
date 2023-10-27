@@ -30,7 +30,7 @@ Dialogboksen **Vis statusser...** vises, når du klikker på et statusbillede p�
 ## Relaterede emner
 
 * [Statusovervågning][2]
-* [Dialogboksen Aftale][3]
+* [Dialogboksen Opfølging][3]
 
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md

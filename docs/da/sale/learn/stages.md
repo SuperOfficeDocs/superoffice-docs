@@ -35,7 +35,7 @@ Hvis du angiver salget til **Udsat**, vises følgende felter:
 
 ![Indstillet salg -screenshot][img5]
 
-Dialogboksen **Aftale** åbnes, når du klikker på **Gem**. Du kan oprette fremtidige møder eller samtaler for at følge op det udsatte salg.
+Dialogboksen **Opfølging** åbnes, når du klikker på **Gem**. Du kan oprette fremtidige møder eller samtaler for at følge op det udsatte salg.
 
 ## Solgt/Tabt
 

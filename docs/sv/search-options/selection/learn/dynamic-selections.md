@@ -35,7 +35,7 @@ Du kan skapa ett urval som innehåller alla dokument som du har skapat den sista
 
 Du kan skapa ett urval som innehåller alla händelser för en viss kund, så att du kan bilda dig en uppfattning om vilket förhållande ni har till kunden innan du genomför ett säljmöte med dem.
 
-Du kan även skapa ett urval som innehåller alla aktuella händelser för den aktuella månaden, så att du får en översikt över dina bokningar denna månad och om du behöver upprätta några fler.
+Du kan även skapa ett urval som innehåller alla aktuella händelser för den aktuella månaden, så att du får en översikt över dina möter denna månad och om du behöver upprätta några fler.
 
 ### Produkter
 

@@ -17,7 +17,7 @@ U kunt op het tabblad **Verkoopgids** in het scherm **Workflow** in Instellingen
 
 ## Voorbeeld
 
-Het verkooptype 'Verkoop aan nieuwe klant' kan uit drie fasen bestaan: 'Eerste gesprek', 'Offerte' en 'Contract tekenen'. De fase 'Eerste gesprek' kan bijvoorbeeld de vervolgactiviteit 'Klantgesprek' (een afspraak) en het document 'Uitnodiging voor vergadering' (een e-mail) bevatten.
+Het verkooptype 'Verkoop aan nieuwe klant' kan uit drie fasen bestaan: 'Eerste gesprek', 'Offerte' en 'Contract tekenen'. De fase 'Eerste gesprek' kan bijvoorbeeld de vervolgactiviteit 'Klantgesprek' en het document 'Uitnodiging voor vergadering' (een e-mail) bevatten.
 
 ## Wat wilt u nu doen?
 

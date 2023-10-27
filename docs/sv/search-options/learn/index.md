@@ -61,7 +61,7 @@ Snabbsökning kan användas på olika sätt:
 
 * Du kan söka [direkt från navigatorn][3] för att gå till företag, kontakt, försäljning, projekt eller urval.
 
-* Du kan söka efter företag, kontakter, försäljningar och urval [i dialogrutor][8] som innehåller relevanta fält, till exempel dialogrutorna **Bokning** eller **Dokument** om du vill bifoga dem till en bokning eller ett dokument.
+* Du kan söka efter företag, kontakter, försäljningar och urval [i dialogrutor][8] som innehåller relevanta fält, till exempel dialogrutorna **Händelse** eller **Dokument** om du vill bifoga dem till en bokning eller ett dokument.
 
 * Du kan söka [direkt i tidszonsväljaren][2] och visa en stads eller ett lands tidszon.
 

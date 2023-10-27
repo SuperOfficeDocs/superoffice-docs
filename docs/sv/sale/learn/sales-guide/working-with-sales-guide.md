@@ -90,10 +90,10 @@ Du registrerar en ny försäljning och väljer försäljningstypen **Försäljni
 
 ### Fasen Första möte
 
-1. Du har bokat in en mötestidpunkt och vill skapa bokningen **Kundmöte** i kalendern och bjuda in deltagare.
+1. Du har bokat in en mötestidpunkt och vill skapa händelsen **Kundmöte** i kalendern och bjuda in deltagare.
 
     1. I projektguiden klickar du på knappen **Skapa** bredvid händelsen **Kundmöte**.
-        Dialogrutan **Bokning** öppnas, med **Möte ute** angivet som bokningstyp och namnet på försäljningen och företaget redan ifyllt.
+        Dialogrutan **Händels** öppnas, med **Möte ute** angivet som typ och namnet på försäljningen och företaget redan ifyllt.
     2. [Fyll i information och bjud in deltagare][1].
     3. Klicka på **Spara**.
 
@@ -152,7 +152,7 @@ Du registrerar en ny försäljning och väljer försäljningstypen **Försäljni
 
     3. I dialogrutan **Säljguide** har du tre möjligheter:
 
-        * Klicka på **Skapa** för att skapa bokningen **Kontraktsmöte**, som är nästa händelse i säljguiden. Du kommer då direkt till dialogrutan för händelsen.
+        * Klicka på **Skapa** för att skapa händelsen **Kontraktsmöte**, som är nästa händelse i säljguiden. Du kommer då direkt till dialogrutan för händelsen.
 
         * Klicka på **Avbryt** om du inte vill skapa händelsen nu. Dialogrutan **Säljguide** stängs och du måste komma ihåg att skapa händelsen senare.
 
@@ -161,15 +161,15 @@ Du registrerar en ny försäljning och väljer försäljningstypen **Försäljni
     > [!NOTE]
     > Dialogrutan **Säljguide** öppnas eftersom funktionen **Föreslå denna händelse automatiskt** är angiven för händelsen **Kontraktsmöte** i Inställningar och underhåll. Du kan välja att den här dialogrutan inte ska visas så att nästa händelse föreslås automatiskt.
 
-3. Du vill skapa bokningen **Kontraktsmöte** från dialogrutan **Säljguide**.
+3. Du vill skapa händelsen **Kontraktsmöte** från dialogrutan **Säljguide**.
 
     Klicka på **Skapa** i dialogrutan **Säljguide**.
-    Dialogrutan **Bokning** öppnas, där du kan skapa mötet på vanligt sätt.
+    Dialogrutan **Händels** öppnas, där du kan skapa mötet på vanligt sätt.
 
 4. Sedan vill du skapa det kontrakt du ska ha med dig på mötet.
 
     1. Klicka på **Skapa** bredvid dokumentet **Undertecknat kontrakt** för att skapa kontraktet.
-    2. Efter kontraktsmötet och kontraktet är undertecknat, markerar du bokningen **Kontraktsmöte** som slutförd.
+    2. Efter kontraktsmötet och kontraktet är undertecknat, markerar du händelsen **Kontraktsmöte** som slutförd.
 
 Nu kan du ändra fasen till **Såld**. När alla önskade händelser och dokument för försäljningen är slutförda kan du ange att försäljningen är slutförd.
 

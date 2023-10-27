@@ -35,7 +35,7 @@ Sie können eine Selektion erstellen, die alle Dokumente enthält, die Sie im le
 
 Sie können beispielsweise eine Selektion mit allen Folgeaufgaben für einen bestimmten Kunden erstellen, um einen Eindruck von der Beziehung zum Kunden zu erhalten, bevor Sie ein Verkaufsgespräch mit ihm haben.
 
-Zudem können Sie eine Selektion mit allen Folgeaufgaben im aktuellen Monat erstellen, um zu sehen, welche Termine anstehen und ob Sie noch weitere Termine vereinbaren sollten.
+Zudem können Sie eine Selektion mit allen Folgeaufgaben im aktuellen Monat erstellen, um zu sehen, welche Besprechungen anstehen und ob Sie noch weitere Besprechungen vereinbaren sollten.
 
 ### Produkte
 

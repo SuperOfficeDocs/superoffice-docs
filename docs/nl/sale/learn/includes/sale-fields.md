@@ -34,7 +34,7 @@
 12. U kunt het selectievakje **Vastgelopen** inschakelen om aan te geven dat de verkoop is [vastgelopen][2]. Bijvoorbeeld als de klant besluit om te wachten tot volgend jaar voordat hij tot aankoop overgaat.
 
     > [!NOTE]
-    > De velden eronder veranderen als u **Vastgelopen** hebt ingeschakeld. **Volgende activiteit** wordt gewijzigd in **Datum heropening**. U kunt een datum invoeren waarop de verkoop moet worden heropend. Het veld **Bron** wordt gewijzigd in **Reden (vastgelopen)**, waarin u kunt aangeven waarom de verkoop momenteel niet kan worden uitgevoerd. Als u de verkoop hebt gemarkeerd als vastgelopen, wordt het dialoogvenster **Afspraak** weergegeven wanneer u op **Opslaan** klikt. Hier kunt u een toekomstige vergadering opzetten of een telefoontje plegen om een vastgelopen verkoop op te volgen.
+    > De velden eronder veranderen als u **Vastgelopen** hebt ingeschakeld. **Volgende activiteit** wordt gewijzigd in **Datum heropening**. U kunt een datum invoeren waarop de verkoop moet worden heropend. Het veld **Bron** wordt gewijzigd in **Reden (vastgelopen)**, waarin u kunt aangeven waarom de verkoop momenteel niet kan worden uitgevoerd. Als u de verkoop hebt gemarkeerd als vastgelopen, wordt het dialoogvenster **Vervolgactiviteit** weergegeven wanneer u op **Opslaan** klikt. Hier kunt u een toekomstige vergadering opzetten of een telefoontje plegen om een vastgelopen verkoop op te volgen.
 
 13. Voer in het veld **Verkoopdatum** een geschatte verkoopdatum in. Om de geschatte verkoopdatum te wijzigen, klikt u op de pijl naast de datum en selecteert u een nieuwe datum in de kalender die wordt weergegeven.
 

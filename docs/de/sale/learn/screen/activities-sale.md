@@ -11,15 +11,15 @@ language: de
 
 # Bereichsregisterkarte Aktivitäten
 
-Auf der Bereichsregisterkarte **Aktivitäten** werden alle mit dem aktuellen Verkauf verbundenen Termine, Aufgaben, Anrufe, Dokumente und E-Mails angezeigt. Doppelklicken Sie auf eine Aktivität auf der Bereichsregisterkarte, um sie anzuzeigen oder zu bearbeiten.
+Auf der Bereichsregisterkarte **Aktivitäten** werden alle mit dem aktuellen Verkauf verbundenen Folgeaufgabe, Dokumente und E-Mails angezeigt. Doppelklicken Sie auf eine Aktivität auf der Bereichsregisterkarte, um sie anzuzeigen oder zu bearbeiten.
 
 ## Spalten auf der Bereichsregisterkarte Aktivitäten
 
 Auf der Bereichsregisterkarte **Aktivitäten** werden die folgenden Spalten angezeigt:
 
-* ![Symbol][img2]: Status **Erledigt** einer Aktivität. Wenn das Kontrollkästchen (![Symbol][img1] mit einem Häkchen markiert ist, bedeutet das, die [Aktivität ist abgeschlossen][1]. Ist das Kästchen leer, gilt die Aktivität als nicht abgeschlossen.
+* ![Symbol][img2]: Status **Erledigt** einer Aktivität. Wenn das Kontrollkästchen ![Symbol][img1] mit einem Häkchen markiert ist, bedeutet das, die [Aktivität ist abgeschlossen][1]. Ist das Kästchen leer, gilt die Aktivität als nicht abgeschlossen.
 
-* Die zweite Spalte enthält Symbole, die den Typ einer Aktivität angeben. Dabei gibt es für jeden Typ eine Kategorie. Ein Telefonsymbol steht z. B. für einen Anruf. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
+* Die zweite Spalte enthält Symbole, die den Typ einer Aktivität angeben. Dabei gibt es für jeden Typ eine Kategorie. Ein Kalendersymbol steht z. B. für eine Besprechung. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
 
 * Das Datum der Aktivität
 * Den Typ der Aktivität

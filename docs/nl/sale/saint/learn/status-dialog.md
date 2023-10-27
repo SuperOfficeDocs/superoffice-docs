@@ -30,7 +30,7 @@ Het dialoogvenster **Statussen weergeven** wordt weergegeven wanneer u op een st
 ## Verwante onderwerpen
 
 * [Statuscontroles][2]
-* [Het dialoogvenster Afspraak][3]
+* [Het dialoogvenster Vervolgactiviteit][3]
 
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md

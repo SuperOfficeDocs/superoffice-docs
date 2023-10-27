@@ -34,7 +34,7 @@
 12. Aktivieren Sie das Kästchen **Aufgeschoben**, um anzugeben, dass der Verkauf [aufgeschoben][2] wurde. Zum Beispiel, wenn der Kunde beschließt, mit dem Kauf bis zum nächsten Jahr zu warten.
 
     > [!NOTE]
-    > Die Felder unten ändern sich, wenn Sie die Option **Aufgeschoben** markiert haben. Das Feld **Nächste Aktivität** ändert sich zu **Wiedereröffnungsdatum**, in dem Sie ein Datum eingeben können, an dem der Verkauf wieder eröffnet wird, und das Feld **Quelle** ändert sich zu **Grund (aufgeschoben)**, in dem Sie den Grund für die vorübergehende Unterbrechung des Verkaufs eingeben können. Wenn Sie den Verkauf als aufgeschoben markiert haben, wird das Dialogfeld **Termin** angezeigt, wenn Sie auf **Speichern** klicken. Hier können Sie ein zukünftiges Gespräch oder einen Anruf einrichten, um den aufgeschobenen Verkauf zu verfolgen.
+    > Die Felder unten ändern sich, wenn Sie die Option **Aufgeschoben** markiert haben. Das Feld **Nächste Aktivität** ändert sich zu **Wiedereröffnungsdatum**, in dem Sie ein Datum eingeben können, an dem der Verkauf wieder eröffnet wird, und das Feld **Quelle** ändert sich zu **Grund (aufgeschoben)**, in dem Sie den Grund für die vorübergehende Unterbrechung des Verkaufs eingeben können. Wenn Sie den Verkauf als aufgeschoben markiert haben, wird das Dialogfeld **Folgeaufgabe** angezeigt, wenn Sie auf **Speichern** klicken. Hier können Sie ein zukünftiges Gespräch oder einen Anruf einrichten, um den aufgeschobenen Verkauf zu verfolgen.
 
 13. Geben Sie im Feld **Verkaufsdatum** das voraussichtliche Datum für den Verkauf ein. Um das voraussichtliche Verkaufsdatum zu ändern, klicken Sie neben dem Datum auf den Pfeil und wählen im darauf angezeigten Kalender ein neues Datum aus.
 

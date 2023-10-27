@@ -90,10 +90,10 @@ Du registrerer et nyt salg og vælger salgstypen **Salg til ny kunde**, som er t
 
 ### Fasen Første møde
 
-1. Du har aftalt mødetidspunktet, og du vil oprette aftalen **Kundemøde** i dagbogen samt invitere deltagere.
+1. Du har aftalt mødetidspunktet, og du vil oprette opfølgningen **Kundemøde** i dagbogen samt invitere deltagere.
 
     1. I projektguiden klikker du på knappen **Opret** ved siden af opfølgningen **Kundemøde**.
-        Dialogboksen **Aftale** åbnes med **Møde ude** angivet som aftaletype og navnet på salget og firmaet færdigudfyldt.
+        Dialogboksen **Opfølgning** åbnes med **Møde ude** angivet som type og navnet på salget og firmaet færdigudfyldt.
     2. [Udfyld informationer, og inviter deltagere.][1]
     3. Klik på **Gem**.
 
@@ -152,7 +152,7 @@ Du registrerer et nyt salg og vælger salgstypen **Salg til ny kunde**, som er t
 
     3. I dialogboksen **Salgsguide** har du tre muligheder:
 
-        * Klik på **Opret** for at oprette aftalen **Kontraktsmøde**, som er den næste opfølgning i salgsguiden. Du kommer direkte til dialogboksen for opfølgningen.
+        * Klik på **Opret** for at oprette opfølgningen **Kontraktsmøde**, som er den næste opfølgning i salgsguiden. Du kommer direkte til dialogboksen for opfølgningen.
 
         * Klik på **Afbryd**, hvis du ikke ønsker at oprette opfølgningen nu. Dialogboksen **Salgsguide** lukkes, og du skal selv huske at oprette opfølgningen senere.
 
@@ -161,15 +161,15 @@ Du registrerer et nyt salg og vælger salgstypen **Salg til ny kunde**, som er t
     > [!NOTE]
     > Dialogboksen **Salgsguide** åbnes, fordi **Foreslå denne opfølgning automatisk** er indstillet for opfølgningen **Kontraktmøde** i Indstillinger og vedligeholdelse. Du kan vælge, at denne dialogboks ikke vises, så næste opfølgning foreslås automatisk.
 
-3. Du vil oprette aftalen **Kontraktsmøde** fra dialogboksen **Salgsguide**.
+3. Du vil oprette opfølgningen **Kontraktsmøde** fra dialogboksen **Salgsguide**.
 
     Klik på **Opret** i dialogboksen **Salgsguide**.
-    Dialogboksen **Aftale** åbnes, hvor du kan oprette mødet på normal vis.
+    Dialogboksen **Opfølgning** åbnes, hvor du kan oprette mødet på normal vis.
 
 4. Derefter vil du oprette den kontrakt, du skal have med på mødet.
 
     1. Klik på **Opret** ved siden af dokumentet **Underskrevet kontrakt** for at oprette kontrakten.
-    2. Når kontraktmødet er gennemført, og kontrakten er underskrevet, skal du markere aftalen **Kontraktmøde** som udført.
+    2. Når kontraktmødet er gennemført, og kontrakten er underskrevet, skal du markere opfølgningen **Kontraktmøde** som udført.
 
 Du kan nu ændre fasen til **Solgt**. Når alle ønskede opfølgninger og dokumenter for salget er udført, kan du angive salgsstatus som udført.
 

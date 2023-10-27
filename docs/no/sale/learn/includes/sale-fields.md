@@ -34,7 +34,7 @@
 12. I avmerkingsboksen **Utsatt** kan du merke av for om salget er [utsatt][2]. For eksempel hvis kunden bestemmer seg for å vente til neste år med å kjøpe.
 
     > [!NOTE]
-    > Feltene nedenfor endrer seg hvis du merker av for **Utsatt**. **Neste aktivitet** endres til **Gjenåpningsdato**, der du kan angi en dato for når salget gjenåpnes, og **Kilde** endres til **Årsak (utsatt)**, der du kan angi årsaken til utsettelsen. Hvis du merker salget som utsatt, vises dialogboksen **Avtale** når du klikker på **Lagre**. Her kan du sette opp fremtidige møter eller samtaler for å følge opp det utsatte salget.
+    > Feltene nedenfor endrer seg hvis du merker av for **Utsatt**. **Neste aktivitet** endres til **Gjenåpningsdato**, der du kan angi en dato for når salget gjenåpnes, og **Kilde** endres til **Årsak (utsatt)**, der du kan angi årsaken til utsettelsen. Hvis du merker salget som utsatt, vises dialogboksen **Oppfølging** når du klikker på **Lagre**. Her kan du sette opp fremtidige møter eller samtaler for å følge opp det utsatte salget.
 
 13. Angi antatt salgsdato i feltet **Salgsdato**. Hvis du vil endre den antatte salgsdatoen, klikker du på pilen ved datoen og velger en ny dato i kalenderen som vises.
 

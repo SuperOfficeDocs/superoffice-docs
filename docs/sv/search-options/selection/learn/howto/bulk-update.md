@@ -11,7 +11,7 @@ language: sv
 
 # Massredigering
 
-Genom att använda massuppdatering kan du uppdatera personliga data för alla företag och kontakter och alla andra enheter som för närvarande är lagrade i din SuperOffice CRM-databas. Du kan ändra specifika värden för flera poster av samma typ (kontakter, företag, projekt, försäljning, bokningar, telefonsamtal, uppgifter och dokument). Du kan uppdatera vissa värden och rensa vissa värden.
+Genom att använda massuppdatering kan du uppdatera personliga data för alla företag och kontakter och alla andra enheter som för närvarande är lagrade i din SuperOffice CRM-databas. Du kan ändra specifika värden för flera poster av samma typ (kontakter, företag, projekt, försäljning, händelser och dokument). Du kan uppdatera vissa värden och rensa vissa värden.
 
 Massuppdatering är tillgänglig in fönstren Urval, Företag, Försäljning och Projekt.
 

@@ -61,7 +61,7 @@ Du kan bruke hurtigsøk på flere måter:
 
 * For å [søke direkte fra navigatoren][3] for å gå til et firma, en person, et salg, et prosjekt, en sak, eller et utvalg.
 
-* For å [søke inni dialoger][8] etter et firma, en person, et salg, et prosjekt, en sak, eller et utvalg for å referere til et relevant felt i dialogen. For eksempel, for å linke et salg i Dokumentdialogen eller til et firma i Avtaledialogen.
+* For å [søke inni dialoger][8] etter et firma, en person, et salg, et prosjekt, en sak, eller et utvalg for å referere til et relevant felt i dialogen. For eksempel, for å linke et salg i Dokumentdialogen eller til et firma i oppfølgingsdialogen.
 
 * For å søke direkte i [tidssonevelgeren][2] for å finne tidssonen for en by eller et land.
 

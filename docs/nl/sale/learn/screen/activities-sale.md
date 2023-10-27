@@ -11,7 +11,7 @@ language: nl
 
 # Het sectietabblad Activiteiten
 
-Het sectietabblad **Activiteiten** bevat alle afspraken, taken, telefoongesprekken, documenten en e-mails die aan de actieve verkoop zijn gekoppeld. U kunt desgewenst een activiteit openen en bewerken door erop te dubbelklikken.
+Het sectietabblad **Activiteiten** bevat alle vervolgactiviteiten, documenten en e-mails die aan de actieve verkoop zijn gekoppeld. U kunt desgewenst een activiteit openen en bewerken door erop te dubbelklikken.
 
 ## Kolommen op het sectietabblad Activiteiten
 
@@ -19,7 +19,7 @@ De volgende kolommen worden weergegeven op het sectietabblad **Activiteiten**:
 
 * ![pictogram][img2] : de status **Voltooid** voor een activiteit. Een vinkje in het selectievakje (![pictogram][img1]) betekent dat de [activiteit is voltooid][1]; een leeg vakje betekent dat de activiteit nog niet is voltooid.
 
-* De tweede kolom bevat pictogrammen die het type activiteit aangeven. Elk verschillende type heeft een andere categorie. Bijvoorbeeld een telefoon voor een telefoongesprek. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
+* De tweede kolom bevat pictogrammen die het type activiteit aangeven. Elk verschillende type heeft een andere categorie. Bijvoorbeeld een kalenderpictogram voor een vergadering. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
 
 * De datum van de activiteit.
 * Het type activiteit.

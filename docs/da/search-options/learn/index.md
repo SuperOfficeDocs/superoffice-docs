@@ -61,7 +61,7 @@ Hurtigsøgning kan bruges på flere forskellige måder:
 
 * Du kan søge [direkte fra navigatoren][3] for at gå til ønsket firma, person, salg, projekt eller udvalg.
 
-* Du kan søge efter firmaer, personer, salg, projekter og udvalg [fra dialogbokse][8], som indeholder de relevante felter, f.eks. dialogboksen **Aftale** og **Dokument**, for at knytte dem til aftalen eller dokumentet.
+* Du kan søge efter firmaer, personer, salg, projekter og udvalg [fra dialogbokse][8], som indeholder de relevante felter, f.eks. dialogboksen **Opfølging** og **Dokument**, for at knytte dem til aftalen eller dokumentet.
 
 * Du kan søge [direkte i tidszonevælgeren][2] for at få tidszonen frem for en ønsket by eller et ønsket land.
 

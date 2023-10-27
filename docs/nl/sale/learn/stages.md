@@ -35,7 +35,7 @@ Als u de verkopen instelt op **Vastgelopen**, verschijnen de volgende velden:
 
 ![Vastgelopen verkoop -screenshot][img5]
 
-Het dialoogvenster **Afspraak** opent wanneer u op **Opslaan** klikt. Hier kunt u een toekomstige vergadering opzetten of een telefoontje plegen om een vastgelopen verkoop op te volgen.
+Het dialoogvenster **Vervolgactiviteit** opent wanneer u op **Opslaan** klikt. Hier kunt u een toekomstige vergadering opzetten of een telefoontje plegen om een vastgelopen verkoop op te volgen.
 
 ## Verkocht/Verloren
 

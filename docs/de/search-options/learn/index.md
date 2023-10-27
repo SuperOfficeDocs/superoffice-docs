@@ -61,7 +61,7 @@ Sie haben verschiedene Möglichkeiten, die Schnellsuche zu verwenden:
 
 * Sie können [direkt im Navigator suchen][3], um zur gewünschten Firma, Person oder Selektion bzw. zum gewünschten Projekt oder den gewünschten Verkäufen zu gelangen.
 
-* Sie können [in Dialogfeldern][8] mit den relevanten Feldern, wie z. B. den Dialogfeldern **Termin** und **Dokument**, nach Firmen, Personen, Verkäufen, Projekten und Selektionen suchen, um sie mit dem Termin oder Dokument zu verknüpfen.
+* Sie können [in Dialogfeldern][8] mit den relevanten Feldern, wie z. B. den Dialogfeldern **Folgeaufgabe** und **Dokument**, nach Firmen, Personen, Verkäufen, Projekten und Selektionen suchen, um sie mit dem Termin oder Dokument zu verknüpfen.
 
 * Sie können direkt [im Zeitzonen-Selektor][2] suchen, um die Zeitzone für die betreffende Stadt oder das Land herauszufinden.
 

@@ -30,7 +30,7 @@ Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett pr
 ## Relaterade ämnen
 
 * [Statusövervakning][2]
-* [Dialogrutan bokning][3]
+* [Dialogrutan Händelse][3]
 
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md

@@ -17,7 +17,7 @@ På fliken **Säljguide** i fönstret **Arbetsflöde** i Inställningar och unde
 
 ## Exempel
 
-Försäljningstypen "Försäljning till en ny kund" kan bestå av tre steg: "Första mötet", "Offert" och "Kontraktsunderskrift". Fasen "Första mötet" kan till exempel innehålla händelsen "Kundmöte" (en bokning) och dokumentet "Mötesinbjudan" (ett e-postmeddelande).
+Försäljningstypen "Försäljning till en ny kund" kan bestå av tre steg: "Första mötet", "Offert" och "Kontraktsunderskrift". Fasen "Första mötet" kan till exempel innehålla händelsen "Kundmöte" och dokumentet "Mötesinbjudan" (ett e-postmeddelande).
 
 ## Vad vill du göra nu?
 

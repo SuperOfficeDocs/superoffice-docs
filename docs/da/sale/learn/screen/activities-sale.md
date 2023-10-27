@@ -11,7 +11,7 @@ language: da
 
 # Detaljekortet Aktiviteter
 
-Detaljekortet **Aktiviteter** viser alle aftaler, opgaver, samtaler, dokumenter og mails, der er knyttet til det aktive salg. Dobbeltklik på en aktivitet på detaljekortet for at få vist eller redigere den efter behov.
+Detaljekortet **Aktiviteter** viser alle opfølginger, dokumenter og mails, der er knyttet til det aktive salg. Dobbeltklik på en aktivitet på detaljekortet for at få vist eller redigere den efter behov.
 
 ## Kolonner på detaljekortet Aktiviteter
 
@@ -19,7 +19,7 @@ Følgende kolonner vises under detaljekortet **Aktiviteter**:
 
 * ![ikon][img2] : Statussen **Udført** for en aktivitet. Et flueben i afkrydsningsfeltet (![ikon][img1]) betyder, at [aktiviteten er udført][1], mens et tomt felt betyder, at den ikke er udført.
 
-* Den anden kolonne indeholder ikoner, der angiver aktivitetstypen; en kategori for hver af de forskellige typer. For eksempel indikerer et telefonikon en samtale. Disse ikoner modsvarer teksten i kolonnen **Type**.
+* Den anden kolonne indeholder ikoner, der angiver aktivitetstypen; en kategori for hver af de forskellige typer. For eksempel indikerer et kalenderikon et møde. Disse ikoner modsvarer teksten i kolonnen **Type**.
 
 * Dato for aktiviteten.
 * Typen af aktivitet.

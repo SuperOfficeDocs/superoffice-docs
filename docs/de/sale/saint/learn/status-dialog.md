@@ -30,7 +30,7 @@ Das Dialogfeld **Statuskontrollen anzeigen** wird angezeigt, wenn Sie auf ein St
 ## Verwandte Themen
 
 * [Statuskontrollen][2]
-* [Dialogfeld Termin][3]
+* [Dialogfeld Folgeaufgabe][3]
 
 <!-- Referenced links -->
 [1]: using-status-monitors-in-dynamic-selections.md

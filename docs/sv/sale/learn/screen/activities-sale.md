@@ -11,7 +11,7 @@ language: sv
 
 # Detaljkortet Aktiviteter
 
-Detaljkortet **Aktiviteter** visar alla bokningar, uppgifter, telefonsamtal, dokument och e-postmeddelanden som är kopplade till den aktiva försäljningen. Dubbelklicka på en aktivitet på detaljkortet för att visa eller redigera efter behov.
+Detaljkortet **Aktiviteter** visar alla händelseer, dokument och e-postmeddelanden som är kopplade till den aktiva försäljningen. Dubbelklicka på en aktivitet på detaljkortet för att visa eller redigera efter behov.
 
 ## Kolumner på detaljkortet Aktiviteter
 
@@ -19,7 +19,7 @@ Följande kolumner visas på fliken **Aktiviteter**:
 
 * ![ikon][img2]: **Slutförd**-status för en aktivitet. En bock i kryssrutan (![ikon][img1]) betyder att [aktiviteten är slutförd][1], medan en tom ruta betyder att aktiviteten inte är slutförd.
 
-* Den andra kolumnen innehåller ikoner som anger typen av aktivitet, med en kategori för de olika typerna. En telefonikon indikerar till exempel ett telefonsamtal. De här ikonerna återspeglar texten i kolumnen **Typ**.
+* Den andra kolumnen innehåller ikoner som anger typen av aktivitet, med en kategori för de olika typerna. En kalenderikon indikerar till exempel ett möte. De här ikonerna återspeglar texten i kolumnen **Typ**.
 
 * Datum för aktiviteten.
 * Typ av aktivitet.

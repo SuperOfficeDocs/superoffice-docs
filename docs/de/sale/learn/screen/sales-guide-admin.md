@@ -17,7 +17,7 @@ Auf der Registerkarte **Verkaufsleitfaden** in der Ansicht **Workflow** in Super
 
 ## Beispiel
 
-Der Verkaufstyp "Verkauf an neuen Kunden" besteht aus den Stufen "Erstgespräch", "Angebot" und "Vertragsunterzeichnung". Die Stufe "Erstgespräch" kann beispielsweise die Folgeaufgabe "Interessephase" (Termin) und das Dokument "Besprechungseinladung" (E-Mail) beinhalten.
+Der Verkaufstyp "Verkauf an neuen Kunden" besteht aus den Stufen "Erstgespräch", "Angebot" und "Vertragsunterzeichnung". Die Stufe "Erstgespräch" kann beispielsweise die Folgeaufgabe "Interessephase" und das Dokument "Besprechungseinladung" (E-Mail) beinhalten.
 
 ## Was möchten Sie jetzt tun?
 
