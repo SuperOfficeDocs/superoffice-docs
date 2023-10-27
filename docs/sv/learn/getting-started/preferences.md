@@ -35,7 +35,7 @@ Du kan ange inställningar för olika delar av SuperOffice CRM, till exempel ant
 | Knapp | Alternativ | Beskrivning |
 |---|---|---|
 | ![ikon][img1] | Standardvärden | Standardvärdena i SuperOffice CRM. Exempelvis standardbransch för ett nytt företag, standardvaraktighet för händelser, standardmall för utgående dokument. |
-| ![ikon][img2] | Kalender | Standardinställningar för kalender och bokningar, till exempel standardstarttid för arbetsdagen och varaktighet på larm. |
+| ![ikon][img2] | Kalender | Standardinställningar för kalender och händelser, till exempel standardstarttid för arbetsdagen och varaktighet på larm. |
 | ![ikon][img3] | Funktioner | De allmänna inställningarna och funktionerna, bland annat kan du välja om du vill visa Dagens tips när du startar SuperOffice (Visa tips vid start). |
 | ![ikon][img14] | In-app communication | Inställningar för aviseringar i appen. |
 | ![ikon][img4] | E-post | Inställningarna för e-post och fax, till exempel den e-postklient du har installerat. |

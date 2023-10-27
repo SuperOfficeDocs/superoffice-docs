@@ -35,7 +35,7 @@ Du kan angi innstillinger for ulike deler av SuperOffice CRM, for eksempel antal
 | Knapp | Alternativ | Beskrivelse |
 |---|---|---|
 | ![icon][img1] | Standardverdier | Standardverdiene i SuperOffice CRM. For eksempel standard virksomhet for nye firmaer, standard varighet for oppfølginger, standardmalen for utgående dokumenter. |
-| ![icon][img2] | Dagbok | Standardinnstillingene for dagboken og avtalene, for eksempel standard starttid for arbeidsdagen og varigheten av alarmer. |
+| ![icon][img2] | Dagbok | Standardinnstillingene for dagboken og oppfølgingene, for eksempel standard starttid for arbeidsdagen og varigheten av alarmer. |
 | ![icon][img3] | Funksjoner | De generelle innstillingene og funksjonene, inkludert om du vil vise et Dagens tips når du starter SuperOffice (Vis tips ved oppstart). |
 | ![icon][img14] | Kommunikasjon i appen | Innstillingene for meldinger i appen. |
 | ![icon][img4] | E-post | Innstillingene for e-post og faks, for eksempel e-postklienten du har installert. |

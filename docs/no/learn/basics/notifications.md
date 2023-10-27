@@ -60,7 +60,7 @@ Når du klikker på ikonet ![icon][img2] vises panelet for varslingsinnstillinge
 
 Dette er varslingsalternativene:
 
-### Innstillinger for avtalevarsler
+### Innstillinger for oppfølgingsvarsler
 
 * Bli varslet om møteinvitasjoner
 * Bli varslet om endrede møter

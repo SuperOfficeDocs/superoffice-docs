@@ -17,4 +17,4 @@ The columns of the **Activities** section tab contain the following information:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/phone.png
+[img2]: ../../../../common/icons/appointment-task.png

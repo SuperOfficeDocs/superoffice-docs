@@ -59,18 +59,18 @@ Skjermbildene Firma og Person inneholder all informasjon relatert til kundene di
 * [Masseredigering av firma- og personinformasjon][5]
 * [Opprette utvalg for videre handling][6]
 
-### Dagbok og avtaler
+### Dagbok og oppfølginger
 
-SuperOffice-dagboken er hjertet i CRM-systemet ditt. Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele avtaler og aktiviteter knyttet til en person eller et firma, slik at du og teamet ditt enkelt kan holde dere på sporet og jobbe produktivt. Disse veiledningene vil hjelpe deg å lære å jobbe med dagboken.
+SuperOffice-dagboken er hjertet i CRM-systemet ditt. Regelmessig bruk av dagboken hjelper deg med å automatisk koble til og dele møter og aktiviteter knyttet til en person eller et firma, slik at du og teamet ditt enkelt kan holde dere på sporet og jobbe produktivt. Disse veiledningene vil hjelpe deg å lære å jobbe med dagboken.
 
-![Hold oversikt over alle dine avtaler og oppgaver ved å registrere dem i dagboken din -screenshot][img1]
+![Hold oversikt over alle dine møter og oppgaver ved å registrere dem i dagboken din -screenshot][img1]
 
 I tillegg til den vanlige kalenderfunksjonaliteten gir SuperOffice-dagboken deg også muligheten til å koble sammen og organisere aktiviteter i prosjekter og salg. Dette hjelper deg og teamet ditt med å få full oversikt over alle aktiviteter og kommunikasjon koblet til ethvert prosjekt eller salg.
 
-### Oppgaver - dagbok og avtaler
+### Oppgaver - dagbok og oppfølginger
 
-* [Opprett avtaler][8]
-* [Invitere en person til en avtale][10]
+* [Opprett møter][8]
+* [Invitere en person til et møte][10]
 * [Videomøte][11]
 
 ### Behandle dokumentene dine
@@ -88,7 +88,7 @@ SuperOffice Prosjekt hjelper deg med å holde arbeidet organisert og dokumentert
 
 Når du jobber med et prosjekt, trenger du at informasjonen er lett tilgjengelig og delt. Du kan bruke SuperOffice Project til å lagre alle prosjektoppfølginger og dokumenter på ett sted.
 
-Du kan koble alle personer, firmaer, oppgaver, avtaler, prosjektmedlemmer og til og med salgsmuligheter til ett prosjekt i SuperOffice CRM. Du kan også opprette eller laste opp dokumenter og filer til prosjektet.
+Du kan koble alle personer, firmaer, oppfølginger, prosjektmedlemmer og til og med salgsmuligheter til ett prosjekt i SuperOffice CRM. Du kan også opprette eller laste opp dokumenter og filer til prosjektet.
 
 All informasjonen du lagrer i prosjektet er merket med en dato og en eier, noe som gjør det enklere å sortere og filtrere informasjon ved behov.
 

@@ -3,7 +3,7 @@ uid: help-de-activity
 title: Aktivitäten
 description: Aktivitäten in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 09.21.2023
+so.date: 10.27.2023
 keywords: activity
 so.topic: concept
 language: de
@@ -17,46 +17,18 @@ so.audience.tooltip: SuperOffice CRM
 
 ## Typen
 
-Es gibt zwei Typen von Aktivitäten – Dokumente und Folgeaufgaben. Folgeaufgaben ist ein Sammelbegriff für Termine, Anrufe und Aufgaben. Außerdem werden auf der Bereichsregisterkarte **Aktivitäten** Kampagnen, Formularübermittlungen und Chat-Datensätze angezeigt.
+Es gibt zwei Typen von Aktivitäten – Dokumente und Folgeaufgaben. Außerdem werden auf der Bereichsregisterkarte **Aktivitäten** Kampagnen, Formularübermittlungen und Chat-Datensätze angezeigt.
 
 * [Folgeaufgaben][1]
-* [Mit Dokumenten arbeiten][4]
-* [E-Mail verfassen][5]
-* [Chat][12]
-
-In der folgenden Tabelle sind die verschiedenen Arten von Aktivitäten dargestellt.
-
-<!-- markdownlint-disable MD041 MD033 -->
-<table>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<tr>
-<td colspan="7" style="text-align: center;">Aktivitäten</td>
-</tr>
-<tr>
-<td colspan="3" style="text-align: center;">Folgeaufgaben</td>
-<td colspan="2" style="text-align: center;">Dokumente</td>
-<td rowspan="2" style="text-align: center;">Kampagnen/Formularübermittlungen<img src="../../../../common/icons/marketing-h32.png" alt="" /><img src="../../../../common/icons/singlecolour/webform-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chat-Sitzungen<img src="../../../../common/icons/chat-h32.png" alt="" ></td>
-</tr>
-<tr>
-<td><p>Termin<img src="../../../../common/icons/appointment-h32.png" alt="" /></td>
-<td><p>Aufgabe<img src="../../../../common/icons/appointment-task-h32.png" alt="" /></td>
-<td><p>Anruf<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
-<td><p>Dokument<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
-<td><p>E-Mail<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td style="text-align: center;">Kampagnen/Formularübermittlungen<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td style="text-align: center;">Chat-Sitzungen<img src="../../../../common/icons/chat.png" alt="" ></td>
-</tr>
-<tr>
-</tr>
-</table>
-<!-- markdownlint-restore -->
+  * ![icon][img11] Besprechung (Termin)
+  * ![icon][img13] Folgeaufgabe (Anrufe)
+  * ![icon][img12] Zu erledigen (Aufgabe)
+* [Dokumente][4]
+  * ![icon][img14] Dokument (Briefe und andere Dokumente)
+  * ![icon][img15] E-Mails
+* ![icon][img16] [Kampagnen][3] (Massensendungen durch Serienbrief, E-Mail oder SMS)
+* ![icon][img18] [Chat-Datensätze][12]
+* ![icon][img17] Formularübermittlungen
 
 ## Wo finde ich Aktivitäten?
 
@@ -73,17 +45,9 @@ In der folgenden Tabelle sind die verschiedenen Arten von Aktivitäten dargestel
 
 ## <a id="view" />Aktivitäten anzeigen
 
-Welche Aktivitäten angezeigt werden, hängt davon ab, welche der nachfolgenden Kontrollkästchen Sie unten auf der Bereichsregisterkarte aktiviert haben:
+Die angezeigten Aktivitäten hängen von den ausgewählten Filtern am unteren Rand der Bereichsregisterkarte ab. Sie können alle Aktivitäten anzeigen oder nur eine der Arten. Klicken Sie auf die ![Symbol][img5] Filter-Schaltfläche, um Aktivitäten nach Datum und Benutzer zu [filtern][17].
 
-* Folgeaufgaben
-* Dokumente
-* Kampagnen
-* Sonstiges (Chat-Datensätze und Formularübermittlungen)
-
-Sie können entweder alle Aktivitäten oder nur eine bestimmte Art von Aktivitäten anzeigen.
-
-> [!TIP]
-> Sie können [Filteraktivitäten][17] auch nach Datum und Benutzer filtern.
+![Activities section tabs shows filter options of different record types -screenshot][img4]
 
 ## Spalten
 
@@ -91,22 +55,13 @@ Die Spalten der Aktivitäten enthalten folgende Informationen:
 
 * ![Symbol][img1]: In der ersten Spalte der Aktivitätenliste kann eine Aktivität als **Abgeschlossen** festgelegt werden. Wenn das Kontrollkästchen mit einem Häkchen markiert ist, gilt die Aktivität als abgeschlossen. Ist das Kästchen leer, gilt die Aktivität als nicht abgeschlossen.
 
-* Die Spalte Kategorie enthält Symbole, die die Art der Aktivität näher bezeichnen. Ein Telefonsymbol beispielsweise steht für einen Anruf. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
+* Die Spalte Kategorie enthält Symbole, die die Art der Aktivität näher bezeichnen. Ein Kalender-Symbol beispielsweise zeigt ein Treffen an. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
 
 * Die anderen Spalten in der Aktivitätenliste enthalten verschiedene weitere Informationen zu der Aktivität. Wenn der Text in einem Feld nicht vollständig sichtbar ist, zeigen Sie mit der Maus auf den Text, um ihn in einer QuickInfo vollständig anzuzeigen.
 
-Welche Aktivitäten angezeigt werden, hängt davon ab, welche Kontrollkästchen Sie unten auf der Bereichsregisterkarte ausgewählt haben:
-
-* Folgeaufgaben (Termine, Aufgaben und Anrufe)
-* Dokumente (E-Mails, Briefe und andere Dokumente)
-* Kampagnen (Massensendungen durch Serienbrief, E-Mail oder SMS)
-* Sonstiges (Chat-Datensätze, Formularübermittlungen)
-
-Hier können Sie wählen, ob alle oder nur eine Art von Aktivitäten angezeigt werden sollen.
-
 ## Aktivität erstellen
 
-Aktivitäten erstellen Sie über das Menü ![Symbol][img2] **Neu** in der oberen Leiste oder durch Anklicken der Schaltfläche **Hinzufügen** in der Bereichsregisterkarte.
+Aktivitäten erstellen Sie über das Menü **Neu** in der oberen Leiste oder durch Anklicken der Schaltfläche **Hinzufügen** in der Bereichsregisterkarte.
 
 ## <a id="delete" />Aktivität löschen
 
@@ -129,13 +84,14 @@ Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werde
 
 * [Aktivitäten filtern][17]
 * [Status Abgeschlossen für eine Aktivität ändern][10]
-* [Folgeaufgaben (Termine, Aufgaben und Anrufe) hinzufügen][8]
+* [Folgeaufgaben hinzufügen][8]
 * [Personen anrufen][11]
 * [Mit Dokumenten arbeiten][4]
 * [E-Mail verfassen][5]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md
@@ -152,5 +108,14 @@ Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werde
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/plus-black.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
+[img4]: ../../../media/loc/en/learn/activities-filter.png
+[img5]: ../../../../common/icons/filter-icon.png
+[img11]: ../../../../common/icons/appointment.png
+[img12]: ../../../../common/icons/appointment-task.png
+[img13]: ../../../../common/icons/appointment.png
+[img14]: ../../../../common/icons/document.png
+[img15]: ../../../../common/icons/email.png
+[img16]: ../../../../common/icons/marketing.png
+[img17]: ../../../../common/icons/webforms.png
+[img18]: ../../../../common/icons/chat.png

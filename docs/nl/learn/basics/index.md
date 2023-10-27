@@ -59,18 +59,18 @@ De bedrijfs- en persoonsschermen bevatten alle informatie met betrekking tot uw 
 * [Bedrijfs- en persoonsgegevens bulksgewijs bijwerken][5]
 * [Selecties maken voor verdere actie][6]
 
-## Agenda en afspraken
+## Agenda en vervolgactiviteiten
 
-De SuperOffice Agenda is het hart van uw CRM-systeem. Regelmatig gebruik van de agenda helpt u om automatisch afspraken en activiteiten te verbinden en te delen die zijn gekoppeld aan een contactpersoon of een bedrijf, zodat u en uw team moeiteloos op schema kunnen blijven en productief kunnen werken. Deze handleidingen helpen u te leren werken met de agenda.
+De SuperOffice Agenda is het hart van uw CRM-systeem. Regelmatig gebruik van de agenda helpt u om automatisch vervolgactiviteiten en activiteiten te verbinden en te delen die zijn gekoppeld aan een contactpersoon of een bedrijf, zodat u en uw team moeiteloos op schema kunnen blijven en productief kunnen werken. Deze handleidingen helpen u te leren werken met de agenda.
 
-![Houd al uw afspraken en taken bij door ze in uw agenda te registreren -screenshot][img1]
+![Houd al uw vervolgactiviteit bij door ze in uw agenda te registreren -screenshot][img1]
 
 Naast de reguliere kalenderfunctionaliteit geeft SuperOffice Agenda u ook de mogelijkheid om activiteiten te koppelen en te organiseren in projecten en verkopen. Dit helpt u en uw team om te genieten van een volledig overzicht van alle activiteiten en communicatie die verband houden met een project of verkoop.
 
-### Taken - agenda en afspraken
+### Taken - agenda en vervolgactiviteiten
 
-* [Afspraken maken][8]
-* [Een persoon uitnodigen voor een afspraak][10]
+* [Vervolgactiviteiten maken][8]
+* [Een persoon uitnodigen voor een vervolgactiviteit][10]
 * [Videovergadering][11]
 
 ## Uw documenten beheren
@@ -88,7 +88,7 @@ SuperOffice Project helpt u uw werk georganiseerd en gedocumenteerd te houden op
 
 Wanneer u aan een project werkt, moet de informatie gemakkelijk toegankelijk en gedeeld zijn. U kunt SuperOffice Project gebruiken om al uw projectvervolgactiviteiten en documenten op één plek op te slaan.
 
-U kunt alle contactpersonen, bedrijven, taken, afspraken, projectleden en zelfs verkoopkansen verbinden in één project in SuperOffice CRM. U kunt ook documenten en bestanden maken of uploaden naar het project.
+U kunt alle contactpersonen, bedrijven, vervolgactiviteiten, projectleden en zelfs verkoopkansen verbinden in één project in SuperOffice CRM. U kunt ook documenten en bestanden maken of uploaden naar het project.
 
 Alle informatie die u in uw project opslaat, is getagd met een datum en een eigenaar, waardoor het makkelijker wordt om informatie te sorteren en te filteren wanneer dat nodig is.
 

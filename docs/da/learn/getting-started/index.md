@@ -41,7 +41,7 @@ SuperOffice CRM systematiserer og forenkler dine daglige arbejdsopgaver. Fra et 
 
 Med dagbogen har du hele tiden et godt overblik over arbejdsdagen og -ugen. Du kan lave aftaler med andre medarbejdere og reservere fælles ressourcer, for eksempel mødelokaler.
 
-SuperOffice CRM bliver din nye personlige assistent. I SuperOffice CRM kombineres alle de grundlæggende opgaver, du udfører dagligt. Vigtige og opdaterede oplysninger er tilgængelige for alle i virksomheden. Med få klik får du adgang til rapporter, aftaler, salgsrapporter og markedskampagner, og du kan sende e-mailmeddelelser og læse information på internettet. Informationsstrukturen kan tilpasses efter virksomhedens behov.
+SuperOffice CRM bliver din nye personlige assistent. I SuperOffice CRM kombineres alle de grundlæggende opgaver, du udfører dagligt. Vigtige og opdaterede oplysninger er tilgængelige for alle i virksomheden. Med få klik får du adgang til rapporter, møder, salgsrapporter og markedskampagner, og du kan sende e-mailmeddelelser og læse information på internettet. Informationsstrukturen kan tilpasses efter virksomhedens behov.
 
 Ved hjælp af de mobile løsninger fra SuperOffice kan du få adgang til oplysningerne i SuperOffice CRM, uanset om du er på rejse, arbejder hjemmefra eller befinder dig på et afdelingskontor.
 

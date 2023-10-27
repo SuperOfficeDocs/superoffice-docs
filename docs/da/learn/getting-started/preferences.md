@@ -35,7 +35,7 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 | Knap | Mulighed | Beskrivelse |
 |---|---|---|
 | ![ikon][img1] | Standardværdier | Standardværdierne i SuperOffice CRM. F.eks. standardbranche for nyt firma, standardvarighed på poster, standardskabelon for udgående dokumenter. |
-| ![ikon][img2] | Dagbog | Standardindstillinger for dagbog og aftaler, f.eks. standardstarttidspunkt for arbejdsdagen og varigheden af alarmer. |
+| ![ikon][img2] | Dagbog | Standardindstillinger for dagbog og opfølginger, f.eks. standardstarttidspunkt for arbejdsdagen og varigheden af alarmer. |
 | ![ikon][img3] | Funktioner | De generelle indstillinger og funktioner, du kan bl.a. vælge, om du vil vise Dagens tip, når du starter SuperOffice (Vis tip ved opstart). |
 | ![ikon][img14] | Kommunikation i appen | Indstillinger for meddelelser i appen.|
 | ![ikon][img4] | E-mail | Indstillingerne for e-mail og fax, f.eks. den e-mail-klient, du har installeret. |

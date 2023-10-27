@@ -3,7 +3,7 @@ uid: help-da-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 author: SuperOffice RnD
-so.date: 09.21.2023
+so.date: 10.27.2023
 keywords: activity
 so.topic: concept
 language: da
@@ -17,46 +17,18 @@ so.audience.tooltip: SuperOffice CRM
 
 ## Typer
 
-Der findes to typer aktiviteter – dokumenter og opfølgninger. Opfølgninger er en samlebetegnelse for aftaler, opgaver og samtaler. Desuden vises udsendelser, formularindsendelser og chatposter i detaljekortet **Aktiviteter**.
+Der findes to typer aktiviteter – dokumenter og opfølgninger. Desuden vises udsendelser, formularindsendelser og chatposter i detaljekortet **Aktiviteter**.
 
-* [Opfølgninger][1]
-* [Arbejde med dokumenter][4]
-* [Sammensæt en e-mail][5]
-* [Chat][12]
-
-Følgende tabel illustrerer de forskellige aktivitetstyper:
-
-<!-- markdownlint-disable MD041 MD033 -->
-<table>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<tr>
-<td colspan="7" style="text-align: center;">Aktiviteter</td>
-</tr>
-<tr>
-<td colspan="3" style="text-align: center;">Opfølgninger</td>
-<td colspan="2" style="text-align: center;">Dokumenter</td>
-<td rowspan="2" style="text-align: center;">Udsendelser/Formularindsendelser<img src="../../../../common/icons/marketing-h32.png" alt="" /><img src="../../../../common/icons/singlecolour/webform-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chatsessioner<img src="../../../../common/icons/chat-h32.png" alt="" ></td>
-</tr>
-<tr>
-<td><p>Aftale<img src="../../../../common/icons/appointment-h32.png" alt="" /></td>
-<td><p>Opgave<img src="../../../../common/icons/appointment-task-h32.png" alt="" /></td>
-<td><p>Samtale<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
-<td><p>Dokument<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
-<td><p>E-mail<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td style="text-align: center;">Udsendelser/Formularindsendelser<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td style="text-align: center;">Chatsessioner<img src="../../../../common/icons/chat.png" alt="" ></td>
-</tr>
-<tr>
-</tr>
-</table>
-<!-- markdownlint-restore -->
+* [Opfølginger][1]
+  * ![icon][img11] Møde (aftale)
+  * ![icon][img13] Opfølging (samtale)
+  * ![icon][img12] Skal udføres (opgave)
+* [Dokumenter][4]
+  * ![icon][img14] Dokumenter (breve og andre dokumenter)
+  * ![icon][img15] E-mail
+* ![icon][img16] [Udsendelser][3] (masseudsendelser med flettedokument, e-mail eller SMS)
+* ![icon][img18] [Chatposter][12]
+* ![icon][img17] Formularindsendelser
 
 ## Hvor finder jeg aktiviteter?
 
@@ -73,17 +45,9 @@ Følgende tabel illustrerer de forskellige aktivitetstyper:
 
 ## <a id="view" />Vis aktiviteter
 
-De viste aktiviteter afhænger af, hvilke af følgende afkrydsningsfelter, du har markeret nederst på detaljekortet:
+De viste aktiviteter afhænger af de filtre, du vælger nederst på detaljekortet. Du kan vise alle aktiviteter eller bare én type. Klik på ![ikon][img5] Filtrer-knappen for at [filtrere aktiviteter][17] efter dato og bruger.
 
-* Opfølgninger
-* Dokumenter
-* Udsendelser
-* Andet (chatposter og formularindsendelser)
-
-Du kan vise alle aktiviteter eller bare én type.
-
-> [!TIP]
-> Du kan også [filtrere aktiviteter efter dato og bruger][17].
+![Activities section tabs shows filter options of different record types -screenshot][img4]
 
 ## Kolonner
 
@@ -91,22 +55,13 @@ I kolonnerne på aktivitetslisten finder du følgende oplysninger:
 
 * ![ikon][img1]: Den første kolonne på aktivitetslisten angiver statussen **Udført** for en aktivitet. Hvis afkrydsningsfeltet er markeret, betyder det, at aktiviteten er udført, mens et tomt felt betyder, at den ikke er udført.
 
-* Kolonnen Kategori indeholder ikoner, som angiver aktivitetstype, for eksempel en telefon for samtale. Disse ikoner modsvarer teksten i kolonnen **Type**.
+* Kolonnen Kategori indeholder ikoner, som angiver aktivitetstype, for eksempel en kalender for møde. Disse ikoner modsvarer teksten i kolonnen **Type**.
 
 * Resten af kolonnerne på aktivitetslisten viser diverse oplysninger om aktiviteten. Hvis du ikke kan se hele teksten i et felt, kan du holde musemarkøren over teksten for at få den vist i en infoboks.
 
-De viste aktiviteter afhænger af, hvilke af filtre (afkrydsningsfelter), du har markeret nederst på detaljekortet:
-
-* Opfølgninger (aftaler, opgaver og samtaler)
-* Dokumenter (e-mail, breve og andre dokumenter)
-* Udsendelser (masseudsendelser med flettedokument, e-mail eller SMS)
-* Andet (chatposter, formularindsendelser)
-
-Du kan vise alle aktiviteter eller kun én type.
-
 ## Opret aktivitet
 
-Du opretter aktiviteter ved hjælp af menuen ![ikon][img2] **Ny** på toplinjen eller ved at klike på knappen **Tilføj** i detaljekortet.
+Du opretter aktiviteter ved hjælp af menuen **Ny** på toplinjen eller ved at klike på knappen **Tilføj** i detaljekortet.
 
 ## <a id="delete" />Slet aktivitet
 
@@ -129,13 +84,14 @@ Du kan slette aktiviteter fra enhver skærm, hvor de vises:
 
 * [Filtrering af aktiviteter][17]
 * [Ændring af status Udført for en aktivitet][10]
-* [Tilføjelse af opfølgninger (aftaler, opgaver og samtaler)][8]
+* [Tilføjelse af opfølgninger][8]
 * [Opkald til personer][11]
 * [Arbejde med dokumenter][4]
 * [Sammensæt en e-mail][5]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md
@@ -152,5 +108,14 @@ Du kan slette aktiviteter fra enhver skærm, hvor de vises:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/plus-black.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
+[img4]: ../../../media/loc/en/learn/activities-filter.png
+[img5]: ../../../../common/icons/filter-icon.png
+[img11]: ../../../../common/icons/appointment.png
+[img12]: ../../../../common/icons/appointment-task.png
+[img13]: ../../../../common/icons/appointment.png
+[img14]: ../../../../common/icons/document.png
+[img15]: ../../../../common/icons/email.png
+[img16]: ../../../../common/icons/marketing.png
+[img17]: ../../../../common/icons/webforms.png
+[img18]: ../../../../common/icons/chat.png

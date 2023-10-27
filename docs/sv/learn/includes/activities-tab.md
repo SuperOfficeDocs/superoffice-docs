@@ -2,7 +2,7 @@
 I kolumnerna på detaljkortet **Aktiviteter** finns följande information:
 
 * ![ikon][img1]: Den första kolumnen på detaljkortet **Aktiviteter** anger statusen **Slutfört** för aktiviteten. En bock i kolumnen betyder att [aktiviteten är slutförd][1]. Om kolumnen är tom betyder detta att aktiviteten inte är slutförd.
-* Den andra kolumnen innehåller ikoner som anger aktivitetskategorin, till exempel ![ikon][img2] för samtal.
+* Den andra kolumnen innehåller ikoner som anger aktivitetskategorin, till exempel ![ikon][img2] för att göra.
 * Datuminformation:
   * Dokument: Visar datum då dokumentet registrerades.
   * Händelser: Visar datum då händelsen äger rum.
@@ -17,4 +17,4 @@ I kolumnerna på detaljkortet **Aktiviteter** finns följande information:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/phone.png
+[img2]: ../../../../common/icons/appointment-task.png

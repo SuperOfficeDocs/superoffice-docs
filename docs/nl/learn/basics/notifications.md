@@ -60,7 +60,7 @@ Wanneer u op het ![pictogram][img2] pictogram klikt, wordt het deelvenster met m
 
 Dit zijn de meldingsopties:
 
-### Voorkeuren voor afspraakmeldingen
+### Voorkeuren voor vervolgactiviteitmeldingen
 
 * Meldingen weergeven voor uitnodigingen voor vergaderingen
 * Meldingen weergeven voor gewijzigde vergaderingen

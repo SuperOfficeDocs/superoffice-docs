@@ -3,7 +3,7 @@ uid: help-sv-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 author: SuperOffice RnD
-so.date: 09.21.2023
+so.date: 10.27.2023
 keywords: activity
 so.topic: concept
 language: sv
@@ -17,46 +17,18 @@ so.audience.tooltip: SuperOffice CRM
 
 ## Typer
 
-Det finns två typer av aktiviteter – dokument och händelser. Händelser är en samlingsbeteckning för bokningar, uppgifter och samtal. Dessutom visas utskick, formulärinlämningar och chattuppföljningar på detaljkortet **Aktiviteter**.
+Det finns två typer av aktiviteter – dokument och händelser. Dessutom visas utskick, formulärinlämningar och chattuppföljningar på detaljkortet **Aktiviteter**.
 
 * [Händelser][1]
-* [Arbeta med dokument][4]
-* [Skriv ett e-postmeddelande][5]
-* [Chatt][12]
-
-Tabellen nedan visar de olika aktivitetstyperna:
-
-<!-- markdownlint-disable MD041 MD033 -->
-<table>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<tr>
-<td colspan="7" style="text-align: center;">Aktiviteter</td>
-</tr>
-<tr>
-<td colspan="3" style="text-align: center;">Uppföljningar</td>
-<td colspan="2" style="text-align: center;">Dokument</td>
-<td rowspan="2" style="text-align: center;">Utskick/formulärinlämningar<img src="../../../../common/icons/marketing-h32.png" alt="" /><img src="../../../../common/icons/singlecolour/webform-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chattsessioner<img src="../../../../common/icons/chat-h32.png" alt="" ></td>
-</tr>
-<tr>
-<td><p>Bokning<img src="../../../../common/icons/appointment-h32.png" alt="" /></td>
-<td><p>Uppgift<img src="../../../../common/icons/appointment-task-h32.png" alt="" /></td>
-<td><p>Samtal<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
-<td><p>Dokument<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
-<td><p>E-post<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td style="text-align: center;">Utskick/formulärinlämningar<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td style="text-align: center;">Chattsessioner<img src="../../../../common/icons/chat.png" alt="" ></td>
-</tr>
-<tr>
-</tr>
-</table>
-<!-- markdownlint-restore -->
+  * ![icon][img11] Möte (bokning)
+  * ![icon][img13] Händelse (samtal)
+  * ![icon][img12] Att göra (uppgift)
+* [Dokument][4]
+  * ![icon][img14] Dokument (brev och andra dokument)
+  * ![icon][img15] E-post
+* ![icon][img16] [Utskick][3] (massutskick med massbrevsmall, e-post eller SMS)
+* ![icon][img18] [Chattposter][12]
+* ![icon][img17] Formulärinlämningar
 
 ## Var hittar jag aktiviteter?
 
@@ -73,17 +45,9 @@ Tabellen nedan visar de olika aktivitetstyperna:
 
 ## <a id="view" />Visa aktiviteter
 
-Vilka aktiviteter som visas beror på vilka av nedanstående alternativ du har markerat längst ned på detaljkortet:
+Vilka aktiviteter som visas beror på vilka filter du väljer längst ned på detaljkortet. Du kan välja att visa alla aktiviteter eller en av typerna. Klicka på ![ikon][img5] Filtrera-knappen för att [filtrera aktiviteter][17] efter datum och användare.
 
-* Uppföljningar
-* Dokument
-* Utskick
-* Annat (chattposter och formulärinlämningar)
-
-Du kan välja att visa alla aktiviteter eller en av typerna.
-
-> [!TIP]
-> Du kan även [filtrera aktiviteter][17] efter datum och användare.
+![Activities section tabs shows filter options of different record types -screenshot][img4]
 
 ## Kolumner
 
@@ -91,22 +55,13 @@ I kolumnerna i aktivitetslistan finns följande information:
 
 * ![ikon][img1]: Den första kolumnen i aktivitetslistan anger **Slutfört**-status för en aktivitet. En bock i kolumnen betyder att aktiviteten är slutförd. Om kolumnen är tom betyder detta att aktiviteten inte är slutförd.
 
-* Kolumnen Kategori innehåller ikoner som anger typ av aktivitet, till exempel en telefon för samtal. De här ikonerna återspeglar texten i kolumnen **Typ**.
+* Kolumnen Kategori innehåller ikoner som anger typ av aktivitet, till exempel en kalender indikerar ett möte. De här ikonerna återspeglar texten i kolumnen **Typ**.
 
 * Resten av kolumnerna i aktivitetslistan visar information om aktiviteten. Om du inte ser all text i ett fält kan du hålla muspekaren över texten så visas den i en inforuta.
 
-Vilka aktiviteter som visas beror på vilka kryssrutor du markerar längst ned på detaljkortet.
-
-* Händelser (bokningar, uppgifter och samtal)
-* Dokument (e-post, brev och andra dokument)
-* Utskick (massutskick med massbrevsmall, e-post eller SMS)
-* Annat (chattposter, formulärinlämningar)
-
-Du kan visa alla aktiviteter eller bara en typ av aktivitet.
-
 ## Skapa en aktivitet
 
-Du skapar aktiviteter med ![ikon][img2] **Ny** på toppraden, eller genom att dubbelklicka på knappen **Lägg till** på avsnittsfliken.
+Du skapar aktiviteter med **Ny** på toppraden, eller genom att dubbelklicka på knappen **Lägg till** på avsnittsfliken.
 
 ## <a id="delete" />Ta bort aktivitete
 
@@ -129,13 +84,14 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
 
 * [Filtrera aktiviteter][17]
 * [Ändra Slutfört-status för en aktivitet][10]
-* [Lägga till händelser (bokningar, uppgifter och samtal)][8]
+* [Lägga till händelser][8]
 * [Ringa till kontakter][11]
 * [Arbeta med dokument][4]
 * [Skriv ett e-postmeddelande][5]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md
@@ -152,5 +108,14 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/plus-black.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
+[img4]: ../../../media/loc/en/learn/activities-filter.png
+[img5]: ../../../../common/icons/filter-icon.png
+[img11]: ../../../../common/icons/appointment.png
+[img12]: ../../../../common/icons/appointment-task.png
+[img13]: ../../../../common/icons/appointment.png
+[img14]: ../../../../common/icons/document.png
+[img15]: ../../../../common/icons/email.png
+[img16]: ../../../../common/icons/marketing.png
+[img17]: ../../../../common/icons/webforms.png
+[img18]: ../../../../common/icons/chat.png

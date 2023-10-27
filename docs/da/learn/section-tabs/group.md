@@ -13,7 +13,7 @@ language: da
 
 En god måde at bestille oplysninger på for at finde, gennemgå og få adgang til oplysninger effektivt er ved at gruppere oplysningerne. Gruppering af oplysninger betyder, at du sorterer oplysninger som et sæt personer eller ting, der har noget til fælles.
 
-Du kan gruppere oplysningerne i et arkiv efter alle felter/kolonner i arkivet. Du kan f.eks. gruppere en liste over aktiviteter efter kategori, så du kan få vist alle dine aftaler eller webformularer. Gruppér en liste over sager efter kategori og status, så du kan få et overblik over sagsstatusser pr. kategori.
+Du kan gruppere oplysningerne i et arkiv efter alle felter/kolonner i arkivet. Du kan f.eks. gruppere en liste over aktiviteter efter kategori, så du kan få vist alle dine opfølginger eller webformularer. Gruppér en liste over sager efter kategori og status, så du kan få et overblik over sagsstatusser pr. kategori.
 
 Gruppering er personlig. De kolonner, du bruger til at gruppere dine oplysninger, er kun synlige for dig, og du kan tilføje og fjerne så mange grupper, du vil.
 

@@ -3,7 +3,7 @@ uid: help-en-activity
 title: Activities
 description: Activities in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 09.21.2023
+so.date: 10.27.2023
 keywords: activity
 so.topic: concept
 language: en
@@ -61,7 +61,7 @@ The activities list columns contain the following information:
 
 ## Create activity
 
-You create activities using the ![icon][img2] **New** menu in the top bar, or by clicking **Add** button in the section tab.
+You create activities using the **New** menu in the top bar, or by clicking **Add** button in the section tab.
 
 ## <a id="delete" />Delete activity
 
@@ -108,7 +108,6 @@ You can delete activities from any screen where they are displayed:
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/plus-black.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
 [img5]: ../../../../common/icons/filter-icon.png

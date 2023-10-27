@@ -35,7 +35,7 @@ U kunt instellingen voor verschillende onderdelen van SuperOffice CRM definiëre
 | Knop | Optie | Beschrijving |
 |---|---|---|
 | ![pictogram][img1] | Standaardwaarden | De standaardwaarden in SuperOffice CRM. Bijvoorbeeld de standaardactiviteiten voor nieuwe bedrijven, de standaardduur van vervolgactiviteiten, de standaardsjabloon voor uitgaande documenten. |
-| ![pictogram][img2] | Agenda | De standaardinstellingen in voor de agenda en afspraken, zoals de standaard starttijd van de werkdag en de duur van alarmen. |
+| ![pictogram][img2] | Agenda | De standaardinstellingen in voor de agenda en vervolgactiviteiten, zoals de standaard starttijd van de werkdag en de duur van alarmen. |
 | ![pictogram][img3] | Functies | De algemene instellingen en functies, inclusief of u een tip van de dag wilt weergeven wanneer u SuperOffice start (Tips weergeven bij openen). |
 | ![icon][img14] | In-app communicatie | De instellingen voor communicatie in SuperOffice CRM. |
 | ![pictogram][img4] | E-mail | De instellingen voor e-mail en fax, bijvoorbeeld de e-mailclient die u hebt geïnstalleerd. |

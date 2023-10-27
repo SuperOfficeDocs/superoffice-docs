@@ -41,7 +41,7 @@ SuperOffice CRM maakt de dagelijkse kantoorwerkzaamheden en procedures eenvoudig
 
 Met de agenda beschikt u altijd en overal over een volledig en duidelijk overzicht van uw dagelijkse en wekelijkse werkzaamheden. U kunt activiteiten plannen met collega's en gemeenschappelijke bedrijfsmiddelen reserveren, zoals vergaderruimten.
 
-SuperOffice CRM is uw nieuwe persoonlijke assistent die alle basistaken combineert die u dagelijks uitvoert. Belangrijke en bijgewerkte gegevens zijn voor iedereen in het bedrijf toegankelijk. Met slechts enkele muisklikken hebt u toegang tot rapporten, afspraken, verkooprapporten en marketingcampagnes. Verder kunt u e-mail verzenden en informatie raadplegen op het Internet. De informatiestructuur kan eenvoudig worden aangepast aan de behoeften van uw bedrijf.
+SuperOffice CRM is uw nieuwe persoonlijke assistent die alle basistaken combineert die u dagelijks uitvoert. Belangrijke en bijgewerkte gegevens zijn voor iedereen in het bedrijf toegankelijk. Met slechts enkele muisklikken hebt u toegang tot rapporten, vervolgactiviteiten, verkooprapporten en marketingcampagnes. Verder kunt u e-mail verzenden en informatie raadplegen op het Internet. De informatiestructuur kan eenvoudig worden aangepast aan de behoeften van uw bedrijf.
 
 Met behulp van de mobiele oplossingen van SuperOffice hebt u toegang tot de informatie in SuperOffice CRM, ongeacht of u op zakenreis bent, thuis werkt of op een afdeling op kantoor.
 

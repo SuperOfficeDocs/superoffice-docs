@@ -3,7 +3,7 @@ uid: help-nl-activity
 title: Activiteiten
 description: Activiteiten in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 09.21.2023
+so.date: 10.27.2023
 keywords: activiteit
 so.topic: concept
 language: nl
@@ -17,46 +17,18 @@ so.audience.tooltip: SuperOffice CRM
 
 ## Types
 
-Er zijn twee typen activiteiten – documenten en vervolgactiviteiten. Vervolgactiviteiten is een verzamelnaam voor afspraken, telefoongesprekken en taken. Daarnaast worden mailings, formulierverzendingen en chatrecords weergegeven op het sectietabblad **Activiteiten**.
+Er zijn twee typen activiteiten – documenten en vervolgactiviteiten. Daarnaast worden mailings, formulierverzendingen en chatrecords weergegeven op het sectietabblad **Activiteiten**.
 
 * [Vervolgactiviteiten][1]
-* [Werken met documenten][4]
-* [Een e-mailbericht schrijven][5]
-* [Chatten][12]
-
-De tabel hieronder geeft de verschillende typen activiteiten weer:
-
-<!-- markdownlint-disable MD041 MD033 -->
-<table>
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<col />
-<tr>
-<td colspan="7" style="text-align: center;">Activiteiten</td>
-</tr>
-<tr>
-<td colspan="3" style="text-align: center;">Vervolgactiviteiten</td>
-<td colspan="2" style="text-align: center;">Documenten</td>
-<td rowspan="2" style="text-align: center;">Mailings / Formulierverzendingen<img src="../../../../common/icons/marketing-h32.png" alt="" /><img src="../../../../common/icons/singlecolour/webform-h32.png" alt="" /></td>
-<td rowspan="2" style="text-align: center;">Chatsessies<img src="../../../../common/icons/chat-h32.png" alt="" ></td>
-</tr>
-<tr>
-<td><p>Afspraak<img src="../../../../common/icons/appointment-h32.png" alt="" /></td>
-<td><p>Taak<img src="../../../../common/icons/appointment-task-h32.png" alt="" /></td>
-<td><p>Gesprek<img src="../../../../common/icons/phone-h32.png" alt="" /></td>
-<td><p>Document<p><img src="../../../../common/icons/document-h32.png" alt="" /></td>
-<td><p>E-mail<img src="../../../../common/icons/nav-inbox-h32.png" alt="" /></td>
-<td style="text-align: center;">Mailings / Formulierverzendingen<img src="../../../../common/icons/marketing.png" alt="" /><img src="../../../../common/icons/singlecolour/webform.png" alt="" /></td>
-<td style="text-align: center;">Chatsessies<img src="../../../../common/icons/chat.png" alt="" ></td>
-</tr>
-<tr>
-</tr>
-</table>
-<!-- markdownlint-restore -->
+  * ![icon][img11] Vergadering (afsprak)
+  * ![icon][img13] Vervolgactiviteit (gesprekken)
+  * ![icon][img12] Taak
+* [Documenten][4]
+  * ![icon][img14] Document (brieven en andere documenten)
+  * ![icon][img15] E-mail
+* ![icon][img16] [Mailings][3] (bulkmailings op samengevoegd document, e-mail of SMS)
+* ![icon][img18] [Chatrecords][12]
+* ![icon][img17] Formulierverzendingen
 
 ## Waar vind ik activiteiten?
 
@@ -73,17 +45,9 @@ De tabel hieronder geeft de verschillende typen activiteiten weer:
 
 ## <a id="view" />Activiteiten weergeven
 
-Welke activiteiten worden weergegeven, is afhankelijk van de volgende selectievakjes die u onder aan het sectietabblad hebt ingeschakeld:
+Welke activiteiten worden weergegeven, is afhankelijk van de filters die je onderaan het sectietabblad selecteert. U kunt naar keus alle activiteiten weergeven of slechts één type. Klik op de ![icoon][img5] Filter-knop om activiteiten te [filteren][17] op datum en gebruiker.
 
-* Vervolgactiviteiten
-* Documenten
-* Mailings
-* Anders (chatrecords en formulierverzendingen)
-
-U kunt naar keus alle activiteiten weergeven of slechts één type.
-
-> [!TIP]
-> U kunt [activiteiten ook filteren][17] op datum of gebruiker.
+![Activities section tabs shows filter options of different record types -screenshot][img4]
 
 ## Kolommen
 
@@ -91,22 +55,13 @@ De activiteitenlijst bevat de volgende informatie:
 
 * ![pictogram][img1]: de eerste kolom in de activiteitenlijst geeft de status **Voltooid** aan voor een activiteit. Een vinkje betekent dat de activiteit is voltooid, een leeg vakje dat de activiteit nog niet is voltooid.
 
-* De kolom Categorie bevat pictogrammen die het type activiteit aangeven, bijvoorbeeld een telefoon voor een telefoongesprek. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
+* De kolom Categorie bevat pictogrammen die het type activiteit aangeven, bijvoorbeeld een kalenderpictogram geeft een vergadering aan. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
 
-* de andere kolommen in de activiteitenlijst geven uiteenlopende informatie weer over de activiteit. Als u niet alle tekst in een veld kunt zien, plaatst u de muisaanwijzer op de tekst om het in de vorm van knopinfo weer te geven.
-
-Welke activiteiten worden weergegeven, is afhankelijk van de selectievakjes die u onder aan het sectietabblad selecteert:
-
-* Vervolgactiviteiten (afspraken, taken en gesprekken)
-* Documenten (e-mail, brieven en andere documenten)
-* Mailings (bulkmailings op samengevoegd document, e-mail of SMS)
-* Anders (chatrecords, formulierverzendingen)
-
-U kunt naar keus alle activiteiten weergeven of slechts een type.
+* De andere kolommen in de activiteitenlijst geven uiteenlopende informatie weer over de activiteit. Als u niet alle tekst in een veld kunt zien, plaatst u de muisaanwijzer op de tekst om het in de vorm van knopinfo weer te geven.
 
 ## Activiteit maken
 
-U creëert activiteiten met het ![pictogram][img2] menu **Nieuw** in de bovenste balk of door te klikken op de knop **Toevoegen** in het sectietabblad.
+U creëert activiteiten met het menu **Nieuw** in de bovenste balk of door te klikken op de knop **Toevoegen** in het sectietabblad.
 
 ## <a id="delete" />Activiteit verwijderen
 
@@ -129,13 +84,14 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 
 * [Activiteiten filteren][17]
 * [De status Voltooid voor een activiteit wijzigen][10]
-* [Vervolgactiviteiten toevoegen (afspraken, taken en gesprekken)][8]
+* [Vervolgactiviteiten toevoegen][8]
 * [Contactpersonen bellen][11]
 * [Werken met documenten][4]
 * [Een e-mailbericht schrijven][5]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
+[3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
 [6]: ../../diary/learn/screen/activities-tab.md
@@ -152,5 +108,14 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.png
-[img2]: ../../../../common/icons/plus-black.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
+[img4]: ../../../media/loc/en/learn/activities-filter.png
+[img5]: ../../../../common/icons/filter-icon.png
+[img11]: ../../../../common/icons/appointment.png
+[img12]: ../../../../common/icons/appointment-task.png
+[img13]: ../../../../common/icons/appointment.png
+[img14]: ../../../../common/icons/document.png
+[img15]: ../../../../common/icons/email.png
+[img16]: ../../../../common/icons/marketing.png
+[img17]: ../../../../common/icons/webforms.png
+[img18]: ../../../../common/icons/chat.png
