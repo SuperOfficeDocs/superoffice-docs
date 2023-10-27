@@ -11,7 +11,7 @@ language: no
 
 # Lage snarveier til oppføringer i SuperOffice CRM
 
-Du kan lage snarveier til en oppføring i SuperOffice CRM, for eksempel en person, en avtale, et salg eller et bilde. Andre interne brukere kan klikke på denne snarveien for å komme raskt til den aktuelle oppføringen.
+Du kan lage snarveier til en oppføring i SuperOffice CRM, for eksempel en person, en oppfølging, et salg eller et bilde. Andre interne brukere kan klikke på denne snarveien for å komme raskt til den aktuelle oppføringen.
 
 Alternativet **Kopier snarvei** er tilgjengelig her:
 

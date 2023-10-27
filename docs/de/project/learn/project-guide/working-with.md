@@ -79,10 +79,10 @@ Sie erfassen ein neues Projekt und wählen den Projekttyp **Konferenz**, der mit
 
 ### Status Geplant
 
-1. Sie haben einen Besprechungstermin festgelegt und möchten den Termin **Recherche** im Kalender eintragen sowie Teilnehmer einladen.
+1. Sie haben einen Besprechungstermin festgelegt und möchten die Folgeaufgabe **Recherche** im Kalender eintragen sowie Teilnehmer einladen.
 
     1. Klicken Sie im Projektleitfaden auf **Erstellen** neben der Folgeaufgabe **Recherche**.
-        Das Dialogfeld **Termin** wird geöffnet, in dem **Meeting (intern)** als Termintyp angegeben ist und der Name des Projekts bereits eingegeben ist.
+        Das Dialogfeld **Folgeaufgabe** wird geöffnet, in dem **Meeting (intern)** als Typ angegeben ist und der Name des Projekts bereits eingegeben ist.
     1. [Vervollständigen Sie die Information und laden Sie Teilnehmer ein][2].
     1. Klicken Sie auf **Speichern**.
 
@@ -119,7 +119,7 @@ Sie erfassen ein neues Projekt und wählen den Projekttyp **Konferenz**, der mit
     1. Klicken Sie auf **Erstellen** neben der Folgeaufgabe **Liste mit Projektmitgliedern erstellen**.
         Das Dialogfeld **Aufgabe zu Projektmitglied zuweisen** wird geöffnet.
 
-    1. Wählen Sie in der Liste der Projektmitglieder die Person aus, der Sie die Aufgabe zuweisen möchten, und klicken Sie auf **OK**. Das Dialogfeld **Termin** wird geöffnet.
+    1. Wählen Sie in der Liste der Projektmitglieder die Person aus, der Sie die Folgeaufgabe zuweisen möchten, und klicken Sie auf **OK**.
 
     1. Geben Sie die erforderlichen Informationen ein und klicken Sie auf **Speichern**. (Auf der Registerkarte **Details** wird angezeigt, dass Ihr Kollege bereits als Eigentümer definiert ist.)
 
@@ -135,7 +135,7 @@ Sie erfassen ein neues Projekt und wählen den Projekttyp **Konferenz**, der mit
 1. Schließlich findet die Konferenz statt. Sie erstellen die Besprechung **Konferenz**.
 
     1. Klicken Sie neben der Folgeaufgabe **Konferenz** auf **Erstellen**.
-        Das Dialogfeld **Termin** wird geöffnet, in dem **Meeting (extern)** als Termintyp angegeben und der Name des Projekts bereits eingegeben ist.
+        Das Dialogfeld **Folgeaufgabe** wird geöffnet, in dem **Meeting (extern)** als Typ angegeben und der Name des Projekts bereits eingegeben ist.
     2. Geben Sie die erforderlichen Informationen ein, und laden Sie die Konferenzteilnehmer auf die übliche Weise ein.
     3. Klicken Sie auf **Speichern**.
 
@@ -149,7 +149,7 @@ Sie erfassen ein neues Projekt und wählen den Projekttyp **Konferenz**, der mit
 
 1. Sie möchten eine interne Besprechung abhalten, um die Konferenz zusammenzufassen.
 
-    1. Klicken Sie neben dem Termin **Auswertungsmeeting** auf die Schaltfläche **Erstellen** und erstellen Sie den Termin auf die übliche Art und Weise.
+    1. Klicken Sie neben der Folgeaufgabe **Auswertungsmeeting** auf die Schaltfläche **Erstellen**, geben Sie die erforderlichen Informationen ein, und klicken Sie auf **Speichern**.
     2. Aktivieren Sie das Kontrollkästchen, nachdem der Termin abgeschlossen wurde.
 
 1. Anschließend möchten Sie einen Auswertungsbericht erstellen, der das Auswertungsmeeting und die Konferenz zusammenfasst.

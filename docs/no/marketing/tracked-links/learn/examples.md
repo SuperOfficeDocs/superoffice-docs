@@ -22,7 +22,7 @@ Sporbare koblinger kan brukes på flere nyttige måter:
 
 * **Prospektliste**: Hvis du skal lansere et nytt produkt, kan mottakerne melde sin interesse for produktet ved å klikke på koblingen "Jeg vil gjerne ha et tilbud". De som klikker på koblingen, kan bli lagt til i et statisk utvalg i SuperOffice CRM, som selgerne kan bruke til å behandle videre kontakt med kundene.
 
-* **Oppgaver/avtaler for selgere i SuperOffice CRM**: Et alternativ til prospektlisten i eksempelet ovenfor er å generere en oppgave/avtale for selgere/kundekontakter for hvert koblingsklikk. Et klikk på koblingen "Kontakt meg" kan for eksempel generere en avtale i SuperOffice CRM av typen "Telefon ut" for personen hos den aktuelle kunden. I tillegg kan avtalen knyttes til et aktuelt prosjekt i SuperOffice CRM, for eksempel en markedsføringskampanje.
+* **Oppfølging for selgere i SuperOffice CRM**: Et alternativ til prospektlisten i eksempelet ovenfor er å generere en oppgave eller møte for selgere/kundekontakter for hvert koblingsklikk. Et klikk på koblingen "Kontakt meg" kan for eksempel generere en oppfølging i SuperOffice CRM av typen "Telefon ut" for personen hos den aktuelle kunden. I tillegg kan oppfølgingen knyttes til et aktuelt prosjekt i SuperOffice CRM, for eksempel en markedsføringskampanje.
 
 * **Avmelding**: I innholdsredigeringsprogrammet kan du [sette inn en kobling for avmelding][1] fra en bestemt utsendelsestype. Dette innebærer at kunden ikke lenger mottar denne utsendelsestypen fra SuperOffice Marketing, uansett hvilken mottakerliste som brukes til utsendelsen.
 

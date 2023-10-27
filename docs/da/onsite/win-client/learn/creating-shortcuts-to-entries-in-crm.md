@@ -11,7 +11,7 @@ language: da
 
 # Oprettelse af genveje til poster i SuperOffice CRM
 
-Du kan oprette genveje til en post i SuperOffice CRM, f.eks. en kontakt, en aftale, et salg eller et skærmbillede. Andre interne brugere kan klikke på denne genvej for hurtigt at åbne den pågældende post.
+Du kan oprette genveje til en post i SuperOffice CRM, f.eks. en kontakt, en opfølging, et salg eller et skærmbillede. Andre interne brugere kan klikke på denne genvej for hurtigt at åbne den pågældende post.
 
 Indstillingen **Kopier genvej** er tilgængelig her:
 

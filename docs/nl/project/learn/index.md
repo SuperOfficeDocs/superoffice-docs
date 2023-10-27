@@ -17,7 +17,7 @@ U kunt elke activiteit koppelen aan een extern bedrijf en aan een project. U kun
 
 Projecten helpen u uw werk georganiseerd en gedocumenteerd op één plek te houden, zodat u en uw team een betere controle hebben en de samenwerking kunnen verbeteren.
 
-U kunt alle personen, bedrijven, taken, afspraken, projectleden en zelfs verkoopkansen verbinden in één project in SuperOffice CRM. U kunt ook documenten en bestanden maken of uploaden naar het project.
+U kunt alle personen, bedrijven, vervolgactiviteiten, projectleden en zelfs verkoopkansen verbinden in één project in SuperOffice CRM. U kunt ook documenten en bestanden maken of uploaden naar het project.
 
 Alle informatie die u in uw project opslaat, is gemarkeerd met een datum en een eigenaar, waardoor het makkelijker wordt om informatie te sorteren en te filteren wanneer dat nodig is.
 

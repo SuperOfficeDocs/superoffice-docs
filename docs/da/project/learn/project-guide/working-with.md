@@ -79,10 +79,10 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 
 ### Statussen Planlagt
 
-1. Du har aftalt mødetidspunktet, og du vil oprette aftalen **Planlægningsmøde** i dagbogen samt invitere deltagere.
+1. Du har aftalt mødetidspunktet, og du vil oprette opfølgingen **Planlægningsmøde** i dagbogen samt invitere deltagere.
 
     1. I projektguiden klikker du på knappen **Opret** ved siden af opfølgningen **Planlægningsmøde**.
-        Dialogboksen **Aftale** åbnes med **Møde inde** angivet som aftaletype og navnet på projektet færdigudfyldt.
+        Dialogboksen **Opfølging** åbnes med **Møde inde** angivet som type og navnet på projektet færdigudfyldt.
     1. [Udfyld informationer, og inviter deltagere.][2]
     1. Klik på **Gem**.
 
@@ -119,7 +119,7 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
     1. Klik på **Opret** ved siden af opfølgningen **Opret en liste over projektdeltagere**.
         Dialogboksen **Overfør opgaven til en projektdeltager** vises.
 
-    1. På listen over projektdeltagere vælger du den person, der skal have ansvaret for opgaven og klikker på **OK**. Dialogboksen **Aftale** vises.
+    1. På listen over projektdeltagere vælger du den person, der skal have ansvaret for opfølgingen og klikker på **OK**.
 
     1. Indtast de ønskede oplysninger, og klik til sidst på **Gem**. (På fanen **Detaljer** kan du se, at din kollega allerede er angivet som ejer af opgaven.)
 
@@ -135,7 +135,7 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 1. Til sidst skal selve konferencen afholdes. Du opretter **Konference**-mødet.
 
     1. Klik på **Opret** ved siden af opfølgningen **Konference**.
-        Dialogboksen **Aftale** åbnes med **Møde ude** angivet som aftaletype og navnet på projektet færdigudfyldt.
+        Dialogboksen **Opfølgingen** åbnes med **Møde ude** angivet som type og navnet på projektet færdigudfyldt.
     2. Udfyld oplysningen og inviter konferencedeltagerne, som du plejer.
     3. Klik på **Gem**.
 
@@ -149,8 +149,8 @@ Du registrerer et nyt projekt og vælger projekttypen **Konference**, som er til
 
 1. Du vil holde et møde internt for at opsummere konferencen.
 
-    1. Klik på **Opret** ved siden af aftalen **Evalueringsmøde**, og opret aftalen på normal vis.
-    2. Når aftalen er udført, markerer du afkrydsningsfeltet.
+    1. Klik på **Opret** ved siden af opfølgingen **Evalueringsmøde**, udfyld oplysningen, og klik på **Gem**.
+    2. Når mødet er udført, markerer du afkrydsningsfeltet.
 
 1. Derefter vil du oprette en evalueringsrapport, som opsummerer evalueringsmødet og konferencen.
 

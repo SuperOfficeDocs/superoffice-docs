@@ -18,14 +18,14 @@ SuperOffice CRM understøtter opfølgninger i forskellige tidszoner. Du kan se, 
 
 ## Hvordan fungerer tidszoner i SuperOffice CRM?
 
-Tidszonefunktionaliteten kan være nyttig, hvis firmaet har kontorer i flere lande med forskellige tidszoner, og du skal planlægge møder eller telefonkonferencer med nogen, som arbejder i et land med en anden tidszone end dit eget land. Aftalen oprettes i så fald i den tidszone, som svarer til det land, du har valgt.
+Tidszonefunktionaliteten kan være nyttig, hvis firmaet har kontorer i flere lande med forskellige tidszoner, og du skal planlægge møder eller telefonkonferencer med nogen, som arbejder i et land med en anden tidszone end dit eget land. Opfølgingen oprettes i så fald i den tidszone, som svarer til det land, du har valgt.
 
-Hvis dit hovedkontor f.eks. ligger i Danmark, og du skal have et møde med personer i datterselskaberne, som befinder sig i Finland og USA, kan du oprette aftaletidspunkterne med dansk tid og derefter kontrollere, hvornår det er i amerikansk og finsk tid. På den måde kan du f.eks. undgå at oprette en aftale, som foregår midt om natten amerikansk tid. Hos dem, du inviterer til aftalen, vises aftalen i den tidszone, de har angivet i deres egen SuperOffice CRM-klient, selvom du har oprettet aftalen i dansk tid.
+Hvis dit hovedkontor f.eks. ligger i Danmark, og du skal have et møde med personer i datterselskaberne, som befinder sig i Finland og USA, kan du oprette mødetidspunkterne med dansk tid og derefter kontrollere, hvornår det er i amerikansk og finsk tid. På den måde kan du f.eks. undgå at oprette et møde, som foregår midt om natten amerikansk tid. Hos dem, du inviterer til mødet, vises mødet i den tidszone, de har angivet i deres egen SuperOffice CRM-klient, selvom du har oprettet mødet i dansk tid.
 
 Funktionen understøtter sommertid.
 
 > [!NOTE]
-> Aftaler, som du har oprettet, før du aktiverede tidszoner, bevares i den tidszone, som er standard for din SuperOffice-database.
+> Opfølginger, som du har oprettet, før du aktiverede tidszoner, bevares i den tidszone, som er standard for din SuperOffice-database.
 
 ## Hvordan vælger du tidszoner?
 
@@ -52,7 +52,7 @@ Navnene på regioner i tidszonevælgeren vil altid være på engelsk, mens navne
 
 * Hvis du holder musemarkøren over tidszonelisten, vises der en infoboks med oplysninger om, hvilke større byer (i det aktuelle land) der indgår i den valgte tidszone.
 
-* Hvis du holder musemarkøren over en aftale i dagbogen, som er oprettet i en anden tidszone, end den som er standard for din SuperOffice-database, vises der en infoboks med oplysninger om tidspunktet for aftalen i din tidszone og i tidszonen for den person, som har oprettet den.
+* Hvis du holder musemarkøren over en opfølging i dagbogen, som er oprettet i en anden tidszone, end den som er standard for din SuperOffice-database, vises der en infoboks med oplysninger om tidspunktet for opfølgingen i din tidszone og i tidszonen for den person, som har oprettet den.
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md

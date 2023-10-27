@@ -22,7 +22,7 @@ Sporbare links kan bruges på flere måder:
 
 * **Liste over kundeemner**: Hvis du skal lancere et nyt produkt, kan modtagerne udtrykke deres interesse for produktet ved at klikke på linket "Send flere oplysninger til mig". De, der klikker på linket, kan føjes til et statisk udtræk i SuperOffice CRM, som sælgerne kan bruge til at håndtere den videre kontakt med disse kunder.
 
-* **Opgaver/aftaler for sælgere i SuperOffice CRM**: Et alternativ til listen over kundeemner i eksemplet ovenfor er at generere en opgave/aftale for sælgere/kundepersoner for hvert linkklik. Et klik på linket "Kontakt mig" kan f.eks. generere en aftale i SuperOffice CRM af typen "Udgående telefonopkald" til kundens kontaktperson. Aftalen kan desuden tilknyttes et projekt i SuperOffice CRM, f.eks. en markedsføringskampagne.
+* **Opfølgning for sælgere i SuperOffice CRM**: Et alternativ til listen over kundeemner i eksemplet ovenfor er at generere en opgave/møde for sælgere/kundepersoner for hvert linkklik. Et klik på linket "Kontakt mig" kan f.eks. generere en opfølgning i SuperOffice CRM af typen "Udgående telefonopkald" til kundens kontaktperson. Opfølgningen kan desuden tilknyttes et projekt i SuperOffice CRM, f.eks. en markedsføringskampagne.
 
 * **Afmelding**: I indholdsredigeringsværktøjet kan du [indsætte et link til afmelding][1] af en bestemt type udsendelser. Det betyder, at kunden ikke længere modtager denne type udsendelse fra SuperOffice Marketing, uanset hvilken modtagerliste der anvendes til udsendelsen.
 

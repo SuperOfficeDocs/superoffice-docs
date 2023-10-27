@@ -11,7 +11,7 @@ language: sv
 
 # Skapa genvägar till poster i SuperOffice CRM
 
-Du kan skapa genvägar till en post i SuperOffice CRM för exempelvis en kontakt, en bokning, en försäljning eller en bild. Då kan andra interna användare klicka på genvägen och komma direkt till den aktuella posten.
+Du kan skapa genvägar till en post i SuperOffice CRM för exempelvis en kontakt, en händelse, en försäljning eller en bild. Då kan andra interna användare klicka på genvägen och komma direkt till den aktuella posten.
 
 Alternativet **Kopiera genväg** finns här:
 

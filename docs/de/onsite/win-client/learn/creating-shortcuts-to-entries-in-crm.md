@@ -11,7 +11,7 @@ language: de
 
 # Shortcuts zu Einträgen in SuperOffice CRM erstellen
 
-Sie können Shortcuts zu einem Eintrag in SuperOffice CRM erstellen, wie zum Beispiel zu einer Person, einem Termin, einem Verkauf oder einer Ansicht. Interne Benutzer können durch Klicken auf diesen Shortcut schnell den entsprechenden Eintrag aufrufen.
+Sie können Shortcuts zu einem Eintrag in SuperOffice CRM erstellen, wie zum Beispiel zu einer Person, einer Folgeaufgabe, einem Verkauf oder einer Ansicht. Interne Benutzer können durch Klicken auf diesen Shortcut schnell den entsprechenden Eintrag aufrufen.
 
 Die Option **Shortcut kopieren** ist hier verfügbar:
 

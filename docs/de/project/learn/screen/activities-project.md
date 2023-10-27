@@ -13,7 +13,7 @@ language: de
 
 ![Projektleitfaden für den Bereich Aktivitäten -screenshot][img1]
 
-In der Bereichsregisterkarte **Aktivitäten** werden alle mit dem aktiven Projekt verknüpften [Aktivitäten][1] angezeigt, wie zum Beispiel Folgeaufgaben (Termine, Aufgaben, Anrufe) und Dokumente (einschließlich Serienbriefen, Berichten und E-Mails).
+In der Bereichsregisterkarte **Aktivitäten** werden alle mit dem aktiven Projekt verknüpften [Aktivitäten][1] angezeigt, wie zum Beispiel Folgeaufgaben (Besprechung, Aufgaben, Anrufe) und Dokumente (einschließlich Serienbriefen, Berichten und E-Mails).
 
 Doppelklicken Sie auf eine Aktivität auf der Bereichsregisterkarte, um sie anzuzeigen oder zu bearbeiten.
 
@@ -25,7 +25,7 @@ In der ersten Spalte auf der Bereichsregisterkarte **Aktivitäten** wird angegeb
 
 ### Typensymbole
 
-Die zweite Spalte enthält Symbole, die die Art der Aktivität näher bezeichnen. Eine Uhr steht beispielsweise für einen Termin, ein Telefon für einen Anruf. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
+Die zweite Spalte enthält Symbole, die die Art der Aktivität näher bezeichnen. Diese Symbole stehen stellvertretend für den Text in der Spalte **Typ**.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 

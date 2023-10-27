@@ -13,7 +13,7 @@ language: sv
 
 ![Avsnittet för projektguidesaktiviteter -screenshot][img1]
 
-Detaljkortet **Aktiviteter** visar alla [aktiviteter][1] som är kopplade till ett aktivt projekt: händelser (bokningar, uppgifter och telefonsamtal) och dokument (inklusive slå ihop dokument, rapporter och e-post).
+Detaljkortet **Aktiviteter** visar alla [aktiviteter][1] som är kopplade till ett aktivt projekt: händelser (händelser, uppgifter och telefonsamtal) och dokument (inklusive slå ihop dokument, rapporter och e-post).
 
 Dubbelklicka på en aktivitet på detaljkortet för att visa eller redigera efter behov.
 
@@ -25,7 +25,7 @@ Den första kolumnen på detaljkortet **Aktiviteter** anger statusen **Slutfört
 
 ### Typikoner
 
-Den andra kolumnen innehåller ikoner som anger typen av aktivitet, till exempel en klocka för en bokning och en telefon för ett samtal. De här ikonerna återspeglar texten i kolumnen **Typ**.
+Den andra kolumnen innehåller ikoner som anger typen av aktivitet. De här ikonerna återspeglar texten i kolumnen **Typ**.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 

@@ -13,7 +13,7 @@ language: no
 
 ![Seksjon for aktiviteter i prosjektguiden -screenshot][img1]
 
-Detaljkortet **Aktiviteter** viser alle [aktiviteter][1] som er knyttet til gjeldende prosjekt: oppfølginger (avtaler, oppgaver og samtaler) og dokumenter (inkluderer flettedokumenter, rapporter og e-post).
+Detaljkortet **Aktiviteter** viser alle [aktiviteter][1] som er knyttet til gjeldende prosjekt: oppfølginger (møter, oppgaver og samtaler) og dokumenter (inkluderer flettedokumenter, rapporter og e-post).
 
 Du kan dobbeltklikke på en aktivitet på detaljkortet for å vise den og eventuelt redigere den.
 
@@ -25,7 +25,7 @@ Den første kolonnen på detaljkortet **Aktiviteter** angir **Utført**-status f
 
 ### Type-ikoner
 
-Den andre kolonnen inneholder ikoner som angir type aktivitet, for eksempel en urskive for avtale og et telefonrør for samtale. Disse ikonene gjenspeiler teksten i kolonnen **Type**.
+Den andre kolonnen inneholder ikoner som angir type aktivitet. Disse ikonene gjenspeiler teksten i kolonnen **Type**.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 

@@ -79,10 +79,10 @@ Du registrerer et nytt prosjekt og velger prosjekttypen **Konferanse**, som er t
 
 ### Statusen Planlagt
 
-1. Du har avtalt møtetidspunktet, og du ønsker å opprette avtalen **Planleggingsmøte** i dagboken og invitere deltakere.
+1. Du har avtalt møtetidspunktet, og du ønsker å opprette oppfølgingen **Planleggingsmøte** i dagboken og invitere deltakere.
 
     1. I prosjektguiden klikker du på knappen **Opprett** ved siden av oppfølgingen **Planleggingsmøte**.
-        Dialogboksen **Avtale** åpnes, med **Møte inne** angitt som avtaletype og navnet på prosjektet ferdig utfylt.
+        Dialogboksen **Avtale** åpnes, med **Møte inne** angitt som type og navnet på prosjektet ferdig utfylt.
     1. [Fyll ut informasjon, og inviter deltakere][2].
     1. Klikk på **Lagre**.
 
@@ -119,9 +119,9 @@ Du registrerer et nytt prosjekt og velger prosjekttypen **Konferanse**, som er t
     1. Klikk på **Opprett** ved siden av oppfølgingen **Lag liste over prosjektdeltakere**.
         Dialogboksen **Overfør oppgaven til en prosjektdeltaker** vises.
 
-    1. På listen over prosjektdeltakere velger du personen som skal ha ansvaret for oppgaven, og klikker på **OK**. Dialogboksen **Avtale** vises.
+    1. På listen over prosjektdeltakere velger du personen som skal ha ansvaret for oppgaven, og klikker på **OK**.
 
-    1. Fyll ut med ønsket informasjon, og klikk til slutt på **Lagre**. (I fanen **Detaljer** kan du se at kollegaen din allerede er angitt som eier av oppgaven.)
+    1. Fyll ut med ønsket informasjon i dialogen, og klikk til slutt på **Lagre**. (I fanen **Detaljer** kan du se at kollegaen din allerede er angitt som eier av oppgaven.)
 
     1. Oppfølgingen vises i dagboken til kollegaen din, og når vedkommende er ferdig med å sette opp listen, setter han/hun oppfølgingen til **Utført**.
 
@@ -135,7 +135,7 @@ Du registrerer et nytt prosjekt og velger prosjekttypen **Konferanse**, som er t
 1. Til slutt skal selve konferansen avholdes. Du oppretter **Konferanse**-møtet.
 
     1. Klikk på **Opprett** ved siden av oppfølgingen **Konferanse**.
-        Dialogboksen **Avtale** åpnes, med **Møte ute** angitt som avtaletype og navnet på prosjektet ferdig utfylt.
+        Dialogboksen **Oppfølging** åpnes, med **Møte ute** angitt som type og navnet på prosjektet ferdig utfylt.
     2. Fyll ut informasjon og inviter konferansedeltakerne på vanlig måte.
     3. Klikk på **Lagre**.
 
@@ -149,8 +149,8 @@ Du registrerer et nytt prosjekt og velger prosjekttypen **Konferanse**, som er t
 
 1. Du vil arrangere et møte internt for å oppsummere konferansen.
 
-    1. Klikk på **Opprett** ved siden av avtalen **Evalueringsmøte**, og opprett avtalen på vanlig måte.
-    2. Når avtalen er utført, merker du av i avmerkingsboksen.
+    1. Klikk på **Opprett** ved siden av oppfølgingen **Evalueringsmøte**, fyll ut informasjon, og klikk på **Lagre**.
+    2. Når møtet er utført, merker du av i avmerkingsboksen.
 
 1. Deretter lager du en evalueringsrapport som oppsummerer evalueringsmøtet og konferansen.
 

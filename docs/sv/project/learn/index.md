@@ -17,7 +17,7 @@ Du kan länka vilken aktivitet som helst till ett externt företag och till ett 
 
 Projekt hjälper dig att organisera och dokumentera arbetet på ett ställe, så att du och ditt team kan få bättre kontroll och förbättra samarbetet.
 
-Du kan ansluta kontakter, företag, uppgifter, avtalade tider, projektdeltagare och till och med affärsmöjligheter till ett projekt i SuperOffice CRM. Du kan också skapa eller överföra dokument och filer till projektet.
+Du kan ansluta kontakter, företag, händelser, projektdeltagare och till och med affärsmöjligheter till ett projekt i SuperOffice CRM. Du kan också skapa eller överföra dokument och filer till projektet.
 
 All information du sparar i projektet taggas med ett datum och en ägare, vilket gör det enklare att sortera och filtrera information när det behövs.
 

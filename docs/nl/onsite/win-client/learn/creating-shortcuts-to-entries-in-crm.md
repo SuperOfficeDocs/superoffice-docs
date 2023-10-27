@@ -11,7 +11,7 @@ language: nl
 
 # Snelkoppelingen maken naar items in SuperOffice CRM
 
-U kunt snelkoppelingen maken naar een vermelding in SuperOffice CRM, bijvoorbeeld een contactpersoon, een afspraak, een verkoop of een scherm. Andere interne gebruikers kunnen op deze snelkoppeling klikken om snel naar het betreffende item te gaan.
+U kunt snelkoppelingen maken naar een vermelding in SuperOffice CRM, bijvoorbeeld een contactpersoon, een vervolgactiviteit, een verkoop of een scherm. Andere interne gebruikers kunnen op deze snelkoppeling klikken om snel naar het betreffende item te gaan.
 
 De optie **Snelkoppeling kopiëren** is hier beschikbaar:
 

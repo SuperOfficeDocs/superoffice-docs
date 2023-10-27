@@ -79,10 +79,10 @@ U registreert een nieuw project en selecteert het projecttype **Vergadering**, d
 
 ### De status Gepland
 
-1. U hebt een tijd afgesproken en wilt de afspraak **Planningsvergadering** vastleggen in de agenda en deelnemers uitnodigen.
+1. U hebt een tijd afgesproken en wilt de vervolgactiviteit **Planningsvergadering** vastleggen in de agenda en deelnemers uitnodigen.
 
     1. In de projectgids klikt u op de knop **Maken** naast de vervolgactiviteit **Planningsvergadering**.
-        Het dialoogvenster **Afspraak** wordt geopend, met het afspraaktype **Vergadering (intern)** en vooraf ingevulde naam van het project.
+        Het dialoogvenster **Vervolgactiviteit** wordt geopend, met het type **Vergadering (intern)** en vooraf ingevulde naam van het project.
     1. [Vul de overige gegevens in en nodig deelnemers uit][2].
     1. Klik op **Opslaan**.
 
@@ -119,7 +119,7 @@ U registreert een nieuw project en selecteert het projecttype **Vergadering**, d
     1. Klik op de knop **Maken** naast de vervolgactiviteit **Lijst met projectleden maken**.
         Het dialoogvenster **Taak toewijzen aan projectlid** wordt geopend.
 
-    1. Selecteer in de lijst met projectleden de persoon aan wie u de taak wilt toewijzen en klik op **OK**. Het dialoogvenster **Afspraak** wordt geopend.
+    1. Selecteer in de lijst met projectleden de persoon aan wie u de taak wilt toewijzen en klik op **OK**.
 
     1. Voer de vereiste informatie in en klik op **Opslaan**. (Via het tabblad **Details** kunt u nagaan of uw collega al is gedefinieerd als eigenaar van de taak.)
 
@@ -149,8 +149,8 @@ U registreert een nieuw project en selecteert het projecttype **Vergadering**, d
 
 1. U kunt een interne vergadering houden om de gehouden vergadering samen te vatten.
 
-    1. Klik op de knop **Maken** naast de afspraak **Evaluatievergadering** en maak de afspraak op de gebruikelijke manier.
-    2. Wanneer de afspraak is voltooid, vinkt u het selectievakje aan.
+    1. Klik op de knop **Maken** naast de vervolgactiviteit **Evaluatievergadering**, voer de vereiste informatie in en klik op **Opslaan**.
+    2. Wanneer de vervolgactiviteitk is voltooid, vinkt u het selectievakje aan.
 
 1. Vervolgens kunt u een evaluatierapport opstellen waarin de vergadering en de evaluatievergadering worden samengevat.
 

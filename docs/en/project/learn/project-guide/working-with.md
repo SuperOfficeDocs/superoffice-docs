@@ -119,9 +119,9 @@ You record a new project and select the **Conference** project type, which is li
     1. Click **Create** next to the **Create list of project members** follow-up.
         The **Assign task to project member** dialog opens.
 
-    1. In the list of project members, select the person you want to assign the task, and click **OK**. The **Follow-up** dialog opens.
+    1. In the list of project members, select the person you want to assign the task, and click **OK**.
 
-    1. Enter the required information and click **Save**. (In the **Details** tab, you can see that your colleague is already defined as the owner.)
+    1. Enter the required information in the dialog and click **Save**. (In the **Details** tab, you can see that your colleague is already defined as the owner.)
 
     1. The follow-up is displayed in your colleague's diary, and after they have sett up the list, they will mark the follow-up as **Completed**.
 

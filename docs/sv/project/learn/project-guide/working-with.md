@@ -79,10 +79,10 @@ Du registrerar ett nytt projekt och väljer projekttypen **Konferens**, som är 
 
 ### Statusen Planerat
 
-1. Du har bokat in en mötestidpunkt och vill skapa bokningen **Planeringsmöte** i kalendern och bjuda in deltagare.
+1. Du har bokat in en mötestidpunkt och vill skapa händelsen **Planeringsmöte** i kalendern och bjuda in deltagare.
 
     1. I projektguiden klickar du på knappen **Skapa** bredvid händelsen **Planeringsmöte**.
-        Dialogrutan **Bokning** öppnas med **Möte inne** angivet som bokningstyp och namnet på projektet redan ifyllt.
+        Dialogrutan **Händelse** öppnas med **Möte inne** angivet som typ och namnet på projektet redan ifyllt.
     1. [Fyll i information och bjud in deltagare][2].
     1. Klicka på **Spara**.
 
@@ -119,7 +119,7 @@ Du registrerar ett nytt projekt och väljer projekttypen **Konferens**, som är 
     1. Klicka på **Skapa** bredvid händelsen **Skapa lista över projektdeltagare**.
         Dialogrutan **Överför uppgiften till en projektdeltagare** visas.
 
-    1. På listan över projektdeltagare väljer du den person som ska ha ansvaret för uppgiften och klickar på **OK**. Dialogrutan **Bokning** öppnas.
+    1. På listan över projektdeltagare väljer du den person som ska ha ansvaret för händelsen och klickar på **OK**.
 
     1. Fyll i den information som behövs och klicka på **Spara**. (På fliken **Detaljer** kan du se att din kollega redan är angiven som ägare av uppgiften.)
 
@@ -135,7 +135,7 @@ Du registrerar ett nytt projekt och väljer projekttypen **Konferens**, som är 
 1. Till slut ska själva konferensen hållas. Du skapar mötet **Konferens**.
 
     1. Klicka på **Skapa** bredvid händelsen **Konferens**.
-        Dialogrutan **Bokning** öppnas med **Möte ute** angivet som bokningstyp och namnet på projektet redan ifyllt.
+        Dialogrutan **Händelse** öppnas med **Möte ute** angivet som typ och namnet på projektet redan ifyllt.
     2. Fyll i information och bjud in konferensdeltagarna som vanligt.
     3. Klicka på **Spara**.
 
@@ -149,8 +149,8 @@ Du registrerar ett nytt projekt och väljer projekttypen **Konferens**, som är 
 
 1. Du vill hålla ett internt möte för att följa upp konferensen.
 
-    1. Klicka på **Skapa** bredvid bokningen **Utvärderingsmöte** och skapa bokningen på vanligt sätt.
-    2. När bokningen är slutförd, markerar du i kryssrutan.
+    1. Klicka på **Skapa** bredvid händelseen **Utvärderingsmöte**, fyll i den information som behövs och klicka på **Spara**.
+    2. När möten är slutförd, markerar du i kryssrutan.
 
 1. Sedan vill du skapa en utvärderingsrapport som sammanfattar utvärderingsmötet och konferensen.
 

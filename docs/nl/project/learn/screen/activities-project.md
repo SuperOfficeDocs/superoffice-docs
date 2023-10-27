@@ -13,7 +13,7 @@ language: nl
 
 ![Sectie projectgidsactiviteiten -screenshot][img1]
 
-Het sectietabblad **Activiteiten** bevat alle [activiteiten][1] die aan het actieve project zijn gekoppeld, met andere woorden: vervolgactiviteiten (afspraken, taken en gesprekken) en documenten (inclusief samenvoegdocumenten, rapporten en e-mailberichten).
+Het sectietabblad **Activiteiten** bevat alle [activiteiten][1] die aan het actieve project zijn gekoppeld, met andere woorden: vervolgactiviteiten (vergaderingen, taken en gesprekken) en documenten (inclusief samenvoegdocumenten, rapporten en e-mailberichten).
 
 U kunt desgewenst een activiteit openen en bewerken door erop te dubbelklikken.
 
@@ -25,7 +25,7 @@ de eerste kolom op het sectietabblad **Activiteiten** geeft de status **Voltooid
 
 ### Typepictogrammen
 
-de tweede kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeeld een klok voor een afspraak en een telefoon voor een telefoongesprek. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
+De tweede kolom bevat pictogrammen die het type activiteit aangeven. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
