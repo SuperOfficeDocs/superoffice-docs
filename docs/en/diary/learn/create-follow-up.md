@@ -17,20 +17,20 @@ Creating follow-ups and scheduling all meetings and activities in your SuperOffi
 
 There are many ways to create a follow-up. This method works from anywhere in SuperOffice CRM and for all types of follow-ups.
 
-1. Click **+New** in the top bar and select **Meeting**, **To-do**, or **Follow-up**.
+1. Click **+New** in the top bar and select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
 
 2. [Enter the required information in the fields.][6]
 
     > [!NOTE]
     > If the new follow-up overlaps with an existing follow-up, an exclamation mark ![icon][img2] is shown next to the start and stop fields as a reminder (you can still add the follow-up). A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
     >
-    > When you create a new task, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the task.
+    > When you create a new to-do, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the to-do.
 
 3. Click the **Save** button.
 
 **Other options:**
 
-| Starting point | Meeting | Follow-up (call) | To-do |
+| Starting point | Meeting (appointment) | Follow-up (call) | To-do (task) |
 |---|---|---|---|
 | Activities section tab | x | x | x |
 | Task button on a contact | x | x | |

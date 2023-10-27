@@ -22,8 +22,6 @@ Wenn Sie die Zeit, Datum oder Ort einer Folgeaufgabe bearbeiten - oder eine erst
     * Auf die Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma, Person, Verkauf, Projekt, Kalender.
     * Auf den verschiedenen Registerkarten der Ansicht Kalender.
 
-    Je nach Art der Folgeaufgabe wird das Dialogfeld **Termin**, **Aufgabe** oder **Anruf** geöffnet.
-
 2. [Nehmen Sie im Dialogfeld die gewünschten Änderungen vor.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]

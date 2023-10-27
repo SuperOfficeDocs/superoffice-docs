@@ -22,8 +22,6 @@ Hvis du redigerer tid, dato eller sted for en opfølgning - eller sletter en inv
     * I detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog.
     * På de forskellige faner i skærmbilledet Dagbog.
 
-    Dette åbner dialogboksen **Aftalen**, **Opgave** eller **Telefonopkald** afhængig af typen af opfølgning.
-
 2. [Foretag de ønskede ændringer i dialogboksen.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]

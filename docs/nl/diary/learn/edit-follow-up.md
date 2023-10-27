@@ -22,8 +22,6 @@ Als u een uitnodiging die u hebt aangemaakt en verzonden, verwijdert of tijd, da
     * Op het sectietabblad **Activiteiten** in het scherm Bedrijf, Persoon, Verkoop, Project, Agenda.
     * Op de verschillende tabbladen in het scherm Agenda.
 
-    Vervolgens wordt het dialoogvenster **Afspraak**, **Taak** of **Gesprek** weergegeven, afhankelijk van het type vervolgactiviteit.
-
 2. [Breng de gewenste wijzigingen aan in het dialoogvenster.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]

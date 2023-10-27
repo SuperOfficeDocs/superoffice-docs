@@ -1,7 +1,7 @@
 ---
 uid: help-no-follow-up-create
-title: "Legge til oppfølging (avtale, oppgave, samtale)"
-description: "Legge til eller kopiere oppfølging (avtale, oppgave, samtale)"
+title: "Legge til oppfølging"
+description: "Legge til eller kopiere møte, oppgave, samtale i SuperOffice"
 author: Bergfrid Dias
 so.date: 09.29.2023
 keywords: dagbok, oppfølging, avtale, oppgave, samtale, møte, telefon
@@ -9,15 +9,15 @@ so.topic: howto
 language: no
 ---
 
-# Legge til oppfølging (avtale, oppgave, samtale)
+# Legge til oppfølging
 
-Når du oppretter avtaler og planlegger alle møter og aktiviteter i dagboken din i SuperOffice, har du alltid full oversikt over alt som skjer, du får en god kommunikasjonshistorikk, og du holder kollegene dine informert.
+Når du oppretter oppfølginger og planlegger alle møter og aktiviteter i dagboken din i SuperOffice, har du alltid full oversikt over alt som skjer, du får en god kommunikasjonshistorikk, og du holder kollegene dine informert.
 
 ## Trinn
 
 Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra hvor som helst i SuperOffice CRM og for alle typer oppfølginger.
 
-1. Klikk på **Ny** i toppraden, og velg deretter **Avtale**, **Samtale** eller **Oppgave**.
+1. Klikk på **Ny** i toppraden, og velg deretter **Møte/Avtale**, **Oppfølging/Samtale** eller **Oppgave**.
 
 2. [Fyll ut de andre feltene med ønsket informasjon.][6]
 
@@ -42,8 +42,6 @@ Det er mange måter å opprette en oppfølging på. Denne metoden fungerer fra h
 
 * Eller, dobbeltklikk på en tom rad under siste aktivitet i listen. Hvis det ikke vises noen tom rad nederst i aktivitetslisten, må du utvide listen: Plasser musepekeren mellom detaljkortene og kortet over. Musepekeren endres til en dobbeltpil. Klikk og dra linjen oppover til du ser en eller flere tomme rader nederst i aktivitetslisten.
 
-Da åpnes som standard dialogboksen **Avtale**. For å angi hvilken dialogboks som skal åpnes velger du ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** > **Type fra detaljkort Aktiviteter**.
-
 > [!NOTE]
 > Hvis du angir tidspunkt eller varighet på en oppfølging du oppretter fra aktivitetslisten, blir den lagt i dagboken.
 
@@ -51,22 +49,22 @@ Da åpnes som standard dialogboksen **Avtale**. For å angi hvilken dialogboks s
 
 1. Klikk på ![ikon][img3] **Oppgave**-knappen i personkortet.
 
-1. For å opprette en avtale, velg **Be om et møte**.
+1. For å opprette et møte, velg **Be om et møte**.
 
     For å registrere et telefonsamtale, velg **Opprett samtale**.
 
 1. Angi informasjon og klikk på **Lagre**.
 
-## Opprette avtale fra Dagbok-bildet
+## Opprette møte fra Dagbok-bildet
 
-* **For å velge en tidsspalte:** Klikk med museknappen ved klokkeslettet du vil at oppfølgingen skal starte på, og hold museknappen nede mens du drar musen til ønsket sluttidspunkt for oppgaven. Du ser et blått område mens du definerer tidsrommet, og deretter vises dialogboksen for oppfølginger.
+* **For å velge en tidsspalte:** Klikk med museknappen ved klokkeslettet du vil at møtet skal starte på, og hold museknappen nede mens du drar musen til ønsket sluttidspunkt for oppgaven. Du ser et blått område mens du definerer tidsrommet, og deretter vises dialogboksen for oppfølginger.
 
 * **For å bruke standardvarighet:** Dobbeltklikk på et klokkeslett i dagboken eller høyreklikk på et klokkeslett i dagboken og velg **Ny**.
 
 > [!NOTE]
-> Hvis du oppretter avtalen fra fanen **Oversikt**, kan du velge at dialogboksen **Deltakere** skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
+> Hvis du oppretter møtet fra fanen **Oversikt**, kan du velge at dialogboksen **Deltakere** skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, kan du gå til ![ikon][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og sette preferansen for **Deltakere fra gruppevisning** til **Ja**. Klikk på **Lagre**.
 
-### <a id="associate" />Opprette avtale for en medarbeider
+### <a id="associate" />Opprette møte for en medarbeider
 
 Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs hvis du ønsker å se når de har ledig tid, eller hvis du vil opprette oppfølginger for dem direkte.
 
@@ -74,13 +72,13 @@ Du kan hente inn dagboken til en annen bruker eller en tilgjengelig ressurs hvis
 
 2. Klikk på dagbokeierlisten og finn personens dagbok.
 
-3. Opprett en ny avtale i denne dagboken ved hjelp av musen.
+3. Opprett et ny møte i denne dagboken ved hjelp av musen.
 
-4. I dialogboksen **Avtale**, [fyll ut de andre feltene med ønsket informasjon][6].
+4. I dialogboksen **Oppfølging**, [fyll ut de andre feltene med ønsket informasjon][6].
 
 5. [Velg deltakerne du vil inkludere][5], hvis de ikke inkluderes automatisk.
 
-6. Klikk på **Lagre**-knappen. Avtalen vises i den merkede personens dagbok.
+6. Klikk på **Lagre**-knappen. Møtet vises i den merkede personens dagbok.
 
 ## <a id="copy" />Kopiere en oppfølging til dagboken
 

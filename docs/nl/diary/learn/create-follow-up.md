@@ -1,23 +1,23 @@
 ---
 uid: help-nl-follow-up-create
-title: "Vervolgactiviteiten toevoegen (afspraken, taken, gesprekken)"
-description: "Vervolgactiviteiten toevoegen of kopiëren (afspraken, taken, gesprekken)"
+title: "Vervolgactiviteiten toevoegen"
+description: "Vervolgactiviteiten toevoegen of kopiëren"
 author: Bergfrid Dias
 so.date: 09.29.2023
-keywords: agenda, vervolgactiviteit, bellen, telefoon
+keywords: agenda, vervolgactiviteit, bellen, telefoon, vergadering, tak
 so.topic: howto
 language: nl
 ---
 
-# Vervolgactiviteiten toevoegen (afspraken, taken, gesprekken)
+# Vervolgactiviteiten toevoegen
 
-Het maken van afspraken en het plannen van alle vergaderingen en activiteiten in uw SuperOffice Agenda helpt u om altijd een volledig overzicht te hebben van wat er gebeurt, een solide communicatiegeschiedenis op te bouwen en uw collega's op de hoogte te houden.
+Het maken van Vervolgactiviteiten en het plannen van alle vergaderingen en activiteiten in uw SuperOffice Agenda helpt u om altijd een volledig overzicht te hebben van wat er gebeurt, een solide communicatiegeschiedenis op te bouwen en uw collega's op de hoogte te houden.
 
 ## Stappen
 
 Er zijn veel manieren om een vervolgactiviteiten te maken. Deze methode werkt overal in SuperOffice CRM en voor alle soorten vervolgactiviteiten.
 
-1. Klik op **Nieuw** in de bovenste balk en selecteer **Afspraak**, **Telefoongesprek** of **Taak**.
+1. Klik op **Nieuw** in de bovenste balk en selecteer **Vergadering/Afspraak**, **Vervolgactiviteit/Telefoongesprek** of **Taak**.
 
 2. [Geef de juiste gegevens op in de velden.][6]
 
@@ -30,7 +30,7 @@ Er zijn veel manieren om een vervolgactiviteiten te maken. Deze methode werkt ov
 
 **Andere opties:**
 
-| Startpunt | Afspraak | Telefoongesprek | Taak |
+| Startpunt | Vergadering (afspraak) | Vervolgactiviteit (telefoongesprek) | Taak |
 |---|---|---|---|
 | Sectietabblad Activiteiten | x | x | x |
 | Knop Taak op de persoonskaart | x | x | |
@@ -42,8 +42,6 @@ Er zijn veel manieren om een vervolgactiviteiten te maken. Deze methode werkt ov
 
 * Of, dubbelklik op een lege rij onder de laatste activiteit in de lijst. Als geen lege rij zichtbaar is onder aan de activiteitenlijst, moet u de lijst groter maken: Plaats de muisaanwijzer tussen de sectietabbladen en de kaart erboven. De muisaanwijzer verandert in een pijl met twee punten. Klik en sleep de lijn omhoog totdat u onder aan de activiteitenlijst lege rijen ziet staan.
 
-Het dialoogvenster **Afspraak** wordt standaard geopend. Als u wilt opgeven welk dialoogvenster moet worden geopend, selecteert u ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** > **Type vanuit sectietabblad Activiteiten**.
-
 > [!NOTE]
 > Als u een tijd of duur opgeeft voor een vervolgactiviteit die u maakt vanuit de activiteitenlijst, wordt deze ingevoerd in de agenda.
 
@@ -51,22 +49,22 @@ Het dialoogvenster **Afspraak** wordt standaard geopend. Als u wilt opgeven welk
 
 1. Klik op de![pictogram][img3] knop **Taak** op de persoonskaart.
 
-1. Om een afspraak te maken, selecteer **Vergadering aanvragen**.
+1. Om een vergadering te maken, selecteer **Vergadering aanvragen**.
 
-    Om een telefoongesprek te registreren, selecteer **Vergadering aanvragen**.
+    Om een telefoongesprek te registreren, selecteer **Gesprekken aanvragen**.
 
 1. Geef in het dialoogvenster de details op en klik op de knop **Opslaan**.
 
-## Een afspraak maken vanuit het scherm Agenda
+## Een vervolgactiviteit maken vanuit het scherm Agenda
 
 * **Om een tijdsperiode te kiezen:** Klik op de tijd waarop de vervolgactiviteit moet beginnen, houd de muisknop ingedrukt en sleep de muis naar de gewenste eindtijd voor de taak. Er wordt een blauw gebied weergegeven terwijl u het tijdslot definieert voordat het vervolgdialoogvenster wordt geopend.
 
 * **Om de standaardduur te gebruiken:** Dubbelklik op een tijdsinterval in de agenda, of klik met de rechtermuisknop op een tijd in de agenda en selecteer **Nieuw**.
 
 > [!NOTE]
-> Als u de afspraak maakt op het tabblad **Weergave**, kunt u ervoor kiezen om het dialoogvenster **Deelnemers automatisch** te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
+> Als u de vergadering maakt op het tabblad **Weergave**, kunt u ervoor kiezen om het dialoogvenster **Deelnemers automatisch** te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
 
-### <a id="associate" />Afspraak maken voor een medewerker
+### <a id="associate" />Vervolgactiviteit maken voor een medewerker
 
 U kunt ook de agenda van een andere gebruiker openen of de agenda voor een beschikbare bron, om te kijken wanneer iemand tijd heeft of als u rechtstreeks vervolgactiviteiten wilt registreren voor een gebruiker.
 
@@ -74,13 +72,13 @@ U kunt ook de agenda van een andere gebruiker openen of de agenda voor een besch
 
 2. Klik op de lijst met agenda-eigenaars en zoek de agenda van de persoon.
 
-3. [Maak met de muis een nieuwe afspraak][1] in deze agenda.
+3. [Maak met de muis een nieuwe vergadering][1] in deze agenda.
 
-4. In het dialoogvenster **Afspraak**, [geef de juiste gegevens op in de velden][6].
+4. In het dialoogvenster **Vervolgactiviteit**, [geef de juiste gegevens op in de velden][6].
 
 5. [Kies de gewenste deelnemers][5] als deze niet automatisch worden opgenomen.
 
-6. Klik op de knop **Opslaan**. De afspraak wordt weergegeven in de agenda van de geselecteerde persoon.
+6. Klik op de knop **Opslaan**. De vergadering wordt weergegeven in de agenda van de geselecteerde persoon.
 
 ## <a id="copy" />Vervolgactiviteit naar de agenda kopiëren
 

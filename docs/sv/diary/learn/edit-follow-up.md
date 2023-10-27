@@ -22,8 +22,6 @@ Om du redigerar tid, datum eller plats för en händelse - eller tar bort en fö
     * I detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt, Kalender
     * På flikarna i fönstret Kalender.
 
-    Dialogrutan **Bokning**, **Uppgift** eller **Samtal** visas beroende på typen av händelse.
-
 2. [Gör dina ändringar i dialogrutan.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]

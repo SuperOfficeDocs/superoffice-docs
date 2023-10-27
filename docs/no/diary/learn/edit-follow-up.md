@@ -22,8 +22,6 @@ Hvis du redigerer tid, dato eller sted for en oppfølging - eller sletter en inv
     * I detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, eller Dagbok.
     * I de ulike fanene i dagboken.
 
-    Du får da opp dialogboksen **Avtale**, **Oppgave** eller **Samtale**, avhengig av type oppfølging.
-
 2. [Gjør ønskede endringer i dialogboksen.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
