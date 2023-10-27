@@ -130,12 +130,8 @@ The returned JSON string looks something like this:
     "AssociateId": 18,
     ...
   },
-  "UpdatedBy": null,
-  "CreatedDate": "2023-10-05T14:17:57",
   "AppointmentId": 591,
   "Description": "Hello world!",
-  "StartDate": "2023-10-05T14:17:57",
-  "EndDate": "2023-10-05T15:17:57",
   "Person": null,
   ...
 }
@@ -196,12 +192,8 @@ The returned JSON is the complete, updated, AppointmentEntity:
     "AssociateId": 18,
     ...
   },
-  "UpdatedBy": null,
-  "CreatedDate": "2023-10-05T14:17:57",
   "AppointmentId": 591,
   "Description": "Hello world!",
-  "StartDate": "2023-10-05T14:17:57",
-  "EndDate": "2023-10-05T15:17:57",
   "Person": {
     "PersonId": 1,
     ...
