@@ -20,7 +20,7 @@ so.client: online
 
 * Microsoft 365 for business subscription
   * If you don't have a Microsoft 365 subscription, you have to sign up for one at Microsoft.
-  * Soon you will not be able to continue to set up the integration [until ALL users with user plan must be in the same Azure AD subscription](#to-use-it).
+  * You will be warned when you set up the integration if one or more users use different domain names. Note: [ALL users with user plan must be in the same Azure AD subscription](#to-use-it).
 
 * A SharePoint site with document library for storing documents and document library for storing templates.
 
@@ -37,8 +37,12 @@ so.client: online
 
 [!include[AAD](includes/req-usage.md)]
 
+
 > [!NOTE]
 > No support for moving documents to other SharePoint sites, only within the same site.
+
+> [!NOTE]
+> SuperOffice Roles / Data Rights: No support to reflect change-rights from SuperOffice to documents in SharePoint. To set restrictions for documets in SharePoint, you will need to use "Visible For".
 
 <!-- Referenced links -->
 [2]: ../../../identity-management/federated-id-and-identity-providers.md
