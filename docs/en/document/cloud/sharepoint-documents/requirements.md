@@ -3,7 +3,7 @@ title: Requirements
 uid: sharepoint-requirements
 description: Requirements for SharePoint Documents
 author: Bergfrid Dias
-so.date: 05.11.2023
+so.date: 11.01.2023
 keywords: SharePoint, document, AAD IDP
 so.topic: reference
 so.envir: cloud
@@ -37,12 +37,9 @@ so.client: online
 
 [!include[AAD](includes/req-usage.md)]
 
+* No support for moving documents to other SharePoint sites, only within the same site.
 
-> [!NOTE]
-> No support for moving documents to other SharePoint sites, only within the same site.
-
-> [!NOTE]
-> SuperOffice Roles / Data Rights: No support to reflect change-rights from SuperOffice to documents in SharePoint. To set restrictions for documets in SharePoint, you will need to use "Visible For".
+* [!include[data rights](includes/req-data-rights.md)]
 
 <!-- Referenced links -->
 [2]: ../../../identity-management/federated-id-and-identity-providers.md
