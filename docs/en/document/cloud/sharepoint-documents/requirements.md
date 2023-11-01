@@ -3,7 +3,7 @@ title: Requirements
 uid: sharepoint-requirements
 description: Requirements for SharePoint Documents
 author: Bergfrid Dias
-so.date: 05.11.2023
+so.date: 11.01.2023
 keywords: SharePoint, document, AAD IDP
 so.topic: reference
 so.envir: cloud
@@ -20,7 +20,7 @@ so.client: online
 
 * Microsoft 365 for business subscription
   * If you don't have a Microsoft 365 subscription, you have to sign up for one at Microsoft.
-  * Soon you will not be able to continue to set up the integration [until ALL users with user plan must be in the same Azure AD subscription](#to-use-it).
+  * You will be warned when you set up the integration if one or more users use different domain names. Note: [ALL users with user plan must be in the same Azure AD subscription](#to-use-it).
 
 * A SharePoint site with document library for storing documents and document library for storing templates.
 
@@ -37,8 +37,9 @@ so.client: online
 
 [!include[AAD](includes/req-usage.md)]
 
-> [!NOTE]
-> No support for moving documents to other SharePoint sites, only within the same site.
+* No support for moving documents to other SharePoint sites, only within the same site.
+
+* [!include[data rights](includes/req-data-rights.md)]
 
 <!-- Referenced links -->
 [2]: ../../../identity-management/federated-id-and-identity-providers.md
