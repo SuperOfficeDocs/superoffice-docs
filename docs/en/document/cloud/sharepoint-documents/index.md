@@ -48,6 +48,11 @@ A self-service UI to provision and configure SharePoint as SO repository from Su
 
 ## Things to consider
 
+### Data rights for a role
+
+> [!NOTE]
+> SuperOffice Roles / Data Rights: No support to reflect change-rights from SuperOffice to documents in SharePoint. To set restrictions for documets in SharePoint, you will need to use "Visible For".
+
 ### Backup
 
 > [!NOTE]
