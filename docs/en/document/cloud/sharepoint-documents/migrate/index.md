@@ -3,7 +3,7 @@ title: Migration guide
 uid: sharepoint-documents-migration
 description: Introduction to SuperOffice SharePoint document migration.
 author: Frode Berntsen, Bergfrid Dias
-so.date: 10.20.2023
+so.date: 11.02.2023
 keywords: SharePoint, document, Microsoft
 so.topic: concept
 so.version:
@@ -149,4 +149,4 @@ If you have a third-party app that creates documents in SuperOffice, you need to
 [7]: troubleshooting.md#approve-app
 
 <!-- Referenced images -->
-[img5]: ../media/sharepoint-wizard.png
+[img5]: media/sharepoint-wizard.png

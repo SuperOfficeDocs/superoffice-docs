@@ -62,4 +62,4 @@ The application permission is used every time to read permissions and to read, w
 | Make the POST call to assign the role for the app (read, write) | Global Administrator |
 
 <!-- Referenced links -->
-[1]: configure-superoffice.md#step-3
+[1]: configure-superoffice.md#step-4
