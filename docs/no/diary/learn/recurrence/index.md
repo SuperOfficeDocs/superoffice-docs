@@ -16,7 +16,7 @@ Det kan hende at du ønsker å opprette en rekke avtaler som forekommer med jevn
 
 ![Recurring follow-up dialog -screenshot][img1]
 
-Øverst til høyre i dialogboksen **Repeterende oppfølginger** vises startdato og -klokkeslett for oppfølgingen samt sluttiden. Her kan du bare endre startdatoen for oppfølgingen. For å endre klokkeslettet må du først lukke dialogboksen **Repeterende oppfølginger** og deretter endre klokkeslettet i dialogboksen **Avtale**, **Oppgave** eller **Samtale**.
+Øverst til høyre i dialogboksen **Repeterende oppfølginger** vises startdato og -klokkeslett for oppfølgingen samt sluttiden.
 
 ## <a id="frequency" />Hyppighet
 

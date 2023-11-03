@@ -3,7 +3,7 @@ uid: help-sv-follow-up-edit
 title: Redigera händelser
 description: Öppna, redigera, eller ta bort händelse i kalendern; Ändra sluttid för en händelse i kalendern; Redigera eller ta bort förfrågan; Redigera återkommande händelse
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
 keywords: kalender, händelse, förfrågan, bokning, uppgift, samtal, upprepa, återkomma
 so.topic: howto
 language: sv
@@ -53,6 +53,15 @@ I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna d
 * Om du väljer **Ändra endast denna förekomst** påverkar ändringen inte andra förekomster.
 
 * Om du väljer **Ändra denna och alla kommande förekomster** tillämpas ändringen även på framtida förekomster av händelsen.
+
+Du kan endast ändra startdatumet för händelsen när du tittar på återkomstmönstret. För att ändra tiden, klicka på **OK** eller **Avbryt** för att återgå till uppföljningsinformationen.
+
+Om du bestämmer dig för att ändra regelmönstret mitt i en serie möten, då skapas en ny regel och den gamla regeln stoppas där brytningen inträffar.
+
+Om du ändrar starttiden för ett enskilt möte påverkas inte regeln. Mötesundantaget betraktas som ett undantag från regeln. Undantaget kan göras om till ett vanligt möte genom att flytta det tillbaka i linje med de andra mötena.
+
+> [!CAUTION]
+> Att ändra start- eller slutdatumet för ett återkommande möte efter att det har sparats är en dålig idé. Att ändra tiden för ett återkommande möte fungerar bra, men att ändra datumet leder bara till förvirring. Att ändra starttiden för ett möte kommer att utlösa en uppdatering för alla efterföljande återkomster om du har ställt in uppdateringsläget på detta och framåt.
 
 ## <a id="delete" />Ta bort händelse i kalendern
 

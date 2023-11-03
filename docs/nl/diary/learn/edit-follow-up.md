@@ -3,7 +3,7 @@ uid: help-nl-follow-up-edit
 title: Vervolgactiviteiten bewerken
 description: Vervolgactiviteiten openen, bewerken, verwijderen via de agenda; De eindtijd voor een vervolgactiviteit in de agenda wijzigen
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
 keywords: agenda, vervolgactiviteit, uitnodiging, afspraak, taak, gesprek, herhalen, terugkeren, instantie
 so.topic: howto
 language: nl
@@ -53,6 +53,15 @@ Wijzigingen worden op dezelfde manier doorgevoerd als in Vervolgactiviteiten bew
 * Als u **Alleen dit item wijzigen** selecteert, heeft de wijziging geen invloed op andere vervolgactiviteiten.
 
 * Als u **Alle toekomstige items wijzigen inclusief dit item** selecteert, is de wijziging ook in de toekomst van toepassing op deze vervolgactiviteit.
+
+U kunt alleen de startdatum van de vervolgactiviteit wijzigen terwijl je het herhalingspatroon bekijkt. Om de tijd te wijzigen, klik op **OK** of **Annuleren** om terug te keren naar de opvolgingsgegevens.
+
+Als u besluit om het regelpatroon in het midden van een reeks vergaderingen te wijzigen, wordt er een nieuwe regel gecreëerd, en de oude regel wordt gestopt op het punt waar de onderbreking plaatsvindt.
+
+Als u de starttijd van een enkele vergadering wijzigt, heeft dit geen invloed op de regel. De vergadering wordt beschouwd als een uitzondering op de regel. De uitzondering kan weer normaal worden gemaakt door deze in lijn te brengen met de andere vergaderingen.
+
+> [!CAUTION]
+> Het wijzigen van de start- of einddatum van een herhalende vergadering nadat deze is opgeslagen, is geen goed idee. Het wijzigen van de tijd voor een herhalende vergadering werkt prima, maar het wijzigen van de datum leidt alleen tot verwarring. Het wijzigen van de starttijd van een vergadering zal een update activeren voor alle daaropvolgende herhalingen, als je de update-modus hebt ingesteld op dit en verder.
 
 ## <a id="delete" />Vervolgactiviteit verwijderen via de agenda
 

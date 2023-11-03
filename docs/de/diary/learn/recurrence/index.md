@@ -15,7 +15,7 @@ Es kann vorkommen, dass Sie eine Reihe von Terminen in regelmäßigen Abständen
 
 ![Recurring follow-up dialog -screenshot][img1]
 
-Im Dialogfeld weiter oben rechts **Regelmäßige Folgeaufgaben** werden das Startdatum und der Endzeitpunkt für die Folgeaufgabe sowie die Endzeit angezeigt. Hier können Sie nur das Startdatum der Folgeaufgabe ändern. Um die Uhrzeit zu ändern, müssen Sie zunächst das Dialogfeld **Regelmäßige Folgeaufgaben** schließen und anschließend die Uhrzeit im Dialogfeld **Termin**, **Aufgabe** oder **Anruf** ändern.
+Im Dialogfeld weiter oben rechts **Regelmäßige Folgeaufgaben** werden das Startdatum und der Endzeitpunkt für die Folgeaufgabe sowie die Endzeit angezeigt.
 
 ## <a id="frequency" />Häufigkeit
 

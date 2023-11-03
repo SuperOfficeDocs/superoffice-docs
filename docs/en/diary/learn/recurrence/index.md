@@ -15,7 +15,7 @@ It may happen that you want to create a series of follow-ups to occur at regular
 
 ![Recurring follow-up dialog -screenshot][img1]
 
-At the upper right of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed. You can change only the start date for the follow-up here. To change the time, first close the **Repeating follow-ups** dialog and then change the time in the **Follow-up** dialog.
+At the upper left of the **Repeating follow-ups** dialog, the start date and time for the follow-up as well as the end time are displayed.
 
 ## <a id="frequency" />Frequency
 

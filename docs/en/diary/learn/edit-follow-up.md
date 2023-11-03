@@ -3,7 +3,7 @@ uid: help-en-follow-up-edit
 title: Edit follow-up
 description: How to open, edit, or delete a follow-up; Change the end time for a follow-up in the Diary; Edit or delete invitation; Edit repeating follow-up
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone, invitation
 so.topic: howto
 language: en
@@ -53,6 +53,8 @@ Changes work in the same way as when you edit follow-ups, but when you make a ch
 * If you select **Change only this instance**, the change will not affect other times.
 
 * If you select **Change all future instances including this one**, the change will apply to this follow-up in the future as well.
+
+ You can change only the start date for the follow-up while viewing the recurrence pattern. To change the time, click **OK** or **Cancel** to return to the follow-up details.
 
 If you decide to change the rule pattern in the middle of a series of meetings, then a new rule is created, and the old rule is stopped at the point where the break occurs.
 

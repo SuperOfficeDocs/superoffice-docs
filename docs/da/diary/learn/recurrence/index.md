@@ -15,7 +15,7 @@ Det kan ske, at du vil oprette en række aftaler, der skal forekomme med jævne 
 
 ![Recurring follow-up dialog -screenshot][img1]
 
-Øverst til højre i dialogboksen **Gentagne opfølgninger** vises startdato og -klokkeslæt for opfølgningen samt sluttidspunktet. Du kan kun ændre startdatoen for opfølgningen her. Hvis du vil ændre klokkeslættet, skal du først lukke dialogboksen **Gentagne opfølgninger** og derefter ændre klokkeslættet i dialogboksen **Aftale**, **Opgave**, eller **Telefonopkald** .
+Øverst til højre i dialogboksen **Gentagne opfølgninger** vises startdato og -klokkeslæt for opfølgningen samt sluttidspunktet.
 
 ## <a id="frequency" />Frekvens
 

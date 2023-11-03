@@ -3,7 +3,7 @@ uid: help-de-follow-up-edit
 title: Folgeaufgaben bearbeiten
 description: Folgeaufgaben öffnen, bearbeiten, aus dem Kalender löschen; Endzeitpunkt für eine Folgeaufgabe im Kalender ändern; Einladung bearbeiten oder löschen
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
 keywords: Kalender, Folgeaufgabe, Einladung, Termin, Aufgabe, Anruf, Wiederholen, Wiederkehren, Instanz
 so.topic: howto
 language: de
@@ -53,6 +53,15 @@ Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern,
 * Wenn Sie **Nur diese Instanz ändern** wählen, wirkt sich die Änderung nur auf diese Instanz der Folgeaufgabe aus.
 
 * Wenn Sie **Alle zukünftigen Instanzen einschließlich dieser ändern** wählen, gelten die Änderungen auch für alle Wiederholungen dieser Folgeaufgabe.
+
+Sie können nur das Startdatum für die Folgeaufgabe ändern, wenn Sie das Wiederholungsmuster anzeigen. Um die Uhrzeit zu ändern, klicken Sie auf **OK** oder **Abbrechen**, um zu den Details der Nachverfolgung zurückzukehren.
+
+Wenn Sie sich entscheiden, das Regel-Muster mitten in einer Serie von Besprechungen zu ändern, wird eine neue Regel erstellt, und die alte Regel wird an dem Punkt gestoppt, an dem die Änderung erfolgt.
+
+Wenn Sie die Startzeit für ein einzelnes Besprechung ändern, bleibt die Regel unberührt. Der Besprechungen wird als Ausnahme von der Regel behandelt. Die Ausnahme kann wieder in Übereinstimmung mit den anderen Besprechungen gebracht werden.
+
+> [!CAUTION]
+> Die Änderung des Start- oder Enddatums einem wiederkehrenden Besprechungen nachdem es gespeichert wurde, ist keine gute Idee. Die Änderung der Uhrzeit für eine wiederkehrendes Besprechung funktioniert gut, aber die Änderung des Datums führt nur zu Verwirrung. Das Ändern der Startzeit für eine Besprechung löst ein Update für alle nachfolgenden Wiederholungen aus, wenn Sie den Aktualisierungsmodus auf 'dies und zukünftig' festgelegt haben.
 
 ## <a id="delete" />Folgeaufgabe aus dem Kalender löschen
 

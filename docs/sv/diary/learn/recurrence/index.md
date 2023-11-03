@@ -15,7 +15,7 @@ Det kan hända att du vill skapa en serie bokningar som återkommer med jämna m
 
 ![Recurring follow-up dialog -screenshot][img1]
 
-Längst upp till höger i dialogrutan **Återkommande händelser** visas startdatum och starttid för händelsen samt sluttiden. Du kan bara ändra startdatum för händelsen här. Om du vill ändra tiden stänger du först dialogrutan **Återkommande händelser** och ändrar sedan tiden i dialogrutan **Bokning**, **Uppgift** eller **Samtal**.
+Längst upp till höger i dialogrutan **Återkommande händelser** visas startdatum och starttid för händelsen samt sluttiden.
 
 ## <a id="frequency" />Förekomst
 

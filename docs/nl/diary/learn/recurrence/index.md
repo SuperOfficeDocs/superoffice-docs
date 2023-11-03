@@ -15,7 +15,7 @@ Het kan gebeuren dat u een reeks afspraken wilt maken die met regelmatige tussen
 
 ![Recurring follow-up dialog -screenshot][img1]
 
-Rechtsboven in het dialoogvenster **Herhalende vervolgactiviteiten** worden de begindatum en tijd voor de vervolgactiviteit en de eindtijd weergegeven. U kunt hier alleen de begindatum van de vervolgactiviteit wijzigen. Om de tijd wilt te wijzigen moet eerst het dialoogvenster **Herhalende vervolgactiviteiten** worden gesloten. Vervolgens kunt u de tijd wijzigen in de dialoogvensters **Afspraak**, **Taak** of **Gesprek**.
+Rechtsboven in het dialoogvenster **Herhalende vervolgactiviteiten** worden de begindatum en tijd voor de vervolgactiviteit en de eindtijd weergegeven.
 
 ## <a id="frequency" />Frequentie
 

@@ -3,7 +3,7 @@ uid: help-da-follow-up-edit
 title: Rediger opfølgning
 description: Åbn, rediger, slet opfølgning; Rediger sluttidspunkt for opfølgninger i dagbogen; Rediger eller slet invitation
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
 keywords: dagbog, opfølgning, invitation, aftale, oppgave, telefonopkald, gentag
 so.topic: howto
 language: da
@@ -53,6 +53,15 @@ På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden 
 * Hvis du vælger **Skift kun denne forekomst**, påvirker ændringen ikke andre tidspunkter.
 
 * Hvis du vælger **Skift alle fremtidige forekomster, herunder denne**, vil ændringen også gælde for denne opfølgning i fremtiden.
+
+Du kan kun ændre startdatoen for opfølgningen, mens du ser på gentagelsesmønsteret. For at ændre tiden, skal du klikke på **OK** eller **Afbry** for at vende tilbage til opfølgningsoplysningerne.
+
+Hvis du beslutter at ændre regel mønsteret midt i en række møder, oprettes en ny regel, og den gamle regel stoppes ved det punkt, hvor afbrydelsen opstår.
+
+Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mødet behandles som en undtagelse fra reglen. Undtagelsen kan gøres normal igen ved at flytte den tilbage i linje med de andre møder.
+
+> [!CAUTION]
+> At ændre start- eller slutdatoen for et gentaget møde efter det er blevet gemt, er en dårlig idé. At ændre tiden på et gentaget møde vil fungere fint, men at ændre datoen vil kun føre til forvirring. At ændre starttidspunktet på et møde vil udløse en opdatering for alle efterfølgende gentagelser, hvis du har indstillet opdateringstilstanden til dette og fremad.
 
 ## <a id="delete" />Slet opfølgning ved hjælp af Dagbogen
 

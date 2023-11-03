@@ -54,6 +54,15 @@ Endringer fungerer på samme måte som når du redigerer oppfølginger, men når
 
 * Hvis du velger **Endre alle fremtidige forekomster inkludert denne**, foretas den samme endringen på denne oppfølgingen også i fremtiden.
 
+Du kan kun endre startdatoen for oppfølgingen mens du ser på gjentakelsesmønsteret. For å endre tiden, klikk **OK** eller **Avbryt** for å gå tilbake til oppfølgingsdetaljene.
+
+Hvis du bestemmer deg for å endre mønsteret midt i en rekke møter, opprettes en ny regel, og den gamle regelen stoppes der bruddet oppstår.
+
+Hvis du endrer starttiden for et enkelt møte, påvirkes ikke regelen. Møtet behandles som et unntak fra regelen. Unntaket kan gjøres om til en vanlig hendelse ved å flytte det tilbake i linje med de andre møtene.
+
+> [!CAUTION]
+> Å endre start- eller sluttdatoen for et gjentakende møte etter at det er blitt lagret, er en dårlig idé. Å endre tidspunktet på et gjentakende møte vil fungere bra, men å endre datoen vil bare føre til forvirring. Å endre starttidspunktet på et møte vil utløse en oppdatering for alle påfølgende gjentakelser hvis du har satt oppdateringsmodus til dette og fremover.
+
 ## <a id="delete" />Slette oppfølging ved hjelp av dagboken
 
 * Hvis du sletter en oppfølging du er invitert til, blir oppfølgingen kun fjernet fra din dagbok.
