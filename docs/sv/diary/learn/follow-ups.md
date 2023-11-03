@@ -1,17 +1,17 @@
 ---
 uid: help-sv-follow-ups
 title: Händelser
-description: Händelser - Bokning, Uppgift, Samtal
+description: Händelser - Möte, att göra, samtal
 author: Bergfrid Dias
-so.date: 10.11.2023
-keywords: kalender, uppgift, händelse, bokning, möte, telefon, ringa upp
+so.date: 11.03.2023
+keywords: kalender, uppgift, händelse, bokning, möte, telefon, ringa upp, att göra
 so.topic: concept
 language: sv
 ---
 
 # Händelser
 
-*Händelser* är ett samlingsbegrepp för aktiviteter kopplade till bokningar, uppgifter och samtal. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
+*Händelse* är ett samlingsbegrepp för[möte](#apt) och [att göra](#task). Ett [telefonsamtal](call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
 
 Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
 
@@ -34,29 +34,30 @@ Händelser kan överlappa varandra. Överlappande händelser visas i Kalender-f�
 
 ## Skapa ny
 
- Var du än arbetar i SuperOffice CRM kan du lägga in nya händelser genom att klicka på knappen **Nytt** i det övre fältet och välja **Bokning**, **Uppgift**, eller **Samtal**.
+ Var du än arbetar i SuperOffice CRM kan du lägga in nya händelser genom att klicka på knappen **Nytt** i det övre fältet och välja **Möte/Bokning**, **Att göra/Uppgift**, eller **Händelse/Samtal**.
 
-Uppföljningar som skapas från fönstret Kalender är som standard avtal. Du kan dock ändra typen innan du sparar.
+> [!NOTE]
+> Händelser som skapas från fönstret Kalender är som standard möte. Du kan dock ändra typen innan du sparar.
 
 ## Hitta dina uppföljningar
 
-I fönstret Kalender visas avtal och telefonsamtal på flikarna **Dag**, **Vecka**, **Månad**, och **Visa**, samt i sidopanelerna **Dag**, **Månad**, **Nästa dag** och **Vecka**.
+I fönstret Kalender visas möte och telefonsamtal på flikarna **Dag**, **Vecka**, **Månad**, och **Visa**, samt i sidopanelerna **Dag**, **Månad**, **Nästa dag** och **Vecka**.
 
-Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt, Kalender visar alla uppföljningar, inklusive uppgifter.
+Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt och Kalender visar alla uppföljningar, inklusive uppgifter.
 
 ## Uppföljningstyper
 
 | Typ | Starttid | Sluttid | Varaktighet | Deadline | Visas i | Beskrivning | Exempel |
 |---|:-:|:-:|:-:|:-:|---|---|---|
-| Möte (avtal) | &#10003; | &#10003; | Beräknad | | Kalender | Aktivitet med definierad start- och sluttid | Externt möte med leverantör |
-| Uppgift (att göra) | | | | &#10003; | Avsnitt Aktiviteter | Uppföljning utan starttid | Påminnelse för saker som ska vara klara vid en specifik tidpunkt |
-| Samtal (uppföljning) | &#10003; | | &#10003; | | Avsnitt Aktiviteter | Telefonsamtal | Inkommande samtal från kund |
+| Möte (bokning) | &#10003; | &#10003; | Beräknad | | Kalender | Aktivitet med definierad start- och sluttid | Externt möte med leverantör |
+| Att göra (uppgift) | | | | &#10003; | Avsnitt Aktiviteter | Uppföljning utan starttid | Påminnelse för saker som ska vara klara vid en specifik tidpunkt |
+| Händelse (samtal) | &#10003; | | &#10003; | | Avsnitt Aktiviteter | Telefonsamtal | Inkommande samtal från kund |
 
-## <a id="apt" />Bokning
+## <a id="apt" />Möte (bokning)
 
-En bokning är en händelse med en fastställd start- och sluttid. De visas i ägarens kalender.
+Ett möte är en händelse med en fastställd start- och sluttid. De visas i ägarens kalender.
 
-En möte kan vara en enstaka händelse eller en del av en återkommande serie. Möten som involverar en resurs och/eller extra deltagare kallas [inbjudningar][5] (eller gruppbokningar).
+Ett möte kan vara en enstaka händelse eller en del av en återkommande serie. Möten som involverar en resurs och/eller extra deltagare kallas [inbjudningar][5].
 
 Försenade och avslutade möten kommer att finnas i **Aktiviteter**-fliken samt i kalendern.
 
@@ -68,15 +69,15 @@ Försenade och avslutade möten kommer att finnas i **Aktiviteter**-fliken samt 
 | Egen tid och resurs bokad | &#10003; | | Som ovan, plus behov av rum eller utrustning |
 | Möte med flera deltagare | &#10003; | &#10003; | Ett möte, oftast även med en resurs eller plats |
 
-## <a id="task" />Uppgift
+## <a id="task" />Att göra (uppgift)
 
-En *uppgift* är en uppföljning utan starttid. Den har vanligtvis inte heller någon varaktighet, men den har alltid en **deadline**. Uppgifter används vanligtvis för saker du måste komma ihåg att göra inom en viss tid.
+En *uppgift* är en händelse utan starttid. Den har vanligtvis inte heller någon varaktighet, men den har alltid en **deadline**. Uppgifter används vanligtvis för saker du måste komma ihåg att göra inom en viss tid.
 
 Som standard hittar du uppgifter på dagbokens "att göra"-lista, där de kan bockas av när de är klara. Om du anger en start- och sluttid för uppgiften läggs den in på rätt datum och klockslag i kalendern.
 
-## <a id="call" />Samtal
+## <a id="call" />Händelse (samtal)
 
-Ett *samtal* är en uppföljning som representerar en mycket specifik åtgärd - telefonsamtalet. Till exempel vill du registrera ett utgående telefonsamtal.
+Ett *samtal* är en händelse som representerar en mycket specifik åtgärd - telefonsamtalet. Till exempel vill du registrera ett utgående telefonsamtal.
 
 Det är också något av en hybrid mellan en möte och en uppgift:
 
@@ -87,7 +88,7 @@ Det är också något av en hybrid mellan en möte och en uppgift:
 
 ## Standardlängd
 
-Standardlängden för en bokning är 1 timme och 15 minuter for et samtal, men du kan ändra längden efter behov.
+Standardlängden för ett möte är 1 timme och 15 minuter for et samtal, men du kan ändra längden efter behov.
 
 1. Gå till ![ikon][img14] **Personliga inställningar** och välj **Inställningar**.
 1. Välj **Standardvärden**.
@@ -97,10 +98,9 @@ Standardlängden för en bokning är 1 timme och 15 minuter for et samtal, men d
 
 ## Relaterat innehåll
 
-* [Skapa bokningar, uppgifter, samtal][2]
-* [Lär dig om Aktiviteter][4]
+* [Skapa händelser][2]
+* [Lär dig om aktiviteter][4]
 
-<!-- Referenced links -->
 <!-- Referenced links -->
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md

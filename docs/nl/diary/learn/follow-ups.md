@@ -1,17 +1,17 @@
 ---
-uid: help-nl-follow-ups
+uid: help-nl-vervolgactiviteits
 title: Vervolgactiviteit
-description: Vervolgactiviteit - Afspraak, Taak, Telefoongesprek
+description: Vervolgactiviteit - Vergadering, taak, gesprekken
 author: Bergfrid Dias
-so.date: 10.11.2023
-keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen
+so.date: 11.03.2023
+keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen, taak, gesprekken
 so.topic: concept
 language: nl
 ---
 
 # Vervolgactiviteit
 
-Een *vervolgactiviteit* is een verzamelnaam voor de activiteiten afspraak, taak en Telefoongesprek. Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
+Een *vervolgactiviteit* is een verzamelnaam voor [vergaderingen](#apt) en [taken](#task). Een [telefoongesprek](#call) is een combinatie van beide. Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
 
 Open en vervolgactiviteit door erop te dubbelklikken in het agenda of op het sectietabblad **Activiteiten**.
 
@@ -19,23 +19,23 @@ Open en vervolgactiviteit door erop te dubbelklikken in het agenda of op het sec
 
 | Pictogram | Eigenschap | Beschrijving |
 |:-:|---|---|
-| ![Pictogram][img9]| Eigenaar | Aan wie de follow-up toebehoort. De oorspronkelijke maker of de medewerker aan wie de follow-up is toegewezen/gedelegeerd. |
+| ![Pictogram][img9]| Eigenaar | Aan wie de vervolgactiviteit toebehoort. De oorspronkelijke maker of de medewerker aan wie de vervolgactiviteit is toegewezen/gedelegeerd. |
 | ![Pictogram][img3]| Titel | Een beschrijvend label. Extra details worden in de agenda vermeld. |
 | (een gekleurde stip) | Type | Een vooraf gedefinieerde lijst van activiteiten zoals Vergadering (extern) en Telefoongesprek. |
-| ![Pictogram][img7], ![Pictogram][img8] | Bedrijf / contact | Op wie de follow-up betrekking heeft. |
-| ![Pictogram][img10]| Tijd en datum | Wanneer de follow-up begint of moet worden afgerond. |
-| ![Pictogram][img4]| Herhaling | Of en hoe de follow-up zich herhaalt. |
+| ![Pictogram][img7], ![Pictogram][img8] | Bedrijf / contact | Op wie de vervolgactiviteit betrekking heeft. |
+| ![Pictogram][img10]| Tijd en datum | Wanneer de vervolgactiviteit begint of moet worden afgerond. |
+| ![Pictogram][img4]| Herhaling | Of en hoe de vervolgactiviteit zich herhaalt. |
 | (geen pictogram) | Beschikbaarheid | Vrij/bezet. Beïnvloedt conflicthantering. |
 | ![Pictogram][img2] | Alarm | Of en wanneer de persoon moet worden geïnformeerd. |
-| ![Pictogram][img5] | Verkoop | Een verkoop gekoppeld aan de follow-up. |
-| ![Pictogram][img6] | Project | Een project gekoppeld aan de follow-up. |
+| ![Pictogram][img5] | Verkoop | Een verkoop gekoppeld aan de vervolgactiviteit. |
+| ![Pictogram][img6] | Project | Een project gekoppeld aan de vervolgactiviteit. |
 
 ## Nieuwe maken
 
-Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuwe vervolgactiviteit maken door te klikken op **Nieuw** op de bovenste balk en **Afspraak**, **Taak**, of **Gesprek** te selecteren.
+Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuwe vervolgactiviteit maken door te klikken op **Nieuw** op de bovenste balk en **Vergadering/Afspraak**, **Taak**, of **Vervolgactiviteit/Gesprek** te selecteren.
 
 > [!NOTE]
-> Vervolgactiviteit die worden aangemaakt vanaf het scherm Agenda zijn standaard afspraken. U kunt echter het type wijzigen voordat u opslaat.
+> Vervolgactiviteit die worden aangemaakt vanaf het scherm Agenda zijn standaard vergadering. U kunt echter het type wijzigen voordat u opslaat.
 
 ## Vind uw vervolgactiviteit
 
@@ -47,17 +47,18 @@ Het sectietabblad **Activiteiten** in het scherm Bedrijf, Persoon, Verkoop, Proj
 
 | Type | Starttijd | Eindtijd | Duur | Deadline | Weergegeven in | Beschrijving | Voorbeeld |
 |---|:-:|:-:|:-:|:-:|---|---|---|
-| Afspraak (meeting) | &#10003; | &#10003; | Berekend | | Agenda | Activiteit met gedefinieerde start- en eindtijd | Externe vergadering met leverancier |
-| Taak (To-do) | | | | &#10003; | Tabblad Activiteiten | Vervolgactiviteit zonder starttijd | Herinnering voor zaken die op een bepaalde tijd moeten zijn afgerond |
-| Oproep (follow-up) | &#10003; | | &#10003; | | Tabblad Activiteiten | Telefoongesprek | Inkomend gesprek van klant |
+| Vergadering (afspraak) | &#10003; | &#10003; | Berekend | | Agenda | Activiteit met gedefinieerde start- en eindtijd | Externe vergadering met leverancier |
+| Taak | | | | &#10003; | Tabblad Activiteiten | Vervolgactiviteit zonder starttijd | Herinnering voor zaken die op een bepaalde tijd moeten zijn afgerond |
+| Vervolgactiviteit (Gesprek) | &#10003; | | &#10003; | | Tabblad Activiteiten | Telefoongesprek | Inkomend gesprek van klant |
 
-## <a id="apt" />Afspraak
+## <a id="apt" />Vergadering (afspraak)
 
-Afspraken zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Sie werden im Kalender des Besitzers angezeigt.
+Vergadering zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Sie werden im Kalender des Besitzers angezeigt.
 
-Een afspraak kan een enkele gebeurtenis zijn of deel uitmaken van een terugkerende reeks. Afspraken met een hulpmiddel en/of extra deelnemers worden [uitnodigingen][5] (of groepsreserveringen) genoemd.
+Een vergadering kan een enkele gebeurtenis zijn of deel uitmaken van een terugkerende reeks. Vergaderingen met een hulpmiddel en/of extra deelnemers worden [uitnodigingen][5] (of groepsreserveringen) genoemd.
 
-Te laat uitgevoerde en voltooide afspraken worden weergegeven in het **Activiteiten**-tabblad, naast de kalender.
+> [!NOTE]
+> Te laat uitgevoerde en voltooide vergaderingen worden weergegeven in het **Activiteiten**-tabblad, naast de kalender.
 
 ### Gangbare scenario's
 
@@ -69,24 +70,24 @@ Te laat uitgevoerde en voltooide afspraken worden weergegeven in het **Activitei
 
 ## <a id="task" />Taak
 
-Een *taak* is een follow-up zonder starttijd. Meestal heeft het ook geen duur, maar het heeft altijd een **deadline**. Taken worden doorgaans gebruikt voor dingen die je moet onthouden om op een bepaald tijdstip te doen.
+Een *taak* is een vervolgactiviteit zonder starttijd. Meestal heeft het ook geen duur, maar het heeft altijd een **deadline**. Taken worden doorgaans gebruikt voor dingen die je moet onthouden om op een bepaald tijdstip te doen.
 
 Standaard vind je taken in de dagboek "to-do"-lijst, waar ze kunnen worden afgevinkt wanneer ze zijn voltooid. Als u een begin- en eindtijd opgeeft voor een taak, wordt de taak op de juiste dag en met de juiste tijd ingevoerd in de agenda.
 
 ## <a id="call" />Gesprek
 
-Een *gesprek* is een follow-up die een zeer specifieke actie vertegenwoordigt - het telefoongesprek. Bijvoorbeeld, u wilt een uitgaand telefoongesprek invoeren.
+Een *gesprek* is een vervolgactiviteit die een zeer specifieke actie vertegenwoordigt - het telefoongesprek. Bijvoorbeeld, u wilt een uitgaand telefoongesprek invoeren.
 
-Het is ook een beetje een hybride tussen een afspraak en een taak:
+Het is ook een beetje een hybride tussen een vergadering en een taak:
 
 * Wanneer u in eerste instantie een telefoongesprek plant, staat het op de "to-do"-lijst met een deadline, net als een taak.
-* Wanneer u het gesprek voert, wordt het vastgelegd in de tijd en lijkt het nu op een afspraak.
+* Wanneer u het gesprek voert, wordt het vastgelegd in de tijd en lijkt het nu op een vergadering.
   * Het begintijdstip wordt de huidige tijd en de datum van vandaag.
   * De standaardduur is 15 minuten.
 
 ### Standaard duur
 
-De standaardduur van een afspraak is één uur en 15 minuten van een gesprek. U kunt standaardwaarden aanpassen.
+De standaardduur van een vergadering is één uur en 15 minuten van een gesprek. U kunt standaardwaarden aanpassen.
 
 1. Ga naar ![pictogram][img14] **Persoonlijke instellingen** en selecteer **Voorkeuren**.
 1. Selecteer **Standaardwaarden**.
@@ -96,12 +97,11 @@ De standaardduur van een afspraak is één uur en 15 minuten van een gesprek. U 
 
 ## Gerelateerde inhoud
 
-* [Afspraken maken, Taken maken, Telefoongesprekken registreren][2]
+* [Vervolgactiviteiten maken][2]
 * [Meer informatie over activiteiten][4]
 
 <!-- Referenced links -->
-<!-- Referenced links -->
-[2]: create-follow-up.md
+[2]: create-vervolgactiviteit.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
 

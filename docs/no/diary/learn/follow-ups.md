@@ -1,17 +1,17 @@
 ---
 uid: help-no-follow-ups
 title: Oppfølging
-description: Oppfølging - Avtale, oppgave, telefonsamtale
+description: Oppfølging - Møte, oppgave, telefonsamtale
 author: Bergfrid Dias
-so.date: 10.05.2023
-keywords: dagbok, oppfølging, avtale, møte,  telefon, samtale
+so.date: 11.03.2023
+keywords: dagbok, oppfølging, avtale, møte, oppgave, telefon, samtale
 so.topic: concept
 language: no
 ---
 
 # Oppfølging
 
-*Oppfølginger* er et samlebegrep for aktivitetene avtale, oppgave og samtale. Disse er nært knyttet til Dagbok-bildet fungerer stort sett på samme måte.
+*Oppfølging* er et samlebegrep for [møter](#apt) og [oppgaver](#task). En [telefonsamtale](#call) er en blanding av de to. Disse er nært knyttet til Dagbok-bildet fungerer stort sett på samme måte.
 
 Åpne en tidligere registrert oppfølging ved å dobbeltklikke på den i dagboken eller i detaljkortet **Aktiviteter**.
 
@@ -32,32 +32,32 @@ language: no
 
 ## Opprett ny
 
-Uansett hvor i SuperOffice CRM du er, kan du opprette en ny oppfølging ved å klikke på **Ny**-knappen i toppraden og deretter velge **Avtale**, **Oppgave**, eller **Samtale**.
+Uansett hvor i SuperOffice CRM du er, kan du opprette en ny oppfølging ved å klikke på **Ny**-knappen i toppraden og deretter velge **Møte/Avtale**, **Oppgave**, eller **Oppfølging/Samtale**.
 
 > [!NOTE]
-> Oppfølgninger opprettet fra dagboken er som standard avtaler. Du kan imidlertid endre typen før du lagrer.
+> Oppfølgninger opprettet fra dagboken er som standard møter. Du kan imidlertid endre typen før du lagrer.
 
 ## Finn dine oppfølginger
 
-I Dagbok-bildet vises avtaler og telefonsamtaler på fanene **Dag**, **Uke**, **Måned**, og **Vis**, samt i sidepanelene **Dag**, **Måned**, **Neste dag** og **Uke**.
+I Dagbok-bildet vises møter og telefonsamtaler på fanene **Dag**, **Uke**, **Måned**, og **Vis**, samt i sidepanelene **Dag**, **Måned**, **Neste dag** og **Uke**.
 
-Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, Dagbok viser alle oppfølginger, inkludert oppgaver.
+Detaljkortet **Aktiviteter** på skjermbildet Firma, Personer, Salg, Prosjekt, og Dagbok viser alle oppfølginger, inkludert oppgaver.
 
 ## Oppfølgingstyper
 
 | Type | Starttid | Sluttid | Varighet | Frist | Vises i | Beskrivelse | Eksempel |
 |---|:-:|:-:|:-:|:-:|---|---|---|
-| Avtale (møte) | &#10003; | &#10003; | Beregnet | | Kalender | Aktivitet med definert start- og sluttid | Eksternt møte med leverandør |
-| Oppgave (To-do) | | | | &#10003; | Seksjon Aktiviteter | Oppfølging uten starttid | Påminnelse for oppgaver som forfaller til en bestemt tid |
-| Samtale (oppfølging) | &#10003; | | &#10003; | | Seksjon Aktiviteter | Telefonsamtale | Innkommende samtale fra kunde |
+| Møte (avtale) | &#10003; | &#10003; | Beregnet | | Kalender | Aktivitet med definert start- og sluttid | Eksternt møte med leverandør |
+| Oppgave | | | | &#10003; | Seksjon Aktiviteter | Oppfølging uten starttid | Påminnelse for oppgaver som forfaller til en bestemt tid |
+| Oppfølging (samtale) | &#10003; | | &#10003; | | Seksjon Aktiviteter | Telefonsamtale | Innkommende samtale fra kunde |
 
-## <a id="apt" /> Avtale
+## <a id="apt" />Møte (avtale)
 
-Avtaler er oppfølginger med definert start- og sluttid, for eksempel møter. De vises i eierens kalender.
+Møter er oppfølginger med definert start- og sluttid. De vises i eierens kalender.
 
-En avtale kan være en enkelt hendelse eller en del av en gjentakende serie. Avtaler som involverer en ressurs og/eller ekstra deltakere kalles [invitasjoner][5] (eller gruppebestillinger).
+Et møte kan være en enkelt hendelse eller en del av en gjentakende serie. Møter som involverer en ressurs og/eller ekstra deltakere kalles [invitasjoner][5].
 
-Forfalte og fullførte avtaler vil vises i seksjonen **Aktiviteter**-fanen i tillegg til i kalenderen.
+Forfalte og fullførte møter vil vises i seksjonen **Aktiviteter**-fanen i tillegg til i kalenderen.
 
 ### Vanlige scenarioer
 
@@ -73,20 +73,20 @@ En *oppgave* er en oppfølging uten starttid. Den har vanligvis heller ingen var
 
 Som standard finner du oppgaver i dagbokens "to-do"-liste, hvor de kan krysses av når de er fullført. Hvis du angir et start- og sluttidspunkt for en oppgave, legges det inn i dagboken på riktig dag og klokkeslett.
 
-## <a id="call" />Samtale
+## <a id="call" />Oppfølging (samtale)
 
 En *samtale* er en oppfølging som representerer en svært spesifikk handling - telefonsamtalen. For eksempel ønsker du å registrere et utgående telefonanrop.
 
-Det er også en hybrid mellom en avtale og en oppgave:
+Det er også en hybrid mellom et møte og en oppgave:
 
-* Når du først planlegger en samtale, befinner den seg i "to-do"-listen med en frist, akkurat som en oppgave.
-* Når du utfører samtalen, blir den knyttet til et tidspunkt og ligner nå en avtale.
+* Når du først planlegger en samtale, befinner den seg i listen med en frist, akkurat som en oppgave.
+* Når du utfører samtalen, blir den knyttet til et tidspunkt og ligner nå et møte.
   * Starttiden blir gjeldende tidspunkt og dagens dato.
   * Standardvarigheten er 15 minutter.
 
 ## Standard varighet
 
-Standard varighet for en avtale er én time og 15 minutter for en samtale. For å endre standardverdier:
+Standard varighet for et møte er én time og 15 minutter for en samtale. For å endre standardverdier:
 
 1. Gå til ![ikon][img14] **Personlige innstillinger** og velg **Preferanser**.
 1. Velg **Standardverdier**.
@@ -96,10 +96,9 @@ Standard varighet for en avtale er én time og 15 minutter for en samtale. For �
 
 ## Aktuelt innhold
 
-* [Opprett avtaler, oppgaver, samtaler][2]
-* [Finne ut mer om aktiviteter][4]
+* [Opprett oppfølging][2]
+* [Finn ut mer om aktiviteter][4]
 
-<!-- Referenced links -->
 <!-- Referenced links -->
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md

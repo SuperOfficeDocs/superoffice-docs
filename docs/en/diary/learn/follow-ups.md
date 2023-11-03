@@ -3,7 +3,7 @@ uid: help-en-follow-ups
 title: Follow-ups
 description: Follow-ups - meeting, to-do, call
 author: Bergfrid Dias
-so.date: 10.11.2023
+so.date: 11.03.2023
 keywords: diary, follow-up, appointment, meeting, task, to-do, phone, call, participant
 so.topic: concept
 language: en
@@ -32,7 +32,7 @@ Open an existing follow-up by double-clicking it in the Diary or the **Activitie
 
 ## Create new
 
-No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **+New** in the top bar and then select **Meeting**, **To-do**, or **Follow-up**.
+No matter where you are in SuperOffice CRM, you can create a follow-up by clicking **+New** in the top bar and then select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
 
 > [!NOTE]
 > Follow-ups created from the Diary screen are by default meetings. However, you can change the type before you save.
@@ -51,7 +51,7 @@ The **Activities** section tab (in the Company, Contact, Sale, Project, and Diar
 | To-do (task) | | | | &#10003; | Activities section tab | Follow-up w/ no start time | reminder for stuff due by a specific time |
 | Follow-up (call) | &#10003; | | &#10003; | | Activities section tab | Phone call | Incoming call from customer |
 
-## <a id="apt" />Meeting (Appointment)
+## <a id="apt" />Meeting (appointment)
 
 Meetings are activities with a defined start and end time. They are shown in the owner's calendar.
 

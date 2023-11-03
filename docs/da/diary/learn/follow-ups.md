@@ -1,9 +1,9 @@
 ---
 uid: help-da-follow-ups
 title: Opfølgninger
-description: Opfølgninger - aftale, opgave, samtale
+description: Opfølgninger - møde, skal udføres, samtale
 author: Bergfrid Dias
-so.date: 10.05.2023
+so.date: 11.03.2023
 keywords: dagbog, opfølgning, aftale, møde, telefon, ring til, opgave
 so.topic: concept
 language: da
@@ -11,7 +11,7 @@ language: da
 
 # Opfølgninger
 
-*Opfølgning* er en samlet betegnelse for aftale-, opgave- og telefonopkaldsaktiviteterne. Disse er tæt knyttet til dagbogsskærmen og fungerer alle på stort set samme måde.
+*Opfølgning* er en samlet betegnelse for [møder](#apt) og [opgaver](#task). [Telefonopkald](#call) er en blanding av de to. Disse er tæt knyttet til dagbogsskærmen og fungerer alle på stort set samme måde.
 
 Åbn en opfølgning ved at dobbeltklikke på den i dagbogen eller i detaljekortet **Aktiviteter**.
 
@@ -32,14 +32,14 @@ language: da
 
 ## Opret ny
 
-Uanset hvor du er i SuperOffice CRM, kan du oprette en ny opfølgning ved at klikke på knappen **+Ny** på Toplinjen og så vælge **Aftale**, **Opgave**, eller **Samtale**.
+Uanset hvor du er i SuperOffice CRM, kan du oprette en ny opfølgning ved at klikke på knappen **+Ny** på Toplinjen og så vælge **Møde/Aftale**, **Skal udføres/Opgave**, eller **Opfølging/Samtale**.
 
 > [!NOTE]
-> Opfølgninger oprettet fra skærmbilledet Dagbog er som standard aftaler. Du kan dog ændre typen, inden du gemmer.
+> Opfølgninger oprettet fra skærmbilledet Dagbog er som standard møder. Du kan dog ændre typen, inden du gemmer.
 
 ## Find dine opfølgninger
 
-På skærmen Dagbog vises aftaler og telefonopkald på fanerne **Dag**, **Uge**, **Måned**, og **Vis**, og i sidepanelerne **Dag**, **Måned**, **Næste dag** og **Uge**.
+På skærmen Dagbog vises møder og telefonopkald på fanerne **Dag**, **Uge**, **Måned**, og **Vis**, og i sidepanelerne **Dag**, **Måned**, **Næste dag** og **Uge**.
 
 Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog viser alle opfølgninger, herunder opgaver.
 
@@ -48,16 +48,16 @@ Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dag
 | Type | Starttidspunkt | Sluttidspunkt | Varighed | Deadline | Vises i | Beskrivelse | Eksempel |
 |---|:-:|:-:|:-:|:-:|---|---|---|
 | Aftale (møde) | &#10003; | &#10003; | Beregnet | | Kalender | Aktivitet med defineret start- og sluttidspunkt | Eksternt møde med leverandør |
-| Opgave (To-do) | | | | &#10003; | Aktiviteter-sektionen | Opfølgning uden starttidspunkt | Påmindelse om opgaver, der forfalder på et bestemt tidspunkt |
+| Skal udføres (opgave) | | | | &#10003; | Aktiviteter-sektionen | Opfølgning uden starttidspunkt | Påmindelse om opgaver, der forfalder på et bestemt tidspunkt |
 | Opkald (opfølgning) | &#10003; | | &#10003; | | Aktiviteter-sektionen | Telefonopkald | Indgående opkald fra kunden |
 
-## <a id="apt" />Aftale
+## <a id="apt" />Møde (aftale)
 
-Aftaler er opfølgninger med defineret start- og sluttid, for eksempel møder. De vises i ejerens kalender.
+Møder er opfølgninger med defineret start- og sluttid, for eksempel møder. De vises i ejerens kalender.
 
-En aftale kan være en enkelt begivenhed eller en del af en tilbagevendende serie. Aftaler, der involverer en ressource og/eller yderligere deltagere, kaldes [invitationer][5] (eller gruppebestillinger).
+Et møde kan være en enkelt begivenhed eller en del af en tilbagevendende serie. Mødeer, der involverer en ressource og/eller yderligere deltagere, kaldes [invitationer][5] (eller gruppebestillinger).
 
-Forfaldne og fuldførte aftaler vil blive vist i **Aktiviteter**-fanen ud over i kalenderen.
+Forfaldne og fuldførte møder vil blive vist i **Aktiviteter**-fanen ud over i kalenderen.
 
 ### Vanlige scenarioer
 
@@ -65,15 +65,15 @@ Forfaldne og fuldførte aftaler vil blive vist i **Aktiviteter**-fanen ud over i
 |---|:-:|:-:|---|
 | Egen tid reservert | | | Du har satt av tid til å jobbe med noe alene |
 | Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
-| Møte med flere deltakere | &#10003; | &#10003; | Et møte, vanligvis også med en ressurs eller sted |
+| Møde med flere deltakere | &#10003; | &#10003; | Et møde, vanligvis også med en ressurs eller sted |
 
-## <a id="task" />Opgave
+## <a id="task" />Skal udføres (opgave)
 
-En *opgave* er en opfølgning uden starttid. Den har normalt heller ingen varighed, men den har altid en **frist**. Opgaver bruges normalt til ting, du skal huske at gøre inden en bestemt tid.
+En *opgave* er en opfølgning uden starttid. Den har normalt heller ingen varighed, men den har altid en **frist**. Skal udføres bruges normalt til ting, du skal huske at gøre inden en bestemt tid.
 
-Som standard finder du opgaver på dagbogens "to-do"-liste, hvor de kan markeres som færdige, når de er udført. Hvis du angiver et start- og sluttidspunkt for en opgave, indføres den i dagbogen på det korrekte tidspunkt.
+Som standard finder du skal udføres på dagbogens "to-do"-liste, hvor de kan markeres som færdige, når de er udført. Hvis du angiver et start- og sluttidspunkt for en opgave, indføres den i dagbogen på det korrekte tidspunkt.
 
-## <a id="call" />Samtale
+## <a id="call" />Opfølging (samtale)
 
 En *samtale* er en opfølgning, der repræsenterer en meget specifik handling - telefonopkaldet. For eksempel ønsker du at registrere et udgående telefonopkald.
 
@@ -86,7 +86,7 @@ Det er også en hybrid mellem en aftale og en opgave:
 
 ## Standardvarighed
 
-Standardvarigheden er 1 timefor en aftale og 15 minutter for en samtale. For at ændres standardværdier:
+Standardvarigheden er 1 timefor et møde og 15 minutter for en samtale. For at ændres standardværdier:
 
 1. Gå til ![ikon][img14] **Personlige indstillinger** og vælg **Præferencer**.
 1. Vælg **Bibehold standardværdier**.
@@ -96,10 +96,9 @@ Standardvarigheden er 1 timefor en aftale og 15 minutter for en samtale. For at 
 
 ## Relateret indhold
 
-* [Oprettelse af aftaler, opgaver, samtaler][2]
+* [Oprettelse af opfølginger][2]
 * [Få mere at vide om aktiviteter][4]
 
-<!-- Referenced links -->
 <!-- Referenced links -->
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
