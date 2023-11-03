@@ -3,17 +3,22 @@ uid: help-sv-invitation
 title: Skapa händelser med dina medarbetare
 description: Skapa händelser med dina medarbetare
 author: Bergfrid Dias
-so.date: 10.04.2023
-keywords: kalender, händelse
+so.date: 11.03.2023
+so.version: 10.2.10
+keywords: kalender, händelse, inbjudan, möte
 so.topic: howto
 language: sv
 ---
 
 # Bjuda in andra medarbetare till en händelse
 
+Inbjudningar skapas när du kallar till möten eller andra arrangemang mellan olika medlemmar i ett företag. Du bjuder in flera kollegor eller resurser att delta. När en inbjudan accepteras kommer den att visas i användarens kalender.
+
 Om du vill avsätta tid för ett möte med en eller flera medarbetare går du till fliken **Översikt** i Kalender-fönstret. Här kan du öppna dina medarbetares kalendrar för att se när de är tillgängliga för ett möte. Du kan också välja att visa resurser som konferensrum, se när de är lediga och skapa en gemensam bokning för alla från din egen kalender.
 
 Händelser med medarbetare skapas genom att de kopplas till händelsen som deltagare.
+
+När vi sparar mötet läggs en inbjudan till den person vi bjudit in och visas i personens kalender på rätt datum och tid. Detta sker endast om den inbjudna personen också är en kollega. Du kan även bjuda in personer som tillhör andra kontakter; dessa kommer inte ha en egen kalender där mötet visas, men det kommer istället att visas i aktivitetsarkivet för deras kontakt.
 
 ## <a id="status" />Status
 

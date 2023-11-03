@@ -3,17 +3,22 @@ uid: help-no-invitation
 title: Opprette oppfølginger med medarbeiderne dine
 description: Opprette oppfølginger med medarbeiderne dine
 author: Bergfrid Dias
-so.date: 10.19.2023
-keywords: dagbok, oppfølging, invitasjon, møte
+so.date: 11.03.2023
+so.version: 10.2.10
+keywords: dagbok, oppfølging, invitasjon, møte, deltager
 so.topic: howto
 language: no
 ---
 
 # Invitere andre medarbeidere til en oppfølging
 
+Invitasjoner blir opprettet når du kaller inn til møter eller andre avtaler mellom ulike medlemmer av en bedrift. Du inviterer flere kolleger eller ressurser til å delta. Når en invitasjon blir akseptert, vil den vises i brukerens dagbok.
+
 Når du skal sette av tid til et møte med én eller flere medarbeidere, kan du bruke fanen **Oversikt** i Dagbok-bildet. Her kan du åpne andre medarbeideres dagbøker for å se når kollegene dine er tilgjengelige for møter. Du kan dessuten velge å vise ressurser som for eksempel møterom, for å se når de er ledige og registrere en felles reservasjon for alle innenfra din egen dagbok.
 
 Du lager oppfølginger med andre medarbeidere ved å knytte dem til oppfølgingen som deltakere.
+
+Når vi lagrer møtet, blir en invitasjon lagt til personen vi inviterte og vises i vedkommendes dagbok på riktig dato og tidspunkt. Dette skjer bare hvis den inviterte personen også er en kollega. Du kan også invitere personer som tilhører andre kontakter; disse vil ikke ha en egen dagbok hvor møtet vises, men det vil i stedet bli vist i aktivitetsarkivet til deres kontakt.
 
 ## <a id="status" />Status
 

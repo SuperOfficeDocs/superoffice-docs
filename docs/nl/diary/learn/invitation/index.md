@@ -3,17 +3,22 @@ uid: help-nl-invitation
 title: Vervolgactiviteiten met andere medewerkers maken
 description: Vervolgactiviteiten met andere medewerkers maken
 author: Bergfrid Dias
-so.date: 10.04.2023
-keywords: agenda, vervolgactiviteit, uitnodiging
+so.date: 11.03.2023
+so.version: 10.2.10
+keywords: agenda, vervolgactiviteit, uitnodiging, weergegeven
 so.topic: howto
 language: nl
 ---
 
 # Uw medewerkers uitnodigen voor een vervolgactiviteit
 
+Uitnodigingen worden aangemaakt wanneer er bijeenkomsten of andere vergadering worden georganiseerd tussen verschillende leden van een bedrijf. Je nodigt verschillende collega's of bronnen uit om deel te nemen. Wanneer een uitnodiging geaccepteerd wordt, wordt deze weergegeven in de agenda van de gebruiker.
+
 Als u tijd wilt reserveren voor een vergadering met een of meer medewerkers, gebruikt u het tabblad **Weergave** in het scherm Agenda. Hier kunt u de agenda's van de medewerkers openen om te controleren of uw collega's beschikbaar zijn voor een vergadering. Bovendien kunt u hulpmiddelen selecteren zoals vergaderingszalen, om te zien of deze vrij zijn en om deze gezamenlijk te reserveren met iedereen in uw agenda.
 
 U stelt vervolgactiviteiten met andere medewerkers in door de medewerkers als deelnemers te koppelen aan de vervolgactiviteit.
+
+Wanneer we de vergadering opslaan, wordt er een uitnodiging toegevoegd aan de persoon die we hebben uitgenodigd, en deze wordt getoond in de agenda van de persoon op de juiste datum en tijd. Dit gebeurt alleen als de uitgenodigde persoon ook een collega is. Je kunt ook personen uitnodigen die tot andere contacten behoren; zij zullen geen eigen agenda hebben waar de vergadering wordt getoond, maar deze zal in plaats daarvan worden weergegeven in het activiteitenarchief van hun contact.
 
 ## <a id="status" />Status
 

@@ -3,7 +3,8 @@ uid: help-en-invitation
 title: Creating follow-ups with your associates
 description: Creating follow-ups with your associates
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: diary, follow-up, calendar, invitation, appointment, meeting, associate, participant
 so.topic: concept
 language: en
@@ -11,18 +12,13 @@ language: en
 
 # Invite your associates to a follow-up
 
-Invitations are **created** when calling meetings or other arrangements between different members of a company. Meetings have multiple **participants**: you invite several associates or resources to join. When an invitation is **accepted** it will be displayed on the user’s diary.
-
-While follow-up with the owner plus one resource technically are bookings, we here define a **meeting** as:
-
-* 2 or more persons
-* Optionally a resource
+Invitations are **created** when calling meetings or other arrangements between different members of a company. You invite several associates or resources to join. When an invitation is **accepted** it will be displayed on the user’s diary.
 
 To allocate time for a meeting with one or more associates, use the **View** tab in the Diary screen. Here you can open your associates' diaries to see when your colleagues are available for a meeting. In addition, you can select to view resources such as conference rooms, to see when they are free and set up a joint reservation for everyone from within your own diary.
 
 Follow-ups with associates are set up by linking them as participants to the follow-up.
 
-When we save the meeting, an invitation will also be added to the person we invited and will be shown in the diary of the person on the appropriate date and time. **This only happens if the invited person also is an associate.** You may invite persons belonging to other contacts as well, these will not have a diary where the meeting is shown, but it will be shown in the activity archive of their contact instead.
+When we save the meeting, an invitation will be added to the person we invited and will be shown in the diary of the person on the appropriate date and time. **This only happens if the invited person also is an associate.** You may invite persons belonging to other contacts as well, these will not have a diary where the meeting is shown, but it will be shown in the activity archive of their contact instead.
 
 > [!NOTE]
 > Resources and non-user persons don't receive invitations – the meeting is just created as a normal meeting for them.

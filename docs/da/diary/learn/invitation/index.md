@@ -3,7 +3,8 @@ uid: help-da-invitation
 title: Oprettelse af opfølgninger med dine medarbejdere
 description: Oprettelse af opfølgninger med dine medarbejdere
 author: Bergfrid Dias
-so.date: 10.04.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: dagbog, opfølgning, invitation, møde
 so.topic: howto
 language: da
@@ -11,9 +12,13 @@ language: da
 
 # Invitation af andre medarbejdere til en opfølgning
 
+Invitationer bliver oprettet, når du indkalder til møder eller andre arrangementer mellem forskellige medlemmer af en virksomhed. Du inviterer adskillige kolleger eller ressourcer til at deltage. Når en invitation bliver accepteret, vil den blive vist i brugerens dagbog.
+
 Hvis du vil allokere tid til et møde med en eller flere medarbejdere, skal du bruge fanen **Vis** på skærmbilledet Dagbog. Her kan du åbne dine medarbejderes dagbøger for at se, hvornår dine kolleger er tilgængelige til et møde. Derudover kan du vælge at få vist ressourcer som mødelokaler for at se, hvornår de er ledige, og oprette en fælles reservation for alle fra din egen dagbog.
 
 Opfølgninger med medarbejdere oprettes ved at knytte dem som deltagere til opfølgningen.
+
+Når vi gemmer mødet, vil der blive tilføjet en invitation til den person, vi har inviteret, og den vil blive vist i vedkommendes dagbog på den passende dato og tidspunkt. Dette sker kun, hvis den inviterede person også er en kollega. Du kan også invitere personer, der hører til andre kontakter; disse vil ikke have en dagbog, hvor mødet vises, men det vil i stedet blive vist i aktivitetsarkivet for deres kontakt.
 
 ## <a id="status" />Status
 
