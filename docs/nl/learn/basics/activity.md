@@ -3,7 +3,8 @@ uid: help-nl-activity
 title: Activiteiten
 description: Activiteiten in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 10.27.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: activiteit
 so.topic: concept
 language: nl
@@ -70,11 +71,6 @@ U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten wor
 1. Selecteer een of meer activiteiten die u wilt verwijderen.
 
 2. Klik met de rechtermuisknop op de geselecteerde activiteit(en) en selecteer **Verwijderen**.
-
-    > [!NOTE]
-    > u kunt de activiteit ook selecteren op het sectietabblad **Activiteiten** en vervolgens klikken op de knop **Verwijderen** aan de linkerkant, onder de lijst.
-    >
-    > De knop **Verwijderen** kan alleen worden gekozen wanneer de aangemelde gebruiker bevoegd is items te verwijderen uit de desbetreffende activiteitenlijst.
 
 3. Klik op **Ja** om het verwijderen van de activiteit te bevestigen.
 

@@ -23,11 +23,9 @@ Voer een van de volgende handelingen uit:
 
     ![De status Voltooid voor een activiteit wijzigen -screenshot][img3]
 
-* Houd de muisaanwijzer op het vak in de kolom **Voltooid** ![pictogram][img2] op het sectietabblad **Activiteiten**. Klik dan in het selectievakje ![pictogram][img1].
+* Klik dan in het selectievakje in de kolom **Voltooid** ![pictogram][img2] op het sectietabblad **Activiteiten**.
 
 * Klik met de rechtermuisknop op de activiteit en kies **Voltooid**.
-
-    ![De status Voltooid voor een activiteit wijzigen -screenshot][img4]
 
 > [!NOTE]
 > Als u een voltooide activiteit wilt bewerken, moet u eerst de status **Voltooid** uitschakelen.
@@ -35,7 +33,5 @@ Voer een van de volgende handelingen uit:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png

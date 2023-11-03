@@ -3,7 +3,8 @@ uid: help-en-activity
 title: Activities
 description: Activities in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 10.27.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: activity
 so.topic: concept
 language: en
@@ -70,11 +71,6 @@ You can delete activities from any screen where they are displayed:
 1. Select one or more activities that you want to delete.
 
 2. Right-click the selected activity or activities and select **Delete**.
-
-    > [!NOTE]
-    > On the **Activities** section tab, you can also select the activity and click the **Delete** button on the left, below the list.
-    >
-    > The **Delete** button is only available if the user who is logged in has permission to delete items from the activities list in question.
 
 3. When asked if you really want to delete the activity, click **Yes**.
 

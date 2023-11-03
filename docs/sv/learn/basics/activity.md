@@ -3,7 +3,8 @@ uid: help-sv-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 author: SuperOffice RnD
-so.date: 10.27.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: activity
 so.topic: concept
 language: sv
@@ -70,11 +71,6 @@ Du kan ta bort aktiviteter från alla fönster där de visas:
 1. Markera en eller flera aktiviteter som du vill ta bort.
 
 2. Högerklicka på den eller de markerade aktiviteterna och välj **Ta bort**.
-
-    > [!NOTE]
-    > På fliken **Aktiviteter** kan du också välja aktiviteten och klicka på knappen **Ta bort** till vänster, under listan.
-    >
-    > Knappen **Ta bort** är endast tillgänglig om användaren som är inloggad har behörighet att ta bort objekt från aktivitetslistan i fråga.
 
 3. Klicka på **Ja** när du tillfrågas om du verkligen vill ta bort aktiviteten.
 

@@ -3,7 +3,7 @@ uid: help-sv-activity-completed
 title: Ändra Slutfört-status för en aktivitet
 description: Ändra Slutfört-status för en aktivitet
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 11.03.2023
 keywords: kalender, händelse
 so.topic: howto
 language: sv
@@ -23,11 +23,9 @@ Utför en av följande åtgärder:
 
     ![Ändra Slutfört-status för en aktivitet -screenshot][img3]
 
-* Håll muspekaren över rutan i kolumnen **Slutförd** ![ikon][img2] på fliken **Aktiviteter**. Sedan klickar du i kryssrutan ![ikon][img1].
+* Klicka i kryssrutan i kolumnen **Slutförd** ![ikon][img2] på fliken **Aktiviteter**.
 
 * Högerklicka på aktiviteten och välj **Slutförd**.
-
-    ![Ändra Slutförd-status för en aktivitet -screenshot][img4]
 
 > [!NOTE]
 > Om du vill redigera en slutförd aktivitet måste du först avmarkera statusen **Slutförd**.
@@ -35,7 +33,5 @@ Utför en av följande åtgärder:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png

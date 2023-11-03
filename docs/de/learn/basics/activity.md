@@ -3,7 +3,8 @@ uid: help-de-activity
 title: Aktivitäten
 description: Aktivitäten in SuperOffice CRM
 author: SuperOffice RnD
-so.date: 10.27.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: activity
 so.topic: concept
 language: de
@@ -70,11 +71,6 @@ Sie können Aktivitäten von jeder Anzeige löschen, auf der sie angezeigt werde
 1. Wählen Sie eine oder mehrere zu löschende Aktivitäten aus.
 
 2. Klicken Sie mit der rechten Maustaste auf die ausgewählte(n) Aktivität(en) und wählen Sie **Löschen**.
-
-    > [!NOTE]
-    > Sie können die Aktivität auch auf der Bereichsregisterkarte **Aktivitäten** markieren und links unter der Liste auf die Schaltfläche **Löschen** klicken.
-    >
-    > Die Schaltfläche **Löschen** ist nur dann aktiviert, wenn der angemeldete Benutzer berechtigt ist, Einträge aus der betreffenden Aktivitätenliste zu löschen.
 
 3. Klicken Sie anschließend zur Bestätigung auf **Ja**.
 

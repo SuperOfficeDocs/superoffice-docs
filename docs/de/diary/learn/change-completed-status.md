@@ -3,7 +3,7 @@ uid: help-de-activity-completed
 title: Status Abgeschlossen für eine Aktivität ändern
 description: Status Abgeschlossen für eine Aktivität ändern
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 11.03.2023
 keywords: Kalender, Folgeaufgabe
 so.topic: howto
 language: de
@@ -23,11 +23,9 @@ Führen Sie eine der folgenden Aktionen aus:
 
     ![Status Abgeschlossen für eine Aktivität ändern -screenshot][img3]
 
-* Platzieren Sie den Mauszeiger auf dem Feld in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde. Klicken Sie auf das Kontrollkästchen ![Symbol][img1].
+* Klicken Sie auf das Kontrollkästchen in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde.
 
 * Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
-
-    ![Status Abgeschlossen für eine Aktivität ändern -screenshot][img4]
 
 > [!NOTE]
 > Um eine abgeschlossene Aktivität zu bearbeiten, müssen Sie zunächst den Status **Abgeschlossen** deaktivieren.
@@ -35,7 +33,5 @@ Führen Sie eine der folgenden Aktionen aus:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png

@@ -3,7 +3,7 @@ uid: help-en-diary
 title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
 author: Bergfrid Dias
-so.date: 10.11.2023
+so.date: 11.03.2023
 keywords: diary
 so.topic: concept
 language: en

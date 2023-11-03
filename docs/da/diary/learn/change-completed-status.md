@@ -3,7 +3,7 @@ uid: help-da-activity-completed
 title: Ændring af status Udført for en aktivitet
 description: Ændring af status Udført for en aktivitet
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 11.03.2023
 keywords: dagbog, opfølgning
 so.topic: howto
 language: da
@@ -23,11 +23,9 @@ Udfør en af følgende handlinger:
 
     ![Ændring af status Udført for en aktivitet -screenshot][img3]
 
-* Hold musemarkøren over feltet i kolonneikonet **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**. Klik derefter på afkrydsningsfeltikonet ![ikon][img1].
+* Klik på afkrydsningsfeltet i kolonnen **Fuldført** ![ikon][img2] på detaljekortet **Aktiviteter**.
 
 * Højreklik på aktiviteten, og vælg **Fuldført**.
-
-    ![Ændring af status Udført for en aktivitet -screenshot][img4]
 
 > [!NOTE]
 > Hvis du vil redigere en fuldført aktivitet, skal du først fjerne markeringen af statussen **Fuldført**.
@@ -35,7 +33,5 @@ Udfør en af følgende handlinger:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png

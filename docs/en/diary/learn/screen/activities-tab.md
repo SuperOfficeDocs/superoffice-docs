@@ -3,7 +3,8 @@ uid: help-en-diary-screen-activities
 title: The Activities section tab (Diary)
 description: The Activities section tab (Diary)
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: diary, follow-up
 so.topic: reference
 language: en
@@ -13,7 +14,7 @@ language: en
 
 ![Activities section tab (Diary) -screenshot][img4]
 
-The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list. It contains, among other things, meetings and to-dos that you have not yet completed and you can use it to temporarily store follow-ups that you have not yet allocated to a particular time or date.
+The **Activities** section tab gives you an overview of activities and acts as a to-do list. It contains, among other things, meetings and to-dos that you have not yet completed and you can use it to temporarily store follow-ups that you have not yet allocated to a particular time or date.
 
 The activities list does not change when you switch between the different tabs in the top section of the Diary screen.
 
@@ -21,7 +22,7 @@ The activities list does not change when you switch between the different tabs i
 
 The activities list columns contain the following information:
 
-* ![icon][img3] : The first column in the activities list specifies the **Completed** [status of an activity][1]. A tick in the checkbox (![icon][img2]) means that the activity is completed, while an empty box means that it is not completed.
+* ![icon][img3] : The first column in the activities list specifies the **Completed** [status of an activity][1]. A tick in the checkbox ![icon][img2] means that the activity is completed, while an empty box means that it is not completed.
 
     > [!TIP]
     > To change the **Completed** status of an activity simply click the box.

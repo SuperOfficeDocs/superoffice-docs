@@ -3,7 +3,7 @@ uid: help-en-activity-completed
 title: Change Completed status of an activity
 description: Change Completed status of an activity
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 11.03.2023
 keywords: diary, follow-up
 so.topic: howto
 language: en
@@ -23,11 +23,9 @@ Do one of the following:
 
     ![Change Completed status of an activity -screenshot][img3]
 
-* Hold the mouse pointer over the box in the **Completed** column ![icon][img2] in the **Activities** section tab. Then click the checkbox ![icon][img1].
+* Mark the checkbox in the **Completed** column ![icon][img2] in the **Activities** section tab.
 
 * Right-click the activity and choose **Completed**.
-
-    ![Change Completed status of an activity -screenshot][img4]
 
 > [!NOTE]
 > To edit a completed activity, you must first uncheck the **Completed** status.
@@ -35,7 +33,5 @@ Do one of the following:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
 [img2]: ../../../media/icons/sale-sold-details.png
 [img3]: ../../../media/loc/en/diary/completed-activity.png
-[img4]: ../../../media/loc/en/diary/completed-activity-2.png

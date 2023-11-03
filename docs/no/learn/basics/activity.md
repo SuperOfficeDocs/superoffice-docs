@@ -3,7 +3,8 @@ uid: help-no-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
 author: SuperOffice RnD
-so.date: 10.27.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: aktivitet
 so.topic: concept
 language: no
@@ -70,11 +71,6 @@ Du kan slette aktiviteter fra alle skjermbilder der de vises:
 1. Velg én eller flere aktiviteter du vil slette.
 
 2. Høyreklikk på valgt(e) aktivitet(er) og velg **Slett**.
-
-    > [!NOTE]
-    > På detaljkortet **Aktiviteter** kan du også velge aktiviteten og klikke på **Slett**-knappen til venstre under listen.
-    >
-    > **Slett**-knappen er bare tilgjengelig hvis brukeren som er pålogget, har tilgang til å slette noe fra den gjeldende aktivitetslisten.
 
 3. Når du blir spurt om du virkelig vil slette aktiviteten, klikker du på **Ja**.
 
