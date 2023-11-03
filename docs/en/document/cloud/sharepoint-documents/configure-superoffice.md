@@ -121,7 +121,7 @@ To use any app for SuperOffice that interacts with documents (to use *Visible fo
 
     * If not, you must copy the URL and send it to someone with that role in your organization.​ If you wait for an authorization, you can press **Save and Close** and return to your settings later.
 
-### Map user grous
+### Map user groups
 
 When the SuperOffice app has been authorized, you can map your SuperOffice user groups to AD-groups within your document library.​
 
