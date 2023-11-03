@@ -44,7 +44,7 @@ På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden 
 4. Slip museknappen. Tidsintervallet for opfølgningen ændres.
 
 > [!NOTE]
-> Du kan også ændre tidsintervallet ved at åbne opfølgningen og ændre felterne **Start**, **Slut**, **Forfalden** eller **Varighed** . Disse felter er beskrevet i [Dialogboksen til opfølgning][3].
+> Du kan også ændre tidsintervallet ved at åbne opfølgningen og ændre felterne **Start**, **Slut**, **Forfalden** eller **Varighed**.
 
 ## <a id="repeat" />Rediger gentagne opfølgninger
 

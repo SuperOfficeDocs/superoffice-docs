@@ -17,13 +17,13 @@ SuperOffice CRM kan meddela dig att ditt möte snart börjar. När det är dags 
 
 ## Få meddelande om en händelse i förväg
 
-1. Markera kryssrutan **Alarm** på fliken **Detaljer** i dialogrutan **Bokning**, **Uppgift** eller **Samtal**.
+1. Markera kryssrutan **Alarm** på fliken **Detaljer** i dialogrutan för händelser.
 1. I fältet bredvid kryssrutan anger du hur många timmar och minuter före mötet som du vill bli påmind.
 
     Standardvärdet är 10 minuter, men du kan ändra det.
 
 > [!NOTE]
-> För att undvika att alarmet stör dina kollegor kan du ställa in det så att det stängs av efter en viss tid. Gå till ![ikon][img1] **Personliga inställningar &gt; Inställningar &gt; Kalender** och redigera alternativet **Tyst efter**.
+> För att undvika att alarmet stör dina kollegor kan du ställa in det så att det stängs av efter en viss tid. Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Kalender** och redigera alternativet **Tyst efter**.
 
 [!include[Recurrence](includes/note-repetition.md)]
 

@@ -23,7 +23,7 @@ SuperOffice CRM can notify you before your meeting is about to start. When it is
     The default is 10 minutes, but you can change it.
 
 > [!NOTE]
-> To avoid the sound of the alarm disturbing your colleagues, you can set it to switch off after a certain time. Go to ![icon][img1] **Personal settings > Preferences > Diary** and edit the **Silent after** option.
+> To avoid the sound of the alarm disturbing your colleagues, you can set it to switch off after a certain time. Go to ![icon][img1] **Personal settings** > **Preferences** > **Diary** and edit the **Silent after** option.
 
 [!include[Recurrence](includes/note-repetition.md)]
 

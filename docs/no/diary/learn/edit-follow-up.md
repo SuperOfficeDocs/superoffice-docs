@@ -44,7 +44,7 @@ I Dagbok-bildet kan du endre sluttidspunktet for en oppfølging uten å måtte �
 4. Slipp museknappen. Tidsrommet for oppfølgingen blir endret.
 
 > [!NOTE]
-> Du kan også endre tidsrommet ved å åpne oppfølgingen og endre feltene **Start**, **Slutt**, **Frist** eller **Varighet**. Disse feltene er beskrevet under [Dialogboksen for oppfølginger][3].
+> Du kan også endre tidsrommet ved å åpne oppfølgingen og endre feltene **Start**, **Slutt**, **Frist** eller **Varighet**.
 
 ## <a id="repeat" />Redigere repeterende oppfølging
 

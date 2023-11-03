@@ -3,7 +3,8 @@ uid: help-en-follow-up-assign
 title: Assign a follow-up
 description: Assign a follow-up to someone else
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: diary, follow-up, assign, delegate
 so.topic: howto
 language: en
@@ -25,10 +26,7 @@ Examples: Your colleague is on vacation, but needs to phone a client when they g
 
 1. [Open or create a follow-up][1].
 
-1. Select owner. Do one of the following:
-
-    * Select the **Details** tab and click the name in the **Owner** field.
-    * Click the ![icon][img1] **Task** button and select **Assign to**.
+1. Click the ![icon][img1] **Task** button and select **Assign to**. Alternatively, open the follow-up and update the name in the **Owner** field.
 
 1. In The **Assign to** dialog, click the list at the top to select which users to display (history list, all or groups).
 

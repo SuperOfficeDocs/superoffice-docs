@@ -2,8 +2,8 @@
 uid: help-da-follow-up-assign
 title: Tildele opfølgning
 description: Overførsel af en opfølgning til andre
-author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: dagbog, opfølgning, medarbejder, deleger, tildele
 so.topic: howto
 language: da
@@ -25,10 +25,7 @@ Eksempler: En kollega er på ferie, men har brug for at ringe til en kunde, når
 
 1. [Åbn eller opret en opfølgning][1].
 
-1. Vælg ejer. Gør ét af følgende:
-
-    * Vælg fanen **Detaljer**, og klik på navnet i feltet **Ejer**.
-    * Klik på knappen **Opgave** ![ikon][img1], og vælg **Tildel til**.
+1. Klik på knappen **Opgave** ![ikon][img1], og vælg **Tildel til**. Alternativt kan du åbne opfølgningen og opdatere navnet i feltet **Ejer**.
 
 1. I dialogboksen **Tildel til** klikker du på listen foroven for at vælge, hvilke brugere der skal vises (historikliste, alle eller grupper).
 

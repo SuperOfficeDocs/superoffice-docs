@@ -3,7 +3,8 @@ uid: help-sv-follow-up-assign
 title: Delegera händelse
 description: Överföra en händelse till någon annan
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: kalender, händelse, tildela, möte, delegera
 so.topic: howto
 language: sv
@@ -25,10 +26,7 @@ Exempel: En kollega är på semester men behöver ringa en kund när han/hon kom
 
 1. [Öppna eller skapa en händelse][1].
 
-1. Välj ägare. Gör något av följande:
-
-    * Välj fliken **Detaljer** och klicka på namnet i fältet **Ägare**.
-    * Klicka på knappen **Uppgift** ![ikon][img1] och välj **Tilldela till**.
+1. Klicka på knappen **Uppgift** ![ikon][img1] och välj **Tilldela till**. Som ett alternativ kan du öppna uppföljningen och uppdatera namnet i fältet **Ägare**.
 
 1. Klicka på listan högst upp i dialogrutan **Tilldela till** för att välja vilka användare som ska visas (historiklista, alla eller grupper).
 

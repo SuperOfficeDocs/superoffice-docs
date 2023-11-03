@@ -44,7 +44,7 @@ Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern,
 4. Lassen Sie die Maustaste los. Die Zeit für die Folgeaufgabe ist nun ändert.
 
 > [!NOTE]
-> Sie können auch das Zeitfenster ändern, indem Sie die Folgeaufgabe öffnen und die Felder **Start**, **Ende**, **Fällig** oder **Dauer** ändern. Diese Felder werden unter [Dialogfeld für Folgeaufgaben][3] beschrieben.
+> Sie können auch das Zeitfenster ändern, indem Sie die Folgeaufgabe öffnen und die Felder **Start**, **Ende**, **Fällig** oder **Dauer** ändern.
 
 ## <a id="repeat" />Regelmäßige Folgeaufgabe bearbeiten
 

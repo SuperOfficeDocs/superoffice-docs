@@ -3,7 +3,8 @@ uid: help-de-follow-up-assign
 title: Eine Folgeaufgabe zuweisen
 description: Eine Folgeaufgabe einer anderen Person zuweisen
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: Kalender, Folgeaufgabe, zuweisen, delegieren
 so.topic: howto
 language: de
@@ -25,10 +26,7 @@ Beispiele: Ihr Kollege ist im Urlaub, muss aber einen Kunden anrufen, wenn er zu
 
 1. [Öffnen oder erstellen Sie eine Folgeaufgabe][1].
 
-1. Wählen Sie einen Eigentümer aus. Führen Sie einen der folgenden Schritte aus:
-
-    * Wählen Sie die Registerkarte **Details** und klicken Sie im Feld **Eigentümer** auf den Namen.
-    * Klicken Sie auf der Schaltfläche **Aufgabe** ![Symbol][img1] und wählen Sie **Zuweisen zu** aus.
+1. Klicken Sie auf der Schaltfläche **Aufgabe** ![Symbol][img1] und wählen Sie **Zuweisen zu** aus. Alternativ können Sie die Folgeaufgabe öffnen und den Namen im Feld **Eigentümer** aktualisieren.
 
 1. Klicken Sie im Dialogfeld **Zuweisen zu** auf die Liste oben, um die anzuzeigenden Benutzer auszuwählen (Verlaufsliste, alle oder Gruppen).
 

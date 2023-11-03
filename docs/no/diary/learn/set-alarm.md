@@ -17,13 +17,13 @@ SuperOffice CRM kan varsle deg før møtet er i ferd med å starte. Når det er 
 
 ## Å bli varslet om en oppfølging på forhånd
 
-1. Velg **Alarm** i **Detaljer**-fanen i dialogboksen **Avtale**, **Oppgave** eller **Samtale**.
+1. Velg **Alarm** i **Detaljer**-fanen i dialogboksen for oppfølginger.
 1. I feltet ved siden av avmerkingsboksen legger du til antall timer og minutter i forkant av møtet du ønsker å bli varslet.
 
     Standard er 10 minutter, men du kan endre det.
 
 > [!NOTE]
-> For å unngå at lyden på alarmen forstyrrer kollegene dine, kan du definere at den skal slås av etter en viss tid. Gå til ![icon][img1] **Personlige innstillinger > Preferanser > Dagbok** og rediger alternativet **Stille etter** .
+> For å unngå at lyden på alarmen forstyrrer kollegene dine, kan du definere at den skal slås av etter en viss tid. Gå til ![icon][img1] **Personlige innstillinger** > **Preferanser** > **Dagbok** og rediger alternativet **Stille etter**.
 
 [!include[Recurrence](includes/note-repetition.md)]
 

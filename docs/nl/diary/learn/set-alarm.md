@@ -17,13 +17,13 @@ SuperOffice CRM kan u op de hoogte brengen voordat uw vergadering op het punt st
 
 ## Van te voren op de hoogte worden gebracht van een vervolgactiviteit
 
-1. Schakel het selectievakje **Alarm** in op het tabblad **Details** in het dialoogvenster **Afspraak**, **Taak** of **Telefoongesprek**.
+1. Schakel het selectievakje **Alarm** in op het tabblad **Details** in het dialoogvenster voor vervolgactiviteiten.
 1. Voeg in het veld naast het selectievakje het aantal uren en minuten toe voorafgaand aan uw vergadering waarvan u op de hoogte wilt worden gebracht.
 
     De standaardwaarde is 10 minuten, maar dit kunt u wijzigen.
 
 > [!NOTE]
-> u voorkomt dat het geluid van het alarm collega's van het werk houdt door op te geven dat het alarm na bepaalde tijd moet worden uitgeschakeld. Ga naar ![pictogram][img1] **Persoonlijke instellingen &gt; Voorkeuren &gt; Agenda** en bewerk de optie **Stil na**.
+> u voorkomt dat het geluid van het alarm collega's van het werk houdt door op te geven dat het alarm na bepaalde tijd moet worden uitgeschakeld. Ga naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Agenda** en bewerk de optie **Stil na**.
 
 [!include[Recurrence](includes/note-repetition.md)]
 

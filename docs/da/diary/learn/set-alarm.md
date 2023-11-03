@@ -17,13 +17,13 @@ SuperOffice CRM kan give dig besked, før dit møde skal til at starte. Når det
 
 ## At blive underrettet om en opfølgning på forhånd
 
-1. Marker afkrydsningsfeltet **Alarm** under **fanen Detaljer** i dialogboksen **Aftale**, **opgave** eller **telefonopkald** .
+1. Marker afkrydsningsfeltet **Alarm** under **fanen Detaljer** i dialogboksen for opfølgninger.
 1. I feltet ved siden af afkrydsningsfeltet skal du tilføje det antal timer og minutter forud for dit møde, du ønsker at blive underrettet.
 
     Standardværdien er 10 minutter, men du kan ændre den.
 
 > [!NOTE]
-> For at undgå, at lyden af alarmen forstyrrer dine kolleger, kan du indstille den til at slukke efter et bestemt tidsrum. Gå til ![ikonet][img1] **Personlige indstillinger &gt; Indstillinger &gt; Dagbog** og rediger **indstillingen Lydløs efter** .
+> For at undgå, at lyden af alarmen forstyrrer dine kolleger, kan du indstille den til at slukke efter et bestemt tidsrum. Gå til ![ikonet][img1] **Personlige indstillinger** > **Indstillinger** > **Dagbog** og rediger **indstillingen Lydløs efter**.
 
 [!include[Recurrence](includes/note-repetition.md)]
 

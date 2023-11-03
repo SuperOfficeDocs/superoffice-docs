@@ -17,13 +17,13 @@ SuperOffice CRM kann Sie benachrichtigen, bevor Ihre Besprechung beginnt. Wenn e
 
 ## Um im Voraus über eine Folgeaufgabe informiert zu werden
 
-1. Aktivieren Sie das Kontrollkästchen **Alarm** in der Registerkarte **Details** im Dialogfeld **Termin**, **Aufgabe** oder **Anruf**.
+1. Aktivieren Sie das Kontrollkästchen **Alarm** in der Registerkarte **Details** im Dialogfeld für Folgeaufgaben.
 1. Fügen Sie in das Feld neben dem Kontrollkästchen die Anzahl der Stunden und Minuten vor Ihrer Besprechung ein, über die Sie benachrichtigt werden möchten.
 
     Die Standardeinstellung ist 10 Minuten. Sie können diesen Wert jedoch auch ändern.
 
 > [!NOTE]
-> Damit das Alarmsignal Ihre Kollegen während Ihrer Abwesenheit nicht stört, können Sie festlegen, dass es nach einer bestimmten Zeit gestoppt wird. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen &gt; Einstellungen &gt; Kalender** und bearbeiten Sie die Option **Ausschalten nach**.
+> Damit das Alarmsignal Ihre Kollegen während Ihrer Abwesenheit nicht stört, können Sie festlegen, dass es nach einer bestimmten Zeit gestoppt wird. Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Kalender** und bearbeiten Sie die Option **Ausschalten nach**.
 
 [!include[Recurrence](includes/note-repetition.md)]
 

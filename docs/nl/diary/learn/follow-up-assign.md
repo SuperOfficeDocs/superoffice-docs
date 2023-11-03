@@ -3,7 +3,8 @@ uid: help-nl-follow-up-assign
 title: Toegewezen vervolgactiviteit
 description: Een vervolgactiviteit aan iemand toewijzen
 author: Bergfrid Dias
-so.date: 10.19.2023
+so.date: 11.03.2023
+so.version: 10.2.10
 keywords: agenda, vervolgactiviteit, uitnodiging, toewijzen
 so.topic: howto
 language: nl
@@ -25,10 +26,7 @@ Voorbeelden: Uw collega is op vakantie, maar moet een klant bellen als hij terug
 
 1. [Open of maak een vervolgactiviteit][1].
 
-1. Selecteer eigenaar. Voer een van de volgende handelingen uit:
-
-    * Selecteer het tabblad **Details** en klik op de naam in het veld **Eigenaar**.
-    * Klik op de knop **Taak** ![pictogram][img1] en selecteer **Toewijzen aan**.
+1. Klik op de knop **Taak** ![pictogram][img1] en selecteer **Toewijzen aan**. Als alternatief kun je de opvolging openen en de naam in het veld **Eigenaar** bijwerken.
 
 1. Klik in het dialoogvenster **Toewijzen aan** op de lijst bovenaan om te selecteren welke gebruikers moeten worden weergegeven (historielijst, alle of groepen).
 

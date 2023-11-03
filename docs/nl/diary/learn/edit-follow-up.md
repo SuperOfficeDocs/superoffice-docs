@@ -44,7 +44,7 @@ U kunt als volgt de eindtijd voor een vervolgactiviteit wijzigen in het scherm A
 4. Laat de muisknop los. De tijdspanne voor de vervolgactiviteit werd veranderd.
 
 > [!NOTE]
-> U kunt de tijd ook wijzigen door de vervolgactiviteit te openen en de velden **Start**, **Eind**, **Vervaldatum** of **Duur** te wijzigen. Deze velden worden beschreven in [Het dialoogvenster voor vervolgactiviteiten][3].
+> U kunt de tijd ook wijzigen door de vervolgactiviteit te openen en de velden **Start**, **Eind**, **Vervaldatum** of **Duur** te wijzigen.
 
 ## <a id="repeat" />Herhalende vervolgactiviteit bewerken
 

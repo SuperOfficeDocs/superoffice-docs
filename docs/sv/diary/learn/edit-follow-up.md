@@ -44,7 +44,7 @@ I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna d
 4. Släpp musknappen. Händelsens tidsspann har ändrats.
 
 > [!NOTE]
-> Du kan också ändra tidsspannet genom att öppna händelsen och ändra fälten **Start**, **Slut**, **Tidsgräns** eller **Varaktighet**. De här fälten beskrivs i [Händelsedialogrutan][3].
+> Du kan också ändra tidsspannet genom att öppna händelsen och ändra fälten **Start**, **Slut**, **Tidsgräns** eller **Varaktighet**.
 
 ## <a id="repeat" />Redigera återkommande händelse
 
