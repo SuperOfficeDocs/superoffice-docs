@@ -20,7 +20,7 @@ You can easily set up a video meeting when [creating a follow-up][1].
 
     [!include[Note: user must authenticate the fist time](../includes/note-firsttime-auth-user.md)]
 
-3. Complete the information in the dialog as described in the [Dialog for follow-ups][2].
+3. Complete the information in the dialog.
 
 If you have turned on email invitations for the participants of the follow-up, an email with a link to join the video meeting will be sent when the follow-up is saved. In the diary, follow-ups with video meetings are displayed with the icon ![in diary -screenshot][img3].
 
@@ -29,7 +29,6 @@ If you have turned on email invitations for the participants of the follow-up, a
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/create-follow-up.md
-[2]: ../../diary/learn/screen/dialog-for-followups.md
 
 <!-- Referenced images -->
 [img1]: ../../media/icons/videomeeting_inactive.png

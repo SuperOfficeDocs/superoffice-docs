@@ -21,14 +21,3 @@ The **Copy shortcut** option is available here:
 When you select the **Copy shortcut** option, a shortcut (URL) to the current entry is then copied to the clipboard. You can then paste the shortcut into, for example, an email message and send it to one or more internal users of SuperOffice CRM. You can also paste the shortcut to the **Run** dialog in Windows to run it.
 
 This function uses the SOProtocol. SuperOffice WebTools must be installed for this to function properly.
-
-## Related topics
-
-* [The Dialog for follow-ups][1]
-* [The Document dialog][2]
-
-<!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
-[2]: ../../../document/learn/screen/index.md
-
-<!-- Referenced images -->

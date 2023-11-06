@@ -23,14 +23,14 @@ If a project guide is defined for a project type that you specify for a project,
 
    ![Project guide section tab with overview of Planned status -screenshot][img1]
 
-1. In the dialog that appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] or [The dialog for follow-ups][2].
+1. In the dialog that appears, you [create the follow-up][2] or [document][3] in the usual way. Many of the fields are prefilled, but you can change the information, or add more information.
 
     You can delegate the follow-up to your colleagues by setting them as the owner of the follow-up. If defined in Settings and maintenance for a specific follow-up, the **Assign task to project member** dialog appears, where you can select a colleague as the owner of the follow-up.
 
 1. When you complete the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
-    > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] opens.
+    > To create several follow-ups of the same type, right-click the activity and select **Create another**.
     >
     > ![In the project guide tab you can right click and select Create another -screenshot][img2]
 
@@ -83,7 +83,7 @@ You record a new project and select the **Conference** project type, which is li
 
     1. In the project guide, you click **Create** next to the **Planning meeting** follow-up.
         The **Follow-up** dialog opens, with **Meeting (Internal)** specified as the type and the name of the project prefilled.
-    1. [Complete the information and invite participants][2].
+    1. Complete the information and [invite participants][1].
     1. Click **Save**.
 
 1. At the meeting you decide on the conference programme (agenda) and you want to create a memo containing this information.
@@ -165,8 +165,8 @@ After all the required follow-ups and documents for the project are completed, y
 * [Add and edit project guides in Settings and maintenance][4]
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
-[2]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/invitation/add-participant.md
+[2]: ../../../diary/learn/create-follow-up.md
 [3]: ../../../document/learn/edit.md
 [4]: create.md
 

@@ -14,7 +14,7 @@ language: en
 
 ![Activities section tab (Diary) -screenshot][img4]
 
-The **Activities** section tab gives you an overview of activities and acts as a to-do list. It contains, among other things, meetings and to-dos that you have not yet completed and you can use it to temporarily store follow-ups that you have not yet allocated to a particular time or date.
+The **Activities** section tab gives you an overview of activities and acts as a to-do list. It contains, among other things, [meetings and to-dos][2] that you have not yet completed and you can use it to temporarily store follow-ups that you have not yet allocated to a particular time or date.
 
 The activities list does not change when you switch between the different tabs in the top section of the Diary screen.
 
@@ -31,7 +31,7 @@ The activities list columns contain the following information:
 
     [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-* The remainder of the columns in the activities list show other [information about the activity][2]. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
+* The remainder of the columns in the activities list show other information about the activity. If not all the text in a field is visible, hold the mouse pointer over it to display it in a tooltip.
 
 ## View activities in the activities list
 
@@ -84,7 +84,7 @@ If an activity is highlighted in red type, this means that its provisional date 
 
 <!-- Referenced links -->
 [1]: ../change-completed-status.md
-[2]: dialog-for-followups.md
+[2]: ../follow-ups.md
 [5]: ../create-follow-up.md
 [7]: ../../../learn/basics/activity.md
 [8]: ../../../learn/getting-started/preferences.md

@@ -17,7 +17,7 @@ Invite a contact to a meeting from the participants tab by clicking the **Add** 
 
 ## Steps
 
-1. Open the **Follow-up** dialog and [enter the required information][2].
+1. [Open or create a follow-up][3].
 
 2. Open the **Participants** tab and click **Add** at the lower left of the window. The **Invitation** dialog opens.
 
@@ -76,7 +76,6 @@ Using the SuperOffice Inbox: If you have not entered the requisite information i
 
 <!-- Referenced links -->
 [1]: index.md#status
-[2]: ../screen/dialog-for-followups.md
 [3]: ../create-follow-up.md
 [4]: ../video-meetings.md
 [5]: accept-decline.md

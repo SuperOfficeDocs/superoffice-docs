@@ -14,8 +14,7 @@ language: en
 1. Open the project and go to the **Project Members** section tab.
 2. Select the project members you want to invite.
 3. Right-click and select **Request a meeting**.
-
-    The [**Follow-up** dialog][1] opens.
+4. [Enter the required information in the fields.][1]
 
 <!-- Referenced links -->
-[1]: ../../../diary/learn/screen/dialog-for-followups.md
+[1]: ../../../diary/learn/create-follow-up.md#fields

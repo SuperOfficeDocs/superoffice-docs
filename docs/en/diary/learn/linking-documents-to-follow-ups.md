@@ -15,11 +15,11 @@ When you are in the dialog for follow-ups or the **Document** dialog, you can ad
 
 ## Add activities and sales
 
-1. Open the **Follow-up**, or **Document** dialog and enter the required information. See [the dialog for follow-ups][2] or [the Sale dialog][1].
-2. Open the **Links** tab and click **Add link** at the bottom of the tab.
-3. Select one of the available options.
-4. Select a record from the list or start typing the name of a record to search. If you selected the **URL** option, enter the link manually.
-5. Click **OK**. You are then returned to the **Links** tab in the dialog chosen in step 1, with the selected record shown in the list of links.
+1. [Open or create a follow-up][2] or [document][1].
+1. Open the **Links** tab and click **Add link** at the bottom of the tab.
+1. Select one of the available options.
+1. Select a record from the list or start typing the name of a record to search. If you selected the **URL** option, enter the link manually.
+1. Click **OK**. You are then returned to the **Links** tab in the dialog chosen in step 1, with the selected record shown in the list of links.
 
 ## Open linked activities
 
@@ -30,7 +30,7 @@ To see more details of a linked document, follow-up or sale, select the row in q
 To remove the link to a document, follow-up or sale, select the row in question and click **Delete**.
 
 <!-- Referenced links -->
-[1]: ../../document/learn/screen/index.md
-[2]: screen/dialog-for-followups.md
+[1]: ../../document/learn/create.md
+[2]: create-follow-up.md
 
 <!-- Referenced images -->

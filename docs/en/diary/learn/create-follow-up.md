@@ -3,7 +3,8 @@ uid: help-en-follow-up-create
 title: Add follow-up
 description: How to add or copy meeting, to-do, or call in SuperOffice CRM.
 author: Bergfrid Dias
-so.date: 09.29.2023
+so.date: 11.06.2023
+so.version: 10.2.10
 keywords: diary, follow-up, appointment, meeting, task, to-do, call, phone
 so.topic: howto
 language: en
@@ -19,12 +20,9 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 
 1. Click **+New** in the top bar and select **Meeting/Appointment**, **To-do/Task**, or **Follow-up/Call**.
 
-2. [Enter the required information in the fields.][6]
+2. [Enter the required information in the fields.](#fields)
 
-    > [!NOTE]
-    > If the new follow-up overlaps with an existing follow-up, an exclamation mark ![icon][img2] is shown next to the start and stop fields as a reminder (you can still add the follow-up). A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
-    >
-    > When you create a new to-do, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the to-do.
+    Some information is inserted automatically based on the context, for example, Today's date.
 
 3. Click the **Save** button.
 
@@ -35,6 +33,69 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 | Activities section tab | x | x | x |
 | Task button on a contact | x | x | |
 | Diary | x | | |
+
+### <a id="fields" />How to enter information
+
+> [!NOTE]
+> Many fields have a list of predefined values you can choose from. Click the arrow ![icon][img4] to expand the list. Then select a value for that field. Alternatively, start typing in the field to search for a specific value, such as a company name.
+
+If your SuperOffice has [time zones][9] turned on, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
+
+If you check **All day**, the time of the follow-up is set to the period specified as the [default working day][8] (**All-day start time** and **All-day end time** preference).
+
+<!-- markdownlint-disable MD051 -->
+#### [Appointment/Task/Phone Call dialog](#tab/fields-old)
+
+![Appointment dialog -screenshot][img6]
+
+* Select follow-up type.
+
+* Optionally, select a company and/or contact the follow-up pertains to.
+
+* Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
+
+* Specify time and date. The **Duration** field is automatically adjusted.
+
+    If the new follow-up overlaps with an existing follow-up, an exclamation mark ![icon][img2] is shown next to the start and stop fields as a reminder (you can still add the follow-up). A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
+
+    When you create a new to-do, no time is displayed in the **Start** and **Due** fields. Today's date is inserted automatically, but you can change it to the required date. The date indicates the deadline for the to-do.
+
+* Optionally, select or enter the address where the follow-up will take place.
+
+* Select the **Description** tab to add a description of the follow-up (max 2048 characters).
+* Select the **Details** tab to set [recurrence][4], priority, [alarm][4], owner, and "show as".
+* Select the **Participants** tab to [add participants][5].
+
+> [!TIP]
+> Click ![icon][img5] to set up a [video meeting][2].
+
+#### [New Follow-up dialog](#tab/fields-new)
+
+![Follow-up dialog -screenshot][img7]
+
+* Enter a title.
+
+* Click the colored ball and select a follow-up type.
+
+* Optionally, select a company or contact the follow-up pertains to. If you want to invite them and others to your meeting, click **Invite**.
+
+  * [Add attendees][5].
+  * Optionally, add a location.
+  * Optionally, add (more) rooms, resource, and/or locations.
+
+    ![Extended follow-up dialog -screenshot][img8]
+
+* Specify time and date. Click **Show more** to set [recurrence][4], "all day", "busy/free", and timezone. Click the bell icon in the header to set the alarm ([notifications][6]).
+
+* Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
+
+* Select the **Agenda** tab to add additional information, such as an agenda, a description of the follow-up, files, images, and links. Use the buttons in the footer to add rich text formatting and content.
+
+    > [!TIP]
+    > If you want to restrict access to employees-only, place that content in the **Internal notes** tab.
+
+***
+<!-- markdownlint-restore -->
 
 ## Create follow-up from Activities section tab
 
@@ -49,9 +110,9 @@ There are many ways to create a follow-up. This method works from anywhere in Su
 
 1. Click the ![icon][img3] **Task** button in the Contact card.
 
-1. To create a meeting, select **Request a meeting**.
+    * To create a meeting, select **Request a meeting**.
 
-    To register a call, select **Make a phone call**.
+    * To register a call, select **Make a phone call**.
 
 1. Enter information and click **Save**.
 
@@ -74,7 +135,7 @@ You can open another user's diary, or the diary of an available resource, to see
 
 3. Create a new meeting in this diary using the mouse.
 
-4. In the **Follow-up** dialog, [enter the required information][6].
+4. In the **Follow-up** dialog, [enter the required information](#fields).
 
 5. [Choose the participants to include][5], if they are not automatically included.
 
@@ -93,7 +154,7 @@ You can also create a new follow-up by copying an existing follow-up to another 
 ## Related content
 
 * [Follow-up types][1]
-* [Activities][8]
+* [Activities][7]
 * [Notifications (alarms)][3]
 * [Create a video meeting from the SuperOffice diary][2]
 
@@ -101,11 +162,19 @@ You can also create a new follow-up by copying an existing follow-up to another 
 [1]: follow-ups.md
 [2]: video-meetings.md
 [3]: set-alarm.md
+[4]: recurrence/index.md
 [5]: invitation/add-participant.md
-[6]: screen/dialog-for-followups.md
-[8]: ../../learn/basics/activity.md
+[6]: ../../learn/basics/notifications.md
+[7]: ../../learn/basics/activity.md
+[8]: ../../learn/getting-started/preferences.md
+[9]: ../../globalization-and-localization/learn/time-zones.m
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/warning-red.png
 [img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/icons/btn-menu.png
+[img2]: ../../../../common/icons/warning-red.png
+[img4]: ../../../../common/icons/dropdown-icon.png
+[img5]: ../../../../common/icons/videocall-off.png
+[img6]: ../../../media/loc/en/diary/appointment-new.png
+[img7]: ../../../media/loc/en/diary/follow-up-dialog.png
+[img8]: ../../../media/loc/en/diary/follow-up-attendees.png

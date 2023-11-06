@@ -81,7 +81,7 @@ If you change the start time for a single meeting, the rule is not affected. The
 
 <!-- Referenced links -->
 [2]: change-completed-status.md
-[3]: screen/dialog-for-followups.md
+[3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
 
 <!-- Referenced images -->
