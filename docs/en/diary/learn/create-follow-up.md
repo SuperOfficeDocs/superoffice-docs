@@ -63,7 +63,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 * Optionally, select or enter the address where the follow-up will take place.
 
 * Select the **Description** tab to add a description of the follow-up (max 2048 characters).
-* Select the **Details** tab to set [recurrence][4], priority, [alarm][4], owner, and "show as".
+* Select the **Details** tab to set [recurrence][4], priority, [alarm][3], owner, and "show as".
 * Select the **Participants** tab to [add participants][5].
 
 > [!TIP]
@@ -85,7 +85,7 @@ If you check **All day**, the time of the follow-up is set to the period specifi
 
     ![Extended follow-up dialog -screenshot][img8]
 
-* Specify time and date. Click **Show more** to set [recurrence][4], "all day", "busy/free", and timezone. Click the bell icon in the header to set the alarm ([notifications][6]).
+* Specify time and date. Click **Show more** to set [recurrence][4], "all day", "busy/free", and timezone. Click the bell icon in the header to [set the alarm][3].
 
 * Optionally, select a project and/or sale to link it to the follow-up. You can choose any project/sale regardless of which company you chose earlier.
 
@@ -155,7 +155,6 @@ You can also create a new follow-up by copying an existing follow-up to another 
 
 * [Follow-up types][1]
 * [Activities][7]
-* [Notifications (alarms)][3]
 * [Create a video meeting from the SuperOffice diary][2]
 
 <!-- Referenced links -->
@@ -164,7 +163,6 @@ You can also create a new follow-up by copying an existing follow-up to another 
 [3]: set-alarm.md
 [4]: recurrence/index.md
 [5]: invitation/add-participant.md
-[6]: ../../learn/basics/notifications.md
 [7]: ../../learn/basics/activity.md
 [8]: ../../learn/getting-started/preferences.md
 [9]: ../../globalization-and-localization/learn/time-zones.m
