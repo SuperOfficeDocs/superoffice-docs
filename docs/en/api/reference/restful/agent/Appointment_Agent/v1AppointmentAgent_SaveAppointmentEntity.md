@@ -177,7 +177,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -185,62 +185,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-09-12T03:24:46.9864372+02:00",
-  "AppointmentId": 276,
-  "Description": "Automated scalable attitude",
-  "StartDate": "2011-04-01T03:24:46.9864372+02:00",
-  "EndDate": "2004-03-23T03:24:46.9864372+01:00",
+  "CreatedDate": "2023-08-29T11:06:33.5226133+02:00",
+  "AppointmentId": 581,
+  "Description": "Organic solution-oriented knowledge base",
+  "StartDate": "2014-02-21T11:06:33.5226133+01:00",
+  "EndDate": "2005-05-23T11:06:33.5226133+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 252,
+  "MotherId": 989,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-11-30T03:24:47.0021044+01:00",
+  "UpdatedDate": "2010-02-09T11:06:33.5226133+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 526,
+  "ActiveLinks": 761,
   "Links": [
     {
-      "EntityName": "Greenholt, Kilback and Marquardt",
-      "Id": 94,
-      "Description": "Ameliorated 4th generation moderator",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 657
+      "EntityName": "Rath Group",
+      "Id": 443,
+      "Description": "Open-source object-oriented projection",
+      "ExtraInfo": "quo",
+      "LinkId": 910
     },
     {
-      "EntityName": "Greenholt, Kilback and Marquardt",
-      "Id": 94,
-      "Description": "Ameliorated 4th generation moderator",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 657
+      "EntityName": "Rath Group",
+      "Id": 443,
+      "Description": "Open-source object-oriented projection",
+      "ExtraInfo": "quo",
+      "LinkId": 910
     }
   ],
-  "AlarmLeadTime": "iure",
+  "AlarmLeadTime": "et",
   "HasAlarm": true,
-  "ColorIndex": 82,
+  "ColorIndex": 571,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "atque",
-  "LeadTime": "optio",
-  "Location": "perspiciatis",
-  "RejectCounter": 301,
+  "LagTime": "et",
+  "LeadTime": "praesentium",
+  "Location": "autem",
+  "RejectCounter": 401,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 14,
-      "PersonId": 61,
-      "ContactId": 65,
-      "EmailId": 747,
+      "AssociateId": 684,
+      "PersonId": 414,
+      "ContactId": 195,
+      "EmailId": 239,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 14,
-      "PersonId": 61,
-      "ContactId": 65,
-      "EmailId": 747,
+      "AssociateId": 684,
+      "PersonId": 414,
+      "ContactId": 195,
+      "EmailId": 239,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -248,47 +248,47 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-03-09T03:24:47.0021044+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2003-07-10T11:06:33.5226133+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 182,
+  "PreferredTZLocation": 904,
   "Sale": null,
-  "SuggestedAppointmentId": 377,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 17,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eaque",
-  "Title": "nostrum",
-  "Agenda": "reiciendis",
-  "InternalNotes": "et",
+  "CentralserviceVideomeetId": "veniam",
+  "Title": "id",
+  "Agenda": "incidunt",
+  "InternalNotes": "mollitia",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miles Johns",
-    "SuperOffice:2": "Isom Jaydon Murphy MD"
+    "SuperOffice:1": "Miss Roxanne Lela Lang Jr.",
+    "SuperOffice:2": "Ethyl Keebler"
   },
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "adipisci"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "soluta",
-    "CustomFields2": "enim"
+    "CustomFields1": "rem",
+    "CustomFields2": "debitis"
   },
-  "PublishEventDate": "1999-02-27T03:24:47.0021044+01:00",
-  "PublishTo": "2014-01-07T03:24:47.0021044+01:00",
-  "PublishFrom": "2009-02-17T03:24:47.0021044+01:00",
+  "PublishEventDate": "2009-01-23T11:06:33.5226133+01:00",
+  "PublishTo": "2005-09-17T11:06:33.5226133+02:00",
+  "PublishFrom": "2010-03-22T11:06:33.5226133+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 369,
+      "VisibleId": 880,
       "Visibility": "All",
-      "DisplayValue": "sed"
+      "DisplayValue": "velit"
     },
     {
-      "VisibleId": 369,
+      "VisibleId": 880,
       "Visibility": "All",
-      "DisplayValue": "sed"
+      "DisplayValue": "velit"
     }
   ]
 }
@@ -305,125 +305,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-02-09T03:24:47.0803445+01:00",
-  "AppointmentId": 348,
-  "Description": "Compatible discrete focus group",
-  "StartDate": "2009-01-25T03:24:47.0803445+01:00",
-  "EndDate": "2009-01-18T03:24:47.0803445+01:00",
+  "CreatedDate": "2011-02-13T11:06:33.5382346+01:00",
+  "AppointmentId": 380,
+  "Description": "Visionary tangible middleware",
+  "StartDate": "2011-04-25T11:06:33.5382346+02:00",
+  "EndDate": "2008-06-23T11:06:33.5382346+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 524,
+  "MotherId": 779,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-09-04T03:24:47.0803445+02:00",
+  "UpdatedDate": "2000-10-26T11:06:33.5382346+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 646,
+  "ActiveLinks": 692,
   "Links": [
     {
-      "EntityName": "Mayer Group",
-      "Id": 508,
-      "Description": "Seamless empowering data-warehouse",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 264,
+      "EntityName": "Boyer-Douglas",
+      "Id": 642,
+      "Description": "Upgradable regional hardware",
+      "ExtraInfo": "tempore",
+      "LinkId": 258,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 5
         }
       }
     }
   ],
-  "AlarmLeadTime": "modi",
+  "AlarmLeadTime": "qui",
   "HasAlarm": false,
-  "ColorIndex": 805,
+  "ColorIndex": 116,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "facere",
-  "LeadTime": "sequi",
-  "Location": "inventore",
-  "RejectCounter": 37,
+  "IsAlldayEvent": true,
+  "LagTime": "maiores",
+  "LeadTime": "vitae",
+  "Location": "aut",
+  "RejectCounter": 235,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 943,
-      "PersonId": 908,
-      "ContactId": 130,
-      "EmailId": 164,
-      "SendEmail": false,
+      "AssociateId": 43,
+      "PersonId": 498,
+      "ContactId": 184,
+      "EmailId": 413,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 943,
-      "PersonId": 908,
-      "ContactId": 130,
-      "EmailId": 164,
-      "SendEmail": false,
+      "AssociateId": 43,
+      "PersonId": 498,
+      "ContactId": 184,
+      "EmailId": 413,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-07-23T03:24:47.0803445+02:00",
+  "ActiveDate": "2019-04-11T11:06:33.5382346+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 931,
+  "PreferredTZLocation": 157,
   "Sale": null,
-  "SuggestedAppointmentId": 838,
+  "SuggestedAppointmentId": 934,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "cupiditate",
-  "Title": "quam",
-  "Agenda": "in",
-  "InternalNotes": "iste",
+  "CentralserviceVideomeetId": "voluptatem",
+  "Title": "repellat",
+  "Agenda": "deleniti",
+  "InternalNotes": "delectus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Cortney Rolando Bergstrom PhD",
+    "SuperOffice:1": "Guido Will",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "placeat",
+    "CustomFields2": "pariatur"
   },
-  "PublishEventDate": "2015-03-13T03:24:47.0803445+01:00",
-  "PublishTo": "2007-03-13T03:24:47.0803445+01:00",
-  "PublishFrom": "2012-03-31T03:24:47.0803445+02:00",
+  "PublishEventDate": "2003-10-29T11:06:33.5382346+01:00",
+  "PublishTo": "2008-03-14T11:06:33.5382346+01:00",
+  "PublishFrom": "2022-08-21T11:06:33.5382346+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 978,
+      "VisibleId": 959,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 106
         }
       }
     },
     {
-      "VisibleId": 978,
+      "VisibleId": 959,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 19
+          "FieldLength": 106
         }
       }
     }
@@ -432,8 +432,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

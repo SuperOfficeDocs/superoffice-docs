@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    37,
-    259
+    482,
+    627
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 482,
-    "Name": "Hayes Inc and Sons",
-    "TargetTable": "voluptatum",
-    "Registered": "2015-10-09T03:24:48.2680521+02:00",
-    "ProviderName": "Marks, Runolfsson and Conn"
+    "SelectionId": 640,
+    "Name": "Kutch, Beier and Funk",
+    "TargetTable": "dolorem",
+    "Registered": "2007-04-09T11:06:35.4114455+02:00",
+    "ProviderName": "Nienow, Hilpert and Crooks"
   },
   {
-    "SelectionId": 482,
-    "Name": "Hayes Inc and Sons",
-    "TargetTable": "voluptatum",
-    "Registered": "2015-10-09T03:24:48.2680521+02:00",
-    "ProviderName": "Marks, Runolfsson and Conn"
+    "SelectionId": 640,
+    "Name": "Kutch, Beier and Funk",
+    "TargetTable": "dolorem",
+    "Registered": "2007-04-09T11:06:35.4114455+02:00",
+    "ProviderName": "Nienow, Hilpert and Crooks"
   }
 ]
 ```

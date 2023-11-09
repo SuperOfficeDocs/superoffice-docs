@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Becker LLC",
-    "Tooltip": "totam",
-    "Deleted": true,
-    "Rank": 612,
-    "UdListDefinitionId": 454,
+    "HeadingId": 315,
+    "Name": "Bailey, Barton and Effertz",
+    "Tooltip": "error",
+    "Deleted": false,
+    "Rank": 904,
+    "UdListDefinitionId": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldType": "System.String",
+        "FieldLength": 25
       }
     }
   }

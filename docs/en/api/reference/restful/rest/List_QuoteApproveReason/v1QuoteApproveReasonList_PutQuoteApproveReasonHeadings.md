@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 364,
-    "Name": "Ferry LLC",
-    "Tooltip": "ex",
+    "HeadingId": 617,
+    "Name": "Erdman-Grant",
+    "Tooltip": "aperiam",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 288
+    "Rank": 598,
+    "UdListDefinitionId": 231
   },
   {
-    "HeadingId": 364,
-    "Name": "Ferry LLC",
-    "Tooltip": "ex",
+    "HeadingId": 617,
+    "Name": "Erdman-Grant",
+    "Tooltip": "aperiam",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 288
+    "Rank": 598,
+    "UdListDefinitionId": 231
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 252,
-    "Name": "Reichert, Hudson and Satterfield",
-    "Tooltip": "ut",
+    "HeadingId": 921,
+    "Name": "Corwin, Schaefer and Koepp",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 295,
-    "UdListDefinitionId": 516,
+    "Rank": 945,
+    "UdListDefinitionId": 267,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 985
+        "FieldLength": 667
       }
     }
   }

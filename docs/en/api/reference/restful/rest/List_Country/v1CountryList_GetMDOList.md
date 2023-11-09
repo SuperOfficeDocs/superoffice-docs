@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=aliquid
+GET /api/v1/List/Country/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Olson-Reynolds",
-    "ToolTip": "Ex vel facilis ut.",
-    "Deleted": false,
-    "Rank": 525,
-    "Type": "debitis",
+    "Id": 89,
+    "Name": "O'Reilly Inc and Sons",
+    "ToolTip": "Eveniet nostrum eum reprehenderit dolorem et temporibus.",
+    "Deleted": true,
+    "Rank": 789,
+    "Type": "commodi",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Zemlak, Keeling and Emard",
-        "ToolTip": "Sit est.",
-        "Deleted": true,
-        "Rank": 849,
-        "Type": "voluptate",
+        "Id": 73,
+        "Name": "Dach Group",
+        "ToolTip": "Ut libero tempore.",
+        "Deleted": false,
+        "Rank": 603,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laborum",
-        "ColorBlock": 457,
-        "ExtraInfo": "error",
-        "StyleHint": "doloribus",
-        "FullName": "Miss Marguerite Lesly Schumm",
+        "IconHint": "unde",
+        "ColorBlock": 812,
+        "ExtraInfo": "nulla",
+        "StyleHint": "eaque",
+        "FullName": "Mrs. Kris Alexandria Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldLength": 832
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 44,
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "FullName": "Mrs. Shania Gino Schimmel DVM",
+    "IconHint": "soluta",
+    "ColorBlock": 550,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "asperiores",
+    "FullName": "Mr. Christine Jennings Durgan DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 703
       }
     }
   }

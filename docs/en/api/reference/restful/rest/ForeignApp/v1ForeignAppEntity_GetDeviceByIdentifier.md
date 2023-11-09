@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 05 Oct 2022 03:24:51 G10T
+Last-Modified: Sun, 01 Jul 2001 11:06:41 G7T
 
 {
-  "ForeignDeviceId": 274,
-  "Name": "Abbott, Bruen and Okuneva",
-  "CreatedDate": "2018-04-03T03:24:51.630601+02:00",
-  "UpdatedDate": "2022-10-05T03:24:51.630601+02:00",
-  "AssociateFullName": "Shawna Toni Miller Sr.",
-  "CreatedBy": "at",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 328,
+  "ForeignDeviceId": 569,
+  "Name": "Reichert, Mann and Hudson",
+  "CreatedDate": "2005-06-30T11:06:41.8947242+02:00",
+  "UpdatedDate": "2001-07-01T11:06:41.8947242+02:00",
+  "AssociateFullName": "Lexus Klein",
+  "CreatedBy": "reprehenderit",
+  "UpdatedBy": "quaerat",
+  "DeviceIdentifier": "ab",
+  "ForeignAppId": 831,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 334
     }
   }
 }

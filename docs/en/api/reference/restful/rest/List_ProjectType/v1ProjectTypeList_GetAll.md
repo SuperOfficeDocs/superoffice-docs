@@ -25,7 +25,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=False
+GET /api/v1/List/ProjectType/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "Hyatt-Fritsch",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "UdListDefinitionId": 771,
-    "Rank": 271,
+    "Id": 676,
+    "Name": "Bruen Inc and Sons",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 74,
+    "Rank": 532,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldType": "System.Int32",
+        "FieldLength": 64
       }
     }
   }

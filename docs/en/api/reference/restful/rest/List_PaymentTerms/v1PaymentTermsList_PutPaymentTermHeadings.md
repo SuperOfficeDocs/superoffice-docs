@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 338,
-    "Name": "Towne, Bogisich and Dicki",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 727,
-    "UdListDefinitionId": 453
+    "HeadingId": 146,
+    "Name": "Kemmer, Schaefer and Quitzon",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "Rank": 388,
+    "UdListDefinitionId": 957
   },
   {
-    "HeadingId": 338,
-    "Name": "Towne, Bogisich and Dicki",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 727,
-    "UdListDefinitionId": 453
+    "HeadingId": 146,
+    "Name": "Kemmer, Schaefer and Quitzon",
+    "Tooltip": "unde",
+    "Deleted": false,
+    "Rank": 388,
+    "UdListDefinitionId": 957
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 994,
-    "Name": "Collins, Roberts and Witting",
-    "Tooltip": "iure",
-    "Deleted": false,
-    "Rank": 341,
-    "UdListDefinitionId": 613,
+    "HeadingId": 139,
+    "Name": "Bernier-Ullrich",
+    "Tooltip": "rerum",
+    "Deleted": true,
+    "Rank": 662,
+    "UdListDefinitionId": 969,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 327
       }
     }
   }

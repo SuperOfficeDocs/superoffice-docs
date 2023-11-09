@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hyatt, Purdy and Pollich",
-    "Description": "Optimized assymetric pricing structure",
+    "Name": "Jacobs Group",
+    "Description": "Focused transitional framework",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 541,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 79,
-        "InUse": 534,
+        "Unrestricted": true,
+        "Total": 659,
+        "Tooltip": "autem",
+        "CanAssign": false,
+        "Free": 3,
+        "InUse": 237,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 898,
-        "Name": "Boyle Inc and Sons",
-        "Description": "Optional impactful adapter",
-        "PrerequisiteModuleName": "Huel Inc and Sons",
-        "SortOrder": 439,
-        "ExtraFlags": 997,
+        "ModuleLicenseId": 150,
+        "Name": "Dare, Boehm and Miller",
+        "Description": "Sharable disintermediate portal",
+        "PrerequisiteModuleName": "Funk-Bogisich",
+        "SortOrder": 165,
+        "ExtraFlags": 550,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldLength": 878
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 577,
-        "Tooltip": "voluptas",
+        "Total": 279,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 882,
-        "InUse": 898,
+        "Free": 189,
+        "InUse": 358,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 155,
-        "Name": "Krajcik Inc and Sons",
-        "Description": "Business-focused stable hierarchy",
-        "PrerequisiteModuleName": "Stanton LLC",
-        "SortOrder": 936,
-        "ExtraFlags": 235,
+        "ModuleLicenseId": 527,
+        "Name": "O'Hara-Jast",
+        "Description": "Monitored impactful complexity",
+        "PrerequisiteModuleName": "Macejkovic, Mitchell and Halvorson",
+        "SortOrder": 213,
+        "ExtraFlags": 84,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 154
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -140,35 +140,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 211
       }
     }
   },
   {
-    "Name": "Hyatt, Purdy and Pollich",
-    "Description": "Optimized assymetric pricing structure",
+    "Name": "Jacobs Group",
+    "Description": "Focused transitional framework",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 541,
-        "Tooltip": "eum",
-        "CanAssign": true,
-        "Free": 79,
-        "InUse": 534,
+        "Unrestricted": true,
+        "Total": 659,
+        "Tooltip": "autem",
+        "CanAssign": false,
+        "Free": 3,
+        "InUse": 237,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 898,
-        "Name": "Boyle Inc and Sons",
-        "Description": "Optional impactful adapter",
-        "PrerequisiteModuleName": "Huel Inc and Sons",
-        "SortOrder": 439,
-        "ExtraFlags": 997,
+        "ModuleLicenseId": 150,
+        "Name": "Dare, Boehm and Miller",
+        "Description": "Sharable disintermediate portal",
+        "PrerequisiteModuleName": "Funk-Bogisich",
+        "SortOrder": 165,
+        "ExtraFlags": 550,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldLength": 878
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 577,
-        "Tooltip": "voluptas",
+        "Total": 279,
+        "Tooltip": "debitis",
         "CanAssign": false,
-        "Free": 882,
-        "InUse": 898,
+        "Free": 189,
+        "InUse": 358,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 155,
-        "Name": "Krajcik Inc and Sons",
-        "Description": "Business-focused stable hierarchy",
-        "PrerequisiteModuleName": "Stanton LLC",
-        "SortOrder": 936,
-        "ExtraFlags": 235,
+        "ModuleLicenseId": 527,
+        "Name": "O'Hara-Jast",
+        "Description": "Monitored impactful complexity",
+        "PrerequisiteModuleName": "Macejkovic, Mitchell and Halvorson",
+        "SortOrder": 213,
+        "ExtraFlags": 84,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 154
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 211
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "O'Kon Group",
-    "ToolTip": "Voluptas sapiente occaecati odit aut vitae et.",
+    "Id": 964,
+    "Name": "Dickens-McGlynn",
+    "ToolTip": "Veniam est vero quas.",
     "Deleted": false,
-    "Rank": 5,
-    "Type": "autem",
-    "ColorBlock": 94,
-    "IconHint": "repudiandae",
+    "Rank": 856,
+    "Type": "enim",
+    "ColorBlock": 335,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2005-11-23T03:24:52.3494474+01:00",
+    "LastChanged": "1997-07-23T11:06:42.9440712+02:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Mayer, Harvey and Hirthe",
-        "ToolTip": "At nemo dolor et.",
-        "Deleted": true,
-        "Rank": 562,
-        "Type": "provident",
-        "ColorBlock": 569,
-        "IconHint": "et",
+        "Id": 213,
+        "Name": "Carroll LLC",
+        "ToolTip": "Magni nemo excepturi neque odio ducimus.",
+        "Deleted": false,
+        "Rank": 998,
+        "Type": "itaque",
+        "ColorBlock": 159,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "1997-04-06T03:24:52.3494474+02:00",
+        "LastChanged": "2004-05-24T11:06:42.9440712+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "autem",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Loren Hermann"
+        "FullName": "Rebeca Ankunding"
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "veniam",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Nola Nitzsche"
+    "FullName": "Dr. Rhiannon Steuber"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Bayer LLC",
-    "ToolTip": "Consequatur maxime ut quos similique sit at et.",
+    "Id": 724,
+    "Name": "Quitzon, Wintheiser and McLaughlin",
+    "ToolTip": "Sed et veniam.",
     "Deleted": true,
-    "Rank": 31,
-    "Type": "quas",
-    "ColorBlock": 556,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2019-07-10T03:24:52.3494474+02:00",
+    "Rank": 289,
+    "Type": "id",
+    "ColorBlock": 853,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2003-01-02T11:06:42.9440712+01:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Lowe-Rogahn",
-        "ToolTip": "Nihil id nisi voluptas.",
+        "Id": 475,
+        "Name": "Wolf-Kozey",
+        "ToolTip": "Fuga molestiae dignissimos et.",
         "Deleted": true,
-        "Rank": 672,
-        "Type": "cumque",
-        "ColorBlock": 824,
-        "IconHint": "praesentium",
+        "Rank": 623,
+        "Type": "minus",
+        "ColorBlock": 644,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2009-10-09T03:24:52.3494474+02:00",
+        "LastChanged": "2001-06-23T11:06:42.9440712+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "fuga",
+        "StyleHint": "eaque",
         "Hidden": true,
-        "FullName": "Fabian Carroll",
+        "FullName": "Ms. Ruthe Madie Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 971
+            "FieldLength": 400
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "et",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Dr. Rylan Grady DDS",
+    "FullName": "Mr. Jaclyn Ulises Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   }

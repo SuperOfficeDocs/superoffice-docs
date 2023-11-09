@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Kuhlman-Boehm",
-  "Tooltip": "laborum",
+  "Id": 494,
+  "Name": "Fadel Group",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 469,
-  "IsCustomList": true,
+  "Rank": 479,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 53,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "Rank": 187,
+  "Id": 157,
+  "Name": "Kreiger Inc and Sons",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "Rank": 863,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 211
     }
   }
 }

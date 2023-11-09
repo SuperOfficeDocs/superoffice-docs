@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 511,
-  "Caption": "ea",
-  "Description": "Persevering exuding solution",
-  "ChartName": "Barton-Kris",
-  "ChartId": "veritatis",
+  "DashboardTileId": 131,
+  "Caption": "quod",
+  "Description": "Enterprise-wide optimizing customer loyalty",
+  "ChartName": "Bogan Group",
+  "ChartId": "repudiandae",
   "IsDefault": false,
-  "AssociateId": 552,
-  "GroupId": 287,
-  "SelectionId": 569,
-  "Config": "ea",
+  "AssociateId": 420,
+  "GroupId": 143,
+  "SelectionId": 495,
+  "Config": "eos",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Lebsack, Sanford and Wintheiser",
-      "Description": "Enhanced web-enabled framework",
+      "Name": "Balistreri-Baumbach",
+      "Description": "Down-sized methodical analyzer",
       "Type": "Boolean",
-      "ListName": "Legros Inc and Sons",
+      "ListName": "Stoltenberg, Glover and Leffler",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "minus",
+      "Value": "atque",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 721
+          "FieldType": "System.Int32",
+          "FieldLength": 630
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 552,
+      "VisibleId": 712,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 698
+          "FieldType": "System.Int32",
+          "FieldLength": 874
         }
       }
     },
     {
-      "VisibleId": 552,
+      "VisibleId": 712,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 698
+          "FieldType": "System.Int32",
+          "FieldLength": 874
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 432
     }
   }
 }

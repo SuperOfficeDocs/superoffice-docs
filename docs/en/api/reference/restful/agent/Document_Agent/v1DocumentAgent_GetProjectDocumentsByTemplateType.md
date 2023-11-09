@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 613,
-  "StartTime": "2008-04-04T03:24:47.5176724+02:00",
-  "EndTime": "2017-05-08T03:24:47.5176724+02:00",
-  "Count": 708,
-  "DocumentTemplateId": 773
+  "ProjectId": 428,
+  "StartTime": "2021-05-08T11:06:34.316457+02:00",
+  "EndTime": "2006-01-06T11:06:34.316457+01:00",
+  "Count": 951,
+  "DocumentTemplateId": 736
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 441,
-    "Attention": "quo",
-    "Header": "velit",
-    "Name": "Kerluke, Breitenberg and Olson",
-    "OurRef": "quibusdam",
-    "YourRef": "quas",
-    "Description": "Robust assymetric knowledge base",
-    "DocumentTemplate": "id",
+    "DocumentId": 699,
+    "Attention": "ea",
+    "Header": "autem",
+    "Name": "Pfannerstill-Kuhlman",
+    "OurRef": "ut",
+    "YourRef": "reiciendis",
+    "Description": "Synergized client-driven infrastructure",
+    "DocumentTemplate": "inventore",
     "IsPublished": false,
-    "PersonId": 706,
-    "PersonFullName": "Richie Yost MD",
-    "AssociateFullName": "Brielle Amelia Gorczany III",
-    "ContactId": 361,
-    "ContactName": "Roberts-McLaughlin",
-    "ProjectId": 727,
-    "ProjectName": "Feest Group",
-    "AssociateId": 986,
-    "Snum": 908,
-    "SaleId": 962,
-    "SaleName": "Wisoky-Raynor",
+    "PersonId": 356,
+    "PersonFullName": "Marjorie Mitchell",
+    "AssociateFullName": "Garrett Sporer",
+    "ContactId": 930,
+    "ContactName": "O'Keefe, Kreiger and Price",
+    "ProjectId": 538,
+    "ProjectName": "Nikolaus LLC",
+    "AssociateId": 644,
+    "Snum": 218,
+    "SaleId": 640,
+    "SaleName": "Macejkovic-Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   }

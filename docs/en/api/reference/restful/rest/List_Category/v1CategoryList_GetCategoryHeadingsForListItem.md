@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Batz LLC",
-    "ToolTip": "Rem et quod delectus rerum suscipit aliquam.",
+    "Id": 591,
+    "Name": "Halvorson, Aufderhar and Sawayn",
+    "ToolTip": "Quidem vel at nam nam.",
     "Deleted": true,
-    "Rank": 854,
-    "Type": "voluptates",
-    "ColorBlock": 997,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2002-07-18T03:24:52.1775959+02:00",
+    "Rank": 532,
+    "Type": "illum",
+    "ColorBlock": 759,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2000-07-18T11:06:42.6940706+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Kreiger LLC",
-        "ToolTip": "Illum eos quibusdam atque.",
-        "Deleted": false,
-        "Rank": 762,
-        "Type": "delectus",
-        "ColorBlock": 286,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2002-06-22T03:24:52.1775959+02:00",
+        "Id": 541,
+        "Name": "Vandervort-Effertz",
+        "ToolTip": "Et ex iusto explicabo iure quod.",
+        "Deleted": true,
+        "Rank": 290,
+        "Type": "cum",
+        "ColorBlock": 736,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2002-04-13T11:06:42.6940706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "enim",
+        "ExtraInfo": "optio",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Lacey Altenwerth",
+        "FullName": "Fleta Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 730
+            "FieldLength": 139
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "autem",
+    "ExtraInfo": "optio",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Titus Ullrich",
+    "FullName": "Angelina Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 73
+        "FieldType": "System.Int32",
+        "FieldLength": 605
       }
     }
   }

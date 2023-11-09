@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 706,
-  "Name": "Rutherford-Muller",
+  "ContactId": 581,
+  "Name": "Wolff-Beer",
   "Department": "",
-  "OrgNr": "1323000",
-  "Number1": "599479",
-  "Number2": "591576",
-  "UpdatedDate": "2001-10-15T03:24:47.4239365+02:00",
-  "CreatedDate": "2022-05-19T03:24:47.4239365+02:00",
+  "OrgNr": "847726",
+  "Number1": "1115832",
+  "Number2": "1966421",
+  "UpdatedDate": "2004-08-10T11:06:34.175828+02:00",
+  "CreatedDate": "2018-06-17T11:06:34.175828+02:00",
   "Emails": [
     {
-      "Value": "porro",
-      "StrippedValue": "amet",
-      "Description": "Profound zero tolerance installation",
+      "Value": "deleniti",
+      "StrippedValue": "blanditiis",
+      "Description": "Enterprise-wide composite internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 204
         }
       }
     },
     {
-      "Value": "porro",
-      "StrippedValue": "amet",
-      "Description": "Profound zero tolerance installation",
+      "Value": "deleniti",
+      "StrippedValue": "blanditiis",
+      "Description": "Enterprise-wide composite internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 761
+          "FieldLength": 204
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 631,
-      "Name": "Braun Group",
-      "ToolTip": "Impedit accusantium maiores ea consequatur quo.",
-      "Deleted": false,
-      "Rank": 655,
-      "Type": "sed",
-      "ColorBlock": 119,
-      "IconHint": "neque",
-      "Selected": false,
-      "LastChanged": "2016-06-25T03:24:47.4239365+02:00",
+      "Id": 934,
+      "Name": "Boehm Inc and Sons",
+      "ToolTip": "Qui vitae inventore quisquam.",
+      "Deleted": true,
+      "Rank": 310,
+      "Type": "sint",
+      "ColorBlock": 290,
+      "IconHint": "omnis",
+      "Selected": true,
+      "LastChanged": "2023-02-18T11:06:34.175828+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "mollitia",
-      "StyleHint": "aliquid",
-      "Hidden": false,
-      "FullName": "Opal Balistreri",
+      "ExtraInfo": "eius",
+      "StyleHint": "atque",
+      "Hidden": true,
+      "FullName": "Prof. Brianne Sydnie Pouros Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 617
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "rerum",
-      "StrippedValue": "ullam",
-      "Description": "De-engineered radical knowledge base",
+      "Value": "ipsum",
+      "StrippedValue": "repellat",
+      "Description": "Cross-group optimal moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 882
         }
       }
     },
     {
-      "Value": "rerum",
-      "StrippedValue": "ullam",
-      "Description": "De-engineered radical knowledge base",
+      "Value": "ipsum",
+      "StrippedValue": "repellat",
+      "Description": "Cross-group optimal moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 882
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "quia",
-      "StrippedValue": "deserunt",
-      "Description": "Down-sized zero administration workforce",
+      "Value": "autem",
+      "StrippedValue": "eum",
+      "Description": "Multi-tiered solution-oriented orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldLength": 945
         }
       }
     },
     {
-      "Value": "quia",
-      "StrippedValue": "deserunt",
-      "Description": "Down-sized zero administration workforce",
+      "Value": "autem",
+      "StrippedValue": "eum",
+      "Description": "Multi-tiered solution-oriented orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldLength": 945
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "dolor",
-      "Description": "Seamless heuristic installation",
+      "Value": "et",
+      "StrippedValue": "libero",
+      "Description": "Face to face secondary help-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldLength": 304
         }
       }
     },
     {
-      "Value": "sed",
-      "StrippedValue": "dolor",
-      "Description": "Seamless heuristic installation",
+      "Value": "et",
+      "StrippedValue": "libero",
+      "Description": "Face to face secondary help-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldLength": 304
         }
       }
     }
   ],
-  "Description": "Fundamental context-sensitive moderator",
+  "Description": "Optimized client-server algorithm",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,100 +279,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ut",
-      "PersonId": 232,
-      "Mrmrs": "similique",
-      "Firstname": "Samantha",
-      "Lastname": "Wisozk",
-      "MiddleName": "Robel LLC",
-      "Title": "eligendi",
-      "Description": "Cloned hybrid time-frame",
-      "Email": "grady@wisozk.us",
-      "FullName": "Blaze Botsford I",
-      "DirectPhone": "(531)001-2221",
-      "FormalName": "Fay-McGlynn",
-      "CountryId": 918,
-      "ContactId": 58,
-      "ContactName": "Pouros Group",
-      "Retired": 326,
-      "Rank": 109,
-      "ActiveInterests": 284,
+      "Position": "architecto",
+      "PersonId": 602,
+      "Mrmrs": "occaecati",
+      "Firstname": "Orie",
+      "Lastname": "Jewess",
+      "MiddleName": "Hamill-Spencer",
+      "Title": "quasi",
+      "Description": "Progressive composite synergy",
+      "Email": "nyasia@collinswilderman.co.uk",
+      "FullName": "Ms. Marley Carleton Kuvalis MD",
+      "DirectPhone": "708-613-9711 x772",
+      "FormalName": "O'Conner Inc and Sons",
+      "CountryId": 995,
+      "ContactId": 134,
+      "ContactName": "Strosin-Little",
+      "Retired": 847,
+      "Rank": 951,
+      "ActiveInterests": 154,
       "ContactDepartment": "",
-      "ContactCountryId": 592,
-      "ContactOrgNr": "961739",
-      "FaxPhone": "402.328.8990",
-      "MobilePhone": "(855)044-5421",
-      "ContactPhone": "142-967-2844",
-      "AssociateName": "Corwin-Ernser",
-      "AssociateId": 704,
-      "UsePersonAddress": true,
-      "ContactFax": "harum",
+      "ContactCountryId": 144,
+      "ContactOrgNr": "262588",
+      "FaxPhone": "(251)206-6261",
+      "MobilePhone": "539-849-6806 x724",
+      "ContactPhone": "(135)915-1443 x29566",
+      "AssociateName": "Jast LLC",
+      "AssociateId": 367,
+      "UsePersonAddress": false,
+      "ContactFax": "et",
       "Kanafname": "nihil",
-      "Kanalname": "sunt",
-      "Post1": "rerum",
-      "Post2": "expedita",
-      "Post3": "non",
-      "EmailName": "titus@kihn.info",
-      "ContactFullName": "Mrs. Ladarius Ova Hudson Sr.",
-      "ActiveErpLinks": 280,
-      "TicketPriorityId": 753,
-      "SupportLanguageId": 157,
-      "SupportAssociateId": 438,
+      "Kanalname": "in",
+      "Post1": "ullam",
+      "Post2": "ducimus",
+      "Post3": "minima",
+      "EmailName": "royal_kerluke@hoppe.uk",
+      "ContactFullName": "Leslie Zachery Zulauf Jr.",
+      "ActiveErpLinks": 395,
+      "TicketPriorityId": 661,
+      "SupportLanguageId": 685,
+      "SupportAssociateId": 866,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 515
+          "FieldType": "System.Int32",
+          "FieldLength": 374
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "cupiditate",
+  "NoMailing": false,
+  "Kananame": "soluta",
   "Xstop": false,
-  "ActiveInterests": 645,
-  "GroupId": 656,
-  "ActiveStatusMonitorId": 168,
+  "ActiveInterests": 838,
+  "GroupId": 502,
+  "ActiveStatusMonitorId": 362,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 494,
-  "DbiAgentId": 283,
-  "DbiLastSyncronized": "2018-06-16T03:24:47.4239365+02:00",
-  "DbiKey": "ipsam",
-  "DbiLastModified": "2000-12-05T03:24:47.4239365+01:00",
+  "Deleted": 688,
+  "DbiAgentId": 64,
+  "DbiLastSyncronized": "2013-10-16T11:06:34.175828+02:00",
+  "DbiKey": "architecto",
+  "DbiLastModified": "2012-07-28T11:06:34.175828+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 230,
-  "ActiveErpLinks": 558,
+  "Source": 641,
+  "ActiveErpLinks": 348,
   "BounceEmails": [
-    "magdalena.swift@ryan.us",
-    "werner_swaniawski@schinner.biz"
+    "breanna@marvinhudson.us",
+    "lamar@beatty.com"
   ],
   "Domains": [
-    "fuga",
-    "dolor"
+    "unde",
+    "esse"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Mekhi Deshaun Welch IV",
-    "SuperOffice:2": "Mr. Yoshiko Donnell Beahan MD"
+    "SuperOffice:1": "Mathew Waelchi",
+    "SuperOffice:2": "Macy Abernathy"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sunt"
+    "CustomFields1": "aut",
+    "CustomFields2": "fuga"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldType": "System.String",
+      "FieldLength": 540
     }
   }
 }

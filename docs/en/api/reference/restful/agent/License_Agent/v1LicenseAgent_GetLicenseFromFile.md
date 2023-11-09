@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "maiores"
+  "FileContent": "velit"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 677,
-      "NumberOfLicensesFree": 785,
-      "NumberOfLicensesAdded": 939,
-      "NumberOfLicensesNewTotal": 149,
-      "NumberOfLicensesNewFree": 38,
-      "NumberOfLicensesTotal": 3
+      "NumberOfLicensesInUse": 997,
+      "NumberOfLicensesFree": 810,
+      "NumberOfLicensesAdded": 136,
+      "NumberOfLicensesNewTotal": 342,
+      "NumberOfLicensesNewFree": 765,
+      "NumberOfLicensesTotal": 886
     }
   ],
-  "AccumulatedNextCheckDate": "2006-03-22T03:24:47.8301403+01:00"
+  "AccumulatedNextCheckDate": "2021-02-11T11:06:34.6458113+01:00"
 }
 ```

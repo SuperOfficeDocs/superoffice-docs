@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 525,
+  "CustConfigId": 381,
   "Type": "Options",
-  "Config": "adipisci",
-  "CustLangId": 260,
-  "Registered": "2023-03-26T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 757,
-  "Updated": "2005-11-23T03:24:47.4708008+01:00",
-  "UpdatedAssociateId": 909,
+  "Config": "quis",
+  "CustLangId": 862,
+  "Registered": "2003-12-25T11:06:34.2539546+01:00",
+  "RegisteredAssociateId": 656,
+  "Updated": "2022-08-09T11:06:34.2539546+02:00",
+  "UpdatedAssociateId": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 274
     }
   }
 }

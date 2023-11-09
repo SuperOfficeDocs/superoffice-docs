@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Walsh-Greenfelder",
-    "ToolTip": "Et accusantium velit aliquam.",
+    "Id": 512,
+    "Name": "Veum-Willms",
+    "ToolTip": "Autem totam veniam consectetur ducimus qui.",
     "Deleted": false,
-    "Rank": 85,
-    "Type": "doloremque",
-    "ColorBlock": 351,
-    "IconHint": "in",
+    "Rank": 790,
+    "Type": "alias",
+    "ColorBlock": 770,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2006-08-03T03:24:52.4275712+02:00",
+    "LastChanged": "2012-09-06T11:06:43.0847005+02:00",
     "ChildItems": [
       {
-        "Id": 895,
-        "Name": "Cormier LLC",
-        "ToolTip": "Quis omnis aut impedit occaecati.",
+        "Id": 7,
+        "Name": "Schoen-Kozey",
+        "ToolTip": "Ratione nihil.",
         "Deleted": false,
-        "Rank": 449,
-        "Type": "incidunt",
-        "ColorBlock": 286,
-        "IconHint": "modi",
+        "Rank": 781,
+        "Type": "reprehenderit",
+        "ColorBlock": 305,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2019-12-24T03:24:52.4275712+01:00",
+        "LastChanged": "2006-09-24T11:06:43.0847005+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Brannon Thompson"
+        "FullName": "Fern Beatty"
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "nulla",
+    "ExtraInfo": "cumque",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Jonatan Keebler"
+    "FullName": "Kaylee Sanford"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Luettgen, Lakin and Tillman",
-    "ToolTip": "Aut fuga labore expedita dicta sed.",
-    "Deleted": true,
-    "Rank": 666,
-    "Type": "doloremque",
-    "ColorBlock": 217,
-    "IconHint": "labore",
-    "Selected": true,
-    "LastChanged": "2000-08-08T03:24:52.4275712+02:00",
+    "Id": 136,
+    "Name": "Crona-Zulauf",
+    "ToolTip": "Dolor quam blanditiis nihil autem pariatur alias debitis.",
+    "Deleted": false,
+    "Rank": 621,
+    "Type": "placeat",
+    "ColorBlock": 942,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2009-08-19T11:06:43.0847005+02:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Romaguera, Murray and Zboncak",
-        "ToolTip": "Facere dolor id.",
-        "Deleted": true,
-        "Rank": 53,
-        "Type": "reprehenderit",
-        "ColorBlock": 639,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2013-02-03T03:24:52.4275712+01:00",
+        "Id": 126,
+        "Name": "Pagac-Leannon",
+        "ToolTip": "Recusandae est eaque.",
+        "Deleted": false,
+        "Rank": 44,
+        "Type": "error",
+        "ColorBlock": 356,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2003-01-18T11:06:43.0847005+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "est",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Maudie Weber",
+        "FullName": "Prof. Allen Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 992
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Rhoda Claudie Conroy II",
+    "ExtraInfo": "sequi",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Woodrow Legros IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 445
       }
     }
   }

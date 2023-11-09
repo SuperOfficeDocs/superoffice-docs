@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Crist-Lakin",
-  "DeviceName": "Kunze Inc and Sons"
+  "ApplicationName": "Hahn, McCullough and Legros",
+  "DeviceName": "Veum, Connelly and Hoppe"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 300,
-  "Name": "Gleichner, Satterfield and Kohler",
-  "CreatedDate": "2023-08-06T03:24:47.8145137+02:00",
-  "UpdatedDate": "2010-04-20T03:24:47.8145137+02:00",
-  "AssociateFullName": "Prof. Adriana Raheem Swaniawski MD",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "aliquid",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 275,
+  "ForeignDeviceId": 697,
+  "Name": "Heller-Hamill",
+  "CreatedDate": "2022-12-15T11:06:34.6301875+01:00",
+  "UpdatedDate": "2007-06-20T11:06:34.6301875+02:00",
+  "AssociateFullName": "Dr. Dannie Evie Bode DDS",
+  "CreatedBy": "fugit",
+  "UpdatedBy": "eligendi",
+  "DeviceIdentifier": "quaerat",
+  "ForeignAppId": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 279
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Larkin, Stark and Runte",
-  "HeadingId": 956
+  "UdListDefinitionName": "Rodriguez, Pouros and Daniel",
+  "HeadingId": 478
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Von-Kuphal",
-    "ToolTip": "Sit perferendis.",
-    "Deleted": false,
-    "Rank": 629,
-    "Type": "libero",
-    "ColorBlock": 938,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2016-03-20T03:24:47.8770078+01:00",
+    "Id": 683,
+    "Name": "Johns, Williamson and Jast",
+    "ToolTip": "Quo quaerat dolores et.",
+    "Deleted": true,
+    "Rank": 984,
+    "Type": "sed",
+    "ColorBlock": 362,
+    "IconHint": "cumque",
+    "Selected": true,
+    "LastChanged": "2020-06-06T11:06:34.723933+02:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Bernhard Group",
-        "ToolTip": "Est nam quia ipsam.",
+        "Id": 717,
+        "Name": "Strosin-Nikolaus",
+        "ToolTip": "Animi nemo laudantium quaerat perspiciatis.",
         "Deleted": false,
-        "Rank": 525,
-        "Type": "non",
-        "ColorBlock": 957,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2017-04-07T03:24:47.8770078+02:00",
+        "Rank": 957,
+        "Type": "hic",
+        "ColorBlock": 882,
+        "IconHint": "minima",
+        "Selected": true,
+        "LastChanged": "2023-05-01T11:06:34.723933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "unde",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Eva Rowe",
+        "FullName": "Mrs. Enrico Walker Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 230
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mr. Matt Predovic",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "repellendus",
+    "Hidden": true,
+    "FullName": "Kassandra Estelle Rempel I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldType": "System.String",
+        "FieldLength": 461
       }
     }
   }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 461
+  "ShipmentId": 640
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2002-02-17T03:24:47.9238778+01:00",
+  "StartDate": "2012-01-13T11:06:34.7864409+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 820,
-  "ShipmentDescription": "User-friendly national data-warehouse",
-  "FromAddress": "officia",
-  "PersonId": 288,
-  "PersonFullName": "Steve Kuhn",
-  "ShipmentType": "et",
-  "MessageId": 800,
-  "MessageSubject": "dolore",
-  "DocumentMessageId": 482,
-  "NumSent": 35,
-  "NumOpened": 772,
-  "NumBounced": 954,
-  "NumClicks": 886,
+  "ShipmentId": 276,
+  "ShipmentDescription": "Enterprise-wide assymetric system engine",
+  "FromAddress": "rerum",
+  "PersonId": 998,
+  "PersonFullName": "Foster Feeney",
+  "ShipmentType": "voluptatem",
+  "MessageId": 290,
+  "MessageSubject": "assumenda",
+  "DocumentMessageId": 559,
+  "NumSent": 413,
+  "NumOpened": 810,
+  "NumBounced": 222,
+  "NumClicks": 288,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

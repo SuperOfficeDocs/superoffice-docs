@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Nader Inc and Sons",
-    "ToolTip": "Perferendis libero nesciunt ex nihil id.",
-    "Deleted": true,
-    "Rank": 898,
-    "Type": "non",
-    "ColorBlock": 443,
-    "IconHint": "accusamus",
+    "Id": 20,
+    "Name": "Runolfsson LLC",
+    "ToolTip": "Consectetur ut ut et ullam.",
+    "Deleted": false,
+    "Rank": 749,
+    "Type": "vitae",
+    "ColorBlock": 767,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2002-04-30T03:24:52.2713365+02:00",
+    "LastChanged": "1998-02-02T11:06:42.8346931+01:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Upton Inc and Sons",
-        "ToolTip": "Rerum magnam dolorem voluptate iusto omnis.",
-        "Deleted": false,
-        "Rank": 706,
-        "Type": "ea",
-        "ColorBlock": 720,
-        "IconHint": "maxime",
+        "Id": 820,
+        "Name": "Cassin, Bartell and Schmidt",
+        "ToolTip": "Iste sunt fugiat voluptatibus hic dolorem sit.",
+        "Deleted": true,
+        "Rank": 307,
+        "Type": "libero",
+        "ColorBlock": 496,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "1998-09-26T03:24:52.2713365+02:00",
+        "LastChanged": "2017-01-08T11:06:42.8346931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "quae",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Dr. Pamela Boyer II",
+        "FullName": "Mrs. Mona Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 37
+            "FieldLength": 301
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Joey Chance Bartell DVM",
+    "ExtraInfo": "numquam",
+    "StyleHint": "iste",
+    "Hidden": false,
+    "FullName": "Prof. Jordane Orland Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 565
       }
     }
   }

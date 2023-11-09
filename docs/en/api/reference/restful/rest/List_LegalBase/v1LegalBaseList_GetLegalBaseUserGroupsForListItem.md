@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Pacocha, Bosco and Satterfield",
-    "ToolTip": "Ipsam quae architecto cumque.",
+    "Id": 590,
+    "Name": "Fadel, Ziemann and Kautzer",
+    "ToolTip": "Quidem animi cum non dolor sunt.",
     "Deleted": false,
-    "Rank": 117,
-    "Type": "eum",
-    "ColorBlock": 285,
-    "IconHint": "repudiandae",
+    "Rank": 584,
+    "Type": "ea",
+    "ColorBlock": 784,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2015-02-19T03:24:52.2557133+01:00",
+    "LastChanged": "2007-01-17T11:06:42.8190654+01:00",
     "ChildItems": [
       {
-        "Id": 484,
-        "Name": "Bins, Funk and Schmitt",
-        "ToolTip": "Voluptatibus earum ab consequuntur provident et.",
-        "Deleted": true,
-        "Rank": 595,
-        "Type": "perferendis",
-        "ColorBlock": 404,
-        "IconHint": "sed",
+        "Id": 89,
+        "Name": "Graham, Fay and Bayer",
+        "ToolTip": "Doloribus et sed voluptatem laboriosam adipisci.",
+        "Deleted": false,
+        "Rank": 533,
+        "Type": "autem",
+        "ColorBlock": 470,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2013-05-21T03:24:52.2557133+02:00",
+        "LastChanged": "2013-12-13T11:06:42.8190654+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "rerum",
+        "ExtraInfo": "similique",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Ulises Blick",
+        "FullName": "Mr. Frieda Ava Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 821
+            "FieldType": "System.Int32",
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "sed",
+    "ExtraInfo": "ratione",
+    "StyleHint": "maiores",
     "Hidden": true,
-    "FullName": "Miss Eusebio Von DDS",
+    "FullName": "Miss Jarrell Coralie Stroman Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 791
       }
     }
   }

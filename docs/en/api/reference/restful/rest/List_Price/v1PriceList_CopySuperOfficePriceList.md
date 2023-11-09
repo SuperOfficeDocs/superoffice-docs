@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/14/2008 03:24:53
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/09/2018 03:24:53
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=724
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/03/2000 11:06:44
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=10/05/2021 11:06:44
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=882
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 272,
-  "ERPPriceListKey": "quod",
-  "QuoteConnectionId": 238,
-  "Name": "Buckridge-Boyle",
-  "Description": "Progressive system-worthy algorithm",
-  "Currency": "ducimus",
-  "CurrencyName": "Willms Group",
-  "ValidFrom": "1998-01-17T03:24:52.3025813+01:00",
-  "ValidTo": "2014-11-11T03:24:52.3025813+01:00",
-  "IsActive": false,
+  "PriceListId": 269,
+  "ERPPriceListKey": "eius",
+  "QuoteConnectionId": 161,
+  "Name": "Gleason-Jaskolski",
+  "Description": "Function-based bottom-line Graphic Interface",
+  "Currency": "dolorum",
+  "CurrencyName": "Pfeffer, Dietrich and Feil",
+  "ValidFrom": "2023-08-13T11:06:42.8971908+02:00",
+  "ValidTo": "1999-10-08T11:06:42.8971908+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 240
     }
   }
 }

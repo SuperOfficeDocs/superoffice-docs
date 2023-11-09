@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 805,
+  "DocumentTemplateId": 744,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "mollitia",
-  "PluginId": 70
+  "LanguageCode": "nesciunt",
+  "PluginId": 357
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grimes, Rutherford and Schultz",
-  "Description": "Seamless fault-tolerant algorithm",
-  "ExternalReference": "et",
-  "MimeType": "voluptas",
-  "PluginId": 726
+  "Name": "Leuschke, Veum and Mraz",
+  "Description": "Customizable leading edge encoding",
+  "ExternalReference": "voluptatum",
+  "MimeType": "itaque",
+  "PluginId": 5
 }
 ```

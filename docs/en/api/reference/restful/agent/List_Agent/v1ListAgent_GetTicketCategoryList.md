@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 404,
-    "ParentId": 351,
-    "Name": "Rosenbaum Inc and Sons",
-    "Fullname": "nisi",
-    "CategoryMaster": 951,
+    "TicketCategoryId": 852,
+    "ParentId": 370,
+    "Name": "Emmerich Inc and Sons",
+    "Fullname": "optio",
+    "CategoryMaster": 799,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Bayer-Luettgen",
+    "ExternalName": "Keebler, Boyle and DuBuque",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 953,
-    "ReplyTemplate": 426,
-    "NotificationEmail": "moses@eichmann.com",
+    "AssignmentLag": 72,
+    "ReplyTemplate": 246,
+    "NotificationEmail": "reba.herman@koelpin.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 835,
+    "EffectiveReplyTemplateId": 833,
     "ExtraFields": {
-      "ExtraFields1": "nobis",
-      "ExtraFields2": "dolores"
+      "ExtraFields1": "ab",
+      "ExtraFields2": "quia"
     },
     "CustomFields": {
-      "CustomFields1": "facere",
-      "CustomFields2": "et"
+      "CustomFields1": "ad",
+      "CustomFields2": "non"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 855
       }
     }
   }

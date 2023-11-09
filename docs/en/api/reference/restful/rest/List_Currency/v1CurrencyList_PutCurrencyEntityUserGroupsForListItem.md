@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Watsica, Considine and Schowalter",
-    "ToolTip": "In sunt eaque.",
+    "Id": 137,
+    "Name": "Trantow-Hills",
+    "ToolTip": "Quas quia et odio aliquid odit.",
     "Deleted": false,
-    "Rank": 539,
-    "Type": "consectetur",
-    "ColorBlock": 940,
-    "IconHint": "corporis",
+    "Rank": 535,
+    "Type": "ipsam",
+    "ColorBlock": 787,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2007-10-21T03:24:52.2244666+02:00",
+    "LastChanged": "2015-02-28T11:06:42.7721939+01:00",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Rodriguez, Treutel and Botsford",
-        "ToolTip": "Temporibus quo vel ipsa dolor ea ut repellat.",
+        "Id": 770,
+        "Name": "Eichmann, Gerlach and Jakubowski",
+        "ToolTip": "Eius voluptas aperiam ab voluptatibus nobis ab.",
         "Deleted": false,
-        "Rank": 324,
-        "Type": "accusamus",
-        "ColorBlock": 166,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2018-05-12T03:24:52.2244666+02:00",
+        "Rank": 484,
+        "Type": "in",
+        "ColorBlock": 973,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2008-03-10T11:06:42.7721939+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "sequi",
+        "ExtraInfo": "aut",
+        "StyleHint": "odit",
         "Hidden": true,
-        "FullName": "Nicklaus Daniel"
+        "FullName": "Naomie Mosciski"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Dr. Brenna Feest DDS"
+    "ExtraInfo": "iste",
+    "StyleHint": "aliquid",
+    "Hidden": true,
+    "FullName": "Prof. Austen Prosacco IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Gulgowski, Graham and Kemmer",
-    "ToolTip": "Possimus hic consequatur libero.",
+    "Id": 119,
+    "Name": "Homenick, Smitham and Mills",
+    "ToolTip": "Occaecati molestiae exercitationem.",
     "Deleted": false,
-    "Rank": 205,
-    "Type": "qui",
-    "ColorBlock": 290,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2020-04-21T03:24:52.2244666+02:00",
+    "Rank": 766,
+    "Type": "delectus",
+    "ColorBlock": 10,
+    "IconHint": "asperiores",
+    "Selected": true,
+    "LastChanged": "2018-07-20T11:06:42.7721939+02:00",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "McClure-Nitzsche",
-        "ToolTip": "Quae in illo.",
+        "Id": 584,
+        "Name": "Casper, McCullough and Yundt",
+        "ToolTip": "Debitis voluptas quisquam delectus enim incidunt a veniam.",
         "Deleted": false,
-        "Rank": 400,
-        "Type": "laudantium",
-        "ColorBlock": 441,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2004-01-31T03:24:52.2244666+01:00",
+        "Rank": 322,
+        "Type": "distinctio",
+        "ColorBlock": 183,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2004-09-21T11:06:42.7721939+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "dicta",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Kylie Howe",
+        "FullName": "Ms. Christina Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 407
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Mr. Melissa Yundt",
+    "ExtraInfo": "ut",
+    "StyleHint": "distinctio",
+    "Hidden": false,
+    "FullName": "Ms. Lourdes Zboncak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 349
       }
     }
   }

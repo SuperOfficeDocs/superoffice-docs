@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 496,
-    "Name": "Quigley-Bradtke",
+    "TicketPriorityId": 291,
+    "Name": "Sawayn Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 65,
+    "SortOrder": 969,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 882,
-    "MonStart": "2005-10-23T03:24:52.4431914+02:00",
-    "MonStop": "2000-06-21T03:24:52.4431914+02:00",
-    "TueStart": "2015-06-07T03:24:52.4431914+02:00",
-    "TueStop": "1996-10-18T03:24:52.4431914+02:00",
-    "WedStart": "2011-02-15T03:24:52.4431914+01:00",
-    "WedStop": "2000-11-11T03:24:52.4431914+01:00",
-    "ThuStart": "2011-12-06T03:24:52.4431914+01:00",
-    "ThuStop": "2015-06-23T03:24:52.4431914+02:00",
-    "FriStart": "2014-12-19T03:24:52.4431914+01:00",
-    "FriStop": "2010-11-28T03:24:52.4431914+01:00",
-    "SatStart": "2004-12-01T03:24:52.4431914+01:00",
-    "SatStop": "2006-05-17T03:24:52.4431914+02:00",
-    "SunStart": "2022-11-24T03:24:52.4431914+01:00",
-    "SunStop": "2022-02-03T03:24:52.4431914+01:00",
+    "Deadline": 561,
+    "MonStart": "2013-07-19T11:06:43.1159494+02:00",
+    "MonStop": "2022-12-30T11:06:43.1159494+01:00",
+    "TueStart": "1997-10-10T11:06:43.1159494+02:00",
+    "TueStop": "2005-07-31T11:06:43.1159494+02:00",
+    "WedStart": "1997-01-13T11:06:43.1159494+01:00",
+    "WedStop": "2007-10-06T11:06:43.1159494+02:00",
+    "ThuStart": "1997-12-04T11:06:43.1159494+01:00",
+    "ThuStop": "2008-10-11T11:06:43.1159494+02:00",
+    "FriStart": "2018-06-03T11:06:43.1159494+02:00",
+    "FriStop": "1997-09-27T11:06:43.1159494+02:00",
+    "SatStart": "2008-01-17T11:06:43.1159494+01:00",
+    "SatStop": "2016-05-17T11:06:43.1159494+02:00",
+    "SunStart": "2010-04-28T11:06:43.1159494+02:00",
+    "SunStop": "1999-05-06T11:06:43.1159494+02:00",
     "NonDates": [
-      "possimus",
-      "molestiae"
+      "nisi",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 654,
-        "AlertLevel": 706,
-        "AlertTimeout": 974,
-        "Action": 165,
-        "DelegateTo": 850,
-        "ScriptId": 74,
-        "EmailTo": "antonette@muellermills.info",
-        "SmsTo": "officiis",
-        "ReplyTemplateIdCustomer": 226,
-        "ReplyTemplateIdUser": 840,
-        "ReplyTemplateIdCatmast": 414,
-        "ReplyTemplateIdEmail": 612,
-        "RtiCustomerSms": 891,
-        "ReplyTemplateIdUserSms": 560,
-        "ReplyTemplateIdCatmastSms": 971,
-        "ReplyTemplateIdSms": 373,
+        "TicketAlertId": 299,
+        "AlertLevel": 187,
+        "AlertTimeout": 732,
+        "Action": 555,
+        "DelegateTo": 517,
+        "ScriptId": 519,
+        "EmailTo": "dolores@wilkinsonstehr.us",
+        "SmsTo": "fugiat",
+        "ReplyTemplateIdCustomer": 137,
+        "ReplyTemplateIdUser": 565,
+        "ReplyTemplateIdCatmast": 376,
+        "ReplyTemplateIdEmail": 209,
+        "RtiCustomerSms": 110,
+        "ReplyTemplateIdUserSms": 362,
+        "ReplyTemplateIdCatmastSms": 977,
+        "ReplyTemplateIdSms": 451,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldLength": 395
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 326
       }
     }
   }

@@ -73,8 +73,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 880,
-  "Name": "Hamill-Aufderhar",
+  "TicketStatusId": 187,
+  "Name": "Tromp-Rosenbaum",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 196
     }
   }
 }

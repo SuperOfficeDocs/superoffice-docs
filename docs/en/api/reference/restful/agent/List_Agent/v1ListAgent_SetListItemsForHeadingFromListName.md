@@ -71,13 +71,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Conroy Group",
-  "HeadingId": 846,
+  "UdListDefinitionName": "Dibbert-Davis",
+  "HeadingId": 431,
   "ListItemIds": [
-    282,
-    197
+    197,
+    168
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Schumm, Sauer and Quitzon",
-    "ToolTip": "Reiciendis et natus in.",
-    "Deleted": false,
-    "Rank": 456,
-    "Type": "laboriosam",
-    "ColorBlock": 132,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2002-06-11T03:24:52.1775959+02:00",
+    "Id": 392,
+    "Name": "Von, Roob and Reichel",
+    "ToolTip": "Nam aut harum.",
+    "Deleted": true,
+    "Rank": 170,
+    "Type": "placeat",
+    "ColorBlock": 323,
+    "IconHint": "amet",
+    "Selected": false,
+    "LastChanged": "2016-04-08T11:06:42.7096943+02:00",
     "ChildItems": [
       {
-        "Id": 803,
-        "Name": "Strosin, Mante and Rath",
-        "ToolTip": "Ut soluta.",
+        "Id": 634,
+        "Name": "Hodkiewicz, Wolf and Stroman",
+        "ToolTip": "Et ea aspernatur sapiente fuga rem.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "qui",
-        "ColorBlock": 508,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2016-11-13T03:24:52.1932187+01:00",
+        "Rank": 127,
+        "Type": "in",
+        "ColorBlock": 478,
+        "IconHint": "nam",
+        "Selected": true,
+        "LastChanged": "2006-02-05T11:06:42.7096943+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "officia",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Guy Sipes",
+        "FullName": "Ms. Remington Norma Goldner Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldType": "System.String",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Dustin Satterfield III",
+    "ExtraInfo": "sed",
+    "StyleHint": "blanditiis",
+    "Hidden": false,
+    "FullName": "Sammy Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 959
       }
     }
   }

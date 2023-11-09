@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Gleichner, Feeney and Bailey",
-    "ToolTip": "Iusto nulla nostrum.",
-    "Deleted": true,
-    "Rank": 799,
-    "Type": "perferendis",
-    "ColorBlock": 779,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2007-04-15T03:24:52.1463474+02:00",
+    "Id": 897,
+    "Name": "Huels, Moen and Walsh",
+    "ToolTip": "Consectetur necessitatibus earum inventore.",
+    "Deleted": false,
+    "Rank": 62,
+    "Type": "non",
+    "ColorBlock": 582,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2010-01-09T11:06:42.6471966+01:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Wyman, Ebert and Botsford",
-        "ToolTip": "Impedit nemo aut magni voluptas quia aut.",
+        "Id": 788,
+        "Name": "Jast, Dickens and Jaskolski",
+        "ToolTip": "Tenetur eveniet.",
         "Deleted": true,
-        "Rank": 975,
-        "Type": "impedit",
-        "ColorBlock": 121,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2005-07-02T03:24:52.1463474+02:00",
+        "Rank": 399,
+        "Type": "est",
+        "ColorBlock": 498,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2023-04-18T11:06:42.6471966+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "labore",
+        "ExtraInfo": "earum",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Melyna Gottlieb"
+        "FullName": "Miss Madelynn Morar DDS"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Clarabelle Miller"
+    "ExtraInfo": "dolore",
+    "StyleHint": "minima",
+    "Hidden": false,
+    "FullName": "Dr. Earline Schaden"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "O'Reilly Group",
-    "ToolTip": "Molestiae deserunt dolores esse laboriosam sapiente sit in.",
+    "Id": 246,
+    "Name": "Kuphal LLC",
+    "ToolTip": "Omnis et facere.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "temporibus",
-    "ColorBlock": 315,
-    "IconHint": "et",
+    "Rank": 1001,
+    "Type": "ut",
+    "ColorBlock": 411,
+    "IconHint": "quidem",
     "Selected": true,
-    "LastChanged": "2007-08-10T03:24:52.1463474+02:00",
+    "LastChanged": "2004-04-13T11:06:42.6471966+02:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Denesik-Walker",
-        "ToolTip": "Qui eveniet ut consequatur ducimus.",
-        "Deleted": true,
-        "Rank": 391,
-        "Type": "consequatur",
-        "ColorBlock": 168,
-        "IconHint": "aut",
+        "Id": 823,
+        "Name": "Effertz LLC",
+        "ToolTip": "Veniam consectetur alias reiciendis sapiente.",
+        "Deleted": false,
+        "Rank": 696,
+        "Type": "aut",
+        "ColorBlock": 964,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2021-07-16T03:24:52.1463474+02:00",
+        "LastChanged": "2022-02-27T11:06:42.6471966+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Mrs. Gage Wiza",
+        "ExtraInfo": "modi",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Johnathon Jerde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 706
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "rerum",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Ms. Percy Bradtke IV",
+    "FullName": "Brianne Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 654
       }
     }
   }

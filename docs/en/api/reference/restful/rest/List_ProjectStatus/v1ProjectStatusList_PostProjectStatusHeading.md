@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 111,
-  "Name": "Quigley, Wilderman and Hayes",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 242,
-  "UdListDefinitionId": 963
+  "HeadingId": 599,
+  "Name": "Bayer Group",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 587,
+  "UdListDefinitionId": 349
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 561,
-  "Name": "Corwin Inc and Sons",
-  "Tooltip": "rem",
-  "Deleted": true,
-  "Rank": 899,
-  "UdListDefinitionId": 294,
+  "HeadingId": 817,
+  "Name": "Dare LLC",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 551,
+  "UdListDefinitionId": 133,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldType": "System.String",
+      "FieldLength": 840
     }
   }
 }

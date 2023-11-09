@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Wunsch-Hilpert",
-    "Hagenes, Weimann and Jacobs"
+    "Hane Inc and Sons",
+    "Windler Group"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  724,
-  333
+  117,
+  833
 ]
 ```

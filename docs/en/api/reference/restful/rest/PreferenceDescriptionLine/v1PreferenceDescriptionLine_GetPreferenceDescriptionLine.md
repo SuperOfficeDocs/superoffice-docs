@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 18,
-  "PrefDescId": 801,
-  "PrefValue": "nesciunt",
-  "PrefShowValue": "laudantium",
-  "Description": "Inverse encompassing functionalities",
-  "IsBuiltin": false,
+  "PrefDescLineId": 5,
+  "PrefDescId": 228,
+  "PrefValue": "laboriosam",
+  "PrefShowValue": "quos",
+  "Description": "Seamless tangible Graphical User Interface",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 700
     }
   },
   "_Links": {

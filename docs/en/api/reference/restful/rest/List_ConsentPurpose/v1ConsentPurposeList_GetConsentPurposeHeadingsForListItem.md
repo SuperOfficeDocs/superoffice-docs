@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Jakubowski-Yost",
-    "ToolTip": "Et pariatur.",
+    "Id": 934,
+    "Name": "Little Group",
+    "ToolTip": "Rem repudiandae quam sunt voluptas.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "dignissimos",
-    "ColorBlock": 619,
-    "IconHint": "est",
+    "Rank": 339,
+    "Type": "tempora",
+    "ColorBlock": 864,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2018-12-26T03:24:52.1932187+01:00",
+    "LastChanged": "2005-11-06T11:06:42.7253202+01:00",
     "ChildItems": [
       {
-        "Id": 961,
-        "Name": "Dibbert, Harris and Russel",
-        "ToolTip": "Culpa quia.",
-        "Deleted": false,
-        "Rank": 85,
-        "Type": "provident",
-        "ColorBlock": 692,
-        "IconHint": "doloremque",
-        "Selected": false,
-        "LastChanged": "2023-02-22T03:24:52.1932187+01:00",
+        "Id": 144,
+        "Name": "Nikolaus-Smith",
+        "ToolTip": "Porro iusto qui quaerat placeat.",
+        "Deleted": true,
+        "Rank": 576,
+        "Type": "vel",
+        "ColorBlock": 756,
+        "IconHint": "ab",
+        "Selected": true,
+        "LastChanged": "2021-03-04T11:06:42.7253202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "rerum",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Raul Hansen",
+        "FullName": "Anthony Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 161
+            "FieldLength": 591
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "ipsam",
-    "Hidden": true,
-    "FullName": "Ransom Johnson V",
+    "ExtraInfo": "id",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Kassandra Amelie Daugherty DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldType": "System.Int32",
+        "FieldLength": 957
       }
     }
   }

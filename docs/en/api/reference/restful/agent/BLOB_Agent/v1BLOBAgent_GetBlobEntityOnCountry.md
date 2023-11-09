@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 497
+  "CountryId": 744
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 133,
-  "BlobSize": 102,
-  "Description": "Persevering empowering encryption",
-  "ExtraInfo": "quam",
+  "BlobId": 479,
+  "BlobSize": 758,
+  "Description": "Profound full-range array",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "atque",
-  "OriginalSize": 611,
-  "CreatedDate": "2000-08-23T03:24:47.2677007+02:00",
-  "UpdatedDate": "2011-09-14T03:24:47.2677007+02:00",
+  "IsZipped": false,
+  "MimeType": "in",
+  "OriginalSize": 793,
+  "CreatedDate": "2000-11-08T11:06:33.812894+01:00",
+  "UpdatedDate": "2023-03-20T11:06:33.812894+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatem",
+  "ConceptualType": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

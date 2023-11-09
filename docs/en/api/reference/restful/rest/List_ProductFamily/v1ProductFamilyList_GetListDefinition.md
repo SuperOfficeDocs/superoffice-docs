@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 635,
-  "Name": "Harris-Kris",
-  "Tooltip": "vel",
+  "Id": 434,
+  "Name": "Conn LLC",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 271,
-  "IsCustomList": false,
+  "Rank": 437,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "corporis",
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldLength": 538
     }
   },
   "_Links": {

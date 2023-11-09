@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 358,
-  "ERPQuoteAlternativeKey": "porro",
-  "QuoteVersionId": 840,
-  "Name": "Reynolds-Jaskolski",
-  "Description": "Cross-group discrete conglomeration",
+  "QuoteAlternativeId": 26,
+  "ERPQuoteAlternativeKey": "deserunt",
+  "QuoteVersionId": 135,
+  "Name": "Kris-Abernathy",
+  "Description": "Universal background Graphical User Interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 14485.348,
-  "ERPDiscountAmount": 21167.036,
-  "DiscountPercent": 20762.75,
-  "DiscountAmount": 23269.95,
+  "ERPDiscountPercent": 7277.148,
+  "ERPDiscountAmount": 27657.55,
+  "DiscountPercent": 15322.126,
+  "DiscountAmount": 13949.434,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptas",
-  "VAT": 9574.369999999999,
-  "EarningPercent": 567.254,
-  "EarningAmount": 29741.66,
-  "SubTotal": 10890.65,
-  "TotalPrice": 25930.716,
-  "ExtraField1": "vel",
-  "ExtraField2": "nihil",
-  "ExtraField3": "at",
-  "ExtraField4": "reiciendis",
-  "ExtraField5": "non",
+  "VATInfo": "ea",
+  "VAT": 8900.56,
+  "EarningPercent": 8555.82,
+  "EarningAmount": 3723.192,
+  "SubTotal": 25548.368,
+  "TotalPrice": 19082.926,
+  "ExtraField1": "autem",
+  "ExtraField2": "earum",
+  "ExtraField3": "ut",
+  "ExtraField4": "dolores",
+  "ExtraField5": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 938
     }
   }
 }

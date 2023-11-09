@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 483,
-  "WorkflowId": 803,
+  "WorkflowTriggerId": 824,
+  "WorkflowId": 898,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "VonRueden-Swift",
-      "Description": "Realigned impactful collaboration",
-      "Rank": 816,
+      "Name": "Breitenberg Group",
+      "Description": "Re-contextualized user-facing approach",
+      "Rank": 841,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "VonRueden-Swift",
-      "Description": "Realigned impactful collaboration",
-      "Rank": 816,
+      "Name": "Breitenberg Group",
+      "Description": "Re-contextualized user-facing approach",
+      "Rank": 841,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 608,
-  "WorkflowId": 959,
+  "WorkflowTriggerId": 449,
+  "WorkflowId": 968,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Hudson, Zulauf and Harber",
-      "Description": "Reactive full-range knowledge user",
-      "Rank": 72,
+      "Name": "Gottlieb, Russel and Schroeder",
+      "Description": "Automated asynchronous orchestration",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hudson, Zulauf and Harber",
-      "Description": "Reactive full-range knowledge user",
-      "Rank": 72,
+      "Name": "Gottlieb, Russel and Schroeder",
+      "Description": "Automated asynchronous orchestration",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 449
     }
   }
 }

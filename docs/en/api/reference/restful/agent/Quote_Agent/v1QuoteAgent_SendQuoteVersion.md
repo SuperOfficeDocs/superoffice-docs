@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 589,
-  "ExpiryDate": "2015-09-26T03:24:48.111357+02:00",
-  "FollowupDate": "2012-02-11T03:24:48.111357+01:00",
-  "FollowupText": "quibusdam",
-  "Culture": "corporis"
+  "QuoteVersionId": 73,
+  "ExpiryDate": "2009-03-10T11:06:35.1926981+01:00",
+  "FollowupDate": "2000-07-11T11:06:35.1926981+02:00",
+  "FollowupText": "aperiam",
+  "Culture": "est"
 }
 ```
 
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "ut",
-  "TechExplanation": "eaque",
-  "ErrorCode": "cumque",
+  "UserExplanation": "iusto",
+  "TechExplanation": "error",
+  "ErrorCode": "repellendus",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldType": "System.Int32",
+      "FieldLength": 769
     }
   }
 }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Williamson Inc and Sons",
-  "Tooltip": "reiciendis",
+  "Id": 376,
+  "Name": "West, Ratke and Flatley",
+  "Tooltip": "labore",
   "Deleted": false,
-  "Rank": 596,
+  "Rank": 736,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true
+  "ListType": "quod",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 113,
-  "Name": "O'Keefe Inc and Sons",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 993,
+  "Id": 595,
+  "Name": "Pfannerstill-Adams",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 290,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldLength": 877
     }
   }
 }

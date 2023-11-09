@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 538,
-    "Name": "Bradtke LLC",
-    "CurrencyId": 431,
-    "EnglishName": "Goldner, Ritchie and Altenwerth",
+    "CountryId": 978,
+    "Name": "Mohr, Rolfson and Rolfson",
+    "CurrencyId": 385,
+    "EnglishName": "Lang LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Stand-alone client-driven database",
-    "OrgNrText": "730333",
-    "InterAreaPrefix": "incidunt",
-    "DialInPrefix": "totam",
-    "ZipPrefix": "nobis",
-    "DomainName": "Jerde-Kutch",
-    "AddressLayoutId": 507,
-    "DomesticAddressLayoutId": 364,
-    "ForeignAddressLayoutId": 929,
-    "Rank": 646,
-    "Tooltip": "aut",
+    "ImageDescription": "Object-based object-oriented matrix",
+    "OrgNrText": "960616",
+    "InterAreaPrefix": "eos",
+    "DialInPrefix": "non",
+    "ZipPrefix": "quis",
+    "DomainName": "Lubowitz-Schamberger",
+    "AddressLayoutId": 188,
+    "DomesticAddressLayoutId": 7,
+    "ForeignAddressLayoutId": 636,
+    "Rank": 592,
+    "Tooltip": "aliquid",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 499
       }
     }
   }

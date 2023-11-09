@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 900,
+  "QuoteVersionId": 364,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 565
+  "CountryId": 176
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 2472.726,
-  "Wgs84Longitude": 26855.246,
+  "Wgs84Latitude": 2701.508,
+  "Wgs84Longitude": 24018.976,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kuhic Inc and Sons",
-        "Value": "aliquam",
-        "Tooltip": "dolor",
-        "Label": "laudantium",
-        "ValueLength": 426,
-        "AddressType": "est",
+        "Name": "Lind-Jones",
+        "Value": "maxime",
+        "Tooltip": "non",
+        "Label": "in",
+        "ValueLength": 818,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldLength": 517
           }
         }
       }
     ],
     [
       {
-        "Name": "Bogisich, Roberts and Goyette",
-        "Value": "sit",
-        "Tooltip": "voluptas",
-        "Label": "enim",
-        "ValueLength": 830,
-        "AddressType": "occaecati",
+        "Name": "Jacobs Inc and Sons",
+        "Value": "facere",
+        "Tooltip": "non",
+        "Label": "nisi",
+        "ValueLength": 592,
+        "AddressType": "magnam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldType": "System.String",
+            "FieldLength": 781
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "debitis",
+  "Formatted": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 854
     }
   }
 }

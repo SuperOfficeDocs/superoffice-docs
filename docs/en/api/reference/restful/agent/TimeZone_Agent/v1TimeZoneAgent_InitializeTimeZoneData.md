@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 696,
-    "Name": "Lubowitz, Cremin and Little",
-    "TZLocationCode": "ducimus",
-    "TZLocationCities": "quia",
-    "IsoNumber": 884,
+    "TZLocationID": 621,
+    "Name": "Abbott-Auer",
+    "TZLocationCode": "assumenda",
+    "TZLocationCities": "ea",
+    "IsoNumber": 279,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 713,
-        "StartMonth": 850,
-        "EndDay": 197,
-        "EndMonth": 655,
-        "TZOffset": 41,
+        "StartDay": 265,
+        "StartMonth": 662,
+        "EndDay": 769,
+        "EndMonth": 14,
+        "TZOffset": 382,
         "StartRulePattern": "molestiae",
-        "EndRulePattern": "quaerat"
+        "EndRulePattern": "dolore"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 723,
-        "StartMonth": 436,
-        "EndDay": 188,
-        "EndMonth": 836,
-        "TZOffset": 500,
-        "StartRulePattern": "et",
-        "EndRulePattern": "eos"
+        "StartDay": 380,
+        "StartMonth": 565,
+        "EndDay": 908,
+        "EndMonth": 578,
+        "TZOffset": 485,
+        "StartRulePattern": "fugit",
+        "EndRulePattern": "reiciendis"
       }
     }
   }

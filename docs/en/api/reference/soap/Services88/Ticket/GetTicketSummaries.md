@@ -69,7 +69,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:TicketStatus xsi:type="xsd:int">0</Ticket:TicketStatus>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-     <Ticket:Registered xsi:type="xsd:dateTime">2023-09-19T01:24:27Z</Ticket:Registered>
+     <Ticket:Registered xsi:type="xsd:dateTime">2023-10-31T10:05:59Z</Ticket:Registered>
      <Ticket:IconHint xsi:type="xsd:string"></Ticket:IconHint>
     </Ticket:TicketSummaryItem>
    </Ticket:Response>

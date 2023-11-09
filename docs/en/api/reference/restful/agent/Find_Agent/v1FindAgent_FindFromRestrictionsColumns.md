@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Luettgen LLC",
-      "Operator": "ratione",
+      "Name": "Jast, Predovic and Feil",
+      "Operator": "dolores",
       "Values": [
-        "ea",
-        "dolore"
+        "laboriosam",
+        "aut"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "debitis"
+        "ad",
+        "adipisci"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 925,
+      "InterParenthesis": 745,
       "InterOperator": "And",
-      "UniqueHash": 394
+      "UniqueHash": 614
     }
   ],
-  "ProviderName": "Pouros, Wyman and Sanford",
+  "ProviderName": "Kris-Tremblay",
   "DesiredColumns": [
-    "itaque",
-    "sed"
+    "distinctio",
+    "ad"
   ],
-  "PageSize": 472,
-  "PageNumber": 329
+  "PageSize": 809,
+  "PageNumber": 304
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Dietrich, Jerde and Leuschke",
-      "DisplayTooltip": "harum",
-      "DisplayType": "aut",
-      "CanOrderBy": false,
-      "Name": "Rolfson, Konopelski and Hayes",
-      "CanRestrictBy": true,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Quigley LLC",
-      "IsVisible": true,
-      "ExtraInfo": "iste",
-      "Width": "vel",
-      "IconHint": "dolore",
-      "HeadingIconHint": "nemo"
+      "DisplayName": "Runolfsson LLC",
+      "DisplayTooltip": "quia",
+      "DisplayType": "vel",
+      "CanOrderBy": true,
+      "Name": "Von-Stamm",
+      "CanRestrictBy": false,
+      "RestrictionType": "sint",
+      "RestrictionListName": "Strosin, Corkery and Heaney",
+      "IsVisible": false,
+      "ExtraInfo": "ipsa",
+      "Width": "mollitia",
+      "IconHint": "omnis",
+      "HeadingIconHint": "dolorem"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Eichmann, Parker and Gutmann",
-      "PrimaryKey": 647,
+      "EntityName": "McClure-Goodwin",
+      "PrimaryKey": 1000,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "aut",
-          "LinkHint": "dolore"
+          "DisplayValue": "quaerat",
+          "TooltipHint": "necessitatibus",
+          "LinkHint": "tenetur"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "rerum",
+      "LinkHint": "distinctio",
+      "StyleHint": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 429
         }
       }
     }
   ],
-  "RowCount": 930,
+  "RowCount": 558,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 637
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   }
 }

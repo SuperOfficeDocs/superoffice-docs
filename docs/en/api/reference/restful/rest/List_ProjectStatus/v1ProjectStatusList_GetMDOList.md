@@ -27,7 +27,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=quas
+GET /api/v1/List/ProjectStatus/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Mueller-Cronin",
-    "ToolTip": "Illum adipisci.",
-    "Deleted": true,
-    "Rank": 378,
-    "Type": "aperiam",
+    "Id": 740,
+    "Name": "Senger, Bernier and Walsh",
+    "ToolTip": "Itaque doloribus modi est atque in est est.",
+    "Deleted": false,
+    "Rank": 303,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 702,
-        "Name": "Schneider-Cruickshank",
-        "ToolTip": "Qui distinctio ipsa aut hic praesentium.",
+        "Id": 764,
+        "Name": "Wisozk LLC",
+        "ToolTip": "Est eligendi voluptas in corrupti autem.",
         "Deleted": true,
-        "Rank": 799,
-        "Type": "occaecati",
+        "Rank": 188,
+        "Type": "officiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 231,
-        "ExtraInfo": "sequi",
-        "StyleHint": "sed",
-        "FullName": "Jazmyn Mayert",
+        "IconHint": "ut",
+        "ColorBlock": 57,
+        "ExtraInfo": "quidem",
+        "StyleHint": "amet",
+        "FullName": "Prof. Gerson Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 167
+            "FieldType": "System.Int32",
+            "FieldLength": 981
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 148,
-    "ExtraInfo": "architecto",
-    "StyleHint": "et",
-    "FullName": "Harry Runolfsson I",
+    "IconHint": "rem",
+    "ColorBlock": 634,
+    "ExtraInfo": "non",
+    "StyleHint": "iste",
+    "FullName": "Annetta Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 312
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

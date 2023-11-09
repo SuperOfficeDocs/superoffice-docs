@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285,
-  "Name": "Yundt Group",
-  "Tooltip": "eligendi",
+  "Id": 672,
+  "Name": "Johnson-Nienow",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 932,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 919,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 645
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

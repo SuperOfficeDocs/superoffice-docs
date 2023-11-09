@@ -106,7 +106,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <CRMScript:Value xsi:type="xsd:string"></CRMScript:Value>
      </CRMScript:StringKeyValuePair>
     </CRMScript:Parameters>
-    <CRMScript:Trace xsi:type="xsd:string"></CRMScript:Trace>
+    <CRMScript:TraceRun xsi:type="CRMScript:CRMScriptTraceRun">
+     <CRMScript:StartedAt xsi:type="xsd:dateTime">2023-10-31T10:04:19Z</CRMScript:StartedAt>
+     <CRMScript:EndedAt xsi:type="xsd:dateTime">2023-10-31T10:04:19Z</CRMScript:EndedAt>
+     <CRMScript:ExecutionTime xsi:type="xsd:int">0</CRMScript:ExecutionTime>
+     <CRMScript:UserExecutionTime xsi:type="xsd:int">0</CRMScript:UserExecutionTime>
+     <CRMScript:PeakMemory xsi:type="xsd:int">0</CRMScript:PeakMemory>
+     <CRMScript:NumFrames xsi:type="xsd:int">0</CRMScript:NumFrames>
+     <CRMScript:FileSize xsi:type="xsd:int">0</CRMScript:FileSize>
+     <CRMScript:AssociateId xsi:type="xsd:int">0</CRMScript:AssociateId>
+     <CRMScript:Status xsi:type="xsd:string"></CRMScript:Status>
+     <CRMScript:Frames xsi:type="xsd:string"></CRMScript:Frames>
+    </CRMScript:TraceRun>
     <CRMScript:Eventdata xsi:type="CRMScript:EventData">
      <CRMScript:Type xsi:type="CRMScript:EventHandlerType">Unknown</CRMScript:Type>
      <CRMScript:InputValues xsi:type="CRMScript:StringDictionary">

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 999
+  "ContactId": 466
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(768)116-3293",
-    "PersonCellPhone": "091-627-3364",
-    "PersonPrivatePhone": "667.225.6441 x9678",
-    "PersonFaxNumber": "405746",
-    "PersonPagerNumber": "1200440",
-    "PersonEmail": "timmothy_gulgowski@aufderhar.biz",
-    "Id": 969,
-    "Name": "Swaniawski-Johnston",
-    "Tooltip": "ut",
-    "UniqueId": "beatae",
+    "PersonDirectPhone": "1-295-922-2623 x332",
+    "PersonCellPhone": "363.819.2639",
+    "PersonPrivatePhone": "326.641.8918 x96832",
+    "PersonFaxNumber": "1030656",
+    "PersonPagerNumber": "925146",
+    "PersonEmail": "brent@douglas.info",
+    "Id": 248,
+    "Name": "Wintheiser Inc and Sons",
+    "Tooltip": "voluptas",
+    "UniqueId": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 89
       }
     }
   }

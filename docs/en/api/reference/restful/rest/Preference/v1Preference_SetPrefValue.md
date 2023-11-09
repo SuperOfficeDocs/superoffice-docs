@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quis",
+  "RawValue": "quos",
   "Specification": null,
-  "DisplayValue": "laborum",
-  "DisplayTooltip": "officia",
+  "DisplayValue": "cupiditate",
+  "DisplayTooltip": "provident",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 865,
-  "PrefDescId": 220,
-  "TableName": "Goyette Inc and Sons",
-  "UserPreferenceId": 568
+  "TargetId": 24,
+  "PrefDescId": 214,
+  "TableName": "Douglas-Prohaska",
+  "UserPreferenceId": 399
 }
 ```
 

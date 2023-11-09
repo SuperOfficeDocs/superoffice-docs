@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 140,
-  "AttachmentId": "aut"
+  "DocId": 184,
+  "AttachmentId": "quo"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group intermediate frame",
-  "Filename": "aut",
-  "Size": 366,
-  "Type": "ut",
-  "Encoding": "consequatur",
-  "Id": "omnis",
-  "Disposition": "laudantium",
+  "Description": "Right-sized object-oriented throughput",
+  "Filename": "blanditiis",
+  "Size": 971,
+  "Type": "est",
+  "Encoding": "qui",
+  "Id": "non",
+  "Disposition": "tenetur",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 472
+      "FieldType": "System.Int32",
+      "FieldLength": 114
     }
   }
 }

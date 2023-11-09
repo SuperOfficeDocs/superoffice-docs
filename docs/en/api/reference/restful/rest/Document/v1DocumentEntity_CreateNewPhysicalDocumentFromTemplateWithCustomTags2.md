@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=781
-POST /api/v1/Document/{documentId}/Content?personId=193
-POST /api/v1/Document/{documentId}/Content?appointmentId=592
-POST /api/v1/Document/{documentId}/Content?saleId=303
-POST /api/v1/Document/{documentId}/Content?selectionId=721
-POST /api/v1/Document/{documentId}/Content?projectId=414
-POST /api/v1/Document/{documentId}/Content?uiCulture=provident
+POST /api/v1/Document/{documentId}/Content?contactId=91
+POST /api/v1/Document/{documentId}/Content?personId=661
+POST /api/v1/Document/{documentId}/Content?appointmentId=21
+POST /api/v1/Document/{documentId}/Content?saleId=122
+POST /api/v1/Document/{documentId}/Content?selectionId=116
+POST /api/v1/Document/{documentId}/Content?projectId=230
+POST /api/v1/Document/{documentId}/Content?uiCulture=et
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 139,
+  "DocumentId": 109,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ratione",
-  "Header": "non",
-  "Name": "Rempel-Sauer",
-  "OurRef": "et",
-  "YourRef": "molestias",
-  "CreatedDate": "2020-03-18T03:24:51.599356+01:00",
-  "UpdatedDate": "2010-08-29T03:24:51.599356+02:00",
-  "Description": "Re-engineered context-sensitive approach",
+  "Attention": "aut",
+  "Header": "magni",
+  "Name": "Walter-Considine",
+  "OurRef": "modi",
+  "YourRef": "aut",
+  "CreatedDate": "2010-05-15T11:06:41.8634729+02:00",
+  "UpdatedDate": "2012-11-26T11:06:41.8634729+01:00",
+  "Description": "Diverse eco-centric portal",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-01-21T03:24:51.599356+01:00",
-  "ExternalRef": "consequatur",
+  "Date": "2017-09-04T11:06:41.8634729+02:00",
+  "ExternalRef": "nam",
   "Completed": "Completed",
-  "ActiveLinks": 939,
+  "ActiveLinks": 289,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Roberts Inc and Sons",
-      "Id": 634,
-      "Description": "Cross-platform transitional function",
-      "ExtraInfo": "et",
-      "LinkId": 357,
+      "EntityName": "Koss, Kunze and Vandervort",
+      "Id": 798,
+      "Description": "Team-oriented non-volatile emulation",
+      "ExtraInfo": "tenetur",
+      "LinkId": 218,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldType": "System.Int32",
+          "FieldLength": 151
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 592,
-  "Snum": 683,
+  "SuggestedDocumentId": 896,
+  "Snum": 613,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jerad Aubree Reichel Sr.",
-    "SuperOffice:2": "Domenick Gibson"
+    "SuperOffice:1": "277342029",
+    "SuperOffice:2": "Hazle Ullrich"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "iste",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "2008-10-27T03:24:51.599356+01:00",
-  "PublishTo": "2022-05-27T03:24:51.599356+02:00",
-  "PublishFrom": "2003-06-16T03:24:51.599356+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2018-09-15T11:06:41.8634729+02:00",
+  "PublishTo": "2023-08-04T11:06:41.8634729+02:00",
+  "PublishFrom": "2006-10-01T11:06:41.8634729+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 332,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 559
+          "FieldLength": 879
         }
       }
     },
     {
-      "VisibleId": 332,
+      "VisibleId": 364,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 559
+          "FieldLength": 879
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

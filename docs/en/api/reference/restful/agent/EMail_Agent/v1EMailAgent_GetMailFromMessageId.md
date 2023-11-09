@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromMessageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "laudantium"
+  "MessageId": "in"
 }
 ```
 
@@ -117,114 +117,114 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 142,
-      "ContactName": "Hayes Inc and Sons",
-      "PersonId": 868,
-      "PersonName": "Huels, O'Conner and Friesen",
-      "AssociateId": 403,
-      "Address": "consectetur",
-      "EmailId": 616,
+      "ContactId": 694,
+      "ContactName": "Runolfsdottir, Streich and Rempel",
+      "PersonId": 875,
+      "PersonName": "Mraz Inc and Sons",
+      "AssociateId": 856,
+      "Address": "voluptatem",
+      "EmailId": 544,
       "DuplicatePersonIds": [
-        713,
-        866
+        771,
+        390
       ],
-      "Name": "Bednar, Hodkiewicz and Morissette",
+      "Name": "Lueilwitz-Brown",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 186
+          "FieldType": "System.Int32",
+          "FieldLength": 804
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 490,
-      "ContactName": "Lynch Inc and Sons",
-      "PersonId": 958,
-      "PersonName": "Pouros-Keeling",
-      "AssociateId": 134,
-      "Address": "nihil",
-      "EmailId": 351,
+      "ContactId": 614,
+      "ContactName": "Robel Group",
+      "PersonId": 729,
+      "PersonName": "Brown LLC",
+      "AssociateId": 785,
+      "Address": "voluptas",
+      "EmailId": 47,
       "DuplicatePersonIds": [
-        933,
-        487
+        766,
+        114
       ],
-      "Name": "McCullough, Funk and VonRueden",
+      "Name": "Lueilwitz, Klein and Sporer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 960
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 658,
-      "ContactName": "Parisian LLC",
-      "PersonId": 511,
-      "PersonName": "Conn Group",
-      "AssociateId": 128,
-      "Address": "exercitationem",
-      "EmailId": 471,
+      "ContactId": 826,
+      "ContactName": "Wolf LLC",
+      "PersonId": 568,
+      "PersonName": "McCullough-Hansen",
+      "AssociateId": 312,
+      "Address": "aut",
+      "EmailId": 432,
       "DuplicatePersonIds": [
-        27,
-        299
+        608,
+        966
       ],
-      "Name": "Grady-Schmitt",
+      "Name": "Bosco-Pfannerstill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 744
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "et",
+  "Subject": "sint",
+  "HTMLBody": "voluptas",
   "From": null,
-  "Sent": "2018-04-20T03:24:47.705153+02:00",
-  "Size": 941,
+  "Sent": "1999-02-18T11:06:34.473931+01:00",
+  "Size": 209,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "similique",
-  "PlainBody": "est",
-  "IsSent": true,
+  "MessageID": "fugit",
+  "PlainBody": "magnam",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 26,
+  "ServerId": 545,
   "Attachments": [
     {
-      "Description": "Future-proofed bifurcated synergy",
-      "Filename": "id",
-      "Size": 336,
-      "Type": "sit",
-      "Encoding": "officia",
-      "Id": "distinctio",
-      "Disposition": "est",
+      "Description": "Down-sized bandwidth-monitored orchestration",
+      "Filename": "libero",
+      "Size": 892,
+      "Type": "est",
+      "Encoding": "quisquam",
+      "Id": "similique",
+      "Disposition": "quisquam",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 699
+          "FieldType": "System.Int32",
+          "FieldLength": 596
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kuvalis Inc and Sons",
+      "Name": "Hand-Orn",
       "Values": [
-        "dolorum",
+        "modi",
         "et"
       ],
       "TableRight": null,
@@ -232,14 +232,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 334
         }
       }
     },
     {
-      "Name": "Kuvalis Inc and Sons",
+      "Name": "Hand-Orn",
       "Values": [
-        "dolorum",
+        "modi",
         "et"
       ],
       "TableRight": null,
@@ -247,17 +247,17 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 334
         }
       }
     }
   ],
-  "FolderName": "Zieme-Hegmann",
-  "EmailItemId": 103,
-  "AccountId": 560,
-  "ReceivedAt": "2005-01-18T03:24:47.705153+01:00",
+  "FolderName": "McLaughlin LLC",
+  "EmailItemId": 104,
+  "AccountId": 180,
+  "ReceivedAt": "2017-12-29T11:06:34.473931+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-10-07T03:24:47.705153+02:00",
+  "RepliedAt": "2012-09-20T11:06:34.473931+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 817
     }
   }
 }

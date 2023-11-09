@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Shanahan-Berge",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 296,
-    "Rank": 487
+    "Id": 212,
+    "Name": "Harvey Group",
+    "Tooltip": "occaecati",
+    "Deleted": false,
+    "UdListDefinitionId": 534,
+    "Rank": 657
   },
   {
-    "Id": 634,
-    "Name": "Shanahan-Berge",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 296,
-    "Rank": 487
+    "Id": 212,
+    "Name": "Harvey Group",
+    "Tooltip": "occaecati",
+    "Deleted": false,
+    "UdListDefinitionId": 534,
+    "Rank": 657
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Upton Group",
-    "Tooltip": "omnis",
+    "Id": 980,
+    "Name": "Turcotte LLC",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 200,
-    "Rank": 916,
+    "UdListDefinitionId": 925,
+    "Rank": 549,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 899
       }
     }
   }

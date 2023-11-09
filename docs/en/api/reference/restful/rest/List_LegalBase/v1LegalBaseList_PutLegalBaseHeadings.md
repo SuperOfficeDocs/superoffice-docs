@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 823,
-    "Name": "Schimmel, Pollich and Torphy",
-    "Tooltip": "sed",
+    "HeadingId": 143,
+    "Name": "Aufderhar, Runolfsson and Shanahan",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 305,
-    "UdListDefinitionId": 600
+    "Rank": 274,
+    "UdListDefinitionId": 390
   },
   {
-    "HeadingId": 823,
-    "Name": "Schimmel, Pollich and Torphy",
-    "Tooltip": "sed",
+    "HeadingId": 143,
+    "Name": "Aufderhar, Runolfsson and Shanahan",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 305,
-    "UdListDefinitionId": 600
+    "Rank": 274,
+    "UdListDefinitionId": 390
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 684,
-    "Name": "Dietrich, Jast and Ritchie",
-    "Tooltip": "tenetur",
-    "Deleted": true,
-    "Rank": 557,
-    "UdListDefinitionId": 763,
+    "HeadingId": 863,
+    "Name": "Balistreri Inc and Sons",
+    "Tooltip": "mollitia",
+    "Deleted": false,
+    "Rank": 749,
+    "UdListDefinitionId": 840,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 673
       }
     }
   }

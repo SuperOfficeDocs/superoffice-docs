@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 95,
-  "ERPProductKey": "facilis",
-  "ERPPriceListKey": "sed",
-  "Name": "Schultz, Wilderman and Treutel",
-  "Description": "Exclusive contextually-based policy",
-  "Code": "doloremque",
-  "PriceUnit": "ratione",
-  "QuantityUnit": "enim",
+  "ProductId": 384,
+  "ERPProductKey": "temporibus",
+  "ERPPriceListKey": "minima",
+  "Name": "Kozey Group",
+  "Description": "Sharable eco-centric protocol",
+  "Code": "sequi",
+  "PriceUnit": "pariatur",
+  "QuantityUnit": "sint",
   "IsSubscription": true,
-  "SubscriptionUnit": "nam",
-  "DefaultSubscriptionQuantity": 15663.732,
-  "ItemNumber": "857863",
+  "SubscriptionUnit": "non",
+  "DefaultSubscriptionQuantity": 22925.21,
+  "ItemNumber": "227331",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "qui",
-  "VAT": 4663.392,
-  "VATInfo": "voluptas",
-  "UnitCost": 15942.658,
-  "UnitMinimumPrice": 29816.876,
-  "UnitListPrice": 8305.1,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "facilis",
-  "Rights": "tempore",
-  "Rule": "sunt",
+  "ProductFamilyKey": "repellat",
+  "ProductTypeKey": "enim",
+  "VAT": 23360.836,
+  "VATInfo": "error",
+  "UnitCost": 11790.108,
+  "UnitMinimumPrice": 7675.166,
+  "UnitListPrice": 2356.768,
+  "InAssortment": false,
+  "Supplier": "beatae",
+  "SupplierCode": "voluptates",
+  "Rights": "dolorem",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Kautzer-Feil",
-      "Value": "et",
+      "Name": "Hettinger, Lehner and Cremin",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldType": "System.String",
+          "FieldLength": 378
         }
       }
     },
     {
-      "Name": "Kautzer-Feil",
-      "Value": "et",
+      "Name": "Hettinger, Lehner and Cremin",
+      "Value": "adipisci",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 13
+          "FieldType": "System.String",
+          "FieldLength": 378
         }
       }
     }
   ],
-  "RawExtraInfo": "quae",
-  "ExtraField1": "ut",
-  "ExtraField2": "perspiciatis",
-  "ExtraField3": "consequatur",
-  "ExtraField4": "commodi",
-  "ExtraField5": "facilis",
-  "InStock": 1378.96,
+  "RawExtraInfo": "saepe",
+  "ExtraField1": "alias",
+  "ExtraField2": "ab",
+  "ExtraField3": "non",
+  "ExtraField4": "ut",
+  "ExtraField5": "ut",
+  "InStock": 14256.565999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 813
     }
   }
 }

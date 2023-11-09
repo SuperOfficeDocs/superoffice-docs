@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 437,
-    "Name": "Wunsch LLC",
-    "ToolTip": "Dolores eaque asperiores laboriosam officiis est.",
+    "Id": 969,
+    "Name": "Rau-Watsica",
+    "ToolTip": "Dignissimos earum in consequuntur molestiae.",
     "Deleted": false,
-    "Rank": 425,
-    "Type": "aliquam",
-    "ColorBlock": 740,
-    "IconHint": "aspernatur",
+    "Rank": 15,
+    "Type": "saepe",
+    "ColorBlock": 582,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "1999-12-11T03:24:52.1463474+01:00",
+    "LastChanged": "2018-11-03T11:06:42.6628226+01:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Hackett-Von",
-        "ToolTip": "Error pariatur.",
-        "Deleted": true,
-        "Rank": 507,
-        "Type": "amet",
-        "ColorBlock": 587,
-        "IconHint": "et",
+        "Id": 926,
+        "Name": "Bruen-Ryan",
+        "ToolTip": "Molestiae deserunt corporis eveniet aut.",
+        "Deleted": false,
+        "Rank": 114,
+        "Type": "consequuntur",
+        "ColorBlock": 108,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2021-09-03T03:24:52.1463474+02:00",
+        "LastChanged": "1999-09-05T11:06:42.6628226+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "tempore",
-        "Hidden": false,
-        "FullName": "Dr. Vida Magdalena Lubowitz III",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "magnam",
+        "Hidden": true,
+        "FullName": "Jaron Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 620
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "ex",
+    "ExtraInfo": "modi",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Sigrid Hyatt",
+    "FullName": "Madonna Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 200
       }
     }
   }

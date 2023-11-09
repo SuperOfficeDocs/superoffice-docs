@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cummerata Group",
-    "DisplayName": "Gleichner, Kuhic and Marvin",
-    "DisplayTooltip": "voluptatem",
-    "IsActive": true
+    "Name": "Lueilwitz, Walter and Skiles",
+    "DisplayName": "Auer LLC",
+    "DisplayTooltip": "ea",
+    "IsActive": false
   },
   {
-    "Name": "Cummerata Group",
-    "DisplayName": "Gleichner, Kuhic and Marvin",
-    "DisplayTooltip": "voluptatem",
-    "IsActive": true
+    "Name": "Lueilwitz, Walter and Skiles",
+    "DisplayName": "Auer LLC",
+    "DisplayTooltip": "ea",
+    "IsActive": false
   }
 ]
 ```

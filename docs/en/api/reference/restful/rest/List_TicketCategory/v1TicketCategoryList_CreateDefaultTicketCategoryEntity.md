@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 138,
-  "ParentId": 152,
-  "Name": "Hettinger, McDermott and Robel",
-  "Fullname": "asperiores",
-  "CategoryMaster": 568,
+  "TicketCategoryId": 157,
+  "ParentId": 779,
+  "Name": "Goldner, Frami and Mueller",
+  "Fullname": "eligendi",
+  "CategoryMaster": 739,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Romaguera-Eichmann",
+  "ExternalName": "Cronin Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 208,
-  "ReplyTemplate": 181,
-  "NotificationEmail": "melba.abshire@herzog.uk",
+  "AssignmentLag": 632,
+  "ReplyTemplate": 479,
+  "NotificationEmail": "amalia@ernser.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 251,
+  "EffectiveReplyTemplateId": 588,
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "dolor"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

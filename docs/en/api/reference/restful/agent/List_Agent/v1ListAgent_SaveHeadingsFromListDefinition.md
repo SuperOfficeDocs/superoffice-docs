@@ -83,23 +83,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 115,
+  "Id": 552,
   "Entities": [
     {
-      "HeadingId": 354,
-      "Name": "Yundt, Farrell and Simonis",
-      "Tooltip": "dolorum",
-      "Deleted": true,
-      "Rank": 148,
-      "UdListDefinitionId": 23
+      "HeadingId": 489,
+      "Name": "Brown Group",
+      "Tooltip": "et",
+      "Deleted": false,
+      "Rank": 646,
+      "UdListDefinitionId": 56
     },
     {
-      "HeadingId": 354,
-      "Name": "Yundt, Farrell and Simonis",
-      "Tooltip": "dolorum",
-      "Deleted": true,
-      "Rank": 148,
-      "UdListDefinitionId": 23
+      "HeadingId": 489,
+      "Name": "Brown Group",
+      "Tooltip": "et",
+      "Deleted": false,
+      "Rank": 646,
+      "UdListDefinitionId": 56
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 555,
-    "Name": "Ullrich-Streich",
-    "Tooltip": "nam",
-    "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 187,
+    "HeadingId": 788,
+    "Name": "Kulas-Lesch",
+    "Tooltip": "dolor",
+    "Deleted": false,
+    "Rank": 428,
+    "UdListDefinitionId": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldType": "System.Int32",
+        "FieldLength": 305
       }
     }
   }

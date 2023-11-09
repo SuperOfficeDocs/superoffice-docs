@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=291
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=467
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 259,
-  "CreatedAt": "1997-04-08T03:24:48.4872676+02:00",
+  "TicketMessageId": 581,
+  "CreatedAt": "2009-07-08T11:06:35.6002493+02:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "cupiditate",
-  "PersonId": 288,
-  "PersonFullName": "Jenifer Johnathan Kiehn Jr.",
-  "ContactId": 117,
-  "ContactName": "Schuppe Group",
-  "ContactDepartment": "disintermediate value-added systems",
-  "NumAttachments": 452,
-  "EmailHeader": "dangelo_ward@ratke.biz",
+  "Author": "minus",
+  "PersonId": 623,
+  "PersonFullName": "Mr. Jana Sawayn",
+  "ContactId": 561,
+  "ContactName": "Carter-Grimes",
+  "ContactDepartment": "",
+  "NumAttachments": 971,
+  "EmailHeader": "alexie@bradtkelesch.com",
   "MessageHeaders": [
     {
-      "Id": 64,
-      "Name": "Ankunding Inc and Sons",
-      "Value": "blanditiis",
+      "Id": 906,
+      "Name": "Klein LLC",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldLength": 739
         }
       }
     }
   ],
-  "Language": "quam",
-  "Sentiment": 94,
-  "SentimentConfidence": 377,
-  "CreatedBy": 765,
-  "ChangedAt": "1996-07-13T03:24:48.4872676+02:00",
+  "Language": "autem",
+  "Sentiment": 780,
+  "SentimentConfidence": 62,
+  "CreatedBy": 683,
+  "ChangedAt": "2001-01-31T11:06:35.6002493+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

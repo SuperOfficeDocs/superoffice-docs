@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    407,
-    322
+    87,
+    404
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Block Group",
-    "ToolTip": "Consectetur sunt sunt blanditiis sapiente magni.",
-    "Deleted": true,
-    "Rank": 292,
-    "Type": "laborum",
+    "Id": 941,
+    "Name": "Pouros, Kris and Lebsack",
+    "ToolTip": "Fugit qui.",
+    "Deleted": false,
+    "Rank": 14,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Hudson-Crooks",
-        "ToolTip": "Dolorum alias sint distinctio.",
+        "Id": 312,
+        "Name": "Windler, Raynor and Balistreri",
+        "ToolTip": "Rerum dignissimos adipisci eius qui ut.",
         "Deleted": false,
-        "Rank": 905,
-        "Type": "nesciunt",
+        "Rank": 408,
+        "Type": "suscipit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 219,
-        "ExtraInfo": "at",
-        "StyleHint": "voluptatibus",
-        "FullName": "Amelie Wilkinson",
+        "IconHint": "doloribus",
+        "ColorBlock": 117,
+        "ExtraInfo": "rem",
+        "StyleHint": "nam",
+        "FullName": "Ms. Magdalen Francisca Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 321
+            "FieldType": "System.String",
+            "FieldLength": 377
           }
         }
       }
     ],
-    "IconHint": "illo",
-    "ColorBlock": 849,
-    "ExtraInfo": "quia",
-    "StyleHint": "dolore",
-    "FullName": "Ms. Dino Reynolds",
+    "IconHint": "et",
+    "ColorBlock": 76,
+    "ExtraInfo": "aut",
+    "StyleHint": "tenetur",
+    "FullName": "Mr. Americo Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 742
       }
     }
   }

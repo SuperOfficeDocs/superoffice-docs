@@ -58,7 +58,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Purdy Group",
-    "DisplayName": "Schowalter Inc and Sons",
-    "DisplayTooltip": "alias",
+    "Name": "Wehner, Gaylord and Flatley",
+    "DisplayName": "Emmerich Inc and Sons",
+    "DisplayTooltip": "corporis",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 874
       }
     }
   },
   {
-    "Name": "Purdy Group",
-    "DisplayName": "Schowalter Inc and Sons",
-    "DisplayTooltip": "alias",
+    "Name": "Wehner, Gaylord and Flatley",
+    "DisplayName": "Emmerich Inc and Sons",
+    "DisplayTooltip": "corporis",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 874
       }
     }
   }

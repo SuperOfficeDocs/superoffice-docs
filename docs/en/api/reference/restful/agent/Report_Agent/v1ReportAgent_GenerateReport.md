@@ -77,22 +77,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 21,
-  "LabelLayoutId": 551,
-  "Filename": "nesciunt",
-  "Language": "quis",
-  "FileType": "dolor",
+  "ReportId": 802,
+  "LabelLayoutId": 328,
+  "Filename": "culpa",
+  "Language": "delectus",
+  "FileType": "veniam",
   "Restrictions": [
     {
-      "Name": "Kulas Group",
-      "Operator": "culpa",
+      "Name": "Cole-Bogan",
+      "Operator": "sit",
       "Values": [
-        "aliquid",
-        "sed"
+        "deleniti",
+        "magnam"
       ],
       "DisplayValues": [
-        "et",
-        "doloribus"
+        "minima",
+        "alias"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 643,
+      "InterParenthesis": 152,
       "InterOperator": "And",
-      "UniqueHash": 390
+      "UniqueHash": 167
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"laudantium"
+"nihil"
 ```

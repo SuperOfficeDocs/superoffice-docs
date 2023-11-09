@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 601,
-  "Name": "O'Reilly, Quitzon and Predovic",
-  "Tooltip": "est",
-  "Rank": 206,
+  "ProjTypeId": 771,
+  "Name": "Dickinson, Harvey and Barton",
+  "Tooltip": "asperiores",
+  "Rank": 684,
   "DurationUnit": "Century",
-  "ProjectDuration": 989,
-  "Deleted": true,
-  "HasGuide": false,
+  "ProjectDuration": 396,
+  "Deleted": false,
+  "HasGuide": true,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 646,
-      "Name": "Walter Group",
-      "ToolTip": "Ut recusandae.",
-      "Deleted": true,
-      "Rank": 503,
-      "Type": "nesciunt",
-      "ColorBlock": 720,
-      "IconHint": "dolor",
+      "Id": 113,
+      "Name": "Stehr Inc and Sons",
+      "ToolTip": "Enim consectetur unde non porro molestiae blanditiis.",
+      "Deleted": false,
+      "Rank": 810,
+      "Type": "sint",
+      "ColorBlock": 15,
+      "IconHint": "maxime",
       "Selected": false,
-      "LastChanged": "2005-09-21T03:24:47.908255+02:00",
+      "LastChanged": "2022-03-03T11:06:34.7551834+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "omnis",
+      "ExtraInfo": "magni",
+      "StyleHint": "quia",
       "Hidden": false,
-      "FullName": "Melvin Germaine Hermann Sr.",
+      "FullName": "Queenie Murphy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 756
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 186
     }
   }
 }

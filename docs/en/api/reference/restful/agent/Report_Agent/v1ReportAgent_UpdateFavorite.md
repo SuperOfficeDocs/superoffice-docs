@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 466,
+  "ReportId": 594,
   "ReportCategory": "All",
-  "Description": "Configurable zero defect productivity",
+  "Description": "Balanced background instruction set",
   "ReportLayout": "CalendarMonth",
-  "Name": "Reichel-Wuckert",
-  "AssociateId": 564,
-  "TemplateId": 126,
-  "Published": false,
+  "Name": "Brakus, Lindgren and Kreiger",
+  "AssociateId": 879,
+  "TemplateId": 697,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 830
     }
   }
 }

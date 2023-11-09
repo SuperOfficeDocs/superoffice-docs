@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=57
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=14
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 541,
-  "ContactId": 459,
-  "ProjectId": 917,
-  "ContactName": "Feil-Shanahan",
+  "ProjectmemberId": 234,
+  "ContactId": 669,
+  "ProjectId": 61,
+  "ContactName": "Brekke Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Block Inc and Sons",
-  "EmailId": 563,
-  "EmailAddress": "darrion_crist@stroman.ca",
-  "CountryId": 899,
-  "Firstname": "Macey",
-  "MiddleName": "Jaskolski, Parker and Jacobson",
-  "Lastname": "Mertz",
-  "PersonId": 946,
-  "Mrmrs": "eaque",
-  "ProjectMemberTypeName": "Carroll, Daniel and Kulas",
-  "Phone": "1-262-871-9848 x058",
-  "PhoneId": 517,
-  "ProjectMemberTypeId": 456,
-  "EmailAddressName": "valentina.gusikowski@walkerbailey.co.uk",
-  "Comment": "placeat",
-  "FullName": "Abigail Eichmann",
+  "ProjectName": "Berge, Balistreri and Thiel",
+  "EmailId": 480,
+  "EmailAddress": "anya_muller@crooks.co.uk",
+  "CountryId": 880,
+  "Firstname": "Hazel",
+  "MiddleName": "Dooley-Leuschke",
+  "Lastname": "Dicki",
+  "PersonId": 549,
+  "Mrmrs": "consequatur",
+  "ProjectMemberTypeName": "Sporer LLC",
+  "Phone": "1-215-238-9295 x4537",
+  "PhoneId": 98,
+  "ProjectMemberTypeId": 265,
+  "EmailAddressName": "alex.roob@beer.biz",
+  "Comment": "non",
+  "FullName": "Ms. Jaclyn Alvis Willms II",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

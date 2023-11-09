@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 183,
-  "Name": "Nikolaus-Ryan",
-  "Tooltip": "iste",
-  "Rank": 792,
-  "Rate": 13140.862,
-  "Units": 6396.494,
+  "CurrencyId": 136,
+  "Name": "Cartwright-Schaefer",
+  "Tooltip": "veniam",
+  "Rank": 27,
+  "Rate": 17995.428,
+  "Units": 9423.938,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 444,
-  "Name": "Muller-Gleason",
-  "Tooltip": "minus",
-  "Rank": 790,
-  "Rate": 19183.214,
-  "Units": 27720.23,
-  "Deleted": false,
+  "CurrencyId": 143,
+  "Name": "Shields-Turcotte",
+  "Tooltip": "corrupti",
+  "Rank": 665,
+  "Rate": 23702.442,
+  "Units": 27460.108,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 989
     }
   }
 }

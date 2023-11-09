@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 625,
-    "ParentId": 794,
-    "Name": "Lynch LLC",
-    "Fullname": "iste",
-    "CategoryMaster": 722,
+    "TicketCategoryId": 478,
+    "ParentId": 336,
+    "Name": "Jerde-Satterfield",
+    "Fullname": "ut",
+    "CategoryMaster": 781,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Mills, Funk and Blick",
+    "ExternalName": "Mertz, McKenzie and Senger",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 775,
-    "ReplyTemplate": 137,
-    "NotificationEmail": "jabari.hauck@larkincrooks.name",
+    "AssignmentLag": 691,
+    "ReplyTemplate": 241,
+    "NotificationEmail": "claudie.wyman@mccullougholson.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 940,
+    "EffectiveReplyTemplateId": 111,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "qui"
+      "ExtraFields1": "harum",
+      "ExtraFields2": "ab"
     },
     "CustomFields": {
-      "CustomFields1": "voluptatem",
-      "CustomFields2": "sed"
+      "CustomFields1": "beatae",
+      "CustomFields2": "vel"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   }

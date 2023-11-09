@@ -28,7 +28,7 @@ Gets a UserGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserGroup?userGroupId=608
+POST /api/v1/Agents/User/GetUserGroup?userGroupId=641
 POST /api/v1/Agents/User/GetUserGroup?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/User/GetUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,17 +83,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "id",
-  "Tooltip": "voluptates",
-  "Id": 412,
-  "Rank": 287,
+  "Value": "qui",
+  "Tooltip": "odit",
+  "Id": 202,
+  "Rank": 230,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldLength": 953
     }
   }
 }

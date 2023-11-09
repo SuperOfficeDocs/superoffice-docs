@@ -85,10 +85,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Orn Inc and Sons",
+  "ConnectorName": "Kerluke-Waelchi",
   "ConnectionData": {
-    "ConnectionData1": "provident",
-    "ConnectionData2": "suscipit"
+    "ConnectionData1": "qui",
+    "ConnectionData2": "consectetur"
   }
 }
 ```
@@ -101,17 +101,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "odio",
-  "TechExplanation": "autem",
-  "ErrorCode": "sint",
+  "UserExplanation": "voluptatem",
+  "TechExplanation": "repellat",
+  "ErrorCode": "eum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

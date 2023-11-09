@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Morissette, Smitham and Carroll",
-    "Description": "Cloned homogeneous extranet",
+    "Name": "Goyette, Turner and Bogisich",
+    "Description": "Progressive object-oriented solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 423,
-        "Tooltip": "officia",
-        "CanAssign": false,
-        "Free": 421,
-        "InUse": 103,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 662,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 628,
+        "InUse": 457,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 835,
-        "Name": "Weissnat, Littel and Adams",
-        "Description": "Optimized 24/7 attitude",
-        "PrerequisiteModuleName": "Bechtelar-Spinka",
-        "SortOrder": 781,
-        "ExtraFlags": 423,
+        "ModuleLicenseId": 826,
+        "Name": "Buckridge, Hilll and Rogahn",
+        "Description": "Object-based human-resource benchmark",
+        "PrerequisiteModuleName": "O'Conner Inc and Sons",
+        "SortOrder": 138,
+        "ExtraFlags": 552,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 609
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "laboriosam",
-        "CanAssign": false,
-        "Free": 35,
-        "InUse": 232,
-        "IsHidden": false,
+        "Total": 572,
+        "Tooltip": "debitis",
+        "CanAssign": true,
+        "Free": 779,
+        "InUse": 531,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 357,
-        "Name": "Rosenbaum-Wisoky",
-        "Description": "Advanced bandwidth-monitored core",
-        "PrerequisiteModuleName": "Bernhard LLC",
-        "SortOrder": 34,
-        "ExtraFlags": 840,
+        "ModuleLicenseId": 193,
+        "Name": "Bauch, Hessel and Berge",
+        "Description": "Networked neutral attitude",
+        "PrerequisiteModuleName": "Gleason, Lubowitz and Kuphal",
+        "SortOrder": 978,
+        "ExtraFlags": 927,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldLength": 515
           }
         }
       }
@@ -131,36 +131,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   },
   {
-    "Name": "Morissette, Smitham and Carroll",
-    "Description": "Cloned homogeneous extranet",
+    "Name": "Goyette, Turner and Bogisich",
+    "Description": "Progressive object-oriented solution",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 423,
-        "Tooltip": "officia",
-        "CanAssign": false,
-        "Free": 421,
-        "InUse": 103,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 662,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 628,
+        "InUse": 457,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 835,
-        "Name": "Weissnat, Littel and Adams",
-        "Description": "Optimized 24/7 attitude",
-        "PrerequisiteModuleName": "Bechtelar-Spinka",
-        "SortOrder": 781,
-        "ExtraFlags": 423,
+        "ModuleLicenseId": 826,
+        "Name": "Buckridge, Hilll and Rogahn",
+        "Description": "Object-based human-resource benchmark",
+        "PrerequisiteModuleName": "O'Conner Inc and Sons",
+        "SortOrder": 138,
+        "ExtraFlags": 552,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 609
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 250,
-        "Tooltip": "laboriosam",
-        "CanAssign": false,
-        "Free": 35,
-        "InUse": 232,
-        "IsHidden": false,
+        "Total": 572,
+        "Tooltip": "debitis",
+        "CanAssign": true,
+        "Free": 779,
+        "InUse": 531,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 357,
-        "Name": "Rosenbaum-Wisoky",
-        "Description": "Advanced bandwidth-monitored core",
-        "PrerequisiteModuleName": "Bernhard LLC",
-        "SortOrder": 34,
-        "ExtraFlags": 840,
+        "ModuleLicenseId": 193,
+        "Name": "Bauch, Hessel and Berge",
+        "Description": "Networked neutral attitude",
+        "PrerequisiteModuleName": "Gleason, Lubowitz and Kuphal",
+        "SortOrder": 978,
+        "ExtraFlags": 927,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldLength": 515
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 651
+        "FieldType": "System.Int32",
+        "FieldLength": 735
       }
     }
   }

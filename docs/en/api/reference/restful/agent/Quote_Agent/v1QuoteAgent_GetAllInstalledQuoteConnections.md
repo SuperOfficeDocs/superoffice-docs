@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 544,
-    "ERPName": "Kessler Group",
-    "DisplayName": "Jones, Welch and Littel",
-    "DisplayDescription": "De-engineered regional conglomeration",
-    "Rank": 995,
-    "ConnectorName": "Koelpin, Klocko and Kris",
-    "ErpConnectionId": 235,
-    "ExtraData": "labore",
-    "IsAvailable": false,
+    "QuoteConnectionId": 989,
+    "ERPName": "Gerlach Inc and Sons",
+    "DisplayName": "Lesch-Schumm",
+    "DisplayDescription": "User-centric impactful framework",
+    "Rank": 857,
+    "ConnectorName": "Botsford-Crona",
+    "ErpConnectionId": 289,
+    "ExtraData": "amet",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 6,
-        "ERPPriceListKey": "accusamus",
-        "QuoteConnectionId": 228,
-        "Name": "Krajcik-Ernser",
-        "Description": "Implemented intangible budgetary management",
-        "Currency": "enim",
-        "CurrencyName": "Ernser-Connelly",
-        "ValidFrom": "2020-02-28T03:24:48.1426062+01:00",
-        "ValidTo": "2010-08-08T03:24:48.1426062+02:00",
-        "IsActive": false,
+        "PriceListId": 542,
+        "ERPPriceListKey": "incidunt",
+        "QuoteConnectionId": 124,
+        "Name": "Greenholt LLC",
+        "Description": "Triple-buffered foreground throughput",
+        "Currency": "mollitia",
+        "CurrencyName": "Sporer-Berge",
+        "ValidFrom": "2010-12-11T11:06:35.2239506+01:00",
+        "ValidTo": "1998-04-05T11:06:35.2239506+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldType": "System.Int32",
+            "FieldLength": 139
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": true,
+    "AllAccess": false,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      679,
-      352
+      948,
+      981
     ],
     "AssociateAccessIds": [
-      264,
-      636
+      896,
+      251
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 815
       }
     }
   }

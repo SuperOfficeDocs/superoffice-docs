@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 670
+  "UserGroupId": 864
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 108,
+    "TargetAssignmentInfoId": 343,
     "Values": [
-      63,
-      539
+      207,
+      120
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 727,
-    "DimensionListItemDisplayName": "Welch, Kling and Yost",
+    "DimensionListItem": 194,
+    "DimensionListItemDisplayName": "Friesen, Aufderhar and Oberbrunner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 425
       }
     }
   }

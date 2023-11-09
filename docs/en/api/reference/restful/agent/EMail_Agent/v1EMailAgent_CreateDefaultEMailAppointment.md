@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "quasi",
-    "numquam"
+    "soluta",
+    "assumenda"
   ],
-  "Comment": "et",
-  "Sequence": 58,
-  "DtStart": "2014-02-21T03:24:47.7207759+01:00",
-  "DtEnd": "2008-04-12T03:24:47.7207759+02:00",
+  "Comment": "vel",
+  "Sequence": 459,
+  "DtStart": "2003-02-04T11:06:34.4895565+01:00",
+  "DtEnd": "1996-08-13T11:06:34.4895565+02:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldType": "System.String",
+      "FieldLength": 369
     }
   }
 }

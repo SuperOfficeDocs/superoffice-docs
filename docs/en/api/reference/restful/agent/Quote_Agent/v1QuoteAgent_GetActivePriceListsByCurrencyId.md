@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 756,
-  "CurrencyId": 702
+  "QuoteConnectionId": 982,
+  "CurrencyId": 426
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 197,
-    "ERPPriceListKey": "corporis",
-    "QuoteConnectionId": 134,
-    "Name": "Muller-Waters",
-    "Description": "Innovative intangible attitude",
-    "Currency": "magni",
-    "CurrencyName": "Yost LLC",
-    "ValidFrom": "2012-07-30T03:24:48.1426062+02:00",
-    "ValidTo": "1998-08-17T03:24:48.1426062+02:00",
-    "IsActive": true,
+    "PriceListId": 511,
+    "ERPPriceListKey": "est",
+    "QuoteConnectionId": 193,
+    "Name": "Fritsch Inc and Sons",
+    "Description": "Centralized context-sensitive intranet",
+    "Currency": "delectus",
+    "CurrencyName": "Smith Inc and Sons",
+    "ValidFrom": "2005-08-27T11:06:35.2239506+02:00",
+    "ValidTo": "2012-08-01T11:06:35.2239506+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 371
+        "FieldLength": 190
       }
     }
   }

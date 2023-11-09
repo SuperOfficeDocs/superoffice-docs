@@ -702,7 +702,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentStaticSelection?$select=visibleFor,person/birthdate,person/correspondingAssociate/firstName,project/completed,project/projectAssociate/isActiveText
+GET /api/v1/archive/AppointmentStaticSelection?$select=contact/contactNoMail,contact/NumberOfTickets,person/firstName,person/personExtra/y_rental/x_contact,project/projectUrl/URLAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 274
+  "PersonId": 947
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 178,
-  "InstanceLayout": "expedita",
-  "InstanceName": "Senger Inc and Sons",
-  "CreatedDate": "1998-04-20T03:24:47.2520803+02:00",
-  "UpdatedDate": "2010-05-31T03:24:47.2520803+02:00",
+  "AudienceLayoutId": 79,
+  "InstanceLayout": "aspernatur",
+  "InstanceName": "Osinski-Reilly",
+  "CreatedDate": "2005-05-26T11:06:33.7816525+02:00",
+  "UpdatedDate": "1999-06-16T11:06:33.7816525+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldType": "System.String",
+      "FieldLength": 270
     }
   }
 }

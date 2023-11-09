@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Huel, Oberbrunner and Sipes"
+  "FunctionalRightName": "Adams-Mann"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Rutherford-Ledner",
-    "ToolTip": "Qui unde tempore commodi maxime est beatae.",
-    "Deleted": false,
-    "Rank": 57,
-    "Type": "ea",
+    "Id": 267,
+    "Name": "Marquardt, Ullrich and Grady",
+    "ToolTip": "Porro blanditiis quo sed ex eum.",
+    "Deleted": true,
+    "Rank": 377,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Hane-Kessler",
-        "ToolTip": "Aspernatur non deleniti at facere.",
+        "Id": 4,
+        "Name": "Wiegand LLC",
+        "ToolTip": "Sequi repudiandae ad tempora ut rerum enim.",
         "Deleted": false,
-        "Rank": 368,
-        "Type": "ut",
+        "Rank": 382,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 263,
-        "ExtraInfo": "ut",
-        "StyleHint": "reiciendis",
-        "FullName": "Aniyah Trantow",
+        "IconHint": "tempora",
+        "ColorBlock": 937,
+        "ExtraInfo": "natus",
+        "StyleHint": "non",
+        "FullName": "Miss Delores Rodger Stark Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 762
+            "FieldType": "System.String",
+            "FieldLength": 724
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 836,
-    "ExtraInfo": "eum",
-    "StyleHint": "fugiat",
-    "FullName": "Neva Kirlin",
+    "IconHint": "in",
+    "ColorBlock": 671,
+    "ExtraInfo": "repellat",
+    "StyleHint": "vitae",
+    "FullName": "Candice Rau",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 746
+        "FieldLength": 218
       }
     }
   }

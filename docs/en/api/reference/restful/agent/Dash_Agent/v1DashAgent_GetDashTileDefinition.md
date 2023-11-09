@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=445
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=745
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 804,
-  "Name": "Osinski-Anderson",
-  "Description": "Reactive zero defect challenge",
-  "DefaultHeight": 425,
-  "DefaultWidth": 282,
+  "DashboardTileDefinitionId": 296,
+  "Name": "Price Group",
+  "Description": "Enhanced eco-centric support",
+  "DefaultHeight": 37,
+  "DefaultWidth": 738,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Berge, Fahey and Reynolds",
-  "SelectionId": 402,
+  "EntityName": "Heller Group",
+  "SelectionId": 422,
   "CurrencyMode": "Base",
-  "CurrencyCode": "modi",
+  "CurrencyCode": "commodi",
   "Measure": "Average",
-  "MeasureField": "saepe",
-  "SortBy": "autem",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 37,
-  "MeasureByField": "autem",
+  "MeasureField": "qui",
+  "SortBy": "perferendis",
+  "LayoutConfig": "quae",
+  "SecondarySelectionId": 430,
+  "MeasureByField": "eveniet",
   "Usage": "Dashboard",
-  "ProviderName": "Marks LLC",
+  "ProviderName": "Medhurst, Ondricka and Herzog",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldLength": 675
     }
   }
 }

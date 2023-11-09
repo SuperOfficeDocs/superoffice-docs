@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aperiam
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quia
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 19 Jul 2023 03:24:51 G7T
+Last-Modified: Mon, 15 May 2006 11:06:41 G5T
 
 {
-  "Key": "totam",
-  "Value": "maiores",
-  "RecordId": 77,
-  "CreatedDate": "2014-02-14T03:24:51.630601+01:00",
-  "UpdatedDate": "2023-07-19T03:24:51.630601+02:00",
-  "UpdatedBy": "ipsum",
-  "CreatedBy": "necessitatibus",
-  "TableName": "Reinger LLC",
+  "Key": "reprehenderit",
+  "Value": "maxime",
+  "RecordId": 461,
+  "CreatedDate": "2006-02-14T11:06:41.8947242+01:00",
+  "UpdatedDate": "2006-05-15T11:06:41.8947242+02:00",
+  "UpdatedBy": "dolorem",
+  "CreatedBy": "ipsum",
+  "TableName": "Robel-Rosenbaum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

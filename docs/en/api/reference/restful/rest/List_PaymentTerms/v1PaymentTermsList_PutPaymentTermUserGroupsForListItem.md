@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Adams Inc and Sons",
-    "ToolTip": "Quia vitae enim ex id aut.",
+    "Id": 829,
+    "Name": "Rosenbaum-Baumbach",
+    "ToolTip": "Quisquam dolore sunt nostrum id.",
     "Deleted": true,
-    "Rank": 583,
-    "Type": "distinctio",
-    "ColorBlock": 739,
-    "IconHint": "ullam",
-    "Selected": true,
-    "LastChanged": "2004-04-11T03:24:52.2869587+02:00",
+    "Rank": 198,
+    "Type": "voluptatem",
+    "ColorBlock": 555,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2018-07-15T11:06:42.8503167+02:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Crist-Schowalter",
-        "ToolTip": "Architecto quia.",
+        "Id": 382,
+        "Name": "Lynch Group",
+        "ToolTip": "Facere nobis qui laboriosam natus non labore necessitatibus.",
         "Deleted": false,
-        "Rank": 992,
-        "Type": "quae",
-        "ColorBlock": 90,
-        "IconHint": "explicabo",
+        "Rank": 1001,
+        "Type": "voluptas",
+        "ColorBlock": 628,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2017-03-18T03:24:52.2869587+01:00",
+        "LastChanged": "1997-06-21T11:06:42.8503167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "fuga",
+        "ExtraInfo": "ea",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Ryley Casper"
+        "FullName": "Prof. Ebba Zora Wilkinson"
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "cumque",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Arely Thiel"
+    "FullName": "D'angelo Gaylord"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Bartoletti, Lesch and Russel",
-    "ToolTip": "Et culpa aliquam rerum iste.",
-    "Deleted": true,
-    "Rank": 641,
-    "Type": "eos",
-    "ColorBlock": 679,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2001-05-08T03:24:52.2869587+02:00",
+    "Id": 751,
+    "Name": "Nikolaus, Haley and Stiedemann",
+    "ToolTip": "Dicta tenetur id nam voluptatum error quia explicabo.",
+    "Deleted": false,
+    "Rank": 803,
+    "Type": "rerum",
+    "ColorBlock": 901,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2021-07-16T11:06:42.8503167+02:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Kreiger Inc and Sons",
-        "ToolTip": "Est voluptatum assumenda quis impedit quis numquam.",
-        "Deleted": false,
-        "Rank": 641,
-        "Type": "iusto",
-        "ColorBlock": 30,
-        "IconHint": "porro",
+        "Id": 713,
+        "Name": "Fadel Inc and Sons",
+        "ToolTip": "Atque sed quo et quis dolores hic eaque.",
+        "Deleted": true,
+        "Rank": 362,
+        "Type": "ut",
+        "ColorBlock": 888,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2012-09-03T03:24:52.2869587+02:00",
+        "LastChanged": "2019-11-30T11:06:42.8503167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "ullam",
-        "Hidden": false,
-        "FullName": "Dr. Tony Virginie Sauer I",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "aperiam",
+        "Hidden": true,
+        "FullName": "Dalton Heaney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldLength": 555
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "cumque",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Theodora Schneider",
+    "FullName": "Monserrate Stokes DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 406
+        "FieldType": "System.String",
+        "FieldLength": 933
       }
     }
   }

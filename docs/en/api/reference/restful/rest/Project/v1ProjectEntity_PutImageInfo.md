@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=19
+PUT /api/v1/Project/{id}/ImageInfo?projectId=66
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 461,
-  "BlobSize": 868,
-  "Description": "Reactive homogeneous ability",
-  "ExtraInfo": "officiis",
+  "BlobId": 907,
+  "BlobSize": 665,
+  "Description": "Organized interactive firmware",
+  "ExtraInfo": "velit",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "rerum",
-  "OriginalSize": 517,
-  "CreatedDate": "2001-01-26T03:24:51.7401403+01:00",
-  "UpdatedDate": "2019-07-17T03:24:51.7401403+02:00",
+  "IsZipped": false,
+  "MimeType": "ut",
+  "OriginalSize": 527,
+  "CreatedDate": "1999-08-30T11:06:42.0666003+02:00",
+  "UpdatedDate": "1999-02-19T11:06:42.0666003+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "deleniti"
+  "ConceptualType": "provident"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 796,
-  "BlobSize": 1000,
-  "Description": "Programmable explicit task-force",
-  "ExtraInfo": "quos",
+  "BlobId": 843,
+  "BlobSize": 30,
+  "Description": "Assimilated hybrid focus group",
+  "ExtraInfo": "eos",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "praesentium",
-  "OriginalSize": 618,
-  "CreatedDate": "2016-12-29T03:24:51.7401403+01:00",
-  "UpdatedDate": "2003-11-05T03:24:51.7401403+01:00",
+  "MimeType": "et",
+  "OriginalSize": 939,
+  "CreatedDate": "2004-10-17T11:06:42.0666003+02:00",
+  "UpdatedDate": "2012-09-28T11:06:42.0666003+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint",
+  "ConceptualType": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 282
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Mills, Mann and Rice",
-    "ToolTip": "Est nihil atque animi architecto necessitatibus veritatis nesciunt.",
-    "Deleted": false,
-    "Rank": 848,
-    "Type": "voluptas",
-    "ColorBlock": 896,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2014-02-19T03:24:52.1463474+01:00",
+    "Id": 931,
+    "Name": "Russel LLC",
+    "ToolTip": "Voluptatem sed ut consequatur asperiores deserunt pariatur.",
+    "Deleted": true,
+    "Rank": 407,
+    "Type": "consequatur",
+    "ColorBlock": 484,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2016-01-22T11:06:42.6471966+01:00",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Kunde-Bashirian",
-        "ToolTip": "Ullam ipsum ea quia debitis.",
-        "Deleted": true,
-        "Rank": 211,
-        "Type": "voluptatem",
-        "ColorBlock": 679,
-        "IconHint": "quo",
+        "Id": 547,
+        "Name": "Quitzon-Ullrich",
+        "ToolTip": "Non consequatur laudantium.",
+        "Deleted": false,
+        "Rank": 771,
+        "Type": "et",
+        "ColorBlock": 525,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2004-12-09T03:24:52.1463474+01:00",
+        "LastChanged": "2008-07-28T11:06:42.6471966+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "commodi",
-        "Hidden": false,
-        "FullName": "Paxton Howell",
+        "ExtraInfo": "ratione",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Trycia Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 763
+            "FieldLength": 636
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "debitis",
+    "ExtraInfo": "aut",
+    "StyleHint": "doloribus",
     "Hidden": true,
-    "FullName": "Quentin Schuppe",
+    "FullName": "Milton Dickinson PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldType": "System.Int32",
+        "FieldLength": 657
       }
     }
   }

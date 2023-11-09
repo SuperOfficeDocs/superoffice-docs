@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 231,
-    "Name": "Padberg-McClure",
-    "Tooltip": "animi",
-    "Rank": 958,
-    "Key": "molestiae",
+    "LegalBaseId": 122,
+    "Name": "McCullough-Walsh",
+    "Tooltip": "libero",
+    "Rank": 641,
+    "Key": "quia",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 507
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Luettgen Inc and Sons",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "Rank": 144,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 29,
+  "Name": "Nolan, Donnelly and Hudson",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "Rank": 598,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Yost-Rohan",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 54,
-  "IsCustomList": false,
+  "Id": 49,
+  "Name": "Hermann, Raynor and Howell",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 124,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "vel",
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

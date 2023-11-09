@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
-  "Name": "Bechtelar LLC",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "UdListDefinitionId": 730,
-  "Rank": 104
+  "Id": 858,
+  "Name": "Reichel, Emard and Bins",
+  "Tooltip": "culpa",
+  "Deleted": false,
+  "UdListDefinitionId": 975,
+  "Rank": 384
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 810,
-  "Name": "Rogahn-Haley",
-  "Tooltip": "aut",
+  "Id": 640,
+  "Name": "Thiel Inc and Sons",
+  "Tooltip": "voluptatibus",
   "Deleted": true,
-  "UdListDefinitionId": 206,
-  "Rank": 798,
+  "UdListDefinitionId": 6,
+  "Rank": 614,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

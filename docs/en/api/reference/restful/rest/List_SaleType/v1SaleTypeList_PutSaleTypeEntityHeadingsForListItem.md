@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Treutel-Gerlach",
-    "ToolTip": "Doloribus consectetur rem explicabo quibusdam.",
-    "Deleted": true,
-    "Rank": 692,
-    "Type": "non",
-    "ColorBlock": 624,
-    "IconHint": "voluptatem",
+    "Id": 657,
+    "Name": "Harvey, Walsh and Stiedemann",
+    "ToolTip": "Neque sunt debitis minima enim rem pariatur.",
+    "Deleted": false,
+    "Rank": 883,
+    "Type": "velit",
+    "ColorBlock": 396,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "2018-05-05T03:24:52.4119449+02:00",
+    "LastChanged": "2001-03-23T11:06:43.069069+01:00",
     "ChildItems": [
       {
-        "Id": 630,
-        "Name": "Walker-Monahan",
-        "ToolTip": "Temporibus nulla nesciunt perferendis sapiente molestiae.",
-        "Deleted": true,
-        "Rank": 388,
-        "Type": "autem",
-        "ColorBlock": 224,
-        "IconHint": "soluta",
+        "Id": 195,
+        "Name": "Dicki-Bednar",
+        "ToolTip": "Aliquid porro modi ut.",
+        "Deleted": false,
+        "Rank": 910,
+        "Type": "assumenda",
+        "ColorBlock": 976,
+        "IconHint": "atque",
         "Selected": true,
-        "LastChanged": "2023-02-04T03:24:52.4119449+01:00",
+        "LastChanged": "2021-08-11T11:06:43.069069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "ut",
+        "StyleHint": "provident",
         "Hidden": true,
-        "FullName": "Lue Bartell"
+        "FullName": "Cierra Wiza"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "odit",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "aperiam",
     "Hidden": false,
-    "FullName": "Leta Bechtelar"
+    "FullName": "Carson Renner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Marvin-Zboncak",
-    "ToolTip": "Reiciendis vel voluptatem perspiciatis.",
+    "Id": 671,
+    "Name": "Conn-Abernathy",
+    "ToolTip": "Blanditiis dolores amet labore quasi dolorem quia.",
     "Deleted": false,
-    "Rank": 205,
-    "Type": "enim",
-    "ColorBlock": 328,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2005-12-22T03:24:52.4119449+01:00",
+    "Rank": 455,
+    "Type": "numquam",
+    "ColorBlock": 8,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2019-10-29T11:06:43.069069+01:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Steuber-Greenholt",
-        "ToolTip": "Dolore quo delectus veritatis consequatur.",
+        "Id": 622,
+        "Name": "Conroy Group",
+        "ToolTip": "Aut pariatur rerum commodi qui at cumque.",
         "Deleted": false,
-        "Rank": 239,
-        "Type": "eum",
-        "ColorBlock": 793,
-        "IconHint": "omnis",
+        "Rank": 778,
+        "Type": "quos",
+        "ColorBlock": 364,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2012-05-28T03:24:52.4119449+02:00",
+        "LastChanged": "2001-10-02T11:06:43.069069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "dolore",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Flavie Angelina Hartmann IV",
+        "FullName": "Prof. Kole Judson Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 111
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sequi",
+    "ExtraInfo": "nobis",
+    "StyleHint": "quae",
     "Hidden": false,
-    "FullName": "Ryley Price",
+    "FullName": "Devonte Vandervort",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldType": "System.String",
+        "FieldLength": 486
       }
     }
   }

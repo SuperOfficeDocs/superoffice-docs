@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Koch LLC",
-  "ListItemId": 616,
+  "UdListDefinitionName": "King Group",
+  "ListItemId": 183,
   "Headings": [
     {
-      "Id": 561,
-      "Name": "Herman, Marquardt and Emmerich",
-      "ToolTip": "Praesentium animi.",
+      "Id": 348,
+      "Name": "Lakin, Marks and McDermott",
+      "ToolTip": "Necessitatibus ducimus ratione nulla.",
       "Deleted": false,
-      "Rank": 272,
-      "Type": "quod",
-      "ColorBlock": 293,
-      "IconHint": "in",
+      "Rank": 252,
+      "Type": "dolorem",
+      "ColorBlock": 226,
+      "IconHint": "cumque",
       "Selected": true,
-      "LastChanged": "2020-03-13T03:24:47.8770078+01:00",
+      "LastChanged": "2007-12-04T11:06:34.7083083+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "sint",
-      "Hidden": true,
-      "FullName": "Anahi Nikolaus"
+      "ExtraInfo": "alias",
+      "StyleHint": "est",
+      "Hidden": false,
+      "FullName": "Peggie Schmeler"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Runolfsson Inc and Sons",
-    "ToolTip": "In animi quia excepturi magni ut a vitae.",
-    "Deleted": true,
-    "Rank": 446,
-    "Type": "voluptas",
-    "ColorBlock": 963,
-    "IconHint": "quibusdam",
+    "Id": 616,
+    "Name": "Wyman-Gislason",
+    "ToolTip": "Velit explicabo et sunt veritatis deleniti omnis neque.",
+    "Deleted": false,
+    "Rank": 646,
+    "Type": "labore",
+    "ColorBlock": 720,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2011-12-01T03:24:47.8770078+01:00",
+    "LastChanged": "2003-11-30T11:06:34.7083083+01:00",
     "ChildItems": [
       {
-        "Id": 494,
-        "Name": "Jerde-Osinski",
-        "ToolTip": "Nam earum autem velit.",
-        "Deleted": true,
-        "Rank": 264,
-        "Type": "illum",
-        "ColorBlock": 831,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1999-05-09T03:24:47.8770078+02:00",
+        "Id": 105,
+        "Name": "O'Kon, Medhurst and Grimes",
+        "ToolTip": "Sapiente ratione dolorem odit laboriosam.",
+        "Deleted": false,
+        "Rank": 584,
+        "Type": "repellat",
+        "ColorBlock": 90,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2018-02-14T11:06:34.7083083+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Geovanny Gorczany",
+        "ExtraInfo": "aut",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Arvilla Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 221
+            "FieldLength": 977
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "tempore",
-    "Hidden": false,
-    "FullName": "Miss Aaron DuBuque DVM",
+    "ExtraInfo": "eos",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Jacquelyn Russel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

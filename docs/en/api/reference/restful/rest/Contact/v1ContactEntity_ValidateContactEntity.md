@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 409,
-  "Name": "Greenholt Group",
+  "ContactId": 496,
+  "Name": "Dare-Cassin",
   "Department": "",
-  "OrgNr": "261487",
-  "Number1": "947942",
-  "Number2": "764838",
-  "UpdatedDate": "2022-04-16T03:24:51.52124+02:00",
-  "CreatedDate": "2015-05-08T03:24:51.52124+02:00",
+  "OrgNr": "1176091",
+  "Number1": "1033724",
+  "Number2": "469529",
+  "UpdatedDate": "2001-07-28T11:06:41.7540989+02:00",
+  "CreatedDate": "2017-06-24T11:06:41.7540989+02:00",
   "Emails": [
     {
-      "Value": "dolores",
-      "StrippedValue": "voluptas",
-      "Description": "Diverse eco-centric synergy"
+      "Value": "modi",
+      "StrippedValue": "nihil",
+      "Description": "Streamlined human-resource open system"
     },
     {
-      "Value": "dolores",
-      "StrippedValue": "voluptas",
-      "Description": "Diverse eco-centric synergy"
+      "Value": "modi",
+      "StrippedValue": "nihil",
+      "Description": "Streamlined human-resource open system"
     }
   ],
   "Interests": [
     {
-      "Id": 511,
-      "Name": "Runolfsson, Lindgren and Beer",
-      "ToolTip": "Rerum iusto perferendis error optio numquam.",
+      "Id": 21,
+      "Name": "Jacobi-Lang",
+      "ToolTip": "Numquam rerum aut modi blanditiis.",
       "Deleted": true,
-      "Rank": 347,
-      "Type": "minus",
-      "ColorBlock": 800,
-      "IconHint": "fugit",
-      "Selected": false,
-      "LastChanged": "2012-04-02T03:24:51.52124+02:00",
+      "Rank": 805,
+      "Type": "occaecati",
+      "ColorBlock": 167,
+      "IconHint": "expedita",
+      "Selected": true,
+      "LastChanged": "2010-02-07T11:06:41.7540989+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fugit",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Candelario Price"
+      "ExtraInfo": "voluptas",
+      "StyleHint": "nihil",
+      "Hidden": false,
+      "FullName": "Sigmund Waelchi"
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Virtual incremental open architecture"
+      "Value": "est",
+      "StrippedValue": "ea",
+      "Description": "Quality-focused optimizing challenge"
     },
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Virtual incremental open architecture"
+      "Value": "est",
+      "StrippedValue": "ea",
+      "Description": "Quality-focused optimizing challenge"
     }
   ],
   "Phones": [
     {
-      "Value": "a",
-      "StrippedValue": "nihil",
-      "Description": "Self-enabling multimedia analyzer"
+      "Value": "vel",
+      "StrippedValue": "et",
+      "Description": "Configurable eco-centric array"
     },
     {
-      "Value": "a",
-      "StrippedValue": "nihil",
-      "Description": "Self-enabling multimedia analyzer"
+      "Value": "vel",
+      "StrippedValue": "et",
+      "Description": "Configurable eco-centric array"
     }
   ],
   "Faxes": [
     {
-      "Value": "labore",
-      "StrippedValue": "libero",
-      "Description": "Multi-layered intermediate neural-net"
+      "Value": "sed",
+      "StrippedValue": "accusantium",
+      "Description": "Devolved context-sensitive groupware"
     },
     {
-      "Value": "labore",
-      "StrippedValue": "libero",
-      "Description": "Multi-layered intermediate neural-net"
+      "Value": "sed",
+      "StrippedValue": "accusantium",
+      "Description": "Devolved context-sensitive groupware"
     }
   ],
-  "Description": "Managed motivating task-force",
+  "Description": "Cross-group methodical collaboration",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,85 +192,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quo",
-      "PersonId": 668,
-      "Mrmrs": "accusamus",
-      "Firstname": "Omari",
-      "Lastname": "Nolan",
-      "MiddleName": "Boyle-Rogahn",
-      "Title": "suscipit",
-      "Description": "Multi-channelled background throughput",
-      "Email": "burley@feeneyskiles.name",
-      "FullName": "Ahmad Strosin",
-      "DirectPhone": "1-861-867-8584 x24473",
-      "FormalName": "Rippin Inc and Sons",
-      "CountryId": 833,
-      "ContactId": 849,
-      "ContactName": "Legros, Stracke and Johnston",
-      "Retired": 187,
-      "Rank": 294,
-      "ActiveInterests": 339,
-      "ContactDepartment": "monetize out-of-the-box e-tailers",
-      "ContactCountryId": 224,
-      "ContactOrgNr": "1064095",
-      "FaxPhone": "1-026-622-3811",
-      "MobilePhone": "770.094.6222",
-      "ContactPhone": "863.496.1280 x0573",
-      "AssociateName": "Bogan-Watsica",
-      "AssociateId": 312,
+      "Position": "officiis",
+      "PersonId": 642,
+      "Mrmrs": "laboriosam",
+      "Firstname": "Kaia",
+      "Lastname": "Runte",
+      "MiddleName": "Cremin, Simonis and Flatley",
+      "Title": "laudantium",
+      "Description": "Total fresh-thinking superstructure",
+      "Email": "rubie@shanahanparisian.biz",
+      "FullName": "Jeffery Russel",
+      "DirectPhone": "923-206-6690 x20819",
+      "FormalName": "Rodriguez-Sporer",
+      "CountryId": 87,
+      "ContactId": 664,
+      "ContactName": "Smith Group",
+      "Retired": 699,
+      "Rank": 265,
+      "ActiveInterests": 714,
+      "ContactDepartment": "",
+      "ContactCountryId": 830,
+      "ContactOrgNr": "937719",
+      "FaxPhone": "091-229-1973 x48280",
+      "MobilePhone": "(227)046-3701 x551",
+      "ContactPhone": "1-517-876-5513",
+      "AssociateName": "Kreiger, Bruen and Abernathy",
+      "AssociateId": 452,
       "UsePersonAddress": false,
-      "ContactFax": "assumenda",
-      "Kanafname": "error",
-      "Kanalname": "quae",
-      "Post1": "delectus",
-      "Post2": "rerum",
-      "Post3": "numquam",
-      "EmailName": "tianna@davisgleason.uk",
-      "ContactFullName": "Leif Schimmel",
-      "ActiveErpLinks": 843,
-      "TicketPriorityId": 286,
-      "SupportLanguageId": 624,
-      "SupportAssociateId": 955,
+      "ContactFax": "in",
+      "Kanafname": "perspiciatis",
+      "Kanalname": "consectetur",
+      "Post1": "quae",
+      "Post2": "error",
+      "Post3": "illo",
+      "EmailName": "rasheed@mcglynn.uk",
+      "ContactFullName": "Cristobal Hammes",
+      "ActiveErpLinks": 355,
+      "TicketPriorityId": 663,
+      "SupportLanguageId": 32,
+      "SupportAssociateId": 276,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": false,
-  "Kananame": "placeat",
+  "NoMailing": true,
+  "Kananame": "id",
   "Xstop": false,
-  "ActiveInterests": 185,
-  "GroupId": 940,
-  "ActiveStatusMonitorId": 244,
+  "ActiveInterests": 606,
+  "GroupId": 287,
+  "ActiveStatusMonitorId": 113,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 717,
-  "DbiAgentId": 388,
-  "DbiLastSyncronized": "2013-08-12T03:24:51.52124+02:00",
-  "DbiKey": "maxime",
-  "DbiLastModified": "2007-09-14T03:24:51.52124+02:00",
+  "Deleted": 433,
+  "DbiAgentId": 93,
+  "DbiLastSyncronized": "2020-09-28T11:06:41.7540989+02:00",
+  "DbiKey": "nam",
+  "DbiLastModified": "2000-01-29T11:06:41.7540989+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 246,
-  "ActiveErpLinks": 164,
+  "Source": 876,
+  "ActiveErpLinks": 629,
   "BounceEmails": [
-    "genoveva@eichmann.biz",
-    "felicity.funk@runolfsson.us"
+    "alfredo.torphy@dibbert.info",
+    "jermey_ankunding@bradtke.com"
   ],
   "Domains": [
-    "qui",
-    "non"
+    "doloribus",
+    "ut"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Trevion Thompson",
-    "SuperOffice:2": "Miss Derrick Sanford"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dr. Ephraim Wolff II"
   },
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -282,7 +282,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "nostrum"
+  "1": "ex",
+  "2": "quo"
 }
 ```

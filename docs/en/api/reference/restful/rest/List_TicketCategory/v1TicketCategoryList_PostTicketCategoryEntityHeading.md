@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 36,
-  "Name": "Becker Inc and Sons",
-  "Tooltip": "deleniti",
+  "HeadingId": 791,
+  "Name": "Herman Inc and Sons",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 378,
-  "UdListDefinitionId": 821
+  "Rank": 249,
+  "UdListDefinitionId": 829
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 208,
-  "Name": "Dach, Jones and Abernathy",
-  "Tooltip": "recusandae",
+  "HeadingId": 337,
+  "Name": "Mayert-Torphy",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 620,
-  "UdListDefinitionId": 918,
+  "Rank": 679,
+  "UdListDefinitionId": 434,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 782
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 426
+  "QuoteConnectionId": 394
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 625,
-  "ERPName": "Hickle-Robel",
-  "DisplayName": "Swift, Auer and Balistreri",
-  "DisplayDescription": "Streamlined 24 hour internet solution",
-  "Rank": 665,
-  "ConnectorName": "Rippin Inc and Sons",
-  "ErpConnectionId": 522,
-  "ExtraData": "velit",
+  "QuoteConnectionId": 113,
+  "ERPName": "Upton-Ullrich",
+  "DisplayName": "Walker-Tillman",
+  "DisplayDescription": "Phased user-facing secured line",
+  "Rank": 795,
+  "ConnectorName": "Haley LLC",
+  "ErpConnectionId": 730,
+  "ExtraData": "delectus",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 861,
-      "ERPPriceListKey": "veniam",
-      "QuoteConnectionId": 272,
-      "Name": "Block-Bernhard",
-      "Description": "Grass-roots explicit structure",
-      "Currency": "odio",
-      "CurrencyName": "Runolfsdottir Group",
-      "ValidFrom": "2003-10-04T03:24:48.1426062+02:00",
-      "ValidTo": "2019-11-27T03:24:48.1426062+01:00",
-      "IsActive": false,
+      "PriceListId": 862,
+      "ERPPriceListKey": "ipsum",
+      "QuoteConnectionId": 872,
+      "Name": "O'Hara, Goyette and Ankunding",
+      "Description": "Progressive methodical focus group",
+      "Currency": "fugiat",
+      "CurrencyName": "Gutkowski Group",
+      "ValidFrom": "2010-11-16T11:06:35.2239506+01:00",
+      "ValidTo": "2017-06-24T11:06:35.2239506+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldType": "System.String",
+          "FieldLength": 650
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    702,
-    823
+    199,
+    380
   ],
   "AssociateAccessIds": [
-    153,
-    298
+    578,
+    597
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldType": "System.Int32",
+      "FieldLength": 261
     }
   }
 }

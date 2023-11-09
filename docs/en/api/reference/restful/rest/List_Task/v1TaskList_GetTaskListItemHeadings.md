@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 829,
-    "Name": "Marvin, Walter and Stanton",
-    "Tooltip": "consequatur",
+    "HeadingId": 643,
+    "Name": "Haley, Kirlin and Emard",
+    "Tooltip": "laborum",
     "Deleted": true,
-    "Rank": 542,
-    "UdListDefinitionId": 867,
+    "Rank": 251,
+    "UdListDefinitionId": 404,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 940
+        "FieldLength": 756
       }
     }
   }

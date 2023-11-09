@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Mayer LLC",
-    "Records": 125,
+    "EntityName": "Schmitt LLC",
+    "Records": 515,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 316
       }
     }
   },
   {
-    "EntityName": "Mayer LLC",
-    "Records": 125,
+    "EntityName": "Schmitt LLC",
+    "Records": 515,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 915
+        "FieldLength": 316
       }
     }
   }

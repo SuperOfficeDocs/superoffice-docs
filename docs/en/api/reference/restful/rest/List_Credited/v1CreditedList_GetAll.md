@@ -25,7 +25,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=True
+GET /api/v1/List/Credited/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Schaden, Upton and Reilly",
-    "Tooltip": "aut",
+    "Id": 549,
+    "Name": "Marquardt, Schinner and Connelly",
+    "Tooltip": "ut",
     "Deleted": true,
-    "UdListDefinitionId": 226,
-    "Rank": 143,
+    "UdListDefinitionId": 685,
+    "Rank": 382,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldLength": 816
       }
     }
   }

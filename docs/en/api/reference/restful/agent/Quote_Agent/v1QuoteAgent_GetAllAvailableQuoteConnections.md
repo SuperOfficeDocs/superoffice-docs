@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 618,
-    "ERPName": "Larson Inc and Sons",
-    "DisplayName": "Rogahn-Hilpert",
-    "DisplayDescription": "Re-contextualized client-server database",
-    "Rank": 610,
-    "ConnectorName": "Price LLC",
-    "ErpConnectionId": 751,
-    "ExtraData": "reiciendis",
+    "QuoteConnectionId": 841,
+    "ERPName": "Buckridge, Friesen and Dooley",
+    "DisplayName": "Hintz, Deckow and McKenzie",
+    "DisplayDescription": "Configurable assymetric architecture",
+    "Rank": 686,
+    "ConnectorName": "Wintheiser, Buckridge and Feeney",
+    "ErpConnectionId": 234,
+    "ExtraData": "qui",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 890,
-        "ERPPriceListKey": "qui",
-        "QuoteConnectionId": 716,
-        "Name": "Gusikowski Group",
-        "Description": "Enterprise-wide 4th generation monitoring",
-        "Currency": "quam",
-        "CurrencyName": "Treutel Inc and Sons",
-        "ValidFrom": "2001-06-14T03:24:48.1426062+02:00",
-        "ValidTo": "2016-08-15T03:24:48.1426062+02:00",
-        "IsActive": false,
+        "PriceListId": 568,
+        "ERPPriceListKey": "quia",
+        "QuoteConnectionId": 115,
+        "Name": "Rippin Group",
+        "Description": "Re-engineered needs-based migration",
+        "Currency": "et",
+        "CurrencyName": "Cruickshank, Kuphal and Langworth",
+        "ValidFrom": "2005-04-07T11:06:35.2239506+02:00",
+        "ValidTo": "1996-12-16T11:06:35.2239506+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldType": "System.String",
+            "FieldLength": 595
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": false,
+    "AllAccess": true,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      426,
-      214
+      235,
+      640
     ],
     "AssociateAccessIds": [
-      976,
-      757
+      126,
+      609
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 917
       }
     }
   }

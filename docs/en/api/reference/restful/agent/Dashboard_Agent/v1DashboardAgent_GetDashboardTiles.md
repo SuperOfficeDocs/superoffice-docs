@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    279,
-    297
+    244,
+    688
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 578,
-    "Caption": "reiciendis",
-    "Description": "User-centric scalable framework",
-    "ChartName": "Harber LLC",
-    "ChartId": "hic",
-    "IsDefault": false,
-    "AssociateId": 639,
-    "GroupId": 817,
-    "SelectionId": 941,
-    "Config": "non",
+    "DashboardTileId": 917,
+    "Caption": "et",
+    "Description": "Open-architected next generation encoding",
+    "ChartName": "West Inc and Sons",
+    "ChartId": "et",
+    "IsDefault": true,
+    "AssociateId": 547,
+    "GroupId": 913,
+    "SelectionId": 439,
+    "Config": "a",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Goyette Inc and Sons",
-        "Description": "Managed optimal concept",
+        "Name": "Block-Casper",
+        "Description": "Grass-roots non-volatile knowledge base",
         "Type": "Boolean",
-        "ListName": "Cremin-Kihn",
+        "ListName": "Stamm-Pouros",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "aut",
+        "Value": "velit",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 117
+            "FieldLength": 320
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 741,
+        "VisibleId": 475,
         "Visibility": "All",
-        "DisplayValue": "iure",
+        "DisplayValue": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 906
+            "FieldType": "System.Int32",
+            "FieldLength": 838
           }
         }
       },
       {
-        "VisibleId": 741,
+        "VisibleId": 475,
         "Visibility": "All",
-        "DisplayValue": "iure",
+        "DisplayValue": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 906
+            "FieldType": "System.Int32",
+            "FieldLength": 838
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 334
       }
     }
   }

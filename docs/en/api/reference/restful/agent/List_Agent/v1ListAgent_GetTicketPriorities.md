@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Value": "recusandae",
-    "Tooltip": "dignissimos",
+    "Id": 361,
+    "Value": "non",
+    "Tooltip": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldType": "System.String",
+        "FieldLength": 749
       }
     }
   },
   {
-    "Id": 495,
-    "Value": "recusandae",
-    "Tooltip": "dignissimos",
+    "Id": 361,
+    "Value": "non",
+    "Tooltip": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldType": "System.String",
+        "FieldLength": 749
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 419,
-    "Name": "Bartell, O'Connell and Rolfson",
-    "Tooltip": "ducimus",
+    "HeadingId": 105,
+    "Name": "Durgan-Ryan",
+    "Tooltip": "modi",
     "Deleted": true,
-    "Rank": 399,
-    "UdListDefinitionId": 899,
+    "Rank": 389,
+    "UdListDefinitionId": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 693
       }
     }
   }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bauch, Heaney and Lang",
-  "AdditionalInfo": "eos",
-  "SearchValue": "consequuntur"
+  "Name": "Emard Group",
+  "AdditionalInfo": "a",
+  "SearchValue": "fuga"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Johnston-Bechtelar",
-    "ToolTip": "Quis fuga et.",
+    "Id": 548,
+    "Name": "Blanda, Monahan and Lakin",
+    "ToolTip": "Rem neque quaerat quae dolores blanditiis perspiciatis.",
     "Deleted": false,
-    "Rank": 21,
-    "Type": "porro",
-    "ColorBlock": 210,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2004-01-18T03:24:47.9238778+01:00",
+    "Rank": 156,
+    "Type": "in",
+    "ColorBlock": 320,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2003-02-11T11:06:34.8020663+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Lind-Towne",
-        "ToolTip": "Aliquam porro fugit delectus eveniet animi.",
-        "Deleted": false,
-        "Rank": 36,
-        "Type": "laudantium",
-        "ColorBlock": 939,
-        "IconHint": "dolorem",
+        "Id": 358,
+        "Name": "Murphy LLC",
+        "ToolTip": "Quia in.",
+        "Deleted": true,
+        "Rank": 889,
+        "Type": "quia",
+        "ColorBlock": 281,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2001-11-17T03:24:47.9238778+01:00",
+        "LastChanged": "2004-10-05T11:06:34.8020663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "itaque",
+        "ExtraInfo": "id",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Mrs. Roger Senger",
+        "FullName": "Darian Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 468
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Art Cole",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Valentin Hayley Funk DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldLength": 73
       }
     }
   }

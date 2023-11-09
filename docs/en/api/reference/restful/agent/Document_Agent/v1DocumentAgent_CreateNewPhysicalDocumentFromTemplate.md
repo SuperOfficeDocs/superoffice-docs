@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 408,
-  "PersonId": 451,
-  "AppointmentId": 608,
-  "DocumentId": 129,
-  "SaleId": 425,
-  "SelectionId": 38,
-  "ProjectId": 800,
-  "UiCulture": "porro"
+  "ContactId": 531,
+  "PersonId": 51,
+  "AppointmentId": 6,
+  "DocumentId": 211,
+  "SaleId": 158,
+  "SelectionId": 88,
+  "ProjectId": 749,
+  "UiCulture": "atque"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 262,
+  "DocumentId": 350,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "explicabo",
-  "Header": "consequatur",
-  "Name": "Zboncak Group",
-  "OurRef": "sit",
-  "YourRef": "est",
-  "CreatedDate": "1998-09-25T03:24:47.6739096+02:00",
-  "UpdatedDate": "2012-06-14T03:24:47.6739096+02:00",
-  "Description": "Total tangible database",
+  "Attention": "aperiam",
+  "Header": "maiores",
+  "Name": "Goodwin, Borer and Adams",
+  "OurRef": "ratione",
+  "YourRef": "corrupti",
+  "CreatedDate": "2005-12-30T11:06:34.411434+01:00",
+  "UpdatedDate": "2005-08-23T11:06:34.411434+02:00",
+  "Description": "Stand-alone fault-tolerant framework",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-07-30T03:24:47.6739096+02:00",
-  "ExternalRef": "inventore",
+  "Date": "2016-07-15T11:06:34.411434+02:00",
+  "ExternalRef": "minima",
   "Completed": "Completed",
-  "ActiveLinks": 738,
+  "ActiveLinks": 8,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Little, Smitham and Hilpert",
-      "Id": 972,
-      "Description": "Business-focused well-modulated firmware",
-      "ExtraInfo": "minima",
-      "LinkId": 115,
+      "EntityName": "Yost-Deckow",
+      "Id": 973,
+      "Description": "Total needs-based installation",
+      "ExtraInfo": "sed",
+      "LinkId": 97,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 14
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 82,
-  "Snum": 427,
+  "SuggestedDocumentId": 275,
+  "Snum": 245,
   "UserDefinedFields": {
-    "SuperOffice:1": "1715527706",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1427741366",
+    "SuperOffice:2": "Bessie Mann"
   },
   "ExtraFields": {
-    "ExtraFields1": "cum",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "in"
+    "CustomFields1": "atque",
+    "CustomFields2": "nobis"
   },
-  "PublishEventDate": "2023-01-26T03:24:47.6739096+01:00",
-  "PublishTo": "2015-11-16T03:24:47.6739096+01:00",
-  "PublishFrom": "2012-05-26T03:24:47.6739096+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-04-12T11:06:34.411434+02:00",
+  "PublishTo": "2004-11-24T11:06:34.411434+01:00",
+  "PublishFrom": "2000-01-07T11:06:34.411434+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 232,
+      "VisibleId": 476,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldLength": 91
         }
       }
     },
     {
-      "VisibleId": 232,
+      "VisibleId": 476,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 136
+          "FieldLength": 91
         }
       }
     }
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 555
     }
   }
 }

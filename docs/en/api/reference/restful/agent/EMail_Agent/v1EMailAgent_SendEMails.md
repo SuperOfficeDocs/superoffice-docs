@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "adipisci",
-      "HTMLBody": "quis",
+      "Subject": "eos",
+      "HTMLBody": "delectus",
       "From": null,
-      "Sent": "2008-04-24T03:24:47.7520273+02:00",
-      "Size": 208,
+      "Sent": "2014-05-05T11:06:34.5208161+02:00",
+      "Size": 628,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "quos",
-      "PlainBody": "totam",
-      "IsSent": false,
+      "MessageID": "vel",
+      "PlainBody": "est",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 613,
+      "ServerId": 858,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Kreiger, Rolfson and Borer",
-      "EmailItemId": 56,
-      "AccountId": 759,
-      "ReceivedAt": "2020-01-14T03:24:47.7520273+01:00",
+      "FolderName": "Schuster-Moore",
+      "EmailItemId": 443,
+      "AccountId": 569,
+      "ReceivedAt": "2004-10-15T11:06:34.5208161+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2013-04-27T03:24:47.7520273+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2013-08-29T11:06:34.5208161+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,97 +166,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 451,
-        "ContactName": "Hintz, Beatty and Schiller",
-        "PersonId": 860,
-        "PersonName": "Harvey Inc and Sons",
-        "AssociateId": 110,
-        "Address": "voluptatibus",
-        "EmailId": 646,
+        "ContactId": 566,
+        "ContactName": "Gleason-Hills",
+        "PersonId": 360,
+        "PersonName": "Koch LLC",
+        "AssociateId": 630,
+        "Address": "in",
+        "EmailId": 742,
         "DuplicatePersonIds": [
-          994,
-          374
+          346,
+          784
         ],
-        "Name": "Osinski LLC",
+        "Name": "Braun-Hudson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 822
+            "FieldLength": 201
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 499,
-        "ContactName": "Brown LLC",
-        "PersonId": 334,
-        "PersonName": "Altenwerth-Kilback",
-        "AssociateId": 572,
-        "Address": "voluptas",
-        "EmailId": 211,
+        "ContactId": 849,
+        "ContactName": "Wehner Group",
+        "PersonId": 794,
+        "PersonName": "Bauch Inc and Sons",
+        "AssociateId": 405,
+        "Address": "est",
+        "EmailId": 659,
         "DuplicatePersonIds": [
-          951,
-          944
+          787,
+          607
         ],
-        "Name": "Batz-Frami",
+        "Name": "Pfannerstill-Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 16
+            "FieldLength": 155
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 686,
-        "ContactName": "Dooley-Watsica",
-        "PersonId": 858,
-        "PersonName": "Bahringer, Upton and Carroll",
-        "AssociateId": 91,
-        "Address": "porro",
-        "EmailId": 70,
+        "ContactId": 917,
+        "ContactName": "Gutkowski-Hintz",
+        "PersonId": 305,
+        "PersonName": "Sawayn, Von and Hand",
+        "AssociateId": 724,
+        "Address": "atque",
+        "EmailId": 303,
         "DuplicatePersonIds": [
-          556,
-          978
+          617,
+          492
         ],
-        "Name": "Fritsch, Wehner and Kassulke",
+        "Name": "Jones-Durgan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldType": "System.String",
+            "FieldLength": 886
           }
         }
       }
     ],
-    "Subject": "repudiandae",
-    "HTMLBody": "officia",
+    "Subject": "delectus",
+    "HTMLBody": "dolore",
     "From": null,
-    "Sent": "2006-03-27T03:24:47.7520273+02:00",
-    "Size": 574,
+    "Sent": "2009-11-03T11:06:34.5208161+01:00",
+    "Size": 578,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "reiciendis",
-    "PlainBody": "id",
+    "MessageID": "amet",
+    "PlainBody": "sed",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 740,
+    "ServerId": 41,
     "Attachments": [
       {
-        "Description": "Reduced encompassing algorithm",
-        "Filename": "et",
-        "Size": 668,
-        "Type": "animi",
-        "Encoding": "et",
-        "Id": "libero",
-        "Disposition": "optio",
+        "Description": "Up-sized bottom-line monitoring",
+        "Filename": "iste",
+        "Size": 268,
+        "Type": "culpa",
+        "Encoding": "blanditiis",
+        "Id": "fugit",
+        "Disposition": "dolorem",
         "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -264,49 +264,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldLength": 376
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Klein-Schuster",
+        "Name": "Feeney-Halvorson",
         "Values": [
-          "molestias",
-          "voluptatem"
+          "ut",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 880
+            "FieldLength": 175
           }
         }
       },
       {
-        "Name": "Klein-Schuster",
+        "Name": "Feeney-Halvorson",
         "Values": [
-          "molestias",
-          "voluptatem"
+          "ut",
+          "est"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 880
+            "FieldLength": 175
           }
         }
       }
     ],
-    "FolderName": "Feest, Bartell and Hartmann",
-    "EmailItemId": 823,
-    "AccountId": 506,
-    "ReceivedAt": "1998-10-27T03:24:47.7520273+01:00",
+    "FolderName": "Conn Inc and Sons",
+    "EmailItemId": 1000,
+    "AccountId": 544,
+    "ReceivedAt": "2002-07-16T11:06:34.5208161+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2021-03-25T03:24:47.7520273+01:00",
+    "RepliedAt": "2021-03-22T11:06:34.5208161+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -315,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 391
       }
     }
   }

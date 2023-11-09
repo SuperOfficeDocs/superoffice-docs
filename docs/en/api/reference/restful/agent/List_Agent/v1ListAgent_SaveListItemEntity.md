@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 910,
-  "Name": "Tromp Group",
-  "Tooltip": "accusamus",
+  "Id": 676,
+  "Name": "Schuster, Windler and Zemlak",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "UdListDefinitionId": 679,
-  "Rank": 955,
+  "UdListDefinitionId": 128,
+  "Rank": 625,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

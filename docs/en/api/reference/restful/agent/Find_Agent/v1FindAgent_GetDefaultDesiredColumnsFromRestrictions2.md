@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Abshire LLC",
-  "Restrictions": "odit"
+  "ProviderName": "Wisozk, Bailey and Gulgowski",
+  "Restrictions": "magni"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Halvorson-Terry",
-    "DisplayTooltip": "est",
-    "DisplayType": "voluptatum",
-    "CanOrderBy": false,
-    "Name": "Kiehn Inc and Sons",
-    "CanRestrictBy": false,
-    "RestrictionType": "repudiandae",
-    "RestrictionListName": "Rath-Cummerata",
-    "IsVisible": true,
-    "ExtraInfo": "doloribus",
-    "Width": "velit",
-    "IconHint": "unde",
-    "HeadingIconHint": "modi"
+    "DisplayName": "Dietrich, Maggio and Schaefer",
+    "DisplayTooltip": "debitis",
+    "DisplayType": "vitae",
+    "CanOrderBy": true,
+    "Name": "Beahan, Schamberger and Kirlin",
+    "CanRestrictBy": true,
+    "RestrictionType": "dolorem",
+    "RestrictionListName": "Lind, Reilly and Bruen",
+    "IsVisible": false,
+    "ExtraInfo": "laboriosam",
+    "Width": "qui",
+    "IconHint": "sunt",
+    "HeadingIconHint": "possimus"
   }
 ]
 ```

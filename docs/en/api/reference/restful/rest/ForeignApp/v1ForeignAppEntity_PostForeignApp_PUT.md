@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 185,
-  "Name": "Weissnat Inc and Sons",
-  "CreatedDate": "2013-11-09T03:24:51.6149823+01:00",
-  "UpdatedDate": "1999-07-26T03:24:51.6149823+02:00",
+  "ForeignAppId": 789,
+  "Name": "Gutkowski-Schmidt",
+  "CreatedDate": "2006-04-14T11:06:41.8790976+02:00",
+  "UpdatedDate": "1996-08-29T11:06:41.8790976+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 383,
-      "Name": "Hyatt Group",
-      "CreatedDate": "2003-04-03T03:24:51.6149823+02:00",
-      "UpdatedDate": "1997-06-20T03:24:51.6149823+02:00",
-      "AssociateFullName": "Torrey Cronin",
-      "CreatedBy": "quibusdam",
-      "UpdatedBy": "harum",
+      "ForeignDeviceId": 86,
+      "Name": "Haley Inc and Sons",
+      "CreatedDate": "2016-05-04T11:06:41.8790976+02:00",
+      "UpdatedDate": "1998-09-13T11:06:41.8790976+02:00",
+      "AssociateFullName": "Mrs. Milford Paucek V",
+      "CreatedBy": "ut",
+      "UpdatedBy": "laboriosam",
       "DeviceIdentifier": "commodi",
-      "ForeignAppId": 812,
+      "ForeignAppId": 545,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 399
+          "FieldLength": 634
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 654
     }
   }
 }

@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 354,
-  "SourcePersonId": 45,
-  "DestinationContactId": 391,
-  "DestinationPersonId": 924,
-  "RelationId": 907,
-  "Comment": "commodi",
-  "RelationDefinitionId": 68,
-  "Reversed": 492,
-  "UpdatedDate": "2006-12-16T03:24:51.5368575+01:00",
-  "CreatedDate": "2008-07-17T03:24:51.5368575+02:00",
+  "SourceContactId": 568,
+  "SourcePersonId": 981,
+  "DestinationContactId": 709,
+  "DestinationPersonId": 84,
+  "RelationId": 909,
+  "Comment": "illo",
+  "RelationDefinitionId": 125,
+  "Reversed": 291,
+  "UpdatedDate": "2001-02-22T11:06:41.7697222+01:00",
+  "CreatedDate": "2000-11-30T11:06:41.7697222+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Beahan Inc and Sons",
-  "SourcePersonName": "Bradtke LLC",
-  "DestinationContactName": "Schneider, Berge and Stracke",
-  "DestinationPersonName": "Zieme Inc and Sons",
-  "ActiveText": "nulla",
-  "PassiveText": "aut"
+  "SourceContactName": "Maggio-Murray",
+  "SourcePersonName": "Dare-Macejkovic",
+  "DestinationContactName": "Spinka, Collier and Dibbert",
+  "DestinationPersonName": "Harvey, Collier and Gulgowski",
+  "ActiveText": "possimus",
+  "PassiveText": "magnam"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 97,
-  "SourcePersonId": 406,
-  "DestinationContactId": 217,
-  "DestinationPersonId": 949,
-  "RelationId": 721,
-  "Comment": "magnam",
-  "RelationDefinitionId": 782,
-  "Reversed": 389,
-  "UpdatedDate": "2007-10-28T03:24:51.5368575+01:00",
-  "CreatedDate": "1999-09-15T03:24:51.5368575+02:00",
+  "SourceContactId": 613,
+  "SourcePersonId": 684,
+  "DestinationContactId": 730,
+  "DestinationPersonId": 925,
+  "RelationId": 822,
+  "Comment": "neque",
+  "RelationDefinitionId": 38,
+  "Reversed": 553,
+  "UpdatedDate": "1997-05-08T11:06:41.7697222+02:00",
+  "CreatedDate": "2012-05-06T11:06:41.7697222+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Koch-Spinka",
-  "SourcePersonName": "Wuckert-Thompson",
-  "DestinationContactName": "Little-Cormier",
-  "DestinationPersonName": "Stiedemann LLC",
-  "ActiveText": "corrupti",
-  "PassiveText": "provident",
+  "SourceContactName": "Bode LLC",
+  "SourcePersonName": "Ferry Inc and Sons",
+  "DestinationContactName": "Parker LLC",
+  "DestinationPersonName": "Windler LLC",
+  "ActiveText": "ullam",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldLength": 297
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

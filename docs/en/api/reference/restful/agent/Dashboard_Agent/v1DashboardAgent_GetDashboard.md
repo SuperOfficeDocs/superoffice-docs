@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=455
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=488
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 933,
-  "AssociateId": 399,
-  "Caption": "repudiandae",
+  "DashboardId": 300,
+  "AssociateId": 983,
+  "Caption": "vel",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 442,
-      "Caption": "esse",
-      "Description": "Organic foreground budgetary management",
-      "ChartName": "Keebler, Beer and Schimmel",
-      "ChartId": "similique",
+      "DashboardTileId": 554,
+      "Caption": "magnam",
+      "Description": "Secured impactful open architecture",
+      "ChartName": "Bailey, Runte and Beer",
+      "ChartId": "id",
       "IsDefault": false,
-      "AssociateId": 387,
-      "GroupId": 972,
-      "SelectionId": 990,
-      "Config": "voluptatem",
+      "AssociateId": 868,
+      "GroupId": 804,
+      "SelectionId": 692,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 951
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldType": "System.Int32",
+      "FieldLength": 701
     }
   }
 }

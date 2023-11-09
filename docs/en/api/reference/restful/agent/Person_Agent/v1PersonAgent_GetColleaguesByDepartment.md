@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 133
+  "DepartmentId": 768
 }
 ```
 
@@ -130,52 +130,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sit",
-    "PersonId": 626,
-    "Mrmrs": "praesentium",
-    "Firstname": "Zula",
-    "Lastname": "Abernathy",
-    "MiddleName": "O'Keefe-O'Hara",
-    "Title": "quod",
-    "Description": "Face to face tertiary solution",
-    "Email": "kennith@simonis.co.uk",
-    "FullName": "Ida Larkin",
-    "DirectPhone": "1-387-654-8805",
-    "FormalName": "Bayer-Greenfelder",
-    "CountryId": 581,
-    "ContactId": 482,
-    "ContactName": "Leannon-Dickinson",
-    "Retired": 292,
-    "Rank": 337,
-    "ActiveInterests": 957,
+    "Position": "sed",
+    "PersonId": 138,
+    "Mrmrs": "et",
+    "Firstname": "Walker",
+    "Lastname": "Altenwerth",
+    "MiddleName": "McDermott Inc and Sons",
+    "Title": "nemo",
+    "Description": "User-friendly optimal firmware",
+    "Email": "kaela_jewess@krajcik.uk",
+    "FullName": "Ara Keely Hansen V",
+    "DirectPhone": "778.805.1343",
+    "FormalName": "Stokes, Gleichner and Effertz",
+    "CountryId": 733,
+    "ContactId": 475,
+    "ContactName": "Kihn-Littel",
+    "Retired": 443,
+    "Rank": 864,
+    "ActiveInterests": 220,
     "ContactDepartment": "",
-    "ContactCountryId": 155,
-    "ContactOrgNr": "1480942",
-    "FaxPhone": "997-688-2082 x370",
-    "MobilePhone": "478.282.5416 x99533",
-    "ContactPhone": "343-547-3086 x489",
-    "AssociateName": "Champlin-Price",
-    "AssociateId": 177,
+    "ContactCountryId": 960,
+    "ContactOrgNr": "861359",
+    "FaxPhone": "(296)533-0126 x75487",
+    "MobilePhone": "(614)699-8550",
+    "ContactPhone": "778.759.4146 x22720",
+    "AssociateName": "Trantow, Walter and Bernhard",
+    "AssociateId": 614,
     "UsePersonAddress": false,
-    "ContactFax": "vitae",
-    "Kanafname": "ut",
-    "Kanalname": "rem",
-    "Post1": "atque",
-    "Post2": "et",
-    "Post3": "eos",
-    "EmailName": "howell@kohler.uk",
-    "ContactFullName": "Napoleon Parker",
-    "ActiveErpLinks": 519,
-    "TicketPriorityId": 952,
-    "SupportLanguageId": 467,
-    "SupportAssociateId": 908,
+    "ContactFax": "occaecati",
+    "Kanafname": "exercitationem",
+    "Kanalname": "magni",
+    "Post1": "qui",
+    "Post2": "enim",
+    "Post3": "consequatur",
+    "EmailName": "margaretta@cormier.uk",
+    "ContactFullName": "Ryder Treutel V",
+    "ActiveErpLinks": 936,
+    "TicketPriorityId": 300,
+    "SupportLanguageId": 662,
+    "SupportAssociateId": 780,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

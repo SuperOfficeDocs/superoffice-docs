@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 23
+  "SelectionId": 972
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Davis LLC",
-    "Description": "Down-sized radical function",
-    "Rank": 919,
+    "Name": "Powlowski, Marquardt and Funk",
+    "Description": "Diverse directional software",
+    "Rank": 78,
     "Restrictions": [
       {
-        "Name": "West Inc and Sons",
-        "Operator": "est",
+        "Name": "Langosh, Boyle and Schamberger",
+        "Operator": "optio",
         "Values": [
-          "qui",
-          "repudiandae"
+          "voluptatibus",
+          "nemo"
         ],
         "DisplayValues": [
-          "aliquid",
-          "quas"
+          "possimus",
+          "sed"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 920,
+        "InterParenthesis": 372,
         "InterOperator": "And",
-        "UniqueHash": 360
+        "UniqueHash": 675
       }
     ]
   },
   {
-    "Name": "Davis LLC",
-    "Description": "Down-sized radical function",
-    "Rank": 919,
+    "Name": "Powlowski, Marquardt and Funk",
+    "Description": "Diverse directional software",
+    "Rank": 78,
     "Restrictions": [
       {
-        "Name": "West Inc and Sons",
-        "Operator": "est",
+        "Name": "Langosh, Boyle and Schamberger",
+        "Operator": "optio",
         "Values": [
-          "qui",
-          "repudiandae"
+          "voluptatibus",
+          "nemo"
         ],
         "DisplayValues": [
-          "aliquid",
-          "quas"
+          "possimus",
+          "sed"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 920,
+        "InterParenthesis": 372,
         "InterOperator": "And",
-        "UniqueHash": 360
+        "UniqueHash": 675
       }
     ]
   }

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 975
+  "UserGroupId": 96
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 731,
-    "ColumnId": 635,
-    "FieldDefault": "et",
-    "FieldHeight": 273,
-    "FieldLabel": "consequatur",
-    "FieldLeft": 800,
-    "FieldTop": 740,
+    "UDefFieldId": 793,
+    "ColumnId": 712,
+    "FieldDefault": "aliquam",
+    "FieldHeight": 122,
+    "FieldLabel": "omnis",
+    "FieldLeft": 398,
+    "FieldTop": 840,
     "FieldType": "Checkbox",
-    "FieldWidth": 607,
-    "FormatMask": "perspiciatis",
+    "FieldWidth": 133,
+    "FormatMask": "perferendis",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 337,
-    "LabelLeft": 778,
-    "LabelTop": 315,
-    "LabelWidth": 11,
-    "LastVersionId": 734,
-    "ListTableId": 158,
-    "IsMandatory": true,
+    "LabelHeight": 105,
+    "LabelLeft": 24,
+    "LabelTop": 548,
+    "LabelWidth": 391,
+    "LastVersionId": 223,
+    "ListTableId": 184,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 55,
-    "ProgId": "voluptatibus",
-    "IsReadOnly": false,
-    "ShortLabel": "molestias",
-    "TabOrder": 443,
-    "TextLength": 37,
-    "Tooltip": "autem",
-    "UdefIdentity": 326,
-    "UDListDefinitionId": 621,
+    "Page1LineNo": 85,
+    "ProgId": "molestiae",
+    "IsReadOnly": true,
+    "ShortLabel": "laborum",
+    "TabOrder": 311,
+    "TextLength": 92,
+    "Tooltip": "quasi",
+    "UdefIdentity": 652,
+    "UDListDefinitionId": 759,
     "Justification": "Center",
-    "Version": 208,
-    "TemplateVariableName": "Towne-Gerhold",
+    "Version": 258,
+    "TemplateVariableName": "Schinner Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Oberbrunner LLC",
+    "MdoListName": "Hodkiewicz-Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 967
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,21 +98,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 44,
-    "Name": "Raynor, Dare and Adams",
-    "Description": "Persevering upward-trending algorithm",
-    "WelcomeMessage": "numquam",
+    "ChatTopicId": 710,
+    "Name": "Osinski-Ferry",
+    "Description": "Automated multimedia core",
+    "WelcomeMessage": "in",
     "Language": null,
-    "LastAccept": "2015-01-21T03:24:51.4429545+01:00",
-    "SecondsPrAccept": 523,
-    "AlertRecipient": "quia",
+    "LastAccept": "2003-06-03T11:06:41.550993+02:00",
+    "SecondsPrAccept": 731,
+    "AlertRecipient": "molestiae",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "quod",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "incidunt",
-    "WarnNewChatMinutes": 883,
-    "WarnManagerNewChatMinutes": 468,
+    "CollectConsent": false,
+    "BadgeHeader": "aut",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "ad",
+    "WarnNewChatMinutes": 572,
+    "WarnManagerNewChatMinutes": 392,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
@@ -122,19 +122,19 @@ Content-Type: application/json; charset=utf-8
     "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 751,
-    "WarnManagerChatMessageMinutes": 586,
+    "WarnChatMessageMinutes": 287,
+    "WarnManagerChatMessageMinutes": 996,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 533,
-    "OfflineFormQueueLength": 624,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "mollitia",
+    "OfflineFormTimeLimit": 732,
+    "OfflineFormQueueLength": 304,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 886
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 346,
+  "EmailFlowId": 945,
   "WorkflowInstanceIds": [
-    490,
-    229
+    817,
+    568
   ]
 }
 ```

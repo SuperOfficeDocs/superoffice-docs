@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,12 +75,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Bartoletti, Doyle and White",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "UdListDefinitionId": 115,
-  "Rank": 17,
+  "Id": 107,
+  "Name": "Conroy-Senger",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 131,
+  "Rank": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 527,
-  "PrefDescId": 41,
-  "PrefValue": "labore",
-  "PrefShowValue": "sit",
-  "Description": "Mandatory scalable leverage",
+  "PrefDescLineId": 677,
+  "PrefDescId": 484,
+  "PrefValue": "est",
+  "PrefShowValue": "laudantium",
+  "Description": "Digitized bottom-line groupware",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 301
     }
   }
 }

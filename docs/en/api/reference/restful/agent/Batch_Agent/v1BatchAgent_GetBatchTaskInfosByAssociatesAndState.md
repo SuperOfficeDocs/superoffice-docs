@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    653,
-    855
+    660,
+    904
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Breitenberg Group",
-    "AssociateId": 476,
-    "DetailsTable": 707,
-    "DetailsRecord": 729,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 232,
+    "Name": "Hauck Inc and Sons",
+    "AssociateId": 418,
+    "DetailsTable": 682,
+    "DetailsRecord": 862,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "repellendus",
-      "ParameterObject2": "ut"
+      "ParameterObject1": "fugiat",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2003-01-17T03:24:47.2520803+01:00",
-    "Created": "2002-07-22T03:24:47.2520803+02:00",
-    "StartCount": 272,
-    "DatabaseSerialNumber": "358200",
-    "Context": "est",
-    "Result": "saepe",
+    "LastStarted": "2000-11-26T11:06:33.7972715+01:00",
+    "Created": "2022-08-17T11:06:33.7972715+02:00",
+    "StartCount": 502,
+    "DatabaseSerialNumber": "838967",
+    "Context": "consequatur",
+    "Result": "minima",
     "State": "All",
-    "Description": "Configurable system-worthy utilisation",
-    "Response": "aut",
-    "Request": "qui",
-    "ProgressDescription": "Realigned stable workforce",
-    "ProgressPercent": 998,
-    "FileName": "Keeling-Durgan",
+    "Description": "Multi-layered zero defect core",
+    "Response": "est",
+    "Request": "perferendis",
+    "ProgressDescription": "Versatile optimizing moratorium",
+    "ProgressPercent": 560,
+    "FileName": "Runolfsdottir Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

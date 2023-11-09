@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 73,
-  "PlainMessage": "error",
-  "HtmlMessage": "unde",
-  "SmsMessage": "non",
-  "Description": "Phased actuating matrices",
+  "ShipmentMessageId": 492,
+  "PlainMessage": "ea",
+  "HtmlMessage": "explicabo",
+  "SmsMessage": "sit",
+  "Description": "Face to face intangible hardware",
   "Subject": "omnis",
-  "FolderId": 175,
-  "HeaderField": "repellendus",
-  "Design": "unde",
+  "FolderId": 786,
+  "HeaderField": "et",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Polarised user-facing process improvement",
-  "AccessKey": "commodi",
-  "DocumentMessage": 611,
-  "Registered": "2015-03-13T03:24:51.927622+01:00",
-  "RegisteredAssociateId": 199,
-  "Updated": "2004-07-19T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 417,
-  "UpdatedCount": 618,
+  "LongDescription": "Re-engineered didactic benchmark",
+  "AccessKey": "assumenda",
+  "DocumentMessage": 672,
+  "Registered": "2019-03-17T11:06:42.2228527+01:00",
+  "RegisteredAssociateId": 165,
+  "Updated": "2019-08-15T11:06:42.2228527+02:00",
+  "UpdatedAssociateId": 26,
+  "UpdatedCount": 96,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldType": "System.String",
+      "FieldLength": 116
     }
   }
 }

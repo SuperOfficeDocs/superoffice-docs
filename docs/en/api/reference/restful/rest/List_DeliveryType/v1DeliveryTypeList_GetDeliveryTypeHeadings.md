@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 55,
-    "Name": "Kirlin-Raynor",
-    "Tooltip": "cupiditate",
+    "HeadingId": 955,
+    "Name": "Medhurst, Corkery and Murray",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 973,
-    "UdListDefinitionId": 816,
+    "Rank": 676,
+    "UdListDefinitionId": 317,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 200
       }
     }
   }

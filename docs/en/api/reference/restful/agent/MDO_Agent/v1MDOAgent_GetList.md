@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Renner LLC",
+  "Name": "Schuster-Christiansen",
   "ForceFlatList": false,
-  "AdditionalInfo": "vel",
-  "OnlyHistory": true
+  "AdditionalInfo": "dolorem",
+  "OnlyHistory": false
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 898,
-    "Name": "Corkery-Zieme",
-    "ToolTip": "Quisquam consectetur incidunt iusto minima.",
+    "Id": 570,
+    "Name": "Rice LLC",
+    "ToolTip": "Quia sed.",
     "Deleted": true,
-    "Rank": 132,
-    "Type": "ducimus",
+    "Rank": 193,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Hahn Group",
-        "ToolTip": "Accusamus illo nobis.",
-        "Deleted": true,
-        "Rank": 619,
-        "Type": "sit",
+        "Id": 101,
+        "Name": "Runte-Wiza",
+        "ToolTip": "Ea eius qui veritatis sed ipsa ad.",
+        "Deleted": false,
+        "Rank": 749,
+        "Type": "aspernatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusantium",
-        "ColorBlock": 375,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "aliquid",
-        "FullName": "Helene Hand",
+        "IconHint": "ex",
+        "ColorBlock": 535,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "odit",
+        "FullName": "Ellis Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 854
+            "FieldLength": 733
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 136,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "veniam",
-    "FullName": "Reginald Zachery Gusikowski PhD",
+    "IconHint": "dolorum",
+    "ColorBlock": 611,
+    "ExtraInfo": "labore",
+    "StyleHint": "vel",
+    "FullName": "Carroll Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldLength": 539
       }
     }
   }

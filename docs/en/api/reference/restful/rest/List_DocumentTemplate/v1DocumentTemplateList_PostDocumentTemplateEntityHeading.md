@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 620,
-  "Name": "Kiehn-Davis",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 349,
-  "UdListDefinitionId": 961
+  "HeadingId": 792,
+  "Name": "Reilly Group",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 500,
+  "UdListDefinitionId": 227
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 770,
-  "Name": "Conroy-Kris",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 271,
-  "UdListDefinitionId": 932,
+  "HeadingId": 945,
+  "Name": "Schmitt, D'Amore and Kiehn",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "Rank": 839,
+  "UdListDefinitionId": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 798
     }
   }
 }

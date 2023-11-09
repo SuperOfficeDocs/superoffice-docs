@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 94,
-  "Filter": "velit"
+  "SelectionId": 564,
+  "Filter": "perferendis"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Willms-Stoltenberg",
-    "Operator": "optio",
+    "Name": "Weissnat Inc and Sons",
+    "Operator": "aut",
     "Values": [
-      "sit",
-      "sint"
+      "et",
+      "porro"
     ],
     "DisplayValues": [
-      "dolorem",
-      "nam"
+      "veritatis",
+      "deserunt"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lemke-Beer",
-        "Operator": "debitis",
+        "Name": "Bradtke-VonRueden",
+        "Operator": "ut",
         "Values": [
-          "vitae",
-          "saepe"
+          "consectetur",
+          "ducimus"
         ],
         "DisplayValues": [
-          "molestiae",
-          "sit"
+          "officia",
+          "vero"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 320,
+        "InterParenthesis": 326,
         "InterOperator": "And",
-        "UniqueHash": 524
+        "UniqueHash": 506
       }
     ],
-    "InterParenthesis": 939,
+    "InterParenthesis": 580,
     "InterOperator": "And",
-    "UniqueHash": 948
+    "UniqueHash": 245
   }
 ]
 ```

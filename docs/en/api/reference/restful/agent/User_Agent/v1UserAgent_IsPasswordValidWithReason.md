@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsPasswordValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 461,
+  "AssociateId": 604,
   "Type": "AnonymousAssociate",
-  "PersonId": 385,
-  "Password": "ut"
+  "PersonId": 111,
+  "Password": "quis"
 }
 ```
 
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 895
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Hagenes-Konopelski",
-    "ToolTip": "Ab cupiditate qui aspernatur.",
-    "Deleted": false,
-    "Rank": 83,
-    "Type": "esse",
-    "ColorBlock": 974,
-    "IconHint": "repudiandae",
+    "Id": 510,
+    "Name": "Jenkins Group",
+    "ToolTip": "Quae quis.",
+    "Deleted": true,
+    "Rank": 283,
+    "Type": "officiis",
+    "ColorBlock": 412,
+    "IconHint": "vel",
     "Selected": true,
-    "LastChanged": "2013-10-24T03:24:52.0526089+02:00",
+    "LastChanged": "1998-11-03T11:06:42.4116218+01:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Davis, Kunze and Cremin",
-        "ToolTip": "Rerum autem autem eligendi.",
-        "Deleted": true,
-        "Rank": 56,
-        "Type": "ea",
-        "ColorBlock": 428,
-        "IconHint": "maxime",
+        "Id": 837,
+        "Name": "Bailey-Prohaska",
+        "ToolTip": "Quae aut cupiditate tempore.",
+        "Deleted": false,
+        "Rank": 954,
+        "Type": "libero",
+        "ColorBlock": 42,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2021-10-15T03:24:52.0526089+02:00",
+        "LastChanged": "2014-06-10T11:06:42.4116218+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "quisquam",
-        "Hidden": true,
-        "FullName": "Rubye Lind",
+        "ExtraInfo": "hic",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Jarrod Turner V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 283
+            "FieldLength": 830
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Eladio Daniel",
+    "ExtraInfo": "sit",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Antoinette Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 190
       }
     }
   }

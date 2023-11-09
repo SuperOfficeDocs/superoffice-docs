@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Blanda Inc and Sons",
-    "ToolTip": "Molestiae aliquam corrupti nihil tenetur nisi corporis dolores.",
+    "Id": 548,
+    "Name": "Fadel, Moore and Miller",
+    "ToolTip": "Impedit enim dolores vero voluptatem mollitia doloribus.",
     "Deleted": false,
-    "Rank": 802,
-    "Type": "quia",
-    "ColorBlock": 943,
-    "IconHint": "dicta",
+    "Rank": 370,
+    "Type": "eos",
+    "ColorBlock": 74,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1997-01-19T03:24:52.2244666+01:00",
+    "LastChanged": "2013-06-11T11:06:42.7565694+02:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Toy LLC",
-        "ToolTip": "Vero incidunt et dolorum molestias autem sint.",
+        "Id": 766,
+        "Name": "Lindgren Group",
+        "ToolTip": "Fuga soluta doloremque aspernatur.",
         "Deleted": true,
-        "Rank": 468,
-        "Type": "qui",
-        "ColorBlock": 589,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "2006-01-04T03:24:52.2244666+01:00",
+        "Rank": 286,
+        "Type": "cupiditate",
+        "ColorBlock": 956,
+        "IconHint": "placeat",
+        "Selected": false,
+        "LastChanged": "2018-08-08T11:06:42.7565694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "eum",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Jordan Jenkins",
+        "FullName": "Nash Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 262
+            "FieldType": "System.String",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "in",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Dr. Wilton Streich Jr.",
+    "FullName": "Jody Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldType": "System.Int32",
+        "FieldLength": 786
       }
     }
   }

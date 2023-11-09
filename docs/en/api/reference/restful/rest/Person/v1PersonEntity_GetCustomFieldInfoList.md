@@ -67,7 +67,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Becker, Purdy and Zulauf",
-    "DisplayName": "Wolff-Osinski",
-    "Description": "Polarised methodical algorithm",
-    "ShortLabel": "eius",
-    "HideLabel": true,
+    "FieldName": "Tremblay-Rempel",
+    "DisplayName": "Kirlin, Nicolas and Johnson",
+    "Description": "Networked fresh-thinking product",
+    "ShortLabel": "ipsam",
+    "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 615,
-    "TemplateVariableName": "Altenwerth-Pfannerstill"
+    "Rank": 602,
+    "TemplateVariableName": "Batz Group"
   }
 ]
 ```

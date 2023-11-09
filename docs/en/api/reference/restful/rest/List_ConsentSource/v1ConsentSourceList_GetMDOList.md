@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=et
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=perferendis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Kerluke, Zulauf and Schmidt",
-    "ToolTip": "Molestias eum ea soluta.",
+    "Id": 663,
+    "Name": "Hamill, Gorczany and Runolfsdottir",
+    "ToolTip": "Illum ut ipsam.",
     "Deleted": false,
-    "Rank": 209,
-    "Type": "praesentium",
+    "Rank": 379,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 423,
-        "Name": "Johns-Legros",
-        "ToolTip": "Velit est dolor consequatur.",
+        "Id": 31,
+        "Name": "Emmerich, Rogahn and Orn",
+        "ToolTip": "Aperiam sed fuga odit non et.",
         "Deleted": false,
-        "Rank": 328,
-        "Type": "eius",
+        "Rank": 273,
+        "Type": "exercitationem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 240,
-        "ExtraInfo": "rem",
-        "StyleHint": "modi",
-        "FullName": "Mr. Wilford Friesen PhD",
+        "IconHint": "provident",
+        "ColorBlock": 391,
+        "ExtraInfo": "odio",
+        "StyleHint": "aut",
+        "FullName": "Prof. Alene Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldLength": 142
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 90,
-    "ExtraInfo": "facere",
-    "StyleHint": "officiis",
-    "FullName": "Fidel Dickinson",
+    "IconHint": "saepe",
+    "ColorBlock": 746,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "voluptate",
+    "FullName": "Mrs. Eulalia Melany Rowe DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 271
       }
     }
   }

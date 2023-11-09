@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Hansen, Schultz and Ernser",
-    "ToolTip": "Quis odit.",
+    "Id": 675,
+    "Name": "Schmitt, Hirthe and Mraz",
+    "ToolTip": "Nihil magni laborum.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "earum",
-    "ColorBlock": 739,
-    "IconHint": "totam",
+    "Rank": 778,
+    "Type": "quos",
+    "ColorBlock": 541,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2004-01-07T03:24:52.1932187+01:00",
+    "LastChanged": "2017-08-20T11:06:42.7253202+02:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Mohr-Schulist",
-        "ToolTip": "Doloribus ullam rerum aspernatur consequuntur.",
-        "Deleted": false,
-        "Rank": 147,
-        "Type": "nobis",
-        "ColorBlock": 678,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2018-03-26T03:24:52.1932187+02:00",
+        "Id": 782,
+        "Name": "Zboncak Inc and Sons",
+        "ToolTip": "Occaecati doloremque labore recusandae sed ratione.",
+        "Deleted": true,
+        "Rank": 241,
+        "Type": "porro",
+        "ColorBlock": 452,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2003-08-16T11:06:42.7253202+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Eusebio Reichel",
+        "ExtraInfo": "magni",
+        "StyleHint": "similique",
+        "Hidden": true,
+        "FullName": "Miss Caroline Cali Hahn DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Wilma Kub",
+    "ExtraInfo": "error",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Frederik Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldType": "System.Int32",
+        "FieldLength": 950
       }
     }
   }

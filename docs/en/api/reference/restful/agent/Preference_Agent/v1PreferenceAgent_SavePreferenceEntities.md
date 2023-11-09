@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "ea",
+      "RawValue": "hic",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "sit",
+      "DisplayValue": "omnis",
+      "DisplayTooltip": "eveniet",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 697,
-      "PrefDescId": 123,
-      "TableName": "Jenkins, Kuhn and Pfeffer",
-      "UserPreferenceId": 1000
+      "TargetId": 452,
+      "PrefDescId": 766,
+      "TableName": "Waters, Kunze and Lubowitz",
+      "UserPreferenceId": 406
     }
   ],
   "RemoveLowerLevels": false

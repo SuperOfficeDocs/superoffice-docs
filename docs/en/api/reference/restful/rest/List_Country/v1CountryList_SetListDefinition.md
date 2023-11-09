@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Von Group",
-  "Tooltip": "sapiente",
+  "Id": 265,
+  "Name": "Powlowski LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 456,
+  "Rank": 632,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "distinctio",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Towne-Keeling",
-  "Tooltip": "vitae",
+  "Id": 441,
+  "Name": "Gerhold, Will and Larson",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 678,
+  "Rank": 90,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "ListType": "quam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldLength": 63
     }
   }
 }

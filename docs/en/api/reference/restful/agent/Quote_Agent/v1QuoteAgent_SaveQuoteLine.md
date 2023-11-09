@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 225,
-  "ERPQuoteLineKey": "rem",
-  "QuoteAlternativeId": 379,
-  "ERPProductKey": "recusandae",
+  "QuoteLineId": 830,
+  "ERPQuoteLineKey": "voluptas",
+  "QuoteAlternativeId": 796,
+  "ERPProductKey": "voluptatibus",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23210.404,
-  "DeliveredQuantity": 28513.131999999998,
-  "Rank": 706,
-  "Name": "Reynolds, Bartell and Satterfield",
-  "Description": "Mandatory mobile monitoring",
+  "Quantity": 1460.444,
+  "DeliveredQuantity": 23063.106,
+  "Rank": 635,
+  "Name": "Barton Group",
+  "Description": "Customer-focused zero tolerance orchestration",
   "Code": "error",
-  "QuantityUnit": "voluptatum",
-  "PriceUnit": "ea",
-  "ItemNumber": "1486941",
+  "QuantityUnit": "quasi",
+  "PriceUnit": "tenetur",
+  "ItemNumber": "655920",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "expedita",
-  "Supplier": "qui",
-  "SupplierCode": "doloribus",
-  "Thumbnail": "itaque",
-  "VATInfo": "voluptas",
-  "VAT": 28008.557999999997,
-  "UnitCost": 29133.664,
-  "UnitMinimumPrice": 13952.568,
-  "UnitListPrice": 27040.152,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "velit",
+  "Supplier": "in",
+  "SupplierCode": "aut",
+  "Thumbnail": "ipsa",
+  "VATInfo": "odit",
+  "VAT": 5349.7379999999994,
+  "UnitCost": 4155.684,
+  "UnitMinimumPrice": 30352.789999999997,
+  "UnitListPrice": 849.314,
   "ExtraInfo": [
     {
-      "Name": "Mohr-Towne",
-      "Value": "fuga",
+      "Name": "Orn, Stiedemann and Bergnaum",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldLength": 803
         }
       }
     },
     {
-      "Name": "Mohr-Towne",
-      "Value": "fuga",
+      "Name": "Orn, Stiedemann and Bergnaum",
+      "Value": "molestiae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldLength": 803
         }
       }
     }
   ],
-  "RawExtraInfo": "velit",
-  "IsSubscription": true,
-  "SubscriptionUnit": "omnis",
-  "SubscriptionQuantity": 2375.572,
-  "SubscriptionStart": "2006-12-13T03:24:48.1582254+01:00",
-  "ERPDiscountPercent": 16459.768,
-  "ERPDiscountAmount": 31032.868,
-  "DiscountPercent": 20214.3,
-  "DiscountAmount": 26497.969999999998,
+  "RawExtraInfo": "repellendus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "magnam",
+  "SubscriptionQuantity": 10981.536,
+  "SubscriptionStart": "2011-03-30T11:06:35.2395651+02:00",
+  "ERPDiscountPercent": 5597.324,
+  "ERPDiscountAmount": 30963.92,
+  "DiscountPercent": 12385.568,
+  "DiscountAmount": 28848.469999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 12536.0,
-  "EarningAmount": 7831.866,
-  "SubTotal": 11561.326,
-  "TotalPrice": 4679.062,
-  "Rights": "nulla",
-  "Rule": "rem",
-  "ExtraField1": "ut",
-  "ExtraField2": "quos",
-  "ExtraField3": "ut",
-  "ExtraField4": "quisquam",
-  "ExtraField5": "beatae",
+  "EarningPercent": 5356.0059999999994,
+  "EarningAmount": 22984.755999999998,
+  "SubTotal": 1024.818,
+  "TotalPrice": 2748.518,
+  "Rights": "illo",
+  "Rule": "eligendi",
+  "ExtraField1": "assumenda",
+  "ExtraField2": "voluptates",
+  "ExtraField3": "libero",
+  "ExtraField4": "hic",
+  "ExtraField5": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldLength": 228
     }
   }
 }

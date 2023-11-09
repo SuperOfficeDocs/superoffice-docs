@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "UdListDefinitionName": "Beahan LLC"
+  "Id": 945,
+  "UdListDefinitionName": "Rath, Bogisich and Greenfelder"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Beer, Kub and Koelpin",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "UdListDefinitionId": 469,
-  "Rank": 555,
+  "Id": 958,
+  "Name": "Wintheiser-Jast",
+  "Tooltip": "fugit",
+  "Deleted": false,
+  "UdListDefinitionId": 642,
+  "Rank": 174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 751
     }
   }
 }

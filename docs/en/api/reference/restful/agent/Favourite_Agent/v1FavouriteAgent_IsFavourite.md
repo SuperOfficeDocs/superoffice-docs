@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Fadel Group",
-  "RecordId": 903,
-  "AssociateId": 145
+  "TableName": "Wuckert Inc and Sons",
+  "RecordId": 68,
+  "AssociateId": 395
 }
 ```
 

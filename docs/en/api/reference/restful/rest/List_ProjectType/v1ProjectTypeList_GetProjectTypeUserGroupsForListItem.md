@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Ondricka, Pfeffer and Hickle",
-    "ToolTip": "Vel architecto quam incidunt omnis repellat iste.",
+    "Id": 822,
+    "Name": "Wyman, McLaughlin and Davis",
+    "ToolTip": "Ea accusamus reiciendis odio quo.",
     "Deleted": false,
-    "Rank": 701,
-    "Type": "numquam",
-    "ColorBlock": 559,
-    "IconHint": "voluptatem",
+    "Rank": 637,
+    "Type": "vero",
+    "ColorBlock": 191,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2000-07-17T03:24:52.3494474+02:00",
+    "LastChanged": "2004-11-29T11:06:42.9597004+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Collier-Jenkins",
-        "ToolTip": "Provident est praesentium atque modi culpa.",
-        "Deleted": false,
-        "Rank": 441,
-        "Type": "ducimus",
-        "ColorBlock": 928,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2002-01-03T03:24:52.3494474+01:00",
+        "Id": 767,
+        "Name": "Roob Group",
+        "ToolTip": "Facere et sed eveniet.",
+        "Deleted": true,
+        "Rank": 721,
+        "Type": "maxime",
+        "ColorBlock": 632,
+        "IconHint": "exercitationem",
+        "Selected": true,
+        "LastChanged": "2017-05-14T11:06:42.9597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "quia",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Regan Kohler",
+        "FullName": "Miss Giovanna Harber Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 658
+            "FieldLength": 259
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
+    "ExtraInfo": "et",
     "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Prof. Candelario Tromp IV",
+    "FullName": "Mr. Cordie Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 320
       }
     }
   }

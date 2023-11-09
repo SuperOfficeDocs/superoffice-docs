@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cremin Inc and Sons",
-    "Description": "Multi-tiered user-facing neural-net",
+    "Name": "Jerde, Bashirian and Leannon",
+    "Description": "Proactive analyzing architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 171,
-        "Tooltip": "reiciendis",
-        "CanAssign": true,
-        "Free": 923,
-        "InUse": 821,
-        "IsHidden": true,
+        "Total": 857,
+        "Tooltip": "aspernatur",
+        "CanAssign": false,
+        "Free": 442,
+        "InUse": 998,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 717,
-        "Name": "Goyette LLC",
-        "Description": "Realigned global firmware",
-        "PrerequisiteModuleName": "Fritsch-Wilkinson",
-        "SortOrder": 963,
-        "ExtraFlags": 654,
+        "ModuleLicenseId": 391,
+        "Name": "Davis-Fisher",
+        "Description": "Open-source multi-state adapter",
+        "PrerequisiteModuleName": "Block, Kulas and Sawayn",
+        "SortOrder": 391,
+        "ExtraFlags": 79,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldType": "System.Int32",
+            "FieldLength": 437
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "placeat",
+        "Total": 239,
+        "Tooltip": "officia",
         "CanAssign": false,
-        "Free": 680,
-        "InUse": 29,
+        "Free": 990,
+        "InUse": 221,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 123,
-        "Name": "Bailey, Bradtke and Schroeder",
-        "Description": "User-friendly zero defect moderator",
-        "PrerequisiteModuleName": "Frami LLC",
-        "SortOrder": 945,
-        "ExtraFlags": 22,
+        "ModuleLicenseId": 848,
+        "Name": "Veum-Haag",
+        "Description": "Multi-channelled 24/7 monitoring",
+        "PrerequisiteModuleName": "O'Keefe Group",
+        "SortOrder": 343,
+        "ExtraFlags": 712,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 827
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 240
       }
     }
   },
   {
-    "Name": "Cremin Inc and Sons",
-    "Description": "Multi-tiered user-facing neural-net",
+    "Name": "Jerde, Bashirian and Leannon",
+    "Description": "Proactive analyzing architecture",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 171,
-        "Tooltip": "reiciendis",
-        "CanAssign": true,
-        "Free": 923,
-        "InUse": 821,
-        "IsHidden": true,
+        "Total": 857,
+        "Tooltip": "aspernatur",
+        "CanAssign": false,
+        "Free": 442,
+        "InUse": 998,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 717,
-        "Name": "Goyette LLC",
-        "Description": "Realigned global firmware",
-        "PrerequisiteModuleName": "Fritsch-Wilkinson",
-        "SortOrder": 963,
-        "ExtraFlags": 654,
+        "ModuleLicenseId": 391,
+        "Name": "Davis-Fisher",
+        "Description": "Open-source multi-state adapter",
+        "PrerequisiteModuleName": "Block, Kulas and Sawayn",
+        "SortOrder": 391,
+        "ExtraFlags": 79,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 73
+            "FieldType": "System.Int32",
+            "FieldLength": 437
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 493,
-        "Tooltip": "placeat",
+        "Total": 239,
+        "Tooltip": "officia",
         "CanAssign": false,
-        "Free": 680,
-        "InUse": 29,
+        "Free": 990,
+        "InUse": 221,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 123,
-        "Name": "Bailey, Bradtke and Schroeder",
-        "Description": "User-friendly zero defect moderator",
-        "PrerequisiteModuleName": "Frami LLC",
-        "SortOrder": 945,
-        "ExtraFlags": 22,
+        "ModuleLicenseId": 848,
+        "Name": "Veum-Haag",
+        "Description": "Multi-channelled 24/7 monitoring",
+        "PrerequisiteModuleName": "O'Keefe Group",
+        "SortOrder": 343,
+        "ExtraFlags": 712,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 827
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 240
       }
     }
   }

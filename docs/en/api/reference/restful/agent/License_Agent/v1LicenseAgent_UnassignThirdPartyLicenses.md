@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 674,
-  "ModuleOwner": "inventore",
+  "AssociateId": 15,
+  "ModuleOwner": "perferendis",
   "ModuleLicenseNames": [
-    "Langosh LLC",
-    "Frami Inc and Sons"
+    "Murazik LLC",
+    "Hagenes, Price and Farrell"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 540,
-    "Tooltip": "aut",
+    "Total": 986,
+    "Tooltip": "et",
     "CanAssign": true,
-    "Free": 24,
-    "InUse": 36,
-    "IsHidden": false,
+    "Free": 452,
+    "InUse": 528,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 672,
-    "Name": "Heaney-Howe",
-    "Description": "Cross-platform intangible secured line",
-    "PrerequisiteModuleName": "Donnelly-Deckow",
-    "SortOrder": 563,
-    "ExtraFlags": 381,
+    "ModuleLicenseId": 838,
+    "Name": "O'Reilly-Johns",
+    "Description": "Re-contextualized user-facing customer loyalty",
+    "PrerequisiteModuleName": "Hamill, Brekke and Hyatt",
+    "SortOrder": 117,
+    "ExtraFlags": 470,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

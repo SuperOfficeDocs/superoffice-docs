@@ -102,16 +102,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 466,
+  "DocId": 590,
   "AttachmentIds": [
-    "asperiores",
-    "rem"
+    "vel",
+    "eligendi"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -124,148 +124,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 151,
-      "ContactName": "Stamm-Smitham",
-      "PersonId": 595,
-      "PersonName": "Rodriguez-Rohan",
-      "AssociateId": 409,
-      "Address": "dolor",
-      "EmailId": 300,
+      "ContactId": 986,
+      "ContactName": "Auer, Ruecker and Morar",
+      "PersonId": 128,
+      "PersonName": "Hettinger, Harber and Kutch",
+      "AssociateId": 750,
+      "Address": "natus",
+      "EmailId": 849,
       "DuplicatePersonIds": [
-        170,
-        356
+        617,
+        628
       ],
-      "Name": "Davis, Pfeffer and Ankunding",
+      "Name": "VonRueden Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 302
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 728,
-      "ContactName": "Tillman, Casper and Orn",
-      "PersonId": 289,
-      "PersonName": "Boehm Group",
-      "AssociateId": 555,
-      "Address": "voluptatum",
-      "EmailId": 29,
+      "ContactId": 278,
+      "ContactName": "Durgan-Dietrich",
+      "PersonId": 310,
+      "PersonName": "Jones, Kutch and Dickens",
+      "AssociateId": 888,
+      "Address": "est",
+      "EmailId": 47,
       "DuplicatePersonIds": [
-        328,
-        210
+        284,
+        525
       ],
-      "Name": "Ondricka, Emard and Wuckert",
+      "Name": "Mertz Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 299
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 354,
-      "ContactName": "Harber Group",
-      "PersonId": 417,
-      "PersonName": "Streich Inc and Sons",
-      "AssociateId": 754,
-      "Address": "ex",
-      "EmailId": 328,
+      "ContactId": 585,
+      "ContactName": "Stiedemann, Daugherty and Ortiz",
+      "PersonId": 150,
+      "PersonName": "Gottlieb Group",
+      "AssociateId": 612,
+      "Address": "rem",
+      "EmailId": 435,
       "DuplicatePersonIds": [
-        958,
-        881
+        552,
+        18
       ],
-      "Name": "Veum Inc and Sons",
+      "Name": "Kunde Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 365
+          "FieldLength": 496
         }
       }
     }
   ],
-  "Subject": "deleniti",
-  "HTMLBody": "sequi",
+  "Subject": "ipsam",
+  "HTMLBody": "quod",
   "From": null,
-  "Sent": "2016-12-28T03:24:47.7676476+01:00",
-  "Size": 22,
+  "Sent": "2002-05-07T11:06:34.5520595+02:00",
+  "Size": 381,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sint",
-  "PlainBody": "sit",
+  "MessageID": "natus",
+  "PlainBody": "fuga",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 358,
+  "ServerId": 994,
   "Attachments": [
     {
-      "Description": "Self-enabling full-range framework",
-      "Filename": "omnis",
-      "Size": 91,
-      "Type": "et",
-      "Encoding": "commodi",
-      "Id": "ut",
-      "Disposition": "veritatis",
-      "IsSafeFileExtension": true,
+      "Description": "Decentralized homogeneous framework",
+      "Filename": "inventore",
+      "Size": 274,
+      "Type": "nam",
+      "Encoding": "cumque",
+      "Id": "ex",
+      "Disposition": "quia",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldType": "System.Int32",
+          "FieldLength": 39
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Davis-Yost",
+      "Name": "Jacobson Inc and Sons",
       "Values": [
-        "veritatis",
-        "voluptas"
+        "recusandae",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 844
         }
       }
     },
     {
-      "Name": "Davis-Yost",
+      "Name": "Jacobson Inc and Sons",
       "Values": [
-        "veritatis",
-        "voluptas"
+        "recusandae",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 844
         }
       }
     }
   ],
-  "FolderName": "Predovic-Mayer",
-  "EmailItemId": 790,
-  "AccountId": 584,
-  "ReceivedAt": "1999-07-24T03:24:47.7676476+02:00",
+  "FolderName": "Cassin-Herman",
+  "EmailItemId": 855,
+  "AccountId": 79,
+  "ReceivedAt": "2006-09-12T11:06:34.5520595+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1996-11-12T03:24:47.7676476+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1997-04-24T11:06:34.5520595+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldLength": 823
     }
   }
 }

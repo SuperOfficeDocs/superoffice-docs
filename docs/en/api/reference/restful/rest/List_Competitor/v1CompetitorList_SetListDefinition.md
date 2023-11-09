@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 548,
-  "Name": "Jewess-Feest",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 826,
-  "IsCustomList": false,
+  "Id": 966,
+  "Name": "Friesen, Brekke and Emmerich",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "Rank": 749,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": false
+  "ListType": "odit",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 200,
-  "Name": "Corkery Group",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "Rank": 330,
+  "Id": 690,
+  "Name": "Price Group",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 600,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magni",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 270
     }
   }
 }

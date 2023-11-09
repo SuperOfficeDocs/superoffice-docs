@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Bruen Inc and Sons",
-    "ToolTip": "Similique repudiandae facilis quia et voluptatum enim.",
+    "Id": 135,
+    "Name": "Kuhic, Stamm and Robel",
+    "ToolTip": "Et eos hic accusamus repudiandae architecto accusamus.",
     "Deleted": false,
-    "Rank": 750,
-    "Type": "neque",
-    "ColorBlock": 231,
+    "Rank": 323,
+    "Type": "nulla",
+    "ColorBlock": 875,
     "IconHint": "quisquam",
     "Selected": true,
-    "LastChanged": "1998-07-04T03:24:52.2713365+02:00",
+    "LastChanged": "2011-05-10T11:06:42.8346931+02:00",
     "ChildItems": [
       {
-        "Id": 834,
-        "Name": "Toy, Mitchell and Cormier",
-        "ToolTip": "Quod hic distinctio quia et.",
+        "Id": 381,
+        "Name": "Lubowitz-Mitchell",
+        "ToolTip": "Nesciunt cumque cumque consectetur et.",
         "Deleted": true,
-        "Rank": 887,
-        "Type": "non",
-        "ColorBlock": 48,
-        "IconHint": "ex",
+        "Rank": 80,
+        "Type": "culpa",
+        "ColorBlock": 8,
+        "IconHint": "suscipit",
         "Selected": true,
-        "LastChanged": "2022-05-22T03:24:52.2713365+02:00",
+        "LastChanged": "2023-02-05T11:06:42.8346931+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Aida Runolfsdottir"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Ibrahim Haag"
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "rerum",
+    "ExtraInfo": "labore",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Katlynn Kunde"
+    "FullName": "Amie Boyer DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Pacocha LLC",
-    "ToolTip": "Suscipit totam inventore atque eum.",
+    "Id": 898,
+    "Name": "Hyatt, Ruecker and Rempel",
+    "ToolTip": "Aut repudiandae ab distinctio excepturi quod.",
     "Deleted": false,
-    "Rank": 833,
-    "Type": "esse",
-    "ColorBlock": 440,
-    "IconHint": "cupiditate",
+    "Rank": 750,
+    "Type": "dolor",
+    "ColorBlock": 908,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2001-01-08T03:24:52.2713365+01:00",
+    "LastChanged": "2005-01-22T11:06:42.8346931+01:00",
     "ChildItems": [
       {
-        "Id": 282,
-        "Name": "Ledner-Lueilwitz",
-        "ToolTip": "Vero fugit molestiae non voluptatem quod minima eligendi.",
+        "Id": 566,
+        "Name": "Murray, Blanda and Sauer",
+        "ToolTip": "Quas magni.",
         "Deleted": false,
-        "Rank": 738,
-        "Type": "temporibus",
-        "ColorBlock": 975,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2008-07-26T03:24:52.2713365+02:00",
+        "Rank": 464,
+        "Type": "quia",
+        "ColorBlock": 338,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2015-04-02T11:06:42.8346931+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "aut",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Madie Kautzer",
+        "FullName": "Prof. Maximillian Heidenreich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldType": "System.String",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Monte Wilderman",
+    "ExtraInfo": "a",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Santina Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldType": "System.String",
+        "FieldLength": 23
       }
     }
   }

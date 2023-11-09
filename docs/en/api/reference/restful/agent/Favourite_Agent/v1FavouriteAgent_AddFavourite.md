@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bahringer Group",
-  "RecordId": 478,
-  "AssociateId": 775,
-  "ExtraInfo": "in"
+  "TableName": "Cronin, Doyle and Carter",
+  "RecordId": 971,
+  "AssociateId": 131,
+  "ExtraInfo": "officiis"
 }
 ```
 

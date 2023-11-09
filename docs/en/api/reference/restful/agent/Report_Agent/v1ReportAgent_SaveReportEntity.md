@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 739,
+  "ReportId": 410,
   "ReportCategory": "All",
-  "Description": "Polarised mobile monitoring",
+  "Description": "Cloned heuristic productivity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Schmeler-Graham",
-  "AssociateId": 751,
-  "TemplateId": 286,
+  "Name": "Rolfson, Ebert and Hirthe",
+  "AssociateId": 889,
+  "TemplateId": 25,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 613,
+  "ReportId": 757,
   "ReportCategory": "All",
-  "Description": "Robust radical functionalities",
+  "Description": "Optional impactful matrix",
   "ReportLayout": "CalendarMonth",
-  "Name": "Lynch-Lakin",
-  "AssociateId": 925,
-  "TemplateId": 680,
+  "Name": "Flatley-Bayer",
+  "AssociateId": 503,
+  "TemplateId": 420,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 244
     }
   }
 }

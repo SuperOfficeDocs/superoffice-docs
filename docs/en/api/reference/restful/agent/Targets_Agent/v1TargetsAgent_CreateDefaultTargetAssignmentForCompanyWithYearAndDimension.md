@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 155,
-  "TargetDimensionId": 100
+  "Year": 77,
+  "TargetDimensionId": 233
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 369,
+    "TargetAssignmentInfoId": 402,
     "Values": [
-      61,
-      469
+      947,
+      605
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 774,
-    "DimensionListItemDisplayName": "Wisoky, Goodwin and Reilly",
+    "DimensionListItem": 392,
+    "DimensionListItemDisplayName": "Jenkins Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 154
       }
     }
   }

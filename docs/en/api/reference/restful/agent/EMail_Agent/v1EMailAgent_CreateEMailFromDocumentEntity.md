@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 50,
-      "ContactName": "Smitham-Reichel",
-      "PersonId": 85,
-      "PersonName": "Greenholt Group",
-      "AssociateId": 143,
-      "Address": "vel",
-      "EmailId": 360,
+      "ContactId": 11,
+      "ContactName": "Sawayn Inc and Sons",
+      "PersonId": 313,
+      "PersonName": "Kozey Inc and Sons",
+      "AssociateId": 99,
+      "Address": "ipsa",
+      "EmailId": 269,
       "DuplicatePersonIds": [
-        549,
-        530
+        50,
+        169
       ],
-      "Name": "Emard, Ratke and Stiedemann",
+      "Name": "Reynolds LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 553
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 317,
-      "ContactName": "Johnson LLC",
-      "PersonId": 438,
-      "PersonName": "Wisoky Group",
-      "AssociateId": 181,
-      "Address": "repellat",
-      "EmailId": 428,
+      "ContactId": 943,
+      "ContactName": "Kiehn-Kessler",
+      "PersonId": 288,
+      "PersonName": "Wunsch-Reichert",
+      "AssociateId": 288,
+      "Address": "molestiae",
+      "EmailId": 979,
       "DuplicatePersonIds": [
-        873,
-        574
+        728,
+        72
       ],
-      "Name": "Connelly, Schimmel and Kris",
+      "Name": "Hettinger Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 720
+          "FieldLength": 18
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 749,
-      "ContactName": "Jast, Windler and Gutkowski",
-      "PersonId": 802,
-      "PersonName": "Abshire, Ward and Pollich",
-      "AssociateId": 518,
-      "Address": "dolor",
-      "EmailId": 350,
+      "ContactId": 658,
+      "ContactName": "Romaguera Group",
+      "PersonId": 88,
+      "PersonName": "Nienow-Armstrong",
+      "AssociateId": 621,
+      "Address": "aliquam",
+      "EmailId": 786,
       "DuplicatePersonIds": [
-        480,
-        308
+        77,
+        787
       ],
-      "Name": "Macejkovic Inc and Sons",
+      "Name": "Schneider, Auer and Reichel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 99
+          "FieldLength": 855
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "quasi",
+  "Subject": "laborum",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "1999-04-21T03:24:47.7676476+02:00",
-  "Size": 367,
+  "Sent": "2018-10-28T11:06:34.5520595+01:00",
+  "Size": 794,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "velit",
-  "PlainBody": "quam",
+  "MessageID": "rerum",
+  "PlainBody": "ea",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 29,
+  "ServerId": 522,
   "Attachments": [
     {
-      "Description": "Extended motivating budgetary management",
-      "Filename": "quas",
-      "Size": 987,
-      "Type": "et",
-      "Encoding": "id",
-      "Id": "eaque",
-      "Disposition": "ea",
+      "Description": "Distributed background encryption",
+      "Filename": "voluptas",
+      "Size": 190,
+      "Type": "accusantium",
+      "Encoding": "dignissimos",
+      "Id": "aut",
+      "Disposition": "consequatur",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldType": "System.String",
+          "FieldLength": 854
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schuster LLC",
+      "Name": "Will-Hauck",
       "Values": [
-        "perferendis",
-        "modi"
+        "corporis",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 465
         }
       }
     },
     {
-      "Name": "Schuster LLC",
+      "Name": "Will-Hauck",
       "Values": [
-        "perferendis",
-        "modi"
+        "corporis",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 465
         }
       }
     }
   ],
-  "FolderName": "Jenkins-Wuckert",
-  "EmailItemId": 38,
-  "AccountId": 643,
-  "ReceivedAt": "2013-11-01T03:24:47.7676476+01:00",
+  "FolderName": "Block, Rutherford and Wilkinson",
+  "EmailItemId": 1001,
+  "AccountId": 869,
+  "ReceivedAt": "2014-02-05T11:06:34.5520595+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-12-30T03:24:47.7676476+01:00",
+  "RepliedAt": "2003-07-25T11:06:34.5520595+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 352
     }
   }
 }

@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Durgan, Bode and McLaughlin"
+  "OwnerName": "Lindgren Group"
 }
 ```
 

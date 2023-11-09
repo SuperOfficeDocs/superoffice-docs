@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=qui
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=saepe
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Cartwright Group",
-    "ToolTip": "Minima qui earum dignissimos corporis.",
-    "Deleted": false,
-    "Rank": 841,
-    "Type": "omnis",
+    "Id": 714,
+    "Name": "Ernser LLC",
+    "ToolTip": "Fuga et temporibus blanditiis inventore praesentium voluptatibus.",
+    "Deleted": true,
+    "Rank": 854,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "Swift, Leannon and Hane",
-        "ToolTip": "Modi iure modi et eos et at alias.",
-        "Deleted": true,
-        "Rank": 463,
-        "Type": "explicabo",
+        "Id": 231,
+        "Name": "Harris, Rolfson and Macejkovic",
+        "ToolTip": "Doloremque omnis eum.",
+        "Deleted": false,
+        "Rank": 968,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 919,
-        "ExtraInfo": "ad",
-        "StyleHint": "alias",
-        "FullName": "Lilla Wehner",
+        "IconHint": "architecto",
+        "ColorBlock": 327,
+        "ExtraInfo": "suscipit",
+        "StyleHint": "voluptatum",
+        "FullName": "Miss Dusty Walker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 625
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 709,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "occaecati",
-    "FullName": "Freddie Von",
+    "IconHint": "ad",
+    "ColorBlock": 893,
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
+    "FullName": "Mrs. Gregoria Merl Hilll Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 372
       }
     }
   }

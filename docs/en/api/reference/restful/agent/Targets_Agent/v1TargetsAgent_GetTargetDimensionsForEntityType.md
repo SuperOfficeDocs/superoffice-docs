@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 987,
+    "TargetDimensionId": 140,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "alias",
-    "DimensionListName": "Kohler, Wilderman and Kuvalis",
-    "DimensionListId": 403,
-    "DimensionListLabel": "quia",
+    "DimensionListField": "nam",
+    "DimensionListName": "Douglas Group",
+    "DimensionListId": 916,
+    "DimensionListLabel": "rerum",
     "SelectedDimensions": [
-      151,
-      938
+      761,
+      713
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 326
+        "FieldType": "System.Int32",
+        "FieldLength": 49
       }
     }
   }

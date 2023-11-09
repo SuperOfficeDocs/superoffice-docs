@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette-Gorczany",
-    "DisplayName": "Gleason, Tremblay and Stiedemann",
-    "DisplayTooltip": "cumque",
+    "Name": "Dickens LLC",
+    "DisplayName": "Mosciski, Klein and Little",
+    "DisplayTooltip": "sunt",
     "IsActive": false
   },
   {
-    "Name": "Goyette-Gorczany",
-    "DisplayName": "Gleason, Tremblay and Stiedemann",
-    "DisplayTooltip": "cumque",
+    "Name": "Dickens LLC",
+    "DisplayName": "Mosciski, Klein and Little",
+    "DisplayTooltip": "sunt",
     "IsActive": false
   }
 ]

@@ -735,7 +735,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelection?$select=status,ownedBy/credentialType,sale/activeErpLinks,sale/associate/simultaneousEjUser,sale/associate/personEmail
+GET /api/v1/archive/TicketShadowDynamicSelection?$select=createdBy/contactFullName,contact/deletedDate,sale/activeErpLinks,project/projectAssociate/lastName,project/LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

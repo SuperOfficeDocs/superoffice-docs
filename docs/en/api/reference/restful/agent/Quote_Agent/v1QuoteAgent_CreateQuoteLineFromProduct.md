@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 306,
+  "QuoteAlternativeId": 211,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 842,
-  "ERPQuoteLineKey": "quos",
-  "QuoteAlternativeId": 151,
-  "ERPProductKey": "aspernatur",
+  "QuoteLineId": 317,
+  "ERPQuoteLineKey": "ad",
+  "QuoteAlternativeId": 558,
+  "ERPProductKey": "quod",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25078.268,
-  "DeliveredQuantity": 26617.061999999998,
-  "Rank": 972,
-  "Name": "Lubowitz-Hackett",
-  "Description": "Quality-focused actuating firmware",
-  "Code": "inventore",
-  "QuantityUnit": "dolorem",
-  "PriceUnit": "repudiandae",
-  "ItemNumber": "820189",
+  "Quantity": 15789.091999999999,
+  "DeliveredQuantity": 18080.046,
+  "Rank": 334,
+  "Name": "Stanton-Runte",
+  "Description": "Team-oriented tangible architecture",
+  "Code": "voluptatum",
+  "QuantityUnit": "adipisci",
+  "PriceUnit": "ea",
+  "ItemNumber": "942095",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptates",
-  "ProductTypeKey": "modi",
-  "Supplier": "quibusdam",
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "culpa",
+  "Supplier": "dolores",
   "SupplierCode": "quisquam",
-  "Thumbnail": "et",
-  "VATInfo": "tempore",
-  "VAT": 7762.918,
-  "UnitCost": 28130.784,
-  "UnitMinimumPrice": 28390.906,
-  "UnitListPrice": 3281.298,
+  "Thumbnail": "enim",
+  "VATInfo": "voluptatem",
+  "VAT": 11495.511999999999,
+  "UnitCost": 10367.271999999999,
+  "UnitMinimumPrice": 22643.149999999998,
+  "UnitListPrice": 14306.71,
   "ExtraInfo": [
     {
-      "Name": "Bashirian-Lind",
-      "Value": "vel",
+      "Name": "Pouros-Stamm",
+      "Value": "nemo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 311
         }
       }
     },
     {
-      "Name": "Bashirian-Lind",
-      "Value": "vel",
+      "Name": "Pouros-Stamm",
+      "Value": "nemo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 311
         }
       }
     }
   ],
-  "RawExtraInfo": "perferendis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "distinctio",
-  "SubscriptionQuantity": 30569.036,
-  "SubscriptionStart": "2021-06-26T03:24:48.1582254+02:00",
-  "ERPDiscountPercent": 30359.057999999997,
-  "ERPDiscountAmount": 3930.036,
-  "DiscountPercent": 19998.054,
-  "DiscountAmount": 27218.79,
+  "RawExtraInfo": "aut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "possimus",
+  "SubscriptionQuantity": 17011.352,
+  "SubscriptionStart": "2001-12-05T11:06:35.2395651+01:00",
+  "ERPDiscountPercent": 26773.762,
+  "ERPDiscountAmount": 11523.717999999999,
+  "DiscountPercent": 14798.748,
+  "DiscountAmount": 1087.498,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 19358.718,
-  "EarningAmount": 11078.69,
-  "SubTotal": 6515.586,
-  "TotalPrice": 3312.638,
-  "Rights": "distinctio",
-  "Rule": "et",
+  "EarningPercent": 25595.378,
+  "EarningAmount": 10874.98,
+  "SubTotal": 16544.386,
+  "TotalPrice": 29581.825999999997,
+  "Rights": "dolor",
+  "Rule": "expedita",
   "ExtraField1": "ut",
-  "ExtraField2": "harum",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "exercitationem",
+  "ExtraField2": "accusamus",
+  "ExtraField3": "velit",
+  "ExtraField4": "aut",
+  "ExtraField5": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 751
     }
   }
 }

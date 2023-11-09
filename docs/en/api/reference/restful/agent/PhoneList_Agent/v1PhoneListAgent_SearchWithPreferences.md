@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "deserunt",
+  "SearchString": "omnis",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "804.647.3540",
-    "PersonCellPhone": "(602)413-9178",
-    "PersonPrivatePhone": "733.371.5725",
-    "PersonFaxNumber": "1403502",
-    "PersonPagerNumber": "925265",
-    "PersonEmail": "roma@feil.biz",
-    "Id": 818,
-    "Name": "Larson, Heidenreich and Bode",
-    "Tooltip": "beatae",
-    "UniqueId": "ea",
+    "PersonDirectPhone": "810.017.5904 x6847",
+    "PersonCellPhone": "(196)440-6337 x0338",
+    "PersonPrivatePhone": "599.331.6199 x70843",
+    "PersonFaxNumber": "821758",
+    "PersonPagerNumber": "1170795",
+    "PersonEmail": "solon@crooks.biz",
+    "Id": 328,
+    "Name": "Gerhold, Wisozk and Nader",
+    "Tooltip": "exercitationem",
+    "UniqueId": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 944
+        "FieldType": "System.Int32",
+        "FieldLength": 590
       }
     }
   }

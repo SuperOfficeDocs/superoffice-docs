@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 326,
-  "DocumentId": 562,
+  "SelectionId": 561,
+  "DocumentId": 328,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "esse",
-  "AlwaysUseCustomAttention": false,
-  "SaveDocument": true,
-  "CustomMailBody": "atque",
+  "CustomAttention": "eius",
+  "AlwaysUseCustomAttention": true,
+  "SaveDocument": false,
+  "CustomMailBody": "amet",
   "TaskEntity": null,
-  "AddCompanyInterest": 505,
-  "AddPersonInterest": 15,
-  "RemoveCompanyInterest": 396,
-  "RemovePersonInterest": 897,
+  "AddCompanyInterest": 764,
+  "AddPersonInterest": 287,
+  "RemoveCompanyInterest": 576,
+  "RemovePersonInterest": 423,
   "IncludeNoMailingsRecipient": false,
-  "TestOnly": true,
-  "ProjectId": 823,
-  "IncludeRetiredRecipients": false,
+  "TestOnly": false,
+  "ProjectId": 46,
+  "IncludeRetiredRecipients": true,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "voluptatibus",
-  "ExtraInfo": "nihil",
-  "Synchronous": false,
-  "IsTemporarySelection": true,
+  "CustomMailSubject": "consectetur",
+  "ExtraInfo": "in",
+  "Synchronous": true,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldLength": 850
     }
   }
 }

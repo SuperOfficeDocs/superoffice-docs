@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 560,
-    "Name": "Wehner, Champlin and Kirlin",
-    "PersonId": 490,
-    "Rank": 500,
-    "Tooltip": "dicta",
+    "AssociateId": 169,
+    "Name": "Tillman-Hansen",
+    "PersonId": 65,
+    "Rank": 18,
+    "Tooltip": "provident",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 727,
-    "FullName": "Ms. Sydni Heathcote IV",
-    "FormalName": "Wisoky, Kris and Weimann",
-    "Deleted": true,
-    "EjUserId": 998,
-    "UserName": "VonRueden-Kling",
+    "GroupIdx": 726,
+    "FullName": "Miss Ezekiel Pacocha",
+    "FormalName": "Satterfield Group",
+    "Deleted": false,
+    "EjUserId": 54,
+    "UserName": "Dooley-Zemlak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldType": "System.String",
+        "FieldLength": 850
       }
     }
   }

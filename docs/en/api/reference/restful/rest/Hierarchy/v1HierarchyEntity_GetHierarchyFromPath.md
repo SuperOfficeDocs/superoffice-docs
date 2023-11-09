@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=True
+GET /api/v1/Hierarchy/{domain}/{path}?children=False
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 926,
+  "HierarchyId": 186,
   "Domain": "Dashboards",
-  "Name": "Corwin-Goldner",
-  "Fullname": "vel",
-  "ParentId": 871,
+  "Name": "Donnelly, Watsica and Hyatt",
+  "Fullname": "quis",
+  "ParentId": 668,
   "Children": [
     {
-      "HierarchyId": 459,
+      "HierarchyId": 638,
       "Domain": "Dashboards",
-      "Name": "Stehr, Zulauf and Mueller",
-      "Fullname": "deserunt",
-      "ParentId": 355,
+      "Name": "Nader, Pacocha and Osinski",
+      "Fullname": "illo",
+      "ParentId": 811,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-07-28T03:24:51.630601+02:00",
-      "RegisteredAssociateId": 825,
-      "Updated": "2009-08-07T03:24:51.630601+02:00",
-      "UpdatedAssociateId": 165,
+      "Registered": "2009-09-27T11:06:41.9103479+02:00",
+      "RegisteredAssociateId": 764,
+      "Updated": "2007-08-16T11:06:41.9103479+02:00",
+      "UpdatedAssociateId": 37,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 94
         }
       }
     }
   ],
-  "Registered": "2006-04-26T03:24:51.630601+02:00",
-  "RegisteredAssociateId": 366,
-  "Updated": "2022-09-15T03:24:51.630601+02:00",
-  "UpdatedAssociateId": 52,
+  "Registered": "2016-11-30T11:06:41.9103479+01:00",
+  "RegisteredAssociateId": 192,
+  "Updated": "2012-08-14T11:06:41.9103479+02:00",
+  "UpdatedAssociateId": 31,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldLength": 91
     }
   }
 }

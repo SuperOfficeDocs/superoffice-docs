@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Gislason Group",
-    "ToolTip": "Reiciendis et dolores dolor voluptatem voluptatum itaque odit.",
-    "Deleted": true,
-    "Rank": 788,
-    "Type": "facere",
-    "ColorBlock": 978,
-    "IconHint": "ullam",
+    "Id": 18,
+    "Name": "Walter-Davis",
+    "ToolTip": "Nemo occaecati ad praesentium dolor molestiae et voluptas.",
+    "Deleted": false,
+    "Rank": 69,
+    "Type": "at",
+    "ColorBlock": 888,
+    "IconHint": "rem",
     "Selected": true,
-    "LastChanged": "2015-05-06T03:24:52.3650758+02:00",
+    "LastChanged": "2003-06-10T11:06:42.9753225+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Pacocha-Senger",
-        "ToolTip": "Et recusandae.",
+        "Id": 388,
+        "Name": "Hartmann-Mills",
+        "ToolTip": "Velit ratione fugit facere autem quisquam.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "et",
-        "ColorBlock": 696,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1997-10-27T03:24:52.3650758+01:00",
+        "Rank": 708,
+        "Type": "nisi",
+        "ColorBlock": 411,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2005-06-27T11:06:42.9753225+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Victor DuBuque",
+        "ExtraInfo": "sit",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Hassan Luettgen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 29
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Thora Christiansen",
+    "FullName": "Mrs. Leslie Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 943
       }
     }
   }

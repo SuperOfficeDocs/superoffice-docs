@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEventResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,14 +68,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventType": "Click",
-  "Attributes": "architecto",
+  "EventType": "AddedMessage",
+  "Attributes": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 859
     }
   }
 }

@@ -76,19 +76,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 529,
-    "Name": "Mayert-Boehm",
+    "AttachmentId": 488,
+    "Name": "Schulist, Huels and Beier",
     "ContentType": "et",
-    "AttSize": 472,
+    "AttSize": 395,
     "InlineImage": false,
-    "ContentId": "consectetur",
-    "AuthKey": "tempora",
+    "ContentId": "numquam",
+    "AuthKey": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 806
       }
     }
   }

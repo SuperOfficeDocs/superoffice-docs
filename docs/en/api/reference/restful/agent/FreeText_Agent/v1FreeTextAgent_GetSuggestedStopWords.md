@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 275
+  "CountWords": 21
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Hahn Group",
-    "ToolTip": "Eaque odio et ut molestiae dolorem vero dolore.",
-    "Deleted": false,
-    "Rank": 907,
-    "Type": "nobis",
+    "Id": 77,
+    "Name": "Flatley-Quitzon",
+    "ToolTip": "Sed sit nobis qui qui qui.",
+    "Deleted": true,
+    "Rank": 514,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Murray-Kulas",
-        "ToolTip": "Aut excepturi ab voluptates.",
-        "Deleted": false,
-        "Rank": 597,
-        "Type": "deserunt",
+        "Id": 432,
+        "Name": "West-Barton",
+        "ToolTip": "Aperiam numquam enim consequatur voluptas.",
+        "Deleted": true,
+        "Rank": 46,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quaerat",
-        "ColorBlock": 95,
-        "ExtraInfo": "est",
-        "StyleHint": "voluptate",
-        "FullName": "Brock Davis",
+        "IconHint": "est",
+        "ColorBlock": 503,
+        "ExtraInfo": "delectus",
+        "StyleHint": "est",
+        "FullName": "Willie Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 261
+            "FieldLength": 589
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 977,
-    "ExtraInfo": "debitis",
-    "StyleHint": "est",
-    "FullName": "Miss Daisha Mosciski",
+    "IconHint": "ratione",
+    "ColorBlock": 711,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "delectus",
+    "FullName": "Prof. Yasmeen Boyer Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 753
       }
     }
   }

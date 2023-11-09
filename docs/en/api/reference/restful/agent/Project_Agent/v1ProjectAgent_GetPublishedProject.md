@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 175
+  "ProjectId": 707
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 613,
-  "Name": "Macejkovic Inc and Sons",
-  "Description": "Phased value-added complexity",
+  "ProjectId": 916,
+  "Name": "Berge Inc and Sons",
+  "Description": "Streamlined mobile service-desk",
   "URL": "http://www.example.com/",
-  "Type": "provident",
-  "AssociateId": 419,
-  "AssociateFullName": "Miss Jaylan Carolina Mann V",
-  "TypeId": 359,
-  "Updated": "2018-08-23T03:24:48.0957311+02:00",
-  "StatusId": 671,
-  "Status": "maiores",
-  "TextId": 518,
-  "PublishTo": "2023-04-21T03:24:48.0957311+02:00",
-  "PublishFrom": "2000-10-15T03:24:48.0957311+02:00",
-  "IsPublished": false,
+  "Type": "ullam",
+  "AssociateId": 925,
+  "AssociateFullName": "Nolan Sanford",
+  "TypeId": 593,
+  "Updated": "2012-01-19T11:06:35.1614465+01:00",
+  "StatusId": 142,
+  "Status": "facilis",
+  "TextId": 795,
+  "PublishTo": "2021-11-01T11:06:35.1614465+01:00",
+  "PublishFrom": "2013-02-15T11:06:35.1614465+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "614511",
-  "ActiveErpLinks": 486,
+  "ProjectNumber": "1300505",
+  "ActiveErpLinks": 753,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 261
     }
   }
 }

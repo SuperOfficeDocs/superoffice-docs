@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 666,
-  "Name": "Kuvalis-Kilback",
-  "Config": "veritatis",
-  "Rank": 760,
-  "Client": "dolor",
-  "Style": "consequuntur",
+  "DashboardThemeId": 175,
+  "Name": "Swift, Kreiger and Little",
+  "Config": "laudantium",
+  "Rank": 298,
+  "Client": "repudiandae",
+  "Style": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   }
 }

@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sauer Inc and Sons",
-    "Description": "Implemented tangible extranet",
-    "Rank": 886,
+    "Name": "Blanda Group",
+    "Description": "Right-sized client-server extranet",
+    "Rank": 583,
     "Restrictions": [
       {
-        "Name": "Kohler-Orn",
-        "Operator": "totam",
+        "Name": "DuBuque-Watsica",
+        "Operator": "blanditiis",
         "Values": [
-          "itaque",
-          "vel"
+          "voluptates",
+          "quia"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "et"
+          "laudantium",
+          "magnam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 543,
+        "InterParenthesis": 418,
         "InterOperator": "And",
-        "UniqueHash": 395
+        "UniqueHash": 837
       }
     ]
   },
   {
-    "Name": "Sauer Inc and Sons",
-    "Description": "Implemented tangible extranet",
-    "Rank": 886,
+    "Name": "Blanda Group",
+    "Description": "Right-sized client-server extranet",
+    "Rank": 583,
     "Restrictions": [
       {
-        "Name": "Kohler-Orn",
-        "Operator": "totam",
+        "Name": "DuBuque-Watsica",
+        "Operator": "blanditiis",
         "Values": [
-          "itaque",
-          "vel"
+          "voluptates",
+          "quia"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "et"
+          "laudantium",
+          "magnam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 543,
+        "InterParenthesis": 418,
         "InterOperator": "And",
-        "UniqueHash": 395
+        "UniqueHash": 837
       }
     ]
   }

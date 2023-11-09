@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 222,
+  "ErpConnectionId": 250,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "velit",
-    "Rank": 572,
-    "DisplayName": "Smitham-Larson",
-    "DisplayDescription": "Exclusive mobile concept",
+    "FieldKey": "molestiae",
+    "Rank": 319,
+    "DisplayName": "Crona-Kuhic",
+    "DisplayDescription": "Assimilated global collaboration",
     "FieldType": "Checkbox",
-    "ListName": "Jewess-Collins",
-    "DefaultValue": "est",
-    "MaxLength": 2,
+    "ListName": "Gislason-Bernier",
+    "DefaultValue": "laborum",
+    "MaxLength": 80,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldType": "System.String",
+        "FieldLength": 293
       }
     }
   }

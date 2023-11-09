@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 71,
-  "Name": "Weimann, Rohan and Dicki",
-  "Tooltip": "et",
+  "Id": 928,
+  "Name": "Purdy, Hane and Mann",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 121,
+  "Rank": 74,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "ListType": "iste",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 976
     }
   },
   "_Links": {

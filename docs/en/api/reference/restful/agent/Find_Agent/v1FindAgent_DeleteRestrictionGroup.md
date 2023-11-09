@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Wolf LLC",
-  "StorageKey": "saepe",
-  "Rank": 263,
-  "Context": "voluptate"
+  "StorageType": "corrupti",
+  "ProviderName": "Rosenbaum Inc and Sons",
+  "StorageKey": "corporis",
+  "Rank": 259,
+  "Context": "qui"
 }
 ```
 

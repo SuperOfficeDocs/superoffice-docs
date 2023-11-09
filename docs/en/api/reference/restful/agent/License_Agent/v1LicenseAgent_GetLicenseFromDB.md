@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Rice, Lesch and Gislason"
+  "OwnerName": "Morar, West and Runte"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 384,
-      "NumberOfLicensesFree": 380,
-      "NumberOfLicensesAdded": 315,
-      "NumberOfLicensesNewTotal": 677,
-      "NumberOfLicensesNewFree": 622,
-      "NumberOfLicensesTotal": 487
+      "NumberOfLicensesInUse": 783,
+      "NumberOfLicensesFree": 403,
+      "NumberOfLicensesAdded": 358,
+      "NumberOfLicensesNewTotal": 508,
+      "NumberOfLicensesNewFree": 159,
+      "NumberOfLicensesTotal": 119
     }
   ],
-  "AccumulatedNextCheckDate": "2021-01-17T03:24:47.8301403+01:00"
+  "AccumulatedNextCheckDate": "2019-10-26T11:06:34.6458113+02:00"
 }
 ```

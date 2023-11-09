@@ -88,18 +88,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Green-Tillman",
-  "ForceFlatList": false,
-  "AdditionalInfo": "minus",
+  "Name": "Casper-Jerde",
+  "ForceFlatList": true,
+  "AdditionalInfo": "ut",
   "HistoryItems": [
-    278,
-    528
+    118,
+    416
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Moore LLC",
-    "ToolTip": "Accusantium ratione nobis.",
-    "Deleted": true,
-    "Rank": 744,
-    "Type": "ullam",
+    "Id": 345,
+    "Name": "Reichel-Ritchie",
+    "ToolTip": "Distinctio animi.",
+    "Deleted": false,
+    "Rank": 847,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 663,
-        "Name": "Rau LLC",
-        "ToolTip": "Molestias omnis at.",
-        "Deleted": false,
-        "Rank": 835,
-        "Type": "et",
+        "Id": 595,
+        "Name": "Kuhic-Barton",
+        "ToolTip": "Dolorum quia eum.",
+        "Deleted": true,
+        "Rank": 104,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 536,
-        "ExtraInfo": "fuga",
-        "StyleHint": "modi",
-        "FullName": "Jessie Skiles Sr.",
+        "IconHint": "consequatur",
+        "ColorBlock": 455,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "magni",
+        "FullName": "Maiya Nolan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldType": "System.String",
+            "FieldLength": 723
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 469,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sit",
-    "FullName": "Devon Raynor",
+    "IconHint": "autem",
+    "ColorBlock": 935,
+    "ExtraInfo": "nihil",
+    "StyleHint": "eos",
+    "FullName": "Miss Estel Mraz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 916
       }
     }
   }

@@ -37,6 +37,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [GetTicketAttachments](getticketattachments.md)
 * [GetTicketEntity](getticketentity.md)
 * [GetTicketMessage](getticketmessage.md)
+* [GetTicketMessageEntities](getticketmessageentities.md)
 * [GetTicketMessageEntity](getticketmessageentity.md)
 * [GetTicketMessageWithEmbeddedData](getticketmessagewithembeddeddata.md)
 * [GetTicketMessageWithOptions](getticketmessagewithoptions.md)

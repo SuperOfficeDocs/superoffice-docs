@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 12 Sep 2001 03:24:51 G9T
+Last-Modified: Sun, 11 Feb 2018 11:06:41 G2T
 
 {
-  "SourceContactId": 382,
-  "SourcePersonId": 466,
-  "DestinationContactId": 167,
-  "DestinationPersonId": 544,
-  "RelationId": 68,
-  "Comment": "cupiditate",
-  "RelationDefinitionId": 152,
-  "Reversed": 539,
-  "UpdatedDate": "2001-09-12T03:24:51.5368575+02:00",
-  "CreatedDate": "1999-10-31T03:24:51.5368575+01:00",
+  "SourceContactId": 963,
+  "SourcePersonId": 32,
+  "DestinationContactId": 665,
+  "DestinationPersonId": 599,
+  "RelationId": 620,
+  "Comment": "incidunt",
+  "RelationDefinitionId": 101,
+  "Reversed": 283,
+  "UpdatedDate": "2018-02-11T11:06:41.7697222+01:00",
+  "CreatedDate": "1998-12-29T11:06:41.7697222+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Miller LLC",
-  "SourcePersonName": "Tromp Group",
-  "DestinationContactName": "Tromp-Huel",
-  "DestinationPersonName": "Turner, Greenfelder and Gorczany",
-  "ActiveText": "ex",
-  "PassiveText": "architecto",
+  "SourceContactName": "Gutkowski-Quigley",
+  "SourcePersonName": "Pollich, Flatley and Gislason",
+  "DestinationContactName": "Raynor LLC",
+  "DestinationPersonName": "Harris Inc and Sons",
+  "ActiveText": "eius",
+  "PassiveText": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldType": "System.String",
+      "FieldLength": 476
     }
   }
 }

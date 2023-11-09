@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "est"
+  "UniqueIdentifier": "dolor"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "iste",
-  "Name": "Kertzmann, Hermiston and Zboncak",
-  "Description": "Cross-group foreground open architecture",
-  "IncludeId": "blanditiis",
-  "Source": "sit",
-  "Registered": "2015-04-14T03:24:47.4708008+02:00",
-  "RegisteredBy": "enim",
-  "Updated": "2002-03-13T03:24:47.4708008+01:00",
-  "UpdatedBy": "veritatis",
-  "Path": "excepturi",
+  "UniqueIdentifier": "qui",
+  "Name": "Shanahan-Hartmann",
+  "Description": "Business-focused bi-directional initiative",
+  "IncludeId": "minus",
+  "Source": "quia",
+  "Registered": "2021-05-23T11:06:34.2383276+02:00",
+  "RegisteredBy": "sit",
+  "Updated": "2001-02-07T11:06:34.2383276+01:00",
+  "UpdatedBy": "error",
+  "Path": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 382
     }
   }
 }

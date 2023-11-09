@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 23 May 1997 03:24:51 G5T
+Last-Modified: Wed, 18 Apr 2007 11:06:41 G4T
 
 {
-  "ForeignAppId": 475,
-  "Name": "Parker, Lynch and O'Connell",
-  "CreatedDate": "2008-06-15T03:24:51.6149823+02:00",
-  "UpdatedDate": "1997-05-23T03:24:51.6149823+02:00",
+  "ForeignAppId": 324,
+  "Name": "Fay LLC",
+  "CreatedDate": "1999-11-09T11:06:41.8947242+01:00",
+  "UpdatedDate": "2007-04-18T11:06:41.8947242+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 433,
-      "Name": "Barrows, Jewess and Hessel",
-      "CreatedDate": "2014-03-08T03:24:51.6149823+01:00",
-      "UpdatedDate": "2013-11-02T03:24:51.6149823+01:00",
-      "AssociateFullName": "Mr. Hipolito Mueller",
-      "CreatedBy": "eligendi",
-      "UpdatedBy": "porro",
-      "DeviceIdentifier": "unde",
-      "ForeignAppId": 746,
+      "ForeignDeviceId": 335,
+      "Name": "Klocko LLC",
+      "CreatedDate": "2020-12-13T11:06:41.8947242+01:00",
+      "UpdatedDate": "2022-07-18T11:06:41.8947242+02:00",
+      "AssociateFullName": "Rupert Jerde Jr.",
+      "CreatedBy": "laboriosam",
+      "UpdatedBy": "maxime",
+      "DeviceIdentifier": "facilis",
+      "ForeignAppId": 534,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 858
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Fri, 23 May 1997 03:24:51 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 402
     }
   }
 }

@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 15,
-  "Name": "Langosh-Johnston",
+  "ScreenChooserId": 392,
+  "Name": "Bernhard Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "at",
-  "Source": "eum",
-  "Registered": "2019-09-08T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 164,
-  "Updated": "2001-12-08T03:24:52.0213616+01:00",
-  "UpdatedAssociateId": 352
+  "Enabled": true,
+  "UniqueIdentifier": "aut",
+  "Source": "voluptatum",
+  "Registered": "2015-05-12T11:06:42.3647477+02:00",
+  "RegisteredAssociateId": 774,
+  "Updated": "2013-04-11T11:06:42.3647477+02:00",
+  "UpdatedAssociateId": 92
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 655,
-  "Name": "Hudson-Kirlin",
+  "ScreenChooserId": 898,
+  "Name": "Altenwerth LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "atque",
-  "Source": "quia",
-  "Registered": "2002-09-03T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 349,
-  "Updated": "2017-03-15T03:24:52.0213616+01:00",
-  "UpdatedAssociateId": 295,
+  "UniqueIdentifier": "commodi",
+  "Source": "odio",
+  "Registered": "1999-12-15T11:06:42.3647477+01:00",
+  "RegisteredAssociateId": 431,
+  "Updated": "1997-12-01T11:06:42.3647477+01:00",
+  "UpdatedAssociateId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 776,
-      "ContactName": "Considine Group",
-      "PersonId": 147,
-      "PersonName": "Kautzer Group",
-      "AssociateId": 966,
-      "Address": "voluptatem",
-      "EmailId": 42,
+      "ContactId": 775,
+      "ContactName": "Purdy LLC",
+      "PersonId": 875,
+      "PersonName": "Hermann Inc and Sons",
+      "AssociateId": 642,
+      "Address": "est",
+      "EmailId": 821,
       "DuplicatePersonIds": [
-        84,
-        560
+        579,
+        243
       ],
-      "Name": "Wehner-Vandervort",
+      "Name": "Durgan-Kunze",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 673
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 295,
-      "ContactName": "Barrows, Fisher and Lakin",
-      "PersonId": 851,
-      "PersonName": "Jenkins LLC",
-      "AssociateId": 231,
-      "Address": "autem",
-      "EmailId": 323,
+      "ContactId": 987,
+      "ContactName": "Fadel, Lubowitz and West",
+      "PersonId": 780,
+      "PersonName": "Brakus, Waters and Boehm",
+      "AssociateId": 55,
+      "Address": "ipsum",
+      "EmailId": 124,
       "DuplicatePersonIds": [
-        923,
-        957
+        22,
+        392
       ],
-      "Name": "Howe, Heidenreich and Borer",
+      "Name": "Stoltenberg, VonRueden and Wolf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldType": "System.Int32",
+          "FieldLength": 979
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 848,
-      "ContactName": "Bradtke, Hilll and Parker",
-      "PersonId": 742,
-      "PersonName": "Bayer-Shields",
-      "AssociateId": 89,
-      "Address": "aspernatur",
-      "EmailId": 894,
+      "ContactId": 518,
+      "ContactName": "Lehner Inc and Sons",
+      "PersonId": 563,
+      "PersonName": "Gerlach Inc and Sons",
+      "AssociateId": 588,
+      "Address": "dolor",
+      "EmailId": 702,
       "DuplicatePersonIds": [
-        798,
-        539
+        285,
+        699
       ],
-      "Name": "Schowalter, Abernathy and Goyette",
+      "Name": "Kessler-Schoen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 800
         }
       }
     }
   ],
-  "Subject": "ipsam",
-  "HTMLBody": "omnis",
+  "Subject": "ipsa",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2010-09-06T03:24:47.705153+02:00",
-  "Size": 677,
+  "Sent": "2018-03-14T11:06:34.458307+01:00",
+  "Size": 408,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "deleniti",
-  "PlainBody": "officia",
+  "MessageID": "odit",
+  "PlainBody": "cum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 81,
+  "ServerId": 210,
   "Attachments": [
     {
-      "Description": "Grass-roots secondary intranet",
-      "Filename": "nihil",
-      "Size": 975,
-      "Type": "quisquam",
-      "Encoding": "earum",
-      "Id": "incidunt",
-      "Disposition": "tempore",
+      "Description": "Compatible modular hub",
+      "Filename": "culpa",
+      "Size": 94,
+      "Type": "ipsa",
+      "Encoding": "vel",
+      "Id": "nisi",
+      "Disposition": "molestiae",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 226
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schulist-Harvey",
+      "Name": "Barrows, Cummings and Schoen",
       "Values": [
-        "sed",
-        "id"
+        "iste",
+        "alias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 532
         }
       }
     },
     {
-      "Name": "Schulist-Harvey",
+      "Name": "Barrows, Cummings and Schoen",
       "Values": [
-        "sed",
-        "id"
+        "iste",
+        "alias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 532
         }
       }
     }
   ],
-  "FolderName": "Daniel, Baumbach and Kris",
-  "EmailItemId": 69,
-  "AccountId": 637,
-  "ReceivedAt": "2020-10-12T03:24:47.705153+02:00",
+  "FolderName": "Wolf-Armstrong",
+  "EmailItemId": 6,
+  "AccountId": 546,
+  "ReceivedAt": "2019-03-31T11:06:34.458307+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-12-28T03:24:47.705153+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2011-12-15T11:06:34.458307+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldLength": 683
     }
   }
 }

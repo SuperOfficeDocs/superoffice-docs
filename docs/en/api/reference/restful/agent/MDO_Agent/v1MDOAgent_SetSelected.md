@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobson, Altenwerth and Bode",
-  "AdditionalInfo": "voluptatibus",
+  "Name": "Schuster-Halvorson",
+  "AdditionalInfo": "fuga",
   "SelectableMDOList": [
     {
-      "Id": 888,
-      "Name": "Gleichner LLC",
-      "ToolTip": "Quia necessitatibus saepe qui nesciunt dignissimos molestias ut.",
+      "Id": 464,
+      "Name": "Armstrong LLC",
+      "ToolTip": "Et est voluptas ducimus.",
       "Deleted": true,
-      "Rank": 435,
-      "Type": "aut",
-      "ColorBlock": 666,
-      "IconHint": "voluptatem",
-      "Selected": false,
-      "LastChanged": "2010-07-16T03:24:47.9395013+02:00",
+      "Rank": 734,
+      "Type": "at",
+      "ColorBlock": 312,
+      "IconHint": "ab",
+      "Selected": true,
+      "LastChanged": "2022-04-01T11:06:34.8020663+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "nobis",
-      "Hidden": true,
-      "FullName": "Cecelia Crystal Gibson II"
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "voluptatem",
+      "Hidden": false,
+      "FullName": "Alvah Kylie Feeney PhD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Smith, Hansen and Bergstrom",
-    "ToolTip": "Modi blanditiis dolorem.",
+    "Id": 771,
+    "Name": "Hand, Okuneva and Mueller",
+    "ToolTip": "Exercitationem occaecati.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "qui",
-    "ColorBlock": 826,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "1996-09-08T03:24:47.9395013+02:00",
+    "Rank": 409,
+    "Type": "dolore",
+    "ColorBlock": 558,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2001-10-19T11:06:34.8020663+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Labadie, Powlowski and Stoltenberg",
-        "ToolTip": "Dolore aut veniam ea saepe.",
+        "Id": 315,
+        "Name": "Kshlerin-Anderson",
+        "ToolTip": "Exercitationem quia cumque quod.",
         "Deleted": false,
-        "Rank": 66,
-        "Type": "eveniet",
-        "ColorBlock": 768,
-        "IconHint": "est",
+        "Rank": 749,
+        "Type": "totam",
+        "ColorBlock": 778,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "1998-10-02T03:24:47.9395013+02:00",
+        "LastChanged": "2018-05-31T11:06:34.8020663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "cupiditate",
-        "Hidden": false,
-        "FullName": "Prof. Rollin Sim Beatty",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Nicholaus Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 110
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "sed",
+    "ExtraInfo": "id",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mrs. Horace Antonetta Rath",
+    "FullName": "Mr. Talon Adrian Stark MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 84
       }
     }
   }

@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    721,
-    104
+    36,
+    789
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Orn Inc and Sons",
-    "Comment": "voluptate",
-    "StakeholderRoleId": 410,
-    "CountryId": 715,
-    "PersonId": 964,
-    "EmailDescription": "teagan_johnston@colliervonrueden.name",
-    "EmailId": 334,
-    "EmailAddress": "isadore_jacobs@simonisfranecki.co.uk",
-    "PhoneId": 631,
-    "ContactName": "Bins-Williamson",
-    "ContactId": 465,
-    "SaleId": 381,
-    "Mrmrs": "soluta",
-    "Firstname": "Jamison",
-    "MiddleName": "Hilpert LLC",
-    "Lastname": "Hane",
-    "SaleStakeholderId": 366,
-    "Rank": 156,
-    "Phone": "213-007-9811 x887",
+    "StakeholderRoleName": "Crooks, Abbott and Hartmann",
+    "Comment": "eaque",
+    "StakeholderRoleId": 536,
+    "CountryId": 361,
+    "PersonId": 884,
+    "EmailDescription": "hal@heidenreich.uk",
+    "EmailId": 406,
+    "EmailAddress": "wilber@mcdermott.ca",
+    "PhoneId": 637,
+    "ContactName": "Hackett, Tillman and Prosacco",
+    "ContactId": 544,
+    "SaleId": 602,
+    "Mrmrs": "similique",
+    "Firstname": "Jerald",
+    "MiddleName": "Erdman Group",
+    "Lastname": "Schroeder",
+    "SaleStakeholderId": 146,
+    "Rank": 350,
+    "Phone": "1-535-365-4749 x6019",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldType": "System.Int32",
+        "FieldLength": 976
       }
     }
   }

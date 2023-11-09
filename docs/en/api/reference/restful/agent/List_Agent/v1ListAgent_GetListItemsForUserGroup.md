@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 596,
-  "GroupId": 126
+  "UdListDefinitionId": 594,
+  "GroupId": 4
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Nitzsche, Collier and Erdman",
-    "ToolTip": "Soluta aut voluptatem autem distinctio.",
+    "Id": 987,
+    "Name": "Bode-Schuster",
+    "ToolTip": "Dolores fugit accusantium rerum.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "ab",
-    "ColorBlock": 411,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "1997-02-08T03:24:47.8613878+01:00",
+    "Rank": 257,
+    "Type": "saepe",
+    "ColorBlock": 364,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2015-12-22T11:06:34.7083083+01:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Kreiger, Steuber and Franecki",
-        "ToolTip": "Sunt ab et perspiciatis.",
-        "Deleted": false,
-        "Rank": 810,
-        "Type": "placeat",
-        "ColorBlock": 706,
-        "IconHint": "enim",
+        "Id": 20,
+        "Name": "McGlynn LLC",
+        "ToolTip": "Quia laborum nemo quia pariatur vel non harum.",
+        "Deleted": true,
+        "Rank": 392,
+        "Type": "sint",
+        "ColorBlock": 339,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2008-05-11T03:24:47.8613878+02:00",
+        "LastChanged": "2006-10-01T11:06:34.7083083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "ea",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Jensen Marjory Bechtelar PhD",
+        "FullName": "Patrick Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldLength": 706
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Prof. Wilbert Gene Grady",
+    "ExtraInfo": "aut",
+    "StyleHint": "corrupti",
+    "Hidden": true,
+    "FullName": "Mr. Thaddeus Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 494
+        "FieldLength": 536
       }
     }
   }

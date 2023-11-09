@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Wisoky, Hessel and Krajcik",
+  "TemplateName": "Reichel Inc and Sons",
   "AllowPersonal": false,
-  "UiCulture": "earum"
+  "UiCulture": "laborum"
 }
 ```
 

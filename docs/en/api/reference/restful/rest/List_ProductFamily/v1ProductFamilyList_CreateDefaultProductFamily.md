@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Mraz-Murray",
-  "Tooltip": "cumque",
-  "Deleted": true,
-  "UdListDefinitionId": 462,
-  "Rank": 645,
+  "Id": 757,
+  "Name": "Ebert, Wilkinson and Jacobson",
+  "Tooltip": "officia",
+  "Deleted": false,
+  "UdListDefinitionId": 353,
+  "Rank": 142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldLength": 514
     }
   }
 }

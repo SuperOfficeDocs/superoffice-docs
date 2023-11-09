@@ -96,7 +96,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 192
+  "DocumentId": 993
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 204,
-  "Attention": "non",
-  "Header": "quia",
-  "Name": "Hand, Ebert and Jones",
-  "OurRef": "non",
-  "YourRef": "non",
-  "Description": "Seamless optimal groupware",
-  "DocumentTemplate": "illo",
-  "IsPublished": false,
-  "PersonId": 947,
-  "PersonFullName": "Dr. Vida Wunsch",
-  "AssociateFullName": "Prof. Rosetta Arch Stroman DDS",
-  "ContactId": 592,
-  "ContactName": "Fadel Inc and Sons",
-  "ProjectId": 333,
-  "ProjectName": "Abbott LLC",
-  "AssociateId": 394,
-  "Snum": 931,
-  "SaleId": 116,
-  "SaleName": "Adams LLC",
+  "DocumentId": 122,
+  "Attention": "sunt",
+  "Header": "velit",
+  "Name": "Bailey-Price",
+  "OurRef": "voluptas",
+  "YourRef": "dolor",
+  "Description": "Distributed motivating collaboration",
+  "DocumentTemplate": "est",
+  "IsPublished": true,
+  "PersonId": 261,
+  "PersonFullName": "Dawn Jacobi",
+  "AssociateFullName": "Chelsey Lebsack",
+  "ContactId": 124,
+  "ContactName": "Auer, Kessler and Jaskolski",
+  "ProjectId": 534,
+  "ProjectName": "Waelchi Group",
+  "AssociateId": 317,
+  "Snum": 855,
+  "SaleId": 279,
+  "SaleName": "Runolfsson-Rogahn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -162,22 +162,22 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 692,
-  "Name": "Strosin, Halvorson and Beier",
-  "Description": "Multi-tiered multimedia data-warehouse",
-  "WelcomeMessage": "consequuntur",
+  "ChatTopicId": 561,
+  "Name": "Lang LLC",
+  "Description": "Programmable zero defect solution",
+  "WelcomeMessage": "doloribus",
   "Language": null,
-  "LastAccept": "2012-08-04T03:24:51.4429545+02:00",
-  "SecondsPrAccept": 368,
-  "AlertRecipient": "totam",
+  "LastAccept": "2013-05-14T11:06:41.550993+02:00",
+  "SecondsPrAccept": 236,
+  "AlertRecipient": "consequatur",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "labore",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dolor",
-  "WarnNewChatMinutes": 457,
-  "WarnManagerNewChatMinutes": 62,
-  "TicketEnabled": false,
+  "BadgeHeader": "ratione",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "exercitationem",
+  "WarnNewChatMinutes": 733,
+  "WarnManagerNewChatMinutes": 572,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -185,25 +185,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 361,
-  "WarnManagerChatMessageMinutes": 404,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 627,
-  "OfflineFormQueueLength": 992,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 148,
+  "WarnManagerChatMessageMinutes": 267,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 8,
+  "OfflineFormQueueLength": 138,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "omnis",
+  "WidgetRatingText": "nobis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 44
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

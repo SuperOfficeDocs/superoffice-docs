@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Bergnaum, Bergnaum and Zulauf",
-  "Tooltip": "saepe",
+  "Id": 934,
+  "Name": "Rempel Group",
+  "Tooltip": "recusandae",
   "Deleted": false,
-  "UdListDefinitionId": 289,
-  "Rank": 979,
+  "UdListDefinitionId": 999,
+  "Rank": 905,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

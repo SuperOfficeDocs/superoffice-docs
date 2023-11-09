@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 811,
-  "Section": "a",
-  "Key": "vel",
-  "Name": "Leannon LLC",
+  "PrefDescId": 478,
+  "Section": "cupiditate",
+  "Key": "saepe",
+  "Name": "Powlowski LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ergonomic global capacity",
-  "IsBuiltin": false,
-  "TableName": "Lind Group",
-  "UserDefinedListId": 930,
-  "Rank": 668,
-  "SubGroup": "eos",
-  "MinLevel": 429,
-  "MaxValue": 437,
-  "MinValue": 800,
-  "RequiredLicense": "explicabo",
+  "Description": "Universal radical collaboration",
+  "IsBuiltin": true,
+  "TableName": "Koss Group",
+  "UserDefinedListId": 714,
+  "Rank": 568,
+  "SubGroup": "velit",
+  "MinLevel": 559,
+  "MaxValue": 950,
+  "MinValue": 443,
+  "RequiredLicense": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 853
     }
   }
 }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Pacocha, Kozey and Powlowski",
-  "Tooltip": "commodi",
+  "Id": 748,
+  "Name": "Predovic Group",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 148,
-  "Rank": 141,
+  "UdListDefinitionId": 253,
+  "Rank": 30,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

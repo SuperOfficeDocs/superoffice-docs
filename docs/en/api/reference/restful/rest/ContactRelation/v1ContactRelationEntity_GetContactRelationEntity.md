@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Nov 2005 03:24:51 G11T
+Last-Modified: Wed, 14 Jan 1998 11:06:41 G1T
 
 {
-  "SourceContactId": 90,
-  "SourcePersonId": 600,
-  "DestinationContactId": 900,
-  "DestinationPersonId": 706,
-  "RelationId": 526,
-  "Comment": "consequuntur",
-  "RelationDefinitionId": 902,
-  "Reversed": 29,
-  "UpdatedDate": "2005-11-04T03:24:51.5368575+01:00",
-  "CreatedDate": "1998-02-19T03:24:51.5368575+01:00",
+  "SourceContactId": 601,
+  "SourcePersonId": 790,
+  "DestinationContactId": 474,
+  "DestinationPersonId": 444,
+  "RelationId": 79,
+  "Comment": "sint",
+  "RelationDefinitionId": 95,
+  "Reversed": 526,
+  "UpdatedDate": "1998-01-14T11:06:41.7697222+01:00",
+  "CreatedDate": "2010-09-15T11:06:41.7697222+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Boehm, Lindgren and Leannon",
-  "SourcePersonName": "Hamill, Effertz and Mohr",
-  "DestinationContactName": "Becker, Mosciski and Pagac",
-  "DestinationPersonName": "Boyer Inc and Sons",
-  "ActiveText": "eligendi",
-  "PassiveText": "alias",
+  "SourceContactName": "Emard, Vandervort and Nienow",
+  "SourcePersonName": "Romaguera, Bartoletti and Ratke",
+  "DestinationContactName": "Klein LLC",
+  "DestinationPersonName": "Weissnat LLC",
+  "ActiveText": "laboriosam",
+  "PassiveText": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 713
+      "FieldType": "System.Int32",
+      "FieldLength": 38
     }
   },
   "_Links": {

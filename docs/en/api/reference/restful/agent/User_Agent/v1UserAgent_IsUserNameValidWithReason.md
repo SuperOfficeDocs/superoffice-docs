@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 102,
+  "AssociateId": 9,
   "Type": "AnonymousAssociate",
-  "PersonId": 801,
-  "UserName": "Tillman-Koch"
+  "PersonId": 575,
+  "UserName": "Greenfelder, Wintheiser and Gerhold"
 }
 ```
 
@@ -98,13 +98,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "Result": true,
+  "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 690
+      "FieldType": "System.Int32",
+      "FieldLength": 803
     }
   }
 }

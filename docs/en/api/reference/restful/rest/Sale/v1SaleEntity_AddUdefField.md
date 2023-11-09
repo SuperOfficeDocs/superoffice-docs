@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 911,
-  "ColumnId": 601,
-  "FieldDefault": "hic",
-  "FieldHeight": 302,
-  "FieldLabel": "ex",
-  "FieldLeft": 192,
-  "FieldTop": 309,
+  "UDefFieldId": 605,
+  "ColumnId": 584,
+  "FieldDefault": "accusantium",
+  "FieldHeight": 719,
+  "FieldLabel": "ut",
+  "FieldLeft": 543,
+  "FieldTop": 521,
   "FieldType": "Checkbox",
-  "FieldWidth": 757,
-  "FormatMask": "accusantium",
+  "FieldWidth": 605,
+  "FormatMask": "nostrum",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 816,
-  "LabelLeft": 84,
-  "LabelTop": 893,
-  "LabelWidth": 857,
-  "LastVersionId": 742,
-  "ListTableId": 893,
+  "IsIndexed": false,
+  "LabelHeight": 75,
+  "LabelLeft": 45,
+  "LabelTop": 824,
+  "LabelWidth": 81,
+  "LastVersionId": 587,
+  "ListTableId": 791,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 610,
-  "ProgId": "hic",
-  "IsReadOnly": false,
-  "ShortLabel": "cumque",
-  "TabOrder": 680,
-  "TextLength": 512,
-  "Tooltip": "incidunt",
-  "UdefIdentity": 924,
-  "UDListDefinitionId": 614,
+  "Page1LineNo": 330,
+  "ProgId": "ab",
+  "IsReadOnly": true,
+  "ShortLabel": "magnam",
+  "TabOrder": 726,
+  "TextLength": 645,
+  "Tooltip": "est",
+  "UdefIdentity": 356,
+  "UDListDefinitionId": 465,
   "Justification": "Center",
-  "Version": 953,
-  "TemplateVariableName": "Kiehn Group",
+  "Version": 976,
+  "TemplateVariableName": "Powlowski, Steuber and Huels",
   "HasBeenPublished": false,
-  "MdoListName": "O'Connell-Fisher",
+  "MdoListName": "Jacobs Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldLength": 100
     }
   }
 }

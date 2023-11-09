@@ -105,16 +105,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 41,
+  "DocId": 153,
   "AttachmentIds": [
-    "possimus",
-    "est"
+    "laudantium",
+    "porro"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 199,
-      "ContactName": "Luettgen-Romaguera",
-      "PersonId": 932,
-      "PersonName": "Hyatt, McKenzie and Parisian",
-      "AssociateId": 909,
-      "Address": "doloremque",
-      "EmailId": 398,
+      "ContactId": 687,
+      "ContactName": "Casper LLC",
+      "PersonId": 164,
+      "PersonName": "Williamson Group",
+      "AssociateId": 308,
+      "Address": "doloribus",
+      "EmailId": 776,
       "DuplicatePersonIds": [
-        212,
-        153
+        242,
+        496
       ],
-      "Name": "Powlowski-Harvey",
+      "Name": "Lubowitz-Hessel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 232
+          "FieldLength": 26
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 763,
-      "ContactName": "Purdy Group",
-      "PersonId": 563,
-      "PersonName": "Koelpin, Corwin and Kuhic",
-      "AssociateId": 659,
-      "Address": "itaque",
-      "EmailId": 359,
+      "ContactId": 268,
+      "ContactName": "Fritsch LLC",
+      "PersonId": 979,
+      "PersonName": "Stokes LLC",
+      "AssociateId": 104,
+      "Address": "numquam",
+      "EmailId": 273,
       "DuplicatePersonIds": [
-        384,
-        845
+        321,
+        281
       ],
-      "Name": "Halvorson Inc and Sons",
+      "Name": "Bogan-Quitzon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldLength": 172
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 514,
-      "ContactName": "Kris-Bergnaum",
-      "PersonId": 538,
-      "PersonName": "Towne, Botsford and Baumbach",
-      "AssociateId": 548,
-      "Address": "officia",
-      "EmailId": 609,
+      "ContactId": 384,
+      "ContactName": "Kunde, Luettgen and Shanahan",
+      "PersonId": 625,
+      "PersonName": "Hilll, Lynch and McKenzie",
+      "AssociateId": 325,
+      "Address": "aut",
+      "EmailId": 959,
       "DuplicatePersonIds": [
-        902,
-        117
+        665,
+        964
       ],
-      "Name": "Rodriguez, Gerhold and Bartell",
+      "Name": "Kihn Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldType": "System.Int32",
+          "FieldLength": 17
         }
       }
     }
   ],
-  "Subject": "explicabo",
-  "HTMLBody": "voluptas",
+  "Subject": "nobis",
+  "HTMLBody": "libero",
   "From": null,
-  "Sent": "2003-10-12T03:24:47.7676476+02:00",
-  "Size": 116,
+  "Sent": "2004-01-06T11:06:34.5520595+01:00",
+  "Size": 342,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vel",
-  "PlainBody": "quaerat",
+  "MessageID": "suscipit",
+  "PlainBody": "vel",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 134,
+  "ServerId": 322,
   "Attachments": [
     {
-      "Description": "Assimilated reciprocal policy",
-      "Filename": "quam",
-      "Size": 662,
-      "Type": "totam",
-      "Encoding": "odio",
-      "Id": "asperiores",
-      "Disposition": "sapiente",
-      "IsSafeFileExtension": false,
+      "Description": "Assimilated tertiary projection",
+      "Filename": "repellat",
+      "Size": 384,
+      "Type": "nemo",
+      "Encoding": "ipsum",
+      "Id": "hic",
+      "Disposition": "dolores",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 764
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hills, Torphy and Mitchell",
+      "Name": "Blick Inc and Sons",
       "Values": [
-        "aliquid",
-        "laboriosam"
+        "veniam",
+        "nihil"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 509
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     },
     {
-      "Name": "Hills, Torphy and Mitchell",
+      "Name": "Blick Inc and Sons",
       "Values": [
-        "aliquid",
-        "laboriosam"
+        "veniam",
+        "nihil"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 509
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     }
   ],
-  "FolderName": "Kunde, Stroman and Bernhard",
-  "EmailItemId": 440,
-  "AccountId": 635,
-  "ReceivedAt": "2021-05-10T03:24:47.7676476+02:00",
+  "FolderName": "Hane, Rodriguez and Morar",
+  "EmailItemId": 474,
+  "AccountId": 545,
+  "ReceivedAt": "2001-12-25T11:06:34.5520595+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-08-20T03:24:47.7676476+02:00",
+  "RepliedAt": "2001-06-10T11:06:34.5520595+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 933
     }
   }
 }

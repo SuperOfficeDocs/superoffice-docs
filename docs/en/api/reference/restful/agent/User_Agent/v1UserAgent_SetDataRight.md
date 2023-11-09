@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 577,
-  "TableName": "Collins-Heller",
+  "RoleId": 5,
+  "TableName": "Reynolds-Hane",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "at"
+  "DataRightValue": "ullam"
 }
 ```
 

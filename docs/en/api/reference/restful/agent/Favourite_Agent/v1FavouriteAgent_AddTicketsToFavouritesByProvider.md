@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Spinka-Doyle",
+  "ProviderName": "Ledner, Turner and Weissnat",
   "Restrictions": [
     {
-      "Name": "Jerde, Effertz and McLaughlin",
-      "Operator": "in",
+      "Name": "Konopelski-Weissnat",
+      "Operator": "aut",
       "Values": [
-        "ut",
-        "consequatur"
+        "beatae",
+        "qui"
       ],
       "DisplayValues": [
-        "iste",
-        "beatae"
+        "eum",
+        "officiis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 289,
+      "InterParenthesis": 812,
       "InterOperator": "And",
-      "UniqueHash": 332
+      "UniqueHash": 277
     }
   ],
-  "AssociateId": 851,
-  "ExtraInfo": "temporibus"
+  "AssociateId": 560,
+  "ExtraInfo": "consequatur"
 }
 ```
 

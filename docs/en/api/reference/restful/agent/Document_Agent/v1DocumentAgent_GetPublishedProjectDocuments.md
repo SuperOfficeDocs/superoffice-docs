@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 345
+  "ProjectId": 365
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 190,
-    "Attention": "praesentium",
-    "Header": "nobis",
-    "Name": "Lang, Rohan and Schuster",
-    "OurRef": "vel",
-    "YourRef": "voluptates",
-    "Description": "Pre-emptive radical flexibility",
-    "DocumentTemplate": "laborum",
-    "IsPublished": false,
-    "PersonId": 83,
-    "PersonFullName": "Loren Mraz",
-    "AssociateFullName": "Alanis Torphy",
-    "ContactId": 928,
-    "ContactName": "Osinski, Thompson and Wunsch",
-    "ProjectId": 97,
-    "ProjectName": "Leffler, Gislason and Russel",
-    "AssociateId": 537,
-    "Snum": 890,
-    "SaleId": 113,
-    "SaleName": "Daugherty Group",
+    "DocumentId": 829,
+    "Attention": "tempore",
+    "Header": "harum",
+    "Name": "McKenzie-Schaden",
+    "OurRef": "perferendis",
+    "YourRef": "fugit",
+    "Description": "Multi-layered context-sensitive capacity",
+    "DocumentTemplate": "autem",
+    "IsPublished": true,
+    "PersonId": 300,
+    "PersonFullName": "Dameon Hodkiewicz",
+    "AssociateFullName": "Mrs. Tiana Mayert Jr.",
+    "ContactId": 94,
+    "ContactName": "Ryan, Muller and Cole",
+    "ProjectId": 163,
+    "ProjectName": "Koelpin-Koepp",
+    "AssociateId": 697,
+    "Snum": 638,
+    "SaleId": 613,
+    "SaleName": "Kessler-Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 565
+        "FieldLength": 962
       }
     }
   }

@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 836,
-  "LanguageId": 906,
-  "PersonId": 765,
-  "TicketId": 112
+  "ReplyTemplateId": 506,
+  "LanguageId": 940,
+  "PersonId": 707,
+  "TicketId": 258
 }
 ```
 
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 768,
-  "PlainParsed": "adipisci",
-  "HtmlParsed": "tenetur",
+  "ReplyTemplateId": 445,
+  "PlainParsed": "explicabo",
+  "HtmlParsed": "aliquid",
   "Attachments": [
     {
-      "AttachmentId": 880,
-      "Name": "Gutmann-Harvey",
-      "ContentType": "quis",
-      "AttSize": 924,
+      "AttachmentId": 235,
+      "Name": "Rath-Larkin",
+      "ContentType": "vero",
+      "AttSize": 614,
       "InlineImage": false,
-      "ContentId": "eveniet",
-      "AuthKey": "modi",
+      "ContentId": "ut",
+      "AuthKey": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 57
         }
       }
     }
   ],
-  "Subject": "perferendis",
+  "Subject": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 313
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   }
 }

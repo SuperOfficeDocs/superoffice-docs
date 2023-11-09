@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 548,
-  "SourcePersonId": 451,
-  "DestinationContactId": 210,
-  "DestinationPersonId": 650,
-  "RelationId": 327,
-  "Comment": "minima",
-  "RelationDefinitionId": 211,
-  "Reversed": 917,
-  "UpdatedDate": "2005-12-29T03:24:48.1582254+01:00",
-  "CreatedDate": "2004-03-11T03:24:48.1582254+01:00",
+  "SourceContactId": 396,
+  "SourcePersonId": 280,
+  "DestinationContactId": 444,
+  "DestinationPersonId": 848,
+  "RelationId": 738,
+  "Comment": "excepturi",
+  "RelationDefinitionId": 892,
+  "Reversed": 921,
+  "UpdatedDate": "2022-04-23T11:06:35.2395651+02:00",
+  "CreatedDate": "2013-04-10T11:06:35.2395651+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Pacocha Group",
-  "SourcePersonName": "Corkery LLC",
-  "DestinationContactName": "McClure, Kozey and Simonis",
-  "DestinationPersonName": "Kling, Kuphal and Padberg",
-  "ActiveText": "quis",
-  "PassiveText": "aut",
+  "SourceContactName": "Heller Group",
+  "SourcePersonName": "Weissnat, Rice and Gutmann",
+  "DestinationContactName": "Kling-Littel",
+  "DestinationPersonName": "Hoeger, Volkman and Paucek",
+  "ActiveText": "veritatis",
+  "PassiveText": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldType": "System.String",
+      "FieldLength": 800
     }
   }
 }

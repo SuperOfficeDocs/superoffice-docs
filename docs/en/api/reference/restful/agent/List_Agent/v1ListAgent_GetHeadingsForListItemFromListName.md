@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Beier-Bosco",
-  "ListItemId": 338,
+  "UdListDefinitionName": "Weimann, Nitzsche and Weber",
+  "ListItemId": 177,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 949,
-    "Name": "Hermiston-Hermann",
-    "ToolTip": "Voluptatem deleniti voluptates.",
+    "Id": 182,
+    "Name": "Corkery Group",
+    "ToolTip": "Sunt qui.",
     "Deleted": false,
-    "Rank": 411,
-    "Type": "temporibus",
-    "ColorBlock": 842,
-    "IconHint": "voluptas",
+    "Rank": 224,
+    "Type": "officia",
+    "ColorBlock": 388,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2022-08-13T03:24:47.8770078+02:00",
+    "LastChanged": "2013-01-07T11:06:34.7083083+01:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Torphy-Doyle",
-        "ToolTip": "Qui dolor nemo cumque quis.",
-        "Deleted": true,
-        "Rank": 576,
-        "Type": "architecto",
-        "ColorBlock": 476,
-        "IconHint": "aspernatur",
-        "Selected": true,
-        "LastChanged": "2009-06-02T03:24:47.8770078+02:00",
+        "Id": 725,
+        "Name": "Thiel-Conroy",
+        "ToolTip": "Explicabo rerum asperiores amet praesentium perspiciatis.",
+        "Deleted": false,
+        "Rank": 624,
+        "Type": "vel",
+        "ColorBlock": 928,
+        "IconHint": "velit",
+        "Selected": false,
+        "LastChanged": "2008-07-26T11:06:34.7083083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "ullam",
-        "Hidden": true,
-        "FullName": "Mario Thompson PhD",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Buster Schamberger DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 190
+            "FieldLength": 761
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "occaecati",
-    "Hidden": false,
-    "FullName": "Dewayne Berge",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "magni",
+    "Hidden": true,
+    "FullName": "Dr. Estefania Morar DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 788
+        "FieldLength": 171
       }
     }
   }

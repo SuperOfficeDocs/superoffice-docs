@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 355,
-    "Name": "Hermiston, Bergstrom and Oberbrunner",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 951,
-    "UdListDefinitionId": 238
+    "HeadingId": 181,
+    "Name": "Littel, VonRueden and Schneider",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 584,
+    "UdListDefinitionId": 989
   },
   {
-    "HeadingId": 355,
-    "Name": "Hermiston, Bergstrom and Oberbrunner",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "Rank": 951,
-    "UdListDefinitionId": 238
+    "HeadingId": 181,
+    "Name": "Littel, VonRueden and Schneider",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 584,
+    "UdListDefinitionId": 989
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 449,
-    "Name": "Konopelski-Lindgren",
-    "Tooltip": "est",
+    "HeadingId": 353,
+    "Name": "Keebler Group",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 622,
-    "UdListDefinitionId": 880,
+    "Rank": 229,
+    "UdListDefinitionId": 338,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 379
       }
     }
   }

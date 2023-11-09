@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "Name": "Robel, Greenfelder and Pfeffer",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "UdListDefinitionId": 149,
-  "Rank": 818
+  "Id": 420,
+  "Name": "Reichert Group",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 245,
+  "Rank": 728
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 751,
-  "Name": "Price Inc and Sons",
+  "Id": 457,
+  "Name": "Carter Inc and Sons",
   "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 531,
-  "Rank": 603,
+  "Deleted": true,
+  "UdListDefinitionId": 271,
+  "Rank": 131,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 43
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   }
 }

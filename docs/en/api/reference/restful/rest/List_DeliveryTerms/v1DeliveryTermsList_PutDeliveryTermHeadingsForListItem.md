@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Farrell-Heller",
-    "ToolTip": "Tenetur iure soluta quos.",
-    "Deleted": false,
-    "Rank": 256,
-    "Type": "debitis",
-    "ColorBlock": 51,
-    "IconHint": "a",
-    "Selected": true,
-    "LastChanged": "2000-03-24T03:24:52.240053+01:00",
+    "Id": 290,
+    "Name": "Stamm, Tremblay and Gutmann",
+    "ToolTip": "Optio qui voluptate.",
+    "Deleted": true,
+    "Rank": 201,
+    "Type": "minus",
+    "ColorBlock": 235,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "1997-09-01T11:06:42.7878188+02:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Terry Group",
-        "ToolTip": "Commodi nostrum et eum assumenda.",
-        "Deleted": false,
-        "Rank": 703,
-        "Type": "ipsam",
-        "ColorBlock": 723,
-        "IconHint": "accusamus",
-        "Selected": false,
-        "LastChanged": "2022-07-30T03:24:52.240053+02:00",
+        "Id": 508,
+        "Name": "Hayes-Lehner",
+        "ToolTip": "Facilis eligendi placeat.",
+        "Deleted": true,
+        "Rank": 958,
+        "Type": "alias",
+        "ColorBlock": 838,
+        "IconHint": "accusantium",
+        "Selected": true,
+        "LastChanged": "2021-08-05T11:06:42.7878188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "corporis",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Khalid Thaddeus Crona MD"
+        "FullName": "Alvis Friesen"
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "non",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Ciara Bergstrom"
+    "FullName": "Roosevelt Schoen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Hegmann, Welch and Lemke",
-    "ToolTip": "Dolore molestiae aliquid id sunt.",
-    "Deleted": true,
-    "Rank": 167,
-    "Type": "sequi",
-    "ColorBlock": 698,
-    "IconHint": "nam",
-    "Selected": true,
-    "LastChanged": "2001-12-30T03:24:52.240053+01:00",
+    "Id": 469,
+    "Name": "Torphy Inc and Sons",
+    "ToolTip": "Odit corporis itaque ut ut ratione.",
+    "Deleted": false,
+    "Rank": 790,
+    "Type": "eaque",
+    "ColorBlock": 138,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2009-06-15T11:06:42.7878188+02:00",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Braun-Von",
-        "ToolTip": "Ea aut.",
+        "Id": 460,
+        "Name": "Schultz, Armstrong and Rice",
+        "ToolTip": "Reiciendis alias non perspiciatis eum eum.",
         "Deleted": false,
-        "Rank": 415,
-        "Type": "sit",
-        "ColorBlock": 72,
-        "IconHint": "sit",
+        "Rank": 429,
+        "Type": "consequatur",
+        "ColorBlock": 824,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2020-05-31T03:24:52.240053+02:00",
+        "LastChanged": "1998-06-18T11:06:42.7878188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Dr. Callie Yesenia Kilback III",
+        "ExtraInfo": "alias",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Miss Natalie Genevieve Klocko I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 726
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Dariana Homenick",
+    "ExtraInfo": "inventore",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Dr. Darren Lizeth Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 427
       }
     }
   }

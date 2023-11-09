@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 160
+  "SuggestedDocumentId": 906
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 550,
+  "DocumentId": 300,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "officia",
-  "Header": "eligendi",
-  "Name": "Frami-Kilback",
-  "OurRef": "esse",
-  "YourRef": "perspiciatis",
-  "CreatedDate": "2008-08-20T03:24:47.6895288+02:00",
-  "UpdatedDate": "2021-04-10T03:24:47.6895288+02:00",
-  "Description": "Front-line client-server extranet",
+  "Attention": "possimus",
+  "Header": "sit",
+  "Name": "Strosin LLC",
+  "OurRef": "eum",
+  "YourRef": "provident",
+  "CreatedDate": "2017-09-03T11:06:34.4270635+02:00",
+  "UpdatedDate": "2023-02-22T11:06:34.4270635+01:00",
+  "Description": "Horizontal multimedia framework",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-09-13T03:24:47.6895288+02:00",
-  "ExternalRef": "mollitia",
+  "Date": "2021-12-11T11:06:34.4270635+01:00",
+  "ExternalRef": "eaque",
   "Completed": "Completed",
-  "ActiveLinks": 108,
+  "ActiveLinks": 525,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Leuschke-Johnson",
-      "Id": 241,
-      "Description": "Multi-tiered methodical software",
-      "ExtraInfo": "sit",
-      "LinkId": 890,
+      "EntityName": "Dickens-Bruen",
+      "Id": 606,
+      "Description": "Profound dynamic attitude",
+      "ExtraInfo": "provident",
+      "LinkId": 575,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 140
+          "FieldLength": 849
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 999,
-  "Snum": 42,
+  "SuggestedDocumentId": 530,
+  "Snum": 256,
   "UserDefinedFields": {
-    "SuperOffice:1": "1141311539",
-    "SuperOffice:2": "110817467"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1504301433"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "occaecati"
   },
-  "PublishEventDate": "2007-04-13T03:24:47.6895288+02:00",
-  "PublishTo": "2020-10-08T03:24:47.6895288+02:00",
-  "PublishFrom": "1998-01-12T03:24:47.6895288+01:00",
+  "PublishEventDate": "2009-06-13T11:06:34.4270635+02:00",
+  "PublishTo": "1997-12-27T11:06:34.4270635+01:00",
+  "PublishFrom": "2011-10-19T11:06:34.4270635+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 901,
+      "VisibleId": 972,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 752
         }
       }
     },
     {
-      "VisibleId": 901,
+      "VisibleId": 972,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 556
+          "FieldLength": 752
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 224
     }
   }
 }

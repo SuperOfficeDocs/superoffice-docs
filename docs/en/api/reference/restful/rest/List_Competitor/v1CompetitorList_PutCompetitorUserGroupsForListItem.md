@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Wolf LLC",
-    "ToolTip": "Quia laboriosam.",
-    "Deleted": true,
-    "Rank": 10,
-    "Type": "est",
-    "ColorBlock": 42,
-    "IconHint": "nemo",
-    "Selected": true,
-    "LastChanged": "2016-02-19T03:24:52.1775959+01:00",
+    "Id": 438,
+    "Name": "Marquardt Group",
+    "ToolTip": "Minima quo voluptatem sint incidunt ut tempora.",
+    "Deleted": false,
+    "Rank": 555,
+    "Type": "quia",
+    "ColorBlock": 744,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2001-02-07T11:06:42.7096943+01:00",
     "ChildItems": [
       {
-        "Id": 333,
-        "Name": "Gleichner-Pagac",
-        "ToolTip": "Dolore expedita consequatur totam.",
+        "Id": 144,
+        "Name": "Hudson-Morissette",
+        "ToolTip": "Magnam est consequatur repudiandae.",
         "Deleted": false,
-        "Rank": 201,
-        "Type": "qui",
-        "ColorBlock": 226,
-        "IconHint": "laboriosam",
-        "Selected": false,
-        "LastChanged": "2013-05-29T03:24:52.1775959+02:00",
+        "Rank": 949,
+        "Type": "esse",
+        "ColorBlock": 647,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2013-04-15T11:06:42.7096943+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Eli Hilpert PhD"
+        "ExtraInfo": "sequi",
+        "StyleHint": "mollitia",
+        "Hidden": false,
+        "FullName": "Ms. Ransom Ansley Stiedemann"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "optio",
-    "Hidden": true,
-    "FullName": "Richie Langworth"
+    "ExtraInfo": "tempore",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Lilian Kuvalis"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Ledner Inc and Sons",
-    "ToolTip": "Quo libero quibusdam quam neque.",
-    "Deleted": false,
-    "Rank": 149,
-    "Type": "omnis",
-    "ColorBlock": 273,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2000-02-02T03:24:52.1775959+01:00",
+    "Id": 549,
+    "Name": "Leuschke LLC",
+    "ToolTip": "Totam soluta totam.",
+    "Deleted": true,
+    "Rank": 29,
+    "Type": "veniam",
+    "ColorBlock": 913,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2000-11-22T11:06:42.7096943+01:00",
     "ChildItems": [
       {
-        "Id": 691,
-        "Name": "Kulas, Kessler and Von",
-        "ToolTip": "Sint maxime nulla labore inventore rerum quo.",
-        "Deleted": true,
-        "Rank": 189,
-        "Type": "vitae",
-        "ColorBlock": 21,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2012-01-18T03:24:52.1775959+01:00",
+        "Id": 495,
+        "Name": "Hahn-Schaefer",
+        "ToolTip": "Ut alias placeat quia.",
+        "Deleted": false,
+        "Rank": 563,
+        "Type": "eaque",
+        "ColorBlock": 501,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2021-04-28T11:06:42.7096943+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Tia Hirthe",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nisi",
+        "Hidden": false,
+        "FullName": "Greyson Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 822
+            "FieldLength": 701
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "facilis",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "sint",
     "Hidden": true,
-    "FullName": "Christian Barrows",
+    "FullName": "Addie Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 867
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=velit
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=expedita
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Boyer-Bergstrom",
-    "ToolTip": "Omnis nostrum voluptatibus aliquid enim.",
+    "Id": 527,
+    "Name": "Klocko Inc and Sons",
+    "ToolTip": "Explicabo dignissimos magnam laborum sint modi.",
     "Deleted": false,
-    "Rank": 231,
-    "Type": "consequuntur",
+    "Rank": 595,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Wehner-Bailey",
-        "ToolTip": "Exercitationem quisquam autem earum et non autem.",
-        "Deleted": false,
-        "Rank": 684,
-        "Type": "voluptatem",
+        "Id": 707,
+        "Name": "Effertz LLC",
+        "ToolTip": "Consectetur similique et rerum eos.",
+        "Deleted": true,
+        "Rank": 965,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 142,
-        "ExtraInfo": "placeat",
-        "StyleHint": "nemo",
-        "FullName": "Kevon Russel",
+        "IconHint": "sint",
+        "ColorBlock": 595,
+        "ExtraInfo": "quo",
+        "StyleHint": "vero",
+        "FullName": "Paris Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 879
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 178,
-    "ExtraInfo": "tempore",
-    "StyleHint": "assumenda",
-    "FullName": "Kamren Feest",
+    "IconHint": "et",
+    "ColorBlock": 769,
+    "ExtraInfo": "sapiente",
+    "StyleHint": "libero",
+    "FullName": "Adrien Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldLength": 467
       }
     }
   }

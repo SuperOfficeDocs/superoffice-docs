@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Bogan, Ullrich and Barton",
-    "ToolTip": "Ea nisi omnis dignissimos aut qui delectus blanditiis.",
+    "Id": 533,
+    "Name": "Connelly, Wisoky and Oberbrunner",
+    "ToolTip": "Libero suscipit ea vitae debitis sapiente commodi.",
     "Deleted": false,
-    "Rank": 418,
-    "Type": "culpa",
-    "ColorBlock": 25,
-    "IconHint": "officiis",
+    "Rank": 562,
+    "Type": "et",
+    "ColorBlock": 78,
+    "IconHint": "rerum",
     "Selected": true,
-    "LastChanged": "2015-01-07T03:24:52.3650758+01:00",
+    "LastChanged": "2015-02-03T11:06:42.9909515+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Lubowitz-Schoen",
-        "ToolTip": "Reprehenderit sint nulla mollitia.",
-        "Deleted": true,
-        "Rank": 317,
-        "Type": "hic",
-        "ColorBlock": 525,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2017-08-22T03:24:52.3650758+02:00",
+        "Id": 930,
+        "Name": "Osinski, McDermott and Runolfsdottir",
+        "ToolTip": "Sed autem recusandae consectetur possimus asperiores quo.",
+        "Deleted": false,
+        "Rank": 514,
+        "Type": "ab",
+        "ColorBlock": 796,
+        "IconHint": "esse",
+        "Selected": false,
+        "LastChanged": "2011-10-19T11:06:42.9909515+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "expedita",
-        "Hidden": false,
-        "FullName": "Fermin Wuckert"
+        "ExtraInfo": "quod",
+        "StyleHint": "pariatur",
+        "Hidden": true,
+        "FullName": "Prof. Jaron Schiller II"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Abagail Murray"
+    "ExtraInfo": "possimus",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Sincere Gorczany"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Wolf, Lind and Kautzer",
-    "ToolTip": "Voluptatem tempora et.",
-    "Deleted": true,
-    "Rank": 68,
-    "Type": "fuga",
-    "ColorBlock": 996,
-    "IconHint": "voluptates",
+    "Id": 698,
+    "Name": "Hirthe Inc and Sons",
+    "ToolTip": "Pariatur omnis magnam recusandae.",
+    "Deleted": false,
+    "Rank": 985,
+    "Type": "eius",
+    "ColorBlock": 786,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2000-07-07T03:24:52.3650758+02:00",
+    "LastChanged": "1997-03-31T11:06:42.9909515+02:00",
     "ChildItems": [
       {
-        "Id": 868,
-        "Name": "Treutel Inc and Sons",
-        "ToolTip": "Est ratione modi illum voluptatem sed vero.",
-        "Deleted": false,
-        "Rank": 510,
-        "Type": "tempore",
-        "ColorBlock": 242,
-        "IconHint": "nesciunt",
+        "Id": 976,
+        "Name": "Stiedemann Group",
+        "ToolTip": "Velit quod quasi et at impedit.",
+        "Deleted": true,
+        "Rank": 971,
+        "Type": "aspernatur",
+        "ColorBlock": 550,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2021-08-21T03:24:52.3650758+02:00",
+        "LastChanged": "1998-02-02T11:06:42.9909515+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Christ Nicolas",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Bradly Strosin MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "a",
+    "ExtraInfo": "rerum",
+    "StyleHint": "tempore",
     "Hidden": true,
-    "FullName": "Dr. Green Braden Veum DDS",
+    "FullName": "Dr. Nikko Godfrey Beahan DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldType": "System.Int32",
+        "FieldLength": 163
       }
     }
   }

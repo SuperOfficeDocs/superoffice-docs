@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 140,
-  "ERPPriceListKey": "cumque",
-  "QuoteConnectionId": 640,
-  "Name": "Grant LLC",
-  "Description": "Balanced composite task-force",
-  "Currency": "culpa",
-  "CurrencyName": "Bernhard-Anderson",
-  "ValidFrom": "2012-10-30T03:24:52.3025813+01:00",
-  "ValidTo": "2020-01-11T03:24:52.3025813+01:00",
-  "IsActive": false
+  "PriceListId": 762,
+  "ERPPriceListKey": "nihil",
+  "QuoteConnectionId": 332,
+  "Name": "Murray Inc and Sons",
+  "Description": "Compatible cohesive model",
+  "Currency": "molestiae",
+  "CurrencyName": "Heaney, Okuneva and Becker",
+  "ValidFrom": "2005-12-21T11:06:42.8971908+01:00",
+  "ValidTo": "2014-04-13T11:06:42.8971908+02:00",
+  "IsActive": true
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 360,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 924,
-  "Name": "McClure, Hahn and Sanford",
-  "Description": "Balanced responsive architecture",
-  "Currency": "et",
-  "CurrencyName": "Luettgen-Parisian",
-  "ValidFrom": "2012-02-29T03:24:52.3025813+01:00",
-  "ValidTo": "2001-06-22T03:24:52.3025813+02:00",
-  "IsActive": true,
+  "PriceListId": 108,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 761,
+  "Name": "Boehm-Dooley",
+  "Description": "Balanced systemic support",
+  "Currency": "alias",
+  "CurrencyName": "Armstrong LLC",
+  "ValidFrom": "2014-11-10T11:06:42.8971908+01:00",
+  "ValidTo": "2018-03-28T11:06:42.8971908+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 833
+      "FieldType": "System.Int32",
+      "FieldLength": 762
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

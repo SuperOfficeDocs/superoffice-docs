@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Littel Group",
+  "ProviderName": "Bergstrom-Schaefer",
   "Columns": [
-    "vel",
-    "aliquam"
+    "deleniti",
+    "qui"
   ],
   "SortOrder": [
     {
-      "Name": "Orn-Metz",
+      "Name": "Langworth, O'Hara and Bruen",
       "Direction": "ASC"
     },
     {
-      "Name": "Orn-Metz",
+      "Name": "Langworth, O'Hara and Bruen",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Schinner-Jerde",
-      "Operator": "et",
+      "Name": "Kertzmann, Jast and Mayer",
+      "Operator": "est",
       "Values": [
-        "commodi",
-        "vel"
+        "est",
+        "deleniti"
       ],
       "DisplayValues": [
-        "ullam",
-        "sed"
+        "quo",
+        "ea"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 300,
+      "InterParenthesis": 725,
       "InterOperator": "And",
-      "UniqueHash": 273
+      "UniqueHash": 688
     }
   ],
   "Entities": [
-    "cum",
-    "qui"
+    "et",
+    "quidem"
   ],
-  "Page": 869,
-  "PageSize": 187,
-  "Context": "est"
+  "Page": 7,
+  "PageSize": 863,
+  "Context": "vel"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ferry, Beahan and Hodkiewicz",
-    "PrimaryKey": 607,
+    "EntityName": "McLaughlin, Rice and Mertz",
+    "PrimaryKey": 773,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "deleniti",
-        "TooltipHint": "laborum",
-        "LinkHint": "nemo"
+        "DisplayValue": "sint",
+        "TooltipHint": "ratione",
+        "LinkHint": "possimus"
       }
     },
-    "LinkHint": "ea",
-    "StyleHint": "numquam",
+    "LinkHint": "facilis",
+    "StyleHint": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 365
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Hermann Group",
-    "ToolTip": "Nulla non quae.",
-    "Deleted": true,
-    "Rank": 307,
-    "Type": "cupiditate",
-    "ColorBlock": 682,
-    "IconHint": "repellendus",
+    "Id": 968,
+    "Name": "Lindgren LLC",
+    "ToolTip": "Voluptatem quos dolorem non dignissimos.",
+    "Deleted": false,
+    "Rank": 917,
+    "Type": "reiciendis",
+    "ColorBlock": 174,
+    "IconHint": "quos",
     "Selected": true,
-    "LastChanged": "2012-11-03T03:24:52.240053+01:00",
+    "LastChanged": "2009-05-17T11:06:42.7878188+02:00",
     "ChildItems": [
       {
-        "Id": 180,
-        "Name": "Russel Group",
-        "ToolTip": "Veniam omnis inventore veritatis incidunt incidunt.",
+        "Id": 591,
+        "Name": "Langosh-Considine",
+        "ToolTip": "Harum in debitis qui.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "ut",
-        "ColorBlock": 22,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2014-06-14T03:24:52.240053+02:00",
+        "Rank": 469,
+        "Type": "officiis",
+        "ColorBlock": 867,
+        "IconHint": "commodi",
+        "Selected": true,
+        "LastChanged": "2020-07-30T11:06:42.7878188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "aut",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Dr. Paul Alexandria Upton",
+        "FullName": "Sister Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 84
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Isabella Hackett",
+    "ExtraInfo": "iusto",
+    "StyleHint": "soluta",
+    "Hidden": true,
+    "FullName": "Cassie Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldLength": 983
       }
     }
   }

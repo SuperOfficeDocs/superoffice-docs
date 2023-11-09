@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 124,
-  "Name": "Daniel, Homenick and Borer",
+  "TicketPriorityId": 376,
+  "Name": "Luettgen Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 52,
+  "SortOrder": 707,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 395,
-  "MonStart": "1998-12-30T03:24:52.4431914+01:00",
-  "MonStop": "2007-03-22T03:24:52.4431914+01:00",
-  "TueStart": "2019-11-27T03:24:52.4431914+01:00",
-  "TueStop": "2020-07-06T03:24:52.4431914+02:00",
-  "WedStart": "2002-09-18T03:24:52.4431914+02:00",
-  "WedStop": "1996-11-17T03:24:52.4431914+01:00",
-  "ThuStart": "2000-08-18T03:24:52.4431914+02:00",
-  "ThuStop": "2017-11-14T03:24:52.4431914+01:00",
-  "FriStart": "2006-03-27T03:24:52.4431914+02:00",
-  "FriStop": "2012-12-06T03:24:52.4431914+01:00",
-  "SatStart": "1998-09-21T03:24:52.4431914+02:00",
-  "SatStop": "2006-01-19T03:24:52.4431914+01:00",
-  "SunStart": "2000-12-20T03:24:52.4431914+01:00",
-  "SunStop": "2009-05-26T03:24:52.4431914+02:00",
+  "Deadline": 577,
+  "MonStart": "2009-03-15T11:06:43.1159494+01:00",
+  "MonStop": "2013-12-23T11:06:43.1159494+01:00",
+  "TueStart": "2001-02-25T11:06:43.1159494+01:00",
+  "TueStop": "2023-09-09T11:06:43.1159494+02:00",
+  "WedStart": "2015-11-22T11:06:43.1159494+01:00",
+  "WedStop": "1998-07-18T11:06:43.1159494+02:00",
+  "ThuStart": "2016-04-01T11:06:43.1159494+02:00",
+  "ThuStop": "2015-11-09T11:06:43.1159494+01:00",
+  "FriStart": "2007-11-10T11:06:43.1159494+01:00",
+  "FriStop": "2013-05-13T11:06:43.1159494+02:00",
+  "SatStart": "2000-12-13T11:06:43.1159494+01:00",
+  "SatStop": "2021-02-02T11:06:43.1159494+01:00",
+  "SunStart": "2002-08-31T11:06:43.1159494+02:00",
+  "SunStop": "2012-01-22T11:06:43.1159494+01:00",
   "NonDates": [
-    "non",
-    "voluptatum"
+    "error",
+    "incidunt"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 898,
-      "AlertLevel": 102,
-      "AlertTimeout": 8,
-      "Action": 618,
-      "DelegateTo": 630,
-      "ScriptId": 588,
-      "EmailTo": "johnpaul.stoltenberg@brakus.ca",
-      "SmsTo": "consequatur",
-      "ReplyTemplateIdCustomer": 973,
-      "ReplyTemplateIdUser": 438,
-      "ReplyTemplateIdCatmast": 203,
-      "ReplyTemplateIdEmail": 49,
-      "RtiCustomerSms": 192,
-      "ReplyTemplateIdUserSms": 544,
-      "ReplyTemplateIdCatmastSms": 792,
-      "ReplyTemplateIdSms": 168,
+      "TicketAlertId": 13,
+      "AlertLevel": 1000,
+      "AlertTimeout": 708,
+      "Action": 942,
+      "DelegateTo": 329,
+      "ScriptId": 396,
+      "EmailTo": "roxanne_dare@wintheiserkeeling.co.uk",
+      "SmsTo": "nesciunt",
+      "ReplyTemplateIdCustomer": 195,
+      "ReplyTemplateIdUser": 671,
+      "ReplyTemplateIdCatmast": 800,
+      "ReplyTemplateIdEmail": 742,
+      "RtiCustomerSms": 536,
+      "ReplyTemplateIdUserSms": 470,
+      "ReplyTemplateIdCatmastSms": 888,
+      "ReplyTemplateIdSms": 1000,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldLength": 985
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 648
     }
   }
 }

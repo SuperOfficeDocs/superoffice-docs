@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 287,
-  "Section": "provident",
-  "Key": "quae",
-  "Name": "Buckridge-Farrell",
+  "PrefDescId": 783,
+  "Section": "in",
+  "Key": "modi",
+  "Name": "Ziemann, Eichmann and Schmidt",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused radical leverage",
+  "Description": "Quality-focused fault-tolerant synergy",
   "IsBuiltin": false,
-  "TableName": "Little, Ankunding and Runolfsdottir",
-  "UserDefinedListId": 187,
-  "Rank": 373,
-  "SubGroup": "consequatur",
-  "MinLevel": 91,
-  "MaxValue": 364,
-  "MinValue": 724,
-  "RequiredLicense": "aliquam"
+  "TableName": "Konopelski Group",
+  "UserDefinedListId": 263,
+  "Rank": 685,
+  "SubGroup": "quibusdam",
+  "MinLevel": 190,
+  "MaxValue": 928,
+  "MinValue": 230,
+  "RequiredLicense": "ducimus"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 137,
-  "Section": "tenetur",
-  "Key": "assumenda",
-  "Name": "Homenick, Satterfield and Rippin",
+  "PrefDescId": 95,
+  "Section": "cumque",
+  "Key": "consequuntur",
+  "Name": "Langosh, Weber and Wunsch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Phased reciprocal data-warehouse",
+  "Description": "Phased user-facing synergy",
   "IsBuiltin": false,
-  "TableName": "Marvin-Lind",
-  "UserDefinedListId": 304,
-  "Rank": 491,
-  "SubGroup": "nesciunt",
-  "MinLevel": 615,
-  "MaxValue": 706,
-  "MinValue": 332,
-  "RequiredLicense": "magnam",
+  "TableName": "Bashirian-Oberbrunner",
+  "UserDefinedListId": 682,
+  "Rank": 66,
+  "SubGroup": "possimus",
+  "MinLevel": 779,
+  "MaxValue": 951,
+  "MinValue": 386,
+  "RequiredLicense": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

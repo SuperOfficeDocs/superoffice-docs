@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 909,
-  "IncludeEmails": true
+  "DocumentPluginId": 43,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 872,
-  "NumDocumentsAlreadyMigrated": 715,
+  "NumDocumentsOmitted": 874,
+  "NumDocumentsAlreadyMigrated": 728,
   "Documents": [
     {
-      "DocumentId": 931,
-      "ContactId": 39,
-      "PersonId": 435,
-      "SaleId": 187,
-      "ProjectId": 886,
-      "DocTmplId": 720,
-      "AssociateId": 333,
-      "UserGroupId": 776,
-      "VisibleForId": 670
+      "DocumentId": 868,
+      "ContactId": 955,
+      "PersonId": 760,
+      "SaleId": 533,
+      "ProjectId": 446,
+      "DocTmplId": 88,
+      "AssociateId": 27,
+      "UserGroupId": 767,
+      "VisibleForId": 867
     }
   ],
   "Associates": [
     {
-      "AssociateId": 794,
-      "EmailAddress": "carmel.runolfsson@brakusmuller.uk"
+      "AssociateId": 22,
+      "EmailAddress": "petra@brown.ca"
     },
     {
-      "AssociateId": 794,
-      "EmailAddress": "carmel.runolfsson@brakusmuller.uk"
+      "AssociateId": 22,
+      "EmailAddress": "petra@brown.ca"
     }
   ]
 }

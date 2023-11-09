@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 624,
-  "PrefDescId": 713,
-  "PrefValue": "quae",
-  "PrefShowValue": "esse",
-  "Description": "Implemented national initiative",
+  "PrefDescLineId": 739,
+  "PrefDescId": 559,
+  "PrefValue": "enim",
+  "PrefShowValue": "cupiditate",
+  "Description": "Multi-lateral well-modulated approach",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 358,
-  "PrefDescId": 502,
-  "PrefValue": "omnis",
-  "PrefShowValue": "omnis",
-  "Description": "Balanced user-facing open system",
-  "IsBuiltin": true,
+  "PrefDescLineId": 225,
+  "PrefDescId": 115,
+  "PrefValue": "similique",
+  "PrefShowValue": "aliquid",
+  "Description": "User-centric modular leverage",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 450
     }
   }
 }

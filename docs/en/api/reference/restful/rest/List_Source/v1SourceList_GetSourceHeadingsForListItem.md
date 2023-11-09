@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Beier LLC",
-    "ToolTip": "Dolorem sunt amet autem quidem voluptas.",
-    "Deleted": false,
-    "Rank": 905,
-    "Type": "quis",
-    "ColorBlock": 902,
-    "IconHint": "eaque",
+    "Id": 869,
+    "Name": "Miller Inc and Sons",
+    "ToolTip": "Repellat magni nihil earum labore sed unde.",
+    "Deleted": true,
+    "Rank": 990,
+    "Type": "quo",
+    "ColorBlock": 358,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2004-12-10T03:24:52.4275712+01:00",
+    "LastChanged": "1999-08-30T11:06:43.0847005+02:00",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Hackett, Durgan and Feest",
-        "ToolTip": "Rerum voluptas aperiam corrupti ut.",
+        "Id": 63,
+        "Name": "Schumm LLC",
+        "ToolTip": "Et ea laboriosam occaecati laudantium ut aut eum.",
         "Deleted": false,
-        "Rank": 667,
-        "Type": "ipsum",
-        "ColorBlock": 774,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2019-11-29T03:24:52.4275712+01:00",
+        "Rank": 936,
+        "Type": "beatae",
+        "ColorBlock": 639,
+        "IconHint": "voluptate",
+        "Selected": true,
+        "LastChanged": "1999-01-29T11:06:43.0847005+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "quasi",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Gordon Rowe",
+        "FullName": "Craig Horacio Satterfield V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 384
+            "FieldType": "System.Int32",
+            "FieldLength": 612
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "nisi",
+    "ExtraInfo": "maxime",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Chanelle Anderson",
+    "FullName": "Pietro Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 373
       }
     }
   }

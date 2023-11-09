@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 967,
-  "Name": "Anderson-Barrows",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 190,
-  "UdListDefinitionId": 375
+  "HeadingId": 274,
+  "Name": "Metz, Streich and Kuphal",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 396,
+  "UdListDefinitionId": 857
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 171,
-  "Name": "Lebsack-Marquardt",
-  "Tooltip": "placeat",
+  "HeadingId": 353,
+  "Name": "Yundt LLC",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 60,
-  "UdListDefinitionId": 582,
+  "Rank": 697,
+  "UdListDefinitionId": 882,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

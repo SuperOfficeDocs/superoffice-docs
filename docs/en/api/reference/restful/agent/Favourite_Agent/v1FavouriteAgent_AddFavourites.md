@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "McDermott-Swaniawski",
+  "TableName": "Heller Inc and Sons",
   "RecordIds": [
-    343,
-    658
+    235,
+    938
   ],
-  "AssociateId": 462,
-  "ExtraInfo": "beatae"
+  "AssociateId": 134,
+  "ExtraInfo": "dicta"
 }
 ```
 

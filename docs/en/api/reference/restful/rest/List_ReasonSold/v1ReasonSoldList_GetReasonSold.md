@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 185,
-  "Name": "Oberbrunner-Schiller",
-  "Tooltip": "quia",
+  "Id": 422,
+  "Name": "Rempel, Graham and Gleichner",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 75,
-  "Rank": 933,
+  "UdListDefinitionId": 158,
+  "Rank": 619,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 795
     }
   }
 }

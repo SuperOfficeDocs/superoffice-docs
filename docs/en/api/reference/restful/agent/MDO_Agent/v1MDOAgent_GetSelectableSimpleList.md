@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jaskolski-Bosco"
+  "Name": "Hermann, Wyman and Hirthe"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 899,
-    "Name": "Zemlak LLC",
-    "ToolTip": "Placeat amet a.",
+    "Id": 403,
+    "Name": "VonRueden, Emard and Bechtelar",
+    "ToolTip": "Consequatur molestias.",
     "Deleted": true,
-    "Rank": 894,
-    "Type": "laudantium",
-    "ColorBlock": 43,
-    "IconHint": "ut",
+    "Rank": 704,
+    "Type": "aut",
+    "ColorBlock": 945,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2008-08-07T03:24:47.9238778+02:00",
+    "LastChanged": "2023-08-11T11:06:34.8020663+02:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Jones Group",
-        "ToolTip": "Voluptatibus nihil est incidunt et.",
+        "Id": 539,
+        "Name": "Upton-Ruecker",
+        "ToolTip": "Et dolores vero nemo voluptate mollitia exercitationem.",
         "Deleted": false,
-        "Rank": 980,
-        "Type": "sed",
-        "ColorBlock": 11,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2017-05-16T03:24:47.9238778+02:00",
+        "Rank": 214,
+        "Type": "iure",
+        "ColorBlock": 288,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "2007-08-19T11:06:34.8020663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "nisi",
-        "Hidden": true,
-        "FullName": "Lane Hettinger IV",
+        "ExtraInfo": "ex",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Jessyca Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 777
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "facere",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mr. Maybell McGlynn",
+    "FullName": "Miss Karli Haag I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 184
+        "FieldType": "System.Int32",
+        "FieldLength": 977
       }
     }
   }

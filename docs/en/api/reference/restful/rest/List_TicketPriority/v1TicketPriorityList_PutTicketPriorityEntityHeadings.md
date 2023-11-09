@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 175,
-    "Name": "Schmeler-Bernhard",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 361,
-    "UdListDefinitionId": 284
+    "HeadingId": 825,
+    "Name": "Pouros-Willms",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 840,
+    "UdListDefinitionId": 168
   },
   {
-    "HeadingId": 175,
-    "Name": "Schmeler-Bernhard",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 361,
-    "UdListDefinitionId": 284
+    "HeadingId": 825,
+    "Name": "Pouros-Willms",
+    "Tooltip": "fuga",
+    "Deleted": true,
+    "Rank": 840,
+    "UdListDefinitionId": 168
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 349,
-    "Name": "Bergstrom-Rodriguez",
-    "Tooltip": "perferendis",
-    "Deleted": true,
-    "Rank": 673,
-    "UdListDefinitionId": 1002,
+    "HeadingId": 216,
+    "Name": "Kuvalis LLC",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 268,
+    "UdListDefinitionId": 980,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 380
       }
     }
   }

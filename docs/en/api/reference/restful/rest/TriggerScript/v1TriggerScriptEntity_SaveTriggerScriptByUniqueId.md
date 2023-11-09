@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 826,
-  "Name": "Jones, Metz and Prohaska",
+  "ScreenChooserId": 12,
+  "Name": "Hermiston LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "non",
-  "Source": "rem",
-  "Registered": "1998-12-20T03:24:52.0213616+01:00",
-  "RegisteredAssociateId": 661,
-  "Updated": "2000-07-07T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 896
+  "UniqueIdentifier": "adipisci",
+  "Source": "magnam",
+  "Registered": "2019-10-19T11:06:42.3647477+02:00",
+  "RegisteredAssociateId": 613,
+  "Updated": "2019-01-31T11:06:42.3647477+01:00",
+  "UpdatedAssociateId": 668
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 286,
-  "Name": "Gislason, Denesik and Nader",
+  "ScreenChooserId": 555,
+  "Name": "Romaguera Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "delectus",
-  "Source": "explicabo",
-  "Registered": "2003-05-03T03:24:52.0213616+02:00",
-  "RegisteredAssociateId": 372,
-  "Updated": "2006-09-29T03:24:52.0213616+02:00",
-  "UpdatedAssociateId": 636,
+  "Enabled": true,
+  "UniqueIdentifier": "quasi",
+  "Source": "ut",
+  "Registered": "2014-06-27T11:06:42.3647477+02:00",
+  "RegisteredAssociateId": 922,
+  "Updated": "2004-09-24T11:06:42.3647477+02:00",
+  "UpdatedAssociateId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 915
     }
   }
 }

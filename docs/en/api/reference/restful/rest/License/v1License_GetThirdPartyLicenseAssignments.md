@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 337,
-    "Tooltip": "soluta",
-    "CanAssign": true,
-    "Free": 681,
-    "InUse": 681,
+    "Unrestricted": false,
+    "Total": 901,
+    "Tooltip": "perferendis",
+    "CanAssign": false,
+    "Free": 189,
+    "InUse": 125,
     "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 842,
-    "Name": "Eichmann, Ledner and Wintheiser",
-    "Description": "Exclusive analyzing contingency",
-    "PrerequisiteModuleName": "Collins Group",
-    "SortOrder": 916,
-    "ExtraFlags": 207,
+    "Assigned": true,
+    "ModuleLicenseId": 433,
+    "Name": "Ward Inc and Sons",
+    "Description": "Realigned assymetric matrix",
+    "PrerequisiteModuleName": "Bergnaum-Block",
+    "SortOrder": 562,
+    "ExtraFlags": 92,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldLength": 821
       }
     }
   }

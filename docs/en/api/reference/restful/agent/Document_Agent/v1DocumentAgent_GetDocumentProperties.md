@@ -75,10 +75,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 153,
+  "DocumentId": 857,
   "RequestedProperties": [
-    "quibusdam",
-    "ut"
+    "quia",
+    "consequatur"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "excepturi",
-  "2": "totam"
+  "1": "quibusdam",
+  "2": "qui"
 }
 ```

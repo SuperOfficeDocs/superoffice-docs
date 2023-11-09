@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 857,
-  "NewName": "Cremin-Labadie",
-  "ValidFrom": "2007-03-19T03:24:48.1269787+01:00",
-  "ValidTo": "2013-07-13T03:24:48.1269787+02:00",
-  "NewCurrencyId": 628,
+  "OriginalPriceListId": 469,
+  "NewName": "Ratke, Watsica and Jerde",
+  "ValidFrom": "2001-11-21T11:06:35.2083213+01:00",
+  "ValidTo": "2015-01-17T11:06:35.2083213+01:00",
+  "NewCurrencyId": 31,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 672,
-  "ERPPriceListKey": "adipisci",
-  "QuoteConnectionId": 491,
-  "Name": "Collier Inc and Sons",
-  "Description": "Decentralized context-sensitive capacity",
-  "Currency": "id",
-  "CurrencyName": "Paucek LLC",
-  "ValidFrom": "1999-11-07T03:24:48.1269787+01:00",
-  "ValidTo": "1999-02-06T03:24:48.1269787+01:00",
-  "IsActive": false,
+  "PriceListId": 772,
+  "ERPPriceListKey": "cupiditate",
+  "QuoteConnectionId": 394,
+  "Name": "Beahan LLC",
+  "Description": "Implemented human-resource secured line",
+  "Currency": "sit",
+  "CurrencyName": "Ratke Group",
+  "ValidFrom": "2021-07-31T11:06:35.2083213+02:00",
+  "ValidTo": "2008-03-21T11:06:35.2083213+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 222
+      "FieldLength": 546
     }
   }
 }

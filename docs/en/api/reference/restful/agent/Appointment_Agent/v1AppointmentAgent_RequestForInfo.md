@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 478,
-  "Channel": "quibusdam",
-  "Regarding": "quaerat",
-  "ContactName": "Armstrong-Lockman",
-  "PersonFirstname": "Mario",
-  "PersonLastname": "Kozey",
-  "EmailAddress": "elmer_cartwright@okunevatrantow.biz",
-  "PhoneNumber": "1037660"
+  "AssociateIdForNewContact": 749,
+  "Channel": "ratione",
+  "Regarding": "nulla",
+  "ContactName": "Bergnaum-Daniel",
+  "PersonFirstname": "Maximilian",
+  "PersonLastname": "Rice",
+  "EmailAddress": "clinton@batz.info",
+  "PhoneNumber": "589844"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 6,
-      "Name": "Bailey-Marks",
-      "OrgNr": "1343389",
+      "ContactId": 261,
+      "Name": "Hauck, Bednar and Wyman",
+      "OrgNr": "785628",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "ducimus",
-      "DirectPhone": "(559)162-6555",
-      "AssociateId": 159,
-      "CountryId": 113,
-      "EmailAddress": "kathryn@robel.ca",
-      "Kananame": "ea",
-      "EmailAddressName": "micaela@haaggoldner.biz",
+      "City": "non",
+      "DirectPhone": "(946)300-2210",
+      "AssociateId": 922,
+      "CountryId": 511,
+      "EmailAddress": "jimmy_goyette@sauer.info",
+      "Kananame": "modi",
+      "EmailAddressName": "ayana@quigley.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Prof. Francesca Mohr",
+      "AssociateFullName": "Norwood Cartwright Jr.",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "neque",
-      "FullName": "Odessa Steuber",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 739,
-      "Number1": "647015",
-      "Number2": "1504092",
+      "FormattedAddress": "veniam",
+      "FullName": "Deonte Nikolaus",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 652,
+      "Number1": "475088",
+      "Number2": "728726",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 880
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

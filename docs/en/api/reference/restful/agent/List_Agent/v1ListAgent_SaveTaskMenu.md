@@ -93,20 +93,20 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 625,
-  "Name": "Heller-Weber",
-  "Tooltip": "in",
-  "TableName": "Halvorson Inc and Sons",
-  "Area": "enim",
+  "TaskMenuId": 134,
+  "Name": "Carroll, Boyle and Heathcote",
+  "Tooltip": "dicta",
+  "TableName": "Bednar, Rowe and Rosenbaum",
+  "Area": "provident",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 957,
+  "CrmScriptId": 156,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 370,
+  "Rank": 896,
   "Encoding": "ANSI",
-  "ProgId": "modi",
-  "Deleted": false
+  "ProgId": "asperiores",
+  "Deleted": true
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 107,
-  "Name": "Schiller LLC",
-  "Tooltip": "ullam",
-  "TableName": "Dickens, Frami and Rippin",
-  "Area": "voluptatum",
+  "TaskMenuId": 184,
+  "Name": "Sipes-McCullough",
+  "Tooltip": "consequuntur",
+  "TableName": "Little, Witting and Wiza",
+  "Area": "aut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 663,
+  "CrmScriptId": 547,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 344,
+  "Rank": 67,
   "Encoding": "ANSI",
-  "ProgId": "labore",
-  "Deleted": true,
+  "ProgId": "est",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 164
     }
   }
 }

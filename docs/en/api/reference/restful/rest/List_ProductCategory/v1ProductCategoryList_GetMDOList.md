@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=eos
+GET /api/v1/List/ProductCategory/MDOItems?query=facere
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Farrell, Bode and Leannon",
-    "ToolTip": "Magnam repellendus quibusdam ut.",
+    "Id": 434,
+    "Name": "Effertz, Schoen and Smith",
+    "ToolTip": "Aspernatur voluptatem eius magnam eum sed.",
     "Deleted": false,
-    "Rank": 69,
-    "Type": "voluptatem",
+    "Rank": 857,
+    "Type": "harum",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Reynolds-Botsford",
-        "ToolTip": "Voluptas inventore repellat neque qui assumenda.",
-        "Deleted": true,
-        "Rank": 864,
-        "Type": "repellendus",
+        "Id": 973,
+        "Name": "Russel-Flatley",
+        "ToolTip": "Velit quo.",
+        "Deleted": false,
+        "Rank": 90,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 78,
-        "ExtraInfo": "iste",
-        "StyleHint": "consequatur",
-        "FullName": "Dion Thiel",
+        "IconHint": "eos",
+        "ColorBlock": 387,
+        "ExtraInfo": "excepturi",
+        "StyleHint": "aspernatur",
+        "FullName": "Heloise Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldType": "System.String",
+            "FieldLength": 472
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 967,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aut",
-    "FullName": "April Jacobson",
+    "IconHint": "vitae",
+    "ColorBlock": 831,
+    "ExtraInfo": "mollitia",
+    "StyleHint": "qui",
+    "FullName": "Devonte Simonis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

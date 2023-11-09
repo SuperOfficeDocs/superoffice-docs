@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "et",
+  "Path": "numquam",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 130,
+  "HierarchyId": 124,
   "Domain": "Dashboards",
-  "Name": "Crooks-Effertz",
-  "Fullname": "explicabo",
-  "ParentId": 937,
+  "Name": "Hayes Inc and Sons",
+  "Fullname": "quo",
+  "ParentId": 1001,
   "Children": [
     {
-      "HierarchyId": 530,
+      "HierarchyId": 389,
       "Domain": "Dashboards",
-      "Name": "Bailey Inc and Sons",
-      "Fullname": "dolorem",
-      "ParentId": 33,
+      "Name": "Pagac-Anderson",
+      "Fullname": "temporibus",
+      "ParentId": 165,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2015-10-20T03:24:47.8926276+02:00",
-      "RegisteredAssociateId": 898,
-      "Updated": "2019-05-20T03:24:47.8926276+02:00",
-      "UpdatedAssociateId": 308,
+      "Registered": "2002-07-14T11:06:34.7551834+02:00",
+      "RegisteredAssociateId": 105,
+      "Updated": "2013-02-14T11:06:34.7551834+01:00",
+      "UpdatedAssociateId": 374,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 726
         }
       }
     }
   ],
-  "Registered": "1999-09-07T03:24:47.8926276+02:00",
-  "RegisteredAssociateId": 573,
-  "Updated": "2003-04-23T03:24:47.8926276+02:00",
-  "UpdatedAssociateId": 905,
+  "Registered": "2014-08-06T11:06:34.7551834+02:00",
+  "RegisteredAssociateId": 16,
+  "Updated": "2011-01-23T11:06:34.7551834+01:00",
+  "UpdatedAssociateId": 225,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldLength": 744
     }
   }
 }

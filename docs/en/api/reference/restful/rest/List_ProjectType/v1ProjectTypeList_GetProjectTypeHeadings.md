@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 883,
-    "Name": "Kub-Welch",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 465,
-    "UdListDefinitionId": 716,
+    "HeadingId": 863,
+    "Name": "Borer-Parisian",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 112,
+    "UdListDefinitionId": 131,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 229
       }
     }
   }

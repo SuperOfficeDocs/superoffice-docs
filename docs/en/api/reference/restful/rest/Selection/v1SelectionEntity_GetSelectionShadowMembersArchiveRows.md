@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fugiat",
+  "odata.nextLink": "minus",
   "value": [
     {
-      "PrimaryKey": 6421,
+      "PrimaryKey": 883,
       "EntityName": "person",
-      "personId": 6421,
-      "fullName": "Mr. Adalberto Nikolaus"
+      "personId": 883,
+      "fullName": "Samir Rickey Kunze V"
     },
     {
-      "PrimaryKey": 8644,
+      "PrimaryKey": 6711,
       "EntityName": "person",
-      "personId": 8644,
-      "fullName": "Mr. Zakary Borer"
+      "personId": 6711,
+      "fullName": "Mekhi Amira Kilback MD"
     }
   ]
 }

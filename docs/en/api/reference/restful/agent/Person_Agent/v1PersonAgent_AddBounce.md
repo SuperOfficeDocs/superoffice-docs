@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Person/AddBounce
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "shawn_rau@kunzegreenfelder.com"
+  "EmailAddress": "eriberto@greenholt.uk"
 }
 ```
 

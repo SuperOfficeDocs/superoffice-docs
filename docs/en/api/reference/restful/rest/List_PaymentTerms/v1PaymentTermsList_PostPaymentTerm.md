@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 361,
-  "Name": "Hickle Group",
-  "Tooltip": "possimus",
+  "Id": 811,
+  "Name": "Haley Inc and Sons",
+  "Tooltip": "quos",
   "Deleted": false,
-  "UdListDefinitionId": 486,
-  "Rank": 189
+  "UdListDefinitionId": 821,
+  "Rank": 923
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 723,
-  "Name": "Swift-Harris",
-  "Tooltip": "qui",
+  "Id": 858,
+  "Name": "O'Kon LLC",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "UdListDefinitionId": 128,
-  "Rank": 32,
+  "UdListDefinitionId": 162,
+  "Rank": 155,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 240
     }
   }
 }

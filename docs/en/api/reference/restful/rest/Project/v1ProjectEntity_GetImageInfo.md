@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 01 Jun 2018 03:24:51 G6T
+Last-Modified: Mon, 16 May 2011 11:06:42 G5T
 
 {
-  "BlobId": 462,
-  "BlobSize": 6,
-  "Description": "Stand-alone tangible synergy",
-  "ExtraInfo": "aut",
-  "IsEncrypted": false,
+  "BlobId": 42,
+  "BlobSize": 939,
+  "Description": "Quality-focused encompassing flexibility",
+  "ExtraInfo": "placeat",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "possimus",
-  "OriginalSize": 743,
-  "CreatedDate": "1998-08-24T03:24:51.7401403+02:00",
-  "UpdatedDate": "2018-06-01T03:24:51.7401403+02:00",
+  "MimeType": "in",
+  "OriginalSize": 375,
+  "CreatedDate": "1998-12-21T11:06:42.0666003+01:00",
+  "UpdatedDate": "2011-05-16T11:06:42.0666003+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempore",
+  "ConceptualType": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 659
     }
   }
 }

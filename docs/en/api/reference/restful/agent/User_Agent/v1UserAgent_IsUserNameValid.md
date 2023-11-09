@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 795,
+  "AssociateId": 117,
   "Type": "AnonymousAssociate",
-  "PersonId": 198,
-  "UserName": "Ledner-Carroll"
+  "PersonId": 79,
+  "UserName": "Borer Inc and Sons"
 }
 ```
 

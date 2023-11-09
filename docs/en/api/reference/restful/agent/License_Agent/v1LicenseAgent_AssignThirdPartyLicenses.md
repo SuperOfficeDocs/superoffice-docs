@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 546,
-  "ModuleOwner": "voluptatem",
+  "AssociateId": 909,
+  "ModuleOwner": "aut",
   "ModuleLicenseNames": [
-    "Strosin, Funk and Kuvalis",
-    "Medhurst LLC"
+    "Nienow, Hills and Hickle",
+    "Terry, Emard and Rowe"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 368,
-    "Tooltip": "voluptatum",
-    "CanAssign": true,
-    "Free": 279,
-    "InUse": 131,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 96,
-    "Name": "Ritchie Inc and Sons",
-    "Description": "Team-oriented static adapter",
-    "PrerequisiteModuleName": "Schultz-Rodriguez",
-    "SortOrder": 364,
-    "ExtraFlags": 149,
+    "Total": 573,
+    "Tooltip": "quibusdam",
+    "CanAssign": false,
+    "Free": 337,
+    "InUse": 54,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 587,
+    "Name": "Altenwerth, Hettinger and Huels",
+    "Description": "Multi-tiered optimizing groupware",
+    "PrerequisiteModuleName": "Rogahn Inc and Sons",
+    "SortOrder": 611,
+    "ExtraFlags": 594,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 164
       }
     }
   }

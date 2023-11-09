@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 823,
-  "ParentId": 521,
-  "Name": "Murphy Group",
-  "Fullname": "et",
-  "CategoryMaster": 528,
+  "TicketCategoryId": 12,
+  "ParentId": 38,
+  "Name": "Cummings LLC",
+  "Fullname": "minus",
+  "CategoryMaster": 158,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Prohaska, Muller and Metz",
+  "ExternalName": "Zemlak-McGlynn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 172,
-  "ReplyTemplate": 792,
-  "NotificationEmail": "malika_lebsack@bashirian.uk",
+  "AssignmentLag": 725,
+  "ReplyTemplate": 624,
+  "NotificationEmail": "eloy_kunde@cole.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 721,
+  "EffectiveReplyTemplateId": 55,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "aut"
+    "CustomFields1": "non",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 291
     }
   }
 }

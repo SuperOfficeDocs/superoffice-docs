@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schulist LLC",
-  "ProviderName": "Bayer, Kemmer and Corwin",
-  "SortOrder": "voluptatem",
-  "Restriction": "nisi",
-  "Entities": "quia",
-  "Page": 472,
-  "PageSize": 170
+  "GuiName": "Hickle, Willms and Wunsch",
+  "ProviderName": "Buckridge-Halvorson",
+  "SortOrder": "doloremque",
+  "Restriction": "quod",
+  "Entities": "alias",
+  "Page": 572,
+  "PageSize": 833
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Barton LLC",
-    "PrimaryKey": 623,
+    "EntityName": "Raynor LLC",
+    "PrimaryKey": 88,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "mollitia",
-        "TooltipHint": "assumenda",
-        "LinkHint": "et"
+        "DisplayValue": "blanditiis",
+        "TooltipHint": "exercitationem",
+        "LinkHint": "officia"
       }
     },
-    "LinkHint": "explicabo",
-    "StyleHint": "consequatur",
+    "LinkHint": "nihil",
+    "StyleHint": "reprehenderit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldLength": 570
       }
     }
   }

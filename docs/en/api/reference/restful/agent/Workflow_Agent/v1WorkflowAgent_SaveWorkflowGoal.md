@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 522,
-  "WorkflowId": 213,
+  "WorkflowGoalId": 152,
+  "WorkflowId": 36,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Mosciski-Zulauf",
-      "Description": "Triple-buffered fault-tolerant help-desk",
-      "Rank": 518,
+      "Name": "Cormier, Weber and Beer",
+      "Description": "Monitored fault-tolerant architecture",
+      "Rank": 388,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mosciski-Zulauf",
-      "Description": "Triple-buffered fault-tolerant help-desk",
-      "Rank": 518,
+      "Name": "Cormier, Weber and Beer",
+      "Description": "Monitored fault-tolerant architecture",
+      "Rank": 388,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 5,
-  "WorkflowId": 17,
+  "WorkflowGoalId": 857,
+  "WorkflowId": 4,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Conroy, Flatley and Bogan",
-      "Description": "Progressive discrete standardization",
-      "Rank": 64,
+      "Name": "Bauch LLC",
+      "Description": "Programmable incremental service-desk",
+      "Rank": 395,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Conroy, Flatley and Bogan",
-      "Description": "Progressive discrete standardization",
-      "Rank": 64,
+      "Name": "Bauch LLC",
+      "Description": "Programmable incremental service-desk",
+      "Rank": 395,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 945
     }
   }
 }

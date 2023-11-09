@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 436,
-    "Name": "Luettgen LLC",
-    "Tooltip": "natus",
+    "HeadingId": 654,
+    "Name": "Stiedemann-Hudson",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 679
+    "Rank": 888,
+    "UdListDefinitionId": 843
   },
   {
-    "HeadingId": 436,
-    "Name": "Luettgen LLC",
-    "Tooltip": "natus",
+    "HeadingId": 654,
+    "Name": "Stiedemann-Hudson",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 679
+    "Rank": 888,
+    "UdListDefinitionId": 843
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 650,
-    "Name": "Schamberger-Adams",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 736,
-    "UdListDefinitionId": 616,
+    "HeadingId": 49,
+    "Name": "Waters LLC",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "Rank": 191,
+    "UdListDefinitionId": 998,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 10
       }
     }
   }

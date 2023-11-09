@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 990,
-  "Name": "Willms Group",
-  "Config": "sed",
-  "Rank": 698,
-  "Client": "eum",
-  "Style": "sapiente",
+  "DashboardThemeId": 881,
+  "Name": "Adams-Simonis",
+  "Config": "quisquam",
+  "Rank": 602,
+  "Client": "corrupti",
+  "Style": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

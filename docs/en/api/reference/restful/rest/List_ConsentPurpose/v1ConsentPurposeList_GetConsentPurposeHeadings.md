@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 153,
-    "Name": "Towne, Gutkowski and Cronin",
-    "Tooltip": "aut",
+    "HeadingId": 707,
+    "Name": "Halvorson Inc and Sons",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "Rank": 317,
-    "UdListDefinitionId": 129,
+    "Rank": 859,
+    "UdListDefinitionId": 580,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 547
+        "FieldLength": 621
       }
     }
   }

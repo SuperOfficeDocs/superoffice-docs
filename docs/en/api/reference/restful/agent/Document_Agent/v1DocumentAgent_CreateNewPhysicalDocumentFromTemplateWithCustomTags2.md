@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 60,
-  "PersonId": 177,
-  "AppointmentId": 939,
-  "DocumentId": 758,
-  "SaleId": 7,
-  "SelectionId": 486,
-  "ProjectId": 504,
+  "ContactId": 70,
+  "PersonId": 239,
+  "AppointmentId": 140,
+  "DocumentId": 563,
+  "SaleId": 617,
+  "SelectionId": 575,
+  "ProjectId": 777,
   "CustomTags": {
-    "CustomTags1": "architecto",
-    "CustomTags2": "quas"
+    "CustomTags1": "dignissimos",
+    "CustomTags2": "voluptas"
   },
-  "UiCulture": "ipsa"
+  "UiCulture": "voluptatum"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 677,
+  "DocumentId": 569,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "in",
-  "Header": "doloribus",
-  "Name": "Cartwright, Watsica and Koch",
-  "OurRef": "laboriosam",
-  "YourRef": "qui",
-  "CreatedDate": "2002-02-21T03:24:47.6739096+01:00",
-  "UpdatedDate": "2013-05-22T03:24:47.6739096+02:00",
-  "Description": "Intuitive 5th generation utilisation",
+  "Attention": "et",
+  "Header": "non",
+  "Name": "O'Reilly, Walsh and Dicki",
+  "OurRef": "impedit",
+  "YourRef": "repudiandae",
+  "CreatedDate": "2012-09-01T11:06:34.411434+02:00",
+  "UpdatedDate": "1998-08-22T11:06:34.411434+02:00",
+  "Description": "Compatible zero tolerance leverage",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-08-20T03:24:47.6739096+02:00",
-  "ExternalRef": "optio",
+  "Date": "2021-06-03T11:06:34.411434+02:00",
+  "ExternalRef": "praesentium",
   "Completed": "Completed",
-  "ActiveLinks": 313,
+  "ActiveLinks": 707,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Marquardt, Torphy and Turner",
-      "Id": 63,
-      "Description": "Horizontal analyzing structure",
-      "ExtraInfo": "cumque",
-      "LinkId": 860,
+      "EntityName": "White Inc and Sons",
+      "Id": 534,
+      "Description": "Integrated 6th generation project",
+      "ExtraInfo": "eos",
+      "LinkId": 450,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 81
+          "FieldType": "System.Int32",
+          "FieldLength": 347
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 709,
-  "Snum": 346,
+  "SuggestedDocumentId": 679,
+  "Snum": 187,
   "UserDefinedFields": {
-    "SuperOffice:1": "1849808338",
-    "SuperOffice:2": "919331324"
+    "SuperOffice:1": "1009184852",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "necessitatibus"
   },
-  "PublishEventDate": "2019-08-09T03:24:47.6739096+02:00",
-  "PublishTo": "2005-07-29T03:24:47.6739096+02:00",
-  "PublishFrom": "2012-06-22T03:24:47.6739096+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-06-26T11:06:34.411434+02:00",
+  "PublishTo": "1997-04-13T11:06:34.411434+02:00",
+  "PublishFrom": "2019-04-02T11:06:34.411434+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 172,
+      "VisibleId": 103,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 832
         }
       }
     },
     {
-      "VisibleId": 172,
+      "VisibleId": 103,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 832
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 296
     }
   }
 }

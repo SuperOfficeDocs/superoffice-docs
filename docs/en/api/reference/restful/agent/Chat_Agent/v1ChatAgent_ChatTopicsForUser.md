@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 528,
-    "Name": "Feeney-Goldner",
-    "Description": "Upgradable needs-based info-mediaries",
-    "WelcomeMessage": "est",
+    "ChatTopicId": 931,
+    "Name": "Satterfield Inc and Sons",
+    "Description": "Synchronised global database",
+    "WelcomeMessage": "sed",
     "Language": null,
-    "LastAccept": "2004-02-07T03:24:47.3458115+01:00",
-    "SecondsPrAccept": 411,
-    "AlertRecipient": "aut",
+    "LastAccept": "2015-09-21T11:06:34.0496048+02:00",
+    "SecondsPrAccept": 171,
+    "AlertRecipient": "nam",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "vel",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "eum",
-    "WarnNewChatMinutes": 421,
-    "WarnManagerNewChatMinutes": 790,
+    "CollectConsent": false,
+    "BadgeHeader": "eos",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "rem",
+    "WarnNewChatMinutes": 637,
+    "WarnManagerNewChatMinutes": 863,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 230,
-    "WarnManagerChatMessageMinutes": 919,
+    "WarnChatMessageMinutes": 734,
+    "WarnManagerChatMessageMinutes": 985,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 990,
-    "OfflineFormQueueLength": 518,
+    "OfflineFormTimeLimit": 655,
+    "OfflineFormQueueLength": 989,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "fugit",
+    "WidgetRatingText": "veniam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

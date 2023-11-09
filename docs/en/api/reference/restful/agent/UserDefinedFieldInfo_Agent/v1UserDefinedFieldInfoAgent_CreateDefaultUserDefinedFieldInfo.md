@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 226,
-  "ColumnId": 221,
-  "FieldDefault": "non",
-  "FieldHeight": 389,
-  "FieldLabel": "ipsa",
-  "FieldLeft": 442,
-  "FieldTop": 42,
+  "UDefFieldId": 744,
+  "ColumnId": 236,
+  "FieldDefault": "enim",
+  "FieldHeight": 414,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 742,
+  "FieldTop": 175,
   "FieldType": "Checkbox",
-  "FieldWidth": 817,
-  "FormatMask": "facilis",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 687,
-  "LabelLeft": 110,
-  "LabelTop": 88,
-  "LabelWidth": 682,
-  "LastVersionId": 852,
-  "ListTableId": 839,
-  "IsMandatory": true,
+  "FieldWidth": 874,
+  "FormatMask": "totam",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 630,
+  "LabelLeft": 126,
+  "LabelTop": 880,
+  "LabelWidth": 933,
+  "LastVersionId": 392,
+  "ListTableId": 764,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 757,
-  "ProgId": "eum",
-  "IsReadOnly": true,
-  "ShortLabel": "inventore",
-  "TabOrder": 417,
-  "TextLength": 537,
-  "Tooltip": "et",
-  "UdefIdentity": 660,
-  "UDListDefinitionId": 141,
+  "Page1LineNo": 464,
+  "ProgId": "necessitatibus",
+  "IsReadOnly": false,
+  "ShortLabel": "quos",
+  "TabOrder": 586,
+  "TextLength": 462,
+  "Tooltip": "non",
+  "UdefIdentity": 705,
+  "UDListDefinitionId": 535,
   "Justification": "Center",
-  "Version": 640,
-  "TemplateVariableName": "Jewess, Oberbrunner and Strosin",
+  "Version": 30,
+  "TemplateVariableName": "Waelchi, DuBuque and Emmerich",
   "HasBeenPublished": false,
-  "MdoListName": "Dare-Streich",
+  "MdoListName": "Parker-Rath",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldLength": 965
     }
   }
 }

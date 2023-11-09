@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 270,
-      "Id": 295,
-      "HistoryName": "Ratke Group",
-      "HistoryId": 496,
-      "AssociateId": 528,
-      "Name": "Cole-Ziemann",
-      "ItemInfo": "dolor"
+      "Rank": 389,
+      "Id": 629,
+      "HistoryName": "Goodwin, Gerlach and Grimes",
+      "HistoryId": 976,
+      "AssociateId": 552,
+      "Name": "Upton-Veum",
+      "ItemInfo": "est"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 318,
-    "Id": 766,
-    "HistoryName": "Prohaska LLC",
-    "HistoryId": 124,
-    "AssociateId": 96,
-    "Name": "Gottlieb-Kuvalis",
-    "ItemInfo": "beatae",
+    "Rank": 486,
+    "Id": 360,
+    "HistoryName": "Parker Group",
+    "HistoryId": 798,
+    "AssociateId": 767,
+    "Name": "Wilderman LLC",
+    "ItemInfo": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldType": "System.String",
+        "FieldLength": 52
       }
     }
   }

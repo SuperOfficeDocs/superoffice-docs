@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 708,
-  "Name": "Pouros Inc and Sons",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "Rank": 584,
-  "UdListDefinitionId": 69
+  "HeadingId": 440,
+  "Name": "Mitchell, Ullrich and Keeling",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 706,
+  "UdListDefinitionId": 635
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 27,
-  "Name": "Koelpin-Toy",
-  "Tooltip": "cum",
+  "HeadingId": 389,
+  "Name": "Bernier Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 263,
-  "UdListDefinitionId": 337,
+  "Rank": 413,
+  "UdListDefinitionId": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 383
+      "FieldType": "System.Int32",
+      "FieldLength": 983
     }
   }
 }

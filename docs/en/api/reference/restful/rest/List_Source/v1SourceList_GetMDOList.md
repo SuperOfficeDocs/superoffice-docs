@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=repudiandae
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=ut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Gusikowski-Treutel",
-    "ToolTip": "Saepe voluptatem sint ratione non optio quis.",
-    "Deleted": true,
-    "Rank": 403,
-    "Type": "quidem",
+    "Id": 119,
+    "Name": "Emard-Reichert",
+    "ToolTip": "Sequi earum nisi nisi.",
+    "Deleted": false,
+    "Rank": 665,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Gulgowski, Wolff and Fahey",
-        "ToolTip": "Aliquid nobis at illum esse impedit qui quod.",
+        "Id": 609,
+        "Name": "Osinski, Rice and Yundt",
+        "ToolTip": "Rerum fugiat voluptatibus molestiae placeat molestiae nisi.",
         "Deleted": false,
-        "Rank": 975,
-        "Type": "nobis",
+        "Rank": 365,
+        "Type": "consectetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 295,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "minus",
-        "FullName": "Amina Hoppe",
+        "IconHint": "aut",
+        "ColorBlock": 92,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "odio",
+        "FullName": "Dr. Hillard Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldLength": 341
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 726,
-    "ExtraInfo": "et",
-    "StyleHint": "accusantium",
-    "FullName": "Cara Elsie Wolf III",
+    "IconHint": "eaque",
+    "ColorBlock": 755,
+    "ExtraInfo": "expedita",
+    "StyleHint": "reiciendis",
+    "FullName": "Miss Norberto West",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 930
       }
     }
   }

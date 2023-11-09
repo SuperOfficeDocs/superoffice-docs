@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 601
+  "PersonId": 691
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 910,
-    "Name": "Stiedemann, Okuneva and Kutch",
-    "Description": "Switchable transitional flexibility",
+    "ProjectId": 149,
+    "Name": "Kulas, Mante and Bernier",
+    "Description": "Extended multimedia flexibility",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 195,
-    "AssociateFullName": "Miss Maryam Shanahan MD",
-    "TypeId": 945,
-    "Updated": "2020-12-27T03:24:48.0957311+01:00",
-    "StatusId": 500,
-    "Status": "accusantium",
-    "TextId": 497,
-    "PublishTo": "2020-10-10T03:24:48.0957311+02:00",
-    "PublishFrom": "2009-06-06T03:24:48.0957311+02:00",
-    "IsPublished": false,
+    "Type": "mollitia",
+    "AssociateId": 647,
+    "AssociateFullName": "Patricia Lind",
+    "TypeId": 845,
+    "Updated": "2015-01-06T11:06:35.1614465+01:00",
+    "StatusId": 944,
+    "Status": "et",
+    "TextId": 506,
+    "PublishTo": "2012-11-13T11:06:35.1614465+01:00",
+    "PublishFrom": "2022-07-07T11:06:35.1614465+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1314788",
-    "ActiveErpLinks": 574,
+    "ProjectNumber": "823325",
+    "ActiveErpLinks": 891,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 410
       }
     }
   }

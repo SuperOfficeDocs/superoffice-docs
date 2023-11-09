@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Senger Group",
-    "ToolTip": "Laborum est doloremque.",
+    "Id": 736,
+    "Name": "Kovacek Group",
+    "ToolTip": "Ut aliquid veritatis est.",
     "Deleted": false,
-    "Rank": 272,
-    "Type": "quisquam",
-    "ColorBlock": 765,
-    "IconHint": "minima",
-    "Selected": true,
-    "LastChanged": "2011-07-30T03:24:52.1775959+02:00",
+    "Rank": 67,
+    "Type": "laboriosam",
+    "ColorBlock": 576,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2012-06-07T11:06:42.6940706+02:00",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Adams, Dibbert and Bashirian",
-        "ToolTip": "Sit harum sunt explicabo aut.",
-        "Deleted": false,
-        "Rank": 182,
-        "Type": "voluptatem",
-        "ColorBlock": 375,
-        "IconHint": "aut",
+        "Id": 937,
+        "Name": "Monahan, Kohler and Kuhn",
+        "ToolTip": "Culpa voluptatem aut accusamus.",
+        "Deleted": true,
+        "Rank": 642,
+        "Type": "assumenda",
+        "ColorBlock": 76,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2002-05-10T03:24:52.1775959+02:00",
+        "LastChanged": "2010-09-30T11:06:42.6940706+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Billy Tromp",
+        "ExtraInfo": "nobis",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Claire Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 858
+            "FieldType": "System.Int32",
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "consequatur",
-    "Hidden": true,
-    "FullName": "Grayce Padberg",
+    "ExtraInfo": "ratione",
+    "StyleHint": "dolore",
+    "Hidden": false,
+    "FullName": "Heather Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldType": "System.String",
+        "FieldLength": 783
       }
     }
   }

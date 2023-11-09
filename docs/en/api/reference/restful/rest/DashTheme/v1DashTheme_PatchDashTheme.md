@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "cupiditate",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "cupiditate",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 712,
-  "Name": "Boyer LLC",
-  "Config": "id",
-  "Rank": 521,
-  "Client": "architecto",
-  "Style": "veniam",
+  "DashboardThemeId": 465,
+  "Name": "Denesik LLC",
+  "Config": "illo",
+  "Rank": 870,
+  "Client": "voluptates",
+  "Style": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 810
     }
   },
   "_Links": {

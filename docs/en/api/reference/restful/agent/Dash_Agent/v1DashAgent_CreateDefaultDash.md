@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 10,
-  "UniqueId": "culpa",
-  "Name": "Steuber, Botsford and Turcotte",
-  "Description": "Cloned regional challenge",
-  "AssociateId": 72,
-  "Columns": 821,
+  "DashboardId": 492,
+  "UniqueId": "minima",
+  "Name": "Mueller Group",
+  "Description": "Secured encompassing application",
+  "AssociateId": 511,
+  "Columns": 712,
   "Theme": null,
-  "VisibleForAll": 198,
+  "VisibleForAll": 31,
   "VisibleForAssociates": [
-    754,
-    555
+    348,
+    994
   ],
   "VisibleForGroups": [
-    582,
-    72
+    691,
+    457
   ],
-  "PinForAll": 674,
+  "PinForAll": 318,
   "PinForAssociates": [
-    355,
-    248
+    711,
+    607
   ],
   "PinForGroups": [
-    389,
-    694
+    142,
+    11
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldLength": 598
     }
   }
 }

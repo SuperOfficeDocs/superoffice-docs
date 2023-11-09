@@ -115,7 +115,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,62 +123,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-08-22T03:24:51.3492095+02:00",
-  "AppointmentId": 368,
-  "Description": "Open-architected intangible intranet",
-  "StartDate": "2000-05-23T03:24:51.3492095+02:00",
-  "EndDate": "2022-10-31T03:24:51.3492095+01:00",
+  "CreatedDate": "1997-01-28T11:06:41.3947447+01:00",
+  "AppointmentId": 374,
+  "Description": "Exclusive explicit Graphic Interface",
+  "StartDate": "2011-06-04T11:06:41.3947447+02:00",
+  "EndDate": "2015-02-22T11:06:41.3947447+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 936,
+  "MotherId": 270,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-11-15T03:24:51.3492095+01:00",
+  "UpdatedDate": "2020-05-30T11:06:41.4103714+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 893,
+  "ActiveLinks": 670,
   "Links": [
     {
-      "EntityName": "Bechtelar Group",
-      "Id": 569,
-      "Description": "Devolved tertiary policy",
-      "ExtraInfo": "similique",
-      "LinkId": 201
+      "EntityName": "Connelly LLC",
+      "Id": 262,
+      "Description": "Universal clear-thinking architecture",
+      "ExtraInfo": "alias",
+      "LinkId": 932
     },
     {
-      "EntityName": "Bechtelar Group",
-      "Id": 569,
-      "Description": "Devolved tertiary policy",
-      "ExtraInfo": "similique",
-      "LinkId": 201
+      "EntityName": "Connelly LLC",
+      "Id": 262,
+      "Description": "Universal clear-thinking architecture",
+      "ExtraInfo": "alias",
+      "LinkId": 932
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "voluptas",
   "HasAlarm": false,
-  "ColorIndex": 832,
+  "ColorIndex": 28,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "incidunt",
-  "LeadTime": "quia",
-  "Location": "doloribus",
-  "RejectCounter": 683,
+  "IsAlldayEvent": true,
+  "LagTime": "voluptas",
+  "LeadTime": "a",
+  "Location": "et",
+  "RejectCounter": 902,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 899,
-      "PersonId": 316,
-      "ContactId": 204,
-      "EmailId": 364,
+      "AssociateId": 384,
+      "PersonId": 56,
+      "ContactId": 720,
+      "EmailId": 299,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 899,
-      "PersonId": 316,
-      "ContactId": 204,
-      "EmailId": 364,
+      "AssociateId": 384,
+      "PersonId": 56,
+      "ContactId": 720,
+      "EmailId": 299,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -186,47 +186,47 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-09-23T03:24:51.3492095+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2017-02-19T11:06:41.4103714+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 229,
+  "PreferredTZLocation": 541,
   "Sale": null,
-  "SuggestedAppointmentId": 854,
+  "SuggestedAppointmentId": 666,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
-  "Title": "et",
-  "Agenda": "voluptatem",
-  "InternalNotes": "alias",
+  "CentralserviceVideomeetId": "aut",
+  "Title": "optio",
+  "Agenda": "aut",
+  "InternalNotes": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Gilbert Darrel Kilback V",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Miss Johnny Dave Senger III",
+    "SuperOffice:2": "Kiel Jamel Heathcote II"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "et"
+    "CustomFields1": "quo",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2023-02-10T03:24:51.3492095+01:00",
-  "PublishTo": "2008-08-30T03:24:51.3492095+02:00",
-  "PublishFrom": "2007-05-13T03:24:51.3492095+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-10-17T11:06:41.4103714+02:00",
+  "PublishTo": "2016-03-25T11:06:41.4103714+01:00",
+  "PublishFrom": "2023-06-05T11:06:41.4103714+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 977,
+      "VisibleId": 904,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "fuga"
     },
     {
-      "VisibleId": 977,
+      "VisibleId": 904,
       "Visibility": "All",
-      "DisplayValue": "rerum"
+      "DisplayValue": "fuga"
     }
   ]
 }
@@ -239,7 +239,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "suscipit",
-  "2": "ut"
+  "1": "alias",
+  "2": "est"
 }
 ```

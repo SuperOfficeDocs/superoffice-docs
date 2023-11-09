@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 435,
-  "ERPProductKey": "labore",
-  "ERPPriceListKey": "pariatur",
-  "Name": "Cassin, Sipes and Hoppe",
-  "Description": "Persevering bi-directional info-mediaries",
-  "Code": "voluptatum",
-  "PriceUnit": "error",
-  "QuantityUnit": "quis",
+  "ProductId": 309,
+  "ERPProductKey": "nobis",
+  "ERPPriceListKey": "dolorem",
+  "Name": "Moen, Mohr and Lang",
+  "Description": "Digitized exuding core",
+  "Code": "ut",
+  "PriceUnit": "necessitatibus",
+  "QuantityUnit": "sed",
   "IsSubscription": false,
-  "SubscriptionUnit": "ex",
-  "DefaultSubscriptionQuantity": 26429.022,
-  "ItemNumber": "873907",
+  "SubscriptionUnit": "consequuntur",
+  "DefaultSubscriptionQuantity": 23009.827999999998,
+  "ItemNumber": "947573",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "labore",
-  "ProductTypeKey": "aut",
-  "VAT": 14939.778,
-  "VATInfo": "non",
-  "UnitCost": 26773.762,
-  "UnitMinimumPrice": 19455.872,
-  "UnitListPrice": 18713.113999999998,
-  "InAssortment": true,
-  "Supplier": "omnis",
-  "SupplierCode": "eos",
-  "Rights": "aut",
-  "Rule": "expedita",
+  "ProductFamilyKey": "optio",
+  "ProductTypeKey": "ratione",
+  "VAT": 9771.812,
+  "VATInfo": "autem",
+  "UnitCost": 9737.338,
+  "UnitMinimumPrice": 27873.796,
+  "UnitListPrice": 20599.782,
+  "InAssortment": false,
+  "Supplier": "temporibus",
+  "SupplierCode": "eum",
+  "Rights": "autem",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "Schmidt Group",
-      "Value": "qui",
+      "Name": "O'Reilly-Schowalter",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 610
         }
       }
     },
     {
-      "Name": "Schmidt Group",
-      "Value": "qui",
+      "Name": "O'Reilly-Schowalter",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 323
+          "FieldLength": 610
         }
       }
     }
   ],
-  "RawExtraInfo": "totam",
-  "ExtraField1": "et",
-  "ExtraField2": "illum",
-  "ExtraField3": "reprehenderit",
-  "ExtraField4": "praesentium",
-  "ExtraField5": "possimus",
-  "InStock": 28710.574,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "qui",
+  "ExtraField2": "labore",
+  "ExtraField3": "laborum",
+  "ExtraField4": "voluptatum",
+  "ExtraField5": "voluptatum",
+  "InStock": 560.986,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 30
     }
   }
 }

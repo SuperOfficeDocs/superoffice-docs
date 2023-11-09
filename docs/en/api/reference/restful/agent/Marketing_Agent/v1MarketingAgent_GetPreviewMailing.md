@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 601
+  "ShipmentAddrId": 496
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2003-02-16T03:24:47.9238778+01:00",
+  "SendingTime": "2015-06-05T11:06:34.7864409+02:00",
   "Status": "Blocked",
-  "ShipmentId": 322,
-  "ShipmentDescription": "Enterprise-wide non-volatile flexibility",
-  "FromAddress": "molestiae",
-  "ContactId": 650,
-  "ContactName": "Koch LLC",
-  "PersonId": 763,
-  "PersonFullName": "Mr. Christophe Stokes",
-  "ShipmentType": "voluptatem",
-  "MessageId": 485,
-  "MessageSubject": "quis",
-  "DocumentMessageId": 489,
-  "Opened": "2018-04-28T03:24:47.9238778+02:00",
-  "LinkClicks": 639,
+  "ShipmentId": 435,
+  "ShipmentDescription": "Reactive global approach",
+  "FromAddress": "aut",
+  "ContactId": 877,
+  "ContactName": "O'Conner LLC",
+  "PersonId": 197,
+  "PersonFullName": "Dr. Dorris Jeffery Russel IV",
+  "ShipmentType": "ducimus",
+  "MessageId": 883,
+  "MessageSubject": "inventore",
+  "DocumentMessageId": 965,
+  "Opened": "2000-12-29T11:06:34.7864409+01:00",
+  "LinkClicks": 446,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 171
     }
   }
 }

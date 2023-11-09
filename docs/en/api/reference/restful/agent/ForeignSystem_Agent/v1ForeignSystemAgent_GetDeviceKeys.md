@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bashirian LLC",
-  "DeviceName": "Pfannerstill Inc and Sons"
+  "ApplicationName": "Brakus LLC",
+  "DeviceName": "Huels-Swaniawski"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "eum",
-    "Value": "maiores",
-    "RecordId": 40,
-    "CreatedDate": "2010-07-31T03:24:47.8301403+02:00",
-    "UpdatedDate": "1996-05-26T03:24:47.8301403+02:00",
-    "UpdatedBy": "dolores",
-    "CreatedBy": "impedit",
-    "TableName": "Koch LLC",
+    "Key": "id",
+    "Value": "ullam",
+    "RecordId": 88,
+    "CreatedDate": "2016-09-26T11:06:34.6458113+02:00",
+    "UpdatedDate": "2014-06-30T11:06:34.6458113+02:00",
+    "UpdatedBy": "provident",
+    "CreatedBy": "quia",
+    "TableName": "Bauch-Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 872
+        "FieldLength": 482
       }
     }
   }

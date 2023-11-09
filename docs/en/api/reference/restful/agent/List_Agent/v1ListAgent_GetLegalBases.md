@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 903,
-    "Name": "Rolfson, Klein and Heathcote",
-    "Tooltip": "commodi",
-    "Rank": 139,
-    "Key": "fugiat",
+    "LegalBaseId": 620,
+    "Name": "Ortiz LLC",
+    "Tooltip": "nihil",
+    "Rank": 424,
+    "Key": "voluptatem",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldType": "System.String",
+        "FieldLength": 637
       }
     }
   }

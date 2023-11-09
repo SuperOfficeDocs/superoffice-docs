@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 165,
-  "InstanceLayout": "quis",
-  "InstanceName": "Treutel, Erdman and Senger",
-  "CreatedDate": "1996-12-25T03:24:47.2364513+01:00",
-  "UpdatedDate": "2011-10-17T03:24:47.2364513+02:00",
+  "AudienceLayoutId": 459,
+  "InstanceLayout": "impedit",
+  "InstanceName": "Schowalter-Sanford",
+  "CreatedDate": "2014-11-20T11:06:33.7816525+01:00",
+  "UpdatedDate": "2000-05-21T11:06:33.7816525+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 486,
-  "InstanceLayout": "repellendus",
-  "InstanceName": "Runte-Adams",
-  "CreatedDate": "2006-11-10T03:24:47.2364513+01:00",
-  "UpdatedDate": "2016-02-24T03:24:47.2364513+01:00",
+  "AudienceLayoutId": 230,
+  "InstanceLayout": "non",
+  "InstanceName": "Wolff-Prosacco",
+  "CreatedDate": "2022-07-18T11:06:33.7816525+02:00",
+  "UpdatedDate": "2003-05-12T11:06:33.7816525+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

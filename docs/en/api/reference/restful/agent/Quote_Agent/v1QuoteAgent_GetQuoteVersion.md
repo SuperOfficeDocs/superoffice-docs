@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 328
+  "QuoteVersionId": 223
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 909,
-  "ERPQuoteVersionKey": "aut",
-  "QuoteId": 896,
-  "Description": "Face to face methodical model",
-  "Number": "906447",
+  "QuoteVersionId": 204,
+  "ERPQuoteVersionKey": "vero",
+  "QuoteId": 136,
+  "Description": "Customizable mission-critical open system",
+  "Number": "1008152",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 35,
-  "SentDate": "2022-03-11T03:24:48.111357+01:00",
-  "FollowupId": 313,
-  "ExpirationDate": "2022-01-08T03:24:48.111357+01:00",
-  "DeliveryCountryId": 674,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 370,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "omnis",
-  "ERPPaymentTypeKey": "esse",
-  "ERPDeliveryTermsKey": "autem",
-  "ERPDeliveryTypeKey": "quis",
-  "Rank": 879,
-  "ApprovedBy": 834,
-  "ApprovedText": "deleniti",
-  "ApprovedRegisteredBy": 293,
-  "ApprovedRegisteredDate": "2012-08-19T03:24:48.111357+02:00",
-  "ExtraField1": "quae",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "ullam",
-  "ExtraField4": "et",
-  "ExtraField5": "repellat",
-  "LastRecalculated": "2001-10-26T03:24:48.111357+02:00",
-  "Updated": "2009-08-06T03:24:48.111357+02:00",
-  "UpdatedAssociateId": 373,
-  "Registered": "2005-09-27T03:24:48.111357+02:00",
-  "RegisteredAssociateId": 865,
-  "RequestAssociateId": 657,
-  "RequestComment": "eum",
+  "LikelyQuoteAlternativeId": 986,
+  "SentDate": "2023-06-11T11:06:35.1770754+02:00",
+  "FollowupId": 799,
+  "ExpirationDate": "2014-03-28T11:06:35.1770754+01:00",
+  "DeliveryCountryId": 416,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 987,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "est",
+  "ERPPaymentTypeKey": "tempore",
+  "ERPDeliveryTermsKey": "sunt",
+  "ERPDeliveryTypeKey": "dolorem",
+  "Rank": 969,
+  "ApprovedBy": 869,
+  "ApprovedText": "sed",
+  "ApprovedRegisteredBy": 870,
+  "ApprovedRegisteredDate": "2009-06-27T11:06:35.1770754+02:00",
+  "ExtraField1": "odit",
+  "ExtraField2": "sit",
+  "ExtraField3": "placeat",
+  "ExtraField4": "quos",
+  "ExtraField5": "sint",
+  "LastRecalculated": "2008-04-23T11:06:35.1770754+02:00",
+  "Updated": "2015-09-29T11:06:35.1770754+02:00",
+  "UpdatedAssociateId": 430,
+  "Registered": "2019-01-20T11:06:35.1770754+01:00",
+  "RegisteredAssociateId": 644,
+  "RequestAssociateId": 804,
+  "RequestComment": "deleniti",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 693,
-      "ERPQuoteAlternativeKey": "cumque",
-      "QuoteVersionId": 890,
-      "Name": "Wisoky LLC",
-      "Description": "Face to face heuristic support",
+      "QuoteAlternativeId": 731,
+      "ERPQuoteAlternativeKey": "molestiae",
+      "QuoteVersionId": 766,
+      "Name": "Barton Group",
+      "Description": "Profound client-server knowledge user",
       "Status": "Error",
-      "Reason": "generate customized communities",
-      "ERPDiscountPercent": 31086.146,
-      "ERPDiscountAmount": 4669.66,
-      "DiscountPercent": 5898.188,
-      "DiscountAmount": 22787.314,
+      "Reason": "",
+      "ERPDiscountPercent": 3331.442,
+      "ERPDiscountAmount": 20828.564,
+      "DiscountPercent": 97.154,
+      "DiscountAmount": 18145.86,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "aut",
-      "VAT": 18409.115999999998,
-      "EarningPercent": 21085.552,
-      "EarningAmount": 18108.252,
-      "SubTotal": 13921.228,
-      "TotalPrice": 3989.582,
-      "ExtraField1": "dolorem",
+      "VATInfo": "consequatur",
+      "VAT": 11658.48,
+      "EarningPercent": 13084.449999999999,
+      "EarningAmount": 9226.496,
+      "SubTotal": 6230.392,
+      "TotalPrice": 8323.904,
+      "ExtraField1": "labore",
       "ExtraField2": "aut",
-      "ExtraField3": "sint",
-      "ExtraField4": "accusamus",
-      "ExtraField5": "et",
+      "ExtraField3": "nisi",
+      "ExtraField4": "eos",
+      "ExtraField5": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 679
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldType": "System.String",
+      "FieldLength": 437
     }
   }
 }

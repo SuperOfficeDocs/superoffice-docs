@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 869
+  "ContactId": 598
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 24081.656,
-  "Wgs84Longitude": 31158.228,
+  "Wgs84Latitude": 29161.87,
+  "Wgs84Longitude": 8490.006,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kautzer, Murphy and Schiller",
-        "Value": "tempore",
-        "Tooltip": "nam",
-        "Label": "sapiente",
-        "ValueLength": 995,
-        "AddressType": "libero",
+        "Name": "Willms, Hickle and Zboncak",
+        "Value": "impedit",
+        "Tooltip": "sunt",
+        "Label": "soluta",
+        "ValueLength": 34,
+        "AddressType": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 491
+            "FieldType": "System.Int32",
+            "FieldLength": 981
           }
         }
       }
     ],
     [
       {
-        "Name": "Simonis-Corwin",
-        "Value": "hic",
-        "Tooltip": "et",
-        "Label": "sit",
-        "ValueLength": 946,
-        "AddressType": "voluptate",
+        "Name": "Harvey, Blick and Dickinson",
+        "Value": "voluptas",
+        "Tooltip": "non",
+        "Label": "beatae",
+        "ValueLength": 625,
+        "AddressType": "dolor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 872
+            "FieldType": "System.Int32",
+            "FieldLength": 685
           }
         }
       }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 1001
     }
   }
 }

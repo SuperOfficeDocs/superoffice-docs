@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=nihil
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=deleniti
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Larson LLC",
-    "ToolTip": "Voluptate repellat illo.",
+    "Id": 255,
+    "Name": "Jacobs, Wintheiser and Kilback",
+    "ToolTip": "Provident recusandae.",
     "Deleted": true,
-    "Rank": 665,
-    "Type": "sed",
+    "Rank": 330,
+    "Type": "quisquam",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Osinski-Conroy",
-        "ToolTip": "Voluptas ipsa nisi voluptatem aspernatur aut autem eum.",
+        "Id": 663,
+        "Name": "Kozey-Ankunding",
+        "ToolTip": "Dolor officiis sit.",
         "Deleted": false,
-        "Rank": 49,
-        "Type": "doloribus",
+        "Rank": 79,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veritatis",
-        "ColorBlock": 849,
-        "ExtraInfo": "commodi",
-        "StyleHint": "accusantium",
-        "FullName": "Richard Schmitt",
+        "IconHint": "assumenda",
+        "ColorBlock": 907,
+        "ExtraInfo": "fugit",
+        "StyleHint": "laboriosam",
+        "FullName": "Ursula Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 469
+            "FieldLength": 976
           }
         }
       }
     ],
-    "IconHint": "occaecati",
-    "ColorBlock": 506,
-    "ExtraInfo": "sit",
-    "StyleHint": "iusto",
-    "FullName": "Elissa Hermiston",
+    "IconHint": "veritatis",
+    "ColorBlock": 675,
+    "ExtraInfo": "est",
+    "StyleHint": "incidunt",
+    "FullName": "Alisha Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldLength": 340
       }
     }
   }

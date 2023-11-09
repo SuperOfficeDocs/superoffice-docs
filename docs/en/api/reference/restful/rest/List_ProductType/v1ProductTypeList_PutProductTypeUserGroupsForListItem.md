@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Name": "Bergnaum Group",
-    "ToolTip": "Error et qui et consequatur.",
+    "Id": 978,
+    "Name": "Schmeler Group",
+    "ToolTip": "Pariatur voluptate voluptatem dolorem incidunt harum.",
     "Deleted": false,
-    "Rank": 891,
-    "Type": "magnam",
-    "ColorBlock": 997,
-    "IconHint": "deleniti",
-    "Selected": true,
-    "LastChanged": "1998-03-02T03:24:52.3338241+01:00",
+    "Rank": 353,
+    "Type": "quisquam",
+    "ColorBlock": 386,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "1999-12-12T11:06:42.9440712+01:00",
     "ChildItems": [
       {
-        "Id": 31,
-        "Name": "Yost Group",
-        "ToolTip": "Ut est culpa explicabo vel omnis neque.",
+        "Id": 661,
+        "Name": "Hane-Mraz",
+        "ToolTip": "Voluptatem soluta aliquid rerum ut inventore quisquam.",
         "Deleted": true,
-        "Rank": 639,
-        "Type": "alias",
-        "ColorBlock": 273,
-        "IconHint": "est",
+        "Rank": 905,
+        "Type": "iste",
+        "ColorBlock": 950,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2005-03-20T03:24:52.3338241+01:00",
+        "LastChanged": "2018-10-02T11:06:42.9440712+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "quia",
+        "ExtraInfo": "dolores",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "May Kris"
+        "FullName": "Carolanne Wisozk"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quia",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Floyd Muller"
+    "FullName": "Therese Casper"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Roob-Sporer",
-    "ToolTip": "Ea officiis quis repellat.",
-    "Deleted": true,
-    "Rank": 243,
-    "Type": "unde",
-    "ColorBlock": 844,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2008-02-24T03:24:52.3338241+01:00",
+    "Id": 822,
+    "Name": "Predovic, Schoen and Bogisich",
+    "ToolTip": "Nesciunt eligendi.",
+    "Deleted": false,
+    "Rank": 79,
+    "Type": "illum",
+    "ColorBlock": 990,
+    "IconHint": "asperiores",
+    "Selected": false,
+    "LastChanged": "2000-08-26T11:06:42.9440712+02:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Koelpin Inc and Sons",
-        "ToolTip": "Repellendus ut vero fuga aut consequuntur voluptatibus laboriosam.",
+        "Id": 793,
+        "Name": "Conroy-Skiles",
+        "ToolTip": "Enim consequatur quia nemo autem.",
         "Deleted": false,
-        "Rank": 806,
-        "Type": "maxime",
-        "ColorBlock": 801,
-        "IconHint": "eos",
+        "Rank": 601,
+        "Type": "facilis",
+        "ColorBlock": 105,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2004-11-03T03:24:52.3338241+01:00",
+        "LastChanged": "1997-01-19T11:06:42.9440712+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "error",
+        "StyleHint": "dignissimos",
         "Hidden": true,
-        "FullName": "Ms. Juston Mona Waelchi",
+        "FullName": "Dr. Jaycee Georgette Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 609
+            "FieldType": "System.Int32",
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Jadon Ondricka",
+    "ExtraInfo": "expedita",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Landen Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldLength": 194
       }
     }
   }

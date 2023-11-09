@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Emmerich, Cassin and Heathcote",
-    "ToolTip": "Incidunt deleniti mollitia.",
+    "Id": 14,
+    "Name": "Nienow-Toy",
+    "ToolTip": "Ad provident ipsa distinctio.",
     "Deleted": false,
-    "Rank": 34,
-    "Type": "laborum",
-    "ColorBlock": 453,
-    "IconHint": "rerum",
+    "Rank": 102,
+    "Type": "quos",
+    "ColorBlock": 761,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2000-01-29T03:24:52.1932187+01:00",
+    "LastChanged": "2007-09-13T11:06:42.7096943+02:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Stracke LLC",
-        "ToolTip": "Officia dicta.",
+        "Id": 752,
+        "Name": "Grady-Fritsch",
+        "ToolTip": "Provident vitae dolorem molestiae dolores praesentium illo consequatur.",
         "Deleted": false,
-        "Rank": 811,
-        "Type": "eligendi",
-        "ColorBlock": 680,
-        "IconHint": "eligendi",
+        "Rank": 844,
+        "Type": "vel",
+        "ColorBlock": 2,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2005-05-10T03:24:52.1932187+02:00",
+        "LastChanged": "2012-08-13T11:06:42.7096943+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Marjolaine Streich"
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "alias",
+        "Hidden": true,
+        "FullName": "Jadyn Botsford"
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "dolore",
+    "ExtraInfo": "quia",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Abdul Lind"
+    "FullName": "Elsa Beier"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 580,
-    "Name": "Bartell-Fay",
-    "ToolTip": "Reprehenderit atque occaecati velit.",
+    "Id": 17,
+    "Name": "Kreiger, Stehr and Jenkins",
+    "ToolTip": "Ut est laborum perspiciatis.",
     "Deleted": false,
-    "Rank": 240,
-    "Type": "esse",
-    "ColorBlock": 110,
-    "IconHint": "aut",
+    "Rank": 35,
+    "Type": "iste",
+    "ColorBlock": 216,
+    "IconHint": "eaque",
     "Selected": true,
-    "LastChanged": "2004-08-25T03:24:52.1932187+02:00",
+    "LastChanged": "2003-12-21T11:06:42.7096943+01:00",
     "ChildItems": [
       {
-        "Id": 618,
-        "Name": "Botsford, Ward and Dickinson",
-        "ToolTip": "Et dolorem quos dolorem omnis.",
-        "Deleted": false,
-        "Rank": 696,
-        "Type": "quo",
-        "ColorBlock": 592,
-        "IconHint": "saepe",
+        "Id": 753,
+        "Name": "Huels-Bernier",
+        "ToolTip": "Aut dolorem dolores.",
+        "Deleted": true,
+        "Rank": 484,
+        "Type": "eveniet",
+        "ColorBlock": 401,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "1999-09-02T03:24:52.1932187+02:00",
+        "LastChanged": "2006-10-12T11:06:42.7096943+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "quia",
+        "ExtraInfo": "aut",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Abby Douglas",
+        "FullName": "Gisselle Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 483
+            "FieldType": "System.Int32",
+            "FieldLength": 929
           }
         }
       }
     ],
     "ExtraInfo": "sed",
-    "StyleHint": "voluptatem",
+    "StyleHint": "vitae",
     "Hidden": false,
-    "FullName": "Rylee Ernser",
+    "FullName": "Bobbie Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 820
       }
     }
   }

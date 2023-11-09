@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 765,
-  "AssociateId": 836,
-  "Caption": "itaque",
+  "DashboardId": 204,
+  "AssociateId": 136,
+  "Caption": "ipsum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 460,
-      "Caption": "distinctio",
-      "Description": "Customer-focused bifurcated monitoring",
-      "ChartName": "Feil Group",
-      "ChartId": "dolores",
-      "IsDefault": true,
-      "AssociateId": 355,
-      "GroupId": 240,
-      "SelectionId": 960,
-      "Config": "quia",
+      "DashboardTileId": 525,
+      "Caption": "nulla",
+      "Description": "Multi-tiered grid-enabled firmware",
+      "ChartName": "Rice-O'Connell",
+      "ChartId": "quae",
+      "IsDefault": false,
+      "AssociateId": 365,
+      "GroupId": 903,
+      "SelectionId": 537,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 548
         }
       }
     }
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldLength": 344
     }
   },
   "_Links": {

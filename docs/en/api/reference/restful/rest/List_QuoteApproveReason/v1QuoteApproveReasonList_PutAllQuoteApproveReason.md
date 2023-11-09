@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Spinka-Reichel",
-    "Tooltip": "adipisci",
-    "Deleted": true,
-    "UdListDefinitionId": 691,
-    "Rank": 605
+    "Id": 683,
+    "Name": "Schoen Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 663,
+    "Rank": 16
   },
   {
-    "Id": 747,
-    "Name": "Spinka-Reichel",
-    "Tooltip": "adipisci",
-    "Deleted": true,
-    "UdListDefinitionId": 691,
-    "Rank": 605
+    "Id": 683,
+    "Name": "Schoen Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 663,
+    "Rank": 16
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Tromp Inc and Sons",
-    "Tooltip": "blanditiis",
-    "Deleted": true,
-    "UdListDefinitionId": 224,
-    "Rank": 839,
+    "Id": 225,
+    "Name": "Lockman-Brakus",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 119,
+    "Rank": 619,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldType": "System.String",
+        "FieldLength": 242
       }
     }
   }

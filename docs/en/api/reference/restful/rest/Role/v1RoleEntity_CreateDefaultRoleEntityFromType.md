@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 979,
-  "Name": "Dibbert-Trantow",
+  "RoleId": 350,
+  "Name": "Jenkins, Keeling and Franecki",
   "Tooltip": "temporibus",
   "RoleType": "Anonymous",
-  "Deleted": 306,
-  "Rank": 637,
-  "Created": "2002-10-04T03:24:51.7557701+02:00",
-  "UseCategories": 307,
+  "Deleted": 934,
+  "Rank": 78,
+  "Created": "2019-07-09T11:06:42.0978516+02:00",
+  "UseCategories": 305,
   "CreatedBy": null,
-  "Updated": "2017-01-09T03:24:51.7557701+01:00",
+  "Updated": "1996-09-16T11:06:42.0978516+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldLength": 899
     }
   }
 }

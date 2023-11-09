@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 399,
-  "Select": "fuga"
+  "SelectionId": 879,
+  "Select": "ipsa"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Dach, Wolff and Kreiger",
-    "PrimaryKey": 919,
+    "EntityName": "McDermott, Skiles and Jacobs",
+    "PrimaryKey": 619,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "illo",
-        "TooltipHint": "veniam",
-        "LinkHint": "soluta"
+        "DisplayValue": "illum",
+        "TooltipHint": "quos",
+        "LinkHint": "quas"
       }
     },
-    "LinkHint": "tenetur",
-    "StyleHint": "laudantium",
+    "LinkHint": "eum",
+    "StyleHint": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldType": "System.String",
+        "FieldLength": 482
       }
     }
   }

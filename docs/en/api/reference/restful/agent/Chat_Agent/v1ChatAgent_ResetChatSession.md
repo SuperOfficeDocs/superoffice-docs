@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 735
+  "ChatSessionId": 4
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 166,
-  "TopicId": 557,
+  "ChatSessionId": 204,
+  "TopicId": 97,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sunt",
-  "CustomerHost": "similique",
-  "CustomerName": "Kessler, Lakin and Zulauf",
-  "CustomerEmail": "rodolfo.tillman@kunde.info",
-  "CustomerPhone": "(462)948-4907 x275",
+  "CustomerAlias": "nihil",
+  "CustomerHost": "ad",
+  "CustomerName": "Breitenberg, Powlowski and O'Hara",
+  "CustomerEmail": "helen@sipes.com",
+  "CustomerPhone": "1-637-721-2979 x245",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kozey, Abbott and Murazik",
+  "CustomerCompanyName": "Harris, Langosh and Stark",
   "Status": "Closed",
-  "FirstMessage": "amet",
-  "LastMessage": "laborum",
-  "WhenRequested": "2006-07-22T03:24:47.3458115+02:00",
-  "WhenStarted": "2002-06-22T03:24:47.3458115+02:00",
-  "WhenEnded": "2004-05-01T03:24:47.3458115+02:00",
-  "WhenIdle": "1999-12-28T03:24:47.3458115+01:00",
-  "WhenFetched": "2002-04-30T03:24:47.3458115+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 787,
-  "AlertLevel": 889,
-  "Rank": 879,
+  "FirstMessage": "eligendi",
+  "LastMessage": "aut",
+  "WhenRequested": "2016-06-16T11:06:34.0496048+02:00",
+  "WhenStarted": "2008-08-14T11:06:34.0496048+02:00",
+  "WhenEnded": "2016-04-09T11:06:34.0496048+02:00",
+  "WhenIdle": "2004-12-11T11:06:34.0496048+01:00",
+  "WhenFetched": "2018-05-29T11:06:34.0496048+02:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 132,
+  "AlertLevel": 117,
+  "Rank": 624,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 235,
+  "Rating": 681,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 142
     }
   }
 }

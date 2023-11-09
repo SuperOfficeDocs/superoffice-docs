@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 324,
-  "Name": "Eichmann, O'Conner and Balistreri"
+  "SelectionId": 680,
+  "Name": "Will-Trantow"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable didactic projection",
-  "Postit": "quasi",
+  "Description": "Networked dedicated instruction set",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 165,
-  "IncludePerson": 591,
-  "MemberCount": 403,
-  "Name": "Wyman-Krajcik",
-  "PostitTextId": 664,
-  "CreatedDate": "2016-06-11T03:24:48.2680521+02:00",
-  "SelectionId": 897,
-  "SoundEx": "quas",
-  "Source": 356,
-  "TextId": 642,
-  "UpdatedDate": "2008-06-21T03:24:48.2680521+02:00",
-  "UpdatedCount": 52,
-  "Visibility": 984,
+  "GroupIdx": 905,
+  "IncludePerson": 603,
+  "MemberCount": 702,
+  "Name": "Raynor-Gutmann",
+  "PostitTextId": 87,
+  "CreatedDate": "2016-08-12T11:06:35.3958193+02:00",
+  "SelectionId": 966,
+  "SoundEx": "dolorem",
+  "Source": 359,
+  "TextId": 952,
+  "UpdatedDate": "2010-06-27T11:06:35.3958193+02:00",
+  "UpdatedCount": 328,
+  "Visibility": 277,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 449,
-  "TargetTableName": "Daugherty Group",
-  "Completed": true,
-  "LeftSelectionId": 331,
-  "RightSelectionId": 786,
+  "TargetTableNumber": 902,
+  "TargetTableName": "Walker, Jones and Lynch",
+  "Completed": false,
+  "LeftSelectionId": 234,
+  "RightSelectionId": 595,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wehner, Hagenes and Dach",
-  "ShadowProviderName": "Will Inc and Sons",
-  "ChartKey": "aut",
-  "LastLoaded": "2022-09-08T03:24:48.2680521+02:00",
-  "LastLoadedBy": 778,
+  "MainProviderName": "Krajcik, Flatley and Mohr",
+  "ShadowProviderName": "Quitzon, Bergstrom and Heidenreich",
+  "ChartKey": "recusandae",
+  "LastLoaded": "2013-01-03T11:06:35.3958193+01:00",
+  "LastLoadedBy": 829,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-10-27T03:24:48.2680521+02:00",
-  "LastMembershipChangeBy": 582,
+  "LastMembershipChange": "2022-05-23T11:06:35.3958193+02:00",
+  "LastMembershipChangeBy": 738,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Cassin-Muller",
-  "DashboardTileDefinitionId": 785,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "sunt",
+  "MailingsProviderName": "Kutch, Wyman and Rolfson",
+  "DashboardTileDefinitionId": 70,
   "VisibleFor": [
     {
-      "VisibleId": 160,
+      "VisibleId": 550,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     },
     {
-      "VisibleId": 160,
+      "VisibleId": 550,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 334
+      "FieldLength": 479
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 601,
-  "Name": "Wolff Inc and Sons",
-  "CurrencyId": 247,
-  "EnglishName": "Roob, Hamill and Haley",
+  "CountryId": 245,
+  "Name": "Gerhold Inc and Sons",
+  "CurrencyId": 19,
+  "EnglishName": "Carroll Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-layered non-volatile migration",
-  "OrgNrText": "378107",
-  "InterAreaPrefix": "maiores",
-  "DialInPrefix": "recusandae",
-  "ZipPrefix": "quis",
-  "DomainName": "Williamson-Bins",
-  "AddressLayoutId": 664,
-  "DomesticAddressLayoutId": 532,
-  "ForeignAddressLayoutId": 919,
-  "Rank": 155,
-  "Tooltip": "cum",
+  "ImageDescription": "Persevering clear-thinking encoding",
+  "OrgNrText": "1480403",
+  "InterAreaPrefix": "porro",
+  "DialInPrefix": "numquam",
+  "ZipPrefix": "qui",
+  "DomainName": "Stoltenberg, Schiller and Stroman",
+  "AddressLayoutId": 840,
+  "DomesticAddressLayoutId": 731,
+  "ForeignAddressLayoutId": 761,
+  "Rank": 397,
+  "Tooltip": "ratione",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

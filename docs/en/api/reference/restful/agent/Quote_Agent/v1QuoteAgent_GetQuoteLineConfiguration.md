@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 870
+  "QuoteLineConfigurationId": 51
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 778,
-  "FieldName": "Conroy-Strosin",
-  "Label": "aut",
-  "Tooltip": "doloribus",
-  "Editable": false,
+  "QuoteLineConfigurationId": 351,
+  "FieldName": "Beatty-Weissnat",
+  "Label": "repellendus",
+  "Tooltip": "velit",
+  "Editable": true,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 818,
-  "RestrictEdit": true,
+  "Rank": 383,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 916
     }
   }
 }

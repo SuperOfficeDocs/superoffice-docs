@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 735
+  "ProjectId": 281
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized interactive capacity",
-  "Postit": "reprehenderit",
+  "Description": "Open-architected secondary software",
+  "Postit": "in",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 373,
-  "IncludePerson": 82,
-  "MemberCount": 795,
-  "Name": "Luettgen-Jacobs",
-  "PostitTextId": 186,
-  "CreatedDate": "2012-07-13T03:24:48.2524255+02:00",
-  "SelectionId": 639,
-  "SoundEx": "laudantium",
-  "Source": 796,
-  "TextId": 19,
-  "UpdatedDate": "2020-06-22T03:24:48.2524255+02:00",
-  "UpdatedCount": 473,
-  "Visibility": 49,
+  "GroupIdx": 234,
+  "IncludePerson": 220,
+  "MemberCount": 504,
+  "Name": "Anderson, Grant and Haag",
+  "PostitTextId": 488,
+  "CreatedDate": "2015-08-25T11:06:35.3801953+02:00",
+  "SelectionId": 424,
+  "SoundEx": "et",
+  "Source": 789,
+  "TextId": 649,
+  "UpdatedDate": "1999-12-06T11:06:35.3801953+01:00",
+  "UpdatedCount": 176,
+  "Visibility": 137,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 63,
-  "TargetTableName": "Franecki LLC",
-  "Completed": false,
-  "LeftSelectionId": 644,
-  "RightSelectionId": 782,
+  "TargetTableNumber": 396,
+  "TargetTableName": "Leuschke, Skiles and Kutch",
+  "Completed": true,
+  "LeftSelectionId": 949,
+  "RightSelectionId": 113,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jerde Inc and Sons",
-  "ShadowProviderName": "Stroman-Hagenes",
-  "ChartKey": "consectetur",
-  "LastLoaded": "2004-11-10T03:24:48.2524255+01:00",
-  "LastLoadedBy": 243,
+  "MainProviderName": "Kozey Group",
+  "ShadowProviderName": "Mitchell-Kreiger",
+  "ChartKey": "facilis",
+  "LastLoaded": "2002-12-07T11:06:35.3801953+01:00",
+  "LastLoadedBy": 714,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-01-19T03:24:48.2524255+01:00",
-  "LastMembershipChangeBy": 439,
+  "LastMembershipChange": "2001-04-18T11:06:35.3801953+02:00",
+  "LastMembershipChangeBy": 949,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "harum",
-  "MemberTabHeading": "sapiente",
-  "MailingsProviderName": "Herman, Hansen and Hermann",
-  "DashboardTileDefinitionId": 482,
+  "MainHeading": "sint",
+  "MemberTabHeading": "eum",
+  "MailingsProviderName": "Johns LLC",
+  "DashboardTileDefinitionId": 765,
   "VisibleFor": [
     {
-      "VisibleId": 840,
+      "VisibleId": 8,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     },
     {
-      "VisibleId": 840,
+      "VisibleId": 8,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 583
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

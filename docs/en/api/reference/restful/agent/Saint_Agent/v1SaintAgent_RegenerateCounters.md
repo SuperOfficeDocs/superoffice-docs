@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Hauck LLC",
-  "AssociateId": 715,
-  "DetailsTable": 877,
-  "DetailsRecord": 385,
-  "IsSystemTask": true,
+  "Id": 991,
+  "Name": "Jaskolski, Feil and Mertz",
+  "AssociateId": 666,
+  "DetailsTable": 884,
+  "DetailsRecord": 617,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "non",
-    "ParameterObject2": "ducimus"
+    "ParameterObject1": "magni",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "2022-05-08T03:24:48.1738537+02:00",
-  "Created": "2001-11-13T03:24:48.1738537+01:00",
-  "StartCount": 356,
-  "DatabaseSerialNumber": "1819941",
-  "Context": "omnis",
-  "Result": "tempora",
+  "LastStarted": "2008-06-16T11:06:35.2708148+02:00",
+  "Created": "2016-04-06T11:06:35.2708148+02:00",
+  "StartCount": 668,
+  "DatabaseSerialNumber": "1380220",
+  "Context": "dolor",
+  "Result": "vitae",
   "State": "All",
-  "Description": "Pre-emptive uniform paradigm",
-  "Response": "modi",
-  "Request": "pariatur",
-  "ProgressDescription": "User-centric methodical complexity",
-  "ProgressPercent": 284,
-  "FileName": "Hettinger-Abernathy",
+  "Description": "User-centric intangible parallelism",
+  "Response": "dignissimos",
+  "Request": "quas",
+  "ProgressDescription": "User-friendly hybrid projection",
+  "ProgressPercent": 356,
+  "FileName": "McLaughlin-Marvin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

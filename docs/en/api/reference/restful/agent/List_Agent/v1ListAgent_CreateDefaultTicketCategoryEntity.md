@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 271,
-  "ParentId": 92,
-  "Name": "Medhurst-Heathcote",
-  "Fullname": "voluptas",
-  "CategoryMaster": 806,
+  "TicketCategoryId": 516,
+  "ParentId": 554,
+  "Name": "Konopelski-Reichel",
+  "Fullname": "alias",
+  "CategoryMaster": 817,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McKenzie-Kessler",
+  "ExternalName": "Huels-Schulist",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 455,
-  "ReplyTemplate": 473,
-  "NotificationEmail": "carter@ullrichweimann.co.uk",
+  "AssignmentLag": 322,
+  "ReplyTemplate": 323,
+  "NotificationEmail": "valentine@becker.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 534,
+  "EffectiveReplyTemplateId": 620,
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "minus"
+    "CustomFields1": "labore",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 671
     }
   }
 }

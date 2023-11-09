@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated dedicated monitoring",
-  "Postit": "est",
+  "Description": "Business-focused mobile infrastructure",
+  "Postit": "maiores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 93,
-  "IncludePerson": 463,
-  "MemberCount": 743,
-  "Name": "Hansen, Labadie and Kuhn",
-  "PostitTextId": 205,
-  "CreatedDate": "2021-03-09T03:24:51.9119624+01:00",
-  "SelectionId": 44,
-  "SoundEx": "quidem",
-  "Source": 134,
-  "TextId": 113,
-  "UpdatedDate": "2013-05-06T03:24:51.9119624+02:00",
-  "UpdatedCount": 90,
-  "Visibility": 173,
+  "GroupIdx": 533,
+  "IncludePerson": 798,
+  "MemberCount": 70,
+  "Name": "Collins LLC",
+  "PostitTextId": 594,
+  "CreatedDate": "2000-03-04T11:06:42.2072253+01:00",
+  "SelectionId": 337,
+  "SoundEx": "enim",
+  "Source": 468,
+  "TextId": 919,
+  "UpdatedDate": "2017-09-14T11:06:42.2072253+02:00",
+  "UpdatedCount": 325,
+  "Visibility": 303,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 152,
-  "TargetTableName": "Douglas Group",
+  "TargetTableNumber": 844,
+  "TargetTableName": "West, Beatty and Nicolas",
   "Completed": true,
-  "LeftSelectionId": 2,
-  "RightSelectionId": 500,
+  "LeftSelectionId": 592,
+  "RightSelectionId": 136,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hermiston-Sawayn",
-  "ShadowProviderName": "Klocko, Lakin and Zemlak",
-  "ChartKey": "incidunt",
-  "LastLoaded": "1997-11-21T03:24:51.9119624+01:00",
-  "LastLoadedBy": 109,
+  "MainProviderName": "Rice, Schmeler and Collins",
+  "ShadowProviderName": "Schuster, Mraz and Quitzon",
+  "ChartKey": "impedit",
+  "LastLoaded": "2014-11-19T11:06:42.2072253+01:00",
+  "LastLoadedBy": 985,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-08-13T03:24:51.9119624+02:00",
-  "LastMembershipChangeBy": 993,
+  "LastMembershipChange": "2013-04-27T11:06:42.2072253+02:00",
+  "LastMembershipChangeBy": 349,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vel",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Schinner Inc and Sons",
-  "DashboardTileDefinitionId": 324,
+  "MainHeading": "sit",
+  "MemberTabHeading": "unde",
+  "MailingsProviderName": "Schuster-Hand",
+  "DashboardTileDefinitionId": 534,
   "VisibleFor": [
     {
-      "VisibleId": 934,
+      "VisibleId": 880,
       "Visibility": "All",
-      "DisplayValue": "occaecati"
+      "DisplayValue": "inventore"
     },
     {
-      "VisibleId": 934,
+      "VisibleId": 880,
       "Visibility": "All",
-      "DisplayValue": "occaecati"
+      "DisplayValue": "inventore"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional needs-based circuit",
-  "Postit": "itaque",
+  "Description": "Multi-tiered exuding matrices",
+  "Postit": "provident",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 330,
-  "IncludePerson": 772,
-  "MemberCount": 939,
-  "Name": "Sanford, Tromp and Smitham",
-  "PostitTextId": 586,
-  "CreatedDate": "2006-02-19T03:24:51.9119624+01:00",
-  "SelectionId": 701,
-  "SoundEx": "qui",
-  "Source": 704,
-  "TextId": 278,
-  "UpdatedDate": "2009-11-12T03:24:51.9119624+01:00",
-  "UpdatedCount": 450,
-  "Visibility": 838,
+  "GroupIdx": 216,
+  "IncludePerson": 914,
+  "MemberCount": 147,
+  "Name": "Ziemann LLC",
+  "PostitTextId": 775,
+  "CreatedDate": "2015-09-12T11:06:42.2072253+02:00",
+  "SelectionId": 494,
+  "SoundEx": "accusantium",
+  "Source": 863,
+  "TextId": 130,
+  "UpdatedDate": "2021-10-20T11:06:42.2072253+02:00",
+  "UpdatedCount": 96,
+  "Visibility": 439,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 390,
-  "TargetTableName": "O'Hara LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 234,
+  "TargetTableName": "Wolff, Gislason and McGlynn",
   "Completed": false,
-  "LeftSelectionId": 518,
-  "RightSelectionId": 27,
+  "LeftSelectionId": 66,
+  "RightSelectionId": 781,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Walker, Kerluke and Gerlach",
-  "ShadowProviderName": "Fisher-Quitzon",
-  "ChartKey": "sit",
-  "LastLoaded": "2007-04-28T03:24:51.9119624+02:00",
-  "LastLoadedBy": 642,
+  "MainProviderName": "Beatty-Collier",
+  "ShadowProviderName": "Hettinger, Hills and Cormier",
+  "ChartKey": "similique",
+  "LastLoaded": "2012-04-29T11:06:42.2072253+02:00",
+  "LastLoadedBy": 419,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-01-02T03:24:51.9119624+01:00",
-  "LastMembershipChangeBy": 365,
+  "LastMembershipChange": "2003-11-04T11:06:42.2072253+01:00",
+  "LastMembershipChangeBy": 358,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consectetur",
-  "MemberTabHeading": "sunt",
-  "MailingsProviderName": "Volkman, Hahn and Ferry",
-  "DashboardTileDefinitionId": 96,
+  "MainHeading": "delectus",
+  "MemberTabHeading": "harum",
+  "MailingsProviderName": "Vandervort Inc and Sons",
+  "DashboardTileDefinitionId": 442,
   "VisibleFor": [
     {
-      "VisibleId": 118,
+      "VisibleId": 353,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldType": "System.String",
+          "FieldLength": 753
         }
       }
     },
     {
-      "VisibleId": 118,
+      "VisibleId": 353,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldType": "System.String",
+          "FieldLength": 753
         }
       }
     }
@@ -298,13 +298,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldType": "System.String",
+      "FieldLength": 131
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorem",
-  "ProviderName": "Hayes-Oberbrunner",
-  "StorageKey": "esse",
+  "StorageType": "odit",
+  "ProviderName": "Mayert Group",
+  "StorageKey": "est",
   "StaticColumns": [
-    "iure",
-    "non"
+    "sunt",
+    "porro"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wiegand-Turner",
-      "Operator": "cupiditate",
+      "Name": "Robel Group",
+      "Operator": "optio",
       "Values": [
-        "esse",
-        "magnam"
+        "et",
+        "qui"
       ],
       "DisplayValues": [
-        "architecto",
-        "mollitia"
+        "aperiam",
+        "ipsam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 515,
+      "InterParenthesis": 181,
       "InterOperator": "And",
-      "UniqueHash": 328
+      "UniqueHash": 206
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Friesen, Conroy and Toy",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "distinctio",
+      "DisplayName": "Nader LLC",
+      "DisplayTooltip": "repudiandae",
+      "DisplayType": "quidem",
       "CanOrderBy": false,
-      "Name": "Boyle Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "nostrum",
-      "RestrictionListName": "Eichmann-Schuster",
+      "Name": "Kuvalis-Schinner",
+      "CanRestrictBy": false,
+      "RestrictionType": "quo",
+      "RestrictionListName": "Powlowski, Mann and Hermann",
       "IsVisible": false,
-      "ExtraInfo": "consequuntur",
-      "Width": "dolorem",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "doloremque"
+      "ExtraInfo": "earum",
+      "Width": "perspiciatis",
+      "IconHint": "dolore",
+      "HeadingIconHint": "odio"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Luettgen, Dickens and Kertzmann",
-      "PrimaryKey": 40,
+      "EntityName": "Altenwerth, Gottlieb and Baumbach",
+      "PrimaryKey": 288,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "doloribus",
-          "LinkHint": "dolorem"
+          "DisplayValue": "ut",
+          "TooltipHint": "corrupti",
+          "LinkHint": "distinctio"
         }
       },
-      "LinkHint": "molestias",
-      "StyleHint": "est",
+      "LinkHint": "placeat",
+      "StyleHint": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 82
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Carroll-Mayert",
-      "Description": "Universal actuating open architecture",
-      "Rank": 661,
+      "Name": "Haley, Fritsch and Goyette",
+      "Description": "Stand-alone analyzing protocol",
+      "Rank": 369,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Carroll-Mayert",
-      "Description": "Universal actuating open architecture",
-      "Rank": 661,
+      "Name": "Haley, Fritsch and Goyette",
+      "Description": "Stand-alone analyzing protocol",
+      "Rank": 369,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 226
     }
   }
 }

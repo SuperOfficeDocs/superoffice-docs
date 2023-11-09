@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=963
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=450
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 593,
-  "PlainMessage": "aliquam",
-  "HtmlMessage": "sed",
-  "SmsMessage": "quia",
-  "Description": "Configurable impactful open system",
-  "Subject": "et",
-  "FolderId": 11,
-  "HeaderField": "corrupti",
-  "Design": "ducimus",
+  "ShipmentMessageId": 923,
+  "PlainMessage": "id",
+  "HtmlMessage": "dicta",
+  "SmsMessage": "culpa",
+  "Description": "Vision-oriented eco-centric hierarchy",
+  "Subject": "id",
+  "FolderId": 102,
+  "HeaderField": "quis",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Profound intangible database",
-  "AccessKey": "sed",
-  "DocumentMessage": 4,
-  "Registered": "2009-09-04T03:24:47.9238778+02:00",
-  "RegisteredAssociateId": 232,
-  "Updated": "2002-10-11T03:24:47.9238778+02:00",
-  "UpdatedAssociateId": 289,
-  "UpdatedCount": 240,
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Inverse optimizing artificial intelligence",
+  "AccessKey": "qui",
+  "DocumentMessage": 872,
+  "Registered": "2009-10-18T11:06:34.8020663+02:00",
+  "RegisteredAssociateId": 483,
+  "Updated": "2003-06-08T11:06:34.8020663+02:00",
+  "UpdatedAssociateId": 437,
+  "UpdatedCount": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   }
 }

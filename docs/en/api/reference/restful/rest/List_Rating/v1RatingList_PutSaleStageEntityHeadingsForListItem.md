@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Schroeder-Morar",
-    "ToolTip": "Omnis nemo voluptatem.",
+    "Id": 65,
+    "Name": "Marvin, Boyle and Doyle",
+    "ToolTip": "Consequatur quibusdam omnis aut iusto et et rerum.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "mollitia",
-    "ColorBlock": 461,
-    "IconHint": "ipsa",
+    "Rank": 988,
+    "Type": "et",
+    "ColorBlock": 167,
+    "IconHint": "magni",
     "Selected": false,
-    "LastChanged": "2014-03-31T03:24:52.3806958+02:00",
+    "LastChanged": "1998-08-05T11:06:43.006573+02:00",
     "ChildItems": [
       {
-        "Id": 377,
-        "Name": "Muller LLC",
-        "ToolTip": "Ut quisquam.",
-        "Deleted": true,
-        "Rank": 252,
-        "Type": "velit",
-        "ColorBlock": 915,
-        "IconHint": "natus",
-        "Selected": true,
-        "LastChanged": "1997-07-18T03:24:52.3806958+02:00",
+        "Id": 348,
+        "Name": "Lakin-Quigley",
+        "ToolTip": "Adipisci magni at ea totam eos.",
+        "Deleted": false,
+        "Rank": 121,
+        "Type": "ducimus",
+        "ColorBlock": 174,
+        "IconHint": "aspernatur",
+        "Selected": false,
+        "LastChanged": "2010-07-11T11:06:43.006573+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "fuga",
+        "ExtraInfo": "provident",
+        "StyleHint": "asperiores",
         "Hidden": true,
-        "FullName": "Mrs. Rachael Treutel"
+        "FullName": "Ceasar DuBuque"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "porro",
+    "ExtraInfo": "unde",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Miss Michele Brakus"
+    "FullName": "Ms. Alanna Veum IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Feest LLC",
-    "ToolTip": "Occaecati voluptas.",
+    "Id": 361,
+    "Name": "McCullough-Russel",
+    "ToolTip": "Similique sit vero.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "facere",
-    "ColorBlock": 81,
-    "IconHint": "nulla",
+    "Rank": 350,
+    "Type": "voluptas",
+    "ColorBlock": 193,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2016-12-20T03:24:52.3806958+01:00",
+    "LastChanged": "2004-06-03T11:06:43.006573+02:00",
     "ChildItems": [
       {
-        "Id": 812,
-        "Name": "Considine-Harris",
-        "ToolTip": "Fugit earum ut aliquam eos.",
-        "Deleted": true,
-        "Rank": 408,
-        "Type": "deleniti",
-        "ColorBlock": 226,
-        "IconHint": "magnam",
+        "Id": 626,
+        "Name": "Marks, Hayes and Lubowitz",
+        "ToolTip": "Vel assumenda ut ea.",
+        "Deleted": false,
+        "Rank": 193,
+        "Type": "quia",
+        "ColorBlock": 963,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2008-03-31T03:24:52.3806958+02:00",
+        "LastChanged": "2021-12-28T11:06:43.006573+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Mrs. Jarrell Maverick Kovacek V",
+        "ExtraInfo": "enim",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Prof. Delia Casimir Jacobson II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 721
+            "FieldType": "System.Int32",
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Angela Hudson",
+    "ExtraInfo": "velit",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Duane Mariam Hammes Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 263
       }
     }
   }

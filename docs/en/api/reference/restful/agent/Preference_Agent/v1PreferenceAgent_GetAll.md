@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 593,
-    "Section": "libero",
-    "Key": "officiis",
-    "Name": "Kassulke, Renner and Greenfelder",
+    "PrefDescId": 77,
+    "Section": "explicabo",
+    "Key": "voluptas",
+    "Name": "Stokes Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profound cohesive ability",
+    "Description": "Organic impactful secured line",
     "IsBuiltin": false,
-    "TableName": "Lesch LLC",
-    "UserDefinedListId": 908,
-    "Rank": 414,
-    "SubGroup": "itaque",
-    "MinLevel": 778,
-    "MaxValue": 434,
-    "MinValue": 892,
-    "RequiredLicense": "eligendi",
+    "TableName": "Hane, Turner and Runolfsdottir",
+    "UserDefinedListId": 380,
+    "Rank": 903,
+    "SubGroup": "et",
+    "MinLevel": 133,
+    "MaxValue": 287,
+    "MinValue": 762,
+    "RequiredLicense": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldLength": 924
       }
     }
   }

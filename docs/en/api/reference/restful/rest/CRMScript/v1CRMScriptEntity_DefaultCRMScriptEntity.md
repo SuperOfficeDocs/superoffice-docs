@@ -70,7 +70,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 258,
-  "UniqueIdentifier": "officia",
-  "Name": "Purdy Group",
-  "Description": "Phased uniform focus group",
-  "IncludeId": "eos",
-  "HierarchyId": 434,
-  "Source": "consectetur",
-  "Registered": "2022-11-10T03:24:51.5368575+01:00",
-  "RegisteredAssociateId": 256,
-  "Updated": "1997-11-26T03:24:51.5368575+01:00",
-  "UpdatedAssociateId": 740,
+  "EjscriptId": 182,
+  "UniqueIdentifier": "assumenda",
+  "Name": "Konopelski-Hills",
+  "Description": "Devolved 24/7 hierarchy",
+  "IncludeId": "ut",
+  "HierarchyId": 513,
+  "Source": "quo",
+  "Registered": "2017-09-16T11:06:41.7853483+02:00",
+  "RegisteredAssociateId": 217,
+  "Updated": "2008-08-13T11:06:41.7853483+02:00",
+  "UpdatedAssociateId": 816,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   }
 }

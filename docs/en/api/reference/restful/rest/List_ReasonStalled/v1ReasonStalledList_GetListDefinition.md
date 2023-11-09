@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 664,
-  "Name": "Hessel Group",
-  "Tooltip": "sit",
+  "Id": 832,
+  "Name": "Little, Weber and Bosco",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 980,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 505,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "ListType": "reprehenderit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   },
   "_Links": {

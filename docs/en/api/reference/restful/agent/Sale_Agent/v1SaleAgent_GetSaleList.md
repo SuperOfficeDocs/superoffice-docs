@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hammes, Medhurst and Dickinson",
-    "SaleDate": "2007-01-21T03:24:48.2207231+01:00",
-    "SaleId": 868,
-    "Probability": 700,
-    "Title": "voluptatem",
-    "Amount": 29644.505999999998,
-    "Currency": "esse",
-    "ProjectName": "Hane-Jaskolski",
-    "AssociateFullName": "Mrs. Glenna Heller",
-    "Description": "Function-based tangible ability",
+    "ContactName": "Heidenreich-Daniel",
+    "SaleDate": "2023-01-04T11:06:35.3176952+01:00",
+    "SaleId": 449,
+    "Probability": 999,
+    "Title": "est",
+    "Amount": 4666.526,
+    "Currency": "qui",
+    "ProjectName": "Rath, Legros and Homenick",
+    "AssociateFullName": "Annalise Kristin Emmerich II",
+    "Description": "Front-line transitional task-force",
     "Status": "Lost",
-    "WeightedAmount": 15422.413999999999,
-    "ProjectId": 177,
-    "EarningPercent": 11918.601999999999,
-    "Earning": 1087.498,
-    "ContactId": 381,
-    "AssociateId": 203,
-    "PersonId": 699,
-    "SaleTypeId": 484,
-    "SaleTypeName": "Lockman LLC",
-    "PersonFullName": "Ray Krystel Spinka V",
+    "WeightedAmount": 19035.916,
+    "ProjectId": 96,
+    "EarningPercent": 16033.544,
+    "Earning": 13466.797999999999,
+    "ContactId": 661,
+    "AssociateId": 683,
+    "PersonId": 501,
+    "SaleTypeId": 639,
+    "SaleTypeName": "Dibbert-Gibson",
+    "PersonFullName": "Anne Ortiz V",
     "Completed": "Completed",
-    "ActiveErpLinks": 267,
-    "NextDueDate": "1997-03-01T03:24:48.2207231+01:00",
-    "Number": "1685961",
+    "ActiveErpLinks": 117,
+    "NextDueDate": "2021-10-13T11:06:35.3176952+02:00",
+    "Number": "887209",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 762
       }
     }
   }

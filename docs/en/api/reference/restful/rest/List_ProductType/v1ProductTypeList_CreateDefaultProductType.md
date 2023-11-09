@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Bartoletti Inc and Sons",
-  "Tooltip": "velit",
+  "Id": 783,
+  "Name": "Ratke LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 514,
-  "Rank": 15,
+  "UdListDefinitionId": 723,
+  "Rank": 435,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldType": "System.String",
+      "FieldLength": 55
     }
   }
 }

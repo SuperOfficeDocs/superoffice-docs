@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 712
+  "ChatSessionId": 272
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 357,
-  "TopicId": 413,
+  "ChatSessionId": 401,
+  "TopicId": 942,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sint",
+  "CustomerAlias": "cupiditate",
   "CustomerHost": "asperiores",
-  "CustomerName": "McGlynn Inc and Sons",
-  "CustomerEmail": "macie@bradtke.uk",
-  "CustomerPhone": "872.044.9847 x557",
+  "CustomerName": "Kilback, O'Kon and Parker",
+  "CustomerEmail": "hayley.price@kuhlman.uk",
+  "CustomerPhone": "(730)926-7041 x7818",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Murray LLC",
+  "CustomerCompanyName": "Tremblay-Bahringer",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "perferendis",
-  "WhenRequested": "2006-01-15T03:24:47.3145639+01:00",
-  "WhenStarted": "2009-05-26T03:24:47.3145639+02:00",
-  "WhenEnded": "2006-06-04T03:24:47.3145639+02:00",
-  "WhenIdle": "2019-06-07T03:24:47.3145639+02:00",
-  "WhenFetched": "2014-01-09T03:24:47.3145639+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 382,
-  "AlertLevel": 557,
-  "Rank": 157,
+  "FirstMessage": "animi",
+  "LastMessage": "assumenda",
+  "WhenRequested": "2022-06-17T11:06:34.0183487+02:00",
+  "WhenStarted": "2005-11-18T11:06:34.0183487+01:00",
+  "WhenEnded": "2022-12-15T11:06:34.0183487+01:00",
+  "WhenIdle": "2022-01-02T11:06:34.0183487+01:00",
+  "WhenFetched": "2004-03-22T11:06:34.0183487+01:00",
+  "SessionKey": "doloremque",
+  "InitialQueuePos": 77,
+  "AlertLevel": 253,
+  "Rank": 356,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 78,
+  "Rating": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 466
     }
   }
 }

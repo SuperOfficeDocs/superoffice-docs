@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 282,
-  "Name": "Zboncak LLC",
-  "Description": "Public-key context-sensitive projection",
+  "ProjectId": 985,
+  "Name": "Marquardt Inc and Sons",
+  "Description": "Public-key zero administration product",
   "URL": "http://www.example.com/",
-  "Type": "expedita",
-  "AssociateId": 503,
-  "AssociateFullName": "Russell Langworth",
-  "TypeId": 326,
-  "Updated": "2017-02-19T03:24:51.7401403+01:00",
-  "StatusId": 111,
-  "Status": "quis",
-  "TextId": 228,
-  "PublishTo": "1997-02-07T03:24:51.7401403+01:00",
-  "PublishFrom": "2002-08-23T03:24:51.7401403+02:00",
+  "Type": "asperiores",
+  "AssociateId": 518,
+  "AssociateFullName": "Kelley Waelchi",
+  "TypeId": 45,
+  "Updated": "2006-08-24T11:06:42.0666003+02:00",
+  "StatusId": 370,
+  "Status": "doloremque",
+  "TextId": 56,
+  "PublishTo": "1998-11-24T11:06:42.0666003+01:00",
+  "PublishFrom": "2006-07-30T11:06:42.0666003+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "671141",
-  "ActiveErpLinks": 744,
+  "ProjectNumber": "1351761",
+  "ActiveErpLinks": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 831
     }
   }
 }

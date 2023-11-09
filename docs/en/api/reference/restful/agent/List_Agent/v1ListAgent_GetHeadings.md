@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 706,
-  "ListItemId": 891,
+  "UdListDefinitionId": 531,
+  "ListItemId": 460,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "McKenzie-Rutherford",
-    "ToolTip": "Porro non.",
+    "Id": 545,
+    "Name": "Bashirian Group",
+    "ToolTip": "Et tempora nisi vel vitae.",
     "Deleted": true,
-    "Rank": 738,
-    "Type": "vel",
-    "ColorBlock": 511,
-    "IconHint": "voluptatem",
+    "Rank": 843,
+    "Type": "ut",
+    "ColorBlock": 31,
+    "IconHint": "magnam",
     "Selected": true,
-    "LastChanged": "2011-01-11T03:24:47.8770078+01:00",
+    "LastChanged": "2019-08-31T11:06:34.7083083+02:00",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Reilly, Hessel and Terry",
-        "ToolTip": "Ea labore aut esse et libero esse.",
+        "Id": 294,
+        "Name": "Berge Group",
+        "ToolTip": "Perferendis perspiciatis.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "facilis",
+        "Rank": 573,
+        "Type": "ea",
         "ColorBlock": 593,
-        "IconHint": "veniam",
-        "Selected": true,
-        "LastChanged": "2005-06-06T03:24:47.8770078+02:00",
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "1997-07-31T11:06:34.7083083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "est",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Gerda Smitham DDS",
+        "FullName": "Prof. Gail Kiehn III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "dolore",
-    "Hidden": false,
-    "FullName": "Mrs. Tyson Charley Larkin",
+    "ExtraInfo": "quod",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Pansy Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

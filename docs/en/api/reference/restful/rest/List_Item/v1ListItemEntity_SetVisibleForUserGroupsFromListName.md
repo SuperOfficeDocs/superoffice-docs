@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Wintheiser-Witting",
-    "ToolTip": "Recusandae porro et praesentium quaerat occaecati cum deleniti.",
-    "Deleted": false,
-    "Rank": 783,
-    "Type": "numquam",
-    "ColorBlock": 288,
-    "IconHint": "odit",
+    "Id": 187,
+    "Name": "Mills Inc and Sons",
+    "ToolTip": "Voluptatum eaque odio sint neque quia.",
+    "Deleted": true,
+    "Rank": 843,
+    "Type": "odio",
+    "ColorBlock": 329,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2016-05-28T03:24:52.1463474+02:00",
+    "LastChanged": "2011-09-16T11:06:42.6471966+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Sporer-Hagenes",
-        "ToolTip": "Totam et velit quam et.",
-        "Deleted": false,
-        "Rank": 214,
-        "Type": "a",
-        "ColorBlock": 667,
-        "IconHint": "cum",
+        "Id": 36,
+        "Name": "Haag-Schultz",
+        "ToolTip": "Ratione reprehenderit reprehenderit vitae dolores atque distinctio est.",
+        "Deleted": true,
+        "Rank": 506,
+        "Type": "et",
+        "ColorBlock": 273,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2009-02-08T03:24:52.1463474+01:00",
+        "LastChanged": "2023-03-30T11:06:42.6471966+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "dolores",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Clemmie Lueilwitz Sr."
+        "FullName": "Kira Sanford Prosacco I"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "atque",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Mrs. Tatum Kemmer DVM"
+    "FullName": "Ms. Vena Alejandrin Raynor"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Ferry-Schuppe",
-    "ToolTip": "Ipsa laboriosam enim quasi ut.",
-    "Deleted": true,
-    "Rank": 228,
-    "Type": "nobis",
-    "ColorBlock": 722,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2016-03-07T03:24:52.1463474+01:00",
+    "Id": 319,
+    "Name": "Veum-Haag",
+    "ToolTip": "Deleniti aliquid rem.",
+    "Deleted": false,
+    "Rank": 958,
+    "Type": "fugiat",
+    "ColorBlock": 797,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2021-06-24T11:06:42.6471966+02:00",
     "ChildItems": [
       {
-        "Id": 378,
-        "Name": "Torphy-Haley",
-        "ToolTip": "Eveniet qui dolor tempore ad voluptatem.",
-        "Deleted": false,
-        "Rank": 529,
-        "Type": "fugit",
-        "ColorBlock": 208,
-        "IconHint": "mollitia",
+        "Id": 310,
+        "Name": "Kuhlman Group",
+        "ToolTip": "Velit doloribus animi rerum dignissimos architecto.",
+        "Deleted": true,
+        "Rank": 122,
+        "Type": "eaque",
+        "ColorBlock": 96,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2018-02-20T03:24:52.1463474+01:00",
+        "LastChanged": "2006-09-10T11:06:42.6471966+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "sequi",
+        "StyleHint": "laborum",
         "Hidden": false,
-        "FullName": "Travon Wiegand",
+        "FullName": "Jazmyne Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldLength": 818
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Eliseo Wiza",
+    "ExtraInfo": "et",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Raoul Irving Kessler II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 642
       }
     }
   }

@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Welch, Jaskolski and Smitham",
-  "AdditionalInfo": "animi",
-  "SearchValue": "officiis"
+  "Name": "Blick, McGlynn and Jakubowski",
+  "AdditionalInfo": "nostrum",
+  "SearchValue": "dolorum"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Daniel Inc and Sons",
-    "ToolTip": "Pariatur commodi velit natus aperiam sed expedita officia.",
+    "Id": 919,
+    "Name": "Beahan-Upton",
+    "ToolTip": "Rerum possimus qui praesentium.",
     "Deleted": false,
-    "Rank": 3,
-    "Type": "perspiciatis",
+    "Rank": 555,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 311,
-        "Name": "Thompson-Lueilwitz",
-        "ToolTip": "Est impedit excepturi qui hic animi assumenda.",
-        "Deleted": false,
-        "Rank": 394,
-        "Type": "ad",
+        "Id": 802,
+        "Name": "Hyatt Group",
+        "ToolTip": "Tenetur vitae quas assumenda sunt aut nihil ratione.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "sequi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 186,
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
-        "FullName": "Mr. Johnpaul Koch",
+        "IconHint": "voluptas",
+        "ColorBlock": 174,
+        "ExtraInfo": "nisi",
+        "StyleHint": "ut",
+        "FullName": "Kane Harmon Abernathy II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 901
+            "FieldLength": 363
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 980,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "perspiciatis",
-    "FullName": "Isaac Prohaska",
+    "IconHint": "sit",
+    "ColorBlock": 151,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "quia",
+    "FullName": "Lois Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldLength": 51
       }
     }
   }

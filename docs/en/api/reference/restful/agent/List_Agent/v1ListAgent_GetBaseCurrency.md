@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 281,
-  "Name": "Block LLC",
-  "Tooltip": "molestiae",
-  "Rank": 687,
-  "Rate": 8806.5399999999991,
-  "Units": 23022.363999999998,
+  "CurrencyId": 183,
+  "Name": "Rutherford LLC",
+  "Tooltip": "ipsa",
+  "Rank": 713,
+  "Rate": 15271.982,
+  "Units": 4005.252,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldType": "System.Int32",
+      "FieldLength": 757
     }
   }
 }

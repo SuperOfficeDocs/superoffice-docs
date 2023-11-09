@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 588,
-  "Name": "Ryan Group",
-  "Tooltip": "cumque",
+  "Id": 676,
+  "Name": "Prosacco-Sporer",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 296,
+  "Rank": 401,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": false,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldLength": 121
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

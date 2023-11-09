@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 600,
-  "Data": "ex"
+  "TicketId": 834,
+  "Data": "iste"
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 487,
-  "Title": "labore",
-  "OwnerName": "Schmitt, Armstrong and Schulist",
+  "TicketId": 646,
+  "Title": "consequatur",
+  "OwnerName": "Fisher, Marquardt and Lockman",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Parisian, Boyer and Hermiston",
+  "PriorityName": "Schuppe, Will and Padberg",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Rippin Group",
-  "ContactName": "Prosacco LLC",
+  "PersonName": "Feest-Hayes",
+  "ContactName": "Gislason Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 249
+      "FieldLength": 718
     }
   }
 }

@@ -127,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 844,
-  "RecurrenceRuleId": 779
+  "MotherId": 374,
+  "RecurrenceRuleId": 811
 }
 ```
 
@@ -144,64 +144,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 224,
-    "StartDate": "1997-05-10T03:24:46.9713962+02:00",
-    "EndDate": "2016-05-31T03:24:46.9713962+02:00",
+    "AppointmentId": 532,
+    "StartDate": "2011-12-19T11:06:33.4913656+01:00",
+    "EndDate": "2004-06-16T11:06:33.4913656+02:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Jayce Reichert",
-    "ContactName": "Zemlak, Dare and Nader",
-    "Description": "Team-oriented motivating functionalities",
-    "PersonFullName": "Toni Beer",
-    "PersonId": 407,
-    "ContactId": 486,
-    "ProjectId": 328,
-    "ProjectName": "Effertz-Ryan",
-    "IsPublished": true,
-    "AssociateId": 840,
-    "ColorIndex": 131,
+    "Task": "totam",
+    "AssociateFullName": "Gerard Ankunding",
+    "ContactName": "Strosin Inc and Sons",
+    "Description": "Multi-lateral leading edge internet solution",
+    "PersonFullName": "Dr. Helen Stokes DVM",
+    "PersonId": 44,
+    "ContactId": 454,
+    "ProjectId": 323,
+    "ProjectName": "Carter, O'Connell and Huels",
+    "IsPublished": false,
+    "AssociateId": 71,
+    "ColorIndex": 712,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 7,
-    "PriorityName": "Sipes-Altenwerth",
+    "PriorityId": 171,
+    "PriorityName": "Armstrong-Kemmer",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2014-12-09T03:24:46.9713962+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2015-09-12T11:06:33.4913656+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-03-29T03:24:46.9713962+02:00",
-    "RecurringEndDate": "2010-08-20T03:24:46.9713962+02:00",
-    "MotherId": 904,
-    "AssignedBy": 254,
-    "AssignedByFullName": "Percival Kling",
+    "RecurringStartDate": "2003-04-15T11:06:33.4913656+02:00",
+    "RecurringEndDate": "2012-08-18T11:06:33.4913656+02:00",
+    "MotherId": 926,
+    "AssignedBy": 655,
+    "AssignedByFullName": "Nasir Mraz",
     "RejectReason": "",
-    "Location": "omnis",
-    "AlarmLeadTime": "odit",
-    "SaleId": 715,
-    "SaleName": "Batz, Hirthe and Miller",
-    "AssociateName": "Powlowski-Orn",
-    "CreatedDate": "2011-01-14T03:24:46.9713962+01:00",
-    "CreatedBy": "tempore",
-    "CreatedByFullName": "Ms. Aditya Nader",
-    "CreatedByAssociateId": 792,
+    "Location": "in",
+    "AlarmLeadTime": "sapiente",
+    "SaleId": 162,
+    "SaleName": "Shields-Bernier",
+    "AssociateName": "Rutherford, McClure and Miller",
+    "CreatedDate": "2004-10-24T11:06:33.4913656+02:00",
+    "CreatedBy": "assumenda",
+    "CreatedByFullName": "Alessandra Konopelski",
+    "CreatedByAssociateId": 100,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "officia",
-    "Agenda": "qui",
-    "InternalNotes": "mollitia",
+    "Title": "tenetur",
+    "Agenda": "repellat",
+    "InternalNotes": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 969
       }
     }
   }

@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "blanditiis",
-    "sit"
+    "quia",
+    "rerum"
   ],
-  "CurrentClientTime": "2017-12-05T03:24:48.0488658+01:00"
+  "CurrentClientTime": "2005-04-27T11:06:35.0833177+02:00"
 }
 ```
 
@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "et",
-    "explicabo"
+    "enim",
+    "possimus"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 779,
-  "NotificationsCount": 182,
+  "OverdueSalesCount": 277,
+  "NotificationsCount": 321,
   "SystemWebPanels": [
     {
-      "WebPanelId": 109,
-      "Name": "Runte, Abbott and Stamm",
-      "Tooltip": "et",
+      "WebPanelId": 938,
+      "Name": "Dare Group",
+      "Tooltip": "iure",
       "Deleted": false,
-      "Rank": 243,
+      "Rank": 313,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
+      "OnCentral": true,
       "OnSatellite": true,
       "OnTravel": true,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": false,
-      "ShowInToolBar": true,
-      "ShowInAddressBar": true,
-      "ShowInStatusBar": true,
-      "WindowName": "Hilpert, Quitzon and Satterfield",
+      "ShowInToolBar": false,
+      "ShowInAddressBar": false,
+      "ShowInStatusBar": false,
+      "WindowName": "Maggio Inc and Sons",
       "Url": "http://www.example.com/",
-      "ProgId": "et",
-      "Icon": 355,
-      "AlwaysReloadOnShow": false,
+      "ProgId": "cupiditate",
+      "Icon": 977,
+      "AlwaysReloadOnShow": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     }
@@ -145,34 +145,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "eaque",
+      "RawValue": "harum",
       "Specification": null,
-      "DisplayValue": "dolorem",
-      "DisplayTooltip": "laborum",
+      "DisplayValue": "ducimus",
+      "DisplayTooltip": "optio",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 71,
-      "PrefDescId": 902,
-      "TableName": "King, Stroman and Renner",
-      "UserPreferenceId": 641,
+      "TargetId": 729,
+      "PrefDescId": 992,
+      "TableName": "Legros, Koelpin and Conn",
+      "UserPreferenceId": 207,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldType": "System.String",
+          "FieldLength": 496
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "culpa",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

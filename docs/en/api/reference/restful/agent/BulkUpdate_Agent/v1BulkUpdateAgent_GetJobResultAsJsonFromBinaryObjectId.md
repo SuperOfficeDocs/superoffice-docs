@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Carter, Larson and Thiel",
-  "BinaryObjectId": 423
+  "TableName": "Becker, Ullrich and Lang",
+  "BinaryObjectId": 971
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sapiente"
+"sed"
 ```

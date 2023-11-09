@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 648
+  "QuickReplyId": 409
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fahey Inc and Sons",
-  "UpdatedByFullName": "Terrell Koelpin",
-  "Updated": "2003-06-07T03:24:47.4864254+02:00",
-  "HtmlBody": "ea",
+  "Name": "Cruickshank LLC",
+  "UpdatedByFullName": "Prof. Amaya Cydney Tremblay V",
+  "Updated": "2013-11-30T11:06:34.2539546+01:00",
+  "HtmlBody": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 980
     }
   }
 }

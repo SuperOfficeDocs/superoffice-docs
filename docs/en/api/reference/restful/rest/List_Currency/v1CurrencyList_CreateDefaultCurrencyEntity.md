@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 148,
-  "Name": "Greenfelder, Ankunding and Kautzer",
-  "Tooltip": "qui",
-  "Rank": 400,
-  "Rate": 8286.296,
-  "Units": 11968.746,
-  "Deleted": false,
+  "CurrencyId": 956,
+  "Name": "Schamberger, Terry and Bins",
+  "Tooltip": "mollitia",
+  "Rank": 446,
+  "Rate": 25454.347999999998,
+  "Units": 1849.06,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 644
     }
   }
 }

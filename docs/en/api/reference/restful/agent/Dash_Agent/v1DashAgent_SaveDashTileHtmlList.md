@@ -79,15 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 237,
+  "DashboardTileDefinitionId": 559,
   "Languages": [
     {
-      "LanguageCode": "debitis",
-      "Html": "ut"
+      "LanguageCode": "asperiores",
+      "Html": "tempore"
     },
     {
-      "LanguageCode": "debitis",
-      "Html": "ut"
+      "LanguageCode": "asperiores",
+      "Html": "tempore"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "non",
-    "Html": "est",
+    "LanguageCode": "expedita",
+    "Html": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   },
   {
-    "LanguageCode": "non",
-    "Html": "est",
+    "LanguageCode": "expedita",
+    "Html": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldType": "System.String",
+        "FieldLength": 237
       }
     }
   }

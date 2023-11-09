@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 743,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 401,
-  "Name": "Romaguera Inc and Sons",
-  "Description": "Persistent radical internet solution",
-  "Currency": "et",
-  "CurrencyName": "Nikolaus-Witting",
-  "ValidFrom": "2010-02-07T03:24:52.3025813+01:00",
-  "ValidTo": "2002-09-01T03:24:52.3025813+02:00",
-  "IsActive": true
+  "PriceListId": 641,
+  "ERPPriceListKey": "pariatur",
+  "QuoteConnectionId": 24,
+  "Name": "Bayer-Prosacco",
+  "Description": "Re-engineered value-added moderator",
+  "Currency": "vero",
+  "CurrencyName": "Koelpin LLC",
+  "ValidFrom": "2008-10-06T11:06:42.8815714+02:00",
+  "ValidTo": "2013-01-17T11:06:42.8815714+01:00",
+  "IsActive": false
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 667,
-  "ERPPriceListKey": "voluptatum",
-  "QuoteConnectionId": 106,
-  "Name": "Howe LLC",
-  "Description": "Balanced bi-directional info-mediaries",
-  "Currency": "doloribus",
-  "CurrencyName": "Lang LLC",
-  "ValidFrom": "2018-05-31T03:24:52.3025813+02:00",
-  "ValidTo": "2022-08-31T03:24:52.3025813+02:00",
-  "IsActive": false,
+  "PriceListId": 35,
+  "ERPPriceListKey": "consectetur",
+  "QuoteConnectionId": 140,
+  "Name": "Bruen-Hammes",
+  "Description": "Virtual grid-enabled service-desk",
+  "Currency": "aperiam",
+  "CurrencyName": "Buckridge Group",
+  "ValidFrom": "2019-10-10T11:06:42.8971908+02:00",
+  "ValidTo": "2011-11-06T11:06:42.8971908+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 937
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

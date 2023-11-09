@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "omnis",
-    "PersonId": 888,
-    "Mrmrs": "quasi",
-    "Firstname": "Alexandrine",
-    "Lastname": "Nitzsche",
-    "MiddleName": "Beahan Inc and Sons",
+    "Position": "est",
+    "PersonId": 388,
+    "Mrmrs": "velit",
+    "Firstname": "Brianne",
+    "Lastname": "Hilll",
+    "MiddleName": "Effertz Group",
     "Title": "ipsam",
-    "Description": "Self-enabling user-facing superstructure",
-    "Email": "bradley_weissnat@muller.biz",
-    "FullName": "Casimer Gutmann",
-    "DirectPhone": "277.640.0168 x40388",
-    "FormalName": "Tromp-Turner",
-    "CountryId": 581,
-    "ContactId": 892,
-    "ContactName": "Schimmel, Herzog and Auer",
-    "Retired": 785,
-    "Rank": 969,
-    "ActiveInterests": 856,
+    "Description": "Configurable asynchronous artificial intelligence",
+    "Email": "cristina@metztrantow.uk",
+    "FullName": "Noemi Larson",
+    "DirectPhone": "650.751.3917 x80382",
+    "FormalName": "Harris-Jerde",
+    "CountryId": 849,
+    "ContactId": 376,
+    "ContactName": "Ruecker Group",
+    "Retired": 401,
+    "Rank": 907,
+    "ActiveInterests": 816,
     "ContactDepartment": "",
-    "ContactCountryId": 159,
-    "ContactOrgNr": "1184787",
-    "FaxPhone": "095.522.4242 x173",
-    "MobilePhone": "(720)248-8151",
-    "ContactPhone": "1-860-262-8385 x370",
-    "AssociateName": "Wiegand Inc and Sons",
-    "AssociateId": 621,
-    "UsePersonAddress": false,
-    "ContactFax": "molestias",
-    "Kanafname": "repudiandae",
-    "Kanalname": "molestias",
-    "Post1": "est",
-    "Post2": "sed",
-    "Post3": "qui",
-    "EmailName": "tyree@jaskolski.ca",
-    "ContactFullName": "Russell Dicki I",
-    "ActiveErpLinks": 899,
-    "TicketPriorityId": 201,
-    "SupportLanguageId": 645,
-    "SupportAssociateId": 265,
+    "ContactCountryId": 187,
+    "ContactOrgNr": "1152340",
+    "FaxPhone": "867.632.3151",
+    "MobilePhone": "381.335.6617 x39219",
+    "ContactPhone": "326.489.3874",
+    "AssociateName": "Brakus Inc and Sons",
+    "AssociateId": 102,
+    "UsePersonAddress": true,
+    "ContactFax": "eius",
+    "Kanafname": "voluptatem",
+    "Kanalname": "laudantium",
+    "Post1": "et",
+    "Post2": "harum",
+    "Post3": "asperiores",
+    "EmailName": "kian@breitenberg.name",
+    "ContactFullName": "Avery Morar",
+    "ActiveErpLinks": 53,
+    "TicketPriorityId": 512,
+    "SupportLanguageId": 178,
+    "SupportAssociateId": 659,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 738
       }
     }
   }

@@ -85,16 +85,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 916,
-  "ERPPriceListKey": "reprehenderit",
-  "QuoteConnectionId": 416,
-  "Name": "Eichmann Inc and Sons",
-  "Description": "Multi-layered zero administration migration",
-  "Currency": "dolores",
-  "CurrencyName": "Walter Inc and Sons",
-  "ValidFrom": "2018-08-14T03:24:48.1269787+02:00",
-  "ValidTo": "2020-05-08T03:24:48.1269787+02:00",
-  "IsActive": true
+  "PriceListId": 986,
+  "ERPPriceListKey": "eveniet",
+  "QuoteConnectionId": 770,
+  "Name": "Moore, Howe and McGlynn",
+  "Description": "Team-oriented systematic matrix",
+  "Currency": "et",
+  "CurrencyName": "Ratke-Rolfson",
+  "ValidFrom": "2018-11-05T11:06:35.1926981+01:00",
+  "ValidTo": "2012-12-03T11:06:35.1926981+01:00",
+  "IsActive": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 742,
-  "ERPPriceListKey": "fugiat",
-  "QuoteConnectionId": 314,
-  "Name": "Botsford, Lindgren and Dooley",
-  "Description": "De-engineered well-modulated internet solution",
-  "Currency": "ipsa",
-  "CurrencyName": "Koch Group",
-  "ValidFrom": "2002-06-22T03:24:48.1269787+02:00",
-  "ValidTo": "2000-05-03T03:24:48.1269787+02:00",
-  "IsActive": true,
+  "PriceListId": 107,
+  "ERPPriceListKey": "dolor",
+  "QuoteConnectionId": 810,
+  "Name": "Watsica Inc and Sons",
+  "Description": "Balanced contextually-based attitude",
+  "Currency": "fugit",
+  "CurrencyName": "Rohan, Larkin and Wolff",
+  "ValidFrom": "2004-01-06T11:06:35.1926981+01:00",
+  "ValidTo": "2021-01-02T11:06:35.1926981+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

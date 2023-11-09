@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 2,
-      "UniqueId": "non",
-      "Name": "Quitzon-Quitzon",
-      "Description": "Down-sized web-enabled concept",
-      "AssociateId": 332,
-      "Columns": 606,
+      "DashboardId": 806,
+      "UniqueId": "quo",
+      "Name": "Greenholt, Sauer and Mosciski",
+      "Description": "Open-source optimal hierarchy",
+      "AssociateId": 103,
+      "Columns": 753,
       "Theme": null,
-      "VisibleForAll": 340,
+      "VisibleForAll": 909,
       "VisibleForAssociates": [
-        231,
-        132
+        140,
+        83
       ],
       "VisibleForGroups": [
-        394,
-        524
+        534,
+        810
       ],
-      "PinForAll": 759,
+      "PinForAll": 232,
       "PinForAssociates": [
-        471,
-        621
+        473,
+        610
       ],
       "PinForGroups": [
-        915,
-        90
+        217,
+        750
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 114
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 792,
-      "UniqueId": "et",
-      "Name": "Stroman-Wisoky",
-      "Description": "Triple-buffered bifurcated structure",
-      "AssociateId": 144,
-      "Columns": 405,
+      "DashboardId": 685,
+      "UniqueId": "sunt",
+      "Name": "Grant Inc and Sons",
+      "Description": "Function-based cohesive utilisation",
+      "AssociateId": 354,
+      "Columns": 228,
       "Theme": null,
-      "VisibleForAll": 625,
+      "VisibleForAll": 551,
       "VisibleForAssociates": [
-        703,
-        603
+        42,
+        715
       ],
       "VisibleForGroups": [
-        401,
-        957
+        980,
+        536
       ],
-      "PinForAll": 118,
+      "PinForAll": 915,
       "PinForAssociates": [
-        59,
-        131
+        630,
+        335
       ],
       "PinForGroups": [
-        412,
-        452
+        578,
+        417
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 33
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 283,
-      "UniqueId": "fugit",
-      "Name": "Hessel-Deckow",
-      "Description": "Visionary systemic open architecture",
-      "AssociateId": 30,
-      "Columns": 862,
+      "DashboardId": 357,
+      "UniqueId": "aut",
+      "Name": "Kirlin LLC",
+      "Description": "User-friendly non-volatile alliance",
+      "AssociateId": 956,
+      "Columns": 898,
       "Theme": null,
-      "VisibleForAll": 794,
+      "VisibleForAll": 377,
       "VisibleForAssociates": [
-        992,
-        154
+        727,
+        797
       ],
       "VisibleForGroups": [
-        946,
-        168
+        484,
+        857
       ],
-      "PinForAll": 882,
+      "PinForAll": 541,
       "PinForAssociates": [
-        139,
-        695
+        198,
+        412
       ],
       "PinForGroups": [
-        457,
-        318
+        260,
+        489
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 278
+          "FieldLength": 991
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 849
     }
   }
 }

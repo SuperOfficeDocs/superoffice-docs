@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 269,
-  "UniqueId": "sequi",
-  "Name": "Zemlak-Jenkins",
-  "Description": "Profit-focused optimal approach",
-  "AssociateId": 907,
-  "Columns": 607,
+  "DashboardId": 200,
+  "UniqueId": "omnis",
+  "Name": "Kiehn, Quigley and Crist",
+  "Description": "Distributed 24/7 project",
+  "AssociateId": 45,
+  "Columns": 493,
   "Theme": null,
-  "VisibleForAll": 22,
+  "VisibleForAll": 747,
   "VisibleForAssociates": [
-    855,
-    909
+    76,
+    100
   ],
   "VisibleForGroups": [
-    98,
-    206
+    915,
+    417
   ],
-  "PinForAll": 941,
+  "PinForAll": 594,
   "PinForAssociates": [
-    308,
-    978
+    327,
+    757
   ],
   "PinForGroups": [
-    430,
-    159
+    56,
+    555
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 526,
-  "UniqueId": "eius",
-  "Name": "Watsica-Rempel",
-  "Description": "Customer-focused zero tolerance matrix",
-  "AssociateId": 763,
-  "Columns": 358,
+  "DashboardId": 571,
+  "UniqueId": "eos",
+  "Name": "Dibbert, Gibson and Wehner",
+  "Description": "Profound even-keeled artificial intelligence",
+  "AssociateId": 354,
+  "Columns": 178,
   "Theme": null,
-  "VisibleForAll": 145,
+  "VisibleForAll": 761,
   "VisibleForAssociates": [
-    687,
-    615
+    824,
+    654
   ],
   "VisibleForGroups": [
-    781,
-    870
+    959,
+    197
   ],
-  "PinForAll": 44,
+  "PinForAll": 174,
   "PinForAssociates": [
-    734,
-    953
+    837,
+    586
   ],
   "PinForGroups": [
     108,
-    651
+    723
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 141
     }
   },
   "_Links": {

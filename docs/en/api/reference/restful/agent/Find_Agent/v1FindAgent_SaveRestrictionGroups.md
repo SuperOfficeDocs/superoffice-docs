@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloremque",
-  "ProviderName": "Altenwerth, Kertzmann and Kshlerin",
-  "StorageKey": "accusantium",
+  "StorageType": "nulla",
+  "ProviderName": "Murphy, Eichmann and Schumm",
+  "StorageKey": "dolor",
   "RestrictionGroups": [
     {
-      "Name": "Bins Inc and Sons",
-      "Description": "Future-proofed system-worthy Graphical User Interface",
-      "Rank": 941,
+      "Name": "Hilpert-Schinner",
+      "Description": "Re-engineered methodical pricing structure",
+      "Rank": 487,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bins Inc and Sons",
-      "Description": "Future-proofed system-worthy Graphical User Interface",
-      "Rank": 941,
+      "Name": "Hilpert-Schinner",
+      "Description": "Re-engineered methodical pricing structure",
+      "Rank": 487,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "officia"
+  "Context": "veritatis"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Grimes, Eichmann and Rath",
-    "Description": "Realigned stable product",
-    "Rank": 680,
+    "Name": "Klocko Group",
+    "Description": "Programmable maximized architecture",
+    "Rank": 427,
     "Restrictions": [
       {
-        "Name": "Koepp-Bernhard",
-        "Operator": "dolores",
+        "Name": "Walker Group",
+        "Operator": "numquam",
         "Values": [
-          "vel",
-          "est"
+          "commodi",
+          "et"
         ],
         "DisplayValues": [
-          "id",
-          "molestias"
+          "odit",
+          "nihil"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 355,
+        "InterParenthesis": 743,
         "InterOperator": "And",
-        "UniqueHash": 444
+        "UniqueHash": 5
       }
     ]
   },
   {
-    "Name": "Grimes, Eichmann and Rath",
-    "Description": "Realigned stable product",
-    "Rank": 680,
+    "Name": "Klocko Group",
+    "Description": "Programmable maximized architecture",
+    "Rank": 427,
     "Restrictions": [
       {
-        "Name": "Koepp-Bernhard",
-        "Operator": "dolores",
+        "Name": "Walker Group",
+        "Operator": "numquam",
         "Values": [
-          "vel",
-          "est"
+          "commodi",
+          "et"
         ],
         "DisplayValues": [
-          "id",
-          "molestias"
+          "odit",
+          "nihil"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 355,
+        "InterParenthesis": 743,
         "InterOperator": "And",
-        "UniqueHash": 444
+        "UniqueHash": 5
       }
     ]
   }

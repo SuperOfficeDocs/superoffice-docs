@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 505,
-    "Name": "Willms-Zemlak",
-    "Tooltip": "autem",
-    "Deleted": false,
-    "Rank": 670,
-    "UdListDefinitionId": 357,
+    "HeadingId": 304,
+    "Name": "D'Amore, Herman and Ankunding",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 286,
+    "UdListDefinitionId": 264,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 742
       }
     }
   }

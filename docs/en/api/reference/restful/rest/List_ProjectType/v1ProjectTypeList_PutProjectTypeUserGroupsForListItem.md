@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Mertz, Jerde and Roob",
-    "ToolTip": "Veniam qui itaque.",
+    "Id": 158,
+    "Name": "Goldner LLC",
+    "ToolTip": "Est repudiandae id sint.",
     "Deleted": false,
-    "Rank": 326,
-    "Type": "magnam",
-    "ColorBlock": 330,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "2007-09-24T03:24:52.3494474+02:00",
+    "Rank": 452,
+    "Type": "dolore",
+    "ColorBlock": 223,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2006-02-23T11:06:42.9597004+01:00",
     "ChildItems": [
       {
-        "Id": 515,
-        "Name": "Gislason, Trantow and Dicki",
-        "ToolTip": "Quis est qui ex sint ad.",
+        "Id": 957,
+        "Name": "Heller Inc and Sons",
+        "ToolTip": "Error molestias consequatur.",
         "Deleted": false,
-        "Rank": 669,
-        "Type": "earum",
-        "ColorBlock": 840,
-        "IconHint": "totam",
+        "Rank": 323,
+        "Type": "repellendus",
+        "ColorBlock": 62,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1996-09-10T03:24:52.3494474+02:00",
+        "LastChanged": "2006-01-02T11:06:42.9597004+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
+        "ExtraInfo": "nihil",
         "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Danyka Botsford"
+        "FullName": "Mr. Antwon Konopelski"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "culpa",
+    "ExtraInfo": "quia",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Miss Theresa Cicero Sipes DVM"
+    "FullName": "Pansy Douglas Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Roberts-Kuhic",
-    "ToolTip": "Et totam.",
+    "Id": 606,
+    "Name": "Smitham, Ledner and Schumm",
+    "ToolTip": "Ut natus.",
     "Deleted": false,
-    "Rank": 125,
-    "Type": "ex",
-    "ColorBlock": 20,
-    "IconHint": "velit",
+    "Rank": 990,
+    "Type": "in",
+    "ColorBlock": 558,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2014-03-12T03:24:52.3494474+01:00",
+    "LastChanged": "2015-01-04T11:06:42.9597004+01:00",
     "ChildItems": [
       {
-        "Id": 675,
-        "Name": "Cartwright, Robel and Mohr",
-        "ToolTip": "Consequuntur dolores minus et impedit recusandae voluptatem.",
+        "Id": 25,
+        "Name": "Schinner-Anderson",
+        "ToolTip": "Suscipit omnis sed.",
         "Deleted": false,
-        "Rank": 773,
-        "Type": "ut",
-        "ColorBlock": 804,
-        "IconHint": "dolores",
+        "Rank": 603,
+        "Type": "animi",
+        "ColorBlock": 193,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2012-05-24T03:24:52.3494474+02:00",
+        "LastChanged": "2016-06-23T11:06:42.9597004+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "dolores",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Johnathon Harber",
+        "FullName": "Vivienne Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldType": "System.String",
+            "FieldLength": 649
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "eaque",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Modesto Rogahn",
+    "FullName": "Mrs. Rosalee Mike Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 166
       }
     }
   }

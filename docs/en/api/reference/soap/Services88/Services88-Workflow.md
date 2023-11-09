@@ -80,6 +80,10 @@ title: Services88.WorkflowAgent WSDL
               <xs:element minOccurs="0" name="Goals" nillable="true" type="tns:ArrayOfWorkflowGoal" />
               <xs:element minOccurs="0" name="Filter" nillable="true" type="tns:WorkflowFilter" />
               <xs:element minOccurs="0" name="BlockLists" nillable="true" type="q2:ArrayOfint" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="tns:Associate" />
+              <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="tns:ArrayOfVisibleFor" />
             </xs:sequence>
           </xs:extension>
@@ -420,7 +424,7 @@ title: Services88.WorkflowAgent WSDL
           <xs:enumeration value="WaitForTime" />
           <xs:enumeration value="WaitForAction" />
           <xs:enumeration value="Split" />
-          <xs:enumeration value="UpdateContact" />
+          <xs:enumeration value="UpdateParticipant" />
           <xs:enumeration value="AddToList" />
           <xs:enumeration value="RemoveFromList" />
           <xs:enumeration value="CreateRequest" />
@@ -618,14 +622,14 @@ title: Services88.WorkflowAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WorkflowStepOption" nillable="true" type="tns:WorkflowStepOption" />
-      <xs:complexType name="WorkflowStepUpdateContact">
+      <xs:complexType name="WorkflowStepUpdateParticipant">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
             <xs:sequence />
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="WorkflowStepUpdateContact" nillable="true" type="tns:WorkflowStepUpdateContact" />
+      <xs:element name="WorkflowStepUpdateParticipant" nillable="true" type="tns:WorkflowStepUpdateParticipant" />
       <xs:complexType name="WorkflowStepWaitForAction">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:WorkflowStepBase">
@@ -683,8 +687,8 @@ title: Services88.WorkflowAgent WSDL
         </xs:annotation>
         <xs:restriction base="xs:string">
           <xs:enumeration value="None" />
-          <xs:enumeration value="ContactCreated" />
-          <xs:enumeration value="ContactUpdated" />
+          <xs:enumeration value="PersonCreated" />
+          <xs:enumeration value="PersonUpdated" />
           <xs:enumeration value="AddedToProject" />
           <xs:enumeration value="CreatedRequest" />
           <xs:enumeration value="LinkClicked" />
@@ -788,8 +792,8 @@ title: Services88.WorkflowAgent WSDL
         </xs:annotation>
         <xs:restriction base="xs:string">
           <xs:enumeration value="None" />
-          <xs:enumeration value="ContactUpdated" />
-          <xs:enumeration value="SaleCreatedOnContact" />
+          <xs:enumeration value="PersonUpdated" />
+          <xs:enumeration value="SaleCreatedOnPerson" />
           <xs:enumeration value="SaleCreatedOnCompany" />
           <xs:enumeration value="AppointmentCreated" />
           <xs:enumeration value="AddedToProject" />
@@ -941,7 +945,97 @@ title: Services88.WorkflowAgent WSDL
         <xs:restriction base="xs:string">
           <xs:enumeration value="None" />
           <xs:enumeration value="Run" />
-          <xs:enumeration value="Click" />
+          <xs:enumeration value="PersonCreated">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1001</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="PersonUpdated">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1002</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="AddedToProject">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1003</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="CreatedRequest">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1004</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="LinkClicked">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1005</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="AddedToSelection">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1006</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="FormSubmitted">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1007</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="AddedMessage">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1008</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="StartedChat">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1009</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="OrderPlaced">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1010</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SaleCreated">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1011</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SaleSold">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1012</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SaleLost">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1013</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="WorkflowEventType" nillable="true" type="tns:WorkflowEventType" />

@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=969
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=610
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 784,
-  "ColumnId": 73,
-  "FieldDefault": "totam",
-  "FieldHeight": 219,
-  "FieldLabel": "quasi",
-  "FieldLeft": 535,
-  "FieldTop": 360,
+  "UDefFieldId": 492,
+  "ColumnId": 247,
+  "FieldDefault": "cum",
+  "FieldHeight": 649,
+  "FieldLabel": "non",
+  "FieldLeft": 564,
+  "FieldTop": 87,
   "FieldType": "Checkbox",
-  "FieldWidth": 396,
-  "FormatMask": "vero",
+  "FieldWidth": 748,
+  "FormatMask": "aut",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 564,
-  "LabelLeft": 43,
-  "LabelTop": 916,
-  "LabelWidth": 22,
-  "LastVersionId": 557,
-  "ListTableId": 533,
+  "IsIndexed": false,
+  "LabelHeight": 542,
+  "LabelLeft": 984,
+  "LabelTop": 976,
+  "LabelWidth": 93,
+  "LastVersionId": 103,
+  "ListTableId": 102,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 966,
-  "ProgId": "cum",
-  "IsReadOnly": false,
-  "ShortLabel": "delectus",
-  "TabOrder": 578,
-  "TextLength": 243,
-  "Tooltip": "id",
-  "UdefIdentity": 324,
-  "UDListDefinitionId": 333,
+  "Page1LineNo": 167,
+  "ProgId": "sed",
+  "IsReadOnly": true,
+  "ShortLabel": "animi",
+  "TabOrder": 302,
+  "TextLength": 75,
+  "Tooltip": "et",
+  "UdefIdentity": 800,
+  "UDListDefinitionId": 602,
   "Justification": "Center",
-  "Version": 232,
-  "TemplateVariableName": "Koch, Kassulke and Jakubowski",
+  "Version": 689,
+  "TemplateVariableName": "Runolfsdottir-Grimes",
   "HasBeenPublished": false,
-  "MdoListName": "Pfannerstill, Harvey and Feil",
+  "MdoListName": "Robel, Zemlak and Gleason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldType": "System.String",
+      "FieldLength": 191
     }
   }
 }

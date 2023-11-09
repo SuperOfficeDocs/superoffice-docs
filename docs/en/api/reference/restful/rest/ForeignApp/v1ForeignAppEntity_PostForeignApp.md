@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 455,
-  "Name": "Veum-Greenfelder",
-  "CreatedDate": "2005-06-27T03:24:51.6149823+02:00",
-  "UpdatedDate": "2002-06-18T03:24:51.6149823+02:00",
+  "ForeignAppId": 638,
+  "Name": "Simonis Inc and Sons",
+  "CreatedDate": "2021-07-28T11:06:41.8790976+02:00",
+  "UpdatedDate": "2004-01-12T11:06:41.8790976+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 639,
-      "Name": "Schaefer Group",
-      "CreatedDate": "2002-10-03T03:24:51.6149823+02:00",
-      "UpdatedDate": "2008-04-20T03:24:51.6149823+02:00",
-      "AssociateFullName": "Kevon Dylan Rolfson DVM",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "assumenda",
-      "DeviceIdentifier": "delectus",
-      "ForeignAppId": 16,
+      "ForeignDeviceId": 195,
+      "Name": "Gutkowski-Metz",
+      "CreatedDate": "1996-07-01T11:06:41.8790976+02:00",
+      "UpdatedDate": "2018-07-24T11:06:41.8790976+02:00",
+      "AssociateFullName": "Mrs. Drake Durgan",
+      "CreatedBy": "quo",
+      "UpdatedBy": "mollitia",
+      "DeviceIdentifier": "non",
+      "ForeignAppId": 357,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 429
+          "FieldLength": 370
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldType": "System.String",
+      "FieldLength": 444
     }
   }
 }

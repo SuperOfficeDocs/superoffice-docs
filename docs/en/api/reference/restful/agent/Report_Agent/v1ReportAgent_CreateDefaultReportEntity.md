@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 973,
+  "ReportId": 385,
   "ReportCategory": "All",
-  "Description": "Optimized optimal application",
+  "Description": "Reverse-engineered uniform workforce",
   "ReportLayout": "CalendarMonth",
-  "Name": "Becker LLC",
-  "AssociateId": 715,
-  "TemplateId": 211,
-  "Published": false,
+  "Name": "Douglas, Armstrong and King",
+  "AssociateId": 775,
+  "TemplateId": 705,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldType": "System.Int32",
+      "FieldLength": 728
     }
   }
 }

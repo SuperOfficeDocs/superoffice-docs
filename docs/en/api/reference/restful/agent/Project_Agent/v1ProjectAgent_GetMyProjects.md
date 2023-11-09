@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 123,
-    "Name": "Hudson, Paucek and Ruecker",
-    "Description": "Reverse-engineered 3rd generation success",
+    "ProjectId": 625,
+    "Name": "Rutherford LLC",
+    "Description": "Upgradable multi-state time-frame",
     "URL": "http://www.example.com/",
-    "Type": "ipsa",
-    "AssociateId": 924,
-    "AssociateFullName": "Ms. Devyn Braeden Dicki",
-    "TypeId": 39,
-    "Updated": "2017-04-02T03:24:48.0957311+02:00",
-    "StatusId": 638,
-    "Status": "quia",
-    "TextId": 457,
-    "PublishTo": "2001-01-10T03:24:48.0957311+01:00",
-    "PublishFrom": "2009-09-11T03:24:48.0957311+02:00",
+    "Type": "expedita",
+    "AssociateId": 275,
+    "AssociateFullName": "Alta Collins",
+    "TypeId": 30,
+    "Updated": "2007-04-22T11:06:35.1614465+02:00",
+    "StatusId": 80,
+    "Status": "maxime",
+    "TextId": 677,
+    "PublishTo": "2007-10-25T11:06:35.1614465+02:00",
+    "PublishFrom": "2022-02-22T11:06:35.1614465+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "331487",
-    "ActiveErpLinks": 637,
+    "ProjectNumber": "909320",
+    "ActiveErpLinks": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 172
       }
     }
   }

@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "saepe",
+      "RawValue": "vel",
       "Specification": null,
-      "DisplayValue": "laborum",
-      "DisplayTooltip": "dignissimos",
+      "DisplayValue": "hic",
+      "DisplayTooltip": "blanditiis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 468,
-      "PrefDescId": 592,
-      "TableName": "Rolfson-Botsford",
-      "UserPreferenceId": 484
+      "TargetId": 995,
+      "PrefDescId": 242,
+      "TableName": "Kuphal, Spencer and Kuhlman",
+      "UserPreferenceId": 805
     }
   ]
 }

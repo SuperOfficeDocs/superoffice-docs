@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Heller, Bartoletti and Terry",
-  "DeviceName": "Dietrich, Ziemann and Robel",
-  "DeviceIdentifier": "itaque"
+  "ApplicationName": "Smith-Waelchi",
+  "DeviceName": "Weissnat, Effertz and Purdy",
+  "DeviceIdentifier": "ipsa"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "quidem",
-  "RecordId": 839,
-  "CreatedDate": "2016-12-21T03:24:47.8145137+01:00",
-  "UpdatedDate": "1998-06-25T03:24:47.8145137+02:00",
-  "UpdatedBy": "beatae",
-  "CreatedBy": "veritatis",
-  "TableName": "VonRueden-Swift",
+  "Key": "fugiat",
+  "Value": "harum",
+  "RecordId": 204,
+  "CreatedDate": "2018-02-19T11:06:34.6301875+01:00",
+  "UpdatedDate": "2001-09-03T11:06:34.6301875+02:00",
+  "UpdatedBy": "laboriosam",
+  "CreatedBy": "ea",
+  "TableName": "Heathcote-Wyman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 277
     }
   }
 }

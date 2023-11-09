@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 174,
-  "Name": "Fadel-Frami",
+  "TicketPriorityId": 282,
+  "Name": "Johnston, Macejkovic and Glover",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 4,
+  "SortOrder": 105,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 555,
-  "MonStart": "2020-03-13T03:24:52.4431914+01:00",
-  "MonStop": "2003-12-22T03:24:52.4431914+01:00",
-  "TueStart": "2021-06-16T03:24:52.4431914+02:00",
-  "TueStop": "1998-11-27T03:24:52.4431914+01:00",
-  "WedStart": "2001-08-08T03:24:52.4431914+02:00",
-  "WedStop": "2022-11-07T03:24:52.4431914+01:00",
-  "ThuStart": "2005-04-06T03:24:52.4431914+02:00",
-  "ThuStop": "2021-11-09T03:24:52.4431914+01:00",
-  "FriStart": "2015-10-11T03:24:52.4431914+02:00",
-  "FriStop": "2005-03-04T03:24:52.4431914+01:00",
-  "SatStart": "1996-07-24T03:24:52.4431914+02:00",
-  "SatStop": "2018-10-31T03:24:52.4431914+01:00",
-  "SunStart": "2004-01-13T03:24:52.4431914+01:00",
-  "SunStop": "2003-02-28T03:24:52.4431914+01:00",
+  "Deadline": 470,
+  "MonStart": "2017-06-21T11:06:43.1159494+02:00",
+  "MonStop": "2021-08-20T11:06:43.1159494+02:00",
+  "TueStart": "2011-05-24T11:06:43.1159494+02:00",
+  "TueStop": "2001-01-12T11:06:43.1159494+01:00",
+  "WedStart": "2010-05-08T11:06:43.1159494+02:00",
+  "WedStop": "2022-07-11T11:06:43.1159494+02:00",
+  "ThuStart": "2023-03-08T11:06:43.1159494+01:00",
+  "ThuStop": "2009-05-22T11:06:43.1159494+02:00",
+  "FriStart": "2015-11-04T11:06:43.1159494+01:00",
+  "FriStop": "2009-07-03T11:06:43.1159494+02:00",
+  "SatStart": "2001-08-08T11:06:43.1159494+02:00",
+  "SatStop": "1996-12-02T11:06:43.1159494+01:00",
+  "SunStart": "2000-10-19T11:06:43.1159494+02:00",
+  "SunStop": "2009-11-20T11:06:43.1159494+01:00",
   "NonDates": [
-    "laboriosam",
-    "qui"
+    "sint",
+    "ad"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 374,
-      "AlertLevel": 334,
-      "AlertTimeout": 517,
-      "Action": 951,
-      "DelegateTo": 702,
-      "ScriptId": 693,
-      "EmailTo": "ayden_bradtke@johnson.name",
-      "SmsTo": "maiores",
-      "ReplyTemplateIdCustomer": 66,
-      "ReplyTemplateIdUser": 586,
-      "ReplyTemplateIdCatmast": 698,
-      "ReplyTemplateIdEmail": 493,
-      "RtiCustomerSms": 647,
-      "ReplyTemplateIdUserSms": 230,
-      "ReplyTemplateIdCatmastSms": 37,
-      "ReplyTemplateIdSms": 995,
+      "TicketAlertId": 278,
+      "AlertLevel": 516,
+      "AlertTimeout": 594,
+      "Action": 387,
+      "DelegateTo": 187,
+      "ScriptId": 181,
+      "EmailTo": "tyshawn_bernhard@kuhn.name",
+      "SmsTo": "fuga",
+      "ReplyTemplateIdCustomer": 917,
+      "ReplyTemplateIdUser": 389,
+      "ReplyTemplateIdCatmast": 880,
+      "ReplyTemplateIdEmail": 419,
+      "RtiCustomerSms": 734,
+      "ReplyTemplateIdUserSms": 205,
+      "ReplyTemplateIdCatmastSms": 215,
+      "ReplyTemplateIdSms": 794,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 824
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

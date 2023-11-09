@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "1997-12-17T03:24:47.3926839+01:00",
+  "ActivityStartTime": "2005-05-19T11:06:34.1277301+02:00",
   "ContactCategories": [
-    175,
-    424
+    375,
+    655
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 317,
-    "Department": "",
-    "OrgNr": "1285022",
-    "Name": "Aufderhar-Friesen",
+    "ContactId": 895,
+    "Department": "synthesize killer solutions",
+    "OrgNr": "746843",
+    "Name": "Hyatt, Jewess and O'Conner",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Jaiden Mraz",
+    "AssociateFullName": "Trevor Ruecker",
     "Action": "ActivityCompleted",
-    "ActionTime": "2020-08-19T03:24:47.3926839+02:00",
+    "ActionTime": "2008-11-21T11:06:34.1277301+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Cruickshank-Hegmann",
-    "ActionId": 60,
-    "PersonId": 888,
-    "ActivityPersonId": 614,
-    "AssociateId": 172,
+    "ActivityPersonName": "Kris, Parker and Ledner",
+    "ActionId": 252,
+    "PersonId": 721,
+    "ActivityPersonId": 176,
+    "AssociateId": 634,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 275
       }
     }
   }

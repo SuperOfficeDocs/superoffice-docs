@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Ryan, Frami and Toy",
-    "ToolTip": "Nesciunt consequatur tenetur dolor excepturi.",
+    "Id": 690,
+    "Name": "Ritchie Group",
+    "ToolTip": "Dolor quae consectetur quia minus dolore rem explicabo.",
     "Deleted": true,
-    "Rank": 568,
-    "Type": "rem",
-    "ColorBlock": 261,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "2002-11-15T03:24:52.3650758+01:00",
+    "Rank": 194,
+    "Type": "in",
+    "ColorBlock": 37,
+    "IconHint": "repudiandae",
+    "Selected": false,
+    "LastChanged": "2013-07-29T11:06:42.9753225+02:00",
     "ChildItems": [
       {
-        "Id": 351,
-        "Name": "Mante-Yundt",
-        "ToolTip": "Consequuntur dolores non facere sunt deserunt.",
+        "Id": 174,
+        "Name": "VonRueden, Wilderman and Stracke",
+        "ToolTip": "Voluptatum molestias omnis distinctio voluptatibus.",
         "Deleted": false,
-        "Rank": 449,
-        "Type": "non",
-        "ColorBlock": 196,
-        "IconHint": "harum",
+        "Rank": 51,
+        "Type": "accusamus",
+        "ColorBlock": 589,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2000-09-06T03:24:52.3650758+02:00",
+        "LastChanged": "2004-11-01T11:06:42.9753225+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "laborum",
-        "Hidden": false,
-        "FullName": "Tamia Auer"
+        "ExtraInfo": "et",
+        "StyleHint": "quae",
+        "Hidden": true,
+        "FullName": "Dr. Cathrine Laverna O'Keefe III"
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Juwan Mosciski"
+    "ExtraInfo": "facilis",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Fausto Collier"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Name": "Koelpin-Watsica",
-    "ToolTip": "Ipsam velit nemo aut.",
-    "Deleted": false,
-    "Rank": 834,
-    "Type": "est",
-    "ColorBlock": 710,
-    "IconHint": "consequuntur",
+    "Id": 747,
+    "Name": "Ziemann-Gusikowski",
+    "ToolTip": "Voluptas alias eos doloribus facere distinctio.",
+    "Deleted": true,
+    "Rank": 180,
+    "Type": "officia",
+    "ColorBlock": 449,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2002-05-03T03:24:52.3650758+02:00",
+    "LastChanged": "2006-07-17T11:06:42.9753225+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Bosco-Osinski",
-        "ToolTip": "Quo fugiat.",
-        "Deleted": false,
-        "Rank": 521,
-        "Type": "qui",
-        "ColorBlock": 114,
-        "IconHint": "assumenda",
-        "Selected": true,
-        "LastChanged": "2004-04-05T03:24:52.3650758+02:00",
+        "Id": 533,
+        "Name": "Block-Ortiz",
+        "ToolTip": "Nam corrupti delectus ut.",
+        "Deleted": true,
+        "Rank": 637,
+        "Type": "aut",
+        "ColorBlock": 372,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2007-07-16T11:06:42.9753225+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "et",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Desmond Jakubowski DDS",
+        "FullName": "Dr. Jedidiah Marina Bartell DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 865
+            "FieldType": "System.String",
+            "FieldLength": 435
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "laborum",
+    "ExtraInfo": "aut",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Prof. Joana Devante Fahey",
+    "FullName": "Miss Heber Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 793
       }
     }
   }

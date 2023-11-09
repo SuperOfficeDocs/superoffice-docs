@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "aperiam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "aperiam",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "itaque",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1998-07-11T03:24:51.8963736+02:00",
-  "Amount": 16039.812,
-  "SaleId": 826,
-  "Earning": 29528.548,
-  "EarningPercent": 17810.522,
-  "Heading": "aut",
-  "Number": "1110533",
-  "Probability": 236,
-  "CreatedDate": "2022-04-05T03:24:51.8963736+02:00",
-  "UpdatedDate": "2005-09-24T03:24:51.8963736+02:00",
+  "Saledate": "2018-11-28T11:06:42.1759752+01:00",
+  "Amount": 26018.468,
+  "SaleId": 682,
+  "Earning": 8273.76,
+  "EarningPercent": 19233.358,
+  "Heading": "reiciendis",
+  "Number": "794651",
+  "Probability": 866,
+  "CreatedDate": "2022-01-19T11:06:42.1759752+01:00",
+  "UpdatedDate": "1999-04-03T11:06:42.1759752+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 633,
+  "ActiveLinks": 607,
   "Links": [
     {
-      "EntityName": "Herman-Heidenreich",
-      "Id": 359,
-      "Description": "Robust homogeneous matrices",
-      "ExtraInfo": "beatae",
-      "LinkId": 383,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 78
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2015-09-05T03:24:51.8963736+02:00",
-  "Postit": "officia",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2010-08-22T03:24:51.8963736+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Bergnaum-Von",
-      "Comment": "et",
-      "StakeholderRoleId": 561,
-      "CountryId": 410,
-      "PersonId": 837,
-      "EmailDescription": "zita@lemke.uk",
-      "EmailId": 483,
-      "EmailAddress": "tristin.wiegand@cormier.us",
-      "PhoneId": 442,
-      "ContactName": "Wyman, Lowe and Cremin",
-      "ContactId": 971,
-      "SaleId": 209,
-      "Mrmrs": "quaerat",
-      "Firstname": "Wava",
-      "MiddleName": "Hayes-Feil",
-      "Lastname": "Casper",
-      "SaleStakeholderId": 528,
-      "Rank": 907,
-      "Phone": "1-050-445-1183 x759",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 8,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Tyler Spencer",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "fugiat"
-  },
-  "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "accusantium"
-  },
-  "PublishEventDate": "2000-11-21T03:24:51.8963736+01:00",
-  "PublishTo": "2017-06-13T03:24:51.8963736+02:00",
-  "PublishFrom": "2007-08-17T03:24:51.8963736+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 177,
-      "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "EntityName": "Mills, Moore and Gutkowski",
+      "Id": 799,
+      "Description": "Team-oriented reciprocal flexibility",
+      "ExtraInfo": "laudantium",
+      "LinkId": 714,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldLength": 385
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2019-06-21T11:06:42.1759752+02:00",
+  "Postit": "quia",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2003-02-06T11:06:42.1759752+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Jaskolski, Willms and Abbott",
+      "Comment": "libero",
+      "StakeholderRoleId": 313,
+      "CountryId": 209,
+      "PersonId": 925,
+      "EmailDescription": "ahmad_metz@rutherford.com",
+      "EmailId": 162,
+      "EmailAddress": "tate.cronin@anderson.biz",
+      "PhoneId": 884,
+      "ContactName": "Mayer, Rowe and Kihn",
+      "ContactId": 9,
+      "SaleId": 938,
+      "Mrmrs": "molestiae",
+      "Firstname": "Ervin",
+      "MiddleName": "Brakus-D'Amore",
+      "Lastname": "Heller",
+      "SaleStakeholderId": 747,
+      "Rank": 377,
+      "Phone": "1-124-575-6519 x12865",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 589
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 697,
+  "UserDefinedFields": {
+    "SuperOffice:1": "538130936",
+    "SuperOffice:2": "266562423"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "quia",
+    "ExtraFields2": "voluptatem"
+  },
+  "CustomFields": {
+    "CustomFields1": "exercitationem",
+    "CustomFields2": "labore"
+  },
+  "PublishEventDate": "2021-02-21T11:06:42.1759752+01:00",
+  "PublishTo": "2005-05-16T11:06:42.1759752+02:00",
+  "PublishFrom": "1997-12-30T11:06:42.1759752+01:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 923,
+      "Visibility": "All",
+      "DisplayValue": "voluptates",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     },
     {
-      "VisibleId": 177,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "fugiat",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 494
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

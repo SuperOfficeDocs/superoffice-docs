@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 783,
-  "ParentId": 810,
-  "Name": "Feil, Schmidt and Cole",
-  "Fullname": "rerum",
-  "CategoryMaster": 583,
+  "TicketCategoryId": 624,
+  "ParentId": 228,
+  "Name": "Kshlerin, Weissnat and Gutmann",
+  "Fullname": "officiis",
+  "CategoryMaster": 620,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Weissnat-White",
+  "ExternalName": "Bogan, Klein and Gusikowski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 664,
-  "ReplyTemplate": 533,
-  "NotificationEmail": "philip@jakubowski.info",
+  "AssignmentLag": 375,
+  "ReplyTemplate": 997,
+  "NotificationEmail": "regan.rice@koch.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 421,
+  "EffectiveReplyTemplateId": 665,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "eius"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 967,
-  "ParentId": 933,
-  "Name": "Herzog-Hudson",
-  "Fullname": "sunt",
-  "CategoryMaster": 468,
+  "TicketCategoryId": 571,
+  "ParentId": 450,
+  "Name": "Rice, Daugherty and Hauck",
+  "Fullname": "fuga",
+  "CategoryMaster": 221,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Boyle, Kertzmann and Lindgren",
+  "ExternalName": "Carroll-Conn",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 650,
-  "ReplyTemplate": 667,
-  "NotificationEmail": "ardella@dachdoyle.info",
+  "AssignmentLag": 895,
+  "ReplyTemplate": 711,
+  "NotificationEmail": "nigel@sawayn.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 744,
+  "EffectiveReplyTemplateId": 525,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "repudiandae",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "earum"
+    "CustomFields1": "fugit",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldLength": 158
     }
   }
 }

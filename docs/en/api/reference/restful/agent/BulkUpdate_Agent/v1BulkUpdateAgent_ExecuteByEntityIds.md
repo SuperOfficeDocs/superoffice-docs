@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
     {
       "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "repudiandae",
-      "ValueType": "sequi",
-      "Mandatory": true,
-      "EncodedDisplayName": "Walsh Group",
-      "EncodedDisplayDescription": "Distributed dedicated matrices",
-      "IconHint": "officia",
+      "Key": "consectetur",
+      "ValueType": "quisquam",
+      "Mandatory": false,
+      "EncodedDisplayName": "Hagenes Inc and Sons",
+      "EncodedDisplayDescription": "Enhanced 24 hour implementation",
+      "IconHint": "minus",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "sed",
-      "EncodedDataCaptionDescription": "Secured holistic contingency",
-      "CurrentOperationType": "alias",
+      "EncodedDataCaption": "quas",
+      "EncodedDataCaptionDescription": "Progressive dedicated Graphic Interface",
+      "CurrentOperationType": "nihil",
       "Values": [
-        "asperiores",
-        "dicta"
+        "numquam",
+        "reprehenderit"
       ],
       "DisplayValues": [
-        "numquam",
-        "enim"
+        "aliquam",
+        "sit"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Fadel LLC",
-  "Context": "officiis",
-  "Ids": "aperiam"
+  "TableName": "Homenick, Lang and Hauck",
+  "Context": "et",
+  "Ids": "nihil"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-429
+78
 ```

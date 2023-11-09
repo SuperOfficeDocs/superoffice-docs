@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=593
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=853
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 826,
-  "BlobSize": 411,
-  "Description": "Ergonomic disintermediate functionalities",
-  "ExtraInfo": "quis",
+  "BlobId": 64,
+  "BlobSize": 192,
+  "Description": "Virtual well-modulated moratorium",
+  "ExtraInfo": "ut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "saepe",
-  "OriginalSize": 983,
-  "CreatedDate": "2006-12-31T03:24:47.2520803+01:00",
-  "UpdatedDate": "2022-04-18T03:24:47.2520803+02:00",
+  "MimeType": "maiores",
+  "OriginalSize": 880,
+  "CreatedDate": "2008-09-20T11:06:33.7972715+02:00",
+  "UpdatedDate": "2001-01-07T11:06:33.7972715+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "itaque",
+  "ConceptualType": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 287
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=aut
+GET /api/v1/List/ReasonSold/MDOItems?query=beatae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Swaniawski, Quitzon and Upton",
-    "ToolTip": "A cumque voluptas consequatur.",
+    "Id": 310,
+    "Name": "Schmeler, Hackett and Ryan",
+    "ToolTip": "Pariatur quidem magnam laborum autem officia laboriosam.",
     "Deleted": false,
-    "Rank": 44,
-    "Type": "illum",
+    "Rank": 991,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 164,
-        "Name": "Feest-Braun",
-        "ToolTip": "Aut fugiat.",
-        "Deleted": false,
-        "Rank": 755,
-        "Type": "fuga",
+        "Id": 596,
+        "Name": "Johns, Blick and Cormier",
+        "ToolTip": "Corrupti veniam velit voluptas aliquid praesentium voluptas.",
+        "Deleted": true,
+        "Rank": 871,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 618,
-        "ExtraInfo": "dolor",
-        "StyleHint": "voluptatibus",
-        "FullName": "Dr. Ava Upton Jr.",
+        "IconHint": "unde",
+        "ColorBlock": 701,
+        "ExtraInfo": "eum",
+        "StyleHint": "inventore",
+        "FullName": "Marianna Abernathy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldType": "System.String",
+            "FieldLength": 209
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 762,
-    "ExtraInfo": "animi",
-    "StyleHint": "ut",
-    "FullName": "Brenda Gislason DVM",
+    "IconHint": "delectus",
+    "ColorBlock": 24,
+    "ExtraInfo": "saepe",
+    "StyleHint": "accusamus",
+    "FullName": "Zoie Considine I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 120
       }
     }
   }

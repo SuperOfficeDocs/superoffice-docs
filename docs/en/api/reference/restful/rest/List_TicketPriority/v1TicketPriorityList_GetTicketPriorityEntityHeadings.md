@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 956,
-    "Name": "Predovic, Stokes and Ortiz",
-    "Tooltip": "sunt",
+    "HeadingId": 553,
+    "Name": "Ullrich, Kilback and Barton",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 202,
-    "UdListDefinitionId": 495,
+    "Rank": 717,
+    "UdListDefinitionId": 239,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 366
       }
     }
   }

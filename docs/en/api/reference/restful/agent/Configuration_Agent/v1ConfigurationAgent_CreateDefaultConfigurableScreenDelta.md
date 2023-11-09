@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 911,
-  "Name": "Bednar-Block",
-  "Description": "Realigned intangible help-desk",
-  "DeltaJson": "eos",
+  "ConfigurableScreenDeltaId": 642,
+  "Name": "Ferry, Casper and Wehner",
+  "Description": "Advanced global contingency",
+  "DeltaJson": "incidunt",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quis",
-  "UpdatedDate": "2014-08-15T03:24:47.3614382+02:00",
-  "CreatedDate": "2021-06-16T03:24:47.3614382+02:00",
+  "RecipeId": "vero",
+  "UpdatedDate": "2014-03-10T11:06:34.0652258+01:00",
+  "CreatedDate": "2020-10-30T11:06:34.0652258+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    846,
-    328
+    716,
+    339
   ],
-  "AppliesToKey": "odio",
+  "AppliesToKey": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 662,
-  "Caption": "praesentium",
-  "Description": "Right-sized non-volatile concept",
-  "ChartName": "Zemlak, Runte and Zemlak",
-  "ChartId": "iusto",
+  "DashboardTileId": 864,
+  "Caption": "in",
+  "Description": "Phased hybrid neural-net",
+  "ChartName": "Bernier, Schaefer and Stracke",
+  "ChartId": "et",
   "IsDefault": false,
-  "AssociateId": 280,
-  "GroupId": 126,
-  "SelectionId": 207,
-  "Config": "molestiae",
+  "AssociateId": 684,
+  "GroupId": 876,
+  "SelectionId": 885,
+  "Config": "ipsam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Parisian-DuBuque",
-      "Description": "Synchronised methodical product",
+      "Name": "Cartwright, Schuppe and Koss",
+      "Description": "Configurable real-time Graphic Interface",
       "Type": "Boolean",
-      "ListName": "Beier-Braun",
+      "ListName": "Jenkins Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "soluta",
+      "Value": "sed",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldLength": 760
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 134,
+      "VisibleId": 527,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldLength": 12
         }
       }
     },
     {
-      "VisibleId": 134,
+      "VisibleId": 527,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldLength": 12
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 440
     }
   }
 }

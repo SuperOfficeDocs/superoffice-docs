@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=846
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=667
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 616,
-  "Section": "at",
-  "Key": "qui",
-  "Name": "Rempel Inc and Sons",
+  "PrefDescId": 826,
+  "Section": "velit",
+  "Key": "ratione",
+  "Name": "Ward Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic zero administration structure",
+  "Description": "Profound non-volatile function",
   "IsBuiltin": false,
-  "TableName": "Grant-Jewess",
-  "UserDefinedListId": 20,
-  "Rank": 488,
-  "SubGroup": "sunt",
-  "MinLevel": 688,
-  "MaxValue": 248,
-  "MinValue": 700,
-  "RequiredLicense": "aut",
+  "TableName": "Boehm, Bednar and Hudson",
+  "UserDefinedListId": 459,
+  "Rank": 772,
+  "SubGroup": "at",
+  "MinLevel": 906,
+  "MaxValue": 83,
+  "MinValue": 986,
+  "RequiredLicense": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   }
 }

@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Sawayn Inc and Sons",
-  "StorageKey": "vel",
-  "Context": "veritatis"
+  "StorageType": "dolor",
+  "ProviderName": "Goodwin-Lakin",
+  "StorageKey": "at",
+  "Context": "minus"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Welch-Bernhard",
-  "Description": "Streamlined systemic frame",
-  "Rank": 951,
+  "Name": "Tremblay-Welch",
+  "Description": "Re-contextualized neutral moderator",
+  "Rank": 567,
   "Restrictions": [
     {
-      "Name": "Quitzon-Rath",
-      "Operator": "aspernatur",
+      "Name": "Schuster-Hartmann",
+      "Operator": "tempore",
       "Values": [
-        "voluptas",
-        "ab"
+        "aut",
+        "quibusdam"
       ],
       "DisplayValues": [
-        "alias",
-        "illum"
+        "mollitia",
+        "asperiores"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 579,
+      "InterParenthesis": 523,
       "InterOperator": "And",
-      "UniqueHash": 424
+      "UniqueHash": 652
     }
   ]
 }

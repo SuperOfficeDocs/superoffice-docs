@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,32 +99,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "rem",
-    "InputValues2": "officia"
+    "InputValues1": "numquam",
+    "InputValues2": "ut"
   },
-  "BlockExecution": true,
-  "NavigateTo": "ut",
-  "Message": "a",
-  "ShowDialog": "quam",
+  "BlockExecution": false,
+  "NavigateTo": "aliquid",
+  "Message": "quia",
+  "ShowDialog": "blanditiis",
   "OutputValues": {
-    "OutputValues1": "quidem",
-    "OutputValues2": "error"
+    "OutputValues1": "esse",
+    "OutputValues2": "sed"
   },
   "StateValues": {
-    "StateValues1": "delectus",
-    "StateValues2": "officia"
+    "StateValues1": "harum",
+    "StateValues2": "quidem"
   },
-  "Exception": "necessitatibus",
+  "Exception": "quibusdam",
   "ParserValues": {
-    "ParserValues1": "odio",
-    "ParserValues2": "quos"
+    "ParserValues1": "quae",
+    "ParserValues2": "corrupti"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldType": "System.String",
+      "FieldLength": 451
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Erdman, Bernier and Doyle",
-  "ProviderName": "Dickinson-Daniel"
+  "GuiName": "Hirthe-Hermann",
+  "ProviderName": "Heller, Wehner and Gaylord"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kutch-Schuppe",
+      "DisplayName": "Rempel, Hills and Rau",
       "DisplayTooltip": "ut",
-      "DisplayType": "dolores",
+      "DisplayType": "deleniti",
       "CanOrderBy": false,
-      "Name": "Farrell, Wehner and VonRueden",
+      "Name": "Bradtke LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Klein Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "impedit",
-      "Width": "et",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "unde"
+      "RestrictionType": "cupiditate",
+      "RestrictionListName": "Keebler Group",
+      "IsVisible": true,
+      "ExtraInfo": "qui",
+      "Width": "aspernatur",
+      "IconHint": "sequi",
+      "HeadingIconHint": "earum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 185,
-      "Name": "Dickinson, Wyman and Kilback",
-      "ToolTip": "Rerum earum.",
-      "Deleted": false,
-      "Rank": 172,
-      "Type": "ad",
-      "ColorBlock": 845,
-      "IconHint": "ullam",
+      "Id": 432,
+      "Name": "Raynor Inc and Sons",
+      "ToolTip": "Temporibus eos beatae explicabo dicta facilis at atque.",
+      "Deleted": true,
+      "Rank": 102,
+      "Type": "neque",
+      "ColorBlock": 444,
+      "IconHint": "dolorem",
       "Selected": true,
-      "LastChanged": "2001-11-11T03:24:47.220828+01:00",
+      "LastChanged": "2002-02-14T11:06:33.7503955+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "quia",
+      "ExtraInfo": "beatae",
+      "StyleHint": "in",
       "Hidden": true,
-      "FullName": "Miss Fay Dejuan Skiles V",
+      "FullName": "Mrs. Dayne Trevor Johnston Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 501
+          "FieldType": "System.Int32",
+          "FieldLength": 115
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hirthe Group",
+      "Name": "Kris Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Hirthe Group",
+      "Name": "Kris Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "sapiente",
+  "OwnerKeys": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 984
     }
   }
 }

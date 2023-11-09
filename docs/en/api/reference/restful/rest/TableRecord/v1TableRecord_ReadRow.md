@@ -72,15 +72,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "tenetur",
-    "Values2": "inventore"
+    "Values1": "molestiae",
+    "Values2": "culpa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 635
+      "FieldType": "System.Int32",
+      "FieldLength": 521
     }
   }
 }

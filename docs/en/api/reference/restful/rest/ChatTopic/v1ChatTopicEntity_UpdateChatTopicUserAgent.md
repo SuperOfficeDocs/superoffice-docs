@@ -80,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 282,
+  "TopicId": 821,
   "User": null,
   "CanListen": true,
   "CanRespond": false,
   "CanManage": true,
-  "CanNotify": false
+  "CanNotify": true
 }
 ```
 
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 34,
+  "TopicId": 606,
   "User": null,
-  "CanListen": true,
+  "CanListen": false,
   "CanRespond": false,
   "CanManage": false,
-  "CanNotify": true
+  "CanNotify": false
 }
 ```

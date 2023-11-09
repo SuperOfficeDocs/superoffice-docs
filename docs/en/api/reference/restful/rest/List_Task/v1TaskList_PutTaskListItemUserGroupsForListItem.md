@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Bauch-Hayes",
-    "ToolTip": "Sed at consequuntur accusantium cum ut.",
+    "Id": 392,
+    "Name": "Hegmann, Johns and Oberbrunner",
+    "ToolTip": "Dolore vel ut quia architecto sit.",
     "Deleted": false,
-    "Rank": 147,
-    "Type": "qui",
-    "ColorBlock": 149,
-    "IconHint": "voluptatem",
+    "Rank": 570,
+    "Type": "dolor",
+    "ColorBlock": 506,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2019-03-16T03:24:52.4431914+01:00",
+    "LastChanged": "2017-03-30T11:06:43.1003256+02:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Brown-Macejkovic",
-        "ToolTip": "Perspiciatis voluptas nam omnis quisquam voluptatum.",
-        "Deleted": false,
-        "Rank": 660,
-        "Type": "voluptatem",
-        "ColorBlock": 824,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "1997-02-03T03:24:52.4431914+01:00",
+        "Id": 854,
+        "Name": "Morissette, Eichmann and Rutherford",
+        "ToolTip": "Mollitia praesentium unde nisi expedita mollitia omnis.",
+        "Deleted": true,
+        "Rank": 708,
+        "Type": "ad",
+        "ColorBlock": 513,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "1996-07-11T11:06:43.1003256+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "et",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Monty Batz"
+        "FullName": "Richie Barrows"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "explicabo",
-    "Hidden": true,
-    "FullName": "Garnet Schroeder"
+    "ExtraInfo": "praesentium",
+    "StyleHint": "fuga",
+    "Hidden": false,
+    "FullName": "Mrs. Rosalinda Larson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Bernier-Kling",
-    "ToolTip": "Libero et sint illo quos saepe corporis distinctio.",
+    "Id": 963,
+    "Name": "Gutkowski, Barrows and Rempel",
+    "ToolTip": "Ipsum est nostrum quis est quia eum aspernatur.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "illum",
-    "ColorBlock": 634,
-    "IconHint": "reprehenderit",
-    "Selected": false,
-    "LastChanged": "1996-08-30T03:24:52.4431914+02:00",
+    "Rank": 81,
+    "Type": "quia",
+    "ColorBlock": 442,
+    "IconHint": "minima",
+    "Selected": true,
+    "LastChanged": "2007-01-29T11:06:43.1003256+01:00",
     "ChildItems": [
       {
-        "Id": 489,
-        "Name": "Koch LLC",
-        "ToolTip": "Ipsam dolorem et.",
-        "Deleted": false,
-        "Rank": 409,
-        "Type": "accusamus",
-        "ColorBlock": 893,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "1998-06-10T03:24:52.4431914+02:00",
+        "Id": 76,
+        "Name": "Thompson LLC",
+        "ToolTip": "Nostrum sit labore labore voluptas inventore.",
+        "Deleted": true,
+        "Rank": 845,
+        "Type": "totam",
+        "ColorBlock": 846,
+        "IconHint": "nesciunt",
+        "Selected": false,
+        "LastChanged": "1998-08-25T11:06:43.1003256+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Mrs. Edyth Hintz PhD",
+        "ExtraInfo": "rerum",
+        "StyleHint": "laborum",
+        "Hidden": false,
+        "FullName": "Dr. Rhea Bergstrom II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldType": "System.String",
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "fugit",
+    "ExtraInfo": "sint",
+    "StyleHint": "placeat",
     "Hidden": true,
-    "FullName": "Rosamond Sean Kulas Sr.",
+    "FullName": "Kieran Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 44
       }
     }
   }

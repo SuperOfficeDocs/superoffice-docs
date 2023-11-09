@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 744
+  "QuoteVersionId": 676
 }
 ```
 
@@ -97,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "eveniet",
-  "TechExplanation": "aut",
-  "ErrorCode": "velit",
+  "UserExplanation": "est",
+  "TechExplanation": "delectus",
+  "ErrorCode": "dolores",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 890
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     },
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 890
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

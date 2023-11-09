@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=est
+GET /api/v1/List/LegalBase/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 794,
-    "Name": "Schultz LLC",
-    "ToolTip": "Quaerat expedita dolor autem ex non.",
-    "Deleted": false,
-    "Rank": 263,
-    "Type": "rerum",
+    "Id": 929,
+    "Name": "VonRueden Inc and Sons",
+    "ToolTip": "Rerum accusamus quaerat quos architecto non quo quam.",
+    "Deleted": true,
+    "Rank": 535,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Wiza Inc and Sons",
-        "ToolTip": "Fugiat inventore sapiente suscipit.",
-        "Deleted": false,
-        "Rank": 856,
-        "Type": "qui",
+        "Id": 267,
+        "Name": "Connelly, Hansen and Gottlieb",
+        "ToolTip": "Provident qui minus et est.",
+        "Deleted": true,
+        "Rank": 826,
+        "Type": "a",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 679,
-        "ExtraInfo": "enim",
-        "StyleHint": "id",
-        "FullName": "Prof. Francis Krajcik",
+        "IconHint": "dicta",
+        "ColorBlock": 194,
+        "ExtraInfo": "velit",
+        "StyleHint": "eos",
+        "FullName": "Louvenia Dorris Zieme IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 139
+            "FieldType": "System.String",
+            "FieldLength": 806
           }
         }
       }
     ],
-    "IconHint": "inventore",
-    "ColorBlock": 806,
-    "ExtraInfo": "libero",
-    "StyleHint": "aliquid",
-    "FullName": "Mrs. Rahsaan Melyna Yundt",
+    "IconHint": "et",
+    "ColorBlock": 799,
+    "ExtraInfo": "est",
+    "StyleHint": "vel",
+    "FullName": "Lenna Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 741
+        "FieldLength": 56
       }
     }
   }

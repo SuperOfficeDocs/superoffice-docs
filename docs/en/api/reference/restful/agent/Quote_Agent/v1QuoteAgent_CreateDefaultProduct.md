@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 313,
-  "ERPProductKey": "quis",
-  "ERPPriceListKey": "dolorum",
-  "Name": "O'Hara, Simonis and Willms",
-  "Description": "Robust client-server internet solution",
-  "Code": "dolorem",
-  "PriceUnit": "mollitia",
-  "QuantityUnit": "fuga",
-  "IsSubscription": true,
-  "SubscriptionUnit": "temporibus",
-  "DefaultSubscriptionQuantity": 20173.558,
-  "ItemNumber": "502159",
+  "ProductId": 10,
+  "ERPProductKey": "veritatis",
+  "ERPPriceListKey": "sequi",
+  "Name": "Feest LLC",
+  "Description": "Function-based national pricing structure",
+  "Code": "voluptatibus",
+  "PriceUnit": "enim",
+  "QuantityUnit": "nulla",
+  "IsSubscription": false,
+  "SubscriptionUnit": "id",
+  "DefaultSubscriptionQuantity": 13053.109999999999,
+  "ItemNumber": "951198",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ab",
-  "ProductTypeKey": "ut",
-  "VAT": 9564.9679999999989,
-  "VATInfo": "voluptate",
-  "UnitCost": 22687.025999999998,
-  "UnitMinimumPrice": 21759.362,
-  "UnitListPrice": 6380.824,
+  "ProductFamilyKey": "in",
+  "ProductTypeKey": "iste",
+  "VAT": 20737.678,
+  "VATInfo": "qui",
+  "UnitCost": 335.33799999999997,
+  "UnitMinimumPrice": 27848.724,
+  "UnitListPrice": 15820.431999999999,
   "InAssortment": true,
-  "Supplier": "voluptatem",
-  "SupplierCode": "expedita",
-  "Rights": "quibusdam",
-  "Rule": "molestiae",
+  "Supplier": "expedita",
+  "SupplierCode": "repudiandae",
+  "Rights": "perferendis",
+  "Rule": "aspernatur",
   "ExtraInfo": [
     {
-      "Name": "Sauer, Cummerata and Ondricka",
-      "Value": "animi",
+      "Name": "Schmeler Group",
+      "Value": "voluptates",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 602
         }
       }
     },
     {
-      "Name": "Sauer, Cummerata and Ondricka",
-      "Value": "animi",
+      "Name": "Schmeler Group",
+      "Value": "voluptates",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 435
+          "FieldLength": 602
         }
       }
     }
   ],
-  "RawExtraInfo": "nam",
-  "ExtraField1": "ut",
-  "ExtraField2": "quasi",
-  "ExtraField3": "et",
-  "ExtraField4": "illo",
-  "ExtraField5": "quaerat",
-  "InStock": 22922.076,
+  "RawExtraInfo": "necessitatibus",
+  "ExtraField1": "quod",
+  "ExtraField2": "harum",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "pariatur",
+  "ExtraField5": "itaque",
+  "InStock": 23702.442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 1000
     }
   }
 }

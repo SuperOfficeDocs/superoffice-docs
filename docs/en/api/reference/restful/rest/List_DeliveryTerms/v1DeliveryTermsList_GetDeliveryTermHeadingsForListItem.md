@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "Hansen-Towne",
-    "ToolTip": "Est aperiam.",
-    "Deleted": false,
-    "Rank": 165,
-    "Type": "quis",
-    "ColorBlock": 904,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2003-02-26T03:24:52.240053+01:00",
+    "Id": 984,
+    "Name": "Swaniawski-Mills",
+    "ToolTip": "Ex ut ducimus rem et.",
+    "Deleted": true,
+    "Rank": 858,
+    "Type": "qui",
+    "ColorBlock": 384,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2008-10-03T11:06:42.7878188+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Schroeder-Keebler",
-        "ToolTip": "Eius magnam possimus et ut.",
+        "Id": 624,
+        "Name": "Friesen Group",
+        "ToolTip": "Et sunt fugiat provident fuga amet.",
         "Deleted": true,
-        "Rank": 740,
-        "Type": "repudiandae",
-        "ColorBlock": 868,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2009-06-14T03:24:52.240053+02:00",
+        "Rank": 552,
+        "Type": "impedit",
+        "ColorBlock": 883,
+        "IconHint": "numquam",
+        "Selected": false,
+        "LastChanged": "2012-04-02T11:06:42.7878188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "culpa",
+        "ExtraInfo": "amet",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Friedrich Sauer",
+        "FullName": "Opal Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 55
+            "FieldLength": 845
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "est",
+    "ExtraInfo": "ut",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Marcella Ratke",
+    "FullName": "Mrs. Ally Hoyt Luettgen DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 33
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

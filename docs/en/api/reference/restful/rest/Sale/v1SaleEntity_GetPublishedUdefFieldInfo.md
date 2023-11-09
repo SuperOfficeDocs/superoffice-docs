@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 704,
-  "ColumnId": 264,
-  "FieldDefault": "ut",
-  "FieldHeight": 42,
-  "FieldLabel": "aperiam",
-  "FieldLeft": 817,
-  "FieldTop": 288,
+  "UDefFieldId": 262,
+  "ColumnId": 925,
+  "FieldDefault": "numquam",
+  "FieldHeight": 200,
+  "FieldLabel": "quia",
+  "FieldLeft": 51,
+  "FieldTop": 259,
   "FieldType": "Checkbox",
-  "FieldWidth": 21,
-  "FormatMask": "adipisci",
-  "HideLabel": false,
+  "FieldWidth": 104,
+  "FormatMask": "id",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 894,
-  "LabelLeft": 874,
-  "LabelTop": 139,
-  "LabelWidth": 57,
-  "LastVersionId": 597,
-  "ListTableId": 188,
+  "LabelHeight": 527,
+  "LabelLeft": 203,
+  "LabelTop": 423,
+  "LabelWidth": 326,
+  "LastVersionId": 592,
+  "ListTableId": 901,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 783,
-  "ProgId": "cumque",
+  "Page1LineNo": 113,
+  "ProgId": "dolorem",
   "IsReadOnly": false,
-  "ShortLabel": "dolor",
-  "TabOrder": 766,
-  "TextLength": 843,
-  "Tooltip": "voluptatem",
-  "UdefIdentity": 261,
-  "UDListDefinitionId": 437,
+  "ShortLabel": "inventore",
+  "TabOrder": 272,
+  "TextLength": 892,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 304,
+  "UDListDefinitionId": 240,
   "Justification": "Center",
-  "Version": 165,
-  "TemplateVariableName": "O'Reilly-Weimann",
-  "HasBeenPublished": false,
-  "MdoListName": "Beatty, Leuschke and Pouros",
+  "Version": 838,
+  "TemplateVariableName": "Goodwin Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Terry Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldLength": 689
     }
   }
 }

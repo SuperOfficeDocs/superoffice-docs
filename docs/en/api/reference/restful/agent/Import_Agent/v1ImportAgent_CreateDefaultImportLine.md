@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 349
+  "CountColumns": 610
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "nam",
-    "molestiae"
+    "nesciunt",
+    "magni"
   ],
-  "Selected": true,
+  "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "porro",
+  "ExternalKey": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 652
+      "FieldLength": 391
     }
   }
 }

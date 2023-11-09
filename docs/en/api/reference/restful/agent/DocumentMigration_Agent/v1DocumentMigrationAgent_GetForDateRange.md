@@ -83,9 +83,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 906,
-  "MinDate": "2016-10-04T03:24:47.705153+02:00",
-  "MaxDate": "1998-11-19T03:24:47.705153+01:00",
+  "DocumentPluginId": 126,
+  "MinDate": "2009-11-18T11:06:34.4426806+01:00",
+  "MaxDate": "2017-06-24T11:06:34.4426806+02:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 988,
-  "NumDocumentsAlreadyMigrated": 271,
+  "NumDocumentsOmitted": 106,
+  "NumDocumentsAlreadyMigrated": 680,
   "Documents": [
     {
-      "DocumentId": 234,
-      "ContactId": 503,
-      "PersonId": 90,
-      "SaleId": 502,
-      "ProjectId": 23,
-      "DocTmplId": 981,
-      "AssociateId": 258,
-      "UserGroupId": 346,
-      "VisibleForId": 689
+      "DocumentId": 96,
+      "ContactId": 582,
+      "PersonId": 633,
+      "SaleId": 980,
+      "ProjectId": 602,
+      "DocTmplId": 726,
+      "AssociateId": 116,
+      "UserGroupId": 601,
+      "VisibleForId": 309
     }
   ],
   "Associates": [
     {
-      "AssociateId": 146,
-      "EmailAddress": "leslie.schumm@thiel.uk"
+      "AssociateId": 609,
+      "EmailAddress": "josefina@glover.biz"
     },
     {
-      "AssociateId": 146,
-      "EmailAddress": "leslie.schumm@thiel.uk"
+      "AssociateId": 609,
+      "EmailAddress": "josefina@glover.biz"
     }
   ]
 }

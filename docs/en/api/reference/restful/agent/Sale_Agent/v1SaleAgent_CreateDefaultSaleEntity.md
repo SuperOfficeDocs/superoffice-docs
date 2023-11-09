@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "asperiores",
+  "SaleText": "optio",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-08-06T03:24:48.1894758+02:00",
-  "Amount": 13777.064,
-  "SaleId": 961,
-  "Earning": 24771.136,
-  "EarningPercent": 18728.784,
-  "Heading": "tempore",
-  "Number": "248870",
-  "Probability": 313,
-  "CreatedDate": "2020-02-15T03:24:48.1894758+01:00",
-  "UpdatedDate": "1998-04-16T03:24:48.1894758+02:00",
+  "Saledate": "2001-06-12T11:06:35.286445+02:00",
+  "Amount": 6095.63,
+  "SaleId": 500,
+  "Earning": 19459.005999999998,
+  "EarningPercent": 12420.042,
+  "Heading": "incidunt",
+  "Number": "277111",
+  "Probability": 891,
+  "CreatedDate": "2011-04-30T11:06:35.286445+02:00",
+  "UpdatedDate": "2001-01-24T11:06:35.286445+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 828,
+  "ActiveLinks": 344,
   "Links": [
     {
-      "EntityName": "Haley, Davis and Dickinson",
-      "Id": 97,
-      "Description": "Profit-focused multimedia array",
-      "ExtraInfo": "non",
-      "LinkId": 937,
+      "EntityName": "Gutmann Inc and Sons",
+      "Id": 981,
+      "Description": "Robust contextually-based help-desk",
+      "ExtraInfo": "labore",
+      "LinkId": 493,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 266
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
   ],
-  "NextDueDate": "2015-08-21T03:24:48.1894758+02:00",
-  "Postit": "deleniti",
+  "NextDueDate": "2014-03-21T11:06:35.286445+01:00",
+  "Postit": "vitae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-09-16T03:24:48.1894758+02:00",
+  "ReopenDate": "1999-12-31T11:06:35.286445+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Armstrong-Conroy",
-      "Comment": "magni",
-      "StakeholderRoleId": 938,
-      "CountryId": 379,
-      "PersonId": 526,
-      "EmailDescription": "orrin@oconnell.name",
-      "EmailId": 100,
-      "EmailAddress": "mina@romaguerastehr.info",
-      "PhoneId": 292,
-      "ContactName": "Wisoky LLC",
-      "ContactId": 304,
-      "SaleId": 805,
-      "Mrmrs": "a",
-      "Firstname": "Maximillian",
-      "MiddleName": "Quitzon LLC",
-      "Lastname": "Ullrich",
-      "SaleStakeholderId": 83,
-      "Rank": 546,
-      "Phone": "175.686.6482 x304",
+      "StakeholderRoleName": "Runolfsdottir-Zboncak",
+      "Comment": "cum",
+      "StakeholderRoleId": 301,
+      "CountryId": 929,
+      "PersonId": 120,
+      "EmailDescription": "ibrahim.runolfsson@dach.name",
+      "EmailId": 419,
+      "EmailAddress": "amira_goodwin@heathcote.name",
+      "PhoneId": 731,
+      "ContactName": "Halvorson, Kshlerin and O'Hara",
+      "ContactId": 826,
+      "SaleId": 580,
+      "Mrmrs": "laboriosam",
+      "Firstname": "Eliza",
+      "MiddleName": "Daniel-Wolff",
+      "Lastname": "DuBuque",
+      "SaleStakeholderId": 287,
+      "Rank": 986,
+      "Phone": "728.746.4989",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 811
+          "FieldLength": 472
         }
       }
     }
   ],
-  "ActiveErpLinks": 674,
+  "ActiveErpLinks": 200,
   "UserDefinedFields": {
-    "SuperOffice:1": "1988944610",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "293876140",
+    "SuperOffice:2": "Mrs. Stephan Bernice Leffler"
   },
   "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "suscipit"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "ad"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "1998-09-11T03:24:48.1894758+02:00",
-  "PublishTo": "2011-03-23T03:24:48.1894758+01:00",
-  "PublishFrom": "2021-12-21T03:24:48.1894758+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-04-24T11:06:35.286445+02:00",
+  "PublishTo": "2020-08-25T11:06:35.286445+02:00",
+  "PublishFrom": "2008-03-28T11:06:35.286445+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 881,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 890
         }
       }
     },
     {
-      "VisibleId": 881,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "quae",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 890
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 936
     }
   }
 }

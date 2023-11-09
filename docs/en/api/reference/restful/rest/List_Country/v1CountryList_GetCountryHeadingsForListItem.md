@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 67,
-    "Name": "Bruen-Glover",
-    "ToolTip": "Id sit ratione sint quia earum.",
+    "Id": 712,
+    "Name": "Kassulke-Barrows",
+    "ToolTip": "Possimus et omnis minus.",
     "Deleted": false,
-    "Rank": 320,
-    "Type": "itaque",
-    "ColorBlock": 547,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2021-05-09T03:24:52.2088405+02:00",
+    "Rank": 337,
+    "Type": "illum",
+    "ColorBlock": 666,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2007-09-07T11:06:42.7565694+02:00",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Gibson Inc and Sons",
-        "ToolTip": "Amet quidem aut aut cum qui.",
+        "Id": 433,
+        "Name": "Durgan, Schuster and Walker",
+        "ToolTip": "Omnis minus facilis quidem.",
         "Deleted": false,
-        "Rank": 447,
-        "Type": "quaerat",
-        "ColorBlock": 711,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2004-08-16T03:24:52.2088405+02:00",
+        "Rank": 614,
+        "Type": "amet",
+        "ColorBlock": 450,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "1997-06-08T11:06:42.7565694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "facilis",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Judah Jast",
+        "FullName": "Mr. Meagan Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 529
+            "FieldLength": 3
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quos",
-    "Hidden": true,
-    "FullName": "Martina Herzog",
+    "ExtraInfo": "expedita",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Litzy Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 919
       }
     }
   }

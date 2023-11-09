@@ -81,23 +81,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Feb 2000 03:24:51 G2T
+Last-Modified: Thu, 22 Apr 1999 11:06:41 G4T
 
 {
-  "Key": "sed",
-  "Value": "vero",
-  "RecordId": 846,
-  "CreatedDate": "2018-03-26T03:24:51.630601+02:00",
-  "UpdatedDate": "2000-02-04T03:24:51.630601+01:00",
-  "UpdatedBy": "impedit",
-  "CreatedBy": "nesciunt",
-  "TableName": "Spinka LLC",
+  "Key": "illum",
+  "Value": "ea",
+  "RecordId": 405,
+  "CreatedDate": "2023-09-03T11:06:41.8947242+02:00",
+  "UpdatedDate": "1999-04-22T11:06:41.8947242+02:00",
+  "UpdatedBy": "dolores",
+  "CreatedBy": "in",
+  "TableName": "Stokes-Lockman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 813
     }
   }
 }

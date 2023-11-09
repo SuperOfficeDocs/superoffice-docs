@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 570,
-  "Name": "McLaughlin Group",
-  "TZLocationCode": "quasi",
+  "TZLocationID": 887,
+  "Name": "Schmeler, Larson and Stoltenberg",
+  "TZLocationCode": "in",
   "TZLocationCities": "voluptas",
-  "IsoNumber": 87,
+  "IsoNumber": 893,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 367,
-      "StartMonth": 726,
-      "EndDay": 620,
-      "EndMonth": 839,
-      "TZOffset": 577,
-      "StartRulePattern": "ipsum",
-      "EndRulePattern": "at"
+      "StartDay": 70,
+      "StartMonth": 724,
+      "EndDay": 885,
+      "EndMonth": 262,
+      "TZOffset": 304,
+      "StartRulePattern": "sunt",
+      "EndRulePattern": "ut"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 284,
-      "StartMonth": 738,
-      "EndDay": 541,
-      "EndMonth": 985,
-      "TZOffset": 214,
-      "StartRulePattern": "ipsum",
-      "EndRulePattern": "voluptas"
+      "StartDay": 862,
+      "StartMonth": 509,
+      "EndDay": 515,
+      "EndMonth": 123,
+      "TZOffset": 812,
+      "StartRulePattern": "id",
+      "EndRulePattern": "nulla"
     }
   }
 }

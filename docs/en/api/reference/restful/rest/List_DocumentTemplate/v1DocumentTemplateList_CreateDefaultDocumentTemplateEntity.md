@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 279,
-  "Name": "Ward, Ankunding and Walter",
-  "Tooltip": "voluptatibus",
-  "SaveInDb": 129,
-  "Filename": "qui",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 777,
+  "Name": "Greenfelder, Roberts and Sanford",
+  "Tooltip": "nulla",
+  "SaveInDb": 56,
+  "Filename": "labore",
+  "DefaultOref": "dolorem",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 1001,
-  "IntentId": 602,
+  "AutoeventId": 554,
+  "IntentId": 487,
   "IsDefaultPublished": false,
-  "Rank": 979,
-  "LoadTemplateFromPlugin": 508,
-  "MimeType": "possimus",
+  "Rank": 528,
+  "LoadTemplateFromPlugin": 309,
+  "MimeType": "error",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 841,
+  "DocumentTypeKey": 759,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "samson.davis@wuckertkertzmann.info",
+  "EmailSubject": "regan_williamson@greenfelder.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "annalise@sipespollich.com",
+  "SenderEmailAddress": "kris_grimes@bayer.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 132
     }
   }
 }

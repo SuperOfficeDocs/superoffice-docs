@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=voluptatem
-GET /api/v1/BatchTask?$top=319
-GET /api/v1/BatchTask?$skip=547
+GET /api/v1/BatchTask?$entities=tenetur
+GET /api/v1/BatchTask?$top=1000
+GET /api/v1/BatchTask?$skip=124
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=omnis
+GET /api/v1/BatchTask?$context=ab
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quaerat",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 6917,
+      "PrimaryKey": 3274,
       "EntityName": "person",
-      "personId": 6917,
-      "fullName": "Erna Conn"
+      "personId": 3274,
+      "fullName": "Mrs. Rahsaan Bogan"
     },
     {
-      "PrimaryKey": 5704,
+      "PrimaryKey": 5399,
       "EntityName": "person",
-      "personId": 5704,
-      "fullName": "Eunice Beth Nienow Sr."
+      "personId": 5399,
+      "fullName": "Vicente Prohaska"
     }
   ]
 }

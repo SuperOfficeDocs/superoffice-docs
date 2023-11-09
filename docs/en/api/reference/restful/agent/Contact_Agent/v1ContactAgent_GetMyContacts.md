@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 365,
-    "Name": "O'Connell-Johnston",
-    "OrgNr": "402361",
+    "ContactId": 207,
+    "Name": "Rohan Group",
+    "OrgNr": "719933",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "et",
-    "DirectPhone": "525.631.1715",
-    "AssociateId": 978,
-    "CountryId": 403,
-    "EmailAddress": "helen.shanahan@okuneva.biz",
-    "Kananame": "et",
-    "EmailAddressName": "nona@trantow.ca",
+    "City": "praesentium",
+    "DirectPhone": "(268)022-0382 x271",
+    "AssociateId": 510,
+    "CountryId": 204,
+    "EmailAddress": "savannah@beer.info",
+    "Kananame": "reiciendis",
+    "EmailAddressName": "cicero.padberg@lowe.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Leanna Luettgen",
+    "AssociateFullName": "Andreane Murphy",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "quo",
-    "FullName": "Tabitha Klocko V",
+    "FormattedAddress": "et",
+    "FullName": "Wyatt McLaughlin DVM",
     "IsOwnerContact": true,
-    "ActiveErpLinks": 452,
-    "Number1": "735812",
-    "Number2": "598267",
+    "ActiveErpLinks": 356,
+    "Number1": "1573274",
+    "Number2": "1738461",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 436
       }
     }
   }

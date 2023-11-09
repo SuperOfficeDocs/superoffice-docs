@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Friesen-Strosin",
-      "Operator": "reprehenderit",
+      "Name": "Lynch Inc and Sons",
+      "Operator": "deserunt",
       "Values": [
-        "repudiandae",
-        "facilis"
+        "earum",
+        "mollitia"
       ],
       "DisplayValues": [
-        "nisi",
-        "id"
+        "in",
+        "eligendi"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 511,
+      "InterParenthesis": 682,
       "InterOperator": "And",
-      "UniqueHash": 327
+      "UniqueHash": 53
     }
   ],
-  "ProviderName": "Keeling-Torp",
-  "PageSize": 253,
-  "PageNumber": 319
+  "ProviderName": "Smitham, Davis and Jaskolski",
+  "PageSize": 454,
+  "PageNumber": 424
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hackett-O'Hara",
-      "DisplayTooltip": "earum",
-      "DisplayType": "accusamus",
-      "CanOrderBy": false,
-      "Name": "McGlynn-Reynolds",
+      "DisplayName": "Mitchell, Ortiz and Schmidt",
+      "DisplayTooltip": "quibusdam",
+      "DisplayType": "commodi",
+      "CanOrderBy": true,
+      "Name": "Wolf-Heaney",
       "CanRestrictBy": false,
-      "RestrictionType": "autem",
-      "RestrictionListName": "Haley-Toy",
+      "RestrictionType": "porro",
+      "RestrictionListName": "Bartell Inc and Sons",
       "IsVisible": true,
-      "ExtraInfo": "praesentium",
-      "Width": "delectus",
-      "IconHint": "rem",
-      "HeadingIconHint": "numquam"
+      "ExtraInfo": "ullam",
+      "Width": "reiciendis",
+      "IconHint": "assumenda",
+      "HeadingIconHint": "quasi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Klocko, Grady and Spinka",
-      "PrimaryKey": 656,
+      "EntityName": "Friesen-Murazik",
+      "PrimaryKey": 866,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "facere",
-          "LinkHint": "quibusdam"
+          "DisplayValue": "incidunt",
+          "TooltipHint": "omnis",
+          "LinkHint": "aliquid"
         }
       },
-      "LinkHint": "architecto",
-      "StyleHint": "odio",
+      "LinkHint": "accusantium",
+      "StyleHint": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldType": "System.String",
+          "FieldLength": 28
         }
       }
     }
   ],
-  "RowCount": 823,
+  "RowCount": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   }
 }

@@ -98,27 +98,27 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 45,
-  "Name": "Reinger, Smitham and Dicki",
-  "Rank": 279,
-  "Tooltip": "voluptatem",
-  "Icon": "fugit",
-  "DefaultTicketStatus": 743,
+  "TicketTypeId": 499,
+  "Name": "Collins Inc and Sons",
+  "Rank": 234,
+  "Tooltip": "nobis",
+  "Icon": "sint",
+  "DefaultTicketStatus": 804,
   "TicketStatuses": [
-    102,
-    992
+    925,
+    621
   ],
-  "DefaultTicketPriority": 762,
+  "DefaultTicketPriority": 729,
   "TicketPriorities": [
-    767,
-    828
+    811,
+    112
   ],
-  "ReplyTemplate": 997,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 690,
+  "IsExternalVisible": false,
   "IsDefault": false
 }
 ```
@@ -130,35 +130,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 907,
-  "Name": "Farrell Inc and Sons",
-  "Rank": 755,
-  "Tooltip": "repudiandae",
-  "Icon": "aut",
-  "DefaultTicketStatus": 321,
+  "TicketTypeId": 959,
+  "Name": "Hettinger-Ruecker",
+  "Rank": 49,
+  "Tooltip": "molestiae",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 460,
   "TicketStatuses": [
-    117,
-    101
+    741,
+    549
   ],
-  "DefaultTicketPriority": 895,
+  "DefaultTicketPriority": 702,
   "TicketPriorities": [
-    183,
-    249
+    833,
+    616
   ],
-  "ReplyTemplate": 198,
+  "ReplyTemplate": 484,
   "IsExternalVisible": true,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldType": "System.String",
+      "FieldLength": 351
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

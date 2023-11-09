@@ -1151,11 +1151,13 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 |personAppointment/appointment/textId|int|Text ID| x |
 |personAppointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |fullNameWithContact| *None* |Contact and company: The fully formatted contact name, and full company name| x |
+|linkClicked/linkId|int|Link ID: Link ID|  |
+|linkClicked/shipmentId|int|ID: Displays the ID of the mailing|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=contactAssociate/firstName,contactUdef/SuperOffice:1,sale/time,appointment/appointmentPublish/publishedTo,document/recordType
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=rowKind,url/URLDescription,contactAssociate/title,sourceRelation/stop,sale/heading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

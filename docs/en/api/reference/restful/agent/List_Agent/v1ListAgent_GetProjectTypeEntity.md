@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=391
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=284
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 836,
-  "Name": "Ratke, Bednar and Hoppe",
-  "Tooltip": "officiis",
-  "Rank": 772,
+  "ProjTypeId": 636,
+  "Name": "Bartell Inc and Sons",
+  "Tooltip": "est",
+  "Rank": 248,
   "DurationUnit": "Century",
-  "ProjectDuration": 137,
-  "Deleted": false,
+  "ProjectDuration": 404,
+  "Deleted": true,
   "HasGuide": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 930,
-      "Name": "Altenwerth Group",
-      "ToolTip": "Et voluptas dolor quo voluptas repellat est.",
+      "Id": 532,
+      "Name": "Mertz-Larkin",
+      "ToolTip": "Error quia eveniet quia deserunt aliquid.",
       "Deleted": false,
-      "Rank": 8,
-      "Type": "quod",
-      "ColorBlock": 289,
-      "IconHint": "sapiente",
-      "Selected": false,
-      "LastChanged": "2018-06-27T03:24:47.8457602+02:00",
+      "Rank": 438,
+      "Type": "sint",
+      "ColorBlock": 674,
+      "IconHint": "ut",
+      "Selected": true,
+      "LastChanged": "2014-04-10T11:06:34.6770628+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "temporibus",
-      "Hidden": true,
-      "FullName": "Tre Conn",
+      "ExtraInfo": "optio",
+      "StyleHint": "dolor",
+      "Hidden": false,
+      "FullName": "Mr. Garett Hammes PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 437
+          "FieldType": "System.Int32",
+          "FieldLength": 84
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 664
     }
   }
 }

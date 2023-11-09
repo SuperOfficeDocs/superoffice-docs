@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 490,
-  "ERPQuoteAlternativeKey": "dolorum",
-  "QuoteVersionId": 781,
-  "Name": "Miller Inc and Sons",
-  "Description": "Multi-channelled stable budgetary management",
+  "QuoteAlternativeId": 140,
+  "ERPQuoteAlternativeKey": "voluptatum",
+  "QuoteVersionId": 357,
+  "Name": "Dietrich Group",
+  "Description": "Stand-alone composite budgetary management",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 4534.898,
-  "ERPDiscountAmount": 20154.754,
-  "DiscountPercent": 23226.074,
-  "DiscountAmount": 30948.25,
+  "ERPDiscountPercent": 20220.568,
+  "ERPDiscountAmount": 23464.257999999998,
+  "DiscountPercent": 7803.66,
+  "DiscountAmount": 551.584,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "animi",
-  "VAT": 18656.702,
-  "EarningPercent": 4569.372,
-  "EarningAmount": 17960.953999999998,
-  "SubTotal": 3679.316,
-  "TotalPrice": 30261.904,
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "repellendus",
-  "ExtraField3": "eos",
-  "ExtraField4": "rerum",
-  "ExtraField5": "labore"
+  "VATInfo": "nesciunt",
+  "VAT": 22232.595999999998,
+  "EarningPercent": 16174.573999999999,
+  "EarningAmount": 26689.144,
+  "SubTotal": 27438.17,
+  "TotalPrice": 8217.348,
+  "ExtraField1": "perspiciatis",
+  "ExtraField2": "sit",
+  "ExtraField3": "reprehenderit",
+  "ExtraField4": "eligendi",
+  "ExtraField5": "dolores"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 457,
-  "ERPQuoteAlternativeKey": "doloremque",
-  "QuoteVersionId": 909,
-  "Name": "Jewess, Wolff and Effertz",
-  "Description": "Phased scalable local area network",
+  "QuoteAlternativeId": 391,
+  "ERPQuoteAlternativeKey": "voluptatibus",
+  "QuoteVersionId": 21,
+  "Name": "Dach LLC",
+  "Description": "Inverse bi-directional interface",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 921.396,
-  "ERPDiscountAmount": 14109.268,
-  "DiscountPercent": 27949.012,
-  "DiscountAmount": 14008.98,
+  "ERPDiscountPercent": 21565.054,
+  "ERPDiscountAmount": 21414.622,
+  "DiscountPercent": 9260.97,
+  "DiscountAmount": 21881.588,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ratione",
-  "VAT": 5026.936,
-  "EarningPercent": 27989.754,
-  "EarningAmount": 22433.172,
-  "SubTotal": 13980.774,
-  "TotalPrice": 7690.8359999999993,
-  "ExtraField1": "ad",
-  "ExtraField2": "labore",
-  "ExtraField3": "ipsam",
-  "ExtraField4": "commodi",
-  "ExtraField5": "ut",
+  "VATInfo": "molestiae",
+  "VAT": 28889.212,
+  "EarningPercent": 20806.626,
+  "EarningAmount": 20640.523999999998,
+  "SubTotal": 18456.126,
+  "TotalPrice": 4462.816,
+  "ExtraField1": "aperiam",
+  "ExtraField2": "eius",
+  "ExtraField3": "ratione",
+  "ExtraField4": "dolores",
+  "ExtraField5": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldType": "System.String",
+      "FieldLength": 471
     }
   }
 }

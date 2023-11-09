@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Simonis Inc and Sons",
-    "Tooltip": "sint",
+    "Id": 4,
+    "Name": "Ziemann, Graham and Murray",
+    "Tooltip": "eum",
     "Deleted": false,
-    "UdListDefinitionId": 287,
-    "Rank": 129,
+    "UdListDefinitionId": 199,
+    "Rank": 232,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 956
       }
     }
   }

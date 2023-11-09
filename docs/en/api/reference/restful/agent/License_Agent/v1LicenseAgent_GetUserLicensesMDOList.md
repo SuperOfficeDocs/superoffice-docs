@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Dietrich Inc and Sons",
-    "ToolTip": "Omnis aperiam blanditiis.",
+    "Id": 182,
+    "Name": "Runte, Jewess and Hane",
+    "ToolTip": "Nihil autem doloremque quis.",
     "Deleted": false,
-    "Rank": 349,
-    "Type": "qui",
-    "ColorBlock": 274,
-    "IconHint": "harum",
+    "Rank": 74,
+    "Type": "nihil",
+    "ColorBlock": 664,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2020-10-22T03:24:47.8301403+02:00",
+    "LastChanged": "2018-02-28T11:06:34.6614378+01:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Hackett Inc and Sons",
-        "ToolTip": "Ad ea sed dolor.",
-        "Deleted": false,
-        "Rank": 214,
-        "Type": "rem",
-        "ColorBlock": 855,
-        "IconHint": "odit",
+        "Id": 118,
+        "Name": "Eichmann, Balistreri and Bayer",
+        "ToolTip": "Consequuntur rerum.",
+        "Deleted": true,
+        "Rank": 452,
+        "Type": "dolore",
+        "ColorBlock": 667,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2012-09-20T03:24:47.8301403+02:00",
+        "LastChanged": "2018-05-15T11:06:34.6614378+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "maiores",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Dahlia Skiles",
+        "FullName": "Melvina Klocko IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 307
+            "FieldType": "System.String",
+            "FieldLength": 935
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Arvilla Johnston II",
+    "ExtraInfo": "unde",
+    "StyleHint": "nemo",
+    "Hidden": false,
+    "FullName": "Diana Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldLength": 809
       }
     }
   }

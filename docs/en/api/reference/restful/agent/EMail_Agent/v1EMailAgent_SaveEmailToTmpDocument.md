@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Email": null,
-  "FolderId": 444,
-  "StripAttachments": true
+  "FolderId": 971,
+  "StripAttachments": false
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"albina.schaefer@welch.co.uk"
+"tremayne.gulgowski@gislason.uk"
 ```

@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "quos",
-  "ERPPriceListKey": "minus",
-  "Name": "Sawayn, Hammes and Ondricka",
-  "Description": "Inverse multimedia firmware",
-  "Code": "aperiam",
-  "PriceUnit": "ipsum",
-  "QuantityUnit": "tenetur",
+  "ProductId": 495,
+  "ERPProductKey": "necessitatibus",
+  "ERPPriceListKey": "nostrum",
+  "Name": "Runte Group",
+  "Description": "Cloned multimedia hub",
+  "Code": "expedita",
+  "PriceUnit": "facilis",
+  "QuantityUnit": "pariatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "fuga",
-  "DefaultSubscriptionQuantity": 11072.422,
-  "ItemNumber": "1322457",
+  "SubscriptionUnit": "dignissimos",
+  "DefaultSubscriptionQuantity": 5280.79,
+  "ItemNumber": "1214187",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "laborum",
-  "ProductTypeKey": "facilis",
-  "VAT": 18976.37,
-  "VATInfo": "repudiandae",
-  "UnitCost": 28726.244,
-  "UnitMinimumPrice": 27955.28,
-  "UnitListPrice": 17296.546,
-  "InAssortment": true,
-  "Supplier": "est",
-  "SupplierCode": "amet",
-  "Rights": "dolores",
-  "Rule": "vitae",
+  "ProductFamilyKey": "quas",
+  "ProductTypeKey": "sit",
+  "VAT": 2927.156,
+  "VATInfo": "expedita",
+  "UnitCost": 4215.23,
+  "UnitMinimumPrice": 28864.14,
+  "UnitListPrice": 1429.104,
+  "InAssortment": false,
+  "Supplier": "nemo",
+  "SupplierCode": "et",
+  "Rights": "id",
+  "Rule": "ducimus",
   "ExtraInfo": [
     {
-      "Name": "Kuhic Group",
-      "Value": "cupiditate",
+      "Name": "Stark, Marquardt and Lemke",
+      "Value": "consectetur",
       "Type": "Image"
     },
     {
-      "Name": "Kuhic Group",
-      "Value": "cupiditate",
+      "Name": "Stark, Marquardt and Lemke",
+      "Value": "consectetur",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "suscipit",
-  "ExtraField1": "earum",
-  "ExtraField2": "quo",
-  "ExtraField3": "officia",
-  "ExtraField4": "reiciendis",
-  "ExtraField5": "iusto",
-  "InStock": 9213.96
+  "RawExtraInfo": "at",
+  "ExtraField1": "veniam",
+  "ExtraField2": "recusandae",
+  "ExtraField3": "labore",
+  "ExtraField4": "minus",
+  "ExtraField5": "minus",
+  "InStock": 16080.554
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 280,
-  "ERPProductKey": "corrupti",
-  "ERPPriceListKey": "velit",
-  "Name": "Reynolds LLC",
-  "Description": "Enhanced tangible internet solution",
-  "Code": "iure",
-  "PriceUnit": "sint",
-  "QuantityUnit": "in",
+  "ProductId": 591,
+  "ERPProductKey": "eveniet",
+  "ERPPriceListKey": "unde",
+  "Name": "Howe Group",
+  "Description": "Balanced high-level migration",
+  "Code": "eos",
+  "PriceUnit": "suscipit",
+  "QuantityUnit": "facilis",
   "IsSubscription": false,
-  "SubscriptionUnit": "suscipit",
-  "DefaultSubscriptionQuantity": 2178.13,
-  "ItemNumber": "362543",
+  "SubscriptionUnit": "velit",
+  "DefaultSubscriptionQuantity": 16102.492,
+  "ItemNumber": "343784",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iste",
-  "ProductTypeKey": "sit",
-  "VAT": 9496.02,
-  "VATInfo": "ea",
-  "UnitCost": 7042.098,
-  "UnitMinimumPrice": 11865.323999999999,
-  "UnitListPrice": 9000.848,
-  "InAssortment": false,
-  "Supplier": "est",
-  "SupplierCode": "tempore",
-  "Rights": "pariatur",
-  "Rule": "incidunt",
+  "ProductFamilyKey": "ipsa",
+  "ProductTypeKey": "voluptas",
+  "VAT": 29136.798,
+  "VATInfo": "ipsa",
+  "UnitCost": 11727.428,
+  "UnitMinimumPrice": 16635.272,
+  "UnitListPrice": 8750.128,
+  "InAssortment": true,
+  "Supplier": "nostrum",
+  "SupplierCode": "tenetur",
+  "Rights": "necessitatibus",
+  "Rule": "vero",
   "ExtraInfo": [
     {
-      "Name": "Johnson Inc and Sons",
-      "Value": "rerum",
+      "Name": "Botsford Group",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 873
         }
       }
     },
     {
-      "Name": "Johnson Inc and Sons",
-      "Value": "rerum",
+      "Name": "Botsford Group",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 873
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "dolores",
-  "ExtraField2": "laboriosam",
-  "ExtraField3": "cumque",
-  "ExtraField4": "ipsa",
-  "ExtraField5": "provident",
-  "InStock": 15776.555999999999,
+  "RawExtraInfo": "alias",
+  "ExtraField1": "repellat",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "tenetur",
+  "ExtraField4": "quo",
+  "ExtraField5": "ratione",
+  "InStock": 14504.152,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 652
     }
   }
 }

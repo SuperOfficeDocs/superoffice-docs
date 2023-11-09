@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "et",
-    "rerum"
+    "eligendi",
+    "porro"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 991,
-    "ColumnId": 200,
-    "FieldDefault": "dolor",
-    "FieldHeight": 722,
-    "FieldLabel": "error",
-    "FieldLeft": 944,
-    "FieldTop": 923,
+    "UDefFieldId": 930,
+    "ColumnId": 634,
+    "FieldDefault": "voluptatibus",
+    "FieldHeight": 767,
+    "FieldLabel": "in",
+    "FieldLeft": 775,
+    "FieldTop": 739,
     "FieldType": "Checkbox",
-    "FieldWidth": 5,
-    "FormatMask": "accusantium",
+    "FieldWidth": 667,
+    "FormatMask": "consequatur",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 509,
-    "LabelLeft": 438,
-    "LabelTop": 676,
-    "LabelWidth": 374,
-    "LastVersionId": 992,
-    "ListTableId": 339,
-    "IsMandatory": true,
+    "LabelHeight": 356,
+    "LabelLeft": 439,
+    "LabelTop": 487,
+    "LabelWidth": 764,
+    "LastVersionId": 725,
+    "ListTableId": 56,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 767,
-    "ProgId": "fugit",
-    "IsReadOnly": true,
-    "ShortLabel": "nostrum",
-    "TabOrder": 33,
-    "TextLength": 160,
-    "Tooltip": "eos",
-    "UdefIdentity": 529,
-    "UDListDefinitionId": 589,
+    "Page1LineNo": 512,
+    "ProgId": "id",
+    "IsReadOnly": false,
+    "ShortLabel": "aliquid",
+    "TabOrder": 609,
+    "TextLength": 982,
+    "Tooltip": "vel",
+    "UdefIdentity": 60,
+    "UDListDefinitionId": 555,
     "Justification": "Center",
-    "Version": 499,
-    "TemplateVariableName": "Moen, Mann and Corwin",
+    "Version": 114,
+    "TemplateVariableName": "Padberg-Weimann",
     "HasBeenPublished": false,
-    "MdoListName": "Hickle, Conroy and Jacobs",
+    "MdoListName": "Kerluke LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 149
       }
     }
   }

@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Rippin LLC",
-    "ToolTip": "Qui accusantium voluptas fuga laudantium ea iste ab.",
+    "Id": 596,
+    "Name": "Pacocha, Runolfsson and Emard",
+    "ToolTip": "Consectetur qui soluta magnam et.",
     "Deleted": false,
-    "Rank": 63,
-    "Type": "aut",
-    "ColorBlock": 160,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2010-08-10T03:24:52.1463474+02:00",
+    "Rank": 800,
+    "Type": "expedita",
+    "ColorBlock": 796,
+    "IconHint": "praesentium",
+    "Selected": true,
+    "LastChanged": "2012-12-10T11:06:42.6471966+01:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Moore Inc and Sons",
-        "ToolTip": "Qui blanditiis in.",
-        "Deleted": true,
-        "Rank": 839,
-        "Type": "est",
-        "ColorBlock": 793,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2005-08-26T03:24:52.1463474+02:00",
+        "Id": 831,
+        "Name": "Pagac-O'Conner",
+        "ToolTip": "Molestiae harum illum aut odio accusamus enim vel.",
+        "Deleted": false,
+        "Rank": 609,
+        "Type": "incidunt",
+        "ColorBlock": 579,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2020-01-01T11:06:42.6471966+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Owen Kertzmann II",
+        "ExtraInfo": "delectus",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Nasir Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 190
+            "FieldLength": 564
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "odit",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Mr. Sarah Roob DVM",
+    "FullName": "Vivian Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 907
       }
     }
   }

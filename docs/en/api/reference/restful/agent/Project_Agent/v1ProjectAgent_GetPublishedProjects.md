@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    119,
-    911
+    360,
+    212
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 128,
-    "Name": "Koelpin-Trantow",
-    "Description": "Organic mobile system engine",
+    "ProjectId": 161,
+    "Name": "Kulas Group",
+    "Description": "Triple-buffered regional projection",
     "URL": "http://www.example.com/",
-    "Type": "doloribus",
-    "AssociateId": 120,
-    "AssociateFullName": "Shany Adams",
-    "TypeId": 153,
-    "Updated": "2007-12-02T03:24:48.0957311+01:00",
-    "StatusId": 546,
-    "Status": "fugit",
-    "TextId": 334,
-    "PublishTo": "2020-01-05T03:24:48.0957311+01:00",
-    "PublishFrom": "2012-02-21T03:24:48.0957311+01:00",
-    "IsPublished": true,
+    "Type": "soluta",
+    "AssociateId": 742,
+    "AssociateFullName": "Mrs. Cierra Strosin Jr.",
+    "TypeId": 941,
+    "Updated": "2010-10-12T11:06:35.1614465+02:00",
+    "StatusId": 954,
+    "Status": "error",
+    "TextId": 188,
+    "PublishTo": "1998-07-25T11:06:35.1614465+02:00",
+    "PublishFrom": "1998-02-13T11:06:35.1614465+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1285174",
-    "ActiveErpLinks": 782,
+    "ProjectNumber": "1012208",
+    "ActiveErpLinks": 515,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldType": "System.Int32",
+        "FieldLength": 310
       }
     }
   }

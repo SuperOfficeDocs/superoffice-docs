@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 203
+  "ChatSessionId": 767
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 312,
-  "TopicId": 524,
+  "ChatSessionId": 218,
+  "TopicId": 157,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nulla",
-  "CustomerHost": "ut",
-  "CustomerName": "Schmitt-Rolfson",
-  "CustomerEmail": "laron.turner@okeefebarton.com",
-  "CustomerPhone": "617-629-8132",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Hand Inc and Sons",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "sapiente",
+  "CustomerName": "Jacobs LLC",
+  "CustomerEmail": "vito@witting.ca",
+  "CustomerPhone": "230-758-4983 x579",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Abbott Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "placeat",
-  "LastMessage": "assumenda",
-  "WhenRequested": "2009-09-21T03:24:47.3145639+02:00",
-  "WhenStarted": "2013-09-29T03:24:47.3145639+02:00",
-  "WhenEnded": "2007-11-05T03:24:47.3145639+01:00",
-  "WhenIdle": "2017-06-03T03:24:47.3145639+02:00",
-  "WhenFetched": "2016-03-21T03:24:47.3145639+01:00",
-  "SessionKey": "dolor",
-  "InitialQueuePos": 478,
-  "AlertLevel": 627,
-  "Rank": 383,
+  "FirstMessage": "ducimus",
+  "LastMessage": "maxime",
+  "WhenRequested": "2003-12-21T11:06:34.0183487+01:00",
+  "WhenStarted": "2004-10-18T11:06:34.0183487+02:00",
+  "WhenEnded": "2008-05-20T11:06:34.0183487+02:00",
+  "WhenIdle": "2011-01-14T11:06:34.0183487+01:00",
+  "WhenFetched": "2001-04-04T11:06:34.0183487+02:00",
+  "SessionKey": "minus",
+  "InitialQueuePos": 832,
+  "AlertLevel": 280,
+  "Rank": 761,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 76,
+  "Rating": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 639
     }
   }
 }

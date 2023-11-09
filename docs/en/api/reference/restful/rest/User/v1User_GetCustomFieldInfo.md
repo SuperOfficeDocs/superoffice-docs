@@ -71,7 +71,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Satterfield Inc and Sons",
-  "DisplayName": "Turner Inc and Sons",
-  "Description": "Organized upward-trending success",
-  "ShortLabel": "necessitatibus",
+  "FieldName": "Zulauf, Reilly and Osinski",
+  "DisplayName": "Walker Group",
+  "Description": "Vision-oriented solution-oriented artificial intelligence",
+  "ShortLabel": "quia",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 234,
-  "TemplateVariableName": "Abshire-Weber"
+  "IsExternal": true,
+  "Rank": 98,
+  "TemplateVariableName": "Jewess, Mills and Schultz"
 }
 ```

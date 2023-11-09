@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Schulist-Gibson",
+  "TaskName": "Price, Nader and Bernhard",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Jewess Group",
-    "AssociateId": 366,
-    "DetailsTable": 887,
-    "DetailsRecord": 963,
+    "Id": 758,
+    "Name": "Gulgowski, Botsford and Collins",
+    "AssociateId": 789,
+    "DetailsTable": 691,
+    "DetailsRecord": 331,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "blanditiis",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "quis",
+      "ParameterObject2": "dolorem"
     },
-    "LastStarted": "2019-11-13T03:24:47.2520803+01:00",
-    "Created": "2003-03-13T03:24:47.2520803+01:00",
-    "StartCount": 612,
-    "DatabaseSerialNumber": "959451",
-    "Context": "unde",
-    "Result": "quia",
+    "LastStarted": "2018-08-19T11:06:33.7972715+02:00",
+    "Created": "2016-12-10T11:06:33.7972715+01:00",
+    "StartCount": 885,
+    "DatabaseSerialNumber": "1276281",
+    "Context": "assumenda",
+    "Result": "omnis",
     "State": "All",
-    "Description": "Proactive logistical project",
-    "Response": "facere",
-    "Request": "et",
-    "ProgressDescription": "User-centric eco-centric approach",
-    "ProgressPercent": 137,
-    "FileName": "Gerhold-Cartwright",
+    "Description": "Robust homogeneous policy",
+    "Response": "cum",
+    "Request": "voluptatem",
+    "ProgressDescription": "Stand-alone zero tolerance Graphical User Interface",
+    "ProgressPercent": 96,
+    "FileName": "Bayer-Jones",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 845
       }
     }
   }

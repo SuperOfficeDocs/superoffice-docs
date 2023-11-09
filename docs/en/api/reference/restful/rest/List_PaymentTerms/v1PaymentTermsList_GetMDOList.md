@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=animi
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Gleason, Jenkins and Mraz",
-    "ToolTip": "Nesciunt odio quod iusto laudantium.",
-    "Deleted": true,
-    "Rank": 577,
-    "Type": "aut",
+    "Id": 356,
+    "Name": "Graham Inc and Sons",
+    "ToolTip": "Sed ut amet provident expedita adipisci.",
+    "Deleted": false,
+    "Rank": 438,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Gleason-Aufderhar",
-        "ToolTip": "Et sunt consequatur.",
+        "Id": 821,
+        "Name": "Yost-Fahey",
+        "ToolTip": "Aut veniam eos quia.",
         "Deleted": false,
-        "Rank": 411,
-        "Type": "perspiciatis",
+        "Rank": 981,
+        "Type": "porro",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 5,
-        "ExtraInfo": "non",
-        "StyleHint": "maiores",
-        "FullName": "Tracy Hickle",
+        "IconHint": "sed",
+        "ColorBlock": 600,
+        "ExtraInfo": "nam",
+        "StyleHint": "cumque",
+        "FullName": "Jed Marquardt MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 297
           }
         }
       }
     ],
-    "IconHint": "pariatur",
-    "ColorBlock": 22,
-    "ExtraInfo": "excepturi",
-    "StyleHint": "odit",
-    "FullName": "Mrs. Jakob Witting I",
+    "IconHint": "tenetur",
+    "ColorBlock": 8,
+    "ExtraInfo": "fugit",
+    "StyleHint": "consequatur",
+    "FullName": "Katrine Volkman DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 374
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=saepe
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Daugherty, Schaefer and Wunsch",
-    "ToolTip": "Deserunt laudantium velit recusandae.",
-    "Deleted": true,
-    "Rank": 156,
-    "Type": "modi",
+    "Id": 606,
+    "Name": "Pollich-Dickens",
+    "ToolTip": "Ut et consequatur pariatur consequatur dolorem praesentium deleniti.",
+    "Deleted": false,
+    "Rank": 845,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 324,
-        "Name": "Homenick, Stokes and Haag",
-        "ToolTip": "Enim optio nesciunt totam inventore omnis eligendi.",
+        "Id": 677,
+        "Name": "Swaniawski Group",
+        "ToolTip": "Sapiente sequi itaque ex nam et cum.",
         "Deleted": true,
-        "Rank": 844,
-        "Type": "quia",
+        "Rank": 60,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempora",
-        "ColorBlock": 511,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "ullam",
-        "FullName": "Dr. Kristina Dare I",
+        "IconHint": "optio",
+        "ColorBlock": 134,
+        "ExtraInfo": "sit",
+        "StyleHint": "quas",
+        "FullName": "Hailey Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldLength": 268
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 950,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "alias",
-    "FullName": "Kendra Maurine Daugherty I",
+    "IconHint": "est",
+    "ColorBlock": 248,
+    "ExtraInfo": "eaque",
+    "StyleHint": "doloremque",
+    "FullName": "Dr. Edwardo Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 653
       }
     }
   }

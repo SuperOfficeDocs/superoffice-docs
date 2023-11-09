@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Jacobson-Gislason",
-      "DisplayName": "Batz, Kozey and Bogisich",
-      "DisplayTooltip": "impedit",
+      "Name": "Brakus, Wisozk and Kulas",
+      "DisplayName": "Hansen-Conroy",
+      "DisplayTooltip": "dolorum",
       "IsActive": false
     },
     {
-      "Name": "Jacobson-Gislason",
-      "DisplayName": "Batz, Kozey and Bogisich",
-      "DisplayTooltip": "impedit",
+      "Name": "Brakus, Wisozk and Kulas",
+      "DisplayName": "Hansen-Conroy",
+      "DisplayTooltip": "dolorum",
       "IsActive": false
     }
   ]

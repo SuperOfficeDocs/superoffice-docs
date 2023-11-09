@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 466
+  "DocumentId": 201
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "veniam",
-    "DocumentId": 652,
-    "VersionId": "eum",
-    "CheckedInDate": "2005-08-16T03:24:47.6739096+02:00",
-    "CheckedInByName": "Graham Inc and Sons",
-    "CheckedInByAssociateId": 81,
-    "Description": "Fully-configurable foreground definition",
-    "DisplayText": "commodi",
+    "ExternalReference": "ut",
+    "DocumentId": 10,
+    "VersionId": "ut",
+    "CheckedInDate": "2022-07-31T11:06:34.4270635+02:00",
+    "CheckedInByName": "Howell, Medhurst and Cummings",
+    "CheckedInByAssociateId": 647,
+    "Description": "Profit-focused analyzing Graphical User Interface",
+    "DisplayText": "accusantium",
     "ExtraFields": [
-      "reiciendis",
-      "nesciunt"
+      "omnis",
+      "vero"
     ]
   }
 ]

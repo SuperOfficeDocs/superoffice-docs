@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 671,
-  "Name": "Frami Inc and Sons",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 988,
+  "WebPanelId": 48,
+  "Name": "Sporer, Huel and Ondricka",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 531,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Dach Group",
+  "WindowName": "Schneider-Considine",
   "Url": "http://www.example.com/",
-  "ProgId": "saepe",
-  "Icon": 211,
+  "ProgId": "incidunt",
+  "Icon": 185,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 744
     }
   }
 }

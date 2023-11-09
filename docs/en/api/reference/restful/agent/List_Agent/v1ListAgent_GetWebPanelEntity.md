@@ -26,7 +26,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=348
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=801
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 108,
-  "Name": "Wiza Inc and Sons",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "Rank": 497,
+  "WebPanelId": 951,
+  "Name": "Vandervort-Runolfsdottir",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "Rank": 955,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Okuneva Group",
+  "WindowName": "Friesen-Okuneva",
   "Url": "http://www.example.com/",
-  "ProgId": "perspiciatis",
-  "Icon": 440,
+  "ProgId": "architecto",
+  "Icon": 555,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 696
     }
   }
 }

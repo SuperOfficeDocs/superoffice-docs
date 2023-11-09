@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hammes-Stanton",
-    "Delimiter": "ratione",
-    "Flags": "ut",
-    "TotalItems": 767,
-    "UnreadItems": 913,
+    "Name": "Kuhn Inc and Sons",
+    "Delimiter": "consequuntur",
+    "Flags": "enim",
+    "TotalItems": 561,
+    "UnreadItems": 438,
     "Subscribed": true,
-    "EmailFolderId": 234,
+    "EmailFolderId": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldType": "System.String",
+        "FieldLength": 464
       }
     }
   }

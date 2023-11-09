@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "sed",
-  "PluginId": 763
+  "LanguageCode": "beatae",
+  "PluginId": 723
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 351,
-  "Name": "Johns-Hand",
-  "Tooltip": "dolorem",
-  "SaveInDb": 116,
-  "Filename": "et",
-  "DefaultOref": "minima",
+  "DocumentTemplateId": 997,
+  "Name": "Schultz LLC",
+  "Tooltip": "excepturi",
+  "SaveInDb": 699,
+  "Filename": "illo",
+  "DefaultOref": "deleniti",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 930,
-  "IntentId": 21,
+  "AutoeventId": 185,
+  "IntentId": 400,
   "IsDefaultPublished": false,
-  "Rank": 340,
-  "LoadTemplateFromPlugin": 355,
-  "MimeType": "nulla",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 104,
+  "Rank": 312,
+  "LoadTemplateFromPlugin": 18,
+  "MimeType": "sit",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 495,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sophia@hoppe.name",
-  "IncludeSignature": true,
+  "EmailSubject": "maximo.williamson@towne.name",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "elta@altenwerth.uk",
+  "SenderEmailAddress": "vance@jakubowski.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 471
+      "FieldType": "System.Int32",
+      "FieldLength": 967
     }
   }
 }

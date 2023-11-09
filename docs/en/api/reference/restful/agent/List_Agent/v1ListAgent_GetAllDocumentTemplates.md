@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 412,
-    "Name": "Bogan Inc and Sons",
-    "Tooltip": "corporis",
-    "SaveInDb": 359,
-    "Filename": "voluptatem",
-    "DefaultOref": "veniam",
+    "DocumentTemplateId": 920,
+    "Name": "Toy Group",
+    "Tooltip": "harum",
+    "SaveInDb": 770,
+    "Filename": "sed",
+    "DefaultOref": "quis",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 687,
-    "IntentId": 65,
-    "IsDefaultPublished": true,
-    "Rank": 148,
-    "LoadTemplateFromPlugin": 179,
-    "MimeType": "numquam",
+    "AutoeventId": 806,
+    "IntentId": 958,
+    "IsDefaultPublished": false,
+    "Rank": 397,
+    "LoadTemplateFromPlugin": 52,
+    "MimeType": "eos",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 570,
+    "DocumentTypeKey": 978,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "sonya_bogan@stokes.ca",
-    "IncludeSignature": true,
-    "ShowCurrents": true,
+    "EmailSubject": "erwin.wilkinson@brown.com",
+    "IncludeSignature": false,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "keon.ernser@barton.biz",
+    "SenderEmailAddress": "lesley@okeefe.name",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 185
+        "FieldLength": 594
       }
     }
   }

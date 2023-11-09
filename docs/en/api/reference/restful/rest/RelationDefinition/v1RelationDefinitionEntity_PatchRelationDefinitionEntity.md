@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "tempore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "tempore",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 666,
-  "Name": "Murray Group",
-  "Tooltip": "dolores",
-  "PassiveText": "pariatur",
+  "ReldefId": 985,
+  "Name": "Beier Group",
+  "Tooltip": "ipsam",
+  "PassiveText": "non",
   "Deleted": false,
-  "Rank": 821,
+  "Rank": 877,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 500
     }
   },
   "_Links": {

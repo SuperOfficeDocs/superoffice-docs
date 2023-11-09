@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 743
+  "QuoteVersionId": 4
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 635,
-    "ERPQuoteAlternativeKey": "voluptatem",
-    "QuoteVersionId": 446,
-    "Name": "Reilly-Cormier",
-    "Description": "Enhanced dynamic success",
+    "QuoteAlternativeId": 386,
+    "ERPQuoteAlternativeKey": "et",
+    "QuoteVersionId": 335,
+    "Name": "Skiles Inc and Sons",
+    "Description": "Realigned 5th generation neural-net",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 24924.701999999997,
-    "ERPDiscountAmount": 31314.928,
-    "DiscountPercent": 10903.186,
-    "DiscountAmount": 11978.148,
+    "ERPDiscountPercent": 5685.076,
+    "ERPDiscountAmount": 29343.642,
+    "DiscountPercent": 12918.348,
+    "DiscountAmount": 25714.469999999998,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "aperiam",
-    "VAT": 11661.614,
-    "EarningPercent": 9966.119999999999,
-    "EarningAmount": 2695.24,
-    "SubTotal": 5848.044,
-    "TotalPrice": 25401.07,
-    "ExtraField1": "neque",
-    "ExtraField2": "laborum",
-    "ExtraField3": "nostrum",
-    "ExtraField4": "qui",
-    "ExtraField5": "nisi",
+    "VATInfo": "similique",
+    "VAT": 18277.488,
+    "EarningPercent": 3842.2839999999997,
+    "EarningAmount": 30703.798,
+    "SubTotal": 28093.176,
+    "TotalPrice": 11345.08,
+    "ExtraField1": "voluptatem",
+    "ExtraField2": "nihil",
+    "ExtraField3": "rerum",
+    "ExtraField4": "incidunt",
+    "ExtraField5": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 25
       }
     }
   }

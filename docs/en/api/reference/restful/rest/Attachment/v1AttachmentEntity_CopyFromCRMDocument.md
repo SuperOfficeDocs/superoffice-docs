@@ -65,7 +65,7 @@ OK
 POST /api/v1/Attachment/CopyFromCRMDocument/{documentId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 674,
-  "Name": "Ernser-Fritsch",
-  "ContentType": "dolor",
-  "AttSize": 775,
+  "AttachmentId": 266,
+  "Name": "Boyer-Orn",
+  "ContentType": "eius",
+  "AttSize": 592,
   "InlineImage": false,
-  "ContentId": "quo",
-  "AuthKey": "voluptatem",
+  "ContentId": "ipsam",
+  "AuthKey": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldType": "System.Int32",
+      "FieldLength": 25
     }
   }
 }

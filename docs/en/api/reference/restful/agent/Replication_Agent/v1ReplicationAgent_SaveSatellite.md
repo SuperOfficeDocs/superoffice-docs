@@ -83,17 +83,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 832,
-  "Created": "2005-02-06T03:24:48.1582254+01:00",
+  "SatelliteId": 477,
+  "Created": "2020-06-07T11:06:35.2551901+02:00",
   "CreatedBy": null,
-  "Updated": "1998-01-11T03:24:48.1582254+01:00",
+  "Updated": "1999-01-28T11:06:35.2551901+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "McKenzie, Prohaska and Emmerich",
-      "Description": "Devolved 6th generation product",
+      "Name": "Metz, Langworth and Ruecker",
+      "Description": "Centralized grid-enabled complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "McKenzie, Prohaska and Emmerich",
-      "Description": "Devolved 6th generation product",
+      "Name": "Metz, Langworth and Ruecker",
+      "Description": "Centralized grid-enabled complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 629,
-  "Created": "2004-08-23T03:24:48.1582254+02:00",
+  "SatelliteId": 424,
+  "Created": "2001-12-16T11:06:35.2551901+01:00",
   "CreatedBy": null,
-  "Updated": "2007-02-19T03:24:48.1582254+01:00",
+  "Updated": "2007-04-17T11:06:35.2551901+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Balistreri, Keeling and Wehner",
-      "Description": "Fully-configurable 6th generation moratorium",
+      "Name": "Wuckert Group",
+      "Description": "Compatible heuristic array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 945
+          "FieldType": "System.Int32",
+          "FieldLength": 784
         }
       }
     },
     {
-      "Name": "Balistreri, Keeling and Wehner",
-      "Description": "Fully-configurable 6th generation moratorium",
+      "Name": "Wuckert Group",
+      "Description": "Compatible heuristic array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 945
+          "FieldType": "System.Int32",
+          "FieldLength": 784
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 484
     }
   }
 }

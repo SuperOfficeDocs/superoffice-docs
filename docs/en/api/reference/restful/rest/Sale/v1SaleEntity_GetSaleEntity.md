@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=True
+GET /api/v1/Sale/{id}?fk=False
 ```
 
 
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 04 May 2021 03:24:51 G5T
+Last-Modified: Thu, 27 Sep 2001 11:06:42 G9T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Tue, 04 May 2021 03:24:51 G5T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "id",
+  "SaleText": "ex",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Tue, 04 May 2021 03:24:51 G5T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-10-03T03:24:51.849507+02:00",
-  "Amount": 26203.374,
-  "SaleId": 728,
-  "Earning": 11025.412,
-  "EarningPercent": 28663.564,
-  "Heading": "ut",
-  "Number": "1331157",
-  "Probability": 440,
-  "CreatedDate": "1997-05-23T03:24:51.849507+02:00",
-  "UpdatedDate": "2021-05-04T03:24:51.849507+02:00",
+  "Saledate": "2014-12-08T11:06:42.144726+01:00",
+  "Amount": 15594.784,
+  "SaleId": 845,
+  "Earning": 28757.584,
+  "EarningPercent": 20612.318,
+  "Heading": "deleniti",
+  "Number": "1201933",
+  "Probability": 859,
+  "CreatedDate": "1999-05-19T11:06:42.144726+02:00",
+  "UpdatedDate": "2001-09-27T11:06:42.144726+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 916,
+  "ActiveLinks": 985,
   "Links": [
     {
-      "EntityName": "Bashirian LLC",
-      "Id": 294,
-      "Description": "Multi-tiered directional moderator",
-      "ExtraInfo": "autem",
-      "LinkId": 959,
+      "EntityName": "Nienow Group",
+      "Id": 553,
+      "Description": "De-engineered fault-tolerant extranet",
+      "ExtraInfo": "nisi",
+      "LinkId": 970,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 656
         }
       }
     }
   ],
-  "NextDueDate": "2022-02-02T03:24:51.849507+01:00",
-  "Postit": "fuga",
+  "NextDueDate": "2009-12-30T11:06:42.144726+01:00",
+  "Postit": "error",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-10-08T03:24:51.8651245+02:00",
+  "ReopenDate": "2023-01-26T11:06:42.144726+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Nikolaus, Aufderhar and DuBuque",
-      "Comment": "aliquam",
-      "StakeholderRoleId": 370,
-      "CountryId": 172,
-      "PersonId": 667,
-      "EmailDescription": "ella.rowe@rutherford.biz",
-      "EmailId": 99,
-      "EmailAddress": "eden@rennermills.uk",
-      "PhoneId": 972,
-      "ContactName": "Kreiger Inc and Sons",
-      "ContactId": 348,
-      "SaleId": 87,
-      "Mrmrs": "quia",
-      "Firstname": "Alexane",
-      "MiddleName": "Corkery Inc and Sons",
-      "Lastname": "Rempel",
-      "SaleStakeholderId": 863,
-      "Rank": 492,
-      "Phone": "(009)715-9838 x4735",
+      "StakeholderRoleName": "Stamm Group",
+      "Comment": "autem",
+      "StakeholderRoleId": 594,
+      "CountryId": 711,
+      "PersonId": 645,
+      "EmailDescription": "jayne_davis@walsh.co.uk",
+      "EmailId": 995,
+      "EmailAddress": "madilyn@zulauf.info",
+      "PhoneId": 320,
+      "ContactName": "Jaskolski, Murphy and Carroll",
+      "ContactId": 243,
+      "SaleId": 379,
+      "Mrmrs": "tempore",
+      "Firstname": "Paige",
+      "MiddleName": "Breitenberg LLC",
+      "Lastname": "Altenwerth",
+      "SaleStakeholderId": 363,
+      "Rank": 917,
+      "Phone": "407-690-4621",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldLength": 701
         }
       }
     }
   ],
-  "ActiveErpLinks": 644,
+  "ActiveErpLinks": 798,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ena Wilkinson",
-    "SuperOffice:2": "Dayton Kiehn V"
+    "SuperOffice:1": "Margarita Cronin",
+    "SuperOffice:2": "Arlo Trantow"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "est"
+    "CustomFields1": "id",
+    "CustomFields2": "rem"
   },
-  "PublishEventDate": "2015-07-26T03:24:51.8807491+02:00",
-  "PublishTo": "2022-07-11T03:24:51.8807491+02:00",
-  "PublishFrom": "2000-01-18T03:24:51.8807491+01:00",
+  "PublishEventDate": "2021-01-27T11:06:42.144726+01:00",
+  "PublishTo": "2001-06-29T11:06:42.144726+02:00",
+  "PublishFrom": "2002-10-25T11:06:42.144726+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 46,
+      "VisibleId": 23,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 935
         }
       }
     },
     {
-      "VisibleId": 46,
+      "VisibleId": 23,
       "Visibility": "All",
-      "DisplayValue": "voluptatibus",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 935
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Tue, 04 May 2021 03:24:51 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   },
   "_Links": {

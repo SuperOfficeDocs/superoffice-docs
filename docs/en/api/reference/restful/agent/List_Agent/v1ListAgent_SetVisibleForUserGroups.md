@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 426,
-  "ListItemId": 449,
+  "UdListDefinitionId": 823,
+  "ListItemId": 868,
   "UserGroups": [
     {
-      "Id": 645,
-      "Name": "Schiller Inc and Sons",
-      "ToolTip": "Quisquam distinctio autem.",
+      "Id": 653,
+      "Name": "Feest Group",
+      "ToolTip": "Ea ipsum et.",
       "Deleted": false,
-      "Rank": 678,
-      "Type": "debitis",
-      "ColorBlock": 670,
-      "IconHint": "exercitationem",
+      "Rank": 277,
+      "Type": "atque",
+      "ColorBlock": 539,
+      "IconHint": "debitis",
       "Selected": true,
-      "LastChanged": "2016-05-14T03:24:47.8613878+02:00",
+      "LastChanged": "1997-05-16T11:06:34.7083083+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "accusamus",
-      "Hidden": true,
-      "FullName": "Mrs. Philip Gerlach II"
+      "ExtraInfo": "quaerat",
+      "StyleHint": "voluptate",
+      "Hidden": false,
+      "FullName": "Kelsi Kuhn"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Metz LLC",
-    "ToolTip": "Nihil porro eos ducimus vel.",
-    "Deleted": false,
-    "Rank": 501,
-    "Type": "aut",
-    "ColorBlock": 565,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2006-08-07T03:24:47.8613878+02:00",
+    "Id": 639,
+    "Name": "Reynolds LLC",
+    "ToolTip": "Quia in natus officia dignissimos.",
+    "Deleted": true,
+    "Rank": 884,
+    "Type": "beatae",
+    "ColorBlock": 257,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2021-02-07T11:06:34.7083083+01:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Heller-Pfeffer",
-        "ToolTip": "Nobis ut enim commodi possimus quo in eius.",
+        "Id": 650,
+        "Name": "Weissnat, Johnson and Bartell",
+        "ToolTip": "Quia nulla quia velit minima natus enim asperiores.",
         "Deleted": true,
-        "Rank": 423,
-        "Type": "quaerat",
-        "ColorBlock": 26,
-        "IconHint": "non",
+        "Rank": 488,
+        "Type": "voluptatem",
+        "ColorBlock": 236,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2010-02-17T03:24:47.8613878+01:00",
+        "LastChanged": "2004-05-16T11:06:34.7083083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "sit",
+        "ExtraInfo": "soluta",
+        "StyleHint": "pariatur",
         "Hidden": false,
-        "FullName": "Verdie Williamson",
+        "FullName": "Prof. Karlee Mariela Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 224
+            "FieldType": "System.Int32",
+            "FieldLength": 925
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "iusto",
+    "ExtraInfo": "et",
+    "StyleHint": "hic",
     "Hidden": true,
-    "FullName": "Miss Mabelle Sanford Jr.",
+    "FullName": "Marquis Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 470
       }
     }
   }

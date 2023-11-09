@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 928,
-  "Name": "Hoeger Group",
-  "Description": "Switchable content-based flexibility",
-  "WelcomeMessage": "saepe",
+  "ChatTopicId": 706,
+  "Name": "Kihn-Huel",
+  "Description": "Cross-platform web-enabled hub",
+  "WelcomeMessage": "pariatur",
   "Language": null,
-  "LastAccept": "2005-04-25T03:24:47.2833249+02:00",
-  "SecondsPrAccept": 209,
-  "AlertRecipient": "reprehenderit",
+  "LastAccept": "2007-10-26T11:06:33.9714362+02:00",
+  "SecondsPrAccept": 446,
+  "AlertRecipient": "architecto",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "aut",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "officia",
-  "WarnNewChatMinutes": 457,
-  "WarnManagerNewChatMinutes": 431,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "itaque",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "incidunt",
+  "WarnNewChatMinutes": 459,
+  "WarnManagerNewChatMinutes": 337,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 169,
-  "WarnManagerChatMessageMinutes": 695,
+  "WarnChatMessageMinutes": 88,
+  "WarnManagerChatMessageMinutes": 730,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 396,
-  "OfflineFormQueueLength": 353,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "adipisci",
+  "OfflineFormTimeLimit": 747,
+  "OfflineFormQueueLength": 671,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 683
     }
   }
 }

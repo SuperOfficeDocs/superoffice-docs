@@ -81,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 595,
+  "DocumentId": 871,
   "AllowedReturnTypes": [
-    "voluptatem",
-    "fugiat"
+    "adipisci",
+    "quam"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "in",
-  "VersionId": "est",
-  "Success": false,
+  "ExternalReference": "adipisci",
+  "VersionId": "veniam",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "et",
-  "AdditionalInfo": "dolores"
+  "Value": "alias",
+  "AdditionalInfo": "minus"
 }
 ```

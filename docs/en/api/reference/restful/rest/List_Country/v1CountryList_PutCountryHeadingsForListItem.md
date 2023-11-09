@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Swift, Jast and Dickinson",
-    "ToolTip": "Quia sed.",
+    "Id": 527,
+    "Name": "Herman, Krajcik and Schmidt",
+    "ToolTip": "Hic et eveniet.",
     "Deleted": false,
-    "Rank": 679,
-    "Type": "dolore",
-    "ColorBlock": 983,
-    "IconHint": "illum",
+    "Rank": 657,
+    "Type": "non",
+    "ColorBlock": 954,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "1997-02-09T03:24:52.2088405+01:00",
+    "LastChanged": "2000-06-21T11:06:42.7565694+02:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Padberg Group",
-        "ToolTip": "Quos unde assumenda necessitatibus eius quod exercitationem incidunt.",
-        "Deleted": false,
-        "Rank": 955,
-        "Type": "sit",
-        "ColorBlock": 239,
-        "IconHint": "exercitationem",
-        "Selected": false,
-        "LastChanged": "2023-04-29T03:24:52.2088405+02:00",
+        "Id": 112,
+        "Name": "Robel Inc and Sons",
+        "ToolTip": "Occaecati odit illum iusto adipisci exercitationem.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "dicta",
+        "ColorBlock": 203,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2003-04-12T11:06:42.7565694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "earum",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Miss Darren Rudolph Treutel DDS"
+        "FullName": "Prof. Hermann Smith V"
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Jadyn Schmidt"
+    "FullName": "Ms. Quentin Douglas"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Swift-Barton",
-    "ToolTip": "Tempora ipsam harum iure.",
-    "Deleted": true,
-    "Rank": 998,
-    "Type": "et",
-    "ColorBlock": 993,
-    "IconHint": "laboriosam",
+    "Id": 18,
+    "Name": "Schneider-Robel",
+    "ToolTip": "Esse aliquam.",
+    "Deleted": false,
+    "Rank": 987,
+    "Type": "necessitatibus",
+    "ColorBlock": 372,
+    "IconHint": "dolorem",
     "Selected": true,
-    "LastChanged": "2008-09-06T03:24:52.2088405+02:00",
+    "LastChanged": "2001-07-04T11:06:42.7565694+02:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Brakus Group",
-        "ToolTip": "Vel id id qui a.",
+        "Id": 696,
+        "Name": "Hoeger-Rohan",
+        "ToolTip": "Corporis incidunt suscipit omnis explicabo vitae qui sed.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "sit",
-        "ColorBlock": 386,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2021-12-03T03:24:52.2088405+01:00",
+        "Rank": 861,
+        "Type": "dicta",
+        "ColorBlock": 383,
+        "IconHint": "aspernatur",
+        "Selected": false,
+        "LastChanged": "2021-09-05T11:06:42.7565694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "odit",
-        "Hidden": false,
-        "FullName": "Peggie Mills",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Ms. Marty Morissette PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 594
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "modi",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Stephan Wilton Mayert Jr.",
+    "FullName": "Maureen Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 777
       }
     }
   }

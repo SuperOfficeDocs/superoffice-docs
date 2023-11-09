@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 842,
-  "Name": "Kovacek, Sauer and Crona",
-  "Tooltip": "voluptatem",
-  "SaveInDb": 938,
-  "Filename": "placeat",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 216,
+  "Name": "Walter, Hansen and Kuvalis",
+  "Tooltip": "quo",
+  "SaveInDb": 631,
+  "Filename": "ab",
+  "DefaultOref": "nihil",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 827,
-  "IntentId": 656,
+  "AutoeventId": 42,
+  "IntentId": 732,
   "IsDefaultPublished": false,
-  "Rank": 577,
-  "LoadTemplateFromPlugin": 372,
-  "MimeType": "pariatur",
+  "Rank": 133,
+  "LoadTemplateFromPlugin": 643,
+  "MimeType": "voluptates",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 345,
+  "DocumentTypeKey": 183,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "flavio@schuppe.name",
+  "EmailSubject": "sandrine@mullerheaney.uk",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "casandra@okuneva.com",
+  "SenderEmailAddress": "madalyn@konopelski.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldType": "System.Int32",
+      "FieldLength": 113
     }
   }
 }

@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Koss Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 962,
-    "Rank": 488
+    "Id": 926,
+    "Name": "Daniel, Keebler and Waelchi",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 790,
+    "Rank": 938
   },
   {
-    "Id": 355,
-    "Name": "Koss Group",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 962,
-    "Rank": 488
+    "Id": 926,
+    "Name": "Daniel, Keebler and Waelchi",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 790,
+    "Rank": 938
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "et",
+    "Id": 209,
+    "Name": "Moore-Bradtke",
+    "Tooltip": "animi",
     "Deleted": false,
-    "UdListDefinitionId": 769,
-    "Rank": 109,
+    "UdListDefinitionId": 944,
+    "Rank": 630,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 205
+        "FieldType": "System.Int32",
+        "FieldLength": 894
       }
     }
   }

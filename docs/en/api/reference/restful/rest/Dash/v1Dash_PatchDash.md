@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 667,
-  "UniqueId": "est",
-  "Name": "Smitham Inc and Sons",
-  "Description": "Multi-lateral didactic customer loyalty",
-  "AssociateId": 118,
-  "Columns": 654,
+  "DashboardId": 588,
+  "UniqueId": "id",
+  "Name": "Keeling-Runolfsdottir",
+  "Description": "Team-oriented asynchronous focus group",
+  "AssociateId": 823,
+  "Columns": 593,
   "Theme": null,
-  "VisibleForAll": 434,
+  "VisibleForAll": 949,
   "VisibleForAssociates": [
-    304,
-    382
+    426,
+    98
   ],
   "VisibleForGroups": [
-    383,
-    72
+    729,
+    269
   ],
-  "PinForAll": 142,
+  "PinForAll": 797,
   "PinForAssociates": [
-    255,
-    675
+    318,
+    964
   ],
   "PinForGroups": [
-    412,
-    964
+    219,
+    741
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   },
   "_Links": {

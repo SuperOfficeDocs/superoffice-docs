@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 515,
-  "Name": "Hintz-Prohaska",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 288,
+  "Id": 809,
+  "Name": "McClure-Hahn",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 326,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   },
   "_Links": {

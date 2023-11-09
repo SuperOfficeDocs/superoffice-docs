@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 163,
-      "FieldName": "Hills, Tremblay and Prohaska",
-      "Label": "modi",
+      "QuoteLineConfigurationId": 541,
+      "FieldName": "Boyle-McKenzie",
+      "Label": "ut",
       "Tooltip": "ratione",
-      "Editable": false,
-      "InUse": false,
-      "Mandatory": false,
-      "Rank": 184,
+      "Editable": true,
+      "InUse": true,
+      "Mandatory": true,
+      "Rank": 741,
       "RestrictEdit": true
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 351,
-    "FieldName": "Flatley LLC",
-    "Label": "voluptate",
-    "Tooltip": "illo",
+    "QuoteLineConfigurationId": 242,
+    "FieldName": "Buckridge, Lynch and Bahringer",
+    "Label": "est",
+    "Tooltip": "mollitia",
     "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 653,
+    "Rank": 545,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

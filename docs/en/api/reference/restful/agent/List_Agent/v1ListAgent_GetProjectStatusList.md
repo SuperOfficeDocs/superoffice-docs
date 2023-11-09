@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Value": "commodi",
-    "Tooltip": "eveniet",
+    "Id": 594,
+    "Value": "minima",
+    "Tooltip": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   },
   {
-    "Id": 444,
-    "Value": "commodi",
-    "Tooltip": "eveniet",
+    "Id": 594,
+    "Value": "minima",
+    "Tooltip": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 766
       }
     }
   }

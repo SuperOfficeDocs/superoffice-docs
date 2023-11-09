@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Ebert, Botsford and Rau",
-    "ToolTip": "Odit amet error debitis quaerat optio vitae autem.",
+    "Id": 726,
+    "Name": "Waelchi, Frami and Mayer",
+    "ToolTip": "Et ea rem inventore.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "voluptas",
-    "ColorBlock": 511,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2023-03-26T03:24:52.240053+02:00",
+    "Rank": 960,
+    "Type": "magni",
+    "ColorBlock": 816,
+    "IconHint": "aliquam",
+    "Selected": false,
+    "LastChanged": "2022-07-13T11:06:42.7878188+02:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Schultz LLC",
-        "ToolTip": "Est commodi necessitatibus molestias consectetur sit.",
-        "Deleted": true,
-        "Rank": 727,
-        "Type": "explicabo",
-        "ColorBlock": 227,
-        "IconHint": "modi",
+        "Id": 172,
+        "Name": "Schulist LLC",
+        "ToolTip": "Et sit fugiat non est ut aperiam ut.",
+        "Deleted": false,
+        "Rank": 714,
+        "Type": "modi",
+        "ColorBlock": 394,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2018-07-27T03:24:52.240053+02:00",
+        "LastChanged": "2016-08-18T11:06:42.7878188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "quia",
+        "ExtraInfo": "numquam",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Alexane Kiarra Langosh Sr."
+        "FullName": "Julie Gaylord"
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Caden Schoen"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "iste",
+    "Hidden": true,
+    "FullName": "Mr. Delta Dock Stracke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 339,
-    "Name": "Walker-Towne",
-    "ToolTip": "Earum commodi et qui ducimus quos animi quia.",
+    "Id": 950,
+    "Name": "Parisian LLC",
+    "ToolTip": "Et enim sed soluta molestiae non minus.",
     "Deleted": true,
-    "Rank": 864,
-    "Type": "dolores",
-    "ColorBlock": 301,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2000-09-23T03:24:52.240053+02:00",
+    "Rank": 460,
+    "Type": "possimus",
+    "ColorBlock": 341,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "2006-07-30T11:06:42.8034416+02:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Bauch, Hartmann and Kohler",
-        "ToolTip": "Ut voluptas perspiciatis cumque veritatis ad voluptatem.",
+        "Id": 762,
+        "Name": "Mraz LLC",
+        "ToolTip": "Est impedit vel.",
         "Deleted": false,
-        "Rank": 623,
-        "Type": "cum",
-        "ColorBlock": 312,
-        "IconHint": "temporibus",
-        "Selected": false,
-        "LastChanged": "2005-05-15T03:24:52.240053+02:00",
+        "Rank": 728,
+        "Type": "id",
+        "ColorBlock": 212,
+        "IconHint": "ducimus",
+        "Selected": true,
+        "LastChanged": "2016-07-18T11:06:42.8034416+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "totam",
-        "Hidden": true,
-        "FullName": "Florence Legros",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Audrey Runolfsson Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 549
+            "FieldType": "System.String",
+            "FieldLength": 92
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Hank Keeling",
+    "ExtraInfo": "in",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Kiana Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldType": "System.String",
+        "FieldLength": 287
       }
     }
   }

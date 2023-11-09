@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 130,
-  "Name": "Gerhold LLC",
-  "Tooltip": "ut",
+  "HeadingId": 871,
+  "Name": "Schmitt, Mann and Oberbrunner",
+  "Tooltip": "sint",
   "Deleted": true,
-  "Rank": 216,
-  "UdListDefinitionId": 573
+  "Rank": 801,
+  "UdListDefinitionId": 910
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 146,
-  "Name": "Marquardt Inc and Sons",
-  "Tooltip": "quia",
+  "HeadingId": 850,
+  "Name": "Schroeder Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 332,
-  "UdListDefinitionId": 411,
+  "Rank": 398,
+  "UdListDefinitionId": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 996
     }
   }
 }

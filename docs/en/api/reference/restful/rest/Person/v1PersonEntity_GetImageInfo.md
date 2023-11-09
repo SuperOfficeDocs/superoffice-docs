@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 13 Jun 2015 03:24:51 G6T
+Last-Modified: Fri, 10 Jul 2020 11:06:42 G7T
 
 {
-  "BlobId": 523,
-  "BlobSize": 835,
-  "Description": "Ergonomic optimizing framework",
-  "ExtraInfo": "reprehenderit",
-  "IsEncrypted": true,
+  "BlobId": 152,
+  "BlobSize": 839,
+  "Description": "Ameliorated discrete neural-net",
+  "ExtraInfo": "sunt",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "a",
-  "OriginalSize": 902,
-  "CreatedDate": "2010-10-31T03:24:51.6930999+01:00",
-  "UpdatedDate": "2015-06-13T03:24:51.6930999+02:00",
+  "MimeType": "sequi",
+  "OriginalSize": 77,
+  "CreatedDate": "2016-09-03T11:06:42.0041001+02:00",
+  "UpdatedDate": "2020-07-10T11:06:42.0041001+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "corporis",
+  "ConceptualType": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 608
+      "FieldLength": 566
     }
   }
 }

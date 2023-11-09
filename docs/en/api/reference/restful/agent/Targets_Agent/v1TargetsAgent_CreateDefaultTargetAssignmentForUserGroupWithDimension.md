@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 764,
-  "TargetDimensionId": 668
+  "UserGroupId": 615,
+  "TargetDimensionId": 758
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 994,
+    "TargetAssignmentInfoId": 738,
     "Values": [
-      482,
-      876
+      65,
+      826
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 339,
-    "DimensionListItemDisplayName": "Zemlak Inc and Sons",
+    "DimensionListItem": 782,
+    "DimensionListItemDisplayName": "Fay, Greenfelder and Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 890
+        "FieldType": "System.Int32",
+        "FieldLength": 945
       }
     }
   }

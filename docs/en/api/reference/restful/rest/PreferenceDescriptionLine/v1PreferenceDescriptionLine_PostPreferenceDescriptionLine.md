@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 590,
-  "PrefDescId": 183,
-  "PrefValue": "nihil",
-  "PrefShowValue": "et",
-  "Description": "Team-oriented intangible collaboration",
+  "PrefDescLineId": 852,
+  "PrefDescId": 310,
+  "PrefValue": "quaerat",
+  "PrefShowValue": "sit",
+  "Description": "Fundamental interactive pricing structure",
   "IsBuiltin": true
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 857,
-  "PrefDescId": 734,
-  "PrefValue": "consectetur",
-  "PrefShowValue": "et",
-  "Description": "Persevering zero administration product",
-  "IsBuiltin": true,
+  "PrefDescLineId": 333,
+  "PrefDescId": 156,
+  "PrefValue": "maxime",
+  "PrefShowValue": "explicabo",
+  "Description": "Future-proofed disintermediate framework",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 295
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

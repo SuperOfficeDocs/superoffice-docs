@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Schinner, Nitzsche and Klocko"
+  "EntityName": "Farrell-Rath"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 650,
-  "DashboardId": 571,
-  "Height": 28,
-  "Width": 150,
-  "Rank": 909,
+  "DashboardTileId": 78,
+  "DashboardId": 37,
+  "Height": 150,
+  "Width": 429,
+  "Rank": 443,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   }
 }

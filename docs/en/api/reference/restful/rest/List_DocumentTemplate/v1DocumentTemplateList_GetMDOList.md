@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=ut
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=sint
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Gulgowski, Feeney and Huel",
-    "ToolTip": "Qui ut unde quidem ea quibusdam esse culpa.",
-    "Deleted": false,
-    "Rank": 168,
-    "Type": "in",
+    "Id": 831,
+    "Name": "Jerde-Breitenberg",
+    "ToolTip": "Unde cumque voluptatem exercitationem et voluptates.",
+    "Deleted": true,
+    "Rank": 615,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Fadel-Pagac",
-        "ToolTip": "Enim architecto rerum voluptatem consequuntur labore.",
-        "Deleted": true,
-        "Rank": 108,
-        "Type": "quas",
+        "Id": 458,
+        "Name": "Nitzsche Inc and Sons",
+        "ToolTip": "Laudantium id exercitationem deserunt.",
+        "Deleted": false,
+        "Rank": 164,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 759,
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptas",
-        "FullName": "Carlotta Huels",
+        "IconHint": "sint",
+        "ColorBlock": 384,
+        "ExtraInfo": "in",
+        "StyleHint": "consequatur",
+        "FullName": "Marcos O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 746
+            "FieldLength": 895
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 208,
-    "ExtraInfo": "in",
-    "StyleHint": "sit",
-    "FullName": "Dandre Marquardt",
+    "IconHint": "omnis",
+    "ColorBlock": 905,
+    "ExtraInfo": "ipsum",
+    "StyleHint": "reprehenderit",
+    "FullName": "Damon Grady IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 289
       }
     }
   }

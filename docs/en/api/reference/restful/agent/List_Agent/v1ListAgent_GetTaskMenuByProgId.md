@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "nesciunt"
+  "ProgId": "corrupti"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 128,
-  "Name": "McKenzie Inc and Sons",
-  "Tooltip": "dolor",
-  "TableName": "Brakus Inc and Sons",
-  "Area": "molestiae",
+  "TaskMenuId": 45,
+  "Name": "Schultz Group",
+  "Tooltip": "quibusdam",
+  "TableName": "Rohan Inc and Sons",
+  "Area": "beatae",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 680,
+  "CrmScriptId": 587,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 315,
+  "Rank": 238,
   "Encoding": "ANSI",
-  "ProgId": "voluptatum",
-  "Deleted": true,
+  "ProgId": "quasi",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 245
     }
   }
 }

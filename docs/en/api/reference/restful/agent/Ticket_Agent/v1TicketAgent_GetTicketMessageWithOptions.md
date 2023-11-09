@@ -103,7 +103,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 526,
+  "TicketMessageEntityId": 588,
   "IncludeNonInlineAttachmentsInfo": true
 }
 ```
@@ -115,78 +115,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 130,
+  "EjMessageId": 495,
   "Ticket": null,
-  "CreatedAt": "2001-03-18T03:24:48.5028909+01:00",
+  "CreatedAt": "2023-07-01T11:06:35.6471242+02:00",
   "CreatedBy": null,
-  "Author": "eum",
+  "Author": "rem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vel",
-  "TimeSpent": 935,
-  "Body": "ad",
-  "HtmlBody": "provident",
-  "EmailHeader": "minerva_brown@deckowmetz.name",
-  "DebugInfo": "sit",
-  "MailSorter": "in",
+  "MessageId": "sapiente",
+  "TimeSpent": 23,
+  "Body": "non",
+  "HtmlBody": "et",
+  "EmailHeader": "kian@waelchihartmann.uk",
+  "DebugInfo": "illum",
+  "MailSorter": "laboriosam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "officiis",
+  "SearchTitle": "ipsam",
   "MessageHeaders": [
     {
-      "Id": 392,
-      "Name": "Mohr Inc and Sons",
-      "Value": "et",
+      "Id": 937,
+      "Name": "Considine Group",
+      "Value": "neque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldType": "System.Int32",
+          "FieldLength": 588
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "non",
-  "Sentiment": 379,
-  "SentimentConfidence": 49,
+  "Important": false,
+  "Language": "dolor",
+  "Sentiment": 548,
+  "SentimentConfidence": 652,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 878,
-      "Name": "Von, Boyer and Beatty",
-      "ContentType": "id",
-      "AttSize": 791,
-      "InlineImage": true,
-      "ContentId": "quidem",
-      "AuthKey": "ab",
+      "AttachmentId": 655,
+      "Name": "Nienow, Kuhn and Goodwin",
+      "ContentType": "at",
+      "AttSize": 551,
+      "InlineImage": false,
+      "ContentId": "facere",
+      "AuthKey": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 874
+          "FieldLength": 284
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "at",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "velit"
+    "CustomFields1": "error",
+    "CustomFields2": "assumenda"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   }
 }

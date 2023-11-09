@@ -46,6 +46,13 @@ so.topic: reference
 
 ## New MDO Providers
 
+* v10.2.9
+  * [ShipmentLinks][180]
+  * [SpecifiedMailings][181]
+  * [TimeZoneIANA][182]
+  * [WorkflowTimeWaitAlgorithm][183]
+  * [WorkflowTimeWaitIntervalType][184]
+
 * v10.2.8
   * [AppointmentResource][140]
   * [contact_and_person_freetextsearch][141]
@@ -76,6 +83,17 @@ so.topic: reference
 
 | Agent Name       | Method Name                            | Version | REST Agent      | SOAP Agent      |
 |------------------|----------------------------------------|:-------:|-----------------|-----------------|
+|IAIAgent          | ExpandText                             |10.2.9   | [REST Link][185]| [SOAP Link][197] |
+|IAIAgent          | GetChatbotPromptSuggestions            |10.2.9   | [REST Link][186]| [SOAP Link][198] |
+|IAIAgent          | GetChatbotResponse                     |10.2.9   | [REST Link][187]| [SOAP Link][199] |
+|IAIAgent          | GetSummarizeContactPrompt              |10.2.9   | [REST Link][188]| [SOAP Link][200] |
+|IAIAgent          | GetSummarizeSalePrompt                 |10.2.9   | [REST Link][189]| [SOAP Link][201] |
+|IAIAgent          | GetSummarizeTicketPrompt               |10.2.9   | [REST Link][190]| [SOAP Link][202] |
+|IAIAgent          | RephraseText                           |10.2.9   | [REST Link][191]| [SOAP Link][203] |
+|IAIAgent          | SummarizeContact                       |10.2.9   | [REST Link][192]| [SOAP Link][204] |
+|IAIAgent          | SummarizeSale                          |10.2.9   | [REST Link][193]| [SOAP Link][205] |
+|IAIAgent          | SummarizeText                          |10.2.9   | [REST Link][194]| [SOAP Link][206] |
+|IAIAgent          | SummarizeTicket                        |10.2.9   | [REST Link][195]| [SOAP Link][207] |
 |IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode    |10.2.3   | [REST Link][44] | [SOAP Link][45] |
 |IAppointmentAgent | CreateAppointmentEntityFromExisting    |10.2.8   | [REST Link][137]| [REST Link][138]|
 |IAppointmentAgent | SetSeenMany                            |10.2.2   | [REST Link][60] | [SOAP Link][61] |
@@ -114,6 +132,7 @@ so.topic: reference
 |ITicketAgent      | CopyFromCRMDocument                    |10.2.3   | [REST Link][48] | [SOAP Link][49] |
 |ITicketAgent      | CopyToTempFile                         |10.2.6   | [REST Link][125]| [SOAP Link][126]|
 |ITicketAgent      | GetNextInQueue                         |10.2.3   | [REST Link][50] | [SOAP Link][51] |
+|ITicketAgent      | GetTicketMessageEntities               |10.2.9   | [REST Link][196]| [SOAP Link][208]   |
 |ITicketAgent      | GetTicketMessageWithOptions            |10.2.1   | [REST Link][20] | [SOAP Link][38] |
 |ITicketAgent      | SplitTicket                            |10.2.8   | [REST Link][163]| [SOAP Link][164]|
 |ITicketAgent      | UndeleteByIds                          |10.2.1   | [REST Link][21] | [SOAP Link][39] |
@@ -232,6 +251,7 @@ services.AddLogging(a =>
 * [Version 10.2.5][134]
 * [Version 10.2.6][135]
 * [Version 10.2.8][136]
+* [Version 10.2.9][209]
 
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
@@ -431,3 +451,35 @@ services.AddLogging(a =>
 [178]: ../../../docs/en/api/reference/soap/Services88/List/GetAllTicketTypeEntities.md
 
 [179]: ../../../docs/en/api/mdo-providers/reference/tickettype.md
+
+[180]: ../../../docs/en/api/mdo-providers/reference/shipmentlinks.md
+[181]: ../../../docs/en/api/mdo-providers/reference/specifiedmailings.md
+[182]: ../../../docs/en/api/mdo-providers/reference/timezoneiana.md
+[183]: ../../../docs/en/api/mdo-providers/reference/workflowtimewaitalgorithm.md
+[184]: ../../../docs/en/api/mdo-providers/reference/workflowtimewaitintervaltype.md
+
+[185]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_ExpandText.md
+[186]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_GetChatbotPromptSuggestions.md
+[187]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_GetChatbotResponse.md
+[188]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_GetSummarizeContactPrompt.md
+[189]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_GetSummarizeSalePrompt.md
+[190]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_GetSummarizeTicketPrompt.md
+[191]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_RephraseText.md
+[192]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_SummarizeContact.md
+[193]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_SummarizeSale.md
+[194]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_SummarizeText.md
+[195]: ../../../docs/en/api/reference/restful/agent/AI_Agent/v1AIAgent_SummarizeTicket.md
+[196]: ../../../docs/en/api/reference/restful/agent/Ticket_Agent/v1TicketAgent_GetTicketMessageEntities.md
+[197]: ../../../docs/en/api/reference/soap/Services88/AI/ExpandText.md
+[198]: ../../../docs/en/api/reference/soap/Services88/AI/GetChatbotPromptSuggestions.md
+[199]: ../../../docs/en/api/reference/soap/Services88/AI/GetChatbotResponse.md
+[200]: ../../../docs/en/api/reference/soap/Services88/AI/GetSummarizeContactPrompt.md
+[201]: ../../../docs/en/api/reference/soap/Services88/AI/GetSummarizeSalePrompt.md
+[202]: ../../../docs/en/api/reference/soap/Services88/AI/GetSummarizeTicketPrompt.md
+[203]: ../../../docs/en/api/reference/soap/Services88/AI/RephraseText.md
+[204]: ../../../docs/en/api/reference/soap/Services88/AI/SummarizeContact.md
+[205]: ../../../docs/en/api/reference/soap/Services88/AI/SummarizeSale.md
+[206]: ../../../docs/en/api/reference/soap/Services88/AI/SummarizeText.md
+[207]: ../../../docs/en/api/reference/soap/Services88/AI/SummarizeTicket.md
+[208]: ../../../docs/en/api/reference/soap/Services88/Ticket/GetTicketMessageEntities.md
+[209]: 10.2.9-update.md

@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 991,
-  "ERPPriceListKey": "fugiat",
-  "QuoteConnectionId": 880,
-  "Name": "Koss, Windler and Frami",
-  "Description": "Intuitive radical approach",
-  "Currency": "quasi",
-  "CurrencyName": "Ward LLC",
-  "ValidFrom": "2021-04-24T03:24:52.3025813+02:00",
-  "ValidTo": "2017-01-26T03:24:52.3025813+01:00",
+  "PriceListId": 256,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 857,
+  "Name": "Davis, Kemmer and Lehner",
+  "Description": "Business-focused real-time system engine",
+  "Currency": "dolor",
+  "CurrencyName": "Marvin, Erdman and Leuschke",
+  "ValidFrom": "2018-02-28T11:06:42.8971908+01:00",
+  "ValidTo": "2022-03-26T11:06:42.8971908+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldType": "System.String",
+      "FieldLength": 802
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

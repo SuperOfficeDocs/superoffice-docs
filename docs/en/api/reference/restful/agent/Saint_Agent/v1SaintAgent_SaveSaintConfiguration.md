@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 204,
+  "OwnerTable": 363,
   "Enabled": true,
-  "Period1": 841,
-  "Period2": 770,
-  "Period3": 658,
-  "GenerationStart": "2007-08-21T03:24:48.1738537+02:00",
-  "GenerationEnd": "2012-02-17T03:24:48.1738537+01:00",
-  "RowsGenerated": 440
+  "Period1": 573,
+  "Period2": 901,
+  "Period3": 529,
+  "GenerationStart": "2006-12-02T11:06:35.2708148+01:00",
+  "GenerationEnd": "2012-07-07T11:06:35.2708148+02:00",
+  "RowsGenerated": 12
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 256,
+  "OwnerTable": 84,
   "Enabled": false,
-  "Period1": 269,
-  "Period2": 358,
-  "Period3": 718,
-  "GenerationStart": "2016-04-24T03:24:48.1738537+02:00",
-  "GenerationEnd": "2014-02-03T03:24:48.1738537+01:00",
-  "RowsGenerated": 327,
+  "Period1": 519,
+  "Period2": 307,
+  "Period3": 722,
+  "GenerationStart": "2022-03-11T11:06:35.2708148+01:00",
+  "GenerationEnd": "2009-05-19T11:06:35.2708148+02:00",
+  "RowsGenerated": 688,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

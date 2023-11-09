@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed client-server intranet",
-  "Postit": "vel",
+  "Description": "Stand-alone neutral array",
+  "Postit": "veniam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 189,
-  "IncludePerson": 13,
-  "MemberCount": 530,
-  "Name": "Zieme, Boehm and Hamill",
-  "PostitTextId": 980,
-  "CreatedDate": "2014-09-03T03:24:51.9119624+02:00",
-  "SelectionId": 902,
-  "SoundEx": "perspiciatis",
-  "Source": 329,
-  "TextId": 447,
-  "UpdatedDate": "2006-06-08T03:24:51.9119624+02:00",
-  "UpdatedCount": 642,
-  "Visibility": 320,
+  "GroupIdx": 288,
+  "IncludePerson": 359,
+  "MemberCount": 353,
+  "Name": "Cummerata, Kilback and Tromp",
+  "PostitTextId": 816,
+  "CreatedDate": "1998-01-21T11:06:42.2072253+01:00",
+  "SelectionId": 885,
+  "SoundEx": "molestias",
+  "Source": 551,
+  "TextId": 566,
+  "UpdatedDate": "2013-05-22T11:06:42.2072253+02:00",
+  "UpdatedCount": 219,
+  "Visibility": 537,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 118,
-  "TargetTableName": "Berge-Glover",
+  "CompanyUnique": false,
+  "TargetTableNumber": 431,
+  "TargetTableName": "Schuster, Ferry and Ryan",
   "Completed": true,
-  "LeftSelectionId": 382,
-  "RightSelectionId": 975,
+  "LeftSelectionId": 901,
+  "RightSelectionId": 777,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hegmann LLC",
-  "ShadowProviderName": "Nolan-Marks",
-  "ChartKey": "dolor",
-  "LastLoaded": "2013-10-26T03:24:51.9119624+02:00",
-  "LastLoadedBy": 778,
+  "MainProviderName": "Hamill-Weissnat",
+  "ShadowProviderName": "Powlowski, Carroll and Wolf",
+  "ChartKey": "asperiores",
+  "LastLoaded": "2011-11-02T11:06:42.2072253+01:00",
+  "LastLoadedBy": 101,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-02-20T03:24:51.9119624+01:00",
-  "LastMembershipChangeBy": 572,
+  "LastMembershipChange": "2016-05-03T11:06:42.2072253+02:00",
+  "LastMembershipChangeBy": 718,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Adams, Breitenberg and Cruickshank",
-  "DashboardTileDefinitionId": 751,
+  "MainHeading": "delectus",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Upton, Witting and Streich",
+  "DashboardTileDefinitionId": 563,
   "VisibleFor": [
     {
-      "VisibleId": 505,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "officiis"
+      "DisplayValue": "assumenda"
     },
     {
-      "VisibleId": 505,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "officiis"
+      "DisplayValue": "assumenda"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual regional open architecture",
-  "Postit": "quaerat",
+  "Description": "Cross-group human-resource open system",
+  "Postit": "temporibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 67,
-  "IncludePerson": 764,
-  "MemberCount": 528,
-  "Name": "Von Inc and Sons",
-  "PostitTextId": 268,
-  "CreatedDate": "1998-10-09T03:24:51.9119624+02:00",
-  "SelectionId": 728,
-  "SoundEx": "quaerat",
-  "Source": 469,
-  "TextId": 347,
-  "UpdatedDate": "2000-08-25T03:24:51.9119624+02:00",
-  "UpdatedCount": 431,
-  "Visibility": 486,
+  "GroupIdx": 630,
+  "IncludePerson": 241,
+  "MemberCount": 610,
+  "Name": "Kunze Inc and Sons",
+  "PostitTextId": 31,
+  "CreatedDate": "2001-02-22T11:06:42.2072253+01:00",
+  "SelectionId": 306,
+  "SoundEx": "voluptatum",
+  "Source": 94,
+  "TextId": 585,
+  "UpdatedDate": "2010-12-30T11:06:42.2072253+01:00",
+  "UpdatedCount": 175,
+  "Visibility": 10,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 457,
-  "TargetTableName": "Murazik Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 260,
+  "TargetTableName": "Braun-Emard",
   "Completed": false,
-  "LeftSelectionId": 911,
-  "RightSelectionId": 804,
+  "LeftSelectionId": 469,
+  "RightSelectionId": 827,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Trantow, Shields and Carroll",
-  "ShadowProviderName": "Windler Group",
-  "ChartKey": "dolorem",
-  "LastLoaded": "1997-03-19T03:24:51.9119624+01:00",
-  "LastLoadedBy": 388,
+  "MainProviderName": "Larkin Group",
+  "ShadowProviderName": "Zboncak Inc and Sons",
+  "ChartKey": "et",
+  "LastLoaded": "2003-11-06T11:06:42.2072253+01:00",
+  "LastLoadedBy": 371,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-08-14T03:24:51.9119624+02:00",
-  "LastMembershipChangeBy": 465,
+  "LastMembershipChange": "2008-11-11T11:06:42.2072253+01:00",
+  "LastMembershipChangeBy": 379,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "commodi",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Moen-Keeling",
-  "DashboardTileDefinitionId": 312,
+  "MainHeading": "velit",
+  "MemberTabHeading": "veritatis",
+  "MailingsProviderName": "Abbott-Huel",
+  "DashboardTileDefinitionId": 788,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 229,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 229,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldType": "System.String",
+          "FieldLength": 56
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 292
     }
   },
   "_Links": {

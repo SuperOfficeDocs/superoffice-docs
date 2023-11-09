@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 19,
+  "EjMessageId": 450,
   "Ticket": null,
-  "CreatedAt": "2019-03-03T03:24:51.9901188+01:00",
+  "CreatedAt": "2000-06-26T11:06:42.316602+02:00",
   "CreatedBy": null,
-  "Author": "quas",
+  "Author": "voluptate",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dicta",
-  "TimeSpent": 209,
-  "Body": "sit",
-  "HtmlBody": "tempora",
-  "EmailHeader": "darien@marks.ca",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "repellendus",
+  "MessageId": "illum",
+  "TimeSpent": 360,
+  "Body": "sunt",
+  "HtmlBody": "sed",
+  "EmailHeader": "aubree_mcdermott@green.info",
+  "DebugInfo": "repellendus",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "repudiandae",
+  "SearchTitle": "totam",
   "MessageHeaders": [
     {
-      "Id": 47,
-      "Name": "Bernhard-Emmerich",
-      "Value": "quas",
+      "Id": 663,
+      "Name": "Cronin Inc and Sons",
+      "Value": "temporibus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,49 +121,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 511
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptatibus",
-  "Sentiment": 737,
-  "SentimentConfidence": 596,
+  "Language": "fuga",
+  "Sentiment": 748,
+  "SentimentConfidence": 76,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 151,
-      "Name": "Gutmann Inc and Sons",
-      "ContentType": "voluptatem",
-      "AttSize": 32,
+      "AttachmentId": 963,
+      "Name": "Bogan-Larkin",
+      "ContentType": "et",
+      "AttSize": 677,
       "InlineImage": false,
-      "ContentId": "culpa",
-      "AuthKey": "quo",
+      "ContentId": "praesentium",
+      "AuthKey": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 107
+          "FieldLength": 569
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "itaque",
-    "CustomFields2": "magni"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldType": "System.Int32",
+      "FieldLength": 557
     }
   }
 }

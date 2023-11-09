@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 277,
-  "ParentId": 816,
-  "Name": "Swift-Lebsack",
-  "Fullname": "ut",
-  "CategoryMaster": 431,
+  "TicketCategoryId": 794,
+  "ParentId": 662,
+  "Name": "Dietrich Group",
+  "Fullname": "assumenda",
+  "CategoryMaster": 582,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Brekke-Koepp",
+  "ExternalName": "Steuber Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 425,
-  "ReplyTemplate": 973,
-  "NotificationEmail": "ashlynn_heidenreich@doyle.us",
+  "AssignmentLag": 717,
+  "ReplyTemplate": 130,
+  "NotificationEmail": "gustave@bartonwolf.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 439,
+  "EffectiveReplyTemplateId": 936,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "at",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "est"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "sed"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 951,
-  "ParentId": 996,
-  "Name": "Ritchie, Koepp and Koelpin",
-  "Fullname": "corporis",
-  "CategoryMaster": 497,
+  "TicketCategoryId": 325,
+  "ParentId": 732,
+  "Name": "Skiles-Monahan",
+  "Fullname": "ea",
+  "CategoryMaster": 589,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Heidenreich, Goodwin and Mosciski",
+  "ExternalName": "Kerluke, Mante and Howell",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 366,
-  "ReplyTemplate": 273,
-  "NotificationEmail": "vernice.von@kuphal.ca",
+  "AssignmentLag": 402,
+  "ReplyTemplate": 216,
+  "NotificationEmail": "marcella@langosh.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 167,
+  "EffectiveReplyTemplateId": 836,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "minima"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

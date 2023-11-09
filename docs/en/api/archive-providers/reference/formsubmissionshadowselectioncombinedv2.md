@@ -467,7 +467,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=person/personDirectFax/formattedNumber,person/personAddress/line3,person/personAssociate/middleName,person/correspondingAssociate/contactName,contact/contactUdef/SuperOffice:3
+GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=person/correspondingAssociate/isActiveText,contact/contactPhone/description,contact/contactAssociate/associateDbId,contact/contactAssociate/assocTooltip,contact/contactAssociate/ejUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolore"
+  "ProgId": "error"
 }
 ```
 
@@ -108,33 +108,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 493,
-  "Name": "Rohan-Larson",
-  "Tooltip": "placeat",
+  "WebPanelId": 49,
+  "Name": "Waelchi-Kub",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 7,
+  "Rank": 590,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Hartmann, Murazik and Walsh",
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "McKenzie LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "eveniet",
-  "Icon": 753,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "perspiciatis",
+  "Icon": 44,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 915
     }
   }
 }

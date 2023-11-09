@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 377,
-  "LanguageId": 914
+  "ReplyTemplateId": 320,
+  "LanguageId": 666
 }
 ```
 
@@ -96,35 +96,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 859,
-  "PlainParsed": "et",
-  "HtmlParsed": "quod",
+  "ReplyTemplateId": 159,
+  "PlainParsed": "aut",
+  "HtmlParsed": "qui",
   "Attachments": [
     {
-      "AttachmentId": 285,
-      "Name": "Kassulke, Waters and Corwin",
-      "ContentType": "praesentium",
-      "AttSize": 87,
-      "InlineImage": false,
-      "ContentId": "commodi",
-      "AuthKey": "id",
+      "AttachmentId": 816,
+      "Name": "Franecki-Cassin",
+      "ContentType": "incidunt",
+      "AttSize": 231,
+      "InlineImage": true,
+      "ContentId": "provident",
+      "AuthKey": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 378
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     }
   ],
-  "Subject": "est",
+  "Subject": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 187
     }
   }
 }

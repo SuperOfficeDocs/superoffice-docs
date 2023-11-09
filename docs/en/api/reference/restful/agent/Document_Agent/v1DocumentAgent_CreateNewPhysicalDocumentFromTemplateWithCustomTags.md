@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 381,
-  "PersonId": 889,
-  "AppointmentId": 350,
-  "DocumentId": 321,
-  "SaleId": 794,
-  "SelectionId": 942,
-  "ProjectId": 307,
+  "ContactId": 609,
+  "PersonId": 206,
+  "AppointmentId": 166,
+  "DocumentId": 316,
+  "SaleId": 634,
+  "SelectionId": 622,
+  "ProjectId": 850,
   "CustomTags": [
-    "sed",
-    "minus"
+    "fugiat",
+    "reiciendis"
   ],
   "CustomValues": [
-    "illo",
-    "aut"
+    "possimus",
+    "nulla"
   ],
-  "UiCulture": "iusto"
+  "UiCulture": "sint"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 500,
+  "DocumentId": 602,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "sit",
-  "Name": "Robel, Durgan and Kautzer",
-  "OurRef": "eos",
-  "YourRef": "voluptates",
-  "CreatedDate": "2001-07-02T03:24:47.6582818+02:00",
-  "UpdatedDate": "2020-10-24T03:24:47.6582818+02:00",
-  "Description": "Mandatory motivating hub",
+  "Attention": "aut",
+  "Header": "dolores",
+  "Name": "Veum LLC",
+  "OurRef": "id",
+  "YourRef": "ut",
+  "CreatedDate": "2015-05-01T11:06:34.395813+02:00",
+  "UpdatedDate": "2002-09-25T11:06:34.395813+02:00",
+  "Description": "Mandatory impactful approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-07-16T03:24:47.6582818+02:00",
-  "ExternalRef": "provident",
+  "Date": "2020-06-20T11:06:34.395813+02:00",
+  "ExternalRef": "placeat",
   "Completed": "Completed",
-  "ActiveLinks": 36,
+  "ActiveLinks": 129,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sauer-Jast",
-      "Id": 885,
-      "Description": "Ameliorated real-time budgetary management",
-      "ExtraInfo": "suscipit",
-      "LinkId": 456,
+      "EntityName": "Mosciski, Gleichner and Breitenberg",
+      "Id": 85,
+      "Description": "Vision-oriented reciprocal toolset",
+      "ExtraInfo": "aut",
+      "LinkId": 813,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldLength": 982
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 779,
-  "Snum": 145,
+  "SuggestedDocumentId": 251,
+  "Snum": 482,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Fern Haley"
+    "SuperOffice:1": "Ebba Beier Sr.",
+    "SuperOffice:2": "2016559702"
   },
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "dolor"
+    "CustomFields1": "rerum",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "2000-12-05T03:24:47.6582818+01:00",
-  "PublishTo": "2017-08-25T03:24:47.6582818+02:00",
-  "PublishFrom": "2012-05-20T03:24:47.6582818+02:00",
+  "PublishEventDate": "2005-05-18T11:06:34.395813+02:00",
+  "PublishTo": "2004-06-25T11:06:34.395813+02:00",
+  "PublishFrom": "2018-08-27T11:06:34.395813+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 360,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 628
         }
       }
     },
     {
-      "VisibleId": 360,
+      "VisibleId": 160,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 628
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 875
     }
   }
 }

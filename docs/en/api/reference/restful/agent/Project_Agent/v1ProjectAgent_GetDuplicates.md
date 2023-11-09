@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Padberg Group"
+  "Name": "Kilback-Lindgren"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Trantow, Ondricka and Hodkiewicz",
-    "SoPrimaryKey": 895,
-    "EntryName": "Kiehn LLC",
-    "EntryIdentifier": "ut",
-    "RuleDisplayName": "Upton Group",
+    "RuleName": "Mann LLC",
+    "SoPrimaryKey": 608,
+    "EntryName": "Green, Wunsch and Paucek",
+    "EntryIdentifier": "consectetur",
+    "RuleDisplayName": "Stokes-Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

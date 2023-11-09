@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 70,
-  "SaleId": 583,
-  "QuoteConnectionId": 889,
-  "ERPQuoteKey": "eos",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 792,
-  "AcceptedQuoteAlternativeId": 576,
-  "UseValuesFromQuote": 609,
-  "DocumentId": 836,
-  "PoNumber": "1143412",
-  "OrderComment": "totam",
-  "PreferredEmailCulture": "kaya.rutherford@treutelwunsch.com",
+  "QuoteId": 403,
+  "SaleId": 415,
+  "QuoteConnectionId": 994,
+  "ERPQuoteKey": "earum",
+  "ERPOrderKey": "ullam",
+  "ActiveQuoteVersionId": 539,
+  "AcceptedQuoteAlternativeId": 692,
+  "UseValuesFromQuote": 97,
+  "DocumentId": 579,
+  "PoNumber": "812353",
+  "OrderComment": "exercitationem",
+  "PreferredEmailCulture": "darren.erdman@emardkuphal.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 848,
-      "ERPQuoteVersionKey": "illum",
-      "QuoteId": 892,
-      "Description": "Up-sized attitude-oriented standardization",
-      "Number": "263566",
+      "QuoteVersionId": 124,
+      "ERPQuoteVersionKey": "incidunt",
+      "QuoteId": 603,
+      "Description": "Organic user-facing knowledge base",
+      "Number": "1527284",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 993,
-      "SentDate": "2009-10-03T03:24:48.1426062+02:00",
-      "FollowupId": 85,
-      "ExpirationDate": "2013-01-09T03:24:48.1426062+01:00",
-      "DeliveryCountryId": 680,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 366,
+      "LikelyQuoteAlternativeId": 570,
+      "SentDate": "2005-02-04T11:06:35.2239506+01:00",
+      "FollowupId": 141,
+      "ExpirationDate": "1999-05-10T11:06:35.2239506+02:00",
+      "DeliveryCountryId": 622,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 351,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "ad",
-      "ERPPaymentTypeKey": "sed",
-      "ERPDeliveryTermsKey": "aut",
-      "ERPDeliveryTypeKey": "eligendi",
-      "Rank": 421,
-      "ApprovedBy": 730,
-      "ApprovedText": "sequi",
-      "ApprovedRegisteredBy": 562,
-      "ApprovedRegisteredDate": "2007-10-09T03:24:48.1426062+02:00",
-      "ExtraField1": "corporis",
-      "ExtraField2": "debitis",
-      "ExtraField3": "et",
-      "ExtraField4": "cum",
-      "ExtraField5": "dolores",
-      "LastRecalculated": "2005-09-04T03:24:48.1426062+02:00",
-      "Updated": "2014-03-21T03:24:48.1426062+01:00",
-      "UpdatedAssociateId": 936,
-      "Registered": "2004-08-20T03:24:48.1426062+02:00",
-      "RegisteredAssociateId": 15,
-      "RequestAssociateId": 641,
-      "RequestComment": "eveniet",
+      "ERPPaymentTermsKey": "voluptatem",
+      "ERPPaymentTypeKey": "quo",
+      "ERPDeliveryTermsKey": "corporis",
+      "ERPDeliveryTypeKey": "iusto",
+      "Rank": 723,
+      "ApprovedBy": 641,
+      "ApprovedText": "assumenda",
+      "ApprovedRegisteredBy": 9,
+      "ApprovedRegisteredDate": "2008-12-04T11:06:35.2239506+01:00",
+      "ExtraField1": "commodi",
+      "ExtraField2": "quae",
+      "ExtraField3": "labore",
+      "ExtraField4": "culpa",
+      "ExtraField5": "repellendus",
+      "LastRecalculated": "1997-05-30T11:06:35.2239506+02:00",
+      "Updated": "1997-07-07T11:06:35.2239506+02:00",
+      "UpdatedAssociateId": 621,
+      "Registered": "2015-07-20T11:06:35.2239506+02:00",
+      "RegisteredAssociateId": 276,
+      "RequestAssociateId": 661,
+      "RequestComment": "cumque",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 808
+          "FieldLength": 686
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   }
 }

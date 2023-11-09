@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Value": "repellendus",
-    "Tooltip": "dignissimos",
+    "Id": 783,
+    "Value": "modi",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldType": "System.String",
+        "FieldLength": 460
       }
     }
   },
   {
-    "Id": 956,
-    "Value": "repellendus",
-    "Tooltip": "dignissimos",
+    "Id": 783,
+    "Value": "modi",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldType": "System.String",
+        "FieldLength": 460
       }
     }
   }

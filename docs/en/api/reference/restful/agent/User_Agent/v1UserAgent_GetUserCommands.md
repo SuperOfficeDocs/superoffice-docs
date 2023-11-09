@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collier-Huels",
-    "DisplayName": "Boyle, Stokes and Fahey",
-    "Description": "Distributed grid-enabled leverage",
-    "ToolTip": "Ratione quia minus excepturi vero rerum.",
+    "Name": "Sanford-Nikolaus",
+    "DisplayName": "Prosacco, Hagenes and Kunze",
+    "Description": "Multi-tiered non-volatile architecture",
+    "ToolTip": "Magni ipsum voluptas.",
     "Actions": "Implicit",
-    "ActionData": "est",
+    "ActionData": "totam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 927
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 860,
-    "Name": "Heidenreich, Waelchi and Pouros",
-    "Tooltip": "eos",
+    "HeadingId": 682,
+    "Name": "Shields, Goodwin and Erdman",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 452,
-    "UdListDefinitionId": 722,
+    "Rank": 49,
+    "UdListDefinitionId": 291,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 482
+        "FieldLength": 146
       }
     }
   }

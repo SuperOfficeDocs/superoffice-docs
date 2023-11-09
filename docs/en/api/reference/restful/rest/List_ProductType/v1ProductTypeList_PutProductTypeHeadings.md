@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 261,
-    "Name": "Heidenreich, Lakin and Lockman",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 883,
-    "UdListDefinitionId": 574
+    "HeadingId": 715,
+    "Name": "Stroman-Harris",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 849,
+    "UdListDefinitionId": 862
   },
   {
-    "HeadingId": 261,
-    "Name": "Heidenreich, Lakin and Lockman",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 883,
-    "UdListDefinitionId": 574
+    "HeadingId": 715,
+    "Name": "Stroman-Harris",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 849,
+    "UdListDefinitionId": 862
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 153,
-    "Name": "Howe LLC",
-    "Tooltip": "vitae",
+    "HeadingId": 36,
+    "Name": "Stracke-Larkin",
+    "Tooltip": "expedita",
     "Deleted": false,
-    "Rank": 108,
-    "UdListDefinitionId": 953,
+    "Rank": 376,
+    "UdListDefinitionId": 239,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

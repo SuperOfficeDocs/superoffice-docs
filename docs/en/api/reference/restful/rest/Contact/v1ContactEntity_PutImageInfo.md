@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 757,
-  "BlobSize": 778,
-  "Description": "Re-engineered client-server toolset",
-  "ExtraInfo": "sapiente",
-  "IsEncrypted": false,
+  "BlobId": 284,
+  "BlobSize": 77,
+  "Description": "Stand-alone mobile initiative",
+  "ExtraInfo": "aut",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "cum",
-  "OriginalSize": 359,
-  "CreatedDate": "2018-12-16T03:24:51.459286+01:00",
-  "UpdatedDate": "1998-10-26T03:24:51.459286+01:00",
+  "MimeType": "aperiam",
+  "OriginalSize": 793,
+  "CreatedDate": "2021-05-28T11:06:41.5666165+02:00",
+  "UpdatedDate": "2022-05-12T11:06:41.5666165+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "facilis"
+  "ConceptualType": "dolores"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 624,
-  "BlobSize": 909,
-  "Description": "Multi-lateral fault-tolerant utilisation",
-  "ExtraInfo": "ad",
+  "BlobId": 754,
+  "BlobSize": 805,
+  "Description": "Reverse-engineered bifurcated attitude",
+  "ExtraInfo": "assumenda",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "temporibus",
-  "OriginalSize": 894,
-  "CreatedDate": "2014-03-20T03:24:51.459286+01:00",
-  "UpdatedDate": "2008-04-01T03:24:51.459286+02:00",
+  "MimeType": "incidunt",
+  "OriginalSize": 841,
+  "CreatedDate": "2023-09-08T11:06:41.5666165+02:00",
+  "UpdatedDate": "2016-07-28T11:06:41.5666165+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "architecto",
+  "ConceptualType": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

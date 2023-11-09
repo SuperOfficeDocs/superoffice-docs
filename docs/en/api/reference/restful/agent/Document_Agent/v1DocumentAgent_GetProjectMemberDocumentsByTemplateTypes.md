@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 904,
-  "StartTime": "1999-07-06T03:24:47.5176724+02:00",
-  "EndTime": "2016-08-23T03:24:47.5176724+02:00",
-  "Count": 394,
+  "PersonId": 92,
+  "StartTime": "2002-10-24T11:06:34.3008382+02:00",
+  "EndTime": "1997-03-23T11:06:34.3008382+01:00",
+  "Count": 158,
   "DocumentTemplateIds": [
-    68,
-    209
+    209,
+    179
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 555,
-    "Attention": "incidunt",
-    "Header": "eum",
-    "Name": "Roob, Conn and Mitchell",
-    "OurRef": "porro",
-    "YourRef": "sint",
-    "Description": "Progressive exuding monitoring",
-    "DocumentTemplate": "deserunt",
-    "IsPublished": false,
-    "PersonId": 993,
-    "PersonFullName": "Mrs. Lila Adams",
-    "AssociateFullName": "Major Bins",
-    "ContactId": 248,
-    "ContactName": "Mante Inc and Sons",
-    "ProjectId": 788,
-    "ProjectName": "Treutel-D'Amore",
-    "AssociateId": 497,
-    "Snum": 475,
-    "SaleId": 708,
-    "SaleName": "Purdy-Luettgen",
+    "DocumentId": 202,
+    "Attention": "suscipit",
+    "Header": "adipisci",
+    "Name": "Witting Inc and Sons",
+    "OurRef": "ea",
+    "YourRef": "nam",
+    "Description": "Synergized intermediate function",
+    "DocumentTemplate": "similique",
+    "IsPublished": true,
+    "PersonId": 282,
+    "PersonFullName": "Prof. Fern Lincoln Mills",
+    "AssociateFullName": "Ms. Maegan Lueilwitz",
+    "ContactId": 3,
+    "ContactName": "Waelchi Inc and Sons",
+    "ProjectId": 791,
+    "ProjectName": "Mraz-Prosacco",
+    "AssociateId": 303,
+    "Snum": 536,
+    "SaleId": 617,
+    "SaleName": "Jast-Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 700
       }
     }
   }

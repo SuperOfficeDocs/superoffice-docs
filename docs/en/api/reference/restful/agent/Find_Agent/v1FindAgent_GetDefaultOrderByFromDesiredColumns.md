@@ -79,10 +79,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Krajcik, Hayes and Sporer",
+  "ProviderName": "Littel Inc and Sons",
   "DesiredColumns": [
-    "totam",
-    "cum"
+    "omnis",
+    "aperiam"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Welch Inc and Sons",
+    "Name": "Luettgen, Hickle and Heaney",
     "Direction": "ASC"
   },
   {
-    "Name": "Welch Inc and Sons",
+    "Name": "Luettgen, Hickle and Heaney",
     "Direction": "ASC"
   }
 ]

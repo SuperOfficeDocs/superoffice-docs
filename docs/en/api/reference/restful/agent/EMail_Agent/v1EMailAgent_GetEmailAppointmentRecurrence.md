@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 139
+  "MailItemId": 491
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 370,
-  "StartDate": "2013-07-30T03:24:47.7207759+02:00",
-  "EndDate": "2000-01-29T03:24:47.7207759+01:00",
-  "RecurrenceCounter": 928,
+  "RecurrenceId": 956,
+  "StartDate": "2017-06-24T11:06:34.4895565+02:00",
+  "EndDate": "2009-07-02T11:06:34.4895565+02:00",
+  "RecurrenceCounter": 289,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2002-12-20T03:24:47.7207759+01:00",
-      "IsConflict": false,
-      "Description": "Exclusive regional methodology",
-      "DescriptionStyleHint": "Synergistic user-facing intranet",
-      "Tooltip": "dolorum"
+      "Date": "2022-06-27T11:06:34.4895565+02:00",
+      "IsConflict": true,
+      "Description": "Secured discrete migration",
+      "DescriptionStyleHint": "Horizontal executive info-mediaries",
+      "Tooltip": "ducimus"
     },
     {
-      "Date": "2002-12-20T03:24:47.7207759+01:00",
-      "IsConflict": false,
-      "Description": "Exclusive regional methodology",
-      "DescriptionStyleHint": "Synergistic user-facing intranet",
-      "Tooltip": "dolorum"
+      "Date": "2022-06-27T11:06:34.4895565+02:00",
+      "IsConflict": true,
+      "Description": "Secured discrete migration",
+      "DescriptionStyleHint": "Horizontal executive info-mediaries",
+      "Tooltip": "ducimus"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

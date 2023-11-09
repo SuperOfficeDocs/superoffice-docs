@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=42
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=35
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -87,39 +87,39 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 411,
-  "Field": "quod",
-  "RecordId": 404,
+  "RefCountsId": 649,
+  "Field": "ex",
+  "RecordId": 905,
   "SuggestedRecords": [
     {
-      "Id": 609,
-      "Name": "Considine Group",
-      "ToolTip": "Corrupti quasi voluptas.",
-      "Deleted": false,
-      "Rank": 333,
-      "Type": "necessitatibus",
+      "Id": 186,
+      "Name": "Krajcik Inc and Sons",
+      "ToolTip": "Consequatur dignissimos explicabo totam dolore nostrum odit sint.",
+      "Deleted": true,
+      "Rank": 201,
+      "Type": "consectetur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptates",
-      "ColorBlock": 36,
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "est",
-      "FullName": "Brando Mozelle Russel MD",
+      "IconHint": "consectetur",
+      "ColorBlock": 593,
+      "ExtraInfo": "aperiam",
+      "StyleHint": "delectus",
+      "FullName": "Miss Mabel Zieme I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 190
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     }
   ],
-  "CurrentValue": 985,
-  "TravelPrefix": 662,
-  "SatPrefix": 894,
+  "CurrentValue": 282,
+  "TravelPrefix": 507,
+  "SatPrefix": 439,
   "Allocate": true,
   "Unique": false,
   "ReadOnly": false,
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 300
     }
   }
 }

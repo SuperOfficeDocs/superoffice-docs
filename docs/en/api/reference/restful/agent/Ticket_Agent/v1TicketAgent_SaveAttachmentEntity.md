@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 889,
-  "Name": "Wiza, Abbott and Kerluke",
-  "ContentType": "error",
-  "AttSize": 175,
-  "InlineImage": true,
-  "ContentId": "natus",
-  "AuthKey": "aut"
+  "AttachmentId": 564,
+  "Name": "Sipes-Sanford",
+  "ContentType": "modi",
+  "AttSize": 530,
+  "InlineImage": false,
+  "ContentId": "consectetur",
+  "AuthKey": "dolores"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 305,
-  "Name": "Maggio Group",
-  "ContentType": "quasi",
-  "AttSize": 492,
+  "AttachmentId": 363,
+  "Name": "Grant, Wilderman and Cummings",
+  "ContentType": "ducimus",
+  "AttSize": 681,
   "InlineImage": false,
-  "ContentId": "voluptas",
-  "AuthKey": "dignissimos",
+  "ContentId": "delectus",
+  "AuthKey": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 402
     }
   }
 }

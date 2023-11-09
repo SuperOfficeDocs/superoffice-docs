@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 159,
-  "ViewState": "ex",
-  "FromDate": "2020-08-10T03:24:47.5020527+02:00"
+  "AssociateId": 39,
+  "ViewState": "cumque",
+  "FromDate": "2023-08-29T11:06:34.3008382+02:00"
 }
 ```
 

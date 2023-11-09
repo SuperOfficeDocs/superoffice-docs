@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 764,
-  "Name": "Moen-Price",
-  "Tooltip": "fuga",
+  "HeadingId": 968,
+  "Name": "Mohr-Rolfson",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "Rank": 547,
-  "UdListDefinitionId": 882,
+  "Rank": 858,
+  "UdListDefinitionId": 22,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 476
     }
   }
 }

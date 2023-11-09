@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Upton LLC",
-  "Tooltip": "vel",
+  "Id": 944,
+  "Name": "Kessler-Littel",
+  "Tooltip": "quasi",
   "Deleted": false,
-  "Rank": 783,
+  "Rank": 854,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "dolore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   },
   "_Links": {

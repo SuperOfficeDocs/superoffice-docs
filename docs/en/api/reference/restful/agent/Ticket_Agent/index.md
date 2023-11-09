@@ -82,6 +82,8 @@ generated: true
 
 * [POST Agents/Ticket/ClearNotify](v1TicketAgent_ClearNotify.md)
 
+* [POST Agents/Ticket/GetTicketMessageEntities](v1TicketAgent_GetTicketMessageEntities.md)
+
 * [POST Agents/Ticket/GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
 
 * [POST Agents/Ticket/GetTicketMessageEntity](v1TicketAgent_GetTicketMessageEntity.md)

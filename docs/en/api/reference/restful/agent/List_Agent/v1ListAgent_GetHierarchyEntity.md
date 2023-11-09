@@ -26,7 +26,7 @@ Gets a HierarchyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=601
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=354
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
 
@@ -86,46 +86,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 493,
+  "HierarchyId": 627,
   "Domain": "Dashboards",
-  "Name": "Hartmann-Dickinson",
-  "Fullname": "ut",
-  "ParentId": 830,
+  "Name": "Bosco-Dibbert",
+  "Fullname": "enim",
+  "ParentId": 560,
   "Children": [
     {
-      "HierarchyId": 435,
+      "HierarchyId": 760,
       "Domain": "Dashboards",
-      "Name": "Beier, Jast and McLaughlin",
-      "Fullname": "mollitia",
-      "ParentId": 9,
+      "Name": "Ledner-Huels",
+      "Fullname": "vel",
+      "ParentId": 542,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-04-17T03:24:47.8926276+02:00",
-      "RegisteredAssociateId": 927,
-      "Updated": "2001-04-11T03:24:47.8926276+02:00",
-      "UpdatedAssociateId": 134,
+      "Registered": "1996-09-20T11:06:34.7551834+02:00",
+      "RegisteredAssociateId": 308,
+      "Updated": "2007-03-23T11:06:34.7551834+01:00",
+      "UpdatedAssociateId": 774,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 125
+          "FieldType": "System.String",
+          "FieldLength": 450
         }
       }
     }
   ],
-  "Registered": "2013-03-29T03:24:47.8926276+01:00",
-  "RegisteredAssociateId": 976,
-  "Updated": "2011-12-27T03:24:47.8926276+01:00",
-  "UpdatedAssociateId": 139,
+  "Registered": "2014-04-09T11:06:34.7551834+02:00",
+  "RegisteredAssociateId": 863,
+  "Updated": "2013-07-16T11:06:34.7551834+02:00",
+  "UpdatedAssociateId": 25,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 918,
-  "ListItemId": 507,
+  "UdListDefinitionId": 12,
+  "ListItemId": 101,
   "Headings": [
     {
-      "Id": 329,
-      "Name": "Nader-Connelly",
-      "ToolTip": "Beatae et itaque neque repellendus et.",
-      "Deleted": true,
-      "Rank": 291,
-      "Type": "soluta",
-      "ColorBlock": 369,
-      "IconHint": "modi",
+      "Id": 594,
+      "Name": "Homenick LLC",
+      "ToolTip": "Et non.",
+      "Deleted": false,
+      "Rank": 870,
+      "Type": "pariatur",
+      "ColorBlock": 91,
+      "IconHint": "quas",
       "Selected": false,
-      "LastChanged": "2014-05-10T03:24:47.8770078+02:00",
+      "LastChanged": "2020-06-14T11:06:34.7083083+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "eligendi",
-      "Hidden": true,
-      "FullName": "Flo McKenzie"
+      "ExtraInfo": "natus",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Laverne Nitzsche"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "O'Kon-Kunde",
-    "ToolTip": "Dolorem est quia velit suscipit reprehenderit voluptas quidem.",
+    "Id": 887,
+    "Name": "Bartell Inc and Sons",
+    "ToolTip": "Natus sunt autem.",
     "Deleted": false,
-    "Rank": 426,
-    "Type": "qui",
-    "ColorBlock": 15,
-    "IconHint": "quam",
+    "Rank": 247,
+    "Type": "maxime",
+    "ColorBlock": 574,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2004-04-20T03:24:47.8770078+02:00",
+    "LastChanged": "2001-08-02T11:06:34.7083083+02:00",
     "ChildItems": [
       {
-        "Id": 982,
-        "Name": "Rice-Bashirian",
-        "ToolTip": "Harum exercitationem quos.",
+        "Id": 914,
+        "Name": "Torp-Nienow",
+        "ToolTip": "Et velit sit unde eos illo.",
         "Deleted": false,
-        "Rank": 435,
-        "Type": "aut",
-        "ColorBlock": 596,
-        "IconHint": "corporis",
-        "Selected": false,
-        "LastChanged": "2013-05-27T03:24:47.8770078+02:00",
+        "Rank": 472,
+        "Type": "ipsam",
+        "ColorBlock": 57,
+        "IconHint": "vero",
+        "Selected": true,
+        "LastChanged": "2001-12-11T11:06:34.7083083+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Jerrell Kulas",
+        "ExtraInfo": "at",
+        "StyleHint": "enim",
+        "Hidden": true,
+        "FullName": "Arely Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "dicta",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Savanah Schimmel",
+    "FullName": "Madonna Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldLength": 575
       }
     }
   }

@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 240,
-  "Name": "Strosin, Halvorson and Donnelly",
-  "Description": "Polarised human-resource archive",
-  "DefaultHeight": 787,
-  "DefaultWidth": 585,
+  "DashboardTileDefinitionId": 519,
+  "Name": "Little-Boehm",
+  "Description": "Centralized bottom-line contingency",
+  "DefaultHeight": 955,
+  "DefaultWidth": 534,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gottlieb, Gulgowski and Steuber",
-  "SelectionId": 108,
+  "EntityName": "Ferry-Towne",
+  "SelectionId": 170,
   "CurrencyMode": "Base",
-  "CurrencyCode": "architecto",
+  "CurrencyCode": "id",
   "Measure": "Average",
-  "MeasureField": "omnis",
-  "SortBy": "nisi",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 829,
-  "MeasureByField": "veniam",
+  "MeasureField": "sed",
+  "SortBy": "sequi",
+  "LayoutConfig": "dolorem",
+  "SecondarySelectionId": 966,
+  "MeasureByField": "enim",
   "Usage": "Dashboard",
-  "ProviderName": "Franecki, Little and Schumm"
+  "ProviderName": "VonRueden Inc and Sons"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 641,
-  "Name": "Ankunding LLC",
-  "Description": "Fully-configurable intangible application",
-  "DefaultHeight": 257,
-  "DefaultWidth": 412,
+  "DashboardTileDefinitionId": 126,
+  "Name": "Hamill Inc and Sons",
+  "Description": "Progressive systemic portal",
+  "DefaultHeight": 516,
+  "DefaultWidth": 695,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ankunding-Durgan",
-  "SelectionId": 895,
+  "EntityName": "Streich Group",
+  "SelectionId": 45,
   "CurrencyMode": "Base",
-  "CurrencyCode": "blanditiis",
+  "CurrencyCode": "ab",
   "Measure": "Average",
-  "MeasureField": "omnis",
-  "SortBy": "perspiciatis",
-  "LayoutConfig": "alias",
-  "SecondarySelectionId": 456,
-  "MeasureByField": "saepe",
+  "MeasureField": "minima",
+  "SortBy": "vero",
+  "LayoutConfig": "ducimus",
+  "SecondarySelectionId": 816,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Quitzon, Champlin and Thompson",
+  "ProviderName": "Emmerich Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   },
   "_Links": {

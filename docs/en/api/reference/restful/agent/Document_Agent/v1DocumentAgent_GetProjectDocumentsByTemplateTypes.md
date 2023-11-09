@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 895,
-  "StartTime": "2000-09-13T03:24:47.5176724+02:00",
-  "EndTime": "2008-07-03T03:24:47.5176724+02:00",
-  "Count": 285,
+  "ProjectId": 907,
+  "StartTime": "2017-06-19T11:06:34.316457+02:00",
+  "EndTime": "2015-10-11T11:06:34.316457+02:00",
+  "Count": 838,
   "DocumentTemplateIds": [
-    812,
-    106
+    491,
+    840
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 691,
-    "Attention": "tempore",
-    "Header": "ea",
-    "Name": "Abernathy, Toy and Champlin",
-    "OurRef": "sequi",
-    "YourRef": "assumenda",
-    "Description": "Ameliorated optimizing protocol",
-    "DocumentTemplate": "deleniti",
-    "IsPublished": true,
-    "PersonId": 769,
-    "PersonFullName": "Mrs. Cooper Olson MD",
-    "AssociateFullName": "Fleta Cummings",
-    "ContactId": 185,
-    "ContactName": "Lang, Leffler and Denesik",
-    "ProjectId": 794,
-    "ProjectName": "Hane, Parker and Schmeler",
-    "AssociateId": 290,
-    "Snum": 254,
-    "SaleId": 651,
-    "SaleName": "Lowe-Becker",
+    "DocumentId": 206,
+    "Attention": "non",
+    "Header": "dolores",
+    "Name": "Hudson-Hudson",
+    "OurRef": "corrupti",
+    "YourRef": "eum",
+    "Description": "Up-sized contextually-based open architecture",
+    "DocumentTemplate": "enim",
+    "IsPublished": false,
+    "PersonId": 986,
+    "PersonFullName": "Verner Wilderman",
+    "AssociateFullName": "Brock Kuvalis",
+    "ContactId": 907,
+    "ContactName": "Rempel-Osinski",
+    "ProjectId": 111,
+    "ProjectName": "Keeling-Barton",
+    "AssociateId": 105,
+    "Snum": 853,
+    "SaleId": 677,
+    "SaleName": "Dickinson, Terry and Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 228
       }
     }
   }

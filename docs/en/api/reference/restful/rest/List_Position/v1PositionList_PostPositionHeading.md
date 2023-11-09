@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 8,
-  "Name": "Hegmann Inc and Sons",
-  "Tooltip": "qui",
+  "HeadingId": 943,
+  "Name": "Block, Hansen and Denesik",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 761,
-  "UdListDefinitionId": 868
+  "Rank": 156,
+  "UdListDefinitionId": 168
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 323,
-  "Name": "Stiedemann LLC",
-  "Tooltip": "inventore",
+  "HeadingId": 438,
+  "Name": "White, Bosco and O'Conner",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 251,
-  "UdListDefinitionId": 645,
+  "Rank": 525,
+  "UdListDefinitionId": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 481
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 277,
-  "Name": "Schowalter Group",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 517,
-  "IsCustomList": false,
+  "Id": 154,
+  "Name": "Williamson LLC",
+  "Tooltip": "modi",
+  "Deleted": false,
+  "Rank": 395,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "UseGroupsAndHeadings": true,
+  "ListType": "totam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Harris Group",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 844,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 824,
+  "Name": "Hahn-Hammes",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 240,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "ListType": "ut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

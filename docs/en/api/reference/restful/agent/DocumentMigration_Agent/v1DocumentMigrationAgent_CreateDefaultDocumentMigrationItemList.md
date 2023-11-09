@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 622,
-  "NumDocumentsAlreadyMigrated": 270,
+  "NumDocumentsOmitted": 408,
+  "NumDocumentsAlreadyMigrated": 980,
   "Documents": [
     {
-      "DocumentId": 63,
-      "ContactId": 508,
-      "PersonId": 116,
-      "SaleId": 929,
-      "ProjectId": 292,
-      "DocTmplId": 495,
-      "AssociateId": 178,
-      "UserGroupId": 352,
-      "VisibleForId": 940
+      "DocumentId": 322,
+      "ContactId": 549,
+      "PersonId": 533,
+      "SaleId": 24,
+      "ProjectId": 586,
+      "DocTmplId": 781,
+      "AssociateId": 486,
+      "UserGroupId": 890,
+      "VisibleForId": 544
     }
   ],
   "Associates": [
     {
-      "AssociateId": 474,
-      "EmailAddress": "kathleen.ferry@dachzulauf.us"
+      "AssociateId": 867,
+      "EmailAddress": "golden.koepp@lebsack.name"
     },
     {
-      "AssociateId": 474,
-      "EmailAddress": "kathleen.ferry@dachzulauf.us"
+      "AssociateId": 867,
+      "EmailAddress": "golden.koepp@lebsack.name"
     }
   ]
 }

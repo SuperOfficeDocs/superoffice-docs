@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 224,
-  "Name": "Kunde LLC",
-  "Tooltip": "voluptas",
+  "Id": 2,
+  "Name": "Feeney Inc and Sons",
+  "Tooltip": "at",
   "Deleted": false,
-  "Rank": 257,
+  "Rank": 111,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true
+  "ListType": "laudantium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "Okuneva, Breitenberg and McDermott",
-  "Tooltip": "nobis",
+  "Id": 278,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 143,
+  "Rank": 734,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sint",
+  "ListType": "qui",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldType": "System.String",
+      "FieldLength": 651
     }
   }
 }

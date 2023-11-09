@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 229,
-    "Name": "Skiles-Boyle",
-    "Value": "cumque",
-    "CreatedDate": "2022-01-17T03:24:47.2520803+01:00",
-    "UpdatedDate": "2018-01-11T03:24:47.2520803+01:00",
-    "CreatedBy": "sint",
-    "UpdatedBy": "necessitatibus",
+    "AudienceLayoutId": 300,
+    "Name": "Marquardt Inc and Sons",
+    "Value": "consectetur",
+    "CreatedDate": "2010-05-03T11:06:33.7816525+02:00",
+    "UpdatedDate": "2003-06-21T11:06:33.7816525+02:00",
+    "CreatedBy": "voluptatem",
+    "UpdatedBy": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldType": "System.Int32",
+        "FieldLength": 417
       }
     }
   }

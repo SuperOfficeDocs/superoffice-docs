@@ -123,66 +123,66 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 831,
+  "EjMessageId": 663,
   "Ticket": null,
-  "CreatedAt": "2008-12-06T03:24:51.9901188+01:00",
+  "CreatedAt": "1997-04-04T11:06:42.3322282+02:00",
   "CreatedBy": null,
-  "Author": "nobis",
+  "Author": "sed",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolores",
-  "TimeSpent": 121,
-  "Body": "natus",
-  "HtmlBody": "optio",
-  "EmailHeader": "sheridan@west.biz",
-  "DebugInfo": "aliquam",
-  "MailSorter": "numquam",
+  "MessageId": "excepturi",
+  "TimeSpent": 223,
+  "Body": "occaecati",
+  "HtmlBody": "aut",
+  "EmailHeader": "vilma.jerde@dare.biz",
+  "DebugInfo": "magni",
+  "MailSorter": "enim",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "suscipit",
+  "SearchTitle": "perferendis",
   "MessageHeaders": [
     {
-      "Id": 848,
-      "Name": "Streich-VonRueden",
-      "Value": "et",
+      "Id": 644,
+      "Name": "Jacobi, Dietrich and Graham",
+      "Value": "officiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 848,
-      "Name": "Streich-VonRueden",
-      "Value": "et",
+      "Id": 644,
+      "Name": "Jacobi, Dietrich and Graham",
+      "Value": "officiis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "voluptas",
-  "Sentiment": 457,
-  "SentimentConfidence": 715,
+  "Language": "dolor",
+  "Sentiment": 758,
+  "SentimentConfidence": 419,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 193,
-      "Name": "Crist Inc and Sons",
-      "ContentType": "voluptatem",
-      "AttSize": 933,
-      "InlineImage": true,
-      "ContentId": "velit",
-      "AuthKey": "delectus"
+      "AttachmentId": 374,
+      "Name": "Bode Inc and Sons",
+      "ContentType": "possimus",
+      "AttSize": 628,
+      "InlineImage": false,
+      "ContentId": "facere",
+      "AuthKey": "laudantium"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
     "CustomFields1": "ut",
-    "CustomFields2": "et"
+    "CustomFields2": "distinctio"
   }
 }
 ```
@@ -194,78 +194,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 308,
+  "EjMessageId": 587,
   "Ticket": null,
-  "CreatedAt": "2007-04-19T03:24:52.0057419+02:00",
+  "CreatedAt": "1999-09-16T11:06:42.3322282+02:00",
   "CreatedBy": null,
-  "Author": "illum",
+  "Author": "magni",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 504,
-  "Body": "qui",
-  "HtmlBody": "nostrum",
-  "EmailHeader": "abigayle.upton@lind.biz",
-  "DebugInfo": "ea",
-  "MailSorter": "aliquid",
+  "MessageId": "quisquam",
+  "TimeSpent": 233,
+  "Body": "alias",
+  "HtmlBody": "suscipit",
+  "EmailHeader": "marlee@skilesbrakus.uk",
+  "DebugInfo": "nihil",
+  "MailSorter": "sit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "unde",
   "MessageHeaders": [
     {
-      "Id": 105,
-      "Name": "Zemlak, Kuphal and Cole",
-      "Value": "at",
+      "Id": 119,
+      "Name": "Boyer LLC",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     }
   ],
   "Important": false,
-  "Language": "non",
-  "Sentiment": 159,
-  "SentimentConfidence": 620,
+  "Language": "animi",
+  "Sentiment": 160,
+  "SentimentConfidence": 232,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 644,
-      "Name": "Walker, Douglas and Parker",
+      "AttachmentId": 693,
+      "Name": "Heidenreich-Runolfsdottir",
       "ContentType": "vel",
-      "AttSize": 157,
-      "InlineImage": true,
-      "ContentId": "voluptatem",
-      "AuthKey": "id",
+      "AttSize": 172,
+      "InlineImage": false,
+      "ContentId": "pariatur",
+      "AuthKey": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldType": "System.String",
+          "FieldLength": 819
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "libero"
+    "CustomFields1": "illo",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 958
     }
   }
 }

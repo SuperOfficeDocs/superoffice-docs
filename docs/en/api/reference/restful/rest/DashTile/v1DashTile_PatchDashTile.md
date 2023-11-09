@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "dolores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "dolores",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 323,
-  "DashboardId": 556,
-  "Height": 323,
-  "Width": 930,
-  "Rank": 336,
+  "DashboardTileId": 951,
+  "DashboardId": 895,
+  "Height": 481,
+  "Width": 270,
+  "Rank": 123,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldType": "System.String",
+      "FieldLength": 514
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

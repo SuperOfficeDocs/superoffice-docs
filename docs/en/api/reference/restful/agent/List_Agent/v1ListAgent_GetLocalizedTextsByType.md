@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "non",
-    "nesciunt"
+    "earum",
+    "libero"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 233,
-    "ResourceId": 284,
-    "Text": "vitae",
+    "LanguageId": 725,
+    "ResourceId": 211,
+    "Text": "nulla",
     "Type": "Column",
-    "LocalizedTextId": 913,
+    "LocalizedTextId": 720,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 553
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

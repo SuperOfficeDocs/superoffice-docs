@@ -84,7 +84,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 742,
-  "Name": "Schimmel-Leffler",
-  "Rank": 126,
-  "Tooltip": "omnis",
-  "Icon": "et",
-  "DefaultTicketStatus": 758,
+  "TicketTypeId": 267,
+  "Name": "Champlin LLC",
+  "Rank": 943,
+  "Tooltip": "sed",
+  "Icon": "optio",
+  "DefaultTicketStatus": 285,
   "TicketStatuses": [
-    398,
-    165
+    721,
+    840
   ],
-  "DefaultTicketPriority": 902,
+  "DefaultTicketPriority": 628,
   "TicketPriorities": [
-    103,
-    753
+    982,
+    148
   ],
-  "ReplyTemplate": 789,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 10,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 360
     }
   },
   "_Links": {

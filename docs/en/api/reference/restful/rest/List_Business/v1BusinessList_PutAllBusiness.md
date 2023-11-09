@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 488,
-    "Name": "Kunde-Marks",
-    "Tooltip": "odit",
+    "Id": 619,
+    "Name": "Graham, O'Reilly and Sipes",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 933,
-    "Rank": 498
+    "UdListDefinitionId": 34,
+    "Rank": 473
   },
   {
-    "Id": 488,
-    "Name": "Kunde-Marks",
-    "Tooltip": "odit",
+    "Id": 619,
+    "Name": "Graham, O'Reilly and Sipes",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 933,
-    "Rank": 498
+    "UdListDefinitionId": 34,
+    "Rank": 473
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 807,
-    "Name": "Mitchell, Turcotte and Bogan",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 357,
-    "Rank": 887,
+    "Id": 380,
+    "Name": "Mosciski, Hermann and Mills",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 284,
+    "Rank": 542,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 559
+        "FieldLength": 476
       }
     }
   }

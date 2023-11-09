@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Buckridge Group",
-    "ToolTip": "Doloribus accusamus consequuntur minus ad nulla.",
+    "Id": 662,
+    "Name": "Will, Tillman and Paucek",
+    "ToolTip": "Voluptatibus quam voluptas quis voluptatem ut maiores debitis.",
     "Deleted": true,
-    "Rank": 526,
-    "Type": "ducimus",
-    "ColorBlock": 877,
-    "IconHint": "dignissimos",
+    "Rank": 911,
+    "Type": "nihil",
+    "ColorBlock": 448,
+    "IconHint": "occaecati",
     "Selected": false,
-    "LastChanged": "2009-12-11T03:24:52.4119449+01:00",
+    "LastChanged": "2021-03-10T11:06:43.069069+01:00",
     "ChildItems": [
       {
-        "Id": 883,
-        "Name": "Huels, Botsford and Pfannerstill",
-        "ToolTip": "Quidem et rerum amet magnam dignissimos.",
+        "Id": 497,
+        "Name": "Tromp Inc and Sons",
+        "ToolTip": "Qui cum suscipit.",
         "Deleted": true,
-        "Rank": 176,
-        "Type": "soluta",
-        "ColorBlock": 663,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2009-12-23T03:24:52.4119449+01:00",
+        "Rank": 471,
+        "Type": "molestiae",
+        "ColorBlock": 734,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2007-07-24T11:06:43.069069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Kailee Von"
+        "FullName": "Catherine Walter"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Geraldine DuBuque"
+    "ExtraInfo": "quo",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Lambert Jacobi"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Hoppe LLC",
-    "ToolTip": "Expedita fuga.",
+    "Id": 129,
+    "Name": "Schaefer, Hessel and Skiles",
+    "ToolTip": "Voluptas sit.",
     "Deleted": false,
-    "Rank": 194,
-    "Type": "accusantium",
-    "ColorBlock": 452,
-    "IconHint": "natus",
-    "Selected": true,
-    "LastChanged": "2009-09-11T03:24:52.4119449+02:00",
+    "Rank": 556,
+    "Type": "vel",
+    "ColorBlock": 220,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2013-05-09T11:06:43.069069+02:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Muller, Haag and Hammes",
-        "ToolTip": "Repellendus aut veritatis rerum.",
+        "Id": 335,
+        "Name": "Daniel Inc and Sons",
+        "ToolTip": "Nihil numquam tempore ut.",
         "Deleted": false,
-        "Rank": 713,
-        "Type": "ut",
-        "ColorBlock": 304,
-        "IconHint": "nemo",
-        "Selected": false,
-        "LastChanged": "2006-04-18T03:24:52.4119449+02:00",
+        "Rank": 490,
+        "Type": "dolores",
+        "ColorBlock": 901,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2018-09-22T11:06:43.069069+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "eius",
-        "Hidden": false,
-        "FullName": "Prof. Myles Newell Daniel II",
+        "ExtraInfo": "maxime",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Mr. Kassandra Alexane Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 845
+            "FieldType": "System.String",
+            "FieldLength": 738
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "pariatur",
-    "Hidden": true,
-    "FullName": "Granville Predovic",
+    "ExtraInfo": "saepe",
+    "StyleHint": "earum",
+    "Hidden": false,
+    "FullName": "Prof. Lenny Maxine Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 396
       }
     }
   }

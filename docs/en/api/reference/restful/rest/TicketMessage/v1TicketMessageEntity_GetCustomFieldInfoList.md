@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,18 +79,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schowalter-Bashirian",
-    "DisplayName": "Breitenberg-Stehr",
-    "Description": "Seamless disintermediate installation",
-    "ShortLabel": "eius",
-    "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": false,
+    "FieldName": "Lebsack Group",
+    "DisplayName": "Thompson-Hansen",
+    "Description": "Fundamental optimizing orchestration",
+    "ShortLabel": "impedit",
+    "HideLabel": false,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": true,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 890,
-    "TemplateVariableName": "Crist, Bahringer and Shanahan"
+    "Rank": 149,
+    "TemplateVariableName": "Robel-Corwin"
   }
 ]
 ```

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wyman Inc and Sons",
-  "DeviceName": "Harber-Thiel",
-  "DeviceIdentifier": "illo",
+  "ApplicationName": "Hammes Group",
+  "DeviceName": "Kirlin-Gislason",
+  "DeviceIdentifier": "rerum",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 222,
-  "Name": "Kautzer Inc and Sons",
-  "CreatedDate": "2002-04-25T03:24:47.8145137+02:00",
-  "UpdatedDate": "2006-06-01T03:24:47.8145137+02:00",
-  "AssociateFullName": "Ross Shanahan",
-  "CreatedBy": "doloremque",
-  "UpdatedBy": "laborum",
-  "DeviceIdentifier": "quaerat",
-  "ForeignAppId": 556,
+  "ForeignDeviceId": 308,
+  "Name": "Murray-Luettgen",
+  "CreatedDate": "2004-07-21T11:06:34.6301875+02:00",
+  "UpdatedDate": "2021-05-29T11:06:34.6301875+02:00",
+  "AssociateFullName": "Iliana Schimmel",
+  "CreatedBy": "est",
+  "UpdatedBy": "doloribus",
+  "DeviceIdentifier": "sint",
+  "ForeignAppId": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 767
     }
   }
 }

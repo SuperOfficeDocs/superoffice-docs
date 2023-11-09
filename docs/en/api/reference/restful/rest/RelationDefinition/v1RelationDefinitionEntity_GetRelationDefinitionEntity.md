@@ -90,25 +90,25 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 338,
-  "Name": "Kessler Inc and Sons",
-  "Tooltip": "in",
-  "PassiveText": "dolorem",
+  "ReldefId": 410,
+  "Name": "Nikolaus Inc and Sons",
+  "Tooltip": "error",
+  "PassiveText": "voluptatem",
   "Deleted": true,
-  "Rank": 75,
+  "Rank": 799,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldType": "System.String",
+      "FieldLength": 826
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

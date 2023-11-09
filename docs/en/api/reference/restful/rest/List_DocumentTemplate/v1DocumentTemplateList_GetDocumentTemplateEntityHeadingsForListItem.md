@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Jakubowski Inc and Sons",
-    "ToolTip": "Tempora repellat saepe.",
+    "Id": 233,
+    "Name": "Prohaska, Jacobi and Skiles",
+    "ToolTip": "Non dolore veniam quod voluptates.",
     "Deleted": false,
-    "Rank": 662,
-    "Type": "numquam",
-    "ColorBlock": 182,
-    "IconHint": "nesciunt",
-    "Selected": false,
-    "LastChanged": "2018-11-21T03:24:52.2557133+01:00",
+    "Rank": 714,
+    "Type": "modi",
+    "ColorBlock": 822,
+    "IconHint": "quaerat",
+    "Selected": true,
+    "LastChanged": "2015-07-02T11:06:42.8190654+02:00",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Tromp Inc and Sons",
-        "ToolTip": "Reprehenderit amet et.",
+        "Id": 687,
+        "Name": "Powlowski Group",
+        "ToolTip": "Culpa libero ullam molestias ut molestiae et aut.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "aut",
-        "ColorBlock": 178,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2015-09-03T03:24:52.2557133+02:00",
+        "Rank": 454,
+        "Type": "ut",
+        "ColorBlock": 190,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2005-05-07T11:06:42.8190654+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Ms. Alden Bethany Wehner III",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Lucie Bernier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldLength": 992
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "et",
+    "ExtraInfo": "hic",
+    "StyleHint": "tenetur",
     "Hidden": false,
-    "FullName": "Ms. Darian Sterling Rosenbaum",
+    "FullName": "Ardith Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 934
       }
     }
   }

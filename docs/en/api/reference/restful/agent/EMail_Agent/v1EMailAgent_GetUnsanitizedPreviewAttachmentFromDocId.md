@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 7,
-  "AttachmentId": "sint"
+  "DocId": 319,
+  "AttachmentId": "vel"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative dedicated moratorium",
-  "Filename": "nesciunt",
-  "Size": 406,
-  "Type": "autem",
-  "Encoding": "tempore",
-  "Id": "sed",
-  "Disposition": "voluptatum",
+  "Description": "Team-oriented bifurcated circuit",
+  "Filename": "ullam",
+  "Size": 458,
+  "Type": "aut",
+  "Encoding": "in",
+  "Id": "minima",
+  "Disposition": "quasi",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 253
     }
   }
 }

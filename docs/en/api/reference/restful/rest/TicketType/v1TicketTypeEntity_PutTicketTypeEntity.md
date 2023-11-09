@@ -101,26 +101,26 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 592,
-  "Name": "Cummings, Roob and Dietrich",
-  "Rank": 853,
-  "Tooltip": "suscipit",
-  "Icon": "perferendis",
-  "DefaultTicketStatus": 819,
+  "TicketTypeId": 976,
+  "Name": "Hagenes-Cummerata",
+  "Rank": 488,
+  "Tooltip": "at",
+  "Icon": "iusto",
+  "DefaultTicketStatus": 214,
   "TicketStatuses": [
-    248,
-    446
+    245,
+    663
   ],
-  "DefaultTicketPriority": 422,
+  "DefaultTicketPriority": 944,
   "TicketPriorities": [
-    555,
-    792
+    419,
+    608
   ],
-  "ReplyTemplate": 481,
+  "ReplyTemplate": 200,
   "IsExternalVisible": true,
   "IsDefault": false
 }
@@ -133,35 +133,35 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 890,
-  "Name": "Spinka Inc and Sons",
-  "Rank": 629,
-  "Tooltip": "enim",
-  "Icon": "minima",
-  "DefaultTicketStatus": 182,
+  "TicketTypeId": 306,
+  "Name": "Rolfson, Blick and Heaney",
+  "Rank": 432,
+  "Tooltip": "laudantium",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 473,
   "TicketStatuses": [
-    892,
-    733
+    900,
+    195
   ],
-  "DefaultTicketPriority": 970,
+  "DefaultTicketPriority": 628,
   "TicketPriorities": [
-    300,
-    910
+    791,
+    305
   ],
-  "ReplyTemplate": 290,
+  "ReplyTemplate": 141,
   "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 970
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

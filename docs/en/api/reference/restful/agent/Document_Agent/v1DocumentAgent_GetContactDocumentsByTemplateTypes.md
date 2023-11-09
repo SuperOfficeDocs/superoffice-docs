@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 910,
-  "StartTime": "2001-09-14T03:24:47.5020527+02:00",
-  "EndTime": "2012-10-15T03:24:47.5020527+02:00",
-  "Count": 445,
+  "ContactId": 600,
+  "StartTime": "2021-11-20T11:06:34.3008382+01:00",
+  "EndTime": "2023-04-05T11:06:34.3008382+02:00",
+  "Count": 717,
   "DocumentTemplateIds": [
-    155,
-    72
+    430,
+    848
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 782,
-    "Attention": "molestias",
-    "Header": "veritatis",
-    "Name": "Wunsch-Skiles",
-    "OurRef": "doloribus",
-    "YourRef": "veritatis",
-    "Description": "Optional optimizing hardware",
-    "DocumentTemplate": "et",
-    "IsPublished": false,
-    "PersonId": 673,
-    "PersonFullName": "Elza Monahan",
-    "AssociateFullName": "Andre Glover",
-    "ContactId": 727,
-    "ContactName": "Renner, Brown and Nikolaus",
-    "ProjectId": 467,
-    "ProjectName": "Lynch Group",
-    "AssociateId": 764,
-    "Snum": 37,
-    "SaleId": 387,
-    "SaleName": "Feest-Nikolaus",
+    "DocumentId": 575,
+    "Attention": "fugiat",
+    "Header": "et",
+    "Name": "Kerluke Inc and Sons",
+    "OurRef": "sint",
+    "YourRef": "sunt",
+    "Description": "Proactive 3rd generation database",
+    "DocumentTemplate": "itaque",
+    "IsPublished": true,
+    "PersonId": 186,
+    "PersonFullName": "Dr. Kenyatta Mosciski II",
+    "AssociateFullName": "Ernest Lemke",
+    "ContactId": 370,
+    "ContactName": "Steuber, Stehr and Towne",
+    "ProjectId": 121,
+    "ProjectName": "Homenick, Streich and Harvey",
+    "AssociateId": 89,
+    "Snum": 783,
+    "SaleId": 127,
+    "SaleName": "Hauck, Howe and Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldType": "System.Int32",
+        "FieldLength": 673
       }
     }
   }

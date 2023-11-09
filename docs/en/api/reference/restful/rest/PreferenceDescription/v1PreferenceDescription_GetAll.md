@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 332,
-    "Section": "voluptates",
-    "Key": "voluptatem",
-    "Name": "Conroy-Stark",
+    "PrefDescId": 96,
+    "Section": "praesentium",
+    "Key": "necessitatibus",
+    "Name": "Bergnaum LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Universal systemic hub",
-    "IsBuiltin": true,
-    "TableName": "Johns-Goodwin",
-    "UserDefinedListId": 789,
-    "Rank": 86,
-    "SubGroup": "mollitia",
-    "MinLevel": 74,
-    "MaxValue": 22,
-    "MinValue": 981,
-    "RequiredLicense": "perspiciatis",
+    "Description": "Extended multimedia instruction set",
+    "IsBuiltin": false,
+    "TableName": "Shields, Rogahn and Wyman",
+    "UserDefinedListId": 840,
+    "Rank": 344,
+    "SubGroup": "nobis",
+    "MinLevel": 348,
+    "MaxValue": 607,
+    "MinValue": 302,
+    "RequiredLicense": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 105
       }
     }
   }

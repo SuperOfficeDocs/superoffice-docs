@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=163
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=146
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -123,7 +123,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -133,21 +133,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 66,
-  "Title": "sit",
-  "CreatedAt": "2019-09-19T03:24:48.4247716+02:00",
-  "LastChanged": "1999-06-14T03:24:48.4247716+02:00",
-  "ReadByOwner": "1998-02-15T03:24:48.4247716+01:00",
-  "ReadByCustomer": "2002-02-01T03:24:48.4247716+01:00",
-  "FirstReadByOwner": "2010-01-10T03:24:48.4247716+01:00",
-  "FirstReadByUser": "2017-03-23T03:24:48.4247716+01:00",
-  "Activate": "2003-10-02T03:24:48.4247716+02:00",
-  "ClosedAt": "2003-05-25T03:24:48.4247716+02:00",
-  "RepliedAt": "2002-07-22T03:24:48.4247716+02:00",
-  "AlertTimeout": "2002-04-21T03:24:48.4247716+02:00",
-  "Deadline": "2012-05-29T03:24:48.4247716+02:00",
+  "TicketId": 998,
+  "Title": "laborum",
+  "CreatedAt": "2018-06-05T11:06:35.5051904+02:00",
+  "LastChanged": "2019-04-15T11:06:35.5051904+02:00",
+  "ReadByOwner": "2005-05-11T11:06:35.5051904+02:00",
+  "ReadByCustomer": "2003-04-15T11:06:35.5051904+02:00",
+  "FirstReadByOwner": "2014-03-29T11:06:35.5051904+01:00",
+  "FirstReadByUser": "2004-06-09T11:06:35.5051904+02:00",
+  "Activate": "2014-12-14T11:06:35.5051904+01:00",
+  "ClosedAt": "1998-08-11T11:06:35.5051904+02:00",
+  "RepliedAt": "2019-02-12T11:06:35.5051904+01:00",
+  "AlertTimeout": "2012-11-05T11:06:35.5051904+01:00",
+  "Deadline": "2018-01-14T11:06:35.5051904+01:00",
   "CreatedBy": null,
-  "Author": "nemo",
+  "Author": "culpa",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -158,161 +158,161 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "odit",
-      "PersonId": 447,
-      "Mrmrs": "similique",
-      "Firstname": "Dessie",
-      "Lastname": "Boyer",
-      "MiddleName": "Halvorson-Turcotte",
-      "Title": "fuga",
-      "Description": "Synchronised well-modulated encryption",
-      "Email": "mauricio_lockman@bradtke.uk",
-      "FullName": "Toby Sawayn",
-      "DirectPhone": "(687)037-2638 x8153",
-      "FormalName": "Rippin Inc and Sons",
-      "CountryId": 479,
-      "ContactId": 286,
-      "ContactName": "Schimmel LLC",
-      "Retired": 483,
-      "Rank": 808,
-      "ActiveInterests": 685,
+      "Position": "sequi",
+      "PersonId": 260,
+      "Mrmrs": "natus",
+      "Firstname": "Frederik",
+      "Lastname": "D'Amore",
+      "MiddleName": "Jaskolski LLC",
+      "Title": "qui",
+      "Description": "Synergized radical concept",
+      "Email": "aylin_bosco@carroll.ca",
+      "FullName": "Dr. Wendy Harber",
+      "DirectPhone": "020-375-7943 x84092",
+      "FormalName": "Veum-Hodkiewicz",
+      "CountryId": 97,
+      "ContactId": 152,
+      "ContactName": "Beatty, Crist and Kuvalis",
+      "Retired": 517,
+      "Rank": 573,
+      "ActiveInterests": 824,
       "ContactDepartment": "",
-      "ContactCountryId": 453,
-      "ContactOrgNr": "833947",
-      "FaxPhone": "234-574-8619 x492",
-      "MobilePhone": "(966)130-3697",
-      "ContactPhone": "(883)436-2713 x15979",
-      "AssociateName": "Hayes, Conroy and Prohaska",
-      "AssociateId": 464,
-      "UsePersonAddress": false,
-      "ContactFax": "sit",
-      "Kanafname": "nihil",
-      "Kanalname": "doloremque",
-      "Post1": "fugiat",
-      "Post2": "quod",
-      "Post3": "ut",
-      "EmailName": "arnulfo@jasthermiston.co.uk",
-      "ContactFullName": "Christophe Bartell",
-      "ActiveErpLinks": 266,
-      "TicketPriorityId": 32,
-      "SupportLanguageId": 382,
-      "SupportAssociateId": 126,
+      "ContactCountryId": 662,
+      "ContactOrgNr": "1876298",
+      "FaxPhone": "320.181.5520 x173",
+      "MobilePhone": "706-486-2760",
+      "ContactPhone": "1-399-234-5074 x94401",
+      "AssociateName": "Koepp-Howell",
+      "AssociateId": 50,
+      "UsePersonAddress": true,
+      "ContactFax": "nesciunt",
+      "Kanafname": "ut",
+      "Kanalname": "culpa",
+      "Post1": "sit",
+      "Post2": "officia",
+      "Post3": "sequi",
+      "EmailName": "dallas@gleason.us",
+      "ContactFullName": "Caroline Graham DDS",
+      "ActiveErpLinks": 743,
+      "TicketPriorityId": 321,
+      "SupportLanguageId": 353,
+      "SupportAssociateId": 888,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 573
+          "FieldLength": 644
         }
       }
     }
   ],
-  "AlertLevel": 668,
-  "ConnectId": 529,
+  "AlertLevel": 389,
+  "ConnectId": 578,
   "ReadStatus": "Green",
-  "TimeToReply": 110,
-  "RealTimeToReply": 77,
-  "TimeToClose": 677,
-  "RealTimeToClose": 993,
-  "TimeSpentInternally": 409,
-  "TimeSpentExternally": 856,
-  "TimeSpentQueue": 736,
-  "RealTimeSpentInternally": 93,
-  "RealTimeSpentExternally": 732,
-  "RealTimeSpentQueue": 217,
-  "TimeSpent": 572,
+  "TimeToReply": 631,
+  "RealTimeToReply": 737,
+  "TimeToClose": 564,
+  "RealTimeToClose": 724,
+  "TimeSpentInternally": 132,
+  "TimeSpentExternally": 892,
+  "TimeSpentQueue": 365,
+  "RealTimeSpentInternally": 143,
+  "RealTimeSpentExternally": 330,
+  "RealTimeSpentQueue": 718,
+  "TimeSpent": 163,
   "HasAttachment": true,
-  "NumReplies": 495,
-  "NumMessages": 774,
-  "FromAddress": "tempora",
+  "NumReplies": 508,
+  "NumMessages": 759,
+  "FromAddress": "commodi",
   "Messages": [
     {
-      "TicketMessageId": 346,
-      "CreatedAt": "2022-11-30T03:24:48.4247716+01:00",
+      "TicketMessageId": 868,
+      "CreatedAt": "2007-11-08T11:06:35.5051904+01:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "veniam",
-      "PersonId": 453,
-      "PersonFullName": "Mr. Michelle Homenick",
-      "ContactId": 88,
-      "ContactName": "Pollich, Batz and Schimmel",
+      "Important": false,
+      "Author": "maiores",
+      "PersonId": 714,
+      "PersonFullName": "Mr. Rahsaan Upton",
+      "ContactId": 229,
+      "ContactName": "Bosco, Kreiger and Hoppe",
       "ContactDepartment": "",
-      "NumAttachments": 670,
-      "EmailHeader": "emilia@monahan.ca",
+      "NumAttachments": 253,
+      "EmailHeader": "russel@littel.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "voluptatem",
-      "Sentiment": 633,
-      "SentimentConfidence": 623,
-      "CreatedBy": 970,
-      "ChangedAt": "2008-10-20T03:24:48.4247716+02:00",
+      "Language": "deserunt",
+      "Sentiment": 143,
+      "SentimentConfidence": 758,
+      "CreatedBy": 921,
+      "ChangedAt": "2001-04-07T11:06:35.5051904+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldType": "System.String",
+          "FieldLength": 130
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 553,
-      "Name": "Kris-Murray",
-      "ToolTip": "Quasi laudantium tempore enim dolorem ea nihil quae.",
+      "Id": 495,
+      "Name": "Gibson Group",
+      "ToolTip": "Et qui facilis quasi ducimus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 113
         }
       }
     },
     {
-      "Id": 553,
-      "Name": "Kris-Murray",
-      "ToolTip": "Quasi laudantium tempore enim dolorem ea nihil quae.",
+      "Id": 495,
+      "Name": "Gibson Group",
+      "ToolTip": "Et qui facilis quasi ducimus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 113
         }
       }
     }
   ],
-  "Language": "temporibus",
-  "Sentiment": 464,
-  "SentimentConfidence": 36,
-  "SuggestedCategoryId": 599,
+  "Language": "aut",
+  "Sentiment": 594,
+  "SentimentConfidence": 130,
+  "SuggestedCategoryId": 410,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 370,
-  "IconHint": "temporibus",
+  "OrigHumanCategoryId": 252,
+  "IconHint": "iure",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "et"
+    "ExtraFields1": "et",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "laborum"
+    "CustomFields1": "omnis",
+    "CustomFields2": "facere"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 760
     }
   }
 }

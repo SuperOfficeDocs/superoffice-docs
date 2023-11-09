@@ -104,30 +104,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 394,
-  "UniqueId": "voluptatem",
-  "Name": "Hudson, Gleichner and Stracke",
-  "Description": "Ergonomic value-added standardization",
-  "AssociateId": 845,
-  "Columns": 253,
+  "DashboardId": 415,
+  "UniqueId": "quis",
+  "Name": "Beier, Kessler and Koelpin",
+  "Description": "Multi-layered object-oriented Graphic Interface",
+  "AssociateId": 523,
+  "Columns": 519,
   "Theme": null,
-  "VisibleForAll": 699,
+  "VisibleForAll": 891,
   "VisibleForAssociates": [
-    234,
-    579
+    481,
+    539
   ],
   "VisibleForGroups": [
-    574,
-    531
+    127,
+    504
   ],
-  "PinForAll": 645,
+  "PinForAll": 403,
   "PinForAssociates": [
-    221,
-    479
+    577,
+    29
   ],
   "PinForGroups": [
-    419,
-    608
+    65,
+    221
   ]
 }
 ```
@@ -139,42 +139,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 617,
-  "UniqueId": "et",
-  "Name": "Murphy LLC",
-  "Description": "Optimized well-modulated secured line",
-  "AssociateId": 912,
-  "Columns": 631,
+  "DashboardId": 503,
+  "UniqueId": "excepturi",
+  "Name": "Wisoky, Renner and Klocko",
+  "Description": "Team-oriented methodical product",
+  "AssociateId": 412,
+  "Columns": 621,
   "Theme": null,
-  "VisibleForAll": 782,
+  "VisibleForAll": 903,
   "VisibleForAssociates": [
-    910,
-    536
+    173,
+    975
   ],
   "VisibleForGroups": [
-    23,
-    144
+    871,
+    583
   ],
-  "PinForAll": 942,
+  "PinForAll": 264,
   "PinForAssociates": [
-    565,
-    17
+    96,
+    296
   ],
   "PinForGroups": [
-    569,
-    15
+    390,
+    623
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldType": "System.String",
+      "FieldLength": 148
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

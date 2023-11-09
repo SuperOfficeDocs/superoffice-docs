@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 114,
-  "TopicId": 314,
+  "ChatSessionId": 24,
+  "TopicId": 308,
   "User": null,
   "Person": null,
-  "CustomerAlias": "suscipit",
-  "CustomerHost": "accusamus",
-  "CustomerName": "Herman Group",
-  "CustomerEmail": "blair.leuschke@hahnleuschke.name",
-  "CustomerPhone": "804-999-0210",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Hyatt, Crist and Hudson",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "minima",
+  "CustomerName": "Trantow-Langworth",
+  "CustomerEmail": "marilie_pollich@gerhold.co.uk",
+  "CustomerPhone": "091-282-8150 x831",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hayes-Tromp",
   "Status": "Closed",
-  "FirstMessage": "asperiores",
-  "LastMessage": "non",
-  "WhenRequested": "2014-09-06T03:24:51.3804391+02:00",
-  "WhenStarted": "2017-05-24T03:24:51.3804391+02:00",
-  "WhenEnded": "2008-04-23T03:24:51.3804391+02:00",
-  "WhenIdle": "2001-03-21T03:24:51.3804391+01:00",
-  "WhenFetched": "1996-12-04T03:24:51.3804391+01:00",
-  "SessionKey": "itaque",
-  "InitialQueuePos": 254,
-  "AlertLevel": 434,
-  "Rank": 263,
+  "FirstMessage": "tempora",
+  "LastMessage": "expedita",
+  "WhenRequested": "2019-07-24T11:06:41.4416171+02:00",
+  "WhenStarted": "2003-04-19T11:06:41.4416171+02:00",
+  "WhenEnded": "2006-04-14T11:06:41.4416171+02:00",
+  "WhenIdle": "2004-06-11T11:06:41.4416171+02:00",
+  "WhenFetched": "2019-08-18T11:06:41.4416171+02:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 545,
+  "AlertLevel": 677,
+  "Rank": 906,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 975,
+  "ChatbotIsActive": true,
+  "Rating": 225,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

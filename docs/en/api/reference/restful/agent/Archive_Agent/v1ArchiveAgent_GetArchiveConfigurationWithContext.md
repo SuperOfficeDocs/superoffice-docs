@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Huel Inc and Sons",
-  "ProviderName": "Hoppe-Cremin",
-  "Context": "ab"
+  "GuiName": "Rice, O'Kon and Mills",
+  "ProviderName": "Balistreri Group",
+  "Context": "ad"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Gleason-Denesik",
-      "DisplayTooltip": "qui",
-      "DisplayType": "iste",
-      "CanOrderBy": false,
-      "Name": "Senger-Gleichner",
-      "CanRestrictBy": true,
-      "RestrictionType": "ullam",
-      "RestrictionListName": "Kilback, Hammes and Hudson",
-      "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "optio",
-      "IconHint": "est",
-      "HeadingIconHint": "nihil"
+      "DisplayName": "Fay, Cummerata and Dach",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "vero",
+      "CanOrderBy": true,
+      "Name": "Rath-Aufderhar",
+      "CanRestrictBy": false,
+      "RestrictionType": "perspiciatis",
+      "RestrictionListName": "Gleason Group",
+      "IsVisible": true,
+      "ExtraInfo": "consequatur",
+      "Width": "rerum",
+      "IconHint": "velit",
+      "HeadingIconHint": "vel"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 789,
-      "Name": "Douglas, Connelly and Shields",
-      "ToolTip": "Repellat illum.",
+      "Id": 391,
+      "Name": "Franecki-Prohaska",
+      "ToolTip": "Perferendis nihil quis perferendis nesciunt ut.",
       "Deleted": false,
-      "Rank": 510,
-      "Type": "enim",
-      "ColorBlock": 351,
-      "IconHint": "itaque",
-      "Selected": true,
-      "LastChanged": "1998-06-07T03:24:47.220828+02:00",
+      "Rank": 886,
+      "Type": "officia",
+      "ColorBlock": 24,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2021-03-31T11:06:33.7503955+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "non",
+      "StyleHint": "maiores",
       "Hidden": false,
-      "FullName": "Fredy Medhurst",
+      "FullName": "Jaquelin Quigley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 133
+          "FieldLength": 604
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Flatley LLC",
+      "Name": "Kuhlman, Boehm and Jewess",
       "Direction": "ASC"
     },
     {
-      "Name": "Flatley LLC",
+      "Name": "Kuhlman, Boehm and Jewess",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "mollitia",
+  "OwnerKeys": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 60
     }
   }
 }

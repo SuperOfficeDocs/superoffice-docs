@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Baumbach LLC",
-    "ToolTip": "Et architecto blanditiis sed consequatur dolores voluptatem et.",
-    "Deleted": true,
-    "Rank": 318,
-    "Type": "vel",
-    "ColorBlock": 12,
-    "IconHint": "et",
+    "Id": 547,
+    "Name": "Bergnaum, Muller and Kovacek",
+    "ToolTip": "In ut et aut.",
+    "Deleted": false,
+    "Rank": 314,
+    "Type": "voluptatibus",
+    "ColorBlock": 282,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2020-11-05T03:24:52.318209+01:00",
+    "LastChanged": "2001-07-27T11:06:42.9128214+02:00",
     "ChildItems": [
       {
-        "Id": 638,
-        "Name": "Bednar, Hickle and Sauer",
-        "ToolTip": "Ullam ut.",
+        "Id": 225,
+        "Name": "Legros Inc and Sons",
+        "ToolTip": "Voluptatem ipsa odio at sit.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "provident",
-        "ColorBlock": 158,
-        "IconHint": "expedita",
+        "Rank": 233,
+        "Type": "quis",
+        "ColorBlock": 70,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2008-07-23T03:24:52.318209+02:00",
+        "LastChanged": "2000-11-06T11:06:42.9128214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
+        "ExtraInfo": "ea",
         "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Ms. Howell Tremblay"
+        "Hidden": true,
+        "FullName": "Mr. Madge Eichmann II"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Orland Stark"
+    "FullName": "Dr. Izaiah Bogan DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Wolf Group",
-    "ToolTip": "Vel praesentium.",
+    "Id": 129,
+    "Name": "Johnston-King",
+    "ToolTip": "Neque saepe voluptatem.",
     "Deleted": false,
-    "Rank": 375,
-    "Type": "illum",
-    "ColorBlock": 47,
-    "IconHint": "sed",
+    "Rank": 271,
+    "Type": "inventore",
+    "ColorBlock": 165,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2017-06-05T03:24:52.318209+02:00",
+    "LastChanged": "2015-12-30T11:06:42.9128214+01:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Miller, Dietrich and Thiel",
-        "ToolTip": "Aut modi.",
-        "Deleted": false,
-        "Rank": 723,
-        "Type": "et",
-        "ColorBlock": 709,
-        "IconHint": "non",
+        "Id": 779,
+        "Name": "Blanda, Hermiston and Welch",
+        "ToolTip": "Alias minus et doloribus dolores minima.",
+        "Deleted": true,
+        "Rank": 954,
+        "Type": "explicabo",
+        "ColorBlock": 109,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2004-02-23T03:24:52.318209+01:00",
+        "LastChanged": "2019-09-02T11:06:42.9128214+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "quia",
+        "ExtraInfo": "magnam",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Ms. Georgiana Delores O'Connell DDS",
+        "FullName": "Frankie Kerluke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 376
+            "FieldType": "System.String",
+            "FieldLength": 351
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Josue Buckridge",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "natus",
+    "Hidden": false,
+    "FullName": "Darwin Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldType": "System.String",
+        "FieldLength": 997
       }
     }
   }

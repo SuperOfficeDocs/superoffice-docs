@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 2
+  "KbEntryId": 119
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "et",
-  "RegisteredByFullName": "Jaiden Nader",
-  "Updated": "2015-06-19T03:24:47.4708008+02:00",
-  "Question": "ut",
-  "Answer": "praesentium",
+  "Title": "aut",
+  "RegisteredByFullName": "Eldridge Lockman",
+  "Updated": "2020-03-07T11:06:34.2539546+01:00",
+  "Question": "perspiciatis",
+  "Answer": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 714
+  "AssociateId": 880
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 330,
-    "ERPName": "Sipes Group",
-    "DisplayName": "McDermott, Carroll and Sawayn",
-    "DisplayDescription": "Stand-alone bi-directional moratorium",
-    "Rank": 246,
-    "ConnectorName": "Little-Lang",
-    "ErpConnectionId": 784,
-    "ExtraData": "vero",
-    "IsAvailable": true,
+    "QuoteConnectionId": 629,
+    "ERPName": "Wuckert-Lehner",
+    "DisplayName": "Deckow, Davis and Bartell",
+    "DisplayDescription": "Total methodical middleware",
+    "Rank": 516,
+    "ConnectorName": "Hodkiewicz, Huel and Yost",
+    "ErpConnectionId": 763,
+    "ExtraData": "vel",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 835,
-        "ERPPriceListKey": "sint",
-        "QuoteConnectionId": 441,
-        "Name": "Schaefer Inc and Sons",
-        "Description": "Multi-layered system-worthy approach",
-        "Currency": "velit",
-        "CurrencyName": "Bins-Brakus",
-        "ValidFrom": "2001-04-24T03:24:48.1426062+02:00",
-        "ValidTo": "2023-04-22T03:24:48.1426062+02:00",
+        "PriceListId": 162,
+        "ERPPriceListKey": "sunt",
+        "QuoteConnectionId": 508,
+        "Name": "Hayes, Schuster and Lemke",
+        "Description": "Visionary foreground knowledge base",
+        "Currency": "cumque",
+        "CurrencyName": "Abernathy, Lockman and Mante",
+        "ValidFrom": "1998-10-06T11:06:35.2239506+02:00",
+        "ValidTo": "2008-12-31T11:06:35.2239506+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 164
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      852,
-      698
+      313,
+      493
     ],
     "AssociateAccessIds": [
-      63,
-      588
+      341,
+      816
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldType": "System.String",
+        "FieldLength": 155
       }
     }
   }

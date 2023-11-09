@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 295,
-  "ConnectorName": "Moen Inc and Sons"
+  "ConnectionId": 496,
+  "ConnectorName": "Heaney, Beier and McDermott"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "repellendus",
-    "Rank": 431,
-    "DisplayName": "Treutel, Stanton and Bayer",
-    "DisplayDescription": "Fundamental user-facing model",
+    "FieldKey": "corrupti",
+    "Rank": 769,
+    "DisplayName": "Conroy, Kutch and Halvorson",
+    "DisplayDescription": "Automated systemic productivity",
     "FieldType": "Checkbox",
-    "ListName": "Gleason-Schamberger",
-    "DefaultValue": "id",
-    "MaxLength": 872,
+    "ListName": "Kertzmann-Beahan",
+    "DefaultValue": "atque",
+    "MaxLength": 626,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 667
       }
     }
   }

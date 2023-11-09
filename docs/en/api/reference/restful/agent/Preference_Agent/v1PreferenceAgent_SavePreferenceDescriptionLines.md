@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 933,
-      "PrefDescId": 624,
-      "PrefValue": "tempora",
-      "PrefShowValue": "vitae",
-      "Description": "Balanced reciprocal internet solution",
-      "IsBuiltin": false
+      "PrefDescLineId": 156,
+      "PrefDescId": 38,
+      "PrefValue": "quia",
+      "PrefShowValue": "omnis",
+      "Description": "Upgradable system-worthy pricing structure",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 933,
-      "PrefDescId": 624,
-      "PrefValue": "tempora",
-      "PrefShowValue": "vitae",
-      "Description": "Balanced reciprocal internet solution",
-      "IsBuiltin": false
+      "PrefDescLineId": 156,
+      "PrefDescId": 38,
+      "PrefValue": "quia",
+      "PrefShowValue": "omnis",
+      "Description": "Upgradable system-worthy pricing structure",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 343,
-    "PrefDescId": 192,
-    "PrefValue": "magnam",
-    "PrefShowValue": "quo",
-    "Description": "Inverse bifurcated process improvement",
+    "PrefDescLineId": 726,
+    "PrefDescId": 306,
+    "PrefValue": "natus",
+    "PrefShowValue": "aliquid",
+    "Description": "Operative fault-tolerant workforce",
     "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 37
+        "FieldLength": 77
       }
     }
   }

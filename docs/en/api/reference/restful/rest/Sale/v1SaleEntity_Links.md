@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Links?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Links?$orderBy=name asc
-GET /api/v1/Sale/{id}/Links?$entities=mollitia
-GET /api/v1/Sale/{id}/Links?$top=718
-GET /api/v1/Sale/{id}/Links?$skip=652
+GET /api/v1/Sale/{id}/Links?$entities=soluta
+GET /api/v1/Sale/{id}/Links?$top=554
+GET /api/v1/Sale/{id}/Links?$skip=539
 GET /api/v1/Sale/{id}/Links?$mode=Full
 GET /api/v1/Sale/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Links?$context=et
+GET /api/v1/Sale/{id}/Links?$context=in
 GET /api/v1/Sale/{id}/Links?$format=JSON
-GET /api/v1/Sale/{id}/Links?$jsonSafe=False
+GET /api/v1/Sale/{id}/Links?$jsonSafe=True
 GET /api/v1/Sale/{id}/Links?$output=Display
 ```
 
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Sale/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,19 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "explicabo",
+  "odata.nextLink": "temporibus",
   "value": [
     {
-      "PrimaryKey": 6941,
+      "PrimaryKey": 7692,
       "EntityName": "person",
-      "personId": 6941,
-      "fullName": "Olaf Lowe"
+      "personId": 7692,
+      "fullName": "Gwen Ziemann"
     },
     {
-      "PrimaryKey": 1317,
+      "PrimaryKey": 6056,
       "EntityName": "person",
-      "personId": 1317,
-      "fullName": "Leila Hills"
+      "personId": 6056,
+      "fullName": "Antonia Lebsack"
     }
   ]
 }

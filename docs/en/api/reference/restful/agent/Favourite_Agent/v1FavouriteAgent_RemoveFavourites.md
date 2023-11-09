@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rowe, Feest and Rath",
+  "TableName": "Haag, D'Amore and Bayer",
   "RecordIds": [
-    723,
-    364
+    332,
+    849
   ],
-  "AssociateId": 743
+  "AssociateId": 166
 }
 ```
 

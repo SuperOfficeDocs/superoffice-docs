@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Klocko, O'Connell and Renner",
-  "Context": "nam",
+  "ProviderName": "Feil-Beier",
+  "Context": "voluptatem",
   "DesiredEntities": [
-    "numquam",
-    "dolore"
+    "ut",
+    "aperiam"
   ],
   "Columns": [
-    "iure",
-    "earum"
+    "impedit",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "Flatley Inc and Sons",
+      "Name": "Gislason LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Flatley Inc and Sons",
+      "Name": "Gislason LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Rowe-Hagenes",
-      "Operator": "quia",
+      "Name": "Schamberger-Schamberger",
+      "Operator": "et",
       "Values": [
-        "maiores",
-        "aut"
+        "quis",
+        "eum"
       ],
       "DisplayValues": [
-        "consequatur",
-        "quia"
+        "atque",
+        "corrupti"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 622,
+      "InterParenthesis": 387,
       "InterOperator": "And",
-      "UniqueHash": 762
+      "UniqueHash": 811
     }
   ],
-  "ExportType": "ipsum",
+  "ExportType": "voluptates",
   "SelectedRowIds": [
-    "magnam",
-    "asperiores"
+    "sunt",
+    "vitae"
   ],
-  "EstimatedRowCount": 156
+  "EstimatedRowCount": 783
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 766,
-  "FileName": "Bauch-Schowalter",
-  "Message": "at",
+  "BatchTaskId": 59,
+  "FileName": "Wiza LLC",
+  "Message": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 746
     }
   }
 }

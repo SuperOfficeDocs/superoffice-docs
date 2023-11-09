@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 470,
-  "Caption": "et",
-  "Description": "Profit-focused human-resource contingency",
-  "SelectionId": 49,
+  "DashboardTileId": 851,
+  "Caption": "tenetur",
+  "Description": "Optional value-added encryption",
+  "SelectionId": 621,
   "VisibleFor": [
     {
-      "VisibleId": 697,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 697,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "cumque"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 74,
-  "Caption": "quia",
-  "Description": "Decentralized attitude-oriented groupware",
-  "ChartName": "Grady LLC",
-  "ChartId": "illum",
+  "DashboardTileId": 251,
+  "Caption": "quam",
+  "Description": "Inverse multimedia solution",
+  "ChartName": "Collins Inc and Sons",
+  "ChartId": "aut",
   "IsDefault": false,
-  "AssociateId": 802,
-  "GroupId": 272,
-  "SelectionId": 104,
-  "Config": "eveniet",
+  "AssociateId": 956,
+  "GroupId": 652,
+  "SelectionId": 659,
+  "Config": "exercitationem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Block LLC",
-      "Description": "Function-based bottom-line parallelism",
+      "Name": "Harvey Group",
+      "Description": "Decentralized logistical standardization",
       "Type": "Boolean",
-      "ListName": "Fisher, Hamill and Lesch",
+      "ListName": "Armstrong-Fay",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "vitae",
+      "Value": "nobis",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 591
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 521,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldLength": 681
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldLength": 681
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 336
     }
   }
 }

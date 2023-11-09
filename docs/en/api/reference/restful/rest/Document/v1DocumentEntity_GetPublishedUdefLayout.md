@@ -88,7 +88,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 735,
-    "ColumnId": 30,
-    "FieldDefault": "et",
-    "FieldHeight": 328,
-    "FieldLabel": "ex",
-    "FieldLeft": 996,
-    "FieldTop": 367,
+    "UDefFieldId": 812,
+    "ColumnId": 791,
+    "FieldDefault": "est",
+    "FieldHeight": 795,
+    "FieldLabel": "enim",
+    "FieldLeft": 735,
+    "FieldTop": 524,
     "FieldType": "Checkbox",
-    "FieldWidth": 727,
-    "FormatMask": "quas",
-    "HideLabel": false,
+    "FieldWidth": 636,
+    "FormatMask": "esse",
+    "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 264,
-    "LabelLeft": 650,
-    "LabelTop": 480,
-    "LabelWidth": 400,
-    "LastVersionId": 27,
-    "ListTableId": 970,
+    "LabelHeight": 621,
+    "LabelLeft": 902,
+    "LabelTop": 680,
+    "LabelWidth": 78,
+    "LastVersionId": 916,
+    "ListTableId": 3,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 34,
-    "ProgId": "eveniet",
+    "Page1LineNo": 833,
+    "ProgId": "eum",
     "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 985,
-    "TextLength": 46,
-    "Tooltip": "tempore",
-    "UdefIdentity": 756,
-    "UDListDefinitionId": 170,
+    "ShortLabel": "et",
+    "TabOrder": 933,
+    "TextLength": 666,
+    "Tooltip": "id",
+    "UdefIdentity": 746,
+    "UDListDefinitionId": 725,
     "Justification": "Center",
-    "Version": 569,
-    "TemplateVariableName": "Wiza-Rosenbaum",
-    "HasBeenPublished": false,
-    "MdoListName": "Will-Blick",
+    "Version": 74,
+    "TemplateVariableName": "Blick Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Gibson Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 99
       }
     }
   }

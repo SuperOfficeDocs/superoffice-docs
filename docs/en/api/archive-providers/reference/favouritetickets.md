@@ -733,7 +733,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FavouriteTickets?$select=categoryFullName,person/phone/formattedNumber,person/personExtra/x_person_date,person/personAssociate/assocName,extra/x_ticket_date
+GET /api/v1/archive/FavouriteTickets?$select=person/birthYear,person/personDirectFax/description,contact/code,contact/LastCompletedSale,sale/associate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

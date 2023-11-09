@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "non",
-    "Tooltip": "fuga",
-    "Id": 912,
-    "Rank": 497,
-    "Deleted": false,
+    "Value": "iusto",
+    "Tooltip": "eos",
+    "Id": 79,
+    "Rank": 610,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldLength": 539
       }
     }
   }

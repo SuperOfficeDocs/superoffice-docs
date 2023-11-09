@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "autem",
-  "ProviderName": "Lakin-Kuphal",
-  "StorageKey": "similique",
+  "StorageType": "ad",
+  "ProviderName": "McKenzie-Hintz",
+  "StorageKey": "sint",
   "Restrictions": [
     {
-      "Name": "Boyer, Thompson and Kihn",
-      "Operator": "et",
+      "Name": "Gaylord, Homenick and Leffler",
+      "Operator": "dolore",
       "Values": [
-        "non",
-        "sit"
+        "cumque",
+        "nulla"
       ],
       "DisplayValues": [
-        "officia",
-        "quia"
+        "corrupti",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 647,
+      "InterParenthesis": 580,
       "InterOperator": "And",
-      "UniqueHash": 478
+      "UniqueHash": 605
     }
   ],
   "StaticColumns": [
-    "quas",
-    "sequi"
+    "qui",
+    "nam"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wolff Inc and Sons",
-      "Operator": "quisquam",
+      "Name": "Wehner, Boehm and Larkin",
+      "Operator": "dignissimos",
       "Values": [
-        "et",
-        "molestias"
-      ],
-      "DisplayValues": [
-        "ea",
+        "unde",
         "quo"
       ],
+      "DisplayValues": [
+        "veritatis",
+        "est"
+      ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 648,
+      "InterParenthesis": 694,
       "InterOperator": "And",
-      "UniqueHash": 476
+      "UniqueHash": 240
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Pagac LLC",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "eum",
+      "DisplayName": "Reichert Group",
+      "DisplayTooltip": "cum",
+      "DisplayType": "beatae",
       "CanOrderBy": false,
-      "Name": "Spencer, Johns and McDermott",
-      "CanRestrictBy": false,
-      "RestrictionType": "porro",
-      "RestrictionListName": "Kuvalis LLC",
+      "Name": "Daniel Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "ut",
+      "RestrictionListName": "Smith, Howe and Mitchell",
       "IsVisible": false,
-      "ExtraInfo": "vel",
-      "Width": "dicta",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "rem"
+      "ExtraInfo": "nemo",
+      "Width": "iste",
+      "IconHint": "delectus",
+      "HeadingIconHint": "eos"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Leffler-Wunsch",
-      "PrimaryKey": 532,
+      "EntityName": "Bradtke, Lind and Hagenes",
+      "PrimaryKey": 964,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "deleniti",
-          "TooltipHint": "et",
-          "LinkHint": "aliquam"
+          "DisplayValue": "perspiciatis",
+          "TooltipHint": "corporis",
+          "LinkHint": "dicta"
         }
       },
-      "LinkHint": "laudantium",
-      "StyleHint": "sit",
+      "LinkHint": "molestiae",
+      "StyleHint": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldType": "System.String",
+          "FieldLength": 550
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Tremblay Group",
-      "Description": "Virtual holistic standardization",
-      "Rank": 498,
+      "Name": "Lemke, Ortiz and Sipes",
+      "Description": "Grass-roots zero tolerance support",
+      "Rank": 279,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Tremblay Group",
-      "Description": "Virtual holistic standardization",
-      "Rank": 498,
+      "Name": "Lemke, Ortiz and Sipes",
+      "Description": "Grass-roots zero tolerance support",
+      "Rank": 279,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 979
     }
   }
 }

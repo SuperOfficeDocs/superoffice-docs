@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 336,
-  "Name": "Torphy Group",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "UdListDefinitionId": 98,
-  "Rank": 957,
+  "Id": 794,
+  "Name": "Hermann-Murray",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "UdListDefinitionId": 388,
+  "Rank": 9,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 290
     }
   }
 }

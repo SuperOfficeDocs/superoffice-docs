@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "reiciendis",
-  "Children": true
+  "Path": "minima",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 279,
+  "HierarchyId": 552,
   "Domain": "Dashboards",
-  "Name": "Hills LLC",
-  "Fullname": "sed",
-  "ParentId": 572,
+  "Name": "Murray Inc and Sons",
+  "Fullname": "iste",
+  "ParentId": 178,
   "Children": [
     {
-      "HierarchyId": 715,
+      "HierarchyId": 657,
       "Domain": "Dashboards",
-      "Name": "Hyatt-Mante",
-      "Fullname": "aliquam",
-      "ParentId": 926,
+      "Name": "Bernier Inc and Sons",
+      "Fullname": "sed",
+      "ParentId": 105,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2000-05-24T03:24:47.8926276+02:00",
-      "RegisteredAssociateId": 807,
-      "Updated": "2002-11-18T03:24:47.8926276+01:00",
-      "UpdatedAssociateId": 850,
+      "Registered": "2021-05-30T11:06:34.7551834+02:00",
+      "RegisteredAssociateId": 305,
+      "Updated": "2012-03-27T11:06:34.7551834+02:00",
+      "UpdatedAssociateId": 391,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 777
         }
       }
     }
   ],
-  "Registered": "2018-04-02T03:24:47.8926276+02:00",
-  "RegisteredAssociateId": 684,
-  "Updated": "2011-03-26T03:24:47.8926276+01:00",
-  "UpdatedAssociateId": 804,
+  "Registered": "2021-10-03T11:06:34.7551834+02:00",
+  "RegisteredAssociateId": 600,
+  "Updated": "1999-12-28T11:06:34.7551834+01:00",
+  "UpdatedAssociateId": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

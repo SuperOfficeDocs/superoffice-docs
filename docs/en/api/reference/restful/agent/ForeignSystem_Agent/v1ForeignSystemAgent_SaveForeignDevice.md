@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Blanda, Wiza and Feest"
+  "ApplicationName": "Lindgren LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 814,
-  "Name": "West Inc and Sons",
-  "CreatedDate": "1998-01-28T03:24:47.8301403+01:00",
-  "UpdatedDate": "1999-10-19T03:24:47.8301403+02:00",
-  "AssociateFullName": "Alessandra Ferry",
-  "CreatedBy": "tempore",
+  "ForeignDeviceId": 863,
+  "Name": "Dietrich, Bartell and Schroeder",
+  "CreatedDate": "2003-07-14T11:06:34.6458113+02:00",
+  "UpdatedDate": "2016-02-14T11:06:34.6458113+01:00",
+  "AssociateFullName": "Mr. Rosetta Cassin",
+  "CreatedBy": "excepturi",
   "UpdatedBy": "quaerat",
-  "DeviceIdentifier": "ipsam",
-  "ForeignAppId": 772,
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 664
     }
   }
 }

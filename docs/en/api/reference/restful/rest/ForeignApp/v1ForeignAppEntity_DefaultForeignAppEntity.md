@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 Nov 2016 03:24:51 G11T
+Last-Modified: Mon, 28 Mar 2016 11:06:41 G3T
 
 {
-  "ForeignAppId": 416,
-  "Name": "Ritchie-Daugherty",
-  "CreatedDate": "2001-07-08T03:24:51.6149823+02:00",
-  "UpdatedDate": "2016-11-08T03:24:51.6149823+01:00",
+  "ForeignAppId": 279,
+  "Name": "Raynor-Thiel",
+  "CreatedDate": "2005-10-27T11:06:41.8790976+02:00",
+  "UpdatedDate": "2016-03-28T11:06:41.8790976+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 833,
-      "Name": "Lang-Wilderman",
-      "CreatedDate": "2020-10-08T03:24:51.6149823+02:00",
-      "UpdatedDate": "2007-02-04T03:24:51.6149823+01:00",
-      "AssociateFullName": "Sylvan O'Kon",
-      "CreatedBy": "ut",
-      "UpdatedBy": "quo",
-      "DeviceIdentifier": "odit",
-      "ForeignAppId": 618,
+      "ForeignDeviceId": 335,
+      "Name": "Ritchie, Mayert and Brekke",
+      "CreatedDate": "2017-09-26T11:06:41.8790976+02:00",
+      "UpdatedDate": "2003-11-07T11:06:41.8790976+01:00",
+      "AssociateFullName": "Mrs. Josefina Walsh",
+      "CreatedBy": "reiciendis",
+      "UpdatedBy": "laboriosam",
+      "DeviceIdentifier": "provident",
+      "ForeignAppId": 145,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 801
+          "FieldType": "System.Int32",
+          "FieldLength": 804
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Tue, 08 Nov 2016 03:24:51 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 480
     }
   }
 }

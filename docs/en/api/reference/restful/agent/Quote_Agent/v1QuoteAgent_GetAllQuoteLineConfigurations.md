@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 566,
-    "FieldName": "Adams Inc and Sons",
-    "Label": "ipsa",
-    "Tooltip": "minus",
+    "QuoteLineConfigurationId": 288,
+    "FieldName": "Corkery Group",
+    "Label": "ex",
+    "Tooltip": "ut",
     "Editable": false,
     "InUse": true,
     "Mandatory": false,
-    "Rank": 242,
+    "Rank": 25,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 977
       }
     }
   }

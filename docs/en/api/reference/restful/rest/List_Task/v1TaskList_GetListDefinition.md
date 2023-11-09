@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Wunsch, Koepp and Quitzon",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 651,
-  "IsCustomList": false,
+  "Id": 91,
+  "Name": "Gerlach Group",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 963,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aspernatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   },
   "_Links": {

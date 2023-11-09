@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 512,
-  "Name": "Gulgowski LLC",
-  "Tooltip": "aut",
+  "Id": 863,
+  "Name": "Kertzmann, Graham and Klocko",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 121,
+  "Rank": 18,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "delectus",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 802,
-  "Name": "Abbott-Ryan",
-  "Tooltip": "magni",
-  "Deleted": true,
-  "Rank": 902,
+  "Id": 982,
+  "Name": "Murazik-Osinski",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 220,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldLength": 803
     }
   }
 }

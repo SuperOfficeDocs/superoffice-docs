@@ -29,7 +29,7 @@ Get all list items for the specified list defintion
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items?includeDeleted=True
 ```
 
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Pagac, Heaney and Gerhold",
-    "Tooltip": "neque",
+    "Id": 488,
+    "Name": "Roberts-Kshlerin",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "UdListDefinitionId": 615,
-    "Rank": 828,
+    "UdListDefinitionId": 304,
+    "Rank": 696,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 740
       }
     }
   }

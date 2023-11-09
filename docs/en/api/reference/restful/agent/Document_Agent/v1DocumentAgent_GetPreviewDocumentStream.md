@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 922
+  "DocumentId": 129
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuvalis-Bechtelar",
-  "Type": "assumenda",
-  "Size": 261,
+  "Name": "Steuber-Nader",
+  "Type": "excepturi",
+  "Size": 845,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

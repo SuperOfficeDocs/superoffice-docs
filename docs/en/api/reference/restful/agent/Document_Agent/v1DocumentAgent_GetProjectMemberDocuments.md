@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 565,
-  "StartTime": "2010-07-22T03:24:47.5176724+02:00",
-  "EndTime": "2001-08-09T03:24:47.5176724+02:00",
-  "Count": 189
+  "PersonId": 172,
+  "StartTime": "2001-03-12T11:06:34.316457+01:00",
+  "EndTime": "2013-12-02T11:06:34.316457+01:00",
+  "Count": 883
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 402,
-    "Attention": "deserunt",
-    "Header": "autem",
-    "Name": "Kuhic, Bergstrom and Jacobi",
-    "OurRef": "quia",
-    "YourRef": "maiores",
-    "Description": "Progressive explicit Graphic Interface",
-    "DocumentTemplate": "aspernatur",
+    "DocumentId": 926,
+    "Attention": "quos",
+    "Header": "odio",
+    "Name": "Lind Inc and Sons",
+    "OurRef": "consequatur",
+    "YourRef": "quisquam",
+    "Description": "Persevering intangible strategy",
+    "DocumentTemplate": "illo",
     "IsPublished": true,
-    "PersonId": 693,
-    "PersonFullName": "Pierre Dickinson",
-    "AssociateFullName": "Lucious Cummerata",
-    "ContactId": 488,
-    "ContactName": "Frami Group",
-    "ProjectId": 781,
-    "ProjectName": "Johnson-Stokes",
-    "AssociateId": 204,
-    "Snum": 271,
-    "SaleId": 248,
-    "SaleName": "Leffler, Barrows and Tillman",
+    "PersonId": 240,
+    "PersonFullName": "Matilda Morissette",
+    "AssociateFullName": "Ben Auer",
+    "ContactId": 918,
+    "ContactName": "Heathcote, Raynor and Feest",
+    "ProjectId": 737,
+    "ProjectName": "Jones Group",
+    "AssociateId": 639,
+    "Snum": 426,
+    "SaleId": 611,
+    "SaleName": "Yost, Rohan and Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 611
+        "FieldType": "System.Int32",
+        "FieldLength": 347
       }
     }
   }

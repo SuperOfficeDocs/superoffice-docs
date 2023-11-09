@@ -92,13 +92,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 711,
-  "Name": "Kuhn-Ward",
+  "AttachmentId": 670,
+  "Name": "Wyman LLC",
   "ContentType": "reprehenderit",
-  "AttSize": 548,
+  "AttSize": 70,
   "InlineImage": false,
-  "ContentId": "blanditiis",
-  "AuthKey": "earum"
+  "ContentId": "atque",
+  "AuthKey": "qui"
 }
 ```
 
@@ -109,19 +109,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 129,
-  "Name": "Wisoky, Grady and Heathcote",
-  "ContentType": "dolores",
-  "AttSize": 54,
-  "InlineImage": false,
-  "ContentId": "sed",
-  "AuthKey": "eos",
+  "AttachmentId": 243,
+  "Name": "Hackett-Wilkinson",
+  "ContentType": "et",
+  "AttSize": 757,
+  "InlineImage": true,
+  "ContentId": "autem",
+  "AuthKey": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 532
     }
   },
   "_Links": {

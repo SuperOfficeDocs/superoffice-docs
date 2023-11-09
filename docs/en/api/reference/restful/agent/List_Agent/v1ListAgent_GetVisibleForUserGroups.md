@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 34,
-  "ListItemId": 837
+  "UdListDefinitionId": 627,
+  "ListItemId": 971
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Hyatt, Lockman and Willms",
-    "ToolTip": "Cupiditate omnis autem ut quis ea impedit ut.",
+    "Id": 485,
+    "Name": "Schmeler-Schmitt",
+    "ToolTip": "Maiores corporis iure nemo hic.",
     "Deleted": false,
-    "Rank": 584,
+    "Rank": 126,
     "Type": "illo",
-    "ColorBlock": 646,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2014-03-09T03:24:47.8613878+01:00",
+    "ColorBlock": 138,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2014-10-07T11:06:34.7083083+02:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Stokes-Weimann",
-        "ToolTip": "Qui at aliquid ad suscipit est nihil incidunt.",
-        "Deleted": false,
-        "Rank": 61,
-        "Type": "harum",
-        "ColorBlock": 447,
+        "Id": 229,
+        "Name": "Bode, Howe and Smitham",
+        "ToolTip": "Consequuntur assumenda totam.",
+        "Deleted": true,
+        "Rank": 52,
+        "Type": "earum",
+        "ColorBlock": 167,
         "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2002-05-18T03:24:47.8613878+02:00",
+        "LastChanged": "2022-04-14T11:06:34.7083083+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "libero",
-        "Hidden": true,
-        "FullName": "Jadyn Kelsi Stiedemann III",
+        "ExtraInfo": "saepe",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mrs. Elisa Jesse Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 560
+            "FieldType": "System.String",
+            "FieldLength": 697
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "facere",
+    "ExtraInfo": "sint",
+    "StyleHint": "natus",
     "Hidden": true,
-    "FullName": "Cydney Keebler",
+    "FullName": "Ericka Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 237
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

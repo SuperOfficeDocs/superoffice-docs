@@ -99,21 +99,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 700,
-  "UniqueIdentifier": "iure",
-  "Name": "Goodwin Group",
-  "Description": "Robust leading edge hardware",
-  "IncludeId": "autem",
-  "HierarchyId": 229,
-  "Source": "dolores",
-  "Registered": "2019-07-24T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 50,
-  "Updated": "2006-07-31T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 144
+  "EjscriptId": 515,
+  "UniqueIdentifier": "nesciunt",
+  "Name": "Gusikowski-Rowe",
+  "Description": "Ameliorated incremental Graphic Interface",
+  "IncludeId": "fugiat",
+  "HierarchyId": 387,
+  "Source": "quo",
+  "Registered": "2013-07-17T11:06:41.7853483+02:00",
+  "RegisteredAssociateId": 619,
+  "Updated": "2007-02-03T11:06:41.7853483+01:00",
+  "UpdatedAssociateId": 774
 }
 ```
 
@@ -124,28 +124,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 533,
-  "UniqueIdentifier": "est",
-  "Name": "Murray-Stehr",
-  "Description": "Synergized content-based installation",
-  "IncludeId": "est",
-  "HierarchyId": 326,
-  "Source": "maxime",
-  "Registered": "2014-05-20T03:24:51.5368575+02:00",
-  "RegisteredAssociateId": 675,
-  "Updated": "2021-04-16T03:24:51.5368575+02:00",
-  "UpdatedAssociateId": 66,
+  "EjscriptId": 603,
+  "UniqueIdentifier": "molestiae",
+  "Name": "Dooley-Cassin",
+  "Description": "Customer-focused background capacity",
+  "IncludeId": "voluptatibus",
+  "HierarchyId": 588,
+  "Source": "id",
+  "Registered": "2008-06-20T11:06:41.7853483+02:00",
+  "RegisteredAssociateId": 709,
+  "Updated": "2006-08-07T11:06:41.7853483+02:00",
+  "UpdatedAssociateId": 775,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 409
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

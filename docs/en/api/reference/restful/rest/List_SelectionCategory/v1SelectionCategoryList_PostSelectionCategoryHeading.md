@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 786,
-  "Name": "Zemlak LLC",
-  "Tooltip": "pariatur",
+  "HeadingId": 218,
+  "Name": "Runte-Metz",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 364,
-  "UdListDefinitionId": 519
+  "Rank": 421,
+  "UdListDefinitionId": 293
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 394,
-  "Name": "Pfeffer, Hartmann and Weissnat",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 89,
-  "UdListDefinitionId": 240,
+  "HeadingId": 540,
+  "Name": "Torphy, Dibbert and Ferry",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "Rank": 755,
+  "UdListDefinitionId": 466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 772
     }
   }
 }

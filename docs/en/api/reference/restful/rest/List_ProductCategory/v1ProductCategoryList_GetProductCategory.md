@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Strosin LLC",
-  "Tooltip": "sint",
+  "Id": 166,
+  "Name": "Erdman, Satterfield and Crist",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 916,
-  "Rank": 729,
+  "UdListDefinitionId": 826,
+  "Rank": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

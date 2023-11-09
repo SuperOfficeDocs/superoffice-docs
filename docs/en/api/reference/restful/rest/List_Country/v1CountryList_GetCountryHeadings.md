@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 104,
-    "Name": "Hoppe, Bins and Crona",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "Rank": 979,
-    "UdListDefinitionId": 479,
+    "HeadingId": 497,
+    "Name": "D'Amore Inc and Sons",
+    "Tooltip": "deserunt",
+    "Deleted": false,
+    "Rank": 520,
+    "UdListDefinitionId": 708,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 94
+        "FieldType": "System.Int32",
+        "FieldLength": 771
       }
     }
   }

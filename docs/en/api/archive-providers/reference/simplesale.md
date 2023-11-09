@@ -607,7 +607,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=contact/postAddress/formattedMultiLineAddress,saleUdef/SuperOffice:6,project/projectAssociate/middleName,project/projectUdef/SuperOffice:2
+GET /api/v1/archive/SimpleSale?$select=person/personCountryId,person/personAddress/county,contact/postAddress/county,project/projectAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

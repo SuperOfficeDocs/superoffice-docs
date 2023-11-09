@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Muller, Bernhard and Jacobi"
+  "ConnectorName": "Maggio, Beatty and Kutch"
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 522,
-  "ERPName": "Kiehn, Stiedemann and Wuckert",
-  "DisplayName": "Champlin, Keeling and Cummerata",
-  "DisplayDescription": "Adaptive client-server data-warehouse",
-  "Rank": 699,
-  "ConnectorName": "Paucek Group",
-  "ErpConnectionId": 476,
-  "ExtraData": "minus",
+  "QuoteConnectionId": 761,
+  "ERPName": "Gibson-Wolff",
+  "DisplayName": "Hegmann-Metz",
+  "DisplayDescription": "Stand-alone contextually-based software",
+  "Rank": 705,
+  "ConnectorName": "Ziemann, Bruen and McClure",
+  "ErpConnectionId": 239,
+  "ExtraData": "est",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 319,
-      "ERPPriceListKey": "veritatis",
-      "QuoteConnectionId": 67,
-      "Name": "Kessler-Bartell",
-      "Description": "User-centric impactful process improvement",
-      "Currency": "eos",
-      "CurrencyName": "Roob, Harris and Deckow",
-      "ValidFrom": "2006-12-07T03:24:48.1426062+01:00",
-      "ValidTo": "2013-04-24T03:24:48.1426062+02:00",
-      "IsActive": true,
+      "PriceListId": 912,
+      "ERPPriceListKey": "quia",
+      "QuoteConnectionId": 733,
+      "Name": "Gerlach LLC",
+      "Description": "Progressive dedicated standardization",
+      "Currency": "ex",
+      "CurrencyName": "Wolf LLC",
+      "ValidFrom": "2012-09-04T11:06:35.2239506+02:00",
+      "ValidTo": "1999-06-25T11:06:35.2239506+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 669
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    556,
-    853
+    26,
+    746
   ],
   "AssociateAccessIds": [
-    64,
-    475
+    859,
+    896
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldType": "System.String",
+      "FieldLength": 65
     }
   }
 }

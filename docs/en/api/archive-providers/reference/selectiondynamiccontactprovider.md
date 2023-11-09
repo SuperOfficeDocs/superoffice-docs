@@ -1149,7 +1149,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=getAllRows,restrictionAddress/formattedMultiLineAddress,contactAssociate/middleName,contactExtra/x_contact_longtext,SaintStatus2
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=sourceRelation/restrictionContactId,appointment/type,appointment/associate/credentialDisplayValue,document/contactId,document/documentPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

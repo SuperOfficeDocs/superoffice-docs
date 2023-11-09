@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 526,
-  "StartTime": "2006-09-22T03:24:47.5176724+02:00",
-  "EndTime": "1998-08-16T03:24:47.5176724+02:00",
-  "Count": 727
+  "ProjectId": 462,
+  "StartTime": "2022-10-09T11:06:34.316457+02:00",
+  "EndTime": "2020-01-18T11:06:34.316457+01:00",
+  "Count": 801
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 539,
-    "Attention": "doloremque",
-    "Header": "et",
-    "Name": "O'Hara-Hilpert",
-    "OurRef": "molestias",
-    "YourRef": "delectus",
-    "Description": "Enterprise-wide analyzing protocol",
-    "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 825,
-    "PersonFullName": "Adelbert Parker",
-    "AssociateFullName": "Prof. Lonzo Macejkovic",
-    "ContactId": 480,
-    "ContactName": "Thiel Group",
-    "ProjectId": 360,
-    "ProjectName": "McCullough, Treutel and Sawayn",
-    "AssociateId": 543,
-    "Snum": 213,
-    "SaleId": 577,
-    "SaleName": "Mayert-Predovic",
+    "DocumentId": 121,
+    "Attention": "temporibus",
+    "Header": "qui",
+    "Name": "Tromp Group",
+    "OurRef": "facilis",
+    "YourRef": "impedit",
+    "Description": "Future-proofed responsive parallelism",
+    "DocumentTemplate": "aliquam",
+    "IsPublished": false,
+    "PersonId": 240,
+    "PersonFullName": "Willie Reilly",
+    "AssociateFullName": "Jasper Beatty",
+    "ContactId": 9,
+    "ContactName": "Kautzer, Blanda and Morissette",
+    "ProjectId": 631,
+    "ProjectName": "Sipes-Hilpert",
+    "AssociateId": 190,
+    "Snum": 169,
+    "SaleId": 720,
+    "SaleName": "Halvorson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldType": "System.String",
+        "FieldLength": 968
       }
     }
   }

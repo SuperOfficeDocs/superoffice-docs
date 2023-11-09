@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 31,
-  "AssociateId": 522,
-  "Block": "quibusdam",
-  "Registered": "2002-09-15T03:24:51.927622+02:00",
-  "RegisteredAssociateId": 752,
-  "Updated": "1998-05-07T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 499,
-  "UpdatedCount": 44,
+  "ShipmentMessageBlockId": 234,
+  "AssociateId": 250,
+  "Block": "laborum",
+  "Registered": "2000-01-02T11:06:42.2228527+01:00",
+  "RegisteredAssociateId": 76,
+  "Updated": "2006-01-27T11:06:42.2228527+01:00",
+  "UpdatedAssociateId": 592,
+  "UpdatedCount": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 748
     }
   }
 }

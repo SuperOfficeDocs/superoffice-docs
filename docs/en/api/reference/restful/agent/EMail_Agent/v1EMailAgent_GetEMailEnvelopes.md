@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    304,
-    428
+    950,
+    283
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 261,
-    "MessageId": "qui",
-    "Subject": "dignissimos",
+    "ServerId": 979,
+    "MessageId": "quo",
+    "Subject": "dolores",
     "From": null,
     "To": [
       {
-        "ContactId": 511,
-        "ContactName": "Pacocha-Dare",
-        "PersonId": 335,
-        "PersonName": "Nikolaus, Mueller and Parker",
-        "AssociateId": 639,
-        "Address": "libero",
-        "EmailId": 589,
+        "ContactId": 393,
+        "ContactName": "Wintheiser-Reichel",
+        "PersonId": 278,
+        "PersonName": "Watsica Group",
+        "AssociateId": 618,
+        "Address": "quo",
+        "EmailId": 200,
         "DuplicatePersonIds": [
-          920,
-          206
+          577,
+          61
         ],
-        "Name": "Oberbrunner-Glover",
+        "Name": "Lesch, Hauck and Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 242
+            "FieldLength": 243
           }
         }
       }
     ],
-    "Sent": "2000-10-09T03:24:47.7676476+02:00",
+    "Sent": "2012-10-02T11:06:34.5520595+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 131,
+    "Size": 918,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldType": "System.String",
+        "FieldLength": 923
       }
     }
   }

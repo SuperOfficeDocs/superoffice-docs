@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 690,
+  "ProjectEntityId": 549,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 677,
-      "ContactId": 316,
-      "ProjectId": 122,
-      "ContactName": "Rolfson-Bins",
+      "ProjectmemberId": 197,
+      "ContactId": 270,
+      "ProjectId": 227,
+      "ContactName": "Carter, Ferry and Shields",
       "ContactDepartment": "",
-      "ProjectName": "Rogahn Group",
-      "EmailId": 691,
-      "EmailAddress": "talon@kuphalhermiston.name",
-      "CountryId": 36,
-      "Firstname": "Steve",
-      "MiddleName": "Streich, Baumbach and Klocko",
-      "Lastname": "Bosco",
-      "PersonId": 474,
-      "Mrmrs": "voluptatem",
-      "ProjectMemberTypeName": "Wiza, Wilkinson and Schaefer",
-      "Phone": "922-027-1414 x76511",
-      "PhoneId": 703,
-      "ProjectMemberTypeId": 984,
-      "EmailAddressName": "tanya@kertzmannhermann.com",
-      "Comment": "quae",
-      "FullName": "Keshaun Hickle"
+      "ProjectName": "Sawayn Group",
+      "EmailId": 772,
+      "EmailAddress": "dillan@deckow.uk",
+      "CountryId": 706,
+      "Firstname": "Brant",
+      "MiddleName": "Rolfson Inc and Sons",
+      "Lastname": "Ullrich",
+      "PersonId": 482,
+      "Mrmrs": "quia",
+      "ProjectMemberTypeName": "Gleichner-Crona",
+      "Phone": "(567)102-9014 x749",
+      "PhoneId": 379,
+      "ProjectMemberTypeId": 799,
+      "EmailAddressName": "maxine.parisian@starkreichert.ca",
+      "Comment": "quia",
+      "FullName": "Madonna Dare"
     }
   ]
 }

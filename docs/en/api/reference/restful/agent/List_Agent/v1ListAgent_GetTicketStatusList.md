@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,8 +87,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 335,
-    "Name": "Kuvalis-Balistreri",
+    "TicketStatusId": 924,
+    "Name": "Kuhn LLC",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldLength": 962
       }
     }
   }

@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 591,
-  "Name": "Stehr-Rogahn",
-  "AssociateId": 570,
-  "DetailsTable": 706,
-  "DetailsRecord": 11,
+  "Id": 783,
+  "Name": "Nader-Cronin",
+  "AssociateId": 548,
+  "DetailsTable": 453,
+  "DetailsRecord": 764,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "aut",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "autem",
+    "ParameterObject2": "possimus"
   },
-  "LastStarted": "2000-02-29T03:24:47.2520803+01:00",
-  "Created": "2013-07-18T03:24:47.2520803+02:00",
-  "StartCount": 487,
-  "DatabaseSerialNumber": "893400",
-  "Context": "expedita",
-  "Result": "sit",
+  "LastStarted": "2007-08-22T11:06:33.7972715+02:00",
+  "Created": "2017-03-17T11:06:33.7972715+01:00",
+  "StartCount": 817,
+  "DatabaseSerialNumber": "301584",
+  "Context": "ea",
+  "Result": "nobis",
   "State": "All",
-  "Description": "Quality-focused encompassing adapter",
-  "Response": "quis",
-  "Request": "et",
-  "ProgressDescription": "Team-oriented secondary circuit",
-  "ProgressPercent": 942,
-  "FileName": "Lowe, Jacobi and Mills",
+  "Description": "Proactive empowering strategy",
+  "Response": "tempora",
+  "Request": "optio",
+  "ProgressDescription": "Future-proofed solution-oriented array",
+  "ProgressPercent": 741,
+  "FileName": "Marquardt LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 180
     }
   }
 }

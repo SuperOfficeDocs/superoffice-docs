@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Howe, Crona and Mraz",
-      "Delimiter": "distinctio",
-      "Flags": "excepturi",
-      "TotalItems": 921,
-      "UnreadItems": 924,
+      "Name": "Kuhlman Inc and Sons",
+      "Delimiter": "nulla",
+      "Flags": "eos",
+      "TotalItems": 978,
+      "UnreadItems": 672,
       "Subscribed": false,
-      "EmailFolderId": 685
+      "EmailFolderId": 246
     }
   ]
 }

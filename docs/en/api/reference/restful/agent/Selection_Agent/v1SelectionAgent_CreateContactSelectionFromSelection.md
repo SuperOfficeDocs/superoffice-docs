@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 724,
-  "Name": "Macejkovic, Bogan and Ward",
+  "SelectionId": 823,
+  "Name": "McCullough, Heidenreich and Murray",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group executive success",
-  "Postit": "ut",
+  "Description": "Decentralized object-oriented task-force",
+  "Postit": "velit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 894,
-  "IncludePerson": 186,
-  "MemberCount": 101,
-  "Name": "Hane LLC",
-  "PostitTextId": 869,
-  "CreatedDate": "2007-10-02T03:24:48.2524255+02:00",
-  "SelectionId": 370,
-  "SoundEx": "nihil",
-  "Source": 57,
-  "TextId": 792,
-  "UpdatedDate": "2020-05-07T03:24:48.2524255+02:00",
-  "UpdatedCount": 279,
-  "Visibility": 103,
+  "GroupIdx": 180,
+  "IncludePerson": 368,
+  "MemberCount": 81,
+  "Name": "Baumbach, Haley and Bayer",
+  "PostitTextId": 719,
+  "CreatedDate": "2021-10-07T11:06:35.364568+02:00",
+  "SelectionId": 114,
+  "SoundEx": "ea",
+  "Source": 989,
+  "TextId": 677,
+  "UpdatedDate": "2007-12-19T11:06:35.364568+01:00",
+  "UpdatedCount": 342,
+  "Visibility": 893,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 865,
-  "TargetTableName": "Tremblay, Heidenreich and Wintheiser",
-  "Completed": false,
-  "LeftSelectionId": 938,
-  "RightSelectionId": 823,
+  "TargetTableNumber": 373,
+  "TargetTableName": "Jones-Koss",
+  "Completed": true,
+  "LeftSelectionId": 35,
+  "RightSelectionId": 729,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reynolds Inc and Sons",
-  "ShadowProviderName": "O'Conner-Zboncak",
-  "ChartKey": "tempora",
-  "LastLoaded": "1996-12-06T03:24:48.2524255+01:00",
-  "LastLoadedBy": 684,
+  "MainProviderName": "Jewess LLC",
+  "ShadowProviderName": "Kessler LLC",
+  "ChartKey": "qui",
+  "LastLoaded": "2015-05-16T11:06:35.364568+02:00",
+  "LastLoadedBy": 465,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-08-21T03:24:48.2524255+02:00",
-  "LastMembershipChangeBy": 718,
+  "LastMembershipChange": "2019-08-29T11:06:35.364568+02:00",
+  "LastMembershipChangeBy": 851,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Quitzon, Osinski and Waters",
-  "DashboardTileDefinitionId": 641,
+  "MainHeading": "iure",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Glover-Lemke",
+  "DashboardTileDefinitionId": 447,
   "VisibleFor": [
     {
-      "VisibleId": 194,
+      "VisibleId": 374,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 340
         }
       }
     },
     {
-      "VisibleId": 194,
+      "VisibleId": 374,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 650
+          "FieldLength": 340
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldType": "System.String",
+      "FieldLength": 186
     }
   }
 }

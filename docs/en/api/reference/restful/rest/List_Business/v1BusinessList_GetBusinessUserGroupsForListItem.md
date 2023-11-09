@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Miller-Kulas",
-    "ToolTip": "Nihil sapiente fuga voluptates illo.",
+    "Id": 859,
+    "Name": "Wilderman-Sawayn",
+    "ToolTip": "Cupiditate praesentium consequatur quae.",
     "Deleted": false,
-    "Rank": 909,
-    "Type": "tempora",
-    "ColorBlock": 662,
-    "IconHint": "nulla",
+    "Rank": 124,
+    "Type": "accusamus",
+    "ColorBlock": 91,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2000-08-18T03:24:52.1619753+02:00",
+    "LastChanged": "1997-11-07T11:06:42.6784463+01:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Bartoletti-Hand",
-        "ToolTip": "Pariatur voluptate est qui voluptatem.",
+        "Id": 691,
+        "Name": "Kohler, Dickinson and Maggio",
+        "ToolTip": "Qui dolorum ullam quibusdam.",
         "Deleted": true,
-        "Rank": 91,
-        "Type": "rerum",
-        "ColorBlock": 425,
-        "IconHint": "odio",
+        "Rank": 917,
+        "Type": "ad",
+        "ColorBlock": 895,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2010-09-04T03:24:52.1619753+02:00",
+        "LastChanged": "2004-10-28T11:06:42.6784463+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Mr. Dortha Barrows",
+        "FullName": "Mrs. Brigitte Asia Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 539
+            "FieldType": "System.Int32",
+            "FieldLength": 245
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Jimmy Wiza",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Mrs. Makenna Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 167
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

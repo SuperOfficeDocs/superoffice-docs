@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=877
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=362
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -124,7 +124,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -138,125 +138,125 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-10-20T03:24:47.095837+02:00",
-  "AppointmentId": 980,
-  "Description": "User-friendly contextually-based Graphic Interface",
-  "StartDate": "2000-03-18T03:24:47.095837+01:00",
-  "EndDate": "2021-08-30T03:24:47.095837+02:00",
+  "CreatedDate": "2010-05-06T11:06:33.553859+02:00",
+  "AppointmentId": 696,
+  "Description": "Innovative contextually-based methodology",
+  "StartDate": "2012-09-15T11:06:33.553859+02:00",
+  "EndDate": "2002-05-02T11:06:33.553859+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 263,
+  "MotherId": 232,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-05-21T03:24:47.095837+02:00",
+  "UpdatedDate": "1998-08-05T11:06:33.553859+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 446,
+  "ActiveLinks": 875,
   "Links": [
     {
-      "EntityName": "Hermann, Dooley and Dietrich",
-      "Id": 541,
-      "Description": "Assimilated multimedia leverage",
-      "ExtraInfo": "ad",
-      "LinkId": 738,
+      "EntityName": "Ziemann-Leffler",
+      "Id": 804,
+      "Description": "Persistent heuristic conglomeration",
+      "ExtraInfo": "voluptas",
+      "LinkId": 522,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 119
+          "FieldLength": 70
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatem",
-  "HasAlarm": true,
-  "ColorIndex": 62,
+  "AlarmLeadTime": "beatae",
+  "HasAlarm": false,
+  "ColorIndex": 202,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "laudantium",
-  "LeadTime": "ut",
-  "Location": "numquam",
-  "RejectCounter": 131,
+  "IsAlldayEvent": true,
+  "LagTime": "quis",
+  "LeadTime": "fugit",
+  "Location": "atque",
+  "RejectCounter": 440,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 893,
-      "PersonId": 390,
-      "ContactId": 156,
-      "EmailId": 505,
-      "SendEmail": true,
+      "AssociateId": 1001,
+      "PersonId": 347,
+      "ContactId": 101,
+      "EmailId": 122,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 893,
-      "PersonId": 390,
-      "ContactId": 156,
-      "EmailId": 505,
-      "SendEmail": true,
+      "AssociateId": 1001,
+      "PersonId": 347,
+      "ContactId": 101,
+      "EmailId": 122,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-05-03T03:24:47.095837+02:00",
+  "ActiveDate": "1999-03-22T11:06:33.553859+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 692,
+  "PreferredTZLocation": 536,
   "Sale": null,
-  "SuggestedAppointmentId": 80,
+  "SuggestedAppointmentId": 295,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "deleniti",
-  "Title": "alias",
-  "Agenda": "sint",
-  "InternalNotes": "sunt",
+  "CentralserviceVideomeetId": "distinctio",
+  "Title": "tempora",
+  "Agenda": "earum",
+  "InternalNotes": "ea",
   "UserDefinedFields": {
-    "SuperOffice:1": "Roberta Gerhold",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Elda Brianne Welch Sr.",
+    "SuperOffice:2": "Shanna Wisoky"
   },
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "modi",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "ratione",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "qui",
+    "CustomFields2": "tempore"
   },
-  "PublishEventDate": "2003-12-27T03:24:47.095837+01:00",
-  "PublishTo": "1998-09-26T03:24:47.095837+02:00",
-  "PublishFrom": "2007-02-17T03:24:47.095837+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-06-12T11:06:33.553859+02:00",
+  "PublishTo": "2005-11-13T11:06:33.553859+01:00",
+  "PublishFrom": "2000-04-15T11:06:33.553859+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 623,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 418
         }
       }
     },
     {
-      "VisibleId": 623,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 418
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldLength": 488
     }
   }
 }

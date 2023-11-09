@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsam",
-  "ProviderName": "Abernathy, Wiegand and Schoen",
-  "StorageKey": "quas",
-  "Rank": 184,
-  "Context": "fugit"
+  "StorageType": "sed",
+  "ProviderName": "Rutherford-Daugherty",
+  "StorageKey": "animi",
+  "Rank": 892,
+  "Context": "consequatur"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Herzog-Hauck",
-  "Description": "Vision-oriented non-volatile software",
-  "Rank": 429,
+  "Name": "Veum Inc and Sons",
+  "Description": "Multi-lateral foreground pricing structure",
+  "Rank": 556,
   "Restrictions": [
     {
-      "Name": "Russel, Robel and Feest",
-      "Operator": "nostrum",
+      "Name": "Reinger Group",
+      "Operator": "blanditiis",
       "Values": [
-        "impedit",
-        "sed"
+        "deleniti",
+        "est"
       ],
       "DisplayValues": [
-        "architecto",
-        "quos"
+        "magnam",
+        "accusamus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 181,
+      "InterParenthesis": 572,
       "InterOperator": "And",
-      "UniqueHash": 992
+      "UniqueHash": 739
     }
   ]
 }

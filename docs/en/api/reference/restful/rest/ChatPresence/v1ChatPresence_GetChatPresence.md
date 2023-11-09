@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 370,
-    "DisplayName": "Dickens Group",
-    "OngoingChats": 546,
-    "Present": true,
+    "UserId": 684,
+    "DisplayName": "Pagac-Welch",
+    "OngoingChats": 407,
+    "Present": false,
     "ChatTopics": [
-      159,
-      701
+      368,
+      911
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 926
       }
     }
   }

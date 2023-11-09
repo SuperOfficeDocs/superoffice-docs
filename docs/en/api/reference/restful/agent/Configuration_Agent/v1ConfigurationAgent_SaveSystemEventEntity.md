@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 921,
+  "SystemEventId": 290,
   "Scope": "Database",
-  "Eta": "1999-09-21T03:24:47.3614382+02:00",
-  "Eventkey": "qui",
-  "Eventmess": "excepturi",
-  "ExtraInfo": 977,
-  "Owner": 34,
-  "UpdatedCount": 709,
-  "Registered": "2004-02-29T03:24:47.3614382+01:00",
+  "Eta": "2004-10-02T11:06:34.080854+02:00",
+  "Eventkey": "voluptates",
+  "Eventmess": "rerum",
+  "ExtraInfo": 95,
+  "Owner": 103,
+  "UpdatedCount": 976,
+  "Registered": "2011-04-02T11:06:34.080854+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 88,
+  "SystemEventId": 773,
   "Scope": "Database",
-  "Eta": "2000-05-30T03:24:47.3614382+02:00",
-  "Eventkey": "officia",
-  "Eventmess": "voluptatibus",
-  "ExtraInfo": 103,
-  "Owner": 649,
-  "UpdatedCount": 527,
-  "Registered": "1999-01-14T03:24:47.3614382+01:00",
+  "Eta": "2001-05-31T11:06:34.080854+02:00",
+  "Eventkey": "aut",
+  "Eventmess": "exercitationem",
+  "ExtraInfo": 357,
+  "Owner": 844,
+  "UpdatedCount": 959,
+  "Registered": "2001-12-07T11:06:34.080854+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 268
     }
   }
 }

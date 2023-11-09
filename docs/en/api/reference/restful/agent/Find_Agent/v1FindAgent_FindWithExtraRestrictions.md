@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nihil",
-  "ProviderName": "Little LLC",
-  "StorageKey": "quam",
+  "StorageType": "in",
+  "ProviderName": "McLaughlin, Mertz and Reilly",
+  "StorageKey": "rem",
   "ExtraRestrictions": [
     {
-      "Name": "Medhurst, Gaylord and Jenkins",
-      "Operator": "iusto",
+      "Name": "Gaylord LLC",
+      "Operator": "est",
       "Values": [
-        "consequatur",
-        "qui"
+        "eum",
+        "id"
       ],
       "DisplayValues": [
-        "fugiat",
-        "illum"
+        "rem",
+        "eos"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 864,
+      "InterParenthesis": 356,
       "InterOperator": "And",
-      "UniqueHash": 943
+      "UniqueHash": 224
     }
   ],
   "OrderBy": [
     {
-      "Name": "Feeney Group",
+      "Name": "Cartwright Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Feeney Group",
+      "Name": "Cartwright Group",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "dolorem",
-    "pariatur"
+    "et",
+    "ipsam"
   ],
-  "PageSize": 554,
-  "PageNumber": 844
+  "PageSize": 962,
+  "PageNumber": 918
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bauch-Weissnat",
-      "DisplayTooltip": "eaque",
-      "DisplayType": "rerum",
-      "CanOrderBy": false,
-      "Name": "Beatty-Flatley",
+      "DisplayName": "Ritchie-Altenwerth",
+      "DisplayTooltip": "voluptate",
+      "DisplayType": "enim",
+      "CanOrderBy": true,
+      "Name": "Sipes, Robel and Cormier",
       "CanRestrictBy": false,
-      "RestrictionType": "cupiditate",
-      "RestrictionListName": "Hackett LLC",
+      "RestrictionType": "dignissimos",
+      "RestrictionListName": "Oberbrunner, Bode and McDermott",
       "IsVisible": false,
-      "ExtraInfo": "quis",
-      "Width": "suscipit",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "officiis"
+      "ExtraInfo": "aut",
+      "Width": "aut",
+      "IconHint": "perferendis",
+      "HeadingIconHint": "commodi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wiegand-Hamill",
-      "PrimaryKey": 161,
+      "EntityName": "Runolfsdottir, Pacocha and Fritsch",
+      "PrimaryKey": 809,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "nobis",
-          "LinkHint": "adipisci"
+          "DisplayValue": "dolores",
+          "TooltipHint": "in",
+          "LinkHint": "totam"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "iste",
+      "LinkHint": "accusantium",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldLength": 632
         }
       }
     }
   ],
-  "RowCount": 92,
+  "RowCount": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldLength": 383
     }
   }
 }

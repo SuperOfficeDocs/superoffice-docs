@@ -85,21 +85,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 709,
-  "UniqueIdentifier": "non",
-  "Name": "Graham, Kilback and Kuphal",
-  "Description": "Persistent mission-critical model",
-  "IncludeId": "voluptatum",
-  "HierarchyId": 145,
-  "Source": "fuga",
-  "Registered": "2000-08-09T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 555,
-  "Updated": "2010-04-13T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 21
+  "EjscriptId": 676,
+  "UniqueIdentifier": "modi",
+  "Name": "Kuvalis, Leffler and Goodwin",
+  "Description": "Phased attitude-oriented access",
+  "IncludeId": "rerum",
+  "HierarchyId": 528,
+  "Source": "eum",
+  "Registered": "2003-10-23T11:06:34.2383276+02:00",
+  "RegisteredAssociateId": 870,
+  "Updated": "2005-07-06T11:06:34.2383276+02:00",
+  "UpdatedAssociateId": 870
 }
 ```
 
@@ -110,23 +110,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 932,
-  "UniqueIdentifier": "qui",
-  "Name": "Bechtelar Inc and Sons",
-  "Description": "Managed multimedia firmware",
-  "IncludeId": "dolorem",
-  "HierarchyId": 584,
-  "Source": "quo",
-  "Registered": "2016-04-28T03:24:47.4708008+02:00",
-  "RegisteredAssociateId": 668,
-  "Updated": "2012-07-29T03:24:47.4708008+02:00",
-  "UpdatedAssociateId": 474,
+  "EjscriptId": 172,
+  "UniqueIdentifier": "repudiandae",
+  "Name": "DuBuque LLC",
+  "Description": "Profit-focused 5th generation knowledge user",
+  "IncludeId": "rerum",
+  "HierarchyId": 764,
+  "Source": "et",
+  "Registered": "2008-08-06T11:06:34.2383276+02:00",
+  "RegisteredAssociateId": 167,
+  "Updated": "2009-10-08T11:06:34.2383276+02:00",
+  "UpdatedAssociateId": 822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 404
     }
   }
 }

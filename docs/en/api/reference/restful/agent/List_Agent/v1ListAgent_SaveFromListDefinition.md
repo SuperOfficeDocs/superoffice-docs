@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 845,
-  "UdListDefinitionId": 466,
+  "Id": 289,
+  "UdListDefinitionId": 627,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 693,
-  "Name": "Christiansen, Schmidt and Kuhlman",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "UdListDefinitionId": 316,
-  "Rank": 98,
+  "Id": 40,
+  "Name": "Wiza Inc and Sons",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "UdListDefinitionId": 376,
+  "Rank": 520,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 676
     }
   }
 }

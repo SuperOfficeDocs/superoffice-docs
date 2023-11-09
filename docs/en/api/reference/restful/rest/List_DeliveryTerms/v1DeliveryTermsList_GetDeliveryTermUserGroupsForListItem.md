@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Thiel-Kulas",
-    "ToolTip": "Autem nobis consequatur nemo sed architecto fuga enim.",
+    "Id": 751,
+    "Name": "Beatty-Kassulke",
+    "ToolTip": "Animi modi.",
     "Deleted": false,
-    "Rank": 379,
-    "Type": "eaque",
-    "ColorBlock": 882,
-    "IconHint": "vel",
-    "Selected": true,
-    "LastChanged": "2016-09-27T03:24:52.240053+02:00",
+    "Rank": 731,
+    "Type": "et",
+    "ColorBlock": 916,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2017-01-15T11:06:42.7878188+01:00",
     "ChildItems": [
       {
-        "Id": 514,
-        "Name": "Frami-Reilly",
-        "ToolTip": "Consequatur ab in.",
+        "Id": 431,
+        "Name": "Weissnat, Klein and Stiedemann",
+        "ToolTip": "Laborum quasi.",
         "Deleted": true,
-        "Rank": 967,
-        "Type": "dolorem",
-        "ColorBlock": 926,
-        "IconHint": "harum",
+        "Rank": 68,
+        "Type": "expedita",
+        "ColorBlock": 96,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2004-10-19T03:24:52.240053+02:00",
+        "LastChanged": "2007-01-16T11:06:42.7878188+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Mrs. Kasandra Sid Hilll",
+        "ExtraInfo": "et",
+        "StyleHint": "quaerat",
+        "Hidden": false,
+        "FullName": "Malvina Will III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 565
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "unde",
+    "ExtraInfo": "animi",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Dr. Layne Jo Ryan",
+    "FullName": "Mrs. Elinor Skylar Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 458
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   }

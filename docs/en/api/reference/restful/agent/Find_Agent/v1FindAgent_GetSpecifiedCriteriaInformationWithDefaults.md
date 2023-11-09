@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "Wisoky-Goyette",
-  "StorageKey": "et",
+  "StorageType": "quisquam",
+  "ProviderName": "Cormier-Koelpin",
+  "StorageKey": "alias",
   "DesiredColumnNames": [
-    "Bauch-Hintz",
-    "Collins, Morissette and Kassulke"
+    "Osinski, Olson and Jacobi",
+    "Boyer LLC"
   ],
   "StaticColumns": [
-    "porro",
-    "iusto"
+    "qui",
+    "sunt"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schowalter, Fadel and Lindgren",
-      "Operator": "vel",
+      "Name": "Hettinger, Bashirian and Koepp",
+      "Operator": "suscipit",
       "Values": [
-        "et",
-        "sed"
+        "cupiditate",
+        "eius"
       ],
       "DisplayValues": [
-        "vitae",
-        "officia"
+        "sunt",
+        "non"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 820,
+      "InterParenthesis": 605,
       "InterOperator": "And",
-      "UniqueHash": 424
+      "UniqueHash": 695
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Fay Inc and Sons",
-      "DisplayTooltip": "reiciendis",
-      "DisplayType": "officiis",
-      "CanOrderBy": false,
-      "Name": "Torp LLC",
+      "DisplayName": "Kovacek-Hammes",
+      "DisplayTooltip": "ipsam",
+      "DisplayType": "ex",
+      "CanOrderBy": true,
+      "Name": "Frami-Brakus",
       "CanRestrictBy": false,
-      "RestrictionType": "reiciendis",
-      "RestrictionListName": "Heathcote Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "ut",
-      "Width": "ratione",
-      "IconHint": "ut",
-      "HeadingIconHint": "quaerat"
+      "RestrictionType": "earum",
+      "RestrictionListName": "Smith Group",
+      "IsVisible": false,
+      "ExtraInfo": "et",
+      "Width": "cumque",
+      "IconHint": "tempora",
+      "HeadingIconHint": "aperiam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Dooley-Spencer",
-      "PrimaryKey": 424,
+      "EntityName": "Will-Kerluke",
+      "PrimaryKey": 490,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "iste",
-          "TooltipHint": "dolore",
-          "LinkHint": "temporibus"
+          "DisplayValue": "autem",
+          "TooltipHint": "voluptatem",
+          "LinkHint": "nesciunt"
         }
       },
-      "LinkHint": "vel",
-      "StyleHint": "incidunt",
+      "LinkHint": "et",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 486
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jones, Armstrong and Hintz",
-      "Description": "Synchronised even-keeled methodology",
-      "Rank": 816,
+      "Name": "Herman, Langworth and Weimann",
+      "Description": "Robust fault-tolerant functionalities",
+      "Rank": 849,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jones, Armstrong and Hintz",
-      "Description": "Synchronised even-keeled methodology",
-      "Rank": 816,
+      "Name": "Herman, Langworth and Weimann",
+      "Description": "Robust fault-tolerant functionalities",
+      "Rank": 849,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 434
     }
   }
 }

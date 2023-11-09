@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=235
+POST /api/v1/Agents/Document/GetDocument?documentId=731
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 165,
-  "Attention": "sequi",
-  "Header": "voluptatibus",
-  "Name": "Roob, White and Mann",
-  "OurRef": "a",
-  "YourRef": "velit",
-  "Description": "Compatible assymetric migration",
-  "DocumentTemplate": "quam",
+  "DocumentId": 549,
+  "Attention": "et",
+  "Header": "repellendus",
+  "Name": "Jaskolski-Wiza",
+  "OurRef": "doloribus",
+  "YourRef": "quis",
+  "Description": "Sharable attitude-oriented product",
+  "DocumentTemplate": "doloremque",
   "IsPublished": true,
-  "PersonId": 192,
-  "PersonFullName": "Ms. Sydnie Koch",
-  "AssociateFullName": "Miss Damian Jerde III",
-  "ContactId": 25,
-  "ContactName": "Dickens-Lebsack",
-  "ProjectId": 266,
-  "ProjectName": "Schiller Group",
-  "AssociateId": 572,
-  "Snum": 957,
-  "SaleId": 581,
-  "SaleName": "Haley-Padberg",
+  "PersonId": 163,
+  "PersonFullName": "Mrs. Barton Quigley",
+  "AssociateFullName": "Allene Johnston",
+  "ContactId": 992,
+  "ContactName": "Bartell, Cummings and Kub",
+  "ProjectId": 785,
+  "ProjectName": "Parker, Schuppe and Trantow",
+  "AssociateId": 234,
+  "Snum": 639,
+  "SaleId": 178,
+  "SaleName": "Schulist, Feeney and Sawayn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldLength": 279
     }
   }
 }

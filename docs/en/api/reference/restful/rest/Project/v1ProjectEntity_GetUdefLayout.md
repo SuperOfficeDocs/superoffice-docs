@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 984,
-    "ColumnId": 416,
-    "FieldDefault": "quo",
-    "FieldHeight": 417,
-    "FieldLabel": "et",
-    "FieldLeft": 212,
-    "FieldTop": 580,
+    "UDefFieldId": 957,
+    "ColumnId": 466,
+    "FieldDefault": "quae",
+    "FieldHeight": 318,
+    "FieldLabel": "omnis",
+    "FieldLeft": 450,
+    "FieldTop": 709,
     "FieldType": "Checkbox",
-    "FieldWidth": 244,
-    "FormatMask": "voluptatibus",
+    "FieldWidth": 256,
+    "FormatMask": "iste",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 601,
-    "LabelLeft": 888,
-    "LabelTop": 525,
-    "LabelWidth": 573,
-    "LastVersionId": 583,
-    "ListTableId": 290,
-    "IsMandatory": false,
+    "LabelHeight": 403,
+    "LabelLeft": 729,
+    "LabelTop": 881,
+    "LabelWidth": 167,
+    "LastVersionId": 968,
+    "ListTableId": 132,
+    "IsMandatory": true,
     "Type": "Appointment",
     "Page1LineNo": 955,
-    "ProgId": "quis",
+    "ProgId": "dolor",
     "IsReadOnly": false,
-    "ShortLabel": "delectus",
-    "TabOrder": 996,
-    "TextLength": 969,
-    "Tooltip": "ducimus",
-    "UdefIdentity": 46,
-    "UDListDefinitionId": 222,
+    "ShortLabel": "quidem",
+    "TabOrder": 74,
+    "TextLength": 747,
+    "Tooltip": "cum",
+    "UdefIdentity": 914,
+    "UDListDefinitionId": 495,
     "Justification": "Center",
-    "Version": 77,
-    "TemplateVariableName": "Hills Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Muller, Rice and Padberg",
+    "Version": 337,
+    "TemplateVariableName": "Romaguera, Friesen and Kessler",
+    "HasBeenPublished": false,
+    "MdoListName": "Waelchi, Weimann and Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 311
       }
     }
   }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "McDermott Group"
+  "ApplicationName": "Huels, Schneider and Mohr"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 417,
-    "Name": "Ziemann Group",
-    "CreatedDate": "2023-08-08T03:24:47.8145137+02:00",
-    "UpdatedDate": "1997-03-29T03:24:47.8145137+01:00",
-    "AssociateFullName": "Anastacio Farrell",
-    "CreatedBy": "placeat",
-    "UpdatedBy": "inventore",
-    "DeviceIdentifier": "aliquam",
-    "ForeignAppId": 154,
+    "ForeignDeviceId": 526,
+    "Name": "Kutch Inc and Sons",
+    "CreatedDate": "2023-06-02T11:06:34.6301875+02:00",
+    "UpdatedDate": "2020-07-07T11:06:34.6301875+02:00",
+    "AssociateFullName": "Jerald Kiehn",
+    "CreatedBy": "delectus",
+    "UpdatedBy": "at",
+    "DeviceIdentifier": "voluptatem",
+    "ForeignAppId": 415,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 893
+        "FieldType": "System.Int32",
+        "FieldLength": 684
       }
     }
   }

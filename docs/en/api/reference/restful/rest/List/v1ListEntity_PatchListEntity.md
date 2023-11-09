@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "natus",
+    "path": "aperiam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "natus",
+    "path": "aperiam",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Kirlin, Corkery and Crist",
-  "Tooltip": "ut",
+  "Id": 895,
+  "Name": "Leannon-Gaylord",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 875,
+  "Rank": 357,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quae",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quaerat",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 862
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

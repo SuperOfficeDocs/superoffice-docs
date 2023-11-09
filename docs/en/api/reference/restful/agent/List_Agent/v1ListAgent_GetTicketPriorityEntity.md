@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=871
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=138
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 712,
-  "Name": "Leuschke-Block",
+  "TicketPriorityId": 640,
+  "Name": "Botsford, Gerlach and Treutel",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 86,
+  "SortOrder": 334,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 765,
-  "MonStart": "1999-05-10T03:24:47.8457602+02:00",
-  "MonStop": "2000-04-28T03:24:47.8457602+02:00",
-  "TueStart": "2017-05-27T03:24:47.8457602+02:00",
-  "TueStop": "2020-09-11T03:24:47.8457602+02:00",
-  "WedStart": "2011-10-27T03:24:47.8457602+02:00",
-  "WedStop": "2020-10-25T03:24:47.8457602+01:00",
-  "ThuStart": "2006-11-16T03:24:47.8457602+01:00",
-  "ThuStop": "2007-04-09T03:24:47.8457602+02:00",
-  "FriStart": "1999-02-11T03:24:47.8457602+01:00",
-  "FriStop": "2012-11-23T03:24:47.8457602+01:00",
-  "SatStart": "1999-06-18T03:24:47.8457602+02:00",
-  "SatStop": "1998-11-14T03:24:47.8457602+01:00",
-  "SunStart": "1999-04-17T03:24:47.8457602+02:00",
-  "SunStop": "2022-10-25T03:24:47.8457602+02:00",
+  "Deadline": 552,
+  "MonStart": "2002-12-02T11:06:34.6614378+01:00",
+  "MonStop": "2012-07-26T11:06:34.6614378+02:00",
+  "TueStart": "2017-06-01T11:06:34.6614378+02:00",
+  "TueStop": "2009-08-06T11:06:34.6614378+02:00",
+  "WedStart": "2013-02-02T11:06:34.6614378+01:00",
+  "WedStop": "2018-07-26T11:06:34.6614378+02:00",
+  "ThuStart": "2006-12-15T11:06:34.6614378+01:00",
+  "ThuStop": "2003-02-20T11:06:34.6614378+01:00",
+  "FriStart": "2020-06-22T11:06:34.6614378+02:00",
+  "FriStop": "1998-05-22T11:06:34.6614378+02:00",
+  "SatStart": "2004-08-31T11:06:34.6614378+02:00",
+  "SatStop": "2005-02-12T11:06:34.6614378+01:00",
+  "SunStart": "2003-02-14T11:06:34.6614378+01:00",
+  "SunStop": "2016-01-22T11:06:34.6614378+01:00",
   "NonDates": [
-    "sapiente",
-    "sed"
+    "pariatur",
+    "rerum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 285,
-      "AlertLevel": 704,
-      "AlertTimeout": 444,
-      "Action": 829,
-      "DelegateTo": 242,
-      "ScriptId": 36,
-      "EmailTo": "nyah.gusikowski@kessler.name",
-      "SmsTo": "nihil",
-      "ReplyTemplateIdCustomer": 69,
-      "ReplyTemplateIdUser": 853,
-      "ReplyTemplateIdCatmast": 261,
-      "ReplyTemplateIdEmail": 227,
-      "RtiCustomerSms": 803,
-      "ReplyTemplateIdUserSms": 324,
-      "ReplyTemplateIdCatmastSms": 582,
-      "ReplyTemplateIdSms": 354,
+      "TicketAlertId": 625,
+      "AlertLevel": 268,
+      "AlertTimeout": 548,
+      "Action": 978,
+      "DelegateTo": 271,
+      "ScriptId": 711,
+      "EmailTo": "felton_bauch@bode.name",
+      "SmsTo": "explicabo",
+      "ReplyTemplateIdCustomer": 397,
+      "ReplyTemplateIdUser": 998,
+      "ReplyTemplateIdCatmast": 478,
+      "ReplyTemplateIdEmail": 30,
+      "RtiCustomerSms": 953,
+      "ReplyTemplateIdUserSms": 251,
+      "ReplyTemplateIdCatmastSms": 505,
+      "ReplyTemplateIdSms": 7,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 116
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 870
     }
   }
 }

@@ -77,9 +77,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 59,
-  "DestinationContactName": "Mann, Orn and Macejkovic",
-  "DestinationContactDepartment": "iterate back-end web-readiness",
+  "SourceContactId": 845,
+  "DestinationContactName": "Treutel, Von and Senger",
+  "DestinationContactDepartment": "",
   "CopyPersons": true
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-705
+468
 ```

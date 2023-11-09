@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 481,
-  "Name": "Stehr-Armstrong",
+  "SelectionId": 566,
+  "Name": "Raynor-Zulauf",
   "TargetSelectionType": "Combined",
   "CopyMembers": true
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cloned tangible extranet",
-  "Postit": "est",
+  "Description": "Adaptive multi-tasking toolset",
+  "Postit": "deserunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 431,
-  "IncludePerson": 853,
-  "MemberCount": 836,
-  "Name": "Buckridge, Prohaska and Schaden",
-  "PostitTextId": 149,
-  "CreatedDate": "2001-01-21T03:24:48.2680521+01:00",
-  "SelectionId": 741,
-  "SoundEx": "in",
-  "Source": 413,
-  "TextId": 108,
-  "UpdatedDate": "2006-07-30T03:24:48.2680521+02:00",
-  "UpdatedCount": 591,
-  "Visibility": 386,
+  "GroupIdx": 817,
+  "IncludePerson": 622,
+  "MemberCount": 453,
+  "Name": "Beahan Inc and Sons",
+  "PostitTextId": 202,
+  "CreatedDate": "2021-01-29T11:06:35.3958193+01:00",
+  "SelectionId": 412,
+  "SoundEx": "et",
+  "Source": 703,
+  "TextId": 392,
+  "UpdatedDate": "2000-01-25T11:06:35.3958193+01:00",
+  "UpdatedCount": 114,
+  "Visibility": 218,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 67,
-  "TargetTableName": "Bogan Inc and Sons",
+  "TargetTableNumber": 859,
+  "TargetTableName": "Fahey, Wisoky and Heaney",
   "Completed": false,
-  "LeftSelectionId": 891,
-  "RightSelectionId": 683,
+  "LeftSelectionId": 617,
+  "RightSelectionId": 583,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Koelpin, O'Hara and Gutkowski",
-  "ShadowProviderName": "Towne, Ortiz and Daugherty",
-  "ChartKey": "rerum",
-  "LastLoaded": "2003-09-21T03:24:48.2680521+02:00",
-  "LastLoadedBy": 304,
+  "MainProviderName": "Pollich, Rohan and Jenkins",
+  "ShadowProviderName": "Fritsch-Koelpin",
+  "ChartKey": "harum",
+  "LastLoaded": "2020-07-16T11:06:35.3958193+02:00",
+  "LastLoadedBy": 495,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-04-13T03:24:48.2680521+02:00",
-  "LastMembershipChangeBy": 595,
+  "LastMembershipChange": "2005-08-29T11:06:35.3958193+02:00",
+  "LastMembershipChangeBy": 181,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Walker Inc and Sons",
-  "DashboardTileDefinitionId": 882,
+  "MainHeading": "ut",
+  "MemberTabHeading": "totam",
+  "MailingsProviderName": "Runolfsson, Kovacek and Klein",
+  "DashboardTileDefinitionId": 110,
   "VisibleFor": [
     {
-      "VisibleId": 923,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 579
         }
       }
     },
     {
-      "VisibleId": 923,
+      "VisibleId": 137,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 579
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

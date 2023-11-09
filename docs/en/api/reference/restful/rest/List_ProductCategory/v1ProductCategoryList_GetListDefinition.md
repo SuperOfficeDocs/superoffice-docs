@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Parisian-Morissette",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "Rank": 309,
+  "Id": 578,
+  "Name": "Effertz, Rath and Lowe",
+  "Tooltip": "perferendis",
+  "Deleted": true,
+  "Rank": 227,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldType": "System.String",
+      "FieldLength": 637
     }
   },
   "_Links": {

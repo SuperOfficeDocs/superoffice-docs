@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 452,
-  "Name": "Mertz, Ritchie and Parisian",
-  "Tooltip": "cum",
-  "Rank": 922,
-  "AmountFrom": 742.75799999999992,
-  "AmountTo": 24987.381999999998,
-  "Deleted": false,
-  "CurrencyId": 377
+  "AmountClassId": 372,
+  "Name": "Sauer-Hagenes",
+  "Tooltip": "corrupti",
+  "Rank": 44,
+  "AmountFrom": 3989.582,
+  "AmountTo": 12711.503999999999,
+  "Deleted": true,
+  "CurrencyId": 556
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 665,
-  "Name": "Reilly-Leannon",
-  "Tooltip": "et",
-  "Rank": 846,
-  "AmountFrom": 26993.142,
-  "AmountTo": 23928.09,
+  "AmountClassId": 197,
+  "Name": "Grady-Hessel",
+  "Tooltip": "molestiae",
+  "Rank": 799,
+  "AmountFrom": 6199.052,
+  "AmountTo": 6722.4299999999994,
   "Deleted": false,
-  "CurrencyId": 528,
+  "CurrencyId": 463,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldLength": 628
     }
   }
 }

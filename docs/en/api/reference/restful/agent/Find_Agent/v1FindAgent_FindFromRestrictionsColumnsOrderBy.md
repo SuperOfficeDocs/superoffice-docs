@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "O'Hara-Lesch",
-      "Operator": "dicta",
+      "Name": "Runolfsson, Thiel and Anderson",
+      "Operator": "expedita",
       "Values": [
-        "magnam",
-        "fugiat"
+        "ad",
+        "eius"
       ],
       "DisplayValues": [
-        "sapiente",
-        "sit"
+        "voluptatem",
+        "adipisci"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 675,
+      "InterParenthesis": 327,
       "InterOperator": "And",
-      "UniqueHash": 650
+      "UniqueHash": 662
     }
   ],
-  "ProviderName": "Kohler, Conroy and Becker",
+  "ProviderName": "Lowe, Greenholt and Schumm",
   "DesiredColumns": [
-    "dolorum",
-    "at"
+    "alias",
+    "aut"
   ],
   "OrderBy": [
     {
-      "Name": "Prosacco LLC",
+      "Name": "Schultz Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Prosacco LLC",
+      "Name": "Schultz Group",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 796,
-  "PageNumber": 646
+  "PageSize": 921,
+  "PageNumber": 394
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gusikowski-Dach",
-      "DisplayTooltip": "ad",
-      "DisplayType": "incidunt",
+      "DisplayName": "Parker-Abbott",
+      "DisplayTooltip": "quae",
+      "DisplayType": "magnam",
       "CanOrderBy": false,
-      "Name": "Walker-Bailey",
-      "CanRestrictBy": false,
-      "RestrictionType": "hic",
-      "RestrictionListName": "Fay, Moen and Howe",
-      "IsVisible": true,
-      "ExtraInfo": "a",
-      "Width": "modi",
-      "IconHint": "autem",
-      "HeadingIconHint": "beatae"
+      "Name": "Predovic, Frami and Feeney",
+      "CanRestrictBy": true,
+      "RestrictionType": "vero",
+      "RestrictionListName": "Bode, Klocko and Towne",
+      "IsVisible": false,
+      "ExtraInfo": "velit",
+      "Width": "maiores",
+      "IconHint": "tenetur",
+      "HeadingIconHint": "rerum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Deckow LLC",
-      "PrimaryKey": 934,
+      "EntityName": "Ritchie-Anderson",
+      "PrimaryKey": 197,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "asperiores",
-          "TooltipHint": "officiis",
-          "LinkHint": "impedit"
+          "DisplayValue": "tempore",
+          "TooltipHint": "quia",
+          "LinkHint": "deserunt"
         }
       },
-      "LinkHint": "vel",
-      "StyleHint": "tempore",
+      "LinkHint": "doloremque",
+      "StyleHint": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 866
         }
       }
     }
   ],
-  "RowCount": 448,
+  "RowCount": 377,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldLength": 427
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 751
+  "PersonId": 131
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 423,
-  "Name": "Littel Inc and Sons",
-  "PersonId": 25,
-  "Rank": 668,
-  "Tooltip": "quis",
+  "AssociateId": 27,
+  "Name": "Halvorson, Hartmann and Kassulke",
+  "PersonId": 89,
+  "Rank": 977,
+  "Tooltip": "at",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 148,
-  "FullName": "Darby Vandervort",
-  "FormalName": "Stehr-Hagenes",
+  "GroupIdx": 558,
+  "FullName": "Melba Feeney",
+  "FormalName": "Tromp-Block",
   "Deleted": false,
-  "EjUserId": 48,
-  "UserName": "Effertz, Erdman and Bode",
+  "EjUserId": 270,
+  "UserName": "Kiehn Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 441
     }
   }
 }

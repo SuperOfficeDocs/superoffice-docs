@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Kuhlman, Langworth and Swift",
-    "ToolTip": "Qui consectetur fuga maxime.",
+    "Id": 618,
+    "Name": "Hagenes, Farrell and Medhurst",
+    "ToolTip": "Facilis libero modi.",
     "Deleted": true,
-    "Rank": 609,
-    "Type": "quis",
-    "ColorBlock": 877,
-    "IconHint": "placeat",
+    "Rank": 235,
+    "Type": "tenetur",
+    "ColorBlock": 883,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2008-08-30T03:24:52.3806958+02:00",
+    "LastChanged": "1996-09-15T11:06:43.0222001+02:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Hirthe, Zulauf and Rutherford",
-        "ToolTip": "Sint rerum repellendus cumque quidem suscipit tenetur.",
-        "Deleted": false,
-        "Rank": 811,
-        "Type": "molestiae",
-        "ColorBlock": 543,
-        "IconHint": "et",
+        "Id": 224,
+        "Name": "Oberbrunner, Bernhard and Kuhlman",
+        "ToolTip": "Quibusdam consequatur suscipit occaecati dolor quod nesciunt ab.",
+        "Deleted": true,
+        "Rank": 734,
+        "Type": "accusamus",
+        "ColorBlock": 373,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "1999-11-02T03:24:52.3806958+01:00",
+        "LastChanged": "2012-05-13T11:06:43.0222001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Hans Marks"
+        "ExtraInfo": "modi",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Brennan Laurie Nienow DDS"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "odio",
+    "ExtraInfo": "culpa",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Mr. Marty Shane Kreiger Sr."
+    "FullName": "Claude Dickinson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 244,
-    "Name": "Boehm LLC",
-    "ToolTip": "Laborum est delectus atque omnis pariatur sint voluptatibus.",
+    "Id": 761,
+    "Name": "Mueller, Tillman and Goldner",
+    "ToolTip": "Quia rerum sed veniam qui et ut.",
     "Deleted": false,
-    "Rank": 822,
-    "Type": "alias",
-    "ColorBlock": 189,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2021-05-11T03:24:52.3806958+02:00",
+    "Rank": 816,
+    "Type": "qui",
+    "ColorBlock": 383,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2009-10-09T11:06:43.0222001+02:00",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Greenfelder, Kautzer and Windler",
-        "ToolTip": "Adipisci autem accusantium sed.",
+        "Id": 394,
+        "Name": "Tremblay-Stokes",
+        "ToolTip": "Voluptatem aut officiis pariatur ut deserunt.",
         "Deleted": false,
-        "Rank": 937,
-        "Type": "consectetur",
-        "ColorBlock": 500,
-        "IconHint": "possimus",
+        "Rank": 81,
+        "Type": "in",
+        "ColorBlock": 145,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "2023-01-04T03:24:52.3806958+01:00",
+        "LastChanged": "2021-09-01T11:06:43.0222001+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Ms. Francesca Stark II",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Dr. Golda Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 345
+            "FieldType": "System.Int32",
+            "FieldLength": 736
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "inventore",
+    "ExtraInfo": "corporis",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Albina Hyatt PhD",
+    "FullName": "Prof. Alice Dameon Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 982
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   }

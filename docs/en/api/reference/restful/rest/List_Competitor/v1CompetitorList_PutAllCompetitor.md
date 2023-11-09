@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Ritchie Group",
-    "Tooltip": "sint",
+    "Id": 701,
+    "Name": "Hane Group",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 98,
-    "Rank": 972
+    "UdListDefinitionId": 506,
+    "Rank": 730
   },
   {
-    "Id": 265,
-    "Name": "Ritchie Group",
-    "Tooltip": "sint",
+    "Id": 701,
+    "Name": "Hane Group",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 98,
-    "Rank": 972
+    "UdListDefinitionId": 506,
+    "Rank": 730
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Mosciski Inc and Sons",
-    "Tooltip": "ut",
+    "Id": 601,
+    "Name": "Bechtelar-Runolfsdottir",
+    "Tooltip": "vel",
     "Deleted": true,
-    "UdListDefinitionId": 247,
-    "Rank": 7,
+    "UdListDefinitionId": 239,
+    "Rank": 612,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldLength": 97
       }
     }
   }

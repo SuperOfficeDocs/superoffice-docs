@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 661
+  "PersonId": 882
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 584,
-    "Name": "Von LLC",
-    "Description": "Vision-oriented interactive knowledge user",
+    "ProjectId": 260,
+    "Name": "Oberbrunner, Witting and Hansen",
+    "Description": "Synergized multi-tasking definition",
     "URL": "http://www.example.com/",
-    "Type": "amet",
-    "AssociateId": 196,
-    "AssociateFullName": "Mazie Murray",
-    "TypeId": 931,
-    "Updated": "2012-07-14T03:24:48.0957311+02:00",
-    "StatusId": 875,
-    "Status": "soluta",
-    "TextId": 819,
-    "PublishTo": "2018-11-24T03:24:48.0957311+01:00",
-    "PublishFrom": "2006-02-14T03:24:48.0957311+01:00",
+    "Type": "vero",
+    "AssociateId": 60,
+    "AssociateFullName": "Mrs. Oswald Kutch",
+    "TypeId": 607,
+    "Updated": "2021-07-10T11:06:35.1614465+02:00",
+    "StatusId": 731,
+    "Status": "inventore",
+    "TextId": 339,
+    "PublishTo": "2011-04-02T11:06:35.1614465+02:00",
+    "PublishFrom": "1998-12-25T11:06:35.1614465+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1353490",
-    "ActiveErpLinks": 737,
+    "ProjectNumber": "733408",
+    "ActiveErpLinks": 404,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldType": "System.String",
+        "FieldLength": 725
       }
     }
   }

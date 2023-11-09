@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 433,
-  "TZLocationId": 608,
-  "LocationCode": "mollitia",
-  "Description": "Operative hybrid neural-net",
+  "PreferenceId": 914,
+  "TZLocationId": 735,
+  "LocationCode": "aut",
+  "Description": "Advanced multi-state attitude",
   "Country": "Sokovia",
-  "Bias": 695
+  "Bias": 809
 }
 ```

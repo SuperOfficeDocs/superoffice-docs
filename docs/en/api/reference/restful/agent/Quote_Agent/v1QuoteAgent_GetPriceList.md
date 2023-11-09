@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=586
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=295
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 428,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 328,
-  "Name": "Miller LLC",
-  "Description": "Cross-group global help-desk",
-  "Currency": "odit",
-  "CurrencyName": "Kerluke, Gusikowski and Huel",
-  "ValidFrom": "2019-04-03T03:24:48.1269787+02:00",
-  "ValidTo": "2001-03-15T03:24:48.1269787+01:00",
-  "IsActive": true,
+  "PriceListId": 818,
+  "ERPPriceListKey": "ipsam",
+  "QuoteConnectionId": 773,
+  "Name": "Greenholt-Bartoletti",
+  "Description": "Devolved modular monitoring",
+  "Currency": "sunt",
+  "CurrencyName": "Sanford, Mosciski and Murphy",
+  "ValidFrom": "1998-03-24T11:06:35.2083213+01:00",
+  "ValidTo": "2018-10-01T11:06:35.2083213+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 869
     }
   }
 }

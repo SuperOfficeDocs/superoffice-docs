@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 408,
-    "Id": 567,
-    "HistoryName": "Connelly Group",
-    "HistoryId": 493,
-    "AssociateId": 753,
-    "Name": "Friesen, Lockman and Breitenberg",
-    "ItemInfo": "et",
+    "Rank": 341,
+    "Id": 734,
+    "HistoryName": "Goodwin LLC",
+    "HistoryId": 917,
+    "AssociateId": 604,
+    "Name": "Pfannerstill LLC",
+    "ItemInfo": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 210
       }
     }
   }

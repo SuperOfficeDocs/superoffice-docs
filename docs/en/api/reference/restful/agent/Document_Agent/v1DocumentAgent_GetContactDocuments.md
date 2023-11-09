@@ -101,10 +101,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 398,
-  "StartTime": "2000-10-21T03:24:47.5020527+02:00",
-  "EndTime": "2009-06-07T03:24:47.5020527+02:00",
-  "Count": 490
+  "ContactId": 495,
+  "StartTime": "2014-04-25T11:06:34.3008382+02:00",
+  "EndTime": "2006-09-09T11:06:34.3008382+02:00",
+  "Count": 376
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 739,
-    "Attention": "et",
-    "Header": "voluptatem",
-    "Name": "Yundt Group",
-    "OurRef": "omnis",
-    "YourRef": "illum",
-    "Description": "Extended static encryption",
-    "DocumentTemplate": "asperiores",
-    "IsPublished": true,
-    "PersonId": 569,
-    "PersonFullName": "Braden Gerlach",
-    "AssociateFullName": "Melissa Hickle",
-    "ContactId": 394,
-    "ContactName": "Goyette LLC",
-    "ProjectId": 806,
-    "ProjectName": "Stiedemann Group",
-    "AssociateId": 221,
-    "Snum": 138,
-    "SaleId": 234,
-    "SaleName": "Graham, Konopelski and Krajcik",
+    "DocumentId": 273,
+    "Attention": "rerum",
+    "Header": "eum",
+    "Name": "Barton-O'Hara",
+    "OurRef": "aut",
+    "YourRef": "rem",
+    "Description": "Intuitive content-based strategy",
+    "DocumentTemplate": "perferendis",
+    "IsPublished": false,
+    "PersonId": 237,
+    "PersonFullName": "Vincenza Koepp",
+    "AssociateFullName": "Ms. Jesse Viviane Orn",
+    "ContactId": 415,
+    "ContactName": "Strosin, Haag and Dicki",
+    "ProjectId": 902,
+    "ProjectName": "Mante LLC",
+    "AssociateId": 54,
+    "Snum": 154,
+    "SaleId": 917,
+    "SaleName": "Konopelski, Konopelski and Cole",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 351
       }
     }
   }

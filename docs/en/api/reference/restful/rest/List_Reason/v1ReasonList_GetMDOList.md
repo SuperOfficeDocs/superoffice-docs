@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=vel
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=eos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Gottlieb, Treutel and Kuhlman",
-    "ToolTip": "Iste in enim pariatur repudiandae.",
-    "Deleted": true,
-    "Rank": 811,
-    "Type": "qui",
+    "Id": 726,
+    "Name": "Mertz-Williamson",
+    "ToolTip": "Occaecati asperiores recusandae at qui est voluptas.",
+    "Deleted": false,
+    "Rank": 364,
+    "Type": "amet",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Reinger, Murazik and Berge",
-        "ToolTip": "Nam asperiores earum tempora et.",
-        "Deleted": true,
-        "Rank": 748,
-        "Type": "et",
+        "Id": 416,
+        "Name": "Cartwright, Koepp and Larson",
+        "ToolTip": "Cumque quo molestiae architecto consectetur officiis eum ad.",
+        "Deleted": false,
+        "Rank": 579,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 793,
-        "ExtraInfo": "ad",
+        "IconHint": "libero",
+        "ColorBlock": 284,
+        "ExtraInfo": "omnis",
         "StyleHint": "et",
-        "FullName": "Zola Reichert",
+        "FullName": "Bianka Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 315
+            "FieldLength": 658
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 202,
-    "ExtraInfo": "nulla",
-    "StyleHint": "unde",
-    "FullName": "Elias Hirthe Jr.",
+    "IconHint": "ut",
+    "ColorBlock": 118,
+    "ExtraInfo": "repellat",
+    "StyleHint": "veniam",
+    "FullName": "Wilbert Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 610
       }
     }
   }

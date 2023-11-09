@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "et",
-  "PersonId": 774,
-  "Mrmrs": "enim",
-  "Firstname": "Weston",
-  "Lastname": "Emard",
-  "MiddleName": "Zemlak LLC",
-  "Title": "possimus",
-  "Description": "Decentralized bandwidth-monitored superstructure",
-  "Email": "jamil_bogisich@bergeoberbrunner.uk",
-  "FullName": "Joe Ledner",
-  "DirectPhone": "350.370.8664 x43830",
-  "FormalName": "McGlynn-Hessel",
-  "CountryId": 412,
-  "ContactId": 725,
-  "ContactName": "Ledner Group",
-  "Retired": 814,
-  "Rank": 970,
-  "ActiveInterests": 719,
+  "Position": "quia",
+  "PersonId": 708,
+  "Mrmrs": "hic",
+  "Firstname": "Idella",
+  "Lastname": "Kulas",
+  "MiddleName": "Mayer Group",
+  "Title": "nesciunt",
+  "Description": "Enhanced zero tolerance protocol",
+  "Email": "jabari@quitzondouglas.com",
+  "FullName": "Miss Brennan Abby Dickens",
+  "DirectPhone": "1-304-429-3538 x58815",
+  "FormalName": "Schuster Inc and Sons",
+  "CountryId": 848,
+  "ContactId": 184,
+  "ContactName": "Schaefer Group",
+  "Retired": 601,
+  "Rank": 410,
+  "ActiveInterests": 839,
   "ContactDepartment": "",
-  "ContactCountryId": 56,
-  "ContactOrgNr": "1165810",
-  "FaxPhone": "031-479-6541",
-  "MobilePhone": "1-994-903-4617 x904",
-  "ContactPhone": "(695)780-8446",
-  "AssociateName": "VonRueden Group",
-  "AssociateId": 926,
+  "ContactCountryId": 453,
+  "ContactOrgNr": "1021628",
+  "FaxPhone": "1-476-527-5673 x85075",
+  "MobilePhone": "(827)853-0891 x648",
+  "ContactPhone": "492-502-8032",
+  "AssociateName": "Purdy, Veum and Stanton",
+  "AssociateId": 453,
   "UsePersonAddress": false,
-  "ContactFax": "quo",
-  "Kanafname": "ut",
-  "Kanalname": "dolorum",
-  "Post1": "occaecati",
-  "Post2": "hic",
-  "Post3": "perspiciatis",
-  "EmailName": "thurman@hoppehamill.biz",
-  "ContactFullName": "Ms. Kathleen Wisozk II",
-  "ActiveErpLinks": 632,
-  "TicketPriorityId": 665,
-  "SupportLanguageId": 278,
-  "SupportAssociateId": 737,
+  "ContactFax": "provident",
+  "Kanafname": "alias",
+  "Kanalname": "qui",
+  "Post1": "et",
+  "Post2": "cumque",
+  "Post3": "quod",
+  "EmailName": "marlin.schmeler@thompson.co.uk",
+  "ContactFullName": "Graciela Desiree Dickinson I",
+  "ActiveErpLinks": 756,
+  "TicketPriorityId": 541,
+  "SupportLanguageId": 184,
+  "SupportAssociateId": 940,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

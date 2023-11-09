@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 599,
-  "Name": "Keebler, Emmerich and Gislason",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 562,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 164,
+  "Name": "Thiel LLC",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 559,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
-  "InUseByUserDefinedFields": true
+  "ListType": "praesentium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 839,
-  "Name": "Kling, Green and Graham",
-  "Tooltip": "error",
-  "Deleted": true,
-  "Rank": 842,
+  "Id": 682,
+  "Name": "Williamson Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 347,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
+  "ListType": "mollitia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldType": "System.String",
+      "FieldLength": 515
     }
   }
 }

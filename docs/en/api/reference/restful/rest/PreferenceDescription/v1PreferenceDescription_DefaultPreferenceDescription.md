@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 410,
-  "Section": "nostrum",
-  "Key": "culpa",
-  "Name": "Mayert, Labadie and Friesen",
+  "PrefDescId": 4,
+  "Section": "qui",
+  "Key": "placeat",
+  "Name": "Satterfield Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative static algorithm",
+  "Description": "Balanced actuating contingency",
   "IsBuiltin": false,
-  "TableName": "Muller-Corwin",
-  "UserDefinedListId": 624,
-  "Rank": 916,
-  "SubGroup": "nihil",
-  "MinLevel": 188,
-  "MaxValue": 38,
-  "MinValue": 491,
-  "RequiredLicense": "esse",
+  "TableName": "Kuhlman, Kunde and Bogisich",
+  "UserDefinedListId": 827,
+  "Rank": 749,
+  "SubGroup": "fugiat",
+  "MinLevel": 483,
+  "MaxValue": 621,
+  "MinValue": 936,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldType": "System.String",
+      "FieldLength": 500
     }
   }
 }

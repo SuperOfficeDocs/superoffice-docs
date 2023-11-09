@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 522,
-  "Value": "cumque",
-  "Tooltip": "consequatur",
-  "Probability": 535,
-  "Deleted": false,
-  "Rank": 950,
+  "SaleStageId": 853,
+  "Value": "numquam",
+  "Tooltip": "veritatis",
+  "Probability": 838,
+  "Deleted": true,
+  "Rank": 974,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 185
     }
   }
 }

@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 29 May 1996 03:24:51 G5T
+Last-Modified: Thu, 16 Jun 2005 11:06:41 G6T
 
 {
-  "ForeignAppId": 888,
-  "Name": "Cormier-Hickle",
-  "CreatedDate": "2017-08-05T03:24:51.6149823+02:00",
-  "UpdatedDate": "1996-05-29T03:24:51.6149823+02:00",
+  "ForeignAppId": 440,
+  "Name": "Goodwin, O'Keefe and Hoppe",
+  "CreatedDate": "2020-06-02T11:06:41.8790976+02:00",
+  "UpdatedDate": "2005-06-16T11:06:41.8790976+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 310,
-      "Name": "Boyle-Mann",
-      "CreatedDate": "2011-07-16T03:24:51.6149823+02:00",
-      "UpdatedDate": "2009-03-25T03:24:51.6149823+01:00",
-      "AssociateFullName": "Ellsworth Martin Auer Sr.",
+      "ForeignDeviceId": 445,
+      "Name": "Abbott-Ullrich",
+      "CreatedDate": "1997-07-14T11:06:41.8790976+02:00",
+      "UpdatedDate": "2005-07-21T11:06:41.8790976+02:00",
+      "AssociateFullName": "Bessie Jane D'Amore I",
       "CreatedBy": "et",
-      "UpdatedBy": "numquam",
-      "DeviceIdentifier": "rem",
-      "ForeignAppId": 243,
+      "UpdatedBy": "saepe",
+      "DeviceIdentifier": "delectus",
+      "ForeignAppId": 384,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 930
+          "FieldType": "System.Int32",
+          "FieldLength": 704
         }
       }
     }
@@ -123,12 +123,12 @@ Last-Modified: Wed, 29 May 1996 03:24:51 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 756
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

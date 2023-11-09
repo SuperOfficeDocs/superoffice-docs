@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 192,
+  "TargetYear": 268,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 845,
-  "Year": 331,
+  "TargetGroupId": 92,
+  "Year": 71,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 188,
+      "TargetAssignmentInfoId": 777,
       "Values": [
-        170,
-        464
+        153,
+        770
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 786,
-      "DimensionListItemDisplayName": "McDermott-Herzog",
+      "DimensionListItem": 804,
+      "DimensionListItemDisplayName": "Langworth-Sipes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 712
+          "FieldType": "System.Int32",
+          "FieldLength": 604
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 394
     }
   }
 }

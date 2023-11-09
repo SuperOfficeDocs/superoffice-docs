@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 636,
-  "Count": 351
+  "AmountLimit": 388,
+  "Count": 234
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cormier, Mayert and Johns",
-    "SaleDate": "2005-02-03T03:24:48.2207231+01:00",
-    "SaleId": 66,
-    "Probability": 190,
-    "Title": "fugit",
-    "Amount": 24915.3,
-    "Currency": "eligendi",
-    "ProjectName": "Lockman LLC",
-    "AssociateFullName": "Prof. Carolyne Graham Sr.",
-    "Description": "Reactive tangible secured line",
+    "ContactName": "Parisian Inc and Sons",
+    "SaleDate": "1999-01-07T11:06:35.3333182+01:00",
+    "SaleId": 391,
+    "Probability": 897,
+    "Title": "iure",
+    "Amount": 2463.324,
+    "Currency": "dicta",
+    "ProjectName": "Shanahan, Dare and Rice",
+    "AssociateFullName": "Prof. Eliseo Spinka",
+    "Description": "Open-source even-keeled projection",
     "Status": "Lost",
-    "WeightedAmount": 28701.172,
-    "ProjectId": 103,
-    "EarningPercent": 952.736,
-    "Earning": 16024.142,
-    "ContactId": 707,
-    "AssociateId": 781,
-    "PersonId": 569,
-    "SaleTypeId": 353,
-    "SaleTypeName": "Littel-Trantow",
-    "PersonFullName": "Cleveland Lind",
+    "WeightedAmount": 7321.0239999999994,
+    "ProjectId": 399,
+    "EarningPercent": 10809.166,
+    "Earning": 22837.458,
+    "ContactId": 138,
+    "AssociateId": 228,
+    "PersonId": 217,
+    "SaleTypeId": 955,
+    "SaleTypeName": "Doyle Group",
+    "PersonFullName": "Liza Emmerich",
     "Completed": "Completed",
-    "ActiveErpLinks": 543,
-    "NextDueDate": "2012-07-21T03:24:48.2207231+02:00",
-    "Number": "1399304",
+    "ActiveErpLinks": 63,
+    "NextDueDate": "1998-05-19T11:06:35.3333182+02:00",
+    "Number": "716092",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 305
       }
     }
   }

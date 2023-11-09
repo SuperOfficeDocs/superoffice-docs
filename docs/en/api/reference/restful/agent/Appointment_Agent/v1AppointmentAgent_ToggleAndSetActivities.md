@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Appointment/ToggleAndSetActivities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifiers": [
-    "quas",
-    "doloremque"
+    "reprehenderit",
+    "iste"
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "labore",
-  "corporis"
+  "neque",
+  "officia"
 ]
 ```

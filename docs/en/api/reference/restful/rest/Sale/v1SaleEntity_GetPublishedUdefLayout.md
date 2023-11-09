@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 328,
-    "ColumnId": 21,
+    "UDefFieldId": 895,
+    "ColumnId": 334,
     "FieldDefault": "qui",
-    "FieldHeight": 855,
-    "FieldLabel": "voluptatum",
-    "FieldLeft": 512,
-    "FieldTop": 619,
+    "FieldHeight": 303,
+    "FieldLabel": "sapiente",
+    "FieldLeft": 358,
+    "FieldTop": 749,
     "FieldType": "Checkbox",
-    "FieldWidth": 35,
-    "FormatMask": "omnis",
-    "HideLabel": false,
+    "FieldWidth": 830,
+    "FormatMask": "nesciunt",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 613,
-    "LabelLeft": 32,
-    "LabelTop": 758,
-    "LabelWidth": 120,
-    "LastVersionId": 600,
-    "ListTableId": 70,
+    "LabelHeight": 74,
+    "LabelLeft": 187,
+    "LabelTop": 322,
+    "LabelWidth": 287,
+    "LastVersionId": 54,
+    "ListTableId": 906,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 134,
-    "ProgId": "sapiente",
+    "Page1LineNo": 647,
+    "ProgId": "mollitia",
     "IsReadOnly": false,
-    "ShortLabel": "eaque",
-    "TabOrder": 30,
-    "TextLength": 870,
-    "Tooltip": "et",
-    "UdefIdentity": 596,
-    "UDListDefinitionId": 350,
+    "ShortLabel": "sit",
+    "TabOrder": 773,
+    "TextLength": 838,
+    "Tooltip": "maiores",
+    "UdefIdentity": 142,
+    "UDListDefinitionId": 570,
     "Justification": "Center",
-    "Version": 140,
-    "TemplateVariableName": "Kirlin Group",
+    "Version": 743,
+    "TemplateVariableName": "Bednar-Schumm",
     "HasBeenPublished": false,
-    "MdoListName": "Johnson-Heller",
+    "MdoListName": "Jast-Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 301
       }
     }
   }

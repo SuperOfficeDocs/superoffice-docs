@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Ticket/UploadAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 419,
+  "AttachmentId": 261,
   "Content": "GIF89....File contents as raw bytes..."
 }
 ```

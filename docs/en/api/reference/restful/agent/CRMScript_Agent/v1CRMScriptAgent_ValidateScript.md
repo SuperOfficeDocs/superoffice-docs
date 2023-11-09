@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 652
+  "CRMScriptId": 198
 }
 ```
 
@@ -96,16 +96,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "nesciunt",
-  "LineNumber": 326,
+  "Valid": false,
+  "ErrorMessage": "voluptatum",
+  "LineNumber": 764,
   "ErrorInformation": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 903
     }
   }
 }

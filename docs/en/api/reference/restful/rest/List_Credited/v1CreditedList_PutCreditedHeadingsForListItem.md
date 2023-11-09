@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "Hammes, Kutch and Shields",
-    "ToolTip": "Deserunt debitis pariatur.",
-    "Deleted": false,
-    "Rank": 302,
-    "Type": "quod",
-    "ColorBlock": 848,
-    "IconHint": "sint",
+    "Id": 77,
+    "Name": "Wisoky LLC",
+    "ToolTip": "Ut magnam porro vel molestias corporis exercitationem ipsa.",
+    "Deleted": true,
+    "Rank": 855,
+    "Type": "qui",
+    "ColorBlock": 639,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2015-06-15T03:24:52.2244666+02:00",
+    "LastChanged": "2015-06-03T11:06:42.7565694+02:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Gulgowski Inc and Sons",
-        "ToolTip": "Placeat repellendus vel eligendi nam minus.",
+        "Id": 716,
+        "Name": "Bogisich, Sauer and Kreiger",
+        "ToolTip": "Distinctio est velit eligendi sed autem laboriosam.",
         "Deleted": false,
-        "Rank": 239,
-        "Type": "aut",
-        "ColorBlock": 594,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2011-08-20T03:24:52.2244666+02:00",
+        "Rank": 659,
+        "Type": "est",
+        "ColorBlock": 978,
+        "IconHint": "mollitia",
+        "Selected": true,
+        "LastChanged": "2018-12-15T11:06:42.7565694+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "vero",
+        "ExtraInfo": "provident",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Maggie Romaguera"
+        "FullName": "Eunice Brakus"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Alexys Thiel IV"
+    "ExtraInfo": "saepe",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Dr. Haylie Grant III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Little, Christiansen and O'Hara",
-    "ToolTip": "Eius delectus eius ea nobis dolores.",
+    "Id": 282,
+    "Name": "McCullough Inc and Sons",
+    "ToolTip": "Qui non animi odit quae harum dolore consectetur.",
     "Deleted": false,
-    "Rank": 702,
-    "Type": "suscipit",
-    "ColorBlock": 822,
-    "IconHint": "nemo",
+    "Rank": 667,
+    "Type": "assumenda",
+    "ColorBlock": 865,
+    "IconHint": "laborum",
     "Selected": true,
-    "LastChanged": "2018-03-01T03:24:52.2244666+01:00",
+    "LastChanged": "2011-02-26T11:06:42.7565694+01:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Huel, Koch and Walsh",
-        "ToolTip": "Temporibus minima suscipit.",
-        "Deleted": false,
-        "Rank": 608,
-        "Type": "maiores",
-        "ColorBlock": 484,
-        "IconHint": "soluta",
+        "Id": 18,
+        "Name": "Stanton LLC",
+        "ToolTip": "Non in.",
+        "Deleted": true,
+        "Rank": 363,
+        "Type": "nulla",
+        "ColorBlock": 162,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "1997-06-06T03:24:52.2244666+02:00",
+        "LastChanged": "2011-09-06T11:06:42.7565694+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "iusto",
+        "ExtraInfo": "natus",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Giovani Collins Jr.",
+        "FullName": "Johnny Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 349
+            "FieldType": "System.String",
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "tempora",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Tyshawn Orn",
+    "FullName": "Lorena Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 702
       }
     }
   }

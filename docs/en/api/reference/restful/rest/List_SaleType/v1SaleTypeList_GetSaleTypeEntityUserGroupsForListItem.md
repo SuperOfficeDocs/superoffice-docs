@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Wyman-Erdman",
-    "ToolTip": "Repudiandae asperiores placeat repellat sed doloremque.",
-    "Deleted": false,
-    "Rank": 498,
-    "Type": "illum",
-    "ColorBlock": 178,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "2019-04-12T03:24:52.4119449+02:00",
+    "Id": 183,
+    "Name": "Buckridge-Dicki",
+    "ToolTip": "Omnis impedit voluptas velit doloribus ut corporis.",
+    "Deleted": true,
+    "Rank": 746,
+    "Type": "architecto",
+    "ColorBlock": 383,
+    "IconHint": "animi",
+    "Selected": true,
+    "LastChanged": "2003-01-18T11:06:43.0534497+01:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Stiedemann, Metz and Wilderman",
-        "ToolTip": "Odio commodi doloribus deserunt alias animi delectus.",
-        "Deleted": false,
-        "Rank": 51,
-        "Type": "non",
-        "ColorBlock": 157,
-        "IconHint": "aliquid",
-        "Selected": true,
-        "LastChanged": "2018-11-06T03:24:52.4119449+01:00",
+        "Id": 896,
+        "Name": "McLaughlin, Donnelly and Kilback",
+        "ToolTip": "Minima in quisquam blanditiis.",
+        "Deleted": true,
+        "Rank": 781,
+        "Type": "veritatis",
+        "ColorBlock": 675,
+        "IconHint": "incidunt",
+        "Selected": false,
+        "LastChanged": "2011-10-14T11:06:43.0534497+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Loma Alayna Hilll PhD",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "perferendis",
+        "Hidden": false,
+        "FullName": "Irwin Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 597
+            "FieldLength": 192
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "debitis",
-    "Hidden": true,
-    "FullName": "Miss Nicole McGlynn III",
+    "ExtraInfo": "possimus",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Blaise Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 624
       }
     }
   }

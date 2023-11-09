@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 747,
+  "TargetDimensionId": 149,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "sint",
-  "DimensionListName": "Champlin-Balistreri",
-  "DimensionListId": 50,
-  "DimensionListLabel": "optio",
+  "DimensionListField": "et",
+  "DimensionListName": "Turner Inc and Sons",
+  "DimensionListId": 37,
+  "DimensionListLabel": "omnis",
   "SelectedDimensions": [
-    486,
-    162
+    400,
+    698
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 122,
+  "TargetDimensionId": 352,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "qui",
-  "DimensionListName": "Spinka-Kirlin",
-  "DimensionListId": 388,
-  "DimensionListLabel": "numquam",
+  "DimensionListField": "ut",
+  "DimensionListName": "Abbott, Haag and Nitzsche",
+  "DimensionListId": 345,
+  "DimensionListLabel": "quisquam",
   "SelectedDimensions": [
-    173,
-    375
+    761,
+    824
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 157
     }
   }
 }

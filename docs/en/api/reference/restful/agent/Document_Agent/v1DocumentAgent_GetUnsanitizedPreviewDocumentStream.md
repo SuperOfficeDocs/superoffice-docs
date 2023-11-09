@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 882
+  "DocumentId": 797
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Paucek-Bauch",
-  "Type": "doloremque",
-  "Size": 469,
+  "Name": "Bradtke, Gerhold and Pouros",
+  "Type": "modi",
+  "Size": 401,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

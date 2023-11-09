@@ -130,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 306,
-  "StartTime": "2001-06-15T03:24:46.9394467+02:00",
-  "EndTime": "2004-10-07T03:24:46.9394467+02:00",
-  "Count": 359,
-  "TaskId": 96
+  "ContactId": 250,
+  "StartTime": "2015-11-10T11:06:33.4601191+01:00",
+  "EndTime": "2000-09-07T11:06:33.4601191+02:00",
+  "Count": 63,
+  "TaskId": 253
 }
 ```
 
@@ -150,64 +150,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 516,
-    "StartDate": "2006-06-03T03:24:46.9394467+02:00",
-    "EndDate": "2010-11-22T03:24:46.9394467+01:00",
+    "AppointmentId": 936,
+    "StartDate": "2014-12-24T11:06:33.4601191+01:00",
+    "EndDate": "2017-04-11T11:06:33.4601191+02:00",
     "Type": "BookingForChecklist",
-    "Task": "autem",
-    "AssociateFullName": "Ronny Grimes",
-    "ContactName": "Huel-Moen",
-    "Description": "Networked full-range process improvement",
-    "PersonFullName": "Hester Wehner",
-    "PersonId": 275,
-    "ContactId": 946,
-    "ProjectId": 860,
-    "ProjectName": "Kiehn, Wunsch and Bode",
-    "IsPublished": false,
-    "AssociateId": 503,
-    "ColorIndex": 217,
+    "Task": "voluptatem",
+    "AssociateFullName": "Liana Hessel",
+    "ContactName": "Langworth, McKenzie and Klocko",
+    "Description": "Visionary tertiary customer loyalty",
+    "PersonFullName": "Maeve West",
+    "PersonId": 982,
+    "ContactId": 787,
+    "ProjectId": 848,
+    "ProjectName": "Leannon Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 951,
+    "ColorIndex": 659,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 344,
-    "PriorityName": "Larson, Kuvalis and Macejkovic",
+    "PriorityId": 961,
+    "PriorityName": "Gorczany-Mante",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2013-01-01T03:24:46.9394467+01:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "1997-10-15T11:06:33.4601191+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-03-25T03:24:46.9394467+01:00",
-    "RecurringEndDate": "2009-06-11T03:24:46.9394467+02:00",
-    "MotherId": 639,
-    "AssignedBy": 135,
-    "AssignedByFullName": "Prof. Dallas Josiah Schmidt",
+    "RecurringStartDate": "2010-05-22T11:06:33.4601191+02:00",
+    "RecurringEndDate": "2023-01-03T11:06:33.4601191+01:00",
+    "MotherId": 296,
+    "AssignedBy": 575,
+    "AssignedByFullName": "Dr. Tyrell Breanne Ebert Jr.",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 477,
-    "SaleName": "Windler Inc and Sons",
-    "AssociateName": "Smitham, Deckow and Feeney",
-    "CreatedDate": "2002-05-16T03:24:46.9394467+02:00",
-    "CreatedBy": "amet",
-    "CreatedByFullName": "Miss Lelah Parker MD",
-    "CreatedByAssociateId": 654,
+    "Location": "deleniti",
+    "AlarmLeadTime": "placeat",
+    "SaleId": 298,
+    "SaleName": "Hammes, Parisian and Hackett",
+    "AssociateName": "Gusikowski Group",
+    "CreatedDate": "2005-10-31T11:06:33.4601191+01:00",
+    "CreatedBy": "suscipit",
+    "CreatedByFullName": "Dylan Weber",
+    "CreatedByAssociateId": 390,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "Title": "commodi",
-    "Agenda": "non",
-    "InternalNotes": "sequi",
+    "Title": "consequatur",
+    "Agenda": "odit",
+    "InternalNotes": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldType": "System.String",
+        "FieldLength": 505
       }
     }
   }

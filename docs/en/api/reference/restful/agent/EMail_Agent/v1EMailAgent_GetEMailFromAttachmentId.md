@@ -106,12 +106,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 685,
+  "EmailId": 608,
   "AttachmentIds": [
-    "aut",
-    "in"
+    "totam",
+    "doloremque"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 324,
-      "ContactName": "Pfannerstill LLC",
-      "PersonId": 962,
-      "PersonName": "Walsh Inc and Sons",
-      "AssociateId": 61,
-      "Address": "qui",
-      "EmailId": 274,
+      "ContactId": 341,
+      "ContactName": "Gutmann-Lubowitz",
+      "PersonId": 705,
+      "PersonName": "Wolf-Sipes",
+      "AssociateId": 288,
+      "Address": "velit",
+      "EmailId": 129,
       "DuplicatePersonIds": [
-        835,
-        96
+        326,
+        132
       ],
-      "Name": "Willms-Mayert",
+      "Name": "Hamill-Greenfelder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 660
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 60,
-      "ContactName": "Hudson Group",
-      "PersonId": 771,
-      "PersonName": "O'Reilly, Hagenes and Goodwin",
-      "AssociateId": 326,
-      "Address": "quia",
-      "EmailId": 467,
+      "ContactId": 694,
+      "ContactName": "Ortiz Group",
+      "PersonId": 606,
+      "PersonName": "Mertz Inc and Sons",
+      "AssociateId": 565,
+      "Address": "inventore",
+      "EmailId": 750,
       "DuplicatePersonIds": [
-        81,
-        431
+        810,
+        87
       ],
-      "Name": "Schneider LLC",
+      "Name": "Jewess, Huels and Conn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 52
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 920,
-      "ContactName": "Bartoletti-Connelly",
-      "PersonId": 83,
-      "PersonName": "Marks Inc and Sons",
-      "AssociateId": 804,
-      "Address": "et",
-      "EmailId": 233,
+      "ContactId": 646,
+      "ContactName": "Altenwerth LLC",
+      "PersonId": 12,
+      "PersonName": "Cassin, Jacobi and Ankunding",
+      "AssociateId": 299,
+      "Address": "veritatis",
+      "EmailId": 953,
       "DuplicatePersonIds": [
-        961,
-        430
+        585,
+        929
       ],
-      "Name": "Lemke-Heidenreich",
+      "Name": "Larson-Ondricka",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldType": "System.String",
+          "FieldLength": 351
         }
       }
     }
   ],
-  "Subject": "temporibus",
-  "HTMLBody": "aliquid",
+  "Subject": "sint",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2014-01-25T03:24:47.7520273+01:00",
-  "Size": 665,
+  "Sent": "2013-06-06T11:06:34.5364336+02:00",
+  "Size": 408,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "sit",
+  "MessageID": "aut",
+  "PlainBody": "asperiores",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 31,
+  "ServerId": 868,
   "Attachments": [
     {
-      "Description": "Reverse-engineered zero defect methodology",
-      "Filename": "quis",
-      "Size": 690,
-      "Type": "voluptatem",
-      "Encoding": "omnis",
-      "Id": "ea",
-      "Disposition": "perspiciatis",
+      "Description": "Multi-channelled analyzing emulation",
+      "Filename": "qui",
+      "Size": 16,
+      "Type": "necessitatibus",
+      "Encoding": "officiis",
+      "Id": "nostrum",
+      "Disposition": "est",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldType": "System.String",
+          "FieldLength": 236
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mueller-Paucek",
+      "Name": "O'Keefe-Bergstrom",
       "Values": [
-        "dolores",
-        "quia"
+        "aut",
+        "reprehenderit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 21
         }
       }
     },
     {
-      "Name": "Mueller-Paucek",
+      "Name": "O'Keefe-Bergstrom",
       "Values": [
-        "dolores",
-        "quia"
+        "aut",
+        "reprehenderit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 21
         }
       }
     }
   ],
-  "FolderName": "Hessel-Mertz",
-  "EmailItemId": 29,
-  "AccountId": 263,
-  "ReceivedAt": "2013-09-04T03:24:47.7520273+02:00",
+  "FolderName": "Ritchie, Bogan and Schmitt",
+  "EmailItemId": 664,
+  "AccountId": 328,
+  "ReceivedAt": "2009-12-27T11:06:34.5364336+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-09-02T03:24:47.7520273+02:00",
+  "RepliedAt": "2000-12-17T11:06:34.5364336+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 365
     }
   }
 }

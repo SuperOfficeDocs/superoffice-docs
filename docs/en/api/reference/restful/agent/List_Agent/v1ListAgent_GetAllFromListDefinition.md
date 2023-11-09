@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 744,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 966,
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Renner Inc and Sons",
-    "Tooltip": "error",
+    "Id": 723,
+    "Name": "Leuschke-Harber",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 51,
-    "Rank": 49,
+    "UdListDefinitionId": 3,
+    "Rank": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 566
       }
     }
   }

@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 248,
-    "Name": "Blick LLC",
+    "TicketPriorityId": 554,
+    "Name": "Cummerata-Roob",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 717,
+    "SortOrder": 235,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 894,
-    "MonStart": "2017-11-13T03:24:47.8457602+01:00",
-    "MonStop": "2006-11-05T03:24:47.8457602+01:00",
-    "TueStart": "2006-01-14T03:24:47.8457602+01:00",
-    "TueStop": "1997-01-22T03:24:47.8457602+01:00",
-    "WedStart": "2004-01-16T03:24:47.8457602+01:00",
-    "WedStop": "2003-09-25T03:24:47.8457602+02:00",
-    "ThuStart": "2001-05-23T03:24:47.8457602+02:00",
-    "ThuStop": "2021-05-27T03:24:47.8457602+02:00",
-    "FriStart": "2020-09-24T03:24:47.8457602+02:00",
-    "FriStop": "2017-03-07T03:24:47.8457602+01:00",
-    "SatStart": "2001-01-16T03:24:47.8457602+01:00",
-    "SatStop": "2020-02-24T03:24:47.8457602+01:00",
-    "SunStart": "2007-03-28T03:24:47.8457602+02:00",
-    "SunStop": "2007-01-12T03:24:47.8457602+01:00",
+    "Deadline": 846,
+    "MonStart": "1999-03-04T11:06:34.6614378+01:00",
+    "MonStop": "2022-01-09T11:06:34.6614378+01:00",
+    "TueStart": "2002-03-27T11:06:34.6614378+01:00",
+    "TueStop": "1999-12-15T11:06:34.6614378+01:00",
+    "WedStart": "2010-02-09T11:06:34.6614378+01:00",
+    "WedStop": "2006-08-19T11:06:34.6614378+02:00",
+    "ThuStart": "2013-10-17T11:06:34.6614378+02:00",
+    "ThuStop": "2002-01-11T11:06:34.6614378+01:00",
+    "FriStart": "2019-06-06T11:06:34.6614378+02:00",
+    "FriStop": "2016-12-14T11:06:34.6614378+01:00",
+    "SatStart": "2009-10-21T11:06:34.6614378+02:00",
+    "SatStop": "2014-05-31T11:06:34.6614378+02:00",
+    "SunStart": "2018-01-19T11:06:34.6614378+01:00",
+    "SunStop": "2000-09-15T11:06:34.6614378+02:00",
     "NonDates": [
-      "voluptatem",
-      "et"
+      "deleniti",
+      "modi"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 342,
-        "AlertLevel": 309,
-        "AlertTimeout": 191,
-        "Action": 778,
-        "DelegateTo": 950,
-        "ScriptId": 763,
-        "EmailTo": "elinore_lemke@turcotte.uk",
-        "SmsTo": "velit",
-        "ReplyTemplateIdCustomer": 384,
-        "ReplyTemplateIdUser": 890,
-        "ReplyTemplateIdCatmast": 833,
-        "ReplyTemplateIdEmail": 357,
-        "RtiCustomerSms": 579,
-        "ReplyTemplateIdUserSms": 845,
-        "ReplyTemplateIdCatmastSms": 104,
-        "ReplyTemplateIdSms": 6,
+        "TicketAlertId": 62,
+        "AlertLevel": 509,
+        "AlertTimeout": 500,
+        "Action": 987,
+        "DelegateTo": 386,
+        "ScriptId": 53,
+        "EmailTo": "johanna@sawayn.ca",
+        "SmsTo": "eum",
+        "ReplyTemplateIdCustomer": 934,
+        "ReplyTemplateIdUser": 494,
+        "ReplyTemplateIdCatmast": 639,
+        "ReplyTemplateIdEmail": 42,
+        "RtiCustomerSms": 899,
+        "ReplyTemplateIdUserSms": 711,
+        "ReplyTemplateIdCatmastSms": 586,
+        "ReplyTemplateIdSms": 670,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 605
+            "FieldLength": 654
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldType": "System.String",
+        "FieldLength": 902
       }
     }
   }

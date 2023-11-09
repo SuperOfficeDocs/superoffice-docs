@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Tromp Group",
-    "Volkman, Shields and Stroman"
+    "Ratke-Beier",
+    "Wiza, Mann and Rice"
   ],
-  "Culture": "qui"
+  "Culture": "dolorum"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Leannon, Green and Douglas",
-    "ResourceValue": "officiis",
-    "Culture": "vero",
-    "IsActive": false,
+    "ResourceName": "Pfeffer, Veum and McLaughlin",
+    "ResourceValue": "animi",
+    "Culture": "expedita",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldType": "System.String",
+        "FieldLength": 257
       }
     }
   },
   {
-    "ResourceName": "Leannon, Green and Douglas",
-    "ResourceValue": "officiis",
-    "Culture": "vero",
-    "IsActive": false,
+    "ResourceName": "Pfeffer, Veum and McLaughlin",
+    "ResourceValue": "animi",
+    "Culture": "expedita",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldType": "System.String",
+        "FieldLength": 257
       }
     }
   }

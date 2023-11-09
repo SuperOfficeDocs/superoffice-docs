@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TicketMessage?$select=name,department,category/id
 GET /api/v1/TicketMessage?$filter=name begins 'S'
 GET /api/v1/TicketMessage?$orderBy=name asc
-GET /api/v1/TicketMessage?$entities=adipisci
-GET /api/v1/TicketMessage?$top=404
-GET /api/v1/TicketMessage?$skip=868
+GET /api/v1/TicketMessage?$entities=ipsum
+GET /api/v1/TicketMessage?$top=707
+GET /api/v1/TicketMessage?$skip=515
 GET /api/v1/TicketMessage?$mode=Full
 GET /api/v1/TicketMessage?$options=GrandTotal=true
-GET /api/v1/TicketMessage?$context=sunt
+GET /api/v1/TicketMessage?$context=omnis
 GET /api/v1/TicketMessage?$format=JSON
-GET /api/v1/TicketMessage?$jsonSafe=False
+GET /api/v1/TicketMessage?$jsonSafe=True
 GET /api/v1/TicketMessage?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "error",
   "value": [
     {
-      "PrimaryKey": 3936,
+      "PrimaryKey": 8997,
       "EntityName": "person",
-      "personId": 3936,
-      "fullName": "Twila Wilderman"
+      "personId": 8997,
+      "fullName": "Christiana Brekke"
     },
     {
-      "PrimaryKey": 7906,
+      "PrimaryKey": 1477,
       "EntityName": "person",
-      "personId": 7906,
-      "fullName": "Prof. Keenan Runolfsson"
+      "personId": 1477,
+      "fullName": "Eugenia Herman"
     }
   ]
 }

@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 660,
-  "QuoteAlternativeId": 4
+  "QuoteVersionId": 721,
+  "QuoteAlternativeId": 606
 }
 ```
 
@@ -96,16 +96,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "aperiam",
-      "DisplayText": "aperiam",
-      "TooltipText": "fugit",
+      "ImageHint": "quia",
+      "DisplayText": "vitae",
+      "TooltipText": "ad",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldLength": 390
         }
       }
     }
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 577
     }
   }
 }

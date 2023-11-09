@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 470,
-  "Name": "Hagenes-Huels",
-  "Description": "Enterprise-wide multi-tasking toolset",
-  "DeltaJson": "suscipit",
+  "ConfigurableScreenDeltaId": 736,
+  "Name": "Gleichner Group",
+  "Description": "Open-source optimal standardization",
+  "DeltaJson": "aspernatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quia",
-  "UpdatedDate": "2008-08-03T03:24:47.3614382+02:00",
-  "CreatedDate": "2003-06-13T03:24:47.3614382+02:00",
+  "RecipeId": "nostrum",
+  "UpdatedDate": "2000-09-01T11:06:34.080854+02:00",
+  "CreatedDate": "1996-11-07T11:06:34.080854+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    476,
-    320
+    867,
+    458
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   }
 }

@@ -75,28 +75,28 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 648,
-  "WorkflowStepId": 97,
-  "WorkflowId": 857,
-  "Key": "atque",
-  "Name": "Romaguera Group",
-  "Rank": 636,
+  "WorkflowStepOptionId": 890,
+  "WorkflowStepId": 524,
+  "WorkflowId": 368,
+  "Key": "rerum",
+  "Name": "Paucek Group",
+  "Rank": 315,
   "Steps": [
     {
-      "WorkflowStepId": 939,
-      "WorkflowId": 591,
+      "WorkflowStepId": 957,
+      "WorkflowId": 561,
       "StepType": "AddToList",
-      "Rank": 101
+      "Rank": 25
     },
     {
-      "WorkflowStepId": 939,
-      "WorkflowId": 591,
+      "WorkflowStepId": 957,
+      "WorkflowId": 561,
       "StepType": "AddToList",
-      "Rank": 101
+      "Rank": 25
     }
   ]
 }
@@ -109,24 +109,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 849,
-  "WorkflowStepId": 385,
-  "WorkflowId": 89,
-  "Key": "excepturi",
-  "Name": "Brakus-Watsica",
-  "Rank": 329,
+  "WorkflowStepOptionId": 648,
+  "WorkflowStepId": 35,
+  "WorkflowId": 482,
+  "Key": "unde",
+  "Name": "Gleichner, Beier and Hackett",
+  "Rank": 442,
   "Steps": [
     {
-      "WorkflowStepId": 388,
-      "WorkflowId": 935,
+      "WorkflowStepId": 717,
+      "WorkflowId": 105,
       "StepType": "AddToList",
-      "Rank": 824
+      "Rank": 120
     },
     {
-      "WorkflowStepId": 388,
-      "WorkflowId": 935,
+      "WorkflowStepId": 717,
+      "WorkflowId": 105,
       "StepType": "AddToList",
-      "Rank": 824
+      "Rank": 120
     }
   ],
   "TableRight": null,
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 102
+      "FieldLength": 332
     }
   }
 }

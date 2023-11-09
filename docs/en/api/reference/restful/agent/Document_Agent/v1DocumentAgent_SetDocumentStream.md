@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 82,
+  "DocumentId": 58,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "culpa",
-  "Header": "aperiam",
-  "Name": "Gislason, Farrell and Padberg",
-  "OurRef": "fugiat",
-  "YourRef": "accusamus",
-  "CreatedDate": "2003-02-01T03:24:47.6426585+01:00",
-  "UpdatedDate": "2011-02-14T03:24:47.6426585+01:00",
-  "Description": "Persevering multimedia forecast",
+  "Attention": "sit",
+  "Header": "libero",
+  "Name": "Torphy Inc and Sons",
+  "OurRef": "excepturi",
+  "YourRef": "perferendis",
+  "CreatedDate": "2013-01-19T11:06:34.3801825+01:00",
+  "UpdatedDate": "2004-01-23T11:06:34.3801825+01:00",
+  "Description": "Re-contextualized tertiary standardization",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-08-21T03:24:47.6426585+02:00",
-  "ExternalRef": "aut",
+  "Date": "2003-02-15T11:06:34.3801825+01:00",
+  "ExternalRef": "asperiores",
   "Completed": "Completed",
-  "ActiveLinks": 405,
+  "ActiveLinks": 44,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lueilwitz, Tillman and Emmerich",
-      "Id": 395,
-      "Description": "Cross-group zero tolerance secured line",
-      "ExtraInfo": "est",
-      "LinkId": 945,
+      "EntityName": "Kling LLC",
+      "Id": 833,
+      "Description": "Fundamental dedicated utilisation",
+      "ExtraInfo": "accusantium",
+      "LinkId": 610,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 91
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 343,
-  "Snum": 563,
+  "SuggestedDocumentId": 597,
+  "Snum": 598,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bette Ardith Streich III",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Kody Paucek",
+    "SuperOffice:2": "Denis Cummings"
   },
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "et"
+    "CustomFields1": "minima",
+    "CustomFields2": "accusamus"
   },
-  "PublishEventDate": "2023-04-01T03:24:47.6426585+02:00",
-  "PublishTo": "2009-11-30T03:24:47.6426585+01:00",
-  "PublishFrom": "2014-10-04T03:24:47.6426585+02:00",
+  "PublishEventDate": "2014-10-02T11:06:34.3801825+02:00",
+  "PublishTo": "2018-11-10T11:06:34.3801825+01:00",
+  "PublishFrom": "2012-05-24T11:06:34.3801825+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 59,
+      "VisibleId": 873,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 990
+          "FieldLength": 127
         }
       }
     },
     {
-      "VisibleId": 59,
+      "VisibleId": 873,
       "Visibility": "All",
-      "DisplayValue": "aliquam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 990
+          "FieldLength": 127
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 627
     }
   }
 }

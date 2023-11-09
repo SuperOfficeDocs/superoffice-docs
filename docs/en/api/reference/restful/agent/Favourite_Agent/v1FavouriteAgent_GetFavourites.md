@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kutch, Stiedemann and Runte",
-  "AssociateId": 782
+  "TableName": "Kuhn-Johnson",
+  "AssociateId": 773
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Block-Cassin",
-    "RecordId": 999,
-    "AssociateId": 367,
-    "ExtraInfo": "est",
-    "Rank": 301,
+    "TableName": "Collier-Christiansen",
+    "RecordId": 897,
+    "AssociateId": 486,
+    "ExtraInfo": "omnis",
+    "Rank": 298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 40
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

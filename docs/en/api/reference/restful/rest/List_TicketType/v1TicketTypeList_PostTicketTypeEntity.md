@@ -87,26 +87,26 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 693,
-  "Name": "Lakin, Roob and Smith",
-  "Rank": 898,
-  "Tooltip": "recusandae",
-  "Icon": "ipsa",
-  "DefaultTicketStatus": 782,
+  "TicketTypeId": 246,
+  "Name": "Effertz-Feeney",
+  "Rank": 498,
+  "Tooltip": "nihil",
+  "Icon": "nemo",
+  "DefaultTicketStatus": 191,
   "TicketStatuses": [
-    493,
-    704
+    145,
+    27
   ],
-  "DefaultTicketPriority": 179,
+  "DefaultTicketPriority": 17,
   "TicketPriorities": [
-    206,
-    190
+    94,
+    576
   ],
-  "ReplyTemplate": 794,
+  "ReplyTemplate": 170,
   "IsExternalVisible": false,
   "IsDefault": true
 }
@@ -119,30 +119,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 855,
-  "Name": "Hagenes-Shanahan",
-  "Rank": 711,
-  "Tooltip": "quis",
-  "Icon": "harum",
-  "DefaultTicketStatus": 7,
+  "TicketTypeId": 616,
+  "Name": "Marquardt-Schmeler",
+  "Rank": 317,
+  "Tooltip": "illum",
+  "Icon": "aut",
+  "DefaultTicketStatus": 605,
   "TicketStatuses": [
-    957,
-    743
+    314,
+    180
   ],
-  "DefaultTicketPriority": 408,
+  "DefaultTicketPriority": 68,
   "TicketPriorities": [
-    977,
-    182
+    95,
+    962
   ],
-  "ReplyTemplate": 363,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 895,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 818
     }
   }
 }

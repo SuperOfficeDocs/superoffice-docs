@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 291,
-  "DefaultValue": "quibusdam",
+  "ErpFieldId": 530,
+  "DefaultValue": "vitae",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "harum",
+  "FirstSyncDefaultValue": "qui",
   "PromptUser": true,
   "Mandatory": true,
-  "ErpFieldKey": "dolorem",
+  "ErpFieldKey": "quas",
   "FieldType": "Checkbox",
-  "ListName": "Towne Group",
+  "ListName": "Steuber-Kris",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 381
     }
   }
 }

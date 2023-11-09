@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 264,
-    "Name": "Rath Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 100,
+    "Name": "Bartell Inc and Sons",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 401,
-    "UdListDefinitionId": 437
+    "Rank": 443,
+    "UdListDefinitionId": 933
   },
   {
-    "HeadingId": 264,
-    "Name": "Rath Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 100,
+    "Name": "Bartell Inc and Sons",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 401,
-    "UdListDefinitionId": 437
+    "Rank": 443,
+    "UdListDefinitionId": 933
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 961,
-    "Name": "Kshlerin Group",
-    "Tooltip": "similique",
-    "Deleted": true,
-    "Rank": 227,
-    "UdListDefinitionId": 462,
+    "HeadingId": 488,
+    "Name": "Kessler-Stroman",
+    "Tooltip": "eveniet",
+    "Deleted": false,
+    "Rank": 196,
+    "UdListDefinitionId": 725,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

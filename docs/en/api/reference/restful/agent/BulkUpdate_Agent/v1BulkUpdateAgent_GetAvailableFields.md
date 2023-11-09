@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -104,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "omnis",
-    "ValueType": "inventore",
-    "Mandatory": false,
-    "EncodedDisplayName": "Marquardt Inc and Sons",
-    "EncodedDisplayDescription": "De-engineered tangible open system",
-    "IconHint": "dolor",
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": true,
+    "IsActive": true,
+    "Key": "sunt",
+    "ValueType": "consequatur",
+    "Mandatory": true,
+    "EncodedDisplayName": "Graham-O'Conner",
+    "EncodedDisplayDescription": "Sharable actuating hub",
+    "IconHint": "odit",
     "ControlInfos": [
       {
-        "Type": "quas",
-        "Label": "quis",
-        "Dimension": 823,
-        "ListProviderName": "Bernhard LLC",
-        "ListProviderExtraInfo": "beatae",
-        "ListProviderPrimaryKeyName": "Funk Inc and Sons",
-        "ListLeadText": "voluptas",
+        "Type": "incidunt",
+        "Label": "sit",
+        "Dimension": 222,
+        "ListProviderName": "Collins-Sauer",
+        "ListProviderExtraInfo": "quia",
+        "ListProviderPrimaryKeyName": "Carter LLC",
+        "ListLeadText": "exercitationem",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 37
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "aut",
+    "EncodedDataCaptionDescription": "Distributed motivating website",
+    "CurrentOperationType": "et",
+    "Values": [
+      "suscipit",
+      "consequuntur"
+    ],
+    "DisplayValues": [
+      "aliquid",
+      "aut"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "doloribus",
+        "EncodedDisplayName": "Koelpin Group",
+        "EncodedLeadTexts": [
+          "voluptates",
+          "qui"
+        ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 171
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "nobis",
-    "EncodedDataCaptionDescription": "Down-sized leading edge forecast",
-    "CurrentOperationType": "voluptate",
-    "Values": [
-      "ut",
-      "ea"
-    ],
-    "DisplayValues": [
-      "qui",
-      "minima"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "voluptatibus",
-        "EncodedDisplayName": "Adams, Braun and Hills",
-        "EncodedLeadTexts": [
-          "iste",
-          "qui"
-        ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldLength": 870
           }
         }
       },
       {
-        "Key": "voluptatibus",
-        "EncodedDisplayName": "Adams, Braun and Hills",
+        "Key": "doloribus",
+        "EncodedDisplayName": "Koelpin Group",
         "EncodedLeadTexts": [
-          "iste",
+          "voluptates",
           "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldType": "System.Int32",
+            "FieldLength": 870
           }
         }
       }

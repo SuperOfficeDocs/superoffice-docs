@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 157,
-    "Name": "Bergstrom-Sauer",
-    "Tooltip": "ratione",
-    "Deleted": true,
-    "Rank": 212,
-    "UdListDefinitionId": 945,
+    "HeadingId": 492,
+    "Name": "Lakin Inc and Sons",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 978,
+    "UdListDefinitionId": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 941
       }
     }
   }

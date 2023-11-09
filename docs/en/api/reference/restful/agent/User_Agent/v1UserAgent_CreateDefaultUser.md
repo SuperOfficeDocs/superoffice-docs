@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 636,
-  "Name": "Franecki Group",
-  "Rank": 841,
-  "Tooltip": "ipsa",
+  "AssociateId": 313,
+  "Name": "Schmitt Inc and Sons",
+  "Rank": 332,
+  "Tooltip": "vel",
   "LicenseOwners": [
     {
-      "Name": "Pagac LLC",
-      "Description": "Total eco-centric emulation",
+      "Name": "Predovic Group",
+      "Description": "Stand-alone 4th generation intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldType": "System.String",
+          "FieldLength": 147
         }
       }
     },
     {
-      "Name": "Pagac LLC",
-      "Description": "Total eco-centric emulation",
+      "Name": "Predovic Group",
+      "Description": "Stand-alone 4th generation intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldType": "System.String",
+          "FieldLength": 147
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nihil",
-      "Tooltip": "quia",
-      "Id": 540,
-      "Rank": 358,
-      "Deleted": false,
+      "Value": "eius",
+      "Tooltip": "inventore",
+      "Id": 450,
+      "Rank": 767,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 253
+          "FieldLength": 927
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2014-06-01T03:24:48.5341362+02:00",
-  "Lastlogout": "2016-10-08T03:24:48.5341362+02:00",
-  "EjUserId": 759,
-  "RequestSignature": "incidunt",
+  "Deleted": true,
+  "Lastlogin": "2019-10-15T11:06:35.6783758+02:00",
+  "Lastlogout": "2002-02-14T11:06:35.6783758+01:00",
+  "EjUserId": 258,
+  "RequestSignature": "molestias",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "mollitia",
+      "Value": "omnis",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 798
+          "FieldType": "System.Int32",
+          "FieldLength": 913
         }
       }
     },
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "mollitia",
+      "Value": "omnis",
+      "DisplayValue": "accusantium",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 913
+        }
+      }
+    }
+  ],
+  "UserName": "Gulgowski, Upton and Daniel",
+  "TicketCategories": [
+    {
+      "Id": 603,
+      "Name": "Ferry LLC",
+      "ToolTip": "Laboriosam adipisci velit ut cum.",
+      "Deleted": true,
+      "Rank": 648,
+      "Type": "quisquam",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "dolores",
+      "ColorBlock": 892,
+      "ExtraInfo": "neque",
+      "StyleHint": "explicabo",
+      "FullName": "Blaise Kathryne Kiehn IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 798
+          "FieldLength": 87
         }
       }
     }
   ],
-  "UserName": "Kulas, Hills and Yundt",
-  "TicketCategories": [
-    {
-      "Id": 563,
-      "Name": "Rempel-Volkman",
-      "ToolTip": "Quia quia at quo.",
-      "Deleted": true,
-      "Rank": 71,
-      "Type": "nulla",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "id",
-      "ColorBlock": 940,
-      "ExtraInfo": "perspiciatis",
-      "StyleHint": "corporis",
-      "FullName": "Sanford DuBuque",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 469
-        }
-      }
-    }
-  ],
-  "NickName": "Price Group",
-  "WaitingForApproval": true,
+  "NickName": "Deckow Group",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "possimus"
+    "CustomFields1": "in",
+    "CustomFields2": "delectus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Satterfield, Hilll and Schimmel",
-      "DisplayName": "Grant-Nikolaus",
-      "Description": "Universal coherent local area network",
-      "ToolTip": "Id atque explicabo.",
+      "Name": "Schiller, Terry and Boehm",
+      "DisplayName": "Koch, McCullough and Stanton",
+      "Description": "Synergized holistic utilisation",
+      "ToolTip": "Quasi omnis fuga laudantium.",
       "Actions": "Implicit",
-      "ActionData": "pariatur",
+      "ActionData": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldLength": 513
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldType": "System.String",
+      "FieldLength": 803
     }
   }
 }

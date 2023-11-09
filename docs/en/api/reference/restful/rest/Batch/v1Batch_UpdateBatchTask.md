@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "Mills, Quitzon and Cummings",
-  "AssociateId": 345,
-  "DetailsTable": 896,
-  "DetailsRecord": 783,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 28,
+  "Name": "Jakubowski LLC",
+  "AssociateId": 688,
+  "DetailsTable": 259,
+  "DetailsRecord": 89,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nesciunt",
-    "ParameterObject2": "eos"
+    "ParameterObject1": "vel",
+    "ParameterObject2": "fugit"
   },
-  "LastStarted": "2022-07-18T03:24:52.0369874+02:00",
-  "Created": "2013-03-03T03:24:52.0369874+01:00",
-  "StartCount": 92,
-  "DatabaseSerialNumber": "1258304",
-  "Context": "sed",
-  "Result": "eius",
+  "LastStarted": "2016-05-14T11:06:42.3803732+02:00",
+  "Created": "2018-06-01T11:06:42.3803732+02:00",
+  "StartCount": 660,
+  "DatabaseSerialNumber": "1351313",
+  "Context": "inventore",
+  "Result": "dolores",
   "State": "All",
-  "Description": "Adaptive demand-driven neural-net",
-  "Response": "illo",
-  "Request": "eaque",
-  "ProgressDescription": "Secured regional utilisation",
-  "ProgressPercent": 909,
-  "FileName": "Marks-Batz",
+  "Description": "Grass-roots impactful architecture",
+  "Response": "excepturi",
+  "Request": "non",
+  "ProgressDescription": "Digitized system-worthy portal",
+  "ProgressPercent": 590,
+  "FileName": "Stroman-Nitzsche",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Buckridge, Koch and Prosacco",
-  "AssociateId": 649,
-  "DetailsTable": 885,
-  "DetailsRecord": 851,
+  "Id": 913,
+  "Name": "Kohler LLC",
+  "AssociateId": 191,
+  "DetailsTable": 464,
+  "DetailsRecord": 657,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "fuga",
-    "ParameterObject2": "dolor"
+    "ParameterObject1": "veniam",
+    "ParameterObject2": "autem"
   },
-  "LastStarted": "2006-12-19T03:24:52.0369874+01:00",
-  "Created": "2005-05-23T03:24:52.0369874+02:00",
-  "StartCount": 777,
-  "DatabaseSerialNumber": "1091865",
-  "Context": "cum",
-  "Result": "laboriosam",
+  "LastStarted": "2009-10-01T11:06:42.3803732+02:00",
+  "Created": "2003-12-27T11:06:42.3803732+01:00",
+  "StartCount": 60,
+  "DatabaseSerialNumber": "430920",
+  "Context": "tempore",
+  "Result": "et",
   "State": "All",
-  "Description": "Streamlined object-oriented encoding",
-  "Response": "animi",
-  "Request": "itaque",
-  "ProgressDescription": "Distributed bi-directional groupware",
-  "ProgressPercent": 791,
-  "FileName": "Streich, Windler and Bernier",
+  "Description": "Fully-configurable motivating encoding",
+  "Response": "reiciendis",
+  "Request": "et",
+  "ProgressDescription": "Adaptive systematic parallelism",
+  "ProgressPercent": 810,
+  "FileName": "Wyman-Marks",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

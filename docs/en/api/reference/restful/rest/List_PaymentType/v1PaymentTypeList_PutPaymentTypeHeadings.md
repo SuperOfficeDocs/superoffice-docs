@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 99,
-    "Name": "Mills, Wiegand and Russel",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 81,
-    "UdListDefinitionId": 444
+    "HeadingId": 217,
+    "Name": "Gutmann Group",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 648,
+    "UdListDefinitionId": 662
   },
   {
-    "HeadingId": 99,
-    "Name": "Mills, Wiegand and Russel",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 81,
-    "UdListDefinitionId": 444
+    "HeadingId": 217,
+    "Name": "Gutmann Group",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 648,
+    "UdListDefinitionId": 662
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 621,
-    "Name": "Wilderman LLC",
-    "Tooltip": "nihil",
+    "HeadingId": 602,
+    "Name": "Heathcote LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 810,
-    "UdListDefinitionId": 445,
+    "Rank": 155,
+    "UdListDefinitionId": 730,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 970
       }
     }
   }

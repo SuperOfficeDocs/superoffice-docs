@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 772,
-  "PlainMessage": "repellendus",
-  "HtmlMessage": "non",
-  "SmsMessage": "assumenda",
-  "Description": "Pre-emptive systemic knowledge base",
-  "Subject": "optio",
-  "FolderId": 570,
-  "HeaderField": "quis",
-  "Design": "qui",
+  "ShipmentMessageId": 845,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "fugiat",
+  "SmsMessage": "qui",
+  "Description": "Proactive bifurcated moderator",
+  "Subject": "ut",
+  "FolderId": 538,
+  "HeaderField": "eos",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Universal holistic hardware",
-  "AccessKey": "est",
-  "DocumentMessage": 700,
-  "Registered": "2004-07-17T03:24:51.927622+02:00",
-  "RegisteredAssociateId": 183,
-  "Updated": "2014-05-11T03:24:51.927622+02:00",
-  "UpdatedAssociateId": 876,
-  "UpdatedCount": 678,
+  "LongDescription": "Enterprise-wide scalable projection",
+  "AccessKey": "aut",
+  "DocumentMessage": 57,
+  "Registered": "2006-04-13T11:06:42.2228527+02:00",
+  "RegisteredAssociateId": 41,
+  "Updated": "2008-03-21T11:06:42.2228527+01:00",
+  "UpdatedAssociateId": 965,
+  "UpdatedCount": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldType": "System.String",
+      "FieldLength": 245
     }
   },
   "_Links": {

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Becker, Donnelly and Kris",
-  "Context": "quis"
+  "TableName": "Koelpin, Cartwright and Waelchi",
+  "Context": "quos"
 }
 ```
 
@@ -109,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "quae",
-    "ValueType": "non",
+    "Key": "fugiat",
+    "ValueType": "aliquid",
     "Mandatory": false,
-    "EncodedDisplayName": "Rempel, Hilll and Stanton",
-    "EncodedDisplayDescription": "Upgradable full-range matrices",
-    "IconHint": "officiis",
+    "EncodedDisplayName": "Gottlieb, Prosacco and Kiehn",
+    "EncodedDisplayDescription": "Business-focused bi-directional info-mediaries",
+    "IconHint": "aut",
     "ControlInfos": [
       {
-        "Type": "eos",
-        "Label": "ut",
-        "Dimension": 910,
-        "ListProviderName": "Cassin, Morar and McLaughlin",
-        "ListProviderExtraInfo": "consequatur",
-        "ListProviderPrimaryKeyName": "Hagenes-Murray",
-        "ListLeadText": "assumenda",
+        "Type": "suscipit",
+        "Label": "rem",
+        "Dimension": 748,
+        "ListProviderName": "Romaguera, Lockman and Haley",
+        "ListProviderExtraInfo": "ut",
+        "ListProviderPrimaryKeyName": "Green, Jakubowski and Nader",
+        "ListLeadText": "dolor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 654
           }
         }
       }
     ],
-    "EncodedDataCaption": "a",
-    "EncodedDataCaptionDescription": "Quality-focused discrete synergy",
-    "CurrentOperationType": "ut",
+    "EncodedDataCaption": "nemo",
+    "EncodedDataCaptionDescription": "Exclusive full-range groupware",
+    "CurrentOperationType": "esse",
     "Values": [
-      "tenetur",
-      "occaecati"
+      "ut",
+      "necessitatibus"
     ],
     "DisplayValues": [
       "aut",
-      "ad"
+      "voluptas"
     ],
     "OperationInfos": [
       {
-        "Key": "quibusdam",
-        "EncodedDisplayName": "Kessler-Pollich",
+        "Key": "ut",
+        "EncodedDisplayName": "Farrell-Ryan",
         "EncodedLeadTexts": [
-          "earum",
-          "placeat"
+          "consequuntur",
+          "nostrum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 252
+            "FieldLength": 553
           }
         }
       },
       {
-        "Key": "quibusdam",
-        "EncodedDisplayName": "Kessler-Pollich",
+        "Key": "ut",
+        "EncodedDisplayName": "Farrell-Ryan",
         "EncodedLeadTexts": [
-          "earum",
-          "placeat"
+          "consequuntur",
+          "nostrum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 252
+            "FieldLength": 553
           }
         }
       }

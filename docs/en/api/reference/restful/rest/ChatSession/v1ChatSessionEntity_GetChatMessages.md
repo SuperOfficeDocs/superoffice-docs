@@ -29,7 +29,7 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=731
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=360
 ```
 
 
@@ -86,15 +86,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 181,
-    "ChatSessionId": 352,
+    "ChatMessageId": 599,
+    "ChatSessionId": 416,
     "Type": "Invalid",
-    "Message": "voluptatum",
-    "Author": "sed",
-    "ReadByCustomer": 524,
+    "Message": "debitis",
+    "Author": "expedita",
+    "ReadByCustomer": 250,
     "SpecialType": "Block",
-    "SpecialParam": "voluptatum",
-    "WhenPosted": "2015-08-06T03:24:51.4429545+02:00"
+    "SpecialParam": "soluta",
+    "WhenPosted": "2008-11-29T11:06:41.5353656+01:00"
   }
 ]
 ```

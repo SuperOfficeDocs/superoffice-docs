@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Runte-Fadel",
-    "ToolTip": "Eos est.",
+    "Id": 837,
+    "Name": "Barrows-Sauer",
+    "ToolTip": "Ut molestias cupiditate sed voluptatem.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "dolores",
-    "ColorBlock": 694,
-    "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "2010-05-17T03:24:52.3494474+02:00",
+    "Rank": 759,
+    "Type": "et",
+    "ColorBlock": 8,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2023-10-22T11:06:42.9597004+02:00",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Turcotte, Senger and Sauer",
-        "ToolTip": "Natus impedit ex molestiae eos non.",
+        "Id": 31,
+        "Name": "Bode Inc and Sons",
+        "ToolTip": "Error repudiandae ea sed totam perferendis maxime.",
         "Deleted": false,
-        "Rank": 317,
-        "Type": "ipsam",
-        "ColorBlock": 253,
-        "IconHint": "sit",
+        "Rank": 265,
+        "Type": "et",
+        "ColorBlock": 343,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2007-10-07T03:24:52.3494474+02:00",
+        "LastChanged": "2017-12-02T11:06:42.9597004+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "laborum",
+        "ExtraInfo": "et",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Oleta Bogan",
+        "FullName": "Prof. Scarlett Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 180
+            "FieldLength": 583
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "incidunt",
-    "Hidden": true,
-    "FullName": "Adrian Champlin",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Celestino Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 623
+        "FieldLength": 721
       }
     }
   }

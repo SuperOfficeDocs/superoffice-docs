@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=non
+GET /api/v1/List/PaymentType/MDOItems?query=numquam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 534,
-    "Name": "Muller Group",
-    "ToolTip": "Cumque id dolore quia veritatis non.",
+    "Id": 514,
+    "Name": "Bogisich, Hessel and Hartmann",
+    "ToolTip": "Tempore quo provident labore laboriosam veritatis quibusdam aperiam.",
     "Deleted": true,
-    "Rank": 362,
-    "Type": "commodi",
+    "Rank": 123,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Toy Group",
-        "ToolTip": "Sunt dolorum itaque qui non amet neque tempore.",
+        "Id": 976,
+        "Name": "Bernhard Group",
+        "ToolTip": "Ad eius a non qui eaque.",
         "Deleted": true,
-        "Rank": 108,
-        "Type": "dignissimos",
+        "Rank": 782,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "expedita",
-        "ColorBlock": 30,
-        "ExtraInfo": "id",
-        "StyleHint": "rerum",
-        "FullName": "Prof. Brady Houston Mitchell",
+        "IconHint": "eveniet",
+        "ColorBlock": 400,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "commodi",
+        "FullName": "Mr. Jeanne Aliyah Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 674
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 641,
-    "ExtraInfo": "magnam",
-    "StyleHint": "ratione",
-    "FullName": "Jennie Bailey",
+    "IconHint": "et",
+    "ColorBlock": 953,
+    "ExtraInfo": "minus",
+    "StyleHint": "nisi",
+    "FullName": "Werner Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 26
       }
     }
   }

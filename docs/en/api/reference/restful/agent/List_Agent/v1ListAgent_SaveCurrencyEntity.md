@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 531,
-  "Name": "Stokes Group",
-  "Tooltip": "sunt",
-  "Rank": 166,
-  "Rate": 29550.486,
-  "Units": 7916.4839999999995,
+  "CurrencyId": 202,
+  "Name": "Schamberger, Feeney and Sporer",
+  "Tooltip": "hic",
+  "Rank": 791,
+  "Rate": 13792.734,
+  "Units": 25401.07,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 144,
-  "Name": "Blick, Runolfsdottir and Hauck",
-  "Tooltip": "consectetur",
-  "Rank": 388,
-  "Rate": 5117.822,
-  "Units": 31104.95,
+  "CurrencyId": 402,
+  "Name": "Bahringer LLC",
+  "Tooltip": "placeat",
+  "Rank": 667,
+  "Rate": 22643.149999999998,
+  "Units": 9101.136,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

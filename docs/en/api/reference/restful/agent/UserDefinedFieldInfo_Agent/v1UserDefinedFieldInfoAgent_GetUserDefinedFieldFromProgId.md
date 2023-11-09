@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "voluptates",
+  "ProgId": "at",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 806,
-  "ColumnId": 623,
+  "UDefFieldId": 1000,
+  "ColumnId": 515,
   "FieldDefault": "eius",
-  "FieldHeight": 793,
-  "FieldLabel": "quo",
-  "FieldLeft": 430,
-  "FieldTop": 713,
+  "FieldHeight": 13,
+  "FieldLabel": "magni",
+  "FieldLeft": 53,
+  "FieldTop": 486,
   "FieldType": "Checkbox",
-  "FieldWidth": 791,
-  "FormatMask": "qui",
+  "FieldWidth": 1002,
+  "FormatMask": "quia",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 829,
-  "LabelLeft": 40,
-  "LabelTop": 441,
+  "IsIndexed": true,
+  "LabelHeight": 759,
+  "LabelLeft": 847,
+  "LabelTop": 115,
   "LabelWidth": 170,
-  "LastVersionId": 401,
-  "ListTableId": 391,
+  "LastVersionId": 848,
+  "ListTableId": 172,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 460,
-  "ProgId": "autem",
+  "Page1LineNo": 150,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "totam",
-  "TabOrder": 967,
-  "TextLength": 810,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 67,
-  "UDListDefinitionId": 773,
+  "ShortLabel": "nihil",
+  "TabOrder": 897,
+  "TextLength": 486,
+  "Tooltip": "aperiam",
+  "UdefIdentity": 20,
+  "UDListDefinitionId": 182,
   "Justification": "Center",
-  "Version": 740,
-  "TemplateVariableName": "Quitzon, Durgan and Raynor",
-  "HasBeenPublished": true,
-  "MdoListName": "Koelpin LLC",
+  "Version": 323,
+  "TemplateVariableName": "Schuppe, Jerde and Powlowski",
+  "HasBeenPublished": false,
+  "MdoListName": "Mann Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   }
 }
